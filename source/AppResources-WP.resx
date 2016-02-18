@@ -1080,7 +1080,7 @@ Please take a look at the </value>
     <value>Cache</value>
   </data>
   <data name="ClearCache" xml:space="preserve">
-    <value>Clear</value>
+    <value>Clear cache</value>
   </data>
   <data name="ManagingLocalCache" xml:space="preserve">
     <value>Manage local cache</value>
@@ -2301,8 +2301,17 @@ To go over the limit and get additional features, upgrade to a supergroup:
   <data name="ServiceNotifications" xml:space="preserve">
     <value>Service notifications</value>
   </data>
+  <data name="AutomaticAudioDownload" xml:space="preserve">
+    <value>Automatic audio download</value>
+  </data>
+  <data name="AutomaticPhotoDownload" xml:space="preserve">
+    <value>Automatic photo download</value>
+  </data>
   <data name="CacheSettings" xml:space="preserve">
     <value>Cache settings</value>
+  </data>
+  <data name="ChatSettings" xml:space="preserve">
+    <value>Chat settings</value>
   </data>
   <data name="ClearChannelConfirmation" xml:space="preserve">
     <value>Delete all cached text and media from this channel?</value>
@@ -2324,6 +2333,9 @@ This operation can take a few minutes to complete.</value>
   <data name="Forever" xml:space="preserve">
     <value>Forever</value>
   </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
   <data name="KeepMedia" xml:space="preserve">
     <value>Keep media</value>
   </data>
@@ -2335,16 +2347,112 @@ All media will stay in the Telegram cloud and can be re-downloaded if you need i
   <data name="Music" xml:space="preserve">
     <value>Music</value>
   </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
   <data name="OtherFiles" xml:space="preserve">
     <value>Other files</value>
   </data>
   <data name="Photos" xml:space="preserve">
     <value>Photos</value>
   </data>
+  <data name="PrivateChats" xml:space="preserve">
+    <value>Private chats</value>
+  </data>
   <data name="Videos" xml:space="preserve">
     <value>Videos</value>
   </data>
   <data name="VoiceMessages" xml:space="preserve">
     <value>Voice messages</value>
+  </data>
+  <data name="LocalDatabase" xml:space="preserve">
+    <value>Local database</value>
+  </data>
+  <data name="AutomaticGifDownload" xml:space="preserve">
+    <value>Automatic GIF download</value>
+  </data>
+  <data name="ForwardedGifGenitivePlural" xml:space="preserve">
+    <value>Forwarded GIFs</value>
+  </data>
+  <data name="ForwardedGifGenitiveSingular" xml:space="preserve">
+    <value>Forwarded GIF</value>
+  </data>
+  <data name="ForwardedGifNominativePlural" xml:space="preserve">
+    <value>Forwarded GIFs</value>
+  </data>
+  <data name="ForwardedGifNominativeSingular" xml:space="preserve">
+    <value>Forwarded GIF</value>
+  </data>
+  <data name="Gif" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="AutoplayGifs" xml:space="preserve">
+    <value>Autoplay GIFs</value>
+  </data>
+  <data name="Via" xml:space="preserve">
+    <value>Via {0}</value>
+  </data>
+  <data name="AddNewMembers" xml:space="preserve">
+    <value>Who can add new members?</value>
+  </data>
+  <data name="AllMembers" xml:space="preserve">
+    <value>All members</value>
+  </data>
+  <data name="AlwaysAllow" xml:space="preserve">
+    <value>Always allow</value>
+  </data>
+  <data name="GroupsDescription" xml:space="preserve">
+    <value>Change who can add you to groups and channels</value>
+  </data>
+  <data name="GroupsImportantNote" xml:space="preserve">
+    <value>You can restrict who can add you to groups and channels with granular precision.</value>
+  </data>
+  <data name="GroupsSettingsOverrideNote" xml:space="preserve">
+    <value>These users will or will not be able to add you to groups and channels regardless of the settings above.</value>
+  </data>
+  <data name="GroupsShort" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="NeverAllow" xml:space="preserve">
+    <value>Never allow</value>
+  </data>
+  <data name="OnlyAdmins" xml:space="preserve">
+    <value>Only admins</value>
+  </data>
+  <data name="ForwardedVoiceMessageGenitivePlural" xml:space="preserve">
+    <value>Forwarded voice messages</value>
+  </data>
+  <data name="ForwardedVoiceMessageGenitiveSingular" xml:space="preserve">
+    <value>Forwarded voice message</value>
+  </data>
+  <data name="ForwardedVoiceMessageNominativePlural" xml:space="preserve">
+    <value>Forwarded voice messages</value>
+  </data>
+  <data name="ForwardedVoiceMessageNominativeSingular" xml:space="preserve">
+    <value>Forwarded voice message</value>
+  </data>
+  <data name="RecordingVoiceMessage" xml:space="preserve">
+    <value>Recording voice message</value>
+  </data>
+  <data name="VoiceMessage" xml:space="preserve">
+    <value>Voice message</value>
+  </data>
+  <data name="EncryptionKeyExtendedDescription1" xml:space="preserve">
+    <value>This image and text were derived from the encryption key for this secret chat with {0}.</value>
+  </data>
+  <data name="EncryptionKeyExtendedDescription2" xml:space="preserve">
+    <value>If they look the same on {0}&apos;s phone, end-to-end encryption is guaranteed.</value>
+  </data>
+  <data name="InlineBotsNotification" xml:space="preserve">
+    <value>Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot&apos;s username are sent to the respective developer.</value>
+  </data>
+  <data name="LinkPreviews" xml:space="preserve">
+    <value>Link previews</value>
+  </data>
+  <data name="LInkPreviewsNotification" xml:space="preserve">
+    <value>Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</value>
+  </data>
+  <data name="ViewStickers" xml:space="preserve">
+    <value>View stickers</value>
   </data>
 </root>
