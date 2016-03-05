@@ -87,6 +87,7 @@
   <string name="CommentsInfo">If you enable comments, people will be able to discuss your posts in the channel.</string>
   <string name="AddMutual">Add contacts to your channel</string>
   <string name="ChannelUsernameHelp">People can share this link with others and find your channel using Telegram search.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">link</string>
   <string name="ChannelPrivateLinkHelp">People can join your channel by following this link. You can revoke the link any time.</string>
   <string name="DescriptionPlaceholder">Description</string>
@@ -114,6 +115,8 @@
   <string name="LinkInvalidShort">Channel names must have at least 5 characters.</string>
   <string name="LinkInvalidLong">The name must not exceed 32 characters.</string>
   <string name="LinkInvalidStartNumber">Channel names can\'t start with a number.</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Checking name…</string>
   <string name="LinkAvailable">%1$s is available.</string>
   <string name="ChannelMembers">Members</string>
@@ -125,6 +128,7 @@
   <string name="ChannelLeaveAlert">Are you sure you want to leave the channel?</string>
   <string name="ChannelDeleteInfo">You will lose all messages in this channel.</string>
   <string name="ChannelEdit">Edit</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Please note that if you choose a public link for your channel, anyone will be able to find it in search and join.\n\nDo not create this link if you want your channel to stay private.</string>
   <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.</string>
   <string name="ActionCreateChannel">Channel created</string>
@@ -180,6 +184,10 @@
   <string name="WhoCanAddMembers">Who can add new members?</string>
   <string name="WhoCanAddMembersAllMembers">All Members</string>
   <string name="WhoCanAddMembersAdmins">Only Admins</string>
+  <string name="ChannelNotifyMembersInfoOn">Members will be notified when you post</string>
+  <string name="ChannelNotifyMembersInfoOff">Members will not be notified when you post</string>
+  <string name="ChannelSignMessages">Sign Messages</string>
+  <string name="ChannelSignMessagesInfo">Add names of the admins to the messages they post.</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">New Broadcast List</string>
   <string name="EnterListName">Enter list name</string>
@@ -381,7 +389,8 @@
   <string name="EncryptionKey">Encryption Key</string>
   <string name="MessageLifetime">Self-Destruct Timer</string>
   <string name="ShortMessageLifetimeForever">Off</string>
-  <string name="EncryptionKeyDescription">This image is a visualization of the encryption key for this secret chat with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>If this image looks the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> phone, your chat is 200%% secure.<![CDATA[<br><br>]]>Learn more at telegram.org</string>
+  <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>If they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.<![CDATA[<br><br>]]>Learn more at telegram.org</string>
+  <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Unknown</string>
   <string name="Info">Info</string>
   <string name="Phone">Phone</string>
@@ -634,6 +643,7 @@
   <string name="AddCaption">Add a caption...</string>
   <string name="PhotoCaption">Photo Caption</string>
   <string name="VideoCaption">Video Caption</string>
+  <string name="Caption">Caption</string>
   <!--password view-->
   <string name="TwoStepVerification">Two-Step Verification</string>
   <string name="SetAdditionalPassword">Set Additional Password</string>
@@ -847,6 +857,7 @@
   <string name="SecretLinkPreviewAlert">Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</string>
   <string name="SecretChatContextBotAlert">Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot\'s username are sent to the respective developer.</string>
   <string name="RaiseToSpeakAlert">Would you like to enable \"Raise to speak\" for voice messages?</string>
+  <string name="EditMessageError">Sorry, you can\'t edit this message.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram needs access to your contacts so that you can connect with your friends across all your devices.</string>
   <string name="PermissionStorage">Telegram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
@@ -1027,6 +1038,12 @@
   <string name="ForwardedVideo_few">%1$d forwarded videos</string>
   <string name="ForwardedVideo_many">%1$d forwarded videos</string>
   <string name="ForwardedVideo_other">%1$d forwarded videos</string>
+  <string name="ForwardedMusic_zero">%1$d forwarded tracks</string>
+  <string name="ForwardedMusic_one">Forwarded track</string>
+  <string name="ForwardedMusic_two">%1$d forwarded tracks</string>
+  <string name="ForwardedMusic_few">%1$d forwarded tracks</string>
+  <string name="ForwardedMusic_many">%1$d forwarded tracks</string>
+  <string name="ForwardedMusic_other">%1$d forwarded tracks</string>
   <string name="ForwardedAudio_zero">%1$d forwarded voice messages</string>
   <string name="ForwardedAudio_one">Forwarded voice message</string>
   <string name="ForwardedAudio_two">%1$d forwarded voice messages</string>
@@ -1069,6 +1086,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s at %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram for Android has been updated. New in version 3.4.0:\n\nGIF revolution: up to 20x faster downloading/sending, autoplay, save GIFs to a dedicated tab on the sticker panel.\n\nMore about GIFs:\nhttps://telegram.org/blog/gif-revolution\n\nInline bots: A new way to add bot content to any chat. Type a bot\'s username and your query in the text field to get instant results and send them to your chat partner. Try typing “@gif dog” in your next chat. Sample bots: @gif, @wiki, @bing, @vid, @bold.\n\nMore about inline bots:\nhttps://telegram.org/blog/inline-bots</string>
-  <string name="updateBuild">704</string>
+  <string name="updateText">Telegram for Android has been updated. New in version 3.5:\n\n- New Voice Messages. Waveform visualizations, brand new player. Experimental: raise to speak / raise to listen.\n- New Secret Chats. Support for all the stuff you love in cloud chats: GIFs, replies, captions, sticker set previews, and inline bots. Added improved key visualization and optional link previews.\n- New privacy settings. Control who can add you to groups and channels with granular precision.\n- New photo editor. Added rotate, fade, tint and curves tools.\n\nMore about this update:\nhttps://telegram.org/blog/voice-2-secret-3</string>
+  <string name="updateBuild">732</string>
 </resources>
