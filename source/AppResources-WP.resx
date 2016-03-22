@@ -1018,7 +1018,7 @@ If you have questions, contact our </value>
     <value>If you have any problems with the registration process or logging in to your account, please contact us at </value>
   </data>
   <data name="RegistrationProblemEmail" xml:space="preserve">
-    <value>sms@stel.com</value>
+    <value>sms@telegram.org</value>
   </data>
   <data name="ChooseYourCountry" xml:space="preserve">
     <value>Choose your country</value>
@@ -2524,5 +2524,114 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
   </data>
   <data name="UnmuteChannelPostHint" xml:space="preserve">
     <value>Members will be notified when you post</value>
+  </data>
+  <data name="PinMessage" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="UnpinMessage" xml:space="preserve">
+    <value>Unpin</value>
+  </data>
+  <data name="UnpinMessageConfirmation" xml:space="preserve">
+    <value>Do you want to unpin this message?</value>
+  </data>
+  <data name="ConvertToSupergroup" xml:space="preserve">
+    <value>Convert to supergroup</value>
+  </data>
+  <data name="ConvertToSupergroupNote" xml:space="preserve">
+    <value>**Note**: this action can&apos;t be undone.</value>
+  </data>
+  <data name="Supergroup" xml:space="preserve">
+    <value>Supegroup</value>
+  </data>
+  <data name="ConvertToSupergroupDescription" xml:space="preserve">
+    <value>**In supergroups**:
+• New members can see the full message history
+• Deleted messages will disappear for all members
+• Members can edit their own messages
+• Creator can set a public link for the group</value>
+  </data>
+  <data name="BanUser" xml:space="preserve">
+    <value>Ban user</value>
+  </data>
+  <data name="DeleteAllFrom" xml:space="preserve">
+    <value>Delete all from {0}</value>
+  </data>
+  <data name="DeleteMessageConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete 1 message?</value>
+  </data>
+  <data name="DeleteMessages" xml:space="preserve">
+    <value>Delete messages</value>
+  </data>
+  <data name="DeleteMessagesConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete {0} messages?</value>
+  </data>
+  <data name="MessageActionPinMessage" xml:space="preserve">
+    <value>{0} pinned a message</value>
+  </data>
+  <data name="MessageActionPinContact" xml:space="preserve">
+    <value>{0} pinned a contact</value>
+  </data>
+  <data name="MessageActionPinFile" xml:space="preserve">
+    <value>{0} pinned a file</value>
+  </data>
+  <data name="MessageActionPinGif" xml:space="preserve">
+    <value>{0} pinned a GIF</value>
+  </data>
+  <data name="MessageActionPinMap" xml:space="preserve">
+    <value>{0} pinned a map</value>
+  </data>
+  <data name="MessageActionPinPhoto" xml:space="preserve">
+    <value>{0} pinned a photo</value>
+  </data>
+  <data name="MessageActionPinSticker" xml:space="preserve">
+    <value>{0} pinned a sticker</value>
+  </data>
+  <data name="MessageActionPinText" xml:space="preserve">
+    <value>{0} pinned &quot;{1}&quot;</value>
+  </data>
+  <data name="MessageActionPinTrack" xml:space="preserve">
+    <value>{0} pinned a track</value>
+  </data>
+  <data name="MessageActionPinVideo" xml:space="preserve">
+    <value>{0} pinned a video</value>
+  </data>
+  <data name="MessageActionPinVoiceMessage" xml:space="preserve">
+    <value>{0} pinned a voice message</value>
+  </data>
+  <data name="PinnedMessage" xml:space="preserve">
+    <value>Pinned message</value>
+  </data>
+  <data name="ConvertToSupergroupConfirmation" xml:space="preserve">
+    <value>This action is irreversible. It is not possible to downgrade a supergroup to a regular group.</value>
+  </data>
+  <data name="NotifyAllMembers" xml:space="preserve">
+    <value>Notify all members</value>
+  </data>
+  <data name="PinMessageConfirmation" xml:space="preserve">
+    <value>Do you want to pin this message in this group?</value>
+  </data>
+  <data name="ChatMaxSizeNotification" xml:space="preserve">
+    <value>You will be able to add more users after you finish creating the group and convert it to a supergroup.</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="ChoosePublicGroupLinkNotification" xml:space="preserve">
+    <value>Please choose a link for your public group, so that people can find it in search and share with others.</value>
+  </data>
+  <data name="GroupType" xml:space="preserve">
+    <value>Group type</value>
+  </data>
+  <data name="PrivateGroupDescription" xml:space="preserve">
+    <value>Private groups can only be joined if you were invited or have an invite link.</value>
+  </data>
+  <data name="PrivateGroupLinkDescription" xml:space="preserve">
+    <value>People can join your group by following this link. You can revoke the link any time.</value>
+  </data>
+  <data name="PublicGroupDescription" xml:space="preserve">
+    <value>Public groups can be found in search, chat history is available to everyone and anyone can join.</value>
+  </data>
+  <data name="PublicGroupLinkDescription" xml:space="preserve">
+    <value>People can share this link with others and find your group using Telegram search.</value>
   </data>
 </root>
