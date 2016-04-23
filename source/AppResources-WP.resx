@@ -2704,4 +2704,7 @@ Your report will be reviewed by our team very soon.</value>
   <data name="ShareLocationInlineConfirmation" xml:space="preserve">
     <value>This bot would like to know your location each time you send it a request. This can be used to provide location-specific results.</value>
   </data>
+  <data name="MoreInfo" xml:space="preserve">
+    <value>More info</value>
+  </data>
 </root>
