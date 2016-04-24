@@ -1,0 +1,2703 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>Telegram</value>
+  </data>
+  <data name="BlockContact" xml:space="preserve">
+    <value>屏蔽</value>
+  </data>
+  <data name="BlockedUsers" xml:space="preserve">
+    <value>已屏蔽的用户</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>呼叫</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Dialogs" xml:space="preserve">
+    <value>会话</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>转发</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>加载中...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="Sending" xml:space="preserve">
+    <value>发送中</value>
+  </data>
+  <data name="SendingFailed" xml:space="preserve">
+    <value>发送失败</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>发送消息</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="ShareContact" xml:space="preserve">
+    <value>分享联系方式</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="UnblockContact" xml:space="preserve">
+    <value>取消屏蔽</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="YourMessage" xml:space="preserve">
+    <value>输入消息</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="NoMessagesYet" xml:space="preserve">
+    <value>暂时还没有消息...</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="DeleteChatConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete this chat?</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="EmptyMessage" xml:space="preserve">
+    <value>已删除消息</value>
+  </data>
+  <data name="ForwardedMessage" xml:space="preserve">
+    <value>转发的消息</value>
+  </data>
+  <data name="GeoPoint" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="ComposeMessage" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="ServiceMessage" xml:space="preserve">
+    <value>服务消息</value>
+  </data>
+  <data name="UnsupportedMedia" xml:space="preserve">
+    <value>您的 Telegram 版本不支持此消息。请更新本应用到以查看：http://telegram.org/update</value>
+  </data>
+  <data name="Unread" xml:space="preserve">
+    <value>未读</value>
+  </data>
+  <data name="IsTyping" xml:space="preserve">
+    <value>正在输入</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="MessageActionChatCreate" xml:space="preserve">
+    <value>{0} 创建了群组 &quot;{1}&quot;</value>
+  </data>
+  <data name="MessageActionChatEditTitle" xml:space="preserve">
+    <value>{0} 将群组名称更改为 &quot;{1}&quot;</value>
+  </data>
+  <data name="MessageActionChatEditPhoto" xml:space="preserve">
+    <value>{0} 更换了群组图片</value>
+  </data>
+  <data name="MessageActionChatDeletePhoto" xml:space="preserve">
+    <value>{0}删除了讨论组头像</value>
+  </data>
+  <data name="MessageActionChatAddUser" xml:space="preserve">
+    <value>{0}添加了新成员{1}</value>
+  </data>
+  <data name="MessageActionChatDeleteUser" xml:space="preserve">
+    <value>{0}把{1}踢出了讨论组</value>
+  </data>
+  <data name="MessageActionEmpty" xml:space="preserve">
+    <value>空服务消息</value>
+  </data>
+  <data name="CompanyNominative" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="CompanyGenitivePlural" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="CompanyGenitiveSingular" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="PeopleInTheConversation" xml:space="preserve">
+    <value>{0}个成员</value>
+  </data>
+  <data name="Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="LastSeenAt" xml:space="preserve">
+    <value>最近一次上线时间：{0} {1}</value>
+  </data>
+  <data name="LastSeen" xml:space="preserve">
+    <value>{0} 前还在线</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>{0}分钟</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>{0}分钟</value>
+  </data>
+  <data name="MinuteAccusative" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="MinuteGenitiveSingular" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="MinuteGenitivePlural" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Attach" xml:space="preserve">
+    <value>附上</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="MapAccusative" xml:space="preserve">
+    <value>我的位置</value>
+  </data>
+  <data name="PhotoAccusative" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>新建讨论组</value>
+  </data>
+  <data name="NewSecretChat" xml:space="preserve">
+    <value>新建私密对话</value>
+  </data>
+  <data name="TileUpdaterTaskDescription" xml:space="preserve">
+    <value>定时更新动态磁贴上未读消息数的任务。</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>已共享媒体</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>个人资料</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>通知 + 声音</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="CreateSecretChat" xml:space="preserve">
+    <value>创建私密对话</value>
+  </data>
+  <data name="MessageNotifications" xml:space="preserve">
+    <value>新消息通知</value>
+  </data>
+  <data name="ChatNotifications" xml:space="preserve">
+    <value>聊天消息通知</value>
+  </data>
+  <data name="NotificationsSubtitle" xml:space="preserve">
+    <value>消息，讨论组和应用开启时的消息通知</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>支持</value>
+  </data>
+  <data name="AskAQuestion" xml:space="preserve">
+    <value>向我们提问</value>
+  </data>
+  <data name="InAppNotifications" xml:space="preserve">
+    <value>应用开启时的消息通知</value>
+  </data>
+  <data name="OnPlural" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="OffPlural" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="OnFeminine" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="OffFeminine" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="InAppSounds" xml:space="preserve">
+    <value>应用打开时播放声音</value>
+  </data>
+  <data name="InAppVibrate" xml:space="preserve">
+    <value>应用打开时震动</value>
+  </data>
+  <data name="InAppPreview" xml:space="preserve">
+    <value>应用打开时显示消息预览</value>
+  </data>
+  <data name="ResetAllNotifications" xml:space="preserve">
+    <value>清除所有自定义通知设置</value>
+  </data>
+  <data name="ResetAllNotificationsSubtitle" xml:space="preserve">
+    <value>恢复对所有联系人和讨论组的自定义通知设置到默认状态</value>
+  </data>
+  <data name="OnMasculine" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="OffMasculine" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="GroupNotifications" xml:space="preserve">
+    <value>讨论组消息通知</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="MessagePreview" xml:space="preserve">
+    <value>消息预览</value>
+  </data>
+  <data name="SaveIncomingPhotos" xml:space="preserve">
+    <value>保存收到的图片</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>分享</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="CompanyNominativeSingular" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="CompanyNominativePlural" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="PictureAccusative" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ContactAccusative" xml:space="preserve">
+    <value>联系人</value>
+  </data>
+  <data name="DocumentAccusative" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="AttachCaption" xml:space="preserve">
+    <value>添加附件</value>
+  </data>
+  <data name="LocationAccusative" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="VideoAccusative" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="NoMediaHere" xml:space="preserve">
+    <value>此处无媒体文件</value>
+  </data>
+  <data name="ChooseAnItem" xml:space="preserve">
+    <value>选择一项</value>
+  </data>
+  <data name="NoUsersHere" xml:space="preserve">
+    <value>此处无用户</value>
+  </data>
+  <data name="NoContactsHere" xml:space="preserve">
+    <value>此处无联系人</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="AddParticipant" xml:space="preserve">
+    <value>添加成员</value>
+  </data>
+  <data name="DeleteAndExitGroup" xml:space="preserve">
+    <value>删除并退出讨论组</value>
+  </data>
+  <data name="MessageActionUserLeftGroup" xml:space="preserve">
+    <value>{0}离开了讨论组</value>
+  </data>
+  <data name="MessageUser" xml:space="preserve">
+    <value>发消息给{0}</value>
+  </data>
+  <data name="ViewUser" xml:space="preserve">
+    <value>查看{0}</value>
+  </data>
+  <data name="SearchAmongYourDialogsAndMessages" xml:space="preserve">
+    <value>搜索会话和消息</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="NoMessagesHere" xml:space="preserve">
+    <value>此处无消息</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>无结果</value>
+  </data>
+  <data name="Conversations" xml:space="preserve">
+    <value>会话</value>
+  </data>
+  <data name="EditName" xml:space="preserve">
+    <value>编辑姓名</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="YourPhone" xml:space="preserve">
+    <value>您的手机号</value>
+  </data>
+  <data name="SignInMessage" xml:space="preserve">
+    <value>请确认你的国家代码并输入您的手机号。</value>
+  </data>
+  <data name="Your phone number" xml:space="preserve">
+    <value>您的手机号</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>国家</value>
+  </data>
+  <data name="YourCode" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="ConfirmMessage" xml:space="preserve">
+    <value>We have sent an SMS with an activation code to your phone **{0}**</value>
+  </data>
+  <data name="WeWillCallYou" xml:space="preserve">
+    <value>我们会在{0}后通过语音电话方式完成验证</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>您的姓名</value>
+  </data>
+  <data name="SignUpMessage" xml:space="preserve">
+    <value>输入您的姓名并添加头像。</value>
+  </data>
+  <data name="AddPhoto" xml:space="preserve">
+    <value>选择头像</value>
+  </data>
+  <data name="NoDialogsHere" xml:space="preserve">
+    <value>此处无会话</value>
+  </data>
+  <data name="StartMessaging" xml:space="preserve">
+    <value>开始对话</value>
+  </data>
+  <data name="Intro1Message" xml:space="preserve">
+    <value>欢迎使用 Telegram——
+全球最快的聊天软件。
+免费，而且安全。</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="FastMessage" xml:space="preserve">
+    <value>Telegram 收发消息速度超过所有聊天软件。</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>免费</value>
+  </data>
+  <data name="FreeMessage" xml:space="preserve">
+    <value>Telegram 永久免费。
+无广告，无月租。</value>
+  </data>
+  <data name="Powerful" xml:space="preserve">
+    <value>强大</value>
+  </data>
+  <data name="PowerfulMessage" xml:space="preserve">
+    <value>Telegram 不限制你聊天记录和附件的
+大小和数量。</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="SecureMessage" xml:space="preserve">
+    <value>即使你被黑客入侵，
+你在 Telegram 上的信息仍无法被他人获取。</value>
+  </data>
+  <data name="CloudBased" xml:space="preserve">
+    <value>云同步</value>
+  </data>
+  <data name="CloudBasedMessage" xml:space="preserve">
+    <value>不管你身处何处，Telegram 上的消息
+和聊天记录与你同行。</value>
+  </data>
+  <data name="TelegramDialedYourNumber" xml:space="preserve">
+    <value>Telegram 正在拨打你的手机</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="YourPhoneNumber" xml:space="preserve">
+    <value>你的手机号</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>来自</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>你</value>
+  </data>
+  <data name="YouWhereKickedFromTheGroup" xml:space="preserve">
+    <value>你被踢出了讨论组</value>
+  </data>
+  <data name="SavePhotoMessage" xml:space="preserve">
+    <value>图片保存成功</value>
+  </data>
+  <data name="SharedContact" xml:space="preserve">
+    <value>与你共享的联系人</value>
+  </data>
+  <data name="AllContacts" xml:space="preserve">
+    <value>所有联系人</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="InviteFriends" xml:space="preserve">
+    <value>邀请朋友</value>
+  </data>
+  <data name="MyLocation" xml:space="preserve">
+    <value>我的位置</value>
+  </data>
+  <data name="Satellite" xml:space="preserve">
+    <value>卫星图</value>
+  </data>
+  <data name="Hybrid" xml:space="preserve">
+    <value>混合地图</value>
+  </data>
+  <data name="SwitchMode" xml:space="preserve">
+    <value>切换显示方式</value>
+  </data>
+  <data name="DistanceAway" xml:space="preserve">
+    <value>距离我{0}</value>
+  </data>
+  <data name="MetersShort" xml:space="preserve">
+    <value>米</value>
+  </data>
+  <data name="KilometersShort" xml:space="preserve">
+    <value>千米</value>
+  </data>
+  <data name="ShareLocation" xml:space="preserve">
+    <value>共享位置</value>
+  </data>
+  <data name="Emoji" xml:space="preserve">
+    <value>表情</value>
+  </data>
+  <data name="LogOutConfirmation" xml:space="preserve">
+    <value>您确定要注销吗？
+请注意，您可以同时在所有设备上无缝地使用 Telegram。</value>
+  </data>
+  <data name="GotAQuestionAboutTelegram" xml:space="preserve">
+    <value>对 Telegram 有疑问？</value>
+  </data>
+  <data name="InviteFriendMessage" xml:space="preserve">
+    <value>喂，一起来用 Telegram 聊天吧！访问 http://telegram.org/dl 了解详情。</value>
+  </data>
+  <data name="ResetAllNotificationsMessage" xml:space="preserve">
+    <value>清除所有通知设置？</value>
+  </data>
+  <data name="AreTyping" xml:space="preserve">
+    <value>正在输入</value>
+  </data>
+  <data name="ClearHistory" xml:space="preserve">
+    <value>清除聊天记录</value>
+  </data>
+  <data name="DeleteAndExit" xml:space="preserve">
+    <value>删除并退出讨论组</value>
+  </data>
+  <data name="DeleteHistoryAndExitGroupMessage" xml:space="preserve">
+    <value>确认删除所有聊天记录并退出讨论组？</value>
+  </data>
+  <data name="NoUsers" xml:space="preserve">
+    <value>无用户</value>
+  </data>
+  <data name="UserNominativeSingular" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="UserNominativePlural" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="UserGenitiveSingular" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="UserGenitivePlural" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="PleaseGoToChatToForwardMessage" xml:space="preserve">
+    <value>请到消息面板转发消息</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="ForwardeMessageToThisChat" xml:space="preserve">
+    <value>把消息转发到该对话？</value>
+  </data>
+  <data name="TodayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="RegularFormat" xml:space="preserve">
+    <value>M 月 d 日</value>
+  </data>
+  <data name="LongRegularFormat" xml:space="preserve">
+    <value>yyyy 年 M 月 d 日</value>
+  </data>
+  <data name="MessageTodayFormat" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="MessageRegularFormat" xml:space="preserve">
+    <value>M 月 d 日 {0}</value>
+  </data>
+  <data name="MessageLongRegularFormat" xml:space="preserve">
+    <value>yyyy 年 M 月 d 日 {0}</value>
+  </data>
+  <data name="UserStatusTimeFormat" xml:space="preserve">
+    <value>H:mm</value>
+  </data>
+  <data name="UserStatusDayFormat" xml:space="preserve">
+    <value>M 月 d 日</value>
+  </data>
+  <data name="UserStatusYearDayFormat" xml:space="preserve">
+    <value>yyyy 年 M 月 d 日</value>
+  </data>
+  <data name="PhoneNumberInvalidString" xml:space="preserve">
+    <value>手机号无效，请重试。</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="FloodWaitString" xml:space="preserve">
+    <value>服务器负载过大，请重试。</value>
+  </data>
+  <data name="PhoneCodeInvalidString" xml:space="preserve">
+    <value>验证码错误，请重试。</value>
+  </data>
+  <data name="PhoneCodeExpiredString" xml:space="preserve">
+    <value>验证码已过期，请重试。</value>
+  </data>
+  <data name="PhoneCodeEmpty" xml:space="preserve">
+    <value>请填写验证码。</value>
+  </data>
+  <data name="FirstNameInvalidString" xml:space="preserve">
+    <value>请填写您的姓。</value>
+  </data>
+  <data name="LastNameInvalidString" xml:space="preserve">
+    <value>请填写您的名字。</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>锁屏界面</value>
+  </data>
+  <data name="LockScreenSubtitle" xml:space="preserve">
+    <value>把 Telegram 添加到锁屏界面</value>
+  </data>
+  <data name="ConfirmAgeMessage" xml:space="preserve">
+    <value>按下确认按钮视为您确认您的年龄大于 13 岁。</value>
+  </data>
+  <data name="ConfirmAgeTitle" xml:space="preserve">
+    <value>确认您的年龄</value>
+  </data>
+  <data name="ConfirmPushMessage" xml:space="preserve">
+    <value>是否允许 Telegram 使用推送通知来提醒您有新消息？</value>
+  </data>
+  <data name="ConfirmPushTitle" xml:space="preserve">
+    <value>确认启用推送通知</value>
+  </data>
+  <data name="PrivacyStatement" xml:space="preserve">
+    <value>隐私权协议</value>
+  </data>
+  <data name="PrivacyStatementText" xml:space="preserve">
+    <value>此应用程序使用您当前的地理位置来改善展示地图时的用户体验。您的地理位置信息可能被储存或分享。我们尊重您的隐私。您可以在任何时候关闭此功能。
+
+如果您有任何问题，请联系我们。</value>
+  </data>
+  <data name="VKGroup" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="LocationServices" xml:space="preserve">
+    <value>地理位置服务</value>
+  </data>
+  <data name="AllowLocationServicesTitle" xml:space="preserve">
+    <value>允许获取地理位置？</value>
+  </data>
+  <data name="AllowLocationServiceText" xml:space="preserve">
+    <value>是否允许 Telegram 获取您的当前位置？您可以随时在设置中关闭这个选项。</value>
+  </data>
+  <data name="AboutText1" xml:space="preserve">
+    <value>Telegram 是一个专注于速度和安全性的即时聊天服务。极速，简洁，并且免费。</value>
+  </data>
+  <data name="AboutText2" xml:space="preserve">
+    <value>如需实时支持，请在 Telegram 的设置中选择“向我们提问“以直接向我们的工作人员发送信息。您也可以发送邮件到 support@telegram.org 。</value>
+  </data>
+  <data name="TapRecordToStartRecording" xml:space="preserve">
+    <value>点击“录音”开始……</value>
+  </data>
+  <data name="ACameraIsNotSupportedOnThisDevice" xml:space="preserve">
+    <value>此设备没有相机。</value>
+  </data>
+  <data name="ReadyToRecord" xml:space="preserve">
+    <value>准备录制。</value>
+  </data>
+  <data name="PressBackKeyToSendVideo" xml:space="preserve">
+    <value>按返回键发送视频。</value>
+  </data>
+  <data name="PlaybackStarted" xml:space="preserve">
+    <value>开始回放。</value>
+  </data>
+  <data name="PlaybackPaused" xml:space="preserve">
+    <value>暂停回放。</value>
+  </data>
+  <data name="Recording" xml:space="preserve">
+    <value>正在录制……</value>
+  </data>
+  <data name="PreparingViewfinder" xml:space="preserve">
+    <value>取景器准备中……</value>
+  </data>
+  <data name="PlaybackStoped" xml:space="preserve">
+    <value>回放已停止。</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>录制</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>回放</value>
+  </data>
+  <data name="PleaseEnterGroupSubject" xml:space="preserve">
+    <value>请输入讨论组的主题</value>
+  </data>
+  <data name="PleaseChooseAtLeastOneParticipant" xml:space="preserve">
+    <value>请选择至少一个讨论组成员</value>
+  </data>
+  <data name="ForwardMessagesToThisChat" xml:space="preserve">
+    <value>确认转发消息到此会话？</value>
+  </data>
+  <data name="InvalidCountryCode" xml:space="preserve">
+    <value>国家代码有误</value>
+  </data>
+  <data name="Typing" xml:space="preserve">
+    <value>正在输入</value>
+  </data>
+  <data name="MaximumMessageLengthExceeded" xml:space="preserve">
+    <value>发送的内容长度超过所允许的最大长度（{0} 字符）。</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Backgrounds" xml:space="preserve">
+    <value>聊天背景</value>
+  </data>
+  <data name="Static" xml:space="preserve">
+    <value>静态</value>
+  </data>
+  <data name="Animated" xml:space="preserve">
+    <value>动态</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>聊天背景</value>
+  </data>
+  <data name="ApplicationBackgroundSubtitle" xml:space="preserve">
+    <value>选择聊天背景</value>
+  </data>
+  <data name="ApplicationBackground" xml:space="preserve">
+    <value>应用背景</value>
+  </data>
+  <data name="DialogsBackground" xml:space="preserve">
+    <value>聊天背景</value>
+  </data>
+  <data name="SpecialThanks" xml:space="preserve">
+    <value>特别鸣谢</value>
+  </data>
+  <data name="SendMessageByEnter" xml:space="preserve">
+    <value>按下回车键发送消息</value>
+  </data>
+  <data name="PleaseNoteThatAnimatedBackgroundConsumesMoreBatteryResources" xml:space="preserve">
+    <value>注意：动态背景会消耗更多电力</value>
+  </data>
+  <data name="Please go to chat to forward message" xml:space="preserve">
+    <value>请到消息面板转发消息</value>
+  </data>
+  <data name="SecretChatCaption" xml:space="preserve">
+    <value>你邀请了 {0} 加入到私密对话。</value>
+  </data>
+  <data name="SecretChat" xml:space="preserve">
+    <value>私密对话</value>
+  </data>
+  <data name="UseEntToEndEncryption" xml:space="preserve">
+    <value>使用端到端加密</value>
+  </data>
+  <data name="LeaveNoTraceOnOurServers" xml:space="preserve">
+    <value>不会在我们的服务器上留下任何痕迹</value>
+  </data>
+  <data name="HaveASelfDestructTimer" xml:space="preserve">
+    <value>具有定时自毁功能</value>
+  </data>
+  <data name="SecretChats" xml:space="preserve">
+    <value>私密对话</value>
+  </data>
+  <data name="DoNotAllowForwarding" xml:space="preserve">
+    <value>不允许转发</value>
+  </data>
+  <data name="WaitingForUserToGetOnline" xml:space="preserve">
+    <value>等待{0}上线</value>
+  </data>
+  <data name="SelfDestructTimer" xml:space="preserve">
+    <value>自毁定时器</value>
+  </data>
+  <data name="EncryptionKey" xml:space="preserve">
+    <value>密钥</value>
+  </data>
+  <data name="EncryptionKeyDescription1" xml:space="preserve">
+    <value>这幅图片代表了用于你与{0}的私密聊天的密钥。</value>
+  </data>
+  <data name="EncryptionKeyDescription2" xml:space="preserve">
+    <value>如果这幅图片也出现在{0}的手机上，你们俩的聊天安全性是 200%。</value>
+  </data>
+  <data name="LearnMoreAt" xml:space="preserve">
+    <value>了解详情请访问</value>
+  </data>
+  <data name="TelegramWebsite" xml:space="preserve">
+    <value>Telegram.org</value>
+  </data>
+  <data name="LastSeenAtDate" xml:space="preserve">
+    <value>最近在线时间{0} {1}</value>
+  </data>
+  <data name="LastSeenJustNow" xml:space="preserve">
+    <value>刚刚还在线</value>
+  </data>
+  <data name="SecretChatsDescription" xml:space="preserve">
+    <value>私密聊天：
+• 使用端到端加密
+• 不在云端保留历史记录
+• 定时自毁功能
+• 不允许转发</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="IncognitoMode" xml:space="preserve">
+    <value>隐身模式</value>
+  </data>
+  <data name="TelegramNotifications" xml:space="preserve">
+    <value>Telegram</value>
+  </data>
+  <data name="Invisible" xml:space="preserve">
+    <value>隐身</value>
+  </data>
+  <data name="SecretChatDiscarded" xml:space="preserve">
+    <value>私密对话已取消</value>
+  </data>
+  <data name="SecretChatCreated" xml:space="preserve">
+    <value>私密对话已创建</value>
+  </data>
+  <data name="EmptySecretChat" xml:space="preserve">
+    <value>无私密对话记录</value>
+  </data>
+  <data name="MessageActionSetMessageTTL" xml:space="preserve">
+    <value>{0}启动了定时自毁：{1}</value>
+  </data>
+  <data name="MessageActionYouSetMessageTTL" xml:space="preserve">
+    <value>你启动了定时自毁：{0}</value>
+  </data>
+  <data name="MessageActionDisableMessageTTL" xml:space="preserve">
+    <value>{0}取消了定时自毁</value>
+  </data>
+  <data name="MessageActionYouDisableMessageTTL" xml:space="preserve">
+    <value>您取消了定时自毁</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>请稍候……</value>
+  </data>
+  <data name="SecretChatCaption2" xml:space="preserve">
+    <value>{0} 邀请您加入私密聊天。</value>
+  </data>
+  <data name="YouJoinedTheSecretChat" xml:space="preserve">
+    <value>您已加入私密对话。</value>
+  </data>
+  <data name="UserJoinedYourSecretChat" xml:space="preserve">
+    <value>{0} 加入了您的私密对话</value>
+  </data>
+  <data name="AddContact" xml:space="preserve">
+    <value>添加联系人</value>
+  </data>
+  <data name="DeleteContact" xml:space="preserve">
+    <value>删除联系人</value>
+  </data>
+  <data name="ConfirmDeleteContact" xml:space="preserve">
+    <value>确认删除该联系人？</value>
+  </data>
+  <data name="RegistrationProblemDescription" xml:space="preserve">
+    <value>如果你对注册流程或者登录过程有任何问题，请发送邮件到：</value>
+  </data>
+  <data name="RegistrationProblemEmail" xml:space="preserve">
+    <value>sms@telegram.org</value>
+  </data>
+  <data name="ChooseYourCountry" xml:space="preserve">
+    <value>选择你的国家</value>
+  </data>
+  <data name="AskAVolunteer" xml:space="preserve">
+    <value>向志愿者提问</value>
+  </data>
+  <data name="AskAQuestionPart1" xml:space="preserve">
+    <value>请注意 Telegram 的客户支持是由志愿者进行的。我们会尽早回复您，但是您可能需要等待一段时间。
+
+请查看 </value>
+  </data>
+  <data name="AskAQuestionPart3" xml:space="preserve">
+    <value>：这里有对常见问题的回答以及重要提示</value>
+  </data>
+  <data name="AskAQuestionPart2" xml:space="preserve">
+    <value>常见问题</value>
+  </data>
+  <data name="AskAQuestionPart4" xml:space="preserve">
+    <value>故障处理</value>
+  </data>
+  <data name="AskAQuestionPart5" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PinToStart" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="TerminateAllSessions" xml:space="preserve">
+    <value>终止所有其他会话</value>
+  </data>
+  <data name="TerminateAllSessionsConfirmation" xml:space="preserve">
+    <value>您确定要终止所有其他的登录会话吗？</value>
+  </data>
+  <data name="SlideToCancel" xml:space="preserve">
+    <value>滑动以取消</value>
+  </data>
+  <data name="Terminate" xml:space="preserve">
+    <value>终止</value>
+  </data>
+  <data name="TapAndHoldToRecord" xml:space="preserve">
+    <value>按住录制</value>
+  </data>
+  <data name="NewBroadcastList" xml:space="preserve">
+    <value>新群发消息</value>
+  </data>
+  <data name="AddUserToTheGroup" xml:space="preserve">
+    <value>是否将 {0} 加入到讨论组“{1}”？</value>
+  </data>
+  <data name="NumberOfForwardingMessages" xml:space="preserve">
+    <value>尚未转发消息数量</value>
+  </data>
+  <data name="AddToContacts" xml:space="preserve">
+    <value>添加到通讯录</value>
+  </data>
+  <data name="ShareMyContactInfo" xml:space="preserve">
+    <value>分享我的手机号码</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>缓存</value>
+  </data>
+  <data name="ClearCache" xml:space="preserve">
+    <value>清除所有缓存</value>
+  </data>
+  <data name="ManagingLocalCache" xml:space="preserve">
+    <value>管理本地缓存</value>
+  </data>
+  <data name="Calculating" xml:space="preserve">
+    <value>统计中</value>
+  </data>
+  <data name="SaveFileMessage" xml:space="preserve">
+    <value>文件成功保存</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>社交网络</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>短信</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="SearchAmongYourContacts" xml:space="preserve">
+    <value>搜索联系人</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>连接中</value>
+  </data>
+  <data name="SetProfilePhoto" xml:space="preserve">
+    <value>设置头像</value>
+  </data>
+  <data name="BatterySaverModeAlert" xml:space="preserve">
+    <value>您的设备正处于节电模式中，Telegram 不能正常接收消息。请禁用节电模式。</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="NoInternetConnection" xml:space="preserve">
+    <value>网络不可用</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>正在准备数据</value>
+  </data>
+  <data name="SetUsername" xml:space="preserve">
+    <value>设置用户名</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="ServerError" xml:space="preserve">
+    <value>服务器错误</value>
+  </data>
+  <data name="ServerErrorMessage" xml:space="preserve">
+    <value>出现服务器错误，请稍后重试。</value>
+  </data>
+  <data name="UsernameDescription" xml:space="preserve">
+    <value>你可以选择一个用户名，这样其他人就可以通过用户名（而不是手机号）找到你。
+
+你可以使用 a-z，0-9 和下划线（_），至少五个字符。</value>
+  </data>
+  <data name="UsernameOccupied" xml:space="preserve">
+    <value>对不起，这个用户名已经被占用了。</value>
+  </data>
+  <data name="UsernameInvalid" xml:space="preserve">
+    <value>对不起，这个用户名不符合命名规则。</value>
+  </data>
+  <data name="WaitingForNetwork" xml:space="preserve">
+    <value>等待网络连接</value>
+  </data>
+  <data name="GlobalSearch" xml:space="preserve">
+    <value>全局搜索</value>
+  </data>
+  <data name="UsernameShort" xml:space="preserve">
+    <value>用户名必须至少包含 5 个字符。</value>
+  </data>
+  <data name="UsernameStartsWithNumber" xml:space="preserve">
+    <value>对不起，用户名不能以数字开头。</value>
+  </data>
+  <data name="SelectChat" xml:space="preserve">
+    <value>选择会话</value>
+  </data>
+  <data name="MaximumFileSizeExceeded" xml:space="preserve">
+    <value>不能发送超过 {0} 的文件。</value>
+  </data>
+  <data name="UnableToAccessDocument" xml:space="preserve">
+    <value>无法访问此文件。请选择其他文件上传。</value>
+  </data>
+  <data name="Camcorder" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="CompressVideo" xml:space="preserve">
+    <value>压缩视频</value>
+  </data>
+  <data name="EditedVideo" xml:space="preserve">
+    <value>已编辑的视频</value>
+  </data>
+  <data name="EditVideo" xml:space="preserve">
+    <value>编辑视频</value>
+  </data>
+  <data name="OriginalVideo" xml:space="preserve">
+    <value>原始视频</value>
+  </data>
+  <data name="AccountSelfDestrucsDescription" xml:space="preserve">
+    <value>如果您在此期限内一次都没有登录您的帐号，您账户的所有资料——包括群组，消息记录以及联系人都会被删除。</value>
+  </data>
+  <data name="AccountSelfDestructs" xml:space="preserve">
+    <value>账户自毁</value>
+  </data>
+  <data name="AddExceptions" xml:space="preserve">
+    <value>添加例外</value>
+  </data>
+  <data name="AlwaysShare" xml:space="preserve">
+    <value>总是共享</value>
+  </data>
+  <data name="AlwaysShareWirhUsers" xml:space="preserve">
+    <value>总是与某些用户共享……</value>
+  </data>
+  <data name="AlwaysShareWith" xml:space="preserve">
+    <value>总是共享给</value>
+  </data>
+  <data name="CodecWasNotFound" xml:space="preserve">
+    <value>解码器未找到</value>
+  </data>
+  <data name="Everybody" xml:space="preserve">
+    <value>所有人</value>
+  </data>
+  <data name="IfYouAreAwayFor" xml:space="preserve">
+    <value>如果你消失了</value>
+  </data>
+  <data name="LastSeenDescription" xml:space="preserve">
+    <value>控制谁可以看到你最近在线的时间</value>
+  </data>
+  <data name="LastSeenImportantNote" xml:space="preserve">
+    <value>注意：如果对方没有和你分享他们的最近在线时间，则你只能看到大致的时间段，如最近，一周内，一个月内等。</value>
+  </data>
+  <data name="LastSeenLongTimeAgo" xml:space="preserve">
+    <value>好久没上线了</value>
+  </data>
+  <data name="LastSeenRecently" xml:space="preserve">
+    <value>最近一段时间在线</value>
+  </data>
+  <data name="LastSeenWithinMonth" xml:space="preserve">
+    <value>一个月内上线过</value>
+  </data>
+  <data name="LastSeenWithinWeek" xml:space="preserve">
+    <value>一周内上线过</value>
+  </data>
+  <data name="MyContacts" xml:space="preserve">
+    <value>我的联系人</value>
+  </data>
+  <data name="NeverShare" xml:space="preserve">
+    <value>从不分享</value>
+  </data>
+  <data name="NeverShareWith" xml:space="preserve">
+    <value>从不共享给</value>
+  </data>
+  <data name="NeverShareWithUsers" xml:space="preserve">
+    <value>从不与某些用户共享</value>
+  </data>
+  <data name="Nobody" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="PrivacyAndSecurity" xml:space="preserve">
+    <value>隐私与安全</value>
+  </data>
+  <data name="PrivacySettingsError" xml:space="preserve">
+    <value>服务器压力过大，暂时无法更改隐私设置，请稍后再试。</value>
+  </data>
+  <data name="ProfileIsInvalid" xml:space="preserve">
+    <value>视频编码配置无效</value>
+  </data>
+  <data name="SettingsOverrideNote" xml:space="preserve">
+    <value>这些设定会覆盖上面的设定。</value>
+  </data>
+  <data name="UnknownFailure" xml:space="preserve">
+    <value>未知错误</value>
+  </data>
+  <data name="LastSeenShort" xml:space="preserve">
+    <value>上次在线</value>
+  </data>
+  <data name="PrivacySecuritySubtitle" xml:space="preserve">
+    <value>已阻止的用户，上次看见，终止会话</value>
+  </data>
+  <data name="MonthGenitivePlural" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MonthGenitiveSingular" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MonthNominativePlural" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MonthNominativeSingular" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="YearGenitivePlural" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="YearGenitiveSingular" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="YearNominativePlural" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="YearNominativeSingular" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="LastSeenDescription2" xml:space="preserve">
+    <value>谁能看到你上一次在线的时间？</value>
+  </data>
+  <data name="CheckingUsername" xml:space="preserve">
+    <value>查找用户名……</value>
+  </data>
+  <data name="CantFindContactWithUsername" xml:space="preserve">
+    <value>对不起，无法找到用户 @{0}</value>
+  </data>
+  <data name="Compressing" xml:space="preserve">
+    <value>压缩中</value>
+  </data>
+  <data name="PeopleHubIntegration" xml:space="preserve">
+    <value>与人脉同步</value>
+  </data>
+  <data name="SyncContactsProgress" xml:space="preserve">
+    <value>联系人同步中（{0}/{1}）……</value>
+  </data>
+  <data name="DeletingContacts" xml:space="preserve">
+    <value>联系人删除中……</value>
+  </data>
+  <data name="ChangeNumber" xml:space="preserve">
+    <value>更改手机号</value>
+  </data>
+  <data name="ConfirmNewNumberMessage" xml:space="preserve">
+    <value>我们会向您的新手机号发送一条验证码短信。</value>
+  </data>
+  <data name="NewNumber" xml:space="preserve">
+    <value>新手机号</value>
+  </data>
+  <data name="NewNumberConfirmation" xml:space="preserve">
+    <value>如果您的联系人通讯录中有你的旧手机号，并且您没有在 Telegram 中屏蔽他们，您的新手机号会被添加到他们的通讯录中。</value>
+  </data>
+  <data name="NewNumberDescription" xml:space="preserve">
+    <value>在此您可以更改与 Telegram 绑定的手机号。您的所有数据将迁移到新的手机号上。
+
+注意：如果您的联系人通讯录中有你的旧手机号，并且您没有在 Telegram 中屏蔽他们，您的新手机号会被添加到他们的通讯录中。</value>
+  </data>
+  <data name="NewNumberTaken" xml:space="preserve">
+    <value>手机号 {0} 已经与一个 Telegram 账户绑定。请删除该账号后重试。</value>
+  </data>
+  <data name="MessageActionScreenshotMessages" xml:space="preserve">
+    <value>{0} 拍摄了屏幕截图！</value>
+  </data>
+  <data name="MessageActionYouScreenshotMessages" xml:space="preserve">
+    <value>您拍摄了屏幕截图！</value>
+  </data>
+  <data name="DayGenitivePlural" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DayGenitiveSingular" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DayNominativePlural" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="DayNominativeSingular" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="HourGenitivePlural" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="HourGenitiveSingular" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="HourNominativePlural" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="HourNominativeSingular" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="MinuteNominativePlural" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="MinuteNominativeSingular" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="SecondGenitivePlural" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SecondGenitiveSingular" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SecondNominativePlural" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SecondNominativeSingular" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="WeekGenitivePlural" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="WeekGenitiveSingular" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="WeekNominativePlural" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="WeekNominativeSingular" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="TapAndHoldToView" xml:space="preserve">
+    <value>按住查看</value>
+  </data>
+  <data name="Sticker" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="NoFilesHere" xml:space="preserve">
+    <value>这里没有文件</value>
+  </data>
+  <data name="ShareFiles" xml:space="preserve">
+    <value>您可以发送和接收任何类型的文件，高达 1.5 GB（每个），并随时在任何地方访问它们。</value>
+  </data>
+  <data name="SharePhotosAndVideos" xml:space="preserve">
+    <value>还没有媒体文件。
+
+在此会话中分享照片和视频 —— 或者让本回形针保持空置。</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="MuteFor" xml:space="preserve">
+    <value>静音 {0}</value>
+  </data>
+  <data name="UnmuteIn" xml:space="preserve">
+    <value>在{0}</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="SearchAmongYourChats" xml:space="preserve">
+    <value>搜索您的会话</value>
+  </data>
+  <data name="SearchAmongYourFiles" xml:space="preserve">
+    <value>搜索已共享文件</value>
+  </data>
+  <data name="NewAuthorization" xml:space="preserve">
+    <value>{0}，
+我们检测到有一台新设备正在 {1}, {2} 于 {3} 登录您的账户
+
+设备: {4}
+位置: {5}
+
+如果这不是您，您可以到设置 - 隐私与安全 - 终止所有会话。
+
+此致，Telegram 团队</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>链接</value>
+  </data>
+  <data name="ContactRegistered" xml:space="preserve">
+    <value>{0} 加入了 Telegram！</value>
+  </data>
+  <data name="UnreadMessages" xml:space="preserve">
+    <value>未读消息</value>
+  </data>
+  <data name="ChangePasscode" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="ChangePasscodeHint" xml:space="preserve">
+    <value>当您设置好一个附加密码后，一把锁将会出现在聊天页面。轻触它就可以在退出时锁定Telegram。
+
+注意：如果您忘记这个密码，你将只能删除然后重新安装Telegram。重装之后您将丢失所有的私密会话。</value>
+  </data>
+  <data name="ConfirmPasscode" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="EnterPasscode" xml:space="preserve">
+    <value>请输入您的密码</value>
+  </data>
+  <data name="Passcode" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="SimplePasscode" xml:space="preserve">
+    <value>简单密码</value>
+  </data>
+  <data name="SimplePasscodeHint" xml:space="preserve">
+    <value>简单密码是四位数字。</value>
+  </data>
+  <data name="YourPasscode" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="EnterYourCurrentPasscode" xml:space="preserve">
+    <value>请输入您当前的密码</value>
+  </data>
+  <data name="PasscodeType" xml:space="preserve">
+    <value>密码类型</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>私密</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="YouHaveNewMessage" xml:space="preserve">
+    <value>您有一条新消息</value>
+  </data>
+  <data name="PasscodeAutolockHint" xml:space="preserve">
+    <value>离开一段时间后需要密码。</value>
+  </data>
+  <data name="PasscodeAutolockIn" xml:space="preserve">
+    <value>时间 {0}</value>
+  </data>
+  <data name="Autolock" xml:space="preserve">
+    <value>自动锁定</value>
+  </data>
+  <data name="AutolockDisabled" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="IncorrectPasscode" xml:space="preserve">
+    <value>密码不正确</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="AndOthers" xml:space="preserve">
+    <value>及其他 {0} 个</value>
+  </data>
+  <data name="ForwardedAudioGenitivePlural" xml:space="preserve">
+    <value>转发的音频</value>
+  </data>
+  <data name="ForwardedAudioGenitiveSingular" xml:space="preserve">
+    <value>转发的音频</value>
+  </data>
+  <data name="ForwardedAudioNominativePlural" xml:space="preserve">
+    <value>转发的音频</value>
+  </data>
+  <data name="ForwardedAudioNominativeSingular" xml:space="preserve">
+    <value>转发的音频</value>
+  </data>
+  <data name="ForwardedContactGenitivePlural" xml:space="preserve">
+    <value>转发的联系人</value>
+  </data>
+  <data name="ForwardedContactGenitiveSingular" xml:space="preserve">
+    <value>转发的联系人</value>
+  </data>
+  <data name="ForwardedContactNominativePlural" xml:space="preserve">
+    <value>转发的联系人</value>
+  </data>
+  <data name="ForwardedContactNominativeSingular" xml:space="preserve">
+    <value>转发的联系人</value>
+  </data>
+  <data name="ForwardedFileGenitivePlural" xml:space="preserve">
+    <value>转发的文件</value>
+  </data>
+  <data name="ForwardedFileGenitiveSingular" xml:space="preserve">
+    <value>转发的文件</value>
+  </data>
+  <data name="ForwardedFileNominativePlural" xml:space="preserve">
+    <value>转发的文件</value>
+  </data>
+  <data name="ForwardedFileNominativeSingular" xml:space="preserve">
+    <value>转发的文件</value>
+  </data>
+  <data name="ForwardedLocationGenitivePlural" xml:space="preserve">
+    <value>转发的位置</value>
+  </data>
+  <data name="ForwardedLocationGenitiveSingular" xml:space="preserve">
+    <value>转发的位置</value>
+  </data>
+  <data name="ForwardedLocationNominativePlural" xml:space="preserve">
+    <value>转发的位置</value>
+  </data>
+  <data name="ForwardedLocationNominativeSingular" xml:space="preserve">
+    <value>转发的位置</value>
+  </data>
+  <data name="ForwardedMessageGenitivePlural" xml:space="preserve">
+    <value>转发的消息</value>
+  </data>
+  <data name="ForwardedMessageGenitiveSingular" xml:space="preserve">
+    <value>转发的消息</value>
+  </data>
+  <data name="ForwardedMessageNominativePlural" xml:space="preserve">
+    <value>转发的消息</value>
+  </data>
+  <data name="ForwardedMessageNominativeSingular" xml:space="preserve">
+    <value>转发的消息</value>
+  </data>
+  <data name="ForwardedPhotoGenitivePlural" xml:space="preserve">
+    <value>转发的照片</value>
+  </data>
+  <data name="ForwardedPhotoGenitiveSingular" xml:space="preserve">
+    <value>转发的照片</value>
+  </data>
+  <data name="ForwardedPhotoNominativePlural" xml:space="preserve">
+    <value>转发的照片</value>
+  </data>
+  <data name="ForwardedPhotoNominativeSingular" xml:space="preserve">
+    <value>转发的照片</value>
+  </data>
+  <data name="ForwardedStickerGenitivePlural" xml:space="preserve">
+    <value>转发的贴纸</value>
+  </data>
+  <data name="ForwardedStickerGenitiveSingular" xml:space="preserve">
+    <value>转发的贴纸</value>
+  </data>
+  <data name="ForwardedStickerNominativePlural" xml:space="preserve">
+    <value>转发的贴纸</value>
+  </data>
+  <data name="ForwardedStickerNominativeSingular" xml:space="preserve">
+    <value>转发的贴纸</value>
+  </data>
+  <data name="ForwardedVideoGenitivePlural" xml:space="preserve">
+    <value>转发的视频</value>
+  </data>
+  <data name="ForwardedVideoGenitiveSingular" xml:space="preserve">
+    <value>转发的视频</value>
+  </data>
+  <data name="ForwardedVideoNominativePlural" xml:space="preserve">
+    <value>转发的视频</value>
+  </data>
+  <data name="ForwardedVideoNominativeSingular" xml:space="preserve">
+    <value>转发的视频</value>
+  </data>
+  <data name="SearchMessages" xml:space="preserve">
+    <value>搜索消息</value>
+  </data>
+  <data name="Unsupported" xml:space="preserve">
+    <value>不支持</value>
+  </data>
+  <data name="EnterYourCurrentPassword" xml:space="preserve">
+    <value>请输入您当前的密码</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="PasswordInvalidString" xml:space="preserve">
+    <value>无效密码。请重试。</value>
+  </data>
+  <data name="AlmostThere" xml:space="preserve">
+    <value>几近完成！</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="ChangePasswordHint" xml:space="preserve">
+    <value>您可以设置一个两步验证密码，在您从一台新设备登录时，通过短信（SMS）接收该密码。</value>
+  </data>
+  <data name="ChangeRecoveryEmail" xml:space="preserve">
+    <value>更改恢复邮箱</value>
+  </data>
+  <data name="CompletePasswordHint" xml:space="preserve">
+    <value>请检查您的电子邮箱（不要忘记“垃圾邮件”文件夹）完成两步验证设置。</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>重新输入您的密码</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>请输入您的密码</value>
+  </data>
+  <data name="EnterRecoveryEmail" xml:space="preserve">
+    <value>请输入您的电子邮件地址</value>
+  </data>
+  <data name="EnterRecoveryEmailHint" xml:space="preserve">
+    <value>请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</value>
+  </data>
+  <data name="RecoveryEmail" xml:space="preserve">
+    <value>恢复邮箱</value>
+  </data>
+  <data name="SetRecoveryEmail" xml:space="preserve">
+    <value>设置恢复邮箱</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="SkipRecoveryEmailHint" xml:space="preserve">
+    <value>请认真对待。
+
+如果您忘记了密码，您将无法访问您的Telegram帐户。并且没有办法恢复！</value>
+  </data>
+  <data name="TwoStepVerification" xml:space="preserve">
+    <value>两步验证</value>
+  </data>
+  <data name="YourPassword" xml:space="preserve">
+    <value>您的密码</value>
+  </data>
+  <data name="CurrentSession" xml:space="preserve">
+    <value>当前会话</value>
+  </data>
+  <data name="OtherSessions" xml:space="preserve">
+    <value>其他会话</value>
+  </data>
+  <data name="OfficialApp" xml:space="preserve">
+    <value>官方应用</value>
+  </data>
+  <data name="Sessions" xml:space="preserve">
+    <value>活动会话</value>
+  </data>
+  <data name="TerminateAllOtherSessionsNote" xml:space="preserve">
+    <value>登出本会话以外的所有其他设备</value>
+  </data>
+  <data name="UnofficialApp" xml:space="preserve">
+    <value>非官方应用</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>无效的电子邮件地址</value>
+  </data>
+  <data name="PasswordActive" xml:space="preserve">
+    <value>您的两步验证密码现已激活。</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功！</value>
+  </data>
+  <data name="RecoveryEmailPending" xml:space="preserve">
+    <value>您的恢复邮箱 {0} 还未激活并有待确认。</value>
+  </data>
+  <data name="AbortTwoStepVerificationSetup" xml:space="preserve">
+    <value>关于两步验证设置</value>
+  </data>
+  <data name="StepsToCompleteToTwoStepsVerificationSetup" xml:space="preserve">
+    <value>请完成下列步骤完成两步验证设置
+
+1. 检查您的电子邮箱（不要忘记“垃圾邮件”文件夹） {0}
+
+2. 点击验证链接。</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="PasswordHint" xml:space="preserve">
+    <value>密码提示</value>
+  </data>
+  <data name="PasswordHintLabel" xml:space="preserve">
+    <value>请为您的密码创建一个提示</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>忘记密码？</value>
+  </data>
+  <data name="PasswordHintError" xml:space="preserve">
+    <value>提示必须与您的密码不相同</value>
+  </data>
+  <data name="EnterPasswordHint" xml:space="preserve">
+    <value>请输入您的密码提示</value>
+  </data>
+  <data name="HavingTroubleAccessingEmailMessage" xml:space="preserve">
+    <value>访问您的邮箱 {0} 有困难？</value>
+  </data>
+  <data name="NoAccessRecoveryEmailMessage" xml:space="preserve">
+    <value>如果您无法恢复对您的邮箱的访问权，您剩下的选项就是记起您的密码，或者重置您的账户。</value>
+  </data>
+  <data name="NoRecoveryEmailMessage" xml:space="preserve">
+    <value>因为您没有在设置您的密码时提供一个恢复邮箱，您剩下的选项就是记起您的密码，或者重置您的账户。</value>
+  </data>
+  <data name="PasswordDeactivated" xml:space="preserve">
+    <value>密码已停用</value>
+  </data>
+  <data name="PasswordMessage" xml:space="preserve">
+    <value>您已启用两步验证，因此您的账户现在被一个额外密码保护。</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>密码恢复</value>
+  </data>
+  <data name="PasswordRecoveryHint" xml:space="preserve">
+    <value>请检查您的电子邮箱并输入我们在此发送的六位数字。</value>
+  </data>
+  <data name="SentRecoveryCodeMessage" xml:space="preserve">
+    <value>我们已发送恢复代码到您提供的电子邮箱: {0}</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>对不起</value>
+  </data>
+  <data name="RecoveryEmailComplete" xml:space="preserve">
+    <value>您已启用两步验证。
+您需要在这里设置登录您的 Telegram 账户所需要的密码。</value>
+  </data>
+  <data name="TerminateSessionHint" xml:space="preserve">
+    <value>点按终止会话。</value>
+  </data>
+  <data name="GettingLinkInfo" xml:space="preserve">
+    <value>正在获取链接信息...</value>
+  </data>
+  <data name="ResetMyAccount" xml:space="preserve">
+    <value>重置我的账户</value>
+  </data>
+  <data name="ResetMyAccountConfirmation" xml:space="preserve">
+    <value>这个操作不能撤销。
+
+如果您重置了您的账户，所有消息和会话都将被删除。</value>
+  </data>
+  <data name="ResetMyAccountHint" xml:space="preserve">
+    <value>如果您继续完成重置您的账户，您的失去您的所有会话和消息，以及与您共享的任何媒体和文件。</value>
+  </data>
+  <data name="IsRecordingAudio" xml:space="preserve">
+    <value>正在录制音频</value>
+  </data>
+  <data name="IsSendingFile" xml:space="preserve">
+    <value>正在发送文件</value>
+  </data>
+  <data name="IsSendingPhoto" xml:space="preserve">
+    <value>正在发送照片</value>
+  </data>
+  <data name="IsSendingVideo" xml:space="preserve">
+    <value>正在发送视频</value>
+  </data>
+  <data name="RecordingAudio" xml:space="preserve">
+    <value>正在录制音频</value>
+  </data>
+  <data name="SendingFile" xml:space="preserve">
+    <value>正在发送文件</value>
+  </data>
+  <data name="SendingPhoto" xml:space="preserve">
+    <value>正在发送照片</value>
+  </data>
+  <data name="SendingVideo" xml:space="preserve">
+    <value>正在发送视频</value>
+  </data>
+  <data name="AddCaption" xml:space="preserve">
+    <value>添加标题...</value>
+  </data>
+  <data name="CopyLink" xml:space="preserve">
+    <value>复制链接</value>
+  </data>
+  <data name="CopyLinkHint" xml:space="preserve">
+    <value>链接已复制到剪贴板</value>
+  </data>
+  <data name="GroupFullError" xml:space="preserve">
+    <value>对不起，此组已满。</value>
+  </data>
+  <data name="GroupNotExistsError" xml:space="preserve">
+    <value>对不起，此对话似乎不存在。</value>
+  </data>
+  <data name="InviteGroupViaLink" xml:space="preserve">
+    <value>通过链接邀请加入讨论组</value>
+  </data>
+  <data name="InviteLink" xml:space="preserve">
+    <value>邀请链接</value>
+  </data>
+  <data name="InviteLinkHint" xml:space="preserve">
+    <value>任何已安装 Telegram 的用户都可以通过此链接加入您的讨论组。</value>
+  </data>
+  <data name="JoinGroupConfirmation" xml:space="preserve">
+    <value>您想加入讨论组“{0}”吗？</value>
+  </data>
+  <data name="MessageActionChatJoinedByLink" xml:space="preserve">
+    <value>{0} 通过链接加入了讨论组</value>
+  </data>
+  <data name="RevokeLink" xml:space="preserve">
+    <value>取消链接</value>
+  </data>
+  <data name="RevokeLinkConfirmation" xml:space="preserve">
+    <value>您确定要取消此链接？在您执行后，任何人都不能再通过它加入讨论组。</value>
+  </data>
+  <data name="RevokeLinkHint" xml:space="preserve">
+    <value>以前的邀请链接现已失效。新的链接已经生成。</value>
+  </data>
+  <data name="ShareLink" xml:space="preserve">
+    <value>分享链接</value>
+  </data>
+  <data name="Directions" xml:space="preserve">
+    <value>路线</value>
+  </data>
+  <data name="NearbyPlaces" xml:space="preserve">
+    <value>附近的地方</value>
+  </data>
+  <data name="SendThisLocation" xml:space="preserve">
+    <value>发送此位置</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>技术提供</value>
+  </data>
+  <data name="LocationServicesDisabled" xml:space="preserve">
+    <value>你的手机定位服务未开启。</value>
+  </data>
+  <data name="LocationSettings" xml:space="preserve">
+    <value>定位设置</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="AddStickersConfirmation" xml:space="preserve">
+    <value>您想添加贴纸包“{0}”吗？</value>
+  </data>
+  <data name="NewStickersAdded" xml:space="preserve">
+    <value>新的贴纸包已添加</value>
+  </data>
+  <data name="StickersNotFound" xml:space="preserve">
+    <value>贴纸包未找到</value>
+  </data>
+  <data name="ClearLogs" xml:space="preserve">
+    <value>清空日志</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="SendLogs" xml:space="preserve">
+    <value>发送日志</value>
+  </data>
+  <data name="StickerGenitivePlural" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="StickerGenitiveSingular" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="StickerNominativePlural" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="StickerNominativeSingular" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="Stickers" xml:space="preserve">
+    <value>贴纸</value>
+  </data>
+  <data name="StickersDescription" xml:space="preserve">
+    <value>我们欢迎艺术家们通过我们的 @stickers 机器人来创建他们自己的贴纸包。 
+用户可以通过点按贴纸然后选择 &quot;添加到贴纸库&quot; 来添加贴纸包。</value>
+  </data>
+  <data name="LinkCopiedToClipboard" xml:space="preserve">
+    <value>链接已复制到剪贴板</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="AddToStickers" xml:space="preserve">
+    <value>添加到贴纸库</value>
+  </data>
+  <data name="SecretChatRequested" xml:space="preserve">
+    <value>正在交换密钥...</value>
+  </data>
+  <data name="Bot" xml:space="preserve">
+    <value>机器人</value>
+  </data>
+  <data name="OnlySeesMessagesStartingWithSlash" xml:space="preserve">
+    <value>不能访问消息</value>
+  </data>
+  <data name="SeesAllMessages" xml:space="preserve">
+    <value>可以访问消息</value>
+  </data>
+  <data name="WhatCanThisBotDo" xml:space="preserve">
+    <value>这个机器人可以做什么？</value>
+  </data>
+  <data name="AddBotToGroupsError" xml:space="preserve">
+    <value>这个机器人不能加入群组。</value>
+  </data>
+  <data name="AddToGroup" xml:space="preserve">
+    <value>添加到讨论组</value>
+  </data>
+  <data name="BlockContactConfirmation" xml:space="preserve">
+    <value>您确定要屏蔽这个联系人吗？</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="UnblockContactConfirmation" xml:space="preserve">
+    <value>您确定要取消对这个联系人的屏蔽吗？</value>
+  </data>
+  <data name="SharedLinks" xml:space="preserve">
+    <value>已共享链接</value>
+  </data>
+  <data name="BackgroudnTaskDisabledAlert" xml:space="preserve">
+    <value>你禁用了Telegram的后台任务，Telegram 不能正常接收消息。请允许应用在后台运行。</value>
+  </data>
+  <data name="SearchSharedLinks" xml:space="preserve">
+    <value>搜索已共享链接</value>
+  </data>
+  <data name="SharedFiles" xml:space="preserve">
+    <value>已共享文件</value>
+  </data>
+  <data name="ShareLinks" xml:space="preserve">
+    <value>您可以分享这个会话的链接的图片和视频，并在您的所有设备上访问。</value>
+  </data>
+  <data name="DeleteAndStop" xml:space="preserve">
+    <value>删除并停止</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>重启软件</value>
+  </data>
+  <data name="RestartBot" xml:space="preserve">
+    <value>重新启用</value>
+  </data>
+  <data name="StopBot" xml:space="preserve">
+    <value>停止使用</value>
+  </data>
+  <data name="ClearSearchHistoryConfirmation" xml:space="preserve">
+    <value>是否清空搜索历史？</value>
+  </data>
+  <data name="Recent" xml:space="preserve">
+    <value>最近</value>
+  </data>
+  <data name="NewChannel" xml:space="preserve">
+    <value>新建频道</value>
+  </data>
+  <data name="MessageActionBroadcastCreate" xml:space="preserve">
+    <value>{0} 创建了广播 &quot;{1}&quot;</value>
+  </data>
+  <data name="MessageActionChannelCreate" xml:space="preserve">
+    <value>频道已创建</value>
+  </data>
+  <data name="ReportSpam" xml:space="preserve">
+    <value>举报垃圾信息</value>
+  </data>
+  <data name="ConversationMarkedAsSpamConfirmation" xml:space="preserve">
+    <value>对话已被标记为垃圾对话。是否删除并屏蔽该用户？</value>
+  </data>
+  <data name="GroupConversationMarkedAsSpamConfirmation" xml:space="preserve">
+    <value>对话已被标记为垃圾对话。是否删除并退出该群组？</value>
+  </data>
+  <data name="PeerFloodAddContact" xml:space="preserve">
+    <value>对不起，您现在只能将双向联系人加入群组。</value>
+  </data>
+  <data name="PeerFloodSendMessage" xml:space="preserve">
+    <value>对不起，您现在只能给双向联系人发送信息。</value>
+  </data>
+  <data name="LeaveChannel" xml:space="preserve">
+    <value>离开频道</value>
+  </data>
+  <data name="AccessLevel" xml:space="preserve">
+    <value>访问权限</value>
+  </data>
+  <data name="AddManager" xml:space="preserve">
+    <value>添加管理员</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="CommentsDescription" xml:space="preserve">
+    <value>评论开启后，成员将能在频道里讨论您发布的内容。</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>创建者</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Moderator" xml:space="preserve">
+    <value>主持人</value>
+  </data>
+  <data name="ModeratorDescription" xml:space="preserve">
+    <value>可以删除用户生成的内容。</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>发布者</value>
+  </data>
+  <data name="PublisherDescription" xml:space="preserve">
+    <value>能够以频道名义发布、添加与删除内容。</value>
+  </data>
+  <data name="ChannelName" xml:space="preserve">
+    <value>频道名称</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>频道简介</value>
+  </data>
+  <data name="AboutDescription" xml:space="preserve">
+    <value>您可以给您的频道写一段简介。</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ChannelType" xml:space="preserve">
+    <value>频道类型</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>私密</value>
+  </data>
+  <data name="PrivateChannelDescription" xml:space="preserve">
+    <value>私人频道只能通过邀请链接加入。</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>公开</value>
+  </data>
+  <data name="PublicChannelDescription" xml:space="preserve">
+    <value>公共频道将能够被搜索，并且任何人都可以加入。</value>
+  </data>
+  <data name="PrivateLinkDescription" xml:space="preserve">
+    <value>人们可以通过以上链接加入您的频道。您可以随时撤销这个链接。</value>
+  </data>
+  <data name="PublicLinkDescription" xml:space="preserve">
+    <value>人们可以与他人分享这个链接，并使用 Telegram 搜索找到你的频道。</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CommentGenitivePlural" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="CommentGenitiveSingular" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="CommentNominativePlural" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="CommentNominativeSingular" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="Blacklist" xml:space="preserve">
+    <value>黑名单</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ChoosePublicChannelLinkNotification" xml:space="preserve">
+    <value>请为您的公共频道选择一个链接，这样人们可以通过搜索找到它并且分享给他人。
+
+如果您对此不感兴趣，我们建议您创建一个私有频道。</value>
+  </data>
+  <data name="MessageActionChannelEditPhoto" xml:space="preserve">
+    <value>频道标志已更新</value>
+  </data>
+  <data name="Mute" xml:space="preserve">
+    <value>静音</value>
+  </data>
+  <data name="SetChannelPhoto" xml:space="preserve">
+    <value>设置频道图片</value>
+  </data>
+  <data name="Unmute" xml:space="preserve">
+    <value>恢复消息通知</value>
+  </data>
+  <data name="WhatIsChannel" xml:space="preserve">
+    <value>什么是频道？</value>
+  </data>
+  <data name="WhatIsChannelDescription" xml:space="preserve">
+    <value>频道是能够给更多关注者广播你的消息的新工具。</value>
+  </data>
+  <data name="AddEditorConfirmation" xml:space="preserve">
+    <value>您确定要添加 {0} 为编辑？</value>
+  </data>
+  <data name="AddModeratorConfirmation" xml:space="preserve">
+    <value>您确定要添加 {0} 为管理员？</value>
+  </data>
+  <data name="PrivateChannel" xml:space="preserve">
+    <value>私人频道</value>
+  </data>
+  <data name="PrivateToPublicChannelNotification" xml:space="preserve">
+    <value>请注意，如果您选择给您的频道创建一个公共链接，任何人都将能够通过搜索找到它并加入。
+
+如果您想保持这个频道的私密性，请不要创建这个链接。</value>
+  </data>
+  <data name="PublicChannel" xml:space="preserve">
+    <value>公开频道</value>
+  </data>
+  <data name="ChannelsAdminPublicTooMuch" xml:space="preserve">
+    <value>对不起，您已经创建了过多的公共频道。您可以创建一个私人频道或者删除一个现有的公共频道。</value>
+  </data>
+  <data name="ChannelsAdminPublicTooMuchShort" xml:space="preserve">
+    <value>公开频道数量已达上限。</value>
+  </data>
+  <data name="DeleteChannelConfirmation" xml:space="preserve">
+    <value>注意！删除这个频道将会清除所有关注者并且所有消息将会丢失。确定要删除这个频道？</value>
+  </data>
+  <data name="Follow" xml:space="preserve">
+    <value>加入</value>
+  </data>
+  <data name="Join" xml:space="preserve">
+    <value>加入</value>
+  </data>
+  <data name="LeaveChannelConfirmation" xml:space="preserve">
+    <value>您确定要离开这个频道吗？</value>
+  </data>
+  <data name="JoinChannelConfirmation" xml:space="preserve">
+    <value>确定加入频道 &quot;{0}&quot; ？</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Administrators" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="DeleteChannel" xml:space="preserve">
+    <value>删除频道</value>
+  </data>
+  <data name="MessageActionChannelDeletePhoto" xml:space="preserve">
+    <value>删除了频道图片</value>
+  </data>
+  <data name="MessageActionChannelEditTitle" xml:space="preserve">
+    <value>频道名称已修改为 &quot;{0}&quot;</value>
+  </data>
+  <data name="SetSharedLink" xml:space="preserve">
+    <value>设置分享链接</value>
+  </data>
+  <data name="AddAdministrator" xml:space="preserve">
+    <value>添加管理员</value>
+  </data>
+  <data name="ChannelAdministratorsHint" xml:space="preserve">
+    <value>您可以添加管理员来帮助您管理您的频道。长按管理员用户名可以删除该名管理员。</value>
+  </data>
+  <data name="ChannelMembersHint" xml:space="preserve">
+    <value>此列表仅频道管理员可见。</value>
+  </data>
+  <data name="InviteViaLink" xml:space="preserve">
+    <value>使用链接邀请</value>
+  </data>
+  <data name="AddUserAsAdministrator" xml:space="preserve">
+    <value>您确定将 {0} 设为管理员？</value>
+  </data>
+  <data name="ChannelIsNoLongerAccessible" xml:space="preserve">
+    <value>对不起，这个频道已无法访问。</value>
+  </data>
+  <data name="InviteContactConfirmation" xml:space="preserve">
+    <value>{0} 尚未加入这个频道。您要发送邀请吗？</value>
+  </data>
+  <data name="PostToChannelError" xml:space="preserve">
+    <value>对不起，您不能在此频道中发送信息。</value>
+  </data>
+  <data name="SearchSharedMusic" xml:space="preserve">
+    <value>搜索已共享音乐</value>
+  </data>
+  <data name="SharedMusic" xml:space="preserve">
+    <value>分享的音乐</value>
+  </data>
+  <data name="ShareMusic" xml:space="preserve">
+    <value>此会话中共享的所有音乐都会在这里显示。</value>
+  </data>
+  <data name="AdminsDescription" xml:space="preserve">
+    <value>只有管理员可以添加及移除成员、编辑群组名称及图片</value>
+  </data>
+  <data name="AllMembersAreAdmins" xml:space="preserve">
+    <value>所有成员都是管理员</value>
+  </data>
+  <data name="MembersDescription" xml:space="preserve">
+    <value>所有成员可以添加新成员、编辑群组名称及图片</value>
+  </data>
+  <data name="SetAdmins" xml:space="preserve">
+    <value>设置管理员</value>
+  </data>
+  <data name="UpgradeToSupergroup" xml:space="preserve">
+    <value>升级到大型群组</value>
+  </data>
+  <data name="UpgradeToSupergroupConfirmation" xml:space="preserve">
+    <value>请注意，群组成员需要将他们的 Telegram 客户端升级到最新版才能看到大型群组。您确定要升级到大型群组吗？</value>
+  </data>
+  <data name="UpgradeToSupergroupDescription" xml:space="preserve">
+    <value>成员数已达到上限。
+升级到超级群组来增加成员上限并获得更多功能：
+• 超级群组可以提升至高达 {0} 的成员上限
+• 新成员能看到所有历史聊天记录
+• 管理员能够删除任何人的消息
+• 消息通知默认关闭</value>
+  </data>
+  <data name="MessageActionChannelMigrateFrom" xml:space="preserve">
+    <value>此群组已升级为超级群组</value>
+  </data>
+  <data name="MessageActionChatActivate" xml:space="preserve">
+    <value>对话已激活</value>
+  </data>
+  <data name="MessageActionChatDeactivate" xml:space="preserve">
+    <value>对话已关闭</value>
+  </data>
+  <data name="MessageActionChatMigrateTo" xml:space="preserve">
+    <value>对话已转移到频道 &quot;{0}&quot;</value>
+  </data>
+  <data name="DeleteGroup" xml:space="preserve">
+    <value>删除群组</value>
+  </data>
+  <data name="LeaveGroup" xml:space="preserve">
+    <value>离开群组</value>
+  </data>
+  <data name="LeaveGroupConfirmation" xml:space="preserve">
+    <value>您确定要退出这个群组吗？</value>
+  </data>
+  <data name="AdminsTooMuch" xml:space="preserve">
+    <value>对不起，您超出了管理员数限制。</value>
+  </data>
+  <data name="BlockedUsersDescription" xml:space="preserve">
+    <value>黑名单中的用户将会从群组中移除并且只能通过管理员邀请才能再次加入，邀请链接对他们无效。</value>
+  </data>
+  <data name="BotsTooMuch" xml:space="preserve">
+    <value>抱歉，此群组已达到 bots 数量上限。</value>
+  </data>
+  <data name="DeleteGroupConfirmation" xml:space="preserve">
+    <value>注意！删除这个群组将会移除所有成员并且所有消息都会丢失。确定要删除这个群组？</value>
+  </data>
+  <data name="GroupAdministratorsHint" xml:space="preserve">
+    <value>您可以添加管理员来帮助您管理您的群组。长按管理员用户名可以删除该名管理员。</value>
+  </data>
+  <data name="GroupNoLongerAccessible" xml:space="preserve">
+    <value>对不起，无法访问这个群组。</value>
+  </data>
+  <data name="InviteUserBackError" xml:space="preserve">
+    <value>对不起，这个用户已决定离开此群组，您无法邀请此用户回来。</value>
+  </data>
+  <data name="MessageActionChatAddSelf" xml:space="preserve">
+    <value>{0} 回到了群组</value>
+  </data>
+  <data name="PromoteToAdmin" xml:space="preserve">
+    <value>提升为管理员</value>
+  </data>
+  <data name="UserNotMutualContact" xml:space="preserve">
+    <value>对不起，您不能将此用户加入群组。</value>
+  </data>
+  <data name="UsersTooMuch" xml:space="preserve">
+    <value>抱歉，此群组已满员。</value>
+  </data>
+  <data name="GroupIsNoLongerAccessible" xml:space="preserve">
+    <value>对不起，无法访问这个群组。</value>
+  </data>
+  <data name="InviteContactToGroupConfirmation" xml:space="preserve">
+    <value>{0} 尚未加入群组，是否邀请其加入？</value>
+  </data>
+  <data name="OpenUrlConfirmation" xml:space="preserve">
+    <value>是否打开链接 {0} ？</value>
+  </data>
+  <data name="ServiceNotifications" xml:space="preserve">
+    <value>服务通知</value>
+  </data>
+  <data name="AutomaticAudioDownload" xml:space="preserve">
+    <value>自动下载音频</value>
+  </data>
+  <data name="AutomaticPhotoDownload" xml:space="preserve">
+    <value>自动下载图片</value>
+  </data>
+  <data name="CacheSettings" xml:space="preserve">
+    <value>缓存设置</value>
+  </data>
+  <data name="ChatSettings" xml:space="preserve">
+    <value>聊天设置</value>
+  </data>
+  <data name="ClearChannelConfirmation" xml:space="preserve">
+    <value>确定删除此频道中所有缓存的消息文本和媒体文件？</value>
+  </data>
+  <data name="ClearLocalDatabaseConfirmation" xml:space="preserve">
+    <value>清除缓存到本地的文本消息？</value>
+  </data>
+  <data name="ClearLocalDatabaseDescription" xml:space="preserve">
+    <value>清空本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram需要一些数据来维持正常工作，所以数据库大小不会完全归零。
+
+这个操作需要一些时间来完成。</value>
+  </data>
+  <data name="ClearSupergroupConfirmation" xml:space="preserve">
+    <value>确定删除此超级群组中所有缓存的消息文本和媒体文件？</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Forever" xml:space="preserve">
+    <value>永久保留</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="KeepMedia" xml:space="preserve">
+    <value>媒体文件保留时间</value>
+  </data>
+  <data name="KeepMediaDescription" xml:space="preserve">
+    <value>为节省存储空间，在此期限内您未访问的来自云端的图片、视频以及其他文件，都会从此设备中删除。
+
+所有媒体文件会保留在 Telegram 云端，以备您需要时可再次下载。</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>音乐</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>其它</value>
+  </data>
+  <data name="OtherFiles" xml:space="preserve">
+    <value>其他文件</value>
+  </data>
+  <data name="Photos" xml:space="preserve">
+    <value>照片</value>
+  </data>
+  <data name="PrivateChats" xml:space="preserve">
+    <value>私密会话</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="VoiceMessages" xml:space="preserve">
+    <value>语音</value>
+  </data>
+  <data name="LocalDatabase" xml:space="preserve">
+    <value>本地数据库</value>
+  </data>
+  <data name="AutomaticGifDownload" xml:space="preserve">
+    <value>自动下载 GIF 图片</value>
+  </data>
+  <data name="ForwardedGifGenitivePlural" xml:space="preserve">
+    <value>转发的 GIF</value>
+  </data>
+  <data name="ForwardedGifGenitiveSingular" xml:space="preserve">
+    <value>转发的 GIF</value>
+  </data>
+  <data name="ForwardedGifNominativePlural" xml:space="preserve">
+    <value>转发的 GIF</value>
+  </data>
+  <data name="ForwardedGifNominativeSingular" xml:space="preserve">
+    <value>转发的 GIF</value>
+  </data>
+  <data name="Gif" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="AutoplayGifs" xml:space="preserve">
+    <value>自动播放GIF</value>
+  </data>
+  <data name="Via" xml:space="preserve">
+    <value>来自 {0}</value>
+  </data>
+  <data name="AddNewMembers" xml:space="preserve">
+    <value>谁可以向群组邀请新成员？</value>
+  </data>
+  <data name="AllMembers" xml:space="preserve">
+    <value>所有成员</value>
+  </data>
+  <data name="AlwaysAllow" xml:space="preserve">
+    <value>总是允许</value>
+  </data>
+  <data name="GroupsDescription" xml:space="preserve">
+    <value>控制将您添加到群组或频道的权限</value>
+  </data>
+  <data name="GroupsImportantNote" xml:space="preserve">
+    <value>您可以限制其他人将您添加到群组或频道的权限。</value>
+  </data>
+  <data name="GroupsSettingsOverrideNote" xml:space="preserve">
+    <value>在这里配置的权限将会覆盖全局设置。</value>
+  </data>
+  <data name="GroupsShort" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="NeverAllow" xml:space="preserve">
+    <value>从不允许</value>
+  </data>
+  <data name="OnlyAdmins" xml:space="preserve">
+    <value>仅管理员</value>
+  </data>
+  <data name="ForwardedVoiceMessageGenitivePlural" xml:space="preserve">
+    <value>转发的语音消息</value>
+  </data>
+  <data name="ForwardedVoiceMessageGenitiveSingular" xml:space="preserve">
+    <value>转发的语音消息</value>
+  </data>
+  <data name="ForwardedVoiceMessageNominativePlural" xml:space="preserve">
+    <value>转发的语音消息</value>
+  </data>
+  <data name="ForwardedVoiceMessageNominativeSingular" xml:space="preserve">
+    <value>转发的语音消息</value>
+  </data>
+  <data name="RecordingVoiceMessage" xml:space="preserve">
+    <value>正在录制语音</value>
+  </data>
+  <data name="VoiceMessage" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="EncryptionKeyExtendedDescription1" xml:space="preserve">
+    <value>这幅图片代表了用于你与 {0} 的私密聊天的密钥。</value>
+  </data>
+  <data name="EncryptionKeyExtendedDescription2" xml:space="preserve">
+    <value>如果同样的图片也出现在 {0} 的手机上，证明段对端加密工作正常。</value>
+  </data>
+  <data name="InlineBotsNotification" xml:space="preserve">
+    <value>请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</value>
+  </data>
+  <data name="LinkPreviews" xml:space="preserve">
+    <value>链接预览</value>
+  </data>
+  <data name="LInkPreviewsNotification" xml:space="preserve">
+    <value>您要启用加密对话中的链接预览功能吗？注意，所有的链接预览均在 Telegram 的服务器上生成。</value>
+  </data>
+  <data name="ViewStickers" xml:space="preserve">
+    <value>查看贴纸库</value>
+  </data>
+  <data name="NotifyMembers" xml:space="preserve">
+    <value>通知成员</value>
+  </data>
+  <data name="NotifyMembersDescription" xml:space="preserve">
+    <value>每当管理员发布消息时推送通知</value>
+  </data>
+  <data name="SignMessages" xml:space="preserve">
+    <value>对消息签名</value>
+  </data>
+  <data name="SignMessagesDescription" xml:space="preserve">
+    <value>在消息后附加发送消息管理员的名称</value>
+  </data>
+  <data name="ChannelNameDescription" xml:space="preserve">
+    <value>您可以在 Telegram 上为频道设定一个名称。设置后他人将能够通过名称找到您的频道。
+
+您只能使用字母*，数字和下划线组合，最小长度为 5 个字符。</value>
+  </data>
+  <data name="ChannelNameDescription2" xml:space="preserve">
+    <value>此链接将可在 Telegram 中访问您的频道：</value>
+  </data>
+  <data name="SupergroupNameDescription" xml:space="preserve">
+    <value>您可以在 Telegram 上为超级群组设定一个名称。设置后他人将能够通过名称找到您的超级群组。
+
+您只能使用字母*，数字和下划线组合，最小长度为 5 个字符。</value>
+  </data>
+  <data name="SupergroupNameDescription2" xml:space="preserve">
+    <value>此链接将可在 Telegram 中访问您的超级群组：</value>
+  </data>
+  <data name="SupergroupName" xml:space="preserve">
+    <value>群组名称</value>
+  </data>
+  <data name="ChannelNameInvalid" xml:space="preserve">
+    <value>抱歉，该名称不符合规范。</value>
+  </data>
+  <data name="ChannelNameOccupied" xml:space="preserve">
+    <value>抱歉，该名称已被占用。</value>
+  </data>
+  <data name="ChannelNameShort" xml:space="preserve">
+    <value>频道名称必须包含至少 5 个字符。</value>
+  </data>
+  <data name="ChannelNameStartsWithNumber" xml:space="preserve">
+    <value>频道名称不能以数字开头。</value>
+  </data>
+  <data name="NameChecking" xml:space="preserve">
+    <value>正在检查名称...</value>
+  </data>
+  <data name="NameIsAvailable" xml:space="preserve">
+    <value>{0} 可用。</value>
+  </data>
+  <data name="SupergroupNameInvalid" xml:space="preserve">
+    <value>抱歉，该名称不符合规范。</value>
+  </data>
+  <data name="SupergroupNameOccupied" xml:space="preserve">
+    <value>抱歉，该名称已被占用。</value>
+  </data>
+  <data name="SupergroupNameShort" xml:space="preserve">
+    <value>群组名称必须包含至少5个字符。</value>
+  </data>
+  <data name="SupergroupNameStartsWithNumber" xml:space="preserve">
+    <value>群组名称不能以数字开头。</value>
+  </data>
+  <data name="EditMessageError" xml:space="preserve">
+    <value>抱歉，您不能编辑这条消息。</value>
+  </data>
+  <data name="MuteChannelPostHint" xml:space="preserve">
+    <value>消息发布后用户将不会收到通知</value>
+  </data>
+  <data name="UnmuteChannelPostHint" xml:space="preserve">
+    <value>消息发布后用户将会收到通知</value>
+  </data>
+  <data name="PinMessage" xml:space="preserve">
+    <value>置顶</value>
+  </data>
+  <data name="UnpinMessage" xml:space="preserve">
+    <value>取消置顶</value>
+  </data>
+  <data name="UnpinMessageConfirmation" xml:space="preserve">
+    <value>您确定要取消置顶？</value>
+  </data>
+  <data name="ConvertToSupergroup" xml:space="preserve">
+    <value>升级为超级群组</value>
+  </data>
+  <data name="ConvertToSupergroupNote" xml:space="preserve">
+    <value>**注意**：此操作不可撤销。</value>
+  </data>
+  <data name="Supergroup" xml:space="preserve">
+    <value>Supergroup</value>
+  </data>
+  <data name="ConvertToSupergroupDescription" xml:space="preserve">
+    <value>**在超级群组中**：
+• 新成员可以看到所有聊天记录
+• 所有成员将看不到已删除的消息
+• 成员可以编辑自己发送的消息
+• 创建者可以给群组设置一个公开链接</value>
+  </data>
+  <data name="BanUser" xml:space="preserve">
+    <value>封禁用户</value>
+  </data>
+  <data name="DeleteAllFrom" xml:space="preserve">
+    <value>删除所有 {0} 发送的消息</value>
+  </data>
+  <data name="DeleteMessageConfirmation" xml:space="preserve">
+    <value>您确定要删除这 1 条消息吗？</value>
+  </data>
+  <data name="DeleteMessages" xml:space="preserve">
+    <value>删除消息</value>
+  </data>
+  <data name="DeleteMessagesConfirmation" xml:space="preserve">
+    <value>您确定要删除这 {0} 条消息吗？</value>
+  </data>
+  <data name="MessageActionPinMessage" xml:space="preserve">
+    <value>{0} 已置顶 1 条消息</value>
+  </data>
+  <data name="MessageActionPinContact" xml:space="preserve">
+    <value>{0} pinned a contact</value>
+  </data>
+  <data name="MessageActionPinFile" xml:space="preserve">
+    <value>{0} 已置顶 1 个文件</value>
+  </data>
+  <data name="MessageActionPinGif" xml:space="preserve">
+    <value>{0} 已置顶 1 个 GIF</value>
+  </data>
+  <data name="MessageActionPinMap" xml:space="preserve">
+    <value>{0} 已置顶 1 个位置</value>
+  </data>
+  <data name="MessageActionPinPhoto" xml:space="preserve">
+    <value>{0} 已置顶 1 张图片</value>
+  </data>
+  <data name="MessageActionPinSticker" xml:space="preserve">
+    <value>{0} 已置顶 1 张贴纸</value>
+  </data>
+  <data name="MessageActionPinText" xml:space="preserve">
+    <value>{0} 置顶了 &quot;{1}&quot;</value>
+  </data>
+  <data name="MessageActionPinTrack" xml:space="preserve">
+    <value>{0} 已置顶 1 首音乐</value>
+  </data>
+  <data name="MessageActionPinVideo" xml:space="preserve">
+    <value>{0} 已置顶 1 个视频</value>
+  </data>
+  <data name="MessageActionPinVoiceMessage" xml:space="preserve">
+    <value>{0} 已置顶 1 条语音消息</value>
+  </data>
+  <data name="PinnedMessage" xml:space="preserve">
+    <value>Pinned message</value>
+  </data>
+  <data name="ConvertToSupergroupConfirmation" xml:space="preserve">
+    <value>这个操作是不可逆的。一个大型群组无法降级到普通群组。</value>
+  </data>
+  <data name="NotifyAllMembers" xml:space="preserve">
+    <value>通知所有成员</value>
+  </data>
+  <data name="PinMessageConfirmation" xml:space="preserve">
+    <value>您确定要置顶这条消息？</value>
+  </data>
+  <data name="ChatMaxSizeNotification" xml:space="preserve">
+    <value>您可以在创建群组并升级到超级群组后添加更多的用户。</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="ChoosePublicGroupLinkNotification" xml:space="preserve">
+    <value>请为您的公共群组选择一个链接，这样人们可以通过搜索找到它并且分享给他人。如果您对此不感兴趣，我们建议您创建一个私人群组。</value>
+  </data>
+  <data name="GroupType" xml:space="preserve">
+    <value>群组类型</value>
+  </data>
+  <data name="PrivateGroupDescription" xml:space="preserve">
+    <value>私人群组只能通过他人邀请或通过邀请链接加入。</value>
+  </data>
+  <data name="PrivateGroupLinkDescription" xml:space="preserve">
+    <value>人们可以通过以上链接加入您的群组。您可以随时撤销这个链接。</value>
+  </data>
+  <data name="PublicGroupDescription" xml:space="preserve">
+    <value>公开群组可以被搜索到，所有人都可以看到聊天记录，并且任何人都可以加入。</value>
+  </data>
+  <data name="PublicGroupLinkDescription" xml:space="preserve">
+    <value>用户可以分享此链接给他人，并且能通过搜索找到您的群组。</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Pornography" xml:space="preserve">
+    <value>Pornography</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="ReportSpamNotification" xml:space="preserve">
+    <value>Thank you!
+Your report will be reviewed by our team very soon.</value>
+  </data>
+  <data name="Spam" xml:space="preserve">
+    <value>Spam</value>
+  </data>
+  <data name="Violence" xml:space="preserve">
+    <value>Violence</value>
+  </data>
+  <data name="ClearHistoryConfirmation" xml:space="preserve">
+    <value>Are you sure you want to clear history?</value>
+  </data>
+  <data name="DeleteAndExitConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete and leave this group?</value>
+  </data>
+  <data name="DeleteChat" xml:space="preserve">
+    <value>Delete chat</value>
+  </data>
+  <data name="MessageActionChatJoin" xml:space="preserve">
+    <value>{0} joined the group</value>
+  </data>
+  <data name="MessageActionChatJoinSelf" xml:space="preserve">
+    <value>You joined the group</value>
+  </data>
+  <data name="MessageActionLeftGroupSelf" xml:space="preserve">
+    <value>You left the group</value>
+  </data>
+  <data name="CodeSentToTelegramApp" xml:space="preserve">
+    <value>We&apos;ve sent the code to the **Telegram** app on your other device.</value>
+  </data>
+  <data name="CodeSentViaCallingPhone" xml:space="preserve">
+    <value>We are calling your phone **{0}** to dictate a code.</value>
+  </data>
+  <data name="DidNotGetCode" xml:space="preserve">
+    <value>Didn&apos;t get the code?</value>
+  </data>
+  <data name="HaveNotReceivedCode" xml:space="preserve">
+    <value>Haven&apos;t received the code?</value>
+  </data>
+  <data name="ShareLocationConfirmation" xml:space="preserve">
+    <value>此操作会把您的当前位置信息发送给机器人。</value>
+  </data>
+  <data name="SharePhoneNumberConfirmation" xml:space="preserve">
+    <value>机器人将会获取您的电话号码。这可能用于其他集成服务。</value>
+  </data>
+  <data name="ChooseManually" xml:space="preserve">
+    <value>手动选择</value>
+  </data>
+  <data name="ShareLocationCaption" xml:space="preserve">
+    <value>是否分享您的位置信息？</value>
+  </data>
+  <data name="SharePhoneNumberCaption" xml:space="preserve">
+    <value>是否分享您的电话号码？</value>
+  </data>
+  <data name="UnableToDetermineLocation" xml:space="preserve">
+    <value>App was unable to determine your current location.</value>
+  </data>
+  <data name="ShareLocationInlineConfirmation" xml:space="preserve">
+    <value>机器人需要在您每次向它发送请求时获取您的位置信息，以便提供具体位置的查询结果。</value>
+  </data>
+</root>
