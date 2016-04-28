@@ -2700,4 +2700,7 @@ Your report will be reviewed by our team very soon.</value>
   <data name="ShareLocationInlineConfirmation" xml:space="preserve">
     <value>机器人需要在您每次向它发送请求时获取您的位置信息，以便提供具体位置的查询结果。</value>
   </data>
+  <data name="MoreInfo" xml:space="preserve">
+    <value>More info</value>
+  </data>
 </root>
