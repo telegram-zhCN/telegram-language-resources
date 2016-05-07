@@ -554,10 +554,10 @@
   <string name="IncorrectLocalization">无效的本地化文件</string>
   <string name="Enabled">已启用</string>
   <string name="Disabled">已禁用</string>
-  <string name="NotificationsService">后台服务</string>
-  <string name="NotificationsServiceInfo">用户或系统重启手机时自动运行此应用，确保及时收到通知。</string>
-  <string name="NotificationsServiceConnection">后台连接</string>
-  <string name="NotificationsServiceConnectionInfo">Telegram 接收通知需要一个低功耗的后台连接。打开此开关以确保收到通知。</string>
+  <string name="NotificationsService">后台服务常驻</string>
+  <string name="NotificationsServiceInfo">当应用被终止时自动重启后台服务，确保及时收到通知。</string>
+  <string name="NotificationsServiceConnection">后台网络连接</string>
+  <string name="NotificationsServiceConnectionInfo">Telegram 接收通知需要一个低功耗的后台网络连接。打开此开关以确保收到通知。</string>
   <string name="SortBy">排序</string>
   <string name="ImportContacts">导入通讯录</string>
   <string name="SortFirstName">名字</string>

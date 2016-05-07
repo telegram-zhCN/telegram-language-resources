@@ -1871,7 +1871,7 @@ if you proceed with resetting your account.</value>
     <value>Do you want to add stickers &apos;{0}&apos;?</value>
   </data>
   <data name="NewStickersAdded" xml:space="preserve">
-    <value>New stickers added</value>
+    <value>New sticker set added</value>
   </data>
   <data name="StickersNotFound" xml:space="preserve">
     <value>Stickers not found</value>
@@ -2706,5 +2706,26 @@ Your report will be reviewed by our team very soon.</value>
   </data>
   <data name="MoreInfo" xml:space="preserve">
     <value>More info</value>
+  </data>
+  <data name="RemoveStickers" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="SendSticker" xml:space="preserve">
+    <value>Send sticker</value>
+  </data>
+  <data name="StickersRemoved" xml:space="preserve">
+    <value>Sticker set removed</value>
+  </data>
+  <data name="UnpinFromStart" xml:space="preserve">
+    <value>Unpin from start</value>
+  </data>
+  <data name="Bots" xml:space="preserve">
+    <value>Bots</value>
+  </data>
+  <data name="LastSeenYesterdayAt" xml:space="preserve">
+    <value>Last seen yesterday at {1}</value>
+  </data>
+  <data name="LastSeenTodayAt" xml:space="preserve">
+    <value>Last seen today at {0}</value>
   </data>
 </root>

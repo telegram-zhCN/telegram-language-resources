@@ -2640,8 +2640,8 @@
     <value>Report</value>
   </data>
   <data name="ReportSpamNotification" xml:space="preserve">
-    <value>Thank you!
-Your report will be reviewed by our team very soon.</value>
+    <value>非常感谢！
+我们会尽快核查您的举报。</value>
   </data>
   <data name="Spam" xml:space="preserve">
     <value>Spam</value>
@@ -2677,7 +2677,7 @@ Your report will be reviewed by our team very soon.</value>
     <value>Didn&apos;t get the code?</value>
   </data>
   <data name="HaveNotReceivedCode" xml:space="preserve">
-    <value>Haven&apos;t received the code?</value>
+    <value>没有收到验证码？</value>
   </data>
   <data name="ShareLocationConfirmation" xml:space="preserve">
     <value>此操作会把您的当前位置信息发送给机器人。</value>
@@ -2699,5 +2699,8 @@ Your report will be reviewed by our team very soon.</value>
   </data>
   <data name="ShareLocationInlineConfirmation" xml:space="preserve">
     <value>机器人需要在您每次向它发送请求时获取您的位置信息，以便提供具体位置的查询结果。</value>
+  </data>
+  <data name="MoreInfo" xml:space="preserve">
+    <value>More info</value>
   </data>
 </root>
