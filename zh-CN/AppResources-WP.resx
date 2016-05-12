@@ -196,7 +196,7 @@
     <value>确认</value>
   </data>
   <data name="DeleteChatConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete this chat?</value>
+    <value>您确定要删除此对话吗？</value>
   </data>
   <data name="Contact" xml:space="preserve">
     <value>联系人</value>
@@ -529,7 +529,7 @@
     <value>验证码</value>
   </data>
   <data name="ConfirmMessage" xml:space="preserve">
-    <value>We have sent an SMS with an activation code to your phone **{0}**</value>
+    <value>我们已向您的手机 **{0}** 发送一条带有验证码的短信</value>
   </data>
   <data name="WeWillCallYou" xml:space="preserve">
     <value>我们会在{0}后通过语音电话方式完成验证</value>
@@ -2537,7 +2537,7 @@
     <value>**注意**：此操作不可撤销。</value>
   </data>
   <data name="Supergroup" xml:space="preserve">
-    <value>Supergroup</value>
+    <value>超级群组</value>
   </data>
   <data name="ConvertToSupergroupDescription" xml:space="preserve">
     <value>**在超级群组中**：
@@ -2565,7 +2565,7 @@
     <value>{0} 已置顶 1 条消息</value>
   </data>
   <data name="MessageActionPinContact" xml:space="preserve">
-    <value>{0} pinned a contact</value>
+    <value>{0}  已置顶 1 个联系人信息</value>
   </data>
   <data name="MessageActionPinFile" xml:space="preserve">
     <value>{0} 已置顶 1 个文件</value>
@@ -2631,50 +2631,50 @@
     <value>用户可以分享此链接给他人，并且能通过搜索找到您的群组。</value>
   </data>
   <data name="Camera" xml:space="preserve">
-    <value>Camera</value>
+    <value>相机</value>
   </data>
   <data name="Pornography" xml:space="preserve">
-    <value>Pornography</value>
+    <value>色情</value>
   </data>
   <data name="Report" xml:space="preserve">
-    <value>Report</value>
+    <value>举报</value>
   </data>
   <data name="ReportSpamNotification" xml:space="preserve">
     <value>非常感谢！
 我们会尽快核查您的举报。</value>
   </data>
   <data name="Spam" xml:space="preserve">
-    <value>Spam</value>
+    <value>垃圾信息</value>
   </data>
   <data name="Violence" xml:space="preserve">
-    <value>Violence</value>
+    <value>暴力</value>
   </data>
   <data name="ClearHistoryConfirmation" xml:space="preserve">
-    <value>Are you sure you want to clear history?</value>
+    <value>您确定要清除聊天记录？</value>
   </data>
   <data name="DeleteAndExitConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete and leave this group?</value>
+    <value>您确定要删除并离开此群组？</value>
   </data>
   <data name="DeleteChat" xml:space="preserve">
-    <value>Delete chat</value>
+    <value>删除对话</value>
   </data>
   <data name="MessageActionChatJoin" xml:space="preserve">
-    <value>{0} joined the group</value>
+    <value>{0} 加入了群组</value>
   </data>
   <data name="MessageActionChatJoinSelf" xml:space="preserve">
-    <value>You joined the group</value>
+    <value>您加入了此群组</value>
   </data>
   <data name="MessageActionLeftGroupSelf" xml:space="preserve">
-    <value>You left the group</value>
+    <value>您退出了群组</value>
   </data>
   <data name="CodeSentToTelegramApp" xml:space="preserve">
-    <value>We&apos;ve sent the code to the **Telegram** app on your other device.</value>
+    <value>我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</value>
   </data>
   <data name="CodeSentViaCallingPhone" xml:space="preserve">
-    <value>We are calling your phone **{0}** to dictate a code.</value>
+    <value>我们正在呼叫您的手机 **{0}** 并播报验证码。</value>
   </data>
   <data name="DidNotGetCode" xml:space="preserve">
-    <value>Didn&apos;t get the code?</value>
+    <value>未收到验证码？</value>
   </data>
   <data name="HaveNotReceivedCode" xml:space="preserve">
     <value>没有收到验证码？</value>
@@ -2695,12 +2695,33 @@
     <value>是否分享您的电话号码？</value>
   </data>
   <data name="UnableToDetermineLocation" xml:space="preserve">
-    <value>App was unable to determine your current location.</value>
+    <value>此应用无法确认您的当前位置。</value>
   </data>
   <data name="ShareLocationInlineConfirmation" xml:space="preserve">
     <value>机器人需要在您每次向它发送请求时获取您的位置信息，以便提供具体位置的查询结果。</value>
   </data>
   <data name="MoreInfo" xml:space="preserve">
-    <value>More info</value>
+    <value>更多详情</value>
+  </data>
+  <data name="RemoveStickers" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="SendSticker" xml:space="preserve">
+    <value>发送贴纸</value>
+  </data>
+  <data name="StickersRemoved" xml:space="preserve">
+    <value>贴纸包已移除</value>
+  </data>
+  <data name="UnpinFromStart" xml:space="preserve">
+    <value>取消置顶</value>
+  </data>
+  <data name="Bots" xml:space="preserve">
+    <value>机器人</value>
+  </data>
+  <data name="LastSeenYesterdayAt" xml:space="preserve">
+    <value>最近在线 昨天 {1}</value>
+  </data>
+  <data name="LastSeenTodayAt" xml:space="preserve">
+    <value>最近在线 今天 {0}</value>
   </data>
 </root>

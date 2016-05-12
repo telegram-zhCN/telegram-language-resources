@@ -2723,7 +2723,7 @@ Your report will be reviewed by our team very soon.</value>
     <value>Bots</value>
   </data>
   <data name="LastSeenYesterdayAt" xml:space="preserve">
-    <value>Last seen yesterday at {1}</value>
+    <value>Last seen yesterday at {0}</value>
   </data>
   <data name="LastSeenTodayAt" xml:space="preserve">
     <value>Last seen today at {0}</value>
