@@ -2719,7 +2719,7 @@
     <value>机器人</value>
   </data>
   <data name="LastSeenYesterdayAt" xml:space="preserve">
-    <value>最近在线 昨天 {1}</value>
+    <value>Last seen yesterday at {0}</value>
   </data>
   <data name="LastSeenTodayAt" xml:space="preserve">
     <value>最近在线 今天 {0}</value>
