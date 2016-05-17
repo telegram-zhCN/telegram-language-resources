@@ -339,8 +339,10 @@
   <string name="PinnedMessage">置顶消息</string>
   <string name="EditedMessage">已编辑</string>
   <string name="AttachBotsHelp">向下滚动查看机器人</string>
-  <string name="TimeToEdit">可在 %1$s 前编辑</string>
+  <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">抱歉，您已超出可编辑时间。</string>
+  <string name="AddShortcut">添加快捷方式</string>
+  <string name="ShortcutAdded">快捷方式已添加到主屏幕</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>

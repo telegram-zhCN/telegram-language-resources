@@ -2721,7 +2721,22 @@
   <data name="LastSeenYesterdayAt" xml:space="preserve">
     <value>Last seen yesterday at {0}</value>
   </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Edited" xml:space="preserve">
+    <value>Edited</value>
+  </data>
+  <data name="EditMessage" xml:space="preserve">
+    <value>Edit message</value>
+  </data>
   <data name="LastSeenTodayAt" xml:space="preserve">
     <value>最近在线 今天 {0}</value>
+  </data>
+  <data name="OpenInlineBotsHint" xml:space="preserve">
+    <value>Slide up to open inline bots</value>
+  </data>
+  <data name="ConfirmResetTopPeerRating" xml:space="preserve">
+    <value>Delete {0} from suggestions?</value>
   </data>
 </root>
