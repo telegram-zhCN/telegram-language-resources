@@ -253,7 +253,7 @@
     <value>{0} removed group photo</value>
   </data>
   <data name="MessageActionChatAddUser" xml:space="preserve">
-    <value>{0} added {1}</value>
+    <value>{0} invited {1}</value>
   </data>
   <data name="MessageActionChatDeleteUser" xml:space="preserve">
     <value>{0} kicked {1}</value>
@@ -2547,7 +2547,6 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>**In supergroups**:
 • New members can see the full message history
 • Deleted messages will disappear for all members
-• Members can edit their own messages
 • Creator can set a public link for the group</value>
   </data>
   <data name="BanUser" xml:space="preserve">
@@ -2742,5 +2741,8 @@ Your report will be reviewed by our team very soon.</value>
   </data>
   <data name="ConfirmResetTopPeerRating" xml:space="preserve">
     <value>Delete {0} from suggestions?</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Draft</value>
   </data>
 </root>
