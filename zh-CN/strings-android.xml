@@ -104,8 +104,6 @@
   <string name="NoBlockedGroup">被加入黑名单的用户将会从群组中移除，并且不能使用邀请链接返回群组，只有被管理员邀请才能再次加入。</string>
   <string name="NewChannel">新建频道</string>
   <string name="EnterChannelName">频道名称</string>
-  <string name="Comments">评论</string>
-  <string name="CommentsInfo">如果您开启了评论，关注者将能够在您的频道里进行讨论。</string>
   <string name="AddMutual">添加联系人到您的频道</string>
   <string name="ChannelUsernameHelp">人们可以与他人分享此链接，并使用Telegram的搜索找到您的频道。</string>
   <string name="MegaUsernameHelp">用户可以分享此链接给他人，并且能通过搜索找到您的群组。</string>
@@ -130,11 +128,8 @@
   <string name="LeaveChannelMenu">离开频道</string>
   <string name="ChannelSettings">设置</string>
   <string name="ChannelJoin">加入</string>
-  <string name="OpenChannelProfile">频道详情</string>
   <string name="ChannelBroadcast">广播</string>
   <string name="ChannelSilentBroadcast">静默广播</string>
-  <string name="ChannelComment">评论</string>
-  <string name="ShowDiscussion">显示评论</string>
   <string name="ChannelAlertTitle">什么是频道？</string>
   <string name="ChannelAlertText">频道是能够给更多关注者广播您的消息的新工具。</string>
   <string name="ChannelAlertCreate">创建新频道</string>
@@ -468,8 +463,6 @@
   <string name="ConvertGroupMenu">升级为超级群组</string>
   <string name="ConvertGroupAlertWarning">警告</string>
   <string name="ConvertGroupAlert">这个操作是不可逆的。一个大型群组无法降级到普通群组。</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>成员数已达到上限。<![CDATA[</b>]]>\n\n升级到超级群组来增加成员上限并获得更多功能：\n\n• 超级群组可以提升至高达 %1$s 的成员上限\n• 新成员能看到所有历史聊天记录\n• 成员可以编辑自己发送的消息\n• 创建者可以给群组设置一个公开链接</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>在大型群组中：<![CDATA[</b>]]>\n\n• 新成员可以看到所有聊天记录\n• 所有成员将看不到已删除的消息\n• 成员可以编辑自己发送的消息\n• 创建者可以给群组设置一个公开链接</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>注意<![CDATA[</b>]]> ：此操作不可撤销。</string>
   <!--contact info view-->
   <string name="ShareContact">分享</string>
@@ -1038,12 +1031,6 @@
   <string name="messages_few">%1$d 条消息</string>
   <string name="messages_many">%1$d 条消息</string>
   <string name="messages_other">%1$d 条消息</string>
-  <string name="comments_zero">%1$d 条评论</string>
-  <string name="comments_one">%1$d 条评论</string>
-  <string name="comments_two">%1$d 条评论</string>
-  <string name="comments_few">%1$d 条评论</string>
-  <string name="comments_many">%1$d 条评论</string>
-  <string name="comments_other">%1$d 条评论</string>
   <string name="items_zero">没有选中任何项目</string>
   <string name="items_one">已选中 %1$d 个项目</string>
   <string name="items_two">已选中 %1$d 个项目</string>

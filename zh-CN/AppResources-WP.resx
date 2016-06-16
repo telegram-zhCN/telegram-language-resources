@@ -253,7 +253,7 @@
     <value>{0}删除了讨论组头像</value>
   </data>
   <data name="MessageActionChatAddUser" xml:space="preserve">
-    <value>{0}添加了新成员{1}</value>
+    <value>{0} invited {1}</value>
   </data>
   <data name="MessageActionChatDeleteUser" xml:space="preserve">
     <value>{0}把{1}踢出了讨论组</value>
@@ -2540,11 +2540,10 @@
     <value>超级群组</value>
   </data>
   <data name="ConvertToSupergroupDescription" xml:space="preserve">
-    <value>**在超级群组中**：
-• 新成员可以看到所有聊天记录
-• 所有成员将看不到已删除的消息
-• 成员可以编辑自己发送的消息
-• 创建者可以给群组设置一个公开链接</value>
+    <value>**In supergroups**:
+• New members can see the full message history
+• Deleted messages will disappear for all members
+• Creator can set a public link for the group</value>
   </data>
   <data name="BanUser" xml:space="preserve">
     <value>封禁用户</value>
@@ -2738,5 +2737,8 @@
   </data>
   <data name="ConfirmResetTopPeerRating" xml:space="preserve">
     <value>Delete {0} from suggestions?</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Draft</value>
   </data>
 </root>
