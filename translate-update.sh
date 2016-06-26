@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cookie=""
+cookie="ajs_group_id=;csrftoken=;sessionid="
 dir=zh-CN
 
 #Desktop
