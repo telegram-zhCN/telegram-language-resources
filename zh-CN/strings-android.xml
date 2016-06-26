@@ -66,6 +66,8 @@
   <string name="ChatHints">对话</string>
   <string name="ChatHintsDelete">确认从建议列表中删除 %1$s 吗？</string>
   <string name="LinkPreview">链接预览</string>
+  <string name="Draft">草稿</string>
+  <string name="HistoryCleared">历史记录已被清空</string>
   <!--channels-->
   <string name="GroupType">群组类型</string>
   <string name="ChannelType">频道类型</string>
@@ -403,7 +405,7 @@
   <string name="NotificationActionPinnedVideoChannel">%1$s 已置顶 1 个视频</string>
   <string name="NotificationActionPinnedFileChannel">%1$s 已置顶 1 个文件</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s 置顶了 1 张贴纸</string>
-  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了一张 %2$s 贴纸</string>
+  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s 已置顶 1 条语音消息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 已置顶 1 个联系人信息</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 已置顶 1 个位置</string>
@@ -463,6 +465,8 @@
   <string name="ConvertGroupMenu">升级为超级群组</string>
   <string name="ConvertGroupAlertWarning">警告</string>
   <string name="ConvertGroupAlert">这个操作是不可逆的。一个大型群组无法降级到普通群组。</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>成员数已达到上限。<![CDATA[</b>]]>\n\n升级到超级群组来增加成员上限并获得更多功能：\n\n• 超级群组可以提升至高达 %1$s 的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>In supergroups:<![CDATA[</b>]]>\n\n• 新成员可以看到所有聊天记录\n• 所有成员将看不到已删除的消息\n\n• 成员可以编辑自己发送的消息\n• 创建者可以给群组设置一个公开链接</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>注意<![CDATA[</b>]]> ：此操作不可撤销。</string>
   <!--contact info view-->
   <string name="ShareContact">分享</string>
@@ -749,7 +753,7 @@
   <string name="AddCaption">添加说明...</string>
   <string name="PhotoCaption">图片说明</string>
   <string name="VideoCaption">视频说明</string>
-  <string name="Caption">说明</string>
+  <string name="Caption">标题</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
   <string name="SetAdditionalPassword">设置两步验证密码</string>

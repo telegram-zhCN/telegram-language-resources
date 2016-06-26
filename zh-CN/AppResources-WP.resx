@@ -253,7 +253,7 @@
     <value>{0}删除了讨论组头像</value>
   </data>
   <data name="MessageActionChatAddUser" xml:space="preserve">
-    <value>{0} invited {1}</value>
+    <value>{0} 邀请了 {1}</value>
   </data>
   <data name="MessageActionChatDeleteUser" xml:space="preserve">
     <value>{0}把{1}踢出了讨论组</value>
@@ -2739,6 +2739,6 @@
     <value>Delete {0} from suggestions?</value>
   </data>
   <data name="Draft" xml:space="preserve">
-    <value>Draft</value>
+    <value>草稿</value>
   </data>
 </root>
