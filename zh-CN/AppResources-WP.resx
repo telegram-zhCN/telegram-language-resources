@@ -2540,10 +2540,10 @@
     <value>超级群组</value>
   </data>
   <data name="ConvertToSupergroupDescription" xml:space="preserve">
-    <value>**In supergroups**:
-• New members can see the full message history
-• Deleted messages will disappear for all members
-• Creator can set a public link for the group</value>
+    <value>**在超级群组中：**
+• 新成员可以看到所有聊天记录
+• 所有成员将看不到已删除的消息
+• 创建者可以给群组设置一个公开链接</value>
   </data>
   <data name="BanUser" xml:space="preserve">
     <value>封禁用户</value>
@@ -2718,25 +2718,25 @@
     <value>机器人</value>
   </data>
   <data name="LastSeenYesterdayAt" xml:space="preserve">
-    <value>Last seen yesterday at {0}</value>
+    <value>最近上线  昨天 {0}</value>
   </data>
   <data name="Clear" xml:space="preserve">
-    <value>Clear</value>
+    <value>清空</value>
   </data>
   <data name="Edited" xml:space="preserve">
-    <value>Edited</value>
+    <value>已编辑</value>
   </data>
   <data name="EditMessage" xml:space="preserve">
-    <value>Edit message</value>
+    <value>编辑消息</value>
   </data>
   <data name="LastSeenTodayAt" xml:space="preserve">
     <value>最近在线 今天 {0}</value>
   </data>
   <data name="OpenInlineBotsHint" xml:space="preserve">
-    <value>Slide up to open inline bots</value>
+    <value>上滑来打开消息框内机器人</value>
   </data>
   <data name="ConfirmResetTopPeerRating" xml:space="preserve">
-    <value>Delete {0} from suggestions?</value>
+    <value>确认从建议列表中删除 {0} 吗？</value>
   </data>
   <data name="Draft" xml:space="preserve">
     <value>草稿</value>
