@@ -22,6 +22,19 @@
   <string name="Code">验证码</string>
   <string name="WrongNumber">号码错误？</string>
   <string name="DidNotGetTheCode">未收到验证码？</string>
+  <string name="CancelAccountReset">取消账号重置</string>
+  <string name="CancelAccountResetInfo">有个有你的电话号码  <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 访问权限的人发送了删除 Telegram 账号的请求并且重置你的两步验证密码。
+
+如果这不是你的操作，请输入我们刚刚发送给你的短信验证码。</string>
+  <string name="ResetAccount">重置帐号</string>
+  <string name="ResetAccountInfo">因为 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在1周后删除。
+
+你可以在这段时间内随时取消这一过程。</string>
+  <string name="ResetAccountStatus">你将会于一下时间重置你的账号：</string>
+  <string name="ResetAccountCancelledAlert">你最近的重置账号尝试被它的活动账号取消。请于7天内重试。</string>
+  <string name="ResetAccountButton">重置</string>
+  <string name="CancelLinkExpired">链接无效或已过期。</string>
+  <string name="CancelLinkSuccess">已取消删除您的账号 %1$s 。现在可以关闭此窗口。</string>
   <!--signup view-->
   <string name="YourName">您的姓名</string>
   <string name="RegisterText">设置您的姓名</string>
@@ -303,6 +316,7 @@
   <string name="ServiceNotifications">服务通知</string>
   <string name="GettingLinkInfo">正在获取链接信息...</string>
   <string name="OpenInBrowser">用其他软件打开</string>
+  <string name="OpenInExternalApp">通过其他应用打开...</string>
   <string name="CopyUrl">复制链接</string>
   <string name="SendItems">发送 %1$s</string>
   <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
@@ -340,6 +354,13 @@
   <string name="TimeToEditExpired">抱歉，您已超出可编辑时间。</string>
   <string name="AddShortcut">添加快捷方式</string>
   <string name="ShortcutAdded">快捷方式已添加到主屏幕</string>
+  <string name="ChatYourSelf">和你自己聊天</string>
+  <string name="ChatYourSelfName">你</string>
+  <string name="ChatYourSelfDescription1">转发信息到这来保存它们</string>
+  <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
+  <string name="ChatYourSelfDescription3">在任意设备上访问这个会话</string>
+  <string name="ChatYourSelfDescription4">试用搜索来更快地找东西</string>
+  <string name="ChatYourSelfTitle">你的云存储</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -414,7 +435,7 @@
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
   <string name="NoContacts">还没有联系人</string>
-  <string name="InviteText">嘿！和我一起用 Telegram 吧，超棒的聊天工具，简洁高效，没有广告，对话加密，尊重隐私，不受审查过滤：http://telegram-china.org/</string>
+  <string name="InviteText">嘿！和我一起用 Telegram 吧，超棒的聊天工具，简洁高效，没有广告，对话加密，尊重隐私，不受审查过滤：https://telegram.org/dl</string>
   <string name="TodayAt">于</string>
   <string name="YesterdayAt">于昨天</string>
   <string name="Online">在线</string>
@@ -465,8 +486,8 @@
   <string name="ConvertGroupMenu">升级为超级群组</string>
   <string name="ConvertGroupAlertWarning">警告</string>
   <string name="ConvertGroupAlert">这个操作是不可逆的。一个大型群组无法降级到普通群组。</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>成员数已达到上限。<![CDATA[</b>]]>\n\n升级到超级群组来增加成员上限并获得更多功能：\n\n• 超级群组可以提升至高达 %1$s 的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>In supergroups:<![CDATA[</b>]]>\n\n• 新成员可以看到所有聊天记录\n• 所有成员将看不到已删除的消息\n\n• 成员可以编辑自己发送的消息\n• 创建者可以给群组设置一个公开链接</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>成员人数已达到上限。<![CDATA[</b>]]>\n\n升级到超级群组可增加成员上限并获得更多功能：\n\n• 超级群组可以提升至高达 %1$s 的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 所有成员将看不到已删除的消息\n• 管理员可以置顶重要消息\n• 创建者可以给群组设置一个公开链接</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>在超级群组中：<![CDATA[</b>]]>\n\n• 新成员可以看到所有聊天记录 • 所有成员将看不到已删除的消息\n• 管理员可以置顶重要消息\n• 创建者可以给群组设置一个公开链接</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>注意<![CDATA[</b>]]> ：此操作不可撤销。</string>
   <!--contact info view-->
   <string name="ShareContact">分享</string>
@@ -505,20 +526,26 @@
   <string name="ErrorOccurred">发生错误</string>
   <!--stickers view-->
   <string name="Stickers">贴纸库</string>
-  <string name="StickersInfo">欢迎艺术家们使用我们的 @stickers 机器人上传自己的贴纸包。\n\n用户可以通过点击贴纸并选择“添加到贴纸库”来将该贴纸包加入贴纸库。</string>
   <string name="AddStickers">添加贴纸包</string>
   <string name="AddToStickers">添加到贴纸库</string>
   <string name="AddStickersNotFound">贴纸包未找到</string>
   <string name="StickersRemoved">贴纸包已移除</string>
   <string name="AddStickersInstalled">新的贴纸包已添加</string>
-  <string name="StickersHide">隐藏</string>
-  <string name="StickersShow">显示</string>
+  <string name="StickersHide">存档</string>
   <string name="StickersShare">分享</string>
   <string name="StickersCopy">复制链接</string>
   <string name="StickersRemove">移除</string>
   <string name="NoStickers">暂无贴纸</string>
+  <string name="FeaturedStickers">热门贴纸</string>
+  <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
+  <string name="ArchivedStickers">已存档贴纸</string>
+  <string name="ArchivedStickersEmpty">没有已存档的贴纸</string>
+  <string name="ArchivedStickersInfo">你可以拥有最多200个贴纸包。
+未使用的贴纸将在你添加新贴纸的时候存档。</string>
   <string name="SendSticker">发送贴纸</string>
   <string name="TooMuchStickersets">抱歉，您收藏的贴纸包数量已达到上限。</string>
+  <string name="ArchivedStickersAlertTitle">已存档贴纸</string>
+  <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被存档。你可以在设置里重新激活它们。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
   <string name="TextSize">文字大小</string>
@@ -555,10 +582,10 @@
   <string name="ContactJoined">联系人已加入 Telegram</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
-  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。<![CDATA[<br><br>]]>请前往 <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ（中文）</a>]]> 看看: 那里有各种常见问题和故障排除提示。</string>
+  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。<![CDATA[<br><br>]]>请前往 <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ（英文）</a>]]> 看看: 那里有各种常见问题和<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\"> 故障排除 </a>]]>提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
-  <string name="TelegramFaqUrl">http://telegram-china.org/faq.html</string>
+  <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">隐私策略</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">删除此本地化文件？</string>
@@ -981,10 +1008,12 @@
   <string name="AllowReadCall">请授予 Telegram 接听电话权限以便我们自动读取验证码。</string>
   <string name="AllowReadCallAndSms">请授予 Telegram 读取短信及通话权限以便我们自动读取验证码。</string>
   <string name="UserRestricted">抱歉，您无法执行此操作。</string>
+  <string name="JoinGroup">加入群组</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。</string>
   <string name="PermissionStorage">Telegram 需要访问您的本地存储才能使您发送和保存照片，视频，音乐和其他媒体文件。</string>
   <string name="PermissionNoAudio">Telegram 需要访问您的麦克风来录制语音消息。</string>
+  <string name="PermissionNoCamera">Telegram 需要访问您的相机来拍照或录像。</string>
   <string name="PermissionNoLocation">Telegram 需要使用定位服务才能获取您的地址并分享给您的联系人。</string>
   <string name="PermissionNoLocationPosition">Telegram 需要获取您的定位服务权限</string>
   <string name="PermissionOpenSettings">设置</string>
@@ -1131,6 +1160,30 @@
   <string name="LastSeenHours_few">最近上线于 %1$d 小时前</string>
   <string name="LastSeenHours_many">最近上线于 %1$d 小时前</string>
   <string name="LastSeenHours_other">最近上线于 %1$d 小时前</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> 秒</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> 秒</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> 秒</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> 秒</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> 秒</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> 秒</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> 分</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> 分</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> 分</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> 分</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> 分</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> 分</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> 小时</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> 小时</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> 小时</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> 小时</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> 小时</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> 小时</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> 天</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> 天</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> 天</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> 天</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> 天</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> 天</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d 条转发的消息</string>
   <string name="ForwardedMessage_one">转发的消息</string>

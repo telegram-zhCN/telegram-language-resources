@@ -2745,4 +2745,104 @@ Your report will be reviewed by our team very soon.</value>
   <data name="Draft" xml:space="preserve">
     <value>Draft</value>
   </data>
+  <data name="FeaturedStickers" xml:space="preserve">
+    <value>Trending stickers</value>
+  </data>
+  <data name="StickersHint" xml:space="preserve">
+    <value>Artists are welcome to add their own sticker packs using our __@stickers__ bot.
+
+Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quot;.</value>
+  </data>
+  <data name="ClearRecentStickers" xml:space="preserve">
+    <value>Clear recent stickers</value>
+  </data>
+  <data name="NewFeaturedStickers" xml:space="preserve">
+    <value>{0} new</value>
+  </data>
+  <data name="InstallStickersetError" xml:space="preserve">
+    <value>Sorry, you have reached the maximum number of sticker sets.</value>
+  </data>
+  <data name="ChatInviteSubtitle" xml:space="preserve">
+    <value>{0}, among them:</value>
+  </data>
+  <data name="InstalledStickers" xml:space="preserve">
+    <value>Installed stickers</value>
+  </data>
+  <data name="ShowStickersTab" xml:space="preserve">
+    <value>Show stickers tab</value>
+  </data>
+  <data name="ShowStickersTabHint" xml:space="preserve">
+    <value>A sticker icon will appear in the input field.</value>
+  </data>
+  <data name="ArchivedStickers" xml:space="preserve">
+    <value>Archived stickers</value>
+  </data>
+  <data name="ArchivedStickersAbout" xml:space="preserve">
+    <value>Some of the your unused stickers have been archived to make room for the sets you&apos;ve activated.</value>
+  </data>
+  <data name="ArchivedStickersHeader" xml:space="preserve">
+    <value>You can have up to 200 sticker sets installed. Unused stickers are archived when you add more.</value>
+  </data>
+  <data name="NoSetsHere" xml:space="preserve">
+    <value>No sets here</value>
+  </data>
+  <data name="NoSets" xml:space="preserve">
+    <value>No sets</value>
+  </data>
+  <data name="SetGenitivePlural" xml:space="preserve">
+    <value>Sets</value>
+  </data>
+  <data name="SetGenitiveSingular" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="SetNominativePlural" xml:space="preserve">
+    <value>Sets</value>
+  </data>
+  <data name="SetNominativeSingular" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="ChatWithYourself" xml:space="preserve">
+    <value>Chat with youself</value>
+  </data>
+  <data name="CloudStorageDescription" xml:space="preserve">
+    <value>• Forward messages here to save them
+• Send media and files to store them
+• Access this chat from any device
+• Use search to quickly find things</value>
+  </data>
+  <data name="CloudStorage" xml:space="preserve">
+    <value>Your cloud storage</value>
+  </data>
+  <data name="CancelAccountReset" xml:space="preserve">
+    <value>Cancel account reset</value>
+  </data>
+  <data name="CancelAccountResetDescription" xml:space="preserve">
+    <value>Somebody with access to your phone number **{0}** has requested to delete your Telegram account and reset your 2-Step Verification password. If this wasn’t you, please enter the code we’ve just sent you via SMS to your number **{0}**</value>
+  </data>
+  <data name="CancelAccountResetSuccess" xml:space="preserve">
+    <value>Success! The deletion process was cancelled for your account {0}. You may close this window now.</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetAccount" xml:space="preserve">
+    <value>Reset account</value>
+  </data>
+  <data name="ResetAccountDescription" xml:space="preserve">
+    <value>Since the account **{0}** is active and protected by a password, we will delete it in 1 week for security purposes.
+
+You can cancel this process at any time.</value>
+  </data>
+  <data name="ResetAccountError" xml:space="preserve">
+    <value>Your recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.</value>
+  </data>
+  <data name="ResetAccountIn" xml:space="preserve">
+    <value>You’ll be able to reset your account in:</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="BotOpenUrlConfirmation" xml:space="preserve">
+    <value>The bot {0} asks for permission to share your Telegram name and profile picture with the owner of {1}.</value>
+  </data>
 </root>
