@@ -22,10 +22,10 @@
   <string name="Code">验证码</string>
   <string name="WrongNumber">号码错误？</string>
   <string name="DidNotGetTheCode">未收到验证码？</string>
-  <string name="CancelAccountReset">取消账号重置</string>
-  <string name="CancelAccountResetInfo">有个有你的电话号码  <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 访问权限的人发送了删除 Telegram 账号的请求并且重置你的两步验证密码。
+  <string name="CancelAccountReset">撤销账号重置请求</string>
+  <string name="CancelAccountResetInfo">有人通过输入您的手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 尝试请求删除您的 Telegram 账号数据并且重置你的两步验证密码。
 
-如果这不是你的操作，请输入我们刚刚发送给你的短信验证码。</string>
+如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。</string>
   <string name="ResetAccount">重置帐号</string>
   <string name="ResetAccountInfo">因为 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在1周后删除。
 
@@ -193,7 +193,7 @@
   <string name="ChannelAdminsInfo">您可以添加管理员帮助您管理频道。长按可删除管理员。</string>
   <string name="ChannelJoinTo">您确定要加入 “%1$s” 频道？</string>
   <string name="ChannelCantOpenPrivate">抱歉，该对话已无法访问。</string>
-  <string name="ChannelCantOpenBanned">很抱歉，您已被封禁，无法在公开群组中发言。</string>
+  <string name="ChannelCantOpenBanned">很抱歉，您已被禁止在公开群组中发言。</string>
   <string name="ChannelCantOpenNa">抱歉，该会话已无法访问。</string>
   <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
   <string name="ChannelUserLeftError">抱歉，该用户已决定离开此频道，您无法邀请该用户回来。</string>
