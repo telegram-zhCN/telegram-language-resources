@@ -12,9 +12,9 @@ curl -b $cookie https://www.transifex.com/telegram/telegram/stringsxml-48/en/dow
 #iOS
 echo "iOS"
 curl -b $cookie https://www.transifex.com/telegram/iphone-1/localizablestrings/en/download/for_use/ -o $dir/Localizable-iOS.strings --progress
-#OSX
-echo "OS X"
-curl -b $cookie https://www.transifex.com/telegram/osx/localizablestrings/en/download/for_use/ -o $dir/Localizable-OSX.strings --progress
+#macOS
+echo "macOS"
+curl -b $cookie https://www.transifex.com/telegram/osx/localizablestrings/en/download/for_use/ -o $dir/Localizable-macOS.strings --progress
 #Webogram
 echo "Webogram"
 curl -b $cookie https://www.transifex.com/telegram/telegram-web/en-usjson/en/download/for_use/ -o $dir/strings-web.json --progress
