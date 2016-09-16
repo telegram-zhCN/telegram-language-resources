@@ -27,7 +27,7 @@
   <string name="ResetAccount">Reset account</string>
   <string name="ResetAccountInfo">Since the account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> is active and protected by a password, we will delete it in 1 week for security purposes.\n\nYou can cancel this process at any time.</string>
   <string name="ResetAccountStatus">You\'ll be able to reset your account in:</string>
-  <string name="ResetAccountCancelledAlert">You recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.</string>
+  <string name="ResetAccountCancelledAlert">Your recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.</string>
   <string name="ResetAccountButton">RESET</string>
   <string name="CancelLinkExpired">Link is invalid or expired.</string>
   <string name="CancelLinkSuccess">The deletion process was cancelled for your account %1$s. You may close this window now.</string>
@@ -169,8 +169,7 @@
   <string name="ActionChannelChangedPhoto">Channel photo changed</string>
   <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
   <string name="ActionChannelChangedTitle">Channel name changed to un2</string>
-  <string name="ChannelPublicLimitReached">Sorry, you have created too many public channels. You can either create a private channel or delete one of your existing channels first.</string>
-  <string name="ChangePublicLimitReached">Sorry, you have created too many public links. Try deleting or making some of your groups or channels private.</string>
+  <string name="ChangePublicLimitReached">Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</string>
   <string name="ChannelModerator">Moderator</string>
   <string name="ChannelCreator">Creator</string>
   <string name="ChannelEditor">Administrator</string>
@@ -313,6 +312,7 @@
   <string name="CopyUrl">Copy URL</string>
   <string name="SendItems">Send %1$s</string>
   <string name="OpenUrlAlert">Open url %1$s?</string>
+  <string name="BotPermissionUrlAlert">Do you allow %1$s to pass your Telegram name and id to the web pages you open via this bot?</string>
   <string name="ReportSpam">REPORT SPAM</string>
   <string name="ReportSpamAndLeave">REPORT SPAM AND LEAVE</string>
   <string name="AddContactChat">ADD CONTACT</string>
@@ -458,6 +458,8 @@
   <string name="RevokeAlertNewLink">The previous invite link is now inactive. A new link has been generated.</string>
   <string name="RevokeButton">Revoke</string>
   <string name="RevokeLink">Revoke Link</string>
+  <string name="RevokeLinkAlert">Are you sure you want to revoke the link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\nThe group \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" will become private.</string>
+  <string name="RevokeLinkAlertChannel">Are you sure you want to revoke the link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\nThe channel \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" will become private.</string>
   <string name="CopyLink">Copy Link</string>
   <string name="ShareLink">Share Link</string>
   <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
@@ -529,13 +531,14 @@
   <string name="StickersCopy">Copy link</string>
   <string name="StickersRemove">Remove</string>
   <string name="NoStickers">No stickers yet</string>
+  <string name="Masks">Masks</string>
+  <string name="MasksInfo">You can add masks to photos you send. To do this, open the visual editor before sending a photo.</string>
   <string name="FeaturedStickers">Trending Stickers</string>
   <string name="FeaturedStickersInfo">These stickers are currently trending on Telegram. You can add custom stickers via the @stickers bot.</string>
   <string name="ArchivedStickers">Archived Stickers</string>
   <string name="ArchivedStickersEmpty">No archived stickers</string>
   <string name="ArchivedStickersInfo">You can have up to 200 sticker sets installed. Unused stickers are archived when you install new sets.</string>
   <string name="SendSticker">SEND STICKER</string>
-  <string name="TooMuchStickersets">Sorry, you have reached the maximum number of sticker sets.</string>
   <string name="ArchivedStickersAlertTitle">Archived stickers</string>
   <string name="ArchivedStickersAlertInfo">Some of your older sticker sets have been archived. You can reactivate them in the Stickers Settings.</string>
   <!--settings view-->
@@ -773,6 +776,14 @@
   <string name="PhotoCaption">Photo Caption</string>
   <string name="VideoCaption">Video Caption</string>
   <string name="Caption">Caption</string>
+  <string name="PaintDraw">Draw</string>
+  <string name="PaintStickers">Stickers</string>
+  <string name="PaintText">Text</string>
+  <string name="PaintDelete">Delete</string>
+  <string name="PaintEdit">Edit</string>
+  <string name="PaintDuplicate">Duplicate</string>
+  <string name="PaintOutlined">Outlined</string>
+  <string name="PaintRegular">Regular</string>
   <!--password view-->
   <string name="TwoStepVerification">Two-Step Verification</string>
   <string name="SetAdditionalPassword">Set Additional Password</string>
@@ -872,6 +883,7 @@
   <string name="OriginalVideo">Original Video</string>
   <string name="EditedVideo">Edited Video</string>
   <string name="SendingVideo">Sending video...</string>
+  <string name="SendingGif">Sending gif...</string>
   <string name="CompressVideo">Compress Video</string>
   <!--bot-->
   <string name="Bot">bot</string>
@@ -922,6 +934,10 @@
   <string name="ActionYouKickUser">You removed un2</string>
   <string name="ActionYouLeftUser">You left the group</string>
   <string name="ActionYouAddUser">You added un2</string>
+  <string name="ActionYouScored">You scored %1$s</string>
+  <string name="ActionUserScored">un1 scored %1$s</string>
+  <string name="ActionYouScoredInGame">You scored %1$s in un2</string>
+  <string name="ActionUserScoredInGame">un1 scored %1$s in un2</string>
   <string name="ActionYouRemovedPhoto">You removed the group photo</string>
   <string name="ActionYouChangedPhoto">You changed the group photo</string>
   <string name="ActionYouChangedTitle">You changed the group name to un2</string>
@@ -945,6 +961,7 @@
   <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Invalid phone number</string>
+  <string name="BannedPhoneNumber">Banned phone number</string>
   <string name="CodeExpired">Code expired, please login again</string>
   <string name="FloodWait">Too many attempts, please try again later</string>
   <string name="FloodWaitTime">Too many attempts, please try again in %1$s</string>
@@ -1140,6 +1157,12 @@
   <string name="Photos_few">%1$d photos</string>
   <string name="Photos_many">%1$d photos</string>
   <string name="Photos_other">%1$d photos</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">last seen %1$d minutes ago</string>
   <string name="LastSeenMinutes_one">last seen %1$d minute ago</string>
   <string name="LastSeenMinutes_two">last seen %1$d minutes ago</string>
