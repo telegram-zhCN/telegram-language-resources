@@ -488,6 +488,8 @@
   <string name="ShareContact">Share</string>
   <string name="AddContact">Add</string>
   <string name="AddContactTitle">Add contact</string>
+  <string name="ContactNotRegistered">%1$s is not on Telegram yet, would you like to invite them to join?</string>
+  <string name="Invite">Invite</string>
   <string name="BlockContact">Block</string>
   <string name="EditContact">Edit</string>
   <string name="DeleteContact">Delete</string>
@@ -522,25 +524,35 @@
   <!--stickers view-->
   <string name="Stickers">Stickers</string>
   <string name="AddStickers">Add Stickers</string>
+  <string name="AddMasks">Add Masks</string>
   <string name="AddToStickers">Add to Stickers</string>
+  <string name="AddToMasks">Add to Masks</string>
   <string name="AddStickersNotFound">Stickers not found</string>
   <string name="StickersRemoved">Stickers removed</string>
+  <string name="MasksRemoved">Masks removed</string>
   <string name="AddStickersInstalled">New stickers added</string>
+  <string name="AddMasksInstalled">New masks added</string>
   <string name="StickersHide">Archive</string>
   <string name="StickersShare">Share</string>
   <string name="StickersCopy">Copy link</string>
   <string name="StickersRemove">Remove</string>
   <string name="NoStickers">No stickers yet</string>
+  <string name="NoMasks">No masks yet</string>
   <string name="Masks">Masks</string>
-  <string name="MasksInfo">You can add masks to photos you send. To do this, open the visual editor before sending a photo.</string>
+  <string name="MasksInfo">You can add masks to photos you send. To do this, open the photo editor before sending a photo.</string>
   <string name="FeaturedStickers">Trending Stickers</string>
   <string name="FeaturedStickersInfo">These stickers are currently trending on Telegram. You can add custom stickers via the @stickers bot.</string>
   <string name="ArchivedStickers">Archived Stickers</string>
+  <string name="ArchivedMasks">Archived Masks</string>
   <string name="ArchivedStickersEmpty">No archived stickers</string>
+  <string name="ArchivedMasksEmpty">No archived masks</string>
   <string name="ArchivedStickersInfo">You can have up to 200 sticker sets installed. Unused stickers are archived when you install new sets.</string>
+  <string name="ArchivedMasksInfo">You can have up to 200 mask sets installed. Unused masks are archived when you install new sets.</string>
   <string name="SendSticker">SEND STICKER</string>
   <string name="ArchivedStickersAlertTitle">Archived stickers</string>
   <string name="ArchivedStickersAlertInfo">Some of your older sticker sets have been archived. You can reactivate them in the Stickers Settings.</string>
+  <string name="ArchivedMasksAlertTitle">Archived masks</string>
+  <string name="ArchivedMasksAlertInfo">Some of your older masks sets have been archived. You can reactivate them in the Masks Settings.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Reset all notification settings to default</string>
   <string name="TextSize">Messages Text Size</string>

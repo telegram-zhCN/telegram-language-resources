@@ -2830,7 +2830,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
 You can cancel this process at any time.</value>
   </data>
   <data name="ResetAccountError" xml:space="preserve">
-    <value>Your recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.</value>
+    <value>你最近的重置账号尝试被它的活动账号取消。请于7天内重试。</value>
   </data>
   <data name="ResetAccountIn" xml:space="preserve">
     <value>You’ll be able to reset your account in:</value>

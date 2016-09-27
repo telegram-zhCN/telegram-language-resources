@@ -31,7 +31,7 @@
 
 你可以在这段时间内随时取消这一过程。</string>
   <string name="ResetAccountStatus">你将会于一下时间重置你的账号：</string>
-  <string name="ResetAccountCancelledAlert">你最近的重置账号尝试被它的活动账号取消。请于7天内重试。</string>
+  <string name="ResetAccountCancelledAlert">您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
   <string name="CancelLinkSuccess">已取消删除您的账号 %1$s 。现在可以关闭此窗口。</string>
@@ -173,11 +173,7 @@
   <string name="ActionChannelChangedPhoto">更换了频道标识</string>
   <string name="ActionChannelRemovedPhoto">删除了频道标识</string>
   <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
-  <string name="ChannelPublicLimitReached">抱歉，您已经创建了过多的公开频道。您可以创建一个私人频道或者先删除一个现有的公开频道。</string>
-  <string name="ChangePublicLimitReached">对不起，您已经创建了过多的公开群组。
-
-您可以删除一些现有的公共群组
-或者将一些公开群组转为私有。</string>
+  <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
   <string name="ChannelModerator">主持人</string>
   <string name="ChannelCreator">创建者</string>
   <string name="ChannelEditor">管理员</string>
@@ -320,6 +316,7 @@
   <string name="CopyUrl">复制链接</string>
   <string name="SendItems">发送 %1$s</string>
   <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
+  <string name="BotPermissionUrlAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID 到通过机器人打开的网页？</string>
   <string name="ReportSpam">举报垃圾信息</string>
   <string name="ReportSpamAndLeave">举报垃圾信息并离开</string>
   <string name="AddContactChat">添加联系人</string>
@@ -465,6 +462,8 @@
   <string name="RevokeAlertNewLink">上一个邀请链接已被撤销，一个新的链接已生成。</string>
   <string name="RevokeButton">撤销</string>
   <string name="RevokeLink">撤销链接</string>
+  <string name="RevokeLinkAlert">您确定要撤销此链接 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ？\n\n群组\"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 将转变成私人模式。</string>
+  <string name="RevokeLinkAlertChannel">您确定要撤销此链接 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ？\n\n频道\"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 将转变成私人模式。</string>
   <string name="CopyLink">复制链接</string>
   <string name="ShareLink">分享链接</string>
   <string name="LinkInfo">任何已安装 Telegram 的用户都将可以通过此链接加入您的群组。</string>
@@ -536,6 +535,8 @@
   <string name="StickersCopy">复制链接</string>
   <string name="StickersRemove">移除</string>
   <string name="NoStickers">暂无贴纸</string>
+  <string name="Masks">饰物</string>
+  <string name="MasksInfo">你可以在你要发送的图片或视频里添加饰物，只要你在发送前开启图片编辑器即可。</string>
   <string name="FeaturedStickers">热门贴纸</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已存档贴纸</string>
@@ -543,7 +544,6 @@
   <string name="ArchivedStickersInfo">你可以拥有最多200个贴纸包。
 未使用的贴纸将在你添加新贴纸的时候存档。</string>
   <string name="SendSticker">发送贴纸</string>
-  <string name="TooMuchStickersets">抱歉，您收藏的贴纸包数量已达到上限。</string>
   <string name="ArchivedStickersAlertTitle">已存档贴纸</string>
   <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被存档。你可以在设置里重新激活它们。</string>
   <!--settings view-->
@@ -781,6 +781,14 @@
   <string name="PhotoCaption">图片说明</string>
   <string name="VideoCaption">视频说明</string>
   <string name="Caption">标题</string>
+  <string name="PaintDraw">画图</string>
+  <string name="PaintStickers">贴纸</string>
+  <string name="PaintText">文字</string>
+  <string name="PaintDelete">删除</string>
+  <string name="PaintEdit">编辑</string>
+  <string name="PaintDuplicate">复制</string>
+  <string name="PaintOutlined">外框</string>
+  <string name="PaintRegular">标准</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
   <string name="SetAdditionalPassword">设置两步验证密码</string>
@@ -880,6 +888,7 @@
   <string name="OriginalVideo">原始视频</string>
   <string name="EditedVideo">编辑过的视频</string>
   <string name="SendingVideo">正在发送视频...</string>
+  <string name="SendingGif">正在发送 GIF...</string>
   <string name="CompressVideo">压缩视频</string>
   <!--bot-->
   <string name="Bot">机器人</string>
@@ -930,6 +939,10 @@
   <string name="ActionYouKickUser">您已将 un2 移除</string>
   <string name="ActionYouLeftUser">您离开了该群组</string>
   <string name="ActionYouAddUser">您添加了 un2</string>
+  <string name="ActionYouScored">你获得 %1$s 分</string>
+  <string name="ActionUserScored">un1 获得 %1$s 分</string>
+  <string name="ActionYouScoredInGame">你在 un2 获得 %1$s 分</string>
+  <string name="ActionUserScoredInGame">un1 在 un2 获得 %1$s 分</string>
   <string name="ActionYouRemovedPhoto">您删除了群组图片</string>
   <string name="ActionYouChangedPhoto">您更换了群组图片</string>
   <string name="ActionYouChangedTitle">您将群组名称更改为 un2</string>
@@ -953,6 +966,7 @@
   <string name="ActionTakeScreenshoot">un1 截了一张图</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">无效的手机号码</string>
+  <string name="BannedPhoneNumber">封禁的电话号码</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
   <string name="FloodWait">尝试次数过多，请稍后再试</string>
   <string name="FloodWaitTime">尝试次数过多，请在 %1$s 后重试</string>
@@ -1148,6 +1162,12 @@
   <string name="Photos_few">%1$d 张图片</string>
   <string name="Photos_many">%1$d 张图片</string>
   <string name="Photos_other">%1$d 张图片</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">最近上线于 %1$d 分钟前</string>
   <string name="LastSeenMinutes_one">最近上线于 %1$d 分钟前</string>
   <string name="LastSeenMinutes_two">最近上线于 %1$d 分钟前</string>
