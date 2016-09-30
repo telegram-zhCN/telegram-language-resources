@@ -2879,7 +2879,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Mute</value>
   </data>
   <data name="OpenWebPagesViaBotConfirmation" xml:space="preserve">
-    <value>Do you allow {0} to pass your Telegram name and id to the web pages you open via this bot?</value>
+    <value>Allow {0} to pass your Telegram name and id (not your phone number) to the web pages you open with this bot?</value>
   </data>
   <data name="UserScored" xml:space="preserve">
     <value>{0} scored {1}</value>
@@ -2898,5 +2898,32 @@ The group **&quot;{1}&quot;** will become private.</value>
   </data>
   <data name="YourScoredPlural" xml:space="preserve">
     <value>You scored {0}</value>
+  </data>
+  <data name="ForwardedGameGenitivePlural" xml:space="preserve">
+    <value>Forwarded games</value>
+  </data>
+  <data name="ForwardedGameGenitiveSingular" xml:space="preserve">
+    <value>Forwarded game</value>
+  </data>
+  <data name="ForwardedGameNominativePlural" xml:space="preserve">
+    <value>Forwarded games</value>
+  </data>
+  <data name="ForwardedGameNominativeSingular" xml:space="preserve">
+    <value>Forwarded game</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="MessageActionPinGame" xml:space="preserve">
+    <value>{0} pinned a game</value>
+  </data>
+  <data name="ShareGameWith" xml:space="preserve">
+    <value>Share the game with {0}?</value>
+  </data>
+  <data name="IsPlayingGame" xml:space="preserve">
+    <value>Is playing a game</value>
+  </data>
+  <data name="PlayingGame" xml:space="preserve">
+    <value>Playing a game</value>
   </data>
 </root>

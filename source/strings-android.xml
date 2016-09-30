@@ -107,6 +107,7 @@
   <string name="ActionPinnedSticker">un1 pinned a sticker</string>
   <string name="ActionPinnedVoice">un1 pinned a voice message</string>
   <string name="ActionPinnedContact">un1 pinned a contact</string>
+  <string name="ActionPinnedGame">un1 pinned a %1$s</string>
   <string name="ActionPinnedGeo">un1 pinned a map</string>
   <string name="ActionPinnedGif">un1 pinned a GIF</string>
   <string name="ActionPinnedMusic">un1 pinned a track</string>
@@ -312,7 +313,7 @@
   <string name="CopyUrl">Copy URL</string>
   <string name="SendItems">Send %1$s</string>
   <string name="OpenUrlAlert">Open url %1$s?</string>
-  <string name="BotPermissionUrlAlert">Do you allow %1$s to pass your Telegram name and id to the web pages you open via this bot?</string>
+  <string name="BotPermissionGameAlert">Allow %1$s to pass your Telegram name and id (not your phone number) to pages you open with this bot?</string>
   <string name="ReportSpam">REPORT SPAM</string>
   <string name="ReportSpamAndLeave">REPORT SPAM AND LEAVE</string>
   <string name="AddContactChat">ADD CONTACT</string>
@@ -366,6 +367,7 @@
   <string name="NotificationMessageVideo">%1$s sent you a video</string>
   <string name="NotificationMessageContact">%1$s shared a contact with you</string>
   <string name="NotificationMessageMap">%1$s sent you a location</string>
+  <string name="NotificationMessageGame">%1$s invited you to play %2$s</string>
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
   <string name="NotificationMessageGif">%1$s sent you a GIF</string>
   <string name="NotificationMessageAudio">%1$s sent you a voice message</string>
@@ -378,6 +380,7 @@
   <string name="NotificationMessageGroupVideo">%1$s sent a video to the group %2$s</string>
   <string name="NotificationMessageGroupContact">%1$s shared a contact in the group %2$s</string>
   <string name="NotificationMessageGroupMap">%1$s sent a location to the group %2$s</string>
+  <string name="NotificationMessageGroupGame">%1$s invited the group %2$s to play %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s sent a file to the group %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s sent a GIF to the group %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s sent a voice message to the group %2$s</string>
@@ -404,6 +407,7 @@
   <string name="NotificationActionPinnedText">%1$s pinned \"%2$s\" in the group %3$s</string>
   <string name="NotificationActionPinnedNoText">%1$s pinned a message in the group %2$s</string>
   <string name="NotificationActionPinnedPhoto">%1$s pinned a photo in the group %2$s</string>
+  <string name="NotificationActionPinnedGame">%1$s pinned a game in the group %2$s</string>
   <string name="NotificationActionPinnedVideo">%1$s pinned a video in the group %2$s</string>
   <string name="NotificationActionPinnedFile">%1$s pinned a file in the group %2$s</string>
   <string name="NotificationActionPinnedSticker">%1$s pinned a sticker in the group %2$s</string>
@@ -425,6 +429,7 @@
   <string name="NotificationActionPinnedGeoChannel">%1$s pinned a map</string>
   <string name="NotificationActionPinnedGifChannel">%1$s pinned a GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s pinned a track</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s pinned a game</string>
   <!--contacts view-->
   <string name="SelectContact">Select Contact</string>
   <string name="NoContacts">No contacts yet</string>
@@ -968,6 +973,7 @@
   <string name="AttachDocument">File</string>
   <string name="AttachSticker">Sticker</string>
   <string name="AttachAudio">Voice message</string>
+  <string name="AttachGame">Game</string>
   <string name="FromYou">You</string>
   <string name="ActionTakeScreenshootYou">You took a screenshot!</string>
   <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
@@ -992,6 +998,7 @@
   <string name="UserAlreadyInGroup">This user is already in this group</string>
   <string name="ForwardMessagesTo">Forward messages to %1$s?</string>
   <string name="SendMessagesTo">Send messages to %1$s?</string>
+  <string name="SendGameTo">Share game to %1$s?</string>
   <string name="SendContactTo">Send contact to %1$s?</string>
   <string name="AreYouSureLogout">Are you sure you want to log out?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
   <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
@@ -1016,6 +1023,7 @@
   <string name="AreYouSureClearHistorySuper">Delete all cached text and media from this group?</string>
   <string name="AreYouSureDeleteMessages">Are you sure you want to delete %1$s?</string>
   <string name="SendMessagesToGroup">Send messages to %1$s?</string>
+  <string name="SendGameToGroup">Share game to %1$s?</string>
   <string name="SendContactToGroup">Send contact to %1$s?</string>
   <string name="ForwardMessagesToGroup">Forward messages to %1$s?</string>
   <string name="FeatureUnavailable">Sorry, this feature is currently not available in your country.</string>

@@ -1063,7 +1063,7 @@
     <value>新群发消息</value>
   </data>
   <data name="AddUserToTheGroup" xml:space="preserve">
-    <value>是否将 {0} 加入到讨论组“{1}”？</value>
+    <value>Add {0} to the group &quot;{1}&quot;?</value>
   </data>
   <data name="NumberOfForwardingMessages" xml:space="preserve">
     <value>尚未转发消息数量</value>
@@ -2072,9 +2072,6 @@
   <data name="PublicLinkDescription" xml:space="preserve">
     <value>人们可以与他人分享这个链接，并使用 Telegram 搜索找到你的频道。</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="CommentGenitivePlural" xml:space="preserve">
     <value>评论</value>
   </data>
@@ -2134,7 +2131,7 @@
     <value>公开频道</value>
   </data>
   <data name="ChannelsAdminPublicTooMuch" xml:space="preserve">
-    <value>对不起，您已经创建了过多的公共频道。您可以创建一个私人频道或者删除一个现有的公共频道。</value>
+    <value>Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</value>
   </data>
   <data name="ChannelsAdminPublicTooMuchShort" xml:space="preserve">
     <value>公开频道数量已达上限。</value>
@@ -2540,10 +2537,11 @@
     <value>超级群组</value>
   </data>
   <data name="ConvertToSupergroupDescription" xml:space="preserve">
-    <value>**在超级群组中：**
-• 新成员可以看到所有聊天记录
-• 所有成员将看不到已删除的消息
-• 创建者可以给群组设置一个公开链接</value>
+    <value>**In supergroups**:
+• New members can see the full message history
+• Deleted messages will disappear for all members
+• Admins can pin important messages
+• Creator can set a public link for the group</value>
   </data>
   <data name="BanUser" xml:space="preserve">
     <value>封禁用户</value>
@@ -2798,7 +2796,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>Set</value>
   </data>
   <data name="ChatWithYourself" xml:space="preserve">
-    <value>Chat with youself</value>
+    <value>Chat with yourself</value>
   </data>
   <data name="CloudStorageDescription" xml:space="preserve">
     <value>• Forward messages here to save them
@@ -2840,5 +2838,61 @@ You can cancel this process at any time.</value>
   </data>
   <data name="BotOpenUrlConfirmation" xml:space="preserve">
     <value>The bot {0} asks for permission to share your Telegram name and profile picture with the owner of {1}.</value>
+  </data>
+  <data name="IsRecordingVideo" xml:space="preserve">
+    <value>Is recording video</value>
+  </data>
+  <data name="IsSendingAudio" xml:space="preserve">
+    <value>Is sending audio</value>
+  </data>
+  <data name="RecordingVideo" xml:space="preserve">
+    <value>Recording video</value>
+  </data>
+  <data name="SendingAudio" xml:space="preserve">
+    <value>Sending audio</value>
+  </data>
+  <data name="Revoke" xml:space="preserve">
+    <value>Revoke</value>
+  </data>
+  <data name="RevokeLinkConfirmation2" xml:space="preserve">
+    <value>Are you sure you want to revoke the link **{0}**?
+
+The group **&quot;{1}&quot;** will become private.</value>
+  </data>
+  <data name="AddBotToTheGroup" xml:space="preserve">
+    <value>Add the bot to &quot;{0}&quot;?</value>
+  </data>
+  <data name="YourScored" xml:space="preserve">
+    <value>You scored {0}</value>
+  </data>
+  <data name="ShareWith" xml:space="preserve">
+    <value>Share with {0}?</value>
+  </data>
+  <data name="YourScoredAtGame" xml:space="preserve">
+    <value>You scored {0} at {1}</value>
+  </data>
+  <data name="MuteAudio" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="OpenWebPagesViaBotConfirmation" xml:space="preserve">
+    <value>Do you allow {0} to pass your Telegram name and id to the web pages you open via this bot?</value>
+  </data>
+  <data name="UserScored" xml:space="preserve">
+    <value>{0} scored {1}</value>
+  </data>
+  <data name="UserScoredAtGame" xml:space="preserve">
+    <value>{0} scored {1} at {2}</value>
+  </data>
+  <data name="UserScoredAtGamePlural" xml:space="preserve">
+    <value>{0} scored {1} at {2}</value>
+  </data>
+  <data name="UserScoredPlural" xml:space="preserve">
+    <value>{0} scored {1}</value>
+  </data>
+  <data name="YourScoredAtGamePlural" xml:space="preserve">
+    <value>You scored {0} at {1}</value>
+  </data>
+  <data name="YourScoredPlural" xml:space="preserve">
+    <value>You scored {0}</value>
   </data>
 </root>
