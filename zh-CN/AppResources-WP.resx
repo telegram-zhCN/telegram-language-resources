@@ -2834,7 +2834,7 @@ You can cancel this process at any time.</value>
     <value>You’ll be able to reset your account in:</value>
   </data>
   <data name="Archive" xml:space="preserve">
-    <value>Archive</value>
+    <value>归档</value>
   </data>
   <data name="BotOpenUrlConfirmation" xml:space="preserve">
     <value>The bot {0} asks for permission to share your Telegram name and profile picture with the owner of {1}.</value>
