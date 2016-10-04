@@ -30,7 +30,7 @@
   <string name="ResetAccountInfo">因为 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在1周后删除。
 
 你可以在这段时间内随时取消这一过程。</string>
-  <string name="ResetAccountStatus">你将会于一下时间重置你的账号：</string>
+  <string name="ResetAccountStatus">你将能在以下时间之后重置你的账号：</string>
   <string name="ResetAccountCancelledAlert">您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
@@ -108,9 +108,10 @@
   <string name="ActionPinnedPhoto">un1 已置顶 1 张图片</string>
   <string name="ActionPinnedVideo">un1 已置顶 1 个视频</string>
   <string name="ActionPinnedFile">un1 已置顶 1 个文件</string>
-  <string name="ActionPinnedSticker">%@ 已置顶 1 张贴纸</string>
+  <string name="ActionPinnedSticker">un1 已置顶 1 张贴纸</string>
   <string name="ActionPinnedVoice">un1 已置顶 1 条语音消息</string>
   <string name="ActionPinnedContact">un1 已置顶 1 个联系人信息</string>
+  <string name="ActionPinnedGame">un1 已置顶 1 个 %1$s</string>
   <string name="ActionPinnedGeo">un1 已置顶 1 个位置</string>
   <string name="ActionPinnedGif">un1 已置顶 1 个 GIF</string>
   <string name="ActionPinnedMusic">un1 已置顶 1 首音乐</string>
@@ -316,7 +317,7 @@
   <string name="CopyUrl">复制链接</string>
   <string name="SendItems">发送 %1$s</string>
   <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
-  <string name="BotPermissionUrlAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID 到通过机器人打开的网页？</string>
+  <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID(不是你的电话号码)到通过机器人打开的网页？</string>
   <string name="ReportSpam">举报垃圾信息</string>
   <string name="ReportSpamAndLeave">举报垃圾信息并离开</string>
   <string name="AddContactChat">添加联系人</string>
@@ -356,7 +357,7 @@
   <string name="ChatYourSelfDescription1">转发信息到这来保存它们</string>
   <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
   <string name="ChatYourSelfDescription3">在任意设备上访问这个会话</string>
-  <string name="ChatYourSelfDescription4">试用搜索来更快地找东西</string>
+  <string name="ChatYourSelfDescription4">使用搜索来更快地查找信息</string>
   <string name="ChatYourSelfTitle">你的云存储</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
@@ -370,6 +371,7 @@
   <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
   <string name="NotificationMessageContact">%1$s 给您分享了一个联系人</string>
   <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
+  <string name="NotificationMessageGame">%1$s 邀请您玩 %2$s </string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
   <string name="NotificationMessageAudio">%1$s 给您发送了一条语音消息</string>
@@ -382,6 +384,7 @@
   <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到 %2$s 群组</string>
   <string name="NotificationMessageGroupContact">%1$s 分享了一个联系人到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
+  <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s  来玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一条语音消息到群组 %2$s</string>
@@ -408,6 +411,7 @@
   <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
   <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
   <string name="NotificationActionPinnedPhoto">%1$s 在群组 %2$s 置顶了一张图片</string>
+  <string name="NotificationActionPinnedGame">%1$s 在群组 %2$s 置顶了一个游戏</string>
   <string name="NotificationActionPinnedVideo">%1$s 在群组 %2$s 置顶了一段视频</string>
   <string name="NotificationActionPinnedFile">%1$s 在群组 %2$s 置顶了一个文件</string>
   <string name="NotificationActionPinnedSticker">%1$s 在群组 %2$s 置顶了一张贴纸</string>
@@ -429,6 +433,7 @@
   <string name="NotificationActionPinnedGeoChannel">%1$s 已置顶 1 个位置</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 已置顶 1 个 GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了 1 首音乐</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s 已置顶 1 个游戏</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
   <string name="NoContacts">还没有联系人</string>
@@ -546,7 +551,7 @@
   <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只要你在发送前开启图片编辑器进行编辑即可。</string>
   <string name="FeaturedStickers">热门贴纸</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
-  <string name="ArchivedStickers">已存档贴纸</string>
+  <string name="ArchivedStickers">已归档贴纸</string>
   <string name="ArchivedMasks">已归档装饰</string>
   <string name="ArchivedStickersEmpty">没有已存档的贴纸</string>
   <string name="ArchivedMasksEmpty">暂无已归档装饰</string>
@@ -554,10 +559,10 @@
 未使用的贴纸将在你添加新贴纸的时候存档。</string>
   <string name="ArchivedMasksInfo">你最多可以拥有 200 个装饰包。当你添加更多的装饰时，未使用的装饰将会被归档。</string>
   <string name="SendSticker">发送贴纸</string>
-  <string name="ArchivedStickersAlertTitle">已存档贴纸</string>
-  <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被存档。你可以在设置里重新激活它们。</string>
+  <string name="ArchivedStickersAlertTitle">已归档贴纸</string>
+  <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被归档。你可以在设置里重新激活它们。</string>
   <string name="ArchivedMasksAlertTitle">已归档装饰</string>
-  <string name="ArchivedMasksAlertInfo">您的一些旧装饰包已经被存档。你可以在设置里重新激活它们。</string>
+  <string name="ArchivedMasksAlertInfo">您的一些旧图贴包已经被归档。你可以在设置里重新激活它们。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
   <string name="TextSize">文字大小</string>
@@ -914,7 +919,7 @@
   <string name="BotStart">开始</string>
   <string name="BotUnblock">重新启用</string>
   <string name="BotStop">停止使用</string>
-  <string name="BotRestart">重新启动</string>
+  <string name="BotRestart">重新启用</string>
   <!--button titles-->
   <string name="Next">下一步</string>
   <string name="Back">返回</string>
@@ -953,8 +958,8 @@
   <string name="ActionYouAddUser">您添加了 un2</string>
   <string name="ActionYouScored">你获得 %1$s 分</string>
   <string name="ActionUserScored">un1 获得 %1$s 分</string>
-  <string name="ActionYouScoredInGame">你在 un2 获得 %1$s 分</string>
-  <string name="ActionUserScoredInGame">un1 在 un2 获得 %1$s 分</string>
+  <string name="ActionYouScoredInGame">你在 un2 中获得 %1$s 分</string>
+  <string name="ActionUserScoredInGame">un1 在 un2 中获得 %1$s 分</string>
   <string name="ActionYouRemovedPhoto">您删除了群组图片</string>
   <string name="ActionYouChangedPhoto">您更换了群组图片</string>
   <string name="ActionYouChangedTitle">您将群组名称更改为 un2</string>
@@ -973,6 +978,7 @@
   <string name="AttachDocument">文件</string>
   <string name="AttachSticker">贴纸</string>
   <string name="AttachAudio">语音消息</string>
+  <string name="AttachGame">游戏</string>
   <string name="FromYou">您</string>
   <string name="ActionTakeScreenshootYou">您截了一张图</string>
   <string name="ActionTakeScreenshoot">un1 截了一张图</string>
@@ -997,6 +1003,7 @@
   <string name="UserAlreadyInGroup">该用户已经在此群组里了</string>
   <string name="ForwardMessagesTo">转发消息给 %1$s ？</string>
   <string name="SendMessagesTo">发送消息给 %1$s ？</string>
+  <string name="SendGameTo">分享游戏给 %1$s 吗？</string>
   <string name="SendContactTo">发送联系人信息给 %1$s ？</string>
   <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天数据。</string>
   <string name="AreYouSureSessions">您确定要注销所有其它设备上的会话吗？</string>
@@ -1021,6 +1028,7 @@
   <string name="AreYouSureClearHistorySuper">是否删除该群组中所有缓存的消息记录和媒体文件？</string>
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s 吗？</string>
   <string name="SendMessagesToGroup">发送消息到 %1$s ？</string>
+  <string name="SendGameToGroup">分享游戏给 %1$s 吗？</string>
   <string name="SendContactToGroup">发送联系人到 %1$s ？</string>
   <string name="ForwardMessagesToGroup">转发消息到 %1$s ？</string>
   <string name="FeatureUnavailable">抱歉，此功能在您的国家暂时不可用</string>

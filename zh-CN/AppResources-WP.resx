@@ -1063,7 +1063,7 @@
     <value>新群发消息</value>
   </data>
   <data name="AddUserToTheGroup" xml:space="preserve">
-    <value>Add {0} to the group &quot;{1}&quot;?</value>
+    <value>添加 {0} 到群组 {1} ？</value>
   </data>
   <data name="NumberOfForwardingMessages" xml:space="preserve">
     <value>尚未转发消息数量</value>
@@ -2131,7 +2131,7 @@
     <value>公开频道</value>
   </data>
   <data name="ChannelsAdminPublicTooMuch" xml:space="preserve">
-    <value>Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</value>
+    <value>抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</value>
   </data>
   <data name="ChannelsAdminPublicTooMuchShort" xml:space="preserve">
     <value>公开频道数量已达上限。</value>
@@ -2537,11 +2537,11 @@
     <value>超级群组</value>
   </data>
   <data name="ConvertToSupergroupDescription" xml:space="preserve">
-    <value>**In supergroups**:
-• New members can see the full message history
-• Deleted messages will disappear for all members
-• Admins can pin important messages
-• Creator can set a public link for the group</value>
+    <value>**在超级群组中**： 
+• 新成员可以看到所有聊天记录 
+• 所有成员将看不到已删除的消息 
+• 管理员可以置顶重要的消息 
+• 创建者可以给群组设置一个公开链接</value>
   </data>
   <data name="BanUser" xml:space="preserve">
     <value>封禁用户</value>
@@ -2740,42 +2740,42 @@
     <value>草稿</value>
   </data>
   <data name="FeaturedStickers" xml:space="preserve">
-    <value>Trending stickers</value>
+    <value>热门贴纸</value>
   </data>
   <data name="StickersHint" xml:space="preserve">
-    <value>Artists are welcome to add their own sticker packs using our __@stickers__ bot.
-
-Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quot;.</value>
+    <value>我们欢迎艺术家们通过我们的 __@stickers__ 机器人来创建他们自己的贴纸包。 
+用户可以通过点按贴纸然后选择 &quot;添加到贴纸库&quot; 来添加贴纸包。</value>
   </data>
   <data name="ClearRecentStickers" xml:space="preserve">
-    <value>Clear recent stickers</value>
+    <value>清空最近贴纸列表</value>
   </data>
   <data name="NewFeaturedStickers" xml:space="preserve">
-    <value>{0} new</value>
+    <value>{0} 个新的</value>
   </data>
   <data name="InstallStickersetError" xml:space="preserve">
-    <value>Sorry, you have reached the maximum number of sticker sets.</value>
+    <value>抱歉，您收藏的贴纸包数量已达到上限。</value>
   </data>
   <data name="ChatInviteSubtitle" xml:space="preserve">
-    <value>{0}, among them:</value>
+    <value>{0}，其中包括:</value>
   </data>
   <data name="InstalledStickers" xml:space="preserve">
-    <value>Installed stickers</value>
+    <value>已安装贴纸</value>
   </data>
   <data name="ShowStickersTab" xml:space="preserve">
-    <value>Show stickers tab</value>
+    <value>显示贴纸面板</value>
   </data>
   <data name="ShowStickersTabHint" xml:space="preserve">
-    <value>A sticker icon will appear in the input field.</value>
+    <value>开启后，输入框右侧将出现用于访问贴纸面板的快捷图标。</value>
   </data>
   <data name="ArchivedStickers" xml:space="preserve">
-    <value>Archived stickers</value>
+    <value>已存档贴纸</value>
   </data>
   <data name="ArchivedStickersAbout" xml:space="preserve">
-    <value>Some of the your unused stickers have been archived to make room for the sets you&apos;ve activated.</value>
+    <value>你的一些未使用的贴纸包已经被存档用于给你已激活的贴纸腾出空间。</value>
   </data>
   <data name="ArchivedStickersHeader" xml:space="preserve">
-    <value>You can have up to 200 sticker sets installed. Unused stickers are archived when you add more.</value>
+    <value>你最多可以拥有 200 个贴纸包。
+当你添加更多的贴纸时，未使用的贴纸将会被归档。</value>
   </data>
   <data name="NoSetsHere" xml:space="preserve">
     <value>No sets here</value>
@@ -2796,42 +2796,43 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>Set</value>
   </data>
   <data name="ChatWithYourself" xml:space="preserve">
-    <value>Chat with yourself</value>
+    <value>和你自己聊天</value>
   </data>
   <data name="CloudStorageDescription" xml:space="preserve">
-    <value>• Forward messages here to save them
-• Send media and files to store them
-• Access this chat from any device
-• Use search to quickly find things</value>
+    <value>• 将消息转发到这里来保存它们
+• 在这里发送媒体文件作为私人存储
+• 在任何设备上访问这个空间
+• 使用搜索功能来迅速寻找</value>
   </data>
   <data name="CloudStorage" xml:space="preserve">
-    <value>Your cloud storage</value>
+    <value>你的云存储</value>
   </data>
   <data name="CancelAccountReset" xml:space="preserve">
     <value>撤销账号重置请求</value>
   </data>
   <data name="CancelAccountResetDescription" xml:space="preserve">
-    <value>Somebody with access to your phone number **{0}** has requested to delete your Telegram account and reset your 2-Step Verification password. If this wasn’t you, please enter the code we’ve just sent you via SMS to your number **{0}**</value>
+    <value>我们收到一个有访问你电话号码 **{0}** 权限的人要求删除你的 Telegram 账号并重置两步验证密码的请求。如果不是你本人，请输入我们刚刚通过短信发送给你以下手机号的验证码。**{0}**</value>
   </data>
   <data name="CancelAccountResetSuccess" xml:space="preserve">
-    <value>Success! The deletion process was cancelled for your account {0}. You may close this window now.</value>
+    <value>成功！
+您的账号 {0} 的删除请求已经被撤销。您现在可以关闭这个窗口。</value>
   </data>
   <data name="Reset" xml:space="preserve">
-    <value>Reset</value>
+    <value>重置</value>
   </data>
   <data name="ResetAccount" xml:space="preserve">
-    <value>Reset account</value>
+    <value>重置帐号</value>
   </data>
   <data name="ResetAccountDescription" xml:space="preserve">
-    <value>Since the account **{0}** is active and protected by a password, we will delete it in 1 week for security purposes.
+    <value>因为 **{0}** 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在1周后删除。
 
-You can cancel this process at any time.</value>
+你可以在这段时间内随时取消这一过程。</value>
   </data>
   <data name="ResetAccountError" xml:space="preserve">
     <value>你最近的重置账号尝试被它的活动账号取消。请于7天内重试。</value>
   </data>
   <data name="ResetAccountIn" xml:space="preserve">
-    <value>You’ll be able to reset your account in:</value>
+    <value>你将会于一下时间重置你的账号：</value>
   </data>
   <data name="Archive" xml:space="preserve">
     <value>归档</value>
@@ -2840,59 +2841,86 @@ You can cancel this process at any time.</value>
     <value>The bot {0} asks for permission to share your Telegram name and profile picture with the owner of {1}.</value>
   </data>
   <data name="IsRecordingVideo" xml:space="preserve">
-    <value>Is recording video</value>
+    <value>正在录制视频</value>
   </data>
   <data name="IsSendingAudio" xml:space="preserve">
-    <value>Is sending audio</value>
+    <value>正在发送语音</value>
   </data>
   <data name="RecordingVideo" xml:space="preserve">
-    <value>Recording video</value>
+    <value>正在录制视频</value>
   </data>
   <data name="SendingAudio" xml:space="preserve">
-    <value>Sending audio</value>
+    <value>正在发送语音</value>
   </data>
   <data name="Revoke" xml:space="preserve">
-    <value>Revoke</value>
+    <value>撤销</value>
   </data>
   <data name="RevokeLinkConfirmation2" xml:space="preserve">
-    <value>Are you sure you want to revoke the link **{0}**?
+    <value>你确定要撤销此链接 **&quot;{0}&quot;**？
 
-The group **&quot;{1}&quot;** will become private.</value>
+**&quot;{1}&quot;** 将变成私人群组。</value>
   </data>
   <data name="AddBotToTheGroup" xml:space="preserve">
-    <value>Add the bot to &quot;{0}&quot;?</value>
+    <value>将机器人添加到 **&quot;{0}&quot;**？</value>
   </data>
   <data name="YourScored" xml:space="preserve">
-    <value>You scored {0}</value>
+    <value>获得 {0} 分</value>
   </data>
   <data name="ShareWith" xml:space="preserve">
-    <value>Share with {0}?</value>
+    <value>分享给 {0}？</value>
   </data>
   <data name="YourScoredAtGame" xml:space="preserve">
-    <value>You scored {0} at {1}</value>
+    <value>你在 {1} 中获得 {0} 分</value>
   </data>
   <data name="MuteAudio" xml:space="preserve">
-    <value>Mute</value>
+    <value>静音</value>
   </data>
   <data name="OpenWebPagesViaBotConfirmation" xml:space="preserve">
-    <value>Do you allow {0} to pass your Telegram name and id to the web pages you open via this bot?</value>
+    <value>是否允许 {0} 传送你的 Telegram 昵称及 ID(不是你的电话号码)到通过机器人打开的网页？</value>
   </data>
   <data name="UserScored" xml:space="preserve">
-    <value>{0} scored {1}</value>
+    <value>{0} 获得 {1} 分</value>
   </data>
   <data name="UserScoredAtGame" xml:space="preserve">
-    <value>{0} scored {1} at {2}</value>
+    <value>{0} 在 {2} 中获得 {1} 分</value>
   </data>
   <data name="UserScoredAtGamePlural" xml:space="preserve">
-    <value>{0} scored {1} at {2}</value>
+    <value>{0} 在 {2} 中获得 {1} 分</value>
   </data>
   <data name="UserScoredPlural" xml:space="preserve">
-    <value>{0} scored {1}</value>
+    <value>{0} 获得 {1} 分</value>
   </data>
   <data name="YourScoredAtGamePlural" xml:space="preserve">
-    <value>You scored {0} at {1}</value>
+    <value>你在 {1} 中获得 {0} 分</value>
   </data>
   <data name="YourScoredPlural" xml:space="preserve">
-    <value>You scored {0}</value>
+    <value>获得 {0} 分</value>
+  </data>
+  <data name="ForwardedGameGenitivePlural" xml:space="preserve">
+    <value>转发游戏</value>
+  </data>
+  <data name="ForwardedGameGenitiveSingular" xml:space="preserve">
+    <value>转发游戏</value>
+  </data>
+  <data name="ForwardedGameNominativePlural" xml:space="preserve">
+    <value>转发游戏</value>
+  </data>
+  <data name="ForwardedGameNominativeSingular" xml:space="preserve">
+    <value>转发游戏</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>游戏</value>
+  </data>
+  <data name="MessageActionPinGame" xml:space="preserve">
+    <value>{0} 已置顶 1 个游戏</value>
+  </data>
+  <data name="ShareGameWith" xml:space="preserve">
+    <value>对 {0} 分享此游戏？</value>
+  </data>
+  <data name="IsPlayingGame" xml:space="preserve">
+    <value>游戏中</value>
+  </data>
+  <data name="PlayingGame" xml:space="preserve">
+    <value>游戏中</value>
   </data>
 </root>

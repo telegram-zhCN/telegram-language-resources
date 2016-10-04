@@ -2926,4 +2926,7 @@ The group **&quot;{1}&quot;** will become private.</value>
   <data name="PlayingGame" xml:space="preserve">
     <value>Playing a game</value>
   </data>
+  <data name="YourCloudStorage" xml:space="preserve">
+    <value>Your cloud storage</value>
+  </data>
 </root>
