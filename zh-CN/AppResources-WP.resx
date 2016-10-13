@@ -2923,4 +2923,7 @@
   <data name="PlayingGame" xml:space="preserve">
     <value>游戏中</value>
   </data>
+  <data name="YourCloudStorage" xml:space="preserve">
+    <value>你的云存储</value>
+  </data>
 </root>
