@@ -77,6 +77,8 @@
   <string name="LinkPreview">Link preview</string>
   <string name="Draft">Draft</string>
   <string name="HistoryCleared">History was cleared</string>
+  <string name="ArticleByAuthor">by %1$s</string>
+  <string name="ArticleDateByAuthor">%1$s by %2$s</string>
   <!--channels-->
   <string name="GroupType">Group Type</string>
   <string name="ChannelType">Channel Type</string>
@@ -107,7 +109,7 @@
   <string name="ActionPinnedSticker">un1 pinned a sticker</string>
   <string name="ActionPinnedVoice">un1 pinned a voice message</string>
   <string name="ActionPinnedContact">un1 pinned a contact</string>
-  <string name="ActionPinnedGame">un1 pinned a %1$s</string>
+  <string name="ActionPinnedGame">un1 pinned %1$s</string>
   <string name="ActionPinnedGeo">un1 pinned a map</string>
   <string name="ActionPinnedGif">un1 pinned a GIF</string>
   <string name="ActionPinnedMusic">un1 pinned a track</string>
@@ -264,11 +266,13 @@
   <string name="IsRecordingAudio">%1$s is recording voice message...</string>
   <string name="IsSendingAudio">%1$s is sending audio...</string>
   <string name="IsSendingPhoto">%1$s is sending photo...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s is sending video...</string>
   <string name="IsSendingFile">%1$s is sending file...</string>
   <string name="RecordingAudio">recording voice message...</string>
   <string name="SendingAudio">sending audio...</string>
   <string name="SendingPhoto">sending photo...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">sending video...</string>
   <string name="SendingFile">sending file...</string>
   <string name="GotAQuestion">Got a question\nabout Telegram?</string>
@@ -320,8 +324,8 @@
   <string name="ReportSpamAlert">Are you sure you want to report spam from this user?</string>
   <string name="ReportSpamAlertGroup">Are you sure you want to report spam from this group?</string>
   <string name="ReportSpamAlertChannel">Are you sure you want to report spam from this channel?</string>
-  <string name="NobodyLikesSpam1">Sorry, you can only send messages to mutual contacts at the moment.</string>
-  <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
+  <string name="NobodyLikesSpam1">You have contacted too many non-contacts today, please try again tomorrow. You will be able to reply today if this user messages you first.</string>
+  <string name="NobodyLikesSpam2">You can\'t add this user because you have contacted too many non-contacts today. Please try again tomorrow. You can ask another member to add this user to the group.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">More info</string>
   <string name="ShareSendTo">Send to...</string>
@@ -448,11 +452,12 @@
   <string name="ALongTimeAgo">last seen a long time ago</string>
   <string name="NewMessageTitle">New Message</string>
   <!--group create view-->
-  <string name="SendMessageTo">Send message to...</string>
+  <string name="SendMessageTo">Add people...</string>
   <string name="SoftUserLimitAlert">You will be able to add more users after you finish creating the group and convert it to a supergroup.</string>
   <string name="EnterGroupNamePlaceholder">Enter group name</string>
   <string name="GroupName">Group name</string>
-  <string name="MembersCount">%1$d/%2$d members</string>
+  <string name="MembersCount">%1$d of %2$d selected</string>
+  <string name="MembersCountZero">up to %1$s</string>
   <string name="JoinToGroup">Do you want to join the chat \'%1$s\'?</string>
   <string name="JoinToGroupErrorFull">Sorry, this group is already full.</string>
   <string name="JoinToGroupErrorNotExist">Sorry, this chat does not seem to exist.</string>
@@ -504,6 +509,9 @@
   <string name="PhoneOther">Other</string>
   <string name="PhoneMain">Main</string>
   <string name="StartEncryptedChat">Start Secret Chat</string>
+  <string name="GroupsInCommon">Groups in Common</string>
+  <string name="GroupsInCommonTitle">Groups in common</string>
+  <string name="NoGroupsInCommon">No common groups yet</string>
   <string name="CreateEncryptedChatError">An error occurred.</string>
   <string name="EncryptionKey">Encryption Key</string>
   <string name="MessageLifetime">Self-Destruct Timer</string>
@@ -580,6 +588,25 @@
   <string name="ResetAllNotifications">Reset All Notifications</string>
   <string name="UndoAllCustom">Undo all custom notification settings for all your contacts and groups</string>
   <string name="NotificationsAndSounds">Notifications and Sounds</string>
+  <string name="CustomNotifications">Custom Notifications</string>
+  <string name="ProfilePopupNotification">Popup notifications</string>
+  <string name="ProfilePopupNotificationInfo">New messages from this contact will appear on your screen when you are not using Telegram.</string>
+  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLedColor">Color</string>
+  <string name="ColorBlue">Blue</string>
+  <string name="ColorRed">Red</string>
+  <string name="ColorYellow">Yellow</string>
+  <string name="ColorGreen">Green</string>
+  <string name="ColorCyan">Cyan</string>
+  <string name="ColorWhite">White</string>
+  <string name="ColorPink">Pink</string>
+  <string name="ColorViolet">Violet</string>
+  <string name="ColorOrange">Orange</string>
+  <string name="NotificationsLedInfo">LED is a small blinking light on some devices that is used to indicate new messages.</string>
+  <string name="PriorityInfo">Higher priority notifications will work even if your phone is in Do Not Disturb mode.</string>
+  <string name="General">General</string>
+  <string name="NotificationsOn">On</string>
+  <string name="NotificationsOff">Off</string>
   <string name="BlockedUsers">Blocked Users</string>
   <string name="LogOut">Log out</string>
   <string name="NoSound">No sound</string>
@@ -621,8 +648,6 @@
   <string name="BadgeNumber">Badge Counter</string>
   <string name="Short">Short</string>
   <string name="Long">Long</string>
-  <string name="SystemDefault">System default</string>
-  <string name="SettingsDefault">Settings default</string>
   <string name="AutomaticMediaDownload">Automatic media download</string>
   <string name="WhenUsingMobileData">When using mobile data</string>
   <string name="WhenConnectedOnWiFi">When connected on Wi-Fi</string>
@@ -632,7 +657,11 @@
   <string name="RaiseToSpeak">Raise to Speak</string>
   <string name="SaveToGallerySettings">Save to gallery</string>
   <string name="EditName">Edit name</string>
+  <string name="NotificationsCustomize">Customize</string>
+  <string name="NotificationsCustom">Custom</string>
+  <string name="NotificationsEnableCustom">Enable Custom Notifications</string>
   <string name="NotificationsPriority">Priority</string>
+  <string name="NotificationsPrioritySettings">Same as in Settings</string>
   <string name="NotificationsPriorityDefault">Default</string>
   <string name="NotificationsPriorityLow">Low</string>
   <string name="NotificationsPriorityHigh">High</string>
@@ -648,24 +677,27 @@
   <string name="NotificationsOther">Other</string>
   <string name="NotificationsDisabled">Disabled</string>
   <string name="VibrationDisabled">Disabled</string>
+  <string name="PopupEnabled">Enabled</string>
+  <string name="PopupDisabled">Disabled</string>
   <string name="LedDisabled">Disabled</string>
   <string name="RepeatDisabled">Off</string>
   <string name="InChatSound">In-Chat Sounds</string>
   <string name="SoundDefault">Default</string>
   <string name="VibrationDefault">Default</string>
   <string name="SmartNotifications">Smart Notifications</string>
+  <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Disabled</string>
-  <string name="SmartNotificationsInfo">Sound at most %1$s within %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Sound at most</string>
-  <string name="SmartNotificationsTimes">times</string>
-  <string name="SmartNotificationsWithin">within</string>
-  <string name="SmartNotificationsMinutes">minutes</string>
+  <string name="SmartNotificationsAlert">Sound Alert Frequency</string>
+  <string name="SmartNotificationsDetail">%1$s within %2$s</string>
   <string name="SecretWebPage">Link Previews</string>
   <string name="SecretChat">Secret chats</string>
   <string name="ChromeCustomTabs">In-App Browser</string>
   <string name="ChromeCustomTabsInfo">Open external links within the app</string>
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Show recent chats in share menu</string>
+  <string name="Emoji">Emoji</string>
+  <string name="EmojiBigSize">Draw single big emoji</string>
+  <string name="EmojiUseDefault">Use system default emoji</string>
   <!--cache view-->
   <string name="CacheSettings">Cache Settings</string>
   <string name="LocalDatabase">Local Database</string>
@@ -716,6 +748,8 @@
   <string name="FingerprintInfo">Confirm fingerprint to continue</string>
   <string name="FingerprintHelp">Touch sensor</string>
   <string name="FingerprintNotRecognized">Fingerprint not recognized. Try again</string>
+  <string name="ScreenCapture">Allow Screen Capture</string>
+  <string name="ScreenCaptureInfo">If enabled, you can take screenshots of the app, but the system will display your chats in the task switcher even when the passcode is on.\n\nYou may need to restart the app for this to take effect.</string>
   <!--media view-->
   <string name="DocumentsTitle">Shared Files</string>
   <string name="SharedMediaTitle">Shared Media</string>
@@ -866,7 +900,7 @@
   <string name="SecurityTitle">Security</string>
   <string name="DeleteAccountTitle">Account self-destructs</string>
   <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
-  <string name="DeleteAccountHelp">If you do not log in at least once within this period, your account will be deleted along with all groups, messages and contacts.</string>
+  <string name="DeleteAccountHelp">If you do not come online at least once within this period, your account will be deleted along with all groups, messages and contacts.</string>
   <string name="DeleteAccountNowConfirmation">Delete your account?</string>
   <string name="LastSeenHelp">Change who can see your Last Seen time.</string>
   <string name="LastSeenTitle">Who can see your Last Seen time?</string>
@@ -897,11 +931,8 @@
   <string name="CreateGroupError">Sorry, you can\'t create a group with these users because of their privacy settings.</string>
   <!--edit video view-->
   <string name="EditVideo">Edit Video</string>
-  <string name="OriginalVideo">Original Video</string>
-  <string name="EditedVideo">Edited Video</string>
   <string name="SendingVideo">Sending video...</string>
   <string name="SendingGif">Sending gif...</string>
-  <string name="CompressVideo">Compress Video</string>
   <!--bot-->
   <string name="Bot">bot</string>
   <string name="BotShare">Share</string>
@@ -1035,6 +1066,7 @@
   <string name="EditMessageError">Sorry, you can\'t edit this message.</string>
   <string name="AllowReadSms">Please allow Telegram to receive SMS so that we can automatically enter your code for you.</string>
   <string name="AllowReadCall">Please allow Telegram to receive calls so that we can automatically enter your code for you.</string>
+  <string name="AllowFillNumber">Please allow Telegram to receive calls and SMS so that we can fill in your phone number, send you a code, and enter it for you.</string>
   <string name="AllowReadCallAndSms">Please allow Telegram to receive calls and SMS so that we can automatically enter your code for you.</string>
   <string name="UserRestricted">Sorry, you are not allowed to do this.</string>
   <string name="JoinGroup">JOIN GROUP</string>
