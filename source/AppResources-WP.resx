@@ -1184,7 +1184,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Original video</value>
   </data>
   <data name="AccountSelfDestrucsDescription" xml:space="preserve">
-    <value>If you do not log in at least once within this period, your account will be deleted along with all groups, messages and contacts.</value>
+    <value>If you do not come online at least once within this period, your account will be deleted along with all groups, messages and contacts.</value>
   </data>
   <data name="AccountSelfDestructs" xml:space="preserve">
     <value>Account self-destructs</value>
@@ -2928,5 +2928,44 @@ The group **&quot;{1}&quot;** will become private.</value>
   </data>
   <data name="YourCloudStorage" xml:space="preserve">
     <value>Your cloud storage</value>
+  </data>
+  <data name="Masks" xml:space="preserve">
+    <value>Masks</value>
+  </data>
+  <data name="MasksHint" xml:space="preserve">
+    <value>You can add masks to photos you send. To do this, open the photo editor before sending a photo.</value>
+  </data>
+  <data name="GroupsInCommon" xml:space="preserve">
+    <value>Groups in common</value>
+  </data>
+  <data name="GroupGenitivePlural" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="GroupGenitiveSingular" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GroupNominativePlural" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="GroupNominativeSingular" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="NoGroupsHere" xml:space="preserve">
+    <value>No groups here</value>
+  </data>
+  <data name="AddChatUserFloodWait" xml:space="preserve">
+    <value>You can&apos;t add this user because you have contacted too many non-contacts today. Please try again tomorrow. You can ask another member to add this user to the group.</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Clear all</value>
+  </data>
+  <data name="ClearPaintingConfirmation" xml:space="preserve">
+    <value>Are you sure you want to clear painting?</value>
+  </data>
+  <data name="DiscardChangesConfirmation" xml:space="preserve">
+    <value>Are you sure you want to discard changes?</value>
+  </data>
+  <data name="SendMessageFloodWait" xml:space="preserve">
+    <value>You have contacted too many non-contacts today, please try again tomorrow. You will be able to reply today if this user messages you first.</value>
   </data>
 </root>

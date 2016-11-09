@@ -81,6 +81,8 @@
   <string name="LinkPreview">链接预览</string>
   <string name="Draft">草稿</string>
   <string name="HistoryCleared">历史记录已被清空</string>
+  <string name="ArticleByAuthor">%1$s</string>
+  <string name="ArticleDateByAuthor">%2$s 于 %1$s</string>
   <!--channels-->
   <string name="GroupType">群组类型</string>
   <string name="ChannelType">频道类型</string>
@@ -111,7 +113,7 @@
   <string name="ActionPinnedSticker">un1 已置顶 1 张贴纸</string>
   <string name="ActionPinnedVoice">un1 已置顶 1 条语音消息</string>
   <string name="ActionPinnedContact">un1 已置顶 1 个联系人信息</string>
-  <string name="ActionPinnedGame">un1 已置顶 1 个 %1$s</string>
+  <string name="ActionPinnedGame">un1 已置顶 %1$s</string>
   <string name="ActionPinnedGeo">un1 已置顶 1 个位置</string>
   <string name="ActionPinnedGif">un1 已置顶 1 个 GIF</string>
   <string name="ActionPinnedMusic">un1 已置顶 1 首音乐</string>
@@ -268,11 +270,13 @@
   <string name="IsRecordingAudio">%1$s 正在录制语音...</string>
   <string name="IsSendingAudio">%1$s 正在发送音频</string>
   <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s 正在发送视频...</string>
   <string name="IsSendingFile">%1$s 正在发送文件...</string>
   <string name="RecordingAudio">正在录制语音...</string>
   <string name="SendingAudio">正在发送音频</string>
   <string name="SendingPhoto">正在发送图片...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">正在发送视频...</string>
   <string name="SendingFile">正在发送文件...</string>
   <string name="GotAQuestion">对 Telegram 有疑问？</string>
@@ -324,8 +328,8 @@
   <string name="ReportSpamAlert">您确定要举报此用户发送了垃圾信息？</string>
   <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
   <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
-  <string name="NobodyLikesSpam1">抱歉，您现在只能给双向联系人发送信息。</string>
-  <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
+  <string name="NobodyLikesSpam1">您已超过了今天的非联系人通信人数上限。请明天重试。您今天只能回复他人已发的的消息。</string>
+  <string name="NobodyLikesSpam2">添加成员失败。您已超过了今天的非联系人通信人数上限。请明天重试。您可以请求其他群组成员添加此人。</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">详情</string>
   <string name="ShareSendTo">发送到...</string>
@@ -452,11 +456,12 @@
   <string name="ALongTimeAgo">很久没上线</string>
   <string name="NewMessageTitle">新建对话</string>
   <!--group create view-->
-  <string name="SendMessageTo">发送消息至...</string>
+  <string name="SendMessageTo">添加成员...</string>
   <string name="SoftUserLimitAlert">您能够在创建群组并升级到超级群组后添加更多的用户</string>
   <string name="EnterGroupNamePlaceholder">输入群组名称</string>
   <string name="GroupName">群组名称</string>
-  <string name="MembersCount">%1$d/%2$d 个成员</string>
+  <string name="MembersCount">已选择 %2$d 个成员中的 %1$d 个</string>
+  <string name="MembersCountZero">多达 %1$s 人</string>
   <string name="JoinToGroup">您确定要加入群组“%1$s”吗？</string>
   <string name="JoinToGroupErrorFull">抱歉，此群组已经满员。</string>
   <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
@@ -508,6 +513,9 @@
   <string name="PhoneOther">其它</string>
   <string name="PhoneMain">主要</string>
   <string name="StartEncryptedChat">开始加密对话</string>
+  <string name="GroupsInCommon">共同加入的群组</string>
+  <string name="GroupsInCommonTitle">共同加入的群组</string>
+  <string name="NoGroupsInCommon">还没有共同加入的群组</string>
   <string name="CreateEncryptedChatError">发生错误</string>
   <string name="EncryptionKey">加密密钥</string>
   <string name="MessageLifetime">阅后即焚计时器</string>
@@ -585,6 +593,25 @@
   <string name="ResetAllNotifications">重置所有通知设置</string>
   <string name="UndoAllCustom">撤销所有对联系人和群组的通知设置的更改</string>
   <string name="NotificationsAndSounds">通知和声音</string>
+  <string name="CustomNotifications">自定义通知</string>
+  <string name="ProfilePopupNotification">浮动通知</string>
+  <string name="ProfilePopupNotificationInfo">当您没有打开 Telegram 时，来自此联系人的新消息也会出现在您的屏幕上。</string>
+  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLedColor">颜色</string>
+  <string name="ColorBlue">蓝色</string>
+  <string name="ColorRed">红色</string>
+  <string name="ColorYellow">黄色</string>
+  <string name="ColorGreen">绿色</string>
+  <string name="ColorCyan">青色</string>
+  <string name="ColorWhite">白色</string>
+  <string name="ColorPink">粉色</string>
+  <string name="ColorViolet">紫色</string>
+  <string name="ColorOrange">橙色</string>
+  <string name="NotificationsLedInfo">LED 指示灯是在部分设备上能够提示新消息的闪烁的小灯。</string>
+  <string name="PriorityInfo">高优先级通知能够在免打扰模式开启时依然正常提醒。</string>
+  <string name="General">通用</string>
+  <string name="NotificationsOn">开启</string>
+  <string name="NotificationsOff">关闭</string>
   <string name="BlockedUsers">被屏蔽的用户</string>
   <string name="LogOut">注销</string>
   <string name="NoSound">无声</string>
@@ -626,8 +653,6 @@
   <string name="BadgeNumber">未读消息数量提示</string>
   <string name="Short">短</string>
   <string name="Long">长</string>
-  <string name="SystemDefault">系统默认</string>
-  <string name="SettingsDefault">默认设置</string>
   <string name="AutomaticMediaDownload">自动下载媒体文件</string>
   <string name="WhenUsingMobileData">使用移动数据流量时</string>
   <string name="WhenConnectedOnWiFi">接入WiFi时</string>
@@ -637,7 +662,11 @@
   <string name="RaiseToSpeak">贴耳语音</string>
   <string name="SaveToGallerySettings">保存到相册</string>
   <string name="EditName">编辑姓名</string>
+  <string name="NotificationsCustomize">自定义</string>
+  <string name="NotificationsCustom">自定义</string>
+  <string name="NotificationsEnableCustom">启用自定义通知设置</string>
   <string name="NotificationsPriority">优先级</string>
+  <string name="NotificationsPrioritySettings">和全局设置相同</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityLow">低</string>
   <string name="NotificationsPriorityHigh">高</string>
@@ -653,24 +682,27 @@
   <string name="NotificationsOther">其他</string>
   <string name="NotificationsDisabled">禁用</string>
   <string name="VibrationDisabled">禁用</string>
+  <string name="PopupEnabled">启用</string>
+  <string name="PopupDisabled">禁用</string>
   <string name="LedDisabled">禁用</string>
   <string name="RepeatDisabled">关闭</string>
   <string name="InChatSound">发送提示音</string>
   <string name="SoundDefault">默认</string>
   <string name="VibrationDefault">默认</string>
   <string name="SmartNotifications">智能通知</string>
+  <string name="SmartNotificationsInfo">%2$s %1$d 次</string>
   <string name="SmartNotificationsDisabled">禁用</string>
-  <string name="SmartNotificationsInfo">在 %2$s 内最多通知 %1$s</string>
-  <string name="SmartNotificationsSoundAtMost">最多通知</string>
-  <string name="SmartNotificationsTimes">次</string>
-  <string name="SmartNotificationsWithin">在</string>
-  <string name="SmartNotificationsMinutes">分钟内</string>
+  <string name="SmartNotificationsAlert">响铃频率</string>
+  <string name="SmartNotificationsDetail">%2$s 内提醒 %1$s</string>
   <string name="SecretWebPage">链接预览</string>
   <string name="SecretChat">加密对话</string>
   <string name="ChromeCustomTabs">应用内浏览器</string>
   <string name="ChromeCustomTabsInfo">在应用内打开外部链接</string>
   <string name="DirectShare">直接分享</string>
   <string name="DirectShareInfo">在分享菜单中显示最近消息</string>
+  <string name="Emoji">Emoji</string>
+  <string name="EmojiBigSize">显示单个大号 Emoji</string>
+  <string name="EmojiUseDefault">使用系统默认emoji</string>
   <!--cache view-->
   <string name="CacheSettings">缓存设置</string>
   <string name="LocalDatabase">本地数据库</string>
@@ -721,6 +753,8 @@
   <string name="FingerprintInfo">请验证指纹</string>
   <string name="FingerprintHelp">请按下手指</string>
   <string name="FingerprintNotRecognized">指纹未识别，请重试。</string>
+  <string name="ScreenCapture">允许屏幕抓取</string>
+  <string name="ScreenCaptureInfo">启用后，您可以在 Telegram 中进行截图，但系统将在任务切换屏幕中显示您的聊天内容，无论您是否启用了 Telegram 密码锁。\n\n您需要重新启动 Telegram 以使此变更生效。</string>
   <!--media view-->
   <string name="DocumentsTitle">分享的文件</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
@@ -871,7 +905,7 @@
   <string name="SecurityTitle">安全</string>
   <string name="DeleteAccountTitle">自动删除帐号</string>
   <string name="DeleteAccountIfAwayFor">离线时间</string>
-  <string name="DeleteAccountHelp">如果您在此期间一次都没有登录您的帐户，您的帐户以及所有群组、消息记录和联系人都会被删除。</string>
+  <string name="DeleteAccountHelp">如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除 。</string>
   <string name="DeleteAccountNowConfirmation">要删除您的帐号吗？</string>
   <string name="LastSeenHelp">修改谁可以看见您最后上线的时间。</string>
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
@@ -902,11 +936,8 @@
   <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
   <!--edit video view-->
   <string name="EditVideo">编辑视频</string>
-  <string name="OriginalVideo">原始视频</string>
-  <string name="EditedVideo">编辑过的视频</string>
   <string name="SendingVideo">正在发送视频...</string>
   <string name="SendingGif">正在发送 GIF...</string>
-  <string name="CompressVideo">压缩视频</string>
   <!--bot-->
   <string name="Bot">机器人</string>
   <string name="BotShare">分享</string>
@@ -1040,6 +1071,7 @@
   <string name="EditMessageError">抱歉，您不能编辑这条消息。</string>
   <string name="AllowReadSms">请授予 Telegram 读取短信权限以便我们自动读取验证短信。</string>
   <string name="AllowReadCall">请授予 Telegram 接听电话权限以便我们自动读取验证码。</string>
+  <string name="AllowFillNumber">请允许 Telegram 接受来电及短信，以便自动填写您的电话号码，接收并自动填写短信验证码。</string>
   <string name="AllowReadCallAndSms">请授予 Telegram 读取短信及通话权限以便我们自动读取验证码。</string>
   <string name="UserRestricted">抱歉，您无法执行此操作。</string>
   <string name="JoinGroup">加入群组</string>
