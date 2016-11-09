@@ -754,7 +754,7 @@
   <string name="FingerprintHelp">请按下手指</string>
   <string name="FingerprintNotRecognized">指纹未识别，请重试。</string>
   <string name="ScreenCapture">允许屏幕抓取</string>
-  <string name="ScreenCaptureInfo">启用后，您可以在 Telegram 中进行截图，但系统将在任务切换屏幕中显示您的聊天内容，无论您是否启用了 Telegram 密码锁。\n\n您需要重新启动 Telegram 以使此变更生效。</string>
+  <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但系统将在概览屏幕中显示您的聊天内容，即使您启用了锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
   <!--media view-->
   <string name="DocumentsTitle">分享的文件</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
@@ -831,14 +831,14 @@
   <string name="AddCaption">添加说明...</string>
   <string name="PhotoCaption">图片说明</string>
   <string name="VideoCaption">视频说明</string>
-  <string name="Caption">标题</string>
+  <string name="Caption">说明</string>
   <string name="PaintDraw">画图</string>
   <string name="PaintStickers">贴纸</string>
   <string name="PaintText">文字</string>
   <string name="PaintDelete">删除</string>
   <string name="PaintEdit">编辑</string>
   <string name="PaintDuplicate">复制</string>
-  <string name="PaintOutlined">外框</string>
+  <string name="PaintOutlined">描边</string>
   <string name="PaintRegular">标准</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
@@ -1042,7 +1042,7 @@
   <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
   <string name="ShareYouLocationTitle">是否分享您的位置信息？</string>
   <string name="ShareYouLocationInfo">此操作会把您的当前位置信息发送给机器人。</string>
-  <string name="ShareYouLocationUnable">此应用无法确认您的当前位置</string>
+  <string name="ShareYouLocationUnable">应用无法确认您的当前位置</string>
   <string name="ShareYouLocationUnableManually">手动选择</string>
   <string name="ShareYouLocationInline">机器人需要在您每次向它发送请求时获取您的位置信息，以便提供具体位置的查询结果。</string>
   <string name="ShareYouPhoneNumberTitle">是否分享您的电话号码？</string>
@@ -1069,9 +1069,9 @@
   <string name="SecretChatContextBotAlert">请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
   <string name="RaiseToSpeakAlert">您想要启用抬起手机到耳边即开始录音的功能吗？</string>
   <string name="EditMessageError">抱歉，您不能编辑这条消息。</string>
-  <string name="AllowReadSms">请授予 Telegram 读取短信权限以便我们自动读取验证短信。</string>
-  <string name="AllowReadCall">请授予 Telegram 接听电话权限以便我们自动读取验证码。</string>
-  <string name="AllowFillNumber">请允许 Telegram 接受来电及短信，以便自动填写您的电话号码，接收并自动填写短信验证码。</string>
+  <string name="AllowReadSms">请授予 Telegram 短信权限以便我们自动读取验证短信。</string>
+  <string name="AllowReadCall">请授予 Telegram 电话权限以便我们自动读取验证码。</string>
+  <string name="AllowFillNumber">请允许 Telegram 接收来电及短信，以便自动填写您的电话号码，并自动填写收到的短信验证码。</string>
   <string name="AllowReadCallAndSms">请授予 Telegram 读取短信及通话权限以便我们自动读取验证码。</string>
   <string name="UserRestricted">抱歉，您无法执行此操作。</string>
   <string name="JoinGroup">加入群组</string>
