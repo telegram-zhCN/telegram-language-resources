@@ -79,6 +79,9 @@
   <string name="HistoryCleared">History was cleared</string>
   <string name="ArticleByAuthor">by %1$s</string>
   <string name="ArticleDateByAuthor">%1$s by %2$s</string>
+  <string name="PreviewFeedback">Leave feedback about this preview</string>
+  <string name="SendStickerPreview">Send Sticker</string>
+  <string name="ViewPackPreview">View Pack</string>
   <!--channels-->
   <string name="GroupType">Group Type</string>
   <string name="ChannelType">Channel Type</string>
@@ -266,13 +269,14 @@
   <string name="IsRecordingAudio">%1$s is recording voice message...</string>
   <string name="IsSendingAudio">%1$s is sending audio...</string>
   <string name="IsSendingPhoto">%1$s is sending photo...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
+  <string name="InstantView">INSTANT VIEW</string>
+  <string name="IsSendingGame">%1$s is playing a game...</string>
   <string name="IsSendingVideo">%1$s is sending video...</string>
   <string name="IsSendingFile">%1$s is sending file...</string>
   <string name="RecordingAudio">recording voice message...</string>
   <string name="SendingAudio">sending audio...</string>
   <string name="SendingPhoto">sending photo...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
+  <string name="SendingGame">playing a game...</string>
   <string name="SendingVideoStatus">sending video...</string>
   <string name="SendingFile">sending file...</string>
   <string name="GotAQuestion">Got a question\nabout Telegram?</string>
@@ -359,6 +363,7 @@
   <string name="ChatYourSelfDescription3">Access this chat from any device</string>
   <string name="ChatYourSelfDescription4">Use search to quickly find things</string>
   <string name="ChatYourSelfTitle">Your cloud storage</string>
+  <string name="JumpToDate">Jump to Date</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -607,6 +612,8 @@
   <string name="General">General</string>
   <string name="NotificationsOn">On</string>
   <string name="NotificationsOff">Off</string>
+  <string name="NotificationsTurnOn">Turn On</string>
+  <string name="NotificationsTurnOff">Turn Off</string>
   <string name="BlockedUsers">Blocked Users</string>
   <string name="LogOut">Log out</string>
   <string name="NoSound">No sound</string>
@@ -826,6 +833,7 @@
   <string name="AddCaption">Add a caption...</string>
   <string name="PhotoCaption">Photo Caption</string>
   <string name="VideoCaption">Video Caption</string>
+  <string name="GifCaption">GIF Caption</string>
   <string name="Caption">Caption</string>
   <string name="PaintDraw">Draw</string>
   <string name="PaintStickers">Stickers</string>
@@ -1074,6 +1082,7 @@
   <string name="PermissionContacts">Telegram needs access to your contacts so that you can connect with your friends across all your devices.</string>
   <string name="PermissionStorage">Telegram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
   <string name="PermissionNoAudio">Telegram needs access to your microphone so that you can send voice messages.</string>
+  <string name="PermissionNoAudioVideo">Telegram needs access to your microphone so that you can record videos.</string>
   <string name="PermissionNoCamera">Telegram needs access to your camera so that you can capture photos and videos.</string>
   <string name="PermissionNoLocation">Telegram needs access to your location so that you can share it with your friends.</string>
   <string name="PermissionNoLocationPosition">Telegram needs access to your location.</string>
