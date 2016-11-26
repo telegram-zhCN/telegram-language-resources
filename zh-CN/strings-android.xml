@@ -270,13 +270,11 @@
   <string name="IsRecordingAudio">%1$s 正在录制语音...</string>
   <string name="IsSendingAudio">%1$s 正在发送音频</string>
   <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s 正在发送视频...</string>
   <string name="IsSendingFile">%1$s 正在发送文件...</string>
   <string name="RecordingAudio">正在录制语音...</string>
   <string name="SendingAudio">正在发送音频</string>
   <string name="SendingPhoto">正在发送图片...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">正在发送视频...</string>
   <string name="SendingFile">正在发送文件...</string>
   <string name="GotAQuestion">对 Telegram 有疑问？</string>
