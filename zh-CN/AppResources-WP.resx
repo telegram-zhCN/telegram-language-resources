@@ -2951,7 +2951,7 @@
     <value>No groups here</value>
   </data>
   <data name="AddChatUserFloodWait" xml:space="preserve">
-    <value>You can&apos;t add this user because you have contacted too many non-contacts today. Please try again tomorrow. You can ask another member to add this user to the group.</value>
+    <value>您不能添加此用户，因为您今天已经联系了太多非联系人。请明天再试。您可以让其他群组成员将此用户添加进群组。</value>
   </data>
   <data name="ClearAll" xml:space="preserve">
     <value>Clear all</value>
@@ -2963,6 +2963,6 @@
     <value>Are you sure you want to discard changes?</value>
   </data>
   <data name="SendMessageFloodWait" xml:space="preserve">
-    <value>You have contacted too many non-contacts today, please try again tomorrow. You will be able to reply today if this user messages you first.</value>
+    <value>您今天已经联系了太多非联系人，请明天再试。您将可以回复此用户如果其主动给您发送了消息。</value>
   </data>
 </root>
