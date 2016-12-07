@@ -82,6 +82,8 @@
   <string name="PreviewFeedback">Leave feedback about this preview</string>
   <string name="SendStickerPreview">Send Sticker</string>
   <string name="ViewPackPreview">View Pack</string>
+  <string name="PinToTop">Pin to top</string>
+  <string name="UnpinFromTop">Unpin from top</string>
   <!--channels-->
   <string name="GroupType">Group Type</string>
   <string name="ChannelType">Channel Type</string>
@@ -535,6 +537,7 @@
   <string name="UsernameInvalidLong">The username must not exceed 32 characters.</string>
   <string name="UsernameInvalidStartNumber">Sorry, a username can\'t start with a number.</string>
   <string name="UsernameHelp">You can choose a username on <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. If you do, other people will be able to find you by this username and contact you without knowing your phone number.<![CDATA[<br><br>]]>You can use <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> and underscores. Minimum length is <![CDATA[<b>]]>5<![CDATA[</b>]]> characters.</string>
+  <string name="UsernameHelpLink">This link opens a chat with you on Telegram:\n%1$s</string>
   <string name="UsernameChecking">Checking username...</string>
   <string name="UsernameAvailable">%1$s is available.</string>
   <string name="UsernameEmpty">None</string>
@@ -843,6 +846,9 @@
   <string name="PaintDuplicate">Duplicate</string>
   <string name="PaintOutlined">Outlined</string>
   <string name="PaintRegular">Regular</string>
+  <string name="CropReset">Reset</string>
+  <string name="CropOriginal">Original</string>
+  <string name="CropSquare">Square</string>
   <!--password view-->
   <string name="TwoStepVerification">Two-Step Verification</string>
   <string name="SetAdditionalPassword">Set Additional Password</string>
@@ -1086,6 +1092,7 @@
   <string name="PermissionNoCamera">Telegram needs access to your camera so that you can capture photos and videos.</string>
   <string name="PermissionNoLocation">Telegram needs access to your location so that you can share it with your friends.</string>
   <string name="PermissionNoLocationPosition">Telegram needs access to your location.</string>
+  <string name="PermissionDrawAboveOtherApps">Telegram needs access to draw above other apps to play videos in Picture-in-Picture mode.</string>
   <string name="PermissionOpenSettings">SETTINGS</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
