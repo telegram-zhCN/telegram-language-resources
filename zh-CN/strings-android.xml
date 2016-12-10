@@ -86,6 +86,8 @@
   <string name="PreviewFeedback">发送关于此预览的反馈</string>
   <string name="SendStickerPreview">发送贴纸</string>
   <string name="ViewPackPreview">查看对应贴纸包</string>
+  <string name="PinToTop">置顶</string>
+  <string name="UnpinFromTop">取消置顶</string>
   <!--channels-->
   <string name="GroupType">群组类型</string>
   <string name="ChannelType">频道类型</string>
@@ -362,9 +364,9 @@
   <string name="ShortcutAdded">快捷方式已添加到主屏幕</string>
   <string name="ChatYourSelf">和你自己聊天</string>
   <string name="ChatYourSelfName">你</string>
-  <string name="ChatYourSelfDescription1">转发信息到这来保存它们</string>
+  <string name="ChatYourSelfDescription1">转发信息到这里来保存它们</string>
   <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
-  <string name="ChatYourSelfDescription3">在任意设备上访问这个会话</string>
+  <string name="ChatYourSelfDescription3">在任意设备上访问这个对话</string>
   <string name="ChatYourSelfDescription4">使用搜索来更快地查找信息</string>
   <string name="ChatYourSelfTitle">你的云存储</string>
   <string name="JumpToDate">跳转</string>
@@ -539,6 +541,7 @@
   <string name="UsernameInvalidLong">用户名不能超过32个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
   <string name="UsernameHelp">您可以在 <![CDATA[<b>]]>Telegram<![CDATA[<b>]]> 上设置一个用户名。这样，别人就可以在无需知道您的手机号码的情况下，通过此用户名找到您并与您联系。<![CDATA[<br><br>]]>您可以使用 <![CDATA[<b>]]>a–z<![CDATA[<b>]]>，<![CDATA[<b>]]>0–9<![CDATA[<b>]]> 及下划线。最小长度为 <![CDATA[<b>]]>5<![CDATA[<b>]]> 个字符。</string>
+  <string name="UsernameHelpLink">此链接会在 Telegram 中打开一个与您的会话窗口：\n%1$s</string>
   <string name="UsernameChecking">正在检查用户名...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="UsernameEmpty">无</string>
@@ -671,7 +674,7 @@
   <string name="EditName">编辑姓名</string>
   <string name="NotificationsCustomize">自定义</string>
   <string name="NotificationsCustom">自定义</string>
-  <string name="NotificationsEnableCustom">启用自定义通知设置</string>
+  <string name="NotificationsEnableCustom">启用自定义通知</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPrioritySettings">和全局设置相同</string>
   <string name="NotificationsPriorityDefault">默认</string>
@@ -848,6 +851,9 @@
   <string name="PaintDuplicate">复制</string>
   <string name="PaintOutlined">描边</string>
   <string name="PaintRegular">标准</string>
+  <string name="CropReset">重置</string>
+  <string name="CropOriginal">原图</string>
+  <string name="CropSquare">正方形</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
   <string name="SetAdditionalPassword">设置两步验证密码</string>
@@ -1091,6 +1097,7 @@
   <string name="PermissionNoCamera">Telegram 需要访问您的相机来拍照或录像。</string>
   <string name="PermissionNoLocation">Telegram 需要使用定位服务才能获取您的地址并分享给您的联系人。</string>
   <string name="PermissionNoLocationPosition">Telegram 需要获取您的定位服务权限</string>
+  <string name="PermissionDrawAboveOtherApps">Telegram 需要使用出现在其他应用上的权限以在画中画模式中播放视频。</string>
   <string name="PermissionOpenSettings">设置</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
