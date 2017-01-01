@@ -43,6 +43,7 @@
   <string name="LastName">姓氏（可选）</string>
   <string name="CancelRegistration">取消注册</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">新建对话</string>
   <string name="Settings">设置</string>
   <string name="Contacts">联系人</string>
   <string name="NewGroup">新建群组</string>
@@ -714,7 +715,6 @@
   <string name="EmojiBigSize">显示单个大号 Emoji</string>
   <string name="EmojiUseDefault">使用系统默认emoji</string>
   <!--cache view-->
-  <string name="CacheSettings">缓存设置</string>
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清空缓存的消息记录？</string>
   <string name="LocalDatabaseInfo">清空本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
@@ -904,6 +904,17 @@
   <string name="PasswordReset">密码已删除</string>
   <string name="EnabledPasswordText">您已启用两步验证。\n今后您在登录新设备时将需要输入您设置的附加密码才能登录您的Telegram帐号。</string>
   <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
+  <!--data settings-->
+  <string name="DataSettings">数据和存储</string>
+  <string name="DataUsage">存储和网络用量</string>
+  <string name="StorageUsage">存储用量</string>
+  <string name="MobileUsage">移动数据用量</string>
+  <string name="RoamingUsage">漫游数据用量</string>
+  <string name="WiFiUsage">Wi-Fi 数据用量</string>
+  <string name="MessagesDataUsage">消息和其他数据</string>
+  <string name="ResetStatistics">重置统计数据</string>
+  <string name="NetworkUsageSince">最后重置时间：%1$s</string>
+  <string name="ResetStatisticsAlert">您确定要重置统计数据吗？</string>
   <!--privacy settings-->
   <string name="PrivacySettings">隐私和安全</string>
   <string name="PrivacyTitle">隐私</string>
@@ -1115,6 +1126,17 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b> 让您可以从多个设备中 <br/> 收发您的消息]]></string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b> 加密对话经过高强度加密<br/>并且支持阅后即焚]]></string>
   <string name="StartMessaging">开始聊天</string>
+  <!--VoIP-->
+  <string name="VoipUseLessData">降低通话数据用量</string>
+  <string name="VoipIncoming">来电</string>
+  <string name="VoipConnecting">正在连接</string>
+  <string name="VoipExchangingKeys">正在交换密钥</string>
+  <string name="VoipWaiting">正在等待</string>
+  <string name="VoipRequesting">正在请求</string>
+  <string name="VoipCallEnded">通话结束</string>
+  <string name="VoipFailed">连接失败</string>
+  <string name="VoipRinging">正在振铃</string>
+  <string name="VoipBusy">占线</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
