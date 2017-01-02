@@ -912,6 +912,11 @@
   <string name="RoamingUsage">漫游数据用量</string>
   <string name="WiFiUsage">Wi-Fi 数据用量</string>
   <string name="MessagesDataUsage">消息和其他数据</string>
+  <string name="CallsDataUsage">呼叫</string>
+  <string name="OutgoingCalls">呼出</string>
+  <string name="IncomingCalls">来电</string>
+  <string name="CallsTotalTime">总计时间</string>
+  <string name="TotalDataUsage">总共</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">最后重置时间：%1$s</string>
   <string name="ResetStatisticsAlert">您确定要重置统计数据吗？</string>
@@ -999,6 +1004,8 @@
   <string name="Set">设置</string>
   <string name="OK">确定</string>
   <string name="Crop">裁剪</string>
+  <string name="Yes">是</string>
+  <string name="No">否</string>
   <!--messages-->
   <string name="ActionInviteYou">您通过邀请链接加入了此群组。</string>
   <string name="ActionInviteUser">un1 通过邀请链接加入了此群组。</string>
@@ -1127,16 +1134,28 @@
   <string name="Page7Message"><![CDATA[<b>Telegram</b> 加密对话经过高强度加密<br/>并且支持阅后即焚]]></string>
   <string name="StartMessaging">开始聊天</string>
   <!--VoIP-->
+  <string name="AccountSettings">账户设置</string>
   <string name="VoipUseLessData">降低通话数据用量</string>
   <string name="VoipIncoming">来电</string>
   <string name="VoipConnecting">正在连接</string>
   <string name="VoipExchangingKeys">正在交换密钥</string>
   <string name="VoipWaiting">正在等待</string>
   <string name="VoipRequesting">正在请求</string>
+  <string name="VoipHangingUp">挂断</string>
   <string name="VoipCallEnded">通话结束</string>
   <string name="VoipFailed">连接失败</string>
   <string name="VoipRinging">正在振铃</string>
   <string name="VoipBusy">占线</string>
+  <string name="VoipInCallBranding">Telegram Call</string>
+  <string name="VoipEndCall">结束通话</string>
+  <string name="Calls">呼叫</string>
+  <string name="UseLessDataNever">从不</string>
+  <string name="UseLessDataAlways">总是</string>
+  <string name="CallMessageIncoming">来电</string>
+  <string name="CallMessageIncomingMissed">未接来电</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="VoipRateCallAlert">请对你这次的 Telegram 呼叫
+做出评价</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
@@ -1356,6 +1375,8 @@
   <string name="AndOther_many">和其他的 %1$d 个</string>
   <string name="AndOther_other">和其他的 %1$d 个</string>
   <!--date formatters-->
+  <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
+  <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
   <string name="formatterMonthYear">yyyy\\'年\\'M\\'月\\'</string>
   <string name="formatterMonth">M\\'月\\'dd\\'日\\'</string>
   <string name="formatterYear">yy.MM.dd</string>
