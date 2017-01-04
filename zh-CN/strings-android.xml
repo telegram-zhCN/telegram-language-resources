@@ -272,7 +272,7 @@
   <string name="IsTyping">正在输入...</string>
   <string name="AreTyping">都在输入...</string>
   <string name="IsRecordingAudio">%1$s 正在录制语音...</string>
-  <string name="IsSendingAudio">%1$s 正在发送音频</string>
+  <string name="IsSendingAudio">%1$s 正在发送音频…</string>
   <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
   <string name="InstantView">即时预览</string>
   <string name="IsSendingGame">%1$s 正在玩游戏…</string>
@@ -907,22 +907,22 @@
   <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
   <!--data settings-->
   <string name="DataSettings">数据和存储</string>
-  <string name="DataUsage">存储和网络用量</string>
-  <string name="StorageUsage">存储用量</string>
-  <string name="MobileUsage">移动数据用量</string>
-  <string name="RoamingUsage">漫游数据用量</string>
-  <string name="WiFiUsage">Wi-Fi 数据用量</string>
+  <string name="DataUsage">存储和网络使用情况</string>
+  <string name="StorageUsage">存储使用情况</string>
+  <string name="MobileUsage">移动数据使用情况</string>
+  <string name="RoamingUsage">漫游数据使用情况</string>
+  <string name="WiFiUsage">Wi-Fi 数据使用情况</string>
   <string name="MessagesDataUsage">消息和其他数据</string>
   <string name="CountSent">已发送</string>
   <string name="CountReceived">已接收</string>
-  <string name="BytesSent">Bytes 已发送</string>
-  <string name="BytesReceived">Bytes 已接收</string>
+  <string name="BytesSent">已发送字节</string>
+  <string name="BytesReceived">已接收字节</string>
   <string name="FilesDataUsage">文件</string>
   <string name="CallsDataUsage">通话</string>
   <string name="OutgoingCalls">外拨电话</string>
   <string name="IncomingCalls">来电</string>
   <string name="CallsTotalTime">总计时间</string>
-  <string name="TotalDataUsage">总共</string>
+  <string name="TotalDataUsage">总计</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">自 %1$s 的网络用量</string>
   <string name="ResetStatisticsAlert">您确定要重置统计数据吗？</string>
@@ -1166,7 +1166,7 @@
   <string name="WhoCanCallMeInfo">你可以限制能够给你打电话的人。</string>
   <string name="CustomCallInfo">根据上面的设置，这些用户将能够或不能呼叫您。</string>
   <string name="UseLessDataNever">从不</string>
-  <string name="UseLessDataOnMobile">仅使用移动数据</string>
+  <string name="UseLessDataOnMobile">仅用于移动数据</string>
   <string name="UseLessDataAlways">总是</string>
   <string name="VoipAnswerCall">接听</string>
   <string name="VoipDeclineCall">拒接</string>
@@ -1405,8 +1405,8 @@
   <string name="AndOther_many">和其他的 %1$d 个</string>
   <string name="AndOther_other">和其他的 %1$d 个</string>
   <!--date formatters-->
-  <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
-  <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterStats12H">yyyyy MMM ddd, h:mm a</string>
+  <string name="formatterStats24H">yyyyy MMM ddd, HH:mm</string>
   <string name="formatterMonthYear">yyyy\\'年\\'M\\'月\\'</string>
   <string name="formatterMonth">M\\'月\\'dd\\'日\\'</string>
   <string name="formatterYear">yy.MM.dd</string>
