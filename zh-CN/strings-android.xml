@@ -27,10 +27,8 @@
 
 如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。</string>
   <string name="ResetAccount">重置帐号</string>
-  <string name="ResetAccountInfo">因为 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在1周后删除。
-
-你可以在这段时间内随时取消这一过程。</string>
-  <string name="ResetAccountStatus">你将能在以下时间之后重置你的账号：</string>
+  <string name="ResetAccountInfo">因为账号 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n你可以随时取消此过程。</string>
+  <string name="ResetAccountStatus">你将能够在此时间后重置你的帐户:</string>
   <string name="ResetAccountCancelledAlert">您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
@@ -371,6 +369,8 @@
   <string name="ChatYourSelfDescription4">使用搜索来更快地查找信息</string>
   <string name="ChatYourSelfTitle">你的云存储</string>
   <string name="JumpToDate">跳转</string>
+  <string name="DeleteForUser">为 %1$s 删除</string>
+  <string name="DeleteForAll">为所有成员删除</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -726,6 +726,7 @@
   <string name="LocalAudioCache">语音</string>
   <string name="LocalVideoCache">视频</string>
   <string name="LocalMusicCache">音乐</string>
+  <string name="LocalGifCache">GIF</string>
   <string name="LocalCache">其他文件</string>
   <string name="CacheEmpty">已清空</string>
   <string name="KeepMedia">媒体文件保留时间</string>
@@ -912,13 +913,18 @@
   <string name="RoamingUsage">漫游数据用量</string>
   <string name="WiFiUsage">Wi-Fi 数据用量</string>
   <string name="MessagesDataUsage">消息和其他数据</string>
-  <string name="CallsDataUsage">呼叫</string>
-  <string name="OutgoingCalls">呼出</string>
+  <string name="CountSent">已发送</string>
+  <string name="CountReceived">已接收</string>
+  <string name="BytesSent">Bytes 已发送</string>
+  <string name="BytesReceived">Bytes 已接收</string>
+  <string name="FilesDataUsage">文件</string>
+  <string name="CallsDataUsage">通话</string>
+  <string name="OutgoingCalls">外拨电话</string>
   <string name="IncomingCalls">来电</string>
   <string name="CallsTotalTime">总计时间</string>
   <string name="TotalDataUsage">总共</string>
   <string name="ResetStatistics">重置统计数据</string>
-  <string name="NetworkUsageSince">最后重置时间：%1$s</string>
+  <string name="NetworkUsageSince">自 %1$s 的网络用量</string>
   <string name="ResetStatisticsAlert">您确定要重置统计数据吗？</string>
   <!--privacy settings-->
   <string name="PrivacySettings">隐私和安全</string>
@@ -1052,6 +1058,7 @@
   <string name="FloodWait">尝试次数过多，请稍后再试</string>
   <string name="FloodWaitTime">尝试次数过多，请在 %1$s 后重试</string>
   <string name="InvalidCode">无效的验证码</string>
+  <string name="PhoneNumberFlood">对不起，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。</string>
   <string name="InvalidFirstName">无效的名字</string>
   <string name="InvalidLastName">无效的姓氏</string>
   <string name="Loading">载入中...</string>
@@ -1134,28 +1141,51 @@
   <string name="Page7Message"><![CDATA[<b>Telegram</b> 加密对话经过高强度加密<br/>并且支持阅后即焚]]></string>
   <string name="StartMessaging">开始聊天</string>
   <!--VoIP-->
-  <string name="AccountSettings">账户设置</string>
-  <string name="VoipUseLessData">降低通话数据用量</string>
+  <string name="AccountSettings">帐户设置</string>
+  <string name="VoipUseLessData">通话中节省数据流量</string>
   <string name="VoipIncoming">来电</string>
   <string name="VoipConnecting">正在连接</string>
   <string name="VoipExchangingKeys">正在交换密钥</string>
   <string name="VoipWaiting">正在等待</string>
   <string name="VoipRequesting">正在请求</string>
-  <string name="VoipHangingUp">挂断</string>
+  <string name="VoipHangingUp">正在挂断</string>
   <string name="VoipCallEnded">通话结束</string>
   <string name="VoipFailed">连接失败</string>
-  <string name="VoipRinging">正在振铃</string>
-  <string name="VoipBusy">占线</string>
+  <string name="VoipRinging">正在响铃</string>
+  <string name="VoipBusy">线路正忙</string>
   <string name="VoipInCallBranding">Telegram Call</string>
+  <string name="VoipOutgoingCall">Telegram Call 通话中</string>
   <string name="VoipEndCall">结束通话</string>
-  <string name="Calls">呼叫</string>
+  <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
+  <string name="VoipOngoingAlert">您现在正在和 <![CDATA[<b>%1$s</b>]]> 通话。您想要挂断此通话然后和 <![CDATA[<b>%2$s</b>]]> 开始一个新的通话吗？</string>
+  <string name="VoipNotificationSettings">语音通话</string>
+  <string name="VoipSettingsRingtone">铃声</string>
+  <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
+  <string name="Calls">通话</string>
+  <string name="WhoCanCallMe">谁可以给我打电话？</string>
+  <string name="WhoCanCallMeInfo">你可以限制能够给你打电话的人。</string>
+  <string name="CustomCallInfo">根据上面的设置，这些用户将能够或不能呼叫您。</string>
   <string name="UseLessDataNever">从不</string>
+  <string name="UseLessDataOnMobile">仅使用移动数据</string>
   <string name="UseLessDataAlways">总是</string>
+  <string name="VoipAnswerCall">接听</string>
+  <string name="VoipDeclineCall">拒接</string>
+  <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行呼叫。</string>
+  <string name="VoipOfflineAirplane">您现在正出于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行呼叫。</string>
+  <string name="VoipOfflineTitle">离线</string>
+  <string name="VoipOfflineAirplaneTitle">飞行模式</string>
+  <string name="VoipOfflineOpenSettings">设置</string>
+  <string name="CallMessageOutgoing">外拨电话</string>
   <string name="CallMessageIncoming">来电</string>
   <string name="CallMessageIncomingMissed">未接来电</string>
+  <string name="CallMessageOutgoingMissed">拒接来电</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="VoipRateCallAlert">请对你这次的 Telegram 呼叫
-做出评价</string>
+  <string name="CallEncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话加密密钥的可视化图片。<![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，那么端对端加密就是有保证的。</string>
+  <string name="NoCallLog">您还没有拨打任何电话。</string>
+  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用在使用不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
+  <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
+  <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
+  <string name="VoipFeedbackAlert">您愿意留下任何反馈以帮助我们改进通话服务吗？</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>

@@ -2933,7 +2933,7 @@
     <value>You can add masks to photos you send. To do this, open the photo editor before sending a photo.</value>
   </data>
   <data name="GroupsInCommon" xml:space="preserve">
-    <value>Groups in common</value>
+    <value>共同加入的群组</value>
   </data>
   <data name="GroupGenitivePlural" xml:space="preserve">
     <value>Groups</value>
