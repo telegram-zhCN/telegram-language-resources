@@ -1182,7 +1182,7 @@
     <value>原始视频</value>
   </data>
   <data name="AccountSelfDestrucsDescription" xml:space="preserve">
-    <value>If you do not come online at least once within this period, your account will be deleted along with all groups, messages and contacts.</value>
+    <value>如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除。</value>
   </data>
   <data name="AccountSelfDestructs" xml:space="preserve">
     <value>账户自毁</value>
@@ -2838,7 +2838,7 @@
     <value>归档</value>
   </data>
   <data name="BotOpenUrlConfirmation" xml:space="preserve">
-    <value>The bot {0} asks for permission to share your Telegram name and profile picture with the owner of {1}.</value>
+    <value>机器人 {0} 请求获取 {1} 的 Telegram 姓名和头像。</value>
   </data>
   <data name="IsRecordingVideo" xml:space="preserve">
     <value>正在录制视频</value>
@@ -2927,40 +2927,40 @@
     <value>你的云存储</value>
   </data>
   <data name="Masks" xml:space="preserve">
-    <value>Masks</value>
+    <value>装饰</value>
   </data>
   <data name="MasksHint" xml:space="preserve">
-    <value>You can add masks to photos you send. To do this, open the photo editor before sending a photo.</value>
+    <value>您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</value>
   </data>
   <data name="GroupsInCommon" xml:space="preserve">
     <value>共同加入的群组</value>
   </data>
   <data name="GroupGenitivePlural" xml:space="preserve">
-    <value>Groups</value>
+    <value>群组</value>
   </data>
   <data name="GroupGenitiveSingular" xml:space="preserve">
-    <value>Group</value>
+    <value>群组</value>
   </data>
   <data name="GroupNominativePlural" xml:space="preserve">
-    <value>Groups</value>
+    <value>群组</value>
   </data>
   <data name="GroupNominativeSingular" xml:space="preserve">
-    <value>Group</value>
+    <value>群组</value>
   </data>
   <data name="NoGroupsHere" xml:space="preserve">
-    <value>No groups here</value>
+    <value>未找到群组</value>
   </data>
   <data name="AddChatUserFloodWait" xml:space="preserve">
     <value>您不能添加此用户，因为您今天已经联系了太多非联系人。请明天再试。您可以让其他群组成员将此用户添加进群组。</value>
   </data>
   <data name="ClearAll" xml:space="preserve">
-    <value>Clear all</value>
+    <value>全部清空</value>
   </data>
   <data name="ClearPaintingConfirmation" xml:space="preserve">
-    <value>Are you sure you want to clear painting?</value>
+    <value>您确定要清除绘图吗？</value>
   </data>
   <data name="DiscardChangesConfirmation" xml:space="preserve">
-    <value>Are you sure you want to discard changes?</value>
+    <value>您确定要放弃所有更改吗？</value>
   </data>
   <data name="SendMessageFloodWait" xml:space="preserve">
     <value>您今天已经联系了太多非联系人，请明天再试。您将可以回复此用户如果其主动给您发送了消息。</value>

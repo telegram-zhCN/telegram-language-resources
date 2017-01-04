@@ -28,7 +28,7 @@
 如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。</string>
   <string name="ResetAccount">重置帐号</string>
   <string name="ResetAccountInfo">因为账号 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n你可以随时取消此过程。</string>
-  <string name="ResetAccountStatus">你将能够在此时间后重置你的帐户:</string>
+  <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
   <string name="ResetAccountCancelledAlert">您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
@@ -239,7 +239,7 @@
   <string name="ChannelNotifyMembersInfoOn">消息发布后用户会收到通知</string>
   <string name="ChannelNotifyMembersInfoOff">消息发布后用户不会收到通知</string>
   <string name="ChannelSignMessages">消息署名</string>
-  <string name="ChannelSignMessagesInfo">在消息后附加发送消息管理员的名称</string>
+  <string name="ChannelSignMessagesInfo">在消息上附加发送该消息的管理员的名称</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">新建群发列表</string>
   <string name="EnterListName">输入列表名称</string>
@@ -279,7 +279,7 @@
   <string name="IsSendingVideo">%1$s 正在发送视频...</string>
   <string name="IsSendingFile">%1$s 正在发送文件...</string>
   <string name="RecordingAudio">正在录制语音...</string>
-  <string name="SendingAudio">正在发送音频</string>
+  <string name="SendingAudio">正在发送音频…</string>
   <string name="SendingPhoto">正在发送图片...</string>
   <string name="SendingGame">正在玩游戏…</string>
   <string name="SendingVideoStatus">正在发送视频...</string>
@@ -333,7 +333,7 @@
   <string name="ReportSpamAlert">您确定要举报此用户发送了垃圾信息？</string>
   <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
   <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
-  <string name="NobodyLikesSpam1">您今天已经联系了太多陌生人，请明天再试。如果其他用户主动给您发送消息，您仍可以回复他们。</string>
+  <string name="NobodyLikesSpam1">您今天已经联系了太多非联系人，请明天再试。如果此用户主动给您发送了消息，您将可以回复此用户。</string>
   <string name="NobodyLikesSpam2">您不能添加此用户，因为您今天已经联系了太多非联系人。请明天再试。您可以让其他群组成员将此用户添加进群组。</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">详情</string>
@@ -924,7 +924,7 @@
   <string name="CallsTotalTime">总计时间</string>
   <string name="TotalDataUsage">总计</string>
   <string name="ResetStatistics">重置统计数据</string>
-  <string name="NetworkUsageSince">自 %1$s 的网络用量</string>
+  <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
   <string name="ResetStatisticsAlert">您确定要重置统计数据吗？</string>
   <!--privacy settings-->
   <string name="PrivacySettings">隐私和安全</string>
@@ -1405,8 +1405,8 @@
   <string name="AndOther_many">和其他的 %1$d 个</string>
   <string name="AndOther_other">和其他的 %1$d 个</string>
   <!--date formatters-->
-  <string name="formatterStats12H">yyyyy MMM ddd, h:mm a</string>
-  <string name="formatterStats24H">yyyyy MMM ddd, HH:mm</string>
+  <string name="formatterStats12H">yyyy年MM月dd日, h:mm a</string>
+  <string name="formatterStats24H">yyyy年MM月dd日, HH:mm</string>
   <string name="formatterMonthYear">yyyy\\'年\\'M\\'月\\'</string>
   <string name="formatterMonth">M\\'月\\'dd\\'日\\'</string>
   <string name="formatterYear">yy.MM.dd</string>
