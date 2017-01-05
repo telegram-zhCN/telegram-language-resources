@@ -1405,8 +1405,8 @@
   <string name="AndOther_many">和其他的 %1$d 个</string>
   <string name="AndOther_other">和其他的 %1$d 个</string>
   <!--date formatters-->
-  <string name="formatterStats12H">yyyy年MM月dd日, h:mm a</string>
-  <string name="formatterStats24H">yyyy年MM月dd日, HH:mm</string>
+  <string name="formatterStats12H">yyyy年MM月dd日 a h:mm</string>
+  <string name="formatterStats24H">yyyy年MM月dd日 HH:mm</string>
   <string name="formatterMonthYear">yyyy\\'年\\'M\\'月\\'</string>
   <string name="formatterMonth">M\\'月\\'dd\\'日\\'</string>
   <string name="formatterYear">yy.MM.dd</string>
