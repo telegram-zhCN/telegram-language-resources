@@ -87,6 +87,9 @@
   <string name="ViewPackPreview">查看对应贴纸包</string>
   <string name="PinToTop">置顶</string>
   <string name="UnpinFromTop">取消置顶</string>
+  <string name="Bold">粗体</string>
+  <string name="Italic">斜体</string>
+  <string name="Regular">常规</string>
   <!--channels-->
   <string name="GroupType">群组类型</string>
   <string name="ChannelType">频道类型</string>
@@ -637,6 +640,7 @@
   <string name="ContactJoined">联系人已加入 Telegram</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
+  <string name="Theme">主题</string>
   <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。<![CDATA[<br><br>]]>请前往 <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ（英文）</a>]]> 看看: 那里有各种常见问题和<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\"> 故障排除 </a>]]>提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
@@ -714,6 +718,10 @@
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">显示单个大号 Emoji</string>
   <string name="EmojiUseDefault">使用系统默认emoji</string>
+  <string name="TelegramVersion">Telegram Android 客户端 %1$s</string>
+  <string name="DebugMenu">调试菜单</string>
+  <string name="DebugMenuImportContacts">导入通讯录</string>
+  <string name="DebugMenuReloadContacts">重载通讯录</string>
   <!--cache view-->
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清空缓存的消息记录？</string>
