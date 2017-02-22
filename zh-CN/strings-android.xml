@@ -641,7 +641,7 @@
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
   <string name="Theme">主题</string>
-  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。<![CDATA[<br><br>]]>请前往 <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ（英文）</a>]]> 看看: 那里有各种常见问题和<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\"> 故障排除 </a>]]>提示。</string>
+  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。<![CDATA[<br><br>]]>请前往 <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ（英文）</a>]]> 看看: 那里有各种常见问题和<![CDATA[<a href="https://telegram.org/faq#troubleshooting"> 故障排除 </a>]]>提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
