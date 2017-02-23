@@ -124,7 +124,7 @@
     <value>屏蔽</value>
   </data>
   <data name="BlockedUsers" xml:space="preserve">
-    <value>已屏蔽的用户</value>
+    <value>Blacklist</value>
   </data>
   <data name="Call" xml:space="preserve">
     <value>呼叫</value>
@@ -166,7 +166,7 @@
     <value>发送失败</value>
   </data>
   <data name="SendMessage" xml:space="preserve">
-    <value>发送消息</value>
+    <value>Send Message</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>设置</value>
@@ -187,7 +187,7 @@
     <value>输入消息</value>
   </data>
   <data name="LogOut" xml:space="preserve">
-    <value>注销</value>
+    <value>Log Out</value>
   </data>
   <data name="NoMessagesYet" xml:space="preserve">
     <value>暂时还没有消息...</value>
@@ -205,7 +205,7 @@
     <value>已删除消息</value>
   </data>
   <data name="ForwardedMessage" xml:space="preserve">
-    <value>转发的消息</value>
+    <value>Forwarded from</value>
   </data>
   <data name="GeoPoint" xml:space="preserve">
     <value>位置</value>
@@ -247,7 +247,7 @@
     <value>{0} 将群组名称更改为 &quot;{1}&quot;</value>
   </data>
   <data name="MessageActionChatEditPhoto" xml:space="preserve">
-    <value>{0} 更换了群组图片</value>
+    <value>{0} updated group photo</value>
   </data>
   <data name="MessageActionChatDeletePhoto" xml:space="preserve">
     <value>{0}删除了讨论组头像</value>
@@ -325,22 +325,22 @@
     <value>添加</value>
   </data>
   <data name="NewGroup" xml:space="preserve">
-    <value>新建讨论组</value>
+    <value>New Group</value>
   </data>
   <data name="NewSecretChat" xml:space="preserve">
-    <value>新建私密对话</value>
+    <value>New Secret Chat</value>
   </data>
   <data name="TileUpdaterTaskDescription" xml:space="preserve">
     <value>定时更新动态磁贴上未读消息数的任务。</value>
   </data>
   <data name="Media" xml:space="preserve">
-    <value>已共享媒体</value>
+    <value>Media</value>
   </data>
   <data name="Profile" xml:space="preserve">
-    <value>个人资料</value>
+    <value>Info</value>
   </data>
   <data name="Notifications" xml:space="preserve">
-    <value>通知 + 声音</value>
+    <value>Notifications</value>
   </data>
   <data name="On" xml:space="preserve">
     <value>开</value>
@@ -352,7 +352,7 @@
     <value>声音</value>
   </data>
   <data name="CreateSecretChat" xml:space="preserve">
-    <value>创建私密对话</value>
+    <value>Start Secret Chat</value>
   </data>
   <data name="MessageNotifications" xml:space="preserve">
     <value>新消息通知</value>
@@ -361,13 +361,13 @@
     <value>聊天消息通知</value>
   </data>
   <data name="NotificationsSubtitle" xml:space="preserve">
-    <value>消息，讨论组和应用开启时的消息通知</value>
+    <value>Mute, message preview, chats</value>
   </data>
   <data name="Support" xml:space="preserve">
     <value>支持</value>
   </data>
   <data name="AskAQuestion" xml:space="preserve">
-    <value>向我们提问</value>
+    <value>Ask a Question</value>
   </data>
   <data name="InAppNotifications" xml:space="preserve">
     <value>应用开启时的消息通知</value>
@@ -541,7 +541,7 @@
     <value>名字</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value>姓</value>
+    <value>Last Name (optional)</value>
   </data>
   <data name="YourName" xml:space="preserve">
     <value>您的姓名</value>
@@ -889,7 +889,7 @@
     <value>应用背景</value>
   </data>
   <data name="DialogsBackground" xml:space="preserve">
-    <value>聊天背景</value>
+    <value>Background</value>
   </data>
   <data name="SpecialThanks" xml:space="preserve">
     <value>特别鸣谢</value>
@@ -919,7 +919,7 @@
     <value>具有定时自毁功能</value>
   </data>
   <data name="SecretChats" xml:space="preserve">
-    <value>私密对话</value>
+    <value>Secret Chats</value>
   </data>
   <data name="DoNotAllowForwarding" xml:space="preserve">
     <value>不允许转发</value>
@@ -1042,7 +1042,7 @@
     <value>.</value>
   </data>
   <data name="PinToStart" xml:space="preserve">
-    <value>固定</value>
+    <value>Pin to Start</value>
   </data>
   <data name="TerminateAllSessions" xml:space="preserve">
     <value>终止所有其他会话</value>
@@ -1060,7 +1060,7 @@
     <value>按住录制</value>
   </data>
   <data name="NewBroadcastList" xml:space="preserve">
-    <value>新群发消息</value>
+    <value>New Broadcast List</value>
   </data>
   <data name="AddUserToTheGroup" xml:space="preserve">
     <value>添加 {0} 到群组 {1} ？</value>
@@ -1072,13 +1072,13 @@
     <value>添加到通讯录</value>
   </data>
   <data name="ShareMyContactInfo" xml:space="preserve">
-    <value>分享我的手机号码</value>
+    <value>Share My Contact Info</value>
   </data>
   <data name="Cache" xml:space="preserve">
     <value>缓存</value>
   </data>
   <data name="ClearCache" xml:space="preserve">
-    <value>清除所有缓存</value>
+    <value>Clear Cache</value>
   </data>
   <data name="ManagingLocalCache" xml:space="preserve">
     <value>管理本地缓存</value>
@@ -1108,7 +1108,7 @@
     <value>连接中</value>
   </data>
   <data name="SetProfilePhoto" xml:space="preserve">
-    <value>设置头像</value>
+    <value>Set Profile Photo</value>
   </data>
   <data name="BatterySaverModeAlert" xml:space="preserve">
     <value>您的设备正处于节电模式中，Telegram 不能正常接收消息。请禁用节电模式。</value>
@@ -1149,7 +1149,7 @@
     <value>等待网络连接</value>
   </data>
   <data name="GlobalSearch" xml:space="preserve">
-    <value>全局搜索</value>
+    <value>Global Search</value>
   </data>
   <data name="UsernameShort" xml:space="preserve">
     <value>用户名必须至少包含 5 个字符。</value>
@@ -1185,19 +1185,19 @@
     <value>如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除。</value>
   </data>
   <data name="AccountSelfDestructs" xml:space="preserve">
-    <value>账户自毁</value>
+    <value>Account Self-Destructs</value>
   </data>
   <data name="AddExceptions" xml:space="preserve">
     <value>添加例外</value>
   </data>
   <data name="AlwaysShare" xml:space="preserve">
-    <value>总是共享</value>
+    <value>Always Share</value>
   </data>
   <data name="AlwaysShareWirhUsers" xml:space="preserve">
     <value>总是与某些用户共享……</value>
   </data>
   <data name="AlwaysShareWith" xml:space="preserve">
-    <value>总是共享给</value>
+    <value>Always Share With</value>
   </data>
   <data name="CodecWasNotFound" xml:space="preserve">
     <value>解码器未找到</value>
@@ -1227,13 +1227,13 @@
     <value>一周内上线过</value>
   </data>
   <data name="MyContacts" xml:space="preserve">
-    <value>我的联系人</value>
+    <value>My Contacts</value>
   </data>
   <data name="NeverShare" xml:space="preserve">
-    <value>从不分享</value>
+    <value>Never Share</value>
   </data>
   <data name="NeverShareWith" xml:space="preserve">
-    <value>从不共享给</value>
+    <value>Never Share With</value>
   </data>
   <data name="NeverShareWithUsers" xml:space="preserve">
     <value>从不与某些用户共享</value>
@@ -1242,7 +1242,7 @@
     <value>无</value>
   </data>
   <data name="PrivacyAndSecurity" xml:space="preserve">
-    <value>隐私与安全</value>
+    <value>Privacy and Security</value>
   </data>
   <data name="PrivacySettingsError" xml:space="preserve">
     <value>服务器压力过大，暂时无法更改隐私设置，请稍后再试。</value>
@@ -1257,10 +1257,10 @@
     <value>未知错误</value>
   </data>
   <data name="LastSeenShort" xml:space="preserve">
-    <value>上次在线</value>
+    <value>Last Seen</value>
   </data>
   <data name="PrivacySecuritySubtitle" xml:space="preserve">
-    <value>已阻止的用户，上次看见，终止会话</value>
+    <value>Blocked users, last seen, sessions</value>
   </data>
   <data name="MonthGenitivePlural" xml:space="preserve">
     <value>月</value>
@@ -1463,7 +1463,7 @@
     <value>请输入您的密码</value>
   </data>
   <data name="Passcode" xml:space="preserve">
-    <value>密码</value>
+    <value>Passcode Lock</value>
   </data>
   <data name="SimplePasscode" xml:space="preserve">
     <value>简单密码</value>
@@ -1666,7 +1666,7 @@
 如果您忘记了密码，您将无法访问您的Telegram帐户。并且没有办法恢复！</value>
   </data>
   <data name="TwoStepVerification" xml:space="preserve">
-    <value>两步验证</value>
+    <value>Two-Step Verification</value>
   </data>
   <data name="YourPassword" xml:space="preserve">
     <value>您的密码</value>
@@ -1681,7 +1681,7 @@
     <value>官方应用</value>
   </data>
   <data name="Sessions" xml:space="preserve">
-    <value>活动会话</value>
+    <value>Active Sessions</value>
   </data>
   <data name="TerminateAllOtherSessionsNote" xml:space="preserve">
     <value>登出本会话以外的所有其他设备</value>
@@ -1950,7 +1950,7 @@
     <value>您确定要取消对这个联系人的屏蔽吗？</value>
   </data>
   <data name="SharedLinks" xml:space="preserve">
-    <value>已共享链接</value>
+    <value>Links</value>
   </data>
   <data name="BackgroudnTaskDisabledAlert" xml:space="preserve">
     <value>你禁用了Telegram的后台任务，Telegram 不能正常接收消息。请允许应用在后台运行。</value>
@@ -1959,7 +1959,7 @@
     <value>搜索已共享链接</value>
   </data>
   <data name="SharedFiles" xml:space="preserve">
-    <value>已共享文件</value>
+    <value>Files</value>
   </data>
   <data name="ShareLinks" xml:space="preserve">
     <value>您可以分享这个会话的链接的图片和视频，并在您的所有设备上访问。</value>
@@ -1983,7 +1983,7 @@
     <value>最近</value>
   </data>
   <data name="NewChannel" xml:space="preserve">
-    <value>新建频道</value>
+    <value>New Channel</value>
   </data>
   <data name="MessageActionBroadcastCreate" xml:space="preserve">
     <value>{0} 创建了广播 &quot;{1}&quot;</value>
@@ -1992,7 +1992,7 @@
     <value>频道已创建</value>
   </data>
   <data name="ReportSpam" xml:space="preserve">
-    <value>举报垃圾信息</value>
+    <value>Report Spam</value>
   </data>
   <data name="ConversationMarkedAsSpamConfirmation" xml:space="preserve">
     <value>对话已被标记为垃圾对话。是否删除并屏蔽该用户？</value>
@@ -2102,7 +2102,7 @@
     <value>静音</value>
   </data>
   <data name="SetChannelPhoto" xml:space="preserve">
-    <value>设置频道图片</value>
+    <value>Set Channel Photo</value>
   </data>
   <data name="Unmute" xml:space="preserve">
     <value>恢复消息通知</value>
@@ -2197,7 +2197,7 @@
     <value>搜索已共享音乐</value>
   </data>
   <data name="SharedMusic" xml:space="preserve">
-    <value>分享的音乐</value>
+    <value>Music</value>
   </data>
   <data name="ShareMusic" xml:space="preserve">
     <value>此会话中共享的所有音乐都会在这里显示。</value>
@@ -2304,7 +2304,7 @@
     <value>缓存设置</value>
   </data>
   <data name="ChatSettings" xml:space="preserve">
-    <value>聊天设置</value>
+    <value>Chat Settings</value>
   </data>
   <data name="ClearChannelConfirmation" xml:space="preserve">
     <value>确定删除此频道中所有缓存的消息文本和媒体文件？</value>
@@ -2359,7 +2359,7 @@
     <value>语音</value>
   </data>
   <data name="LocalDatabase" xml:space="preserve">
-    <value>本地数据库</value>
+    <value>Local Database</value>
   </data>
   <data name="AutomaticGifDownload" xml:space="preserve">
     <value>自动下载 GIF 图片</value>
@@ -2404,7 +2404,7 @@
     <value>在这里配置的权限将会覆盖全局设置。</value>
   </data>
   <data name="GroupsShort" xml:space="preserve">
-    <value>群组</value>
+    <value>Groups and Channels</value>
   </data>
   <data name="NeverAllow" xml:space="preserve">
     <value>从不允许</value>
@@ -2933,7 +2933,7 @@
     <value>您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</value>
   </data>
   <data name="GroupsInCommon" xml:space="preserve">
-    <value>共同加入的群组</value>
+    <value>Groups in Common</value>
   </data>
   <data name="GroupGenitivePlural" xml:space="preserve">
     <value>群组</value>
@@ -2964,5 +2964,50 @@
   </data>
   <data name="SendMessageFloodWait" xml:space="preserve">
     <value>您今天已经联系了太多非联系人，请明天再试。您将可以回复此用户如果其主动给您发送了消息。</value>
+  </data>
+  <data name="AttachedStickers" xml:space="preserve">
+    <value>Attached stickers</value>
+  </data>
+  <data name="JumpToDate" xml:space="preserve">
+    <value>Jump to date</value>
+  </data>
+  <data name="Pack" xml:space="preserve">
+    <value>View pack</value>
+  </data>
+  <data name="ChatsAndContacts" xml:space="preserve">
+    <value>Chats and Contacts</value>
+  </data>
+  <data name="MessageSearch" xml:space="preserve">
+    <value>Message Search</value>
+  </data>
+  <data name="SearchChatsOrMessages" xml:space="preserve">
+    <value>Search chats or messages</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="TelegramFAQ" xml:space="preserve">
+    <value>Telegram FAQ</value>
+  </data>
+  <data name="ChatSettingsSubtitle" xml:space="preserve">
+    <value>Media, background, cache</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="ChannelsTooMuch" xml:space="preserve">
+    <value>Sorry, you have created or joined too many channels.</value>
+  </data>
+  <data name="UserChannelsTooMuch" xml:space="preserve">
+    <value>Sorry, you can&apos;t add this user to channel.</value>
+  </data>
+  <data name="ItemsSelectedSingular" xml:space="preserve">
+    <value>{0} selected</value>
+  </data>
+  <data name="NewChat" xml:space="preserve">
+    <value>New chat</value>
+  </data>
+  <data name="ItemsSelectedPlural" xml:space="preserve">
+    <value>{0} selected</value>
   </data>
 </root>

@@ -559,7 +559,7 @@
     <value>Start messaging</value>
   </data>
   <data name="Intro1Message" xml:space="preserve">
-    <value>Welcome to Telegram ―
+    <value>Welcome to **Telegram** ―
 the world&apos;s fastest messaging app.
 It is free and secure.</value>
   </data>
@@ -567,35 +567,35 @@ It is free and secure.</value>
     <value>Fast</value>
   </data>
   <data name="FastMessage" xml:space="preserve">
-    <value>Telegram delivers messages faster than
+    <value>**Telegram** delivers messages faster than
 any other application.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Free</value>
   </data>
   <data name="FreeMessage" xml:space="preserve">
-    <value>Telegram is free forever. No ads.
+    <value>**Telegram** is free forever. No ads.
 No subscription fees.</value>
   </data>
   <data name="Powerful" xml:space="preserve">
     <value>Powerful</value>
   </data>
   <data name="PowerfulMessage" xml:space="preserve">
-    <value>Telegram has no limits on the size of
+    <value>**Telegram** has no limits on the size of
 your media and chats.</value>
   </data>
   <data name="Secure" xml:space="preserve">
     <value>Secure</value>
   </data>
   <data name="SecureMessage" xml:space="preserve">
-    <value>Telegram keeps your messages safe
+    <value>**Telegram** keeps your messages safe
 from hacker attacks.</value>
   </data>
   <data name="CloudBased" xml:space="preserve">
     <value>Cloud-Based</value>
   </data>
   <data name="CloudBasedMessage" xml:space="preserve">
-    <value>Telegram lets you access your messages
+    <value>**Telegram** lets you access your messages
 from multiple devices.</value>
   </data>
   <data name="TelegramDialedYourNumber" xml:space="preserve">
@@ -3002,7 +3002,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Sorry, you have created or joined too many channels.</value>
   </data>
   <data name="UserChannelsTooMuch" xml:space="preserve">
-    <value>Sorry, you can&apos;t add this user to channel.</value>
+    <value>Sorry, you can&apos;t add this user to channels.</value>
   </data>
   <data name="ItemsSelectedSingular" xml:space="preserve">
     <value>{0} selected</value>
@@ -3012,5 +3012,65 @@ The group **&quot;{1}&quot;** will become private.</value>
   </data>
   <data name="ItemsSelectedPlural" xml:space="preserve">
     <value>{0} selected</value>
+  </data>
+  <data name="FileGenitivePlural" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="FileGenitiveSingular" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FileNominativePlural" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="FileNominativeSingular" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="LinkGenitivePlural" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="LinkGenitiveSingular" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="LinkNominativePlural" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="LinkNominativeSingular" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="PhotoGenitivePlural" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="PhotoGenitiveSingular" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="PhotoNominativePlural" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="PhotoNominativeSingular" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="SongGenitivePlural" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="SongGenitiveSingular" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="SongNominativePlural" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="SongNominativeSingular" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="VideoGenitivePlural" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="VideoGenitiveSingular" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoNominativePlural" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="VideoNominativeSingular" xml:space="preserve">
+    <value>Video</value>
   </data>
 </root>

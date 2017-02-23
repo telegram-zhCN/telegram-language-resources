@@ -40,6 +40,55 @@
   <string name="FirstName">名字（必填）</string>
   <string name="LastName">姓氏（可选）</string>
   <string name="CancelRegistration">取消注册</string>
+  <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">您已成功因 %3$s 向 %2$s 转账 %1$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">您已成功向 %2$s 转账 %1$s</string>
+  <string name="PaymentCheckout">结算</string>
+  <string name="PaymentShippingMethod">配送方式</string>
+  <string name="PaymentNoShippingMethod">抱歉，无法配送至您的地址。</string>
+  <string name="PaymentShippingInfo">配送信息</string>
+  <string name="PaymentShippingAddress">配送地址</string>
+  <string name="PaymentShippingAddress1Placeholder">地址行 1 (街道)</string>
+  <string name="PaymentShippingAddress2Placeholder">地址行 2 (街道)</string>
+  <string name="PaymentShippingCityPlaceholder">城市</string>
+  <string name="PaymentShippingStatePlaceholder">省份</string>
+  <string name="PaymentShippingCountry">国家</string>
+  <string name="PaymentShippingZipPlaceholder">邮政编码</string>
+  <string name="PaymentShippingReceiver">收件人</string>
+  <string name="PaymentShippingName">全名</string>
+  <string name="PaymentShippingPhoneNumber">手机号码</string>
+  <string name="PaymentShippingEmailPlaceholder">电子邮箱</string>
+  <string name="PaymentShippingSave">保存配送信息</string>
+  <string name="PaymentShippingSaveInfo">您可以保存您的配送信息以在将来使用。</string>
+  <string name="PaymentCardInfo">付款信息</string>
+  <string name="PaymentCardTitle">银行卡</string>
+  <string name="PaymentCardNumber">银行卡号</string>
+  <string name="PaymentCardCvv">安全码 (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">月</string>
+  <string name="PaymentCardExpireDateYear">年</string>
+  <string name="PaymentBillingAddress">账单地址</string>
+  <string name="PaymentCardNameTitle">持卡人</string>
+  <string name="PaymentCardName">姓名</string>
+  <string name="PaymentCardSavePaymentInformation">保存付款信息</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">您可以保存您的付款信息以在将来使用。</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">请先“开启两步验证”后再启用此功能。</string>
+  <string name="PaymentTransactionReview">交易检查</string>
+  <string name="PaymentTransactionMessage">您确定要因 %3$s 向机器人 %2$s 转账 %1$s ？</string>
+  <string name="PaymentTransactionTotal">总计</string>
+  <string name="PaymentShipment">配送</string>
+  <string name="PaymentInvoice">订单</string>
+  <string name="PaymentCheckoutPay">支付 %1$s</string>
+  <string name="PaymentCheckoutMethod">付款信息</string>
+  <string name="PaymentCheckoutName">姓名</string>
+  <string name="PaymentCheckoutPhoneNumber">手机号码</string>
+  <string name="PaymentCheckoutEmail">地址</string>
+  <string name="PaymentCheckoutShippingMethod">配送方式</string>
+  <string name="PaymentReceipt">收据</string>
+  <string name="PaymentConfirmationNewCard">选择另一张卡</string>
+  <string name="PaymentConfirmationMessage">您的银行卡 %1$s 已被记录。要使用此卡付款，请输入您的两步验证密码。</string>
+  <string name="PaymentPrecheckoutFailed">抱歉，付款已被此机器人取消。</string>
+  <string name="PaymentFailed">抱歉，付款被拒绝。</string>
+  <string name="PaymentConnectionFailed">无法连接至付款服务器。请检查您的互联网连接并重试。</string>
   <!--chats view-->
   <string name="NewConversationShortcut">新建对话</string>
   <string name="Settings">设置</string>
@@ -320,6 +369,7 @@
   <string name="SaveToMusic">保存到音乐库</string>
   <string name="ShareFile">分享</string>
   <string name="ApplyLocalizationFile">使用本地化文件</string>
+  <string name="ApplyThemeFile">应用主题文件</string>
   <string name="UnsupportedAttachment">不支持此附件</string>
   <string name="SetTimer">设置阅后即焚计时器</string>
   <string name="ServiceNotifications">服务通知</string>
@@ -336,8 +386,10 @@
   <string name="ReportSpamAlert">您确定要举报此用户发送了垃圾信息？</string>
   <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
   <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
-  <string name="NobodyLikesSpam1">您今天已经联系了太多非联系人，请明天再试。如果此用户主动给您发送了消息，您将可以回复此用户。</string>
-  <string name="NobodyLikesSpam2">您不能添加此用户，因为您今天已经联系了太多非联系人。请明天再试。您可以让其他群组成员将此用户添加进群组。</string>
+  <string name="NobodyLikesSpam1">抱歉，您现在只能给双向联系人发送信息。</string>
+  <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
+  <string name="NobodyLikesSpam3">您今天已经联系了太多非联系人，请明天再试。如果此用户主动给您发送了消息，您将可以回复此用户。</string>
+  <string name="NobodyLikesSpam4">您不能添加此用户，因为您今天已经联系了太多非联系人。请明天再试。您可以让其他群组成员将此用户添加进群组。</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">详情</string>
   <string name="ShareSendTo">发送到...</string>
@@ -374,6 +426,7 @@
   <string name="JumpToDate">跳转</string>
   <string name="DeleteForUser">为 %1$s 删除</string>
   <string name="DeleteForAll">为所有成员删除</string>
+  <string name="TextCopied">文字已复制到剪贴板</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -583,6 +636,20 @@
   <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被归档。你可以在设置里重新激活它们。</string>
   <string name="ArchivedMasksAlertTitle">已归档装饰</string>
   <string name="ArchivedMasksAlertInfo">您的一些旧图贴包已经被归档。你可以在设置里重新激活它们。</string>
+  <!--theme view-->
+  <string name="Theme">主题</string>
+  <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
+  <string name="IncorrectTheme">无效的主题文件</string>
+  <string name="EnterThemeName">输入主题名称</string>
+  <string name="CloseEditor">关闭编辑器</string>
+  <string name="SaveTheme">保存主题</string>
+  <string name="NewTheme">新建主题</string>
+  <string name="ApplyTheme">应用</string>
+  <string name="ThemePreview">主题预览</string>
+  <string name="SelectColor">选择颜色</string>
+  <string name="CreateNewTheme">创建新主题</string>
+  <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
+  <string name="CreateNewThemeInfo">您可以在应用内修改其颜色来创建您自己的主题。您可以在任何时候在这里还原为 Telegram 默认的主题。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
   <string name="TextSize">文字大小</string>
@@ -640,7 +707,6 @@
   <string name="ContactJoined">联系人已加入 Telegram</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
-  <string name="Theme">主题</string>
   <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。<![CDATA[<br><br>]]>请前往 <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ（英文）</a>]]> 看看: 那里有各种常见问题和<![CDATA[<a href="https://telegram.org/faq#troubleshooting"> 故障排除 </a>]]>提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
@@ -1121,6 +1187,7 @@
   <string name="AllowFillNumber">请允许 Telegram 接收来电及短信，以便自动填写您的电话号码，并自动填写收到的短信验证码。</string>
   <string name="AllowReadCallAndSms">请授予 Telegram 读取短信及通话权限以便我们自动读取验证码。</string>
   <string name="UserRestricted">抱歉，您无法执行此操作。</string>
+  <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>
   <string name="JoinGroup">加入群组</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。</string>
@@ -1194,6 +1261,12 @@
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
   <string name="VoipFeedbackAlert">您愿意留下任何反馈以帮助我们改进通话服务吗？</string>
+  <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风来拨打电话。</string>
+  <string name="VoipFeedbackCommentHint">添加可选注释</string>
+  <string name="CallBack">回拨</string>
+  <string name="CallAgain">再次呼叫</string>
+  <string name="DefaultRingtone">默认</string>
+  <string name="ConfirmDeleteCallLog">您确定要删除这条通话记录吗？</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
