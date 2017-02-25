@@ -867,7 +867,7 @@
   <!--photo gallery view-->
   <string name="ShowAllMedia">显示所有图片和视频</string>
   <string name="SaveToGallery">保存到相册</string>
-  <string name="Of">第 %1$d 张，共 %2$d 张</string>
+  <string name="Of">%1$d / %2$d</string>
   <string name="Gallery">相册</string>
   <string name="AllPhotos">全部图片</string>
   <string name="AllVideo">全部视频</string>
@@ -1443,7 +1443,7 @@
   <string name="ForwardedPhoto_few">%1$d 张转发的图片</string>
   <string name="ForwardedPhoto_many">%1$d 张转发的图片</string>
   <string name="ForwardedPhoto_other">%1$d 张转发的图片</string>
-  <string name="ForwardedVideo_zero">%1$d 张转发的视频</string>
+  <string name="ForwardedVideo_zero">%1$d 段转发的视频</string>
   <string name="ForwardedVideo_one">转发的视频</string>
   <string name="ForwardedVideo_two">%1$d 段转发的视频</string>
   <string name="ForwardedVideo_few">%1$d 段转发的视频</string>
