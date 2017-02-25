@@ -32,7 +32,7 @@
   <string name="ResetAccountCancelledAlert">您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
-  <string name="CancelLinkSuccess">已取消删除您的账号 %1$s 。现在可以关闭此窗口。</string>
+  <string name="CancelLinkSuccess">已取消删除您的账号 %1$s 。您现在可以关闭此窗口。</string>
   <!--signup view-->
   <string name="YourName">您的姓名</string>
   <string name="RegisterText">设置您的姓名</string>
@@ -76,7 +76,7 @@
   <string name="PaymentTransactionMessage">您确定要因 %3$s 向机器人 %2$s 转账 %1$s ？</string>
   <string name="PaymentTransactionTotal">总计</string>
   <string name="PaymentShipment">配送</string>
-  <string name="PaymentInvoice">订单</string>
+  <string name="PaymentInvoice">发票</string>
   <string name="PaymentCheckoutPay">支付 %1$s</string>
   <string name="PaymentCheckoutMethod">付款信息</string>
   <string name="PaymentCheckoutName">姓名</string>
@@ -161,18 +161,18 @@
   <string name="GroupUserLeftError">抱歉，该用户已决定离开此群组，您无法邀请该用户回来。</string>
   <string name="GroupUserCantAdmin">对不起，管理员人数过多。</string>
   <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
-  <string name="ActionPinnedText">un1 已置顶 \"%1$s\"</string>
-  <string name="ActionPinnedNoText">un1 已置顶 1 条消息</string>
-  <string name="ActionPinnedPhoto">un1 已置顶 1 张图片</string>
-  <string name="ActionPinnedVideo">un1 已置顶 1 个视频</string>
-  <string name="ActionPinnedFile">un1 已置顶 1 个文件</string>
-  <string name="ActionPinnedSticker">un1 已置顶 1 张贴纸</string>
-  <string name="ActionPinnedVoice">un1 已置顶 1 条语音消息</string>
-  <string name="ActionPinnedContact">un1 已置顶 1 个联系人信息</string>
-  <string name="ActionPinnedGame">un1 已置顶 %1$s</string>
-  <string name="ActionPinnedGeo">un1 已置顶 1 个位置</string>
-  <string name="ActionPinnedGif">un1 已置顶 1 个 GIF</string>
-  <string name="ActionPinnedMusic">un1 已置顶 1 首音乐</string>
+  <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
+  <string name="ActionPinnedNoText">un1 置顶了 1 条消息</string>
+  <string name="ActionPinnedPhoto">un1 置顶了 1 张图片</string>
+  <string name="ActionPinnedVideo">un1 置顶了 1 个视频</string>
+  <string name="ActionPinnedFile">un1 置顶了 1 个文件</string>
+  <string name="ActionPinnedSticker">un1 置顶了 1 张贴纸</string>
+  <string name="ActionPinnedVoice">un1 置顶了 1 条语音消息</string>
+  <string name="ActionPinnedContact">un1 置顶了 1 个联系人信息</string>
+  <string name="ActionPinnedGame">un1 置顶了 %1$s</string>
+  <string name="ActionPinnedGeo">un1 置顶了 1 个位置</string>
+  <string name="ActionPinnedGif">un1 置顶了 1 个 GIF</string>
+  <string name="ActionPinnedMusic">un1 置顶了 1 首音乐</string>
   <string name="ActionMigrateFromGroup">此群组已升级为超级群组</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 已升级为超级群组</string>
   <string name="NoBlockedGroup">被加入黑名单的用户将会从群组中移除，并且不能使用邀请链接返回群组，只有被管理员邀请才能再次加入。</string>
@@ -291,7 +291,7 @@
   <string name="ChannelNotifyMembersInfoOn">消息发布后用户会收到通知</string>
   <string name="ChannelNotifyMembersInfoOff">消息发布后用户不会收到通知</string>
   <string name="ChannelSignMessages">消息署名</string>
-  <string name="ChannelSignMessagesInfo">在消息上附加发送该消息的管理员的名称</string>
+  <string name="ChannelSignMessagesInfo">在管理员发送的消息上附加他们的名字</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">新建群发列表</string>
   <string name="EnterListName">输入列表名称</string>
@@ -452,13 +452,13 @@
   <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到 %2$s 群组</string>
   <string name="NotificationMessageGroupContact">%1$s 分享了一个联系人到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
-  <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s  来玩 %3$s</string>
+  <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s 来玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一条语音消息到群组 %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s 发送了一首音乐到 %2$s 群组</string>
   <string name="NotificationMessageGroupSticker">%1$s 发送了一张贴纸到群组 %2$s</string>
-  <string name="NotificationMessageGroupStickerEmoji">%1$s 发送了一个 %3$s 贴纸到群组 %2$s</string>
+  <string name="NotificationMessageGroupStickerEmoji">%1$s 发送了一张 %3$s 贴纸到群组 %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s 邀请您加入群组 %2$s </string>
   <string name="NotificationEditedGroupName">%1$s 编辑了群组 %2$s 的名称</string>
   <string name="NotificationEditedGroupPhoto">%1$s 编辑了群组 %2$s 的标识</string>
@@ -487,21 +487,21 @@
   <string name="NotificationActionPinnedVoice">%1$s 在群组 %2$s 置顶了一段语音</string>
   <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一个联系人</string>
   <string name="NotificationActionPinnedGeo">%1$s 在群组 %2$s 置顶了一个地理位置</string>
-  <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF 图片</string>
+  <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF</string>
   <string name="NotificationActionPinnedMusic">%1$s 在群组 %2$s 置顶了一首音乐</string>
   <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
-  <string name="NotificationActionPinnedNoTextChannel">%1$s 已置顶 1 条消息</string>
-  <string name="NotificationActionPinnedPhotoChannel">%1$s 已置顶 1 张图片</string>
-  <string name="NotificationActionPinnedVideoChannel">%1$s 已置顶 1 个视频</string>
-  <string name="NotificationActionPinnedFileChannel">%1$s 已置顶 1 个文件</string>
+  <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了 1 条消息</string>
+  <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了 1 张图片</string>
+  <string name="NotificationActionPinnedVideoChannel">%1$s 置顶了 1 个视频</string>
+  <string name="NotificationActionPinnedFileChannel">%1$s 置顶了 1 个文件</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s 置顶了 1 张贴纸</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
-  <string name="NotificationActionPinnedVoiceChannel">%1$s 已置顶 1 条语音消息</string>
-  <string name="NotificationActionPinnedContactChannel">%1$s 已置顶 1 个联系人信息</string>
-  <string name="NotificationActionPinnedGeoChannel">%1$s 已置顶 1 个位置</string>
-  <string name="NotificationActionPinnedGifChannel">%1$s 已置顶 1 个 GIF</string>
+  <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了 1 条语音消息</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s 置顶了 1 个联系人信息</string>
+  <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了 1 个位置</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s 置顶了 1 个 GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了 1 首音乐</string>
-  <string name="NotificationActionPinnedGameChannel">%1$s 已置顶 1 个游戏</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s 置顶了 1 个游戏</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
   <string name="NoContacts">还没有联系人</string>
@@ -626,7 +626,7 @@
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已归档贴纸</string>
   <string name="ArchivedMasks">已归档装饰</string>
-  <string name="ArchivedStickersEmpty">没有已存档的贴纸</string>
+  <string name="ArchivedStickersEmpty">没有已归档的贴纸</string>
   <string name="ArchivedMasksEmpty">暂无已归档装饰</string>
   <string name="ArchivedStickersInfo">你可以拥有最多200个贴纸包。
 未使用的贴纸将在你添加新贴纸的时候存档。</string>

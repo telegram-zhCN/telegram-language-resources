@@ -559,43 +559,44 @@
     <value>开始对话</value>
   </data>
   <data name="Intro1Message" xml:space="preserve">
-    <value>欢迎使用 Telegram——
-全球最快的聊天软件。
-免费，而且安全。</value>
+    <value>Welcome to **Telegram** ―
+the world&apos;s fastest messaging app.
+It is free and secure.</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>快速</value>
   </data>
   <data name="FastMessage" xml:space="preserve">
-    <value>Telegram 收发消息速度超过所有聊天软件。</value>
+    <value>**Telegram** delivers messages faster than
+any other application.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>免费</value>
   </data>
   <data name="FreeMessage" xml:space="preserve">
-    <value>Telegram 永久免费。
-无广告，无月租。</value>
+    <value>**Telegram** is free forever. No ads.
+No subscription fees.</value>
   </data>
   <data name="Powerful" xml:space="preserve">
     <value>强大</value>
   </data>
   <data name="PowerfulMessage" xml:space="preserve">
-    <value>Telegram 不限制你聊天记录和附件的
-大小和数量。</value>
+    <value>**Telegram** has no limits on the size of
+your media and chats.</value>
   </data>
   <data name="Secure" xml:space="preserve">
     <value>安全</value>
   </data>
   <data name="SecureMessage" xml:space="preserve">
-    <value>即使你被黑客入侵，
-你在 Telegram 上的信息仍无法被他人获取。</value>
+    <value>**Telegram** keeps your messages safe
+from hacker attacks.</value>
   </data>
   <data name="CloudBased" xml:space="preserve">
     <value>云同步</value>
   </data>
   <data name="CloudBasedMessage" xml:space="preserve">
-    <value>不管你身处何处，Telegram 上的消息
-和聊天记录与你同行。</value>
+    <value>**Telegram** lets you access your messages
+from multiple devices.</value>
   </data>
   <data name="TelegramDialedYourNumber" xml:space="preserve">
     <value>Telegram 正在拨打你的手机</value>
@@ -2304,7 +2305,7 @@
     <value>缓存设置</value>
   </data>
   <data name="ChatSettings" xml:space="preserve">
-    <value>Chat Settings</value>
+    <value>聊天设置</value>
   </data>
   <data name="ClearChannelConfirmation" xml:space="preserve">
     <value>确定删除此频道中所有缓存的消息文本和媒体文件？</value>
@@ -2999,7 +3000,7 @@
     <value>Sorry, you have created or joined too many channels.</value>
   </data>
   <data name="UserChannelsTooMuch" xml:space="preserve">
-    <value>Sorry, you can&apos;t add this user to channel.</value>
+    <value>Sorry, you can&apos;t add this user to channels.</value>
   </data>
   <data name="ItemsSelectedSingular" xml:space="preserve">
     <value>{0} selected</value>
@@ -3009,5 +3010,65 @@
   </data>
   <data name="ItemsSelectedPlural" xml:space="preserve">
     <value>{0} selected</value>
+  </data>
+  <data name="FileGenitivePlural" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="FileGenitiveSingular" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FileNominativePlural" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="FileNominativeSingular" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="LinkGenitivePlural" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="LinkGenitiveSingular" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="LinkNominativePlural" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="LinkNominativeSingular" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="PhotoGenitivePlural" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="PhotoGenitiveSingular" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="PhotoNominativePlural" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="PhotoNominativeSingular" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="SongGenitivePlural" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="SongGenitiveSingular" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="SongNominativePlural" xml:space="preserve">
+    <value>Songs</value>
+  </data>
+  <data name="SongNominativeSingular" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="VideoGenitivePlural" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="VideoGenitiveSingular" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="VideoNominativePlural" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="VideoNominativeSingular" xml:space="preserve">
+    <value>Video</value>
   </data>
 </root>
