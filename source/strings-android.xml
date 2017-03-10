@@ -62,8 +62,7 @@
   <string name="PaymentCardTitle">Payment card</string>
   <string name="PaymentCardNumber">Card Number</string>
   <string name="PaymentCardCvv">Security Code (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Month</string>
-  <string name="PaymentCardExpireDateYear">Year</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Billing address</string>
   <string name="PaymentCardNameTitle">Card holder</string>
   <string name="PaymentCardName">Name Surname</string>
@@ -73,8 +72,8 @@
   <string name="PaymentTransactionReview">Transaction Review</string>
   <string name="PaymentTransactionMessage">Do you really want to transfer %1$s to the %2$s bot for %3$s?</string>
   <string name="PaymentTransactionTotal">Total</string>
-  <string name="PaymentShipment">SHIPMENT</string>
   <string name="PaymentInvoice">INVOICE</string>
+  <string name="PaymentTestInvoice">TEST INVOICE</string>
   <string name="PaymentCheckoutPay">PAY %1$s</string>
   <string name="PaymentCheckoutMethod">Payment method</string>
   <string name="PaymentCheckoutName">Name</string>
@@ -1264,6 +1263,12 @@
   <string name="CallAgain">Call Again</string>
   <string name="DefaultRingtone">Default</string>
   <string name="ConfirmDeleteCallLog">Are you sure you want to delete this entry from the calls log?</string>
+  <string name="CallViaTelegram">Telegram Call</string>
+  <string name="VoipAudioRoutingEarpiece">Earpiece</string>
+  <string name="VoipAudioRoutingSpeaker">Speaker</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="ReturnToCall">RETURN TO CALL</string>
+  <string name="CallNotAvailable">Sorry, %1$s doesn\'t accept calls.</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>

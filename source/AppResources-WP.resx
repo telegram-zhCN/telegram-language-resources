@@ -499,7 +499,7 @@
     <value>Chats</value>
   </data>
   <data name="EditName" xml:space="preserve">
-    <value>Edit name</value>
+    <value>Edit Name</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Save</value>
@@ -1025,23 +1025,6 @@ If you have questions, contact our </value>
   </data>
   <data name="AskAVolunteer" xml:space="preserve">
     <value>Ask a volunteer</value>
-  </data>
-  <data name="AskAQuestionPart1" xml:space="preserve">
-    <value>Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.
-
-Please take a look at the </value>
-  </data>
-  <data name="AskAQuestionPart3" xml:space="preserve">
-    <value>: it has answers to most questions and important tips for</value>
-  </data>
-  <data name="AskAQuestionPart2" xml:space="preserve">
-    <value>Telegram FAQ</value>
-  </data>
-  <data name="AskAQuestionPart4" xml:space="preserve">
-    <value>troubleshooting</value>
-  </data>
-  <data name="AskAQuestionPart5" xml:space="preserve">
-    <value>.</value>
   </data>
   <data name="PinToStart" xml:space="preserve">
     <value>Pin to Start</value>
@@ -1877,7 +1860,7 @@ if you proceed with resetting your account.</value>
     <value>Stickers not found</value>
   </data>
   <data name="ClearLogs" xml:space="preserve">
-    <value>Clear logs</value>
+    <value>Clear Logs</value>
   </data>
   <data name="Hide" xml:space="preserve">
     <value>Hide</value>
@@ -1886,7 +1869,7 @@ if you proceed with resetting your account.</value>
     <value>Remove</value>
   </data>
   <data name="SendLogs" xml:space="preserve">
-    <value>Send logs</value>
+    <value>Send Logs</value>
   </data>
   <data name="StickerGenitivePlural" xml:space="preserve">
     <value>Stickers</value>
@@ -2299,10 +2282,10 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <value>Service notifications</value>
   </data>
   <data name="AutomaticAudioDownload" xml:space="preserve">
-    <value>Automatic audio download</value>
+    <value>Audio Auto-Download</value>
   </data>
   <data name="AutomaticPhotoDownload" xml:space="preserve">
-    <value>Automatic photo download</value>
+    <value>Photo Auto-Download</value>
   </data>
   <data name="CacheSettings" xml:space="preserve">
     <value>Cache settings</value>
@@ -2366,7 +2349,7 @@ All media will stay in the Telegram cloud and can be re-downloaded if you need i
     <value>Local Database</value>
   </data>
   <data name="AutomaticGifDownload" xml:space="preserve">
-    <value>Automatic GIF download</value>
+    <value>GIF Auto-Download</value>
   </data>
   <data name="ForwardedGifGenitivePlural" xml:space="preserve">
     <value>Forwarded GIFs</value>
@@ -2554,7 +2537,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Delete all from {0}</value>
   </data>
   <data name="DeleteMessageConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete 1 message?</value>
+    <value>Are you sure you want to delete this message?</value>
   </data>
   <data name="DeleteMessages" xml:space="preserve">
     <value>Delete messages</value>
@@ -3072,5 +3055,80 @@ The group **&quot;{1}&quot;** will become private.</value>
   </data>
   <data name="VideoNominativeSingular" xml:space="preserve">
     <value>Video</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="SetPhoto" xml:space="preserve">
+    <value>Set Photo</value>
+  </data>
+  <data name="AskAQuestionDescription" xml:space="preserve">
+    <value>Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while. Please take a look at the &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#general&quot;&gt;Telegram FAQ&lt;/a&gt;]]&gt;: it has answers to most questions and important tips for &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#troubleshooting&quot;&gt;troubleshooting&lt;/a&gt;]]&gt;.</value>
+  </data>
+  <data name="MaskPackPlural" xml:space="preserve">
+    <value>{0} mask packs</value>
+  </data>
+  <data name="MaskPackSingular" xml:space="preserve">
+    <value>{0} mask pack</value>
+  </data>
+  <data name="StickerPackPlural" xml:space="preserve">
+    <value>{0} sticker packs</value>
+  </data>
+  <data name="StickerPackSingular" xml:space="preserve">
+    <value>{0} sticker pack</value>
+  </data>
+  <data name="NewStickerPackPlural" xml:space="preserve">
+    <value>{0} new sticker packs</value>
+  </data>
+  <data name="NewStickerPackSingular" xml:space="preserve">
+    <value>{0} new sticker pack</value>
+  </data>
+  <data name="PinDialog" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="UnpinDialog" xml:space="preserve">
+    <value>Unpin</value>
+  </data>
+  <data name="DeleteFor" xml:space="preserve">
+    <value>Delete for {0}</value>
+  </data>
+  <data name="DeleteForAll" xml:space="preserve">
+    <value>Delete for all</value>
+  </data>
+  <data name="DeleteMessageForYouHint" xml:space="preserve">
+    <value>This will delete it just for you.</value>
+  </data>
+  <data name="DeleteMessagesForYouHint" xml:space="preserve">
+    <value>This will delete them just for you.</value>
+  </data>
+  <data name="MessageActionCanceledCall" xml:space="preserve">
+    <value>Canceled call at {0}</value>
+  </data>
+  <data name="MessageActionIncomingCall" xml:space="preserve">
+    <value>Incoming call at {0}</value>
+  </data>
+  <data name="MessageActionIncomingDurationCall" xml:space="preserve">
+    <value>Incoming call ({0}) at {1}</value>
+  </data>
+  <data name="MessageActionMissedCall" xml:space="preserve">
+    <value>Missed call at {0}</value>
+  </data>
+  <data name="MessageActionOutgoingCall" xml:space="preserve">
+    <value>Outgoing call at {0}</value>
+  </data>
+  <data name="MessageActionOutgoingDurationCall" xml:space="preserve">
+    <value>Outgoing call ({0}) at {1}</value>
+  </data>
+  <data name="CanceledCall" xml:space="preserve">
+    <value>Canceled call</value>
+  </data>
+  <data name="IncomingCall" xml:space="preserve">
+    <value>Incoming call</value>
+  </data>
+  <data name="MissedCall" xml:space="preserve">
+    <value>Missed call</value>
+  </data>
+  <data name="OutgoingCall" xml:space="preserve">
+    <value>Outgoing call</value>
   </data>
 </root>
