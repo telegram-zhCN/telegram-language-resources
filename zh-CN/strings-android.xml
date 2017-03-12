@@ -64,8 +64,7 @@
   <string name="PaymentCardTitle">银行卡</string>
   <string name="PaymentCardNumber">银行卡号</string>
   <string name="PaymentCardCvv">安全码 (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">月</string>
-  <string name="PaymentCardExpireDateYear">年</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">账单地址</string>
   <string name="PaymentCardNameTitle">持卡人</string>
   <string name="PaymentCardName">姓名</string>
@@ -75,8 +74,8 @@
   <string name="PaymentTransactionReview">交易检查</string>
   <string name="PaymentTransactionMessage">您确定要因 %3$s 向机器人 %2$s 转账 %1$s ？</string>
   <string name="PaymentTransactionTotal">总计</string>
-  <string name="PaymentShipment">配送</string>
   <string name="PaymentInvoice">发票</string>
+  <string name="PaymentTestInvoice">测试发票</string>
   <string name="PaymentCheckoutPay">支付 %1$s</string>
   <string name="PaymentCheckoutMethod">付款信息</string>
   <string name="PaymentCheckoutName">姓名</string>
@@ -109,7 +108,7 @@
   <string name="EncryptedChatStartedIncoming">您已加入加密对话。</string>
   <string name="ClearHistory">清除聊天记录</string>
   <string name="ClearHistoryCache">清除消息缓存</string>
-  <string name="DeleteChat">删除并退出</string>
+  <string name="DeleteChat">删除并退出群组</string>
   <string name="DeleteChatUser">删除对话</string>
   <string name="HiddenName">删除帐号</string>
   <string name="SelectChat">选择对话</string>
@@ -146,19 +145,19 @@
   <string name="ChannelTypePrivate">私有</string>
   <string name="SetAsAdmin">设为管理员</string>
   <string name="DescriptionInfoMega">您可以给您的频道添加一段简介。</string>
-  <string name="LeaveMega">离开群组</string>
+  <string name="LeaveMega">退出群组</string>
   <string name="DeleteMega">删除群组</string>
-  <string name="LeaveMegaMenu">离开群组</string>
+  <string name="LeaveMegaMenu">退出群组</string>
   <string name="DeleteMegaMenu">删除群组</string>
   <string name="MegaDeleteInfo">您将会丢失此群组的所有消息。</string>
   <string name="MegaAdminsInfo">您可以添加管理员帮助您管理群组。长按可删除管理员。</string>
   <string name="MegaDeleteAlert">注意！删除此群组将会移除所有成员并且所有消息都会丢失。确定要删除此群组？</string>
   <string name="ActionCreateMega">群组已创建</string>
   <string name="MegaAddedBy">un1 将您添加到了此群组</string>
-  <string name="MegaLeaveAlert">您确定要离开此群组吗？</string>
+  <string name="MegaLeaveAlert">您确定要退出此群组吗？</string>
   <string name="GroupUserCantAdd">抱歉，您不能将此用户加入群组。</string>
   <string name="GroupUserAddLimit">抱歉，此群组已满员。</string>
-  <string name="GroupUserLeftError">抱歉，该用户已决定离开此群组，您无法邀请该用户回来。</string>
+  <string name="GroupUserLeftError">抱歉，该用户已决定退出此群组，您无法邀请该用户回来。</string>
   <string name="GroupUserCantAdmin">对不起，管理员人数过多。</string>
   <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
   <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
@@ -198,8 +197,8 @@
   <string name="ChannelLinkTitle">链接</string>
   <string name="ChannelInviteLinkTitle">邀请链接</string>
   <string name="ChannelAddMembers">添加关注者</string>
-  <string name="LeaveChannel">离开频道</string>
-  <string name="LeaveChannelMenu">离开频道</string>
+  <string name="LeaveChannel">退出频道</string>
+  <string name="LeaveChannelMenu">退出频道</string>
   <string name="ChannelSettings">设置</string>
   <string name="ChannelJoin">加入</string>
   <string name="ChannelBroadcast">广播</string>
@@ -222,7 +221,7 @@
   <string name="ChannelDelete">删除频道</string>
   <string name="ChannelDeleteMenu">删除频道</string>
   <string name="ChannelDeleteAlert">注意！删除此频道将会清除所有关注者并且所有消息将会丢失。确定要删除此频道？</string>
-  <string name="ChannelLeaveAlert">您确定要离开此频道吗？</string>
+  <string name="ChannelLeaveAlert">您确定要退出此频道吗？</string>
   <string name="ChannelDeleteInfo">您将会丢失此频道的所有消息。</string>
   <string name="ChannelEdit">编辑</string>
   <string name="MegaWasPrivateAlert">请注意：如果您选择给您的群组创建一个公开链接，任何人都能够通过搜索找到它并加入。\n\n如果您想保持该群组的私有性，请不要创建此链接。</string>
@@ -251,7 +250,7 @@
   <string name="ChannelCantOpenBanned">很抱歉，您已被禁止在公开群组中发言。</string>
   <string name="ChannelCantOpenNa">抱歉，该会话已无法访问。</string>
   <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
-  <string name="ChannelUserLeftError">抱歉，该用户已决定离开此频道，您无法邀请该用户回来。</string>
+  <string name="ChannelUserLeftError">抱歉，该用户已决定退出此频道，您无法邀请该用户回来。</string>
   <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
   <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
   <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
@@ -359,7 +358,7 @@
   <string name="EncryptedDescription3">支持阅后即焚</string>
   <string name="EncryptedDescription4">不允许转发消息</string>
   <string name="YouWereKicked">您已经被移出此群组</string>
-  <string name="YouLeft">您已经离开此群组</string>
+  <string name="YouLeft">您已经退出此群组</string>
   <string name="DeleteThisGroup">删除此群组</string>
   <string name="DeleteThisChat">删除此对话</string>
   <string name="SlideToCancel">滑动以取消</string>
@@ -381,7 +380,7 @@
   <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
   <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的电话号码) 到通过机器人打开的网页？</string>
   <string name="ReportSpam">举报垃圾信息</string>
-  <string name="ReportSpamAndLeave">举报垃圾信息并离开</string>
+  <string name="ReportSpamAndLeave">举报垃圾信息并退出</string>
   <string name="AddContactChat">添加联系人</string>
   <string name="ReportSpamAlert">您确定要举报此用户发送了垃圾信息？</string>
   <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
@@ -467,7 +466,7 @@
   <string name="NotificationGroupAddSelfMega">%1$s 加入了群组 %2$s</string>
   <string name="NotificationGroupKickMember">%1$s 已将 %3$s 从 %2$s 群组移出</string>
   <string name="NotificationGroupKickYou">%1$s 将您移出了 %2$s 群组</string>
-  <string name="NotificationGroupLeftMember">%1$s 已离开 %2$s 群组</string>
+  <string name="NotificationGroupLeftMember">%1$s 已退出 %2$s 群组</string>
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
   <string name="NotificationUnrecognizedDevice">%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动会话」中将该会话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队</string>
   <string name="NotificationContactNewPhoto">%1$s 更新了头像</string>
@@ -551,7 +550,7 @@
   <string name="SETTINGS">设置</string>
   <string name="AddMember">添加成员</string>
   <string name="SetAdmins">设置管理员</string>
-  <string name="DeleteAndExit">删除记录并离开群组</string>
+  <string name="DeleteAndExit">删除并退出群组</string>
   <string name="Notifications">通知</string>
   <string name="KickFromGroup">从群组中移除</string>
   <string name="UpgradeGroup">升级到大型群组</string>
@@ -1090,14 +1089,14 @@
   <string name="ActionInviteYou">您通过邀请链接加入了此群组。</string>
   <string name="ActionInviteUser">un1 通过邀请链接加入了此群组。</string>
   <string name="ActionKickUser">un1 移出了 un2</string>
-  <string name="ActionLeftUser">un1 离开了群组</string>
+  <string name="ActionLeftUser">un1 退出了群组</string>
   <string name="ActionAddUser">un1 添加了 un2</string>
   <string name="ActionRemovedPhoto">un1 删除了群组图片</string>
   <string name="ActionChangedPhoto">un1 更换了群组图片</string>
   <string name="ActionChangedTitle">un1 将群组名称更改为 un2</string>
   <string name="ActionCreateGroup">un1 创建了该群组</string>
   <string name="ActionYouKickUser">您已将 un2 移除</string>
-  <string name="ActionYouLeftUser">您离开了该群组</string>
+  <string name="ActionYouLeftUser">您退出了该群组</string>
   <string name="ActionYouAddUser">您添加了 un2</string>
   <string name="ActionYouScored">你获得 %1$s 分</string>
   <string name="ActionUserScored">un1 获得 %1$s 分</string>
@@ -1151,7 +1150,7 @@
   <string name="SendContactTo">发送联系人信息给 %1$s ？</string>
   <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天数据。</string>
   <string name="AreYouSureSessions">您确定要注销所有其它设备上的会话吗？</string>
-  <string name="AreYouSureDeleteAndExit">您确定要删除并离开此群组吗？</string>
+  <string name="AreYouSureDeleteAndExit">您确定要删除并退出此群组吗？</string>
   <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
   <string name="ShareYouLocationTitle">是否分享您的位置信息？</string>
   <string name="ShareYouLocationInfo">此操作会把您的当前位置信息发送给机器人。</string>
@@ -1267,6 +1266,12 @@
   <string name="CallAgain">再次呼叫</string>
   <string name="DefaultRingtone">默认</string>
   <string name="ConfirmDeleteCallLog">您确定要删除这条通话记录吗？</string>
+  <string name="CallViaTelegram">Telegram Call</string>
+  <string name="VoipAudioRoutingEarpiece">听筒</string>
+  <string name="VoipAudioRoutingSpeaker">扬声器</string>
+  <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
+  <string name="ReturnToCall">返回通话</string>
+  <string name="CallNotAvailable">抱歉，%1$s 不接受呼叫。</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
