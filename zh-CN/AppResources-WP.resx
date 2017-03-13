@@ -3055,7 +3055,7 @@ from multiple devices.</value>
     <value>Video</value>
   </data>
   <data name="PhoneNumber" xml:space="preserve">
-    <value>Phone number</value>
+    <value>电话号码</value>
   </data>
   <data name="SetPhoto" xml:space="preserve">
     <value>Set Photo</value>

@@ -64,7 +64,7 @@
   <string name="PaymentCardTitle">银行卡</string>
   <string name="PaymentCardNumber">银行卡号</string>
   <string name="PaymentCardCvv">安全码 (CVV)</string>
-  <string name="PaymentCardExpireDate">MM/YY</string>
+  <string name="PaymentCardExpireDate">月/年</string>
   <string name="PaymentBillingAddress">账单地址</string>
   <string name="PaymentCardNameTitle">持卡人</string>
   <string name="PaymentCardName">姓名</string>
@@ -638,7 +638,7 @@
   <!--theme view-->
   <string name="Theme">主题</string>
   <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
-  <string name="IncorrectTheme">无效的主题文件</string>
+  <string name="IncorrectTheme">错误的主题文件</string>
   <string name="EnterThemeName">输入主题名称</string>
   <string name="CloseEditor">关闭编辑器</string>
   <string name="SaveTheme">保存主题</string>
@@ -741,7 +741,7 @@
   <string name="AutoplayGifs">自动播放GIF</string>
   <string name="RaiseToSpeak">贴耳语音</string>
   <string name="SaveToGallerySettings">保存到相册</string>
-  <string name="EditName">编辑姓名</string>
+  <string name="EditName">编辑名称</string>
   <string name="NotificationsCustomize">自定义</string>
   <string name="NotificationsCustom">自定义</string>
   <string name="NotificationsEnableCustom">启用自定义通知</string>
@@ -1175,7 +1175,7 @@
   <string name="SendContactToGroup">发送联系人到 %1$s ？</string>
   <string name="ForwardMessagesToGroup">转发消息到 %1$s ？</string>
   <string name="FeatureUnavailable">抱歉，此功能在您的国家暂时不可用</string>
-  <string name="NoUsernameFound">该 Telegram 用户不存在。</string>
+  <string name="NoUsernameFound">没有 Telegram 帐户使用此用户名。</string>
   <string name="BotCantJoinGroups">此机器人无法加入群组。</string>
   <string name="SecretLinkPreviewAlert">您要启用加密对话中的链接预览功能吗？注意，所有的链接预览均在 Telegram 的服务器上生成。</string>
   <string name="SecretChatContextBotAlert">请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
@@ -1240,7 +1240,7 @@
   <string name="WhoCanCallMeInfo">你可以限制能够给你打电话的人。</string>
   <string name="CustomCallInfo">根据上面的设置，这些用户将能够或不能呼叫您。</string>
   <string name="UseLessDataNever">从不</string>
-  <string name="UseLessDataOnMobile">仅用于移动数据</string>
+  <string name="UseLessDataOnMobile">仅在使用移动数据时</string>
   <string name="UseLessDataAlways">总是</string>
   <string name="VoipAnswerCall">接听</string>
   <string name="VoipDeclineCall">拒接</string>
@@ -1251,7 +1251,7 @@
   <string name="VoipOfflineOpenSettings">设置</string>
   <string name="CallMessageOutgoing">外拨电话</string>
   <string name="CallMessageIncoming">来电</string>
-  <string name="CallMessageIncomingMissed">未接来电</string>
+  <string name="CallMessageIncomingMissed">未接电话</string>
   <string name="CallMessageOutgoingMissed">拒接来电</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话加密密钥的可视化图片。<![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，那么端对端加密就是有保证的。</string>
