@@ -583,6 +583,7 @@
   <string name="ShortMessageLifetimeForever">Off</string>
   <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>If they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.<![CDATA[<br><br>]]>Learn more at telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">Tap to emojify</string>
   <string name="NumberUnknown">Unknown</string>
   <string name="Info">Info</string>
   <string name="Phone">Phone</string>
@@ -1250,6 +1251,7 @@
   <string name="CallMessageIncoming">Incoming Call</string>
   <string name="CallMessageIncomingMissed">Missed Call</string>
   <string name="CallMessageOutgoingMissed">Cancelled Call</string>
+  <string name="CallMessageIncomingDeclined">Declined Call</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">This image and text were derived from the encryption key for this call with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>If they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.</string>
   <string name="NoCallLog">You didn\'t make any calls yet.</string>
@@ -1268,7 +1270,7 @@
   <string name="VoipAudioRoutingSpeaker">Speaker</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">RETURN TO CALL</string>
-  <string name="CallNotAvailable">Sorry, %1$s doesn\'t accept calls.</string>
+  <string name="CallNotAvailable">Sorry, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> doesn\'t accept calls.</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>

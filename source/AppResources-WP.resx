@@ -472,7 +472,7 @@
     <value>Add member</value>
   </data>
   <data name="DeleteAndExitGroup" xml:space="preserve">
-    <value>Delete and exit group</value>
+    <value>Delete and Exit Group</value>
   </data>
   <data name="MessageActionUserLeftGroup" xml:space="preserve">
     <value>{0} left the group</value>
@@ -1006,10 +1006,10 @@ If you have questions, contact our </value>
     <value>{0} joined your secret chat</value>
   </data>
   <data name="AddContact" xml:space="preserve">
-    <value>Add contact</value>
+    <value>Add</value>
   </data>
   <data name="DeleteContact" xml:space="preserve">
-    <value>Delete contact</value>
+    <value>Delete</value>
   </data>
   <data name="ConfirmDeleteContact" xml:space="preserve">
     <value>Delete contact?</value>
@@ -1030,7 +1030,7 @@ If you have questions, contact our </value>
     <value>Pin to Start</value>
   </data>
   <data name="TerminateAllSessions" xml:space="preserve">
-    <value>Terminate all other sessions</value>
+    <value>Terminate All Other Sessions</value>
   </data>
   <data name="TerminateAllSessionsConfirmation" xml:space="preserve">
     <value>Are you sure you want to terminate all other sessions?</value>
@@ -1194,7 +1194,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>If you&apos;re away for</value>
   </data>
   <data name="LastSeenDescription" xml:space="preserve">
-    <value>Change who can see your Last Seen time</value>
+    <value>Who can see your Last Seen time?</value>
   </data>
   <data name="LastSeenImportantNote" xml:space="preserve">
     <value>Important: you won&apos;t be able to see Last Seen times for people with whom you don&apos;t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</value>
@@ -1657,10 +1657,10 @@ If you forget your password, you will be lose access to your Telegram account. T
     <value>Your password</value>
   </data>
   <data name="CurrentSession" xml:space="preserve">
-    <value>Current session</value>
+    <value>Current Session</value>
   </data>
   <data name="OtherSessions" xml:space="preserve">
-    <value>Other sessions</value>
+    <value>Other Sessions</value>
   </data>
   <data name="OfficialApp" xml:space="preserve">
     <value>Official app</value>
@@ -1922,7 +1922,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>This bot can&apos;t join groups.</value>
   </data>
   <data name="AddToGroup" xml:space="preserve">
-    <value>Add to group</value>
+    <value>Add to Group</value>
   </data>
   <data name="BlockContactConfirmation" xml:space="preserve">
     <value>Are you sure you want to block this contact?</value>
@@ -1961,7 +1961,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>Restart bot</value>
   </data>
   <data name="StopBot" xml:space="preserve">
-    <value>Stop bot</value>
+    <value>Stop</value>
   </data>
   <data name="ClearSearchHistoryConfirmation" xml:space="preserve">
     <value>Clear search history?</value>
@@ -2199,10 +2199,10 @@ Do not create this link if you want your channel to stay private.</value>
     <value>Group members can add and remove members, edit name and photo of the group</value>
   </data>
   <data name="SetAdmins" xml:space="preserve">
-    <value>Set admins</value>
+    <value>Set Admins</value>
   </data>
   <data name="UpgradeToSupergroup" xml:space="preserve">
-    <value>Upgrade to supergroup</value>
+    <value>Upgrade to Supergroup</value>
   </data>
   <data name="UpgradeToSupergroupConfirmation" xml:space="preserve">
     <value>Please note that group members will need to update their Telegram apps to the latest version to see your supergroup. Are you sure you want to upgrade this group?</value>
@@ -2515,7 +2515,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Do you want to unpin this message?</value>
   </data>
   <data name="ConvertToSupergroup" xml:space="preserve">
-    <value>Convert to supergroup</value>
+    <value>Convert to Supergroup</value>
   </data>
   <data name="ConvertToSupergroupNote" xml:space="preserve">
     <value>**Note**: this action can&apos;t be undone.</value>
@@ -3130,5 +3130,17 @@ The group **&quot;{1}&quot;** will become private.</value>
   </data>
   <data name="OutgoingCall" xml:space="preserve">
     <value>Outgoing call</value>
+  </data>
+  <data name="DeleteMessageForEveryoneInChannelHint" xml:space="preserve">
+    <value>This will delete it for everyone in this channel.</value>
+  </data>
+  <data name="DeleteMessageForEveryoneInChatHint" xml:space="preserve">
+    <value>This will delete it for everyone in this chat.</value>
+  </data>
+  <data name="DeleteMessagesForEveryoneInChannelHint" xml:space="preserve">
+    <value>This will delete them for everyone in this channel.</value>
+  </data>
+  <data name="DeleteMessagesForEveryoneInChatHint" xml:space="preserve">
+    <value>This will delete them for everyone in this chat.</value>
   </data>
 </root>
