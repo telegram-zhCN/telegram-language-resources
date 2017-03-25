@@ -174,7 +174,7 @@
   <string name="ActionPinnedMusic">un1 置顶了 1 首音乐</string>
   <string name="ActionMigrateFromGroup">此群组已升级为超级群组</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 已升级为超级群组</string>
-  <string name="NoBlockedGroup">被加入黑名单的用户将会从群组中移除，并且不能使用邀请链接返回群组，只有被管理员邀请才能再次加入。</string>
+  <string name="NoBlockedGroup">被屏蔽的用户将会从群组中移除，并且只有被管理员邀请才能再次加入。他们将不能使用邀请链接再次加入。</string>
   <string name="NewChannel">新建频道</string>
   <string name="EnterChannelName">频道名称</string>
   <string name="AddMutual">添加联系人到您的频道</string>
@@ -585,6 +585,7 @@
   <string name="ShortMessageLifetimeForever">关闭</string>
   <string name="EncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 私密会话加密密钥的可视化图片。 <![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，您和对方的会话就应是安全的。 <![CDATA[<br><br>]]>更多详情请前往 telegram.org 的 FAQ</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">点按以 emoji 化</string>
   <string name="NumberUnknown">未知</string>
   <string name="Info">个人信息</string>
   <string name="Phone">手机号码</string>
@@ -655,8 +656,8 @@
   <string name="AskAQuestion">向我们提问</string>
   <string name="EnableAnimations">开启动画效果</string>
   <string name="Unblock">取消屏蔽</string>
-  <string name="UnblockText">长按用户取消屏蔽</string>
-  <string name="NoBlocked">当前没有被屏蔽的用户</string>
+  <string name="UnblockText">长按用户以取消屏蔽</string>
+  <string name="NoBlocked">当前没有已屏蔽的用户</string>
   <string name="MessageNotifications">消息通知</string>
   <string name="Alert">提示</string>
   <string name="MessagePreview">消息预览</string>
@@ -692,7 +693,7 @@
   <string name="NotificationsOff">关闭</string>
   <string name="NotificationsTurnOn">启用</string>
   <string name="NotificationsTurnOff">禁用</string>
-  <string name="BlockedUsers">被屏蔽的用户</string>
+  <string name="BlockedUsers">已屏蔽的用户</string>
   <string name="LogOut">注销</string>
   <string name="NoSound">无声</string>
   <string name="Default">默认</string>
@@ -753,7 +754,7 @@
   <string name="NotificationsPriorityMax">最高</string>
   <string name="RepeatNotificationsNever">从不</string>
   <string name="RepeatNotifications">重复通知</string>
-  <string name="PhoneNumberHelp">您可以在此更改您的注册号码。您的帐户和您所有在云端的数据，如信息、媒体文件、联系人等都将会转移到新的注册号码中。\n\n<![CDATA[<b>重要：</b>]]>所有已经保存了您的号码并且您没有将他们屏蔽的人将会添加您的<![CDATA[<b>新号码</b>]]>到他们的通讯录中。</string>
+  <string name="PhoneNumberHelp">您可以在此更改您的注册号码。您的帐户和您所有在云端的数据，如信息、媒体文件、联系人等都将会转移到新的注册号码中。\n\n<![CDATA[<b>注意：</b>]]>所有已经保存了您的号码并且您没有将他们屏蔽的人将会添加您的<![CDATA[<b>新号码</b>]]>到他们的通讯录中。</string>
   <string name="PhoneNumberAlert">所有已经保存了您的号码并且您没有将他们屏蔽的人将会添加您的新号码到他们的通讯录中。</string>
   <string name="PhoneNumberChange">更改手机号码</string>
   <string name="ChangePhoneNewNumber">新手机号码</string>
@@ -1019,7 +1020,7 @@
   <string name="LastSeenHelp">修改谁可以看见您最后上线的时间。</string>
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
   <string name="AddExceptions">添加例外</string>
-  <string name="CustomHelp">重要提示：对于您不愿意暴露最后上线时间的对象，他们最后的上线时间您也将无法看到。取而代之的是大概的上线时间（如：最近、一周内、一个月内）。</string>
+  <string name="CustomHelp">注意：对于您不愿意分享最后上线时间的对象，他们最后的上线时间您将也无法看到。取而代之的是大概的上线时间（最近、一周内、一个月内）。</string>
   <string name="AlwaysShareWith">白名单</string>
   <string name="NeverShareWith">黑名单</string>
   <string name="CustomShareSettingsHelp">这些设定会覆盖上面的全局设定。</string>
@@ -1038,7 +1039,7 @@
   <string name="NeverAllow">从不允许</string>
   <string name="AlwaysAllowPlaceholder">总是允许...</string>
   <string name="NeverAllowPlaceholder">从不允许...</string>
-  <string name="CustomShareInfo">在这里配置的权限将会覆盖全局设置。</string>
+  <string name="CustomShareInfo">根据上面的设置，这些用户将能够或不能将您添加到群组或频道。</string>
   <string name="GroupsAndChannelsHelp">控制将您添加到群组或频道的权限</string>
   <string name="InviteToGroupError">抱歉，根据该用户的隐私设置，您不能将其添加到群组。</string>
   <string name="InviteToChannelError">抱歉，根据该用户的隐私设置，您不能将其添加到频道。</string>
@@ -1162,7 +1163,7 @@
   <string name="AreYouSureShareMyContactInfoUser">您确定要把您的电话号码 %1$s 分享给 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>？</string>
   <string name="AreYouSureShareMyContactInfo">您确定要分享您的电话号码？</string>
   <string name="AreYouSureBlockContact">您确定要屏蔽此联系人吗？</string>
-  <string name="AreYouSureUnblockContact">您确定要取消对此联系人的屏蔽吗？</string>
+  <string name="AreYouSureUnblockContact">您确定要取消屏蔽此联系人吗？</string>
   <string name="AreYouSureDeleteContact">您确定要删除此联系人吗？</string>
   <string name="AreYouSureSecretChat">您确定要开始加密对话吗？</string>
   <string name="AreYouSureRegistration">您确定要取消注册吗？</string>
@@ -1253,6 +1254,7 @@
   <string name="CallMessageIncoming">来电</string>
   <string name="CallMessageIncomingMissed">未接电话</string>
   <string name="CallMessageOutgoingMissed">拒接来电</string>
+  <string name="CallMessageIncomingDeclined">拒接电话</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话加密密钥的可视化图片。<![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，那么端对端加密就是有保证的。</string>
   <string name="NoCallLog">您还没有拨打任何电话。</string>
@@ -1271,7 +1273,7 @@
   <string name="VoipAudioRoutingSpeaker">扬声器</string>
   <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
   <string name="ReturnToCall">返回通话</string>
-  <string name="CallNotAvailable">抱歉，%1$s 不接受呼叫。</string>
+  <string name="CallNotAvailable">对不起，<![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 不接受呼叫。</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>

@@ -472,7 +472,7 @@
     <value>添加成员</value>
   </data>
   <data name="DeleteAndExitGroup" xml:space="preserve">
-    <value>删除并退出讨论组</value>
+    <value>Delete and Exit Group</value>
   </data>
   <data name="MessageActionUserLeftGroup" xml:space="preserve">
     <value>{0}离开了讨论组</value>
@@ -1005,10 +1005,10 @@ from multiple devices.</value>
     <value>{0} 加入了您的私密对话</value>
   </data>
   <data name="AddContact" xml:space="preserve">
-    <value>添加联系人</value>
+    <value>Add</value>
   </data>
   <data name="DeleteContact" xml:space="preserve">
-    <value>删除联系人</value>
+    <value>Delete</value>
   </data>
   <data name="ConfirmDeleteContact" xml:space="preserve">
     <value>确认删除该联系人？</value>
@@ -1029,7 +1029,7 @@ from multiple devices.</value>
     <value>Pin to Start</value>
   </data>
   <data name="TerminateAllSessions" xml:space="preserve">
-    <value>终止所有其他会话</value>
+    <value>Terminate All Other Sessions</value>
   </data>
   <data name="TerminateAllSessionsConfirmation" xml:space="preserve">
     <value>您确定要终止所有其他的登录会话吗？</value>
@@ -1193,7 +1193,7 @@ from multiple devices.</value>
     <value>如果你消失了</value>
   </data>
   <data name="LastSeenDescription" xml:space="preserve">
-    <value>控制谁可以看到你最近在线的时间</value>
+    <value>Who can see your Last Seen time?</value>
   </data>
   <data name="LastSeenImportantNote" xml:space="preserve">
     <value>注意：如果对方没有和你分享他们的最近在线时间，则你只能看到大致的时间段，如最近，一周内，一个月内等。</value>
@@ -1656,10 +1656,10 @@ from multiple devices.</value>
     <value>您的密码</value>
   </data>
   <data name="CurrentSession" xml:space="preserve">
-    <value>当前会话</value>
+    <value>Current Session</value>
   </data>
   <data name="OtherSessions" xml:space="preserve">
-    <value>其他会话</value>
+    <value>Other Sessions</value>
   </data>
   <data name="OfficialApp" xml:space="preserve">
     <value>官方应用</value>
@@ -1919,7 +1919,7 @@ from multiple devices.</value>
     <value>这个机器人不能加入群组。</value>
   </data>
   <data name="AddToGroup" xml:space="preserve">
-    <value>添加到讨论组</value>
+    <value>Add to Group</value>
   </data>
   <data name="BlockContactConfirmation" xml:space="preserve">
     <value>您确定要屏蔽这个联系人吗？</value>
@@ -1958,7 +1958,7 @@ from multiple devices.</value>
     <value>重新启用</value>
   </data>
   <data name="StopBot" xml:space="preserve">
-    <value>停止使用</value>
+    <value>Stop</value>
   </data>
   <data name="ClearSearchHistoryConfirmation" xml:space="preserve">
     <value>是否清空搜索历史？</value>
@@ -2196,10 +2196,10 @@ from multiple devices.</value>
     <value>所有成员可以添加新成员、编辑群组名称及图片</value>
   </data>
   <data name="SetAdmins" xml:space="preserve">
-    <value>设置管理员</value>
+    <value>Set Admins</value>
   </data>
   <data name="UpgradeToSupergroup" xml:space="preserve">
-    <value>升级到大型群组</value>
+    <value>Upgrade to Supergroup</value>
   </data>
   <data name="UpgradeToSupergroupConfirmation" xml:space="preserve">
     <value>请注意，群组成员需要将他们的 Telegram 客户端升级到最新版才能看到大型群组。您确定要升级到大型群组吗？</value>
@@ -2512,7 +2512,7 @@ from multiple devices.</value>
     <value>您确定要取消置顶？</value>
   </data>
   <data name="ConvertToSupergroup" xml:space="preserve">
-    <value>升级为超级群组</value>
+    <value>Convert to Supergroup</value>
   </data>
   <data name="ConvertToSupergroupNote" xml:space="preserve">
     <value>**注意**：此操作不可撤销。</value>
@@ -3128,5 +3128,17 @@ from multiple devices.</value>
   </data>
   <data name="OutgoingCall" xml:space="preserve">
     <value>Outgoing call</value>
+  </data>
+  <data name="DeleteMessageForEveryoneInChannelHint" xml:space="preserve">
+    <value>This will delete it for everyone in this channel.</value>
+  </data>
+  <data name="DeleteMessageForEveryoneInChatHint" xml:space="preserve">
+    <value>This will delete it for everyone in this chat.</value>
+  </data>
+  <data name="DeleteMessagesForEveryoneInChannelHint" xml:space="preserve">
+    <value>This will delete them for everyone in this channel.</value>
+  </data>
+  <data name="DeleteMessagesForEveryoneInChatHint" xml:space="preserve">
+    <value>This will delete them for everyone in this chat.</value>
   </data>
 </root>

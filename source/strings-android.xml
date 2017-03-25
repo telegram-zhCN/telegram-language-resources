@@ -1271,6 +1271,7 @@
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">RETURN TO CALL</string>
   <string name="CallNotAvailable">Sorry, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> doesn\'t accept calls.</string>
+  <string name="CallEmojiKeyTooltip">If emoji on %1$s\'s screen are the same, this call is 100%% secure.</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>
