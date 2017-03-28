@@ -15,6 +15,8 @@ curl -b $cookie https://www.transifex.com/telegram/iphone-1/localizablestrings/e
 #macOS
 echo "macOS"
 curl -b $cookie https://www.transifex.com/telegram/osx/swiftapplocalizablestrings/en/download/for_use/ -o $dir/Localizable-macOS.strings --progress
+echo "macOS MainMenu"
+curl -b $cookie https://www.transifex.com/telegram/osx/swiftappmainmenustrings/en/download/for_use/ -o $dir/Localizable-MainMenu-macOS.strings --progress
 #Webogram
 echo "Webogram"
 curl -b $cookie https://www.transifex.com/telegram/telegram-web/en-usjson/en/download/for_use/ -o $dir/strings-web.json --progress
