@@ -1175,13 +1175,13 @@ from multiple devices.</value>
     <value>添加例外</value>
   </data>
   <data name="AlwaysShare" xml:space="preserve">
-    <value>Always Share</value>
+    <value>总是共享</value>
   </data>
   <data name="AlwaysShareWirhUsers" xml:space="preserve">
     <value>总是与某些用户共享……</value>
   </data>
   <data name="AlwaysShareWith" xml:space="preserve">
-    <value>Always Share With</value>
+    <value>总是共享给</value>
   </data>
   <data name="CodecWasNotFound" xml:space="preserve">
     <value>解码器未找到</value>
@@ -1214,7 +1214,7 @@ from multiple devices.</value>
     <value>My Contacts</value>
   </data>
   <data name="NeverShare" xml:space="preserve">
-    <value>Never Share</value>
+    <value>从不共享</value>
   </data>
   <data name="NeverShareWith" xml:space="preserve">
     <value>从不共享给</value>

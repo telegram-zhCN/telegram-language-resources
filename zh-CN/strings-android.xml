@@ -1019,12 +1019,12 @@
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
   <string name="AddExceptions">添加例外</string>
   <string name="CustomHelp">注意：对于您不愿意分享最后上线时间的对象，他们最后的上线时间您将也无法看到。取而代之的是大概的上线时间（最近、一周内、一个月内）。</string>
-  <string name="AlwaysShareWith">白名单</string>
+  <string name="AlwaysShareWith">总是共享给</string>
   <string name="NeverShareWith">从不共享给</string>
   <string name="CustomShareSettingsHelp">这些设置会覆盖上面的全局设置。</string>
-  <string name="AlwaysShareWithTitle">白名单</string>
+  <string name="AlwaysShareWithTitle">总是共享</string>
   <string name="AlwaysShareWithPlaceholder">选择可以看见您上线时间的用户...</string>
-  <string name="NeverShareWithTitle">黑名单</string>
+  <string name="NeverShareWithTitle">从不共享</string>
   <string name="NeverShareWithPlaceholder">选择无法看见您上线时间的用户...</string>
   <string name="EmpryUsersPlaceholder">添加用户</string>
   <string name="PrivacyFloodControlError">抱歉，请求过于频繁。现在暂时无法修改隐私设置，请稍后再试。</string>
