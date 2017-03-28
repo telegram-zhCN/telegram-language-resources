@@ -1217,7 +1217,7 @@ from multiple devices.</value>
     <value>Never Share</value>
   </data>
   <data name="NeverShareWith" xml:space="preserve">
-    <value>Never Share With</value>
+    <value>从不共享给</value>
   </data>
   <data name="NeverShareWithUsers" xml:space="preserve">
     <value>从不与某些用户共享</value>

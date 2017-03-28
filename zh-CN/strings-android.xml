@@ -12,7 +12,7 @@
   <string name="WrongCountry">国家代码错误</string>
   <!--code enter view-->
   <string name="YourCode">手机验证</string>
-  <string name="SentSmsCode">我们已向您的手机 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 发送了一条验证码短信。</string>
+  <string name="SentSmsCode">我们已经向您的手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 发送了一条带有激活验证码的短信。</string>
   <string name="SentAppCode">我们已向您其他设备上的 <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> 应用发送了一条验证码消息。</string>
   <string name="SentCallCode">我们已呼叫您的手机 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 。请不要接听，Telegram 将会自动解决接下来的问题。</string>
   <string name="SentCallOnly">我们正在呼叫您的手机 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 并播报验证码。</string>
@@ -23,9 +23,7 @@
   <string name="WrongNumber">号码错误？</string>
   <string name="DidNotGetTheCode">未收到验证码？</string>
   <string name="CancelAccountReset">撤销账号重置请求</string>
-  <string name="CancelAccountResetInfo">有人通过输入您的手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 尝试请求删除您的 Telegram 账号数据并且重置你的两步验证密码。
-
-如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。</string>
+  <string name="CancelAccountResetInfo">有人通过输入您的手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 尝试请求删除您的 Telegram 账号数据并且重置你的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。</string>
   <string name="ResetAccount">重置帐号</string>
   <string name="ResetAccountInfo">因为账号 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n你可以随时取消此过程。</string>
   <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
@@ -758,8 +756,8 @@
   <string name="PhoneNumberAlert">所有已经保存了您的号码并且您没有将他们屏蔽的人将会添加您的新号码到他们的通讯录中。</string>
   <string name="PhoneNumberChange">更改手机号码</string>
   <string name="ChangePhoneNewNumber">新手机号码</string>
-  <string name="ChangePhoneHelp">我们将会发送一条验证短信到您的新号码上。</string>
-  <string name="ChangePhoneNumberOccupied">您所输入的号码 %1$s 已经注册了 Telegram。请首先删除新号码对应的帐号，再进行迁移。</string>
+  <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
+  <string name="ChangePhoneNumberOccupied">手机号码 %1$s 已经和一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。</string>
   <string name="NotificationsOther">其他</string>
   <string name="NotificationsDisabled">禁用</string>
   <string name="VibrationDisabled">禁用</string>
@@ -1015,15 +1013,15 @@
   <string name="SecurityTitle">安全</string>
   <string name="DeleteAccountTitle">自动删除帐号</string>
   <string name="DeleteAccountIfAwayFor">离线时间</string>
-  <string name="DeleteAccountHelp">如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除 。</string>
+  <string name="DeleteAccountHelp">如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除。</string>
   <string name="DeleteAccountNowConfirmation">要删除您的帐号吗？</string>
   <string name="LastSeenHelp">修改谁可以看见您最后上线的时间。</string>
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
   <string name="AddExceptions">添加例外</string>
   <string name="CustomHelp">注意：对于您不愿意分享最后上线时间的对象，他们最后的上线时间您将也无法看到。取而代之的是大概的上线时间（最近、一周内、一个月内）。</string>
   <string name="AlwaysShareWith">白名单</string>
-  <string name="NeverShareWith">黑名单</string>
-  <string name="CustomShareSettingsHelp">这些设定会覆盖上面的全局设定。</string>
+  <string name="NeverShareWith">从不共享给</string>
+  <string name="CustomShareSettingsHelp">这些设置会覆盖上面的全局设置。</string>
   <string name="AlwaysShareWithTitle">白名单</string>
   <string name="AlwaysShareWithPlaceholder">选择可以看见您上线时间的用户...</string>
   <string name="NeverShareWithTitle">黑名单</string>
@@ -1217,7 +1215,7 @@
   <string name="StartMessaging">开始聊天</string>
   <!--VoIP-->
   <string name="AccountSettings">帐户设置</string>
-  <string name="VoipUseLessData">通话中节省数据流量</string>
+  <string name="VoipUseLessData">节省通话时的数据流量</string>
   <string name="VoipIncoming">来电</string>
   <string name="VoipConnecting">正在连接</string>
   <string name="VoipExchangingKeys">正在交换密钥</string>
@@ -1238,23 +1236,23 @@
   <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
   <string name="Calls">通话</string>
   <string name="WhoCanCallMe">谁可以给我打电话？</string>
-  <string name="WhoCanCallMeInfo">你可以限制能够给你打电话的人。</string>
+  <string name="WhoCanCallMeInfo">您可以限制能够给您打电话的人。</string>
   <string name="CustomCallInfo">根据上面的设置，这些用户将能够或不能呼叫您。</string>
   <string name="UseLessDataNever">从不</string>
   <string name="UseLessDataOnMobile">仅在使用移动数据时</string>
   <string name="UseLessDataAlways">总是</string>
   <string name="VoipAnswerCall">接听</string>
   <string name="VoipDeclineCall">拒接</string>
-  <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行呼叫。</string>
-  <string name="VoipOfflineAirplane">您现在正出于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行呼叫。</string>
+  <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行通话。</string>
+  <string name="VoipOfflineAirplane">您现在正出于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行通话。</string>
   <string name="VoipOfflineTitle">离线</string>
   <string name="VoipOfflineAirplaneTitle">飞行模式</string>
   <string name="VoipOfflineOpenSettings">设置</string>
   <string name="CallMessageOutgoing">外拨电话</string>
   <string name="CallMessageIncoming">来电</string>
   <string name="CallMessageIncomingMissed">未接电话</string>
-  <string name="CallMessageOutgoingMissed">拒接来电</string>
-  <string name="CallMessageIncomingDeclined">拒接电话</string>
+  <string name="CallMessageOutgoingMissed">取消的通话</string>
+  <string name="CallMessageIncomingDeclined">拒接来电</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话加密密钥的可视化图片。<![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，那么端对端加密就是有保证的。</string>
   <string name="NoCallLog">您还没有拨打任何电话。</string>
@@ -1263,7 +1261,7 @@
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
   <string name="VoipFeedbackAlert">您愿意留下任何反馈以帮助我们改进通话服务吗？</string>
   <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风来拨打电话。</string>
-  <string name="VoipFeedbackCommentHint">添加可选注释</string>
+  <string name="VoipFeedbackCommentHint">添加可选评价</string>
   <string name="CallBack">回拨</string>
   <string name="CallAgain">再次呼叫</string>
   <string name="DefaultRingtone">默认</string>
@@ -1273,7 +1271,8 @@
   <string name="VoipAudioRoutingSpeaker">扬声器</string>
   <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
   <string name="ReturnToCall">返回通话</string>
-  <string name="CallNotAvailable">对不起，<![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 不接受呼叫。</string>
+  <string name="CallNotAvailable">抱歉，<![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 不接受呼叫。</string>
+  <string name="CallEmojiKeyTooltip">如果 %1$s 屏幕上的 emoji 和此处的相同，此通话就是 100%% 安全的。</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
