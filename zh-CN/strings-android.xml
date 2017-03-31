@@ -1251,8 +1251,8 @@
   <string name="CallMessageOutgoing">外拨电话</string>
   <string name="CallMessageIncoming">来电</string>
   <string name="CallMessageIncomingMissed">未接电话</string>
-  <string name="CallMessageOutgoingMissed">取消的通话</string>
-  <string name="CallMessageIncomingDeclined">拒接来电</string>
+  <string name="CallMessageOutgoingMissed">取消的电话</string>
+  <string name="CallMessageIncomingDeclined">拒接电话</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话加密密钥的可视化图片。<![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，那么端对端加密就是有保证的。</string>
   <string name="NoCallLog">您还没有拨打任何电话。</string>
