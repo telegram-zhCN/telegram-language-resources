@@ -124,7 +124,7 @@
     <value>屏蔽</value>
   </data>
   <data name="BlockedUsers" xml:space="preserve">
-    <value>Blacklist</value>
+    <value>黑名单</value>
   </data>
   <data name="Call" xml:space="preserve">
     <value>呼叫</value>
@@ -166,7 +166,7 @@
     <value>发送失败</value>
   </data>
   <data name="SendMessage" xml:space="preserve">
-    <value>Send Message</value>
+    <value>发送消息</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>设置</value>
@@ -325,10 +325,10 @@
     <value>添加</value>
   </data>
   <data name="NewGroup" xml:space="preserve">
-    <value>New Group</value>
+    <value>新建群组</value>
   </data>
   <data name="NewSecretChat" xml:space="preserve">
-    <value>New Secret Chat</value>
+    <value>新建加密对话</value>
   </data>
   <data name="TileUpdaterTaskDescription" xml:space="preserve">
     <value>定时更新动态磁贴上未读消息数的任务。</value>
@@ -337,10 +337,10 @@
     <value>Media</value>
   </data>
   <data name="Profile" xml:space="preserve">
-    <value>Info</value>
+    <value>信息</value>
   </data>
   <data name="Notifications" xml:space="preserve">
-    <value>Notifications</value>
+    <value>通知</value>
   </data>
   <data name="On" xml:space="preserve">
     <value>开</value>
@@ -352,7 +352,7 @@
     <value>声音</value>
   </data>
   <data name="CreateSecretChat" xml:space="preserve">
-    <value>Start Secret Chat</value>
+    <value>开始加密对话</value>
   </data>
   <data name="MessageNotifications" xml:space="preserve">
     <value>新消息通知</value>
@@ -1008,7 +1008,7 @@ from multiple devices.</value>
     <value>Add</value>
   </data>
   <data name="DeleteContact" xml:space="preserve">
-    <value>Delete</value>
+    <value>删除</value>
   </data>
   <data name="ConfirmDeleteContact" xml:space="preserve">
     <value>确认删除该联系人？</value>
@@ -1092,7 +1092,7 @@ from multiple devices.</value>
     <value>连接中</value>
   </data>
   <data name="SetProfilePhoto" xml:space="preserve">
-    <value>Set Profile Photo</value>
+    <value>上传头像</value>
   </data>
   <data name="BatterySaverModeAlert" xml:space="preserve">
     <value>您的设备正处于节电模式中，Telegram 不能正常接收消息。请禁用节电模式。</value>
@@ -1226,7 +1226,7 @@ from multiple devices.</value>
     <value>无</value>
   </data>
   <data name="PrivacyAndSecurity" xml:space="preserve">
-    <value>Privacy and Security</value>
+    <value>隐私和安全</value>
   </data>
   <data name="PrivacySettingsError" xml:space="preserve">
     <value>服务器压力过大，暂时无法更改隐私设置，请稍后再试。</value>
@@ -1241,7 +1241,7 @@ from multiple devices.</value>
     <value>未知错误</value>
   </data>
   <data name="LastSeenShort" xml:space="preserve">
-    <value>Last Seen</value>
+    <value>上次在线</value>
   </data>
   <data name="PrivacySecuritySubtitle" xml:space="preserve">
     <value>Blocked users, last seen, sessions</value>
@@ -1650,7 +1650,7 @@ from multiple devices.</value>
 如果您忘记了密码，您将无法访问您的Telegram帐户。并且没有办法恢复！</value>
   </data>
   <data name="TwoStepVerification" xml:space="preserve">
-    <value>Two-Step Verification</value>
+    <value>两步验证</value>
   </data>
   <data name="YourPassword" xml:space="preserve">
     <value>您的密码</value>
@@ -1665,7 +1665,7 @@ from multiple devices.</value>
     <value>官方应用</value>
   </data>
   <data name="Sessions" xml:space="preserve">
-    <value>Active Sessions</value>
+    <value>所有设备</value>
   </data>
   <data name="TerminateAllOtherSessionsNote" xml:space="preserve">
     <value>登出本会话以外的所有其他设备</value>
@@ -1967,7 +1967,7 @@ from multiple devices.</value>
     <value>最近</value>
   </data>
   <data name="NewChannel" xml:space="preserve">
-    <value>New Channel</value>
+    <value>新建频道</value>
   </data>
   <data name="MessageActionBroadcastCreate" xml:space="preserve">
     <value>{0} 创建了广播 &quot;{1}&quot;</value>
@@ -1976,7 +1976,7 @@ from multiple devices.</value>
     <value>频道已创建</value>
   </data>
   <data name="ReportSpam" xml:space="preserve">
-    <value>Report Spam</value>
+    <value>举报骚扰</value>
   </data>
   <data name="ConversationMarkedAsSpamConfirmation" xml:space="preserve">
     <value>对话已被标记为垃圾对话。是否删除并屏蔽该用户？</value>
@@ -2086,7 +2086,7 @@ from multiple devices.</value>
     <value>静音</value>
   </data>
   <data name="SetChannelPhoto" xml:space="preserve">
-    <value>Set Channel Photo</value>
+    <value>设置频道标志</value>
   </data>
   <data name="Unmute" xml:space="preserve">
     <value>恢复消息通知</value>
@@ -2196,7 +2196,7 @@ from multiple devices.</value>
     <value>所有成员可以添加新成员、编辑群组名称及图片</value>
   </data>
   <data name="SetAdmins" xml:space="preserve">
-    <value>Set Admins</value>
+    <value>设置管理员</value>
   </data>
   <data name="UpgradeToSupergroup" xml:space="preserve">
     <value>Upgrade to Supergroup</value>
@@ -2512,7 +2512,7 @@ from multiple devices.</value>
     <value>您确定要取消置顶？</value>
   </data>
   <data name="ConvertToSupergroup" xml:space="preserve">
-    <value>Convert to Supergroup</value>
+    <value>升级为超级群组</value>
   </data>
   <data name="ConvertToSupergroupNote" xml:space="preserve">
     <value>**注意**：此操作不可撤销。</value>
@@ -2998,37 +2998,37 @@ from multiple devices.</value>
     <value>Files</value>
   </data>
   <data name="FileGenitiveSingular" xml:space="preserve">
-    <value>File</value>
+    <value>文档</value>
   </data>
   <data name="FileNominativePlural" xml:space="preserve">
     <value>Files</value>
   </data>
   <data name="FileNominativeSingular" xml:space="preserve">
-    <value>File</value>
+    <value>文档</value>
   </data>
   <data name="LinkGenitivePlural" xml:space="preserve">
     <value>Links</value>
   </data>
   <data name="LinkGenitiveSingular" xml:space="preserve">
-    <value>Link</value>
+    <value>链接</value>
   </data>
   <data name="LinkNominativePlural" xml:space="preserve">
     <value>Links</value>
   </data>
   <data name="LinkNominativeSingular" xml:space="preserve">
-    <value>Link</value>
+    <value>链接</value>
   </data>
   <data name="PhotoGenitivePlural" xml:space="preserve">
     <value>Photos</value>
   </data>
   <data name="PhotoGenitiveSingular" xml:space="preserve">
-    <value>Photo</value>
+    <value>图片</value>
   </data>
   <data name="PhotoNominativePlural" xml:space="preserve">
     <value>Photos</value>
   </data>
   <data name="PhotoNominativeSingular" xml:space="preserve">
-    <value>Photo</value>
+    <value>图片</value>
   </data>
   <data name="SongGenitivePlural" xml:space="preserve">
     <value>Songs</value>
@@ -3046,13 +3046,13 @@ from multiple devices.</value>
     <value>Videos</value>
   </data>
   <data name="VideoGenitiveSingular" xml:space="preserve">
-    <value>Video</value>
+    <value>视频</value>
   </data>
   <data name="VideoNominativePlural" xml:space="preserve">
     <value>Videos</value>
   </data>
   <data name="VideoNominativeSingular" xml:space="preserve">
-    <value>Video</value>
+    <value>视频</value>
   </data>
   <data name="PhoneNumber" xml:space="preserve">
     <value>电话号码</value>
@@ -3082,10 +3082,10 @@ from multiple devices.</value>
     <value>{0} new sticker pack</value>
   </data>
   <data name="PinDialog" xml:space="preserve">
-    <value>Pin</value>
+    <value>置顶</value>
   </data>
   <data name="UnpinDialog" xml:space="preserve">
-    <value>Unpin</value>
+    <value>取消置顶</value>
   </data>
   <data name="DeleteFor" xml:space="preserve">
     <value>Delete for {0}</value>
