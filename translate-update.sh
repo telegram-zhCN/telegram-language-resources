@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cookie="ajs_group_id=;csrftoken=;sessionid="
+cookie="csrftoken=;sessionid="
 dir=zh-CN
 
 #Desktop
@@ -28,5 +28,6 @@ cd $dir/
 mkdir -p Contents/Resources/zh.lproj
 cp Localizable-macOS.strings Contents/Resources/zh.lproj/Localizable.strings
 cp Localizable-MainMenu-macOS.strings Contents/Resources/zh.lproj/MainMenu.strings
+rm Localizable-macOS.zip
 zip -r9 Localizable-macOS.zip Contents
 rm -rf Contents

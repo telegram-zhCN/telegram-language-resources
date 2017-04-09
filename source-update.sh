@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cookie="ajs_group_id=;csrftoken=;sessionid="
+cookie="csrftoken=;sessionid="
 dir=source
 
 #Desktop
