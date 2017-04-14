@@ -252,7 +252,7 @@
   <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
   <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
   <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
-  <string name="ChannelUserAddLimit">抱歉，您只能将至多200名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
+  <string name="ChannelUserAddLimit">抱歉，您只能将至多 200 名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
   <string name="ChannelAddedBy">un1 将您添加到了此频道</string>
   <string name="ChannelJoined">您加入了这个频道</string>
   <string name="ChannelMegaJoined">您加入了这个群组</string>
@@ -626,9 +626,8 @@
   <string name="ArchivedMasks">已归档装饰</string>
   <string name="ArchivedStickersEmpty">没有已归档的贴纸</string>
   <string name="ArchivedMasksEmpty">暂无已归档装饰</string>
-  <string name="ArchivedStickersInfo">你可以拥有最多200个贴纸包。
-未使用的贴纸将在你添加新贴纸的时候存档。</string>
-  <string name="ArchivedMasksInfo">你最多可以拥有 200 个装饰包。当你添加更多的装饰时，未使用的装饰将会被归档。</string>
+  <string name="ArchivedStickersInfo">您最多能够拥有 200 个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
+  <string name="ArchivedMasksInfo">您最多能够拥有 200 个装饰包。未被使用的装饰包将在您添加新装饰包时被归档。</string>
   <string name="SendSticker">发送贴纸</string>
   <string name="ArchivedStickersAlertTitle">已归档贴纸</string>
   <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被归档。你可以在设置里重新激活它们。</string>
@@ -737,7 +736,7 @@
   <string name="WhenConnectedOnWiFi">接入WiFi时</string>
   <string name="WhenRoaming">漫游时</string>
   <string name="NoMediaAutoDownload">禁用自动下载</string>
-  <string name="AutoplayGifs">自动播放GIF</string>
+  <string name="AutoplayGifs">自动播放 GIF</string>
   <string name="RaiseToSpeak">贴耳语音</string>
   <string name="SaveToGallerySettings">保存到相册</string>
   <string name="EditName">编辑名称</string>
@@ -873,12 +872,12 @@
   <string name="NoVideo">暂无视频</string>
   <string name="PleaseDownload">请先下载此媒体文件</string>
   <string name="NoRecentPhotos">没有最近的图片</string>
-  <string name="NoRecentGIFs">沒有最近的GIF动画</string>
+  <string name="NoRecentGIFs">沒有最近的 GIF 动画</string>
   <string name="SearchImages">查找图片</string>
   <string name="SearchImagesInfo">通过网络搜索</string>
-  <string name="SearchGifs">查找GIF动画</string>
+  <string name="SearchGifs">查找 GIF 动画</string>
   <string name="SearchImagesTitle">通过网络搜索</string>
-  <string name="SearchGifsTitle">搜索GIF动画</string>
+  <string name="SearchGifsTitle">搜索 GIF 动画</string>
   <string name="CropImage">裁剪图片</string>
   <string name="EditImage">编辑图片</string>
   <string name="Enhance">增强</string>
@@ -1086,7 +1085,7 @@
   <string name="No">否</string>
   <!--messages-->
   <string name="ActionInviteYou">您通过邀请链接加入了此群组。</string>
-  <string name="ActionInviteUser">un1 通过邀请链接加入了此群组。</string>
+  <string name="ActionInviteUser">un1 通过邀请链接加入了此群组</string>
   <string name="ActionKickUser">un1 移出了 un2</string>
   <string name="ActionLeftUser">un1 退出了群组</string>
   <string name="ActionAddUser">un1 添加了 un2</string>
