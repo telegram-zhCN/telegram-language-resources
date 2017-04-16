@@ -25,9 +25,9 @@ echo "WP"
 curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-wp/zh_CN/download/for_use/ -o $dir/AppResources-WP.resx --progress
 #Generate zip file for macOS
 cd $dir/
-mkdir -p Contents/Resources/zh.lproj
-cp Localizable-macOS.strings Contents/Resources/zh.lproj/Localizable.strings
-cp Localizable-MainMenu-macOS.strings Contents/Resources/zh.lproj/MainMenu.strings
+mkdir -p zh.lproj
+cp Localizable-macOS.strings zh.lproj/Localizable.strings
+cp Localizable-MainMenu-macOS.strings zh.lproj/MainMenu.strings
 rm Localizable-macOS.zip
-zip -r9 Localizable-macOS.zip Contents
-rm -rf Contents
+zip -r9 Localizable-macOS.zip zh.lproj
+rm -rf zh.lproj
