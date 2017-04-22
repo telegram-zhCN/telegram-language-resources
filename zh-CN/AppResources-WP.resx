@@ -659,7 +659,7 @@ from multiple devices.</value>
     <value>共享位置</value>
   </data>
   <data name="Emoji" xml:space="preserve">
-    <value>表情</value>
+    <value>Emoji</value>
   </data>
   <data name="LogOutConfirmation" xml:space="preserve">
     <value>您确定要注销吗？
@@ -1062,7 +1062,7 @@ from multiple devices.</value>
     <value>缓存</value>
   </data>
   <data name="ClearCache" xml:space="preserve">
-    <value>Clear Cache</value>
+    <value>清除缓存</value>
   </data>
   <data name="ManagingLocalCache" xml:space="preserve">
     <value>管理本地缓存</value>

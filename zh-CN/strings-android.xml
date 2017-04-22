@@ -399,7 +399,7 @@
   <string name="DeleteBanUser">封禁用户</string>
   <string name="DeleteReportSpam">举报垃圾信息</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
-  <string name="ClearRecentEmoji">清空最近使用的 Emoji 列表？</string>
+  <string name="ClearRecentEmoji">清空最近使用的 emoji 列表？</string>
   <string name="ReportChat">举报</string>
   <string name="ReportChatSpam">垃圾信息</string>
   <string name="ReportChatViolence">暴力</string>
@@ -595,7 +595,7 @@
   <string name="UsernameInvalidShort">用户名必须包含至少5个字符。</string>
   <string name="UsernameInvalidLong">用户名不能超过32个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
-  <string name="UsernameHelp">您可以在 <![CDATA[<b>]]>Telegram<![CDATA[<b>]]> 上设置一个用户名。这样，别人就可以在无需知道您的手机号码的情况下，通过此用户名找到您并与您联系。<![CDATA[<br><br>]]>您可以使用 <![CDATA[<b>]]>a–z<![CDATA[<b>]]>，<![CDATA[<b>]]>0–9<![CDATA[<b>]]> 及下划线。最小长度为 <![CDATA[<b>]]>5<![CDATA[<b>]]> 个字符。</string>
+  <string name="UsernameHelp">您可以在 <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> 上设置一个用户名。这样，别人就可以在无需知道您的手机号码的情况下，通过此用户名找到您并与您联系。<![CDATA[<br><br>]]>您可以使用 <![CDATA[<b>]]>a–z<![CDATA[</b>]]>，<![CDATA[<b>]]>0–9<![CDATA[</b>]]> 及下划线。最小长度为 <![CDATA[<b>]]>5<![CDATA[</b>]]> 个字符。</string>
   <string name="UsernameHelpLink">此链接会在 Telegram 中打开一个与您的会话窗口：\n%1$s</string>
   <string name="UsernameChecking">正在检查用户名...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
@@ -779,8 +779,8 @@
   <string name="DirectShare">直接分享</string>
   <string name="DirectShareInfo">在分享菜单中显示最近消息</string>
   <string name="Emoji">Emoji</string>
-  <string name="EmojiBigSize">显示单个大号 Emoji</string>
-  <string name="EmojiUseDefault">使用系统默认emoji</string>
+  <string name="EmojiBigSize">显示单个大号 emoji</string>
+  <string name="EmojiUseDefault">使用系统默认 emoji</string>
   <string name="TelegramVersion">Telegram Android 客户端 %1$s</string>
   <string name="DebugMenu">调试菜单</string>
   <string name="DebugMenuImportContacts">导入通讯录</string>
@@ -789,7 +789,7 @@
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清空缓存的消息记录？</string>
   <string name="LocalDatabaseInfo">清空本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
-  <string name="ClearMediaCache">清除媒体缓存</string>
+  <string name="ClearMediaCache">清除缓存</string>
   <string name="CacheClear">清除</string>
   <string name="CalculatingSize">正在计算...</string>
   <string name="LocalDocumentCache">文件</string>
@@ -992,7 +992,7 @@
   <string name="CallsDataUsage">通话</string>
   <string name="OutgoingCalls">外拨电话</string>
   <string name="IncomingCalls">来电</string>
-  <string name="CallsTotalTime">总计时间</string>
+  <string name="CallsTotalTime">总时间</string>
   <string name="TotalDataUsage">总计</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
@@ -1260,7 +1260,7 @@
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
   <string name="VoipFeedbackAlert">您愿意留下任何反馈以帮助我们改进通话服务吗？</string>
   <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风来拨打电话。</string>
-  <string name="VoipFeedbackCommentHint">添加可选评价</string>
+  <string name="VoipFeedbackCommentHint">添加评价</string>
   <string name="CallBack">回拨</string>
   <string name="CallAgain">再次呼叫</string>
   <string name="DefaultRingtone">默认</string>
