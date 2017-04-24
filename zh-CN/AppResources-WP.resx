@@ -187,7 +187,7 @@
     <value>输入消息</value>
   </data>
   <data name="LogOut" xml:space="preserve">
-    <value>Log Out</value>
+    <value>注销</value>
   </data>
   <data name="NoMessagesYet" xml:space="preserve">
     <value>暂时还没有消息...</value>
@@ -205,7 +205,7 @@
     <value>已删除消息</value>
   </data>
   <data name="ForwardedMessage" xml:space="preserve">
-    <value>Forwarded from</value>
+    <value>转发的消息</value>
   </data>
   <data name="GeoPoint" xml:space="preserve">
     <value>位置</value>
@@ -247,7 +247,7 @@
     <value>{0} 将群组名称更改为 &quot;{1}&quot;</value>
   </data>
   <data name="MessageActionChatEditPhoto" xml:space="preserve">
-    <value>{0} updated group photo</value>
+    <value>{0} 更换了群组图片</value>
   </data>
   <data name="MessageActionChatDeletePhoto" xml:space="preserve">
     <value>{0}删除了讨论组头像</value>
@@ -334,7 +334,7 @@
     <value>定时更新动态磁贴上未读消息数的任务。</value>
   </data>
   <data name="Media" xml:space="preserve">
-    <value>Media</value>
+    <value>已共享媒体</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>信息</value>
@@ -472,7 +472,7 @@
     <value>添加成员</value>
   </data>
   <data name="DeleteAndExitGroup" xml:space="preserve">
-    <value>Delete and Exit Group</value>
+    <value>删除并退出群组</value>
   </data>
   <data name="MessageActionUserLeftGroup" xml:space="preserve">
     <value>{0}离开了讨论组</value>
@@ -541,7 +541,7 @@
     <value>名字</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value>Last Name (optional)</value>
+    <value>姓氏（可选）</value>
   </data>
   <data name="YourName" xml:space="preserve">
     <value>您的姓名</value>
@@ -1934,7 +1934,7 @@ from multiple devices.</value>
     <value>您确定要取消对这个联系人的屏蔽吗？</value>
   </data>
   <data name="SharedLinks" xml:space="preserve">
-    <value>Links</value>
+    <value>链接</value>
   </data>
   <data name="BackgroudnTaskDisabledAlert" xml:space="preserve">
     <value>你禁用了Telegram的后台任务，Telegram 不能正常接收消息。请允许应用在后台运行。</value>
@@ -2388,7 +2388,7 @@ from multiple devices.</value>
     <value>在这里配置的权限将会覆盖全局设置。</value>
   </data>
   <data name="GroupsShort" xml:space="preserve">
-    <value>Groups and Channels</value>
+    <value>群组和频道</value>
   </data>
   <data name="NeverAllow" xml:space="preserve">
     <value>从不允许</value>
@@ -3007,13 +3007,13 @@ from multiple devices.</value>
     <value>文档</value>
   </data>
   <data name="LinkGenitivePlural" xml:space="preserve">
-    <value>Links</value>
+    <value>链接</value>
   </data>
   <data name="LinkGenitiveSingular" xml:space="preserve">
     <value>链接</value>
   </data>
   <data name="LinkNominativePlural" xml:space="preserve">
-    <value>Links</value>
+    <value>链接</value>
   </data>
   <data name="LinkNominativeSingular" xml:space="preserve">
     <value>链接</value>
