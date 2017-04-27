@@ -25,9 +25,12 @@ echo "WP"
 curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-wp/zh_CN/download/for_use/ -o $dir/AppResources-WP.resx --progress
 #Generate zip file for macOS
 cd $dir/
-mkdir -p zh.lproj
-cp Localizable-macOS.strings zh.lproj/Localizable.strings
-cp Localizable-MainMenu-macOS.strings zh.lproj/MainMenu.strings
-rm Localizable-macOS.zip
-zip -r9 Localizable-macOS.zip zh.lproj
-rm -rf zh.lproj
+if $(git status | grep -q "modified:   Localizable-macOS.strings") || $(git status | grep -q "modified:   Localizable-MainMenu-macOS.strings")
+then
+    mkdir -p zh.lproj
+    cp Localizable-macOS.strings zh.lproj/Localizable.strings
+    cp Localizable-MainMenu-macOS.strings zh.lproj/MainMenu.strings
+    rm Localizable-macOS.zip
+    zip -r9 Localizable-macOS.zip zh.lproj
+    rm -rf zh.lproj
+fi
