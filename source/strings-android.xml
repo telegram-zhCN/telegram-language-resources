@@ -86,6 +86,8 @@
   <string name="PaymentPrecheckoutFailed">Sorry, the payment was cancelled by the bot.</string>
   <string name="PaymentFailed">Sorry, the payment was declined.</string>
   <string name="PaymentConnectionFailed">Unable to reach payment server. Please check your internet connection and try again.</string>
+  <string name="PaymentWarning">Warning</string>
+  <string name="PaymentWarningText">Payments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %2$s or your bank.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">New conversation</string>
   <string name="Settings">Settings</string>
@@ -165,6 +167,7 @@
   <string name="ActionPinnedFile">un1 pinned a file</string>
   <string name="ActionPinnedSticker">un1 pinned a sticker</string>
   <string name="ActionPinnedVoice">un1 pinned a voice message</string>
+  <string name="ActionPinnedRound">un1 pinned a video message</string>
   <string name="ActionPinnedContact">un1 pinned a contact</string>
   <string name="ActionPinnedGame">un1 pinned %1$s</string>
   <string name="ActionPinnedGeo">un1 pinned a map</string>
@@ -268,6 +271,7 @@
   <string name="ChannelMessageGroupDocument">%1$s sent a file to the channel %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s sent a GIF to the channel %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s sent a voice message to the channel %2$s</string>
+  <string name="ChannelMessageGroupRound">%1$s sent a video message to the channel %2$s</string>
   <string name="ChannelMessageGroupMusic">%1$s sent a track to the channel %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s sent a sticker to the channel %2$s</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s sent a %3$s sticker to the channel %2$s</string>
@@ -279,6 +283,7 @@
   <string name="ChannelMessageDocument">%1$s posted a file</string>
   <string name="ChannelMessageGIF">%1$s posted a GIF</string>
   <string name="ChannelMessageAudio">%1$s posted a voice message</string>
+  <string name="ChannelMessageRound">%1$s posted a video message</string>
   <string name="ChannelMessageMusic">%1$s posted a track</string>
   <string name="ChannelMessageSticker">%1$s posted a sticker</string>
   <string name="ChannelMessageStickerEmoji">%1$s posted a %2$s sticker</string>
@@ -321,6 +326,7 @@
   <string name="IsTyping">is typing...</string>
   <string name="AreTyping">are typing...</string>
   <string name="IsRecordingAudio">%1$s is recording voice message...</string>
+  <string name="IsRecordingRound">%1$s is recording video message...</string>
   <string name="IsSendingAudio">%1$s is sending audio...</string>
   <string name="IsSendingPhoto">%1$s is sending photo...</string>
   <string name="InstantView">INSTANT VIEW</string>
@@ -328,6 +334,7 @@
   <string name="IsSendingVideo">%1$s is sending video...</string>
   <string name="IsSendingFile">%1$s is sending file...</string>
   <string name="RecordingAudio">recording voice message...</string>
+  <string name="RecordingRound">recording video message...</string>
   <string name="SendingAudio">sending audio...</string>
   <string name="SendingPhoto">sending photo...</string>
   <string name="SendingGame">playing a game...</string>
@@ -424,6 +431,11 @@
   <string name="DeleteForUser">Delete for %1$s</string>
   <string name="DeleteForAll">Delete for all members</string>
   <string name="TextCopied">Text copied to clipboard</string>
+  <string name="HoldToAudio">Hold to record audio. Tap to switch to video.</string>
+  <string name="HoldToVideo">Hold to record video. Tap to switch to audio.</string>
+  <string name="DiscardVoiceMessageTitle">Discard Voice Message</string>
+  <string name="DiscardVoiceMessageDescription">Are you sure you want to stop recording and discard your voice message?</string>
+  <string name="DiscardVoiceMessageAction">Discard</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -440,6 +452,7 @@
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
   <string name="NotificationMessageGif">%1$s sent you a GIF</string>
   <string name="NotificationMessageAudio">%1$s sent you a voice message</string>
+  <string name="NotificationMessageRound">%1$s sent you a video message</string>
   <string name="NotificationMessageMusic">%1$s sent you a track</string>
   <string name="NotificationMessageSticker">%1$s sent you a sticker</string>
   <string name="NotificationMessageStickerEmoji">%1$s sent you a %2$s sticker</string>
@@ -453,12 +466,13 @@
   <string name="NotificationMessageGroupDocument">%1$s sent a file to the group %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s sent a GIF to the group %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s sent a voice message to the group %2$s</string>
+  <string name="NotificationMessageGroupRound">%1$s sent a video message to the group %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s sent a track to the group %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s sent a sticker to the group %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s sent a %3$s sticker to the group %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s invited you to the group %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s edited the group\'s %2$s name</string>
-  <string name="NotificationEditedGroupPhoto">%1$s edited the group\'s %2$s photo</string>
+  <string name="NotificationEditedGroupName">%1$s renamed the group %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s changed the group photo for %2$s</string>
   <string name="NotificationGroupAddMember">%1$s invited %3$s to the group %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s returned to the group %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s joined the group %2$s</string>
@@ -482,6 +496,7 @@
   <string name="NotificationActionPinnedSticker">%1$s pinned a sticker in the group %2$s</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s pinned a %3$s sticker in the group %2$s</string>
   <string name="NotificationActionPinnedVoice">%1$s pinned a voice message in the group %2$s</string>
+  <string name="NotificationActionPinnedRound">%1$s pinned a video message in the group %2$s</string>
   <string name="NotificationActionPinnedContact">%1$s pinned a contact in the group %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s pinned a map in the group %2$s</string>
   <string name="NotificationActionPinnedGif">%1$s pinned a GIF in the group %2$s</string>
@@ -494,6 +509,7 @@
   <string name="NotificationActionPinnedStickerChannel">%1$s pinned a sticker</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s pinned a %2$s sticker</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s pinned a voice message</string>
+  <string name="NotificationActionPinnedRoundChannel">%1$s pinned a video message</string>
   <string name="NotificationActionPinnedContactChannel">%1$s pinned a contact</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s pinned a map</string>
   <string name="NotificationActionPinnedGifChannel">%1$s pinned a GIF</string>
@@ -794,7 +810,7 @@
   <string name="CalculatingSize">Calculating...</string>
   <string name="LocalDocumentCache">Documents</string>
   <string name="LocalPhotoCache">Photos</string>
-  <string name="LocalAudioCache">Voice messages</string>
+  <string name="LocalAudioCache">Voice/Video messages</string>
   <string name="LocalVideoCache">Videos</string>
   <string name="LocalMusicCache">Music</string>
   <string name="LocalGifCache">GIFs</string>
@@ -1118,6 +1134,7 @@
   <string name="AttachDocument">File</string>
   <string name="AttachSticker">Sticker</string>
   <string name="AttachAudio">Voice message</string>
+  <string name="AttachRound">Video message</string>
   <string name="AttachGame">Game</string>
   <string name="FromYou">You</string>
   <string name="ActionTakeScreenshootYou">You took a screenshot!</string>
@@ -1466,6 +1483,12 @@
   <string name="ForwardedAudio_few">%1$d forwarded voice messages</string>
   <string name="ForwardedAudio_many">%1$d forwarded voice messages</string>
   <string name="ForwardedAudio_other">%1$d forwarded voice messages</string>
+  <string name="ForwardedRound_zero">%1$d forwarded video messages</string>
+  <string name="ForwardedRound_one">Forwarded video message</string>
+  <string name="ForwardedRound_two">%1$d forwarded video messages</string>
+  <string name="ForwardedRound_few">%1$d forwarded video messages</string>
+  <string name="ForwardedRound_many">%1$d forwarded video messages</string>
+  <string name="ForwardedRound_other">%1$d forwarded video messages</string>
   <string name="ForwardedLocation_zero">%1$d forwarded locations</string>
   <string name="ForwardedLocation_one">Forwarded location</string>
   <string name="ForwardedLocation_two">%1$d forwarded locations</string>
