@@ -499,7 +499,7 @@
     <value>会话</value>
   </data>
   <data name="EditName" xml:space="preserve">
-    <value>Edit Name</value>
+    <value>编辑姓名</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>保存</value>
@@ -1005,7 +1005,7 @@ from multiple devices.</value>
     <value>{0} 加入了您的私密对话</value>
   </data>
   <data name="AddContact" xml:space="preserve">
-    <value>Add</value>
+    <value>添加</value>
   </data>
   <data name="DeleteContact" xml:space="preserve">
     <value>删除</value>
@@ -1029,7 +1029,7 @@ from multiple devices.</value>
     <value>Pin to Start</value>
   </data>
   <data name="TerminateAllSessions" xml:space="preserve">
-    <value>Terminate All Other Sessions</value>
+    <value>终止所有其他会话</value>
   </data>
   <data name="TerminateAllSessionsConfirmation" xml:space="preserve">
     <value>您确定要终止所有其他的登录会话吗？</value>
@@ -1044,7 +1044,7 @@ from multiple devices.</value>
     <value>按住录制</value>
   </data>
   <data name="NewBroadcastList" xml:space="preserve">
-    <value>New Broadcast List</value>
+    <value>新建群发列表</value>
   </data>
   <data name="AddUserToTheGroup" xml:space="preserve">
     <value>添加 {0} 到群组 {1} ？</value>
@@ -1133,7 +1133,7 @@ from multiple devices.</value>
     <value>等待网络连接</value>
   </data>
   <data name="GlobalSearch" xml:space="preserve">
-    <value>Global Search</value>
+    <value>全局搜索</value>
   </data>
   <data name="UsernameShort" xml:space="preserve">
     <value>用户名必须至少包含 5 个字符。</value>
@@ -1169,7 +1169,7 @@ from multiple devices.</value>
     <value>如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除。</value>
   </data>
   <data name="AccountSelfDestructs" xml:space="preserve">
-    <value>Account Self-Destructs</value>
+    <value>自动删除帐号</value>
   </data>
   <data name="AddExceptions" xml:space="preserve">
     <value>添加例外</value>

@@ -86,6 +86,8 @@
   <string name="PaymentPrecheckoutFailed">抱歉，付款已被此机器人取消。</string>
   <string name="PaymentFailed">抱歉，付款被拒绝。</string>
   <string name="PaymentConnectionFailed">无法连接至付款服务器。请检查您的互联网连接并重试。</string>
+  <string name="PaymentWarning">警告</string>
+  <string name="PaymentWarningText">支付的款项将直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续支付所带来的风险将由您自己承担。如果遇到问题，请联系 %2$s 的开发者或者您的银行。</string>
   <!--chats view-->
   <string name="NewConversationShortcut">新建对话</string>
   <string name="Settings">设置</string>
@@ -165,6 +167,7 @@
   <string name="ActionPinnedFile">un1 置顶了 1 个文件</string>
   <string name="ActionPinnedSticker">un1 置顶了 1 张贴纸</string>
   <string name="ActionPinnedVoice">un1 置顶了 1 条语音消息</string>
+  <string name="ActionPinnedRound">un1 置顶了 1 条视频消息</string>
   <string name="ActionPinnedContact">un1 置顶了 1 个联系人信息</string>
   <string name="ActionPinnedGame">un1 置顶了 %1$s</string>
   <string name="ActionPinnedGeo">un1 置顶了 1 个位置</string>
@@ -268,6 +271,7 @@
   <string name="ChannelMessageGroupDocument">%1$s 发送了一个文件到 %2$s 频道</string>
   <string name="ChannelMessageGroupGif">%1$s 发送了一张 GIF 到 %2$s 频道</string>
   <string name="ChannelMessageGroupAudio">%1$s 发送了一段语音消息到 %2$s 频道</string>
+  <string name="ChannelMessageGroupRound">%1$s 发送了一段视频消息到 %2$s 频道</string>
   <string name="ChannelMessageGroupMusic">%1$s 发送了一首音乐到 %2$s 频道</string>
   <string name="ChannelMessageGroupSticker">%1$s 发送了一张贴纸到 %2$s 频道</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s 发送了一张 %3$s 贴纸到 %2$s 频道</string>
@@ -279,6 +283,7 @@
   <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
   <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
   <string name="ChannelMessageAudio">%1$s 发送了一条语音消息</string>
+  <string name="ChannelMessageRound">%1$s 发送了一条视频消息</string>
   <string name="ChannelMessageMusic">%1$s 发送了一首音乐</string>
   <string name="ChannelMessageSticker">%1$s 发送了一张贴纸</string>
   <string name="ChannelMessageStickerEmoji">%1$s 发送了一张 %2$s 贴纸</string>
@@ -321,6 +326,7 @@
   <string name="IsTyping">正在输入...</string>
   <string name="AreTyping">都在输入...</string>
   <string name="IsRecordingAudio">%1$s 正在录制语音...</string>
+  <string name="IsRecordingRound">%1$s 正在录制视频...</string>
   <string name="IsSendingAudio">%1$s 正在发送音频…</string>
   <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
   <string name="InstantView">即时预览</string>
@@ -328,6 +334,7 @@
   <string name="IsSendingVideo">%1$s 正在发送视频...</string>
   <string name="IsSendingFile">%1$s 正在发送文件...</string>
   <string name="RecordingAudio">正在录制语音...</string>
+  <string name="RecordingRound">正在录制视频...</string>
   <string name="SendingAudio">正在发送音频…</string>
   <string name="SendingPhoto">正在发送图片...</string>
   <string name="SendingGame">正在玩游戏…</string>
@@ -424,6 +431,11 @@
   <string name="DeleteForUser">为 %1$s 删除</string>
   <string name="DeleteForAll">为所有成员删除</string>
   <string name="TextCopied">文字已复制到剪贴板</string>
+  <string name="HoldToAudio">按住以录制语音。点按切换为视频录制。</string>
+  <string name="HoldToVideo">按住以录制视频。点按切换为语音录制。</string>
+  <string name="DiscardVoiceMessageTitle">放弃语音消息</string>
+  <string name="DiscardVoiceMessageDescription">您确定要停止录制并放弃您的语音消息吗？</string>
+  <string name="DiscardVoiceMessageAction">放弃</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -440,6 +452,7 @@
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
   <string name="NotificationMessageAudio">%1$s 给您发送了一条语音消息</string>
+  <string name="NotificationMessageRound">%1$s 给您发送了一条视频消息</string>
   <string name="NotificationMessageMusic">%1$s 给您发送了一首音乐</string>
   <string name="NotificationMessageSticker">%1$s 给您发送了一张贴纸</string>
   <string name="NotificationMessageStickerEmoji">%1$s 给您发送了一张 %2$s 贴纸</string>
@@ -453,12 +466,13 @@
   <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一条语音消息到群组 %2$s</string>
+  <string name="NotificationMessageGroupRound">%1$s 发送了一条视频消息到群组 %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s 发送了一首音乐到 %2$s 群组</string>
   <string name="NotificationMessageGroupSticker">%1$s 发送了一张贴纸到群组 %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s 发送了一张 %3$s 贴纸到群组 %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s 邀请您加入群组 %2$s </string>
-  <string name="NotificationEditedGroupName">%1$s 编辑了群组 %2$s 的名称</string>
-  <string name="NotificationEditedGroupPhoto">%1$s 编辑了群组 %2$s 的标识</string>
+  <string name="NotificationEditedGroupName">%1$s 重命名了群组 %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s 更改了群组 %2$s 的标识</string>
   <string name="NotificationGroupAddMember">%1$s 邀请了 %3$s 加入群组 %2$s </string>
   <string name="NotificationGroupAddSelf">%1$s 回到了群组 %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s 加入了群组 %2$s</string>
@@ -482,6 +496,7 @@
   <string name="NotificationActionPinnedSticker">%1$s 在群组 %2$s 置顶了一张贴纸</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s 在群组 %2$s 置顶了一张 %3$s 贴纸</string>
   <string name="NotificationActionPinnedVoice">%1$s 在群组 %2$s 置顶了一段语音</string>
+  <string name="NotificationActionPinnedRound">%1$s 在群组 %2$s 置顶了一段视频消息</string>
   <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一个联系人</string>
   <string name="NotificationActionPinnedGeo">%1$s 在群组 %2$s 置顶了一个地理位置</string>
   <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF</string>
@@ -494,6 +509,7 @@
   <string name="NotificationActionPinnedStickerChannel">%1$s 置顶了 1 张贴纸</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了 1 条语音消息</string>
+  <string name="NotificationActionPinnedRoundChannel">%1$s 置顶了 1 条视频消息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 置顶了 1 个联系人信息</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了 1 个位置</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 置顶了 1 个 GIF</string>
@@ -522,7 +538,7 @@
   <string name="EnterGroupNamePlaceholder">输入群组名称</string>
   <string name="GroupName">群组名称</string>
   <string name="MembersCount">已选择 %2$d 个成员中的 %1$d 个</string>
-  <string name="MembersCountZero">多达 %1$s 人</string>
+  <string name="MembersCountZero">多达 %1$s</string>
   <string name="JoinToGroup">您确定要加入群组“%1$s”吗？</string>
   <string name="JoinToGroupErrorFull">抱歉，此群组已经满员。</string>
   <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
@@ -794,7 +810,7 @@
   <string name="CalculatingSize">正在计算...</string>
   <string name="LocalDocumentCache">文件</string>
   <string name="LocalPhotoCache">图片</string>
-  <string name="LocalAudioCache">语音</string>
+  <string name="LocalAudioCache">语音/视频消息</string>
   <string name="LocalVideoCache">视频</string>
   <string name="LocalMusicCache">音乐</string>
   <string name="LocalGifCache">GIF</string>
@@ -1118,6 +1134,7 @@
   <string name="AttachDocument">文件</string>
   <string name="AttachSticker">贴纸</string>
   <string name="AttachAudio">语音消息</string>
+  <string name="AttachRound">视频消息</string>
   <string name="AttachGame">游戏</string>
   <string name="FromYou">您</string>
   <string name="ActionTakeScreenshootYou">您截了一张图</string>
@@ -1466,6 +1483,12 @@
   <string name="ForwardedAudio_few">%1$d 条转发的语音消息 </string>
   <string name="ForwardedAudio_many">%1$d 条转发的语音消息</string>
   <string name="ForwardedAudio_other">%1$d 条转发的语音消息</string>
+  <string name="ForwardedRound_zero">%1$d 条转发的视频消息</string>
+  <string name="ForwardedRound_one">转发的视频消息</string>
+  <string name="ForwardedRound_two">%1$d 条转发的视频消息</string>
+  <string name="ForwardedRound_few">%1$d 条转发的视频消息</string>
+  <string name="ForwardedRound_many">%1$d 条转发的视频消息</string>
+  <string name="ForwardedRound_other">%1$d 条转发的视频消息</string>
   <string name="ForwardedLocation_zero">%1$d 个转发的位置</string>
   <string name="ForwardedLocation_one">转发的位置</string>
   <string name="ForwardedLocation_two">%1$d 个转发的位置</string>
