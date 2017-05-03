@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cookie="csrftoken=;sessionid="
+cookie="sessionid="
 dir=zh-CN
 
 #Desktop
