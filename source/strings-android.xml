@@ -435,6 +435,8 @@
   <string name="HoldToVideo">Hold to record video. Tap to switch to audio.</string>
   <string name="DiscardVoiceMessageTitle">Discard Voice Message</string>
   <string name="DiscardVoiceMessageDescription">Are you sure you want to stop recording and discard your voice message?</string>
+  <string name="DiscardVideoMessageTitle">Discard Video Message</string>
+  <string name="DiscardVideoMessageDescription">Are you sure you want to stop recording and discard your video message?</string>
   <string name="DiscardVoiceMessageAction">Discard</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
@@ -696,7 +698,10 @@
   <string name="ColorGreen">Green</string>
   <string name="ColorCyan">Cyan</string>
   <string name="ColorWhite">White</string>
+  <string name="ColorSepia">Sepia</string>
+  <string name="ColorDark">Dark</string>
   <string name="ColorPink">Pink</string>
+  <string name="FontSize">Font Size</string>
   <string name="ColorViolet">Violet</string>
   <string name="ColorOrange">Orange</string>
   <string name="NotificationsLedInfo">LED is a small blinking light on some devices that is used to indicate new messages.</string>
