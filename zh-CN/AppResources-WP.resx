@@ -2771,13 +2771,13 @@ from multiple devices.</value>
     <value>Sets</value>
   </data>
   <data name="SetGenitiveSingular" xml:space="preserve">
-    <value>Set</value>
+    <value>确定</value>
   </data>
   <data name="SetNominativePlural" xml:space="preserve">
     <value>Sets</value>
   </data>
   <data name="SetNominativeSingular" xml:space="preserve">
-    <value>Set</value>
+    <value>确定</value>
   </data>
   <data name="ChatWithYourself" xml:space="preserve">
     <value>和你自己聊天</value>

@@ -435,6 +435,8 @@
   <string name="HoldToVideo">按住以录制视频。点按切换为语音录制。</string>
   <string name="DiscardVoiceMessageTitle">放弃语音消息</string>
   <string name="DiscardVoiceMessageDescription">您确定要停止录制并放弃您的语音消息吗？</string>
+  <string name="DiscardVideoMessageTitle">放弃视频消息</string>
+  <string name="DiscardVideoMessageDescription">您确定要停止录制并放弃您的视频消息吗？</string>
   <string name="DiscardVoiceMessageAction">放弃</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
@@ -696,7 +698,10 @@
   <string name="ColorGreen">绿色</string>
   <string name="ColorCyan">青色</string>
   <string name="ColorWhite">白色</string>
+  <string name="ColorSepia">褐色</string>
+  <string name="ColorDark">暗色</string>
   <string name="ColorPink">粉色</string>
+  <string name="FontSize">字体大小</string>
   <string name="ColorViolet">紫色</string>
   <string name="ColorOrange">橙色</string>
   <string name="NotificationsLedInfo">LED 指示灯是在部分设备上能够提示新消息的闪烁的小灯。</string>
@@ -1094,7 +1099,7 @@
   <string name="FromCamera">拍照</string>
   <string name="FromGalley">从相册中选择</string>
   <string name="DeletePhoto">删除图片</string>
-  <string name="Set">设置</string>
+  <string name="Set">确定</string>
   <string name="OK">确定</string>
   <string name="Crop">裁剪</string>
   <string name="Yes">是</string>
