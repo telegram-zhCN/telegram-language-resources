@@ -1211,7 +1211,7 @@ from multiple devices.</value>
     <value>一周内上线过</value>
   </data>
   <data name="MyContacts" xml:space="preserve">
-    <value>My Contacts</value>
+    <value>我的联系人</value>
   </data>
   <data name="NeverShare" xml:space="preserve">
     <value>从不共享</value>

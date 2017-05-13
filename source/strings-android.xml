@@ -76,6 +76,7 @@
   <string name="PaymentTestInvoice">TEST INVOICE</string>
   <string name="PaymentCheckoutPay">PAY %1$s</string>
   <string name="PaymentCheckoutMethod">Payment method</string>
+  <string name="PaymentCheckoutProvider">Payment provider</string>
   <string name="PaymentCheckoutName">Name</string>
   <string name="PaymentCheckoutPhoneNumber">Phone number</string>
   <string name="PaymentCheckoutEmail">Contact address</string>
@@ -382,6 +383,7 @@
   <string name="OpenInExternalApp">Open in...</string>
   <string name="CopyUrl">Copy URL</string>
   <string name="SendItems">Send %1$s</string>
+  <string name="SendAsFiles">Send as files</string>
   <string name="OpenUrlAlert">Open url %1$s?</string>
   <string name="BotPermissionGameAlert">Allow %1$s to pass your Telegram name and id (not your phone number) to pages you open with this bot?</string>
   <string name="ReportSpam">REPORT SPAM</string>
@@ -397,6 +399,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">More info</string>
   <string name="ShareSendTo">Send to...</string>
+  <string name="ShareComment">Write a comment...</string>
   <string name="TapHereGifs">Tap here to access saved GIFs</string>
   <string name="PinMessage">Pin</string>
   <string name="PinNotify">Notify all members</string>
@@ -1022,6 +1025,11 @@
   <string name="PrivacySettings">Privacy and Security</string>
   <string name="PrivacyTitle">Privacy</string>
   <string name="PrivacyLastSeen">Last Seen</string>
+  <string name="PrivacyPayments">Payments</string>
+  <string name="PrivacyPaymentsClear">Clear payment &amp; shipping info</string>
+  <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
+  <string name="PrivacyClearShipping">Shipping info</string>
+  <string name="PrivacyClearPayment">Payment info</string>
   <string name="LastSeenEverybody">Everybody</string>
   <string name="LastSeenContacts">My Contacts</string>
   <string name="LastSeenNobody">Nobody</string>
