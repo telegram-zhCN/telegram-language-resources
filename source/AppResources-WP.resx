@@ -3143,4 +3143,166 @@ The group **&quot;{1}&quot;** will become private.</value>
   <data name="DeleteMessagesForEveryoneInChatHint" xml:space="preserve">
     <value>This will delete them for everyone in this chat.</value>
   </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="TestInvoice" xml:space="preserve">
+    <value>Test Invoice</value>
+  </data>
+  <data name="MessageActionPaymentSent" xml:space="preserve">
+    <value>You have just successfully transferred {0} to {1}</value>
+  </data>
+  <data name="MessageActionPaymentSentFor" xml:space="preserve">
+    <value>You have just successfully transferred {0} to {1} for {2}</value>
+  </data>
+  <data name="PaymentInfo" xml:space="preserve">
+    <value>Payment info</value>
+  </data>
+  <data name="Receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Address1Street" xml:space="preserve">
+    <value>Address 1 (Street)</value>
+  </data>
+  <data name="Address2Street" xml:space="preserve">
+    <value>Address 2 (Street)</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Billing address</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Contact address</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="MMYY" xml:space="preserve">
+    <value>MM/YY</value>
+  </data>
+  <data name="NameSurname" xml:space="preserve">
+    <value>Name Surname</value>
+  </data>
+  <data name="PaymentCard" xml:space="preserve">
+    <value>Payment card</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Payment method</value>
+  </data>
+  <data name="Postcode" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="Receiver" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="SaveShippingInformation" xml:space="preserve">
+    <value>Save Shipping Information</value>
+  </data>
+  <data name="SaveShippingInformationHint" xml:space="preserve">
+    <value>You can save your shipping info for future use.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Security Code (CVV)</value>
+  </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="ShippingAddress" xml:space="preserve">
+    <value>Shipping address</value>
+  </data>
+  <data name="ShippingInformation" xml:space="preserve">
+    <value>Shipping information</value>
+  </data>
+  <data name="ShippingMethods" xml:space="preserve">
+    <value>Shipping methods</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="Taxes" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="TestReceipt" xml:space="preserve">
+    <value>Test Receipt</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TransactionConfirmation" xml:space="preserve">
+    <value>Do you really want to transfer {0} to the {1} for {2}?</value>
+  </data>
+  <data name="TransactionReview" xml:space="preserve">
+    <value>Transaction Review</value>
+  </data>
+  <data name="TestCheckout" xml:space="preserve">
+    <value>Test Checkout</value>
+  </data>
+  <data name="ShippingMethod" xml:space="preserve">
+    <value>Shipping method</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="CameraSubtitle" xml:space="preserve">
+    <value>Manage camera settings</value>
+  </data>
+  <data name="ChooseYourCameraApp" xml:space="preserve">
+    <value>Choose your camera app</value>
+  </data>
+  <data name="ExternalCamera" xml:space="preserve">
+    <value>External Camera</value>
+  </data>
+  <data name="InAppCamera" xml:space="preserve">
+    <value>In-app Camera</value>
+  </data>
+  <data name="Calls" xml:space="preserve">
+    <value>Calls</value>
+  </data>
+  <data name="CallsPrivacyDescription" xml:space="preserve">
+    <value>Who can call me?</value>
+  </data>
+  <data name="CallsPrivacyImportantNote" xml:space="preserve">
+    <value>You can restrict who can call you.</value>
+  </data>
+  <data name="CallsPrivacyOverrideNote" xml:space="preserve">
+    <value>These users will or will not be able to call you regardless of the settings above.</value>
+  </data>
+  <data name="NoCallsHere" xml:space="preserve">
+    <value>No calls here</value>
+  </data>
+  <data name="VoiceCall" xml:space="preserve">
+    <value>Voice Call</value>
+  </data>
+  <data name="CameraRollFolder" xml:space="preserve">
+    <value>Camera Roll</value>
+  </data>
+  <data name="SavedPicturesFolder" xml:space="preserve">
+    <value>Saved Pictures</value>
+  </data>
+  <data name="ScreenshotsFolder" xml:space="preserve">
+    <value>Screenshots</value>
+  </data>
+  <data name="AccessCameraException" xml:space="preserve">
+    <value>Can&apos;t access current camera</value>
+  </data>
 </root>
