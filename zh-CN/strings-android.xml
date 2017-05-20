@@ -53,14 +53,14 @@
   <string name="PaymentShippingCountry">国家</string>
   <string name="PaymentShippingZipPlaceholder">邮政编码</string>
   <string name="PaymentShippingReceiver">收件人</string>
-  <string name="PaymentShippingName">全名</string>
+  <string name="PaymentShippingName">姓名</string>
   <string name="PaymentShippingPhoneNumber">手机号码</string>
   <string name="PaymentShippingEmailPlaceholder">电子邮箱</string>
   <string name="PaymentShippingSave">保存配送信息</string>
   <string name="PaymentShippingSaveInfo">您可以保存您的配送信息以在将来使用。</string>
   <string name="PaymentCardInfo">付款信息</string>
   <string name="PaymentCardTitle">银行卡</string>
-  <string name="PaymentCardNumber">银行卡号</string>
+  <string name="PaymentCardNumber">卡号</string>
   <string name="PaymentCardCvv">安全码 (CVV)</string>
   <string name="PaymentCardExpireDate">月/年</string>
   <string name="PaymentBillingAddress">账单地址</string>
@@ -72,13 +72,14 @@
   <string name="PaymentTransactionReview">交易检查</string>
   <string name="PaymentTransactionMessage">您确定要因 %3$s 向机器人 %2$s 转账 %1$s ？</string>
   <string name="PaymentTransactionTotal">总计</string>
-  <string name="PaymentInvoice">发票</string>
-  <string name="PaymentTestInvoice">测试发票</string>
+  <string name="PaymentInvoice">订单</string>
+  <string name="PaymentTestInvoice">测试订单</string>
   <string name="PaymentCheckoutPay">支付 %1$s</string>
-  <string name="PaymentCheckoutMethod">付款信息</string>
+  <string name="PaymentCheckoutMethod">付款方式</string>
+  <string name="PaymentCheckoutProvider">付款提供商</string>
   <string name="PaymentCheckoutName">姓名</string>
   <string name="PaymentCheckoutPhoneNumber">手机号码</string>
-  <string name="PaymentCheckoutEmail">地址</string>
+  <string name="PaymentCheckoutEmail">联系方式</string>
   <string name="PaymentCheckoutShippingMethod">配送方式</string>
   <string name="PaymentReceipt">收据</string>
   <string name="PaymentConfirmationNewCard">选择另一张卡</string>
@@ -87,7 +88,7 @@
   <string name="PaymentFailed">抱歉，付款被拒绝。</string>
   <string name="PaymentConnectionFailed">无法连接至付款服务器。请检查您的互联网连接并重试。</string>
   <string name="PaymentWarning">警告</string>
-  <string name="PaymentWarningText">支付的款项将直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续支付所带来的风险将由您自己承担。如果遇到问题，请联系 %2$s 的开发者或者您的银行。</string>
+  <string name="PaymentWarningText">付款将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %2$s 的开发者或者您的银行。</string>
   <!--chats view-->
   <string name="NewConversationShortcut">新建对话</string>
   <string name="Settings">设置</string>
@@ -127,7 +128,7 @@
   <string name="ChatHintsDelete">确认从建议列表中删除 %1$s 吗？</string>
   <string name="LinkPreview">链接预览</string>
   <string name="Draft">草稿</string>
-  <string name="HistoryCleared">历史记录已被清空</string>
+  <string name="HistoryCleared">历史记录已被清除</string>
   <string name="ArticleByAuthor">%1$s</string>
   <string name="ArticleDateByAuthor">%2$s 于 %1$s</string>
   <string name="PreviewFeedback">发送关于此预览的反馈</string>
@@ -382,6 +383,7 @@
   <string name="OpenInExternalApp">使用其他应用打开…</string>
   <string name="CopyUrl">复制链接</string>
   <string name="SendItems">发送 %1$s</string>
+  <string name="SendAsFiles">作为文件发送</string>
   <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
   <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的电话号码) 到通过机器人打开的网页？</string>
   <string name="ReportSpam">举报垃圾信息</string>
@@ -397,6 +399,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">详情</string>
   <string name="ShareSendTo">发送到...</string>
+  <string name="ShareComment">输入消息...</string>
   <string name="TapHereGifs">点击这里访问保存的 GIF</string>
   <string name="PinMessage">置顶</string>
   <string name="PinNotify">通知所有成员</string>
@@ -406,7 +409,7 @@
   <string name="DeleteBanUser">封禁用户</string>
   <string name="DeleteReportSpam">举报垃圾信息</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
-  <string name="ClearRecentEmoji">清空最近使用的 emoji 列表？</string>
+  <string name="ClearRecentEmoji">清除最近使用的 emoji 列表？</string>
   <string name="ReportChat">举报</string>
   <string name="ReportChatSpam">垃圾信息</string>
   <string name="ReportChatViolence">暴力</string>
@@ -431,8 +434,8 @@
   <string name="DeleteForUser">为 %1$s 删除</string>
   <string name="DeleteForAll">为所有成员删除</string>
   <string name="TextCopied">文字已复制到剪贴板</string>
-  <string name="HoldToAudio">按住以录制语音。点按切换为视频录制。</string>
-  <string name="HoldToVideo">按住以录制视频。点按切换为语音录制。</string>
+  <string name="HoldToAudio">按住录制语音。点按切换为视频。</string>
+  <string name="HoldToVideo">按住录制视频。点按切换为语音。</string>
   <string name="DiscardVoiceMessageTitle">放弃语音消息</string>
   <string name="DiscardVoiceMessageDescription">您确定要停止录制并放弃您的语音消息吗？</string>
   <string name="DiscardVideoMessageTitle">放弃视频消息</string>
@@ -808,8 +811,8 @@
   <string name="DebugMenuReloadContacts">重载通讯录</string>
   <!--cache view-->
   <string name="LocalDatabase">本地数据库</string>
-  <string name="LocalDatabaseClear">清空缓存的消息记录？</string>
-  <string name="LocalDatabaseInfo">清空本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
+  <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
+  <string name="LocalDatabaseInfo">清除本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
   <string name="ClearMediaCache">清除缓存</string>
   <string name="CacheClear">清除</string>
   <string name="CalculatingSize">正在计算...</string>
@@ -927,8 +930,8 @@
   <string name="AreYouSureDeletePhoto">确定删除此图片？</string>
   <string name="AreYouSureDeleteVideo">确定删除此视频？</string>
   <string name="DiscardChanges">放弃修改？</string>
-  <string name="ClearSearch">是否清空搜索历史？</string>
-  <string name="ClearButton">清空</string>
+  <string name="ClearSearch">是否清除搜索历史？</string>
+  <string name="ClearButton">清除</string>
   <string name="PickerPhotos">图片</string>
   <string name="PickerVideo">视频</string>
   <string name="AddCaption">添加说明...</string>
@@ -1022,6 +1025,11 @@
   <string name="PrivacySettings">隐私和安全</string>
   <string name="PrivacyTitle">隐私</string>
   <string name="PrivacyLastSeen">最后上线时间</string>
+  <string name="PrivacyPayments">付款</string>
+  <string name="PrivacyPaymentsClear">清除付款和配送信息</string>
+  <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并使所有的付款提供商清除您保存的信用卡。请注意 Telegram 从来不会存储您的信用卡数据。</string>
+  <string name="PrivacyClearShipping">配送信息</string>
+  <string name="PrivacyClearPayment">付款信息</string>
   <string name="LastSeenEverybody">所有人</string>
   <string name="LastSeenContacts">我的联系人</string>
   <string name="LastSeenNobody">不允许任何人</string>
@@ -1277,7 +1285,7 @@
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">这是您与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话加密密钥的可视化图片。<![CDATA[<br><br>]]>如果这张图片看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备上的图片完全一致，那么端对端加密就是有保证的。</string>
   <string name="NoCallLog">您还没有拨打任何电话。</string>
-  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用在使用不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
+  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用使用了不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
   <string name="VoipFeedbackAlert">您愿意留下任何反馈以帮助我们改进通话服务吗？</string>

@@ -361,7 +361,7 @@
     <value>聊天消息通知</value>
   </data>
   <data name="NotificationsSubtitle" xml:space="preserve">
-    <value>Mute, message preview, chats</value>
+    <value>免打扰、消息预览、会话</value>
   </data>
   <data name="Support" xml:space="preserve">
     <value>支持</value>
@@ -559,44 +559,44 @@
     <value>开始对话</value>
   </data>
   <data name="Intro1Message" xml:space="preserve">
-    <value>Welcome to **Telegram** ―
-the world&apos;s fastest messaging app.
-It is free and secure.</value>
+    <value>欢迎使用 **Telegram**
+世界上**最快的**聊天工具
+**免费**又**安全**</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>快速</value>
   </data>
   <data name="FastMessage" xml:space="preserve">
-    <value>**Telegram** delivers messages faster than
-any other application.</value>
+    <value>**Telegram** 以同类软件中最快的速度
+为您传递消息</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>免费</value>
   </data>
   <data name="FreeMessage" xml:space="preserve">
-    <value>**Telegram** is free forever. No ads.
-No subscription fees.</value>
+    <value>**Telegram** 永久免费，无广告
+不收取任何费用</value>
   </data>
   <data name="Powerful" xml:space="preserve">
     <value>强大</value>
   </data>
   <data name="PowerfulMessage" xml:space="preserve">
-    <value>**Telegram** has no limits on the size of
-your media and chats.</value>
+    <value>**Telegram** 不论消息或是媒体文件
+都无大小限制</value>
   </data>
   <data name="Secure" xml:space="preserve">
     <value>安全</value>
   </data>
   <data name="SecureMessage" xml:space="preserve">
-    <value>**Telegram** keeps your messages safe
-from hacker attacks.</value>
+    <value>**Telegram** 保证您的消息安全
+不受黑客侵扰</value>
   </data>
   <data name="CloudBased" xml:space="preserve">
     <value>云同步</value>
   </data>
   <data name="CloudBasedMessage" xml:space="preserve">
-    <value>**Telegram** lets you access your messages
-from multiple devices.</value>
+    <value>**Telegram** 允许您通过多个设备访问您的
+聊天记录</value>
   </data>
   <data name="TelegramDialedYourNumber" xml:space="preserve">
     <value>Telegram 正在拨打你的手机</value>
@@ -890,7 +890,7 @@ from multiple devices.</value>
     <value>应用背景</value>
   </data>
   <data name="DialogsBackground" xml:space="preserve">
-    <value>Background</value>
+    <value>聊天背景</value>
   </data>
   <data name="SpecialThanks" xml:space="preserve">
     <value>特别鸣谢</value>
@@ -920,7 +920,7 @@ from multiple devices.</value>
     <value>具有定时自毁功能</value>
   </data>
   <data name="SecretChats" xml:space="preserve">
-    <value>Secret Chats</value>
+    <value>私密对话</value>
   </data>
   <data name="DoNotAllowForwarding" xml:space="preserve">
     <value>不允许转发</value>
@@ -1026,7 +1026,7 @@ from multiple devices.</value>
     <value>向志愿者提问</value>
   </data>
   <data name="PinToStart" xml:space="preserve">
-    <value>Pin to Start</value>
+    <value>置顶</value>
   </data>
   <data name="TerminateAllSessions" xml:space="preserve">
     <value>终止所有其他会话</value>
@@ -1056,7 +1056,7 @@ from multiple devices.</value>
     <value>添加到通讯录</value>
   </data>
   <data name="ShareMyContactInfo" xml:space="preserve">
-    <value>Share My Contact Info</value>
+    <value>分享我的联系信息</value>
   </data>
   <data name="Cache" xml:space="preserve">
     <value>缓存</value>
@@ -1193,7 +1193,7 @@ from multiple devices.</value>
     <value>如果你消失了</value>
   </data>
   <data name="LastSeenDescription" xml:space="preserve">
-    <value>Who can see your Last Seen time?</value>
+    <value>谁可以看到您最后上线的时间？</value>
   </data>
   <data name="LastSeenImportantNote" xml:space="preserve">
     <value>注意：如果对方没有和你分享他们的最近在线时间，则你只能看到大致的时间段，如最近，一周内，一个月内等。</value>
@@ -1244,7 +1244,7 @@ from multiple devices.</value>
     <value>上次在线</value>
   </data>
   <data name="PrivacySecuritySubtitle" xml:space="preserve">
-    <value>Blocked users, last seen, sessions</value>
+    <value>屏蔽用户、最后上线时间、已登录设备</value>
   </data>
   <data name="MonthGenitivePlural" xml:space="preserve">
     <value>月</value>
@@ -1447,7 +1447,7 @@ from multiple devices.</value>
     <value>请输入您的密码</value>
   </data>
   <data name="Passcode" xml:space="preserve">
-    <value>Passcode Lock</value>
+    <value>密码锁</value>
   </data>
   <data name="SimplePasscode" xml:space="preserve">
     <value>简单密码</value>
@@ -1656,10 +1656,10 @@ from multiple devices.</value>
     <value>您的密码</value>
   </data>
   <data name="CurrentSession" xml:space="preserve">
-    <value>Current Session</value>
+    <value>当前设备</value>
   </data>
   <data name="OtherSessions" xml:space="preserve">
-    <value>Other Sessions</value>
+    <value>其他登录设备</value>
   </data>
   <data name="OfficialApp" xml:space="preserve">
     <value>官方应用</value>
@@ -1858,7 +1858,7 @@ from multiple devices.</value>
     <value>贴纸包未找到</value>
   </data>
   <data name="ClearLogs" xml:space="preserve">
-    <value>Clear Logs</value>
+    <value>清空日志</value>
   </data>
   <data name="Hide" xml:space="preserve">
     <value>隐藏</value>
@@ -1867,7 +1867,7 @@ from multiple devices.</value>
     <value>移除</value>
   </data>
   <data name="SendLogs" xml:space="preserve">
-    <value>Send Logs</value>
+    <value>发送日志</value>
   </data>
   <data name="StickerGenitivePlural" xml:space="preserve">
     <value>贴纸</value>
@@ -1919,7 +1919,7 @@ from multiple devices.</value>
     <value>这个机器人不能加入群组。</value>
   </data>
   <data name="AddToGroup" xml:space="preserve">
-    <value>Add to Group</value>
+    <value>添加到群组</value>
   </data>
   <data name="BlockContactConfirmation" xml:space="preserve">
     <value>您确定要屏蔽这个联系人吗？</value>
@@ -1943,7 +1943,7 @@ from multiple devices.</value>
     <value>搜索已共享链接</value>
   </data>
   <data name="SharedFiles" xml:space="preserve">
-    <value>Files</value>
+    <value>文件</value>
   </data>
   <data name="ShareLinks" xml:space="preserve">
     <value>您可以分享这个会话的链接的图片和视频，并在您的所有设备上访问。</value>
@@ -1958,7 +1958,7 @@ from multiple devices.</value>
     <value>重新启用</value>
   </data>
   <data name="StopBot" xml:space="preserve">
-    <value>Stop</value>
+    <value>停止</value>
   </data>
   <data name="ClearSearchHistoryConfirmation" xml:space="preserve">
     <value>是否清空搜索历史？</value>
@@ -2181,7 +2181,7 @@ from multiple devices.</value>
     <value>搜索已共享音乐</value>
   </data>
   <data name="SharedMusic" xml:space="preserve">
-    <value>Music</value>
+    <value>音乐</value>
   </data>
   <data name="ShareMusic" xml:space="preserve">
     <value>此会话中共享的所有音乐都会在这里显示。</value>
@@ -2199,7 +2199,7 @@ from multiple devices.</value>
     <value>设置管理员</value>
   </data>
   <data name="UpgradeToSupergroup" xml:space="preserve">
-    <value>Upgrade to Supergroup</value>
+    <value>升级到超级群组</value>
   </data>
   <data name="UpgradeToSupergroupConfirmation" xml:space="preserve">
     <value>请注意，群组成员需要将他们的 Telegram 客户端升级到最新版才能看到大型群组。您确定要升级到大型群组吗？</value>
@@ -2279,10 +2279,10 @@ from multiple devices.</value>
     <value>服务通知</value>
   </data>
   <data name="AutomaticAudioDownload" xml:space="preserve">
-    <value>Audio Auto-Download</value>
+    <value>自动下载音频</value>
   </data>
   <data name="AutomaticPhotoDownload" xml:space="preserve">
-    <value>Photo Auto-Download</value>
+    <value>自动下载图片</value>
   </data>
   <data name="CacheSettings" xml:space="preserve">
     <value>缓存设置</value>
@@ -2343,10 +2343,10 @@ from multiple devices.</value>
     <value>语音</value>
   </data>
   <data name="LocalDatabase" xml:space="preserve">
-    <value>Local Database</value>
+    <value>本地数据库</value>
   </data>
   <data name="AutomaticGifDownload" xml:space="preserve">
-    <value>GIF Auto-Download</value>
+    <value>自动下载 GIF</value>
   </data>
   <data name="ForwardedGifGenitivePlural" xml:space="preserve">
     <value>转发的 GIF</value>
@@ -2534,7 +2534,7 @@ from multiple devices.</value>
     <value>删除所有 {0} 发送的消息</value>
   </data>
   <data name="DeleteMessageConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete this message?</value>
+    <value>您确定要删除这条消息吗？</value>
   </data>
   <data name="DeleteMessages" xml:space="preserve">
     <value>删除消息</value>
@@ -2917,7 +2917,7 @@ from multiple devices.</value>
     <value>您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</value>
   </data>
   <data name="GroupsInCommon" xml:space="preserve">
-    <value>Groups in Common</value>
+    <value>共同加入的群组</value>
   </data>
   <data name="GroupGenitivePlural" xml:space="preserve">
     <value>群组</value>
@@ -2950,58 +2950,58 @@ from multiple devices.</value>
     <value>您今天已经联系了太多非联系人，请明天再试。您将可以回复此用户如果其主动给您发送了消息。</value>
   </data>
   <data name="AttachedStickers" xml:space="preserve">
-    <value>Attached stickers</value>
+    <value>发送了贴纸</value>
   </data>
   <data name="JumpToDate" xml:space="preserve">
-    <value>Jump to date</value>
+    <value>跳转到日期</value>
   </data>
   <data name="Pack" xml:space="preserve">
-    <value>View pack</value>
+    <value>查看贴纸包</value>
   </data>
   <data name="ChatsAndContacts" xml:space="preserve">
-    <value>Chats and Contacts</value>
+    <value>会话与联系人</value>
   </data>
   <data name="MessageSearch" xml:space="preserve">
-    <value>Message Search</value>
+    <value>搜索消息</value>
   </data>
   <data name="SearchChatsOrMessages" xml:space="preserve">
-    <value>Search chats or messages</value>
+    <value>搜索会话和消息</value>
   </data>
   <data name="PrivacyPolicy" xml:space="preserve">
-    <value>Privacy Policy</value>
+    <value>隐私策略</value>
   </data>
   <data name="TelegramFAQ" xml:space="preserve">
     <value>Telegram FAQ</value>
   </data>
   <data name="ChatSettingsSubtitle" xml:space="preserve">
-    <value>Media, background, cache</value>
+    <value>媒体、背景图片、缓存</value>
   </data>
   <data name="Mobile" xml:space="preserve">
-    <value>Mobile</value>
+    <value>手机</value>
   </data>
   <data name="ChannelsTooMuch" xml:space="preserve">
-    <value>Sorry, you have created or joined too many channels.</value>
+    <value>抱歉，您已创建太多公开频道。</value>
   </data>
   <data name="UserChannelsTooMuch" xml:space="preserve">
-    <value>Sorry, you can&apos;t add this user to channels.</value>
+    <value>抱歉，您不能将此用户加入频道。</value>
   </data>
   <data name="ItemsSelectedSingular" xml:space="preserve">
-    <value>{0} selected</value>
+    <value>已选 {0} 个</value>
   </data>
   <data name="NewChat" xml:space="preserve">
-    <value>New chat</value>
+    <value>新建会话</value>
   </data>
   <data name="ItemsSelectedPlural" xml:space="preserve">
-    <value>{0} selected</value>
+    <value>已选 {0} 个</value>
   </data>
   <data name="FileGenitivePlural" xml:space="preserve">
-    <value>Files</value>
+    <value>文件</value>
   </data>
   <data name="FileGenitiveSingular" xml:space="preserve">
     <value>文档</value>
   </data>
   <data name="FileNominativePlural" xml:space="preserve">
-    <value>Files</value>
+    <value>文件</value>
   </data>
   <data name="FileNominativeSingular" xml:space="preserve">
     <value>文档</value>
@@ -3019,37 +3019,37 @@ from multiple devices.</value>
     <value>链接</value>
   </data>
   <data name="PhotoGenitivePlural" xml:space="preserve">
-    <value>Photos</value>
+    <value>图片</value>
   </data>
   <data name="PhotoGenitiveSingular" xml:space="preserve">
     <value>图片</value>
   </data>
   <data name="PhotoNominativePlural" xml:space="preserve">
-    <value>Photos</value>
+    <value>图片</value>
   </data>
   <data name="PhotoNominativeSingular" xml:space="preserve">
     <value>图片</value>
   </data>
   <data name="SongGenitivePlural" xml:space="preserve">
-    <value>Songs</value>
+    <value>音乐</value>
   </data>
   <data name="SongGenitiveSingular" xml:space="preserve">
-    <value>Song</value>
+    <value>音乐</value>
   </data>
   <data name="SongNominativePlural" xml:space="preserve">
-    <value>Songs</value>
+    <value>音乐</value>
   </data>
   <data name="SongNominativeSingular" xml:space="preserve">
-    <value>Song</value>
+    <value>音乐</value>
   </data>
   <data name="VideoGenitivePlural" xml:space="preserve">
-    <value>Videos</value>
+    <value>视频</value>
   </data>
   <data name="VideoGenitiveSingular" xml:space="preserve">
     <value>视频</value>
   </data>
   <data name="VideoNominativePlural" xml:space="preserve">
-    <value>Videos</value>
+    <value>视频</value>
   </data>
   <data name="VideoNominativeSingular" xml:space="preserve">
     <value>视频</value>
@@ -3058,28 +3058,28 @@ from multiple devices.</value>
     <value>电话号码</value>
   </data>
   <data name="SetPhoto" xml:space="preserve">
-    <value>Set Photo</value>
+    <value>设置图片</value>
   </data>
   <data name="AskAQuestionDescription" xml:space="preserve">
-    <value>Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while. Please take a look at the &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#general&quot;&gt;Telegram FAQ&lt;/a&gt;]]&gt;: it has answers to most questions and important tips for &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#troubleshooting&quot;&gt;troubleshooting&lt;/a&gt;]]&gt;.</value>
+    <value>请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。请前往 &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#general&quot;&gt;Telegram FAQ&lt;/a&gt;]]&gt; 看看：那里有各种常见问题和 &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#troubleshooting&quot;&gt;故障排除提示&lt;/a&gt;]]&gt;。</value>
   </data>
   <data name="MaskPackPlural" xml:space="preserve">
-    <value>{0} mask packs</value>
+    <value>{0} 个装饰包</value>
   </data>
   <data name="MaskPackSingular" xml:space="preserve">
-    <value>{0} mask pack</value>
+    <value>{0} 个装饰包</value>
   </data>
   <data name="StickerPackPlural" xml:space="preserve">
-    <value>{0} sticker packs</value>
+    <value>{0} 个贴纸包</value>
   </data>
   <data name="StickerPackSingular" xml:space="preserve">
-    <value>{0} sticker pack</value>
+    <value>{0} 个贴纸包</value>
   </data>
   <data name="NewStickerPackPlural" xml:space="preserve">
-    <value>{0} new sticker packs</value>
+    <value>{0} 个新贴纸包</value>
   </data>
   <data name="NewStickerPackSingular" xml:space="preserve">
-    <value>{0} new sticker pack</value>
+    <value>{0} 个新贴纸包</value>
   </data>
   <data name="PinDialog" xml:space="preserve">
     <value>置顶</value>
@@ -3088,57 +3088,219 @@ from multiple devices.</value>
     <value>取消置顶</value>
   </data>
   <data name="DeleteFor" xml:space="preserve">
-    <value>Delete for {0}</value>
+    <value>从 {0} 处撤回</value>
   </data>
   <data name="DeleteForAll" xml:space="preserve">
-    <value>Delete for all</value>
+    <value>从会话撤回</value>
   </data>
   <data name="DeleteMessageForYouHint" xml:space="preserve">
-    <value>This will delete it just for you.</value>
+    <value>仅在本地删除这条消息。</value>
   </data>
   <data name="DeleteMessagesForYouHint" xml:space="preserve">
-    <value>This will delete them just for you.</value>
+    <value>仅在本地删除这些消息。</value>
   </data>
   <data name="MessageActionCanceledCall" xml:space="preserve">
-    <value>Canceled call at {0}</value>
+    <value>未接去电 {0}</value>
   </data>
   <data name="MessageActionIncomingCall" xml:space="preserve">
-    <value>Incoming call at {0}</value>
+    <value>接听电话 {0}</value>
   </data>
   <data name="MessageActionIncomingDurationCall" xml:space="preserve">
-    <value>Incoming call ({0}) at {1}</value>
+    <value>接听来电 ({0}) {1}</value>
   </data>
   <data name="MessageActionMissedCall" xml:space="preserve">
-    <value>Missed call at {0}</value>
+    <value>未接来电 {0}</value>
   </data>
   <data name="MessageActionOutgoingCall" xml:space="preserve">
-    <value>Outgoing call at {0}</value>
+    <value>外拨电话 {0}</value>
   </data>
   <data name="MessageActionOutgoingDurationCall" xml:space="preserve">
-    <value>Outgoing call ({0}) at {1}</value>
+    <value>外拨电话 ({0}) {1}</value>
   </data>
   <data name="CanceledCall" xml:space="preserve">
-    <value>Canceled call</value>
+    <value>未接去电</value>
   </data>
   <data name="IncomingCall" xml:space="preserve">
-    <value>Incoming call</value>
+    <value>来电</value>
   </data>
   <data name="MissedCall" xml:space="preserve">
-    <value>Missed call</value>
+    <value>未接来电</value>
   </data>
   <data name="OutgoingCall" xml:space="preserve">
-    <value>Outgoing call</value>
+    <value>外拨电话</value>
   </data>
   <data name="DeleteMessageForEveryoneInChannelHint" xml:space="preserve">
-    <value>This will delete it for everyone in this channel.</value>
+    <value>从频道中删除这条消息。</value>
   </data>
   <data name="DeleteMessageForEveryoneInChatHint" xml:space="preserve">
-    <value>This will delete it for everyone in this chat.</value>
+    <value>从会话中撤回这条消息。</value>
   </data>
   <data name="DeleteMessagesForEveryoneInChannelHint" xml:space="preserve">
-    <value>This will delete them for everyone in this channel.</value>
+    <value>从频道中删除这些消息。</value>
   </data>
   <data name="DeleteMessagesForEveryoneInChatHint" xml:space="preserve">
-    <value>This will delete them for everyone in this chat.</value>
+    <value>从会话中撤回这些消息。</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="TestInvoice" xml:space="preserve">
+    <value>Test Invoice</value>
+  </data>
+  <data name="MessageActionPaymentSent" xml:space="preserve">
+    <value>You have just successfully transferred {0} to {1}</value>
+  </data>
+  <data name="MessageActionPaymentSentFor" xml:space="preserve">
+    <value>You have just successfully transferred {0} to {1} for {2}</value>
+  </data>
+  <data name="PaymentInfo" xml:space="preserve">
+    <value>Payment info</value>
+  </data>
+  <data name="Receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Address1Street" xml:space="preserve">
+    <value>Address 1 (Street)</value>
+  </data>
+  <data name="Address2Street" xml:space="preserve">
+    <value>Address 2 (Street)</value>
+  </data>
+  <data name="BillingAddress" xml:space="preserve">
+    <value>Billing address</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>Card Number</value>
+  </data>
+  <data name="Checkout" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Contact address</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="MMYY" xml:space="preserve">
+    <value>MM/YY</value>
+  </data>
+  <data name="NameSurname" xml:space="preserve">
+    <value>Name Surname</value>
+  </data>
+  <data name="PaymentCard" xml:space="preserve">
+    <value>Payment card</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>付款方式</value>
+  </data>
+  <data name="Postcode" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="Receiver" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="SaveShippingInformation" xml:space="preserve">
+    <value>Save Shipping Information</value>
+  </data>
+  <data name="SaveShippingInformationHint" xml:space="preserve">
+    <value>You can save your shipping info for future use.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Security Code (CVV)</value>
+  </data>
+  <data name="Shipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="ShippingAddress" xml:space="preserve">
+    <value>Shipping address</value>
+  </data>
+  <data name="ShippingInformation" xml:space="preserve">
+    <value>Shipping information</value>
+  </data>
+  <data name="ShippingMethods" xml:space="preserve">
+    <value>Shipping methods</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="Taxes" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="TestReceipt" xml:space="preserve">
+    <value>Test Receipt</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TransactionConfirmation" xml:space="preserve">
+    <value>Do you really want to transfer {0} to the {1} for {2}?</value>
+  </data>
+  <data name="TransactionReview" xml:space="preserve">
+    <value>Transaction Review</value>
+  </data>
+  <data name="TestCheckout" xml:space="preserve">
+    <value>Test Checkout</value>
+  </data>
+  <data name="ShippingMethod" xml:space="preserve">
+    <value>Shipping method</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="CameraSubtitle" xml:space="preserve">
+    <value>Manage camera settings</value>
+  </data>
+  <data name="ChooseYourCameraApp" xml:space="preserve">
+    <value>Choose your camera app</value>
+  </data>
+  <data name="ExternalCamera" xml:space="preserve">
+    <value>External Camera</value>
+  </data>
+  <data name="InAppCamera" xml:space="preserve">
+    <value>In-app Camera</value>
+  </data>
+  <data name="Calls" xml:space="preserve">
+    <value>Calls</value>
+  </data>
+  <data name="CallsPrivacyDescription" xml:space="preserve">
+    <value>Who can call me?</value>
+  </data>
+  <data name="CallsPrivacyImportantNote" xml:space="preserve">
+    <value>You can restrict who can call you.</value>
+  </data>
+  <data name="CallsPrivacyOverrideNote" xml:space="preserve">
+    <value>These users will or will not be able to call you regardless of the settings above.</value>
+  </data>
+  <data name="NoCallsHere" xml:space="preserve">
+    <value>No calls here</value>
+  </data>
+  <data name="VoiceCall" xml:space="preserve">
+    <value>Voice Call</value>
+  </data>
+  <data name="CameraRollFolder" xml:space="preserve">
+    <value>Camera Roll</value>
+  </data>
+  <data name="SavedPicturesFolder" xml:space="preserve">
+    <value>Saved Pictures</value>
+  </data>
+  <data name="ScreenshotsFolder" xml:space="preserve">
+    <value>Screenshots</value>
+  </data>
+  <data name="AccessCameraException" xml:space="preserve">
+    <value>Can&apos;t access current camera</value>
   </data>
 </root>
