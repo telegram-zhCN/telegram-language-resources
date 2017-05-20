@@ -326,16 +326,17 @@
   <string name="Typing">typing...</string>
   <string name="IsTyping">is typing...</string>
   <string name="AreTyping">are typing...</string>
-  <string name="IsRecordingAudio">%1$s is recording voice message...</string>
-  <string name="IsRecordingRound">%1$s is recording video message...</string>
+  <string name="IsRecordingAudio">%1$s is recording a voice message...</string>
+  <string name="IsRecordingRound">%1$s is recording a video message...</string>
   <string name="IsSendingAudio">%1$s is sending audio...</string>
   <string name="IsSendingPhoto">%1$s is sending photo...</string>
   <string name="InstantView">INSTANT VIEW</string>
+  <string name="InstantViewNightMode">The dark theme will turn automatically during night time</string>
   <string name="IsSendingGame">%1$s is playing a game...</string>
   <string name="IsSendingVideo">%1$s is sending video...</string>
   <string name="IsSendingFile">%1$s is sending file...</string>
-  <string name="RecordingAudio">recording voice message...</string>
-  <string name="RecordingRound">recording video message...</string>
+  <string name="RecordingAudio">recording a voice message...</string>
+  <string name="RecordingRound">recording a video message...</string>
   <string name="SendingAudio">sending audio...</string>
   <string name="SendingPhoto">sending photo...</string>
   <string name="SendingGame">playing a game...</string>
@@ -827,6 +828,8 @@
   <string name="KeepMedia">Keep Media</string>
   <string name="KeepMediaInfo">Photos, videos and other files from cloud chats that you have <![CDATA[<b>not accessed</b>]]> during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
   <string name="KeepMediaForever">Forever</string>
+  <string name="AudioAutodownload">Voice messages</string>
+  <string name="VideoMessagesAutodownload">Video messages</string>
   <!--sessions view-->
   <string name="SessionsTitle">Active Sessions</string>
   <string name="CurrentSession">Current session</string>
