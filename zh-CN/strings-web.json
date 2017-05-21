@@ -204,7 +204,7 @@
     "confirm_modal_clipboard_X_files_send": "{'one': '您确定要发送剪贴板里拷贝的文件吗？', 'other': '您确定要发送剪贴板里拷贝的 {} 个文件吗？'}",
     "confirm_modal_message_delete": "您确定要删除这条消息吗？",
     "confirm_modal_delete_X_messages": "{'one': '{} 条消息, 'other': '{} 条消息'}",
-    "confirm_modal_delete_messages": "您确定要删除这 {messages}吗？",
+    "confirm_modal_delete_messages": "您确定要删除 {messages} 吗？",
     "confirm_modal_message_revoke": "从 {receipient} 处撤回",
     "confirm_modal_message_revoke_recipient_chat": "所有人",
     "confirm_modal_delete_messages_for_everyone_chat": "这将为在此对话中的所有人删除这些消息。",

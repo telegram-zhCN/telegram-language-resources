@@ -331,6 +331,7 @@
   <string name="IsSendingAudio">%1$s 正在发送音频…</string>
   <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
   <string name="InstantView">即时预览</string>
+  <string name="InstantViewNightMode">暗色主题将会在夜间自动启用</string>
   <string name="IsSendingGame">%1$s 正在玩游戏…</string>
   <string name="IsSendingVideo">%1$s 正在发送视频...</string>
   <string name="IsSendingFile">%1$s 正在发送文件...</string>
@@ -827,6 +828,8 @@
   <string name="KeepMedia">媒体文件保留时间</string>
   <string name="KeepMediaInfo">为节省存储空间，在此期间内您<![CDATA[<b>未访问</b>]]>的来自云端的图片、视频和其他文件，都会从此设备中删除。\n\n所有媒体文件会保留在 Telegram 云端，并且在您需要时可以再次下载。</string>
   <string name="KeepMediaForever">永久保留</string>
+  <string name="AudioAutodownload">语音消息</string>
+  <string name="VideoMessagesAutodownload">视频消息</string>
   <!--sessions view-->
   <string name="SessionsTitle">活动会话</string>
   <string name="CurrentSession">当前会话</string>
