@@ -83,7 +83,7 @@
   <string name="PaymentCheckoutShippingMethod">配送方式</string>
   <string name="PaymentReceipt">收据</string>
   <string name="PaymentConfirmationNewCard">选择另一张卡</string>
-  <string name="PaymentConfirmationMessage">您的银行卡 %1$s 已被记录。要使用此卡付款，请输入您的两步验证密码。</string>
+  <string name="PaymentConfirmationMessage">您的银行卡 %1$s 已被保存。要使用此卡付款，请输入您的两步验证密码。</string>
   <string name="PaymentPrecheckoutFailed">抱歉，付款已被此机器人取消。</string>
   <string name="PaymentFailed">抱歉，付款被拒绝。</string>
   <string name="PaymentConnectionFailed">无法连接至付款服务器。请检查您的互联网连接并重试。</string>
