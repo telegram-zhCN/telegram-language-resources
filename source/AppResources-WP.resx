@@ -3305,4 +3305,37 @@ The group **&quot;{1}&quot;** will become private.</value>
   <data name="AccessCameraException" xml:space="preserve">
     <value>Can&apos;t access current camera</value>
   </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Calling" xml:space="preserve">
+    <value>Calling...</value>
+  </data>
+  <data name="EmojiDescription" xml:space="preserve">
+    <value>If these emoji are the same on {0}&apos;s screen, this call is 100% secure.</value>
+  </data>
+  <data name="EndCall" xml:space="preserve">
+    <value>End Call</value>
+  </data>
+  <data name="Speaker" xml:space="preserve">
+    <value>Speaker</value>
+  </data>
+  <data name="TouchToReturnToCall" xml:space="preserve">
+    <value>Touch to return to call {0}</value>
+  </data>
+  <data name="PaymentProvider" xml:space="preserve">
+    <value>Payment provider</value>
+  </data>
+  <data name="PaymentsWarning" xml:space="preserve">
+    <value>Payments will go directly to the developer of {0}. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of {0} or your bank.</value>
+  </data>
+  <data name="SavePaymentInformation" xml:space="preserve">
+    <value>Save Payment Information</value>
+  </data>
+  <data name="SavePaymentInformationHint" xml:space="preserve">
+    <value>You can save your payment info for future use.</value>
+  </data>
+  <data name="SavedCardHint" xml:space="preserve">
+    <value>Your card {0} is on file. To pay with this card, please enter your 2-Step-Verification password.</value>
+  </data>
 </root>
