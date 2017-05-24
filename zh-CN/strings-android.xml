@@ -617,7 +617,7 @@
   <string name="UsernameInvalidShort">用户名必须包含至少5个字符。</string>
   <string name="UsernameInvalidLong">用户名不能超过32个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
-  <string name="UsernameHelp">您可以在 <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> 上设置一个用户名。这样，别人就可以在无需知道您的手机号码的情况下，通过此用户名找到您并与您联系。<![CDATA[<br><br>]]>您可以使用 <![CDATA[<b>]]>a–z<![CDATA[</b>]]>，<![CDATA[<b>]]>0–9<![CDATA[</b>]]> 及下划线。最小长度为 <![CDATA[<b>]]>5<![CDATA[</b>]]> 个字符。</string>
+  <string name="UsernameHelp">您可以在 <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。<![CDATA[<br><br>]]>您可以使用 <![CDATA[<b>]]>a–z<![CDATA[</b>]]>，<![CDATA[<b>]]>0–9<![CDATA[</b>]]> 和下划线。最小长度为 <![CDATA[<b>]]>5<![CDATA[</b>]]> 个字符。</string>
   <string name="UsernameHelpLink">此链接会在 Telegram 中打开一个与您的会话窗口：\n%1$s</string>
   <string name="UsernameChecking">正在检查用户名...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
