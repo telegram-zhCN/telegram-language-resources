@@ -3338,4 +3338,16 @@ The group **&quot;{1}&quot;** will become private.</value>
   <data name="SavedCardHint" xml:space="preserve">
     <value>Your card {0} is on file. To pay with this card, please enter your 2-Step-Verification password.</value>
   </data>
+  <data name="ChooseDifferentCard" xml:space="preserve">
+    <value>Choose a different card</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Payments</value>
+  </data>
+  <data name="PaymentsSubtitle" xml:space="preserve">
+    <value>Clear payment &amp; shipping info</value>
+  </data>
+  <data name="ShippingInfo" xml:space="preserve">
+    <value>Shipping info</value>
+  </data>
 </root>
