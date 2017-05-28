@@ -3350,4 +3350,25 @@ The group **&quot;{1}&quot;** will become private.</value>
   <data name="ShippingInfo" xml:space="preserve">
     <value>Shipping info</value>
   </data>
+  <data name="Ringing" xml:space="preserve">
+    <value>Ringing</value>
+  </data>
+  <data name="TurnOnTwoStepVerification" xml:space="preserve">
+    <value>Please *turn on Two-Step Verification* to enable this.</value>
+  </data>
+  <data name="ChooseYourPhotoPickerApp" xml:space="preserve">
+    <value>Choose your photo picker app</value>
+  </data>
+  <data name="ExternalPhotoPicker" xml:space="preserve">
+    <value>External Photo Picker</value>
+  </data>
+  <data name="InAppPhotoPicker" xml:space="preserve">
+    <value>In-app Photo Picker</value>
+  </data>
+  <data name="PhotoPicker" xml:space="preserve">
+    <value>Photo Picker</value>
+  </data>
+  <data name="PhotoPickerSubtitle" xml:space="preserve">
+    <value>Manage photo picker settings</value>
+  </data>
 </root>
