@@ -128,7 +128,7 @@
   <string name="ChatHintsDelete">确认从建议列表中删除 %1$s 吗？</string>
   <string name="LinkPreview">链接预览</string>
   <string name="Draft">草稿</string>
-  <string name="HistoryCleared">历史记录已被清除</string>
+  <string name="HistoryCleared">历史聊天记录已被清除</string>
   <string name="ArticleByAuthor">%1$s</string>
   <string name="ArticleDateByAuthor">%2$s 于 %1$s</string>
   <string name="PreviewFeedback">发送关于此预览的反馈</string>
