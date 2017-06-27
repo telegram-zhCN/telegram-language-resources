@@ -3,8 +3,10 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">English</string>
+  <string name="English">English</string>
   <string name="LanguageNameInEnglish">English</string>
   <string name="LanguageCode">en</string>
+  <string name="ContinueOnThisLanguage">Continue in English</string>
   <!--signin view-->
   <string name="YourPhone">Your phone</string>
   <string name="StartText">Please confirm your country code and enter your phone number.</string>
@@ -88,7 +90,7 @@
   <string name="PaymentFailed">Sorry, the payment was declined.</string>
   <string name="PaymentConnectionFailed">Unable to reach payment server. Please check your internet connection and try again.</string>
   <string name="PaymentWarning">Warning</string>
-  <string name="PaymentWarningText">Payments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %2$s or your bank.</string>
+  <string name="PaymentWarningText">Neither Telegram, nor %1$s will have access to your credit card information. Credit card details will be handled only by the payment system, %2$s.\n\nPayments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$s or your bank.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">New conversation</string>
   <string name="Settings">Settings</string>
@@ -100,6 +102,13 @@
   <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
   <string name="WaitingForNetwork">Waiting for network...</string>
   <string name="Connecting">Connecting...</string>
+  <string name="ConnectingToProxy">Connecting to proxy...</string>
+  <string name="ConnectingToProxyTapToDisable">Tap here to disable proxy...</string>
+  <string name="ConnectingToProxyDisable">Disable</string>
+  <string name="ConnectingToProxyEnable">Enable</string>
+  <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>
+  <string name="EnableProxyAlert2">You can change your proxy server later it in the Settings (Data and Storage).</string>
+  <string name="ConnectingToProxyDisableAlert">Are you sure you want to disable proxy server %1$s? You can reenable it in the Settings later (Data and Storage).</string>
   <string name="Updating">Updating...</string>
   <string name="NewSecretChat">New Secret Chat</string>
   <string name="AwaitingEncryption">Waiting for %s to get online...</string>
@@ -143,11 +152,10 @@
   <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
   <string name="ContactsPermissionAlertContinue">CONTINUE</string>
   <!--channels-->
-  <string name="GroupType">Group Type</string>
-  <string name="ChannelType">Channel Type</string>
   <string name="ChannelTypePublic">Public</string>
   <string name="ChannelTypePrivate">Private</string>
   <string name="SetAsAdmin">Promote to admin</string>
+  <string name="NoBlockedUsers">No banned users</string>
   <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
   <string name="LeaveMega">Leave Group</string>
   <string name="DeleteMega">Delete Group</string>
@@ -179,7 +187,8 @@
   <string name="ActionPinnedMusic">un1 pinned a track</string>
   <string name="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
   <string name="ActionMigrateFromGroupNotify">%1$s was upgraded to a supergroup</string>
-  <string name="NoBlockedGroup">Blocked users are removed from the group and can only come back if invited by an admin. Invite links don\'t work for them.</string>
+  <string name="NoBlockedGroup">Banned users are removed from the group and can only come back if invited by an admin. Invite links don\'t work for them.</string>
+  <string name="NoBlockedChannel">Banned users are removed from the channel and can only come back if invited by an admin. Invite links don\'t work for them.</string>
   <string name="NewChannel">New Channel</string>
   <string name="EnterChannelName">Channel name</string>
   <string name="AddMutual">Add contacts to your channel</string>
@@ -221,7 +230,8 @@
   <string name="LinkChecking">Checking name…</string>
   <string name="LinkAvailable">%1$s is available.</string>
   <string name="ChannelMembers">Members</string>
-  <string name="ChannelBlockedUsers">Blocked users</string>
+  <string name="ChannelBlacklist">Blacklist</string>
+  <string name="ChannelBlockedUsers">Banned users</string>
   <string name="ChannelRestrictedUsers">Restricted users</string>
   <string name="ChannelAdministrators">Administrators</string>
   <string name="ChannelDelete">Delete Channel</string>
@@ -243,10 +253,12 @@
   <string name="ChannelMute">MUTE</string>
   <string name="ChannelUnmute">UNMUTE</string>
   <string name="ChannelAddAdmin">Add Administrator</string>
-  <string name="ChannelBlockUser">Block User</string>
+  <string name="ChannelBlockUser">Ban User</string>
+  <string name="Unban">Unban</string>
+  <string name="UnbanText">Tap and hold on user to unban.</string>
   <string name="ChannelInviteViaLink">Invite via Link</string>
   <string name="ChannelAddUserAdminAlert">Are you sure you want to make %1$s an administrator?</string>
-  <string name="ChannelRemoveUserAdmin">Remove</string>
+  <string name="ChannelRemoveUserAdmin">Dismiss admin</string>
   <string name="ChannelMembersInfo">Only channel administrators can see this list.</string>
   <string name="ChannelAdminNotParticipant">This user hasn\'t joined the channel yet. Do you want to invite them?</string>
   <string name="ChannelLinkInfo">Anyone who has Telegram installed will be able to join your channel by following this link.</string>
@@ -306,13 +318,15 @@
   <string name="EditAdminPostMessages">Post Messages</string>
   <string name="EditAdminEditMessages">Edit Messages of Others</string>
   <string name="EditAdminDeleteMessages">Delete Messages of Others</string>
+  <string name="EditAdminGroupDeleteMessages">Delete Messages</string>
   <string name="EditAdminAddAdmins">Add New Admins</string>
-  <string name="EditAdminRemoveAdmin">Remove Admin</string>
+  <string name="EditAdminRemoveAdmin">Dismiss Admin</string>
   <string name="EditAdminBanUsers">Ban Users</string>
   <string name="EditAdminAddUsers">Add Users</string>
-  <string name="EditAdminAddUsersViaLink">Invite Users via Link</string>
   <string name="EditAdminPinMessages">Pin Messages</string>
-  <string name="EditAdminPromotedBy">Promoted by %1$s</string>
+  <string name="EditAdminPromotedBy">Added by %1$s</string>
+  <string name="EditAdminCantEdit">You cannot edit rights of this admin.</string>
+  <string name="UserRestrictionsBy">Restricted by %1$s</string>
   <string name="UserRestrictions">User Restrictions</string>
   <string name="UserRestrictionsRead">Read Messages</string>
   <string name="UserRestrictionsCanDo">What can this user do?</string>
@@ -323,59 +337,63 @@
   <string name="UserRestrictionsUntil">Banned until</string>
   <string name="UserRestrictionsUntilForever">Forever</string>
   <string name="UserRestrictionsUntilRemove">Remove</string>
-  <string name="UserRestrictionsBlock">Block and remove from group</string>
+  <string name="UserRestrictionsBlock">Ban and remove from group</string>
+  <string name="ManageGroup">Manage Group</string>
+  <string name="ManageChannel">Manage Channel</string>
+  <string name="ManageGroupMenu">Manage group</string>
+  <string name="ManageChannelMenu">Manage channel</string>
   <!--event log-->
   <string name="EventLog">Event Log</string>
   <string name="EventLogAllEvents">All events</string>
   <string name="EventLogSelectedEvents">Selected events</string>
   <string name="EventLogAllAdmins">All admins</string>
-  <string name="EventLogEmpty"><![CDATA[<b>]]>No event here yet<![CDATA[</b>]]>\n\nThere were no service\nactions taken by the group\'s\nmembers and admins for\nthe last 48 hours.</string>
-  <string name="EventLogInfoTitle">What\'s the Event Log?</string>
-  <string name="EventLogInfoDetail">This is a list of all service actions taken by the group\'s members and admins since its creation.\n\nDelete messages and version history for messages are only available for <![CDATA[<b>]]>48 hours<![CDATA[</b>]]>.</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>No events here yet<![CDATA[</b>]]>\n\nThe group\'s members and admins\nhave not taken any service actions\nin the last 48 hours.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>No events here yet<![CDATA[</b>]]>\n\nThe channel\'s admins\nhave not taken any service actions\nin the last 48 hours.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>No events found<![CDATA[</b>]]>\n\nNo recent events that match your query have been found.</string>
+  <string name="EventLogEmptyTextSearch">No recent events that contain \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' have been found.</string>
+  <string name="EventLogInfoTitle">What is the Event Log?</string>
+  <string name="EventLogInfoDetail">This is a list of all service actions taken by the group\'s members and admins in the last 48 hours.</string>
+  <string name="EventLogInfoDetailChannel">This is a list of all service actions taken by the channel\'s admins in the last 48 hours.</string>
   <string name="EventLogEditedGroupTitle">un1 renamed the group to \"%1$s\"</string>
   <string name="EventLogEditedChannelTitle">un1 renamed the channel to \"%1$s\"</string>
-  <string name="EventLogEditedYouGroupTitle">You renamed the group to \"%1$s\"</string>
-  <string name="EventLogEditedYouChannelTitle">You renamed the channel to \"%1$s\"</string>
-  <string name="EventLogRemoved">un1 removed un2</string>
-  <string name="EventLogLeft">un1 left group</string>
-  <string name="EventLogYouLeft">You left group</string>
-  <string name="EventLogGroupJoined">un1 joined group</string>
-  <string name="EventLogChannelJoined">un1 joined channel</string>
-  <string name="EventLogYouGroupJoined">You joined group</string>
-  <string name="EventLogYouChannelJoined">You joined channel</string>
-  <string name="EventLogEditedGroupPhoto">un1 set new group photo</string>
-  <string name="EventLogEditedChannelPhoto">un1 set new channel photo</string>
-  <string name="EventLogEditedYouGroupPhoto">You set new group photo</string>
-  <string name="EventLogEditedYouChannelPhoto">You set new channel photo</string>
-  <string name="EventLogRemovedWGroupPhoto">un1 removed group photo</string>
-  <string name="EventLogRemovedChannelPhoto">un1 removed channel photo</string>
-  <string name="EventLogRemovedYouGroupPhoto">You removed group photo</string>
-  <string name="EventLogRemovedYouChannelPhoto">You removed channel photo</string>
-  <string name="EventLogEditedMessages">un1 edited a message</string>
+  <string name="EventLogLeftGroup">un1 left the group</string>
+  <string name="EventLogLeftChannel">un1 left the channel</string>
+  <string name="EventLogAdded">un1 added un2</string>
+  <string name="EventLogGroupJoined">un1 joined the group</string>
+  <string name="EventLogChannelRestricted">banned %1$s</string>
+  <string name="EventLogChannelUnrestricted">unbanned %1$s</string>
+  <string name="EventLogChannelJoined">un1 joined the channel</string>
+  <string name="EventLogEditedGroupPhoto">un1 set a new group photo</string>
+  <string name="EventLogEditedChannelPhoto">un1 set a new channel photo</string>
+  <string name="EventLogRemovedWGroupPhoto">un1 removed the group photo</string>
+  <string name="EventLogRemovedChannelPhoto">un1 removed the channel photo</string>
+  <string name="EventLogEditedMessages">un1 edited this message:</string>
+  <string name="EventLogEditedCaption">un1 edited caption:</string>
   <string name="EventLogOriginalMessages">Original message</string>
-  <string name="EventLogPinnedMessages">un1 pinned a message</string>
-  <string name="EventLogUnpinnedMessages">un1 unpinned a message</string>
-  <string name="EventLogDeletedMessages">un1 deleted a message</string>
-  <string name="EventLogChangedGroupLink">un1 changed group link</string>
-  <string name="EventLogPreviousGroupLink">Previous group link</string>
-  <string name="EventLogChangedChannelLink">un1 changed channel link</string>
-  <string name="EventLogPreviousChannelLink">Previous channel link</string>
-  <string name="EventLogEditedGroupDescription">un1 edited group description</string>
-  <string name="EventLogEditedChannelDescription">un1 edited channel description</string>
+  <string name="EventLogOriginalCaption">Original caption</string>
+  <string name="EventLogOriginalCaptionEmpty">Empty</string>
+  <string name="EventLogPinnedMessages">un1 pinned this message:</string>
+  <string name="EventLogUnpinnedMessages">un1 unpinned message</string>
+  <string name="EventLogDeletedMessages">un1 deleted this message:</string>
+  <string name="EventLogChangedGroupLink">un1 changed the group link:</string>
+  <string name="EventLogChangedChannelLink">un1 changed the channel link:</string>
+  <string name="EventLogRemovedGroupLink">un1 removed group link</string>
+  <string name="EventLogRemovedChannelLink">un1 removed channel link</string>
+  <string name="EventLogPreviousLink">Previous link</string>
+  <string name="EventLogEditedGroupDescription">un1 edited the group description:</string>
+  <string name="EventLogEditedChannelDescription">un1 edited the channel description:</string>
   <string name="EventLogPreviousGroupDescription">Previous description</string>
-  <string name="EventLogToggledInvitesOn">un1 toggled invites on</string>
-  <string name="EventLogToggledInvitesOff">un1 toggled invites off</string>
-  <string name="EventLogToggledSignaturesOn">un1 toggled signatures on</string>
-  <string name="EventLogToggledSignaturesOff">un1 toggled signatures off</string>
-  <string name="EventLogRestricted">un1 changed restrictions for un2 (%1$s)</string>
-  <string name="EventLogYouRestricted">You changed restrictions for un2 (%1$s)</string>
+  <string name="EventLogToggledInvitesOn">un1 enabled group invites</string>
+  <string name="EventLogToggledInvitesOff">un1 disabled group invites</string>
+  <string name="EventLogToggledSignaturesOn">un1 enabled signatures</string>
+  <string name="EventLogToggledSignaturesOff">un1 disabled signatures</string>
+  <string name="EventLogRestrictedUntil">changed restrictions for %1$s\n\nDuration: %2$s</string>
   <string name="EventLogRestrictedSendStickers">Send stickers &amp; GIFs</string>
   <string name="EventLogRestrictedSendMedia">Send media</string>
   <string name="EventLogRestrictedSendMessages">Send messages</string>
   <string name="EventLogRestrictedSendEmbed">Embed links</string>
   <string name="EventLogRestrictedReadMessages">Read messages</string>
-  <string name="EventLogPromoted">un1 changed privileges of un2 (%1$s)</string>
-  <string name="EventLogYouPromoted">You changed privileges of un2 (%1$s)</string>
+  <string name="EventLogPromoted">changed privileges of %1$s</string>
   <string name="EventLogPromotedChangeChannelInfo">Change channel Info</string>
   <string name="EventLogPromotedChangeGroupInfo">Change group Info</string>
   <string name="EventLogPromotedPostMessages">Post messages</string>
@@ -384,7 +402,6 @@
   <string name="EventLogPromotedAddAdmins">Add admins</string>
   <string name="EventLogPromotedBanUsers">Ban users</string>
   <string name="EventLogPromotedAddUsers">Add users</string>
-  <string name="EventLogPromotedInviteLink">Invite via link</string>
   <string name="EventLogPromotedPinMessages">Pin messages</string>
   <string name="EventLogFilterAll">All events</string>
   <string name="EventLogFilterNewRestrictions">New restrictions</string>
@@ -393,7 +410,6 @@
   <string name="EventLogFilterGroupInfo">Group info</string>
   <string name="EventLogFilterChannelInfo">Channel info</string>
   <string name="EventLogFilterGroupSettings">Group settings</string>
-  <string name="EventLogFilterChannelSettings">Channel settings</string>
   <string name="EventLogFilterDeletedMessages">Deleted messages</string>
   <string name="EventLogFilterEditedMessages">Edited messages</string>
   <string name="EventLogFilterPinnedMessages">Pinned messages</string>
@@ -434,6 +450,8 @@
   <string name="IsSendingAudio">%1$s is sending audio...</string>
   <string name="IsSendingPhoto">%1$s is sending photo...</string>
   <string name="InstantView">INSTANT VIEW</string>
+  <string name="OpenGroup">OPEN GROUP</string>
+  <string name="OpenChannel">OPEN CHANNEL</string>
   <string name="InstantViewNightMode">The dark theme will turn automatically during night time</string>
   <string name="IsSendingGame">%1$s is playing a game...</string>
   <string name="IsSendingVideo">%1$s is sending video...</string>
@@ -487,6 +505,7 @@
   <string name="OpenInExternalApp">Open in...</string>
   <string name="CopyUrl">Copy URL</string>
   <string name="SendItems">Send %1$s</string>
+  <string name="SendAsFile">Send as file</string>
   <string name="SendAsFiles">Send as files</string>
   <string name="OpenUrlAlert">Open url %1$s?</string>
   <string name="BotPermissionGameAlert">Allow %1$s to pass your Telegram name and id (not your phone number) to pages you open with this bot?</string>
@@ -546,6 +565,14 @@
   <string name="DiscardVideoMessageTitle">Discard Video Message</string>
   <string name="DiscardVideoMessageDescription">Are you sure you want to stop recording and discard your video message?</string>
   <string name="DiscardVoiceMessageAction">Discard</string>
+  <string name="AttachMediaRestricted">The admins of this group have restricted you from sending media here until %1$s</string>
+  <string name="AttachInlineRestricted">The admins of this group have restricted you from sending inline content here until %1$s</string>
+  <string name="AttachStickersRestricted">The admins of this group have restricted you from sending stickers here until %1$s</string>
+  <string name="SendMessageRestricted">The admins of this group have restricted you from writing here until %1$s</string>
+  <string name="AttachMediaRestrictedForever">The admins of this group have restricted you from sending media here</string>
+  <string name="AttachInlineRestrictedForever">The admins of this group have restricted you from sending inline content here</string>
+  <string name="AttachStickersRestrictedForever">The admins of this group have restricted you from sending stickers here</string>
+  <string name="SendMessageRestrictedForever">The admins of this group have restricted you from writing here</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -674,8 +701,10 @@
   <string name="SETTINGS">Settings</string>
   <string name="AddMember">Add member</string>
   <string name="SetAdmins">Set admins</string>
+  <string name="BanFromTheGroup">BAN FROM THE GROUP</string>
   <string name="DeleteAndExit">Delete and leave group</string>
   <string name="Notifications">Notifications</string>
+  <string name="KickFromSupergroup">Restrict user</string>
   <string name="KickFromGroup">Remove from group</string>
   <string name="UpgradeGroup">Upgrade to Supergroup</string>
   <string name="ConvertGroup">Convert to Supergroup</string>
@@ -707,7 +736,7 @@
   <string name="EncryptionKey">Encryption Key</string>
   <string name="MessageLifetime">Self-Destruct Timer</string>
   <string name="ShortMessageLifetimeForever">Off</string>
-  <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>If they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.<![CDATA[<br><br>]]>Learn more at telegram.org</string>
+  <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nIf they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.\n\nLearn more at telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Tap to emojify</string>
   <string name="NumberUnknown">Unknown</string>
@@ -721,7 +750,7 @@
   <string name="UsernameInvalidShort">A username must have at least 5 characters.</string>
   <string name="UsernameInvalidLong">The username must not exceed 32 characters.</string>
   <string name="UsernameInvalidStartNumber">Sorry, a username can\'t start with a number.</string>
-  <string name="UsernameHelp">You can choose a username on <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. If you do, other people will be able to find you by this username and contact you without knowing your phone number.<![CDATA[<br><br>]]>You can use <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> and underscores. Minimum length is <![CDATA[<b>]]>5<![CDATA[</b>]]> characters.</string>
+  <string name="UsernameHelp">You can choose a username on <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> and underscores. Minimum length is <![CDATA[<b>]]>5<![CDATA[</b>]]> characters.</string>
   <string name="UsernameHelpLink">This link opens a chat with you on Telegram:\n%1$s</string>
   <string name="UsernameChecking">Checking username...</string>
   <string name="UsernameAvailable">%1$s is available.</string>
@@ -833,8 +862,8 @@
   <string name="ContactJoined">Contact joined Telegram</string>
   <string name="PinnedMessages">Pinned Messages</string>
   <string name="Language">Language</string>
-  <string name="LanguageSuggested">Install \"%1$s\" language?</string>
-  <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.<![CDATA[<br><br>]]>Please take a look at the <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href="https://telegram.org/faq#troubleshooting">troubleshooting</a>]]>.</string>
+  <string name="LanguageCustom">Custom</string>
+  <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href="https://telegram.org/faq#troubleshooting">troubleshooting</a>]]>.</string>
   <string name="AskButton">Ask a volunteer</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -915,6 +944,17 @@
   <string name="DebugMenu">Debug Menu</string>
   <string name="DebugMenuImportContacts">Import Contacts</string>
   <string name="DebugMenuReloadContacts">Reload Contacts</string>
+  <string name="ChangeLanguageLater">You can change your language in the Settings later.</string>
+  <string name="ChooseYourLanguage">Choose your language</string>
+  <string name="ChooseYourLanguageOther">Other</string>
+  <string name="ProxySettings">Proxy Settings</string>
+  <string name="Proxy">Proxy</string>
+  <string name="UseProxySettings">Use proxy settings</string>
+  <string name="UseProxyAddress">Server</string>
+  <string name="UseProxyPassword">Password</string>
+  <string name="UseProxyPort">Port</string>
+  <string name="UseProxyUsername">Username</string>
+  <string name="UseProxyInfo">SOCKS5 proxy settings</string>
   <!--cache view-->
   <string name="LocalDatabase">Local Database</string>
   <string name="LocalDatabaseClear">Clear cached text messages?</string>
@@ -998,8 +1038,8 @@
   <string name="SaveToGallery">Save to gallery</string>
   <string name="Of">%1$d of %2$d</string>
   <string name="Gallery">Gallery</string>
-  <string name="AllPhotos">All Photos</string>
-  <string name="AllVideo">All Videos</string>
+  <string name="AllPhotos">All photos</string>
+  <string name="AllMedia">All media</string>
   <string name="NoPhotos">No photos yet</string>
   <string name="NoVideo">No videos yet</string>
   <string name="PleaseDownload">Please download media first</string>
@@ -1178,6 +1218,8 @@
   <string name="InviteToGroupError">Sorry, you can\'t add this user to groups because of user\'s privacy settings.</string>
   <string name="InviteToChannelError">Sorry, you can\'t add this user to channels because of user\'s privacy settings.</string>
   <string name="CreateGroupError">Sorry, you can\'t create a group with these users because of their privacy settings.</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="PrivacyCallsP2PHelp">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</string>
   <!--edit video view-->
   <string name="EditVideo">Edit Video</string>
   <string name="SendingVideo">Sending video...</string>
@@ -1324,6 +1366,11 @@
   <string name="UserRestricted">Sorry, you are not allowed to do this.</string>
   <string name="YouBlockedUser">Sorry, you can\'t add this user or bot to groups because you\'ve blocked them. Please unblock to proceed.</string>
   <string name="JoinGroup">JOIN GROUP</string>
+  <string name="AddAdminErrorNotAMember">Sorry, you can\'t add this user as an admin because they are not a member of this group and you are not allowed to invite them.</string>
+  <string name="AddAdminErrorBlacklisted">Sorry, you can\'t add this user as an admin because they are in the blacklist and you can\'t unban them.</string>
+  <string name="AddBannedErrorAdmin">Sorry, you can\'t ban this user because they are an admin in this group and you are not allowed to demote them.</string>
+  <string name="ErrorSendRestrictedStickers">Sorry, the admins of this group have restricted you from sending stickers.</string>
+  <string name="ErrorSendRestrictedMedia">Sorry, the admins of this group have restricted you from sending media.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram needs access to your contacts so that you can connect with your friends across all your devices.</string>
   <string name="PermissionStorage">Telegram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
@@ -1342,13 +1389,13 @@
   <string name="Page5Title">Powerful</string>
   <string name="Page6Title">Cloud-Based</string>
   <string name="Page7Title">Private</string>
-  <string name="Page1Message">The world\'s <![CDATA[<b>fastest</b>]]> messaging app.<![CDATA[<br/>]]>It is <![CDATA[<b>free</b>]]> and <![CDATA[<b>secure</b>]]>.</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> delivers messages faster than<![CDATA[<br/>]]>any other application.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> is free forever. No ads.<![CDATA[<br/>]]>No subscription fees.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> keeps your messages safe<![CDATA[<br/>]]>from hacker attacks.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> has no limits on the size of<![CDATA[<br/>]]>your media and chats.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> lets you access your messages<![CDATA[<br/>]]>from multiple devices.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> messages are heavily encrypted<![CDATA[<br/>]]>and can self-destruct.</string>
+  <string name="Page1Message">The world\'s <![CDATA[<b>fastest</b>]]> messaging app.\nIt is <![CDATA[<b>free</b>]]> and <![CDATA[<b>secure</b>]]>.</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> delivers messages faster than\nany other application.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> is free forever. No ads.\nNo subscription fees.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> keeps your messages safe\nfrom hacker attacks.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> has no limits on the size of\nyour media and chats.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> lets you access your messages\nfrom multiple devices.</string>
+  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> messages are heavily encrypted\nand can self-destruct.</string>
   <string name="StartMessaging">Start Messaging</string>
   <!--VoIP-->
   <string name="AccountSettings">Account Settings</string>
@@ -1391,7 +1438,7 @@
   <string name="CallMessageOutgoingMissed">Cancelled Call</string>
   <string name="CallMessageIncomingDeclined">Declined Call</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">This image and text were derived from the encryption key for this call with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>If they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.</string>
+  <string name="CallEncryptionKeyDescription">This image and text were derived from the encryption key for this call with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nIf they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.</string>
   <string name="NoCallLog">You didn\'t make any calls yet.</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'s app is using an incompatible protocol. They need to update their app before you can call them.</string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'s app does not support calls. They need to update their app before you can call them.</string>
@@ -1410,6 +1457,11 @@
   <string name="ReturnToCall">RETURN TO CALL</string>
   <string name="CallNotAvailable">Sorry, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> doesn\'t accept calls.</string>
   <string name="CallEmojiKeyTooltip">If emoji on %1$s\'s screen are the same, this call is 100%% secure.</string>
+  <string name="CallMessageReportProblem">Rate Call</string>
+  <string name="CallReportHint">What went wrong?</string>
+  <string name="CallReportIncludeLogs">Include technical information</string>
+  <string name="CallReportLogsExplain">This won\'t reveal the contents of your conversation, but will help us fix the issue sooner.</string>
+  <string name="CallReportSent">Thank you for helping make Telegram calls better.</string>
   <!--plural-->
   <string name="OnlineCount_zero">%1$d online</string>
   <string name="OnlineCount_one">%1$d online</string>
@@ -1637,6 +1689,10 @@
   <!--date formatters-->
   <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
   <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterBannedUntil12H">MMM dd yyyy, h:mm a</string>
+  <string name="formatterBannedUntil24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterBannedUntilThisYear12H">MMM dd, h:mm a</string>
+  <string name="formatterBannedUntilThisYear24H">MMM dd, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">MMM dd</string>
   <string name="formatterYear">dd.MM.yy</string>
