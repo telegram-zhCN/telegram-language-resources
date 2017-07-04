@@ -517,7 +517,7 @@
     <value>请确认你的国家代码并输入您的手机号。</value>
   </data>
   <data name="Your phone number" xml:space="preserve">
-    <value>您的手机号</value>
+    <value>您的手机号码</value>
   </data>
   <data name="Next" xml:space="preserve">
     <value>下一步</value>
@@ -608,7 +608,7 @@
     <value>成员</value>
   </data>
   <data name="YourPhoneNumber" xml:space="preserve">
-    <value>你的手机号</value>
+    <value>您的手机号码</value>
   </data>
   <data name="From" xml:space="preserve">
     <value>来自</value>
@@ -738,7 +738,7 @@
     <value>yyyy 年 M 月 d 日</value>
   </data>
   <data name="PhoneNumberInvalidString" xml:space="preserve">
-    <value>手机号无效，请重试。</value>
+    <value>手机号码无效，请重新输入。</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>错误</value>
@@ -1855,7 +1855,7 @@
     <value>新的贴纸包已添加</value>
   </data>
   <data name="StickersNotFound" xml:space="preserve">
-    <value>贴纸包未找到</value>
+    <value>未找到贴纸包</value>
   </data>
   <data name="ClearLogs" xml:space="preserve">
     <value>清空日志</value>
@@ -1940,7 +1940,7 @@
     <value>你禁用了Telegram的后台任务，Telegram 不能正常接收消息。请允许应用在后台运行。</value>
   </data>
   <data name="SearchSharedLinks" xml:space="preserve">
-    <value>搜索已共享链接</value>
+    <value>搜索分享的链接</value>
   </data>
   <data name="SharedFiles" xml:space="preserve">
     <value>文件</value>
@@ -2664,7 +2664,7 @@
     <value>此操作会把您的当前位置信息发送给机器人。</value>
   </data>
   <data name="SharePhoneNumberConfirmation" xml:space="preserve">
-    <value>机器人将会获取您的电话号码。这可能用于其他集成服务。</value>
+    <value>机器人将会获取您的手机号码。这可能对与其他服务的集成有用。</value>
   </data>
   <data name="ChooseManually" xml:space="preserve">
     <value>手动选择</value>
@@ -2673,7 +2673,7 @@
     <value>是否分享您的位置信息？</value>
   </data>
   <data name="SharePhoneNumberCaption" xml:space="preserve">
-    <value>是否分享您的电话号码？</value>
+    <value>是否分享您的手机号码？</value>
   </data>
   <data name="UnableToDetermineLocation" xml:space="preserve">
     <value>此应用无法确认您的当前位置。</value>
@@ -3055,7 +3055,7 @@
     <value>视频</value>
   </data>
   <data name="PhoneNumber" xml:space="preserve">
-    <value>电话号码</value>
+    <value>手机号码</value>
   </data>
   <data name="SetPhoto" xml:space="preserve">
     <value>设置图片</value>
@@ -3094,10 +3094,10 @@
     <value>从会话撤回</value>
   </data>
   <data name="DeleteMessageForYouHint" xml:space="preserve">
-    <value>仅在本地删除这条消息。</value>
+    <value>这将只为你删除这条消息。</value>
   </data>
   <data name="DeleteMessagesForYouHint" xml:space="preserve">
-    <value>仅在本地删除这些消息。</value>
+    <value>这将只为你删除这些消息。</value>
   </data>
   <data name="MessageActionCanceledCall" xml:space="preserve">
     <value>未接去电 {0}</value>
@@ -3130,16 +3130,16 @@
     <value>外拨电话</value>
   </data>
   <data name="DeleteMessageForEveryoneInChannelHint" xml:space="preserve">
-    <value>从频道中删除这条消息。</value>
+    <value>这将为在此频道中的所有人删除这条消息。</value>
   </data>
   <data name="DeleteMessageForEveryoneInChatHint" xml:space="preserve">
-    <value>从会话中撤回这条消息。</value>
+    <value>这将为在此对话中的所有人删除这条消息。</value>
   </data>
   <data name="DeleteMessagesForEveryoneInChannelHint" xml:space="preserve">
-    <value>从频道中删除这些消息。</value>
+    <value>这将为在此频道中的所有人删除这些消息。</value>
   </data>
   <data name="DeleteMessagesForEveryoneInChatHint" xml:space="preserve">
-    <value>从会话中撤回这些消息。</value>
+    <value>这将为在此对话中的所有人删除这些消息。</value>
   </data>
   <data name="Invoice" xml:space="preserve">
     <value>Invoice</value>
@@ -3302,5 +3302,71 @@
   </data>
   <data name="AccessCameraException" xml:space="preserve">
     <value>Can&apos;t access current camera</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Calling" xml:space="preserve">
+    <value>Calling...</value>
+  </data>
+  <data name="EmojiDescription" xml:space="preserve">
+    <value>If these emoji are the same on {0}&apos;s screen, this call is 100% secure.</value>
+  </data>
+  <data name="EndCall" xml:space="preserve">
+    <value>End Call</value>
+  </data>
+  <data name="Speaker" xml:space="preserve">
+    <value>Speaker</value>
+  </data>
+  <data name="TouchToReturnToCall" xml:space="preserve">
+    <value>Touch to return to call {0}</value>
+  </data>
+  <data name="PaymentProvider" xml:space="preserve">
+    <value>Payment provider</value>
+  </data>
+  <data name="PaymentsWarning" xml:space="preserve">
+    <value>Payments will go directly to the developer of {0}. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of {0} or your bank.</value>
+  </data>
+  <data name="SavePaymentInformation" xml:space="preserve">
+    <value>Save Payment Information</value>
+  </data>
+  <data name="SavePaymentInformationHint" xml:space="preserve">
+    <value>You can save your payment info for future use.</value>
+  </data>
+  <data name="SavedCardHint" xml:space="preserve">
+    <value>Your card {0} is on file. To pay with this card, please enter your 2-Step-Verification password.</value>
+  </data>
+  <data name="ChooseDifferentCard" xml:space="preserve">
+    <value>Choose a different card</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Payments</value>
+  </data>
+  <data name="PaymentsSubtitle" xml:space="preserve">
+    <value>Clear payment &amp; shipping info</value>
+  </data>
+  <data name="ShippingInfo" xml:space="preserve">
+    <value>Shipping info</value>
+  </data>
+  <data name="Ringing" xml:space="preserve">
+    <value>Ringing</value>
+  </data>
+  <data name="TurnOnTwoStepVerification" xml:space="preserve">
+    <value>请先开启“两步验证”后再启用此功能。</value>
+  </data>
+  <data name="ChooseYourPhotoPickerApp" xml:space="preserve">
+    <value>Choose your photo picker app</value>
+  </data>
+  <data name="ExternalPhotoPicker" xml:space="preserve">
+    <value>External Photo Picker</value>
+  </data>
+  <data name="InAppPhotoPicker" xml:space="preserve">
+    <value>In-app Photo Picker</value>
+  </data>
+  <data name="PhotoPicker" xml:space="preserve">
+    <value>Photo Picker</value>
+  </data>
+  <data name="PhotoPickerSubtitle" xml:space="preserve">
+    <value>Manage photo picker settings</value>
   </data>
 </root>
