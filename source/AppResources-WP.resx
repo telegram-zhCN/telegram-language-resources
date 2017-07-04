@@ -3102,22 +3102,22 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>This will delete them just for you.</value>
   </data>
   <data name="MessageActionCanceledCall" xml:space="preserve">
-    <value>Canceled call at {0}</value>
+    <value>Canceled call</value>
   </data>
   <data name="MessageActionIncomingCall" xml:space="preserve">
-    <value>Incoming call at {0}</value>
+    <value>Incoming call</value>
   </data>
   <data name="MessageActionIncomingDurationCall" xml:space="preserve">
-    <value>Incoming call ({0}) at {1}</value>
+    <value>Incoming call ({0})</value>
   </data>
   <data name="MessageActionMissedCall" xml:space="preserve">
-    <value>Missed call at {0}</value>
+    <value>Missed call</value>
   </data>
   <data name="MessageActionOutgoingCall" xml:space="preserve">
-    <value>Outgoing call at {0}</value>
+    <value>Outgoing call</value>
   </data>
   <data name="MessageActionOutgoingDurationCall" xml:space="preserve">
-    <value>Outgoing call ({0}) at {1}</value>
+    <value>Outgoing call ({0})</value>
   </data>
   <data name="CanceledCall" xml:space="preserve">
     <value>Canceled call</value>
@@ -3311,7 +3311,7 @@ The group **&quot;{1}&quot;** will become private.</value>
   <data name="Calling" xml:space="preserve">
     <value>Calling...</value>
   </data>
-  <data name="EmojiDescription" xml:space="preserve">
+  <data name="EmojiKeyDescription" xml:space="preserve">
     <value>If these emoji are the same on {0}&apos;s screen, this call is 100% secure.</value>
   </data>
   <data name="EndCall" xml:space="preserve">
@@ -3321,7 +3321,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Speaker</value>
   </data>
   <data name="TouchToReturnToCall" xml:space="preserve">
-    <value>Touch to return to call {0}</value>
+    <value>Touch to return to call</value>
   </data>
   <data name="PaymentProvider" xml:space="preserve">
     <value>Payment provider</value>
@@ -3370,5 +3370,83 @@ The group **&quot;{1}&quot;** will become private.</value>
   </data>
   <data name="PhotoPickerSubtitle" xml:space="preserve">
     <value>Manage photo picker settings</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="AddOptionalComment" xml:space="preserve">
+    <value>Add an optional comment</value>
+  </data>
+  <data name="RateCallQuality" xml:space="preserve">
+    <value>Please rate the quality of your Telegram call</value>
+  </data>
+  <data name="VoipBusy" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="VoipConnecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="VoipEnded" xml:space="preserve">
+    <value>Ended</value>
+  </data>
+  <data name="VoipExchangingKeys" xml:space="preserve">
+    <value>Exchanging encryption keys</value>
+  </data>
+  <data name="VoipFailed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="VoipHangingUp" xml:space="preserve">
+    <value>Hanging up</value>
+  </data>
+  <data name="VoipIncoming" xml:space="preserve">
+    <value>Incoming call</value>
+  </data>
+  <data name="VoipRequesting" xml:space="preserve">
+    <value>Requesting</value>
+  </data>
+  <data name="VoipRinging" xml:space="preserve">
+    <value>Ringing</value>
+  </data>
+  <data name="VoipWaiting" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="CallInProgressNotification" xml:space="preserve">
+    <value>You currently have an ongoing call with {0}.</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="ConnectionType" xml:space="preserve">
+    <value>Connection Type</value>
+  </data>
+  <data name="CredentionalsOptional" xml:space="preserve">
+    <value>Credentials (Optional)</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Socks5" xml:space="preserve">
+    <value>SOCKS5</value>
+  </data>
+  <data name="UseProxy" xml:space="preserve">
+    <value>Use Proxy</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="ConnectingToProxy" xml:space="preserve">
+    <value>Connecting to proxy</value>
+  </data>
+  <data name="EnableProxyConfigmation" xml:space="preserve">
+    <value>Are you sure you want to enable this proxy?</value>
+  </data>
+  <data name="ChangeProxy" xml:space="preserve">
+    <value>Change proxy</value>
   </data>
 </root>
