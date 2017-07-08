@@ -3435,10 +3435,10 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>SOCKS5</value>
   </data>
   <data name="UseProxy" xml:space="preserve">
-    <value>Use Proxy</value>
+    <value>Use Proxy Settings</value>
   </data>
   <data name="Proxy" xml:space="preserve">
-    <value>Proxy</value>
+    <value>Proxy Settings</value>
   </data>
   <data name="ConnectingToProxy" xml:space="preserve">
     <value>Connecting to proxy</value>
@@ -3447,6 +3447,18 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Are you sure you want to enable this proxy?</value>
   </data>
   <data name="ChangeProxy" xml:space="preserve">
-    <value>Change proxy</value>
+    <value>Set proxy</value>
+  </data>
+  <data name="ChangeProxyServerHint" xml:space="preserve">
+    <value>You can change your proxy server later in the Settings.</value>
+  </data>
+  <data name="UseProxyHint" xml:space="preserve">
+    <value>SOCKS5 proxy settings</value>
+  </data>
+  <data name="DeclinedCall" xml:space="preserve">
+    <value>Declined call</value>
+  </data>
+  <data name="MessageActionDeclinedCall" xml:space="preserve">
+    <value>Declined call</value>
   </data>
 </root>
