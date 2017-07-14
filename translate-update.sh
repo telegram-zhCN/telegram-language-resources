@@ -15,22 +15,9 @@ curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/te
 #macOS
 echo "macOS"
 curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-macos/zh_CN/download/for_use/ -o $dir/Localizable-macOS.strings --progress
-echo "macOS MainMenu"
-curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-macos-mainmenu/zh_CN/download/for_use/ -o $dir/Localizable-MainMenu-macOS.strings --progress
 #Webogram
 echo "Webogram"
 curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-webogram/zh_CN/download/for_use/ -o $dir/strings-web.json --progress
 #WP
 echo "WP"
 curl -b $cookie https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-wp/zh_CN/download/for_use/ -o $dir/AppResources-WP.resx --progress
-#Generate zip file for macOS
-cd $dir/
-if $(git status | grep -q "modified:   Localizable-macOS.strings") || $(git status | grep -q "modified:   Localizable-MainMenu-macOS.strings")
-then
-    mkdir -p zh.lproj
-    cp Localizable-macOS.strings zh.lproj/Localizable.strings
-    cp Localizable-MainMenu-macOS.strings zh.lproj/MainMenu.strings
-    rm Localizable-macOS.zip
-    zip -r9 Localizable-macOS.zip zh.lproj
-    rm -rf zh.lproj
-fi
