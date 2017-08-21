@@ -1,7 +1,8 @@
 language: python
 python: "3.6"
+<<<<<<< Updated upstream
 before_install: 
- - openssl aes-256-cbc -k "$DEPLOY_KEY" -in langresource-deploy.enc -out langresource-deploy -d
+ - openssl aes-256-cbc -k $DEPLOY_KEY -in langresource-deploy.enc -out langresource-deploy -d
  - ssh-agent -k
  - ssh-add langresource-deploy
  - rm langresource-deploy
