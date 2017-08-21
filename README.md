@@ -1,4 +1,4 @@
-# telegram-language-resources ![https://travis-ci.org/telegram-zhCN/telegram-language-resources](https://travis-ci.org/telegram-zhCN/telegram-language-resources.svg?branch=master)
+# telegram-language-resources [![Build Status](https://travis-ci.org/telegram-zhCN/telegram-language-resources.svg?branch=master)](https://travis-ci.org/telegram-zhCN/telegram-language-resources)
 Source strings and zh-CN translation resources of Telegram
 
 ---
@@ -9,4 +9,3 @@ Source files and translated files are under GPLv2 according to the license of of
 Copyrights are specified in official projects.
 
 <br />
-The file fetching scripts are under GPLv3. Copyright (C) 2015-2017 Mike Lei
