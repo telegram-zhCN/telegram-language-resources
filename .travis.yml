@@ -5,6 +5,8 @@ before-install:
  - ssh-agent -k
  - ssh-add langresource-deploy
  - rm langresource-deploy
+ - git config --global user.name "Telegram-zhCN-bot"
+ - git config --global user.email "zhcn@daze.moe"
 install: "pip install beautifulsoup4 requests"
 script: 
  - python source-update.py
