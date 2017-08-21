@@ -1,6 +1,6 @@
 language: python
 python: "3.6"
-before-install: 
+before_install: 
  - openssl aes-256-cbc -k "$DEPLOY_KEY" -in langresource-deploy.enc -out langresource-deploy -d
  - ssh-agent -k
  - ssh-add langresource-deploy
