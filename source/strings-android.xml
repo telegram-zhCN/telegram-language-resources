@@ -476,6 +476,7 @@
   <string name="NoMessages">No messages here yet...</string>
   <string name="ForwardedMessage">Forwarded message</string>
   <string name="From">From</string>
+  <string name="SearchFrom">from:</string>
   <string name="NoRecent">No recent</string>
   <string name="Message">Message</string>
   <string name="TypeMessage">Message</string>

@@ -809,7 +809,7 @@
     <value>如需实时支持，请在 Telegram 的设置中选择“向我们提问“以直接向我们的工作人员发送信息。您也可以发送邮件到 support@telegram.org 。</value>
   </data>
   <data name="TapRecordToStartRecording" xml:space="preserve">
-    <value>点击“录音”开始……</value>
+    <value>点按录音开始录制...</value>
   </data>
   <data name="ACameraIsNotSupportedOnThisDevice" xml:space="preserve">
     <value>此设备没有相机。</value>
@@ -827,10 +827,10 @@
     <value>暂停回放。</value>
   </data>
   <data name="Recording" xml:space="preserve">
-    <value>正在录制……</value>
+    <value>正在录制...</value>
   </data>
   <data name="PreparingViewfinder" xml:space="preserve">
-    <value>取景器准备中……</value>
+    <value>取景器准备中...</value>
   </data>
   <data name="PlaybackStoped" xml:space="preserve">
     <value>回放已停止。</value>
@@ -993,7 +993,7 @@
     <value>您取消了定时自毁</value>
   </data>
   <data name="PleaseWait" xml:space="preserve">
-    <value>请稍候……</value>
+    <value>请稍候...</value>
   </data>
   <data name="SecretChatCaption2" xml:space="preserve">
     <value>{0} 邀请您加入私密聊天。</value>
@@ -1178,7 +1178,7 @@
     <value>总是共享</value>
   </data>
   <data name="AlwaysShareWirhUsers" xml:space="preserve">
-    <value>总是与某些用户共享……</value>
+    <value>总是共享给...</value>
   </data>
   <data name="AlwaysShareWith" xml:space="preserve">
     <value>总是共享给</value>
@@ -1274,7 +1274,7 @@
     <value>谁能看到你上一次在线的时间？</value>
   </data>
   <data name="CheckingUsername" xml:space="preserve">
-    <value>查找用户名……</value>
+    <value>查找用户名...</value>
   </data>
   <data name="CantFindContactWithUsername" xml:space="preserve">
     <value>对不起，无法找到用户 @{0}</value>
@@ -1286,10 +1286,10 @@
     <value>与人脉同步</value>
   </data>
   <data name="SyncContactsProgress" xml:space="preserve">
-    <value>联系人同步中（{0}/{1}）……</value>
+    <value>联系人同步中 ({0} / {1})...</value>
   </data>
   <data name="DeletingContacts" xml:space="preserve">
-    <value>联系人删除中……</value>
+    <value>正在删除联系人...</value>
   </data>
   <data name="ChangeNumber" xml:space="preserve">
     <value>更改手机号</value>
@@ -1786,7 +1786,7 @@
     <value>正在发送视频</value>
   </data>
   <data name="AddCaption" xml:space="preserve">
-    <value>添加标题...</value>
+    <value>添加说明...</value>
   </data>
   <data name="CopyLink" xml:space="preserve">
     <value>复制链接</value>
@@ -2202,7 +2202,7 @@
     <value>升级到超级群组</value>
   </data>
   <data name="UpgradeToSupergroupConfirmation" xml:space="preserve">
-    <value>请注意，群组成员需要将他们的 Telegram 客户端升级到最新版才能看到大型群组。您确定要升级到大型群组吗？</value>
+    <value>请注意，群组成员需要将他们的 Telegram 客户端升级到最新版才能看到超级群组。您确定要升级到超级群组吗？</value>
   </data>
   <data name="UpgradeToSupergroupDescription" xml:space="preserve">
     <value>成员数已达到上限。
@@ -3100,22 +3100,22 @@
     <value>这将只为你删除这些消息。</value>
   </data>
   <data name="MessageActionCanceledCall" xml:space="preserve">
-    <value>未接去电 {0}</value>
+    <value>Canceled call</value>
   </data>
   <data name="MessageActionIncomingCall" xml:space="preserve">
-    <value>接听电话 {0}</value>
+    <value>Incoming call</value>
   </data>
   <data name="MessageActionIncomingDurationCall" xml:space="preserve">
-    <value>接听来电 ({0}) {1}</value>
+    <value>Incoming call ({0})</value>
   </data>
   <data name="MessageActionMissedCall" xml:space="preserve">
-    <value>未接来电 {0}</value>
+    <value>Missed call</value>
   </data>
   <data name="MessageActionOutgoingCall" xml:space="preserve">
-    <value>外拨电话 {0}</value>
+    <value>Outgoing call</value>
   </data>
   <data name="MessageActionOutgoingDurationCall" xml:space="preserve">
-    <value>外拨电话 ({0}) {1}</value>
+    <value>Outgoing call ({0})</value>
   </data>
   <data name="CanceledCall" xml:space="preserve">
     <value>未接去电</value>
@@ -3208,7 +3208,7 @@
     <value>Save Shipping Information</value>
   </data>
   <data name="SaveShippingInformationHint" xml:space="preserve">
-    <value>You can save your shipping info for future use.</value>
+    <value>您可以保存您的配送信息以便在未来使用。</value>
   </data>
   <data name="SecurityCode" xml:space="preserve">
     <value>Security Code (CVV)</value>
@@ -3283,7 +3283,7 @@
     <value>You can restrict who can call you.</value>
   </data>
   <data name="CallsPrivacyOverrideNote" xml:space="preserve">
-    <value>These users will or will not be able to call you regardless of the settings above.</value>
+    <value>在这里配置的特例将会覆盖上面的全局设置。</value>
   </data>
   <data name="NoCallsHere" xml:space="preserve">
     <value>No calls here</value>
@@ -3309,7 +3309,7 @@
   <data name="Calling" xml:space="preserve">
     <value>Calling...</value>
   </data>
-  <data name="EmojiDescription" xml:space="preserve">
+  <data name="EmojiKeyDescription" xml:space="preserve">
     <value>If these emoji are the same on {0}&apos;s screen, this call is 100% secure.</value>
   </data>
   <data name="EndCall" xml:space="preserve">
@@ -3319,10 +3319,10 @@
     <value>Speaker</value>
   </data>
   <data name="TouchToReturnToCall" xml:space="preserve">
-    <value>Touch to return to call {0}</value>
+    <value>Touch to return to call</value>
   </data>
   <data name="PaymentProvider" xml:space="preserve">
-    <value>Payment provider</value>
+    <value>支付服务提供商</value>
   </data>
   <data name="PaymentsWarning" xml:space="preserve">
     <value>Payments will go directly to the developer of {0}. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of {0} or your bank.</value>
@@ -3331,7 +3331,7 @@
     <value>Save Payment Information</value>
   </data>
   <data name="SavePaymentInformationHint" xml:space="preserve">
-    <value>You can save your payment info for future use.</value>
+    <value>您可以保存您的付款信息以便在未来使用。</value>
   </data>
   <data name="SavedCardHint" xml:space="preserve">
     <value>Your card {0} is on file. To pay with this card, please enter your 2-Step-Verification password.</value>
@@ -3368,5 +3368,104 @@
   </data>
   <data name="PhotoPickerSubtitle" xml:space="preserve">
     <value>Manage photo picker settings</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="Ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="AddOptionalComment" xml:space="preserve">
+    <value>Add an optional comment</value>
+  </data>
+  <data name="RateCallQuality" xml:space="preserve">
+    <value>Please rate the quality of your Telegram call</value>
+  </data>
+  <data name="VoipBusy" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="VoipConnecting" xml:space="preserve">
+    <value>Connecting</value>
+  </data>
+  <data name="VoipEnded" xml:space="preserve">
+    <value>Ended</value>
+  </data>
+  <data name="VoipExchangingKeys" xml:space="preserve">
+    <value>Exchanging encryption keys</value>
+  </data>
+  <data name="VoipFailed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="VoipHangingUp" xml:space="preserve">
+    <value>Hanging up</value>
+  </data>
+  <data name="VoipIncoming" xml:space="preserve">
+    <value>Incoming call</value>
+  </data>
+  <data name="VoipRequesting" xml:space="preserve">
+    <value>Requesting</value>
+  </data>
+  <data name="VoipRinging" xml:space="preserve">
+    <value>Ringing</value>
+  </data>
+  <data name="VoipWaiting" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="CallInProgressNotification" xml:space="preserve">
+    <value>You currently have an ongoing call with {0}.</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="ConnectionType" xml:space="preserve">
+    <value>Connection Type</value>
+  </data>
+  <data name="CredentionalsOptional" xml:space="preserve">
+    <value>Credentials (Optional)</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Socks5" xml:space="preserve">
+    <value>SOCKS5</value>
+  </data>
+  <data name="UseProxy" xml:space="preserve">
+    <value>Use Proxy Settings</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>Proxy Settings</value>
+  </data>
+  <data name="ConnectingToProxy" xml:space="preserve">
+    <value>Connecting to proxy</value>
+  </data>
+  <data name="EnableProxyConfigmation" xml:space="preserve">
+    <value>Are you sure you want to enable this proxy?</value>
+  </data>
+  <data name="ChangeProxy" xml:space="preserve">
+    <value>Set proxy</value>
+  </data>
+  <data name="ChangeProxyServerHint" xml:space="preserve">
+    <value>You can change your proxy server later in the Settings.</value>
+  </data>
+  <data name="UseProxyHint" xml:space="preserve">
+    <value>SOCKS5 proxy settings</value>
+  </data>
+  <data name="DeclinedCall" xml:space="preserve">
+    <value>Declined call</value>
+  </data>
+  <data name="MessageActionDeclinedCall" xml:space="preserve">
+    <value>Declined call</value>
+  </data>
+  <data name="VideoMessage" xml:space="preserve">
+    <value>Video message</value>
+  </data>
+  <data name="PeerToPeer" xml:space="preserve">
+    <value>Peer-to-Peer</value>
+  </data>
+  <data name="PeerToPeerDescription" xml:space="preserve">
+    <value>Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</value>
   </data>
 </root>
