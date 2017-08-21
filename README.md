@@ -1,4 +1,4 @@
-# telegram-language-resources
+# telegram-language-resources ![https://travis-ci.org/telegram-zhCN/telegram-language-resources.svg?branch=master](https://travis-ci.org/telegram-zhCN/telegram-language-resources)
 Source strings and zh-CN translation resources of Telegram
 
 ---
