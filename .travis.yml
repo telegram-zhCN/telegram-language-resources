@@ -2,7 +2,7 @@ language: python
 python: "3.6"
 before_install: 
  - openssl aes-256-cbc -k $DEPLOY_KEY -md sha256 -in langresource-deploy.enc -out langresource-deploy -d
- - ssh-agent
+ - eval `ssh-agent -s`
  - ssh-add langresource-deploy
  - rm langresource-deploy
  - git config --global user.name "Telegram-zhCN-bot"
