@@ -1,6 +1,17 @@
 language: python
 python: "3.6"
+before-install: 
+ - openssl aes-256-cbc -k "$DEPLOY_KEY" -in langresource-deploy.enc -out langresource-deploy -d
+ - ssh-agent -k
+ - ssh-add langresource-deploy
+ - rm langresource-deploy
 install: "pip install beautifulsoup4 requests"
 script: 
-- python source-update.py
-- python translate-update.py
+ - python source-update.py
+ - python translate-update.py
+ - git status
+ - git add source/*
+ - git add zh-CN/*
+ - git commit -m "Update Languages"
+ - git push git@github.com:telegram-zhCN/telegram-language-resources.git
+
