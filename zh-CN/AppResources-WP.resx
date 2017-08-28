@@ -3468,4 +3468,32 @@
   <data name="PeerToPeerDescription" xml:space="preserve">
     <value>Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</value>
   </data>
+  <data name="Bio" xml:space="preserve">
+    <value>Bio</value>
+  </data>
+  <data name="BioDescription" xml:space="preserve">
+    <value>You can add a few lines about yourself.
+Anyone who opens your profile will see this text.</value>
+  </data>
+  <data name="MessageActionPhotoExpired" xml:space="preserve">
+    <value>Photo has expired</value>
+  </data>
+  <data name="MessageActionVideoExpired" xml:space="preserve">
+    <value>Video has expired</value>
+  </data>
+  <data name="Timer" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="SelfDestructTimerPhotoSubtitle" xml:space="preserve">
+    <value>If you set a timer, the photo will self destruct after it was viewed.</value>
+  </data>
+  <data name="SelfDestructTimerVideoSubtitle" xml:space="preserve">
+    <value>If you set a timer, the video will self destruct after it was viewed.</value>
+  </data>
+  <data name="SecretPhoto" xml:space="preserve">
+    <value>Secret Photo</value>
+  </data>
+  <data name="SecretVideo" xml:space="preserve">
+    <value>Secret Video</value>
+  </data>
 </root>
