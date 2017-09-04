@@ -122,6 +122,7 @@
   <string name="DeleteChatUser">Delete chat</string>
   <string name="HiddenName">Deleted Account</string>
   <string name="SelectChat">Select Chat</string>
+  <string name="ForwardTo">Forward to...</string>
   <string name="PhotoTip">Tap and hold to view</string>
   <string name="DisappearingPhoto">Secret Photo</string>
   <string name="DisappearingVideo">Secret Video</string>
@@ -378,10 +379,12 @@
   <string name="EventLogPinnedMessages">un1 pinned this message:</string>
   <string name="EventLogUnpinnedMessages">un1 unpinned message</string>
   <string name="EventLogDeletedMessages">un1 deleted this message:</string>
+  <string name="EventLogChangedStickersSet">un1 changed the group sticker set</string>
+  <string name="EventLogRemovedStickersSet">un1 removed the group sticker set</string>
   <string name="EventLogChangedGroupLink">un1 changed the group link:</string>
   <string name="EventLogChangedChannelLink">un1 changed the channel link:</string>
-  <string name="EventLogRemovedGroupLink">un1 removed group link</string>
-  <string name="EventLogRemovedChannelLink">un1 removed channel link</string>
+  <string name="EventLogRemovedGroupLink">un1 removed the group link</string>
+  <string name="EventLogRemovedChannelLink">un1 removed the channel link</string>
   <string name="EventLogPreviousLink">Previous link</string>
   <string name="EventLogEditedGroupDescription">un1 edited the group description:</string>
   <string name="EventLogEditedChannelDescription">un1 edited the channel description:</string>
@@ -443,6 +446,15 @@
   <string name="SdCard">SD Card</string>
   <string name="Folder">Folder</string>
   <string name="GalleryInfo">To send images without compression</string>
+  <!--group stickers-->
+  <string name="GroupStickers">Group Stickers</string>
+  <string name="ChooseFromYourStickers">Choose from your stickers</string>
+  <string name="GroupStickersInfo">You can choose a sticker set that will be available to all group members when they are chatting in this group.</string>
+  <string name="ChooseStickerSet">CHOOSE STICKER SET</string>
+  <string name="ChooseStickerSetPlaceholder">stickerset</string>
+  <string name="ChooseStickerSetMy">You can create your own custom sticker set using the @stickers bot.</string>
+  <string name="ChooseStickerSetNotFound">No such sticker set found</string>
+  <string name="ChooseStickerSetNotFoundInfo">Try again or choose from the list below</string>
   <!--chat view-->
   <string name="Invisible">invisible</string>
   <string name="Typing">typing...</string>
@@ -662,6 +674,7 @@
   <string name="SelectContact">Select Contact</string>
   <string name="NoContacts">No contacts yet</string>
   <string name="InviteText">Hey, let\'s switch to Telegram: https://telegram.org/dl</string>
+  <string name="InviteText2">Hey, I\'m using Telegram to chat. Join me! Download it here: %1$s</string>
   <string name="TodayAt">at</string>
   <string name="YesterdayAt">yesterday at</string>
   <string name="Online">online</string>
@@ -669,12 +682,18 @@
   <string name="LastSeenDate">last seen</string>
   <string name="LastSeenNow">last seen just now</string>
   <string name="InviteFriends">Invite Friends</string>
+  <string name="SearchFriends">Search friends</string>
   <string name="GlobalSearch">GLOBAL SEARCH</string>
   <string name="Lately">last seen recently</string>
   <string name="WithinAWeek">last seen within a week</string>
   <string name="WithinAMonth">last seen within a month</string>
   <string name="ALongTimeAgo">last seen a long time ago</string>
   <string name="NewMessageTitle">New Message</string>
+  <string name="InviteFriendsHelp">Select contacts to invite them to Telegram</string>
+  <string name="InviteToTelegram">INVITE TO TELEGRAM</string>
+  <string name="ShareTelegram">Share Telegram...</string>
+  <string name="UpdateContactsTitle">Update contacts?</string>
+  <string name="UpdateContactsMessage">Telegram has detected many unsynced contacts, would you like to sync them now? Choose \'OK\' if you\'re using your own device, SIM card and Google account.</string>
   <!--group create view-->
   <string name="SendMessageTo">Add people...</string>
   <string name="SoftUserLimitAlert">You will be able to add more users after you finish creating the group and convert it to a supergroup.</string>
@@ -703,6 +722,7 @@
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="SetAdminsNotAllInfo">Only admins can add and remove members, edit name and photo of the group.</string>
   <!--group info view-->
+  <string name="GroupMembers">Members</string>
   <string name="SharedMedia">Shared Media</string>
   <string name="SETTINGS">Settings</string>
   <string name="AddMember">Add member</string>
@@ -772,6 +792,13 @@
   <string name="AddStickers">Add Stickers</string>
   <string name="AddMasks">Add Masks</string>
   <string name="AddToStickers">Add to Stickers</string>
+  <string name="AddToFavorites">Add to Favorites</string>
+  <string name="AddedToFavorites">Sticker was added to Favorites</string>
+  <string name="RemovedFromFavorites">Sticker was removed from Favorites</string>
+  <string name="RecentStickers">Recently Used</string>
+  <string name="FavoriteStickers">Favorites</string>
+  <string name="CurrentGroupStickers">Group Stickers</string>
+  <string name="DeleteFromFavorites">Delete from Favorites</string>
   <string name="AddToMasks">Add to Masks</string>
   <string name="AddStickersNotFound">Stickers not found</string>
   <string name="StickersRemoved">Stickers removed</string>
@@ -957,6 +984,7 @@
   <string name="DebugMenu">Debug Menu</string>
   <string name="DebugMenuImportContacts">Import Contacts</string>
   <string name="DebugMenuReloadContacts">Reload Contacts</string>
+  <string name="DebugMenuResetContacts">Reset Imported Contacts</string>
   <string name="ChangeLanguageLater">You can change your language in the Settings later.</string>
   <string name="ChooseYourLanguage">Choose your language</string>
   <string name="ChooseYourLanguageOther">Other</string>
@@ -970,6 +998,10 @@
   <string name="UseProxyInfo">SOCKS5 proxy settings</string>
   <string name="UseProxyForCalls">Use proxy for calls</string>
   <string name="UseProxyForCallsInfo">Proxy servers may degrade the quality of your calls.</string>
+  <string name="LowDiskSpaceTitle">Attention</string>
+  <string name="LowDiskSpaceMessage">Your phone is almost out of free disk space. To free some space, set up Telegram cache to store only recent media or delete it altogether.</string>
+  <string name="LowDiskSpaceTitle2">Remove media after</string>
+  <string name="LowDiskSpaceNeverRemove">Never remove</string>
   <!--cache view-->
   <string name="LocalDatabase">Local Database</string>
   <string name="LocalDatabaseClear">Clear cached text messages?</string>
@@ -1050,6 +1082,7 @@
   <string name="NearbyPlaces">OR CHOOSE A PLACE</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">Show all media</string>
+  <string name="ShowInChat">Show in chat</string>
   <string name="SaveToGallery">Save to gallery</string>
   <string name="Of">%1$d of %2$d</string>
   <string name="Gallery">Gallery</string>
@@ -1478,12 +1511,30 @@
   <string name="CallReportLogsExplain">This won\'t reveal the contents of your conversation, but will help us fix the issue sooner.</string>
   <string name="CallReportSent">Thank you for helping make Telegram calls better.</string>
   <!--plural-->
+  <string name="Recipient_zero">%1$d recipients</string>
+  <string name="Recipient_one">%1$d recipient</string>
+  <string name="Recipient_two">%1$d recipients</string>
+  <string name="Recipient_few">%1$d recipients</string>
+  <string name="Recipient_many">%1$d recipients</string>
+  <string name="Recipient_other">%1$d recipients</string>
   <string name="OnlineCount_zero">%1$d online</string>
   <string name="OnlineCount_one">%1$d online</string>
   <string name="OnlineCount_two">%1$d online</string>
   <string name="OnlineCount_few">%1$d online</string>
   <string name="OnlineCount_many">%1$d online</string>
   <string name="OnlineCount_other">%1$d online</string>
+  <string name="TelegramContacts_zero">%1$d contacts on Telegram</string>
+  <string name="TelegramContacts_one">%1$d contact on Telegram</string>
+  <string name="TelegramContacts_two">%1$d contacts on Telegram</string>
+  <string name="TelegramContacts_few">%1$d contacts on Telegram</string>
+  <string name="TelegramContacts_many">%1$d contacts on Telegram</string>
+  <string name="TelegramContacts_other">%1$d contacts on Telegram</string>
+  <string name="InviteTextNum_zero">Hey, I\'m using Telegram to chat – and so are %1$d of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextNum_one">Hey, I\'m using Telegram to chat – and so are %1$d of our other contact. Join us! Download it here: %2$s</string>
+  <string name="InviteTextNum_two">Hey, I\'m using Telegram to chat – and so are %1$d of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextNum_few">Hey, I\'m using Telegram to chat – and so are %1$d of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextNum_many">Hey, I\'m using Telegram to chat – and so are %1$d of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextNum_other">Hey, I\'m using Telegram to chat – and so are %1$d of our other contacts. Join us! Download it here: %2$s</string>
   <string name="Members_zero">%1$d members</string>
   <string name="Members_one">%1$d member</string>
   <string name="Members_two">%1$d members</string>

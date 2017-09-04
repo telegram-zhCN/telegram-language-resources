@@ -476,6 +476,7 @@
   <string name="NoMessages">暂无消息...</string>
   <string name="ForwardedMessage">转发的消息</string>
   <string name="From">来自</string>
+  <string name="SearchFrom">来自：</string>
   <string name="NoRecent">没有最近使用</string>
   <string name="Message">消息</string>
   <string name="TypeMessage">输入消息</string>

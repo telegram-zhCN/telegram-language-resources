@@ -3460,7 +3460,7 @@
     <value>Declined call</value>
   </data>
   <data name="VideoMessage" xml:space="preserve">
-    <value>Video message</value>
+    <value>视频消息</value>
   </data>
   <data name="PeerToPeer" xml:space="preserve">
     <value>Peer-to-Peer</value>
