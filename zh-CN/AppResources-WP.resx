@@ -241,10 +241,10 @@
     <value>用户</value>
   </data>
   <data name="MessageActionChatCreate" xml:space="preserve">
-    <value>{0} 创建了群组 &quot;{1}&quot;</value>
+    <value>{0} 创建了群组 "{1}"</value>
   </data>
   <data name="MessageActionChatEditTitle" xml:space="preserve">
-    <value>{0} 将群组名称更改为 &quot;{1}&quot;</value>
+    <value>{0} 将群组名称更改为 "{1}"</value>
   </data>
   <data name="MessageActionChatEditPhoto" xml:space="preserve">
     <value>{0} 更换了群组图片</value>
@@ -1886,7 +1886,7 @@
   </data>
   <data name="StickersDescription" xml:space="preserve">
     <value>我们欢迎艺术家们通过我们的 @stickers 机器人来创建他们自己的贴纸包。 
-用户可以通过点按贴纸然后选择 &quot;添加到贴纸库&quot; 来添加贴纸包。</value>
+用户可以通过点按贴纸然后选择 "添加到贴纸库" 来添加贴纸包。</value>
   </data>
   <data name="LinkCopiedToClipboard" xml:space="preserve">
     <value>链接已复制到剪贴板</value>
@@ -1970,7 +1970,7 @@
     <value>新建频道</value>
   </data>
   <data name="MessageActionBroadcastCreate" xml:space="preserve">
-    <value>{0} 创建了广播 &quot;{1}&quot;</value>
+    <value>{0} 创建了广播 "{1}"</value>
   </data>
   <data name="MessageActionChannelCreate" xml:space="preserve">
     <value>频道已创建</value>
@@ -2133,7 +2133,7 @@
     <value>您确定要离开这个频道吗？</value>
   </data>
   <data name="JoinChannelConfirmation" xml:space="preserve">
-    <value>确定加入频道 &quot;{0}&quot; ？</value>
+    <value>确定加入频道 "{0}" ？</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>管理</value>
@@ -2148,7 +2148,7 @@
     <value>删除了频道图片</value>
   </data>
   <data name="MessageActionChannelEditTitle" xml:space="preserve">
-    <value>频道名称已修改为 &quot;{0}&quot;</value>
+    <value>频道名称已修改为 "{0}"</value>
   </data>
   <data name="SetSharedLink" xml:space="preserve">
     <value>设置分享链接</value>
@@ -2222,7 +2222,7 @@
     <value>对话已关闭</value>
   </data>
   <data name="MessageActionChatMigrateTo" xml:space="preserve">
-    <value>对话已转移到频道 &quot;{0}&quot;</value>
+    <value>对话已转移到频道 "{0}"</value>
   </data>
   <data name="DeleteGroup" xml:space="preserve">
     <value>删除群组</value>
@@ -2564,7 +2564,7 @@
     <value>{0} 已置顶 1 张贴纸</value>
   </data>
   <data name="MessageActionPinText" xml:space="preserve">
-    <value>{0} 置顶了 &quot;{1}&quot;</value>
+    <value>{0} 置顶了 "{1}"</value>
   </data>
   <data name="MessageActionPinTrack" xml:space="preserve">
     <value>{0} 已置顶 1 首音乐</value>
@@ -2728,7 +2728,7 @@
   </data>
   <data name="StickersHint" xml:space="preserve">
     <value>我们欢迎艺术家们通过我们的 __@stickers__ 机器人来创建他们自己的贴纸包。 
-用户可以通过点按贴纸然后选择 &quot;添加到贴纸库&quot; 来添加贴纸包。</value>
+用户可以通过点按贴纸然后选择 "添加到贴纸库" 来添加贴纸包。</value>
   </data>
   <data name="ClearRecentStickers" xml:space="preserve">
     <value>清空最近贴纸列表</value>
@@ -2840,12 +2840,12 @@
     <value>撤销</value>
   </data>
   <data name="RevokeLinkConfirmation2" xml:space="preserve">
-    <value>你确定要撤销此链接 **&quot;{0}&quot;**？
+    <value>你确定要撤销此链接 **"{0}"**？
 
-**&quot;{1}&quot;** 将变成私人群组。</value>
+**"{1}"** 将变成私人群组。</value>
   </data>
   <data name="AddBotToTheGroup" xml:space="preserve">
-    <value>将机器人添加到 **&quot;{0}&quot;**？</value>
+    <value>将机器人添加到 **"{0}"**？</value>
   </data>
   <data name="YourScored" xml:space="preserve">
     <value>获得 {0} 分</value>
@@ -3061,7 +3061,7 @@
     <value>设置图片</value>
   </data>
   <data name="AskAQuestionDescription" xml:space="preserve">
-    <value>请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。请前往 &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#general&quot;&gt;Telegram FAQ&lt;/a&gt;]]&gt; 看看：那里有各种常见问题和 &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#troubleshooting&quot;&gt;故障排除提示&lt;/a&gt;]]&gt;。</value>
+    <value>请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。请前往 &lt;![CDATA[&lt;a href="https://telegram.org/faq#general"&gt;Telegram FAQ&lt;/a&gt;]]&gt; 看看：那里有各种常见问题和 &lt;![CDATA[&lt;a href="https://telegram.org/faq#troubleshooting"&gt;故障排除提示&lt;/a&gt;]]&gt;。</value>
   </data>
   <data name="MaskPackPlural" xml:space="preserve">
     <value>{0} 个装饰包</value>
@@ -3301,7 +3301,7 @@
     <value>Screenshots</value>
   </data>
   <data name="AccessCameraException" xml:space="preserve">
-    <value>Can&apos;t access current camera</value>
+    <value>Can't access current camera</value>
   </data>
   <data name="Answer" xml:space="preserve">
     <value>Answer</value>
@@ -3310,7 +3310,7 @@
     <value>Calling...</value>
   </data>
   <data name="EmojiKeyDescription" xml:space="preserve">
-    <value>If these emoji are the same on {0}&apos;s screen, this call is 100% secure.</value>
+    <value>If these emoji are the same on {0}'s screen, this call is 100% secure.</value>
   </data>
   <data name="EndCall" xml:space="preserve">
     <value>End Call</value>

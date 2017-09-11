@@ -163,7 +163,7 @@
     <value>Sending</value>
   </data>
   <data name="SendingFailed" xml:space="preserve">
-    <value>Can&apos;t send</value>
+    <value>Can't send</value>
   </data>
   <data name="SendMessage" xml:space="preserve">
     <value>Send Message</value>
@@ -241,10 +241,10 @@
     <value>User</value>
   </data>
   <data name="MessageActionChatCreate" xml:space="preserve">
-    <value>{0} created the group &quot;{1}&quot;</value>
+    <value>{0} created the group "{1}"</value>
   </data>
   <data name="MessageActionChatEditTitle" xml:space="preserve">
-    <value>{0} changed group name to &quot;{1}&quot;</value>
+    <value>{0} changed group name to "{1}"</value>
   </data>
   <data name="MessageActionChatEditPhoto" xml:space="preserve">
     <value>{0} updated group photo</value>
@@ -560,7 +560,7 @@
   </data>
   <data name="Intro1Message" xml:space="preserve">
     <value>Welcome to **Telegram** ―
-the world&apos;s fastest messaging app.
+the world's fastest messaging app.
 It is free and secure.</value>
   </data>
   <data name="Fast" xml:space="preserve">
@@ -670,7 +670,7 @@ Remember, logging out kills all your Secret Chats.</value>
     <value>Got a question about Telegram?</value>
   </data>
   <data name="InviteFriendMessage" xml:space="preserve">
-    <value>Hey, let&apos;s switch to Telegram http://telegram.org/dl</value>
+    <value>Hey, let's switch to Telegram http://telegram.org/dl</value>
   </data>
   <data name="ResetAllNotificationsMessage" xml:space="preserve">
     <value>Reset all notifications?</value>
@@ -939,7 +939,7 @@ If you have questions, contact our </value>
     <value>This image is a visualization of the encryption key for this secret chat with {0}.</value>
   </data>
   <data name="EncryptionKeyDescription2" xml:space="preserve">
-    <value>If this image looks the same on {0}&apos;s phone, your chat is 200% secure.</value>
+    <value>If this image looks the same on {0}'s phone, your chat is 200% secure.</value>
   </data>
   <data name="LearnMoreAt" xml:space="preserve">
     <value>Learn more at </value>
@@ -1048,7 +1048,7 @@ If you have questions, contact our </value>
     <value>New Broadcast List</value>
   </data>
   <data name="AddUserToTheGroup" xml:space="preserve">
-    <value>Add {0} to the group &quot;{1}&quot;?</value>
+    <value>Add {0} to the group "{1}"?</value>
   </data>
   <data name="NumberOfForwardingMessages" xml:space="preserve">
     <value>Number of last messages to forward</value>
@@ -1140,7 +1140,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>A username must have at least 5 characters.</value>
   </data>
   <data name="UsernameStartsWithNumber" xml:space="preserve">
-    <value>Sorry, a username can&apos;t start with a number.</value>
+    <value>Sorry, a username can't start with a number.</value>
   </data>
   <data name="SelectChat" xml:space="preserve">
     <value>Select chat</value>
@@ -1191,13 +1191,13 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Everybody</value>
   </data>
   <data name="IfYouAreAwayFor" xml:space="preserve">
-    <value>If you&apos;re away for</value>
+    <value>If you're away for</value>
   </data>
   <data name="LastSeenDescription" xml:space="preserve">
     <value>Who can see your Last Seen time?</value>
   </data>
   <data name="LastSeenImportantNote" xml:space="preserve">
-    <value>Important: you won&apos;t be able to see Last Seen times for people with whom you don&apos;t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</value>
+    <value>Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</value>
   </data>
   <data name="LastSeenLongTimeAgo" xml:space="preserve">
     <value>Last seen a long time ago</value>
@@ -1278,7 +1278,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Checking username...</value>
   </data>
   <data name="CantFindContactWithUsername" xml:space="preserve">
-    <value>Sorry, can&apos;t find a Telegram user with username @{0}</value>
+    <value>Sorry, can't find a Telegram user with username @{0}</value>
   </data>
   <data name="Compressing" xml:space="preserve">
     <value>Compressing</value>
@@ -1302,12 +1302,12 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>New number</value>
   </data>
   <data name="NewNumberConfirmation" xml:space="preserve">
-    <value>All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven&apos;t blocked them in Telegram.</value>
+    <value>All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.</value>
   </data>
   <data name="NewNumberDescription" xml:space="preserve">
     <value>You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.
 
-Important: all your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven&apos;t blocked them in Telegram.</value>
+Important: all your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.</value>
   </data>
   <data name="NewNumberTaken" xml:space="preserve">
     <value>The number {0} is already connected to a Telegram account. Please delete that account before migrating to the new number.</value>
@@ -1420,7 +1420,7 @@ We detected a login into your account from a new device on {1}, {2} at {3}
 Device: {4}
 Location: {5}
 
-If this wasn&apos;t you, you can go to Settings — Privacy and Security — Terminate all sessions.
+If this wasn't you, you can go to Settings — Privacy and Security — Terminate all sessions.
 
 Thanks, The Telegram Team</value>
   </data>
@@ -1439,7 +1439,7 @@ Thanks, The Telegram Team</value>
   <data name="ChangePasscodeHint" xml:space="preserve">
     <value>When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock the app.
 
-Note: if you forget the passcode, you&apos;ll need to delete and reinstall the app. All secret chats will be lost.</value>
+Note: if you forget the passcode, you'll need to delete and reinstall the app. All secret chats will be lost.</value>
   </data>
   <data name="ConfirmPasscode" xml:space="preserve">
     <value>Confirm passcode</value>
@@ -1622,7 +1622,7 @@ Note: if you forget the passcode, you&apos;ll need to delete and reinstall the a
     <value>Change recovery e-mail</value>
   </data>
   <data name="CompletePasswordHint" xml:space="preserve">
-    <value>Please check your e-mail (don&apos;t forget the spam folder) to complete Two-Step Verification setup.</value>
+    <value>Please check your e-mail (don't forget the spam folder) to complete Two-Step Verification setup.</value>
   </data>
   <data name="ConfirmPassword" xml:space="preserve">
     <value>Re-enter your password</value>
@@ -1692,7 +1692,7 @@ If you forget your password, you will be lose access to your Telegram account. T
   <data name="StepsToCompleteToTwoStepsVerificationSetup" xml:space="preserve">
     <value>Please follow these steps to complete Two-Step Verification Setup
 
-1. Check your e-mail (don&apos;t forget the spam folder) {0}
+1. Check your e-mail (don't forget the spam folder) {0}
 
 2. Click on the validation link.</value>
   </data>
@@ -1718,10 +1718,10 @@ If you forget your password, you will be lose access to your Telegram account. T
     <value>Having trouble accessing your e-mail {0}?</value>
   </data>
   <data name="NoAccessRecoveryEmailMessage" xml:space="preserve">
-    <value>If you can&apos;t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</value>
+    <value>If you can't restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</value>
   </data>
   <data name="NoRecoveryEmailMessage" xml:space="preserve">
-    <value>Since you haven&apos;t provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</value>
+    <value>Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</value>
   </data>
   <data name="PasswordDeactivated" xml:space="preserve">
     <value>Password deactivated</value>
@@ -1743,7 +1743,7 @@ If you forget your password, you will be lose access to your Telegram account. T
   </data>
   <data name="RecoveryEmailComplete" xml:space="preserve">
     <value>You have enabled Two-Step Verification.
-You&apos;ll need the password you set up here to log in to your Telegram account.</value>
+You'll need the password you set up here to log in to your Telegram account.</value>
   </data>
   <data name="TerminateSessionHint" xml:space="preserve">
     <value>Tap on a session to terminate.</value>
@@ -1812,7 +1812,7 @@ if you proceed with resetting your account.</value>
     <value>Anyone who has Telegram installed will be able to join your group by following this link.</value>
   </data>
   <data name="JoinGroupConfirmation" xml:space="preserve">
-    <value>Do you want to join the group &apos;{0}&apos;?</value>
+    <value>Do you want to join the group '{0}'?</value>
   </data>
   <data name="MessageActionChatJoinedByLink" xml:space="preserve">
     <value>{0} joined the group via invite link</value>
@@ -1842,7 +1842,7 @@ if you proceed with resetting your account.</value>
     <value>Powered by</value>
   </data>
   <data name="LocationServicesDisabled" xml:space="preserve">
-    <value>Your phone&apos;s location services are turned off.</value>
+    <value>Your phone's location services are turned off.</value>
   </data>
   <data name="LocationSettings" xml:space="preserve">
     <value>Location settings</value>
@@ -1851,7 +1851,7 @@ if you proceed with resetting your account.</value>
     <value>Unknown</value>
   </data>
   <data name="AddStickersConfirmation" xml:space="preserve">
-    <value>Do you want to add stickers &apos;{0}&apos;?</value>
+    <value>Do you want to add stickers '{0}'?</value>
   </data>
   <data name="NewStickersAdded" xml:space="preserve">
     <value>New sticker set added</value>
@@ -1889,7 +1889,7 @@ if you proceed with resetting your account.</value>
   <data name="StickersDescription" xml:space="preserve">
     <value>Artists are welcome to add their own sticker packs using our @stickers bot.
 
-Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quot;.</value>
+Users can add stickers by tapping on them and choosing "Add to Stickers".</value>
   </data>
   <data name="LinkCopiedToClipboard" xml:space="preserve">
     <value>Link copied to clipboard</value>
@@ -1901,7 +1901,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>Show</value>
   </data>
   <data name="AddToStickers" xml:space="preserve">
-    <value>Add to stickers</value>
+    <value>Add to Stickers</value>
   </data>
   <data name="SecretChatRequested" xml:space="preserve">
     <value>Exchanging encryption keys...</value>
@@ -1919,7 +1919,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>What can this bot do?</value>
   </data>
   <data name="AddBotToGroupsError" xml:space="preserve">
-    <value>This bot can&apos;t join groups.</value>
+    <value>This bot can't join groups.</value>
   </data>
   <data name="AddToGroup" xml:space="preserve">
     <value>Add to Group</value>
@@ -1973,7 +1973,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>New Channel</value>
   </data>
   <data name="MessageActionBroadcastCreate" xml:space="preserve">
-    <value>{0} created the broadcast &quot;{1}&quot;</value>
+    <value>{0} created the broadcast "{1}"</value>
   </data>
   <data name="MessageActionChannelCreate" xml:space="preserve">
     <value>Channel created</value>
@@ -2080,7 +2080,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
   <data name="ChoosePublicChannelLinkNotification" xml:space="preserve">
     <value>Please choose a link for your public channel, so that people can find it in search and share with others.
 
-If you&apos;re not interested, we suggest creating a private channel instead.</value>
+If you're not interested, we suggest creating a private channel instead.</value>
   </data>
   <data name="MessageActionChannelEditPhoto" xml:space="preserve">
     <value>Channel photo updated</value>
@@ -2136,7 +2136,7 @@ Do not create this link if you want your channel to stay private.</value>
     <value>Are you sure you want to leave the channel?</value>
   </data>
   <data name="JoinChannelConfirmation" xml:space="preserve">
-    <value>Do you want to join the channel &apos;{0}&apos;?</value>
+    <value>Do you want to join the channel '{0}'?</value>
   </data>
   <data name="Administration" xml:space="preserve">
     <value>Administration</value>
@@ -2151,7 +2151,7 @@ Do not create this link if you want your channel to stay private.</value>
     <value>Channel photo removed</value>
   </data>
   <data name="MessageActionChannelEditTitle" xml:space="preserve">
-    <value>Channel name changed to &quot;{0}&quot;</value>
+    <value>Channel name changed to "{0}"</value>
   </data>
   <data name="SetSharedLink" xml:space="preserve">
     <value>Set shared link</value>
@@ -2175,10 +2175,10 @@ Do not create this link if you want your channel to stay private.</value>
     <value>Sorry, this channel is no longer accessible.</value>
   </data>
   <data name="InviteContactConfirmation" xml:space="preserve">
-    <value>{0} hasn&apos;t joined the channel yet. Do you want to invite them?</value>
+    <value>{0} hasn't joined the channel yet. Do you want to invite them?</value>
   </data>
   <data name="PostToChannelError" xml:space="preserve">
-    <value>Sorry, you can&apos;t post to this channel.</value>
+    <value>Sorry, you can't post to this channel.</value>
   </data>
   <data name="SearchSharedMusic" xml:space="preserve">
     <value>Search shared music</value>
@@ -2225,7 +2225,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <value>Chat was deactivated</value>
   </data>
   <data name="MessageActionChatMigrateTo" xml:space="preserve">
-    <value>Chat migrated to channel &quot;{0}&quot;</value>
+    <value>Chat migrated to channel "{0}"</value>
   </data>
   <data name="DeleteGroup" xml:space="preserve">
     <value>Delete group</value>
@@ -2240,7 +2240,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <value>Sorry, too many adminstrators in this group.</value>
   </data>
   <data name="BlockedUsersDescription" xml:space="preserve">
-    <value>Blocked users are removed from the group and can only come back if invited by an admin. Invite links don&apos;t work for them.</value>
+    <value>Blocked users are removed from the group and can only come back if invited by an admin. Invite links don't work for them.</value>
   </data>
   <data name="BotsTooMuch" xml:space="preserve">
     <value>Sorry, too many bots in this group.</value>
@@ -2264,7 +2264,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <value>Promote to admin</value>
   </data>
   <data name="UserNotMutualContact" xml:space="preserve">
-    <value>Sorry, you can&apos;t add this user to groups.</value>
+    <value>Sorry, you can't add this user to groups.</value>
   </data>
   <data name="UsersTooMuch" xml:space="preserve">
     <value>Sorry, this group is full.</value>
@@ -2273,7 +2273,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <value>Sorry, this group is no longer accessible.</value>
   </data>
   <data name="InviteContactToGroupConfirmation" xml:space="preserve">
-    <value>{0} hasn&apos;t joined the group yet. Do you want to invite them?</value>
+    <value>{0} hasn't joined the group yet. Do you want to invite them?</value>
   </data>
   <data name="OpenUrlConfirmation" xml:space="preserve">
     <value>Open url {0}?</value>
@@ -2421,10 +2421,10 @@ All media will stay in the Telegram cloud and can be re-downloaded if you need i
     <value>This image and text were derived from the encryption key for this secret chat with {0}.</value>
   </data>
   <data name="EncryptionKeyExtendedDescription2" xml:space="preserve">
-    <value>If they look the same on {0}&apos;s phone, end-to-end encryption is guaranteed.</value>
+    <value>If they look the same on {0}'s phone, end-to-end encryption is guaranteed.</value>
   </data>
   <data name="InlineBotsNotification" xml:space="preserve">
-    <value>Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot&apos;s username are sent to the respective developer.</value>
+    <value>Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot's username are sent to the respective developer.</value>
   </data>
   <data name="LinkPreviews" xml:space="preserve">
     <value>Link previews</value>
@@ -2476,7 +2476,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Channel names must have at least 5 characters.</value>
   </data>
   <data name="ChannelNameStartsWithNumber" xml:space="preserve">
-    <value>Channel names can&apos;t start with a number.</value>
+    <value>Channel names can't start with a number.</value>
   </data>
   <data name="NameChecking" xml:space="preserve">
     <value>Checking name...</value>
@@ -2494,10 +2494,10 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Supergroup names must have at least 5 characters.</value>
   </data>
   <data name="SupergroupNameStartsWithNumber" xml:space="preserve">
-    <value>Supergroup names can&apos;t start with a number.</value>
+    <value>Supergroup names can't start with a number.</value>
   </data>
   <data name="EditMessageError" xml:space="preserve">
-    <value>Sorry, you can&apos;t edit this message.</value>
+    <value>Sorry, you can't edit this message.</value>
   </data>
   <data name="MuteChannelPostHint" xml:space="preserve">
     <value>Members will not be notified when you post</value>
@@ -2518,7 +2518,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Convert to Supergroup</value>
   </data>
   <data name="ConvertToSupergroupNote" xml:space="preserve">
-    <value>**Note**: this action can&apos;t be undone.</value>
+    <value>**Note**: this action can't be undone.</value>
   </data>
   <data name="Supergroup" xml:space="preserve">
     <value>Supergroup</value>
@@ -2567,7 +2567,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>{0} pinned a sticker</value>
   </data>
   <data name="MessageActionPinText" xml:space="preserve">
-    <value>{0} pinned &quot;{1}&quot;</value>
+    <value>{0} pinned "{1}"</value>
   </data>
   <data name="MessageActionPinTrack" xml:space="preserve">
     <value>{0} pinned a track</value>
@@ -2652,16 +2652,16 @@ Your report will be reviewed by our team very soon.</value>
     <value>You left the group</value>
   </data>
   <data name="CodeSentToTelegramApp" xml:space="preserve">
-    <value>We&apos;ve sent the code to the **Telegram** app on your other device.</value>
+    <value>We've sent the code to the **Telegram** app on your other device.</value>
   </data>
   <data name="CodeSentViaCallingPhone" xml:space="preserve">
     <value>We are calling your phone **{0}** to dictate a code.</value>
   </data>
   <data name="DidNotGetCode" xml:space="preserve">
-    <value>Didn&apos;t get the code?</value>
+    <value>Didn't get the code?</value>
   </data>
   <data name="HaveNotReceivedCode" xml:space="preserve">
-    <value>Haven&apos;t received the code?</value>
+    <value>Haven't received the code?</value>
   </data>
   <data name="ShareLocationConfirmation" xml:space="preserve">
     <value>This will send your current location to the bot.</value>
@@ -2732,7 +2732,7 @@ Your report will be reviewed by our team very soon.</value>
   <data name="StickersHint" xml:space="preserve">
     <value>Artists are welcome to add their own sticker packs using our __@stickers__ bot.
 
-Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quot;.</value>
+Users can add stickers by tapping on them and choosing "Add to Stickers".</value>
   </data>
   <data name="ClearRecentStickers" xml:space="preserve">
     <value>Clear recent stickers</value>
@@ -2759,7 +2759,7 @@ Users can add stickers by tapping on them and choosing &quot;Add to Stickers&quo
     <value>Archived stickers</value>
   </data>
   <data name="ArchivedStickersAbout" xml:space="preserve">
-    <value>Some of the your unused stickers have been archived to make room for the sets you&apos;ve activated.</value>
+    <value>Some of the your unused stickers have been archived to make room for the sets you've activated.</value>
   </data>
   <data name="ArchivedStickersHeader" xml:space="preserve">
     <value>You can have up to 200 sticker sets installed. Unused stickers are archived when you add more.</value>
@@ -2844,10 +2844,10 @@ You can cancel this process at any time.</value>
   <data name="RevokeLinkConfirmation2" xml:space="preserve">
     <value>Are you sure you want to revoke the link **{0}**?
 
-The group **&quot;{1}&quot;** will become private.</value>
+The group **"{1}"** will become private.</value>
   </data>
   <data name="AddBotToTheGroup" xml:space="preserve">
-    <value>Add the bot to &quot;{0}&quot;?</value>
+    <value>Add the bot to "{0}"?</value>
   </data>
   <data name="YourScored" xml:space="preserve">
     <value>You scored {0}</value>
@@ -2937,7 +2937,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>No groups here</value>
   </data>
   <data name="AddChatUserFloodWait" xml:space="preserve">
-    <value>You can&apos;t add this user because you have contacted too many non-contacts today. Please try again tomorrow. You can ask another member to add this user to the group.</value>
+    <value>You can't add this user because you have contacted too many non-contacts today. Please try again tomorrow. You can ask another member to add this user to the group.</value>
   </data>
   <data name="ClearAll" xml:space="preserve">
     <value>Clear all</value>
@@ -2985,7 +2985,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Sorry, you have created or joined too many channels.</value>
   </data>
   <data name="UserChannelsTooMuch" xml:space="preserve">
-    <value>Sorry, you can&apos;t add this user to channels.</value>
+    <value>Sorry, you can't add this user to channels.</value>
   </data>
   <data name="ItemsSelectedSingular" xml:space="preserve">
     <value>{0} selected</value>
@@ -3063,7 +3063,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Set Photo</value>
   </data>
   <data name="AskAQuestionDescription" xml:space="preserve">
-    <value>Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while. Please take a look at the &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#general&quot;&gt;Telegram FAQ&lt;/a&gt;]]&gt;: it has answers to most questions and important tips for &lt;![CDATA[&lt;a href=&quot;https://telegram.org/faq#troubleshooting&quot;&gt;troubleshooting&lt;/a&gt;]]&gt;.</value>
+    <value>Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while. Please take a look at the &lt;![CDATA[&lt;a href="https://telegram.org/faq#general"&gt;Telegram FAQ&lt;/a&gt;]]&gt;: it has answers to most questions and important tips for &lt;![CDATA[&lt;a href="https://telegram.org/faq#troubleshooting"&gt;troubleshooting&lt;/a&gt;]]&gt;.</value>
   </data>
   <data name="MaskPackPlural" xml:space="preserve">
     <value>{0} mask packs</value>
@@ -3303,7 +3303,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Screenshots</value>
   </data>
   <data name="AccessCameraException" xml:space="preserve">
-    <value>Can&apos;t access current camera</value>
+    <value>Can't access current camera</value>
   </data>
   <data name="Answer" xml:space="preserve">
     <value>Answer</value>
@@ -3312,7 +3312,7 @@ The group **&quot;{1}&quot;** will become private.</value>
     <value>Calling...</value>
   </data>
   <data name="EmojiKeyDescription" xml:space="preserve">
-    <value>If these emoji are the same on {0}&apos;s screen, this call is 100% secure.</value>
+    <value>If these emoji are the same on {0}'s screen, this call is 100% secure.</value>
   </data>
   <data name="EndCall" xml:space="preserve">
     <value>End Call</value>
@@ -3497,5 +3497,38 @@ Anyone who opens your profile will see this text.</value>
   </data>
   <data name="SecretVideo" xml:space="preserve">
     <value>Secret Video</value>
+  </data>
+  <data name="ChooseFromYourStickers" xml:space="preserve">
+    <value>Choose from your stickers</value>
+  </data>
+  <data name="CreateStickerSetHint" xml:space="preserve">
+    <value>You can create your own custom sticker set using @stickers bot</value>
+  </data>
+  <data name="GroupStickers" xml:space="preserve">
+    <value>Group stickers</value>
+  </data>
+  <data name="GroupStickersDescription" xml:space="preserve">
+    <value>You can choose sticker set which will be available for every member while in the group chat.</value>
+  </data>
+  <data name="AddToFavorites" xml:space="preserve">
+    <value>Add to Favorites</value>
+  </data>
+  <data name="DeleteFromFavorites" xml:space="preserve">
+    <value>Delete from Favorites</value>
+  </data>
+  <data name="NoStickerSetFound" xml:space="preserve">
+    <value>No such sticker set found</value>
+  </data>
+  <data name="NoStickerSetFoundSubtitle" xml:space="preserve">
+    <value>Try again or choose from the list below</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="VideoQuality" xml:space="preserve">
+    <value>Video quality</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
   </data>
 </root>

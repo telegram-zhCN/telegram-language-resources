@@ -380,8 +380,6 @@
   <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
   <string name="EventLogChangedGroupLink">un1 修改了群组链接:</string>
   <string name="EventLogChangedChannelLink">un1 修改了频道链接:</string>
-  <string name="EventLogRemovedGroupLink">un1 移除了群组链接</string>
-  <string name="EventLogRemovedChannelLink">un1 移除了频道链接</string>
   <string name="EventLogPreviousLink">之前的链接</string>
   <string name="EventLogEditedGroupDescription">un1 修改了群组简介:</string>
   <string name="EventLogEditedChannelDescription">un1 修改了频道简介:</string>
@@ -443,6 +441,7 @@
   <string name="SdCard">SD卡</string>
   <string name="Folder">文件夹</string>
   <string name="GalleryInfo">发送原图</string>
+  <!--group stickers-->
   <!--chat view-->
   <string name="Invisible">隐身</string>
   <string name="Typing">正在输入...</string>
