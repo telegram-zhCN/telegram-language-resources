@@ -66,7 +66,6 @@
   <string name="PaymentCardCvv">Security Code (CVV)</string>
   <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Billing address</string>
-  <string name="PaymentCardNameTitle">Card holder</string>
   <string name="PaymentCardName">Name Surname</string>
   <string name="PaymentCardSavePaymentInformation">Save Payment Information</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">You can save your payment info for future use.</string>
@@ -123,7 +122,6 @@
   <string name="HiddenName">Deleted Account</string>
   <string name="SelectChat">Select Chat</string>
   <string name="ForwardTo">Forward to...</string>
-  <string name="PhotoTip">Tap and hold to view</string>
   <string name="DisappearingPhoto">Secret Photo</string>
   <string name="DisappearingVideo">Secret Video</string>
   <string name="CompatibilityChat">%1$s is using an older version of Telegram, so secret photos will be shown in compatibility mode.\n\nOnce %2$s updates Telegram, photos with timers for 1 minute or less will start working in \'Tap and hold to view\' mode, and you will be notified whenever the other party takes a screenshot.</string>
@@ -155,12 +153,8 @@
   <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
   <string name="ContactsPermissionAlertContinue">CONTINUE</string>
   <!--channels-->
-  <string name="ChannelTypePublic">Public</string>
-  <string name="ChannelTypePrivate">Private</string>
   <string name="SetAsAdmin">Promote to admin</string>
   <string name="NoBlockedUsers">No banned users</string>
-  <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
-  <string name="LeaveMega">Leave Group</string>
   <string name="DeleteMega">Delete Group</string>
   <string name="LeaveMegaMenu">Leave group</string>
   <string name="DeleteMegaMenu">Delete group</string>
@@ -243,8 +237,6 @@
   <string name="ChannelLeaveAlert">Are you sure you want to leave the channel?</string>
   <string name="ChannelDeleteInfo">You will lose all messages in this channel.</string>
   <string name="ChannelEdit">Edit</string>
-  <string name="MegaWasPrivateAlert">Please note that if you choose a public link for your group, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>
-  <string name="ChannelWasPrivateAlert">Please note that if you choose a public link for your channel, anyone will be able to find it in search and join.\n\nDo not create this link if you want your channel to stay private.</string>
   <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.</string>
   <string name="ActionCreateChannel">Channel created</string>
   <string name="ActionChannelChangedPhoto">Channel photo changed</string>
@@ -252,7 +244,6 @@
   <string name="ActionChannelChangedTitle">Channel name changed to un2</string>
   <string name="ChangePublicLimitReached">Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</string>
   <string name="ChannelCreator">Creator</string>
-  <string name="ChannelEditor">Administrator</string>
   <string name="ChannelMute">MUTE</string>
   <string name="ChannelUnmute">UNMUTE</string>
   <string name="ChannelAddAdmin">Add administrator</string>
@@ -260,10 +251,8 @@
   <string name="Unban">Unban</string>
   <string name="UnbanText">Tap and hold on user to unban.</string>
   <string name="ChannelInviteViaLink">Invite via Link</string>
-  <string name="ChannelAddUserAdminAlert">Are you sure you want to make %1$s an administrator?</string>
   <string name="ChannelRemoveUserAdmin">Dismiss admin</string>
   <string name="ChannelMembersInfo">Only channel administrators can see this list.</string>
-  <string name="ChannelAdminNotParticipant">This user hasn\'t joined the channel yet. Do you want to invite them?</string>
   <string name="ChannelLinkInfo">Anyone who has Telegram installed will be able to join your channel by following this link.</string>
   <string name="ChannelAdminsInfo">You can add administrators to help you manage your channel. Tap and hold to remove admins.</string>
   <string name="ChannelJoinTo">Do you want to join the channel \'%1$s\'?</string>
@@ -340,7 +329,6 @@
   <string name="UserRestrictionsEmbedLinks">Embed Links</string>
   <string name="UserRestrictionsUntil">Banned until</string>
   <string name="UserRestrictionsUntilForever">Forever</string>
-  <string name="UserRestrictionsUntilRemove">Remove</string>
   <string name="UserRestrictionsBlock">Ban and remove from group</string>
   <string name="ManageGroup">Manage Group</string>
   <string name="ManageChannel">Manage Channel</string>
@@ -415,7 +403,6 @@
   <string name="EventLogFilterNewMembers">New members</string>
   <string name="EventLogFilterGroupInfo">Group info</string>
   <string name="EventLogFilterChannelInfo">Channel info</string>
-  <string name="EventLogFilterGroupSettings">Group settings</string>
   <string name="EventLogFilterDeletedMessages">Deleted messages</string>
   <string name="EventLogFilterEditedMessages">Edited messages</string>
   <string name="EventLogFilterPinnedMessages">Pinned messages</string>
@@ -479,7 +466,6 @@
   <string name="SendingVideoStatus">sending video...</string>
   <string name="SendingFile">sending file...</string>
   <string name="GotAQuestion">Got a question\nabout Telegram?</string>
-  <string name="ChatTakePhoto">Take photo</string>
   <string name="ChatGallery">Gallery</string>
   <string name="ChatLocation">Location</string>
   <string name="ChatVideo">Video</string>
@@ -519,7 +505,6 @@
   <string name="GettingLinkInfo">Getting Link Info...</string>
   <string name="OpenInBrowser">OPEN IN...</string>
   <string name="OpenInExternalApp">Open in...</string>
-  <string name="CopyUrl">Copy URL</string>
   <string name="SendItems">Send %1$s</string>
   <string name="SendAsFile">Send as file</string>
   <string name="SendAsFiles">Send as files</string>
@@ -533,9 +518,6 @@
   <string name="ReportSpamAlertChannel">Are you sure you want to report spam from this channel?</string>
   <string name="NobodyLikesSpam1">Sorry, you can only send messages to mutual contacts at the moment.</string>
   <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
-  <string name="NobodyLikesSpam3">You have contacted too many non-contacts today, please try again tomorrow. You will be able to reply today if this user messages you first.</string>
-  <string name="NobodyLikesSpam4">You can\'t add this user because you have contacted too many non-contacts today. Please try again tomorrow. You can ask another member to add this user to the group.</string>
-  <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">More info</string>
   <string name="ShareSendTo">Send to...</string>
   <string name="ShareComment">Write a comment...</string>
@@ -562,7 +544,6 @@
   <string name="TimeToEditExpired">Sorry, editing time expired.</string>
   <string name="AddShortcut">Add shortcut</string>
   <string name="SearchMembers">Search members</string>
-  <string name="ShortcutAdded">Shortcut added to home screen</string>
   <string name="ChatYourSelf">chat with yourself</string>
   <string name="ChatYourSelfName">You</string>
   <string name="ChatYourSelfDescription1">Forward messages here to save them</string>
@@ -673,14 +654,12 @@
   <!--contacts view-->
   <string name="SelectContact">Select Contact</string>
   <string name="NoContacts">No contacts yet</string>
-  <string name="InviteText">Hey, let\'s switch to Telegram: https://telegram.org/dl</string>
   <string name="InviteText2">Hey, I\'m using Telegram to chat. Join me! Download it here: %1$s</string>
   <string name="TodayAt">at</string>
   <string name="YesterdayAt">yesterday at</string>
   <string name="Online">online</string>
   <string name="LastSeen">last seen</string>
   <string name="LastSeenDate">last seen</string>
-  <string name="LastSeenNow">last seen just now</string>
   <string name="InviteFriends">Invite Friends</string>
   <string name="SearchFriends">Search friends</string>
   <string name="GlobalSearch">GLOBAL SEARCH</string>
@@ -911,8 +890,6 @@
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">Delete localization?</string>
   <string name="IncorrectLocalization">Incorrect localization file</string>
-  <string name="Enabled">Enabled</string>
-  <string name="Disabled">Disabled</string>
   <string name="NotificationsService">Keep-Alive Service</string>
   <string name="NotificationsServiceInfo">Relaunch app when shut down by user or system. This will ensure app can show notifications.</string>
   <string name="NotificationsServiceConnection">Background Connection</string>
@@ -945,7 +922,6 @@
   <string name="NotificationsPriority">Priority</string>
   <string name="NotificationsPrioritySettings">Same as in Settings</string>
   <string name="NotificationsPriorityDefault">Default</string>
-  <string name="NotificationsPriorityLow">Low</string>
   <string name="NotificationsPriorityHigh">High</string>
   <string name="NotificationsPriorityMax">Max</string>
   <string name="RepeatNotificationsNever">Never</string>
@@ -957,7 +933,6 @@
   <string name="ChangePhoneHelp">We will send an SMS with a confirmation code to your new number.</string>
   <string name="ChangePhoneNumberOccupied">The number %1$s is already connected to a Telegram account. Please delete that account before migrating to the new number.</string>
   <string name="NotificationsOther">Other</string>
-  <string name="NotificationsDisabled">Disabled</string>
   <string name="VibrationDisabled">Disabled</string>
   <string name="PopupEnabled">Enabled</string>
   <string name="PopupDisabled">Disabled</string>
@@ -999,7 +974,7 @@
   <string name="UseProxyForCalls">Use proxy for calls</string>
   <string name="UseProxyForCallsInfo">Proxy servers may degrade the quality of your calls.</string>
   <string name="LowDiskSpaceTitle">Attention</string>
-  <string name="LowDiskSpaceMessage">Your phone is almost out of free disk space. To free some space, set up Telegram cache to store only recent media or delete it altogether.</string>
+  <string name="LowDiskSpaceMessage">Your device is almost out of disk space. To free some space, you can set up Telegram to cache only recent media.</string>
   <string name="LowDiskSpaceTitle2">Remove media after</string>
   <string name="LowDiskSpaceNeverRemove">Never remove</string>
   <!--cache view-->
@@ -1036,7 +1011,6 @@
   <string name="Passcode">Passcode Lock</string>
   <string name="ChangePasscode">Change Passcode</string>
   <string name="ChangePasscodeInfo">When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock your Telegram app.\n\nNote: if you forget the passcode, you\'ll need to delete and reinstall the app. All secret chats will be lost.</string>
-  <string name="ChangePasscodeAlert">You will now see a lock icon on the chats page. Tap it to lock your Telegram app with your new passcode.</string>
   <string name="PasscodePIN">PIN</string>
   <string name="PasscodePassword">Password</string>
   <string name="EnterCurrentPasscode">Enter your current passcode</string>
@@ -1044,7 +1018,6 @@
   <string name="EnterNewPasscode">Enter your new passcode</string>
   <string name="EnterYourPasscode">Enter your passcode</string>
   <string name="ReEnterYourPasscode">Re-enter your new passcode</string>
-  <string name="InvalidPasscode">Invalid passcode</string>
   <string name="PasscodeDoNotMatch">Passcodes do not match</string>
   <string name="AutoLock">Auto-lock</string>
   <string name="AutoLockInfo">Require passcode if away for a time.</string>
@@ -1089,7 +1062,6 @@
   <string name="AllPhotos">All photos</string>
   <string name="AllMedia">All media</string>
   <string name="NoPhotos">No photos yet</string>
-  <string name="NoVideo">No videos yet</string>
   <string name="PleaseDownload">Please download media first</string>
   <string name="NoRecentPhotos">No recent photos</string>
   <string name="NoRecentGIFs">No recent GIFs</string>
@@ -1099,7 +1071,6 @@
   <string name="SearchImagesTitle">Search web</string>
   <string name="SearchGifsTitle">Search GIFs</string>
   <string name="CropImage">Crop image</string>
-  <string name="EditImage">Edit image</string>
   <string name="Enhance">Enhance</string>
   <string name="Highlights">Highlights</string>
   <string name="Contrast">Contrast</string>
@@ -1111,15 +1082,12 @@
   <string name="Grain">Grain</string>
   <string name="Sharpen">Sharpen</string>
   <string name="Fade">Fade</string>
-  <string name="Tint">Tint</string>
   <string name="TintShadows">SHADOWS</string>
   <string name="TintHighlights">HIGHLIGHTS</string>
-  <string name="Curves">Curves</string>
   <string name="CurvesAll">ALL</string>
   <string name="CurvesRed">RED</string>
   <string name="CurvesGreen">GREEN</string>
   <string name="CurvesBlue">BLUE</string>
-  <string name="Blur">Blur</string>
   <string name="BlurOff">Off</string>
   <string name="BlurLinear">Linear</string>
   <string name="BlurRadial">Radial</string>
@@ -1128,16 +1096,11 @@
   <string name="DiscardChanges">Discard changes?</string>
   <string name="ClearSearch">Clear search history?</string>
   <string name="ClearButton">Clear</string>
-  <string name="PickerPhotos">Photos</string>
-  <string name="PickerVideo">Video</string>
   <string name="AddCaption">Add a caption...</string>
   <string name="PhotoCaption">Photo Caption</string>
   <string name="VideoCaption">Video Caption</string>
   <string name="GifCaption">GIF Caption</string>
   <string name="Caption">Caption</string>
-  <string name="PaintDraw">Draw</string>
-  <string name="PaintStickers">Stickers</string>
-  <string name="PaintText">Text</string>
   <string name="PaintDelete">Delete</string>
   <string name="PaintEdit">Edit</string>
   <string name="PaintDuplicate">Duplicate</string>
@@ -1238,8 +1201,6 @@
   <string name="DeleteAccountTitle">Account self-destructs</string>
   <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
   <string name="DeleteAccountHelp">If you do not come online at least once within this period, your account will be deleted along with all groups, messages and contacts.</string>
-  <string name="DeleteAccountNowConfirmation">Delete your account?</string>
-  <string name="LastSeenHelp">Change who can see your Last Seen time.</string>
   <string name="LastSeenTitle">Who can see your Last Seen time?</string>
   <string name="AddExceptions">Add exceptions</string>
   <string name="CustomHelp">Important: you won\'t be able to see Last Seen times for people with whom you don\'t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</string>
@@ -1269,7 +1230,6 @@
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PrivacyCallsP2PHelp">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</string>
   <!--edit video view-->
-  <string name="EditVideo">Edit Video</string>
   <string name="SendingVideo">Sending video...</string>
   <string name="SendingGif">Sending GIF...</string>
   <!--bot-->
@@ -1286,8 +1246,6 @@
   <string name="BotStop">Stop bot</string>
   <string name="BotRestart">Restart bot</string>
   <!--button titles-->
-  <string name="Next">Next</string>
-  <string name="Back">Back</string>
   <string name="Done">Done</string>
   <string name="Open">Open</string>
   <string name="Save">Save</string>
@@ -1308,8 +1266,6 @@
   <string name="Set">Set</string>
   <string name="OK">OK</string>
   <string name="Crop">CROP</string>
-  <string name="Yes">Yes</string>
-  <string name="No">No</string>
   <!--messages-->
   <string name="ActionInviteYou">You joined the group via invite link</string>
   <string name="ActionInviteUser">un1 joined the group via invite link</string>
@@ -1371,8 +1327,6 @@
   <string name="AddToTheGroupTitle">Add %1$s to the chat %2$s?</string>
   <string name="AddToTheGroupForwardCount">Number of last messages to forward:</string>
   <string name="AddToTheGroup">Add %1$s to the group?</string>
-  <string name="UserAlreadyInGroup">This user is already in this group</string>
-  <string name="ForwardMessagesTo">Forward messages to %1$s?</string>
   <string name="SendMessagesTo">Send messages to %1$s?</string>
   <string name="SendGameTo">Share game to %1$s?</string>
   <string name="SendContactTo">Send contact to %1$s?</string>
@@ -1401,13 +1355,11 @@
   <string name="SendMessagesToGroup">Send messages to %1$s?</string>
   <string name="SendGameToGroup">Share game to %1$s?</string>
   <string name="SendContactToGroup">Send contact to %1$s?</string>
-  <string name="ForwardMessagesToGroup">Forward messages to %1$s?</string>
   <string name="FeatureUnavailable">Sorry, this feature is currently not available in your country.</string>
   <string name="NoUsernameFound">There is no Telegram account with this username.</string>
   <string name="BotCantJoinGroups">This bot can\'t join groups.</string>
   <string name="SecretLinkPreviewAlert">Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</string>
   <string name="SecretChatContextBotAlert">Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot\'s username are sent to the respective developer.</string>
-  <string name="RaiseToSpeakAlert">Would you like to enable \"Raise to speak\" for voice messages?</string>
   <string name="EditMessageError">Sorry, you can\'t edit this message.</string>
   <string name="AllowReadSms">Please allow Telegram to receive SMS so that we can automatically enter your code for you.</string>
   <string name="AllowReadCall">Please allow Telegram to receive calls so that we can automatically enter your code for you.</string>
@@ -1486,12 +1438,10 @@
   <string name="CallMessageOutgoingMissed">Cancelled Call</string>
   <string name="CallMessageIncomingDeclined">Declined Call</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">This image and text were derived from the encryption key for this call with <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nIf they look the same on <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> device, end-to-end encryption is guaranteed.</string>
   <string name="NoCallLog">You didn\'t make any calls yet.</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'s app is using an incompatible protocol. They need to update their app before you can call them.</string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'s app does not support calls. They need to update their app before you can call them.</string>
   <string name="VoipRateCallAlert">Please rate the quality of your Telegram call</string>
-  <string name="VoipFeedbackAlert">Would you like to leave any feedback to help us improve the calling service?</string>
   <string name="VoipNeedMicPermission">Telegram needs access to your microphone so that you can make calls.</string>
   <string name="VoipFeedbackCommentHint">Add an optional comment</string>
   <string name="CallBack">Call Back</string>
@@ -1637,12 +1587,6 @@
   <string name="Stickers_few">%1$d stickers</string>
   <string name="Stickers_many">%1$d stickers</string>
   <string name="Stickers_other">%1$d stickers</string>
-  <string name="Photos_zero">%1$d photos</string>
-  <string name="Photos_one">%1$d photo</string>
-  <string name="Photos_two">%1$d photos</string>
-  <string name="Photos_few">%1$d photos</string>
-  <string name="Photos_many">%1$d photos</string>
-  <string name="Photos_other">%1$d photos</string>
   <string name="Points_zero">%1$d</string>
   <string name="Points_one">%1$d</string>
   <string name="Points_two">%1$d</string>

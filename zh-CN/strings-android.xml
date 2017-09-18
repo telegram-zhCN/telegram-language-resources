@@ -122,6 +122,7 @@
   <string name="DeleteChatUser">删除对话</string>
   <string name="HiddenName">删除帐号</string>
   <string name="SelectChat">选择对话</string>
+  <string name="ForwardTo">转发到...</string>
   <string name="PhotoTip">长按预览</string>
   <string name="DisappearingPhoto">自毁图片</string>
   <string name="DisappearingVideo">自毁视频</string>

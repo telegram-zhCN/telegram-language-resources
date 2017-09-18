@@ -1898,7 +1898,7 @@
     <value>显示</value>
   </data>
   <data name="AddToStickers" xml:space="preserve">
-    <value>添加到贴纸库</value>
+    <value>Add to Stickers</value>
   </data>
   <data name="SecretChatRequested" xml:space="preserve">
     <value>正在交换密钥...</value>
@@ -3495,5 +3495,38 @@ Anyone who opens your profile will see this text.</value>
   </data>
   <data name="SecretVideo" xml:space="preserve">
     <value>Secret Video</value>
+  </data>
+  <data name="ChooseFromYourStickers" xml:space="preserve">
+    <value>Choose from your stickers</value>
+  </data>
+  <data name="CreateStickerSetHint" xml:space="preserve">
+    <value>You can create your own custom sticker set using @stickers bot</value>
+  </data>
+  <data name="GroupStickers" xml:space="preserve">
+    <value>Group stickers</value>
+  </data>
+  <data name="GroupStickersDescription" xml:space="preserve">
+    <value>You can choose sticker set which will be available for every member while in the group chat.</value>
+  </data>
+  <data name="AddToFavorites" xml:space="preserve">
+    <value>Add to Favorites</value>
+  </data>
+  <data name="DeleteFromFavorites" xml:space="preserve">
+    <value>Delete from Favorites</value>
+  </data>
+  <data name="NoStickerSetFound" xml:space="preserve">
+    <value>No such sticker set found</value>
+  </data>
+  <data name="NoStickerSetFoundSubtitle" xml:space="preserve">
+    <value>Try again or choose from the list below</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="VideoQuality" xml:space="preserve">
+    <value>Video quality</value>
+  </data>
+  <data name="Quality" xml:space="preserve">
+    <value>Quality</value>
   </data>
 </root>
