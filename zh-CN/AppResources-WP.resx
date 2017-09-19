@@ -3497,28 +3497,28 @@ Anyone who opens your profile will see this text.</value>
     <value>Secret Video</value>
   </data>
   <data name="ChooseFromYourStickers" xml:space="preserve">
-    <value>Choose from your stickers</value>
+    <value>从已经安装的贴纸包中选择</value>
   </data>
   <data name="CreateStickerSetHint" xml:space="preserve">
     <value>You can create your own custom sticker set using @stickers bot</value>
   </data>
   <data name="GroupStickers" xml:space="preserve">
-    <value>Group stickers</value>
+    <value>群组贴纸包</value>
   </data>
   <data name="GroupStickersDescription" xml:space="preserve">
-    <value>You can choose sticker set which will be available for every member while in the group chat.</value>
+    <value>你可以为所有群成员选择一个贴纸包，这样当他们在群里聊天时都可以看到并使用它。</value>
   </data>
   <data name="AddToFavorites" xml:space="preserve">
-    <value>Add to Favorites</value>
+    <value>添加到收藏夹</value>
   </data>
   <data name="DeleteFromFavorites" xml:space="preserve">
-    <value>Delete from Favorites</value>
+    <value>从收藏中移除</value>
   </data>
   <data name="NoStickerSetFound" xml:space="preserve">
-    <value>No such sticker set found</value>
+    <value>贴纸包未找到</value>
   </data>
   <data name="NoStickerSetFoundSubtitle" xml:space="preserve">
-    <value>Try again or choose from the list below</value>
+    <value>请检查您的输入，或从下面列表中选取一个</value>
   </data>
   <data name="Auto" xml:space="preserve">
     <value>Auto</value>
