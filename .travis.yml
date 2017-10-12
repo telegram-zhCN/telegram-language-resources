@@ -1,10 +1,5 @@
 language: python
 python: "3.6"
-addons:
-  apt:
-    packages:
-      - apktool
-      - wget
 before_install:
  - openssl aes-256-cbc -k $DEPLOY_KEY -md sha256 -in langresource-deploy.enc -out langresource-deploy -d
  - eval `ssh-agent -s`
