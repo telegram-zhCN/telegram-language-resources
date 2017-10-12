@@ -1,6 +1,11 @@
 language: python
 python: "3.6"
-before_install: 
+addons:
+  apt:
+    packages:
+      - apktool
+      - wget
+before_install:
  - openssl aes-256-cbc -k $DEPLOY_KEY -md sha256 -in langresource-deploy.enc -out langresource-deploy -d
  - eval `ssh-agent -s`
  - chmod 0600 langresource-deploy
@@ -12,6 +17,7 @@ install: "pip install beautifulsoup4 requests"
 script: 
  - python source-update.py
  - python translate-update.py
+ - sh update-from-apk.sh 
  - git status
  - git add source/*
  - git add zh-CN/*
