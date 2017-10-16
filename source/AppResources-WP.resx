@@ -262,13 +262,13 @@
     <value>Empty service message</value>
   </data>
   <data name="CompanyNominative" xml:space="preserve">
-    <value>Company</value>
+    <value>Member</value>
   </data>
   <data name="CompanyGenitivePlural" xml:space="preserve">
-    <value/>
+    <value>Members</value>
   </data>
   <data name="CompanyGenitiveSingular" xml:space="preserve">
-    <value/>
+    <value>Member</value>
   </data>
   <data name="PeopleInTheConversation" xml:space="preserve">
     <value>{0} members</value>
@@ -284,12 +284,6 @@
   </data>
   <data name="LastSeen" xml:space="preserve">
     <value>Last seen {0} ago</value>
-  </data>
-  <data name="Minute" xml:space="preserve">
-    <value>{0} Minute</value>
-  </data>
-  <data name="Minutes" xml:space="preserve">
-    <value>{0} Minutes</value>
   </data>
   <data name="MinuteAccusative" xml:space="preserve">
     <value>Minute</value>
@@ -1836,7 +1830,7 @@ if you proceed with resetting your account.</value>
     <value>Nearby places</value>
   </data>
   <data name="SendThisLocation" xml:space="preserve">
-    <value>Send this location</value>
+    <value>Send My Location</value>
   </data>
   <data name="PoweredBy" xml:space="preserve">
     <value>Powered by</value>
@@ -2042,13 +2036,13 @@ Users can add stickers by tapping on them and choosing "Add to Stickers".</value
     <value>Channel type</value>
   </data>
   <data name="Private" xml:space="preserve">
-    <value>Private</value>
+    <value>Private Group</value>
   </data>
   <data name="PrivateChannelDescription" xml:space="preserve">
     <value>Private channels can only be joined via an invite link.</value>
   </data>
   <data name="Public" xml:space="preserve">
-    <value>Public</value>
+    <value>Public Group</value>
   </data>
   <data name="PublicChannelDescription" xml:space="preserve">
     <value>Public channels can be found in search, anyone can join them.</value>
@@ -2145,7 +2139,7 @@ Do not create this link if you want your channel to stay private.</value>
     <value>Administrators</value>
   </data>
   <data name="DeleteChannel" xml:space="preserve">
-    <value>Delete channel</value>
+    <value>Delete Channel</value>
   </data>
   <data name="MessageActionChannelDeletePhoto" xml:space="preserve">
     <value>Channel photo removed</value>
@@ -2228,7 +2222,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <value>Chat migrated to channel "{0}"</value>
   </data>
   <data name="DeleteGroup" xml:space="preserve">
-    <value>Delete group</value>
+    <value>Delete Group</value>
   </data>
   <data name="LeaveGroup" xml:space="preserve">
     <value>Leave group</value>
@@ -2600,7 +2594,7 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
     <value>Please choose a link for your public group, so that people can find it in search and share with others.</value>
   </data>
   <data name="GroupType" xml:space="preserve">
-    <value>Group type</value>
+    <value>Group Type</value>
   </data>
   <data name="PrivateGroupDescription" xml:space="preserve">
     <value>Private groups can only be joined if you were invited or have an invite link.</value>
@@ -3065,23 +3059,23 @@ The group **"{1}"** will become private.</value>
   <data name="AskAQuestionDescription" xml:space="preserve">
     <value>Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while. Please take a look at the &lt;![CDATA[&lt;a href="https://telegram.org/faq#general"&gt;Telegram FAQ&lt;/a&gt;]]&gt;: it has answers to most questions and important tips for &lt;![CDATA[&lt;a href="https://telegram.org/faq#troubleshooting"&gt;troubleshooting&lt;/a&gt;]]&gt;.</value>
   </data>
-  <data name="MaskPackPlural" xml:space="preserve">
-    <value>{0} mask packs</value>
+  <data name="MaskPackNominativePlural" xml:space="preserve">
+    <value>Mask packs</value>
   </data>
-  <data name="MaskPackSingular" xml:space="preserve">
-    <value>{0} mask pack</value>
+  <data name="MaskPackNominativeSingular" xml:space="preserve">
+    <value>Mask pack</value>
   </data>
-  <data name="StickerPackPlural" xml:space="preserve">
-    <value>{0} sticker packs</value>
+  <data name="StickerPackNominativePlural" xml:space="preserve">
+    <value>Sticker packs</value>
   </data>
-  <data name="StickerPackSingular" xml:space="preserve">
-    <value>{0} sticker pack</value>
+  <data name="StickerPackNominativeSingular" xml:space="preserve">
+    <value>Sticker pack</value>
   </data>
-  <data name="NewStickerPackPlural" xml:space="preserve">
-    <value>{0} new sticker packs</value>
+  <data name="NewStickerPackNominativePlural" xml:space="preserve">
+    <value>New sticker packs</value>
   </data>
-  <data name="NewStickerPackSingular" xml:space="preserve">
-    <value>{0} new sticker pack</value>
+  <data name="NewStickerPackNominativeSingular" xml:space="preserve">
+    <value>New sticker pack</value>
   </data>
   <data name="PinDialog" xml:space="preserve">
     <value>Pin</value>
@@ -3505,7 +3499,7 @@ Anyone who opens your profile will see this text.</value>
     <value>You can create your own custom sticker set using @stickers bot</value>
   </data>
   <data name="GroupStickers" xml:space="preserve">
-    <value>Group stickers</value>
+    <value>Group Stickers</value>
   </data>
   <data name="GroupStickersDescription" xml:space="preserve">
     <value>You can choose sticker set which will be available for every member while in the group chat.</value>
@@ -3530,5 +3524,114 @@ Anyone who opens your profile will see this text.</value>
   </data>
   <data name="Quality" xml:space="preserve">
     <value>Quality</value>
+  </data>
+  <data name="ClearUnreadMentionsConfirmation" xml:space="preserve">
+    <value>Are you sure you want to clear all unread mentions?</value>
+  </data>
+  <data name="PasswordEmail" xml:space="preserve">
+    <value>Password &amp; Email</value>
+  </data>
+  <data name="CreatePasswordHint" xml:space="preserve">
+    <value>Please create a password to protect your payment info.
+You'll be asked to enter it when you log in.</value>
+  </data>
+  <data name="SendLiveLocation" xml:space="preserve">
+    <value>Share My Live Location for...</value>
+  </data>
+  <data name="SendLiveLocationSubtitle" xml:space="preserve">
+    <value>Updated in real time as you move</value>
+  </data>
+  <data name="LiveLocation" xml:space="preserve">
+    <value>Live Location</value>
+  </data>
+  <data name="ShareLiveLocationToContactTimerSubtitle" xml:space="preserve">
+    <value>Choose for how long {0} will see your accurate location.</value>
+  </data>
+  <data name="ContactJoinedTelegram" xml:space="preserve">
+    <value>Contact joined Telegram</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="ChatHistoryCaption" xml:space="preserve">
+    <value>Chat history for new members</value>
+  </data>
+  <data name="ChatHistoryHidden" xml:space="preserve">
+    <value>New members will not see previous messages</value>
+  </data>
+  <data name="ChatHistoryVisible" xml:space="preserve">
+    <value>New members will see full chat history</value>
+  </data>
+  <data name="DescriptionOptional" xml:space="preserve">
+    <value>Description (optional)</value>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="LocationSharingEnded" xml:space="preserve">
+    <value>Location Sharing Ended</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MessageActionPinGeoLive" xml:space="preserve">
+    <value>{0} pinned a live location</value>
+  </data>
+  <data name="For15Minutes" xml:space="preserve">
+    <value>For 15 minutes</value>
+  </data>
+  <data name="For1Hour" xml:space="preserve">
+    <value>For 1 hour</value>
+  </data>
+  <data name="For8Hours" xml:space="preserve">
+    <value>For 8 hours</value>
+  </data>
+  <data name="MessageActionClearHistory" xml:space="preserve">
+    <value>History was cleared</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="UpdatedAgo" xml:space="preserve">
+    <value>Updated {0} ago</value>
+  </data>
+  <data name="UpdatedAtDate" xml:space="preserve">
+    <value>Updated {0} at {1}</value>
+  </data>
+  <data name="UpdatedJustNow" xml:space="preserve">
+    <value>Updated just now</value>
+  </data>
+  <data name="UpdatedTodayAt" xml:space="preserve">
+    <value>Updated today at {0}</value>
+  </data>
+  <data name="UpdatedYesterdayAt" xml:space="preserve">
+    <value>Updated yesterday at {0}</value>
+  </data>
+  <data name="StopSharingLocation" xml:space="preserve">
+    <value>Stop Sharing Location</value>
+  </data>
+  <data name="ShareLiveLocationToChatTimerSubtitle" xml:space="preserve">
+    <value>Choose for how long people in this chat will see your accurate location.</value>
+  </data>
+  <data name="NewStickerPackGenitivePlural" xml:space="preserve">
+    <value>New sticker packs</value>
+  </data>
+  <data name="NewStickerPackGenitiveSingular" xml:space="preserve">
+    <value>New sticker pack</value>
+  </data>
+  <data name="StickerPackGenitivePlural" xml:space="preserve">
+    <value>Sticker packs</value>
+  </data>
+  <data name="StickerPackGenitiveSingular" xml:space="preserve">
+    <value>Sticker pack</value>
+  </data>
+  <data name="MaskPackGenitivePlural" xml:space="preserve">
+    <value>Mask packs</value>
+  </data>
+  <data name="MaskPackGenitiveSingular" xml:space="preserve">
+    <value>Mask pack</value>
   </data>
 </root>
