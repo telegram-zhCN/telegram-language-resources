@@ -2033,7 +2033,7 @@ Users can add stickers by tapping on them and choosing "Add to Stickers".</value
     <value>Back</value>
   </data>
   <data name="ChannelType" xml:space="preserve">
-    <value>Channel type</value>
+    <value>Channel Type</value>
   </data>
   <data name="Private" xml:space="preserve">
     <value>Private Group</value>
@@ -2101,7 +2101,7 @@ If you're not interested, we suggest creating a private channel instead.</value>
     <value>Are you sure you want to add {0} as moderator?</value>
   </data>
   <data name="PrivateChannel" xml:space="preserve">
-    <value>Private channel</value>
+    <value>Private Channel</value>
   </data>
   <data name="PrivateToPublicChannelNotification" xml:space="preserve">
     <value>Please note that if you choose a public link for your channel, anyone will be able to find it in search and join.
@@ -2109,7 +2109,7 @@ If you're not interested, we suggest creating a private channel instead.</value>
 Do not create this link if you want your channel to stay private.</value>
   </data>
   <data name="PublicChannel" xml:space="preserve">
-    <value>Public channel</value>
+    <value>Public Channel</value>
   </data>
   <data name="ChannelsAdminPublicTooMuch" xml:space="preserve">
     <value>Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</value>
@@ -3633,5 +3633,38 @@ You'll be asked to enter it when you log in.</value>
   </data>
   <data name="MaskPackGenitiveSingular" xml:space="preserve">
     <value>Mask pack</value>
+  </data>
+  <data name="GroupNameInvalid" xml:space="preserve">
+    <value>Sorry, this name is invalid.</value>
+  </data>
+  <data name="GroupNameOccupied" xml:space="preserve">
+    <value>Sorry, this name is already taken.</value>
+  </data>
+  <data name="GroupNameShort" xml:space="preserve">
+    <value>Group names must have at least 5 characters.</value>
+  </data>
+  <data name="GroupNameStartsWithNumber" xml:space="preserve">
+    <value>Group names can't start with a number.</value>
+  </data>
+  <data name="AttachLiveLocationIsSharing" xml:space="preserve">
+    <value>Sharing with {0}</value>
+  </data>
+  <data name="SharingLiveLocationTitle" xml:space="preserve">
+    <value>You are sharing your Live Location with {0}</value>
+  </data>
+  <data name="SharingYouAndOtherName" xml:space="preserve">
+    <value>You and {0}</value>
+  </data>
+  <data name="StopAllLocationSharings" xml:space="preserve">
+    <value>Stop All</value>
+  </data>
+  <data name="StopLiveLocationAlertAll" xml:space="preserve">
+    <value>Are you sure you want to stop sharing your live location?</value>
+  </data>
+  <data name="StopLiveLocationAlertToGroup" xml:space="preserve">
+    <value>Are you sure you want to stop sharing live location with {0}?</value>
+  </data>
+  <data name="StopLiveLocationAlertToUser" xml:space="preserve">
+    <value>Are you sure you want to stop sharing live location with {0}?</value>
   </data>
 </root>
