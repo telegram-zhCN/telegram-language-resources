@@ -2030,7 +2030,7 @@
     <value>返回</value>
   </data>
   <data name="ChannelType" xml:space="preserve">
-    <value>频道类型</value>
+    <value>Channel Type</value>
   </data>
   <data name="Private" xml:space="preserve">
     <value>Private Group</value>
@@ -2098,7 +2098,7 @@
     <value>您确定要添加 {0} 为管理员？</value>
   </data>
   <data name="PrivateChannel" xml:space="preserve">
-    <value>私人频道</value>
+    <value>Private Channel</value>
   </data>
   <data name="PrivateToPublicChannelNotification" xml:space="preserve">
     <value>请注意，如果您选择给您的频道创建一个公共链接，任何人都将能够通过搜索找到它并加入。
@@ -2106,7 +2106,7 @@
 如果您想保持这个频道的私密性，请不要创建这个链接。</value>
   </data>
   <data name="PublicChannel" xml:space="preserve">
-    <value>公开频道</value>
+    <value>Public Channel</value>
   </data>
   <data name="ChannelsAdminPublicTooMuch" xml:space="preserve">
     <value>抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</value>
@@ -3631,5 +3631,38 @@ You'll be asked to enter it when you log in.</value>
   </data>
   <data name="MaskPackGenitiveSingular" xml:space="preserve">
     <value>Mask pack</value>
+  </data>
+  <data name="GroupNameInvalid" xml:space="preserve">
+    <value>Sorry, this name is invalid.</value>
+  </data>
+  <data name="GroupNameOccupied" xml:space="preserve">
+    <value>Sorry, this name is already taken.</value>
+  </data>
+  <data name="GroupNameShort" xml:space="preserve">
+    <value>Group names must have at least 5 characters.</value>
+  </data>
+  <data name="GroupNameStartsWithNumber" xml:space="preserve">
+    <value>Group names can't start with a number.</value>
+  </data>
+  <data name="AttachLiveLocationIsSharing" xml:space="preserve">
+    <value>Sharing with {0}</value>
+  </data>
+  <data name="SharingLiveLocationTitle" xml:space="preserve">
+    <value>You are sharing your Live Location with {0}</value>
+  </data>
+  <data name="SharingYouAndOtherName" xml:space="preserve">
+    <value>You and {0}</value>
+  </data>
+  <data name="StopAllLocationSharings" xml:space="preserve">
+    <value>Stop All</value>
+  </data>
+  <data name="StopLiveLocationAlertAll" xml:space="preserve">
+    <value>Are you sure you want to stop sharing your live location?</value>
+  </data>
+  <data name="StopLiveLocationAlertToGroup" xml:space="preserve">
+    <value>Are you sure you want to stop sharing live location with {0}?</value>
+  </data>
+  <data name="StopLiveLocationAlertToUser" xml:space="preserve">
+    <value>Are you sure you want to stop sharing live location with {0}?</value>
   </data>
 </root>

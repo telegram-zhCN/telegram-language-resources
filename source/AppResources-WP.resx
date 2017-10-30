@@ -3667,4 +3667,19 @@ You'll be asked to enter it when you log in.</value>
   <data name="StopLiveLocationAlertToUser" xml:space="preserve">
     <value>Are you sure you want to stop sharing live location with {0}?</value>
   </data>
+  <data name="HourShort" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="ChatGenitivePlural" xml:space="preserve">
+    <value>Chats</value>
+  </data>
+  <data name="ChatGenitiveSingular" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="ChatNominativePlural" xml:space="preserve">
+    <value>Chats</value>
+  </data>
+  <data name="ChatNominativeSingular" xml:space="preserve">
+    <value>Chat</value>
+  </data>
 </root>

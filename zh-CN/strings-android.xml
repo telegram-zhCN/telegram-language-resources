@@ -1796,4 +1796,14 @@ Telegram 团队</string>
   <string name="hockeyapp_paint_dialog_neutral_button">取消</string>
   <string name="hockeyapp_permission_dialog_negative_button">取消</string>
   <string name="hockeyapp_permission_dialog_positive_button">重试</string>
+  <string name="AndMoreTypingGroup_few">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_many">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_one">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_other">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_two">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_zero">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AreTypingGroup">%1$s 正在输入...</string>
+  <string name="IsTypingGroup">%1$s 正在输入...</string>
+  <string name="ReverseOrder">倒序</string>
+  <string name="Shuffle">无序</string>
 </resources>
