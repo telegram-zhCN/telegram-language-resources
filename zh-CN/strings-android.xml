@@ -93,6 +93,12 @@
   <string name="AlwaysShareWithPlaceholder">选择可以看见您上线时间的用户...</string>
   <string name="AlwaysShareWithTitle">总是共享</string>
   <string name="AlwaysShowPopup">总是弹出对话框</string>
+  <string name="AndMoreTypingGroup_few">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_many">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_one">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_other">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_two">%1$s和其他 %2$d 人正在输入</string>
+  <string name="AndMoreTypingGroup_zero">%1$s和其他 %2$d 人正在输入</string>
   <string name="AndMoreTyping_few">和其他 %1$d 人正在输入</string>
   <string name="AndMoreTyping_many">和其他 %1$d 人正在输入</string>
   <string name="AndMoreTyping_one">和其他 %1$d 人正在输入</string>
@@ -121,6 +127,7 @@
   <string name="ArchivedStickersEmpty">没有已归档的贴纸</string>
   <string name="ArchivedStickersInfo">您最多能够拥有 200 个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
   <string name="AreTyping">都在输入...</string>
+  <string name="AreTypingGroup">%1$s 正在输入...</string>
   <string name="AreYouSure">您确定吗？</string>
   <string name="AreYouSureBlockContact">您确定要屏蔽此联系人吗？</string>
   <string name="AreYouSureClearHistory">您确定要清除聊天记录吗？</string>
@@ -838,6 +845,7 @@
   <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
   <string name="IsSendingVideo">%1$s 正在发送视频...</string>
   <string name="IsTyping">正在输入...</string>
+  <string name="IsTypingGroup">%1$s 正在输入...</string>
   <string name="Italic">斜体</string>
   <string name="JoinGroup">加入群组</string>
   <string name="JoinToGroupErrorFull">抱歉，此群组已经满员。</string>
@@ -1377,6 +1385,7 @@ Telegram 团队</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
   <string name="Retry">重试</string>
   <string name="ReturnToCall">返回通话</string>
+  <string name="ReverseOrder">倒序</string>
   <string name="RevokeAlert">您确定要撤销此邀请链接吗？一旦撤销，其他人将不能通过此链接加入本群组。</string>
   <string name="RevokeAlertNewLink">之前的邀请链接已被撤销，一个新的链接已生成。</string>
   <string name="RevokeButton">撤销</string>
@@ -1511,6 +1520,7 @@ Telegram 团队</string>
   <string name="ShowAllMedia">显示所有图片和视频</string>
   <string name="ShowInChat">在对话中查看</string>
   <string name="ShowNearbyPlaces">向上拖动查看周边</string>
+  <string name="Shuffle">无序</string>
   <string name="SlideToCancel">滑动以取消</string>
   <string name="SmartNotifications">智能通知</string>
   <string name="SmartNotificationsAlert">响铃频率</string>
@@ -1796,14 +1806,4 @@ Telegram 团队</string>
   <string name="hockeyapp_paint_dialog_neutral_button">取消</string>
   <string name="hockeyapp_permission_dialog_negative_button">取消</string>
   <string name="hockeyapp_permission_dialog_positive_button">重试</string>
-  <string name="AndMoreTypingGroup_few">%1$s和其他 %2$d 人正在输入</string>
-  <string name="AndMoreTypingGroup_many">%1$s和其他 %2$d 人正在输入</string>
-  <string name="AndMoreTypingGroup_one">%1$s和其他 %2$d 人正在输入</string>
-  <string name="AndMoreTypingGroup_other">%1$s和其他 %2$d 人正在输入</string>
-  <string name="AndMoreTypingGroup_two">%1$s和其他 %2$d 人正在输入</string>
-  <string name="AndMoreTypingGroup_zero">%1$s和其他 %2$d 人正在输入</string>
-  <string name="AreTypingGroup">%1$s 正在输入...</string>
-  <string name="IsTypingGroup">%1$s 正在输入...</string>
-  <string name="ReverseOrder">倒序</string>
-  <string name="Shuffle">无序</string>
 </resources>
