@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="common_google_play_services_enable_button">启用</string>
   <string name="ALongTimeAgo">很久没上线</string>
   <string name="AbortPassword">取消两步验证设置</string>
   <string name="AccessError">访问出错</string>
@@ -1564,7 +1563,6 @@ Telegram 团队</string>
   <string name="TelegramContacts_other">%1$d 位在 Telegram 上的联系人</string>
   <string name="TelegramContacts_two">%1$d 位在 Telegram 上的联系人</string>
   <string name="TelegramContacts_zero">%1$d 位在 Telegram 上的联系人</string>
-  <string name="TelegramFaq">Telegram 常见问题</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="TelegramVersion">Telegram Android 客户端 %1$s</string>
   <string name="TerminateAllSessions">注销所有其它设备上的会话</string>
@@ -1760,6 +1758,7 @@ Telegram 团队</string>
   <string name="YourPhone">您的手机号码</string>
   <string name="chatDate">M\\'月\\'d\\'日\\'</string>
   <string name="chatFullDate">yyyy\\'年\\'M\\'月\\'d\\'日\\'</string>
+  <string name="common_google_play_services_enable_button">启用</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <string name="formatterBannedUntil12H">yyyy年MM月dd日 a h:mm</string>
   <string name="formatterBannedUntil24H">yyyy年MM月dd日 HH:mm</string>
@@ -1774,18 +1773,6 @@ Telegram 团队</string>
   <string name="formatterWeek">EEE</string>
   <string name="formatterYear">yy.MM.dd</string>
   <string name="formatterYearMax">yyyy\\'年\\'M\\'月\\'dd\\'日\\'</string>
-  <string name="items_few">已选中 %1$d 个项目</string>
-  <string name="items_many">已选中 %1$d 个项目</string>
-  <string name="items_one">已选中 %1$d 个项目</string>
-  <string name="items_other">已选中 %1$d 个项目</string>
-  <string name="items_two">已选中 %1$d 个项目</string>
-  <string name="items_zero">没有选中任何项目</string>
-  <string name="messages_few">%1$d 条消息</string>
-  <string name="messages_many">%1$d 条消息</string>
-  <string name="messages_one">%1$d 条消息</string>
-  <string name="messages_other">%1$d 条消息</string>
-  <string name="messages_two">%1$d 条消息</string>
-  <string name="messages_zero">无消息</string>
   <string name="hockeyapp_crash_dialog_app_name_fallback">这个应用</string>
   <string name="hockeyapp_crash_dialog_message">您是否愿意发送一个匿名报告以协助我们修复问题？</string>
   <string name="hockeyapp_crash_dialog_negative_button">永不发送</string>
@@ -1806,4 +1793,16 @@ Telegram 团队</string>
   <string name="hockeyapp_paint_dialog_neutral_button">取消</string>
   <string name="hockeyapp_permission_dialog_negative_button">取消</string>
   <string name="hockeyapp_permission_dialog_positive_button">重试</string>
+  <string name="items_few">已选中 %1$d 个项目</string>
+  <string name="items_many">已选中 %1$d 个项目</string>
+  <string name="items_one">已选中 %1$d 个项目</string>
+  <string name="items_other">已选中 %1$d 个项目</string>
+  <string name="items_two">已选中 %1$d 个项目</string>
+  <string name="items_zero">没有选中任何项目</string>
+  <string name="messages_few">%1$d 条消息</string>
+  <string name="messages_many">%1$d 条消息</string>
+  <string name="messages_one">%1$d 条消息</string>
+  <string name="messages_other">%1$d 条消息</string>
+  <string name="messages_two">%1$d 条消息</string>
+  <string name="messages_zero">无消息</string>
 </resources>
