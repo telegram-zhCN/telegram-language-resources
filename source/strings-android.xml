@@ -71,6 +71,7 @@
     <string name="AddStickers">Add Stickers</string>
     <string name="AddStickersInstalled">New stickers added</string>
     <string name="AddStickersNotFound">Stickers not found</string>
+    <string name="AddSubscriber">Add subscriber</string>
     <string name="AddToContacts">Add to contacts</string>
     <string name="AddToFavorites">Add to Favorites</string>
     <string name="AddToMasks">Add to Masks</string>
@@ -183,10 +184,17 @@ Please take a look at the &lt;a href=\"https://telegram.org/faq#general\">Telegr
     <string name="AudioTitle">Shared Music</string>
     <string name="AudioUnknownArtist">Unknown artist</string>
     <string name="AudioUnknownTitle">Unknown title</string>
+    <string name="AutoDownloadMedia">Auto-Download Media</string>
     <string name="AutoLock">Auto-lock</string>
     <string name="AutoLockDisabled">Disabled</string>
     <string name="AutoLockInTime">in %1$s</string>
     <string name="AutoLockInfo">Require passcode if away for a time.</string>
+    <string name="AutodownloadChannels">Channels</string>
+    <string name="AutodownloadContacts">Contacts</string>
+    <string name="AutodownloadGroupChats">Group Chats</string>
+    <string name="AutodownloadPrivateChats">Private Chats</string>
+    <string name="AutodownloadSizeLimit">Limit by Size</string>
+    <string name="AutodownloadSizeLimitUpTo">up to %1$s</string>
     <string name="AutomaticMediaDownload">Automatic media download</string>
     <string name="AutoplayGifs">Autoplay GIFs</string>
     <string name="AwaitingEncryption">Waiting for %s to get online...</string>
@@ -326,6 +334,7 @@ If you're not interested, we suggest creating a private channel instead."</strin
     <string name="ChannelSignMessages">Sign Messages</string>
     <string name="ChannelSignMessagesInfo">Add names of the admins to the messages they post.</string>
     <string name="ChannelSilentBroadcast">Silent Broadcast</string>
+    <string name="ChannelSubscribers">Subscribers</string>
     <string name="ChannelUnmute">UNMUTE</string>
     <string name="ChannelUserAddLimit">"Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel's link."</string>
     <string name="ChannelUserCantAdd">"Sorry, you can't add this user to channels."</string>
@@ -1242,6 +1251,7 @@ from multiple devices."</string>
     <string name="PaymentConfirmationMessage">Your card %1$s is on file. To pay with this card, please enter your 2-Step-Verification password.</string>
     <string name="PaymentConfirmationNewCard">Choose a different card</string>
     <string name="PaymentConnectionFailed">Unable to reach payment server. Please check your internet connection and try again.</string>
+    <string name="PaymentEmailToProvider">E-Mail will be passed to %1$s as billing info.</string>
     <string name="PaymentFailed">Sorry, the payment was declined.</string>
     <string name="PaymentInvoice">INVOICE</string>
     <string name="PaymentNoShippingMethod">Sorry, it is not possible to deliver to your address.</string>
@@ -1253,6 +1263,8 @@ from multiple devices."</string>
     <string name="PaymentPasswordInfo">"Please create a password to protect your payment info. You'll be asked to enter it when you log in."</string>
     <string name="PaymentPasswordReEnter">Re-enter your password</string>
     <string name="PaymentPasswordTitle">Password</string>
+    <string name="PaymentPhoneEmailToProvider">Phone and E-Mail will be passed to %1$s as billing info.</string>
+    <string name="PaymentPhoneToProvider">Phone will be passed to %1$s as billing info.</string>
     <string name="PaymentPrecheckoutFailed">Sorry, the payment was cancelled by the bot.</string>
     <string name="PaymentReceipt">Receipt</string>
     <string name="PaymentShippingAddress">Shipping address</string>
@@ -1388,6 +1400,8 @@ Payments will go directly to the developer of %1$s. Telegram cannot provide any 
 You can cancel this process at any time."</string>
     <string name="ResetAccountStatus">"You'll be able to reset your account in:"</string>
     <string name="ResetAllNotifications">Reset All Notifications</string>
+    <string name="ResetAutomaticMediaDownload">Reset Auto-Download Settings</string>
+    <string name="ResetAutomaticMediaDownloadAlert">Are you sure you want to reset auto-download settings?</string>
     <string name="ResetMyAccount">RESET MY ACCOUNT</string>
     <string name="ResetMyAccountText">You will lose all your chats and messages, along with any media and files you shared, if you proceed with resetting your account.</string>
     <string name="ResetMyAccountWarning">Warning</string>
