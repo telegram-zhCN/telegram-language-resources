@@ -71,6 +71,7 @@
   <string name="AddStickers">添加贴纸包</string>
   <string name="AddStickersInstalled">新的贴纸包已添加</string>
   <string name="AddStickersNotFound">未找到贴纸包</string>
+  <string name="AddSubscriber">添加订阅者</string>
   <string name="AddToContacts">添加到通讯录</string>
   <string name="AddToFavorites">添加到收藏</string>
   <string name="AddToMasks">添加到装饰库</string>
@@ -183,10 +184,17 @@
   <string name="AudioTitle">分享的音乐</string>
   <string name="AudioUnknownArtist">未知艺术家</string>
   <string name="AudioUnknownTitle">未知标题</string>
+  <string name="AutoDownloadMedia">自动下载媒体文件</string>
   <string name="AutoLock">自动锁定</string>
   <string name="AutoLockDisabled">已禁用</string>
   <string name="AutoLockInTime">在 %1$s</string>
   <string name="AutoLockInfo">在离开一段时间后需要重新输入锁定码进行验证。</string>
+  <string name="AutodownloadChannels">频道</string>
+  <string name="AutodownloadContacts">联系人</string>
+  <string name="AutodownloadGroupChats">群聊</string>
+  <string name="AutodownloadPrivateChats">私密会话</string>
+  <string name="AutodownloadSizeLimit">大小限制</string>
+  <string name="AutodownloadSizeLimitUpTo">上限 %1$s</string>
   <string name="AutomaticMediaDownload">自动下载媒体文件</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
   <string name="AwaitingEncryption">等待%s上线...</string>
@@ -324,6 +332,7 @@
   <string name="ChannelSignMessages">消息署名</string>
   <string name="ChannelSignMessagesInfo">在管理员发送的消息上附加他们的名字</string>
   <string name="ChannelSilentBroadcast">静默广播</string>
+  <string name="ChannelSubscribers">订阅者</string>
   <string name="ChannelUnmute">启用消息通知</string>
   <string name="ChannelUserAddLimit">抱歉，您只能将至多 200 名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
   <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
@@ -946,7 +955,7 @@
   <string name="MegaPublicInfo">公开群组可以被搜索到，所有人都可以看到聊天记录，并且任何人都可以加入。</string>
   <string name="MegaUsernameHelp">用户可以分享此链接给他人，并且能通过搜索找到您的群组。</string>
   <string name="MembersCount">已选择 %2$d 个成员中的 %1$d 个</string>
-  <string name="MembersCountZero">多达 %1$s</string>
+  <string name="MembersCountZero">上限 %1$s</string>
   <string name="Members_few">%1$d 位成员</string>
   <string name="Members_many">%1$d 位成员</string>
   <string name="Members_one">%1$d 位成员</string>
@@ -1239,6 +1248,7 @@ Telegram 团队</string>
   <string name="PaymentConfirmationMessage">您曾经保存过您的银行卡 %1$s 。要使用此卡付款，请输入您的两步验证密码。</string>
   <string name="PaymentConfirmationNewCard">选择另一张卡</string>
   <string name="PaymentConnectionFailed">无法连接至支付服务器。请检查您的互联网连接并重试。</string>
+  <string name="PaymentEmailToProvider">邮箱地址将作为付款信息发送给 %1$s。</string>
   <string name="PaymentFailed">抱歉，付款被拒绝。</string>
   <string name="PaymentInvoice">订单</string>
   <string name="PaymentNoShippingMethod">抱歉，无法配送至您的地址。</string>
@@ -1250,6 +1260,8 @@ Telegram 团队</string>
   <string name="PaymentPasswordInfo">请输入一个用于保护您付款信息的密码。在您登录时我们将会要求您输入。</string>
   <string name="PaymentPasswordReEnter">请再次输入密码</string>
   <string name="PaymentPasswordTitle">密码</string>
+  <string name="PaymentPhoneEmailToProvider">电话号码和邮箱地址将作为付款信息发送给 %1$s。</string>
+  <string name="PaymentPhoneToProvider">电话号码将作为付款信息发送给 %1$s。</string>
   <string name="PaymentPrecheckoutFailed">抱歉，付款已被此机器人取消。</string>
   <string name="PaymentReceipt">收据</string>
   <string name="PaymentShippingAddress">配送地址</string>
@@ -1385,6 +1397,8 @@ Telegram 团队</string>
 在此期间，您可以随时取消此过程。</string>
   <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
   <string name="ResetAllNotifications">重置所有通知设置</string>
+  <string name="ResetAutomaticMediaDownload">重置自动下载设置</string>
+  <string name="ResetAutomaticMediaDownloadAlert">您确定要重置自动下载设置吗？</string>
   <string name="ResetMyAccount">重置我的帐户</string>
   <string name="ResetMyAccountText">如果您确认重置您的帐户，您将丢失所有的聊天记录、分享的媒体文件和个人数据。</string>
   <string name="ResetMyAccountWarning">警告</string>
@@ -1795,6 +1809,9 @@ Telegram 团队</string>
   <string name="common_google_play_services_enable_title">Enable Google Play services</string>
   <string name="common_google_play_services_install_button">Install</string>
   <string name="common_google_play_services_install_text">%1$s won\'t run without Google Play services, which are missing from your device.</string>
+  <string name="common_open_on_phone">在手机上打开</string>
+  <string name="common_signin_button_text">登录</string>
+  <string name="common_signin_button_text_long">使用 Google 登录</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <string name="formatterBannedUntil12H">yyyy年MM月dd日 a h:mm</string>
   <string name="formatterBannedUntil24H">yyyy年MM月dd日 HH:mm</string>
@@ -1841,4 +1858,5 @@ Telegram 团队</string>
   <string name="messages_other">%1$d 条消息</string>
   <string name="messages_two">%1$d 条消息</string>
   <string name="messages_zero">无消息</string>
+  <string name="wallet_buy_button_place_holder">使用 Google 购买</string>
 </resources>
