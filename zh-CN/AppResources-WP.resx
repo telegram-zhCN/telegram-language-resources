@@ -3680,4 +3680,25 @@ You'll be asked to enter it when you log in.</value>
   <data name="ChatNominativeSingular" xml:space="preserve">
     <value>Chat</value>
   </data>
+  <data name="SavedMessages" xml:space="preserve">
+    <value>保存的消息</value>
+  </data>
+  <data name="ForwardHereToSave" xml:space="preserve">
+    <value>Forward here to save</value>
+  </data>
+  <data name="MicrophoneAccessDenied" xml:space="preserve">
+    <value>Microphone access denied</value>
+  </data>
+  <data name="MicrophoneAccessDeniedDescription" xml:space="preserve">
+    <value>Telegram could not access the microphone. Please ensure that Telegram is allowed to use the microphone in Privacy Settings and restart the app.</value>
+  </data>
+  <data name="SendCallLogs" xml:space="preserve">
+    <value>Send Call Logs</value>
+  </data>
+  <data name="GroupMediaDescription" xml:space="preserve">
+    <value>将媒体聚合至一条消息</value>
+  </data>
+  <data name="UngroupMediaDescription" xml:space="preserve">
+    <value>将媒体文件分开发送</value>
+  </data>
 </root>
