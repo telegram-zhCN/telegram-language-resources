@@ -3,7 +3,9 @@
     <string name="ALongTimeAgo">last seen a long time ago</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
     <string name="AccessError">Access error</string>
+    <string name="AccountAlreadyLoggedIn">This account is already logged in from this app.</string>
     <string name="AccountSettings">Account Settings</string>
+    <string name="AccountSwitch">Switch</string>
     <string name="AccurateTo">Accurate to %1$s</string>
     <string name="ActionAddUser">un1 added un2</string>
     <string name="ActionAddUserSelf">un1 returned to the group</string>
@@ -54,6 +56,7 @@
     <string name="ActionYouScored">You scored %1$s</string>
     <string name="ActionYouScoredInGame">You scored %1$s in un2</string>
     <string name="Add">Add</string>
+    <string name="AddAccount">Add Account</string>
     <string name="AddAdminErrorBlacklisted">"Sorry, you can't add this user as an admin because they are in the blacklist and you can't unban them."</string>
     <string name="AddAdminErrorNotAMember">"Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to invite them."</string>
     <string name="AddBannedErrorAdmin">"Sorry, you can't ban this user because they are an admin in this group and you are not allowed to demote them."</string>
@@ -307,6 +310,7 @@ Note: if you forget the passcode, you'll need to delete and reinstall the app. A
     <string name="ChannelMessageContact">%1$s posted a contact</string>
     <string name="ChannelMessageDocument">%1$s posted a file</string>
     <string name="ChannelMessageGIF">%1$s posted a GIF</string>
+    <string name="ChannelMessageLiveLocation">%1$s posted a live location</string>
     <string name="ChannelMessageMap">%1$s posted a location</string>
     <string name="ChannelMessageMusic">%1$s posted a track</string>
     <string name="ChannelMessageNoText">%1$s posted a message</string>
@@ -1119,6 +1123,7 @@ or tap the menu button for more options."</string>
     <string name="NotificationMessageGroupDocument">%1$s sent a file to the group %2$s</string>
     <string name="NotificationMessageGroupGame">%1$s invited the group %2$s to play %3$s</string>
     <string name="NotificationMessageGroupGif">%1$s sent a GIF to the group %2$s</string>
+    <string name="NotificationMessageGroupLiveLocation">%1$s sent a live location to the group %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s sent a location to the group %2$s</string>
     <string name="NotificationMessageGroupMusic">%1$s sent a track to the group %2$s</string>
     <string name="NotificationMessageGroupNoText">%1$s sent a message to the group %2$s</string>
@@ -1128,6 +1133,7 @@ or tap the menu button for more options."</string>
     <string name="NotificationMessageGroupStickerEmoji">%1$s sent a %3$s sticker to the group %2$s</string>
     <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
     <string name="NotificationMessageGroupVideo">%1$s sent a video to the group %2$s</string>
+    <string name="NotificationMessageLiveLocation">%1$s sent you a live location</string>
     <string name="NotificationMessageMap">%1$s sent you a location</string>
     <string name="NotificationMessageMusic">%1$s sent you a track</string>
     <string name="NotificationMessageNoText">%1$s sent you a message</string>
@@ -1192,6 +1198,7 @@ The Telegram Team"</string>
     <string name="OpenGroup">OPEN GROUP</string>
     <string name="OpenInBrowser">OPEN IN...</string>
     <string name="OpenInExternalApp">Open in...</string>
+    <string name="OpenMessage">VIEW MESSAGE</string>
     <string name="OpenUrlAlert">Open url %1$s?</string>
     <string name="OtherSessions">Active Sessions</string>
     <string name="OutgoingCalls">Outgoing calls</string>
@@ -1602,6 +1609,12 @@ Don't take it, Telegram will process everything automatically."</string>
     <string name="Subscribers_two">%1$d subscribers</string>
     <string name="Subscribers_zero">%1$d subscribers</string>
     <string name="Support">Support</string>
+    <string name="SyncContacts">Sync Contacts</string>
+    <string name="SyncContactsAdded">Contacts from this device were added to your account.</string>
+    <string name="SyncContactsInfoOff">Turn on to import contacts from this device to your account.</string>
+    <string name="SyncContactsInfoOn">Contacts from this device will be added to your account.</string>
+    <string name="SyncContactsOff">Contacts from this device will not be added to this account.</string>
+    <string name="SyncContactsOn">Contacts from this device will be added to this account.</string>
     <string name="SystemRoot">System Root</string>
     <string name="TapHereGifs">Tap here to access saved GIFs</string>
     <string name="TelegramContacts_few">%1$d contacts on Telegram</string>
@@ -1720,6 +1733,7 @@ You can use **a–z**, **0–9** and underscores. Minimum length is **5** charac
     <string name="ViewPackPreview">View Pack</string>
     <string name="Vignette">Vignette</string>
     <string name="VoipAnswerCall">Answer</string>
+    <string name="VoipAnsweringAsAccount">Answering as %s</string>
     <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
     <string name="VoipAudioRoutingEarpiece">Earpiece</string>
     <string name="VoipAudioRoutingSpeaker">Speaker</string>
@@ -1813,6 +1827,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="common_google_play_services_install_button">Install</string>
     <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
     <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
     <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
     <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
@@ -1841,6 +1856,7 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="formatterYear">dd.MM.yy</string>
     <string name="formatterYearMax">dd.MM.yyyy</string>
     <string name="gcm_defaultSenderId">760348033671</string>
+    <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="google_api_key">AIzaSyAijSIM_t8bfdRrn2-mCumXRu37pPslqkU</string>
     <string name="google_app_id">1:760348033671:android:dc022572c167a16c</string>
     <string name="google_crash_reporting_api_key">AIzaSyAijSIM_t8bfdRrn2-mCumXRu37pPslqkU</string>
@@ -1930,5 +1946,6 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="messages_two">%1$d messages</string>
     <string name="messages_zero">no messages</string>
     <string name="project_id">tmessages2</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
 </resources>
