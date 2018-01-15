@@ -3701,4 +3701,13 @@ You'll be asked to enter it when you log in.</value>
   <data name="UngroupMediaDescription" xml:space="preserve">
     <value>将媒体文件分开发送</value>
   </data>
+  <data name="DeletedUser" xml:space="preserve">
+    <value>Deleted account</value>
+  </data>
+  <data name="EmptyUser" xml:space="preserve">
+    <value>Deleted account</value>
+  </data>
+  <data name="Album" xml:space="preserve">
+    <value>相册</value>
+  </data>
 </root>

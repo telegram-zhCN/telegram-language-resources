@@ -488,6 +488,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <string name="Days_zero">%1$d days</string>
     <string name="DebugClearLogs">Clear Logs</string>
     <string name="DebugMenu">Debug Menu</string>
+    <string name="DebugMenuClearMediaCache">Clear sent media cache</string>
     <string name="DebugMenuDisableCamera">Disable in-app camera</string>
     <string name="DebugMenuDisableLogs">Disable Logs</string>
     <string name="DebugMenuEnableCamera">Enable in-app camera</string>
