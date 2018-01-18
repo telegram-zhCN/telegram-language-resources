@@ -9,13 +9,11 @@ before_install:
  - git config --global user.name "Telegram-zhCN-bot"
  - git config --global user.email "zhcn@daze.moe"
 install: "pip install beautifulsoup4 requests"
-script: 
+script:
  - python source-update.py
  - python translate-update.py
- - sh update-from-apk.sh 
  - git status
  - git add source/*
  - git add zh-CN/*
  - git commit -m "Update Languages"
  - git push git@github.com:telegram-zhCN/telegram-language-resources.git HEAD:master
-
