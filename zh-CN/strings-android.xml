@@ -12,14 +12,14 @@
   <string name="StartText">请确认您的国家代码并输入您的手机号码。</string>
   <string name="ChooseCountry">选择国家</string>
   <string name="WrongCountry">国家代码无效</string>
-  <string name="AccountAlreadyLoggedIn">该帐户已经登陆过了。</string>
+  <string name="AccountAlreadyLoggedIn">该帐户已在此应用中登录。</string>
   <string name="AccountSwitch">切换</string>
   <string name="SyncContacts">同步通讯录</string>
-  <string name="SyncContactsOn">设备通讯录将会同步到此帐户</string>
-  <string name="SyncContactsOff">设备通讯录将不会同步到此帐户</string>
-  <string name="SyncContactsInfoOn">该设备上的通讯录将会同步到您的帐户。</string>
-  <string name="SyncContactsInfoOff">打开此选项，将该设备上的通讯录同步到您的帐户。</string>
-  <string name="SyncContactsAdded">设备通讯录已同步到你的帐户</string>
+  <string name="SyncContactsOn">此设备上的通讯录将被同步至此帐户。</string>
+  <string name="SyncContactsOff">此设备上的通讯录将不会被同步至此帐户。</string>
+  <string name="SyncContactsInfoOn">此设备上的通讯录将被同步至您的帐户。</string>
+  <string name="SyncContactsInfoOff">打开以同步此设备上的通讯录至您的帐户。</string>
+  <string name="SyncContactsAdded">此设备上的通讯录已被添加至您的帐户。</string>
   <!--code enter view-->
   <string name="YourCode">手机验证</string>
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
@@ -42,7 +42,7 @@
 在此期间，您可以随时取消此过程。</string>
   <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
   <string name="ResetAccountCancelledAlert">您近期的重置账号请求被当前活动用户取消，请于 7 天后重试。</string>
-  <string name="ResetAccountButton">立即重置</string>
+  <string name="ResetAccountButton">重置帐户</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
   <string name="CancelLinkSuccess">已取消删除您账号的注销请求 %1$s 。您现在可以关闭此窗口。</string>
   <!--signup view-->
@@ -104,14 +104,14 @@
   <string name="PaymentWarningText">无论是 Telegram 还是 %1$s 都无法获得您的信用卡信息。信用卡信息将只会被支付平台 %2$s 处理。
 
 相关款项将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
-  <string name="PaymentPassword">密码 &amp; 电子邮箱</string>
+  <string name="PaymentPassword">密码和电子邮箱</string>
   <string name="PaymentPasswordTitle">密码</string>
   <string name="PaymentPasswordEnter">请输入密码</string>
   <string name="PaymentPasswordReEnter">请再次输入密码</string>
-  <string name="PaymentPasswordInfo">请输入一个用于保护您付款信息的密码。在您登录时我们将会要求您输入。</string>
-  <string name="PaymentPasswordEmailTitle">密保邮箱</string>
-  <string name="PaymentPasswordEmail">您的邮箱地址</string>
-  <string name="PaymentPasswordEmailInfo">请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
+  <string name="PaymentPasswordInfo">请创建一个用于保护您的付款信息的密码。您需要在登录时输入此密码。</string>
+  <string name="PaymentPasswordEmailTitle">辅助邮箱</string>
+  <string name="PaymentPasswordEmail">您的邮箱</string>
+  <string name="PaymentPasswordEmailInfo">请添加您的有效邮件地址。这是唯一能够恢复忘记的密码的方法。</string>
   <string name="PaymentPhoneToProvider">电话号码将作为付款信息发送给 %1$s。</string>
   <string name="PaymentEmailToProvider">邮箱地址将作为付款信息发送给 %1$s。</string>
   <string name="PaymentPhoneEmailToProvider">电话号码和邮箱地址将作为付款信息发送给 %1$s。</string>
@@ -123,7 +123,7 @@
   <string name="Yesterday">昨天</string>
   <string name="NoResult">没有结果</string>
   <string name="NoChats">暂无对话...</string>
-  <string name="RecentlyViewed">最近查看</string>
+  <string name="RecentlyViewed">最近查看过</string>
   <string name="RecentlyViewedHide">隐藏</string>
   <string name="NoChatsHelp">要开始聊天
 请点击右下角的撰写按钮
