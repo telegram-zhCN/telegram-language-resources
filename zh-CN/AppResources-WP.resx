@@ -1295,12 +1295,12 @@
     <value>新手机号</value>
   </data>
   <data name="NewNumberConfirmation" xml:space="preserve">
-    <value>如果您的联系人通讯录中有你的旧手机号，并且您没有在 Telegram 中屏蔽他们，您的新手机号会被添加到他们的通讯录中。</value>
+    <value>如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</value>
   </data>
   <data name="NewNumberDescription" xml:space="preserve">
-    <value>在此您可以更改与 Telegram 绑定的手机号。您的所有数据将迁移到新的手机号上。
+    <value>您可以在此更改您注册 Telegram 的手机号码。您的帐户和所有的云端数据——消息，媒体，联系人等将会被迁移到新的手机号码。
 
-注意：如果您的联系人通讯录中有你的旧手机号，并且您没有在 Telegram 中屏蔽他们，您的新手机号会被添加到他们的通讯录中。</value>
+注意：如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</value>
   </data>
   <data name="NewNumberTaken" xml:space="preserve">
     <value>手机号 {0} 已经与一个 Telegram 账户绑定。请删除该账号后重试。</value>
