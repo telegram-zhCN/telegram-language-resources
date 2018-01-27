@@ -190,7 +190,7 @@
   <string name="DeleteMegaMenu">删除群组</string>
   <string name="MegaDeleteInfo">您将会丢失此群组的所有消息。</string>
   <string name="MegaAdminsInfo">您可以添加管理员帮助您管理群组。长按可删除管理员。</string>
-  <string name="MegaDeleteAlert">注意！删除此群组将会移除所有成员并且所有消息都会丢失。确定要删除此群组？</string>
+  <string name="MegaDeleteAlert">注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？</string>
   <string name="ActionCreateMega">群组已创建</string>
   <string name="MegaAddedBy">un1 将您添加到了此群组</string>
   <string name="MegaLeaveAlert">您确定要退出此群组吗？</string>
@@ -311,7 +311,7 @@
   <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
   <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
   <string name="ChannelMessageMap">%1$s 发送了一个位置</string>
-  <string name="ChannelMessageLiveLocation">%1$s 发布了实时位置</string>
+  <string name="ChannelMessageLiveLocation">%1$s 发布了一个实时位置</string>
   <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
   <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
   <string name="ChannelMessageAudio">%1$s 发送了一条语音消息</string>
@@ -357,11 +357,11 @@
   <string name="ManageChannel">管理频道</string>
   <string name="ManageGroupMenu">管理群组</string>
   <string name="ManageChannelMenu">管理频道</string>
-  <string name="ChatHistory">历史记录对新用户</string>
+  <string name="ChatHistory">新成员历史记录可见性</string>
   <string name="ChatHistoryVisible">可见</string>
-  <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
-  <string name="ChatHistoryHidden">不可见</string>
-  <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
+  <string name="ChatHistoryVisibleInfo">新成员将能够查看他们加入前发送的消息。</string>
+  <string name="ChatHistoryHidden">隐藏</string>
+  <string name="ChatHistoryHiddenInfo">新成员将不能查看更早的消息。</string>
   <!--event log-->
   <string name="EventLog">近期操作</string>
   <string name="EventLogAllEvents">所有操作</string>
@@ -371,17 +371,16 @@
 
 在过去的 48 小时内
 群组成员和管理员
-没有执行任何操作。</string>
-  <string name="EventLogEmptyChannel">**暂无操作记录**
+没有执行任何管理操作。</string>
+  <string name="EventLogEmptyChannel">**暂无操作**
 
 在过去的 48 小时内
 频道管理员
-没有执行任何操作。</string>
-  <string name="EventLogEmptySearch">**未找到事件**
+没有执行任何管理操作。</string>
+  <string name="EventLogEmptySearch">**未找到操作事件**
 
-找不到与您查询的
-事件相符的结果。</string>
-  <string name="EventLogEmptyTextSearch">找不到包含 **%1$s** 的事件。</string>
+找不到与您查询的近期操作相符的结果。</string>
+  <string name="EventLogEmptyTextSearch">找不到包含 ‘**%1$s**’ 的近期操作。</string>
   <string name="EventLogInfoTitle">什么是近期操作？</string>
   <string name="EventLogInfoDetail">此列表包含了在过去 48 小时内群组成员和管理员执行的所有服务操作。</string>
   <string name="EventLogInfoDetailChannel">此列表包含了在过去 48 小时内频道管理员执行的所有服务操作。</string>
@@ -461,7 +460,7 @@
   <string name="AttachMusic">音乐</string>
   <string name="AudioUnknownArtist">未知艺术家</string>
   <string name="AudioUnknownTitle">未知标题</string>
-  <string name="Shuffle">无序</string>
+  <string name="Shuffle">随机</string>
   <string name="ReverseOrder">倒序</string>
   <!--documents view-->
   <string name="SelectFile">选择文件</string>
@@ -745,8 +744,8 @@ Telegram 团队</string>
   <string name="SoftUserLimitAlert">您能够在创建群组并升级到超级群组后添加更多的用户</string>
   <string name="EnterGroupNamePlaceholder">输入群组名称</string>
   <string name="GroupName">群组名称</string>
-  <string name="MembersCount">已选择 %2$d 个成员中的 %1$d 个</string>
-  <string name="MembersCountZero">上限 %1$s</string>
+  <string name="MembersCount">已选择 %2$d 位成员中的 %1$d 位</string>
+  <string name="MembersCountZero">多达 %1$s</string>
   <string name="JoinToGroupErrorFull">抱歉，此群组已经满员。</string>
   <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
   <string name="LinkCopied">链接已复制到剪贴板</string>

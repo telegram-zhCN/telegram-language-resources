@@ -3552,7 +3552,7 @@ You'll be asked to enter it when you log in.</value>
     <value>Events</value>
   </data>
   <data name="ChatHistoryCaption" xml:space="preserve">
-    <value>Chat history for new members</value>
+    <value>新用户历史记录可见性</value>
   </data>
   <data name="ChatHistoryHidden" xml:space="preserve">
     <value>New members will not see previous messages</value>
@@ -3564,7 +3564,7 @@ You'll be asked to enter it when you log in.</value>
     <value>Description (optional)</value>
   </data>
   <data name="Hidden" xml:space="preserve">
-    <value>Hidden</value>
+    <value>隐藏</value>
   </data>
   <data name="Visible" xml:space="preserve">
     <value>Visible</value>
