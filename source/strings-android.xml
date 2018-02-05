@@ -724,6 +724,7 @@ The Telegram Team</string>
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s pinned a live location</string>
     <string name="NotificationActionPinnedGifChannel">%1$s pinned a GIF</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s pinned a track</string>
+    <string name="SecretChatName">Secret Chat</string>
     <!--contacts view-->
     <string name="SelectContact">Select Contact</string>
     <string name="NoContacts">No contacts yet</string>
@@ -907,6 +908,19 @@ You can use **a–z**, **0–9** and underscores. Minimum length is **5** charac
     <string name="ArchivedMasksAlertInfo">Some of your older masks sets have been archived. You can reactivate them in the Masks Settings.</string>
     <!--theme view-->
     <string name="Theme">Theme</string>
+    <string name="AutoNightTheme">Auto-Night Theme</string>
+    <string name="AutoNightDisabled">Disabled</string>
+    <string name="AutoNightScheduled">Scheduled</string>
+    <string name="AutoNightAutomatic">Automatic</string>
+    <string name="AutoNightSchedule">Schedule</string>
+    <string name="AutoNightLocation">Use Location Sunset &amp; Sunrise</string>
+    <string name="AutoNightUpdateLocation">Update Location</string>
+    <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one time check of your approximate location. Note that this location is stored locally on your device only.\n\nSunset: %1$s\nSunrise: %2$s</string>
+    <string name="AutoNightFrom">From</string>
+    <string name="AutoNightTo">To</string>
+    <string name="AutoNightPreffered">Prefered theme</string>
+    <string name="AutoNightBrightness">Brightness threshold</string>
+    <string name="AutoNightBrightnessInfo">Switch to night theme when environment brightness is %1$d%% or less.</string>
     <string name="ThemeDark">Dark</string>
     <string name="ThemeBlue">Blue</string>
     <string name="DeleteThemeAlert">Are you sure you want to delete this theme?</string>
@@ -1026,11 +1040,12 @@ Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-qu
     <string name="NotificationsCustomize">Customize</string>
     <string name="NotificationsCustom">Custom</string>
     <string name="NotificationsEnableCustom">Enable Custom Notifications</string>
-    <string name="NotificationsPriority">Priority</string>
+    <string name="NotificationsImportance">Importance</string>
     <string name="NotificationsPrioritySettings">Same as in Settings</string>
-    <string name="NotificationsPriorityDefault">Default</string>
+    
+    <string name="NotificationsPriorityMedium">Medium</string>
     <string name="NotificationsPriorityHigh">High</string>
-    <string name="NotificationsPriorityMax">Max</string>
+    <string name="NotificationsPriorityUrgent">Urgent</string>
     <string name="RepeatNotificationsNever">Never</string>
     <string name="RepeatNotifications">Repeat Notifications</string>
     <string name="PhoneNumberHelp">You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.
@@ -1076,6 +1091,7 @@ Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-qu
     <string name="DebugMenuEnableCamera">Enable in-app camera</string>
     <string name="DebugMenuDisableCamera">Disable in-app camera</string>
     <string name="DebugMenuResetContacts">Reset Imported Contacts</string>
+    <string name="DebugMenuClearMediaCache">Clear sent media cache</string>
     <string name="ChangeLanguageLater">You can change your language in the Settings later.</string>
     <string name="ChooseYourLanguage">Choose your language</string>
     <string name="ChooseYourLanguageOther">Other</string>
@@ -1099,6 +1115,10 @@ Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-qu
     <string name="AutodownloadChannels">Channels</string>
     <string name="AutodownloadSizeLimit">Limit by Size</string>
     <string name="AutodownloadSizeLimitUpTo">up to %1$s</string>
+    <string name="Streaming">Streaming</string>
+    <string name="EnableStreaming">Music and Video streaming</string>
+    <string name="EnableAllStreaming">Try to Stream All Videos</string>
+    <string name="EnableAllStreamingInfo">App will try to stream all videos and ignore hint from server.</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClear">Clear cached text messages?</string>
@@ -1208,6 +1228,7 @@ You may need to restart the app for this to take effect.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">Show all media</string>
     <string name="ShowInChat">Show in chat</string>
+    <string name="StopDownload">Stop downloading</string>
     <string name="SaveToGallery">Save to gallery</string>
     <string name="Of">%1$d of %2$d</string>
     <string name="Gallery">Gallery</string>
@@ -1215,6 +1236,9 @@ You may need to restart the app for this to take effect.</string>
     <string name="AllMedia">All media</string>
     <string name="NoPhotos">No photos yet</string>
     <string name="PleaseDownload">Please download media first</string>
+    <string name="PleaseStreamDownload">Please wait for the video to be fully downloaded.</string>
+    <string name="VideoDoesNotSupportStreaming">This video is not optimized for streaming. You may need to download it in full to play it.</string>
+    <string name="CantPlayVideo">App was unable to play this video. Try to play it with external player?</string>
     <string name="NoRecentPhotos">No recent photos</string>
     <string name="NoRecentGIFs">No recent GIFs</string>
     <string name="SearchImages">FIND IMAGES</string>
@@ -1902,4 +1926,10 @@ from multiple devices.</string>
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s at %2$s</string>
+
+  <!-- new from translations.telegram.org -->
+
+  <string name="NotificationsPriority">Priority</string>
+  <string name="NotificationsPriorityDefault">Default</string>
+  <string name="NotificationsPriorityMax">Max</string>
 </resources>

@@ -139,7 +139,7 @@
     <value>删除</value>
   </data>
   <data name="Dialogs" xml:space="preserve">
-    <value>会话</value>
+    <value>对话</value>
   </data>
   <data name="Forward" xml:space="preserve">
     <value>转发</value>
@@ -355,7 +355,7 @@
     <value>聊天消息通知</value>
   </data>
   <data name="NotificationsSubtitle" xml:space="preserve">
-    <value>免打扰、消息预览、会话</value>
+    <value>免打扰、消息预览、对话</value>
   </data>
   <data name="Support" xml:space="preserve">
     <value>支持</value>
@@ -478,7 +478,7 @@
     <value>查看{0}</value>
   </data>
   <data name="SearchAmongYourDialogsAndMessages" xml:space="preserve">
-    <value>搜索会话和消息</value>
+    <value>搜索对话和消息</value>
   </data>
   <data name="Messages" xml:space="preserve">
     <value>消息</value>
@@ -490,7 +490,7 @@
     <value>无结果</value>
   </data>
   <data name="Conversations" xml:space="preserve">
-    <value>会话</value>
+    <value>对话</value>
   </data>
   <data name="EditName" xml:space="preserve">
     <value>编辑姓名</value>
@@ -547,7 +547,7 @@
     <value>选择头像</value>
   </data>
   <data name="NoDialogsHere" xml:space="preserve">
-    <value>此处无会话</value>
+    <value>此处无对话</value>
   </data>
   <data name="StartMessaging" xml:space="preserve">
     <value>开始对话</value>
@@ -657,7 +657,8 @@
   </data>
   <data name="LogOutConfirmation" xml:space="preserve">
     <value>您确定要注销吗？
-请注意，您可以同时在所有设备上无缝地使用 Telegram。</value>
+请注意，您可以同时在所有设备上无缝地使用 Telegram。
+请记住，注销后您所有的加密对话将被销毁。</value>
   </data>
   <data name="GotAQuestionAboutTelegram" xml:space="preserve">
     <value>对 Telegram 有疑问？</value>
@@ -878,7 +879,7 @@
     <value>聊天背景</value>
   </data>
   <data name="ApplicationBackgroundSubtitle" xml:space="preserve">
-    <value>选择聊天背景</value>
+    <value>选择聊天背景图片</value>
   </data>
   <data name="ApplicationBackground" xml:space="preserve">
     <value>应用背景</value>
@@ -914,7 +915,7 @@
     <value>具有定时自毁功能</value>
   </data>
   <data name="SecretChats" xml:space="preserve">
-    <value>私密对话</value>
+    <value>加密对话</value>
   </data>
   <data name="DoNotAllowForwarding" xml:space="preserve">
     <value>不允许转发</value>
@@ -947,10 +948,10 @@
     <value>刚刚还在线</value>
   </data>
   <data name="SecretChatsDescription" xml:space="preserve">
-    <value>私密聊天：
+    <value>加密对话：
 • 使用端到端加密
-• 不在云端保留历史记录
-• 定时自毁功能
+• 不会在我们的服务器上留下痕迹
+• 支持阅后即焚计时器
 • 不允许转发</value>
   </data>
   <data name="Audio" xml:space="preserve">
@@ -1306,10 +1307,10 @@
     <value>手机号 {0} 已经与一个 Telegram 账户绑定。请删除该账号后重试。</value>
   </data>
   <data name="MessageActionScreenshotMessages" xml:space="preserve">
-    <value>{0} 拍摄了屏幕截图！</value>
+    <value>{0} 截了一张图！</value>
   </data>
   <data name="MessageActionYouScreenshotMessages" xml:space="preserve">
-    <value>您拍摄了屏幕截图！</value>
+    <value>您截了一张图！</value>
   </data>
   <data name="DayGenitivePlural" xml:space="preserve">
     <value>天</value>
@@ -2328,7 +2329,7 @@
     <value>照片</value>
   </data>
   <data name="PrivateChats" xml:space="preserve">
-    <value>私密会话</value>
+    <value>私密对话</value>
   </data>
   <data name="Videos" xml:space="preserve">
     <value>视频</value>
@@ -2412,7 +2413,7 @@
     <value>这幅图片代表了用于你与 {0} 的私密聊天的密钥。</value>
   </data>
   <data name="EncryptionKeyExtendedDescription2" xml:space="preserve">
-    <value>如果同样的图片也出现在 {0} 的手机上，证明段对端加密工作正常。</value>
+    <value>如果它们看起来和 {0} 手机上的完全一致，端到端加密就是有保证的。</value>
   </data>
   <data name="InlineBotsNotification" xml:space="preserve">
     <value>请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</value>
@@ -2503,7 +2504,7 @@
     <value>取消置顶</value>
   </data>
   <data name="UnpinMessageConfirmation" xml:space="preserve">
-    <value>您确定要取消置顶？</value>
+    <value>您确定要取消置顶此消息吗？</value>
   </data>
   <data name="ConvertToSupergroup" xml:space="preserve">
     <value>升级为超级群组</value>
@@ -2579,7 +2580,7 @@
     <value>通知所有成员</value>
   </data>
   <data name="PinMessageConfirmation" xml:space="preserve">
-    <value>您确定要置顶这条消息？</value>
+    <value>您确定要在群组中置顶此消息？</value>
   </data>
   <data name="ChatMaxSizeNotification" xml:space="preserve">
     <value>您可以在创建群组并升级到超级群组后添加更多的用户。</value>
@@ -3292,7 +3293,7 @@
     <value>Saved Pictures</value>
   </data>
   <data name="ScreenshotsFolder" xml:space="preserve">
-    <value>Screenshots</value>
+    <value>屏幕截图</value>
   </data>
   <data name="AccessCameraException" xml:space="preserve">
     <value>Can't access current camera</value>
@@ -3669,13 +3670,13 @@ You'll be asked to enter it when you log in.</value>
     <value>h</value>
   </data>
   <data name="ChatGenitivePlural" xml:space="preserve">
-    <value>Chats</value>
+    <value>对话</value>
   </data>
   <data name="ChatGenitiveSingular" xml:space="preserve">
     <value>Chat</value>
   </data>
   <data name="ChatNominativePlural" xml:space="preserve">
-    <value>Chats</value>
+    <value>对话</value>
   </data>
   <data name="ChatNominativeSingular" xml:space="preserve">
     <value>Chat</value>

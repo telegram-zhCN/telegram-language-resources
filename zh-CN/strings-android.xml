@@ -154,7 +154,7 @@
   <string name="DisappearingVideo">自毁视频</string>
   <string name="CompatibilityChat">%1$s 正在使用版本较旧的 Telegram，因此私密图片将会以兼容模式显示。
 
-当 %2$s 更新 Telegram 后，阅后即焚定时器设置在1分钟以内的图片将会以“长按预览”模式显示，而且当对方截图时，您将会被通知。</string>
+当 %2$s 更新 Telegram 后，阅后即焚定时器设置在 1 分钟以内的图片将会以“长按查看”模式显示，而且当对方截图时，您将会被通知。</string>
   <string name="SearchMessages">搜索消息</string>
   <string name="Search">搜索</string>
   <string name="MuteNotifications">暂停消息通知</string>
@@ -402,7 +402,7 @@
   <string name="EventLogOriginalMessages">原始消息</string>
   <string name="EventLogOriginalCaption">原说明</string>
   <string name="EventLogOriginalCaptionEmpty">无</string>
-  <string name="EventLogPinnedMessages">un1 置顶了这条消息:</string>
+  <string name="EventLogPinnedMessages">un1 置顶了这条消息：</string>
   <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
   <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
   <string name="EventLogChangedStickersSet">un1 更换了群组贴纸包</string>
@@ -572,9 +572,9 @@
   <string name="PinMessage">置顶</string>
   <string name="PinNotify">通知所有成员</string>
   <string name="UnpinMessage">取消置顶</string>
-  <string name="PinMessageAlert">您确定要置顶这条消息？</string>
-  <string name="PinMessageAlertChannel">您确定要置顶这条消息？</string>
-  <string name="UnpinMessageAlert">您确定要取消置顶？</string>
+  <string name="PinMessageAlert">您确定要在群组中置顶此消息？</string>
+  <string name="PinMessageAlertChannel">您确定要在频道中置顶此消息？</string>
+  <string name="UnpinMessageAlert">您确定要取消置顶此消息吗？</string>
   <string name="DeleteBanUser">封禁用户</string>
   <string name="DeleteReportSpam">举报垃圾信息</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
@@ -592,9 +592,9 @@
   <string name="TimeToEditExpired">抱歉，可编辑时间已过。</string>
   <string name="AddShortcut">添加快捷方式</string>
   <string name="SearchMembers">搜索成员</string>
-  <string name="ChatYourSelf">将消息转发至此收藏</string>
+  <string name="ChatYourSelf">转发至此以保存</string>
   <string name="SavedMessages">保存的消息</string>
-  <string name="SavedMessagesInfo">选择此处收藏</string>
+  <string name="SavedMessagesInfo">转发至此以保存</string>
   <string name="ChatYourSelfName">你</string>
   <string name="ChatYourSelfDescription1">转发信息到这里来保存它们</string>
   <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
@@ -712,9 +712,9 @@ Telegram 团队</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了 1 条语音消息</string>
   <string name="NotificationActionPinnedRoundChannel">%1$s 置顶了 1 条视频消息</string>
-  <string name="NotificationActionPinnedContactChannel">%1$s 置顶了 1 个联系人信息</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s 置顶了 1 位联系人</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了 1 个位置</string>
-  <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了一个实时位置</string>
+  <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了 1 个实时位置</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 置顶了 1 个 GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了 1 首音乐</string>
   <!--contacts view-->
@@ -734,11 +734,11 @@ Telegram 团队</string>
   <string name="WithinAMonth">最近一个月内曾上线</string>
   <string name="ALongTimeAgo">很久没上线</string>
   <string name="NewMessageTitle">新建对话</string>
-  <string name="InviteFriendsHelp">选择联系人邀请他们使用 Telegram</string>
+  <string name="InviteFriendsHelp">选择要邀请到 Telegram 的联系人</string>
   <string name="InviteToTelegram">邀请到 TELEGRAM</string>
   <string name="ShareTelegram">分享 Telegram...</string>
   <string name="UpdateContactsTitle">更新联系人？</string>
-  <string name="UpdateContactsMessage">Telegram 检测到许多未同步的联系人，您想现在同步他们吗？如果您正在使用自己的手机、SIM 卡和 Google 账号，请选择 \'OK\'。</string>
+  <string name="UpdateContactsMessage">Telegram 检测到很多未同步的联系人，您想现在将其同步吗？如果您在使用自己的设备、SIM 卡和 Google 帐户，请选择‘确定’。</string>
   <!--group create view-->
   <string name="SendMessageTo">添加成员...</string>
   <string name="SoftUserLimitAlert">您能够在创建群组并升级到超级群组后添加更多的用户</string>
@@ -802,7 +802,7 @@ Telegram 团队</string>
 • 所有成员将看不到已删除的消息
 • 管理员可以置顶重要消息
 • 创建者可以给群组设置一个公开链接</string>
-  <string name="ConvertGroupInfo3">**注意：** 此操作不可撤销。</string>
+  <string name="ConvertGroupInfo3">**注意：**此操作不可撤销。</string>
   <!--contact info view-->
   <string name="ShareContact">分享</string>
   <string name="AddContact">添加</string>
@@ -862,8 +862,8 @@ Telegram 团队</string>
   <string name="AddMasks">添加装饰</string>
   <string name="AddToStickers">添加到贴纸库</string>
   <string name="AddToFavorites">添加到收藏</string>
-  <string name="AddedToFavorites">该贴纸已添加到收藏</string>
-  <string name="RemovedFromFavorites">该贴纸已从收藏中移除</string>
+  <string name="AddedToFavorites">此贴纸已添加到收藏</string>
+  <string name="RemovedFromFavorites">此贴纸已从收藏中移除</string>
   <string name="RecentStickers">最近使用</string>
   <string name="FavoriteStickers">收藏夹</string>
   <string name="CurrentGroupStickers">群组贴纸包</string>
@@ -976,7 +976,7 @@ Telegram 团队</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
-  <string name="AddAccount">添加帐号</string>
+  <string name="AddAccount">添加帐户</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">隐私策略</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
@@ -1056,10 +1056,10 @@ Telegram 团队</string>
   <string name="DebugMenu">调试菜单</string>
   <string name="DebugMenuImportContacts">导入通讯录</string>
   <string name="DebugMenuReloadContacts">重载通讯录</string>
-  <string name="DebugMenuResetDialogs">重置会话</string>
+  <string name="DebugMenuResetDialogs">重置所有对话</string>
   <string name="DebugMenuEnableCamera">启用应用内相机</string>
   <string name="DebugMenuDisableCamera">禁用应用内相机</string>
-  <string name="DebugMenuResetContacts">重置导入的联系人</string>
+  <string name="DebugMenuResetContacts">重置已导入的通讯录</string>
   <string name="ChangeLanguageLater">您可以稍后在设置中更改您的语言。</string>
   <string name="ChooseYourLanguage">选择您的语言</string>
   <string name="ChooseYourLanguageOther">其它</string>
@@ -1073,12 +1073,12 @@ Telegram 团队</string>
   <string name="UseProxyInfo">SOCKS5 代理设置</string>
   <string name="UseProxyForCalls">对通话启用代理</string>
   <string name="UseProxyForCallsInfo">使用代理服务器可能降低通话质量。</string>
-  <string name="LowDiskSpaceTitle">请注意</string>
-  <string name="LowDiskSpaceMessage">您的手机已经几乎没有可用空间。您可以通过清空 Telegram 的消息和媒体缓存来释放一些空间。</string>
-  <string name="LowDiskSpaceTitle2">媒体文件保留时间</string>
+  <string name="LowDiskSpaceTitle">注意</string>
+  <string name="LowDiskSpaceMessage">您的设备存储空间即将不足。您可以将 Telegram 设置为仅缓存近期的媒体文件以释放空间。</string>
+  <string name="LowDiskSpaceTitle2">删除此时间后的媒体文件</string>
   <string name="LowDiskSpaceNeverRemove">永不删除</string>
   <string name="AutodownloadContacts">联系人</string>
-  <string name="AutodownloadPrivateChats">私密会话</string>
+  <string name="AutodownloadPrivateChats">私密对话</string>
   <string name="AutodownloadGroupChats">群聊</string>
   <string name="AutodownloadChannels">频道</string>
   <string name="AutodownloadSizeLimit">大小限制</string>
@@ -1454,8 +1454,8 @@ Telegram 团队</string>
   <string name="AttachRound">视频消息</string>
   <string name="AttachGame">游戏</string>
   <string name="FromYou">您</string>
-  <string name="ActionTakeScreenshootYou">您截了一张图</string>
-  <string name="ActionTakeScreenshoot">un1 截了一张图</string>
+  <string name="ActionTakeScreenshootYou">您截了一张图！</string>
+  <string name="ActionTakeScreenshoot">un1 截了一张图！</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">无效的手机号码</string>
   <string name="BannedPhoneNumber">被封禁的手机号码</string>

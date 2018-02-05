@@ -818,7 +818,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_migrate_reached#other" = "{count} members limit reached";
 "lng_profile_migrate_body" = "To add more members, you can upgrade your group to a supergroup.";
 "lng_profile_migrate_learn_more" = "Learn more »";
-"lng_profile_migrate_button" = "Upgrade to supergroup";
+"lng_profile_migrate_button" = "Convert to supergroup";
 "lng_profile_convert_title" = "Convert to supergroup";
 "lng_profile_convert_feature1" = "— New members see the full message history";
 "lng_profile_convert_feature2" = "— Messages are deleted for all members";
