@@ -24,9 +24,7 @@
     <string name="YourCode">Phone verification</string>
     <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
     <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
-    <string name="SentCallCode">We\'re calling your phone **%1$s**.
-
-Don\'t accept the call, Telegram will process everything automatically.</string>
+    <string name="SentCallCode">We\'re calling your phone **%1$s**.\n\nDon\'t accept the call, Telegram will process everything automatically.</string>
     <string name="SentCallOnly">We are calling your phone **%1$s** to dictate a code.</string>
     <string name="CallText">Telegram will call you in %1$d:%2$02d</string>
     <string name="SmsText">We will send you an SMS in %1$d:%2$02d</string>
@@ -35,13 +33,9 @@ Don\'t accept the call, Telegram will process everything automatically.</string>
     <string name="WrongNumber">Wrong number?</string>
     <string name="DidNotGetTheCode">Didn\'t get the code?</string>
     <string name="CancelAccountReset">Cancel account reset</string>
-    <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.
-
-If this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
+    <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
     <string name="ResetAccount">Reset account</string>
-    <string name="ResetAccountInfo">Since the account **%1$s** is active and protected by a password, we will delete it in 1 week for security purposes.
-
-You can cancel this process at any time.</string>
+    <string name="ResetAccountInfo">Since the account **%1$s** is active and protected by a password, we will delete it in 1 week for security purposes.\n\nYou can cancel this process at any time.</string>
     <string name="ResetAccountStatus">You\'ll be able to reset your account in:</string>
     <string name="ResetAccountCancelledAlert">Your recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.</string>
     <string name="ResetAccountButton">RESET ACCOUNT</string>
@@ -103,9 +97,7 @@ You can cancel this process at any time.</string>
     <string name="PaymentFailed">Sorry, the payment was declined.</string>
     <string name="PaymentConnectionFailed">Unable to reach payment server. Please check your internet connection and try again.</string>
     <string name="PaymentWarning">Warning</string>
-    <string name="PaymentWarningText">Neither Telegram, nor %1$s will have access to your credit card information. Credit card details will be handled only by the payment system, %2$s.
-
-Payments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$s or your bank.</string>
+    <string name="PaymentWarningText">Neither Telegram, nor %1$s will have access to your credit card information. Credit card details will be handled only by the payment system, %2$s.\n\nPayments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$s or your bank.</string>
     <string name="PaymentPassword">Password &amp; E-Mail</string>
     <string name="PaymentPasswordTitle">Password</string>
     <string name="PaymentPasswordEnter">Enter a password</string>
@@ -127,9 +119,7 @@ Payments will go directly to the developer of %1$s. Telegram cannot provide any 
     <string name="NoChats">No chats yet...</string>
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
-    <string name="NoChatsHelp">Start messaging by pressing the
-new message button in the bottom right corner
-or tap the menu button for more options.</string>
+    <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
     <string name="ConnectingToProxy">Connecting to proxy...</string>
@@ -155,9 +145,7 @@ or tap the menu button for more options.</string>
     <string name="ForwardTo">Forward to...</string>
     <string name="DisappearingPhoto">Secret Photo</string>
     <string name="DisappearingVideo">Secret Video</string>
-    <string name="CompatibilityChat">%1$s is using an older version of Telegram, so secret photos will be shown in compatibility mode.
-
-Once %2$s updates Telegram, photos with timers for 1 minute or less will start working in \'Tap and hold to view\' mode, and you will be notified whenever the other party takes a screenshot.</string>
+    <string name="CompatibilityChat">%1$s is using an older version of Telegram, so secret photos will be shown in compatibility mode.\n\nOnce %2$s updates Telegram, photos with timers for 1 minute or less will start working in \'Tap and hold to view\' mode, and you will be notified whenever the other party takes a screenshot.</string>
     <string name="SearchMessages">MESSAGES</string>
     <string name="Search">Search</string>
     <string name="MuteNotifications">Mute notifications</string>
@@ -272,9 +260,7 @@ Once %2$s updates Telegram, photos with timers for 1 minute or less will start w
     <string name="ChannelLeaveAlert">Are you sure you want to leave the channel?</string>
     <string name="ChannelDeleteInfo">You will lose all messages in this channel.</string>
     <string name="ChannelEdit">Edit</string>
-    <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.
-
-If you\'re not interested, we suggest creating a private channel instead.</string>
+    <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.</string>
     <string name="ActionCreateChannel">Channel created</string>
     <string name="ActionChannelChangedPhoto">Channel photo changed</string>
     <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
@@ -370,20 +356,9 @@ If you\'re not interested, we suggest creating a private channel instead.</strin
     <string name="EventLogAllEvents">All actions</string>
     <string name="EventLogSelectedEvents">Selected actions</string>
     <string name="EventLogAllAdmins">All admins</string>
-    <string name="EventLogEmpty">**No actions here yet**
-
-The group\'s members and admins
-have not taken any service actions
-in the last 48 hours.</string>
-    <string name="EventLogEmptyChannel">**No actions here yet**
-
-The channel\'s admins
-have not taken any service actions
-in the last 48 hours.</string>
-    <string name="EventLogEmptySearch">**No actions found**
-
-No recent actions that match your query
-have been found.</string>
+    <string name="EventLogEmpty">**No actions here yet**\n\nThe group\'s members and admins\nhave not taken any service actions\nin the last 48 hours.</string>
+    <string name="EventLogEmptyChannel">**No actions here yet**\n\nThe channel\'s admins\nhave not taken any service actions\nin the last 48 hours.</string>
+    <string name="EventLogEmptySearch">**No actions found**\n\nNo recent actions that match your query\nhave been found.</string>
     <string name="EventLogEmptyTextSearch">No recent actions that contain \'**%1$s**\' have been found.</string>
     <string name="EventLogInfoTitle">What is the Recent Actions?</string>
     <string name="EventLogInfoDetail">This is a list of all service actions taken by the group\'s members and admins in the last 48 hours.</string>
@@ -425,9 +400,7 @@ have been found.</string>
     <string name="EventLogToggledInvitesOff">un1 disabled group invites</string>
     <string name="EventLogToggledSignaturesOn">un1 enabled signatures</string>
     <string name="EventLogToggledSignaturesOff">un1 disabled signatures</string>
-    <string name="EventLogRestrictedUntil">changed restrictions for %1$s
-
-Duration: %2$s</string>
+    <string name="EventLogRestrictedUntil">changed restrictions for %1$s\n\nDuration: %2$s</string>
     <string name="EventLogRestrictedSendStickers">Send stickers &amp; GIFs</string>
     <string name="EventLogRestrictedSendMedia">Send media</string>
     <string name="EventLogRestrictedSendMessages">Send messages</string>
@@ -515,8 +488,7 @@ Duration: %2$s</string>
     <string name="SendingGame">playing a game...</string>
     <string name="SendingVideoStatus">sending a video...</string>
     <string name="SendingFile">sending a file...</string>
-    <string name="GotAQuestion">Got a question
-about Telegram?</string>
+    <string name="GotAQuestion">Got a question\nabout Telegram?</string>
     <string name="ChatGallery">Gallery</string>
     <string name="ChatLocation">Location</string>
     <string name="ChatVideo">Video</string>
@@ -675,18 +647,7 @@ about Telegram?</string>
     <string name="NotificationGroupKickYou">%1$s removed you from the group %2$s</string>
     <string name="NotificationGroupLeftMember">%1$s has left the group %2$s</string>
     <string name="NotificationContactJoined">%1$s joined Telegram!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,
-We detected a login into your account from a new device on %2$s
-
-Device: %3$s
-Location: %4$s
-
-If this wasn\'t you, you can go to Settings - Privacy and Security - Sessions and terminate that session.
-
-If you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.
-
-Sincerely,
-The Telegram Team</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nWe detected a login into your account from a new device on %2$s\n\nDevice: %3$s\nLocation: %4$s\n\nIf this wasn\'t you, you can go to Settings - Privacy and Security - Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team</string>
     <string name="NotificationContactNewPhoto">%1$s updated profile photo</string>
     <string name="NotificationInvitedToGroupByLink">%1$s joined to the group %2$s via invite link</string>
     <string name="Reply">Reply</string>
@@ -767,12 +728,8 @@ The Telegram Team</string>
     <string name="RevokeAlertNewLink">The previous invite link is now inactive. A new link has been generated.</string>
     <string name="RevokeButton">Revoke</string>
     <string name="RevokeLink">Revoke Link</string>
-    <string name="RevokeLinkAlert">Are you sure you want to revoke the link **%1$s**?
-
-The group \"**%2$s**\" will become private.</string>
-    <string name="RevokeLinkAlertChannel">Are you sure you want to revoke the link **%1$s**?
-
-The channel \"**%2$s**\" will become private.</string>
+    <string name="RevokeLinkAlert">Are you sure you want to revoke the link **%1$s**?\n\nThe group \"**%2$s**\" will become private.</string>
+    <string name="RevokeLinkAlertChannel">Are you sure you want to revoke the link **%1$s**?\n\nThe channel \"**%2$s**\" will become private.</string>
     <string name="CopyLink">Copy Link</string>
     <string name="ShareLink">Share Link</string>
     <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
@@ -798,21 +755,8 @@ The channel \"**%2$s**\" will become private.</string>
     <string name="ConvertGroupMenu">Convert to supergroup</string>
     <string name="ConvertGroupAlertWarning">Warning</string>
     <string name="ConvertGroupAlert">This action is irreversible. It is not possible to downgrade a supergroup to a regular group.</string>
-    <string name="ConvertGroupInfo">**Members limit reached.**
-
-To go over the limit and get additional features, upgrade to a supergroup:
-
-• Supergroups can get up to %1$s
-• New members can see the full message history
-• Deleted messages will disappear for all members
-• Admins can pin important messages
-• Creator can set a public link for the group</string>
-    <string name="ConvertGroupInfo2">**In supergroups:**
-
-• New members can see the full message history
-• Deleted messages will disappear for all members
-• Admins can pin important messages
-• Creator can set a public link for the group</string>
+    <string name="ConvertGroupInfo">**Members limit reached.**\n\nTo go over the limit and get additional features, upgrade to a supergroup:\n\n• Supergroups can get up to %1$s\n• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can pin important messages\n• Creator can set a public link for the group</string>
+    <string name="ConvertGroupInfo2">**In supergroups:**\n\n• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can pin important messages\n• Creator can set a public link for the group</string>
     <string name="ConvertGroupInfo3">**Note:** this action can\'t be undone.</string>
     <!--contact info view-->
     <string name="ShareContact">Share</string>
@@ -841,11 +785,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
     <string name="MessageLifetimePhoto">If you set a timer, the photo will self-destruct after it was viewed.</string>
     <string name="MessageLifetimeVideo">If you set a timer, the video will self-destruct after it was viewed.</string>
     <string name="ShortMessageLifetimeForever">Off</string>
-    <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with **%1$s**.
-
-If they look the same on **%2$s\'s** device, end-to-end encryption is guaranteed.
-
-Learn more at telegram.org</string>
+    <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with **%1$s**.\n\nIf they look the same on **%2$s\'s** device, end-to-end encryption is guaranteed.\n\nLearn more at telegram.org</string>
     <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
     <string name="NumberUnknown">Unknown</string>
     <string name="Info">Info</string>
@@ -858,11 +798,8 @@ Learn more at telegram.org</string>
     <string name="UsernameInvalidShort">A username must have at least 5 characters.</string>
     <string name="UsernameInvalidLong">The username must not exceed 32 characters.</string>
     <string name="UsernameInvalidStartNumber">Sorry, a username can\'t start with a number.</string>
-    <string name="UsernameHelp">You can choose a username on **Telegram**. If you do, other people will be able to find you by this username and contact you without knowing your phone number.
-
-You can use **a–z**, **0–9** and underscores. Minimum length is **5** characters.</string>
-    <string name="UsernameHelpLink">This link opens a chat with you on Telegram:
-%1$s</string>
+    <string name="UsernameHelp">You can choose a username on **Telegram**. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use **a–z**, **0–9** and underscores. Minimum length is **5** characters.</string>
+    <string name="UsernameHelpLink">This link opens a chat with you on Telegram:\n%1$s</string>
     <string name="UsernameChecking">Checking username...</string>
     <string name="UsernameAvailable">%1$s is available.</string>
     <string name="UsernameEmpty">None</string>
@@ -908,19 +845,19 @@ You can use **a–z**, **0–9** and underscores. Minimum length is **5** charac
     <string name="ArchivedMasksAlertInfo">Some of your older masks sets have been archived. You can reactivate them in the Masks Settings.</string>
     <!--theme view-->
     <string name="Theme">Theme</string>
-    <string name="AutoNightTheme">Auto-Night Theme</string>
+    <string name="AutoNightTheme">Auto-Night Mode</string>
     <string name="AutoNightDisabled">Disabled</string>
     <string name="AutoNightScheduled">Scheduled</string>
     <string name="AutoNightAutomatic">Automatic</string>
     <string name="AutoNightSchedule">Schedule</string>
-    <string name="AutoNightLocation">Use Location Sunset &amp; Sunrise</string>
+    <string name="AutoNightLocation">Use Local Sunset &amp; Sunrise\n</string>
     <string name="AutoNightUpdateLocation">Update Location</string>
-    <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one time check of your approximate location. Note that this location is stored locally on your device only.\n\nSunset: %1$s\nSunrise: %2$s</string>
+    <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one-time check of your approximate location. Note that this location is stored only locally on your device.\n\nSunset: %1$s\nSunrise: %2$s</string>
     <string name="AutoNightFrom">From</string>
     <string name="AutoNightTo">To</string>
-    <string name="AutoNightPreffered">Prefered theme</string>
+    <string name="AutoNightPreferred">Preferred night theme</string>
     <string name="AutoNightBrightness">Brightness threshold</string>
-    <string name="AutoNightBrightnessInfo">Switch to night theme when environment brightness is %1$d%% or less.</string>
+    <string name="AutoNightBrightnessInfo">Switch to your preferred night theme when ambient lighting falls below %1$d%%.</string>
     <string name="ThemeDark">Dark</string>
     <string name="ThemeBlue">Blue</string>
     <string name="DeleteThemeAlert">Are you sure you want to delete this theme?</string>
@@ -990,15 +927,12 @@ You can use **a–z**, **0–9** and underscores. Minimum length is **5** charac
     <string name="ChatBackground">Chat Background</string>
     <string name="MessagesSettings">Messages</string>
     <string name="SendByEnter">Send by Enter</string>
-    <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="Events">Events</string>
     <string name="ContactJoined">Contact joined Telegram</string>
     <string name="PinnedMessages">Pinned Messages</string>
     <string name="Language">Language</string>
     <string name="LanguageCustom">Custom</string>
-    <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.
-
-Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">troubleshooting</a>]]>.</string>
+    <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">troubleshooting</a>]]>.</string>
     <string name="AskButton">Ask a volunteer</string>
     <string name="TelegramFAQ">Telegram FAQ</string>
     <string name="TelegramFaq">Telegram FAQ</string>
@@ -1042,15 +976,13 @@ Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-qu
     <string name="NotificationsEnableCustom">Enable Custom Notifications</string>
     <string name="NotificationsImportance">Importance</string>
     <string name="NotificationsPrioritySettings">Same as in Settings</string>
-    
+    <string name="NotificationsPriorityLow">Low</string>
     <string name="NotificationsPriorityMedium">Medium</string>
     <string name="NotificationsPriorityHigh">High</string>
     <string name="NotificationsPriorityUrgent">Urgent</string>
     <string name="RepeatNotificationsNever">Never</string>
     <string name="RepeatNotifications">Repeat Notifications</string>
-    <string name="PhoneNumberHelp">You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.
-
-**Important:** all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
+    <string name="PhoneNumberHelp">You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important:** all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
     <string name="PhoneNumberAlert">All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
     <string name="PhoneNumberChange">CHANGE NUMBER</string>
     <string name="ChangePhoneNewNumber">New number</string>
@@ -1116,15 +1048,13 @@ Please take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-qu
     <string name="AutodownloadSizeLimit">Limit by Size</string>
     <string name="AutodownloadSizeLimitUpTo">up to %1$s</string>
     <string name="Streaming">Streaming</string>
-    <string name="EnableStreaming">Music and Video streaming</string>
-    <string name="EnableAllStreaming">Try to Stream All Videos</string>
-    <string name="EnableAllStreamingInfo">App will try to stream all videos and ignore hint from server.</string>
+    <string name="EnableStreaming">Stream Videos and Audio Files</string>
+
+    <string name="EnableAllStreamingInfo">Some videos can\'t be streamed – e.g., all videos that were sent from Android using Telegram 4.7 and earlier versions.\n</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClear">Clear cached text messages?</string>
-    <string name="LocalDatabaseInfo">Clearing the local database will delete the texts of cached messages and compress the database to save internal disk space. Telegram needs some data to work, so database size will not reach zero.
-
-This operation can take a few minutes to complete.</string>
+    <string name="LocalDatabaseInfo">Clearing the local database will delete the texts of cached messages and compress the database to save internal disk space. Telegram needs some data to work, so database size will not reach zero.\n\nThis operation can take a few minutes to complete.</string>
     <string name="ClearMediaCache">Clear Cache</string>
     <string name="CacheClear">Clear</string>
     <string name="CalculatingSize">Calculating...</string>
@@ -1137,9 +1067,7 @@ This operation can take a few minutes to complete.</string>
     <string name="LocalCache">Other files</string>
     <string name="CacheEmpty">Empty</string>
     <string name="KeepMedia">Keep Media</string>
-    <string name="KeepMediaInfo">Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.
-
-All media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
+    <string name="KeepMediaInfo">Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
     <string name="KeepMediaForever">Forever</string>
     <string name="AudioAutodownload">Voice messages</string>
     <string name="VideoMessagesAutodownload">Video messages</string>
@@ -1152,13 +1080,24 @@ All media will stay in the Telegram cloud and can be re-downloaded if you need i
     <string name="SessionsInfo">Control your sessions on other devices.</string>
     <string name="TerminateSessionInfo">Tap on a session to terminate.</string>
     <string name="TerminateSessionQuestion">Terminate this session?</string>
+    <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
+    <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
+    <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="UnofficialApp">unofficial app</string>
+    <string name="NoOtherWebSessions">No active logins.</string>
+    <string name="NoOtherWebSessionsInfo">You can log in on websites that support signing in with Telegram.</string>
+    <string name="OtherWebSessions">Connected websites</string>
+    <string name="WebSessionsTitle">Logged in with Telegram</string>
+    <string name="TerminateWebSessionInfo">Tap to disconnect from your Telegram account.</string>
+    <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
+    <string name="TerminateWebSessionStop">Block %1$s</string>
+    <string name="TerminateAllWebSessions">Disconnect All Websites</string>
+    <string name="AreYouSureWebSessions">Are you sure you want to disconnect all websites where you used Telegram to log in?</string>
+    <string name="ClearOtherWebSessionsHelp">You can log in on websites that support signing in with Telegram.</string>
     <!--passcode view-->
     <string name="Passcode">Passcode Lock</string>
     <string name="ChangePasscode">Change Passcode</string>
-    <string name="ChangePasscodeInfo">When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock your Telegram app.
-
-Note: if you forget the passcode, you\'ll need to delete and reinstall the app. All secret chats will be lost.</string>
+    <string name="ChangePasscodeInfo">When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock your Telegram app.\n\nNote: if you forget the passcode, you\'ll need to delete and reinstall the app. All secret chats will be lost.</string>
     <string name="PasscodePIN">PIN</string>
     <string name="PasscodePassword">Password</string>
     <string name="EnterCurrentPasscode">Enter your current passcode</string>
@@ -1176,9 +1115,7 @@ Note: if you forget the passcode, you\'ll need to delete and reinstall the app. 
     <string name="FingerprintHelp">Touch sensor</string>
     <string name="FingerprintNotRecognized">Fingerprint not recognized. Try again</string>
     <string name="ScreenCapture">Allow Screen Capture</string>
-    <string name="ScreenCaptureInfo">If enabled, you can take screenshots of the app, but the system will display your chats in the task switcher even when the passcode is on.
-
-You may need to restart the app for this to take effect.</string>
+    <string name="ScreenCaptureInfo">If enabled, you can take screenshots of the app, but the system will display your chats in the task switcher even when the passcode is on.\n\nYou may need to restart the app for this to take effect.</string>
     <!--media view-->
     <string name="DocumentsTitle">Shared Files</string>
     <string name="SharedMediaTitle">Shared Media</string>
@@ -1301,9 +1238,7 @@ You may need to restart the app for this to take effect.</string>
     <string name="YourEmailInfo">Please add your valid e-mail. It is the only way to recover a forgotten password.</string>
     <string name="YourEmailSkip">Skip</string>
     <string name="YourEmailSkipWarning">Warning</string>
-    <string name="YourEmailSkipWarningText">No, seriously.
-
-If you forget your password, you will lose access to your Telegram account. There will be no way to restore it.</string>
+    <string name="YourEmailSkipWarningText">No, seriously.\n\nIf you forget your password, you will lose access to your Telegram account. There will be no way to restore it.</string>
     <string name="YourEmailAlmostThere">Almost there!</string>
     <string name="YourEmailAlmostThereText">Please check your e-mail (don\'t forget the spam folder) to complete Two-Step Verification setup.</string>
     <string name="YourPasswordSuccess">Success!</string>
@@ -1317,28 +1252,19 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="PasswordHintText">Please create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
-    <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:
-
-1. Check your e-mail (don\'t forget the spam folder)
-%1$s
-
-2. Click on the validation link.</string>
+    <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your e-mail (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
     <string name="PasswordEmailInvalid">Invalid e-mail</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
     <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
-    <string name="RestoreEmailSent">We have sent a recovery code to the e-mail you provided:
-
-%1$s</string>
+    <string name="RestoreEmailSent">We have sent a recovery code to the e-mail you provided:\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">Please check your e-mail and enter the 6-digit code we have sent here.</string>
     <string name="RestoreEmailTrouble">Having trouble accessing your e-mail %1$s?</string>
     <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
     <string name="ResetMyAccount">RESET MY ACCOUNT</string>
     <string name="ResetMyAccountText">You will lose all your chats and messages, along with any media and files you shared, if you proceed with resetting your account.</string>
     <string name="ResetMyAccountWarning">Warning</string>
-    <string name="ResetMyAccountWarningText">This action can\'t be undone.
-
-If you reset your account, all your messages and chats will be deleted.</string>
+    <string name="ResetMyAccountWarningText">This action can\'t be undone.\n\nIf you reset your account, all your messages and chats will be deleted.</string>
     <string name="ResetMyAccountWarningReset">Reset account</string>
     <string name="LoginPassword">Password</string>
     <string name="LoginPasswordText">You have enabled Two-Step Verification, so your account is protected with an additional password.</string>
@@ -1346,8 +1272,7 @@ If you reset your account, all your messages and chats will be deleted.</string>
     <string name="PasswordRecovery">Password Recovery</string>
     <string name="PasswordCode">Code</string>
     <string name="PasswordReset">Password deactivated</string>
-    <string name="EnabledPasswordText">You have enabled Two-Step verification.
-You\'ll need the password you set up here to log in to your Telegram account.</string>
+    <string name="EnabledPasswordText">You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.</string>
     <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
     <!--data settings-->
     <string name="DataSettings">Data and Storage</string>
@@ -1374,9 +1299,10 @@ You\'ll need the password you set up here to log in to your Telegram account.</s
     <string name="PrivacySettings">Privacy and Security</string>
     <string name="PrivacyTitle">Privacy</string>
     <string name="PrivacyLastSeen">Last Seen</string>
-    <string name="PrivacyPayments">Payments</string>
-    <string name="PrivacyPaymentsClear">Clear payment &amp; shipping info</string>
-    <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
+    <string name="PrivacyBots">Bots and websites</string>
+    <string name="PrivacyPaymentsClear">Clear Payment and Shipping Info</string>
+    <string name="PrivacyPaymentsClearAlert">Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.</string>
+    <string name="PrivacyBotsInfo">Websites where you used Telegram to log in.</string>
     <string name="PrivacyClearShipping">Shipping info</string>
     <string name="PrivacyClearPayment">Payment info</string>
     <string name="LastSeenEverybody">Everybody</string>
@@ -1403,7 +1329,6 @@ You\'ll need the password you set up here to log in to your Telegram account.</s
     <string name="NeverShareWithPlaceholder">Never share with users...</string>
     <string name="EmpryUsersPlaceholder">Add Users</string>
     <string name="PrivacyFloodControlError">Sorry, too many requests. Unable to change privacy settings now, please wait.</string>
-    <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
     <string name="RemoveFromListText">Tap and hold on user to delete.</string>
     <string name="GroupsAndChannels">Groups</string>
     <string name="WhoCanAddMe">Who can add me to group chats?</string>
@@ -1521,12 +1446,7 @@ You\'ll need the password you set up here to log in to your Telegram account.</s
     <string name="SendMessagesTo">Send messages to %1$s?</string>
     <string name="SendGameTo">Share game to %1$s?</string>
     <string name="SendContactTo">Send contact to %1$s?</string>
-    <string name="AreYouSureLogout">Are you sure you want to log out?
-
-Note that you can seamlessly use Telegram on all your devices at once.
-
-Remember, logging out kills all your Secret Chats.</string>
-    <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
+    <string name="AreYouSureLogout">Are you sure you want to log out?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
     <string name="AreYouSureDeleteAndExit">Are you sure you want to delete and leave the group?</string>
     <string name="AreYouSureDeleteThisChat">Are you sure you want to delete this chat?</string>
     <string name="ShareYouLocationTitle">Share your location?</string>
@@ -1584,18 +1504,12 @@ Remember, logging out kills all your Secret Chats.</string>
     <string name="Page4Title">Secure</string>
     <string name="Page5Title">Powerful</string>
     <string name="Page6Title">Cloud-Based</string>
-    <string name="Page1Message">The world\'s **fastest** messaging app.
-It is **free** and **secure**.</string>
-    <string name="Page2Message">**Telegram** delivers messages faster than
-any other application.</string>
-    <string name="Page3Message">**Telegram** is free forever. No ads.
-No subscription fees.</string>
-    <string name="Page4Message">**Telegram** keeps your messages safe
-from hacker attacks.</string>
-    <string name="Page5Message">**Telegram** has no limits on the size of
-your media and chats.</string>
-    <string name="Page6Message">**Telegram** lets you access your messages
-from multiple devices.</string>
+    <string name="Page1Message">The world\'s **fastest** messaging app.\nIt is **free** and **secure**.</string>
+    <string name="Page2Message">**Telegram** delivers messages faster than\nany other application.</string>
+    <string name="Page3Message">**Telegram** is free forever. No ads.\nNo subscription fees.</string>
+    <string name="Page4Message">**Telegram** keeps your messages safe\nfrom hacker attacks.</string>
+    <string name="Page5Message">**Telegram** has no limits on the size of\nyour media and chats.</string>
+    <string name="Page6Message">**Telegram** lets you access your messages\nfrom multiple devices.</string>
     <string name="StartMessaging">Start Messaging</string>
     <!-- VoIP -->
     <string name="AccountSettings">Account Settings</string>
@@ -1636,7 +1550,7 @@ from multiple devices.</string>
     <string name="CallMessageIncoming">Incoming Call</string>
     <string name="CallMessageIncomingMissed">Missed Call</string>
     <string name="CallMessageOutgoingMissed">Cancelled Call</string>
-	<string name="CallMessageIncomingDeclined">Declined Call</string>
+    <string name="CallMessageIncomingDeclined">Declined Call</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
     <string name="NoCallLog">You haven\'t made any calls yet.</string>
     <string name="VoipPeerIncompatible">**%1$s**\'s app is using an incompatible protocol. They need to update their app before you can call them.</string>
@@ -1649,13 +1563,13 @@ from multiple devices.</string>
     <string name="DefaultRingtone">Default</string>
     <string name="ConfirmDeleteCallLog">Are you sure you want to delete this entry from the calls log?</string>
     <string name="CallViaTelegram">Telegram Call</string>
-	<string name="VoipAudioRoutingEarpiece">Earpiece</string>
+    <string name="VoipAudioRoutingEarpiece">Earpiece</string>
     <string name="VoipAudioRoutingSpeaker">Speaker</string>
     <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
     <string name="ReturnToCall">RETURN TO CALL</string>
     <string name="CallNotAvailable">Sorry, **%1$s** doesn\'t accept calls.</string>
     <string name="CallEmojiKeyTooltip">If emoji on %1$s\'s screen are the same, this call is 100%% secure.</string>
-	<string name="CallMessageReportProblem">Rate Call</string>
+    <string name="CallMessageReportProblem">Rate Call</string>
     <string name="CallReportHint">What went wrong?</string>
     <string name="CallReportIncludeLogs">Include technical information</string>
     <string name="CallReportLogsExplain">This won\'t reveal the contents of your conversation, but will help us fix the issue sooner.</string>
@@ -1932,4 +1846,6 @@ from multiple devices.</string>
   <string name="NotificationsPriority">Priority</string>
   <string name="NotificationsPriorityDefault">Default</string>
   <string name="NotificationsPriorityMax">Max</string>
+  <string name="PrivacyPayments">Payments</string>
+  <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
 </resources>

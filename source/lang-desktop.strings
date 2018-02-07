@@ -594,8 +594,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_files_header" = "Files";
 "lng_profile_audios#one" = "{count} voice message";
 "lng_profile_audios#other" = "{count} voice messages";
-//"lng_profile_rounds#one" = "{count} video message";
-//"lng_profile_rounds#other" = "{count} video messages";
+/*"lng_profile_rounds#one" = "{count} video message"; */
+/*"lng_profile_rounds#other" = "{count} video messages"; */
 "lng_profile_audios_header" = "Voice messages";
 "lng_profile_shared_links#one" = "{count} shared link";
 "lng_profile_shared_links#other" = "{count} shared links";
@@ -648,8 +648,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_media_selected_file#other" = "{count} Files";
 "lng_media_selected_audio#one" = "{count} Voice message";
 "lng_media_selected_audio#other" = "{count} Voice messages";
-//"lng_media_selected_round#one" = "{count} Video message";
-//"lng_media_selected_round#other" = "{count} Video messages";
+/*"lng_media_selected_round#one" = "{count} Video message"; */
+/*"lng_media_selected_round#other" = "{count} Video messages"; */
 "lng_media_selected_link#one" = "{count} Shared link";
 "lng_media_selected_link#other" = "{count} Shared links";
 "lng_media_photo_empty" = "No photos here yet";
@@ -1427,19 +1427,19 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_admin_pin_messages" = "Pin messages";
 "lng_admin_log_admin_add_admins" = "Add new admins";
 
-// Wnd specific
+/* Wnd specific */
 
 "lng_wnd_choose_program_menu" = "Choose Default Program...";
 
 "lng_wnd_menu_undo" = "Undo";
 "lng_wnd_menu_redo" = "Redo";
 
-// Linux specific
+/* Linux specific */
 
 "lng_linux_menu_undo" = "Undo";
 "lng_linux_menu_redo" = "Redo";
 
-// Mac specific
+/* Mac specific */
 
 "lng_mac_choose_program_menu" = "Other...";
 
@@ -1476,7 +1476,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_mac_menu_new_channel" = "New Channel";
 "lng_mac_menu_show" = "Show Telegram";
 
-// Keys finished
+/* Keys finished */
 
 
 /* new from translations.telegram.org */

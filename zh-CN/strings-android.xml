@@ -621,6 +621,7 @@
   <string name="AttachStickersRestrictedForever">此群组的管理员限制了您在此发送贴纸的权限</string>
   <string name="SendMessageRestrictedForever">此群组的管理员限制了您在此发送消息的权限</string>
   <string name="ChatAdmin">管理员</string>
+  <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -686,6 +687,7 @@ Telegram 团队</string>
   <string name="Reply">回复</string>
   <string name="ReplyToGroup">回复给 %1$s</string>
   <string name="ReplyToUser">回复给 %1$s</string>
+  <string name="BackgroundRestricted">后台数据已被限制。</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
   <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
   <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
@@ -717,6 +719,7 @@ Telegram 团队</string>
   <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了 1 个实时位置</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 置顶了 1 个 GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了 1 首音乐</string>
+  <string name="SecretChatName">私密对话</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
   <string name="NoContacts">还没有联系人</string>
@@ -897,6 +900,18 @@ Telegram 团队</string>
   <string name="ArchivedMasksAlertInfo">您的一些旧图贴包已经被归档。你可以在设置里重新激活它们。</string>
   <!--theme view-->
   <string name="Theme">主题</string>
+  <string name="AutoNightTheme">自动启用夜间主题</string>
+  <string name="AutoNightDisabled">已禁用</string>
+  <string name="AutoNightAutomatic">自动</string>
+  <string name="AutoNightSchedule">时程</string>
+  <string name="AutoNightLocation">使用当地日落和日出时间</string>
+  <string name="AutoNightUpdateLocation">更新位置</string>
+  <string name="AutoNightUpdateLocationInfo">计算日落和日出时间需要查看一次你的大致位置。注意：此位置仅本地储存于你的设备上。\n\n日落：%1$s\n日出：%2$s</string>
+  <string name="AutoNightFrom">来自</string>
+  <string name="AutoNightTo">至</string>
+  <string name="AutoNightPreffered">首选主题</string>
+  <string name="AutoNightBrightness">亮度阈值</string>
+  <string name="AutoNightBrightnessInfo">当环境亮度为 %1$d%% 或更低时，切换为夜间主题。</string>
   <string name="ThemeDark">暗色</string>
   <string name="ThemeBlue">蓝色</string>
   <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
@@ -972,7 +987,9 @@ Telegram 团队</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
   <string name="LanguageCustom">自定义</string>
-  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。\n\n请前往 <![CDATA[<a href="https://telegram.org/faq#general">Telegram 常见问题</a>]]> 看看：那里有绝大多数问题的答案和重要的<![CDATA[<a href="https://telegram.org/faq#troubleshooting">故障排除</a>]]>提示。</string>
+  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。
+
+请前往 <![CDATA[<a href="https://telegram.org/faq#general-questions">Telegram 常见问题</a>]]> 看看：那里有绝大多数问题的答案和重要的<![CDATA[<a href="https://telegram.org/faq#troubleshooting">故障排除</a>]]>提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
@@ -1014,11 +1031,11 @@ Telegram 团队</string>
   <string name="NotificationsCustomize">自定义</string>
   <string name="NotificationsCustom">自定义</string>
   <string name="NotificationsEnableCustom">启用自定义通知</string>
-  <string name="NotificationsPriority">优先级</string>
+  <string name="NotificationsImportance">优先级</string>
   <string name="NotificationsPrioritySettings">和全局设置相同</string>
-  <string name="NotificationsPriorityDefault">默认</string>
+  <string name="NotificationsPriorityMedium">中</string>
   <string name="NotificationsPriorityHigh">高</string>
-  <string name="NotificationsPriorityMax">最高</string>
+  <string name="NotificationsPriorityUrgent">紧急</string>
   <string name="RepeatNotificationsNever">从不</string>
   <string name="RepeatNotifications">重复通知</string>
   <string name="PhoneNumberHelp">您可以在此更改您注册 Telegram 的手机号码。您的帐户和所有的云端数据——消息，媒体，联系人等将会被迁移到新的手机号码。
@@ -1054,12 +1071,17 @@ Telegram 团队</string>
   <string name="EmojiUseDefault">使用系统默认 emoji</string>
   <string name="TelegramVersion">Telegram Android 客户端 %1$s</string>
   <string name="DebugMenu">调试菜单</string>
+  <string name="DebugSendLogs">发送日志</string>
+  <string name="DebugClearLogs">清空日志</string>
+  <string name="DebugMenuEnableLogs">启用日志</string>
+  <string name="DebugMenuDisableLogs">禁用日志</string>
   <string name="DebugMenuImportContacts">导入通讯录</string>
   <string name="DebugMenuReloadContacts">重载通讯录</string>
   <string name="DebugMenuResetDialogs">重置所有对话</string>
   <string name="DebugMenuEnableCamera">启用应用内相机</string>
   <string name="DebugMenuDisableCamera">禁用应用内相机</string>
   <string name="DebugMenuResetContacts">重置已导入的通讯录</string>
+  <string name="DebugMenuClearMediaCache">清除已发送的媒体缓存</string>
   <string name="ChangeLanguageLater">您可以稍后在设置中更改您的语言。</string>
   <string name="ChooseYourLanguage">选择您的语言</string>
   <string name="ChooseYourLanguageOther">其它</string>
@@ -1083,6 +1105,7 @@ Telegram 团队</string>
   <string name="AutodownloadChannels">频道</string>
   <string name="AutodownloadSizeLimit">大小限制</string>
   <string name="AutodownloadSizeLimitUpTo">上限 %1$s</string>
+  <string name="EnableStreaming">影音流</string>
   <!--cache view-->
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1191,6 +1214,7 @@ Telegram 团队</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">显示所有图片和视频</string>
   <string name="ShowInChat">在对话中查看</string>
+  <string name="StopDownload">停止下载</string>
   <string name="SaveToGallery">保存到相册</string>
   <string name="Of">%1$d / %2$d</string>
   <string name="Gallery">相册</string>
@@ -1198,6 +1222,8 @@ Telegram 团队</string>
   <string name="AllMedia">所有图片和视频</string>
   <string name="NoPhotos">暂无图片</string>
   <string name="PleaseDownload">请先下载此媒体文件</string>
+  <string name="PleaseStreamDownload">请等待视频被完全下载</string>
+  <string name="CantPlayVideo">应用无法播放此视频，要尝试使用外部播放器播放吗？</string>
   <string name="NoRecentPhotos">没有最近的图片</string>
   <string name="NoRecentGIFs">沒有最近的 GIF 动画</string>
   <string name="SearchImages">查找图片</string>
@@ -1883,4 +1909,8 @@ Telegram 团队</string>
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
+  <!--new from translations.telegram.org-->
+  <string name="NotificationsPriority">优先级</string>
+  <string name="NotificationsPriorityDefault">默认</string>
+  <string name="NotificationsPriorityMax">最高</string>
 </resources>
