@@ -11,6 +11,7 @@ before_install:
 install: "pip install beautifulsoup4 requests"
 script:
  - python source-update.py
+ - sed -i -E 's/^\/\/(.*)/\/\*\1\ \*\//gm' source/lang-desktop.strings
  - python translate-update.py
  - git status
  - git add source/*
