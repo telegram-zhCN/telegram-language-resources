@@ -1829,7 +1829,7 @@
     <value>附近的地方</value>
   </data>
   <data name="SendThisLocation" xml:space="preserve">
-    <value>Send My Location</value>
+    <value>发送我的位置</value>
   </data>
   <data name="PoweredBy" xml:space="preserve">
     <value>技术提供</value>
@@ -1893,7 +1893,7 @@
     <value>显示</value>
   </data>
   <data name="AddToStickers" xml:space="preserve">
-    <value>Add to Stickers</value>
+    <value>添加到贴纸库</value>
   </data>
   <data name="SecretChatRequested" xml:space="preserve">
     <value>正在交换密钥...</value>
@@ -2031,16 +2031,16 @@
     <value>返回</value>
   </data>
   <data name="ChannelType" xml:space="preserve">
-    <value>Channel Type</value>
+    <value>频道类型</value>
   </data>
   <data name="Private" xml:space="preserve">
-    <value>Private Group</value>
+    <value>私人群组</value>
   </data>
   <data name="PrivateChannelDescription" xml:space="preserve">
     <value>私人频道只能通过邀请链接加入。</value>
   </data>
   <data name="Public" xml:space="preserve">
-    <value>Public Group</value>
+    <value>公开群组</value>
   </data>
   <data name="PublicChannelDescription" xml:space="preserve">
     <value>公共频道将能够被搜索，并且任何人都可以加入。</value>
@@ -2099,7 +2099,7 @@
     <value>您确定要添加 {0} 为管理员？</value>
   </data>
   <data name="PrivateChannel" xml:space="preserve">
-    <value>Private Channel</value>
+    <value>私人频道</value>
   </data>
   <data name="PrivateToPublicChannelNotification" xml:space="preserve">
     <value>请注意，如果您选择给您的频道创建一个公共链接，任何人都将能够通过搜索找到它并加入。
@@ -2107,7 +2107,7 @@
 如果您想保持这个频道的私密性，请不要创建这个链接。</value>
   </data>
   <data name="PublicChannel" xml:space="preserve">
-    <value>Public Channel</value>
+    <value>公开频道</value>
   </data>
   <data name="ChannelsAdminPublicTooMuch" xml:space="preserve">
     <value>抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</value>
@@ -2137,7 +2137,7 @@
     <value>管理员</value>
   </data>
   <data name="DeleteChannel" xml:space="preserve">
-    <value>Delete Channel</value>
+    <value>删除频道</value>
   </data>
   <data name="MessageActionChannelDeletePhoto" xml:space="preserve">
     <value>删除了频道图片</value>
@@ -2220,7 +2220,7 @@
     <value>对话已转移到频道 "{0}"</value>
   </data>
   <data name="DeleteGroup" xml:space="preserve">
-    <value>Delete Group</value>
+    <value>删除群组</value>
   </data>
   <data name="LeaveGroup" xml:space="preserve">
     <value>离开群组</value>
@@ -2592,7 +2592,7 @@
     <value>请为您的公共群组选择一个链接，这样人们可以通过搜索找到它并且分享给他人。如果您对此不感兴趣，我们建议您创建一个私人群组。</value>
   </data>
   <data name="GroupType" xml:space="preserve">
-    <value>Group Type</value>
+    <value>群组类型</value>
   </data>
   <data name="PrivateGroupDescription" xml:space="preserve">
     <value>私人群组只能通过他人邀请或通过邀请链接加入。</value>
@@ -3059,19 +3059,19 @@
     <value>请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。请前往 &lt;![CDATA[&lt;a href="https://telegram.org/faq#general"&gt;Telegram FAQ&lt;/a&gt;]]&gt; 看看：那里有各种常见问题和 &lt;![CDATA[&lt;a href="https://telegram.org/faq#troubleshooting"&gt;故障排除提示&lt;/a&gt;]]&gt;。</value>
   </data>
   <data name="MaskPackNominativePlural" xml:space="preserve">
-    <value>Mask packs</value>
+    <value>装饰包</value>
   </data>
   <data name="MaskPackNominativeSingular" xml:space="preserve">
-    <value>Mask pack</value>
+    <value>装饰包</value>
   </data>
   <data name="StickerPackNominativePlural" xml:space="preserve">
-    <value>Sticker packs</value>
+    <value>贴纸包</value>
   </data>
   <data name="StickerPackNominativeSingular" xml:space="preserve">
-    <value>Sticker pack</value>
+    <value>贴纸包</value>
   </data>
   <data name="NewStickerPackNominativePlural" xml:space="preserve">
-    <value>New sticker packs</value>
+    <value>新贴纸包</value>
   </data>
   <data name="NewStickerPackNominativeSingular" xml:space="preserve">
     <value>New sticker pack</value>
@@ -3095,22 +3095,22 @@
     <value>这将只为你删除这些消息。</value>
   </data>
   <data name="MessageActionCanceledCall" xml:space="preserve">
-    <value>Canceled call</value>
+    <value>未接去电</value>
   </data>
   <data name="MessageActionIncomingCall" xml:space="preserve">
-    <value>Incoming call</value>
+    <value>来电</value>
   </data>
   <data name="MessageActionIncomingDurationCall" xml:space="preserve">
-    <value>Incoming call ({0})</value>
+    <value>接听电话 （{0}）</value>
   </data>
   <data name="MessageActionMissedCall" xml:space="preserve">
-    <value>Missed call</value>
+    <value>未接来电</value>
   </data>
   <data name="MessageActionOutgoingCall" xml:space="preserve">
-    <value>Outgoing call</value>
+    <value>外拨电话</value>
   </data>
   <data name="MessageActionOutgoingDurationCall" xml:space="preserve">
-    <value>Outgoing call ({0})</value>
+    <value>外拨电话（{0}）</value>
   </data>
   <data name="CanceledCall" xml:space="preserve">
     <value>未接去电</value>
@@ -3137,10 +3137,10 @@
     <value>这将为在此对话中的所有人删除这些消息。</value>
   </data>
   <data name="Invoice" xml:space="preserve">
-    <value>Invoice</value>
+    <value>订单</value>
   </data>
   <data name="TestInvoice" xml:space="preserve">
-    <value>Test Invoice</value>
+    <value>测试订单</value>
   </data>
   <data name="MessageActionPaymentSent" xml:space="preserve">
     <value>You have just successfully transferred {0} to {1}</value>
@@ -3395,7 +3395,7 @@
     <value>Hanging up</value>
   </data>
   <data name="VoipIncoming" xml:space="preserve">
-    <value>Incoming call</value>
+    <value>来电</value>
   </data>
   <data name="VoipRequesting" xml:space="preserve">
     <value>Requesting</value>
@@ -3541,7 +3541,7 @@ You'll be asked to enter it when you log in.</value>
     <value>Updated in real time as you move</value>
   </data>
   <data name="LiveLocation" xml:space="preserve">
-    <value>Live Location</value>
+    <value>实时位置</value>
   </data>
   <data name="ShareLiveLocationToContactTimerSubtitle" xml:space="preserve">
     <value>Choose for how long {0} will see your accurate location.</value>
@@ -3568,7 +3568,7 @@ You'll be asked to enter it when you log in.</value>
     <value>隐藏</value>
   </data>
   <data name="Visible" xml:space="preserve">
-    <value>Visible</value>
+    <value>可见</value>
   </data>
   <data name="LocationSharingEnded" xml:space="preserve">
     <value>Location Sharing Ended</value>
@@ -3616,22 +3616,22 @@ You'll be asked to enter it when you log in.</value>
     <value>Choose for how long people in this chat will see your accurate location.</value>
   </data>
   <data name="NewStickerPackGenitivePlural" xml:space="preserve">
-    <value>New sticker packs</value>
+    <value>新贴纸包</value>
   </data>
   <data name="NewStickerPackGenitiveSingular" xml:space="preserve">
     <value>New sticker pack</value>
   </data>
   <data name="StickerPackGenitivePlural" xml:space="preserve">
-    <value>Sticker packs</value>
+    <value>贴纸包</value>
   </data>
   <data name="StickerPackGenitiveSingular" xml:space="preserve">
-    <value>Sticker pack</value>
+    <value>贴纸包</value>
   </data>
   <data name="MaskPackGenitivePlural" xml:space="preserve">
-    <value>Mask packs</value>
+    <value>装饰包</value>
   </data>
   <data name="MaskPackGenitiveSingular" xml:space="preserve">
-    <value>Mask pack</value>
+    <value>装饰包</value>
   </data>
   <data name="GroupNameInvalid" xml:space="preserve">
     <value>Sorry, this name is invalid.</value>
