@@ -176,7 +176,7 @@
 
 "Date.DialogDateFormat" = "{month} {day}";
 "Date.ChatDateHeader" = "%1$@ %2$@";
-
+"Date.ChatDateHeaderYear" = "%1$@ %2$@, %3$@";
 
 // Tour
 "Tour.Title1" = "Telegram";
@@ -1785,7 +1785,6 @@
 "StickerPack.RemoveStickerCount_0" = "Remove %@ Stickers";
 
 "StickerPack.HideStickers" = "Hide Stickers";
-"StickerPack.ShowStickers" = "Show Stickers";
 
 "ShareMenu.ShareTo" = "Share to";
 "ShareMenu.SelectChats" = "Select chats";
@@ -2780,83 +2779,73 @@ Unused sets are archived when you add more.";
 
 
 
-"InfoPlist.NSContactsUsageDescription" = "Telegram will continuously upload your contacts to its heavily encrypted cloud servers to let you connect with your friends across all your devices.";
-"InfoPlist.NSLocationWhenInUseUsageDescription" = "When you send your location to your friends, Telegram needs access to show them a map.";
-"InfoPlist.NSCameraUsageDescription" = "We need this so that you can take and share photos and videos.";
-"InfoPlist.NSPhotoLibraryUsageDescription" = "We need this so that you can share photos and videos from your photo library.";
-"InfoPlist.NSPhotoLibraryAddUsageDescription" = "We need this so that you can save photos and videos to your photo library.";
-"InfoPlist.NSMicrophoneUsageDescription" = "We need this so that you can record and share voice messages and videos with sound.";
-"InfoPlist.NSSiriUsageDescription" = "You can use Siri to send messages.";
-"InfoPlist.NSLocationAlwaysAndWhenInUseUsageDescription" = "When you choose to share your Live Location with friends in a chat, Telegram needs background access to your location to keep them updated for the duration of the live sharing.";
-"InfoPlist.NSLocationAlwaysUsageDescription" = "When you choose to share your live location with friends in a chat, Telegram needs background access to your location to keep them updated for the duration of the live sharing. You also need this to send locations from an Apple Watch.";
-"InfoPlist.NSLocationWhenInUseUsageDescription" = "When you send your location to your friends, Telegram needs access to show them a map.";
-"InfoPlist.NSFaceIDUsageDescription" = "You can use Face ID to unlock the app.";
-
-"Privacy.Calls.P2PNever" = "Never";
-"Privacy.Calls.P2PContacts" = "My Contacts";
-"Privacy.Calls.P2PAlways" = "Always";
-
-"ChatSettings.AutoDownloadTitle" = "AUTOMATIC MEDIA DOWNLOAD";
-"ChatSettings.AutoDownloadEnabled" = "Auto-Download Media";
-"ChatSettings.AutoDownloadPhotos" = "Photos";
-"ChatSettings.AutoDownloadVideos" = "Videos";
-"ChatSettings.AutoDownloadDocuments" = "Files";
-"ChatSettings.AutoDownloadVoiceMessages" = "Voice Messages";
-"ChatSettings.AutoDownloadVideoMessages" = "Video Messages";
-"ChatSettings.AutoDownloadReset" = "Reset Auto-Download Settings";
-
-"AutoDownloadSettings.Title" = "Auto-Download";
-
-"AutoDownloadSettings.PhotosTitle" = "Photos";
-"AutoDownloadSettings.VideosTitle" = "Videos";
-"AutoDownloadSettings.DocumentsTitle" = "Files";
-"AutoDownloadSettings.VoiceMessagesTitle" = "Voice Messages";
-"AutoDownloadSettings.VideoMessagesTitle" = "Video Messages";
-
-"AutoDownloadSettings.Cellular" = "CELLULAR";
-"AutoDownloadSettings.WiFi" = "WI-FI";
-"AutoDownloadSettings.Contacts" = "Contacts";
-"AutoDownloadSettings.PrivateChats" = "Other Private Chats";
-"AutoDownloadSettings.GroupChats" = "Group Chats";
-"AutoDownloadSettings.Channels" = "Channels";
-"AutoDownloadSettings.LimitBySize" = "LIMIT BY SIZE";
-"AutoDownloadSettings.UpTo" = "up to %@";
-"AutoDownloadSettings.Unlimited" = "unlimited";
-
-"AutoDownloadSettings.Reset" = "Reset";
-"AutoDownloadSettings.ResetHelp" = "Undo all custom auto-download settings.";
-
-"SaveIncomingPhotosSettings.Title" = "Save Incoming Photos";
-"SaveIncomingPhotosSettings.From" = "SAVE INCOMING PHOTOS FROM";
-
-"Channel.AdminLog.ChannelEmptyText" = "No service actions were taken by the channel's subscribers and admins in the last 48 hours.";
-"Channel.AdminLogFilter.EventsNewSubscribers" = "New Subscribers";
-"Channel.AdminLogFilter.EventsLeavingSubscribers" = "Subscribers Removed";
-
-"Conversation.ClearPrivateHistory" = "This will delete all messages and media in this chat from your Telegram cloud. Your chat partner will still have them.";
-"Conversation.ClearGroupHistory" = "This will delete all messages and media in this chat from your Telegram cloud. Other members of the group will still have them.";
-"Conversation.ClearSecretHistory" = "This will delete all messages and media in this chat for both you and your chat partner.";
-"Conversation.ClearSelfHistory" = "This will delete all messages and media in this chat from your Telegram cloud.";
-
-"MediaPicker.LivePhotoDescription" = "The live photo will autoplay and loop like a GIF.";
-
-"Settings.Appearance" = "Appearance";
-"Appearance.Title" = "Appearance";
-"Appearance.TextSize" = "TEXT SIZE";
-"Appearance.Preview" = "CHAT PREVIEW";
-"Appearance.ColorTheme" = "COLOR THEME";
-"Appearance.ThemeDayClassic" = "Day Classic";
-"Appearance.ThemeDay" = "Day";
-"Appearance.ThemeNight" = "Night";
-"Appearance.ThemeNightBlue" = "Night Blue";
-"Appearance.PreviewReplyAuthor" = "Lucio";
-"Appearance.PreviewReplyText" = "Reinhardt, we need to find you some...";
-"Appearance.PreviewIncomingText" = "Ah you kids today with techno music! Enjoy the classics, like Hasselhoff!";
-"Appearance.PreviewOutgoingText" = "I can't take you seriously right now. Sorry..";
-"Appearance.AccentColor" = "Accent Color";
-"Appearance.PickAccentColor" = "Pick an Accent Color";
+"Peer.DeletedUser" = "Deleted User";
 
 
 /* new from translations.telegram.org */
 
+"Appearance.AccentColor" = "Accent Color";
+"Appearance.ColorTheme" = "COLOR THEME";
+"Appearance.PickAccentColor" = "Pick an Accent Color";
+"Appearance.Preview" = "CHAT PREVIEW";
+"Appearance.PreviewIncomingText" = "Ah you kids today with techno music! Enjoy the classics, like Hasselhoff!";
+"Appearance.PreviewOutgoingText" = "I can't take you seriously right now. Sorry..";
+"Appearance.PreviewReplyAuthor" = "Lucio";
+"Appearance.PreviewReplyText" = "Reinhardt, we need to find you some...";
+"Appearance.TextSize" = "TEXT SIZE";
+"Appearance.ThemeDay" = "Day";
+"Appearance.ThemeDayClassic" = "Day Classic";
+"Appearance.ThemeNight" = "Night";
+"Appearance.ThemeNightBlue" = "Night Blue";
+"Appearance.Title" = "Appearance";
+"AutoDownloadSettings.Cellular" = "CELLULAR";
+"AutoDownloadSettings.Channels" = "Channels";
+"AutoDownloadSettings.Contacts" = "Contacts";
+"AutoDownloadSettings.DocumentsTitle" = "Files";
+"AutoDownloadSettings.GroupChats" = "Group Chats";
+"AutoDownloadSettings.LimitBySize" = "LIMIT BY SIZE";
+"AutoDownloadSettings.PhotosTitle" = "Photos";
+"AutoDownloadSettings.PrivateChats" = "Other Private Chats";
+"AutoDownloadSettings.Reset" = "Reset";
+"AutoDownloadSettings.ResetHelp" = "Undo all custom auto-download settings.";
+"AutoDownloadSettings.Title" = "Auto-Download";
+"AutoDownloadSettings.Unlimited" = "unlimited";
+"AutoDownloadSettings.UpTo" = "up to %@";
+"AutoDownloadSettings.VideoMessagesTitle" = "Video Messages";
+"AutoDownloadSettings.VideosTitle" = "Videos";
+"AutoDownloadSettings.VoiceMessagesTitle" = "Voice Messages";
+"AutoDownloadSettings.WiFi" = "WI-FI";
+"Channel.AdminLog.ChannelEmptyText" = "No service actions were taken by the channel's subscribers and admins in the last 48 hours.";
+"Channel.AdminLogFilter.EventsLeavingSubscribers" = "Subscribers Removed";
+"Channel.AdminLogFilter.EventsNewSubscribers" = "New Subscribers";
+"ChatSettings.AutoDownloadDocuments" = "Files";
+"ChatSettings.AutoDownloadEnabled" = "Auto-Download Media";
+"ChatSettings.AutoDownloadPhotos" = "Photos";
+"ChatSettings.AutoDownloadReset" = "Reset Auto-Download Settings";
+"ChatSettings.AutoDownloadTitle" = "AUTOMATIC MEDIA DOWNLOAD";
+"ChatSettings.AutoDownloadVideoMessages" = "Video Messages";
+"ChatSettings.AutoDownloadVideos" = "Videos";
+"ChatSettings.AutoDownloadVoiceMessages" = "Voice Messages";
+"Conversation.ClearGroupHistory" = "This will delete all messages and media in this chat from your Telegram cloud. Other members of the group will still have them.";
+"Conversation.ClearPrivateHistory" = "This will delete all messages and media in this chat from your Telegram cloud. Your chat partner will still have them.";
+"Conversation.ClearSecretHistory" = "This will delete all messages and media in this chat for both you and your chat partner.";
+"Conversation.ClearSelfHistory" = "This will delete all messages and media in this chat from your Telegram cloud.";
+"InfoPlist.NSCameraUsageDescription" = "We need this so that you can take and share photos and videos.";
+"InfoPlist.NSContactsUsageDescription" = "Telegram will continuously upload your contacts to its heavily encrypted cloud servers to let you connect with your friends across all your devices.";
+"InfoPlist.NSFaceIDUsageDescription" = "You can use Face ID to unlock the app.";
+"InfoPlist.NSLocationAlwaysAndWhenInUseUsageDescription" = "When you choose to share your Live Location with friends in a chat, Telegram needs background access to your location to keep them updated for the duration of the live sharing.";
+"InfoPlist.NSLocationAlwaysUsageDescription" = "When you choose to share your live location with friends in a chat, Telegram needs background access to your location to keep them updated for the duration of the live sharing. You also need this to send locations from an Apple Watch.";
+"InfoPlist.NSLocationWhenInUseUsageDescription" = "When you send your location to your friends, Telegram needs access to show them a map.";
+"InfoPlist.NSMicrophoneUsageDescription" = "We need this so that you can record and share voice messages and videos with sound.";
+"InfoPlist.NSPhotoLibraryAddUsageDescription" = "We need this so that you can save photos and videos to your photo library.";
+"InfoPlist.NSPhotoLibraryUsageDescription" = "We need this so that you can share photos and videos from your photo library.";
+"InfoPlist.NSSiriUsageDescription" = "You can use Siri to send messages.";
 "Map.ETAHours_0" = "%@ h";
+"MediaPicker.LivePhotoDescription" = "The live photo will autoplay and loop like a GIF.";
+"Privacy.Calls.P2PAlways" = "Always";
+"Privacy.Calls.P2PContacts" = "My Contacts";
+"Privacy.Calls.P2PNever" = "Never";
+"SaveIncomingPhotosSettings.From" = "SAVE INCOMING PHOTOS FROM";
+"SaveIncomingPhotosSettings.Title" = "Save Incoming Photos";
+"Settings.Appearance" = "Appearance";
+"StickerPack.ShowStickers" = "Show Stickers";

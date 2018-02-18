@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="AppName">Telegram</string>
-  <string name="AppNameBeta">Telegram Beta</string>
+  <string name="AppNameBeta">Telegram</string>
   <string name="LanguageName">简体中文</string>
   <string name="English">英语</string>
   <string name="LanguageNameInEnglish">Simplified Chinese</string>
@@ -685,7 +685,7 @@
   <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了 1 个实时位置</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 置顶了 1 个 GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了 1 首音乐</string>
-  <string name="SecretChatName">私密对话</string>
+  <string name="SecretChatName">Telegram</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
   <string name="NoContacts">还没有联系人</string>
