@@ -76,6 +76,8 @@
 "PeerInfo.SetGroupPhoto" = "Set Group Photo";
 "PeerInfo.AddMember" = "Add member";
 "PeerInfo.DeleteAndExit" = "Delete and Exit";
+"PeerInfo.LeaveGroup" = "Leave Group";
+
 "PeerInfo.LeaveChannel" = "Leave Channel";
 "PeerInfo.Report" = "Report";
 "PeerInfo.sharelink" = "share link";
@@ -341,7 +343,7 @@
 "NotificationSettings.ResetNotifications" = "Reset Notifications";
 "NotificationSettings.ResetNotificationsText" = "You can set custom notifications for specific chats below.";
 "Telegram.NotificationSettingsViewController" = "Notifications";
-"AccountSettings.Storage" = "Storage";
+"AccountSettings.DataAndStorage" = "Data And Storage";
 "DefaultSoundName" = "Default";
 "NotificationSettings.Tone.Default" = "Default";
 "NotificationSettingsToneNone" = "None";
@@ -402,6 +404,7 @@
 "Telegram.ChannelIntroViewController" = "Channel";
 "Channel.IntroDescriptionHeader" = "What is a Channel?";
 "Channel.IntroDescription" = "Channels are a tool for broadcasting your messages to large audiences.";
+"Channel.Intro.CreateChannel" = "Create Channel";
 "Channel.Create" = "Create";
 "Channel.NewChannel" = "New Channel";
 "Group.CreateGroup" = "New Group";
@@ -498,6 +501,13 @@
 "Peer.Activity.User.RecordingAudio" = "recording voice";
 "Peer.Activity.User.SendingFile" = "sending file";
 
+
+"Peer.Activity.Chat.TypingText" = "%@ is typing";
+"Peer.Activity.Chat.SendingPhoto" = "%@ is sending photo";
+"Peer.Activity.Chat.RecordingVideo" = "%@ is recording video";
+"Peer.Activity.Chat.SendingVideo" = "%@ is sending video";
+"Peer.Activity.Chat.RecordingAudio" = "%@ is recording voice";
+"Peer.Activity.Chat.SendingFile" = "%@ is sending file";
 
 "Peer.Activity.Chat.Multi.TypingText1" = "%@ and %d are typing";
 "Peer.Activity.Chat.Multi.SendingPhoto1" = "%@ and %d are sending photo";
@@ -736,6 +746,7 @@
 
 "ChannelVisibility.Checking" = "Checking";
 "ChannelVisibility.Loading" = "Loading...";
+"ChannelVisibility.Confirm.Revoke" = "Are you sure you want to make this channel private and remove its username?";
 "Peer.DeletedUser" = "Deleted Account";
 
 "ChatList.Service.Call.incoming" = "Incoming Call (%@)";
@@ -794,6 +805,7 @@
 "RecentSessions.Confirm.TerminateOthers" = "Are you sure you want to terminate all other sessions?";
 "RecentSessions.Confirm.Revoke" = "Do you want to terminate this session?";
 "RecentSessions.Revoke" = "Revoke";
+"RecentSessions.Error.FreshReset" = "For security reasons, you can't terminate older sessions from a device that you've just connected. Please use an earlier connection or wait for a few hours.";
 
 "Legacy.Intro.Description1" = "Welcome to the new super-fast and stable Telegram for macOS, fully rewritten in Swift 3.0.";
 "Legacy.Intro.Description2" = "Please note that your existing secret chats will be available in read-only mode. You can of course create new ones to continue chatting.";
@@ -879,6 +891,7 @@
 "Message.Context.SaveGif" = "Add GIF";
 "Context.RecentGifRemove" = "Remove";
 "Sidebar.Avalability" = "Sidebar available in chat";
+"Sidebar.Peer.Restricted" = "Sidebar is not available in this chat";
 
 
 "PrivacySettingsController.Header" = "Last Seen";
@@ -970,7 +983,7 @@
 "Chat.Context.DisableNotifications" = "Unmute";
 "Chat.Context.ClearHistory" = "Clear History";
 "Chat.Context.Info" = "Info";
-
+"Chat.Context.FeedInfo" = "Channels Info";
 
 "Payments.Unsupported" = "Sorry, Telegram for MacOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
@@ -1064,6 +1077,10 @@
 
 "Channel.Persmission.Denied.SendStickers.Until" = "The admins of this group have restricted you from sending stickers here until %@";
 "Channel.Persmission.Denied.SendStickers.Forever" = "The admins of this group have restricted you from sending stickers here.";
+
+"Channel.Persmission.Denied.SendGifs.Until" = "The admins of this group have restricted you from sending GIFs here until %@.";
+"Channel.Persmission.Denied.SendGifs.Forever" = "The admins of this group have restricted you from sending GIFs here.";
+
 
 "Channel.Persmission.Denied.SendInline.Until" = "The admins of this group have restricted you from posting inline content here until %@.";
 "Channel.Persmission.Denied.SendInline.Forever" = "The admins of this group have restricted you from posting inline content here.";
@@ -1553,8 +1570,66 @@
 "ArchivedStickers.Empty" = "Your archived sticker packs will appear here";
 
 
+
+"ChatInput.ShowNext" = "Show Next";
+"ChatList.GroupChannel" = "Group Channel";
+
+"Preview.Dragging.AddItems_countable" = "%d";
+"Preview.Dragging.AddItems_zero" = "Add Items";
+"Preview.Dragging.AddItems_one" = "Add Item";
+"Preview.Dragging.AddItems_two" = "Add Items";
+"Preview.Dragging.AddItems_few" = "Add Items";
+"Preview.Dragging.AddItems_many" = "Add Items";
+"Preview.Dragging.AddItems_other" = "Add Items";
+
+
+"DataAndStorage.AutomaticDownload" = "Auto-Download Media";
+"DataAndStorage.AutomaticDownload.Header" = "AUTOMATIC MEDIA DOWNLOAD";
+"DataAndStorage.AutomaticDownload.Reset" = "Reset Auto-Download Settings";
+"DataAndStorage.AutomaticDownload.Photo" = "Photos";
+"DataAndStorage.AutomaticDownload.Video" = "Videos";
+"DataAndStorage.AutomaticDownload.Files" = "Files";
+"DataAndStorage.AutomaticDownload.Voice" = "Voice Messages";
+"DataAndStorage.AutomaticDownload.InstantVideo" = "Video Messages";
+"DataAndStorage.AutomaticDownload.GIFs" = "GIFs";
+
+
+"DataAndStorage.CategorySettings.PrivateChats" = "Private Chats";
+"DataAndStorage.CategorySettings.GroupChats" = "Group Chats";
+"DataAndStorage.CategorySettings.Channels" = "Channels";
+"DataAndStorage.CateroryFileSizeLimit.Header" = "LIMIT BY SIZE";
+"DataAndStorage.CateroryFileSize.Unlimited" = "Unlimited";
+"DataAndStorage.Confirm.ResetSettings" = "Undo all custom auto-download settings.";
+"Chat.Confirm.ReportSpamUser" = "Are you sure you want to report spam from this user?";
+"Chat.Confirm.ReportSpam" = "Report Spam?";
+"Appearance.CustomBackground" = "Custom Background";
+"Appearance.CustomBackground.FileError" = "The file size must not exceed 10MB and the image dimensions must not exceed 500x500px.";
+"Notifications.Snooze" = "Mute";
+
+"CrashOnLaunch.OK" = "Log out";
+"CrashOnLaunch.Cancel" = "Cancel";
+"CrashOnLaunch.Message" = "Something’s not right.";
+"CrashOnLaunch.Information" = "If Telegram keeps crashing immediately after you open it, click OK to log out of the app. This should solve this issue.";
+"ChatWallpaper.Empty" = "Default";
+
+"Chat.Service.BotPermissionAllowed" = "You allowed this bot to message you when you logged in on %@";
+
+"Compose.CreateGroup.LimitError" = "You will be able to add more users after you finish creating the group and convert it to supergroup.";
+
+
+"PeerInfo.Bot.AddToGroup" = "Add To Group";
+"PeerInfo.Bot.Share" = "Share";
+"PeerInfo.Bot.Settings" = "Settings";
+"PeerInfo.Bot.Help" = "Help";
+
+
+"Passcode.Or" = "or";
+"Passcode.UseTouchId" = "Unlock with Touch ID";
+
+
 /* new from translations.telegram.org */
 
+"AccountSettings.Storage" = "Storage";
 "AppearanceSettings.ColorTheme.default" = "Day";
 "_NS70.title" = "View";
 "_NS88.title" = "Edit";
