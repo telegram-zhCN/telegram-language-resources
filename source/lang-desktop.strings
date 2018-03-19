@@ -1,22 +1,9 @@
 /*
 This file is part of Telegram Desktop,
-the official desktop version of Telegram messaging app, see https://telegram.org
+the official desktop application for the Telegram messaging service.
 
-Telegram Desktop is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-It is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-In addition, as a special exception, the copyright holders give permission
-to link the code of portions of this program with the OpenSSL library.
-
-Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
-Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
+For license and copyright information please follow this link:
+https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 */
 "lng_language_name" = "English";
 "lng_switch_to_this" = "Continue in English";
@@ -806,6 +793,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_payment_done_for" = "You have just successfully transferred {amount} to {user} for {invoice}";
 "lng_action_took_screenshot" = "{from} took a screenshot!";
 "lng_action_you_took_screenshot" = "You took a screenshot!";
+"lng_action_bot_allowed_from_domain" = "You allowed this bot to message you when you logged in on {domain}.";
 
 "lng_ttl_photo_received" = "{from} sent you a self-destructing photo. Please view it on your mobile.";
 "lng_ttl_photo_sent" = "You sent a self-destructing photo.";
@@ -831,6 +819,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_channel_not_accessible" = "Sorry, this channel is not accessible.";
 "lng_group_not_accessible" = "Sorry, this group is not accessible.";
+"lng_group_full" = "Sorry, this group is full.";
 
 "lng_channels_too_much_public_about" = "Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels.";
 "lng_channels_too_much_public_revoke_confirm_group" = "Are you sure you want to revoke the link {link}?\n\nThe group «{group}» will become private.";
@@ -863,6 +852,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edited" = "edited";
 "lng_edited_date" = "Edited: {date}";
 "lng_admin_badge" = "admin";
+"lng_fast_reply" = "Reply";
 "lng_cancel_edit_post_sure" = "Cancel editing?";
 "lng_cancel_edit_post_yes" = "Yes";
 "lng_cancel_edit_post_no" = "No";
@@ -937,6 +927,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_remove_group_set" = "Remove group sticker set?";
 "lng_stickers_group_from_your" = "Choose from your stickers";
 "lng_stickers_group_from_featured" = "Choose from trending stickers";
+"lng_stickers_search_sets" = "Search sticker sets";
+"lng_stickers_nothing_found" = "No stickers found";
+"lng_stickers_remove_pack_confirm" = "Remove";
 
 "lng_in_dlg_photo" = "Photo";
 "lng_in_dlg_album" = "Album";
@@ -1037,6 +1030,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_unread_bar#one" = "{count} unread message";
 "lng_unread_bar#other" = "{count} unread messages";
 
+
 "lng_maps_point" = "Location";
 "lng_save_photo" = "Save image";
 "lng_save_video" = "Save video";
@@ -1054,6 +1048,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_view_profile" = "View profile";
 "lng_context_view_group" = "View group info";
 "lng_context_view_channel" = "View channel info";
+
 "lng_context_pin_to_top" = "Pin to top";
 "lng_context_unpin_from_top" = "Unpin from top";
 
@@ -1427,6 +1422,33 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_admin_pin_messages" = "Pin messages";
 "lng_admin_log_admin_add_admins" = "Add new admins";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Wnd specific */
 
 "lng_wnd_choose_program_menu" = "Choose Default Program...";
@@ -1697,12 +1719,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_send_files_selected#two" = "{count} files selected";
 "lng_send_files_selected#few" = "{count} files selected";
 "lng_send_files_selected#many" = "{count} files selected";
-"lng_send_images_compress#zero" = "Compress images";
-"lng_send_images_compress#one" = "Compress image";
-"lng_send_images_compress#two" = "Compress images";
-"lng_send_images_compress#few" = "Compress images";
-"lng_send_images_compress#many" = "Compress images";
-"lng_send_images_compress#other" = "Compress images";
 "lng_send_images_selected#zero" = "{count} images selected";
 "lng_send_images_selected#two" = "{count} images selected";
 "lng_send_images_selected#few" = "{count} images selected";

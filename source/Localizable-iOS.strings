@@ -2879,9 +2879,9 @@ Unused sets are archived when you add more.";
 "AutoNightTheme.PreferredTheme" = "PREFERRED THEME";
 
 "AuthSessions.Sessions" = "Sessions";
-"AuthSessions.LoggedIn" = "Logged In";
-"AuthSessions.LogOutApplications" = "Log Out All Applications";
-"AuthSessions.LogOutApplicationsHelp" = "Logs out all applications where you are logged in with Telegram.";
+"AuthSessions.LoggedIn" = "Websites";
+"AuthSessions.LogOutApplications" = "Disconnect All Websites";
+"AuthSessions.LogOutApplicationsHelp" = "You can log in on websites that support signing in with Telegram.";
 "AuthSessions.LoggedInWithTelegram" = "LOGGED IN WITH TELEGRAM";
 "AuthSessions.LogOut" = "Log Out";
 "AuthSessions.Message" = "You allowed this bot to message you when you logged in on %@.";

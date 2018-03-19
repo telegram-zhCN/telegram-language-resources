@@ -484,7 +484,7 @@
 "ChatList.Context.DeleteAndExit" = "Delete And Exit";
 "ChatList.Context.LeaveChannel" = "Leave Channel";
 "ChatList.Context.LeaveGroup" = "Leave Group";
-"ChatList.Context.ReturnGroup" = "Return Group";
+"ChatList.Context.ReturnGroup" = "Return to Group";
 "ChatList.Context.Pin" = "Pin";
 "ChatList.Context.Unpin" = "Unpin";
 
@@ -1649,6 +1649,18 @@
 "Chat.InlineRequest.Loading" = "Loading...";
 
 "DataAndStorage.DownloadFolder" = "Download Folder";
+"Context.OpenInQuickLook" = "Open in Quick Look";
+
+
+"Telegram.WebSessionsController" = "Logged in with Telegram";
+"PrivacyAndSecurity.WebAuthorizationHeader" = "CONNECTED WEBSITES";
+
+"WebAuthorizations.Logout" = "Disconnect";
+"WebAuthorizations.LogoutAll.Description" = "You can log in on websites that support signing in with Telegram.";
+"WebAuthorizations.LoggedIn.Descrpiption" = "LOGGED IN WITH TELEGRAM";
+"WebAuthorizations.LogoutAll" = "Disconnect All Websites";
+"WebAuthorizations.Confirm.Revoke" = "Do you want to disconnect this website?";
+"WebAuthorizations.Confirm.RevokeAll" = "Are you sure you want to disconnect all websites?";
 
 
 

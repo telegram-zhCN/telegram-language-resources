@@ -2210,7 +2210,7 @@ To go over the limit and get additional features, upgrade to a supergroup:
 • Notifications are muted by default</value>
   </data>
   <data name="MessageActionChannelMigrateFrom" xml:space="preserve">
-    <value>This group was upgraded to a supergroup.</value>
+    <value>This group was upgraded to a supergroup</value>
   </data>
   <data name="MessageActionChatActivate" xml:space="preserve">
     <value>Chat was activated</value>
@@ -2535,9 +2535,6 @@ You can use a-z, 0-9 and underscores. Minimum length is 5 characters.</value>
   </data>
   <data name="DeleteMessages" xml:space="preserve">
     <value>Delete messages</value>
-  </data>
-  <data name="DeleteMessagesConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete {0} messages?</value>
   </data>
   <data name="MessageActionPinMessage" xml:space="preserve">
     <value>{0} pinned a message</value>
@@ -3711,5 +3708,97 @@ You'll be asked to enter it when you log in.</value>
   </data>
   <data name="Album" xml:space="preserve">
     <value>Album</value>
+  </data>
+  <data name="DeleteMessagesConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete {0}?</value>
+  </data>
+  <data name="MessageGenitivePlural" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="MessageGenitiveSingular" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="MessageNominativePlural" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="MessageNominativeSingular" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="SubscriberGenitivePlural" xml:space="preserve">
+    <value>Subscribers</value>
+  </data>
+  <data name="SubscriberGenitiveSingular" xml:space="preserve">
+    <value>Subscriber</value>
+  </data>
+  <data name="SubscriberNominativePlural" xml:space="preserve">
+    <value>Subscribers</value>
+  </data>
+  <data name="SubscriberNominativeSingular" xml:space="preserve">
+    <value>Subscriber</value>
+  </data>
+  <data name="LogOutAllApplications" xml:space="preserve">
+    <value>Disconnect all websites</value>
+  </data>
+  <data name="LogOutAllApplicationsNote" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="LoggedInWithTelegram" xml:space="preserve">
+    <value>Logged in with Telegram</value>
+  </data>
+  <data name="LogOutAllApplicationsConfirmation" xml:space="preserve">
+    <value>Are you sure you want to disconnect all websites where you used Telegram to log in?</value>
+  </data>
+  <data name="NoItemsHere" xml:space="preserve">
+    <value>No items here</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Ungroup" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="AboutApp" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="NoActiveLogins" xml:space="preserve">
+    <value>No active logins.
+
+You can log in on websites that support signing in with Telegram.</value>
+  </data>
+  <data name="Feed" xml:space="preserve">
+    <value>Feed</value>
+  </data>
+  <data name="ChannelGenitivePlural" xml:space="preserve">
+    <value>Channels</value>
+  </data>
+  <data name="ChannelGenitiveSingular" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="ChannelNominativePlural" xml:space="preserve">
+    <value>Channels</value>
+  </data>
+  <data name="ChannelNominativeSingular" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="ShowNext" xml:space="preserve">
+    <value>Show next</value>
+  </data>
+  <data name="GroupNewChannels" xml:space="preserve">
+    <value>Group new channels</value>
+  </data>
+  <data name="MessageActionBotAllowed" xml:space="preserve">
+    <value>You allowed this bot to message you when you logged in on {0}</value>
+  </data>
+  <data name="NoStickersFound" xml:space="preserve">
+    <value>No stickers found</value>
+  </data>
+  <data name="ConnectedWebsites" xml:space="preserve">
+    <value>Connected websites</value>
+  </data>
+  <data name="ConnectedWebsitesHint" xml:space="preserve">
+    <value>You can log in on websites that support signing in with Telegram.</value>
+  </data>
+  <data name="TapToDisconnectTelegramAccount" xml:space="preserve">
+    <value>Tap to disconnect from your Telegram account.</value>
   </data>
 </root>

@@ -145,6 +145,7 @@
     <string name="ForwardTo">Forward to...</string>
     <string name="DisappearingPhoto">Secret Photo</string>
     <string name="DisappearingVideo">Secret Video</string>
+    <string name="DisappearingGif">Secret GIF</string>
     <string name="CompatibilityChat">%1$s is using an older version of Telegram, so secret photos will be shown in compatibility mode.\n\nOnce %2$s updates Telegram, photos with timers for 1 minute or less will start working in \'Tap and hold to view\' mode, and you will be notified whenever the other party takes a screenshot.</string>
     <string name="SearchMessages">MESSAGES</string>
     <string name="Search">Search</string>
@@ -303,6 +304,7 @@
     <string name="ChannelMessageLiveLocation">%1$s posted a live location</string>
     <string name="ChannelMessageDocument">%1$s posted a file</string>
     <string name="ChannelMessageGIF">%1$s posted a GIF</string>
+    <string name="ChannelMessageFew">%1$s posted %2$s</string>
     <string name="ChannelMessageAudio">%1$s posted a voice message</string>
     <string name="ChannelMessageRound">%1$s posted a video message</string>
     <string name="ChannelMessageMusic">%1$s posted a track</string>
@@ -557,6 +559,7 @@
     <string name="DeleteAllFrom">Delete all from %1$s</string>
     <string name="ClearRecentEmoji">Clear recent emoji?</string>
     <string name="ReportChat">Report</string>
+    <string name="ReportChatSent">Report sent</string>
     <string name="ReportChatSpam">Spam</string>
     <string name="ReportChatViolence">Violence</string>
     <string name="ReportChatPornography">Pornography</string>
@@ -599,6 +602,8 @@
     <string name="SendMessageRestrictedForever">The admins of this group have restricted you from writing here</string>
     <string name="ChatAdmin">admin</string>
     <string name="ApkRestricted">APK installation is restricted for this app. You can enable this in system settings.</string>
+    <string name="UnreadMessages">Unread Messages</string>
+    <string name="SearchStickersHint">Search sticker sets</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -606,9 +611,12 @@
     <string name="MessageLifetimeYouRemoved">You disabled the self-destruct timer</string>
     <string name="YouHaveNewMessage">You have a new message</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
+    <string name="NotificationMessageFew">%1$s sent you %2$s</string>
+    <string name="NotificationMessageForwardFew">%1$s forwarded you %2$s</string>
     <string name="NotificationMessageNoText">%1$s sent you a message</string>
     <string name="NotificationMessagePhoto">%1$s sent you a photo</string>
     <string name="NotificationMessageVideo">%1$s sent you a video</string>
+    <string name="NotificationMessageInvoice">%1$s sent you an invoice for %2$s</string>
     <string name="NotificationMessageSDPhoto">%1$s sent you a self-destructing photo</string>
     <string name="NotificationMessageSDVideo">%1$s sent you a self-destructing video</string>
     <string name="NotificationMessageContact">%1$s shared a contact with you</string>
@@ -632,6 +640,7 @@
     <string name="NotificationMessageGroupGame">%1$s invited the group %2$s to play %3$s</string>
     <string name="NotificationMessageGroupDocument">%1$s sent a file to the group %2$s</string>
     <string name="NotificationMessageGroupGif">%1$s sent a GIF to the group %2$s</string>
+    <string name="NotificationMessageGroupInvoice">%1$s sent an invoice to the group %2$s for %3$s</string>
     <string name="NotificationMessageGroupAudio">%1$s sent a voice message to the group %2$s</string>
     <string name="NotificationMessageGroupRound">%1$s sent a video message to the group %2$s</string>
     <string name="NotificationMessageGroupMusic">%1$s sent a track to the group %2$s</string>
@@ -650,6 +659,8 @@
     <string name="NotificationUnrecognizedDevice">%1$s,\nWe detected a login into your account from a new device on %2$s\n\nDevice: %3$s\nLocation: %4$s\n\nIf this wasn\'t you, you can go to Settings - Privacy and Security - Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team</string>
     <string name="NotificationContactNewPhoto">%1$s updated profile photo</string>
     <string name="NotificationInvitedToGroupByLink">%1$s joined to the group %2$s via invite link</string>
+    <string name="NotificationGroupFew">%1$s sent %3$s to the group %2$s</string>
+    <string name="NotificationGroupForwardedFew">%1$s forwarded %3$s to the group %2$s</string>
     <string name="Reply">Reply</string>
     <string name="ReplyToGroup">Reply to %1$s</string>
     <string name="ReplyToUser">Reply to %1$s</string>
@@ -670,12 +681,14 @@
     <string name="NotificationActionPinnedGeoLive">%1$s pinned a live location in the group %2$s</string>
     <string name="NotificationActionPinnedGif">%1$s pinned a GIF in the group %2$s</string>
     <string name="NotificationActionPinnedMusic">%1$s pinned a track in the group %2$s</string>
+    <string name="NotificationActionPinnedInvoice">%1$s pinned an invoice in the group %2$s</string>
     <string name="NotificationActionPinnedTextChannel">%1$s pinned \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s pinned a photo</string>
     <string name="NotificationActionPinnedGameChannel">%1$s pinned a game</string>
     <string name="NotificationActionPinnedVideoChannel">%1$s pinned a video</string>
     <string name="NotificationActionPinnedFileChannel">%1$s pinned a file</string>
+    <string name="NotificationActionPinnedInvoiceChannel">%1$s pinned an invoice</string>
     <string name="NotificationActionPinnedStickerChannel">%1$s pinned a sticker</string>
     <string name="NotificationActionPinnedStickerEmojiChannel">%1$s pinned a %2$s sticker</string>
     <string name="NotificationActionPinnedVoiceChannel">%1$s pinned a voice message</string>
@@ -827,10 +840,15 @@
     <string name="StickersCopy">Copy link</string>
     <string name="StickersRemove">Remove</string>
     <string name="NoStickers">No stickers yet</string>
+    <string name="NoStickersFound">No stickers found</string>
     <string name="NoMasks">No masks yet</string>
     <string name="Masks">Masks</string>
     <string name="MasksInfo">You can add masks to photos you send. To do this, open the photo editor before sending a photo.</string>
     <string name="FeaturedStickers">Trending Stickers</string>
+    <string name="SuggestStickers">Suggest stickers by emoji</string>
+    <string name="SuggestStickersAll">All</string>
+    <string name="SuggestStickersInstalled">Added</string>
+    <string name="SuggestStickersNone">None</string>
     <string name="FeaturedStickersInfo">These stickers are currently trending on Telegram. You can add custom stickers via the @stickers bot.</string>
     <string name="ArchivedStickers">Archived Stickers</string>
     <string name="ArchivedMasks">Archived Masks</string>
@@ -1407,6 +1425,7 @@
     <string name="ActionAddUserSelf">un1 returned to the group</string>
     <string name="ActionAddUserSelfMega">un1 joined the group</string>
     <string name="ActionAddUserSelfYou">You returned to the group</string>
+    <string name="ActionBotAllowed">You allowed this bot to message you when you logged in on %1$s.</string>
     <string name="UnsupportedMedia">This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update</string>
     <string name="AttachPhoto">Photo</string>
     <string name="AttachVideo">Video</string>
@@ -1575,6 +1594,16 @@
     <string name="CallReportLogsExplain">This won\'t reveal the contents of your conversation, but will help us fix the issue sooner.</string>
     <string name="CallReportSent">Thank you for helping make Telegram calls better.</string>
     <string name="VoipAnsweringAsAccount">Answering as %s</string>
+    <string name="VoipQuickReplies">Respond with Text</string>
+    <string name="VoipQuickRepliesExplain">These quick responses will be available when you respond to an incoming call with a Telegram message. Change them to say anything you like.</string>
+    <string name="QuickReplyDefault1">Can\'t talk now. What\'s up?</string>
+    <string name="QuickReplyDefault2">I\'ll call you right back.</string>
+    <string name="QuickReplyDefault3">I\'ll call you later.</string>
+    <string name="QuickReplyDefault4">Can\'t talk now. Call me later?</string>
+    <string name="QuickReplyCustom">Custom Message...</string>
+    <string name="AllowCustomQuickReply">Allow Custom</string>
+    <string name="VoipInCallBrandingWithName">Telegram Call to %s</string>
+    <string name="VoipErrorUnknown">Can\'t place a Telegram call at the moment.</string>
     <!--plural-->
     <string name="Recipient_zero">%1$d recipients</string>
     <string name="Recipient_one">%1$d recipient</string>
@@ -1763,6 +1792,18 @@
     <string name="ForwardedMessageCount_few">%1$d forwarded messages</string>
     <string name="ForwardedMessageCount_many">%1$d forwarded messages</string>
     <string name="ForwardedMessageCount_other">%1$d forwarded messages</string>
+    <string name="Photos_zero">%1$d photos</string>
+    <string name="Photos_one">%1$d photo</string>
+    <string name="Photos_two">%1$d photos</string>
+    <string name="Photos_few">%1$d photos</string>
+    <string name="Photos_many">%1$d photos</string>
+    <string name="Photos_other">%1$d photos</string>
+    <string name="Media_zero">%1$d media</string>
+    <string name="Media_one">%1$d media</string>
+    <string name="Media_two">%1$d media</string>
+    <string name="Media_few">%1$d media</string>
+    <string name="Media_many">%1$d media</string>
+    <string name="Media_other">%1$d media</string>
     <string name="ForwardedFile_zero">%1$d forwarded files</string>
     <string name="ForwardedFile_one">Forwarded file</string>
     <string name="ForwardedFile_two">%1$d forwarded files</string>
