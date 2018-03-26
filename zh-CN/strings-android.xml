@@ -599,6 +599,7 @@
   <string name="SendMessageRestrictedForever">此群组的管理员限制了您在此发送消息的权限</string>
   <string name="ChatAdmin">管理员</string>
   <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
+  <string name="UnreadMessages">未读消息</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -831,6 +832,8 @@
   <string name="Masks">装饰</string>
   <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
   <string name="FeaturedStickers">热门贴纸</string>
+  <string name="SuggestStickersAll">全部</string>
+  <string name="SuggestStickersNone">无</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已归档贴纸</string>
   <string name="ArchivedMasks">已归档装饰</string>
@@ -1762,6 +1765,12 @@
   <string name="ForwardedMessageCount_few">%1$d 条转发的消息</string>
   <string name="ForwardedMessageCount_many">%1$d 条转发的消息</string>
   <string name="ForwardedMessageCount_other">%1$d 条转发的消息</string>
+  <string name="Photos_zero">%1$d 张图片</string>
+  <string name="Photos_one">%1$d 张图片</string>
+  <string name="Photos_two">%1$d 张图片</string>
+  <string name="Photos_few">%1$d 张图片</string>
+  <string name="Photos_many">%1$d 张图片</string>
+  <string name="Photos_other">%1$d 张图片</string>
   <string name="ForwardedFile_zero">%1$d 个转发的文件</string>
   <string name="ForwardedFile_one">转发的文件</string>
   <string name="ForwardedFile_two">%1$d 个转发的文件</string>

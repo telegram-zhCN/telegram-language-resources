@@ -2208,7 +2208,7 @@
 • 消息通知默认关闭</value>
   </data>
   <data name="MessageActionChannelMigrateFrom" xml:space="preserve">
-    <value>此群组已升级为超级群组</value>
+    <value>此群组已升级到超级群组</value>
   </data>
   <data name="MessageActionChatActivate" xml:space="preserve">
     <value>对话已激活</value>
@@ -2533,9 +2533,6 @@
   </data>
   <data name="DeleteMessages" xml:space="preserve">
     <value>删除消息</value>
-  </data>
-  <data name="DeleteMessagesConfirmation" xml:space="preserve">
-    <value>您确定要删除这 {0} 条消息吗？</value>
   </data>
   <data name="MessageActionPinMessage" xml:space="preserve">
     <value>{0} 已置顶 1 条消息</value>
@@ -3710,5 +3707,97 @@ You'll be asked to enter it when you log in.</value>
   </data>
   <data name="Album" xml:space="preserve">
     <value>相册</value>
+  </data>
+  <data name="DeleteMessagesConfirmation" xml:space="preserve">
+    <value>Are you sure you want to delete {0}?</value>
+  </data>
+  <data name="MessageGenitivePlural" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="MessageGenitiveSingular" xml:space="preserve">
+    <value>输入消息</value>
+  </data>
+  <data name="MessageNominativePlural" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="MessageNominativeSingular" xml:space="preserve">
+    <value>输入消息</value>
+  </data>
+  <data name="SubscriberGenitivePlural" xml:space="preserve">
+    <value>订阅者</value>
+  </data>
+  <data name="SubscriberGenitiveSingular" xml:space="preserve">
+    <value>Subscriber</value>
+  </data>
+  <data name="SubscriberNominativePlural" xml:space="preserve">
+    <value>订阅者</value>
+  </data>
+  <data name="SubscriberNominativeSingular" xml:space="preserve">
+    <value>Subscriber</value>
+  </data>
+  <data name="LogOutAllApplications" xml:space="preserve">
+    <value>Disconnect all websites</value>
+  </data>
+  <data name="LogOutAllApplicationsNote" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="LoggedInWithTelegram" xml:space="preserve">
+    <value>使用 Telegram 登录的网站</value>
+  </data>
+  <data name="LogOutAllApplicationsConfirmation" xml:space="preserve">
+    <value>是否取消与所有使用 Telegram 登录的网站的关联？</value>
+  </data>
+  <data name="NoItemsHere" xml:space="preserve">
+    <value>No items here</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="Ungroup" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="AboutApp" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="NoActiveLogins" xml:space="preserve">
+    <value>No active logins.
+
+You can log in on websites that support signing in with Telegram.</value>
+  </data>
+  <data name="Feed" xml:space="preserve">
+    <value>Feed</value>
+  </data>
+  <data name="ChannelGenitivePlural" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ChannelGenitiveSingular" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ChannelNominativePlural" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ChannelNominativeSingular" xml:space="preserve">
+    <value>频道</value>
+  </data>
+  <data name="ShowNext" xml:space="preserve">
+    <value>Show next</value>
+  </data>
+  <data name="GroupNewChannels" xml:space="preserve">
+    <value>Group new channels</value>
+  </data>
+  <data name="MessageActionBotAllowed" xml:space="preserve">
+    <value>You allowed this bot to message you when you logged in on {0}</value>
+  </data>
+  <data name="NoStickersFound" xml:space="preserve">
+    <value>No stickers found</value>
+  </data>
+  <data name="ConnectedWebsites" xml:space="preserve">
+    <value>已关联的网站</value>
+  </data>
+  <data name="ConnectedWebsitesHint" xml:space="preserve">
+    <value>您可以在在支持的网站上使用 Telegram 登录。</value>
+  </data>
+  <data name="TapToDisconnectTelegramAccount" xml:space="preserve">
+    <value>轻触以取消该网站与 Telegram 账号的关联</value>
   </data>
 </root>

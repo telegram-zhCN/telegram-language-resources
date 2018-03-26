@@ -2893,6 +2893,11 @@ Unused sets are archived when you add more.";
 
 "Camera.Discard" = "Discard All";
 
+"Stickers.SuggestStickers" = "Suggest Stickers by Emoji";
+"Stickers.SuggestAll" = "All Sets";
+"Stickers.SuggestAdded" = "My Sets";
+"Stickers.SuggestNone" = "None";
+
 
 /* new from translations.telegram.org */
 
