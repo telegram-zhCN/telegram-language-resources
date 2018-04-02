@@ -2903,3 +2903,4 @@ Unused sets are archived when you add more.";
 
 "Map.ETAHours_0" = "%@ h";
 "Peer.DeletedUser" = "Deleted User";
+"StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.\nUnused sets are archived when you add more.";
