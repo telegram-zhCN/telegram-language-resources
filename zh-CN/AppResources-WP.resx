@@ -3800,4 +3800,43 @@ You can log in on websites that support signing in with Telegram.</value>
   <data name="TapToDisconnectTelegramAccount" xml:space="preserve">
     <value>轻触以取消该网站与 Telegram 账号的关联</value>
   </data>
+  <data name="Passport" xml:space="preserve">
+    <value>Passport</value>
+  </data>
+  <data name="Authorize" xml:space="preserve">
+    <value>Authorize</value>
+  </data>
+  <data name="Email2" xml:space="preserve">
+    <value>邮箱</value>
+  </data>
+  <data name="IdentityDocument" xml:space="preserve">
+    <value>Identity Document</value>
+  </data>
+  <data name="IdentityDocumentHint" xml:space="preserve">
+    <value>Upload scan of your passport or other ID</value>
+  </data>
+  <data name="PassportHint" xml:space="preserve">
+    <value>{0} requests access to your personal data to sign you up to their services.</value>
+  </data>
+  <data name="ResidentalAddress" xml:space="preserve">
+    <value>Residental Address</value>
+  </data>
+  <data name="ResidentalAddressHint" xml:space="preserve">
+    <value>Upload proof of your address</value>
+  </data>
+  <data name="RequestWriteHint" xml:space="preserve">
+    <value>You accept {0} Privacy Policy and allow their @{1} to send messages to you.</value>
+  </data>
+  <data name="AllSets" xml:space="preserve">
+    <value>All sets</value>
+  </data>
+  <data name="MySets" xml:space="preserve">
+    <value>My sets</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="SuggestStickersByEmoji" xml:space="preserve">
+    <value>Suggest stickers by emoji</value>
+  </data>
 </root>
