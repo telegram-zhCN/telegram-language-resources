@@ -3789,7 +3789,7 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>You allowed this bot to message you when you logged in on {0}</value>
   </data>
   <data name="NoStickersFound" xml:space="preserve">
-    <value>No stickers found</value>
+    <value>未找到贴纸</value>
   </data>
   <data name="ConnectedWebsites" xml:space="preserve">
     <value>已关联的网站</value>
@@ -3837,6 +3837,6 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>无</value>
   </data>
   <data name="SuggestStickersByEmoji" xml:space="preserve">
-    <value>Suggest stickers by emoji</value>
+    <value>通过 emoji 推荐热门表情</value>
   </data>
 </root>

@@ -145,6 +145,7 @@
   <string name="ForwardTo">转发到...</string>
   <string name="DisappearingPhoto">自毁图片</string>
   <string name="DisappearingVideo">自毁视频</string>
+  <string name="DisappearingGif">私密 GIF</string>
   <string name="CompatibilityChat">%1$s 正在使用旧版 Telegram，因此图片会以兼容模式显示。\n\n当 %2$s 更新 Telegram 后，阅后即焚计时器设为1分钟以内时，图片会使用“长按预览”的模式显示；对方截屏时，您也会收到通知。</string>
   <string name="SearchMessages">搜索消息</string>
   <string name="Search">搜索</string>
@@ -303,6 +304,7 @@
   <string name="ChannelMessageLiveLocation">%1$s 发布了一个实时位置</string>
   <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
   <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
+  <string name="ChannelMessageFew">%1$s 发送了 %2$s </string>
   <string name="ChannelMessageAudio">%1$s 发送了一条语音消息</string>
   <string name="ChannelMessageRound">%1$s 发送了一条视频消息</string>
   <string name="ChannelMessageMusic">%1$s 发送了一首音乐</string>
@@ -557,6 +559,7 @@
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
   <string name="ClearRecentEmoji">清除最近使用的 emoji 列表？</string>
   <string name="ReportChat">举报</string>
+  <string name="ReportChatSent">举报已发送</string>
   <string name="ReportChatSpam">垃圾信息</string>
   <string name="ReportChatViolence">暴力</string>
   <string name="ReportChatPornography">色情</string>
@@ -600,6 +603,7 @@
   <string name="ChatAdmin">管理员</string>
   <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
   <string name="UnreadMessages">未读消息</string>
+  <string name="SearchStickersHint">搜索贴纸包</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -607,9 +611,12 @@
   <string name="MessageLifetimeYouRemoved">您取消了阅后即焚计时器</string>
   <string name="YouHaveNewMessage">您有一条新消息</string>
   <string name="NotificationMessageText">%1$s: %2$s</string>
+  <string name="NotificationMessageFew">%1$s 发送给你 %2$s</string>
+  <string name="NotificationMessageForwardFew">%1$s 转发给你 %2$s</string>
   <string name="NotificationMessageNoText">%1$s 给您发送了一条消息</string>
   <string name="NotificationMessagePhoto">%1$s 给您发送了一张图片</string>
   <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
+  <string name="NotificationMessageInvoice">%1$s 向您发送了关于 %2$s 的一个订单</string>
   <string name="NotificationMessageSDPhoto">%1$s 给您发送了一张自毁图片</string>
   <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
   <string name="NotificationMessageContact">%1$s 给您分享了一个联系人</string>
@@ -633,6 +640,7 @@
   <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s 来玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
+  <string name="NotificationMessageGroupInvoice">%1$s 因 %3$s 给 %2$s 群组发送了一张订单</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一条语音消息到群组 %2$s</string>
   <string name="NotificationMessageGroupRound">%1$s 发送了一条视频消息到群组 %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s 发送了一首音乐到 %2$s 群组</string>
@@ -651,6 +659,8 @@
   <string name="NotificationUnrecognizedDevice">%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动会话」中将该会话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队</string>
   <string name="NotificationContactNewPhoto">%1$s 更新了头像</string>
   <string name="NotificationInvitedToGroupByLink">%1$s 已通过邀请链接加入群组 %2$s</string>
+  <string name="NotificationGroupFew">%1$s 发送了 %3$s 到群组 %2$s</string>
+  <string name="NotificationGroupForwardedFew">%1$s 转发了 %3$s 到群组 %2$s</string>
   <string name="Reply">回复</string>
   <string name="ReplyToGroup">回复给 %1$s</string>
   <string name="ReplyToUser">回复给 %1$s</string>
@@ -671,12 +681,14 @@
   <string name="NotificationActionPinnedGeoLive">%1$s 在群组 %2$s 置顶了一个实时位置</string>
   <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF</string>
   <string name="NotificationActionPinnedMusic">%1$s 在群组 %2$s 置顶了一首音乐</string>
+  <string name="NotificationActionPinnedInvoice">%1$s 在群组 %2$s 置顶了一张订单</string>
   <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了 1 条消息</string>
   <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了 1 张图片</string>
   <string name="NotificationActionPinnedGameChannel">%1$s 置顶了 1 个游戏</string>
   <string name="NotificationActionPinnedVideoChannel">%1$s 置顶了 1 个视频</string>
   <string name="NotificationActionPinnedFileChannel">%1$s 置顶了 1 个文件</string>
+  <string name="NotificationActionPinnedInvoiceChannel">%1$s 置顶了一张订单</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s 置顶了 1 张贴纸</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了 1 条语音消息</string>
@@ -828,11 +840,14 @@
   <string name="StickersCopy">复制链接</string>
   <string name="StickersRemove">移除</string>
   <string name="NoStickers">暂无贴纸</string>
+  <string name="NoStickersFound">未找到贴纸</string>
   <string name="NoMasks">暂无装饰</string>
   <string name="Masks">装饰</string>
   <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
   <string name="FeaturedStickers">热门贴纸</string>
+  <string name="SuggestStickers">通过 emoji 推荐热门表情</string>
   <string name="SuggestStickersAll">全部</string>
+  <string name="SuggestStickersInstalled">已添加</string>
   <string name="SuggestStickersNone">无</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已归档贴纸</string>
@@ -1409,6 +1424,7 @@
   <string name="ActionAddUserSelf">un1 返回了此群组</string>
   <string name="ActionAddUserSelfMega">un1 加入了这个群组</string>
   <string name="ActionAddUserSelfYou">您返回了此群组</string>
+  <string name="ActionBotAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
   <string name="UnsupportedMedia">您当前的 Telegram 版本无法查看这条消息。请前往这里下载新版：https://telegram.org/update</string>
   <string name="AttachPhoto">图片</string>
   <string name="AttachVideo">视频</string>
@@ -1577,6 +1593,15 @@
   <string name="CallReportLogsExplain">这不会泄露您对话的内容，但却能帮助我们尽快修复问题。</string>
   <string name="CallReportSent">感谢您帮助 Telegram Call 变得更好。</string>
   <string name="VoipAnsweringAsAccount">作为 %s 回应</string>
+  <string name="VoipQuickReplies">用文字回复</string>
+  <string name="QuickReplyDefault1">现在无法聊天，发生什么了？</string>
+  <string name="QuickReplyDefault2">我将尽快回电你。</string>
+  <string name="QuickReplyDefault3">我将稍后回电你。</string>
+  <string name="QuickReplyDefault4">我现在不方便接听，稍后打给我如何？</string>
+  <string name="QuickReplyCustom">自定义消息...</string>
+  <string name="AllowCustomQuickReply">允许自定义</string>
+  <string name="VoipInCallBrandingWithName">Telegram呼叫给 %s</string>
+  <string name="VoipErrorUnknown">现在暂时无法进行 Telegram 呼叫</string>
   <!--plural-->
   <string name="Recipient_zero">%1$d 个接收者</string>
   <string name="Recipient_one">%1$d 个接收者</string>
@@ -1771,6 +1796,12 @@
   <string name="Photos_few">%1$d 张图片</string>
   <string name="Photos_many">%1$d 张图片</string>
   <string name="Photos_other">%1$d 张图片</string>
+  <string name="Media_zero">%1$d 个媒体</string>
+  <string name="Media_one">%1$d 个媒体</string>
+  <string name="Media_two">%1$d 个媒体</string>
+  <string name="Media_few">%1$d 个媒体</string>
+  <string name="Media_many">%1$d 个媒体</string>
+  <string name="Media_other">%1$d 个媒体</string>
   <string name="ForwardedFile_zero">%1$d 个转发的文件</string>
   <string name="ForwardedFile_one">转发的文件</string>
   <string name="ForwardedFile_two">%1$d 个转发的文件</string>

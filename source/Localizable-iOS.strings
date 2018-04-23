@@ -2898,6 +2898,29 @@ Unused sets are archived when you add more.";
 "Stickers.SuggestAdded" = "My Sets";
 "Stickers.SuggestNone" = "None";
 
+"Settings.Proxy" = "Proxy";
+"Settings.ProxyDisabled" = "Disabled";
+"Settings.ProxyConnecting" = "Connecting...";
+"Settings.ProxyConnected" = "Connected";
+
+"SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
+"SocksProxySetup.SavedProxies" = "SAVED PROXIES";
+"SocksProxySetup.AddProxy" = "Add Proxy";
+"SocksProxySetup.SaveProxy" = "Save Proxy";
+"SocksProxySetup.ConnectAndSave" = "Connect Proxy";
+"SocksProxySetup.AddProxyTitle" = "Add Proxy";
+"SocksProxySetup.ProxyDetailsTitle" = "Proxy Details";
+"SocksProxySetup.ProxyStatusChecking" = "checking...";
+"SocksProxySetup.ProxyStatusAvailable" = "available";
+"SocksProxySetup.ProxyStatusUnavailable" = "unavailable";
+"SocksProxySetup.ProxyStatusConnecting" = "connecting";
+"SocksProxySetup.ProxyStatusConnected" = "connected";
+
+"SocksProxySetup.Connecting" = "Connecting...";
+"SocksProxySetup.FailedToConnect" = "Failed to connect";
+
+"SocksProxySetup.ProxyEnabled" = "Proxy\nEnabled";
+
 
 /* new from translations.telegram.org */
 
