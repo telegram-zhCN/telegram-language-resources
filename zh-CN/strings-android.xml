@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="AppName">Telegram</string>
-  <string name="AppNameBeta">Telegram</string>
+  <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">简体中文</string>
   <string name="English">英语</string>
   <string name="LanguageNameInEnglish">Simplified Chinese</string>
@@ -1110,7 +1110,7 @@
   <string name="TerminateWebSessionStop">屏蔽 %1$s</string>
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
   <string name="AreYouSureWebSessions">是否取消与所有使用 Telegram 登录的网站的关联？</string>
-  <string name="ClearOtherWebSessionsHelp">您可以在在支持的网站上使用 Telegram 登录。</string>
+  <string name="ClearOtherWebSessionsHelp">您可以在支持的网站上使用 Telegram 登录。</string>
   <!--passcode view-->
   <string name="Passcode">锁定码</string>
   <string name="ChangePasscode">修改锁定码</string>
@@ -1593,14 +1593,15 @@
   <string name="CallReportLogsExplain">这不会泄露您对话的内容，但却能帮助我们尽快修复问题。</string>
   <string name="CallReportSent">感谢您帮助 Telegram Call 变得更好。</string>
   <string name="VoipAnsweringAsAccount">作为 %s 回应</string>
-  <string name="VoipQuickReplies">用文字回复</string>
-  <string name="QuickReplyDefault1">现在无法聊天，发生什么了？</string>
-  <string name="QuickReplyDefault2">我将尽快回电你。</string>
-  <string name="QuickReplyDefault3">我将稍后回电你。</string>
+  <string name="VoipQuickReplies">来电拒接消息模板</string>
+  <string name="VoipQuickRepliesExplain">拒接 Telegram 电话时，你可以使用以上的模板答复。您可以根据喜好来更改它们。</string>
+  <string name="QuickReplyDefault1">现在不方便接电话，发生什么了？</string>
+  <string name="QuickReplyDefault2">我将尽快回电话。</string>
+  <string name="QuickReplyDefault3">我将稍后回电话。</string>
   <string name="QuickReplyDefault4">我现在不方便接听，稍后打给我如何？</string>
   <string name="QuickReplyCustom">自定义消息...</string>
   <string name="AllowCustomQuickReply">允许自定义</string>
-  <string name="VoipInCallBrandingWithName">Telegram呼叫给 %s</string>
+  <string name="VoipInCallBrandingWithName">Telegram 呼叫 给 %s</string>
   <string name="VoipErrorUnknown">现在暂时无法进行 Telegram 呼叫</string>
   <!--plural-->
   <string name="Recipient_zero">%1$d 个接收者</string>

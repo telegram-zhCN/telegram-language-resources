@@ -2911,7 +2911,7 @@ Unused sets are archived when you add more.";
 "SocksProxySetup.AddProxyTitle" = "Add Proxy";
 "SocksProxySetup.ProxyDetailsTitle" = "Proxy Details";
 "SocksProxySetup.ProxyStatusChecking" = "checking...";
-"SocksProxySetup.ProxyStatusAvailable" = "available";
+"SocksProxySetup.ProxyStatusPing" = "%@ ms ping";
 "SocksProxySetup.ProxyStatusUnavailable" = "unavailable";
 "SocksProxySetup.ProxyStatusConnecting" = "connecting";
 "SocksProxySetup.ProxyStatusConnected" = "connected";
