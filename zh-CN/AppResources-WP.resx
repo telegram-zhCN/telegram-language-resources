@@ -262,13 +262,13 @@
     <value>空服务消息</value>
   </data>
   <data name="CompanyNominative" xml:space="preserve">
-    <value>Member</value>
+    <value>成员</value>
   </data>
   <data name="CompanyGenitivePlural" xml:space="preserve">
-    <value>Members</value>
+    <value>成员</value>
   </data>
   <data name="CompanyGenitiveSingular" xml:space="preserve">
-    <value>Member</value>
+    <value>成员</value>
   </data>
   <data name="PeopleInTheConversation" xml:space="preserve">
     <value>{0}个成员</value>
@@ -3203,7 +3203,7 @@
     <value>您可以保存您的配送信息以便在未来使用。</value>
   </data>
   <data name="SecurityCode" xml:space="preserve">
-    <value>Security Code (CVV)</value>
+    <value>安全码（CVV）</value>
   </data>
   <data name="Shipping" xml:space="preserve">
     <value>Shipping</value>

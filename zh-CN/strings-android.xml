@@ -35,9 +35,9 @@
   <string name="CancelAccountReset">撤销账号重置请求</string>
   <string name="CancelAccountResetInfo">我们收到一个有访问你电话号码 **%1$s** 权限的人要求删除你的 Telegram 账号并重置两步验证密码。\n\n如果不是你本人，请输入我们刚刚通过短信发送给你的验证码。</string>
   <string name="ResetAccount">重置帐号</string>
-  <string name="ResetAccountInfo">因为账号 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
+  <string name="ResetAccountInfo">因为账户 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
   <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
-  <string name="ResetAccountCancelledAlert">您近期的重置账号请求被当前活动用户取消，请于 7 天后重试。</string>
+  <string name="ResetAccountCancelledAlert">您近期的重置账户请求被当前活动用户取消，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置帐户</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
   <string name="CancelLinkSuccess">已取消删除您账号的注销请求 %1$s 。您现在可以关闭此窗口。</string>
@@ -71,7 +71,7 @@
   <string name="PaymentCardInfo">付款信息</string>
   <string name="PaymentCardTitle">银行卡</string>
   <string name="PaymentCardNumber">卡号</string>
-  <string name="PaymentCardCvv">安全码 (CVV)</string>
+  <string name="PaymentCardCvv">安全码（CVV）</string>
   <string name="PaymentCardExpireDate">月/年</string>
   <string name="PaymentBillingAddress">账单地址</string>
   <string name="PaymentCardName">姓名</string>
@@ -123,7 +123,7 @@
   <string name="WaitingForNetwork">等待网络...</string>
   <string name="Connecting">连接中...</string>
   <string name="ConnectingToProxy">正在连接代理...</string>
-  <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
+  <string name="ConnectingToProxyTapToDisable">点按此处禁用代理</string>
   <string name="ConnectingToProxyDisable">禁用</string>
   <string name="ConnectingToProxyEnable">启用</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
