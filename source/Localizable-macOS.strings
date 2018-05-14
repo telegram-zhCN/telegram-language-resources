@@ -347,7 +347,7 @@
 "NotificationSettings.ResetNotifications" = "Reset Notifications";
 "NotificationSettings.ResetNotificationsText" = "You can set custom notifications for specific chats below.";
 "Telegram.NotificationSettingsViewController" = "Notifications";
-"AccountSettings.DataAndStorage" = "Data And Storage";
+"AccountSettings.DataAndStorage" = "Data and Storage";
 "DefaultSoundName" = "Default";
 "NotificationSettings.Tone.Default" = "Default";
 "NotificationSettingsToneNone" = "None";
