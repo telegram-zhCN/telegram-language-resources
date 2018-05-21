@@ -2903,7 +2903,7 @@ Unused sets are archived when you add more.";
 "Settings.ProxyConnecting" = "Connecting...";
 "Settings.ProxyConnected" = "Connected";
 
-"SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
+"SocksProxySetup.UseProxy" = "Use Proxy";
 "SocksProxySetup.SavedProxies" = "SAVED PROXIES";
 "SocksProxySetup.AddProxy" = "Add Proxy";
 "SocksProxySetup.SaveProxy" = "Save Proxy";
@@ -2916,14 +2916,30 @@ Unused sets are archived when you add more.";
 "SocksProxySetup.ProxyStatusConnecting" = "connecting";
 "SocksProxySetup.ProxyStatusConnected" = "connected";
 
+"SocksProxySetup.ProxyType" = "TYPE";
+"SocksProxySetup.ProxySocks5" = "SOCKS5";
+"SocksProxySetup.ProxyTelegram" = "MTProto";
+"SocksProxySetup.HostnamePlaceholder" = "Server";
+"SocksProxySetup.PortPlaceholder" = "Port";
+"SocksProxySetup.UsernamePlaceholder" = "Username";
+"SocksProxySetup.PasswordPlaceholder" = "Password";
+"SocksProxySetup.Secret" = "Secret";
+"SocksProxySetup.SecretPlaceholder" = "Secret";
+"SocksProxySetup.RequiredCredentials" = "CREDENTIALS";
+
 "SocksProxySetup.Connecting" = "Connecting...";
 "SocksProxySetup.FailedToConnect" = "Failed to connect";
 
 "SocksProxySetup.ProxyEnabled" = "Proxy\nEnabled";
+
+"DialogList.AdLabel" = "Proxy";
+"DialogList.AdNoticeAlert" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
+"SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal your Telegram traffic.";
 
 
 /* new from translations.telegram.org */
 
 "Map.ETAHours_0" = "%@ h";
 "Peer.DeletedUser" = "Deleted User";
+"SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
 "StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.\nUnused sets are archived when you add more.";

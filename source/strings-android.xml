@@ -122,13 +122,13 @@
     <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
+    <string name="Connected">Connected</string>
+    <string name="Ping">Ping: %1$d ms</string>
+    <string name="Checking">Checking...</string>
+    <string name="Available">Available</string>
+    <string name="Unavailable">Unavailable</string>
     <string name="ConnectingToProxy">Connecting to proxy...</string>
-    <string name="ConnectingToProxyTapToDisable">Tap here to disable proxy...</string>
-    <string name="ConnectingToProxyDisable">Disable</string>
-    <string name="ConnectingToProxyEnable">Enable</string>
-    <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>
-    <string name="EnableProxyAlert2">You can change your proxy server later in the Settings (Data and Storage).</string>
-    <string name="ConnectingToProxyDisableAlert">Are you sure you want to disable proxy server %1$s? You can reenable it in the Settings later (Data and Storage).</string>
+    <string name="ConnectingConnectProxy">Connect Proxy</string>
     <string name="Updating">Updating...</string>
     <string name="NewSecretChat">New Secret Chat</string>
     <string name="AwaitingEncryption">Waiting for %s to get online...</string>
@@ -532,6 +532,7 @@
     <string name="OpenInBrowser">OPEN IN...</string>
     <string name="OpenInExternalApp">Open in...</string>
     <string name="SendItems">Send %1$s</string>
+    
     <string name="SendAsFile">Send as file</string>
     <string name="SendAsFiles">Send as files</string>
     <string name="OpenUrlAlert">Open url %1$s?</string>
@@ -955,6 +956,7 @@
     <string name="TelegramFAQ">Telegram FAQ</string>
     <string name="TelegramFaq">Telegram FAQ</string>
     <string name="AddAccount">Add Account</string>
+    
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
     <string name="PrivacyPolicy">Privacy Policy</string>
     <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
@@ -1046,13 +1048,24 @@
     <string name="ChooseYourLanguage">Choose your language</string>
     <string name="ChooseYourLanguageOther">Other</string>
     <string name="ProxySettings">Proxy Settings</string>
+    <string name="ProxyDetails">Proxy Details</string>
     <string name="Proxy">Proxy</string>
+    <string name="ProxyConnections">Connections</string>
+    <string name="AddProxy">Add Proxy</string>
+    <string name="DeleteProxy">Delete Proxy?</string>
     <string name="UseProxySettings">Use proxy settings</string>
     <string name="UseProxyAddress">Server</string>
     <string name="UseProxyPassword">Password</string>
     <string name="UseProxyPort">Port</string>
+    <string name="UseProxySecret">Secret</string>
     <string name="UseProxyUsername">Username</string>
+    <string name="UseProxySocks5">SOCKS5</string>
+    <string name="UseProxyTelegram">MTProto Proxy</string>
+    <string name="UseProxySponsor">Proxy sponsor</string>
+    <string name="UseProxySponsorInfo">This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.</string>
     <string name="UseProxyInfo">SOCKS5 proxy settings</string>
+    <string name="UseProxyTelegramInfo">MTProto proxy settings.</string>
+    <string name="UseProxyTelegramInfo2">This proxy may display a sponsored channel in your chat list. This doesn\'t reveal any of your Telegram traffic.</string>
     <string name="UseProxyForCalls">Use proxy for calls</string>
     <string name="UseProxyForCallsInfo">Proxy servers may degrade the quality of your calls.</string>
     <string name="LowDiskSpaceTitle">Attention</string>
@@ -1067,7 +1080,6 @@
     <string name="AutodownloadSizeLimitUpTo">up to %1$s</string>
     <string name="Streaming">Streaming</string>
     <string name="EnableStreaming">Stream Videos and Audio Files</string>
-
     <string name="EnableAllStreamingInfo">Some videos can\'t be streamed – e.g., all videos that were sent from Android using Telegram 4.7 and earlier versions.\n</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
@@ -1089,6 +1101,115 @@
     <string name="KeepMediaForever">Forever</string>
     <string name="AudioAutodownload">Voice messages</string>
     <string name="VideoMessagesAutodownload">Video messages</string>
+    <!--passport view-->
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
     <!--sessions view-->
     <string name="SessionsTitle">Active Sessions</string>
     <string name="CurrentSession">Current session</string>
@@ -1399,6 +1520,7 @@
     <string name="Set">Set</string>
     <string name="OK">OK</string>
     <string name="Crop">CROP</string>
+    
     <!--messages-->
     <string name="ActionInviteYou">You joined the group via invite link</string>
     <string name="ActionInviteUser">un1 joined the group via invite link</string>
@@ -1426,6 +1548,20 @@
     <string name="ActionAddUserSelfMega">un1 joined the group</string>
     <string name="ActionAddUserSelfYou">You returned to the group</string>
     <string name="ActionBotAllowed">You allowed this bot to message you when you logged in on %1$s.</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="UnsupportedMedia">This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update</string>
     <string name="AttachPhoto">Photo</string>
     <string name="AttachVideo">Video</string>
@@ -1798,6 +1934,12 @@
     <string name="Photos_few">%1$d photos</string>
     <string name="Photos_many">%1$d photos</string>
     <string name="Photos_other">%1$d photos</string>
+    
+    
+    
+    
+    
+    
     <string name="Media_zero">%1$d media</string>
     <string name="Media_one">%1$d media</string>
     <string name="Media_two">%1$d media</string>
@@ -1884,6 +2026,12 @@
 
   <!-- new from translations.telegram.org -->
 
+  <string name="ConnectingToProxyDisable">Disable</string>
+  <string name="ConnectingToProxyDisableAlert">Are you sure you want to disable proxy server %1$s? You can reenable it in the Settings later (Data and Storage).</string>
+  <string name="ConnectingToProxyEnable">Enable</string>
+  <string name="ConnectingToProxyTapToDisable">Tap here to disable proxy...</string>
+  <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>
+  <string name="EnableProxyAlert2">You can change your proxy server later in the Settings (Data and Storage).</string>
   <string name="NotificationsPriority">Priority</string>
   <string name="NotificationsPriorityDefault">Default</string>
   <string name="NotificationsPriorityMax">Max</string>
