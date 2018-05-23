@@ -122,13 +122,8 @@
   <string name="NoChatsHelp">要开始对话\n请点击右上角的撰写按钮\n或者进入联系人界面。</string>
   <string name="WaitingForNetwork">等待网络...</string>
   <string name="Connecting">连接中...</string>
+  <string name="Checking">正在检查...</string>
   <string name="ConnectingToProxy">正在连接代理...</string>
-  <string name="ConnectingToProxyTapToDisable">点按此处禁用代理</string>
-  <string name="ConnectingToProxyDisable">禁用</string>
-  <string name="ConnectingToProxyEnable">启用</string>
-  <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
-  <string name="EnableProxyAlert2">您可以稍后在设置（数据和存储）中修改您的代理服务器。</string>
-  <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置（数据和存储）中重新启用它。</string>
   <string name="Updating">刷新中...</string>
   <string name="NewSecretChat">新建加密对话</string>
   <string name="AwaitingEncryption">等待%s上线...</string>
@@ -1052,6 +1047,7 @@
   <string name="UseProxyPassword">密码</string>
   <string name="UseProxyPort">端口</string>
   <string name="UseProxyUsername">用户名</string>
+  <string name="UseProxySocks5">SOCKS5</string>
   <string name="UseProxyInfo">SOCKS5 代理设置</string>
   <string name="UseProxyForCalls">对通话启用代理</string>
   <string name="UseProxyForCallsInfo">使用代理服务器可能降低通话质量。</string>
@@ -1088,6 +1084,7 @@
   <string name="KeepMediaForever">永久保留</string>
   <string name="AudioAutodownload">语音消息</string>
   <string name="VideoMessagesAutodownload">视频消息</string>
+  <!--passport view-->
   <!--sessions view-->
   <string name="SessionsTitle">活动会话</string>
   <string name="CurrentSession">当前会话</string>
@@ -1881,6 +1878,12 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <!--new from translations.telegram.org-->
+  <string name="ConnectingToProxyDisable">禁用</string>
+  <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置（数据和存储）中重新启用它。</string>
+  <string name="ConnectingToProxyEnable">启用</string>
+  <string name="ConnectingToProxyTapToDisable">点按此处禁用代理</string>
+  <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
+  <string name="EnableProxyAlert2">您可以稍后在设置（数据和存储）中修改您的代理服务器。</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最高</string>

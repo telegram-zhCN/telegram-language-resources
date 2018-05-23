@@ -1905,7 +1905,7 @@
 "NetworkUsage.NetworkUsageSince" = "Network usage since %@";
 
 "Chat.Recording.Cancel" = "Are you sure you want to cancel recording?";
-"ChatList.SponsoredChannel" = "Sponsored";
+"ChatList.SponsoredChannel" = "Proxy Sponsor";
 
 
 "AudioRecord.Help.Fixed" = "Click outside of circle to cancel";
