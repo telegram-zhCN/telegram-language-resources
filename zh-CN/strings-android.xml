@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="AppName">Telegram</string>
-  <string name="AppNameBeta">Telegram Beta</string>
+  <string name="AppNameBeta">Telegram</string>
   <string name="LanguageName">简体中文</string>
   <string name="English">英语</string>
   <string name="LanguageNameInEnglish">Simplified Chinese</string>
-  <string name="LanguageCode">zh_CN_TGCN</string>
+  <string name="LanguageCode">zh_CN</string>
   <string name="ContinueOnThisLanguage">使用简体中文继续</string>
   <!--signin view-->
   <string name="YourPhone">您的手机号码</string>
@@ -35,9 +35,9 @@
   <string name="CancelAccountReset">撤销账号重置请求</string>
   <string name="CancelAccountResetInfo">我们收到一个有访问你电话号码 **%1$s** 权限的人要求删除你的 Telegram 账号并重置两步验证密码。\n\n如果不是你本人，请输入我们刚刚通过短信发送给你的验证码。</string>
   <string name="ResetAccount">重置帐号</string>
-  <string name="ResetAccountInfo">因为账户 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
+  <string name="ResetAccountInfo">因为账号 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
   <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
-  <string name="ResetAccountCancelledAlert">您近期的重置账户请求被当前活动用户取消，请于 7 天后重试。</string>
+  <string name="ResetAccountCancelledAlert">您近期的重置账号请求被当前活动用户取消，请于 7 天后重试。</string>
   <string name="ResetAccountButton">重置帐户</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
   <string name="CancelLinkSuccess">已取消删除您账号的注销请求 %1$s 。您现在可以关闭此窗口。</string>
@@ -71,7 +71,7 @@
   <string name="PaymentCardInfo">付款信息</string>
   <string name="PaymentCardTitle">银行卡</string>
   <string name="PaymentCardNumber">卡号</string>
-  <string name="PaymentCardCvv">安全码（CVV）</string>
+  <string name="PaymentCardCvv">安全码 (CVV)</string>
   <string name="PaymentCardExpireDate">月/年</string>
   <string name="PaymentBillingAddress">账单地址</string>
   <string name="PaymentCardName">姓名</string>
@@ -122,8 +122,13 @@
   <string name="NoChatsHelp">要开始对话\n请点击右上角的撰写按钮\n或者进入联系人界面。</string>
   <string name="WaitingForNetwork">等待网络...</string>
   <string name="Connecting">连接中...</string>
-  <string name="Checking">正在检查...</string>
+  <string name="Connected">已连接</string>
+  <string name="Ping">Ping: %1$d 毫秒</string>
+  <string name="Checking">检查中...</string>
+  <string name="Available">可用</string>
+  <string name="Unavailable">不可用</string>
   <string name="ConnectingToProxy">正在连接代理...</string>
+  <string name="ConnectingConnectProxy">连接代理</string>
   <string name="Updating">刷新中...</string>
   <string name="NewSecretChat">新建加密对话</string>
   <string name="AwaitingEncryption">等待%s上线...</string>
@@ -1041,14 +1046,24 @@
   <string name="ChooseYourLanguage">选择您的语言</string>
   <string name="ChooseYourLanguageOther">其它</string>
   <string name="ProxySettings">代理设置</string>
+  <string name="ProxyDetails">代理信息</string>
   <string name="Proxy">代理</string>
+  <string name="ProxyConnections">代理连接</string>
+  <string name="AddProxy">添加代理</string>
+  <string name="DeleteProxy">删除代理？</string>
   <string name="UseProxySettings">使用代理服务器</string>
   <string name="UseProxyAddress">服务器</string>
   <string name="UseProxyPassword">密码</string>
   <string name="UseProxyPort">端口</string>
+  <string name="UseProxySecret">密钥</string>
   <string name="UseProxyUsername">用户名</string>
   <string name="UseProxySocks5">SOCKS5</string>
+  <string name="UseProxyTelegram">MTProto 代理</string>
+  <string name="UseProxySponsor">代理赞助商</string>
+  <string name="UseProxySponsorInfo">这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
   <string name="UseProxyInfo">SOCKS5 代理设置</string>
+  <string name="UseProxyTelegramInfo">MTProto 代理设置。</string>
+  <string name="UseProxyTelegramInfo2">这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 流量。</string>
   <string name="UseProxyForCalls">对通话启用代理</string>
   <string name="UseProxyForCallsInfo">使用代理服务器可能降低通话质量。</string>
   <string name="LowDiskSpaceTitle">注意</string>
@@ -1084,7 +1099,6 @@
   <string name="KeepMediaForever">永久保留</string>
   <string name="AudioAutodownload">语音消息</string>
   <string name="VideoMessagesAutodownload">视频消息</string>
-  <!--passport view-->
   <!--sessions view-->
   <string name="SessionsTitle">活动会话</string>
   <string name="CurrentSession">当前会话</string>
@@ -1881,7 +1895,7 @@
   <string name="ConnectingToProxyDisable">禁用</string>
   <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置（数据和存储）中重新启用它。</string>
   <string name="ConnectingToProxyEnable">启用</string>
-  <string name="ConnectingToProxyTapToDisable">点按此处禁用代理</string>
+  <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
   <string name="EnableProxyAlert2">您可以稍后在设置（数据和存储）中修改您的代理服务器。</string>
   <string name="NotificationsPriority">优先级</string>

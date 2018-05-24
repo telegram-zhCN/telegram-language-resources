@@ -3431,7 +3431,7 @@
     <value>Proxy Settings</value>
   </data>
   <data name="ConnectingToProxy" xml:space="preserve">
-    <value>Connecting to proxy</value>
+    <value>正在连接代理...</value>
   </data>
   <data name="EnableProxyConfigmation" xml:space="preserve">
     <value>Are you sure you want to enable this proxy?</value>

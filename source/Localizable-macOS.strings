@@ -1853,10 +1853,10 @@
 
 */
 "ProxySettings.Item.Connected" = "connected";
-"ProxySettings.Item.ConnectedPing" = "connected (ping: %@)";
+"ProxySettings.Item.ConnectedPing" = "connected (ping: %@ ms)";
 "ProxySettings.Item.NeverConnected" = "unavailable";
 "ProxySettings.Item.LastConnection" = "last connection %@";
-"ProxySettings.Item.Available" = "available (ping: %@ms)";
+"ProxySettings.Item.Available" = "available (ping: %@ ms)";
 "ProxySettings.Item.Checking" = "checking";
 
 "ProxySettings.Secret" = "Secret";
