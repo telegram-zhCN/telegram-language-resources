@@ -16,5 +16,7 @@ script:
  - git status
  - git add source/*
  - git add zh-CN/*
+ - git status
+ - git diff
  - git commit -m "Update Languages"
  - git push git@github.com:telegram-zhCN/telegram-language-resources.git HEAD:master
