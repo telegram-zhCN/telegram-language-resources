@@ -15,6 +15,8 @@
     <string name="AccountAlreadyLoggedIn">This account is already logged in from this app.</string>
     <string name="AccountSwitch">Switch</string>
     <string name="SyncContacts">Sync Contacts</string>
+    <string name="SyncContactsDelete">Delete Synced Contacts</string>
+    <string name="SyncContactsDeleteInfo">This will remove your contacts from the Telegram servers. If \'Sync Contacts\' is enabled, contacts will be re-synced.</string>
     <string name="SyncContactsOn">Contacts from this device will be added to this account.</string>
     <string name="SyncContactsOff">Contacts from this device will not be added to this account.</string>
     <string name="SyncContactsInfoOn">Contacts from this device will be added to your account.</string>
@@ -957,6 +959,8 @@
     <string name="AddAccount">Add Account</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
     <string name="PrivacyPolicy">Privacy Policy</string>
+    <string name="TermsOfService">Terms of Service</string>
+    <string name="TermsOfServiceLogin">By signing up,\nyou agree to the *Terms of Service*.</string>
     <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
     <string name="DeleteLocalization">Delete localization?</string>
     <string name="IncorrectLocalization">Incorrect localization file</string>
@@ -1021,6 +1025,7 @@
     <string name="SmartNotificationsAlert">Sound Alert Frequency</string>
     <string name="SmartNotificationsDetail">%1$s within %2$s</string>
     <string name="SecretWebPage">Link Previews</string>
+    <string name="SecretWebPageInfo">Link previews will be generated on Telegram servers. We do not store data about the links you send.</string>
     <string name="SecretChat">Secret chats</string>
     <string name="ChromeCustomTabs">In-App Browser</string>
     <string name="ChromeCustomTabsInfo">Open external links within the app</string>
