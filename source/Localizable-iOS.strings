@@ -716,7 +716,7 @@
 
 "PrivacySettings.DeleteAccountTitle" = "DELETE MY ACCOUNT";
 "PrivacySettings.DeleteAccountIfAwayFor" = "If Away For";
-"PrivacySettings.DeleteAccountHelp" = "If you do not log in at least once within this period, your account will be deleted along with all groups, messages and contacts.";
+"PrivacySettings.DeleteAccountHelp" = "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.";
 
 "PrivacyLastSeenSettings.Title" = "Last Seen";
 "PrivacyLastSeenSettings.CustomHelp" = "Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).";
@@ -2932,9 +2932,22 @@ Unused sets are archived when you add more.";
 
 "SocksProxySetup.ProxyEnabled" = "Proxy\nEnabled";
 
-"DialogList.AdLabel" = "Proxy";
+"DialogList.AdLabel" = "Proxy Sponsor";
 "DialogList.AdNoticeAlert" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
 "SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal your Telegram traffic.";
+
+"Privacy.SecretChatsTitle" = "SECRET CHATS";
+"Privacy.SecretChatsLinkPreviews" = "Link Previews";
+"Privacy.SecretChatsLinkPreviewsHelp" = "Link previews will be generated on Telegram servers. We do not store data about the links you send.";
+
+"Privacy.ContactsTitle" = "CONTACTS";
+"Privacy.ContactsSync" = "Sync Contacts";
+"Privacy.ContactsSyncHelp" = "Turn on to continuously sync contacts from this device with your account.";
+"Privacy.ContactsReset" = "Delete Synced Contacts";
+"Privacy.ContactsResetConfirmation" = "This will remove your contacts from the Telegram servers.\nIf 'Sync Contacts' is enabled, contacts will be re-synced.";
+
+"Login.TermsOfServiceAgree" = "Agree & Continue";
+"Login.PRIVACY_URL" = "https://telegram.org/privacy";
 
 
 /* new from translations.telegram.org */

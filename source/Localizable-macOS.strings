@@ -1517,7 +1517,7 @@
 "PrivacySettings.LastSeenNobodyPlus" = "Nobody (+%@)";
 
 "PrivacySettings.DeleteAccountHeader" = "DELETE MY ACCOUNT";
-"PrivacySettings.DeleteAccountDescription" = "If you do not log in at least once within this period, your account will be deleted along with all groups, messages and contacts.";
+"PrivacySettings.DeleteAccountDescription" = "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.";
 "PrivacySettings.DeleteAccount" = "If Away For";
 
 "Peer.CreatePeer.Context.UpdatePhoto" = "Update photo";

@@ -18,7 +18,7 @@
     <string name="SyncContactsOn">Contacts from this device will be added to this account.</string>
     <string name="SyncContactsOff">Contacts from this device will not be added to this account.</string>
     <string name="SyncContactsInfoOn">Contacts from this device will be added to your account.</string>
-    <string name="SyncContactsInfoOff">Turn on to import contacts from this device to your account.</string>
+    <string name="SyncContactsInfoOff">Turn on to continuously sync contacts from this device with your account.</string>
     <string name="SyncContactsAdded">Contacts from this device were added to your account.</string>
     <!--code enter view-->
     <string name="YourCode">Phone verification</string>
@@ -171,7 +171,7 @@
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Regular">Regular</string>
-    <string name="ContactsPermissionAlert">To seamlessly connect with everyone you know, allow **Telegram** access to your contacts.</string>
+    <string name="ContactsPermissionAlert">Telegram needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuosly synced with Telegram\\'s heavily encrypted cloud servers.</string>
     <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
     <string name="ContactsPermissionAlertContinue">CONTINUE</string>
     <!--channels-->
@@ -1346,7 +1346,7 @@
     <string name="SecurityTitle">Security</string>
     <string name="DeleteAccountTitle">Account self-destructs</string>
     <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
-    <string name="DeleteAccountHelp">If you do not come online at least once within this period, your account will be deleted along with all groups, messages and contacts.</string>
+    <string name="DeleteAccountHelp">If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.</string>
     <string name="LastSeenTitle">Who can see your Last Seen time?</string>
     <string name="AddExceptions">Add exceptions</string>
     <string name="CustomHelp">Important: you won\'t be able to see Last Seen times for people with whom you don\'t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</string>
@@ -1519,7 +1519,7 @@
     <string name="ErrorSendRestrictedStickers">Sorry, the admins of this group have restricted you from sending stickers.</string>
     <string name="ErrorSendRestrictedMedia">Sorry, the admins of this group have restricted you from sending media.</string>
     <!--permissions-->
-    <string name="PermissionContacts">Telegram needs access to your contacts so that you can connect with your friends across all your devices.</string>
+    <string name="PermissionContacts">To let you connect with friends across all your devices, your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
     <string name="PermissionStorage">Telegram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
     <string name="PermissionNoAudio">Telegram needs access to your microphone so that you can send voice messages.</string>
     <string name="PermissionNoAudioVideo">Telegram needs access to your microphone so that you can record videos.</string>
