@@ -2949,6 +2949,8 @@ Unused sets are archived when you add more.";
 "Login.TermsOfServiceAgree" = "Agree & Continue";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 
+"UserInfo.BotPrivacy" = "Privacy Policy";
+
 
 /* new from translations.telegram.org */
 
