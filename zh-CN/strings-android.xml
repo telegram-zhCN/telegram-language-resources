@@ -102,12 +102,12 @@
   <string name="PaymentWarningText">Telegram 和 %1$s 都无法获得您的信用卡信息。信用卡信息将只会被支付平台 %2$s 处理。\n\n款项款将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
   <string name="PaymentPassword">密码和电子邮箱</string>
   <string name="PaymentPasswordTitle">密码</string>
-  <string name="PaymentPasswordEnter">输入密码</string>
+  <string name="PaymentPasswordEnter">请输入密码</string>
   <string name="PaymentPasswordReEnter">请再次输入密码</string>
   <string name="PaymentPasswordInfo">请创建一个用于保护您的付款信息的密码。您需要在登录时输入此密码。</string>
-  <string name="PaymentPasswordEmailTitle">密码恢复邮箱</string>
+  <string name="PaymentPasswordEmailTitle">辅助邮箱</string>
   <string name="PaymentPasswordEmail">您的邮箱</string>
-  <string name="PaymentPasswordEmailInfo">请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
+  <string name="PaymentPasswordEmailInfo">请添加您的有效邮件地址。这是唯一能够恢复忘记的密码的方法。</string>
   <string name="PaymentPhoneToProvider">电话号码将作为付款信息发送给 %1$s。</string>
   <string name="PaymentEmailToProvider">邮箱地址将作为付款信息发送给 %1$s。</string>
   <string name="PaymentPhoneEmailToProvider">电话号码和邮箱地址将作为付款信息发送给 %1$s。</string>
@@ -284,7 +284,7 @@
   <string name="ChannelJoinTo">您确定要加入 “%1$s” 频道？</string>
   <string name="ChannelCantOpenPrivate">抱歉，该对话已无法访问。</string>
   <string name="ChannelCantOpenBanned">很抱歉，您已被禁止在公开群组中发言。</string>
-  <string name="ChannelCantOpenNa">抱歉，该会话已无法访问。</string>
+  <string name="ChannelCantOpenNa">抱歉，该对话已无法访问。</string>
   <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
   <string name="ChannelUserLeftError">抱歉，该用户已决定退出此频道，您无法邀请该用户回来。</string>
   <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
@@ -350,11 +350,11 @@
   <string name="ManageChannel">管理频道</string>
   <string name="ManageGroupMenu">管理群组</string>
   <string name="ManageChannelMenu">管理频道</string>
-  <string name="ChatHistory">历史记录对新用户</string>
+  <string name="ChatHistory">新成员历史记录可见性</string>
   <string name="ChatHistoryVisible">可见</string>
   <string name="ChatHistoryVisibleInfo">新成员将能够查看他们加入前发送的消息。</string>
   <string name="ChatHistoryHidden">隐藏</string>
-  <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
+  <string name="ChatHistoryHiddenInfo">新成员将不能查看更早的消息。</string>
   <!--event log-->
   <string name="EventLog">近期操作</string>
   <string name="EventLogAllEvents">所有操作</string>
@@ -465,7 +465,7 @@
   <string name="ChooseStickerSetPlaceholder">贴纸包</string>
   <string name="ChooseStickerSetMy">您可以通过机器人 @stickers 创建您自己的贴纸包。</string>
   <string name="ChooseStickerSetNotFound">贴纸包未找到</string>
-  <string name="ChooseStickerSetNotFoundInfo">请重试，或从下面列表中选取一个</string>
+  <string name="ChooseStickerSetNotFoundInfo">请检查您的输入，或从下面列表中选取一个</string>
   <!--chat view-->
   <string name="Invisible">隐身</string>
   <string name="Typing">正在输入...</string>
@@ -658,7 +658,7 @@
   <string name="NotificationGroupKickYou">%1$s 将您移出了 %2$s 群组</string>
   <string name="NotificationGroupLeftMember">%1$s 已退出 %2$s 群组</string>
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
-  <string name="NotificationUnrecognizedDevice">%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动会话」中将该会话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队</string>
+  <string name="NotificationUnrecognizedDevice">%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动对话」中将该对话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队</string>
   <string name="NotificationContactNewPhoto">%1$s 更新了头像</string>
   <string name="NotificationInvitedToGroupByLink">%1$s 已通过邀请链接加入群组 %2$s</string>
   <string name="NotificationGroupFew">%1$s 发送了 %3$s 到群组 %2$s</string>
@@ -788,7 +788,7 @@
   <string name="PhoneOther">其它</string>
   <string name="PhoneMain">主要</string>
   <string name="UserBio">个人简介</string>
-  <string name="UserBioEmpty">不推荐</string>
+  <string name="UserBioEmpty">无</string>
   <string name="UserBioInfo">您可以给自己添加一些简介。任何人在打开您的个人信息后将会看到这个简介。</string>
   <string name="StartEncryptedChat">开始加密对话</string>
   <string name="GroupsInCommon">共同加入的群组</string>
@@ -800,7 +800,7 @@
   <string name="MessageLifetimePhoto">如果您设定一个定时器，该图片将在阅后一定时间内自毁。</string>
   <string name="MessageLifetimeVideo">如果您设定一个定时器，该视频将在阅后一定时间内自毁。</string>
   <string name="ShortMessageLifetimeForever">关闭</string>
-  <string name="EncryptionKeyDescription">这是您与 **%1$s** 私密会话加密密钥的可视化图片。\n\n如果这张图片看起来和 **%2$s** 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 telegram.org 的 FAQ</string>
+  <string name="EncryptionKeyDescription">这是您与 **%1$s** 私密对话加密密钥的可视化图片。\n\n如果这张图片看起来和 **%2$s** 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 telegram.org 的 FAQ</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">未知</string>
   <string name="Info">个人信息</string>
@@ -814,7 +814,7 @@
   <string name="UsernameInvalidLong">用户名不能超过32个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
   <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**，**0–9** 和下划线。最小长度为 **5** 个字符。</string>
-  <string name="UsernameHelpLink">此链接会在 Telegram 中打开一个与您的会话窗口：\n%1$s</string>
+  <string name="UsernameHelpLink">此链接会在 Telegram 中打开一个与您的对话窗口：\n%1$s</string>
   <string name="UsernameChecking">正在检查用户名...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="UsernameEmpty">无</string>
@@ -850,7 +850,7 @@
   <string name="SuggestStickers">通过 emoji 推荐热门表情</string>
   <string name="SuggestStickersAll">全部</string>
   <string name="SuggestStickersInstalled">已添加</string>
-  <string name="SuggestStickersNone">不推荐</string>
+  <string name="SuggestStickersNone">无</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已归档贴纸</string>
   <string name="ArchivedMasks">已归档装饰</string>
@@ -866,19 +866,19 @@
   <!--theme view-->
   <string name="Theme">主题</string>
   <string name="AutoNightTheme">自动启用夜间模式</string>
-  <string name="AutoNightDisabled">禁用</string>
-  <string name="AutoNightScheduled">定时</string>
+  <string name="AutoNightDisabled">已禁用</string>
+  <string name="AutoNightScheduled">计划时段</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightSchedule">时间段</string>
-  <string name="AutoNightLocation">使用当地日落和日出时间\n</string>
-  <string name="AutoNightUpdateLocation">更新地点</string>
-  <string name="AutoNightUpdateLocationInfo">计算日落和日出时间需要查看一次你的大致位置。注意：此位置仅储存于你的本地设备上。\n\n日落：%1$s\n日出：%2$s</string>
+  <string name="AutoNightLocation">使用当地日落/日出时间\n</string>
+  <string name="AutoNightUpdateLocation">更新位置</string>
+  <string name="AutoNightUpdateLocationInfo">计算日落/日出时间需要对您的粗略位置进行一次性检测。请注意，此位置仅会以本地形式存储在您的设备上。\n\n日落：%1$s\n日出：%2$s</string>
   <string name="AutoNightFrom">从</string>
-  <string name="AutoNightTo">结束时间</string>
+  <string name="AutoNightTo">至</string>
   <string name="AutoNightPreferred">首选夜间主题</string>
   <string name="AutoNightBrightness">亮度阈值</string>
   <string name="AutoNightBrightnessInfo">当环境亮度低于 %1$d%% 时，切换为夜间主题。</string>
-  <string name="ThemeDark">标准暗色调</string>
+  <string name="ThemeDark">暗色</string>
   <string name="ThemeBlue">蓝色</string>
   <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
   <string name="IncorrectTheme">错误的主题文件</string>
@@ -1066,10 +1066,10 @@
   <string name="UseProxyTelegram">MTProto 代理</string>
   <string name="UseProxyTelegramError">您正在使用的代理没有被正确配置并因此被禁用。请搜寻其它代理。</string>
   <string name="UseProxySponsor">代理赞助商</string>
-  <string name="UseProxySponsorInfo">这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
+  <string name="UseProxySponsorInfo">这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
   <string name="UseProxyInfo">SOCKS5 代理设置</string>
   <string name="UseProxyTelegramInfo">MTProto 代理设置。</string>
-  <string name="UseProxyTelegramInfo2">这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。</string>
+  <string name="UseProxyTelegramInfo2">这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。</string>
   <string name="UseProxyForCalls">对通话启用代理</string>
   <string name="UseProxyForCallsInfo">使用代理服务器可能降低通话质量。</string>
   <string name="ConnectingToProxyEnable">启用</string>
@@ -1082,7 +1082,7 @@
   <string name="AutodownloadGroupChats">群聊</string>
   <string name="AutodownloadChannels">频道</string>
   <string name="AutodownloadSizeLimit">大小限制</string>
-  <string name="AutodownloadSizeLimitUpTo">多达 %1$s</string>
+  <string name="AutodownloadSizeLimitUpTo">上限 %1$s</string>
   <string name="Streaming">在线播放</string>
   <string name="EnableStreaming">在线播放视频和音频文件</string>
   <string name="EnableAllStreamingInfo">一些视频不能被在线播放——例如所有从 Telegram 4.7 或更早版本的 Android 客户端发送的视频。\n</string>
@@ -1107,28 +1107,28 @@
   <string name="AudioAutodownload">语音消息</string>
   <string name="VideoMessagesAutodownload">视频消息</string>
   <!--sessions view-->
-  <string name="SessionsTitle">活动会话</string>
-  <string name="CurrentSession">当前会话</string>
-  <string name="NoOtherSessions">没有其他的活动会话</string>
+  <string name="SessionsTitle">活动对话</string>
+  <string name="CurrentSession">当前对话</string>
+  <string name="NoOtherSessions">没有其他的活动对话</string>
   <string name="NoOtherSessionsInfo">您可以从其他的手机、平板和桌面设备用同样的手机号码登陆Telegram。所有数据将被实时同步。</string>
-  <string name="OtherSessions">活动会话</string>
-  <string name="SessionsInfo">控制您在其它设备上的会话。</string>
-  <string name="TerminateSessionInfo">点击一个会话来注销它。</string>
-  <string name="TerminateSessionQuestion">注销该会话？</string>
+  <string name="OtherSessions">活动对话</string>
+  <string name="SessionsInfo">控制您在其它设备上的对话。</string>
+  <string name="TerminateSessionInfo">点击一个对话来注销它。</string>
+  <string name="TerminateSessionQuestion">注销该对话？</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
-  <string name="AreYouSureSessions">您确定要注销所有其它设备上的会话吗？</string>
-  <string name="TerminateAllSessions">注销所有其它设备上的会话</string>
+  <string name="AreYouSureSessions">您确定要注销所有其它设备上的对话吗？</string>
+  <string name="TerminateAllSessions">注销所有其它设备上的对话</string>
   <string name="UnofficialApp">非官方应用</string>
   <string name="NoOtherWebSessions">没有活动的第三方登录</string>
-  <string name="NoOtherWebSessionsInfo">您可以在所有支持使用 Telegram 登入的网站中登录。</string>
+  <string name="NoOtherWebSessionsInfo">您可以在在支持的网站上使用 Telegram 登录。</string>
   <string name="OtherWebSessions">已关联的网站</string>
   <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
   <string name="TerminateWebSessionInfo">轻触以取消该网站与 Telegram 账号的关联</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="TerminateWebSessionStop">屏蔽 %1$s</string>
-  <string name="TerminateAllWebSessions">从所有网站中断开</string>
+  <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
   <string name="AreYouSureWebSessions">是否取消与所有使用 Telegram 登录的网站的关联？</string>
-  <string name="ClearOtherWebSessionsHelp">您可以在所有支持使用 Telegram 登入的网站中登录。</string>
+  <string name="ClearOtherWebSessionsHelp">您可以在支持的网站上使用 Telegram 登录。</string>
   <!--passcode view-->
   <string name="Passcode">锁定码</string>
   <string name="ChangePasscode">修改锁定码</string>
@@ -1160,10 +1160,10 @@
   <string name="NoSharedAudio">在此对话中分享音乐，并在您所有的设备上访问。</string>
   <string name="NoSharedFiles">在此对话中分享文件，并在您所有的设备上访问。</string>
   <string name="NoSharedLinks">在此对话中分享链接，并在您所有的设备上访问。</string>
-  <string name="NoMediaSecret">此会话中共享的所有图片和视频都会在这里显示。</string>
-  <string name="NoSharedAudioSecret">此会话中共享的所有音乐都会在这里显示。</string>
-  <string name="NoSharedFilesSecret">此会话中共享的所有文件都会在这里显示。</string>
-  <string name="NoSharedLinksSecret">此会话中共享的所有链接都会在这里显示。</string>
+  <string name="NoMediaSecret">此对话中共享的所有图片和视频都会在这里显示。</string>
+  <string name="NoSharedAudioSecret">此对话中共享的所有音乐都会在这里显示。</string>
+  <string name="NoSharedFilesSecret">此对话中共享的所有文件都会在这里显示。</string>
+  <string name="NoSharedLinksSecret">此对话中共享的所有链接都会在这里显示。</string>
   <!--map view-->
   <string name="Map">地图</string>
   <string name="Satellite">卫星</string>
@@ -1258,7 +1258,7 @@
   <string name="CropOriginal">原图</string>
   <string name="CropSquare">正方形</string>
   <string name="SinglePhotosHelp">将媒体文件分开发送</string>
-  <string name="GroupPhotosHelp">将媒体合并至一条消息</string>
+  <string name="GroupPhotosHelp">将媒体聚合至一条消息</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
   <string name="SetAdditionalPassword">设置两步验证密码</string>

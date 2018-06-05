@@ -3532,7 +3532,7 @@ Anyone who opens your profile will see this text.</value>
 You'll be asked to enter it when you log in.</value>
   </data>
   <data name="SendLiveLocation" xml:space="preserve">
-    <value>Share My Live Location for...</value>
+    <value>分享我的实时位置到...</value>
   </data>
   <data name="SendLiveLocationSubtitle" xml:space="preserve">
     <value>Updated in real time as you move</value>
