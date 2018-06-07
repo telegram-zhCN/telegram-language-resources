@@ -8,7 +8,7 @@
     <string name="LanguageCode">en</string>
     <string name="ContinueOnThisLanguage">Continue in English</string>
     <!--signin view-->
-    <string name="YourPhone">Your phone</string>
+    
     <string name="StartText">Please confirm your country code and enter your phone number.</string>
     <string name="ChooseCountry">Choose a country</string>
     <string name="WrongCountry">Invalid Country Code</string>
@@ -1911,4 +1911,8 @@
   <string name="NotificationsPriorityMax">Max</string>
   <string name="PrivacyPayments">Payments</string>
   <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
+
+  <!-- new from translations.telegram.org -->
+
+  <string name="YourPhone">Your phone</string>
 </resources>
