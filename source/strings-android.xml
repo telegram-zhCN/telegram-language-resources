@@ -173,7 +173,7 @@
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Regular">Regular</string>
-    <string name="ContactsPermissionAlert">Telegram needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuosly synced with Telegram\\'s heavily encrypted cloud servers.</string>
+    <string name="ContactsPermissionAlert">Telegram needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuosly synced with Telegram\'s heavily encrypted cloud servers.</string>
     <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
     <string name="ContactsPermissionAlertContinue">CONTINUE</string>
     <!--channels-->

@@ -8,7 +8,6 @@
   <string name="LanguageCode">zh_CN</string>
   <string name="ContinueOnThisLanguage">使用简体中文继续</string>
   <!--signin view-->
-  <string name="YourPhone">您的手机号码</string>
   <string name="StartText">请确认您的国家代码并输入您的手机号码。</string>
   <string name="ChooseCountry">选择国家</string>
   <string name="WrongCountry">国家代码无效</string>
@@ -1909,4 +1908,6 @@
   <string name="NotificationsPriorityMax">最高</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并使所有的付款提供商清除您保存的信用卡。请注意 Telegram 从来不会存储您的信用卡数据。</string>
+  <!--new from translations.telegram.org-->
+  <string name="YourPhone">您的手机号码</string>
 </resources>
