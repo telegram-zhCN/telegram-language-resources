@@ -172,7 +172,6 @@
   <string name="Bold">粗体</string>
   <string name="Italic">斜体</string>
   <string name="Regular">常规</string>
-  <string name="ContactsPermissionAlert">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="ContactsPermissionAlertNotNow">稍后</string>
   <string name="ContactsPermissionAlertContinue">继续</string>
   <!--channels-->

@@ -3801,10 +3801,10 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>轻触以取消该网站与 Telegram 账号的关联</value>
   </data>
   <data name="Passport" xml:space="preserve">
-    <value>Passport</value>
+    <value>护照</value>
   </data>
   <data name="Authorize" xml:space="preserve">
-    <value>Authorize</value>
+    <value>授权</value>
   </data>
   <data name="Email2" xml:space="preserve">
     <value>邮箱</value>
