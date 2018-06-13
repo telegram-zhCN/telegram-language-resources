@@ -203,7 +203,7 @@
   <string name="ActionPinnedContact">un1 置顶了 1 个联系人信息</string>
   <string name="ActionPinnedGame">un1 置顶了 %1$s</string>
   <string name="ActionPinnedGeo">un1 置顶了 1 个位置</string>
-  <string name="ActionPinnedGeoLive">un1 置顶了一个实时位置</string>
+  <string name="ActionPinnedGeoLive">un1 置顶了一个实时位置信息</string>
   <string name="ActionPinnedGif">un1 置顶了 1 个 GIF</string>
   <string name="ActionPinnedMusic">un1 置顶了 1 首音乐</string>
   <string name="ActionMigrateFromGroup">此群组已升级为超级群组</string>
@@ -302,7 +302,7 @@
   <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
   <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
   <string name="ChannelMessageMap">%1$s 发送了一个位置</string>
-  <string name="ChannelMessageLiveLocation">%1$s 发布了一个实时位置</string>
+  <string name="ChannelMessageLiveLocation">%1$s 正在共享实时位置</string>
   <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
   <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
   <string name="ChannelMessageFew">%1$s 发送了 %2$s </string>
@@ -622,7 +622,7 @@
   <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
   <string name="NotificationMessageContact">%1$s 给您分享了一个联系人</string>
   <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
-  <string name="NotificationMessageLiveLocation">%1$s 给您发送了实时位置</string>
+  <string name="NotificationMessageLiveLocation">%1$s 与您共享了实时位置</string>
   <string name="NotificationMessageGame">%1$s 邀请您玩 %2$s </string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
@@ -637,7 +637,7 @@
   <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到 %2$s 群组</string>
   <string name="NotificationMessageGroupContact">%1$s 分享了一个联系人到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
-  <string name="NotificationMessageGroupLiveLocation">%1$s 发送了实时位置到 %2$s 群组</string>
+  <string name="NotificationMessageGroupLiveLocation">%1$s 共享了实时位置到 %2$s 群组</string>
   <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s 来玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
@@ -679,7 +679,7 @@
   <string name="NotificationActionPinnedRound">%1$s 在群组 %2$s 置顶了一段视频消息</string>
   <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一个联系人</string>
   <string name="NotificationActionPinnedGeo">%1$s 在群组 %2$s 置顶了一个地理位置</string>
-  <string name="NotificationActionPinnedGeoLive">%1$s 在群组 %2$s 置顶了一个实时位置</string>
+  <string name="NotificationActionPinnedGeoLive">%1$s 在群组 %2$s 置顶了一个实时位置信息</string>
   <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF</string>
   <string name="NotificationActionPinnedMusic">%1$s 在群组 %2$s 置顶了一首音乐</string>
   <string name="NotificationActionPinnedInvoice">%1$s 在群组 %2$s 置顶了一张订单</string>
@@ -696,7 +696,7 @@
   <string name="NotificationActionPinnedRoundChannel">%1$s 置顶了 1 条视频消息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 置顶了 1 位联系人</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了 1 个位置</string>
-  <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了 1 个实时位置</string>
+  <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了 1 个实时位置信息</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 置顶了 1 个 GIF</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了 1 首音乐</string>
   <string name="SecretChatName">Telegram</string>
