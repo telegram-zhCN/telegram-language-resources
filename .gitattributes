@@ -1,0 +1,4 @@
+source/*.* text
+zh-CN/*.* text
+
+langresource-deploy.enc binary
