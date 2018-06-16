@@ -1149,6 +1149,7 @@
     <string name="PassportPhoneInfo">Enter your phone number</string>
     <string name="PassportPhoneUseSame">Use %1$s</string>
     <string name="PassportPhoneUseSameInfo">Use the same phone number as on Telegram.</string>
+    <string name="PassportPhoneUseSameEmailInfo">Use the same email as on Telegram.</string>
     <string name="PassportPhoneUseOther">Or enter a new phone number</string>
     <string name="PassportPhoneUploadInfo">Note: You will receive a confirmation code on the phone number you provide.</string>
     <string name="PassportEmail">Email</string>
@@ -1591,6 +1592,8 @@
     <string name="UnsupportedMedia">This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update</string>
     <string name="AttachPhoto">Photo</string>
     <string name="AttachVideo">Video</string>
+    <string name="AttachDestructingPhoto">Self-Destructing Photo</string>
+    <string name="AttachDestructingVideo">Self-Destructing Video</string>
     <string name="AttachPhotoExpired">Photo has expired</string>
     <string name="AttachVideoExpired">Video has expired</string>
     <string name="AttachGif">GIF</string>
@@ -1606,6 +1609,7 @@
     <string name="ActionTakeScreenshootYou">You took a screenshot!</string>
     <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
     <!--Alert messages-->
+    <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</string>
     <string name="InvalidPhoneNumber">Invalid phone number</string>
     <string name="BannedPhoneNumber">Banned phone number</string>
     <string name="CodeExpired">Code expired, please login again</string>
