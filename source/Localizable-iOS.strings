@@ -3164,6 +3164,7 @@ Unused sets are archived when you add more.";
 "Application.Update" = "Update";
 
 "Conversation.EditingMessagePanelMedia" = "Tap to edit media";
+"Conversation.EditingMessageMediaChange" = "Change Photo or Video";
 "Conversation.EditingMessageMediaEditCurrent" = "Edit Current";
 
 "Conversation.InputTextCaptionPlaceholder" = "Caption";
@@ -3189,9 +3190,12 @@ Unused sets are archived when you add more.";
 "UserInfo.NotificationsDefault" = "Default";
 "UserInfo.NotificationsDefaultSound" = "Default (%@)";
 
-
+"DialogList.ProxyConnectionIssuesTooltip" = "Can’t connect to your preferred proxy.\nTap to change settings.";
 
 "Conversation.TapAndHoldToRecord" = "Tap and hold to record";
+
+"Privacy.TopPeers" = "Suggest Frequent Contacts";
+"Privacy.TopPeersHelp" = "Display people you message frequently at the top of the search section for quick access.";
 
 
 /* new from translations.telegram.org */

@@ -15,7 +15,6 @@
     <string name="AccountAlreadyLoggedIn">This account is already logged in from this app.</string>
     <string name="AccountSwitch">Switch</string>
     <string name="SyncContacts">Sync Contacts</string>
-    <string name="SyncContactsDelete">Delete Synced Contacts</string>
     <string name="SyncContactsDeleteInfo">This will remove your contacts from the Telegram servers. If \'Sync Contacts\' is enabled, contacts will be re-synced.</string>
     <string name="SyncContactsOn">Contacts from this device will be added to this account.</string>
     <string name="SyncContactsOff">Contacts from this device will not be added to this account.</string>
@@ -175,7 +174,7 @@
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Regular">Regular</string>
-    <string name="ContactsPermissionAlert">**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuosly synced with Telegram\'s heavily encrypted cloud servers.</string>
+    <string name="ContactsPermissionAlert">**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
     <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
     <string name="ContactsPermissionAlertContinue">CONTINUE</string>
     <!--channels-->
@@ -902,6 +901,7 @@
     <string name="CreateNewThemeInfo">You can create your own theme by changing colors within the app. You can always switch back to the default Telegram theme here.</string>
     <!--settings view-->
     <string name="ResetNotificationsText">Reset all notification settings to default</string>
+    <string name="ResetNotificationsAlert">Are you sure you want to reset all notification settings to default?</string>
     <string name="TextSize">Messages Text Size</string>
     <string name="AskAQuestion">Ask a Question</string>
     <string name="EnableAnimations">Enable Animations</string>
@@ -1502,6 +1502,9 @@
     <string name="CreateGroupError">Sorry, you can\'t create a group with these users because of their privacy settings.</string>
     <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
     <string name="PrivacyCallsP2PHelp">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</string>
+    <string name="SyncContactsDelete">Delete Synced Contacts</string>
+    <string name="SuggestContacts">Suggest Frequent Contacts</string>
+    <string name="SuggestContactsInfo">Display people you message frequently at the top of the search section for quick access.</string>
     <!--edit video view-->
     <string name="SendingVideo">Sending video...</string>
     <string name="SendingGif">Sending GIF...</string>
