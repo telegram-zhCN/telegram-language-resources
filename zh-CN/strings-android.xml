@@ -15,7 +15,6 @@
   <string name="AccountAlreadyLoggedIn">该帐户已在此应用中登录。</string>
   <string name="AccountSwitch">切换</string>
   <string name="SyncContacts">同步联系人</string>
-  <string name="SyncContactsDelete">删除已同步联系人</string>
   <string name="SyncContactsDeleteInfo">这将把你的联系人信息从 Telegram 服务端删除。如果“同步联系人”选项处于启用状态，联系人信息将被重新同步。</string>
   <string name="SyncContactsOn">此设备上的联系人将被同步至此帐户。</string>
   <string name="SyncContactsOff">此设备上的联系人将不会被同步至此帐户。</string>
@@ -1413,6 +1412,7 @@
   <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。</string>
+  <string name="SyncContactsDelete">删除已同步联系人</string>
   <!--edit video view-->
   <string name="SendingVideo">正在发送视频...</string>
   <string name="SendingGif">正在发送 GIF...</string>

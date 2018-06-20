@@ -3027,7 +3027,6 @@ Unused sets are archived when you add more.";
 "Passport.Scans.Upload" = "Upload Scan";
 "Passport.Scans.UploadNew" = "Upload Additional Scan";
 "Passport.Scans.ScanIndex" = "Scan %@";
-"Passport.Scans.ScanUploaded" = "Uploaded %@";
 
 "Passport.Identity.TypePersonalDetails" = "Personal Details";
 "Passport.Identity.TypePassport" = "Passport";
@@ -3122,7 +3121,7 @@ Unused sets are archived when you add more.";
 "Passport.Address.Country" = "Country";
 "Passport.Address.CountryPlaceholder" = "Country";
 
-"Passport.Address.ScansHelp" = "The document must contain your first and last name, your residential address, a stamp / barcode / QR code / logo, and issue date, no more than 3 months ago";
+"Passport.Address.ScansHelp" = "The document must contain your first and last name, your residential address, a stamp / barcode / QR code / logo, and issue date, no more than 3 months ago.";
 
 "Passport.Phone.Title" = "Phone Number";
 "Passport.Phone.UseTelegramNumber" = "Use %@";
@@ -3196,6 +3195,8 @@ Unused sets are archived when you add more.";
 
 "Privacy.TopPeers" = "Suggest Frequent Contacts";
 "Privacy.TopPeersHelp" = "Display people you message frequently at the top of the search section for quick access.";
+"Privacy.TopPeersWarning" = "This will delete all data about the people you message frequently as well the inline bots you are likely to use.";
+"Privacy.TopPeersDelete" = "Delete";
 
 
 /* new from translations.telegram.org */
