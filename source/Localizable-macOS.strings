@@ -1545,7 +1545,7 @@
 "Search.Global.Channel1_many" = "%@, %d subscribers";
 "Search.Global.Channel1_other" = "%@, %d subscribers";
 
-//"ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
+/* "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top."; */
 "ChatList.Context.PinErrorNew" = "Sorry, you can pin no more than 5 chats to the top.";
 
 
@@ -1682,219 +1682,219 @@
 
 
 
-//"SecureId.Request.Header1" = "**%@** requests access to your personal data to sign you up for their services.";
-//
-//"SecureId.Request.Permission.Email" = "E-Mail";
-//"SecureId.Request.Permission.Phone" = "Phone Number";
-//"SecureId.Request.Permission.PersonalDetails" = "Personal Details";
-//"SecureId.Request.Permission.Passport" = "Passport";
-//"SecureId.Request.Permission.Address" = "Address";
-//"SecureId.Request.Permission.UtilityBill" = "Utility Bill";
-//"SecureId.Request.Permission.DriversLicense" = "Drivers License";
-//"SecureId.Request.Permission.RentalAgreement" = "Rental Agreement";
-//"SecureId.Request.Permission.IDCard" = "Identity Card";
-//"SecureId.Request.Permission.BankStatement" = "Bank Statement";
-//"SecureId.Request.Permission.InternalPassport" = "Internal Passport";
-//"SecureId.Request.Permission.PassportRegistration" = "Passport Registration";
-//"SecureId.Request.Permission.TemporaryRegistration" = "Temporary Registration";
-//
-//"SecureId.Request.Accept" = "Authorize";
-//
-//"InputData.Date.Day.Placeholder" = "Day";
-//"InputData.Date.Month.Placeholder" = "Month";
-//"InputData.Date.Year.Placeholder" = "Year";
-//
-//
-//"SecureId.Request.CreatePassword" = "Create a Password";
-//"SecureId.Request.Permission.Email.Empty" = "Provide your contact email address";
-//"SecureId.Request.Permission.Phone.Empty" = "Provide your contact phone number";
-//"SecureId.Request.Permission.Identity.Empty" = "Upload scan of your passport or other ID";
-//"SecureId.Request.Permission.Address.Empty" = "Upload proof of your address";
-//
-//"SecureId.FileUpload.Progress" = "%@% Uploaded";
-//"SecureId.ScanNumber" = "Scan %d";
-//
-//"SecureId.Identity.Id" = "Identity Card";
-//"SecureId.Identity.Passport" = "Passport";
-//"SecureId.Identity.DriverLicense" = "Driver License";
-//"SecureId.Identity.UtilityBill" = "Utility Bill";
-//"SecureId.Identity.BankStatement" = "Bank Statement";
-//"SecureId.Identity.RentalAgreement" = "Rental Agreement";
-//"SecureId.Identity.PassportRegistration" = "Passport Registration";
-//
-//"SecureId.IdentityDocument" = "Identity Document";
-//"SecureId.ResidentialAddress" = "Residential Address";
-//"SecureId.PhoneNumber" = "Phone Number";
-//"SecureId.Email" = "Email Address";
-//
-//"SecureId.DeletePassport" = "Delete Passport";
-//
-//"SecureId.Gender.Male" = "Male";
-//"SecureId.Gender.Female" = "Female";
-//
-//
-//"SecureId.Identity.Placeholder.Gender" = "Gender";
-//
-//"SecureId.Identity.Placeholder.FirstName" = "Name";
-//"SecureId.Identity.InputPlaceholder.FirstName" = "Name";
-//
-//"SecureId.Identity.Placeholder.LastName" = "Surname";
-//"SecureId.Identity.InputPlaceholder.LastName" = "Surname";
-//
-//"SecureId.Identity.Placeholder.Birthday" = "Birthday";
-//
-//"SecureId.Identity.Placeholder.Country" = "Country";
-//
-//"SecureId.Identity.Placeholder.Citizenship" = "Citizenship";
-//"SecureId.Identity.Placeholder.Residence" = "Residence";
-//
-//"SecureId.Identity.Placeholder.IssuedDate" = "Issued Date";
-//"SecureId.Identity.Placeholder.ExpiryDate" = "Expiry Date";
-//"SecureId.Identity.DocumentDetailsHeader" = "DOCUMENTS DETAILS";
-//
-//"SecureId.Identity.CardId.InputPlaceholder" = "Card ID";
-//"SecureId.Identity.CardId.Placeholder" = "Card ID";
-//
-//"SecureId.Identity.Passport.InputPlaceholder" = "Passport ID";
-//"SecureId.Identity.Passport.Placeholder" = "Passport ID";
-//
-//"SecureId.Identity.License.InputPlaceholder" = "License ID";
-//"SecureId.Identity.License.Placeholder" = "License ID";
-//
-//
-//
-//"SecureId.Scans.Header" = "SCANS";
-//"SecureId.UploadScan" = "Upload Scan";
-//"SecureId.UploadAdditionalScan" = "Upload Additional Scan";
-//
-//"SecureId.IdentityScan.Description" = "The document must contain your first and last name, your residential address, a stamp / barcode / QR code / logo, and issue date, no more than 3 month ago.";
-//
-//
-//"SecureId.RequestedInformation.Header" = "REQUESTED INFORMATION";
-//"SecureId.Accept.Policy" = "You accept the [Login Widged Example Privacy Policy](_applyPolicy_) and allow their **%@** to send you messages.";
-//"SecureId.Accept.Help" = "You are sending your documents directly to **%@** and allowing their **%@** to send you messages.";
-//"Chat.Service.SecureId.AccessGranted" = "%@ received the following documents: %@";
-//"SecureId.RemoveEmail" = "Delete Email Address?";
-//"SecureId.RemovePhoneNumber" = "Delete Phone Number?";
-//
-//"SecureId.InstallEmail.Title" = "E-Mail";
-//"SecureId.InstallPhone.Title" = "Phone Number";
-//"SecureId.CreatePassword.Title" = "Password & E-Mail";
-//
-//
-//"SecureId.CreatePassword.Header" = "PASSWORD";
-//"SecureId.CreatePassword.PasswordPlaceholder" = "Password";
-//"SecureId.CreatePassword.PasswordInputPlaceholder" = "Enter your password";
-//"SecureId.CreatePassword.RePasswordInputPlaceholder" = "Re-Enter your password";
-//"SecureId.CreatePassword.Description" = "Please create a password to protect your passport info. You'll be asked to enter it when you log in."; //WRONG
-//"SecureId.CreatePassword.Hint.Header" = "HINT";
-//"SecureId.CreatePassword.Hint.Placeholder" = "Hint";
-//"SecureId.CreatePassword.Hint.InputPlaceholder" = "Hint for your password";
-//"SecureId.CreatePassword.Email.Header" = "RECOVERY E-MAIL";
-//"SecureId.CreatePassword.Email.Placeholder" = "E-Mail";
-//"SecureId.CreatePassword.Email.InputPlaceholder" = "Your E-Mail";
-//"SecureId.CreatePassword.Email.Description" = "Please add your valid e-mail. It is the only way to recover a forgotten password.";
-//
-//"SecureId.EmailActivate.Code.Placeholder" = "Code";
-//"SecureId.EmailActivate.Code.InputPlaceholder" = "Enter a code";
-//"SecureId.EmailActivate.Description" = "Please enter the confirmation code we've just sent to %@.";
-//
-//
-//"SecureId.DeleteIdentity" = "Delete Document";
-//"SecureId.DeleteAddress" = "Delete Address";
-//
-//"SecureId.InsertPassword.Password" = "Enter your password";
-//"SecureId.InsertPassword.Next" = "Next";
-//"SecureId.InsertPassword.Description" = "Please provide the password for accessing your personal data";
-//"SecureId.PhoneNumber.UseSame.Desc" = "Use the same phone number as Telegram log in.";
-//"SecureId.PhoneNumber.UseSame" = "Use %@";
-//"SecureId.PhoneNumber.Note" = "Note: You will receive a confirmation code on the phone number you provide.";
-//"SecureId.PhoneNumber.Header" = "OR ENTER OTHER PHONE NUMBER";
-//
-//"SecureId.InsertPassword.Settings.Description" = "Please enter your Telegram password to decrypt your data";
-//
-//
-//"SecureId.Email.UseSame" = "Use %@";
-//"SecureId.Email.UseSame.Desc" = "Note: You will receive a confirmation code on the e-mail you provide.";
-//"SecureId.Email.Email.Placeholder" = "E-Mail";
-//"SecureId.Email.Email.InputPlaceholder" = "Enter your e-mail";
-//
-//"SecureId.PhoneNumber.ConfirmCode.Placeholder" = "Code";
-//"SecureId.PhoneNumber.ConfirmCode.InputPlaceholder" = "Enter a code";
-//"SecureId.PhoneNumber.ConfirmCode.Desc" = "Please enter the confirmation code we've just sent to %@. via SMS";
-//
-//
-//"SecureId.Address.Header" = "ADDRESS";
-//"SecureId.Address.Street.Placeholder" = "Street";
-//"SecureId.Address.Street.InputPlaceholder" = "Street and Number, PO Box";
-//"SecureId.Address.Street1.InputPlaceholder" = "Apt, suite, unit, building, floor";
-//"SecureId.Address.City.Placeholder" = "City";
-//"SecureId.Address.City.InputPlaceholder" = "City";
-//"SecureId.Address.Region.Placeholder" = "Region";
-//"SecureId.Address.Region.InputPlaceholder" = "State/Republic/Region";
-//"SecureId.Address.Country.Placeholder" = "Country";
-//"SecureId.Address.Postcode.Placeholder" = "Postcode";
-//"SecureId.Address.Postcode.InputPlaceholder" = "Postcode";
-//
-//
-//"SecureId.Identity.SelfieTitle" = "SELFIE VERIFICATION";
-//"SecureId.Identity.Selfie" = "Selfie";
-//"SecureId.Identity.SelfieUpload" = "Add Selfie";
-//"SecureId.Identity.SelfieUploadNew" = "Retake Selfie";
-//"SecureId.Identity.SelfieHelp" = "Upload a selfie of yourself holding this document. Make sure the ID and your face are clearly visible.";
-//
-//"SecureId.forgotPassword.NoEmail" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
-//"SecureId.Confirm.Cancel" = "Are you sure you want to stop authorization?";
-//
-//
-//
-//"SecureId.RecoverPassword" = "Password Recovery";
-//"SecureId.RecoverPassword.SentEmailCode" = "Code was sent to %@";
-//
-// "SecureId.Warning.DataLost" = "Warning! All data saved in your Telegram passport will be lost!";
-// "SecureId.Upload.Main" = "Upload main page of the document";
-// "SecureId.Upload.Front" = "Upload a front side photo of document";
-// "SecureId.Upload.Reverse" = "Upload a reverse side photo of document";
-// "SecureId.Upload.Selfie" = "Upload a selfie of yourself holding document";
-//
-// "SecureId.Upload.Title.MainPage" = "Main Page";
-// "SecureId.Upload.Title.FrontSide" = "Front Side";
-// "SecureId.Upload.Title.ReverseSide" = "Reverse Side";
-//
-//"SecureId.Info.Title" = "What is Telegram Passport?";
-//"SecureId.Info" = "With Telegram Passport you can easily sign up for websites and services that require identity veritification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody including Telegram, can access them without your permission.";
-//"SecureId.Info.More" = "More Info";
-//"SecureId.Info.DeletePassport" = "Are you sure you want to delete your Telegram Passport? All details will be lost.";
-//
-//"SecureId.Add.PersonalDetails" = "Add Personal Details";
-//"SecureId.Edit.PersonalDetails" = "Edit Personal Details";
-//"SecureId.Add.Passport" = "Add Passport";
-//"SecureId.Edit.Passport" = "Edit Passport";
-//"SecureId.Add.ID" = "Add Identity Card";
-//"SecureId.Edit.ID" = "Edit Identity Card";
-//"SecureId.Add.DriverLicense" = "Add Driver's License";
-//"SecureId.Edit.DriverLicense" = "Edit Driver's License";
-//"SecureId.Add.InternalPassport" = "Add Internal Passport";
-//"SecureId.Edit.InternalPassport" = "Edit Internal Passport";
-//
-//"SecureId.Add.ResidentialAddress" = "Add Residential Address";
-//"SecureId.Edit.ResidentialAddress" = "Edit Residential Address";
-//"SecureId.Add.UtilityBill" = "Add Utility Bill";
-//"SecureId.Edit.UtilityBill" = "Edit Utility Bill";
-//"SecureId.Add.BankStatement" = "Add Bank Statement";
-//"SecureId.Edit.BankStatement" = "Edit Bank Statement";
-//"SecureId.Add.RentalAgreement" = "Add Rental Agreement";
-//"SecureId.Edit.RentalAgreement" = "Edit Rental Agreement";
-//"SecureId.Add.PassportRegistration" = "Add Passport Registration";
-//"SecureId.Edit.PassportRegistration" = "Edit Passport Registration";
-//"SecureId.Add.TemporaryRegistration" = "Add Temporary Registration";
-//"SecureId.Edit.TemporaryRegistration" = "Edit Temporary Registration";
-//
-//"SecureId.Delete.PersonalDetails" = "Delete Personal Details";
-//"SecureId.Delete.Confirm.PersonalDetails" = "Are you sure you want to delete personal details?";
-//"SecureId.Confirm.DeleteDocument" = "Are you sure your want to delete this document?";
-//"SecureId.Confirm.DeleteAddress" = "Delete Address";
-//"SecureId.AppVersionOutdated" = "Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.";
+/* "SecureId.Request.Header1" = "**%@** requests access to your personal data to sign you up for their services."; */
+
+/* "SecureId.Request.Permission.Email" = "E-Mail"; */
+/* "SecureId.Request.Permission.Phone" = "Phone Number"; */
+/* "SecureId.Request.Permission.PersonalDetails" = "Personal Details"; */
+/* "SecureId.Request.Permission.Passport" = "Passport"; */
+/* "SecureId.Request.Permission.Address" = "Address"; */
+/* "SecureId.Request.Permission.UtilityBill" = "Utility Bill"; */
+/* "SecureId.Request.Permission.DriversLicense" = "Drivers License"; */
+/* "SecureId.Request.Permission.RentalAgreement" = "Rental Agreement"; */
+/* "SecureId.Request.Permission.IDCard" = "Identity Card"; */
+/* "SecureId.Request.Permission.BankStatement" = "Bank Statement"; */
+/* "SecureId.Request.Permission.InternalPassport" = "Internal Passport"; */
+/* "SecureId.Request.Permission.PassportRegistration" = "Passport Registration"; */
+/* "SecureId.Request.Permission.TemporaryRegistration" = "Temporary Registration"; */
+
+/* "SecureId.Request.Accept" = "Authorize"; */
+
+/* "InputData.Date.Day.Placeholder" = "Day"; */
+/* "InputData.Date.Month.Placeholder" = "Month"; */
+/* "InputData.Date.Year.Placeholder" = "Year"; */
+
+
+/* "SecureId.Request.CreatePassword" = "Create a Password"; */
+/* "SecureId.Request.Permission.Email.Empty" = "Provide your contact email address"; */
+/* "SecureId.Request.Permission.Phone.Empty" = "Provide your contact phone number"; */
+/* "SecureId.Request.Permission.Identity.Empty" = "Upload scan of your passport or other ID"; */
+/* "SecureId.Request.Permission.Address.Empty" = "Upload proof of your address"; */
+
+/* "SecureId.FileUpload.Progress" = "%@% Uploaded"; */
+/* "SecureId.ScanNumber" = "Scan %d"; */
+
+/* "SecureId.Identity.Id" = "Identity Card"; */
+/* "SecureId.Identity.Passport" = "Passport"; */
+/* "SecureId.Identity.DriverLicense" = "Driver License"; */
+/* "SecureId.Identity.UtilityBill" = "Utility Bill"; */
+/* "SecureId.Identity.BankStatement" = "Bank Statement"; */
+/* "SecureId.Identity.RentalAgreement" = "Rental Agreement"; */
+/* "SecureId.Identity.PassportRegistration" = "Passport Registration"; */
+
+/* "SecureId.IdentityDocument" = "Identity Document"; */
+/* "SecureId.ResidentialAddress" = "Residential Address"; */
+/* "SecureId.PhoneNumber" = "Phone Number"; */
+/* "SecureId.Email" = "Email Address"; */
+
+/* "SecureId.DeletePassport" = "Delete Passport"; */
+
+/* "SecureId.Gender.Male" = "Male"; */
+/* "SecureId.Gender.Female" = "Female"; */
+
+
+/* "SecureId.Identity.Placeholder.Gender" = "Gender"; */
+
+/* "SecureId.Identity.Placeholder.FirstName" = "Name"; */
+/* "SecureId.Identity.InputPlaceholder.FirstName" = "Name"; */
+
+/* "SecureId.Identity.Placeholder.LastName" = "Surname"; */
+/* "SecureId.Identity.InputPlaceholder.LastName" = "Surname"; */
+
+/* "SecureId.Identity.Placeholder.Birthday" = "Birthday"; */
+
+/* "SecureId.Identity.Placeholder.Country" = "Country"; */
+
+/* "SecureId.Identity.Placeholder.Citizenship" = "Citizenship"; */
+/* "SecureId.Identity.Placeholder.Residence" = "Residence"; */
+
+/* "SecureId.Identity.Placeholder.IssuedDate" = "Issued Date"; */
+/* "SecureId.Identity.Placeholder.ExpiryDate" = "Expiry Date"; */
+/* "SecureId.Identity.DocumentDetailsHeader" = "DOCUMENTS DETAILS"; */
+
+/* "SecureId.Identity.CardId.InputPlaceholder" = "Card ID"; */
+/* "SecureId.Identity.CardId.Placeholder" = "Card ID"; */
+
+/* "SecureId.Identity.Passport.InputPlaceholder" = "Passport ID"; */
+/* "SecureId.Identity.Passport.Placeholder" = "Passport ID"; */
+
+/* "SecureId.Identity.License.InputPlaceholder" = "License ID"; */
+/* "SecureId.Identity.License.Placeholder" = "License ID"; */
+
+
+
+/* "SecureId.Scans.Header" = "SCANS"; */
+/* "SecureId.UploadScan" = "Upload Scan"; */
+/* "SecureId.UploadAdditionalScan" = "Upload Additional Scan"; */
+
+/* "SecureId.IdentityScan.Description" = "The document must contain your first and last name, your residential address, a stamp / barcode / QR code / logo, and issue date, no more than 3 month ago."; */
+
+
+/* "SecureId.RequestedInformation.Header" = "REQUESTED INFORMATION"; */
+/* "SecureId.Accept.Policy" = "You accept the [Login Widged Example Privacy Policy](_applyPolicy_) and allow their **%@** to send you messages."; */
+/* "SecureId.Accept.Help" = "You are sending your documents directly to **%@** and allowing their **%@** to send you messages."; */
+/* "Chat.Service.SecureId.AccessGranted" = "%@ received the following documents: %@"; */
+/* "SecureId.RemoveEmail" = "Delete Email Address?"; */
+/* "SecureId.RemovePhoneNumber" = "Delete Phone Number?"; */
+
+/* "SecureId.InstallEmail.Title" = "E-Mail"; */
+/* "SecureId.InstallPhone.Title" = "Phone Number"; */
+/* "SecureId.CreatePassword.Title" = "Password & E-Mail"; */
+
+
+/* "SecureId.CreatePassword.Header" = "PASSWORD"; */
+/* "SecureId.CreatePassword.PasswordPlaceholder" = "Password"; */
+/* "SecureId.CreatePassword.PasswordInputPlaceholder" = "Enter your password"; */
+/* "SecureId.CreatePassword.RePasswordInputPlaceholder" = "Re-Enter your password"; */
+/* "SecureId.CreatePassword.Description" = "Please create a password to protect your passport info. You'll be asked to enter it when you log in."; //WRONG */
+/* "SecureId.CreatePassword.Hint.Header" = "HINT"; */
+/* "SecureId.CreatePassword.Hint.Placeholder" = "Hint"; */
+/* "SecureId.CreatePassword.Hint.InputPlaceholder" = "Hint for your password"; */
+/* "SecureId.CreatePassword.Email.Header" = "RECOVERY E-MAIL"; */
+/* "SecureId.CreatePassword.Email.Placeholder" = "E-Mail"; */
+/* "SecureId.CreatePassword.Email.InputPlaceholder" = "Your E-Mail"; */
+/* "SecureId.CreatePassword.Email.Description" = "Please add your valid e-mail. It is the only way to recover a forgotten password."; */
+
+/* "SecureId.EmailActivate.Code.Placeholder" = "Code"; */
+/* "SecureId.EmailActivate.Code.InputPlaceholder" = "Enter a code"; */
+/* "SecureId.EmailActivate.Description" = "Please enter the confirmation code we've just sent to %@."; */
+
+
+/* "SecureId.DeleteIdentity" = "Delete Document"; */
+/* "SecureId.DeleteAddress" = "Delete Address"; */
+
+/* "SecureId.InsertPassword.Password" = "Enter your password"; */
+/* "SecureId.InsertPassword.Next" = "Next"; */
+/* "SecureId.InsertPassword.Description" = "Please provide the password for accessing your personal data"; */
+/* "SecureId.PhoneNumber.UseSame.Desc" = "Use the same phone number as Telegram log in."; */
+/* "SecureId.PhoneNumber.UseSame" = "Use %@"; */
+/* "SecureId.PhoneNumber.Note" = "Note: You will receive a confirmation code on the phone number you provide."; */
+/* "SecureId.PhoneNumber.Header" = "OR ENTER OTHER PHONE NUMBER"; */
+
+/* "SecureId.InsertPassword.Settings.Description" = "Please enter your Telegram password to decrypt your data"; */
+
+
+/* "SecureId.Email.UseSame" = "Use %@"; */
+/* "SecureId.Email.UseSame.Desc" = "Note: You will receive a confirmation code on the e-mail you provide."; */
+/* "SecureId.Email.Email.Placeholder" = "E-Mail"; */
+/* "SecureId.Email.Email.InputPlaceholder" = "Enter your e-mail"; */
+
+/* "SecureId.PhoneNumber.ConfirmCode.Placeholder" = "Code"; */
+/* "SecureId.PhoneNumber.ConfirmCode.InputPlaceholder" = "Enter a code"; */
+/* "SecureId.PhoneNumber.ConfirmCode.Desc" = "Please enter the confirmation code we've just sent to %@. via SMS"; */
+
+
+/* "SecureId.Address.Header" = "ADDRESS"; */
+/* "SecureId.Address.Street.Placeholder" = "Street"; */
+/* "SecureId.Address.Street.InputPlaceholder" = "Street and Number, PO Box"; */
+/* "SecureId.Address.Street1.InputPlaceholder" = "Apt, suite, unit, building, floor"; */
+/* "SecureId.Address.City.Placeholder" = "City"; */
+/* "SecureId.Address.City.InputPlaceholder" = "City"; */
+/* "SecureId.Address.Region.Placeholder" = "Region"; */
+/* "SecureId.Address.Region.InputPlaceholder" = "State/Republic/Region"; */
+/* "SecureId.Address.Country.Placeholder" = "Country"; */
+/* "SecureId.Address.Postcode.Placeholder" = "Postcode"; */
+/* "SecureId.Address.Postcode.InputPlaceholder" = "Postcode"; */
+
+
+/* "SecureId.Identity.SelfieTitle" = "SELFIE VERIFICATION"; */
+/* "SecureId.Identity.Selfie" = "Selfie"; */
+/* "SecureId.Identity.SelfieUpload" = "Add Selfie"; */
+/* "SecureId.Identity.SelfieUploadNew" = "Retake Selfie"; */
+/* "SecureId.Identity.SelfieHelp" = "Upload a selfie of yourself holding this document. Make sure the ID and your face are clearly visible."; */
+
+/* "SecureId.forgotPassword.NoEmail" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account."; */
+/* "SecureId.Confirm.Cancel" = "Are you sure you want to stop authorization?"; */
+
+
+
+/* "SecureId.RecoverPassword" = "Password Recovery"; */
+/* "SecureId.RecoverPassword.SentEmailCode" = "Code was sent to %@"; */
+
+/*  "SecureId.Warning.DataLost" = "Warning! All data saved in your Telegram passport will be lost!"; */
+/*  "SecureId.Upload.Main" = "Upload main page of the document"; */
+/*  "SecureId.Upload.Front" = "Upload a front side photo of document"; */
+/*  "SecureId.Upload.Reverse" = "Upload a reverse side photo of document"; */
+/*  "SecureId.Upload.Selfie" = "Upload a selfie of yourself holding document"; */
+
+/*  "SecureId.Upload.Title.MainPage" = "Main Page"; */
+/*  "SecureId.Upload.Title.FrontSide" = "Front Side"; */
+/*  "SecureId.Upload.Title.ReverseSide" = "Reverse Side"; */
+
+/* "SecureId.Info.Title" = "What is Telegram Passport?"; */
+/* "SecureId.Info" = "With Telegram Passport you can easily sign up for websites and services that require identity veritification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody including Telegram, can access them without your permission."; */
+/* "SecureId.Info.More" = "More Info"; */
+/* "SecureId.Info.DeletePassport" = "Are you sure you want to delete your Telegram Passport? All details will be lost."; */
+
+/* "SecureId.Add.PersonalDetails" = "Add Personal Details"; */
+/* "SecureId.Edit.PersonalDetails" = "Edit Personal Details"; */
+/* "SecureId.Add.Passport" = "Add Passport"; */
+/* "SecureId.Edit.Passport" = "Edit Passport"; */
+/* "SecureId.Add.ID" = "Add Identity Card"; */
+/* "SecureId.Edit.ID" = "Edit Identity Card"; */
+/* "SecureId.Add.DriverLicense" = "Add Driver's License"; */
+/* "SecureId.Edit.DriverLicense" = "Edit Driver's License"; */
+/* "SecureId.Add.InternalPassport" = "Add Internal Passport"; */
+/* "SecureId.Edit.InternalPassport" = "Edit Internal Passport"; */
+
+/* "SecureId.Add.ResidentialAddress" = "Add Residential Address"; */
+/* "SecureId.Edit.ResidentialAddress" = "Edit Residential Address"; */
+/* "SecureId.Add.UtilityBill" = "Add Utility Bill"; */
+/* "SecureId.Edit.UtilityBill" = "Edit Utility Bill"; */
+/* "SecureId.Add.BankStatement" = "Add Bank Statement"; */
+/* "SecureId.Edit.BankStatement" = "Edit Bank Statement"; */
+/* "SecureId.Add.RentalAgreement" = "Add Rental Agreement"; */
+/* "SecureId.Edit.RentalAgreement" = "Edit Rental Agreement"; */
+/* "SecureId.Add.PassportRegistration" = "Add Passport Registration"; */
+/* "SecureId.Edit.PassportRegistration" = "Edit Passport Registration"; */
+/* "SecureId.Add.TemporaryRegistration" = "Add Temporary Registration"; */
+/* "SecureId.Edit.TemporaryRegistration" = "Edit Temporary Registration"; */
+
+/* "SecureId.Delete.PersonalDetails" = "Delete Personal Details"; */
+/* "SecureId.Delete.Confirm.PersonalDetails" = "Are you sure you want to delete personal details?"; */
+/* "SecureId.Confirm.DeleteDocument" = "Are you sure your want to delete this document?"; */
+/* "SecureId.Confirm.DeleteAddress" = "Delete Address"; */
+/* "SecureId.AppVersionOutdated" = "Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram."; */
 
 
 
