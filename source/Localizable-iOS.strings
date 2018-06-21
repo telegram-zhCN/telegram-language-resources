@@ -3198,6 +3198,10 @@ Unused sets are archived when you add more.";
 "Privacy.TopPeersWarning" = "This will delete all data about the people you message frequently as well the inline bots you are likely to use.";
 "Privacy.TopPeersDelete" = "Delete";
 
+"Conversation.EditingCaptionPanelTitle" = "Edit Caption";
+
+"Passport.CorrectErrors" = "Tap to correct errors";
+
 
 /* new from translations.telegram.org */
 

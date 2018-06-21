@@ -169,10 +169,12 @@
   <string name="ViewPackPreview">查看对应贴纸包</string>
   <string name="PinToTop">置顶</string>
   <string name="UnpinFromTop">取消置顶</string>
+  <string name="MarkAsUnread">标记为未读</string>
   <string name="MarkAsRead">标记为已读</string>
   <string name="Bold">粗体</string>
   <string name="Italic">斜体</string>
   <string name="Regular">常规</string>
+  <string name="ContactsPermissionAlert">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="ContactsPermissionAlertNotNow">稍后</string>
   <string name="ContactsPermissionAlertContinue">继续</string>
   <!--channels-->
@@ -449,11 +451,11 @@
   <string name="AccessError">访问出错</string>
   <string name="FileUploadLimit">文件大小不能超过 %1$s</string>
   <string name="NotMounted">未挂载存储器</string>
-  <string name="UsbActive">已启用USB传输</string>
+  <string name="UsbActive">已启用 USB 传输</string>
   <string name="InternalStorage">内部存储器</string>
   <string name="ExternalStorage">外部存储器</string>
   <string name="SystemRoot">系统根目录</string>
-  <string name="SdCard">SD卡</string>
+  <string name="SdCard">SD 卡</string>
   <string name="Folder">文件夹</string>
   <string name="GalleryInfo">发送原图</string>
   <!--group stickers-->
@@ -521,7 +523,7 @@
   <string name="SlideToCancel">滑动以取消</string>
   <string name="SaveToDownloads">保存到下载</string>
   <string name="SaveToGIFs">保存到 GIF 库</string>
-  <string name="DeleteGif">删除此 GIF?</string>
+  <string name="DeleteGif">删除此 GIF？</string>
   <string name="SaveToMusic">保存到音乐库</string>
   <string name="ShareFile">分享</string>
   <string name="ApplyLocalizationFile">使用本地化文件</string>
@@ -547,7 +549,7 @@
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
   <string name="MoreInfo">详情</string>
   <string name="ShareSendTo">发送到...</string>
-  <string name="ShareComment">输入消息...</string>
+  <string name="ShareComment">补充评论...</string>
   <string name="TapHereGifs">点击这里访问保存的 GIF</string>
   <string name="PinMessage">置顶</string>
   <string name="PinNotify">通知所有成员</string>
@@ -790,7 +792,7 @@
   <string name="PhoneMain">主要</string>
   <string name="UserBio">个人简介</string>
   <string name="UserBioEmpty">无</string>
-  <string name="UserBioInfo">您可以给自己添加一些简介。任何人在打开您的个人信息后将会看到这个简介。</string>
+  <string name="UserBioInfo">您可以给自己添加一些简介。任何人在打开您的个人资料页后将会看到这个简介。</string>
   <string name="StartEncryptedChat">开始加密对话</string>
   <string name="GroupsInCommon">共同加入的群组</string>
   <string name="GroupsInCommonTitle">共同加入的群组</string>
@@ -811,10 +813,10 @@
   <string name="UsernamePlaceholder">您的用户名</string>
   <string name="UsernameInUse">抱歉，此用户名已被使用。</string>
   <string name="UsernameInvalid">抱歉，此用户名无效。</string>
-  <string name="UsernameInvalidShort">用户名必须包含至少5个字符。</string>
-  <string name="UsernameInvalidLong">用户名不能超过32个字符。</string>
+  <string name="UsernameInvalidShort">用户名必须包含至少 5 个字符。</string>
+  <string name="UsernameInvalidLong">用户名不能超过 32 个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
-  <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**，**0–9** 和下划线。最小长度为 **5** 个字符。</string>
+  <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**、**0–9** 和下划线。最小长度为 **5** 个字符。</string>
   <string name="UsernameHelpLink">此链接会在 Telegram 中打开一个与您的对话窗口：\n%1$s</string>
   <string name="UsernameChecking">正在检查用户名...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
@@ -987,7 +989,7 @@
   <string name="ResetAutomaticMediaDownload">重置自动下载设置</string>
   <string name="ResetAutomaticMediaDownloadAlert">您确定要重置自动下载设置吗？</string>
   <string name="WhenUsingMobileData">使用移动数据流量时</string>
-  <string name="WhenConnectedOnWiFi">接入WiFi时</string>
+  <string name="WhenConnectedOnWiFi">接入 Wi-Fi 时</string>
   <string name="WhenRoaming">漫游时</string>
   <string name="NoMediaAutoDownload">禁用自动下载</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
@@ -1005,7 +1007,7 @@
   <string name="NotificationsPriorityUrgent">紧急</string>
   <string name="RepeatNotificationsNever">从不</string>
   <string name="RepeatNotifications">重复通知</string>
-  <string name="PhoneNumberHelp">更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
+  <string name="PhoneNumberHelp">更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息、文件、联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
   <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</string>
   <string name="PhoneNumberChange">更改手机号码</string>
   <string name="ChangePhoneNewNumber">新手机号码</string>
@@ -1074,7 +1076,7 @@
   <string name="UseProxyForCallsInfo">使用代理服务器可能降低通话质量。</string>
   <string name="ConnectingToProxyEnable">启用</string>
   <string name="LowDiskSpaceTitle">注意</string>
-  <string name="LowDiskSpaceMessage">您的设备存储空间即将不足。您可以将 Telegram 设置为仅缓存近期的媒体文件以释放空间。</string>
+  <string name="LowDiskSpaceMessage">您的设备存储空间快满了。您可以将 Telegram 设置为仅缓存近期的媒体文件以释放空间。</string>
   <string name="LowDiskSpaceTitle2">删除此时间后的媒体文件</string>
   <string name="LowDiskSpaceNeverRemove">永不删除</string>
   <string name="AutodownloadContacts">联系人</string>
@@ -1089,7 +1091,7 @@
   <!--cache view-->
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
-  <string name="LocalDatabaseInfo">清除本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
+  <string name="LocalDatabaseInfo">清除本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram 需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
   <string name="ClearMediaCache">清除缓存</string>
   <string name="CacheClear">清除</string>
   <string name="CalculatingSize">正在计算...</string>
@@ -1163,7 +1165,7 @@
   <!--passcode view-->
   <string name="Passcode">锁定码</string>
   <string name="ChangePasscode">修改锁定码</string>
-  <string name="ChangePasscodeInfo">当您设置好一个锁定码后，聊天列表上方会出现一个锁形图标。点击它来锁定或解锁Telegram应用。\n\n注意：如果您忘记了锁定码，您将只能卸载然后重新安装Telegram。重装之后您将丢失所有的加密对话。</string>
+  <string name="ChangePasscodeInfo">当您设置好一个锁定码后，聊天列表上方会出现一个锁形图标。点击它来锁定或解锁 Telegram 应用。\n\n注意：如果您忘记了锁定码，您将只能卸载然后重新安装 Telegram。重装之后您将丢失所有的加密对话。</string>
   <string name="PasscodePIN">PIN</string>
   <string name="PasscodePassword">密码</string>
   <string name="EnterCurrentPasscode">请输入您当前的锁定码</string>
@@ -1239,8 +1241,8 @@
   <string name="AllMedia">所有图片和视频</string>
   <string name="NoPhotos">暂无图片</string>
   <string name="PleaseDownload">请先下载此媒体文件</string>
-  <string name="PleaseStreamDownload">请等待视频被完全下载</string>
-  <string name="VideoDoesNotSupportStreaming">这个视频没有对在线播放进行优化，你可能要完全下载它才能播放。</string>
+  <string name="PleaseStreamDownload">请等待视频下载完毕</string>
+  <string name="VideoDoesNotSupportStreaming">这个视频没有针对在线播放进行优化，你可能要完全下载它才能播放。</string>
   <string name="CantPlayVideo">应用无法播放此视频，要尝试使用外部播放器播放吗？</string>
   <string name="NoRecentPhotos">没有最近的图片</string>
   <string name="NoRecentGIFs">沒有最近的 GIF 动画</string>
@@ -1318,7 +1320,7 @@
   <string name="PasswordHint">密码提示</string>
   <string name="PasswordHintText">请创建一个密码提示。</string>
   <string name="PasswordDoNotMatch">密码不正确</string>
-  <string name="AbortPassword">取消两步验证设置</string>
+  <string name="AbortPassword">关闭两步验证</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
   <string name="PasswordEmailInvalid">无效的邮箱</string>
@@ -1571,7 +1573,7 @@
   <string name="PermissionNoAudio">Telegram 需要访问您的麦克风来录制语音消息。</string>
   <string name="PermissionNoAudioVideo">Telegram 需要访问您的麦克风来录制视频。</string>
   <string name="PermissionNoCamera">Telegram 需要访问您的相机来拍照或录像。</string>
-  <string name="PermissionNoLocation">Telegram 需要使用定位服务才能获取您的地址并分享给您的联系人。</string>
+  <string name="PermissionNoLocation">Telegram 需要使用定位服务才能获取您的地址并分享给您的朋友。</string>
   <string name="PermissionNoLocationPosition">Telegram 需要获取您的定位服务权限</string>
   <string name="PermissionDrawAboveOtherApps">Telegram 需要使用出现在其他应用上的权限以在画中画模式中播放视频。</string>
   <string name="PermissionOpenSettings">设置</string>
@@ -1620,7 +1622,7 @@
   <string name="VoipAnswerCall">接听</string>
   <string name="VoipDeclineCall">拒接</string>
   <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行通话。</string>
-  <string name="VoipOfflineAirplane">您现在正出于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行通话。</string>
+  <string name="VoipOfflineAirplane">您现在正处于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行通话。</string>
   <string name="VoipOfflineTitle">离线</string>
   <string name="VoipOfflineAirplaneTitle">飞行模式</string>
   <string name="VoipOfflineOpenSettings">设置</string>
@@ -1645,24 +1647,24 @@
   <string name="VoipAudioRoutingSpeaker">扬声器</string>
   <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
   <string name="ReturnToCall">返回通话</string>
-  <string name="CallNotAvailable">抱歉，**%1$s** 不接受通话。</string>
+  <string name="CallNotAvailable">抱歉，**%1$s** 不同意进行通话。</string>
   <string name="CallEmojiKeyTooltip">如果 %1$s 屏幕上的 emoji 和此处的相同，此通话就是 100%% 安全的。</string>
   <string name="CallMessageReportProblem">评价通话</string>
   <string name="CallReportHint">出了什么问题？</string>
-  <string name="CallReportIncludeLogs">包括技术信息</string>
+  <string name="CallReportIncludeLogs">附送技术信息</string>
   <string name="CallReportLogsExplain">这不会泄露您对话的内容，但却能帮助我们尽快修复问题。</string>
   <string name="CallReportSent">感谢您帮助 Telegram Call 变得更好。</string>
   <string name="VoipAnsweringAsAccount">作为 %s 回应</string>
   <string name="VoipQuickReplies">来电拒接消息模板</string>
   <string name="VoipQuickRepliesExplain">拒接 Telegram 电话时，你可以使用以上的模板答复。您可以根据喜好来更改它们。</string>
-  <string name="QuickReplyDefault1">现在不方便接电话，发生什么了？</string>
+  <string name="QuickReplyDefault1">我现在不方便接电话，有什么事吗？</string>
   <string name="QuickReplyDefault2">我将尽快回电话。</string>
   <string name="QuickReplyDefault3">我将稍后回电话。</string>
-  <string name="QuickReplyDefault4">我现在不方便接听，稍后打给我如何？</string>
+  <string name="QuickReplyDefault4">我现在不方便接听，能稍后再打过来吗？</string>
   <string name="QuickReplyCustom">自定义消息...</string>
   <string name="AllowCustomQuickReply">允许自定义</string>
-  <string name="VoipInCallBrandingWithName">Telegram 呼叫 给 %s</string>
-  <string name="VoipErrorUnknown">现在暂时无法进行 Telegram 呼叫</string>
+  <string name="VoipInCallBrandingWithName">有人正在呼叫 %s</string>
+  <string name="VoipErrorUnknown">暂时无法呼叫</string>
   <!--plural-->
   <string name="Recipient_zero">%1$d 个接收者</string>
   <string name="Recipient_one">%1$d 个接收者</string>
@@ -1950,5 +1952,5 @@
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最高</string>
   <string name="PrivacyPayments">付款</string>
-  <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并使所有的付款提供商清除您保存的信用卡。请注意 Telegram 从来不会存储您的信用卡数据。</string>
+  <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
 </resources>
