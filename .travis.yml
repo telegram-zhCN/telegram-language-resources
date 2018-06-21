@@ -12,7 +12,9 @@ install: "pip install beautifulsoup4 requests"
 script:
  - git pull
  - python source-update.py
- - sed -i -E 's/^\/\/(.*)/\/\*\1\ \*\//gm' source/lang-desktop.strings
+ - sed -i -E 's/^\/\/(.*)$/\/\*\ \1\ \*\//gm' source/lang-desktop.strings
+ - sed -i -E 's/^\/\/$//gm' source/Localizable-macOS.strings
+ - sed -i -E 's/^\/\/(.*)$/\/\*\ \1\ \*\//gm' source/Localizable-macOS.strings
  - python translate-update.py
  - git status
  - git add source/*
