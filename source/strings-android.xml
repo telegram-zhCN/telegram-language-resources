@@ -574,6 +574,7 @@
     <string name="PinnedMessage">Pinned Message</string>
     <string name="EditedMessage">edited</string>
     <string name="EditMessage">Edit Message</string>
+    <string name="EditCaption">Edit Caption</string>
     <string name="EditMessageMedia">Tap to edit media</string>
     <string name="AttachBotsHelp">Scroll down for bots</string>
     <string name="TimeToEdit">%1$s</string>
@@ -710,6 +711,7 @@
     <string name="SecretChatName">Telegram</string>
     <!--contacts view-->
     <string name="SelectContact">Select Contact</string>
+    <string name="ContactShare">SHARE CONTACT</string>
     <string name="NoContacts">No contacts yet</string>
     <string name="InviteText2">Hey, I\'m using Telegram to chat. Join me! Download it here: %1$s</string>
     <string name="TodayAt">at</string>
@@ -1505,6 +1507,7 @@
     <string name="SyncContactsDelete">Delete Synced Contacts</string>
     <string name="SuggestContacts">Suggest Frequent Contacts</string>
     <string name="SuggestContactsInfo">Display people you message frequently at the top of the search section for quick access.</string>
+    <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well the inline bots you are likely to use.</string>
     <!--edit video view-->
     <string name="SendingVideo">Sending video...</string>
     <string name="SendingGif">Sending GIF...</string>
@@ -2075,4 +2078,9 @@
   <string name="NotificationsPriorityMax">Max</string>
   <string name="PrivacyPayments">Payments</string>
   <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
+  <string name="_tg_cancel">Cancel</string>
+  <string name="_tg_open_google_play">Open Google Play</string>
+  <string name="download_telegram_text">You need Telegram to log in to **%s**. Would you like to install it now?</string>
+  <string name="login_with_telegram">Log in with Telegram</string>
+  <string name="telegram_passport">Telegram Passport</string>
 </resources>
