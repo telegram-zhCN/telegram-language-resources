@@ -3206,7 +3206,6 @@ Unused sets are archived when you add more.";
 
 /* new from translations.telegram.org */
 
-"Conversation.EditingMessageMediaEditCurrent" = "Edit Current";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Map.ETAHours_0" = "%@ h";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";

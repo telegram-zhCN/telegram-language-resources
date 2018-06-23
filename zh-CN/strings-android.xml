@@ -1953,4 +1953,5 @@
   <string name="NotificationsPriorityMax">最高</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
+  <string name="_tg_cancel">取消</string>
 </resources>
