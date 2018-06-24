@@ -286,6 +286,13 @@
 "PeerMedia.Popover.SharedFiles" = "Shared Files";
 "PeerMedia.Popover.SharedLinks" = "Shared Links";
 "PeerMedia.Popover.SharedAudio" = "Shared Audio";
+
+
+"PeerMedia.Media" = "Media";
+"PeerMedia.Files" = "Docs";
+"PeerMedia.Links" = "Links";
+"PeerMedia.Audio" = "Audio";
+
 "Chat.Message.Via" = "via";
 
 "Audio.UnknownArtist" = "Unknown Artist";
@@ -996,7 +1003,7 @@
 "Chat.Context.ClearHistory" = "Clear History";
 "Chat.Context.Info" = "Info";
 "Chat.Context.FeedInfo" = "Channels Info";
-
+"Chat.Context.SharedMedia" = "Shared Media";
 "Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
 "Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
@@ -1682,27 +1689,27 @@
 
 
 
-/* "SecureId.Request.Header1" = "**%@** requests access to your personal data to sign you up for their services."; */
 
-/* "SecureId.Request.Permission.Email" = "E-Mail"; */
-/* "SecureId.Request.Permission.Phone" = "Phone Number"; */
-/* "SecureId.Request.Permission.PersonalDetails" = "Personal Details"; */
-/* "SecureId.Request.Permission.Passport" = "Passport"; */
-/* "SecureId.Request.Permission.Address" = "Address"; */
-/* "SecureId.Request.Permission.UtilityBill" = "Utility Bill"; */
-/* "SecureId.Request.Permission.DriversLicense" = "Drivers License"; */
-/* "SecureId.Request.Permission.RentalAgreement" = "Rental Agreement"; */
-/* "SecureId.Request.Permission.IDCard" = "Identity Card"; */
-/* "SecureId.Request.Permission.BankStatement" = "Bank Statement"; */
-/* "SecureId.Request.Permission.InternalPassport" = "Internal Passport"; */
-/* "SecureId.Request.Permission.PassportRegistration" = "Passport Registration"; */
-/* "SecureId.Request.Permission.TemporaryRegistration" = "Temporary Registration"; */
 
-/* "SecureId.Request.Accept" = "Authorize"; */
 
-/* "InputData.Date.Day.Placeholder" = "Day"; */
-/* "InputData.Date.Month.Placeholder" = "Month"; */
-/* "InputData.Date.Year.Placeholder" = "Year"; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"InputData.Date.Day.Placeholder" = "Day:";
+"InputData.Date.Month.Placeholder" = "Month:";
+"InputData.Date.Year.Placeholder" = "Year:";
 
 
 /* "SecureId.Request.CreatePassword" = "Create a Password"; */
@@ -2016,6 +2023,8 @@
 "Suggest.Frequent.Contacts" = "Suggest Frequent Contacts";
 "Suggest.Frequent.Contacts.Desc" = "Display people you message frequently at the top of the search section for quick access.";
 "Suggest.Frequent.Contacts.Alert" = "This will delete all data about the people you message frequently as well the inline bots you are likely to use.";
+
+"Telegram.PeerMediaController" = "Shared Media";
 
 
 /* new from translations.telegram.org */
