@@ -1553,7 +1553,7 @@
 "Search.Global.Channel1_other" = "%@, %d subscribers";
 
 /* "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top."; */
-"ChatList.Context.PinErrorNew" = "Sorry, you can pin no more than 5 chats to the top.";
+"ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
 
 
 "Storage.ClearAll" = "Clear All";
@@ -2006,8 +2006,8 @@
 "TermsOfService.Title" = "Terms of Service";
 "TermsOfService.Accept" = "Agree & Continue";
 "TermsOfService.Disagree" = "Decline";
-"TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest needs, it won't be possible for us to provide this service.";
-"TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nWe will provide a tool to download your data before June, 23 – so you may want to wait a little before deleting.";
+"TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
+"TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
 "TermsOfService.Disagree.Text.Last.OK" = "Delete Now";
 "TermsOfService.Disagree.OK" = "Decline & Deactivate";
 "TermsOfService.ConfirmAge" = "I confirm that I am %@ or over.";
