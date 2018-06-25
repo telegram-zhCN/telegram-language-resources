@@ -535,9 +535,11 @@
   <string name="OpenInBrowser">使用其他应用打开</string>
   <string name="OpenInExternalApp">使用其他应用打开...</string>
   <string name="SendItems">发送 %1$s</string>
+  <string name="UploadItems">上传 %1$s</string>
   <string name="SendAsFile">作为文件发送</string>
   <string name="SendAsFiles">作为文件发送</string>
   <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
+  <string name="CancelSending">取消发送</string>
   <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的电话号码) 到通过机器人打开的网页？</string>
   <string name="ReportSpam">举报垃圾信息</string>
   <string name="ReportSpamAndLeave">举报垃圾信息并退出</string>
@@ -571,6 +573,8 @@
   <string name="PinnedMessage">置顶消息</string>
   <string name="EditedMessage">已编辑</string>
   <string name="EditMessage">编辑消息</string>
+  <string name="EditCaption">编辑说明</string>
+  <string name="EditMessageMedia">点按编辑媒体文件</string>
   <string name="AttachBotsHelp">上划查看机器人</string>
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">抱歉，可编辑时间已过。</string>
@@ -706,6 +710,7 @@
   <string name="SecretChatName">Telegram</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
+  <string name="ContactShare">分享联系人</string>
   <string name="NoContacts">还没有联系人</string>
   <string name="InviteText2">嗨，我在使用 Telegram 聊天。加入我们吧！从这里下载：%1$s</string>
   <string name="TodayAt">于</string>
@@ -897,6 +902,7 @@
   <string name="CreateNewThemeInfo">您可以在应用内修改其颜色来创建您自己的主题。您可以在任何时候在这里还原为 Telegram 默认的主题。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
+  <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
   <string name="TextSize">文字大小</string>
   <string name="AskAQuestion">向我们提问</string>
   <string name="EnableAnimations">开启动画效果</string>
@@ -960,6 +966,7 @@
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="TelegramFaq">Telegram 常见问题</string>
   <string name="AddAccount">添加帐户</string>
+  <string name="SelectAccount">选择帐户</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">隐私策略</string>
   <string name="TermsOfService">服务协议</string>
@@ -1070,6 +1077,7 @@
   <string name="UseProxyTelegramError">您正在使用的代理没有被正确配置并因此被禁用。请搜寻其它代理。</string>
   <string name="UseProxySponsor">代理赞助商</string>
   <string name="UseProxySponsorInfo">这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
+  <string name="UseProxyInfo">SOCKS5 代理设置</string>
   <string name="UseProxyTelegramInfo">MTProto 代理设置。</string>
   <string name="UseProxyTelegramInfo2">这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。</string>
   <string name="UseProxyForCalls">对通话启用代理</string>
@@ -1109,6 +1117,8 @@
   <string name="AudioAutodownload">语音消息</string>
   <string name="VideoMessagesAutodownload">视频消息</string>
   <!--passport view-->
+  <string name="TelegramPassport">Telegram 护照</string>
+  <string name="PassportInfoTitle">什么是 Telegram 护照？</string>
   <string name="PassportUseLatinOnly">您只能使用拉丁字母。</string>
   <string name="PassportAddAddressUploadInfo">为了确定您的地址，请上传被选中的文件的所有页面的扫描件或照片。</string>
   <string name="PassportAddress">地址</string>
@@ -1954,4 +1964,5 @@
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
   <string name="_tg_cancel">取消</string>
+  <string name="telegram_passport">Telegram 护照</string>
 </resources>
