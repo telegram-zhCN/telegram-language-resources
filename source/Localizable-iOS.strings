@@ -3209,7 +3209,7 @@ Unused sets are archived when you add more.";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Map.ETAHours_0" = "%@ h";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
-"PassportKit.Button.GetTelegramAlertMessage" = "You need to have Telegram Messenger installed to log in with Telegram Passport";
+"PassportKit.Button.GetTelegramAlertMessage" = "You need to have Telegram Messenger installed to use Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "Not Now";
 "PassportKit.Button.GetTelegramAlertTitle" = "Get Telegram Messenger";
 "PassportKit.Button.Title" = "Log in with Telegram";

@@ -383,6 +383,8 @@
     <string name="EventLogRemovedChannelPhoto">un1 removed the channel photo</string>
     <string name="EventLogEditedMessages">un1 edited this message:</string>
     <string name="EventLogEditedCaption">un1 edited caption:</string>
+    <string name="EventLogEditedMedia">un1 edited media:</string>
+    <string name="EventLogEditedMediaCaption">un1 edited media and caption:</string>
     <string name="EventLogOriginalMessages">Original message</string>
     <string name="EventLogOriginalCaption">Original caption</string>
     <string name="EventLogOriginalCaptionEmpty">Empty</string>
@@ -544,7 +546,6 @@
     <string name="ReportSpam">REPORT SPAM</string>
     <string name="ReportSpamAndLeave">REPORT SPAM AND LEAVE</string>
     <string name="AddContactChat">ADD CONTACT</string>
-    <string name="ViewDetails">VIEW CONTACT</string>
     <string name="ReportSpamAlert">Are you sure you want to report spam from this user?</string>
     <string name="ReportSpamAlertGroup">Are you sure you want to report spam from this group?</string>
     <string name="ReportSpamAlertChannel">Are you sure you want to report spam from this channel?</string>
@@ -2078,6 +2079,7 @@
   <string name="NotificationsPriorityMax">Max</string>
   <string name="PrivacyPayments">Payments</string>
   <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
+  <string name="ViewDetails">VIEW CONTACT</string>
   <string name="_tg_cancel">Cancel</string>
   <string name="_tg_open_google_play">Open Google Play</string>
   <string name="download_telegram_text">You need Telegram to log in to **%s**. Would you like to install it now?</string>
