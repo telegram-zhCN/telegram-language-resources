@@ -121,6 +121,7 @@
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
     <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
+    <string name="NoChatsContactsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
     <string name="Connected">Connected</string>
@@ -177,6 +178,7 @@
     <string name="ContactsPermissionAlert">**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
     <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
     <string name="ContactsPermissionAlertContinue">CONTINUE</string>
+    <string name="YourContacts">Your contacts on Telegram</string>
     <!--channels-->
     <string name="SetAsAdmin">Promote to admin</string>
     <string name="NoBlockedUsers">No banned users</string>
@@ -546,6 +548,7 @@
     <string name="ReportSpam">REPORT SPAM</string>
     <string name="ReportSpamAndLeave">REPORT SPAM AND LEAVE</string>
     <string name="AddContactChat">ADD CONTACT</string>
+    <string name="ViewContact">VIEW CONTACT</string>
     <string name="ReportSpamAlert">Are you sure you want to report spam from this user?</string>
     <string name="ReportSpamAlertGroup">Are you sure you want to report spam from this group?</string>
     <string name="ReportSpamAlertChannel">Are you sure you want to report spam from this channel?</string>
@@ -797,6 +800,10 @@
     <string name="PhoneWork">Work</string>
     <string name="PhoneOther">Other</string>
     <string name="PhoneMain">Main</string>
+    <string name="ContactJob">Job</string>
+    <string name="ContactJobTitle">Title</string>
+    <string name="CreateNewContact">Create New Contact</string>
+    <string name="AddToExistingContact">Add to Existing Contact</string>
     <string name="UserBio">Bio</string>
     <string name="UserBioEmpty">None</string>
     <string name="UserBioInfo">You can add a few lines about yourself. Anyone who opens your profile will see this text.</string>
