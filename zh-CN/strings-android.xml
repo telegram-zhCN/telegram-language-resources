@@ -121,6 +121,7 @@
   <string name="RecentlyViewed">最近查看过</string>
   <string name="RecentlyViewedHide">隐藏</string>
   <string name="NoChatsHelp">要开始对话\n请点击右下角的撰写按钮\n或者进入联系人界面。</string>
+  <string name="NoChatsContactsHelp">要开始对话\n请点击右下角的撰写按钮\n或者进入联系人界面。</string>
   <string name="WaitingForNetwork">等待网络...</string>
   <string name="Connecting">连接中...</string>
   <string name="Connected">已连接</string>
@@ -795,6 +796,9 @@
   <string name="PhoneWork">工作</string>
   <string name="PhoneOther">其它</string>
   <string name="PhoneMain">主要</string>
+  <string name="ContactJobTitle">标题</string>
+  <string name="CreateNewContact">创建新的联系人</string>
+  <string name="AddToExistingContact">添加到现有联系人</string>
   <string name="UserBio">个人简介</string>
   <string name="UserBioEmpty">无</string>
   <string name="UserBioInfo">您可以给自己添加一些简介。任何人在打开您的个人资料页后将会看到这个简介。</string>
