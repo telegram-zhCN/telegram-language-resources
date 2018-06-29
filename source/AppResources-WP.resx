@@ -3426,7 +3426,7 @@ The group **"{1}"** will become private.</value>
     <value>SOCKS5</value>
   </data>
   <data name="UseProxy" xml:space="preserve">
-    <value>Use Proxy Settings</value>
+    <value>Use proxy settings</value>
   </data>
   <data name="Proxy" xml:space="preserve">
     <value>Proxy Settings</value>
@@ -3819,10 +3819,10 @@ You can log in on websites that support signing in with Telegram.</value>
   <data name="PassportHint" xml:space="preserve">
     <value>{0} requests access to your personal data to sign you up to their services.</value>
   </data>
-  <data name="ResidentalAddress" xml:space="preserve">
-    <value>Residental Address</value>
+  <data name="ResidentialAddress" xml:space="preserve">
+    <value>Residential Address</value>
   </data>
-  <data name="ResidentalAddressHint" xml:space="preserve">
+  <data name="ResidentialAddressHint" xml:space="preserve">
     <value>Upload proof of your address</value>
   </data>
   <data name="RequestWriteHint" xml:space="preserve">
@@ -3839,5 +3839,95 @@ You can log in on websites that support signing in with Telegram.</value>
   </data>
   <data name="SuggestStickersByEmoji" xml:space="preserve">
     <value>Suggest stickers by emoji</value>
+  </data>
+  <data name="MTProto" xml:space="preserve">
+    <value>MTPROTO</value>
+  </data>
+  <data name="UseProxyForCalls" xml:space="preserve">
+    <value>Use proxy for calls</value>
+  </data>
+  <data name="UseProxyForCallsHint" xml:space="preserve">
+    <value>Proxy servers may degrade the quality of your calls.</value>
+  </data>
+  <data name="Connections" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="AddProxy" xml:space="preserve">
+    <value>Add Proxy</value>
+  </data>
+  <data name="Secret" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="UseTelegramProxyHint" xml:space="preserve">
+    <value>Telegram proxy settings</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Checking</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Unavailable</value>
+  </data>
+  <data name="TermsOfService" xml:space="preserve">
+    <value>Terms of Service</value>
+  </data>
+  <data name="TermsOfServiceLink" xml:space="preserve">
+    <value>By signing up,
+you agree to the *Terms of Service*.</value>
+  </data>
+  <data name="DeleteSyncedContacts" xml:space="preserve">
+    <value>Delete Synced Contacts</value>
+  </data>
+  <data name="SyncContacts" xml:space="preserve">
+    <value>Sync Contacts</value>
+  </data>
+  <data name="SyncContactsDeleteInfo" xml:space="preserve">
+    <value>This will remove your contacts from the Telegram servers. If 'Sync Contacts' is enabled, contacts will be re-synced.</value>
+  </data>
+  <data name="SyncContactsInfoOff" xml:space="preserve">
+    <value>Turn on to continuously sync contacts from this device with your account.</value>
+  </data>
+  <data name="SyncContactsInfoOn" xml:space="preserve">
+    <value>Contacts from this device will be added to your account.</value>
+  </data>
+  <data name="LinkPreviewsHint" xml:space="preserve">
+    <value>Link previews will be generated on Telegram servers. We do not store data about the links you send.</value>
+  </data>
+  <data name="DeleteSyncedContactsConfirmation" xml:space="preserve">
+    <value>This will remove your contacts from the Telegram servers. If 'Sync Contacts' is enabled, contacts will be re-synced.</value>
+  </data>
+  <data name="ProxyDisabledNotification" xml:space="preserve">
+    <value>The proxy you are using is not configured correctly and will be disabled. Please find another one.</value>
+  </data>
+  <data name="ProxySponsor" xml:space="preserve">
+    <value>Proxy sponsor</value>
+  </data>
+  <data name="ProxySponsorAbout" xml:space="preserve">
+    <value>This channel is shown by your proxy server.
+To remove this channel from your chats list,
+disable the proxy in Telegram Settings.</value>
+  </data>
+  <data name="ProxySponsorWarning" xml:space="preserve">
+    <value>This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic.</value>
+  </data>
+  <data name="MarkRead" xml:space="preserve">
+    <value>Mark as read</value>
+  </data>
+  <data name="MarkUnread" xml:space="preserve">
+    <value>Mark as unread</value>
+  </data>
+  <data name="SuggestFrequentContacts" xml:space="preserve">
+    <value>Suggest Frequent Contacts</value>
+  </data>
+  <data name="SuggestFrequentContactsAbout" xml:space="preserve">
+    <value>Display people you message frequently at the top of the search section for quick access.</value>
+  </data>
+  <data name="SuggestFrequentContactsNotification" xml:space="preserve">
+    <value>This will delete all data about the people you message frequently as well the inline bots you are likely to use.</value>
   </data>
 </root>
