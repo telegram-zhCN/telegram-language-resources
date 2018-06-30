@@ -1123,6 +1123,7 @@
   <!--passport view-->
   <string name="TelegramPassport">Telegram 护照</string>
   <string name="PassportInfoTitle">什么是 Telegram 护照？</string>
+  <string name="TelegramPassportCreatePassword">设置一个密码</string>
   <string name="PassportUseLatinOnly">您只能使用拉丁字母。</string>
   <string name="PassportAddAddressUploadInfo">为了确定您的地址，请上传被选中的文件的所有页面的扫描件或照片。</string>
   <string name="PassportAddress">地址</string>
@@ -1968,5 +1969,7 @@
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
   <string name="_tg_cancel">取消</string>
+  <string name="_tg_open_google_play">打开 Google Play</string>
+  <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram 护照</string>
 </resources>

@@ -751,6 +751,8 @@
     <string name="JoinToGroupErrorFull">Sorry, this group is already full.</string>
     <string name="JoinToGroupErrorNotExist">Sorry, this chat does not seem to exist.</string>
     <string name="LinkCopied">Link copied to clipboard</string>
+    <string name="PhoneCopied">Phone copied to clipboard</string>
+    <string name="EmailCopied">Email copied to clipboard</string>
     <string name="InviteToGroupByLink">Invite to Group via Link</string>
     <string name="InviteLink">Invite Link</string>
     <string name="RevokeAlert">Are you sure you want to revoke this link? Once the link is revoked, no one will be able to join using it.</string>
@@ -1627,6 +1629,7 @@
     <!--Alert messages-->
     <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</string>
     <string name="InvalidPhoneNumber">Invalid phone number</string>
+    <string name="PleaseLoginPassport">Please log in to your Telegram account to use Telegram Passport.</string>
     <string name="BannedPhoneNumber">Banned phone number</string>
     <string name="CodeExpired">Code expired, please login again</string>
     <string name="FloodWait">Too many attempts, please try again later</string>
