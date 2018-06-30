@@ -58,3 +58,8 @@ print('macOS')
 r = requests.get('https://translations.telegram.org/en/macos/export', cookies=cookies)
 with open(directory + "Localizable-macOS.strings", "wb") as code:
     code.write(r.content)
+
+print('Android X')
+r = requests.get('https://translations.telegram.org/en/android_x/export', cookies=cookies)
+with open(directory + "strings-androidx.xml", "wb") as code:
+    code.write(r.content)
