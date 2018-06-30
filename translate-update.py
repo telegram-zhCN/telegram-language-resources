@@ -30,6 +30,11 @@ print('Android')
 r = s.get('https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-android/zh_CN/download/for_use/')
 with open(directory + "strings-android.xml", "wb") as code:
     code.write(r.content)
+    
+print('Android X')
+r = s.get('https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-androidx/zh_CN/download/for_use/')
+with open(directory + "strings-androidx.xml", "wb") as code:
+    code.write(r.content)
 
 print('iOS')
 r = s.get('https://www.transifex.com/telegram-zhcn/telegram-zhcn-allplat/telegram-ios/zh_CN/download/for_use/')
