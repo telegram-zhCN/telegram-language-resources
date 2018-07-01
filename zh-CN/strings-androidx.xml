@@ -94,13 +94,47 @@
   <string name="format_timeAM">%1$d:%2$02d AM</string>
   <string name="format_timePM">%1$d:%2$02d PM</string>
 
-  <string name="format_monthNomYear">%1$s %2$d</string>
+  <string name="format_monthNomYear">%2$d年%1$s</string>
+
+  <string name="format_dayMonthShort">%2$s%1$d日</string>
+  <string name="format_dayMonthShortYear">%3$02d年%2$s%1$d日</string>
+  <string name="format_dayMonthShortYearAt">%3$d年%2$s%1$d日 %4$s</string>
+
+  <string name="format_dayMonth">%2$s%1$d日</string>
+  <string name="format_dayMonthYear">%3$d年%2$s%1$d日</string>
+
+  <string name="format_dateFull">%3$02d/%2$02d/%1$02d</string>
 
   <string name="format_decimalSeparator">.</string>
+  <string name="format_thousandsSeparator">,</string>
+  <string name="format_concatSeparator">"、"</string>
+  <string name="format_concatSeparatorLast">"和"</string>
+
+  <string name="format_number_thousand">%1$s 千</string>
+  <string name="format_number_million">%1$s 百万</string>
+  <string name="format_number_billion">%1$s 十亿</string>
+
   <string name="format_newMessagesFromChats">%1$s %2$s</string>
   <string name="format_peopleNamesAndOthers">%1$s %2$s</string>
   <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
+  <string name="format_subscribersAndOnline">%1$s，%2$s</string>
+  <string name="format_membersAndOnline">%1$s，%2$s</string>
+  <string name="format_photosAndVideos">%1$s，%2$s</string>
+
+  <string name="format_fileSizeAndModifiedDate">%1$s，%2$s</string>
+  <string name="format_contentAndModifyDate">%1$s，最后修改于 %2$s</string>
   <string name="format_locationUpdated">更新于 %1$s</string>
+
+  <string name="format_plus">+%1$d</string>
+  <string name="format_minus">-%1$d</string>
+  <string name="format_minusPlus">-%1$d, +%2$d</string>
+
+  <string name="format_ping">Ping: %1$s 毫秒</string>
+  <string name="format_pingBest">Ping: %1$s 毫秒（最佳）</string>
+
+  <string name="format_ivAuthorDateSeparator">" • "</string>
+
+  <string name="format_dateViaBot">%1$s 通过 %2$s</string>
 
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
@@ -111,16 +145,214 @@
   <string name="login_Code">验证码</string>
   <string name="login_Password">密码</string>
   <string name="login_Country">国家</string>
+  <string name="login_SmsHint">我们会向您的手机号发送一条验证码短信。</string>
+
   <string name="login_YourName">您的姓名</string>
   <string name="login_FirstName">名字</string>
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
+
+  <string name="login_InvalidPhone">请输入有效的手机号码</string>
+
+  <!-- network -->
+
+  <string name="network_Connecting">连接中……</string>
+  <string name="network_WaitingForNetwork">等待网络连接……</string>
+  <string name="network_Updating">正在上传</string>
+
+  <!-- location -->
+
+  <string name="location_Nearby">附近</string>
+  <string name="location_AwayMeters">%1$s 米以外</string>
+  <string name="location_AwayKilometers">%1$s 千米以外</string>
+
+  <string name="location_personNearby">正在附近</string>
+  <string name="location_personAwayMeters">距您 %1$s 米远</string>
+  <string name="location_personAwayKilometers">距您 %1$s 千米远</string>
 
   <!-- attach -->
 
   <!-- status -->
 
   <string name="status_Online">已连线</string>
+
+  <string name="status_LastSeenRecently">最近上过线</string>
+  <string name="status_LastSeenWithinWeek">最近一周内有上线</string>
+  <string name="status_LastSeenWithinMonth">最近一个月内有上线</string>
+  <string name="status_LastSeenUnknown">很久之前上过线</string>
+
+  <string name="status_LastSeen_now">刚刚在线</string>
+  <string name="status_LastSeen_today">最近上线于 %1$s</string>
+  <string name="status_LastSeen_yesterday">昨天 %1$s 在线</string>
+  <string name="status_LastSeen_weekday">%1$s %2$s 上过线</string>
+  <string name="status_LastSeen_date">%1$s %2$s 上过线</string>
+  <string name="status_LastSeen_minutes_one">最近上线于 %1$s 分钟前</string>
+  <string name="status_LastSeen_minutes_other">最近上线于 %1$s 分钟前</string>
+  <string name="status_LastSeen_hours_one">最近上线于 %1$s 小时前</string>
+  <string name="status_LastSeen_hours_other">最近上线于 %1$s 小时前</string>
+
+  <!-- plurals -->
+
+  <string name="xOnline_one">%1$s 人在线</string>
+  <string name="xOnline_other">%1$s 人在线</string>
+
+  <string name="xGroups_one">%1$s 个群组</string>
+  <string name="xGroups_other">%1$s 个群组</string>
+
+  <string name="xWebsites_one">%1$s 个网站</string>
+  <string name="xWebsites_other">%1$s 个网站</string>
+
+  <string name="xMinutes_one">%1$s 分钟</string>
+  <string name="xMinutes_other">%1$s 分钟</string>
+
+  <string name="xDays_one">%1$s 天</string>
+  <string name="xDays_other">%1$s 天</string>
+
+  <string name="xWeeks_one">%1$s 周</string>
+  <string name="xWeeks_other">%1$s 周</string>
+
+  <string name="xHours_one">%1$s 小时</string>
+  <string name="xHours_other">%1$s 小时</string>
+
+  <string name="xSeconds_one">%1$s 秒</string>
+  <string name="xSeconds_other">%1$s 秒</string>
+
+  <string name="inXHours_one">%1$s 小时内</string>
+  <string name="inXHours_other">%1$s 小时内</string>
+
+  <string name="xChats_one">%1$s 个对话</string>
+  <string name="xChats_other">%1$s 个对话</string>
+
+  <string name="xMessages_one">%1$s 条消息</string>
+  <string name="xMessages_other">%1$s 条消息</string>
+
+  <string name="xNewMessages_one">%1$s 条新消息</string>
+  <string name="xNewMessages_other">%1$s 条新消息</string>
+
+  <string name="FromXChats_one">来自 %1$s 个对话</string>
+  <string name="FromXChats_other">来自 %1$s 个对话</string>
+
+  <string name="xVideoMessages_one">%1$s 条视频消息</string>
+  <string name="xVideoMessages_other">%1$s 条视频消息</string>
+
+  <string name="MuteForXDays_one">免打扰 %1$s 天</string>
+  <string name="MuteForXDays_other">免打扰 %1$s 天</string>
+
+  <string name="MuteForXHours_one">免打扰 %1$s 小时</string>
+  <string name="MuteForXHours_other">免打扰 %1$s 小时</string>
+
+  <string name="inXMinutes_one">%1$s 分钟内</string>
+  <string name="inXMinutes_other">%1$s 分钟内</string>
+
+  <string name="xLines_one">%1$s 行</string>
+  <string name="xLines_other">%1$s 行</string>
+
+  <string name="xAudios_one">%1$s 条语音</string>
+  <string name="xAudios_other">%1$s 条语音</string>
+
+  <string name="xPhotos_one">%1$s 张图片</string>
+  <string name="xPhotos_other">%1$s 张图片</string>
+
+  <string name="xVideos_one">%1$s 个视频</string>
+  <string name="xVideos_other">%1$s 个视频</string>
+
+  <string name="xViews_one">%1$s 次查看</string>
+  <string name="xViews_other">%1$s 次查看</string>
+
+  <string name="xPersons_one">%1$s 人</string>
+  <string name="xPersons_other">%1$s 人</string>
+
+  <string name="xOtherPeopleNames_one">和其他 %1$s 人</string>
+  <string name="xOtherPeopleNames_other">和其他 %1$s 人</string>
+
+  <string name="xOtherChatTitles_one">和其他 %1$s 人</string>
+  <string name="xOtherChatTitles_other">和其他 %1$s 人</string>
+
+  <string name="xContacts_one">%1$s 个联系人</string>
+  <string name="xContacts_other">%1$s 个联系人</string>
+
+  <string name="xContactsJoined_one">%1$s 个在 Telegram 上的联系人</string>
+  <string name="xContactsJoined_other">%1$s 个在 Telegram 上的联系人</string>
+
+  <string name="ForwardLastXMessages_one">转发最后 %1$s 条消息</string>
+  <string name="ForwardLastXMessages_other">转发最后 %1$s 条消息</string>
+
+  <string name="xBytes_one">%1$s 字节</string>
+  <string name="xBytes_other">%1$s 字节</string>
+
+  <string name="xFiles_one">%1$s 个文件</string>
+  <string name="xFiles_other">%1$s 个文件</string>
+
+  <string name="xMembers_one">%1$s 个成员</string>
+  <string name="xMembers_other">%1$s 个成员</string>
+
+  <string name="xSubscribers_one">%1$s 个订阅者</string>
+  <string name="xSubscribers_other">%1$s 个订阅者</string>
+
+  <string name="xMin_one">%1$s 分</string>
+  <string name="xMin_other">%1$s 分</string>
+  <string name="xSec_one">%1$s 秒</string>
+  <string name="xSec_other">%1$s 秒</string>
+
+  <string name="xUsers_one">%1$s 个用户</string>
+  <string name="xUsers_other">%1$s 个用户</string>
+
+  <string name="xSessions_one">%1$s 个活动会话</string>
+  <string name="xSessions_other">%1$s 个活动会话</string>
+
+  <string name="xMonths_one">%1$s 个月</string>
+  <string name="xMonths_other">%1$s 个月</string>
+
+  <string name="xYears_one">%1$s 年</string>
+  <string name="xYears_other">%1$s 年</string>
+
+  <string name="xStickers_one">%1$s 个贴纸</string>
+  <string name="xStickers_other">%1$s 个贴纸</string>
+
+  <string name="xMasks_one">%1$s 个装饰</string>
+  <string name="xMasks_other">%1$s 个装饰</string>
+
+  <string name="AddXStickers_one">添加 %1$s 个贴纸</string>
+  <string name="AddXStickers_other">添加 %1$s 个贴纸</string>
+
+  <string name="RemoveXStickers_one">移除 %1$s 个贴纸</string>
+  <string name="RemoveXStickers_other">移除 %1$s 个贴纸</string>
+
+  <string name="AddXMasks_one">添加 %1$s 个装饰</string>
+  <string name="AddXMasks_other">添加 %1$s 个装饰</string>
+
+  <string name="RemoveXMasks_one">移除 %1$s 个装饰</string>
+  <string name="RemoveXMasks_other">移除 %1$s 个装饰</string>
+
+  <string name="xAdmins_one">%1$s 个管理员</string>
+  <string name="xAdmins_other">%1$s 个管理员</string>
+
+  <string name="xLinks_one">%1$s 条链接</string>
+  <string name="xLinks_other">%1$s 条链接</string>
+
+  <string name="xBanned_one">%1$s 个已封禁的用户</string>
+  <string name="xBanned_other">%1$s 个已封禁的用户</string>
+
+  <string name="xGIFs_one">%1$s 张 GIF 图</string>
+  <string name="xGIFs_other">%1$s 张 GIF 图</string>
+
+  <string name="xVoiceMessages_one">%1$s 条语音消息</string>
+  <string name="xVoiceMessages_other">%1$s 条语音消息</string>
+
+  <string name="xProfilePhotos_one">%1$s 个头像</string>
+  <string name="xProfilePhotos_other">%1$s 个头像</string>
+
+  <string name="xMusicFiles_one">%1$s 个音频文件</string>
+  <string name="xMusicFiles_other">%1$s 个音频文件</string>
+
+  <string name="xThumbnails_one">%1$s 个缩略图</string>
+  <string name="xThumbnails_other">%1$s 个缩略图</string>
+
+  <string name="xWallpapers_one">%1$s 张壁纸</string>
+  <string name="xWallpapers_other">%1$s 张壁纸</string>
+
+  <string name="xCalls_one">%1$s 次通话</string>
+  <string name="xCalls_other">%1$s 次通话</string>
 
   <!-- old -->
 
@@ -129,11 +361,14 @@
 
   <string name="Message">输入消息</string>
   <string name="DeletedMessage">已删除消息</string>
+  <string name="UnsupportedMessage">尚未支持的消息</string>
   <string name="YouHaveNewMessage">您有一条新消息</string>
 
   <string name="Audio">语音</string>
+  <string name="Voice">语音</string>
   <string name="Photo">图片</string>
   <string name="Video">视频</string>
+  <string name="sticker">%1$s 个贴纸</string>
   <string name="File">文档</string>
   <string name="Location">位置</string>
   <string name="AttachContact">联系人</string>
@@ -141,14 +376,31 @@
   <string name="Username">用户名</string>
   <string name="Phone">电话</string>
 
+  <string name="prompt_network">无法连接至服务器。请稍后再试。</string>
+
   <string name="PasscodeTitle">密码锁</string>
   <string name="PasscodeItem">密码锁</string>
   <string name="PasscodeSettingDisabled">已禁用</string>
+  <string name="passcode_confirm_invisible">%1$s</string>
+
+  <string name="copied_phone">手机号码已复制到剪贴板</string>
+  <string name="CopiedUsername">用户名已复制到剪贴板</string>
+  <string name="CopiedLink">链接已复制到剪贴板</string>
+  <string name="CopiedText">文本已复制到剪贴板</string>
+
+  <string name="passcode_pattern_tooshort">密码图案必须连接至少 4 个点</string>
   <string name="PasscodeDoNotMatch">两次输入的锁定码不匹配</string>
+  <string name="passcode_invalid">密码不正确</string>
+  <string name="passcode_password_tooshort">密码必须至少有 1 个字符</string>
+  <string name="ChangePasscodeInfo">当您设置好一个锁定码后，聊天列表上方会出现一个锁形图标。点击它来锁定或解锁Telegram应用。\n\n注意：如果您忘记了锁定码，您将只能卸载然后重新安装Telegram。重装之后您将丢失所有的加密对话。</string>
   <string name="AutoLock">自动锁定</string>
   <string name="AutoLockDisabled">已禁用</string>
   <string name="passcode_auto_hint">在离开一段时间后需要重新输入锁定码进行验证。</string>
   <string name="ChangePasscode">更改密码</string>
+  <string name="passcode_passcodeInvisibility">密码不可见</string>
+
+  <string name="LoadingInformation">加载信息……</string>
+
   <string name="BlockContact">屏蔽</string>
   <string name="Unblock">取消屏蔽</string>
   <string name="Share">分享</string>
@@ -164,16 +416,39 @@
   <string name="Cancel">取消</string>
   <string name="AddMember">添加成员</string>
   <string name="DeleteAndLeave">删除并退出</string>
+  <string name="DeleteAndLeaveHint">删除信息并退出</string>
+
+  <string name="justAdd">刚刚加入到群组</string>
   <string name="KickFromGroup">从群组中移除</string>
   <string name="DeleteChat">删除对话</string>
+  <string name="slideToCancel">滑动以取消</string>
+
+  <string name="fingerprint_hint">Telegram X 需要使用指纹硬件进行身份验证，而这需要您的许可。</string>
+  <string name="fingerprint_hint2">很抱歉，如果您不允许 Telegram X 使用指纹硬件的话，该操作无法继续进行下去。</string>
+  <string name="fingerprint_hint3">请在系统设置中添加至少一个指纹以继续操作。</string>
+  <string name="fingerprint_unavailable">很抱歉，该设备并不支持指纹硬件功能</string>
+  <string name="fingerprint_fail">未知的指纹</string>
+
+  <string name="cam_hint">请在系统设置中允许 Telegram X 使用摄像头。</string>
+
   <string name="Settings">设置</string>
   <string name="LogOut">注销</string>
 
   <string name="Mute">免打扰</string>
   <string name="Unmute">取消免打扰</string>
   <string name="returnToGroup">返回群组</string>
+  <string name="returnToChannel">返回到频道</string>
+
+  <string name="LoadingUser">加载用户……</string>
+  <string name="LoadingUsername">加载用户名</string>
+  <string name="LoadingPhone">加载手机……</string>
+
   <string name="HiddenName">已删除的帐户</string>
   <string name="HiddenNameShort">已删除</string>
+
+  <!-- new -->
+
+  <string name="LoadingChannel">加载频道……</string>
 
   <string name="Description">简介</string>
   <string name="DescriptionInfo">您可以给您的频道添加一段简介。</string>
@@ -181,8 +456,17 @@
 
   <string name="ServiceNotifications">通知服务</string>
   <string name="Bot">机器人</string>
+  <string name="deletedUser">已删除的用户</string>
+  <string name="unknownUser">未知的用户</string>
   <string name="BotStatusRead">可以访问消息</string>
   <string name="BotStatusCantRead">不允许访问消息</string>
+  <string name="notInChat">您不在该对话中</string>
+
+  <string name="NoReturnToChat">您无法回到该对话</string>
+
+  <string name="ProgressLeavingChat">正在离开对话……</string>
+  <string name="ProgressCreateChannel">创建频道中……</string>
+
   <string name="BotStart">开始</string>
 
   <string name="ChannelPublic">公开频道</string>
@@ -193,7 +477,11 @@
   <string name="ChannelPrivateInfo">私人频道只能通过邀请链接加入。</string>
   <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
 
+  <string name="SendMessageTo">发送消息给……</string>
+
   <string name="GroupName">小组名称</string>
+  <string name="GroupDontAdd">阻止我被加入到该群组</string>
+  <string name="GroupEnterValidName">请输入一个有效的群组名</string>
   <string name="ConvertGroup">升级为超级群组</string>
   <string name="Members">成员</string>
   <string name="Link">链接</string>
@@ -247,8 +535,12 @@
   <string name="Call">通话</string>
   <!-- Please check if the name for "Pattern" is the same as in System Settings -> Security -->
   <string name="PasscodePIN">PIN</string>
+  <string name="PasscodePattern">手势密码</string>
   <string name="NewChannel">新建频道</string>
   <string name="NewGroup">新建群组</string>
+  <string name="ChooseYourPattern">选择您的手势密码</string>
+  <string name="ConfirmYourPattern">确认您的手势密码</string>
+  <string name="UnlockByPattern">请输入您的手势密码以解锁</string>
   <string name="SecretLinkPreviewEnable">启用</string>
   <string name="AirplaneModeDisable">禁用</string>
 
@@ -581,6 +873,7 @@
   <string name="VoipWaiting">正在等待</string>
   <string name="VoipFailed">连接失败</string>
   <string name="VoipExchangingKeys">正在交换密钥</string>
+  <string name="VoipEstablishing">连接中……</string>
   <string name="VoipEnded">通话结束</string>
   <string name="VoipDisconnect">断开连接</string>
   <string name="VoipBranding">Telegram</string>
@@ -878,6 +1171,56 @@
 
 
 
+  <!-- new from translations.telegram.org -->
+
+  <string name="AddXMasks_zero">添加 %1$s 个装饰</string>
+  <string name="AddXMasks_two">添加 %1$s 个装饰</string>
+  <string name="AddXMasks_few">添加 %1$s 个装饰</string>
+  <string name="AddXMasks_many">添加 %1$s 个装饰</string>
+  <string name="AddXStickers_zero">添加 %1$s 个贴纸</string>
+  <string name="AddXStickers_two">添加 %1$s 个贴纸</string>
+  <string name="AddXStickers_few">添加 %1$s 个贴纸</string>
+  <string name="AddXStickers_many">添加 %1$s 个贴纸</string>
+  <string name="ForwardLastXMessages_zero">转发最后 %1$s 条消息</string>
+  <string name="ForwardLastXMessages_two">转发最后 %1$s 条消息</string>
+  <string name="ForwardLastXMessages_few">转发最后 %1$s 条消息</string>
+  <string name="ForwardLastXMessages_many">转发最后 %1$s 条消息</string>
+  <string name="FromXChats_zero">来自 %1$s 个对话</string>
+  <string name="FromXChats_two">来自 %1$s 个对话</string>
+  <string name="FromXChats_few">来自 %1$s 个对话</string>
+  <string name="FromXChats_many">来自 %1$s 个对话</string>
+  <string name="MuteForXDays_zero">免打扰 %1$s 天</string>
+  <string name="MuteForXDays_two">免打扰 %1$s 天</string>
+  <string name="MuteForXDays_few">免打扰 %1$s 天</string>
+  <string name="MuteForXDays_many">免打扰 %1$s 天</string>
+  <string name="MuteForXHours_zero">免打扰 %1$s 小时</string>
+  <string name="MuteForXHours_two">免打扰 %1$s 小时</string>
+  <string name="MuteForXHours_few">免打扰 %1$s 小时</string>
+  <string name="MuteForXHours_many">免打扰 %1$s 小时</string>
+  <string name="RemoveXMasks_zero">移除 %1$s 个装饰</string>
+  <string name="RemoveXMasks_two">移除 %1$s 个装饰</string>
+  <string name="RemoveXMasks_few">移除 %1$s 个装饰</string>
+  <string name="RemoveXMasks_many">移除 %1$s 个装饰</string>
+  <string name="RemoveXStickers_zero">移除 %1$s 个贴纸</string>
+  <string name="RemoveXStickers_two">移除 %1$s 个贴纸</string>
+  <string name="RemoveXStickers_few">移除 %1$s 个贴纸</string>
+  <string name="RemoveXStickers_many">移除 %1$s 个贴纸</string>
+  <string name="inXHours_zero">%1$s 小时内</string>
+  <string name="inXHours_two">%1$s 小时内</string>
+  <string name="inXHours_few">%1$s 小时内</string>
+  <string name="inXHours_many">%1$s 小时内</string>
+  <string name="inXMinutes_zero">%1$s 分钟内</string>
+  <string name="inXMinutes_two">%1$s 分钟内</string>
+  <string name="inXMinutes_few">%1$s 分钟内</string>
+  <string name="inXMinutes_many">%1$s 分钟内</string>
+  <string name="status_LastSeen_hours_zero">最近上线于 %1$s 小时前</string>
+  <string name="status_LastSeen_hours_two">最近上线于 %1$s 小时前</string>
+  <string name="status_LastSeen_hours_few">最近上线于 %1$s 小时前</string>
+  <string name="status_LastSeen_hours_many">最近上线于 %1$s 小时前</string>
+  <string name="status_LastSeen_minutes_zero">最近上线于 %1$s 分钟前</string>
+  <string name="status_LastSeen_minutes_two">最近上线于 %1$s 分钟前</string>
+  <string name="status_LastSeen_minutes_few">最近上线于 %1$s 分钟前</string>
+  <string name="status_LastSeen_minutes_many">最近上线于 %1$s 分钟前</string>
   <string name="timestampShort_hours_zero">%1$s 小时前</string>
   <string name="timestampShort_hours_two">%1$s 小时前</string>
   <string name="timestampShort_hours_few">%1$s 小时前</string>
@@ -894,4 +1237,180 @@
   <string name="timestamp_minutes_two">%1$s 分钟前</string>
   <string name="timestamp_minutes_few">%1$s 分钟前</string>
   <string name="timestamp_minutes_many">%1$s 分钟前</string>
-  </resources>
+  <string name="xAdmins_zero">%1$s 个管理员</string>
+  <string name="xAdmins_two">%1$s 个管理员</string>
+  <string name="xAdmins_few">%1$s 个管理员</string>
+  <string name="xAdmins_many">%1$s 个管理员</string>
+  <string name="xAudios_zero">%1$s 条语音</string>
+  <string name="xAudios_two">%1$s 条语音</string>
+  <string name="xAudios_few">%1$s 条语音</string>
+  <string name="xAudios_many">%1$s 条语音</string>
+  <string name="xBanned_zero">%1$s 个已封禁的用户</string>
+  <string name="xBanned_two">%1$s 个已封禁的用户</string>
+  <string name="xBanned_few">%1$s 个已封禁的用户</string>
+  <string name="xBanned_many">%1$s 个已封禁的用户</string>
+  <string name="xBytes_zero">%1$s 字节</string>
+  <string name="xBytes_two">%1$s 字节</string>
+  <string name="xBytes_few">%1$s 字节</string>
+  <string name="xBytes_many">%1$s 字节</string>
+  <string name="xCalls_zero">%1$s 次通话</string>
+  <string name="xCalls_two">%1$s 次通话</string>
+  <string name="xCalls_few">%1$s 次通话</string>
+  <string name="xCalls_many">%1$s 次通话</string>
+  <string name="xChats_zero">%1$s 个对话</string>
+  <string name="xChats_two">%1$s 个对话</string>
+  <string name="xChats_few">%1$s 个对话</string>
+  <string name="xChats_many">%1$s 个对话</string>
+  <string name="xContacts_zero">%1$s 个联系人</string>
+  <string name="xContacts_two">%1$s 个联系人</string>
+  <string name="xContacts_few">%1$s 个联系人</string>
+  <string name="xContacts_many">%1$s 个联系人</string>
+  <string name="xContactsJoined_zero">%1$s 个在 Telegram 上的联系人</string>
+  <string name="xContactsJoined_two">%1$s 个在 Telegram 上的联系人</string>
+  <string name="xContactsJoined_few">%1$s 个在 Telegram 上的联系人</string>
+  <string name="xContactsJoined_many">%1$s 个在 Telegram 上的联系人</string>
+  <string name="xDays_zero">%1$s 天</string>
+  <string name="xDays_two">%1$s 天</string>
+  <string name="xDays_few">%1$s 天</string>
+  <string name="xDays_many">%1$s 天</string>
+  <string name="xFiles_zero">%1$s 个文件</string>
+  <string name="xFiles_two">%1$s 个文件</string>
+  <string name="xFiles_few">%1$s 个文件</string>
+  <string name="xFiles_many">%1$s 个文件</string>
+  <string name="xGIFs_zero">%1$s 张 GIF 图</string>
+  <string name="xGIFs_two">%1$s 张 GIF 图</string>
+  <string name="xGIFs_few">%1$s 张 GIF 图</string>
+  <string name="xGIFs_many">%1$s 张 GIF 图</string>
+  <string name="xGroups_zero">%1$s 个群组</string>
+  <string name="xGroups_two">%1$s 个群组</string>
+  <string name="xGroups_few">%1$s 个群组</string>
+  <string name="xGroups_many">%1$s 个群组</string>
+  <string name="xHours_zero">%1$s 小时</string>
+  <string name="xHours_two">%1$s 小时</string>
+  <string name="xHours_few">%1$s 小时</string>
+  <string name="xHours_many">%1$s 小时</string>
+  <string name="xLines_zero">%1$s 行</string>
+  <string name="xLines_two">%1$s 行</string>
+  <string name="xLines_few">%1$s 行</string>
+  <string name="xLines_many">%1$s 行</string>
+  <string name="xLinks_zero">%1$s 条链接</string>
+  <string name="xLinks_two">%1$s 条链接</string>
+  <string name="xLinks_few">%1$s 条链接</string>
+  <string name="xLinks_many">%1$s 条链接</string>
+  <string name="xMasks_zero">%1$s 个装饰</string>
+  <string name="xMasks_two">%1$s 个装饰</string>
+  <string name="xMasks_few">%1$s 个装饰</string>
+  <string name="xMasks_many">%1$s 个装饰</string>
+  <string name="xMembers_zero">%1$s 个成员</string>
+  <string name="xMembers_two">%1$s 个成员</string>
+  <string name="xMembers_few">%1$s 个成员</string>
+  <string name="xMembers_many">%1$s 个成员</string>
+  <string name="xMessages_zero">%1$s 条消息</string>
+  <string name="xMessages_two">%1$s 条消息</string>
+  <string name="xMessages_few">%1$s 条消息</string>
+  <string name="xMessages_many">%1$s 条消息</string>
+  <string name="xMin_zero">%1$s 分钟</string>
+  <string name="xMin_two">%1$s 分钟</string>
+  <string name="xMin_few">%1$s 分钟</string>
+  <string name="xMin_many">%1$s 分钟</string>
+  <string name="xMinutes_zero">%1$s 分钟</string>
+  <string name="xMinutes_two">%1$s 分钟</string>
+  <string name="xMinutes_few">%1$s 分钟</string>
+  <string name="xMinutes_many">%1$s 分钟</string>
+  <string name="xMonths_zero">%1$s 个月</string>
+  <string name="xMonths_two">%1$s 个月</string>
+  <string name="xMonths_few">%1$s 个月</string>
+  <string name="xMonths_many">%1$s 个月</string>
+  <string name="xMusicFiles_zero">%1$s 个音频文件</string>
+  <string name="xMusicFiles_two">%1$s 个音频文件</string>
+  <string name="xMusicFiles_few">%1$s 个音频文件</string>
+  <string name="xMusicFiles_many">%1$s 个音频文件</string>
+  <string name="xNewMessages_zero">%1$s 条新消息</string>
+  <string name="xNewMessages_two">%1$s 条新消息</string>
+  <string name="xNewMessages_few">%1$s 条新消息</string>
+  <string name="xNewMessages_many">%1$s 条新消息</string>
+  <string name="xOnline_zero">%1$s 人在线</string>
+  <string name="xOnline_two">%1$s 人在线</string>
+  <string name="xOnline_few">%1$s 人在线</string>
+  <string name="xOnline_many">%1$s 人在线</string>
+  <string name="xOtherChatTitles_zero">和其他 %1$s 人</string>
+  <string name="xOtherChatTitles_two">和其他 %1$s 人</string>
+  <string name="xOtherChatTitles_few">和其他 %1$s 人</string>
+  <string name="xOtherChatTitles_many">和其他 %1$s 人</string>
+  <string name="xOtherPeopleNames_zero">和其他 %1$s 人</string>
+  <string name="xOtherPeopleNames_two">和其他 %1$s 人</string>
+  <string name="xOtherPeopleNames_few">和其他 %1$s 人</string>
+  <string name="xOtherPeopleNames_many">和其他 %1$s 人</string>
+  <string name="xPersons_zero">%1$s 人</string>
+  <string name="xPersons_two">%1$s 人</string>
+  <string name="xPersons_few">%1$s 人</string>
+  <string name="xPersons_many">%1$s 人</string>
+  <string name="xPhotos_zero">%1$s 张图片</string>
+  <string name="xPhotos_two">%1$s 张图片</string>
+  <string name="xPhotos_few">%1$s 张图片</string>
+  <string name="xPhotos_many">%1$s 张图片</string>
+  <string name="xProfilePhotos_zero">%1$s 个头像</string>
+  <string name="xProfilePhotos_two">%1$s 个头像</string>
+  <string name="xProfilePhotos_few">%1$s 个头像</string>
+  <string name="xProfilePhotos_many">%1$s 个头像</string>
+  <string name="xSec_zero">%1$s 秒</string>
+  <string name="xSec_two">%1$s 秒</string>
+  <string name="xSec_few">%1$s 秒</string>
+  <string name="xSec_many">%1$s 秒</string>
+  <string name="xSeconds_zero">%1$s 秒</string>
+  <string name="xSeconds_two">%1$s 秒</string>
+  <string name="xSeconds_few">%1$s 秒</string>
+  <string name="xSeconds_many">%1$s 秒</string>
+  <string name="xSessions_zero">%1$s 个活动会话</string>
+  <string name="xSessions_two">%1$s 个活动会话</string>
+  <string name="xSessions_few">%1$s 个活动会话</string>
+  <string name="xSessions_many">%1$s 个活动会话</string>
+  <string name="xStickers_zero">%1$s 个贴纸</string>
+  <string name="xStickers_two">%1$s 个贴纸</string>
+  <string name="xStickers_few">%1$s 个贴纸</string>
+  <string name="xStickers_many">%1$s 个贴纸</string>
+  <string name="xSubscribers_zero">%1$s 个订阅者</string>
+  <string name="xSubscribers_two">%1$s 个订阅者</string>
+  <string name="xSubscribers_few">%1$s 个订阅者</string>
+  <string name="xSubscribers_many">%1$s 个订阅者</string>
+  <string name="xThumbnails_zero">%1$s 个缩略图</string>
+  <string name="xThumbnails_two">%1$s 个缩略图</string>
+  <string name="xThumbnails_few">%1$s 个缩略图</string>
+  <string name="xThumbnails_many">%1$s 个缩略图</string>
+  <string name="xUsers_zero">%1$s 个用户</string>
+  <string name="xUsers_two">%1$s 个用户</string>
+  <string name="xUsers_few">%1$s 个用户</string>
+  <string name="xUsers_many">%1$s 个用户</string>
+  <string name="xVideoMessages_zero">%1$s 条视频消息</string>
+  <string name="xVideoMessages_two">%1$s 条视频消息</string>
+  <string name="xVideoMessages_few">%1$s 条视频消息</string>
+  <string name="xVideoMessages_many">%1$s 条视频消息</string>
+  <string name="xVideos_zero">%1$s 个视频</string>
+  <string name="xVideos_two">%1$s 个视频</string>
+  <string name="xVideos_few">%1$s 个视频</string>
+  <string name="xVideos_many">%1$s 个视频</string>
+  <string name="xViews_zero">%1$s 次查看</string>
+  <string name="xViews_two">%1$s 次查看</string>
+  <string name="xViews_few">%1$s 次查看</string>
+  <string name="xViews_many">%1$s 次查看</string>
+  <string name="xVoiceMessages_zero">%1$s 条语音消息</string>
+  <string name="xVoiceMessages_two">%1$s 条语音消息</string>
+  <string name="xVoiceMessages_few">%1$s 条语音消息</string>
+  <string name="xVoiceMessages_many">%1$s 条语音消息</string>
+  <string name="xWallpapers_zero">%1$s 张壁纸</string>
+  <string name="xWallpapers_two">%1$s 张壁纸</string>
+  <string name="xWallpapers_few">%1$s 张壁纸</string>
+  <string name="xWallpapers_many">%1$s 张壁纸</string>
+  <string name="xWebsites_zero">%1$s 个网站</string>
+  <string name="xWebsites_two">%1$s 个网站</string>
+  <string name="xWebsites_few">%1$s 个网站</string>
+  <string name="xWebsites_many">%1$s 个网站</string>
+  <string name="xWeeks_zero">%1$s 周</string>
+  <string name="xWeeks_two">%1$s 周</string>
+  <string name="xWeeks_few">%1$s 周</string>
+  <string name="xWeeks_many">%1$s 周</string>
+  <string name="xYears_zero">%1$s 年</string>
+  <string name="xYears_two">%1$s 年</string>
+  <string name="xYears_few">%1$s 年</string>
+  <string name="xYears_many">%1$s 年</string>
+</resources>

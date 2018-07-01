@@ -682,8 +682,10 @@
   <string name="AllMedia">All media</string>
   <string name="UserUnavailable">user is unavailable</string>
   <string name="YouCantForwardMore">You can\'t forward more than %1$s messages at once, sorry</string>
-  <string name="XScoredY">%1$s scored %2$s</string>
-  <string name="XScoredYInZ">%1$s scored %2$s in %3$s</string>
+  <string name="ActionUserScored">%1$s scored %2$s</string>
+  <string name="ActionUserScoredInGame">%1$s scored %2$s in %3$s</string>
+  <string name="ActionYouScored">You scored %1$s</string>
+  <string name="ActionYouScoredInGame">You scored %1$s in %2$s</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
   <string name="Draft">Draft</string>
   <string name="ShareYourPhoneNumberTitle">Share your phone number?</string>
@@ -971,8 +973,22 @@
   <string name="PinMessageInThisGroup">Pin this message in this group?</string>
   <string name="PinMessageInThisChannel">Pin this message in this channel?</string>
   <string name="PinNotify">Notify all members</string>
-  <string name="XPinnedText">%1$s pinned &amp;quot;%2$s&amp;quot;</string>
-  <string name="XPinnedY">%1$s pinned a %2$s</string>
+
+  <string name="ActionPinnedText">%1$s pinned &amp;quot;%2$s&amp;quot;</string>
+  <string name="ActionPinnedGame">%1$s pinned %2$s</string>
+
+  <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
+  <string name="ActionPinnedGeo">%1$s pinned a **map**</string>
+  <string name="ActionPinnedGeoLive">%1$s pinned a **live location**</string>
+  <string name="ActionPinnedSticker">%1$s pinned a **sticker**</string>
+  <string name="ActionPinnedGif">%1$s pinned a **GIF**</string>
+  <string name="ActionPinnedFile">%1$s pinned a **file**</string>
+  <string name="ActionPinnedMusic">%1$s pinned a **track**</string>
+  <string name="ActionPinnedPhoto">%1$s pinned a **photo**</string>
+  <string name="ActionPinnedVideo">%1$s pinned a **video**</string>
+  <string name="ActionPinnedRound">%1$s pinned a **video message**</string>
+  <string name="ActionPinnedVoice">%1$s pinned a **voice message**</string>
+
   <string name="UnknownTrack">Unknown Track</string>
   <string name="AudioUnknownArtist">Unknown Artist</string>
   <string name="MaxSize">Max size</string>
@@ -2032,9 +2048,9 @@
 
   <string name="BotWebsiteAllowed">You allowed this bot to message you when you logged in on %1$s.</string>
 
-  
-  
-  
+  <string name="Experiments">Experiments</string>
+  <string name="ExperimentsInfo">Turn on features that may or may not be removed at any time.</string>
+  <string name="ExperimentsAlert">Are you sure you want to enable features that are not guaranteed to be stable and may be removed at anytime?</string>
 
 
 
