@@ -3203,6 +3203,8 @@ Unused sets are archived when you add more.";
 
 "Passport.CorrectErrors" = "Tap to correct errors";
 
+"Passport.NotLoggedInMessage" = "Please log in to your account to use Telegram Passport";
+
 
 /* new from translations.telegram.org */
 
