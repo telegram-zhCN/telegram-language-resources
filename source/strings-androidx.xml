@@ -978,7 +978,7 @@
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
 
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
-  <string name="ActionPinnedGeo">%1$s pinned a **map**</string>
+  <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
   <string name="ActionPinnedGeoLive">%1$s pinned a **live location**</string>
   <string name="ActionPinnedSticker">%1$s pinned a **sticker**</string>
   <string name="ActionPinnedGif">%1$s pinned a **GIF**</string>
