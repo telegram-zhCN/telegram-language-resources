@@ -561,6 +561,7 @@
   <string name="Language">语言</string>
   <string name="SendCurrentLocation">发送我的位置</string>
   <string name="AllMedia">所有图片和视频</string>
+  <string name="ActionYouScored">你获得 %1$s 分</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了 1 条消息</string>
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
@@ -750,6 +751,7 @@
   <string name="Unpin">取消置顶</string>
   <string name="PinnedMessage">置顶消息</string>
   <string name="PinNotify">通知所有成员</string>
+
   <string name="AudioUnknownArtist">未知艺术家</string>
   <!-- Intro view -->
   <string name="Page1Title">Telegram X</string>
@@ -1164,12 +1166,6 @@
   <string name="SyncContactsDelete">删除已同步联系人</string>
   <string name="SyncContactsDeleteButton">删除</string>
   <string name="BotWebsiteAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
-
-  
-  
-  
-
-
 
   <!-- new from translations.telegram.org -->
 
