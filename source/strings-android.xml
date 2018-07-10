@@ -1559,6 +1559,9 @@
     <string name="CreateLink">Create Link</string>
     <string name="Crop">CROP</string>
     <string name="UpdateApp">Update app</string>
+    <string name="UpdateNow">UPDATE NOW</string>
+    <string name="Update">UPDATE</string>
+    <string name="Later">LATER</string>
     <string name="Accept">Accept</string>
     <string name="Agree">Agree</string>
     <string name="Decline">Decline</string>
@@ -1627,6 +1630,7 @@
     <string name="ActionTakeScreenshootYou">You took a screenshot!</string>
     <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
     <!--Alert messages-->
+    <string name="UpdateTelegram">Update Telegram</string>
     <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</string>
     <string name="InvalidPhoneNumber">Invalid phone number</string>
     <string name="PleaseLoginPassport">Please log in to your Telegram account to use Telegram Passport.</string>

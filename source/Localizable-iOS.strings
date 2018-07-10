@@ -3205,6 +3205,13 @@ Unused sets are archived when you add more.";
 
 "Passport.NotLoggedInMessage" = "Please log in to your account to use Telegram Passport";
 
+"Update.Title" = "Telegram Update";
+"Update.AppVersion" = "Telegram %@";
+"Update.UpdateApp" = "Update Telegram";
+"Update.Skip" = "Skip";
+
+"ReportPeer.ReasonCopyright" = "Copyright";
+
 
 /* new from translations.telegram.org */
 
