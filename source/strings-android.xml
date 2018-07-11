@@ -1241,6 +1241,7 @@
     <string name="PassportNoDocumentsAdd">Add a Document</string>
     <string name="PassportNoDocuments">You have no documents yet</string>
     <string name="PassportNoDocumentsInfo">You can add your phone number, email address, identity document or residential address.</string>
+    <string name="PassportCorrectErrors">Tap to correct errors.</string>
     <!--sessions view-->
     <string name="SessionsTitle">Active Sessions</string>
     <string name="CurrentSession">Current session</string>
@@ -1519,7 +1520,7 @@
     <string name="SyncContactsDelete">Delete Synced Contacts</string>
     <string name="SuggestContacts">Suggest Frequent Contacts</string>
     <string name="SuggestContactsInfo">Display people you message frequently at the top of the search section for quick access.</string>
-    <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well the inline bots you are likely to use.</string>
+    <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well as the inline bots you are likely to use.</string>
     <!--edit video view-->
     <string name="SendingVideo">Sending video...</string>
     <string name="SendingGif">Sending GIF...</string>

@@ -3196,7 +3196,7 @@ Unused sets are archived when you add more.";
 
 "Privacy.TopPeers" = "Suggest Frequent Contacts";
 "Privacy.TopPeersHelp" = "Display people you message frequently at the top of the search section for quick access.";
-"Privacy.TopPeersWarning" = "This will delete all data about the people you message frequently as well the inline bots you are likely to use.";
+"Privacy.TopPeersWarning" = "This will delete all data about the people you message frequently as well as the inline bots you are likely to use.";
 "Privacy.TopPeersDelete" = "Delete";
 
 "Conversation.EditingCaptionPanelTitle" = "Edit Caption";

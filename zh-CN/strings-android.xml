@@ -1467,6 +1467,7 @@
   <string name="Set">确定</string>
   <string name="OK">确定</string>
   <string name="Crop">裁剪</string>
+  <string name="Later">稍后重启</string>
   <string name="Accept">接受</string>
   <string name="Decline">拒绝</string>
   <string name="Back">返回</string>
@@ -1520,6 +1521,7 @@
   <string name="ActionTakeScreenshootYou">您截了一张图！</string>
   <string name="ActionTakeScreenshoot">un1 截了一张图！</string>
   <!--Alert messages-->
+  <string name="UpdateTelegram">更新 Telegram</string>
   <string name="InvalidPhoneNumber">无效的手机号码</string>
   <string name="BannedPhoneNumber">被封禁的手机号码</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>

@@ -2022,7 +2022,7 @@
 
 "Suggest.Frequent.Contacts" = "Suggest Frequent Contacts";
 "Suggest.Frequent.Contacts.Desc" = "Display people you message frequently at the top of the search section for quick access.";
-"Suggest.Frequent.Contacts.Alert" = "This will delete all data about the people you message frequently as well the inline bots you are likely to use.";
+"Suggest.Frequent.Contacts.Alert" = "This will delete all data about the people you message frequently as well as the inline bots you are likely to use.";
 
 "Telegram.PeerMediaController" = "Shared Media";
 
