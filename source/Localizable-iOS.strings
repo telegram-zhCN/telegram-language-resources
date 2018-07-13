@@ -3213,6 +3213,15 @@ Unused sets are archived when you add more.";
 "ReportPeer.ReasonCopyright" = "Copyright";
 
 
+
+
+
+
+
+
+"Passport.Identity.TypedentityCardUploadScan" = "Upload a scan of your identity card";
+
+
 /* new from translations.telegram.org */
 
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";

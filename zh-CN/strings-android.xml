@@ -1399,8 +1399,7 @@
   <string name="LastSeenContactsMinusPlus">我的联系人 (-%1$d, +%2$d)</string>
   <string name="LastSeenNobodyPlus">不允许任何人 (+%1$d)</string>
   <string name="SecurityTitle">安全</string>
-  <string name="DeleteAccountTitle">自动删除帐号</string>
-  <string name="DeleteAccountIfAwayFor">离线时间</string>
+  <string name="PrivacyAdvanced">高级</string>
   <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
   <string name="AddExceptions">添加例外</string>
@@ -1963,6 +1962,8 @@
   <string name="ConnectingToProxyDisable">禁用</string>
   <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置（数据和存储）中重新启用它。</string>
   <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
+  <string name="DeleteAccountIfAwayFor">离线时间</string>
+  <string name="DeleteAccountTitle">自动删除帐号</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
   <string name="EnableProxyAlert2">您可以稍后在设置（数据和存储）中修改您的代理服务器。</string>
   <string name="NotificationsPriority">优先级</string>
