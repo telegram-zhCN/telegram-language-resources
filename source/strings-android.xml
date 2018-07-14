@@ -1201,7 +1201,6 @@
     <string name="PassportBirthdate">Date of Birth</string>
     <string name="PassportGender">Gender</string>
     <string name="PassportDocumentNumber">Document Number</string>
-    <string name="PassportIssued">Issued</string>
     <string name="PassportExpired">Expires</string>
     <string name="PassportCitizenship">Citizenship</string>
     <string name="PassportResidence">Residence</string>
@@ -1221,7 +1220,6 @@
     <string name="PassportDeleteSelfie">Delete selfie?</string>
     <string name="PassportPersonalUploadInfo">The document must contain your photograph, first and last name, date of birth, document number, country of issue, and expiry date.</string>
     <string name="PassportDiscardChanges">Are you sure you want to discard all information you\'ve entered?</string>
-    <string name="PassportDocumentDetails">Document Details</string>
     <string name="PassportDiscard">Discard</string>
     <string name="PassportDocuments">Scans</string>
     <string name="PassportDeleteDocument">Delete Document</string>
@@ -1290,6 +1288,10 @@
     <string name="ScreenCapture">Allow Screen Capture</string>
     <string name="ScreenCaptureInfo">If enabled, you can take screenshots of the app, but the system will display your chats in the task switcher even when the passcode is on.\n\nYou may need to restart the app for this to take effect.</string>
     <!--media view-->
+    <string name="SharedFilesTab">FILES</string>
+    <string name="SharedMediaTab">MEDIA</string>
+    <string name="SharedLinksTab">LINKS</string>
+    <string name="SharedMusicTab">AUDIO</string>
     <string name="DocumentsTitle">Shared Files</string>
     <string name="SharedMediaTitle">Shared Media</string>
     <string name="LinksTitle">Shared Links</string>

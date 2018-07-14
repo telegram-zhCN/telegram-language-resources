@@ -138,6 +138,7 @@
 
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
+  <string name="format_sessionsAndWebsites">%1$s, %2$s</string>
 
   <!-- Login Screen -->
 
@@ -974,7 +975,7 @@
   <string name="PinMessageInThisChannel">Pin this message in this channel?</string>
   <string name="PinNotify">Notify all members</string>
 
-  <string name="ActionPinnedText">%1$s pinned &amp;quot;%2$s&amp;quot;</string>
+  <string name="ActionPinnedText">%1$s pinned \"%2$s\"</string>
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
 
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
@@ -1089,15 +1090,21 @@
   <string name="NoDocumentsToShow">No documents to show</string>
   <string name="NoMusicToShow">No music to show</string>
   <string name="NoLinksToShow">No links to show</string>
+  <string name="NoVoiceToShow">No voice messages to show</string>
+  <string name="NoGifsToShow">No GIFs to show</string>
 
   <string name="NoMediaToShowInChat">Share photos and videos in this chat and\naccess them on any of your devices.</string>
   <string name="NoMusicToShowInChat">Share music and audio files in this chat and\naccess them on any device you have.</string>
   <string name="NoLinksToShowInChat">Share links in this chat and\naccess them on any device you have.</string>
+  <string name="NoVoiceToShowInChat">Share voice messages in this chat and\naccess them on any device you have.</string>
+  <string name="NoGifsToShowInChat">Share GIFs in this chat and\naccess them on any device you have.</string>
 
   <string name="NoMediaToShowInChannel">Published photos and videos\nwill be shown here.</string>
   <string name="NoDocumentsToShowInChannel">Published documents and files\nwill be shown here.</string>
   <string name="NoMusicToShowInChannel">Published music and audio files\nwill be shown here.</string>
   <string name="NoLinksToShowInChannel">Published links and articles\nwill be shown here.</string>
+  <string name="NoVoiceToShowInChannel">Published voice messages\nwill be shown here.</string>
+  <string name="NoGifsToShowInChannel">Published GIFs will be shown here.</string>
   <string name="PinToTop">Pin to top</string>
   <string name="UnpinFromTop">Unpin from top</string>
 
@@ -1747,7 +1754,6 @@
   <string name="NoAdminRulesHint">Specify at least one admin rule</string>
   <string name="SecretLinkPreviewAlert">Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</string>
   <string name="SecretChatContextBotAlert">Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot\'s username are sent to the respective developer.</string>
-  <string name="SecretLinkPreviews">Link Previews in Secret Chats</string>
   <string name="ClearRecentEmoji">Clear recent emoji?</string>
 
   <string name="PaintModeDoodle">Doodle</string>
@@ -1809,7 +1815,7 @@
 
   <string name="RingtoneCustom">Custom</string>
 
-  <string name="IncognitoKeyboard">Incognito Keyboard in Secret Chats</string>
+  <string name="IncognitoKeyboard">Incognito Keyboard</string>
   <string name="IncognitoKeyboardInfo">Request keyboard to not update any personalized data such as typing history and personalized language model based on what you type in Secret Chats.\n\nBe aware that this setting is not a guarantee, and some IMEs may not respect it.</string>
 
   <string name="FailureMessageText">This message could not be displayed because of error. We are very sorry for that.\n\nPlease copy scary error details below and submit them to support@telegram.org so we would be able to investigate the issue. Thank you!</string>
@@ -1827,7 +1833,7 @@
   <string name="AutoNightModeDescriptionAuto">Switch to night theme when ambient lighting falls below %1$d%%.\n\nSmall dot indicates current level of ambient lighting measured by your device.</string>
   <string name="AutoNightModeDescriptionScheduled">Switch to night theme based on your time preference.</string>
 
-  <string name="PrivacyBots">Bots and Websites</string>
+  <string name="PrivacyBots">Bots</string>
   <string name="BotsAndWebsitesEmpty">No websites</string>
   <string name="WebSessionsTitle">Logged in with Telegram</string>
   <string name="PrivacyBotsInfo">Websites where you used Telegram to log in.</string>
@@ -1886,7 +1892,10 @@
 
   <string name="PublicGroupsUnavailable">Sorry, public groups are unavailable for your account.</string>
   <string name="StopLiveLocation">Stop Sharing Location</string>
-  <string name="AppBadge">Unread messages count badge</string>
+  <string name="AppBadge">Unread Count Badge</string>
+  <string name="AppBadgeType">Badge Type</string>
+  <string name="AppBadgeTypeMessages">Number of messages</string>
+  <string name="AppBadgeTypeChats">Number of chats</string>
   <string name="AppBadgeHint">Draw unread counter near application icon. Note that it may not be displayed on some devices.</string>
   <string name="AppBadgeDisabled">Disabled</string>
   <string name="AppBadgeUnmuted">From non-muted chats</string>
@@ -2052,6 +2061,54 @@
   <string name="ExperimentsInfo">Turn on features that may or may not be removed at any time.</string>
   <string name="ExperimentsAlert">Are you sure you want to enable features that are not guaranteed to be stable and may be removed at anytime?</string>
 
+  <string name="QuickActionSettingNone">None</string>
+  <string name="QuickActionSettingShare">Share</string>
+  <string name="QuickActionSettingReply">Reply</string>
+
+  <string name="SecretWebPage">Link Previews</string>
+  <string name="SecretWebPageInfo">Link previews will be generated on Telegram servers. We do not store data about the links you send.</string>
+
+  <string name="PrivacyPaymentsClear">Clear Payment and Shipping Info</string>
+  <string name="PrivacyClearShipping">Shipping info</string>
+  <string name="PrivacyClearPayment">Payment info</string>
+  <string name="PrivacyPaymentsClearAlert">Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.</string>
+
+  <string name="SuggestContacts">Suggest Frequent Contacts</string>
+  <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well the inline bots you are likely to use.</string>
+  <string name="SuggestContactsDone">Delete and Disable</string>
+
+  <string name="MarkAsRead">Mark as read</string>
+  <string name="MarkAsUnread">Mark as unread</string>
+  <string name="CreateLink">Create Link</string>
+  <string name="URL">URL</string>
+  <string name="CreateLinkDone">Done</string>
+  <string name="CreateLinkCancel">Cancel</string>
+  <string name="TerminateSessionFreshError">For security reasons this action is restricted on new sessions. Use device with older session or try again later.</string>
+  <string name="SecretLinkPreviewDisable">Disable</string>
+
+  <string name="Sessions">Sessions</string>
+  <string name="Websites">Websites</string>
+  <string name="ActionRead">Mark as Read</string>
+  <string name="HashtagSectionGlobal">Global</string>
+  <string name="FoundMessagesFromUser">messages from %1$s</string>
+  <string name="FoundMessagesFromSelf">messages from you</string>
+  <string name="FoundMessagesQuery">%1$s</string>
+  <string name="ViewMessagesFromYou">Messages from you</string>
+  <string name="ViewMessagesFromUser">Messages from %1$s</string>
+
+  <string name="BotDeleteHint">Delete bot from suggestions?</string>
+  <string name="BotHelp">Help</string>
+  <string name="BotSettings">Settings</string>
+  <string name="TextFormatBold">Bold</string>
+  <string name="TextFormatItalic">Italic</string>
+  <string name="TextFormatMonospace">Monospace</string>
+  <string name="TextFormatLink">Create Link</string>
+
+  <string name="RaiseToSpeak">Raise to Speak</string>
+  <string name="EarpieceMode">Playback through earpiece</string>
+  <string name="EarpieceModeNever">Never</string>
+  <string name="EarpieceModeProximity">When close to an ear</string>
+  <string name="EarpieceModeAlways">Always</string>
 
 
   <!-- new from translations.telegram.org -->

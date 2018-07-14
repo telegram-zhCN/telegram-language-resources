@@ -1561,6 +1561,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_identity_internal" = "Internal passport";
 "lng_passport_identity_internal_upload" = "Upload a scan of your internal passport";
 "lng_passport_identity_about" = "The document must contain your photograph, first and last name, date of birth, document number, country of issue, and expiry date.";
+"lng_passport_identity_selfie" = "Take a selfie with your document";
 "lng_passport_address_title" = "Residential address";
 "lng_passport_address_description" = "Upload a proof of your address";
 "lng_passport_address_bill" = "Utility bill";
@@ -1595,14 +1596,22 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_selfie_name" = "Photo";
 "lng_passport_selfie_description" = "Upload a photo of yourself holding your document. Make sure the ID and your face are clearly visible.";
 "lng_passport_upload_selfie" = "Upload selfie";
+"lng_passport_reupload_selfie" = "Reupload selfie";
 "lng_passport_front_side_title" = "Front side";
 "lng_passport_front_side_name" = "Scan";
 "lng_passport_front_side_description" = "Upload the front side of your document.";
 "lng_passport_upload_front_side" = "Upload a scan of the front side";
+"lng_passport_reupload_front_side" = "Reupload a scan of the front side";
 "lng_passport_reverse_side_title" = "Reverse side";
 "lng_passport_reverse_side_name" = "Scan";
 "lng_passport_reverse_side_description" = "Upload the reverse side of your document.";
 "lng_passport_upload_reverse_side" = "Upload a scan of the reverse side";
+"lng_passport_reupload_reverse_side" = "Reupload a scan of the reverse side";
+"lng_passport_main_page_title" = "Main page";
+"lng_passport_main_page_name" = "Scan";
+"lng_passport_main_page_description" = "Upload the main page of your document.";
+"lng_passport_upload_main_page" = "Upload a scan of the main page";
+"lng_passport_reupload_main_page" = "Reupload a scan of the main page";
 "lng_passport_personal_details" = "Personal details";
 "lng_passport_personal_details_enter" = "Enter your personal details";
 "lng_passport_choose_image" = "Choose scan image";
@@ -1655,6 +1664,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_error_bad_size" = "Sorry, this image has wrong dimensions.";
 "lng_passport_error_cant_read" = "Can't read this file. Please choose an image.";
 "lng_passport_bad_name" = "Please use latin characters only.";
+"lng_passport_wait_upload" = "Please wait while upload is finished.";
+"lng_passport_fix_errors" = "Please correct errors.";
+"lng_passport_app_out_of_date" = "Sorry, your Telegram app is out of date and can't handle this request. Please update Telegram.";
 
 "lng_export_title" = "Export Your Data";
 "lng_export_progress_title" = "Exporting your data";

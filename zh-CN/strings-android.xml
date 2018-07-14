@@ -1146,6 +1146,8 @@
   <string name="PassportFemale">女</string>
   <string name="PassportSurname">姓</string>
   <string name="PassportGender">性别</string>
+  <string name="PassportDocumentNumber">证件编号</string>
+  <string name="PassportCitizenship">国籍</string>
   <string name="PassportResidence">住址</string>
   <string name="PassportSelfie">自拍照</string>
   <string name="PassportNoExpireDate">无</string>
