@@ -3212,14 +3212,12 @@ Unused sets are archived when you add more.";
 
 "ReportPeer.ReasonCopyright" = "Copyright";
 
+"PrivacySettings.DataSettings" = "Data Settings";
+"PrivacySettings.DataSettingsHelp" = "Control which of your data is stored in the cloud and used by Telegram to enable advanced features.";
 
-
-
-
-
-
-
-"Passport.Identity.TypedentityCardUploadScan" = "Upload a scan of your identity card";
+"PrivateDataSettings.Title" = "Data Settings";
+"Privacy.ChatsTitle" = "CHATS";
+"Privacy.DeleteDrafts" = "Delete All Cloud Drafts";
 
 
 /* new from translations.telegram.org */

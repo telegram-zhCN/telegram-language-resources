@@ -1202,6 +1202,8 @@
   <string name="ScreenCapture">允许屏幕抓取</string>
   <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但您的聊天内容会在后台应用列表中展现，即使您启用了锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
   <!--media view-->
+  <string name="SharedFilesTab">文档</string>
+  <string name="SharedMusicTab">音频</string>
   <string name="DocumentsTitle">分享的文件</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
   <string name="LinksTitle">分享的链接</string>

@@ -138,6 +138,7 @@
 
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
+  <string name="format_sessionsAndWebsites">%1$s，%2$s</string>
 
   <!-- Login Screen -->
 
@@ -1105,6 +1106,7 @@
   <string name="AutoNightDisabled">已禁用</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightScheduled">计划时段</string>
+  <string name="PrivacyBots">机器人</string>
   <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
   <string name="PrivacyBotsInfo">您使用 Telegram 登录的网站。</string>
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
@@ -1166,6 +1168,38 @@
   <string name="SyncContactsDelete">删除已同步联系人</string>
   <string name="SyncContactsDeleteButton">删除</string>
   <string name="BotWebsiteAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
+
+  <string name="QuickActionSettingNone">无</string>
+  <string name="QuickActionSettingShare">分享</string>
+  <string name="QuickActionSettingReply">回复</string>
+
+  <string name="SecretWebPage">链接预览</string>
+  <string name="SecretWebPageInfo">链接预览将在 Telegram 服务器上生成，我们不会储存与您所发送的链接有关的数据。</string>
+
+  <string name="PrivacyPaymentsClear">清除付款和配送信息</string>
+  <string name="PrivacyClearShipping">配送信息</string>
+  <string name="PrivacyClearPayment">付款信息</string>
+  <string name="PrivacyPaymentsClearAlert">是否删除您的配送信息，并使所有的付款提供商清除您保存的信用卡？请注意 Telegram 从来不会存储您的信用卡数据。</string>
+
+  <string name="MarkAsRead">标记为已读</string>
+  <string name="MarkAsUnread">标记为未读</string>
+  <string name="URL">链接</string>
+  <string name="CreateLinkDone">完成</string>
+  <string name="CreateLinkCancel">取消</string>
+  <string name="SecretLinkPreviewDisable">禁用</string>
+
+  <string name="Sessions">会话</string>
+  <string name="Websites">网站</string>
+  <string name="FoundMessagesQuery">%1$s</string>
+  <string name="BotHelp">帮助</string>
+  <string name="BotSettings">设置</string>
+  <string name="TextFormatBold">加粗</string>
+  <string name="TextFormatItalic">倾斜</string>
+  <string name="TextFormatMonospace">等宽</string>
+  <string name="RaiseToSpeak">贴耳语音</string>
+  <string name="EarpieceModeNever">从不</string>
+  <string name="EarpieceModeAlways">总是</string>
+
 
   <!-- new from translations.telegram.org -->
 
