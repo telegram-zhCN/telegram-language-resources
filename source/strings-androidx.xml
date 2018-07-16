@@ -2074,7 +2074,7 @@
   <string name="PrivacyPaymentsClearAlert">Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.</string>
 
   <string name="SuggestContacts">Suggest Frequent Contacts</string>
-  <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well the inline bots you are likely to use.</string>
+  <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well as the inline bots you are likely to use.</string>
   <string name="SuggestContactsDone">Delete and Disable</string>
 
   <string name="MarkAsRead">Mark as read</string>
