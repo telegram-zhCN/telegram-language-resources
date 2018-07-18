@@ -209,6 +209,15 @@
   <string name="xDays_one">%1$s day</string>
   <string name="xDays_other">%1$s days</string>
 
+  <string name="DeleteAccountIfAwayForDays_one">%1$s day</string>
+  <string name="DeleteAccountIfAwayForDays_other">%1$s days</string>
+
+  <string name="DeleteAccountIfAwayForMonths_one">%1$s months</string>
+  <string name="DeleteAccountIfAwayForMonths_other">%1$s months</string>
+
+  <string name="DeleteAccountIfAwayForYears_one">%1$s year</string>
+  <string name="DeleteAccountIfAwayForYears_other">%1$s years</string>
+
   <string name="xWeeks_one">%1$s week</string>
   <string name="xWeeks_other">%1$s weeks</string>
 
@@ -784,12 +793,6 @@
   <string name="GroupsAndChannels">Groups and Channels</string>
   <string name="SecurityTitle">Security</string>
   <string name="SessionsTitle">Active Sessions</string>
-  <string name="DeleteAccountTitle">Account self-destructs</string>
-  <string name="AccountTTLForX">If you do not come online for %1$s</string>
-  <!-- If you do not come online for 1 month -->
-  <!-- If you do not come online for 3 months -->
-  <!-- If you do not come online for 6 months -->
-  <!-- If you do not come online for 1 year -->
   <string name="TwoStepVerification">Two-Step Verification</string>
 
   <string name="PasswordEnabled">Enabled</string>
@@ -1091,12 +1094,14 @@
   <string name="NoMusicToShow">No music to show</string>
   <string name="NoLinksToShow">No links to show</string>
   <string name="NoVoiceToShow">No voice messages to show</string>
+  <string name="NoVideoToShow">No video messages to show</string>
   <string name="NoGifsToShow">No GIFs to show</string>
 
   <string name="NoMediaToShowInChat">Share photos and videos in this chat and\naccess them on any of your devices.</string>
   <string name="NoMusicToShowInChat">Share music and audio files in this chat and\naccess them on any device you have.</string>
   <string name="NoLinksToShowInChat">Share links in this chat and\naccess them on any device you have.</string>
   <string name="NoVoiceToShowInChat">Share voice messages in this chat and\naccess them on any device you have.</string>
+  <string name="NoVideoToShowInChat">Share video messages in this chat and\naccess them on any device you have.</string>
   <string name="NoGifsToShowInChat">Share GIFs in this chat and\naccess them on any device you have.</string>
 
   <string name="NoMediaToShowInChannel">Published photos and videos\nwill be shown here.</string>
@@ -1104,6 +1109,7 @@
   <string name="NoMusicToShowInChannel">Published music and audio files\nwill be shown here.</string>
   <string name="NoLinksToShowInChannel">Published links and articles\nwill be shown here.</string>
   <string name="NoVoiceToShowInChannel">Published voice messages\nwill be shown here.</string>
+  <string name="NoVideoToShowInChannel">Published video messages\nwill be shown here.</string>
   <string name="NoGifsToShowInChannel">Published GIFs will be shown here.</string>
   <string name="PinToTop">Pin to top</string>
   <string name="UnpinFromTop">Unpin from top</string>
@@ -1421,7 +1427,7 @@
   <string name="InReplyToX">In reply to %1$s</string>
   <string name="CopyUsername">Copy username</string>
   <string name="PostedBy">Posted by %1$s</string>
-  <string name="DeleteFromCache">Clear cache</string>
+  <string name="DeleteFromCache">Clear from cache</string>
 
   <string name="SendMessageToX">Send message to %1$s</string>
   <string name="DeleteFileHint">Note: you will be able to download this file any time later.</string>
@@ -1843,7 +1849,7 @@
   <string name="OtherWebSessions">Connected Websites</string>
   <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
   <string name="DisconnectWebsite">Disconnect</string>
-  <string name="DisconnectAllWebsitesRationale">Disconnect all websites?</string>
+  <string name="DisconnectAllWebsitesHint">Are you sure you want to disconnect all websites?</string>
   <string name="DisconnectWebsiteBan">Ban %1$s</string>
   <string name="ConnectedWebsitesDesc">Disconnect from your Telegram account.</string>
   <string name="NotificationsLed">LED</string>
@@ -2110,6 +2116,66 @@
   <string name="EarpieceModeProximity">When close to an ear</string>
   <string name="EarpieceModeAlways">Always</string>
 
+  <string name="RetryInMinutes_one">Too many requests. Try again in %1$s minute</string>
+  <string name="RetryInMinutes_other">Too many requests. Try again in %1$s minutes</string>
+  <string name="RetryInSeconds_one">Too many requests. Try again in %1$s second</string>
+  <string name="RetryInSeconds_other">Too many requests. Try again in %1$s seconds</string>
+
+  <string name="JoinChannel">Join Channel</string>
+
+  <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
+  <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by other member</string>
+  <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless invited by other member</string>
+
+  <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by other member</string>
+  <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless invited by other member</string>
+
+  <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by other member</string>
+  <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless invited by other member</string>
+
+  <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
+  <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
+
+  <string name="DeleteUserChatConfirm">Are you sure you want to delete a chat with %1$s? This action cannot be undone.</string>
+  <string name="DeleteSecretChatPendingConfirm">Are you sure you want to cancel a secret chat with %1$s?</string>
+  <string name="DeleteSecretChatClosedConfirm">Are you sure you want to delete a secret chat with %1$s? This action cannot be undone.</string>
+  <string name="DeleteSecretChatConfirm">Are you sure you want to delete a secret chat with %1$s? All chat history will be deleted forever. This action cannot be undone.</string>
+  <string name="DeleteSecretChatHistoryForOtherParty">Delete all messages for %1$s</string>
+  <string name="ChatWithUser">Chat with %1$s</string>
+  <string name="SecretChatWithUser">Secret chat with %1$s</string>
+  <string name="LeaveDoneGroup">Leave</string>
+  <string name="LeaveRemoveFromList">Delete chat from list</string>
+  <string name="DestroyXNoMembers">Destroy %1$s?</string>
+  <string name="DestroyX_one">Destroy %2$s? It will disappear for you and %1$s other member.</string>
+  <string name="DestroyX_other">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+
+  <string name="Copyright">Copyright</string>
+  <string name="PrivacyAdvanced">Advanced</string>
+  <string name="DeleteAccountIfAwayFor2">Delete my account if away for</string>
+  <string name="DeleteAccountHelp">If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.</string>
+
+  <string name="PrivacyDeleteCloudDrafts">Delete All Cloud Drafts</string>
+  <string name="AreYouSureClearDrafts">Are you sure you want to delete all cloud drafts?</string>
+
+  <string name="TabMedia">Media</string>
+  <string name="TabVoiceMessages">Voice</string>
+  <string name="TabVideoMessages">Video</string>
+  <string name="TabGifs">GIFs</string>
+  <string name="TabDocs">Docs</string>
+  <string name="TabLinks">Links</string>
+  <string name="TabAudio">Audio</string>
+  <string name="TabSharedGroups">Groups</string>
+  <string name="TabAdmins">Admins</string>
+  <string name="TabBlacklist">Blacklist</string>
+  <string name="TabRestricted">Blacklist</string>
+  <string name="TabMembers">Members</string>
+  <string name="TabMessages">Messages</string>
+
+  <string name="MoreMessageOptions">More</string>
+  <string name="MessagePin">Pin message</string>
+  <string name="MessageUnpin">Unpin message</string>
+  <string name="MessageReport">Report message</string>
+
 
   <!-- new from translations.telegram.org -->
 
@@ -2141,6 +2207,22 @@
   <string name="ContactsOnTelegramMany_two">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_few">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_many">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
+  <string name="DeleteAccountIfAwayForDays_zero">%1$s days</string>
+  <string name="DeleteAccountIfAwayForDays_two">%1$s days</string>
+  <string name="DeleteAccountIfAwayForDays_few">%1$s days</string>
+  <string name="DeleteAccountIfAwayForDays_many">%1$s days</string>
+  <string name="DeleteAccountIfAwayForMonths_zero">%1$s months</string>
+  <string name="DeleteAccountIfAwayForMonths_two">%1$s months</string>
+  <string name="DeleteAccountIfAwayForMonths_few">%1$s months</string>
+  <string name="DeleteAccountIfAwayForMonths_many">%1$s months</string>
+  <string name="DeleteAccountIfAwayForYears_zero">%1$s years</string>
+  <string name="DeleteAccountIfAwayForYears_two">%1$s years</string>
+  <string name="DeleteAccountIfAwayForYears_few">%1$s years</string>
+  <string name="DeleteAccountIfAwayForYears_many">%1$s years</string>
+  <string name="DestroyX_zero">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+  <string name="DestroyX_two">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+  <string name="DestroyX_few">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+  <string name="DestroyX_many">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="ForwardLastXMessages_zero">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_two">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_few">Forward last %1$s messages</string>
@@ -2169,6 +2251,14 @@
   <string name="ReportXMessages_two">Report %1$s messages</string>
   <string name="ReportXMessages_few">Report %1$s messages</string>
   <string name="ReportXMessages_many">Report %1$s messages</string>
+  <string name="RetryInMinutes_zero">Too many requests. Try again in %1$s minutes</string>
+  <string name="RetryInMinutes_two">Too many requests. Try again in %1$s minutes</string>
+  <string name="RetryInMinutes_few">Too many requests. Try again in %1$s minutes</string>
+  <string name="RetryInMinutes_many">Too many requests. Try again in %1$s minutes</string>
+  <string name="RetryInSeconds_zero">Too many requests. Try again in %1$s seconds</string>
+  <string name="RetryInSeconds_two">Too many requests. Try again in %1$s seconds</string>
+  <string name="RetryInSeconds_few">Too many requests. Try again in %1$s seconds</string>
+  <string name="RetryInSeconds_many">Too many requests. Try again in %1$s seconds</string>
   <string name="SelectedSuffix_zero">" selected"</string>
   <string name="SelectedSuffix_two">" selected"</string>
   <string name="SelectedSuffix_few">" selected"</string>

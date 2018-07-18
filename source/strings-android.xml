@@ -1292,6 +1292,7 @@
     <string name="SharedMediaTab">MEDIA</string>
     <string name="SharedLinksTab">LINKS</string>
     <string name="SharedMusicTab">AUDIO</string>
+    <string name="SharedVoiceTab">VOICE</string>
     <string name="DocumentsTitle">Shared Files</string>
     <string name="SharedMediaTitle">Shared Media</string>
     <string name="LinksTitle">Shared Links</string>
@@ -1300,10 +1301,12 @@
     <string name="NoSharedAudio">Share music in this chat and access it on any of your devices.</string>
     <string name="NoSharedFiles">Share files and documents in this chat and access them on any of your devices.</string>
     <string name="NoSharedLinks">Share links in this chat and access them on any of your devices.</string>
+    <string name="NoSharedVoice">Share voice messages in this chat and access them on any of your devices.</string>
     <string name="NoMediaSecret">Photos and videos from this chat will be shown here.</string>
     <string name="NoSharedAudioSecret">Music from this chat will be shown here.</string>
     <string name="NoSharedFilesSecret">Files and documents from this chat will be shown here.</string>
     <string name="NoSharedLinksSecret">Shared links from this chat will be shown here.</string>
+    <string name="NoSharedVoiceSecret">Voice messages from this chat will be shown here.</string>
     <!--map view-->
     <string name="Map">Map</string>
     <string name="Satellite">Satellite</string>
