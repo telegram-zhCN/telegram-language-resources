@@ -209,6 +209,15 @@
   <string name="xDays_one">%1$s 天</string>
   <string name="xDays_other">%1$s 天</string>
 
+  <string name="DeleteAccountIfAwayForDays_one">%1$s 天</string>
+  <string name="DeleteAccountIfAwayForDays_other">%1$s 天</string>
+
+  <string name="DeleteAccountIfAwayForMonths_one">%1$s 个月</string>
+  <string name="DeleteAccountIfAwayForMonths_other">%1$s 个月</string>
+
+  <string name="DeleteAccountIfAwayForYears_one">%1$s 年</string>
+  <string name="DeleteAccountIfAwayForYears_other">%1$s 年</string>
+
   <string name="xWeeks_one">%1$s 周</string>
   <string name="xWeeks_other">%1$s 周</string>
 
@@ -622,11 +631,6 @@
   <string name="GroupsAndChannels">群组和频道</string>
   <string name="SecurityTitle">安全</string>
   <string name="SessionsTitle">活动会话</string>
-  <string name="DeleteAccountTitle">自动删除帐号</string>
-  <!-- If you do not come online for 1 month -->
-  <!-- If you do not come online for 3 months -->
-  <!-- If you do not come online for 6 months -->
-  <!-- If you do not come online for 1 year -->
   <string name="TwoStepVerification">两步验证</string>
 
   <string name="PasswordEnabled">启用</string>
@@ -945,8 +949,6 @@
   <string name="ReportChatSent">举报已发送</string>
 
   <string name="CopyUsername">复制用户名</string>
-  <string name="DeleteFromCache">清除所有缓存</string>
-
   <string name="LinkPreview">链接预览</string>
   <string name="ReplyToUser">回复给 %1$s</string>
 
@@ -1113,6 +1115,7 @@
   <string name="ClearOtherWebSessionsHelp">您可以在在支持的网站上使用 Telegram 登录。</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="DisconnectWebsite">断开连接</string>
+  <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 账户吗？</string>
   <string name="NotificationsLed">LED</string>
   <string name="LedDisabled">已禁用</string>
   <string name="LedDefault">默认</string>
@@ -1200,6 +1203,30 @@
   <string name="EarpieceModeNever">从不</string>
   <string name="EarpieceModeAlways">总是</string>
 
+  <string name="JoinChannel">加入频道</string>
+
+  <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
+  <string name="LeaveDoneGroup">离开</string>
+  <string name="PrivacyAdvanced">高级</string>
+  <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
+
+  <string name="TabMedia">已共享媒体</string>
+  <string name="TabVoiceMessages">语音</string>
+  <string name="TabVideoMessages">视频</string>
+  <string name="TabGifs">GIF</string>
+  <string name="TabDocs">文档</string>
+  <string name="TabLinks">链接</string>
+  <string name="TabAudio">语音</string>
+  <string name="TabSharedGroups">群组</string>
+  <string name="TabAdmins">管理员</string>
+  <string name="TabBlacklist">黑名单</string>
+  <string name="TabRestricted">黑名单</string>
+  <string name="TabMembers">成员</string>
+  <string name="TabMessages">消息</string>
+
+  <string name="MoreMessageOptions">更多</string>
+  <string name="MessageReport">举报消息</string>
+
 
   <!-- new from translations.telegram.org -->
 
@@ -1211,6 +1238,18 @@
   <string name="AddXStickers_two">添加 %1$s 个贴纸</string>
   <string name="AddXStickers_few">添加 %1$s 个贴纸</string>
   <string name="AddXStickers_many">添加 %1$s 个贴纸</string>
+  <string name="DeleteAccountIfAwayForDays_zero">%1$s 天</string>
+  <string name="DeleteAccountIfAwayForDays_two">%1$s 天</string>
+  <string name="DeleteAccountIfAwayForDays_few">%1$s 天</string>
+  <string name="DeleteAccountIfAwayForDays_many">%1$s 天</string>
+  <string name="DeleteAccountIfAwayForMonths_zero">%1$s 个月</string>
+  <string name="DeleteAccountIfAwayForMonths_two">%1$s 个月</string>
+  <string name="DeleteAccountIfAwayForMonths_few">%1$s 个月</string>
+  <string name="DeleteAccountIfAwayForMonths_many">%1$s 个月</string>
+  <string name="DeleteAccountIfAwayForYears_zero">%1$s 年</string>
+  <string name="DeleteAccountIfAwayForYears_two">%1$s 年</string>
+  <string name="DeleteAccountIfAwayForYears_few">%1$s 年</string>
+  <string name="DeleteAccountIfAwayForYears_many">%1$s 年</string>
   <string name="ForwardLastXMessages_zero">转发最后 %1$s 条消息</string>
   <string name="ForwardLastXMessages_two">转发最后 %1$s 条消息</string>
   <string name="ForwardLastXMessages_few">转发最后 %1$s 条消息</string>

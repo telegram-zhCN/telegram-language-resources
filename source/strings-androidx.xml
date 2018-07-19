@@ -117,7 +117,6 @@
   <string name="format_newMessagesFromChats">%1$s %2$s</string>
   <string name="format_peopleNamesAndOthers">%1$s %2$s</string>
   <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
-  <string name="format_subscribersAndOnline">%1$s, %2$s</string>
   <string name="format_membersAndOnline">%1$s, %2$s</string>
   <string name="format_photosAndVideos">%1$s, %2$s</string>
 
@@ -212,7 +211,7 @@
   <string name="DeleteAccountIfAwayForDays_one">%1$s day</string>
   <string name="DeleteAccountIfAwayForDays_other">%1$s days</string>
 
-  <string name="DeleteAccountIfAwayForMonths_one">%1$s months</string>
+  <string name="DeleteAccountIfAwayForMonths_one">%1$s month</string>
   <string name="DeleteAccountIfAwayForMonths_other">%1$s months</string>
 
   <string name="DeleteAccountIfAwayForYears_one">%1$s year</string>
@@ -1180,7 +1179,7 @@
 
 
   <string name="Send">Send</string>
-  <string name="ClearRecentStickers">Clear recent stickers?</string>
+  <string name="ClearRecentStickers">Clear Recent Stickers</string>
   <string name="CropSquare">Square</string>
   <string name="Wallpaper">Wallpaper</string>
   <string name="ChatPreview">Chat preview</string>
@@ -1787,6 +1786,8 @@
   <string name="RoundVideoPlaybackError">Failed to play video message, see logs for details.</string>
   <string name="VideoPlaybackError">Failed to play video, see logs for details.</string>
   <string name="VideoPlaybackUnsupported">Video format is not supported.</string>
+  <string name="GifPlaybackError">Failed to play GIF, see logs for details.</string>
+  <string name="GifPlaybackUnsupported">GIF format is not supported.</string>
   <string name="AudioPlaybackError">Failed to play audio, see logs for details.</string>
   <string name="AudioPlaybackUnsupported">Audio format is not supported.</string>
   <string name="CloudDownload">Download %1$s</string>
@@ -2087,7 +2088,7 @@
   <string name="MarkAsUnread">Mark as unread</string>
   <string name="CreateLink">Create Link</string>
   <string name="URL">URL</string>
-  <string name="CreateLinkDone">Done</string>
+  <string name="CreateLinkDone">Save</string>
   <string name="CreateLinkCancel">Cancel</string>
   <string name="TerminateSessionFreshError">For security reasons this action is restricted on new sessions. Use device with older session or try again later.</string>
   <string name="SecretLinkPreviewDisable">Disable</string>
@@ -2136,7 +2137,7 @@
   <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
   <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
 
-  <string name="DeleteUserChatConfirm">Are you sure you want to delete a chat with %1$s? This action cannot be undone.</string>
+  <string name="DeleteUserChatConfirm">Are you sure you want to delete the chat with %1$s? This action cannot be undone.</string>
   <string name="DeleteSecretChatPendingConfirm">Are you sure you want to cancel a secret chat with %1$s?</string>
   <string name="DeleteSecretChatClosedConfirm">Are you sure you want to delete a secret chat with %1$s? This action cannot be undone.</string>
   <string name="DeleteSecretChatConfirm">Are you sure you want to delete a secret chat with %1$s? All chat history will be deleted forever. This action cannot be undone.</string>
@@ -2167,7 +2168,7 @@
   <string name="TabSharedGroups">Groups</string>
   <string name="TabAdmins">Admins</string>
   <string name="TabBlacklist">Blacklist</string>
-  <string name="TabRestricted">Blacklist</string>
+  <string name="TabRestricted">Restricted</string>
   <string name="TabMembers">Members</string>
   <string name="TabMessages">Messages</string>
 

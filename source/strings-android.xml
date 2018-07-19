@@ -1287,6 +1287,7 @@
     <string name="FingerprintNotRecognized">Fingerprint not recognized. Try again</string>
     <string name="ScreenCapture">Allow Screen Capture</string>
     <string name="ScreenCaptureInfo">If enabled, you can take screenshots of the app, but the system will display your chats in the task switcher even when the passcode is on.\n\nYou may need to restart the app for this to take effect.</string>
+    <string name="TooManyTries">Too many tries.\nPlease try again in %1$s.</string>
     <!--media view-->
     <string name="SharedFilesTab">FILES</string>
     <string name="SharedMediaTab">MEDIA</string>
