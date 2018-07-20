@@ -2173,9 +2173,22 @@
   <string name="TabMessages">Messages</string>
 
   <string name="MoreMessageOptions">More</string>
-  <string name="MessagePin">Pin message</string>
-  <string name="MessageUnpin">Unpin message</string>
+  <string name="MessagePin">Pin</string>
+  <string name="MessageUnpin">Unpin</string>
   <string name="MessageReport">Report message</string>
+
+  <string name="ErrorUserDeleted">Cannot perform this action, because user account is deactivated.</string>
+  <string name="GroupUpgradedFrom">Group upgraded to supergroup. Tap here to view older history.</string>
+  <string name="GroupUpgradedTo">Group upgraded to supergroup.</string>
+
+  <string name="MembersDetailRestricted">Users with restrictions</string>
+  <string name="MembersDetailAdmins">Administrators</string>
+  <string name="MembersDetailBanned">Banned users</string>
+
+  <string name="ChatSuggestionsDisabled">Bot suggestions are disabled.\nTurn them back on in Settings - Privacy and Security.</string>
+  <string name="ChatLinkView">View Chat</string>
+  <string name="ChatLinkRemove">Remove Link</string>
+  <string name="ChatLinkRemoveAlert">Wait! Are you sure you want to make %1$s private and release its public link? While free, it might be taken by any other user.</string>
 
 
   <!-- new from translations.telegram.org -->
