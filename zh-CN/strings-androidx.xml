@@ -1223,8 +1223,12 @@
   <string name="TabMessages">消息</string>
 
   <string name="MoreMessageOptions">更多</string>
+  <string name="MessagePin">置顶</string>
+  <string name="MessageUnpin">取消置顶</string>
   <string name="MessageReport">举报消息</string>
 
+  <string name="MembersDetailAdmins">管理员</string>
+  <string name="MembersDetailBanned">被封禁的用户</string>
 
   <!-- new from translations.telegram.org -->
 
