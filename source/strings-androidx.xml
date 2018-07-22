@@ -121,6 +121,7 @@
   <string name="format_photosAndVideos">%1$s, %2$s</string>
 
   <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
+  <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
   <string name="format_locationUpdated">updated %1$s</string>
 
@@ -267,9 +268,6 @@
 
   <string name="xViews_one">%1$s view</string>
   <string name="xViews_other">%1$s views</string>
-
-  <string name="xPersons_one">%1$s person</string>
-  <string name="xPersons_other">%1$s persons</string>
 
   <string name="xOtherPeopleNames_one">and %1$s other</string>
   <string name="xOtherPeopleNames_other">and %1$s others</string>
@@ -432,10 +430,7 @@
   <string name="DeleteChat">Delete chat</string>
   <string name="slideToCancel">Slide to Cancel</string>
 
-  <string name="fingerprint_hint">Telegram X requires an access to use Fingerprint API in order to be able to use it as Passcode</string>
-  <string name="fingerprint_hint2">Sorry, you will not be able to pass through this step without allowing Telegram X to use Fingerprint API</string>
   <string name="fingerprint_hint3">Please enroll at least one fingerprint in System Settings &gt; Security &gt; Fingerprints.</string>
-  <string name="fingerprint_unavailable">Sorry, Fingerprint API is not available for this device</string>
   <string name="fingerprint_fail">Unknown finger</string>
 
   <string name="cam_hint">Please allow Telegram X to use camera in System Settings &gt; Apps &gt; Telegram X &gt; Permissions</string>
@@ -473,7 +468,6 @@
 
   <string name="NoReturnToChat">You cannot return to this chat</string>
 
-  <string name="ProgressLeavingChat">Leaving chat…</string>
   <string name="ProgressCreateChannel">Creating channel…</string>
 
   <string name="BotStart">START</string>
@@ -493,7 +487,6 @@
   <string name="GroupEnterValidName">Please enter a valid group name</string>
   <string name="ConvertGroup">Convert to Supergroup</string>
   <string name="Members">Members</string>
-  <string name="Loading">Loading</string>
   <string name="Link">Link</string>
   <string name="Copy">Copy</string>
   <string name="CopyText">Copy text</string>
@@ -585,7 +578,6 @@
 
   <!-- Messages -->
 
-  <string name="ProgressJoiningChat">Joining chat…</string>
   <string name="NoMediaYet">No photos or videos yet</string>
   <string name="AttachAudio">Voice Message</string>
 
@@ -667,7 +659,6 @@
   <string name="ChatPhoto">Chat photo</string>
   <string name="ShowInChat">Show in Chat</string>
   <string name="GroupIsFull">The group you tried to join is full</string>
-  <string name="TooManyStickerSets">You have too many stickers installed. Try deleting some before installing</string>
   <string name="PasswordIsInvalid">The password you have entered is invalid</string>
 
   <string name="InviteLinkInvalid">Invite link is invalid or not active anymore</string>
@@ -726,7 +717,7 @@
   <string name="XJoinedSecretChat">%1$s joined the secret chat</string>
   <string name="SecretChatCancelled">Secret chat cancelled</string>
   <string name="SecretChats">Secret Chats</string>
-  <string name="SecretChat">Secret Chat</string>
+  
   <string name="EncryptedDescription1">Use end-to-end encryption</string>
   <string name="EncryptedDescription2">Leave no trace on our servers</string>
   <string name="EncryptedDescription3">Have a self-destruct timer</string>
@@ -1665,10 +1656,7 @@
   <string name="ChannelPhotoRemovedBy">%1$s removed the channel photo</string>
   <string name="Use169Output">16:9 Camera output</string>
 
-  <string name="SdkVersionLow">This feature is not available on your Android version, sorry.</string>
-
   <string name="RecentStickers">Recently Used</string>
-  <string name="Favorite">Favorite</string>
   <string name="AddToFavorites">Add to Favorites</string>
   <string name="RemoveFromFavorites">Remove from Favorites</string>
 
@@ -2237,6 +2225,7 @@
   <string name="DestroyX_two">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_few">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_many">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+  <string name="Favorite">Favorite</string>
   <string name="ForwardLastXMessages_zero">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_two">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_few">Forward last %1$s messages</string>
@@ -2245,6 +2234,7 @@
   <string name="FromXChats_two">from %1$s chats</string>
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
+  <string name="Loading">Loading</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
   <string name="MuteForXDays_few">Mute for %1$s days</string>
@@ -2253,6 +2243,8 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
+  <string name="ProgressJoiningChat">Joining chat…</string>
+  <string name="ProgressLeavingChat">Leaving chat…</string>
   <string name="RemoveXMasks_zero">Remove %1$s masks</string>
   <string name="RemoveXMasks_two">Remove %1$s masks</string>
   <string name="RemoveXMasks_few">Remove %1$s masks</string>
@@ -2273,6 +2265,8 @@
   <string name="RetryInSeconds_two">Too many requests. Try again in %1$s seconds</string>
   <string name="RetryInSeconds_few">Too many requests. Try again in %1$s seconds</string>
   <string name="RetryInSeconds_many">Too many requests. Try again in %1$s seconds</string>
+  <string name="SdkVersionLow">This feature is not available on your Android version, sorry.</string>
+  <string name="SecretChat">Secret Chat</string>
   <string name="SelectedSuffix_zero">" selected"</string>
   <string name="SelectedSuffix_two">" selected"</string>
   <string name="SelectedSuffix_few">" selected"</string>
@@ -2281,6 +2275,7 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
+  <string name="TooManyStickerSets">You have too many stickers installed. Try deleting some before installing</string>
   <string name="inXHours_zero">in %1$s hours</string>
   <string name="inXHours_two">in %1$s hours</string>
   <string name="inXHours_few">in %1$s hours</string>
@@ -2425,10 +2420,6 @@
   <string name="xPeopleJoinedGroup_two">%1$s people joined the group</string>
   <string name="xPeopleJoinedGroup_few">%1$s people joined the group</string>
   <string name="xPeopleJoinedGroup_many">%1$s people joined the group</string>
-  <string name="xPersons_zero">%1$s persons</string>
-  <string name="xPersons_two">%1$s persons</string>
-  <string name="xPersons_few">%1$s persons</string>
-  <string name="xPersons_many">%1$s persons</string>
   <string name="xPhotos_zero">%1$s photos</string>
   <string name="xPhotos_two">%1$s photos</string>
   <string name="xPhotos_few">%1$s photos</string>
