@@ -121,6 +121,7 @@
   <string name="format_photosAndVideos">%1$s，%2$s</string>
 
   <string name="format_fileSizeAndModifiedDate">%1$s，%2$s</string>
+  <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_contentAndModifyDate">%1$s，最后修改于 %2$s</string>
   <string name="format_locationUpdated">更新于 %1$s</string>
 
@@ -267,9 +268,6 @@
 
   <string name="xViews_one">%1$s 次查看</string>
   <string name="xViews_other">%1$s 次查看</string>
-
-  <string name="xPersons_one">%1$s 人</string>
-  <string name="xPersons_other">%1$s 人</string>
 
   <string name="xOtherPeopleNames_one">和其他 %1$s 人</string>
   <string name="xOtherPeopleNames_other">和其他 %1$s 人</string>
@@ -432,10 +430,7 @@
   <string name="DeleteChat">删除对话</string>
   <string name="slideToCancel">滑动以取消</string>
 
-  <string name="fingerprint_hint">Telegram X 需要使用指纹硬件进行身份验证，而这需要您的许可。</string>
-  <string name="fingerprint_hint2">很抱歉，如果您不允许 Telegram X 使用指纹硬件的话，该操作无法继续进行下去。</string>
   <string name="fingerprint_hint3">请在系统设置中添加至少一个指纹以继续操作。</string>
-  <string name="fingerprint_unavailable">很抱歉，该设备并不支持指纹硬件功能</string>
   <string name="fingerprint_fail">未知的指纹</string>
 
   <string name="cam_hint">请在系统设置中允许 Telegram X 使用摄像头。</string>
@@ -473,7 +468,6 @@
 
   <string name="NoReturnToChat">您无法回到该对话</string>
 
-  <string name="ProgressLeavingChat">正在离开对话……</string>
   <string name="ProgressCreateChannel">创建频道中……</string>
 
   <string name="BotStart">开始</string>
@@ -587,7 +581,7 @@
   <string name="NewSecretChat">新建加密对话</string>
   <string name="SecretChatCancelled">私密对话已取消</string>
   <string name="SecretChats">加密对话</string>
-  <string name="SecretChat">私密对话</string>
+  
   <string name="EncryptedDescription1">使用端到端加密</string>
   <string name="EncryptedDescription2">不会在我们的服务器上留下任何痕迹</string>
   <string name="EncryptedDescription3">支持阅后即焚</string>
@@ -1268,6 +1262,7 @@
   <string name="MuteForXHours_two">免打扰 %1$s 小时</string>
   <string name="MuteForXHours_few">免打扰 %1$s 小时</string>
   <string name="MuteForXHours_many">免打扰 %1$s 小时</string>
+  <string name="ProgressLeavingChat">正在离开对话……</string>
   <string name="RemoveXMasks_zero">移除 %1$s 个装饰</string>
   <string name="RemoveXMasks_two">移除 %1$s 个装饰</string>
   <string name="RemoveXMasks_few">移除 %1$s 个装饰</string>
@@ -1276,6 +1271,7 @@
   <string name="RemoveXStickers_two">移除 %1$s 个贴纸</string>
   <string name="RemoveXStickers_few">移除 %1$s 个贴纸</string>
   <string name="RemoveXStickers_many">移除 %1$s 个贴纸</string>
+  <string name="SecretChat">私密对话</string>
   <string name="inXHours_zero">%1$s 小时内</string>
   <string name="inXHours_two">%1$s 小时内</string>
   <string name="inXHours_few">%1$s 小时内</string>
@@ -1412,10 +1408,6 @@
   <string name="xOtherPeopleNames_two">和其他 %1$s 人</string>
   <string name="xOtherPeopleNames_few">和其他 %1$s 人</string>
   <string name="xOtherPeopleNames_many">和其他 %1$s 人</string>
-  <string name="xPersons_zero">%1$s 人</string>
-  <string name="xPersons_two">%1$s 人</string>
-  <string name="xPersons_few">%1$s 人</string>
-  <string name="xPersons_many">%1$s 人</string>
   <string name="xPhotos_zero">%1$s 张图片</string>
   <string name="xPhotos_two">%1$s 张图片</string>
   <string name="xPhotos_few">%1$s 张图片</string>

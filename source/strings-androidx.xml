@@ -717,7 +717,7 @@
   <string name="XJoinedSecretChat">%1$s joined the secret chat</string>
   <string name="SecretChatCancelled">Secret chat cancelled</string>
   <string name="SecretChats">Secret Chats</string>
-  
+  <string name="ChatTitleSecretChat">%1$s (secret chat)</string>
   <string name="EncryptedDescription1">Use end-to-end encryption</string>
   <string name="EncryptedDescription2">Leave no trace on our servers</string>
   <string name="EncryptedDescription3">Have a self-destruct timer</string>
@@ -1865,7 +1865,12 @@
   <string name="ShowOnFoursquare">Foursquare</string>
   <string name="AttachLiveLocation">Live Location</string>
 
-  <string name="AccurateToXMeters">Accurate to %1$s metres</string>
+  
+  
+
+  <string name="xStrings_one">%1$s string</string>
+  <string name="xStrings_other">%1$s strings</string>
+
   <string name="ShareLiveLocation">Share Live Location</string>
   <string name="SendLiveLocationInfo">Updated in real time as you move</string>
   <string name="PullToSeePlaces">Pull up to see places</string>
@@ -2181,6 +2186,7 @@
 
   <!-- new from translations.telegram.org -->
 
+  <string name="AccurateToXMeters">Accurate to %1$s metres</string>
   <string name="AddXMasks_zero">Add %1$s masks</string>
   <string name="AddXMasks_two">Add %1$s masks</string>
   <string name="AddXMasks_few">Add %1$s masks</string>
@@ -2225,7 +2231,6 @@
   <string name="DestroyX_two">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_few">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_many">Destroy %2$s? It will disappear for you and %1$s other members.</string>
-  <string name="Favorite">Favorite</string>
   <string name="ForwardLastXMessages_zero">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_two">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_few">Forward last %1$s messages</string>
@@ -2234,7 +2239,6 @@
   <string name="FromXChats_two">from %1$s chats</string>
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
-  <string name="Loading">Loading</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
   <string name="MuteForXDays_few">Mute for %1$s days</string>
@@ -2243,8 +2247,6 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
-  <string name="ProgressJoiningChat">Joining chat…</string>
-  <string name="ProgressLeavingChat">Leaving chat…</string>
   <string name="RemoveXMasks_zero">Remove %1$s masks</string>
   <string name="RemoveXMasks_two">Remove %1$s masks</string>
   <string name="RemoveXMasks_few">Remove %1$s masks</string>
@@ -2265,8 +2267,6 @@
   <string name="RetryInSeconds_two">Too many requests. Try again in %1$s seconds</string>
   <string name="RetryInSeconds_few">Too many requests. Try again in %1$s seconds</string>
   <string name="RetryInSeconds_many">Too many requests. Try again in %1$s seconds</string>
-  <string name="SdkVersionLow">This feature is not available on your Android version, sorry.</string>
-  <string name="SecretChat">Secret Chat</string>
   <string name="SelectedSuffix_zero">" selected"</string>
   <string name="SelectedSuffix_two">" selected"</string>
   <string name="SelectedSuffix_few">" selected"</string>
@@ -2275,7 +2275,6 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
-  <string name="TooManyStickerSets">You have too many stickers installed. Try deleting some before installing</string>
   <string name="inXHours_zero">in %1$s hours</string>
   <string name="inXHours_two">in %1$s hours</string>
   <string name="inXHours_few">in %1$s hours</string>
@@ -2444,6 +2443,10 @@
   <string name="xStickers_two">%1$s stickers</string>
   <string name="xStickers_few">%1$s stickers</string>
   <string name="xStickers_many">%1$s stickers</string>
+  <string name="xStrings_zero">%1$s strings</string>
+  <string name="xStrings_two">%1$s strings</string>
+  <string name="xStrings_few">%1$s strings</string>
+  <string name="xStrings_many">%1$s strings</string>
   <string name="xSubscribers_zero">%1$s subscribers</string>
   <string name="xSubscribers_two">%1$s subscribers</string>
   <string name="xSubscribers_few">%1$s subscribers</string>
