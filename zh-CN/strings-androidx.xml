@@ -405,6 +405,7 @@
   <string name="passcode_auto_hint">在离开一段时间后需要重新输入锁定码进行验证。</string>
   <string name="ChangePasscode">更改密码</string>
   <string name="passcode_passcodeInvisibility">密码不可见</string>
+  <string name="passcode_fingerprint">指纹解锁</string>
 
   <string name="LoadingInformation">加载信息……</string>
 
@@ -423,7 +424,6 @@
   <string name="Cancel">取消</string>
   <string name="AddMember">添加成员</string>
   <string name="DeleteAndLeave">删除并退出</string>
-  <string name="DeleteAndLeaveHint">删除信息并退出</string>
 
   <string name="justAdd">刚刚加入到群组</string>
   <string name="KickFromGroup">从群组中移除</string>
@@ -486,7 +486,6 @@
   <string name="GroupDontAdd">阻止我被加入到该群组</string>
   <string name="GroupEnterValidName">请输入一个有效的群组名</string>
   <string name="ConvertGroup">升级为超级群组</string>
-  <string name="Members">成员</string>
   <string name="Link">链接</string>
   <string name="Copy">复制</string>
   <string name="CopyLink">复制链接</string>
@@ -770,13 +769,9 @@
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="FeatureUnavailable">抱歉，此功能在您的国家暂时不可用</string>
   <string name="PhoneNumberChange">更改号码</string>
-
   <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
   <string name="SentCallCode">我们正在呼叫您的手机 **%1$s** 并播报验证码。</string>
   <string name="YourPhone">您的电话号码</string>
-  <string name="Docs">文档</string>
-  <string name="Links">链接</string>
-  <string name="Media">已共享媒体</string>
   <string name="PhoneMobile">手机</string>
   <string name="GroupsInCommon">共同加入的群组</string>
   <string name="EncryptionKey">加密密钥</string>
@@ -788,8 +783,6 @@
 
 
   <string name="Group">群组</string>
-
-  <string name="Admins">管理员</string>
 
   <string name="Themes">主题</string>
   <string name="ThemeBlue">蓝色</string>
@@ -837,6 +830,7 @@
   <string name="Send">发送</string>
   <string name="CropSquare">正方形</string>
   <string name="Wallpaper">背景</string>
+  <string name="RemoveStickerSetAction">移除</string>
   <!-- %1$s is one of: "message", "X messages", "audio", "X audios", "photo" from the corresponding translated strings -->
   <!-- %2$s is one of: contact first name, channel title, group title -->
   <!-- In case you don't know how to combine for bot female and male names, you can use stupid prefix like "contact" -->
@@ -933,7 +927,6 @@
   <string name="NotificationsPriority">优先级</string>
   <string name="Importance">优先级</string>
   <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
-  <string name="UserRestricted">抱歉，您无法执行此操作。</string>
   <string name="Report">报告</string>
   <string name="Spam">垃圾信息</string>
   <string name="Violence">暴力</string>
@@ -942,10 +935,8 @@
 
   <string name="CopyUsername">复制用户名</string>
   <string name="LinkPreview">链接预览</string>
-  <string name="ReplyToUser">回复给 %1$s</string>
 
   <string name="Channel">频道</string>
-  <string name="Groups">群组</string>
 
   <string name="ThemeCyan">青色</string>
   <string name="ThemePink">粉色</string>
@@ -965,7 +956,6 @@
   <string name="ManageChannel">管理频道</string>
   <string name="ManageGroup">管理群组</string>
 
-  <string name="ChannelBlacklist">黑名单</string>
   <string name="PromotedByX">被 %1$s 设为管理员</string>
   <string name="RestrictedByX">被 %1$s 限制</string>
 
@@ -1078,12 +1068,11 @@
   <string name="Continue">继续</string>
 
   <string name="SecretLinkPreviewAlert">要为私密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。</string>
-  <string name="ClearRecentEmoji">清除最近使用的 emoji 列表？</string>
-
   <string name="RestoreEmailTroubleUnknown">无法访问您的密保邮箱？</string>
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">电话</string>
 
+  <string name="ArchiveStickerSetAction">存档</string>
   <string name="PlayListRemove">移除</string>
   <string name="PlaySkipNext">下一步</string>
   <string name="PlayPlay">播放</string>
@@ -1102,7 +1091,6 @@
   <string name="AutoNightScheduled">计划时段</string>
   <string name="PrivacyBots">机器人</string>
   <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
-  <string name="PrivacyBotsInfo">您使用 Telegram 登录的网站。</string>
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
   <string name="ClearOtherWebSessionsHelp">您可以在在支持的网站上使用 Telegram 登录。</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
@@ -1122,9 +1110,6 @@
 
   <string name="AddAccount">添加帐户</string>
   <string name="AttachLiveLocation">实时位置</string>
-
-  
-  
 
   <string name="SendLiveLocationInfo">在您移动时实时更新</string>
   <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
@@ -1154,6 +1139,14 @@
   <string name="ProxySponsor">代理赞助商</string>
   <string name="ProxySponsorHint">这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
 
+  <!--<string name="help_PhoneNumberSubjectInvalid">Invalid phone number: %1$s</string>
+  <string name="help_PhoneNumberSubjectBanned">Banned phone number: %1$s</string>
+  <string name="help_PhoneNumberSubjectSMS">Registration/login issue: %1$s</string>
+  <string name="help_PhoneNumberMessage">I\'m trying to use my mobile phone number: %1$s.\n%2$s\n\nApp: Android X %3$s\nOS version: %4$s\nDevice Name: %5$s\nLocale: %6$s</string>
+  <string name="help_PhoneNumberMessageBanned">But Telegram says it\'s banned. Please help.</string>
+  <string name="help_PhoneNumberMessageInvalid">But Telegram says it\'s invalid. Please help.</string>
+  <string name="help_PhoneNumberMessageSMS">But I can\'t get an activation code for Telegram. Please help.\nCode types: %1$s</string>-->
+
   <string name="via">通过</string>
   <string name="adminSign">管理员</string>
 
@@ -1164,8 +1157,12 @@
   <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的账户。</string>
   <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
   <string name="SyncContactsDelete">删除已同步联系人</string>
-  <string name="SyncContactsDeleteButton">删除</string>
+  <string name="SyncContactsDeleteButton">删除已同步联系人</string>
   <string name="BotWebsiteAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
+
+  <!--<string name="Experiments">Experiments</string>
+  <string name="ExperimentsInfo">Turn on features that may or may not be removed at any time.</string>
+  <string name="ExperimentsAlert">Are you sure you want to enable features that are not guaranteed to be stable and may be removed at anytime?</string>-->
 
   <string name="QuickActionSettingNone">无</string>
   <string name="QuickActionSettingShare">分享</string>

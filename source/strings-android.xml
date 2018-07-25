@@ -619,6 +619,12 @@
     <string name="UnreadMessages">Unread Messages</string>
     <string name="SearchStickersHint">Search sticker sets</string>
     <string name="URL">URL</string>
+    <string name="MapPreviewProvider">Map Preview Provider</string>
+    <string name="ChooseMapPreviewProvider">Choose Map Preview Provider</string>
+    <string name="MapPreviewProviderTelegram">Telegram</string>
+    <string name="MapPreviewProviderGoogle">Google</string>
+    <string name="MapPreviewProviderYandex">Yandex</string>
+    <string name="MapPreviewProviderNobody">Nobody</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
