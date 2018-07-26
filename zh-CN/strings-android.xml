@@ -614,6 +614,8 @@
   <string name="UnreadMessages">未读消息</string>
   <string name="SearchStickersHint">搜索贴纸包</string>
   <string name="URL">链接</string>
+  <string name="MapPreviewProviderTelegram">Telegram</string>
+  <string name="MapPreviewProviderNobody">不允许任何人</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>

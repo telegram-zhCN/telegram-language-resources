@@ -852,6 +852,7 @@
   <string name="PasswordAndHintMustBeDifferent">Password and hint must be different.</string>
   <string name="RecoveryCodeInvalid">Invalid recovery code. Please try again</string>
   <string name="PasswordMatchesOldOne">Password is the same as the old one.</string>
+  <string name="format_PasscodeTooManyAttempts">Too many attempts. %1$s</string>
   <string name="EmailMatchesOldOne">E-Mail is the same as the old one.</string>
   <string name="Hint">Hint: %1$s</string>
 
@@ -2100,10 +2101,14 @@
   <string name="EarpieceModeProximity">When close to an ear</string>
   <string name="EarpieceModeAlways">Always</string>
 
-  <string name="RetryInMinutes_one">Too many requests. Try again in %1$s minute</string>
-  <string name="RetryInMinutes_other">Too many requests. Try again in %1$s minutes</string>
-  <string name="RetryInSeconds_one">Too many requests. Try again in %1$s second</string>
-  <string name="RetryInSeconds_other">Too many requests. Try again in %1$s seconds</string>
+  <string name="TryAgainSeconds_one">Try again in %1$s second</string>
+  <string name="TryAgainSeconds_other">Try again in %1$s seconds</string>
+  <string name="TryAgainMinutes_one">Try again in %1$s minute</string>
+  <string name="TryAgainMinutes_other">Try again in %1$s minutes</string>
+  <string name="TryAgainHours_one">Try again in %1$s hour</string>
+  <string name="TryAgainHours_other">Try again in %1$s hours</string>
+
+  <string name="format_TooManyRequests">Too many requests. %1$s</string>
 
   <string name="JoinChannel">Join Channel</string>
 
@@ -2172,6 +2177,8 @@
   <string name="ChatLinkView">View Chat</string>
   <string name="ChatLinkRemove">Remove Link</string>
   <string name="ChatLinkRemoveAlert">Wait! Are you sure you want to make %1$s private and release its public link? While free, it might be taken by any other user.</string>
+
+  <string name="HoldMediaTutorial">Hold finger to view this media</string>
 
 
   <!-- new from translations.telegram.org -->
@@ -2252,14 +2259,6 @@
   <string name="ReportXMessages_two">Report %1$s messages</string>
   <string name="ReportXMessages_few">Report %1$s messages</string>
   <string name="ReportXMessages_many">Report %1$s messages</string>
-  <string name="RetryInMinutes_zero">Too many requests. Try again in %1$s minutes</string>
-  <string name="RetryInMinutes_two">Too many requests. Try again in %1$s minutes</string>
-  <string name="RetryInMinutes_few">Too many requests. Try again in %1$s minutes</string>
-  <string name="RetryInMinutes_many">Too many requests. Try again in %1$s minutes</string>
-  <string name="RetryInSeconds_zero">Too many requests. Try again in %1$s seconds</string>
-  <string name="RetryInSeconds_two">Too many requests. Try again in %1$s seconds</string>
-  <string name="RetryInSeconds_few">Too many requests. Try again in %1$s seconds</string>
-  <string name="RetryInSeconds_many">Too many requests. Try again in %1$s seconds</string>
   <string name="SelectedSuffix_zero">" selected"</string>
   <string name="SelectedSuffix_two">" selected"</string>
   <string name="SelectedSuffix_few">" selected"</string>
@@ -2268,6 +2267,18 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
+  <string name="TryAgainHours_zero">Try again in %1$s hours</string>
+  <string name="TryAgainHours_two">Try again in %1$s hours</string>
+  <string name="TryAgainHours_few">Try again in %1$s hours</string>
+  <string name="TryAgainHours_many">Try again in %1$s hours</string>
+  <string name="TryAgainMinutes_zero">Try again in %1$s minutes</string>
+  <string name="TryAgainMinutes_two">Try again in %1$s minutes</string>
+  <string name="TryAgainMinutes_few">Try again in %1$s minutes</string>
+  <string name="TryAgainMinutes_many">Try again in %1$s minutes</string>
+  <string name="TryAgainSeconds_zero">Try again in %1$s seconds</string>
+  <string name="TryAgainSeconds_two">Try again in %1$s seconds</string>
+  <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
+  <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
   <string name="inXHours_zero">in %1$s hours</string>
   <string name="inXHours_two">in %1$s hours</string>
   <string name="inXHours_few">in %1$s hours</string>
