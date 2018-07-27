@@ -398,7 +398,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_cloud_password_waiting" = "Confirmation link sent to {email}...";
 "lng_cloud_password_change" = "Change cloud password";
-"lng_cloud_password_create" = "Cloud password";
+"lng_cloud_password_create" = "Telegram password";
 "lng_cloud_password_remove" = "Remove cloud password";
 "lng_cloud_password_set" = "Enable two-step verification";
 "lng_cloud_password_edit" = "Change cloud password";
