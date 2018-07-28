@@ -1817,7 +1817,7 @@
   <string name="TelegramPassport">Telegram Passport</string>
   <string name="TelegramPassportCreatePassword">CREATE A PASSWORD</string>
   <string name="TelegramPassportCreatePasswordInfo">Please create a password to secure your personal data with end-to-end encryption.\n\nThis password will also be required whenever you log in to Telegram on a new device.</string>
-  <string name="TelegramPassportDelete">Delete Passport</string>
+  <string name="TelegramPassportDelete">Delete Telegram Passport</string>
   <string name="TelegramPassportDeleteAlert">Are you sure you want to delete your Telegram Passport?</string>
   <string name="TelegramVersion">Telegram for Android %1$s</string>
   <string name="TerminateAllSessions">Terminate All Other Sessions</string>

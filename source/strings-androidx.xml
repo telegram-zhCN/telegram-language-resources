@@ -700,7 +700,7 @@
   <string name="NoCameraAccess">This feature requires access to camera.</string>
   <string name="NoGalleryAccess">Permission error</string>
   <string name="Install">Install</string>
-  <string name="ChatWithYourself">chat with yourself</string>
+  <string name="ChatWithYourself">Chat with yourself</string>
   <string name="YouWereKicked">you were kicked</string>
   <string name="Contacts">Contacts</string>
   <string name="Invite">Invite</string>
@@ -1017,7 +1017,7 @@
   <string name="ThisLinkOpens">This link opens a chat with you on Telegram:</string>
   <string name="FeatureUnavailable">Sorry, this feature is currently not available in your country.</string>
   <string name="PhoneNumberChange">Change Number</string>
-  <string name="PhoneNumberChangeDone">Got it</string>
+  <string name="PhoneNumberChangeDone">Continue</string>
 
   <string name="PhoneNumberHelp">You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important:** all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
   <string name="PhoneNumberAlert">All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
@@ -1173,6 +1173,7 @@
   <string name="RemoveStickerSet">Remove sticker set %1$s?</string>
   <string name="RemoveStickerSetAction">Remove</string>
   <string name="DeletePack">Delete pack</string>
+  <string name="DeleteArchivedPack">Delete from archive</string>
   <string name="Folders">Folders</string>
   <string name="Wallpapers">Wallpapers</string>
   <string name="StartEncryptedChat">Start Secret chat</string>
@@ -1806,7 +1807,7 @@
   <string name="IncognitoKeyboard">Incognito Keyboard</string>
   <string name="IncognitoKeyboardInfo">Request keyboard to not update any personalized data such as typing history and personalized language model based on what you type in Secret Chats.\n\nBe aware that this setting is not a guarantee, and some IMEs may not respect it.</string>
 
-  <string name="FailureMessageText">This message could not be displayed because of error. We are very sorry for that.\n\nPlease copy scary error details below and submit them to support@telegram.org so we would be able to investigate the issue. Thank you!</string>
+  <string name="FailureMessageText">This message could not be displayed because of an error. We are very sorry for that.\n\nPlease copy the scary error details below and submit them to support@telegram.org so we can investigate the issue. Thank you!</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
 
@@ -1918,13 +1919,13 @@
   <string name="IsRecordingVideo">%1$s is recording video</string>
   <string name="AreRecordingVideo">%1$s are recording videos</string>
 
-  <string name="SendingLocation">choosing location…</string>
-  <string name="IsSendingLocation">%1$s is choosing location…</string>
-  <string name="AreSendingLocation">%1$s are choosing locations…</string>
+  <string name="SendingLocation">choosing location</string>
+  <string name="IsSendingLocation">%1$s is choosing location</string>
+  <string name="AreSendingLocation">%1$s are choosing locations</string>
 
-  <string name="SendingContact">selecting contact…</string>
-  <string name="IsSendingContact">%1$s is selecting contact…</string>
-  <string name="AreSendingContact">%1$s are selecting contacts…</string>
+  <string name="SendingContact">choosing contact…</string>
+  <string name="IsSendingContact">%1$s is choosing contact…</string>
+  <string name="AreSendingContact">%1$s are choosing contacts…</string>
 
   <string name="RecordingRound">recording video</string>
   <string name="IsRecordingRound">%1$s is recording video</string>
@@ -2179,6 +2180,11 @@
   <string name="ChatLinkRemoveAlert">Wait! Are you sure you want to make %1$s private and release its public link? While free, it might be taken by any other user.</string>
 
   <string name="HoldMediaTutorial">Hold finger to view this media</string>
+
+  <string name="SecretPasscodeInfo">When you set up an additional passcode, you\'ll need to enter it each time you access this chat. Message preview will be hidden on the chats page.\n\nNote: if you forget it, contents of this chat will be lost.\n\nIf you need a global passcode, use Settings – Privacy and Security – Passcode Lock.</string>
+
+  <string name="ChatContentProtected">Content Locked</string>
+  <string name="DragChatsHint">Drag chat to reorder</string>
 
 
   <!-- new from translations.telegram.org -->
