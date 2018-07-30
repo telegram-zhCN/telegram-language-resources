@@ -1362,7 +1362,7 @@
   <string name="PassportPolicy">You accept the *%1$s Privacy Policy* and allow their @%2$s to send you messages.</string>
   <string name="PassportPostcode">Postcode</string>
   <string name="PassportProvidedInformation">Provided Information</string>
-  <string name="PassportRequest">%1$s requests access to your personal data to sign you up for their services.</string>
+  <string name="PassportRequest">**%1$s** requests access to your personal data to sign you up for their services.</string>
   <string name="PassportRequestPasswordInfo">Please enter your Telegram Password to decrypt your data.</string>
   <string name="PassportRequestedInformation">Requested Information</string>
   <string name="PassportRequiredDocuments">Required Documents</string>

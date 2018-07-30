@@ -3810,11 +3810,8 @@ You can log in on websites that support signing in with Telegram.</value>
   <data name="Email2" xml:space="preserve">
     <value>E-Mail</value>
   </data>
-  <data name="PassportIdentityDocument" xml:space="preserve">
-    <value>Identity Document</value>
-  </data>
-  <data name="PassportIdentityDocumentInfo" xml:space="preserve">
-    <value>Upload a scan of your passport or other ID</value>
+  <data name="PassportPersonalDetailsInfo" xml:space="preserve">
+    <value>Fill in your personal details</value>
   </data>
   <data name="PassportHint" xml:space="preserve">
     <value>{0} requests access to your personal data to sign you up to their services.</value>
@@ -3823,7 +3820,7 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>Address</value>
   </data>
   <data name="PassportAddressInfo" xml:space="preserve">
-    <value>Upload proof of your address</value>
+    <value>Please provide your address</value>
   </data>
   <data name="PassportNoPolicy" xml:space="preserve">
     <value>You are sending your documents directly to {0} and allowing their {1} to send you messages.</value>
@@ -3963,10 +3960,10 @@ disable the proxy in Telegram Settings.</value>
   <data name="PassportAddBillInfo" xml:space="preserve">
     <value>Upload a scan of your utility bill.</value>
   </data>
-  <data name="PassportAddRegistration" xml:space="preserve">
-    <value>Add Passport Registration Page</value>
+  <data name="PassportAddPassportRegistration" xml:space="preserve">
+    <value>Passport Registration</value>
   </data>
-  <data name="PassportAddRegistrationInfo" xml:space="preserve">
+  <data name="PassportAddPassportRegistrationInfo" xml:space="preserve">
     <value>Upload a scan of your passport registration page.</value>
   </data>
   <data name="PassportAddressHeader" xml:space="preserve">
@@ -3994,7 +3991,7 @@ disable the proxy in Telegram Settings.</value>
     <value>Postcode</value>
   </data>
   <data name="PassportState" xml:space="preserve">
-    <value>State</value>
+    <value>State/Region</value>
   </data>
   <data name="PassportStreet1" xml:space="preserve">
     <value>Street</value>
@@ -4037,18 +4034,6 @@ disable the proxy in Telegram Settings.</value>
   </data>
   <data name="PassportDeletePhoneNumberAlert" xml:space="preserve">
     <value>Are you sure you want to delete phone number?</value>
-  </data>
-  <data name="ActionBotDocumentAddress" xml:space="preserve">
-    <value>Proof of address</value>
-  </data>
-  <data name="ActionBotDocumentEmail" xml:space="preserve">
-    <value>Email address</value>
-  </data>
-  <data name="ActionBotDocumentIdentity" xml:space="preserve">
-    <value>Proof of identity</value>
-  </data>
-  <data name="ActionBotDocumentPhone" xml:space="preserve">
-    <value>Phone number</value>
   </data>
   <data name="MessageActionSecureValuesSent" xml:space="preserve">
     <value>{0} received the following documents: {1}</value>
@@ -4126,7 +4111,7 @@ disable the proxy in Telegram Settings.</value>
     <value>Are you sure you want to delete email?</value>
   </data>
   <data name="PassportDeleteAll" xml:space="preserve">
-    <value>Delete Passport</value>
+    <value>Delete Telegram Passport</value>
   </data>
   <data name="PassportDeleteAddressAlert" xml:space="preserve">
     <value>Are you sure you want to delete address details?</value>
@@ -4229,5 +4214,56 @@ This password will also be required whenever you log in to Telegram on a new dev
   </data>
   <data name="PassportSelectDate" xml:space="preserve">
     <value>Select Date</value>
+  </data>
+  <data name="PassportDocumentNumber" xml:space="preserve">
+    <value>Document Number</value>
+  </data>
+  <data name="PassportExpired" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="PassportFrontSide" xml:space="preserve">
+    <value>Front Side</value>
+  </data>
+  <data name="PassportFrontSideInfo" xml:space="preserve">
+    <value>Upload a photo of the front side of the document</value>
+  </data>
+  <data name="PassportPersonalUploadInfo" xml:space="preserve">
+    <value>The document must contain your photograph, first and last name, date of birth, document number, country of issue, and expiry date.</value>
+  </data>
+  <data name="PassportRequiredDocuments" xml:space="preserve">
+    <value>Required Documents</value>
+  </data>
+  <data name="PassportReverseSide" xml:space="preserve">
+    <value>Reverse Side</value>
+  </data>
+  <data name="PassportReverseSideInfo" xml:space="preserve">
+    <value>Upload a photo of the reverse side of the document</value>
+  </data>
+  <data name="PassportSelfie" xml:space="preserve">
+    <value>Selfie</value>
+  </data>
+  <data name="PassportSelfieInfo" xml:space="preserve">
+    <value>Upload a selfie of yourself holding the document</value>
+  </data>
+  <data name="PassportSelectNotExpire" xml:space="preserve">
+    <value>Does not Expire</value>
+  </data>
+  <data name="PassportDeleteDocumentPersonal" xml:space="preserve">
+    <value>Delete personal details</value>
+  </data>
+  <data name="PassportMainPage" xml:space="preserve">
+    <value>Main Page</value>
+  </data>
+  <data name="PassportMainPageInfo" xml:space="preserve">
+    <value>Upload a photo of the main page of the document</value>
+  </data>
+  <data name="PassportNoExpireDate" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="UpdateAppAlert" xml:space="preserve">
+    <value>Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</value>
+  </data>
+  <data name="PassportInfoTitle" xml:space="preserve">
+    <value>What is Telegram Passport?</value>
   </data>
 </root>
