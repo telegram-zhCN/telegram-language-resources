@@ -1000,10 +1000,10 @@
 "Chat.Context.EditHelp" = "click on date";
 "Chat.Context.EnableNotifications" = "Mute";
 "Chat.Context.DisableNotifications" = "Unmute";
-"Chat.Context.ClearHistory" = "Clear History";
+"Chat.Context.ClearHistory" = "Clear Chat";
 "Chat.Context.Info" = "Info";
 "Chat.Context.FeedInfo" = "Channels Info";
-"Chat.Context.SharedMedia" = "Shared Media";
+"Chat.Context.SharedMedia" = "Media";
 "Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
 "Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
@@ -1959,11 +1959,11 @@
 "AudioRecord.Help.Plain" = "Release outside of circle to cancel";
 
 "Chat.ProxySponsored.CapDesc" = "This channel is shown by your proxy server";
-"Chat.ProxySponsored.CapTitle" = "Proxy Sponsored";
+"Chat.ProxySponsored.CapTitle" = "Proxy Sponsor";
 
 "Chat.ProxySponsored.AlertText" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
 "Chat.ProxySponsored.AlertSettings" = "Settings";
-"Chat.ProxySponsored.AlertHeader" = "Proxy Sponsored";
+"Chat.ProxySponsored.AlertHeader" = "Proxy Sponsor";
 
 "ProxySettings.Mtp.Sponsor" = "The proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic.";
 
