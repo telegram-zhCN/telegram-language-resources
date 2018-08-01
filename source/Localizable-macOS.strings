@@ -2054,8 +2054,32 @@
 "SecureId.LoginText" = "Please log in to your account to use Telegram Passport";
 
 
+"ContactInfo.PhoneLabelHome" = "home";
+"ContactInfo.PhoneLabelWork" = "work";
+"ContactInfo.PhoneLabelMobile" = "mobile";
+"ContactInfo.PhoneLabelMain" = "main";
+"ContactInfo.PhoneLabelHomeFax" = "home fax";
+"ContactInfo.PhoneLabelWorkFax" = "work fax";
+"ContactInfo.PhoneLabelPager" = "pager";
+"ContactInfo.PhoneLabelOther" = "other";
+"ContactInfo.URLLabelHomepage" = "homepage";
+"ContactInfo.BirthdayLabel" = "birthday";
+"ContactInfo.Job" = "job";
+
+
+"ContactInfo.ContactInfo" = "Contact Info";
+"Chat.ViewContact" = "VIEW CONTACT";
+
+
+"StorageUsage.Clear" = "Clear";
+
+
+"PeerMedia.Voice" = "Voice";
+
+
 /* new from translations.telegram.org */
 
+"Chat.Message.DeleteForMyMeAndPerson" = "Delete my for me and %@";
 "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
 "InputData.Date.Day.Placeholder" = "Day:";
 "InputData.Date.Month.Placeholder" = "Month:";

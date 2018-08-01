@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="PassportSDK_LogInWithTelegram">通过 Telegram 登录</string>
-  <string name="PassportSDK_TelegramPassport">Telegram 护照</string>
+  <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
+  <string name="PassportSDK_DownloadTelegram">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
   <string name="PassportSDK_OpenGooglePlay">打开 Google Play</string>
   <string name="PassportSDK_Cancel">取消</string>
   <!--new from translations.telegram.org-->
@@ -20,9 +21,18 @@
   <string name="ActionAddUserYou">un1 添加了您</string>
   <string name="ActionBotAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
   <string name="ActionBotDocumentAddress">地址</string>
+  <string name="ActionBotDocumentBankStatement">银行对账单</string>
+  <string name="ActionBotDocumentDriverLicence">驾驶证</string>
+  <string name="ActionBotDocumentEmail">邮箱地址</string>
   <string name="ActionBotDocumentIdentity">个人信息</string>
+  <string name="ActionBotDocumentIdentityCard">身份证</string>
+  <string name="ActionBotDocumentInternalPassport">国内护照</string>
   <string name="ActionBotDocumentPassport">护照</string>
+  <string name="ActionBotDocumentPassportRegistration">护照注册信息</string>
   <string name="ActionBotDocumentPhone">手机号码</string>
+  <string name="ActionBotDocumentRentalAgreement">租赁合同</string>
+  <string name="ActionBotDocumentUtilityBill">水电费账单</string>
+  <string name="ActionBotDocuments">%1$s 已收到以下档案: %2$s</string>
   <string name="ActionChangedPhoto">un1 更换了群组标识</string>
   <string name="ActionChangedTitle">un1 将群组名称更改为 un2</string>
   <string name="ActionChannelChangedPhoto">更换了频道标识</string>
@@ -96,6 +106,7 @@
   <string name="AddToTheGroupForwardCount">要转发的最近消息数：</string>
   <string name="AddToTheGroupTitle">添加 %1$s 到群组 %2$s？</string>
   <string name="AddedToFavorites">此贴纸已添加到收藏</string>
+  <string name="Agree">同意</string>
   <string name="Alert">提示</string>
   <string name="AllMedia">所有图片和视频</string>
   <string name="AllPhotos">所有图片</string>
@@ -148,6 +159,7 @@
   <string name="AreTypingGroup">%1$s 正在输入...</string>
   <string name="AreYouSure">您确定吗？</string>
   <string name="AreYouSureBlockContact">您确定要屏蔽此联系人吗？</string>
+  <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
   <string name="AreYouSureClearHistory">您确定要清除聊天记录吗？</string>
   <string name="AreYouSureClearHistoryChannel">确定删除此频道中所有缓存的消息和媒体文件？</string>
   <string name="AreYouSureClearHistoryGroup">是否删除该群组中所有缓存的消息记录和媒体文件？</string>
@@ -174,6 +186,8 @@
   <string name="AttachAudio">语音消息</string>
   <string name="AttachBotsHelp">上划查看机器人</string>
   <string name="AttachContact">联系人</string>
+  <string name="AttachDestructingPhoto">自毁图片</string>
+  <string name="AttachDestructingVideo">自毁视频</string>
   <string name="AttachDocument">文件</string>
   <string name="AttachGame">游戏</string>
   <string name="AttachGif">GIF</string>
@@ -400,6 +414,7 @@
   <string name="Checking">检查中...</string>
   <string name="ChooseCountry">选择国家</string>
   <string name="ChooseFromYourStickers">从你添加的贴纸包中选择</string>
+  <string name="ChooseMapPreviewProvider">选择地图预览提供商</string>
   <string name="ChooseStickerSet">选择贴纸包</string>
   <string name="ChooseStickerSetMy">您可以通过机器人 @stickers 创建您自己的贴纸包。</string>
   <string name="ChooseStickerSetNotFound">贴纸包未找到</string>
@@ -442,6 +457,8 @@
   <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置（数据和存储）中重新启用它。</string>
   <string name="ConnectingToProxyEnable">启用</string>
   <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
+  <string name="ContactBirthday">出生日期</string>
+  <string name="ContactJob">工作</string>
   <string name="ContactJobTitle">标题</string>
   <string name="ContactJoined">联系人已加入 Telegram</string>
   <string name="ContactNotRegistered">%1$s 没有在使用 Telegram，是否邀请他加入？</string>
@@ -465,6 +482,7 @@
   <string name="CountSent">已发送</string>
   <string name="CreateEncryptedChatError">发生错误</string>
   <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
+  <string name="CreateLink">创建链接</string>
   <string name="CreateNewContact">创建新的联系人</string>
   <string name="CreateNewTheme">创建新主题</string>
   <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
@@ -499,6 +517,7 @@
   <string name="DaysBold_few">**%1$d** 天</string>
   <string name="DaysBold_many">**%1$d** 天</string>
   <string name="DaysBold_other">**%1$d** 天</string>
+  <string name="Deactivate">立即删除</string>
   <string name="DebugClearLogs">清空日志</string>
   <string name="DebugMenu">调试菜单</string>
   <string name="DebugMenuClearMediaCache">清除已发送的媒体缓存</string>
@@ -512,6 +531,7 @@
   <string name="DebugMenuResetDialogs">重置所有对话</string>
   <string name="DebugSendLogs">发送日志</string>
   <string name="Decline">拒绝</string>
+  <string name="DeclineDeactivate">拒绝并删除数据</string>
   <string name="Default">默认</string>
   <string name="DefaultRingtone">默认</string>
   <string name="Delete">删除</string>
@@ -580,6 +600,7 @@
   <string name="EditMessageMedia">点按编辑媒体文件</string>
   <string name="EditName">编辑名称</string>
   <string name="EditedMessage">已编辑</string>
+  <string name="EmailCopied">电子邮箱已复制到剪贴板</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">显示单个大号 emoji</string>
@@ -636,6 +657,8 @@
   <string name="EventLogEditedGroupDescription">un1 修改了群组简介:</string>
   <string name="EventLogEditedGroupPhoto">un1 设置了新的群组标识</string>
   <string name="EventLogEditedGroupTitle">un1 将群组名称更改为 \"%1$s\"</string>
+  <string name="EventLogEditedMedia">un1 编辑了媒体:</string>
+  <string name="EventLogEditedMediaCaption">un1 编辑了媒体与说明：</string>
   <string name="EventLogEditedMessages">un1 编辑了这条消息:</string>
   <string name="EventLogEmpty">**暂无操作**\n\n在过去的 48 小时内\n群组成员和管理员\n没有执行任何管理操作。</string>
   <string name="EventLogEmptyChannel">**暂无操作**\n\n在过去的 48 小时内\n频道管理员\n没有执行任何管理操作。</string>
@@ -700,6 +723,12 @@
   <string name="FeaturedStickers">热门贴纸</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="FileUploadLimit">文件大小不能超过 %1$s</string>
+  <string name="Files_zero">%1$d 个文件</string>
+  <string name="Files_one">%1$d 个文件</string>
+  <string name="Files_two">%1$d 个文件</string>
+  <string name="Files_few">%1$d 个文件</string>
+  <string name="Files_many">%1$d 个文件</string>
+  <string name="Files_other">%1$d 个文件</string>
   <string name="FilesDataUsage">文件</string>
   <string name="FingerprintHelp">请按下手指</string>
   <string name="FingerprintInfo">请验证指纹</string>
@@ -952,8 +981,11 @@
   <string name="ManageGroup">管理群组</string>
   <string name="ManageGroupMenu">管理群组</string>
   <string name="Map">地图</string>
+  <string name="MapPreviewProvider">地图预览提供商</string>
+  <string name="MapPreviewProviderGoogle">Google</string>
   <string name="MapPreviewProviderNobody">不允许任何人</string>
   <string name="MapPreviewProviderTelegram">Telegram</string>
+  <string name="MapPreviewProviderYandex">Yandex</string>
   <string name="MarkAsRead">标记为已读</string>
   <string name="MarkAsUnread">标记为未读</string>
   <string name="Masks">装饰</string>
@@ -1016,6 +1048,7 @@
   <string name="MinutesBold_many">**%1$d** 分钟</string>
   <string name="MinutesBold_other">**%1$d** 分钟</string>
   <string name="MobileUsage">移动数据使用情况</string>
+  <string name="Mono">Mono</string>
   <string name="Months_zero">%1$d 个月</string>
   <string name="Months_one">%1$d 个月</string>
   <string name="Months_two">%1$d 个月</string>
@@ -1176,6 +1209,8 @@
   <string name="NotificationsAndSounds">通知和声音</string>
   <string name="NotificationsCustom">自定义</string>
   <string name="NotificationsCustomize">自定义</string>
+  <string name="NotificationsDefaultOff">默认 （关闭）</string>
+  <string name="NotificationsDefaultOn">默认 （开启）</string>
   <string name="NotificationsEnableCustom">启用自定义通知</string>
   <string name="NotificationsImportance">优先级</string>
   <string name="NotificationsLed">LED</string>
@@ -1243,25 +1278,53 @@
   <string name="PasscodePIN">PIN</string>
   <string name="PasscodePassword">密码</string>
   <string name="PassportAddAddressUploadInfo">为了确定您的地址，请上传被选中的文件的所有页面的扫描件或照片。</string>
+  <string name="PassportAddAgreement">添加租赁合同</string>
+  <string name="PassportAddAgreementInfo">上传您的租赁合同的扫描件</string>
+  <string name="PassportAddBank">添加银行对账单</string>
+  <string name="PassportAddBankInfo">上传您的银行对账单的扫描件</string>
+  <string name="PassportAddBill">添加水电费账单</string>
+  <string name="PassportAddBillInfo">上传您的水电费账单的扫描件</string>
+  <string name="PassportAddCard">添加身份证</string>
+  <string name="PassportAddLicence">添加驾驶证</string>
+  <string name="PassportAddPassport">添加护照</string>
+  <string name="PassportAddPassportRegistration">护照注册信息</string>
+  <string name="PassportAddPassportRegistrationInfo">上传您的护照信息页的扫描件</string>
   <string name="PassportAddress">地址</string>
   <string name="PassportAddressHeader">地址</string>
+  <string name="PassportAuthorize">授权</string>
+  <string name="PassportBirthdate">出生日期</string>
   <string name="PassportCitizenship">国籍</string>
   <string name="PassportCity">城市</string>
+  <string name="PassportCorrectErrors">点按更正错误</string>
   <string name="PassportCountry">国家</string>
+  <string name="PassportDeleteDocument">删除此档案</string>
+  <string name="PassportDeleteDocumentAddress">删除地址信息</string>
   <string name="PassportDeleteDocumentAlert">您确定要删除此档案吗？</string>
   <string name="PassportDeleteDocumentPersonal">删除个人信息</string>
+  <string name="PassportDeleteEmailAlert">删除邮箱地址？</string>
   <string name="PassportDeleteInfo">删除</string>
+  <string name="PassportDeletePersonalAlert">您确定要删除您的个人信息吗？</string>
+  <string name="PassportDeletePhoneAlert">删除手机号码？</string>
+  <string name="PassportDeleteScan">删除扫描件？</string>
+  <string name="PassportDeleteScanAlert">您确定要删除此扫描件吗？</string>
+  <string name="PassportDeleteSelfie">删除自拍？</string>
+  <string name="PassportDeleteSelfieAlert">您确定要删除这张自拍吗？</string>
   <string name="PassportDiscard">丢弃</string>
   <string name="PassportDocumentNumber">证件编号</string>
   <string name="PassportEmail">电子邮箱</string>
   <string name="PassportEmailCode">验证码</string>
   <string name="PassportEmailInfo">输入您的邮箱地址</string>
   <string name="PassportFemale">女</string>
+  <string name="PassportFrontSide">正面</string>
+  <string name="PassportFrontSideInfo">上传证件正面</string>
   <string name="PassportGender">性别</string>
   <string name="PassportInfoTitle">什么是 Telegram 护照？</string>
   <string name="PassportMale">男</string>
   <string name="PassportName">姓名</string>
   <string name="PassportNoExpireDate">无</string>
+  <string name="PassportPersonal">个人信息</string>
+  <string name="PassportPersonalDetails">个人信息</string>
+  <string name="PassportPersonalDetailsInfo">输入您的个人信息</string>
   <string name="PassportPersonalUploadInfo">这份文件必须包含您的照片、姓名、出生日期、证件号、发照城市和有效期。</string>
   <string name="PassportPhone">手机号码</string>
   <string name="PassportPhoneInfo">输入您的手机号码</string>
@@ -1270,6 +1333,10 @@
   <string name="PassportPhoneUseSameInfo">使用与 Telegram 帐号相同的手机号码</string>
   <string name="PassportPostcode">邮政编码</string>
   <string name="PassportResidence">住址</string>
+  <string name="PassportSelectBithdayDate">选择出生日期</string>
+  <string name="PassportSelectGender">选择性别</string>
+  <string name="PassportSelectNotExpire">长期</string>
+  <string name="PassportSelfRequest">请输入密码访问个人信息</string>
   <string name="PassportSelfie">自拍照</string>
   <string name="PassportStreet1">街道</string>
   <string name="PassportStreet2">街道</string>
@@ -1913,6 +1980,7 @@
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="chatDate">M\\'月\\'d\\'日\\'</string>
   <string name="chatFullDate">yyyy\\'年\\'M\\'月\\'d\\'日\\'</string>
+  <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <string name="formatterBannedUntil12H">yyyy年MM月dd日 a h:mm</string>
   <string name="formatterBannedUntil24H">yyyy年MM月dd日 HH:mm</string>

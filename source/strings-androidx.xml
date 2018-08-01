@@ -664,7 +664,6 @@
 
   <!-- New strings -->
   <string name="Language">Language</string>
-  <string name="SystemDefault">System Default</string>
 
   <!-- Telegram 2 -->
 
@@ -1319,6 +1318,10 @@
   <string name="MtprotoProxy">MTPROTO Proxy</string>
   <string name="ProxySocks5">SOCKS5 %1$s</string>
   <string name="ProxyMtproto">MTPROTO %1$s</string>
+  <string name="HttpProxy">HTTP Proxy</string>
+  <string name="HttpProxyTransparent">Transparent TCP connection</string>
+  <string name="HttpProxyTransparentHint">Enable if server supports transparent TCP connections via HTTP CONNECT method.\n\nWhen supported, it may improve connection speed dramatically. Try changing this option if this proxy doesn\'t work.</string>
+  <string name="ProxyHttp">HTTP %1$s</string>
   <string name="ProxyTorNetwork">Tor Network %1$s</string>
   <string name="ProxyUsernameHint">Username</string>
   <string name="ProxyPasswordHint">Password</string>
@@ -1559,7 +1562,7 @@
   <string name="ChannelRemoveUser">Remove from channel</string>
   <string name="InviteBackToGroup">Invite back to group</string>
   <string name="InviteBackToChannel">Invite back to channel</string>
-  <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to group unless invited by other member or joined by an invite link.</string>
+  <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to group unless invited by another member or given an invite link.</string>
   <string name="AdminCanAssignAdmins">This Admin will be able to add new admins with the same (or more limited) permissions.</string>
   <string name="AdminCannotAssignAdmins">This Admin will not be able to add new admins.</string>
   <string name="ShareMyContactInfo">Share my contact</string>
@@ -2114,14 +2117,14 @@
   <string name="JoinChannel">Join Channel</string>
 
   <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
-  <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by other member</string>
-  <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless invited by other member</string>
+  <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by another member</string>
+  <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless invited by another member</string>
 
-  <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by other member</string>
-  <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless invited by other member</string>
+  <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by another member</string>
+  <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless invited by another member</string>
 
-  <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by other member</string>
-  <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless invited by other member</string>
+  <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by another member</string>
+  <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless invited by another member</string>
 
   <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
   <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>

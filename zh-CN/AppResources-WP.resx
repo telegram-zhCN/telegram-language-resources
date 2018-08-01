@@ -3810,7 +3810,7 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>邮箱</value>
   </data>
   <data name="PassportPersonalDetailsInfo" xml:space="preserve">
-    <value>Fill in your personal details</value>
+    <value>输入您的个人信息</value>
   </data>
   <data name="PassportHint" xml:space="preserve">
     <value>{0} requests access to your personal data to sign you up to their services.</value>
@@ -3940,28 +3940,28 @@ you agree to the *Terms of Service*.</value>
     <value>工作</value>
   </data>
   <data name="PassportAddAgreement" xml:space="preserve">
-    <value>Add Tenancy Agreement</value>
+    <value>添加租赁合同</value>
   </data>
   <data name="PassportAddAgreementInfo" xml:space="preserve">
-    <value>Upload a scan of your tenancy agreement.</value>
+    <value>上传您的租赁合同的扫描件</value>
   </data>
   <data name="PassportAddBank" xml:space="preserve">
-    <value>Add Bank Statement</value>
+    <value>添加银行对账单</value>
   </data>
   <data name="PassportAddBankInfo" xml:space="preserve">
-    <value>Upload a scan of your bank statement.</value>
+    <value>上传您的银行对账单的扫描件</value>
   </data>
   <data name="PassportAddBill" xml:space="preserve">
-    <value>Add Utility Bill</value>
+    <value>添加水电费账单</value>
   </data>
   <data name="PassportAddBillInfo" xml:space="preserve">
-    <value>Upload a scan of your utility bill.</value>
+    <value>上传您的水电费账单的扫描件</value>
   </data>
   <data name="PassportAddPassportRegistration" xml:space="preserve">
-    <value>Passport Registration</value>
+    <value>护照注册信息</value>
   </data>
   <data name="PassportAddPassportRegistrationInfo" xml:space="preserve">
-    <value>Upload a scan of your passport registration page.</value>
+    <value>上传您的护照的信息页的扫描件</value>
   </data>
   <data name="PassportAddressHeader" xml:space="preserve">
     <value>地址</value>
@@ -4003,7 +4003,7 @@ you agree to the *Terms of Service*.</value>
     <value>上传扫描件</value>
   </data>
   <data name="PassportDeleteScanAlert" xml:space="preserve">
-    <value>Are you sure you want to delete this scan?</value>
+    <value>您确定要删除此扫描件吗</value>
   </data>
   <data name="PassportEmailInfo" xml:space="preserve">
     <value>输入您的邮箱地址</value>
@@ -4039,13 +4039,13 @@ you agree to the *Terms of Service*.</value>
     <value>Delete All Cloud Drafts</value>
   </data>
   <data name="DeleteAllCloudDraftsConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete all cloud drafts?</value>
+    <value>您确定要删除所有草稿吗？</value>
   </data>
   <data name="PassportRequestPasswordInfo" xml:space="preserve">
     <value>Please enter your Telegram Password to decrypt your data.</value>
   </data>
   <data name="PassportSelfRequest" xml:space="preserve">
-    <value>Please enter your password to access your personal data.</value>
+    <value>请输入密码访问个人信息</value>
   </data>
   <data name="PassportDelete" xml:space="preserve">
     <value>删除</value>
@@ -4057,10 +4057,10 @@ you agree to the *Terms of Service*.</value>
     <value>电子邮箱</value>
   </data>
   <data name="PassportPersonal" xml:space="preserve">
-    <value>Personal Details</value>
+    <value>个人信息</value>
   </data>
   <data name="PassportUtilityBill" xml:space="preserve">
-    <value>Utility Bill</value>
+    <value>水电费账单</value>
   </data>
   <data name="PassportProvidedInformation" xml:space="preserve">
     <value>Provided Information</value>
@@ -4075,19 +4075,19 @@ you agree to the *Terms of Service*.</value>
     <value>护照</value>
   </data>
   <data name="PassportBankStatement" xml:space="preserve">
-    <value>Bank Statement</value>
+    <value>银行对账单</value>
   </data>
   <data name="PassportDriverLicence" xml:space="preserve">
-    <value>Driver Licence</value>
+    <value>驾驶证</value>
   </data>
   <data name="PassportEmailAddress" xml:space="preserve">
-    <value>Email Address</value>
+    <value>邮箱地址</value>
   </data>
   <data name="PassportIdentityCard" xml:space="preserve">
-    <value>Identity Card</value>
+    <value>身份证</value>
   </data>
   <data name="PassportInternal" xml:space="preserve">
-    <value>Internal Passport</value>
+    <value>国内护照</value>
   </data>
   <data name="PassportPersonalDetails" xml:space="preserve">
     <value>个人信息</value>
@@ -4096,13 +4096,13 @@ you agree to the *Terms of Service*.</value>
     <value>手机号码</value>
   </data>
   <data name="PassportRegistration" xml:space="preserve">
-    <value>Passport Registration</value>
+    <value>护照注册信息</value>
   </data>
   <data name="PassportTemporaryRegistration" xml:space="preserve">
     <value>Temporary Registration</value>
   </data>
   <data name="PassportTenancyAgreement" xml:space="preserve">
-    <value>Tenancy Agreement</value>
+    <value>租赁合同</value>
   </data>
   <data name="PassportDeleteEmailAlert" xml:space="preserve">
     <value>Are you sure you want to delete email?</value>
@@ -4120,13 +4120,13 @@ you agree to the *Terms of Service*.</value>
     <value>Residential Address</value>
   </data>
   <data name="PassportDeleteAddressDetails" xml:space="preserve">
-    <value>Delete address details</value>
+    <value>删除地址信息</value>
   </data>
   <data name="PassportUploadMaxReached" xml:space="preserve">
     <value>You can't upload more than {0} files.</value>
   </data>
   <data name="PassportCorrectErrors" xml:space="preserve">
-    <value>Tap to correct errors.</value>
+    <value>点按更正错误</value>
   </data>
   <data name="PassportUseLatinOnly" xml:space="preserve">
     <value>您只能使用拉丁字母。</value>
@@ -4183,7 +4183,7 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>您输入的验证码无效，请重新输入。</value>
   </data>
   <data name="PassportBirthdate" xml:space="preserve">
-    <value>Date of Birth</value>
+    <value>出生日期</value>
   </data>
   <data name="PassportCitizenship" xml:space="preserve">
     <value>国籍</value>
@@ -4207,7 +4207,7 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>姓</value>
   </data>
   <data name="PassportSelectGender" xml:space="preserve">
-    <value>Select Gender</value>
+    <value>选择性别</value>
   </data>
   <data name="PassportSelectDate" xml:space="preserve">
     <value>Select Date</value>
@@ -4219,10 +4219,10 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>Expires</value>
   </data>
   <data name="PassportFrontSide" xml:space="preserve">
-    <value>Front Side</value>
+    <value>正面</value>
   </data>
   <data name="PassportFrontSideInfo" xml:space="preserve">
-    <value>Upload a photo of the front side of the document</value>
+    <value>上传证件正面</value>
   </data>
   <data name="PassportPersonalUploadInfo" xml:space="preserve">
     <value>这份文件必须包含您的照片、姓名、出生日期、证件号、发照城市和有效期。</value>
@@ -4243,7 +4243,7 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>Upload a selfie of yourself holding the document</value>
   </data>
   <data name="PassportSelectNotExpire" xml:space="preserve">
-    <value>Does not Expire</value>
+    <value>长期</value>
   </data>
   <data name="PassportDeleteDocumentPersonal" xml:space="preserve">
     <value>删除个人信息</value>

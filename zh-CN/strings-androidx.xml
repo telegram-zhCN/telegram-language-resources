@@ -1181,6 +1181,7 @@
 
   <string name="MarkAsRead">标记为已读</string>
   <string name="MarkAsUnread">标记为未读</string>
+  <string name="CreateLink">创建连接</string>
   <string name="URL">链接</string>
   <string name="CreateLinkDone">保存</string>
   <string name="CreateLinkCancel">取消</string>
@@ -1194,6 +1195,8 @@
   <string name="TextFormatBold">加粗</string>
   <string name="TextFormatItalic">倾斜</string>
   <string name="TextFormatMonospace">等宽</string>
+  <string name="TextFormatLink">创建连接</string>
+
   <string name="RaiseToSpeak">贴耳语音</string>
   <string name="EarpieceModeNever">从不</string>
   <string name="EarpieceModeAlways">总是</string>
@@ -1204,6 +1207,8 @@
   <string name="LeaveDoneGroup">离开</string>
   <string name="PrivacyAdvanced">高级</string>
   <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
+
+  <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
 
   <string name="TabMedia">已共享媒体</string>
   <string name="TabVoiceMessages">语音</string>
