@@ -7,6 +7,8 @@
   <string name="language_code">en</string>
   <string name="language_name">English</string>
   <string name="language_nameInEnglish">English</string>
+  <string name="language_rtl">0</string>
+  <string name="language_disable_lowercase">0</string>
 
   <!-- date -->
 
@@ -103,7 +105,7 @@
   <string name="format_dayMonth">%1$d %2$s</string>
   <string name="format_dayMonthYear">%1$d %2$s %3$d</string>
 
-  <string name="format_dateFull">%1$02d.%2$02d.%3$02d</string>
+  <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
 
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
@@ -538,13 +540,11 @@
 
 
   <!-- System messages -->
-  <string name="group_photo_change">Group photo changed</string>
-  <string name="group_photo_delete">Group photo removed</string>
-
-  <string name="group_title_change">Group name changed to «%1$s»</string>
-  <string name="group_create">Group «%1$s» created</string>
+  <string name="group_create_you">You created the group «%1$s»</string>
   <string name="group_photo_changed">%1$s changed the group photo</string>
+  <string name="group_photo_changed_you">You changed the group photo</string>
   <string name="group_photo_deleted">%1$s removed the group photo</string>
+  <string name="group_photo_deleted_you">You removed the group photo</string>
   <string name="group_user_added">%1$s added %2$s</string>
   <string name="group_user_add">%1$s joined the group</string>
   <string name="group_user_removed">%1$s kicked %2$s</string>
@@ -552,6 +552,7 @@
   <string name="group_user_join_by_link">%1$s joined the group by invite link</string>
   <string name="group_created">%1$s created the group «%2$s»</string>
   <string name="group_title_changed">%1$s changed the group name to «%2$s»</string>
+  <string name="group_title_changed_you">You changed the group name to «%1$s»</string>
   <string name="ChannelRenamed">Channel name changed to «%1$s»</string>
 
   <!-- Chats list -->
@@ -560,6 +561,7 @@
   <string name="GroupUpgraded">Group upgraded to supergroup</string>
 
   <string name="ActionCreateChannel">Channel created</string>
+  <string name="YouCreatedChannel">You created the channel</string>
   <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
   <string name="ActionChannelChangedTitle">Channel title changed</string>
   <string name="ActionChannelChangedPhoto">Channel photo changed</string>
@@ -679,10 +681,16 @@
   <string name="AllMedia">All media</string>
   <string name="UserUnavailable">user is unavailable</string>
   <string name="YouCantForwardMore">You can\'t forward more than %1$s messages at once, sorry</string>
-  <string name="ActionUserScored">%1$s scored %2$s</string>
-  <string name="ActionUserScoredInGame">%1$s scored %2$s in %3$s</string>
-  <string name="ActionYouScored">You scored %1$s</string>
-  <string name="ActionYouScoredInGame">You scored %1$s in %2$s</string>
+
+  <string name="game_ActionUserScored_one">%2$s scored %1$s</string>
+  <string name="game_ActionUserScored_other">%2$s scored %1$s</string>
+  <string name="game_ActionUserScoredInGame_one">%2$s scored %1$s in %3$s</string>
+  <string name="game_ActionUserScoredInGame_other">%2$s scored %1$s in %3$s</string>
+  <string name="game_ActionYouScored_one">You scored %1$s</string>
+  <string name="game_ActionYouScored_other">You scored %1$s</string>
+  <string name="game_ActionYouScoredInGame_one">You scored %1$s in %2$s</string>
+  <string name="game_ActionYouScoredInGame_other">You scored %1$s in %2$s</string>
+
   <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
   <string name="Draft">Draft</string>
   <string name="ShareYourPhoneNumberTitle">Share your phone number?</string>
@@ -704,7 +712,7 @@
   <string name="Contacts">Contacts</string>
   <string name="Invite">Invite</string>
   <string name="Help">Help</string>
-  <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">troubleshooting</a>]]>.</string>
+  <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the [Telegram FAQ](https://telegram.org/faq#general-questions): it has answers to most questions and important tips for [troubleshooting](https://telegram.org/faq#troubleshooting).</string>
   <string name="AskButton">Ask a volunteer</string>
   <string name="OpenThisLink">Open this link?\n\n%1$s</string>
   <string name="YouCantSendMessages">You can\'t send messages to this chat</string>
@@ -770,7 +778,8 @@
   <string name="MediaExceedingX">Any media exceeding %1$s</string>
   <string name="AnyMedia">Any media</string>
   <string name="Nothing">Nothing</string>
-  <string name="None">None</string>
+  <string name="BioNone">None</string>
+  <string name="BlockedNone">None</string>
   <string name="NoRestrictions">No restrictions</string>
   <!-- used like this: "15 MB, no Music and Files" -->
   <string name="Save">Save</string>
@@ -1055,7 +1064,7 @@
   <string name="PublicGroup">Public group</string>
   <string name="Group">Group</string>
 
-  <string name="UserPrivacyRestricted">Sorry, user restricted this action in his privacy settings.</string>
+  <string name="UserPrivacyRestricted">Sorry, user restricted this action in their privacy settings.</string>
   <string name="RenameContact">Rename contact</string>
 
   <string name="Themes">Themes</string>
@@ -1200,8 +1209,6 @@
   <string name="JoinGroupX">Join group %1$s?</string>
   <string name="FollowChannelX">Follow channel %1$s?</string>
   <string name="XChangedGroupTitle">%1$s changed the group title</string>
-  <string name="XChangedGroupPhoto">%1$s changed the group photo</string>
-  <string name="XRemovedGroupPhoto">%1$s removed the group photo</string>
   <string name="XJoinedByLink">%1$s joined by link</string>
   <string name="XJoinedGroup">%1$s joined the group</string>
   <string name="XLeftGroup">%1$s left the group</string>
@@ -1211,6 +1218,7 @@
   <string name="XLeftChannel">%1$s left the channel</string>
   <string name="GroupConvertHint">To go over the **%1$s** members limit, you can convert your group to a **supergroup**. In supergroups:\n\n• The user limit is **%2$s** members\n• New members see all chat history\n• Admins delete messages for all\n• Notifications are muted by default</string>
   <string name="XCreatedGroup">%1$s created the group</string>
+  <string name="YouCreatedGroup">You created the group</string>
   <string name="XofY">%1$s of %2$s</string>
   <string name="ReadingXLine">Reading line %1$s…</string>
 
@@ -1262,7 +1270,7 @@
   <string name="VoipOfflineAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to make calls.</string>
   <string name="VoipOfflineTitle">Offline</string>
   <string name="VoipOffline">You\'re currently offline. Please connect to the Internet in order to make calls.</string>
-  <string name="NoRightToCall">Sorry, <![CDATA[<b>%1$s</b>]]> doesn\'t accept calls.</string>
+  <string name="NoRightToCall">Sorry, %1$s doesn\'t accept calls.</string>
 
   <string name="VoipConnecting">Connecting</string>
   <string name="VoipRinging">Ringing</string>
@@ -1292,7 +1300,7 @@
   <string name="ShowCall">Show call</string>
 
   <string name="VoipOngoingAlertTitle">Another call in progress</string>
-  <string name="CallInProgressDesc">You currently have an ongoing call with <![CDATA[<b>%1$s</b>]]>. Would you like to hang up on that call and start a new one with <![CDATA[<b>%2$s</b>]]>?</string>
+  <string name="CallInProgressDesc">You currently have an ongoing call with %1$s. Would you like to hang up on that call and start a new one with %2$s?</string>
   <string name="VoipUseLessData">Use less data for calls</string>
   <string name="UseLessDataForCallsDesc">Using less data may improve your experience on bad networks, but will slightly decrease audio quality.</string>
   <string name="VoipEndCall">End call</string>
@@ -1340,8 +1348,9 @@
   <string name="UseProxyServer">Server</string>
   <string name="UseProxyPort">Port</string>
   <string name="ProxySettings">Proxy settings</string>
-  <string name="EnableProxyAlert">Are you sure you want to enable this proxy?<![CDATA[<br/><br/>]]>%1$s<![CDATA[<br/><br/>]]>You can change your proxy server later in the Settings (Data and Storage).</string>
-  <string name="EnableProxyAlertMtproto">Are you sure you want to enable this proxy?<![CDATA[<br/><br/>]]>%1$s<![CDATA[<br/><br/>]]>You can change your proxy server later in the Settings (Data and Storage).<![CDATA[<br/><br/>]]>This proxy may display a sponsored channel in your chats list. This doesn\'t reveal any of your Telegram traffic.</string>
+  <string name="EnableProxyAlertTitle">Are you sure you want to enable this proxy?</string>
+  <string name="EnableProxyAlertHint">You can change your proxy server later in the Settings (Data and Storage).</string>
+  <string name="EnableProxyAlertHintMtproto">This proxy may display a sponsored channel in your chats list. This doesn\'t reveal any of your Telegram traffic.</string>
   <string name="ProxyEnable">Enable</string>
   <string name="ProxySaveForLater">Save Proxy</string>
   <string name="UseProxyUsername">Username</string>
@@ -1402,7 +1411,7 @@
   <string name="UserRestricted">Sorry, you were restricted by chat admins from performing this action.</string>
   <string name="HashtagDeleteHint">Delete hashtag from suggestions?</string>
 
-  <string name="ReportChatSpam">Are you sure you want to report <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> for spam?</string>
+  <string name="ReportChatSpam">Are you sure you want to report %1$s for spam?</string>
   <string name="Report">Report</string>
   <string name="ReportChat">Report %1$s</string>
 
@@ -1580,10 +1589,10 @@
   <string name="EventLogSelectedEvents">Selected actions</string>
   <string name="EventLogAllAdmins">All admins</string>
   <string name="EventLogEmptyFilter">Please specify at least one filter</string>
-  <string name="EventLogEmpty"><![CDATA[<b>]]>No actions here yet<![CDATA[</b>]]>\n\nThe group\'s members and admins\nhave not taken any service actions\nin the last 48 hours.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>No actions here yet<![CDATA[</b>]]>\n\nThe channel\'s admins\nhave not taken any service actions\nin the last 48 hours.</string>
-  <string name="EventLogEmptySearch"><![CDATA[<b>]]>No actions found<![CDATA[</b>]]>\n\nNo recent actions that match your query\nhave been found.</string>
-  <string name="EventLogEmptyTextSearch">No recent actions that contain \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' have been found.</string>
+  <string name="EventLogEmpty">**No actions here yet**\n\nThe group\'s members and admins\nhave not taken any service actions\nin the last 48 hours.</string>
+  <string name="EventLogEmptyChannel">**No actions here yet**\n\nThe channel\'s admins\nhave not taken any service actions\nin the last 48 hours.</string>
+  <string name="EventLogEmptySearch">**No actions found**\n\nNo recent actions that match your query\nhave been found.</string>
+  <string name="EventLogEmptyTextSearch">No recent actions that contain \'%1$s\' have been found.</string>
   <string name="EventLogInfoTitle">What is the Recent Actions?</string>
   <string name="EventLogInfoDetail">This is a list of all service actions taken by the group\'s members and admins in the last 48 hours.</string>
   <string name="EventLogInfoDetailChannel">This is a list of all service actions taken by the channel\'s admins in the last 48 hours.</string>
@@ -1647,9 +1656,6 @@
   <string name="UntilX">Until %1$s</string>
 
   <string name="NetworkUsage">Network Usage</string>
-  <string name="channel_title_changed">%1$s changed the channel name to «%2$s»</string>
-  <string name="ChannelPhotoChangedBy">%1$s changed the channel photo</string>
-  <string name="ChannelPhotoRemovedBy">%1$s removed the channel photo</string>
   <string name="Use169Output">16:9 Camera output</string>
 
   <string name="RecentStickers">Recently Used</string>
@@ -1695,8 +1701,7 @@
   <string name="SavedMessages">Saved Messages</string>
   <string name="Saved">Saved</string>
 
-  <string name="channel_create">Channel «%1$s» created</string>
-  <string name="channel_created">%1$s created the channel «%2$s»</string>
+  <string name="channel_create_somebody">Channel created «%1$s»</string>
   <string name="channel_user_add">%1$s joined the channel</string>
   <string name="channel_user_remove">%1$s left the channel</string>
   <string name="channel_user_join_by_link">%1$s joined the channel by invite link</string>
@@ -2130,9 +2135,9 @@
   <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
 
   <string name="DeleteUserChatConfirm">Are you sure you want to delete the chat with %1$s? This action cannot be undone.</string>
-  <string name="DeleteSecretChatPendingConfirm">Are you sure you want to cancel a secret chat with %1$s?</string>
-  <string name="DeleteSecretChatClosedConfirm">Are you sure you want to delete a secret chat with %1$s? This action cannot be undone.</string>
-  <string name="DeleteSecretChatConfirm">Are you sure you want to delete a secret chat with %1$s? All chat history will be deleted forever. This action cannot be undone.</string>
+  <string name="DeleteSecretChatPendingConfirm">Are you sure you want to cancel the secret chat with %1$s?</string>
+  <string name="DeleteSecretChatClosedConfirm">Are you sure you want to delete the secret chat with %1$s? This action cannot be undone.</string>
+  <string name="DeleteSecretChatConfirm">Are you sure you want to delete the secret chat with %1$s? All chat history will be deleted forever. This action cannot be undone.</string>
   <string name="DeleteSecretChatHistoryForOtherParty">Delete all messages for %1$s</string>
   <string name="ChatWithUser">Chat with %1$s</string>
   <string name="SecretChatWithUser">Secret chat with %1$s</string>
@@ -2288,6 +2293,22 @@
   <string name="TryAgainSeconds_two">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
+  <string name="game_ActionUserScored_zero">%2$s scored %1$s</string>
+  <string name="game_ActionUserScored_two">%2$s scored %1$s</string>
+  <string name="game_ActionUserScored_few">%2$s scored %1$s</string>
+  <string name="game_ActionUserScored_many">%2$s scored %1$s</string>
+  <string name="game_ActionUserScoredInGame_zero">%2$s scored %1$s in %3$s</string>
+  <string name="game_ActionUserScoredInGame_two">%2$s scored %1$s in %3$s</string>
+  <string name="game_ActionUserScoredInGame_few">%2$s scored %1$s in %3$s</string>
+  <string name="game_ActionUserScoredInGame_many">%2$s scored %1$s in %3$s</string>
+  <string name="game_ActionYouScored_zero">You scored %1$s</string>
+  <string name="game_ActionYouScored_two">You scored %1$s</string>
+  <string name="game_ActionYouScored_few">You scored %1$s</string>
+  <string name="game_ActionYouScored_many">You scored %1$s</string>
+  <string name="game_ActionYouScoredInGame_zero">You scored %1$s in %2$s</string>
+  <string name="game_ActionYouScoredInGame_two">You scored %1$s in %2$s</string>
+  <string name="game_ActionYouScoredInGame_few">You scored %1$s in %2$s</string>
+  <string name="game_ActionYouScoredInGame_many">You scored %1$s in %2$s</string>
   <string name="inXHours_zero">in %1$s hours</string>
   <string name="inXHours_two">in %1$s hours</string>
   <string name="inXHours_few">in %1$s hours</string>
