@@ -1333,14 +1333,21 @@
   <string name="PassportPhoneUseSameInfo">使用与 Telegram 帐号相同的手机号码</string>
   <string name="PassportPostcode">邮政编码</string>
   <string name="PassportResidence">住址</string>
+  <string name="PassportReverseSide">反面</string>
+  <string name="PassportScanPassport">扫描你的护照</string>
   <string name="PassportSelectBithdayDate">选择出生日期</string>
+  <string name="PassportSelectExpiredDate">选择失效日期</string>
   <string name="PassportSelectGender">选择性别</string>
   <string name="PassportSelectNotExpire">长期</string>
   <string name="PassportSelfRequest">请输入密码访问个人信息</string>
   <string name="PassportSelfie">自拍照</string>
+  <string name="PassportState">国家和地区</string>
   <string name="PassportStreet1">街道</string>
   <string name="PassportStreet2">街道</string>
   <string name="PassportSurname">姓</string>
+  <string name="PassportUploadAdditinalDocument">上传补充扫描件</string>
+  <string name="PassportUploadDocument">上传扫描件</string>
+  <string name="PassportUploadNotImage">您只能上传图片</string>
   <string name="PassportUseLatinOnly">您只能使用拉丁字母。</string>
   <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
   <string name="PasswordCode">验证码</string>
@@ -1421,6 +1428,7 @@
   <string name="PermissionOpenSettings">设置</string>
   <string name="PermissionStorage">Telegram 需要访问您的本地存储才能使您发送和保存照片，视频，音乐和其他媒体文件。</string>
   <string name="Phone">手机号码</string>
+  <string name="PhoneCopied">手机号已复制到剪贴板</string>
   <string name="PhoneHome">家庭</string>
   <string name="PhoneMain">主要</string>
   <string name="PhoneMobile">手机</string>
@@ -1449,6 +1457,7 @@
   <string name="PleaseEnterCurrentPassword">请输入您的密码</string>
   <string name="PleaseEnterFirstPassword">请输入一个密码</string>
   <string name="PleaseEnterPassword">请输入新密码</string>
+  <string name="PleaseLoginPassport">请登陆到 Telegram 来使用 Telegram Passport</string>
   <string name="PleaseReEnterPassword">请再次输入密码</string>
   <string name="PleaseStreamDownload">请等待视频下载完毕</string>
   <string name="Points_zero">%1$d</string>
@@ -1469,6 +1478,7 @@
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyClearPayment">付款信息</string>
   <string name="PrivacyClearShipping">配送信息</string>
+  <string name="PrivacyDeleteCloudDrafts">删除所有云端草稿</string>
   <string name="PrivacyFloodControlError">抱歉，请求过于频繁。现在暂时无法修改隐私设置，请稍后再试。</string>
   <string name="PrivacyLastSeen">最后上线时间</string>
   <string name="PrivacyPayments">付款</string>
@@ -1476,6 +1486,7 @@
   <string name="PrivacyPaymentsClearAlert">是否删除您的配送信息，并使所有的付款提供商清除您保存的信用卡？请注意 Telegram 从来不会存储您的信用卡数据。</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
   <string name="PrivacyPolicy">隐私策略</string>
+  <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="PrivacySettings">隐私和安全</string>
   <string name="PrivacyTitle">隐私</string>
@@ -1677,10 +1688,13 @@
   <string name="ShareYouLocationUnableManually">手动选择</string>
   <string name="ShareYouPhoneNumberTitle">是否分享您的手机号码？</string>
   <string name="SharedFilesTab">文档</string>
+  <string name="SharedLinksTab">链接</string>
   <string name="SharedMedia">分享的媒体文件</string>
+  <string name="SharedMediaTab">多媒体</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
   <string name="SharedMusicTab">音频</string>
   <string name="SharedPlace">地点</string>
+  <string name="SharedVoiceTab">语音</string>
   <string name="SharingLiveLocationTitle">您正在与 %1$s 分享您的实时位置</string>
   <string name="SharingYouAndOtherName">你和 %1$s</string>
   <string name="Sharpen">锐化</string>
@@ -1734,6 +1748,7 @@
   <string name="Subscribers_few">%1$d 个订阅者</string>
   <string name="Subscribers_many">%1$d 个订阅者</string>
   <string name="Subscribers_other">%1$d 个订阅者</string>
+  <string name="SuggestContacts">推荐频繁的联系人</string>
   <string name="SuggestStickers">通过 emoji 推荐热门表情</string>
   <string name="SuggestStickersAll">全部</string>
   <string name="SuggestStickersInstalled">已添加</string>
@@ -1760,6 +1775,7 @@
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="TelegramPassport">Telegram 护照</string>
   <string name="TelegramPassportCreatePassword">设置一个密码</string>
+  <string name="TelegramPassportDeleteAlert">您确定要删除您的 Telegram Passport 吗？</string>
   <string name="TelegramVersion">Telegram Android 客户端 %1$s</string>
   <string name="TerminateAllSessions">注销所有其它设备上的对话</string>
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
@@ -1788,6 +1804,10 @@
   <string name="TintShadows">阴影</string>
   <string name="TodayAt">于</string>
   <string name="TodayAtFormatted">%1$s</string>
+  <string name="TooManyTries">尝试次数过多
+请在 %1$s 后重试</string>
+  <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
+  <string name="TosAgeTitle">年龄验证</string>
   <string name="TotalDataUsage">总计</string>
   <string name="TurnPasswordOff">删除密码</string>
   <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram 护照 中的数据将丢失！</string>
@@ -1812,8 +1832,12 @@
   <string name="UnreadMessages">未读消息</string>
   <string name="UnsupportedAttachment">不支持此附件</string>
   <string name="UnsupportedMedia">您当前的 Telegram 版本无法查看这条消息。请前往这里下载新版：https://telegram.org/update</string>
+  <string name="Update">更新</string>
+  <string name="UpdateApp">更新应用</string>
+  <string name="UpdateAppAlert">很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请更新 Telegram。</string>
   <string name="UpdateContactsMessage">Telegram 检测到很多未同步的联系人，您想现在将其同步吗？如果您在使用自己的设备、SIM 卡和 Google 帐户，请选择‘确定’。</string>
   <string name="UpdateContactsTitle">更新联系人？</string>
+  <string name="UpdateNow">立刻更新</string>
   <string name="UpdateTelegram">更新 Telegram</string>
   <string name="UpdatedMinutes_zero">更新于 %1$d 分钟前</string>
   <string name="UpdatedMinutes_one">更新于 %1$d 分钟前</string>

@@ -2079,7 +2079,6 @@
 
 /* new from translations.telegram.org */
 
-"Chat.Message.DeleteForMyMeAndPerson" = "Delete my for me and %@";
 "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
 "InputData.Date.Day.Placeholder" = "Day:";
 "InputData.Date.Month.Placeholder" = "Month:";

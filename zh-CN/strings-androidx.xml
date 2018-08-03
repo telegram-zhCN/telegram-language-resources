@@ -7,7 +7,6 @@
   <string name="language_code">zh_CN</string>
   <string name="language_name">Chinese Simplified</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
-
   <!-- date -->
 
   <string name="date_weekFull_0">星期日</string>
@@ -102,8 +101,6 @@
 
   <string name="format_dayMonth">%2$s%1$d日</string>
   <string name="format_dayMonthYear">%3$d年%2$s%1$d日</string>
-
-  <string name="format_dateFull">%3$02d/%2$02d/%1$02d</string>
 
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
@@ -514,8 +511,8 @@
   <string name="ChatCamera">相机</string>
 
 
-  <string name="group_photo_delete">群组图片已移除</string>
-
+  <string name="group_photo_changed_you">您更换了群组标识</string>
+  <string name="group_photo_deleted_you">您删除了群组标识</string>
   <!-- Chats list -->
   <string name="Somebody">无名氏</string>
 
@@ -561,9 +558,11 @@
 或者将一些公开群组转为私有。</string>
   <!-- New strings -->
   <string name="Language">语言</string>
+
   <string name="SendCurrentLocation">发送我的位置</string>
   <string name="AllMedia">所有图片和视频</string>
-  <string name="ActionYouScored">你获得 %1$s 分</string>
+  <string name="game_ActionYouScored_one">你获得 %1$s 分</string>
+  <string name="game_ActionYouScored_other">你获得 %1$s 分</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了 1 条消息</string>
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
@@ -613,7 +612,8 @@
   <string name="NoVideos">无可选视频</string>
   <string name="Other">其它</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
-  <string name="None">无</string>
+  <string name="BioNone">无</string>
+  <string name="BlockedNone">无</string>
   <!-- used like this: "15 MB, no Music and Files" -->
   <string name="Save">保存</string>
   <string name="PrivacyTitle">私密</string>
@@ -833,6 +833,7 @@
   <string name="CropSquare">正方形</string>
   <string name="Wallpaper">背景</string>
   <string name="RemoveStickerSetAction">移除</string>
+  <string name="YouCreatedGroup">您创建了此群组</string>
   <!-- %1$s is one of: "message", "X messages", "audio", "X audios", "photo" from the corresponding translated strings -->
   <!-- %2$s is one of: contact first name, channel title, group title -->
   <!-- In case you don't know how to combine for bot female and male names, you can use stupid prefix like "contact" -->
@@ -876,7 +877,6 @@
   <string name="UseLessDataAlways">总是</string>
 
   <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
-  <string name="CallInProgressDesc">您现在正在和 <![CDATA[<b>%1$s</b>]]> 通话。您想要挂断此通话然后和 <![CDATA[<b>%2$s</b>]]> 开始一个新的通话吗？</string>
   <string name="VoipUseLessData">节省通话时的数据流量</string>
   <string name="UseLessDataForCallsDesc">使用更少的数据将提升在较差的网络环境下的体验，但是会轻微降低语音质量。</string>
   <string name="VoipEndCall">结束通话</string>
@@ -902,6 +902,8 @@
   <string name="UseProxyServer">服务器</string>
   <string name="UseProxyPort">端口</string>
   <string name="ProxySettings">代理设置</string>
+  <string name="EnableProxyAlertTitle">您确定要启用此代理吗？</string>
+  <string name="EnableProxyAlertHint">您可以稍后在设置（数据和存储）中修改您的代理服务器。</string>
   <string name="ProxyEnable">启用</string>
   <string name="ProxySaveForLater">保存代理</string>
   <string name="UseProxyUsername">用户名</string>
@@ -1005,7 +1007,7 @@
   <string name="EventLogAllEvents">所有操作</string>
   <string name="EventLogSelectedEvents">选中的操作</string>
   <string name="EventLogAllAdmins">所有管理员</string>
-  <string name="EventLogEmptySearch"><![CDATA[<b>]]>未找到操作<![CDATA[</b>]]>\n\n找不到与您查询的近期操作相符的结果。</string>
+  <string name="EventLogEmptySearch">**未找到操作事件**\n\n找不到与您查询的近期操作相符的结果。</string>
   <string name="EventLogInfoTitle">什么是近期操作？</string>
   <string name="EventLogChannelRestricted">封禁了 %1$s</string>
   <string name="EventLogChannelUnrestricted">解封了 %1$s</string>
@@ -1179,6 +1181,7 @@
   <string name="PrivacyClearPayment">付款信息</string>
   <string name="PrivacyPaymentsClearAlert">是否删除您的配送信息，并使所有的付款提供商清除您保存的信用卡？请注意 Telegram 从来不会存储您的信用卡数据。</string>
 
+  <string name="SuggestContacts">推荐频繁的联系人</string>
   <string name="MarkAsRead">标记为已读</string>
   <string name="MarkAsUnread">标记为未读</string>
   <string name="CreateLink">创建连接</string>
@@ -1208,6 +1211,7 @@
   <string name="PrivacyAdvanced">高级</string>
   <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
 
+  <string name="PrivacyDeleteCloudDrafts">删除所有云端草稿</string>
   <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
 
   <string name="TabMedia">已共享媒体</string>
@@ -1275,6 +1279,10 @@
   <string name="RemoveXStickers_two">移除 %1$s 个贴纸</string>
   <string name="RemoveXStickers_few">移除 %1$s 个贴纸</string>
   <string name="RemoveXStickers_many">移除 %1$s 个贴纸</string>
+  <string name="game_ActionYouScored_zero">你获得 %1$s 分</string>
+  <string name="game_ActionYouScored_two">你获得 %1$s 分</string>
+  <string name="game_ActionYouScored_few">你获得 %1$s 分</string>
+  <string name="game_ActionYouScored_many">你获得 %1$s 分</string>
   <string name="inXHours_zero">%1$s 小时内</string>
   <string name="inXHours_two">%1$s 小时内</string>
   <string name="inXHours_few">%1$s 小时内</string>

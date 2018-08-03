@@ -7,65 +7,9 @@
   <string name="language_code">en</string>
   <string name="language_name">English</string>
   <string name="language_nameInEnglish">English</string>
+  <string name="language_dateFormatLocale">0</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
-
-  <!-- date -->
-
-  <string name="date_weekFull_0">Sunday</string>
-  <string name="date_weekFull_1">Monday</string>
-  <string name="date_weekFull_2">Tuesday</string>
-  <string name="date_weekFull_3">Wednesday</string>
-  <string name="date_weekFull_4">Thursday</string>
-  <string name="date_weekFull_5">Friday</string>
-  <string name="date_weekFull_6">Saturday</string>
-
-  <string name="date_weekShort_0">Sun</string>
-  <string name="date_weekShort_1">Mon</string>
-  <string name="date_weekShort_2">Tue</string>
-  <string name="date_weekShort_3">Wed</string>
-  <string name="date_weekShort_4">Thu</string>
-  <string name="date_weekShort_5">Fri</string>
-  <string name="date_weekShort_6">Sat</string>
-
-  <string name="date_monthGenitive_0">January</string>
-  <string name="date_monthGenitive_1">February</string>
-  <string name="date_monthGenitive_2">March</string>
-  <string name="date_monthGenitive_3">April</string>
-  <string name="date_monthGenitive_4">May</string>
-  <string name="date_monthGenitive_5">June</string>
-  <string name="date_monthGenitive_6">July</string>
-  <string name="date_monthGenitive_7">August</string>
-  <string name="date_monthGenitive_8">September</string>
-  <string name="date_monthGenitive_9">October</string>
-  <string name="date_monthGenitive_10">November</string>
-  <string name="date_monthGenitive_11">December</string>
-
-  <string name="date_monthNominative_0">January</string>
-  <string name="date_monthNominative_1">February</string>
-  <string name="date_monthNominative_2">March</string>
-  <string name="date_monthNominative_3">April</string>
-  <string name="date_monthNominative_4">May</string>
-  <string name="date_monthNominative_5">June</string>
-  <string name="date_monthNominative_6">July</string>
-  <string name="date_monthNominative_7">August</string>
-  <string name="date_monthNominative_8">September</string>
-  <string name="date_monthNominative_9">October</string>
-  <string name="date_monthNominative_10">November</string>
-  <string name="date_monthNominative_11">December</string>
-
-  <string name="date_monthShort_0">Jan</string>
-  <string name="date_monthShort_1">Feb</string>
-  <string name="date_monthShort_2">Mar</string>
-  <string name="date_monthShort_3">Apr</string>
-  <string name="date_monthShort_4">May</string>
-  <string name="date_monthShort_5">Jun</string>
-  <string name="date_monthShort_6">Jul</string>
-  <string name="date_monthShort_7">Aug</string>
-  <string name="date_monthShort_8">Sep</string>
-  <string name="date_monthShort_9">Oct</string>
-  <string name="date_monthShort_10">Nov</string>
-  <string name="date_monthShort_11">Dec</string>
 
   <!-- timestamp -->
 
@@ -91,19 +35,6 @@
   <string name="timestampShort_date">%1$s at %2$s</string>
 
   <!-- format -->
-
-  <string name="format_time24">%1$d:%2$02d</string>
-  <string name="format_timeAM">%1$d:%2$02d AM</string>
-  <string name="format_timePM">%1$d:%2$02d PM</string>
-
-  <string name="format_monthNomYear">%1$s %2$d</string>
-
-  <string name="format_dayMonthShort">%1$d %2$s</string>
-  <string name="format_dayMonthShortYear">%1$d %2$s\'%3$02d</string>
-  <string name="format_dayMonthShortYearAt">%1$d %2$s %3$d at %4$s</string>
-
-  <string name="format_dayMonth">%1$d %2$s</string>
-  <string name="format_dayMonthYear">%1$d %2$s %3$d</string>
 
   <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
 

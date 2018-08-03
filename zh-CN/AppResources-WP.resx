@@ -3916,7 +3916,7 @@ you agree to the *Terms of Service*.</value>
     <value>标记为未读</value>
   </data>
   <data name="SuggestFrequentContacts" xml:space="preserve">
-    <value>Suggest Frequent Contacts</value>
+    <value>推荐频繁的联系人</value>
   </data>
   <data name="SuggestFrequentContactsAbout" xml:space="preserve">
     <value>Display people you message frequently at the top of the search section for quick access.</value>
@@ -3988,7 +3988,7 @@ you agree to the *Terms of Service*.</value>
     <value>邮政编码</value>
   </data>
   <data name="PassportState" xml:space="preserve">
-    <value>State/Region</value>
+    <value>国家和地区</value>
   </data>
   <data name="PassportStreet1" xml:space="preserve">
     <value>街道</value>
@@ -4012,7 +4012,7 @@ you agree to the *Terms of Service*.</value>
     <value>输入您的手机号码</value>
   </data>
   <data name="UpdateApp" xml:space="preserve">
-    <value>Update app</value>
+    <value>更新应用</value>
   </data>
   <data name="PassportPhone" xml:space="preserve">
     <value>手机号码</value>
@@ -4036,7 +4036,7 @@ you agree to the *Terms of Service*.</value>
     <value>{0} received the following documents: {1}</value>
   </data>
   <data name="DeleteAllCloudDrafts" xml:space="preserve">
-    <value>Delete All Cloud Drafts</value>
+    <value>删除所有云端草稿</value>
   </data>
   <data name="DeleteAllCloudDraftsConfirmation" xml:space="preserve">
     <value>您确定要删除所有草稿吗？</value>
@@ -4069,7 +4069,7 @@ you agree to the *Terms of Service*.</value>
     <value>Requested Information</value>
   </data>
   <data name="PassportDeleteConfirmation" xml:space="preserve">
-    <value>Are you sure you want to delete your Telegram Passport?</value>
+    <value>您确定要删除您的 Telegram Passport 吗？</value>
   </data>
   <data name="Passport" xml:space="preserve">
     <value>护照</value>
@@ -4231,7 +4231,7 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>Required Documents</value>
   </data>
   <data name="PassportReverseSide" xml:space="preserve">
-    <value>Reverse Side</value>
+    <value>反面</value>
   </data>
   <data name="PassportReverseSideInfo" xml:space="preserve">
     <value>Upload a photo of the reverse side of the document</value>
@@ -4258,7 +4258,7 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>无</value>
   </data>
   <data name="UpdateAppAlert" xml:space="preserve">
-    <value>Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</value>
+    <value>很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请更新 Telegram。</value>
   </data>
   <data name="PassportInfoTitle" xml:space="preserve">
     <value>什么是 Telegram 护照？</value>
