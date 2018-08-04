@@ -7,63 +7,6 @@
   <string name="language_code">zh_CN</string>
   <string name="language_name">Chinese Simplified</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
-  <!-- date -->
-
-  <string name="date_weekFull_0">星期日</string>
-  <string name="date_weekFull_1">星期一</string>
-  <string name="date_weekFull_2">星期二</string>
-  <string name="date_weekFull_3">星期三</string>
-  <string name="date_weekFull_4">星期四</string>
-  <string name="date_weekFull_5">星期五</string>
-  <string name="date_weekFull_6">星期六</string>
-
-  <string name="date_weekShort_0">周日</string>
-  <string name="date_weekShort_1">周一</string>
-  <string name="date_weekShort_2">周二</string>
-  <string name="date_weekShort_3">周三</string>
-  <string name="date_weekShort_4">周四</string>
-  <string name="date_weekShort_5">周五</string>
-  <string name="date_weekShort_6">周六</string>
-
-  <string name="date_monthGenitive_0">1 月</string>
-  <string name="date_monthGenitive_1">2 月</string>
-  <string name="date_monthGenitive_2">3 月</string>
-  <string name="date_monthGenitive_3">4 月</string>
-  <string name="date_monthGenitive_4">5 月</string>
-  <string name="date_monthGenitive_5">6 月</string>
-  <string name="date_monthGenitive_6">7 月</string>
-  <string name="date_monthGenitive_7">8 月</string>
-  <string name="date_monthGenitive_8">9 月</string>
-  <string name="date_monthGenitive_9">10 月</string>
-  <string name="date_monthGenitive_10">11 月</string>
-  <string name="date_monthGenitive_11">12 月</string>
-
-  <string name="date_monthNominative_0">1 月</string>
-  <string name="date_monthNominative_1">2 月</string>
-  <string name="date_monthNominative_2">3 月</string>
-  <string name="date_monthNominative_3">4 月</string>
-  <string name="date_monthNominative_4">5 月</string>
-  <string name="date_monthNominative_5">6 月</string>
-  <string name="date_monthNominative_6">7 月</string>
-  <string name="date_monthNominative_7">8 月</string>
-  <string name="date_monthNominative_8">9 月</string>
-  <string name="date_monthNominative_9">10 月</string>
-  <string name="date_monthNominative_10">11 月</string>
-  <string name="date_monthNominative_11">12 月</string>
-
-  <string name="date_monthShort_0">1 月</string>
-  <string name="date_monthShort_1">2 月</string>
-  <string name="date_monthShort_2">3 月</string>
-  <string name="date_monthShort_3">4 月</string>
-  <string name="date_monthShort_4">5 月</string>
-  <string name="date_monthShort_5">6 月</string>
-  <string name="date_monthShort_6">7 月</string>
-  <string name="date_monthShort_7">8 月</string>
-  <string name="date_monthShort_8">9 月</string>
-  <string name="date_monthShort_9">10 月</string>
-  <string name="date_monthShort_10">11 月</string>
-  <string name="date_monthShort_11">12 月</string>
-
   <!-- timestamp -->
 
   <string name="timestamp_now">刚刚</string>
@@ -86,21 +29,6 @@
   <string name="timestampShort_yesterday">昨天 %1$s</string>
   <string name="timestampShort_weekday">%1$s %2$s</string>
   <string name="timestampShort_date">%1$s %2$s</string>
-
-  <!-- format -->
-
-  <string name="format_time24">%1$d:%2$02d</string>
-  <string name="format_timeAM">%1$d:%2$02d AM</string>
-  <string name="format_timePM">%1$d:%2$02d PM</string>
-
-  <string name="format_monthNomYear">%2$d年%1$s</string>
-
-  <string name="format_dayMonthShort">%2$s%1$d日</string>
-  <string name="format_dayMonthShortYear">%3$02d年%2$s%1$d日</string>
-  <string name="format_dayMonthShortYearAt">%3$d年%2$s%1$d日 %4$s</string>
-
-  <string name="format_dayMonth">%2$s%1$d日</string>
-  <string name="format_dayMonthYear">%3$d年%2$s%1$d日</string>
 
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>

@@ -43,9 +43,9 @@
   <string name="format_concatSeparator">", "</string>
   <string name="format_concatSeparatorLast">" and "</string>
 
-  <string name="format_number_thousand">%1$sK</string>
-  <string name="format_number_million">%1$sM</string>
-  <string name="format_number_billion">%1$sB</string>
+  <string name="format_numberSuffix_thousand">K</string>
+  <string name="format_numberSuffix_million">M</string>
+  <string name="format_numberSuffix_billion">B</string>
 
   <string name="format_newMessagesFromChats">%1$s %2$s</string>
   <string name="format_peopleNamesAndOthers">%1$s %2$s</string>
@@ -575,9 +575,9 @@
   <string name="TextNotLoadedHint">Please wait until the text will be fully loaded</string>
   <string name="Text">Text</string>
 
-  <string name="Gb">GB</string>
-  <string name="Mb">MB</string>
-  <string name="Kb">KB</string>
+  <string name="fileSize_GB">%1$s GB</string>
+  <string name="fileSize_MB">%1$s MB</string>
+  <string name="fileSize_KB">%1$s KB</string>
   <string name="DownloadingOf">%1$s of %2$s</string>
   <string name="Downloading">Downloading %1$s of %2$s</string>
 
@@ -814,7 +814,7 @@
 
   <string name="NoStickerSets">No sticker sets installed</string>
   <string name="NoMasks">No masks installed</string>
-  <string name="ArchivedStickersInfo">You can have up to 200 sticker sets installed. Unused stickers are archived when you install new sets.</string>
+  <string name="ArchivedStickersInfo">You can have up to %1$s sticker sets installed. Unused stickers are archived when you install new sets.</string>
   <string name="MasksHint">You can add masks to photos and videos you send. To do this, open the photo editor before sending a photo.</string>
 
   <string name="Trending">Trending</string>
@@ -862,6 +862,7 @@
   <string name="ComeAgainLater">Come again later</string>
   <string name="New">New</string>
   <string name="Add">Add</string>
+  <string name="AddMemberBtn">Add</string>
   <string name="BlockListEmpty">You haven\'t blocked anyone yet</string>
   <string name="QBlockX">Block %1$s?</string>
   <string name="QUnblockX">Unblock %1$s?</string>
@@ -1673,7 +1674,9 @@
   <string name="ContactsOnTelegramMany_other">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="SearchPeople">Search People</string>
   <string name="ManyContactsJoined">1000+ contacts on Telegram</string>
-  <string name="InviteTextCommon">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextCommonMany_one">Hey, I\'m using Telegram to chat – and so is %1$s of our other contact. Join us! Download it here: %2$s</string>
+  <string name="InviteTextCommonMany_other">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextCommonOverThousand">Hey, I\'m using Telegram to chat – and so are 1000+ of our other contacts. Join us! Download it here: %1$s</string>
   <string name="InviteContacts">Invite Contacts</string>
   <string name="NoRestrictionsHint">Specify at least one restriction rule</string>
   <string name="NoAdminRulesHint">Specify at least one admin rule</string>
@@ -2184,6 +2187,10 @@
   <string name="FromXChats_two">from %1$s chats</string>
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
+  <string name="InviteTextCommonMany_zero">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextCommonMany_two">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextCommonMany_few">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="InviteTextCommonMany_many">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
   <string name="MuteForXDays_few">Mute for %1$s days</string>
