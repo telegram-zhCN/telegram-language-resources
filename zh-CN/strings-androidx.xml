@@ -35,10 +35,6 @@
   <string name="format_concatSeparator">"、"</string>
   <string name="format_concatSeparatorLast">"和"</string>
 
-  <string name="format_number_thousand">%1$s 千</string>
-  <string name="format_number_million">%1$s 百万</string>
-  <string name="format_number_billion">%1$s 十亿</string>
-
   <string name="format_newMessagesFromChats">%1$s %2$s</string>
   <string name="format_peopleNamesAndOthers">%1$s %2$s</string>
   <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
@@ -621,7 +617,6 @@
   <string name="Default">默认</string>
   <string name="OnlyIfSilent">仅静音模式</string>
 
-  <string name="ArchivedStickersInfo">您最多能够拥有 200 个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
   <string name="Trending">热门</string>
   <string name="Archived">已归档</string>
   <string name="Masks">装饰</string>
@@ -648,6 +643,7 @@
 
   <string name="New">新建</string>
   <string name="Add">设置</string>
+  <string name="AddMemberBtn">设置</string>
   <string name="YouSetTimer">您已将阅后即焚计时器设定为 %1$s</string>
   <string name="XSetTimer">%1$s 已将阅后即焚计时器设定为 %2$s</string>
 
