@@ -1133,6 +1133,7 @@
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
   <string name="LeaveDoneGroup">离开</string>
   <string name="PrivacyAdvanced">高级</string>
+  <string name="DeleteAccountIfAwayFor2">删除我的帐户若离线时间达</string>
   <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
 
   <string name="PrivacyDeleteCloudDrafts">删除所有云端草稿</string>
