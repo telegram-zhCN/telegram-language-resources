@@ -1144,6 +1144,7 @@
   <string name="PassportRequestedInformation">所需的信息</string>
   <string name="PassportProvidedInformation">已有的信息</string>
   <string name="PassportInfoTitle">什么是 Telegram 护照？</string>
+  <string name="PassportInfo">通过使用 Telegram Passport，您可以方便地注册需要实名认证网站和服务。\n\n您的信息、个人数据和档案受端到端加密保护。没有人，包括 Telegram，可以在未经您许可的情况下访问它们。\n\n您可以阅读我们的 FAQ 来了解更多信息。</string>
   <string name="TelegramPassportCreatePassword">设置一个密码</string>
   <string name="TelegramPassportDeleteAlert">您确定要删除您的 Telegram Passport 吗？</string>
   <string name="PassportUseLatinOnly">您只能使用拉丁字母。</string>
