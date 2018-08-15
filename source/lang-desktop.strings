@@ -1617,8 +1617,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_choose_image" = "Choose scan image";
 "lng_passport_delete_scan_undo" = "Undo";
 "lng_passport_scan_uploaded" = "Uploaded on {date}";
-"lng_passport_first_name" = "Name";
-"lng_passport_last_name" = "Surname";
+"lng_passport_first_name" = "First name";
+"lng_passport_last_name" = "Last name";
 "lng_passport_birth_date" = "Date of birth";
 "lng_passport_gender" = "Gender";
 "lng_passport_gender_male" = "Male";
