@@ -3053,6 +3053,8 @@ Unused sets are archived when you add more.";
 "Passport.Identity.DocumentDetails" = "DOCUMENT DETAILS";
 "Passport.Identity.Name" = "First Name";
 "Passport.Identity.NamePlaceholder" = "First Name";
+"Passport.Identity.MiddleName" = "Middle Name";
+"Passport.Identity.MiddleNamePlaceholder" = "Middle Name";
 "Passport.Identity.Surname" = "Last Name";
 "Passport.Identity.SurnamePlaceholder" = "Last Name";
 "Passport.Identity.DateOfBirth" = "Date of Birth";
@@ -3086,6 +3088,8 @@ Unused sets are archived when you add more.";
 "Passport.Identity.ReverseSideHelp" = "Upload a reverse side photo of the document";
 "Passport.Identity.Selfie" = "Selfie";
 "Passport.Identity.SelfieHelp" = "Upload a selfie holding this document";
+"Passport.Identity.Translation" = "Translation";
+"Passport.Identity.TranslationHelp" = "Upload a translation of this document";
 
 "Passport.Address.TypeResidentialAddress" = "Residential Address";
 "Passport.Address.TypePassportRegistration" = "Passport Registration";
@@ -3218,6 +3222,72 @@ Unused sets are archived when you add more.";
 "PrivateDataSettings.Title" = "Data Settings";
 "Privacy.ChatsTitle" = "CHATS";
 "Privacy.DeleteDrafts" = "Delete All Cloud Drafts";
+
+"UserInfo.NotificationsDefaultEnabled" = "Default (Enabled)";
+"UserInfo.NotificationsDefaultDisabled" = "Default (Disabled)";
+
+"Notifications.MessageNotificationsExceptions" = "Exceptions";
+"Notifications.GroupNotificationsExceptions" = "Exceptions";
+
+"Notifications.ExceptionsNone" = "None";
+"Notifications.Exceptions_1" = "%@ chat";
+"Notifications.Exceptions_2" = "%@ chats";
+"Notifications.Exceptions_3_10" = "%@ chats";
+"Notifications.Exceptions_any" = "%@ chats";
+"Notifications.Exceptions_many" = "%@ chats";
+"Notifications.Exceptions_0" = "%@ chats";
+
+"Notifications.ExceptionsTitle" = "Exceptions";
+"Notifications.ExceptionsChangeSound" = "Change Sound (%@)";
+"Notifications.ExceptionsDefaultSound" = "Default";
+"Notifications.ExceptionsMuted" = "Muted";
+"Notifications.ExceptionsUnmuted" = "Unmuted";
+"Notifications.AddExceptionTitle" = "Add Exception";
+
+"Notifications.ExceptionsMessagePlaceholder" = "This section will list all private chats with non-default notification settings.";
+"Notifications.ExceptionsGroupPlaceholder" = "This section will list all groups and channels with non-default notification settings.";
+
+"Passport.Identity.LatinNameHelp" = "Enter your name using the Latin alphabet";
+"Passport.Identity.NativeNameTitle" = "NAME IN DOCUMENT LANGUAGE";
+"Passport.Identity.NativeNameHelp" = "Your name in the language of the country (%@) that issued the document.";
+
+"Passport.Identity.Translations" = "TRANSLATION";
+"Passport.Identity.TranslationsHelp" = "Upload scans of verified translation of the document.";
+"Passport.FieldIdentityTranslationHelp" = "Upload a translation of your document";
+"Passport.FieldAddressTranslationHelp" = "Upload a translation of your document";
+
+"Passport.FieldOneOf.Or" = "%1$@ or %2$@";
+"Passport.Identity.UploadOneOfScan" = "Upload a scan of %@";
+"Passport.Address.UploadOneOfScan" = "Upload a scan of %@";
+
+"Passport.Address.TypeUtilityBillUploadScan" = "Upload a scan of your utiliity bill";
+"Passport.Address.TypeBankStatementUploadScan" = "Upload a scan of your bank statement";
+"Passport.Address.TypeRentalAgreementUploadScan" = "Upload a scan of your tenancy agreement";
+"Passport.Address.TypePassportRegistrationUploadScan" = "Upload a scan of your passport registration";
+"Passport.Address.TypeTemporaryRegistrationUploadScan" = "Upload a scan of your temporary registration";
+
+"Passport.Identity.OneOfTypePassport" = "passport";
+"Passport.Identity.OneOfTypeInternalPassport" = "internal passport";
+"Passport.Identity.OneOfTypeIdentityCard" = "identity card";
+"Passport.Identity.OneOfTypeDriversLicense" = "driver's license";
+
+"Passport.Address.OneOfTypePassportRegistration" = "passport registration";
+"Passport.Address.OneOfTypeUtilityBill" = "utility bill";
+"Passport.Address.OneOfTypeBankStatement" = "bank statement";
+"Passport.Address.OneOfTypeRentalAgreement" = "tenancy agreement";
+"Passport.Address.OneOfTypeTemporaryRegistration" = "temporary registration";
+
+"Passport.FieldOneOf.Delimeter" = ", ";
+"Passport.FieldOneOf.FinalDelimeter" = " or ";
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
