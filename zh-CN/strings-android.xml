@@ -179,6 +179,7 @@
   <string name="ContactsPermissionAlert">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="ContactsPermissionAlertNotNow">稍后</string>
   <string name="ContactsPermissionAlertContinue">继续</string>
+  <string name="YourContacts">您在 Telegram 上的联系人</string>
   <!--channels-->
   <string name="SetAsAdmin">设为管理员</string>
   <string name="NoBlockedUsers">暂无被封禁用户</string>
@@ -1051,6 +1052,7 @@
   <string name="VibrationDefault">默认</string>
   <string name="SmartNotifications">智能通知</string>
   <string name="NotificationsExceptions">例外</string>
+  <string name="NoExceptions">此区域将列出所有使用自定义通知设置的对话。\n\n您可以通过资料页中 “通知” 设置来自定义通知。</string>
   <string name="EmptyExceptions">无</string>
   <string name="SmartNotificationsInfo">%2$s %1$d 次</string>
   <string name="SmartNotificationsDisabled">禁用</string>
@@ -1140,12 +1142,14 @@
   <string name="AudioAutodownload">语音消息</string>
   <string name="VideoMessagesAutodownload">视频消息</string>
   <!--passport view-->
-  <string name="TelegramPassport">Telegram 护照</string>
+  <string name="TelegramPassport">Telegram Passport</string>
   <string name="PassportRequestedInformation">所需的信息</string>
   <string name="PassportProvidedInformation">已有的信息</string>
-  <string name="PassportInfoTitle">什么是 Telegram 护照？</string>
+  <string name="PassportInfoTitle">什么是 Telegram Passport？</string>
   <string name="PassportInfo">通过使用 Telegram Passport，您可以方便地注册需要实名认证网站和服务。\n\n您的信息、个人数据和档案受端到端加密保护。没有人，包括 Telegram，可以在未经您许可的情况下访问它们。\n\n您可以阅读我们的 FAQ 来了解更多信息。</string>
+  <string name="TelegramPassportCreatePasswordInfo">请设置一个密码用于通过端对端保护您的数据。\n\n此密码也将用于登录 Telegram。</string>
   <string name="TelegramPassportCreatePassword">设置一个密码</string>
+  <string name="TelegramPassportDelete">删除 Telegram Passport</string>
   <string name="TelegramPassportDeleteAlert">您确定要删除您的 Telegram Passport 吗？</string>
   <string name="PassportUseLatinOnly">您只能使用拉丁字母。</string>
   <string name="PassportAddBillInfo">上传您的水电费账单的扫描件</string>
@@ -1156,6 +1160,7 @@
   <string name="PassportAddBank">添加银行对账单</string>
   <string name="PassportAddAgreement">添加租赁合同</string>
   <string name="PassportAddress">地址</string>
+  <string name="PassportResidentialAddress">住宅地址</string>
   <string name="PassportAddressNoUploadInfo">请输入地址</string>
   <string name="PassportAddressInfo">上传您的地址证明</string>
   <string name="PassportAddressHeader">地址</string>
@@ -1186,8 +1191,11 @@
   <string name="PassportNoPolicy">您的档案将直接发往 %1$s 并允许 @%2$s 后续向您发送消息。</string>
   <string name="PassportAuthorize">授权</string>
   <string name="PassportAddPassport">添加护照</string>
+  <string name="PassportAddInternalPassport">添加国内护照</string>
   <string name="PassportAddPassportRegistration">护照注册信息</string>
   <string name="PassportAddPassportRegistrationInfo">上传您的护照信息页的扫描件</string>
+  <string name="PassportAddTemporaryRegistration">临时居住证明</string>
+  <string name="PassportAddTemporaryRegistrationInfo">上传您的临时居住证明的扫描件</string>
   <string name="PassportAddCard">添加身份证</string>
   <string name="PassportAddLicence">添加驾驶证</string>
   <string name="PassportPersonalDetails">个人信息</string>
@@ -1223,6 +1231,7 @@
   <string name="PassportPersonalUploadInfo">这份文件必须包含您的照片、姓名、出生日期、证件号、发照城市和有效期。</string>
   <string name="PassportDiscardChanges">您确定要放弃所有输入的信息吗？</string>
   <string name="PassportDiscard">丢弃</string>
+  <string name="PassportDocuments">扫描件</string>
   <string name="PassportDeleteDocument">删除此档案</string>
   <string name="PassportDeleteInfo">删除</string>
   <string name="PassportDeleteScanAlert">您确定要删除此扫描件吗？</string>
@@ -1241,6 +1250,7 @@
   <string name="PassportScanPassportInfo">扫描带有机读区域的护照或身份证来自动填充个人信息。</string>
   <string name="PassportNoDocumentsAdd">添加一个文档</string>
   <string name="PassportNoDocuments">您暂时未上传任何文档</string>
+  <string name="PassportNoDocumentsInfo">您可以添加您的手机号码、邮箱地址、身份证件或住宅地址。</string>
   <string name="PassportCorrectErrors">点按更正错误</string>
   <!--sessions view-->
   <string name="SessionsTitle">活动对话</string>
@@ -1303,10 +1313,12 @@
   <string name="NoSharedAudio">在此对话中分享音乐，并在您所有的设备上访问。</string>
   <string name="NoSharedFiles">在此对话中分享文件，并在您所有的设备上访问。</string>
   <string name="NoSharedLinks">在此对话中分享链接，并在您所有的设备上访问。</string>
+  <string name="NoSharedVoice">在此对话中发送语音，并在您所有的设备上访问。</string>
   <string name="NoMediaSecret">此对话中共享的所有图片和视频都会在这里显示。</string>
   <string name="NoSharedAudioSecret">此对话中共享的所有音乐都会在这里显示。</string>
   <string name="NoSharedFilesSecret">此对话中共享的所有文件都会在这里显示。</string>
   <string name="NoSharedLinksSecret">此对话中共享的所有链接都会在这里显示。</string>
+  <string name="NoSharedVoiceSecret">此对话中发送的所有语音都会在这里显示。</string>
   <!--map view-->
   <string name="Map">地图</string>
   <string name="Satellite">卫星</string>
@@ -1426,7 +1438,7 @@
   <string name="SetRecoveryEmail">设置密码恢复邮箱</string>
   <string name="ChangeRecoveryEmail">更改密码恢复邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
-  <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram 护照 中的数据将丢失！</string>
+  <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram Passport 中的数据将丢失！</string>
   <string name="PasswordHint">密码提示</string>
   <string name="PasswordHintText">请创建一个密码提示。</string>
   <string name="PasswordDoNotMatch">密码不正确</string>
@@ -1529,6 +1541,7 @@
   <string name="SyncContactsDelete">删除已同步联系人</string>
   <string name="SuggestContacts">推荐频繁的联系人</string>
   <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
+  <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和消息框内机器人的使用偏好。</string>
   <!--edit video view-->
   <string name="SendingVideo">正在发送视频...</string>
   <string name="SendingGif">正在发送 GIF...</string>
@@ -1611,6 +1624,7 @@
   <string name="ActionBotDocumentPassport">护照</string>
   <string name="ActionBotDocumentInternalPassport">国内护照</string>
   <string name="ActionBotDocumentPassportRegistration">护照注册信息</string>
+  <string name="ActionBotDocumentTemporaryRegistration">临时居住证明</string>
   <string name="ActionBotDocumentDriverLicence">驾驶证</string>
   <string name="ActionBotDocumentIdentityCard">身份证</string>
   <string name="ActionBotDocumentUtilityBill">水电费账单</string>
@@ -1704,9 +1718,12 @@
   <string name="AddBannedErrorAdmin">抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也不被允许撤销其管理员权限。</string>
   <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的权限。</string>
   <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的权限。</string>
+  <string name="TosDecline">我们感到非常抱歉，但这意味着您不能注册 Telegram。\n\n与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们将无法提供此服务。</string>
   <string name="TosAgeTitle">年龄验证</string>
   <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
   <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
+  <string name="TosUpdateDecline">我们感到非常抱歉，但这意味着我们必须分道扬镳了。与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们就无法提供此项服务。您可以现在就删除您的账号；或是再看看，直到您觉得我们使用您的数据的方式不满意时再删除。</string>
+  <string name="TosDeclineDeleteAccount">警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 &gt; 导出 Telegram 数据。）</string>
   <!--permissions-->
   <string name="PermissionContacts">为了让您能在任意设备上和朋友联系，您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="PermissionStorage">Telegram 需要访问您的本地存储才能使您发送和保存照片，视频，音乐和其他媒体文件。</string>
@@ -2110,5 +2127,5 @@
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
-  <string name="telegram_passport">Telegram 护照</string>
+  <string name="telegram_passport">Telegram Passport</string>
 </resources>

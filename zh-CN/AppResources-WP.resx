@@ -3801,7 +3801,7 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>轻触以取消该网站与 Telegram 账号的关联</value>
   </data>
   <data name="TelegramPassport" xml:space="preserve">
-    <value>Telegram 护照</value>
+    <value>Telegram Passport</value>
   </data>
   <data name="Authorize" xml:space="preserve">
     <value>授权</value>
@@ -3982,7 +3982,7 @@ you agree to the *Terms of Service*.</value>
     <value>Delete scan</value>
   </data>
   <data name="PassportDocuments" xml:space="preserve">
-    <value>Scans</value>
+    <value>扫描件</value>
   </data>
   <data name="PassportPostcode" xml:space="preserve">
     <value>邮政编码</value>
@@ -4099,7 +4099,7 @@ you agree to the *Terms of Service*.</value>
     <value>护照注册信息</value>
   </data>
   <data name="PassportTemporaryRegistration" xml:space="preserve">
-    <value>Temporary Registration</value>
+    <value>临时居住证明</value>
   </data>
   <data name="PassportTenancyAgreement" xml:space="preserve">
     <value>租赁合同</value>
@@ -4108,16 +4108,16 @@ you agree to the *Terms of Service*.</value>
     <value>Are you sure you want to delete email?</value>
   </data>
   <data name="PassportDeleteAll" xml:space="preserve">
-    <value>Delete Telegram Passport</value>
+    <value>删除 Telegram Passport</value>
   </data>
   <data name="PassportDeleteAddressAlert" xml:space="preserve">
     <value>您确定要删除您的地址信息吗？</value>
   </data>
   <data name="PassportAddTemporaryRegistrationInfo" xml:space="preserve">
-    <value>Upload a scan of your temporary registration.</value>
+    <value>上传您的临时居住证明的扫描件</value>
   </data>
   <data name="PassportResidentialAddress" xml:space="preserve">
-    <value>Residential Address</value>
+    <value>住宅地址</value>
   </data>
   <data name="PassportDeleteAddressDetails" xml:space="preserve">
     <value>删除地址信息</value>
@@ -4142,7 +4142,7 @@ You can visit our FAQ to learn more.</value>
     <value>无法获得授权表单。</value>
   </data>
   <data name="TurnPasswordOffPassport" xml:space="preserve">
-    <value>警告！所有您储存在 Telegram 护照 中的数据将丢失！</value>
+    <value>警告！所有您储存在 Telegram Passport 中的数据将丢失！</value>
   </data>
   <data name="TurnPasswordOffQuestion" xml:space="preserve">
     <value>您确定要删除您的密码吗？</value>
@@ -4151,15 +4151,15 @@ You can visit our FAQ to learn more.</value>
     <value>您暂时未上传任何文档</value>
   </data>
   <data name="PassportNoDocumentsInfo" xml:space="preserve">
-    <value>You can add your phone number, email address, identity document or residential address.</value>
+    <value>您可以添加您的手机号码、邮箱地址、身份证件或住宅地址。</value>
   </data>
   <data name="TelegramPassportCreatePassword" xml:space="preserve">
     <value>设置一个密码</value>
   </data>
   <data name="TelegramPassportCreatePasswordInfo" xml:space="preserve">
-    <value>Please create a password to secure your personal data with end-to-end encryption.
+    <value>请设置一个密码用于通过端对端保护您的数据。
 
-This password will also be required whenever you log in to Telegram on a new device.</value>
+此密码也将用于登录 Telegram。</value>
   </data>
   <data name="PassportEmailUploadInfo" xml:space="preserve">
     <value>注意：您将会收到发送至您提供的邮件地址上的一份验证码。</value>
@@ -4261,6 +4261,6 @@ This password will also be required whenever you log in to Telegram on a new dev
     <value>很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请更新 Telegram。</value>
   </data>
   <data name="PassportInfoTitle" xml:space="preserve">
-    <value>什么是 Telegram 护照？</value>
+    <value>什么是 Telegram Passport？</value>
   </data>
 </root>

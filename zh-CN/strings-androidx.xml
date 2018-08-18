@@ -1106,6 +1106,7 @@
   <string name="PrivacyPaymentsClearAlert">是否删除您的配送信息，并使所有的付款提供商清除您保存的信用卡？请注意 Telegram 从来不会存储您的信用卡数据。</string>
 
   <string name="SuggestContacts">推荐频繁的联系人</string>
+  <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和消息框内机器人的使用偏好。</string>
   <string name="MarkAsRead">标记为已读</string>
   <string name="MarkAsUnread">标记为未读</string>
   <string name="CreateLink">创建连接</string>
@@ -1132,6 +1133,7 @@
 
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
   <string name="LeaveDoneGroup">离开</string>
+  <string name="Copyright">侵犯版权</string>
   <string name="PrivacyAdvanced">高级</string>
   <string name="DeleteAccountIfAwayFor2">删除我的帐户若离线时间达</string>
   <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
