@@ -2985,7 +2985,7 @@ Unused sets are archived when you add more.";
 "Passport.RequestedInformation" = "REQUESTED INFORMATION";
 "Passport.FieldIdentity" = "Identity Document";
 "Passport.FieldIdentityDetailsHelp" = "Fill in your personal details";
-"Passport.FieldIdentityUploadHelp" = "Upload a scan of your passport or other ID";
+"Passport.FieldIdentityUploadHelp" = "Upload proof of your identity";
 "Passport.FieldIdentitySelfieHelp" = "Take a selfie with your document";
 "Passport.FieldAddress" = "Residential Address";
 "Passport.FieldAddressHelp" = "Please provide your address";
@@ -3237,6 +3237,27 @@ Unused sets are archived when you add more.";
 "Notifications.Exceptions_many" = "%@ chats";
 "Notifications.Exceptions_0" = "%@ chats";
 
+"Notifications.ExceptionMuteExpires.Minutes_1" = "In 1 minute";
+"Notifications.ExceptionMuteExpires.Minutes_2" = "In %@ minutes";
+"Notifications.ExceptionMuteExpires.Minutes_3_10" = "In %@ minutes";
+"Notifications.ExceptionMuteExpires.Minutes_any" = "In %@ minutes";
+"Notifications.ExceptionMuteExpires.Minutes_many" = "In %@ minutes";
+"Notifications.ExceptionMuteExpires.Minutes_0" = "In %@ minutes";
+
+"Notifications.ExceptionMuteExpires.Hours_1" = "In 1 hour";
+"Notifications.ExceptionMuteExpires.Hours_2" = "In %@ hours";
+"Notifications.ExceptionMuteExpires.Hours_3_10" = "In %@ hours";
+"Notifications.ExceptionMuteExpires.Hours_any" = "In %@ hours";
+"Notifications.ExceptionMuteExpires.Hours_many" = "In %@ hours";
+"Notifications.ExceptionMuteExpires.Hours_0" = "In %@ hours";
+
+"Notifications.ExceptionMuteExpires.Days_1" = "In 1 day";
+"Notifications.ExceptionMuteExpires.Days_2" = "In %@ days";
+"Notifications.ExceptionMuteExpires.Days_3_10" = "In %@ days";
+"Notifications.ExceptionMuteExpires.Days_any" = "In %@ days";
+"Notifications.ExceptionMuteExpires.Days_many" = "In %@ days";
+"Notifications.ExceptionMuteExpires.Days_0" = "In %@ days";
+
 "Notifications.ExceptionsTitle" = "Exceptions";
 "Notifications.ExceptionsChangeSound" = "Change Sound (%@)";
 "Notifications.ExceptionsDefaultSound" = "Default";
@@ -3257,10 +3278,10 @@ Unused sets are archived when you add more.";
 "Passport.FieldAddressTranslationHelp" = "Upload a translation of your document";
 
 "Passport.FieldOneOf.Or" = "%1$@ or %2$@";
-"Passport.Identity.UploadOneOfScan" = "Upload a scan of %@";
-"Passport.Address.UploadOneOfScan" = "Upload a scan of %@";
+"Passport.Identity.UploadOneOfScan" = "Upload a scan of your %@";
+"Passport.Address.UploadOneOfScan" = "Upload a scan of your %@";
 
-"Passport.Address.TypeUtilityBillUploadScan" = "Upload a scan of your utiliity bill";
+"Passport.Address.TypeUtilityBillUploadScan" = "Upload a scan of your utility bill";
 "Passport.Address.TypeBankStatementUploadScan" = "Upload a scan of your bank statement";
 "Passport.Address.TypeRentalAgreementUploadScan" = "Upload a scan of your tenancy agreement";
 "Passport.Address.TypePassportRegistrationUploadScan" = "Upload a scan of your passport registration";
@@ -3288,6 +3309,29 @@ Unused sets are archived when you add more.";
 
 
 
+
+"NotificationsSound.None" = "None";
+"NotificationsSound.Note" = "Note";
+"NotificationsSound.Aurora" = "Aurora";
+"NotificationsSound.Bamboo" = "Bamboo";
+"NotificationsSound.Chord" = "Chord";
+"NotificationsSound.Circles" = "Circles";
+"NotificationsSound.Complete" = "Complete";
+"NotificationsSound.Hello" = "Hello";
+"NotificationsSound.Input" = "Input";
+"NotificationsSound.Keys" = "Keys";
+"NotificationsSound.Popcorn" = "Popcorn";
+"NotificationsSound.Pulse" = "Pulse";
+"NotificationsSound.Synth" = "Synth";
+
+"NotificationsSound.Tritone" = "Tri-tone";
+"NotificationsSound.Tremolo" = "Tremolo";
+"NotificationsSound.Alert" = "Alert";
+"NotificationsSound.Bell" = "Bell";
+"NotificationsSound.Calypso" = "Calypso";
+"NotificationsSound.Chime" = "Chime";
+"NotificationsSound.Glass" = "Glass";
+"NotificationsSound.Telegraph" = "Telegraph";
 
 
 /* new from translations.telegram.org */
