@@ -1155,6 +1155,8 @@
   <string name="PassportAddBillInfo">上传您的水电费账单的扫描件</string>
   <string name="PassportAddBankInfo">上传您的银行对账单的扫描件</string>
   <string name="PassportAddAgreementInfo">上传您的租赁合同的扫描件</string>
+  <string name="PassportAddPassportRegistrationInfo">上传您的护照信息页的扫描件</string>
+  <string name="PassportAddTemporaryRegistrationInfo">上传您的临时居住证明的扫描件</string>
   <string name="PassportAddAddressUploadInfo">为了确定您的地址，请上传被选中的文件的所有页面的扫描件或照片。</string>
   <string name="PassportAddBill">添加水电费账单</string>
   <string name="PassportAddBank">添加银行对账单</string>
@@ -1193,9 +1195,7 @@
   <string name="PassportAddPassport">添加护照</string>
   <string name="PassportAddInternalPassport">添加国内护照</string>
   <string name="PassportAddPassportRegistration">护照注册信息</string>
-  <string name="PassportAddPassportRegistrationInfo">上传您的护照信息页的扫描件</string>
   <string name="PassportAddTemporaryRegistration">临时居住证明</string>
-  <string name="PassportAddTemporaryRegistrationInfo">上传您的临时居住证明的扫描件</string>
   <string name="PassportAddCard">添加身份证</string>
   <string name="PassportAddLicence">添加驾驶证</string>
   <string name="PassportPersonalDetails">个人信息</string>
@@ -1204,10 +1204,10 @@
   <string name="PassportIdentityDocumentInfo">上传一份护照或其他身份证件的扫描件</string>
   <string name="PassportPersonal">个人信息</string>
   <string name="PassportName">姓名</string>
+  <string name="PassportSurname">姓氏</string>
   <string name="PassportSelectGender">选择性别</string>
   <string name="PassportMale">男</string>
   <string name="PassportFemale">女</string>
-  <string name="PassportSurname">姓</string>
   <string name="PassportBirthdate">出生日期</string>
   <string name="PassportGender">性别</string>
   <string name="PassportDocumentNumber">证件编号</string>
@@ -1217,6 +1217,7 @@
   <string name="PassportSelfie">自拍照</string>
   <string name="PassportRequiredDocuments">所需档案</string>
   <string name="PassportSelfieInfo">上传一张手持证件的自拍照</string>
+  <string name="PassportTranslation">翻译</string>
   <string name="PassportFrontSide">正面</string>
   <string name="PassportFrontSideInfo">上传证件正面</string>
   <string name="PassportReverseSide">反面</string>
@@ -1252,6 +1253,7 @@
   <string name="PassportNoDocuments">您暂时未上传任何文档</string>
   <string name="PassportNoDocumentsInfo">您可以添加您的手机号码、邮箱地址、身份证件或住宅地址。</string>
   <string name="PassportCorrectErrors">点按更正错误</string>
+  <string name="PassportNativeHeader">您的姓名</string>
   <!--sessions view-->
   <string name="SessionsTitle">活动对话</string>
   <string name="CurrentSession">当前对话</string>

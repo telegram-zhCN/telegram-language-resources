@@ -3269,8 +3269,10 @@ Unused sets are archived when you add more.";
 "Notifications.ExceptionsGroupPlaceholder" = "This section will list all groups and channels with non-default notification settings.";
 
 "Passport.Identity.LatinNameHelp" = "Enter your name using the Latin alphabet";
-"Passport.Identity.NativeNameTitle" = "NAME IN DOCUMENT LANGUAGE";
-"Passport.Identity.NativeNameHelp" = "Your name in the language of the country (%@) that issued the document.";
+"Passport.Identity.NativeNameTitle" = "YOUR NAME IN %@";
+"Passport.Identity.NativeNameGenericTitle" = "NAME IN DOCUMENT LANGUAGE";
+"Passport.Identity.NativeNameHelp" = "Your name in the language of the country that issued the document.";
+"Passport.Identity.NativeNameGenericHelp" = "Your name in the language of the country (%@) that issued the document.";
 
 "Passport.Identity.Translations" = "TRANSLATION";
 "Passport.Identity.TranslationsHelp" = "Upload scans of verified translation of the document.";
@@ -3308,8 +3310,6 @@ Unused sets are archived when you add more.";
 
 
 
-
-
 "NotificationsSound.None" = "None";
 "NotificationsSound.Note" = "Note";
 "NotificationsSound.Aurora" = "Aurora";
@@ -3332,6 +3332,57 @@ Unused sets are archived when you add more.";
 "NotificationsSound.Chime" = "Chime";
 "NotificationsSound.Glass" = "Glass";
 "NotificationsSound.Telegraph" = "Telegraph";
+
+"Settings.CopyPhoneNumber" = "Copy Phone Number";
+"Settings.CopyUsername" = "Copy Username";
+
+"Passport.Language.ar" = "Arabic";
+"Passport.Language.az" = "Azerbaijani";
+"Passport.Language.bg" = "Bulgarian";
+"Passport.Language.bn" = "Bangla";
+"Passport.Language.cs" = "Czech";
+"Passport.Language.da" = "Danish";
+"Passport.Language.de" = "German";
+"Passport.Language.dv" = "Divehi";
+"Passport.Language.dz" = "Dzongkha";
+"Passport.Language.el" = "Greek";
+"Passport.Language.en" = "English";
+"Passport.Language.es" = "Spanish";
+"Passport.Language.et" = "Estonian";
+"Passport.Language.fa" = "Persian";
+"Passport.Language.fr" = "French";
+"Passport.Language.he" = "Hebrew";
+"Passport.Language.hr" = "Croatian";
+"Passport.Language.hu" = "Hungarian";
+"Passport.Language.hy" = "Armenian";
+"Passport.Language.id" = "Indonesian";
+"Passport.Language.is" = "Icelandic";
+"Passport.Language.it" = "Italian";
+"Passport.Language.ja" = "Japanese";
+"Passport.Language.ka" = "Georgian";
+"Passport.Language.km" = "Khmer";
+"Passport.Language.ko" = "Korean";
+"Passport.Language.lo" = "Lao";
+"Passport.Language.lt" = "Lithuanian";
+"Passport.Language.lv" = "Latvian";
+"Passport.Language.mk" = "Macedonian";
+"Passport.Language.mn" = "Mongolian";
+"Passport.Language.ms" = "Malay";
+"Passport.Language.my" = "Burmese";
+"Passport.Language.ne" = "Nepali";
+"Passport.Language.nl" = "Dutch";
+"Passport.Language.pl" = "Polish";
+"Passport.Language.pt" = "Portuguese";
+"Passport.Language.ro" = "Romanian";
+"Passport.Language.ru" = "Russian";
+"Passport.Language.sk" = "Slovak";
+"Passport.Language.sl" = "Slovenian";
+"Passport.Language.th" = "Thai";
+"Passport.Language.tk" = "Turkmen";
+"Passport.Language.tr" = "Turkish";
+"Passport.Language.uk" = "Ukrainian";
+"Passport.Language.uz" = "Uzbek";
+"Passport.Language.vi" = "Vietnamese";
 
 
 /* new from translations.telegram.org */

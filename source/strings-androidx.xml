@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="AppName">Telegram X</string>
+  <string name="AppNameAndVersion">Telegram X %1$s</string>
 
   <!-- language -->
 
   <string name="language_code">en</string>
   <string name="language_name">English</string>
   <string name="language_nameInEnglish">English</string>
-  <string name="language_dateFormatLocale">0</string>
+  <string name="language_dateFormatLocale">en-UK</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
 
@@ -304,6 +305,16 @@
   <string name="UnsupportedMessage">Unsupported message</string>
   <string name="YouHaveNewMessage">You have a new message</string>
 
+  <string name="ChatContentWithCaption">%1$s: %2$s</string>
+  <string name="ChatContentVoice">Voice Message</string>
+  <string name="ChatContentRoundVideo">Video Message</string>
+  <string name="ChatContentVideo">Video</string>
+  <string name="ChatContentFile">File</string>
+  <string name="ChatContentPhoto">Photo</string>
+  <string name="ChatContentAnimation">GIF</string>
+  <string name="ChatContentSong">%1$s – %2$s</string>
+  <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
+
   <string name="Audio">Audio</string>
   <string name="Voice">Voice</string>
   <string name="Photo">Photo</string>
@@ -345,6 +356,8 @@
   <string name="BlockContact">Block</string>
   <string name="Unblock">Unblock</string>
   <string name="Share">Share</string>
+  <string name="SwipeShare">Share</string>
+  <string name="SwipeReply">Reply</string>
   <string name="edit">Edit</string>
   <string name="Delete">Delete</string>
   <string name="BotInvite">Add to group</string>
@@ -422,6 +435,8 @@
   <string name="Link">Link</string>
   <string name="Copy">Copy</string>
   <string name="CopyText">Copy text</string>
+  <string name="CopyCoordinates">Copy coordinates</string>
+  <string name="CopiedCoordinates">Coordinates have been copied to the clipboard</string>
   <string name="CopyLink">Copy link</string>
   <string name="Convert">Convert</string>
   <string name="Search">Search</string>
@@ -654,6 +669,7 @@
   <string name="SecretChatCancelled">Secret chat cancelled</string>
   <string name="SecretChats">Secret Chats</string>
   <string name="ChatTitleSecretChat">%1$s (secret chat)</string>
+  <string name="format_EncryptedDescription">• %1$s\n• %2$s\n• %3$s\n• %4$s</string>
   <string name="EncryptedDescription1">Use end-to-end encryption</string>
   <string name="EncryptedDescription2">Leave no trace on our servers</string>
   <string name="EncryptedDescription3">Have a self-destruct timer</string>
@@ -837,6 +853,7 @@
   <string name="NotificationMessageGif">%1$s sent you a GIF</string>
   <string name="NotificationMessageVoice">%1$s sent you a voice message</string>
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
+  <string name="NotificationMessageRoundVideo">%1$s sent you a video message</string>
 
   <string name="ChannelMessageNoText">%1$s posted a message</string>
   <string name="ChannelMessagePhoto">%1$s posted a photo</string>
@@ -844,6 +861,7 @@
   <string name="ChannelMessageAudio">%1$s posted a voice message</string>
   <string name="ChannelMessageGIF">%1$s posted a GIF</string>
   <string name="ChannelMessageDocument">%1$s posted a file</string>
+  <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
 
   <string name="XSentAMessage">%1$s sent a message</string>
   <string name="XSentAPhoto">%1$s sent a photo</string>
@@ -851,6 +869,7 @@
   <string name="XSentAGIF">%1$s sent a GIF</string>
   <string name="XSentAVoice">%1$s sent a voice message</string>
   <string name="XSentAFile">%1$s sent a file</string>
+  <string name="XSentARoundVideo">%1$s sent a video message</string>
 
   <string name="SmileysAndPeople">Smileys &amp; People</string>
   <string name="AnimalsAndNature">Animals &amp; Nature</string>
@@ -1122,21 +1141,6 @@
 
   <!-- NEW STRINGS END 2 -->
 
-  <!-- ==== Strings with different genders. Replace all ? symbols below with the required gender ==== -->
-  <!-- Usage of "Disabled_?"
-   name="passcode_auto" = ? (use this key to look how you have translated this string to determine the gender)
-   name="PasscodeSetting" = ?
-   name="Vibrate" = ?
-   -->
-  <!--<string name="Disabled_F">Disabled</string>
-  <string name="Disabled_M">Disabled</string>
-  <string name="Disabled_N">Disabled</string>-->
-  <!-- Usage of "System_?"
-    name="Language" = ?
-  -->
-  <!--<string name="System_M">System</string>
-  <string name="System_F">System</string>-->
-
   <!-- Formatted. Don't touch the scary %1$s stuff -->
   <string name="JoinGroupX">Join group %1$s?</string>
   <string name="FollowChannelX">Follow channel %1$s?</string>
@@ -1258,6 +1262,9 @@
   <string name="MtprotoProxy">MTPROTO Proxy</string>
   <string name="ProxySocks5">SOCKS5 %1$s</string>
   <string name="ProxyMtproto">MTPROTO %1$s</string>
+  <string name="AddSocks5Proxy">Add SOCKS5 Proxy</string>
+  <string name="AddMtprotoProxy">Add MTPROTO Proxy</string>
+  <string name="AddHttpProxy">Add HTTP Proxy</string>
   <string name="HttpProxy">HTTP Proxy</string>
   <string name="HttpProxyTransparent">Transparent TCP connection</string>
   <string name="HttpProxyTransparentHint">Enable if server supports transparent TCP connections via HTTP CONNECT method.\n\nWhen supported, it may improve connection speed dramatically. Try changing this option if this proxy doesn\'t work.</string>
@@ -1939,8 +1946,9 @@
   <string name="help_PhoneNumberMessageInvalid">But Telegram says it\'s invalid. Please help.</string>
   <string name="help_PhoneNumberMessageSMS">But I can\'t get an activation code for Telegram. Please help.\nCode types: %1$s</string>-->
 
-  <string name="via">via</string>
-  <string name="adminSign">admin</string>
+  <string name="message_via">" via "</string>
+  <string name="message_adminSign">"  admin"</string>
+  <string name="message_adminSignPlain">admin</string>
 
   <string name="WhoCanCallMe">Who can call me</string>
 
@@ -2127,6 +2135,18 @@
 
   <string name="ChatContentProtected">Content Locked</string>
   <string name="DragChatsHint">Drag chat to reorder</string>
+
+  <string name="OpenMap">Open Map</string>
+
+  <string name="MapPreviewProvider">Map Preview Provider</string>
+  <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
+  <string name="MapPreviewProviderInfo">When you receive a map or live location, in order to display a map preview, it has to be generated by the selected provider.\n\nThis requires sending an anonymous request with the received location coordinates.</string>
+  <string name="MapPreviewProviderHint">Choose provider to be used to display map previews in Secret Chats.\n\nThis requires sending an anonymous request with the received location coordinates to the selected provider.</string>
+
+  <string name="MapPreviewProviderNone">None</string>
+  <string name="MapPreviewProviderUnset">Unset</string>
+  <string name="MapPreviewProviderGoogle">Google Maps</string>
+  <string name="MapPreviewProviderTelegram">Telegram</string>
 
 
   <!-- new from translations.telegram.org -->
