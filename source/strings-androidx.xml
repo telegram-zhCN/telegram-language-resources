@@ -2,18 +2,12 @@
 <resources>
   <string name="AppName">Telegram X</string>
   <string name="AppNameAndVersion">Telegram X %1$s</string>
-
-  <!-- language -->
-
   <string name="language_code">en</string>
   <string name="language_name">English</string>
   <string name="language_nameInEnglish">English</string>
   <string name="language_dateFormatLocale">en-UK</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
-
-  <!-- timestamp -->
-
   <string name="timestamp_now">just now</string>
   <string name="timestamp_minutes_one">%1$s minute ago</string>
   <string name="timestamp_minutes_other">%1$s minutes ago</string>
@@ -24,7 +18,6 @@
   <string name="timestamp_yesterday">yesterday at %1$s</string>
   <string name="timestamp_weekday">%1$s at %2$s</string>
   <string name="timestamp_date">%1$s at %2$s</string>
-
   <string name="timestampShort_now">now</string>
   <string name="timestampShort_minutes_one">%1$sm ago</string>
   <string name="timestampShort_minutes_other">%1$sm ago</string>
@@ -34,88 +27,70 @@
   <string name="timestampShort_yesterday">yesterday %1$s</string>
   <string name="timestampShort_weekday">%1$s at %2$s</string>
   <string name="timestampShort_date">%1$s at %2$s</string>
-
-  <!-- format -->
-
+  <string name="Page1Title">Telegram X</string>
+  <string name="Page2Title">Fast</string>
+  <string name="Page3Title">Free</string>
+  <string name="Page4Title">Powerful</string>
+  <string name="Page5Title">Secure</string>
+  <string name="Page6Title">Cloud-Based</string>
+  <string name="Page1Message">The world\'s **fastest** messaging app.\nIt is **free** and **secure**.</string>
+  <string name="Page2Message">**Telegram** delivers messages\nfaster than any other application.</string>
+  <string name="Page3Message">**Telegram** is free forever. No ads.\nNo subscription fees.</string>
+  <string name="Page4Message">**Telegram** has no limits on\nthe size of your media and chats.</string>
+  <string name="Page5Message">**Telegram** keeps your messages\nsafe from hacker attacks.</string>
+  <string name="Page6Message">**Telegram** lets you access your\nmessages from multiple devices.</string>
+  <string name="StartMessaging">Start Messaging</string>
   <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
-
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">", "</string>
   <string name="format_concatSeparatorLast">" and "</string>
-
   <string name="format_numberSuffix_thousand">K</string>
   <string name="format_numberSuffix_million">M</string>
   <string name="format_numberSuffix_billion">B</string>
-
   <string name="format_newMessagesFromChats">%1$s %2$s</string>
   <string name="format_peopleNamesAndOthers">%1$s %2$s</string>
   <string name="format_chatTitlesAndOthers">%1$s %2$s</string>
   <string name="format_membersAndOnline">%1$s, %2$s</string>
   <string name="format_photosAndVideos">%1$s, %2$s</string>
-
   <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
   <string name="format_locationUpdated">updated %1$s</string>
-
   <string name="format_plus">+%1$d</string>
   <string name="format_minus">-%1$d</string>
   <string name="format_minusPlus">-%1$d, +%2$d</string>
-
   <string name="format_ping">ping: %1$sms</string>
   <string name="format_pingBest">ping: %1$sms, best</string>
-
   <string name="format_ivAuthorDateSeparator">" • "</string>
-
   <string name="format_dateViaBot">%1$s via %2$s</string>
-
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s, %2$s</string>
-
-  <!-- Login Screen -->
-
   <string name="login_PhoneNumber">Phone number</string>
   <string name="login_Code">Code</string>
   <string name="login_Password">Password</string>
   <string name="login_Country">Country</string>
   <string name="login_SmsHint">We will send an SMS with a confirmation code to your phone number.</string>
-
   <string name="login_YourName">Your name</string>
   <string name="login_FirstName">First name</string>
   <string name="LastName">Last name</string>
   <string name="login_LastName">Last name (optional)</string>
-
   <string name="login_InvalidPhone">Please enter a valid phone number</string>
-
-  <!-- network -->
-
   <string name="network_Connecting">Connecting…</string>
   <string name="network_WaitingForNetwork">Waiting for network…</string>
   <string name="network_Updating">Updating…</string>
-
-  <!-- location -->
-
   <string name="location_Nearby">Nearby</string>
   <string name="location_AwayMeters">%1$sm away</string>
   <string name="location_AwayKilometers">%1$s km away</string>
-
   <string name="location_personNearby">is nearby</string>
   <string name="location_personAwayMeters">is %1$sm away</string>
   <string name="location_personAwayKilometers">is %1$s km away</string>
-
-  <!-- attach -->
-
-  <!-- status -->
-
   <string name="status_Online">online</string>
-
   <string name="status_LastSeenRecently">seen recently</string>
   <string name="status_LastSeenWithinWeek">seen within a week</string>
   <string name="status_LastSeenWithinMonth">seen within a month</string>
   <string name="status_LastSeenUnknown">seen a long time ago</string>
-
   <string name="status_LastSeen_now">seen just now</string>
   <string name="status_LastSeen_today">seen at %1$s</string>
   <string name="status_LastSeen_yesterday">seen yesterday at %1$s</string>
@@ -125,186 +100,124 @@
   <string name="status_LastSeen_minutes_other">seen %1$s minutes ago</string>
   <string name="status_LastSeen_hours_one">seen %1$s hour ago</string>
   <string name="status_LastSeen_hours_other">seen %1$s hours ago</string>
-
-  <!-- plurals -->
-
   <string name="xOnline_one">%1$s online</string>
   <string name="xOnline_other">%1$s online</string>
-
   <string name="xGroups_one">%1$s group</string>
   <string name="xGroups_other">%1$s groups</string>
-
   <string name="xWebsites_one">%1$s website</string>
   <string name="xWebsites_other">%1$s websites</string>
-
   <string name="xMinutes_one">%1$s minute</string>
   <string name="xMinutes_other">%1$s minutes</string>
-
   <string name="xDays_one">%1$s day</string>
   <string name="xDays_other">%1$s days</string>
-
   <string name="DeleteAccountIfAwayForDays_one">%1$s day</string>
   <string name="DeleteAccountIfAwayForDays_other">%1$s days</string>
-
   <string name="DeleteAccountIfAwayForMonths_one">%1$s month</string>
   <string name="DeleteAccountIfAwayForMonths_other">%1$s months</string>
-
   <string name="DeleteAccountIfAwayForYears_one">%1$s year</string>
   <string name="DeleteAccountIfAwayForYears_other">%1$s years</string>
-
   <string name="xWeeks_one">%1$s week</string>
   <string name="xWeeks_other">%1$s weeks</string>
-
   <string name="xHours_one">%1$s hour</string>
   <string name="xHours_other">%1$s hours</string>
-
   <string name="xSeconds_one">%1$s second</string>
   <string name="xSeconds_other">%1$s seconds</string>
-
   <string name="inXHours_one">in %1$s hour</string>
   <string name="inXHours_other">in %1$s hours</string>
-
   <string name="xChats_one">%1$s chat</string>
   <string name="xChats_other">%1$s chats</string>
-
   <string name="xMessages_one">%1$s message</string>
   <string name="xMessages_other">%1$s messages</string>
-
   <string name="xNewMessages_one">%1$s new message</string>
   <string name="xNewMessages_other">%1$s new messages</string>
-
   <string name="FromXChats_one">from %1$s chat</string>
   <string name="FromXChats_other">from %1$s chats</string>
-
   <string name="xVideoMessages_one">%1$s video message</string>
   <string name="xVideoMessages_other">%1$s video messages</string>
-
   <string name="MuteForXDays_one">Mute for %1$s day</string>
   <string name="MuteForXDays_other">Mute for %1$s days</string>
-
   <string name="MuteForXHours_one">Mute for %1$s hour</string>
   <string name="MuteForXHours_other">Mute for %1$s hours</string>
-
   <string name="inXMinutes_one">in %1$s minute</string>
   <string name="inXMinutes_other">in %1$s minutes</string>
-
   <string name="xLines_one">%1$s line</string>
   <string name="xLines_other">%1$s lines</string>
-
   <string name="xAudios_one">%1$s audio</string>
   <string name="xAudios_other">%1$s audios</string>
-
   <string name="xPhotos_one">%1$s photo</string>
   <string name="xPhotos_other">%1$s photos</string>
-
   <string name="xVideos_one">%1$s video</string>
   <string name="xVideos_other">%1$s videos</string>
-
   <string name="xViews_one">%1$s view</string>
   <string name="xViews_other">%1$s views</string>
-
   <string name="xOtherPeopleNames_one">and %1$s other</string>
   <string name="xOtherPeopleNames_other">and %1$s others</string>
-
   <string name="xOtherChatTitles_one">and %1$s other</string>
   <string name="xOtherChatTitles_other">and %1$s others</string>
-
   <string name="xContacts_one">%1$s contact</string>
   <string name="xContacts_other">%1$s contacts</string>
-
   <string name="xContactsJoined_one">%1$s contact on Telegram</string>
   <string name="xContactsJoined_other">%1$s contacts on Telegram</string>
-
   <string name="ForwardLastXMessages_one">Forward last %1$s message</string>
   <string name="ForwardLastXMessages_other">Forward last %1$s messages</string>
-
   <string name="xBytes_one">%1$s byte</string>
   <string name="xBytes_other">%1$s bytes</string>
-
   <string name="xFiles_one">%1$s file</string>
   <string name="xFiles_other">%1$s files</string>
-
   <string name="xMembers_one">%1$s member</string>
   <string name="xMembers_other">%1$s members</string>
-
   <string name="xSubscribers_one">%1$s subscriber</string>
   <string name="xSubscribers_other">%1$s subscribers</string>
-
   <string name="xMin_one">%1$s min</string>
   <string name="xMin_other">%1$s min</string>
   <string name="xSec_one">%1$s sec</string>
   <string name="xSec_other">%1$s sec</string>
-
   <string name="xUsers_one">%1$s user</string>
   <string name="xUsers_other">%1$s users</string>
-
   <string name="xSessions_one">%1$s session</string>
   <string name="xSessions_other">%1$s sessions</string>
-
   <string name="xMonths_one">%1$s month</string>
   <string name="xMonths_other">%1$s months</string>
-
   <string name="xYears_one">%1$s year</string>
   <string name="xYears_other">%1$s years</string>
-
   <string name="xStickers_one">%1$s sticker</string>
   <string name="xStickers_other">%1$s stickers</string>
-
   <string name="xMasks_one">%1$s mask</string>
   <string name="xMasks_other">%1$s masks</string>
-
   <string name="AddXStickers_one">Add %1$s sticker</string>
   <string name="AddXStickers_other">Add %1$s stickers</string>
-
   <string name="RemoveXStickers_one">Remove %1$s sticker</string>
   <string name="RemoveXStickers_other">Remove %1$s stickers</string>
-
   <string name="AddXMasks_one">Add %1$s mask</string>
   <string name="AddXMasks_other">Add %1$s masks</string>
-
   <string name="RemoveXMasks_one">Remove %1$s mask</string>
   <string name="RemoveXMasks_other">Remove %1$s masks</string>
-
   <string name="xAdmins_one">%1$s admin</string>
   <string name="xAdmins_other">%1$s admins</string>
-
   <string name="xLinks_one">%1$s link</string>
   <string name="xLinks_other">%1$s links</string>
-
   <string name="xBanned_one">%1$s banned</string>
   <string name="xBanned_other">%1$s banned</string>
-
   <string name="xGIFs_one">%1$s GIF</string>
   <string name="xGIFs_other">%1$s GIFs</string>
-
   <string name="xVoiceMessages_one">%1$s voice message</string>
   <string name="xVoiceMessages_other">%1$s voice messages</string>
-
   <string name="xProfilePhotos_one">%1$s profile photo</string>
   <string name="xProfilePhotos_other">%1$s profile photos</string>
-
   <string name="xMusicFiles_one">%1$s music file</string>
   <string name="xMusicFiles_other">%1$s music files</string>
-
   <string name="xThumbnails_one">%1$s thumbnail</string>
   <string name="xThumbnails_other">%1$s thumbnails</string>
-
   <string name="xWallpapers_one">%1$s wallpaper</string>
   <string name="xWallpapers_other">%1$s wallpapers</string>
-
   <string name="xCalls_one">%1$s call</string>
   <string name="xCalls_other">%1$s calls</string>
-
-  <!-- old -->
-
   <string name="general_Messages">Messages</string>
   <string name="SelectChat">Select Chat</string>
-
   <string name="Message">Message</string>
   <string name="DeletedMessage">Deleted message</string>
   <string name="UnsupportedMessage">Unsupported message</string>
   <string name="YouHaveNewMessage">You have a new message</string>
-
   <string name="ChatContentWithCaption">%1$s: %2$s</string>
   <string name="ChatContentVoice">Voice Message</string>
   <string name="ChatContentRoundVideo">Video Message</string>
@@ -314,7 +227,6 @@
   <string name="ChatContentAnimation">GIF</string>
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
-
   <string name="Audio">Audio</string>
   <string name="Voice">Voice</string>
   <string name="Photo">Photo</string>
@@ -326,19 +238,15 @@
   <string name="FromYou">You</string>
   <string name="Username">Username</string>
   <string name="Phone">Phone</string>
-
   <string name="prompt_network">No network connection. Please try again later</string>
-
   <string name="PasscodeTitle">Passcode Lock</string>
   <string name="PasscodeItem">Passcode Lock</string>
   <string name="PasscodeSettingDisabled">Disabled</string>
   <string name="passcode_confirm_invisible">%1$s (invisible)</string>
-
   <string name="copied_phone">Phone number has been copied to the clipboard</string>
   <string name="CopiedUsername">Username has been copied to the clipboard</string>
   <string name="CopiedLink">Link has been copied to the clipboard</string>
   <string name="CopiedText">Text has been copied to the clipboard</string>
-
   <string name="passcode_pattern_tooshort">Pattern should be at least 4 dots long</string>
   <string name="PasscodeDoNotMatch">Passcodes do not match</string>
   <string name="passcode_invalid">Passcode is invalid</string>
@@ -350,9 +258,7 @@
   <string name="ChangePasscode">Change Passcode</string>
   <string name="passcode_passcodeInvisibility">Passcode Invisibility</string>
   <string name="passcode_fingerprint">Unlock with Fingerprint</string>
-
   <string name="LoadingInformation">Loading information…</string>
-
   <string name="BlockContact">Block</string>
   <string name="Unblock">Unblock</string>
   <string name="Share">Share</string>
@@ -362,7 +268,6 @@
   <string name="Delete">Delete</string>
   <string name="BotInvite">Add to group</string>
   <string name="AddContact">Add contact</string>
-
   <string name="takePhoto">Take photo</string>
   <string name="pickFromGallery">Choose from gallery</string>
   <string name="DeletePhoto">Delete photo</string>
@@ -370,40 +275,28 @@
   <string name="Cancel">Cancel</string>
   <string name="AddMember">Add member</string>
   <string name="DeleteAndLeave">Delete and exit</string>
-
   <string name="justAdd">Just add to group</string>
   <string name="KickFromGroup">Remove from group</string>
   <string name="DeleteChat">Delete chat</string>
   <string name="slideToCancel">Slide to Cancel</string>
-
   <string name="fingerprint_hint3">Please enroll at least one fingerprint in System Settings &gt; Security &gt; Fingerprints.</string>
   <string name="fingerprint_fail">Unknown finger</string>
-
   <string name="cam_hint">Please allow Telegram X to use camera in System Settings &gt; Apps &gt; Telegram X &gt; Permissions</string>
-
   <string name="Settings">Settings</string>
   <string name="LogOut">Log out</string>
-
   <string name="Mute">Mute</string>
   <string name="Unmute">Unmute</string>
   <string name="returnToGroup">Return to Group</string>
   <string name="returnToChannel">Return to Channel</string>
-
   <string name="LoadingUser">Loading user…</string>
   <string name="LoadingUsername">Loading username…</string>
   <string name="LoadingPhone">Loading phone…</string>
-
   <string name="HiddenName">Deleted Account</string>
   <string name="HiddenNameShort">Deleted</string>
-
-  <!-- new -->
-
   <string name="LoadingChannel">Loading channel…</string>
-
   <string name="Description">Description</string>
   <string name="DescriptionInfo">You can provide an optional description for your channel.</string>
   <string name="ChannelName">Channel Name</string>
-
   <string name="ServiceNotifications">service notifications</string>
   <string name="Bot">bot</string>
   <string name="deletedUser">deleted user</string>
@@ -411,23 +304,16 @@
   <string name="BotStatusRead">has access to messages</string>
   <string name="BotStatusCantRead">has no access to messages</string>
   <string name="notInChat">you are not in chat</string>
-
   <string name="NoReturnToChat">You cannot return to this chat</string>
-
   <string name="ProgressCreateChannel">Creating channel…</string>
-
   <string name="BotStart">START</string>
-
   <string name="ChannelPublic">Public Channel</string>
   <string name="ChannelPublicInfo">Public channels can be found in search, anyone can join them.</string>
   <string name="ChannelUsernameHelp">People can share this link with others and find your channel using Telegram search.</string>
-
   <string name="ChannelPrivate">Private Channel</string>
   <string name="ChannelPrivateInfo">Private channels can only be joined via an invite link.</string>
   <string name="ChannelPrivateLinkHelp">People can join your channel by following this link. You can revoke the link any time.</string>
-
   <string name="SendMessageTo">Send message to…</string>
-
   <string name="GroupName">Group name</string>
   <string name="GroupDontAdd">Do not add to the group</string>
   <string name="GroupEnterValidName">Please enter a valid group name</string>
@@ -440,23 +326,18 @@
   <string name="CopyLink">Copy link</string>
   <string name="Convert">Convert</string>
   <string name="Search">Search</string>
-
   <string name="NoChats">You have no chats</string>
   <string name="NoContacts">No contacts to display</string>
-
   <string name="ChannelCreator">Creator</string>
   <string name="Administrator">Administrator</string>
   <string name="SetAdminsAll">All Members are Admins</string>
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="AdminsAreSelectedHint">Only chosen admins can add new members, edit name and photo of the group.</string>
-
   <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
   <string name="ChannelAddAdmin">Add administrator</string>
   <string name="InviteLink">Invite Link</string>
   <string name="DismissAdmin">Dismiss admin</string>
-
   <string name="ChannelBroadcast">Broadcast</string>
-
   <string name="LeaveChannel">Leave channel</string>
   <string name="DestroyChannel">Destroy channel</string>
   <string name="DestroyChannelHint">Wait! Deleting this channel will remove all members and all messages will be lost.\nDelete the channel anyway?</string>
@@ -465,27 +346,18 @@
   <string name="DestroyGroupHint">Wait! Deleting this group will remove all members and all messages will be lost.\nDelete the group anyway?</string>
   <string name="LeaveChatAdminHint">Warning: you will lose all your admin rights after leaving</string>
   <string name="inactiveGroup">inactive group</string>
-
   <string name="RevokeLink">Revoke Link</string>
   <string name="GeneratingLink">Generating Link…</string>
-
   <string name="DiscardChanges">Discard changes</string>
   <string name="ParticipantLimitReached">You cannot add more participants to this group</string>
-
   <string name="Reply">Reply</string>
   <string name="Select">Select</string>
   <string name="Open">Open</string>
   <string name="OpenInExternalApp">Open in…</string>
-
   <string name="failed">failed</string>
-
   <string name="NothingFound">Nothing found</string>
-
   <string name="Gallery">Gallery</string>
   <string name="ChatCamera">Camera</string>
-
-
-  <!-- System messages -->
   <string name="group_create_you">You created the group «%1$s»</string>
   <string name="group_photo_changed">%1$s changed the group photo</string>
   <string name="group_photo_changed_you">You changed the group photo</string>
@@ -500,37 +372,24 @@
   <string name="group_title_changed">%1$s changed the group name to «%2$s»</string>
   <string name="group_title_changed_you">You changed the group name to «%1$s»</string>
   <string name="ChannelRenamed">Channel name changed to «%1$s»</string>
-
-  <!-- Chats list -->
   <string name="Somebody">Somebody</string>
-
   <string name="GroupUpgraded">Group upgraded to supergroup</string>
-
   <string name="ActionCreateChannel">Channel created</string>
   <string name="YouCreatedChannel">You created the channel</string>
   <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
   <string name="ActionChannelChangedTitle">Channel title changed</string>
   <string name="ActionChannelChangedPhoto">Channel photo changed</string>
-
   <string name="DeleteMessage">Delete message</string>
   <string name="DeleteMessages">Delete messages</string>
-
   <string name="NoMessages">No messages here yet…</string>
   <string name="LoadingMessages">Loading messages…</string>
   <string name="LoadingMessage">Loading message…</string>
-
   <string name="SaveGif">Save GIF</string>
   <string name="GifSaved">GIF is now available in the media keyboard</string>
   <string name="RemoveGifConfirm">Delete saved GIF?</string>
-
-  <!-- Messages -->
-
   <string name="NoMediaYet">No photos or videos yet</string>
   <string name="AttachAudio">Voice Message</string>
-
-
   <string name="GettingLinkInfo">Getting Link Info…</string>
-
   <string name="ChatsAndContacts">Chats and Contacts</string>
   <string name="GlobalSearch">Global Search</string>
   <string name="Recent">Recent</string>
@@ -542,79 +401,56 @@
   <string name="PhotoHasBeenSavedToGallery">Photo has been saved to gallery</string>
   <string name="VideoHasBeenSavedToGallery">Video has been saved to gallery</string>
   <string name="ChannelSignMessages">Sign Messages</string>
-
   <string name="PostNotFound">Post not found</string>
-
   <string name="OpenSupergroup">Open Supergroup</string>
   <string name="Call">Call</string>
   <string name="EditUsername">Edit Username</string>
-
-
-  <!-- Please check if the name for "Pattern" is the same as in System Settings -> Security -->
   <string name="PasscodePIN">PIN</string>
   <string name="PasscodePattern">Pattern</string>
   <string name="PasscodeGesture">Gesture</string>
   <string name="PasscodeFingerprint">Fingerprint</string>
-
   <string name="NewChannel">New Channel</string>
   <string name="NewGroup">New Group</string>
   <string name="NewChat">New Chat</string>
-
   <string name="ChooseYourPIN">Choose your PIN</string>
   <string name="ChooseYourPassword">Choose your password</string>
   <string name="ChooseYourPattern">Choose your pattern</string>
   <string name="ChooseYourGesture">Draw your gesture</string>
   <string name="TouchYourSensor">Touch your sensor</string>
-
   <string name="ConfirmYourPIN">Confirm your PIN</string>
   <string name="ConfirmYourPassword">Confirm your password</string>
   <string name="ConfirmYourPattern">Confirm your pattern</string>
   <string name="ConfirmYourGesture">Confirm your gesture</string>
   <string name="ConfirmYourFingerprint">Confirm your fingerprint</string>
-
   <string name="UnlockByPIN">Enter your PIN to unlock</string>
   <string name="UnlockByPassword">Enter your password to unlock</string>
   <string name="UnlockByPattern">Enter your pattern to unlock</string>
   <string name="UnlockByGesture">Draw your gesture to unlock</string>
   <string name="UnlockByFingerprint">Touch sensor to unlock</string>
-
   <string name="SecretLinkPreviewEnable">Enable</string>
   <string name="AirplaneModeDisable">Disable</string>
-
   <string name="EditName">Edit name</string>
-
   <string name="Stickers">Stickers</string>
-
   <string name="NoAppToOpen">Application to open this file not found</string>
   <string name="CopyLine">Copy line</string>
   <string name="TextNotLoadedHint">Please wait until the text will be fully loaded</string>
   <string name="Text">Text</string>
-
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
   <string name="fileSize_KB">%1$s KB</string>
   <string name="DownloadingOf">%1$s of %2$s</string>
   <string name="Downloading">Downloading %1$s of %2$s</string>
-
   <string name="Confirm">Confirm</string>
-
   <string name="TooManyPublicChannels">Sorry, you have created too many public channels. You can either create a private channel or delete one of your existing channels first.</string>
   <string name="TooManyPublicLinks">Sorry, you have created too many public links. Try deleting or making some of your groups or channels private.</string>
   <string name="UserIsAlreadyInChat">User is already in chat</string>
-
   <string name="ProfilePhoto">Profile photo</string>
   <string name="ChatPhoto">Chat photo</string>
   <string name="ShowInChat">Show in Chat</string>
   <string name="GroupIsFull">The group you tried to join is full</string>
   <string name="PasswordIsInvalid">The password you have entered is invalid</string>
-
   <string name="InviteLinkInvalid">Invite link is invalid or not active anymore</string>
-
-  <!-- New strings -->
   <string name="Language">Language</string>
-
-  <!-- Telegram 2 -->
-
   <string name="InlineBot">Inline Bot</string>
   <string name="SelectedSuffix_one">" selected"</string>
   <string name="SelectedSuffix_other">" selected"</string>
@@ -627,7 +463,6 @@
   <string name="AllMedia">All media</string>
   <string name="UserUnavailable">user is unavailable</string>
   <string name="YouCantForwardMore">You can\'t forward more than %1$s messages at once, sorry</string>
-
   <string name="game_ActionUserScored_one">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_other">%2$s scored %1$s</string>
   <string name="game_ActionUserScoredInGame_one">%2$s scored %1$s in %3$s</string>
@@ -636,7 +471,6 @@
   <string name="game_ActionYouScored_other">You scored %1$s</string>
   <string name="game_ActionYouScoredInGame_one">You scored %1$s in %2$s</string>
   <string name="game_ActionYouScoredInGame_other">You scored %1$s in %2$s</string>
-
   <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
   <string name="Draft">Draft</string>
   <string name="ShareYourPhoneNumberTitle">Share your phone number?</string>
@@ -690,7 +524,6 @@
   <string name="AskAQuestion">Ask a Question</string>
   <string name="TelegramFAQ">Telegram FAQ</string>
   <string name="HideForYourself">Dismiss for yourself</string>
-
   <string name="DataSaver">Data Saver</string>
   <string name="DataSaverDesc">Media will never autodownload with Data Saver enabled. Pending downloads are paused once it turns on.</string>
   <string name="TurnOnAutomatically">Turn on automatically</string>
@@ -699,7 +532,6 @@
   <string name="InChannels">In Channels</string>
   <string name="AutomaticMediaDownload">Automatic media download</string>
   <string name="Advanced">Advanced</string>
-
   <string name="Never">Never</string>
   <string name="WhenUsingRoaming">When switching to roaming</string>
   <string name="WhenUsingMobileData">When switching to mobile data</string>
@@ -728,7 +560,6 @@
   <string name="BioNone">None</string>
   <string name="BlockedNone">None</string>
   <string name="NoRestrictions">No restrictions</string>
-  <!-- used like this: "15 MB, no Music and Files" -->
   <string name="Save">Save</string>
   <string name="PrivacyTitle">Privacy</string>
   <string name="BlockedUsers">Blocked Users</string>
@@ -737,7 +568,6 @@
   <string name="SecurityTitle">Security</string>
   <string name="SessionsTitle">Active Sessions</string>
   <string name="TwoStepVerification">Two-Step Verification</string>
-
   <string name="PasswordEnabled">Enabled</string>
   <string name="PasswordDisabled">Disabled</string>
   <string name="CurrentSession">Current Session</string>
@@ -745,18 +575,14 @@
   <string name="NoOtherSessionsInfo">You can log in to Telegram from other mobile, tablet and desktop devices, using the same phone number. All your data will be instantly synchronized.</string>
   <string name="TerminateAllSessions">Terminate All Other Sessions</string>
   <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
-
   <string name="TerminateSessionQuestion">Terminate this session?</string>
   <string name="TerminateSession">Terminate session</string>
   <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
-
   <string name="Everybody">Everybody</string>
   <string name="MyContacts">My Contacts</string>
   <string name="Nobody">Nobody</string>
-
   <string name="WhoCanAddYouToGroupsAndChannels">Who can add you to groups and channels?</string>
   <string name="WhoCanAddMeInfo">You can restrict who can add you to groups and channels with granular precision.</string>
-
   <string name="LastSeenTitle">Who can see your Last Seen time?</string>
   <string name="CustomHelp">Important: you won\'t be able to see Last Seen times for people with whom you don\'t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</string>
   <string name="AlwaysShareWith">Always Share With</string>
@@ -766,7 +592,6 @@
   <string name="AddExceptions">Add exceptions</string>
   <string name="AlwaysAllow">Always Allow</string>
   <string name="NeverAllow">Never Allow</string>
-
   <string name="SetAdditionalPassword">Set additional password</string>
   <string name="SetAdditionalPasswordInfo">You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS.</string>
   <string name="EnabledPasswordText">You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.</string>
@@ -785,7 +610,6 @@
   <string name="SinceNotProvided">Since you haven\'t provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
   <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
   <string name="CreateAHintForYourPassword">Create a hint for your password</string>
-
   <string name="RecoveryCodeSent">We\'ve sent 6-digit recovery code to %1$s. Check your e-mail and enter it here.</string>
   <string name="HavingTroubleAccessing">Having trouble accessing your e-mail\n%1$s?</string>
   <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
@@ -810,7 +634,6 @@
   <string name="format_PasscodeTooManyAttempts">Too many attempts. %1$s</string>
   <string name="EmailMatchesOldOne">E-Mail is the same as the old one.</string>
   <string name="Hint">Hint: %1$s</string>
-
   <string name="PrivateChats">Private Chats</string>
   <string name="MessagePreview">Message Preview</string>
   <string name="Vibrate">Vibrate</string>
@@ -827,18 +650,14 @@
   <string name="ResetNotifications">Reset All Notifications</string>
   <string name="Default">Default</string>
   <string name="OnlyIfSilent">Only if silent</string>
-
   <string name="NoStickerSets">No sticker sets installed</string>
   <string name="NoMasks">No masks installed</string>
   <string name="ArchivedStickersInfo">You can have up to %1$s sticker sets installed. Unused stickers are archived when you install new sets.</string>
   <string name="MasksHint">You can add masks to photos and videos you send. To do this, open the photo editor before sending a photo.</string>
-
   <string name="Trending">Trending</string>
   <string name="Archived">Archived</string>
   <string name="Masks">Masks</string>
-
   <string name="StickersHide">Archive</string>
-
   <string name="UndoAllCustom">Undo all custom notification settings for all your contacts and groups</string>
   <string name="AreYouSureNotifyReset">Are you sure you want to reset all custom notification settings for all your contacts and groups?</string>
   <string name="XOnlyIfSilent">%1$s (only if silent)</string>
@@ -846,7 +665,6 @@
   <string name="Long">Long</string>
   <string name="DoubleShort">Double Short</string>
   <string name="IsDefault">%1$s (default)</string>
-
   <string name="NotificationMessageNoText">%1$s sent you a message</string>
   <string name="NotificationMessagePhoto">%1$s sent you a photo</string>
   <string name="NotificationMessageVideo">%1$s sent you a video</string>
@@ -854,7 +672,6 @@
   <string name="NotificationMessageVoice">%1$s sent you a voice message</string>
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
   <string name="NotificationMessageRoundVideo">%1$s sent you a video message</string>
-
   <string name="ChannelMessageNoText">%1$s posted a message</string>
   <string name="ChannelMessagePhoto">%1$s posted a photo</string>
   <string name="ChannelMessageVideo">%1$s posted a video</string>
@@ -862,7 +679,6 @@
   <string name="ChannelMessageGIF">%1$s posted a GIF</string>
   <string name="ChannelMessageDocument">%1$s posted a file</string>
   <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
-
   <string name="XSentAMessage">%1$s sent a message</string>
   <string name="XSentAPhoto">%1$s sent a photo</string>
   <string name="XSentAVideo">%1$s sent a video</string>
@@ -870,14 +686,12 @@
   <string name="XSentAVoice">%1$s sent a voice message</string>
   <string name="XSentAFile">%1$s sent a file</string>
   <string name="XSentARoundVideo">%1$s sent a video message</string>
-
   <string name="SmileysAndPeople">Smileys &amp; People</string>
   <string name="AnimalsAndNature">Animals &amp; Nature</string>
   <string name="FoodDrink">Food &amp; Drink</string>
   <string name="TravelAndPlaces">Travel &amp; Places</string>
   <string name="SymbolsAndObjects">Symbols &amp; Objects</string>
   <string name="Flags">Flags</string>
-
   <string name="ComeAgainLater">Come again later</string>
   <string name="New">New</string>
   <string name="Add">Add</string>
@@ -885,15 +699,12 @@
   <string name="BlockListEmpty">You haven\'t blocked anyone yet</string>
   <string name="QBlockX">Block %1$s?</string>
   <string name="QUnblockX">Unblock %1$s?</string>
-
   <string name="YouTookAScreenshot">You took a screenshot</string>
   <string name="XTookAScreenshot">%1$s took a screenshot</string>
-
   <string name="YouDisabledTimer">You disabled self-destruct timer</string>
   <string name="XDisabledTimer">%1$s disabled self-destruct timer</string>
   <string name="YouSetTimer">You set the self-destruct timer to %1$s</string>
   <string name="XSetTimer">%1$s set the self-destruct timer to %2$s</string>
-
   <string name="AddCaption">Add a caption…</string>
   <string name="Enhance">Enhance</string>
   <string name="Exposure">Exposure</string>
@@ -909,7 +720,6 @@
   <string name="Blur">Blur</string>
   <string name="BlurRadial">Radial</string>
   <string name="BlurLinear">Linear</string>
-
   <string name="QDeleteXFromY">Delete %1$s from %2$s?</string>
   <string name="DeleteAllFrom">Delete all from %1$s</string>
   <string name="DeleteForUser">Delete for %1$s</string>
@@ -925,10 +735,8 @@
   <string name="PinMessageInThisGroup">Pin this message in this group?</string>
   <string name="PinMessageInThisChannel">Pin this message in this channel?</string>
   <string name="PinNotify">Notify all members</string>
-
   <string name="ActionPinnedText">%1$s pinned \"%2$s\"</string>
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
-
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
   <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
   <string name="ActionPinnedGeoLive">%1$s pinned a **live location**</string>
@@ -940,29 +748,9 @@
   <string name="ActionPinnedVideo">%1$s pinned a **video**</string>
   <string name="ActionPinnedRound">%1$s pinned a **video message**</string>
   <string name="ActionPinnedVoice">%1$s pinned a **voice message**</string>
-
   <string name="UnknownTrack">Unknown Track</string>
   <string name="AudioUnknownArtist">Unknown Artist</string>
   <string name="MaxSize">Max size</string>
-
-  <!-- Intro view -->
-  <string name="Page1Title">Telegram X</string>
-  <string name="Page2Title">Fast</string>
-  <string name="Page3Title">Free</string>
-  <string name="Page4Title">Powerful</string>
-  <string name="Page5Title">Secure</string>
-  <string name="Page6Title">Cloud-Based</string>
-  <string name="Page1Message">The world\'s **fastest** messaging app.\nIt is **free** and **secure**.</string>
-  <string name="Page2Message">**Telegram** delivers messages\nfaster than any other application.</string>
-  <string name="Page3Message">**Telegram** is free forever. No ads.\nNo subscription fees.</string>
-  <string name="Page4Message">**Telegram** has no limits on\nthe size of your media and chats.</string>
-  <string name="Page5Message">**Telegram** keeps your messages\nsafe from hacker attacks.</string>
-  <string name="Page6Message">**Telegram** lets you access your\nmessages from multiple devices.</string>
-  <string name="StartMessaging">Start Messaging</string>
-
-
-  <!-- Username settings -->
-
   <string name="UsernameInUse">Sorry, this username is already taken.</string>
   <string name="UsernameInvalid">Sorry, this username is invalid.</string>
   <string name="UsernameInvalidShort">A username must have at least 5 characters.</string>
@@ -977,17 +765,14 @@
   <string name="FeatureUnavailable">Sorry, this feature is currently not available in your country.</string>
   <string name="PhoneNumberChange">Change Number</string>
   <string name="PhoneNumberChangeDone">Continue</string>
-
   <string name="PhoneNumberHelp">You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important:** all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
   <string name="PhoneNumberAlert">All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven\'t blocked them in Telegram.</string>
   <string name="PhoneNumberInUse">Sorry, this number is already in use.</string>
-
   <string name="ChangePhoneHelp">We will send an SMS with a confirmation code to your new number.</string>
   <string name="NewPhone">New phone number</string>
   <string name="NewNumber">New Number</string>
   <string name="CountryNotFound">Country code not found</string>
   <string name="ConfirmationCode">Confirmation Code</string>
-
   <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
   <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
   <string name="SentCallOnly">We\'ve sent an activation call to your phone **%1$s**.\n\nDon\'t take it, Telegram will process everything automatically.</string>
@@ -996,8 +781,6 @@
   <string name="SuccessfullyChangedNumber">Successfully changed number to %1$s.</string>
   <string name="YourPhone">Your Phone</string>
   <string name="SetUpUsername">Setup Username</string>
-
-
   <string name="PhoneMobile">Mobile</string>
   <string name="GroupsInCommon">Groups in Common</string>
   <string name="EncryptionKey">Encryption Key</string>
@@ -1010,15 +793,12 @@
   <string name="PastWeek">Past week</string>
   <string name="Today">Today</string>
   <string name="Yesterday">Yesterday</string>
-
-
   <string name="PublicGroup">Public group</string>
   <string name="Group">Group</string>
-
   <string name="UserPrivacyRestricted">Sorry, user restricted this action in their privacy settings.</string>
   <string name="RenameContact">Rename contact</string>
-
   <string name="Themes">Themes</string>
+  <string name="ThemeSettings">Themes and Chats</string>
   <string name="Tweaks">Interface Options</string>
   <string name="TweakSettings">Interface</string>
   <string name="ThemeClassic">Classic</string>
@@ -1032,7 +812,6 @@
   <string name="ColorTheme">Color Theme</string>
   <string name="ChatStyleBubbles">Bubbles in Chats</string>
   <string name="ChatStyleBubblesChannel">Bubbles in Channels</string>
-
   <string name="NoMediaToShow">No media to show</string>
   <string name="NoDocumentsToShow">No documents to show</string>
   <string name="NoMusicToShow">No music to show</string>
@@ -1040,14 +819,12 @@
   <string name="NoVoiceToShow">No voice messages to show</string>
   <string name="NoVideoToShow">No video messages to show</string>
   <string name="NoGifsToShow">No GIFs to show</string>
-
   <string name="NoMediaToShowInChat">Share photos and videos in this chat and\naccess them on any of your devices.</string>
   <string name="NoMusicToShowInChat">Share music and audio files in this chat and\naccess them on any device you have.</string>
   <string name="NoLinksToShowInChat">Share links in this chat and\naccess them on any device you have.</string>
   <string name="NoVoiceToShowInChat">Share voice messages in this chat and\naccess them on any device you have.</string>
   <string name="NoVideoToShowInChat">Share video messages in this chat and\naccess them on any device you have.</string>
   <string name="NoGifsToShowInChat">Share GIFs in this chat and\naccess them on any device you have.</string>
-
   <string name="NoMediaToShowInChannel">Published photos and videos\nwill be shown here.</string>
   <string name="NoDocumentsToShowInChannel">Published documents and files\nwill be shown here.</string>
   <string name="NoMusicToShowInChannel">Published music and audio files\nwill be shown here.</string>
@@ -1057,10 +834,8 @@
   <string name="NoGifsToShowInChannel">Published GIFs will be shown here.</string>
   <string name="PinToTop">Pin to top</string>
   <string name="UnpinFromTop">Unpin from top</string>
-
   <string name="WhatThisBotCanDo">What can this bot do?</string>
   <string name="InstantView">Instant View</string>
-
   <string name="InternalStorage">Internal Storage</string>
   <string name="Storage">Storage</string>
   <string name="SdCard">SD Card</string>
@@ -1074,12 +849,9 @@
   <string name="NoMusicFilesFound">No music files found</string>
   <string name="FolderEmpty">This folder is empty</string>
   <string name="AttachFolderHome">Home</string>
-
-  <!--data settings-->
   <string name="DataSettings">Data and Storage</string>
   <string name="DataUsage">Disk and network usage</string>
   <string name="StorageUsage">Storage Usage</string>
-
   <string name="ReduceMotion">Reduce Motion</string>
   <string name="StorageUsageHint">Manage disk space</string>
   <string name="MobileUsage">Mobile Data Usage</string>
@@ -1110,7 +882,6 @@
   <string name="SecretFiles">Secret media and files</string>
   <string name="Clear">Clear</string>
   <string name="ClearX">Clear %1$s</string>
-
   <string name="ServiceNetworkReceiver">This receiver helps determining current connection state for receiving message notifications.</string>
   <string name="UnmutesInX">Unmute in %1$s</string>
   <string name="MuteForever">Mute forever</string>
@@ -1119,10 +890,6 @@
   <string name="EnableNotifications">Enable notifications</string>
   <string name="CustomNotificationsHint">These settings will override the global values in Settings&#160;—&#160;Notifications.</string>
   <string name="CustomNotifications">Custom notifications</string>
-
-  <!-- NEW STRINGS END 1 -->
-
-
   <string name="Send">Send</string>
   <string name="ClearRecentStickers">Clear Recent Stickers</string>
   <string name="CropSquare">Square</string>
@@ -1137,11 +904,6 @@
   <string name="Wallpapers">Wallpapers</string>
   <string name="StartEncryptedChat">Start Secret chat</string>
   <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with %1$s.\n\nIf they look the same on %1$s\'s device, end-to-end encryption is guaranteed.</string>
-
-
-  <!-- NEW STRINGS END 2 -->
-
-  <!-- Formatted. Don't touch the scary %1$s stuff -->
   <string name="JoinGroupX">Join group %1$s?</string>
   <string name="FollowChannelX">Follow channel %1$s?</string>
   <string name="XChangedGroupTitle">%1$s changed the group title</string>
@@ -1157,25 +919,15 @@
   <string name="YouCreatedGroup">You created the group</string>
   <string name="XofY">%1$s of %2$s</string>
   <string name="ReadingXLine">Reading line %1$s…</string>
-
   <string name="xPeopleJoinedGroup_one">%1$s person joined the group</string>
   <string name="xPeopleJoinedGroup_other">%1$s people joined the group</string>
   <string name="xPeopleJoinedChannel_one">%1$s person joined the channel</string>
   <string name="xPeopleJoinedChannel_other">%1$s people joined the channel</string>
-
-  <!-- %1$s is one of: "message", "X messages", "audio", "X audios", "photo" from the corresponding translated strings -->
-  <!-- %2$s is one of: contact first name, channel title, group title -->
-  <!-- In case you don't know how to combine for bot female and male names, you can use stupid prefix like "contact" -->
-
   <string name="AddToTheGroup">Add %1$s to the group?</string>
   <string name="QAddXToChannel">Add %1$s to the channel?</string>
   <string name="QDeleteX">Delete %1$s?</string>
-
-  <!-- 4.0 -->
-
   <string name="VoiceCalls">Voice Calls</string>
   <string name="VoiceCallPrivacyDesc">You can restrict who can call you with granular precision</string>
-
   <string name="Ringtone">Ringtone</string>
   <string name="RingtoneDisabled">Disabled</string>
   <string name="Calls">Calls</string>
@@ -1201,13 +953,15 @@
   <string name="CallBack">Call Back</string>
   <string name="Busy">Busy</string>
   <string name="TextSize">Text Size</string>
+  <string name="TextSizeScaleEnable">Enable Size Scaling</string>
+  <string name="TextSizeScaleDisable">Disable Size Scaling</string>
+  <string name="TextSizeReset">Reset to Default</string>
   <string name="NoCalls">You haven\'t made any calls yet.</string>
   <string name="VoipOfflineAirplaneTitle">Airplane Mode</string>
   <string name="VoipOfflineAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to make calls.</string>
   <string name="VoipOfflineTitle">Offline</string>
   <string name="VoipOffline">You\'re currently offline. Please connect to the Internet in order to make calls.</string>
   <string name="NoRightToCall">Sorry, %1$s doesn\'t accept calls.</string>
-
   <string name="VoipConnecting">Connecting</string>
   <string name="VoipRinging">Ringing</string>
   <string name="VoipWaiting">Waiting</string>
@@ -1225,23 +979,18 @@
   <string name="VoipDisconnect">Disconnected</string>
   <string name="VoipBranding">Telegram</string>
   <string name="CallBrandingIncoming">Incoming Telegram Call</string>
-
   <string name="OnMobileNetwork">On Mobile Network</string>
   <string name="UseLessDataAlways">Always</string>
-
   <string name="MicrophonePermission">Permission required</string>
   <string name="MicrophonePermissionDesc">Microphone access required in order to make calls.</string>
-
   <string name="CallEmojiHint">If these emoji are the same on %1$s\'s screen, this call is 100%% secure.</string>
   <string name="ShowCall">Show call</string>
-
   <string name="VoipOngoingAlertTitle">Another call in progress</string>
   <string name="CallInProgressDesc">You currently have an ongoing call with %1$s. Would you like to hang up on that call and start a new one with %2$s?</string>
   <string name="VoipUseLessData">Use less data for calls</string>
   <string name="UseLessDataForCallsDesc">Using less data may improve your experience on bad networks, but will slightly decrease audio quality.</string>
   <string name="VoipEndCall">End call</string>
   <string name="HangUp">Hang up</string>
-
   <string name="ChatQuickActions">Swipe actions</string>
   <string name="Duration">Duration</string>
   <string name="VoipRateCallAlert">Please rate the quality of your Telegram call</string>
@@ -1249,7 +998,6 @@
   <string name="VoipAudioRoutingEarpiece">Earpiece</string>
   <string name="VoipAudioRoutingSpeaker">Speaker</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
-
   <string name="NightMode">Night Mode</string>
   <string name="ConnectingToProxy">Connecting to proxy…</string>
   <string name="Proxy">Proxy</string>
@@ -1294,19 +1042,15 @@
   <string name="ProxySaveForLater">Save Proxy</string>
   <string name="UseProxyUsername">Username</string>
   <string name="UseProxyPassword">Password</string>
-
   <string name="SaveToDownloads">Save to Downloads</string>
   <string name="SaveToMusic">Save to Music</string>
   <string name="DownloadedToPath">Successfully downloaded: %1$s</string>
   <string name="CallNoLongerActive">This call is no longer active</string>
   <string name="NotificationContactJoined">%1$s joined Telegram!</string>
   <string name="DeleteEntry">Delete Entry</string>
-
   <string name="Sticker">Sticker</string>
   <string name="AttachRound">Video message</string>
-
   <string name="MicrophoneMissing">Microphone is required in order to make calls. It seems to be not present on your device.</string>
-
   <string name="People">People</string>
   <string name="ChatHintsDelete">Delete %1$s from suggestions?</string>
   <string name="DeleteXFromRecents">Delete %1$s from recently found chats?</string>
@@ -1349,90 +1093,67 @@
   <string name="AreYouSureDeleteThisChat">Are you sure you want to delete this chat?</string>
   <string name="UserRestricted">Sorry, you were restricted by chat admins from performing this action.</string>
   <string name="HashtagDeleteHint">Delete hashtag from suggestions?</string>
-
   <string name="ReportChatSpam">Are you sure you want to report %1$s for spam?</string>
   <string name="Report">Report</string>
   <string name="ReportChat">Report %1$s</string>
-
   <string name="Spam">Spam</string>
   <string name="Violence">Violence</string>
   <string name="Pornography">Pornography</string>
   <string name="ReportChatSent">Report sent</string>
-
   <string name="CopiedMessages">Messages have been copied to the clipboard</string>
   <string name="ForwardedFromX">Forwarded from %1$s</string>
   <string name="InReplyToX">In reply to %1$s</string>
   <string name="CopyUsername">Copy username</string>
   <string name="PostedBy">Posted by %1$s</string>
   <string name="DeleteFromCache">Clear from cache</string>
-
   <string name="SendMessageToX">Send message to %1$s</string>
   <string name="DeleteFileHint">Note: you will be able to download this file any time later.</string>
   <string name="DeleteMultipleFilesHint">Note: you will be able to download these files any time later.</string>
   <string name="FreedX">Freed %1$s of disk space</string>
   <string name="LinkPreview">Link Preview</string>
-
   <string name="ClearHistoryConfirm">Are you sure you want to clear history for this chat? This action cannot be undone.</string>
   <string name="Channel">Channel</string>
-
   <string name="ThemeCyan">Cyan</string>
   <string name="ThemePink">Pink</string>
   <string name="ThemeOrange">Orange</string>
   <string name="ThemeWhiteBlack">White-black</string>
   <string name="ThemeGreen">Green</string>
-
   <string name="VideoMessages">Video messages</string>
   <string name="NoVideoMessages">No Video messages</string>
-
   <string name="DeleteContactConfirm">Are you sure you want to delete %1$s from contacts list?</string>
   <string name="NotificationsGooglePlayServices">Google Play Services is needed for guaranteed notification delivery.</string>
-
   <string name="BotIsDown">Bot is not responding. Please try again later.</string>
   <string name="BotIsDownSpecific">%1$s is not responding. Please try again later.</string>
-
   <string name="UseInAppBrowser">In-app Browser</string>
   <string name="ShareLink">Share Link</string>
   <string name="CopyTextFailed">Failed to copy text. Most likely, the text you tried to copy is too big.</string>
-
   <string name="AutoNightMode">Auto Night Mode</string>
-
   <string name="DisableAutoNightMode">Disable Auto Night Mode?</string>
   <string name="DisableAutoNightModeDesc">Changing current theme will disable Auto Night Mode.\n\nYou may enable it any time later in Settings &gt; Themes.</string>
-
   <string name="UseProxyForCalls">Use proxy for calls</string>
   <string name="UseProxyForCallsInfo">Proxy servers may degrade the quality of your calls.</string>
-
   <string name="HoldToPreview">Chat Previews</string>
   <string name="BlockUser">Block user</string>
-
   <string name="MessageLifetimePhoto">If you set a timer, the photo will self-destruct after it was viewed.</string>
   <string name="MessageLifetimeVideo">If you set a timer, the video will self-destruct after it was viewed.</string>
-
   <string name="NoMembersToShow">No members to show</string>
   <string name="NoMembersToShowDesc">Try changing your search query.\nFound members will be shown here.</string>
-
   <string name="ManageChannel">Manage Channel</string>
   <string name="ManageGroup">Manage Group</string>
-
   <string name="Restricted">Restricted</string>
-
   <string name="PromotedByX">Promoted by %1$s</string>
   <string name="BannedByX">Banned by %1$s</string>
   <string name="RestrictedByX">Restricted by %1$s</string>
-
   <string name="EditGroup">Edit Group</string>
   <string name="GroupType">Group Type</string>
   <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="RecentActionsGroupHint">Service actions in the group in the last 48 hours.</string>
   <string name="RecentActionsChannelHint">Service actions in the channel in the last 48 hours.</string>
   <string name="Banned">Banned</string>
-
   <string name="Private">Private</string>
-
   <string name="WhoCanAddMembersAllMembers">All members</string>
   <string name="OnlyAdmins">Only admins</string>
   <string name="ChannelType">Channel Type</string>
-
   <string name="EditAdmin">Edit Admin</string>
   <string name="AdminRights">Admin Rights</string>
   <string name="UserRestrictions">User Restrictions</string>
@@ -1497,7 +1218,7 @@
   <string name="LinkGroupHelp">You can setup a public link on **Telegram**. If you do, other people will be able to find and join your group by this link.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
   <string name="LinkChannelHelp">You can setup a public link on **Telegram**. If you do, other people will be able to find and follow your channel by this link.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
   <string name="LinkChecking">Checking link availability…</string>
-  <string name="LinkCurrent">%1$s is your current public link.</string>
+  <string name="LinkCurrent">t.me/%1$s is your current public link.</string>
   <string name="LoadingActions">Loading actions…</string>
   <string name="JoinChat">Join Chat</string>
   <string name="MemberCanJoinGroup">%1$s will be able to return to group.</string>
@@ -1521,8 +1242,6 @@
   <string name="UserIsAlreadyAdmin">User is already admin</string>
   <string name="YouCantBanThis">You cannot ban this user</string>
   <string name="YouCantPromoteThis">You cannot promote this user</string>
-
-  <!--event log-->
   <string name="EventLog">Recent Actions</string>
   <string name="EventLogAllEvents">All actions</string>
   <string name="EventLogSelectedEvents">Selected actions</string>
@@ -1591,66 +1310,49 @@
   <string name="EventLogFilterEditedMessages">Edited messages</string>
   <string name="EventLogFilterPinnedMessages">Pinned messages</string>
   <string name="EventLogFilterLeavingMembers">Leaving members</string>
-
   <string name="UntilX">Until %1$s</string>
-
   <string name="NetworkUsage">Network Usage</string>
   <string name="Use169Output">16:9 Camera output</string>
-
   <string name="RecentStickers">Recently Used</string>
   <string name="AddToFavorites">Add to Favorites</string>
   <string name="RemoveFromFavorites">Remove from Favorites</string>
-
   <string name="HoldToAudio">Hold to record audio. Tap to switch to video.</string>
   <string name="HoldToVideo">Hold to record video. Tap to switch to audio.</string>
   <string name="SecretChatFeatureUnsupported">%1$s Telegram client does not support this feature. Recommend installing an update.</string>
-
   <string name="UseHqRoundVideos">Record HQ Round Videos</string>
-
   <string name="DiscardVoiceMessageTitle">Discard Voice Message</string>
   <string name="DiscardVideoMessageDescription">Are you sure you want to stop recording and discard your video message?</string>
   <string name="Discard">Discard</string>
-
   <string name="MediaTypeUnsupported">Feature is unsupported for this type of media</string>
   <string name="XMadeGroupHistoryHidden">%1$s made group history hidden for new members</string>
   <string name="XMadeGroupHistoryVisible">%1$s made group history visible for new members</string>
   <string name="XChangedGroupStickerSet">%1$s changed group sticker set</string>
   <string name="XRemovedGroupStickerSet">%1$s removed group sticker set</string>
-
   <string name="ChatHistory">Chat History for New Members</string>
   <string name="ChatHistoryVisibleInfo">New members will see messages that were sent before they joined.</string>
   <string name="ChatHistoryHiddenInfo">New members won\'t see earlier messages.</string>
   <string name="ChatHistoryHidden">Hidden</string>
   <string name="ChatHistoryVisible">Visible</string>
-
   <string name="DiscardCurrentChanges">Discard current changes?</string>
   <string name="CropFree">Free</string>
   <string name="CropOriginal">Original</string>
-
   <string name="UseRearRoundVideos">Start with rear-facing camera</string>
   <string name="EMail">E-Mail</string>
-
   <string name="Beginning">Beginning</string>
-
   <string name="PaymentSuccessfullyPaid">You have just successfully transferred %1$s to %2$s for %3$s</string>
   <string name="PaymentSuccessfullyPaidNoItem">You have just successfully transferred %1$s to %2$s</string>
-
   <string name="OpenMessage">View Message</string>
-
   <string name="SavedMessages">Saved Messages</string>
   <string name="Saved">Saved</string>
-
   <string name="channel_create_somebody">Channel created «%1$s»</string>
   <string name="channel_user_add">%1$s joined the channel</string>
   <string name="channel_user_remove">%1$s left the channel</string>
   <string name="channel_user_join_by_link">%1$s joined the channel by invite link</string>
-
   <string name="Installed">Installed</string>
   <string name="AsSeparateMessages">as separate messages</string>
   <string name="AsOneMessage">as one message</string>
   <string name="AsXMessages_one">as %1$s message</string>
   <string name="AsXMessages_other">as %1$s messages</string>
-
   <string name="AttachVideosSuffix_one">" video"</string>
   <string name="AttachVideosSuffix_other">" videos"</string>
   <string name="AttachPhotosSuffix_one">" photo"</string>
@@ -1664,15 +1366,12 @@
   <string name="MarkdownTextOnly">Enabled (no GUI)</string>
   <string name="MarkdownDisabled">Disabled</string>
   <string name="MarkdownHint">When active, following markdown rules apply:\n**bold**\n__italic__\n`code` ```code block```\n[text](url)</string>
-
   <string name="MessageNotFound">Message not found</string>
-
   <string name="SyncHintTitle">Find Contacts</string>
   <string name="SyncHint">To help you connect with friends and family, allow %1$s access to your contacts.</string>
   <string name="SyncHintRetry">To help you message friends and family on Telegram, allow access to your contacts.\n\nTap Settings &gt; Permissions, and turn Contacts on</string>
   <string name="SyncHintUnavailable">Tap Settings &gt; Permissions, and turn Contacts on to allow Telegram access to your contacts.</string>
   <string name="Continue">Continue</string>
-
   <string name="NoChatsText">**No chats to show**\nInvite your friends and family to&#160;join&#160;Telegram</string>
   <string name="ShowContacts">Start a chat</string>
   <string name="ContactsOnTelegramSingle">%1$s is using&#160;Telegram</string>
@@ -1690,26 +1389,21 @@
   <string name="SecretLinkPreviewAlert">Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</string>
   <string name="SecretChatContextBotAlert">Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot\'s username are sent to the respective developer.</string>
   <string name="ClearRecentEmojiAction">Clear Recent Emoji</string>
-
   <string name="PaintModeDoodle">Doodle</string>
   <string name="PaintModeArrow">Arrow</string>
   <string name="PaintModeRect">Rectangle</string>
   <string name="PaintModeFill">Fill color</string>
-
   <string name="ChatAccessFailed">Cannot access this chat</string>
   <string name="ChatAccessRestrictedGroup">You were banned in this group</string>
   <string name="ChatAccessRestrictedChannel">You were banned in this channel</string>
   <string name="ChatAccessPrivateGroup">This group is private</string>
   <string name="ChatAccessPrivateChannel">This channel is private</string>
   <string name="YouCantInviteMembers">You can\'t add members to this chat</string>
-
   <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you 6-digit recovery code. Check your e-mail and enter it here.</string>
   <string name="RestoreEmailTroubleUnknown">Having trouble accessing your e-mail?</string>
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">Phone Call</string>
-
   <string name="SetAsCurrent">Set as current</string>
-
   <string name="ArchiveStickerSet">Archive sticker set %1$s? You can restore it later in Settings &gt; Stickers &gt; Archived.</string>
   <string name="ArchiveStickerSetAction">Archive</string>
   <string name="ArchivePack">Archive pack</string>
@@ -1737,7 +1431,6 @@
   <string name="PlayPause">Pause</string>
   <string name="PlayResume">Resume</string>
   <string name="PlayStop">Stop</string>
-
   <string name="NotificationChannelCommonPrivate">Default notification settings for all private chats.</string>
   <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
   <string name="NotificationChannelSecretChat">Custom notification settings for the Secret Chat with %1$s.</string>
@@ -1750,16 +1443,12 @@
   <string name="NotificationChannelCall">Incoming Call</string>
   <string name="NotificationChannelOutgoingCall">Outgoing Call</string>
   <string name="NotificationChannelMore">More settings</string>
-
   <string name="RingtoneCustom">Custom</string>
-
   <string name="IncognitoKeyboard">Incognito Keyboard</string>
   <string name="IncognitoKeyboardInfo">Request keyboard to not update any personalized data such as typing history and personalized language model based on what you type in Secret Chats.\n\nBe aware that this setting is not a guarantee, and some IMEs may not respect it.</string>
-
   <string name="FailureMessageText">This message could not be displayed because of an error. We are very sorry for that.\n\nPlease copy the scary error details below and submit them to support@telegram.org so we can investigate the issue. Thank you!</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
-
   <string name="AutoNightDisabled">Disabled</string>
   <string name="AutoNightAutomatic">Automatic</string>
   <string name="AutoNightScheduled">Scheduled</string>
@@ -1770,7 +1459,6 @@
   <string name="AutoNightModeDescription">Switch to night theme based on ambient lighting or your time preference.</string>
   <string name="AutoNightModeDescriptionAuto">Switch to night theme when ambient lighting falls below %1$d%%.\n\nSmall dot indicates current level of ambient lighting measured by your device.</string>
   <string name="AutoNightModeDescriptionScheduled">Switch to night theme based on your time preference.</string>
-
   <string name="PrivacyBots">Bots</string>
   <string name="WebSessionsTitle">Logged in with Telegram</string>
   <string name="NoActiveLogins">**No active logins**\n\nYou can log in on websites that support signing&#160;in&#160;with&#160;Telegram.</string>
@@ -1794,9 +1482,7 @@
   <string name="LedPurple">Purple</string>
   <string name="LedPink">Pink</string>
   <string name="LedWhite">White</string>
-
   <string name="SetProfilePhotoError">Error updating photo: %1$s</string>
-
   <string name="BotNotFound">Bot %1$s not found</string>
   <string name="AddAccount">Add Account</string>
   <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
@@ -1805,13 +1491,10 @@
   <string name="Directions">Directions…</string>
   <string name="ShowOnFoursquare">Foursquare</string>
   <string name="AttachLiveLocation">Live Location</string>
-
   <string name="AccurateToMeters_one">Accurate to %1$s meter</string>
   <string name="AccurateToMeters_other">Accurate to %1$s meters</string>
-
   <string name="xStrings_one">%1$s string</string>
   <string name="xStrings_other">%1$s strings</string>
-
   <string name="ShareLiveLocation">Share Live Location</string>
   <string name="SendLiveLocationInfo">Updated in real time as you move</string>
   <string name="PullToSeePlaces">Pull up to see places</string>
@@ -1830,7 +1513,6 @@
   <string name="SharingYouAndOtherName">You and %1$s</string>
   <string name="StopAllLocationSharings">Stop All</string>
   <string name="StopLiveLocationShort">Stop Sharing</string>
-
   <string name="PublicGroupsUnavailable">Sorry, public groups are unavailable for your account.</string>
   <string name="StopLiveLocation">Stop Sharing Location</string>
   <string name="AppBadge">Unread Count Badge</string>
@@ -1845,78 +1527,60 @@
   <string name="DroppedPin">Dropped Pin</string>
   <string name="CalculatingDistance">Calculating distance…</string>
   <string name="DirectionGo">Go</string>
-
   <string name="LayerMapDefault">Light</string>
   <string name="LayerMapDark">Dark</string>
   <string name="LayerMapSatellite">Satellite</string>
   <string name="LayerMapTerrain">Terrain</string>
   <string name="LayerMapHybrid">Hybrid</string>
-
   <string name="Typing">typing</string>
   <string name="IsTypingGroup">%1$s is typing</string>
   <string name="AreTypingGroup">%1$s are typing</string>
-
   <string name="RecordingAudio">recording voice</string>
   <string name="IsRecordingAudio">%1$s is recording voice</string>
   <string name="AreRecordingAudio">%1$s are recording voices</string>
-
   <string name="SendingVoice">sending voice</string>
   <string name="IsSendingVoice">%1$s is sending voice</string>
   <string name="AreSendingVoice">%1$s are sending voices</string>
-
   <string name="RecordingVideo">recording video</string>
   <string name="IsRecordingVideo">%1$s is recording video</string>
   <string name="AreRecordingVideo">%1$s are recording videos</string>
-
   <string name="SendingLocation">choosing location</string>
   <string name="IsSendingLocation">%1$s is choosing location</string>
   <string name="AreSendingLocation">%1$s are choosing locations</string>
-
   <string name="SendingContact">choosing contact…</string>
   <string name="IsSendingContact">%1$s is choosing contact…</string>
   <string name="AreSendingContact">%1$s are choosing contacts…</string>
-
   <string name="RecordingRound">recording video</string>
   <string name="IsRecordingRound">%1$s is recording video</string>
   <string name="AreRecordingRound">%1$s are recording videos</string>
-
   <string name="SendingRound">sending a video message</string>
   <string name="IsSendingRound">%1$s is sending a video message</string>
   <string name="AreSendingRound">%1$s are sending video messages</string>
-
   <string name="SendingPhoto">sending photo</string>
   <string name="IsSendingPhoto">%1$s is sending photo</string>
   <string name="AreSendingPhoto">%1$s are sending photos</string>
-
   <string name="SendingGame">playing</string>
   <string name="IsSendingGame">%1$s is playing</string>
   <string name="AreSendingGame">%1$s are playing</string>
-
   <string name="SendingVideo">sending video</string>
   <string name="IsSendingVideo">%1$s is sending video</string>
   <string name="AreSendingVideos">%1$s are sending videos</string>
-
   <string name="SendingFile">sending file</string>
   <string name="IsSendingFile">%1$s is sending file</string>
   <string name="AreSendingFile">%1$s are sending files</string>
-
   <string name="LiveLocations">Live Locations</string>
-
   <string name="ReportMessageUser">Report message from %1$s</string>
   <string name="ReportMessagesUser">Report messages from %1$s</string>
   <string name="ReportMessage">Report %1$s\'s message</string>
   <string name="ReportMessages">Report %1$s\'s messages</string>
   <string name="ReportXMessages_one">Report %1$s message</string>
   <string name="ReportXMessages_other">Report %1$s messages</string>
-
   <string name="SuggestStickers">Sticker suggestions by emoji</string>
   <string name="SuggestStickersAll">Installed + recommended</string>
   <string name="SuggestStickersInstalled">Only installed</string>
   <string name="SuggestStickersNone">None</string>
-
   <string name="MessageContentPreview">Image Preview</string>
   <string name="PlaceSearchError">Error Searching Places</string>
-
   <string name="ShareAs">Share as…</string>
   <string name="PerformAs">Perform action as…</string>
   <string name="OpenLinkAs">Open link as…</string>
@@ -1928,51 +1592,34 @@
   <string name="AutoInstantViewNone">No links</string>
   <string name="AutoInstantViewTelegram">telegram.org + telegra.ph</string>
   <string name="AutoInstantViewAll">All links</string>
-
   <string name="DeepLinkUnsupported">Unknown or broken link format</string>
-
   <string name="AppUpdateRequiredTitle">Update required</string>
   <string name="AppUpdateRequiredText">To perform this action, please update Telegram version.</string>
   <string name="AppUpdateOk">Update</string>
-
   <string name="ProxySponsor">Proxy sponsor</string>
   <string name="ProxySponsorHint">This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.</string>
-
-  <!--<string name="help_PhoneNumberSubjectInvalid">Invalid phone number: %1$s</string>
-  <string name="help_PhoneNumberSubjectBanned">Banned phone number: %1$s</string>
-  <string name="help_PhoneNumberSubjectSMS">Registration/login issue: %1$s</string>
-  <string name="help_PhoneNumberMessage">I\'m trying to use my mobile phone number: %1$s.\n%2$s\n\nApp: Android X %3$s\nOS version: %4$s\nDevice Name: %5$s\nLocale: %6$s</string>
-  <string name="help_PhoneNumberMessageBanned">But Telegram says it\'s banned. Please help.</string>
-  <string name="help_PhoneNumberMessageInvalid">But Telegram says it\'s invalid. Please help.</string>
-  <string name="help_PhoneNumberMessageSMS">But I can\'t get an activation code for Telegram. Please help.\nCode types: %1$s</string>-->
-
   <string name="message_via">" via "</string>
   <string name="message_adminSign">"  admin"</string>
   <string name="message_adminSignPlain">admin</string>
-
   <string name="WhoCanCallMe">Who can call me</string>
-
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
   <string name="PrivacyLastSeenNobodyExcept">Nobody (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenContacts">Only contacts can see your Last Seen</string>
   <string name="PrivacyLastSeenContactsExcept">Only contacts (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenEverybody">Everybody can see your Last Seen</string>
   <string name="PrivacyLastSeenEverybodyExcept">Everybody (%1$s) can see your Last Seen</string>
-
   <string name="PrivacyAddToGroupsNobody">Nobody can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsNobodyExcept">Nobody (%1$s) can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsContacts">Only contacts can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsContactsExcept">Only contacts (%1$s) can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsEverybody">Everybody can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsEverybodyExcept">Everybody (%1$s) can add you to groups and channels</string>
-
   <string name="PrivacyCallsNobody">Nobody can call you</string>
   <string name="PrivacyCallsNobodyExcept">Nobody (%1$s) can call you</string>
   <string name="PrivacyCallsContacts">Only contacts can call you</string>
   <string name="PrivacyCallsContactsExcept">Only contacts (%1$s) can call you</string>
   <string name="PrivacyCallsEverybody">Everybody can call you</string>
   <string name="PrivacyCallsEverybodyExcept">Everybody (%1$s) can call you</string>
-
   <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings&#160;— Notifications (%1$s).</string>
   <string name="NotificationsDefault">Use global settings (%1$s)</string>
   <string name="NotificationsDefaultEnabled">Enabled</string>
@@ -1980,45 +1627,32 @@
   <string name="NotificationsDefaultDisabled">Disabled</string>
   <string name="NotificationsDefaultValue">%1$s (default)</string>
   <string name="NotificationsDefaultInfo">Notifications from this chat are explicitly enabled.</string>
-
   <string name="ProxyShowErrors">Show error details</string>
   <string name="ProxyHideErrors">Hide error details</string>
   <string name="ProxyReorderByPing">Reorder by ping</string>
   <string name="ProxyRemove">Remove proxy</string>
   <string name="ProxyEdit">Edit proxy</string>
   <string name="ProxyRemoveInfo">Are you sure you want to delete this proxy configuration?</string>
-
   <string name="ErrorUsersTooFew">Not enough members: everyone has restricted who can invite them.</string>
-
   <string name="SyncContacts">Sync Contacts</string>
   <string name="SyncContactsInfoOff">Turn on to continuously sync contacts from this device with your account.</string>
   <string name="SyncContactsInfoOn">Contacts from this device will be added to your account.</string>
   <string name="SyncContactsDelete">Delete Synced Contacts</string>
   <string name="SyncContactsDeleteButton">Delete Synced Contacts</string>
   <string name="SyncContactsDeleteInfo">This will remove your contacts from the Telegram servers. If \'Sync Contacts\' is enabled, contacts will be re-synced.</string>
-
   <string name="BotWebsiteAllowed">You allowed this bot to message you when you logged in on %1$s.</string>
-
-  <!--<string name="Experiments">Experiments</string>
-  <string name="ExperimentsInfo">Turn on features that may or may not be removed at any time.</string>
-  <string name="ExperimentsAlert">Are you sure you want to enable features that are not guaranteed to be stable and may be removed at anytime?</string>-->
-
   <string name="QuickActionSettingNone">None</string>
   <string name="QuickActionSettingShare">Share</string>
   <string name="QuickActionSettingReply">Reply</string>
-
   <string name="SecretWebPage">Link Previews</string>
   <string name="SecretWebPageInfo">Link previews will be generated on Telegram servers. We do not store data about the links you send.</string>
-
   <string name="PrivacyPaymentsClear">Clear Payment and Shipping Info</string>
   <string name="PrivacyClearShipping">Shipping info</string>
   <string name="PrivacyClearPayment">Payment info</string>
   <string name="PrivacyPaymentsClearAlert">Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.</string>
-
   <string name="SuggestContacts">Suggest Frequent Contacts</string>
   <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well as the inline bots you are likely to use.</string>
   <string name="SuggestContactsDone">Delete and Disable</string>
-
   <string name="MarkAsRead">Mark as read</string>
   <string name="MarkAsUnread">Mark as unread</string>
   <string name="CreateLink">Create Link</string>
@@ -2027,17 +1661,14 @@
   <string name="CreateLinkCancel">Cancel</string>
   <string name="TerminateSessionFreshError">For security reasons this action is restricted on new sessions. Use device with older session or try again later.</string>
   <string name="SecretLinkPreviewDisable">Disable</string>
-
   <string name="Sessions">Sessions</string>
   <string name="Websites">Websites</string>
   <string name="ActionRead">Mark as Read</string>
-  <!--<string name="HashtagSectionGlobal">Global</string>-->
   <string name="FoundMessagesFromUser">messages from %1$s</string>
   <string name="FoundMessagesFromSelf">messages from you</string>
   <string name="FoundMessagesQuery">%1$s</string>
   <string name="ViewMessagesFromYou">Messages from you</string>
   <string name="ViewMessagesFromUser">Messages from %1$s</string>
-
   <string name="BotDeleteHint">Delete bot from suggestions?</string>
   <string name="BotHelp">Help</string>
   <string name="BotSettings">Settings</string>
@@ -2045,37 +1676,28 @@
   <string name="TextFormatItalic">Italic</string>
   <string name="TextFormatMonospace">Monospace</string>
   <string name="TextFormatLink">Create Link</string>
-
   <string name="RaiseToSpeak">Raise to Speak</string>
   <string name="EarpieceMode">Playback through earpiece</string>
   <string name="EarpieceModeNever">Never</string>
   <string name="EarpieceModeProximity">When close to an ear</string>
   <string name="EarpieceModeAlways">Always</string>
-
   <string name="TryAgainSeconds_one">Try again in %1$s second</string>
   <string name="TryAgainSeconds_other">Try again in %1$s seconds</string>
   <string name="TryAgainMinutes_one">Try again in %1$s minute</string>
   <string name="TryAgainMinutes_other">Try again in %1$s minutes</string>
   <string name="TryAgainHours_one">Try again in %1$s hour</string>
   <string name="TryAgainHours_other">Try again in %1$s hours</string>
-
   <string name="format_TooManyRequests">Too many requests. %1$s</string>
-
   <string name="JoinChannel">Join Channel</string>
-
   <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
   <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by another member</string>
   <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless invited by another member</string>
-
   <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by another member</string>
   <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless invited by another member</string>
-
   <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by another member</string>
   <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless invited by another member</string>
-
   <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
   <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
-
   <string name="DeleteUserChatConfirm">Are you sure you want to delete the chat with %1$s? This action cannot be undone.</string>
   <string name="DeleteSecretChatPendingConfirm">Are you sure you want to cancel the secret chat with %1$s?</string>
   <string name="DeleteSecretChatClosedConfirm">Are you sure you want to delete the secret chat with %1$s? This action cannot be undone.</string>
@@ -2088,15 +1710,12 @@
   <string name="DestroyXNoMembers">Destroy %1$s?</string>
   <string name="DestroyX_one">Destroy %2$s? It will disappear for you and %1$s other member.</string>
   <string name="DestroyX_other">Destroy %2$s? It will disappear for you and %1$s other members.</string>
-
   <string name="Copyright">Copyright</string>
   <string name="PrivacyAdvanced">Advanced</string>
   <string name="DeleteAccountIfAwayFor2">Delete my account if away for</string>
   <string name="DeleteAccountHelp">If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.</string>
-
   <string name="PrivacyDeleteCloudDrafts">Delete All Cloud Drafts</string>
   <string name="AreYouSureClearDrafts">Are you sure you want to delete all cloud drafts?</string>
-
   <string name="TabMedia">Media</string>
   <string name="TabVoiceMessages">Voice</string>
   <string name="TabVideoMessages">Video</string>
@@ -2110,44 +1729,40 @@
   <string name="TabRestricted">Restricted</string>
   <string name="TabMembers">Members</string>
   <string name="TabMessages">Messages</string>
-
   <string name="MoreMessageOptions">More</string>
   <string name="MessagePin">Pin</string>
   <string name="MessageUnpin">Unpin</string>
   <string name="MessageReport">Report message</string>
-
   <string name="ErrorUserDeleted">Cannot perform this action, because user account is deactivated.</string>
   <string name="GroupUpgradedFrom">Group upgraded to supergroup. Tap here to view older history.</string>
   <string name="GroupUpgradedTo">Group upgraded to supergroup.</string>
-
   <string name="MembersDetailRestricted">Users with restrictions</string>
   <string name="MembersDetailAdmins">Administrators</string>
   <string name="MembersDetailBanned">Banned users</string>
-
   <string name="ChatSuggestionsDisabled">Bot suggestions are disabled.\nTurn them back on in Settings - Privacy and Security.</string>
   <string name="ChatLinkView">View Chat</string>
   <string name="ChatLinkRemove">Remove Link</string>
   <string name="ChatLinkRemoveAlert">Wait! Are you sure you want to make %1$s private and release its public link? While free, it might be taken by any other user.</string>
-
   <string name="HoldMediaTutorial">Hold finger to view this media</string>
-
   <string name="SecretPasscodeInfo">When you set up an additional passcode, you\'ll need to enter it each time you access this chat. Message preview will be hidden on the chats page.\n\nNote: if you forget it, contents of this chat will be lost.\n\nIf you need a global passcode, use Settings – Privacy and Security – Passcode Lock.</string>
-
   <string name="ChatContentProtected">Content Locked</string>
   <string name="DragChatsHint">Drag chat to reorder</string>
-
   <string name="OpenMap">Open Map</string>
-
   <string name="MapPreviewProvider">Map Preview Provider</string>
   <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
   <string name="MapPreviewProviderInfo">When you receive a map or live location, in order to display a map preview, it has to be generated by the selected provider.\n\nThis requires sending an anonymous request with the received location coordinates.</string>
   <string name="MapPreviewProviderHint">Choose provider to be used to display map previews in Secret Chats.\n\nThis requires sending an anonymous request with the received location coordinates to the selected provider.</string>
-
   <string name="MapPreviewProviderNone">None</string>
   <string name="MapPreviewProviderUnset">Unset</string>
   <string name="MapPreviewProviderGoogle">Google Maps</string>
   <string name="MapPreviewProviderTelegram">Telegram</string>
-
+  <string name="InvalidLocalisation">Invalid Localization File</string>
+  <string name="LanguageInfo">Are you sure you want to apply this localization file?\n\nLanguage: %1$s (%2$s)\nLocale: %3$s, %4$s\nTranslated: %5$d%% (%6$s)</string>
+  <string name="TranslationsMissing_one">%1$s untranslated</string>
+  <string name="TranslationsMissing_other">%1$s untranslated</string>
+  <string name="LanguageInstall">Apply Localization</string>
+  <string name="LanguageWarning">Warning: do not install localization files from untrusted sources.</string>
+  <string name="LocalisationApplied">Localization successfully applied</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -2239,6 +1854,10 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
+  <string name="TranslationsMissing_zero">%1$s untranslated</string>
+  <string name="TranslationsMissing_two">%1$s untranslated</string>
+  <string name="TranslationsMissing_few">%1$s untranslated</string>
+  <string name="TranslationsMissing_many">%1$s untranslated</string>
   <string name="TryAgainHours_zero">Try again in %1$s hours</string>
   <string name="TryAgainHours_two">Try again in %1$s hours</string>
   <string name="TryAgainHours_few">Try again in %1$s hours</string>
