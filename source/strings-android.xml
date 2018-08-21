@@ -1214,6 +1214,10 @@
     <string name="PassportPersonalDetailsInfo">Fill in your personal details</string>
     <string name="PassportIdentityDocument">Identity Document</string>
     <string name="PassportIdentityDocumentInfo">Upload a scan of your passport or other ID</string>
+    <string name="PassportIdentityPassport">Upload a scan of your passport</string>
+    <string name="PassportIdentityInternalPassport">Upload a scan of your internal passport</string>
+    <string name="PassportIdentityID">Upload a scan of your identity card</string>
+    <string name="PassportIdentityDriverLicence">Upload a scan of your driver\'s license</string>
     <string name="PassportPersonal">Personal Details</string>
     <string name="PassportDocument">Document Details</string>
     <string name="PassportName">Name</string>
