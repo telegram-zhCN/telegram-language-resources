@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="AppName">Telegram X</string>
+  <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">zh_CN</string>
   <string name="language_name">Chinese Simplified</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
+  <string name="language_dateFormatLocale">zh-CN</string>
   <string name="timestamp_now">刚刚</string>
   <string name="timestamp_minutes_one">%1$s 分钟前</string>
   <string name="timestamp_minutes_other">%1$s 分钟前</string>
@@ -29,6 +31,7 @@
   <string name="Page4Title">强大</string>
   <string name="Page5Title">安全</string>
   <string name="Page6Title">云同步</string>
+  <string name="Page1Message">世界上**最快的**通讯软件。\n它**免费**而**安全**。</string>
   <string name="Page3Message">**Telegram** 永久免费，无广告\n不收取任何费用</string>
   <string name="StartMessaging">开始聊天</string>
   <string name="format_decimalSeparator">.</string>
@@ -325,6 +328,7 @@
   <string name="Reply">回复</string>
   <string name="Select">选择</string>
   <string name="Open">打开</string>
+  <string name="OpenInExternalApp">用其他应用打开</string>
   <string name="Gallery">相册</string>
   <string name="ChatCamera">相机</string>
   <string name="group_photo_changed_you">您更换了群组标识</string>

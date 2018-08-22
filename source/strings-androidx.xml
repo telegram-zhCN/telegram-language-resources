@@ -267,7 +267,7 @@
   <string name="edit">Edit</string>
   <string name="Delete">Delete</string>
   <string name="BotInvite">Add to group</string>
-  <string name="AddContact">Add contact</string>
+  <string name="AddContact">Add Contact</string>
   <string name="takePhoto">Take photo</string>
   <string name="pickFromGallery">Choose from gallery</string>
   <string name="DeletePhoto">Delete photo</string>
@@ -540,7 +540,6 @@
   <string name="Videos">Videos</string>
   <string name="GIFs">GIFs</string>
   <string name="VoiceMessages">Voice messages</string>
-  <string name="Thumbnails">Thumbnails</string>
   <string name="Files">Files</string>
   <string name="Music">Music</string>
   <string name="NoPhotos">No Photos</string>
@@ -878,7 +877,6 @@
   <string name="LocalDatabase">Local Database</string>
   <string name="MediaAndFiles">Media and Files</string>
   <string name="OtherChats">Other Chats</string>
-  <string name="ProfilePhotos">Profile Photos</string>
   <string name="SecretFiles">Secret media and files</string>
   <string name="Clear">Clear</string>
   <string name="ClearX">Clear %1$s</string>
@@ -901,8 +899,7 @@
   <string name="DeletePack">Delete pack</string>
   <string name="DeleteArchivedPack">Delete from archive</string>
   <string name="Folders">Folders</string>
-  <string name="Wallpapers">Wallpapers</string>
-  <string name="StartEncryptedChat">Start Secret chat</string>
+  <string name="StartEncryptedChat">Start secret chat</string>
   <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with %1$s.\n\nIf they look the same on %1$s\'s device, end-to-end encryption is guaranteed.</string>
   <string name="JoinGroupX">Join group %1$s?</string>
   <string name="FollowChannelX">Follow channel %1$s?</string>
@@ -1204,7 +1201,6 @@
   <string name="CallX">Call %1$s?</string>
   <string name="ConfirmCalls">Prompt before calling</string>
   <string name="ConfirmCallsDesc">Show confirmation dialog each time you call anyone.</string>
-  <string name="AndroidEmoji">System Emoji</string>
   <string name="CustomVibrations">Custom Vibrations</string>
   <string name="SomeCallInProgressDesc">This action cannot be done while call is active.</string>
   <string name="Follow">Follow</string>
@@ -1320,8 +1316,8 @@
   <string name="HoldToVideo">Hold to record video. Tap to switch to audio.</string>
   <string name="SecretChatFeatureUnsupported">%1$s Telegram client does not support this feature. Recommend installing an update.</string>
   <string name="UseHqRoundVideos">Record HQ Round Videos</string>
-  <string name="DiscardVoiceMessageTitle">Discard Voice Message</string>
-  <string name="DiscardVideoMessageDescription">Are you sure you want to stop recording and discard your video message?</string>
+  <string name="DiscardVideoMessageTitle">Discard Video Message</string>
+  <string name="DiscardVideoMessageDescription">Are you sure you want to discard your video message?</string>
   <string name="Discard">Discard</string>
   <string name="MediaTypeUnsupported">Feature is unsupported for this type of media</string>
   <string name="XMadeGroupHistoryHidden">%1$s made group history hidden for new members</string>
@@ -1437,7 +1433,7 @@
   <string name="NotificationChannelGroupChat">Custom notification settings for the Group «%1$s».</string>
   <string name="NotificationChannelGroupChatPublic">Custom notification settings for the Group «%1$s» (%2$s).</string>
   <string name="NotificationChannelChannelChat">Custom notification settings for the Channel «%1$s».</string>
-  <string name="NotificationChannelChannelChatPublic">Custom notification for the Channel «%1$s» (%2$s).</string>
+  <string name="NotificationChannelChannelChatPublic">Custom notification settings for the Channel «%1$s» (%2$s).</string>
   <string name="NotificationChannelCustom">Custom: %1$s</string>
   <string name="NotificationChannelPlayback">Music Player</string>
   <string name="NotificationChannelCall">Incoming Call</string>
@@ -1468,7 +1464,7 @@
   <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
   <string name="DisconnectWebsite">Disconnect</string>
   <string name="DisconnectAllWebsitesHint">Are you sure you want to disconnect all websites?</string>
-  <string name="DisconnectWebsiteBan">Ban %1$s</string>
+  <string name="DisconnectWebsiteBan">Block %1$s</string>
   <string name="ConnectedWebsitesDesc">Disconnect from your Telegram account.</string>
   <string name="NotificationsLed">LED</string>
   <string name="LedDisabled">Disabled</string>
@@ -1597,7 +1593,6 @@
   <string name="AppUpdateRequiredText">To perform this action, please update Telegram version.</string>
   <string name="AppUpdateOk">Update</string>
   <string name="ProxySponsor">Proxy sponsor</string>
-  <string name="ProxySponsorHint">This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.</string>
   <string name="message_via">" via "</string>
   <string name="message_adminSign">"  admin"</string>
   <string name="message_adminSignPlain">admin</string>
@@ -1676,7 +1671,6 @@
   <string name="TextFormatItalic">Italic</string>
   <string name="TextFormatMonospace">Monospace</string>
   <string name="TextFormatLink">Create Link</string>
-  <string name="RaiseToSpeak">Raise to Speak</string>
   <string name="EarpieceMode">Playback through earpiece</string>
   <string name="EarpieceModeNever">Never</string>
   <string name="EarpieceModeProximity">When close to an ear</string>
@@ -1690,11 +1684,11 @@
   <string name="format_TooManyRequests">Too many requests. %1$s</string>
   <string name="JoinChannel">Join Channel</string>
   <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
-  <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by another member</string>
+  <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless invited by an admin</string>
   <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless invited by another member</string>
-  <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by another member</string>
+  <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless invited by an admin</string>
   <string name="LeaveNoReturnHintGroup">Warning: you will not be able to return to this group unless invited by another member</string>
-  <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by another member</string>
+  <string name="LeaveCreatorHintChannel">Warning: you might not be able to return to this channel unless invited by an admin</string>
   <string name="LeaveCreatorHintGroup">Warning: you might not be able to return to this group unless invited by another member</string>
   <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
   <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
@@ -1763,6 +1757,18 @@
   <string name="LanguageInstall">Apply Localization</string>
   <string name="LanguageWarning">Warning: do not install localization files from untrusted sources.</string>
   <string name="LocalisationApplied">Localization successfully applied</string>
+  <string name="LanguageSectionOfficial">Official</string>
+  <string name="LanguageSectionInstalled">Installed</string>
+  <string name="LanguageSectionRaw">Unreleased</string>
+  <string name="TranslationMoreTitle">Can\'t find your language?</string>
+  <string name="TranslationMoreDone">Got it</string>
+  <string name="TranslationMoreText">List of available languages is managed by [Translations Platform](https://translations.telegram.org).\n\nTelegram will offer you to switch to your language when corresponding translation will become officially available.\n\nWhile waiting, you can install custom localization files, join [translation process](https://translations.telegram.org/en/android_x/), or create [your own](https://t.me/tgx_android_translate/3) localization file.</string>
+  <string name="OK">OK</string>
+  <string name="DeleteLanguageConfirm">Are you sure you want to delete this localization file?\n\n%1$s / %2$s will no longer be available in the list of installed languages.</string>
+  <string name="RemoveLanguage">Delete Localization</string>
+  <string name="LanguageEmpty">Localization file is empty</string>
+  <string name="format_languageStatus">%1$s (%2$d%%)</string>
+
 
   <!-- new from translations.telegram.org -->
 

@@ -962,6 +962,8 @@
   <string name="NotificationsLedInfo">LED 指示灯是在部分设备上能够提示新消息的闪烁的小灯。</string>
   <string name="PriorityInfo">高优先级通知能够在免打扰模式开启时依然正常提醒。</string>
   <string name="General">通用</string>
+  <string name="NotificationsMuted">免打扰</string>
+  <string name="NotificationsUnmuted">可提醒</string>
   <string name="NotificationsOn">开启</string>
   <string name="NotificationsOff">关闭</string>
   <string name="NotificationsDefaultOn">默认 （开启）</string>
@@ -1202,8 +1204,13 @@
   <string name="PassportPersonalDetailsInfo">输入您的个人信息</string>
   <string name="PassportIdentityDocument">身份档案</string>
   <string name="PassportIdentityDocumentInfo">上传一份护照或其他身份证件的扫描件</string>
+  <string name="PassportIdentityPassport">上传一份护照扫描件</string>
+  <string name="PassportIdentityInternalPassport">上传您的国内护照的扫描件</string>
+  <string name="PassportIdentityID">上传一份身份证扫描件</string>
+  <string name="PassportIdentityDriverLicence">上传一份驾驶证扫描件</string>
   <string name="PassportPersonal">个人信息</string>
   <string name="PassportName">姓名</string>
+  <string name="PassportMidname">中间名</string>
   <string name="PassportSurname">姓氏</string>
   <string name="PassportSelectGender">选择性别</string>
   <string name="PassportMale">男</string>
@@ -1254,6 +1261,14 @@
   <string name="PassportNoDocumentsInfo">您可以添加您的手机号码、邮箱地址、身份证件或住宅地址。</string>
   <string name="PassportCorrectErrors">点按更正错误</string>
   <string name="PassportNativeHeader">您的姓名</string>
+  <string name="PassportLanguage_DE">德国人</string>
+  <string name="PassportLanguage_FR">法国人</string>
+  <string name="PassportLanguage_ID">印度尼西亚人</string>
+  <string name="PassportLanguage_IT">意大利人</string>
+  <string name="PassportLanguage_JA">日本人</string>
+  <string name="PassportLanguage_KO">朝鲜人</string>
+  <string name="PassportLanguage_MS">马来西亚人</string>
+  <string name="PassportLanguage_TR">土耳其人</string>
   <!--sessions view-->
   <string name="SessionsTitle">活动对话</string>
   <string name="CurrentSession">当前对话</string>
