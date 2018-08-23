@@ -790,8 +790,7 @@
   <string name="RemoveFromFavorites">从收藏中移除</string>
   <string name="HoldToAudio">按住来录制音频。点击切换为拍摄视频。</string>
   <string name="HoldToVideo">按住来拍摄视频。点击切换为录制音频。</string>
-  <string name="DiscardVoiceMessageTitle">丢弃语音消息</string>
-  <string name="DiscardVideoMessageDescription">您确定要停止录制并放弃您的视频消息吗？</string>
+  <string name="DiscardVideoMessageTitle">放弃视频消息</string>
   <string name="Discard">丢弃</string>
   <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
   <string name="ChatHistoryHidden">不可见</string>
@@ -830,6 +829,7 @@
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="DisconnectWebsite">断开连接</string>
   <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 账户吗？</string>
+  <string name="DisconnectWebsiteBan">屏蔽 %1$s</string>
   <string name="NotificationsLed">LED</string>
   <string name="LedDisabled">已禁用</string>
   <string name="LedDefault">默认</string>
@@ -866,7 +866,6 @@
   <string name="SuggestStickersNone">无</string>
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
-  <string name="ProxySponsorHint">这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
   <string name="message_adminSignPlain">管理员</string>
   <string name="NotificationsDefaultEnabled">启用</string>
   <string name="NotificationsDefaultDisabled">已禁用</string>
@@ -904,7 +903,6 @@
   <string name="TextFormatItalic">倾斜</string>
   <string name="TextFormatMonospace">等宽</string>
   <string name="TextFormatLink">创建连接</string>
-  <string name="RaiseToSpeak">贴耳语音</string>
   <string name="EarpieceModeNever">从不</string>
   <string name="EarpieceModeAlways">总是</string>
   <string name="JoinChannel">加入频道</string>
@@ -938,6 +936,7 @@
   <string name="MapPreviewProviderNone">无</string>
   <string name="MapPreviewProviderTelegram">Telegram</string>
   <string name="LanguageInstall">使用此本地化文件</string>
+  <string name="OK">确定</string>
   <string name="AddXMasks_zero">添加 %1$s 个装饰</string>
   <string name="AddXMasks_two">添加 %1$s 个装饰</string>
   <string name="AddXMasks_few">添加 %1$s 个装饰</string>
