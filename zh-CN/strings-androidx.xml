@@ -936,7 +936,9 @@
   <string name="MapPreviewProviderNone">无</string>
   <string name="MapPreviewProviderTelegram">Telegram</string>
   <string name="LanguageInstall">使用此本地化文件</string>
+  <string name="TranslationMoreCreate">创建</string>
   <string name="OK">确定</string>
+  <string name="LocalizationCreateDone">创建</string>
   <string name="AddXMasks_zero">添加 %1$s 个装饰</string>
   <string name="AddXMasks_two">添加 %1$s 个装饰</string>
   <string name="AddXMasks_few">添加 %1$s 个装饰</string>

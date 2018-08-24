@@ -1269,7 +1269,7 @@
     <string name="PassportDeleteScan">Delete scan?</string>
     <string name="PassportUploadDocument">Upload Scans</string>
     <string name="PassportUploadAdditinalDocument">Upload Additional Scans</string>
-    <string name="PassportUploadMaxReached">You can\'t upload more than %1$s files.</string>
+    <string name="PassportUploadMaxReached">You can\'t upload more than %1$s.</string>
     <string name="PassportUploadNotImage">You can upload only image files.</string>
     <string name="PassportScanPassport">Scan Your Passport</string>
     <string name="PassportScanPassportInfo">Scan your passport or identity card with machine-readable zone to fill personal details automatically.</string>
