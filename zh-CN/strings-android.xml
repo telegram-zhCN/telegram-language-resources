@@ -1252,7 +1252,6 @@
   <string name="PassportDeleteScan">删除扫描件？</string>
   <string name="PassportUploadDocument">上传扫描件</string>
   <string name="PassportUploadAdditinalDocument">上传补充扫描件</string>
-  <string name="PassportUploadMaxReached">您最多只能上传 %1$s 个文件。</string>
   <string name="PassportUploadNotImage">您只能上传图片</string>
   <string name="PassportScanPassport">扫描你的护照</string>
   <string name="PassportScanPassportInfo">扫描带有机读区域的护照或身份证来自动填充个人信息。</string>
