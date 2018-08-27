@@ -2610,7 +2610,7 @@ Unused sets are archived when you add more.";
 "FastTwoStepSetup.PasswordHelp" = "Please create a password to protect your payment info. You'll be asked to enter it when you log in.";
 "FastTwoStepSetup.EmailSection" = "RECOVERY E-MAIL";
 "FastTwoStepSetup.EmailPlaceholder" = "Your E-Mail";
-"FastTwoStepSetup.EmailHelp" = "Please add your valid e-mail. It is the only way to recover a forgotten password.";
+"FastTwoStepSetup.EmailHelp" = "Please add a valid e-mail address. It is the only way to recover a forgotten password.";
 
 "Conversation.ViewMessage" = "VIEW MESSAGE";
 
@@ -2988,7 +2988,7 @@ Unused sets are archived when you add more.";
 "Passport.FieldIdentityUploadHelp" = "Upload proof of your identity";
 "Passport.FieldIdentitySelfieHelp" = "Take a selfie with your document";
 "Passport.FieldAddress" = "Residential Address";
-"Passport.FieldAddressHelp" = "Please provide your address";
+"Passport.FieldAddressHelp" = "Provide your address";
 "Passport.FieldAddressUploadHelp" = "Upload proof of your address";
 "Passport.FieldPhone" = "Phone Number";
 "Passport.FieldPhoneHelp" = "Provide your contact phone number";
@@ -2999,7 +2999,7 @@ Unused sets are archived when you add more.";
 "Passport.Authorize" = "Authorize";
 
 "Passport.DeletePassport" = "Delete Telegram Passport";
-"Passport.DeletePassportConfirmation" = "Are you sure you want to delete your Telegram Passport? All details will be lost.";
+"Passport.DeletePassportConfirmation" = "Are you sure you want to delete your Telegram Passport? All data will be lost.";
 
 "Passport.PasswordHelp" = "Please enter your Telegram Password\nto decrypt your data";
 "Passport.PasswordPlaceholder" = "Enter your password";
@@ -3018,7 +3018,7 @@ Unused sets are archived when you add more.";
 "Passport.DeletePersonalDetailsConfirmation" = "Are you sure you want to delete personal details?";
 
 "Passport.DeleteAddress" = "Delete Address";
-"Passport.DeleteAddressConfirmation" = "Are you sure you want to delete address?";
+"Passport.DeleteAddressConfirmation" = "Are you sure you want to delete your address?";
 
 "Passport.DeleteDocument" = "Delete Document";
 "Passport.DeleteDocumentConfirmation" = "Are you sure you want to delete this document? All details will be lost.";
@@ -3035,20 +3035,20 @@ Unused sets are archived when you add more.";
 "Passport.Identity.TypeInternalPassportUploadScan" = "Upload a scan of your internal passport";
 "Passport.Identity.TypeIdentityCard" = "Identity Card";
 "Passport.Identity.TypeIdentityCardUploadScan" = "Upload a scan of your identity card";
-"Passport.Identity.TypeDriversLicense" = "Driver's License";
-"Passport.Identity.TypeDriversLicenseUploadScan" = "Upload a scan of your driver's license";
+"Passport.Identity.TypeDriversLicense" = "Driver's Licence";
+"Passport.Identity.TypeDriversLicenseUploadScan" = "Upload a scan of your driver's licence";
 
 "Passport.Identity.AddPersonalDetails" = "Add Personal Details";
 "Passport.Identity.AddPassport" = "Add Passport";
 "Passport.Identity.AddInternalPassport" = "Add Internal Passport";
 "Passport.Identity.AddIdentityCard" = "Add Identity Card";
-"Passport.Identity.AddDriversLicense" = "Add Driver's License";
+"Passport.Identity.AddDriversLicense" = "Add Driver's Licence";
 
 "Passport.Identity.EditPersonalDetails" = "Edit Personal Details";
 "Passport.Identity.EditPassport" = "Edit Passport";
 "Passport.Identity.EditInternalPassport" = "Edit Internal Passport";
 "Passport.Identity.EditIdentityCard" = "Edit Identity Card";
-"Passport.Identity.EditDriversLicense" = "Edit Driver's License";
+"Passport.Identity.EditDriversLicense" = "Edit Driver's Licence";
 
 "Passport.Identity.DocumentDetails" = "DOCUMENT DETAILS";
 "Passport.Identity.Name" = "First Name";
@@ -3081,11 +3081,11 @@ Unused sets are archived when you add more.";
 "Passport.Identity.FilesView" = "View";
 "Passport.Identity.FilesUploadNew" = "Upload New";
 "Passport.Identity.MainPage" = "Main Page";
-"Passport.Identity.MainPageHelp" = "Upload a main page photo of the document";
+"Passport.Identity.MainPageHelp" = "Upload a photo of the main page of the document";
 "Passport.Identity.FrontSide" = "Front Side";
-"Passport.Identity.FrontSideHelp" = "Upload a front side photo of the document";
+"Passport.Identity.FrontSideHelp" = "Upload a photo of the front side of the document";
 "Passport.Identity.ReverseSide" = "Reverse Side";
-"Passport.Identity.ReverseSideHelp" = "Upload a reverse side photo of the document";
+"Passport.Identity.ReverseSideHelp" = "Upload a photo of the reverse side of the document";
 "Passport.Identity.Selfie" = "Selfie";
 "Passport.Identity.SelfieHelp" = "Upload a selfie holding this document";
 "Passport.Identity.Translation" = "Translation";
@@ -3137,7 +3137,7 @@ Unused sets are archived when you add more.";
 "Passport.Email.Title" = "Email";
 "Passport.Email.UseTelegramEmail" = "Use %@";
 "Passport.Email.UseTelegramEmailHelp" = "Use the same address as on Telegram.";
-"Passport.Email.EnterOtherEmail" = "OR ENTER NEW EMAIL ADDRESS";
+"Passport.Email.EnterOtherEmail" = "OR ENTER A NEW EMAIL ADDRESS";
 "Passport.Email.EmailPlaceholder" = "Enter your email address";
 "Passport.Email.Help" = "Note: You will receive a confirmation code to the email address you provide.";
 "Passport.Email.Delete" = "Delete Email Address";
@@ -3152,8 +3152,8 @@ Unused sets are archived when you add more.";
 "Notification.PassportValueEmail" = "email address";
 
 "FastTwoStepSetup.HintSection" = "HINT";
-"FastTwoStepSetup.HintPlaceholder" = "Enter a hint";
-"FastTwoStepSetup.HintHelp" = "Please create an optional hint for your password.";
+"FastTwoStepSetup.HintPlaceholder" = "Add a hint";
+"FastTwoStepSetup.HintHelp" = "You can create an optional hint for your password.";
 
 "Passport.DiscardMessageTitle" = "Discard Changes";
 "Passport.DiscardMessageDescription" = "Are you sure you want to discard all changes?";
@@ -3270,14 +3270,14 @@ Unused sets are archived when you add more.";
 
 "Passport.Identity.LatinNameHelp" = "Enter your name using the Latin alphabet";
 "Passport.Identity.NativeNameTitle" = "YOUR NAME IN %@";
-"Passport.Identity.NativeNameGenericTitle" = "NAME IN DOCUMENT LANGUAGE";
-"Passport.Identity.NativeNameHelp" = "Your name in the language of the country that issued the document.";
-"Passport.Identity.NativeNameGenericHelp" = "Your name in the language of the country (%@) that issued the document.";
+"Passport.Identity.NativeNameGenericTitle" = "NAME IN COUNTRY OF RESIDENCE";
+"Passport.Identity.NativeNameHelp" = "Your name in the language of your country of residence.";
+"Passport.Identity.NativeNameGenericHelp" = "Your name in the language of your country of residence (%@).";
 
 "Passport.Identity.Translations" = "TRANSLATION";
-"Passport.Identity.TranslationsHelp" = "Upload scans of verified translation of the document.";
-"Passport.FieldIdentityTranslationHelp" = "Upload a translation of your document";
-"Passport.FieldAddressTranslationHelp" = "Upload a translation of your document";
+"Passport.Identity.TranslationsHelp" = "Upload scans of a certified English translation of the document.";
+"Passport.FieldIdentityTranslationHelp" = "Add an English translation of your document";
+"Passport.FieldAddressTranslationHelp" = "Add an English translation of your document";
 
 "Passport.FieldOneOf.Or" = "%1$@ or %2$@";
 "Passport.Identity.UploadOneOfScan" = "Upload a scan of your %@";
@@ -3292,7 +3292,7 @@ Unused sets are archived when you add more.";
 "Passport.Identity.OneOfTypePassport" = "passport";
 "Passport.Identity.OneOfTypeInternalPassport" = "internal passport";
 "Passport.Identity.OneOfTypeIdentityCard" = "identity card";
-"Passport.Identity.OneOfTypeDriversLicense" = "driver's license";
+"Passport.Identity.OneOfTypeDriversLicense" = "driver's licence";
 
 "Passport.Address.OneOfTypePassportRegistration" = "passport registration";
 "Passport.Address.OneOfTypeUtilityBill" = "utility bill";

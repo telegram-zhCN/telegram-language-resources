@@ -167,13 +167,13 @@
 
 "Alert.Forward.Error" = "Can't forward messages to this conversation.";
 
-"PreviewSender.CompressFile" = "Send compressed";
+"PreviewSender.CompressFile" = "Send as compressed";
 "PreviewSender.CaptionPlaceholder" = "Add a caption...";
 "PreviewSender.CommentPlaceholder" = "Add a comment...";
-"PreviewSender.FileTooltip" = "Send without compression";
+"PreviewSender.FileTooltip" = "Without compression";
 "PreviewSender.CollageTooltip" = "Group media into one message";
 
-"PreviewSender.MediaTooltip" = "Send in a quickway";
+"PreviewSender.MediaTooltip" = "Quick way";
 
 "Modal.Send" = "Send";
 "Modal.Share" = "Share";
@@ -187,12 +187,12 @@
 "Chat.Service.You" = "You";
 "Chat.Service.Group.Created" = "%@ created the group \"%@\"";
 "Chat.Service.Group.AddedMembers" = "%@ invited %@";
-"Chat.Service.Group.AddedSelf" = "%@ joined the group";
-"Chat.Service.Group.RemovedMembers" = "%@ removed %@";
-"Chat.Service.Group.RemovedSelf" = "%@ left the group";
+"Chat.Service.Group.AddedSelf" = "%@ joined group";
+"Chat.Service.Group.RemovedMembers" = "%@ kicked %@";
+"Chat.Service.Group.RemovedSelf" = "%@ left group";
 "Chat.Service.Group.UpdatedPhoto" = "%@ updated group photo";
 "Chat.Service.Group.RemovedPhoto" = "%@ removed group photo";
-"Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
+"Chat.Service.Group.UpdatedTitle" = "%@ changed group name to \"%@\"";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ joined group via invite link";
 "Chat.Service.Group.MigratedToSupergroup" = "This group was upgraded to a supergroup";
@@ -211,7 +211,7 @@
 
 "Chat.Input.Mute" = "Mute";
 "Chat.Input.Unmute" = "Unmute";
-"Chat.Input.Return" = "Return to the group";
+"Chat.Input.Return" = "Return to group";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the user to come online...";
 "Chat.Input.Delete" = "Delete and exit";
 "Chat.Input.Join" = "Join";
@@ -322,17 +322,17 @@
 "Login.passwordPlaceholder" = "password";
 
 "Login.EnterPasswordDescription" = "You have enabled Two-Step Verification, your account is now protected with an additional password.";
-"Login.RecoveryMailFailed" = "Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
+"Login.RecoveryMailFailed" = "Since you haven't provided a recovery e-mail during the setup of your password, your remaining options are either to remember your password or to reset your account.";
 
 "Login.ResetAccount" = "RESET MY ACCOUNT";
-"Login.ResetAccountDescription" = "You will lose all your chats and messages, along with any media and files you shared, if you proceed with resetting your account.";
+"Login.ResetAccountDescription" = "All your chats and messages, along with any media and files you shared will be lost if you proceed with resetting your account.";
 "Login.ResetAccount" = "RESET MY ACCOUNT";
 
-"PHONE_NUMBER_INVALID" = "Invalid phone number";
-"Login.FloodWait" = "Too many attempts, please try later.";
-"PHONE_CODE_INVALID" = "Invalid code";
-"PHONE_CODE_EXPIRED" = "Code expired";
-"PASSWORD_HASH_INVALID" = "Incorrect password";
+"PHONE_NUMBER_INVALID" = "invalid phone number";
+"Login.FloodWait" = "too many attempts, please try later.";
+"PHONE_CODE_INVALID" = "phone code invalid";
+"PHONE_CODE_EXPIRED" = "code expired";
+"PASSWORD_HASH_INVALID" = "incorrect password";
 
 
 
@@ -340,9 +340,9 @@
 
 
 
-"GeneralSettings.LargeFonts" = "Large Font";
+"GeneralSettings.LargeFonts" = "Large Message Font";
 "GeneralSettings.MediaKeysForInAppPlayer" = "Handle media keys for in-app player";
-"GeneralSettings.EmojiReplacements" = "Automatically replace emojis";
+"GeneralSettings.EmojiReplacements" = "Automatic replace emojis";
 "GeneralSettings.InputSettings" = "INPUT SETTINGS";
 "GeneralSettings.GeneralSettings" = "GENERAL SETTINGS";
 
@@ -359,7 +359,7 @@
 "NotificationSettings.ResetNotifications" = "Reset Notifications";
 "NotificationSettings.ResetNotificationsText" = "You can set custom notifications for specific chats below.";
 "Telegram.NotificationSettingsViewController" = "Notifications";
-"AccountSettings.DataAndStorage" = "Data and Storage";
+"AccountSettings.DataAndStorage" = "Data And Storage";
 "DefaultSoundName" = "Default";
 "NotificationSettings.Tone.Default" = "Default";
 "NotificationSettingsToneNone" = "None";
@@ -440,9 +440,9 @@
 
 
 "Channel.PrivateAboutChannel" = "Private channels can only be joined via an invite link.";
-"Channel.PublicAboutChannel" = "Public channels can be found in search, anyone can join them.";
-"Channel.PrivateAboutGroup" = "Private groups can only be joined if you were invited or have an invite link.";
-"Channel.PublicAboutGroup" = "Public groups can be found in search, chat history is available to everyone and anyone can join.";
+"Channel.PublicAboutChannel" = "Public channels can be found via search, anyone can join them.";
+"Channel.PrivateAboutGroup" = "Private groups can only be joined if you were invited or by invite link.";
+"Channel.PublicAboutGroup" = "Public groups can be found via search, chat history is available to everyone and anyone can join.";
 
 "Channel.PublicNamesLimitError" = "Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead";
 
@@ -506,14 +506,14 @@
 "ChatList.SecretChat.ExKeys" = "Waiting to come online";
 
 "ChatList.UnsupportedMessage" = "Message is not supported";
-"Chat.Message.Unsupported" = "This message is not supported by your version of Telegram. Please update to the latest version via Settings or install it from https://macos.telegram.org";
+"Chat.Message.Unsupported" = "This message is not supported by your version of Telegram. Please update to the latest version from the AppStore or install it from https://macos.telegram.org";
 "Text.Copy" = "Copy";
 
 
 "Peer.Activity.User.TypingText" = "typing";
-"Peer.Activity.User.SendingPhoto" = "sending a photo";
+"Peer.Activity.User.SendingPhoto" = "sending photo";
 "Peer.Activity.User.RecordingVideo" = "recording video";
-"Peer.Activity.User.SendingVideo" = "sending a video";
+"Peer.Activity.User.SendingVideo" = "sending video";
 "Peer.Activity.User.RecordingAudio" = "recording voice";
 "Peer.Activity.User.SendingFile" = "sending file";
 
@@ -525,7 +525,7 @@
 "Peer.Activity.Chat.RecordingAudio" = "%@ is recording voice";
 "Peer.Activity.Chat.SendingFile" = "%@ is sending file";
 
-"Peer.Activity.Chat.Multi.TypingText1" = "%@ and %d more are typing";
+"Peer.Activity.Chat.Multi.TypingText1" = "%@ and %d are typing";
 "Peer.Activity.Chat.Multi.SendingPhoto1" = "%@ and %d are sending photo";
 "Peer.Activity.Chat.Multi.RecordingVideo1" = "%@ and %d are recording video";
 "Peer.Activity.Chat.Multi.SendingVideo1" = "%@ and %d are sending video";
@@ -605,12 +605,12 @@
 "ChatList.Draft" = "Draft:";
 "ChatList.You" = "You";
 
-"Notification.LockedPreview" = "You have a new message";
+"Notification.LockedPreview" = "You have new message";
 "JoinLink.Join" = "Join";
 
-"Group.Unavailable" = "Sorry, this group doesn't seem to exist.";
+"Group.Unavailable" = "Sorry, this group does not seem to exist.";
 
-"Chat.Title.self" = "Your cloud storage";
+"Chat.Title.self" = "Your Cloud storage";
 "Separator.ShowMore" = "show more";
 "Separator.ShowLess" = "show less";
 "Separator.Clear" = "clear";
@@ -627,8 +627,8 @@
 "Chat.SecretChat.4Feature" = " - Do not allow forwarding";
 
 
-"TextView.Transform.Bold" = "Bolden";
-"TextView.Transform.Italic" = "Italicize";
+"TextView.Transform.Bold" = "Make Bold";
+"TextView.Transform.Italic" = "Make Italic";
 "TextView.Transform.Code" = "Make Monospace";
 "TextView.Transform.URL" = "Make URL";
 
@@ -672,9 +672,9 @@
 "Admins.GroupAdmins" = "GROUP ADMINS";
 "Admins.ChannelAdmins" = "CHANNEL ADMINS";
 
-"Admins.OnlyAdminsCanAddMembers" = "Only admins can add new members.";
+"Admins.OnlyAdminsCanAddMembers" = "Only Admins can add new members";
 "Admins.EverbodyCanAddMembers" = "Everybody can add new members";
-"Admins.GroupDescription" = "You can add admins to help you manage your group.";
+"Admins.GroupDescription" = "You can add admins to help you manage your group";
 "Admins.ChannelDescription" = "You can add admins to help you manage your channel";
 "Admins.SelectNewAdminTitle" = "Contacts";
 "Admins.AddAdmin" = "Add Admin";
@@ -688,15 +688,15 @@
 
 
 "PeerInfo.Confirm.AddMembers1_countable" = "%d";
-"PeerInfo.Confirm.AddMembers1_zero" = "Add %d users to the group?";
-"PeerInfo.Confirm.AddMembers1_one" = "Add %d user to the group?";
-"PeerInfo.Confirm.AddMembers1_two" = "Add %d users to the group?";
-"PeerInfo.Confirm.AddMembers1_few" = "Add %d users to the group?";
-"PeerInfo.Confirm.AddMembers1_many" = "Add %d users to the group?";
-"PeerInfo.Confirm.AddMembers1_other" = "Add %d users to the group?";
+"PeerInfo.Confirm.AddMembers1_zero" = "Add %d users to group?";
+"PeerInfo.Confirm.AddMembers1_one" = "Add %d user to group?";
+"PeerInfo.Confirm.AddMembers1_two" = "Add %d users to group?";
+"PeerInfo.Confirm.AddMembers1_few" = "Add %d users to group?";
+"PeerInfo.Confirm.AddMembers1_many" = "Add %d users to group?";
+"PeerInfo.Confirm.AddMembers1_other" = "Add %d users to group?";
 
 
-"PeerInfo.Confirm.AddMember" = "Add \"%@\" to the group?";
+"PeerInfo.Confirm.AddMember" = "Add \"%@\" to group?";
 "PeerInfo.Confirm.RemovePeer" = "Remove \"%@\" from group?";
 
 "PeerInfo.FirstName.Placeholder" = "First Name";
@@ -705,7 +705,7 @@
 "PeerInfo.ChannelName.Placeholder" = "Channel Name";
 "PeerInfo.Phone" = "phone";
 
-"ConvertToSupergroup.Alert.Error" = "Something went wrong, sorry. Please try again later.";
+"ConvertToSupergroup.Alert.Error" = "Something is wrong, please try again later.";
 "ConvertToSuperGroup.Confirm" = "Are you sure? This action cannot be undone.";
 "Telegram.LinkInvationController" = "Invite Link";
 
@@ -713,7 +713,7 @@
 "GroupInvation.Revoke" = "Revoke";
 "GroupInvation.Share" = "Share Link";
 
-"GroupInvation.GroupDescription" = "Anyone who has Telegram installed will be able to join your group by following this link.";
+"GroupInvation.GroupDescription" = "Anyone who has Telegram installed will be able to join your group by following this link";
 "GroupInvation.ChannelDescription" = "Anyone who has Telegram installed will be able to join your channel by following this link";
 
 "Chat.Header.PinnedMessage" = "Pinned message";
@@ -729,13 +729,13 @@
 "StickerPack.Add1_other" = "Add %d Stickers";
 
 "Compose.Select.SecretChat" = "Secret Chat";
-"Compose.Confirm.StartSecretChat" = "Start a secret chat with \"%@\"";
+"Compose.Confirm.StartSecretChat" = "Create secret chat with \"%@\"";
 
 
 "ReportReason.Spam" = "Spam";
 "ReportReason.Violence" = "Violence";
 "ReportReason.Porno" = "Pornography";
-"PeerInfo.ChannelReported" = "Thank you! Your report will be reviewed by our team very soon.";
+"PeerInfo.ChannelReported" = "Thank You! Your report will be reviewed by our team very soon.";
 
 "PeerInfo.SignMessages.Desc" = "Add names of the admins to the messages they post.";
 "PeerInfo.SignMessages" = "Sign Messages";
@@ -765,7 +765,7 @@
 "ChannelVisibility.Checking" = "Checking";
 "ChannelVisibility.Loading" = "Loading...";
 "ChannelVisibility.Confirm.Revoke" = "Are you sure you want to make this channel private and remove its username?";
-"Peer.DeletedUser" = "Deleted Account";
+"Peer.DeletedUser" = "Deleted User";
 
 "ChatList.Service.Call.incoming" = "Incoming Call (%@)";
 "ChatList.Service.Call.outgoing" = "Outgoing Call (%@)";
@@ -813,7 +813,7 @@
 "Peer.ServiceNotifications" = "Service Notifications";
 
 "Alert.SendError.Header" = "Your message could not be sent";
-"Alert.SendError.Text" = "An error occurred while sending the previous message. Would you like to try resending it?";
+"Alert.SendError.Text" = "An error occurred while sending the previous message. Would you like to resend it ?";
 "Alert.SendError.Resend" = "Resend";
 "Alert.SendError.Delete" = "Delete";
 "Alert.SendError.Ignore" = "Ignore";
@@ -832,14 +832,14 @@
 "Messages.ReplyLoading.Header" = "Reply";
 "Messages.ReplyLoading.Loading" = "Loading...";
 "PeerInfo.DeleteContact" = "Delete Contact";
-"PeerInfo.Confirm.DeleteContact" = "Are you sure you want to delete this contact?";
+"PeerInfo.Confirm.DeleteContact" = "Delete Contact?";
 "Compose.SelectUsers" = "Select users";
 "PeerInfo.AddContact" = "Add Contact";
 "Telegram.GroupAdminsController" = "Admins";
 "GroupAdmins.AllMembersAdmins" = "All Members Are Admins";
-"GroupAdmins.Desc.AdminInvites" = "Only admins can add and remove members, edit the name and photo of the group.";
-"GroupAdmins.Desc.AllInvites" = "Group members can add new members, edit the name and photo of the group.";
-"Login.PhoneNumberNotRegistred" = "This phone number isn't registered. If you don't have a Telegram account yet, please sign up with your mobile device.";
+"GroupAdmins.Desc.AdminInvites" = "Only admins can add and remove members, edit name and photo of this group.";
+"GroupAdmins.Desc.AllInvites" = "Group members can add new members, edit name and photo of this group.";
+"Login.PhoneNumberNotRegistred" = "Phone number not registered. If you don't have a Telegram account yet, please sign up with your mobile device.";
 "Login.YourPhoneLabel" = "your phone";
 "Login.YourCodeLabel" = "your code";
 "Login.YourPasswordLabel" = "your password";
@@ -885,8 +885,8 @@
 "Contacts.FirstName.Placeholder" = "First Name";
 "Contacts.LastName.Placeholder" = "Last Name";
 "Contacts.PhoneNumber.Placeholder" = "Phone Number";
-"Contacts.NotRegistredTitle" = "Not a Telegram User";
-"Contacts.NotRegistredDescription" = "This person is not registered on Telegram yet. \n\nYou will be able to send them a Telegram message as soon as they sign up.";
+"Contacts.NotRegistredTitle" = "Not Telegram Contact";
+"Contacts.NotRegistredDescription" = "This contact is not registered in Telegram yet. You will be able to send them a Telegram message as soon as they sign up.";
 
 "DataAndStorage.StorageUsage" = "Storage Usage";
 "DataAndStorage.NetworkUsage" = "Network Usage";
@@ -904,12 +904,12 @@
 "StorageUsage.KeepMedia" = "Keep Media";
 "StorageUsage.KeepMedia.Description" = "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.";
 "StorageUsage.ChatsHeader" = "CHATS";
-"StorageUsage.Calculating" = "Telegram is calculating current cache size. This can take a few minutes.";
+"StorageUsage.Calculating" = "Telegram is calculating current cache size.\nThis can take a few minutes.";
 "App.MaxFileSize" = "Maximum file size is 1.5 GB";
 "Message.Context.SaveGif" = "Add GIF";
-"Message.Context.RemoveGif" = "Remove GIF";
+"Message.Context.RemoveGif" = "Delete GIF";
 "Context.RecentGifRemove" = "Remove";
-"Sidebar.Avalability" = "The sidebar is only available while chatting";
+"Sidebar.Avalability" = "Sidebar available in chat";
 "Sidebar.Peer.Restricted" = "Sidebar is not available in this chat";
 
 
@@ -951,7 +951,7 @@
 
 "CallHeader.EndCall" = "End Call";
 "Call.ParticipantVersionOutdatedError" = "%@'s app does not support calls. They need to update their app before you can call them.";
-"Call.UndefinedError" = "Undefined error, please try later.";
+"Call.UndefinedError" = "Undefined Error, please try later.";
 "Call.PrivacyErrorMessage" = "Sorry, %@ doesn't accept calls.";
 
 "Call.StatusRequesting" = "Contacting...";
@@ -990,23 +990,23 @@
 "RecentCalls.Empty" = "Your recent calls will appear here";
 
 "Call.Confirm.DiscardCurrent.Header" = "Call in Progress";
-"Call.Confirm.DiscardCurrent.Description" = "Finish the call with %@ and start a new one with %@?";
+"Call.Confirm.DiscardCurrent.Description" = "Finish call with %@ and start a new one with %@?";
 "Call.RatingModal.Placeholder" = "Leave comment...";
 "QuickSwitcher.Recently" = "Recent";
 "QuickSwitcher.Popular" = "Popular";
-"QuickSwitcher.Description" = "**TAB** or **↑ ↓** to navigate, **⮐** to select, **ESC** to dismiss";
+"QuickSwitcher.Description" = "**tab** or **↑ ↓** to navigate, **⮐** to select, **esc** to dismiss";
 
 "Chat.Context.Edit1" = "Edit";
 "Chat.Context.EditHelp" = "click on date";
 "Chat.Context.EnableNotifications" = "Mute";
 "Chat.Context.DisableNotifications" = "Unmute";
-"Chat.Context.ClearHistory" = "Clear Chat";
+"Chat.Context.ClearHistory" = "Clear History";
 "Chat.Context.Info" = "Info";
 "Chat.Context.FeedInfo" = "Channels Info";
-"Chat.Context.SharedMedia" = "Media";
-"Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
+"Chat.Context.SharedMedia" = "Shared Media";
+"Payments.Unsupported" = "Sorry, Telegram Mac doesn't support payments yet. Please use one of our mobile apps to do this.";
 
-"Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
+"Chat.Service.PaymentSent" = "You have just successfully transferred **%@** to **%@** for **%@**";
 "Chat.List.Service.PaymentSent" = "Payment: %@";
 
 "Telegram.LanguageViewController" = "Language";
@@ -1070,7 +1070,7 @@
 "z6F-FW-3nz.title" = "Show Substitutions";
 "sZh-ct-GQS.title" = "Quick Search";
 
-"Login.ContinueOnLanguage" = "Continue in English";
+"Login.ContinueOnLanguage" = "Continue on English";
 "Date.Today" = "Today";
 
 /* This key for which language this file, for example: Italian -> Italiano, Russian -> Русский */
@@ -1093,10 +1093,10 @@
 "Channel.Persmission.Denied.SendMessages.Until" = "The admins of this group have restricted you from writing here until %@.";
 "Channel.Persmission.Denied.SendMessages.Forever" = "The admins of this group have restricted you from writing here";
 
-"Channel.Persmission.Denied.SendMedia.Until" = "The admins of this group have restricted you from sending media here until %@";
-"Channel.Persmission.Denied.SendMedia.Forever" = "The admins of this group have restricted you from sending media here";
+"Channel.Persmission.Denied.SendMedia.Until" = "The admins of this group have restricted you from sending media here until %@.";
+"Channel.Persmission.Denied.SendMedia.Forever" = "The admins of this group have restricted you from sending media here.";
 
-"Channel.Persmission.Denied.SendStickers.Until" = "The admins of this group have restricted you from sending stickers here until %@";
+"Channel.Persmission.Denied.SendStickers.Until" = "The admins of this group have restricted you from sending stickers here until %@.";
 "Channel.Persmission.Denied.SendStickers.Forever" = "The admins of this group have restricted you from sending stickers here.";
 
 "Channel.Persmission.Denied.SendGifs.Until" = "The admins of this group have restricted you from sending GIFs here until %@.";
@@ -1113,7 +1113,7 @@
 "Channel.Admin.WhatCanAdminDo" = "WHAT CAN THIS ADMIN DO?";
 
 "Channel.EventLog.What" = "What Is This?";
-"Channel.EventLog.Alert.Header" = "What is the event log?";
+"Channel.EventLog.Alert.Header" = "What is an event log?";
 "Channel.EventLog.Alert.Info" = "This is a list of all service actions taken by the group's members and admins in the last 48 hours.";
 
 
@@ -1156,7 +1156,7 @@
 
 "EventLog.Service.Demoted" = "restricted %@ %@ indefinitely";
 "EventLog.Service.Demoted.Until" = "restricted %@ %@ until %@";
-"EventLog.Service.Demoted.Changed" = "changed the restrictions for %@ %@ indefinitely";
+"EventLog.Service.Demoted.Changed" = "changed restrictions for %@ %@ indefinitely";
 "EventLog.Service.Demoted.Changed.Until" = "changed restrictions for %@ %@ until %@";
 "EventLog.Service.Banned" = "Banned %@ %@";
 
@@ -1299,7 +1299,7 @@
 "Telegram.BioViewController" = "Bio";
 
 "Bio.Placeholder" = "A few words about you";
-"Bio.Description" = "Any details such as age, occupation or city. Example: 23 y.o. designer from San Francisco";
+"Bio.Description" = "Any details such as age, occupation of city. Example: 23 y.o. designer from San Francisco";
 "Bio.Save" = "Save";
 
 "ServiceMessage.ExpiredPhoto" = "photo has expired";
@@ -1341,10 +1341,10 @@
 
 "PeerInfo.SetGroupStickersSet" = "Group Sticker Set";
 "Telegram.GroupStickerSetController" = "Group Sticker Set";
-"GroupStickers.CreateDescription" = "You can create your own custom sticker set using the @stickers bot.";
+"GroupStickers.CreateDescription" = "You can create your own custom sticker set using @stickers bot.";
 "GroupStickers.ChooseHeader" = "CHOOSE FROM YOUR STICKERS";
 "GroupStickers.EmptyHeader" = "No such sticker set found";
-"GroupStickers.EmptyDesc" = "Try again or choose from the list below";
+"GroupStickers.EmptyDesc" = "Try again or choose from list below";
 
 "AccountSettings.SetBio" = "Set a Bio";
 "AccountSettings.SetUsername" = "Set a Username";
@@ -1376,7 +1376,7 @@
 "ChangePhoneNumber.Intro.Alert" = "All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
 "Telegram.PhoneNumberConfirmController" = "Change Number";
 
-"ChangeNumber.SendData.Error.LimitExceeded" = "You have requested for an authorization code too many times. Please try again later.";
+"ChangeNumber.SendData.Error.LimitExceeded" = "You have requested authorization code too many times. Please try again later.";
 "ChangeNumber.SendData.Error.InvalidPhoneNumber" = "The phone number you entered is not valid. Please enter the correct number along with your area code.";
 "ChangeNumber.SendData.Error.PhoneNumberOccupied" = "The number %@ is already connected to a Telegram account. Please delete that account before migrating to the new number.";
 "ChangeNumber.SendData.Error.Generic" = "An error occurred. Please try again later.";
@@ -1425,7 +1425,7 @@
 "TwoStepAuth.ConfirmationAbort" = "Abort Two-Step Verification Setup";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Enter a password";
-"TwoStepAuth.SetupPasswordEnterPasswordNew" = "Enter a password";
+"TwoStepAuth.SetupPasswordEnterPasswordNew" = "Please enter your new password";
 "TwoStepAuth.SetupPasswordConfirmPassword" = "Please re-enter your password";
 "TwoStepAuth.SetupPasswordConfirmFailed" = "Passwords don't match. Please try again.";
 
@@ -1458,7 +1458,7 @@
 
 "TwoStepAuth.AnError" = "An error occured. Please try again later.";
 "TwoStepAuth.Error.HaventEmail" = "Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
-"TwoStepAuth.Error.LimitExceeded" = "You have entered an invalid password too many times. Please try again later.";
+"TwoStepAuth.Error.LimitExceeded" = "You have entered invalid password too many times. Please try again later.";
 "TwoStepAuth.Error.Generic" = "An error occured. Please try again later.";
 "TwoStepAuth.Confirm.DisablePassword" = "Are you sure you want to disable your password?";
 "TwoStepAuth.Error.InvalidEmail" = "Please enter valid e-mail address.";
@@ -1474,12 +1474,12 @@
 "PreviewSender.SendFile_other" = "Send %d Files";
 
 "PreviewSender.SendMedia_countable" = "%d";
-"PreviewSender.SendMedia_zero" = "Send %d Medias";
+"PreviewSender.SendMedia_zero" = "Send %d Media";
 "PreviewSender.SendMedia_one" = "Send Media";
-"PreviewSender.SendMedia_two" = "Send %d Medias";
-"PreviewSender.SendMedia_few" = "Send %d Medias";
-"PreviewSender.SendMedia_many" = "Send %d Medias";
-"PreviewSender.SendMedia_other" = "Send %d Medias";
+"PreviewSender.SendMedia_two" = "Send %d Media";
+"PreviewSender.SendMedia_few" = "Send %d Media";
+"PreviewSender.SendMedia_many" = "Send %d Media";
+"PreviewSender.SendMedia_other" = "Send %d Media";
 
 "PreviewSender.SendPhoto_countable" = "%d";
 "PreviewSender.SendPhoto_zero" = "Send %d Photos";
@@ -1499,7 +1499,7 @@
 
 "PreviewSender.SendGif_countable" = "%d";
 "PreviewSender.SendGif_zero" = "Send %d GIFs";
-"PreviewSender.SendGif_one" = "Send GIF";
+"PreviewSender.SendGif_one" = "Send a GIF";
 "PreviewSender.SendGif_two" = "Send %d GIFs";
 "PreviewSender.SendGif_few" = "Send %d GIFs";
 "PreviewSender.SendGif_many" = "Send %d GIFs";
@@ -1524,8 +1524,8 @@
 "PrivacySettings.LastSeenContactsMinusPlus" = "My Contacts (-%@, +%@)";
 "PrivacySettings.LastSeenNobodyPlus" = "Nobody (+%@)";
 
-"PrivacySettings.DeleteAccountHeader" = "DELETE MY ACCOUNT";
-"PrivacySettings.DeleteAccountDescription" = "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.";
+"PrivacySettings.DeleteAccountHeader" = "DELETE ACCOUNT";
+"PrivacySettings.DeleteAccountDescription" = "If you do not log in at least once within this period, your account will be deleted along with all groups, messages and contacts.";
 "PrivacySettings.DeleteAccount" = "If Away For";
 
 "Peer.CreatePeer.Context.UpdatePhoto" = "Update photo";
@@ -1553,7 +1553,7 @@
 "Search.Global.Channel1_other" = "%@, %d subscribers";
 
 /* "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top."; */
-"ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
+"ChatList.Context.PinErrorNew" = "Sorry, you can pin no more than 5 chats to the top.";
 
 
 "Storage.ClearAll" = "Clear All";
@@ -1573,15 +1573,15 @@
 "AppearanceSettings.ColorTheme.dark" = "Dark";
 "AppearanceSettings.ColorTheme.night_blue" = "Night Blue";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
-"AppearanceSettings.ChatView.Classic" = "Minimalist";
+"AppearanceSettings.ChatView.Classic" = "Classic";
 "AppearanceSettings.ChatView.Bubbles" = "Bubbles";
 
 
 "AppearanceSettings.ChatPreview.UserName1" = "Lucio";
 "AppearanceSettings.ChatPreview.UserName2" = "Reinhardt";
 "AppearanceSettings.ChatPreview.ZeroText" = "Reinhardt, we need to find you some new tunes 🎶.";
-"AppearanceSettings.ChatPreview.FirstText" = "Ahh you kids today with techno music! Enjoy the classics, like Hasselhoff!";
-"AppearanceSettings.ChatPreview.SecondText" = "I can't take you seriously right now. Sorry..";
+"AppearanceSettings.ChatPreview.FirstText" = "Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!";
+"AppearanceSettings.ChatPreview.SecondText" = "I can't even take you seriously right now.";
 
 "Chat.Empty.LinkPreview" = "Link Preview";
 
@@ -1592,7 +1592,7 @@
 
 "Chat.CopySelectedText" = "Copy Selected Text";
 
-"GeneralSettings.InstantView.ScrollBySpace" = "Scroll With Space";
+"GeneralSettings.InstantView.ScrollBySpace" = "Scroll By Space";
 "GeneralSettings.InstantViewHeader" = "INSTANT VIEW";
 
 "GeneralSettings.AutoplayGifs" = "Autoplay GIFs";
@@ -1634,8 +1634,8 @@
 "DataAndStorage.Confirm.ResetSettings" = "Undo all custom auto-download settings.";
 "Chat.Confirm.ReportSpamUser" = "Are you sure you want to report spam from this user?";
 "Chat.Confirm.ReportSpam" = "Report Spam?";
-"Chat.Confirm.ReportSpam.Channel" = "Report Spam and leave Channel?";
-"Chat.Confirm.ReportSpam.Group" = "Report Spam and leave Group?";
+"Chat.Confirm.ReportSpam.Channel" = "Report Spam and leave channel?";
+"Chat.Confirm.ReportSpam.Group" = "Report Spam and leave group?";
 
 "Appearance.CustomBackground" = "Custom Background";
 "Appearance.CustomBackground.FileError" = "The file size must not exceed 10MB and the image dimensions must not exceed 500x500px.";
@@ -1681,7 +1681,7 @@
 
 "WebAuthorizations.Logout" = "Disconnect";
 "WebAuthorizations.LogoutAll.Description" = "You can log in on websites that support signing in with Telegram.";
-"WebAuthorizations.LoggedIn.Descrpiption" = "LOGGED IN WITH TELEGRAM";
+"WebAuthorizations.LoggedIn.Descrpiption" = "CONNECTED WEBSITES";
 "WebAuthorizations.LogoutAll" = "Disconnect All Websites";
 "WebAuthorizations.Confirm.Revoke" = "Do you want to disconnect this website?";
 "WebAuthorizations.Confirm.RevokeAll" = "Are you sure you want to disconnect all websites?";
@@ -1695,6 +1695,25 @@
 
 
 
+"SecureId.Request.Permission.ResidentialAddress" = "Residential Address";
+"SecureId.Request.Permission.IdentityDocument" = "Identity Document";
+
+
+
+"SecureId.Request.Permission.TenancyAgreement" = "Tenancy Agreement";
+
+
+
+
+
+
+
+
+"SecureId.Request.TwoDocuments.Title" = "%@ or %@";
+
+
+"SecureId.UploadScan.Multi" = "Upload a scan of %@ or %@";
+"SecureId.UploadScan.Single" = "Upload a scan of %@";
 
 
 
@@ -1711,18 +1730,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+"SecureId.Identity.TenancyAgreement" = "Tenancy Agreement";
 
 
 
@@ -1730,7 +1738,7 @@
 "SecureId.PhoneNumber" = "Phone Number";
 "SecureId.Email" = "Email Address";
 
-"SecureId.DeletePassport" = "Delete Telegram Passport";
+"SecureId.DeletePassport" = "Delete Passport";
 
 
 
@@ -1740,6 +1748,9 @@
 
 
 
+
+"SecureId.Identity.Placeholder.MiddleName" = "Middle Name";
+"SecureId.Identity.InputPlaceholder.MiddleName" = "Middle Name";
 
 
 
@@ -1768,6 +1779,15 @@
 
 
 
+
+
+"SecureId.Address.Scans_countable" = "%d";
+"SecureId.Address.Scans_zero" = "%d scans";
+"SecureId.Address.Scans_one" = "%d scan";
+"SecureId.Address.Scans_two" = "%d scans";
+"SecureId.Address.Scans_few" = "%d scans";
+"SecureId.Address.Scans_many" = "%d scans";
+"SecureId.Address.Scans_other" = "%d scans";
 
 
 
@@ -1886,8 +1906,8 @@
 "SecureId.Edit.UtilityBill" = "Edit Utility Bill";
 "SecureId.Add.BankStatement" = "Add Bank Statement";
 "SecureId.Edit.BankStatement" = "Edit Bank Statement";
-"SecureId.Add.RentalAgreement" = "Add Rental Agreement";
-"SecureId.Edit.RentalAgreement" = "Edit Rental Agreement";
+"SecureId.Add.TenancyAgreement" = "Add Tenancy Agreement";
+"SecureId.Edit.TenancyAgreement" = "Edit Tenancy Agreement";
 "SecureId.Add.PassportRegistration" = "Add Passport Registration";
 "SecureId.Edit.PassportRegistration" = "Edit Passport Registration";
 "SecureId.Add.TemporaryRegistration" = "Add Temporary Registration";
@@ -1899,11 +1919,30 @@
 
 "SecureId.AppVersionOutdated" = "Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.";
 
+"SecureId.EmptyDescription.UtilityBill" = "Upload a scan of your utility bill";
+"SecureId.EmptyDescription.BankStatement" = "Upload a scan of your bank statement";
+"SecureId.EmptyDescription.TenancyAgreement" = "Upload a scan of your tenancy agreement";
+"SecureId.EmptyDescription.PassportRegistration" = "Upload a scan of your passport registration";
+"SecureId.EmptyDescription.TemporaryRegistration" = "Upload a scan of your temporary registration";
+
+"SecureId.EmptyDescription.PersonalDetails" = "Fill in your personal details";
+"SecureId.EmptyDescription.Address" = "Provide your address";
+
+"SecureId.EmptyDescription.Passport" = "Upload a scan of your passport";
+"SecureId.EmptyDescription.DriversLicense" = "Upload a scan of your driver's license";
+"SecureId.EmptyDescription.IdentityCard" = "Upload a scan of your identity card";
+"SecureId.EmptyDescription.InternalPassport" = "Upload a scan of your internal passport";
+
+"SecureId.CreatePassword.Intro.Header" = "**%@ requests access to your personal data**\nto sign you up for their services";
+"SecureId.CreatePassword.Intro" = "Please create a password which will be used to encrypt your personal data.\n\nThis password will also be required whenever you log in to a new device.";
+
+"SecureId.Translation.Header" = "TRANSLATION";
+"SecureId.Translation.Desc" = "Upload scans of verified translation of the document.";
 
 "ProxySettings.Item.Connected" = "connected";
-"ProxySettings.Item.ConnectedPing" = "connected (ping: %@ ms)";
+"ProxySettings.Item.ConnectedPing" = "connected (ping: %@)";
 "ProxySettings.Item.NeverConnected" = "unavailable";
-"ProxySettings.Item.Available" = "available (ping: %@ ms)";
+"ProxySettings.Item.Available" = "available (ping: %@ms)";
 "ProxySettings.Item.Checking" = "checking";
 
 "ProxySettings.Secret" = "Secret";
@@ -1959,7 +1998,7 @@
 "AudioRecord.Help.Plain" = "Release outside of circle to cancel";
 
 "Chat.ProxySponsored.CapDesc" = "This channel is shown by your proxy server";
-"Chat.ProxySponsored.CapTitle" = "Proxy Sponsor";
+"Chat.ProxySponsored.CapTitle" = "Proxy Sponsored";
 
 "Chat.ProxySponsored.AlertText" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
 "Chat.ProxySponsored.AlertSettings" = "Settings";
@@ -2004,8 +2043,8 @@
 "TermsOfService.Title" = "Terms of Service";
 "TermsOfService.Accept" = "Agree & Continue";
 "TermsOfService.Disagree" = "Decline";
-"TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
-"TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
+"TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest needs, it won't be possible for us to provide this service.";
+"TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nWe will provide a tool to download your data before June, 23 – so you may want to wait a little before deleting.";
 "TermsOfService.Disagree.Text.Last.OK" = "Delete Now";
 "TermsOfService.Disagree.OK" = "Decline & Deactivate";
 "TermsOfService.ConfirmAge" = "I confirm that I am %@ or over.";
@@ -2020,7 +2059,7 @@
 
 "Suggest.Frequent.Contacts" = "Suggest Frequent Contacts";
 "Suggest.Frequent.Contacts.Desc" = "Display people you message frequently at the top of the search section for quick access.";
-"Suggest.Frequent.Contacts.Alert" = "This will delete all data about the people you message frequently as well as the inline bots you are likely to use.";
+"Suggest.Frequent.Contacts.Alert" = "This will delete all data about the people you message frequently as well the inline bots you are likely to use.";
 
 "Telegram.PeerMediaController" = "Shared Media";
 "AccountSettings.ReadArticles" = "Read Articles";
@@ -2077,6 +2116,101 @@
 "PeerMedia.Voice" = "Voice";
 
 
+"ChatList.Swiping.Read" = "Read";
+"ChatList.Swiping.Unread" = "Unread";
+"ChatList.Swiping.Delete" = "Delete";
+"ChatList.Swiping.Pin" = "Pin";
+"ChatList.Swiping.Unpin" = "Unpin";
+"ChatList.Swiping.Mute" = "Mute";
+"ChatList.Swiping.Unmute" = "Unmute";
+
+"PeerSelect.InviteViaLink" = "Invite to Group via Link";
+
+
+"Passport.Language.ar" = "Arabic";
+"Passport.Language.az" = "Azerbaijani";
+"Passport.Language.bg" = "Bulgarian";
+"Passport.Language.bn" = "Bangla";
+"Passport.Language.cs" = "Czech";
+"Passport.Language.da" = "Danish";
+"Passport.Language.de" = "German";
+"Passport.Language.dv" = "Divehi";
+"Passport.Language.dz" = "Dzongkha";
+"Passport.Language.el" = "Greek";
+"Passport.Language.en" = "English";
+"Passport.Language.es" = "Spanish";
+"Passport.Language.et" = "Estonian";
+"Passport.Language.fa" = "Persian";
+"Passport.Language.fr" = "French";
+"Passport.Language.he" = "Hebrew";
+"Passport.Language.hr" = "Croatian";
+"Passport.Language.hu" = "Hungarian";
+"Passport.Language.hy" = "Armenian";
+"Passport.Language.id" = "Indonesian";
+"Passport.Language.is" = "Icelandic";
+"Passport.Language.it" = "Italian";
+"Passport.Language.ja" = "Japanese";
+"Passport.Language.ka" = "Georgian";
+"Passport.Language.km" = "Khmer";
+"Passport.Language.ko" = "Korean";
+"Passport.Language.lo" = "Lao";
+"Passport.Language.lt" = "Lithuanian";
+"Passport.Language.lv" = "Latvian";
+"Passport.Language.mk" = "Macedonian";
+"Passport.Language.mn" = "Mongolian";
+"Passport.Language.ms" = "Malay";
+"Passport.Language.my" = "Burmese";
+"Passport.Language.ne" = "Nepali";
+"Passport.Language.nl" = "Dutch";
+"Passport.Language.pl" = "Polish";
+"Passport.Language.pt" = "Portuguese";
+"Passport.Language.ro" = "Romanian";
+"Passport.Language.ru" = "Russian";
+"Passport.Language.sk" = "Slovak";
+"Passport.Language.sl" = "Slovenian";
+"Passport.Language.th" = "Thai";
+"Passport.Language.tk" = "Turkmen";
+"Passport.Language.tr" = "Turkish";
+"Passport.Language.uk" = "Ukrainian";
+"Passport.Language.uz" = "Uzbek";
+"Passport.Language.vi" = "Vietnamese";
+
+"SecureId.NameNative.HeaderEmpty" = "NAME IN DOCUMENT LANGUAGE";
+"SecureId.NameNative.Header" = "YOUR NAME IN %@";
+"SecureId.NameNative.Desc.Language" = "Your name in the language of the country (%@) that issued the document";
+"SecureId.NameNative.Desc.Empty" = "Your name in the language of the country that issued the document";
+
+"SecureId.Identity.NameInLatine" = "Enter your name using the Latin alphabet";
+
+
+"SecureId.Password.Error.Invalid" = "Invalid password. Please try again";
+"SecureId.Password.Error.Limit" = "Limit exceeded. Please try again later";
+
+
+"SecureId.InputError.LatinOnly" = "Please use latin characters only";
+
+"Alert.Confirm.Discard" = "Discard";
+"Alert.Confirm.Stop" = "Stop";
+
+"Appearance.Settings.AutoNight" = "Auto-Night Theme";
+
+
+"SecureId.Error.ScansLimit" = "You can't upload more than 20 files";
+"SecureId.Request.Upload.Translation" = "Upload a translation of your document";
+"SecureId.Request.Upload.Selfie" = "Upload a selfie of your document";
+
+
+"AutoNight.Settings.Sunrise.Desc" = "Calculating sunset & sunrise times requires a one-time check of your approximate location. Note that this location is stored locally on your device only.\n\nSunset: %@\nSunrise: %@";
+"AutoNight.Settings.Sunrise.Desc.NA" = "Calculating sunset & sunrise times required a one-time check of your approximate location. Note that this location is stored locally on your device only.\n\nSunset: N/A\nSunrise: N/A";
+"AutoNight.Settings.Title" = "Auto-Night Theme";
+"AutoNight.Settings.From" = "From";
+"AutoNight.Settings.To" = "To";
+"AutoNight.Settings.UpdateLocation" = "Update Location";
+"AutoNight.Settings.SunsetAndSunrise" = "Use Sunset & Sunrise";
+"AutoNight.Settings.Disabled" = "Disabled";
+"AutoNight.Settings.Scheduled" = "Scheduled";
+
+
 /* new from translations.telegram.org */
 
 "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
@@ -2085,6 +2219,8 @@
 "InputData.Date.Year.Placeholder" = "Year:";
 "Notifications.Snooze" = "Mute";
 "ProxySettings.Item.LastConnection" = "last connection %@";
+"SecureId.Add.RentalAgreement" = "Add Rental Agreement";
+"SecureId.Edit.RentalAgreement" = "Edit Rental Agreement";
 "_NS103.title" = "Edit";
 "_NS167.title" = "Window";
 "_NS70.title" = "View";

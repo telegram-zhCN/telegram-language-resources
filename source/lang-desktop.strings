@@ -198,11 +198,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_desc" = "Please enter your cloud password.";
 "lng_signin_recover_desc" = "Please enter the code from the email\n{email}";
 "lng_signin_password" = "Your cloud password";
-"lng_signin_code" = "Code from email";
+"lng_signin_code" = "Code from the email";
 "lng_signin_recover" = "Forgot password?";
 "lng_signin_recover_title" = "Password reset";
 "lng_signin_hint" = "Hint: {password_hint}";
-"lng_signin_recover_hint" = "Code was sent to {recover_email}";
+"lng_signin_recover_hint" = "We sent a code to {recover_email}";
 "lng_signin_bad_password" = "You have entered a wrong password.";
 "lng_signin_wrong_code" = "You have entered an invalid code.";
 "lng_signin_try_password" = "Having trouble accessing your email?";
@@ -406,7 +406,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_enter_first" = "Enter a password";
 "lng_cloud_password_enter_new" = "Enter new password";
 "lng_cloud_password_confirm_new" = "Re-enter new password";
-"lng_cloud_password_hint" = "Enter password hint";
+"lng_cloud_password_hint" = "Add a password hint";
 "lng_cloud_password_change_hint" = "Enter new password hint";
 "lng_cloud_password_bad" = "Password and hint cannot be the same.";
 "lng_cloud_password_email" = "Enter recovery email";
@@ -414,7 +414,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_about" = "This password will be asked when you log in on a new device in addition to the SMS code.";
 "lng_cloud_password_about_recover" = "Warning! Are you sure you don't want to\nadd a password recovery email?\n\nIf you forget your password, you will\nlose access to your Telegram account.";
 "lng_cloud_password_skip_email" = "Skip email";
-"lng_cloud_password_almost" = "A confirmation link was sent to the\nemail you provided. Two-step verification will be enabled as soon as you follow that link.";
+"lng_cloud_password_almost" = "A confirmation link was sent to the\nemail address you provided. Two-step verification will be enabled for your account as soon as you open that link.";
 "lng_cloud_password_was_set" = "Two-step verification enabled.";
 "lng_cloud_password_updated" = "Your cloud password was updated.";
 "lng_cloud_password_removed" = "Two-step verification was disabled.";
@@ -1540,13 +1540,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_date_input_month" = "Month";
 "lng_date_input_year" = "Year";
 
-"lng_passport_title" = "Telegram passport";
+"lng_passport_title" = "Telegram Passport";
 "lng_passport_request1" = "{bot} requests access to your personal data";
 "lng_passport_request2" = "to sign you up for their services";
 "lng_passport_create_password" = "Please create a password which will be used\nto encrypt your personal data.";
 "lng_passport_about_password" = "This password will also be required whenever\nyou log in to a new device.";
 "lng_passport_password_create" = "Create a password";
-"lng_passport_link_sent" = "A confirmation link was sent to your email\n{email}";
+"lng_passport_link_sent" = "A confirmation link was sent to\n{email}";
 "lng_passport_stop_password_sure" = "Are you sure you want to cancel setting up your password?";
 "lng_passport_password_placeholder" = "Your password";
 "lng_passport_next" = "Next";
@@ -1558,13 +1558,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_identity_passport_upload" = "Upload a scan of your passport";
 "lng_passport_identity_card" = "Identity card";
 "lng_passport_identity_card_upload" = "Upload a scan of your identity card";
-"lng_passport_identity_license" = "Driver's license";
-"lng_passport_identity_license_upload" = "Upload a scan of your driver's license";
+"lng_passport_identity_license" = "Driver's licence";
+"lng_passport_identity_license_upload" = "Upload a scan of your driver's licence";
 "lng_passport_identity_internal" = "Internal passport";
 "lng_passport_identity_internal_upload" = "Upload a scan of your internal passport";
 "lng_passport_identity_about" = "The document must contain your photograph, first and last name, date of birth, document number, country of issue, and expiry date.";
 "lng_passport_address_title" = "Residential address";
-"lng_passport_address_description" = "Upload a proof of your address";
+"lng_passport_address_description" = "Upload proof of your address";
 "lng_passport_address_bill" = "Utility bill";
 "lng_passport_address_bill_upload" = "Upload a scan of your utility bill";
 "lng_passport_address_statement" = "Bank statement";
@@ -1584,7 +1584,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_email_title" = "Email";
 "lng_passport_email_description" = "Enter your email address";
 "lng_passport_identity_selfie" = "Take a selfie with your document";
-"lng_passport_translation_needed" = "Upload a translation of your document";
+"lng_passport_translation_needed" = "Add an English translation of your document";
 "lng_passport_accept_allow" = "You accept the {policy} and allow their {bot} to send you messages.";
 "lng_passport_allow" = "You allow {bot} to send you messages.";
 "lng_passport_policy" = "{bot} privacy policy";
@@ -1609,7 +1609,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_upload_reverse_side" = "Upload a scan of the reverse side";
 "lng_passport_reupload_reverse_side" = "Reupload a scan of the reverse side";
 "lng_passport_main_page_title" = "Main page";
-"lng_passport_main_page_description" = "Upload the main page of your document.";
+"lng_passport_main_page_description" = "Upload a scan of the main page of your document.";
 "lng_passport_upload_main_page" = "Upload a scan of the main page";
 "lng_passport_reupload_main_page" = "Reupload a scan of the main page";
 "lng_passport_personal_details" = "Personal details";
@@ -1630,10 +1630,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_country_choose" = "Choose country";
 "lng_passport_document_number" = "Document Number";
 "lng_passport_expiry_date" = "Expiry date";
-"lng_passport_native_name_title" = "Name in document language";
-"lng_passport_native_name_about" = "Your name in the language of the country ({country}) that issued the document.";
+"lng_passport_native_name_title" = "Name in country of residence";
+"lng_passport_native_name_about" = "Your name in the language of your country of residence ({country}).";
 "lng_passport_native_name_language" = "Your name in {language}";
-"lng_passport_native_name_language_about" = "Your name in the language of the country that issued the document.";
+"lng_passport_native_name_language_about" = "Your name in the language of your country of residence.";
 "lng_passport_address" = "Address";
 "lng_passport_address_enter" = "Please provide your address";
 "lng_passport_street" = "Street";
@@ -1671,7 +1671,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_error_bad_size" = "Sorry, this image has wrong dimensions.";
 "lng_passport_error_cant_read" = "Can't read this file. Please choose an image.";
 "lng_passport_bad_name" = "Please use latin characters only.";
-"lng_passport_wait_upload" = "Please wait while upload is finished.";
+"lng_passport_wait_upload" = "Please wait until the file has finished uploading.";
 "lng_passport_app_out_of_date" = "Sorry, your Telegram app is out of date and can't handle this request. Please update Telegram.";
 
 "lng_export_title" = "Export Your Data";
