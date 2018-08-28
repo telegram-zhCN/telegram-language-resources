@@ -2856,7 +2856,7 @@ Unused sets are archived when you add more.";
 "Appearance.AccentColor" = "Accent Color";
 "Appearance.PickAccentColor" = "Pick an Accent Color";
 
-"Appearance.AutoNightTheme" = "Auto-Night Theme";
+"Appearance.AutoNightTheme" = "Auto-Night Mode";
 "Appearance.AutoNightThemeDisabled" = "Disabled";
 
 "AutoNightTheme.Title" = "Auto-Night Theme";
@@ -2865,7 +2865,7 @@ Unused sets are archived when you add more.";
 "AutoNightTheme.Automatic" = "Automatic";
 
 "AutoNightTheme.ScheduleSection" = "SCHEDULE";
-"AutoNightTheme.UseSunsetSunrise" = "Use Location Sunset & Sunrise";
+"AutoNightTheme.UseSunsetSunrise" = "Use Local Sunset & Sunrise";
 "AutoNightTheme.ScheduledFrom" = "From";
 "AutoNightTheme.ScheduledTo" = "To";
 

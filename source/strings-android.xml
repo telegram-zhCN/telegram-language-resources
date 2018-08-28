@@ -899,7 +899,7 @@
     <string name="AutoNightSchedule">Schedule</string>
     <string name="AutoNightLocation">Use Local Sunset &amp; Sunrise\n</string>
     <string name="AutoNightUpdateLocation">Update Location</string>
-    <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one-time check of your approximate location. Note that this location is stored only locally on your device.\n\nSunset: %1$s\nSunrise: %2$s</string>
+    <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.\n\nSunset: %1$s\nSunrise: %2$s</string>
     <string name="AutoNightFrom">From</string>
     <string name="AutoNightTo">To</string>
     <string name="AutoNightPreferred">Preferred night theme</string>

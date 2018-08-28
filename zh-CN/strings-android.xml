@@ -106,7 +106,6 @@
   <string name="PaymentPasswordInfo">请创建一个用于保护您的付款信息的密码。您需要在登录时输入此密码。</string>
   <string name="PaymentPasswordEmailTitle">辅助邮箱</string>
   <string name="PaymentPasswordEmail">您的邮箱</string>
-  <string name="PaymentPasswordEmailInfo">请添加您的有效邮件地址。这是唯一能够恢复忘记的密码的方法。</string>
   <string name="PaymentPhoneToProvider">电话号码将作为付款信息发送给 %1$s。</string>
   <string name="PaymentEmailToProvider">邮箱地址将作为付款信息发送给 %1$s。</string>
   <string name="PaymentPhoneEmailToProvider">电话号码和邮箱地址将作为付款信息发送给 %1$s。</string>
@@ -1207,7 +1206,6 @@
   <string name="PassportIdentityPassport">上传一份护照扫描件</string>
   <string name="PassportIdentityInternalPassport">上传您的国内护照的扫描件</string>
   <string name="PassportIdentityID">上传一份身份证扫描件</string>
-  <string name="PassportIdentityDriverLicence">上传一份驾驶证扫描件</string>
   <string name="PassportPersonal">个人信息</string>
   <string name="PassportName">姓名</string>
   <string name="PassportMidname">中间名</string>
@@ -1252,7 +1250,6 @@
   <string name="PassportDeleteScan">删除扫描件？</string>
   <string name="PassportUploadDocument">上传扫描件</string>
   <string name="PassportUploadAdditinalDocument">上传补充扫描件</string>
-  <string name="PassportUploadNotImage">您只能上传图片</string>
   <string name="PassportScanPassport">扫描你的护照</string>
   <string name="PassportScanPassportInfo">扫描带有机读区域的护照或身份证来自动填充个人信息。</string>
   <string name="PassportNoDocumentsAdd">添加一个文档</string>
