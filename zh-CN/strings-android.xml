@@ -898,7 +898,6 @@
   <string name="AutoNightSchedule">时间段</string>
   <string name="AutoNightLocation">使用当地日落/日出时间\n</string>
   <string name="AutoNightUpdateLocation">更新位置</string>
-  <string name="AutoNightUpdateLocationInfo">计算日落/日出时间需要对您的粗略位置进行一次性检测。请注意，此位置仅会以本地形式存储在您的设备上。\n\n日落：%1$s\n日出：%2$s</string>
   <string name="AutoNightFrom">从</string>
   <string name="AutoNightTo">至</string>
   <string name="AutoNightPreferred">首选夜间主题</string>

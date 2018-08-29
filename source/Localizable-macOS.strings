@@ -2177,7 +2177,7 @@
 
 "SecureId.NameNative.HeaderEmpty" = "NAME IN COUNTRY OF RESIDENCE";
 "SecureId.NameNative.Header" = "YOUR NAME IN %@";
-"SecureId.NameNative.Desc.Language" = "Your name in the language of the country (%@) that issued the document";
+"SecureId.NameNative.Desc.Language" = "Your name in the language of your country of residence (%@).";
 "SecureId.NameNative.Desc.Empty" = "Your name in the language of your country of residence";
 
 "SecureId.Identity.NameInLatine" = "Enter your name using the Latin alphabet";
