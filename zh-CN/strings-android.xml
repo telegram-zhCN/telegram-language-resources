@@ -1773,7 +1773,6 @@
   <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
   <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
   <string name="TosUpdateDecline">我们感到非常抱歉，但这意味着我们必须分道扬镳了。与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们就无法提供此项服务。您可以现在就删除您的账号；或是再看看，直到您觉得我们使用您的数据的方式不满意时再删除。</string>
-  <string name="TosDeclineDeleteAccount">警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 &gt; 导出 Telegram 数据。）</string>
   <!--permissions-->
   <string name="PermissionContacts">为了让您能在任意设备上和朋友联系，您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="PermissionStorage">Telegram 需要访问您的本地存储才能使您发送和保存照片，视频，音乐和其他媒体文件。</string>

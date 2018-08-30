@@ -2,8 +2,8 @@
 <resources>
   <string name="AppName">Telegram X</string>
   <string name="AppNameAndVersion">Telegram X %1$s</string>
-  <string name="language_code">zh_CN</string>
-  <string name="language_name">Chinese Simplified</string>
+  <string name="language_code">zh-CN</string>
+  <string name="language_name">中文（简体）</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
   <string name="language_dateFormatLocale">zh-CN</string>
   <string name="language_rtl">0</string>
@@ -498,6 +498,7 @@
   <string name="Contacts">联系人</string>
   <string name="Invite">邀请</string>
   <string name="Help">帮助</string>
+  <string name="AskAQuestionInfo">请注意，Telegram 的支持服务来自志愿者，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。\n\n请前往 [Telegram 常见问题](https://telegram.org/faq#general-questions) 看看：那里有绝大多数问题的答案和重要的 [故障排除](https://telegram.org/faq#troubleshooting) 提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="OpenThisLink">打开此链接？\n\n%1$s</string>
   <string name="YouCantSendMessages">您不能在此对话中发布内容</string>
@@ -508,6 +509,7 @@
   <string name="SecretChatCancelled">加密对话已取消</string>
   <string name="SecretChats">加密对话</string>
   <string name="ChatTitleSecretChat">%1$s（加密对话）</string>
+  <string name="format_EncryptedDescription">• %1$s\n• %2$s\n• %3$s\n• %4$s</string>
   <string name="EncryptedDescription1">使用端到端加密</string>
   <string name="EncryptedDescription2">不会在我们的服务器上留下任何痕迹</string>
   <string name="EncryptedDescription3">支持阅后即焚</string>
@@ -527,9 +529,14 @@
   <string name="PrivacySettings">隐私和安全</string>
   <string name="AskAQuestion">向我们提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
+  <string name="HideForYourself">暂时对自己隐藏</string>
   <string name="DataSaver">节省移动数据流量</string>
+  <string name="DataSaverDesc">当流量节省开启时，将不会自动下载多媒体文件。
+开启时仍未完成的下载会被暂停。</string>
   <string name="TurnOnAutomatically">自动开启</string>
-  <string name="InPrivateChats">在私密对话中</string>
+  <string name="InPrivateChats">在私聊中</string>
+  <string name="InGroups">在群组中</string>
+  <string name="InChannels">在频道中</string>
   <string name="AutomaticMediaDownload">自动下载媒体文件</string>
   <string name="Advanced">高级</string>
   <string name="Never">从不</string>
@@ -550,8 +557,15 @@
   <string name="NoMusic">排除音乐</string>
   <string name="Other">其它</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
+  <string name="RestrictOnWiFi">接入 Wi-Fi 时限制下载</string>
+  <string name="RestrictOverMobile">使用移动数据流量时限制下载</string>
+  <string name="RestrictOnRoaming">漫游时限制下载</string>
+  <string name="MediaExceedingX">任何体积超过 %1$s 的多媒体</string>
+  <string name="AnyMedia">任何多媒体文件</string>
+  <string name="Nothing">没有东西</string>
   <string name="BioNone">无</string>
   <string name="BlockedNone">无</string>
+  <string name="NoRestrictions">无限制</string>
   <string name="Save">保存</string>
   <string name="PrivacyTitle">私密</string>
   <string name="BlockedUsers">已屏蔽的用户</string>
@@ -563,6 +577,7 @@
   <string name="PasswordEnabled">启用</string>
   <string name="PasswordDisabled">已禁用</string>
   <string name="CurrentSession">当前设备</string>
+  <string name="NoOtherSessions">没有其他的活动会话</string>
   <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其他手机、平板和桌面设备上登录。
 所有数据会即时同步。</string>
   <string name="TerminateAllSessions">注销所有其它设备上的对话</string>
@@ -573,8 +588,10 @@
   <string name="Everybody">所有人</string>
   <string name="MyContacts">我的联系人</string>
   <string name="Nobody">不允许任何人</string>
+  <string name="WhoCanAddYouToGroupsAndChannels">谁可以邀请您到群组或频道？</string>
   <string name="WhoCanAddMeInfo">您可以限制其他人将您添加到群组或频道的权限</string>
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
+  <string name="CustomHelp">重要提示：对于您不愿意暴露最后上线时间的对象，他们最后的上线时间您也将无法看到。取而代之的是大概的上线时间（如：最近、一周内、一个月内）。</string>
   <string name="AlwaysShareWith">总是共享给</string>
   <string name="NeverShareWith">从不共享给</string>
   <string name="CustomShareSettingsHelp">这些设定会覆盖上面的设定。</string>
@@ -584,15 +601,25 @@
   <string name="NeverAllow">从不允许</string>
   <string name="SetAdditionalPassword">设置附加密码</string>
   <string name="SetAdditionalPasswordInfo">您可以设置一个密码，这将作为在一台新设备登录时输入短信验证码后额外的身份验证。</string>
+  <string name="EnabledPasswordText">您已启用两步验证。\n今后您在新设备登录时，将需要输入您设置的附加密码，才能登录您的 Telegram 帐号。</string>
   <string name="ChangePassword">更改密码</string>
+  <string name="DisablePassword">禁用密码</string>
   <string name="SetRecoveryEmail">设置密码恢复邮箱</string>
   <string name="ChangeRecoveryEmail">更改密码恢复邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
   <string name="YourPassword">您的密码</string>
   <string name="EnterAPassword">请输入密码</string>
+  <string name="ReEnterAPassword">请再次输入密码</string>
+  <string name="EnterANewPassword">请输入新密码</string>
+  <string name="EnterANewEmail">请输入新邮箱</string>
   <string name="ForgotPassword">忘记密码？</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
+  <string name="SinceNotProvided">由于您在设置密码时未提供密保邮箱，您现在只能尝试想起密码，或者重置账号。</string>
   <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
+  <string name="CreateAHintForYourPassword">请设置一个密码提示</string>
+  <string name="RecoveryCodeSent">我们已经发送了一个 6 位的恢复代码到 %1$s。请查看您收到的邮件并在此输入代码。</string>
+  <string name="HavingTroubleAccessing">无法访问您的密码恢复邮箱\n %1$s?</string>
+  <string name="RestoreEmailTroubleText">如果您无法恢复对您的邮箱的访问权，您剩余的选项就是记起您的密码，或者重置您的账户。</string>
   <string name="EnterCode">输入验证码</string>
   <string name="PasswordRecovery">找回密码</string>
   <string name="LoginPasswordText">您已经启用两步认证，这个附加的密码将保护您的帐号。</string>
@@ -604,9 +631,15 @@
   <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
   <string name="PasswordDoNotMatch">密码不匹配</string>
   <string name="CheckYourVerificationEmail">请检查邮箱，并点击验证链接来完成两步验证的设置。如未收到邮件请查看垃圾邮件。</string>
+  <string name="InvalidCode">验证码无效，请重试。</string>
   <string name="AbortPassword">取消两步验证设置</string>
+  <string name="AwaitingEmailConfirmation">等待确认邮件</string>
+  <string name="InvalidPasswordTryAgain">密码无效，请重新输入。</string>
+  <string name="PasswordAndHintMustBeDifferent">密码与密码提示不能相同。</string>
+  <string name="RecoveryCodeInvalid">恢复码无效，请重新输入。</string>
+  <string name="PasswordMatchesOldOne">新密码与旧密码相同。</string>
   <string name="Hint">提示： %1$s</string>
-  <string name="PrivateChats">私密对话</string>
+  <string name="PrivateChats">私聊</string>
   <string name="MessagePreview">消息预览</string>
   <string name="Vibrate">振动</string>
   <string name="VibrateDisabled">已禁用</string>
@@ -648,6 +681,12 @@
   <string name="New">新建</string>
   <string name="Add">设置</string>
   <string name="AddMemberBtn">设置</string>
+  <string name="QBlockX">屏蔽 %1$s？</string>
+  <string name="QUnblockX">取消屏蔽 %1$s？</string>
+  <string name="YouTookAScreenshot">你截了一张图</string>
+  <string name="XTookAScreenshot">%1$s 截了一张图</string>
+  <string name="YouDisabledTimer">您取消了阅后即焚计时器</string>
+  <string name="XDisabledTimer">%1$s 取消了阅后即焚计时器</string>
   <string name="YouSetTimer">您已将阅后即焚计时器设定为 %1$s</string>
   <string name="XSetTimer">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="AddCaption">添加说明...</string>
@@ -665,9 +704,11 @@
   <string name="Blur">模糊</string>
   <string name="BlurRadial">圆形</string>
   <string name="BlurLinear">线性</string>
+  <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
   <string name="DeleteForUser">为 %1$s 删除</string>
   <string name="DeleteForEveryone">删除并撤回</string>
+  <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
   <string name="ReportSpam">举报垃圾信息</string>
   <string name="BanUser">封禁用户</string>
   <string name="Pin">置顶</string>
@@ -679,6 +720,10 @@
   <string name="PinMessageInThisChannel">您要在这个频道里置顶这条消息吗？</string>
   <string name="PinNotify">通知所有成员</string>
   <string name="ActionPinnedText">%1$s置顶了“%2$s”</string>
+  <string name="ActionPinnedGame">%1$s 置顶了 %2$s</string>
+  <string name="ActionPinnedNoText">%1$s 置顶了 1 条消息</string>
+  <string name="ActionPinnedGeo">%1$s 置顶了 1 个位置</string>
+  <string name="UnknownTrack">未知音轨</string>
   <string name="AudioUnknownArtist">未知艺术家</string>
   <string name="UsernameInUse">抱歉，此用户名已被使用。</string>
   <string name="UsernameInvalid">抱歉，此用户名无效。</string>
@@ -868,6 +913,7 @@
   <string name="SendSticker">发送贴纸</string>
   <string name="ViewPackPreview">查看对应贴纸包</string>
   <string name="UserBio">个人简介</string>
+  <string name="BioDescription">一些个人简介，例如年龄、工作或城市。\n示例：23 岁，来自旧金山的设计师</string>
   <string name="AttachPhotoExpired">图片已自毁</string>
   <string name="AttachVideoExpired">视频已自毁</string>
   <string name="SendByEnter">使用回车键发送消息</string>
@@ -1054,7 +1100,7 @@
   <string name="PlayPlay">播放</string>
   <string name="PlayPause">暂停</string>
   <string name="PlayStop">停止</string>
-  <string name="NotificationChannelCommonPrivate">适用于所有私密对话的默认消息提醒设置</string>
+  <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
   <string name="NotificationChannelCall">接听电话</string>
