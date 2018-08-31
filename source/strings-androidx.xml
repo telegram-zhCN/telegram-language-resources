@@ -511,7 +511,7 @@
   <string name="EditMessage">Edit message</string>
   <string name="NotNow">Not now</string>
   <string name="ChannelNotifyMembersInfoOn">Members will be notified when you post</string>
-  <string name="ChannelNotifyMembersInfoOff">Members will not be notified when you post</string>
+  <string name="ChannelNotifyMembersInfoOff">Members will receive a silent notification</string>
   <string name="ChannelSilentBroadcast">Silent Broadcast</string>
   <string name="MessageLifetime">Self-Destruct Timer</string>
   <string name="Done">Done</string>

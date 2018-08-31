@@ -320,7 +320,7 @@
     <string name="WhoCanAddMembersAllMembers">All Members</string>
     <string name="WhoCanAddMembersAdmins">Only Admins</string>
     <string name="ChannelNotifyMembersInfoOn">Members will be notified when you post</string>
-    <string name="ChannelNotifyMembersInfoOff">Members will not be notified when you post</string>
+    <string name="ChannelNotifyMembersInfoOff">Members will receive a silent notification</string>
     <string name="ChannelSignMessages">Sign Messages</string>
     <string name="ChannelSignMessagesInfo">Add names of the admins to the messages they post.</string>
     <string name="EditAdmin">Edit Admin</string>

@@ -1699,7 +1699,7 @@
 
 "Conversation.InputTextSilentBroadcastPlaceholder" = "Silent Broadcast";
 "Conversation.SilentBroadcastTooltipOn" = "Members will be notified when you post";
-"Conversation.SilentBroadcastTooltipOff" = "Members will not be notified when you post";
+"Conversation.SilentBroadcastTooltipOff" = "Members will receive a silent notification";
 
 "Settings.About" = "Bio";
 "GroupInfo.LabelAdmin" = "admin";
