@@ -319,7 +319,6 @@
   <string name="WhoCanAddMembersAllMembers">所有成员</string>
   <string name="WhoCanAddMembersAdmins">仅管理员</string>
   <string name="ChannelNotifyMembersInfoOn">消息发布后用户会收到通知</string>
-  <string name="ChannelNotifyMembersInfoOff">消息发布后用户不会收到通知</string>
   <string name="ChannelSignMessages">消息署名</string>
   <string name="ChannelSignMessagesInfo">在管理员发送的消息上附加他们的名字</string>
   <string name="EditAdmin">编辑管理员</string>

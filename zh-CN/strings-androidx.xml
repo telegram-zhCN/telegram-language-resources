@@ -517,7 +517,6 @@
   <string name="EditMessage">编辑消息</string>
   <string name="NotNow">不是现在</string>
   <string name="ChannelNotifyMembersInfoOn">消息发布后向将订阅者推送通知</string>
-  <string name="ChannelNotifyMembersInfoOff">消息发布后不通知订阅者</string>
   <string name="ChannelSilentBroadcast">静音发布</string>
   <string name="MessageLifetime">阅后即焚计时器</string>
   <string name="Done">完成</string>
