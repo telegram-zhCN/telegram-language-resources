@@ -1783,6 +1783,8 @@
   <string name="LocalizationCopy">Copy original</string>
   <string name="LocalizationPaste">Paste original</string>
   <string name="LocalizationFileNamePlaceholder">YOUR_FILE_NAME</string>
+  <string name="url_faq">https://telegram.org/faq#general-questions</string>
+  <string name="url_translationsPrefix">https://translations.telegram.org/en/android_x/unsorted/</string>
 
 
   <!-- new from translations.telegram.org -->

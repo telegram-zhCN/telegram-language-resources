@@ -319,6 +319,7 @@
   <string name="WhoCanAddMembersAllMembers">所有成员</string>
   <string name="WhoCanAddMembersAdmins">仅管理员</string>
   <string name="ChannelNotifyMembersInfoOn">消息发布后用户会收到通知</string>
+  <string name="ChannelNotifyMembersInfoOff">订阅者将接收一个无声通知</string>
   <string name="ChannelSignMessages">消息署名</string>
   <string name="ChannelSignMessagesInfo">在管理员发送的消息上附加他们的名字</string>
   <string name="EditAdmin">编辑管理员</string>
@@ -1204,6 +1205,7 @@
   <string name="PassportIdentityPassport">上传一份护照扫描件</string>
   <string name="PassportIdentityInternalPassport">上传您的国内护照的扫描件</string>
   <string name="PassportIdentityID">上传一份身份证扫描件</string>
+  <string name="PassportIdentityDriverLicence">上传一份驾驶证扫描件</string>
   <string name="PassportPersonal">个人信息</string>
   <string name="PassportName">姓名</string>
   <string name="PassportMidname">中间名</string>
