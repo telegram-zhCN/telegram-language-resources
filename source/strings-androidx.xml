@@ -54,6 +54,7 @@
   <string name="format_membersAndOnline">%1$s, %2$s</string>
   <string name="format_photosAndVideos">%1$s, %2$s</string>
   <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
+  <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
   <string name="format_locationUpdated">updated %1$s</string>
@@ -862,6 +863,7 @@
   <string name="NetworkUsageSince">Network usage since %1$s</string>
   <string name="SentX">Sent: %1$s</string>
   <string name="ReceivedX">Received: %1$s</string>
+  <string name="format_receivedAndSent">%1$s %2$s</string>
   <string name="ResetStatsHint">Do you want to reset your network usage statistics?</string>
   <string name="Reset">Reset</string>
   <string name="TotalDataUsage">Total</string>
@@ -880,7 +882,7 @@
   <string name="SecretFiles">Secret media and files</string>
   <string name="Clear">Clear</string>
   <string name="ClearX">Clear %1$s</string>
-  <string name="ServiceNetworkReceiver">This receiver helps determining current connection state for receiving message notifications.</string>
+  <string name="service_Notifications">This service is used for displaying message notifications.</string>
   <string name="UnmutesInX">Unmute in %1$s</string>
   <string name="MuteForever">Mute forever</string>
   <string name="NotificationsCustomize">Customize</string>
