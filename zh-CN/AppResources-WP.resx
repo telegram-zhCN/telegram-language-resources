@@ -3819,7 +3819,7 @@ You can log in on websites that support signing in with Telegram.</value>
     <value>地址</value>
   </data>
   <data name="PassportAddressInfo" xml:space="preserve">
-    <value>请输入地址</value>
+    <value>上传您的地址证明</value>
   </data>
   <data name="PassportNoPolicy" xml:space="preserve">
     <value>You are sending your documents directly to {0} and allowing their {1} to send you messages.</value>
@@ -4204,7 +4204,7 @@ You can visit our FAQ to learn more.</value>
     <value>住址</value>
   </data>
   <data name="PassportSurname" xml:space="preserve">
-    <value>姓</value>
+    <value>姓氏</value>
   </data>
   <data name="PassportSelectGender" xml:space="preserve">
     <value>选择性别</value>
@@ -4262,5 +4262,96 @@ You can visit our FAQ to learn more.</value>
   </data>
   <data name="PassportInfoTitle" xml:space="preserve">
     <value>什么是 Telegram Passport？</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>侵犯版权</value>
+  </data>
+  <data name="PassportAddTranslationDriverLicenceInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your driver licence.</value>
+  </data>
+  <data name="PassportAddTranslationIdentityCardInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your identity card.</value>
+  </data>
+  <data name="PassportAddTranslationInternalPassportInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your internal passport.</value>
+  </data>
+  <data name="PassportAddTranslationPassportInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your passport.</value>
+  </data>
+  <data name="PassportAddTranslationAgreementInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your tenancy agreement.</value>
+  </data>
+  <data name="PassportAddTranslationBankInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your bank statement.</value>
+  </data>
+  <data name="PassportAddTranslationBillInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your utility bill.</value>
+  </data>
+  <data name="PassportAddTranslationPassportRegistrationInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your passport registration page.</value>
+  </data>
+  <data name="PassportAddTranslationTemporaryRegistrationInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of your temporary registration.</value>
+  </data>
+  <data name="PassportAddTranslationUploadInfo" xml:space="preserve">
+    <value>Upload scans of a certified English translation of the document.</value>
+  </data>
+  <data name="PassportTranslation" xml:space="preserve">
+    <value>翻译</value>
+  </data>
+  <data name="PassportDataCorrupted" xml:space="preserve">
+    <value>It seems your Telegram Passport data was corrupted.
+You can reset your Telegram Passport.</value>
+  </data>
+  <data name="PassportOr" xml:space="preserve">
+    <value>{0} or {1}</value>
+  </data>
+  <data name="PassportIdentityDocument" xml:space="preserve">
+    <value>身份档案</value>
+  </data>
+  <data name="PassportAddressNoUploadInfo" xml:space="preserve">
+    <value>请输入地址</value>
+  </data>
+  <data name="PassportIdentityDocumentInfo" xml:space="preserve">
+    <value>上传一份护照或其他身份证件的扫描件</value>
+  </data>
+  <data name="PassportIdentityDriverLicence" xml:space="preserve">
+    <value>上传一份驾驶证扫描件</value>
+  </data>
+  <data name="PassportIdentityID" xml:space="preserve">
+    <value>上传一份身份证扫描件</value>
+  </data>
+  <data name="PassportIdentityInternalPassport" xml:space="preserve">
+    <value>上传您的国内护照的扫描件</value>
+  </data>
+  <data name="PassportIdentityPassport" xml:space="preserve">
+    <value>上传一份护照扫描件</value>
+  </data>
+  <data name="PassportMidname" xml:space="preserve">
+    <value>中间名</value>
+  </data>
+  <data name="PassportMidnameCountry" xml:space="preserve">
+    <value>Middle name ({0})</value>
+  </data>
+  <data name="PassportMidnameLatin" xml:space="preserve">
+    <value>Middle name (latin)</value>
+  </data>
+  <data name="PassportNameCountry" xml:space="preserve">
+    <value>Name ({0})</value>
+  </data>
+  <data name="PassportNameLatin" xml:space="preserve">
+    <value>Name (latin)</value>
+  </data>
+  <data name="PassportNativeHeader" xml:space="preserve">
+    <value>您的姓名</value>
+  </data>
+  <data name="PassportNativeInfo" xml:space="preserve">
+    <value>Your name in the language of your country of residence ({0}).</value>
+  </data>
+  <data name="PassportSurnameCountry" xml:space="preserve">
+    <value>Last name ({0})</value>
+  </data>
+  <data name="PassportSurnameLatin" xml:space="preserve">
+    <value>Last name (latin)</value>
   </data>
 </root>

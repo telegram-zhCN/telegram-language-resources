@@ -861,9 +861,6 @@
   <string name="CleaningUp">Cleaning up…</string>
   <string name="ResetStatistics">Reset statistics</string>
   <string name="NetworkUsageSince">Network usage since %1$s</string>
-  <string name="SentX">Sent: %1$s</string>
-  <string name="ReceivedX">Received: %1$s</string>
-  <string name="format_receivedAndSent">%1$s %2$s</string>
   <string name="ResetStatsHint">Do you want to reset your network usage statistics?</string>
   <string name="Reset">Reset</string>
   <string name="TotalDataUsage">Total</string>
