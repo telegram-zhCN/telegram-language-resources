@@ -870,9 +870,6 @@
   <string name="CleaningUp">正在清理……</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
-  <string name="SentX">发送者：%1$s</string>
-  <string name="ReceivedX">接收者：%1$s</string>
-  <string name="format_receivedAndSent">%1$s %2$s</string>
   <string name="ResetStatsHint">您确定要重置网络用量统计数据吗</string>
   <string name="Reset">重置</string>
   <string name="TotalDataUsage">总计</string>
