@@ -1537,8 +1537,10 @@
   <string name="LocalisationApplied">成功安装本地化文件</string>
   <string name="LanguageSectionInstalled">已安装</string>
   <string name="TranslationMoreTitle">找不到你的语言？</string>
+  <string name="TranslationMoreDone">好</string>
   <string name="TranslationMoreCreate">创建</string>
   <string name="OK">确定</string>
+  <string name="RemoveLanguage">删除本地化文件</string>
   <string name="LocalizationCreateDone">创建</string>
   <string name="LocalizationEditConfirmDiscard">撤销</string>
   <string name="LocalizationTranslation">翻译</string>
