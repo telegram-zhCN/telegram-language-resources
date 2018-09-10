@@ -369,7 +369,7 @@
   <string name="EventLogEmptyTextSearch">找不到包含 ‘**%1$s**’ 的近期操作。</string>
   <string name="EventLogInfoTitle">什么是近期操作？</string>
   <string name="EventLogInfoDetail">此列表包含了在过去 48 小时内群组成员和管理员执行的所有服务操作。</string>
-  <string name="EventLogInfoDetailChannel">此列表包含了在过去 48 小时内频道管理员执行的所有服务操作。</string>
+  <string name="EventLogInfoDetailChannel">此列表包含了在过去 48 小时内频道管理员执行的所有管理操作。</string>
   <string name="EventLogEditedGroupTitle">un1 将群组名称更改为 \"%1$s\"</string>
   <string name="EventLogEditedChannelTitle">un1 将频道名称更改为 \"%1$s\"</string>
   <string name="EventLogLeftGroup">un1 退出了群组</string>
@@ -546,10 +546,10 @@
   <string name="CancelSending">取消发送</string>
   <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的电话号码) 到通过机器人打开的网页？</string>
   <string name="ReportSpam">举报垃圾信息</string>
-  <string name="ReportSpamAndLeave">举报垃圾信息并退出</string>
+  <string name="ReportSpamAndLeave">举报垃圾信息并离开</string>
   <string name="AddContactChat">添加联系人</string>
   <string name="ViewContact">查看联系人</string>
-  <string name="ReportSpamAlert">您确定要举报此用户发送了垃圾信息？</string>
+  <string name="ReportSpamAlert">您确定要举报此用户发送垃圾信息？</string>
   <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
   <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
   <string name="NobodyLikesSpam1">抱歉，您现在只能给双向联系人发送信息。</string>
@@ -798,7 +798,7 @@
   <string name="ShareContact">分享</string>
   <string name="AddContact">添加</string>
   <string name="AddContactTitle">添加联系人</string>
-  <string name="ContactNotRegistered">%1$s 没有在使用 Telegram，是否邀请他加入？</string>
+  <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
   <string name="Invite">邀请</string>
   <string name="BlockContact">屏蔽</string>
   <string name="EditContact">编辑</string>
@@ -873,9 +873,9 @@
   <string name="Masks">装饰</string>
   <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
   <string name="FeaturedStickers">热门贴纸</string>
-  <string name="SuggestStickers">通过 emoji 推荐热门表情</string>
+  <string name="SuggestStickers">通过 Emoji 推荐热门表情</string>
   <string name="SuggestStickersAll">全部</string>
-  <string name="SuggestStickersInstalled">已添加</string>
+  <string name="SuggestStickersInstalled">已添加的</string>
   <string name="SuggestStickersNone">无</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已归档贴纸</string>
@@ -1583,7 +1583,7 @@
   <string name="AlwaysAllowPlaceholder">总是允许...</string>
   <string name="NeverAllowPlaceholder">从不允许...</string>
   <string name="CustomShareInfo">根据上面的设置，这些用户将能够或不能将您添加到群组或频道。</string>
-  <string name="GroupsAndChannelsHelp">控制将您添加到群组或频道的权限</string>
+  <string name="GroupsAndChannelsHelp">控制谁能邀请您进入群组或频道。</string>
   <string name="InviteToGroupError">抱歉，根据该用户的隐私设置，您不能将其添加到群组。</string>
   <string name="InviteToChannelError">抱歉，根据该用户的隐私设置，您不能将其添加到频道。</string>
   <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>

@@ -2374,7 +2374,7 @@
     <value>总是允许</value>
   </data>
   <data name="GroupsDescription" xml:space="preserve">
-    <value>控制将您添加到群组或频道的权限</value>
+    <value>控制谁能邀请您进入群组或频道</value>
   </data>
   <data name="GroupsImportantNote" xml:space="preserve">
     <value>您可以限制其他人将您添加到群组或频道的权限。</value>
