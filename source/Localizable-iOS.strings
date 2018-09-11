@@ -228,8 +228,8 @@
 "Login.InfoTitle" = "Your Info";
 "Login.InfoAvatarAdd" = "add";
 "Login.InfoAvatarPhoto" = "photo";
-"Login.InfoFirstNamePlaceholder" = "First name";
-"Login.InfoLastNamePlaceholder" = "Last name";
+"Login.InfoFirstNamePlaceholder" = "First Name";
+"Login.InfoLastNamePlaceholder" = "Last Name";
 "Login.InfoDeletePhoto" = "Delete Photo";
 "Login.InfoHelp" = "Enter your name and add a profile picture.";
 
@@ -243,7 +243,7 @@
 "DialogList.NoMessagesTitle" = "You have no conversations yet";
 "DialogList.NoMessagesText" = "Start messaging by pressing the pencil button in the top right corner or go to the Contacts section.";
 "DialogList.SingleTypingSuffix" = "%@ is typing";
-"DialogList.SingleRecordingAudioSuffix" = "%@ is recording audio";
+"DialogList.SingleRecordingAudioSuffix" = "%@ is recording";
 "DialogList.SingleUploadingPhotoSuffix" = "%@ is sending photo";
 "DialogList.SingleUploadingVideoSuffix" = "%@ is sending video";
 "DialogList.SingleRecordingVideoMessageSuffix" = "%@ is recording video";
@@ -270,8 +270,8 @@
 "Contacts.Title" = "Contacts";
 "Contacts.FailedToSendInvitesMessage" = "An error occurred.";
 "Contacts.AccessDeniedError" = "Telegram does not have access to your contacts";
-"Contacts.AccessDeniedHelpLandscape" = "Please go to your %@ Settings — Privacy — Contacts.\nThen select ON for Telegram.";
-"Contacts.AccessDeniedHelpPortrait" = "Please go to your %@ Settings — Privacy — Contacts. Then select ON for Telegram.";
+"Contacts.AccessDeniedHelpLandscape" = "Please go to your %@ Settings > Privacy > Contacts.\nThen select ON for Telegram.";
+"Contacts.AccessDeniedHelpPortrait" = "Please go to your %@ Settings > Privacy > Contacts. Then select ON for Telegram.";
 "Contacts.AccessDeniedHelpON" = "ON";
 "Contacts.InviteToTelegram" = "Invite to Telegram";
 "Contacts.InviteFriends" = "Invite Friends";
@@ -353,7 +353,7 @@
 "Notification.CreatedChatWithTitle" = "%@ created the group \"%@\"";
 "Notification.Joined" = "%@ joined Telegram";
 "Notification.ChangedGroupName" = "%@ changed group name to \"%@\"";
-"Notification.NewAuthDetected" = "%1$@,\nWe detected a login into your account from a new device on %2$@, %3$@ at %4$@\n\nDevice: %5$@\nLocation: %6$@\n\nIf this wasn't you, you can go to Settings — Privacy and Security — Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team";
+"Notification.NewAuthDetected" = "%1$@,\nWe detected a login into your account from a new device on %2$@, %3$@ at %4$@\n\nDevice: %5$@\nLocation: %6$@\n\nIf this wasn't you, you can go to Settings > Privacy and Security > Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team";
 "Notification.MessageLifetimeChanged" = "%1$@ set the self-destruct timer to %2$@";
 "Notification.MessageLifetimeChangedOutgoing" = "You set the self-destruct timer to %1$@";
 "Notification.MessageLifetimeRemoved" = "%1$@ disabled the self-destruct timer";
@@ -470,7 +470,7 @@
 
 // Encryption Key
 "EncryptionKey.Title" = "Encryption Key";
-"EncryptionKey.Description" = "This image and text were derived from the encryption key for this secret chat with %1$@.\n\n If they look the same on %2$@'s device, end-to-end encryption is guaranteed.\n\nLearn more at telegram.org";
+"EncryptionKey.Description" = "This image and text were derived from the encryption key for this secret chat with %1$@.\n\nIf they look the same on %2$@'s device, end-to-end encryption is guaranteed.\n\nLearn more at telegram.org";
 
 // Conversation media
 "ConversationMedia.Title" = "Media";
@@ -663,7 +663,7 @@
 "Activity.UploadingPhoto" = "sending a photo";
 "Activity.UploadingVideo" = "sending a video";
 "Activity.UploadingDocument" = "sending a file";
-"Activity.RecordingAudio" = "recording audio";
+"Activity.RecordingAudio" = "recording";
 "Activity.RecordingVideoMessage" = "recording video";
 
 
@@ -678,7 +678,7 @@
 "Username.Help" = "You can choose a username on **Telegram**. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use **a-z**, **0-9** and underscores. Minimum length is **5** characters.";
 "Username.InvalidTooShort" = "A username must have at least 5 characters.";
 "Username.InvalidStartsWithNumber" = "Sorry, a username can't start with a number.";
-"Username.InvalidCharacters" = "Sorry, this username is invalid.";
+"Username.InvalidCharacters" = "Only a-z, 0-9, and underscores allowed.";
 "Username.InvalidTaken" = "Sorry, this username is already taken.";
 
 "Username.CheckingUsername" = "Checking username...";
@@ -930,7 +930,7 @@
 "DialogList.SearchSectionGlobal" = "Global Search";
 "DialogList.SearchSectionMessages" = "Messages";
 
-"Username.LinkHint" = "This link opens a chat with you in Telegram:[\nhttps://t.me/%@]";
+"Username.LinkHint" = "This link opens a chat with you:[\nhttps://t.me/%@]";
 "Username.LinkCopied" = "Copied link to clipboard";
 
 "SharedMedia.DeleteItemsConfirmation_1" = "Delete media file?";
@@ -1050,12 +1050,12 @@
 "ForwardedVideos_many" = "%@ forwarded videos";
 "ForwardedVideos_0" = "%@ forwarded videos";
 
-"ForwardedAudios_1" = "Forwarded audio";
-"ForwardedAudios_2" = "%@ forwarded audios";
-"ForwardedAudios_3_10" = "%@ forwarded audios";
-"ForwardedAudios_any" = "%@ forwarded audios";
-"ForwardedAudios_many" = "%@ forwarded audios";
-"ForwardedAudios_0" = "%@ forwarded audios";
+"ForwardedAudios_1" = "Forwarded voice message";
+"ForwardedAudios_2" = "%@ forwarded voice messages";
+"ForwardedAudios_3_10" = "%@ forwarded voice messages";
+"ForwardedAudios_any" = "%@ forwarded voice messages";
+"ForwardedAudios_many" = "%@ forwarded voice messages";
+"ForwardedAudios_0" = "%@ forwarded voice messages";
 
 "ForwardedLocations_1" = "Forwarded location";
 "ForwardedLocations_2" = "%@ forwarded locations";
@@ -1322,7 +1322,7 @@
 
 "Channel.Username.Title" = "Link";
 "Channel.Username.Help" = "You can choose a channel name on **Telegram**. If you do, other people will be able to find your channel by this name.\n\nYou can use **a-z**, **0-9** and underscores. Minimum length is **5** characters.";
-"Channel.Username.LinkHint" = "This link opens your channel in Telegram:[\nhttps://t.me/%@]";
+"Channel.Username.LinkHint" = "This link opens your channel:[\nhttps://t.me/%@]";
 "Channel.Username.InvalidTooShort" = "Channel names must have at least 5 characters.";
 "Channel.Username.InvalidStartsWithNumber" = "Channel names can't start with a number.";
 "Channel.Username.InvalidCharacters" = "Sorry, this name is invalid.";
@@ -1422,7 +1422,7 @@
 "Channel.ErrorAddTooMuch" = "Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel's link.";
 
 "ChannelIntro.Title" = "What is a Channel?";
-"ChannelIntro.Text" = "Channels are a new tool for\nbroadcasting your messages\nto large audiences.";
+"ChannelIntro.Text" = "Channels are a tool for\nbroadcasting your messages\nto unlimited audiences.";
 "ChannelIntro.CreateChannel" = "Create Channel";
 
 "ShareMenu.Send" = "Send";
@@ -1635,7 +1635,7 @@
 
 "CreateGroup.SoftUserLimitAlert" = "You will be able to add more users after you finish creating the group and convert it to a supergroup.";
 
-"Privacy.GroupsAndChannels" = "Groups";
+"Privacy.GroupsAndChannels" = "Groups & Channels";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "WHO CAN ADD ME TO GROUP CHATS";
 "Privacy.GroupsAndChannels.CustomHelp" = "You can restrict who can add you to groups and channels with granular precision.";
 "Privacy.GroupsAndChannels.AlwaysAllow" = "Always Allow";
@@ -2143,7 +2143,7 @@ Unused sets are archived when you add more.";
 "CheckoutInfo.ShippingInfoPostcodePlaceholder" = "Postcode";
 "CheckoutInfo.ReceiverInfoTitle" = "RECEIVER";
 "CheckoutInfo.ReceiverInfoName" = "Name";
-"CheckoutInfo.ReceiverInfoNamePlaceholder" = "Name Surname";
+"CheckoutInfo.ReceiverInfoNamePlaceholder" = "First and Last Name";
 "CheckoutInfo.ReceiverInfoEmail" = "Email";
 "CheckoutInfo.ReceiverInfoEmailPlaceholder" = "Email";
 "CheckoutInfo.ReceiverInfoPhone" = "Phone";
@@ -2311,7 +2311,7 @@ Unused sets are archived when you add more.";
 "InstantPage.AutoNightTheme" = "Auto-Night Theme";
 
 "Privacy.PaymentsTitle" = "PAYMENTS";
-"Privacy.PaymentsClearInfo" = "Clear payment & shipping info";
+"Privacy.PaymentsClearInfo" = "Clear Payment and Shipping Info";
 "Privacy.PaymentsClearInfoHelp" = "You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.";
 "Privacy.PaymentsClear.PaymentInfo" = "Payment Info";
 "Privacy.PaymentsClear.ShippingInfo" = "Shipping Info";
@@ -2571,7 +2571,7 @@ Unused sets are archived when you add more.";
 "Conversation.SearchByName.Prefix" = "from: ";
 "Conversation.SearchByName.Placeholder" = "Search Members";
 
-"Login.PhoneBannedError" = "Your phone was banned.";
+"Login.PhoneBannedError" = "This phone number is banned.";
 
 "Clipboard.SendPhoto" = "Send Photo";
 
@@ -2641,7 +2641,7 @@ Unused sets are archived when you add more.";
 
 "Map.LiveLocationTitle" = "Live Location";
 "Map.LiveLocationPrivateDescription" = "Choose for how long %@ will see your accurate location.";
-"Map.LiveLocationGroupDescription" = "Choose for how long people in this chat will see your accurate location.";
+"Map.LiveLocationGroupDescription" = "Choose for how long people in this chat will see your live location.";
 "Map.LiveLocationFor15Minutes" = "for 15 minutes";
 "Map.LiveLocationFor1Hour" = "for 1 hour";
 "Map.LiveLocationFor8Hours" = "for 8 hours";
@@ -2859,7 +2859,7 @@ Unused sets are archived when you add more.";
 "Appearance.AutoNightTheme" = "Auto-Night Mode";
 "Appearance.AutoNightThemeDisabled" = "Disabled";
 
-"AutoNightTheme.Title" = "Auto-Night Theme";
+"AutoNightTheme.Title" = "Auto-Night Mode";
 "AutoNightTheme.Disabled" = "Disabled";
 "AutoNightTheme.Scheduled" = "Scheduled";
 "AutoNightTheme.Automatic" = "Automatic";
@@ -3035,8 +3035,8 @@ Unused sets are archived when you add more.";
 "Passport.Identity.TypeInternalPassportUploadScan" = "Upload a scan of your internal passport";
 "Passport.Identity.TypeIdentityCard" = "Identity Card";
 "Passport.Identity.TypeIdentityCardUploadScan" = "Upload a scan of your identity card";
-"Passport.Identity.TypeDriversLicense" = "Driver's Licence";
-"Passport.Identity.TypeDriversLicenseUploadScan" = "Upload a scan of your driver's licence";
+"Passport.Identity.TypeDriversLicense" = "Driver's License";
+"Passport.Identity.TypeDriversLicenseUploadScan" = "Upload a scan of your driver's license";
 
 "Passport.Identity.AddPersonalDetails" = "Add Personal Details";
 "Passport.Identity.AddPassport" = "Add Passport";
@@ -3292,7 +3292,7 @@ Unused sets are archived when you add more.";
 "Passport.Identity.OneOfTypePassport" = "passport";
 "Passport.Identity.OneOfTypeInternalPassport" = "internal passport";
 "Passport.Identity.OneOfTypeIdentityCard" = "identity card";
-"Passport.Identity.OneOfTypeDriversLicense" = "driver's licence";
+"Passport.Identity.OneOfTypeDriversLicense" = "driver's license";
 
 "Passport.Address.OneOfTypePassportRegistration" = "passport registration";
 "Passport.Address.OneOfTypeUtilityBill" = "utility bill";

@@ -292,7 +292,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_section_general" = "General";
 "lng_settings_change_lang" = "Change language";
 "lng_languages" = "Languages";
-"lng_sure_save_language" = "Telegram will restart in order to change language";
+"lng_sure_save_language" = "Telegram will restart in order to change the language";
 "lng_settings_update_automatically" = "Update automatically";
 "lng_settings_current_version_label" = "Version {version}:";
 "lng_settings_current_version" = "Version {version}";
@@ -321,7 +321,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_send_cmdenter" = "Send by Cmd+Enter";
 
 "lng_settings_section_background" = "Chat background";
-"lng_settings_bg_use_default" = "Use default color theme";
+"lng_settings_bg_use_default" = "Use default theme";
 "lng_settings_bg_from_gallery" = "Choose from gallery";
 "lng_settings_bg_from_file" = "Choose from file";
 "lng_settings_bg_edit_theme" = "Launch theme editor";
@@ -364,8 +364,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_voice#other" = "{count} voice messages";
 "lng_local_storage_round#one" = "{count} video message";
 "lng_local_storage_round#other" = "{count} video messages";
-"lng_local_storage_animation#one" = "{count} animation";
-"lng_local_storage_animation#other" = "{count} animations";
+"lng_local_storage_animation#one" = "{count} GIF animation";
+"lng_local_storage_animation#other" = "{count} GIF animations";
 "lng_local_storage_size_limit" = "Total size limit: {size}";
 "lng_local_storage_time_limit" = "Clear files older than: {limit}";
 "lng_local_storage_limit_weeks#one" = "{count} week";
@@ -463,7 +463,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_online" = "online";
 "lng_proxy_checking" = "checking";
 "lng_proxy_connecting" = "connecting";
-"lng_proxy_available" = "available (ping: {ping}ms)";
+"lng_proxy_available" = "available (ping: {ping} ms)";
 "lng_proxy_unavailable" = "not available";
 "lng_proxy_edit" = "Edit proxy";
 "lng_proxy_menu_edit" = "Edit";
@@ -481,7 +481,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_blocked_users" = "Blocked users";
 "lng_settings_last_seen_privacy" = "Last seen privacy";
 "lng_settings_calls_privacy" = "Phone calls privacy";
-"lng_settings_groups_invite_privacy" = "Group invite settings";
+"lng_settings_groups_invite_privacy" = "Groups & Channels invite settings";
 "lng_settings_show_sessions" = "Show all sessions";
 "lng_settings_export_data" = "Export Telegram data";
 "lng_settings_self_destruct" = "Account self-destruct settings";
@@ -661,7 +661,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_username_label" = "Username";
 "lng_info_bio_label" = "Bio";
 "lng_info_link_label" = "Link";
-"lng_info_about_label" = "About";
+"lng_info_about_label" = "Description";
 "lng_info_user_title" = "User Info";
 "lng_info_bot_title" = "Bot Info";
 "lng_info_group_title" = "Group Info";
@@ -712,11 +712,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_file_empty_search" = "No files found";
 "lng_media_link_empty_search" = "No shared links found";
 
-"lng_manage_group_title" = "Manage Group";
+"lng_manage_group_title" = "Manage group";
 "lng_manage_channel_title" = "Manage Channel";
 "lng_manage_group_info" = "Group Info";
 "lng_manage_channel_info" = "Channel Info";
-"lng_manage_peer_recent_actions" = "Recent Actions";
+"lng_manage_peer_recent_actions" = "Recent actions";
 "lng_manage_peer_members" = "Members";
 "lng_manage_peer_administrators" = "Administrators";
 "lng_manage_peer_banned_users" = "Banned users";
@@ -786,8 +786,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_crop" = "Select an area for channel photo";
 
 "lng_failed_add_participant" = "Could not add user. Please try again later.";
-"lng_failed_add_not_mutual" = "Sorry, if a person leaves a group, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
-"lng_failed_add_not_mutual_channel" = "Sorry, if a person leaves a channel, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
+"lng_failed_add_not_mutual" = "Sorry, if a person left a group, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
+"lng_failed_add_not_mutual_channel" = "Sorry, if a person left a channel, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
 
 "lng_sure_delete_contact" = "Are you sure you want to delete {contact} from your contact list?";
 "lng_sure_delete_history" = "Are you sure you want to delete all message history with {contact}?\n\nThis action cannot be undone.";
@@ -806,8 +806,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_duration_seconds#other" = "{count} seconds";
 "lng_duration_minsec_minutes#one" = "{count} min";
 "lng_duration_minsec_minutes#other" = "{count} min";
-"lng_duration_minsec_seconds#one" = "{count} sec";
-"lng_duration_minsec_seconds#other" = "{count} sec";
+"lng_duration_minsec_seconds#one" = "{count} s";
+"lng_duration_minsec_seconds#other" = "{count} s";
 "lng_duration_minutes_seconds" = "{minutes_count} {seconds_count}";
 
 "lng_action_add_user" = "{from} added {user}";
@@ -879,7 +879,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_migrate_learn_more" = "Learn more »";
 "lng_profile_migrate_button" = "Convert to supergroup";
 "lng_profile_convert_title" = "Convert to supergroup";
-"lng_profile_convert_feature1" = "— New members see the full message history";
+"lng_profile_convert_feature1" = "— New members may see the full message history";
 "lng_profile_convert_feature2" = "— Messages are deleted for all members";
 "lng_profile_convert_feature3" = "— Admins can pin important messages";
 "lng_profile_convert_feature4" = "— Creator can set a public link for the group";
@@ -960,7 +960,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_emoji_category7" = "Symbols & Flags";
 "lng_emoji_hide_panel" = "Click here to hide the emoji sidebar";
 
-"lng_recent_stickers" = "Frequently used";
+"lng_recent_stickers" = "Recently used";
 "lng_faved_stickers_add" = "Add to Favorites";
 "lng_faved_stickers_remove" = "Remove from Favorites";
 "lng_group_stickers" = "Group stickers";
@@ -1057,7 +1057,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_open_this_link" = "Open this link?";
 "lng_open_link" = "Open";
-"lng_allow_bot_pass" = "Allow {bot_name} to pass your Telegram name and ID to the web pages you open via this bot?";
+"lng_allow_bot_pass" = "Allow {bot_name} to pass your Telegram name and ID (not your phone number) to the web pages you open via this bot?";
 "lng_allow_bot" = "Allow";
 
 "lng_bot_start" = "Start";
@@ -1383,7 +1383,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_player_message_yesterday" = "Yesterday at {time}";
 "lng_player_message_date" = "{date} at {time}";
 
-"lng_rights_edit_admin" = "Manage permissions";
+"lng_rights_edit_admin" = "Edit permissions";
 "lng_rights_edit_admin_header" = "What can this admin do?";
 "lng_rights_about_add_admins_yes" = "This admin will be able to add new admins with the same (or more limited) permissions.";
 "lng_rights_about_add_admins_no" = "This admin will not be able to add new admins.";
@@ -1573,7 +1573,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_identity_card" = "Identity card";
 "lng_passport_identity_card_upload" = "Upload a scan of your identity card";
 "lng_passport_identity_license" = "Driver's licence";
-"lng_passport_identity_license_upload" = "Upload a scan of your driver's licence";
+"lng_passport_identity_license_upload" = "Upload a scan of your driver's license";
 "lng_passport_identity_internal" = "Internal passport";
 "lng_passport_identity_internal_upload" = "Upload a scan of your internal passport";
 "lng_passport_identity_about" = "The document must contain your photograph, first and last name, date of birth, document number, country of issue, and expiry date.";
@@ -1615,11 +1615,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_upload_selfie" = "Upload selfie";
 "lng_passport_reupload_selfie" = "Reupload selfie";
 "lng_passport_front_side_title" = "Front side";
-"lng_passport_front_side_description" = "Upload the front side of your document.";
+"lng_passport_front_side_description" = "Upload a photo of the front side of the document.";
 "lng_passport_upload_front_side" = "Upload a scan of the front side";
 "lng_passport_reupload_front_side" = "Reupload a scan of the front side";
 "lng_passport_reverse_side_title" = "Reverse side";
-"lng_passport_reverse_side_description" = "Upload the reverse side of your document.";
+"lng_passport_reverse_side_description" = "Upload a photo of the reverse side of the document.";
 "lng_passport_upload_reverse_side" = "Upload a scan of the reverse side";
 "lng_passport_reupload_reverse_side" = "Reupload a scan of the reverse side";
 "lng_passport_main_page_title" = "Main page";
@@ -1769,7 +1769,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_mac_choose_app" = "Choose Application";
 "lng_mac_choose_text" = "Choose an application to open the document \"{file}\".";
-"lng_mac_enable_filter" = "Enable:";
+"lng_mac_enable_filter" = "Show:";
 "lng_mac_recommended_apps" = "Recommended Applications";
 "lng_mac_all_apps" = "All Applications";
 "lng_mac_always_open_with" = "Always Open With";
@@ -1900,10 +1900,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_duration_minsec_minutes#two" = "{count} min";
 "lng_duration_minsec_minutes#few" = "{count} min";
 "lng_duration_minsec_minutes#many" = "{count} min";
-"lng_duration_minsec_seconds#zero" = "{count} sec";
-"lng_duration_minsec_seconds#two" = "{count} sec";
-"lng_duration_minsec_seconds#few" = "{count} sec";
-"lng_duration_minsec_seconds#many" = "{count} sec";
+"lng_duration_minsec_seconds#zero" = "{count} s";
+"lng_duration_minsec_seconds#two" = "{count} s";
+"lng_duration_minsec_seconds#few" = "{count} s";
+"lng_duration_minsec_seconds#many" = "{count} s";
 "lng_duration_seconds#zero" = "{count} seconds";
 "lng_duration_seconds#two" = "{count} seconds";
 "lng_duration_seconds#few" = "{count} seconds";
@@ -1958,10 +1958,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_members#two" = "{count} members, among them:";
 "lng_group_invite_members#few" = "{count} members, among them:";
 "lng_group_invite_members#many" = "{count} members, among them:";
-"lng_local_storage_animation#zero" = "{count} animations";
-"lng_local_storage_animation#two" = "{count} animations";
-"lng_local_storage_animation#few" = "{count} animations";
-"lng_local_storage_animation#many" = "{count} animations";
+"lng_local_storage_animation#zero" = "{count} GIF animations";
+"lng_local_storage_animation#two" = "{count} GIF animations";
+"lng_local_storage_animation#few" = "{count} GIF animations";
+"lng_local_storage_animation#many" = "{count} GIF animations";
 "lng_local_storage_cleared" = "Cleared!";
 "lng_local_storage_image#zero" = "{count} images";
 "lng_local_storage_image#two" = "{count} images";

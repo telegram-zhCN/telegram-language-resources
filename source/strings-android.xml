@@ -75,7 +75,7 @@
     <string name="PaymentCardCvv">Security Code (CVV)</string>
     <string name="PaymentCardExpireDate">MM/YY</string>
     <string name="PaymentBillingAddress">Billing address</string>
-    <string name="PaymentCardName">Name Surname</string>
+    <string name="PaymentCardName">First and Last Name</string>
     <string name="PaymentCardSavePaymentInformation">Save Payment Information</string>
     <string name="PaymentCardSavePaymentInformationInfoLine1">You can save your payment info for future use.</string>
     <string name="PaymentCardSavePaymentInformationInfoLine2">Please *turn on Two-Step Verification* to enable this.</string>
@@ -244,7 +244,7 @@
     <string name="ChannelBroadcast">Broadcast</string>
     <string name="ChannelSilentBroadcast">Silent Broadcast</string>
     <string name="ChannelAlertTitle">What is a Channel?</string>
-    <string name="ChannelAlertText">Channels are a new tool for broadcasting your messages to large audiences.</string>
+    <string name="ChannelAlertText">Channels are a tool for broadcasting your messages to unlimited audiences.</string>
     <string name="ChannelAlertCreate">CREATE CHANNEL</string>
     <string name="LinkInUse">Sorry, this name is already taken.</string>
     <string name="LinkInvalid">Sorry, this name is invalid.</string>
@@ -584,7 +584,7 @@
     <string name="AttachBotsHelp">Scroll down for bots</string>
     <string name="TimeToEdit">%1$s</string>
     <string name="TimeToEditExpired">Sorry, editing time expired.</string>
-    <string name="AddShortcut">Add shortcut</string>
+    <string name="AddShortcut">Add to Home screen</string>
     <string name="SearchMembers">Search members</string>
     <string name="ChatYourSelf">forward here to save</string>
     <string name="SavedMessages">Saved Messages</string>
@@ -624,7 +624,7 @@
     <string name="MapPreviewProviderTelegram">Telegram</string>
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
-    <string name="MapPreviewProviderNobody">Nobody</string>
+    <string name="MapPreviewProviderNobody">No previews</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -802,8 +802,8 @@
     <string name="ContactNotRegistered">%1$s is not on Telegram yet, would you like to invite them to join?</string>
     <string name="Invite">Invite</string>
     <string name="BlockContact">Block</string>
-    <string name="EditContact">Edit</string>
-    <string name="DeleteContact">Delete</string>
+    <string name="EditContact">Rename Contact</string>
+    <string name="DeleteContact">Delete contact</string>
     <string name="PhoneHome">Home</string>
     <string name="PhoneMobile">Mobile</string>
     <string name="PhoneWork">Work</string>
@@ -841,13 +841,13 @@
     <string name="UsernameInvalidLong">The username must not exceed 32 characters.</string>
     <string name="UsernameInvalidStartNumber">Sorry, a username can\'t start with a number.</string>
     <string name="UsernameHelp">You can choose a username on **Telegram**. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use **a–z**, **0–9** and underscores. Minimum length is **5** characters.</string>
-    <string name="UsernameHelpLink">This link opens a chat with you on Telegram:\n%1$s</string>
+    <string name="UsernameHelpLink">This link opens a chat with you:\n%1$s</string>
     <string name="UsernameChecking">Checking username...</string>
     <string name="UsernameAvailable">%1$s is available.</string>
     <string name="UsernameEmpty">None</string>
     <string name="ErrorOccurred">An error occurred.</string>
     <!--stickers view-->
-    <string name="StickersName">Stickers</string>
+    <string name="StickersName">Stickers and Masks</string>
     <string name="AddStickers">Add Stickers</string>
     <string name="AddMasks">Add Masks</string>
     <string name="AddToStickers">Add to Stickers</string>
@@ -1024,8 +1024,8 @@
     <string name="NoMediaAutoDownload">No media</string>
     <string name="AutoplayGifs">Autoplay GIFs</string>
     <string name="RaiseToSpeak">Raise to Speak</string>
-    <string name="SaveToGallerySettings">Save to gallery</string>
-    <string name="EditName">Edit name</string>
+    <string name="SaveToGallerySettings">Save to Gallery</string>
+    <string name="EditName">Edit your name</string>
     <string name="NotificationsCustomize">Customize</string>
     <string name="NotificationsCustom">Custom</string>
     <string name="NotificationsEnableCustom">Enable Custom Notifications</string>
@@ -1066,7 +1066,7 @@
     <string name="ChromeCustomTabs">In-App Browser</string>
     <string name="ChromeCustomTabsInfo">Open external links within the app</string>
     <string name="DirectShare">Direct Share</string>
-    <string name="DirectShareInfo">Show recent chats in share menu</string>
+    <string name="DirectShareInfo">Show recent chats in Android share menu</string>
     <string name="Emoji">Emoji</string>
     <string name="EmojiBigSize">Draw single big emoji</string>
     <string name="EmojiUseDefault">Use system default emoji</string>
@@ -1218,7 +1218,7 @@
     <string name="PassportIdentityPassport">Upload a scan of your passport</string>
     <string name="PassportIdentityInternalPassport">Upload a scan of your internal passport</string>
     <string name="PassportIdentityID">Upload a scan of your identity card</string>
-    <string name="PassportIdentityDriverLicence">Upload a scan of your driver\'s licence</string>
+    <string name="PassportIdentityDriverLicence">Upload a scan of your driver\'s license</string>
     <string name="PassportPersonal">Personal Details</string>
     <string name="PassportDocument">Document Details</string>
     <string name="PassportName">Name</string>
@@ -1401,7 +1401,7 @@
     <string name="Hybrid">Hybrid</string>
     <string name="MetersAway">m away</string>
     <string name="KMetersAway">km away</string>
-    <string name="SendLocation">Send your current location</string>
+    <string name="SendLocation">Send my current location</string>
     <string name="SendLiveLocation">Share My Live Location for...</string>
     <string name="StopLiveLocation">Stop Sharing Location</string>
     <string name="StopLiveLocationAlertToUser">Are you sure you want to stop sharing live location with %1$s?</string>
@@ -1426,7 +1426,7 @@
     <string name="StopAllLocationSharings">STOP ALL</string>
     <string name="SharingLiveLocationTitle">You are sharing your Live Location with %1$s</string>
     <string name="LiveLocationAlertPrivate">Choose for how long %1$s will see your accurate location.</string>
-    <string name="LiveLocationAlertGroup">Choose for how long people in this chat will see your accurate location.</string>
+    <string name="LiveLocationAlertGroup">Choose for how long people in this chat will see your live location.</string>
     <string name="GpsDisabledAlert">Your GPS seems to be disabled, please enable it to access location-based features.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">Show all media</string>
@@ -1526,7 +1526,7 @@
     <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
     <string name="RestorePasswordResetAccount">RESET ACCOUNT</string>
     <string name="RestoreEmailSent">We have sent a recovery code to the e-mail you provided:\n\n%1$s</string>
-    <string name="RestoreEmailSentInfo">Please check your e-mail and enter the 6-digit code we have sent here.</string>
+    <string name="RestoreEmailSentInfo">Please check your e-mail and enter the 6-digit code we sent you below.</string>
     <string name="RestoreEmailTrouble">Having trouble accessing your e-mail %1$s?</string>
     <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
     <string name="ResetMyAccount">RESET MY ACCOUNT</string>
@@ -1732,7 +1732,7 @@
     <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</string>
     <string name="InvalidPhoneNumber">Invalid phone number</string>
     <string name="PleaseLoginPassport">Please log in to your Telegram account to use Telegram Passport.</string>
-    <string name="BannedPhoneNumber">Banned phone number</string>
+    <string name="BannedPhoneNumber">This phone number is banned.</string>
     <string name="CodeExpired">Code expired, please login again</string>
     <string name="FloodWait">Too many attempts, please try again later</string>
     <string name="FloodWaitTime">Too many attempts, please try again in %1$s</string>
@@ -1801,7 +1801,7 @@
     <string name="TosUpdateDecline">We\'re very sorry, but this means we must part ways here. Unlike others, we don\'t use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy &amp; Security settings.\n\nBut if you\'re generally not OK with Telegram\'s modest needs, it won\'t be possible for us to provide this service. You can deactivate your account now — or look around some more and deactivate it later if you feel you\'re not happy with the way we use your data.</string>
     <string name="TosDeclineDeleteAccount">Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings &gt; Export Telegram Data.)</string>
     <!--permissions-->
-    <string name="PermissionContacts">Telegram needs access to your contacts so that you can connect with your friends across all your devices.</string>
+    <string name="PermissionContacts">To let you connect with friends across all your devices, your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
     <string name="PermissionStorage">Telegram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
     <string name="PermissionNoAudio">Telegram needs access to your microphone so that you can send voice messages.</string>
     <string name="PermissionNoAudioVideo">Telegram needs access to your microphone so that you can record videos.</string>
