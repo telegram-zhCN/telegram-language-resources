@@ -295,6 +295,7 @@
   <string name="HiddenName">Deleted Account</string>
   <string name="HiddenNameShort">Deleted</string>
   <string name="LoadingChannel">Loading channel…</string>
+  <string name="ReportReasonDescription">Description</string>
   <string name="Description">Description</string>
   <string name="DescriptionInfo">You can provide an optional description for your channel.</string>
   <string name="ChannelName">Channel Name</string>
@@ -485,7 +486,8 @@
   <string name="SearchForImages">Search for images</string>
   <string name="AllMedia">All media</string>
   <string name="UserUnavailable">user is unavailable</string>
-  <string name="YouCantForwardMore">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="YouCantForwardMoreMessages_one">Sorry, you can\'t forward more than %1$s message at once</string>
+  <string name="YouCantForwardMoreMessages_other">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="game_ActionUserScored_one">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_other">%2$s scored %1$s</string>
   <string name="game_ActionUserScoredInGame_one">%2$s scored %1$s in %3$s</string>
@@ -1821,6 +1823,13 @@
   <string name="ErrorPinnedChatsLimit_one">Sorry, you can pin up to %1$s chat and %1$s secret chat at once.</string>
   <string name="ErrorPinnedChatsLimit_other">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
 
+  <string name="ToolsCopyString">Copy String</string>
+  <string name="ToolsShowToast">Show Toast</string>
+  <string name="ToolsUntranslatedTitle">Untranslated</string>
+  <string name="ToolsAllTitle">Strings</string>
+  <string name="ToolsOpenOnPlatform">Translations Platform</string>
+  <string name="ToolsLocalePlaceholder">Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**</string>
+  <string name="ToolsExportText">%1$s / %2$s\n\nExported from %3$s</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -1972,6 +1981,10 @@
   <string name="TryAgainSeconds_two">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
+  <string name="YouCantForwardMoreMessages_zero">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="game_ActionUserScored_zero">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_two">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_few">%2$s scored %1$s</string>
