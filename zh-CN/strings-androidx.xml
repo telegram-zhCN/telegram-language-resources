@@ -298,6 +298,7 @@
   <string name="HiddenName">已删除的帐户</string>
   <string name="HiddenNameShort">已删除</string>
   <string name="LoadingChannel">加载频道……</string>
+  <string name="ReportReasonDescription">简介</string>
   <string name="Description">简介</string>
   <string name="DescriptionInfo">您可以给您的频道添加一段简介。</string>
   <string name="ChannelName">频道名称</string>
@@ -491,7 +492,7 @@
   <string name="SearchForImages">搜索图片</string>
   <string name="AllMedia">所有图片和视频</string>
   <string name="UserUnavailable">用户暂不可用</string>
-  <string name="YouCantForwardMore">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
+  <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
   <string name="game_ActionUserScored_one">%2$s 获得 %1$s 分</string>
   <string name="game_ActionUserScored_other">%2$s 获得 %1$s 分</string>
   <string name="game_ActionUserScoredInGame_one">%2$s 在 %3$s 中获得 %1$s 分</string>
@@ -1752,7 +1753,6 @@
   <string name="ErrorPinnedChatsLimit_one">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
   <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
 
-
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">精确到 %1$s 米</string>
@@ -1895,6 +1895,10 @@
   <string name="TryAgainSeconds_two">请 %1$s 秒后再试</string>
   <string name="TryAgainSeconds_few">请 %1$s 秒后再试</string>
   <string name="TryAgainSeconds_many">请 %1$s 秒后再试</string>
+  <string name="YouCantForwardMoreMessages_zero">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
+  <string name="YouCantForwardMoreMessages_two">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
+  <string name="YouCantForwardMoreMessages_few">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
+  <string name="YouCantForwardMoreMessages_many">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
   <string name="game_ActionUserScored_zero">%2$s 获得 %1$s 分</string>
   <string name="game_ActionUserScored_two">%2$s 获得 %1$s 分</string>
   <string name="game_ActionUserScored_few">%2$s 获得 %1$s 分</string>

@@ -267,7 +267,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bio_placeholder" = "Bio";
 "lng_bio_about" = "You can add a few lines about yourself. Anyone who opens your profile will see this text.";
 
-"lng_settings_section_info" = "Info";
+"lng_settings_section_info" = "My Info";
 "lng_settings_username" = "Username:";
 "lng_settings_choose_username" = "Choose username";
 "lng_settings_empty_bio" = "None";
