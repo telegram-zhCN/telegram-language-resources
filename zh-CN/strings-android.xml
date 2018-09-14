@@ -75,6 +75,7 @@
   <string name="PaymentCardCvv">安全码 (CVV)</string>
   <string name="PaymentCardExpireDate">月/年</string>
   <string name="PaymentBillingAddress">账单地址</string>
+  <string name="PaymentCardName">姓名</string>
   <string name="PaymentCardSavePaymentInformation">保存付款信息</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">您可以保存您的付款信息以便在未来使用。</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">请先开启“两步验证”后再启用此功能。</string>
@@ -1393,6 +1394,7 @@
   <string name="StopAllLocationSharings">全部停止</string>
   <string name="SharingLiveLocationTitle">您正在与 %1$s 分享您的实时位置</string>
   <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
+  <string name="LiveLocationAlertGroup">选择这个群的成员在多长时间内可看到你的精确位置。</string>
   <string name="GpsDisabledAlert">看起来您禁用了位置服务，若需要使用基于位置的功能，请将其重新开启。</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">显示所有图片和视频</string>

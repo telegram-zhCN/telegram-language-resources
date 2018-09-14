@@ -1504,6 +1504,7 @@
   <string name="SendLiveLocationInfo">在您移动时实时更新</string>
   <string name="PullToSeePlaces">上拉查看周边地点</string>
   <string name="SharingLiveLocationToChats_other">你正在与 %1$s 个对话共享实时位置</string>
+  <string name="LiveLocationAlertGroup">选择这个群的成员在多长时间内可看到你的精确位置。</string>
   <string name="StopSharingLiveLocation">停止位置共享</string>
   <string name="StopLiveLocationInfo">您确定要停止与所有对话的实时位置分享吗？</string>
   <string name="SharingWithXChats_one">分享到 %1$s 个聊天</string>
@@ -1687,7 +1688,7 @@
   <string name="TabDocs">文档</string>
   <string name="TabLinks">链接</string>
   <string name="TabAudio">音频</string>
-  <string name="TabSharedGroups">群组</string>
+  <string name="TabSharedGroups">共同群组</string>
   <string name="TabAdmins">管理员</string>
   <string name="TabBlacklist">黑名单</string>
   <string name="TabRestricted">受限成员</string>

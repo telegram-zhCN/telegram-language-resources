@@ -1831,6 +1831,18 @@
   <string name="ToolsLocalePlaceholder">Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**</string>
   <string name="ToolsExportText">%1$s / %2$s\n\nExported from %3$s</string>
 
+  <string name="ToolsStringSectionMain">Main</string>
+  <string name="ToolsStringSectionUrl">URLs</string>
+  <string name="ToolsStringSectionFormat">Formats</string>
+  <string name="ToolsStringSectionRelativeDate">Relative Dates</string>
+  <string name="ToolsStringSectionPlural">Plurals</string>
+  <string name="ToolsStringSectionSimpleFormatted">Formatted strings</string>
+  <string name="ToolsStringSectionSimple">Simple strings</string>
+
+  <string name="TdlibLogClearEmpty">Nothing to clear.</string>
+  <string name="TdlibLogClearOk">OK. Freed %1$s.</string>
+  <string name="TdlibLogClearFail">Failure.</string>
+
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">Accurate to %1$s meters</string>
