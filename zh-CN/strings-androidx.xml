@@ -1754,6 +1754,7 @@
   <string name="ErrorPinnedChatsLimit_one">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
   <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
 
+  <string name="ToolsStringSectionMain">主要</string>
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">精确到 %1$s 米</string>

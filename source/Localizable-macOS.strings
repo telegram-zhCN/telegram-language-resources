@@ -526,12 +526,12 @@
 "Peer.Activity.Chat.SendingFile" = "%@ is sending file";
 
 "Peer.Activity.Chat.Multi.TypingText1" = "%@ and %d others are typing";
-"Peer.Activity.Chat.Multi.SendingPhoto1" = "%@ and %d are sending photos";
-"Peer.Activity.Chat.Multi.RecordingVideo1" = "%@ and %d are recording video";
-"Peer.Activity.Chat.Multi.SendingVideo1" = "%@ and %d are sending videos";
-"Peer.Activity.Chat.Multi.RecordingAudio1" = "%@ and %d are recording voice";
-"Peer.Activity.Chat.Multi.SendingAudio1" = "%@ and %d are sending audio";
-"Peer.Activity.Chat.Multi.SendingFile1" = "%@ and %d are sending files";
+"Peer.Activity.Chat.Multi.SendingPhoto1" = "%@ and %d others are sending photos";
+"Peer.Activity.Chat.Multi.RecordingVideo1" = "%@ and %d others are recording video";
+"Peer.Activity.Chat.Multi.SendingVideo1" = "%@ and %d others are sending videos";
+"Peer.Activity.Chat.Multi.RecordingAudio1" = "%@ and %d others are recording voice";
+"Peer.Activity.Chat.Multi.SendingAudio1" = "%@ and %d others are sending audio";
+"Peer.Activity.Chat.Multi.SendingFile1" = "%@ and %d others are sending files";
 
 
 
