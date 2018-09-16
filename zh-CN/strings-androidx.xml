@@ -549,7 +549,7 @@
   <string name="Chats">对话</string>
   <string name="Notifications">通知</string>
   <string name="NotificationsEnabled">启用</string>
-  <string name="NotificationsDisabled">已禁用</string>
+  <string name="NotificationsDisabled">关闭</string>
   <string name="PrivacySettings">隐私和安全</string>
   <string name="AskAQuestion">向我们提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
@@ -668,9 +668,9 @@
   <string name="PrivateChats">私聊</string>
   <string name="MessagePreview">消息预览</string>
   <string name="Vibrate">振动</string>
-  <string name="VibrateDisabled">已禁用</string>
+  <string name="VibrateDisabled">关闭</string>
   <string name="Sound">声音</string>
-  <string name="SoundDisabled">已禁用</string>
+  <string name="SoundDisabled">关闭</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>
   <string name="InChatSound">发送提示音</string>
   <string name="Events">事件</string>
@@ -1028,7 +1028,7 @@
   <string name="ConnectingToProxy">正在连接代理...</string>
   <string name="Proxy">代理</string>
   <string name="Connection">链接</string>
-  <string name="ProxyDisabled">已禁用</string>
+  <string name="ProxyDisabled">不使用</string>
   <string name="ProxySetup">点击设置</string>
   <string name="ProxyCredentials">认证信息</string>
   <string name="ProxyCredentialsOptional">认证信息（可选）</string>
@@ -1384,7 +1384,7 @@
   <string name="Markdown">Markdown</string>
   <string name="MarkdownEnabled">启用</string>
   <string name="MarkdownTextOnly">启用（无图形界面）</string>
-  <string name="MarkdownDisabled">已禁用</string>
+  <string name="MarkdownDisabled">关闭</string>
   <string name="MarkdownHint">当启用时，以下规则生效：\n**粗体**\n__斜体__\n`等宽代码行`\n```等宽代码片段···\n[链接文字](地址)</string>
   <string name="MessageNotFound">未找到消息</string>
   <string name="SyncHintTitle">寻找联系人</string>
@@ -1478,7 +1478,7 @@
   <string name="DisconnectWebsiteBan">同时停止使用 %1$s</string>
   <string name="ConnectedWebsitesDesc">轻触以取消该网站与 Telegram 账号的关联。</string>
   <string name="NotificationsLed">LED</string>
-  <string name="LedDisabled">已禁用</string>
+  <string name="LedDisabled">无</string>
   <string name="LedDefault">默认</string>
   <string name="LedBlue">蓝色</string>
   <string name="LedOrange">橙色</string>
@@ -1521,6 +1521,8 @@
   <string name="AppBadgeTypeMessages">消息数目</string>
   <string name="AppBadgeTypeChats">对话数目</string>
   <string name="AppBadgeDisabled">已禁用</string>
+  <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
+  <string name="AppBadgeAll">所有对话</string>
   <string name="ApplyToAll">应用到全部</string>
   <string name="DroppedPin">放置的图钉</string>
   <string name="CalculatingDistance">正在计算距离...</string>
@@ -1596,6 +1598,11 @@
   <string name="PrivacyLastSeenEverybody">任何人都可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenEverybodyExcept">任何人 (%1$s) 都可以看到您的最后上线时间</string>
   <string name="PrivacyAddToGroupsNobody">没有人可以邀请您进入群组和频道</string>
+  <string name="PrivacyAddToGroupsNobodyExcept">没有人 (%1$s) 可以邀请您进入群组和频道</string>
+  <string name="PrivacyAddToGroupsContacts">只有通讯录联系人可以邀请您进入群组和频道</string>
+  <string name="PrivacyAddToGroupsContactsExcept">只有通讯录联系人 (%1$s) 可以邀请您进入群组和频道</string>
+  <string name="PrivacyAddToGroupsEverybody">任何人都可以邀请您进入群组和频道</string>
+  <string name="PrivacyAddToGroupsEverybodyExcept">任何人 (%1$s) 都可以邀请您进入群组和频道</string>
   <string name="PrivacyCallsNobody">没有人可以呼叫您</string>
   <string name="PrivacyCallsNobodyExcept">没有任何人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsContacts">只有联系人可以呼叫您</string>
