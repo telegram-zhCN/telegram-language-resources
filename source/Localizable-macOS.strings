@@ -1269,7 +1269,7 @@
 "Proxy.ForceEnable.Text.Username" = "Username: %@";
 "Proxy.ForceEnable.Text.Password" = "Password: %@";
 "Proxy.ForceEnable.Text.Secret" = "Secret: %@";
-"Proxy.ForceEnable.Text" = "You can change your proxy server later in the Settings (Privacy and Security).";
+"Proxy.ForceEnable.Text" = "You can change your proxy server later in Settings > Privacy and Security.";
 "ProxySettings.Share" = "Share this link with friends to circumvent censorship in your country";
 "ProxySettings.ExportLink" = "Export link from clipboard";
 "ProxySettings.CopyLink" = "Share proxy link";

@@ -2514,8 +2514,8 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.CannotEdit" = "You cannot edit the rights of this admin.";
 "Call.RateCall" = "Rate This Call";
 
-"Settings.ApplyProxyAlert" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\n\nYou can change your proxy server later it in the Settings (Data and Storage).";
-"Settings.ApplyProxyAlertCredentials" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\nUsername: %3$@\nPassword: %4$@\n\nYou can change your proxy server later it in the Settings (Data and Storage).";
+"Settings.ApplyProxyAlert" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\n\nYou can change your proxy server later in Settings > Data and Storage.";
+"Settings.ApplyProxyAlertCredentials" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\nUsername: %3$@\nPassword: %4$@\n\nYou can change your proxy server later in Settings > Data and Storage.";
 "Settings.ApplyProxyAlertEnable" = "Enable";
 
 "Channel.Management.RestrictedBy" = "Restricted by %@";

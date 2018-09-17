@@ -1056,7 +1056,7 @@
   <string name="UseProxyPort">Port</string>
   <string name="ProxySettings">Proxy settings</string>
   <string name="EnableProxyAlertTitle">Are you sure you want to enable this proxy?</string>
-  <string name="EnableProxyAlertHint">You can change your proxy server later in the Settings (Data and Storage).</string>
+  <string name="EnableProxyAlertHint">You can change your proxy server later in Settings &gt; Data and Storage.</string>
   <string name="EnableProxyAlertHintMtproto">This proxy may display a sponsored channel in your chats list. This doesn\'t reveal any of your Telegram traffic.</string>
   <string name="ProxyEnable">Enable</string>
   <string name="ProxySaveForLater">Save Proxy</string>
@@ -1391,7 +1391,7 @@
   <string name="SyncHintRetry">To help you message friends and family on Telegram, allow access to your contacts.\n\nTap Settings &gt; Permissions, and turn Contacts on.</string>
   <string name="SyncHintUnavailable">Tap Settings &gt; Permissions, and turn Contacts on to allow Telegram access to your contacts.</string>
   <string name="Continue">Continue</string>
-  <string name="NoChatsText">**No chats to show**\nInvite your friends and family to&#160;join&#160;Telegram</string>
+  <string name="NoChatsText">**No chats to show**\n\nInvite your friends and family to&#160;join&#160;Telegram</string>
   <string name="ShowContacts">Start a chat</string>
   <string name="ContactsOnTelegramSingle">%1$s is using&#160;Telegram</string>
   <string name="ContactsOnTelegramSeveral">%1$s and %2$s are&#160;using&#160;Telegram</string>
@@ -1842,6 +1842,9 @@
   <string name="TdlibLogClearEmpty">Nothing to clear.</string>
   <string name="TdlibLogClearOk">OK. Freed %1$s.</string>
   <string name="TdlibLogClearFail">Failure.</string>
+
+  <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
+  <string name="RememberAlbumSetting">Remember media grouping setting</string>
 
   <!-- new from translations.telegram.org -->
 
