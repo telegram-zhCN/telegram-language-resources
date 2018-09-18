@@ -3042,13 +3042,13 @@ Unused sets are archived when you add more.";
 "Passport.Identity.AddPassport" = "Add Passport";
 "Passport.Identity.AddInternalPassport" = "Add Internal Passport";
 "Passport.Identity.AddIdentityCard" = "Add Identity Card";
-"Passport.Identity.AddDriversLicense" = "Add Driver's Licence";
+"Passport.Identity.AddDriversLicense" = "Add Driver's License";
 
 "Passport.Identity.EditPersonalDetails" = "Edit Personal Details";
 "Passport.Identity.EditPassport" = "Edit Passport";
 "Passport.Identity.EditInternalPassport" = "Edit Internal Passport";
 "Passport.Identity.EditIdentityCard" = "Edit Identity Card";
-"Passport.Identity.EditDriversLicense" = "Edit Driver's Licence";
+"Passport.Identity.EditDriversLicense" = "Edit Driver's License";
 
 "Passport.Identity.DocumentDetails" = "DOCUMENT DETAILS";
 "Passport.Identity.Name" = "First Name";

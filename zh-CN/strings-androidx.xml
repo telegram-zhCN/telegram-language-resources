@@ -1062,7 +1062,6 @@
   <string name="UseProxyPort">端口</string>
   <string name="ProxySettings">代理设置</string>
   <string name="EnableProxyAlertTitle">您确定要启用此代理吗？</string>
-  <string name="EnableProxyAlertHint">您可以稍后在设置（数据和存储）中修改您的代理服务器。</string>
   <string name="EnableProxyAlertHintMtproto">这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 流量。</string>
   <string name="ProxyEnable">启用</string>
   <string name="ProxySaveForLater">保存代理</string>
@@ -1392,8 +1391,6 @@
   <string name="SyncHintRetry">为了帮助你在 Telegram 上与你的朋友和家人联系，请允许我们访问你的通讯录。\n\n点击 设置 &gt; 权限，并将 通讯录 权限设为开启。</string>
   <string name="SyncHintUnavailable">要允许 Telegram 访问您的通讯录，请点击 设置 &gt; 权限，并将 通讯录 权限设为开启</string>
   <string name="Continue">继续</string>
-  <string name="NoChatsText">**没有对话可以展示**
-邀请您的朋友和家人来&#160;加入#160;Telegram吧</string>
   <string name="ShowContacts">开始对话</string>
   <string name="ContactsOnTelegramSingle">%1$s 正在使用&#160;Telegram</string>
   <string name="ContactsOnTelegramSeveral">%1$s 和 %2$s 正在&#160;使用&#160;Telegram</string>
