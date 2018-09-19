@@ -390,8 +390,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_remove" = "Remove local passcode";
 "lng_passcode_turn_off" = "Turn off";
 "lng_passcode_autolock" = "Auto-Lock";
-"lng_passcode_autolock_away" = "Auto-Lock if away for:";
-"lng_passcode_autolock_inactive" = "Auto-Lock if inactive for:";
+"lng_passcode_autolock_away" = "Auto-Lock if away for...";
+"lng_passcode_autolock_inactive" = "Auto-Lock if inactive for...";
 "lng_passcode_autolock_minutes#one" = "{count} minute";
 "lng_passcode_autolock_minutes#other" = "{count} minutes";
 "lng_passcode_autolock_hours#one" = "{count} hour";
@@ -942,7 +942,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_video" = "Video";
 "lng_media_audio" = "Voice message";
 
-"lng_media_auto_settings" = "Automatic media download settings";
+"lng_media_auto_settings" = "Automatic media download";
 "lng_media_auto_photo" = "Automatic photo download";
 "lng_media_auto_audio" = "Automatic voice message download";
 "lng_media_auto_gif" = "Automatic GIF download";
