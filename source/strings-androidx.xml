@@ -8,6 +8,10 @@
   <string name="language_dateFormatLocale">en-UK</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
+  <string name="language_continueInLanguage">Continue in English</string>
+  <string name="language_continueInLanguagePopupText">**Telegram X** is now available in **English**.\n\nWould you like to switch app language?\n\nYou can revert changes anytime later in Settings&#160;&gt;&#160;Language.</string>
+  <string name="language_appliedLanguage">App language has been set to English.</string>
+  <string name="MoreLanguages">More Languages</string>
   <string name="timestamp_now">just now</string>
   <string name="timestamp_minutes_one">%1$s minute ago</string>
   <string name="timestamp_minutes_other">%1$s minutes ago</string>
@@ -1832,9 +1836,10 @@
   <string name="ToolsExportText">%1$s / %2$s\n\nExported from %3$s</string>
 
   <string name="ToolsStringSectionMain">Main</string>
+  <string name="ToolsStringSectionJson">JSON data</string>
   <string name="ToolsStringSectionUrl">URLs</string>
   <string name="ToolsStringSectionFormat">Formats</string>
-  <string name="ToolsStringSectionRelativeDate">Relative Dates</string>
+  <string name="ToolsStringSectionRelativeDate">Relative dates</string>
   <string name="ToolsStringSectionPlural">Plurals</string>
   <string name="ToolsStringSectionSimpleFormatted">Formatted strings</string>
   <string name="ToolsStringSectionSimple">Simple strings</string>
@@ -1845,6 +1850,8 @@
 
   <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
   <string name="RememberAlbumSetting">Remember media grouping setting</string>
+
+  <string name="json_ChatDemo">{\"member\":\"Reinhardt\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"Bring it on! I **LIVE** for this!\",1]},{\"text\":\"Reinhardt, we need to find you some new tunes 🎶.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!\"},{\"audio\":[243,\"True Survivor\",\"David Hasselhoff\"]},{\"text\":\"I can\'t even take you seriously right now.\",\"out\":1}]},{\"members\":[[6,\"Daenerys\"],[7,\"Angela\",\"Merkel\"],[3,\"Julian\",\"Assange\"],[1,\"Pierre\"]],\"_\":[{\"created\":\"Weekend Plans\",\"out\":1},{\"text\":\"Are you sure it\'s safe here?\",\"author\":6},{\"text\":\"Yes, sure, don\'t worry.\",\"out\":1},{\"text\":\"Hallo alle zusammen! Is the NSA reading this? 😄\",\"author\":7},{\"text\":\"Sorry, I\'ll have to publish this conversation on the web\",\"author\":3},{\"left\":3},{\"text\":\"Wait, we could have made so much money on this!\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"Eileen\",\"Lockhard\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"So, why is Telegram cool?\",\"out\":1},{\"text\":\"Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.\"},{\"text\":\"😴\",\"out\":1},{\"text\":\"And it has secret chats, like this one, with end-to-end encryption!\"},{\"text\":\"End encryption to what end??\",\"out\":1},{\"text\":\"Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!\"},{\"ttl\":15},{\"text\":\"😱🙈👍\",\"out\":1}]},{\"member\":\"Space Dandy\",\"_\":[{\"text\":[\"You see this chat preview because you are a **Translator**.\\n\\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.\",1]},{\"text\":\"I knew it! Please don\'t ever tell me this again…\",\"out\":1},{\"text\":[\"**OK**\",1]}],\"guide\":1}</string>
 
   <!-- new from translations.telegram.org -->
 
