@@ -547,7 +547,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_always_title" = "Always allow";
 "lng_edit_privacy_groups_never_title" = "Never allow";
 
-"lng_edit_privacy_calls_title" = "Telegram call privacy";
+"lng_edit_privacy_calls_title" = "Voice calls privacy";
 "lng_edit_privacy_calls_description" = "You can restrict who can call you:";
 "lng_edit_privacy_calls_always_empty" = "Always allow";
 "lng_edit_privacy_calls_always#one" = "Always allow {count} user";
@@ -989,7 +989,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_stickers_packs_archived" = "Some of your unused stickers have been archived to make room for the sets you've activated.";
 "lng_stickers_copied" = "Sticker pack link copied to clipboard.";
 "lng_stickers_default_set" = "Great Minds";
-"lng_stickers_you_have" = "Manage and reorder sticker packs";
+"lng_stickers_you_have" = "Manage sticker sets";
 "lng_stickers_return" = "Undo";
 "lng_stickers_count#one" = "{count} sticker";
 "lng_stickers_count#other" = "{count} stickers";

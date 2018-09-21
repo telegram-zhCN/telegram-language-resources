@@ -8,6 +8,7 @@
   <string name="language_dateFormatLocale">zh-CN</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
+  <string name="language_continueInLanguage">使用简体中文继续</string>
   <string name="timestamp_now">刚刚</string>
   <string name="timestamp_minutes_one">%1$s 分钟前</string>
   <string name="timestamp_minutes_other">%1$s 分钟前</string>

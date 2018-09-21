@@ -86,10 +86,10 @@
   <string name="network_WaitingForNetwork">Waiting for network…</string>
   <string name="network_Updating">Updating…</string>
   <string name="location_Nearby">Nearby</string>
-  <string name="location_AwayMeters">%1$sm away</string>
+  <string name="location_AwayMeters">%1$s m away</string>
   <string name="location_AwayKilometers">%1$s km away</string>
   <string name="location_personNearby">is nearby</string>
-  <string name="location_personAwayMeters">is %1$sm away</string>
+  <string name="location_personAwayMeters">is %1$s m away</string>
   <string name="location_personAwayKilometers">is %1$s km away</string>
   <string name="status_Online">online</string>
   <string name="status_LastSeenRecently">seen recently</string>
