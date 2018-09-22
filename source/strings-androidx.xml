@@ -60,6 +60,7 @@
   <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
   <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
+  <string name="format_filesAndFolders">%1$s, %2$s</string>
   <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
   <string name="format_locationUpdated">updated %1$s</string>
   <string name="format_plus">+%1$d</string>
@@ -1848,10 +1849,46 @@
   <string name="TdlibLogClearOk">OK. Freed %1$s.</string>
   <string name="TdlibLogClearFail">Failure.</string>
 
+  <string name="xFolders_one">%1$s folder</string>
+  <string name="xFolders_other">%1$s folders</string>
+  <string name="RootDirectory">Root Directory</string>
+
   <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
   <string name="RememberAlbumSetting">Remember media grouping setting</string>
 
-  <string name="json_ChatDemo">{\"member\":\"Reinhardt\",\"_\":[{\"sticker\":[512,512,\"AAQCABMktIENAAQ7jAMIc7zJ7Xd8AAIC\",\"CAADAgADQQIAAkf7CQw2YkvFWC1DowI\",867500685606780933]},{\"text\":[\"Bring it on! I **LIVE** for this!\",1]},{\"text\":\"Reinhardt, we need to find you some new tunes 🎶.\",\"out\":1},{\"voice\":3,\"out\":1},{\"text\":\"Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!\"},{\"audio\":[243,\"True Survivor\",\"David Hasselhoff\"]},{\"text\":\"I can\'t even take you seriously right now.\",\"out\":1}]},{\"members\":[[6,\"Daenerys\"],[7,\"Angela\",\"Merkel\"],[3,\"Julian\",\"Assange\"],[1,\"Pierre\"]],\"_\":[{\"created\":\"Weekend Plans\",\"out\":1},{\"text\":\"Are you sure it\'s safe here?\",\"author\":6},{\"text\":\"Yes, sure, don\'t worry.\",\"out\":1},{\"text\":\"Hallo alle zusammen! Is the NSA reading this? 😄\",\"author\":7},{\"text\":\"Sorry, I\'ll have to publish this conversation on the web\",\"author\":3},{\"left\":3},{\"text\":\"Wait, we could have made so much money on this!\",\"author\":1},{\"sticker\":[467,512,\"AAQCABNfgVkqAAT-l09kzZivgi08AAIC\",\"CAADAgAD3gAD9HsZAAG9he9u98XOPQI\",7173162320003073],\"out\":1}]},{\"member\":[0,\"Eileen\",\"Lockhard\"],\"_\":[{\"sticker\":[512,512,\"AAQCABOzP0sNAATjTYV36dMVWNVCAQABAg\",\"CAADAgADfgUAAvoLtghVynd3kd-TuAI\"]},{\"text\":\"So, why is Telegram cool?\",\"out\":1},{\"text\":\"Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.\"},{\"text\":\"😴\",\"out\":1},{\"text\":\"And it has secret chats, like this one, with end-to-end encryption!\"},{\"text\":\"End encryption to what end??\",\"out\":1},{\"text\":\"Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!\"},{\"ttl\":15},{\"text\":\"😱🙈👍\",\"out\":1}]},{\"member\":\"Space Dandy\",\"_\":[{\"text\":[\"You see this chat preview because you are a **Translator**.\\n\\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.\",1]},{\"text\":\"I knew it! Please don\'t ever tell me this again…\",\"out\":1},{\"text\":[\"**OK**\",1]}],\"guide\":1}</string>
+  <string name="json_1_name">Reinhardt</string>
+  <string name="json_1_audioTitle">True Survivor</string>
+  <string name="json_1_audioPerformer">David Hasselhoff</string>
+  <string name="json_1_text1">Bring it on! I **LIVE** for this!</string>
+  <string name="json_1_text2">Reinhardt, we need to find you some new tunes 🎶.</string>
+  <string name="json_1_text3">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
+  <string name="json_1_text4">I can\'t even take you seriously right now.</string>
+
+  <string name="json_2_name1">Daenerys</string>
+  <string name="json_2_name2">Angela Merkel</string>
+  <string name="json_2_name3">Julian Assange</string>
+  <string name="json_2_name4">Pierre</string>
+  <string name="json_2_title">Weekend Plans</string>
+  <string name="json_2_text1">Are you sure it\'s safe here?</string>
+  <string name="json_2_text2">Yes, sure, don\'t worry.</string>
+  <string name="json_2_text3">Hallo alle zusammen! Is the NSA reading this? 😄</string>
+  <string name="json_2_text4">Sorry, I\'ll have to publish this conversation on the web.</string>
+  <string name="json_2_text5">Wait, we could have made so much money on this!</string>
+
+  <string name="json_3_name">Eileen Lockhard</string>
+  <string name="json_3_text1">So, why is Telegram cool?</string>
+  <string name="json_3_text2">Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.</string>
+  <string name="json_3_text3">😴</string>
+  <string name="json_3_text4">And it has secret chats, like this one, with end-to-end encryption!</string>
+  <string name="json_3_text5">End encryption to what end??</string>
+  <string name="json_3_text6">Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!</string>
+  <string name="json_3_text7">😱🙈👍</string>
+
+  <string name="json_4_name">Space Dandy</string>
+  <string name="json_4_text1">You see this chat preview because you are a **Translator**.\n\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.</string>
+  <string name="json_4_text2">I knew it! Please don\'t ever tell me this again…</string>
+
+  <string name="json_ChatDemo">0</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -2099,6 +2136,10 @@
   <string name="xFiles_two">%1$s files</string>
   <string name="xFiles_few">%1$s files</string>
   <string name="xFiles_many">%1$s files</string>
+  <string name="xFolders_zero">%1$s folders</string>
+  <string name="xFolders_two">%1$s folders</string>
+  <string name="xFolders_few">%1$s folders</string>
+  <string name="xFolders_many">%1$s folders</string>
   <string name="xGIFs_zero">%1$s GIFs</string>
   <string name="xGIFs_two">%1$s GIFs</string>
   <string name="xGIFs_few">%1$s GIFs</string>

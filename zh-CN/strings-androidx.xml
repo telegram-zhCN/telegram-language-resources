@@ -86,10 +86,8 @@
   <string name="network_WaitingForNetwork">等待网络连接……</string>
   <string name="network_Updating">刷新中...</string>
   <string name="location_Nearby">附近</string>
-  <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
   <string name="location_personNearby">正在附近</string>
-  <string name="location_personAwayMeters">距您 %1$s 米远</string>
   <string name="location_personAwayKilometers">距您 %1$s 千米远</string>
   <string name="status_Online">在线</string>
   <string name="status_LastSeenRecently">最近上过线</string>
