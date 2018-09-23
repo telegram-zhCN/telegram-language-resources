@@ -849,6 +849,7 @@
   <string name="NoVideoToShow">No video messages to show</string>
   <string name="NoGifsToShow">No GIFs to show</string>
   <string name="NoMediaToShowInChat">Share photos and videos in this chat and\naccess them on any of your devices.</string>
+  <string name="NoDocumentsToShowInChat">Share files and documents in this chat and\naccess them on any of your devices.</string>
   <string name="NoMusicToShowInChat">Share music and audio files in this chat and\naccess them on any device you have.</string>
   <string name="NoLinksToShowInChat">Share links in this chat and\naccess them on any device you have.</string>
   <string name="NoVoiceToShowInChat">Share voice messages in this chat and\naccess them on any device you have.</string>

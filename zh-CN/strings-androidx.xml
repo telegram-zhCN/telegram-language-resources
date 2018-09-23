@@ -9,6 +9,8 @@
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
   <string name="language_continueInLanguage">使用简体中文继续</string>
+  <string name="language_appliedLanguage">应用语言已切换为 简体中文。</string>
+  <string name="MoreLanguages">更多语言</string>
   <string name="timestamp_now">刚刚</string>
   <string name="timestamp_minutes_one">%1$s 分钟前</string>
   <string name="timestamp_minutes_other">%1$s 分钟前</string>
@@ -60,6 +62,7 @@
   <string name="format_fileSizeAndModifiedDate">%1$s，%2$s</string>
   <string name="format_fileSizeAndDescription">%2$s，%1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
+  <string name="format_filesAndFolders">%1$s，%2$s</string>
   <string name="format_contentAndModifyDate">%1$s，最后修改于 %2$s</string>
   <string name="format_locationUpdated">更新于 %1$s</string>
   <string name="format_plus">+%1$d</string>
@@ -86,8 +89,10 @@
   <string name="network_WaitingForNetwork">等待网络连接……</string>
   <string name="network_Updating">刷新中...</string>
   <string name="location_Nearby">附近</string>
+  <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
   <string name="location_personNearby">正在附近</string>
+  <string name="location_personAwayMeters">距您 %1$s 米远</string>
   <string name="location_personAwayKilometers">距您 %1$s 千米远</string>
   <string name="status_Online">在线</string>
   <string name="status_LastSeenRecently">最近上过线</string>
@@ -1420,6 +1425,8 @@
   <string name="ArchiveStickerSetAction">存档</string>
   <string name="ArchivePack">归档此贴纸包</string>
   <string name="ClearDrawing">清空涂鸦</string>
+  <string name="RoundVideoPlaybackError">播放视频留言失败，请查阅日志获取详情。</string>
+  <string name="VideoPlaybackError">播放视频失败，请查阅日志获取详情。</string>
   <string name="VideoPlaybackUnsupported">视频格式暂不支持。</string>
   <string name="GifPlaybackError">播放 GIF 失败，请查阅日志获取详情。</string>
   <string name="GifPlaybackUnsupported">GIF 格式暂不支持。</string>
@@ -1444,6 +1451,7 @@
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
+  <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义语言设置</string>
   <string name="NotificationChannelCustom">自定义：%1$s</string>
   <string name="NotificationChannelPlayback">音乐播放器</string>
   <string name="NotificationChannelCall">接听电话</string>
@@ -1451,6 +1459,8 @@
   <string name="NotificationChannelMore">更多设置</string>
   <string name="RingtoneCustom">自定义</string>
   <string name="IncognitoKeyboard">无痕键盘</string>
+  <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
+  <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">禁用</string>
@@ -1489,6 +1499,7 @@
   <string name="BotNotFound">机器人 %1$s 未找到</string>
   <string name="AddAccount">添加帐户</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？所有此帐户上的私密对话信息将会丢失。</string>
+  <string name="VoipAnsweringAsAccount">作为 %1$s 回应</string>
   <string name="Directions">路线...</string>
   <string name="ShowOnFoursquare">Foursquare</string>
   <string name="AttachLiveLocation">实时位置</string>
@@ -1499,10 +1510,13 @@
   <string name="ShareLiveLocation">分享实时位置</string>
   <string name="SendLiveLocationInfo">在您移动时实时更新</string>
   <string name="PullToSeePlaces">上拉查看周边地点</string>
+  <string name="SharingLiveLocationToChats_one">你正在与 %1$s 个对话共享实时位置</string>
   <string name="SharingLiveLocationToChats_other">你正在与 %1$s 个对话共享实时位置</string>
+  <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
   <string name="LiveLocationAlertGroup">选择这个群的成员在多长时间内可看到你的精确位置。</string>
   <string name="StopSharingLiveLocation">停止位置共享</string>
   <string name="StopLiveLocationInfo">您确定要停止与所有对话的实时位置分享吗？</string>
+  <string name="StopLiveLocationInfoX">您确定要停止与 %1$s 分享您的实时位置吗？</string>
   <string name="SharingWithXChats_one">分享到 %1$s 个聊天</string>
   <string name="SharingWithXChats_other">分享到 %1$s 个聊天</string>
   <string name="SharingWithX">与 %1$s 共享</string>
@@ -1581,6 +1595,7 @@
   <string name="AutoInstantViewAll">所有链接</string>
   <string name="DeepLinkUnsupported">未知或损坏的链接</string>
   <string name="AppUpdateRequiredTitle">需要更新</string>
+  <string name="AppUpdateRequiredText">要进行此操作，请更新 Telegram。</string>
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
   <string name="message_via">通过</string>
@@ -1676,6 +1691,7 @@
   <string name="LeaveAdminNoReturnHintGroup">警告：退出后您将丢失您的管理员权限并无法再返回此群组，除非被其他成员邀请</string>
   <string name="LeaveNoReturnHintChannel">警告：退出后您将无法再返回此频道，除非被一个管理员邀请</string>
   <string name="LeaveNoReturnHintGroup">警告：退出后您将无法再返回此群组，除非被其他成员邀请</string>
+  <string name="DeleteSecretChatHistoryForOtherParty">删除所有 %1$s 发送的消息</string>
   <string name="LeaveDoneGroup">离开</string>
   <string name="LeaveRemoveFromList">从列表中删除对话</string>
   <string name="Copyright">侵犯版权</string>
@@ -1758,6 +1774,14 @@
   <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
 
   <string name="ToolsStringSectionMain">主要</string>
+  <string name="TdlibLogClearFail">失败。</string>
+
+  <string name="xFolders_one">%1$s 个文件</string>
+  <string name="xFolders_other">%1$s 个文件夹</string>
+  <string name="json_1_name">董先生</string>
+  <string name="json_1_text2">垂死病中惊坐起，谈笑风生又一年 🎶。</string>
+  <string name="json_ChatDemo">0</string>
+
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">精确到 %1$s 米</string>
@@ -1996,6 +2020,10 @@
   <string name="xFiles_two">%1$s 个文件</string>
   <string name="xFiles_few">%1$s 个文件</string>
   <string name="xFiles_many">%1$s 个文件</string>
+  <string name="xFolders_zero">%1$s 个文件夹</string>
+  <string name="xFolders_two">%1$s 个文件夹</string>
+  <string name="xFolders_few">%1$s 个文件夹</string>
+  <string name="xFolders_many">%1$s 个文件夹</string>
   <string name="xGIFs_zero">%1$s 张 GIF 图</string>
   <string name="xGIFs_two">%1$s 张 GIF 图</string>
   <string name="xGIFs_few">%1$s 张 GIF 图</string>
