@@ -1451,7 +1451,10 @@
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
-  <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义语言设置</string>
+  <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义通知设置</string>
+  <string name="NotificationChannelGroupChatPublic">针对群组 «%1$s» 的自定义通知设置 (%2$s)</string>
+  <string name="NotificationChannelChannelChat">针对频道 «%1$s» 的自定义通知设置</string>
+  <string name="NotificationChannelChannelChatPublic">针对频道 «%1$s» 的自定义通知设置 (%2$s)</string>
   <string name="NotificationChannelCustom">自定义：%1$s</string>
   <string name="NotificationChannelPlayback">音乐播放器</string>
   <string name="NotificationChannelCall">接听电话</string>

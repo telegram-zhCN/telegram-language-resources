@@ -254,9 +254,19 @@
   <string name="CopiedLink">Link has been copied to the clipboard</string>
   <string name="CopiedText">Text has been copied to the clipboard</string>
   <string name="passcode_pattern_tooshort">Pattern should be at least 4 dots long</string>
-  <string name="PasscodeDoNotMatch">Passcodes do not match</string>
-  <string name="passcode_invalid">Passcode is invalid</string>
   <string name="passcode_password_tooshort">Password should be at least 1 character long</string>
+
+  <string name="PasscodeMismatchPassword">Passwords do not match</string>
+  <string name="PasscodeMismatchGesture">Gestures do not match</string>
+  <string name="PasscodeMismatchPin">PINs do not match</string>
+  <string name="PasscodeMismatchPattern">Patterns do not match</string>
+  <string name="PasscodeMismatchFingerprint">Fingerprints do not match</string>
+
+  <string name="PasscodeInvalidPassword">Invalid Password</string>
+  <string name="PasscodeInvalidGesture">Invalid Gesture</string>
+  <string name="PasscodeInvalidPin">Invalid PIN</string>
+  <string name="PasscodeInvalidPattern">Invalid Pattern</string>
+
   <string name="ChangePasscodeInfo">When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock the app.\n\nNote: if you forget the passcode, you\'ll need to delete and reinstall the app. All secret chats will be lost.</string>
   <string name="AutoLock">Auto-Lock</string>
   <string name="AutoLockDisabled">Disabled</string>
@@ -1343,7 +1353,7 @@
   <string name="RemoveFromFavorites">Remove from Favorites</string>
   <string name="HoldToAudio">Hold to record audio. Tap to switch to video.</string>
   <string name="HoldToVideo">Hold to record video. Tap to switch to audio.</string>
-  <string name="SecretChatFeatureUnsupported">%1$s Telegram client does not support this feature. Recommend installing an update.</string>
+  <string name="SecretChatFeatureUnsupported">%1$s\'s Telegram client doesn\'t support this feature. They need to install an update first.</string>
   <string name="UseHqRoundVideos">Record HQ Round Videos</string>
   <string name="DiscardVideoMessageTitle">Discard Video Message</string>
   <string name="DiscardVideoMessageDescription">Are you sure you want to discard your video message?</string>
