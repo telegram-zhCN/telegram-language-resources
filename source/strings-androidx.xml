@@ -971,7 +971,7 @@
   <string name="Allow">Allow</string>
   <string name="ContactAdded">Contact added</string>
   <string name="SuggestInvitingUser">%1$s is not on Telegram yet. Would you like to invite them via SMS?</string>
-  <string name="SuggestInvitingUserWithImporters">%1$s is not on Telegram yet. Would you like to invite them via SMS? You have %2$s contacts in common.</string>
+  <string name="SuggestInvitingUserWithImporters">"%1$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %2$s contacts on Telegram. "</string>
   <string name="OutgoingCall">Outgoing Call</string>
   <string name="IncomingCall">Incoming Call</string>
   <string name="MissedCall">Missed Call</string>
@@ -1863,6 +1863,10 @@
   <string name="xFolders_one">%1$s folder</string>
   <string name="xFolders_other">%1$s folders</string>
   <string name="RootDirectory">Root Directory</string>
+  <string name="ApplicationFolder">Application Files</string>
+  <string name="ApplicationFolderExternal">Application Media</string>
+  <string name="ApplicationFolderWarning">**Warning!**\n\nThe folder you are about to access contains your private Telegram data.\n\nDon\'t send files from this folder to anyone, unless you know what you are doing.</string>
+  <string name="ApplicationFolderWarningConfirm">Proceed</string>
 
   <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
   <string name="RememberAlbumSetting">Remember media grouping setting</string>

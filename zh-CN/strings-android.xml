@@ -106,6 +106,7 @@
   <string name="PaymentPasswordInfo">请创建一个用于保护您的付款信息的密码。您需要在登录时输入此密码。</string>
   <string name="PaymentPasswordEmailTitle">辅助邮箱</string>
   <string name="PaymentPasswordEmail">您的邮箱</string>
+  <string name="PaymentPasswordEmailInfo">请输入一个有效的电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
   <string name="PaymentPhoneToProvider">电话号码将作为付款信息发送给 %1$s。</string>
   <string name="PaymentEmailToProvider">邮箱地址将作为付款信息发送给 %1$s。</string>
   <string name="PaymentPhoneEmailToProvider">电话号码和邮箱地址将作为付款信息发送给 %1$s。</string>
@@ -243,6 +244,7 @@
   <string name="ChannelBroadcast">广播</string>
   <string name="ChannelSilentBroadcast">静默广播</string>
   <string name="ChannelAlertTitle">什么是频道？</string>
+  <string name="ChannelAlertText">频道是向大众广播消息的得力工具</string>
   <string name="ChannelAlertCreate">创建新频道</string>
   <string name="LinkInUse">抱歉，此名称已经被使用了。</string>
   <string name="LinkInvalid">抱歉，此名称不符合规范。</string>
@@ -582,6 +584,7 @@
   <string name="AttachBotsHelp">上划查看机器人</string>
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">抱歉，可编辑时间已过。</string>
+  <string name="AddShortcut">添加到主屏幕</string>
   <string name="SearchMembers">搜索成员</string>
   <string name="ChatYourSelf">转发至此以保存</string>
   <string name="SavedMessages">保存的消息</string>
@@ -621,6 +624,7 @@
   <string name="MapPreviewProviderTelegram">Telegram</string>
   <string name="MapPreviewProviderGoogle">Google</string>
   <string name="MapPreviewProviderYandex">Yandex</string>
+  <string name="MapPreviewProviderNobody">不使用预览</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -798,6 +802,7 @@
   <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
   <string name="Invite">邀请</string>
   <string name="BlockContact">屏蔽</string>
+  <string name="EditContact">重命名联系人</string>
   <string name="DeleteContact">删除联系人</string>
   <string name="PhoneHome">家庭</string>
   <string name="PhoneMobile">手机</string>
@@ -836,11 +841,13 @@
   <string name="UsernameInvalidLong">用户名不能超过 32 个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
   <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**、**0–9** 和下划线。最小长度为 **5** 个字符。</string>
+  <string name="UsernameHelpLink">此链接会打开一个与您的会话窗口：\n%1$s</string>
   <string name="UsernameChecking">正在检查用户名...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="UsernameEmpty">无</string>
   <string name="ErrorOccurred">发生错误</string>
   <!--stickers view-->
+  <string name="StickersName">贴纸和装饰</string>
   <string name="AddStickers">添加贴纸包</string>
   <string name="AddMasks">添加装饰</string>
   <string name="AddToStickers">添加到贴纸库</string>
@@ -892,6 +899,7 @@
   <string name="AutoNightSchedule">时间段</string>
   <string name="AutoNightLocation">使用当地日落/日出时间\n</string>
   <string name="AutoNightUpdateLocation">更新位置</string>
+  <string name="AutoNightUpdateLocationInfo">计算日落 &amp; 日出时间需要检测一次您的粗略位置。请注意，此位置仅会本地存储在您的设备上。\n\n日落：%1$s\n日出：%2$s</string>
   <string name="AutoNightFrom">从</string>
   <string name="AutoNightTo">至</string>
   <string name="AutoNightPreferred">首选夜间主题</string>
@@ -1058,6 +1066,7 @@
   <string name="ChromeCustomTabs">应用内浏览器</string>
   <string name="ChromeCustomTabsInfo">在应用内打开外部链接</string>
   <string name="DirectShare">直接分享</string>
+  <string name="DirectShareInfo">在分享菜单中显示最近对话</string>
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">显示单个大号 emoji</string>
   <string name="EmojiUseDefault">使用系统默认 emoji</string>
@@ -1200,9 +1209,16 @@
   <string name="PassportIdentityID">上传一份身份证扫描件</string>
   <string name="PassportIdentityDriverLicence">上传一份驾驶证扫描件</string>
   <string name="PassportPersonal">个人信息</string>
+  <string name="PassportDocument">文档详情</string>
   <string name="PassportName">姓名</string>
   <string name="PassportMidname">中间名</string>
   <string name="PassportSurname">姓氏</string>
+  <string name="PassportNameLatin">名（拉丁文）</string>
+  <string name="PassportMidnameLatin">中间名（拉丁文）</string>
+  <string name="PassportSurnameLatin">姓（拉丁文）</string>
+  <string name="PassportNameCountry">名（%1$s）</string>
+  <string name="PassportMidnameCountry">中间名（%1$s）</string>
+  <string name="PassportSurnameCountry">姓（%1$s）</string>
   <string name="PassportSelectGender">选择性别</string>
   <string name="PassportMale">男</string>
   <string name="PassportFemale">女</string>

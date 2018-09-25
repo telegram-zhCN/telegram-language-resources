@@ -4334,13 +4334,13 @@ You can reset your Telegram Passport.</value>
     <value>Middle name ({0})</value>
   </data>
   <data name="PassportMidnameLatin" xml:space="preserve">
-    <value>Middle name (latin)</value>
+    <value>中间名（拉丁文）</value>
   </data>
   <data name="PassportNameCountry" xml:space="preserve">
     <value>Name ({0})</value>
   </data>
   <data name="PassportNameLatin" xml:space="preserve">
-    <value>Name (latin)</value>
+    <value>姓名（拉丁文）</value>
   </data>
   <data name="PassportNativeHeader" xml:space="preserve">
     <value>您的姓名</value>
@@ -4352,6 +4352,6 @@ You can reset your Telegram Passport.</value>
     <value>Last name ({0})</value>
   </data>
   <data name="PassportSurnameLatin" xml:space="preserve">
-    <value>Last name (latin)</value>
+    <value>姓（拉丁文）</value>
   </data>
 </root>
