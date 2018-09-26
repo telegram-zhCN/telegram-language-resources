@@ -965,7 +965,6 @@
   <string name="Allow">允许</string>
   <string name="ContactAdded">联系人已添加</string>
   <string name="SuggestInvitingUser">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？</string>
-  <string name="SuggestInvitingUserWithImporters">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
   <string name="OutgoingCall">外拨电话</string>
   <string name="IncomingCall">接听电话</string>
   <string name="MissedCall">未接来电</string>

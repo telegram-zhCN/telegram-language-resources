@@ -18,6 +18,8 @@
 "ENCRYPTION_REQUEST" = "New secret chat request%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
 
+
+
 "CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
 "CHAT_MESSAGE_NOTEXT" = "%1$@ sent a message to the group %2$@";
 "CHAT_MESSAGE_PHOTO" = "%1$@ sent a photo to the group %2$@";
@@ -38,6 +40,8 @@
 "CHAT_DELETE_MEMBER" = "%1$@ removed %3$@ from the group %2$@";
 "CHAT_LEFT" = "%1$@ left the group %2$@";
 "CHAT_RETURNED" = "%1$@ returned to the group %2$@";
+
+
 
 "MESSAGE_STICKER" = "%1$@ sent you a %2$@sticker";
 "CHAT_MESSAGE_STICKER" = "%1$@ sent a %3$@sticker to the group %2$@";
@@ -61,6 +65,8 @@
 "CHANNEL_MESSAGE_GEO" = "%1$@ posted a map";
 "CHANNEL_MESSAGE_GEOLIVE" = "%1$@ posted a live location";
 "CHANNEL_MESSAGE_GIF" = "%1$@ posted a GIF";
+
+
 
 "PINNED_TEXT" = "%1$@ pinned \"%2$@\"";
 "PINNED_NOTEXT" = "%1$@ pinned a message";
@@ -205,7 +211,7 @@
 "Login.HaveNotReceivedCodeInternal" = "Haven't received the code?";
 "Login.CodeSentSms" = "We have sent you an SMS with the code";
 "Login.Code" = "Code";
-"Login.CallRequestState1" = "Telegram will call you in %d:%.2d";
+
 "Login.CallRequestState2" = "Requesting a call from Telegram...";
 "Login.CallRequestState3" = "Telegram dialed your number\n[Didn't get the code?]";
 "Login.EmailNotConfiguredError" = "Please set up an email account.";
@@ -1408,6 +1414,7 @@
 
 "ChannelInfo.ChannelForbidden" = "Sorry, the channel \"%@\" is no longer accessible.";
 
+
 "PhotoEditor.FadeTool" = "Fade";
 
 "PhotoEditor.ShadowsTint" = "Shadows";
@@ -1855,7 +1862,7 @@
 
 "Login.CodeSentCall" = "We are calling your phone to dictate a code.";
 
-"Login.SmsRequestState1" = "Telegram will send you an SMS in %d:%.2d";
+
 "Login.SmsRequestState2" = "Requesting an SMS from Telegram...";
 "Login.SmsRequestState3" = "Telegram sent you an SMS\n[Didn't get the code?]";
 
@@ -2400,6 +2407,8 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.MessageInvitedNameUsername" = "invited %1$@ (%2$@)";
 "Channel.AdminLog.MessageKickedName" = "banned %1$@";
 "Channel.AdminLog.MessageKickedNameUsername" = "banned %1$@ (%2$@)";
+
+
 "Channel.AdminLog.MessageRestrictedName" = "changed restrictions for %1$@";
 "Channel.AdminLog.MessageRestrictedNameUsername" = "changed restrictions for %1$@ (%2$@)";
 "Channel.AdminLog.MessagePromotedName" = "changed privileges for %1$@";
@@ -2483,6 +2492,9 @@ Unused sets are archived when you add more.";
 
 "Channel.AdminLog.EmptyTitle" = "No actions here yet";
 "Channel.AdminLog.EmptyText" = "No service actions were taken by the group's members and admins in the last 48 hours.";
+
+
+
 "Channel.AdminLog.EmptyFilterTitle" = "No actions found";
 "Channel.AdminLog.EmptyFilterQueryText" = "No recent actions that contain '%@' have been found.";
 "Channel.AdminLog.EmptyFilterText" = "No recent actions that match your query have been found.";
@@ -2536,12 +2548,12 @@ Unused sets are archived when you add more.";
 
 "InviteText.URL" = "https://telegram.org/dl";
 "InviteText.SingleContact" = "Hey, I'm using Telegram to chat. Join me! Download it here: %@";
-"InviteText.ContactsCount_1" = "Hey, I'm using Telegram to chat. Join me! Download it here: %@";
-"InviteText.ContactsCount_2" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
-"InviteText.ContactsCount_3_10" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
-"InviteText.ContactsCount_any" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
-"InviteText.ContactsCount_many" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
-"InviteText.ContactsCount_0" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
+
+
+
+
+
+
 
 "Invite.LargeRecipientsCountWarning" = "Please note that it may take some time for your device to send all of these invitations";
 
@@ -2950,6 +2962,8 @@ Unused sets are archived when you add more.";
 
 "Login.TermsOfServiceDecline" = "Decline";
 "Login.TermsOfServiceAgree" = "Agree & Continue";
+
+
 
 "Login.TermsOfServiceSignupDecline" = "We're very sorry, but this means you can't sign up for Telegram.\n\nUnlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 
@@ -3385,9 +3399,29 @@ Unused sets are archived when you add more.";
 "Passport.Language.vi" = "Vietnamese";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
+"InviteText.ContactsCount_0" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
+"InviteText.ContactsCount_1" = "Hey, I'm using Telegram to chat. Join me! Download it here: %@";
+"InviteText.ContactsCount_2" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
+"InviteText.ContactsCount_3_10" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
+"InviteText.ContactsCount_many" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
+"InviteText.ContactsCount_any" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
+"Login.CallRequestState1" = "Telegram will call you in %d:%.2d";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
+"Login.SmsRequestState1" = "Telegram will send you an SMS in %d:%.2d";
 "Map.ETAHours_0" = "%@ h";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "You need to have Telegram Messenger installed to use Telegram Passport";
