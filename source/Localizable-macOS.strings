@@ -539,7 +539,7 @@
 "Peer.Media.SharedFilesEmptyList" = "You can send and receive files of any type up to 1.5 GB each and access them anywhere.";
 "Peer.Media.SharedLinksEmptyList" = "All links shared in this chat will appear here.";
 "Peer.Media.SharedMusicEmptyList" = "All music shared in this chat will appear here.";
-
+"Peer.Media.SharedVoiceEmptyList" = "All voice and video messages shared in this chat will appear here.";
 "SecretTimer.Off" = "Off";
 
 "Timer.Seconds_countable" = "%d";
@@ -2209,6 +2209,29 @@
 "AutoNight.Settings.SunsetAndSunrise" = "Use Local Sunset & Sunrise";
 "AutoNight.Settings.Disabled" = "Disabled";
 "AutoNight.Settings.Scheduled" = "Scheduled";
+
+
+"Gallery.Context.Share.ThisPhoto" = "This Photo";
+"Gallery.Context.Share.AllPhotos_countable" = "%d";
+"Gallery.Context.Share.AllPhotos_zero" = "All %d photos";
+"Gallery.Context.Share.AllPhotos_one" = "All %d photo";
+"Gallery.Context.Share.AllPhotos_two" = "All %d photos";
+"Gallery.Context.Share.AllPhotos_few" = "All %d photos";
+"Gallery.Context.Share.AllPhotos_many" = "All %d photos";
+"Gallery.Context.Share.AllPhotos_other" = "All %d photos";
+
+
+"Gallery.Context.ShowGallery" = "Shared Media";
+
+
+"TouchBar.Favorite" = "Favorite";
+"TouchBar.Recent" = "Recent";
+"TouchBar.EditMessage.ReplaceWithMedia" = "Replace with Media";
+"TouchBar.EditMessage.ReplaceWithFile" = "Replace with File";
+"TouchBar.StartSecretChat" = "Start Secret Chat";
+"TouchBar.Call" = "Call";
+"TouchBar.SearchUsersOrMessages" = "Search for messages or users";
+"TouchBar.Attach" = "Attach";
 
 
 /* new from translations.telegram.org */
