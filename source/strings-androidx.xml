@@ -971,7 +971,8 @@
   <string name="Allow">Allow</string>
   <string name="ContactAdded">Contact added</string>
   <string name="SuggestInvitingUser">%1$s is not on Telegram yet. Would you like to invite them via SMS?</string>
-  <string name="SuggestInvitingUserWithImporters">"%1$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %2$s contacts on Telegram. "</string>
+  <string name="SuggestInvitingUserCommon_one">"%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contact on Telegram. "</string>
+  <string name="SuggestInvitingUserCommon_other">"%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram. "</string>
   <string name="OutgoingCall">Outgoing Call</string>
   <string name="IncomingCall">Incoming Call</string>
   <string name="MissedCall">Missed Call</string>
@@ -1871,6 +1872,9 @@
   <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
   <string name="RememberAlbumSetting">Remember media grouping setting</string>
 
+  <string name="ProcessingMedia">Processing %1$s</string>
+  <string name="format_uploadStatus">%1$d%% %2$s</string>
+
   <string name="json_1_name">Reinhardt</string>
   <string name="json_1_audioTitle">True Survivor</string>
   <string name="json_1_audioPerformer">David Hasselhoff</string>
@@ -2039,6 +2043,10 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
+  <string name="SuggestInvitingUserCommon_zero">"%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram. "</string>
+  <string name="SuggestInvitingUserCommon_two">"%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram. "</string>
+  <string name="SuggestInvitingUserCommon_few">"%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram. "</string>
+  <string name="SuggestInvitingUserCommon_many">"%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram. "</string>
   <string name="TranslationsMissing_zero">%1$s untranslated</string>
   <string name="TranslationsMissing_two">%1$s untranslated</string>
   <string name="TranslationsMissing_few">%1$s untranslated</string>

@@ -211,7 +211,7 @@
 "Login.HaveNotReceivedCodeInternal" = "Haven't received the code?";
 "Login.CodeSentSms" = "We have sent you an SMS with the code";
 "Login.Code" = "Code";
-
+"Login.WillCallYou" = "Telegram will call you in %@";
 "Login.CallRequestState2" = "Requesting a call from Telegram...";
 "Login.CallRequestState3" = "Telegram dialed your number\n[Didn't get the code?]";
 "Login.EmailNotConfiguredError" = "Please set up an email account.";
@@ -1413,7 +1413,7 @@
 "ChannelInfo.DeleteChannelConfirmation" = "Wait! Deleting this channel will remove all members and all messages will be lost. Delete the channel anyway?";
 
 "ChannelInfo.ChannelForbidden" = "Sorry, the channel \"%@\" is no longer accessible.";
-
+"ChannelInfo.AddParticipantConfirmation" = "Add %@ to the channel?";
 
 "PhotoEditor.FadeTool" = "Fade";
 
@@ -2548,12 +2548,12 @@ Unused sets are archived when you add more.";
 
 "InviteText.URL" = "https://telegram.org/dl";
 "InviteText.SingleContact" = "Hey, I'm using Telegram to chat. Join me! Download it here: %@";
-
-
-
-
-
-
+"InviteText.ContactsCountText_1" = "Hey, I'm using Telegram to chat. Join me! Download it here: {url}";
+"InviteText.ContactsCountText_2" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: {url}";
+"InviteText.ContactsCountText_3_10" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: {url}";
+"InviteText.ContactsCountText_any" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: {url}";
+"InviteText.ContactsCountText_many" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: {url}";
+"InviteText.ContactsCountText_0" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: {url}";
 
 "Invite.LargeRecipientsCountWarning" = "Please note that it may take some time for your device to send all of these invitations";
 
@@ -2790,7 +2790,7 @@ Unused sets are archived when you add more.";
 "Channel.Subscribers.Title" = "Subscribers";
 "Conversation.InfoGroup" = "Group";
 
-
+"Privacy.PaymentsClearInfoDoneHelp" = "Payment & shipping info cleared.";
 
 "InfoPlist.NSContactsUsageDescription" = "Telegram will continuously upload your contacts to its heavily encrypted cloud servers to let you connect with your friends across all your devices.";
 "InfoPlist.NSLocationWhenInUseUsageDescription" = "When you send your location to your friends, Telegram needs access to show them a map.";
@@ -3409,6 +3409,12 @@ Unused sets are archived when you add more.";
 
 "Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications on the Lock screen.";
+
+"Notifications.Badge" = "BADGE COUNTER";
+"Notifications.Badge.IncludeMutedChats" = "Include Muted Chats";
+"Notifications.Badge.CountUnreadMessages" = "Count Unread Messages";
+"Notifications.Badge.CountUnreadMessages.InfoOff" = "Switch on to show the number of unread messages instead of chats.";
+"Notifications.Badge.CountUnreadMessages.InfoOn" = "Switch off to show the number of unread chats instead of messages.";
 
 
 /* new from translations.telegram.org */
