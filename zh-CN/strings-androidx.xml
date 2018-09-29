@@ -9,6 +9,7 @@
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
   <string name="language_continueInLanguage">使用简体中文继续</string>
+  <string name="language_continueInLanguagePopupText">**Telegram X** 已支持**中文**.\n\n你是否想要变更界面语言呢？\n\n你可以随时在 设置&#160;&gt;&#160;语言 中修改。</string>
   <string name="language_appliedLanguage">应用语言已切换为 简体中文。</string>
   <string name="MoreLanguages">更多语言</string>
   <string name="timestamp_now">刚刚</string>
@@ -259,6 +260,16 @@
   <string name="passcode_password_tooshort">密码必须至少有 1 个字符</string>
 
   <string name="PasscodeMismatchPassword">密码不匹配</string>
+  <string name="PasscodeMismatchGesture">手势不匹配</string>
+  <string name="PasscodeMismatchPin">PIN 码不匹配</string>
+  <string name="PasscodeMismatchPattern">图案不匹配</string>
+  <string name="PasscodeMismatchFingerprint">指纹不匹配</string>
+
+  <string name="PasscodeInvalidPassword">错误的密码</string>
+  <string name="PasscodeInvalidGesture">错误的手势</string>
+  <string name="PasscodeInvalidPin">错误的 PIN 码</string>
+  <string name="PasscodeInvalidPattern">错误的图案</string>
+
   <string name="ChangePasscodeInfo">当您设置好一个锁定码后，聊天列表上方会出现一个锁形图标。点击它来锁定或解锁 Telegram 应用。\n\n注意：如果您忘记了锁定码，您将只能卸载然后重新安装 Telegram。重装之后您将丢失所有的加密对话。</string>
   <string name="AutoLock">自动锁定</string>
   <string name="AutoLockDisabled">已禁用</string>
@@ -496,6 +507,7 @@
   <string name="SearchForImages">搜索图片</string>
   <string name="AllMedia">所有图片和视频</string>
   <string name="UserUnavailable">用户暂不可用</string>
+  <string name="YouCantForwardMoreMessages_one">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
   <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
   <string name="game_ActionUserScored_one">%2$s 获得 %1$s 分</string>
   <string name="game_ActionUserScored_other">%2$s 获得 %1$s 分</string>
@@ -856,6 +868,7 @@
   <string name="NoVideoToShow">没有可显示的视频消息</string>
   <string name="NoGifsToShow">没有可显示的 GIF 动图</string>
   <string name="NoMediaToShowInChat">在此对话中分享图片和视频，\n并在您所有的设备上访问。 </string>
+  <string name="NoDocumentsToShowInChat">在此对话中分享文件，\n并在您所有的设备上访问。</string>
   <string name="NoMusicToShowInChat">在此对话中分享音频文件，\n并在您所有的设备上访问。</string>
   <string name="NoLinksToShowInChat">在此对话中分享链接，\n并在您所有的设备上访问。</string>
   <string name="NoVoiceToShowInChat">在此对话中发送语音，\n并在您所有的设备上访问。</string>
@@ -953,6 +966,10 @@
   <string name="YouCreatedGroup">您创建了此群组</string>
   <string name="XofY">%1$s, %2$s</string>
   <string name="ReadingXLine">正在读取第 %1$s 行...</string>
+  <string name="xPeopleJoinedGroup_one">%1$s 位成员加入了群组</string>
+  <string name="xPeopleJoinedGroup_other">%1$s 位成员加入了群组</string>
+  <string name="xPeopleJoinedChannel_one">%1$s 个订阅者订阅了频道</string>
+  <string name="xPeopleJoinedChannel_other">%1$s 个订阅者订阅了频道</string>
   <string name="AddToTheGroup">添加 %1$s 到此群组？</string>
   <string name="QAddXToChannel">将 %1$s 添加到此频道？</string>
   <string name="QDeleteX">删除 %1$s？</string>
@@ -965,6 +982,8 @@
   <string name="Allow">允许</string>
   <string name="ContactAdded">联系人已添加</string>
   <string name="SuggestInvitingUser">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？</string>
+  <string name="SuggestInvitingUserCommon_one">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_other">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
   <string name="OutgoingCall">外拨电话</string>
   <string name="IncomingCall">接听电话</string>
   <string name="MissedCall">未接来电</string>
@@ -1065,6 +1084,7 @@
   <string name="UseProxyPort">端口</string>
   <string name="ProxySettings">代理设置</string>
   <string name="EnableProxyAlertTitle">您确定要启用此代理吗？</string>
+  <string name="EnableProxyAlertHint">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
   <string name="EnableProxyAlertHintMtproto">这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 流量。</string>
   <string name="ProxyEnable">启用</string>
   <string name="ProxySaveForLater">保存代理</string>
@@ -1098,7 +1118,10 @@
   <string name="InviteFriends">邀请朋友</string>
   <string name="InviteText">嘿！和我一起用 %1$s 吧：\n%2$s</string>
   <string name="ShowForwardOptions">显示转发选项</string>
+  <string name="OpenProfile">查看用户信息</string>
   <string name="OpenChannel">查看频道</string>
+  <string name="OpenGroup">打开群组</string>
+  <string name="OpenBot">打开机器人</string>
   <string name="SendAsCopy">发送副本</string>
   <string name="RemoveCaptions">从副本中移除标题</string>
   <string name="GifHasBeenSavedToGallery">此 GIF 已保存到图库</string>
@@ -1161,6 +1184,7 @@
   <string name="BlockUser">屏蔽此用户</string>
   <string name="MessageLifetimePhoto">如果您设定一个定时器，该图片将在阅后一定时间内自毁。</string>
   <string name="MessageLifetimeVideo">如果您设定一个定时器，该视频将在阅后一定时间内自毁。</string>
+  <string name="NoMembersToShow">没有可显示的成员</string>
   <string name="NoMembersToShowDesc">尝试更改你的查询要求
 被查询到的成员会显示在这里</string>
   <string name="ManageChannel">管理频道</string>
@@ -1198,6 +1222,7 @@
   <string name="RightPinMessages">置顶</string>
   <string name="RightAddNewAdmins">添加新管理员</string>
   <string name="RightEditMessages">编辑消息</string>
+  <string name="NoGroupsToShow">没有可显示的群组</string>
   <string name="GroupsWillBeShownHere">您与此人共同加入的群组将会显示在此处</string>
   <string name="EditAdminRights">编辑管理员权限</string>
   <string name="ViewAdminRights">查看管理员权限</string>
@@ -1303,6 +1328,7 @@
   <string name="EventLogToggledInvitesOff">%1$s 禁用了邀请权限</string>
   <string name="EventLogToggledSignaturesOn">%1$s 启用了消息署名</string>
   <string name="EventLogToggledSignaturesOff">%1$s 禁用了消息署名</string>
+  <string name="EventLogRestrictedNew">已限制 %1$s\n\n时长：%2$s</string>
   <string name="EventLogRestrictedUntil">修改了 %1$s 的限制\n\n时长: %2$s</string>
   <string name="EventLogRestrictedDeleted">移除了 %1$s 的限制</string>
   <string name="EventLogRestrictedSendStickers">发送贴纸和 GIF</string>
@@ -1340,6 +1366,7 @@
   <string name="RemoveFromFavorites">从收藏中移除</string>
   <string name="HoldToAudio">按住来录制音频。点击切换为拍摄视频。</string>
   <string name="HoldToVideo">按住来拍摄视频。点击切换为录制音频。</string>
+  <string name="SecretChatFeatureUnsupported">%1$s 的 Telegram 客户端不支持此项功能，请其先更新客户端后再试。</string>
   <string name="UseHqRoundVideos">录制高清视频消息</string>
   <string name="DiscardVideoMessageTitle">放弃视频消息</string>
   <string name="DiscardVideoMessageDescription">你确定要舍弃你的视频消息吗？</string>
@@ -1393,10 +1420,16 @@
   <string name="SyncHintRetry">为了帮助你在 Telegram 上与你的朋友和家人联系，请允许我们访问你的通讯录。\n\n点击 设置 &gt; 权限，并将 通讯录 权限设为开启。</string>
   <string name="SyncHintUnavailable">要允许 Telegram 访问您的通讯录，请点击 设置 &gt; 权限，并将 通讯录 权限设为开启</string>
   <string name="Continue">继续</string>
+  <string name="NoChatsText">**没有对话可以展示**
+
+邀请您的朋友和家人来&#160;加入#160;Telegram吧</string>
   <string name="ShowContacts">开始对话</string>
   <string name="ContactsOnTelegramSingle">%1$s 正在使用&#160;Telegram</string>
   <string name="ContactsOnTelegramSeveral">%1$s 和 %2$s 正在&#160;使用&#160;Telegram</string>
+  <string name="ContactsOnTelegramMany_one">%2$s 和其他 %1$s 名联系人&#160;也在使用&#160; Telegram。</string>
+  <string name="ContactsOnTelegramMany_other">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
   <string name="SearchPeople">搜索用户</string>
+  <string name="ManyContactsJoined">有 1000+ 位在 Telegram 上的联系人</string>
   <string name="InviteTextCommonMany_one">你好，我与另外 %1$s 位朋友都在使用 Telegram 聊天。加入我们吧！从这里下载：%2$s</string>
   <string name="InviteTextCommonMany_other">你好，我在另外 %1$s 位朋友都在使用 Telegram 聊天。加入我们吧！从这里下载：%2$s</string>
   <string name="InviteTextCommonOverThousand">你好，我与另外 1000+ 位朋友都在使用 Telegram 聊天。加入我们吧！从这里下载：%1$s</string>
@@ -1406,6 +1439,7 @@
   <string name="SecretLinkPreviewAlert">要为加密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。</string>
   <string name="SecretChatContextBotAlert">请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
   <string name="ClearRecentEmojiAction">清除最近使用的 Emoji</string>
+  <string name="PaintModeDoodle">涂鸦</string>
   <string name="PaintModeArrow">箭头</string>
   <string name="PaintModeRect">矩形</string>
   <string name="PaintModeFill">填充颜色</string>
@@ -1420,6 +1454,7 @@
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">电话</string>
   <string name="SetAsCurrent">设置为当前头像</string>
+  <string name="ArchiveStickerSet">确定归档贴纸集 %1$s？稍后你可以在 设置 &gt; 贴纸 &gt; 已归档 中找回。</string>
   <string name="ArchiveStickerSetAction">存档</string>
   <string name="ArchivePack">归档此贴纸包</string>
   <string name="ClearDrawing">清空涂鸦</string>
@@ -1476,6 +1511,7 @@
   <string name="AutoNightModeDescriptionScheduled">根据时间计划决定是否切换到夜间模式。</string>
   <string name="PrivacyBots">机器人</string>
   <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
+  <string name="NoActiveLogins">**没有授权登录**\n\n你可以在所有支&#160;持&#160;使&#160;用 Telegram 登入的网站中登录。</string>
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
   <string name="ClearOtherWebSessionsHelp">您可以在在支持的网站上使用 Telegram 登录。</string>
   <string name="OtherWebSessions">关联网站</string>
@@ -1501,6 +1537,7 @@
   <string name="AddAccount">添加帐户</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？所有此帐户上的私密对话信息将会丢失。</string>
   <string name="VoipAnsweringAsAccount">作为 %1$s 回应</string>
+  <string name="ShowSourceMessage">查看源对话</string>
   <string name="Directions">路线...</string>
   <string name="ShowOnFoursquare">Foursquare</string>
   <string name="AttachLiveLocation">实时位置</string>
@@ -1511,6 +1548,8 @@
   <string name="ShareLiveLocation">分享实时位置</string>
   <string name="SendLiveLocationInfo">在您移动时实时更新</string>
   <string name="PullToSeePlaces">上拉查看周边地点</string>
+  <string name="LoadingPlaces">查找地点中……</string>
+  <string name="NoPlacesFound">未找到地点</string>
   <string name="SharingLiveLocationToChats_one">你正在与 %1$s 个对话共享实时位置</string>
   <string name="SharingLiveLocationToChats_other">你正在与 %1$s 个对话共享实时位置</string>
   <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
@@ -1518,8 +1557,8 @@
   <string name="StopSharingLiveLocation">停止位置共享</string>
   <string name="StopLiveLocationInfo">您确定要停止与所有对话的实时位置分享吗？</string>
   <string name="StopLiveLocationInfoX">您确定要停止与 %1$s 分享您的实时位置吗？</string>
-  <string name="SharingWithXChats_one">分享到 %1$s 个聊天</string>
-  <string name="SharingWithXChats_other">分享到 %1$s 个聊天</string>
+  <string name="SharingWithXChats_one">分享到 %1$s 个对话</string>
+  <string name="SharingWithXChats_other">分享到 %1$s 个对话</string>
   <string name="SharingWithX">与 %1$s 共享</string>
   <string name="AttachLiveLocationIsSharing">与 %1$s 共享</string>
   <string name="SharingYouAndOtherName">你和 %1$s</string>
@@ -1531,12 +1570,15 @@
   <string name="AppBadgeType">角标类型</string>
   <string name="AppBadgeTypeMessages">消息数目</string>
   <string name="AppBadgeTypeChats">对话数目</string>
+  <string name="AppBadgeHint">在应用图标上显示未读消息数。注意部分设备可能无法显示。</string>
   <string name="AppBadgeDisabled">已禁用</string>
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
   <string name="AppBadgeAll">所有对话</string>
   <string name="ApplyToAll">应用到全部</string>
   <string name="DroppedPin">放置的图钉</string>
   <string name="CalculatingDistance">正在计算距离...</string>
+  <string name="DirectionGo">前往</string>
+  <string name="LayerMapDefault">明亮</string>
   <string name="LayerMapDark">暗色</string>
   <string name="LayerMapSatellite">卫星图</string>
   <string name="LayerMapTerrain">地形</string>
@@ -1557,6 +1599,7 @@
   <string name="IsSendingLocation">%1$s 正在选择位置</string>
   <string name="AreSendingLocation">%1$s 正在选择位置</string>
   <string name="SendingContact">正在选择联系人...</string>
+  <string name="IsSendingContact">%1$s 正在选择联系人……</string>
   <string name="AreSendingContact">%1$s 正在选择联系人</string>
   <string name="RecordingRound">正在录制视频</string>
   <string name="IsRecordingRound">%1$s 正在录制视频</string>
@@ -1588,6 +1631,12 @@
   <string name="SuggestStickersInstalled">仅已安装贴纸包</string>
   <string name="SuggestStickersNone">无</string>
   <string name="MessageContentPreview">图像预览</string>
+  <string name="PlaceSearchError">搜索地点出错</string>
+  <string name="ShareAs">以何种方式分享</string>
+  <string name="PerformAs">以何种方式执行操作</string>
+  <string name="OpenLinkAs">以何种方式打开链接</string>
+  <string name="CurrentAccount">%1$s（现正使用）</string>
+  <string name="Proceed">继续</string>
   <string name="LiveLocationError">无法确认您当前的位置。</string>
   <string name="AutoInstantView">即时预览</string>
   <string name="AutoInstantViewDesc">当您打开一个链接时，Telegram 将会尝试生成一个即时预览页面。</string>
@@ -1621,11 +1670,13 @@
   <string name="PrivacyCallsContactsExcept">只有联系人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsEverybody">任何人都可以呼叫您</string>
   <string name="PrivacyCallsEverybodyExcept">任何人 (%1$s) 都可以呼叫您</string>
+  <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
   <string name="NotificationsDefault">使用全局设置（%1$s）</string>
   <string name="NotificationsDefaultEnabled">启用</string>
   <string name="NotificationsDefaultUnmutesIn">%1$s 后解除静音</string>
   <string name="NotificationsDefaultDisabled">已禁用</string>
   <string name="NotificationsDefaultValue">%1$s（默认）</string>
+  <string name="NotificationsDefaultInfo">此对话的通知已被单独启用。</string>
   <string name="ProxyShowErrors">显示错误详情</string>
   <string name="ProxyHideErrors">隐藏错误详情</string>
   <string name="ProxyReorderByPing">根据 Ping 值排序</string>
@@ -1690,11 +1741,24 @@
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
   <string name="LeaveAdminNoReturnHintChannel">警告：退出后您将丢失您的管理员权限并无法再返回此频道，除非被一个管理员邀请</string>
   <string name="LeaveAdminNoReturnHintGroup">警告：退出后您将丢失您的管理员权限并无法再返回此群组，除非被其他成员邀请</string>
-  <string name="LeaveNoReturnHintChannel">警告：退出后您将无法再返回此频道，除非被一个管理员邀请</string>
-  <string name="LeaveNoReturnHintGroup">警告：退出后您将无法再返回此群组，除非被其他成员邀请</string>
+  <string name="LeaveNoReturnHintChannel">警告：您将无法再返回此频道，除非被一个管理员邀请</string>
+  <string name="LeaveNoReturnHintGroup">警告：您将无法再返回此群组，除非被其他成员邀请</string>
+  <string name="LeaveCreatorHintChannel">警告：您将无法再返回此频道，除非被一个管理员邀请</string>
+  <string name="LeaveCreatorHintGroup">警告：您将无法再返回此群组，除非被其他成员邀请</string>
+  <string name="LeaveReturnPublicLinkHintChannel">您将可以通过公共链接返回此频道</string>
+  <string name="LeaveReturnPublicLinkHintGroup">您将可以通过公共链接返回此群组</string>
+  <string name="DeleteUserChatConfirm">您确定要删除与 %1$s 的对话吗？此操作不可撤销。</string>
+  <string name="DeleteSecretChatPendingConfirm">您确定要取消与 %1$s 的加密对话吗？</string>
+  <string name="DeleteSecretChatClosedConfirm">您确定要删除与 %1$s 的加密对话吗？此操作不可撤销。</string>
+  <string name="DeleteSecretChatConfirm">您确定要删除与 %1$s 的加密对话吗？所有对话历史均会被永久删除。此操作不可撤销。</string>
   <string name="DeleteSecretChatHistoryForOtherParty">删除所有 %1$s 发送的消息</string>
+  <string name="ChatWithUser">与 %1$s 聊天</string>
+  <string name="SecretChatWithUser">与 %1$s 开始加密对话</string>
   <string name="LeaveDoneGroup">离开</string>
   <string name="LeaveRemoveFromList">从列表中删除对话</string>
+  <string name="DestroyXNoMembers">删除 %1$s？</string>
+  <string name="DestroyX_one">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
+  <string name="DestroyX_other">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
   <string name="Copyright">侵犯版权</string>
   <string name="PrivacyAdvanced">高级</string>
   <string name="DeleteAccountIfAwayFor2">删除我的帐户若离线时间达</string>
@@ -1721,18 +1785,28 @@
   <string name="ErrorUserDeleted">您不能执行此操作，因为此账户已被注销。</string>
   <string name="GroupUpgradedFrom">此群组已升级为超级群组，点按此处查阅更早的消息记录。</string>
   <string name="GroupUpgradedTo">此群组已升级为超级群组</string>
+  <string name="MembersDetailRestricted">被限制的用户</string>
   <string name="MembersDetailAdmins">管理员</string>
   <string name="MembersDetailBanned">被封禁的用户</string>
+  <string name="ChatSuggestionsDisabled">机器人推荐已被禁用。\n可在 设置 &gt; 隐私与安全 处重新开启。</string>
   <string name="ChatLinkView">查看对话</string>
+  <string name="ChatLinkRemove">移除链接</string>
+  <string name="ChatLinkRemoveAlert">等等！你确定你要将 %1$s 设为私有并且移除它的公共链接？若如此做，该链接可能会被其他用户生成。</string>
   <string name="HoldMediaTutorial">按住查看此图片</string>
+  <string name="SecretPasscodeInfo">当您设置了一个附加锁定码后，您将需要在每次访问此对话前输入输入它。此对话的消息预览将从对话列表中被隐藏。\n\n注意：如果您忘记了您的锁定码，此对话的内容将会丢失。\n\n如果您需要一个全局锁定码，请通过 设置 &gt; 隐私和安全 &gt; 密码锁 来设置。</string>
+  <string name="ChatContentProtected">内容被保护</string>
   <string name="DragChatsHint">拖动重新排序对话</string>
   <string name="OpenMap">在地图中显示</string>
   <string name="MapPreviewProvider">地图预览提供商</string>
   <string name="MapPreviewProviderCloud">普通对话的地图预览提供商</string>
+  <string name="MapPreviewProviderInfo">当您收到一个地图或实时位置时，一个预览图会被您选择的提供商生成。\n\n这要求我们发送一个包含位置坐标的匿名请求。</string>
+  <string name="MapPreviewProviderHint">选择一个提供商生成加密对话的地图预览。\n\n这要求我们发送一个包含位置坐标的匿名请求。</string>
   <string name="MapPreviewProviderNone">无</string>
+  <string name="MapPreviewProviderUnset">不使用</string>
   <string name="MapPreviewProviderGoogle">Google Maps</string>
   <string name="MapPreviewProviderTelegram">Telegram</string>
   <string name="InvalidLocalisation">无效的本地化文件</string>
+  <string name="LanguageInfo">您确定要应用此本地化文件吗？\n\n语言：%1$s (%2$s)\n语言代码：%3$s, %4$s\n已翻译 %5$d%% (%6$s)</string>
   <string name="TranslationsMissing_one">%1$s 个项目未翻译</string>
   <string name="TranslationsMissing_other">%1$s 个项目未翻译</string>
   <string name="LanguageInstall">使用此本地化文件</string>
@@ -1744,12 +1818,16 @@
   <string name="TranslationMoreTitle">找不到你的语言？</string>
   <string name="TranslationMoreDone">好</string>
   <string name="TranslationMoreCreate">创建</string>
+  <string name="TranslationMoreText">可用的语言列表由 [翻译平台](https://translations.telegram.org) 管理。\n\n当对您语言的翻译被正式发布时，Telegram 将会提示您切换到您的语言。\n\n在您等待途中，您可以安装自定义语言文件，加入 [翻译进程](https://translations.telegram.org/en/android_x/) 或创建您自己的 [语言文件](https://t.me/tgx_android_translate/) 。</string>
   <string name="OK">确定</string>
   <string name="RemoveLanguage">删除本地化文件</string>
+  <string name="LanguageEmpty">本地化文件为空</string>
+  <string name="LocalisationShare">分享 XML</string>
   <string name="FileName">文件名</string>
   <string name="LocalizationCreateTitle">创建本地化文件</string>
   <string name="LocalizationCreateDone">创建</string>
   <string name="LocalizationEdit">编辑本地化文件</string>
+  <string name="LocalizationView">查看字符串</string>
   <string name="LocalizationEditConfirmPrompt">当前字符串（%1$s）已被修改。您要保存这些更改吗？</string>
   <string name="LocalizationEditConfirmSave">保存更改</string>
   <string name="LocalizationEditConfirmDiscard">撤销</string>
@@ -1774,11 +1852,33 @@
   <string name="ErrorPinnedChatsLimit_one">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
   <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
 
+  <string name="ToolsCopyString">复制字符串</string>
+  <string name="ToolsUntranslatedTitle">未翻译</string>
+  <string name="ToolsAllTitle">字符串</string>
+  <string name="ToolsOpenOnPlatform">翻译平台</string>
+  <string name="ToolsLocalePlaceholder">语言代码。示例: **ja-JP**, **zh-CN**, **ro-RO**</string>
+  <string name="ToolsExportText">%1$s / %2$s\n\n从 %3$s 导出</string>
+
   <string name="ToolsStringSectionMain">主要</string>
+  <string name="ToolsStringSectionJson">JSON 数据</string>
+  <string name="ToolsStringSectionUrl">URLs</string>
+  <string name="ToolsStringSectionSimpleFormatted">格式字符串</string>
+  <string name="ToolsStringSectionSimple">简单字符串</string>
+
+  <string name="TdlibLogClearEmpty">没有什么可以清空。</string>
+  <string name="TdlibLogClearOk">完成。已释放 %1$s 空间。</string>
   <string name="TdlibLogClearFail">失败。</string>
 
   <string name="xFolders_one">%1$s 个文件</string>
   <string name="xFolders_other">%1$s 个文件夹</string>
+  <string name="RootDirectory">根目录</string>
+  <string name="ApplicationFolderWarning">**警告！**\n\n您即将打开的文件夹中包含您的私人 Telegram 数据。\n\n不要将此文件夹的文件发送给任何人，除非您知道您在做什么。</string>
+  <string name="ApplicationFolderWarningConfirm">继续</string>
+
+  <string name="SaveOutgoingPhotos">保存编辑的图片到相册</string>
+  <string name="RememberAlbumSetting">记忆媒体分组设置</string>
+
+  <string name="ProcessingMedia">正在处理 %1$s</string>
   <string name="json_1_name">董先生</string>
   <string name="json_1_text2">垂死病中惊坐起，谈笑风生又一年 🎶。</string>
   <string name="json_ChatDemo">0</string>
@@ -1813,6 +1913,10 @@
   <string name="AttachVideosSuffix_two">段视频</string>
   <string name="AttachVideosSuffix_few">段视频</string>
   <string name="AttachVideosSuffix_many">段视频</string>
+  <string name="ContactsOnTelegramMany_zero">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
+  <string name="ContactsOnTelegramMany_two">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
+  <string name="ContactsOnTelegramMany_few">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
+  <string name="ContactsOnTelegramMany_many">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
   <string name="DeleteAccountIfAwayForDays_zero">%1$s 天</string>
   <string name="DeleteAccountIfAwayForDays_two">%1$s 天</string>
   <string name="DeleteAccountIfAwayForDays_few">%1$s 天</string>
@@ -1825,6 +1929,10 @@
   <string name="DeleteAccountIfAwayForYears_two">%1$s 年</string>
   <string name="DeleteAccountIfAwayForYears_few">%1$s 年</string>
   <string name="DeleteAccountIfAwayForYears_many">%1$s 年</string>
+  <string name="DestroyX_zero">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
+  <string name="DestroyX_two">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
+  <string name="DestroyX_few">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
+  <string name="DestroyX_many">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
   <string name="ErrorPinnedChatsLimit_zero">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
   <string name="ErrorPinnedChatsLimit_two">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
   <string name="ErrorPinnedChatsLimit_few">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
@@ -1909,6 +2017,10 @@
   <string name="SharingWithXChats_two">分享到 %1$s 个聊天</string>
   <string name="SharingWithXChats_few">分享到 %1$s 个聊天</string>
   <string name="SharingWithXChats_many">分享到 %1$s 个聊天</string>
+  <string name="SuggestInvitingUserCommon_zero">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_two">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_few">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_many">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
   <string name="TranslationsMissing_zero">%1$s 个项目未翻译</string>
   <string name="TranslationsMissing_two">%1$s 个项目未翻译</string>
   <string name="TranslationsMissing_few">%1$s 个项目未翻译</string>
@@ -2097,6 +2209,14 @@
   <string name="xOtherPeopleNames_two">和其他 %1$s 人</string>
   <string name="xOtherPeopleNames_few">和其他 %1$s 人</string>
   <string name="xOtherPeopleNames_many">和其他 %1$s 人</string>
+  <string name="xPeopleJoinedChannel_zero">%1$s 个订阅者订阅了频道</string>
+  <string name="xPeopleJoinedChannel_two">%1$s 个订阅者订阅了频道</string>
+  <string name="xPeopleJoinedChannel_few">%1$s 个订阅者订阅了频道</string>
+  <string name="xPeopleJoinedChannel_many">%1$s 个订阅者订阅了频道</string>
+  <string name="xPeopleJoinedGroup_zero">%1$s 位成员加入了群组</string>
+  <string name="xPeopleJoinedGroup_two">%1$s 位成员加入了群组</string>
+  <string name="xPeopleJoinedGroup_few">%1$s 位成员加入了群组</string>
+  <string name="xPeopleJoinedGroup_many">%1$s 位成员加入了群组</string>
   <string name="xPhotos_zero">%1$s 张图片</string>
   <string name="xPhotos_two">%1$s 张图片</string>
   <string name="xPhotos_few">%1$s 张图片</string>

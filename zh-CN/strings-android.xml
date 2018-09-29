@@ -1259,6 +1259,7 @@
   <string name="PassportDeleteScan">删除扫描件？</string>
   <string name="PassportUploadDocument">上传扫描件</string>
   <string name="PassportUploadAdditinalDocument">上传补充扫描件</string>
+  <string name="PassportUploadNotImage">您只能上传图片。</string>
   <string name="PassportScanPassport">扫描你的护照</string>
   <string name="PassportScanPassportInfo">扫描带有机读区域的护照或身份证来自动填充个人信息。</string>
   <string name="PassportNoDocumentsAdd">添加一个文档</string>
@@ -1510,6 +1511,7 @@
   <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="RestorePasswordResetAccount">重置帐户</string>
   <string name="RestoreEmailSent">我们已经将验证码发送到了您的邮箱：\n\n%1$s</string>
+  <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
   <string name="RestoreEmailTrouble">无法访问您的密码恢复邮箱 %1$s?</string>
   <string name="RestoreEmailTroubleText">如果您无法访问您的邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="ResetMyAccount">重置我的帐户</string>
@@ -1782,6 +1784,7 @@
   <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
   <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
   <string name="TosUpdateDecline">我们感到非常抱歉，但这意味着我们必须分道扬镳了。与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们就无法提供此项服务。您可以现在就删除您的账号；或是再看看，直到您觉得我们使用您的数据的方式不满意时再删除。</string>
+  <string name="TosDeclineDeleteAccount">警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 &gt; 导出 Telegram 数据。）</string>
   <!--permissions-->
   <string name="PermissionContacts">为了让您能在任意设备上和朋友联系，您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="PermissionStorage">Telegram 需要访问您的本地存储才能使您发送和保存照片，视频，音乐和其他媒体文件。</string>
@@ -2165,9 +2168,11 @@
   <string name="formatDateAtTime">%1$s %2$s</string>
   <!--new from translations.telegram.org-->
   <string name="ConnectingToProxyDisable">禁用</string>
+  <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置 &gt; 数据和存储 中重新启用它。</string>
   <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
   <string name="DeleteAccountIfAwayFor">离线时间</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
+  <string name="EnableProxyAlert2">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最高</string>
