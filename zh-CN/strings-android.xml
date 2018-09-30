@@ -14,13 +14,13 @@
   <string name="WrongCountry">国家代码无效</string>
   <string name="AccountAlreadyLoggedIn">该帐户已在此应用中登录。</string>
   <string name="AccountSwitch">切换</string>
-  <string name="SyncContacts">同步联系人</string>
-  <string name="SyncContactsDeleteInfo">这将把你的联系人信息从 Telegram 服务端删除。如果“同步联系人”选项处于启用状态，联系人信息将被重新同步。</string>
-  <string name="SyncContactsOn">此设备上的联系人将被同步至此帐户。</string>
-  <string name="SyncContactsOff">此设备上的联系人将不会被同步至此帐户。</string>
-  <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
-  <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的账户。</string>
-  <string name="SyncContactsAdded">此设备上的联系人已被添加至您的帐户。</string>
+  <string name="SyncContacts">同步通讯录</string>
+  <string name="SyncContactsDeleteInfo">这将把你的通讯录信息从 Telegram 服务端删除。如果“同步通讯录”选项处于启用状态，通讯录信息将被重新同步。</string>
+  <string name="SyncContactsOn">此设备上的通讯录将被同步至此帐户。</string>
+  <string name="SyncContactsOff">此设备上的通讯录将不会被同步至此帐户。</string>
+  <string name="SyncContactsInfoOn">此设备上的通讯录将被同步至您的帐户。</string>
+  <string name="SyncContactsInfoOff">开启以持续同步该设备的通讯录至您的账户。</string>
+  <string name="SyncContactsAdded">此设备上的通讯录已被同步至您的帐户。</string>
   <!--code enter view-->
   <string name="YourCode">手机验证</string>
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
@@ -147,7 +147,7 @@
   <string name="ForwardTo">转发到...</string>
   <string name="DisappearingPhoto">自毁图片</string>
   <string name="DisappearingVideo">自毁视频</string>
-  <string name="DisappearingGif">私密 GIF</string>
+  <string name="DisappearingGif">自毁 GIF</string>
   <string name="CompatibilityChat">%1$s 正在使用旧版 Telegram，因此图片会以兼容模式显示。\n\n当 %2$s 更新 Telegram 后，阅后即焚计时器设为1分钟以内时，图片会使用“长按预览”的模式显示；对方截屏时，您也会收到通知。</string>
   <string name="SearchMessages">搜索消息</string>
   <string name="Search">搜索</string>
@@ -174,7 +174,7 @@
   <string name="MarkAsRead">标记为已读</string>
   <string name="Bold">粗体</string>
   <string name="Italic">斜体</string>
-  <string name="Mono">Mono</string>
+  <string name="Mono">等宽</string>
   <string name="Regular">常规</string>
   <string name="ContactsPermissionAlert">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
   <string name="ContactsPermissionAlertNotNow">稍后</string>

@@ -189,14 +189,14 @@
   <string name="xMonths_other">%1$s 个月</string>
   <string name="xYears_one">%1$s 年</string>
   <string name="xYears_other">%1$s 年</string>
-  <string name="xStickers_one">%1$s 个贴纸</string>
-  <string name="xStickers_other">%1$s 个贴纸</string>
+  <string name="xStickers_one">%1$s 张贴纸</string>
+  <string name="xStickers_other">%1$s 张贴纸</string>
   <string name="xMasks_one">%1$s 个装饰</string>
   <string name="xMasks_other">%1$s 个装饰</string>
-  <string name="AddXStickers_one">添加 %1$s 个贴纸</string>
-  <string name="AddXStickers_other">添加 %1$s 个贴纸</string>
-  <string name="RemoveXStickers_one">移除 %1$s 个贴纸</string>
-  <string name="RemoveXStickers_other">移除 %1$s 个贴纸</string>
+  <string name="AddXStickers_one">添加 %1$s 张贴纸</string>
+  <string name="AddXStickers_other">添加 %1$s 张贴纸</string>
+  <string name="RemoveXStickers_one">移除 %1$s 张贴纸</string>
+  <string name="RemoveXStickers_other">移除 %1$s 张贴纸</string>
   <string name="AddXMasks_one">添加 %1$s 个装饰</string>
   <string name="AddXMasks_other">添加 %1$s 个装饰</string>
   <string name="RemoveXMasks_one">移除 %1$s 个装饰</string>
@@ -240,7 +240,7 @@
   <string name="Voice">语音</string>
   <string name="Photo">图片</string>
   <string name="Video">视频</string>
-  <string name="sticker">%1$s 个贴纸</string>
+  <string name="sticker">%1$s 贴纸</string>
   <string name="File">文档</string>
   <string name="Location">位置</string>
   <string name="AttachContact">联系人</string>
@@ -699,7 +699,7 @@
   <string name="OnlyIfSilent">仅静音模式</string>
   <string name="NoStickerSets">未添加任何贴纸包</string>
   <string name="NoMasks">未添加任何装饰包</string>
-  <string name="ArchivedStickersInfo">您最多能够拥有 %1$s个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
+  <string name="ArchivedStickersInfo">您最多能够拥有 %1$s 个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
   <string name="MasksHint">你可以在要发送的图片或视频里添加装饰——只需在发送前打开图片编辑器进行编辑即可。</string>
   <string name="Trending">热门</string>
   <string name="Archived">已归档</string>
@@ -1820,9 +1820,11 @@
   <string name="TranslationMoreCreate">创建</string>
   <string name="TranslationMoreText">可用的语言列表由 [翻译平台](https://translations.telegram.org) 管理。\n\n当对您语言的翻译被正式发布时，Telegram 将会提示您切换到您的语言。\n\n在您等待途中，您可以安装自定义语言文件，加入 [翻译进程](https://translations.telegram.org/en/android_x/) 或创建您自己的 [语言文件](https://t.me/tgx_android_translate/) 。</string>
   <string name="OK">确定</string>
+  <string name="DeleteLanguageConfirm">你确定你想要删除这个本地化文件吗？\n\n%1$s / %2$s 将不再可用。</string>
   <string name="RemoveLanguage">删除本地化文件</string>
   <string name="LanguageEmpty">本地化文件为空</string>
   <string name="LocalisationShare">分享 XML</string>
+  <string name="format_languageStatus">%1$s（%2$d%%）</string>
   <string name="FileName">文件名</string>
   <string name="LocalizationCreateTitle">创建本地化文件</string>
   <string name="LocalizationCreateDone">创建</string>
@@ -1853,6 +1855,7 @@
   <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
 
   <string name="ToolsCopyString">复制字符串</string>
+  <string name="ToolsShowToast">显示 Toast 控件</string>
   <string name="ToolsUntranslatedTitle">未翻译</string>
   <string name="ToolsAllTitle">字符串</string>
   <string name="ToolsOpenOnPlatform">翻译平台</string>
@@ -1862,6 +1865,9 @@
   <string name="ToolsStringSectionMain">主要</string>
   <string name="ToolsStringSectionJson">JSON 数据</string>
   <string name="ToolsStringSectionUrl">URLs</string>
+  <string name="ToolsStringSectionFormat">格式</string>
+  <string name="ToolsStringSectionRelativeDate">日期相关</string>
+  <string name="ToolsStringSectionPlural">单复数</string>
   <string name="ToolsStringSectionSimpleFormatted">格式字符串</string>
   <string name="ToolsStringSectionSimple">简单字符串</string>
 
@@ -1872,6 +1878,8 @@
   <string name="xFolders_one">%1$s 个文件</string>
   <string name="xFolders_other">%1$s 个文件夹</string>
   <string name="RootDirectory">根目录</string>
+  <string name="ApplicationFolder">程序文件</string>
+  <string name="ApplicationFolderExternal">程序媒体文件</string>
   <string name="ApplicationFolderWarning">**警告！**\n\n您即将打开的文件夹中包含您的私人 Telegram 数据。\n\n不要将此文件夹的文件发送给任何人，除非您知道您在做什么。</string>
   <string name="ApplicationFolderWarningConfirm">继续</string>
 
@@ -1879,8 +1887,40 @@
   <string name="RememberAlbumSetting">记忆媒体分组设置</string>
 
   <string name="ProcessingMedia">正在处理 %1$s</string>
-  <string name="json_1_name">董先生</string>
-  <string name="json_1_text2">垂死病中惊坐起，谈笑风生又一年 🎶。</string>
+  <string name="format_uploadStatus">%1$d%% %2$s</string>
+
+  <string name="json_1_name">莱因哈特</string>
+  <string name="json_1_audioTitle">True Survivor</string>
+  <string name="json_1_audioPerformer">大卫·哈塞尔霍夫</string>
+  <string name="json_1_text1">哈哈！嗨起来！**Waow!!**</string>
+  <string name="json_1_text2">莱因哈特，你应该尝试些新的风格了🎶！</string>
+  <string name="json_1_text3">啊，玩电子乐的小子！你应该好好听听古典乐曲，哈塞尔霍夫的就不错！</string>
+  <string name="json_1_text4">真是没法交流……</string>
+
+  <string name="json_2_name1">丹妮莉丝</string>
+  <string name="json_2_name2">安吉拉·默克尔</string>
+  <string name="json_2_name3">朱利安·阿桑奇</string>
+  <string name="json_2_name4">皮埃尔</string>
+  <string name="json_2_title">周末计划</string>
+  <string name="json_2_text1">你确定这群组安全吗？</string>
+  <string name="json_2_text2">是的没错，别担心。</string>
+  <string name="json_2_text3">大家好！美国国家安全局正在读这个吗？😄</string>
+  <string name="json_2_text4">抱歉，我会把这段对话发到网上。</string>
+  <string name="json_2_text5">等等，我们可以靠这个赚大钱！</string>
+
+  <string name="json_3_name">艾琳·洛克哈德</string>
+  <string name="json_3_text1">所以，为啥 Telegram 很酷？</string>
+  <string name="json_3_text2">额，你看，Telegram 运行速度超级快，而且你可以在所有设备上同时使用——包括手机、平板，甚至电脑上。</string>
+  <string name="json_3_text3">😴</string>
+  <string name="json_3_text4">而且它支持加密对话，比如我们现在所用的，这是端到端加密！</string>
+  <string name="json_3_text5">端到端加密？加密到哪？？</string>
+  <string name="json_3_text6">啊，忘了它吧。你还可以发送定时销毁信息！看这个！</string>
+  <string name="json_3_text7">😱🙈👍</string>
+
+  <string name="json_4_name">斯派斯·丹尼尔</string>
+  <string name="json_4_text1">你能看到这个对话预览是因为你是一名**翻译者**。\n\n请前往 @tgx_android_translate 获取如何制作你自己的预览场景的指南。</string>
+  <string name="json_4_text2">我知道啦！别再说了……</string>
+
   <string name="json_ChatDemo">0</string>
 
   <!-- new from translations.telegram.org -->
@@ -1893,10 +1933,10 @@
   <string name="AddXMasks_two">添加 %1$s 个装饰</string>
   <string name="AddXMasks_few">添加 %1$s 个装饰</string>
   <string name="AddXMasks_many">添加 %1$s 个装饰</string>
-  <string name="AddXStickers_zero">添加 %1$s 个贴纸</string>
-  <string name="AddXStickers_two">添加 %1$s 个贴纸</string>
-  <string name="AddXStickers_few">添加 %1$s 个贴纸</string>
-  <string name="AddXStickers_many">添加 %1$s 个贴纸</string>
+  <string name="AddXStickers_zero">添加 %1$s 张贴纸</string>
+  <string name="AddXStickers_two">添加 %1$s 张贴纸</string>
+  <string name="AddXStickers_few">添加 %1$s 张贴纸</string>
+  <string name="AddXStickers_many">添加 %1$s 张贴纸</string>
   <string name="AsXMessages_zero">在 %1$s 条消息中发出</string>
   <string name="AsXMessages_two">在 %1$s 条消息中发出</string>
   <string name="AsXMessages_few">在 %1$s 条消息中发出</string>
@@ -1961,10 +2001,10 @@
   <string name="RemoveXMasks_two">移除 %1$s 个装饰</string>
   <string name="RemoveXMasks_few">移除 %1$s 个装饰</string>
   <string name="RemoveXMasks_many">移除 %1$s 个装饰</string>
-  <string name="RemoveXStickers_zero">移除 %1$s 个贴纸</string>
-  <string name="RemoveXStickers_two">移除 %1$s 个贴纸</string>
-  <string name="RemoveXStickers_few">移除 %1$s 个贴纸</string>
-  <string name="RemoveXStickers_many">移除 %1$s 个贴纸</string>
+  <string name="RemoveXStickers_zero">移除 %1$s 张贴纸</string>
+  <string name="RemoveXStickers_two">移除 %1$s 张贴纸</string>
+  <string name="RemoveXStickers_few">移除 %1$s 张贴纸</string>
+  <string name="RemoveXStickers_many">移除 %1$s 张贴纸</string>
   <string name="ReportXMessages_zero">举报 %1$s 条消息</string>
   <string name="ReportXMessages_two">举报 %1$s 条消息</string>
   <string name="ReportXMessages_few">举报 %1$s 条消息</string>
@@ -2241,10 +2281,10 @@
   <string name="xSessions_two">%1$s 个活动会话</string>
   <string name="xSessions_few">%1$s 个活动会话</string>
   <string name="xSessions_many">%1$s 个活动会话</string>
-  <string name="xStickers_zero">%1$s 个贴纸</string>
-  <string name="xStickers_two">%1$s 个贴纸</string>
-  <string name="xStickers_few">%1$s 个贴纸</string>
-  <string name="xStickers_many">%1$s 个贴纸</string>
+  <string name="xStickers_zero">%1$s 张贴纸</string>
+  <string name="xStickers_two">%1$s 张贴纸</string>
+  <string name="xStickers_few">%1$s 张贴纸</string>
+  <string name="xStickers_many">%1$s 张贴纸</string>
   <string name="xStrings_zero">%1$s 个字符串</string>
   <string name="xStrings_two">%1$s 个字符串</string>
   <string name="xStrings_few">%1$s 个字符串</string>
