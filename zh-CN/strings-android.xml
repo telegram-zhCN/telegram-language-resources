@@ -1324,7 +1324,7 @@
   <string name="TerminateSessionQuestion">注销该对话？</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
   <string name="AreYouSureSessions">您确定要注销所有其它设备上的对话吗？</string>
-  <string name="TerminateAllSessions">注销所有其它设备上的对话</string>
+  <string name="TerminateAllSessions">注销所有其它设备上的会话</string>
   <string name="UnofficialApp">非官方应用</string>
   <string name="NoOtherWebSessions">没有活动的第三方登录</string>
   <string name="NoOtherWebSessionsInfo">您可以在在支持的网站上使用 Telegram 登录。</string>
