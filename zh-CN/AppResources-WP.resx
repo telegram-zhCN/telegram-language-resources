@@ -3071,7 +3071,7 @@
     <value>新贴纸包</value>
   </data>
   <data name="NewStickerPackNominativeSingular" xml:space="preserve">
-    <value>New sticker pack</value>
+    <value>新贴纸包</value>
   </data>
   <data name="PinDialog" xml:space="preserve">
     <value>置顶</value>
@@ -3140,64 +3140,64 @@
     <value>测试订单</value>
   </data>
   <data name="MessageActionPaymentSent" xml:space="preserve">
-    <value>You have just successfully transferred {0} to {1}</value>
+    <value>您已成功向{1}转账 {0}</value>
   </data>
   <data name="MessageActionPaymentSentFor" xml:space="preserve">
-    <value>You have just successfully transferred {0} to {1} for {2}</value>
+    <value>您已成功为 {2} 向 {1} 转账 {0}</value>
   </data>
   <data name="PaymentInfo" xml:space="preserve">
-    <value>Payment info</value>
+    <value>付款信息</value>
   </data>
   <data name="Receipt" xml:space="preserve">
-    <value>Receipt</value>
+    <value>收据</value>
   </data>
   <data name="Address1Street" xml:space="preserve">
-    <value>Address 1 (Street)</value>
+    <value>地址行 1 (街道)</value>
   </data>
   <data name="Address2Street" xml:space="preserve">
-    <value>Address 2 (Street)</value>
+    <value>地址行 2 (街道)</value>
   </data>
   <data name="BillingAddress" xml:space="preserve">
-    <value>Billing address</value>
+    <value>账单地址</value>
   </data>
   <data name="CardNumber" xml:space="preserve">
-    <value>Card Number</value>
+    <value>卡号</value>
   </data>
   <data name="Checkout" xml:space="preserve">
-    <value>Checkout</value>
+    <value>结算</value>
   </data>
   <data name="City" xml:space="preserve">
-    <value>City</value>
+    <value>城市</value>
   </data>
   <data name="ContactAddress" xml:space="preserve">
-    <value>Contact address</value>
+    <value>联系方式</value>
   </data>
   <data name="Discount" xml:space="preserve">
-    <value>Discount</value>
+    <value>折扣</value>
   </data>
   <data name="FullName" xml:space="preserve">
-    <value>Full Name</value>
+    <value>姓名</value>
   </data>
   <data name="MMYY" xml:space="preserve">
-    <value>MM/YY</value>
+    <value>月/年</value>
   </data>
   <data name="NameSurname" xml:space="preserve">
-    <value>Name Surname</value>
+    <value>姓名</value>
   </data>
   <data name="PaymentCard" xml:space="preserve">
-    <value>Payment card</value>
+    <value>银行卡</value>
   </data>
   <data name="PaymentMethod" xml:space="preserve">
     <value>付款方式</value>
   </data>
   <data name="Postcode" xml:space="preserve">
-    <value>Postcode</value>
+    <value>邮政编码</value>
   </data>
   <data name="Receiver" xml:space="preserve">
-    <value>Receiver</value>
+    <value>收件人</value>
   </data>
   <data name="SaveShippingInformation" xml:space="preserve">
-    <value>Save Shipping Information</value>
+    <value>保存配送信息</value>
   </data>
   <data name="SaveShippingInformationHint" xml:space="preserve">
     <value>您可以保存您的配送信息以便在未来使用。</value>
@@ -3206,22 +3206,22 @@
     <value>安全码（CVV）</value>
   </data>
   <data name="Shipping" xml:space="preserve">
-    <value>Shipping</value>
+    <value>配送</value>
   </data>
   <data name="ShippingAddress" xml:space="preserve">
-    <value>Shipping address</value>
+    <value>配送地址</value>
   </data>
   <data name="ShippingInformation" xml:space="preserve">
-    <value>Shipping information</value>
+    <value>配送信息</value>
   </data>
   <data name="ShippingMethods" xml:space="preserve">
-    <value>Shipping methods</value>
+    <value>配送方式</value>
   </data>
   <data name="State" xml:space="preserve">
-    <value>State</value>
+    <value>省份</value>
   </data>
   <data name="Subtotal" xml:space="preserve">
-    <value>Subtotal</value>
+    <value>合计</value>
   </data>
   <data name="Taxes" xml:space="preserve">
     <value>Taxes</value>
@@ -3616,7 +3616,7 @@ You'll be asked to enter it when you log in.</value>
     <value>新贴纸包</value>
   </data>
   <data name="NewStickerPackGenitiveSingular" xml:space="preserve">
-    <value>New sticker pack</value>
+    <value>新贴纸包</value>
   </data>
   <data name="StickerPackGenitivePlural" xml:space="preserve">
     <value>贴纸包</value>

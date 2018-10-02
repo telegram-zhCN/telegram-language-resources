@@ -357,7 +357,7 @@
   <string name="ChannelAddAdmin">添加管理员</string>
   <string name="InviteLink">邀请链接</string>
   <string name="DismissAdmin">撤销管理员</string>
-  <string name="ChannelBroadcast">新建频道</string>
+  <string name="ChannelBroadcast">发布内容</string>
   <string name="LeaveChannel">退出频道</string>
   <string name="DestroyChannel">删除频道</string>
   <string name="DestroyChannelHint">注意！删除此频道将会移除所有成员并且会丢失所有消息。\n确定要删除此频道？</string>
@@ -444,7 +444,7 @@
   <string name="ConfirmYourFingerprint">确认您的指纹</string>
   <string name="UnlockByPIN">请输入锁屏码解锁</string>
   <string name="UnlockByPassword">请输入密码解锁</string>
-  <string name="UnlockByPattern">请输入您的手势密码以解锁</string>
+  <string name="UnlockByPattern">请绘制图案密码解锁</string>
   <string name="UnlockByGesture">请勾画自由手势解锁</string>
   <string name="UnlockByFingerprint">请按下手指</string>
   <string name="SecretLinkPreviewEnable">启用</string>
@@ -1123,7 +1123,7 @@
   <string name="OpenGroup">查看群组</string>
   <string name="OpenBot">打开机器人</string>
   <string name="SendAsCopy">发送副本</string>
-  <string name="RemoveCaptions">从副本中移除标题</string>
+  <string name="RemoveCaptions">从副本中移除描述</string>
   <string name="GifHasBeenSavedToGallery">此 GIF 已保存到图库</string>
   <string name="Error">错误</string>
   <string name="UsernameNotOccupied">用户名 %1$s 未找到</string>

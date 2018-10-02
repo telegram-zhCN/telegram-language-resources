@@ -1909,6 +1909,8 @@
 
   <string name="json_ChatDemo">0</string>
 
+  <string name="ChangeLogText">**Telegram X** was updated to version %1$s\n\nBrief overview of new features:\n%2$s</string>
+
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">Accurate to %1$s meters</string>
