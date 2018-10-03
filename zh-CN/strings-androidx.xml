@@ -741,8 +741,8 @@
   <string name="Flags">旗帜</string>
   <string name="ComeAgainLater">稍后再试</string>
   <string name="New">新建</string>
-  <string name="Add">设置</string>
-  <string name="AddMemberBtn">设置</string>
+  <string name="Add">添加</string>
+  <string name="AddMemberBtn">添加</string>
   <string name="BlockListEmpty">你还没有屏蔽任何人</string>
   <string name="QBlockX">屏蔽 %1$s？</string>
   <string name="QUnblockX">取消屏蔽 %1$s？</string>
@@ -964,7 +964,7 @@
   <string name="GroupConvertHint">**成员数已达到 %1$s 人上限。**\n升级到 **超级群组** 来增加成员上限并获得更多功能。\n在超级群组中：\n\n• 超级群组可以提升至高达 **%2$s** 人的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>
   <string name="XCreatedGroup">%1$s 创建了群组</string>
   <string name="YouCreatedGroup">您创建了此群组</string>
-  <string name="XofY">%1$s, %2$s</string>
+  <string name="XofY">%1$s/ %2$s</string>
   <string name="ReadingXLine">正在读取第 %1$s 行...</string>
   <string name="xPeopleJoinedGroup_one">%1$s 位成员加入了群组</string>
   <string name="xPeopleJoinedGroup_other">%1$s 位成员加入了群组</string>
