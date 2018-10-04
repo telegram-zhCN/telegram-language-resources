@@ -1532,7 +1532,7 @@
   <string name="LedPurple">紫色</string>
   <string name="LedPink">粉色</string>
   <string name="LedWhite">白色</string>
-  <string name="SetProfilePhotoError">更新头像时出错：%1$s</string>
+  <string name="SetProfilePhotoError">上传头像时出错：%1$s</string>
   <string name="BotNotFound">机器人 %1$s 未找到</string>
   <string name="AddAccount">添加帐户</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？所有此帐户上的私密对话信息将会丢失。</string>
@@ -1725,7 +1725,7 @@
   <string name="TextFormatBold">加粗</string>
   <string name="TextFormatItalic">倾斜</string>
   <string name="TextFormatMonospace">等宽</string>
-  <string name="TextFormatLink">创建连接</string>
+  <string name="TextFormatLink">创建链接</string>
   <string name="EarpieceMode">播放到听筒</string>
   <string name="EarpieceModeNever">从不</string>
   <string name="EarpieceModeProximity">当靠近听筒时</string>
