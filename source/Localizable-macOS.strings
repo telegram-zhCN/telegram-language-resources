@@ -617,7 +617,7 @@
 "Stickers.Recent" = "Recent";
 
 "Stickers.SearchAdd" = "Add";
-"Account.Confirm.AskQuestion" = "Please note that Telegram Support is run by volunteers. We try to respond as quickly as possible, but it may take a while. \n\nPlease take a look at the Telegram FAQ: it has important troubleshooting tips and answers to most questions.";
+"Account.Confirm.AskQuestion" = "Please note that Telegram Support is run by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the Telegram FAQ: it has important troubleshooting tips and answers to most questions.";
 "Account.Confirm.GoToFaq" = "Open FAQ";
 
 "Chat.SecretChat.EmptyHeader" = "Secret chats:";

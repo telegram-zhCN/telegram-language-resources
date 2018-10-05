@@ -1700,7 +1700,7 @@
   <string name="Sessions">Sessions</string>
   <string name="Websites">Websites</string>
   <string name="ActionRead">Mark as Read</string>
-  <string name="ActionDone">Done</string>
+  <string name="ActionDone">Hide</string>
   <string name="FoundMessagesFromUser">messages from %1$s</string>
   <string name="FoundMessagesFromSelf">messages from you</string>
   <string name="FoundMessagesQuery">%1$s</string>

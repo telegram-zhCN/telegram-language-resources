@@ -982,8 +982,8 @@
   <string name="Allow">允许</string>
   <string name="ContactAdded">联系人已添加</string>
   <string name="SuggestInvitingUser">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？</string>
-  <string name="SuggestInvitingUserCommon_one">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
-  <string name="SuggestInvitingUserCommon_other">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_one">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_other">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
   <string name="OutgoingCall">外拨电话</string>
   <string name="IncomingCall">接听电话</string>
   <string name="MissedCall">未接来电</string>
@@ -1714,6 +1714,7 @@
   <string name="Sessions">会话</string>
   <string name="Websites">网站</string>
   <string name="ActionRead">标记为已读</string>
+  <string name="ActionDone">完成</string>
   <string name="FoundMessagesFromUser">%1$s 发送的消息</string>
   <string name="FoundMessagesFromSelf">您发送的消息</string>
   <string name="FoundMessagesQuery">%1$s</string>
@@ -1923,6 +1924,8 @@
 
   <string name="json_ChatDemo">0</string>
 
+  <string name="ChangeLogText">**Telegram X** 已更新至 %1$s 版。\n\n新功能如下：\n%2$s</string>
+
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">精确到 %1$s 米</string>
@@ -2057,10 +2060,10 @@
   <string name="SharingWithXChats_two">分享到 %1$s 个聊天</string>
   <string name="SharingWithXChats_few">分享到 %1$s 个聊天</string>
   <string name="SharingWithXChats_many">分享到 %1$s 个聊天</string>
-  <string name="SuggestInvitingUserCommon_zero">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
-  <string name="SuggestInvitingUserCommon_two">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
-  <string name="SuggestInvitingUserCommon_few">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
-  <string name="SuggestInvitingUserCommon_many">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %2$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_zero">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_two">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_few">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_many">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
   <string name="TranslationsMissing_zero">%1$s 个项目未翻译</string>
   <string name="TranslationsMissing_two">%1$s 个项目未翻译</string>
   <string name="TranslationsMissing_few">%1$s 个项目未翻译</string>
