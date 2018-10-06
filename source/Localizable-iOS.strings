@@ -3416,6 +3416,9 @@ Unused sets are archived when you add more.";
 "Notifications.Badge.CountUnreadMessages.InfoOff" = "Switch on to show the number of unread messages instead of chats.";
 "Notifications.Badge.CountUnreadMessages.InfoOn" = "Switch off to show the number of unread chats instead of messages.";
 
+"Appearance.ReduceMotion" = "Reduce Motion";
+"Appearance.ReduceMotionInfo" = "Disable animations in message bubbles and in the chats list.";
+
 
 /* new from translations.telegram.org */
 

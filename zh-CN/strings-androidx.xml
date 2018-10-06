@@ -1714,7 +1714,7 @@
   <string name="Sessions">会话</string>
   <string name="Websites">网站</string>
   <string name="ActionRead">标记为已读</string>
-  <string name="ActionDone">完成</string>
+  <string name="ActionDone">隐藏</string>
   <string name="FoundMessagesFromUser">%1$s 发送的消息</string>
   <string name="FoundMessagesFromSelf">您发送的消息</string>
   <string name="FoundMessagesQuery">%1$s</string>
