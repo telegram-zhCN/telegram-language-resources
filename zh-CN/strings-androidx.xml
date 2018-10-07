@@ -562,7 +562,7 @@
   <string name="MessageLifetime">阅后即焚计时器</string>
   <string name="Done">完成</string>
   <string name="Off">关闭</string>
-  <string name="Chats">对话</string>
+  <string name="Chats">聊天</string>
   <string name="Notifications">通知</string>
   <string name="NotificationsEnabled">启用</string>
   <string name="NotificationsDisabled">关闭</string>

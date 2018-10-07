@@ -1259,6 +1259,7 @@
   <string name="PassportDeleteScan">删除扫描件？</string>
   <string name="PassportUploadDocument">上传扫描件</string>
   <string name="PassportUploadAdditinalDocument">上传补充扫描件</string>
+  <string name="PassportUploadMaxReached">您最多只能上传 %1$s 个文件。</string>
   <string name="PassportUploadNotImage">您只能上传图片。</string>
   <string name="PassportScanPassport">扫描你的护照</string>
   <string name="PassportScanPassportInfo">扫描带有机读区域的护照或身份证来自动填充个人信息。</string>
@@ -1266,6 +1267,7 @@
   <string name="PassportNoDocuments">您暂时未上传任何文档</string>
   <string name="PassportNoDocumentsInfo">您可以添加您的手机号码、邮箱地址、身份证件或住宅地址。</string>
   <string name="PassportCorrectErrors">点按更正错误</string>
+  <string name="PassportTwoDocuments">%1$s 或 %2$s</string>
   <string name="PassportNativeHeader">您的姓名</string>
   <string name="PassportLanguage_AR">阿拉伯语</string>
   <string name="PassportLanguage_AZ">阿塞拜疆语</string>
