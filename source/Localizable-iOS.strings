@@ -925,7 +925,7 @@
 "MuteExpires.Days_0" = "in %@ days";
 
 "SharedMedia.EmptyTitle" = "No media files yet";
-"SharedMedia.EmptyText" = "Share photos and videos in this chat\n — or this paperclip stays unhappy.";
+"SharedMedia.EmptyText" = "Share photos and videos in this chat\n— or this paperclip stays unhappy.";
 "SharedMedia.EmptyFilesText" = "You can send and receive\nfiles of any type up to 1.5 GB each\nand access them anywhere.";
 
 "ShareFileTip.Title" = "Sharing Files";
@@ -1454,7 +1454,7 @@
 "Group.UpgradeNoticeHeader" = "MEMBERS LIMIT REACHED";
 
 "Group.UpgradeNoticeText1" = "To go over the limit and get additional features, upgrade to a supergroup:";
-"Group.UpgradeNoticeText2" = "•  Supergroups can get up to {supergroup_member_limit} members\n•  New members see the entire chat history\n•  Admins delete messages for everyone\n•  Notifications are muted by default";
+"Group.UpgradeNoticeText2" = "• Supergroups can get up to {supergroup_member_limit} members\n• New members see the entire chat history\n• Admins delete messages for everyone\n• Notifications are muted by default";
 "GroupInfo.UpgradeButton" = "Upgrade to supergroup";
 "Group.UpgradeConfirmation" = "Warning: this action is irreversible. It is not possible to downgrade a supergroup to a regular group.";
 

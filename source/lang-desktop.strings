@@ -129,7 +129,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_error" = "You cannot edit this message";
 "lng_join_channel_error" = "Sorry, you have joined too many channels and supergroups. Please leave some before joining this one.";
 "lng_error_phone_flood" = "Sorry, you have deleted and re-created your account too many times recently. Please wait for a few days before signing up again.";
-"lng_error_start_minimized_passcoded" = "You have set a local passcode, so Telegram Desktop can't be launched minimised; it will ask you to enter your passcode before it can start working.";
+"lng_error_start_minimized_passcoded" = "You have set a local passcode, so Telegram Desktop can't be launched minimized; it will ask you to enter your passcode before it can start working.";
 "lng_error_pinned_max#one" = "Sorry, you can pin no more than {count} chat to the top.";
 "lng_error_pinned_max#other" = "Sorry, you can pin no more than {count} chats to the top.";
 "lng_error_public_groups_denied" = "Unfortunately, you were banned from participating in public groups.\n{more_info}";
@@ -181,8 +181,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_country_select" = "Select country";
 
 "lng_code_ph" = "Your code";
-"lng_code_desc" = "We have sent you a message with activation\ncode to your phone. Please enter it below.";
-"lng_code_telegram" = "Please enter the code you've just received\nin your previous [b]Telegram[/b] app.";
+"lng_code_desc" = "We've sent an activation code to your phone.\nPlease enter it below.";
+"lng_code_telegram" = "We've sent a code [b]via Telegram[/b]\nto your other devices. Please enter it below.";
 "lng_code_no_telegram" = "Send code via SMS";
 "lng_code_call" = "Telegram will call you in {minutes}:{seconds}";
 "lng_code_calling" = "Requesting a call from Telegram...";

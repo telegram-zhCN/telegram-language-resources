@@ -74,7 +74,7 @@
 "PeerInfo.bio" = "bio";
 "PeerInfo.info" = "info";
 "PeerInfo.SetGroupPhoto" = "Set Group Photo";
-"PeerInfo.AddMember" = "Add member";
+"PeerInfo.AddMember" = "Add Members";
 "PeerInfo.DeleteAndExit" = "Delete and Exit";
 "PeerInfo.LeaveGroup" = "Leave Group";
 
@@ -84,7 +84,7 @@
 "PeerInfo.Confirm.LeaveChannel" = "Are you sure you want to leave this channel?";
 "PeerInfo.Confirm.LeaveGroup" = "Are you sure you want to leave this group?\n\nThis action cannot be undone.";
 "PeerInfo.Confirm.DeleteChat" = "Are you sure you want to delete all message history and leave \"%@\"?\n\nThis action cannot be undone.";
-"Confirm.DeleteAdminedChannel" = "Wait! Deleting this channel will remove all of its members and all of its messages will be lost forever. \n\nAre you sure you want to continue?";
+"Confirm.DeleteAdminedChannel" = "Wait! Deleting this channel will remove all of its members and all of its messages will be lost forever.\n\nAre you sure you want to continue?";
 "Confirm.DeleteChatUser" = "Are you sure you want to delete all message history?\n\nThis action cannot be undone.";
 "Confirm.LeaveGroup" = "Are you sure you want to leave this group?";
 
@@ -886,7 +886,7 @@
 "Contacts.LastName.Placeholder" = "Last Name";
 "Contacts.PhoneNumber.Placeholder" = "Phone Number";
 "Contacts.NotRegistredTitle" = "Not a Telegram User";
-"Contacts.NotRegistredDescription" = "This person is not registered on Telegram yet. \n\nYou will be able to send them a Telegram message as soon as they sign up.";
+"Contacts.NotRegistredDescription" = "This person is not registered on Telegram yet.\n\nYou will be able to send them a Telegram message as soon as they sign up.";
 
 "DataAndStorage.StorageUsage" = "Storage Usage";
 "DataAndStorage.NetworkUsage" = "Network Usage";
@@ -1304,7 +1304,7 @@
 "Telegram.BioViewController" = "Bio";
 
 "Bio.Placeholder" = "A few words about you";
-"Bio.Description" = "Any details such as age, occupation or city. \nExample: 23 y.o. designer from San Francisco";
+"Bio.Description" = "Any details such as age, occupation or city.\nExample: 23 y.o. designer from San Francisco";
 "Bio.Save" = "Save";
 
 "ServiceMessage.ExpiredPhoto" = "photo has expired";
@@ -1724,7 +1724,7 @@
 "SecureId.Request.CreatePassword" = "Create a Password";
 "SecureId.Request.Permission.Email.Empty" = "Provide your contact email address";
 "SecureId.Request.Permission.Phone.Empty" = "Provide your contact phone number";
-"SecureId.Request.Permission.Identity.Empty" = "Upload scan of your passport or other ID";
+"SecureId.Request.Permission.Identity.Empty" = "Upload a scan of your passport or other ID";
 "SecureId.Request.Permission.Address.Empty" = "Upload proof of your address";
 
 "SecureId.FileUpload.Progress" = "%@%% Uploaded";
@@ -1767,7 +1767,7 @@
 "SecureId.Identity.Placeholder.Citizenship" = "Citizenship";
 "SecureId.Identity.Placeholder.Residence" = "Residence";
 
-"SecureId.Identity.Placeholder.IssuedDate" = "Issued Date";
+"SecureId.Identity.Placeholder.IssuedDate" = "Issue Date";
 "SecureId.Identity.Placeholder.ExpiryDate" = "Expiry Date";
 "SecureId.Identity.DocumentDetailsHeader" = "DOCUMENT DETAILS";
 
@@ -1799,7 +1799,7 @@
 
 
 "SecureId.RequestedInformation.Header" = "REQUESTED INFORMATION";
-"SecureId.Accept.Policy" = "You accept the [Login Widged Example Privacy Policy](_applyPolicy_) and allow their **%@** to send you messages.";
+"SecureId.Accept.Policy" = "You accept the [Login Widget Example Privacy Policy](_applyPolicy_) and allow their **%@** to send you messages.";
 "SecureId.Accept.Help" = "You are sending your documents directly to **%@** and allowing their **%@** to send you messages.";
 "Chat.Service.SecureId.AccessGranted" = "%@ received the following documents: %@";
 "SecureId.RemoveEmail" = "Delete Email Address?";
@@ -1814,7 +1814,7 @@
 "SecureId.CreatePassword.PasswordPlaceholder" = "Password";
 "SecureId.CreatePassword.PasswordInputPlaceholder" = "Enter your password";
 "SecureId.CreatePassword.RePasswordInputPlaceholder" = "Re-Enter your password";
-"SecureId.CreatePassword.Description" = "Please create a password to protect your passport info. You'll be asked to enter it when you log in."; //WRONG
+"SecureId.CreatePassword.Description" = "Please create a password to protect your passport info. You will also be asked to enter it when you log in to Telegram."; //WRONG
 "SecureId.CreatePassword.Hint.Header" = "HINT";
 "SecureId.CreatePassword.Hint.Placeholder" = "Hint";
 "SecureId.CreatePassword.Hint.InputPlaceholder" = "Hint for your password";
@@ -1824,7 +1824,7 @@
 "SecureId.CreatePassword.Email.Description" = "Please add your valid e-mail. It is the only way to recover a forgotten password.";
 
 "SecureId.EmailActivate.Code.Placeholder" = "Code";
-"SecureId.EmailActivate.Code.InputPlaceholder" = "Enter a code";
+"SecureId.EmailActivate.Code.InputPlaceholder" = "Enter code";
 "SecureId.EmailActivate.Description" = "Please enter the confirmation code we've just sent to %@.";
 
 
@@ -1833,23 +1833,23 @@
 
 "SecureId.InsertPassword.Password" = "Enter your password";
 "SecureId.InsertPassword.Next" = "Next";
-"SecureId.InsertPassword.Description" = "Please provide the password for accessing your personal data";
-"SecureId.PhoneNumber.UseSame.Desc" = "Use the same phone number as Telegram log in";
+"SecureId.InsertPassword.Description" = "Please enter your password to access your personal data";
+"SecureId.PhoneNumber.UseSame.Desc" = "Use the phone number you use for Telegram";
 "SecureId.PhoneNumber.UseSame" = "Use %@";
 "SecureId.PhoneNumber.Note" = "Note: You will receive a confirmation code on the phone number you provide.";
-"SecureId.PhoneNumber.Header" = "OR ENTER OTHER PHONE NUMBER";
+"SecureId.PhoneNumber.Header" = "OR ENTER ANOTHER PHONE NUMBER";
 
 "SecureId.InsertPassword.Settings.Description" = "Please enter your Telegram password to decrypt your data";
 
 
 "SecureId.Email.UseSame" = "Use %@";
-"SecureId.Email.UseSame.Desc" = "Note: You will receive a confirmation code on the e-mail you provide.";
+"SecureId.Email.UseSame.Desc" = "Note: You will receive a confirmation code to the e-mail address you provide.";
 "SecureId.Email.Email.Placeholder" = "E-Mail";
 "SecureId.Email.Email.InputPlaceholder" = "Enter your e-mail";
 
 "SecureId.PhoneNumber.ConfirmCode.Placeholder" = "Code";
-"SecureId.PhoneNumber.ConfirmCode.InputPlaceholder" = "Enter a code";
-"SecureId.PhoneNumber.ConfirmCode.Desc" = "Please enter the confirmation code we've just sent to %@. via SMS";
+"SecureId.PhoneNumber.ConfirmCode.InputPlaceholder" = "Enter the code";
+"SecureId.PhoneNumber.ConfirmCode.Desc" = "Please enter the confirmation code we've just sent to %@ via SMS";
 
 
 "SecureId.Address.Header" = "ADDRESS";
@@ -1869,25 +1869,25 @@
 "SecureId.Identity.Selfie" = "Selfie";
 "SecureId.Identity.SelfieUpload" = "Add Selfie";
 "SecureId.Identity.SelfieUploadNew" = "Retake Selfie";
-"SecureId.Identity.SelfieHelp" = "Upload a selfie of yourself holding this document. Make sure the ID and your face are clearly visible.";
+"SecureId.Identity.SelfieHelp" = "Upload a photo of yourself holding your document. Make sure the ID and your face are clearly visible.";
 
 "SecureId.forgotPassword.NoEmail" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
-"SecureId.Confirm.Cancel" = "Are you sure you want to stop authorization?";
+"SecureId.Confirm.Cancel" = "Are you sure you want to stop the authorization process?";
 
 
 
 "SecureId.RecoverPassword" = "Password Recovery";
 "SecureId.RecoverPassword.SentEmailCode" = "Code was sent to %@";
 
- "SecureId.Warning.DataLost" = "Warning! All data saved in your Telegram passport will be lost!";
- "SecureId.Upload.Main" = "Upload main page of the document";
- "SecureId.Upload.Front" = "Upload a front side photo of document";
- "SecureId.Upload.Reverse" = "Upload a reverse side photo of document";
- "SecureId.Upload.Selfie" = "Upload a selfie of yourself holding document";
+"SecureId.Warning.DataLost" = "Warning! All data saved in your Telegram passport will be lost!";
+"SecureId.Upload.Main" = "Upload the main page of the document";
+"SecureId.Upload.Front" = "Upload a photo of the front side of the document";
+"SecureId.Upload.Reverse" = "Upload a photo of the reverse side of the document";
+"SecureId.Upload.Selfie" = "Upload a selfie of yourself holding the document";
 
- "SecureId.Upload.Title.MainPage" = "Main Page";
- "SecureId.Upload.Title.FrontSide" = "Front Side";
- "SecureId.Upload.Title.ReverseSide" = "Reverse Side";
+"SecureId.Upload.Title.MainPage" = "Main Page";
+"SecureId.Upload.Title.FrontSide" = "Front Side";
+"SecureId.Upload.Title.ReverseSide" = "Reverse Side";
 
 "SecureId.Info.Title" = "What is Telegram Passport?";
 "SecureId.Info" = "With Telegram Passport you can easily sign up for websites and services that require identity veritification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody including Telegram, can access them without your permission.";
@@ -1920,7 +1920,7 @@
 
 "SecureId.Delete.PersonalDetails" = "Delete Personal Details";
 "SecureId.Delete.Confirm.PersonalDetails" = "Are you sure you want to delete personal details?";
-"SecureId.Confirm.DeleteDocument" = "Are you sure your want to delete this document?";
+"SecureId.Confirm.DeleteDocument" = "Are you sure you want to delete this document?";
 "SecureId.Confirm.DeleteAddress" = "Delete Address";
 "SecureId.AppVersionOutdated" = "Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.";
 

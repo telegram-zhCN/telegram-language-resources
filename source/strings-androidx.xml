@@ -659,7 +659,7 @@
   <string name="SinceNotProvided">Since you haven\'t provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
   <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
   <string name="CreateAHintForYourPassword">Create a hint for your password</string>
-  <string name="RecoveryCodeSent">We\'ve sent 6-digit recovery code to %1$s. Check your e-mail and enter it here.</string>
+  <string name="RecoveryCodeSent">We\'ve sent you a 6-digit recovery code to %1$s. Check your e-mail and enter it here.</string>
   <string name="HavingTroubleAccessing">Having trouble accessing your e-mail\n%1$s?</string>
   <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
   <string name="EnterCode">Enter code</string>
@@ -1447,7 +1447,7 @@
   <string name="ChatAccessPrivateGroup">This group is private</string>
   <string name="ChatAccessPrivateChannel">This channel is private</string>
   <string name="YouCantInviteMembers">You can\'t add members to this chat</string>
-  <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you 6-digit recovery code. Check your e-mail and enter it here.</string>
+  <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you a 6-digit recovery code. Check your e-mail and enter it here.</string>
   <string name="RestoreEmailTroubleUnknown">Having trouble accessing your e-mail?</string>
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">Phone Call</string>
