@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="AppName">Telegram X</string>
+
+  <string name="language_continueInLanguage">Continue in English</string>
+
+  <string name="Page1Title">Telegram X</string>
+  <string name="Page2Title">Fast</string>
+  <string name="Page3Title">Free</string>
+  <string name="Page4Title">Powerful</string>
+  <string name="Page5Title">Secure</string>
+  <string name="Page6Title">Cloud-Based</string>
+  <string name="Page1Message">The world\'s **fastest** messaging app.\nIt is **free** and **secure**.</string>
+  <string name="Page2Message">**Telegram** delivers messages\nfaster than any other application.</string>
+  <string name="Page3Message">**Telegram** is free forever. No ads.\nNo subscription fees.</string>
+  <string name="Page4Message">**Telegram** has no limits on\nthe size of your media and chats.</string>
+  <string name="Page5Message">**Telegram** keeps your messages\nsafe from hacker attacks.</string>
+  <string name="Page6Message">**Telegram** lets you access your\nmessages from multiple devices.</string>
+  <string name="StartMessaging">Start Messaging</string>
+
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">en</string>
   <string name="language_name">English</string>
@@ -8,7 +25,6 @@
   <string name="language_dateFormatLocale">en-UK</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
-  <string name="language_continueInLanguage">Continue in English</string>
   <string name="language_continueInLanguagePopupText">**Telegram X** is now available in **English**.\n\nWould you like to switch app language?\n\nYou can revert changes anytime later in Settings&#160;&gt;&#160;Language.</string>
   <string name="language_appliedLanguage">App language has been set to English.</string>
   <string name="MoreLanguages">More Languages</string>
@@ -31,19 +47,6 @@
   <string name="timestampShort_yesterday">yesterday %1$s</string>
   <string name="timestampShort_weekday">%1$s at %2$s</string>
   <string name="timestampShort_date">%1$s at %2$s</string>
-  <string name="Page1Title">Telegram X</string>
-  <string name="Page2Title">Fast</string>
-  <string name="Page3Title">Free</string>
-  <string name="Page4Title">Powerful</string>
-  <string name="Page5Title">Secure</string>
-  <string name="Page6Title">Cloud-Based</string>
-  <string name="Page1Message">The world\'s **fastest** messaging app.\nIt is **free** and **secure**.</string>
-  <string name="Page2Message">**Telegram** delivers messages\nfaster than any other application.</string>
-  <string name="Page3Message">**Telegram** is free forever. No ads.\nNo subscription fees.</string>
-  <string name="Page4Message">**Telegram** has no limits on\nthe size of your media and chats.</string>
-  <string name="Page5Message">**Telegram** keeps your messages\nsafe from hacker attacks.</string>
-  <string name="Page6Message">**Telegram** lets you access your\nmessages from multiple devices.</string>
-  <string name="StartMessaging">Start Messaging</string>
   <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
@@ -659,7 +662,6 @@
   <string name="SinceNotProvided">Since you haven\'t provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
   <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
   <string name="CreateAHintForYourPassword">Create a hint for your password</string>
-  <string name="RecoveryCodeSent">We\'ve sent you a 6-digit recovery code to %1$s. Check your e-mail and enter it here.</string>
   <string name="HavingTroubleAccessing">Having trouble accessing your e-mail\n%1$s?</string>
   <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
   <string name="EnterCode">Enter code</string>
@@ -1447,6 +1449,7 @@
   <string name="ChatAccessPrivateGroup">This group is private</string>
   <string name="ChatAccessPrivateChannel">This channel is private</string>
   <string name="YouCantInviteMembers">You can\'t add members to this chat</string>
+  <string name="RecoveryCodeSent">We\'ve sent you a 6-digit recovery code to %1$s. Check your e-mail and enter it here.</string>
   <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you a 6-digit recovery code. Check your e-mail and enter it here.</string>
   <string name="RestoreEmailTroubleUnknown">Having trouble accessing your e-mail?</string>
   <string name="VoipInCallBranding">Telegram Call</string>
