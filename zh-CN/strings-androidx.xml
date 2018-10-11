@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="AppName">Telegram X</string>
+
+  <string name="language_continueInLanguage">使用简体中文继续</string>
+
+  <string name="Page1Title">Telegram X</string>
+  <string name="Page2Title">快速</string>
+  <string name="Page3Title">免费</string>
+  <string name="Page4Title">强大</string>
+  <string name="Page5Title">安全</string>
+  <string name="Page6Title">云同步</string>
+  <string name="Page1Message">世界上**最快的**通讯软件。\n它**免费**而**安全**。</string>
+  <string name="Page2Message">**Telegram** 以同类软件中最快的速度
+为您传递消息</string>
+  <string name="Page3Message">**Telegram** 永久免费，无广告\n不收取任何费用</string>
+  <string name="Page4Message">**Telegram** 不限制\n文件和消息大小</string>
+  <string name="Page5Message">**Telegram** 保障您的消息安全
+免受黑客攻击</string>
+  <string name="Page6Message">**Telegram** 让您能从
+多个设备收发消息</string>
+  <string name="StartMessaging">开始聊天</string>
+
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">zh-CN</string>
   <string name="language_name">中文（简体）</string>
@@ -8,7 +28,6 @@
   <string name="language_dateFormatLocale">zh-CN</string>
   <string name="language_rtl">0</string>
   <string name="language_disable_lowercase">0</string>
-  <string name="language_continueInLanguage">使用简体中文继续</string>
   <string name="language_continueInLanguagePopupText">**Telegram X** 已支持**中文**.\n\n你是否想要变更界面语言呢？\n\n你可以随时在 设置&#160;&gt;&#160;语言 中修改。</string>
   <string name="language_appliedLanguage">应用语言已切换为 简体中文。</string>
   <string name="MoreLanguages">更多语言</string>
@@ -31,22 +50,6 @@
   <string name="timestampShort_yesterday">昨天 %1$s</string>
   <string name="timestampShort_weekday">%1$s %2$s</string>
   <string name="timestampShort_date">%1$s %2$s</string>
-  <string name="Page1Title">Telegram X</string>
-  <string name="Page2Title">快速</string>
-  <string name="Page3Title">免费</string>
-  <string name="Page4Title">强大</string>
-  <string name="Page5Title">安全</string>
-  <string name="Page6Title">云同步</string>
-  <string name="Page1Message">世界上**最快的**通讯软件。\n它**免费**而**安全**。</string>
-  <string name="Page2Message">**Telegram** 以同类软件中最快的速度
-为您传递消息</string>
-  <string name="Page3Message">**Telegram** 永久免费，无广告\n不收取任何费用</string>
-  <string name="Page4Message">**Telegram** 不限制\n文件和消息大小</string>
-  <string name="Page5Message">**Telegram** 保障您的消息安全
-免受黑客攻击</string>
-  <string name="Page6Message">**Telegram** 让您能从
-多个设备收发消息</string>
-  <string name="StartMessaging">开始聊天</string>
   <string name="format_timestamp">%1$02d-%2$02d-%3$02d %4$s</string>
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
@@ -667,7 +670,6 @@
   <string name="SinceNotProvided">由于您在设置密码时未提供密保邮箱，您现在只能尝试想起密码，或者重置账号。</string>
   <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
   <string name="CreateAHintForYourPassword">请设置一个密码提示</string>
-  <string name="RecoveryCodeSent">我们已经发送了一个 6 位的恢复代码到 %1$s。请查看您收到的邮件并在此输入代码。</string>
   <string name="HavingTroubleAccessing">无法访问您的密码恢复邮箱\n %1$s?</string>
   <string name="RestoreEmailTroubleText">如果您无法恢复对您的邮箱的访问权，您剩余的选项就是记起您的密码，或者重置您的账户。</string>
   <string name="EnterCode">输入验证码</string>
@@ -1461,6 +1463,7 @@
   <string name="ChatAccessPrivateGroup">此群组为私有群组</string>
   <string name="ChatAccessPrivateChannel">此频道为私有频道</string>
   <string name="YouCantInviteMembers">您不能添加成员到此对话</string>
+  <string name="RecoveryCodeSent">我们已经发送了一个 6 位的恢复代码到 %1$s。请查看您收到的邮件并在此输入代码。</string>
   <string name="RecoveryCodeSentEmailUnknown">我们已经发送了一个 6 位的恢复代码。请查看您收到的邮件并在此输入代码。</string>
   <string name="RestoreEmailTroubleUnknown">无法访问您的密保邮箱？</string>
   <string name="VoipInCallBranding">Telegram Call</string>
