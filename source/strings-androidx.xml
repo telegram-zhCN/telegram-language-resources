@@ -18,6 +18,12 @@
   <string name="Page6Message">**Telegram** lets you access your\nmessages from multiple devices.</string>
   <string name="StartMessaging">Start Messaging</string>
 
+  <string name="network_Connecting">Connecting…</string>
+  <string name="network_WaitingForNetwork">Waiting for network…</string>
+  <string name="network_Updating">Updating…</string>
+  <string name="Connected">Connected</string>
+  <string name="ConnectingToProxy">Connecting to proxy…</string>
+
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">en</string>
   <string name="language_name">English</string>
@@ -89,9 +95,6 @@
   <string name="LastName">Last name</string>
   <string name="login_LastName">Last name (optional)</string>
   <string name="login_InvalidPhone">Please enter a valid phone number</string>
-  <string name="network_Connecting">Connecting…</string>
-  <string name="network_WaitingForNetwork">Waiting for network…</string>
-  <string name="network_Updating">Updating…</string>
   <string name="location_Nearby">Nearby</string>
   <string name="location_AwayMeters">%1$s m away</string>
   <string name="location_AwayKilometers">%1$s km away</string>
@@ -980,7 +983,6 @@
   <string name="Ringtone">Ringtone</string>
   <string name="RingtoneDisabled">Disabled</string>
   <string name="Calls">Calls</string>
-  <string name="Connected">Connected</string>
   <string name="Allow">Allow</string>
   <string name="ContactAdded">Contact added</string>
   <string name="SuggestInvitingUser">%1$s is not on Telegram yet. Would you like to invite them via SMS?</string>
@@ -1049,7 +1051,6 @@
   <string name="VoipAudioRoutingSpeaker">Speaker</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="NightMode">Night Mode</string>
-  <string name="ConnectingToProxy">Connecting to proxy…</string>
   <string name="Proxy">Proxy</string>
   <string name="Connection">Connection</string>
   <string name="ProxyDisabled">Disabled</string>
@@ -1930,6 +1931,21 @@
   <string name="json_ChatDemo">0</string>
 
   <string name="ChangeLogText">**Telegram X** was updated to version %1$s\n\nBrief overview of new features:\n%2$s</string>
+
+  <string name="LoginErrorOffline">You\'re currently offline. Please connect to the Internet in order to start messaging.</string>
+  <string name="LoginErrorAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to start messaging.</string>
+  <string name="LoginErrorLongConnecting">Telegram X is unable to quickly establish connection with the server.\n\nPlease check your network connection or wait until this pop-up will disappear automatically.\n\nProxy server may be helpful in accessing Telegram if there is no connection in your region.</string>
+
+  <string name="HelpEmailError">Please send an email to %1$s and tell us about your problem</string>
+
+  <string name="email_LoginTooLong_subject">Telegram X connection issue</string>
+  <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed application and trying to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
+
+  <string name="SignOutHint">Are you sure you want to sign out as %1$s? All secret chats will be lost.</string>
+
+  
+
+  <string name="suggested_language_code" />
 
   <!-- new from translations.telegram.org -->
 
