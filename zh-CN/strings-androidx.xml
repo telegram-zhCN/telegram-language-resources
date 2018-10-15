@@ -21,6 +21,12 @@
 多个设备收发消息</string>
   <string name="StartMessaging">开始聊天</string>
 
+  <string name="network_Connecting">连接中……</string>
+  <string name="network_WaitingForNetwork">等待网络连接……</string>
+  <string name="network_Updating">刷新中...</string>
+  <string name="Connected">已连接</string>
+  <string name="ConnectingToProxy">正在连接代理...</string>
+
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">zh-CN</string>
   <string name="language_name">中文（简体）</string>
@@ -92,9 +98,6 @@
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
   <string name="login_InvalidPhone">请输入有效的手机号码</string>
-  <string name="network_Connecting">连接中……</string>
-  <string name="network_WaitingForNetwork">等待网络连接……</string>
-  <string name="network_Updating">刷新中...</string>
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
@@ -991,7 +994,6 @@
   <string name="Ringtone">铃声</string>
   <string name="RingtoneDisabled">已禁用</string>
   <string name="Calls">通话</string>
-  <string name="Connected">已连接</string>
   <string name="Allow">允许</string>
   <string name="ContactAdded">联系人已添加</string>
   <string name="SuggestInvitingUser">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？</string>
@@ -1060,7 +1062,6 @@
   <string name="VoipAudioRoutingSpeaker">扬声器</string>
   <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
   <string name="NightMode">夜间模式</string>
-  <string name="ConnectingToProxy">正在连接代理...</string>
   <string name="Proxy">代理</string>
   <string name="Connection">链接</string>
   <string name="ProxyDisabled">不使用</string>
@@ -1944,6 +1945,8 @@
   <string name="json_ChatDemo">0</string>
 
   <string name="ChangeLogText">**Telegram X** 已更新至 %1$s 版。\n\n新功能如下：\n%2$s</string>
+
+  <string name="suggested_language_code" />
 
   <!-- new from translations.telegram.org -->
 

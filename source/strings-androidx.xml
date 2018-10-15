@@ -466,7 +466,7 @@
   <string name="Stickers">Stickers</string>
   <string name="NoAppToOpen">Application to open this file not found</string>
   <string name="CopyLine">Copy line</string>
-  <string name="TextNotLoadedHint">Please wait until the text will be fully loaded</string>
+  <string name="TextNotLoadedHint">Please wait until the text has finished loading</string>
   <string name="Text">Text</string>
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
@@ -1934,14 +1934,18 @@
 
   <string name="LoginErrorOffline">You\'re currently offline. Please connect to the Internet in order to start messaging.</string>
   <string name="LoginErrorAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to start messaging.</string>
-  <string name="LoginErrorLongConnecting">Telegram X is unable to quickly establish connection with the server.\n\nPlease check your network connection or wait until this pop-up will disappear automatically.\n\nProxy server may be helpful in accessing Telegram if there is no connection in your region.</string>
+  <string name="LoginErrorLongConnecting">Telegram X is unable to quickly establish connection with the server.\n\nPlease check your network connection or wait until this pop-up disappears automatically.\n\nProxy servers may be helpful in accessing Telegram if there is no connection in your region.</string>
 
   <string name="HelpEmailError">Please send an email to %1$s and tell us about your problem</string>
 
   <string name="email_LoginTooLong_subject">Telegram X connection issue</string>
-  <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed application and trying to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
+  <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
   <string name="SignOutHint">Are you sure you want to sign out as %1$s? All secret chats will be lost.</string>
+
+  <string name="TdlibLogs">TDLib Logs</string>
+  <string name="TdlibLogsWarning">**Warning:** TDLib Logs may contain **private data**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
+  <string name="TdlibLogsWarningConfirm">Proceed</string>
 
   
 
