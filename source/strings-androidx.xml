@@ -834,12 +834,12 @@
   <string name="DidNotGetTheCode">Haven\'t received the code?</string>
   <string name="SuccessfullyChangedNumber">Successfully changed number to %1$s.</string>
   <string name="YourPhone">Your Phone</string>
-  <string name="SetUpUsername">Setup Username</string>
+  <string name="SetUpUsername">Set Username</string>
   <string name="PhoneMobile">Mobile</string>
   <string name="GroupsInCommon">Groups in Common</string>
   <string name="EncryptionKey">Encryption Key</string>
   <string name="PictureAndText">Picture and text</string>
-  <string name="TapToSetup">Tap to setup</string>
+  <string name="TapToSetup">Tap to set</string>
   <string name="ViewGroupsInCommon">View groups in common</string>
   <string name="OpenChat">Open Chat</string>
   <string name="DeleteAndStop">Delete and Stop</string>
@@ -1054,7 +1054,7 @@
   <string name="Proxy">Proxy</string>
   <string name="Connection">Connection</string>
   <string name="ProxyDisabled">Disabled</string>
-  <string name="ProxySetup">Tap to setup</string>
+  <string name="ProxySetup">Tap to set up</string>
   <string name="ProxyCredentials">Credentials</string>
   <string name="ProxyCredentialsOptional">Credentials (optional)</string>
   <string name="Socks5Proxy">SOCKS5 Proxy</string>
@@ -1265,8 +1265,8 @@
   <string name="LinkInvalidShort">Public link must have at least 5 characters.</string>
   <string name="LinkInvalidLong">Public link must not exceed 32 characters.</string>
   <string name="LinkInvalidStartNumber">Sorry, a link can\'t start with a number.</string>
-  <string name="LinkGroupHelp">You can setup a public link on **Telegram**. If you do, other people will be able to find and join your group by this link.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
-  <string name="LinkChannelHelp">You can setup a public link on **Telegram**. If you do, other people will be able to find and follow your channel by this link.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
+  <string name="LinkGroupHelp">You can set a public link on **Telegram**. If you do, other people will be able to find and join your group by this link.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
+  <string name="LinkChannelHelp">You can set a public link on **Telegram**. If you do, other people will be able to find and follow your channel by this link.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
   <string name="LinkChecking">Checking link availability…</string>
   <string name="LinkCurrent">t.me/%1$s is your current public link.</string>
   <string name="LoadingActions">Loading actions…</string>
@@ -1946,6 +1946,8 @@
   <string name="TdlibLogs">TDLib Logs</string>
   <string name="TdlibLogsWarning">**Warning:** TDLib Logs may contain **private data**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
   <string name="TdlibLogsWarningConfirm">Proceed</string>
+
+  <string name="NoEmailApp">No E-Mail application found</string>
 
   
 

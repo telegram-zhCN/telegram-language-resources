@@ -469,7 +469,6 @@
   <string name="Stickers">贴纸</string>
   <string name="NoAppToOpen">未找到可打开此文件的应用</string>
   <string name="CopyLine">复制 行</string>
-  <string name="TextNotLoadedHint">请等待文本加载完毕</string>
   <string name="Text">文本</string>
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
@@ -1945,6 +1944,10 @@
   <string name="json_ChatDemo">0</string>
 
   <string name="ChangeLogText">**Telegram X** 已更新至 %1$s 版。\n\n新功能如下：\n%2$s</string>
+
+  <string name="TdlibLogsWarningConfirm">继续</string>
+
+  
 
   <string name="suggested_language_code" />
 

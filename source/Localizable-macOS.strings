@@ -2241,9 +2241,9 @@
 
 
 "RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs access to your microphone to make calls";
-"RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages";
-"RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages";
-"RequestAcces.Error.HaveNotAccess.VoiceMessage.Camera" = "Telegram needs access to your camera to send voice messages";
+/* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages"; */
+/* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages"; */
+/* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Camera" = "Telegram needs access to your camera to send voice messages"; */
 
 "RequestAcces.Error.Conirm.Settings" = "Settings";
 
@@ -2258,15 +2258,33 @@
 "ProxySettings.Item.LastConnection" = "last connection %@";
 "SecureId.Add.RentalAgreement" = "Add Rental Agreement";
 "SecureId.Edit.RentalAgreement" = "Edit Rental Agreement";
-"_NS103.title" = "Edit";
-"_NS167.title" = "Window";
+/* "_NS103.title" = "Edit"; */
+/* "_NS167.title" = "Window"; */
 "_NS70.title" = "View";
-"_NS81.title" = "View";
+/* "_NS81.title" = "View"; */
 "_NS88.title" = "Edit";
 
 
-
-
-
+"SelectAreaControl.Dimension.None" = "None";
+"SelectAreaControl.Dimension.Original" = "Original";
+"SelectAreaControl.Dimension.Square" = "Square";
 
 "Td7-aD-5lo.title" = "Window";
+
+
+"EditImageControl.Reset" = "RESET";
+
+"Edit.Message.EditCurrentPhoto" = "Edit";
+
+"EditImageControl.Confirm.Discard" = "Are you sure you want to discard all changes?";
+
+"_NS:103.title" = "Edit";
+"_NS:167.title" = "Window";
+"_NS:81.title" = "View";
+
+
+/* new from translations.telegram.org */
+
+"_NS103.title" = "Edit";
+"_NS167.title" = "Window";
+"_NS81.title" = "View";
