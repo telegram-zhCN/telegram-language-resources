@@ -1,8 +1,8 @@
 ﻿
 "Messages.UnreadMark" = "Unread messages";
 "Messages.ForwardHeader" = "Forwarded messages";
-"Messages.File.State.FetchingIn_1" = "%d%% downloaded";
-"Messages.File.State.FetchingOut_1" = "%d%% uploaded";
+"Messages.File.State.FetchingIn_1" = "%d% downloaded";
+"Messages.File.State.FetchingOut_1" = "%d% uploaded";
 
 "Messages.File.State.Remote" = "Download";
 "Messages.File.State.Local" = "Show in Finder";
@@ -1727,7 +1727,7 @@
 "SecureId.Request.Permission.Identity.Empty" = "Upload a scan of your passport or other ID";
 "SecureId.Request.Permission.Address.Empty" = "Upload proof of your address";
 
-"SecureId.FileUpload.Progress" = "%@%% Uploaded";
+"SecureId.FileUpload.Progress" = "%@% Uploaded";
 "SecureId.ScanNumber" = "Scan %d";
 
 "SecureId.Identity.Id" = "Identity Card";

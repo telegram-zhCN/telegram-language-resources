@@ -847,7 +847,6 @@
   <string name="GroupsInCommon">共同加入的群组</string>
   <string name="EncryptionKey">加密密钥</string>
   <string name="PictureAndText">图片和文本</string>
-  <string name="TapToSetup">点击设置</string>
   <string name="ViewGroupsInCommon">查看共同加入的群组</string>
   <string name="OpenChat">打开对话</string>
   <string name="DeleteAndStop">删除并停用</string>
@@ -1064,7 +1063,6 @@
   <string name="Proxy">代理</string>
   <string name="Connection">链接</string>
   <string name="ProxyDisabled">不使用</string>
-  <string name="ProxySetup">点击设置</string>
   <string name="ProxyCredentials">认证信息</string>
   <string name="ProxyCredentialsOptional">认证信息（可选）</string>
   <string name="Socks5Proxy">SOCKS5 代理</string>
@@ -1276,8 +1274,6 @@
   <string name="LinkInvalidShort">公共链接必须至少包含 5 个字符。</string>
   <string name="LinkInvalidLong">公共链接不能超过 32 个字符。</string>
   <string name="LinkInvalidStartNumber">抱歉，链接不能以数字开头。</string>
-  <string name="LinkGroupHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并加入您的群组。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
-  <string name="LinkChannelHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并关注您的频道。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
   <string name="LinkChecking">正在检查链接...</string>
   <string name="LinkCurrent">t.me/%1$s 是您当前的公开链接。</string>
   <string name="LoadingActions">加载管理操作……</string>
@@ -1946,8 +1942,6 @@
   <string name="ChangeLogText">**Telegram X** 已更新至 %1$s 版。\n\n新功能如下：\n%2$s</string>
 
   <string name="TdlibLogsWarningConfirm">继续</string>
-
-  
 
   <string name="suggested_language_code" />
 
