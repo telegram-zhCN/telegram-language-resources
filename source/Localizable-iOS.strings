@@ -180,6 +180,7 @@
 "LastSeen.WithinAMonth" = "last seen within a month";
 "LastSeen.ALongTimeAgo" = "last seen a long time ago";
 
+
 "Date.DialogDateFormat" = "{month} {day}";
 "Date.ChatDateHeader" = "%1$@ %2$@";
 "Date.ChatDateHeaderYear" = "%1$@ %2$@, %3$@";
@@ -3420,6 +3421,10 @@ Unused sets are archived when you add more.";
 "Appearance.ReduceMotionInfo" = "Disable animations in message bubbles and in the chats list.";
 
 "Appearance.Animations" = "ANIMATIONS";
+
+
+
+
 
 
 

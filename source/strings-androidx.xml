@@ -1341,7 +1341,7 @@
   <string name="EventLogPromotedNew">promoted %1$s</string>
   <string name="EventLogPromoted">changed privileges of %1$s</string>
   <string name="EventLogUnpromoted">removed admin privileges of %1$s</string>
-  <string name="EventLogPromotedChangeChannelInfo">Change channel Info</string>
+  <string name="EventLogPromotedChangeChannelInfo">Change channel info</string>
   <string name="EventLogPromotedChangeGroupInfo">Change group Info</string>
   <string name="EventLogPromotedPostMessages">Post messages</string>
   <string name="EventLogPromotedEditMessages">Edit messages</string>
