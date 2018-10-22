@@ -179,7 +179,7 @@
 "LastSeen.WithinAWeek" = "last seen within a week";
 "LastSeen.WithinAMonth" = "last seen within a month";
 "LastSeen.ALongTimeAgo" = "last seen a long time ago";
-
+"LastSeen.Offline" = "offline";
 
 "Date.DialogDateFormat" = "{month} {day}";
 "Date.ChatDateHeader" = "%1$@ %2$@";
@@ -3430,9 +3430,9 @@ Unused sets are archived when you add more.";
 
 
 
-
-
-
+"Watch.Message.Call" = "Call";
+"Watch.Message.Game" = "Game";
+"Watch.Message.Invoice" = "Invoice";
 
 
 /* new from translations.telegram.org */

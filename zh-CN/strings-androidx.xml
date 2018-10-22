@@ -469,6 +469,7 @@
   <string name="Stickers">贴纸</string>
   <string name="NoAppToOpen">未找到可打开此文件的应用</string>
   <string name="CopyLine">复制 行</string>
+  <string name="TextNotLoadedHint">请等待文本加载完毕</string>
   <string name="Text">文本</string>
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
@@ -847,6 +848,7 @@
   <string name="GroupsInCommon">共同加入的群组</string>
   <string name="EncryptionKey">加密密钥</string>
   <string name="PictureAndText">图片和文本</string>
+  <string name="TapToSetup">点击设置</string>
   <string name="ViewGroupsInCommon">查看共同加入的群组</string>
   <string name="OpenChat">打开对话</string>
   <string name="DeleteAndStop">删除并停用</string>
@@ -1063,6 +1065,7 @@
   <string name="Proxy">代理</string>
   <string name="Connection">链接</string>
   <string name="ProxyDisabled">不使用</string>
+  <string name="ProxySetup">点击设置</string>
   <string name="ProxyCredentials">认证信息</string>
   <string name="ProxyCredentialsOptional">认证信息（可选）</string>
   <string name="Socks5Proxy">SOCKS5 代理</string>
@@ -1274,6 +1277,8 @@
   <string name="LinkInvalidShort">公共链接必须至少包含 5 个字符。</string>
   <string name="LinkInvalidLong">公共链接不能超过 32 个字符。</string>
   <string name="LinkInvalidStartNumber">抱歉，链接不能以数字开头。</string>
+  <string name="LinkGroupHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并加入您的群组。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
+  <string name="LinkChannelHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并订阅您的频道。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
   <string name="LinkChecking">正在检查链接...</string>
   <string name="LinkCurrent">t.me/%1$s 是您当前的公开链接。</string>
   <string name="LoadingActions">加载管理操作……</string>
@@ -1941,7 +1946,24 @@
 
   <string name="ChangeLogText">**Telegram X** 已更新至 %1$s 版。\n\n新功能如下：\n%2$s</string>
 
+  <string name="LoginErrorOffline">您现在正处于离线状态。请连接至互联网后再发送消息。</string>
+  <string name="LoginErrorAirplane">您现在正处于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行通话。</string>
+  <string name="LoginErrorLongConnecting">Telegram X 无法快速建立与服务器的连接。\n\n请检查您的网络连接或等候此弹窗自动消失。\n\n代理服务器可以协助您使用 Telegram 如果它在您的地区被屏蔽。</string>
+
+  <string name="HelpEmailError">请发送一封邮件到 %1$s 告诉我们您的问题</string>
+
+  <string name="email_LoginTooLong_subject">Telegram X 连接问题</string>
+  <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
+
+  <string name="SignOutHint">您确定要登出 %1$s 吗？所有私密聊天记录将丢失。</string>
+
+  <string name="TdlibLogs">TDLib 日志</string>
+  <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
   <string name="TdlibLogsWarningConfirm">继续</string>
+
+  <string name="NoEmailApp">找不到电子邮件应用</string>
+
+  
 
   <string name="suggested_language_code" />
 
