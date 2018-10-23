@@ -802,7 +802,7 @@
     <string name="ContactNotRegistered">%1$s is not on Telegram yet, would you like to invite them to join?</string>
     <string name="Invite">Invite</string>
     <string name="BlockContact">Block</string>
-    <string name="EditContact">Rename Contact</string>
+    <string name="EditContact">Edit contact</string>
     <string name="DeleteContact">Delete contact</string>
     <string name="PhoneHome">Home</string>
     <string name="PhoneMobile">Mobile</string>
@@ -1526,7 +1526,7 @@
     <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
     <string name="RestorePasswordResetAccount">RESET ACCOUNT</string>
     <string name="RestoreEmailSent">We have sent a recovery code to the e-mail you provided:\n\n%1$s</string>
-    <string name="RestoreEmailSentInfo">Please check your e-mail and enter the 6-digit code we sent you below.</string>
+    <string name="RestoreEmailSentInfo">Please check your e-mail and enter the 6-digit code we sent you.</string>
     <string name="RestoreEmailTrouble">Having trouble accessing your e-mail %1$s?</string>
     <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
     <string name="ResetMyAccount">RESET MY ACCOUNT</string>

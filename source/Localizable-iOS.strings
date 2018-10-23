@@ -3408,8 +3408,8 @@ Unused sets are archived when you add more.";
 "Share.AuthTitle" = "Log in to Telegram";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
 
-"Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
-"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications on the lock screen.";
+"Notifications.DisplayNamesOnLockScreen" = "Names on Locked Screen";
+"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. ";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "Include Muted Chats";
