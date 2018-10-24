@@ -802,7 +802,7 @@
   <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
   <string name="Invite">邀请</string>
   <string name="BlockContact">屏蔽</string>
-  <string name="EditContact">重命名联系人</string>
+  <string name="EditContact">编辑联系人</string>
   <string name="DeleteContact">删除联系人</string>
   <string name="PhoneHome">家庭</string>
   <string name="PhoneMobile">手机</string>
@@ -1513,7 +1513,6 @@
   <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="RestorePasswordResetAccount">重置帐户</string>
   <string name="RestoreEmailSent">我们已经将验证码发送到了您的邮箱：\n\n%1$s</string>
-  <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
   <string name="RestoreEmailTrouble">无法访问您的密码恢复邮箱 %1$s?</string>
   <string name="RestoreEmailTroubleText">如果您无法访问您的邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="ResetMyAccount">重置我的帐户</string>
