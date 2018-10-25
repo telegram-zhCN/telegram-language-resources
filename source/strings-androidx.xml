@@ -161,6 +161,8 @@
   <string name="xAudios_other">%1$s audios</string>
   <string name="xPhotos_one">%1$s photo</string>
   <string name="xPhotos_other">%1$s photos</string>
+  <string name="xMedia_one">%1$s media</string>
+  <string name="xMedia_other">%1$s medias</string>
   <string name="xVideos_one">%1$s video</string>
   <string name="xVideos_other">%1$s videos</string>
   <string name="xViews_one">%1$s view</string>
@@ -2239,6 +2241,10 @@
   <string name="xMasks_two">%1$s masks</string>
   <string name="xMasks_few">%1$s masks</string>
   <string name="xMasks_many">%1$s masks</string>
+  <string name="xMedia_zero">%1$s medias</string>
+  <string name="xMedia_two">%1$s medias</string>
+  <string name="xMedia_few">%1$s medias</string>
+  <string name="xMedia_many">%1$s medias</string>
   <string name="xMembers_zero">%1$s members</string>
   <string name="xMembers_two">%1$s members</string>
   <string name="xMembers_few">%1$s members</string>

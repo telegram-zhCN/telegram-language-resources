@@ -179,7 +179,7 @@
 "LastSeen.WithinAWeek" = "last seen within a week";
 "LastSeen.WithinAMonth" = "last seen within a month";
 "LastSeen.ALongTimeAgo" = "last seen a long time ago";
-"LastSeen.Offline" = "offline";
+"LastSeen.Offline" = "last seen a long time ago";
 
 "Date.DialogDateFormat" = "{month} {day}";
 "Date.ChatDateHeader" = "%1$@ %2$@";
