@@ -1195,8 +1195,11 @@
   <string name="ManageGroup">Manage Group</string>
   <string name="Restricted">Restricted</string>
   <string name="PromotedByX">Promoted by %1$s</string>
+  <string name="PromotedByXOnDate">Promoted by %1$s %2$s</string>
   <string name="BannedByX">Banned by %1$s</string>
+  <string name="BannedByXOnDate">Banned by %1$s %2$s</string>
   <string name="RestrictedByX">Restricted by %1$s</string>
+  <string name="RestrictedByXOnDate">Restricted by %1$s %2$s</string>
   <string name="EditGroup">Edit Group</string>
   <string name="GroupType">Group Type</string>
   <string name="WhoCanAddMembers">Who Can Add Members</string>
