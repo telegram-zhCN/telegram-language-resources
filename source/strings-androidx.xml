@@ -1905,7 +1905,7 @@
   <string name="json_1_audioTitle">True Survivor</string>
   <string name="json_1_audioPerformer">David Hasselhoff</string>
   <string name="json_1_text1">Bring it on! I **LIVE** for this!</string>
-  <string name="json_1_text2">Reinhardt, we need to find you some new tunes 🎶.</string>
+  <string name="json_1_text2">Reinhardt, we need to find you some new tunes &#127926;.</string>
   <string name="json_1_text3">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
   <string name="json_1_text4">I can\'t even take you seriously right now.</string>
 
@@ -1916,18 +1916,18 @@
   <string name="json_2_title">Weekend Plans</string>
   <string name="json_2_text1">Are you sure it\'s safe here?</string>
   <string name="json_2_text2">Yes, sure, don\'t worry.</string>
-  <string name="json_2_text3">Hallo alle zusammen! Is the NSA reading this? 😄</string>
+  <string name="json_2_text3">Hallo alle zusammen! Is the NSA reading this? &#128516;</string>
   <string name="json_2_text4">Sorry, I\'ll have to publish this conversation on the web.</string>
   <string name="json_2_text5">Wait, we could have made so much money on this!</string>
 
   <string name="json_3_name">Eileen Lockhard</string>
   <string name="json_3_text1">So, why is Telegram cool?</string>
   <string name="json_3_text2">Well, look. Telegram is superfast and you can use it on all your devices at the same time – phones, tablets, even desktops.</string>
-  <string name="json_3_text3">😴</string>
+  <string name="json_3_text3">&#128564;</string>
   <string name="json_3_text4">And it has secret chats, like this one, with end-to-end encryption!</string>
   <string name="json_3_text5">End encryption to what end??</string>
   <string name="json_3_text6">Arrgh. Forget it. You can set a timer and send message that will disappear when the time runs out. Yay!</string>
-  <string name="json_3_text7">😱🙈👍</string>
+  <string name="json_3_text7">&#128561;&#128584;&#128077;</string>
 
   <string name="json_4_name">Space Dandy</string>
   <string name="json_4_text1">You see this chat preview because you are a **Translator**.\n\nPlease refer to @tgx_android_translate for guide on how to make your own scenes.</string>
@@ -1953,6 +1953,8 @@
   <string name="TdlibLogsWarningConfirm">Proceed</string>
 
   <string name="NoEmailApp">No E-Mail application found</string>
+
+  <string name="RtlLayout">RTL Layout</string>
 
   
 
