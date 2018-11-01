@@ -1914,7 +1914,6 @@
   <string name="json_1_audioTitle">True Survivor</string>
   <string name="json_1_audioPerformer">大卫·哈塞尔霍夫</string>
   <string name="json_1_text1">哈哈！嗨起来！**Waow!!**</string>
-  <string name="json_1_text2">莱因哈特，你应该尝试些新的风格了🎶！</string>
   <string name="json_1_text3">啊，玩电子乐的小子！你应该好好听听古典乐曲，哈塞尔霍夫的就不错！</string>
   <string name="json_1_text4">真是没法交流……</string>
 
@@ -1925,19 +1924,15 @@
   <string name="json_2_title">周末计划</string>
   <string name="json_2_text1">你确定这群组安全吗？</string>
   <string name="json_2_text2">是的没错，别担心。</string>
-  <string name="json_2_text3">大家好！美国国家安全局正在读这个吗？😄</string>
   <string name="json_2_text4">抱歉，我会把这段对话发到网上。</string>
   <string name="json_2_text5">等等，我们可以靠这个赚大钱！</string>
 
   <string name="json_3_name">艾琳·洛克哈德</string>
   <string name="json_3_text1">所以，为啥 Telegram 很酷？</string>
   <string name="json_3_text2">额，你看，Telegram 运行速度超级快，而且你可以在所有设备上同时使用——包括手机、平板，甚至电脑上。</string>
-  <string name="json_3_text3">😴</string>
   <string name="json_3_text4">而且它支持加密对话，比如我们现在所用的，这是端到端加密！</string>
   <string name="json_3_text5">端到端加密？加密到哪？？</string>
   <string name="json_3_text6">啊，忘了它吧。你还可以发送定时销毁信息！看这个！</string>
-  <string name="json_3_text7">😱🙈👍</string>
-
   <string name="json_4_name">斯派斯·丹尼尔</string>
   <string name="json_4_text1">你能看到这个对话预览是因为你是一名**翻译者**。\n\n请前往 @tgx_android_translate 获取如何制作你自己的预览场景的指南。</string>
   <string name="json_4_text2">我知道啦！别再说了……</string>
@@ -1962,8 +1957,6 @@
   <string name="TdlibLogsWarningConfirm">继续</string>
 
   <string name="NoEmailApp">找不到电子邮件应用</string>
-
-  
 
   <string name="suggested_language_code" />
 
