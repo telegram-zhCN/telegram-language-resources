@@ -1956,9 +1956,13 @@
 
   <string name="RtlLayout">Right-to-Left Layout</string>
 
-  
+  <string name="ThemeCreate">Create New Theme</string>
+  <string name="ThemeEdit">Edit Theme</string>
+  <string name="ThemeRemove">Delete Theme</string>
+  <string name="ThemeRemoveInfo">Are you sure you want to delete this theme? This action cannot be undone.</string>
+  <string name="ThemeRemoveConfirm">Delete</string>
 
-  <string name="suggested_language_code" />
+  
 
   <!-- new from translations.telegram.org -->
 

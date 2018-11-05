@@ -534,6 +534,12 @@
 "Notifications.GroupNotificationsSound" = "Sound";
 "Notifications.GroupNotificationsHelp" = "You can set custom notifications for specific groups on the Group Info page.";
 
+"Notifications.ChannelNotifications" = "CHANNEL NOTIFICATIONS";
+"Notifications.ChannelNotificationsAlert" = "Alert";
+"Notifications.ChannelNotificationsPreview" = "Message Preview";
+"Notifications.ChannelNotificationsSound" = "Sound";
+"Notifications.ChannelNotificationsHelp" = "You can set custom notifications for specific channels on the Channel Info page.";
+
 "Notifications.TextTone" = "Text Tone";
 "Notifications.AlertTones" = "ALERT TONES";
 "Notifications.ClassicTones" = "CLASSIC";
@@ -3413,6 +3419,8 @@ Unused sets are archived when you add more.";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "Include Muted Chats";
+"Notifications.Badge.IncludePublicGroups" = "Include Public Groups";
+"Notifications.Badge.IncludeChannels" = "Include Channels";
 "Notifications.Badge.CountUnreadMessages" = "Count Unread Messages";
 "Notifications.Badge.CountUnreadMessages.InfoOff" = "Switch on to show the number of unread messages instead of chats.";
 "Notifications.Badge.CountUnreadMessages.InfoOn" = "Switch off to show the number of unread chats instead of messages.";
@@ -3433,6 +3441,11 @@ Unused sets are archived when you add more.";
 "Watch.Message.Call" = "Call";
 "Watch.Message.Game" = "Game";
 "Watch.Message.Invoice" = "Invoice";
+
+"Notifications.ExceptionsResetToDefaults" = "Reset to Defaults";
+
+"AuthSessions.IncompleteAttempts" = "INCOMPLETE LOGIN ATTEMPTS";
+"AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";
 
 
 /* new from translations.telegram.org */
