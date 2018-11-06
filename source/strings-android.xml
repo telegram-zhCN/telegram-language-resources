@@ -316,7 +316,7 @@
     <string name="ChannelMessageMusic">%1$s posted a track</string>
     <string name="ChannelMessageSticker">%1$s posted a sticker</string>
     <string name="ChannelMessageStickerEmoji">%1$s posted a %2$s sticker</string>
-    <string name="WhoCanAddMembers">Who can add new members?</string>
+    <string name="WhoCanAddMembers">Who can add members?</string>
     <string name="WhoCanAddMembersAllMembers">All Members</string>
     <string name="WhoCanAddMembersAdmins">Only Admins</string>
     <string name="ChannelNotifyMembersInfoOn">Members will be notified when you post</string>
@@ -338,7 +338,7 @@
     <string name="EditAdminAddUsersViaLink">Invite Users via Link</string>
     <string name="EditAdminPinMessages">Pin Messages</string>
     <string name="EditAdminPromotedBy">Added by %1$s</string>
-    <string name="EditAdminCantEdit">You cannot edit rights of this admin.</string>
+    <string name="EditAdminCantEdit">You cannot edit the rights of this admin.</string>
     <string name="UserRestrictionsBy">Restricted by %1$s</string>
     <string name="UserRestrictions">User Restrictions</string>
     <string name="UserRestrictionsRead">Read Messages</string>
@@ -897,7 +897,7 @@
     <string name="AutoNightScheduled">Scheduled</string>
     <string name="AutoNightAutomatic">Automatic</string>
     <string name="AutoNightSchedule">Schedule</string>
-    <string name="AutoNightLocation">Use Local Sunset &amp; Sunrise\n</string>
+    <string name="AutoNightLocation">Use Local Sunset &amp; Sunrise</string>
     <string name="AutoNightUpdateLocation">Update Location</string>
     <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.\n\nSunset: %1$s\nSunrise: %2$s</string>
     <string name="AutoNightFrom">From</string>
@@ -1521,7 +1521,7 @@
     <string name="AbortPassword">Abort two-step verification setup</string>
     <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your e-mail (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
-    <string name="PasswordEmailInvalid">Invalid e-mail</string>
+    <string name="PasswordEmailInvalid">Invalid e-mail address. Please check that you\'ve entered it correctly and try again.</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
     <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
     <string name="RestorePasswordResetAccount">RESET ACCOUNT</string>
@@ -1730,7 +1730,7 @@
     <!--Alert messages-->
     <string name="UpdateTelegram">Update Telegram</string>
     <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</string>
-    <string name="InvalidPhoneNumber">Invalid phone number</string>
+    <string name="InvalidPhoneNumber">Invalid phone number. Please check the number and try again.</string>
     <string name="PleaseLoginPassport">Please log in to your Telegram account to use Telegram Passport.</string>
     <string name="BannedPhoneNumber">This phone number is banned.</string>
     <string name="CodeExpired">Code expired, please login again</string>
@@ -1794,7 +1794,7 @@
     <string name="AddBannedErrorAdmin">Sorry, you can\'t ban this user because they are an admin in this group and you are not allowed to demote them.</string>
     <string name="ErrorSendRestrictedStickers">Sorry, the admins of this group have restricted you from sending stickers.</string>
     <string name="ErrorSendRestrictedMedia">Sorry, the admins of this group have restricted you from sending media.</string>
-    <string name="TosDecline">We\'re very sorry, but this means you can\'t sign up for Telegram.\n\nUnlike others, we don\'t use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy &amp; Security settings.\n\nBut if you\'re generally not OK with Telegram\'s modest needs, it won\'t be possible for us to provide this service.</string>
+    <string name="TosDecline">We\'re very sorry, but this means you can\'t sign up for Telegram.\n\nUnlike others, we don\'t use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy &amp; Security settings.\n\nBut if you\'re generally not OK with Telegram\'s modest requirements, it won\'t be possible for us to provide you with this service.</string>
     <string name="TosAgeTitle">Age Verification</string>
     <string name="PrivacyPolicyAndTerms">Privacy Policy and Terms of Service</string>
     <string name="TosAgeText">Tap Agree to confirm that you are %1$s or over.</string>
@@ -1821,7 +1821,7 @@
     <string name="Page2Message">**Telegram** delivers messages faster than\nany other application.</string>
     <string name="Page3Message">**Telegram** is free forever. No ads.\nNo subscription fees.</string>
     <string name="Page4Message">**Telegram** keeps your messages safe\nfrom hacker attacks.</string>
-    <string name="Page5Message">**Telegram** has no limits on the size of\nyour media and chats.</string>
+    <string name="Page5Message">**Telegram** has no limits on\nthe size of your media and chats.</string>
     <string name="Page6Message">**Telegram** lets you access your messages\nfrom multiple devices.</string>
     <string name="StartMessaging">Start Messaging</string>
     <!-- VoIP -->

@@ -193,7 +193,7 @@
 "Tour.Text2" = "**Telegram** delivers messages\nfaster than any other application.";
 
 "Tour.Title3" = "Powerful";
-"Tour.Text3" = "**Telegram** has no limits on\nthe size of your chats and media.";
+"Tour.Text3" = "**Telegram** has no limits on\nthe size of your media and chats.";
 
 "Tour.Title4" = "Secure";
 "Tour.Text4" = "**Telegram** keeps your messages\nsafe from hacker attacks.";
@@ -312,7 +312,7 @@
 "Conversation.Contact" = "Contact";
 "Conversation.BlockUser" = "Block User";
 "Conversation.UnblockUser" = "Unblock User";
-"Conversation.UnsupportedMedia" = "This message is not supported on your version of Telegram. Update the app to view:\nhttp://telegram.org/update";
+"Conversation.UnsupportedMedia" = "This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update";
 "Conversation.EncryptionWaiting" = "Waiting for %@ to get online...";
 "Conversation.EncryptionProcessing" = "Exchanging encryption keys...";
 "Conversation.EmptyPlaceholder" = "No messages here yet...";
@@ -515,7 +515,7 @@
 "Settings.ChatBackground" = "Chat Background";
 "Settings.Support" = "Ask a Question";
 "Settings.FAQ" = "Telegram FAQ";
-"Settings.FAQ_URL" = "http://telegram.org/faq#general";
+"Settings.FAQ_URL" = "https://telegram.org/faq#general-questions";
 "Settings.FAQ_Intro" = "Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the Telegram FAQ: it has important troubleshooting tips and answers to most questions.";
 "Settings.FAQ_Button" = "FAQ";
 "Settings.SaveIncomingPhotos" = "Save Incoming Photos";
@@ -1141,6 +1141,7 @@
 "TwoStepAuth.EmailSent" = "We have sent you an e-mail to confirm your address.";
 "TwoStepAuth.PasswordSet" = "Your password for Two-Step Verification is now active.";
 "TwoStepAuth.PasswordRemoveConfirmation" = "Are you sure you want to disable your password?";
+
 
 "TwoStepAuth.RecoveryUnavailable" = "Since you didn't provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.RecoveryFailed" = "Your remaining options are either to remember your password or to reset your account.";
@@ -2362,7 +2363,7 @@ Unused sets are archived when you add more.";
 
 "Channel.BanUser.BlockFor" = "Block For";
 
-"Channel.BanList.BlockedTitle" = "BLOCKED";
+"Channel.BanList.BlockedTitle" = "BANNED";
 "Channel.BanList.RestrictedTitle" = "RESTRICTED";
 
 "Group.Info.AdminLog" = "Recent Actions";
@@ -2616,7 +2617,7 @@ Unused sets are archived when you add more.";
 "Channel.Stickers.Searching" = "Searching...";
 "Channel.Stickers.NotFound" = "No such sticker set found";
 "Channel.Stickers.NotFoundHelp" = "Try again or choose from the list below";
-"Channel.Stickers.CreateYourOwn" = "You can create your own custom sticker set using @stickers bot.";
+"Channel.Stickers.CreateYourOwn" = "You can create your own custom sticker set using the @stickers bot.";
 
 "MediaPicker.TimerTooltip" = "You can now set a self-destruct timer";
 
@@ -2895,7 +2896,7 @@ Unused sets are archived when you add more.";
 "AutoNightTheme.AutomaticSection" = "BRIGHTNESS THRESHOLD";
 "AutoNightTheme.AutomaticHelp" = "Switch to night theme when brightness is %@%% or less. Auto-brightness should be enabled for this feature to work correctly.";
 
-"AutoNightTheme.PreferredTheme" = "PREFERRED THEME";
+"AutoNightTheme.PreferredTheme" = "PREFERRED NIGHT THEME";
 
 "AuthSessions.Sessions" = "Sessions";
 "AuthSessions.LoggedIn" = "Websites";
@@ -2985,7 +2986,7 @@ Unused sets are archived when you add more.";
 "PrivacyPolicy.AgeVerificationAgree" = "Agree";
 
 "PrivacyPolicy.DeclineTitle" = "Decline";
-"PrivacyPolicy.DeclineMessage" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirement, it won't be possible for us to provide you with this service.";
+"PrivacyPolicy.DeclineMessage" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 "PrivacyPolicy.DeclineDeclineAndDelete" = "Decline and Delete";
 
 "PrivacyPolicy.DeclineLastWarning" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
@@ -3446,6 +3447,8 @@ Unused sets are archived when you add more.";
 
 "AuthSessions.IncompleteAttempts" = "INCOMPLETE LOGIN ATTEMPTS";
 "AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";
+
+"AuthSessions.Terminate" = "Terminate";
 
 
 /* new from translations.telegram.org */

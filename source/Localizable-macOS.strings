@@ -106,8 +106,8 @@
 "Chat.DropQuickDesc" = "in a quick way";
 "Chat.DropAsFilesDesc" = "without compression";
 
-"Chat.DropFolder.Title" = "Drop the folder here to send";
-"Chat.DropFolder.Desc" = "as archive";
+"Chat.DropFolder.Title" = "Drop the folder here to send it";
+"Chat.DropFolder.Desc" = "as an archive";
 
 "Message.ActionsPanel.Delete" = "Delete";
 "Message.ActionsPanel.Forward" = "Forward";
@@ -248,7 +248,7 @@
 "AccountSettings.Proxy.Connected" = "Connected";
 "AccountSettings.Proxy.Disabled" = "Disabled";
 "AccountSettings.Stickers" = "Stickers";
-"AccountSettings.Notifications" = "Notifications";
+"AccountSettings.Notifications" = "Notifications and Sounds";
 "AccountSettings.Username" = "Username";
 "AccountSettings.Language" = "Language";
 "AccountSettings.PrivacyAndSecurity" = "Privacy and Security";
@@ -358,7 +358,7 @@
 "AccountSettings.Logout" = "Logout";
 "NotificationSettings.ToggleNotifications" = "Notifications";
 "NotificationSettings.MessagesPreview" = "Message Preview";
-"NotificationSettings.IncludeMutedChats" = "Include muted chats in badge";
+"NotificationSettings.IncludeMutedChats" = "Include Muted Chats";
 "NotificationSettings.CountUnreadMessages" = "Count Unread Messages";
 
 "NotificationSettings.IncludePublicGroups" = "Include Public Groups";
@@ -1126,7 +1126,7 @@
 "Channel.Persmission.Denied.SendInline.Forever" = "The admins of this group have restricted you from posting inline content here.";
 
 "Channel.Admin.Dismiss" = "Dismiss Admin";
-"Channel.Admin.AdminAccess" = "This Admin will be able to add new admins with the same (or more limited) permissions than he/she has.";
+"Channel.Admin.AdminAccess" = "This admin will be able to add new admins with the same (or more limited) permissions.";
 "Channel.Admin.AdminRestricted" = "This admin will not be able to add new admins.";
 
 "Channel.Admin.WhatCanAdminDo" = "WHAT CAN THIS ADMIN DO?";
@@ -1595,7 +1595,7 @@
 "AppearanceSettings.ChatView.Classic" = "Minimalist";
 "AppearanceSettings.ChatView.Bubbles" = "Bubbles";
 "AppearanceSettings.FollowSystemAppearance" = "Follow System Appearance";
-"AppearanceSettings.FollowSystemAppearance.DefaultDark" = "Select default dark palette which one will be used in dark system mode.";
+"AppearanceSettings.FollowSystemAppearance.DefaultDark" = "Select the default dark theme which will be used for the system dark mode.";
 
 
 "AppearanceSettings.ChatPreview.UserName1" = "Lucio";
@@ -1792,7 +1792,7 @@
 "SecureId.Identity.CardId.InputPlaceholder" = "Card ID";
 "SecureId.Identity.CardId.Placeholder" = "Card ID";
 
-"SecureId.Identity.Passport.InputPlaceholder" = "Document №";
+"SecureId.Identity.Passport.InputPlaceholder" = "Document Number";
 "SecureId.Identity.Passport.Placeholder" = "Document №";
 
 "SecureId.Identity.License.InputPlaceholder" = "License ID";
@@ -2304,10 +2304,10 @@
 "_NS:81.title" = "View";
 
 
-"Message.Status.Archiving" = "%d% archiving";
+"Message.Status.Archiving" = "%d% archived";
 "Message.Status.Archived" = "archived folder";
 "Message.Status.ArchivePreparing" = "preparing archive";
-"Message.Status.Archive.Failed" = "archivation failed";
+"Message.Status.Archive.Failed" = "failed to create archive";
 "Message.Status.Archive.FailedSizeLimit" = "file size limit exceeded";
 
 

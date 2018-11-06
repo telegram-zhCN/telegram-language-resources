@@ -1958,7 +1958,10 @@
 
   <string name="NoEmailApp">找不到电子邮件应用</string>
 
-  <string name="suggested_language_code" />
+  <string name="ThemeCreate">创建新主题</string>
+  <string name="ThemeRemoveConfirm">删除</string>
+
+  
 
   <!-- new from translations.telegram.org -->
 
