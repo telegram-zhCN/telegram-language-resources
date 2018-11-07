@@ -316,7 +316,7 @@
   <string name="ChannelMessageMusic">%1$s 发送了一首音乐</string>
   <string name="ChannelMessageSticker">%1$s 发送了一张贴纸</string>
   <string name="ChannelMessageStickerEmoji">%1$s 发送了一张 %2$s 贴纸</string>
-  <string name="WhoCanAddMembers">谁可以向群组邀请新成员？</string>
+  <string name="WhoCanAddMembers">谁可以添加成员？</string>
   <string name="WhoCanAddMembersAllMembers">所有成员</string>
   <string name="WhoCanAddMembersAdmins">仅管理员</string>
   <string name="ChannelNotifyMembersInfoOn">消息发布后用户会收到通知</string>
@@ -338,7 +338,7 @@
   <string name="EditAdminAddUsersViaLink">使用链接邀请用户</string>
   <string name="EditAdminPinMessages">置顶消息</string>
   <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
-  <string name="EditAdminCantEdit">您不能编辑此管理员的权限。</string>
+  <string name="EditAdminCantEdit">您不能变更该管理员的权限。</string>
   <string name="UserRestrictionsBy">被 %1$s 限制</string>
   <string name="UserRestrictions">用户限制</string>
   <string name="UserRestrictionsRead">查看消息</string>
@@ -897,7 +897,6 @@
   <string name="AutoNightScheduled">计划时段</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightSchedule">时间段</string>
-  <string name="AutoNightLocation">使用当地日落/日出时间\n</string>
   <string name="AutoNightUpdateLocation">更新位置</string>
   <string name="AutoNightUpdateLocationInfo">计算日落 &amp; 日出时间需要检测一次您的粗略位置。请注意，此位置仅会本地存储在您的设备上。\n\n日落：%1$s\n日出：%2$s</string>
   <string name="AutoNightFrom">从</string>
@@ -1508,7 +1507,6 @@
   <string name="AbortPassword">关闭两步验证</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
-  <string name="PasswordEmailInvalid">无效的邮箱</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
   <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="RestorePasswordResetAccount">重置帐户</string>
@@ -1716,7 +1714,6 @@
   <!--Alert messages-->
   <string name="UpdateTelegram">更新 Telegram</string>
   <string name="UpdateAppAlert">很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请更新 Telegram。</string>
-  <string name="InvalidPhoneNumber">无效的手机号码</string>
   <string name="PleaseLoginPassport">请登陆到 Telegram 来使用 Telegram Passport</string>
   <string name="BannedPhoneNumber">此手机号码已被封禁</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
@@ -1780,7 +1777,6 @@
   <string name="AddBannedErrorAdmin">抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也不被允许撤销其管理员权限。</string>
   <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的权限。</string>
   <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的权限。</string>
-  <string name="TosDecline">我们感到非常抱歉，但这意味着您不能注册 Telegram。\n\n与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们将无法提供此服务。</string>
   <string name="TosAgeTitle">年龄验证</string>
   <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
   <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
