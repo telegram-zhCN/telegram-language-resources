@@ -34,7 +34,7 @@
 "CHAT_CREATED" = "%1$@ invited you to the group %2$@";
 "CHAT_TITLE_EDITED" = "%1$@ edited the group's %2$@ name";
 "CHAT_PHOTO_EDITED" = "%1$@ edited the group's %2$@ photo";
-"CHAT_ADD_MEMBER" = "%1$@ invited %3$@ to the group %2$@";
+"CHAT_ADD_MEMBER" = "%1$@ added %3$@ to the group %2$@";
 "CHAT_ADD_YOU" = "%1$@ invited you to the group %2$@";
 "CHAT_DELETE_YOU" = "%1$@ removed you from the group %2$@";
 "CHAT_DELETE_MEMBER" = "%1$@ removed %3$@ from the group %2$@";
@@ -248,7 +248,7 @@
 "DialogList.Title" = "Chats";
 "DialogList.SearchLabel" = "Search for messages or users";
 "DialogList.NoMessagesTitle" = "You have no conversations yet";
-"DialogList.NoMessagesText" = "Start messaging by pressing the pencil button in the top right corner or go to the Contacts section.";
+"DialogList.NoMessagesText" = "Start messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
 "DialogList.SingleTypingSuffix" = "%@ is typing";
 "DialogList.SingleRecordingAudioSuffix" = "%@ is recording";
 "DialogList.SingleUploadingPhotoSuffix" = "%@ is sending photo";
@@ -1110,13 +1110,13 @@
 
 "TwoStepAuth.ChangePassword" = "Change Password";
 "TwoStepAuth.RemovePassword" = "Turn Password Off";
-"TwoStepAuth.SetupEmail" = "Set Recovery E-Mail";
-"TwoStepAuth.ChangeEmail" = "Change Recovery E-Mail";
-"TwoStepAuth.PendingEmailHelp" = "Your recovery e-mail %@ is not yet active and pending confirmation.";
+"TwoStepAuth.SetupEmail" = "Set Recovery EMail";
+"TwoStepAuth.ChangeEmail" = "Change Recovery Email";
+"TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "You have enabled Two-Step verification.\nYou'll need the password you set up here to log in to your Telegram account.";
 
 "TwoStepAuth.ConfirmationTitle" = "Two-Step Verification";
-"TwoStepAuth.ConfirmationText" = "Please check your e-mail and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.ConfirmationAbort" = "Abort Two-Step Verification Setup";
 
 "TwoStepAuth.SetupPasswordEnterPasswordNew" = "Enter a password:";
@@ -1131,29 +1131,29 @@
 "TwoStepAuth.EnterPasswordInvalid" = "Invalid password. Please try again.";
 "TwoStepAuth.EnterPasswordForgot" = "Forgot password?";
 
-"TwoStepAuth.EmailTitle" = "Recovery E-Mail";
+"TwoStepAuth.EmailTitle" = "Recovery Email";
 "TwoStepAuth.EmailSkip" = "Skip";
 "TwoStepAuth.EmailSkipAlert" = "No, seriously.\n\nIf you forget your password, you will lose access to your Telegram account. There will be no way to restore it.";
-"TwoStepAuth.Email" = "E-Mail";
-"TwoStepAuth.EmailPlaceholder" = "Your E-Mail";
-"TwoStepAuth.EmailHelp" = "Please add your valid e-mail. It is the only way to recover a forgotten password.";
-"TwoStepAuth.EmailInvalid" = "Invalid e-mail address. Please try again.";
-"TwoStepAuth.EmailSent" = "We have sent you an e-mail to confirm your address.";
+"TwoStepAuth.Email" = "Email";
+"TwoStepAuth.EmailPlaceholder" = "Your email";
+"TwoStepAuth.EmailHelp" = "Please add your valid email. It is the only way to recover a forgotten password.";
+"TwoStepAuth.EmailInvalid" = "Invalid email address. Please try again.";
+"TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
 "TwoStepAuth.PasswordSet" = "Your password for Two-Step Verification is now active.";
 "TwoStepAuth.PasswordRemoveConfirmation" = "Are you sure you want to disable your password?";
 
 
-"TwoStepAuth.RecoveryUnavailable" = "Since you didn't provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
+"TwoStepAuth.RecoveryUnavailable" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.RecoveryFailed" = "Your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.ResetAccountHelp" = "You will lose all your chats and messages, along with any media and files you've shared, if you proceed with resetting your account.";
 "TwoStepAuth.ResetAccountConfirmation" = "You will lose all your chats and messages, along with any media and files you've shared, if you proceed with resetting your account.";
 
-"TwoStepAuth.RecoveryTitle" = "E-Mail Code";
+"TwoStepAuth.RecoveryTitle" = "Email Code";
 "TwoStepAuth.RecoveryCode" = "Code";
-"TwoStepAuth.RecoveryCodeHelp" = "Please check your e-mail and enter the 6-digit code we've sent there to deactivate your cloud password.";
+"TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
 "TwoStepAuth.RecoveryCodeInvalid" = "Invalid code. Please try again.";
 "TwoStepAuth.RecoveryCodeExpired" = "We have sent you a new 6-digit code.";
-"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your e-mail %@?";
+"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 
 "TwoStepAuth.FloodError" = "Limit exceeded. Please try again later.";
 
@@ -2114,7 +2114,7 @@ Unused sets are archived when you add more.";
 "Checkout.ShippingMethod" = "Shipping Method";
 "Checkout.ShippingAddress" = "Shipping Information";
 "Checkout.Name" = "Name";
-"Checkout.Email" = "E-Mail";
+"Checkout.Email" = "Email";
 "Checkout.Phone" = "Phone";
 "Checkout.PayPrice" = "Pay %@";
 "Checkout.PayNone" = "Pay";
@@ -2176,7 +2176,7 @@ Unused sets are archived when you add more.";
 "CheckoutInfo.ErrorStateInvalid" = "Please enter a valid state.";
 "CheckoutInfo.ErrorCityInvalid" = "Please enter a valid city.";
 "CheckoutInfo.ErrorNameInvalid" = "Please enter a valid name.";
-"CheckoutInfo.ErrorEmailInvalid" = "Please enter a valid e-mail address.";
+"CheckoutInfo.ErrorEmailInvalid" = "Please enter a valid email address.";
 "CheckoutInfo.ErrorPhoneInvalid" = "Please enter a valid phone number.";
 
 "Checkout.WebConfirmation.Title" = "Complete Payment";
@@ -2511,7 +2511,7 @@ Unused sets are archived when you add more.";
 
 "Camera.Title" = "Take Photo or Video";
 
-"Channel.Members.AddAdminErrorNotAMember" = "Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to invite them.";
+"Channel.Members.AddAdminErrorNotAMember" = "Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to add them.";
 
 "Channel.Members.AddAdminErrorBlacklisted" = "Sorry, you can't add this user as an admin because they are in the blacklist and you can't unban them.";
 
@@ -2628,9 +2628,9 @@ Unused sets are archived when you add more.";
 "FastTwoStepSetup.PasswordPlaceholder" = "Enter a password";
 "FastTwoStepSetup.PasswordConfirmationPlaceholder" = "Re-enter your password";
 "FastTwoStepSetup.PasswordHelp" = "Please create a password to protect your payment info. You'll be asked to enter it when you log in.";
-"FastTwoStepSetup.EmailSection" = "RECOVERY E-MAIL";
-"FastTwoStepSetup.EmailPlaceholder" = "Your E-Mail";
-"FastTwoStepSetup.EmailHelp" = "Please add a valid e-mail address. It is the only way to recover a forgotten password.";
+"FastTwoStepSetup.EmailSection" = "RECOVERY EMAIL";
+"FastTwoStepSetup.EmailPlaceholder" = "Your email";
+"FastTwoStepSetup.EmailHelp" = "Please add a valid email address. It is the only way to recover a forgotten password.";
 
 "Conversation.ViewMessage" = "VIEW MESSAGE";
 

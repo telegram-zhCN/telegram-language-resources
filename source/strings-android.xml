@@ -66,7 +66,7 @@
     <string name="PaymentShippingReceiver">Receiver</string>
     <string name="PaymentShippingName">Full Name</string>
     <string name="PaymentShippingPhoneNumber">Phone Number</string>
-    <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
+    <string name="PaymentShippingEmailPlaceholder">Email</string>
     <string name="PaymentShippingSave">Save Shipping Information</string>
     <string name="PaymentShippingSaveInfo">You can save your shipping info for future use.</string>
     <string name="PaymentCardInfo">Payment info</string>
@@ -99,17 +99,17 @@
     <string name="PaymentConnectionFailed">Unable to reach payment server. Please check your internet connection and try again.</string>
     <string name="PaymentWarning">Warning</string>
     <string name="PaymentWarningText">Neither Telegram, nor %1$s will have access to your credit card information. Credit card details will be handled only by the payment system, %2$s.\n\nPayments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$s or your bank.</string>
-    <string name="PaymentPassword">Password &amp; E-Mail</string>
+    <string name="PaymentPassword">Password &amp; Email</string>
     <string name="PaymentPasswordTitle">Password</string>
     <string name="PaymentPasswordEnter">Enter a password</string>
     <string name="PaymentPasswordReEnter">Re-enter your password</string>
     <string name="PaymentPasswordInfo">Please create a password to protect your payment info. You\'ll be asked to enter it when you log in.</string>
-    <string name="PaymentPasswordEmailTitle">Recovery E-Mail</string>
-    <string name="PaymentPasswordEmail">Your E-Mail</string>
-    <string name="PaymentPasswordEmailInfo">Please enter a valid e-mail address. It is the only way to recover a forgotten password.</string>
+    <string name="PaymentPasswordEmailTitle">Recovery email</string>
+    <string name="PaymentPasswordEmail">Your email address</string>
+    <string name="PaymentPasswordEmailInfo">Please enter a valid email address. It is the only way to recover a forgotten password.</string>
     <string name="PaymentPhoneToProvider">Phone will be passed to %1$s as billing info.</string>
-    <string name="PaymentEmailToProvider">E-Mail will be passed to %1$s as billing info.</string>
-    <string name="PaymentPhoneEmailToProvider">Phone and E-Mail will be passed to %1$s as billing info.</string>
+    <string name="PaymentEmailToProvider">Email address will be passed to %1$s as billing info.</string>
+    <string name="PaymentPhoneEmailToProvider">Phone and email address will be passed to %1$s as billing info.</string>
     <!--chats view-->
     <string name="NewConversationShortcut">New conversation</string>
     <string name="Settings">Settings</string>
@@ -121,7 +121,7 @@
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
     <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
-    <string name="NoChatsContactsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
+    <string name="NoChatsContactsHelp">Start messaging by tapping the pencil button in the bottom right corner\nor tap the menu button for more options.</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
     <string name="Connected">Connected</string>
@@ -158,7 +158,7 @@
     <string name="MuteDisable">Disable</string>
     <string name="Hashtags">HASHTAGS</string>
     <string name="Recent">RECENT</string>
-    <string name="ChatHints">CHATS</string>
+    <string name="ChatHints">PEOPLE</string>
     <string name="ChatHintsDelete">Delete %1$s from suggestions?</string>
     <string name="LinkPreview">Link preview</string>
     <string name="Draft">Draft</string>
@@ -194,7 +194,7 @@
     <string name="MegaLeaveAlert">Are you sure you want to leave the group?</string>
     <string name="GroupUserCantAdd">Sorry, you can\'t add this user to groups.</string>
     <string name="GroupUserAddLimit">Sorry, this group is full.</string>
-    <string name="GroupUserLeftError">Sorry, this user decided to leave this group, so you cannot invite them back here.</string>
+    <string name="GroupUserLeftError">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
     <string name="GroupUserCantAdmin">Sorry, too many administrators in this group.</string>
     <string name="GroupUserCantBot">Sorry, too many bots in this group.</string>
     <string name="ActionPinnedText">un1 pinned \"%1$s\"</string>
@@ -213,8 +213,8 @@
     <string name="ActionPinnedMusic">un1 pinned a track</string>
     <string name="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
     <string name="ActionMigrateFromGroupNotify">%1$s was upgraded to a supergroup</string>
-    <string name="NoBlockedGroup">Banned users are removed from the group and can only come back if invited by an admin. Invite links don\'t work for them.</string>
-    <string name="NoBlockedChannel">Banned users are removed from the channel and can only come back if invited by an admin. Invite links don\'t work for them.</string>
+    <string name="NoBlockedGroup">Banned users are removed from the group and can only come back if added by an admin. Invite links don\'t work for them.</string>
+    <string name="NoBlockedChannel">Banned users are removed from the channel and can only come back if added by an admin. Invite links don\'t work for them.</string>
     <string name="NewChannel">New Channel</string>
     <string name="EnterChannelName">Channel name</string>
     <string name="AddMutual">Add contacts to your channel</string>
@@ -274,6 +274,7 @@
     <string name="ActionChannelChangedTitle">Channel name changed to un2</string>
     <string name="ChangePublicLimitReached">Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</string>
     <string name="ChannelCreator">Creator</string>
+    <string name="ChannelAdmin">Admin</string>
     <string name="ChannelMute">MUTE</string>
     <string name="ChannelUnmute">UNMUTE</string>
     <string name="ChannelAddAdmin">Add administrator</string>
@@ -290,7 +291,7 @@
     <string name="ChannelCantOpenBanned">Unfortunately, you were banned from participating in public groups.</string>
     <string name="ChannelCantOpenNa">Sorry, this chat is no longer accessible.</string>
     <string name="ChannelAddTo">Add %1$s to the channel?</string>
-    <string name="ChannelUserLeftError">Sorry, this user decided to leave this channel, so you cannot invite them back here.</string>
+    <string name="ChannelUserLeftError">Sorry, this user decided to leave this channel, so you cannot add them back here.</string>
     <string name="ChannelUserCantAdd">Sorry, you can\'t add this user to channels.</string>
     <string name="ChannelUserCantAdmin">Sorry, too many admins in this channel.</string>
     <string name="ChannelUserCantBot">Sorry, too many bots in this channel.</string>
@@ -359,6 +360,16 @@
     <string name="ChatHistoryVisibleInfo">New members will see messages that were sent before they joined.</string>
     <string name="ChatHistoryHidden">Hidden</string>
     <string name="ChatHistoryHiddenInfo">New members won\'t see earlier messages.</string>
+    <string name="ProfileJoinChannel">Join Channel</string>
+    <string name="ProfileJoinGroup">Join Group</string>
+    <string name="GroupType">Group Type</string>
+    <string name="ChannelType">Channel Type</string>
+    <string name="TypePrivate">Private</string>
+    <string name="TypePublic">Public</string>
+    <string name="ChoosePhoto">Choose photo</string>
+    <string name="ChooseTakePhoto">Take photo</string>
+    <string name="ChooseFromGallery">Upload from gallery</string>
+    <string name="ChooseFromSearch">Search web</string>
     <!--event log-->
     <string name="EventLog">Recent Actions</string>
     <string name="EventLogAllEvents">All actions</string>
@@ -555,6 +566,7 @@
     <string name="ReportSpamAlertChannel">Are you sure you want to report spam from this channel?</string>
     <string name="NobodyLikesSpam1">Sorry, you can only send messages to mutual contacts at the moment.</string>
     <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
+    
     <string name="MoreInfo">More info</string>
     <string name="ShareSendTo">Send to...</string>
     <string name="ShareComment">Write a comment...</string>
@@ -564,6 +576,7 @@
     <string name="UnpinMessage">Unpin</string>
     <string name="PinMessageAlert">Do you want to pin this message in this group?</string>
     <string name="PinMessageAlertChannel">Do you want to pin this message in this channel?</string>
+    <string name="PinMessageAlertChat">Do you want to pin this message at the top of the chat?</string>
     <string name="UnpinMessageAlert">Do you want to unpin this message?</string>
     <string name="DeleteBanUser">Ban user</string>
     <string name="DeleteReportSpam">Report spam</string>
@@ -815,6 +828,7 @@
     <string name="CreateNewContact">Create New Contact</string>
     <string name="AddToExistingContact">Add to Existing Contact</string>
     <string name="UserBio">Bio</string>
+    <string name="UserBioDetail">Add a few words about yourself</string>
     <string name="UserBioEmpty">None</string>
     <string name="UserBioInfo">You can add a few lines about yourself. Anyone who opens your profile will see this text.</string>
     <string name="StartEncryptedChat">Start Secret Chat</string>
@@ -832,6 +846,10 @@
     <string name="NumberUnknown">Unknown</string>
     <string name="Info">Info</string>
     <string name="Phone">Phone</string>
+    <string name="SharedContent">Shared content</string>
+    <string name="SharedPhotosAndVideos">Photos and videos</string>
+    <string name="SharedLinks">Links</string>
+    <string name="SharedAudioFiles">Audio files</string>
     <!--usernames-->
     <string name="Username">Username</string>
     <string name="UsernamePlaceholder">Your Username</string>
@@ -906,6 +924,7 @@
     <string name="AutoNightBrightness">Brightness threshold</string>
     <string name="AutoNightBrightnessInfo">Switch to your preferred night theme when ambient lighting falls below %1$d%%.</string>
     <string name="ThemeDark">Dark</string>
+    <string name="ThemeDarkBlue">Dark Blue</string>
     <string name="ThemeBlue">Blue</string>
     <string name="DeleteThemeAlert">Are you sure you want to delete this theme?</string>
     <string name="IncorrectTheme">Incorrect theme file</string>
@@ -925,6 +944,9 @@
     <string name="TextSize">Messages Text Size</string>
     <string name="AskAQuestion">Ask a Question</string>
     <string name="EnableAnimations">Enable Animations</string>
+    <string name="ChatSettings">Chat Settings</string>
+    <string name="SettingsHelp">Help</string>
+    <string name="Account">Account</string>
     <string name="Unblock">Unblock</string>
     <string name="UnblockText">Tap and hold on user to unblock.</string>
     <string name="NoBlocked">No blocked users yet</string>
@@ -966,6 +988,7 @@
     <string name="NotificationsUnmuted">Unmuted</string>
     <string name="NotificationsOn">On</string>
     <string name="NotificationsOff">Off</string>
+    <string name="NotificationsOffUntil">Off until %1$s</string>
     <string name="NotificationsDefaultOn">Default (On)</string>
     <string name="NotificationsDefaultOff">Default (Off)</string>
     <string name="NotificationsTurnOn">Turn On</string>
@@ -984,6 +1007,14 @@
     <string name="PinnedMessages">Pinned Messages</string>
     <string name="Language">Language</string>
     <string name="LanguageCustom">Custom</string>
+    <string name="LanguageTitle">Change language?</string>
+    <string name="LanguageAlert">You are about to apply a custom language pack that is %d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the *translation panel*.\n\nYou can change your language back at any time in Settings.</string>
+    <string name="LanguagePanelUrl">https://translations.telegram.org/%1$s</string>
+    <string name="LanguageUnknownTitle">Insufficient data</string>
+    <string name="LanguageUnofficial">Unofficial languages</string>
+    <string name="LanguageUnsupportedError">There is no such language.</string>
+    <string name="LanguageUnknownAlert">Unfortunately, this language pack (**%1$s**) doesn’t contain data for Telegram Android. You can contribute to this language pack using the *translation platform*.</string>
+    <string name="LanguageUnknownCustomAlert">Unfortunately, this custom language pack (**%1$s**) doesn’t contain data for Telegram Android. You can contribute to this language pack using the *translation platform*.</string>
     <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">troubleshooting</a>]]>.</string>
     <string name="AskButton">Ask a volunteer</string>
     <string name="TelegramFAQ">Telegram FAQ</string>
@@ -1012,6 +1043,9 @@
     <string name="OnlyWhenScreenOff">Only when screen \"off\"</string>
     <string name="AlwaysShowPopup">Always show popup</string>
     <string name="BadgeNumber">Badge Counter</string>
+    <string name="BadgeNumberShow">Enabled</string>
+    <string name="BadgeNumberMutedChats">Include Muted Chats</string>
+    <string name="BadgeNumberUnread">Count Unread Messages</string>
     <string name="Short">Short</string>
     <string name="Long">Long</string>
     <string name="AutomaticMediaDownload">Automatic media download</string>
@@ -1083,7 +1117,7 @@
     <string name="DebugMenuDisableCamera">Disable in-app camera</string>
     <string name="DebugMenuResetContacts">Reset Imported Contacts</string>
     <string name="DebugMenuClearMediaCache">Clear sent media cache</string>
-    
+    <string name="DebugMenuCallSettings">Call settings</string>
     <string name="ChangeLanguageLater">You can change your language in the Settings later.</string>
     <string name="ChooseYourLanguage">Choose your language</string>
     <string name="ChooseYourLanguageOther">Other</string>
@@ -1124,6 +1158,19 @@
     <string name="EnableStreaming">Stream Videos and Audio Files</string>
     <string name="EnableAllStreamingInfo">Some videos can\'t be streamed – e.g., all videos that were sent from Android using Telegram 4.7 and earlier versions.\n</string>
     <string name="TapToChangePhone">Tap to change phone number</string>
+    <string name="Appearance">Appearance</string>
+    <string name="StickersAndMasks">Stickers and Masks</string>
+    <string name="ThemeInfo">Choose custom color schemes</string>
+    <string name="NotificationsForChats">Notifications for chats</string>
+    <string name="NotificationsPrivateChats">Private Chats</string>
+    <string name="NotificationsGroups">Groups</string>
+    <string name="NotificationsChannels">Channels</string>
+    <string name="NotificationsExceptionsAlert">Please note that **%1$s** are listed as exceptions and won\'t be affected by this change.</string>
+    <string name="NotificationsExceptionsSingleAlert">Please note that **%1$s** is listed as exceptions and won\'t be affected by this change.</string>
+    <string name="ViewExceptions">View Exceptions</string>
+    <string name="NotificationsForGroups">Notifications for groups</string>
+    <string name="NotificationsForPrivateChats">Notifications for private chats</string>
+    <string name="NotificationsForChannels">Notifications for channels</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClear">Clear cached text messages?</string>
@@ -1352,6 +1399,8 @@
     <string name="TerminateAllWebSessions">Disconnect All Websites</string>
     <string name="AreYouSureWebSessions">Are you sure you want to disconnect all websites where you used Telegram to log in?</string>
     <string name="ClearOtherWebSessionsHelp">You can log in on websites that support signing in with Telegram.</string>
+    <string name="LoginAttempts">Incomplete login attempts</string>
+    <string name="LoginAttemptsInfo">The devices above have no access to your messages. The code was entered correctly, but no correct password was given.</string>
     <!--passcode view-->
     <string name="Passcode">Passcode Lock</string>
     <string name="ChangePasscode">Change Passcode</string>
@@ -1499,36 +1548,39 @@
     <string name="PleaseEnterFirstPassword">Enter a password</string>
     <string name="PleaseEnterPassword">Please enter your new password</string>
     <string name="PleaseReEnterPassword">Please re-enter your password</string>
-    <string name="RecoveryEmail">Recovery E-Mail</string>
-    <string name="YourEmail">Your E-Mail</string>
-    <string name="YourEmailInfo">Please add your valid e-mail. It is the only way to recover a forgotten password.</string>
+    <string name="RecoveryEmail">Recovery email</string>
+    <string name="YourEmail">Your email</string>
+    <string name="YourEmailCode">Your Email Code</string>
+    <string name="YourEmailCodeInfo">Please confirm your email address by entering the code you just received on %1$s.</string>
+    <string name="YourEmailInfo">Please add your valid email. It is the only way to recover a forgotten password.</string>
     <string name="YourEmailSkip">Skip</string>
     <string name="YourEmailSkipWarning">Warning</string>
     <string name="YourEmailSkipWarningText">No, seriously.\n\nIf you forget your password, you will lose access to your Telegram account. There will be no way to restore it.</string>
     <string name="YourEmailAlmostThere">Almost there!</string>
-    <string name="YourEmailAlmostThereText">Please check your e-mail (don\'t forget the spam folder) to complete Two-Step Verification setup.</string>
+    <string name="YourEmailAlmostThereText">Please check your email (don\'t forget the spam folder) to complete Two-Step Verification setup.</string>
     <string name="YourPasswordSuccess">Success!</string>
     <string name="YourPasswordSuccessText">Your password for Two-Step Verification is now active.</string>
+    <string name="YourEmailSuccessText">Your recovery email for Two-Step Verification is now active.</string>
     <string name="ChangePassword">Change Password</string>
     <string name="TurnPasswordOff">Turn Password Off</string>
-    <string name="SetRecoveryEmail">Set Recovery E-Mail</string>
-    <string name="ChangeRecoveryEmail">Change Recovery E-Mail</string>
+    <string name="SetRecoveryEmail">Set Recovery Email</string>
+    <string name="ChangeRecoveryEmail">Change Recovery Email</string>
     <string name="TurnPasswordOffQuestion">Are you sure you want to disable your password?</string>
     <string name="TurnPasswordOffPassport">Warning! All data saved in your Telegram Passport will be lost!</string>
     <string name="PasswordHint">Password Hint</string>
     <string name="PasswordHintText">Please create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
-    <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your e-mail (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
+    <string name="EmailPasswordConfirmText2">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Enter the email address to which the code was sent and the code.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
-    <string name="PasswordEmailInvalid">Invalid e-mail address. Please check that you\'ve entered it correctly and try again.</string>
+    <string name="PasswordEmailInvalid">Invalid email address. Please check that you\'ve entered it correctly and try again.</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
-    <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
+    <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
     <string name="RestorePasswordResetAccount">RESET ACCOUNT</string>
-    <string name="RestoreEmailSent">We have sent a recovery code to the e-mail you provided:\n\n%1$s</string>
-    <string name="RestoreEmailSentInfo">Please check your e-mail and enter the 6-digit code we sent you.</string>
-    <string name="RestoreEmailTrouble">Having trouble accessing your e-mail %1$s?</string>
-    <string name="RestoreEmailTroubleText">If you can\'t restore access to your e-mail, your remaining options are either to remember your password or to reset your account.</string>
+    <string name="RestoreEmailSent">We have sent a recovery code to the email address you provided:\n\n%1$s</string>
+    <string name="RestoreEmailSentInfo">Please check your email and enter the 6-digit code we sent you.</string>
+    <string name="RestoreEmailTrouble">Having trouble accessing your email %1$s?</string>
+    <string name="RestoreEmailTroubleText">If you can\'t restore access to your email, your remaining options are either to remember your password or to reset your account.</string>
     <string name="ResetMyAccount">RESET MY ACCOUNT</string>
     <string name="ResetMyAccountText">You will lose all your chats and messages, along with any media and files you shared, if you proceed with resetting your account.</string>
     <string name="ResetMyAccountWarning">Warning</string>
@@ -1541,7 +1593,6 @@
     <string name="PasswordCode">Code</string>
     <string name="PasswordReset">Password deactivated</string>
     <string name="EnabledPasswordText">You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.</string>
-    <string name="PendingEmailText">Your recovery e-mail %1$s is not yet active and pending confirmation.</string>
     <!--data settings-->
     <string name="DataSettings">Data and Storage</string>
     <string name="DataUsage">Disk and network usage</string>
@@ -1567,6 +1618,7 @@
     <string name="PrivacySettings">Privacy and Security</string>
     <string name="PrivacyTitle">Privacy</string>
     <string name="PrivacyLastSeen">Last Seen</string>
+    <string name="PrivacyP2P">Peer-to-Peer in Calls</string>
     <string name="PrivacyBots">Bots and websites</string>
     <string name="PrivacyPaymentsClear">Clear Payment and Shipping Info</string>
     <string name="PrivacyPaymentsClearAlert">Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.</string>
@@ -1612,7 +1664,6 @@
     <string name="InviteToGroupError">Sorry, you can\'t add this user to groups because of user\'s privacy settings.</string>
     <string name="InviteToChannelError">Sorry, you can\'t add this user to channels because of user\'s privacy settings.</string>
     <string name="CreateGroupError">Sorry, you can\'t create a group with these users because of their privacy settings.</string>
-    <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
     <string name="PrivacyCallsP2PHelp">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</string>
     <string name="SyncContactsDelete">Delete Synced Contacts</string>
     <string name="SuggestContacts">Suggest Frequent Contacts</string>
@@ -1640,6 +1691,7 @@
     <string name="Save">Save</string>
     <string name="Cancel">Cancel</string>
     <string name="Close">Close</string>
+    <string name="Change">Change</string>
     <string name="Add">Add</string>
     <string name="Edit">Edit</string>
     <string name="Send">Send</string>
@@ -1729,7 +1781,7 @@
     <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
     <!--Alert messages-->
     <string name="UpdateTelegram">Update Telegram</string>
-    <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.</string>
+    <string name="UpdateAppAlert">Sorry, your Telegram app is out of date and can\'t handle this request. Please update Telegram.</string>
     <string name="InvalidPhoneNumber">Invalid phone number. Please check the number and try again.</string>
     <string name="PleaseLoginPassport">Please log in to your Telegram account to use Telegram Passport.</string>
     <string name="BannedPhoneNumber">This phone number is banned.</string>
@@ -1789,7 +1841,7 @@
     <string name="UserRestricted">Sorry, you are not allowed to do this.</string>
     <string name="YouBlockedUser">Sorry, you can\'t add this user or bot to groups because you\'ve blocked them. Please unblock to proceed.</string>
     <string name="JoinGroup">JOIN GROUP</string>
-    <string name="AddAdminErrorNotAMember">Sorry, you can\'t add this user as an admin because they are not a member of this group and you are not allowed to invite them.</string>
+    <string name="AddAdminErrorNotAMember">Sorry, you can\'t add this user as an admin because they are not a member of this group and you are not allowed to add them.</string>
     <string name="AddAdminErrorBlacklisted">Sorry, you can\'t add this user as an admin because they are in the blacklist and you can\'t unban them.</string>
     <string name="AddBannedErrorAdmin">Sorry, you can\'t ban this user because they are an admin in this group and you are not allowed to demote them.</string>
     <string name="ErrorSendRestrictedStickers">Sorry, the admins of this group have restricted you from sending stickers.</string>
@@ -1810,6 +1862,7 @@
     <string name="PermissionNoLocationPosition">Telegram needs access to your location.</string>
     <string name="PermissionDrawAboveOtherApps">Telegram needs access to draw above other apps to play videos in Picture-in-Picture mode.</string>
     <string name="PermissionOpenSettings">SETTINGS</string>
+    <string name="PermissionXiaomiLockscreen">Please allow Telegram to be shown on the lock screen so that calls can work properly.</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">Fast</string>
@@ -1846,6 +1899,8 @@
     <string name="VoipSettingsRingtone">Ringtone</string>
     <string name="VoipRingtoneInfo">You can customize the ringtone used when this contact calls you on Telegram.</string>
     <string name="Calls">Calls</string>
+    <string name="CustomP2PInfo">Peer-to-Peer in calls will or will not be used with these users regardless of the settings above.</string>
+    <string name="P2PEnabledWith">With who peer-to-peer is enabled?</string>
     <string name="WhoCanCallMe">Who can call me?</string>
     <string name="WhoCanCallMeInfo">You can restrict who can call you.</string>
     <string name="CustomCallInfo">These users will or will not be able to call you regardless of the settings above.</string>
@@ -1929,6 +1984,18 @@
     <string name="Chats_few">%1$d chats</string>
     <string name="Chats_many">%1$d chats</string>
     <string name="Chats_other">%1$d chats</string>
+    <string name="Channels_zero">%1$d channels</string>
+    <string name="Channels_one">%1$d channel</string>
+    <string name="Channels_two">%1$d channels</string>
+    <string name="Channels_few">%1$d channels</string>
+    <string name="Channels_many">%1$d channels</string>
+    <string name="Channels_other">%1$d channels</string>
+    <string name="Groups_zero">%1$d groups</string>
+    <string name="Groups_one">%1$d group</string>
+    <string name="Groups_two">%1$d groups</string>
+    <string name="Groups_few">%1$d groups</string>
+    <string name="Groups_many">%1$d groups</string>
+    <string name="Groups_other">%1$d groups</string>
     <string name="Members_zero">%1$d members</string>
     <string name="Members_one">%1$d member</string>
     <string name="Members_two">%1$d members</string>
@@ -2043,6 +2110,12 @@
     <string name="Subscribers_few">%1$d subscribers</string>
     <string name="Subscribers_many">%1$d subscribers</string>
     <string name="Subscribers_other">%1$d subscribers</string>
+    <string name="Exception_zero">%1$d exceptions</string>
+    <string name="Exception_one">%1$d exception</string>
+    <string name="Exception_two">%1$d exceptions</string>
+    <string name="Exception_few">%1$d exceptions</string>
+    <string name="Exception_many">%1$d exceptions</string>
+    <string name="Exception_other">%1$d exceptions</string>
     <string name="Points_zero">%1$d</string>
     <string name="Points_one">%1$d</string>
     <string name="Points_two">%1$d</string>
@@ -2181,6 +2254,7 @@
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">h:mm a</string>
     <string name="formatDateAtTime">%1$s at %2$s</string>
+    <string name="formatDateScheduleDay">EEE MMM d</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -2188,6 +2262,7 @@
   <string name="ConnectingToProxyDisableAlert">Are you sure you want to disable proxy server %1$s? You can reenable it later in Settings &gt; Data and Storage.</string>
   <string name="ConnectingToProxyTapToDisable">Tap here to disable proxy...</string>
   <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
+  <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
   <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>
   <string name="EnableProxyAlert2">You can change your proxy server later in Settings &gt; Data and Storage.</string>
   <string name="NotificationsPriority">Priority</string>
@@ -2198,6 +2273,8 @@
   <string name="PassportSDK_LogInWithTelegram">Log in with Telegram</string>
   <string name="PassportSDK_OpenGooglePlay">Open Google Play</string>
   <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
+  <string name="PendingEmailText">Your recovery email %1$s is not yet active and pending confirmation.</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PrivacyPayments">Payments</string>
   <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
   <string name="ViewDetails">VIEW CONTACT</string>

@@ -386,7 +386,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_download_path_dir_radio" = "Custom folder, cleared only manually";
 "lng_download_path_choose" = "Choose download path";
 "lng_sure_clear_downloads" = "Do you want to remove all downloaded files from temp folder? It is done automatically on logout or program uninstall.";
-"lng_download_path_failed" = "File download could not be started.\n\nThis might be because the download location you've selected is invalid. Try changing the \"Download path\" in Settings.";
+"lng_download_path_failed" = "File download could not be started.\n\nThis might be because the download location you've selected is invalid. Try changing it in Settings > Advanced > Download Path.";
 "lng_download_path_settings" = "Settings";
 "lng_download_finish_failed" = "File download could not be finished.\n\nWould you like to try again?";
 "lng_download_path_clearing" = "Clearing...";
@@ -578,7 +578,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_always_title" = "Always allow";
 "lng_edit_privacy_groups_never_title" = "Never allow";
 
-"lng_edit_privacy_calls_title" = "Voice calls privacy";
+"lng_edit_privacy_calls_title" = "Voice calls";
 "lng_edit_privacy_calls_header" = "Who can call you";
 "lng_edit_privacy_calls_always_empty" = "Always allow";
 "lng_edit_privacy_calls_never_empty" = "Never allow";
@@ -776,7 +776,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_admin_status_not_admin" = "Not administrator";
 "lng_channel_banned_status_restricted_by" = "Restricted by {user}";
 
-"lng_group_blocked_list_about" = "Banned users are removed from the group and can only come back if invited by an admin.\nInvite links don't work for them.";
+"lng_group_blocked_list_about" = "Banned users are removed from the group and can only come back if added by an admin.\nInvite links don't work for them.";
 "lng_channel_blocked_list_about" = "Banned users are removed from the channel.\nInvite links don't work for them.";
 
 "lng_chat_all_members_admins" = "All Members Are Admins";

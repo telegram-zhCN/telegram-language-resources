@@ -190,7 +190,7 @@
 
 "Chat.Service.You" = "You";
 "Chat.Service.Group.Created" = "%@ created the group \"%@\"";
-"Chat.Service.Group.AddedMembers" = "%@ invited %@";
+"Chat.Service.Group.AddedMembers" = "%@ added %@";
 "Chat.Service.Group.AddedSelf" = "%@ joined the group";
 "Chat.Service.Group.RemovedMembers" = "%@ removed %@";
 "Chat.Service.Group.RemovedSelf" = "%@ left the group";
@@ -327,7 +327,7 @@
 "Login.passwordPlaceholder" = "password";
 
 "Login.EnterPasswordDescription" = "You have enabled Two-Step Verification, your account is now protected with an additional password.";
-"Login.RecoveryMailFailed" = "Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
+"Login.RecoveryMailFailed" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 
 "Login.ResetAccount" = "RESET MY ACCOUNT";
 "Login.ResetAccountDescription" = "If you proceed with resetting your account, all of your chats and messages along with any media and files you shared, will be lost.";
@@ -681,7 +681,7 @@
 "Telegram.ChannelBlacklistViewController" = "Blacklist";
 "Telegram.ChannelAdminsViewController" = "Admins";
 
-"ChannelBlacklist.EmptyDescrpition" = "Blacklisted users are removed from the group and can only come back if they are invited back by an admin. Invite links won't work for blacklisted users.";
+"ChannelBlacklist.EmptyDescrpition" = "Blacklisted users are removed from the group and can only come back if they are added back by an admin. Invite links won't work for blacklisted users.";
 
 "Admins.GroupAdmins" = "GROUP ADMINS";
 "Admins.ChannelAdmins" = "CHANNEL ADMINS";
@@ -1428,19 +1428,19 @@
 
 "TwoStepAuth.SetupPasswordTitle" = "Your Password";
 "TwoStepAuth.SetupHintTitle" = "Password Hint";
-"TwoStepAuth.SetupEmailTitle" = "Recovery E-Mail";
+"TwoStepAuth.SetupEmailTitle" = "Recovery Email";
 
 
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";
 
 "TwoStepAuth.ChangePassword" = "Change Password";
 "TwoStepAuth.RemovePassword" = "Turn Password Off";
-"TwoStepAuth.SetupEmail" = "Set Recovery E-Mail";
-"TwoStepAuth.ChangeEmail" = "Change Recovery E-Mail";
-"TwoStepAuth.PendingEmailHelp" = "Your recovery e-mail %@ is not yet active and pending confirmation.";
+"TwoStepAuth.SetupEmail" = "Set Recovery Email";
+"TwoStepAuth.ChangeEmail" = "Change Recovery Email";
+"TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "You have enabled Two-Step verification.\nYou'll need the password you set up here to log in to your Telegram account.";
 
-"TwoStepAuth.ConfirmationText" = "Please check your e-mail and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.ConfirmationAbort" = "Cancel Two-Step Verification Setup";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Enter your cloud password";
@@ -1456,31 +1456,31 @@
 "TwoStep.AuthEmailSkip" = "Skip";
 
 "TwoStepAuth.EmailSkipAlert" = "No, seriously.\n\nIf you forget your password, you will lose access to your Telegram account. There will be no way to restore it.";
-"TwoStepAuth.Email" = "E-Mail";
-"TwoStepAuth.EmailHelp" = "Please add your valid e-mail. It is the only way to recover a forgotten password.";
-"TwoStepAuth.EmailInvalid" = "Invalid e-mail address. Please try again.";
-"TwoStepAuth.EmailSent" = "We have sent you an e-mail to confirm your address.";
+"TwoStepAuth.Email" = "Email";
+"TwoStepAuth.EmailHelp" = "Please add your valid email. It is the only way to recover a forgotten password.";
+"TwoStepAuth.EmailInvalid" = "Invalid email address. Please try again.";
+"TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
 
-"TwoStepAuth.RecoveryUnavailable" = "Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
+"TwoStepAuth.RecoveryUnavailable" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.RecoveryFailed" = "Your remaining options are either to remember your password or to reset your account.";
 
-"TwoStepAuth.RecoveryTitle" = "E-Mail Code";
-"TwoStepAuth.RecoverySent" = "We have sent a recovery code to the e-mail you provided:\n\n%@";
+"TwoStepAuth.RecoveryTitle" = "Email Code";
+"TwoStepAuth.RecoverySent" = "We have sent a recovery code to the email you provided:\n\n%@";
 "TwoStepAuth.RecoveryCode" = "Code";
-"TwoStepAuth.RecoveryCodeHelp" = "Please check your e-mail and enter the 6-digit code we've sent there to deactivate your cloud password.";
+"TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
 "TwoStepAuth.RecoveryCodeInvalid" = "Invalid code. Please try again.";
 "TwoStepAuth.RecoveryCodeExpired" = "Code Expired";
-"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your e-mail %@?";
+"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 
 "TwoStepAuth.FloodError" = "Limit exceeded. Please try again later.";
 "TwoStepAuth.GenericError" = "An error occurred. Please try again later.";
 
 "TwoStepAuth.AnError" = "An error occured. Please try again later.";
-"TwoStepAuth.Error.HaventEmail" = "Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.";
+"TwoStepAuth.Error.HaventEmail" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.Error.LimitExceeded" = "You have entered an invalid password too many times. Please try again later.";
 "TwoStepAuth.Error.Generic" = "An error occured. Please try again later.";
 "TwoStepAuth.Confirm.DisablePassword" = "Are you sure you want to disable your password?";
-"TwoStepAuth.Error.InvalidEmail" = "Please enter valid e-mail address.";
+"TwoStepAuth.Error.InvalidEmail" = "Please enter a valid email address.";
 "TwoStepAuth.Error.PasswordsDontMatch" = "Passwords don't match.\nPlease try again.";
 
 
@@ -1716,7 +1716,7 @@
 
 "SecureId.Request.Header1" = "**%@** requests access to your personal data to sign you up for their services.";
 
-"SecureId.Request.Permission.Email" = "E-Mail";
+"SecureId.Request.Permission.Email" = "Email";
 "SecureId.Request.Permission.Phone" = "Phone Number";
 "SecureId.Request.Permission.PersonalDetails" = "Personal Details";
 "SecureId.Request.Permission.Passport" = "Passport";
@@ -1825,9 +1825,9 @@
 "SecureId.RemoveEmail" = "Delete Email Address?";
 "SecureId.RemovePhoneNumber" = "Delete Phone Number?";
 
-"SecureId.InstallEmail.Title" = "E-Mail";
+"SecureId.InstallEmail.Title" = "Email";
 "SecureId.InstallPhone.Title" = "Phone Number";
-"SecureId.CreatePassword.Title" = "Password & E-Mail";
+"SecureId.CreatePassword.Title" = "Password & Email";
 
 
 "SecureId.CreatePassword.Header" = "PASSWORD";
@@ -1838,10 +1838,10 @@
 "SecureId.CreatePassword.Hint.Header" = "HINT";
 "SecureId.CreatePassword.Hint.Placeholder" = "Hint";
 "SecureId.CreatePassword.Hint.InputPlaceholder" = "Hint for your password";
-"SecureId.CreatePassword.Email.Header" = "RECOVERY E-MAIL";
-"SecureId.CreatePassword.Email.Placeholder" = "E-Mail";
-"SecureId.CreatePassword.Email.InputPlaceholder" = "Your E-Mail";
-"SecureId.CreatePassword.Email.Description" = "Please add your valid e-mail. It is the only way to recover a forgotten password.";
+"SecureId.CreatePassword.Email.Header" = "RECOVERY EMAIL";
+"SecureId.CreatePassword.Email.Placeholder" = "Email";
+"SecureId.CreatePassword.Email.InputPlaceholder" = "Your email";
+"SecureId.CreatePassword.Email.Description" = "Please add your valid email. It is the only way to recover a forgotten password.";
 
 "SecureId.EmailActivate.Code.Placeholder" = "Code";
 "SecureId.EmailActivate.Code.InputPlaceholder" = "Enter code";
@@ -1863,9 +1863,9 @@
 
 
 "SecureId.Email.UseSame" = "Use %@";
-"SecureId.Email.UseSame.Desc" = "Note: You will receive a confirmation code to the e-mail address you provide.";
-"SecureId.Email.Email.Placeholder" = "E-Mail";
-"SecureId.Email.Email.InputPlaceholder" = "Enter your e-mail";
+"SecureId.Email.UseSame.Desc" = "Note: You will receive a confirmation code to the email address you provide.";
+"SecureId.Email.Email.Placeholder" = "Email";
+"SecureId.Email.Email.InputPlaceholder" = "Enter your email address";
 
 "SecureId.PhoneNumber.ConfirmCode.Placeholder" = "Code";
 "SecureId.PhoneNumber.ConfirmCode.InputPlaceholder" = "Enter the code";
