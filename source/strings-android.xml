@@ -566,7 +566,7 @@
     <string name="ReportSpamAlertChannel">Are you sure you want to report spam from this channel?</string>
     <string name="NobodyLikesSpam1">Sorry, you can only send messages to mutual contacts at the moment.</string>
     <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
-    
+    <string name="NobodyLikesSpam3">Sorry, you are currently restricted from posting to public groups.</string>
     <string name="MoreInfo">More info</string>
     <string name="ShareSendTo">Send to...</string>
     <string name="ShareComment">Write a comment...</string>
@@ -1008,13 +1008,13 @@
     <string name="Language">Language</string>
     <string name="LanguageCustom">Custom</string>
     <string name="LanguageTitle">Change language?</string>
-    <string name="LanguageAlert">You are about to apply a custom language pack that is %d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the *translation panel*.\n\nYou can change your language back at any time in Settings.</string>
-    <string name="LanguagePanelUrl">https://translations.telegram.org/%1$s</string>
+    <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
+    <string name="LanguageCustomAlert">You are about to apply a custom language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
     <string name="LanguageUnknownTitle">Insufficient data</string>
     <string name="LanguageUnofficial">Unofficial languages</string>
     <string name="LanguageUnsupportedError">There is no such language.</string>
-    <string name="LanguageUnknownAlert">Unfortunately, this language pack (**%1$s**) doesn’t contain data for Telegram Android. You can contribute to this language pack using the *translation platform*.</string>
-    <string name="LanguageUnknownCustomAlert">Unfortunately, this custom language pack (**%1$s**) doesn’t contain data for Telegram Android. You can contribute to this language pack using the *translation platform*.</string>
+    <string name="LanguageSame">You are already using this language pack (**%1$s**). You can change your language at any time in Settings.</string>
+    <string name="LanguageUnknownCustomAlert">Unfortunately, this custom language pack (**%1$s**) doesn\'t contain data for Telegram Android.</string>
     <string name="AskAQuestionInfo">Please note that Telegram Support is done by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]>: it has answers to most questions and important tips for <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">troubleshooting</a>]]>.</string>
     <string name="AskButton">Ask a volunteer</string>
     <string name="TelegramFAQ">Telegram FAQ</string>
@@ -1571,7 +1571,7 @@
     <string name="PasswordHintText">Please create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
-    <string name="EmailPasswordConfirmText2">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Enter the email address to which the code was sent and the code.</string>
+    <string name="EmailPasswordConfirmText2">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Enter the code which was sent to your email.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
     <string name="PasswordEmailInvalid">Invalid email address. Please check that you\'ve entered it correctly and try again.</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
@@ -1592,6 +1592,8 @@
     <string name="PasswordRecovery">Password Recovery</string>
     <string name="PasswordCode">Code</string>
     <string name="PasswordReset">Password deactivated</string>
+    <string name="ResendCode">Resend code</string>
+    <string name="ResendCodeInfo">The verification code was sent to your email.</string>
     <string name="EnabledPasswordText">You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.</string>
     <!--data settings-->
     <string name="DataSettings">Data and Storage</string>
@@ -1634,6 +1636,14 @@
     <string name="LastSeenContactsMinus">My Contacts (-%1$d)</string>
     <string name="LastSeenContactsMinusPlus">My Contacts (-%1$d, +%2$d)</string>
     <string name="LastSeenNobodyPlus">Nobody (+%1$d)</string>
+    <string name="P2PEverybody">Everybody</string>
+    <string name="P2PContacts">My Contacts</string>
+    <string name="P2PNobody">Nobody</string>
+    <string name="P2PEverybodyMinus">Everybody (-%1$d)</string>
+    <string name="P2PContactsPlus">My Contacts (+%1$d)</string>
+    <string name="P2PContactsMinus">My Contacts (-%1$d)</string>
+    <string name="P2PContactsMinusPlus">My Contacts (-%1$d, +%2$d)</string>
+    <string name="P2PNobodyPlus">Nobody (+%1$d)</string>
     <string name="SecurityTitle">Security</string>
     <string name="DeleteAccountTitle">Account self-destructs</string>
     <string name="PrivacyAdvanced">Advanced</string>

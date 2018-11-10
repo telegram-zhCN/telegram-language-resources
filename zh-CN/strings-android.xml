@@ -33,9 +33,9 @@
   <string name="Code">验证码</string>
   <string name="WrongNumber">号码错误？</string>
   <string name="DidNotGetTheCode">未收到验证码？</string>
-  <string name="CancelAccountReset">撤销账号重置请求</string>
+  <string name="CancelAccountReset">撤销帐号重置</string>
   <string name="CancelAccountResetInfo">我们收到一个有访问你电话号码 **%1$s** 权限的人要求删除你的 Telegram 账号并重置两步验证密码。\n\n如果不是你本人，请输入我们刚刚通过短信发送给你的验证码。</string>
-  <string name="ResetAccount">重置帐号</string>
+  <string name="ResetAccount">重置帐户</string>
   <string name="ResetAccountInfo">因为账号 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
   <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
   <string name="ResetAccountCancelledAlert">您近期的重置账号请求被当前活动用户取消，请于 7 天后重试。</string>
@@ -99,17 +99,11 @@
   <string name="PaymentConnectionFailed">无法连接至支付服务器。请检查您的互联网连接并重试。</string>
   <string name="PaymentWarning">警告</string>
   <string name="PaymentWarningText">Telegram 和 %1$s 都无法获得您的信用卡信息。信用卡信息将只会被支付平台 %2$s 处理。\n\n款项款将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
-  <string name="PaymentPassword">密码和电子邮箱</string>
   <string name="PaymentPasswordTitle">密码</string>
   <string name="PaymentPasswordEnter">请输入密码</string>
   <string name="PaymentPasswordReEnter">请再次输入密码</string>
   <string name="PaymentPasswordInfo">请创建一个用于保护您的付款信息的密码。您需要在登录时输入此密码。</string>
-  <string name="PaymentPasswordEmailTitle">辅助邮箱</string>
-  <string name="PaymentPasswordEmail">您的邮箱</string>
-  <string name="PaymentPasswordEmailInfo">请输入一个有效的电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
   <string name="PaymentPhoneToProvider">电话号码将作为付款信息发送给 %1$s。</string>
-  <string name="PaymentEmailToProvider">邮箱地址将作为付款信息发送给 %1$s。</string>
-  <string name="PaymentPhoneEmailToProvider">电话号码和邮箱地址将作为付款信息发送给 %1$s。</string>
   <!--chats view-->
   <string name="NewConversationShortcut">新建对话</string>
   <string name="Settings">设置</string>
@@ -121,7 +115,6 @@
   <string name="RecentlyViewed">最近查看过</string>
   <string name="RecentlyViewedHide">隐藏</string>
   <string name="NoChatsHelp">要开始对话\n请点击右下角的撰写按钮\n或者进入联系人界面。</string>
-  <string name="NoChatsContactsHelp">要开始对话\n请点击右下角的撰写按钮\n或者进入联系人界面。</string>
   <string name="WaitingForNetwork">等待网络...</string>
   <string name="Connecting">连接中...</string>
   <string name="Connected">已连接</string>
@@ -158,7 +151,6 @@
   <string name="MuteDisable">永久静音</string>
   <string name="Hashtags">标签</string>
   <string name="Recent">最近</string>
-  <string name="ChatHints">对话</string>
   <string name="ChatHintsDelete">确认从建议列表中删除 %1$s 吗？</string>
   <string name="LinkPreview">链接预览</string>
   <string name="Draft">草稿</string>
@@ -194,7 +186,6 @@
   <string name="MegaLeaveAlert">您确定要退出此群组吗？</string>
   <string name="GroupUserCantAdd">抱歉，您不能将此用户加入群组。</string>
   <string name="GroupUserAddLimit">抱歉，此群组已满员。</string>
-  <string name="GroupUserLeftError">抱歉，该用户已决定退出此群组，您无法邀请该用户回来。</string>
   <string name="GroupUserCantAdmin">抱歉，群组内管理员人数过多。</string>
   <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
   <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
@@ -213,8 +204,6 @@
   <string name="ActionPinnedMusic">un1 置顶了 1 首音乐</string>
   <string name="ActionMigrateFromGroup">此群组已升级为超级群组</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 已升级为超级群组</string>
-  <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员邀请才能再次加入。他们将不能使用邀请链接再次加入。</string>
-  <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员邀请才能再次加入。他们将不能使用邀请链接再次加入。</string>
   <string name="NewChannel">新建频道</string>
   <string name="EnterChannelName">频道名称</string>
   <string name="AddMutual">添加联系人到您的频道</string>
@@ -274,6 +263,7 @@
   <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
   <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
   <string name="ChannelCreator">创建者</string>
+  <string name="ChannelAdmin">管理员</string>
   <string name="ChannelMute">暂停消息通知</string>
   <string name="ChannelUnmute">启用消息通知</string>
   <string name="ChannelAddAdmin">添加管理员</string>
@@ -290,7 +280,6 @@
   <string name="ChannelCantOpenBanned">很抱歉，您已被禁止在公开群组中发言。</string>
   <string name="ChannelCantOpenNa">抱歉，该对话已无法访问。</string>
   <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
-  <string name="ChannelUserLeftError">抱歉，该用户已决定退出此频道，您无法邀请该用户回来。</string>
   <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
   <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
   <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
@@ -359,6 +348,14 @@
   <string name="ChatHistoryVisibleInfo">新成员将能够查看他们加入前发送的消息。</string>
   <string name="ChatHistoryHidden">隐藏</string>
   <string name="ChatHistoryHiddenInfo">新成员将不能查看更早的消息。</string>
+  <string name="ProfileJoinChannel">加入频道</string>
+  <string name="ProfileJoinGroup">加入群组</string>
+  <string name="GroupType">群组类型</string>
+  <string name="ChannelType">频道类型</string>
+  <string name="TypePrivate">私密</string>
+  <string name="TypePublic">公开</string>
+  <string name="ChooseTakePhoto">拍照</string>
+  <string name="ChooseFromSearch">通过网络搜索</string>
   <!--event log-->
   <string name="EventLog">近期操作</string>
   <string name="EventLogAllEvents">所有操作</string>
@@ -832,6 +829,8 @@
   <string name="NumberUnknown">未知</string>
   <string name="Info">个人信息</string>
   <string name="Phone">手机号码</string>
+  <string name="SharedLinks">链接</string>
+  <string name="SharedAudioFiles">音频</string>
   <!--usernames-->
   <string name="Username">用户名</string>
   <string name="UsernamePlaceholder">您的用户名</string>
@@ -924,6 +923,9 @@
   <string name="TextSize">文字大小</string>
   <string name="AskAQuestion">向我们提问</string>
   <string name="EnableAnimations">开启动画效果</string>
+  <string name="ChatSettings">聊天设置</string>
+  <string name="SettingsHelp">帮助</string>
+  <string name="Account">账户</string>
   <string name="Unblock">取消屏蔽</string>
   <string name="UnblockText">长按用户以取消屏蔽</string>
   <string name="NoBlocked">当前没有已屏蔽的用户</string>
@@ -1011,6 +1013,7 @@
   <string name="OnlyWhenScreenOff">只在屏幕关闭时</string>
   <string name="AlwaysShowPopup">总是弹出对话框</string>
   <string name="BadgeNumber">未读消息数量提示</string>
+  <string name="BadgeNumberShow">启用</string>
   <string name="Short">短</string>
   <string name="Long">长</string>
   <string name="AutomaticMediaDownload">自动下载媒体文件</string>
@@ -1122,6 +1125,11 @@
   <string name="EnableStreaming">在线播放视频和音频文件</string>
   <string name="EnableAllStreamingInfo">一些视频不能被在线播放——例如所有从 Telegram 4.7 或更早版本的 Android 客户端发送的视频。\n</string>
   <string name="TapToChangePhone">点按更改手机号码</string>
+  <string name="Appearance">外观</string>
+  <string name="StickersAndMasks">贴纸和装饰</string>
+  <string name="NotificationsPrivateChats">私聊</string>
+  <string name="NotificationsGroups">共同群组</string>
+  <string name="NotificationsChannels">频道</string>
   <!--cache view-->
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1485,34 +1493,26 @@
   <string name="PleaseEnterFirstPassword">请输入一个密码</string>
   <string name="PleaseEnterPassword">请输入新密码</string>
   <string name="PleaseReEnterPassword">请再次输入密码</string>
-  <string name="RecoveryEmail">密码恢复邮箱</string>
-  <string name="YourEmail">您的邮箱地址</string>
-  <string name="YourEmailInfo">请输入您的有效电子邮箱地址。它是您在忘记密码后唯一的恢复途径。</string>
   <string name="YourEmailSkip">跳过</string>
   <string name="YourEmailSkipWarning">警告</string>
   <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
   <string name="YourEmailAlmostThere">快完成了！</string>
-  <string name="YourEmailAlmostThereText">查看您的邮箱（不要忘记垃圾邮件文件夹），并按要求完成两步验证设置。</string>
   <string name="YourPasswordSuccess">成功！</string>
   <string name="YourPasswordSuccessText">您的两步验证密码现已启用。</string>
   <string name="ChangePassword">更改密码</string>
   <string name="TurnPasswordOff">删除密码</string>
-  <string name="SetRecoveryEmail">设置密码恢复邮箱</string>
-  <string name="ChangeRecoveryEmail">更改密码恢复邮箱</string>
+  <string name="SetRecoveryEmail">设置密码找回邮箱</string>
+  <string name="ChangeRecoveryEmail">更改密码找回邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
   <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram Passport 中的数据将丢失！</string>
   <string name="PasswordHint">密码提示</string>
   <string name="PasswordHintText">请创建一个密码提示。</string>
   <string name="PasswordDoNotMatch">密码不正确</string>
   <string name="AbortPassword">关闭两步验证</string>
-  <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
   <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="RestorePasswordResetAccount">重置帐户</string>
-  <string name="RestoreEmailSent">我们已经将验证码发送到了您的邮箱：\n\n%1$s</string>
-  <string name="RestoreEmailTrouble">无法访问您的密码恢复邮箱 %1$s?</string>
-  <string name="RestoreEmailTroubleText">如果您无法访问您的邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="ResetMyAccount">重置我的帐户</string>
   <string name="ResetMyAccountText">如果您确认重置您的帐户，您将丢失所有的聊天记录、分享的媒体文件和个人数据。</string>
   <string name="ResetMyAccountWarning">警告</string>
@@ -1525,7 +1525,6 @@
   <string name="PasswordCode">验证码</string>
   <string name="PasswordReset">密码已删除</string>
   <string name="EnabledPasswordText">您已启用两步验证。\n今后您在登录新设备时将需要输入您设置的附加密码才能登录您的Telegram帐号。</string>
-  <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
   <!--data settings-->
   <string name="DataSettings">数据和存储</string>
   <string name="DataUsage">存储和网络使用情况</string>
@@ -1596,7 +1595,6 @@
   <string name="InviteToGroupError">抱歉，根据该用户的隐私设置，您不能将其添加到群组。</string>
   <string name="InviteToChannelError">抱歉，根据该用户的隐私设置，您不能将其添加到频道。</string>
   <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
-  <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。</string>
   <string name="SyncContactsDelete">删除已同步联系人</string>
   <string name="SuggestContacts">推荐频繁的联系人</string>
@@ -1713,7 +1711,7 @@
   <string name="ActionTakeScreenshoot">un1 截了一张图！</string>
   <!--Alert messages-->
   <string name="UpdateTelegram">更新 Telegram</string>
-  <string name="UpdateAppAlert">很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请更新 Telegram。</string>
+  <string name="UpdateAppAlert">很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请升级 Telegram。</string>
   <string name="PleaseLoginPassport">请登陆到 Telegram 来使用 Telegram Passport</string>
   <string name="BannedPhoneNumber">此手机号码已被封禁</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
@@ -1772,7 +1770,6 @@
   <string name="UserRestricted">抱歉，您无法执行此操作。</string>
   <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>
   <string name="JoinGroup">加入群组</string>
-  <string name="AddAdminErrorNotAMember">抱歉，您无法将这位用户设为管理员。因为该用户不是此群组的成员，并且您也不被允许邀请该用户。</string>
   <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在群组的黑名单中，并且您也不能解除其封禁。</string>
   <string name="AddBannedErrorAdmin">抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也不被允许撤销其管理员权限。</string>
   <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的权限。</string>
@@ -2178,6 +2175,8 @@
   <string name="PassportSDK_LogInWithTelegram">通过 Telegram 登录</string>
   <string name="PassportSDK_OpenGooglePlay">打开 Google Play</string>
   <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
+  <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
+  <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
   <string name="ViewDetails">查看联系人</string>

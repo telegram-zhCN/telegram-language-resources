@@ -164,6 +164,8 @@
   <string name="xAudios_other">%1$s 条音频</string>
   <string name="xPhotos_one">%1$s 张图片</string>
   <string name="xPhotos_other">%1$s 张图片</string>
+  <string name="xMedia_one">%1$s 个媒体</string>
+  <string name="xMedia_other">%1$s 个媒体</string>
   <string name="xVideos_one">%1$s 段视频</string>
   <string name="xVideos_other">%1$s 段视频</string>
   <string name="xViews_one">%1$s 次查看</string>
@@ -667,34 +669,29 @@
   <string name="EnterAPassword">请输入密码</string>
   <string name="ReEnterAPassword">请再次输入密码</string>
   <string name="EnterANewPassword">请输入新密码</string>
-  <string name="EnterANewEmail">请输入新邮箱</string>
+  <string name="EnterANewEmail">请输入新邮箱地址</string>
   <string name="ForgotPassword">忘记密码？</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
-  <string name="SinceNotProvided">由于您在设置密码时未提供密保邮箱，您现在只能尝试想起密码，或者重置账号。</string>
+  <string name="SinceNotProvided">因为您再设置密码时没有同时提供密码恢复邮箱，您剩下的选择只有回忆起您的密码或者重置您的账户。</string>
   <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
   <string name="CreateAHintForYourPassword">请设置一个密码提示</string>
   <string name="HavingTroubleAccessing">无法访问您的密码恢复邮箱\n %1$s?</string>
-  <string name="RestoreEmailTroubleText">如果您无法恢复对您的邮箱的访问权，您剩余的选项就是记起您的密码，或者重置您的账户。</string>
   <string name="EnterCode">输入验证码</string>
   <string name="PasswordRecovery">找回密码</string>
   <string name="LoginPasswordText">您已经启用两步认证，这个附加的密码将保护您的帐号。</string>
   <string name="EnterPassword">输入密码</string>
-  <string name="YourEmail">您的邮箱地址</string>
-  <string name="YourEmailInfo">请添加您的有效邮件地址。这是唯一能够恢复忘记的密码的方法。</string>
+  <string name="YourEmail">你的电子邮件地址</string>
   <string name="Skip">跳过</string>
   <string name="Warning">警告</string>
   <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
   <string name="PasswordDoNotMatch">密码不匹配</string>
-  <string name="CheckYourVerificationEmail">请检查邮箱，并点击验证链接来完成两步验证的设置。如未收到邮件请查看垃圾邮件。</string>
   <string name="InvalidCode">验证码无效，请重试。</string>
   <string name="AbortPassword">取消两步验证设置</string>
-  <string name="AwaitingEmailConfirmation">等待确认邮件</string>
   <string name="InvalidPasswordTryAgain">密码无效，请重新输入。</string>
   <string name="PasswordAndHintMustBeDifferent">密码与密码提示不能相同。</string>
   <string name="RecoveryCodeInvalid">恢复码无效，请重新输入。</string>
   <string name="PasswordMatchesOldOne">新密码与旧密码相同。</string>
   <string name="format_PasscodeTooManyAttempts">请求太过频繁。%1$s</string>
-  <string name="EmailMatchesOldOne">新邮箱与旧邮箱相同。</string>
   <string name="Hint">提示： %1$s</string>
   <string name="PrivateChats">私聊</string>
   <string name="MessagePreview">消息预览</string>
@@ -1283,17 +1280,13 @@
   <string name="LinkCurrent">t.me/%1$s 是您当前的公开链接。</string>
   <string name="LoadingActions">加载管理操作……</string>
   <string name="JoinChat">加入对话</string>
-  <string name="MemberCanJoinGroup">%1$s 将可以返回此群组。</string>
-  <string name="MemberCannotJoinGroup">%1$s 将无法返回此群组，除非被管理员邀请。</string>
   <string name="MemberCanJoinChannel">%1$s 将可以返回此频道。</string>
-  <string name="MemberCannotJoinChannel">%1$s 将无法返回此频道，除非被管理员邀请。</string>
   <string name="Unban">解除封禁</string>
   <string name="BanMember">封禁此成员</string>
   <string name="RemoveFromGroup">从群组中移除</string>
   <string name="ChannelRemoveUser">从频道中移除</string>
   <string name="InviteBackToGroup">将其邀请回群组</string>
   <string name="InviteBackToChannel">将其邀请回频道</string>
-  <string name="MemberCannotJoinRegularGroup">%1$s 将无法返回此群组，除非被其他成员邀请或使用邀请链接。</string>
   <string name="AdminCanAssignAdmins">该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。</string>
   <string name="AdminCannotAssignAdmins">该管理员不能添加新管理员。</string>
   <string name="ShareMyContactInfo">分享我的联系方式</string>
@@ -1399,7 +1392,7 @@
   <string name="CropFree">免费</string>
   <string name="CropOriginal">原图</string>
   <string name="UseRearRoundVideos">默认使用后置摄像头</string>
-  <string name="EMail">邮箱</string>
+  <string name="EMail">电子邮箱</string>
   <string name="Beginning">起始日期</string>
   <string name="PaymentSuccessfullyPaid">您已成功为 %3$s 向 %2$s 转账 %1$s</string>
   <string name="PaymentSuccessfullyPaidNoItem">您已成功向 %2$s 转账 %1$s</string>
@@ -1464,8 +1457,6 @@
   <string name="ChatAccessPrivateGroup">此群组为私有群组</string>
   <string name="ChatAccessPrivateChannel">此频道为私有频道</string>
   <string name="YouCantInviteMembers">您不能添加成员到此对话</string>
-  <string name="RecoveryCodeSent">我们已经发送了一个 6 位的恢复代码到 %1$s。请查看您收到的邮件并在此输入代码。</string>
-  <string name="RecoveryCodeSentEmailUnknown">我们已经发送了一个 6 位的恢复代码。请查看您收到的邮件并在此输入代码。</string>
   <string name="RestoreEmailTroubleUnknown">无法访问您的密保邮箱？</string>
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">电话</string>
@@ -1699,7 +1690,6 @@
   <string name="ProxyRemove">移除代理</string>
   <string name="ProxyEdit">编辑代理</string>
   <string name="ProxyRemoveInfo">您确定要删除此代理设置吗？</string>
-  <string name="ErrorUsersTooFew">成员数不足：所有人均拒绝被您邀请入群。</string>
   <string name="SyncContacts">同步联系人</string>
   <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的账户。</string>
   <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
@@ -1756,12 +1746,6 @@
   <string name="format_TooManyRequests">请求太过频繁。%1$s</string>
   <string name="JoinChannel">加入频道</string>
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
-  <string name="LeaveAdminNoReturnHintChannel">警告：退出后您将丢失您的管理员权限并无法再返回此频道，除非被一个管理员邀请</string>
-  <string name="LeaveAdminNoReturnHintGroup">警告：退出后您将丢失您的管理员权限并无法再返回此群组，除非被其他成员邀请</string>
-  <string name="LeaveNoReturnHintChannel">警告：您将无法再返回此频道，除非被一个管理员邀请</string>
-  <string name="LeaveNoReturnHintGroup">警告：您将无法再返回此群组，除非被其他成员邀请</string>
-  <string name="LeaveCreatorHintChannel">警告：您将无法再返回此频道，除非被一个管理员邀请</string>
-  <string name="LeaveCreatorHintGroup">警告：您将无法再返回此群组，除非被其他成员邀请</string>
   <string name="LeaveReturnPublicLinkHintChannel">您将可以通过公共链接返回此频道</string>
   <string name="LeaveReturnPublicLinkHintGroup">您将可以通过公共链接返回此群组</string>
   <string name="DeleteUserChatConfirm">您确定要删除与 %1$s 的对话吗？此操作不可撤销。</string>
@@ -1956,9 +1940,12 @@
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
   <string name="TdlibLogsWarningConfirm">继续</string>
 
-  <string name="NoEmailApp">找不到电子邮件应用</string>
+  <string name="RtlLayout">右至左布局</string>
 
   <string name="ThemeCreate">创建新主题</string>
+  <string name="ThemeEdit">编辑主题</string>
+  <string name="ThemeRemove">删除主题</string>
+  <string name="ThemeRemoveInfo">您确定要删除这套主题？此操作不可撤销。</string>
   <string name="ThemeRemoveConfirm">删除</string>
 
   
@@ -2249,6 +2236,10 @@
   <string name="xMasks_two">%1$s 个装饰</string>
   <string name="xMasks_few">%1$s 个装饰</string>
   <string name="xMasks_many">%1$s 个装饰</string>
+  <string name="xMedia_zero">%1$s 个媒体</string>
+  <string name="xMedia_two">%1$s 个媒体</string>
+  <string name="xMedia_few">%1$s 个媒体</string>
+  <string name="xMedia_many">%1$s 个媒体</string>
   <string name="xMembers_zero">%1$s 个成员</string>
   <string name="xMembers_two">%1$s 个成员</string>
   <string name="xMembers_few">%1$s 个成员</string>
