@@ -1009,7 +1009,7 @@
     <string name="LanguageCustom">Custom</string>
     <string name="LanguageTitle">Change language?</string>
     <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
-    <string name="LanguageCustomAlert">You are about to apply a custom language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
+    <string name="LanguageCustomAlert">You are about to apply an unofficial language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
     <string name="LanguageUnknownTitle">Insufficient data</string>
     <string name="LanguageUnofficial">Unofficial languages</string>
     <string name="LanguageUnsupportedError">There is no such language.</string>
@@ -1166,7 +1166,7 @@
     <string name="NotificationsGroups">Groups</string>
     <string name="NotificationsChannels">Channels</string>
     <string name="NotificationsExceptionsAlert">Please note that **%1$s** are listed as exceptions and won\'t be affected by this change.</string>
-    <string name="NotificationsExceptionsSingleAlert">Please note that **%1$s** is listed as exceptions and won\'t be affected by this change.</string>
+    <string name="NotificationsExceptionsSingleAlert">Please note that **%1$s** is listed as an exception and won\'t be affected by this change.</string>
     <string name="ViewExceptions">View Exceptions</string>
     <string name="NotificationsForGroups">Notifications for groups</string>
     <string name="NotificationsForPrivateChats">Notifications for private chats</string>
@@ -1544,10 +1544,10 @@
     <string name="SetAdditionalPassword">Set Additional Password</string>
     <string name="SetAdditionalPasswordInfo">You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS.</string>
     <string name="YourPassword">Your Password</string>
-    <string name="PleaseEnterCurrentPassword">Please enter your password</string>
+    <string name="PleaseEnterCurrentPassword">Enter your password</string>
     <string name="PleaseEnterFirstPassword">Enter a password</string>
-    <string name="PleaseEnterPassword">Please enter your new password</string>
-    <string name="PleaseReEnterPassword">Please re-enter your password</string>
+    <string name="PleaseEnterPassword">Enter your new password</string>
+    <string name="PleaseReEnterPassword">Re-enter your password</string>
     <string name="RecoveryEmail">Recovery email</string>
     <string name="YourEmail">Your email</string>
     <string name="YourEmailCode">Your Email Code</string>
@@ -1568,10 +1568,10 @@
     <string name="TurnPasswordOffQuestion">Are you sure you want to disable your password?</string>
     <string name="TurnPasswordOffPassport">Warning! All data saved in your Telegram Passport will be lost!</string>
     <string name="PasswordHint">Password Hint</string>
-    <string name="PasswordHintText">Please create a hint for your password</string>
+    <string name="PasswordHintText">Create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
-    <string name="EmailPasswordConfirmText2">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Enter the code which was sent to your email.</string>
+    <string name="EmailPasswordConfirmText2">To complete Two-Step Verification Setup, check your email (don\'t forget the spam folder) and enter the code we just sent you.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
     <string name="PasswordEmailInvalid">Invalid email address. Please check that you\'ve entered it correctly and try again.</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
@@ -1910,7 +1910,7 @@
     <string name="VoipRingtoneInfo">You can customize the ringtone used when this contact calls you on Telegram.</string>
     <string name="Calls">Calls</string>
     <string name="CustomP2PInfo">Peer-to-Peer in calls will or will not be used with these users regardless of the settings above.</string>
-    <string name="P2PEnabledWith">With who peer-to-peer is enabled?</string>
+    <string name="P2PEnabledWith">Use peer-to-peer with</string>
     <string name="WhoCanCallMe">Who can call me?</string>
     <string name="WhoCanCallMeInfo">You can restrict who can call you.</string>
     <string name="CustomCallInfo">These users will or will not be able to call you regardless of the settings above.</string>

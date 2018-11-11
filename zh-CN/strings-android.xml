@@ -1565,6 +1565,14 @@
   <string name="LastSeenContactsMinus">我的联系人  (-%1$d)</string>
   <string name="LastSeenContactsMinusPlus">我的联系人 (-%1$d, +%2$d)</string>
   <string name="LastSeenNobodyPlus">不允许任何人 (+%1$d)</string>
+  <string name="P2PEverybody">所有人</string>
+  <string name="P2PContacts">我的联系人</string>
+  <string name="P2PNobody">不允许任何人</string>
+  <string name="P2PEverybodyMinus">所有人 (-%1$d)</string>
+  <string name="P2PContactsPlus">我的联系人 (+%1$d)</string>
+  <string name="P2PContactsMinus">我的联系人  (-%1$d)</string>
+  <string name="P2PContactsMinusPlus">我的联系人 (-%1$d, +%2$d)</string>
+  <string name="P2PNobodyPlus">不允许任何人 (+%1$d)</string>
   <string name="SecurityTitle">安全</string>
   <string name="DeleteAccountTitle">自动删除帐号</string>
   <string name="PrivacyAdvanced">高级</string>
