@@ -366,6 +366,8 @@
     <string name="ChannelType">Channel Type</string>
     <string name="TypePrivate">Private</string>
     <string name="TypePublic">Public</string>
+    <string name="TypePrivateGroup">Private</string>
+    <string name="TypePublicGroup">Public</string>
     <string name="ChoosePhoto">Choose photo</string>
     <string name="ChooseTakePhoto">Take photo</string>
     <string name="ChooseFromGallery">Upload from gallery</string>
@@ -1566,12 +1568,16 @@
     <string name="SetRecoveryEmail">Set Recovery Email</string>
     <string name="ChangeRecoveryEmail">Change Recovery Email</string>
     <string name="TurnPasswordOffQuestion">Are you sure you want to disable your password?</string>
+    <string name="CancelPasswordQuestion">Are you sure you want to abort two-step verification setup?</string>
+    <string name="CancelEmailQuestion">Are you sure you want to abort recovery email setup?</string>
     <string name="TurnPasswordOffPassport">Warning! All data saved in your Telegram Passport will be lost!</string>
     <string name="PasswordHint">Password Hint</string>
     <string name="PasswordHintText">Create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
+    <string name="AbortEmail">Abort recovery email setup</string>
     <string name="EmailPasswordConfirmText2">To complete Two-Step Verification Setup, check your email (don\'t forget the spam folder) and enter the code we just sent you.</string>
+    <string name="EmailPasswordConfirmText3">To complete reсoverу email setup, check %1$s (don\'t forget the spam folder) and enter the code we just sent you.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
     <string name="PasswordEmailInvalid">Invalid email address. Please check that you\'ve entered it correctly and try again.</string>
     <string name="RestorePasswordNoEmailTitle">Sorry</string>

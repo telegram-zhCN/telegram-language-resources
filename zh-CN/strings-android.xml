@@ -1491,7 +1491,7 @@
   <string name="YourPassword">您的密码</string>
   <string name="PleaseEnterCurrentPassword">请输入您的密码</string>
   <string name="PleaseEnterFirstPassword">请输入一个密码</string>
-  <string name="PleaseEnterPassword">请输入新密码</string>
+  <string name="PleaseEnterPassword">请输入新的解锁密码</string>
   <string name="PleaseReEnterPassword">请再次输入密码</string>
   <string name="YourEmailSkip">跳过</string>
   <string name="YourEmailSkipWarning">警告</string>
@@ -1506,7 +1506,7 @@
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
   <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram Passport 中的数据将丢失！</string>
   <string name="PasswordHint">密码提示</string>
-  <string name="PasswordHintText">请创建一个密码提示。</string>
+  <string name="PasswordHintText">请设置一个密码提示</string>
   <string name="PasswordDoNotMatch">密码不正确</string>
   <string name="AbortPassword">关闭两步验证</string>
   <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
