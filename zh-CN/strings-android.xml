@@ -354,6 +354,8 @@
   <string name="ChannelType">频道类型</string>
   <string name="TypePrivate">私密</string>
   <string name="TypePublic">公开</string>
+  <string name="TypePrivateGroup">私密</string>
+  <string name="TypePublicGroup">公开</string>
   <string name="ChooseTakePhoto">拍照</string>
   <string name="ChooseFromSearch">通过网络搜索</string>
   <!--event log-->

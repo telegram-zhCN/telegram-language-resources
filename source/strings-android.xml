@@ -1543,6 +1543,7 @@
     <string name="GroupPhotosHelp">Group media into one message</string>
     <!--password view-->
     <string name="TwoStepVerification">Two-Step Verification</string>
+    <string name="TwoStepVerificationTitle">Two-Step Verification</string>
     <string name="SetAdditionalPassword">Set Additional Password</string>
     <string name="SetAdditionalPasswordInfo">You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS.</string>
     <string name="YourPassword">Your Password</string>
