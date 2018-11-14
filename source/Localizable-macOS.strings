@@ -1596,7 +1596,7 @@
 "AppearanceSettings.ChatView.Bubbles" = "Bubbles";
 "AppearanceSettings.FollowSystemAppearance" = "Follow System Appearance";
 "AppearanceSettings.FollowSystemAppearance.DefaultDark" = "Select the default dark theme which will be used for the system dark mode.";
-"AppearanceSettings.FollowSystemAppearance.DefaultDay" = "Select default day palette which one will be used in light system appearance mode.";
+"AppearanceSettings.FollowSystemAppearance.DefaultDay" = "Select the default light theme which will be used for the system light mode.";
 "AppearanceSettings.FollowSystemAppearance.DefaultHeader" = "DEFAULT PALETTES";
 
 

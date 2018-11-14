@@ -1488,6 +1488,7 @@
   <string name="GroupPhotosHelp">将媒体聚合至一条消息</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
+  <string name="TwoStepVerificationTitle">两步验证</string>
   <string name="SetAdditionalPassword">设置两步验证密码</string>
   <string name="SetAdditionalPasswordInfo">您可以设置一个密码，这将作为在一台新设备登录时输入短信验证码后额外的身份验证。</string>
   <string name="YourPassword">您的密码</string>
