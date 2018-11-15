@@ -121,22 +121,35 @@
   <string name="xGroups_other">%1$s groups</string>
   <string name="xWebsites_one">%1$s website</string>
   <string name="xWebsites_other">%1$s websites</string>
-  <string name="xMinutes_one">%1$s minute</string>
-  <string name="xMinutes_other">%1$s minutes</string>
-  <string name="xDays_one">%1$s day</string>
-  <string name="xDays_other">%1$s days</string>
   <string name="DeleteAccountIfAwayForDays_one">%1$s day</string>
   <string name="DeleteAccountIfAwayForDays_other">%1$s days</string>
   <string name="DeleteAccountIfAwayForMonths_one">%1$s month</string>
   <string name="DeleteAccountIfAwayForMonths_other">%1$s months</string>
   <string name="DeleteAccountIfAwayForYears_one">%1$s year</string>
   <string name="DeleteAccountIfAwayForYears_other">%1$s years</string>
-  <string name="xWeeks_one">%1$s week</string>
-  <string name="xWeeks_other">%1$s weeks</string>
-  <string name="xHours_one">%1$s hour</string>
-  <string name="xHours_other">%1$s hours</string>
+
   <string name="xSeconds_one">%1$s second</string>
   <string name="xSeconds_other">%1$s seconds</string>
+  <string name="xMinutes_one">%1$s minute</string>
+  <string name="xMinutes_other">%1$s minutes</string>
+  <string name="xHours_one">%1$s hour</string>
+  <string name="xHours_other">%1$s hours</string>
+  <string name="xDays_one">%1$s day</string>
+  <string name="xDays_other">%1$s days</string>
+  <string name="xWeeks_one">%1$s week</string>
+  <string name="xWeeks_other">%1$s weeks</string>
+
+  <string name="xSecondsRelative_one">%1$s second</string>
+  <string name="xSecondsRelative_other">%1$s seconds</string>
+  <string name="xMinutesRelative_one">%1$s minute</string>
+  <string name="xMinutesRelative_other">%1$s minutes</string>
+  <string name="xHoursRelative_one">%1$s hour</string>
+  <string name="xHoursRelative_other">%1$s hours</string>
+  <string name="xDaysRelative_one">%1$s day</string>
+  <string name="xDaysRelative_other">%1$s days</string>
+  <string name="xWeeksRelative_one">%1$s week</string>
+  <string name="xWeeksRelative_other">%1$s weeks</string>
+
   <string name="inXHours_one">in %1$s hour</string>
   <string name="inXHours_other">in %1$s hours</string>
   <string name="xChats_one">%1$s chat</string>
@@ -480,7 +493,8 @@
   <string name="TooManyPublicLinks">Sorry, you have created too many public links. Try deleting or making some of your groups or channels private.</string>
   <string name="UserIsAlreadyInChat">User is already in chat</string>
   <string name="ProfilePhoto">Profile photo</string>
-  <string name="ChatPhoto">Chat photo</string>
+  <string name="ChatPhoto">Group photo</string>
+  <string name="ChannelPhoto">Channel photo</string>
   <string name="ShowInChat">Show in Chat</string>
   <string name="GroupIsFull">The group you tried to join is full</string>
   <string name="PasswordIsInvalid">The password you have entered is invalid</string>
@@ -831,7 +845,7 @@
   <string name="ConfirmationCode">Confirmation Code</string>
   <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
   <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
-  <string name="SentCallOnly">We\'ve sent an activation call to your phone **%1$s**.\n\nDon\'t take it, Telegram will process everything automatically.</string>
+  <string name="SentCallOnly">We\'ve sent an activation call to your phone **%1$s**.\n\nDon\'t accept the call, Telegram will process everything automatically.</string>
   <string name="SentCallCode">We are calling your phone **%1$s** to dictate a code.</string>
   <string name="DidNotGetTheCode">Haven\'t received the code?</string>
   <string name="SuccessfullyChangedNumber">Successfully changed number to %1$s.</string>
@@ -1526,7 +1540,7 @@
   <string name="DisconnectWebsite">Disconnect</string>
   <string name="DisconnectAllWebsitesHint">Are you sure you want to disconnect all websites?</string>
   <string name="DisconnectWebsiteBan">Block %1$s</string>
-  <string name="ConnectedWebsitesDesc">Disconnect from your Telegram account.</string>
+  <string name="ConnectedWebsitesDesc">Tap to disconnect from your Telegram account.</string>
   <string name="NotificationsLed">LED</string>
   <string name="LedDisabled">Disabled</string>
   <string name="LedDefault">Default</string>
@@ -1955,12 +1969,51 @@
   <string name="NoEmailApp">No email application found</string>
 
   <string name="RtlLayout">Right-to-Left Layout</string>
+  
 
   <string name="ThemeCreate">Create New Theme</string>
+  
+  
+  
+  
   <string name="ThemeEdit">Edit Theme</string>
+  
   <string name="ThemeRemove">Delete Theme</string>
   <string name="ThemeRemoveInfo">Are you sure you want to delete this theme? This action cannot be undone.</string>
   <string name="ThemeRemoveConfirm">Delete</string>
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
 
   
 
@@ -2210,6 +2263,10 @@
   <string name="xDays_two">%1$s days</string>
   <string name="xDays_few">%1$s days</string>
   <string name="xDays_many">%1$s days</string>
+  <string name="xDaysRelative_zero">%1$s days</string>
+  <string name="xDaysRelative_two">%1$s days</string>
+  <string name="xDaysRelative_few">%1$s days</string>
+  <string name="xDaysRelative_many">%1$s days</string>
   <string name="xDaysShort_zero">%1$sd</string>
   <string name="xDaysShort_two">%1$sd</string>
   <string name="xDaysShort_few">%1$sd</string>
@@ -2234,6 +2291,10 @@
   <string name="xHours_two">%1$s hours</string>
   <string name="xHours_few">%1$s hours</string>
   <string name="xHours_many">%1$s hours</string>
+  <string name="xHoursRelative_zero">%1$s hours</string>
+  <string name="xHoursRelative_two">%1$s hours</string>
+  <string name="xHoursRelative_few">%1$s hours</string>
+  <string name="xHoursRelative_many">%1$s hours</string>
   <string name="xHoursShort_zero">%1$sh</string>
   <string name="xHoursShort_two">%1$sh</string>
   <string name="xHoursShort_few">%1$sh</string>
@@ -2270,6 +2331,10 @@
   <string name="xMinutes_two">%1$s minutes</string>
   <string name="xMinutes_few">%1$s minutes</string>
   <string name="xMinutes_many">%1$s minutes</string>
+  <string name="xMinutesRelative_zero">%1$s minutes</string>
+  <string name="xMinutesRelative_two">%1$s minutes</string>
+  <string name="xMinutesRelative_few">%1$s minutes</string>
+  <string name="xMinutesRelative_many">%1$s minutes</string>
   <string name="xMinutesShort_zero">%1$sm</string>
   <string name="xMinutesShort_two">%1$sm</string>
   <string name="xMinutesShort_few">%1$sm</string>
@@ -2322,6 +2387,10 @@
   <string name="xSeconds_two">%1$s seconds</string>
   <string name="xSeconds_few">%1$s seconds</string>
   <string name="xSeconds_many">%1$s seconds</string>
+  <string name="xSecondsRelative_zero">%1$s seconds</string>
+  <string name="xSecondsRelative_two">%1$s seconds</string>
+  <string name="xSecondsRelative_few">%1$s seconds</string>
+  <string name="xSecondsRelative_many">%1$s seconds</string>
   <string name="xSecondsShort_zero">%1$ss</string>
   <string name="xSecondsShort_two">%1$ss</string>
   <string name="xSecondsShort_few">%1$ss</string>
@@ -2378,6 +2447,10 @@
   <string name="xWeeks_two">%1$s weeks</string>
   <string name="xWeeks_few">%1$s weeks</string>
   <string name="xWeeks_many">%1$s weeks</string>
+  <string name="xWeeksRelative_zero">%1$s weeks</string>
+  <string name="xWeeksRelative_two">%1$s weeks</string>
+  <string name="xWeeksRelative_few">%1$s weeks</string>
+  <string name="xWeeksRelative_many">%1$s weeks</string>
   <string name="xWeeksShort_zero">%1$sw</string>
   <string name="xWeeksShort_two">%1$sw</string>
   <string name="xWeeksShort_few">%1$sw</string>

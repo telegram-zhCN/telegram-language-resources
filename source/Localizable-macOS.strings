@@ -2263,7 +2263,7 @@
 "TouchBar.RecentlyUsed" = "Recently Used";
 
 
-"RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs access to your microphone to make calls";
+"RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs access to your microphone so that you can make calls.";
 /* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages"; */
 /* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages"; */
 /* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Camera" = "Telegram needs access to your camera to send voice messages"; */

@@ -944,7 +944,7 @@
 "DialogList.SearchSectionMessages" = "Messages";
 
 "Username.LinkHint" = "This link opens a chat with you:[\nhttps://t.me/%@]";
-"Username.LinkCopied" = "Copied link to clipboard";
+"Username.LinkCopied" = "Link copied to clipboard";
 
 "SharedMedia.DeleteItemsConfirmation_1" = "Delete media file?";
 "SharedMedia.DeleteItemsConfirmation_2" = "Delete %@ media files?";
@@ -995,22 +995,22 @@
 
 "AccessDenied.Contacts" = "Telegram messaging is based on your existing contact list.\n\nPlease go to Settings > Privacy > Contacts and set Telegram to ON.";
 
-"AccessDenied.VoiceMicrophone" = "Telegram needs access to your microphone to send voice messages.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VoiceMicrophone" = "Telegram needs access to your microphone so that you can send voice messages.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
 
-"AccessDenied.VideoMicrophone" = "Telegram needs access to your microphone to record sound in videos recording.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VideoMicrophone" = "Telegram needs access to your microphone so that you can record sound in videos recording.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
 
 "AccessDenied.MicrophoneRestricted" = "Microphone access is restricted for Telegram.\n\nPlease go to Settings > General > Restrictions > Microphone and set Telegram to ON.";
 
 
-"AccessDenied.Camera" = "Telegram needs access to your camera to take photos and videos.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
+"AccessDenied.Camera" = "Telegram needs access to your camera so that you can take photos and videos.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
 
 "AccessDenied.CameraRestricted" = "Camera access is restricted for Telegram.\n\nPlease go to Settings > General > Restrictions > Camera and set Telegram to ON.";
 
 "AccessDenied.CameraDisabled" = "Camera access is globally restricted on your phone.\n\nPlease go to Settings > General > Restrictions and set Camera to ON";
 
-"AccessDenied.PhotosAndVideos" = "Telegram needs access to your photo library to send photos and videos.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
+"AccessDenied.PhotosAndVideos" = "Telegram needs access to your photo library so that you can send photos and videos.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
 
-"AccessDenied.SaveMedia" = "Telegram needs access to your photo library to save photos and videos.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
+"AccessDenied.SaveMedia" = "Telegram needs access to your photo library so that you can save photos and videos.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
 
 "AccessDenied.PhotosRestricted" = "Photo access is restricted for Telegram.\n\nPlease go to Settings > General > Restrictions > Photos and set Telegram to ON.";
 
@@ -1018,7 +1018,7 @@
 
 "AccessDenied.LocationDisabled" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
 
-"AccessDenied.LocationTracking" = "Telegram needs access to your location to show you on the map.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
 
 "AccessDenied.Settings" = "Settings";
 
@@ -1141,7 +1141,7 @@
 "TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
 "TwoStepAuth.PasswordSet" = "Your password for Two-Step Verification is now active.";
 "TwoStepAuth.PasswordRemoveConfirmation" = "Are you sure you want to disable your password?";
-
+"TwoStepAuth.EmailCodeExpired" = "This confirmation code has expired. Please try again.";
 
 "TwoStepAuth.RecoveryUnavailable" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.RecoveryFailed" = "Your remaining options are either to remember your password or to reset your account.";
@@ -1198,7 +1198,7 @@
 
 "ChangePhone.ErrorOccupied" = "The number %@ is already connected to a Telegram account. Please delete that account before migrating to the new number.";
 
-"AccessDenied.LocationTracking" = "Telegram needs access to your location to show you on the map.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
 
 "PrivacySettings.AuthSessions" = "Active Sessions";
 "AuthSessions.Title" = "Active Sessions";
@@ -2005,7 +2005,7 @@ Unused sets are archived when you add more.";
 "Conversation.JumpToDate" = "Jump To Date";
 "Conversation.AddToReadingList" = "Add to Reading List";
 
-"AccessDenied.CallMicrophone" = "Telegram needs access to your microphone for voice calls.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.CallMicrophone" = "Telegram needs access to your microphone so that you can make calls.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
 
 "Call.EncryptionKey.Title" = "Encryption Key";
 
@@ -2300,8 +2300,8 @@ Unused sets are archived when you add more.";
 "SharedMedia.CategoryLinks" = "Links";
 "SharedMedia.CategoryOther" = "Audio";
 
-"AccessDenied.VideoMessageCamera" = "Telegram needs access to your camera to send video messages.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
-"AccessDenied.VideoMessageMicrophone" = "Telegram needs access to your microphone to send video messages.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VideoMessageCamera" = "Telegram needs access to your camera so that you can send video messages.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
+"AccessDenied.VideoMessageMicrophone" = "Telegram needs access to your microphone so that you can send video messages.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
 
 "ChatSettings.AutomaticVideoMessageDownload" = "AUTOMATIC VIDEO MESSAGE DOWNLOAD";
 
@@ -2322,6 +2322,7 @@ Unused sets are archived when you add more.";
 "Checkout.LiabilityAlert" = "Neither Telegram, nor %1$@ will have access to your credit card information. Credit card details will be handled only by the payment system, %2$@.\n\nPayments will go directly to the developer of %1$@. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$@ or your bank.";
 
 "Settings.AppLanguage" = "Language";
+"Settings.AppLanguage.Unofficial" = "UNOFFICIAL";
 
 "InstantPage.AutoNightTheme" = "Auto-Night Theme";
 
@@ -2565,7 +2566,7 @@ Unused sets are archived when you add more.";
 
 "Invite.LargeRecipientsCountWarning" = "Please note that it may take some time for your device to send all of these invitations";
 
-"Contacts.InviteSearchLabel" = "Search for contacts";
+"Contacts.InviteSearchLabel" = "Search contacts";
 
 "Message.ImageExpired" = "Photo has expired";
 "Message.VideoExpired" = "Video has expired";
@@ -3034,6 +3035,7 @@ Unused sets are archived when you add more.";
 
 "Passport.PasswordDescription" = "Please create a password to secure your personal data with end-to-end encryption.\n\nThis password will also be required whenever you log in to Telegram on a new device.";
 "Passport.PasswordCreate" = "Create a Password";
+"Passport.PasswordCompleteSetup" = "Complete Password Setup";
 "Passport.PasswordNext" = "Next";
 
 "Passport.DeletePersonalDetails" = "Delete Personal Details";
@@ -3449,6 +3451,55 @@ Unused sets are archived when you add more.";
 "AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";
 
 "AuthSessions.Terminate" = "Terminate";
+
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %1$@ is already active.";
+"ApplyLanguage.ChangeLanguageTitle" = "Change Language?";
+"ApplyLanguage.ChangeLanguageUnofficialText" = "You are about to apply a custom language pack (**%1$@**) that is %2$@% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform]().\n\nYou can change your language back at any time in Settings.";
+"ApplyLanguage.ChangeLanguageOfficialText" = "You are about to apply a language pack (**%1$@**).\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform]().\n\nYou can change your language back at any time in Settings.";
+"ApplyLanguage.ChangeLanguageAction" = "Change";
+"ApplyLanguage.ApplyLanguageAction" = "Change";
+"ApplyLanguage.UnsufficientDataTitle" = "Insufficient Data";
+"ApplyLanguage.UnsufficientDataText" = "Unfortunately, this custom language pack (%1$@) doesn't contain data for Telegram iOS. You can contribute to this language pack using the [translations platform]().";
+"ApplyLanguage.LanguageNotSupportedError" = "Sorry, this language doesn't seem to exist.";
+"ApplyLanguage.ApplySuccess" = "Language changed";
+
+"TextFormat.Bold" = "Bold";
+"TextFormat.Italic" = "Italic";
+"TextFormat.Monospace" = "Monospace";
+
+"TwoStepAuth.SetupPasswordTitle" = "Your Password";
+"TwoStepAuth.SetupPasswordDescription" = "Please create a password which will be used to protect your data.";
+"TwoStepAuth.ChangePassword" = "Change Password";
+"TwoStepAuth.ChangePasswordDescription" = "Please enter a new password which will be used to protect your data.";
+"TwoStepAuth.ReEnterPasswordTitle" = "Re-enter your Password";
+"TwoStepAuth.ReEnterPasswordDescription" = "Please confirm your password.";
+"TwoStepAuth.AddHintTitle" = "Add a Hint";
+"TwoStepAuth.AddHintDescription" = "You can create an optional hint for your password.";
+"TwoStepAuth.HintPlaceholder" = "Hint";
+"TwoStepAuth.RecoveryEmailTitle" = "Recovery Email";
+"TwoStepAuth.RecoveryEmailAddDescription" = "Please add your valid email. It is the only way to recover a forgotten password.";
+"TwoStepAuth.RecoveryEmailChangeDescription" = "Please enter your new recovery email. It is the only way to recover a forgotten password.";
+"TwoStepAuth.ChangeEmail" = "Change Recovery Email";
+"TwoStepAuth.ConfirmEmailDescription" = "Please enter the code we've just emailed at %1$@."; 
+"TwoStepAuth.ConfirmEmailCodePlaceholder" = "Code";
+"TwoStepAuth.ConfirmEmailResendCode" = "Resend Code";
+
+"TwoStepAuth.SetupPendingEmail" = "Your recovery email %@ needs to be confirmed and is not yet active.\n\nPlease check your email and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.SetupResendEmailCode" = "Resend Code";
+"TwoStepAuth.SetupResendEmailCodeAlert" = "The code has been sent. Please check your email. Be sure to check the spam folder as well.";
+"TwoStepAuth.EnterEmailCode" = "Enter Code";
+
+"TwoStepAuth.EnabledSuccess" = "Two-Step verification\nis enabled.";
+"TwoStepAuth.DisableSuccess" = "Two-Step verification\nis disabled.";
+"TwoStepAuth.PasswordChangeSuccess" = "Your password\nhas been changed.";
+"TwoStepAuth.EmailAddSuccess" = "Your recovery email\nhas been added.";
+"TwoStepAuth.EmailChangeSuccess" = "Your recovery email\nhas been changed.";
+
+"Conversation.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
+
+"InstantPage.TapToOpenLink" = "Tap to open the link:";
+"InstantPage.RelatedArticleAuthorAndDateTitle" = "%1$@ • %2$@";
+
 
 
 /* new from translations.telegram.org */

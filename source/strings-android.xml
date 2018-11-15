@@ -750,7 +750,7 @@
     <string name="LastSeenFormatted">last seen %1$s</string>
     <string name="LastSeenDateFormatted">last seen %1$s</string>
     <string name="InviteFriends">Invite Friends</string>
-    <string name="SearchFriends">Search friends</string>
+    <string name="SearchFriends">Search contacts</string>
     <string name="GlobalSearch">GLOBAL SEARCH</string>
     <string name="Lately">last seen recently</string>
     <string name="WithinAWeek">last seen within a week</string>
@@ -895,8 +895,8 @@
     <string name="MasksInfo">You can add masks to photos you send. To do this, open the photo editor before sending a photo.</string>
     <string name="FeaturedStickers">Trending Stickers</string>
     <string name="SuggestStickers">Suggest stickers by emoji</string>
-    <string name="SuggestStickersAll">All</string>
-    <string name="SuggestStickersInstalled">Added</string>
+    <string name="SuggestStickersAll">All Sets</string>
+    <string name="SuggestStickersInstalled">My Sets</string>
     <string name="SuggestStickersNone">None</string>
     <string name="FeaturedStickersInfo">These stickers are currently trending on Telegram. You can add custom stickers via the @stickers bot.</string>
     <string name="ArchivedStickers">Archived Stickers</string>
@@ -1010,8 +1010,8 @@
     <string name="Language">Language</string>
     <string name="LanguageCustom">Custom</string>
     <string name="LanguageTitle">Change language?</string>
-    <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
-    <string name="LanguageCustomAlert">You are about to apply an unofficial language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel].\n\nYou can change your language back at any time in Settings.</string>
+    <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform].\n\nYou can change your language back at any time in Settings.</string>
+    <string name="LanguageCustomAlert">You are about to apply an unofficial language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform].\n\nYou can change your language back at any time in Settings.</string>
     <string name="LanguageUnknownTitle">Insufficient data</string>
     <string name="LanguageUnofficial">Unofficial languages</string>
     <string name="LanguageUnsupportedError">There is no such language.</string>
@@ -1135,7 +1135,7 @@
     <string name="UseProxyPort">Port</string>
     <string name="UseProxySecret">Secret</string>
     <string name="UseProxyUsername">Username</string>
-    <string name="UseProxySocks5">SOCKS5</string>
+    <string name="UseProxySocks5">SOCKS5 Proxy</string>
     <string name="UseProxyTelegram">MTProto Proxy</string>
     <string name="UseProxyTelegramError">The proxy you are using is not configured correctly and will be disabled. Please find another one.</string>
     <string name="UseProxySponsor">Proxy sponsor</string>
