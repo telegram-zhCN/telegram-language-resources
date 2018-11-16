@@ -993,32 +993,32 @@
 
 "AccessDenied.Title" = "Please Allow Access";
 
-"AccessDenied.Contacts" = "Telegram messaging is based on your existing contact list.\n\nPlease go to Settings > Privacy > Contacts and set Telegram to ON.";
+"AccessDenied.Contacts" = "Telegram messaging is based on your existing contact list.\n\nPlease go to your device‘s settings > Privacy > Contacts and set Telegram to ON.";
 
-"AccessDenied.VoiceMicrophone" = "Telegram needs access to your microphone so that you can send voice messages.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VoiceMicrophone" = "Telegram needs access to your microphone so that you can send voice messages.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
 
-"AccessDenied.VideoMicrophone" = "Telegram needs access to your microphone so that you can record sound in videos recording.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VideoMicrophone" = "Telegram needs access to your microphone so that you can record sound in videos recording.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
 
-"AccessDenied.MicrophoneRestricted" = "Microphone access is restricted for Telegram.\n\nPlease go to Settings > General > Restrictions > Microphone and set Telegram to ON.";
+"AccessDenied.MicrophoneRestricted" = "Microphone access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Microphone and set Telegram to ON.";
 
 
-"AccessDenied.Camera" = "Telegram needs access to your camera so that you can take photos and videos.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
+"AccessDenied.Camera" = "Telegram needs access to your camera so that you can take photos and videos.\n\nPlease go to your device‘s settings > Privacy > Camera and set Telegram to ON.";
 
-"AccessDenied.CameraRestricted" = "Camera access is restricted for Telegram.\n\nPlease go to Settings > General > Restrictions > Camera and set Telegram to ON.";
+"AccessDenied.CameraRestricted" = "Camera access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Camera and set Telegram to ON.";
 
 "AccessDenied.CameraDisabled" = "Camera access is globally restricted on your phone.\n\nPlease go to Settings > General > Restrictions and set Camera to ON";
 
-"AccessDenied.PhotosAndVideos" = "Telegram needs access to your photo library so that you can send photos and videos.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
+"AccessDenied.PhotosAndVideos" = "Telegram needs access to your photo library so that you can send photos and videos.\n\nPlease go to your device‘s settings > Privacy > Photos and set Telegram to ON.";
 
-"AccessDenied.SaveMedia" = "Telegram needs access to your photo library so that you can save photos and videos.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
+"AccessDenied.SaveMedia" = "Telegram needs access to your photo library so that you can save photos and videos.\n\nPlease go to your device‘s settings > Privacy > Photos and set Telegram to ON.";
 
-"AccessDenied.PhotosRestricted" = "Photo access is restricted for Telegram.\n\nPlease go to Settings > General > Restrictions > Photos and set Telegram to ON.";
+"AccessDenied.PhotosRestricted" = "Photo access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Photos and set Telegram to ON.";
 
-"AccessDenied.LocationDenied" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to Settings > Privacy > Location Services and set Telegram to ON.";
+"AccessDenied.LocationDenied" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to your device‘s settings > Privacy > Location Services and set Telegram to ON.";
 
-"AccessDenied.LocationDisabled" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationDisabled" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to your device‘s settings > Privacy > Location Services and set it to ON.";
 
-"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to your device‘s settings > Privacy > Location Services and set it to ON.";
 
 "AccessDenied.Settings" = "Settings";
 
@@ -1198,7 +1198,7 @@
 
 "ChangePhone.ErrorOccupied" = "The number %@ is already connected to a Telegram account. Please delete that account before migrating to the new number.";
 
-"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to Settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to your device‘s settings > Privacy > Location Services and set it to ON.";
 
 "PrivacySettings.AuthSessions" = "Active Sessions";
 "AuthSessions.Title" = "Active Sessions";
@@ -2005,7 +2005,7 @@ Unused sets are archived when you add more.";
 "Conversation.JumpToDate" = "Jump To Date";
 "Conversation.AddToReadingList" = "Add to Reading List";
 
-"AccessDenied.CallMicrophone" = "Telegram needs access to your microphone so that you can make calls.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.CallMicrophone" = "Telegram needs access to your microphone so that you can make calls.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
 
 "Call.EncryptionKey.Title" = "Encryption Key";
 
@@ -2300,8 +2300,8 @@ Unused sets are archived when you add more.";
 "SharedMedia.CategoryLinks" = "Links";
 "SharedMedia.CategoryOther" = "Audio";
 
-"AccessDenied.VideoMessageCamera" = "Telegram needs access to your camera so that you can send video messages.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
-"AccessDenied.VideoMessageMicrophone" = "Telegram needs access to your microphone so that you can send video messages.\n\nPlease go to Settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VideoMessageCamera" = "Telegram needs access to your camera so that you can send video messages.\n\nPlease go to your device‘s settings > Privacy > Camera and set Telegram to ON.";
+"AccessDenied.VideoMessageMicrophone" = "Telegram needs access to your microphone so that you can send video messages.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
 
 "ChatSettings.AutomaticVideoMessageDownload" = "AUTOMATIC VIDEO MESSAGE DOWNLOAD";
 
@@ -2713,7 +2713,7 @@ Unused sets are archived when you add more.";
 
 
 
-"AccessDenied.LocationAlwaysDenied" = "If you'd like to share your Live Location with friends, Telegram needs location access when the app is in the background.\n\nPlease go to Settings > Privacy > Location Services and set Telegram to Always.";
+"AccessDenied.LocationAlwaysDenied" = "If you'd like to share your Live Location with friends, Telegram needs location access when the app is in the background.\n\nPlease go to your device‘s settings > Privacy > Location Services and set Telegram to Always.";
 
 "UserInfo.UnblockConfirmation" = "Unblock %@?";
 
@@ -3452,14 +3452,14 @@ Unused sets are archived when you add more.";
 
 "AuthSessions.Terminate" = "Terminate";
 
-"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %1$@ is already active.";
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "This language (%1$@) is already active.";
 "ApplyLanguage.ChangeLanguageTitle" = "Change Language?";
 "ApplyLanguage.ChangeLanguageUnofficialText" = "You are about to apply a custom language pack (**%1$@**) that is %2$@% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageOfficialText" = "You are about to apply a language pack (**%1$@**).\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageAction" = "Change";
 "ApplyLanguage.ApplyLanguageAction" = "Change";
 "ApplyLanguage.UnsufficientDataTitle" = "Insufficient Data";
-"ApplyLanguage.UnsufficientDataText" = "Unfortunately, this custom language pack (%1$@) doesn't contain data for Telegram iOS. You can contribute to this language pack using the [translations platform]().";
+"ApplyLanguage.UnsufficientDataText" = "Unfortunately, this custom language pack (%1$@) doesn't contain data for Telegram iOS. You can contribute to this language pack using the [translation platform]().";
 "ApplyLanguage.LanguageNotSupportedError" = "Sorry, this language doesn't seem to exist.";
 "ApplyLanguage.ApplySuccess" = "Language changed";
 

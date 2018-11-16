@@ -1844,7 +1844,7 @@
   <string name="TranslationMoreTitle">Can\'t find your language?</string>
   <string name="TranslationMoreDone">Got it</string>
   <string name="TranslationMoreCreate">Create</string>
-  <string name="TranslationMoreText">The list of available languages is managed by the [Translations Platform](https://translations.telegram.org).\n\nTelegram will offer you to switch to your language when a corresponding translation becomes officially available.\n\nWhile you\'re waiting, you can install custom localization files, join the [translation process](https://translations.telegram.org/en/android_x/), or create [your own](https://t.me/tgx_android_translate/) localization files.</string>
+  <string name="TranslationMoreText">The list of available languages is managed by the [Translation Platform](https://translations.telegram.org).\n\nTelegram will offer you to switch to your language when a corresponding translation becomes officially available.\n\nWhile you\'re waiting, you can install custom localization files, join the [translation process](https://translations.telegram.org/en/android_x/), or create [your own](https://t.me/tgx_android_translate/) localization files.</string>
   <string name="OK">OK</string>
   <string name="DeleteLanguageConfirm">Are you sure you want to delete this localization file?\n\n%1$s / %2$s will no longer be available in the list of installed languages.</string>
   <string name="RemoveLanguage">Delete Localization</string>
@@ -1884,7 +1884,7 @@
   <string name="ToolsShowToast">Show Toast</string>
   <string name="ToolsUntranslatedTitle">Untranslated</string>
   <string name="ToolsAllTitle">Strings</string>
-  <string name="ToolsOpenOnPlatform">Translations Platform</string>
+  <string name="ToolsOpenOnPlatform">Translation Platform</string>
   <string name="ToolsLocalePlaceholder">Locale. Examples: **ja-JP**, **zh-CN**, **ro-RO**</string>
   <string name="ToolsExportText">%1$s / %2$s\n\nExported from %3$s</string>
 

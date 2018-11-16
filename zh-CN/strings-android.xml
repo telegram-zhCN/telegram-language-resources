@@ -734,7 +734,7 @@
   <string name="LastSeenFormatted">最近上线于 %1$s</string>
   <string name="LastSeenDateFormatted">最近上线于 %1$s</string>
   <string name="InviteFriends">邀请朋友</string>
-  <string name="SearchFriends">搜索朋友</string>
+  <string name="SearchFriends">搜索联系人</string>
   <string name="GlobalSearch">全局搜索</string>
   <string name="Lately">近期有上线</string>
   <string name="WithinAWeek">最近一周内曾上线</string>
@@ -876,8 +876,8 @@
   <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
   <string name="FeaturedStickers">热门贴纸</string>
   <string name="SuggestStickers">通过 Emoji 推荐热门表情</string>
-  <string name="SuggestStickersAll">全部</string>
-  <string name="SuggestStickersInstalled">已添加的</string>
+  <string name="SuggestStickersAll">全部贴纸包</string>
+  <string name="SuggestStickersInstalled">已添加的贴纸包</string>
   <string name="SuggestStickersNone">无</string>
   <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
   <string name="ArchivedStickers">已归档贴纸</string>
@@ -1102,7 +1102,7 @@
   <string name="UseProxyPort">端口</string>
   <string name="UseProxySecret">密钥</string>
   <string name="UseProxyUsername">用户名</string>
-  <string name="UseProxySocks5">SOCKS5</string>
+  <string name="UseProxySocks5">SOCKS5 代理</string>
   <string name="UseProxyTelegram">MTProto 代理</string>
   <string name="UseProxyTelegramError">您正在使用的代理没有被正确配置并因此被禁用。请搜寻其它代理。</string>
   <string name="UseProxySponsor">代理赞助商</string>

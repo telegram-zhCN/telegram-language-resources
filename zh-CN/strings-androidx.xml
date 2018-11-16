@@ -124,22 +124,35 @@
   <string name="xGroups_other">%1$s 个群组</string>
   <string name="xWebsites_one">%1$s 个网站</string>
   <string name="xWebsites_other">%1$s 个网站</string>
-  <string name="xMinutes_one">%1$s 分钟</string>
-  <string name="xMinutes_other">%1$s 分钟</string>
-  <string name="xDays_one">%1$s 天</string>
-  <string name="xDays_other">%1$s 天</string>
   <string name="DeleteAccountIfAwayForDays_one">%1$s 天</string>
   <string name="DeleteAccountIfAwayForDays_other">%1$s 天</string>
   <string name="DeleteAccountIfAwayForMonths_one">%1$s 个月</string>
   <string name="DeleteAccountIfAwayForMonths_other">%1$s 个月</string>
   <string name="DeleteAccountIfAwayForYears_one">%1$s 年</string>
   <string name="DeleteAccountIfAwayForYears_other">%1$s 年</string>
-  <string name="xWeeks_one">%1$s 周</string>
-  <string name="xWeeks_other">%1$s 周</string>
-  <string name="xHours_one">%1$s 小时</string>
-  <string name="xHours_other">%1$s 小时</string>
+
   <string name="xSeconds_one">%1$s 秒</string>
   <string name="xSeconds_other">%1$s 秒</string>
+  <string name="xMinutes_one">%1$s 分钟</string>
+  <string name="xMinutes_other">%1$s 分钟</string>
+  <string name="xHours_one">%1$s 小时</string>
+  <string name="xHours_other">%1$s 小时</string>
+  <string name="xDays_one">%1$s 天</string>
+  <string name="xDays_other">%1$s 天</string>
+  <string name="xWeeks_one">%1$s 周</string>
+  <string name="xWeeks_other">%1$s 周</string>
+
+  <string name="xSecondsRelative_one">%1$s 秒</string>
+  <string name="xSecondsRelative_other">%1$s 秒</string>
+  <string name="xMinutesRelative_one">%1$s 分钟</string>
+  <string name="xMinutesRelative_other">%1$s 分钟</string>
+  <string name="xHoursRelative_one">%1$s 小时</string>
+  <string name="xHoursRelative_other">%1$s 小时</string>
+  <string name="xDaysRelative_one">%1$s 天</string>
+  <string name="xDaysRelative_other">%1$s 天</string>
+  <string name="xWeeksRelative_one">%1$s 周</string>
+  <string name="xWeeksRelative_other">%1$s 周</string>
+
   <string name="inXHours_one">%1$s 小时内</string>
   <string name="inXHours_other">%1$s 小时内</string>
   <string name="xChats_one">%1$s 个对话</string>
@@ -486,7 +499,6 @@
 或者将一些公开群组转为私有。</string>
   <string name="UserIsAlreadyInChat">该用户已在此群组</string>
   <string name="ProfilePhoto">头像</string>
-  <string name="ChatPhoto">对话标识</string>
   <string name="ShowInChat">在对话中查看</string>
   <string name="GroupIsFull">您尝试加入的群组已满员</string>
   <string name="PasswordIsInvalid">您输入的密码无效</string>
@@ -835,7 +847,6 @@
   <string name="ConfirmationCode">验证码</string>
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
   <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>
-  <string name="SentCallOnly">我们正在呼叫您的手机 **%1$s**。\n\n请不要接听，Telegram 将会自动处理接下来的事情。</string>
   <string name="SentCallCode">我们正在呼叫您的手机 **%1$s** 并播报验证码。</string>
   <string name="DidNotGetTheCode">没有收到验证码？</string>
   <string name="SuccessfullyChangedNumber">已成功将您的手机号码改为 %1$s。</string>
@@ -1526,7 +1537,7 @@
   <string name="DisconnectWebsite">断开连接</string>
   <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 账户吗？</string>
   <string name="DisconnectWebsiteBan">同时停止使用 %1$s</string>
-  <string name="ConnectedWebsitesDesc">轻触以取消该网站与 Telegram 账号的关联。</string>
+  <string name="ConnectedWebsitesDesc">轻触以取消该网站与 Telegram 账号的关联</string>
   <string name="NotificationsLed">LED</string>
   <string name="LedDisabled">无</string>
   <string name="LedDefault">默认</string>
@@ -1941,12 +1952,51 @@
   <string name="TdlibLogsWarningConfirm">继续</string>
 
   <string name="RtlLayout">右至左布局</string>
+  
 
   <string name="ThemeCreate">创建新主题</string>
+  
+  
+  
+  
   <string name="ThemeEdit">编辑主题</string>
+  
   <string name="ThemeRemove">删除主题</string>
   <string name="ThemeRemoveInfo">您确定要删除这套主题？此操作不可撤销。</string>
   <string name="ThemeRemoveConfirm">删除</string>
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
 
   
 
@@ -2196,6 +2246,10 @@
   <string name="xDays_two">%1$s 天</string>
   <string name="xDays_few">%1$s 天</string>
   <string name="xDays_many">%1$s 天</string>
+  <string name="xDaysRelative_zero">%1$s 天</string>
+  <string name="xDaysRelative_two">%1$s 天</string>
+  <string name="xDaysRelative_few">%1$s 天</string>
+  <string name="xDaysRelative_many">%1$s 天</string>
   <string name="xDaysShort_zero">%1$s 天</string>
   <string name="xDaysShort_two">%1$s 天</string>
   <string name="xDaysShort_few">%1$s 天</string>
@@ -2220,6 +2274,10 @@
   <string name="xHours_two">%1$s 小时</string>
   <string name="xHours_few">%1$s 小时</string>
   <string name="xHours_many">%1$s 小时</string>
+  <string name="xHoursRelative_zero">%1$s 小时</string>
+  <string name="xHoursRelative_two">%1$s 小时</string>
+  <string name="xHoursRelative_few">%1$s 小时</string>
+  <string name="xHoursRelative_many">%1$s 小时</string>
   <string name="xHoursShort_zero">%1$s 小时</string>
   <string name="xHoursShort_two">%1$s 小时</string>
   <string name="xHoursShort_few">%1$s 小时</string>
@@ -2256,6 +2314,10 @@
   <string name="xMinutes_two">%1$s 分钟</string>
   <string name="xMinutes_few">%1$s 分钟</string>
   <string name="xMinutes_many">%1$s 分钟</string>
+  <string name="xMinutesRelative_zero">%1$s 分钟</string>
+  <string name="xMinutesRelative_two">%1$s 分钟</string>
+  <string name="xMinutesRelative_few">%1$s 分钟</string>
+  <string name="xMinutesRelative_many">%1$s 分钟</string>
   <string name="xMinutesShort_zero">%1$s 分</string>
   <string name="xMinutesShort_two">%1$s 分</string>
   <string name="xMinutesShort_few">%1$s 分</string>
@@ -2308,6 +2370,10 @@
   <string name="xSeconds_two">%1$s 秒</string>
   <string name="xSeconds_few">%1$s 秒</string>
   <string name="xSeconds_many">%1$s 秒</string>
+  <string name="xSecondsRelative_zero">%1$s 秒</string>
+  <string name="xSecondsRelative_two">%1$s 秒</string>
+  <string name="xSecondsRelative_few">%1$s 秒</string>
+  <string name="xSecondsRelative_many">%1$s 秒</string>
   <string name="xSecondsShort_zero">%1$s 秒</string>
   <string name="xSecondsShort_two">%1$s 秒</string>
   <string name="xSecondsShort_few">%1$s 秒</string>
@@ -2364,6 +2430,10 @@
   <string name="xWeeks_two">%1$s 周</string>
   <string name="xWeeks_few">%1$s 周</string>
   <string name="xWeeks_many">%1$s 周</string>
+  <string name="xWeeksRelative_zero">%1$s 周</string>
+  <string name="xWeeksRelative_two">%1$s 周</string>
+  <string name="xWeeksRelative_few">%1$s 周</string>
+  <string name="xWeeksRelative_many">%1$s 周</string>
   <string name="xWeeksShort_zero">%1$s 周</string>
   <string name="xWeeksShort_two">%1$s 周</string>
   <string name="xWeeksShort_few">%1$s 周</string>
