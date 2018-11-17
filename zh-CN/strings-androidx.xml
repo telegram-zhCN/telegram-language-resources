@@ -1834,7 +1834,6 @@
   <string name="TranslationMoreTitle">找不到你的语言？</string>
   <string name="TranslationMoreDone">好</string>
   <string name="TranslationMoreCreate">创建</string>
-  <string name="TranslationMoreText">可用的语言列表由 [翻译平台](https://translations.telegram.org) 管理。\n\n当对您语言的翻译被正式发布时，Telegram 将会提示您切换到您的语言。\n\n在您等待途中，您可以安装自定义语言文件，加入 [翻译进程](https://translations.telegram.org/en/android_x/) 或创建您自己的 [语言文件](https://t.me/tgx_android_translate/) 。</string>
   <string name="OK">确定</string>
   <string name="DeleteLanguageConfirm">你确定你想要删除这个本地化文件吗？\n\n%1$s / %2$s 将不再可用。</string>
   <string name="RemoveLanguage">删除本地化文件</string>
@@ -1874,7 +1873,6 @@
   <string name="ToolsShowToast">显示 Toast 控件</string>
   <string name="ToolsUntranslatedTitle">未翻译</string>
   <string name="ToolsAllTitle">字符串</string>
-  <string name="ToolsOpenOnPlatform">翻译平台</string>
   <string name="ToolsLocalePlaceholder">语言代码。示例: **ja-JP**, **zh-CN**, **ro-RO**</string>
   <string name="ToolsExportText">%1$s / %2$s\n\n从 %3$s 导出</string>
 
