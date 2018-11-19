@@ -120,8 +120,8 @@
     <string name="NoChats">No chats yet...</string>
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
-    <string name="NoChatsHelp">Start messaging by pressing the\nnew message button in the bottom right corner\nor tap the menu button for more options.</string>
-    <string name="NoChatsContactsHelp">Start messaging by tapping the pencil button in the bottom right corner\nor tap the menu button for more options.</string>
+    <string name="NoChatsHelp">Start messaging by pressing the pencil button in the bottom right corner.</string>
+    <string name="NoChatsContactsHelp">Start messaging by tapping the pencil button in the bottom right corner.</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
     <string name="Connected">Connected</string>
