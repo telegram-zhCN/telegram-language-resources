@@ -25,14 +25,18 @@
     <string name="YourCode">Phone verification</string>
     <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
     <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
+    <string name="SentAppCodeTitle">Check your Telegram messages</string>
+    <string name="SentSmsCodeTitle">Enter code</string>
     <string name="SentCallCode">We\'re calling your phone **%1$s**.\n\nDon\'t accept the call, Telegram will process everything automatically.</string>
     <string name="SentCallOnly">We are calling your phone **%1$s** to dictate a code.</string>
     <string name="CallText">Telegram will call you in %1$d:%2$02d</string>
     <string name="SmsText">We will send you an SMS in %1$d:%2$02d</string>
     <string name="Calling">Calling you...</string>
+    <string name="SendingSms">Sending SMS...</string>
     <string name="Code">Code</string>
     <string name="WrongNumber">Wrong number?</string>
     <string name="DidNotGetTheCode">Didn\'t get the code?</string>
+    <string name="DidNotGetTheCodeSms">Send the code as an SMS</string>
     <string name="CancelAccountReset">Cancel account reset</string>
     <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
     <string name="ResetAccount">Reset account</string>
@@ -42,6 +46,7 @@
     <string name="ResetAccountButton">RESET ACCOUNT</string>
     <string name="CancelLinkExpired">Link is invalid or expired.</string>
     <string name="CancelLinkSuccess">The deletion process was cancelled for your account %1$s. You may close this window now.</string>
+    <string name="OtherLoginCode">Your login code is **%1$s**. Enter it in the Telegram app where you are trying to log in.\n\nDo not give this code to anyone.</string>
     <!--signup view-->
     <string name="YourName">Your name</string>
     <string name="RegisterText">Set up your first and last name</string>
@@ -1723,6 +1728,8 @@
     <string name="DeletePhoto">Delete photo</string>
     <string name="Set">Set</string>
     <string name="OK">OK</string>
+    <string name="Stop">Stop</string>
+    <string name="Continue">Continue</string>
     <string name="CreateLink">Create Link</string>
     <string name="Crop">CROP</string>
     <string name="UpdateApp">Update app</string>
@@ -1839,6 +1846,7 @@
     <string name="AreYouSureDeleteContact">Are you sure you want to delete this contact?</string>
     <string name="AreYouSureSecretChat">Are you sure you want to start a secret chat?</string>
     <string name="AreYouSureRegistration">Are you sure you want to cancel registration?</string>
+    <string name="StopVerification">Do you want to stop the phone number verification process?</string>
     <string name="AreYouSureClearHistory">Are you sure you want to clear history?</string>
     <string name="AreYouSureClearHistoryChannel">Delete all cached text and media from this channel?</string>
     <string name="AreYouSureClearHistoryGroup">Delete all cached text and media from this group?</string>

@@ -572,7 +572,7 @@
 // Blocked Users
 "BlockedUsers.Title" = "Blocked";
 "BlockedUsers.SelectUserTitle" = "Block User";
-"BlockedUsers.BlockUser" = "Block User";
+"BlockedUsers.BlockUser" = "Block User...";
 "BlockedUsers.BlockTitle" = "Block";
 "BlockedUsers.LeavePrefix" = "Leave ";
 "BlockedUsers.Info" = "Blocked users can't send you messages or add you to groups. They will not see your profile pictures, online and last seen status.";
@@ -3417,8 +3417,8 @@ Unused sets are archived when you add more.";
 "Share.AuthTitle" = "Log in to Telegram";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
 
-"Notifications.DisplayNamesOnLockScreen" = "Names on Locked Screen";
-"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. ";
+"Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
+"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "Include Muted Chats";

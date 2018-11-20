@@ -114,7 +114,6 @@
   <string name="NoChats">暂无对话...</string>
   <string name="RecentlyViewed">最近查看过</string>
   <string name="RecentlyViewedHide">隐藏</string>
-  <string name="NoChatsHelp">要开始对话\n请点击右下角的撰写按钮\n或者进入联系人界面。</string>
   <string name="WaitingForNetwork">等待网络...</string>
   <string name="Connecting">连接中...</string>
   <string name="Connected">已连接</string>
