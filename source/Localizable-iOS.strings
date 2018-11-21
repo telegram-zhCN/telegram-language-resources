@@ -372,6 +372,17 @@
 "Notification.MessageLifetime1d" = "1 day";
 "Notification.MessageLifetime1w" = "1 week";
 
+"Notification.Exceptions.AlwaysOn" = "Always On";
+"Notification.Exceptions.AlwaysOff" = "Always Off";
+"Notification.Exceptions.MutedUntil" = "Muted until %@";
+
+"Notification.Exceptions.AddException" = "Add an Exception";
+"Notification.Exceptions.NewException" = "New Exception";
+"Notification.Exceptions.NewException.NotificationHeader" = "NOTIFICATIONS";
+"Notification.Exceptions.Sound" = "Sound: %@";
+
+
+
 // Message
 "Message.Photo" = "Photo";
 "Message.Video" = "Video";
@@ -527,18 +538,23 @@
 "Notifications.MessageNotificationsPreview" = "Message Preview";
 "Notifications.MessageNotificationsSound" = "Sound";
 "Notifications.MessageNotificationsHelp" = "You can set custom notifications for specific users on their Info page.";
+"Notifications.MessageNotificationsExceptionsHelp" = "Set custom notifications for specific users.";
+
+
 
 "Notifications.GroupNotifications" = "GROUP NOTIFICATIONS";
 "Notifications.GroupNotificationsAlert" = "Alert";
 "Notifications.GroupNotificationsPreview" = "Message Preview";
 "Notifications.GroupNotificationsSound" = "Sound";
 "Notifications.GroupNotificationsHelp" = "You can set custom notifications for specific groups on the Group Info page.";
+"Notifications.GroupNotificationsExceptionsHelp" = "Set custom notifications for specific groups.";
 
 "Notifications.ChannelNotifications" = "CHANNEL NOTIFICATIONS";
 "Notifications.ChannelNotificationsAlert" = "Alert";
 "Notifications.ChannelNotificationsPreview" = "Message Preview";
 "Notifications.ChannelNotificationsSound" = "Sound";
 "Notifications.ChannelNotificationsHelp" = "You can set custom notifications for specific channels on the Channel Info page.";
+"Notifications.ChannelNotificationsExceptionsHelp" = "Set custom notifications for specific channels.";
 
 "Notifications.TextTone" = "Text Tone";
 "Notifications.AlertTones" = "ALERT TONES";
@@ -3418,7 +3434,7 @@ Unused sets are archived when you add more.";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
 
 "Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
-"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
+"Notifications.DisplayNamesOnLockScreenInfoWithLink" = "Display names in notifications when the device is locked. To disable, make sure that \"Show Previews\" is also set to \"When Unlocked\" or \"Never\" in [iOS Settings]";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "Include Muted Chats";
@@ -3500,6 +3516,16 @@ Unused sets are archived when you add more.";
 "InstantPage.TapToOpenLink" = "Tap to open the link:";
 "InstantPage.RelatedArticleAuthorAndDateTitle" = "%1$@ • %2$@";
 
+"AuthCode.Alert" = "Your login code is %@. Enter it in the Telegram app where you are trying to log in.\n\nDo not give this code to anyone.";
+"Login.CheckOtherSessionMessages" = "Check your Telegram messages";
+"Login.SendCodeViaSms" = "Send the code as an SMS";
+"Login.CancelPhoneVerification" = "Do you want to stop the phone number verification process?";
+"Login.CancelPhoneVerificationStop" = "Stop";
+"Login.CancelPhoneVerificationContinue" = "Continue";
+"Login.CodeExpired" = "Code expired, please login again.";
+"Login.CancelSignUpConfirmation" = "Do you want to stop the registration process?";
+
+"Passcode.AppLockedAlert" = "Telegram\nLocked";
 
 
 /* new from translations.telegram.org */
@@ -3514,6 +3540,7 @@ Unused sets are archived when you add more.";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Login.SmsRequestState1" = "Telegram will send you an SMS in %d:%.2d";
 "Map.ETAHours_0" = "%@ h";
+"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "You need to have Telegram Messenger installed to use Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "Not Now";

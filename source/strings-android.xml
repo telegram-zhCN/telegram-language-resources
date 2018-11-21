@@ -1016,7 +1016,7 @@
     <string name="LanguageCustom">Custom</string>
     <string name="LanguageTitle">Change language?</string>
     <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform].\n\nYou can change your language back at any time in Settings.</string>
-    <string name="LanguageCustomAlert">You are about to apply an unofficial language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform].\n\nYou can change your language back at any time in Settings.</string>
+    <string name="LanguageCustomAlert">You are about to apply a custom language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform].\n\nYou can change your language back at any time in Settings.</string>
     <string name="LanguageUnknownTitle">Insufficient data</string>
     <string name="LanguageUnofficial">Unofficial languages</string>
     <string name="LanguageUnsupportedError">There is no such language.</string>
@@ -1438,7 +1438,7 @@
     <string name="SharedMusicTab">AUDIO</string>
     <string name="SharedVoiceTab">VOICE</string>
     <string name="DocumentsTitle">Shared Files</string>
-    <string name="SharedMediaTitle">Shared Media</string>
+    <string name="SharedContentTitle">Shared Content</string>
     <string name="LinksTitle">Shared Links</string>
     <string name="AudioTitle">Shared Music</string>
     <string name="NoMedia">Share photos and videos in this chat and access them on any of your devices.</string>
@@ -2302,6 +2302,7 @@
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PrivacyPayments">Payments</string>
   <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
+  <string name="SharedMediaTitle">Shared Media</string>
   <string name="ViewDetails">VIEW CONTACT</string>
   <string name="_tg_cancel">Cancel</string>
   <string name="_tg_open_google_play">Open Google Play</string>

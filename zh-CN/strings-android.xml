@@ -25,6 +25,7 @@
   <string name="YourCode">手机验证</string>
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
   <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>
+  <string name="SentSmsCodeTitle">输入验证码</string>
   <string name="SentCallCode">我们正在呼叫您的手机 **%1$s**。\n\n请不要接听，Telegram 将会自动处理接下来的事情。</string>
   <string name="SentCallOnly">我们正在呼叫您的手机 **%1$s** 并播报验证码。</string>
   <string name="CallText">我们会在 %1$d:%2$02d 后使用电话语音播放验证码</string>
@@ -1646,6 +1647,8 @@
   <string name="DeletePhoto">删除图片</string>
   <string name="Set">确定</string>
   <string name="OK">确定</string>
+  <string name="Stop">停止</string>
+  <string name="Continue">继续</string>
   <string name="CreateLink">创建链接</string>
   <string name="Crop">裁剪</string>
   <string name="UpdateApp">更新应用</string>
