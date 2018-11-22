@@ -516,7 +516,7 @@
 "DialogList.You" = "You";
 
 // Settings
-"Settings.TabTitle" = "Settings";
+
 "Settings.SetProfilePhoto" = "Set Profile Photo";
 "Settings.Logout" = "Log Out";
 "Settings.Title" = "Settings";
@@ -3434,7 +3434,7 @@ Unused sets are archived when you add more.";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
 
 "Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
-"Notifications.DisplayNamesOnLockScreenInfoWithLink" = "Display names in notifications when the device is locked. To disable, make sure that \"Show Previews\" is also set to \"When Unlocked\" or \"Never\" in [iOS Settings]";
+"Notifications.DisplayNamesOnLockScreenInfoWithLink" = "Display names in notifications when the device is locked. To disable, make sure that \"Show Previews\" is also set to \"When Unlocked\" or \"Never\" in [iOS Settings > Notifications].";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "Include Muted Chats";

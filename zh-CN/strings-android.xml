@@ -1378,7 +1378,6 @@
   <string name="SharedMusicTab">音频</string>
   <string name="SharedVoiceTab">语音</string>
   <string name="DocumentsTitle">分享的文件</string>
-  <string name="SharedMediaTitle">分享的图片和视频</string>
   <string name="LinksTitle">分享的链接</string>
   <string name="AudioTitle">分享的音乐</string>
   <string name="NoMedia">在此对话中分享图片和视频，并在您所有的设备上访问。</string>
@@ -2192,6 +2191,7 @@
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
+  <string name="SharedMediaTitle">分享的图片和视频</string>
   <string name="ViewDetails">查看联系人</string>
   <string name="_tg_cancel">取消</string>
   <string name="_tg_open_google_play">打开 Google Play</string>
