@@ -506,6 +506,7 @@
     <string name="OpenChannel">VIEW CHANNEL</string>
     <string name="OpenMessage">VIEW MESSAGE</string>
     <string name="InstantViewNightMode">The dark theme will turn automatically during night time</string>
+    <string name="InstantViewReference">Reference</string>
     <string name="IsSendingGame">%1$s is playing a game...</string>
     <string name="IsSendingVideo">%1$s is sending video...</string>
     <string name="IsSendingFile">%1$s is sending file...</string>
