@@ -970,7 +970,7 @@
     <string name="InAppPreview">In-App Preview</string>
     <string name="Reset">Reset</string>
     <string name="ResetAllNotifications">Reset All Notifications</string>
-    <string name="UndoAllCustom">Undo all custom notification settings for all your contacts and groups</string>
+    <string name="UndoAllCustom">Undo all custom notification settings for all your contacts, groups and channels</string>
     <string name="NotificationsAndSounds">Notifications and Sounds</string>
     <string name="CustomNotifications">Custom Notifications</string>
     <string name="ProfilePopupNotification">Popup notifications</string>
@@ -2010,6 +2010,12 @@
     <string name="Chats_few">%1$d chats</string>
     <string name="Chats_many">%1$d chats</string>
     <string name="Chats_other">%1$d chats</string>
+    <string name="ChatsException_zero">%1$d chats</string>
+    <string name="ChatsException_one">%1$d chat</string>
+    <string name="ChatsException_two">%1$d chats</string>
+    <string name="ChatsException_few">%1$d chats</string>
+    <string name="ChatsException_many">%1$d chats</string>
+    <string name="ChatsException_other">%1$d chats</string>
     <string name="Channels_zero">%1$d channels</string>
     <string name="Channels_one">%1$d channel</string>
     <string name="Channels_two">%1$d channels</string>

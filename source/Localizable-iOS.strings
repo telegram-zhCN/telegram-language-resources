@@ -567,7 +567,7 @@
 
 "Notifications.Reset" = "Reset";
 "Notifications.ResetAllNotifications" = "Reset All Notifications";
-"Notifications.ResetAllNotificationsHelp" = "Undo all custom notification settings for all your contacts and groups.";
+"Notifications.ResetAllNotificationsHelp" = "Undo all custom notification settings for all your contacts, groups and channels.";
 
 // Chat Settings
 "ChatSettings.Title" = "Data and Storage";
