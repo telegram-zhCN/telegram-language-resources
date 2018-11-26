@@ -499,6 +499,7 @@
 或者将一些公开群组转为私有。</string>
   <string name="UserIsAlreadyInChat">该用户已在此群组</string>
   <string name="ProfilePhoto">头像</string>
+  <string name="ChatPhoto">群组图片</string>
   <string name="ShowInChat">在对话中查看</string>
   <string name="GroupIsFull">您尝试加入的群组已满员</string>
   <string name="PasswordIsInvalid">您输入的密码无效</string>

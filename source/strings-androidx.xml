@@ -277,6 +277,7 @@
   <string name="CopiedUsername">Username has been copied to the clipboard</string>
   <string name="CopiedLink">Link has been copied to the clipboard</string>
   <string name="CopiedText">Text has been copied to the clipboard</string>
+  <string name="CopiedColor">Color and its name have been copied to the clipboard</string>
   <string name="passcode_pattern_tooshort">Pattern should be at least 4 dots long</string>
   <string name="passcode_password_tooshort">Password should be at least 1 character long</string>
 
@@ -493,7 +494,7 @@
   <string name="TooManyPublicLinks">Sorry, you have created too many public links. Try deleting or making some of your groups or channels private.</string>
   <string name="UserIsAlreadyInChat">User is already in chat</string>
   <string name="ProfilePhoto">Profile photo</string>
-  <string name="ChatPhoto">Group photo</string>
+  <string name="GroupPhoto">Chat photo</string>
   <string name="ChannelPhoto">Channel photo</string>
   <string name="ShowInChat">Show in Chat</string>
   <string name="GroupIsFull">The group you tried to join is full</string>
@@ -700,7 +701,7 @@
   <string name="InvalidPasswordTryAgain">Invalid password. Please try again</string>
   <string name="PasswordAndHintMustBeDifferent">Password and hint must be different.</string>
   <string name="RecoveryCodeInvalid">Invalid recovery code. Please try again</string>
-  <string name="PasswordMatchesOldOne">Password is the same as the old one.</string>
+  <string name="PasswordMatchesOldOne">Password hasn\'t changed.</string>
   <string name="format_PasscodeTooManyAttempts">Too many attempts. %1$s</string>
   <string name="EmailMatchesOldOne">Email address hasn\'t changed.</string>
   <string name="Hint">Hint: %1$s</string>
@@ -813,7 +814,7 @@
   <string name="ActionPinnedSticker">%1$s pinned a **sticker**</string>
   <string name="ActionPinnedGif">%1$s pinned a **GIF**</string>
   <string name="ActionPinnedFile">%1$s pinned a **file**</string>
-  <string name="ActionPinnedMusic">%1$s pinned a **track**</string>
+  <string name="ActionPinnedMusic">%1$s pinned an **audio file**</string>
   <string name="ActionPinnedPhoto">%1$s pinned a **photo**</string>
   <string name="ActionPinnedVideo">%1$s pinned a **video**</string>
   <string name="ActionPinnedRound">%1$s pinned a **video message**</string>
@@ -1292,7 +1293,7 @@
   <string name="JoinChat">Join Chat</string>
   <string name="MemberCanJoinGroup">%1$s will be able to return to the group.</string>
   <string name="MemberCannotJoinGroup">%1$s will not be able to return to the group unless added back by admin.</string>
-  <string name="MemberCanJoinChannel">%1$s will be able to return to channel.</string>
+  <string name="MemberCanJoinChannel">%1$s will be able to return to the channel.</string>
   <string name="MemberCannotJoinChannel">%1$s will not be able to return to the channel unless added back by admin.</string>
   <string name="Unban">Unban</string>
   <string name="BanMember">Ban Member</string>
@@ -1470,7 +1471,7 @@
   <string name="ChatAccessPrivateChannel">This channel is private</string>
   <string name="YouCantInviteMembers">You can\'t add members to this chat</string>
   <string name="RecoveryCodeSent">We\'ve sent you a 6-digit recovery code to %1$s. Please check your email and enter it here.</string>
-  <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you a 6-digit recovery code. Check your email and enter it here.</string>
+  <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you a 6-digit recovery code. Please check your email and enter it here.</string>
   <string name="RestoreEmailTroubleUnknown">Having trouble accessing your email?</string>
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">Phone Call</string>
@@ -1969,51 +1970,127 @@
   <string name="NoEmailApp">No email application found</string>
 
   <string name="RtlLayout">Right-to-Left Layout</string>
-  
 
   <string name="ThemeCreate">Create New Theme</string>
-  
-  
-  
-  
-  <string name="ThemeEdit">Edit Theme</string>
-  
-  <string name="ThemeRemove">Delete Theme</string>
+  <string name="ThemeCreateInfo">New theme will be based on the %1$s theme.</string>
+  <string name="ThemeEditInfo">%1$s theme</string>
+  <string name="ThemeExportInfo">%1$s theme</string>
+  <string name="ThemeCopy">Create Copy</string>
+  <string name="ThemeCreateConfirm">Create</string>
+  <string name="ThemeCreateTitle">New Theme</string>
+  <string name="ThemeName">Name</string>
+  <string name="ThemeEdit">Edit</string>
+  <string name="ThemeRemove">Delete</string>
+  <string name="ThemeRemoveConfirm">Delete Theme</string>
   <string name="ThemeRemoveInfo">Are you sure you want to delete this theme? This action cannot be undone.</string>
-  <string name="ThemeRemoveConfirm">Delete</string>
 
-  
-  
-  
-  
-  
-  
-  
+  <string name="ThemeCategoryMain">Main</string>
+  <string name="ThemeCategoryMain_info">This list contains main colors of the app.\nRefer to other categories for the granular setup.</string>
+  <string name="ThemeCategoryContent">Content</string>
+  <string name="ThemeCategoryNavigation">Header</string>
+  <string name="ThemeCategoryControls">Controls</string>
+  <string name="ThemeCategoryChats">Chats</string>
+  <string name="ThemeCategoryBubbles">Bubbles</string>
+  <string name="ThemeCategoryColors">Media</string>
+  <string name="ThemeCategoryIV">Instant View</string>
+  <string name="ThemeCategoryOther">Other</string>
+  <string name="ThemeCategoryInternal">Internal</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="ThemeSectionText">Text</string>
+  <string name="ThemeSectionPlayer">Music Player</string>
+  <string name="ThemeSectionIcons">Icons</string>
+  <string name="ThemeSectionBackground">Background</string>
+  <string name="ThemeSectionRadios_info">These colors are displayed in Settings&#160;&gt;&#160;Theme.\nMake sure they clearly represent corresponding themes on your **filling** color.</string>
+  <string name="ThemeSectionUnsorted">Unsorted</string>
+  <string name="ThemeSectionAttach">Attach Menu</string>
+  <string name="ThemeSectionMedia">Media</string>
+  <string name="ThemeSectionUsers">Users</string>
 
-  
+  <string name="ColorHex">Hex</string>
 
-  
+  <string name="ColorRed">R</string>
+  <string name="ColorGreen">G</string>
+  <string name="ColorBlue">B</string>
+  <string name="ColorAlpha">A</string>
 
-  
+  <string name="ColorDefault">Default</string>
+  <string name="ColorHue">H</string>
+  <string name="ColorSaturation">S</string>
+  <string name="ColorLightness">L</string>
+  <string name="ColorAlphaPercentage">A%</string>
 
-  
-  
+  <string name="ThemeEditName">Edit Name</string>
+  <string name="ThemeColorFormat">Color Format</string>
 
+  <string name="ThemeCalcTitle">Remove Transparency</string>
+  <string name="ThemeCalcHint">Background (color or identifier)</string>
+  <string name="ThemeCalcSave">Calculate</string>
 
+  <string name="ColorClearAll_one">Delete %1$s other version of %2$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorClearAll_other">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorClearDone_one">Delete %1$s color</string>
+  <string name="ColorClearDone_other">Delete %1$s colors</string>
+  <string name="ColorRemove">Delete current version of %1$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorRemoveDone">Delete Color</string>
+
+  <string name="ColorTypeHex">Hex (#RRGGBBAA)</string>
+  <string name="ColorTypeRGBA">RGBA (Red, Green, Blue, Alpha)</string>
+  <string name="ColorTypeHSLA">HSLA (Hue, Saturation, Lightness, Alpha)</string>
+
+  <string name="ThemeExport">Export</string>
+  <string name="ThemeExportDone">Export</string>
+  <string name="ThemeExportReduceSize">Reduce theme size</string>
+  <string name="ThemeExportAddAuthor">Include author username</string>
+  <string name="ThemeExportAddAuthorTitle">Theme Author</string>
+  <string name="ThemeExportAddAuthorInfo">Username or link</string>
+
+  <string name="FileNameCopy">%1$s (copy)</string>
+  <string name="FileNameDuplicate">%1$s #%2$d</string>
+
+  <string name="ThemeInstall">Apply %1$s theme?</string>
+  <string name="ThemeInstallAuthor">Apply %1$s theme by %2$s?</string>
+  <string name="ThemeInstallHint">You can switch between installed themes in Settings&#160;&gt;&#160;Themes</string>
+  <string name="ThemeInstallDone">Apply theme</string>
+  <string name="ThemeInstallBtn">Install theme</string>
+
+  <string name="xColors_one">%1$s color</string>
+  <string name="xColors_other">%1$s colors</string>
+
+  <string name="xProperty_one">%1$s property</string>
+  <string name="xProperty_other">%1$s properties</string>
+
+  <string name="ValueReset">Default</string>
+
+  <string name="ThemeAdvanced">Properties</string>
+  <string name="ThemeAdvancedEdit">Edit Property</string>
+
+  <string name="ThemeFile">Theme, %1$s</string>
+
+  <string name="c_fillingPressed">Hold to see **fillingPressed** in action. Used on **Android&#160;4.x only**.</string>
+  <string name="c_placeholder">Placeholder color used before image gets loaded.</string>
+  <string name="c_previewBackground">Transparent background drawn under sticker, media, and chat previews.</string>
+  <string name="c_overlayFilling">Three-dot menus, sticker suggestions, small circle buttons, etc.</string>
+  <string name="c_fillingNegative">Swipe to see **fillingNegative** in action.</string>
+  <string name="c_fillingPositive">Background of the send button in the share menu.</string>
+  <string name="c_textSearchQueryHighlight">Current query highlight when searching chats, contacts, etc.</string>
+  <string name="c_textSelectionHighlight">Selected text background.</string>
+  <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>
+  <string name="c_textNeutral">Buttons with neutral effect: save, done, cancel, etc.</string>
+  <string name="c_textNegative">Buttons with negative effect: delete, remove, clear, etc.</string>
+
+  <string name="p_parentTheme">Theme to be used, when color or property is not explicitly set.</string>
+  <string name="p_replaceShadowsWithSeparators">Replaces horizontal shadows with thin solid separators.</string>
+  <string name="p_shadowDepth">Depth of all shadows. Higher value means darker shadow. Default: light themes – 0.5, dark – 1.0</string>
+  <string name="p_imageCorner">Image corner radius. Usually ignored in bubble mode.</string>
+  <string name="p_bubbleCorner">Bubble corner radius.</string>
+  <string name="p_bubbleCornerMerged">Bubble corner radius then its merged with another bubble.</string>
+  <string name="p_bubbleCornerLegacy">Bubble corner radius on **Android&#160;4.x**.</string>
+  <string name="p_bubbleOutline">Toggles solid bubble outline of **bubbleOut_outline** or **bubbleIn_outline** color.\nEnable this property, if you change **bubbleCorner** values.</string>
+  <string name="p_bubbleOutlineSize">Width of the bubble outline. Used when **bubbleOutline** is enabled.</string>
+  <string name="p_subtitleAlpha">Transparency of **headerText** or **headerLightText** in the tab navigation, header subtitles, etc.</string>
+  <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
+  <string name="p_wallpaperUsageId">Magic property that allows sharing wallpaper settings between similar themes. 0 – light, 1 – dark, 2 – exclusive to theme.\n\nPrefer changing **parentTheme**, instead of overriding this property.</string>
+  <string name="p_dark">Determines if the theme is dark and should be used at night.\n\nPrefer changing **parentTheme**, instead of overriding this property.</string>
 
   
 
@@ -2047,6 +2124,15 @@
   <string name="AttachVideosSuffix_two">" videos"</string>
   <string name="AttachVideosSuffix_few">" videos"</string>
   <string name="AttachVideosSuffix_many">" videos"</string>
+  <string name="ChatPhoto">Chat photo</string>
+  <string name="ColorClearAll_zero">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorClearAll_two">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorClearAll_few">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorClearAll_many">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
+  <string name="ColorClearDone_zero">Delete %1$s colors</string>
+  <string name="ColorClearDone_two">Delete %1$s colors</string>
+  <string name="ColorClearDone_few">Delete %1$s colors</string>
+  <string name="ColorClearDone_many">Delete %1$s colors</string>
   <string name="ContactsOnTelegramMany_zero">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_two">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_few">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
@@ -2251,6 +2337,10 @@
   <string name="xChats_two">%1$s chats</string>
   <string name="xChats_few">%1$s chats</string>
   <string name="xChats_many">%1$s chats</string>
+  <string name="xColors_zero">%1$s colors</string>
+  <string name="xColors_two">%1$s colors</string>
+  <string name="xColors_few">%1$s colors</string>
+  <string name="xColors_many">%1$s colors</string>
   <string name="xContacts_zero">%1$s contacts</string>
   <string name="xContacts_two">%1$s contacts</string>
   <string name="xContacts_few">%1$s contacts</string>
@@ -2379,6 +2469,10 @@
   <string name="xProfilePhotos_two">%1$s profile photos</string>
   <string name="xProfilePhotos_few">%1$s profile photos</string>
   <string name="xProfilePhotos_many">%1$s profile photos</string>
+  <string name="xProperty_zero">%1$s properties</string>
+  <string name="xProperty_two">%1$s properties</string>
+  <string name="xProperty_few">%1$s properties</string>
+  <string name="xProperty_many">%1$s properties</string>
   <string name="xSec_zero">%1$s sec</string>
   <string name="xSec_two">%1$s sec</string>
   <string name="xSec_few">%1$s sec</string>

@@ -183,7 +183,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_code_ph" = "Your code";
 "lng_code_desc" = "We've sent an activation code to your phone.\nPlease enter it below.";
-"lng_code_telegram" = "We've sent a code [b]via Telegram[/b] to your other devices. Please enter it below.";
+"lng_code_telegram" = "We've sent a code [b]via Telegram[/b]\nto your other devices. Please enter it below.";
 "lng_code_no_telegram" = "Send code via SMS";
 "lng_code_call" = "Telegram will call you in {minutes}:{seconds}";
 "lng_code_calling" = "Requesting a call from Telegram...";
@@ -1807,7 +1807,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_switch_title" = "Change language?";
 "lng_language_switch_about_official" = "You are about to apply a language pack ({lang_name}) that is {percent}% complete.\n\nThis will translate the entire interface. You can suggest corrections in the {link}.\n\nYou can change your language back at any time in Settings.";
 "lng_language_switch_about_unofficial" = "You are about to apply a custom language pack ({lang_name}) that is {percent}% complete.\n\nThis will translate the entire interface. You can suggest corrections in the {link}.\n\nYou can change your language back at any time in Settings.";
-"lng_language_switch_link" = "translation platform";
+"lng_language_switch_link" = "translations platform";
 "lng_language_switch_apply" = "Change";
 "lng_language_not_found" = "Sorry, this language pack doesn't exist.";
 "lng_language_already" = "You're already using this language pack. You can change your language back in Settings.";

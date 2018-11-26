@@ -516,7 +516,6 @@
 "DialogList.You" = "You";
 
 // Settings
-
 "Settings.SetProfilePhoto" = "Set Profile Photo";
 "Settings.Logout" = "Log Out";
 "Settings.Title" = "Settings";
@@ -1862,7 +1861,7 @@
 "Invitation.Members_0" = "%@ members:";
 
 "StickerPacksSettings.ArchivedPacks" = "Archived Stickers";
-"StickerPacksSettings.ArchivedPacks.Info" = "You can have up to 200 sticker sets installed.\nUnused stickers are archived when you add more.";
+"StickerPacksSettings.ArchivedPacks.Info" = "You can add up to 200 sticker sets.\nUnused sets are archived when you add more.";
 
 "Conversation.CloudStorageInfo.Title" = "Your Cloud Storage";
 "Conversation.ClousStorageInfo.Description1" = "• Forward messages here to save them";
