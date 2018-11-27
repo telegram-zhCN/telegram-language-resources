@@ -229,7 +229,7 @@
   <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
   <string name="MegaPrivateLinkHelp">人们可以通过上方链接加入您的群组。您可以随时撤销这个链接。</string>
   <string name="DescriptionOptionalPlaceholder">简介 (可选)</string>
-  <string name="DescriptionPlaceholder">频道简介</string>
+  <string name="DescriptionPlaceholder">简介</string>
   <string name="DescriptionInfo">您可以给您的频道添加一段简介。</string>
   <string name="ChannelPublic">公开频道</string>
   <string name="MegaPublic">公开群组</string>
@@ -319,7 +319,7 @@
   <string name="ChannelMessageFew">%1$s 发送了 %2$s </string>
   <string name="ChannelMessageAudio">%1$s 发送了一条语音消息</string>
   <string name="ChannelMessageRound">%1$s 发送了一条视频消息</string>
-  <string name="ChannelMessageMusic">%1$s 发送了一首音乐</string>
+  <string name="ChannelMessageMusic">%1$s 发布了一首音乐</string>
   <string name="ChannelMessageSticker">%1$s 发送了一张贴纸</string>
   <string name="ChannelMessageStickerEmoji">%1$s 发送了一张 %2$s 贴纸</string>
   <string name="WhoCanAddMembers">谁可以添加成员？</string>
@@ -596,7 +596,7 @@
   <string name="ReportChatViolence">暴力</string>
   <string name="ReportChatPornography">色情</string>
   <string name="ReportChatOther">其它</string>
-  <string name="ReportChatDescription">描述</string>
+  <string name="ReportChatDescription">简介</string>
   <string name="PinnedMessage">置顶消息</string>
   <string name="EditedMessage">已编辑</string>
   <string name="EditMessage">编辑消息</string>
@@ -678,14 +678,14 @@
   <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到 %2$s 群组</string>
   <string name="NotificationMessageGroupContact">%1$s 分享了一个联系人到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
-  <string name="NotificationMessageGroupLiveLocation">%1$s 共享了实时位置到 %2$s 群组</string>
+  <string name="NotificationMessageGroupLiveLocation">%1$s 在群组 %2$s 中共享了实时位置</string>
   <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s 来玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
   <string name="NotificationMessageGroupInvoice">%1$s 因 %3$s 给 %2$s 群组发送了一张订单</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一条语音消息到群组 %2$s</string>
   <string name="NotificationMessageGroupRound">%1$s 发送了一条视频消息到群组 %2$s</string>
-  <string name="NotificationMessageGroupMusic">%1$s 发送了一首音乐到 %2$s 群组</string>
+  <string name="NotificationMessageGroupMusic">%1$s 发送了一首音乐到 %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s 发送了一张贴纸到群组 %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s 发送了一张 %3$s 贴纸到群组 %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s 邀请您加入群组 %2$s </string>
@@ -852,7 +852,7 @@
   <string name="EncryptionKeyDescription">这是您与 **%1$s** 私密对话加密密钥的可视化图片。\n\n如果这张图片看起来和 **%2$s** 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 telegram.org 的 FAQ</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">未知</string>
-  <string name="Info">个人信息</string>
+  <string name="Info">信息</string>
   <string name="Phone">手机号码</string>
   <string name="SharedContent">分享的内容</string>
   <string name="SharedPhotosAndVideos">图片与视频</string>
@@ -909,8 +909,6 @@
   <string name="ArchivedMasks">已归档装饰</string>
   <string name="ArchivedStickersEmpty">没有已归档的贴纸</string>
   <string name="ArchivedMasksEmpty">暂无已归档装饰</string>
-  <string name="ArchivedStickersInfo">您最多能够拥有 200 个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
-  <string name="ArchivedMasksInfo">您最多能够拥有 200 个装饰包。未被使用的装饰包将在您添加新装饰包时被归档。</string>
   <string name="SendSticker">发送贴纸</string>
   <string name="ArchivedStickersAlertTitle">已归档贴纸</string>
   <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被归档。你可以在设置里重新激活它们。</string>
@@ -970,7 +968,6 @@
   <string name="InAppPreview">应用内消息预览</string>
   <string name="Reset">重置</string>
   <string name="ResetAllNotifications">重置所有通知设置</string>
-  <string name="UndoAllCustom">撤消对所有联系人、群组和频道的自定义通知设置</string>
   <string name="NotificationsAndSounds">通知和声音</string>
   <string name="CustomNotifications">自定义通知</string>
   <string name="ProfilePopupNotification">浮动通知</string>
@@ -1022,6 +1019,7 @@
   <string name="LanguageUnofficial">非官方语言</string>
   <string name="LanguageUnsupportedError">没有这样的语言。</string>
   <string name="LanguageSame">您已经在使用此语言包了（**%1$s**）。您可以随时在“设置”中更改语言。</string>
+  <string name="LanguageUnknownCustomAlert">很遗憾，此自定义语言包（**%1$s**）不包含 Telegram Android 版所需的数据。</string>
   <string name="AskAQuestionInfo">请注意，Telegram 的支持服务由全球志愿者提供，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。\n\n请前往 <![CDATA[<a href="https://telegram.org/faq#general-questions">Telegram 常见问题</a>]]> 看看：那里有绝大多数问题的答案和重要的<![CDATA[<a href="https://telegram.org/faq#troubleshooting">故障排除</a>]]>提示。</string>
   <string name="AskButton">向志愿者提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
@@ -1036,9 +1034,7 @@
   <string name="DeleteLocalization">删除此本地化文件？</string>
   <string name="IncorrectLocalization">无效的本地化文件</string>
   <string name="NotificationsService">后台服务常驻</string>
-  <string name="NotificationsServiceInfo">当应用被终止时自动重启后台服务，确保及时收到通知。</string>
   <string name="NotificationsServiceConnection">后台网络连接</string>
-  <string name="NotificationsServiceConnectionInfo">Telegram 接收通知需要一个低功耗的后台网络连接。打开此开关以确保收到通知。</string>
   <string name="SortBy">排序</string>
   <string name="ImportContacts">导入通讯录</string>
   <string name="SortFirstName">名字</string>
@@ -1051,6 +1047,8 @@
   <string name="AlwaysShowPopup">总是弹出对话框</string>
   <string name="BadgeNumber">未读消息数量提示</string>
   <string name="BadgeNumberShow">启用</string>
+  <string name="BadgeNumberMutedChats">包含已关闭提醒的对话</string>
+  <string name="BadgeNumberUnread">统计未读消息</string>
   <string name="Short">短</string>
   <string name="Long">长</string>
   <string name="AutomaticMediaDownload">自动下载媒体文件</string>
@@ -1122,6 +1120,7 @@
   <string name="DebugMenuDisableCamera">禁用应用内相机</string>
   <string name="DebugMenuResetContacts">重置已导入的通讯录</string>
   <string name="DebugMenuClearMediaCache">清除已发送的媒体缓存</string>
+  <string name="DebugMenuCallSettings">通话设置</string>
   <string name="ChangeLanguageLater">您可以稍后在设置中更改您的语言。</string>
   <string name="ChooseYourLanguage">选择您的语言</string>
   <string name="ChooseYourLanguageOther">其它</string>
@@ -1164,9 +1163,17 @@
   <string name="TapToChangePhone">点按更改手机号码</string>
   <string name="Appearance">外观</string>
   <string name="StickersAndMasks">贴纸和装饰</string>
+  <string name="ThemeInfo">选择自定义配色方案</string>
+  <string name="NotificationsForChats">对话通知</string>
   <string name="NotificationsPrivateChats">私聊</string>
   <string name="NotificationsGroups">共同群组</string>
   <string name="NotificationsChannels">频道</string>
+  <string name="NotificationsExceptionsAlert">请注意，**%1$s** 是例外，不会受到此更改的影响</string>
+  <string name="NotificationsExceptionsSingleAlert">请注意，**%1$s** 是例外，不会受到此更改的影响</string>
+  <string name="ViewExceptions">查看例外</string>
+  <string name="NotificationsForGroups">群组通知</string>
+  <string name="NotificationsForPrivateChats">加密对话通知</string>
+  <string name="NotificationsForChannels">频道通知</string>
   <!--cache view-->
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1269,7 +1276,7 @@
   <string name="PassportBirthdate">出生日期</string>
   <string name="PassportGender">性别</string>
   <string name="PassportDocumentNumber">证件编号</string>
-  <string name="PassportExpired">有效期至</string>
+  <string name="PassportExpired">失效日期</string>
   <string name="PassportCitizenship">国籍</string>
   <string name="PassportResidence">住址</string>
   <string name="PassportSelfie">自拍照</string>
@@ -1382,6 +1389,8 @@
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
   <string name="AreYouSureWebSessions">是否取消与所有使用 Telegram 登录的网站的关联？</string>
   <string name="ClearOtherWebSessionsHelp">您可以在支持的网站上使用 Telegram 登录。</string>
+  <string name="LoginAttempts">未完成的登陆请求</string>
+  <string name="LoginAttemptsInfo">这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的密码。</string>
   <!--passcode view-->
   <string name="Passcode">锁定码</string>
   <string name="ChangePasscode">修改锁定码</string>
@@ -1401,7 +1410,6 @@
   <string name="UnlockFingerprint">指纹解锁</string>
   <string name="FingerprintInfo">请验证指纹</string>
   <string name="FingerprintHelp">请按下手指</string>
-  <string name="FingerprintNotRecognized">指纹未识别，请重试。</string>
   <string name="ScreenCapture">允许屏幕抓取</string>
   <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但您的聊天内容会在后台应用列表中展现，即使您启用了锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
   <string name="TooManyTries">尝试次数过多
@@ -1413,6 +1421,7 @@
   <string name="SharedMusicTab">音频</string>
   <string name="SharedVoiceTab">语音</string>
   <string name="DocumentsTitle">分享的文件</string>
+  <string name="SharedContentTitle">分享的内容</string>
   <string name="LinksTitle">分享的链接</string>
   <string name="AudioTitle">分享的音乐</string>
   <string name="NoMedia">在此对话中分享图片和视频，并在您所有的设备上访问。</string>
@@ -1531,6 +1540,8 @@
   <string name="PleaseEnterPassword">请输入新的解锁密码</string>
   <string name="PleaseReEnterPassword">请再次输入密码</string>
   <string name="RecoveryEmail">密码恢复邮箱</string>
+  <string name="YourEmail">您的邮箱地址</string>
+  <string name="YourEmailCode">您的邮件验证码</string>
   <string name="YourEmailSkip">跳过</string>
   <string name="YourEmailSkipWarning">警告</string>
   <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
@@ -1551,6 +1562,8 @@
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
   <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
   <string name="RestorePasswordResetAccount">重置帐户</string>
+  <string name="RestoreEmailSent">我们已经将验证码发送到了您的邮箱：\n\n%1$s</string>
+  <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
   <string name="ResetMyAccount">重置我的帐户</string>
   <string name="ResetMyAccountText">如果您确认重置您的帐户，您将丢失所有的聊天记录、分享的媒体文件和个人数据。</string>
   <string name="ResetMyAccountWarning">警告</string>
@@ -1820,6 +1833,7 @@
   <string name="UserRestricted">抱歉，您无法执行此操作。</string>
   <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>
   <string name="JoinGroup">加入群组</string>
+  <string name="AddAdminErrorNotAMember">抱歉，您无法将这位用户设为管理员。因为该用户不是此群组的成员，且您也无权添加该用户。</string>
   <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在群组的黑名单中，并且您也不能解除其封禁。</string>
   <string name="AddBannedErrorAdmin">抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也不被允许撤销其管理员权限。</string>
   <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的权限。</string>
@@ -1881,7 +1895,6 @@
   <string name="VoipSettingsRingtone">铃声</string>
   <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
   <string name="Calls">通话</string>
-  <string name="CustomP2PInfo">无论上面如何设置，通话中的端对端连接都会或者不会对这些用户启用。</string>
   <string name="P2PEnabledWith">对谁启用端对端连接？</string>
   <string name="WhoCanCallMe">谁可以给我打电话？</string>
   <string name="WhoCanCallMeInfo">您可以限制能够给您打电话的人。</string>
@@ -2183,12 +2196,6 @@
   <string name="ForwardedVideo_few">%1$d 段转发的视频</string>
   <string name="ForwardedVideo_many">%1$d 段转发的视频</string>
   <string name="ForwardedVideo_other">%1$d 段转发的视频</string>
-  <string name="ForwardedMusic_zero">%1$d 首转发的音乐</string>
-  <string name="ForwardedMusic_one">转发的音乐</string>
-  <string name="ForwardedMusic_two">%1$d 首转发的音乐</string>
-  <string name="ForwardedMusic_few">%1$d 首转发的音乐</string>
-  <string name="ForwardedMusic_many">%1$d 首转发的音乐</string>
-  <string name="ForwardedMusic_other">%1$d 首转发的音乐</string>
   <string name="ForwardedAudio_zero">%1$d 条转发的语音消息</string>
   <string name="ForwardedAudio_one">转发的语音消息</string>
   <string name="ForwardedAudio_two">%1$d 条转发的语音消息</string>

@@ -499,7 +499,7 @@
 或者将一些公开群组转为私有。</string>
   <string name="UserIsAlreadyInChat">该用户已在此群组</string>
   <string name="ProfilePhoto">头像</string>
-  <string name="ChatPhoto">群组图片</string>
+  <string name="GroupPhoto">对话标识</string>
   <string name="ShowInChat">在对话中查看</string>
   <string name="GroupIsFull">您尝试加入的群组已满员</string>
   <string name="PasswordIsInvalid">您输入的密码无效</string>
@@ -703,7 +703,6 @@
   <string name="InvalidPasswordTryAgain">密码无效，请重新输入。</string>
   <string name="PasswordAndHintMustBeDifferent">密码与密码提示不能相同。</string>
   <string name="RecoveryCodeInvalid">恢复码无效，请重新输入。</string>
-  <string name="PasswordMatchesOldOne">新密码与旧密码相同。</string>
   <string name="format_PasscodeTooManyAttempts">请求太过频繁。%1$s</string>
   <string name="Hint">提示： %1$s</string>
   <string name="PrivateChats">私聊</string>
@@ -815,7 +814,6 @@
   <string name="ActionPinnedSticker">%1$s 置顶了 1 张**贴纸**</string>
   <string name="ActionPinnedGif">%1$s 置顶了 1 个 **GIF**</string>
   <string name="ActionPinnedFile">%1$s 置顶了 1 个**文件**</string>
-  <string name="ActionPinnedMusic">%1$s 置顶了 1 首**音乐**</string>
   <string name="ActionPinnedPhoto">%1$s 置顶了 1 张**图片**</string>
   <string name="ActionPinnedVideo">%1$s 置顶了一段**视频**</string>
   <string name="ActionPinnedRound">%1$s 置顶了一条**视频留言**</string>
@@ -1292,7 +1290,6 @@
   <string name="LinkCurrent">t.me/%1$s 是您当前的公开链接。</string>
   <string name="LoadingActions">加载管理操作……</string>
   <string name="JoinChat">加入对话</string>
-  <string name="MemberCanJoinChannel">%1$s 将可以返回此频道。</string>
   <string name="Unban">解除封禁</string>
   <string name="BanMember">封禁此成员</string>
   <string name="RemoveFromGroup">从群组中移除</string>
@@ -1951,53 +1948,36 @@
   <string name="TdlibLogsWarningConfirm">继续</string>
 
   <string name="RtlLayout">右至左布局</string>
-  
 
   <string name="ThemeCreate">创建新主题</string>
-  
-  
-  
-  
-  <string name="ThemeEdit">编辑主题</string>
-  
-  <string name="ThemeRemove">删除主题</string>
+  <string name="ThemeCreateConfirm">创建</string>
+  <string name="ThemeCreateTitle">新建主题</string>
+  <string name="ThemeName">姓名</string>
+  <string name="ThemeEdit">编辑</string>
+  <string name="ThemeRemove">删除</string>
+  <string name="ThemeRemoveConfirm">删除主题</string>
   <string name="ThemeRemoveInfo">您确定要删除这套主题？此操作不可撤销。</string>
-  <string name="ThemeRemoveConfirm">删除</string>
 
-  
-  
-  
-  
-  
-  
-  
+  <string name="ThemeCategoryMain">主要</string>
+  <string name="ThemeCategoryNavigation">头部</string>
+  <string name="ThemeCategoryChats">聊天</string>
+  <string name="ThemeCategoryBubbles">气泡</string>
+  <string name="ThemeCategoryColors">多媒体</string>
+  <string name="ThemeCategoryIV">即时预览</string>
+  <string name="ThemeCategoryOther">其它</string>
+  <string name="ThemeSectionText">文本</string>
+  <string name="ThemeSectionPlayer">音乐播放器</string>
+  <string name="ThemeSectionBackground">聊天背景</string>
+  <string name="ThemeSectionMedia">多媒体</string>
+  <string name="ThemeSectionUsers">用户</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-  
+  <string name="ColorBlue">B</string>
+  <string name="ColorDefault">默认</string>
+  <string name="ThemeEditName">编辑姓名</string>
+  <string name="ThemeExport">导出</string>
+  <string name="ThemeExportDone">导出</string>
+  <string name="ThemeInstallDone">应用主题</string>
+  <string name="ValueReset">默认</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -2029,6 +2009,7 @@
   <string name="AttachVideosSuffix_two">段视频</string>
   <string name="AttachVideosSuffix_few">段视频</string>
   <string name="AttachVideosSuffix_many">段视频</string>
+  <string name="ChatPhoto">对话标识</string>
   <string name="ContactsOnTelegramMany_zero">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
   <string name="ContactsOnTelegramMany_two">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>
   <string name="ContactsOnTelegramMany_few">%2$s 和其他 %1$s 名联系人也在使用 Telegram。</string>

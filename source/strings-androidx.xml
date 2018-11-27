@@ -494,7 +494,7 @@
   <string name="TooManyPublicLinks">Sorry, you have created too many public links. Try deleting or making some of your groups or channels private.</string>
   <string name="UserIsAlreadyInChat">User is already in chat</string>
   <string name="ProfilePhoto">Profile photo</string>
-  <string name="GroupPhoto">Chat photo</string>
+  <string name="GroupPhoto">Group photo</string>
   <string name="ChannelPhoto">Channel photo</string>
   <string name="ShowInChat">Show in Chat</string>
   <string name="GroupIsFull">The group you tried to join is full</string>
@@ -2083,9 +2083,9 @@
   <string name="p_shadowDepth">Depth of all shadows. Higher value means darker shadow. Default: light themes – 0.5, dark – 1.0</string>
   <string name="p_imageCorner">Image corner radius. Usually ignored in bubble mode.</string>
   <string name="p_bubbleCorner">Bubble corner radius.</string>
-  <string name="p_bubbleCornerMerged">Bubble corner radius then its merged with another bubble.</string>
+  <string name="p_bubbleCornerMerged">Bubble corner radius when its merged with another bubble.</string>
   <string name="p_bubbleCornerLegacy">Bubble corner radius on **Android&#160;4.x**.</string>
-  <string name="p_bubbleOutline">Toggles solid bubble outline of **bubbleOut_outline** or **bubbleIn_outline** color.\nEnable this property, if you change **bubbleCorner** values.</string>
+  <string name="p_bubbleOutline">Toggles solid bubble outline of **bubbleOut_outline** or **bubbleIn_outline** color.\n\nEnable this property, if you change **bubbleCorner** values.</string>
   <string name="p_bubbleOutlineSize">Width of the bubble outline. Used when **bubbleOutline** is enabled.</string>
   <string name="p_subtitleAlpha">Transparency of **headerText** or **headerLightText** in the tab navigation, header subtitles, etc.</string>
   <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
