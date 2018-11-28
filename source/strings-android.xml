@@ -595,6 +595,7 @@
     <string name="ReportChatSpam">Spam</string>
     <string name="ReportChatViolence">Violence</string>
     <string name="ReportChatPornography">Pornography</string>
+    <string name="ReportChatChild">Child Abuse</string>
     <string name="ReportChatOther">Other</string>
     <string name="ReportChatDescription">Description</string>
     <string name="PinnedMessage">Pinned Message</string>

@@ -2059,6 +2059,9 @@
   <string name="xProperty_one">%1$s property</string>
   <string name="xProperty_other">%1$s properties</string>
 
+  <string name="xItem_one">%1$s item</string>
+  <string name="xItem_other">%1$s items</string>
+
   <string name="ValueReset">Default</string>
 
   <string name="ThemeAdvanced">Properties</string>
@@ -2083,7 +2086,7 @@
   <string name="p_shadowDepth">Depth of all shadows. Higher value means darker shadow. Default: light themes – 0.5, dark – 1.0</string>
   <string name="p_imageCorner">Image corner radius. Usually ignored in bubble mode.</string>
   <string name="p_bubbleCorner">Bubble corner radius.</string>
-  <string name="p_bubbleCornerMerged">Bubble corner radius when its merged with another bubble.</string>
+  <string name="p_bubbleCornerMerged">Bubble corner radius when merged with another bubble.</string>
   <string name="p_bubbleCornerLegacy">Bubble corner radius on **Android&#160;4.x**.</string>
   <string name="p_bubbleOutline">Toggles solid bubble outline of **bubbleOut_outline** or **bubbleIn_outline** color.\n\nEnable this property, if you change **bubbleCorner** values.</string>
   <string name="p_bubbleOutlineSize">Width of the bubble outline. Used when **bubbleOutline** is enabled.</string>
@@ -2091,6 +2094,8 @@
   <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
   <string name="p_wallpaperUsageId">Magic property that allows sharing wallpaper settings between similar themes. 0 – light, 1 – dark, 2 – exclusive to theme.\n\nPrefer changing **parentTheme**, instead of overriding this property.</string>
   <string name="p_dark">Determines if the theme is dark and should be used at night.\n\nPrefer changing **parentTheme**, instead of overriding this property.</string>
+
+  <string name="format_mediaIndexAndTime">%1$s, %2$s</string>
 
   
 
@@ -2389,6 +2394,10 @@
   <string name="xHoursShort_two">%1$sh</string>
   <string name="xHoursShort_few">%1$sh</string>
   <string name="xHoursShort_many">%1$sh</string>
+  <string name="xItem_zero">%1$s items</string>
+  <string name="xItem_two">%1$s items</string>
+  <string name="xItem_few">%1$s items</string>
+  <string name="xItem_many">%1$s items</string>
   <string name="xLines_zero">%1$s lines</string>
   <string name="xLines_two">%1$s lines</string>
   <string name="xLines_few">%1$s lines</string>

@@ -909,6 +909,10 @@
   <string name="ArchivedMasks">已归档装饰</string>
   <string name="ArchivedStickersEmpty">没有已归档的贴纸</string>
   <string name="ArchivedMasksEmpty">暂无已归档装饰</string>
+  <string name="ArchivedStickersInfo">你可以拥有最多 200 个贴纸包。
+未使用的贴纸将在你添加更多的贴纸时被归档。</string>
+  <string name="ArchivedMasksInfo">你可以拥有最多 200 套装饰。
+未使用的装饰将在你添加更多的装饰时被归档。</string>
   <string name="SendSticker">发送贴纸</string>
   <string name="ArchivedStickersAlertTitle">已归档贴纸</string>
   <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被归档。你可以在设置里重新激活它们。</string>
@@ -968,6 +972,7 @@
   <string name="InAppPreview">应用内消息预览</string>
   <string name="Reset">重置</string>
   <string name="ResetAllNotifications">重置所有通知设置</string>
+  <string name="UndoAllCustom">撤消对所有联系人、群组和频道的自定义通知设置</string>
   <string name="NotificationsAndSounds">通知和声音</string>
   <string name="CustomNotifications">自定义通知</string>
   <string name="ProfilePopupNotification">浮动通知</string>
@@ -1034,7 +1039,9 @@
   <string name="DeleteLocalization">删除此本地化文件？</string>
   <string name="IncorrectLocalization">无效的本地化文件</string>
   <string name="NotificationsService">后台服务常驻</string>
+  <string name="NotificationsServiceInfo">当应用被终止时自动重启后台服务，确保及时收到通知。</string>
   <string name="NotificationsServiceConnection">后台网络连接</string>
+  <string name="NotificationsServiceConnectionInfo">保持一个与 Telegram 的低功耗后台网络连接以获得可靠的通知。</string>
   <string name="SortBy">排序</string>
   <string name="ImportContacts">导入通讯录</string>
   <string name="SortFirstName">名字</string>
@@ -1410,6 +1417,7 @@
   <string name="UnlockFingerprint">指纹解锁</string>
   <string name="FingerprintInfo">请验证指纹</string>
   <string name="FingerprintHelp">请按下手指</string>
+  <string name="FingerprintNotRecognized">指纹未识别，请重试。</string>
   <string name="ScreenCapture">允许屏幕抓取</string>
   <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但您的聊天内容会在后台应用列表中展现，即使您启用了锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
   <string name="TooManyTries">尝试次数过多
@@ -1511,6 +1519,7 @@
   <string name="BlurRadial">圆形</string>
   <string name="AreYouSureDeletePhoto">确定删除此图片？</string>
   <string name="AreYouSureDeleteVideo">确定删除此视频？</string>
+  <string name="AreYouSureDeleteGIF">您确定要删除此 GIF 吗？</string>
   <string name="DiscardChanges">放弃修改？</string>
   <string name="ClearSearch">是否清除搜索历史？</string>
   <string name="ClearButton">清除</string>
@@ -1542,17 +1551,23 @@
   <string name="RecoveryEmail">密码恢复邮箱</string>
   <string name="YourEmail">您的邮箱地址</string>
   <string name="YourEmailCode">您的邮件验证码</string>
+  <string name="YourEmailCodeInfo">请输入您在 %1$s 上收到的代码，以确认您的电子邮件地址</string>
+  <string name="YourEmailInfo">请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
   <string name="YourEmailSkip">跳过</string>
   <string name="YourEmailSkipWarning">警告</string>
   <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
   <string name="YourEmailAlmostThere">快完成了！</string>
+  <string name="YourEmailAlmostThereText">查看您的邮箱（不要忘记垃圾邮件文件夹），并按要求完成两步验证设置。</string>
   <string name="YourPasswordSuccess">成功！</string>
   <string name="YourPasswordSuccessText">您的两步验证密码现已启用。</string>
+  <string name="YourEmailSuccessText">您的两步验证密码恢复邮箱现已启用。</string>
   <string name="ChangePassword">更改密码</string>
   <string name="TurnPasswordOff">删除密码</string>
   <string name="SetRecoveryEmail">设置密码找回邮箱</string>
   <string name="ChangeRecoveryEmail">更改密码找回邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
+  <string name="CancelPasswordQuestion">您确定要终止两步验证设置？</string>
+  <string name="CancelEmailQuestion">您确定要终止恢复邮箱设置？</string>
   <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram Passport 中的数据将丢失！</string>
   <string name="PasswordHint">密码提示</string>
   <string name="PasswordHintText">请设置一个密码提示</string>
@@ -2196,6 +2211,11 @@
   <string name="ForwardedVideo_few">%1$d 段转发的视频</string>
   <string name="ForwardedVideo_many">%1$d 段转发的视频</string>
   <string name="ForwardedVideo_other">%1$d 段转发的视频</string>
+  <string name="ForwardedMusic_zero">%1$d 条转发的音频</string>
+  <string name="ForwardedMusic_two">%1$d 条转发的音频</string>
+  <string name="ForwardedMusic_few">%1$d 条转发的音频</string>
+  <string name="ForwardedMusic_many">%1$d 条转发的音频</string>
+  <string name="ForwardedMusic_other">%1$d 条转发的音频文件</string>
   <string name="ForwardedAudio_zero">%1$d 条转发的语音消息</string>
   <string name="ForwardedAudio_one">转发的语音消息</string>
   <string name="ForwardedAudio_two">%1$d 条转发的语音消息</string>
