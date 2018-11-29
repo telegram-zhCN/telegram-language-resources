@@ -1980,6 +1980,10 @@
   <string name="ThemeInstallDone">应用主题</string>
   <string name="ValueReset">默认</string>
 
+  <string name="format_mediaIndexAndTime">%1$s，%2$s</string>
+
+  
+
   <!-- new from translations.telegram.org -->
 
   <string name="AccurateToMeters_zero">精确到 %1$s 米</string>

@@ -24,6 +24,7 @@
 "Peer.Status.justNow" = "last seen just now";
 "Peer.Status.lastWeek" = "last seen within a week";
 "Peer.Status.lastMonth" = "last seen within a month";
+"Peer.Status.longTimeAgo" = "last seen a long time ago";
 
 "Peer.Status.Today" = "today";
 "Peer.Status.Yesterday" = "yesterday";
@@ -31,6 +32,7 @@
 
 
 /* do not translate key with 'countable' suffix */
+
 "Peer.Status.Member_countable" = "%d";
 "Peer.Status.Member_zero" = "%d members";
 "Peer.Status.Member_one" = "%d member";
@@ -283,6 +285,9 @@
 "Gallery.Context.ShowMessage" = "Show Message";
 "Gallery.Context.CopyToClipboard" = "Copy to Clipboard";
 "Gallery.ContextDeletePhoto" = "Delete";
+
+"Gallery.WaitDownload.Photo" = "Please wait for the photo to be fully downloaded.";
+"Gallery.WaitDownload.Video" = "Please wait for the video to be fully downloaded.";
 
 "Chat.Input.Accessory.EditMessage" = "Edit Message";
 "Chat.Message.edited" = "edited";
@@ -1688,6 +1693,8 @@
 
 "Text.Context.Copy.Link" = "Copy Link";
 "Text.Context.Copy.Email" = "Copy Email";
+"Text.Context.Copy.Code" = "Copy Code";
+
 "Text.Context.Copy.Username" = "Copy Username";
 "Text.Context.Copy.Hashtag" = "Copy Hashtag";
 "Text.Context.Copy.Command" = "Copy Command";
@@ -2249,6 +2256,24 @@
 "Gallery.Context.Share.AllPhotos_other" = "All %d photos";
 
 
+"Gallery.Context.Share.ThisVideo" = "This Video";
+"Gallery.Context.Share.AllVideos_countable" = "%d";
+"Gallery.Context.Share.AllVideos_zero" = "All %d Videos";
+"Gallery.Context.Share.AllVideos_one" = "All %d Videos";
+"Gallery.Context.Share.AllVideos_two" = "All %d Videos";
+"Gallery.Context.Share.AllVideos_few" = "All %d Videos";
+"Gallery.Context.Share.AllVideos_many" = "All %d Videos";
+"Gallery.Context.Share.AllVideos_other" = "All %d Videos";
+
+"Gallery.Context.Share.AllItems_countable" = "%d";
+"Gallery.Context.Share.AllItems_zero" = "All %d Items";
+"Gallery.Context.Share.AllItems_one" = "All %d Items";
+"Gallery.Context.Share.AllItems_two" = "All %d Items";
+"Gallery.Context.Share.AllItems_few" = "All %d Items";
+"Gallery.Context.Share.AllItems_many" = "All %d Items";
+"Gallery.Context.Share.AllItems_other" = "All %d Items";
+
+
 "Gallery.Context.ShowGallery" = "Shared Media";
 
 
@@ -2301,9 +2326,9 @@
 
 "EditImageControl.Confirm.Discard" = "Are you sure you want to discard all changes?";
 
-/* "_NS:103.title" = "Edit"; */
-/* "_NS:167.title" = "Window"; */
-/* "_NS:81.title" = "View"; */
+"_NS:103.title" = "Edit";
+"_NS:167.title" = "Window";
+"_NS:81.title" = "View";
 
 
 "Message.Status.Archiving" = "%d% archived";
@@ -2314,9 +2339,6 @@
 
 
 
-
-/* new from translations.telegram.org */
-
-"_NS:103.title" = "Edit";
-"_NS:167.title" = "Window";
-"_NS:81.title" = "View";
+"Chat.SendMessageErrorFlood" = "Sorry, you can only send messages to mutual contacts at the moment.";
+"Chat.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
+"Generic.ErrorMoreInfo" = "More Info";

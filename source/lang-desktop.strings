@@ -1807,7 +1807,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_switch_title" = "Change language?";
 "lng_language_switch_about_official" = "You are about to apply a language pack ({lang_name}) that is {percent}% complete.\n\nThis will translate the entire interface. You can suggest corrections in the {link}.\n\nYou can change your language back at any time in Settings.";
 "lng_language_switch_about_unofficial" = "You are about to apply a custom language pack ({lang_name}) that is {percent}% complete.\n\nThis will translate the entire interface. You can suggest corrections in the {link}.\n\nYou can change your language back at any time in Settings.";
-"lng_language_switch_link" = "translations platform";
+"lng_language_switch_link" = "translation platform";
 "lng_language_switch_apply" = "Change";
 "lng_language_not_found" = "Sorry, this language pack doesn't exist.";
 "lng_language_already" = "You're already using this language pack. You can change your language back in Settings.";
