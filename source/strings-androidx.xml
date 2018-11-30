@@ -573,6 +573,7 @@
   <string name="NewSecretChatWith">New Secret Chat…</string>
   <string name="AwaitingEncryption">Waiting for %1$s to get online…</string>
   <string name="XJoinedSecretChat">%1$s joined the secret chat</string>
+  <string name="YouJoinedSecretChat">You joined the secret chat</string>
   <string name="SecretChatCancelled">Secret chat cancelled</string>
   <string name="SecretChats">Secret Chats</string>
   <string name="ChatTitleSecretChat">%1$s (secret chat)</string>
@@ -1974,7 +1975,6 @@
   <string name="ThemeCreate">Create New Theme</string>
   <string name="ThemeCreateInfo">New theme will be based on the %1$s theme.</string>
   <string name="ThemeEditInfo">%1$s theme</string>
-  <string name="ThemeExportInfo">%1$s theme</string>
   <string name="ThemeCopy">Create Copy</string>
   <string name="ThemeCreateConfirm">Create</string>
   <string name="ThemeCreateTitle">New Theme</string>
@@ -2039,8 +2039,12 @@
 
   <string name="ThemeExport">Export</string>
   <string name="ThemeExportDone">Export</string>
-  <string name="ThemeExportReduceSize">Reduce theme size</string>
-  <string name="ThemeExportAddAuthor">Include author username</string>
+  <string name="ThemeExportInfo">If you specify the author\'s username, it will be displayed to users before they install the theme.</string>
+  <!--
+  <string name="ThemeExportInfo">%1$s theme\n\nIncluding default values is useful for later access in text editor, but will increase theme file size.</string>
+  <string name="ThemeExportNeedDefault">Include default values</string>
+  <string name="ThemeExportAddAuthor">Include author</string>
+  -->
   <string name="ThemeExportAddAuthorTitle">Theme Author</string>
   <string name="ThemeExportAddAuthorInfo">Username or link</string>
 
@@ -2068,10 +2072,11 @@
   <string name="ThemeAdvancedEdit">Edit Property</string>
 
   <string name="ThemeFile">Theme, %1$s</string>
+  <string name="Demo">Demo</string>
 
   <string name="c_fillingPressed">Hold to see **fillingPressed** in action. Used on **Android&#160;4.x only**.</string>
   <string name="c_placeholder">Placeholder color used before image gets loaded.</string>
-  <string name="c_previewBackground">Transparent background drawn under sticker, media, and chat previews.</string>
+  <string name="c_previewBackground">Transparent background for the previews of stickers, media and chats.</string>
   <string name="c_overlayFilling">Three-dot menus, sticker suggestions, small circle buttons, etc.</string>
   <string name="c_fillingNegative">Swipe to see **fillingNegative** in action.</string>
   <string name="c_fillingPositive">Background of the send button in the share menu.</string>
@@ -2080,20 +2085,27 @@
   <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>
   <string name="c_textNeutral">Buttons with neutral effect: save, done, cancel, etc.</string>
   <string name="c_textNegative">Buttons with negative effect: delete, remove, clear, etc.</string>
+  <string name="c_drawer">Drawer header color overlay. By default uses **header** color.</string>
+  <string name="c_drawerText">Drawer header text color. By default uses **headerText** color.</string>
+  <string name="c_fileGreen">APK files</string>
+  <string name="c_fileYellow">Archive files: .zip, .rar, .7z</string>
+  <string name="c_fileRed">PDF files</string>
+  <string name="c_headerLightBackground">Light header is used when selecting media, messages, etc.</string>
+  <string name="c_chatBackground">Solid chat background used when wallpaper is not set.\n\nWhen empty, **background** color is used instead.</string>
 
-  <string name="p_parentTheme">Theme to be used, when color or property is not explicitly set.</string>
+  <string name="p_parentTheme">Default values are inherited from this theme when a color or property is not explicitly set.</string>
   <string name="p_replaceShadowsWithSeparators">Replaces horizontal shadows with thin solid separators.</string>
   <string name="p_shadowDepth">Depth of all shadows. Higher value means darker shadow. Default: light themes – 0.5, dark – 1.0</string>
   <string name="p_imageCorner">Image corner radius. Usually ignored in bubble mode.</string>
   <string name="p_bubbleCorner">Bubble corner radius.</string>
   <string name="p_bubbleCornerMerged">Bubble corner radius when merged with another bubble.</string>
   <string name="p_bubbleCornerLegacy">Bubble corner radius on **Android&#160;4.x**.</string>
-  <string name="p_bubbleOutline">Toggles solid bubble outline of **bubbleOut_outline** or **bubbleIn_outline** color.\n\nEnable this property, if you change **bubbleCorner** values.</string>
+  <string name="p_bubbleOutline">Enables a solid outline for bubbles. You can configure its color with **bubbleOut_outline** or **bubbleIn_outline**.\n\nEnable this property if you change **bubbleCorner** values.</string>
   <string name="p_bubbleOutlineSize">Width of the bubble outline. Used when **bubbleOutline** is enabled.</string>
   <string name="p_subtitleAlpha">Transparency of **headerText** or **headerLightText** in the tab navigation, header subtitles, etc.</string>
   <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
-  <string name="p_wallpaperUsageId">Magic property that allows sharing wallpaper settings between similar themes. 0 – light, 1 – dark, 2 – exclusive to theme.\n\nPrefer changing **parentTheme**, instead of overriding this property.</string>
-  <string name="p_dark">Determines if the theme is dark and should be used at night.\n\nPrefer changing **parentTheme**, instead of overriding this property.</string>
+  <string name="p_wallpaperUsageId">A magic property that allows sharing wallpaper settings between similar themes. 0 – light, 1 – dark, 2 – exclusive to theme.\n\nIt is preferable to change **parentTheme** instead of overriding this property.</string>
+  <string name="p_dark">Determines if the theme is dark and should be used at night.\n\nIt is preferable to change **parentTheme** instead of overriding this property.</string>
 
   <string name="format_mediaIndexAndTime">%1$s, %2$s</string>
 
