@@ -577,6 +577,7 @@
   <string name="NewSecretChatWith">新建加密对话...</string>
   <string name="AwaitingEncryption">等待 %1$s 上线……</string>
   <string name="XJoinedSecretChat">%1$s 加入了此加密对话</string>
+  <string name="YouJoinedSecretChat">您已加入私密对话。</string>
   <string name="SecretChatCancelled">加密对话已取消</string>
   <string name="SecretChats">加密对话</string>
   <string name="ChatTitleSecretChat">%1$s（加密对话）</string>
