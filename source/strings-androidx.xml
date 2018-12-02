@@ -2001,7 +2001,7 @@
   <string name="ThemeSectionIcons">Icons</string>
   <string name="ThemeSectionBackground">Background</string>
   <string name="ThemeSectionRadios_info">These colors are displayed in Settings&#160;&gt;&#160;Theme.\nMake sure they clearly represent corresponding themes on your **filling** color.</string>
-  <string name="ThemeSectionWP_info">These colors are used as a transparent overlay color when corresponding wallpaper is set: dates, unread separators, inline keyboards, etc.\n\nDo not change them, unless you are looking for a better color.</string>
+  <string name="ThemeSectionWP_info">These colors are used as a transparent overlay when the corresponding wallpaper is set: dates, unread separators, inline keyboards, etc.\n\nDo not change them unless you are looking for a better color.</string>
   <string name="ThemeSectionUnsorted">Unsorted</string>
   <string name="ThemeSectionAttach">Attach Menu</string>
   <string name="ThemeSectionMedia">Media</string>
@@ -2109,7 +2109,7 @@
   <string name="p_bubbleOutlineSize">Width of the bubble outline. Used when **bubbleOutline** is enabled.</string>
   <string name="p_subtitleAlpha">Transparency of **headerText** or **headerLightText** in the tab navigation, header subtitles, etc.</string>
   <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
-  <string name="p_wallpaperUsageId">A magic property that allows sharing wallpaper settings between similar themes. 0 – light, 1 – dark, 2 – exclusive to theme.\n\nIt is preferable to change **parentTheme** instead of overriding this property.</string>
+  <string name="p_wallpaperUsageId">A magic property that allows sharing wallpaper settings between similar themes. **0** – light, **1** – dark, **2** – exclusive to theme.\n\nSet to **2**, if your color palette significantly differs from **parentTheme**, or if you disable default wallpaper while creating light theme.</string>
   <string name="p_dark">Determines if the theme is dark and should be used at night.\n\nIt is preferable to change **parentTheme** instead of overriding this property.</string>
   <string name="p_bubbleDateCorner">Date background corner radius in the bubble mode.</string>
   <string name="p_dateCorner">Date background corner radius in the plain mode.</string>
@@ -2285,7 +2285,6 @@
   <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
-  <string name="c_chatBackground">Solid chat background used when wallpaper is not set.\n\nWhen empty, **background** color is used instead.</string>
   <string name="game_ActionUserScored_zero">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_two">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_few">%2$s scored %1$s</string>

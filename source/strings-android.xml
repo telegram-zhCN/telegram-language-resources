@@ -1127,7 +1127,7 @@
     <string name="DebugMenuResetContacts">Reset Imported Contacts</string>
     <string name="DebugMenuClearMediaCache">Clear sent media cache</string>
     <string name="DebugMenuCallSettings">Call settings</string>
-    <string name="ChangeLanguageLater">You can change your language in the Settings later.</string>
+    <string name="ChangeLanguageLater">You can change your language later in Settings.</string>
     <string name="ChooseYourLanguage">Choose your language</string>
     <string name="ChooseYourLanguageOther">Other</string>
     <string name="ProxySettings">Proxy Settings</string>
