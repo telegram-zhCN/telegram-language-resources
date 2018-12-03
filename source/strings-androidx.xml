@@ -2005,7 +2005,6 @@
   <string name="ThemeSectionUnsorted">Unsorted</string>
   <string name="ThemeSectionAttach">Attach Menu</string>
   <string name="ThemeSectionMedia">Media</string>
-  <string name="ThemeSectionUsers">Users</string>
 
   <string name="ColorHex">Hex</string>
 
@@ -2056,7 +2055,6 @@
   <string name="ThemeInstallAuthor">Apply %1$s theme by %2$s?</string>
   <string name="ThemeInstallHint">You can switch between installed themes in Settings&#160;&gt;&#160;Themes</string>
   <string name="ThemeInstallDone">Apply theme</string>
-  <string name="ThemeInstallBtn">Install theme</string>
 
   <string name="xColors_one">%1$s color</string>
   <string name="xColors_other">%1$s colors</string>
@@ -2111,8 +2109,11 @@
   <string name="p_wallpaperId">Default wallpaper identifier. 0 means wallpaper is disabled by default. Hold wallpaper thumbnail in settings to know its identifier. For solid wallpapers set to 0 and edit **bubble_chatBackground** color.</string>
   <string name="p_wallpaperUsageId">A magic property that allows sharing wallpaper settings between similar themes. **0** – light, **1** – dark, **2** – exclusive to theme.\n\nSet to **2**, if your color palette significantly differs from **parentTheme**, or if you disable default wallpaper while creating light theme.</string>
   <string name="p_dark">Determines if the theme is dark and should be used at night.\n\nIt is preferable to change **parentTheme** instead of overriding this property.</string>
-  <string name="p_bubbleDateCorner">Date background corner radius in the bubble mode.</string>
-  <string name="p_dateCorner">Date background corner radius in the plain mode.</string>
+  <string name="p_bubbleDateCorner">Background corner radius for dates in the bubble mode.</string>
+  <string name="p_dateCorner">Background corner radius for dates in the plain mode.</string>
+  <string name="p_bubbleUnreadShadow">Adds shadow to the unread messages separator in the bubble mode.</string>
+
+  <string name="g_noWallpaper">These colors are used when wallpaper is disabled or not yet loaded.\n\nIf your theme does not allow disabling wallpaper, you can ignore them.</string>
 
   <string name="format_mediaIndexAndTime">%1$s, %2$s</string>
 

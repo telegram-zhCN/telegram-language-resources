@@ -1129,7 +1129,6 @@
   <string name="DebugMenuResetContacts">重置已导入的通讯录</string>
   <string name="DebugMenuClearMediaCache">清除已发送的媒体缓存</string>
   <string name="DebugMenuCallSettings">通话设置</string>
-  <string name="ChangeLanguageLater">您可以稍后在设置中更改您的语言。</string>
   <string name="ChooseYourLanguage">选择您的语言</string>
   <string name="ChooseYourLanguageOther">其它</string>
   <string name="ProxySettings">代理设置</string>
