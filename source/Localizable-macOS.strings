@@ -41,6 +41,15 @@
 "Peer.Status.Member_many" = "%d members";
 "Peer.Status.Member_other" = "%d members";
 
+
+"Peer.Status.Member_countable" = "%d";
+"Peer.Status.Member_zero" = "%d members";
+"Peer.Status.Member_one" = "%d member";
+"Peer.Status.Member_two" = "%d members";
+"Peer.Status.Member_few" = "%d members";
+"Peer.Status.Member_many" = "%d members";
+"Peer.Status.Member_other" = "%d members";
+
 /* do not translate key with 'countable' suffix */
 "Peer.Status.Member.Online_countable" = "%d";
 "Peer.Status.Member.Online_zero" = "%d online";
@@ -79,6 +88,9 @@
 "PeerInfo.AddMember" = "Add Members";
 "PeerInfo.DeleteAndExit" = "Delete and Exit";
 "PeerInfo.LeaveGroup" = "Leave Group";
+
+"PeerInfo.StopBot" = "Stop Bot";
+"PeerInfo.RestartBot" = "Restart Bot";
 
 "PeerInfo.LeaveChannel" = "Leave Channel";
 "PeerInfo.Report" = "Report";
@@ -223,6 +235,7 @@
 "Chat.Input.Delete" = "Delete and exit";
 "Chat.Input.Join" = "Join";
 "Chat.Input.Unblock" = "Unblock";
+"Chat.Input.Restart" = "Restart";
 
 "Message.Context.Reply1" = "Reply";
 "Message.Context.ReplyHelp" = "double click";
@@ -527,7 +540,8 @@
 "ChatList.UnsupportedMessage" = "Message is not supported";
 "Chat.Message.Unsupported" = "This message is not supported by your version of Telegram. Please update to the latest version from the AppStore or install it from https://macos.telegram.org";
 "Text.Copy" = "Copy Selected Text";
-
+"Text.CopyText" = "Copy Text";
+"Text.CopyLabel" = "Copy %@";
 
 "Peer.Activity.User.TypingText" = "typing";
 "Peer.Activity.User.SendingPhoto" = "sending a photo";
@@ -754,6 +768,8 @@
 "ReportReason.Spam" = "Spam";
 "ReportReason.Violence" = "Violence";
 "ReportReason.Porno" = "Pornography";
+"ReportReason.ChildAbuse" = "Child Abuse";
+"ReportReason.Copyright" = "Copyright";
 "PeerInfo.ChannelReported" = "Thank you! Your report will be reviewed by our team soon.";
 
 "PeerInfo.SignMessages.Desc" = "Append names of the admins to the messages they post.";
@@ -1354,6 +1370,7 @@
 "Entertainment.Stickers" = "STICKERS";
 "Entertainment.GIF" = "GIFs";
 "ShareModal.Search.Placeholder" = "Share to...";
+"ShareModal.Search.ForwardPlaceholder" = "Forward to...";
 "InstantPage.AuthorAndDateTitle" = "By %1$@ • %2$@";
 "IV.Channel.Join" = "Join";
 
@@ -2342,3 +2359,6 @@
 "Chat.SendMessageErrorFlood" = "Sorry, you can only send messages to mutual contacts at the moment.";
 "Chat.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
 "Generic.ErrorMoreInfo" = "More Info";
+
+
+"Forward.ToSavedMessages" = "forward messages here for quick access";

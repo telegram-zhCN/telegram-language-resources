@@ -1970,7 +1970,6 @@
   <string name="ThemeSectionPlayer">音乐播放器</string>
   <string name="ThemeSectionBackground">聊天背景</string>
   <string name="ThemeSectionMedia">多媒体</string>
-  <string name="ThemeSectionUsers">用户</string>
 
   <string name="ColorBlue">B</string>
   <string name="ColorDefault">默认</string>
@@ -1978,6 +1977,7 @@
   <string name="ThemeExport">导出</string>
   <string name="ThemeExportDone">导出</string>
   <string name="ThemeInstallDone">应用主题</string>
+
   <string name="ValueReset">默认</string>
 
   <string name="format_mediaIndexAndTime">%1$s，%2$s</string>
