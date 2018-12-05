@@ -1983,6 +1983,8 @@
   <string name="ThemeRemove">Delete</string>
   <string name="ThemeRemoveConfirm">Delete Theme</string>
   <string name="ThemeRemoveInfo">Are you sure you want to delete this theme? This action cannot be undone.</string>
+  <string name="ThemeMinimize">Minimize</string>
+  <string name="ThemeClose">Close</string>
 
   <string name="ThemeCategoryAccent">Accent</string>
   <string name="ThemeCategoryAccent_info">This list contains accent colors of the app.\nRefer to other categories for the granular setup.</string>
