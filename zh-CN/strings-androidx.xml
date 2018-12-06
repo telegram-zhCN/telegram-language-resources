@@ -1959,6 +1959,8 @@
   <string name="ThemeRemove">删除</string>
   <string name="ThemeRemoveConfirm">删除主题</string>
   <string name="ThemeRemoveInfo">您确定要删除这套主题？此操作不可撤销。</string>
+  <string name="ThemeMinimize">最小化</string>
+  <string name="ThemeClose">关闭</string>
 
   <string name="ThemeCategoryNavigation">头部</string>
   <string name="ThemeCategoryChats">聊天</string>

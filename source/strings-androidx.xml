@@ -2086,8 +2086,8 @@
   <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>
   <string name="c_textNeutral">Buttons with neutral effect: save, done, cancel, etc.</string>
   <string name="c_textNegative">Buttons with negative effect: delete, remove, clear, etc.</string>
-  <string name="c_drawer">Drawer header color overlay. Uses **header** color when empty.</string>
-  <string name="c_drawerText">Drawer header text color. Uses **headerText** color when empty.</string>
+  <string name="c_drawer">Color overlay for the drawer header. When empty, **header** color is used.</string>
+  <string name="c_drawerText">Text color for the drawer header. When empty, **headerText** color is used.</string>
   <string name="c_fileGreen">APK files</string>
   <string name="c_fileYellow">Archive files: .zip, .rar, .7z</string>
   <string name="c_fileRed">PDF files</string>
