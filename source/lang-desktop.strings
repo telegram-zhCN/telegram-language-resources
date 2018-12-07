@@ -1,9 +1,9 @@
-/* 
-This file is part of Telegram Desktop, 
-the official desktop application for the Telegram messaging service. 
- 
-For license and copyright information please follow this link: 
-https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL 
+/*
+This file is part of Telegram Desktop,
+the official desktop application for the Telegram messaging service.
+
+For license and copyright information please follow this link:
+https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 */
 "lng_language_name" = "English";
 "lng_switch_to_this" = "Continue in English";
@@ -23,7 +23,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_quit_from_tray" = "Quit Telegram";
 "lng_tray_icon_text" = "Telegram is still running here,\nyou can change this from settings page.\nIf this icon disappears from tray menu,\nyou can drag it here from hidden icons.";
 
-/* For lng_month_year or plain month name. */
+/* For lng_month_year or plain month name. */
 "lng_month1" = "January";
 "lng_month2" = "February";
 "lng_month3" = "March";
@@ -37,7 +37,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month11" = "November";
 "lng_month12" = "December";
 
-/* For lng_month_day and lng_month_day_year. */
+/* For lng_month_day and lng_month_day_year. */
 "lng_month_day1" = "January";
 "lng_month_day2" = "February";
 "lng_month_day3" = "March";
@@ -283,6 +283,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_notifications_count" = "Notifications count";
 "lng_settings_sound_notify" = "Play sound";
 "lng_settings_include_muted" = "Include muted chats in unread count";
+"lng_settings_count_unread" = "Count unread messages";
 
 "lng_notification_preview" = "You have a new message";
 "lng_notification_reply" = "Reply";
@@ -350,7 +351,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_phone_label" = "Phone number";
 "lng_settings_username_add" = "Add username";
 "lng_settings_close_sure" = "Are you sure you want to close this page? You didn't save your changes.";
-/* "lng_settings_peer_to_peer" = "Peer-to-Peer"; */
+/* "lng_settings_peer_to_peer" = "Peer-to-Peer"; */
 "lng_settings_peer_to_peer_about" = "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.";
 "lng_settings_advanced" = "Advanced";
 "lng_settings_stickers_emoji" = "Stickers and emoji";
@@ -549,10 +550,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sessions_other_header" = "Active sessions";
 "lng_sessions_other_desc" = "You can log in to Telegram from other mobile, tablet and desktop devices, using the same phone number. All your data will be instantly synchronized.";
 "lng_sessions_terminate_all" = "Terminate all other sessions";
+"lng_sessions_terminate_all_about" = "Logs out all devices except for this one.";
+"lng_sessions_incomplete" = "Incomplete login attempts";
+"lng_sessions_incomplete_about" = "The devices above have no access to your messages. The code was entered correctly, but no correct password was given.";
 
 "lng_blocked_list_title" = "Blocked users";
 "lng_blocked_list_unknown_phone" = "unknown phone number";
 "lng_blocked_list_unblock" = "Unblock";
+"lng_blocked_list_restart" = "Restart";
 "lng_blocked_list_add" = "Block user";
 "lng_blocked_list_add_title" = "Select user to block";
 "lng_blocked_list_already_blocked" = "blocked already";
@@ -600,6 +605,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_calls_p2p_exceptions" = "Peer-to-peer in calls will or will not be used with these users regardless of the settings above.";
 "lng_edit_privacy_calls_p2p_always_title" = "Always allow";
 "lng_edit_privacy_calls_p2p_never_title" = "Never allow";
+
+"lng_edit_privacy_calls_p2p_everyone" = "Everybody";
+"lng_edit_privacy_calls_p2p_contacts" = "My contacts";
+"lng_edit_privacy_calls_p2p_nobody" = "Nobody";
 
 "lng_self_destruct_title" = "Account self-destruction";
 "lng_self_destruct_description" = "If you don't come online at least once within this period, your account will be deleted along with all groups, messages and contacts.";
@@ -659,7 +668,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_report" = "Report";
 "lng_profile_search_messages" = "Search for messages";
 "lng_profile_block_bot" = "Stop and block bot";
-"lng_profile_unblock_bot" = "Unblock bot";
+"lng_profile_restart_bot" = "Restart bot";
 "lng_profile_invite_to_group" = "Add to Group";
 "lng_profile_delete_contact" = "Delete";
 "lng_profile_set_group_photo" = "Set Photo";
@@ -687,8 +696,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_files_header" = "Files";
 "lng_profile_audios#one" = "{count} voice message";
 "lng_profile_audios#other" = "{count} voice messages";
-/* "lng_profile_rounds#one" = "{count} video message"; */
-/* "lng_profile_rounds#other" = "{count} video messages"; */
+/* "lng_profile_rounds#one" = "{count} video message"; */
+/* "lng_profile_rounds#other" = "{count} video messages"; */
 "lng_profile_audios_header" = "Voice messages";
 "lng_profile_shared_links#one" = "{count} shared link";
 "lng_profile_shared_links#other" = "{count} shared links";
@@ -743,8 +752,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_selected_file#other" = "{count} Files";
 "lng_media_selected_audio#one" = "{count} Voice message";
 "lng_media_selected_audio#other" = "{count} Voice messages";
-/* "lng_media_selected_round#one" = "{count} Video message"; */
-/* "lng_media_selected_round#other" = "{count} Video messages"; */
+/* "lng_media_selected_round#one" = "{count} Video message"; */
+/* "lng_media_selected_round#other" = "{count} Video messages"; */
 "lng_media_selected_link#one" = "{count} Shared link";
 "lng_media_selected_link#other" = "{count} Shared links";
 "lng_media_photo_empty" = "No photos here yet";
@@ -1087,6 +1096,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_from_draft" = "Draft";
 "lng_bot_description" = "What can this bot do?";
 "lng_unblock_button" = "Unblock";
+"lng_restart_button" = "Restart";
 "lng_channel_mute" = "Mute";
 "lng_channel_unmute" = "Unmute";
 "lng_saved_messages" = "Saved Messages";
@@ -1815,19 +1825,19 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_about" = "Unfortunately, this custom language pack ({lang_name}) doesn't contain data for Telegram Desktop. You can contribute to this language pack using the {link}.";
 "lng_language_not_ready_link" = "translation platform";
 
-/* Wnd specific */
+/* Wnd specific */
 
 "lng_wnd_choose_program_menu" = "Choose Default Program...";
 
 "lng_wnd_menu_undo" = "Undo";
 "lng_wnd_menu_redo" = "Redo";
 
-/* Linux specific */
+/* Linux specific */
 
 "lng_linux_menu_undo" = "Undo";
 "lng_linux_menu_redo" = "Redo";
 
-/* Mac specific */
+/* Mac specific */
 
 "lng_mac_choose_program_menu" = "Other...";
 
@@ -1864,7 +1874,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_menu_new_channel" = "New Channel";
 "lng_mac_menu_show" = "Show Telegram";
 
-/* Keys finished */
+/* Keys finished */
 
 
 /* new from translations.telegram.org */
@@ -2168,6 +2178,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_songs#two" = "{count} audio files";
 "lng_profile_songs#few" = "{count} audio files";
 "lng_profile_songs#many" = "{count} audio files";
+"lng_profile_unblock_bot" = "Unblock bot";
 "lng_profile_videos#zero" = "{count} videos";
 "lng_profile_videos#two" = "{count} videos";
 "lng_profile_videos#few" = "{count} videos";
