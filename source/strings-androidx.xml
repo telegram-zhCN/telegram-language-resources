@@ -2080,7 +2080,7 @@
   <string name="c_previewBackground">Transparent background for the previews of stickers, media and chats.</string>
   <string name="c_overlayFilling">Three-dot menus, sticker suggestions, small circle buttons, etc.</string>
   <string name="c_fillingNegative">Swipe to see **fillingNegative** in action.</string>
-  <string name="c_fillingPositive">Background of the send button in the share menu.</string>
+  <string name="c_fillingPositive">Background of the Send button in the Share menu.</string>
   <string name="c_textSearchQueryHighlight">Current query highlight when searching chats, contacts, etc.</string>
   <string name="c_textSelectionHighlight">Selected text background.</string>
   <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>

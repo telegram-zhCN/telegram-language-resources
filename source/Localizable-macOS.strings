@@ -907,7 +907,7 @@
 "InstalledStickers.Archived" = "Archived Stickers";
 "InstalledStickers.Tranding" = "Trending Stickers";
 "StickerSet.Remove" = "Remove";
-"InstalledStickers.Remove.Description" = "Stickers will be archived, you can quickly restore it later from the Archived Stickers section.";
+"InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
 "InstalledStickers.Remove.Delete" = "Delete";
 "Alert.UserDoesntExists" = "Sorry, this user doesn't seem to exist.";
 "InAppLinks.Confirm.OpenExternal" = "open %@?";

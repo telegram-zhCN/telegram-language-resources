@@ -154,7 +154,7 @@
     <string name="DisappearingVideo">Secret Video</string>
     <string name="DisappearingGif">Secret GIF</string>
     <string name="CompatibilityChat">%1$s is using an older version of Telegram, so secret photos will be shown in compatibility mode.\n\nOnce %2$s updates Telegram, photos with timers for 1 minute or less will start working in \'Tap and hold to view\' mode, and you will be notified whenever the other party takes a screenshot.</string>
-    <string name="SearchMessages">MESSAGES</string>
+    <string name="SearchMessages">Messages</string>
     <string name="Search">Search</string>
     <string name="MuteNotifications">Mute notifications</string>
     <string name="MuteFor">Mute for %1$s</string>
@@ -247,6 +247,7 @@
     <string name="ChannelSettings">Settings</string>
     <string name="ChannelJoin">JOIN</string>
     <string name="ChannelBroadcast">Broadcast</string>
+    
     <string name="ChannelSilentBroadcast">Silent Broadcast</string>
     <string name="ChannelAlertTitle">What is a Channel?</string>
     <string name="ChannelAlertText">Channels are a tool for broadcasting your messages to unlimited audiences.</string>
@@ -531,6 +532,7 @@
     <string name="NoRecent">No recent</string>
     <string name="Message">Message</string>
     <string name="TypeMessage">Message</string>
+    
     <string name="ShareMyContactInfo">Share my contact</string>
     <string name="AddToContacts">Add to contacts</string>
     <string name="EncryptedPlaceholderTitleIncoming">%s invited you to join a secret chat.</string>
@@ -647,12 +649,25 @@
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">No previews</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
     <string name="MessageLifetimeRemoved">%1$s disabled the self-destruct timer</string>
     <string name="MessageLifetimeYouRemoved">You disabled the self-destruct timer</string>
     <string name="YouHaveNewMessage">You have a new message</string>
+    
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s sent you %2$s</string>
     <string name="NotificationMessageForwardFew">%1$s forwarded you %2$s</string>
@@ -758,7 +773,7 @@
     <string name="LastSeenDateFormatted">last seen %1$s</string>
     <string name="InviteFriends">Invite Friends</string>
     <string name="SearchFriends">Search contacts</string>
-    <string name="GlobalSearch">GLOBAL SEARCH</string>
+    <string name="GlobalSearch">Global search</string>
     <string name="Lately">last seen recently</string>
     <string name="WithinAWeek">last seen within a week</string>
     <string name="WithinAMonth">last seen within a month</string>
@@ -853,6 +868,7 @@
     <string name="EncryptionKeyDescription">This image and text were derived from the encryption key for this secret chat with **%1$s**.\n\nIf they look the same on **%2$s\'s** device, end-to-end encryption is guaranteed.\n\nLearn more at telegram.org</string>
     <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
     <string name="NumberUnknown">Unknown</string>
+    <string name="PhoneHidden">Hidden</string>
     <string name="Info">Info</string>
     <string name="Phone">Phone</string>
     <string name="SharedContent">Shared content</string>
@@ -1143,11 +1159,13 @@
     <string name="UseProxySecret">Secret</string>
     <string name="UseProxyUsername">Username</string>
     <string name="UseProxySocks5">SOCKS5 Proxy</string>
+    
     <string name="UseProxyTelegram">MTProto Proxy</string>
     <string name="UseProxyTelegramError">The proxy you are using is not configured correctly and will be disabled. Please find another one.</string>
     <string name="UseProxySponsor">Proxy sponsor</string>
     <string name="UseProxySponsorInfo">This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.</string>
     <string name="UseProxyInfo">SOCKS5 proxy settings.</string>
+    
     <string name="UseProxyTelegramInfo">MTProto proxy settings.</string>
     <string name="UseProxyTelegramInfo2">This proxy may display a sponsored channel in your chat list. This doesn\'t reveal any of your Telegram traffic.</string>
     <string name="UseProxyForCalls">Use proxy for calls</string>
@@ -1470,9 +1488,9 @@
     <string name="ShareLocation">Location</string>
     <string name="SharedPlace">Place</string>
     <string name="AccurateTo">Accurate to %1$s</string>
-    <string name="NearbyPlaces">OR CHOOSE A PLACE</string>
-    <string name="ShowNearbyPlaces">PULL UP TO SEE PLACES NEARBY</string>
-    <string name="LiveLocations">LIVE LOCATIONS</string>
+    <string name="NearbyPlaces">Or choose a place</string>
+    <string name="ShowNearbyPlaces">Pull up to see places nearby</string>
+    <string name="LiveLocations">Live locations</string>
     <string name="SendLiveLocationFor15m">for 15 minutes</string>
     <string name="SendLiveLocationFor1h">for 1 hour</string>
     <string name="SendLiveLocationFor8h">for 8 hours</string>
@@ -1488,6 +1506,8 @@
     <string name="GpsDisabledAlert">Your GPS seems to be disabled, please enable it to access location-based features.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">Show all media</string>
+    <string name="TapToDownload">Tap to download</string>
+    <string name="OpenFile">OPEN FILE</string>
     <string name="ShowInChat">Show in chat</string>
     <string name="StopDownload">Stop downloading</string>
     <string name="SaveToGallery">Save to gallery</string>
@@ -1730,6 +1750,7 @@
     <string name="FromGalley">From gallery</string>
     <string name="DeletePhoto">Delete photo</string>
     <string name="Set">Set</string>
+    
     <string name="OK">OK</string>
     <string name="Stop">Stop</string>
     <string name="WaitMore">Wait more</string>
@@ -2062,6 +2083,12 @@
     <string name="messages_few">%1$d messages</string>
     <string name="messages_many">%1$d messages</string>
     <string name="messages_other">%1$d messages</string>
+    
+    
+    
+    
+    
+    
     <string name="items_zero">%1$d items</string>
     <string name="items_one">%1$d item</string>
     <string name="items_two">%1$d items</string>
@@ -2280,7 +2307,8 @@
     <string name="formatterBannedUntil24H">MMM dd yyyy, HH:mm</string>
     <string name="formatterBannedUntilThisYear12H">MMM dd, h:mm a</string>
     <string name="formatterBannedUntilThisYear24H">MMM dd, HH:mm</string>
-    <string name="formatterMonthYear">MMMM yyyy</string>
+    <string name="formatterMonthYear2">LLLL yyyy</string>
+    <string name="formatterMonthName">LLLL</string>
     <string name="formatterMonth">MMM dd</string>
     <string name="formatterYear">dd.MM.yy</string>
     <string name="formatterYearMax">dd.MM.yyyy</string>
@@ -2318,6 +2346,7 @@
   <string name="_tg_cancel">Cancel</string>
   <string name="_tg_open_google_play">Open Google Play</string>
   <string name="download_telegram_text">You need Telegram to log in to **%s**. Would you like to install it now?</string>
+  <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="login_with_telegram">Log in with Telegram</string>
   <string name="telegram_passport">Telegram Passport</string>
 </resources>
