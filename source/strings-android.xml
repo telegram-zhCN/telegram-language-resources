@@ -162,8 +162,8 @@
     <string name="WillUnmuteIn">In %1$s</string>
     <string name="MuteDisable">Disable</string>
     <string name="Hashtags">HASHTAGS</string>
-    <string name="Recent">RECENT</string>
-    <string name="ChatHints">PEOPLE</string>
+    <string name="Recent">Recent</string>
+    <string name="ChatHints">People</string>
     <string name="ChatHintsDelete">Delete %1$s from suggestions?</string>
     <string name="LinkPreview">Link preview</string>
     <string name="Draft">Draft</string>
@@ -247,7 +247,6 @@
     <string name="ChannelSettings">Settings</string>
     <string name="ChannelJoin">JOIN</string>
     <string name="ChannelBroadcast">Broadcast</string>
-    
     <string name="ChannelSilentBroadcast">Silent Broadcast</string>
     <string name="ChannelAlertTitle">What is a Channel?</string>
     <string name="ChannelAlertText">Channels are a tool for broadcasting your messages to unlimited audiences.</string>
@@ -532,7 +531,6 @@
     <string name="NoRecent">No recent</string>
     <string name="Message">Message</string>
     <string name="TypeMessage">Message</string>
-    
     <string name="ShareMyContactInfo">Share my contact</string>
     <string name="AddToContacts">Add to contacts</string>
     <string name="EncryptedPlaceholderTitleIncoming">%s invited you to join a secret chat.</string>
@@ -649,25 +647,12 @@
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">No previews</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
     <string name="MessageLifetimeRemoved">%1$s disabled the self-destruct timer</string>
     <string name="MessageLifetimeYouRemoved">You disabled the self-destruct timer</string>
     <string name="YouHaveNewMessage">You have a new message</string>
-    
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s sent you %2$s</string>
     <string name="NotificationMessageForwardFew">%1$s forwarded you %2$s</string>
@@ -1159,13 +1144,11 @@
     <string name="UseProxySecret">Secret</string>
     <string name="UseProxyUsername">Username</string>
     <string name="UseProxySocks5">SOCKS5 Proxy</string>
-    
     <string name="UseProxyTelegram">MTProto Proxy</string>
     <string name="UseProxyTelegramError">The proxy you are using is not configured correctly and will be disabled. Please find another one.</string>
     <string name="UseProxySponsor">Proxy sponsor</string>
     <string name="UseProxySponsorInfo">This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.</string>
     <string name="UseProxyInfo">SOCKS5 proxy settings.</string>
-    
     <string name="UseProxyTelegramInfo">MTProto proxy settings.</string>
     <string name="UseProxyTelegramInfo2">This proxy may display a sponsored channel in your chat list. This doesn\'t reveal any of your Telegram traffic.</string>
     <string name="UseProxyForCalls">Use proxy for calls</string>
@@ -1506,6 +1489,7 @@
     <string name="GpsDisabledAlert">Your GPS seems to be disabled, please enable it to access location-based features.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">Show all media</string>
+    <string name="ShowAllFiles">Show all files</string>
     <string name="TapToDownload">Tap to download</string>
     <string name="OpenFile">OPEN FILE</string>
     <string name="ShowInChat">Show in chat</string>
@@ -1750,7 +1734,6 @@
     <string name="FromGalley">From gallery</string>
     <string name="DeletePhoto">Delete photo</string>
     <string name="Set">Set</string>
-    
     <string name="OK">OK</string>
     <string name="Stop">Stop</string>
     <string name="WaitMore">Wait more</string>
@@ -2083,12 +2066,6 @@
     <string name="messages_few">%1$d messages</string>
     <string name="messages_many">%1$d messages</string>
     <string name="messages_other">%1$d messages</string>
-    
-    
-    
-    
-    
-    
     <string name="items_zero">%1$d items</string>
     <string name="items_one">%1$d item</string>
     <string name="items_two">%1$d items</string>

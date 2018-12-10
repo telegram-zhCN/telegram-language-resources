@@ -1130,6 +1130,7 @@
   <string name="DebugMenuResetContacts">重置已导入的通讯录</string>
   <string name="DebugMenuClearMediaCache">清除已发送的媒体缓存</string>
   <string name="DebugMenuCallSettings">通话设置</string>
+  <string name="ChangeLanguageLater">您可以稍后在设置中更改您的语言。</string>
   <string name="ChooseYourLanguage">选择您的语言</string>
   <string name="ChooseYourLanguageOther">其它</string>
   <string name="ProxySettings">代理设置</string>
@@ -1461,6 +1462,8 @@
   <string name="SharedPlace">地点</string>
   <string name="AccurateTo">精确到 %1$s</string>
   <string name="NearbyPlaces">或选择一个位置</string>
+  <string name="ShowNearbyPlaces">向上拖动查看附近的地方</string>
+  <string name="LiveLocations">实时位置</string>
   <string name="SendLiveLocationFor15m">15 分钟</string>
   <string name="SendLiveLocationFor1h">1 个小时</string>
   <string name="SendLiveLocationFor8h">8 个小时</string>
@@ -1476,6 +1479,8 @@
   <string name="GpsDisabledAlert">看起来您禁用了位置服务，若需要使用基于位置的功能，请将其重新开启。</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">显示所有图片和视频</string>
+  <string name="TapToDownload">点按下载</string>
+  <string name="OpenFile">打开文件</string>
   <string name="ShowInChat">在对话中查看</string>
   <string name="StopDownload">停止下载</string>
   <string name="SaveToGallery">保存到相册</string>
