@@ -608,7 +608,7 @@
 "Settings.LogoutConfirmationTitle" = "Log out?";
 "Settings.LogoutConfirmationText" = "\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.";
 
-"Login.PadPhoneHelp" = "\nYou can use your main mobile number to log in to Telegram on all devices.\nDon't use your iPad's SIM number here — we'll need to send you an SMS.\n\nIs this number correct?\n{number}";
+"Login.PadPhoneHelp" = "You can use your main mobile number to log in to Telegram on all devices.\nDon't use your iPad's SIM number here — we'll need to send you an SMS.\n\nIs this number correct?\n{number}";
 "Login.PadPhoneHelpTitle" = "Your Number";
 
 "MessageTimer.Custom" = "Custom";

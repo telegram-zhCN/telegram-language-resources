@@ -163,7 +163,7 @@
   <string name="MuteDisable">永久静音</string>
   <string name="Hashtags">标签</string>
   <string name="Recent">最近</string>
-  <string name="ChatHints">对话</string>
+  <string name="ChatHints">用户</string>
   <string name="ChatHintsDelete">确认从建议列表中删除 %1$s 吗？</string>
   <string name="LinkPreview">链接预览</string>
   <string name="Draft">草稿</string>
@@ -1479,6 +1479,7 @@
   <string name="GpsDisabledAlert">看起来您禁用了位置服务，若需要使用基于位置的功能，请将其重新开启。</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">显示所有图片和视频</string>
+  <string name="ShowAllFiles">显示所有文件</string>
   <string name="TapToDownload">点按下载</string>
   <string name="OpenFile">打开文件</string>
   <string name="ShowInChat">在对话中查看</string>

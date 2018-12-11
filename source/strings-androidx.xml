@@ -1273,6 +1273,8 @@
   <string name="ScreenCapture">Allow Screen Capture</string>
   <string name="ScreenCaptureInfo">If enabled, you can take screenshots of the app, but the system will display your chats in the task switcher even when the passcode is on.\n\nYou may need to restart the app for this to take effect.</string>
   <string name="Remove">Remove</string>
+  <string name="RemoveMember">Remove</string>
+  <string name="RemoveCall">Remove</string>
   <string name="CallX">Call %1$s?</string>
   <string name="ConfirmCalls">Prompt before calling</string>
   <string name="ConfirmCallsDesc">Show confirmation dialog each time you call anyone.</string>
@@ -2118,6 +2120,9 @@
   <string name="g_noWallpaper">These colors are used when wallpaper is disabled or not yet loaded.\n\nIf your theme does not allow disabling wallpaper, you can ignore them.</string>
 
   <string name="format_mediaIndexAndTime">%1$s, %2$s</string>
+
+  <string name="ShareTextPost">Check out %2$s\'s post: %1$s</string>
+  <string name="ShareTextMessage">Check out %2$s\'s message: %1$s</string>
 
   
 

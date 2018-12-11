@@ -882,7 +882,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_changed_photo_channel" = "Channel photo updated";
 "lng_action_changed_title" = "{from} changed group name to «{title}»";
 "lng_action_changed_title_channel" = "Channel name was changed to «{title}»";
-"lng_action_created_chat" = "{from} created group «{title}»";
+"lng_action_created_chat" = "{from} created the group «{title}»";
 "lng_action_created_channel" = "Channel created";
 "lng_action_group_migrate" = "The group was upgraded to a supergroup";
 "lng_action_pinned_message" = "{from} pinned «{text}»";
@@ -2237,7 +2237,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_audios_cached#other" = "{count} voice messages, {size}";
 "lng_settings_calls_privacy" = "Phone calls privacy";
 "lng_settings_edit_info" = "Edit information";
-"lng_settings_groups_invite_privacy" = "Groups & Channels invite settings";
+"lng_settings_groups_invite_privacy" = "Groups and Channels invite settings";
 "lng_settings_images_cached#zero" = "{count} images, {size}";
 "lng_settings_images_cached#one" = "{count} image, {size}";
 "lng_settings_images_cached#two" = "{count} images, {size}";
