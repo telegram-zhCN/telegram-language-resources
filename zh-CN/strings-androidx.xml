@@ -1273,6 +1273,8 @@
   <string name="ScreenCapture">允许屏幕截图</string>
   <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但您的聊天内容会在后台应用列表中展现，即使您启用了锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
   <string name="Remove">移除</string>
+  <string name="RemoveMember">移除</string>
+  <string name="RemoveCall">移除</string>
   <string name="CallX">确定要呼叫 %1$s 吗？</string>
   <string name="ConfirmCalls">在呼叫前确认</string>
   <string name="ConfirmCallsDesc">在每次呼叫时显示确认对话框</string>
@@ -1983,8 +1985,6 @@
   <string name="ValueReset">默认</string>
 
   <string name="format_mediaIndexAndTime">%1$s，%2$s</string>
-
-  
 
   <!-- new from translations.telegram.org -->
 

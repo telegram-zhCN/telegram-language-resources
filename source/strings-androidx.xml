@@ -1167,6 +1167,7 @@
   <string name="ReportChat">Report %1$s</string>
   <string name="Spam">Spam</string>
   <string name="Violence">Violence</string>
+  <string name="ChildAbuse">Child Abuse</string>
   <string name="Pornography">Pornography</string>
   <string name="ReportChatSent">Report sent</string>
   <string name="CopiedMessages">Messages have been copied to the clipboard</string>
@@ -2099,6 +2100,7 @@
   <string name="c_seekReady">Downloaded part of the file.</string>
   <string name="c_seekDone">Playback progress of the file.</string>
   <string name="c_promo">New trending sticker set.</string>
+  <string name="c_statusBarLegacy">Used on **Android&#160;5.x** and lower.</string>
 
   <string name="p_parentTheme">Default values are inherited from this theme when a color or property is not explicitly set.</string>
   <string name="p_replaceShadowsWithSeparators">Replaces horizontal shadows with thin solid separators.</string>
@@ -2116,6 +2118,7 @@
   <string name="p_bubbleDateCorner">Background corner radius for dates in the bubble mode.</string>
   <string name="p_dateCorner">Background corner radius for dates in the plain mode.</string>
   <string name="p_bubbleUnreadShadow">Adds shadow to the unread messages separator in the bubble mode.</string>
+  <string name="p_lightStatusBar">When enabled, status bar icons will use dark colors. Used on **Android&#160;6.x** and higher.</string>
 
   <string name="g_noWallpaper">These colors are used when wallpaper is disabled or not yet loaded.\n\nIf your theme does not allow disabling wallpaper, you can ignore them.</string>
 
@@ -2123,6 +2126,14 @@
 
   <string name="ShareTextPost">Check out %2$s\'s post: %1$s</string>
   <string name="ShareTextMessage">Check out %2$s\'s message: %1$s</string>
+  <string name="ShareTitleText">Share to…</string>
+  <string name="ShareTitleMessage">Share message to…</string>
+  <string name="ShareTextPhoto">Photo from %1$s</string>
+  <string name="ShareTextVideo">Video from %1$s</string>
+  <string name="ShareTextMusic">Music from %1$s</string>
+  <string name="ShareTextGif">GIF from %1$s</string>
+  <string name="ShareTextFile">File from %1$s</string>
+  <string name="ShareTextMedia">Media from %1$s</string>
 
   
 
