@@ -1169,6 +1169,7 @@
   <string name="ReportChat">举报 %1$s</string>
   <string name="Spam">垃圾信息</string>
   <string name="Violence">暴力</string>
+  <string name="ChildAbuse">儿童虐待</string>
   <string name="Pornography">色情</string>
   <string name="ReportChatSent">举报已发送</string>
   <string name="CopiedMessages">此消息已复制到剪贴板</string>
