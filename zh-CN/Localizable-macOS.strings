@@ -798,7 +798,7 @@
 "Telegram.GroupsInCommonViewController" = "共同加入的群组";
 
 "ChannelVisibility.Checking" = "检查中...";
-"ChannelVisibility.Loading" = "加载中…";
+"ChannelVisibility.Loading" = "加载中...";
 "ChannelVisibility.Confirm.Revoke" = "您确定您要将该频道设为私人频道吗？这将会移除它的频道名。";
 "Peer.DeletedUser" = "已销号";
 
@@ -1000,7 +1000,7 @@
 "Call.StatusEnded" = "通话结束";
 "Call.StatusFailed" = "通话失败";
 "Call.StatusBusy" = "忙线";
-"Call.StatusCalling" = "正在呼叫...";
+"Call.StatusCalling" = "正在呼叫您...";
 
 
 

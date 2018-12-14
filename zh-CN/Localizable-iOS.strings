@@ -86,7 +86,7 @@
 "CHAT_MESSAGE_GAME" = "%1$@ 邀请您加入群组 %2$@  来玩 %3$@";
 "PINNED_GAME" = "%1$@ 已置顶 1 个游戏";
 
-"PHONE_CALL_REQUEST" = "%1$@ 正在呼叫...";
+"PHONE_CALL_REQUEST" = "%1$@ 正在呼叫您...";
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
 
 // Common
@@ -817,7 +817,7 @@
 "ChangePhoneNumberCode.CodePlaceholder" = "输入验证码";
 "ChangePhoneNumberCode.Help" = "我们已向此号码发送短信验证码";
 "ChangePhoneNumberCode.CallTimer" = "Telegram 会在 %@ 后通过电话语音播报验证码";
-"ChangePhoneNumberCode.RequestingACall" = "发送呼叫请求...";
+"ChangePhoneNumberCode.RequestingACall" = "正在向 Telegram 发送呼叫请求...";
 "ChangePhoneNumberCode.Called" = "Telegram 已呼叫您";
 
 "LoginPassword.Title" = "输入密码";
@@ -1352,8 +1352,8 @@
 "Channel.Username.Title" = "链接";
 "Channel.Username.Help" = "您可以在 **Telegram** 上为频道设置一个名称，他人能通过该名称找到您的频道。\n\n您可以使用字母、数字及下划线，最小长度为 **5** 个字符。";
 "Channel.Username.LinkHint" = "此链接将打开您的 Telegram 频道：[\nhttps://t.me/%@]";
-"Channel.Username.InvalidTooShort" = "频道名称必须包含至少 5 个字符。";
-"Channel.Username.InvalidStartsWithNumber" = "频道名称不能以数字开头。";
+"Channel.Username.InvalidTooShort" = "频道链接名必须包含至少 5 个字符。";
+"Channel.Username.InvalidStartsWithNumber" = "频道链接名不能以数字开头。";
 "Channel.Username.InvalidCharacters" = "抱歉，该名称不符合规范。";
 "Channel.Username.InvalidTaken" = "抱歉，该名称已被占用。";
 "Channel.Username.CheckingUsername" = "正在检查名称...";
@@ -2887,9 +2887,9 @@ Unused sets are archived when you add more.";
 "Appearance.ThemeNight" = "夜间";
 "Appearance.ThemeNightBlue" = "夜间蓝";
 "Appearance.PreviewReplyAuthor" = "卢西奥";
-"Appearance.PreviewReplyText" = "莱因哈特，你的音乐口味得…";
+"Appearance.PreviewReplyText" = "莱因哈特，你的音乐口味得...";
 "Appearance.PreviewIncomingText" = "你们这群小屁孩就知道电子音乐。你们应该听听经典摇滚，比如哈塞尔霍夫！";
-"Appearance.PreviewOutgoingText" = "老兄，我现在都无法直视你了。抱歉…";
+"Appearance.PreviewOutgoingText" = "老兄，我现在都无法直视你了。抱歉...";
 "Appearance.AccentColor" = "主题色";
 "Appearance.PickAccentColor" = "选取一种主题色";
 

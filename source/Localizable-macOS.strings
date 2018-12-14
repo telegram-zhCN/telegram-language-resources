@@ -1361,7 +1361,7 @@
 "ShareExtension.Passcode.Placeholder" = "passcode";
 "ShareExtension.Passcode.Next" = "Next";
 "ShareExtension.Unauthorized.OK" = "OK";
-"ShareExtension.Unauthorized.Description" = "To share via Telegram, please open the Telegam app and log in.";
+"ShareExtension.Unauthorized.Description" = "To share via Telegram, please open the Telegram app and log in.";
 
 "Chat.SearchFrom" = "from:";
 "Chat.SearchCount" = "%d of %d";

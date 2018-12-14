@@ -18,8 +18,8 @@
   <string name="Page6Message">**Telegram** 让您能从\n多个设备收发消息</string>
   <string name="StartMessaging">开始聊天</string>
 
-  <string name="network_Connecting">连接中……</string>
-  <string name="network_WaitingForNetwork">等待网络连接……</string>
+  <string name="network_Connecting">连接中...</string>
+  <string name="network_WaitingForNetwork">等待网络...</string>
   <string name="network_Updating">刷新中...</string>
   <string name="Connected">已连接</string>
   <string name="ConnectingToProxy">正在连接代理...</string>
@@ -299,7 +299,7 @@
   <string name="ChangePasscode">更改密码</string>
   <string name="passcode_passcodeInvisibility">密码不可见</string>
   <string name="passcode_fingerprint">指纹解锁</string>
-  <string name="LoadingInformation">加载信息……</string>
+  <string name="LoadingInformation">信息加载中...</string>
   <string name="BlockContact">屏蔽</string>
   <string name="Unblock">取消屏蔽</string>
   <string name="Share">转发 / 分享</string>
@@ -329,12 +329,12 @@
   <string name="Unmute">取消免打扰</string>
   <string name="returnToGroup">返回群组</string>
   <string name="returnToChannel">返回到频道</string>
-  <string name="LoadingUser">加载用户……</string>
-  <string name="LoadingUsername">加载用户名</string>
-  <string name="LoadingPhone">加载手机……</string>
+  <string name="LoadingUser">加载用户...</string>
+  <string name="LoadingUsername">用户名加载中...</string>
+  <string name="LoadingPhone">手机号码加载中...</string>
   <string name="HiddenName">已删除的帐户</string>
   <string name="HiddenNameShort">已删除</string>
-  <string name="LoadingChannel">加载频道……</string>
+  <string name="LoadingChannel">频道加载中...</string>
   <string name="ReportReasonDescription">简介</string>
   <string name="Description">简介</string>
   <string name="DescriptionInfo">您可以给您的频道添加一段简介。</string>
@@ -347,7 +347,7 @@
   <string name="BotStatusCantRead">不允许访问消息</string>
   <string name="notInChat">您不在该对话中</string>
   <string name="NoReturnToChat">您无法回到该对话</string>
-  <string name="ProgressCreateChannel">创建频道中……</string>
+  <string name="ProgressCreateChannel">频道创建中...</string>
   <string name="BotStart">开始</string>
   <string name="ChannelPublic">公开频道</string>
   <string name="ChannelPublicInfo">公开频道可以被搜索，并且任何人都可以加入。</string>
@@ -355,7 +355,7 @@
   <string name="ChannelPrivate">私人频道</string>
   <string name="ChannelPrivateInfo">私人频道只能通过邀请链接加入。</string>
   <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
-  <string name="SendMessageTo">发送消息给……</string>
+  <string name="SendMessageTo">发送消息给...</string>
   <string name="GroupName">小组名称</string>
   <string name="GroupDontAdd">阻止我被加入到该群组</string>
   <string name="GroupEnterValidName">请输入一个有效的群组名</string>
@@ -571,7 +571,7 @@
   <string name="YouCantSendMessages">您不能在此对话中发布内容</string>
   <string name="NewSecretChat">新建加密对话</string>
   <string name="NewSecretChatWith">新建加密对话...</string>
-  <string name="AwaitingEncryption">等待 %1$s 上线……</string>
+  <string name="AwaitingEncryption">等待 %1$s 上线...</string>
   <string name="XJoinedSecretChat">%1$s 加入了此加密对话</string>
   <string name="YouJoinedSecretChat">您已加入加密对话。</string>
   <string name="SecretChatCancelled">加密对话已取消</string>
@@ -829,7 +829,7 @@
   <string name="UsernameInvalidLong">用户名不能超过 32 个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
   <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**、**0–9** 和下划线。\n最小长度为 **5** 个字符。</string>
-  <string name="UsernameChecking">检查用户名中……</string>
+  <string name="UsernameChecking">检查用户名中...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="UsernameCurrent">%1$s 是您当前用户名。</string>
   <string name="ThisLinkWillOpen">此链接会在 Telegram 中打开一个与您的会话窗口：</string>
@@ -936,8 +936,8 @@
   <string name="MobileUsage">移动数据使用情况</string>
   <string name="WiFiUsage">Wi-Fi 数据使用情况</string>
   <string name="RoamingUsage">漫游数据使用情况</string>
-  <string name="Calculating">正在计算……</string>
-  <string name="CleaningUp">正在清理……</string>
+  <string name="Calculating">计算中...</string>
+  <string name="CleaningUp">正在清理...</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
   <string name="ResetStatsHint">您确定要重置网络用量统计数据吗</string>
@@ -1038,7 +1038,7 @@
   <string name="VoipFailed">连接失败</string>
   <string name="VoipExchangingKeys">正在交换密钥</string>
   <string name="VoipExchangingKeysShort">交换密钥中</string>
-  <string name="VoipEstablishing">连接中……</string>
+  <string name="VoipEstablishing">连接中...</string>
   <string name="VoipEnded">通话结束</string>
   <string name="VoipCancelled">通话已取消</string>
   <string name="VoipDeclined">通话已取消</string>
@@ -1264,7 +1264,7 @@
   <string name="BlockUntil">屏蔽至</string>
   <string name="CustomDate">自定义日期</string>
   <string name="RemoveRestrictions">移除限制</string>
-  <string name="UploadingPhotoWait">上传图片中，请稍候……</string>
+  <string name="UploadingPhotoWait">上传头像中，请稍候...</string>
   <string name="ChatTitleEmpty">标题不能设置为空</string>
   <string name="ChannelLinkInfo">任何 Telegram 用户都能够通过此链接加入您的频道。</string>
   <string name="ChannelLink">频道链接</string>
@@ -1286,14 +1286,14 @@
   <string name="ActionIrreversible">此操作无法撤销。</string>
   <string name="LinkInUse">抱歉，这个公共链接已被占用。</string>
   <string name="LinkInvalid">抱歉，这个公共链接不符合规范。</string>
-  <string name="LinkInvalidShort">公共链接必须至少包含 5 个字符。</string>
+  <string name="LinkInvalidShort">公共链接名必须至少包含 5 个字符。</string>
   <string name="LinkInvalidLong">公共链接不能超过 32 个字符。</string>
   <string name="LinkInvalidStartNumber">抱歉，链接不能以数字开头。</string>
   <string name="LinkGroupHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并加入您的群组。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
   <string name="LinkChannelHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并订阅您的频道。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
   <string name="LinkChecking">正在检查链接...</string>
   <string name="LinkCurrent">t.me/%1$s 是您当前的公开链接。</string>
-  <string name="LoadingActions">加载管理操作……</string>
+  <string name="LoadingActions">加载近期操作中...</string>
   <string name="JoinChat">加入对话</string>
   <string name="MemberCanJoinGroup">%1$s 将能够再次加入此群组。</string>
   <string name="MemberCannotJoinGroup">除非被管理员邀请，否则 %1$s 将无法再次加入此群组。</string>
@@ -1574,7 +1574,7 @@
   <string name="ShareLiveLocation">分享实时位置</string>
   <string name="SendLiveLocationInfo">在您移动时实时更新</string>
   <string name="PullToSeePlaces">上拉查看周边地点</string>
-  <string name="LoadingPlaces">查找地点中……</string>
+  <string name="LoadingPlaces">正在搜索周边...</string>
   <string name="NoPlacesFound">未找到地点</string>
   
   <string name="SharingLiveLocationToChats_other">你正在与 %1$s 个对话共享实时位置</string>
@@ -1625,8 +1625,8 @@
   <string name="IsSendingLocation">%1$s 正在选择位置</string>
   <string name="AreSendingLocation">%1$s 正在选择位置</string>
   <string name="SendingContact">正在选择联系人...</string>
-  <string name="IsSendingContact">%1$s 正在选择联系人…</string>
-  <string name="AreSendingContact">%1$s 正在选择联系人…</string>
+  <string name="IsSendingContact">%1$s 正在选择联系人...</string>
+  <string name="AreSendingContact">%1$s 正在选择联系人...</string>
   <string name="RecordingRound">正在录制视频</string>
   <string name="IsRecordingRound">%1$s 正在录制视频</string>
   <string name="AreRecordingRound">%1$s 正在录制视频</string>
@@ -1658,9 +1658,9 @@
   <string name="SuggestStickersNone">无</string>
   <string name="MessageContentPreview">图像预览</string>
   <string name="PlaceSearchError">搜索地点出错</string>
-  <string name="ShareAs">以何种方式分享</string>
-  <string name="PerformAs">以何种方式执行操作</string>
-  <string name="OpenLinkAs">以何种方式打开链接</string>
+  <string name="ShareAs">选择分享身份...</string>
+  <string name="PerformAs">选择操作身份...</string>
+  <string name="OpenLinkAs">选择打开身份...</string>
   <string name="CurrentAccount">%1$s（现正使用）</string>
   <string name="Proceed">继续</string>
   <string name="LiveLocationError">无法确认您当前的位置。</string>
@@ -1926,7 +1926,7 @@
   <string name="json_1_text1">哈哈！嗨起来！**Waow!!**</string>
   <string name="json_1_text2">莱因哈特，你的音乐口味得换换了&#127926;。</string>
   <string name="json_1_text3">啊，玩电子乐的小子！你应该好好听听古典乐曲，哈塞尔霍夫的就不错！</string>
-  <string name="json_1_text4">真是没法交流……</string>
+  <string name="json_1_text4">真是没法交流...</string>
 
   <string name="json_2_name1">丹妮莉丝</string>
   <string name="json_2_name2">安吉拉·默克尔</string>
@@ -1950,7 +1950,7 @@
 
   <string name="json_4_name">斯派斯·丹尼尔</string>
   <string name="json_4_text1">你能看到这个对话预览是因为你是一名**翻译者**。\n\n请前往 @tgx_android_translate&#160;获取如何制作你自己的预览场景的指南。</string>
-  <string name="json_4_text2">我知道啦！别再说了……</string>
+  <string name="json_4_text2">我知道啦！别再说了...</string>
 
   <string name="json_ChatDemo">0</string>
 
