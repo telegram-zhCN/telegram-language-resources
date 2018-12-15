@@ -1125,7 +1125,7 @@
 
 "TwoStepAuth.ChangePassword" = "Change Password";
 "TwoStepAuth.RemovePassword" = "Turn Password Off";
-"TwoStepAuth.SetupEmail" = "Set Recovery EMail";
+"TwoStepAuth.SetupEmail" = "Set Recovery Email";
 "TwoStepAuth.ChangeEmail" = "Change Recovery Email";
 "TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "You have enabled Two-Step verification.\nYou'll need the password you set up here to log in to your Telegram account.";

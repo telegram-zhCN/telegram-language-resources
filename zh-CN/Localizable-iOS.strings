@@ -15,8 +15,8 @@
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
 "MESSAGE_SCREENSHOT" = "%1$@ 截图了！";
-"ENCRYPTION_REQUEST" = "新私密对话请求 %1$@";
-"ENCRYPTION_ACCEPT" = "您的私密对话请求已被接受 %1$@";
+"ENCRYPTION_REQUEST" = "新加密对话请求 %1$@";
+"ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";
 "MESSAGE_PHOTOS" = "%1$@ sent you %2$@ photos";
 "MESSAGES" = "%1$@ sent you %2$@ messages";
 
@@ -122,30 +122,30 @@
 "Presence.online" = "当前在线";
 
 // Date
-"Month.GenJanuary" = "1 月";
-"Month.GenFebruary" = "2 月";
-"Month.GenMarch" = "3 月";
-"Month.GenApril" = "4 月";
-"Month.GenMay" = "5 月";
-"Month.GenJune" = "6 月";
-"Month.GenJuly" = "7 月";
-"Month.GenAugust" = "8 月";
-"Month.GenSeptember" = "9 月";
-"Month.GenOctober" = "10 月";
-"Month.GenNovember" = "11 月";
-"Month.GenDecember" = "12 月";
-"Month.ShortJanuary" = "1 月";
-"Month.ShortFebruary" = "2 月";
-"Month.ShortMarch" = "3 月";
-"Month.ShortApril" = "4 月";
-"Month.ShortMay" = "5 月";
-"Month.ShortJune" = "6 月";
-"Month.ShortJuly" = "7 月";
-"Month.ShortAugust" = "8 月";
-"Month.ShortSeptember" = "9 月";
-"Month.ShortOctober" = "10 月";
-"Month.ShortNovember" = "11 月";
-"Month.ShortDecember" = "12 月";
+"Month.GenJanuary" = "1月";
+"Month.GenFebruary" = "2月";
+"Month.GenMarch" = "3月";
+"Month.GenApril" = "4月";
+"Month.GenMay" = "5月";
+"Month.GenJune" = "6月";
+"Month.GenJuly" = "7月";
+"Month.GenAugust" = "8月";
+"Month.GenSeptember" = "9月";
+"Month.GenOctober" = "10月";
+"Month.GenNovember" = "11月";
+"Month.GenDecember" = "12月";
+"Month.ShortJanuary" = "1月";
+"Month.ShortFebruary" = "2月";
+"Month.ShortMarch" = "3月";
+"Month.ShortApril" = "4月";
+"Month.ShortMay" = "5月";
+"Month.ShortJune" = "6月";
+"Month.ShortJuly" = "7月";
+"Month.ShortAugust" = "8月";
+"Month.ShortSeptember" = "9月";
+"Month.ShortOctober" = "10月";
+"Month.ShortNovember" = "11月";
+"Month.ShortDecember" = "12月";
 "Weekday.ShortMonday" = "周一";
 "Weekday.ShortTuesday" = "周二";
 "Weekday.ShortWednesday" = "周三";
@@ -181,9 +181,9 @@
 "LastSeen.ALongTimeAgo" = "离线已久";
 "LastSeen.Offline" = "离线已久";
 
-"Date.DialogDateFormat" = "{month} {day} 日";
+"Date.DialogDateFormat" = "{month}{day}日";
 "Date.ChatDateHeader" = "%1$@ %2$@";
-"Date.ChatDateHeaderYear" = "%3$@ 年 %1$@ %2$@";
+"Date.ChatDateHeaderYear" = "%3$@年%1$@%2$@";
 
 // Tour
 "Tour.Title1" = "Telegram";
@@ -224,8 +224,8 @@
 "Login.CodeExpiredError" = "验证码已过期，请重试";
 "Login.CodeFloodError" = "错误次数已达上限，请稍后再试";
 "Login.InvalidPhoneError" = "手机号码无效，请重新输入。";
-"Login.InvalidFirstNameError" = "姓氏无效，请重新输入";
-"Login.InvalidLastNameError" = "名字无效，请重新输入";
+"Login.InvalidFirstNameError" = "您输入的名字不符合要求，请重新输入";
+"Login.InvalidLastNameError" = "您输入的姓氏不符合要求，请重新输入";
 
 "Login.PhoneTitle" = "您的电话号码";
 "Login.PhonePlaceholder" = "您的手机号码";
@@ -235,10 +235,10 @@
 "Login.InfoTitle" = "个人信息";
 "Login.InfoAvatarAdd" = "上传";
 "Login.InfoAvatarPhoto" = "头像";
-"Login.InfoFirstNamePlaceholder" = "姓氏";
-"Login.InfoLastNamePlaceholder" = "名字";
+"Login.InfoFirstNamePlaceholder" = "名字";
+"Login.InfoLastNamePlaceholder" = "姓氏";
 "Login.InfoDeletePhoto" = "删除头像";
-"Login.InfoHelp" = "输入您的姓名并添加头像";
+"Login.InfoHelp" = "请输入您的姓名并添加一张头像。\n提示：请勿输入个人真实信息。";
 
 // Login.SelectCountry
 "Login.SelectCountry.Title" = "国家";
@@ -257,19 +257,19 @@
 "DialogList.SingleUploadingFileSuffix" = "%@ 正在发送文件";
 "DialogList.MultipleTypingSuffix" = "%d 正在输入";
 "DialogList.Typing" = "正在输入";
-"DialogList.ClearHistoryConfirmation" = "清除聊天记录";
+"DialogList.ClearHistoryConfirmation" = "清空历史记录";
 "DialogList.DeleteConversationConfirmation" = "删除并退出";
 "DialogList.AwaitingEncryption" = "等待 %@ 上线...";
-"DialogList.EncryptionRejected" = "私密对话已取消";
+"DialogList.EncryptionRejected" = "加密对话已被取消";
 "DialogList.EncryptionProcessing" = "正在交换加密密钥...";
-"DialogList.EncryptedChatStartedOutgoing" = "%@ 加入了您的私密对话";
-"DialogList.EncryptedChatStartedIncoming" = "%@ 创建了私密对话";
+"DialogList.EncryptedChatStartedOutgoing" = "%@ 进入了您的加密对话";
+"DialogList.EncryptedChatStartedIncoming" = "%@ 创建了加密对话";
 
 // Compose
 "Compose.TokenListPlaceholder" = "请选择收件人";
 "Compose.NewMessage" = "新建会话";
 "Compose.NewGroup" = "新建群组";
-"Compose.NewEncryptedChat" = "新建私密对话";
+"Compose.NewEncryptedChat" = "新建加密对话";
 "Compose.Create" = "创建";
 
 // Contacts
@@ -316,8 +316,8 @@
 "Conversation.EncryptionWaiting" = "等待 %@ 上线...";
 "Conversation.EncryptionProcessing" = "正在交换加密密钥...";
 "Conversation.EmptyPlaceholder" = "这里暂时还没有消息...";
-"Conversation.EncryptedPlaceholderTitleIncoming" = "%@ 邀请您加入私密对话。";
-"Conversation.EncryptedPlaceholderTitleOutgoing" = "您已邀请 %@ 加入私密对话";
+"Conversation.EncryptedPlaceholderTitleIncoming" = "%@ 邀请您进入加密对话。";
+"Conversation.EncryptedPlaceholderTitleOutgoing" = "您已邀请 %@ 进入私密对话";
 "Conversation.EncryptedDescriptionTitle" = "加密对话：";
 "Conversation.EncryptedDescription1" = "使用端到端加密";
 "Conversation.EncryptedDescription2" = "不会在服务器上留下任何痕迹";
@@ -386,7 +386,7 @@
 // Message
 "Message.Photo" = "图片";
 "Message.Video" = "视频";
-"Message.Location" = "位置";
+"Message.Location" = "位置信息";
 "Message.Contact" = "联系人";
 "Message.File" = "文件";
 "Message.Sticker" = "贴纸";
@@ -407,10 +407,10 @@
 "Conversation.ShareMyContactInfo" = "分享我的联系信息";
 "Conversation.AddContact" = "添加联系人";
 "Conversation.SendMessage" = "发送消息";
-"Conversation.EncryptionCanceled" = "私密对话已取消";
+"Conversation.EncryptionCanceled" = "加密对话已被取消";
 "Conversation.DeleteManyMessages" = "删除选中的消息";
 "Conversation.SlideToCancel" = "左滑取消录制";
-"Conversation.ApplyLocalization" = "使用此本地化文件";
+"Conversation.ApplyLocalization" = "安装语言包";
 "Conversation.OpenFile" = "打开文件";
 
 // Media Picker
@@ -436,13 +436,13 @@
 
 // User Info
 "UserInfo.Title" = "个人信息";
-"UserInfo.FirstNamePlaceholder" = "姓氏";
-"UserInfo.LastNamePlaceholder" = "名字";
+"UserInfo.FirstNamePlaceholder" = "名字";
+"UserInfo.LastNamePlaceholder" = "姓氏";
 "UserInfo.GenericPhoneLabel" = "手机号码";
 "UserInfo.SendMessage" = "发送消息";
 "UserInfo.AddContact" = "添加为联系人";
 "UserInfo.ShareContact" = "分享联系信息";
-"UserInfo.StartSecretChat" = "开始私密对话";
+"UserInfo.StartSecretChat" = "开始加密对话";
 "UserInfo.DeleteContact" = "删除联系人";
 "UserInfo.CreateNewContact" = "创建新的联系人";
 "UserInfo.AddToExisting" = "添加到现有联系人";
@@ -460,7 +460,7 @@
 "PhoneLabel.Title" = "标签";
 
 // Secret Chat
-"SecretChat.Title" = "私密对话";
+"SecretChat.Title" = "加密对话";
 
 // Group Info
 "GroupInfo.Title" = "群组信息";
@@ -488,7 +488,7 @@
 
 // Encryption Key
 "EncryptionKey.Title" = "加密密钥";
-"EncryptionKey.Description" = "这是您与 %1$@ 私密会话加密密钥的可视化图片。\n\n如果这张图片看起来和 %2$@ 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 telegram.org";
+"EncryptionKey.Description" = "这是您与 %1$@ 加密会话加密密钥的可视化图片。\n\n如果这张图片看起来和 %2$@ 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 telegram.org";
 
 // Conversation media
 "ConversationMedia.Title" = "媒体";
@@ -589,7 +589,7 @@
 "BlockedUsers.SelectUserTitle" = "屏蔽";
 "BlockedUsers.BlockUser" = "Block User...";
 "BlockedUsers.BlockTitle" = "屏蔽";
-"BlockedUsers.LeavePrefix" = "离开 ";
+"BlockedUsers.LeavePrefix" = "退出";
 "BlockedUsers.Info" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
 "BlockedUsers.AddNew" = "添加...";
 "BlockedUsers.Unblock" = "取消屏蔽";
@@ -606,10 +606,10 @@
 
 
 "Settings.LogoutConfirmationTitle" = "退出登录";
-"Settings.LogoutConfirmationText" = "\nTelegram 能在所有设备上同时登录和使用。\n\n但请注意，注销将会清除所有的私密对话数据。";
+"Settings.LogoutConfirmationText" = "\nTelegram 能在所有设备上同时登录和使用。\n\n但请注意，注销将会清除所有的加密对话数据。";
 
-"Login.PadPhoneHelp" = "\n您可以使用手机号在各种设备上登录 Telegram。\n请不要在此使用您 iPad SIM 卡的号码，我们需要您能够接收短信。\n\n使用此号码？\n{number}";
-"Login.PadPhoneHelpTitle" = "手机号码";
+"Login.PadPhoneHelp" = "\n您可以使用手机号在各种设备上登录 Telegram。\n请不要在此使用您 iPad SIM 卡的号码，我们需要向您发送一条短信。\n\n使用此号码？\n{number}";
+"Login.PadPhoneHelpTitle" = "您的手机号码";
 
 "MessageTimer.Custom" = "自定义";
 
@@ -715,7 +715,7 @@
 "WebSearch.Images" = "图片";
 "WebSearch.GIFs" = "GIF";
 "WebSearch.RecentSectionTitle" = "最近";
-"WebSearch.RecentSectionClear" = "清除";
+"WebSearch.RecentSectionClear" = "清空";
 
 "Settings.PrivacySettings" = "隐私与安全";
 
@@ -818,7 +818,7 @@
 "ChangePhoneNumberCode.Help" = "我们已向此号码发送短信验证码";
 "ChangePhoneNumberCode.CallTimer" = "Telegram 会在 %@ 后通过电话语音播报验证码";
 "ChangePhoneNumberCode.RequestingACall" = "正在向 Telegram 发送呼叫请求...";
-"ChangePhoneNumberCode.Called" = "Telegram 已呼叫您";
+"ChangePhoneNumberCode.Called" = "Telegram 已拨打您的电话";
 
 "LoginPassword.Title" = "输入密码";
 "LoginPassword.PasswordPlaceholder" = "密码";
@@ -885,31 +885,31 @@
 
 "DownloadingStatus" = "下载中: %@ / %@";
 
-"Time.MonthOfYear_m1" = "%@ 年 1 月";
-"Time.MonthOfYear_m2" = "%@ 年 2 月";
-"Time.MonthOfYear_m3" = "%@ 年 3 月";
-"Time.MonthOfYear_m4" = "%@ 年 4 月";
-"Time.MonthOfYear_m5" = "%@ 年 5 月";
-"Time.MonthOfYear_m6" = "%@ 年 6 月";
-"Time.MonthOfYear_m7" = "%@ 年 7 月";
-"Time.MonthOfYear_m8" = "%@ 年 8 月";
-"Time.MonthOfYear_m9" = "%@ 年 9 月";
-"Time.MonthOfYear_m10" = "%@ 年 10 月";
-"Time.MonthOfYear_m11" = "%@ 年 11 月";
-"Time.MonthOfYear_m12" = "%@ 年 12 月";
+"Time.MonthOfYear_m1" = "%@年1月";
+"Time.MonthOfYear_m2" = "%@年2月";
+"Time.MonthOfYear_m3" = "%@年3月";
+"Time.MonthOfYear_m4" = "%@年4月";
+"Time.MonthOfYear_m5" = "%@年5月";
+"Time.MonthOfYear_m6" = "%@年6月";
+"Time.MonthOfYear_m7" = "%@年7月";
+"Time.MonthOfYear_m8" = "%@年8月";
+"Time.MonthOfYear_m9" = "%@年9月";
+"Time.MonthOfYear_m10" = "%@年10月";
+"Time.MonthOfYear_m11" = "%@年11月";
+"Time.MonthOfYear_m12" = "%@年12月";
 
-"Time.PreciseDate_m1" = "%2$@ 年 1 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m2" = "%2$@ 年 2 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m3" = "%2$@ 年 3 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m4" = "%2$@ 年 4 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m5" = "%2$@ 年 5 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m6" = "%2$@ 年 6 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m7" = "%2$@ 年 7 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m8" = "%2$@ 年 8 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m9" = "%2$@ 年 9 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m10" = "%2$@ 年 10 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m11" = "%2$@ 年 11 月 %1$@ 日 %3$@";
-"Time.PreciseDate_m12" = "%2$@ 年 12 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m1" = "%2$@年1月%1$@日 %3$@";
+"Time.PreciseDate_m2" = "%2$@年2月%1$@日 %3$@";
+"Time.PreciseDate_m3" = "%2$@年3月%1$@日 %3$@";
+"Time.PreciseDate_m4" = "%2$@年4月%1$@日 %3$@";
+"Time.PreciseDate_m5" = "%2$@年5月%1$@日 %3$@";
+"Time.PreciseDate_m6" = "%2$@年6月%1$@日 %3$@";
+"Time.PreciseDate_m7" = "%2$@年7月%1$@日 %3$@";
+"Time.PreciseDate_m8" = "%2$@年8月%1$@日 %3$@";
+"Time.PreciseDate_m9" = "%2$@年9月%1$@日 %3$@";
+"Time.PreciseDate_m10" = "%2$@年10月%1$@日 %3$@";
+"Time.PreciseDate_m11" = "%2$@年11月%1$@日 %3$@";
+"Time.PreciseDate_m12" = "%2$@年12月%1$@日 %3$@";
 
 
 
@@ -973,7 +973,7 @@
 "PasscodeSettings.TurnPasscodeOn" = "开启密码锁";
 "PasscodeSettings.TurnPasscodeOff" = "关闭密码锁";
 "PasscodeSettings.ChangePasscode" = "更改密码";
-"PasscodeSettings.Help" = "开启密码锁后，会话页面将出现锁形图标，点击即可锁定或解锁 Telegram。\n\n注意：如果遗忘此密码，您只能删除并重装 Telegram 来移除密码锁。重装会丢失所有私密对话。";
+"PasscodeSettings.Help" = "开启密码锁后，会话页面将出现锁形图标，点击即可锁定或解锁 Telegram。\n\n注意：如果遗忘此密码，您只能删除并重装 Telegram 来移除密码锁。重装会丢失所有加密对话。";
 "PasscodeSettings.UnlockWithTouchId" = "使用 Touch ID 解锁";
 "PasscodeSettings.SimplePasscode" = "简单密码";
 "PasscodeSettings.SimplePasscodeHelp" = "简单密码由四位数字组成。";
@@ -1163,10 +1163,10 @@
 "TwoStepAuth.ResetAccountHelp" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
 "TwoStepAuth.ResetAccountConfirmation" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
 
-"TwoStepAuth.RecoveryTitle" = "Email Code";
-"TwoStepAuth.RecoveryCode" = "认证码";
+"TwoStepAuth.RecoveryTitle" = "电子邮箱验证";
+"TwoStepAuth.RecoveryCode" = "验证码";
 "TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
-"TwoStepAuth.RecoveryCodeInvalid" = "认证码无效，请重新输入。";
+"TwoStepAuth.RecoveryCodeInvalid" = "验证码无效，请重新输入。";
 "TwoStepAuth.RecoveryCodeExpired" = "我们重新向您发送了六位认证码";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 
@@ -1426,10 +1426,10 @@
 
 "Channel.Moderator.Title" = "管理员";
 
-"Notification.ChannelInviter" = "%@ 已邀请您加入此频道";
-"Notification.ChannelInviterSelf" = "您加入了此频道";
+"Notification.ChannelInviter" = "%@ 邀请您关注了此频道";
+"Notification.ChannelInviterSelf" = "您关注了此频道";
 
-"Notification.GroupInviter" = "%@ 已邀请您加入此群组";
+"Notification.GroupInviter" = "%@ 邀请您加入了此群组";
 "Notification.GroupInviterSelf" = "您加入了此群组";
 
 "ChannelInfo.DeleteChannel" = "删除频道";
@@ -1496,8 +1496,8 @@
 "Conversation.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Generic.ErrorMoreInfo" = "详情";
 
-"ChannelInfo.DeleteGroup" = "删除群组";
-"ChannelInfo.DeleteGroupConfirmation" = "且慢！删除此群组会移除所有成员，并且所有消息记录会丢失。无论如何都要删除这个群组吗？";
+"ChannelInfo.DeleteGroup" = "解散群组";
+"ChannelInfo.DeleteGroupConfirmation" = "且慢！解散此群组会移除所有成员，并且将会丢失全部消息记录。确定要解散这个群组吗？";
 
 "ReportPeer.Report" = "举报";
 
@@ -1760,15 +1760,15 @@
 "Notification.PinnedContactMessage" = "%@ 已置顶 1 个联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 已置顶删除的消息";
 
-"Message.PinnedTextMessage" = "已置顶 \"%@\"";
+"Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "已置顶图片";
-"Message.PinnedVideoMessage" = "已置顶视频";
+"Message.PinnedVideoMessage" = "置顶了一段视频";
 "Message.PinnedAudioMessage" = "置顶了语音留言";
-"Message.PinnedDocumentMessage" = "已置顶文件";
-"Message.PinnedAnimationMessage" = "已置顶 GIF";
-"Message.PinnedStickerMessage" = "已置顶贴纸";
-"Message.PinnedLocationMessage" = "已置顶位置";
-"Message.PinnedContactMessage" = "已置顶联系人信息";
+"Message.PinnedDocumentMessage" = "置顶了一个文件";
+"Message.PinnedAnimationMessage" = "置顶了一张 GIF";
+"Message.PinnedStickerMessage" = "置顶了一张贴纸";
+"Message.PinnedLocationMessage" = "置顶了一条位置信息";
+"Message.PinnedContactMessage" = "置顶了一条联系人信息";
 
 "Notification.PinnedMessage" = "已置顶消息";
 
@@ -1783,7 +1783,7 @@
 "GroupInfo.GroupType" = "群组类型";
 
 "Group.Setup.TypeHeader" = "群组类型";
-"Group.Setup.TypePublicHelp" = "任何人都可以搜索、加入公开群组，并查看聊天记录。";
+"Group.Setup.TypePublicHelp" = "任何人都可以搜索和加入公开群组，并查看其历史记录。";
 "Group.Setup.TypePrivateHelp" = "私人群组只能通过群成员邀请或邀请链接加入。";
 
 "Group.Username.CreatePublicLinkHelp" = "其他用户可以通过搜索或群成员分享的链接来加入群组。";
@@ -1884,10 +1884,10 @@
 "Login.ResetAccountProtected.Reset" = "重置";
 "Login.ResetAccountProtected.LimitExceeded" = "您近期的重置帐户请求被它当前活动帐户撤销，请于 7 天后重试。";
 
-"Login.CodeSentCall" = "我们正在呼叫您的手机来播报验证码。";
+"Login.CodeSentCall" = "我们正在呼叫您的手机并播报验证码。";
 
 "Login.WillSendSms" = "Telegram will send you an SMS in %@";
-"Login.SmsRequestState2" = "正在向 Telegram 发送短信请求...";
+"Login.SmsRequestState2" = "正在向 Telegram 请求发送短信...";
 "Login.SmsRequestState3" = "Telegram 已向您发送短信\n[仍未收到验证码？]";
 
 "CancelResetAccount.Title" = "取消账号重置";
@@ -2002,7 +2002,7 @@ Unused sets are archived when you add more.";
 
 "ShareMenu.CopyShareLinkGame" = "复制游戏链接";
 
-"Message.PinnedGame" = "置顶一个游戏";
+"Message.PinnedGame" = "置顶了一个游戏";
 
 "Target.ShareGameConfirmationPrivate" = "与 %@ 分享此游戏？";
 "Target.ShareGameConfirmationGroup" = "与 \"%@\" 分享此游戏？";
@@ -2010,7 +2010,7 @@ Unused sets are archived when you add more.";
 "Activity.PlayingGame" = "正在玩游戏";
 "Activity.UploadingVideoMessage" = "正在发送视频";
 
-"DialogList.SinglePlayingGameSuffix" = "%@ 正在游戏中";
+"DialogList.SinglePlayingGameSuffix" = "%@ 正在玩游戏";
 
 "UserInfo.GroupsInCommon" = "共同加入的群组";
 "Conversation.InstantPagePreview" = "即时预览";
@@ -2028,7 +2028,7 @@ Unused sets are archived when you add more.";
 "Application.Name" = "Telegram";
 "DialogList.Pin" = "置顶";
 "DialogList.Unpin" = "取消置顶";
-"DialogList.PinLimitError" = "对不起，您最多只能将 %@ 个会话置顶。";
+"DialogList.PinLimitError" = "抱歉，您最多只能置顶 %@ 个会话。";
 
 "Conversation.DeleteMessagesForMe" = "从本地删除";
 "Conversation.DeleteMessagesFor" = "从本地和 %@ 删除";
@@ -2192,7 +2192,7 @@ Unused sets are archived when you add more.";
 "CheckoutInfo.ErrorStateInvalid" = "请输入有效的省份。";
 "CheckoutInfo.ErrorCityInvalid" = "请输入有效的城市。";
 "CheckoutInfo.ErrorNameInvalid" = "请输入有效的姓名。";
-"CheckoutInfo.ErrorEmailInvalid" = "Please enter a valid email address.";
+"CheckoutInfo.ErrorEmailInvalid" = "请输入有效的电子邮箱地址。";
 "CheckoutInfo.ErrorPhoneInvalid" = "请输入有效的手机号码。";
 
 "Checkout.WebConfirmation.Title" = "完成支付";
@@ -2362,10 +2362,10 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissinAddAdminOn" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "Channel.EditAdmin.PermissinAddAdminOff" = "该管理员不能添加新管理员。";
 
-"Login.ContinueWithLocalization" = "继续使用简体中文";
+"Login.ContinueWithLocalization" = "使用简体中文继续";
 "Localization.LanguageName" = "简体中文";
 "Localization.ChooseLanguage" = "选择你的语言";
-"Localization.EnglishLanguageName" = "Chinese Simplified";
+"Localization.EnglishLanguageName" = "英语";
 "Localization.LanguageOther" = "其它";
 "Localization.LanguageCustom" = "自定义";
 
@@ -2608,7 +2608,7 @@ Unused sets are archived when you add more.";
 "Conversation.SearchByName.Prefix" = "来自：";
 "Conversation.SearchByName.Placeholder" = "搜索成员";
 
-"Login.PhoneBannedError" = "此手机号码已被封禁";
+"Login.PhoneBannedError" = "此手机号码已被封禁。";
 
 "Clipboard.SendPhoto" = "发送图片";
 
@@ -2645,9 +2645,9 @@ Unused sets are archived when you add more.";
 "FastTwoStepSetup.PasswordPlaceholder" = "请输入密码";
 "FastTwoStepSetup.PasswordConfirmationPlaceholder" = "请再次输入密码";
 "FastTwoStepSetup.PasswordHelp" = "请输入一个用于保护您付款信息的密码。在您登录时我们将会要求您输入。";
-"FastTwoStepSetup.EmailSection" = "RECOVERY EMAIL";
+"FastTwoStepSetup.EmailSection" = "辅助邮箱";
 "FastTwoStepSetup.EmailPlaceholder" = "您的邮箱地址";
-"FastTwoStepSetup.EmailHelp" = "Please add a valid email address. It is the only way to recover a forgotten password.";
+"FastTwoStepSetup.EmailHelp" = "请输入一个有效的电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
 
 "Conversation.ViewMessage" = "查看消息";
 
@@ -2782,7 +2782,7 @@ Unused sets are archived when you add more.";
 
 "PasscodeSettings.UnlockWithFaceId" = "使用 Face ID 解锁";
 "Checkout.SavePasswordTimeoutAndFaceId" = "您是否希望保存 %@ 的密码并使用 Face ID 支付？";
-"Checkout.PayWithFaceId" = "使用 Face ID 支付";
+"Checkout.PayWithFaceId" = "使用 面容ID 支付";
 
 
 
@@ -2799,7 +2799,7 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.AdditionalPassword" = "两步验证密码";
 
 "PasscodeSettings.HelpTop" = "当您设置好一个附加密码后，一把锁将会出现在聊天页面。轻触它就可以锁定。";
-"PasscodeSettings.HelpBottom" = "注意：如果您忘记了密码，您需要完全登出，并将丢失所有聊天记录。";
+"PasscodeSettings.HelpBottom" = "注意：如果您忘记了密码，您需要完全登出，并将丢失所有加密对话聊天记录。";
 
 "Channel.Setup.TypePublicHelp" = "公开频道可以被搜索，任何人都可以加入。";
 "Channel.Setup.TypePrivateHelp" = "私人频道只能通过邀请链接加入。";
@@ -2990,7 +2990,7 @@ Unused sets are archived when you add more.";
 
 "Login.TermsOfService.ProceedBot" = "Please agree and proceed to %@.";
 
-"Login.TermsOfServiceSignupDecline" = "我们感到非常抱歉，但这意味着您不能注册 Telegram。\n\n与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们将无法提供此服务。";
+"Login.TermsOfServiceSignupDecline" = "我们对此感到非常抱歉，但这也意味着您现在无法注册 Telegram。\n\n与其它软件不同，我们不会利用您的个人数据来导向广告或其它商业目的。Telegram 储存的所有文件都是为了给您创造一个功能丰富的云服务体验。 您可以在「设置」—「隐私和安全」 里调整我们使用您数据的方式（例如：删除已同步的联系人）。\n\n但若您完全无法接受 Telegram 的云数据政策，我们将无法为您提供服务。";
 
 "UserInfo.BotPrivacy" = "隐私政策\n";
 
@@ -3091,12 +3091,12 @@ Unused sets are archived when you add more.";
 "Passport.Identity.EditDriversLicense" = "编辑驾驶证信息";
 
 "Passport.Identity.DocumentDetails" = "详细信息";
-"Passport.Identity.Name" = "姓氏";
-"Passport.Identity.NamePlaceholder" = "姓氏";
+"Passport.Identity.Name" = "名字";
+"Passport.Identity.NamePlaceholder" = "名字";
 "Passport.Identity.MiddleName" = "中间名";
 "Passport.Identity.MiddleNamePlaceholder" = "中间名";
-"Passport.Identity.Surname" = "名字";
-"Passport.Identity.SurnamePlaceholder" = "名字";
+"Passport.Identity.Surname" = "姓氏";
+"Passport.Identity.SurnamePlaceholder" = "姓氏";
 "Passport.Identity.DateOfBirth" = "出生日期";
 "Passport.Identity.DateOfBirthPlaceholder" = "出生日期";
 "Passport.Identity.Gender" = "性别";
@@ -3438,7 +3438,7 @@ Unused sets are archived when you add more.";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "包含已关闭提醒的会话";
-"Notifications.Badge.IncludePublicGroups" = "Include Public Groups";
+"Notifications.Badge.IncludePublicGroups" = "包含公开群组";
 "Notifications.Badge.IncludeChannels" = "Include Channels";
 "Notifications.Badge.CountUnreadMessages" = "统计未读消息";
 "Notifications.Badge.CountUnreadMessages.InfoOff" = "Switch on to show the number of unread messages instead of chats.";
@@ -3492,7 +3492,7 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.AddHintTitle" = "Add a Hint";
 "TwoStepAuth.AddHintDescription" = "请设置一个密码提示";
 "TwoStepAuth.HintPlaceholder" = "提示";
-"TwoStepAuth.RecoveryEmailTitle" = "Recovery Email";
+"TwoStepAuth.RecoveryEmailTitle" = "辅助邮箱";
 "TwoStepAuth.RecoveryEmailAddDescription" = "请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
 "TwoStepAuth.RecoveryEmailChangeDescription" = "Please enter your new recovery email. It is the only way to recover a forgotten password.";
 "TwoStepAuth.ChangeEmail" = "更改密码找回邮箱";
@@ -3511,7 +3511,7 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.EmailAddSuccess" = "Your recovery email\nhas been added.";
 "TwoStepAuth.EmailChangeSuccess" = "Your recovery email\nhas been changed.";
 
-"Conversation.SendMessageErrorGroupRestricted" = "抱歉，您目前已被限制在公共群组中发送消息。";
+"Conversation.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
 
 "InstantPage.TapToOpenLink" = "Tap to open the link:";
 "InstantPage.RelatedArticleAuthorAndDateTitle" = "%1$@ • %2$@";
@@ -3548,7 +3548,7 @@ Unused sets are archived when you add more.";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
-"Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给你发送短信";
+"Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";

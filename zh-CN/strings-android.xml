@@ -49,7 +49,7 @@
     <string name="OtherLoginCode">您的登录验证码是**%1$s**。在您尝试登录 Telegram 应用程序时输入它。 \n\n不要将此验证码透露给任何人。</string>
     <!--signup view-->
     <string name="YourName">您的姓名</string>
-    <string name="RegisterText">设置您的姓名</string>
+    <string name="RegisterText">请设置您的姓名。</string>
     <!--<string name="RegisterText">Set up your name and picture</string>-->
     <string name="FirstName">名字（必填）</string>
     <string name="LastName">姓氏（可选）</string>
@@ -98,12 +98,12 @@
     <string name="PaymentCheckoutShippingMethod">配送方式</string>
     <string name="PaymentReceipt">收据</string>
     <string name="PaymentConfirmationNewCard">选择另一张卡</string>
-    <string name="PaymentConfirmationMessage">您曾保存过您的银行卡 %1$s 的信息。要使用此卡付款，请输入您的两步验证密码。</string>
+    <string name="PaymentConfirmationMessage">您曾保存过您的银行卡（%1$s）信息。要使用此卡付款，请输入您的两步验证密码。</string>
     <string name="PaymentPrecheckoutFailed">抱歉，付款已被此机器人取消。</string>
     <string name="PaymentFailed">抱歉，付款被拒绝。</string>
     <string name="PaymentConnectionFailed">无法连接至支付服务器。请检查您的互联网连接并重试。</string>
     <string name="PaymentWarning">警告</string>
-    <string name="PaymentWarningText">Telegram 和 %1$s 都无法获得您的信用卡信息。信用卡信息将只会被支付平台 %2$s 处理。\n\n款项款将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
+    <string name="PaymentWarningText">Telegram 和 %1$s 都无法获得您的信用卡信息。信用卡信息将只会被支付平台 %2$s 处理。\n\n款项将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
     <string name="PaymentPassword">密码和电子邮箱</string>
     <string name="PaymentPasswordTitle">密码</string>
     <string name="PaymentPasswordEnter">请输入密码</string>
@@ -139,9 +139,9 @@
     <string name="Updating">刷新中...</string>
     <string name="NewSecretChat">新建加密对话</string>
     <string name="AwaitingEncryption">等待%s上线...</string>
-    <string name="EncryptionRejected">加密对话已取消</string>
+    <string name="EncryptionRejected">加密对话已被取消</string>
     <string name="EncryptionProcessing">正在交换加密密钥...</string>
-    <string name="EncryptedChatStartedOutgoing">%s 加入了您的加密对话。</string>
+    <string name="EncryptedChatStartedOutgoing">%s 进入了您的加密对话。</string>
     <string name="EncryptedChatStartedIncoming">您已加入加密对话。</string>
     <string name="ClearHistory">清空历史记录</string>
     <string name="ClearHistoryCache">清除消息缓存</string>
@@ -234,7 +234,7 @@
     <string name="ChannelPublic">公开频道</string>
     <string name="MegaPublic">公开群组</string>
     <string name="ChannelPublicInfo">公开频道可以被搜索，任何人都可以加入。</string>
-    <string name="MegaPublicInfo">公开群组可以被搜索到，所有人都可以看到聊天记录，并且任何人都可以加入。</string>
+    <string name="MegaPublicInfo">任何人都可以搜索和加入公开群组，并查看其历史记录。</string>
     <string name="ChannelPrivate">私人频道</string>
     <string name="MegaPrivate">私人群组</string>
     <string name="ChannelPrivateInfo">私人频道只能通过邀请链接加入。</string>
@@ -293,7 +293,7 @@
     <string name="ChannelAdminsInfo">您可以添加管理员帮助您管理频道。长按可删除管理员。</string>
     <string name="ChannelJoinTo">您确定要加入 “%1$s” 频道？</string>
     <string name="ChannelCantOpenPrivate">抱歉，此对话已无法访问。</string>
-    <string name="ChannelCantOpenBanned">很抱歉，您已被禁止在公开群组中发言。</string>
+    <string name="ChannelCantOpenBanned">抱歉，目前您已被禁止在公开群组中发送消息。</string>
     <string name="ChannelCantOpenNa">抱歉，该对话已无法访问。</string>
     <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
     <string name="ChannelUserLeftError">抱歉，该用户已决定退出此频道，因此您无法邀请该用户回来。</string>
@@ -534,7 +534,7 @@
     <string name="ShareMyContactInfo">分享我的联系方式</string>
     <string name="AddToContacts">添加到通讯录</string>
     <string name="EncryptedPlaceholderTitleIncoming">%s 邀请您进入加密对话。</string>
-    <string name="EncryptedPlaceholderTitleOutgoing">您已邀请 %s 加入加密对话。</string>
+    <string name="EncryptedPlaceholderTitleOutgoing">您已邀请 %s 进入加密对话。</string>
     <string name="EncryptedDescriptionTitle">加密对话：</string>
     <string name="EncryptedDescription1">使用端到端加密</string>
     <string name="EncryptedDescription2">不会在我们的服务器上留下任何痕迹</string>
@@ -550,7 +550,7 @@
     <string name="DeleteGif">删除此 GIF？</string>
     <string name="SaveToMusic">保存到音乐库</string>
     <string name="ShareFile">分享</string>
-    <string name="ApplyLocalizationFile">使用语言文件</string>
+    <string name="ApplyLocalizationFile">安装语言包</string>
     <string name="ApplyThemeFile">应用主题文件</string>
     <string name="UnsupportedAttachment">不支持此附件</string>
     <string name="SetTimer">设置阅后即焚计时器</string>
@@ -574,7 +574,7 @@
     <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
     <string name="NobodyLikesSpam1">抱歉，您现在只能给双向联系人发送信息。</string>
     <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
-    <string name="NobodyLikesSpam3">抱歉，您目前已被限制在公共群组中发送消息。</string>
+    <string name="NobodyLikesSpam3">抱歉，目前您已被禁止在公开群组中发送消息。</string>
     <string name="MoreInfo">详情</string>
     <string name="ShareSendTo">转发到...</string>
     <string name="ShareComment">补充评论...</string>
@@ -902,7 +902,7 @@
     <string name="Masks">装饰</string>
     <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
     <string name="FeaturedStickers">热门贴纸</string>
-    <string name="SuggestStickers">通过 Emoji 推荐热门贴纸</string>
+    <string name="SuggestStickers">通过 Emoji 推荐贴纸</string>
     <string name="SuggestStickersAll">全部贴纸包</string>
     <string name="SuggestStickersInstalled">已添加的贴纸包</string>
     <string name="SuggestStickersNone">无</string>
@@ -1036,8 +1036,8 @@
     <string name="TermsOfService">服务协议</string>
     <string name="TermsOfServiceLogin">注册即代表您同意*服务条款*。</string>
     <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
-    <string name="DeleteLocalization">删除此本地化文件？</string>
-    <string name="IncorrectLocalization">无效的语言文件</string>
+    <string name="DeleteLocalization">要删除这个语言包吗？</string>
+    <string name="IncorrectLocalization">语言包文件无效或已损坏</string>
     <string name="NotificationsService">后台服务常驻</string>
     <string name="NotificationsServiceInfo">当应用被终止时自动重启后台服务，确保及时收到通知。</string>
     <string name="NotificationsServiceConnection">后台网络连接</string>
@@ -1283,10 +1283,10 @@
     <string name="PassportSurname">姓氏</string>
     <string name="PassportNameLatin">名（拉丁文）</string>
     <string name="PassportMidnameLatin">中间名（拉丁文）</string>
-    <string name="PassportSurnameLatin">姓（拉丁文）</string>
+    <string name="PassportSurnameLatin">姓氏（拉丁字母）</string>
     <string name="PassportNameCountry">名（%1$s）</string>
     <string name="PassportMidnameCountry">中间名（%1$s）</string>
-    <string name="PassportSurnameCountry">姓（%1$s）</string>
+    <string name="PassportSurnameCountry">姓氏（%1$s）</string>
     <string name="PassportSelectGender">选择性别</string>
     <string name="PassportMale">男</string>
     <string name="PassportFemale">女</string>
@@ -1441,7 +1441,7 @@
     <string name="SharedMusicTab">音乐</string>
     <string name="SharedVoiceTab">留言</string>
     <string name="DocumentsTitle">分享的文件</string>
-    <string name="SharedContentTitle">分享的内容</string>
+    <string name="SharedContentTitle">共享的内容</string>
     <string name="LinksTitle">分享的链接</string>
     <string name="AudioTitle">分享的音乐</string>
     <string name="NoMedia">在此对话中分享图片和视频，并在您所有的设备上访问。</string>
@@ -1503,7 +1503,7 @@
     <string name="PleaseDownload">请先下载此媒体文件</string>
     <string name="PleaseStreamDownload">请等待视频下载完毕</string>
     <string name="VideoDoesNotSupportStreaming">这个视频没有针对在线播放进行优化，你可能要完全下载它才能播放。</string>
-    <string name="CantPlayVideo">应用无法播放此视频，要尝试使用外部播放器播放吗？</string>
+    <string name="CantPlayVideo">无法播放此视频。要尝试使用外部播放器播放吗？</string>
     <string name="NoRecentPhotos">没有最近的图片</string>
     <string name="NoRecentGIFs">沒有最近的 GIF 动画</string>
     <string name="SearchImages">查找图片</string>
@@ -1525,7 +1525,7 @@
     <string name="Fade">褪色</string>
     <string name="TintShadows">阴影</string>
     <string name="TintHighlights">高光</string>
-    <string name="CurvesAll">所有</string>
+    <string name="CurvesAll">全部</string>
     <string name="CurvesRed">红</string>
     <string name="CurvesGreen">绿</string>
     <string name="CurvesBlue">蓝</string>
@@ -1535,9 +1535,9 @@
     <string name="AreYouSureDeletePhoto">确定删除此图片？</string>
     <string name="AreYouSureDeleteVideo">确定删除此视频？</string>
     <string name="AreYouSureDeleteGIF">您确定要删除此 GIF 吗？</string>
-    <string name="DiscardChanges">放弃修改？</string>
+    <string name="DiscardChanges">要放弃修改吗？</string>
     <string name="ClearSearch">是否清除搜索历史？</string>
-    <string name="ClearButton">清除</string>
+    <string name="ClearButton">清空</string>
     <string name="AddCaption">添加说明...</string>
     <string name="PhotoCaption">图片说明</string>
     <string name="VideoCaption">视频说明</string>
@@ -1563,7 +1563,7 @@
     <string name="PleaseEnterFirstPassword">请输入一个密码</string>
     <string name="PleaseEnterPassword">请输入新的解锁密码</string>
     <string name="PleaseReEnterPassword">请再次输入密码</string>
-    <string name="RecoveryEmail">密码恢复邮箱</string>
+    <string name="RecoveryEmail">辅助邮箱</string>
     <string name="YourEmail">您的电子邮箱地址</string>
     <string name="YourEmailCode">您的邮件验证码</string>
     <string name="YourEmailCodeInfo">请输入您在 %1$s 上收到的代码，以确认您的电子邮件地址</string>
@@ -1777,7 +1777,7 @@
     <string name="ActionAddUserSelf">un1 返回了此群组</string>
     <string name="ActionAddUserSelfMega">un1 加入了这个群组</string>
     <string name="ActionAddUserSelfYou">您返回了此群组</string>
-    <string name="ActionBotAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
+    <string name="ActionBotAllowed">当您登录 %1$s 时，你允许这个机器人给你发送消息</string>
     <string name="ActionBotDocuments">%1$s 已收到以下档案: %2$s</string>
     <string name="ActionBotDocumentIdentity">个人信息</string>
     <string name="ActionBotDocumentAddress">地址</string>
@@ -1823,8 +1823,8 @@
     <string name="FloodWaitTime">尝试次数过多，请在 %1$s 后重试</string>
     <string name="InvalidCode">验证码无效</string>
     <string name="PhoneNumberFlood">抱歉，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。</string>
-    <string name="InvalidFirstName">您输入的名字不符合要求。</string>
-    <string name="InvalidLastName">您输入的姓氏不符合要求。</string>
+    <string name="InvalidFirstName">您输入的名字不符合要求，请重新输入。</string>
+    <string name="InvalidLastName">您输入的姓氏不符合要求，请重新输入。</string>
     <string name="Loading">载入中...</string>
     <string name="NoPlayerInstalled">没有可用的视频播放器，请先安装一个再播放</string>
     <string name="NoMailInstalled">请发送邮件到 sms@stel.com 来告诉我们您遇到的问题。</string>
@@ -2066,12 +2066,12 @@
     <string name="messages_few">%1$d 条消息</string>
     <string name="messages_many">%1$d 条消息</string>
     <string name="messages_other">%1$d 条消息</string>
-    <string name="items_zero">已选中 %1$d 个项目</string>
-    <string name="items_one">已选中 %1$d 个项目</string>
-    <string name="items_two">已选中 %1$d 个项目</string>
-    <string name="items_few">已选中 %1$d 个项目</string>
-    <string name="items_many">已选中 %1$d 个项目</string>
-    <string name="items_other">已选中 %1$d 个项目</string>
+    <string name="items_zero">%1$d 项</string>
+    <string name="items_one">%1$d 项</string>
+    <string name="items_two">%1$d 项</string>
+    <string name="items_few">%1$d 项</string>
+    <string name="items_many">%1$d 项</string>
+    <string name="items_other">%1$d 项</string>
     <string name="FromChats_zero">来自 %1$d 个对话</string>
     <string name="FromChats_one">来自 %1$d 个对话</string>
     <string name="FromChats_two">来自 %1$d 个对话</string>
@@ -2289,8 +2289,8 @@
     <string name="formatterMonth">M月d日</string>
     <string name="formatterYear">yyyy年M月d日</string>
     <string name="formatterYearMax">yyyy年M月d日</string>
-    <string name="chatDate">M\\'月\\'d\\'日\\'</string>
-    <string name="chatFullDate">yyyy\\'年\\'M\\'月\\'d\\'日\\'</string>
+    <string name="chatDate">M月d日</string>
+    <string name="chatFullDate">yyyy年M月d日</string>
     <string name="formatterWeek">EEE</string>
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">a h:mm</string>
@@ -2323,7 +2323,7 @@
   <string name="_tg_cancel">取消</string>
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
-  <string name="formatterMonthYear">yyyy年M月</string>
+  <string name="formatterMonthYear">yyyy 年 M 月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
 </resources>

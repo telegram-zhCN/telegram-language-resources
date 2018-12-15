@@ -312,7 +312,7 @@
   <string name="takePhoto">拍照</string>
   <string name="pickFromGallery">从图库中选择</string>
   <string name="DeletePhoto">删除照片</string>
-  <string name="ClearHistory">清除聊天记录</string>
+  <string name="ClearHistory">清空历史记录</string>
   <string name="Cancel">取消</string>
   <string name="AddMember">添加成员</string>
   <string name="DeleteAndLeave">删除并退出</string>
@@ -572,9 +572,9 @@
   <string name="NewSecretChat">新建加密对话</string>
   <string name="NewSecretChatWith">新建加密对话...</string>
   <string name="AwaitingEncryption">等待 %1$s 上线...</string>
-  <string name="XJoinedSecretChat">%1$s 加入了此加密对话</string>
-  <string name="YouJoinedSecretChat">您已加入加密对话。</string>
-  <string name="SecretChatCancelled">加密对话已取消</string>
+  <string name="XJoinedSecretChat">%1$s 进入了加密对话</string>
+  <string name="YouJoinedSecretChat">您已进入加密对话。</string>
+  <string name="SecretChatCancelled">加密对话已被取消</string>
   <string name="SecretChats">加密对话</string>
   <string name="ChatTitleSecretChat">%1$s（加密对话）</string>
   <string name="format_EncryptedDescription">• %1$s\n• %2$s\n• %3$s\n• %4$s</string>
@@ -956,7 +956,7 @@
   <string name="MediaAndFiles">媒体文件和其他文件</string>
   <string name="OtherChats">其他对话</string>
   <string name="SecretFiles">私人媒体文件和其他文件</string>
-  <string name="Clear">清除</string>
+  <string name="Clear">清空</string>
   <string name="ClearX">清理 %1$s 文件</string>
   <string name="service_Notifications">该服务用于显示消息通知。</string>
   <string name="UnmutesInX">%1$s 后解除通知停用</string>
@@ -1561,7 +1561,7 @@
   <string name="SetProfilePhotoError">上传头像时出错：%1$s</string>
   <string name="BotNotFound">机器人 %1$s 未找到</string>
   <string name="AddAccount">添加帐户</string>
-  <string name="RemoveAccountHint">您确认要登出 %1$s？所有此帐户上的私密对话信息将会丢失。</string>
+  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
   <string name="VoipAnsweringAsAccount">作为 %1$s 回应</string>
   <string name="ShowSourceMessage">查看源对话</string>
   <string name="Directions">路线...</string>
@@ -1590,7 +1590,7 @@
   <string name="SharingYouAndOtherName">你和 %1$s</string>
   <string name="StopAllLocationSharings">全部停止</string>
   <string name="StopLiveLocationShort">停止共享</string>
-  <string name="PublicGroupsUnavailable">抱歉，公开群组不可用于您的帐户。</string>
+  <string name="PublicGroupsUnavailable">抱歉，您暂时无法加入公开群组。</string>
   <string name="StopLiveLocation">停止位置共享</string>
   <string name="AppBadge">未读消息计数角标</string>
   <string name="AppBadgeType">角标类型</string>
@@ -1652,7 +1652,7 @@
   <string name="ReportMessages">举报 %1$s 的消息</string>
   
   <string name="ReportXMessages_other">举报 %1$s 条消息</string>
-  <string name="SuggestStickers">通过 Emoji 推荐热门表情</string>
+  <string name="SuggestStickers">通过 Emoji 推荐贴纸</string>
   <string name="SuggestStickersAll">已安装贴纸包 + 推荐贴纸</string>
   <string name="SuggestStickersInstalled">仅已安装贴纸包</string>
   <string name="SuggestStickersNone">无</string>
@@ -1836,28 +1836,28 @@
   <string name="MapPreviewProviderUnset">不使用</string>
   <string name="MapPreviewProviderGoogle">Google Maps</string>
   <string name="MapPreviewProviderTelegram">Telegram</string>
-  <string name="InvalidLocalisation">无效的本地化文件</string>
-  <string name="LanguageInfo">您确定要应用此本地化文件吗？\n\n语言：%1$s (%2$s)\n语言代码：%3$s, %4$s\n已翻译 %5$d%% (%6$s)</string>
+  <string name="InvalidLocalisation">无效的语言包</string>
+  <string name="LanguageInfo">您确定要应用此语言包吗？\n\n语言：%1$s (%2$s)\n语言代码：%3$s, %4$s\n已翻译 %5$d%% (%6$s)</string>
   
   <string name="TranslationsMissing_other">%1$s 个项目未翻译</string>
-  <string name="LanguageInstall">使用此本地化文件</string>
-  <string name="LanguageWarning">警告: 不要安装未知来源的本地化文件</string>
-  <string name="LocalisationApplied">成功安装本地化文件</string>
+  <string name="LanguageInstall">安装语言包</string>
+  <string name="LanguageWarning">警告：请勿安装未知来源的语言包</string>
+  <string name="LocalisationApplied">语言包已成功安装</string>
   <string name="LanguageSectionOfficial">官方</string>
   <string name="LanguageSectionInstalled">已安装</string>
   <string name="LanguageSectionRaw">未发布</string>
   <string name="TranslationMoreTitle">找不到你的语言？</string>
   <string name="TranslationMoreDone">好</string>
   <string name="TranslationMoreCreate">创建</string>
-  <string name="TranslationMoreText">下列可用语言由 [翻译平台](https://translations.telegram.org) 管理。\n\nTelegram 将会在相应语言的翻译被官方采纳时将其提供给您。\n\n在此期间，您可以安装自定义的本地化文件。该文件可通过关注 [翻译进度](https://translations.telegram.org/en/android_x/) 获得，也可由您 [自行](https://t.me/tgx_android_translate/) 创建。</string>
+  <string name="TranslationMoreText">下列可用语言由 [翻译平台](https://translations.telegram.org) 管理。\n\nTelegram 将会在相应语言的翻译被官方采纳时将其提供给您。\n\n在此期间，您可以安装自定义的语言包。该文件可通过关注 [翻译进度](https://translations.telegram.org/classic-zh-cn/android_x/) 获得，也可由您 [自行](https://t.me/tgx_android_translate/) 创建。</string>
   <string name="OK">确定</string>
-  <string name="DeleteLanguageConfirm">你确定你想要删除这个本地化文件吗？\n\n%1$s / %2$s 将不再可用。</string>
-  <string name="RemoveLanguage">删除本地化文件</string>
-  <string name="LanguageEmpty">本地化文件为空</string>
+  <string name="DeleteLanguageConfirm">你确定你想要删除这个语言包吗？\n\n%1$s / %2$s 将不再显示在已安装的语言列表中。</string>
+  <string name="RemoveLanguage">删除语言包</string>
+  <string name="LanguageEmpty">此语言包为空</string>
   <string name="LocalisationShare">分享 XML</string>
   <string name="format_languageStatus">%1$s（%2$d%%）</string>
   <string name="FileName">文件名</string>
-  <string name="LocalizationCreateTitle">创建本地化文件</string>
+  <string name="LocalizationCreateTitle">创建语言包</string>
   <string name="LocalizationCreateDone">创建</string>
   <string name="LocalizationEdit">编辑本地化文件</string>
   <string name="LocalizationView">查看字符串</string>
@@ -1868,7 +1868,7 @@
   <string name="LocalizationExit">保存并退出</string>
   <string name="LocalizationCopy">复制原文</string>
   <string name="LocalizationPaste">粘贴原文</string>
-  <string name="LocalizationFileNamePlaceholder">YOUR_FILE_NAME</string>
+  <string name="LocalizationFileNamePlaceholder">文件名</string>
   <string name="url_faq">https://telegram.org/faq#general-questions</string>
   <string name="url_translationsPrefix">https://translations.telegram.org/en/android_x/unsorted/</string>
   
@@ -1883,7 +1883,7 @@
   <string name="xWeeksShort_other">%1$s 周</string>
 
   
-  <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个私密对话。</string>
+  <string name="ErrorPinnedChatsLimit_other">抱歉，您最多只能置顶 %1$s 个对话和 %1$s 个加密对话。</string>
 
   <string name="ToolsCopyString">复制字符串</string>
   <string name="ToolsShowToast">显示 Toast 控件</string>
@@ -1965,7 +1965,7 @@
   <string name="email_LoginTooLong_subject">Telegram X 连接问题</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
-  <string name="SignOutHint">您确定要登出 %1$s 吗？所有私密聊天记录将丢失。</string>
+  <string name="SignOutHint">您确定要登出 %1$s 吗？所有加密聊天记录将丢失。</string>
 
   <string name="TdlibLogs">TDLib 日志</string>
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
@@ -2126,18 +2126,72 @@
 
   <string name="ShareTextPost">查看 %2$s 发布的信息：%1$s</string>
   <string name="ShareTextMessage">查看 %2$s 的消息：%1$s</string>
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
   <string name="ShareTitleText">分享到...</string>
-  <string name="ShareTitleMessage">分享消息到...</string>
+
+  
+  
+  
+
   <string name="ShareTextPhoto">来自 %1$s 的图片</string>
+  
+  
+  
+
   <string name="ShareTextVideo">来自 %1$s 的视频</string>
-  <string name="ShareTextMusic">来自 %1$s 的音乐</string>
+  
+  
+  
+
   <string name="ShareTextGif">来自 %1$s 的 GIF</string>
+  
+  
+  
+
+  <string name="ShareTextMusic">来自 %1$s 的音乐</string>
+  
+  
+  
+
   <string name="ShareTextFile">来自 %1$s 的文件</string>
+  
+  
+  
+
   <string name="ShareTextMedia">来自 %1$s 的多媒体</string>
+  
+  
+  
+
+  <string name="ShareBtnLink">分享链接</string>
+  
+  <string name="ShareBtnMessage">分享消息</string>
+  <string name="ShareBtnBot">分享机器人</string>
+  <string name="ShareBtnProxy">分享代理</string>
+  <string name="ShareBtnStickerSet">分享贴纸</string>
+
+  <string name="ShareContact">分享联系人</string>
+  <string name="DoneSave">已收藏</string>
 
   
 
   <!-- new from translations.telegram.org -->
 
   <string name="ChatPhoto">对话头像</string>
+  <string name="ShareTitleMessage">分享消息到...</string>
 </resources>

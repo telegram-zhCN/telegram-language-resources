@@ -2126,14 +2126,67 @@
 
   <string name="ShareTextPost">Check out %2$s\'s post: %1$s</string>
   <string name="ShareTextMessage">Check out %2$s\'s message: %1$s</string>
+
+  <string name="ShareTextProfile">%1$s\'s profile photo</string>
+  <string name="ShareTextChat">«%1$s»\'s chat photo</string>
+  <string name="ShareTextChannel">%1$s\'s photo</string>
+
+  <string name="ShareTextLink">Check out %1$s: %2$s</string>
+  <string name="ShareTextProfileLink">Contact %1$s on Telegram: %2$s</string>
+  <string name="ShareTextProfileLink2">Contact %1$s: %2$s</string>
+  <string name="ShareTextBotLink">Use %1$s on Telegram: %2$s</string>
+  <string name="ShareTextChatLink">Join «%1$s» on Telegram: %2$s</string>
+  <string name="ShareTextChannelLink">Follow %1$s on Telegram: %2$s</string>
+  <string name="ShareTextProxyLink">Proxy for Telegram: %1$s. This link may be helpful in accessing Telegram if there is no connection in your region.</string>
+  <string name="ShareTextProxyLink2">%1$s\n\nThis link may be helpful in accessing Telegram in censored regions.</string>
+  <string name="ShareTextStickerLink">Check out «%1$s» sticker set for Telegram: %2$s</string>
+  <string name="ShareTextStickerLink2">Check out «%1$s» sticker set: %2$s</string>
+
   <string name="ShareTitleText">Share to…</string>
-  <string name="ShareTitleMessage">Share message to…</string>
+
+  <string name="format_ShareAuthorMessage">%1$s: %2$s</string>
+  <string name="format_ShareAuthorLink">%1$s (%2$s)</string>
+  <string name="format_ShareTextSignature">%1$s\n\n%2$s</string>
+
   <string name="ShareTextPhoto">Photo from %1$s</string>
+  <string name="ShareTitleImage">Share photo to…</string>
+  <string name="ShareTitleImageX_one">Share %1$s photo to…</string>
+  <string name="ShareTitleImageX_other">Share %1$s photos to…</string>
+
   <string name="ShareTextVideo">Video from %1$s</string>
-  <string name="ShareTextMusic">Music from %1$s</string>
+  <string name="ShareTitleVideo">Share video to…</string>
+  <string name="ShareTitleVideoX_one">Share %1$s video to…</string>
+  <string name="ShareTitleVideoX_other">Share %1$s videos to…</string>
+
   <string name="ShareTextGif">GIF from %1$s</string>
+  <string name="ShareTitleGif">Share GIF to…</string>
+  <string name="ShareTitleGifX_one">Share %1$s GIF to…</string>
+  <string name="ShareTitleGifX_other">Share %1$s GIFs to…</string>
+
+  <string name="ShareTextMusic">Music from %1$s</string>
+  <string name="ShareTitleAudio">Share audio to…</string>
+  <string name="ShareTitleAudioX_one">Share %1$s audio to…</string>
+  <string name="ShareTitleAudioX_other">Share %1$s audios to…</string>
+
   <string name="ShareTextFile">File from %1$s</string>
+  <string name="ShareTitleFile">Share file to…</string>
+  <string name="ShareTitleFileX_one">Share %1$s file to…</string>
+  <string name="ShareTitleFileX_other">Share %1$s files to…</string>
+
   <string name="ShareTextMedia">Media from %1$s</string>
+  <string name="ShareTitleMedia">Share media to…</string>
+  <string name="ShareTitleMediaX_one">Share %1$s media to…</string>
+  <string name="ShareTitleMediaX_other">Share %1$s medias to…</string>
+
+  <string name="ShareBtnLink">Share Link</string>
+  <string name="ShareBtnPost">Share Post</string>
+  <string name="ShareBtnMessage">Share Message</string>
+  <string name="ShareBtnBot">Share Bot</string>
+  <string name="ShareBtnProxy">Share Proxy</string>
+  <string name="ShareBtnStickerSet">Share Stickers</string>
+
+  <string name="ShareContact">Share Contact</string>
+  <string name="DoneSave">Saved</string>
 
   
 
@@ -2272,6 +2325,31 @@
   <string name="SelectedVoiceSuffix_two">" messages"</string>
   <string name="SelectedVoiceSuffix_few">" messages"</string>
   <string name="SelectedVoiceSuffix_many">" messages"</string>
+  <string name="ShareTitleAudioX_zero">Share %1$s audios to…</string>
+  <string name="ShareTitleAudioX_two">Share %1$s audios to…</string>
+  <string name="ShareTitleAudioX_few">Share %1$s audios to…</string>
+  <string name="ShareTitleAudioX_many">Share %1$s audios to…</string>
+  <string name="ShareTitleFileX_zero">Share %1$s files to…</string>
+  <string name="ShareTitleFileX_two">Share %1$s files to…</string>
+  <string name="ShareTitleFileX_few">Share %1$s files to…</string>
+  <string name="ShareTitleFileX_many">Share %1$s files to…</string>
+  <string name="ShareTitleGifX_zero">Share %1$s GIFs to…</string>
+  <string name="ShareTitleGifX_two">Share %1$s GIFs to…</string>
+  <string name="ShareTitleGifX_few">Share %1$s GIFs to…</string>
+  <string name="ShareTitleGifX_many">Share %1$s GIFs to…</string>
+  <string name="ShareTitleImageX_zero">Share %1$s photos to…</string>
+  <string name="ShareTitleImageX_two">Share %1$s photos to…</string>
+  <string name="ShareTitleImageX_few">Share %1$s photos to…</string>
+  <string name="ShareTitleImageX_many">Share %1$s photos to…</string>
+  <string name="ShareTitleMediaX_zero">Share %1$s medias to…</string>
+  <string name="ShareTitleMediaX_two">Share %1$s medias to…</string>
+  <string name="ShareTitleMediaX_few">Share %1$s medias to…</string>
+  <string name="ShareTitleMediaX_many">Share %1$s medias to…</string>
+  <string name="ShareTitleMessage">Share message to…</string>
+  <string name="ShareTitleVideoX_zero">Share %1$s videos to…</string>
+  <string name="ShareTitleVideoX_two">Share %1$s videos to…</string>
+  <string name="ShareTitleVideoX_few">Share %1$s videos to…</string>
+  <string name="ShareTitleVideoX_many">Share %1$s videos to…</string>
   <string name="SharingLiveLocationToChats_zero">You are sharing Live Location with %1$s chats</string>
   <string name="SharingLiveLocationToChats_two">You are sharing Live Location with %1$s chats</string>
   <string name="SharingLiveLocationToChats_few">You are sharing Live Location with %1$s chats</string>

@@ -75,7 +75,7 @@
 "Telegram.PeerInfoController" = "信息";
 "PeerInfo.SendMessage" = "发送消息";
 "PeerInfo.ShareContact" = "分享联系方式";
-"PeerInfo.StartSecretChat" = "开始私密会话";
+"PeerInfo.StartSecretChat" = "开始加密会话";
 "PeerInfo.SharedMedia" = "分享的媒体";
 "PeerInfo.Notifications" = "通知";
 "PeerInfo.BlockUser" = "屏蔽此用户";
@@ -103,7 +103,7 @@
 "Confirm.LeaveGroup" = "您确定要离开此群组吗？";
 
 "PeerMedia.SharedMedia" = "分享的媒体";
-"EmptyPeer.Description" = "请选择一个会话开始聊天";
+"EmptyPeer.Description" = "请选择一个对话开始聊天";
 
 "Emoji.Recent" = "常用";
 "Emoji.SmilesAndPeople" = "表情 & 人物";
@@ -120,8 +120,8 @@
 "Chat.DropQuickDesc" = "快速发送";
 "Chat.DropAsFilesDesc" = "无损发送";
 
-"Chat.DropFolder.Title" = "Drop the folder here to send it";
-"Chat.DropFolder.Desc" = "as an archive";
+"Chat.DropFolder.Title" = "拖拽文件夹到此处发送";
+"Chat.DropFolder.Desc" = "以压缩文件形式";
 
 "Message.ActionsPanel.Delete" = "删除";
 "Message.ActionsPanel.Forward" = "转发";
@@ -156,7 +156,7 @@
 
 
 
-"ForwardModalAction.Title_other" = "转发过的消息";
+"ForwardModalAction.Title_other" = "转发消息";
 
 
 /*
@@ -175,21 +175,21 @@
 
 
 
-"ForwardModalAction.description_other" = "选择您要将 %@ 的信息转发给 ...";
+"ForwardModalAction.description_other" = "选择您要转发 %@ 消息的目的地 ...";
 
 
-"Alert.OK" = "OK";
+"Alert.OK" = "好";
 "Alert.Cancel" = "取消";
 
 
-"Alert.Forward.Error" = "Sorry, you can't forward messages to this conversation.";
+"Alert.Forward.Error" = "抱歉，您无法转发消息到此对话。";
 
 "PreviewSender.CompressFile" = "压缩并发送";
 "PreviewSender.CaptionPlaceholder" = "添加说明...";
 "PreviewSender.CommentPlaceholder" = "发表评论...";
 "PreviewSender.FileTooltip" = "无损发送";
 "PreviewSender.CollageTooltip" = "Group all media into one message";
-"PreviewSender.ArchiveTooltip" = "Archive all media in one zip file";
+"PreviewSender.ArchiveTooltip" = "将所有媒体压缩到一个文件";
 
 "PreviewSender.MediaTooltip" = "Send in a quick way";
 
@@ -197,7 +197,7 @@
 "Modal.Share" = "分享";
 "Modal.CopyLink" = "拷贝链接";
 "Modal.Cancel" = "取消";
-"Modal.OK" = "OK";
+"Modal.OK" = "好";
 
 "QuickLook.Preview" = "预览";
 
@@ -278,7 +278,7 @@
 "ConnectingStatus.waitingNetwork" = "等待网络连接";
 "ConnectingStatus.connectingToProxy" = "正在连接代理";
 
-"Chat.ConnectingStatus.connecting" = "正在连接";
+"Chat.ConnectingStatus.connecting" = "连接中";
 "Chat.ConnectingStatus.updating" = "正在刷新";
 "Chat.ConnectingStatus.waitingNetwork" = "等待网络连接";
 "Chat.ConnectingStatus.connectingToProxy" = "正在连接代理";
@@ -299,7 +299,7 @@
 "Gallery.Context.CopyToClipboard" = "复制到剪贴板";
 "Gallery.ContextDeletePhoto" = "删除";
 
-"Gallery.WaitDownload.Photo" = "Please wait for the photo to be fully downloaded.";
+"Gallery.WaitDownload.Photo" = "请等待图片下载完毕";
 "Gallery.WaitDownload.Video" = "请等待视频下载完毕";
 
 "Chat.Input.Accessory.EditMessage" = "编辑消息";
@@ -311,10 +311,10 @@
 "PeerMedia.Popover.SharedAudio" = "分享的音乐";
 
 
-"PeerMedia.Media" = "已共享媒体";
+"PeerMedia.Media" = "媒体";
 "PeerMedia.Files" = "文档";
 "PeerMedia.Links" = "链接";
-"PeerMedia.Audio" = "语音";
+"PeerMedia.Audio" = "音乐";
 
 "Chat.Message.Via" = "通过";
 
@@ -327,7 +327,7 @@
 
 
 "Login.WelcomeDescription" = "欢迎使用官方 macOS 客户端";
-"Login.countryLabel" = "国家";
+"Login.countryLabel" = "国家/地区";
 "Login.phoneFieldPlaceholder" = "手机号码";
 "Login.Next" = "下一步";
 
@@ -348,7 +348,7 @@
 "Login.RecoveryMailFailed" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 
 "Login.ResetAccount" = "重置我的账户";
-"Login.ResetAccountDescription" = "If you proceed with resetting your account, all of your chats and messages along with any media and files you shared, will be lost.";
+"Login.ResetAccountDescription" = "如果您确认重置您的帐号，您将丢失所有的历史聊天记录及分享的媒体文件。";
 "Login.ResetAccount" = "重置我的账户";
 
 "PHONE_NUMBER_INVALID" = "无效的手机号码";
@@ -379,7 +379,7 @@
 "NotificationSettings.IncludeMutedChats" = "包含已关闭提醒的会话";
 "NotificationSettings.CountUnreadMessages" = "统计未读消息";
 
-"NotificationSettings.IncludePublicGroups" = "Include Public Groups";
+"NotificationSettings.IncludePublicGroups" = "包含公开群组";
 "NotificationSettings.IncludeChannels" = "Include Channels";
 
 
@@ -438,7 +438,7 @@
 "Error.Username.AlreadyTaken" = "该用户名已被占用";
 "UsernameSettings.Done" = "完成";
 
-"Search.Separator.ChatsAndContacts" = "联系人于会话";
+"Search.Separator.ChatsAndContacts" = "联系人与对话";
 "Search.Separator.GlobalPeers" = "全局搜索";
 "Search.Separator.Messages" = "消息";
 "Search.Separator.Recent" = "最近";
@@ -474,7 +474,7 @@
 "Channel.PrivateAboutChannel" = "私人频道只能通过邀请链接加入。";
 "Channel.PublicAboutChannel" = "公开频道可以被搜索，任何人都可以加入。";
 "Channel.PrivateAboutGroup" = "私人群组只能通过群成员邀请或邀请链接加入。";
-"Channel.PublicAboutGroup" = "Public groups can be found in search, their chat history is available to everyone and anyone can join.";
+"Channel.PublicAboutGroup" = "任何人都可以搜索和加入公开群组，并查看其历史记录。";
 
 "Channel.PublicNamesLimitError" = "抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。";
 
@@ -516,28 +516,28 @@
 "Chat.Input.StartBot" = "开始";
 
 "InlineModalAction.Title" = "分享机器人内容";
-"InlineModalAction.Desc" = "通过 %@ 给用户或会话分享内容";
+"InlineModalAction.Desc" = "通过 %@ 给用户或对话分享内容";
 
 
 
 "ChatList.Context.Unmute" = "取消免打扰";
 "ChatList.Context.Mute" = "免打扰";
-"ChatList.Context.ClearHistory" = "清除聊天记录";
+"ChatList.Context.ClearHistory" = "清空历史记录";
 "ChatList.Context.Call" = "通话";
-"ChatList.Context.DeleteChat" = "删除这个聊天";
+"ChatList.Context.DeleteChat" = "删除此对话";
 "ChatList.Context.DeleteAndExit" = "删除并退出";
-"ChatList.Context.LeaveChannel" = "退出频道";
-"ChatList.Context.LeaveGroup" = "离开群组";
+"ChatList.Context.LeaveChannel" = "退出此频道";
+"ChatList.Context.LeaveGroup" = "离开此群组";
 "ChatList.Context.ReturnGroup" = "返回群组";
 "ChatList.Context.Pin" = "置顶";
 "ChatList.Context.Unpin" = "取消置顶";
 
-"ChatList.SecretChat.Terminated" = "私密对话已取消";
-"ChatList.SecretChat.Joined" = "%@ 加入了你的私密对话。";
-"ChatList.SecretChat.Created" = "%@ 创建了私密对话";
+"ChatList.SecretChat.Terminated" = "加密对话已被取消";
+"ChatList.SecretChat.Joined" = "%@ 进入了你的私密对话。";
+"ChatList.SecretChat.Created" = "%@ 创建了加密对话";
 "ChatList.SecretChat.ExKeys" = "等待用户上线";
 
-"ChatList.UnsupportedMessage" = "不支持的消息";
+"ChatList.UnsupportedMessage" = "不支持此消息";
 "Chat.Message.Unsupported" = "This message is not supported by your version of Telegram. Please update to the latest version from the AppStore or install it from https://macos.telegram.org";
 "Text.Copy" = "复制所选内容";
 "Text.CopyText" = "复制文字";
@@ -636,7 +636,7 @@
 
 "Timer.Forever" = "长期";
 "ChatList.Draft" = "草稿:";
-"ChatList.You" = "你";
+"ChatList.You" = "您";
 
 "Notification.LockedPreview" = "您有一条新消息";
 "JoinLink.Join" = "加入";
@@ -645,8 +645,8 @@
 
 "Chat.Title.self" = "您的云存储";
 "Separator.ShowMore" = "显示更多";
-"Separator.ShowLess" = "更少显示";
-"Separator.Clear" = "清除";
+"Separator.ShowLess" = "显示更少";
+"Separator.Clear" = "清空";
 "Stickers.Recent" = "最近";
 "Stickers.Favorite" = "Favorite";
 "Stickers.SearchAdd" = "设置";
@@ -668,7 +668,7 @@
 "AccountsController.NewAccount" = "新账号";
 
 "Account.Confirm.Logout" = "退出登录？";
-"Account.Confirm.LogoutText" = "请记住，登出将关闭你所有的私密对话。";
+"Account.Confirm.LogoutText" = "请记住，登出将删除并关闭您所有的加密对话。";
 
 "Telegram.ConvertGroupViewController" = "超级群组";
 
@@ -732,11 +732,11 @@
 "PeerInfo.Confirm.AddMember" = "添加  \"%@\" 到此群组？";
 "PeerInfo.Confirm.RemovePeer" = "从群组中移除  \"%@\" ？";
 
-"PeerInfo.FirstName.Placeholder" = "姓氏";
-"PeerInfo.LastName.Placeholder" = "名字";
+"PeerInfo.FirstName.Placeholder" = "名字";
+"PeerInfo.LastName.Placeholder" = "姓氏";
 "PeerInfo.GroupName.Placeholder" = "群组名称";
 "PeerInfo.ChannelName.Placeholder" = "频道名称";
-"PeerInfo.Phone" = "电话";
+"PeerInfo.Phone" = "手机";
 
 "ConvertToSupergroup.Alert.Error" = "出现了一些问题，请重试。";
 "ConvertToSuperGroup.Confirm" = "您确定要这么做吗？此操作无法撤销！";
@@ -762,7 +762,7 @@
 "StickerPack.Add1_other" = "添加 %d 张贴纸";
 
 "Compose.Select.SecretChat" = "加密对话";
-"Compose.Confirm.StartSecretChat" = "和 \"%@\" 开始私密对话";
+"Compose.Confirm.StartSecretChat" = "与 \"%@\" 开始加密对话";
 
 
 "ReportReason.Spam" = "垃圾信息";
@@ -777,7 +777,7 @@
 "PeerInfo.SetChannelPhoto" = "设置频道图片";
 "PeerInfo.Members" = "成员";
 "PeerInfo.DeleteChannel" = "删除频道";
-"PeerInfo.DeleteSecretChat" = "删除私密对话";
+"PeerInfo.DeleteSecretChat" = "删除加密对话";
 
 "ChannelMembers.AddMembers" = "添加成员";
 "ChannelMembers.InviteLink" = "使用链接邀请";
@@ -816,7 +816,7 @@
 
 
 
-"ChatList.Service.GameScored1_other" = "获得 %d 分：%@";
+"ChatList.Service.GameScored1_other" = "在 %@ 中获得 %d 分";
 
 "About.Description" = "macOS 下基于 MTProto 的速度和安全性的免费聊天程序。";
 "ChatService.ChannelCreated" = "频道已创建";
@@ -830,7 +830,7 @@
 
 
 "Passcode.TurnOn" = "开启密码锁";
-"Passcode.TurnOnDescription" = "当您设置好一个附加密码后，你可以使用快捷键  ⌘ + L 来上锁。\n\n注意：如果您忘记这个密码，你将只能删除然后重新安装Telegram。重装之后您将丢失所有的私密会话。";
+"Passcode.TurnOnDescription" = "当您设置好一个附加密码后，你可以使用快捷键  ⌘ + L 来上锁。\n\n注意：如果您忘记这个密码，你将只能删除然后重新安装Telegram。重装之后您将丢失所有的加密会话。";
 "Passcode.TurnOff" = "关闭密码锁";
 "Passcode.Change" = "更改密码";
 "Passcode.Autolock" = "自动锁定";
@@ -861,7 +861,7 @@
 "RecentSessions.Error.FreshReset" = "出于安全原因，您无法使用刚刚连接的设备终止之前的设备会话。 请通过之前使用的设备操作或等待几个小时。";
 
 "Legacy.Intro.Description1" = "欢迎使用超快又稳定的 macOS 版 Telegram，现全以 Swift 3.0 重写。";
-"Legacy.Intro.Description2" = "请注意你的现有私密对话将以只读方式显示。你可以创建一个新的私密对话来继续聊天。";
+"Legacy.Intro.Description2" = "请注意你现有的加密对话将以只读方式显示。你需要创建一个新的加密对话来继续聊天。";
 "Legacy.Intro.Next" = "开始聊天";
 
 "Messages.ReplyLoading.Header" = "回复";
@@ -882,7 +882,7 @@
 "PeerInfo.EncryptionKey" = "加密密钥";
 
 "Telegram.SecretChatKeyViewController" = "加密密钥";
-"EncryptionKey.Description" = "这是您与 **%@** 的本次私密对话中，加密密钥的可视化图片和文本。\n\n如果它们看起来和 **%@** 设备上的完全一致，端到端加密则是安全的。";
+"EncryptionKey.Description" = "这是您与 **%@** 的本次加密对话中，加密密钥的可视化图片和文本。\n\n如果它们看起来和 **%@** 设备上的完全一致，端到端加密则是安全的。";
 
 
 "GeneralSettings.InAppSounds" = "应用内播放提醒音";
@@ -917,11 +917,11 @@
 "Login.Header.SignUp" = "注册";
 
 "Contacts.AddContact" = "添加联系人";
-"Contacts.FirstName.Placeholder" = "姓氏";
-"Contacts.LastName.Placeholder" = "名字";
+"Contacts.FirstName.Placeholder" = "名字";
+"Contacts.LastName.Placeholder" = "姓氏";
 "Contacts.PhoneNumber.Placeholder" = "手机号码";
 "Contacts.NotRegistredTitle" = "不是 Telegram 用户";
-"Contacts.NotRegistredDescription" = "This person is not registered on Telegram yet.\n\nYou will be able to send them a Telegram message as soon as they sign up.";
+"Contacts.NotRegistredDescription" = "该联系人尚未注册 Telegram 。\n\n当其完成注册后，您即可向其发送消息。";
 
 "DataAndStorage.StorageUsage" = "存储用量";
 "DataAndStorage.NetworkUsage" = "网络用量";
@@ -1040,7 +1040,7 @@
 "Chat.Context.EditHelp" = "点击日期";
 "Chat.Context.EnableNotifications" = "免打扰";
 "Chat.Context.DisableNotifications" = "取消免打扰";
-"Chat.Context.ClearHistory" = "Clear Chat History";
+"Chat.Context.ClearHistory" = "清空历史记录";
 "Chat.Context.Info" = "个人信息";
 "Chat.Context.FeedInfo" = "频道信息";
 "Chat.Context.SharedMedia" = "分享的媒体";
@@ -1346,7 +1346,7 @@
 "ServiceMessage.ExpiredFile" = "文件已自毁";
 "ServiceMessage.ExpiredVideo" = "视频已自毁";
 
-"ServiceMessage.DesturctingPhoto" = "%@ 发送给您一张自毁照片，请在您的移动设备上查看。";
+"ServiceMessage.DesturctingPhoto" = "%@ 给您发送了一张自毁照片，请在您的移动设备上查看。";
 "ServiceMessage.DesturctingPhoto.You" = "%@ 发送了一张自毁图片。";
 
 "ServiceMessage.DesturctingVideo" = "%@ sent you a self-destructing video. Please view it on your mobile device.";
@@ -1360,7 +1360,7 @@
 "ShareExtension.Search" = "搜索";
 "ShareExtension.Passcode.Placeholder" = "密码";
 "ShareExtension.Passcode.Next" = "下一步";
-"ShareExtension.Unauthorized.OK" = "OK";
+"ShareExtension.Unauthorized.OK" = "好";
 "ShareExtension.Unauthorized.Description" = "如需通过 Telegram 分享，请打开 Telegram 应用并登陆。";
 
 "Chat.SearchFrom" = "来自：";
@@ -1594,7 +1594,7 @@
 "Search.Global.Channel1_other" = "%@, %d 位订阅者";
 
 //"ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
-"ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
+"ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
 
 
 "Storage.ClearAll" = "全部清除";
@@ -1710,7 +1710,7 @@
 
 "Text.Context.Copy.Link" = "复制链接";
 "Text.Context.Copy.Email" = "复制邮件";
-"Text.Context.Copy.Code" = "Copy Code";
+"Text.Context.Copy.Code" = "复制代码";
 
 "Text.Context.Copy.Username" = "复制用户名";
 "Text.Context.Copy.Hashtag" = "复制标签";
@@ -2018,7 +2018,7 @@
 "EditAccount.Logout" = "注销";
 "EditAccount.Username" = "用户名";
 "EditAccount.ChangeNumber" = "更改号码";
-"EditAccount.NameDesc" = "Enter your name and add a profile photo.";
+"EditAccount.NameDesc" = "请输入您的姓名，并添加一张头像。\n提示：请勿输入个人真实信息。";
 
 
 "Chanel.EventFilter.AllAdmins" = "全部管理员";
@@ -2046,7 +2046,7 @@
 "AudioRecord.Help.Fixed" = "在圈外点击以取消录制";
 "AudioRecord.Help.Plain" = "在圈外释放鼠标以取消录制";
 
-"Chat.ProxySponsored.CapDesc" = "This channel is shown by your proxy server";
+"Chat.ProxySponsored.CapDesc" = "本频道由您正在使用的代理服务器展示";
 "Chat.ProxySponsored.CapTitle" = "代理赞助商";
 
 "Chat.ProxySponsored.AlertText" = "这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
@@ -2101,8 +2101,8 @@
 "TermsOfService.Disagree.OK" = "Decline & Deactivate";
 "TermsOfService.ConfirmAge" = "I confirm that I am %@ or over.";
 "TermsOfService.ProceedBot" = "Please agree and proceed to %@.";
-"ChatList.Context.MaskAsRead" = "Mark As Read";
-"ChatList.Context.MaskAsUnread" = "Mark As Unread";
+"ChatList.Context.MaskAsRead" = "标记为已读";
+"ChatList.Context.MaskAsUnread" = "标记为未读";
 "AccountSettings.Passport" = "Telegram Passport";
 "Chat.EditMessage.Media" = "Click to edit Media";
 
@@ -2119,7 +2119,7 @@
 "Article.Read" = "READ";
 
 "Search.Popular.SavedMessages" = "收藏夹";
-"Search.Popular.Articles" = "Articles";
+"Search.Popular.Articles" = "文章";
 
 "Article.MarkAsRead" = "Mark As Read";
 "Article.MarkAsUnread" = "Mark As Unread";
@@ -2169,12 +2169,12 @@
 
 
 "ChatList.Swiping.Read" = "设为已读";
-"ChatList.Swiping.Unread" = "未读";
+"ChatList.Swiping.Unread" = "标为未读";
 "ChatList.Swiping.Delete" = "删除";
 "ChatList.Swiping.Pin" = "置顶";
 "ChatList.Swiping.Unpin" = "取消置顶";
-"ChatList.Swiping.Mute" = "免打扰";
-"ChatList.Swiping.Unmute" = "取消免打扰";
+"ChatList.Swiping.Mute" = "关闭通知";
+"ChatList.Swiping.Unmute" = "开启通知";
 
 "PeerSelect.InviteViaLink" = "通过链接邀请他人加入群组";
 
@@ -2270,7 +2270,7 @@
 
 
 
-"Gallery.Context.Share.AllPhotos_other" = "All %d photos";
+"Gallery.Context.Share.AllPhotos_other" = "全部 %d 张图片";
 
 
 "Gallery.Context.Share.ThisVideo" = "这段视频";
@@ -2280,7 +2280,7 @@
 
 
 
-"Gallery.Context.Share.AllVideos_other" = "All %d Videos";
+"Gallery.Context.Share.AllVideos_other" = "全部 %d 段视频";
 
 "Gallery.Context.Share.AllItems_countable" = "%d";
 
@@ -2288,7 +2288,7 @@
 
 
 
-"Gallery.Context.Share.AllItems_other" = "All %d Items";
+"Gallery.Context.Share.AllItems_other" = "全部 %d 个项目";
 
 
 "Gallery.Context.ShowGallery" = "分享的媒体";
@@ -2298,7 +2298,7 @@
 "TouchBar.Recent" = "最近";
 "TouchBar.EditMessage.ReplaceWithMedia" = "Replace with Media";
 "TouchBar.EditMessage.ReplaceWithFile" = "Replace with File";
-"TouchBar.StartSecretChat" = "开始私密会话";
+"TouchBar.StartSecretChat" = "开始加密对话";
 "TouchBar.Call" = "通话";
 "TouchBar.SearchUsersOrMessages" = "搜索消息或用户";
 "TouchBar.Attach" = "附上";
@@ -2315,7 +2315,7 @@
 
 /* new from translations.telegram.org */
 
-"ChatList.Context.PinError" = "对不起，您只能最多置顶 5 个会话。";
+"ChatList.Context.PinError" = "对不起，您最多只能置顶 5 个会话。";
 "InputData.Date.Day.Placeholder" = "日：";
 "InputData.Date.Month.Placeholder" = "月：";
 "InputData.Date.Year.Placeholder" = "年：";
@@ -2348,16 +2348,16 @@
 "_NS:81.title" = "查看";
 
 
-"Message.Status.Archiving" = "%d% archived";
-"Message.Status.Archived" = "archived folder";
-"Message.Status.ArchivePreparing" = "preparing archive";
+"Message.Status.Archiving" = "正在压缩 %d%";
+"Message.Status.Archived" = "压缩文件夹";
+"Message.Status.ArchivePreparing" = "正在准备压缩文件";
 "Message.Status.Archive.Failed" = "failed to create archive";
-"Message.Status.Archive.FailedSizeLimit" = "file size limit exceeded";
+"Message.Status.Archive.FailedSizeLimit" = "已超出文件大小限制";
 
 
 
 "Chat.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送信息。";
-"Chat.SendMessageErrorGroupRestricted" = "抱歉，您目前已被限制在公共群组中发送消息。";
+"Chat.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
 "Generic.ErrorMoreInfo" = "更多详情";
 
 

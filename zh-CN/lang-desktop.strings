@@ -41,14 +41,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month_day1" = "1 月";
 "lng_month_day2" = "2 月";
 "lng_month_day3" = "3 月";
-"lng_month_day4" = "4 月";
-"lng_month_day5" = "5 月";
+"lng_month_day4" = "4月";
+"lng_month_day5" = "5月";
 "lng_month_day6" = "6 月";
 "lng_month_day7" = "7 月";
 "lng_month_day8" = "8 月";
-"lng_month_day9" = "9 月";
+"lng_month_day9" = "9月";
 "lng_month_day10" = "10 月";
-"lng_month_day11" = "11 月";
+"lng_month_day11" = "11月";
 "lng_month_day12" = "12 月";
 
 "lng_month1_small" = "1 月";
@@ -72,8 +72,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_weekday6" = "周六";
 "lng_weekday7" = "周日";
 
-"lng_month_day" = "{month} {day} 日";
-"lng_month_day_year" = "{year} 年 {month} {day} 日";
+"lng_month_day" = "{month}{day}日";
+"lng_month_day_year" = "{year}年{month}{day}日";
 "lng_month_year" = "{year} 年 {month}";
 
 "lng_box_ok" = "确定";
@@ -132,7 +132,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_start_minimized_passcoded" = "您已经设置了锁定码，所以 Telegram 不能以最小化模式启动。您必须输入锁定码以启动 Telegram。";
 
 "lng_error_pinned_max#other" = "对不起，您最多只能将 {count} 个对话置顶。";
-"lng_error_public_groups_denied" = "很抱歉，您已被禁止参与公开群组。\n{more_info}";
+"lng_error_public_groups_denied" = "抱歉，目前您已被禁止在公开群组中发送消息。\n{more_info}";
 "lng_error_cant_add_member" = "抱歉，您不能将机器人加入此群组。请寻求群组管理员帮助。";
 "lng_error_cant_add_bot" = "抱歉，此机器人不能加入群组。";
 "lng_error_cant_add_admin_invite" = "抱歉，您无法设置该用户为管理员，因为这位用户不是群组成员，且您无法将他邀请到该群组。";
@@ -145,7 +145,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_add_admin_unban" = "该用户当前正被限制或封禁。是否确定将其解封并提升至管理员？";
 "lng_sure_ban_admin" = "这名用户是该群组的管理员。是否确定继续对其作出限制？";
 "lng_sure_ban_user_group" = "是否要在群组中封禁 {user} ？";
-"lng_sure_ban_user_channel" = "Ban {user} in the channel?";
+"lng_sure_ban_user_channel" = "要在频道中封禁 {user} 吗？";
 "lng_sure_enable_socks" = "您确定要启用这项代理吗？\n\n服务器: {server}\n端口: {port}\n\n您稍后可以在 设置 > 高级 > 连接类型 中修改您的代理服务器。";
 "lng_sure_enable" = "启用";
 
@@ -192,7 +192,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bad_phone" = "手机号码无效，请重新输入。";
 "lng_bad_phone_noreg" = "该手机号码尚未注册";
 "lng_bad_code" = "验证码错误，请重新输入。";
-"lng_bad_name" = "请输入您的姓名";
+"lng_bad_name" = "请输入您的姓名。";
 "lng_bad_photo" = "抱歉，Telegram 无法处理此类图片。";
 
 "lng_signin_title" = "两步验证";
@@ -316,7 +316,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_section_chat_settings" = "聊天设置";
 "lng_settings_replace_emojis" = "替换 Emoji";
 "lng_settings_suggest_emoji" = "显示 Emoji 替换建议";
-"lng_settings_suggest_by_emoji" = "通过 Emoji 推荐热门表情";
+"lng_settings_suggest_by_emoji" = "通过 Emoji 推荐贴纸";
 "lng_settings_view_emojis" = "显示列表";
 "lng_settings_send_enter" = "按 Enter 发送消息";
 "lng_settings_send_ctrlenter" = "按 Ctrl+Enter 发送消息";
@@ -452,8 +452,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_logout" = "注销";
 "lng_passcode_need_unblock" = "请先解锁";
 
-"lng_cloud_password_waiting_code" = "Confirmation code sent to {email}...";
-"lng_cloud_password_confirm" = "Confirm recovery email";
+"lng_cloud_password_waiting_code" = "验证码已发送到 {email}...";
+"lng_cloud_password_confirm" = "确认辅助邮箱";
 "lng_cloud_password_change" = "修改两步验证密码";
 "lng_cloud_password_create" = "设置两步验证密码";
 "lng_cloud_password_remove" = "删除两步验证密码";
@@ -480,7 +480,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_is_same" = "密码修改失败";
 "lng_cloud_password_passport_losing" = "警告！所有您储存在 Telegram Passport 中的数据将丢失！";
 "lng_cloud_password_resend" = "重新发送验证码";
-"lng_cloud_password_resent" = "Code was resent.";
+"lng_cloud_password_resent" = "验证码已重新发送。";
 
 "lng_connection_auto_connecting" = "默认（连接中...）";
 "lng_connection_auto" = "默认 ( 使用 {transport} )";
@@ -499,9 +499,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_connection_save" = "保存";
 
 "lng_proxy_settings" = "代理设置";
-"lng_proxy_disable" = "Disable proxy";
-"lng_proxy_use_system_settings" = "Use system proxy settings";
-"lng_proxy_use_custom" = "Use custom proxy";
+"lng_proxy_disable" = "禁用代理";
+"lng_proxy_use_system_settings" = "使用系统代理设置";
+"lng_proxy_use_custom" = "使用自定义代理";
 "lng_proxy_use_for_calls" = "将代理用于通话";
 "lng_proxy_about" = "代理服务器可能有助于解决个别地区无法连接 Telegram 的情况。";
 "lng_proxy_add" = "添加代理";
@@ -736,7 +736,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_edit_contact" = "编辑联系人";
 "lng_info_delete_contact" = "删除联系人";
 "lng_info_share_contact" = "分享联系方式";
-"lng_profile_clear_history" = "清除历史记录";
+"lng_profile_clear_history" = "清空历史记录";
 "lng_profile_delete_conversation" = "删除会话";
 "lng_profile_block_user" = "屏蔽此用户";
 "lng_profile_unblock_user" = "取消屏蔽";
@@ -1618,7 +1618,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_about_password" = "当您使用一个新设备登录时，\n您将需要输入此密码。";
 "lng_passport_password_create" = "设置一个密码";
 "lng_passport_email_validate" = "验证";
-"lng_passport_code_sent" = "A confirmation code was sent to\n{email}";
+"lng_passport_code_sent" = "验证码已发送到\n{email}";
 "lng_passport_stop_password_sure" = "您确定您要取消设定您的密码吗？";
 "lng_passport_password_placeholder" = "您的密码";
 "lng_passport_next" = "下一步";
@@ -1817,9 +1817,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_switch_title" = "更换语言？";
 
 
-"lng_language_switch_link" = "translation platform";
+"lng_language_switch_link" = "翻译平台";
 "lng_language_switch_apply" = "更改";
-"lng_language_not_found" = "Sorry, this language pack doesn't exist.";
+"lng_language_not_found" = "抱歉，该语言包不存在。";
 "lng_language_already" = "您已在使用该语言包。在设置中可以更改您的语言。";
 "lng_language_not_ready_title" = "数据不足";
 "lng_language_not_ready_about" = "抱歉，此个性语言包 ({lang_name}) 不包含供 Telegram 桌面版 使用的信息，您可以通过此链接 {link} 为此语言包贡献翻译。";
