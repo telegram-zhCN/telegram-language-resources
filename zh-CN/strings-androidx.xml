@@ -1418,7 +1418,7 @@
   <string name="OpenMessage">查看消息</string>
   <string name="SavedMessages">收藏夹</string>
   <string name="Saved">收藏夹</string>
-  <string name="channel_create_somebody">频道《%1$s》已创建</string>
+  <string name="channel_create_somebody">频道 «%1$s» 已创建</string>
   <string name="channel_user_add">%1$s 加入了频道</string>
   <string name="channel_user_add_self">您已加入此频道</string>
   <string name="channel_user_remove">%1$s 离开了频道</string>
@@ -2176,6 +2176,8 @@
   <string name="ShareTextMedia">来自 %1$s 的多媒体</string>
   
   
+  
+
   
 
   <string name="ShareBtnLink">分享链接</string>

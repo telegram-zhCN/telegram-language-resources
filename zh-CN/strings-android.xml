@@ -2323,7 +2323,7 @@
   <string name="_tg_cancel">取消</string>
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
-  <string name="formatterMonthYear">yyyy 年 M 月</string>
+  <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
 </resources>

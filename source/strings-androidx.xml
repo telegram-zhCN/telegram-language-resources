@@ -2178,6 +2178,8 @@
   <string name="ShareTitleMediaX_one">Share %1$s media to…</string>
   <string name="ShareTitleMediaX_other">Share %1$s medias to…</string>
 
+  <string name="ShareTextPlain">Message from %1$s</string>
+
   <string name="ShareBtnLink">Share Link</string>
   <string name="ShareBtnPost">Share Post</string>
   <string name="ShareBtnMessage">Share Message</string>

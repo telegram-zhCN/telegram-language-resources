@@ -38,18 +38,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month12" = "12 月";
 
 // For lng_month_day and lng_month_day_year.
-"lng_month_day1" = "1 月";
-"lng_month_day2" = "2 月";
-"lng_month_day3" = "3 月";
+"lng_month_day1" = "1月";
+"lng_month_day2" = "2月";
+"lng_month_day3" = "3月";
 "lng_month_day4" = "4月";
 "lng_month_day5" = "5月";
-"lng_month_day6" = "6 月";
-"lng_month_day7" = "7 月";
-"lng_month_day8" = "8 月";
+"lng_month_day6" = "6月";
+"lng_month_day7" = "7月";
+"lng_month_day8" = "8月";
 "lng_month_day9" = "9月";
-"lng_month_day10" = "10 月";
+"lng_month_day10" = "10月";
 "lng_month_day11" = "11月";
-"lng_month_day12" = "12 月";
+"lng_month_day12" = "12月";
 
 "lng_month1_small" = "1 月";
 "lng_month2_small" = "2 月";
@@ -74,7 +74,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_month_day" = "{month}{day}日";
 "lng_month_day_year" = "{year}年{month}{day}日";
-"lng_month_year" = "{year} 年 {month}";
+"lng_month_year" = "{year}年{month}";
 
 "lng_box_ok" = "确定";
 
@@ -383,7 +383,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_download_path_default" = "默认目录";
 "lng_download_path_clear" = "全部清空";
 "lng_download_path_header" = "选择下载目录";
-"lng_download_path_default_radio" = "自动保存到系统的「下载」目录";
+"lng_download_path_default_radio" = "「下载」目录";
 "lng_download_path_temp_radio" = "临时目录，在退出登录或卸载软件时会自动清空";
 "lng_download_path_dir_radio" = "自定义目录，只能手动清空";
 "lng_download_path_choose" = "选择下载目录";
@@ -930,7 +930,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_profile_migrate_reached#other" = "已达 {count} 位成员的上限";
 "lng_profile_migrate_body" = "升级为超级群组即可添加更多成员。";
-"lng_profile_migrate_learn_more" = "更多详情";
+"lng_profile_migrate_learn_more" = "详情 »";
 "lng_profile_migrate_button" = "升级为超级群组";
 "lng_profile_convert_title" = "升级为超级群组";
 "lng_profile_convert_feature1" = "— 新成员可能可以看到所有聊天记录";
@@ -1078,7 +1078,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_spam_ok" = "举报";
 "lng_cant_send_to_not_contact" = "抱歉，您现在只能给\n双向联系人发送信息。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，您现在只能将\n双向联系人加入群组。\n{more_info}";
-"lng_cant_more_info" = "更多详情 »";
+"lng_cant_more_info" = "详情 »";
 "lng_cant_invite_banned" = "抱歉，只有管理员可以添加此用户。";
 "lng_cant_invite_privacy" = "抱歉，根据该用户的隐私设置，您不能将其添加到群组。";
 "lng_cant_invite_privacy_channel" = "抱歉，根据该用户的隐私设置，您不能将其添加到频道。";
