@@ -2180,9 +2180,11 @@
 
   <string name="ShareTextPlain">Message from %1$s</string>
 
+  <string name="ShareTextSharedMedia">Chat with %1$s</string>
+
   <string name="ShareBtnLink">Share Link</string>
-  <string name="ShareBtnPost">Share Post</string>
-  <string name="ShareBtnMessage">Share Message</string>
+  <string name="ShareBtnPost">Share Link</string>
+  <string name="ShareBtnMessage">Share Link</string>
   <string name="ShareBtnBot">Share Bot</string>
   <string name="ShareBtnProxy">Share Proxy</string>
   <string name="ShareBtnStickerSet">Share Stickers</string>

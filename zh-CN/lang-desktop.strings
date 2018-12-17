@@ -24,18 +24,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_tray_icon_text" = "Telegram 仍在运行，\n您可以在设置中更改。\n如果此图标从托盘栏消失，\n您可以在隐藏的图标中找到它。";
 
 // For lng_month_year or plain month name.
-"lng_month1" = "1 月";
-"lng_month2" = "2 月";
-"lng_month3" = "3 月";
-"lng_month4" = "4 月";
-"lng_month5" = "5 月";
-"lng_month6" = "6 月";
-"lng_month7" = "7 月";
-"lng_month8" = "8 月";
-"lng_month9" = "9 月";
-"lng_month10" = "10 月";
-"lng_month11" = "11 月";
-"lng_month12" = "12 月";
+"lng_month1" = "1月";
+"lng_month2" = "2月";
+"lng_month3" = "3月";
+"lng_month4" = "4月";
+"lng_month5" = "5月";
+"lng_month6" = "6月";
+"lng_month7" = "7月";
+"lng_month8" = "8月";
+"lng_month9" = "9月";
+"lng_month10" = "10月";
+"lng_month11" = "11月";
+"lng_month12" = "12月";
 
 // For lng_month_day and lng_month_day_year.
 "lng_month_day1" = "1月";
@@ -51,18 +51,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month_day11" = "11月";
 "lng_month_day12" = "12月";
 
-"lng_month1_small" = "1 月";
-"lng_month2_small" = "2 月";
-"lng_month3_small" = "3 月";
-"lng_month4_small" = "4 月";
-"lng_month5_small" = "5 月";
-"lng_month6_small" = "6 月";
-"lng_month7_small" = "7 月";
-"lng_month8_small" = "8 月";
-"lng_month9_small" = "9 月";
-"lng_month10_small" = "10 月";
-"lng_month11_small" = "11 月";
-"lng_month12_small" = "12 月";
+"lng_month1_small" = "1月";
+"lng_month2_small" = "2月";
+"lng_month3_small" = "3月";
+"lng_month4_small" = "4月";
+"lng_month5_small" = "5月";
+"lng_month6_small" = "6月";
+"lng_month7_small" = "7月";
+"lng_month8_small" = "8月";
+"lng_month9_small" = "9月";
+"lng_month10_small" = "10月";
+"lng_month11_small" = "11月";
+"lng_month12_small" = "12月";
 
 "lng_weekday1" = "周一";
 "lng_weekday2" = "周二";
@@ -1901,7 +1901,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_passport_in_id" = "印度尼西亚人";
 "cloud_lng_passport_in_is" = "冰岛语";
 "cloud_lng_passport_in_it" = "意大利人";
-"cloud_lng_passport_in_ja" = "日本人";
+"cloud_lng_passport_in_ja" = "日语";
 "cloud_lng_passport_in_ka" = "格鲁吉亚语";
 "cloud_lng_passport_in_km" = "高棉语";
 "cloud_lng_passport_in_ko" = "朝鲜人";
