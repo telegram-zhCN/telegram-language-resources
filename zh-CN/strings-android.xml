@@ -853,7 +853,7 @@
     <string name="EncryptionKeyDescription">这是您与 **%1$s** 加密对话加密密钥的可视化图片。\n\n如果这张图片看起来和 **%2$s** 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 telegram.org 的 FAQ</string>
     <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
     <string name="NumberUnknown">未知</string>
-    <string name="PhoneHidden">不可见</string>
+    <string name="PhoneHidden">未知</string>
     <string name="Info">信息</string>
     <string name="Phone">手机号码</string>
     <string name="SharedContent">分享的内容</string>

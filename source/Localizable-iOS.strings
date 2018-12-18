@@ -3461,7 +3461,7 @@ Unused sets are archived when you add more.";
 "Watch.Message.Game" = "Game";
 "Watch.Message.Invoice" = "Invoice";
 
-"Notifications.ExceptionsResetToDefaults" = "Reset to Defaults";
+
 
 "AuthSessions.IncompleteAttempts" = "INCOMPLETE LOGIN ATTEMPTS";
 "AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";

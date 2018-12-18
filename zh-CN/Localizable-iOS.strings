@@ -1125,7 +1125,7 @@
 
 "TwoStepAuth.ChangePassword" = "更改密码";
 "TwoStepAuth.RemovePassword" = "关闭两步验证";
-"TwoStepAuth.SetupEmail" = "Set Recovery EMail";
+"TwoStepAuth.SetupEmail" = "设置辅助邮箱";
 "TwoStepAuth.ChangeEmail" = "更改密码找回邮箱";
 "TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "两步验证已开启\n在登录 Telegram 时，请输入之前所设的密码。";
@@ -3461,7 +3461,7 @@ Unused sets are archived when you add more.";
 "Watch.Message.Game" = "游戏";
 "Watch.Message.Invoice" = "账单";
 
-"Notifications.ExceptionsResetToDefaults" = "Reset to Defaults";
+
 
 "AuthSessions.IncompleteAttempts" = "INCOMPLETE LOGIN ATTEMPTS";
 "AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";
