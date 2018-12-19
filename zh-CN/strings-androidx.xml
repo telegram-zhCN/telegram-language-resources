@@ -843,7 +843,7 @@
   <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
   <string name="NewPhone">新的电话号码</string>
   <string name="NewNumber">新的号码</string>
-  <string name="CountryNotFound">不识别的国家代码</string>
+  <string name="CountryNotFound">国家代码无法识别</string>
   <string name="ConfirmationCode">验证码</string>
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
   <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>

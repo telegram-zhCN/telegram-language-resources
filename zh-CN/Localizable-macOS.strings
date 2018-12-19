@@ -98,7 +98,7 @@
 "PeerInfo.Confirm.LeaveChannel" = "您确定要离开这个频道吗？";
 "PeerInfo.Confirm.LeaveGroup" = "你确定你要退出该群组？\n\n此操作不可撤销。";
 "PeerInfo.Confirm.DeleteChat" = "你确定你要删除所有消息记录并退出 \"%@\"？\n\n此操作不可撤销。";
-"Confirm.DeleteAdminedChannel" = "Wait! Deleting this channel will remove all of its members and all of its messages will be lost forever.\n\nAre you sure you want to continue?";
+"Confirm.DeleteAdminedChannel" = "且慢！删除此频道将会移除所有关注者并且会丢失所有消息。\n\n确定要删除此频道吗？";
 "Confirm.DeleteChatUser" = "您确定要删除所有消息记录？\n\n此操作不可撤销";
 "Confirm.LeaveGroup" = "您确定要离开此群组吗？";
 
@@ -489,7 +489,7 @@
 
 "Chat.Confirm.ActionUndonable" = "此操作无法撤销。";
 "Chat.Confirm.DeleteMessages" = "删除所有历史记录？";
-"Chat.Confirm.DeleteMessagesForEveryone" = "Delete for Everyone";
+"Chat.Confirm.DeleteMessagesForEveryone" = "为所有人撤回";
 
 "Telegram.PrivacyAndSecurityViewController" = "隐私和安全";
 "PrivacySettings.PrivacyHeader" = "隐私";
@@ -1158,7 +1158,7 @@
 
 
 "Group.EventLog.Service.TitleUpdated" = "%@ edited the group's title:";
-"Group.EventLog.Service.LinkUpdated" = "%@ edited the group's link:";
+"Group.EventLog.Service.LinkUpdated" = "%@ 更改了群组链接：";
 "Group.EventLog.Service.AboutUpdated" = "%@ edited the group's description:";
 
 "Channel.EventLog.Service.TitleUpdated" = "%@ edited this channel's title:";
@@ -1256,7 +1256,7 @@
 "Channel.Blacklist.SelectNewUserTitle" = "成员";
 
 "Channel.Admins.PromotedBy" = "被 %@ 设为管理员";
-"Channel.Admins.AddAdminError" = "Sorry, you're not allowed to promote this user to become an admin.";
+"Channel.Admins.AddAdminError" = "抱歉，您无权将此用户提升为管理员。";
 "Channel.Blacklist.RestrictedBy" = "被 %@ 限制";
 "Channel.Blacklist.BlockedBy" = "被 %@ 屏蔽";
 "Channel.Blacklist.DemoteAdminError" = "Sorry, you can't ban this user because they are an admin of this group and you are not allowed to demote them.";

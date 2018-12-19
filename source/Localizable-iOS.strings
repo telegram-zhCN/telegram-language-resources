@@ -81,6 +81,7 @@
 "PINNED_GEOLIVE" = "%1$@ pinned a live location";
 "PINNED_GIF" = "%1$@ pinned a GIF";
 
+
 "MESSAGE_GAME" = "%1$@ invited you to play %2$@";
 "CHANNEL_MESSAGE_GAME" = "%1$@ invited you to play %2$@";
 "CHAT_MESSAGE_GAME" = "%1$@ invited the group %2$@ to play %3$@";
@@ -269,7 +270,9 @@
 "Compose.TokenListPlaceholder" = "Whom would you like to message?";
 "Compose.NewMessage" = "New Message";
 "Compose.NewGroup" = "New Group";
+
 "Compose.NewEncryptedChat" = "New Secret Chat";
+
 "Compose.Create" = "Create";
 
 // Contacts
@@ -302,7 +305,11 @@
 "Conversation.StatusTyping" = "typing";
 "Conversation.Call" = "Call";
 "Conversation.Mute" = "Mute";
+
+
 "Conversation.Unmute" = "Unmute";
+
+
 "Conversation.Edit" = "Edit";
 "Conversation.Info" = "Info";
 "Conversation.Search" = "Search";
@@ -390,9 +397,11 @@
 "Message.Contact" = "Contact";
 "Message.File" = "File";
 "Message.Sticker" = "Sticker";
+
 "Message.Audio" = "Voice Message";
 "Message.ForwardedMessage" = "Forwarded Message\nFrom: %@";
 "Message.Animation" = "GIF";
+
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "An error occurred";
@@ -400,6 +409,7 @@
 "ConversationProfile.UsersTooMuchError" = "Sorry, this group is full. You cannot add any more members here.";
 
 "ConversationProfile.LeaveDeleteAndExit" = "Delete and Exit";
+
 
 "Conversation.Megabytes" = "%.1f MB";
 "Conversation.Kilobytes" = "%d KB";
@@ -578,6 +588,7 @@
 "ChatSettings.PrivateChats" = "Private Chats";
 "ChatSettings.Groups" = "Groups";
 
+
 // Usage
 "Cache.Title" = "Storage Usage";
 "Cache.ClearCache" = "Clear Cache";
@@ -730,6 +741,7 @@
 
 "PrivacySettings.PrivacyTitle" = "PRIVACY";
 "PrivacySettings.LastSeen" = "Last Seen";
+
 "PrivacySettings.LastSeenEverybody" = "Everybody";
 "PrivacySettings.LastSeenContacts" = "My Contacts";
 "PrivacySettings.LastSeenNobody" = "Nobody";
@@ -1760,6 +1772,7 @@
 "Notification.PinnedContactMessage" = "%@ pinned a contact";
 "Notification.PinnedDeletedMessage" = "%@ pinned deleted message";
 
+
 "Message.PinnedTextMessage" = "pinned \"%@\"";
 "Message.PinnedPhotoMessage" = "pinned photo";
 "Message.PinnedVideoMessage" = "pinned video";
@@ -1769,6 +1782,7 @@
 "Message.PinnedStickerMessage" = "pinned sticker";
 "Message.PinnedLocationMessage" = "pinned location";
 "Message.PinnedContactMessage" = "pinned contact";
+
 
 "Notification.PinnedMessage" = "pinned message";
 
@@ -2589,6 +2603,7 @@ Unused sets are archived when you add more.";
 
 "SecretImage.Title" = "Disappearing Photo";
 "SecretVideo.Title" = "Disappearing Video";
+
 "SecretTimer.ImageDescription" = "If you set a timer, the photo will self-destruct after it was viewed.";
 "SecretTimer.VideoDescription" = "If you set a timer, the video will self-destruct after it was viewed.";
 
@@ -2600,6 +2615,7 @@ Unused sets are archived when you add more.";
 
 "SecretImage.NotViewedYet" = "%@ hasn't opened this photo yet";
 "SecretVideo.NotViewedYet" = "%@ hasn't played this video yet";
+
 
 "UserInfo.About.Placeholder" = "Bio";
 
@@ -3541,6 +3557,93 @@ Unused sets are archived when you add more.";
 "Channel.Username.RevokeExistingUsernamesInfo" = "You can revoke the link from one of your older groups or channels, or create a private channel instead.";
 
 "InstantPage.Reference" = "Reference";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */

@@ -81,6 +81,7 @@
 "PINNED_GEOLIVE" = "%1$@ 置顶了实时位置";
 "PINNED_GIF" = "%1$@ 已置顶 1 个 GIF";
 
+
 "MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
 "CHANNEL_MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
 "CHAT_MESSAGE_GAME" = "%1$@ 邀请您加入群组 %2$@  来玩 %3$@";
@@ -269,7 +270,9 @@
 "Compose.TokenListPlaceholder" = "请选择收件人";
 "Compose.NewMessage" = "新建会话";
 "Compose.NewGroup" = "新建群组";
+
 "Compose.NewEncryptedChat" = "新建加密对话";
+
 "Compose.Create" = "创建";
 
 // Contacts
@@ -302,7 +305,11 @@
 "Conversation.StatusTyping" = "正在输入";
 "Conversation.Call" = "呼叫";
 "Conversation.Mute" = "关闭通知";
+
+
 "Conversation.Unmute" = "开启通知";
+
+
 "Conversation.Edit" = "编辑";
 "Conversation.Info" = "联系人信息";
 "Conversation.Search" = "搜索";
@@ -372,11 +379,11 @@
 "Notification.MessageLifetime1d" = "1 天";
 "Notification.MessageLifetime1w" = "1 周";
 
-"Notification.Exceptions.AlwaysOn" = "Always On";
-"Notification.Exceptions.AlwaysOff" = "Always Off";
+"Notification.Exceptions.AlwaysOn" = "总是开启";
+"Notification.Exceptions.AlwaysOff" = "总是关闭";
 "Notification.Exceptions.MutedUntil" = "Muted until %@";
 
-"Notification.Exceptions.AddException" = "Add an Exception";
+"Notification.Exceptions.AddException" = "添加一个例外";
 "Notification.Exceptions.NewException" = "New Exception";
 "Notification.Exceptions.NewException.NotificationHeader" = "NOTIFICATIONS";
 "Notification.Exceptions.Sound" = "Sound: %@";
@@ -390,9 +397,11 @@
 "Message.Contact" = "联系人";
 "Message.File" = "文件";
 "Message.Sticker" = "贴纸";
+
 "Message.Audio" = "语音留言";
 "Message.ForwardedMessage" = "转发的消息\n来自: %@";
 "Message.Animation" = "GIF";
+
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "呃，出错了..";
@@ -400,6 +409,7 @@
 "ConversationProfile.UsersTooMuchError" = "抱歉，群组已满，无法添加更多成员";
 
 "ConversationProfile.LeaveDeleteAndExit" = "删除并退出";
+
 
 "Conversation.Megabytes" = "%.1f MB";
 "Conversation.Kilobytes" = "%d KB";
@@ -548,7 +558,7 @@
 "Notifications.GroupNotificationsHelp" = "您可以在特定的群组信息界面中设置针对他们的通知策略。";
 "Notifications.GroupNotificationsExceptionsHelp" = "Set custom notifications for specific groups.";
 
-"Notifications.ChannelNotifications" = "CHANNEL NOTIFICATIONS";
+"Notifications.ChannelNotifications" = "频道通知";
 "Notifications.ChannelNotificationsAlert" = "提示";
 "Notifications.ChannelNotificationsPreview" = "消息预览";
 "Notifications.ChannelNotificationsSound" = "声音";
@@ -577,6 +587,7 @@
 "ChatSettings.AutomaticAudioDownload" = "自动下载音乐";
 "ChatSettings.PrivateChats" = "私聊";
 "ChatSettings.Groups" = "群组";
+
 
 // Usage
 "Cache.Title" = "存储用量";
@@ -730,6 +741,7 @@
 
 "PrivacySettings.PrivacyTitle" = "隐私";
 "PrivacySettings.LastSeen" = "最后上线时间";
+
 "PrivacySettings.LastSeenEverybody" = "所有人";
 "PrivacySettings.LastSeenContacts" = "我的联系人";
 "PrivacySettings.LastSeenNobody" = "隐藏";
@@ -1146,7 +1158,7 @@
 "TwoStepAuth.EnterPasswordInvalid" = "密码无效，请重新输入。";
 "TwoStepAuth.EnterPasswordForgot" = "密码忘了？";
 
-"TwoStepAuth.EmailTitle" = "Recovery Email";
+"TwoStepAuth.EmailTitle" = "辅助邮箱";
 "TwoStepAuth.EmailSkip" = "跳过";
 "TwoStepAuth.EmailSkipAlert" = "您确定不设置密码找回邮箱？\n\n一旦忘记密码，您将无法再登录此 Telegram 账号，并且无法恢复。";
 "TwoStepAuth.Email" = "电子邮箱";
@@ -1760,6 +1772,7 @@
 "Notification.PinnedContactMessage" = "%@ 已置顶 1 个联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 已置顶删除的消息";
 
+
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "已置顶图片";
 "Message.PinnedVideoMessage" = "置顶了一段视频";
@@ -1769,6 +1782,7 @@
 "Message.PinnedStickerMessage" = "置顶了一张贴纸";
 "Message.PinnedLocationMessage" = "置顶了一条位置信息";
 "Message.PinnedContactMessage" = "置顶了一条联系人信息";
+
 
 "Notification.PinnedMessage" = "已置顶消息";
 
@@ -2338,7 +2352,7 @@ Unused sets are archived when you add more.";
 "Checkout.LiabilityAlert" = "Telegram 服务器 和 %1$@ 均无法获取您的信用卡信息。信用卡信息将仅由支付平台 %2$@ 处理。\n\n您的款项将直接发送至 %1$@ 的开发者。Telegram 无法提供任何保障，因此您需要自行承担风险。如果出现问题，请联系 %1$@ 的开发者或信用卡的开户行。";
 
 
-"Settings.AppLanguage.Unofficial" = "UNOFFICIAL";
+"Settings.AppLanguage.Unofficial" = "非官方";
 
 "InstantPage.AutoNightTheme" = "自动启用夜间主题";
 
@@ -2589,6 +2603,7 @@ Unused sets are archived when you add more.";
 
 "SecretImage.Title" = "自毁图片";
 "SecretVideo.Title" = "自毁视频";
+
 "SecretTimer.ImageDescription" = "如果您设定一个定时器，该图片将在阅后一定时间内自毁。";
 "SecretTimer.VideoDescription" = "如果您设定一个定时器，该视频将在阅后一定时间内自毁。";
 
@@ -2600,6 +2615,7 @@ Unused sets are archived when you add more.";
 
 "SecretImage.NotViewedYet" = "%@ 还没有打开这张图片";
 "SecretVideo.NotViewedYet" = "%@ 还没有打开这段视频";
+
 
 "UserInfo.About.Placeholder" = "个人简介";
 
@@ -3428,7 +3444,7 @@ Unused sets are archived when you add more.";
 "DialogList.MultipleTyping" = "%@ and %@";
 "Contacts.NotRegisteredSection" = "电话簿";
 
-"SocksProxySetup.PasteFromClipboard" = "Paste From Clipboard";
+"SocksProxySetup.PasteFromClipboard" = "从剪贴板导入";
 
 "Share.AuthTitle" = "登陆到 Telegram";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
@@ -3463,7 +3479,7 @@ Unused sets are archived when you add more.";
 
 
 
-"AuthSessions.IncompleteAttempts" = "INCOMPLETE LOGIN ATTEMPTS";
+"AuthSessions.IncompleteAttempts" = "未完成的登录尝试";
 "AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";
 
 "AuthSessions.Terminate" = "确定";
@@ -3501,7 +3517,7 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.ConfirmEmailResendCode" = "Resend Code";
 
 "TwoStepAuth.SetupPendingEmail" = "Your recovery email %@ needs to be confirmed and is not yet active.\n\nPlease check your email and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
-"TwoStepAuth.SetupResendEmailCode" = "Resend Code";
+"TwoStepAuth.SetupResendEmailCode" = "重新发送验证码";
 "TwoStepAuth.SetupResendEmailCodeAlert" = "The code has been sent. Please check your email. Be sure to check the spam folder as well.";
 "TwoStepAuth.EnterEmailCode" = "输入验证码";
 
@@ -3541,6 +3557,93 @@ Unused sets are archived when you add more.";
 "Channel.Username.RevokeExistingUsernamesInfo" = "You can revoke the link from one of your older groups or channels, or create a private channel instead.";
 
 "InstantPage.Reference" = "引用";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
