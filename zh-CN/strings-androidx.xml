@@ -277,7 +277,7 @@
   <string name="CopiedUsername">用户名已复制到剪贴板</string>
   <string name="CopiedLink">链接已复制到剪贴板</string>
   <string name="CopiedText">文本已复制到剪贴板</string>
-  
+  <string name="CopiedColor">颜色及其名称已复制到剪贴板</string>
   <string name="passcode_pattern_tooshort">密码图案必须连接至少 4 个点</string>
   <string name="passcode_password_tooshort">密码必须至少有 1 个字符</string>
 
@@ -426,7 +426,7 @@
   <string name="ActionCreateChannel">频道已创建</string>
   <string name="YouCreatedChannel">您创建了此频道</string>
   <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
-  <string name="ActionChannelChangedTitle">频道标题已更改</string>
+  <string name="ActionChannelChangedTitle">频道名称已更改</string>
   <string name="ActionChannelChangedPhoto">频道头像已更换</string>
   <string name="DeleteMessage">删除消息</string>
   <string name="DeleteMessages">删除消息</string>
@@ -1990,7 +1990,7 @@
   <string name="ThemeClose">关闭</string>
 
   <string name="ThemeCategoryAccent">强调色</string>
-  
+  <string name="ThemeCategoryAccent_info">该列表包含应用的强调色。\n要进行细微调节，请参阅其他类别。</string>
   <string name="ThemeCategoryContent">内容</string>
   <string name="ThemeCategoryNavigation">头部</string>
   <string name="ThemeCategoryControls">控件</string>
@@ -2003,12 +2003,12 @@
 
   <string name="ThemeSectionText">文本</string>
   <string name="ThemeSectionPlayer">音乐播放器</string>
-  
+  <string name="ThemeSectionIcons">图标</string>
   <string name="ThemeSectionBackground">聊天背景</string>
   <string name="ThemeSectionRadios_info">这些颜色显示在 设置 &gt; 主题 。\n请确保你**填充**的颜色能够准确地表现对应主题。</string>
   <string name="ThemeSectionWP_info">这些颜色被用作设置相应壁纸后衬托日期、未读分隔符、消息内键盘等的透明覆盖层。\n\n除非找到了更好的色彩组合，否则请不要轻易更改它们。</string>
-  
-  
+  <string name="ThemeSectionUnsorted">未排序</string>
+  <string name="ThemeSectionAttach">附件菜单</string>
   <string name="ThemeSectionMedia">多媒体</string>
 
   <string name="ColorHex">十六进制</string>
@@ -2027,9 +2027,9 @@
   <string name="ThemeEditName">编辑姓名</string>
   <string name="ThemeColorFormat">颜色格式</string>
 
-  
-  
-  
+  <string name="ThemeCalcTitle">移除透明度</string>
+  <string name="ThemeCalcHint">背景 (颜色或 ID)</string>
+  <string name="ThemeCalcSave">计算</string>
 
   
   <string name="ColorClearAll_other">删除另外 %1$s 个版本的 %2$s？\n\n此操作无法撤销。</string>
@@ -2087,14 +2087,14 @@
   <string name="c_textSearchQueryHighlight">搜索聊天或联系人时，突出目前的查询。</string>
   <string name="c_textSelectionHighlight">选中文本的背景色</string>
   <string name="c_textLinkPressHighlight">按压链接的背景色，须不透明。</string>
-  
-  
-  
-  
+  <string name="c_textNeutral">中性操作按钮：保存、完成、取消等。</string>
+  <string name="c_textNegative">负面操作按钮：删除、移除、清除等。</string>
+  <string name="c_drawer">抽屉标题的颜色叠加层。为空时，使用 **header** 颜色。</string>
+  <string name="c_drawerText">抽屉标题的文字颜色。为空时，使用 ** headerText ** 颜色。</string>
   <string name="c_fileGreen">APK 文件</string>
   <string name="c_fileYellow">压缩文件，如 .zip、.rar、.7z</string>
   <string name="c_fileRed">PDF 文件</string>
-  
+  <string name="c_headerLightBackground">选择媒体，消息等时使用的浅色标题。</string>
   <string name="c_bubble_chatBackground">当未设置壁纸时所使用的纯色背景。\n\n若留空，将使用 **背景色(background)** 代替。</string>
   <string name="c_seekEmpty">文件的未下载部分。</string>
   <string name="c_seekReady">文件的已下载部分。</string>
@@ -2103,21 +2103,21 @@
   <string name="c_statusBarLegacy">适用于 **Android 5.x** 或更低版本的系统。</string>
 
   <string name="p_parentTheme">如果在这个主题中某些色彩或属性没有被设置，它们将从此主题中继承。</string>
-  
+  <string name="p_replaceShadowsWithSeparators">用细线代替水平阴影。</string>
   <string name="p_shadowDepth">所有阴影的深度。 值越高代表着阴影越暗。 默认值：浅色主题 - 0.5，深色主题 - 1.0。</string>
-  
-  
-  
-  
-  
-  
+  <string name="p_imageCorner">图片圆角半径。通常在气泡模式下被忽略。</string>
+  <string name="p_bubbleCorner">气泡圆角半径</string>
+  <string name="p_bubbleCornerMerged">与另一个气泡合并时气泡的圆角半径。</string>
+  <string name="p_bubbleCornerLegacy">**Android 4.x**上的气泡圆角半径。最大值：**6**。</string>
+  <string name="p_bubbleOutline">启用气泡实线轮廓。您可以使用 **bubbleOut_outline** 或 **bubbleIn_outline** 配置其颜色。\n\n如果更改 **bubbleCorner** 值，请启用此属性。</string>
+  <string name="p_bubbleOutlineSize">气泡轮廓的宽度。当 ** bubbleOutline **启用时使用。</string>
   <string name="p_subtitleAlpha">标签导航、标题字幕中 **headerText** 或 **headerLightText** 的透明度。</string>
   <string name="p_wallpaperId">默认壁纸标识。0 代表壁纸被完全禁用。在设置中长按壁纸缩略图可获得它的标识。若需使用纯色壁纸，请将此项设为 0 并编辑 **bubble_chatBackground**。</string>
   <string name="p_wallpaperUsageId">此选项将允许在相似的主题中共享壁纸设置。 **0** – 亮色，**1** – 暗色，**2** – 此主题专用\n\n如果您的色彩类型与 **parentTheme** 有显著区别、或创建亮色主题时禁用了默认壁纸，请将此项设置为 **2**。</string>
   <string name="p_dark">标记此主题为夜间使用的暗色主题。\n\n建议更改 **parentTheme** 而不是更改此选项。</string>
-  
-  
-  
+  <string name="p_bubbleDateCorner">气泡模式中日期背景的圆角半径。</string>
+  <string name="p_dateCorner">普通模式中日期背景的圆角半径。</string>
+  <string name="p_bubbleUnreadShadow">在气泡模式下向未读消息分隔符添加阴影。</string>
   <string name="p_lightStatusBar">当启用时，顶部状态栏将使用深色图标。适用于 **Android 6.x** 或更高版本的系统。</string>
 
   <string name="g_noWallpaper">这些颜色将在壁纸被禁用或尚未加载时使用\n\n如果你的主题不允许禁用壁纸，你可以直接忽略它们。</string>
@@ -2139,8 +2139,8 @@
   
   
   
-  
-  
+  <string name="ShareTextStickerLink">查看 Telegram 上的 «%1$s» 贴纸包：%2$s</string>
+  <string name="ShareTextStickerLink2">查看 «%1$s» 贴纸包：%2$s</string>
 
   <string name="ShareTitleText">分享到...</string>
 
@@ -2149,41 +2149,41 @@
   
 
   <string name="ShareTextPhoto">来自 %1$s 的图片</string>
+  <string name="ShareTitleImage">分享图片给...</string>
   
-  
-  
+  <string name="ShareTitleImageX_other">分享 %1$s 张图片给...</string>
 
   <string name="ShareTextVideo">来自 %1$s 的视频</string>
+  <string name="ShareTitleVideo">分享视频给...</string>
   
-  
-  
+  <string name="ShareTitleVideoX_other">分享 %1$s 个视频给...</string>
 
   <string name="ShareTextGif">来自 %1$s 的 GIF</string>
+  <string name="ShareTitleGif">分享 GIF 到...</string>
   
-  
-  
+  <string name="ShareTitleGifX_other">分享 %1$s 个 GIF 给...</string>
 
   <string name="ShareTextMusic">来自 %1$s 的音乐</string>
+  <string name="ShareTitleAudio">分享音乐给...</string>
   
-  
-  
+  <string name="ShareTitleAudioX_other">分享 %1$s 个音乐给...</string>
 
   <string name="ShareTextFile">来自 %1$s 的文件</string>
+  <string name="ShareTitleFile">分享文件给...</string>
   
-  
-  
+  <string name="ShareTitleFileX_other">分享 %1$s 个文件给...</string>
 
   <string name="ShareTextMedia">来自 %1$s 的多媒体</string>
-  
+  <string name="ShareTitleMedia">分享媒给...</string>
   
   
 
-  
+  <string name="ShareTextPlain">来自 %1$s 的消息</string>
 
   
 
   <string name="ShareBtnLink">分享链接</string>
-  
+  <string name="ShareBtnPost">分享链接</string>
   <string name="ShareBtnMessage">分享消息</string>
   <string name="ShareBtnBot">分享机器人</string>
   <string name="ShareBtnProxy">分享代理</string>

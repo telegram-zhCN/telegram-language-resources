@@ -20,6 +20,11 @@
 "MESSAGE_PHOTOS" = "%1$@ sent you %2$@ photos";
 "MESSAGES" = "%1$@ sent you %2$@ messages";
 
+"MESSAGE_POLL" = "%1$@ 给您发送了一个投票";
+"CHANNEL_MESSAGE_POLL" = "%1$@ 发布了一个投票";
+"CHAT_MESSAGE_POLL" = "%1$@ 发送了一个投票到群组 %2$@";
+"PINNED_POLL" = "%1$@ 置顶了一个投票";
+
 "CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
 "CHAT_MESSAGE_NOTEXT" = "%1$@ 发送了一条消息到群组 %2$@";
 "CHAT_MESSAGE_PHOTO" = "%1$@ 发送了一张图片到群组 %2$@";
@@ -80,7 +85,6 @@
 "PINNED_GEO" = "%1$@ 已置顶 1 个位置";
 "PINNED_GEOLIVE" = "%1$@ 置顶了实时位置";
 "PINNED_GIF" = "%1$@ 已置顶 1 个 GIF";
-
 
 "MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
 "CHANNEL_MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
@@ -249,7 +253,7 @@
 "DialogList.Title" = "对话";
 "DialogList.SearchLabel" = "搜索消息或用户";
 "DialogList.NoMessagesTitle" = "尚无会话";
-"DialogList.NoMessagesText" = "Start messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
+"DialogList.NoMessagesText" = "要开始聊天，请按右上角的铅笔按钮，或者进入联系人页面。";
 "DialogList.SingleTypingSuffix" = "%@ 正在输入";
 "DialogList.SingleRecordingAudioSuffix" = "%@ 正在录制语音";
 "DialogList.SingleUploadingPhotoSuffix" = "%@ 正在发送图片";
@@ -270,9 +274,9 @@
 "Compose.TokenListPlaceholder" = "请选择收件人";
 "Compose.NewMessage" = "新建会话";
 "Compose.NewGroup" = "新建群组";
-
+"Compose.NewGroupTitle" = "新建群组";
 "Compose.NewEncryptedChat" = "新建加密对话";
-
+"Compose.NewEncryptedChatTitle" = "新建加密对话";
 "Compose.Create" = "创建";
 
 // Contacts
@@ -384,8 +388,8 @@
 "Notification.Exceptions.MutedUntil" = "Muted until %@";
 
 "Notification.Exceptions.AddException" = "添加一个例外";
-"Notification.Exceptions.NewException" = "New Exception";
-"Notification.Exceptions.NewException.NotificationHeader" = "NOTIFICATIONS";
+"Notification.Exceptions.NewException" = "新例外";
+"Notification.Exceptions.NewException.NotificationHeader" = "通知";
 "Notification.Exceptions.Sound" = "Sound: %@";
 
 
@@ -402,9 +406,8 @@
 "Message.ForwardedMessage" = "转发的消息\n来自: %@";
 "Message.Animation" = "GIF";
 
-
 // Conversation Profile
-"ConversationProfile.ErrorCreatingConversation" = "呃，出错了..";
+"ConversationProfile.ErrorCreatingConversation" = "呃，发生了一个错误。";
 "ConversationProfile.UnknownAddMemberError" = "抱歉，遇到了一个意外问题，我们的魔法师已收到错误报告并将尽快修正咒语";
 "ConversationProfile.UsersTooMuchError" = "抱歉，群组已满，无法添加更多成员";
 
@@ -418,7 +421,7 @@
 "Conversation.AddContact" = "添加联系人";
 "Conversation.SendMessage" = "发送消息";
 "Conversation.EncryptionCanceled" = "加密对话已被取消";
-"Conversation.DeleteManyMessages" = "删除选中的消息";
+"Conversation.DeleteManyMessages" = "删除消息";
 "Conversation.SlideToCancel" = "左滑取消录制";
 "Conversation.ApplyLocalization" = "安装语言包";
 "Conversation.OpenFile" = "打开文件";
@@ -430,7 +433,7 @@
 "SearchImages.NoImagesFound" = "未找到图片";
 
 // User Profile
-"Profile.CreateEncryptedChatError" = "呃，出错了";
+"Profile.CreateEncryptedChatError" = "呃，发生了一个错误。";
 
 "Profile.CreateNewContact" = "新建联系人";
 "Profile.AddToExisting" = "添加到现有联系人";
@@ -478,7 +481,7 @@
 
 "GroupInfo.SetGroupPhoto" = "设置群组图片";
 "GroupInfo.SetGroupPhotoStop" = "停止";
-"GroupInfo.SetGroupPhotoDelete" = "删除群组头像";
+"GroupInfo.SetGroupPhotoDelete" = "删除此头像";
 "GroupInfo.Notifications" = "消息通知";
 "GroupInfo.Sound" = "声音";
 "GroupInfo.SharedMedia" = "分享的媒体文件";
@@ -547,7 +550,7 @@
 "Notifications.MessageNotificationsPreview" = "消息预览";
 "Notifications.MessageNotificationsSound" = "声音";
 "Notifications.MessageNotificationsHelp" = "您可以在特定的用户信息界面中设置针对他们的通知策略。";
-"Notifications.MessageNotificationsExceptionsHelp" = "Set custom notifications for specific users.";
+"Notifications.MessageNotificationsExceptionsHelp" = "为特定用户设置自定义通知。";
 
 
 
@@ -556,14 +559,14 @@
 "Notifications.GroupNotificationsPreview" = "消息预览";
 "Notifications.GroupNotificationsSound" = "声音";
 "Notifications.GroupNotificationsHelp" = "您可以在特定的群组信息界面中设置针对他们的通知策略。";
-"Notifications.GroupNotificationsExceptionsHelp" = "Set custom notifications for specific groups.";
+"Notifications.GroupNotificationsExceptionsHelp" = "为特定群组设置自定义通知。";
 
 "Notifications.ChannelNotifications" = "频道通知";
 "Notifications.ChannelNotificationsAlert" = "提示";
 "Notifications.ChannelNotificationsPreview" = "消息预览";
 "Notifications.ChannelNotificationsSound" = "声音";
 "Notifications.ChannelNotificationsHelp" = "You can set custom notifications for specific channels on the Channel Info page.";
-"Notifications.ChannelNotificationsExceptionsHelp" = "Set custom notifications for specific channels.";
+"Notifications.ChannelNotificationsExceptionsHelp" = "为特定频道设置自定义通知。";
 
 "Notifications.TextTone" = "提醒声音";
 "Notifications.AlertTones" = "提醒铃声";
@@ -587,7 +590,7 @@
 "ChatSettings.AutomaticAudioDownload" = "自动下载音乐";
 "ChatSettings.PrivateChats" = "私聊";
 "ChatSettings.Groups" = "群组";
-
+"ChatSettings.Cache" = "存储用量";
 
 // Usage
 "Cache.Title" = "存储用量";
@@ -598,7 +601,7 @@
 // Blocked Users
 "BlockedUsers.Title" = "已屏蔽";
 "BlockedUsers.SelectUserTitle" = "屏蔽";
-"BlockedUsers.BlockUser" = "Block User...";
+"BlockedUsers.BlockUser" = "屏蔽此用户";
 "BlockedUsers.BlockTitle" = "屏蔽";
 "BlockedUsers.LeavePrefix" = "退出";
 "BlockedUsers.Info" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
@@ -611,7 +614,7 @@
 "Wallpaper.Set" = "选用";
 "Wallpaper.Wallpaper" = "背景";
 
-"Notification.SecretChatMessageScreenshot" = "%@ 截了一张图！";
+"Notification.SecretChatMessageScreenshot" = "%@ 截图了！";
 "Notification.SecretChatScreenshot" = "已截图！";
 
 
@@ -1349,7 +1352,7 @@
 "Compose.NewChannel" = "新建频道";
 "GroupInfo.ChannelListNamePlaceholder" = "频道名称";
 
-"Channel.MessagePhotoUpdated" = "频道头像已更新";
+"Channel.MessagePhotoUpdated" = "频道头像已更换";
 "Channel.MessagePhotoRemoved" = "频道头像已删除";
 "Channel.MessageTitleUpdated" = "频道名称已更改为 \"%@\"";
 "Channel.TitleInfo" = "频道详情";
@@ -1483,7 +1486,7 @@
 "ChatAdmins.AllMembersAreAdminsOffHelp" = "只有管理员可以添加及移除成员、编辑群组名称及图片。";
 "ChatAdmins.AdminLabel" = "管理员";
 
-"Group.MessagePhotoUpdated" = "群组图片已更新";
+"Group.MessagePhotoUpdated" = "群组头像已更新";
 "Group.MessagePhotoRemoved" = "群组头像已删除";
 
 "Group.UpgradeNoticeHeader" = "成员人数已达上限";
@@ -1500,10 +1503,10 @@
 
 "Notification.RenamedGroup" = "群组名称已更改";
 
-"Group.ErrorAddTooMuchBots" = "抱歉，该群组的机器人数量已达上限。";
+"Group.ErrorAddTooMuchBots" = "抱歉，此群组的机器人数量已达上限。";
 "Group.ErrorAddTooMuchAdmins" = "抱歉，该群组的管理员人数已达上限。";
 "Group.ErrorAddBlocked" = "抱歉，您无法添加该用户到群组。";
-"Group.ErrorNotMutualContact" = "抱歉，目前您只能添加双向联系人到群组。";
+"Group.ErrorNotMutualContact" = "抱歉，目前您只能邀请双向联系人加入群组。";
 
 "Conversation.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Generic.ErrorMoreInfo" = "详情";
@@ -1766,11 +1769,11 @@
 "Notification.PinnedRoundMessage" = "%@ 置顶了一条视频留言";
 "Notification.PinnedAudioMessage" = "%@ 已置顶一条语音留言";
 "Notification.PinnedDocumentMessage" = "%@ 已置顶 1 个文件";
-"Notification.PinnedAnimationMessage" = "%@ 已置顶 1 个 GIF";
+"Notification.PinnedAnimationMessage" = "%@ 置顶了一张 GIF";
 "Notification.PinnedStickerMessage" = "%@ 已置顶 1 个贴纸";
 "Notification.PinnedLocationMessage" = "%@ 已置顶 1 个位置";
 "Notification.PinnedContactMessage" = "%@ 已置顶 1 个联系人信息";
-"Notification.PinnedDeletedMessage" = "%@ 已置顶删除的消息";
+"Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
 
 
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
@@ -2084,11 +2087,11 @@ Unused sets are archived when you add more.";
 
 "Calls.CallTabTitle" = "呼叫标签";
 "Calls.CallTabDescription" = "您可以将「呼叫标签」添加到标签栏上。";
-"Calls.NotNow" = "不是现在";
+"Calls.NotNow" = "稍后再说";
 "Calls.AddTab" = "添加标签";
 "Calls.NewCall" = "新呼叫";
 
-"Calls.RatingTitle" = "请对你这次的 Telegram 呼叫\n做出评价";
+"Calls.RatingTitle" = "请对你此次 Telegram \n通话质量做出评价";
 "Calls.SubmitRating" = "提交";
 
 
@@ -2294,7 +2297,7 @@ Unused sets are archived when you add more.";
 "Calls.NoCallsPlaceholder" = "您最近的通话将在此显示";
 "Calls.NoMissedCallsPlacehoder" = "您没有未接电话";
 
-"Call.CallInProgressTitle" = "正在通话";
+"Call.CallInProgressTitle" = "正在通话中";
 "Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
 
 "Call.Message" = "输入消息";
@@ -2394,7 +2397,7 @@ Unused sets are archived when you add more.";
 
 "Channel.BanUser.BlockFor" = "屏蔽时长";
 
-"Channel.BanList.BlockedTitle" = "BANNED";
+"Channel.BanList.BlockedTitle" = "被封禁";
 "Channel.BanList.RestrictedTitle" = "限制";
 
 "Group.Info.AdminLog" = "近期操作";
@@ -2503,14 +2506,14 @@ Unused sets are archived when you add more.";
 "Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在 %@ 前发送消息的权限";
 "Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的权限";
 
-"Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您在 %@ 前发送机器人内容的权限";
-"Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的权限";
+"Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送机器人内容的能力至 %@";
+"Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的能力";
 
 "Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在 %@ 前发送媒体文件的权限";
-"Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的权限";
+"Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的能力";
 
 "Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在 %@ 前此发送贴纸的权限";
-"Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的权限";
+"Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的能力";
 
 "ChatSettings.ConnectionType.Title" = "连接类型";
 "ChatSettings.ConnectionType.UseProxy" = "使用代理";
@@ -2532,7 +2535,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.EmptyTitle" = "暂无操作日志";
 "Channel.AdminLog.EmptyText" = "在过去的 48 小时内群组成员和管理员没有执行任何管理操作。";
 "Group.AdminLog.EmptyText" = "在过去的 48 小时内群组成员和管理员没有执行任何管理操作。";
-"Broadcast.AdminLog.EmptyText" = "No service actions were taken by the channel's admins in the last 48 hours.";
+"Broadcast.AdminLog.EmptyText" = "在过去 48 小时内，群组管理员未执行任何操作。";
 
 "Channel.AdminLog.EmptyFilterTitle" = "未找到操作日志";
 "Channel.AdminLog.EmptyFilterQueryText" = "找不到包含 ‘%@’ 的近期操作。";
@@ -2548,7 +2551,7 @@ Unused sets are archived when you add more.";
 
 "Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁该用户。因为他们是该群组管理员，";
 
-"Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您没有向此群组添加机器人的权限。";
+"Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
 "Privacy.Calls.P2P" = "端对端连接";
 "Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。";
@@ -2562,7 +2565,7 @@ Unused sets are archived when you add more.";
 "Call.ReportSkip" = "跳过";
 "Call.ReportSend" = "发送";
 
-"Channel.EditAdmin.CannotEdit" = "您不能变更该管理员的权限。";
+"Channel.EditAdmin.CannotEdit" = "您无权修改此管理员的权限。";
 "Call.RateCall" = "评价此次通话";
 
 "Settings.ApplyProxyAlert" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\n\nYou can change your proxy server later in Settings > Data and Storage.";
@@ -2654,7 +2657,7 @@ Unused sets are archived when you add more.";
 
 "MediaPicker.TimerTooltip" = "您现在可以设置一个阅后即焚计时器";
 
-"UserInfo.BlockConfirmation" = "屏蔽 %@？";
+"UserInfo.BlockConfirmation" = "要屏蔽 %@ 吗？";
 
 "FastTwoStepSetup.Title" = "密码和邮箱";
 "FastTwoStepSetup.PasswordSection" = "密码";
@@ -2807,7 +2810,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.StatusSubscribers_any" = "%@ 位订阅者";
 
-"DialogList.SavedMessagesHelp" = "转发信息到这里以便快速访问";
+"DialogList.SavedMessagesHelp" = "转发消息到这里以便快速访问";
 
 "PrivacySettings.PasscodeAndTouchId" = "锁定码 & Touch ID";
 "PrivacySettings.PasscodeAndFaceId" = "锁定码 & Face ID";
@@ -3232,7 +3235,7 @@ Unused sets are archived when you add more.";
 "Conversation.ViewContactDetails" = "查看联系人";
 
 "DialogList.Read" = "设为已读";
-"DialogList.Unread" = "未读";
+"DialogList.Unread" = "设为未读";
 
 "ContactInfo.Title" = "联系信息";
 "ContactInfo.PhoneLabelHome" = "家庭";
@@ -3440,7 +3443,7 @@ Unused sets are archived when you add more.";
 "Passport.Language.uz" = "乌兹别克语";
 "Passport.Language.vi" = "越南语";
 
-"Conversation.EmptyGifPanelPlaceholder" = "You have no saved GIFs yet.\nEnter @gif to search.";
+"Conversation.EmptyGifPanelPlaceholder" = "您还没有保存过任何 GIF。\n输入 @gif 搜索一些吧。";
 "DialogList.MultipleTyping" = "%@ and %@";
 "Contacts.NotRegisteredSection" = "电话簿";
 
@@ -3450,7 +3453,7 @@ Unused sets are archived when you add more.";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
 
 "Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
-"Notifications.DisplayNamesOnLockScreenInfoWithLink" = "Display names in notifications when the device is locked. To disable, make sure that \"Show Previews\" is also set to \"When Unlocked\" or \"Never\" in [iOS Settings > Notifications].";
+"Notifications.DisplayNamesOnLockScreenInfoWithLink" = "设备锁定后在通知栏上显示姓名。若需禁用，请确保“显示预览”功能也设置为“解锁时”或“从不” [iOS 设置> 通知].";
 
 "Notifications.Badge" = "BADGE COUNTER";
 "Notifications.Badge.IncludeMutedChats" = "包含已关闭提醒的会话";
@@ -3491,9 +3494,9 @@ Unused sets are archived when you add more.";
 "ApplyLanguage.ChangeLanguageAction" = "更改";
 "ApplyLanguage.ApplyLanguageAction" = "更改";
 "ApplyLanguage.UnsufficientDataTitle" = "Insufficient Data";
-"ApplyLanguage.UnsufficientDataText" = "Unfortunately, this custom language pack (%1$@) doesn't contain data for Telegram iOS. You can contribute to this language pack using the [translation platform]().";
+"ApplyLanguage.UnsufficientDataText" = "很遗憾，这个自定义语言包 (%1$@) 不包含Telegram iOS的数据。您可以使用以下方法为此语言包做出贡献 [翻译平台]()。";
 "ApplyLanguage.LanguageNotSupportedError" = "Sorry, this language doesn't seem to exist.";
-"ApplyLanguage.ApplySuccess" = "Language changed";
+"ApplyLanguage.ApplySuccess" = "语言已更改";
 
 "TextFormat.Bold" = "加粗";
 "TextFormat.Italic" = "倾斜";
@@ -3502,19 +3505,19 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.SetupPasswordTitle" = "设置密码";
 "TwoStepAuth.SetupPasswordDescription" = "Please create a password which will be used to protect your data.";
 "TwoStepAuth.ChangePassword" = "更改密码";
-"TwoStepAuth.ChangePasswordDescription" = "Please enter a new password which will be used to protect your data.";
-"TwoStepAuth.ReEnterPasswordTitle" = "Re-enter your Password";
-"TwoStepAuth.ReEnterPasswordDescription" = "Please confirm your password.";
+"TwoStepAuth.ChangePasswordDescription" = "请输入一个用于保护数据的密码";
+"TwoStepAuth.ReEnterPasswordTitle" = "请重新输入密码";
+"TwoStepAuth.ReEnterPasswordDescription" = "请再次确认。";
 "TwoStepAuth.AddHintTitle" = "Add a Hint";
 "TwoStepAuth.AddHintDescription" = "请设置一个密码提示";
 "TwoStepAuth.HintPlaceholder" = "提示";
 "TwoStepAuth.RecoveryEmailTitle" = "辅助邮箱";
 "TwoStepAuth.RecoveryEmailAddDescription" = "请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
-"TwoStepAuth.RecoveryEmailChangeDescription" = "Please enter your new recovery email. It is the only way to recover a forgotten password.";
+"TwoStepAuth.RecoveryEmailChangeDescription" = "请输入您的备用电子邮箱。 这是忘记密码时唯一的恢复方法。";
 "TwoStepAuth.ChangeEmail" = "更改密码找回邮箱";
-"TwoStepAuth.ConfirmEmailDescription" = "Please enter the code we've just emailed at %1$@."; 
+"TwoStepAuth.ConfirmEmailDescription" = "请输入我们刚刚发送到 %1$@ 的验证码"; 
 "TwoStepAuth.ConfirmEmailCodePlaceholder" = "验证码";
-"TwoStepAuth.ConfirmEmailResendCode" = "Resend Code";
+"TwoStepAuth.ConfirmEmailResendCode" = "重新发送验证码";
 
 "TwoStepAuth.SetupPendingEmail" = "Your recovery email %@ needs to be confirmed and is not yet active.\n\nPlease check your email and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.SetupResendEmailCode" = "重新发送验证码";
@@ -3529,7 +3532,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
 
-"InstantPage.TapToOpenLink" = "Tap to open the link:";
+"InstantPage.TapToOpenLink" = "点击打开链接：";
 "InstantPage.RelatedArticleAuthorAndDateTitle" = "%1$@ • %2$@";
 
 
@@ -3538,23 +3541,23 @@ Unused sets are archived when you add more.";
 "Login.CancelPhoneVerification" = "您想停止手机号码验证过程吗？";
 "Login.CancelPhoneVerificationStop" = "停止";
 "Login.CancelPhoneVerificationContinue" = "继续";
-"Login.CodeExpired" = "Code expired, please login again.";
+"Login.CodeExpired" = "验证码已过期，请重新登录后再试。";
 "Login.CancelSignUpConfirmation" = "Do you want to stop the registration process?";
 
-"Passcode.AppLockedAlert" = "Telegram\nLocked";
+"Passcode.AppLockedAlert" = "Telegram\n已锁定";
 
-"ChatList.ReadAll" = "Read All";
-"ChatList.Read" = "设为已读";
-
-
-
-"ChatList.DeleteConfirmation_any" = "Delete %@ Chats";
+"ChatList.ReadAll" = "全部设为已读";
+"ChatList.Read" = "标为已读";
 
 
 
-"Username.TooManyPublicUsernamesError" = "Sorry, you have reserved too many public usernames.";
-"Group.Username.RevokeExistingUsernamesInfo" = "You can revoke the link from one of your older groups or channels, or create a private group instead.";
-"Channel.Username.RevokeExistingUsernamesInfo" = "You can revoke the link from one of your older groups or channels, or create a private channel instead.";
+"ChatList.DeleteConfirmation_any" = "删除 %@ 个对话";
+
+
+
+"Username.TooManyPublicUsernamesError" = "抱歉，您已经拥有了太多的公共用户名。";
+"Group.Username.RevokeExistingUsernamesInfo" = "您可以撤消其中一个较旧群组或频道的链接，也可以创建一个私人群组。";
+"Channel.Username.RevokeExistingUsernamesInfo" = "您可以撤消其中一个较旧群组或频道的链接，也可以创建一个私人频道。";
 
 "InstantPage.Reference" = "引用";
 
@@ -3607,43 +3610,49 @@ Unused sets are archived when you add more.";
 
 
 
+"MessagePoll.LabelAnonymous" = "匿名投票";
+"MessagePoll.LabelClosed" = "最终结果";
+"MessagePoll.NoVotes" = "无人投票";
+
+
+
+
+
+"MessagePoll.VotedCount_any" = "%@ 人已投票";
+"AttachmentMenu.Poll" = "投票";
+
+
+"CreatePoll.Title" = "新建投票";
+"CreatePoll.Create" = "发送";
+"CreatePoll.TextHeader" = "问题";
+"CreatePoll.TextPlaceholder" = "提出一个问题";
+"CreatePoll.OptionsHeader" = "投票选项";
+"CreatePoll.OptionPlaceholder" = "选项";
+"CreatePoll.AddOption" = "添加一个选项";
 
 
 
 
 
 
+"CreatePoll.AddMoreOptions_any" = "您还可以再添加 %@ 个选项。";
+"CreatePoll.AllOptionsAdded" = "您已添加的选项已达最大数量。";
+
+"CreatePoll.CancelConfirmation" = "您确定要放弃此投票吗？";
 
 
 
 
+"ForwardedPolls_any" = "%@ 个转发的投票";
 
 
 
+"Conversation.UnvotePoll" = "撤回选票";
+"Conversation.StopPoll" = "停止投票";
+"Conversation.StopPollConfirmationTitle" = "如果你现在停止它，将没有人能继续投票。这个操作无法撤销。";
+"Conversation.StopPollConfirmation" = "停止投票";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"AttachmentMenu.WebSearch" = "网络搜索";
 
 
 /* new from translations.telegram.org */
@@ -3653,6 +3662,7 @@ Unused sets are archived when you add more.";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
+"Notifications.PermissionsEnable" = "启用";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "不是现在";

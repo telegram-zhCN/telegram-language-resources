@@ -218,8 +218,8 @@
 "Chat.Service.PinnedMessage" = "置顶消息";
 "Chat.Service.PeerJoinedTelegram" = "%@ 加入了 Telegram";
 
-"Chat.Service.Channel.UpdatedPhoto" = "频道图片已更新";
-"Chat.Service.Channel.RemovedPhoto" = "频道图片已删除";
+"Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";
+"Chat.Service.Channel.RemovedPhoto" = "频道头像已删除";
 "Chat.Service.Channel.UpdatedTitle" = "频道名称已修改为 \"%@\"";
 
 
@@ -481,7 +481,7 @@
 
 "Channel.ExportLinkAboutChannel" = "用户可通过以上链接加入您的频道。您可以随时撤销此链接。";
 "Channel.ExportLinkAboutGroup" = "用户可以通过此链接加入您的群组。您可以随时撤销此链接。";
-"Channel.UsernameAboutChannel" = "People can share this link with others and can find your channel using Telegram search.";
+"Channel.UsernameAboutChannel" = "人们可以分享这个链接，也可以通过全局搜索找到您的频道。";
 "Channel.UsernameAboutGroup" = "用户可以分享此链接给他人，并且能通过搜索找到您的群组。";
 
 
@@ -774,7 +774,7 @@
 
 "PeerInfo.SignMessages.Desc" = "Append names of the admins to the messages they post.";
 "PeerInfo.SignMessages" = "消息署名";
-"PeerInfo.SetChannelPhoto" = "设置频道图片";
+"PeerInfo.SetChannelPhoto" = "设置频道头像";
 "PeerInfo.Members" = "成员";
 "PeerInfo.DeleteChannel" = "删除频道";
 "PeerInfo.DeleteSecretChat" = "删除加密对话";
@@ -872,8 +872,8 @@
 "PeerInfo.AddContact" = "添加为联系人";
 "Telegram.GroupAdminsController" = "管理员";
 "GroupAdmins.AllMembersAdmins" = "将所有成员设为管理员";
-"GroupAdmins.Desc.AdminInvites" = "Only admins can add and remove members, and can edit the group's name and photo.";
-"GroupAdmins.Desc.AllInvites" = "Group members can add new members, and can edit the name or photo of the group.";
+"GroupAdmins.Desc.AdminInvites" = "只有管理员能邀请、移除成员或更改群组名称及头像。";
+"GroupAdmins.Desc.AllInvites" = "所有群组成员均可以邀请新成员或编辑群组名称及头像。";
 "Login.PhoneNumberNotRegistred" = "这个电话号码没有注册过。如果你没有注册过 Telegram 账号，请在您的移动设备上注册。";
 "Login.YourPhoneLabel" = "电话号码";
 "Login.YourCodeLabel" = "验证码";
@@ -1161,9 +1161,9 @@
 "Group.EventLog.Service.LinkUpdated" = "%@ 更改了群组链接：";
 "Group.EventLog.Service.AboutUpdated" = "%@ edited the group's description:";
 
-"Channel.EventLog.Service.TitleUpdated" = "%@ edited this channel's title:";
-"Channel.EventLog.Service.LinkUpdated" = "%@ edited this channel's link:";
-"Channel.EventLog.Service.AboutUpdated" = "%@ edited this channel's description:";
+"Channel.EventLog.Service.TitleUpdated" = "%@ 更改了频道名称";
+"Channel.EventLog.Service.LinkUpdated" = "%@ 更改了频道链接";
+"Channel.EventLog.Service.AboutUpdated" = "%@ 更改了频道简介";
 
 "Group.EventLog.Service.LinkRemoved" = "%@ removed the group's link:";
 "Group.EventLog.Service.AboutRemoved" = "%@ removed the group's description:";
@@ -1216,7 +1216,7 @@
 
 "Group.EventLog.Service.PhotoUpdated" = "%@ updated the group's photo";
 "Group.EventLog.Service.PhotoRemoved" = "%@ 删除了群组头像";
-"Channel.EventLog.Service.PhotoUpdated" = "%@ updated this channel's photo";
+"Channel.EventLog.Service.PhotoUpdated" = "%@ 更换了频道头像";
 "Channel.EventLog.Service.PhotoRemoved" = "%@ 移除了频道头像";
 
 "Group.EventLog.Service.UpdateLeft" = "%@ 离开了群组";
@@ -1293,7 +1293,7 @@
 
 "Channel.EventLog.OriginalMessage" = "原始消息";
 "Channel.EventLog.Empty" = "无";
-"Channel.Admin.CantEditRights" = "您不能变更该管理员的权限。";
+"Channel.Admin.CantEditRights" = "您无权修改此管理员的权限。";
 "Channel.Blacklist.Unban" = "解除封禁";
 
 "ConnectingStatus.DisableProxy" = "点按这里禁用代理";
