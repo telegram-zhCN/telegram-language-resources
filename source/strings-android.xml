@@ -204,6 +204,7 @@
     <string name="GroupUserCantBot">Sorry, too many bots in this group.</string>
     <string name="ActionPinnedText">un1 pinned \"%1$s\"</string>
     <string name="ActionPinnedNoText">un1 pinned a message</string>
+    <string name="ActionPinnedPoll">un1 pinned a poll</string>
     <string name="ActionPinnedPhoto">un1 pinned a photo</string>
     <string name="ActionPinnedVideo">un1 pinned a video</string>
     <string name="ActionPinnedFile">un1 pinned a file</string>
@@ -377,6 +378,38 @@
     <string name="ChooseTakePhoto">Take photo</string>
     <string name="ChooseFromGallery">Upload from gallery</string>
     <string name="ChooseFromSearch">Search web</string>
+    <string name="Statistics">Statistics</string>
+    <!--polls-->
+    <string name="NewPoll">New Poll</string>
+    <string name="Poll">Poll</string>
+    <string name="Question">Question</string>
+    <string name="QuestionHint">Ask a question</string>
+    <string name="PollOptions">Poll options</string>
+    <string name="AddAnOption">Add an option...</string>
+    <string name="AddAnOptionInfo">You can add %1$s.</string>
+    <string name="AddAnOptionInfoMax">You have added the maximum number of options.</string>
+    <string name="AnonymousPoll">Anonymous Poll</string>
+    <string name="StopPoll">Stop Poll</string>
+    <string name="StopPollAlertTitle">Stop poll?</string>
+    <string name="StopPollAlertText">If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone.</string>
+    <string name="CancelPollAlertTitle">Discard poll?</string>
+    <string name="CancelPollAlertText">Are you sure you want to discard this poll?</string>
+    <string name="Unvote">Retract Vote</string>
+    <string name="FinalResults">Final Results</string>
+    <string name="NoVotes">no votes</string>
+    <string name="Vote_zero">%1$d votes</string>
+    <string name="Vote_one">%1$d vote</string>
+    <string name="Vote_two">%1$d votes</string>
+    <string name="Vote_few">%1$d votes</string>
+    <string name="Vote_many">%1$d votes</string>
+    <string name="Vote_other">%1$d votes</string>
+    <string name="Option_zero">%1$d more options</string>
+    <string name="Option_one">%1$d more option</string>
+    <string name="Option_two">%1$d more options</string>
+    <string name="Option_few">%1$d more options</string>
+    <string name="Option_many">%1$d more options</string>
+    <string name="Option_other">%1$d more options</string>
+    <string name="OptionHint">Option</string>
     <!--event log-->
     <string name="EventLog">Recent Actions</string>
     <string name="EventLogAllEvents">All actions</string>
@@ -481,6 +514,7 @@
     <string name="SdCard">SD Card</string>
     <string name="Folder">Folder</string>
     <string name="GalleryInfo">To send images without compression</string>
+    <string name="MusicInfo">To send music files</string>
     <!--group stickers-->
     <string name="GroupStickers">Group Stickers</string>
     <string name="ChooseFromYourStickers">Choose from your stickers</string>
@@ -599,6 +633,7 @@
     <string name="ReportChatOther">Other</string>
     <string name="ReportChatDescription">Description</string>
     <string name="PinnedMessage">Pinned Message</string>
+    <string name="PinnedPoll">Pinned Poll</string>
     <string name="EditedMessage">edited</string>
     <string name="EditMessage">Edit Message</string>
     <string name="EditCaption">Edit Caption</string>
@@ -647,6 +682,7 @@
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">No previews</string>
+    <string name="InstallGoogleMaps">Install Google Maps?</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -711,6 +747,7 @@
     <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
     <string name="NotificationActionPinnedText">%1$s pinned \"%2$s\" in the group %3$s</string>
     <string name="NotificationActionPinnedNoText">%1$s pinned a message in the group %2$s</string>
+    <string name="NotificationActionPinnedPoll">%1$s pinned a poll in the group %2$s</string>
     <string name="NotificationActionPinnedPhoto">%1$s pinned a photo in the group %2$s</string>
     <string name="NotificationActionPinnedGame">%1$s pinned a game in the group %2$s</string>
     <string name="NotificationActionPinnedVideo">%1$s pinned a video in the group %2$s</string>
@@ -727,6 +764,7 @@
     <string name="NotificationActionPinnedInvoice">%1$s pinned an invoice in the group %2$s</string>
     <string name="NotificationActionPinnedTextChannel">%1$s pinned \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
+    <string name="NotificationActionPinnedPollChannel">%1$s pinned a poll</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s pinned a photo</string>
     <string name="NotificationActionPinnedGameChannel">%1$s pinned a game</string>
     <string name="NotificationActionPinnedVideoChannel">%1$s pinned a video</string>
@@ -2271,6 +2309,12 @@
     <string name="ForwardedSticker_few">%1$d forwarded stickers</string>
     <string name="ForwardedSticker_many">%1$d forwarded stickers</string>
     <string name="ForwardedSticker_other">%1$d forwarded stickers</string>
+    <string name="ForwardedPoll_zero">%1$d forwarded polls</string>
+    <string name="ForwardedPoll_one">Forwarded poll</string>
+    <string name="ForwardedPoll_two">%1$d forwarded polls</string>
+    <string name="ForwardedPoll_few">%1$d forwarded polls</string>
+    <string name="ForwardedPoll_many">%1$d forwarded polls</string>
+    <string name="ForwardedPoll_other">%1$d forwarded polls</string>
     <string name="AndOther_zero">and %1$d others</string>
     <string name="AndOther_one">and %1$d other</string>
     <string name="AndOther_two">and %1$d others</string>

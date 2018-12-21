@@ -309,11 +309,11 @@
 "Conversation.StatusTyping" = "正在输入";
 "Conversation.Call" = "呼叫";
 "Conversation.Mute" = "关闭通知";
-
-
+"ChatList.Mute" = "关闭通知";
+"Conversation.TitleMute" = "关闭通知";
 "Conversation.Unmute" = "开启通知";
-
-
+"ChatList.Unmute" = "开启通知";
+"Conversation.TitleUnmute" = "开启通知";
 "Conversation.Edit" = "编辑";
 "Conversation.Info" = "联系人信息";
 "Conversation.Search" = "搜索";
@@ -3561,6 +3561,11 @@ Unused sets are archived when you add more.";
 
 "InstantPage.Reference" = "引用";
 
+"Permissions.Skip" = "跳过";
+
+"Permissions.ContactsTitle.v0" = "同步您的通讯录";
+
+"Permissions.ContactsAllow.v0" = "允许访问";
 
 
 
@@ -3574,35 +3579,30 @@ Unused sets are archived when you add more.";
 
 
 
+"Permissions.SiriText.v0" = "通过 Siri 发送消息和发起通话。";
+
+"Permissions.SiriAllowInSettings.v0" = "在设置中打开";
+
+"Permissions.PrivacyPolicy" = "隐私政策";
+
+"Contacts.PermissionsTitle" = "通讯录访问权限";
+"Contacts.PermissionsText" = "请允许 Telegram 访问您的通讯录，以便找到您的朋友。";
 
 
 
 
 
+"Notifications.PermissionsTitle" = "打开推送通知";
+"Notifications.PermissionsText" = "不要错过来自朋友和同事的重要消息。";
+
+
+
+"Notifications.PermissionsAllowInSettings" = "在设置中启用";
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"ChatSettings.DownloadInBackground" = "后台下载";
 
 
 
@@ -3625,7 +3625,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.Title" = "新建投票";
 "CreatePoll.Create" = "发送";
 "CreatePoll.TextHeader" = "问题";
-"CreatePoll.TextPlaceholder" = "提出一个问题";
+"CreatePoll.TextPlaceholder" = "请输入问题";
 "CreatePoll.OptionsHeader" = "投票选项";
 "CreatePoll.OptionPlaceholder" = "选项";
 "CreatePoll.AddOption" = "添加一个选项";
@@ -3638,7 +3638,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.AddMoreOptions_any" = "您还可以再添加 %@ 个选项。";
 "CreatePoll.AllOptionsAdded" = "您已添加的选项已达最大数量。";
 
-"CreatePoll.CancelConfirmation" = "您确定要放弃此投票吗？";
+"CreatePoll.CancelConfirmation" = "您确定要放弃新建投票吗？";
 
 
 
@@ -3648,9 +3648,9 @@ Unused sets are archived when you add more.";
 
 
 "Conversation.UnvotePoll" = "撤回选票";
-"Conversation.StopPoll" = "停止投票";
-"Conversation.StopPollConfirmationTitle" = "如果你现在停止它，将没有人能继续投票。这个操作无法撤销。";
-"Conversation.StopPollConfirmation" = "停止投票";
+"Conversation.StopPoll" = "终止投票";
+"Conversation.StopPollConfirmationTitle" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
+"Conversation.StopPollConfirmation" = "终止投票";
 
 "AttachmentMenu.WebSearch" = "网络搜索";
 

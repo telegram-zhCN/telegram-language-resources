@@ -204,6 +204,7 @@
     <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
     <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
     <string name="ActionPinnedNoText">un1 置顶了 1 条消息</string>
+    <string name="ActionPinnedPoll">un1 置顶了一个投票</string>
     <string name="ActionPinnedPhoto">un1 置顶了 1 张图片</string>
     <string name="ActionPinnedVideo">un1 置顶了一段视频</string>
     <string name="ActionPinnedFile">un1 置顶了 1 个文件</string>
@@ -377,6 +378,38 @@
     <string name="ChooseTakePhoto">拍照</string>
     <string name="ChooseFromGallery">从相册中上传</string>
     <string name="ChooseFromSearch">通过网络搜索</string>
+    <string name="Statistics">Statistics</string>
+    <!--polls-->
+    <string name="NewPoll">新建投票</string>
+    <string name="Poll">投票</string>
+    <string name="Question">问题</string>
+    <string name="QuestionHint">请输入问题</string>
+    <string name="PollOptions">投票备选项</string>
+    <string name="AddAnOption">添加一个选项...</string>
+    <string name="AddAnOptionInfo">您还可以再添加 %1$s。</string>
+    <string name="AddAnOptionInfoMax">您已添加的选项已达最大数量。</string>
+    <string name="AnonymousPoll">匿名投票</string>
+    <string name="StopPoll">终止此投票</string>
+    <string name="StopPollAlertTitle">终止投票？</string>
+    <string name="StopPollAlertText">如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。</string>
+    <string name="CancelPollAlertTitle">放弃新建投票</string>
+    <string name="CancelPollAlertText">您确定要放弃新建投票吗？</string>
+    <string name="Unvote">撤回选票</string>
+    <string name="FinalResults">最终结果</string>
+    <string name="NoVotes">无人投票</string>
+    <string name="Vote_zero">%1$d 人投票</string>
+    <string name="Vote_one">%1$d 人投票</string>
+    <string name="Vote_two">%1$d 人投票</string>
+    <string name="Vote_few">%1$d 人投票</string>
+    <string name="Vote_many">%1$d 人投票</string>
+    <string name="Vote_other">%1$d 人投票</string>
+    <string name="Option_zero">%1$d 个选项</string>
+    <string name="Option_one">%1$d 个选项</string>
+    <string name="Option_two">%1$d 个选项</string>
+    <string name="Option_few">%1$d 个选项</string>
+    <string name="Option_many">%1$d 个选项</string>
+    <string name="Option_other">%1$d 个选项</string>
+    <string name="OptionHint">选项</string>
     <!--event log-->
     <string name="EventLog">近期操作</string>
     <string name="EventLogAllEvents">所有操作</string>
@@ -481,6 +514,7 @@
     <string name="SdCard">SD 卡</string>
     <string name="Folder">文件夹</string>
     <string name="GalleryInfo">发送原图</string>
+    <string name="MusicInfo">发送音乐文件</string>
     <!--group stickers-->
     <string name="GroupStickers">群组贴纸包</string>
     <string name="ChooseFromYourStickers">从你添加的贴纸包中选择</string>
@@ -599,6 +633,7 @@
     <string name="ReportChatOther">其它</string>
     <string name="ReportChatDescription">简介</string>
     <string name="PinnedMessage">置顶消息</string>
+    <string name="PinnedPoll">置顶投票</string>
     <string name="EditedMessage">已编辑</string>
     <string name="EditMessage">编辑消息</string>
     <string name="EditCaption">编辑说明</string>
@@ -647,6 +682,7 @@
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">不使用预览</string>
+    <string name="InstallGoogleMaps">安装 Google 地图？</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -711,6 +747,7 @@
     <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
     <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
+    <string name="NotificationActionPinnedPoll">%1$s 在群组 %2$s 置顶了一个投票</string>
     <string name="NotificationActionPinnedPhoto">%1$s 在群组 %2$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGame">%1$s 在群组 %2$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedVideo">%1$s 在群组 %2$s 置顶了一段视频</string>
@@ -727,6 +764,7 @@
     <string name="NotificationActionPinnedInvoice">%1$s 在群组 %2$s 置顶了一张账单</string>
     <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了 1 条消息</string>
+    <string name="NotificationActionPinnedPollChannel">%1$s 置顶了一个投票</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了 1 张图片</string>
     <string name="NotificationActionPinnedGameChannel">%1$s 置顶了 1 个游戏</string>
     <string name="NotificationActionPinnedVideoChannel">%1$s 置顶了一段视频</string>
@@ -2271,6 +2309,12 @@
     <string name="ForwardedSticker_few">%1$d 张转发的贴纸</string>
     <string name="ForwardedSticker_many">%1$d 张转发的贴纸</string>
     <string name="ForwardedSticker_other">%1$d 张转发的贴纸</string>
+    <string name="ForwardedPoll_zero">%1$d 个转发的投票</string>
+    <string name="ForwardedPoll_one">%1$d 个转发的投票</string>
+    <string name="ForwardedPoll_two">%1$d 个转发的投票</string>
+    <string name="ForwardedPoll_few">%1$d 个转发的投票</string>
+    <string name="ForwardedPoll_many">%1$d 个转发的投票</string>
+    <string name="ForwardedPoll_other">%1$d 个转发的投票</string>
     <string name="AndOther_zero">和其他的 %1$d 个</string>
     <string name="AndOther_one">和其他的 %1$d 个</string>
     <string name="AndOther_two">和其他的 %1$d 个</string>
