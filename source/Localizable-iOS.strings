@@ -401,7 +401,7 @@
 "Message.Contact" = "Contact";
 "Message.File" = "File";
 "Message.Sticker" = "Sticker";
-"Message.StickerText" = "Sticker %@";
+"Message.StickerText" = "%@ Sticker";
 "Message.Audio" = "Voice Message";
 "Message.ForwardedMessage" = "Forwarded Message\nFrom: %@";
 "Message.Animation" = "GIF";

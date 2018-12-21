@@ -1781,7 +1781,7 @@
   <string name="DeleteSecretChatHistoryForOtherParty">删除所有 %1$s 发送的消息</string>
   <string name="ChatWithUser">与 %1$s 聊天</string>
   <string name="SecretChatWithUser">与 %1$s 开始加密对话</string>
-  <string name="LeaveDoneGroup">离开</string>
+  <string name="LeaveDoneGroup">退出</string>
   <string name="LeaveRemoveFromList">从列表中删除对话</string>
   <string name="DestroyXNoMembers">删除 %1$s？</string>
   
@@ -2127,26 +2127,26 @@
   <string name="ShareTextPost">查看 %2$s 发布的信息：%1$s</string>
   <string name="ShareTextMessage">查看 %2$s 的消息：%1$s</string>
 
-  
-  
-  
+  <string name="ShareTextProfile">%1$s 的头像</string>
+  <string name="ShareTextChat">«%1$s» 的群组头像</string>
+  <string name="ShareTextChannel">%1$s 的头像</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="ShareTextLink">查看 %1$s：%2$s</string>
+  <string name="ShareTextProfileLink">在 Telegram 上联系 %1$s：%2$s</string>
+  <string name="ShareTextProfileLink2">联系 %1$s：%2$s</string>
+  <string name="ShareTextBotLink">在 Telegram 上使用 %1$s：%2$s</string>
+  <string name="ShareTextChatLink">在 Telegram 上加入 «%1$s» ：%2$s</string>
+  <string name="ShareTextChannelLink">在 Telegram 上关注 %1$s：%2$s</string>
+  <string name="ShareTextProxyLink">Telegram 代理：%1$s。如果您所在的地区无法连接 Telegram，该链接可能有助于访问 Telegram。</string>
+  <string name="ShareTextProxyLink2">%1$s\n\n此链接可能有助于在存在审查的地区访问 Telegram。</string>
   <string name="ShareTextStickerLink">查看 Telegram 上的 «%1$s» 贴纸包：%2$s</string>
   <string name="ShareTextStickerLink2">查看 «%1$s» 贴纸包：%2$s</string>
 
   <string name="ShareTitleText">分享到...</string>
 
-  
-  
-  
+  <string name="format_ShareAuthorMessage">%1$s： %2$s</string>
+  <string name="format_ShareAuthorLink">%1$s （%2$s）</string>
+  <string name="format_ShareTextSignature">%1$s\n\n%2$s</string>
 
   <string name="ShareTextPhoto">来自 %1$s 的图片</string>
   <string name="ShareTitleImage">分享图片给...</string>
@@ -2176,11 +2176,11 @@
   <string name="ShareTextMedia">来自 %1$s 的多媒体</string>
   <string name="ShareTitleMedia">分享媒给...</string>
   
-  
+  <string name="ShareTitleMediaX_other">分享 %1$s 个图片或视频给...</string>
 
   <string name="ShareTextPlain">来自 %1$s 的消息</string>
 
-  
+  <string name="ShareTextSharedMedia">与 %1$s 聊天</string>
 
   <string name="ShareBtnLink">分享链接</string>
   <string name="ShareBtnPost">分享链接</string>

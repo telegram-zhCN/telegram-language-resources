@@ -87,20 +87,20 @@
 "PeerInfo.SetGroupPhoto" = "设置群组图片";
 "PeerInfo.AddMember" = "添加成员";
 "PeerInfo.DeleteAndExit" = "删除并退出";
-"PeerInfo.LeaveGroup" = "离开群组";
+"PeerInfo.LeaveGroup" = "退出群组";
 
 "PeerInfo.StopBot" = "停止使用";
 "PeerInfo.RestartBot" = "取消屏蔽";
 
-"PeerInfo.LeaveChannel" = "离开频道";
+"PeerInfo.LeaveChannel" = "退出频道";
 "PeerInfo.Report" = "举报";
 "PeerInfo.sharelink" = "分享链接";
-"PeerInfo.Confirm.LeaveChannel" = "您确定要离开这个频道吗？";
+"PeerInfo.Confirm.LeaveChannel" = "您确定要退出这个频道吗？";
 "PeerInfo.Confirm.LeaveGroup" = "你确定你要退出该群组？\n\n此操作不可撤销。";
 "PeerInfo.Confirm.DeleteChat" = "你确定你要删除所有消息记录并退出 \"%@\"？\n\n此操作不可撤销。";
 "Confirm.DeleteAdminedChannel" = "且慢！删除此频道将会移除所有关注者并且会丢失所有消息。\n\n确定要删除此频道吗？";
 "Confirm.DeleteChatUser" = "您确定要删除所有消息记录？\n\n此操作不可撤销";
-"Confirm.LeaveGroup" = "您确定要离开此群组吗？";
+"Confirm.LeaveGroup" = "您确定要退出此群组吗？";
 
 "PeerMedia.SharedMedia" = "分享的媒体";
 "EmptyPeer.Description" = "请选择一个对话开始聊天";
@@ -527,7 +527,7 @@
 "ChatList.Context.DeleteChat" = "删除此对话";
 "ChatList.Context.DeleteAndExit" = "删除并退出";
 "ChatList.Context.LeaveChannel" = "退出此频道";
-"ChatList.Context.LeaveGroup" = "离开此群组";
+"ChatList.Context.LeaveGroup" = "退出此群组";
 "ChatList.Context.ReturnGroup" = "返回群组";
 "ChatList.Context.Pin" = "置顶";
 "ChatList.Context.Unpin" = "取消置顶";
@@ -1681,8 +1681,8 @@
 "DataAndStorage.Confirm.ResetSettings" = "撤销全部自定义自动下载设置";
 "Chat.Confirm.ReportSpamUser" = "您确定要举报此用户发送了垃圾信息？";
 "Chat.Confirm.ReportSpam" = "举报垃圾行为吗？";
-"Chat.Confirm.ReportSpam.Channel" = "Report Spam and leave channel?";
-"Chat.Confirm.ReportSpam.Group" = "Report Spam and leave group?";
+"Chat.Confirm.ReportSpam.Channel" = "要举报骚扰行为并退出这个频道吗？";
+"Chat.Confirm.ReportSpam.Group" = "要举报骚扰并退出此群组吗？";
 
 "Appearance.CustomBackground" = "自定义背景图";
 "Appearance.CustomBackground.FileError" = "文件大小不得超过10MB，图像尺寸不得超过500x500像素。";

@@ -849,7 +849,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_delete_and_exit" = "您确定要删除所有消息记录并退出群组 «{group}» ？\n\n此操作不可撤销";
 "lng_sure_leave_channel" = "您确定要退出此频道？";
 "lng_sure_delete_channel" = "您确定要删除此频道？所有成员会被移除，所有消息会被清空。";
-"lng_sure_leave_group" = "您确定要离开此群组吗？";
+"lng_sure_leave_group" = "您确定要退出此群组吗？";
 "lng_sure_delete_group" = "您确定要删除该群组？所有成员会被移除，所有消息会被清空。";
 "lng_sure_delete_saved_messages" = "您确定要删除所有收藏的消息？\n\n此操作不可撤销。";
 
@@ -1812,7 +1812,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_about_sessions" = "我们储存活动会话信息以在 设置 > 隐私和安全 > 显示所有活动会话 中显示您已连接的设备。";
 "lng_export_about_web_sessions" = "我们储存此项信息以显示您使用 Telegram 授权登录的所有网站。此项信息在在 设置 > 隐私和安全 > 显示所有活动会话 中显示。";
 "lng_export_about_chats" = "此页面列出所导出的所有聊天内容。";
-"lng_export_about_left_chats" = "下面是所导出的所有您已离开或被已被封禁的超级群组和频道。\n\n请注意：当您离开一个您创建的频道或超级群组时您可以选择删除它或是直接离开它（这会让您有重新加入它的机会，或以非成员的身份保持社区的活力）。";
+"lng_export_about_left_chats" = "下面的内容显示了在本次导出时，您退出或被封禁的所有超级群组及频道。\n\n请注意，在离开您创建的超级群组/频道时，您可以选择将它们删除，或选择仅退出（如此您便可以在之后重新加入，或者只是退出以使其继续存在）。";
 
 "lng_language_switch_title" = "更换语言？";
 

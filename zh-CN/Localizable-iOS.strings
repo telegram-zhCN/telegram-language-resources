@@ -73,23 +73,23 @@
 "CHANNEL_MESSAGE_PHOTOS" = "%1$@ posted %2$@ photos";
 "CHANNEL_MESSAGES" = "%1$@ posted %2$@ messages";
 
-"PINNED_TEXT" = "%1$@ 已置顶 \"%2$@\"";
-"PINNED_NOTEXT" = "%1$@ 已置顶一条消息";
-"PINNED_PHOTO" = "%1$@ 已置顶一张图片";
+"PINNED_TEXT" = "%1$@ 置顶了 \"%2$@\"";
+"PINNED_NOTEXT" = "%1$@ 置顶了一条消息";
+"PINNED_PHOTO" = "%1$@ 置顶了一张图片";
 "PINNED_VIDEO" = "%1$@ 置顶了一段视频";
 "PINNED_ROUND" = "%1$@ 置顶了一条视频留言";
-"PINNED_DOC" = "%1$@ 已置顶一个文件";
-"PINNED_STICKER" = "%1$@ 已置顶一个贴纸 (%2$@)";
+"PINNED_DOC" = "%1$@ 置顶了一个文件";
+"PINNED_STICKER" = "%1$@ 置顶了一个贴纸 (%2$@)";
 "PINNED_AUDIO" = "%1$@ 置顶了一条语音留言";
-"PINNED_CONTACT" = "%1$@ 已置顶 1 个联系人信息";
-"PINNED_GEO" = "%1$@ 已置顶 1 个位置";
+"PINNED_CONTACT" = "%1$@ 置顶了一个联系人信息";
+"PINNED_GEO" = "%1$@ 置顶了一个位置";
 "PINNED_GEOLIVE" = "%1$@ 置顶了实时位置";
-"PINNED_GIF" = "%1$@ 已置顶 1 个 GIF";
+"PINNED_GIF" = "%1$@ 置顶了一张 GIF";
 
 "MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
 "CHANNEL_MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
 "CHAT_MESSAGE_GAME" = "%1$@ 邀请您加入群组 %2$@  来玩 %3$@";
-"PINNED_GAME" = "%1$@ 已置顶 1 个游戏";
+"PINNED_GAME" = "%1$@ 置顶了一个游戏";
 
 "PHONE_CALL_REQUEST" = "%1$@ 正在呼叫您...";
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
@@ -331,7 +331,7 @@
 "Conversation.EncryptedPlaceholderTitleOutgoing" = "您已邀请 %@ 进入私密对话";
 "Conversation.EncryptedDescriptionTitle" = "加密对话：";
 "Conversation.EncryptedDescription1" = "使用端到端加密";
-"Conversation.EncryptedDescription2" = "不会在服务器上留下任何痕迹";
+"Conversation.EncryptedDescription2" = "不会在我们的服务器上留下任何痕迹";
 "Conversation.EncryptedDescription3" = "支持阅后即焚";
 "Conversation.EncryptedDescription4" = "不允许转发消息";
 "Conversation.ContextMenuCopy" = "拷贝";
@@ -412,7 +412,7 @@
 "ConversationProfile.UsersTooMuchError" = "抱歉，群组已满，无法添加更多成员";
 
 "ConversationProfile.LeaveDeleteAndExit" = "删除并退出";
-
+"Group.LeaveGroup" = "退出群组";
 
 "Conversation.Megabytes" = "%.1f MB";
 "Conversation.Kilobytes" = "%d KB";
@@ -1763,21 +1763,21 @@
 "Group.Username.InvalidTooShort" = "群组名称必须至少包含 5 个字符。";
 "Group.Username.InvalidStartsWithNumber" = "群组名称不能以数字开头。";
 
-"Notification.PinnedTextMessage" = "%@ 已置顶 \"%@\"";
-"Notification.PinnedPhotoMessage" = "%@ 已置顶 1 张图片";
+"Notification.PinnedTextMessage" = "%@ 置顶了 \"%@\"";
+"Notification.PinnedPhotoMessage" = "%@ 置顶了一张图片";
 "Notification.PinnedVideoMessage" = "%@ 置顶了一段视频";
 "Notification.PinnedRoundMessage" = "%@ 置顶了一条视频留言";
-"Notification.PinnedAudioMessage" = "%@ 已置顶一条语音留言";
-"Notification.PinnedDocumentMessage" = "%@ 已置顶 1 个文件";
+"Notification.PinnedAudioMessage" = "%@ 置顶了一条语音留言";
+"Notification.PinnedDocumentMessage" = "%@ 置顶了一个文件";
 "Notification.PinnedAnimationMessage" = "%@ 置顶了一张 GIF";
-"Notification.PinnedStickerMessage" = "%@ 已置顶 1 个贴纸";
-"Notification.PinnedLocationMessage" = "%@ 已置顶 1 个位置";
-"Notification.PinnedContactMessage" = "%@ 已置顶 1 个联系人信息";
+"Notification.PinnedStickerMessage" = "%@ 置顶了一张贴纸";
+"Notification.PinnedLocationMessage" = "%@ 置顶了一个位置";
+"Notification.PinnedContactMessage" = "%@ 置顶了一个联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
 
 
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
-"Message.PinnedPhotoMessage" = "已置顶图片";
+"Message.PinnedPhotoMessage" = "置顶了图片";
 "Message.PinnedVideoMessage" = "置顶了一段视频";
 "Message.PinnedAudioMessage" = "置顶了语音留言";
 "Message.PinnedDocumentMessage" = "置顶了一个文件";
@@ -2744,7 +2744,7 @@ Unused sets are archived when you add more.";
 
 
 "Notification.PinnedLiveLocationMessage" = "%@ 置顶了一个实时位置";
-"Message.PinnedLiveLocationMessage" = "已置顶实时位置";
+"Message.PinnedLiveLocationMessage" = "置顶了实时位置";
 
 
 
@@ -3607,8 +3607,8 @@ Unused sets are archived when you add more.";
 
 
 
-
-
+"SharedMedia.SearchNoResults" = "无结果";
+"SharedMedia.SearchNoResultsDescription" = "没有找到 \"%@\" 。\n尝试重新搜索。";
 
 "MessagePoll.LabelAnonymous" = "匿名投票";
 "MessagePoll.LabelClosed" = "最终结果";
@@ -3663,6 +3663,7 @@ Unused sets are archived when you add more.";
 "Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
 "Notifications.PermissionsEnable" = "启用";
+"Notifications.PermissionsSuppressWarningText" = "你的当前设置可能会错过 Telegram 内的重要信息。\n\n您可以启用提醒或横幅功能，并设置仅屏蔽特定的对话或消息类型，以享有更好的体验。";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "不是现在";
