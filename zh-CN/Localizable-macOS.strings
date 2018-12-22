@@ -211,7 +211,7 @@
 "Chat.Service.Group.UpdatedPhoto" = "%@ 更换了群组图片";
 "Chat.Service.Group.RemovedPhoto" = "%@ 删除了群组头像";
 "Chat.Service.Group.UpdatedTitle" = "%@ 将群组名称更改为 \"%@\"";
-"Chat.Service.Group.UpdatedPinnedMessage" = "%@ 已置顶 \"%@\"";
+"Chat.Service.Group.UpdatedPinnedMessage" = "%@ 置顶了 \"%@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ 通过邀请链接加入了群组";
 "Chat.Service.Group.MigratedToSupergroup" = "此群组已升级为超级群组";
 "Chat.Service.Group.TookScreenshot" = "%@ 截了一张图";

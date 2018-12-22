@@ -119,7 +119,7 @@
 "State.Connecting" = "连接中...";
 "State.connecting" = "连接中...";
 "State.ConnectingToProxy" = "正在连接代理...";
-"State.ConnectingToProxyInfo" = "点击设置";
+"State.ConnectingToProxyInfo" = "点击此处设置";
 "State.Updating" = "收取中...";
 "State.WaitingForNetwork" = "等待网络连接";
 
@@ -198,7 +198,7 @@
 "Tour.Text2" = "**Telegram** 以同类软件中最快的速度\n为您传递消息";
 
 "Tour.Title3" = "强大";
-"Tour.Text3" = "**Telegram** has no limits on\nthe size of your media and chats.";
+"Tour.Text3" = "**Telegram** 不限制\n文件和消息大小";
 
 "Tour.Title4" = "安全";
 "Tour.Text4" = "**Telegram** 保证您的消息安全\n不受黑客侵扰";
@@ -286,7 +286,7 @@
 "Contacts.AccessDeniedError" = "Telegram 无法访问您的通讯录";
 "Contacts.AccessDeniedHelpLandscape" = "请前往您 %@ 的“设置—隐私—通讯录”\n然后打开 Telegram 的开关";
 "Contacts.AccessDeniedHelpPortrait" = "请前往您 %@ 的“设置—隐私—通讯录”。然后打开 Telegram 的开关";
-"Contacts.AccessDeniedHelpON" = "开";
+"Contacts.AccessDeniedHelpON" = "开启";
 "Contacts.InviteToTelegram" = "邀请到 Telegram";
 "Contacts.InviteFriends" = "邀请朋友";
 "Contacts.SelectAll" = "全选";
@@ -1023,32 +1023,32 @@
 
 "AccessDenied.Title" = "请授权访问";
 
-"AccessDenied.Contacts" = "Telegram messaging is based on your existing contact list.\n\nPlease go to your device‘s settings > Privacy > Contacts and set Telegram to ON.";
+"AccessDenied.Contacts" = "Telegram 基于您的通讯录寻找您的好友。\n\n请前往「设置 > 隐私 > 通讯录」并打开 Telegram 的开关。";
 
-"AccessDenied.VoiceMicrophone" = "Telegram 需要访问您的麦克风来录制语音留言。\n\n请前往「设置 - 隐私 - 麦克风」处打开 Telegram 的开关。";
+"AccessDenied.VoiceMicrophone" = "Telegram 需要访问您的麦克风来录制语音留言。\n\n请前往「设置 > 隐私 > 麦克风」并打开 Telegram 的开关。";
 
-"AccessDenied.VideoMicrophone" = "Telegram needs access to your microphone so that you can record sound in videos recording.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.VideoMicrophone" = "Telegram 需要访问您的麦克风用于录制视频声音。\n\n请前往「设置 > 隐私 > 麦克风」并打开 Telegram 的开关。";
 
-"AccessDenied.MicrophoneRestricted" = "Microphone access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Microphone and set Telegram to ON.";
+"AccessDenied.MicrophoneRestricted" = "Telegram 无法访问麦克风。\n\n请前往「设置 > 通用 > 访问限制 > 麦克风」并打开 Telegram 的开关。";
 
 
-"AccessDenied.Camera" = "Telegram needs access to your camera so that you can take photos and videos.\n\nPlease go to your device‘s settings > Privacy > Camera and set Telegram to ON.";
+"AccessDenied.Camera" = "Telegram 需要访问您的相机来拍照或录像。\n\n请前往「设置 > 隐私 > 相机」并打开 Telegram 的开关。";
 
-"AccessDenied.CameraRestricted" = "Camera access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Camera and set Telegram to ON.";
+"AccessDenied.CameraRestricted" = "Telegram 受限制无法访问您的相机。\n\n请前往「设置 > 通用 > 访问限制 > 相机」并打开 Telegram 的开关。";
 
-"AccessDenied.CameraDisabled" = "此设备已经禁止使用相机，\n\n请前往「设置—通用—访问限制」中打开「相机」的开关。";
+"AccessDenied.CameraDisabled" = "您已禁止任何应用访问此设备上的相机。\n\n请前往「设置 > 通用 > 访问限制」中打开「相机」的开关。";
 
-"AccessDenied.PhotosAndVideos" = "Telegram needs access to your photo library so that you can send photos and videos.\n\nPlease go to your device‘s settings > Privacy > Photos and set Telegram to ON.";
+"AccessDenied.PhotosAndVideos" = "Telegram 需要访问您的图库以便发送图片和视频\n\n请前往「设置 > 隐私 > 照片」并打开 Telegram 的开关。";
 
-"AccessDenied.SaveMedia" = "Telegram needs access to your photo library so that you can save photos and videos.\n\nPlease go to your device‘s settings > Privacy > Photos and set Telegram to ON.";
+"AccessDenied.SaveMedia" = "Telegram 需要访问您的图库以保存图片和视频。\n\n请前往「设置 > 隐私 > 照片」并打开 Telegram 的开关。";
 
-"AccessDenied.PhotosRestricted" = "Photo access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Photos and set Telegram to ON.";
+"AccessDenied.PhotosRestricted" = "Telegram 受限制无法访问您的图库。\n\n请前往「设置 > 通用 > 访问限制 > 照片」并打开 Telegram 的开关。";
 
-"AccessDenied.LocationDenied" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to your device‘s settings > Privacy > Location Services and set Telegram to ON.";
+"AccessDenied.LocationDenied" = "Telegram 需要使用定位服务才能获取并分享您的位置信息。\n\n请前往「设置 > 隐私 > 定位服务」并打开 Telegram 的开关。";
 
-"AccessDenied.LocationDisabled" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to your device‘s settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationDisabled" = "Telegram 需要访问您的位置用于获取和分享您的位置信息。\n\n请前往「设置 > 隐私 > 位置服务」并打开 Telegram 的开关。";
 
-"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to your device‘s settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationTracking" = "Telegram 需要访问您的位置信息以便与您的朋友分享。\n\n请前往「设置 > 隐私 > 定位服务」并打开 Telegram 的开关。";
 
 "AccessDenied.Settings" = "设置";
 
@@ -1180,10 +1180,10 @@
 
 "TwoStepAuth.RecoveryTitle" = "电子邮箱验证";
 "TwoStepAuth.RecoveryCode" = "验证码";
-"TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
+"TwoStepAuth.RecoveryCodeHelp" = "请查阅电子邮箱并输入我们发送给您的六位数字来关闭两步验证。";
 "TwoStepAuth.RecoveryCodeInvalid" = "验证码无效，请重新输入。";
 "TwoStepAuth.RecoveryCodeExpired" = "我们重新向您发送了六位认证码";
-"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
+"TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 
 "TwoStepAuth.FloodError" = "错误次数已达上限，请稍后再试。";
 
@@ -1228,7 +1228,7 @@
 
 "ChangePhone.ErrorOccupied" = "该号码 %@ 已注册 Telegram，请在转移至新号码前删除对方帐户。";
 
-"AccessDenied.LocationTracking" = "Telegram needs access to your location so that you can share it with your friends.\n\nPlease go to your device‘s settings > Privacy > Location Services and set it to ON.";
+"AccessDenied.LocationTracking" = "Telegram 需要访问您的位置信息以便与您的朋友分享。\n\n请前往「设置 > 隐私 > 定位服务」并打开 Telegram 的开关。";
 
 "PrivacySettings.AuthSessions" = "活动会话";
 "AuthSessions.Title" = "活动会话";
@@ -1280,7 +1280,7 @@
 "StickerPacksSettings.StickerPacksSection" = "您的贴纸包";
 "StickerPacksSettings.ManagingHelp" = "用户可以通过机器人 @stickers 创建自己的贴纸包。\n\n点击贴纸可以预览及添加贴纸包。";
 
-"StickerPack.BuiltinPackName" = "Great Minds";
+"StickerPack.BuiltinPackName" = "伟人";
 
 
 
@@ -1391,7 +1391,7 @@
 "Channel.JoinChannel" = "加入";
 "Forward.ChannelReadOnly" = "抱歉，您不能在此频道发布消息。";
 
-"Channel.ErrorAccessDenied" = "抱歉，这是一个私人频道。";
+"Channel.ErrorAccessDenied" = "抱歉，这是一个私密频道。";
 "Conversation.InputTextBroadcastPlaceholder" = "发布消息";
 
 "Channel.NotificationLoading" = "加载中...";
@@ -1582,7 +1582,7 @@
 "Watch.Stickers.StickerPacks" = "贴纸包";
 
 "Watch.Location.Current" = "当前位置";
-"Watch.Location.Access" = "允许 Telegram 在手机上访问您的位置";
+"Watch.Location.Access" = "允许 Telegram 在手机上访问您的位置信息";
 
 "Watch.AuthRequired" = "请在配对设备上登录 Telegram";
 
@@ -1712,7 +1712,7 @@
 "PrivacyLastSeenSettings.GroupsAndChannelsHelp" = "控制谁能邀请您进入群组或频道。";
 "MusicPlayer.VoiceNote" = "语音留言";
 
-"Watch.Microphone.Access" = "允许 Telegram 访问您的麦克风";
+"Watch.Microphone.Access" = "允许 Telegram 访问您手机上的麦克风";
 
 "Settings.AppleWatch" = "Apple Watch";
 "AppleWatch.Title" = "Apple Watch";
@@ -1774,7 +1774,7 @@
 "Notification.PinnedLocationMessage" = "%@ 置顶了一个位置";
 "Notification.PinnedContactMessage" = "%@ 置顶了一个联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
-
+"Notification.PinnedPollMessage" = "%@ 置顶了一个投票";
 
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "置顶了图片";
@@ -2038,7 +2038,7 @@ Unused sets are archived when you add more.";
 "Conversation.JumpToDate" = "跳转";
 "Conversation.AddToReadingList" = "添加到阅读列表";
 
-"AccessDenied.CallMicrophone" = "Telegram needs access to your microphone so that you can make calls.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
+"AccessDenied.CallMicrophone" = "Telegram 需要访问您的麦克风用于语音通话。\n\n请前往「设置 > 隐私 > 麦克风」并打开 Telegram 的开关。";
 
 "Call.EncryptionKey.Title" = "加密密钥";
 
@@ -2561,7 +2561,7 @@ Unused sets are archived when you add more.";
 
 "Call.ReportPlaceholder" = "出了什么问题？";
 "Call.ReportIncludeLog" = "发送技术信息";
-"Call.ReportIncludeLogDescription" = "这不会暴露您的对话内容，但却能帮助我们尽快修复问题。";
+"Call.ReportIncludeLogDescription" = "这不会泄露您的对话内容，但却能帮助我们尽快修复问题。";
 "Call.ReportSkip" = "跳过";
 "Call.ReportSend" = "发送";
 
@@ -2606,7 +2606,7 @@ Unused sets are archived when you add more.";
 
 "SecretImage.Title" = "自毁图片";
 "SecretVideo.Title" = "自毁视频";
-
+"SecretGif.Title" = "自毁 GIF";
 "SecretTimer.ImageDescription" = "如果您设定一个定时器，该图片将在阅后一定时间内自毁。";
 "SecretTimer.VideoDescription" = "如果您设定一个定时器，该视频将在阅后一定时间内自毁。";
 
@@ -2618,7 +2618,7 @@ Unused sets are archived when you add more.";
 
 "SecretImage.NotViewedYet" = "%@ 还没有打开这张图片";
 "SecretVideo.NotViewedYet" = "%@ 还没有打开这段视频";
-
+"SecretGIF.NotViewedYet" = "%@ 还没有播放过这个 GIF";
 
 "UserInfo.About.Placeholder" = "个人简介";
 
@@ -2748,7 +2748,7 @@ Unused sets are archived when you add more.";
 
 
 
-"AccessDenied.LocationAlwaysDenied" = "If you'd like to share your Live Location with friends, Telegram needs location access when the app is in the background.\n\nPlease go to your device‘s settings > Privacy > Location Services and set Telegram to Always.";
+"AccessDenied.LocationAlwaysDenied" = "如果您想与好友共享实时位置信息, Telegram 将需要后台位置访问权限。\n\n请前往「设置 > 隐私 > 位置服务」并将 Telegram 设为“总是”。";
 
 "UserInfo.UnblockConfirmation" = "要取消屏蔽 %@ 吗？";
 
@@ -3483,7 +3483,7 @@ Unused sets are archived when you add more.";
 
 
 "AuthSessions.IncompleteAttempts" = "未完成的登录尝试";
-"AuthSessions.IncompleteAttemptsInfo" = "These devices have no access to your account. The code was entered correctly, but no correct password was given.";
+"AuthSessions.IncompleteAttemptsInfo" = "这些设备无法访问您的帐号。他们输入了正确的手机验证码，但没有提供正确的两步验证密码。";
 
 "AuthSessions.Terminate" = "确定";
 
@@ -3586,8 +3586,8 @@ Unused sets are archived when you add more.";
 "Permissions.PrivacyPolicy" = "隐私政策";
 
 "Contacts.PermissionsTitle" = "通讯录访问权限";
-"Contacts.PermissionsText" = "请允许 Telegram 访问您的通讯录，以便找到您的朋友。";
-
+"Contacts.PermissionsText" = "请允许 Telegram 访问您的通讯录，以便寻找您的好友。";
+"Contacts.PermissionsAllow" = "允许访问";
 
 
 
@@ -3620,9 +3620,9 @@ Unused sets are archived when you add more.";
 
 "MessagePoll.VotedCount_any" = "%@ 人已投票";
 "AttachmentMenu.Poll" = "投票";
+"Conversation.PinnedPoll" = "置顶投票";
 
-
-"CreatePoll.Title" = "新建投票";
+"CreatePoll.Title" = "发起投票";
 "CreatePoll.Create" = "发送";
 "CreatePoll.TextHeader" = "问题";
 "CreatePoll.TextPlaceholder" = "请输入问题";
@@ -3638,7 +3638,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.AddMoreOptions_any" = "您还可以再添加 %@ 个选项。";
 "CreatePoll.AllOptionsAdded" = "您已添加的选项已达最大数量。";
 
-"CreatePoll.CancelConfirmation" = "您确定要放弃新建投票吗？";
+"CreatePoll.CancelConfirmation" = "您确定要放弃发起新投票吗？";
 
 
 

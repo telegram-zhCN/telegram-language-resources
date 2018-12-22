@@ -313,6 +313,7 @@
     <string name="ChannelMessagePhoto">%1$s posted a photo</string>
     <string name="ChannelMessageVideo">%1$s posted a video</string>
     <string name="ChannelMessageContact">%1$s posted a contact</string>
+    <string name="ChannelMessagePoll">%1$s posted a poll</string>
     <string name="ChannelMessageMap">%1$s posted a location</string>
     <string name="ChannelMessageLiveLocation">%1$s posted a live location</string>
     <string name="ChannelMessageDocument">%1$s posted a file</string>
@@ -396,7 +397,7 @@
     <string name="CancelPollAlertText">Are you sure you want to discard this poll?</string>
     <string name="Unvote">Retract Vote</string>
     <string name="FinalResults">Final Results</string>
-    <string name="NoVotes">no votes</string>
+    <string name="NoVotes">No votes</string>
     <string name="Vote_zero">%1$d votes</string>
     <string name="Vote_one">%1$d vote</string>
     <string name="Vote_two">%1$d votes</string>
@@ -699,6 +700,7 @@
     <string name="NotificationMessageSDPhoto">%1$s sent you a self-destructing photo</string>
     <string name="NotificationMessageSDVideo">%1$s sent you a self-destructing video</string>
     <string name="NotificationMessageContact">%1$s shared a contact with you</string>
+    <string name="NotificationMessagePoll">%1$s sent you a poll</string>
     <string name="NotificationMessageMap">%1$s sent you a location</string>
     <string name="NotificationMessageLiveLocation">%1$s sent you a live location</string>
     <string name="NotificationMessageGame">%1$s invited you to play %2$s</string>
@@ -713,6 +715,7 @@
     <string name="NotificationMessageGroupNoText">%1$s sent a message to the group %2$s</string>
     <string name="NotificationMessageGroupPhoto">%1$s sent a photo to the group %2$s</string>
     <string name="NotificationMessageGroupVideo">%1$s sent a video to the group %2$s</string>
+    <string name="NotificationMessageGroupPoll">%1$s sent a poll to the group %2$s</string>
     <string name="NotificationMessageGroupContact">%1$s shared a contact in the group %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s sent a location to the group %2$s</string>
     <string name="NotificationMessageGroupLiveLocation">%1$s shared a live location with the group %2$s</string>

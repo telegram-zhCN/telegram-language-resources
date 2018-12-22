@@ -544,7 +544,7 @@
   <string name="game_ActionYouScored_other">你获得 %1$s 分</string>
   
   <string name="game_ActionYouScoredInGame_other">你在 %2$s 中获得 %1$s 分</string>
-  <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了 1 条消息</string>
+  <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
   <string name="ShareYourPhoneNumberDesc">%1$s 将会获取您的手机号码。\n\n 这可能用于其他集成服务。</string>
@@ -807,16 +807,16 @@
   <string name="PinMessageInThisGroup">您要在这个群组里置顶这条消息吗？</string>
   <string name="PinMessageInThisChannel">您要在这个频道里置顶这条消息吗？</string>
   <string name="PinNotify">通知所有成员</string>
-  <string name="ActionPinnedText">%1$s置顶了“%2$s”</string>
+  <string name="ActionPinnedText">%1$s 置顶了 “%2$s”</string>
   <string name="ActionPinnedGame">%1$s 置顶了 %2$s</string>
-  <string name="ActionPinnedNoText">%1$s 置顶了 1 条消息</string>
-  <string name="ActionPinnedGeo">%1$s 置顶了 1 个位置</string>
-  <string name="ActionPinnedGeoLive">%1$s 置顶了 1 个**实时位置**</string>
-  <string name="ActionPinnedSticker">%1$s 置顶了 1 张**贴纸**</string>
-  <string name="ActionPinnedGif">%1$s 置顶了 1 个 **GIF**</string>
-  <string name="ActionPinnedFile">%1$s 置顶了 1 个**文件**</string>
+  <string name="ActionPinnedNoText">%1$s 置顶了一条**消息**</string>
+  <string name="ActionPinnedGeo">%1$s 置顶了一个**位置**</string>
+  <string name="ActionPinnedGeoLive">%1$s 置顶了一个**实时位置**</string>
+  <string name="ActionPinnedSticker">%1$s 置顶了一张**贴纸**</string>
+  <string name="ActionPinnedGif">%1$s 置顶了一个 **GIF**</string>
+  <string name="ActionPinnedFile">%1$s 置顶了一个**文件**</string>
   <string name="ActionPinnedMusic">%1$s 置顶了一首**音乐**</string>
-  <string name="ActionPinnedPhoto">%1$s 置顶了 1 张**图片**</string>
+  <string name="ActionPinnedPhoto">%1$s 置顶了一张**图片**</string>
   <string name="ActionPinnedVideo">%1$s 置顶了一段**视频**</string>
   <string name="ActionPinnedRound">%1$s 置顶了一条**视频留言**</string>
   <string name="ActionPinnedVoice">%1$s 置顶了一条**语音留言**</string>

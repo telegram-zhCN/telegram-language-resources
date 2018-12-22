@@ -552,7 +552,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sessions_terminate_all" = "注销所有其他设备";
 "lng_sessions_terminate_all_about" = "注销除本设备之外的其他所有设备。";
 "lng_sessions_incomplete" = "未完成的登陆请求";
-"lng_sessions_incomplete_about" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的密码。";
+"lng_sessions_incomplete_about" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。";
 
 "lng_blocked_list_title" = "已屏蔽的用户";
 "lng_blocked_list_unknown_phone" = "手机号码未知";
