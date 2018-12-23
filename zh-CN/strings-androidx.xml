@@ -636,7 +636,7 @@
   <string name="Save">保存</string>
   <string name="PrivacyTitle">私密</string>
   <string name="BlockedUsers">已屏蔽的用户</string>
-  <string name="LastSeen">最后上线</string>
+  <string name="LastSeen">最后上线时间</string>
   <string name="GroupsAndChannels">群组和频道</string>
   <string name="SecurityTitle">安全</string>
   <string name="SessionsTitle">活动会话</string>

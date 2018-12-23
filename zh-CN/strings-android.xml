@@ -204,7 +204,7 @@
     <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
     <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
     <string name="ActionPinnedNoText">un1 置顶了一条消息</string>
-    <string name="ActionPinnedPoll">un1 置顶了一个投票</string>
+    <string name="ActionPinnedPoll">un1 置顶了一项投票</string>
     <string name="ActionPinnedPhoto">un1 置顶了一张图片</string>
     <string name="ActionPinnedVideo">un1 置顶了一段视频</string>
     <string name="ActionPinnedFile">un1 置顶了一个文件</string>
@@ -313,7 +313,7 @@
     <string name="ChannelMessagePhoto">%1$s 发送了一张图片</string>
     <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
     <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
-    <string name="ChannelMessagePoll">%1$s 发布了一个投票</string>
+    <string name="ChannelMessagePoll">%1$s 发布了一项投票</string>
     <string name="ChannelMessageMap">%1$s 发送了一个位置</string>
     <string name="ChannelMessageLiveLocation">%1$s 正在共享实时位置</string>
     <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
@@ -398,12 +398,12 @@
     <string name="Unvote">撤回选票</string>
     <string name="FinalResults">最终结果</string>
     <string name="NoVotes">无人投票</string>
-    <string name="Vote_zero">%1$d 人投票</string>
-    <string name="Vote_one">%1$d 人投票</string>
-    <string name="Vote_two">%1$d 人投票</string>
-    <string name="Vote_few">%1$d 人投票</string>
-    <string name="Vote_many">%1$d 人投票</string>
-    <string name="Vote_other">%1$d 人投票</string>
+    <string name="Vote_zero">%1$d 人已投票</string>
+    <string name="Vote_one">%1$d 人已投票</string>
+    <string name="Vote_two">%1$d 人已投票</string>
+    <string name="Vote_few">%1$d 人已投票</string>
+    <string name="Vote_many">%1$d 人已投票</string>
+    <string name="Vote_other">%1$d 人已投票</string>
     <string name="Option_zero">%1$d 个选项</string>
     <string name="Option_one">%1$d 个选项</string>
     <string name="Option_two">%1$d 个选项</string>
@@ -700,7 +700,7 @@
     <string name="NotificationMessageSDPhoto">%1$s 给您发送了一张自毁图片</string>
     <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
     <string name="NotificationMessageContact">%1$s 给您分享了一个联系人</string>
-    <string name="NotificationMessagePoll">%1$s 给您发送了一个投票</string>
+    <string name="NotificationMessagePoll">%1$s 给您发送了一项投票</string>
     <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
     <string name="NotificationMessageLiveLocation">%1$s 与您共享了实时位置</string>
     <string name="NotificationMessageGame">"%1$s 邀请您玩 %2$s "</string>
@@ -715,7 +715,7 @@
     <string name="NotificationMessageGroupNoText">%1$s 发送了一条消息到 %2$s 群组</string>
     <string name="NotificationMessageGroupPhoto">%1$s 发送了一张图片到 %2$s 群组</string>
     <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到 %2$s 群组</string>
-    <string name="NotificationMessageGroupPoll">%1$s 发送了一个投票到群组 %2$s</string>
+    <string name="NotificationMessageGroupPoll">%1$s 发送了一项投票到群组 %2$s</string>
     <string name="NotificationMessageGroupContact">%1$s 分享了一个联系人到 %2$s 群组</string>
     <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
     <string name="NotificationMessageGroupLiveLocation">%1$s 在群组 %2$s 中共享了实时位置</string>
@@ -750,7 +750,7 @@
     <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
     <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
-    <string name="NotificationActionPinnedPoll">%1$s 在群组 %2$s 置顶了一个投票</string>
+    <string name="NotificationActionPinnedPoll">%1$s 在群组 %2$s 置顶了一项投票</string>
     <string name="NotificationActionPinnedPhoto">%1$s 在群组 %2$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGame">%1$s 在群组 %2$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedVideo">%1$s 在群组 %2$s 置顶了一段视频</string>
@@ -767,7 +767,7 @@
     <string name="NotificationActionPinnedInvoice">%1$s 在群组 %2$s 置顶了一张账单</string>
     <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
-    <string name="NotificationActionPinnedPollChannel">%1$s 置顶了一个投票</string>
+    <string name="NotificationActionPinnedPollChannel">%1$s 置顶了一项投票</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGameChannel">%1$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedVideoChannel">%1$s 置顶了一段视频</string>
@@ -855,8 +855,8 @@
     <string name="ConvertGroupMenu">升级为超级群组</string>
     <string name="ConvertGroupAlertWarning">警告</string>
     <string name="ConvertGroupAlert">这个操作是不可逆的。一个超级群组无法降级到普通群组。</string>
-    <string name="ConvertGroupInfo">**成员人数已达到上限。**\n\n升级到超级群组可增加成员上限并获得更多功能：\n\n• 超级群组可以提升至高达 %1$s的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 所有成员将看不到已删除的消息\n• 管理员可以置顶重要消息\n• 创建者可以给群组设置一个公开链接</string>
-    <string name="ConvertGroupInfo2">**在超级群组中**： \n• 新成员可以看到所有聊天记录 \n• 所有成员将看不到已删除的消息 \n• 管理员可以置顶重要的消息 \n• 创建者可以给群组设置一个公开链接</string>
+    <string name="ConvertGroupInfo">**成员人数已达到上限。**\n\n升级到超级群组可增加成员上限并获得更多功能：\n\n• 超级群组可以提升至高达 %1$s的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 所有成员将看不到已删除的消息\n• 管理员可以为群组添加一个简介\n• 创建者可以给群组设置一个公开链接</string>
+    <string name="ConvertGroupInfo2">**在超级群组中**： \n• 新成员可以看到所有聊天记录 \n• 所有成员将看不到已删除的消息 \n• 管理员可以为群组添加一个简介\n• 创建者可以给群组设置一个公开链接</string>
     <string name="ConvertGroupInfo3">**注意：**此操作不可撤销。</string>
     <!--contact info view-->
     <string name="ShareContact">分享</string>
@@ -1096,7 +1096,7 @@
     <string name="BadgeNumber">未读消息数量提示</string>
     <string name="BadgeNumberShow">启用</string>
     <string name="BadgeNumberMutedChats">包含已关闭提醒的对话</string>
-    <string name="BadgeNumberUnread">统计未读消息</string>
+    <string name="BadgeNumberUnread">按消息数统计未读</string>
     <string name="Short">短</string>
     <string name="Long">长</string>
     <string name="AutomaticMediaDownload">自动下载媒体文件</string>

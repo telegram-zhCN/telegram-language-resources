@@ -283,7 +283,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_notifications_count" = "通知计数";
 "lng_settings_sound_notify" = "播放提示音";
 "lng_settings_include_muted" = "在未读消息数中包含已关闭消息提醒的对话";
-"lng_settings_count_unread" = "未读消息计数";
+"lng_settings_count_unread" = "按消息数统计未读";
 
 "lng_notification_preview" = "新消息";
 "lng_notification_reply" = "回复";
@@ -335,10 +335,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_connection_type" = "连接类型";
 "lng_settings_downloading_update" = "下载更新中 {progress} ...";
 "lng_settings_privacy_title" = "私密";
-"lng_settings_last_seen" = "上次在线";
+"lng_settings_last_seen" = "最后上线时间";
 "lng_settings_calls" = "语音通话";
 "lng_settings_calls_peer_to_peer" = "通话端对端连接";
-"lng_settings_groups_invite" = "共同群组";
+"lng_settings_groups_invite" = "邀请权限控制";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
 "lng_settings_sessions_about" = "控制您在其它设备上的对话。";
 "lng_settings_passcode_disable" = "禁用锁定码";
@@ -582,7 +582,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_always_title" = "总是共享给";
 "lng_edit_privacy_lastseen_never_title" = "从不共享给";
 
-"lng_edit_privacy_groups_title" = "群组邀请设置";
+"lng_edit_privacy_groups_title" = "邀请权限控制";
 "lng_edit_privacy_groups_header" = "谁可以邀请您到群组或频道";
 "lng_edit_privacy_groups_always_empty" = "总是允许";
 "lng_edit_privacy_groups_never_empty" = "从不允许";
@@ -885,8 +885,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_created_chat" = "{from} 创建了群组 «{title}»";
 "lng_action_created_channel" = "频道已创建";
 "lng_action_group_migrate" = "此群组已升级为超级群组";
-"lng_action_pinned_message" = "{from} 已置顶 «{text}»";
-"lng_action_pinned_media" = "{from} 已置顶 {media}";
+"lng_action_pinned_message" = "{from} 置顶了 «{text}»";
+"lng_action_pinned_media" = "{from} 置顶了 {media}";
 "lng_action_pinned_media_photo" = "1 张图片";
 "lng_action_pinned_media_video" = "一段视频";
 "lng_action_pinned_media_audio" = "一首音乐";
@@ -935,7 +935,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_convert_title" = "升级为超级群组";
 "lng_profile_convert_feature1" = "— 新成员可能可以看到所有聊天记录";
 "lng_profile_convert_feature2" = "— 所有成员将看不到已删除的消息";
-"lng_profile_convert_feature3" = "— 管理员可以置顶重要的消息";
+"lng_profile_convert_feature3" = "— 管理员可以为群组添加一个简介";
 "lng_profile_convert_feature4" = "— 创建者可以给群组设置一个公开链接";
 "lng_profile_convert_warning" = "{bold_start}注意：{bold_end} 此操作不可撤销";
 "lng_profile_convert_confirm" = "升级";
@@ -1066,6 +1066,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_in_dlg_file" = "文件";
 "lng_in_dlg_sticker" = "贴纸";
 "lng_in_dlg_sticker_emoji" = "{emoji} （贴纸）";
+"lng_in_dlg_poll" = "投票";
 
 "lng_ban_user" = "封禁用户";
 "lng_delete_all_from" = "删除此用户发送的所有消息";
@@ -1347,7 +1348,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_preview_invalid" = "主题文件数据错误";
 "lng_theme_preview_apply" = "应用此主题";
 
-"lng_new_authorization" = "{name}，\n我们在 {date}{day}{time} 发现一个新设备登录您的帐号。\n\n设备： {device}\n位置： {location}\n\n如果这不是您本人， 您可以前往「设置—显示所有活动会话」 中注销该设备。\n\n谢谢！\nTelegram 团队";
+"lng_new_authorization" = "{name}，\n我们在 {date}{day}{time} 发现一个新设备登录您的帐号。\n\n设备： {device}\n位置： {location}\n\n如果这不是您本人， 您可以前往「设置—显示所有活动会话」 中注销该设备。\n\n如果您认为其他人在您不知情时登录了您的帐号，请您在 隐私和安全 设置中启用 两步验证密码。\n\n谢谢！\nTelegram 团队";
 
 "lng_new_version_wrap" = "Telegram Desktop 已更新到 {version}\n\n{changes}\n\n更多版本记录请在这里查看：\n{link}";
 "lng_new_version_minor" = "— 错误修复及细节改进";
@@ -1824,6 +1825,30 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_title" = "数据不足";
 "lng_language_not_ready_about" = "抱歉，此个性语言包 ({lang_name}) 不包含供 Telegram 桌面版 使用的信息，您可以通过此链接 {link} 为此语言包贡献翻译。";
 "lng_language_not_ready_link" = "翻译平台";
+
+"lng_launch_exe_warning" = "这个文件的扩展名是 {extension}。\n您确定要执行它吗？";
+"lng_launch_exe_sure" = "运行";
+"lng_launch_exe_dont_ask" = "不再询问";
+
+"lng_polls_anonymous" = "匿名投票";
+"lng_polls_closed" = "最终结果";
+
+"lng_polls_votes_count#other" = "{count} 人已投票";
+"lng_polls_votes_none" = "无人投票";
+"lng_polls_retract" = "撤回选票";
+"lng_polls_stop" = "终止投票";
+"lng_polls_stop_warning" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
+"lng_polls_stop_sure" = "终止";
+"lng_polls_create" = "发起投票";
+"lng_polls_create_title" = "发起投票";
+"lng_polls_create_question" = "问题";
+"lng_polls_create_question_placeholder" = "请输入问题";
+"lng_polls_create_options" = "投票备选项";
+"lng_polls_create_option_add" = "添加一个选项...";
+
+"lng_polls_create_limit#other" = "您还可以再添加 {count} 个选项。";
+"lng_polls_create_maximum" = "您添加的选项已达最大数量。";
+"lng_polls_create_button" = "确认";
 
 // Wnd specific
 

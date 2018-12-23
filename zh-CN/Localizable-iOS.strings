@@ -20,10 +20,10 @@
 "MESSAGE_PHOTOS" = "%1$@ sent you %2$@ photos";
 "MESSAGES" = "%1$@ sent you %2$@ messages";
 
-"MESSAGE_POLL" = "%1$@ 给您发送了一个投票";
-"CHANNEL_MESSAGE_POLL" = "%1$@ 发布了一个投票";
-"CHAT_MESSAGE_POLL" = "%1$@ 发送了一个投票到群组 %2$@";
-"PINNED_POLL" = "%1$@ 置顶了一个投票";
+"MESSAGE_POLL" = "%1$@ 给您发送了一项投票";
+"CHANNEL_MESSAGE_POLL" = "%1$@ 发布了一项投票";
+"CHAT_MESSAGE_POLL" = "%1$@ 发送了一项投票到群组 %2$@";
+"PINNED_POLL" = "%1$@ 置顶了一项投票";
 
 "CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
 "CHAT_MESSAGE_NOTEXT" = "%1$@ 发送了一条消息到群组 %2$@";
@@ -224,7 +224,7 @@
 "Login.EmailCodeSubject" = "%@, no code";
 "Login.EmailCodeBody" = "My phone number is:\n%@\nI can't get an activation code for Telegram.";
 "Login.UnknownError" = "出现未知错误，请稍后再试";
-"Login.InvalidCodeError" = "验证码错误，请重新输入";
+"Login.InvalidCodeError" = "您输入的验证码无效，请重试。";
 "Login.NetworkError" = "请检查您的网络连接后重试";
 "Login.CodeExpiredError" = "验证码已过期，请重试";
 "Login.CodeFloodError" = "错误次数已达上限，请稍后再试";
@@ -744,7 +744,7 @@
 
 "PrivacySettings.PrivacyTitle" = "隐私";
 "PrivacySettings.LastSeen" = "最后上线时间";
-
+"PrivacySettings.LastSeenTitle" = "最后上线时间";
 "PrivacySettings.LastSeenEverybody" = "所有人";
 "PrivacySettings.LastSeenContacts" = "我的联系人";
 "PrivacySettings.LastSeenNobody" = "隐藏";
@@ -1171,7 +1171,7 @@
 "TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
 "TwoStepAuth.PasswordSet" = "两步验证密码现已启用。";
 "TwoStepAuth.PasswordRemoveConfirmation" = "关闭两步验证？";
-"TwoStepAuth.EmailCodeExpired" = "This confirmation code has expired. Please try again.";
+"TwoStepAuth.EmailCodeExpired" = "这个验证码已经过期。请重新获取。";
 
 "TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 "TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的账号。";
@@ -1774,7 +1774,7 @@
 "Notification.PinnedLocationMessage" = "%@ 置顶了一个位置";
 "Notification.PinnedContactMessage" = "%@ 置顶了一个联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
-"Notification.PinnedPollMessage" = "%@ 置顶了一个投票";
+"Notification.PinnedPollMessage" = "%@ 置顶了一项投票";
 
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "置顶了图片";
@@ -1785,7 +1785,7 @@
 "Message.PinnedStickerMessage" = "置顶了一张贴纸";
 "Message.PinnedLocationMessage" = "置顶了一条位置信息";
 "Message.PinnedContactMessage" = "置顶了一条联系人信息";
-
+"Message.PinnedPollMessage" = "置顶投票";
 
 "Notification.PinnedMessage" = "已置顶消息";
 
@@ -3455,13 +3455,13 @@ Unused sets are archived when you add more.";
 "Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
 "Notifications.DisplayNamesOnLockScreenInfoWithLink" = "设备锁定后在通知栏上显示姓名。若需禁用，请确保“显示预览”功能也设置为“解锁时”或“从不” [iOS 设置> 通知].";
 
-"Notifications.Badge" = "BADGE COUNTER";
+"Notifications.Badge" = "未读消息数量提示";
 "Notifications.Badge.IncludeMutedChats" = "包含已关闭提醒的会话";
 "Notifications.Badge.IncludePublicGroups" = "包含公开群组";
 "Notifications.Badge.IncludeChannels" = "Include Channels";
-"Notifications.Badge.CountUnreadMessages" = "统计未读消息";
+"Notifications.Badge.CountUnreadMessages" = "按消息数统计未读";
 "Notifications.Badge.CountUnreadMessages.InfoOff" = "Switch on to show the number of unread messages instead of chats.";
-"Notifications.Badge.CountUnreadMessages.InfoOn" = "Switch off to show the number of unread chats instead of messages.";
+"Notifications.Badge.CountUnreadMessages.InfoOn" = "关闭以显示未读对话数而非未读消息数。";
 
 "Appearance.ReduceMotion" = "减少动画效果";
 "Appearance.ReduceMotionInfo" = "Disable animations in message bubbles and in the chats list.";
@@ -3493,9 +3493,9 @@ Unused sets are archived when you add more.";
 
 "ApplyLanguage.ChangeLanguageAction" = "更改";
 "ApplyLanguage.ApplyLanguageAction" = "更改";
-"ApplyLanguage.UnsufficientDataTitle" = "Insufficient Data";
+"ApplyLanguage.UnsufficientDataTitle" = "数据不足";
 "ApplyLanguage.UnsufficientDataText" = "很遗憾，这个自定义语言包 (%1$@) 不包含Telegram iOS的数据。您可以使用以下方法为此语言包做出贡献 [翻译平台]()。";
-"ApplyLanguage.LanguageNotSupportedError" = "Sorry, this language doesn't seem to exist.";
+"ApplyLanguage.LanguageNotSupportedError" = "抱歉，这个语言似乎并不存在。";
 "ApplyLanguage.ApplySuccess" = "语言已更改";
 
 "TextFormat.Bold" = "加粗";
@@ -3575,7 +3575,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"Permissions.CellularDataText.v0" = "不要担心，Telegram 会努力保持使用尽可能少的网络流量。您可以在 设置 >  数据和存储 处细化控制。";
 
 
 
@@ -3626,7 +3626,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.Create" = "发送";
 "CreatePoll.TextHeader" = "问题";
 "CreatePoll.TextPlaceholder" = "请输入问题";
-"CreatePoll.OptionsHeader" = "投票选项";
+"CreatePoll.OptionsHeader" = "投票备选项";
 "CreatePoll.OptionPlaceholder" = "选项";
 "CreatePoll.AddOption" = "添加一个选项";
 
@@ -3636,7 +3636,7 @@ Unused sets are archived when you add more.";
 
 
 "CreatePoll.AddMoreOptions_any" = "您还可以再添加 %@ 个选项。";
-"CreatePoll.AllOptionsAdded" = "您已添加的选项已达最大数量。";
+"CreatePoll.AllOptionsAdded" = "您添加的选项已达最大数量。";
 
 "CreatePoll.CancelConfirmation" = "您确定要放弃发起新投票吗？";
 

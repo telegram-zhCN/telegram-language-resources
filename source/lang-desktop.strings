@@ -935,7 +935,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_convert_title" = "Convert to supergroup";
 "lng_profile_convert_feature1" = "— New members may see the full message history";
 "lng_profile_convert_feature2" = "— Messages are deleted for all members";
-"lng_profile_convert_feature3" = "— Admins can pin important messages";
+"lng_profile_convert_feature3" = "— Admins can add a description to the group";
 "lng_profile_convert_feature4" = "— Creator can set a public link for the group";
 "lng_profile_convert_warning" = "{bold_start}Note:{bold_end} This action can not be undone";
 "lng_profile_convert_confirm" = "Convert";
@@ -1066,6 +1066,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_in_dlg_file" = "File";
 "lng_in_dlg_sticker" = "Sticker";
 "lng_in_dlg_sticker_emoji" = "{emoji} Sticker";
+"lng_in_dlg_poll" = "Poll";
 
 "lng_ban_user" = "Ban User";
 "lng_delete_all_from" = "Delete all from this user";
@@ -1825,6 +1826,30 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_about" = "Unfortunately, this custom language pack ({lang_name}) doesn't contain data for Telegram Desktop. You can contribute to this language pack using the {link}.";
 "lng_language_not_ready_link" = "translation platform";
 
+"lng_launch_exe_warning" = "This file has a {extension} extension.\nAre you sure you want to run it?";
+"lng_launch_exe_sure" = "Run";
+"lng_launch_exe_dont_ask" = "Don't ask me again";
+
+"lng_polls_anonymous" = "Anonymous Poll";
+"lng_polls_closed" = "Final results";
+"lng_polls_votes_count#one" = "{count} vote";
+"lng_polls_votes_count#other" = "{count} votes";
+"lng_polls_votes_none" = "No votes";
+"lng_polls_retract" = "Retract vote";
+"lng_polls_stop" = "Stop poll";
+"lng_polls_stop_warning" = "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone.";
+"lng_polls_stop_sure" = "Stop";
+"lng_polls_create" = "Create poll";
+"lng_polls_create_title" = "New poll";
+"lng_polls_create_question" = "Question";
+"lng_polls_create_question_placeholder" = "Ask a question";
+"lng_polls_create_options" = "Poll options";
+"lng_polls_create_option_add" = "Add an option...";
+"lng_polls_create_limit#one" = "You can add {count} more option.";
+"lng_polls_create_limit#other" = "You can add {count} more options.";
+"lng_polls_create_maximum" = "You have added the maximum number of options.";
+"lng_polls_create_button" = "Create";
+
 /* Wnd specific */
 
 "lng_wnd_choose_program_menu" = "Choose Default Program...";
@@ -2146,6 +2171,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_main_page_name" = "Scan";
 "lng_passport_reverse_side_name" = "Scan";
 "lng_passport_selfie_name" = "Photo";
+"lng_polls_create_limit#zero" = "You can add {count} more options.";
+"lng_polls_create_limit#two" = "You can add {count} more options.";
+"lng_polls_create_limit#few" = "You can add {count} more options.";
+"lng_polls_create_limit#many" = "You can add {count} more options.";
+"lng_polls_votes_count#zero" = "{count} votes";
+"lng_polls_votes_count#two" = "{count} votes";
+"lng_polls_votes_count#few" = "{count} votes";
+"lng_polls_votes_count#many" = "{count} votes";
 "lng_profile_add_more_after_upgrade#zero" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
 "lng_profile_add_more_after_upgrade#two" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
 "lng_profile_add_more_after_upgrade#few" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";

@@ -17,6 +17,7 @@
 "Navigation.Close" = "关闭";
 "Navigation.Cancel" = "取消";
 
+
 "Gallery.Counter" = "%d / %d";
 
 "Peer.Status.online" = "在线";
@@ -42,13 +43,13 @@
 "Peer.Status.Member_other" = "%d 位成员";
 
 
-"Peer.Status.Member_countable" = "%d";
 
 
 
 
 
-"Peer.Status.Member_other" = "%d 位成员";
+
+
 
 /* do not translate key with 'countable' suffix */
 "Peer.Status.Member.Online_countable" = "%d";
@@ -218,6 +219,8 @@
 "Chat.Service.PinnedMessage" = "置顶消息";
 "Chat.Service.PeerJoinedTelegram" = "%@ 加入了 Telegram";
 
+
+
 "Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";
 "Chat.Service.Channel.RemovedPhoto" = "频道头像已删除";
 "Chat.Service.Channel.UpdatedTitle" = "频道名称已修改为 \"%@\"";
@@ -236,6 +239,7 @@
 "Chat.Input.Join" = "加入";
 "Chat.Input.Unblock" = "取消屏蔽";
 "Chat.Input.Restart" = "重启";
+
 
 "Message.Context.Reply1" = "回复";
 "Message.Context.ReplyHelp" = "双击";
@@ -287,6 +291,7 @@
 "InputAttach.Popover.Picture" = "相机";
 "InputAttach.Popover.File" = "文档";
 "InputAttach.Popover.Location" = "位置";
+"InputAttach.Popover.Poll" = "投票";
 
 "Compose.Popover.NewGroup" = "新建群组";
 "Compose.Popover.NewChannel" = "新建频道";
@@ -377,14 +382,14 @@
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
 "NotificationSettings.IncludeMutedChats" = "包含已关闭提醒的会话";
-"NotificationSettings.CountUnreadMessages" = "统计未读消息";
+"NotificationSettings.CountUnreadMessages" = "按消息数统计未读";
 
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";
-"NotificationSettings.IncludeChannels" = "Include Channels";
+"NotificationSettings.IncludeChannels" = "包含频道";
 
 
-"NotificationSettings.BadgeHeader" = "BADGE COUNTER";
-"NotificationSettings.BadgeDesc" = "Switch off to show the number of unread chats instead of messages.";
+"NotificationSettings.BadgeHeader" = "未读消息数量提示";
+"NotificationSettings.BadgeDesc" = "关闭以显示未读对话数而非未读消息数。";
 
 
 "NotificationSettings.NotificationTone" = "通知声音";
@@ -494,7 +499,7 @@
 "Telegram.PrivacyAndSecurityViewController" = "隐私和安全";
 "PrivacySettings.PrivacyHeader" = "隐私";
 "PrivacySettings.BlockedUsers" = "已屏蔽的用户";
-"PrivacySettings.LastSeen" = "上次在线";
+"PrivacySettings.LastSeen" = "最后上线时间";
 "PrivacySettings.Groups" = "群组";
 "PrivacySettings.VoiceCalls" = "语音通话";
 "PrivacySettings.SecurityHeader" = "安全";
@@ -672,7 +677,7 @@
 
 "Telegram.ConvertGroupViewController" = "超级群组";
 
-"Supergroup.Convert.Description" = "**在超级群组中**： \n• 新成员可以看到所有聊天记录 \n• 所有成员将看不到已删除的消息 \n• 管理员可以置顶重要的消息 \n• 创建者可以给群组设置一个公开链接";
+"Supergroup.Convert.Description" = "**在超级群组中**： \n• 新成员可以看到所有聊天记录 \n• 所有成员将看不到已删除的消息 \n• 管理员可以为群组添加一个简介\n• 创建者可以给群组设置一个公开链接";
 "Supergroup.Convert.Undone" = "**注意**：此操作不可撤销。";
 "Supergroup.Convert.Button" = "升级为超级群组";
 
@@ -729,6 +734,8 @@
 "PeerInfo.Confirm.AddMembers1_other" = "添加 %d 人到此群组？";
 
 
+
+
 "PeerInfo.Confirm.AddMember" = "添加  \"%@\" 到此群组？";
 "PeerInfo.Confirm.RemovePeer" = "从群组中移除  \"%@\" ？";
 
@@ -776,6 +783,7 @@
 "PeerInfo.SignMessages" = "消息署名";
 "PeerInfo.SetChannelPhoto" = "设置频道头像";
 "PeerInfo.Members" = "成员";
+
 "PeerInfo.DeleteChannel" = "删除频道";
 "PeerInfo.DeleteSecretChat" = "删除加密对话";
 
@@ -1208,6 +1216,10 @@
 "EventLog.Service.RemovedStickerSet" = "%@ 删除了群组贴纸包";
 
 
+
+
+
+
 "Group.EventLog.Service.EnableInvites" = "%@ 启用了邀请权限";
 "Group.EventLog.Service.DisableInvites" = "%@ 禁用了邀请权限";
 "Channel.EventLog.Service.EnableSignatures" = "%@ 启用了消息署名";
@@ -1453,7 +1465,10 @@
 "TwoStepAuth.SetupEmailTitle" = "Recovery Email";
 
 
-"TwoStepAuth.SetupHint" = "请创建一个密码提示。";
+
+
+
+
 
 "TwoStepAuth.ChangePassword" = "更改密码";
 "TwoStepAuth.RemovePassword" = "不使用密码";
@@ -1462,13 +1477,22 @@
 "TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "您开启了二次验证，\n今后您在登录时将会需要输入在这里设置的密码。";
 
-"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+
 "TwoStepAuth.ConfirmationAbort" = "Cancel Two-Step Verification Setup";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Enter your cloud password";
 "TwoStepAuth.SetupPasswordEnterPasswordNew" = "请输入新的解锁密码";
+
 "TwoStepAuth.SetupPasswordConfirmPassword" = "请再次输入密码";
+
+
+
 "TwoStepAuth.SetupPasswordConfirmFailed" = "密码不一致，请重新输入。";
+
+
+
+
+
 
 "TwoStepAuth.EnterPasswordPassword" = "密码";
 "TwoStepAuth.EnterPasswordHint" = "提示： %@";
@@ -1483,6 +1507,9 @@
 "TwoStepAuth.EmailInvalid" = "Invalid email address. Please try again.";
 "TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
 
+
+
+
 "TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 "TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的账号。";
 
@@ -1492,10 +1519,15 @@
 "TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
 "TwoStepAuth.RecoveryCodeInvalid" = "验证码无效，请重试。";
 "TwoStepAuth.RecoveryCodeExpired" = "验证码已过期";
-"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
+
+
+
+
 
 "TwoStepAuth.FloodError" = "错误次数已达上限，请稍后再试。";
 "TwoStepAuth.GenericError" = "出错了，请稍后再试。";
+
+
 
 "TwoStepAuth.AnError" = "出错了，请稍后再试。";
 "TwoStepAuth.Error.HaventEmail" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
@@ -1504,6 +1536,7 @@
 "TwoStepAuth.Confirm.DisablePassword" = "您确定要删除您的密码吗？";
 "TwoStepAuth.Error.InvalidEmail" = "Please enter a valid email address.";
 "TwoStepAuth.Error.PasswordsDontMatch" = "密码不一致。\n请重新输入";
+
 
 
 "PreviewSender.SendFile_countable" = "%d";
@@ -1556,6 +1589,10 @@
 
 
 "Peer.SavedMessages" = "收藏夹";
+
+"Stickers.SuggestStickers" = "通过 Emoji 推荐贴纸";
+
+
 
 
 
@@ -1639,7 +1676,7 @@
 
 "Chat.CopySelectedText" = "复制所选内容";
 
-"GeneralSettings.InstantView.ScrollBySpace" = "Scroll With Spacebar";
+"GeneralSettings.InstantView.ScrollBySpace" = "使用空格键向下滚动";
 "GeneralSettings.InstantViewHeader" = "即时预览";
 
 "GeneralSettings.AutoplayGifs" = "自动播放 GIF";
@@ -2126,7 +2163,7 @@
 "Article.ReadAll" = "Read All";
 "Article.RemoveAll" = "Remove All";
 "Article.Remove" = "移除";
-"GeneralSettings.ShowArticlesInSearch" = "Suggest Articles in Search";
+"GeneralSettings.ShowArticlesInSearch" = "在搜索时推荐文章";
 
 "Search.Popular.Delete" = "删除";
 
@@ -2343,9 +2380,9 @@
 
 "EditImageControl.Confirm.Discard" = "您确定要放弃所有更改吗？";
 //
-"_NS:103.title" = "编辑";
-"_NS:167.title" = "窗口";
-"_NS:81.title" = "查看";
+//"_NS:103.title" = "Edit";
+//"_NS:167.title" = "Window";
+//"_NS:81.title" = "View";
 
 
 "Message.Status.Archiving" = "正在压缩 %d%";
@@ -2362,3 +2399,106 @@
 
 
 "Forward.ToSavedMessages" = "forward messages here for quick access";
+
+
+
+
+
+
+
+"Localization.Preview.Error.Generic" = "抱歉，这个语言似乎并不存在。";
+"ApplyLanguage.UnsufficientDataTitle" = "数据不足";
+"ApplyLanguage.UnsufficientDataText" = "很遗憾，此自定义语言包（%@）不包含 Telegram macOS 版所需的数据。您可以在翻译平台中为此语言包贡献翻译。";
+"ApplyLanguage.UnsufficientDataOpenPlatform" = "翻译平台";
+
+
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "您已经在使用语言 %1$@。";
+"ApplyLanguage.ChangeLanguageTitle" = "更换语言？";
+"ApplyLanguage.ChangeLanguageUnofficialText" = "您即将使用一个自定义语言包 **%@** （完成度 %@）。\n\n此操作将会应用到整个界面。您可以通过 [翻译平台]() 提出修改建议。\n\n您可以随时在“设置”中更改语言。";
+"ApplyLanguage.ChangeLanguageOfficialText" = "您将要应用语言包 (**%@**)。\n\n此操作将会应用到整个界面。您可以通过 [翻译平台]() 提出修改建议 。\n\n您可以随时在“设置”中更改语言。";
+
+
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "您已经在使用语言 %1$@。";
+
+"Language.OfficialTransationsHeader" = "官方翻译";
+
+
+
+"TwoStepAuth.EmailCodeInvalid" = "您输入的验证码无效，请重试。";
+"TwoStepAuth.EmailCodeExpired" = "这个验证码已经过期。请重新获取。";
+"UnknownError" = "出现未知错误，请稍后再试";
+
+
+
+
+
+
+
+
+"Chat.Poll.TotalVotes_other" = "%d 人已投票";
+
+
+"Chat.Poll.TotalVotesEmpty" = "无人投票";
+"Chat.Poll.TotalVotesResultEmpty" = "无人投票";
+
+
+"Chat.Poll.Type.Anonymous" = "匿名投票";
+"Chat.Poll.Type.Closed" = "最终结果";
+
+"Chat.Poll.Unvote" = "撤回选票";
+"Chat.Poll.Stop" = "终止投票";
+"Chat.Poll.Stop.Confirm.Header" = "终止投票？";
+"Chat.Poll.Stop.Confirm.Text" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
+
+
+"Language.RemovePack" = "您确定要移除这个语言包吗？";
+
+"NewPoll.Title" = "发起投票";
+"NewPoll.QuestionHeader" = "问题";
+
+
+
+"NewPoll.QuestionPlaceholder" = "请输入问题";
+"NewPoll.OptionsHeader" = "投票备选项";
+"NewPoll.OptionsPlaceholder" = "选项";
+"NewPoll.OptionsAddOption" = "添加一个选项...";
+
+
+
+
+
+
+
+"NewPoll.OptionsDescription_other" = "您还可以再添加 %d 个选项。";
+
+
+
+
+
+
+
+
+"NewPoll.OptionsDescriptionMinimum_other" = "最少 %d 个选项";
+
+
+
+"NewPoll.OptionsDescriptionLimitReached" = "您添加的选项已达最大数量。";
+
+"NewPoll.DisacardConfirm" = "您确定要放弃发起新投票吗？";
+
+
+
+
+"Passport.ResetPassword.Confirm.Header" = "忘记密码";
+"Passport.ResetPassword.Confirm.Text" = "所有已上传到 Telegram Passport 的数据将丢失。您将可以上传新的文档。";
+"Passport.ResetPassword.Confirm.OK" = "重置";
+
+
+/* new from translations.telegram.org */
+
+"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
+"TwoStepAuth.SetupHint" = "请创建一个密码提示。";
+"_NS:103.title" = "编辑";
+"_NS:167.title" = "窗口";
+"_NS:81.title" = "查看";

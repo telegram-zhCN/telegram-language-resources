@@ -1793,7 +1793,7 @@
 
 "ConvertToSupergroup.Title" = "Supergroup";
 "ConvertToSupergroup.HelpTitle" = "**In supergroups:**";
-"ConvertToSupergroup.HelpText" = "• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can pin important messages\n• Creator can set a public link for the group";
+"ConvertToSupergroup.HelpText" = "• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can add a description to the group\n• Creator can set a public link for the group";
 
 "ConvertToSupergroup.Note" = "**Note**: this action can't be undone.";
 

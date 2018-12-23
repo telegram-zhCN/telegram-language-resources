@@ -16,6 +16,7 @@
 "Navigation.Done" = "Done";
 "Navigation.Close" = "Close";
 "Navigation.Cancel" = "Cancel";
+"Navigation.Next" = "Next";
 
 "Gallery.Counter" = "%d of %d";
 
@@ -42,13 +43,13 @@
 "Peer.Status.Member_other" = "%d members";
 
 
-"Peer.Status.Member_countable" = "%d";
-"Peer.Status.Member_zero" = "%d members";
-"Peer.Status.Member_one" = "%d member";
-"Peer.Status.Member_two" = "%d members";
-"Peer.Status.Member_few" = "%d members";
-"Peer.Status.Member_many" = "%d members";
-"Peer.Status.Member_other" = "%d members";
+"Peer.Status.Subscribers_countable" = "%d";
+"Peer.Status.Subscribers_zero" = "%d subscribers";
+"Peer.Status.Subscribers_one" = "%d subscriber";
+"Peer.Status.Subscribers_two" = "%d subscribers";
+"Peer.Status.Subscribers_few" = "%d subscribers";
+"Peer.Status.Subscribers_many" = "%d subscribers";
+"Peer.Status.Subscribers_other" = "%d subscribers";
 
 /* do not translate key with 'countable' suffix */
 "Peer.Status.Member.Online_countable" = "%d";
@@ -218,6 +219,8 @@
 "Chat.Service.PinnedMessage" = "pinned message";
 "Chat.Service.PeerJoinedTelegram" = "%@ joined Telegram";
 
+
+
 "Chat.Service.Channel.UpdatedPhoto" = "channel photo updated";
 "Chat.Service.Channel.RemovedPhoto" = "channel photo removed";
 "Chat.Service.Channel.UpdatedTitle" = "channel renamed to \"%@\"";
@@ -236,6 +239,7 @@
 "Chat.Input.Join" = "Join";
 "Chat.Input.Unblock" = "Unblock";
 "Chat.Input.Restart" = "Restart";
+"Chat.Input.Close" = "Close";
 
 "Message.Context.Reply1" = "Reply";
 "Message.Context.ReplyHelp" = "double click";
@@ -287,6 +291,7 @@
 "InputAttach.Popover.Picture" = "Camera";
 "InputAttach.Popover.File" = "File";
 "InputAttach.Popover.Location" = "Location";
+"InputAttach.Popover.Poll" = "Poll";
 
 "Compose.Popover.NewGroup" = "New Group";
 "Compose.Popover.NewChannel" = "New Channel";
@@ -672,7 +677,7 @@
 
 "Telegram.ConvertGroupViewController" = "Supergroup";
 
-"Supergroup.Convert.Description" = "**In supergroups:**\n\n• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can pin important messages\n• Creator can set a public link for the group";
+"Supergroup.Convert.Description" = "**In supergroups:**\n\n• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can add a description to the group\n• Creator can set a public link for the group";
 "Supergroup.Convert.Undone" = "**Note**: This action cannot be undone.";
 "Supergroup.Convert.Button" = "Convert to Supergroup";
 
@@ -729,6 +734,8 @@
 "PeerInfo.Confirm.AddMembers1_other" = "Add %d users to the group?";
 
 
+"PeerInfo.Confirm.Add" = "Add";
+
 "PeerInfo.Confirm.AddMember" = "Add \"%@\" to the group?";
 "PeerInfo.Confirm.RemovePeer" = "Remove \"%@\" from group?";
 
@@ -776,6 +783,7 @@
 "PeerInfo.SignMessages" = "Sign Messages";
 "PeerInfo.SetChannelPhoto" = "Set Channel Photo";
 "PeerInfo.Members" = "Members";
+"PeerInfo.Subscribers" = "Subscribers";
 "PeerInfo.DeleteChannel" = "Delete Channel";
 "PeerInfo.DeleteSecretChat" = "Delete Secret Chat";
 
@@ -1207,6 +1215,10 @@
 "EventLog.Service.ChangedStickerSet" = "%@ changed group sticker set";
 "EventLog.Service.RemovedStickerSet" = "%@ removed group sticker set";
 
+"EventLog.Service.EditedCaption" = "%@ edited caption:";
+"EventLog.Service.EditedMedia" = "%@ edited media:";
+
+
 
 "Group.EventLog.Service.EnableInvites" = "%@ enabled group invites";
 "Group.EventLog.Service.DisableInvites" = "%@ disabled group invites";
@@ -1452,8 +1464,11 @@
 "TwoStepAuth.SetupHintTitle" = "Password Hint";
 "TwoStepAuth.SetupEmailTitle" = "Recovery Email";
 
+"TwoStepAuth.EnterEmailCode" = "Enter Code";
 
-"TwoStepAuth.SetupHint" = "Please create a hint for your password";
+
+"TwoStepAuth.SetupHintPlaceholder" = "Hint";
+"TwoStepAuth.SetupHintDesc" = "You can create an optional hint for your password.";
 
 "TwoStepAuth.ChangePassword" = "Change Password";
 "TwoStepAuth.RemovePassword" = "Turn Password Off";
@@ -1462,13 +1477,22 @@
 "TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "You have enabled Two-Step verification.\nYou'll need the password you set up here to log in to your Telegram account.";
 
-"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.ConfirmationTextNew" = "Please check your e-mail and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.ConfirmationAbort" = "Cancel Two-Step Verification Setup";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Enter your cloud password";
 "TwoStepAuth.SetupPasswordEnterPasswordNew" = "Enter your new password";
+
 "TwoStepAuth.SetupPasswordConfirmPassword" = "Please re-enter your password";
+"TwoStepAuth.SetupPasswordConfirmPasswordDesc" = "Please confirm your password.";
+
+
 "TwoStepAuth.SetupPasswordConfirmFailed" = "Passwords don't match. Please try again.";
+
+"TwoStepAuth.SetupPasswordDesc" = "Please create a password which will be used to protect your data.";
+"TwoStepAuth.ChangePasswordDesc" = "Please enter a new password which will be used to protect your data.";
+
+
 
 "TwoStepAuth.EnterPasswordPassword" = "Password";
 "TwoStepAuth.EnterPasswordHint" = "Hint: %@";
@@ -1483,6 +1507,9 @@
 "TwoStepAuth.EmailInvalid" = "Invalid email address. Please try again.";
 "TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
 
+"TwoStepAuth.EmailHelpChange" = "Please enter your new recovery email. It is the only way to recover a forgotten password.";
+
+
 "TwoStepAuth.RecoveryUnavailable" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.RecoveryFailed" = "Your remaining options are either to remember your password or to reset your account.";
 
@@ -1492,10 +1519,15 @@
 "TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
 "TwoStepAuth.RecoveryCodeInvalid" = "Invalid code. Please try again.";
 "TwoStepAuth.RecoveryCodeExpired" = "Code Expired";
-"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
+"TwoStepAuth.RecoveryEmailUnavailableNew" = "Having trouble accessing your e-mail\n[%@]()?";
+
+"TwoStepAuth.ConfirmEmailCodeDesc" = "Please enter the code we've just emailed at %@.";
+
 
 "TwoStepAuth.FloodError" = "Limit exceeded. Please try again later.";
 "TwoStepAuth.GenericError" = "An error occurred. Please try again later.";
+"TwoStepAuth.InvalidPasswordError" = "Invalid password. Please try again.";
+
 
 "TwoStepAuth.AnError" = "An error occured. Please try again later.";
 "TwoStepAuth.Error.HaventEmail" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
@@ -1504,6 +1536,7 @@
 "TwoStepAuth.Confirm.DisablePassword" = "Are you sure you want to disable your password?";
 "TwoStepAuth.Error.InvalidEmail" = "Please enter a valid email address.";
 "TwoStepAuth.Error.PasswordsDontMatch" = "Passwords don't match.\nPlease try again.";
+
 
 
 "PreviewSender.SendFile_countable" = "%d";
@@ -1557,6 +1590,10 @@
 
 "Peer.SavedMessages" = "Saved Messages";
 
+"Stickers.SuggestStickers" = "Suggest Stickers by Emoji";
+"Stickers.SuggestAll" = "All Sets";
+"Stickers.SuggestAdded" = "My Sets";
+"Stickers.SuggestNone" = "None";
 
 
 "PrivacySettings.LastSeenEverybodyMinus" = "Everybody (-%@)";
@@ -2343,9 +2380,9 @@
 
 "EditImageControl.Confirm.Discard" = "Are you sure you want to discard all changes?";
 
-"_NS:103.title" = "Edit";
-"_NS:167.title" = "Window";
-"_NS:81.title" = "View";
+/* "_NS:103.title" = "Edit"; */
+/* "_NS:167.title" = "Window"; */
+/* "_NS:81.title" = "View"; */
 
 
 "Message.Status.Archiving" = "%d% archived";
@@ -2362,3 +2399,106 @@
 
 
 "Forward.ToSavedMessages" = "forward messages here for quick access";
+
+
+"GalleryView.FastSave.Image" = "Image saved to your [Download]() folder";
+"GalleryView.FastSave.Video" = "Video saved to your [Download]() folder";
+"GalleryView.FastSave.Gif" = "GIF saved to your [Download]() folder";
+
+
+"Localization.Preview.Error.Generic" = "Sorry, this language doesn't seem to exist.";
+"ApplyLanguage.UnsufficientDataTitle" = "Insufficient Data";
+"ApplyLanguage.UnsufficientDataText" = "Unfortunately, this custom language pack (%@) doesn't contain data for Telegram macOS. You can contribute to this language pack using the translations platform.";
+"ApplyLanguage.UnsufficientDataOpenPlatform" = "Translation Platform";
+
+
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %1$@ is already active.";
+"ApplyLanguage.ChangeLanguageTitle" = "Change Language?";
+"ApplyLanguage.ChangeLanguageUnofficialText" = "You are about to apply a custom language pack **%@** that is %@% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
+"ApplyLanguage.ChangeLanguageOfficialText" = "You are about to apply a language pack **%@**.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
+"ApplyLanguage.ChangeLanguageAction" = "Change";
+"ApplyLanguage.ApplyLanguageAction" = "Change";
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %1$@ is already active.";
+
+"Language.OfficialTransationsHeader" = "OFFICIAL TRANSLATIONS";
+
+
+
+"TwoStepAuth.EmailCodeInvalid" = "You have entered an invalid code. Please try again.";
+"TwoStepAuth.EmailCodeExpired" = "This confirmation code has expired. Please try again.";
+"UnknownError" = "An error occurred. Please try again later";
+
+
+"Chat.Poll.TotalVotes_countable" = "%d";
+"Chat.Poll.TotalVotes_zero" = "%d voted";
+"Chat.Poll.TotalVotes_one" = "%d voted";
+"Chat.Poll.TotalVotes_two" = "%d voted";
+"Chat.Poll.TotalVotes_few" = "%d voted";
+"Chat.Poll.TotalVotes_many" = "%d voted";
+"Chat.Poll.TotalVotes_other" = "%d voted";
+
+
+"Chat.Poll.TotalVotesEmpty" = "No votes yet";
+"Chat.Poll.TotalVotesResultEmpty" = "No votes";
+
+"Chat.Poll.Result" = "%@%";
+"Chat.Poll.Type.Anonymous" = "Anonymous Poll";
+"Chat.Poll.Type.Closed" = "Final Results";
+
+"Chat.Poll.Unvote" = "Retract Vote";
+"Chat.Poll.Stop" = "Stop Poll";
+"Chat.Poll.Stop.Confirm.Header" = "Stop Poll?";
+"Chat.Poll.Stop.Confirm.Text" = "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone.";
+
+
+"Language.RemovePack" = "Are you sure you want to remove this lang-pack?";
+
+"NewPoll.Title" = "New Poll";
+"NewPoll.QuestionHeader" = "QUESTION";
+
+"NewPoll.QuestionHeaderLimit" = "QUESTION (%d)";
+
+"NewPoll.QuestionPlaceholder" = "Ask a question";
+"NewPoll.OptionsHeader" = "POLL OPTIONS";
+"NewPoll.OptionsPlaceholder" = "Option";
+"NewPoll.OptionsAddOption" = "Add an Option";
+
+"NewPoll.OptionsDescription_countable" = "%d";
+"NewPoll.OptionsDescription_zero" = "You can add %d more options";
+"NewPoll.OptionsDescription_one" = "You can add %d more options";
+"NewPoll.OptionsDescription_two" = "You can add %d more options";
+"NewPoll.OptionsDescription_few" = "You can add %d more options";
+"NewPoll.OptionsDescription_many" = "You can add %d more options";
+"NewPoll.OptionsDescription_other" = "You can add %d more options";
+
+
+"NewPoll.OptionsDescriptionMinimum_countable" = "%d";
+"NewPoll.OptionsDescriptionMinimum_zero" = "Minimum %d options";
+"NewPoll.OptionsDescriptionMinimum_one" = "Minimum %d option";
+"NewPoll.OptionsDescriptionMinimum_two" = "Minimum %d options";
+"NewPoll.OptionsDescriptionMinimum_few" = "Minimum %d options";
+"NewPoll.OptionsDescriptionMinimum_many" = "Minimum %d options";
+"NewPoll.OptionsDescriptionMinimum_other" = "Minimum %d options";
+
+
+
+"NewPoll.OptionsDescriptionLimitReached" = "You have added the maximum number of options.";
+
+"NewPoll.DisacardConfirm" = "Are you sure you want to discard this poll?";
+"NewPoll.DisacardConfirm.Yes" = "Yes";
+"NewPoll.DisacardConfirm.No" = "No";
+
+
+"Passport.ResetPassword.Confirm.Header" = "Forgotten Password";
+"Passport.ResetPassword.Confirm.Text" = "All documents uploaded to your Telegram Passport will be lost. You will be able to upload new documents.";
+"Passport.ResetPassword.Confirm.OK" = "Reset";
+
+
+/* new from translations.telegram.org */
+
+"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
+"TwoStepAuth.SetupHint" = "Please create a hint for your password";
+"_NS:103.title" = "Edit";
+"_NS:167.title" = "Window";
+"_NS:81.title" = "View";
