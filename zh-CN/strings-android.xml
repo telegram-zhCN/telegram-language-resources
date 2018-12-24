@@ -37,7 +37,7 @@
     <string name="WrongNumber">号码错误？</string>
     <string name="DidNotGetTheCode">未收到验证码？</string>
     <string name="DidNotGetTheCodeSms">通过短信发送验证码</string>
-    <string name="CancelAccountReset">撤销帐号重置</string>
+    <string name="CancelAccountReset">撤销帐号重置请求</string>
     <string name="CancelAccountResetInfo">我们收到一个有访问你手机号码 **%1$s** 权限的人要求删除你的 Telegram 账号并重置两步验证密码。\n\n如果不是你本人，请输入我们刚刚通过短信发送给你的验证码。</string>
     <string name="ResetAccount">重置帐户</string>
     <string name="ResetAccountInfo">因为账号 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
@@ -109,7 +109,7 @@
     <string name="PaymentPasswordEnter">请输入密码</string>
     <string name="PaymentPasswordReEnter">请再次输入密码</string>
     <string name="PaymentPasswordInfo">请创建一个用于保护您的付款信息的密码。您需要在登录时输入此密码。</string>
-    <string name="PaymentPasswordEmailTitle">密码恢复邮箱</string>
+    <string name="PaymentPasswordEmailTitle">恢复邮箱</string>
     <string name="PaymentPasswordEmail">您的邮箱</string>
     <string name="PaymentPasswordEmailInfo">请输入一个有效的电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
     <string name="PaymentPhoneToProvider">手机号码将作为付款信息发送给 %1$s。</string>
@@ -327,8 +327,8 @@
     <string name="WhoCanAddMembers">邀请新成员权限</string>
     <string name="WhoCanAddMembersAllMembers">所有成员</string>
     <string name="WhoCanAddMembersAdmins">仅管理员</string>
-    <string name="ChannelNotifyMembersInfoOn">消息发布后用户会收到通知</string>
-    <string name="ChannelNotifyMembersInfoOff">订阅者将接收一个无声通知</string>
+    <string name="ChannelNotifyMembersInfoOn">消息发布后订阅者将收到推送通知</string>
+    <string name="ChannelNotifyMembersInfoOff">消息发布后订阅者将收到无声通知</string>
     <string name="ChannelSignMessages">消息署名</string>
     <string name="ChannelSignMessagesInfo">在管理员发送的消息上附加他们的名字</string>
     <string name="EditAdmin">编辑管理员</string>
@@ -364,9 +364,9 @@
     <string name="ManageChannelMenu">管理频道</string>
     <string name="ChatHistory">新成员历史记录可见性</string>
     <string name="ChatHistoryVisible">可见</string>
-    <string name="ChatHistoryVisibleInfo">新成员将能够查看他们加入前发送的消息。</string>
+    <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
     <string name="ChatHistoryHidden">隐藏</string>
-    <string name="ChatHistoryHiddenInfo">新成员将不能查看更早的消息。</string>
+    <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
     <string name="ProfileJoinChannel">加入频道</string>
     <string name="ProfileJoinGroup">加入群组</string>
     <string name="GroupType">群组类型</string>
@@ -395,7 +395,7 @@
     <string name="StopPollAlertText">如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。</string>
     <string name="CancelPollAlertTitle">放弃发起投票</string>
     <string name="CancelPollAlertText">您确定要放弃发起新投票吗？</string>
-    <string name="Unvote">撤回选票</string>
+    <string name="Unvote">撤回我的投票</string>
     <string name="FinalResults">最终结果</string>
     <string name="NoVotes">无人投票</string>
     <string name="Vote_zero">%1$d 人已投票</string>
@@ -607,7 +607,7 @@
     <string name="ReportSpamAlert">您确定要举报此用户发送垃圾信息？</string>
     <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
     <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
-    <string name="NobodyLikesSpam1">抱歉，您现在只能给双向联系人发送信息。</string>
+    <string name="NobodyLikesSpam1">抱歉，您现在只能给双向联系人发送消息。</string>
     <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
     <string name="NobodyLikesSpam3">抱歉，目前您已被禁止在公开群组中发送消息。</string>
     <string name="MoreInfo">详情</string>
@@ -648,7 +648,7 @@
     <string name="SavedMessages">收藏夹</string>
     <string name="SavedMessagesInfo">转发至此以保存</string>
     <string name="ChatYourSelfName">你</string>
-    <string name="ChatYourSelfDescription1">转发信息到这里来保存它们</string>
+    <string name="ChatYourSelfDescription1">转发消息到这里来保存它们</string>
     <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
     <string name="ChatYourSelfDescription3">在任意设备上访问这个对话</string>
     <string name="ChatYourSelfDescription4">使用搜索来更快地查找信息</string>
@@ -669,9 +669,9 @@
     <string name="AttachStickersRestricted">此群组的管理员限制了您发送贴纸的能力至 %1$s</string>
     <string name="SendMessageRestricted">此群组的管理员限制了您在此发送消息的能力至 %1$s</string>
     <string name="AttachMediaRestrictedForever">此群组的管理员限制了您发送媒体文件的能力</string>
-    <string name="AttachInlineRestrictedForever">此群组的管理员限制了您在此发送机器人内容的权限</string>
-    <string name="AttachStickersRestrictedForever">此群组的管理员限制了您在此发送贴纸的权限</string>
-    <string name="SendMessageRestrictedForever">此群组的管理员限制了您在此发送消息的权限</string>
+    <string name="AttachInlineRestrictedForever">此群组的管理员限制了您在此发送机器人内容的能力</string>
+    <string name="AttachStickersRestrictedForever">此群组的管理员限制了您在此发送贴纸的能力</string>
+    <string name="SendMessageRestrictedForever">此群组的管理员限制了您在此发送消息的能力</string>
     <string name="ChatAdmin">管理员</string>
     <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
     <string name="UnreadMessages">未读消息</string>
@@ -836,7 +836,7 @@
     <!--set admins view-->
     <string name="SetAdminsTitle">管理员</string>
     <string name="SetAdminsAll">将所有成员都设为管理员</string>
-    <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和标识。</string>
+    <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
     <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、编辑群组名称和头像。</string>
     <!--group info view-->
     <string name="GroupMembers">成员</string>
@@ -946,7 +946,7 @@
     <string name="SuggestStickers">通过 Emoji 推荐贴纸</string>
     <string name="SuggestStickersAll">全部贴纸包</string>
     <string name="SuggestStickersInstalled">已添加的贴纸包</string>
-    <string name="SuggestStickersNone">无</string>
+    <string name="SuggestStickersNone">从不推荐</string>
     <string name="FeaturedStickersInfo">这些是当前 Telegram 的热门贴纸，您可以通过机器人 @stickers 添加自定义贴纸。</string>
     <string name="ArchivedStickers">已归档贴纸</string>
     <string name="ArchivedMasks">已归档装饰</string>
@@ -1122,9 +1122,9 @@
     <string name="NotificationsPriorityUrgent">紧急</string>
     <string name="RepeatNotificationsNever">从不</string>
     <string name="RepeatNotifications">重复通知</string>
-    <string name="PhoneNumberHelp">更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息、文件、联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
+    <string name="PhoneNumberHelp">您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息、文件、联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
     <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</string>
-    <string name="PhoneNumberChange">更改手机号码</string>
+    <string name="PhoneNumberChange">更换手机号码</string>
     <string name="ChangePhoneNewNumber">新手机号码</string>
     <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
     <string name="ChangePhoneNumberOccupied">手机号码 %1$s 已经和一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。</string>
@@ -1260,7 +1260,7 @@
     <string name="PassportAddBillInfo">上传您的水电费账单的扫描件</string>
     <string name="PassportAddBankInfo">上传您的银行对账单的扫描件</string>
     <string name="PassportAddAgreementInfo">上传您的租赁合同的扫描件</string>
-    <string name="PassportAddPassportRegistrationInfo">上传您的护照信息页的扫描件</string>
+    <string name="PassportAddPassportRegistrationInfo">上传一份护照信息页的扫描件</string>
     <string name="PassportAddTemporaryRegistrationInfo">上传您的临时居住证明的扫描件</string>
     <string name="PassportAddAddressUploadInfo">为了确定您的地址，请上传被选中的文件的所有页面的扫描件或照片。</string>
     <string name="PassportAddTranslationBillInfo">上传一份经过认证的水电费账单英语翻译扫描件。</string>
@@ -1287,7 +1287,7 @@
     <string name="PassportDeletePhoneAlert">删除手机号码？</string>
     <string name="PassportPhoneInfo">输入您的手机号码</string>
     <string name="PassportPhoneUseSame">使用 %1$s</string>
-    <string name="PassportPhoneUseSameInfo">使用与 Telegram 帐号相同的手机号码</string>
+    <string name="PassportPhoneUseSameInfo">使用当前 Telegram 帐户绑定的手机号。</string>
     <string name="PassportPhoneUseSameEmailInfo">使用您登记在 Telegram 上的邮件地址。</string>
     <string name="PassportPhoneUseOther">或输入一个新的手机号码</string>
     <string name="PassportPhoneUploadInfo">注意：您将会收到发送至您提供的手机号码上的一份验证码。</string>
@@ -1296,11 +1296,11 @@
     <string name="PassportEmailInfo">输入您的邮箱地址</string>
     <string name="PassportEmailUploadInfo">注意：您将会收到发送至您提供的邮件地址上的一份验证码。</string>
     <string name="PassportEmailCode">验证码</string>
-    <string name="PassportEmailVerifyInfo">请输入我们刚刚发送到 %1$s 的验证码。</string>
-    <string name="PassportSelfRequest">请输入密码访问个人信息</string>
+    <string name="PassportEmailVerifyInfo">请输入我们刚刚向 %1$s 发送的验证码。</string>
+    <string name="PassportSelfRequest">请输入密码来访问个人信息</string>
     <string name="PassportRequest">**%1$s** 请求访问您的个人信息来注册其服务。</string>
     <string name="PassportRequestPasswordInfo">请输入密码以访问个人信息</string>
-    <string name="PassportPolicy">您同意 *%1$s 隐私政策* 并允许机器人 @%2$s 向您发送信息。</string>
+    <string name="PassportPolicy">您同意 *%1$s 隐私政策* 并允许机器人 @%2$s 向您发送消息。</string>
     <string name="PassportNoPolicy">您的档案将直接发往 %1$s 并允许 @%2$s 后续向您发送消息。</string>
     <string name="PassportAuthorize">授权</string>
     <string name="PassportAddPassport">添加护照</string>
@@ -1476,7 +1476,7 @@
     <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但您的聊天内容会在后台应用列表中展现，无论是否启用锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
     <string name="TooManyTries">尝试次数过多\n请在 %1$s 后重试</string>
     <!--media view-->
-    <string name="SharedFilesTab">文档</string>
+    <string name="SharedFilesTab">文件</string>
     <string name="SharedMediaTab">图片与视频</string>
     <string name="SharedLinksTab">链接</string>
     <string name="SharedMusicTab">音乐</string>
@@ -1513,7 +1513,7 @@
     <string name="SharedPlace">地点</string>
     <string name="AccurateTo">精确到 %1$s</string>
     <string name="NearbyPlaces">或选择一个位置</string>
-    <string name="ShowNearbyPlaces">向上拖动查看附近的地方</string>
+    <string name="ShowNearbyPlaces">向上拖动查看附近地点</string>
     <string name="LiveLocations">实时位置</string>
     <string name="SendLiveLocationFor15m">15 分钟</string>
     <string name="SendLiveLocationFor1h">1 个小时</string>
@@ -1604,7 +1604,7 @@
     <string name="PleaseEnterFirstPassword">请输入一个密码</string>
     <string name="PleaseEnterPassword">请输入新的解锁密码</string>
     <string name="PleaseReEnterPassword">请再次输入密码</string>
-    <string name="RecoveryEmail">辅助邮箱</string>
+    <string name="RecoveryEmail">恢复邮箱</string>
     <string name="YourEmail">您的电子邮箱地址</string>
     <string name="YourEmailCode">您的邮件验证码</string>
     <string name="YourEmailCodeInfo">请输入您在 %1$s 上收到的代码，以确认您的电子邮件地址</string>
@@ -1619,25 +1619,25 @@
     <string name="YourEmailSuccessText">您的两步验证密码恢复邮箱现已启用。</string>
     <string name="ChangePassword">更改密码</string>
     <string name="TurnPasswordOff">删除密码</string>
-    <string name="SetRecoveryEmail">设置密码找回邮箱</string>
-    <string name="ChangeRecoveryEmail">更改密码找回邮箱</string>
+    <string name="SetRecoveryEmail">设置恢复邮箱</string>
+    <string name="ChangeRecoveryEmail">更改恢复邮箱</string>
     <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
     <string name="CancelPasswordQuestion">您确定要终止两步验证设置？</string>
-    <string name="CancelEmailQuestion">您确定要终止恢复邮箱设置？</string>
-    <string name="TurnPasswordOffPassport">警告！所有您储存在 Telegram Passport 中的数据将丢失！</string>
+    <string name="CancelEmailQuestion">您确定要放弃设置恢复邮箱吗？</string>
+    <string name="TurnPasswordOffPassport">警告！所有储存在 Telegram Passport 中的数据都将丢失！</string>
     <string name="PasswordHint">密码提示</string>
     <string name="PasswordHintText">请设置一个密码提示</string>
     <string name="PasswordDoNotMatch">密码不正确</string>
     <string name="AbortPassword">关闭两步验证</string>
     <string name="AbortEmail">终止恢复邮箱设置</string>
-    <string name="EmailPasswordConfirmText2">要完成两步验证设置，请检查您的电子邮件（不要忘记垃圾邮件文件夹）并输入我们刚刚发送给您的代码。</string>
+    <string name="EmailPasswordConfirmText2">要完成两步验证设置，请检查您的电子邮箱（不要忘记垃圾邮件文件夹）并输入我们刚刚发送给您的代码。</string>
     <string name="EmailPasswordConfirmText3">要完成重新设置的电子邮件设置，请检查 %1$s（不要忘记垃圾邮件文件夹）并输入我们刚发送给您的代码。</string>
     <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
     <string name="PasswordEmailInvalid">无效的邮件地址。 请检查您是否输入正确，然后重试。</string>
     <string name="RestorePasswordNoEmailTitle">抱歉</string>
-    <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
+    <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
     <string name="RestorePasswordResetAccount">重置帐户</string>
-    <string name="RestoreEmailSent">我们已经将验证码发送到了您的邮箱：\n\n%1$s</string>
+    <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
     <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐户两个选择。</string>
@@ -1724,7 +1724,7 @@
     <string name="RemoveFromListText">长按可删除该用户。</string>
     <string name="GroupsAndChannels">邀请权限控制</string>
     <string name="WhoCanAddMe">谁可以邀请我进入群组？</string>
-    <string name="WhoCanAddMeInfo">您可以限制其他人将您添加到群组或频道的权限</string>
+    <string name="WhoCanAddMeInfo">您可以精确控制其他人能否邀请您进入任意群组或频道。</string>
     <string name="AlwaysAllow">总是允许</string>
     <string name="NeverAllow">从不允许</string>
     <string name="AlwaysAllowPlaceholder">总是允许...</string>
@@ -1734,7 +1734,7 @@
     <string name="InviteToGroupError">抱歉，根据该用户的隐私设置，您不能将其添加到群组。</string>
     <string name="InviteToChannelError">抱歉，根据该用户的隐私设置，您不能将其添加到频道。</string>
     <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
-    <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。</string>
+    <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
     <string name="SyncContactsDelete">删除已同步联系人</string>
     <string name="SuggestContacts">推荐频繁往来的联系人</string>
     <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
@@ -1777,7 +1777,7 @@
     <string name="Set">确定</string>
     <string name="OK">确定</string>
     <string name="Stop">停止</string>
-    <string name="WaitMore">等等</string>
+    <string name="WaitMore">继续等待</string>
     <string name="Continue">继续</string>
     <string name="CreateLink">创建链接</string>
     <string name="Crop">裁剪</string>
@@ -1919,8 +1919,8 @@
     <string name="AddAdminErrorNotAMember">抱歉，您无法将这位用户设为管理员。因为该用户不是此群组的成员，且您也无权添加该用户。</string>
     <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在黑名单中，并且您无权解除其封禁。</string>
     <string name="AddBannedErrorAdmin">抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也无法撤销其管理员权限。</string>
-    <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的权限。</string>
-    <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的权限。</string>
+    <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的能力。</string>
+    <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的能力。</string>
     <string name="TosDecline">我们对此感到非常抱歉，但这也意味着您现在无法注册 Telegram。\n\n与其它软件不同，我们不会利用您的个人数据来导向广告或其它商业目的。Telegram 储存的所有文件都是为了给您创造一个功能丰富的云服务体验。 您可以在「设置」—「隐私和安全」 里调整我们使用您数据的方式（例如：删除已同步的联系人）。\n\n但若您完全无法接受 Telegram 的云数据政策，我们将无法为您提供服务。</string>
     <string name="TosAgeTitle">年龄验证</string>
     <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
@@ -2185,12 +2185,12 @@
     <string name="Stickers_few">%1$d 张贴纸</string>
     <string name="Stickers_many">%1$d 张贴纸</string>
     <string name="Stickers_other">%1$d 张贴纸</string>
-    <string name="Subscribers_zero">%1$d 个订阅者</string>
-    <string name="Subscribers_one">%1$d 个订阅者</string>
-    <string name="Subscribers_two">%1$d 个订阅者</string>
-    <string name="Subscribers_few">%1$d 个订阅者</string>
-    <string name="Subscribers_many">%1$d 个订阅者</string>
-    <string name="Subscribers_other">%1$d 个订阅者</string>
+    <string name="Subscribers_zero">%1$d 位订阅者</string>
+    <string name="Subscribers_one">%1$d 位订阅者</string>
+    <string name="Subscribers_two">%1$d 位订阅者</string>
+    <string name="Subscribers_few">%1$d 位订阅者</string>
+    <string name="Subscribers_many">%1$d 位订阅者</string>
+    <string name="Subscribers_other">%1$d 位订阅者</string>
     <string name="Exception_zero">%1$d 个例外</string>
     <string name="Exception_one">%1$d 个例外</string>
     <string name="Exception_two">%1$d 个例外</string>
@@ -2361,7 +2361,7 @@
   <string name="PassportSDK_LogInWithTelegram">通过 Telegram 登录</string>
   <string name="PassportSDK_OpenGooglePlay">打开 Google Play</string>
   <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
-  <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
+  <string name="PendingEmailText">您的两步验证恢复邮箱 %1$s 正等待验证。</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>

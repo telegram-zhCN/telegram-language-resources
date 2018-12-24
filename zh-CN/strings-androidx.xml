@@ -98,7 +98,7 @@
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
-  <string name="location_personNearby">正在附近</string>
+  <string name="location_personNearby">在附近</string>
   <string name="location_personAwayMeters">距您 %1$s 米远</string>
   <string name="location_personAwayKilometers">距您 %1$s 千米远</string>
   <string name="status_Online">在线</string>
@@ -197,7 +197,7 @@
   
   <string name="xMembers_other">%1$s 位成员</string>
   
-  <string name="xSubscribers_other">%1$s 个订阅者</string>
+  <string name="xSubscribers_other">%1$s 位订阅者</string>
   
   <string name="xMin_other">%1$s 分</string>
   
@@ -252,7 +252,7 @@
   <string name="ChatContentVoice">语音留言</string>
   <string name="ChatContentRoundVideo">视频留言</string>
   <string name="ChatContentVideo">视频</string>
-  <string name="ChatContentFile">文档</string>
+  <string name="ChatContentFile">文件</string>
   <string name="ChatContentPhoto">图片</string>
   <string name="ChatContentAnimation">GIF</string>
   <string name="ChatContentSong">%1$s – %2$s</string>
@@ -262,7 +262,7 @@
   <string name="Photo">图片</string>
   <string name="Video">视频</string>
   <string name="sticker">%1$s 贴纸</string>
-  <string name="File">文档</string>
+  <string name="File">文件</string>
   <string name="Location">位置</string>
   <string name="AttachContact">联系人</string>
   <string name="FromYou">你</string>
@@ -373,7 +373,7 @@
   <string name="ChannelCreator">创建者</string>
   <string name="Administrator">管理员</string>
   <string name="SetAdminsAll">将所有成员都设为管理员</string>
-  <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和标识。</string>
+  <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
   <string name="AdminsAreSelectedHint">只有管理员能够添加和移除成员、编辑此群组的名称和头像。</string>
   <string name="LinkInfo">任何已安装 Telegram 的用户都可以通过此链接加入您的群组。</string>
   <string name="ChannelAddAdmin">添加管理员</string>
@@ -391,7 +391,7 @@
   <string name="RevokeLink">撤销链接</string>
   <string name="GeneratingLink">正在生成链接...</string>
   <string name="DiscardChanges">放弃修改</string>
-  <string name="ParticipantLimitReached">您不能向此群组中添加更多成员</string>
+  <string name="ParticipantLimitReached">您无法向此群组中添加更多成员</string>
   <string name="Reply">回复</string>
   <string name="Select">选择</string>
   <string name="Open">打开</string>
@@ -527,7 +527,7 @@
 
 
   <string name="Locating">正在定位...</string>
-  <string name="NearbyPlaces">附近的地点</string>
+  <string name="NearbyPlaces">附近地点</string>
   <string name="FoundPlaces">找到的地点</string>
   <string name="SendCurrentLocation">发送我的位置</string>
   <string name="SearchForPlaces">搜索附近地点</string>
@@ -584,8 +584,8 @@
   <string name="EncryptedDescription4">不允许转发</string>
   <string name="EditMessage">编辑消息</string>
   <string name="NotNow">不是现在</string>
-  <string name="ChannelNotifyMembersInfoOn">消息发布后向将订阅者推送通知</string>
-  <string name="ChannelNotifyMembersInfoOff">订阅者将接收一个无声通知</string>
+  <string name="ChannelNotifyMembersInfoOn">消息发布后订阅者将收到推送通知</string>
+  <string name="ChannelNotifyMembersInfoOff">消息发布后订阅者将收到无声通知</string>
   <string name="ChannelSilentBroadcast">静默广播</string>
   <string name="MessageLifetime">阅后即焚计时器</string>
   <string name="Done">完成</string>
@@ -655,7 +655,7 @@
   <string name="MyContacts">我的联系人</string>
   <string name="Nobody">不允许任何人</string>
   <string name="WhoCanAddYouToGroupsAndChannels">谁可以邀请您到群组或频道？</string>
-  <string name="WhoCanAddMeInfo">您可以精确控制其他人邀请您进入群组或频道的权限。</string>
+  <string name="WhoCanAddMeInfo">您可以精确控制其他人能否邀请您进入任意群组或频道。</string>
   <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
   <string name="CustomHelp">重要提示：对于您不愿意暴露最后上线时间的对象，他们最后的上线时间您也将无法看到。取而代之的是大概的上线时间（如：最近、一周内、一个月内）。</string>
   <string name="AlwaysShareWith">总是共享给</string>
@@ -670,8 +670,8 @@
   <string name="EnabledPasswordText">您已启用两步验证。\n今后您在新设备登录时，将需要输入您设置的附加密码，才能登录您的 Telegram 帐号。</string>
   <string name="ChangePassword">更改密码</string>
   <string name="DisablePassword">禁用密码</string>
-  <string name="SetRecoveryEmail">设置密码恢复邮箱</string>
-  <string name="ChangeRecoveryEmail">更改密码恢复邮箱</string>
+  <string name="SetRecoveryEmail">设置恢复邮箱</string>
+  <string name="ChangeRecoveryEmail">更改恢复邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
   <string name="YourPassword">您的密码</string>
   <string name="EnterAPassword">请输入密码</string>
@@ -680,8 +680,8 @@
   <string name="EnterANewEmail">请输入新邮箱地址</string>
   <string name="ForgotPassword">忘记密码？</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
-  <string name="SinceNotProvided">因为您再设置密码时没有同时提供密码恢复邮箱，您剩下的选择只有回忆起您的密码或者重置您的账户。</string>
-  <string name="PendingEmailText">您的密码恢复邮箱 %1$s 正等待验证。</string>
+  <string name="SinceNotProvided">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
+  <string name="PendingEmailText">您的两步验证恢复邮箱 %1$s 正等待验证。</string>
   <string name="CreateAHintForYourPassword">请设置一个密码提示</string>
   <string name="HavingTroubleAccessing">无法访问您的密码恢复邮箱\n %1$s?</string>
   <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐户两个选择。</string>
@@ -695,7 +695,7 @@
   <string name="Warning">警告</string>
   <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
   <string name="PasswordDoNotMatch">密码不匹配</string>
-  <string name="CheckYourVerificationEmail">请检查您的电子邮箱，并点击邮件中的验证链接来完成两步验证的设置。如果找不到验证邮件，请检查垃圾邮件文件夹。</string>
+  <string name="CheckYourVerificationEmail">请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。</string>
   <string name="InvalidCode">验证码无效，请重试。</string>
   <string name="AbortPassword">取消两步验证设置</string>
   <string name="AwaitingEmailConfirmation">正在等待确认电子邮箱...</string>
@@ -835,7 +835,7 @@
   <string name="ThisLinkWillOpen">此链接会在 Telegram 中打开一个与您的会话窗口：</string>
   <string name="ThisLinkOpens">此链接会在 Telegram 中打开一个与您的会话窗口：\n</string>
   <string name="FeatureUnavailable">抱歉，此功能在您的国家暂时不可用</string>
-  <string name="PhoneNumberChange">更改号码</string>
+  <string name="PhoneNumberChange">更换手机号码</string>
   <string name="PhoneNumberChangeDone">继续</string>
   <string name="PhoneNumberHelp">更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
   <string name="PhoneNumberAlert">所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会即时获取您的新号码。</string>
@@ -1053,7 +1053,7 @@
   <string name="UseLessDataAlways">总是</string>
   <string name="MicrophonePermission">需要权限</string>
   <string name="MicrophonePermissionDesc">语音通话需要话筒录音权限。</string>
-  <string name="CallEmojiHint">如果这些表情符号也同时出现在 %1$s 的屏幕上，本次通话是 100%% 安全的。</string>
+  <string name="CallEmojiHint">如果这些 Emoji 也同时出现在 %1$s 的屏幕上，本次通话是 100%% 安全的。</string>
   <string name="ShowCall">转到当前通话</string>
   <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
   <string name="CallInProgressDesc">你正在与%1$s通话。 你想挂断电话并开始和%2$s 进行新的通话吗？</string>
@@ -1332,7 +1332,7 @@
   <string name="EventLogChannelUnrestricted">解封了 %1$s</string>
   <string name="EventLogGroupBanned">封禁了 %1$s\n\n时长：%2$s</string>
   <string name="EventLogEditedMessages">%1$s 编辑了这条消息：</string>
-  <string name="EventLogEditedCaption">%1$s 编辑了说明：</string>
+  <string name="EventLogEditedCaption">%1$s 编辑了说明:</string>
   <string name="EventLogRemovedCaption">%1$s 移除了说明：</string>
   <string name="EventLogOriginalMessages">原始消息</string>
   <string name="EventLogOriginalCaption">原说明</string>
@@ -1402,9 +1402,9 @@
   <string name="XMadeGroupHistoryVisible">%1$s 设置消息记录对新成员可见</string>
   <string name="XChangedGroupStickerSet">%1$s 更换了群组贴纸包</string>
   <string name="XRemovedGroupStickerSet">%1$s 删除了群组贴纸包</string>
-  <string name="ChatHistory">历史记录对新成员的可见性</string>
+  <string name="ChatHistory">新成员历史记录可见性</string>
   <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
-  <string name="ChatHistoryHiddenInfo">新成员将不能查看更早的消息。</string>
+  <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
   <string name="ChatHistoryHidden">不可见</string>
   <string name="ChatHistoryVisible">可见</string>
   <string name="DiscardCurrentChanges">放弃当前更改？</string>
@@ -1470,13 +1470,13 @@
   <string name="PaintModeFill">填充颜色</string>
   <string name="ChatAccessFailed">无法访问此对话</string>
   <string name="ChatAccessRestrictedGroup">您已被此群组封禁</string>
-  <string name="ChatAccessRestrictedChannel">您已被此频道封禁</string>
+  <string name="ChatAccessRestrictedChannel">您已被频道管理员封禁</string>
   <string name="ChatAccessPrivateGroup">此群组为私人群组</string>
   <string name="ChatAccessPrivateChannel">此频道为私人频道</string>
   <string name="YouCantInviteMembers">您不能添加成员到此对话</string>
   <string name="RecoveryCodeSent">我们已经将六位数字恢复码发送至您的邮箱 (%1$s)。请查阅您的邮件并将验证码输入到此处。</string>
   <string name="RecoveryCodeSentEmailUnknown">我们给您发送了一个六位数字恢复码。请查阅您的电子邮箱并将验证码输入到此处。</string>
-  <string name="RestoreEmailTroubleUnknown">无法访问您的密保邮箱？</string>
+  <string name="RestoreEmailTroubleUnknown">无法访问您的电子邮箱？</string>
   <string name="VoipInCallBranding">Telegram Call</string>
   <string name="PhoneCall">电话</string>
   <string name="SetAsCurrent">设置为当前头像</string>
@@ -1524,7 +1524,7 @@
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
-  <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。</string>
+  <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">禁用</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightScheduled">计划时段</string>
@@ -1573,8 +1573,8 @@
   <string name="xStrings_other">%1$s 个字符串</string>
   <string name="ShareLiveLocation">分享实时位置</string>
   <string name="SendLiveLocationInfo">在您移动时实时更新</string>
-  <string name="PullToSeePlaces">上拉查看周边地点</string>
-  <string name="LoadingPlaces">正在搜索周边...</string>
+  <string name="PullToSeePlaces">向上拖动查看附近地点</string>
+  <string name="LoadingPlaces">正在搜索附近地点...</string>
   <string name="NoPlacesFound">未找到地点</string>
   
   <string name="SharingLiveLocationToChats_other">你正在与 %1$s 个对话共享实时位置</string>
@@ -1655,7 +1655,7 @@
   <string name="SuggestStickers">通过 Emoji 推荐贴纸</string>
   <string name="SuggestStickersAll">已安装贴纸包 + 推荐贴纸</string>
   <string name="SuggestStickersInstalled">仅已安装贴纸包</string>
-  <string name="SuggestStickersNone">无</string>
+  <string name="SuggestStickersNone">从不推荐</string>
   <string name="MessageContentPreview">图像预览</string>
   <string name="PlaceSearchError">搜索地点出错</string>
   <string name="ShareAs">选择分享身份...</string>
@@ -1800,7 +1800,7 @@
   <string name="TabVideoMessages">视频留言</string>
   <string name="TabVideoMessagesLong">视频留言</string>
   <string name="TabGifs">GIF</string>
-  <string name="TabDocs">文档</string>
+  <string name="TabDocs">文件</string>
   <string name="TabLinks">链接</string>
   <string name="TabAudio">音乐</string>
   <string name="TabSharedGroups">共同群组</string>
@@ -1945,7 +1945,7 @@
   <string name="json_3_text3">&#128564;</string>
   <string name="json_3_text4">而且它支持加密对话，比如我们现在所用的，这是端到端加密！</string>
   <string name="json_3_text5">端到端加密？加密到哪？？</string>
-  <string name="json_3_text6">啊，忘了它吧。你还可以发送定时销毁信息！看这个！</string>
+  <string name="json_3_text6">啊，忘了它吧。你还可以发送定时销毁消息！看这个！</string>
   <string name="json_3_text7">&#128561;&#128584;&#128077;</string>
 
   <string name="json_4_name">斯派斯·丹尼尔</string>

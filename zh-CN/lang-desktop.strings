@@ -208,7 +208,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_wrong_code" = "您输入的验证码无效，请重试。";
 "lng_signin_try_password" = "无法访问您的密保邮箱？";
 "lng_signin_password_removed" = "您已停用两步验证\n您可以在「设置」中重新启用";
-"lng_signin_no_email_forgot" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
+"lng_signin_no_email_forgot" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 "lng_signin_cant_email_forgot" = "如果您无法恢复对这个邮箱账户的访问权限，您现在只能尝试记起您的密码或者重置账户。";
 "lng_signin_reset_account" = "重置账号";
 "lng_signin_sure_reset" = "警告！\n\n您将会丢失您所有的对话和消息，以及任何您分享的媒体和文件！\n\n您确定要重置您的帐户吗？";
@@ -352,7 +352,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_username_add" = "设置用户名";
 "lng_settings_close_sure" = "你确定你要关闭此页吗？你尚未保存任何更改。";
 //"lng_settings_peer_to_peer" = "Peer-to-Peer";
-"lng_settings_peer_to_peer_about" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。";
+"lng_settings_peer_to_peer_about" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 "lng_settings_advanced" = "高级";
 "lng_settings_stickers_emoji" = "贴纸和 Emoji";
 "lng_settings_messages" = "消息";
@@ -453,7 +453,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_need_unblock" = "请先解锁";
 
 "lng_cloud_password_waiting_code" = "验证码已发送到 {email}...";
-"lng_cloud_password_confirm" = "确认辅助邮箱";
+"lng_cloud_password_confirm" = "确认恢复邮箱";
 "lng_cloud_password_change" = "修改两步验证密码";
 "lng_cloud_password_create" = "设置两步验证密码";
 "lng_cloud_password_remove" = "删除两步验证密码";
@@ -466,10 +466,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_hint" = "设置密码提示";
 "lng_cloud_password_change_hint" = "输入新密码的提示";
 "lng_cloud_password_bad" = "密码与密码提示不能相同";
-"lng_cloud_password_email" = "输入恢复密码使用的电子邮箱";
+"lng_cloud_password_email" = "输入一个恢复邮箱";
 "lng_cloud_password_bad_email" = "邮箱地址不正确，请重新输入。";
 "lng_cloud_password_about" = "当您在新设备登录时，除了输入短信验证码外，还要输入此密码。";
-"lng_cloud_password_about_recover" = "警告！您确定不设置密保邮箱？\n\n一旦您忘记密码，您将无法再登录您的 Telegram 账号。";
+"lng_cloud_password_about_recover" = "警告！您确定不设置恢复邮箱吗？\n\n一旦您忘记密码，您将无法再登录您的 Telegram 账号。";
 "lng_cloud_password_skip_email" = "跳过";
 "lng_cloud_password_almost" = "验证链接已发送到您的邮箱，\n两步验证会在您打开验证链接后正式启用。";
 "lng_cloud_password_was_set" = "两步验证已开启";
@@ -478,7 +478,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_differ" = "密码不匹配";
 "lng_cloud_password_wrong" = "密码错误";
 "lng_cloud_password_is_same" = "密码修改失败";
-"lng_cloud_password_passport_losing" = "警告！所有您储存在 Telegram Passport 中的数据将丢失！";
+"lng_cloud_password_passport_losing" = "警告！所有储存在 Telegram Passport 中的数据都将丢失！";
 "lng_cloud_password_resend" = "重新发送验证码";
 "lng_cloud_password_resent" = "验证码已重新发送。";
 
@@ -621,7 +621,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_change_phone_description" = "您可以在此更改您注册 Telegram 的手机号码。\n您的帐户和所有的云端数据——消息，媒体，联系人等\n将会被迁移到新的手机号码。\n\n[b]注意[/b]：如果您的 Telegram 联系人有您的旧号码，\n并且您没有在 Telegram 里屏蔽他们，\n您的[b]新号码[/b]将被添加到他们的通讯录里。";
 "lng_change_phone_warning" = "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。";
 "lng_change_phone_occupied" = "手机号码 {phone} 已经和另一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。";
-"lng_change_phone_button" = "更改手机号码";
+"lng_change_phone_button" = "更换手机号码";
 "lng_change_phone_new_title" = "输入新的手机号码";
 "lng_change_phone_new_description" = "我们将会给您的新手机号码发送一条带有验证码的短信。";
 "lng_change_phone_new_submit" = "提交";
@@ -775,7 +775,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_administrators" = "管理员";
 "lng_manage_peer_banned_users" = "被封禁的用户";
 "lng_manage_peer_restricted_users" = "受限的用户";
-"lng_manage_history_visibility_title" = "历史记录对新用户";
+"lng_manage_history_visibility_title" = "历史记录对新成员";
 "lng_manage_history_visibility_shown" = "可见";
 "lng_manage_history_visibility_shown_about" = "新成员将可以查看所有消息记录。";
 "lng_manage_history_visibility_hidden" = "不可见";
@@ -807,8 +807,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_blocked_list_about" = "被封禁的用户将会从频道中移除。\n他们不能使用邀请链接再次加入。";
 
 "lng_chat_all_members_admins" = "将所有成员设为管理员";
-"lng_chat_about_all_admins" = "所有成员可以添加新成员、编辑群组名称及图片。";
-"lng_chat_about_admins" = "只有管理员可以添加及移除成员、编辑群组名称及图片。";
+"lng_chat_about_all_admins" = "所有成员可以添加新成员、编辑群组名称及头像。";
+"lng_chat_about_admins" = "只有管理员可以添加及移除成员、编辑群组名称及头像。";
 
 "lng_participant_filter" = "搜索";
 "lng_participant_invite" = "邀请";
@@ -933,7 +933,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_migrate_learn_more" = "详情 »";
 "lng_profile_migrate_button" = "升级为超级群组";
 "lng_profile_convert_title" = "升级为超级群组";
-"lng_profile_convert_feature1" = "— 新成员可能可以看到所有聊天记录";
+"lng_profile_convert_feature1" = "— 取决于设置，新成员可能看到所有聊天记录";
 "lng_profile_convert_feature2" = "— 所有成员将看不到已删除的消息";
 "lng_profile_convert_feature3" = "— 管理员可以为群组添加一个简介";
 "lng_profile_convert_feature4" = "— 创建者可以给群组设置一个公开链接";
@@ -1077,7 +1077,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_spam_sure_group" = "您确定要举报该群组发布垃圾信息？";
 "lng_report_spam_sure_channel" = "您确定要举报该频道发布垃圾信息？";
 "lng_report_spam_ok" = "举报";
-"lng_cant_send_to_not_contact" = "抱歉，您现在只能给\n双向联系人发送信息。\n{more_info}";
+"lng_cant_send_to_not_contact" = "抱歉，您现在只能给\n双向联系人发送消息。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，您现在只能将\n双向联系人加入群组。\n{more_info}";
 "lng_cant_more_info" = "详情 »";
 "lng_cant_invite_banned" = "抱歉，只有管理员可以添加此用户。";
@@ -1090,8 +1090,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_broadcast_ph" = "发布消息...";
 "lng_broadcast_silent_ph" = "静默广播..";
 "lng_record_cancel" = "将光标移出此处可取消发送";
-"lng_will_be_notified" = "消息发布后用户会收到通知";
-"lng_wont_be_notified" = "订阅者将接收一个无声通知";
+"lng_will_be_notified" = "消息发布后订阅者将收到推送通知";
+"lng_wont_be_notified" = "消息发布后订阅者将收到无声通知";
 "lng_willbe_history" = "请选择一个会话开始聊天";
 "lng_from_you" = "您";
 "lng_from_draft" = "草稿";
@@ -1102,7 +1102,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_unmute" = "取消静音";
 "lng_saved_messages" = "收藏夹";
 "lng_saved_short" = "保存";
-"lng_saved_forward_here" = "转发信息到这里以便快速访问";
+"lng_saved_forward_here" = "转发消息到这里以便快速访问";
 
 "lng_dialogs_text_with_from" = "{from_part} {message}";
 "lng_dialogs_text_from_wrapped" = "{from}:";
@@ -1370,7 +1370,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_full_name" = "{first_name} {last_name}";
 
 "lng_confirm_phone_link_invalid" = "这个链接已损坏或已过期。";
-"lng_confirm_phone_title" = "撤销账号重置请求";
+"lng_confirm_phone_title" = "撤销帐号重置请求";
 "lng_confirm_phone_about" = "有人通过输入您的手机号码 {phone} 尝试请求删除您的 Telegram 账号数据并且重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。";
 "lng_confirm_phone_success" = "成功！\n您的账号 {phone} 的删除请求已经被撤销。您现在可以关闭这个窗口。";
 "lng_confirm_phone_send" = "发送";
@@ -1474,11 +1474,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_chat_banned_custom" = "自定义";
 "lng_rights_chat_banned_custom_date" = "直至 {date}";
 
-"lng_restricted_send_message" = "此群组的管理员限制了您在此发送消息的权限";
-"lng_restricted_send_media" = "此群组的管理员限制了您在此发送媒体文件的权限";
-"lng_restricted_send_stickers" = "此群组的管理员限制了您在此发送贴纸的权限";
-"lng_restricted_send_gifs" = "此群组的管理员限制了您在此发送 GIF 的权限";
-"lng_restricted_send_inline" = "此群组的管理员限制了您在此发送机器人内容的权限";
+"lng_restricted_send_message" = "此群组的管理员限制了您在此发送消息的能力。";
+"lng_restricted_send_media" = "此群组的管理员限制了您在此发送媒体文件的能力。";
+"lng_restricted_send_stickers" = "此群组的管理员限制了您在此发送贴纸的能力";
+"lng_restricted_send_gifs" = "此群组的管理员限制了您在此发送 GIF 的能力";
+"lng_restricted_send_inline" = "此群组的管理员限制了您在此发送机器人内容的能力。";
 
 "lng_restricted_list_title" = "受限的用户";
 "lng_banned_list_title" = "被封禁的用户";
@@ -1531,7 +1531,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_history_made_visible" = "{from} 设置消息记录对新成员可见";
 "lng_admin_log_pinned_message" = "{from} 置顶了消息：";
 "lng_admin_log_unpinned_message" = "{from} 取消了消息置顶";
-"lng_admin_log_edited_caption" = "{from} 编辑了说明：";
+"lng_admin_log_edited_caption" = "{from} 编辑了说明:";
 "lng_admin_log_removed_caption" = "{from} 移除了说明";
 "lng_admin_log_previous_caption" = "原始说明";
 "lng_admin_log_edited_message" = "{from} 编辑了消息：";
@@ -1645,7 +1645,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_address_agreement" = "租赁合同";
 "lng_passport_address_agreement_upload" = "上传您的租赁合同的扫描件";
 "lng_passport_address_registration" = "护照注册信息";
-"lng_passport_address_registration_upload" = "上传您的护照的信息页的扫描件";
+"lng_passport_address_registration_upload" = "上传一份护照信息页的扫描件";
 "lng_passport_address_temporary" = "临时居住证明";
 "lng_passport_address_temporary_upload" = "上传您的临时居住证明的扫描件";
 "lng_passport_address_about" = "为了确定您的地址，请上传被选中的证件的（所有页面的）扫描件或照片。";
@@ -1658,8 +1658,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_email_description" = "输入您的邮箱地址";
 "lng_passport_identity_selfie" = "拍一张和你的证件一起的自拍照";
 "lng_passport_translation_needed" = "添加您的证件的一份英文翻译件";
-"lng_passport_accept_allow" = "您同意 {policy} 并允许机器人 {bot} 向您发送信息。";
-"lng_passport_allow" = "您允许机器人 {bot} 向您发送信息。";
+"lng_passport_accept_allow" = "您同意 {policy} 并允许机器人 {bot} 向您发送消息。";
+"lng_passport_allow" = "您允许机器人 {bot} 向您发送消息。";
 "lng_passport_policy" = "{bot} 隐私政策";
 "lng_passport_authorize" = "授权";
 "lng_passport_form_error" = "无法获得授权表单。";
@@ -1715,7 +1715,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_postcode" = "邮政编码";
 "lng_passport_translation" = "翻译";
 "lng_passport_use_existing" = "使用 {existing}";
-"lng_passport_use_existing_phone" = "使用与 Telegram 帐号相同的手机号码";
+"lng_passport_use_existing_phone" = "使用当前 Telegram 帐户绑定的手机号。";
 "lng_passport_new_phone" = "或输入一个新的手机号码";
 "lng_passport_new_phone_code" = "注意：您将会收到发送至您提供的手机号码上的一份验证码。";
 "lng_passport_use_existing_email" = "使用您登记在 Telegram 上的邮件地址。";
@@ -1807,7 +1807,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_suggest_title" = "数据导出已准备好";
 "lng_export_suggest_text" = "您现在可以下载您请求导出的数据了。您想要开始下载数据了吗？";
 "lng_export_suggest_cancel" = "不是现在";
-"lng_export_about_telegram" = "这里是您请求的全部数据。请记住：Telegram 并不将您的数据用于广告定位也不出售您的数据。Telegram 只储存用于提供安全且功能丰富的云服务所需的信息。\n\n您可以在移动设备上打开 设备 > 隐私和安全 来检查相关设置。";
+"lng_export_about_telegram" = "这里是您请求导出的全部数据。请记住：Telegram 并不将您的数据用于广告定位也不出售您的数据。Telegram 只储存用于提供安全且功能丰富的云服务所需的信息。\n\n您可以在移动设备上打开 设备 > 隐私和安全 来检查相关设置。";
 "lng_export_about_contacts" = "如果您同意，您的联系人将会被即时同步至 Telegram。有赖于此，您可以很轻松地切换到 Telegram 而不失去您的社交网络，以及在您的所有设备上与朋友聊天。我们使用关于您的联系人的数据以在他们开始使用 Telegram 时提醒您，以及保证您所看到的联系人的名称是您通讯录中的名称而不是他们自己选择的昵称。\n\n您可以在移动设备上的 设置 > 隐私和安全 中禁止联系人同步功能或是删除已被同步的联系人数据。";
 "lng_export_about_frequent" = "该项评分用以显示您最近常联系的人。Telegram 使用这些数据来填充搜索部分顶部的“人脉”框。该项评分也会分析消息框内机器人，以便软件可以在附件菜单中建议您最有可能使用的机器人（或者当您使用“@”开始新的消息时）。\n\n如果您要删除此项数据，请在移动设备上打开 设置 > 隐私和安全 并禁用“推荐常用联系人”功能（需要 Telegram iOS 客户端版本 v.4.8.3 或 Telegram Android 客户端版本 v.4.8.10 或更高版本）。";
 "lng_export_about_sessions" = "我们储存活动会话信息以在 设置 > 隐私和安全 > 显示所有活动会话 中显示您已连接的设备。";
@@ -1835,7 +1835,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_polls_votes_count#other" = "{count} 人已投票";
 "lng_polls_votes_none" = "无人投票";
-"lng_polls_retract" = "撤回选票";
+"lng_polls_retract" = "撤回我的投票";
 "lng_polls_stop" = "终止投票";
 "lng_polls_stop_warning" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
 "lng_polls_stop_sure" = "终止";

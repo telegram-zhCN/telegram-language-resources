@@ -781,7 +781,7 @@
 
 
 // Photo Editor
-"PhotoEditor.DiscardChanges" = "撤销";
+"PhotoEditor.DiscardChanges" = "放弃更改";
 
 "PhotoEditor.Original" = "原图";
 
@@ -819,9 +819,9 @@
 
 "Settings.PhoneNumber" = "更改号码";
 
-"PhoneNumberHelp.Help" = "更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
+"PhoneNumberHelp.Help" = "您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
 "PhoneNumberHelp.Alert" = "所有拥有当前号码，且未被屏蔽的 Telegram 联系人会自动获取新号码。";
-"PhoneNumberHelp.ChangeNumber" = "更改号码";
+"PhoneNumberHelp.ChangeNumber" = "更换手机号码";
 
 "ChangePhoneNumberNumber.Title" = "更改号码";
 "ChangePhoneNumberNumber.NewNumber" = "新号码";
@@ -1140,13 +1140,13 @@
 
 "TwoStepAuth.ChangePassword" = "更改密码";
 "TwoStepAuth.RemovePassword" = "关闭两步验证";
-"TwoStepAuth.SetupEmail" = "设置辅助邮箱";
-"TwoStepAuth.ChangeEmail" = "更改密码找回邮箱";
-"TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
+"TwoStepAuth.SetupEmail" = "设置恢复邮箱";
+"TwoStepAuth.ChangeEmail" = "更改恢复邮箱";
+"TwoStepAuth.PendingEmailHelp" = "您的两步验证恢复邮箱 %@ 正等待验证。";
 "TwoStepAuth.GenericHelp" = "两步验证已开启\n在登录 Telegram 时，请输入之前所设的密码。";
 
 "TwoStepAuth.ConfirmationTitle" = "两步验证";
-"TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";
 "TwoStepAuth.ConfirmationAbort" = "取消两步验证设置";
 
 "TwoStepAuth.SetupPasswordEnterPasswordNew" = "请设定密码：";
@@ -1161,20 +1161,20 @@
 "TwoStepAuth.EnterPasswordInvalid" = "密码无效，请重新输入。";
 "TwoStepAuth.EnterPasswordForgot" = "密码忘了？";
 
-"TwoStepAuth.EmailTitle" = "辅助邮箱";
+"TwoStepAuth.EmailTitle" = "恢复邮箱";
 "TwoStepAuth.EmailSkip" = "跳过";
 "TwoStepAuth.EmailSkipAlert" = "您确定不设置密码找回邮箱？\n\n一旦忘记密码，您将无法再登录此 Telegram 账号，并且无法恢复。";
 "TwoStepAuth.Email" = "电子邮箱";
 "TwoStepAuth.EmailPlaceholder" = "您的邮箱地址";
 "TwoStepAuth.EmailHelp" = "请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
 "TwoStepAuth.EmailInvalid" = "Invalid email address. Please try again.";
-"TwoStepAuth.EmailSent" = "We have sent you an email to confirm your address.";
+"TwoStepAuth.EmailSent" = "我们发送了一封邮件来验证此邮箱地址。";
 "TwoStepAuth.PasswordSet" = "两步验证密码现已启用。";
 "TwoStepAuth.PasswordRemoveConfirmation" = "关闭两步验证？";
 "TwoStepAuth.EmailCodeExpired" = "这个验证码已经过期。请重新获取。";
 
-"TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
-"TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的账号。";
+"TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
+"TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的帐户。";
 "TwoStepAuth.ResetAccountHelp" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
 "TwoStepAuth.ResetAccountConfirmation" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
 
@@ -1206,7 +1206,7 @@
 "Map.Locating" = "定位中...";
 "Map.ChooseAPlace" = "或选择一个位置";
 "Map.AccurateTo" = "精确到 %@";
-"Map.Search" = "搜索附近的位置";
+"Map.Search" = "搜索附近地点";
 "Map.ShowPlaces" = "显示位置";
 "Map.LoadError" = "呃，出错了。 请稍后再试。";
 "Map.LocatingError" = "定位失败";
@@ -1306,7 +1306,7 @@
 
 "Target.SelectGroup" = "选择群组";
 "Target.InviteToGroupConfirmation" = "将机器人添加到 \"%@\" ？";
-"Target.InviteToGroupErrorAlreadyInvited" = "机器人已在该群组";
+"Target.InviteToGroupErrorAlreadyInvited" = "该机器人已在此群组中。";
 "Bot.GenericBotStatus" = "机器人";
 "Bot.DescriptionTitle" = "它能做什么？";
 "Bot.GroupStatusReadsHistory" = "允许访问消息";
@@ -1540,7 +1540,7 @@
 "Watch.Compose.Send" = "发送";
 "Watch.Contacts.NoResults" = "未找到符合的联系人";
 "Watch.ChatList.NoConversationsTitle" = "尚无对话";
-"Watch.ChatList.NoConversationsText" = "点击「新消息」开始发送信息";
+"Watch.ChatList.NoConversationsText" = "点击「新消息」开始发送消息";
 "Watch.ChatList.Compose" = "新消息";
 
 "Watch.Conversation.Reply" = "回复";
@@ -1683,7 +1683,7 @@
 
 "Privacy.GroupsAndChannels" = "群组和频道";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "邀请权限控制";
-"Privacy.GroupsAndChannels.CustomHelp" = "您可以限制其他人将您添加到群组或频道的权限。";
+"Privacy.GroupsAndChannels.CustomHelp" = "您可以精确控制其他人能否邀请您进入任意群组或频道。";
 "Privacy.GroupsAndChannels.AlwaysAllow" = "总是允许";
 "Privacy.GroupsAndChannels.NeverAllow" = "从不允许";
 "Privacy.GroupsAndChannels.CustomShareHelp" = "在这里配置的权限将会覆盖全局设置。";
@@ -1700,7 +1700,7 @@
 "ChannelMembers.WhoCanAddMembers" = "邀请新成员权限";
 "ChannelMembers.WhoCanAddMembers.AllMembers" = "所有成员";
 "ChannelMembers.WhoCanAddMembers.Admins" = "仅管理员";
-"ChannelMembers.WhoCanAddMembersAllHelp" = "所有人都能添加成员";
+"ChannelMembers.WhoCanAddMembersAllHelp" = "所有人都能邀请新成员";
 "ChannelMembers.WhoCanAddMembersAdminsHelp" = "只有管理员能添加成员。";
 
 "ChannelMembers.GroupAdminsTitle" = "群组管理员";
@@ -1744,8 +1744,8 @@
 "Channel.EditMessageErrorGeneric" = "抱歉，您不能编辑这条消息。";
 
 "Conversation.InputTextSilentBroadcastPlaceholder" = "静默广播";
-"Conversation.SilentBroadcastTooltipOn" = "消息发布后向将订阅者推送通知";
-"Conversation.SilentBroadcastTooltipOff" = "订阅者将接收一个无声通知";
+"Conversation.SilentBroadcastTooltipOn" = "消息发布后订阅者将收到推送通知";
+"Conversation.SilentBroadcastTooltipOff" = "消息发布后订阅者将收到无声通知";
 
 "Settings.About" = "个人简介";
 "GroupInfo.LabelAdmin" = "管理员";
@@ -1874,7 +1874,7 @@
 
 
 
-"Invitation.Members_any" = "%@ 名成员：";
+"Invitation.Members_any" = "%@ 位成员：";
 
 
 
@@ -1882,7 +1882,7 @@
 "StickerPacksSettings.ArchivedPacks.Info" = "You can add up to 200 sticker sets.\nUnused sets are archived when you add more.";
 
 "Conversation.CloudStorageInfo.Title" = "您的云存储";
-"Conversation.ClousStorageInfo.Description1" = "• 转发信息到这来保存它们";
+"Conversation.ClousStorageInfo.Description1" = "• 转发消息到这来保存它们";
 "Conversation.ClousStorageInfo.Description2" = "• 发送媒体和文件来存储它们";
 "Conversation.ClousStorageInfo.Description3" = "• 在任意设备上访问这个会话";
 "Conversation.ClousStorageInfo.Description4" = "• 使用搜索来更快地找东西";
@@ -1907,7 +1907,7 @@
 "Login.SmsRequestState2" = "正在向 Telegram 请求发送短信...";
 "Login.SmsRequestState3" = "Telegram 已向您发送短信\n[仍未收到验证码？]";
 
-"CancelResetAccount.Title" = "取消账号重置";
+"CancelResetAccount.Title" = "撤销帐号重置请求";
 "CancelResetAccount.TextSMS" = "有个拥有你的电话号码 %@ 访问权限的人递交了删除您的 Telegram 账号、并重置两步验证密码的请求。\n\n如果你没有执行该操作，请输入我们刚刚发送给你的短信验证码。";
 
 "CancelResetAccount.Success" = "您的帐户 %@ 的删除请求已经被撤销。";
@@ -2059,7 +2059,7 @@ Unused sets are archived when you add more.";
 "NetworkUsageSettings.MediaImageDataSection" = "图片";
 "NetworkUsageSettings.MediaVideoDataSection" = "视频";
 "NetworkUsageSettings.MediaAudioDataSection" = "音乐";
-"NetworkUsageSettings.MediaDocumentDataSection" = "文档";
+"NetworkUsageSettings.MediaDocumentDataSection" = "文件";
 "NetworkUsageSettings.TotalSection" = "总字节数";
 "NetworkUsageSettings.BytesSent" = "已发送字节";
 "NetworkUsageSettings.BytesReceived" = "已接收字节";
@@ -2318,7 +2318,7 @@ Unused sets are archived when you add more.";
 "Call.PhoneCallInProgressMessage" = "你不能在电话通话时同时使用 Telegram 通话。";
 "Call.RecordingDisabledMessage" = "请在录制语音留言前结束当前通话。";
 
-"Call.EmojiDescription" = "如果这些表情符号也同时出现在 %@ 的屏幕上，本次通话是 100%% 安全的。";
+"Call.EmojiDescription" = "如果这些 Emoji 也同时出现在 %@ 的屏幕上，本次通话是 100%% 安全的。";
 
 "Message.VideoMessage" = "视频留言";
 
@@ -2329,7 +2329,7 @@ Unused sets are archived when you add more.";
 "UserInfo.PhoneCall" = "电话";
 
 "SharedMedia.CategoryMedia" = "已共享媒体";
-"SharedMedia.CategoryDocs" = "文档";
+"SharedMedia.CategoryDocs" = "文件";
 "SharedMedia.CategoryLinks" = "链接";
 "SharedMedia.CategoryOther" = "语音";
 
@@ -2483,8 +2483,8 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.AdminsTitle" = "管理员";
 "Channel.AdminLogFilter.AdminsAll" = "所有管理员";
 
-"Group.ErrorSendRestrictedStickers" = "抱歉，群组管理员已限制您在此处发送贴纸。";
-"Group.ErrorSendRestrictedMedia" = "抱歉，群组管理员已限制您在此处发送多媒体。";
+"Group.ErrorSendRestrictedStickers" = "抱歉，群组管理员限制了您在此处发送贴纸的能力。";
+"Group.ErrorSendRestrictedMedia" = "抱歉，群组管理员限制了您在此处发送媒体文件的能力。";
 
 "SharedMedia.ViewInChat" = "在对话中查看";
 
@@ -2503,16 +2503,16 @@ Unused sets are archived when you add more.";
 "GroupInfo.ActionPromote" = "设置管理员";
 "GroupInfo.ActionRestrict" = "限制";
 
-"Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在 %@ 前发送消息的权限";
-"Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的权限";
+"Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在此发送消息的能力至 %@";
+"Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的能力。";
 
 "Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送机器人内容的能力至 %@";
 "Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的能力";
 
-"Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在 %@ 前发送媒体文件的权限";
+"Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的能力";
 
-"Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在 %@ 前此发送贴纸的权限";
+"Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在此发送贴纸的能力至 %@";
 "Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的能力";
 
 "ChatSettings.ConnectionType.Title" = "连接类型";
@@ -2554,7 +2554,7 @@ Unused sets are archived when you add more.";
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
 "Privacy.Calls.P2P" = "端对端连接";
-"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。";
+"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 
 "Privacy.Calls.Integration" = "iOS 通话集成";
 "Privacy.Calls.IntegrationHelp" = "iOS 通话集成能将 Telegram 通话显示在锁屏界面上和系统的通话记录里。如果启用了 iCloud 同步，您的通话记录将被共享给 Apple。";
@@ -2664,28 +2664,28 @@ Unused sets are archived when you add more.";
 "FastTwoStepSetup.PasswordPlaceholder" = "请输入密码";
 "FastTwoStepSetup.PasswordConfirmationPlaceholder" = "请再次输入密码";
 "FastTwoStepSetup.PasswordHelp" = "请输入一个用于保护您付款信息的密码。在您登录时我们将会要求您输入。";
-"FastTwoStepSetup.EmailSection" = "辅助邮箱";
+"FastTwoStepSetup.EmailSection" = "恢复邮箱";
 "FastTwoStepSetup.EmailPlaceholder" = "您的邮箱地址";
 "FastTwoStepSetup.EmailHelp" = "请输入一个有效的电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
 
 "Conversation.ViewMessage" = "查看消息";
 
-"GroupInfo.GroupHistory" = "历史记录对新用户";
+"GroupInfo.GroupHistory" = "新成员历史记录可见性";
 "GroupInfo.GroupHistoryVisible" = "可见";
 "GroupInfo.GroupHistoryHidden" = "不可见";
 
 "Group.Setup.HistoryTitle" = "历史记录权限设置";
-"Group.Setup.HistoryHeader" = "历史记录对新用户";
+"Group.Setup.HistoryHeader" = "历史记录对新成员";
 "Group.Setup.HistoryVisible" = "可见";
 "Group.Setup.HistoryHidden" = "不可见";
 
 "Group.Setup.HistoryVisibleHelp" = "新成员将可以查看所有消息记录。";
 "Group.Setup.HistoryHiddenHelp" = "新成员将不能查看加群前的消息记录。";
 
-"Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ 使消息记录对新成员可见";
+"Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ 设置消息记录对新成员可见";
 "Channel.AdminLog.MessageGroupPreHistoryHidden" = "%@ 使消息记录对新成员不可见";
 
-"Map.PullUpForPlaces" = "向上拖动查看周边";
+"Map.PullUpForPlaces" = "向上拖动查看附近地点";
 "Map.ShareLiveLocation" = "分享我的实时位置到...";
 "Map.ShareLiveLocationHelp" = "在您移动时实时更新";
 "Map.StopLiveLocation" = "停止位置共享";
@@ -2949,10 +2949,10 @@ Unused sets are archived when you add more.";
 
 "Camera.Discard" = "丢弃全部操作";
 
-"Stickers.SuggestStickers" = "通过表情符号推荐贴纸";
+"Stickers.SuggestStickers" = "通过 Emoji 推荐贴纸";
 "Stickers.SuggestAll" = "全部贴纸包";
 "Stickers.SuggestAdded" = "已添加的贴纸包";
-"Stickers.SuggestNone" = "不推荐";
+"Stickers.SuggestNone" = "从不推荐";
 
 "Settings.Proxy" = "代理";
 "Settings.ProxyDisabled" = "禁用";
@@ -3052,7 +3052,7 @@ Unused sets are archived when you add more.";
 "Passport.FieldPhoneHelp" = "提供您的联系电话";
 "Passport.FieldEmail" = "邮箱地址";
 "Passport.FieldEmailHelp" = "提供您的邮箱地址";
-"Passport.PrivacyPolicy" = "您同意 [%1$@ 隐私政策] 并允许机器人 @%2$@ 向您发送信息。";
+"Passport.PrivacyPolicy" = "您同意 [%1$@ 隐私政策] 并允许机器人 @%2$@ 向您发送消息。";
 "Passport.AcceptHelp" = "您的档案将直接发往 %1$@ 并允许 @%2$@ 后续向您发送消息。";
 "Passport.Authorize" = "授权";
 
@@ -3173,8 +3173,8 @@ Unused sets are archived when you add more.";
 
 "Passport.Address.Address" = "地址";
 "Passport.Address.Street" = "街道";
-"Passport.Address.Street1Placeholder" = "街道及编号";
-"Passport.Address.Street2Placeholder" = "小区、楼号、门牌号等";
+"Passport.Address.Street1Placeholder" = "街道、门牌号或邮箱编号";
+"Passport.Address.Street2Placeholder" = "小区、楼层、房间号等";
 "Passport.Address.Postcode" = "邮政编码";
 "Passport.Address.PostcodePlaceholder" = "邮政编码";
 "Passport.Address.City" = "城市";
@@ -3188,7 +3188,7 @@ Unused sets are archived when you add more.";
 
 "Passport.Phone.Title" = "手机号码";
 "Passport.Phone.UseTelegramNumber" = "使用 %@";
-"Passport.Phone.UseTelegramNumberHelp" = "使用与 Telegram 帐号相同的手机号码";
+"Passport.Phone.UseTelegramNumberHelp" = "使用当前 Telegram 帐户绑定的手机号。";
 "Passport.Phone.EnterOtherNumber" = "或输入新的手机号码";
 "Passport.Phone.Help" = "注意：您将会收到发送至您提供的手机号码上的一份验证码。";
 "Passport.Phone.Delete" = "删除手机号码";
@@ -3200,7 +3200,7 @@ Unused sets are archived when you add more.";
 "Passport.Email.EmailPlaceholder" = "输入您的邮箱地址";
 "Passport.Email.Help" = "注意：您将会收到发送至您提供的邮件地址上的一份验证码。";
 "Passport.Email.Delete" = "删除邮箱地址";
-"Passport.Email.CodeHelp" = "请输入我们刚刚发送到 %@ 的验证码。";
+"Passport.Email.CodeHelp" = "请输入我们刚刚向 %@ 发送的验证码。";
 
 "Notification.PassportValuesSentMessage" = "%1$@ 已收到以下档案: %2$@";
 "Notification.PassportValuePersonalDetails" = "个人信息";
@@ -3216,12 +3216,12 @@ Unused sets are archived when you add more.";
 
 "Passport.DiscardMessageTitle" = "撤销";
 "Passport.DiscardMessageDescription" = "您确定要放弃所有更改吗？";
-"Passport.DiscardMessageAction" = "丢弃";
+"Passport.DiscardMessageAction" = "放弃";
 
 "Passport.ScanPassport" = "扫描你的护照";
 "Passport.ScanPassportHelp" = "扫描带有机读区域的护照或身份证来自动填充个人信息。";
 
-"TwoStepAuth.PasswordRemovePassportConfirmation" = "您确定要删除您的密码吗？\n\n警告！所有您储存在 Telegram Passport 中的数据将丢失！";
+"TwoStepAuth.PasswordRemovePassportConfirmation" = "您确定要删除您的密码吗？\n\n警告！所有储存在 Telegram Passport 中的数据都将丢失！";
 
 "Application.Update" = "更新";
 
@@ -3345,7 +3345,7 @@ Unused sets are archived when you add more.";
 "Passport.Address.TypeUtilityBillUploadScan" = "上传您的水电费账单的扫描件";
 "Passport.Address.TypeBankStatementUploadScan" = "上传您的银行对账单的扫描件";
 "Passport.Address.TypeRentalAgreementUploadScan" = "上传您的租赁合同的扫描件";
-"Passport.Address.TypePassportRegistrationUploadScan" = "Upload a scan of your passport registration";
+"Passport.Address.TypePassportRegistrationUploadScan" = "上传一份护照信息页的扫描件";
 "Passport.Address.TypeTemporaryRegistrationUploadScan" = "上传您的临时居住证明的扫描件";
 
 "Passport.Identity.OneOfTypePassport" = "护照";
@@ -3503,32 +3503,32 @@ Unused sets are archived when you add more.";
 "TextFormat.Monospace" = "等宽";
 
 "TwoStepAuth.SetupPasswordTitle" = "设置密码";
-"TwoStepAuth.SetupPasswordDescription" = "Please create a password which will be used to protect your data.";
+"TwoStepAuth.SetupPasswordDescription" = "请输入一个用于保护数据的新密码。";
 "TwoStepAuth.ChangePassword" = "更改密码";
-"TwoStepAuth.ChangePasswordDescription" = "请输入一个用于保护数据的密码";
+"TwoStepAuth.ChangePasswordDescription" = "请输入一个用于保护数据的新密码。";
 "TwoStepAuth.ReEnterPasswordTitle" = "请重新输入密码";
-"TwoStepAuth.ReEnterPasswordDescription" = "请再次确认。";
+"TwoStepAuth.ReEnterPasswordDescription" = "请再次确认您的密码。";
 "TwoStepAuth.AddHintTitle" = "Add a Hint";
-"TwoStepAuth.AddHintDescription" = "请设置一个密码提示";
+"TwoStepAuth.AddHintDescription" = "您可以选择创建一个密码提示。";
 "TwoStepAuth.HintPlaceholder" = "提示";
-"TwoStepAuth.RecoveryEmailTitle" = "辅助邮箱";
+"TwoStepAuth.RecoveryEmailTitle" = "恢复邮箱";
 "TwoStepAuth.RecoveryEmailAddDescription" = "请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
-"TwoStepAuth.RecoveryEmailChangeDescription" = "请输入您的备用电子邮箱。 这是忘记密码时唯一的恢复方法。";
-"TwoStepAuth.ChangeEmail" = "更改密码找回邮箱";
+"TwoStepAuth.RecoveryEmailChangeDescription" = "请输入您的恢复邮箱。 这是忘记密码时唯一的恢复方法。";
+"TwoStepAuth.ChangeEmail" = "更改恢复邮箱";
 "TwoStepAuth.ConfirmEmailDescription" = "请输入我们刚刚发送到 %1$@ 的验证码"; 
 "TwoStepAuth.ConfirmEmailCodePlaceholder" = "验证码";
 "TwoStepAuth.ConfirmEmailResendCode" = "重新发送验证码";
 
-"TwoStepAuth.SetupPendingEmail" = "Your recovery email %@ needs to be confirmed and is not yet active.\n\nPlease check your email and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.SetupPendingEmail" = "您的恢复邮箱 %@ 需要确认并且现在尚未生效。\n\n请检查您的电子邮箱（不要忘记垃圾邮件文件夹），并输入验证码完成两步验证的设置。";
 "TwoStepAuth.SetupResendEmailCode" = "重新发送验证码";
-"TwoStepAuth.SetupResendEmailCodeAlert" = "The code has been sent. Please check your email. Be sure to check the spam folder as well.";
+"TwoStepAuth.SetupResendEmailCodeAlert" = "验证码已发送。 请检查您的电子邮箱（不要忘记垃圾邮件文件夹）。";
 "TwoStepAuth.EnterEmailCode" = "输入验证码";
 
 "TwoStepAuth.EnabledSuccess" = "Two-Step verification\nis enabled.";
 "TwoStepAuth.DisableSuccess" = "Two-Step verification\nis disabled.";
 "TwoStepAuth.PasswordChangeSuccess" = "Your password\nhas been changed.";
-"TwoStepAuth.EmailAddSuccess" = "Your recovery email\nhas been added.";
-"TwoStepAuth.EmailChangeSuccess" = "Your recovery email\nhas been changed.";
+"TwoStepAuth.EmailAddSuccess" = "您已成功添加\n恢复邮箱";
+"TwoStepAuth.EmailChangeSuccess" = "您已成功更改\n恢复邮箱";
 
 "Conversation.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
 
@@ -3647,7 +3647,7 @@ Unused sets are archived when you add more.";
 
 
 
-"Conversation.UnvotePoll" = "撤回选票";
+"Conversation.UnvotePoll" = "撤回我的投票";
 "Conversation.StopPoll" = "终止投票";
 "Conversation.StopPollConfirmationTitle" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
 "Conversation.StopPollConfirmation" = "终止投票";
@@ -3663,7 +3663,7 @@ Unused sets are archived when you add more.";
 "Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
 "Notifications.PermissionsEnable" = "启用";
-"Notifications.PermissionsSuppressWarningText" = "你的当前设置可能会错过 Telegram 内的重要信息。\n\n您可以启用提醒或横幅功能，并设置仅屏蔽特定的对话或消息类型，以享有更好的体验。";
+"Notifications.PermissionsSuppressWarningText" = "你的当前设置可能会错过 Telegram 内的重要消息。\n\n您可以启用提醒或横幅功能，并设置仅屏蔽特定的对话或消息类型，以享有更好的体验。";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "不是现在";

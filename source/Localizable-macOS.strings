@@ -1477,7 +1477,7 @@
 "TwoStepAuth.PendingEmailHelp" = "Your recovery email %@ is not yet active and pending confirmation.";
 "TwoStepAuth.GenericHelp" = "You have enabled Two-Step verification.\nYou'll need the password you set up here to log in to your Telegram account.";
 
-"TwoStepAuth.ConfirmationTextNew" = "Please check your e-mail and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
+"TwoStepAuth.ConfirmationTextNew" = "Please check your email and enter the confirmation code to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.ConfirmationAbort" = "Cancel Two-Step Verification Setup";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Enter your cloud password";
@@ -1519,7 +1519,7 @@
 "TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
 "TwoStepAuth.RecoveryCodeInvalid" = "Invalid code. Please try again.";
 "TwoStepAuth.RecoveryCodeExpired" = "Code Expired";
-"TwoStepAuth.RecoveryEmailUnavailableNew" = "Having trouble accessing your e-mail\n[%@]()?";
+"TwoStepAuth.RecoveryEmailUnavailableNew" = "Having trouble accessing your email\n[%@]()?";
 
 "TwoStepAuth.ConfirmEmailCodeDesc" = "Please enter the code we've just emailed at %@.";
 
@@ -2380,9 +2380,9 @@
 
 "EditImageControl.Confirm.Discard" = "Are you sure you want to discard all changes?";
 
-/* "_NS:103.title" = "Edit"; */
-/* "_NS:167.title" = "Window"; */
-/* "_NS:81.title" = "View"; */
+"_NS:103.title" = "Edit";
+"_NS:167.title" = "Window";
+"_NS:81.title" = "View";
 
 
 "Message.Status.Archiving" = "%d% archived";
@@ -2412,13 +2412,12 @@
 "ApplyLanguage.UnsufficientDataOpenPlatform" = "Translation Platform";
 
 
-"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %1$@ is already active.";
 "ApplyLanguage.ChangeLanguageTitle" = "Change Language?";
 "ApplyLanguage.ChangeLanguageUnofficialText" = "You are about to apply a custom language pack **%@** that is %@% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageOfficialText" = "You are about to apply a language pack **%@**.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageAction" = "Change";
 "ApplyLanguage.ApplyLanguageAction" = "Change";
-"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %1$@ is already active.";
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "The language %@ is already active.";
 
 "Language.OfficialTransationsHeader" = "OFFICIAL TRANSLATIONS";
 
@@ -2499,6 +2498,3 @@
 "TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";
-"_NS:103.title" = "Edit";
-"_NS:167.title" = "Window";
-"_NS:81.title" = "View";
