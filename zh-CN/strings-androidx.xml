@@ -261,7 +261,7 @@
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
   <string name="Video">视频</string>
-  <string name="sticker">%1$s 贴纸</string>
+  <string name="sticker">%1$s [贴纸]</string>
   <string name="File">文件</string>
   <string name="Location">位置</string>
   <string name="AttachContact">联系人</string>
@@ -729,7 +729,7 @@
   <string name="Trending">热门</string>
   <string name="Archived">已归档</string>
   <string name="Masks">装饰</string>
-  <string name="StickersHide">存档</string>
+  <string name="StickersHide">归档</string>
   <string name="UndoAllCustom">撤销所有对联系人和群组的通知设置的更改</string>
   <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="XOnlyIfSilent">%1$s （仅在静音模式）</string>
@@ -1117,7 +1117,7 @@
   <string name="CallNoLongerActive">此通话已挂断</string>
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
   <string name="DeleteEntry">删除此条</string>
-  <string name="Sticker">贴纸</string>
+  <string name="Sticker">[贴纸]</string>
   <string name="AttachRound">视频留言</string>
   <string name="MicrophoneMissing">需要麦克风才能拨打电话，你的设备似乎没有。</string>
   <string name="People">用户</string>

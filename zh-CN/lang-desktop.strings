@@ -897,7 +897,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_pinned_media_contact" = "1 个联系人信息";
 "lng_action_pinned_media_location" = "1 个位置";
 "lng_action_pinned_media_sticker" = "1 个贴纸";
-"lng_action_pinned_media_emoji_sticker" = "一张 {emoji} （贴纸）";
+"lng_action_pinned_media_emoji_sticker" = "一张 {emoji} [贴纸]";
 "lng_action_pinned_media_game" = "游戏 «{game}»";
 
 "lng_action_game_score#other" = "{from} 在 {game} 中获得了 {count} 分";
@@ -1064,8 +1064,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_in_dlg_audio" = "语音留言";
 "lng_in_dlg_video_message" = "视频留言";
 "lng_in_dlg_file" = "文件";
-"lng_in_dlg_sticker" = "贴纸";
-"lng_in_dlg_sticker_emoji" = "{emoji} （贴纸）";
+"lng_in_dlg_sticker" = "[贴纸]";
+"lng_in_dlg_sticker_emoji" = "{emoji} [贴纸]";
 "lng_in_dlg_poll" = "投票";
 
 "lng_ban_user" = "封禁用户";

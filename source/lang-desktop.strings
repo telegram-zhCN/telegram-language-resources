@@ -837,7 +837,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_link_copied" = "Link copied to clipboard";
 
 "lng_create_group_crop" = "Select an area for group photo";
-"lng_create_channel_crop" = "Select an area for channel photo";
+"lng_create_channel_crop" = "Select an area for the profile photo";
 
 "lng_failed_add_participant" = "Could not add user. Please try again later.";
 "lng_failed_add_not_mutual" = "Sorry, if a person left a group, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
@@ -1474,9 +1474,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_chat_banned_custom" = "Custom";
 "lng_rights_chat_banned_custom_date" = "Until {date}";
 
-"lng_restricted_send_message" = "The admins of this group restricted you from writing here.";
-"lng_restricted_send_media" = "The admins of this group restricted you from posting media content here.";
-"lng_restricted_send_stickers" = "The admins of this group restricted you from posting stickers here.";
+"lng_restricted_send_message" = "The admins of this group have restricted you from writing messages.";
+"lng_restricted_send_media" = "The admins of this group have restricted you from posting media here.";
+"lng_restricted_send_stickers" = "The admins of this group have restricted you from sending stickers.";
 "lng_restricted_send_gifs" = "The admins of this group restricted you from posting GIFs here.";
 "lng_restricted_send_inline" = "The admins of this group restricted you from posting inline content here.";
 

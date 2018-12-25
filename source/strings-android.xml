@@ -8,7 +8,7 @@
     <string name="LanguageCode">en</string>
     <string name="ContinueOnThisLanguage">Continue in English</string>
     <!--signin view-->
-    <string name="YourPhone">Your phone</string>
+    <string name="YourPhone">Your Phone</string>
     <string name="StartText">Please confirm your country code and enter your phone number.</string>
     <string name="ChooseCountry">Choose a country</string>
     <string name="WrongCountry">Invalid Country Code</string>
@@ -125,7 +125,7 @@
     <string name="NoChats">No chats yet...</string>
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
-    <string name="NoChatsHelp">Start messaging by pressing the pencil button in the bottom right corner.</string>
+    <string name="NoChatsHelp">Start messaging by tapping the pencil button in the bottom right corner.</string>
     <string name="NoChatsContactsHelp">Start messaging by tapping the pencil button in the bottom right corner.</string>
     <string name="WaitingForNetwork">Waiting for network...</string>
     <string name="Connecting">Connecting...</string>
@@ -634,7 +634,7 @@
     <string name="ReportChatOther">Other</string>
     <string name="ReportChatDescription">Description</string>
     <string name="PinnedMessage">Pinned Message</string>
-    <string name="PinnedPoll">Pinned Poll</string>
+    <string name="PinnedPoll">Pinned poll</string>
     <string name="EditedMessage">edited</string>
     <string name="EditMessage">Edit Message</string>
     <string name="EditCaption">Edit Caption</string>
@@ -668,10 +668,10 @@
     <string name="AttachInlineRestricted">The admins of this group have restricted you from sending inline content here until %1$s</string>
     <string name="AttachStickersRestricted">The admins of this group have restricted you from sending stickers here until %1$s</string>
     <string name="SendMessageRestricted">The admins of this group have restricted you from writing here until %1$s</string>
-    <string name="AttachMediaRestrictedForever">The admins of this group have restricted you from sending media here</string>
+    <string name="AttachMediaRestrictedForever">The admins of this group have restricted you from sending media here.</string>
     <string name="AttachInlineRestrictedForever">The admins of this group have restricted you from sending inline content here</string>
-    <string name="AttachStickersRestrictedForever">The admins of this group have restricted you from sending stickers here</string>
-    <string name="SendMessageRestrictedForever">The admins of this group have restricted you from writing here</string>
+    <string name="AttachStickersRestrictedForever">The admins of this group have restricted you from sending stickers.</string>
+    <string name="SendMessageRestrictedForever">The admins of this group have restricted you from writing here.</string>
     <string name="ChatAdmin">admin</string>
     <string name="ApkRestricted">APK installation is restricted for this app. You can enable this in system settings.</string>
     <string name="UnreadMessages">Unread Messages</string>
@@ -835,7 +835,7 @@
     <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
     <!--set admins view-->
     <string name="SetAdminsTitle">Chat Admins</string>
-    <string name="SetAdminsAll">All Members are Admins</string>
+    <string name="SetAdminsAll">All Members Are Admins</string>
     <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
     <string name="SetAdminsNotAllInfo">Only admins can add and remove members, edit name and photo of the group.</string>
     <!--group info view-->
@@ -1773,7 +1773,7 @@
     <string name="Retry">Retry</string>
     <string name="FromCamera">From camera</string>
     <string name="FromGalley">From gallery</string>
-    <string name="DeletePhoto">Delete photo</string>
+    <string name="DeletePhoto">Remove photo</string>
     <string name="Set">Set</string>
     <string name="OK">OK</string>
     <string name="Stop">Stop</string>

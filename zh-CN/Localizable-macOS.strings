@@ -421,7 +421,7 @@
 
 "Chat.EmptyChat" = "这里暂时还没有消息...";
 
-"Chat.List.Sticker" = "%@ 张贴纸";
+"Chat.List.Sticker" = "%@ [贴纸]";
 "Chat.List.Voice" = "语音留言";
 "Chat.List.InstantVideo" = "视频留言";
 "Chat.List.Video" = "视频";
@@ -653,7 +653,7 @@
 "Separator.ShowLess" = "显示更少";
 "Separator.Clear" = "清空";
 "Stickers.Recent" = "最近";
-"Stickers.Favorite" = "Favorite";
+"Stickers.Favorite" = "收藏夹";
 "Stickers.SearchAdd" = "设置";
 "Account.Confirm.AskQuestion" = "请注意：Telegram 的技术支持由志愿者提供，反馈时请使用英文，我们会尽快回复您，但是您可能需要等待一段时间。\n\n请前往 Telegram FAQ 看看：那里有各种常见问题及故障排除提示。";
 "Account.Confirm.GoToFaq" = "打开 FAQ";

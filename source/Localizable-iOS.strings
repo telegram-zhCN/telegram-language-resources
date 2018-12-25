@@ -481,7 +481,7 @@
 
 "GroupInfo.SetGroupPhoto" = "Set Group Photo";
 "GroupInfo.SetGroupPhotoStop" = "Stop";
-"GroupInfo.SetGroupPhotoDelete" = "Delete Photo";
+"GroupInfo.SetGroupPhotoDelete" = "Remove Photo";
 "GroupInfo.Notifications" = "Notifications";
 "GroupInfo.Sound" = "Sound";
 "GroupInfo.SharedMedia" = "Shared Media";
@@ -1002,7 +1002,7 @@
 "EnterPasscode.EnterNewPasscodeChange" = "Enter your new passcode";
 "EnterPasscode.RepeatNewPasscode" = "Re-enter your new passcode";
 "EnterPasscode.EnterCurrentPasscode" = "Enter your current passcode";
-"EnterPasscode.TouchId" = "Enter your passcode";
+"EnterPasscode.TouchId" = "Unlock Telegram";
 
 "DialogList.PasscodeLockHelp" = "Tap to lock Telegram";
 
@@ -1266,7 +1266,7 @@
 "GroupInfo.InvitationLinkDoesNotExist" = "Sorry, this group does not seem to exist.";
 "GroupInfo.InvitationLinkGroupFull" = "Sorry, this group is already full.";
 
-"Core.ServiceUserStatus" = "Service Notifications";
+"Core.ServiceUserStatus" = "service notifications";
 
 "Notification.JoinedGroupByLink" = "%@ joined the group via invite link";
 
@@ -2503,8 +2503,8 @@ Unused sets are archived when you add more.";
 "GroupInfo.ActionPromote" = "Promote";
 "GroupInfo.ActionRestrict" = "Restrict";
 
-"Conversation.RestrictedTextTimed" = "The admins of this group have restricted you from writing here until %@.";
-"Conversation.RestrictedText" = "The admins of this group have restricted you from writing here.";
+"Conversation.RestrictedTextTimed" = "The admins of this group have restricted you from writing messages until %@.";
+"Conversation.RestrictedText" = "The admins of this group have restricted you from writing messages.";
 
 "Conversation.RestrictedInlineTimed" = "The admins of this group have restricted you from posting inline content here until %@.";
 "Conversation.RestrictedInline" = "The admins of this group have restricted you from posting inline content here.";
@@ -2513,7 +2513,7 @@ Unused sets are archived when you add more.";
 "Conversation.RestrictedMedia" = "The admins of this group have restricted you from posting media content here.";
 
 "Conversation.RestrictedStickersTimed" = "The admins of this group have restricted you from posting stickers here until %@.";
-"Conversation.RestrictedStickers" = "The admins of this group have restricted you from posting stickers here.";
+"Conversation.RestrictedStickers" = "The admins of this group have restricted you from sending stickers.";
 
 "ChatSettings.ConnectionType.Title" = "CONNECTION TYPE";
 "ChatSettings.ConnectionType.UseProxy" = "Use Proxy";
@@ -2990,7 +2990,7 @@ Unused sets are archived when you add more.";
 
 "DialogList.AdLabel" = "Proxy Sponsor";
 "DialogList.AdNoticeAlert" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
-"SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal your Telegram traffic.";
+"SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic.";
 
 "SocksProxySetup.ShareProxyList" = "Share Proxy List";
 
@@ -3669,7 +3669,7 @@ Unused sets are archived when you add more.";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Login.SmsRequestState1" = "Telegram will send you an SMS in %d:%.2d";
 "Map.ETAHours_0" = "%@ h";
-"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set “Show Previews” to “When Unlocked” or “Never”.";
+"Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set \"Show Previews\" to \"When Unlocked\" or \"Never\".";
 "Notifications.PermissionsEnable" = "Enable";
 "Notifications.PermissionsSuppressWarningText" = "You may miss important messages on Telegram due to your current settings.\n\nFor better results, enable alerts or banners and try muting certain chats or chat types in Telegram settings.";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";

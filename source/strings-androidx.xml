@@ -372,7 +372,7 @@
   <string name="NoContacts">No contacts to display</string>
   <string name="ChannelCreator">Creator</string>
   <string name="Administrator">Administrator</string>
-  <string name="SetAdminsAll">All Members are Admins</string>
+  <string name="SetAdminsAll">All Members Are Admins</string>
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="AdminsAreSelectedHint">Only chosen admins can add new members, edit name and photo of the group.</string>
   <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
@@ -1306,7 +1306,7 @@
   <string name="InviteBackToGroup">Invite back to group</string>
   <string name="InviteBackToChannel">Invite back to channel</string>
   <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to the group unless added by another member or given an invite link.</string>
-  <string name="AdminCanAssignAdmins">This Admin will be able to add new admins with the same (or more limited) permissions.</string>
+  <string name="AdminCanAssignAdmins">This admin will be able to add new admins with the same (or more limited) permissions.</string>
   <string name="AdminCannotAssignAdmins">This Admin will not be able to add new admins.</string>
   <string name="ShareMyContactInfo">Share my contact</string>
   <string name="MemberBanChannel">This User will be banned and removed from channel.</string>

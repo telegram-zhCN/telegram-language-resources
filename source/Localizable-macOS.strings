@@ -853,7 +853,7 @@
 "Passcode.Next" = "Next";
 
 
-"Peer.ServiceNotifications" = "Service Notifications";
+"Peer.ServiceNotifications" = "service notifications";
 
 "Alert.SendError.Header" = "Your message could not be sent";
 "Alert.SendError.Text" = "An error occurred while sending the previous message. Would you like to try resending it?";
@@ -1139,7 +1139,7 @@
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 
 "Channel.Persmission.Denied.SendMessages.Until" = "The admins of this group have restricted you from writing here until %@.";
-"Channel.Persmission.Denied.SendMessages.Forever" = "The admins of this group have restricted you from writing here";
+"Channel.Persmission.Denied.SendMessages.Forever" = "The admins of this group have restricted you from writing messages.";
 
 "Channel.Persmission.Denied.SendMedia.Until" = "The admins of this group have restricted you from sending media here until %@.";
 "Channel.Persmission.Denied.SendMedia.Forever" = "The admins of this group have restricted you from sending media here.";
@@ -1252,7 +1252,7 @@
 
 "Group.EventLog.EmptyText" = "**No events here yet**\n\nThere were no service actions taken by the group's members and admins for the last 48 hours.";
 "Channel.EventLog.EmptyText" = "**No events here yet**\n\nThere were no service actions taken by the channel's members and admins for the last 48 hours.";
-"Channel.EventLog.EmptySearch" = "** No events found**\n\nNo recent events that match your query have been found.";
+"Channel.EventLog.EmptySearch" = "** No actions found**\n\nNo recent actions that match your query have been found.";
 
 "ChannelBlacklist.Restricted" = "RESTRICTED";
 "ChannelBlacklist.Blocked" = "BLOCKED";
@@ -1521,7 +1521,7 @@
 "TwoStepAuth.RecoveryCodeExpired" = "Code Expired";
 "TwoStepAuth.RecoveryEmailUnavailableNew" = "Having trouble accessing your email\n[%@]()?";
 
-"TwoStepAuth.ConfirmEmailCodeDesc" = "Please enter the code we've just emailed at %@.";
+"TwoStepAuth.ConfirmEmailCodeDesc" = "Please enter the code we've just emailed to %@.";
 
 
 "TwoStepAuth.FloodError" = "Limit exceeded. Please try again later.";
@@ -1529,10 +1529,10 @@
 "TwoStepAuth.InvalidPasswordError" = "Invalid password. Please try again.";
 
 
-"TwoStepAuth.AnError" = "An error occured. Please try again later.";
+"TwoStepAuth.AnError" = "An error occurred. Please try again later.";
 "TwoStepAuth.Error.HaventEmail" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "TwoStepAuth.Error.LimitExceeded" = "You have entered an invalid password too many times. Please try again later.";
-"TwoStepAuth.Error.Generic" = "An error occured. Please try again later.";
+"TwoStepAuth.Error.Generic" = "An error occurred. Please try again later.";
 "TwoStepAuth.Confirm.DisablePassword" = "Are you sure you want to disable your password?";
 "TwoStepAuth.Error.InvalidEmail" = "Please enter a valid email address.";
 "TwoStepAuth.Error.PasswordsDontMatch" = "Passwords don't match.\nPlease try again.";
@@ -2044,7 +2044,7 @@
 "ProxySettings.UseForCalls" = "Use for Calls";
 "ProxySettings.AddProxy" = "Add Proxy";
 
-"Error.AnError" = "An error occured. Please try again later.";
+"Error.AnError" = "An error occurred. Please try again later.";
 
 "InputData.Date.Day.Placeholder1" = "Day";
 "InputData.Date.Month.Placeholder1" = "Month";
@@ -2425,16 +2425,16 @@
 
 "TwoStepAuth.EmailCodeInvalid" = "You have entered an invalid code. Please try again.";
 "TwoStepAuth.EmailCodeExpired" = "This confirmation code has expired. Please try again.";
-"UnknownError" = "An error occurred. Please try again later";
+"UnknownError" = "An error occurred. Please try again later.";
 
 
 "Chat.Poll.TotalVotes_countable" = "%d";
-"Chat.Poll.TotalVotes_zero" = "%d voted";
-"Chat.Poll.TotalVotes_one" = "%d voted";
-"Chat.Poll.TotalVotes_two" = "%d voted";
-"Chat.Poll.TotalVotes_few" = "%d voted";
-"Chat.Poll.TotalVotes_many" = "%d voted";
-"Chat.Poll.TotalVotes_other" = "%d voted";
+"Chat.Poll.TotalVotes_zero" = "%d users voted";
+"Chat.Poll.TotalVotes_one" = "%d user voted";
+"Chat.Poll.TotalVotes_two" = "%d users voted";
+"Chat.Poll.TotalVotes_few" = "%d users voted";
+"Chat.Poll.TotalVotes_many" = "%d users voted";
+"Chat.Poll.TotalVotes_other" = "%d users voted";
 
 
 "Chat.Poll.TotalVotesEmpty" = "No votes yet";
@@ -2450,7 +2450,7 @@
 "Chat.Poll.Stop.Confirm.Text" = "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone.";
 
 
-"Language.RemovePack" = "Are you sure you want to remove this lang-pack?";
+"Language.RemovePack" = "Are you sure you want to remove this language pack?";
 
 "NewPoll.Title" = "New Poll";
 "NewPoll.QuestionHeader" = "QUESTION";

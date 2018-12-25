@@ -125,7 +125,7 @@
     <string name="NoChats">暂无对话...</string>
     <string name="RecentlyViewed">最近查看过</string>
     <string name="RecentlyViewedHide">隐藏</string>
-    <string name="NoChatsHelp">点按右下角的铅笔按钮开始发送消息。</string>
+    <string name="NoChatsHelp">要开始聊天\n请点按右下角的铅笔按钮</string>
     <string name="NoChatsContactsHelp">点按右下角的铅笔按钮开始发送消息。</string>
     <string name="WaitingForNetwork">等待网络...</string>
     <string name="Connecting">连接中...</string>
@@ -1845,7 +1845,7 @@
     <string name="AttachLiveLocation">实时位置</string>
     <string name="AttachContact">联系人</string>
     <string name="AttachDocument">文件</string>
-    <string name="AttachSticker">贴纸</string>
+    <string name="AttachSticker">[贴纸]</string>
     <string name="AttachAudio">语音留言</string>
     <string name="AttachRound">视频留言</string>
     <string name="AttachGame">游戏</string>
