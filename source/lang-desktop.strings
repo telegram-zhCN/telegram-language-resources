@@ -1477,7 +1477,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_message" = "The admins of this group have restricted you from writing messages.";
 "lng_restricted_send_media" = "The admins of this group have restricted you from posting media here.";
 "lng_restricted_send_stickers" = "The admins of this group have restricted you from sending stickers.";
-"lng_restricted_send_gifs" = "The admins of this group restricted you from posting GIFs here.";
+"lng_restricted_send_gifs" = "The admins of this group have restricted you from posting GIFs here.";
 "lng_restricted_send_inline" = "The admins of this group restricted you from posting inline content here.";
 
 "lng_restricted_list_title" = "Restricted users";
