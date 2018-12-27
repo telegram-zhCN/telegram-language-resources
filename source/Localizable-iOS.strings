@@ -232,6 +232,16 @@
 "Login.InvalidFirstNameError" = "Invalid first name. Please try again.";
 "Login.InvalidLastNameError" = "Invalid last name. Please try again.";
 
+
+
+
+
+
+
+
+
+
+
 "Login.PhoneTitle" = "Your Phone";
 "Login.PhonePlaceholder" = "Your phone number";
 "Login.CountryCode" = "Country Code";
@@ -3591,6 +3601,8 @@ Unused sets are archived when you add more.";
 "Contacts.PermissionsAllowInSettings" = "Allow in Settings";
 "Contacts.PermissionsSuppressWarningTitle" = "Keep contacts disabled?";
 "Contacts.PermissionsSuppressWarningText" = "You won't know when your friends join Telegram and become available to chat. We recommend enabling access to contacts in Settings.";
+"Contacts.PermissionsKeepDisabled" = "Keep Disabled";
+"Contacts.PermissionsEnable" = "Enable";
 
 "Notifications.PermissionsTitle" = "Turn ON Notifications";
 "Notifications.PermissionsText" = "Don't miss important messages from your friends and coworkers.";
@@ -3600,7 +3612,9 @@ Unused sets are archived when you add more.";
 "Notifications.PermissionsAllowInSettings" = "Turn ON in Settings";
 "Notifications.PermissionsOpenSettings" = "Open Settings";
 "Notifications.PermissionsSuppressWarningTitle" = "Keep notifications disabled?";
+"Notifications.PermissionsSuppressWarningText" = "You may miss important messages on Telegram due to your current settings.\n\nFor better results, enable alerts or banners and try muting certain chats or chat types in Telegram settings.";
 "Notifications.PermissionsKeepDisabled" = "Keep Disabled";
+"Notifications.PermissionsEnable" = "Enable";
 
 "ChatSettings.DownloadInBackground" = "Background Download";
 "ChatSettings.DownloadInBackgroundInfo" = "The app will continue downloading media files for a limited time.";
@@ -3655,10 +3669,11 @@ Unused sets are archived when you add more.";
 "AttachmentMenu.WebSearch" = "Web Search";
 
 
+
+
+
 /* new from translations.telegram.org */
 
-"Contacts.PermissionsEnable" = "Enable";
-"Contacts.PermissionsKeepDisabled" = "Keep Disabled";
 "InviteText.ContactsCount_0" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
 "InviteText.ContactsCount_1" = "Hey, I'm using Telegram to chat. Join me! Download it here: %@";
 "InviteText.ContactsCount_2" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
@@ -3670,8 +3685,6 @@ Unused sets are archived when you add more.";
 "Login.SmsRequestState1" = "Telegram will send you an SMS in %d:%.2d";
 "Map.ETAHours_0" = "%@ h";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set \"Show Previews\" to \"When Unlocked\" or \"Never\".";
-"Notifications.PermissionsEnable" = "Enable";
-"Notifications.PermissionsSuppressWarningText" = "You may miss important messages on Telegram due to your current settings.\n\nFor better results, enable alerts or banners and try muting certain chats or chat types in Telegram settings.";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "You need to have Telegram Messenger installed to use Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "Not Now";
