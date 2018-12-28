@@ -830,7 +830,7 @@
     <string name="RevokeLink">撤销链接</string>
     <string name="RevokeLinkAlert">您确定要撤销此链接 **%1$s** 吗 ？\n\n群组 \"**%2$s**\" 将转变成私人群组。</string>
     <string name="RevokeLinkAlertChannel">您确定要撤销此链接 **%1$s**  吗？\n\n群组 \"**%2$s**\" 将转变成私人频道。</string>
-    <string name="CopyLink">复制消息直链</string>
+    <string name="CopyLink">复制链接</string>
     <string name="ShareLink">分享链接</string>
     <string name="LinkInfo">任何已安装 Telegram 的用户都将可以通过此链接加入您的群组。</string>
     <!--set admins view-->
@@ -1773,7 +1773,7 @@
     <string name="Retry">重试</string>
     <string name="FromCamera">拍照</string>
     <string name="FromGalley">从相册中选择</string>
-    <string name="DeletePhoto">删除图片</string>
+    <string name="DeletePhoto">移除头像</string>
     <string name="Set">确定</string>
     <string name="OK">确定</string>
     <string name="Stop">停止</string>

@@ -837,7 +837,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_link_copied" = "链接已复制到剪贴板";
 
 "lng_create_group_crop" = "选择合适区域作为群组标识";
-"lng_create_channel_crop" = "截取一个合适的区域作为频道头像";
+"lng_create_channel_crop" = "截取一个区域作为头像";
 
 "lng_failed_add_participant" = "无法添加用户。请稍后再试。";
 "lng_failed_add_not_mutual" = "抱歉，如果某位用户已退出该群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";

@@ -94,6 +94,99 @@
 "PHONE_CALL_REQUEST" = "%1$@ is calling you";
 "PHONE_CALL_MISSED" = "You missed a call from %1$@";
 
+"MESSAGE_TEXT_SEPARATED" = "%1$@|%2$@";
+"MESSAGE_NOTEXT_SEPARATED" = "%1$@|sent you a message";
+"MESSAGE_PHOTO_SEPARATED" = "%1$@|sent you a photo";
+"MESSAGE_PHOTO_SECRET_SEPARATED" = "%1$@|sent you a self-destructing photo";
+"MESSAGE_VIDEO_SEPARATED" = "%1$@|sent you a video";
+"MESSAGE_VIDEO_SECRET_SEPARATED" = "%1$@|sent you a self-destructing video";
+"MESSAGE_SCREENSHOT_SEPARATED" = "%1$@|took a screenshot";
+"MESSAGE_ROUND_SEPARATED" = "%1$@|sent you a video message";
+"MESSAGE_DOC_SEPARATED" = "%1$@|sent you a file";
+"MESSAGE_STICKER_SEPARATED" = "%1$@|sent you a %2$@ sticker";
+"MESSAGE_AUDIO_SEPARATED" = "%1$@|sent you a voice message";
+"MESSAGE_CONTACT_SEPARATED" = "%1$@|shared a contact with you";
+"MESSAGE_GEO_SEPARATED" = "%1$@|sent you a map";
+"MESSAGE_GEOLIVE_SEPARATED" = "%1$@|started sharing their live location";
+"MESSAGE_POLL_SEPARATED" = "%1$@|sent you a poll";
+"MESSAGE_GIF_SEPARATED" = "%1$@|sent you a GIF";
+"MESSAGE_GAME_SEPARATED" = "%1$@|invited you to play %2$@";
+"MESSAGE_INVOICE_SEPARATED" = "%1$@|sent you an invoice for %2$@";
+"MESSAGE_FWDS_SEPARATED" = "%1$@|forwarded you %2$@ messages";
+"MESSAGE_PHOTOS_SEPARATED" = "%1$@|sent you %2$@ photos";
+"MESSAGES_SEPARATED" = "%1$@|sent you %2$@ messages";
+
+"CHANNEL_MESSAGE_TEXT_SEPARATED" = "%1$@|%2$@";
+"CHANNEL_MESSAGE_NOTEXT_SEPARATED" = "%1$@|posted a message";
+"CHANNEL_MESSAGE_PHOTO_SEPARATED" = "%1$@|posted a photo";
+"CHANNEL_MESSAGE_VIDEO_SEPARATED" = "%1$@|posted a video";
+"CHANNEL_MESSAGE_ROUND_SEPARATED" = "%1$@|posted a video message";
+"CHANNEL_MESSAGE_DOC_SEPARATED" = "%1$@|posted a file";
+"CHANNEL_MESSAGE_STICKER_SEPARATED" = "%1$@|posted a %2$@ sticker";
+"CHANNEL_MESSAGE_AUDIO_SEPARATED" = "%1$@|posted a voice message";
+"CHANNEL_MESSAGE_CONTACT_SEPARATED" = "%1$@|posted a contact";
+"CHANNEL_MESSAGE_GEO_SEPARATED" = "%1$@|posted a map";
+"CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|posted a live location";
+"CHANNEL_MESSAGE_POLL_SEPARATED" = "%1$@|posted a poll";
+"CHANNEL_MESSAGE_GIF_SEPARATED" = "%1$@|posted a GIF";
+"CHANNEL_MESSAGE_GAME_SEPARATED" = "%1$@|invited you to play %2$@";
+"CHANNEL_MESSAGE_FWDS_SEPARATED" = "%1$@|posted %2$@ forwarded messages";
+"CHANNEL_MESSAGE_PHOTOS_SEPARATED" = "%1$@|posted %2$@ photos";
+"CHANNEL_MESSAGES_SEPARATED" = "%1$@|posted %2$@ messages";
+
+"CHAT_MESSAGE_TEXT_SEPARATED" = "%2$@|%1$@:%3$@";
+"CHAT_MESSAGE_NOTEXT_SEPARATED" = "%2$@|%1$@ sent a message to the group";
+"CHAT_MESSAGE_PHOTO_SEPARATED" = "%2$@|%1$@ sent a photo";
+"CHAT_MESSAGE_VIDEO_SEPARATED" = "%2$@|%1$@ sent a video ";
+"CHAT_MESSAGE_ROUND_SEPARATED" = "%2$@|%1$@ sent a video message";
+"CHAT_MESSAGE_DOC_SEPARATED" = "%2$@|%1$@ sent a file";
+"CHAT_MESSAGE_STICKER_SEPARATED" = "%2$@|%1$@ sent a %3$@ sticker";
+"CHAT_MESSAGE_AUDIO_SEPARATED" = "%2$@|%1$@ sent a voice message";
+"CHAT_MESSAGE_CONTACT_SEPARATED" = "%2$@|%1$@ shared a contact";
+"CHAT_MESSAGE_GEO_SEPARATED" = "%2$@|%1$@ sent a map";
+"CHAT_MESSAGE_GEOLIVE_SEPARATED" = "%2$@|%1$@ started sharing their live location";
+"CHAT_MESSAGE_POLL_SEPARATED" = "%2$@|%1$@ sent a poll";
+"CHAT_MESSAGE_GIF_SEPARATED" = "%2$@|%1$@ sent a GIF";
+"CHAT_MESSAGE_GAME_SEPARATED" = "%2$@|%1$@ invited the group to play %3$@";
+"CHAT_MESSAGE_INVOICE_SEPARATED" = "%2$@|%1$@ sent an invoice for %3$@";
+"CHAT_CREATED_SEPARATED" = "%2$@|%1$@ invited you to the group";
+"CHAT_TITLE_EDITED_SEPARATED" = "%2$@|%1$@ edited the group\'s name";
+"CHAT_PHOTO_EDITED_SEPARATED" = "%2$@|%1$@ edited the group\'s photo";
+"CHAT_ADD_MEMBER_SEPARATED" = "%2$@|%1$@ invited %3$@ to the group";
+"CHAT_ADD_YOU_SEPARATED" = "%2$@|%1$@ invited you to the group";
+"CHAT_DELETE_MEMBER_SEPARATED" = "%2$@|%1$@ kicked %3$@ from the group";
+"CHAT_DELETE_YOU_SEPARATED" = "%2$@|%1$@ kicked you from the group ";
+"CHAT_LEFT_SEPARATED" = "%2$@|%1$@ has left the group";
+"CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ has returned to the group";
+"CHAT_JOINED_SEPARATED" = "%2$@|%1$@ has joined the group";
+"CHAT_MESSAGE_FWDS_SEPARATED" = "%2$@|%1$@ forwarded %3$@ messages";
+"CHAT_MESSAGE_PHOTOS_SEPARATED" = "%2$@|%1$@ sent %3$@ photos";
+"CHAT_MESSAGES_SEPARATED" = "%2$@|%1$@ sent %3$@ messages";
+
+"PINNED_TEXT_SEPARATED" = "%1$@|pinned \"%2$@\"";
+"PINNED_NOTEXT_SEPARATED" = "%1$@|pinned a message";
+"PINNED_PHOTO_SEPARATED" = "%1$@|pinned a photo";
+"PINNED_VIDEO_SEPARATED" = "%1$@|pinned a video";
+"PINNED_ROUND_SEPARATED" = "%1$@|pinned a video message";
+"PINNED_DOC_SEPARATED" = "%1$@|pinned a file";
+"PINNED_STICKER_SEPARATED" = "%1$@|pinned a %2$@ sticker";
+"PINNED_AUDIO_SEPARATED" = "%1$@|pinned a voice message";
+"PINNED_CONTACT_SEPARATED" = "%1$@|pinned a contact";
+"PINNED_GEO_SEPARATED" = "%1$@|pinned a map";
+"PINNED_GEOLIVE_SEPARATED" = "%1$@|pinned a live location";
+"PINNED_POLL_SEPARATED" = "%1$@|pinned a poll";
+"PINNED_GAME_SEPARATED" = "%1$@|pinned a game";
+"PINNED_INVOICE_SEPARATED" = "%1$@|pinned an invoice";
+"PINNED_GIF_SEPARATED" = "%1$@|pinned a GIF";
+
+"CONTACT_JOINED_SEPARATED" = "%1$@|joined Telegram!";
+
+"AUTH_UNKNOWN_SEPARATED" = "New login|from unrecognized device %1$@";
+"AUTH_REGION_SEPARATED" = "New login|from unrecognized device %1$@, location: %2$@";
+
+"PHONE_CALL_REQUEST_SEPARATED" = "%1$@|is calling you!";
+"PHONE_CALL_MISSED_SEPARATED" = "%1$@|You missed a call";
+
 // Common
 "Common.OK" = "OK";
 "Common.Cancel" = "Cancel";
@@ -232,14 +325,14 @@
 "Login.InvalidFirstNameError" = "Invalid first name. Please try again.";
 "Login.InvalidLastNameError" = "Invalid last name. Please try again.";
 
+"Login.InvalidPhoneEmailSubject" = "Invalid phone number: %@";
+"Login.InvalidPhoneEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram says it's invalid. Please help.\n\nApp version: %2$@\nOS version: %3$@\nLocale: %4$@\nMNC: %5$@";
 
+"Login.PhoneBannedEmailSubject" = "Banned phone number: %@";
+"Login.PhoneBannedEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram says it's banned. Please help.\n\nApp version: %2$@\nOS version: %3$@\nLocale: %4$@\nMNC: %5$@";
 
-
-
-
-
-
-
+"Login.PhoneGenericEmailSubject" = "Telegram iOS error: %@";
+"Login.PhoneGenericEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram shows an error. Please help.\n\nError: %2$@\nApp version: %3$@\nOS version: %4$@\nLocale: %5$@\nMNC: %6$@";
 
 
 "Login.PhoneTitle" = "Your Phone";
@@ -3000,7 +3093,7 @@ Unused sets are archived when you add more.";
 
 "DialogList.AdLabel" = "Proxy Sponsor";
 "DialogList.AdNoticeAlert" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
-"SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic.";
+"SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal your Telegram traffic.";
 
 "SocksProxySetup.ShareProxyList" = "Share Proxy List";
 
@@ -3668,8 +3761,8 @@ Unused sets are archived when you add more.";
 
 "AttachmentMenu.WebSearch" = "Web Search";
 
-
-
+"Conversation.UnsupportedMediaPlaceholder" = "This message is not supported on your version of Telegram. Please update to the latest version.";
+"Conversation.UpdateTelegram" = "UPDATE TELEGRAM";
 
 
 /* new from translations.telegram.org */
