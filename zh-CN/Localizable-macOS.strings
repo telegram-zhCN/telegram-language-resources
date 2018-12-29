@@ -1049,7 +1049,7 @@
 "Chat.Context.EnableNotifications" = "免打扰";
 "Chat.Context.DisableNotifications" = "取消免打扰";
 "Chat.Context.ClearHistory" = "清空历史记录";
-"Chat.Context.Info" = "个人信息";
+"Chat.Context.Info" = "查看简介";
 "Chat.Context.FeedInfo" = "频道信息";
 "Chat.Context.SharedMedia" = "分享的媒体";
 "Payments.Unsupported" = "抱歉，Telegram 的 macOS 客户端暂不支持付款。请使用我们的移动端应用进行此操作。";

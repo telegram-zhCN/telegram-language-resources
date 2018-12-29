@@ -150,8 +150,17 @@
 
 
 
+
+
+
+
+
+
 "CHAT_TITLE_EDITED_SEPARATED" = "%2$@|%1$@ edited the group\'s name";
 "CHAT_PHOTO_EDITED_SEPARATED" = "%2$@|%1$@ edited the group\'s photo";
+
+
+
 
 
 
@@ -587,6 +596,7 @@
 "GroupInfo.SetGroupPhotoDelete" = "移除头像";
 "GroupInfo.Notifications" = "消息通知";
 "GroupInfo.Sound" = "声音";
+
 "GroupInfo.SharedMedia" = "分享的媒体文件";
 "GroupInfo.SharedMediaNone" = "无";
 "GroupInfo.DeleteAndExit" = "删除并退出";
@@ -2496,6 +2506,9 @@ Unused sets are archived when you add more.";
 "Channel.BanUser.PermissionSendMedia" = "发送媒体";
 "Channel.BanUser.PermissionSendStickersAndGifs" = "发送贴纸和 GIF";
 "Channel.BanUser.PermissionEmbedLinks" = "显示链接预览";
+
+
+
 "Channel.BanUser.Unban" = "解除封禁";
 
 "Channel.BanUser.BlockFor" = "屏蔽时长";
@@ -3760,6 +3773,47 @@ Unused sets are archived when you add more.";
 "Conversation.StopPollConfirmation" = "终止投票";
 
 "AttachmentMenu.WebSearch" = "网络搜索";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
