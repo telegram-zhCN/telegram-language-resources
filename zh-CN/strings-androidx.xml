@@ -269,8 +269,8 @@
   <string name="Username">用户名</string>
   <string name="Phone">电话</string>
   <string name="prompt_network">无网络连接。请稍后再试。</string>
-  <string name="PasscodeTitle">密码锁</string>
-  <string name="PasscodeItem">密码锁</string>
+  <string name="PasscodeTitle">锁定码</string>
+  <string name="PasscodeItem">锁定码</string>
   <string name="PasscodeSettingDisabled">已禁用</string>
   <string name="passcode_confirm_invisible">%1$s</string>
   <string name="copied_phone">手机号码已复制到剪贴板</string>
@@ -648,9 +648,9 @@
   <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其他手机、平板和桌面设备上登录。\n所有数据会即时同步。</string>
   <string name="TerminateAllSessions">注销所有其它设备上的会话</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
-  <string name="TerminateSessionQuestion">注销该会话？</string>
+  <string name="TerminateSessionQuestion">注销此会话？</string>
   <string name="TerminateSession">注销会话</string>
-  <string name="AreYouSureSessions">您确定要注销所有其它设备上的会话吗？</string>
+  <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
   <string name="Everybody">所有人</string>
   <string name="MyContacts">我的联系人</string>
   <string name="Nobody">不允许任何人</string>
@@ -1824,7 +1824,7 @@
   <string name="ChatLinkRemove">移除链接</string>
   <string name="ChatLinkRemoveAlert">等等！你确定你要将 %1$s 设为私有并且移除它的公共链接？若如此做，该链接可能会被其他用户生成。</string>
   <string name="HoldMediaTutorial">按住查看此图片</string>
-  <string name="SecretPasscodeInfo">当您设置了一个附加锁定码后，您将需要在每次访问此对话前输入输入它。此对话的消息预览将从对话列表中被隐藏。\n\n注意：如果您忘记了您的锁定码，此对话的内容将会丢失。\n\n如果您需要一个全局锁定码，请通过 设置 &gt; 隐私和安全 &gt; 密码锁 来设置。</string>
+  <string name="SecretPasscodeInfo">当您设置了一个附加锁定码后，您将需要在每次访问此对话前输入它。此对话的消息预览将被从对话列表中隐藏。\n\n注意：如果您忘记了您的锁定码，此对话的内容将会丢失。\n\n如果您需要一个全局锁定码，请通过 设置 &gt; 隐私和安全 &gt; 锁定码 来设置。</string>
   <string name="ChatContentProtected">内容被保护</string>
   <string name="DragChatsHint">拖动重新排序对话</string>
   <string name="OpenMap">在地图中显示</string>

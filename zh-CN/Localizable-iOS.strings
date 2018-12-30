@@ -95,6 +95,14 @@
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
 
 
+"MESSAGE_NOTEXT_SEPARATED" = "%1$@|给您发送了一条消息";
+"MESSAGE_PHOTO_SEPARATED" = "%1$@|给您发送了一张图片";
+"MESSAGE_PHOTO_SECRET_SEPARATED" = "%1$@|给您发送了一张自毁图片";
+"MESSAGE_VIDEO_SEPARATED" = "%1$@|给您发送了一段视频";
+"MESSAGE_VIDEO_SECRET_SEPARATED" = "%1$@|给您发送了一段自毁视频";
+"MESSAGE_SCREENSHOT_SEPARATED" = "%1$@|截了一张图！";
+
+"MESSAGE_DOC_SEPARATED" = "%1$@|给您发送了一个文件";
 
 
 
@@ -112,6 +120,18 @@
 
 
 
+"CHANNEL_MESSAGE_NOTEXT_SEPARATED" = "%1$@|发布了一条消息";
+"CHANNEL_MESSAGE_PHOTO_SEPARATED" = "%1$@|发布了一张图片";
+"CHANNEL_MESSAGE_VIDEO_SEPARATED" = "%1$@|发布了一段视频";
+"CHANNEL_MESSAGE_ROUND_SEPARATED" = "%1$@|发布了一段视频留言";
+"CHANNEL_MESSAGE_DOC_SEPARATED" = "%1$@|发布了一个文件";
+"CHANNEL_MESSAGE_STICKER_SEPARATED" = "%1$@|发布了一张贴纸 %2$@";
+"CHANNEL_MESSAGE_AUDIO_SEPARATED" = "%1$@|发布了一段语音留言";
+"CHANNEL_MESSAGE_CONTACT_SEPARATED" = "%1$@|发布了一条联系人信息";
+"CHANNEL_MESSAGE_GEO_SEPARATED" = "%1$@|发布了一张地图";
+"CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|发布了一条实时位置信息";
+"CHANNEL_MESSAGE_POLL_SEPARATED" = "%1$@|发布了一项投票";
+"CHANNEL_MESSAGE_GIF_SEPARATED" = "%1$@|发布了一张 GIF";
 
 
 
@@ -120,27 +140,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"CHAT_MESSAGE_TEXT_SEPARATED" = "%2$@|%1$@: %3$@";
 
 
 
@@ -172,29 +172,29 @@
 
 
 
+"PINNED_TEXT_SEPARATED" = "%1$@|置顶了 \"%2$@\"";
+"PINNED_NOTEXT_SEPARATED" = "%1$@|置顶了一条消息";
+"PINNED_PHOTO_SEPARATED" = "%1$@|置顶了一张图片";
+"PINNED_VIDEO_SEPARATED" = "%1$@|置顶了一段视频";
+"PINNED_ROUND_SEPARATED" = "%1$@|置顶了一段视频留言";
+"PINNED_DOC_SEPARATED" = "%1$@|置顶了一个文件";
+
+"PINNED_AUDIO_SEPARATED" = "%1$@|置顶了一条语音留言";
+"PINNED_CONTACT_SEPARATED" = "%1$@|置顶了一个联系人信息";
+
+
+"PINNED_POLL_SEPARATED" = "%1$@|置顶了一项投票";
+"PINNED_GAME_SEPARATED" = "%1$@|置顶了一个游戏";
+
+"PINNED_GIF_SEPARATED" = "%1$@|置顶了一张 GIF";
+
+"CONTACT_JOINED_SEPARATED" = "%1$@|加入了 Telegram！";
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"PHONE_CALL_MISSED_SEPARATED" = "%1$@|您有未接来电";
 
 // Common
 "Common.OK" = "好";
@@ -334,11 +334,11 @@
 "Login.InvalidFirstNameError" = "您输入的名字不符合要求，请重新输入";
 "Login.InvalidLastNameError" = "您输入的姓氏不符合要求，请重新输入";
 
+"Login.InvalidPhoneEmailSubject" = "Invalid phone number: %@";
+"Login.InvalidPhoneEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram says it's invalid. Please help.\n\nApp version: %2$@\nOS version: %3$@\nLocale: %4$@\nMNC: %5$@";
 
-
-
-
-
+"Login.PhoneBannedEmailSubject" = "Banned phone number: %@";
+"Login.PhoneBannedEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram says it's banned. Please help.\n\nApp version: %2$@\nOS version: %3$@\nLocale: %4$@\nMNC: %5$@";
 
 
 "Login.PhoneGenericEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram shows an error. Please help.\n\nError: %2$@\nApp version: %3$@\nOS version: %4$@\nLocale: %5$@\nMNC: %6$@";
@@ -483,7 +483,7 @@
 "Notification.CreatedChatWithTitle" = "%@ 创建了群组 \"%@\"";
 "Notification.Joined" = "%@ 加入了 Telegram";
 "Notification.ChangedGroupName" = "%@ 将群组名称更改为 \"%@\"";
-"Notification.NewAuthDetected" = "%1$@,\n我们在 %3$@ %2$@ %4$@发现一个新设备登录您的帐号\n\n设备: %5$@\n位置: %6$@\n\n如非本人登录, 请前往“设置—隐私与安全”点击“注销所有其他设备”。\n\n如果您怀疑有人未经您的同意登录您的账号，请在请在“隐私与安全”中启用两步验证。\n\n此致\nTelegram 团队";
+"Notification.NewAuthDetected" = "%1$@,\n我们在 %3$@ %2$@ %4$@发现一个新设备登录您的帐号\n\n设备: %5$@\n位置: %6$@\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动会话」中将该会话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队";
 "Notification.MessageLifetimeChanged" = "%1$@ 已将阅后即焚计时器设定为 %2$@";
 "Notification.MessageLifetimeChangedOutgoing" = "您已将阅后即焚计时器设定为 %1$@";
 "Notification.MessageLifetimeRemoved" = "%1$@ 取消了阅后即焚计时器";
@@ -1096,17 +1096,17 @@
 
 
 
-"PrivacySettings.Passcode" = "密码锁";
-"PasscodeSettings.Title" = "密码锁";
-"PasscodeSettings.TurnPasscodeOn" = "开启密码锁";
-"PasscodeSettings.TurnPasscodeOff" = "关闭密码锁";
+"PrivacySettings.Passcode" = "锁定码";
+"PasscodeSettings.Title" = "锁定码";
+"PasscodeSettings.TurnPasscodeOn" = "开启锁定码";
+"PasscodeSettings.TurnPasscodeOff" = "关闭锁定码";
 "PasscodeSettings.ChangePasscode" = "更改密码";
-"PasscodeSettings.Help" = "开启密码锁后，会话页面将出现锁形图标，点击即可锁定或解锁 Telegram。\n\n注意：如果遗忘此密码，您只能删除并重装 Telegram 来移除密码锁。重装会丢失所有加密对话。";
+"PasscodeSettings.Help" = "开启锁定码后，会话页面将出现锁形图标，点击即可锁定或解锁 Telegram。\n\n注意：如果遗忘此密码，您只能删除并重装 Telegram 来移除锁定码。重装会丢失所有加密对话。";
 "PasscodeSettings.UnlockWithTouchId" = "使用 Touch ID 解锁";
 "PasscodeSettings.SimplePasscode" = "简单密码";
 "PasscodeSettings.SimplePasscodeHelp" = "简单密码由四位数字组成。";
 "PasscodeSettings.EncryptData" = "加密本地数据库";
-"PasscodeSettings.EncryptDataHelp" = "这是一个试验性功能，请谨慎使用。它通过密码锁生成密码，来加密本地储存的 Telegram 数据。";
+"PasscodeSettings.EncryptDataHelp" = "这是一个试验性功能，请谨慎使用。它通过您的锁定码生成密钥，来加密本地储存的 Telegram 数据。";
 
 "EnterPasscode.EnterTitle" = "输入解锁密码";
 "EnterPasscode.ChangeTitle" = "更改密码";
@@ -1345,7 +1345,7 @@
 
 "PrivacySettings.AuthSessions" = "活动会话";
 "AuthSessions.Title" = "活动会话";
-"AuthSessions.CurrentSession" = "当前设备";
+"AuthSessions.CurrentSession" = "当前会话";
 "AuthSessions.TerminateOtherSessions" = "注销其他设备";
 "AuthSessions.TerminateOtherSessionsHelp" = "除本设备之外，其他已登录的设备都会被注销。";
 "AuthSessions.TerminateSession" = "注销此设备";
@@ -3682,13 +3682,13 @@ Unused sets are archived when you add more.";
 "Permissions.ContactsTitle.v0" = "同步您的通讯录";
 
 "Permissions.ContactsAllow.v0" = "允许访问";
+"Permissions.ContactsAllowInSettings.v0" = "在设置中允许";
 
 
 
 
 
-
-
+"Permissions.NotificationsAllowInSettings.v0" = "在设置中打开";
 
 
 "Permissions.CellularDataText.v0" = "不要担心，Telegram 会努力保持使用尽可能少的网络流量。您可以在 设置 >  数据和存储 处细化控制。";
@@ -3712,11 +3712,11 @@ Unused sets are archived when you add more.";
 
 "Notifications.PermissionsTitle" = "打开推送通知";
 "Notifications.PermissionsText" = "不要错过来自朋友和同事的重要消息。";
-
-
+"Notifications.PermissionsUnreachableTitle" = "请检查通知设置";
+"Notifications.PermissionsUnreachableText" = "您目前在设置中关闭了部分消息通知。";
 
 "Notifications.PermissionsAllowInSettings" = "在设置中启用";
-
+"Notifications.PermissionsOpenSettings" = "打开设置";
 
 "Notifications.PermissionsSuppressWarningText" = "你的当前设置可能会错过 Telegram 内的重要消息。\n\n您可以启用提醒或横幅功能，并设置仅屏蔽特定的对话或消息类型，以享有更好的体验。";
 
@@ -3774,7 +3774,7 @@ Unused sets are archived when you add more.";
 
 "AttachmentMenu.WebSearch" = "网络搜索";
 
-
+"Conversation.UnsupportedMediaPlaceholder" = "您目前的 Telegram 版本无法显示此类消息，请尽快更新到最新版。";
 
 
 
@@ -3825,6 +3825,7 @@ Unused sets are archived when you add more.";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
+"MESSAGE_FWDS_SEPARATED" = "%1$@|向您转发了 %2$@ 条消息";
 "Notifications.DisplayNamesOnLockScreenInfo" = "锁屏状态时在通知中显示对方名称。如需关闭此功能, 请打开 iOS 设置 > Telegram > 通知，并将“显示预览”项更改为“仅解锁时”或“从不”。";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";

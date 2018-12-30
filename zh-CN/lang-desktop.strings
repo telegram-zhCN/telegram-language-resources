@@ -340,7 +340,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_calls_peer_to_peer" = "通话端对端连接";
 "lng_settings_groups_invite" = "邀请权限控制";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
-"lng_settings_sessions_about" = "控制您在其它设备上的对话。";
+"lng_settings_sessions_about" = "控制您在其它设备上的会话。";
 "lng_settings_passcode_disable" = "禁用锁定码";
 "lng_settings_password_disable" = "禁用两步验证密码";
 "lng_settings_password_abort" = "关闭两步验证";
@@ -531,7 +531,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_change_phone" = "更改手机号码";
 
 "lng_settings_reset" = "注销所有其他设备";
-"lng_settings_reset_sure" = "您确定要注销所有其他设备？";
+"lng_settings_reset_sure" = "您确定要注销其他所有的会话吗？";
 "lng_settings_reset_one_sure" = "您确定要注销此设备？";
 "lng_settings_reset_button" = "确定";
 "lng_settings_manage_local_storage" = "管理本地缓存";
@@ -546,7 +546,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_need_restart" = "您需要重启软件才能执行某些变更。立即重启？";
 "lng_settings_restart_now" = "立即重启";
 
-"lng_sessions_header" = "当前设备";
+"lng_sessions_header" = "当前会话";
 "lng_sessions_other_header" = "活动会话";
 "lng_sessions_other_desc" = "您可以用同一个手机号码在其他手机、平板和桌面设备上登录。\n所有数据会即时同步。";
 "lng_sessions_terminate_all" = "注销所有其他设备";
@@ -1348,7 +1348,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_preview_invalid" = "主题文件数据错误";
 "lng_theme_preview_apply" = "应用此主题";
 
-"lng_new_authorization" = "{name}，\n我们在 {date}{day}{time} 发现一个新设备登录您的帐号。\n\n设备： {device}\n位置： {location}\n\n如果这不是您本人， 您可以前往「设置—显示所有活动会话」 中注销该设备。\n\n如果您认为其他人在您不知情时登录了您的帐号，请您在 隐私和安全 设置中启用 两步验证密码。\n\n谢谢！\nTelegram 团队";
+"lng_new_authorization" = "{name}，\n我们在 {date}{day}{time} 发现一个新设备登录您的帐号。\n\n设备： {device}\n位置： {location}\n\n如果这不是您本人， 您可以前往「设置—显示所有活动会话」 中注销该会话。\n\n如果您认为其他人在您不知情时登录了您的帐号，请您在 隐私和安全 设置中启用 两步验证密码。\n\n谢谢！\nTelegram 团队";
 
 "lng_new_version_wrap" = "Telegram Desktop 已更新到 {version}\n\n{changes}\n\n更多版本记录请在这里查看：\n{link}";
 "lng_new_version_minor" = "— 错误修复及细节改进";

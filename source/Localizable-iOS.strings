@@ -141,7 +141,7 @@
 
 
 "CHAT_MESSAGE_TEXT_SEPARATED" = "%2$@|%1$@:%3$@";
-"CHAT_MESSAGE_NOTEXT_SEPARATED" = "%2$@|%1$@ sent a message to the group";
+"CHAT_MESSAGE_NOTEXT_SEPARATED" = "%2$@|%1$@ sent a message";
 "CHAT_MESSAGE_PHOTO_SEPARATED" = "%2$@|%1$@ sent a photo";
 "CHAT_MESSAGE_VIDEO_SEPARATED" = "%2$@|%1$@ sent a video ";
 "CHAT_MESSAGE_ROUND_SEPARATED" = "%2$@|%1$@ sent a video message";

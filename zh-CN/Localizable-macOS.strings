@@ -831,15 +831,15 @@
 "Telegram.BlockedPeersViewController" = "已屏蔽的用户";
 "BlockedPeers.EmptyDescrpition" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
 
-"Sessions.CurrentSessionHeader" = "当前设备";
+"Sessions.CurrentSessionHeader" = "当前会话";
 "Sessions.TerminateOthers" = "终止所有其他会话";
 "Sessions.TerminateDescription" = "注销除本设备之外的其他所有设备。";
 "Sessions.ActiveSessionsHeader" = "其他设备";
 
 
-"Passcode.TurnOn" = "开启密码锁";
+"Passcode.TurnOn" = "开启锁定码";
 "Passcode.TurnOnDescription" = "当您设置好一个附加密码后，你可以使用快捷键  ⌘ + L 来上锁。\n\n注意：如果您忘记这个密码，你将只能删除然后重新安装Telegram。重装之后您将丢失所有的加密会话。";
-"Passcode.TurnOff" = "关闭密码锁";
+"Passcode.TurnOff" = "关闭锁定码";
 "Passcode.Change" = "更改密码";
 "Passcode.Autolock" = "自动锁定";
 "Passcode.AutoLock.Disabled" = "禁用";
@@ -862,8 +862,8 @@
 "Alert.SendError.Ignore" = "忽略";
 
 "GeneralSettings.EnableSidebar" = "侧栏";
-"Telegram.RecentSessionsController" = "所有设备";
-"RecentSessions.Confirm.TerminateOthers" = "您确定要终止所有其他的登录会话吗？";
+"Telegram.RecentSessionsController" = "活动会话";
+"RecentSessions.Confirm.TerminateOthers" = "您确定要注销其他所有的会话吗？";
 "RecentSessions.Confirm.Revoke" = "您确定要注销此设备？";
 "RecentSessions.Revoke" = "撤销";
 "RecentSessions.Error.FreshReset" = "出于安全原因，您无法使用刚刚连接的设备终止之前的设备会话。 请通过之前使用的设备操作或等待几个小时。";
@@ -2462,7 +2462,7 @@
 "NewPoll.OptionsPlaceholder" = "选项";
 "NewPoll.OptionsAddOption" = "添加一个选项...";
 
-
+"NewPoll.OptionsDescription_countable" = "%d";
 
 
 
@@ -2471,7 +2471,7 @@
 "NewPoll.OptionsDescription_other" = "您还可以再添加 %d 个选项。";
 
 
-
+"NewPoll.OptionsDescriptionMinimum_countable" = "%d";
 
 
 
