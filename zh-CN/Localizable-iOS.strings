@@ -145,7 +145,7 @@
 
 
 
-
+"CHAT_MESSAGE_DOC_SEPARATED" = "%2$@|%1$@ 发送了一个文件";
 
 
 
@@ -193,7 +193,7 @@
 
 
 
-
+"PHONE_CALL_REQUEST_SEPARATED" = "%1$@|正在呼叫您！";
 "PHONE_CALL_MISSED_SEPARATED" = "%1$@|您有未接来电";
 
 // Common
@@ -340,7 +340,7 @@
 "Login.PhoneBannedEmailSubject" = "Banned phone number: %@";
 "Login.PhoneBannedEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram says it's banned. Please help.\n\nApp version: %2$@\nOS version: %3$@\nLocale: %4$@\nMNC: %5$@";
 
-
+"Login.PhoneGenericEmailSubject" = "Telegram iOS error: %@";
 "Login.PhoneGenericEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram shows an error. Please help.\n\nError: %2$@\nApp version: %3$@\nOS version: %4$@\nLocale: %5$@\nMNC: %6$@";
 
 
@@ -3106,7 +3106,7 @@ Unused sets are archived when you add more.";
 
 "DialogList.AdLabel" = "代理赞助商";
 "DialogList.AdNoticeAlert" = "这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
-"SocksProxySetup.AdNoticeHelp" = "这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
+"SocksProxySetup.AdNoticeHelp" = "这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法查看您的任何 Telegram 信息。";
 
 "SocksProxySetup.ShareProxyList" = "分享全部代理";
 

@@ -1148,7 +1148,7 @@
 "Channel.Persmission.Denied.SendStickers.Forever" = "此群组的管理员限制了您在此发送贴纸的能力。";
 
 "Channel.Persmission.Denied.SendGifs.Until" = "频道管理员已经禁止你在该频道发送 GIF 图片，该限制将在 %@ 解除，";
-"Channel.Persmission.Denied.SendGifs.Forever" = "频道管理员已经禁止你在该频道发送 GIF 图片。";
+"Channel.Persmission.Denied.SendGifs.Forever" = "群组管理员已经禁止您在此群发送 GIF。";
 
 
 "Channel.Persmission.Denied.SendInline.Until" = "此群组的管理员限制了您发送机器人内容的能力至 %@。";
@@ -2417,7 +2417,7 @@
 "ApplyLanguage.ChangeLanguageOfficialText" = "您将要应用语言包 (**%@**)。\n\n此操作将会应用到整个界面。您可以通过 [翻译平台]() 提出修改建议 。\n\n您可以随时在“设置”中更改语言。";
 "ApplyLanguage.ChangeLanguageAction" = "更换";
 "ApplyLanguage.ApplyLanguageAction" = "更换";
-"ApplyLanguage.ChangeLanguageAlreadyActive" = "您已经在使用语言 %1$@。";
+"ApplyLanguage.ChangeLanguageAlreadyActive" = "您已经在使用语言 %@。";
 
 "Language.OfficialTransationsHeader" = "官方翻译";
 
@@ -2425,7 +2425,7 @@
 
 "TwoStepAuth.EmailCodeInvalid" = "您输入的验证码无效，请重试。";
 "TwoStepAuth.EmailCodeExpired" = "这个验证码已经过期。请重新获取。";
-"UnknownError" = "出现未知错误，请稍后再试";
+"UnknownError" = "出现未知错误，请稍后再试。";
 
 
 "Chat.Poll.TotalVotes_countable" = "%d";
