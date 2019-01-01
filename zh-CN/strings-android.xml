@@ -162,7 +162,7 @@
     <string name="WillUnmuteIn">" %1$s 后"</string>
     <string name="MuteDisable">永久静音</string>
     <string name="Hashtags">标签</string>
-    <string name="Recent">最近使用</string>
+    <string name="Recent">最近</string>
     <string name="ChatHints">用户</string>
     <string name="ChatHintsDelete">确认从建议列表中删除 %1$s 吗？</string>
     <string name="LinkPreview">链接预览</string>

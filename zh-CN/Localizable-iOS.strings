@@ -347,7 +347,7 @@
 "Login.PhoneTitle" = "您的电话号码";
 "Login.PhonePlaceholder" = "您的手机号码";
 "Login.CountryCode" = "国家代码";
-"Login.InvalidCountryCode" = "国家代码无效";
+"Login.InvalidCountryCode" = "无效的国家代码";
 
 "Login.InfoTitle" = "个人信息";
 "Login.InfoAvatarAdd" = "上传";
@@ -3517,15 +3517,15 @@ Unused sets are archived when you add more.";
 "Passport.Language.bn" = "孟加拉语";
 "Passport.Language.cs" = "捷克语";
 "Passport.Language.da" = "丹麦语";
-"Passport.Language.de" = "德国人";
+"Passport.Language.de" = "德语";
 "Passport.Language.dv" = "迪维西语";
 "Passport.Language.dz" = "宗喀语（不丹语）";
 "Passport.Language.el" = "希腊语";
-"Passport.Language.en" = "Chinese Simplified";
+"Passport.Language.en" = "英语";
 "Passport.Language.es" = "西班牙语";
 "Passport.Language.et" = "爱沙尼亚语";
 "Passport.Language.fa" = "波斯语";
-"Passport.Language.fr" = "法国人";
+"Passport.Language.fr" = "法语";
 "Passport.Language.he" = "希伯来语";
 "Passport.Language.hr" = "克罗地亚语";
 "Passport.Language.hu" = "匈牙利语";

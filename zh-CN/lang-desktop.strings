@@ -176,7 +176,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_phone_desc" = "请确认您的国家代码，\n并输入您的手机号码。";
 "lng_phone_notreg" = "如果您还没有 Telegram 账号，\n请使用您的 {link_start}Android / iPhone 设备{link_end} [b]注册[/b] 或 {signup_start} 在此注册 {signup_end}";
 "lng_country_code" = "国家代码";
-"lng_bad_country_code" = "国家代码无效";
+"lng_bad_country_code" = "无效的国家代码";
 "lng_country_ph" = "搜索";
 "lng_country_none" = "未找到您搜索的国家";
 "lng_country_select" = "选择国家";
@@ -924,7 +924,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_ttl_photo_sent" = "您发送了一张自毁照片。";
 "lng_ttl_photo_expired" = "图片已自毁";
 "lng_ttl_video_received" = "{from} 发送给您一个自毁视频，请在您的手机上查看。";
-"lng_ttl_video_sent" = "您发送了一张自毁照片。";
+"lng_ttl_video_sent" = "您发送了一段自毁视频。";
 "lng_ttl_video_expired" = "视频已自毁";
 
 
@@ -955,7 +955,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_join" = "加入";
 
 
-"lng_group_invite_members#other" = "其中 {count} 位成员:";
+"lng_group_invite_members#other" = " {count} 位成员";
 
 "lng_group_invite_create" = "创建一个邀请链接";
 "lng_group_invite_about" = "Telegram 用户可以通过邀请链接加入您的群组";
@@ -1125,7 +1125,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_choose_chat" = "选择会话";
 "lng_bot_no_chats" = "没有对话";
 "lng_bot_chats_not_found" = "未找到对话";
-"lng_bot_sure_share_game" = "对 {user} 分享此游戏？";
+"lng_bot_sure_share_game" = "与 {user} 分享此游戏？";
 "lng_bot_sure_share_game_group" = "分享此游戏到 «{group}» ？";
 
 "lng_typing" = "正在输入";
@@ -1284,11 +1284,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_group_description" = "简介（可选）";
 
 "lng_drag_images_here" = "拖拽图片到此处";
-"lng_drag_photos_here" = "拖拽照片到此处";
+"lng_drag_photos_here" = "拖拽图片到此处";
 "lng_drag_files_here" = "拖拽文件到此处";
 
 "lng_drag_to_send_quick" = "快速发送";
-"lng_drag_to_send_no_compression" = "无损发送";
+"lng_drag_to_send_no_compression" = "以发送原图";
 "lng_drag_to_send_files" = "作为文件发送";
 
 "lng_selected_clear" = "取消";
@@ -1331,7 +1331,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mediaview_photos_all" = "显示所有图片";
 "lng_mediaview_files_all" = "显示所有文件";
 "lng_mediaview_single_photo" = "单张图片";
-"lng_mediaview_group_photo" = "群组图片";
+"lng_mediaview_group_photo" = "群组头像";
 "lng_mediaview_channel_photo" = "频道头像";
 "lng_mediaview_profile_photo" = "头像";
 "lng_mediaview_file_n_of_count" = "{file} {count} 中的 {n}";
@@ -1910,32 +1910,32 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_passport_in_bn" = "孟加拉语";
 "cloud_lng_passport_in_cs" = "捷克语";
 "cloud_lng_passport_in_da" = "丹麦语";
-"cloud_lng_passport_in_de" = "德国人";
+"cloud_lng_passport_in_de" = "德语";
 "cloud_lng_passport_in_dv" = "迪维西语";
 "cloud_lng_passport_in_dz" = "宗喀语（不丹语）";
 "cloud_lng_passport_in_el" = "希腊语";
-"cloud_lng_passport_in_en" = "Chinese Simplified";
+"cloud_lng_passport_in_en" = "英语";
 "cloud_lng_passport_in_es" = "西班牙语";
 "cloud_lng_passport_in_et" = "爱沙尼亚语";
 "cloud_lng_passport_in_fa" = "波斯语";
-"cloud_lng_passport_in_fr" = "法国人";
+"cloud_lng_passport_in_fr" = "法语";
 "cloud_lng_passport_in_he" = "希伯来语";
 "cloud_lng_passport_in_hr" = "克罗地亚语";
 "cloud_lng_passport_in_hu" = "匈牙利语";
 "cloud_lng_passport_in_hy" = "亚美尼亚语";
-"cloud_lng_passport_in_id" = "印度尼西亚人";
+"cloud_lng_passport_in_id" = "印度尼西亚语";
 "cloud_lng_passport_in_is" = "冰岛语";
-"cloud_lng_passport_in_it" = "意大利人";
+"cloud_lng_passport_in_it" = "意大利语";
 "cloud_lng_passport_in_ja" = "日语";
 "cloud_lng_passport_in_ka" = "格鲁吉亚语";
 "cloud_lng_passport_in_km" = "高棉语";
-"cloud_lng_passport_in_ko" = "朝鲜人";
+"cloud_lng_passport_in_ko" = "朝鲜语";
 "cloud_lng_passport_in_lo" = "老挝语";
 "cloud_lng_passport_in_lt" = "立陶宛语";
 "cloud_lng_passport_in_lv" = "拉脱维亚语";
 "cloud_lng_passport_in_mk" = "马其顿语";
 "cloud_lng_passport_in_mn" = "蒙古语";
-"cloud_lng_passport_in_ms" = "马来西亚人";
+"cloud_lng_passport_in_ms" = "马来西亚语";
 "cloud_lng_passport_in_my" = "缅甸语";
 "cloud_lng_passport_in_ne" = "尼泊尔语";
 "cloud_lng_passport_in_nl" = "荷兰语";
