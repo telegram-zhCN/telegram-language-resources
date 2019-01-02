@@ -282,7 +282,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_notifications_position" = "在屏幕上的位置";
 "lng_settings_notifications_count" = "通知计数";
 "lng_settings_sound_notify" = "播放提示音";
-"lng_settings_include_muted" = "在未读消息数中包含已关闭消息提醒的对话";
+"lng_settings_include_muted" = "包含已关闭消息通知的对话";
 "lng_settings_count_unread" = "按消息数统计未读";
 
 "lng_notification_preview" = "新消息";
@@ -555,7 +555,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sessions_incomplete_about" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。";
 
 "lng_blocked_list_title" = "已屏蔽的用户";
-"lng_blocked_list_unknown_phone" = "手机号码未知";
+"lng_blocked_list_unknown_phone" = "未知号码";
 "lng_blocked_list_unblock" = "取消屏蔽";
 "lng_blocked_list_restart" = "重启";
 "lng_blocked_list_add" = "屏蔽此用户";
@@ -920,11 +920,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_secure_phone" = "手机号码";
 "lng_action_secure_email" = "邮箱地址";
 
-"lng_ttl_photo_received" = "{from} 发送给您一张自毁照片，请在您的手机上查看。";
-"lng_ttl_photo_sent" = "您发送了一张自毁照片。";
+"lng_ttl_photo_received" = "{from} 给您发送了一张阅后即焚图片，请在您的手机上查看。";
+"lng_ttl_photo_sent" = "您发送了一张阅后即焚图片。";
 "lng_ttl_photo_expired" = "图片已自毁";
-"lng_ttl_video_received" = "{from} 发送给您一个自毁视频，请在您的手机上查看。";
-"lng_ttl_video_sent" = "您发送了一段自毁视频。";
+"lng_ttl_video_received" = "{from} 给您发送了一段阅后即焚视频，请在您的手机上查看。";
+"lng_ttl_video_sent" = "您发送了一段阅后即焚视频。";
 "lng_ttl_video_expired" = "视频已自毁";
 
 
@@ -955,7 +955,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_join" = "加入";
 
 
-"lng_group_invite_members#other" = " {count} 位成员";
+"lng_group_invite_members#other" = " {count} 位成员，包括：";
 
 "lng_group_invite_create" = "创建一个邀请链接";
 "lng_group_invite_about" = "Telegram 用户可以通过邀请链接加入您的群组";
@@ -1428,7 +1428,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_incoming" = "来电";
 "lng_call_missed" = "未接来电";
 "lng_call_cancelled" = "取消的电话";
-"lng_call_declined" = "拒接电话";
+"lng_call_declined" = "未接来电";
 "lng_call_duration_info" = "{time}, {duration}";
 "lng_call_type_and_duration" = "{type} ({duration})";
 
@@ -1706,7 +1706,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_native_name_title" = "居住国名称";
 "lng_passport_native_name_about" = "使用您的居住地所在国（{country}）的语言表述您的姓名";
 "lng_passport_native_name_language" = "请用{language}填写您的姓名";
-"lng_passport_native_name_language_about" = "使用您的居住地所在国的语言表述您的姓名";
+"lng_passport_native_name_language_about" = "请以您所居住的国家语言填写您的姓名。";
 "lng_passport_address" = "地址";
 "lng_passport_address_enter" = "请输入地址";
 "lng_passport_street" = "街道";

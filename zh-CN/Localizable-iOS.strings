@@ -3446,11 +3446,11 @@ Unused sets are archived when you add more.";
 "Passport.Identity.LatinNameHelp" = "使用拉丁字母输入您的姓名";
 "Passport.Identity.NativeNameTitle" = "%@ 中的名字";
 "Passport.Identity.NativeNameGenericTitle" = "您在居住国的姓名";
-"Passport.Identity.NativeNameHelp" = "使用您的居住地所在国的语言表述您的姓名";
+"Passport.Identity.NativeNameHelp" = "请以您所居住的国家语言填写您的姓名。";
 "Passport.Identity.NativeNameGenericHelp" = "Your name in the language of your country of residence (%@).";
 
 "Passport.Identity.Translations" = "翻译件";
-"Passport.Identity.TranslationsHelp" = "Upload scans of a certified English translation of the document.";
+"Passport.Identity.TranslationsHelp" = "上传经过认证的英文版本扫描件。";
 "Passport.FieldIdentityTranslationHelp" = "添加您的证件的一份英文翻译件";
 "Passport.FieldAddressTranslationHelp" = "添加您的证件的一份英文翻译件";
 

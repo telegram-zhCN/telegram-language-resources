@@ -1002,7 +1002,7 @@
     <string name="UnblockText">长按用户以取消屏蔽</string>
     <string name="NoBlocked">当前没有已屏蔽的用户</string>
     <string name="MessageNotifications">消息通知</string>
-    <string name="Alert">提示</string>
+    <string name="Alert">显示通知</string>
     <string name="MessagePreview">消息预览</string>
     <string name="GroupNotifications">群组通知</string>
     <string name="Sound">声音</string>

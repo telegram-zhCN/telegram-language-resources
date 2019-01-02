@@ -16,7 +16,7 @@
 "Navigation.Done" = "完成";
 "Navigation.Close" = "关闭";
 "Navigation.Cancel" = "取消";
-
+"Navigation.Next" = "下一步";
 
 "Gallery.Counter" = "%d / %d";
 
@@ -239,7 +239,7 @@
 "Chat.Input.Join" = "加入";
 "Chat.Input.Unblock" = "取消屏蔽";
 "Chat.Input.Restart" = "重启";
-
+"Chat.Input.Close" = "关闭";
 
 "Message.Context.Reply1" = "回复";
 "Message.Context.ReplyHelp" = "双击";
@@ -734,7 +734,7 @@
 "PeerInfo.Confirm.AddMembers1_other" = "添加 %d 人到此群组？";
 
 
-
+"PeerInfo.Confirm.Add" = "添加";
 
 "PeerInfo.Confirm.AddMember" = "将 \"%@\" 添加到此群组？";
 "PeerInfo.Confirm.RemovePeer" = "从群组中移除  \"%@\" ？";
@@ -1358,7 +1358,7 @@
 "ServiceMessage.ExpiredFile" = "文件已自毁";
 "ServiceMessage.ExpiredVideo" = "视频已自毁";
 
-"ServiceMessage.DesturctingPhoto" = "%@ 给您发送了一张自毁照片，请在您的移动设备上查看。";
+"ServiceMessage.DesturctingPhoto" = "%@ 给您发送了一张阅后即焚图片，请在您的手机上查看。";
 "ServiceMessage.DesturctingPhoto.You" = "%@ 发送了一张自毁图片。";
 
 "ServiceMessage.DesturctingVideo" = "%@ 给您发送了一段阅后即焚视频，请在您的移动设备上查看。";
@@ -1795,7 +1795,7 @@
 
 "SecureId.Request.Accept" = "授权";
 
-"SecureId.Request.TwoDocuments.Title" = "%@ or %@";
+"SecureId.Request.TwoDocuments.Title" = "%@ 或 %@";
 
 
 "SecureId.UploadScan.Multi" = "Upload a scan of %@ or %@";
@@ -1809,7 +1809,7 @@
 "SecureId.Request.Permission.Address.Empty" = "上传您的地址证明";
 
 "SecureId.FileUpload.Progress" = "已上传 %@%";
-"SecureId.ScanNumber" = "Scan %d";
+"SecureId.ScanNumber" = "扫描件 %d";
 
 "SecureId.Identity.Id" = "身份证";
 "SecureId.Identity.Passport" = "护照";
@@ -1832,14 +1832,14 @@
 
 "SecureId.Identity.Placeholder.Gender" = "性别";
 
-"SecureId.Identity.Placeholder.FirstName" = "姓名";
-"SecureId.Identity.InputPlaceholder.FirstName" = "姓名";
+"SecureId.Identity.Placeholder.FirstName" = "名字";
+"SecureId.Identity.InputPlaceholder.FirstName" = "名字";
 
 "SecureId.Identity.Placeholder.MiddleName" = "中间名";
 "SecureId.Identity.InputPlaceholder.MiddleName" = "中间名";
 
-"SecureId.Identity.Placeholder.LastName" = "姓";
-"SecureId.Identity.InputPlaceholder.LastName" = "姓";
+"SecureId.Identity.Placeholder.LastName" = "姓氏";
+"SecureId.Identity.InputPlaceholder.LastName" = "姓氏";
 
 "SecureId.Identity.Placeholder.Birthday" = "出生日期";
 
@@ -1894,7 +1894,7 @@
 "SecureId.CreatePassword.Header" = "密码";
 "SecureId.CreatePassword.PasswordPlaceholder" = "密码";
 "SecureId.CreatePassword.PasswordInputPlaceholder" = "请输入您的密码";
-"SecureId.CreatePassword.RePasswordInputPlaceholder" = "Re-Enter your password";
+"SecureId.CreatePassword.RePasswordInputPlaceholder" = "请再次输入密码";
 "SecureId.CreatePassword.Description" = "Please create a password to protect your passport info. You will also be asked to enter it when you log in to Telegram."; //WRONG
 "SecureId.CreatePassword.Hint.Header" = "密码提示";
 "SecureId.CreatePassword.Hint.Placeholder" = "提示";
@@ -1953,7 +1953,7 @@
 "SecureId.Identity.SelfieHelp" = "上传一张含有您亲自手持您的证件的照片。请确保证件和您的脸部都清晰可见。";
 
 "SecureId.forgotPassword.NoEmail" = "因为您在设置密码时没有同时提供密码恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
-"SecureId.Confirm.Cancel" = "Are you sure you want to stop the authorization process?";
+"SecureId.Confirm.Cancel" = "您确定要停止授权操作吗？";
 
 
 
@@ -2019,11 +2019,11 @@
 "SecureId.EmptyDescription.IdentityCard" = "上传一份身份证扫描件";
 "SecureId.EmptyDescription.InternalPassport" = "上传您的户口本扫描件";
 
-"SecureId.CreatePassword.Intro.Header" = "**%@ requests access to your personal data**\nto sign you up for their services";
-"SecureId.CreatePassword.Intro" = "Please create a password which will be used to encrypt your personal data.\n\nThis password will also be required whenever you log in to Telegram on a new device.";
+"SecureId.CreatePassword.Intro.Header" = "**%@ 请求访问您的个人数据** 以便为您提供服务。";
+"SecureId.CreatePassword.Intro" = "请创建一个密码来保护您的个人信息。\n\n每次您在新的设备登录到 Telegram 时也将需要输入这个密码。";
 
 "SecureId.Translation.Header" = "翻译件";
-"SecureId.Translation.Desc" = "Upload scans of a certified English translation of the document.";
+"SecureId.Translation.Desc" = "上传经过认证的英文版本扫描件。";
 
 "ProxySettings.Item.Connected" = "已连接";
 "ProxySettings.Item.ConnectedPing" = "已连接（ping：%@ 毫秒）";
@@ -2046,7 +2046,7 @@
 
 "Error.AnError" = "出错了，请稍后再试。";
 
-"InputData.Date.Day.Placeholder1" = "日间";
+"InputData.Date.Day.Placeholder1" = "日";
 "InputData.Date.Month.Placeholder1" = "月";
 "InputData.Date.Year.Placeholder1" = "年";
 
@@ -2267,13 +2267,13 @@
 "SecureId.NameNative.HeaderEmpty" = "您在居住国的姓名";
 "SecureId.NameNative.Header" = "%@ 中的名字";
 "SecureId.NameNative.Desc.Language" = "Your name in the language of your country of residence (%@).";
-"SecureId.NameNative.Desc.Empty" = "Your name in the language of your country of residence";
+"SecureId.NameNative.Desc.Empty" = "请以您所居住的国家语言填写您的姓名。";
 
 "SecureId.Identity.NameInLatine" = "使用拉丁字母输入您的姓名";
 
 
 "SecureId.Password.Error.Invalid" = "密码无效，请重新输入。";
-"SecureId.Password.Error.Limit" = "Limit exceeded. Please try again later";
+"SecureId.Password.Error.Limit" = "错误次数过多，请稍后再试";
 
 
 "SecureId.InputError.LatinOnly" = "您只能使用拉丁字母。";
@@ -2284,9 +2284,9 @@
 "Appearance.Settings.AutoNight" = "自动启用夜间模式";
 
 
-"SecureId.Error.ScansLimit" = "You can't upload more than 20 files";
+"SecureId.Error.ScansLimit" = "您同时最多只能上传二十个文件。";
 "SecureId.Request.Upload.Translation" = "上传您的证件翻译件";
-"SecureId.Request.Upload.Selfie" = "Upload a selfie with your document";
+"SecureId.Request.Upload.Selfie" = "请上传一张您拿着文件的自拍照";
 
 
 "AutoNight.Settings.Sunrise.Desc" = "计算日落/日出时间需要对您的粗略位置进行一次性检测。请注意，此位置仅会存储在您目前的设备上。\n\n日落：%@\n日出：%@";
