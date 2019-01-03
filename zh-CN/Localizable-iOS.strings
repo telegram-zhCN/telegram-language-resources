@@ -2622,14 +2622,18 @@ Unused sets are archived when you add more.";
 "Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在此发送消息的能力至 %@";
 "Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的能力。";
 
+
 "Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送机器人内容的能力至 %@";
 "Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的能力";
+
 
 "Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的能力";
 
+
 "Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在此发送贴纸的能力至 %@";
 "Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的能力";
+
 
 "ChatSettings.ConnectionType.Title" = "连接类型";
 "ChatSettings.ConnectionType.UseProxy" = "使用代理";
@@ -3598,6 +3602,8 @@ Unused sets are archived when you add more.";
 
 
 
+
+
 "AuthSessions.IncompleteAttempts" = "未完成的登录尝试";
 "AuthSessions.IncompleteAttemptsInfo" = "这些设备无法访问您的帐号。他们输入了正确的手机验证码，但没有提供正确的两步验证密码。";
 
@@ -3775,6 +3781,26 @@ Unused sets are archived when you add more.";
 "AttachmentMenu.WebSearch" = "网络搜索";
 
 "Conversation.UnsupportedMediaPlaceholder" = "您目前的 Telegram 版本无法显示此类消息，请尽快更新到最新版。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
