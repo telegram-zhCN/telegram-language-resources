@@ -548,8 +548,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_sessions_header" = "当前会话";
 "lng_sessions_other_header" = "活动会话";
-"lng_sessions_other_desc" = "您可以用同一个手机号码在其他手机、平板和桌面设备上登录。\n所有数据会即时同步。";
-"lng_sessions_terminate_all" = "注销所有其他设备";
+"lng_sessions_other_desc" = "您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。";
+"lng_sessions_terminate_all" = "注销除本机外所有设备";
 "lng_sessions_terminate_all_about" = "注销除本设备之外的其他所有设备。";
 "lng_sessions_incomplete" = "未完成的登陆请求";
 "lng_sessions_incomplete_about" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。";
@@ -788,7 +788,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_reason_spam" = "垃圾信息";
 "lng_report_reason_violence" = "暴力";
 "lng_report_reason_pornography" = "色情";
-"lng_report_reason_other" = "其他";
+"lng_report_reason_other" = "其它";
 "lng_report_reason_description" = "说明";
 "lng_report_button" = "举报";
 "lng_report_thanks" = "非常感谢！ 我们会尽快核查您的举报。";
@@ -1060,7 +1060,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_in_dlg_album" = "相册";
 "lng_in_dlg_video" = "视频";
 "lng_in_dlg_audio_file" = "音乐";
-"lng_in_dlg_contact" = "联系人";
+"lng_in_dlg_contact" = "联系人信息";
 "lng_in_dlg_audio" = "语音留言";
 "lng_in_dlg_video_message" = "视频留言";
 "lng_in_dlg_file" = "文件";
@@ -1806,7 +1806,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_delay_hours#other" = "{count} 小时";
 "lng_export_suggest_title" = "数据导出已准备好";
 "lng_export_suggest_text" = "您现在可以下载您请求导出的数据了。您想要开始下载数据了吗？";
-"lng_export_suggest_cancel" = "不是现在";
+"lng_export_suggest_cancel" = "稍后再说";
 "lng_export_about_telegram" = "这里是您请求导出的全部数据。请记住：Telegram 并不将您的数据用于广告定位也不出售您的数据。Telegram 只储存用于提供安全且功能丰富的云服务所需的信息。\n\n您可以在移动设备上打开 设备 > 隐私和安全 来检查相关设置。";
 "lng_export_about_contacts" = "如果您同意，您的联系人将会被即时同步至 Telegram。有赖于此，您可以很轻松地切换到 Telegram 而不失去您的社交网络，以及在您的所有设备上与朋友聊天。我们使用关于您的联系人的数据以在他们开始使用 Telegram 时提醒您，以及保证您所看到的联系人的名称是您通讯录中的名称而不是他们自己选择的昵称。\n\n您可以在移动设备上的 设置 > 隐私和安全 中禁止联系人同步功能或是删除已被同步的联系人数据。";
 "lng_export_about_frequent" = "该项评分用以显示您最近常联系的人。Telegram 使用这些数据来填充搜索部分顶部的“人脉”框。该项评分也会分析消息框内机器人，以便软件可以在附件菜单中建议您最有可能使用的机器人（或者当您使用“@”开始新的消息时）。\n\n如果您要删除此项数据，请在移动设备上打开 设置 > 隐私和安全 并禁用“推荐常用联系人”功能（需要 Telegram iOS 客户端版本 v.4.8.3 或 Telegram Android 客户端版本 v.4.8.10 或更高版本）。";
@@ -1864,7 +1864,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 // Mac specific
 
-"lng_mac_choose_program_menu" = "其他...";
+"lng_mac_choose_program_menu" = "其它...";
 
 "lng_mac_choose_app" = "选择应用";
 "lng_mac_choose_text" = "选择一个应用程序打开文件 \"{file}\"。";

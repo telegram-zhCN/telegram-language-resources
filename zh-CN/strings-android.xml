@@ -182,7 +182,7 @@
     <string name="Mono">等宽</string>
     <string name="Regular">常规</string>
     <string name="ContactsPermissionAlert">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
-    <string name="ContactsPermissionAlertNotNow">稍后</string>
+    <string name="ContactsPermissionAlertNotNow">稍后再说</string>
     <string name="ContactsPermissionAlertContinue">继续</string>
     <string name="YourContacts">您在 Telegram 上的联系人</string>
     <!--channels-->
@@ -575,7 +575,7 @@
     <string name="EncryptedDescription2">不会在我们的服务器上留下任何痕迹</string>
     <string name="EncryptedDescription3">支持阅后即焚</string>
     <string name="EncryptedDescription4">不允许转发消息</string>
-    <string name="YouWereKicked">您已被移出</string>
+    <string name="YouWereKicked">您已被此群组移除</string>
     <string name="YouLeft">您已经退出此群组</string>
     <string name="DeleteThisGroup">删除群组记录</string>
     <string name="DeleteThisChat">删除此对话</string>
@@ -699,7 +699,7 @@
     <string name="NotificationMessageInvoice">%1$s 向您发送了一个 %2$s 的订单</string>
     <string name="NotificationMessageSDPhoto">%1$s 给您发送了一张自毁图片</string>
     <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
-    <string name="NotificationMessageContact">%1$s 给您分享了一个联系人</string>
+    <string name="NotificationMessageContact">%1$s 给您分享了一条联系人信息</string>
     <string name="NotificationMessagePoll">%1$s 给您发送了一项投票</string>
     <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
     <string name="NotificationMessageLiveLocation">%1$s 与您共享了实时位置</string>
@@ -716,7 +716,7 @@
     <string name="NotificationMessageGroupPhoto">%1$s 发送了一张图片到 %2$s 群组</string>
     <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到 %2$s 群组</string>
     <string name="NotificationMessageGroupPoll">%1$s 发送了一项投票到群组 %2$s</string>
-    <string name="NotificationMessageGroupContact">%1$s 分享了一个联系人到 %2$s 群组</string>
+    <string name="NotificationMessageGroupContact">%1$s 分享了一条联系人信息到 %2$s 群组</string>
     <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
     <string name="NotificationMessageGroupLiveLocation">%1$s 在群组 %2$s 中共享了实时位置</string>
     <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s 来玩 %3$s</string>
@@ -759,7 +759,7 @@
     <string name="NotificationActionPinnedStickerEmoji">%1$s 在群组 %2$s 置顶了一张 %3$s 贴纸</string>
     <string name="NotificationActionPinnedVoice">%1$s 在群组 %2$s 置顶了一段语音留言</string>
     <string name="NotificationActionPinnedRound">%1$s 在群组 %2$s 置顶了一段视频留言</string>
-    <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一个联系人</string>
+    <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一条联系人信息</string>
     <string name="NotificationActionPinnedGeo">%1$s 在群组 %2$s 置顶了一个地理位置</string>
     <string name="NotificationActionPinnedGeoLive">%1$s 在群组 %2$s 置顶了一个实时位置信息</string>
     <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF</string>
@@ -777,7 +777,7 @@
     <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
     <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了一条语音留言</string>
     <string name="NotificationActionPinnedRoundChannel">%1$s 置顶了一条视频留言</string>
-    <string name="NotificationActionPinnedContactChannel">%1$s 置顶了一位联系人</string>
+    <string name="NotificationActionPinnedContactChannel">%1$s 置顶了一条联系人信息</string>
     <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了一个位置</string>
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了一个实时位置信息</string>
     <string name="NotificationActionPinnedGifChannel">%1$s 置顶了一张 GIF</string>
@@ -875,7 +875,7 @@
     <string name="ContactJob">工作</string>
     <string name="ContactBirthday">出生日期</string>
     <string name="ContactJobTitle">标题</string>
-    <string name="CreateNewContact">创建新的联系人</string>
+    <string name="CreateNewContact">新建联系人</string>
     <string name="AddToExistingContact">添加到现有联系人</string>
     <string name="UserBio">个人简介</string>
     <string name="UserBioDetail">添加一些关于你的介绍</string>
@@ -1128,7 +1128,7 @@
     <string name="ChangePhoneNewNumber">新手机号码</string>
     <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
     <string name="ChangePhoneNumberOccupied">手机号码 %1$s 已经和一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。</string>
-    <string name="NotificationsOther">其他</string>
+    <string name="NotificationsOther">其它</string>
     <string name="VibrationDisabled">禁用</string>
     <string name="PopupEnabled">启用</string>
     <string name="PopupDisabled">禁用</string>
@@ -1235,7 +1235,7 @@
     <string name="LocalVideoCache">视频</string>
     <string name="LocalMusicCache">音乐</string>
     <string name="LocalGifCache">GIF</string>
-    <string name="LocalCache">其他文件</string>
+    <string name="LocalCache">其它文件</string>
     <string name="CacheEmpty">已清空</string>
     <string name="KeepMedia">媒体文件保留时间</string>
     <string name="KeepMediaInfo">为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。</string>
@@ -1430,15 +1430,15 @@
     <!--sessions view-->
     <string name="SessionsTitle">活动会话</string>
     <string name="CurrentSession">当前会话</string>
-    <string name="NoOtherSessions">没有其他的活动会话</string>
-    <string name="NoOtherSessionsInfo">您可以从其他的手机、平板和桌面设备用同样的手机号码登陆Telegram。所有数据将被实时同步。</string>
+    <string name="NoOtherSessions">没有其它活动会话</string>
+    <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。</string>
     <string name="OtherSessions">活动会话</string>
     <string name="SessionsInfo">控制您在其它设备上的会话。</string>
     <string name="TerminateSessionInfo">点击一个会话来注销它。</string>
     <string name="TerminateSessionQuestion">注销此会话？</string>
     <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
     <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
-    <string name="TerminateAllSessions">注销所有其它设备上的会话</string>
+    <string name="TerminateAllSessions">注销除本机外所有设备</string>
     <string name="UnofficialApp">非官方应用</string>
     <string name="NoOtherWebSessions">没有活动的第三方登录</string>
     <string name="NoOtherWebSessionsInfo">您可以在在支持的网站上使用 Telegram 登录。</string>
@@ -1662,7 +1662,7 @@
     <string name="MobileUsage">移动数据使用情况</string>
     <string name="RoamingUsage">漫游数据使用情况</string>
     <string name="WiFiUsage">Wi-Fi 数据使用情况</string>
-    <string name="MessagesDataUsage">消息和其他数据</string>
+    <string name="MessagesDataUsage">消息和其它数据</string>
     <string name="CountSent">已发送</string>
     <string name="CountReceived">已接收</string>
     <string name="BytesSent">已发送字节</string>
@@ -2318,12 +2318,12 @@
     <string name="ForwardedPoll_few">%1$d 项转发的投票</string>
     <string name="ForwardedPoll_many">%1$d 项转发的投票</string>
     <string name="ForwardedPoll_other">%1$d 项转发的投票</string>
-    <string name="AndOther_zero">和其他的 %1$d 个</string>
-    <string name="AndOther_one">和其他的 %1$d 个</string>
-    <string name="AndOther_two">和其他的 %1$d 个</string>
-    <string name="AndOther_few">和其他的 %1$d 个</string>
-    <string name="AndOther_many">和其他的 %1$d 个</string>
-    <string name="AndOther_other">和其他的 %1$d 个</string>
+    <string name="AndOther_zero">和其他 %1$d 人</string>
+    <string name="AndOther_one">和其他 %1$d 人</string>
+    <string name="AndOther_two">和其他 %1$d 人</string>
+    <string name="AndOther_few">和其他 %1$d 人</string>
+    <string name="AndOther_many">和其他 %1$d 人</string>
+    <string name="AndOther_other">和其他 %1$d 人</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>

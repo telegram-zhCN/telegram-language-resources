@@ -428,7 +428,7 @@
 "Chat.List.Photo" = "图片";
 "Chat.List.GIF" = "GIF";
 "Chat.List.Map" = "位置";
-"Chat.List.Contact" = "联系人";
+"Chat.List.Contact" = "联系人信息";
 
 "UsernameSettings.ChangeDescription" = "你可以选择一个用户名，这样其他人就可以通过用户名（而不是手机号）找到你。\n\n\n你可以使用 a-z，0-9 和下划线（_），至少 5 个字符。";
 "UsernameSettings.InputPlaceholder" = "输入您的用户名";
@@ -815,7 +815,7 @@
 "ChatList.Service.Call.Cancelled" = "取消的电话";
 "ChatList.Service.Call.Missed" = "未接电话";
 
-"Chat.Service.Call.Cancelled" = "拒接";
+"Chat.Service.Call.Cancelled" = "已取消";
 "Chat.Service.Call.Missed" = "未接";
 
 "ChatList.Service.GameScored1_countable" = "%d %@";
@@ -832,7 +832,7 @@
 "BlockedPeers.EmptyDescrpition" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
 
 "Sessions.CurrentSessionHeader" = "当前会话";
-"Sessions.TerminateOthers" = "终止所有其他会话";
+"Sessions.TerminateOthers" = "注销除本机外所有设备";
 "Sessions.TerminateDescription" = "注销除本设备之外的其他所有设备。";
 "Sessions.ActiveSessionsHeader" = "其他设备";
 
@@ -877,7 +877,7 @@
 "PeerInfo.DeleteContact" = "删除联系人";
 "PeerInfo.Confirm.DeleteContact" = "您确定要删除这个联系人吗？";
 "Compose.SelectUsers" = "选择用户";
-"PeerInfo.AddContact" = "添加为联系人";
+"PeerInfo.AddContact" = "添加联系人";
 "Telegram.GroupAdminsController" = "管理员";
 "GroupAdmins.AllMembersAdmins" = "将所有成员设为管理员";
 "GroupAdmins.Desc.AdminInvites" = "只有管理员能邀请、移除成员或更改群组名称及头像。";
@@ -1002,7 +1002,7 @@
 "Call.UndefinedError" = "未知错误，请稍后再试";
 "Call.PrivacyErrorMessage" = "抱歉，%@ 不接受呼叫。";
 
-"Call.StatusRequesting" = "接通中...";
+"Call.StatusRequesting" = "连接中...";
 "Call.StatusRinging" = "响铃中...";
 "Call.StatusConnecting" = "连接中...";
 "Call.StatusEnded" = "通话结束";
@@ -1092,7 +1092,7 @@
 "Ruw-6m-B2m.title" = "全选";
 
 "UEZ-Bs-lqG.title" = "首字母大写";
-"Vdr-fp-XzO.title" = "隐藏其他窗口";
+"Vdr-fp-XzO.title" = "隐藏其它窗口";
 "W48-6f-4Dl.title" = "编辑";
 "WeT-3V-zwk.title" = "粘贴并匹配样式";
 "aUF-d1-5bR.title" = "窗口";
@@ -1763,7 +1763,7 @@
 
 
 "Telegram.WebSessionsController" = "使用 Telegram 登录的网站";
-"PrivacyAndSecurity.WebAuthorizationHeader" = "已使用 Telegram 登录的网站";
+"PrivacyAndSecurity.WebAuthorizationHeader" = "已关联的网站";
 
 "WebAuthorizations.Logout" = "断开连接";
 "WebAuthorizations.LogoutAll.Description" = "您可以在在支持的网站上使用 Telegram 登录。";
@@ -2189,7 +2189,7 @@
 "ContactInfo.PhoneLabelHomeFax" = "家庭传真";
 "ContactInfo.PhoneLabelWorkFax" = "工作传真";
 "ContactInfo.PhoneLabelPager" = "寻呼机";
-"ContactInfo.PhoneLabelOther" = "其他";
+"ContactInfo.PhoneLabelOther" = "其它";
 "ContactInfo.URLLabelHomepage" = "主页";
 "ContactInfo.BirthdayLabel" = "生日";
 "ContactInfo.Job" = "工作";

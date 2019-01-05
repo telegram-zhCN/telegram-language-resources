@@ -6,7 +6,7 @@
 "MESSAGE_VIDEO" = "%1$@ 给您发送了一段视频";
 "MESSAGE_VIDEO_SECRET" = "%1$@ 给您发送了一张自毁视频";
 "MESSAGE_ROUND" = "%1$@ 给您发送了一条视频留言";
-"MESSAGE_CONTACT" = "%1$@ 给您分享了联系信息";
+"MESSAGE_CONTACT" = "%1$@ 给您分享了一条联系人信息";
 "MESSAGE_GEO" = "%1$@ 给您发送了一个位置";
 "MESSAGE_GEOLIVE" = "%1$@ 已开始共享他们的实时位置";
 "MESSAGE_DOC" = "%1$@ 给您发送了一个文件";
@@ -66,7 +66,7 @@
 "CHANNEL_MESSAGE_DOC" = "%1$@ 发布了一个文件";
 "CHANNEL_MESSAGE_STICKER" = "%1$@ 发送了一个贴纸 (%2$@)";
 "CHANNEL_MESSAGE_AUDIO" = "%1$@ 发布了一条语音留言";
-"CHANNEL_MESSAGE_CONTACT" = "%1$@ 发布了一个联系信息";
+"CHANNEL_MESSAGE_CONTACT" = "%1$@ 发布了一条联系人信息";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 发布了一个位置";
 "CHANNEL_MESSAGE_GEOLIVE" = "%1$@ 正在共享实时位置";
 "CHANNEL_MESSAGE_GIF" = "%1$@ 发布了一个 GIF";
@@ -81,7 +81,7 @@
 "PINNED_DOC" = "%1$@ 置顶了一个文件";
 "PINNED_STICKER" = "%1$@ 置顶了一个贴纸 (%2$@)";
 "PINNED_AUDIO" = "%1$@ 置顶了一条语音留言";
-"PINNED_CONTACT" = "%1$@ 置顶了一个联系人信息";
+"PINNED_CONTACT" = "%1$@ 置顶了一条联系人信息";
 "PINNED_GEO" = "%1$@ 置顶了一个位置";
 "PINNED_GEOLIVE" = "%1$@ 置顶了实时位置";
 "PINNED_GIF" = "%1$@ 置顶了一张 GIF";
@@ -94,7 +94,7 @@
 "PHONE_CALL_REQUEST" = "%1$@ 正在呼叫您...";
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
 
-
+"MESSAGE_TEXT_SEPARATED" = "%1$@|%2$@";
 "MESSAGE_NOTEXT_SEPARATED" = "%1$@|给您发送了一条消息";
 "MESSAGE_PHOTO_SEPARATED" = "%1$@|给您发送了一张图片";
 "MESSAGE_PHOTO_SECRET_SEPARATED" = "%1$@|给您发送了一张自毁图片";
@@ -105,6 +105,7 @@
 "MESSAGE_DOC_SEPARATED" = "%1$@|给您发送了一个文件";
 
 
+"MESSAGE_CONTACT_SEPARATED" = "%1$@|分享了一条联系人信息";
 
 
 
@@ -118,8 +119,7 @@
 
 
 
-
-
+"CHANNEL_MESSAGE_TEXT_SEPARATED" = "%1$@|%2$@";
 "CHANNEL_MESSAGE_NOTEXT_SEPARATED" = "%1$@|发布了一条消息";
 "CHANNEL_MESSAGE_PHOTO_SEPARATED" = "%1$@|发布了一张图片";
 "CHANNEL_MESSAGE_VIDEO_SEPARATED" = "%1$@|发布了一段视频";
@@ -144,12 +144,12 @@
 
 
 
-
+"CHAT_MESSAGE_ROUND_SEPARATED" = "%2$@|%1$@ 发送了一条视频留言";
 "CHAT_MESSAGE_DOC_SEPARATED" = "%2$@|%1$@ 发送了一个文件";
 
-
-
-
+"CHAT_MESSAGE_AUDIO_SEPARATED" = "%2$@|%1$@ 发送了一条语音留言";
+"CHAT_MESSAGE_CONTACT_SEPARATED" = "%2$@|%1$@ 分享了一条联系人信息";
+"CHAT_MESSAGE_GEO_SEPARATED" = "%2$@|%1$@ 发送了一张地图";
 
 
 
@@ -160,11 +160,11 @@
 "CHAT_PHOTO_EDITED_SEPARATED" = "%2$@|%1$@ edited the group\'s photo";
 
 
-
-
-
-
-
+"CHAT_DELETE_MEMBER_SEPARATED" = "%2$@|%1$@ 已将 %3$@ 从群组中移除";
+"CHAT_DELETE_YOU_SEPARATED" = "%2$@|%1$@ 已将您从群组中移除";
+"CHAT_LEFT_SEPARATED" = "%2$@|%1$@ 退出了群组";
+"CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ 返回了群组";
+"CHAT_JOINED_SEPARATED" = "%2$@|%1$@ 加入了群组";
 
 
 
@@ -180,7 +180,7 @@
 "PINNED_DOC_SEPARATED" = "%1$@|置顶了一个文件";
 
 "PINNED_AUDIO_SEPARATED" = "%1$@|置顶了一条语音留言";
-"PINNED_CONTACT_SEPARATED" = "%1$@|置顶了一个联系人信息";
+"PINNED_CONTACT_SEPARATED" = "%1$@|置顶了一条联系人信息";
 
 
 "PINNED_POLL_SEPARATED" = "%1$@|置顶了一项投票";
@@ -190,8 +190,8 @@
 
 "CONTACT_JOINED_SEPARATED" = "%1$@|加入了 Telegram！";
 
-
-
+"AUTH_UNKNOWN_SEPARATED" = "新设备登录|来自陌生设备 %1$@";
+"AUTH_REGION_SEPARATED" = "新设备登录|来自陌生设备 %1$@，地点：%2$@";
 
 "PHONE_CALL_REQUEST_SEPARATED" = "%1$@|正在呼叫您！";
 "PHONE_CALL_MISSED_SEPARATED" = "%1$@|您有未接来电";
@@ -416,7 +416,7 @@
 "Conversation.ForwardTitle" = "转发";
 "Conversation.ForwardChats" = "对话";
 "Conversation.ForwardContacts" = "联系人";
-"Conversation.StatusKickedFromGroup" = "您已被移出这个群组";
+"Conversation.StatusKickedFromGroup" = "您已被此群组移除";
 "Conversation.StatusLeftGroup" = "您已退出这个群组";
 "Conversation.StatusTyping" = "正在输入";
 "Conversation.Call" = "呼叫";
@@ -510,7 +510,7 @@
 "Message.Photo" = "图片";
 "Message.Video" = "视频";
 "Message.Location" = "位置信息";
-"Message.Contact" = "联系人";
+"Message.Contact" = "联系人信息";
 "Message.File" = "文件";
 "Message.Sticker" = "[贴纸]";
 "Message.StickerText" = "%@ [贴纸]";
@@ -565,7 +565,7 @@
 "UserInfo.LastNamePlaceholder" = "姓氏";
 "UserInfo.GenericPhoneLabel" = "手机号码";
 "UserInfo.SendMessage" = "发送消息";
-"UserInfo.AddContact" = "添加为联系人";
+"UserInfo.AddContact" = "添加联系人";
 "UserInfo.ShareContact" = "分享联系信息";
 "UserInfo.StartSecretChat" = "开始加密对话";
 "UserInfo.DeleteContact" = "删除联系人";
@@ -1346,12 +1346,12 @@
 "PrivacySettings.AuthSessions" = "活动会话";
 "AuthSessions.Title" = "活动会话";
 "AuthSessions.CurrentSession" = "当前会话";
-"AuthSessions.TerminateOtherSessions" = "注销其他设备";
+"AuthSessions.TerminateOtherSessions" = "注销除本机外所有设备";
 "AuthSessions.TerminateOtherSessionsHelp" = "除本设备之外，其他已登录的设备都会被注销。";
 "AuthSessions.TerminateSession" = "注销此设备";
 "AuthSessions.OtherSessions" = "其他设备";
 "AuthSessions.EmptyTitle" = "无其他设备";
-"AuthSessions.EmptyText" = "您可以用同一个手机号码在其他手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。";
+"AuthSessions.EmptyText" = "您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。";
 "AuthSessions.AppUnofficial" = "(ID: %@)";
 
 "WebPreview.GettingLinkInfo" = "获取链接信息...";
@@ -1383,7 +1383,7 @@
 
 "Notification.JoinedGroupByLink" = "%@ 通过邀请链接加入了群组";
 
-"ChatSettings.Other" = "其他";
+"ChatSettings.Other" = "其它";
 "ChatSettings.Stickers" = "贴纸";
 
 "StickerPacksSettings.Title" = "贴纸设置";
@@ -1885,7 +1885,7 @@
 "Notification.PinnedAnimationMessage" = "%@ 置顶了一张 GIF";
 "Notification.PinnedStickerMessage" = "%@ 置顶了一张贴纸";
 "Notification.PinnedLocationMessage" = "%@ 置顶了一个位置";
-"Notification.PinnedContactMessage" = "%@ 置顶了一个联系人信息";
+"Notification.PinnedContactMessage" = "%@ 置顶了一条联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
 "Notification.PinnedPollMessage" = "%@ 置顶了一项投票";
 
@@ -1929,7 +1929,7 @@
 
 "Profile.About" = "个人简介";
 
-"Conversation.StatusKickedFromChannel" = "您已被移出此频道";
+"Conversation.StatusKickedFromChannel" = "您已被此频道移除";
 
 "Generic.OpenHiddenLinkAlert" = "打开 %@？";
 
@@ -2241,7 +2241,7 @@ Unused sets are archived when you add more.";
 "Notification.CallOutgoingShort" = "外拨电话";
 "Notification.CallIncomingShort" = "来电";
 "Notification.CallMissedShort" = "未接";
-"Notification.CallCanceledShort" = "取消";
+"Notification.CallCanceledShort" = "已取消";
 "Notification.CallFormat" = "%1$@, %2$@"; // 1 - time, 2 - duration
 
 
@@ -2365,7 +2365,7 @@ Unused sets are archived when you add more.";
 "Message.PaymentSent" = "支付： %@";
 "Notification.PaymentSent" = "您已成功因 {title} 向 {user} 转账 {amount}";
 
-"Common.NotNow" = "不是现在";
+"Common.NotNow" = "稍后再说";
 
 "Calls.RatingFeedback" = "输入文字...";
 
@@ -2565,8 +2565,8 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.MessageInvitedNameUsername" = "邀请了 %1$@ (%2$@)";
 "Channel.AdminLog.MessageKickedName" = "封禁了 %1$@";
 "Channel.AdminLog.MessageKickedNameUsername" = "封禁了 %1$@ (%2$@)";
-"Channel.AdminLog.MessageUnkickedName" = "unbanned %1$@";
-"Channel.AdminLog.MessageUnkickedNameUsername" = "unbanned %1$@ (%2$@)";
+"Channel.AdminLog.MessageUnkickedName" = "解封了 %1$@";
+"Channel.AdminLog.MessageUnkickedNameUsername" = "解封了 %1$@ (%2$@)";
 "Channel.AdminLog.MessageRestrictedName" = "修改了对 %1$@ 的限制";
 "Channel.AdminLog.MessageRestrictedNameUsername" = "修改了对 %1$@ 的限制 (%2$@)";
 "Channel.AdminLog.MessagePromotedName" = "修改了 %1$@ 的权限";
@@ -2992,7 +2992,7 @@ Unused sets are archived when you add more.";
 "AutoDownloadSettings.Cellular" = "移动网络";
 "AutoDownloadSettings.WiFi" = "WI-FI";
 "AutoDownloadSettings.Contacts" = "联系人";
-"AutoDownloadSettings.PrivateChats" = "其它私密对话";
+"AutoDownloadSettings.PrivateChats" = "非联系人私聊";
 "AutoDownloadSettings.GroupChats" = "群聊";
 "AutoDownloadSettings.Channels" = "频道";
 "AutoDownloadSettings.LimitBySize" = "大小限制";
@@ -3119,7 +3119,7 @@ Unused sets are archived when you add more.";
 "Privacy.SecretChatsLinkPreviewsHelp" = "链接预览将在 Telegram 服务器上生成，我们不会储存与您所发送的链接有关的数据。";
 
 "Privacy.ContactsTitle" = "联系人";
-"Privacy.ContactsSync" = "同步联系人";
+"Privacy.ContactsSync" = "同步通讯录";
 "Privacy.ContactsSyncHelp" = "开启以将该设备上的联系人即时同步至您的账户。";
 "Privacy.ContactsReset" = "删除已同步联系人";
 "Privacy.ContactsResetConfirmation" = "这将把你的联系人信息从 Telegram 服务端删除。如果“同步联系人”选项处于启用状态，联系人信息将被重新同步。";
@@ -3365,7 +3365,7 @@ Unused sets are archived when you add more.";
 "ContactInfo.PhoneLabelHomeFax" = "家庭传真";
 "ContactInfo.PhoneLabelWorkFax" = "工作传真";
 "ContactInfo.PhoneLabelPager" = "寻呼机";
-"ContactInfo.PhoneLabelOther" = "其他";
+"ContactInfo.PhoneLabelOther" = "其它";
 "ContactInfo.URLLabelHomepage" = "主页";
 "ContactInfo.BirthdayLabel" = "生日";
 "ContactInfo.Job" = "工作";
@@ -3847,6 +3847,9 @@ Unused sets are archived when you add more.";
 
 /* new from translations.telegram.org */
 
+"CHAT_MESSAGES_SEPARATED" = "%2$@|%1$@ 发送了 %3$@ 条消息";
+"CHAT_MESSAGE_FWDS_SEPARATED" = "%2$@|%1$@ 转发了 %3$@ 条消息";
+"CHAT_MESSAGE_PHOTOS_SEPARATED" = "%2$@|%1$@ 发送了 %3$@ 张图片";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
@@ -3855,7 +3858,7 @@ Unused sets are archived when you add more.";
 "Notifications.DisplayNamesOnLockScreenInfo" = "锁屏状态时在通知中显示对方名称。如需关闭此功能, 请打开 iOS 设置 > Telegram > 通知，并将“显示预览”项更改为“仅解锁时”或“从不”。";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
-"PassportKit.Button.GetTelegramAlertNotNow" = "不是现在";
+"PassportKit.Button.GetTelegramAlertNotNow" = "稍后再说";
 "PassportKit.Button.GetTelegramAlertTitle" = "获取 Telegram Messenger";
 "PassportKit.Button.Title" = "通过 Telegram 登录";
 "Peer.DeletedUser" = "已删除用户";

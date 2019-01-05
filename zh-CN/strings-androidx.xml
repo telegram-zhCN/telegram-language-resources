@@ -183,7 +183,7 @@
   
   <string name="xOtherPeopleNames_other">和其他 %1$s 人</string>
   
-  <string name="xOtherChatTitles_other">和其他 %1$s 人</string>
+  <string name="xOtherChatTitles_other">和其它 %1$s 个对话</string>
   
   <string name="xContacts_other">%1$s 个联系人</string>
   
@@ -411,8 +411,8 @@
   <string name="group_user_add">%1$s 加入了群组</string>
   <string name="group_user_add_self">您加入了此群组</string>
   <string name="group_user_removed">%1$s 移除了 %2$s</string>
-  <string name="group_user_self_removed">你移除了 %1$s</string>
-  <string name="group_user_removed_self">%1$s移除了你</string>
+  <string name="group_user_self_removed">您移除了 %1$s</string>
+  <string name="group_user_removed_self">%1$s 已将您从群组中移除</string>
   <string name="group_user_remove">%1$s 离开了群组</string>
   <string name="group_user_remove_self">您退出了该群组</string>
   <string name="group_user_join_by_link">%1$s 通过邀请链接加入了群组</string>
@@ -561,7 +561,7 @@
   <string name="NoGalleryAccess">请求权限出错</string>
   <string name="Install">Install</string>
   <string name="ChatWithYourself">和你自己聊天</string>
-  <string name="YouWereKicked">你已被踢出</string>
+  <string name="YouWereKicked">您已被此群组移除</string>
   <string name="Contacts">联系人</string>
   <string name="Invite">邀请</string>
   <string name="Help">帮助</string>
@@ -583,7 +583,7 @@
   <string name="EncryptedDescription3">支持阅后即焚</string>
   <string name="EncryptedDescription4">不允许转发</string>
   <string name="EditMessage">编辑消息</string>
-  <string name="NotNow">不是现在</string>
+  <string name="NotNow">稍后再说</string>
   <string name="ChannelNotifyMembersInfoOn">消息发布后订阅者将收到推送通知</string>
   <string name="ChannelNotifyMembersInfoOff">消息发布后订阅者将收到无声通知</string>
   <string name="ChannelSilentBroadcast">静默广播</string>
@@ -644,9 +644,9 @@
   <string name="PasswordEnabled">启用</string>
   <string name="PasswordDisabled">已禁用</string>
   <string name="CurrentSession">当前会话</string>
-  <string name="NoOtherSessions">没有其他的活动会话</string>
-  <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其他手机、平板和桌面设备上登录。\n所有数据会即时同步。</string>
-  <string name="TerminateAllSessions">注销所有其它设备上的会话</string>
+  <string name="NoOtherSessions">没有其它活动会话</string>
+  <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。</string>
+  <string name="TerminateAllSessions">注销除本机外所有设备</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
   <string name="TerminateSessionQuestion">注销此会话？</string>
   <string name="TerminateSession">注销会话</string>
@@ -944,7 +944,7 @@
   <string name="Reset">重置</string>
   <string name="TotalDataUsage">总计</string>
   <string name="MessagesAndData">消息和服务数据</string>
-  <string name="OtherMedia">其他媒体文件</string>
+  <string name="OtherMedia">其它媒体文件</string>
   <string name="Sent">已发送</string>
   <string name="CountReceived">已接收</string>
   <string name="KeepMedia">保留媒体文件</string>
@@ -954,7 +954,7 @@
   <string name="KeepMediaInfo">为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。</string>
   <string name="LocalDatabase">本地数据库</string>
   <string name="MediaAndFiles">媒体文件和其他文件</string>
-  <string name="OtherChats">其他对话</string>
+  <string name="OtherChats">其它对话</string>
   <string name="SecretFiles">私人媒体文件和其他文件</string>
   <string name="Clear">清空</string>
   <string name="ClearX">清理 %1$s 文件</string>
@@ -1002,7 +1002,7 @@
   <string name="RingtoneDisabled">已禁用</string>
   <string name="Calls">通话</string>
   <string name="Allow">允许</string>
-  <string name="ContactAdded">联系人已添加</string>
+  <string name="ContactAdded">已添加联系人</string>
   <string name="SuggestInvitingUser">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？</string>
   
   <string name="SuggestInvitingUserCommon_other">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
@@ -1016,7 +1016,7 @@
   <string name="AnswerCall">接听</string>
   <string name="OutgoingCallBusy">去电 (忙)</string>
   <string name="Missed">未接</string>
-  <string name="Cancelled">拒接</string>
+  <string name="Cancelled">已取消</string>
   <string name="Outgoing">外拨电话</string>
   <string name="Incoming">来电</string>
   <string name="CallAgain">再次呼叫</string>
@@ -1100,7 +1100,7 @@
   <string name="ProxyConnections">代理连接</string>
   <string name="ProxyConnected">已连接 (%1$s)</string>
   <string name="ProxyAdd">添加代理</string>
-  <string name="ProxyOther">其他设置</string>
+  <string name="ProxyOther">其它设置</string>
   <string name="UseProxyServer">服务器</string>
   <string name="UseProxyPort">端口</string>
   <string name="ProxySettings">代理设置</string>
@@ -1448,7 +1448,7 @@
   <string name="SyncHintUnavailable">要允许 Telegram 访问您的通讯录，请点击 设置 &gt; 权限，并将 通讯录 权限设为开启</string>
   <string name="Continue">继续</string>
   <string name="NoChatsText">**没有对话可以展示**\n\n邀请您的朋友和家人来&#160;加入#160;Telegram吧</string>
-  <string name="ShowContacts">开始对话</string>
+  <string name="ShowContacts">开始聊天</string>
   <string name="ContactsOnTelegramSingle">%1$s 正在使用&#160;Telegram</string>
   <string name="ContactsOnTelegramSeveral">%1$s 和 %2$s 正在&#160;使用&#160;Telegram</string>
   
@@ -1540,7 +1540,7 @@
   <string name="NoActiveLogins">**没有授权登录**\n\n你可以在所有支&#160;持&#160;使&#160;用 Telegram 登入的网站中登录。</string>
   <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
   <string name="ClearOtherWebSessionsHelp">您可以在在支持的网站上使用 Telegram 登录。</string>
-  <string name="OtherWebSessions">关联网站</string>
+  <string name="OtherWebSessions">已关联的网站</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="DisconnectWebsite">断开连接</string>
   <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 账户吗？</string>
@@ -1710,7 +1710,7 @@
   <string name="ProxyEdit">编辑代理</string>
   <string name="ProxyRemoveInfo">您确定要删除此代理设置吗？</string>
   <string name="ErrorUsersTooFew">抱歉，根据这些用户的隐私设置，您无法将他们添加到群组。</string>
-  <string name="SyncContacts">同步联系人</string>
+  <string name="SyncContacts">同步通讯录</string>
   <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的账户。</string>
   <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
   <string name="SyncContactsDelete">删除已同步联系人</string>
