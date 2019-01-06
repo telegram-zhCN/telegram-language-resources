@@ -3781,7 +3781,7 @@ Unused sets are archived when you add more.";
 "AttachmentMenu.WebSearch" = "网络搜索";
 
 "Conversation.UnsupportedMediaPlaceholder" = "您目前的 Telegram 版本无法显示此类消息，请尽快更新到最新版。";
-
+"Conversation.UpdateTelegram" = "更新 Telegram";
 
 
 

@@ -1793,7 +1793,7 @@
     <string name="SignUp">注册</string>
     <string name="DeclineDeactivate">拒绝并删除数据</string>
     <!--messages-->
-    <string name="ActionInviteYou">您通过邀请链接加入了此群组。</string>
+    <string name="ActionInviteYou">您通过邀请链接加入了此群组</string>
     <string name="ActionInviteUser">un1 通过邀请链接加入了此群组</string>
     <string name="ActionKickUser">un1 移除了 un2</string>
     <string name="ActionLeftUser">un1 退出了群组</string>

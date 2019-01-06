@@ -2005,7 +2005,7 @@
   <string name="ThemeSectionPlayer">Music Player</string>
   <string name="ThemeSectionIcons">Icons</string>
   <string name="ThemeSectionBackground">Background</string>
-  <string name="ThemeSectionRadios_info">These colors are displayed in Settings&#160;&gt;&#160;Theme.\nMake sure they clearly represent corresponding themes on your **filling** color.</string>
+  <string name="ThemeSectionRadios_info">These colors are displayed in Settings&#160;&gt;&#160;Themes and Chats.\nMake sure they clearly represent corresponding themes on your **filling** color.</string>
   <string name="ThemeSectionWP_info">These colors are used as a transparent overlay when the corresponding wallpaper is set: dates, unread separators, inline keyboards, etc.\n\nDo not change them unless you are looking for a better color.</string>
   <string name="ThemeSectionUnsorted">Unsorted</string>
   <string name="ThemeSectionAttach">Attach Menu</string>
