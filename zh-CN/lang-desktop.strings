@@ -163,7 +163,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_pinned_notify" = "通知所有成员";
 
 "lng_intro_about" = "欢迎使用 Telegram 官方桌面版客户端。\n它快速且安全。";
-"lng_start_msgs" = "开始使用";
+"lng_start_msgs" = "开始聊天";
 
 "lng_intro_next" = "下一步";
 "lng_intro_finish" = "注册";

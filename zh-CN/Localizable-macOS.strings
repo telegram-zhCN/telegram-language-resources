@@ -345,7 +345,7 @@
 "Login.JustSentSms" = "我们已经向您的手机发送了一条包含验证码的短信。请将其输入在上方。";
 "Login.PhoneCalledCode" = "我们正在呼叫您的手机来播报验证码。\n请在下方输入您的验证码。";
 "Login.PhoneDialed" = "Telegram 已经拨通您的手机";
-"Login.willCall" = "Telegram 会在 %d:%@ 后呼叫您的手机";
+"Login.willCall" = "Telegram 会在 %d:%@ 后改用电话语音播报验证码";
 "Login.willSendSms" = "Telegram 将在 %d:%@ 后给你发送短信";
 "Login.passwordPlaceholder" = "密码";
 

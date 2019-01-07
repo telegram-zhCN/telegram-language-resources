@@ -303,15 +303,15 @@
 "Tour.Text3" = "**Telegram** 不限制\n文件和消息大小";
 
 "Tour.Title4" = "安全";
-"Tour.Text4" = "**Telegram** 保证您的消息安全\n不受黑客侵扰";
+"Tour.Text4" = "**Telegram** 保障您的消息安全\n免受黑客攻击";
 
 "Tour.Title5" = "云端";
-"Tour.Text5" = "**Telegram** 允许您通过多个设备访问您的\n聊天记录";
+"Tour.Text5" = "**Telegram** 让您能从\n多个设备收发消息";
 
 "Tour.Title6" = "免费";
 "Tour.Text6" = "**Telegram** 永久免费，无广告\n不收取任何费用";
 
-"Tour.StartButton" = "开始使用";
+"Tour.StartButton" = "开始聊天";
 
 // Login
 "Login.PhoneAndCountryHelp" = "请确认您的国家代码并输入您的手机号码。";
@@ -319,7 +319,7 @@
 "Login.HaveNotReceivedCodeInternal" = "没有收到验证码？";
 "Login.CodeSentSms" = "我们通过短信向您发送了验证码";
 "Login.Code" = "验证码";
-"Login.WillCallYou" = "Telegram 会在 %@ 后通过电话语音播报验证码";
+"Login.WillCallYou" = "Telegram 会在 %@ 后改用电话语音播报验证码";
 "Login.CallRequestState2" = "正在向 Telegram 发送呼叫请求...";
 "Login.CallRequestState3" = "Telegram 已拨打您的电话\n[仍未收到验证码？]";
 "Login.EmailNotConfiguredError" = "请先启用邮箱账号";
@@ -659,7 +659,7 @@
 // Notifications and Sounds
 "Notifications.Title" = "通知";
 "Notifications.MessageNotifications" = "消息通知";
-"Notifications.MessageNotificationsAlert" = "提醒";
+"Notifications.MessageNotificationsAlert" = "显示通知";
 "Notifications.MessageNotificationsPreview" = "消息预览";
 "Notifications.MessageNotificationsSound" = "声音";
 "Notifications.MessageNotificationsHelp" = "您可以在特定的用户信息界面中设置针对他们的通知策略。";
@@ -668,14 +668,14 @@
 
 
 "Notifications.GroupNotifications" = "群组消息通知";
-"Notifications.GroupNotificationsAlert" = "提醒";
+"Notifications.GroupNotificationsAlert" = "显示通知";
 "Notifications.GroupNotificationsPreview" = "消息预览";
 "Notifications.GroupNotificationsSound" = "声音";
 "Notifications.GroupNotificationsHelp" = "您可以在特定的群组信息界面中设置针对他们的通知策略。";
 "Notifications.GroupNotificationsExceptionsHelp" = "为特定群组设置自定义通知。";
 
 "Notifications.ChannelNotifications" = "频道通知";
-"Notifications.ChannelNotificationsAlert" = "提示";
+"Notifications.ChannelNotificationsAlert" = "显示通知";
 "Notifications.ChannelNotificationsPreview" = "消息预览";
 "Notifications.ChannelNotificationsSound" = "声音";
 "Notifications.ChannelNotificationsHelp" = "You can set custom notifications for specific channels on the Channel Info page.";
@@ -944,7 +944,7 @@
 "ChangePhoneNumberCode.Code" = "验证码";
 "ChangePhoneNumberCode.CodePlaceholder" = "输入验证码";
 "ChangePhoneNumberCode.Help" = "我们已向此号码发送短信验证码";
-"ChangePhoneNumberCode.CallTimer" = "Telegram 会在 %@ 后通过电话语音播报验证码";
+"ChangePhoneNumberCode.CallTimer" = "Telegram 会在 %@ 后改用电话语音播报验证码";
 "ChangePhoneNumberCode.RequestingACall" = "正在向 Telegram 发送呼叫请求...";
 "ChangePhoneNumberCode.Called" = "Telegram 已拨打您的电话";
 

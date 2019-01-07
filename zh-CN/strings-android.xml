@@ -29,7 +29,7 @@
     <string name="SentSmsCodeTitle">输入验证码</string>
     <string name="SentCallCode">我们正在呼叫您的手机 **%1$s**。\n\n请不要接听，Telegram 将会自动处理接下来的事情。</string>
     <string name="SentCallOnly">我们正在呼叫您的手机 **%1$s** 并播报验证码。</string>
-    <string name="CallText">我们会在 %1$d:%2$02d 后使用电话语音播放验证码</string>
+    <string name="CallText">Telegram 会在 %1$d:%2$02d 后改用电话语音播报验证码</string>
     <string name="SmsText">我们会在 %1$d:%2$02d 后给您发送短信</string>
     <string name="Calling">正在呼叫您...</string>
     <string name="SendingSms">正在发送短信...</string>
@@ -1946,7 +1946,7 @@
     <string name="Page5Title">强大</string>
     <string name="Page6Title">云端</string>
     <string name="Page1Message">世界上**最快的**聊天工具\n**免费**又**安全**</string>
-    <string name="Page2Message">**Telegram** 收发信息\n比任何应用都快</string>
+    <string name="Page2Message">**Telegram** 以同类软件中最快的速度\n为您传递消息</string>
     <string name="Page3Message">**Telegram** 永久免费，无广告\n不收取任何费用</string>
     <string name="Page4Message">**Telegram** 保障您的消息安全\n免受黑客攻击</string>
     <string name="Page5Message">**Telegram** 不限制\n文件和消息大小</string>
