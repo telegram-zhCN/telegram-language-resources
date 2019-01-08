@@ -35,7 +35,7 @@
     <string name="SendingSms">正在发送短信...</string>
     <string name="Code">验证码</string>
     <string name="WrongNumber">号码错误？</string>
-    <string name="DidNotGetTheCode">未收到验证码？</string>
+    <string name="DidNotGetTheCode">没有收到验证码？</string>
     <string name="DidNotGetTheCodeSms">通过短信发送验证码</string>
     <string name="CancelAccountReset">撤销帐号重置请求</string>
     <string name="CancelAccountResetInfo">我们收到一个有访问你手机号码 **%1$s** 权限的人要求删除你的 Telegram 账号并重置两步验证密码。\n\n如果不是你本人，请输入我们刚刚通过短信发送给你的验证码。</string>
@@ -1647,7 +1647,7 @@
     <string name="ResetMyAccountWarningText">此操作无法撤销。\n\n如果您重置了您的帐户，所有的消息和对话都将被删除。</string>
     <string name="ResetMyAccountWarningReset">重置帐号</string>
     <string name="LoginPassword">密码</string>
-    <string name="LoginPasswordText">您已启用了两步验证，因此您的帐户被一个附加密码保护。</string>
+    <string name="LoginPasswordText">您已经启用两步认证，这个附加的密码将保护您的帐号。</string>
     <string name="ForgotPassword">忘记密码？</string>
     <string name="PasswordRecovery">找回密码</string>
     <string name="PasswordCode">验证码</string>

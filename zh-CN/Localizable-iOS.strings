@@ -349,7 +349,7 @@
 "Login.CountryCode" = "国家代码";
 "Login.InvalidCountryCode" = "无效的国家代码";
 
-"Login.InfoTitle" = "个人信息";
+"Login.InfoTitle" = "您的姓名";
 "Login.InfoAvatarAdd" = "上传";
 "Login.InfoAvatarPhoto" = "头像";
 "Login.InfoFirstNamePlaceholder" = "名字";
@@ -1115,7 +1115,7 @@
 "EnterPasscode.EnterNewPasscodeChange" = "请输入新的解锁密码";
 "EnterPasscode.RepeatNewPasscode" = "重复密码以确认";
 "EnterPasscode.EnterCurrentPasscode" = "输入当前解锁密码";
-"EnterPasscode.TouchId" = "请输入锁定码";
+"EnterPasscode.TouchId" = "请输入您的锁定码";
 
 "DialogList.PasscodeLockHelp" = "点击锁定 Telegram";
 
@@ -1610,7 +1610,6 @@
 "Group.UpgradeConfirmation" = "请注意：群组成员必须更新最新版的 Telegram 才能看到您的超级群组。";
 
 
-"Notification.ChannelMigratedFrom" = "此群组已升级为超级群组";
 
 "GroupInfo.DeactivatedStatus" = "群组已失效";
 
@@ -2008,7 +2007,7 @@
 
 "Contacts.TopSection" = "联系人";
 
-"Login.ResetAccountProtected.Title" = "重置账号";
+"Login.ResetAccountProtected.Title" = "重置帐户";
 "Login.ResetAccountProtected.Text" = "因为 %@ 这个账号处于活动状态并设置了密码保护，出于安全考虑，我们将在 1 周后予以删除。\n\n你可以在这段时间内随时取消这一流程。";
 "Login.ResetAccountProtected.TimerTitle" = "您将能够在此时间后重置您的帐户:";
 "Login.ResetAccountProtected.Reset" = "重置";
@@ -2529,6 +2528,10 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.BanSendGifs" = "发送 GIF";
 "Channel.AdminLog.MessageRestricted" = "%@ 修改了 %@ 的限制 (%@)";
 "Channel.AdminLog.MessageAdmin" = "%@ 修改了 %@ 的权限 (%@)";
+
+
+
+
 
 "Channel.AdminLog.CanChangeInfo" = "修改信息";
 "Channel.AdminLog.CanSendMessages" = "发布消息";
@@ -3845,6 +3848,17 @@ Unused sets are archived when you add more.";
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "CHAT_MESSAGES_SEPARATED" = "%2$@|%1$@ 发送了 %3$@ 条消息";
@@ -3855,6 +3869,7 @@ Unused sets are archived when you add more.";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
 "MESSAGE_FWDS_SEPARATED" = "%1$@|向您转发了 %2$@ 条消息";
+"Notification.ChannelMigratedFrom" = "此群组已升级为超级群组";
 "Notifications.DisplayNamesOnLockScreenInfo" = "锁屏状态时在通知中显示对方名称。如需关闭此功能, 请打开 iOS 设置 > Telegram > 通知，并将“显示预览”项更改为“仅解锁时”或“从不”。";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
