@@ -322,7 +322,7 @@
 "Login.WillCallYou" = "Telegram 会在 %@ 后改用电话语音播报验证码";
 "Login.CallRequestState2" = "正在向 Telegram 发送呼叫请求...";
 "Login.CallRequestState3" = "Telegram 已拨打您的电话\n[仍未收到验证码？]";
-"Login.EmailNotConfiguredError" = "请先启用邮箱账号";
+"Login.EmailNotConfiguredError" = "为了向我们发送错误详情，您需要设置一个电子邮箱地址。\n\n请前往系统 设置 > 密码与帐户 > 添加帐户 并设置一个电子邮箱帐户。";
 "Login.EmailCodeSubject" = "%@, no code";
 "Login.EmailCodeBody" = "My phone number is:\n%@\nI can't get an activation code for Telegram.";
 "Login.UnknownError" = "出现未知错误，请稍后再试";

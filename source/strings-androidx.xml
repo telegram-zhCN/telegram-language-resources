@@ -156,6 +156,7 @@
   <string name="xChats_other">%1$s chats</string>
   <string name="xMessages_one">%1$s message</string>
   <string name="xMessages_other">%1$s messages</string>
+  <string name="NewMessages">New Messages</string>
   <string name="xNewMessages_one">%1$s new message</string>
   <string name="xNewMessages_other">%1$s new messages</string>
   <string name="FromXChats_one">from %1$s chat</string>
@@ -706,7 +707,7 @@
   <string name="format_PasscodeTooManyAttempts">Too many attempts. %1$s</string>
   <string name="EmailMatchesOldOne">Email address hasn\'t changed.</string>
   <string name="Hint">Hint: %1$s</string>
-  <string name="PrivateChats">Private Chats</string>
+  <string name="PrivateChats">Private Chats and Mentions</string>
   <string name="MessagePreview">Message Preview</string>
   <string name="Vibrate">Vibrate</string>
   <string name="VibrateDisabled">Disabled</string>
@@ -1199,7 +1200,7 @@
   <string name="CopyTextFailed">Failed to copy text. Most likely, the text you tried to copy is too big.</string>
   <string name="AutoNightMode">Auto Night Mode</string>
   <string name="DisableAutoNightMode">Disable Auto Night Mode?</string>
-  <string name="DisableAutoNightModeDesc">Changing current theme will disable Auto Night Mode.\n\nYou may enable it any time later in Settings &gt; Themes.</string>
+  <string name="DisableAutoNightModeDesc">Changing current theme will disable Auto Night Mode.\n\nYou may enable it any time later in Settings &gt; Themes and Chats.</string>
   <string name="UseProxyForCalls">Use proxy for calls</string>
   <string name="UseProxyForCallsInfo">Proxy servers may degrade the quality of your calls.</string>
   <string name="HoldToPreview">Chat Previews</string>
@@ -1307,7 +1308,7 @@
   <string name="InviteBackToChannel">Invite back to channel</string>
   <string name="MemberCannotJoinRegularGroup">%1$s will not be able to return to the group unless added by another member or given an invite link.</string>
   <string name="AdminCanAssignAdmins">This admin will be able to add new admins with the same (or more limited) permissions.</string>
-  <string name="AdminCannotAssignAdmins">This Admin will not be able to add new admins.</string>
+  <string name="AdminCannotAssignAdmins">This admin will not be able to add new admins.</string>
   <string name="ShareMyContactInfo">Share my contact</string>
   <string name="MemberBanChannel">This User will be banned and removed from channel.</string>
   <string name="MemberBanGroup">This User will be banned and removed from group.</string>
@@ -1507,9 +1508,10 @@
   <string name="PlayPause">Pause</string>
   <string name="PlayResume">Resume</string>
   <string name="PlayStop">Stop</string>
-  <string name="NotificationChannelCommonPrivate">Default notification settings for all private chats.</string>
+  <string name="NotificationChannelCommonPrivate">Default notification settings for all private chats and mentions.</string>
   <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
   <string name="NotificationChannelSecretChat">Custom notification settings for the Secret Chat with %1$s.</string>
+  <string name="NotificationChannelUser">Custom notification settings for messages and mentions from %1$s.</string>
   <string name="NotificationChannelGroupChat">Custom notification settings for the Group «%1$s».</string>
   <string name="NotificationChannelGroupChatPublic">Custom notification settings for the Group «%1$s» (%2$s).</string>
   <string name="NotificationChannelChannelChat">Custom notification settings for the Channel «%1$s».</string>
@@ -2058,7 +2060,7 @@
 
   <string name="ThemeInstall">Apply %1$s theme?</string>
   <string name="ThemeInstallAuthor">Apply %1$s theme by %2$s?</string>
-  <string name="ThemeInstallHint">You can switch between installed themes in Settings&#160;&gt;&#160;Themes</string>
+  <string name="ThemeInstallHint">You can switch between installed themes in Settings&#160;&gt;&#160;Themes and Chats</string>
   <string name="ThemeInstallDone">Apply theme</string>
 
   <string name="xColors_one">%1$s color</string>
@@ -2178,6 +2180,8 @@
   <string name="ShareTitleMediaX_one">Share %1$s media to…</string>
   <string name="ShareTitleMediaX_other">Share %1$s medias to…</string>
 
+  <string name="ShareTitleContact">Share contact to…</string>
+
   <string name="ShareTextPlain">Message from %1$s</string>
 
   <string name="ShareTextSharedMedia">Chat with %1$s</string>
@@ -2192,6 +2196,33 @@
   <string name="ShareContact">Share Contact</string>
   <string name="DoneSave">Saved</string>
 
+  <string name="CancelAccountReset">Cancel Account Reset</string>
+  <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
+
+  <string name="mentionCount_one">%1$s mention</string>
+  <string name="mentionCount_other">%1$s mentions</string>
+  <string name="format_edited">[edited]: %1$s</string>
+  <string name="format_editedVisible">%1$s</string>
+
+  <string name="ActionMuteHours_one">Mute for %1$sh</string>
+  <string name="ActionMuteHours_other">Mute for %1$sh</string>
+
+  <string name="ActionMutePersonHours_one">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_other">Mute %2$s for %1$sh</string>
+
+  <string name="ActionMuteAll_one">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_other">Mute all %1$sh</string>
+
+  <string name="MessagePreviewDefault">Default</string>
+  <string name="MessagePreviewEnabled">Enabled</string>
+  <string name="MessagePreviewDisabled">Disabled</string>
+
+  <string name="NotificationLockedTitle">Content Hidden</string>
+  <string name="NotificationLocked">You have a new message</string>
+
+  <string name="OpenCloudChat">Open Cloud Chat</string>
+
+  
   
 
   <!-- new from translations.telegram.org -->
@@ -2200,6 +2231,18 @@
   <string name="AccurateToMeters_two">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_few">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_many">Accurate to %1$s meters</string>
+  <string name="ActionMuteAll_zero">Mute all %1$sh</string>
+  <string name="ActionMuteAll_two">Mute all %1$sh</string>
+  <string name="ActionMuteAll_few">Mute all %1$sh</string>
+  <string name="ActionMuteAll_many">Mute all %1$sh</string>
+  <string name="ActionMuteHours_zero">Mute for %1$sh</string>
+  <string name="ActionMuteHours_two">Mute for %1$sh</string>
+  <string name="ActionMuteHours_few">Mute for %1$sh</string>
+  <string name="ActionMuteHours_many">Mute for %1$sh</string>
+  <string name="ActionMutePersonHours_zero">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_two">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_few">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_many">Mute %2$s for %1$sh</string>
   <string name="AddXMasks_zero">Add %1$s masks</string>
   <string name="AddXMasks_two">Add %1$s masks</string>
   <string name="AddXMasks_few">Add %1$s masks</string>
@@ -2410,6 +2453,10 @@
   <string name="inXMinutes_two">in %1$s minutes</string>
   <string name="inXMinutes_few">in %1$s minutes</string>
   <string name="inXMinutes_many">in %1$s minutes</string>
+  <string name="mentionCount_zero">%1$s mentions</string>
+  <string name="mentionCount_two">%1$s mentions</string>
+  <string name="mentionCount_few">%1$s mentions</string>
+  <string name="mentionCount_many">%1$s mentions</string>
   <string name="messagesCount_zero">%1$s</string>
   <string name="messagesCount_two">%1$s</string>
   <string name="messagesCount_few">%1$s</string>

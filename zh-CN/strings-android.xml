@@ -1466,7 +1466,7 @@
     <string name="PasscodeDoNotMatch">两次输入的锁定码不匹配</string>
     <string name="AutoLock">自动锁定</string>
     <string name="AutoLockInfo">在离开一段时间后，您将需要重新输入锁定码。</string>
-    <string name="AutoLockInTime">在 %1$s</string>
+    <string name="AutoLockInTime">%1$s 后</string>
     <string name="AutoLockDisabled">已禁用</string>
     <string name="UnlockFingerprint">指纹解锁</string>
     <string name="FingerprintInfo">请验证指纹</string>
@@ -2089,12 +2089,12 @@
     <string name="AndMoreTyping_few">和其他 %1$d 人正在输入</string>
     <string name="AndMoreTyping_many">和其他 %1$d 人正在输入</string>
     <string name="AndMoreTyping_other">和其他 %1$d 人正在输入</string>
-    <string name="AndMoreTypingGroup_zero">%1$s和其他 %2$d 人正在输入</string>
-    <string name="AndMoreTypingGroup_one">%1$s和其他 %2$d 人正在输入</string>
-    <string name="AndMoreTypingGroup_two">%1$s和其他 %2$d 人正在输入</string>
-    <string name="AndMoreTypingGroup_few">%1$s和其他 %2$d 人正在输入</string>
-    <string name="AndMoreTypingGroup_many">%1$s和其他 %2$d 人正在输入</string>
-    <string name="AndMoreTypingGroup_other">%1$s和其他 %2$d 人正在输入</string>
+    <string name="AndMoreTypingGroup_zero">%1$s 和其他 %2$d 人正在输入</string>
+    <string name="AndMoreTypingGroup_one">%1$s 和其他 %2$d 人正在输入</string>
+    <string name="AndMoreTypingGroup_two">%1$s 和其他 %2$d 人正在输入</string>
+    <string name="AndMoreTypingGroup_few">%1$s 和其他 %2$d 人正在输入</string>
+    <string name="AndMoreTypingGroup_many">%1$s 和其他 %2$d 人正在输入</string>
+    <string name="AndMoreTypingGroup_other">%1$s 和其他 %2$d 人正在输入</string>
     <string name="NewMessages_zero">%1$d 条新消息</string>
     <string name="NewMessages_one">%1$d 条新消息</string>
     <string name="NewMessages_two">%1$d 条新消息</string>

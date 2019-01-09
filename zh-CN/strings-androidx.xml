@@ -157,6 +157,7 @@
   
   <string name="xMessages_other">%1$s 条消息</string>
   
+  
   <string name="xNewMessages_other">%1$s 条新消息</string>
   
   <string name="FromXChats_other">来自 %1$s 个对话</string>
@@ -1510,6 +1511,7 @@
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
+  
   <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义通知设置</string>
   <string name="NotificationChannelGroupChatPublic">针对群组 «%1$s» 的自定义通知设置 (%2$s)</string>
   <string name="NotificationChannelChannelChat">针对频道 «%1$s» 的自定义通知设置</string>
@@ -2178,6 +2180,8 @@
   
   <string name="ShareTitleMediaX_other">分享 %1$s 个图片或视频给...</string>
 
+  
+
   <string name="ShareTextPlain">来自 %1$s 的消息</string>
 
   <string name="ShareTextSharedMedia">与 %1$s 聊天</string>
@@ -2192,6 +2196,33 @@
   <string name="ShareContact">分享联系人</string>
   <string name="DoneSave">已收藏</string>
 
+  <string name="CancelAccountReset">撤销帐号重置请求</string>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <string name="NotificationLocked">您有一条新消息</string>
+
+  
+
+  
   
 
   <!-- new from translations.telegram.org -->
