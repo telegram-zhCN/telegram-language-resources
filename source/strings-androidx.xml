@@ -716,8 +716,10 @@
   <string name="InAppNotifications">In-App Notifications</string>
   <string name="InChatSound">In-Chat Sounds</string>
   <string name="Events">Events</string>
-  <string name="ContactJoined">Contact joined Telegram</string>
+  <string name="EventNewContact">New Contacts</string>
+  <string name="EventNewContactInfo">Receive notification when one of your contacts becomes available on Telegram.</string>
   <string name="PinnedMessages">Pinned Messages</string>
+  
   <string name="RepeatNotifications">Repeat Notifications</string>
   <string name="RepeatNotificationsDisabled">Disabled</string>
   <string name="ResetNotifications">Reset All Notifications</string>
@@ -1594,11 +1596,6 @@
   <string name="StopLiveLocationShort">Stop Sharing</string>
   <string name="PublicGroupsUnavailable">Sorry, public groups are unavailable for your account.</string>
   <string name="StopLiveLocation">Stop Sharing Location</string>
-  <string name="AppBadge">Unread Count Badge</string>
-  <string name="AppBadgeType">Badge Type</string>
-  <string name="AppBadgeTypeMessages">Number of messages</string>
-  <string name="AppBadgeTypeChats">Number of chats</string>
-  <string name="AppBadgeHint">Draw unread counter near application icon. Note that it may not be displayed on some devices.</string>
   <string name="AppBadgeDisabled">Disabled</string>
   <string name="AppBadgeUnmuted">From non-muted chats</string>
   <string name="AppBadgeAll">From all chats</string>
@@ -2204,6 +2201,10 @@
   <string name="format_edited">[edited]: %1$s</string>
   <string name="format_editedVisible">%1$s</string>
 
+  <string name="ActionMute">Mute</string>
+  <string name="ActionMutePerson">Mute %1$s</string>
+  <string name="ActionMuteEveryone">Mute all</string>
+
   <string name="ActionMuteHours_one">Mute for %1$sh</string>
   <string name="ActionMuteHours_other">Mute for %1$sh</string>
 
@@ -2211,7 +2212,7 @@
   <string name="ActionMutePersonHours_other">Mute %2$s for %1$sh</string>
 
   <string name="ActionMuteAll_one">Mute all for %1$sh</string>
-  <string name="ActionMuteAll_other">Mute all %1$sh</string>
+  <string name="ActionMuteAll_other">Mute all for %1$sh</string>
 
   <string name="MessagePreviewDefault">Default</string>
   <string name="MessagePreviewEnabled">Enabled</string>
@@ -2223,6 +2224,22 @@
   <string name="OpenCloudChat">Open Cloud Chat</string>
 
   
+  <string name="BadgeCounter">Badge Counter</string>
+  <string name="BadgeCounterSetting">App Icon Badge</string>
+  <string name="BadgeCounterMuted">Include Muted Chats</string>
+  <string name="BadgeCounterMessages">Count Unread Messages</string>
+  <string name="BadgeCounterMessagesOn">Switch on to show the number of unread messages instead of chats.</string>
+  <string name="BadgeCounterMessagesOff">Switch off to show the number of unread chats instead of messages.</string>
+  <string name="NotificationsPrivateInfo">You can set custom notifications for specific users on their profile page.</string>
+  <string name="NotificationsGroupInfo">You can set custom notifications for specific groups on their profile page.</string>
+  <string name="NotificationsChannelInfo">You can set custom notifications for specific channels on their profile page.</string>
+  <string name="AppBadgeHint">Display badge counter near an application icon. Note that it cannot be displayed on some devices.\n\nSystem may display an extra badge while playing music or having an active call regardless specified settings.</string>
+  
+  
+  
+  <string name="Channels">Channels</string>
+
+  
   
 
   <!-- new from translations.telegram.org -->
@@ -2231,10 +2248,10 @@
   <string name="AccurateToMeters_two">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_few">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_many">Accurate to %1$s meters</string>
-  <string name="ActionMuteAll_zero">Mute all %1$sh</string>
-  <string name="ActionMuteAll_two">Mute all %1$sh</string>
-  <string name="ActionMuteAll_few">Mute all %1$sh</string>
-  <string name="ActionMuteAll_many">Mute all %1$sh</string>
+  <string name="ActionMuteAll_zero">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_two">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_few">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_many">Mute all for %1$sh</string>
   <string name="ActionMuteHours_zero">Mute for %1$sh</string>
   <string name="ActionMuteHours_two">Mute for %1$sh</string>
   <string name="ActionMuteHours_few">Mute for %1$sh</string>
@@ -2251,6 +2268,10 @@
   <string name="AddXStickers_two">Add %1$s stickers</string>
   <string name="AddXStickers_few">Add %1$s stickers</string>
   <string name="AddXStickers_many">Add %1$s stickers</string>
+  <string name="AppBadge">Unread Count Badge</string>
+  <string name="AppBadgeType">Badge Type</string>
+  <string name="AppBadgeTypeChats">Number of chats</string>
+  <string name="AppBadgeTypeMessages">Number of messages</string>
   <string name="AsXMessages_zero">as %1$s messages</string>
   <string name="AsXMessages_two">as %1$s messages</string>
   <string name="AsXMessages_few">as %1$s messages</string>
@@ -2276,6 +2297,7 @@
   <string name="ColorClearDone_two">Delete %1$s colors</string>
   <string name="ColorClearDone_few">Delete %1$s colors</string>
   <string name="ColorClearDone_many">Delete %1$s colors</string>
+  <string name="ContactJoined">Contact joined Telegram</string>
   <string name="ContactsOnTelegramMany_zero">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_two">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_few">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>

@@ -955,7 +955,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_join" = "加入";
 
 
-"lng_group_invite_members#other" = " {count} 位成员，包括：";
+"lng_group_invite_members#other" = " {count} 位成员";
 
 "lng_group_invite_create" = "创建一个邀请链接";
 "lng_group_invite_about" = "Telegram 用户可以通过邀请链接加入您的群组";
@@ -1371,7 +1371,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_confirm_phone_link_invalid" = "这个链接已损坏或已过期。";
 "lng_confirm_phone_title" = "撤销帐号重置请求";
-"lng_confirm_phone_about" = "有人通过输入您的手机号码 {phone} 尝试请求删除您的 Telegram 账号数据并且重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚发送给您的短信验证码。";
+"lng_confirm_phone_about" = "一位有权访问您的电话号码 {phone} 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。";
 "lng_confirm_phone_success" = "成功！\n您的账号 {phone} 的删除请求已经被撤销。您现在可以关闭这个窗口。";
 "lng_confirm_phone_send" = "发送";
 "lng_confirm_phone_enter_code" = "请输入验证码。";

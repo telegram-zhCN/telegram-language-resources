@@ -716,8 +716,10 @@
   <string name="InAppNotifications">应用开启时的消息通知</string>
   <string name="InChatSound">发送提示音</string>
   <string name="Events">事件</string>
-  <string name="ContactJoined">联系人加入 Telegram</string>
+  
+  
   <string name="PinnedMessages">置顶消息</string>
+  
   <string name="RepeatNotifications">重复通知</string>
   <string name="RepeatNotificationsDisabled">已禁用</string>
   <string name="ResetNotifications">重置所有通知设置</string>
@@ -1594,11 +1596,6 @@
   <string name="StopLiveLocationShort">停止共享</string>
   <string name="PublicGroupsUnavailable">抱歉，您暂时无法加入公开群组。</string>
   <string name="StopLiveLocation">停止位置共享</string>
-  <string name="AppBadge">未读消息计数角标</string>
-  <string name="AppBadgeType">角标类型</string>
-  <string name="AppBadgeTypeMessages">消息数目</string>
-  <string name="AppBadgeTypeChats">对话数目</string>
-  <string name="AppBadgeHint">在应用图标上显示未读消息数。注意部分设备可能无法显示。</string>
   <string name="AppBadgeDisabled">已禁用</string>
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
   <string name="AppBadgeAll">所有对话</string>
@@ -2197,9 +2194,13 @@
   <string name="DoneSave">已收藏</string>
 
   <string name="CancelAccountReset">撤销帐号重置请求</string>
-  
+  <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
 
   
+  
+  
+  
+
   
   
   
@@ -2224,9 +2225,30 @@
 
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  <string name="AppBadgeHint">在应用图标上显示未读消息数。注意部分设备可能无法显示。</string>
+  
+  
+  
+  
+
+  
+  
 
   <!-- new from translations.telegram.org -->
 
+  <string name="AppBadge">未读消息计数角标</string>
+  <string name="AppBadgeType">角标类型</string>
+  <string name="AppBadgeTypeChats">对话数目</string>
+  <string name="AppBadgeTypeMessages">消息数目</string>
   <string name="ChatPhoto">对话头像</string>
+  <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="ShareTitleMessage">分享消息到...</string>
 </resources>

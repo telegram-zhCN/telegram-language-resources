@@ -2020,7 +2020,7 @@
 "Login.SmsRequestState3" = "Telegram 已向您发送短信\n[仍未收到验证码？]";
 
 "CancelResetAccount.Title" = "撤销帐号重置请求";
-"CancelResetAccount.TextSMS" = "有个拥有你的电话号码 %@ 访问权限的人递交了删除您的 Telegram 账号、并重置两步验证密码的请求。\n\n如果你没有执行该操作，请输入我们刚刚发送给你的短信验证码。";
+"CancelResetAccount.TextSMS" = "一位有权访问您的电话号码 %@ 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。";
 
 "CancelResetAccount.Success" = "您的帐户 %@ 的删除请求已经被撤销。";
 

@@ -38,7 +38,7 @@
     <string name="DidNotGetTheCode">没有收到验证码？</string>
     <string name="DidNotGetTheCodeSms">通过短信发送验证码</string>
     <string name="CancelAccountReset">撤销帐号重置请求</string>
-    <string name="CancelAccountResetInfo">我们收到一个有访问你手机号码 **%1$s** 权限的人要求删除你的 Telegram 账号并重置两步验证密码。\n\n如果不是你本人，请输入我们刚刚通过短信发送给你的验证码。</string>
+    <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
     <string name="ResetAccount">重置帐户</string>
     <string name="ResetAccountInfo">因为账号 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
     <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
