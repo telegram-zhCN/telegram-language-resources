@@ -159,7 +159,7 @@
     <string name="MuteNotifications">暂停消息通知</string>
     <string name="MuteFor">暂停通知 %1$s</string>
     <string name="UnmuteNotifications">恢复消息通知</string>
-    <string name="WillUnmuteIn">" %1$s 后"</string>
+    <string name="WillUnmuteIn">" %1$s后"</string>
     <string name="MuteDisable">永久静音</string>
     <string name="Hashtags">标签</string>
     <string name="Recent">最近</string>
@@ -1466,8 +1466,8 @@
     <string name="PasscodeDoNotMatch">两次输入的锁定码不匹配</string>
     <string name="AutoLock">自动锁定</string>
     <string name="AutoLockInfo">在离开一段时间后，您将需要重新输入锁定码。</string>
-    <string name="AutoLockInTime">%1$s 后</string>
-    <string name="AutoLockDisabled">已禁用</string>
+    <string name="AutoLockInTime">%1$s后</string>
+    <string name="AutoLockDisabled">从不</string>
     <string name="UnlockFingerprint">指纹解锁</string>
     <string name="FingerprintInfo">请验证指纹</string>
     <string name="FingerprintHelp">请按下手指</string>

@@ -156,6 +156,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_deleted" = "已销号";
 "lng_deleted_message" = "已删除的消息";
 "lng_pinned_message" = "置顶消息";
+
 "lng_pinned_unpin_sure" = "您确定要取消置顶此消息吗？";
 "lng_pinned_pin_sure" = "您确定要置顶此消息吗？";
 "lng_pinned_pin" = "置顶";
@@ -329,6 +330,20 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_bg_edit_theme" = "打开主题编辑器";
 "lng_settings_bg_tile" = "平铺背景";
 "lng_settings_adaptive_wide" = "宽屏时消息左对齐";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 "lng_settings_default_scale" = "默认界面缩放";
@@ -997,13 +1012,19 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_audio" = "语音留言";
 
 "lng_media_auto_settings" = "自动下载媒体文件";
+
+
+
 "lng_media_auto_title" = "自动下载";
 "lng_media_photo_title" = "照片";
+
 "lng_media_audio_title" = "语音留言";
-"lng_media_gif_title" = "GIF 和动画";
-"lng_media_auto_private_chats" = "私聊";
-"lng_media_auto_groups" = "群组和频道";
-"lng_media_auto_play" = "自动播放";
+
+
+
+
+
+
 
 "lng_emoji_category1" = "人物";
 "lng_emoji_category2" = "自然";
@@ -1013,6 +1034,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_emoji_category6" = "物品";
 "lng_emoji_category7" = "符号 & 旗帜";
 "lng_emoji_hide_panel" = "点击隐藏 Emoji 侧边栏";
+
+
+
+
+
 
 "lng_recent_stickers" = "近期使用过";
 "lng_faved_stickers_add" = "添加到收藏夹";
@@ -1083,7 +1109,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cant_invite_banned" = "抱歉，只有管理员可以添加此用户。";
 "lng_cant_invite_privacy" = "抱歉，根据该用户的隐私设置，您不能将其添加到群组。";
 "lng_cant_invite_privacy_channel" = "抱歉，根据该用户的隐私设置，您不能将其添加到频道。";
+
 "lng_cant_do_this" = "抱歉，此操作不可用。";
+
+
 
 "lng_send_button" = "发送";
 "lng_message_ph" = "输入消息...";
@@ -1862,6 +1891,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_linux_menu_undo" = "撤销";
 "lng_linux_menu_redo" = "重做";
 
+
+
 // Mac specific
 
 "lng_mac_choose_program_menu" = "其它...";
@@ -1974,7 +2005,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_cleared" = "清除完成！";
 "lng_media_auto_audio" = "自动下载语音留言";
 "lng_media_auto_gif" = "自动下载 GIF 动画";
+"lng_media_auto_groups" = "群组和频道";
 "lng_media_auto_photo" = "自动下载图片";
+"lng_media_auto_play" = "自动播放";
+"lng_media_auto_private_chats" = "私聊";
+"lng_media_gif_title" = "GIF 和动画";
 "lng_passport_fix_errors" = "请修复错误。";
 "lng_passport_front_side_name" = "扫描";
 "lng_passport_link_sent" = "验证链接已发送到\n {email}";
