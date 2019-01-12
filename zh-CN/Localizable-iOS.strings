@@ -547,7 +547,7 @@
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "呃，发生了一个错误。";
-"ConversationProfile.UnknownAddMemberError" = "抱歉，遇到了一个意外问题，我们的魔法师已收到错误报告并将尽快修正咒语";
+"ConversationProfile.UnknownAddMemberError" = "抱歉，遇到了一个意外问题，我们已收到错误报告并将尽快修复。";
 "ConversationProfile.UsersTooMuchError" = "抱歉，群组已满，无法添加更多成员";
 
 "ConversationProfile.LeaveDeleteAndExit" = "删除并退出";
@@ -1114,7 +1114,7 @@
 "DialogList.SearchSectionMessages" = "消息";
 
 "Username.LinkHint" = "此链接会在 Telegram 中打开一个会话窗口：[\nhttps://t.me/%@]";
-"Username.LinkCopied" = "链接已复制到剪贴板";
+"Username.LinkCopied" = "链接已拷贝到剪贴板";
 
 
 
@@ -2064,7 +2064,7 @@
 "Paint.Outlined" = "空心";
 "Paint.Regular" = "常规";
 
-"MediaPicker.VideoMuteDescription" = "已设置静音，因而视频将会像 GIF 动画一样自动循环播放。";
+"MediaPicker.VideoMuteDescription" = "已设置静音，因而视频将会像 GIF 一样自动循环播放。";
 
 
 "Group.Username.RemoveExistingUsernamesInfo" = "抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。";
@@ -2156,7 +2156,7 @@ Unused sets are archived when you add more.";
 "Widget.AuthRequired" = "登陆到 Telegram";
 "Widget.NoUsers" = "发送第一条消息后就能在这里看到你的朋友";
 
-"ShareMenu.CopyShareLinkGame" = "复制游戏链接";
+"ShareMenu.CopyShareLinkGame" = "拷贝游戏链接";
 
 "Message.PinnedGame" = "置顶了一个游戏";
 
@@ -2798,7 +2798,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.MessageChangedGroupStickerPack" = "%@ 更换了群组贴纸包";
 "Channel.AdminLog.MessageRemovedGroupStickerPack" = "%@ 删除了群组贴纸包";
 
-"Conversation.ContextMenuCopyLink" = "复制链接";
+"Conversation.ContextMenuCopyLink" = "拷贝链接";
 
 "Channel.Stickers.Searching" = "正在搜索...";
 "Channel.Stickers.NotFound" = "贴纸包未找到";
@@ -3044,7 +3044,7 @@ Unused sets are archived when you add more.";
 "Conversation.ClearSecretHistory" = "此操作将会删除会话双方的所有消息和媒体。";
 "Conversation.ClearSelfHistory" = "这将从您的 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
-"MediaPicker.LivePhotoDescription" = "实况照片将会自动播放，并像 GIF 动画一样循环播放。";
+"MediaPicker.LivePhotoDescription" = "实况照片将会自动播放，并像 GIF 一样循环播放。";
 
 "Settings.Appearance" = "外观";
 "Appearance.Title" = "外观";
@@ -3092,7 +3092,7 @@ Unused sets are archived when you add more.";
 "AuthSessions.LogOut" = "登出";
 "AuthSessions.Message" = "您允许这个机器人在你登录 %@ 时向您发送消息。";
 
-"Conversation.ContextMenuReport" = "报告";
+"Conversation.ContextMenuReport" = "举报";
 
 "Stickers.Search" = "搜索贴纸";
 "Stickers.NoStickersFound" = "没有符合条件的贴纸";
@@ -3542,8 +3542,8 @@ Unused sets are archived when you add more.";
 "NotificationsSound.Glass" = "Glass";
 "NotificationsSound.Telegraph" = "Telegraph";
 
-"Settings.CopyPhoneNumber" = "复制手机号码";
-"Settings.CopyUsername" = "复制用户名";
+"Settings.CopyPhoneNumber" = "拷贝手机号码";
+"Settings.CopyUsername" = "拷贝用户名";
 
 "Passport.Language.ar" = "阿拉伯语";
 "Passport.Language.az" = "阿塞拜疆语";

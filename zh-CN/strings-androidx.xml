@@ -79,7 +79,6 @@
   <string name="format_pingBest">Ping: %1$s 毫秒（最佳）</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
   <string name="format_dateViaBot">%1$s 通过 %2$s</string>
-  <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   
   <string name="messagesCount_other">%1$s</string>
@@ -708,18 +707,17 @@
   <string name="EmailMatchesOldOne">新的电子邮箱地址与旧地址相同。</string>
   <string name="Hint">提示： %1$s</string>
   <string name="PrivateChats">私聊</string>
+  
   <string name="MessagePreview">消息预览</string>
   <string name="Vibrate">振动</string>
   <string name="VibrateDisabled">关闭</string>
   <string name="Sound">声音</string>
   <string name="SoundDisabled">关闭</string>
-  <string name="InAppNotifications">应用开启时的消息通知</string>
   <string name="InChatSound">发送提示音</string>
   <string name="Events">事件</string>
   
   
   <string name="PinnedMessages">置顶消息</string>
-  
   <string name="RepeatNotifications">重复通知</string>
   <string name="RepeatNotificationsDisabled">已禁用</string>
   <string name="ResetNotifications">重置所有通知设置</string>
@@ -1155,6 +1153,7 @@
   <string name="PriorityRegular">常规</string>
   <string name="PriorityUrgent">紧急</string>
   <string name="PriorityLow">低</string>
+  
   <string name="PriorityAboutUrgentAndLow">当你的手机处于“请勿打扰”模式时，将只显示紧急通知。 低优先级的通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="NotificationsPriority">优先级</string>
@@ -1596,9 +1595,6 @@
   <string name="StopLiveLocationShort">停止共享</string>
   <string name="PublicGroupsUnavailable">抱歉，您暂时无法加入公开群组。</string>
   <string name="StopLiveLocation">停止位置共享</string>
-  <string name="AppBadgeDisabled">已禁用</string>
-  <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
-  <string name="AppBadgeAll">所有对话</string>
   <string name="ApplyToAll">应用到全部</string>
   <string name="DroppedPin">放置的图钉</string>
   <string name="CalculatingDistance">正在计算距离...</string>
@@ -1739,7 +1735,6 @@
   <string name="Sessions">会话</string>
   <string name="Websites">网站</string>
   <string name="ActionRead">标记为已读</string>
-  <string name="ActionDone">隐藏</string>
   <string name="FoundMessagesFromUser">%1$s 发送的消息</string>
   <string name="FoundMessagesFromSelf">您发送的消息</string>
   <string name="FoundMessagesQuery">%1$s</string>
@@ -2232,11 +2227,46 @@
   
   
   
-  
   <string name="AppBadgeHint">在应用图标上显示未读消息数。注意部分设备可能无法显示。</string>
   
   
   
+  
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+  
+
   
 
   
@@ -2244,11 +2274,17 @@
 
   <!-- new from translations.telegram.org -->
 
+  <string name="ActionDone">隐藏</string>
   <string name="AppBadge">未读消息计数角标</string>
+  <string name="AppBadgeAll">所有对话</string>
+  <string name="AppBadgeDisabled">已禁用</string>
   <string name="AppBadgeType">角标类型</string>
   <string name="AppBadgeTypeChats">对话数目</string>
   <string name="AppBadgeTypeMessages">消息数目</string>
+  <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
+  <string name="InAppNotifications">应用开启时的消息通知</string>
   <string name="ShareTitleMessage">分享消息到...</string>
+  <string name="format_notificationTitle">%1$s (%2$s)</string>
 </resources>

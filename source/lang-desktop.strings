@@ -331,7 +331,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_bg_tile" = "Tile background";
 "lng_settings_adaptive_wide" = "Adaptive layout for wide screens";
 
-"lng_settings_section_call_settings" = "Calls Settings";
+"lng_settings_section_call_settings" = "Call Settings";
 "lng_settings_call_section_output" = "Speakers and headphones";
 "lng_settings_call_section_input" = "Microphone";
 "lng_settings_call_input_device" = "Input device";

@@ -301,7 +301,7 @@
 "Chat.Cancel" = "取消";
 "Gallery.Context.SaveAs" = "另存为...";
 "Gallery.Context.ShowMessage" = "显示消息";
-"Gallery.Context.CopyToClipboard" = "复制到剪贴板";
+"Gallery.Context.CopyToClipboard" = "拷贝到剪贴板";
 "Gallery.ContextDeletePhoto" = "删除";
 
 "Gallery.WaitDownload.Photo" = "请等待图片下载完毕";
@@ -449,7 +449,7 @@
 "Search.Separator.Recent" = "最近";
 "Search.Separator.Popular" = "用户";
 "PeerInfo.AdminLabel" = "管理员";
-"Share.Link.Copied" = "复制到剪贴板";
+"Share.Link.Copied" = "拷贝到剪贴板";
 
 
 "Presence.bot" = "机器人";
@@ -544,9 +544,9 @@
 
 "ChatList.UnsupportedMessage" = "不支持此消息";
 "Chat.Message.Unsupported" = "当前 Telegram 版本不支持此消息。请在 App Store 更新本应用到最新版或在这里下载：https://macos.telegram.org";
-"Text.Copy" = "复制所选内容";
-"Text.CopyText" = "复制文字";
-"Text.CopyLabel" = "复制 %@";
+"Text.Copy" = "拷贝所选内容";
+"Text.CopyText" = "拷贝文本";
+"Text.CopyLabel" = "拷贝 %@";
 
 "Peer.Activity.User.TypingText" = "正在输入";
 "Peer.Activity.User.SendingPhoto" = "正在发送图片";
@@ -1072,7 +1072,7 @@
 "6dh-zS-Vam.title" = "重做";
 "78Y-hA-62v.title" = "自动纠正拼写";
 "9ic-FL-obx.title" = "替换";
-"9yt-4B-nSM.title" = "智能复制/粘贴";
+"9yt-4B-nSM.title" = "智能拷贝/粘贴";
 "BOF-NM-1cW.title" = "偏好设置...";
 "Cag-YX-WT6.title" = "隐藏 Telegram";
 "Dv1-io-Yv7.title" = "拼写和语法";
@@ -1113,7 +1113,7 @@
 "uQy-DD-JDr.title" = "Telegram";
 "uRl-iY-unG.title" = "剪切";
 "vmV-6d-7jI.title" = "变为大写";
-"x3v-GG-iWU.title" = "复制";
+"x3v-GG-iWU.title" = "拷贝";
 "1000.title" = "检查更新";
 "z6F-FW-3nz.title" = "显示替换";
 "sZh-ct-GQS.title" = "快速搜索";
@@ -1338,7 +1338,7 @@
 "GeneralSettings.Font.Description" = "信息中使用大字体";
 
 
-"MessageContext.CopyMessageLink1" = "复制消息链接";
+"MessageContext.CopyMessageLink1" = "拷贝消息链接";
 "Context.ViewStickerSet" = "预览贴纸包";
 
 "Storage.Clear.Photos" = "照片";
@@ -1411,7 +1411,7 @@
 
 "GeneralSettings.AppearanceSettings" = "显示设置";
 
-"Chat.Context.CopyBlock" = "复制代码";
+"Chat.Context.CopyBlock" = "拷贝代码块";
 
 "Compose.SelectGroupUsers.Placeholder" = "请选择收件人";
 
@@ -1674,7 +1674,7 @@
 "Chat.Message.DeleteForMe" = "仅删除";
 "Chat.Message.DeleteForEveryone" = "删除并撤回";
 
-"Chat.CopySelectedText" = "复制所选内容";
+"Chat.CopySelectedText" = "拷贝所选内容";
 
 "GeneralSettings.InstantView.ScrollBySpace" = "使用空格键向下滚动";
 "GeneralSettings.InstantViewHeader" = "即时预览";
@@ -1745,15 +1745,15 @@
 "Passcode.UseTouchId" = "使用触控 ID 解锁";
 
 
-"Text.Context.Copy.Link" = "复制链接";
-"Text.Context.Copy.Email" = "复制邮件";
-"Text.Context.Copy.Code" = "复制代码";
+"Text.Context.Copy.Link" = "拷贝链接";
+"Text.Context.Copy.Email" = "拷贝邮箱地址";
+"Text.Context.Copy.Code" = "拷贝代码";
 
-"Text.Context.Copy.Username" = "复制用户名";
-"Text.Context.Copy.Hashtag" = "复制标签";
-"Text.Context.Copy.Command" = "复制命令文本";
-"Text.Context.Copy.StickerPack" = "复制贴纸包";
-"Text.Context.Copy.InviteLink" = "复制邀请链接";
+"Text.Context.Copy.Username" = "拷贝用户名";
+"Text.Context.Copy.Hashtag" = "拷贝标签";
+"Text.Context.Copy.Command" = "拷贝命令文本";
+"Text.Context.Copy.StickerPack" = "拷贝贴纸包链接";
+"Text.Context.Copy.InviteLink" = "拷贝邀请链接";
 
 "Message.Context.OpenWith" = "打开方式";
 "Chat.InlineRequest.Loading" = "加载中...";
@@ -2125,7 +2125,7 @@
 "Chat.Message.MTProxy.Config" = "MTProxy 配置";
 "Chat.Message.Socks5.Config" = "SOCKS5 配置";
 
-"Chat.Copy.ProxyConfiguration" = "复制代理链接";
+"Chat.Copy.ProxyConfiguration" = "拷贝代理链接";
 
 "Chat.MessageAction.ShowMessage" = "显示消息";
 "ProxySettings.ShareProxyList" = "分享代理列表";

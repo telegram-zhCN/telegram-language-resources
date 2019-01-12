@@ -125,7 +125,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_admins_link#other" = "{count} 位管理员";
 
 "lng_flood_error" = "尝试次数过多，请稍后再试。";
-"lng_gif_error" = "在获取 GIF 动画时发生了一个错误 :(";
+"lng_gif_error" = "在获取 GIF 时发生了一个错误 :(";
 "lng_edit_error" = "您不能编辑这条消息";
 "lng_join_channel_error" = "抱歉，您已加入太多频道及群组。请先退出其中一些再加入。";
 "lng_error_phone_flood" = "对不起，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。";
@@ -908,7 +908,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_pinned_media_voice" = "一条语音留言";
 "lng_action_pinned_media_video_message" = "一条视频留言";
 "lng_action_pinned_media_file" = "1 个文件";
-"lng_action_pinned_media_gif" = "1 个 GIF 动画";
+"lng_action_pinned_media_gif" = "一张 GIF";
 "lng_action_pinned_media_contact" = "1 个联系人信息";
 "lng_action_pinned_media_location" = "1 个位置";
 "lng_action_pinned_media_sticker" = "1 个贴纸";
@@ -1231,7 +1231,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_pack_info" = "贴纸信息";
 "lng_context_pack_add" = "添加贴纸";
 "lng_context_save_file" = "保存文件到...";
-"lng_context_copy_text" = "复制文字";
+"lng_context_copy_text" = "复制文本";
 "lng_context_open_gif" = "打开 GIF";
 "lng_context_save_gif" = "保存到 GIF 库";
 "lng_context_to_msg" = "前往消息";
@@ -2004,7 +2004,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_state_voice_message" = "语音留言";
 "lng_local_storage_cleared" = "清除完成！";
 "lng_media_auto_audio" = "自动下载语音留言";
-"lng_media_auto_gif" = "自动下载 GIF 动画";
+"lng_media_auto_gif" = "自动下载 GIF";
 "lng_media_auto_groups" = "群组和频道";
 "lng_media_auto_photo" = "自动下载图片";
 "lng_media_auto_play" = "自动播放";

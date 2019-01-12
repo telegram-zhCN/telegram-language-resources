@@ -1546,12 +1546,12 @@
     <string name="VideoDoesNotSupportStreaming">这个视频没有针对在线播放进行优化，你可能要完全下载它才能播放。</string>
     <string name="CantPlayVideo">无法播放此视频。要尝试使用外部播放器播放吗？</string>
     <string name="NoRecentPhotos">没有最近的图片</string>
-    <string name="NoRecentGIFs">沒有最近的 GIF 动画</string>
+    <string name="NoRecentGIFs">沒有最近使用的 GIF</string>
     <string name="SearchImages">查找图片</string>
     <string name="SearchImagesInfo">通过网络搜索</string>
-    <string name="SearchGifs">查找 GIF 动画</string>
+    <string name="SearchGifs">查找 GIF</string>
     <string name="SearchImagesTitle">通过网络搜索</string>
-    <string name="SearchGifsTitle">搜索 GIF 动画</string>
+    <string name="SearchGifsTitle">搜索 GIF</string>
     <string name="CropImage">裁剪图片</string>
     <string name="Enhance">增强</string>
     <string name="Highlights">高光</string>

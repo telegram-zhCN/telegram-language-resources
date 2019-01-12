@@ -79,7 +79,6 @@
   <string name="format_pingBest">ping: %1$sms, best</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
   <string name="format_dateViaBot">%1$s via %2$s</string>
-  <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   <string name="messagesCount_one">%1$s</string>
   <string name="messagesCount_other">%1$s</string>
@@ -707,19 +706,18 @@
   <string name="format_PasscodeTooManyAttempts">Too many attempts. %1$s</string>
   <string name="EmailMatchesOldOne">Email address hasn\'t changed.</string>
   <string name="Hint">Hint: %1$s</string>
-  <string name="PrivateChats">Private Chats and Mentions</string>
+  <string name="PrivateChats">Private Chats</string>
+  
   <string name="MessagePreview">Message Preview</string>
   <string name="Vibrate">Vibrate</string>
   <string name="VibrateDisabled">Disabled</string>
   <string name="Sound">Sound</string>
   <string name="SoundDisabled">Disabled</string>
-  <string name="InAppNotifications">In-App Notifications</string>
   <string name="InChatSound">In-Chat Sounds</string>
   <string name="Events">Events</string>
   <string name="EventNewContact">New Contacts</string>
   <string name="EventNewContactInfo">Receive notification when one of your contacts becomes available on Telegram.</string>
   <string name="PinnedMessages">Pinned Messages</string>
-  
   <string name="RepeatNotifications">Repeat Notifications</string>
   <string name="RepeatNotificationsDisabled">Disabled</string>
   <string name="ResetNotifications">Reset All Notifications</string>
@@ -1155,6 +1153,7 @@
   <string name="PriorityRegular">Regular</string>
   <string name="PriorityUrgent">Urgent</string>
   <string name="PriorityLow">Low</string>
+  
   <string name="PriorityAboutUrgentAndLow">Urgent notifications will appear when your phone is in Do Not Disturb mode. Low priority notifications will appear in system tray without interrupting.</string>
   <string name="PriorityAboutLow">Low priority notifications will appear in system tray without interrupting.</string>
   <string name="NotificationsPriority">Priority</string>
@@ -1596,9 +1595,6 @@
   <string name="StopLiveLocationShort">Stop Sharing</string>
   <string name="PublicGroupsUnavailable">Sorry, public groups are unavailable for your account.</string>
   <string name="StopLiveLocation">Stop Sharing Location</string>
-  <string name="AppBadgeDisabled">Disabled</string>
-  <string name="AppBadgeUnmuted">From non-muted chats</string>
-  <string name="AppBadgeAll">From all chats</string>
   <string name="ApplyToAll">Apply to all</string>
   <string name="DroppedPin">Dropped Pin</string>
   <string name="CalculatingDistance">Calculating distance…</string>
@@ -1739,7 +1735,6 @@
   <string name="Sessions">Sessions</string>
   <string name="Websites">Websites</string>
   <string name="ActionRead">Mark as Read</string>
-  <string name="ActionDone">Hide</string>
   <string name="FoundMessagesFromUser">messages from %1$s</string>
   <string name="FoundMessagesFromSelf">messages from you</string>
   <string name="FoundMessagesQuery">%1$s</string>
@@ -2225,7 +2220,6 @@
 
   
   <string name="BadgeCounter">Badge Counter</string>
-  <string name="BadgeCounterSetting">App Icon Badge</string>
   <string name="BadgeCounterMuted">Include Muted Chats</string>
   <string name="BadgeCounterMessages">Count Unread Messages</string>
   <string name="BadgeCounterMessagesOn">Switch on to show the number of unread messages instead of chats.</string>
@@ -2237,7 +2231,43 @@
   
   
   
+  
   <string name="Channels">Channels</string>
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+
+  
+  
+
+  <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
 
   
   
@@ -2248,6 +2278,7 @@
   <string name="AccurateToMeters_two">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_few">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_many">Accurate to %1$s meters</string>
+  <string name="ActionDone">Hide</string>
   <string name="ActionMuteAll_zero">Mute all for %1$sh</string>
   <string name="ActionMuteAll_two">Mute all for %1$sh</string>
   <string name="ActionMuteAll_few">Mute all for %1$sh</string>
@@ -2269,9 +2300,12 @@
   <string name="AddXStickers_few">Add %1$s stickers</string>
   <string name="AddXStickers_many">Add %1$s stickers</string>
   <string name="AppBadge">Unread Count Badge</string>
+  <string name="AppBadgeAll">From all chats</string>
+  <string name="AppBadgeDisabled">Disabled</string>
   <string name="AppBadgeType">Badge Type</string>
   <string name="AppBadgeTypeChats">Number of chats</string>
   <string name="AppBadgeTypeMessages">Number of messages</string>
+  <string name="AppBadgeUnmuted">From non-muted chats</string>
   <string name="AsXMessages_zero">as %1$s messages</string>
   <string name="AsXMessages_two">as %1$s messages</string>
   <string name="AsXMessages_few">as %1$s messages</string>
@@ -2288,6 +2322,7 @@
   <string name="AttachVideosSuffix_two">" videos"</string>
   <string name="AttachVideosSuffix_few">" videos"</string>
   <string name="AttachVideosSuffix_many">" videos"</string>
+  <string name="BadgeCounterSetting">App Icon Badge</string>
   <string name="ChatPhoto">Chat photo</string>
   <string name="ColorClearAll_zero">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
   <string name="ColorClearAll_two">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
@@ -2330,6 +2365,7 @@
   <string name="FromXChats_two">from %1$s chats</string>
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
+  <string name="InAppNotifications">In-App Notifications</string>
   <string name="InviteTextCommonMany_zero">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_two">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_few">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
@@ -2451,6 +2487,7 @@
   <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="game_ActionUserScored_zero">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_two">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_few">%2$s scored %1$s</string>
