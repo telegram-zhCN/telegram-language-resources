@@ -1911,8 +1911,8 @@
     <string name="EditMessageError">Sorry, you can\'t edit this message.</string>
     <string name="AllowReadSms">Please allow Telegram to receive SMS so that we can automatically enter your code for you.</string>
     <string name="AllowReadCall">Please allow Telegram to receive calls so that we can automatically enter your code for you.</string>
-    <string name="AllowFillNumber">Please allow Telegram to receive calls and SMS so that we can fill in your phone number, send you a code, and enter it for you.</string>
-    <string name="AllowReadCallAndSms">Please allow Telegram to receive calls and SMS so that we can automatically enter your code for you.</string>
+    <string name="AllowFillNumber">Please allow Telegram to receive calls so that we can automatically confirm your phone number.</string>
+    <string name="AllowReadCallAndSms">Please allow Telegram to receive calls so that we can automatically confirm your phone number.</string>
     <string name="UserRestricted">Sorry, you are not allowed to do this.</string>
     <string name="YouBlockedUser">Sorry, you can\'t add this user or bot to groups because you\'ve blocked them. Please unblock to proceed.</string>
     <string name="JoinGroup">JOIN GROUP</string>
