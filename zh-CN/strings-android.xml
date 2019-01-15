@@ -816,7 +816,7 @@
     <string name="EnterGroupNamePlaceholder">输入群组名称</string>
     <string name="GroupName">群组名称</string>
     <string name="MembersCount">已选择 %2$d 位成员中的 %1$d 位</string>
-    <string name="MembersCountZero">多达 %1$s</string>
+    <string name="MembersCountZero">最多 %1$s</string>
     <string name="JoinToGroupErrorFull">抱歉，此群组已满员。</string>
     <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
     <string name="LinkCopied">链接已复制到剪贴板</string>
@@ -1203,8 +1203,8 @@
     <string name="AutodownloadPrivateChats">私聊</string>
     <string name="AutodownloadGroupChats">群聊</string>
     <string name="AutodownloadChannels">频道</string>
-    <string name="AutodownloadSizeLimit">大小限制</string>
-    <string name="AutodownloadSizeLimitUpTo">上限 %1$s</string>
+    <string name="AutodownloadSizeLimit">限制文件大小</string>
+    <string name="AutodownloadSizeLimitUpTo">不超过 %1$s</string>
     <string name="Streaming">在线播放</string>
     <string name="EnableStreaming">流式播放视频和音乐</string>
     <string name="EnableAllStreamingInfo">一些视频不能被在线播放——例如所有从 Telegram 4.7 或更早版本的 Android 客户端发送的视频。\n</string>

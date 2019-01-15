@@ -24,7 +24,7 @@
 "PUSH_PINNED_POLL" = "%1$@|pinned a poll";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = "%1$@|sent a message to the group %2$@";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ sent a message to the group";
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ sent a photo";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ sent a video";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ sent a video message";
@@ -149,7 +149,7 @@
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|posted %2$d messages";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = "%1$@|sent a message to the group %2$@";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ sent a message to the group";
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ sent a photo";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ sent a video";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ sent a video message";

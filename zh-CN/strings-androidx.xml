@@ -1053,7 +1053,7 @@
   <string name="OnMobileNetwork">仅限数据网络</string>
   <string name="UseLessDataAlways">总是</string>
   <string name="MicrophonePermission">需要权限</string>
-  <string name="MicrophonePermissionDesc">语音通话需要话筒录音权限。</string>
+  <string name="MicrophonePermissionDesc">语音通话需要麦克风权限。</string>
   <string name="CallEmojiHint">如果这些 Emoji 也同时出现在 %1$s 的屏幕上，本次通话是 100%% 安全的。</string>
   <string name="ShowCall">转到当前通话</string>
   <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
@@ -2193,7 +2193,7 @@
 
   
   
-  
+  <string name="format_edited">编辑于 %1$s</string>
   
 
   
@@ -2232,7 +2232,7 @@
   
   
   
-  
+  <string name="Channels">频道</string>
 
   
 
@@ -2267,7 +2267,7 @@
   
   
 
-  
+  <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，该用户已决定退出此群组，因此您无法邀请该用户回来。</string>
 
   
   

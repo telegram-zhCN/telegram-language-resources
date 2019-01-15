@@ -1521,7 +1521,7 @@
 "TwoStepAuth.RecoveryCodeExpired" = "验证码已过期";
 "TwoStepAuth.RecoveryEmailUnavailableNew" = "无法访问您的恢复邮箱 [%@]()？";
 
-"TwoStepAuth.ConfirmEmailCodeDesc" = "请输入我们刚刚发送到 %@ 的验证码";
+"TwoStepAuth.ConfirmEmailCodeDesc" = "请输入我们刚刚发送到 %@ 的验证码。";
 
 
 "TwoStepAuth.FloodError" = "错误次数已达上限，请稍后再试。";
@@ -1713,7 +1713,7 @@
 "DataAndStorage.CategorySettings.PrivateChats" = "加密对话";
 "DataAndStorage.CategorySettings.GroupChats" = "群聊";
 "DataAndStorage.CategorySettings.Channels" = "频道";
-"DataAndStorage.CateroryFileSizeLimit.Header" = "大小限制";
+"DataAndStorage.CateroryFileSizeLimit.Header" = "限制文件大小";
 "DataAndStorage.CateroryFileSize.Unlimited" = "无限制的";
 "DataAndStorage.Confirm.ResetSettings" = "撤销全部自定义自动下载设置";
 "Chat.Confirm.ReportSpamUser" = "您确定要举报此用户发送了垃圾信息？";
