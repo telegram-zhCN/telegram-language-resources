@@ -1911,8 +1911,8 @@
     <string name="EditMessageError">抱歉，您不能编辑这条消息。</string>
     <string name="AllowReadSms">请授予 Telegram 短信权限以便我们自动读取验证码。</string>
     <string name="AllowReadCall">请授予 Telegram 电话权限以便我们自动读取验证码。</string>
-    <string name="AllowFillNumber">请允许 Telegram 接收来电及短信，以便自动填写您的手机号码，以及收到的短信验证码。</string>
-    <string name="AllowReadCallAndSms">请授予 Telegram 读取短信及通话权限以便我们自动读取验证码。</string>
+    <string name="AllowFillNumber">请允许 Telegram 接收来电，以便自动验证您的手机号码。</string>
+    <string name="AllowReadCallAndSms">请允许 Telegram 接收来电，以便自动验证您的手机号码。</string>
     <string name="UserRestricted">抱歉，您无法执行此操作。</string>
     <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>
     <string name="JoinGroup">加入群组</string>

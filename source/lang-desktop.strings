@@ -182,7 +182,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_country_none" = "Country not found";
 "lng_country_select" = "Select country";
 
-"lng_code_ph" = "Your code";
+"lng_code_ph" = "Code";
 "lng_code_desc" = "We've sent an activation code to your phone.\nPlease enter it below.";
 "lng_code_telegram" = "We've sent a code [b]via Telegram[/b]\nto your other devices. Please enter it below.";
 "lng_code_no_telegram" = "Send code via SMS";
