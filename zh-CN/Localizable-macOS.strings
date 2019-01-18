@@ -381,7 +381,7 @@
 "AccountSettings.Logout" = "登出";
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
-"NotificationSettings.IncludeMutedChats" = "包含已关闭提醒的会话";
+"NotificationSettings.IncludeMutedChats" = "包含已关闭通知的对话";
 "NotificationSettings.CountUnreadMessages" = "按消息数统计未读";
 
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";

@@ -379,7 +379,7 @@
     <string name="ChooseTakePhoto">拍照</string>
     <string name="ChooseFromGallery">从相册中上传</string>
     <string name="ChooseFromSearch">通过网络搜索</string>
-    <string name="Statistics">Statistics</string>
+    <string name="Statistics">统计数据</string>
     <!--polls-->
     <string name="NewPoll">发起投票</string>
     <string name="Poll">投票</string>
@@ -1095,7 +1095,7 @@
     <string name="AlwaysShowPopup">总是弹出对话框</string>
     <string name="BadgeNumber">未读消息数量提示</string>
     <string name="BadgeNumberShow">启用</string>
-    <string name="BadgeNumberMutedChats">包含已关闭提醒的对话</string>
+    <string name="BadgeNumberMutedChats">包含已关闭通知的对话</string>
     <string name="BadgeNumberUnread">按消息数统计未读</string>
     <string name="Short">短</string>
     <string name="Long">长</string>
@@ -1918,7 +1918,7 @@
     <string name="JoinGroup">加入群组</string>
     <string name="AddAdminErrorNotAMember">抱歉，您无法将这位用户设为管理员。因为该用户不是此群组的成员，且您也无权添加该用户。</string>
     <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在黑名单中，并且您无权解除其封禁。</string>
-    <string name="AddBannedErrorAdmin">抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也无法撤销其管理员权限。</string>
+    <string name="AddBannedErrorAdmin">抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。</string>
     <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的能力。</string>
     <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的能力。</string>
     <string name="TosDecline">我们对此感到非常抱歉，但这也意味着您现在无法注册 Telegram。\n\n与其它软件不同，我们不会利用您的个人数据来导向广告或其它商业目的。Telegram 储存的所有文件都是为了给您创造一个功能丰富的云服务体验。 您可以在「设置」—「隐私和安全」 里调整我们使用您数据的方式（例如：删除已同步的联系人）。\n\n但若您完全无法接受 Telegram 的云数据政策，我们将无法为您提供服务。</string>

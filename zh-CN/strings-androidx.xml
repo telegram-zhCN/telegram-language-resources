@@ -715,8 +715,8 @@
   <string name="SoundDisabled">关闭</string>
   <string name="InChatSound">发送提示音</string>
   <string name="Events">事件</string>
-  
-  
+  <string name="EventNewContact">新联系人加入</string>
+  <string name="EventNewContactInfo">当您的其中一个联系人加入 Telegram 时获得通知。</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="RepeatNotifications">重复通知</string>
   <string name="RepeatNotificationsDisabled">已禁用</string>
@@ -2219,9 +2219,9 @@
   
 
   
-  
-  
-  
+  <string name="BadgeCounter">未读消息数量提示</string>
+  <string name="BadgeCounterMuted">包含已关闭通知的对话</string>
+  <string name="BadgeCounterMessages">按消息数统计未读</string>
   
   
   
@@ -2231,7 +2231,7 @@
   
   
   
-  
+  <string name="Groups">群组</string>
   <string name="Channels">频道</string>
 
   

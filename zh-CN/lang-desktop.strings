@@ -137,11 +137,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_cant_add_bot" = "抱歉，此机器人不能加入群组。";
 "lng_error_cant_add_admin_invite" = "抱歉，您无法设置该用户为管理员，因为这位用户不是群组成员，且您无法将他邀请到该群组。";
 "lng_error_cant_add_admin_unban" = "抱歉，您无法设置该用户为管理员，因为该用户在黑名单中，且您无权解封。";
-"lng_error_cant_ban_admin" = "抱歉，您无法将这位用户封禁。因为该用户是此群组的管理员，并且您也不被允许撤销其管理员权限。";
+"lng_error_cant_ban_admin" = "抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。";
 "lng_error_admin_limit" = "抱歉，该群组的管理员人数已达上限。";
 "lng_error_admin_limit_channel" = "抱歉，该频道的管理员人数已达上限。";
-"lng_sure_add_admin_invite" = "这名用户非本群组成员。是否将其加入到群组并提升为管理员？";
-"lng_sure_add_admin_invite_channel" = "这名用户非本频道订阅者。是否将其加入到频道并提升为管理员？";
+"lng_sure_add_admin_invite" = "这名用户非本群组成员。是否要邀请其加入并提升为管理员？";
+"lng_sure_add_admin_invite_channel" = "这名用户非本频道订阅者。是否邀请其加入并提升为管理员？";
 "lng_sure_add_admin_unban" = "该用户当前正被限制或封禁。是否确定将其解封并提升至管理员？";
 "lng_sure_ban_admin" = "这名用户是该群组的管理员。是否确定继续对其作出限制？";
 "lng_sure_ban_user_group" = "是否要在群组中封禁 {user} ？";
@@ -283,7 +283,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_notifications_position" = "在屏幕上的位置";
 "lng_settings_notifications_count" = "通知计数";
 "lng_settings_sound_notify" = "播放提示音";
-"lng_settings_include_muted" = "包含已关闭消息通知的对话";
+"lng_settings_include_muted" = "包含已关闭通知的对话";
 "lng_settings_count_unread" = "按消息数统计未读";
 
 "lng_notification_preview" = "新消息";
@@ -695,7 +695,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_kick" = "移除";
 "lng_profile_sure_kick" = "从群组中移除 {user} ？";
 "lng_profile_sure_kick_channel" = "从频道中移除 {user} ？";
-"lng_profile_sure_remove_admin" = "从管理员中移除 {user} ？";
+"lng_profile_sure_remove_admin" = "要撤销 {user} 的管理员权限吗？";
 "lng_profile_loading" = "加载中...";
 
 "lng_profile_photos#other" = "{count} 张图片";
@@ -752,7 +752,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_delete_contact" = "删除联系人";
 "lng_info_share_contact" = "分享联系方式";
 "lng_profile_clear_history" = "清空历史记录";
-"lng_profile_delete_conversation" = "删除会话";
+"lng_profile_delete_conversation" = "删除对话";
 "lng_profile_block_user" = "屏蔽此用户";
 "lng_profile_unblock_user" = "取消屏蔽";
 "lng_profile_export_chat" = "导出对话历史";
@@ -818,7 +818,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_admin_status_not_admin" = "不是管理员";
 "lng_channel_banned_status_restricted_by" = "被 {user} 限制";
 
-"lng_group_blocked_list_about" = "被封禁的用户将会从群组中移除，并且只有被管理员添加进群组才能再回来。\n他们无法使用邀请链接回到群组中。";
+"lng_group_blocked_list_about" = "被封禁的用户将会从群组中移除，并且只有被管理员邀请才能返回。\n他们无法使用邀请链接返回群组。";
 "lng_channel_blocked_list_about" = "被封禁的用户将会从频道中移除。\n他们不能使用邀请链接再次加入。";
 
 "lng_chat_all_members_admins" = "将所有成员设为管理员";

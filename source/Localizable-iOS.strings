@@ -65,7 +65,6 @@
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|posted a GIF";
 
 
-
 "PUSH_PINNED_TEXT" = "%1$@|pinned \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|pinned a message";
 "PUSH_PINNED_PHOTO" = "%1$@|pinned a photo";
@@ -212,6 +211,10 @@
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|is calling you!";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|You missed a call";
+
+"LOCAL_MESSAGE_FWDS" = "%1$@ forwarded you %2$d messages";
+"LOCAL_CHANNEL_MESSAGE_FWDS" = "%1$@ posted %2$d forwarded messages";
+"LOCAL_CHAT_MESSAGE_FWDS" = "%1$@ forwarded %2$d messages";
 
 // Common
 "Common.OK" = "OK";
@@ -613,7 +616,7 @@
 "GroupInfo.SetGroupPhotoDelete" = "Remove Photo";
 "GroupInfo.Notifications" = "Notifications";
 "GroupInfo.Sound" = "Sound";
-
+"GroupInfo.SetSound" = "Set Sound";
 "GroupInfo.SharedMedia" = "Shared Media";
 "GroupInfo.SharedMediaNone" = "None";
 "GroupInfo.DeleteAndExit" = "Delete and Exit";
@@ -2501,9 +2504,9 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissionEditMessages" = "Edit Messages";
 "Channel.EditAdmin.PermissionDeleteMessages" = "Delete Messages";
 "Channel.EditAdmin.PermissionBanUsers" = "Ban Users";
-
-
-
+"Channel.EditAdmin.PermissionInviteSubscribers" = "Add Subscribers";
+"Channel.EditAdmin.PermissionInviteMembers" = "Add Members";
+"Channel.EditAdmin.PermissionInviteViaLink" = "Invite Users via Link";
 "Channel.EditAdmin.PermissionPinMessages" = "Pin Messages";
 "Channel.EditAdmin.PermissionAddAdmins" = "Add New Admins";
 
@@ -2519,14 +2522,14 @@ Unused sets are archived when you add more.";
 
 "Channel.BanUser.Title" = "Ban User";
 "Channel.BanUser.PermissionsHeader" = "User Restrictions";
-"Channel.BanUser.PermissionReadMessages" = "Can Read Messages";
-"Channel.BanUser.PermissionSendMessages" = "Can Send Messages";
-"Channel.BanUser.PermissionSendMedia" = "Can Send Media";
-"Channel.BanUser.PermissionSendStickersAndGifs" = "Can Send Stickers & GIFs";
-"Channel.BanUser.PermissionEmbedLinks" = "Can Embed Links";
-
-
-
+"Channel.BanUser.PermissionReadMessages" = "Read Messages";
+"Channel.BanUser.PermissionSendMessages" = "Send Messages";
+"Channel.BanUser.PermissionSendMedia" = "Send Media";
+"Channel.BanUser.PermissionSendStickersAndGifs" = "Send Stickers & GIFs";
+"Channel.BanUser.PermissionEmbedLinks" = "Embed Links";
+"Channel.BanUser.PermissionSendPolls" = "Send Polls";
+"Channel.BanUser.PermissionChangeGroupInfo" = "Change Group Info";
+"Channel.BanUser.PermissionAddMembers" = "Add Members";
 "Channel.BanUser.Unban" = "Unban";
 
 "Channel.BanUser.BlockFor" = "Block For";
@@ -2542,15 +2545,14 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.BanReadMessages" = "Read Messages";
 "Channel.AdminLog.BanSendMessages" = "Send Messages";
 "Channel.AdminLog.BanSendMedia" = "Send Media";
-"Channel.AdminLog.BanSendStickers" = "Send Stickers";
+"Channel.AdminLog.BanSendStickersAndGifs" = "Send Stickers & GIFs";
 "Channel.AdminLog.BanEmbedLinks" = "Embed Links";
-"Channel.AdminLog.BanSendGifs" = "Send GIFs";
 "Channel.AdminLog.MessageRestricted" = "%@ changed restrictions for %@ (%@)";
 "Channel.AdminLog.MessageAdmin" = "%@ changed privileges for %@ (%@)";
-
-
-
-
+"Channel.AdminLog.ChangeInfo" = "Change Info";
+"Channel.AdminLog.PinMessages" = "Pin Messages";
+"Channel.AdminLog.AddMembers" = "Add Members";
+"Channel.AdminLog.SendPolls" = "Send Polls";
 
 "Channel.AdminLog.CanChangeInfo" = "Change Info";
 "Channel.AdminLog.CanSendMessages" = "Post Messages";
@@ -2643,19 +2645,19 @@ Unused sets are archived when you add more.";
 
 "Conversation.RestrictedTextTimed" = "The admins of this group have restricted you from writing messages until %@.";
 "Conversation.RestrictedText" = "The admins of this group have restricted you from writing messages.";
-
+"Conversation.DefaultRestrictedText" = "Writing messages isn’t allowed in this group.";
 
 "Conversation.RestrictedInlineTimed" = "The admins of this group have restricted you from posting inline content here until %@.";
 "Conversation.RestrictedInline" = "The admins of this group have restricted you from posting inline content here.";
-
+"Conversation.DefaultRestrictedInline" = "Posting inline content isn’t allowed in this group.";
 
 "Conversation.RestrictedMediaTimed" = "The admins of this group have restricted you from posting media content here until %@.";
 "Conversation.RestrictedMedia" = "The admins of this group have restricted you from posting media content here.";
-
+"Conversation.DefaultRestrictedMedia" = "Posting media content isn’t allowed in this group.";
 
 "Conversation.RestrictedStickersTimed" = "The admins of this group have restricted you from posting stickers here until %@.";
 "Conversation.RestrictedStickers" = "The admins of this group have restricted you from sending stickers.";
-
+"Conversation.DefaultRestrictedStickers" = "Posting stickers isn’t allowed in this group.";
 
 "ChatSettings.ConnectionType.Title" = "CONNECTION TYPE";
 "ChatSettings.ConnectionType.UseProxy" = "Use Proxy";
@@ -2823,6 +2825,8 @@ Unused sets are archived when you add more.";
 
 "Group.Setup.HistoryVisibleHelp" = "New members will see messages that were sent before they joined.";
 "Group.Setup.HistoryHiddenHelp" = "New members won't see earlier messages.";
+"Group.Setup.BasicHistoryHiddenHelp" = "New members won't see more than 100 previous messages.";
+
 
 "Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ made the group history visible for new members";
 "Channel.AdminLog.MessageGroupPreHistoryHidden" = "%@ made the group history hidden from new members";
@@ -3621,8 +3625,8 @@ Unused sets are archived when you add more.";
 "Watch.Message.Call" = "Call";
 "Watch.Message.Game" = "Game";
 "Watch.Message.Invoice" = "Invoice";
-
-
+"Watch.Message.Poll" = "Poll";
+"Watch.Message.Unsupported" = "Unsupported Message";
 
 
 
@@ -3805,23 +3809,83 @@ Unused sets are archived when you add more.";
 "Conversation.UnsupportedMediaPlaceholder" = "This message is not supported on your version of Telegram. Please update to the latest version.";
 "Conversation.UpdateTelegram" = "UPDATE TELEGRAM";
 
+"Cache.LowDiskSpaceText" = "Your phone has run out of available storage. Please free some space to download or upload media.";
 
+"Contacts.SortBy" = "Sort by:";
+"Contacts.SortByName" = "Name";
+"Contacts.SortByPresence" = "Last Seen Time";
+"Contacts.SortedByName" = "Sorted by Name";
+"Contacts.SortedByPresence" = "Sorted by Last Seen Time";
 
+"NotificationSettings.ContactJoinedInfo" = "Receive push notifications when one of your contacts becomes available on Telegram.";
 
+"GroupInfo.Permissions" = "Permissions";
+"GroupInfo.Permissions.Title" = "Permissions";
+"GroupInfo.Permissions.SectionTitle" = "WHAT CAN MEMBERS OF THIS GROUP DO?";
+"GroupInfo.Permissions.Removed" = "Removed Users";
+"GroupInfo.Permissions.Exceptions" = "EXCEPTIONS";
+"GroupInfo.Permissions.AddException" = "Add Exception";
+"GroupInfo.Permissions.SearchPlaceholder" = "Search Exceptions";
 
+"GroupInfo.Administrators" = "Administrators";
+"GroupInfo.Administrators.Title" = "Administrators";
 
+"GroupPermission.NoSendMessages" = "no messages";
+"GroupPermission.NoSendMedia" = "no media";
+"GroupPermission.NoSendGifs" = "no GIFs";
+"GroupPermission.NoSendPolls" = "no polls";
+"GroupPermission.NoSendLinks" = "no links";
+"GroupPermission.NoChangeInfo" = "no info";
+"GroupPermission.NoAddMembers" = "no add";
+"GroupPermission.NoPinMessages" = "no pin";
 
+"GroupPermission.Title" = "Exception";
+"GroupPermission.NewTitle" = "New Exception";
+"GroupPermission.SectionTitle" = "WHAT CAN THIS MEMBER DO?";
+"GroupPermission.Duration" = "Duration";
+"GroupPermission.AddedInfo" = "Exception added by %1$@ %2$@";
+"GroupPermission.Delete" = "Delete Exception";
+"GroupPermission.ApplyAlertText" = "You have changed this user's rights in %@.\nApply Changes?";
+"GroupPermission.ApplyAlertAction" = "Apply";
+"GroupPermission.AddSuccess" = "Exception Added";
+"GroupPermission.NotAvailableInPublicGroups" = "This permission is not available in public groups.";
 
+"Channel.Management.RemovedBy" = "Removed by %@";
 
+"GroupRemoved.Title" = "Removed Users";
+"GroupRemoved.Remove" = "Remove User";
+"GroupRemoved.RemoveInfo" = "Users removed from the group by admins cannot rejoin it via invite links.";
+"ChannelRemoved.RemoveInfo" = "Users removed from the channel by admins cannot rejoin it via invite links.";
+"GroupRemoved.UsersSectionTitle" = "REMOVED USERS";
+"GroupRemoved.ViewUserInfo" = "View User Info";
+"GroupRemoved.AddToGroup" = "Add To Group";
+"GroupRemoved.DeleteUser" = "Delete";
 
+"EmptyGroupInfo.Title" = "You have created a group";
+"EmptyGroupInfo.Subtitle" = "Groups can have:";
+"EmptyGroupInfo.Line1" = "Up to %@ members";
+"EmptyGroupInfo.Line2" = "Persistent chat history";
+"EmptyGroupInfo.Line3" = "Public links such as t.me/title";
+"EmptyGroupInfo.Line4" = "Admins with different rights";
 
+"WallpaperPreview.Title" = "Background Preview";
 
 
+"WallpaperPreview.SwipeTopText" = "Swipe left or right to preview more backgrounds";
+"WallpaperPreview.SwipeBottomText" = "Lorem ipsum dolor sit amet";
+"WallpaperPreview.SwipeColorsTopText" = "Swipe left or right to see more colors";
+"WallpaperPreview.SwipeColorsBottomText" = "Lorem ipsum dolor sit amet";
+"WallpaperPreview.CustomColorTopText" = "Use sliders to adjust color";
+"WallpaperPreview.CustomColorBottomText" = "Lorem ipsum dolor sit amet";
+"WallpaperPreview.CropTopText" = "Pinch and pan to adjust background";
+"WallpaperPreview.CropBottomText" = "Lorem ipsum dolor sit amet";
 
 
 
 
 
+"Wallpaper.SetColor" = "Set a Color";
+"Wallpaper.SetCustomBackground" = "Choose from Gallery";
 
 
 
@@ -3831,6 +3895,8 @@ Unused sets are archived when you add more.";
 
 
 
+"WallpaperColors.Title" = "Set a Color";
+"WallpaperColors.SetCustomColor" = "Set Custom Color";
 
 
 
@@ -3848,38 +3914,31 @@ Unused sets are archived when you add more.";
 
 
 
+"Channel.AdminLog.DefaultRestrictionsUpdated" = "changed default permissions";
+"Channel.AdminLog.PollStopped" = "%@ stopped poll";
 
+"ChatList.DeleteChat" = "Delete Chat";
+"ChatList.DeleteChatConfirmation" = "Are you sure you want to delete the chat\nwith %@?";
+"ChatList.DeleteSecretChatConfirmation" = "Are you sure you want to delete the secret chat\nwith %@?";
+"ChatList.LeaveGroupConfirmation" = "Are you sure you want to leave %@?";
 
+"Undo.Undo" = "Undo";
+"Undo.MessagesDeleted" = "Messages deleted";
+"Undo.ChatDeleted" = "Chat deleted";
+"Undo.SecretChatDeleted" = "Secret Chat deleted";
+"Undo.LeftChannel" = "Left the channel";
+"Undo.LeftGroup" = "Left the group";
+"Undo.DeletedChannel" = "Channel deleted";
+"Undo.DeletedGroup" = "Group deleted";
 
+"AccessDenied.Wallpapers" = "Telegram needs access to your photo library to set a custom wallpaper.\n\nPlease go to Settings > Privacy > Photos and set Telegram to ON.";
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"SocksProxySetup.ShareQRCodeInfo" = "Your friends can add this proxy by scanning this code with phone or in-app camera.";
+"SocksProxySetup.ShareQRCode" = "Share QR Code";
+"SocksProxySetup.ShareLink" = "Share Link";
 
 
 
@@ -3987,6 +4046,8 @@ Unused sets are archived when you add more.";
 "CHAT_TITLE_EDITED" = "%1$@ edited the group's %2$@ name";
 "CONTACT_JOINED" = "%1$@ joined Telegram!";
 "CONTACT_JOINED_SEPARATED" = "%1$@|joined Telegram!";
+"Channel.AdminLog.BanSendGifs" = "Send GIFs";
+"Channel.AdminLog.BanSendStickers" = "Send Stickers";
 "Channel.EditAdmin.PermissionInviteUsers" = "Add Users";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";

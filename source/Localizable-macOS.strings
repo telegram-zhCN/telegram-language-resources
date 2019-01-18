@@ -1260,10 +1260,10 @@
 
 "Channel.UserRestriction" = "USER RESTRICTIONS";
 "Channel.BlockUser.CanReadMessages" = "Can Read Messages";
-"Channel.BlockUser.CanSendMessages" = "Can Send Messages";
-"Channel.BlockUser.CanSendMedia" = "Can Send Media";
-"Channel.BlockUser.CanSendStickers" = "Can Send Stickers & GIFs";
-"Channel.BlockUser.CanEmbedLinks" = "Can Embed Links";
+"Channel.BlockUser.CanSendMessages" = "Send Messages";
+"Channel.BlockUser.CanSendMedia" = "Send Media";
+"Channel.BlockUser.CanSendStickers" = "Send Stickers & GIFs";
+"Channel.BlockUser.CanEmbedLinks" = "Embed Links";
 "Channel.BlockUser.BlockFor" = "Block For";
 "Channel.Blacklist.SelectNewUserTitle" = "Members";
 

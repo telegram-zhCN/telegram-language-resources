@@ -65,7 +65,6 @@
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 
 
-
 "PUSH_PINNED_TEXT" = "%1$@|置顶了 \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|置顶了一条消息";
 "PUSH_PINNED_PHOTO" = "%1$@|置顶了一张图片";
@@ -172,7 +171,7 @@
 "PUSH_CHAT_DELETE_YOU" = "%2$@|%1$@ 已将您从群组中移除";
 
 
-
+"PUSH_CHAT_JOINED" = "%2$@|%1$@ 加入了群组";
 
 
 
@@ -206,6 +205,10 @@
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
+
+
+
+
 
 
 
@@ -2542,9 +2545,8 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.BanReadMessages" = "查看消息";
 "Channel.AdminLog.BanSendMessages" = "发送消息";
 "Channel.AdminLog.BanSendMedia" = "发送媒体";
-"Channel.AdminLog.BanSendStickers" = "发送贴纸";
+
 "Channel.AdminLog.BanEmbedLinks" = "显示链接预览";
-"Channel.AdminLog.BanSendGifs" = "发送 GIF";
 "Channel.AdminLog.MessageRestricted" = "%@ 修改了 %@ 的限制 (%@)";
 "Channel.AdminLog.MessageAdmin" = "%@ 修改了 %@ 的权限 (%@)";
 
@@ -2691,7 +2693,7 @@ Unused sets are archived when you add more.";
 
 "Channel.Members.AddAdminErrorBlacklisted" = "抱歉，您无法设置该用户为管理员，因为该用户在黑名单中，且您无权解封。";
 
-"Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁该用户。因为他们是该群组管理员，";
+"Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。";
 
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
@@ -2823,6 +2825,8 @@ Unused sets are archived when you add more.";
 
 "Group.Setup.HistoryVisibleHelp" = "新成员将可以查看所有消息记录。";
 "Group.Setup.HistoryHiddenHelp" = "新成员将不能查看加群前的消息记录。";
+
+
 
 "Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ 设置消息记录对新成员可见";
 "Channel.AdminLog.MessageGroupPreHistoryHidden" = "%@ 使消息记录对新成员不可见";
@@ -3033,7 +3037,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.ClearPrivateHistory" = "此操作将会从您的 Telegram 云中删除该对话的所有消息和媒体，但对方储存的内容仍将被保留。";
 "Conversation.ClearGroupHistory" = "此操作将会从您的 Telegram 云中删除该群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
-"Conversation.ClearSecretHistory" = "此操作将会删除会话双方的所有消息和媒体。";
+"Conversation.ClearSecretHistory" = "此操作将会清空对话双方的消息和媒体记录。";
 "Conversation.ClearSelfHistory" = "这将从您的 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
 "MediaPicker.LivePhotoDescription" = "实况照片将会自动播放，并像 GIF 一样循环播放。";
@@ -3598,7 +3602,7 @@ Unused sets are archived when you add more.";
 "Notifications.DisplayNamesOnLockScreenInfoWithLink" = "设备锁定后在通知栏上显示姓名。若需禁用，请确保“显示预览”功能也设置为“解锁时”或“从不” [iOS 设置> 通知].";
 
 "Notifications.Badge" = "未读消息数量提示";
-"Notifications.Badge.IncludeMutedChats" = "包含已关闭提醒的会话";
+"Notifications.Badge.IncludeMutedChats" = "包含已关闭通知的对话";
 "Notifications.Badge.IncludePublicGroups" = "包含公开群组";
 "Notifications.Badge.IncludeChannels" = "Include Channels";
 "Notifications.Badge.CountUnreadMessages" = "按消息数统计未读";
@@ -3857,6 +3861,12 @@ Unused sets are archived when you add more.";
 
 
 
+"EmptyGroupInfo.Title" = "您创建了一个群组";
+
+
+"EmptyGroupInfo.Line2" = "永久聊天历史记录";
+"EmptyGroupInfo.Line3" = "如 t.me/title 一样的公共链接";
+"EmptyGroupInfo.Line4" = "设置权限细分的管理员";
 
 
 
@@ -3880,6 +3890,55 @@ Unused sets are archived when you add more.";
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Channel.AdminLog.DefaultRestrictionsUpdated" = "更改了默认权限";
+"Channel.AdminLog.PollStopped" = "%@ 终止了投票";
+
+"ChatList.DeleteChat" = "删除对话";
+"ChatList.DeleteChatConfirmation" = "您确定要删除与 %@ 的对话吗？";
+"ChatList.DeleteSecretChatConfirmation" = "您确定要删除与 %@ 的加密对话吗？";
+"ChatList.LeaveGroupConfirmation" = "您确定要退出 %@ 吗？";
+
+"Undo.Undo" = "撤销";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"SocksProxySetup.ShareQRCode" = "分享二维码";
+"SocksProxySetup.ShareLink" = "分享代理链接";
 
 
 
@@ -3978,6 +4037,8 @@ Unused sets are archived when you add more.";
 "CHAT_TITLE_EDITED" = "%1$@ 编辑了群组 %2$@ 的名字";
 "CONTACT_JOINED" = "%1$@ 加入了 Telegram！";
 "CONTACT_JOINED_SEPARATED" = "%1$@|加入了 Telegram！";
+"Channel.AdminLog.BanSendGifs" = "发送 GIF";
+"Channel.AdminLog.BanSendStickers" = "发送贴纸";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加用户";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";

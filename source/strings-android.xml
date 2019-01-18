@@ -836,8 +836,8 @@
     <!--set admins view-->
     <string name="SetAdminsTitle">Chat Admins</string>
     <string name="SetAdminsAll">All Members Are Admins</string>
-    <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
-    <string name="SetAdminsNotAllInfo">Only admins can add and remove members, edit name and photo of the group.</string>
+    <string name="SetAdminsAllInfo">All members can add new members, pin messages, edit name and photo of the group.</string>
+    <string name="SetAdminsNotAllInfo">Only admins can add and remove members, pin messages, edit name and photo of the group.</string>
     <!--group info view-->
     <string name="GroupMembers">Members</string>
     <string name="SharedMedia">Shared Media</string>
