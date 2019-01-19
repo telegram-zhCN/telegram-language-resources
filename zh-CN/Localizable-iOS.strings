@@ -306,7 +306,7 @@
 "LastSeen.WithinAWeek" = "几天前在线";
 "LastSeen.WithinAMonth" = "几周前在线";
 "LastSeen.ALongTimeAgo" = "离线已久";
-"LastSeen.Offline" = "离线已久";
+"LastSeen.Offline" = "很久没上线";
 
 "Date.DialogDateFormat" = "{month}{day}日";
 "Date.ChatDateHeader" = "%1$@%2$@日";
@@ -1102,7 +1102,7 @@
 "ShareFileTip.Text" = "通过这里选择，并**无损**发送相机胶卷中的照片。\n\n如要分享其他类型的文件，请在 %@（例如浏览器）中打开它们，点按在 **通过其他应用打开** 或在分享按钮中选择「Telegram」打开。";
 "ShareFileTip.CloseTip" = "关闭提示";
 
-"DialogList.SearchSectionDialogs" = "会话与联系人";
+"DialogList.SearchSectionDialogs" = "对话与联系人";
 "DialogList.SearchSectionGlobal" = "全局搜索";
 "DialogList.SearchSectionMessages" = "消息";
 
@@ -1121,7 +1121,7 @@
 "PasscodeSettings.TurnPasscodeOn" = "开启锁定码";
 "PasscodeSettings.TurnPasscodeOff" = "关闭锁定码";
 "PasscodeSettings.ChangePasscode" = "更改密码";
-"PasscodeSettings.Help" = "开启锁定码后，会话页面将出现锁形图标，点击即可锁定或解锁 Telegram。\n\n注意：如果遗忘此密码，您只能删除并重装 Telegram 来移除锁定码。重装会丢失所有加密对话。";
+"PasscodeSettings.Help" = "开启锁定码后，对话页面将出现锁形图标，点击即可锁定或解锁 Telegram。\n\n注意：如果遗忘此密码，您只能删除并重装 Telegram 来移除锁定码。重装会丢失所有加密对话。";
 "PasscodeSettings.UnlockWithTouchId" = "使用 Touch ID 解锁";
 "PasscodeSettings.SimplePasscode" = "简单密码";
 "PasscodeSettings.SimplePasscodeHelp" = "简单密码由四位数字组成。";
@@ -1308,8 +1308,8 @@
 
 "TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 "TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的帐户。";
-"TwoStepAuth.ResetAccountHelp" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
-"TwoStepAuth.ResetAccountConfirmation" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
+"TwoStepAuth.ResetAccountHelp" = "如果您确认重置您的帐户，您将丢失所有的聊天记录、分享的媒体文件和个人数据。";
+"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重置帐户，您将丢失所有对话与消息，以及您共享的所有媒体和文件。";
 
 "TwoStepAuth.RecoveryTitle" = "电子邮箱验证";
 "TwoStepAuth.RecoveryCode" = "验证码";
@@ -1968,7 +1968,7 @@
 "StickerPack.ShowStickers" = "显示贴纸";
 
 "ShareMenu.ShareTo" = "分享到";
-"ShareMenu.SelectChats" = "选择会话";
+"ShareMenu.SelectChats" = "选择对话";
 "ShareMenu.Comment" = "发表评论...";
 
 "MediaPicker.Videos" = "视频";
@@ -2177,7 +2177,7 @@ Unused sets are archived when you add more.";
 "Application.Name" = "Telegram";
 "DialogList.Pin" = "置顶";
 "DialogList.Unpin" = "取消置顶";
-"DialogList.PinLimitError" = "抱歉，您最多只能置顶 %@ 个会话。";
+"DialogList.PinLimitError" = "抱歉，您最多只能置顶 %@ 个对话。";
 
 "Conversation.DeleteMessagesForMe" = "从本地删除";
 "Conversation.DeleteMessagesFor" = "从本地和 %@ 删除";
@@ -2649,7 +2649,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送机器人内容的能力至 %@";
 "Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的能力";
-
+"Conversation.DefaultRestrictedInline" = "此群组不允许发送 inline 内容";
 
 "Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的能力";
@@ -3135,8 +3135,8 @@ Unused sets are archived when you add more.";
 "SocksProxySetup.ProxyEnabled" = "代理\n已启用";
 
 "DialogList.AdLabel" = "代理赞助商";
-"DialogList.AdNoticeAlert" = "这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
-"SocksProxySetup.AdNoticeHelp" = "这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法查看您的任何 Telegram 信息。";
+"DialogList.AdNoticeAlert" = "这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
+"SocksProxySetup.AdNoticeHelp" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
 
 "SocksProxySetup.ShareProxyList" = "分享全部代理";
 
@@ -3846,7 +3846,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"GroupPermission.ApplyAlertAction" = "应用";
 
 
 
@@ -3872,13 +3872,13 @@ Unused sets are archived when you add more.";
 
 
 
+"WallpaperPreview.SwipeBottomText" = "天地玄黄　宇宙洪荒　日月盈昃　辰宿列张";
 
+"WallpaperPreview.SwipeColorsBottomText" = "天地玄黄　宇宙洪荒　日月盈昃　辰宿列张";
 
+"WallpaperPreview.CustomColorBottomText" = "天地玄黄　宇宙洪荒　日月盈昃　辰宿列张";
 
-
-
-
-
+"WallpaperPreview.CropBottomText" = "天地玄黄　宇宙洪荒　日月盈昃　辰宿列张";
 
 
 

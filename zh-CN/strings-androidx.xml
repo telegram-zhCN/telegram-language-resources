@@ -25,7 +25,7 @@
   <string name="ConnectingToProxy">正在连接代理...</string>
 
   <string name="AppNameAndVersion">Telegram X %1$s</string>
-  <string name="language_code">zh-CN</string>
+  <string name="language_code">zh_CN</string>
   <string name="language_name">中文（简体）</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
   <string name="language_dateFormatLocale">zh-CN</string>
@@ -104,7 +104,7 @@
   <string name="status_LastSeenRecently">最近上过线</string>
   <string name="status_LastSeenWithinWeek">最近一周内有上线</string>
   <string name="status_LastSeenWithinMonth">最近一个月内有上线</string>
-  <string name="status_LastSeenUnknown">很久之前上过线</string>
+  <string name="status_LastSeenUnknown">很久没上线</string>
   <string name="status_LastSeen_now">刚刚在线</string>
   <string name="status_LastSeen_today">最近上线于 %1$s</string>
   <string name="status_LastSeen_yesterday">昨天 %1$s 在线</string>
@@ -155,7 +155,7 @@
   <string name="xChats_other">%1$s 个对话</string>
   
   <string name="xMessages_other">%1$s 条消息</string>
-  
+  <string name="NewMessages">新消息</string>
   
   <string name="xNewMessages_other">%1$s 条新消息</string>
   
@@ -332,8 +332,8 @@
   <string name="LoadingUser">加载用户...</string>
   <string name="LoadingUsername">用户名加载中...</string>
   <string name="LoadingPhone">手机号码加载中...</string>
-  <string name="HiddenName">已删除的帐户</string>
-  <string name="HiddenNameShort">已删除</string>
+  <string name="HiddenName">已销号</string>
+  <string name="HiddenNameShort">已销号</string>
   <string name="LoadingChannel">频道加载中...</string>
   <string name="ReportReasonDescription">简介</string>
   <string name="Description">简介</string>
@@ -341,7 +341,7 @@
   <string name="ChannelName">频道名称</string>
   <string name="ServiceNotifications">通知服务</string>
   <string name="Bot">机器人</string>
-  <string name="deletedUser">已删除的用户</string>
+  <string name="deletedUser">已销号用户</string>
   <string name="unknownUser">未知的用户</string>
   <string name="BotStatusRead">可以访问消息</string>
   <string name="BotStatusCantRead">不允许访问消息</string>
@@ -439,7 +439,7 @@
   <string name="NoMediaYet">这里暂时还没有图片或视频</string>
   <string name="AttachAudio">语音留言</string>
   <string name="GettingLinkInfo">正在获取链接信息...</string>
-  <string name="ChatsAndContacts">会话与联系人</string>
+  <string name="ChatsAndContacts">对话与联系人</string>
   <string name="GlobalSearch">全局搜索</string>
   <string name="Recent">最近</string>
   <string name="ClearRecentsHint">是否清空搜索历史？</string>
@@ -871,7 +871,7 @@
   <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="RenameContact">重命名联系人</string>
   <string name="Themes">主题</string>
-  <string name="ThemeSettings">主题和会话</string>
+  <string name="ThemeSettings">主题和对话</string>
   <string name="Tweaks">界面设置</string>
   <string name="TweakSettings">界面</string>
   <string name="ThemeClassic">经典</string>
@@ -1107,7 +1107,7 @@
   <string name="ProxySettings">代理设置</string>
   <string name="EnableProxyAlertTitle">您确定要启用此代理吗？</string>
   <string name="EnableProxyAlertHint">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
-  <string name="EnableProxyAlertHintMtproto">这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 流量。</string>
+  <string name="EnableProxyAlertHintMtproto">这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。</string>
   <string name="ProxyEnable">启用</string>
   <string name="ProxySaveForLater">保存代理</string>
   <string name="UseProxyUsername">用户名</string>
@@ -1201,7 +1201,7 @@
   <string name="CopyTextFailed">复制文本失败，这通常是由于要复制的文本过长。</string>
   <string name="AutoNightMode">自动启用夜间模式</string>
   <string name="DisableAutoNightMode">停止使用自动夜间模式？</string>
-  <string name="DisableAutoNightModeDesc">变更当前的主题将关闭自动夜间模式设置。\n\n您可以随时在 设置 - 主题和会话 处重新启用。</string>
+  <string name="DisableAutoNightModeDesc">变更当前的主题将关闭自动夜间模式设置。\n\n您可以随时在「设置 - 主题和对话」处重新启用。</string>
   <string name="UseProxyForCalls">将代理用于通话</string>
   <string name="UseProxyForCallsInfo">使用代理服务器可能降低通话质量。</string>
   <string name="HoldToPreview">对话预览</string>
@@ -1512,7 +1512,7 @@
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
-  
+  <string name="NotificationChannelUser">自定义 %1$s 的消息及提及。</string>
   <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义通知设置</string>
   <string name="NotificationChannelGroupChatPublic">针对群组 «%1$s» 的自定义通知设置 (%2$s)</string>
   <string name="NotificationChannelChannelChat">针对频道 «%1$s» 的自定义通知设置</string>
@@ -1670,7 +1670,7 @@
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
   <string name="message_via">通过</string>
-  <string name="message_adminSign">管理员</string>
+  <string name="message_adminSign">" 管理员"</string>
   <string name="message_adminSignPlain">管理员</string>
   <string name="WhoCanCallMe">谁可以呼叫我</string>
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
@@ -1999,7 +1999,7 @@
   <string name="ThemeSectionPlayer">音乐播放器</string>
   <string name="ThemeSectionIcons">图标</string>
   <string name="ThemeSectionBackground">聊天背景</string>
-  <string name="ThemeSectionRadios_info">这些颜色显示在 设置 &gt; 主题 。\n请确保你**填充**的颜色能够准确地表现对应主题。</string>
+  <string name="ThemeSectionRadios_info">这些颜色被展示在「设置 - 主题和对话」处 。\n请确保你**填充**的颜色能够准确地表现对应主题。</string>
   <string name="ThemeSectionWP_info">这些颜色被用作设置相应壁纸后衬托日期、未读分隔符、消息内键盘等的透明覆盖层。\n\n除非找到了更好的色彩组合，否则请不要轻易更改它们。</string>
   <string name="ThemeSectionUnsorted">未排序</string>
   <string name="ThemeSectionAttach">附件菜单</string>
@@ -2052,7 +2052,7 @@
 
   <string name="ThemeInstall">要应用 %1$s 主题吗？</string>
   <string name="ThemeInstallAuthor">应用由 %2$s 制作的 %1$s 主题吗？</string>
-  <string name="ThemeInstallHint">您可以在 设定 &gt; 主题 中切换已安装的主题。</string>
+  <string name="ThemeInstallHint">您可以在 设置 &gt; 主题和对话 中切换已安装的主题。</string>
   <string name="ThemeInstallDone">应用主题</string>
 
   
@@ -2172,7 +2172,7 @@
   
   <string name="ShareTitleMediaX_other">分享 %1$s 个图片或视频给...</string>
 
-  
+  <string name="ShareTitleContact">分享联系人给...</string>
 
   <string name="ShareTextPlain">来自 %1$s 的消息</string>
 
@@ -2192,42 +2192,42 @@
   <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
 
   
-  
+  <string name="mentionCount_other">%1$s 提及</string>
   <string name="format_edited">编辑于 %1$s</string>
   
 
-  
-  
-  
+  <string name="ActionMute">免打扰</string>
+  <string name="ActionMutePerson">免打扰 %1$s</string>
+  <string name="ActionMuteEveryone">免打扰所有</string>
 
   
-  
+  <string name="ActionMuteHours_other">免打扰 %1$s 小时</string>
 
   
-  
+  <string name="ActionMutePersonHours_other">免打扰 %2$s  %1$s小时</string>
 
   
-  
+  <string name="ActionMuteAll_other">免打扰所有 %1$s 小时</string>
 
-  
-  
-  
+  <string name="MessagePreviewDefault">默认</string>
+  <string name="MessagePreviewEnabled">启用</string>
+  <string name="MessagePreviewDisabled">禁用</string>
 
-  
+  <string name="NotificationLockedTitle">隐藏内容</string>
   <string name="NotificationLocked">您有一条新消息</string>
 
-  
+  <string name="OpenCloudChat">打开普通对话</string>
 
   
   <string name="BadgeCounter">未读消息数量提示</string>
   <string name="BadgeCounterMuted">包含已关闭通知的对话</string>
   <string name="BadgeCounterMessages">按消息数统计未读</string>
   
-  
-  
-  
-  
-  <string name="AppBadgeHint">在应用图标上显示未读消息数。注意部分设备可能无法显示。</string>
+  <string name="BadgeCounterMessagesOff">关闭以显示未读对话数而非未读消息数。</string>
+  <string name="NotificationsPrivateInfo">您可以在特定的用户信息界面中设置针对他们的通知策略。</string>
+  <string name="NotificationsGroupInfo">您可以在特定的群组信息界面中设置针对他们的通知策略。</string>
+  <string name="NotificationsChannelInfo">您可以在特定的频道信息界面中设置针对他们的通知策略。</string>
+  <string name="AppBadgeHint">在应用图标上显示未读消息数。在部分设备上可能无法显示。\n\n无论设置如何，系统都可能在播放音乐或进行通话时显示额外的消息计数。</string>
   
   
   
@@ -2282,6 +2282,7 @@
   <string name="AppBadgeTypeChats">对话数目</string>
   <string name="AppBadgeTypeMessages">消息数目</string>
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
+  <string name="BadgeCounterSetting">通知圆点</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>

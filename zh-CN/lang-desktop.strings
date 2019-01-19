@@ -93,7 +93,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_bot" = "机器人";
 "lng_status_bot_reads_all" = "允许访问消息";
 "lng_status_bot_not_reads_all" = "不允许访问消息";
-"lng_status_offline" = "很久之前上过线";
+"lng_status_offline" = "很久没上线";
 "lng_status_recently" = "最近曾上线";
 "lng_status_last_week" = "最近上线于一周内";
 "lng_status_last_month" = "最近上线于一个月内";
@@ -212,7 +212,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_no_email_forgot" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 "lng_signin_cant_email_forgot" = "如果您无法恢复对这个邮箱账户的访问权限，您现在只能尝试记起您的密码或者重置账户。";
 "lng_signin_reset_account" = "重置账号";
-"lng_signin_sure_reset" = "警告！\n\n您将会丢失您所有的对话和消息，以及任何您分享的媒体和文件！\n\n您确定要重置您的帐户吗？";
+"lng_signin_sure_reset" = "警告！\n\n您将丢失所有对话与消息，以及您共享的所有媒体和文件。\n\n您确定要重置您的帐户吗？";
 "lng_signin_reset" = "重置";
 "lng_signin_reset_wait" = "因为 {phone_number} 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在 1 周后执行删除。您可以在这段时间内随时取消这一过程。\n\n您将可以在以下时间重置您的账号：\n{when}";
 
@@ -536,8 +536,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_credentials" = "认证信息";
 "lng_proxy_description" = "已经保存的代理将会在这里列出。";
 "lng_proxy_sponsor" = "代理赞助商";
-"lng_proxy_sponsor_about" = "这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
-"lng_proxy_sponsor_warning" = "这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
+"lng_proxy_sponsor_about" = "这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
+"lng_proxy_sponsor_warning" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
 
 "lng_settings_blocked_users" = "已屏蔽的用户";
 "lng_settings_show_sessions" = "显示所有活动会话";

@@ -25,7 +25,7 @@
 "Peer.Status.justNow" = "刚刚在线";
 "Peer.Status.lastWeek" = "本周有上线";
 "Peer.Status.lastMonth" = "最近一个月内有上线";
-"Peer.Status.longTimeAgo" = "离线已久";
+"Peer.Status.longTimeAgo" = "很久没上线";
 
 "Peer.Status.Today" = "今天";
 "Peer.Status.Yesterday" = "昨天";
@@ -353,7 +353,7 @@
 "Login.RecoveryMailFailed" = "因为您在设置密码时没有同时提供恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 
 "Login.ResetAccount" = "重置我的账户";
-"Login.ResetAccountDescription" = "如果您确认重置您的帐号，您将丢失所有的历史聊天记录及分享的媒体文件。";
+"Login.ResetAccountDescription" = "如果您继续重置帐户，您将丢失所有对话与消息，以及您共享的所有媒体和文件。";
 "Login.ResetAccount" = "重置我的账户";
 
 "PHONE_NUMBER_INVALID" = "无效的手机号码";
@@ -838,7 +838,7 @@
 
 
 "Passcode.TurnOn" = "开启锁定码";
-"Passcode.TurnOnDescription" = "当您设置好一个附加密码后，你可以使用快捷键  ⌘ + L 来上锁。\n\n注意：如果您忘记这个密码，你将只能删除然后重新安装Telegram。重装之后您将丢失所有的加密会话。";
+"Passcode.TurnOnDescription" = "当您设置好一个附加密码后，你可以使用快捷键  ⌘ + L 来上锁。\n\n注意：如果您忘记这个密码，你将只能删除然后重新安装Telegram。重装之后您将丢失所有的加密对话。";
 "Passcode.TurnOff" = "关闭锁定码";
 "Passcode.Change" = "更改密码";
 "Passcode.Autolock" = "自动锁定";
@@ -1313,7 +1313,7 @@
 "Proxy.ForceEnable.Header1" = "你想要添加这个代理吗？";
 "Proxy.ForceEnable.OK" = "添加代理";
 "Proxy.ForceEnable.Enable" = "启用代理";
-"Proxy.ForceEnable.MTPDesc" = "这个代理可能会在您的会话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
+"Proxy.ForceEnable.MTPDesc" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
 "Proxy.ForceEnable.Connect" = "连接";
 
 "Proxy.ForceEnable.Text.IP" = "服务器: %@";
@@ -2086,7 +2086,7 @@
 "Chat.ProxySponsored.CapDesc" = "本频道由您正在使用的代理服务器展示";
 "Chat.ProxySponsored.CapTitle" = "代理赞助商";
 
-"Chat.ProxySponsored.AlertText" = "这个频道是由您的代理服务器所展示的。若要从您的会话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
+"Chat.ProxySponsored.AlertText" = "这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
 "Chat.ProxySponsored.AlertSettings" = "设置";
 "Chat.ProxySponsored.AlertHeader" = "代理赞助商";
 
@@ -2352,7 +2352,7 @@
 
 /* new from translations.telegram.org */
 
-"ChatList.Context.PinError" = "对不起，您最多只能置顶 5 个会话。";
+"ChatList.Context.PinError" = "对不起，您最多只能置顶 5 个对话。";
 "InputData.Date.Day.Placeholder" = "日：";
 "InputData.Date.Month.Placeholder" = "月：";
 "InputData.Date.Year.Placeholder" = "年：";

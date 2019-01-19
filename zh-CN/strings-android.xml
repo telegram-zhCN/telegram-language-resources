@@ -5,7 +5,7 @@
     <string name="LanguageName">简体中文</string>
     <string name="English">英语</string>
     <string name="LanguageNameInEnglish">Simplified Chinese</string>
-    <string name="LanguageCode">zh_hans</string>
+    <string name="LanguageCode">zh_CN</string>
     <string name="ContinueOnThisLanguage">使用简体中文继续</string>
     <!--signin view-->
     <string name="YourPhone">您的手机号码</string>
@@ -836,8 +836,8 @@
     <!--set admins view-->
     <string name="SetAdminsTitle">管理员</string>
     <string name="SetAdminsAll">将所有成员都设为管理员</string>
-    <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
-    <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、编辑群组名称和头像。</string>
+    <string name="SetAdminsAllInfo">所有成员都能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
+    <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
     <!--group info view-->
     <string name="GroupMembers">成员</string>
     <string name="SharedMedia">分享的媒体文件</string>
@@ -1642,7 +1642,7 @@
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
     <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐户两个选择。</string>
     <string name="ResetMyAccount">重置我的帐户</string>
-    <string name="ResetMyAccountText">如果您确认重置您的帐户，您将丢失所有的聊天记录、分享的媒体文件和个人数据。</string>
+    <string name="ResetMyAccountText">如果您继续重置帐户，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
     <string name="ResetMyAccountWarning">警告</string>
     <string name="ResetMyAccountWarningText">此操作无法撤销。\n\n如果您重置了您的帐户，所有的消息和对话都将被删除。</string>
     <string name="ResetMyAccountWarningReset">重置帐号</string>

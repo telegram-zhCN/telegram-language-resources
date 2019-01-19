@@ -212,9 +212,9 @@
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|is calling you!";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|You missed a call";
 
-"LOCAL_MESSAGE_FWDS" = "%1$@ forwarded you %2$d messages";
-"LOCAL_CHANNEL_MESSAGE_FWDS" = "%1$@ posted %2$d forwarded messages";
-"LOCAL_CHAT_MESSAGE_FWDS" = "%1$@ forwarded %2$d messages";
+
+
+
 
 // Common
 "Common.OK" = "OK";
