@@ -25,7 +25,7 @@
   <string name="ConnectingToProxy">正在连接代理...</string>
 
   <string name="AppNameAndVersion">Telegram X %1$s</string>
-  <string name="language_code">zh_CN</string>
+  <string name="language_code">zh-CN</string>
   <string name="language_name">中文（简体）</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
   <string name="language_dateFormatLocale">zh-CN</string>
@@ -1841,7 +1841,7 @@
   <string name="LanguageSectionInstalled">已安装</string>
   <string name="LanguageSectionRaw">未发布</string>
   <string name="TranslationMoreTitle">找不到你的语言？</string>
-  <string name="TranslationMoreDone">好</string>
+  <string name="TranslationMoreDone">了解</string>
   <string name="TranslationMoreCreate">创建</string>
   <string name="TranslationMoreText">下列可用语言由 [翻译平台](https://translations.telegram.org) 管理。\n\nTelegram 将会在相应语言的翻译被官方采纳时将其提供给您。\n\n在此期间，您可以安装自定义的语言包。该文件可通过关注 [翻译进度](https://translations.telegram.org/classic-zh-cn/android_x/) 获得，也可由您 [自行](https://t.me/tgx_android_translate/) 创建。</string>
   <string name="OK">确定</string>
@@ -2194,7 +2194,7 @@
   
   <string name="mentionCount_other">%1$s 提及</string>
   <string name="format_edited">编辑于 %1$s</string>
-  
+  <string name="format_editedVisible">%1$s</string>
 
   <string name="ActionMute">免打扰</string>
   <string name="ActionMutePerson">免打扰 %1$s</string>

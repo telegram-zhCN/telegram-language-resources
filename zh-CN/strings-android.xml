@@ -49,8 +49,7 @@
     <string name="OtherLoginCode">您的登录验证码是**%1$s**。在您尝试登录 Telegram 应用程序时输入它。 \n\n不要将此验证码透露给任何人。</string>
     <!--signup view-->
     <string name="YourName">您的姓名</string>
-    <string name="RegisterText">请设置您的姓名。</string>
-    <!--<string name="RegisterText">Set up your name and picture</string>-->
+    <string name="RegisterText2">Please enter your full name and upload your profile picture.</string>
     <string name="FirstName">名字（必填）</string>
     <string name="LastName">姓氏（可选）</string>
     <string name="CancelRegistration">取消注册</string>
@@ -144,6 +143,11 @@
     <string name="EncryptedChatStartedOutgoing">%s 进入了您的加密对话。</string>
     <string name="EncryptedChatStartedIncoming">您已加入加密对话。</string>
     <string name="ClearHistory">清空历史记录</string>
+    <string name="HistoryClearedUndo">History cleared.</string>
+    <string name="ChatDeletedUndo">Chat deleted.</string>
+    <string name="GroupDeletedUndo">Group deleted.</string>
+    <string name="ChannelDeletedUndo">Channel deleted.</string>
+    <string name="Undo">UNDO</string>
     <string name="ClearHistoryCache">清除消息缓存</string>
     <string name="DeleteChat">删除并退出群组</string>
     <string name="DeleteChatUser">删除对话</string>
@@ -174,6 +178,7 @@
     <string name="SendStickerPreview">发送贴纸</string>
     <string name="ViewPackPreview">查看对应贴纸包</string>
     <string name="PinToTop">置顶</string>
+    <string name="PinToTopLimitReached">Sorry, you can pin no more than %1$s to the top.</string>
     <string name="UnpinFromTop">取消置顶</string>
     <string name="MarkAsUnread">标记为未读</string>
     <string name="MarkAsRead">标记为已读</string>
@@ -187,6 +192,7 @@
     <string name="YourContacts">您在 Telegram 上的联系人</string>
     <!--channels-->
     <string name="SetAsAdmin">设为管理员</string>
+    <string name="EditAdminRights">Edit admin rights</string>
     <string name="NoBlockedUsers">暂无被封禁用户</string>
     <string name="DeleteMega">删除群组</string>
     <string name="LeaveMegaMenu">退出群组</string>
@@ -197,6 +203,7 @@
     <string name="ActionCreateMega">群组已创建</string>
     <string name="MegaAddedBy">un1 将您添加到了此群组</string>
     <string name="MegaLeaveAlert">您确定要退出此群组吗？</string>
+    <string name="MegaLeaveAlertWithName">Are you sure you want to leave **%1$s**?</string>
     <string name="GroupUserCantAdd">抱歉，您不能将此用户加入群组。</string>
     <string name="GroupUserAddLimit">抱歉，此群组已满员。</string>
     <string name="GroupUserLeftError">抱歉，该用户已决定退出此群组，因此您无法邀请该用户回来。</string>
@@ -219,8 +226,8 @@
     <string name="ActionPinnedMusic">un1 置顶了一首音乐</string>
     <string name="ActionMigrateFromGroup">此群组已升级为超级群组</string>
     <string name="ActionMigrateFromGroupNotify">%1$s 已升级为超级群组</string>
-    <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
-    <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
+    <string name="NoBlockedGroup2">Users removed from the group by the admins can\'t rejoin via invite links.</string>
+    <string name="NoBlockedChannel2">Users removed from the channel by the admins can\'t rejoin via invite links.</string>
     <string name="NewChannel">新建频道</string>
     <string name="EnterChannelName">频道名称</string>
     <string name="AddMutual">添加联系人到您的频道</string>
@@ -232,6 +239,8 @@
     <string name="DescriptionOptionalPlaceholder">简介 (可选)</string>
     <string name="DescriptionPlaceholder">简介</string>
     <string name="DescriptionInfo">您可以给您的频道添加一段简介。</string>
+    <string name="GroupSettingsChangedAlert">You have changed some settings in this group. Apply changes?</string>
+    <string name="ChannelSettingsChangedAlert">You have changed some settings in this channel. Apply changes?</string>
     <string name="ChannelPublic">公开频道</string>
     <string name="MegaPublic">公开群组</string>
     <string name="ChannelPublicInfo">公开频道可以被搜索，任何人都可以加入。</string>
@@ -262,8 +271,15 @@
     <string name="LinkChecking">正在检查名称...</string>
     <string name="LinkAvailable">%1$s 可用</string>
     <string name="ChannelMembers">成员</string>
+    <string name="ChannelAddToGroup">Add to group</string>
+    <string name="ChannelAddToChannel">Add to channel</string>
+    <string name="ChannelDeleteFromList">Delete from this list</string>
     <string name="ChannelSubscribers">订阅者</string>
     <string name="ChannelBlacklist">黑名单</string>
+    <string name="ChannelPermissions">Permissions</string>
+    <string name="ChannelPermissionsHeader">What can members of this group do?</string>
+    <string name="ChannelAddException">Add Exception</string>
+    <string name="ChannelSearchException">Search Exceptions</string>
     <string name="ChannelBlockedUsers">封禁的用户</string>
     <string name="ChannelRestrictedUsers">受限的用户</string>
     <string name="ChannelAdministrators">管理员</string>
@@ -271,6 +287,7 @@
     <string name="ChannelDeleteMenu">删除频道</string>
     <string name="ChannelDeleteAlert">注意！删除此频道将会清除所有关注者并且所有消息将会丢失。确定要删除此频道？</string>
     <string name="ChannelLeaveAlert">您确定要退出此频道吗？</string>
+    <string name="ChannelLeaveAlertWithName">Are you sure you want to leave **%1$s**?</string>
     <string name="ChannelDeleteInfo">您将会丢失此频道的所有消息。</string>
     <string name="ChannelEdit">编辑</string>
     <string name="ChannelPublicEmptyUsername">请为您的公开频道设置一个链接，以便他人能通过搜索找到此频道并分享给他人。\n\n如果您对此不感兴趣，我们建议您创建一个私人频道。</string>
@@ -289,6 +306,7 @@
     <string name="UnbanText">触摸并按住用户以解除封禁</string>
     <string name="ChannelInviteViaLink">使用链接邀请</string>
     <string name="ChannelRemoveUserAdmin">撤销管理员</string>
+    <string name="ChannelEditPermissions">Edit permissions</string>
     <string name="ChannelMembersInfo">此列表仅频道管理员可见。</string>
     <string name="ChannelLinkInfo">任何 Telegram 用户都能够通过此链接加入您的频道。</string>
     <string name="ChannelAdminsInfo">您可以添加管理员帮助您管理频道。长按可删除管理员。</string>
@@ -347,17 +365,33 @@
     <string name="EditAdminPinMessages">置顶消息</string>
     <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
     <string name="EditAdminCantEdit">您无权修改此管理员的权限。</string>
-    <string name="UserRestrictionsBy">被 %1$s 限制</string>
+    <string name="UserRemovedBy">Removed by %1$s</string>
     <string name="UserRestrictions">用户限制</string>
-    <string name="UserRestrictionsRead">查看消息</string>
+    <string name="UserRestrictionsDisabled">This option is disabled for all members in Group Permissions</string>
     <string name="UserRestrictionsCanDo">这位用户可以做什么？</string>
+    <string name="UserRestrictionsRead">查看消息</string>
     <string name="UserRestrictionsSend">发送消息</string>
     <string name="UserRestrictionsSendMedia">发送媒体</string>
+    <string name="UserRestrictionsSendPolls">Send Polls</string>
     <string name="UserRestrictionsSendStickers">发送贴纸和 GIF</string>
     <string name="UserRestrictionsEmbedLinks">显示链接预览</string>
-    <string name="UserRestrictionsUntil">封禁时间</string>
+    <string name="UserRestrictionsChangeInfo">Change Chat Info</string>
+    <string name="UserRestrictionsPinMessages">Pin Messages</string>
+    <string name="UserRestrictionsInviteUsers">Add Users</string>
+    <string name="UserRestrictionsNoRead">can\'t read</string>
+    <string name="UserRestrictionsNoSend">can\'t send messages</string>
+    <string name="UserRestrictionsNoSendMedia">no media</string>
+    <string name="UserRestrictionsNoSendPolls">no polls</string>
+    <string name="UserRestrictionsNoSendStickers">no stickers &amp; GIFs</string>
+    <string name="UserRestrictionsNoEmbedLinks">no embed links</string>
+    <string name="UserRestrictionsNoChangeInfo">can\'t change Info</string>
+    <string name="UserRestrictionsNoPinMessages">no pins</string>
+    <string name="UserRestrictionsNoInviteUsers">can\'t add users</string>
+    <string name="UserRestrictionsDuration">Duration</string>
     <string name="UserRestrictionsUntilForever">永久</string>
     <string name="UserRestrictionsBlock">封禁并从群组中移除</string>
+    <string name="UserRestrictionsApplyChanges">Apply Changes?</string>
+    <string name="UserRestrictionsApplyChangesText">You have changed this user\'s rights in **%1$s**. Apply changes?</string>
     <string name="ManageGroup">管理群组</string>
     <string name="ManageChannel">管理频道</string>
     <string name="ManageGroupMenu">管理群组</string>
@@ -367,10 +401,15 @@
     <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
     <string name="ChatHistoryHidden">隐藏</string>
     <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
+    <string name="ChatHistoryHiddenInfo2">New members won\'t see more than 100 earlier messages.</string>
     <string name="ProfileJoinChannel">加入频道</string>
     <string name="ProfileJoinGroup">加入群组</string>
     <string name="GroupType">群组类型</string>
     <string name="ChannelType">频道类型</string>
+    <string name="GroupTypeHeader">Group type</string>
+    <string name="ChannelTypeHeader">Channel type</string>
+    <string name="GroupSettingsTitle">Group Settings</string>
+    <string name="ChannelSettingsTitle">Channel Settings</string>
     <string name="TypePrivate">私密</string>
     <string name="TypePublic">公开</string>
     <string name="TypePrivateGroup">私密</string>
@@ -378,8 +417,13 @@
     <string name="ChoosePhoto">选择图片</string>
     <string name="ChooseTakePhoto">拍照</string>
     <string name="ChooseFromGallery">从相册中上传</string>
+    <string name="SelectFromGallery">Select from gallery</string>
     <string name="ChooseFromSearch">通过网络搜索</string>
     <string name="Statistics">统计数据</string>
+    <string name="AddBotAsAdmin">Bots can only be added as administrators.</string>
+    <string name="CantAddBotAsAdmin">Sorry, bots can only be added to channels as administrators.</string>
+    <string name="MakeAdmin">MAKE ADMIN</string>
+    <string name="AdminWillBeRemoved">%1$s will be removed from admins if you restrict them.</string>
     <!--polls-->
     <string name="NewPoll">发起投票</string>
     <string name="Poll">投票</string>
@@ -445,6 +489,7 @@
     <string name="EventLogOriginalCaptionEmpty">无</string>
     <string name="EventLogPinnedMessages">un1 置顶了这条消息：</string>
     <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
+    <string name="EventLogStopPoll">un1 stopped the poll:</string>
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
     <string name="EventLogChangedStickersSet">un1 更换了群组贴纸包</string>
     <string name="EventLogRemovedStickersSet">un1 删除了群组贴纸包</string>
@@ -463,8 +508,13 @@
     <string name="EventLogToggledSignaturesOn">un1 启用了消息署名</string>
     <string name="EventLogToggledSignaturesOff">un1 禁用了消息署名</string>
     <string name="EventLogRestrictedUntil">修改了 %1$s 的限制\n\n时长: %2$s</string>
+    <string name="EventLogDefaultPermissions">changed default permissions</string>
     <string name="EventLogRestrictedSendStickers">发送贴纸和 GIF</string>
     <string name="EventLogRestrictedSendMedia">发送媒体</string>
+    <string name="EventLogRestrictedChangeInfo">Change info</string>
+    <string name="EventLogRestrictedInviteUsers">Add users</string>
+    <string name="EventLogRestrictedPinMessages">Pin messages</string>
+    <string name="EventLogRestrictedSendPolls">Send polls</string>
     <string name="EventLogRestrictedSendMessages">发送消息</string>
     <string name="EventLogRestrictedSendEmbed">显示链接预览</string>
     <string name="EventLogRestrictedReadMessages">查看消息</string>
@@ -538,6 +588,7 @@
     <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
     <string name="InstantView">即时预览</string>
     <string name="OpenGroup">查看群组</string>
+    <string name="OpenBackground">VIEW BACKGROUND</string>
     <string name="OpenChannel">查看频道</string>
     <string name="OpenMessage">查看消息</string>
     <string name="InstantViewNightMode">暗色主题将会在夜间自动启用</string>
@@ -648,6 +699,12 @@
     <string name="SavedMessages">收藏夹</string>
     <string name="SavedMessagesInfo">转发至此以保存</string>
     <string name="ChatYourSelfName">你</string>
+    <string name="GroupEmptyTitle1">You have created a **group**.</string>
+    <string name="GroupEmptyTitle2">Groups can have:</string>
+    <string name="GroupDescription1">Up to 100,000 members</string>
+    <string name="GroupDescription2">Persistent chat history</string>
+    <string name="GroupDescription3">Public links such as t.me/title</string>
+    <string name="GroupDescription4">Admins with different rights</string>
     <string name="ChatYourSelfDescription1">转发消息到这里来保存它们</string>
     <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
     <string name="ChatYourSelfDescription3">在任意设备上访问这个对话</string>
@@ -672,6 +729,10 @@
     <string name="AttachInlineRestrictedForever">此群组的管理员限制了您在此发送机器人内容的能力</string>
     <string name="AttachStickersRestrictedForever">此群组的管理员限制了您在此发送贴纸的能力</string>
     <string name="SendMessageRestrictedForever">此群组的管理员限制了您在此发送消息的能力</string>
+    <string name="GlobalAttachMediaRestricted">Sending media isn’t allowed in this group.</string>
+    <string name="GlobalAttachInlineRestricted">Inline bots aren’t allowed in this group.</string>
+    <string name="GlobalAttachStickersRestricted">Stickers aren’t allowed in this group.</string>
+    <string name="GlobalSendMessageRestricted">Writing messages isn’t allowed in this group.</string>
     <string name="ChatAdmin">管理员</string>
     <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
     <string name="UnreadMessages">未读消息</string>
@@ -810,6 +871,8 @@
     <string name="ShareTelegram">分享 Telegram...</string>
     <string name="UpdateContactsTitle">更新联系人？</string>
     <string name="UpdateContactsMessage">Telegram 检测到很多未同步的联系人，您想现在将其同步吗？如果您在使用自己的设备、SIM 卡和 Google 帐户，请选择‘确定’。</string>
+    <string name="SortedByName">Sorted by name</string>
+    <string name="SortedByLastSeen">Sorted by last seen time</string>
     <!--group create view-->
     <string name="SendMessageTo">添加成员...</string>
     <string name="SoftUserLimitAlert">你将能够在完成创建并将其升级为超级群组后添加更多的用户。</string>
@@ -833,11 +896,6 @@
     <string name="CopyLink">复制链接</string>
     <string name="ShareLink">分享链接</string>
     <string name="LinkInfo">任何已安装 Telegram 的用户都将可以通过此链接加入您的群组。</string>
-    <!--set admins view-->
-    <string name="SetAdminsTitle">管理员</string>
-    <string name="SetAdminsAll">将所有成员都设为管理员</string>
-    <string name="SetAdminsAllInfo">所有成员都能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
-    <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
     <!--group info view-->
     <string name="GroupMembers">成员</string>
     <string name="SharedMedia">分享的媒体文件</string>
@@ -848,7 +906,7 @@
     <string name="BanFromTheGroup">封禁此用户</string>
     <string name="DeleteAndExit">删除并退出群组</string>
     <string name="Notifications">通知</string>
-    <string name="KickFromSupergroup">限制用户权限</string>
+    <string name="ChangePermissions">Change permissions</string>
     <string name="KickFromGroup">从群组中移除</string>
     <string name="UpgradeGroup">升级到超级群组</string>
     <string name="ConvertGroup">升级为超级群组</string>
@@ -1050,7 +1108,18 @@
     <string name="Default">默认</string>
     <string name="Support">支持</string>
     <string name="OnlyIfSilent">仅静音模式</string>
+    <string name="BackgroundBlurred">Blurred</string>
+    <string name="BackgroundMotion">Motion</string>
     <string name="ChatBackground">聊天背景</string>
+    <string name="BackgroundPreview">Background Preview</string>
+    <string name="BackgroundPreviewLine1">Hint: some background images look better with blur effect.</string>
+    <string name="BackgroundPreviewLine2">Thank you!</string>
+    <string name="SetBackground">SET BACKGROUND</string>
+    <string name="SelectColorTitle">Select a color</string>
+    <string name="UploadImage">Upload image</string>
+    <string name="SelectImage">Select image</string>
+    <string name="LoadingFullImage">loading full image...</string>
+    <string name="SetColor">Set a color</string>
     <string name="MessagesSettings">聊天设置</string>
     <string name="SendByEnter">使用回车键发送消息</string>
     <string name="Events">事件</string>
@@ -1222,6 +1291,7 @@
     <string name="NotificationsForGroups">群组通知</string>
     <string name="NotificationsForPrivateChats">私聊通知</string>
     <string name="NotificationsForChannels">频道通知</string>
+    <string name="TapToChange">Tap to change</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1247,7 +1317,8 @@
     <string name="PassportRequestedInformation">所需的信息</string>
     <string name="PassportProvidedInformation">已有的信息</string>
     <string name="PassportInfoTitle">什么是 Telegram Passport？</string>
-    <string name="PassportInfo">通过使用 Telegram Passport，您可以方便地注册需要实名认证网站和服务。\n\n您的信息、个人数据和档案受端到端加密保护。没有人，包括 Telegram，可以在未经您许可的情况下访问它们。\n\n您可以阅读我们的 FAQ 来了解更多信息。</string>
+    <string name="PassportInfo2">With Telegram Passport you can easily sign up for websites and services that require identity verification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody, including Telegram, can access them without your permission.\n\nYou can visit our *FAQ* to learn more.</string>
+    <string name="PassportInfoUrl">https://telegram.org/faq#passport</string>
     <string name="TelegramPassportCreatePasswordInfo">请设置一个密码用于通过端对端保护您的数据。\n\n此密码也将用于登录 Telegram。</string>
     <string name="TelegramPassportCreatePassword">设置一个密码</string>
     <string name="TelegramPassportDelete">删除 Telegram Passport</string>
@@ -1474,6 +1545,7 @@
     <string name="FingerprintNotRecognized">指纹未识别，请重试。</string>
     <string name="ScreenCapture">允许屏幕截图</string>
     <string name="ScreenCaptureInfo">启用后，您将可以对 Telegram 进行截图，但您的聊天内容会在后台应用列表中展现，无论是否启用锁定码。\n\n您或许需要重新启动应用以使此更改生效。</string>
+    <string name="ScreenCaptureAlert">This will hide the contents of your chats or chat list from the task switcher, but you will not be able to take screenshots on Telegram.\n\nYou may need to restart the app for this to take effect.</string>
     <string name="TooManyTries">尝试次数过多\n请在 %1$s 后重试</string>
     <!--media view-->
     <string name="SharedFilesTab">文件</string>
@@ -1792,6 +1864,7 @@
     <string name="Back">返回</string>
     <string name="SignUp">注册</string>
     <string name="DeclineDeactivate">拒绝并删除数据</string>
+    
     <!--messages-->
     <string name="ActionInviteYou">您通过邀请链接加入了此群组</string>
     <string name="ActionInviteUser">un1 通过邀请链接加入了此群组</string>
@@ -1880,7 +1953,11 @@
     <string name="SendContactTo">发送联系人信息给 %1$s ？</string>
     <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天数据。</string>
     <string name="AreYouSureDeleteAndExit">您确定要删除并退出此群组吗？</string>
+    <string name="AreYouSureDeleteAndExitName">Are you sure you want to delete and leave the group **%1$s**?</string>
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
+    <string name="AreYouSureDeleteThisChatWithUser">Are you sure you want to delete the chat with **%1$s**?</string>
+    <string name="AreYouSureDeleteThisChatWithSecretUser">Are you sure you want to delete the secret chat with **%1$s**?</string>
+    <string name="AreYouSureDeleteThisChatWithGroup">Are you sure you want to delete the chat **%1$s**?</string>
     <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
     <string name="ShareYouLocationTitle">是否分享您的位置信息？</string>
     <string name="ShareYouLocationInfo">此操作会把您的当前位置信息发送给机器人。</string>
@@ -1897,6 +1974,9 @@
     <string name="AreYouSureSecretChat">您确定要开始加密对话吗？</string>
     <string name="AreYouSureRegistration">您确定要取消注册吗？</string>
     <string name="StopVerification">您想停止手机号码验证过程吗？</string>
+    <string name="AreYouSureClearHistoryWithUser">Are you sure you want to clear your chat history with **%1$s**?</string>
+    <string name="AreYouSureClearHistoryWithSecretUser">Are you sure you want to clear your secret chat history with **%1$s**?</string>
+    <string name="AreYouSureClearHistoryWithChat">Are you sure you want to clear the chat history in **%1$s**?</string>
     <string name="AreYouSureClearHistory">您确定要清空聊天记录吗？</string>
     <string name="AreYouSureClearHistoryChannel">确定删除此频道中所有缓存的消息和媒体文件？</string>
     <string name="AreYouSureClearHistoryGroup">是否删除该群组中所有缓存的消息记录和媒体文件？</string>
@@ -1921,6 +2001,10 @@
     <string name="AddBannedErrorAdmin">抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。</string>
     <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的能力。</string>
     <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的能力。</string>
+    <string name="ErrorSendRestrictedPolls">Sorry, the admins of this group have restricted you from sending polls.</string>
+    <string name="ErrorSendRestrictedStickersAll">Sorry, sending stickers is not allowed in this group.</string>
+    <string name="ErrorSendRestrictedMediaAll">Sorry, sending media is not allowed in this group.</string>
+    <string name="ErrorSendRestrictedPollsAll">Sorry, sending polls is not allowed in this group.</string>
     <string name="TosDecline">我们对此感到非常抱歉，但这也意味着您现在无法注册 Telegram。\n\n与其它软件不同，我们不会利用您的个人数据来导向广告或其它商业目的。Telegram 储存的所有文件都是为了给您创造一个功能丰富的云服务体验。 您可以在「设置」—「隐私和安全」 里调整我们使用您数据的方式（例如：删除已同步的联系人）。\n\n但若您完全无法接受 Telegram 的云数据政策，我们将无法为您提供服务。</string>
     <string name="TosAgeTitle">年龄验证</string>
     <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
@@ -2028,6 +2112,13 @@
     <string name="AllowCustomQuickReply">允许自定义</string>
     <string name="VoipInCallBrandingWithName">有人正在呼叫 %s</string>
     <string name="VoipErrorUnknown">暂时无法呼叫</string>
+    <string name="RateCallEcho">I heard my own voice</string>
+    <string name="RateCallNoise">I heard background noise</string>
+    <string name="RateCallInterruptions">The other side kept disappearing</string>
+    <string name="RateCallDistorted">Speech was distorted</string>
+    <string name="RateCallSilentLocal">I couldn\'t hear the other side</string>
+    <string name="RateCallSilentRemote">The other side couldn\'t hear me</string>
+    <string name="RateCallDropped">Call ended unexpectedly</string>
     <!--plural-->
     <string name="Recipient_zero">%1$d 个接收者</string>
     <string name="Recipient_one">%1$d 个接收者</string>
@@ -2197,6 +2288,12 @@
     <string name="Exception_few">%1$d 个例外</string>
     <string name="Exception_many">%1$d 个例外</string>
     <string name="Exception_other">%1$d 个例外</string>
+    <string name="RemovedUser_zero">%1$d removed users</string>
+    <string name="RemovedUser_one">%1$d removed user</string>
+    <string name="RemovedUser_two">%1$d removed users</string>
+    <string name="RemovedUser_few">%1$d removed users</string>
+    <string name="RemovedUser_many">%1$d removed users</string>
+    <string name="RemovedUser_other">%1$d removed users</string>
     <string name="Points_zero">%1$d</string>
     <string name="Points_one">%1$d</string>
     <string name="Points_two">%1$d</string>
@@ -2353,9 +2450,13 @@
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
   <string name="EnableProxyAlert2">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
+  <string name="KickFromSupergroup">限制用户权限</string>
+  <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
+  <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最高</string>
+  <string name="PassportInfo">通过使用 Telegram Passport，您可以方便地注册需要实名认证网站和服务。\n\n您的信息、个人数据和档案受端到端加密保护。没有人，包括 Telegram，可以在未经您许可的情况下访问它们。\n\n您可以阅读我们的 FAQ 来了解更多信息。</string>
   <string name="PassportSDK_Cancel">取消</string>
   <string name="PassportSDK_DownloadTelegram">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
   <string name="PassportSDK_LogInWithTelegram">通过 Telegram 登录</string>
@@ -2365,7 +2466,14 @@
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
+  <string name="RegisterText">请设置您的姓名。</string>
+  <string name="SetAdminsAll">将所有成员都设为管理员</string>
+  <string name="SetAdminsAllInfo">所有成员都能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
+  <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
+  <string name="SetAdminsTitle">管理员</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
+  <string name="UserRestrictionsBy">被 %1$s 限制</string>
+  <string name="UserRestrictionsUntil">封禁时间</string>
   <string name="ViewDetails">查看联系人</string>
   <string name="_tg_cancel">取消</string>
   <string name="_tg_open_google_play">打开 Google Play</string>
