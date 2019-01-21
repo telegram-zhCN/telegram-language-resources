@@ -2227,7 +2227,7 @@
   <string name="NotificationsPrivateInfo">You can set custom notifications for specific users on their profile page.</string>
   <string name="NotificationsGroupInfo">You can set custom notifications for specific groups on their profile page.</string>
   <string name="NotificationsChannelInfo">You can set custom notifications for specific channels on their profile page.</string>
-  <string name="AppBadgeHint">Display badge counter near an application icon. Note that it cannot be displayed on some devices.\n\nSystem may display an extra badge while playing music or having an active call regardless specified settings.</string>
+  <string name="AppBadgeHint">Display a badge counter on the application icon. This may not work on some devices.\n\nYour system may display an extra badge while playing music or having an active call regardless of these settings.</string>
   
   
   

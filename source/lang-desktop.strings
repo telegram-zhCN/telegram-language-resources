@@ -128,6 +128,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gif_error" = "An error has occurred while reading GIF animation :(";
 "lng_edit_error" = "You cannot edit this message";
 "lng_join_channel_error" = "Sorry, you have joined too many channels and supergroups. Please leave some before joining this one.";
+"lng_migrate_error" = "This action will convert the group to a supergroup. Unfortunately, you are a member of too many supergroups and channels. Please leave some of the channels or groups you don't need before proceeding.";
 "lng_error_phone_flood" = "Sorry, you have deleted and re-created your account too many times recently. Please wait for a few days before signing up again.";
 "lng_error_start_minimized_passcoded" = "You have set a local passcode, so Telegram Desktop can't be launched minimized; it will ask you to enter your passcode before it can start working.";
 "lng_error_pinned_max#one" = "Sorry, you can pin no more than {count} chat to the top.";
@@ -142,10 +143,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_admin_limit_channel" = "Sorry, you've reached the maximum number of admins for this channel.";
 "lng_sure_add_admin_invite" = "This user is not a member of this group. Add them to the group and promote them to admin?";
 "lng_sure_add_admin_invite_channel" = "This user is not a subscriber of this channel. Add them to the channel and promote them to admin?";
-"lng_sure_add_admin_unban" = "This user is currently restricted or banned. Are you sure you want to unban and promote them?";
+"lng_sure_add_admin_unremove" = "This user is currently restricted or removed. Are you sure you want to promote them?";
 "lng_sure_ban_admin" = "This user is an admin. Are you sure you want to go ahead and restrict them?";
-"lng_sure_ban_user_group" = "Ban {user} in the group?";
-"lng_sure_ban_user_channel" = "Ban {user} in the channel?";
+"lng_sure_remove_user_group" = "Remove {user} from the group?";
+"lng_sure_remove_user_channel" = "Remove {user} from the channel?";
 "lng_sure_enable_socks" = "Are you sure you want to enable this proxy?\n\nServer: {server}\nPort: {port}\n\nYou can change your proxy server later in Settings > Advanced > Connection Type.";
 "lng_sure_enable" = "Enable";
 
@@ -275,16 +276,21 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_empty_bio" = "None";
 
 "lng_settings_section_notify" = "Notifications";
+"lng_settings_notify_title" = "Notifications for chats";
 "lng_settings_desktop_notify" = "Desktop notifications";
 "lng_settings_show_name" = "Show sender's name";
 "lng_settings_show_preview" = "Show message preview";
+"lng_settings_native_title" = "Native notifications";
 "lng_settings_use_windows" = "Use Windows notifications";
 "lng_settings_use_native_notifications" = "Use native notifications";
 "lng_settings_notifications_position" = "Location on the screen";
 "lng_settings_notifications_count" = "Notifications count";
 "lng_settings_sound_notify" = "Play sound";
+"lng_settings_badge_title" = "Badge counter";
 "lng_settings_include_muted" = "Include muted chats in unread count";
 "lng_settings_count_unread" = "Count unread messages";
+"lng_settings_events_title" = "Events";
+"lng_settings_events_joined" = "Contact joined Telegram";
 
 "lng_notification_preview" = "You have a new message";
 "lng_notification_reply" = "Reply";
@@ -391,6 +397,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#other" = "Reverting to the old theme in {count} seconds.";
 "lng_theme_keep_changes" = "Keep changes";
 "lng_theme_revert" = "Revert";
+
+
+
+
+
 
 "lng_download_path_ask" = "Ask download path for each file";
 "lng_download_path" = "Download path";
@@ -662,10 +673,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_create_public_link" = "Create public link";
 "lng_profile_edit_public_link" = "Edit public link";
 "lng_profile_search_members" = "Search members";
-"lng_profile_manage_admins" = "Manage administrators";
-"lng_profile_manage_blocklist" = "Manage banned users";
-"lng_profile_manage_restrictedlist" = "Manage restricted users";
-"lng_profile_recent_actions" = "Recent actions";
 "lng_profile_common_groups#one" = "{count} group in common";
 "lng_profile_common_groups#other" = "{count} groups in common";
 "lng_profile_participants_section" = "Members";
@@ -693,6 +700,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_join_group" = "Join Group";
 "lng_profile_delete_and_exit" = "Leave";
 "lng_profile_kick" = "Remove";
+"lng_profile_delete_removed" = "Delete";
 "lng_profile_sure_kick" = "Remove {user} from the group?";
 "lng_profile_sure_kick_channel" = "Remove {user} from the channel?";
 "lng_profile_sure_remove_admin" = "Remove {user} from admins?";
@@ -788,13 +796,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_recent_actions" = "Recent actions";
 "lng_manage_peer_members" = "Members";
 "lng_manage_peer_administrators" = "Administrators";
-"lng_manage_peer_banned_users" = "Banned users";
-"lng_manage_peer_restricted_users" = "Restricted users";
+"lng_manage_peer_exceptions" = "Exceptions";
+"lng_manage_peer_removed_users" = "Removed users";
+"lng_manage_peer_permissions" = "Permissions";
 "lng_manage_history_visibility_title" = "Chat history for new members";
 "lng_manage_history_visibility_shown" = "Visible";
 "lng_manage_history_visibility_shown_about" = "New members will see messages that were sent before they joined.";
 "lng_manage_history_visibility_hidden" = "Hidden";
 "lng_manage_history_visibility_hidden_about" = "New members won't see earlier messages.";
+"lng_manage_history_visibility_hidden_legacy" = "New members won't see more than 100 previous messages.";
 
 "lng_report_title" = "Report channel";
 "lng_report_group_title" = "Report group";
@@ -809,17 +819,19 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_thanks" = "Thank you! Your report will be reviewed by our team very soon.";
 
 "lng_channel_add_members" = "Add members";
-"lng_channel_add_banned" = "Ban user";
-"lng_channel_add_restricted" = "Restrict user";
+"lng_channel_add_users" = "Add users";
+"lng_channel_add_removed" = "Remove user";
+"lng_channel_add_exception" = "Add exception";
 "lng_channel_admins" = "Administrators";
 "lng_channel_add_admin" = "Add Administrator";
 "lng_channel_admin_status_creator" = "Creator";
 "lng_channel_admin_status_promoted_by" = "Promoted by {user}";
 "lng_channel_admin_status_not_admin" = "Not administrator";
 "lng_channel_banned_status_restricted_by" = "Restricted by {user}";
+"lng_channel_banned_status_removed_by" = "Removed by {user}";
 
-"lng_group_blocked_list_about" = "Banned users are removed from the group and can only come back if added by an admin.\nInvite links don't work for them.";
-"lng_channel_blocked_list_about" = "Banned users are removed from the channel.\nInvite links don't work for them.";
+"lng_channel_removed_list_about" = "Users removed from the channel by admins cannot rejoin it via invite links.";
+"lng_group_removed_list_about" = "Users removed from the group by admins cannot rejoin it via invite links.";
 
 "lng_chat_all_members_admins" = "All Members Are Admins";
 "lng_chat_about_all_admins" = "Group members can add new members, edit name and photo of the group.";
@@ -899,7 +911,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_changed_title_channel" = "Channel name was changed to «{title}»";
 "lng_action_created_chat" = "{from} created the group «{title}»";
 "lng_action_created_channel" = "Channel created";
-"lng_action_group_migrate" = "The group was upgraded to a supergroup";
 "lng_action_pinned_message" = "{from} pinned «{text}»";
 "lng_action_pinned_media" = "{from} pinned {media}";
 "lng_action_pinned_media_photo" = "a photo";
@@ -954,8 +965,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_convert_feature4" = "— Creator can set a public link for the group";
 "lng_profile_convert_warning" = "{bold_start}Note:{bold_end} This action can not be undone";
 "lng_profile_convert_confirm" = "Convert";
-"lng_profile_add_more_after_upgrade#one" = "You will be able to add up to {count} member after you upgrade your group to a supergroup.";
-"lng_profile_add_more_after_upgrade#other" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
+"lng_profile_add_more_after_create" = "You will be able to add more members after you create the group.";
 
 "lng_channel_not_accessible" = "Sorry, this channel is not accessible.";
 "lng_group_not_accessible" = "Sorry, this group is not accessible.";
@@ -1046,6 +1056,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_stickers" = "Group stickers";
 "lng_group_stickers_description" = "You can choose a sticker set which will be available for every member while in the group chat.";
 "lng_group_stickers_add" = "Choose sticker set";
+
+"lng_group_about_header" = "You have created a group.";
+"lng_group_about_text" = "Groups can have:";
+"lng_group_about1" = "Up to 100,000 members";
+"lng_group_about2" = "Persistent chat history";
+"lng_group_about3" = "Public links such as t.me/title";
+"lng_group_about4" = "Admins with different rights";
 
 "lng_switch_stickers" = "Stickers";
 "lng_switch_emoji" = "Emoji";
@@ -1214,6 +1231,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_edit_permissions" = "Edit permissions";
 "lng_context_restrict_user" = "Restrict user";
 "lng_context_remove_from_group" = "Remove from group";
+"lng_context_add_to_group" = "Add to group";
 
 "lng_context_copy_link" = "Copy Link";
 "lng_context_copy_post_link" = "Copy Post Link";
@@ -1297,9 +1315,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_contact_title" = "Edit contact name";
 "lng_edit_channel_title" = "Edit channel";
 "lng_edit_sign_messages" = "Sign messages";
-"lng_edit_group_who_invites" = "Who can add members?";
-"lng_edit_group_invites_everybody" = "All members";
-"lng_edit_group_invites_only_admins" = "Only admins";
 "lng_edit_group" = "Edit group";
 "lng_edit_self_title" = "Edit your name";
 "lng_confirm_contact_data" = "New Contact";
@@ -1474,9 +1489,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_edit_admin_header" = "What can this admin do?";
 "lng_rights_about_add_admins_yes" = "This admin will be able to add new admins with the same (or more limited) permissions.";
 "lng_rights_about_add_admins_no" = "This admin will not be able to add new admins.";
-"lng_rights_about_admin_cant_edit" = "You cannot edit the rights of this admin.";
+"lng_rights_about_admin_cant_edit" = "You are not allowed to edit the rights of this admin.";
+"lng_rights_about_restriction_cant_edit" = "You cannot change the restrictions for this user.";
+"lng_rights_restriction_for_all" = "This option is disabled for all members in Group Permissions. You can either enable the permission for everyone or make this user an admin.";
+"lng_rights_permission_for_all" = "This option is enabled for all members in Group Permissions.";
+"lng_rights_permission_unavailable" = "This permission is not available in public groups.";
+"lng_rights_permission_cant_edit" = "You cannot edit this permission.";
 "lng_rights_user_restrictions" = "User restrictions";
 "lng_rights_user_restrictions_header" = "What can this member do?";
+"lng_rights_default_restrictions_header" = "What can members of this group do?";
 
 "lng_rights_channel_info" = "Change channel info";
 "lng_rights_channel_post" = "Post messages";
@@ -1494,6 +1515,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_chat_send_media" = "Send media";
 "lng_rights_chat_send_stickers" = "Send stickers & GIFs";
 "lng_rights_chat_send_links" = "Embed links";
+"lng_rights_chat_send_polls" = "Send polls";
+"lng_rights_chat_add_members" = "Add members";
 "lng_rights_chat_banned_until_header" = "Restricted until";
 "lng_rights_chat_banned_forever" = "Forever";
 "lng_rights_chat_banned_day#one" = "For {count} day";
@@ -1508,9 +1531,17 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_stickers" = "The admins of this group have restricted you from sending stickers.";
 "lng_restricted_send_gifs" = "The admins of this group have restricted you from posting GIFs here.";
 "lng_restricted_send_inline" = "The admins of this group restricted you from posting inline content here.";
+"lng_restricted_send_polls" = "The admins of this group restricted you from posting polls here.";
 
-"lng_restricted_list_title" = "Restricted users";
-"lng_banned_list_title" = "Banned users";
+"lng_restricted_send_message_all" = "Writing messages isn't allowed in this group.";
+"lng_restricted_send_media_all" = "Posting media content isn't allowed in this group.";
+"lng_restricted_send_stickers_all" = "Posting stickers isn't allowed in this group.";
+"lng_restricted_send_gifs_all" = "Posting GIFs isn't allowed in this group.";
+"lng_restricted_send_inline_all" = "Posting inline content isn't allowed in this group.";
+"lng_restricted_send_polls_all" = "Posting polls isn't allowed in this group.";
+
+"lng_exceptions_list_title" = "Exceptions";
+"lng_removed_list_title" = "Removed users";
 
 "lng_admin_log_title_all" = "All actions";
 "lng_admin_log_title_selected" = "Selected actions";
@@ -1570,10 +1601,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_participant_joined_channel" = "{from} joined the channel";
 "lng_admin_log_participant_left" = "{from} left the group";
 "lng_admin_log_participant_left_channel" = "{from} left the channel";
+"lng_admin_log_stopped_poll" = "{from} stopped poll:";
 "lng_admin_log_invited" = "invited {user}";
 "lng_admin_log_banned" = "banned {user}";
 "lng_admin_log_restricted" = "changed restrictions for {user} {until}";
 "lng_admin_log_promoted" = "changed privileges for {user}";
+"lng_admin_log_changed_default_permissions" = "changed default permissions";
 "lng_admin_log_changed_stickers_group" = "{from} changed the group's {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "sticker set";
 "lng_admin_log_removed_stickers_group" = "{from} removed the group's sticker set";
@@ -1585,6 +1618,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_banned_send_media" = "Send media";
 "lng_admin_log_banned_send_stickers" = "Send stickers & GIFs";
 "lng_admin_log_banned_embed_links" = "Embed links";
+"lng_admin_log_banned_send_polls" = "Send polls";
 "lng_admin_log_admin_change_info" = "Change info";
 "lng_admin_log_admin_post_messages" = "Post messages";
 "lng_admin_log_admin_edit_messages" = "Edit messages";
@@ -1998,10 +2032,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_game_you_scored_no_game#two" = "You scored {count}";
 "lng_action_game_you_scored_no_game#few" = "You scored {count}";
 "lng_action_game_you_scored_no_game#many" = "You scored {count}";
+"lng_action_group_migrate" = "The group was upgraded to a supergroup";
+"lng_banned_list_title" = "Banned users";
+"lng_channel_add_banned" = "Ban user";
+"lng_channel_add_restricted" = "Restrict user";
 "lng_channel_admins_link#zero" = "{count} administrators";
 "lng_channel_admins_link#two" = "{count} administrators";
 "lng_channel_admins_link#few" = "{count} administrators";
 "lng_channel_admins_link#many" = "{count} administrators";
+"lng_channel_blocked_list_about" = "Banned users are removed from the channel.\nInvite links don't work for them.";
 "lng_channel_members_link#zero" = "{count} members";
 "lng_channel_members_link#two" = "{count} members";
 "lng_channel_members_link#few" = "{count} members";
@@ -2042,6 +2081,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_duration_seconds#two" = "{count} seconds";
 "lng_duration_seconds#few" = "{count} seconds";
 "lng_duration_seconds#many" = "{count} seconds";
+"lng_edit_group_invites_everybody" = "All members";
+"lng_edit_group_invites_only_admins" = "Only admins";
+"lng_edit_group_who_invites" = "Who can add members?";
 "lng_edit_privacy_calls_always#zero" = "Always allow {count} users";
 "lng_edit_privacy_calls_always#one" = "Always allow {count} user";
 "lng_edit_privacy_calls_always#two" = "Always allow {count} users";
@@ -2108,6 +2150,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forwarding_from#two" = "{user} and {count} others";
 "lng_forwarding_from#few" = "{user} and {count} others";
 "lng_forwarding_from#many" = "{user} and {count} others";
+"lng_group_blocked_list_about" = "Banned users are removed from the group and can only come back if added by an admin.\nInvite links don't work for them.";
 "lng_group_invite_members#zero" = "{count} members, among them:";
 "lng_group_invite_members#two" = "{count} members, among them:";
 "lng_group_invite_members#few" = "{count} members, among them:";
@@ -2141,6 +2184,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_voice#two" = "{count} voice messages";
 "lng_local_storage_voice#few" = "{count} voice messages";
 "lng_local_storage_voice#many" = "{count} voice messages";
+"lng_manage_peer_banned_users" = "Banned users";
+"lng_manage_peer_restricted_users" = "Restricted users";
 "lng_many_playing_game#zero" = "{count} people are playing a game";
 "lng_many_playing_game#two" = "{count} people are playing a game";
 "lng_many_playing_game#few" = "{count} people are playing a game";
@@ -2215,9 +2260,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_votes_count#few" = "{count} votes";
 "lng_polls_votes_count#many" = "{count} votes";
 "lng_profile_add_more_after_upgrade#zero" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
+"lng_profile_add_more_after_upgrade#one" = "You will be able to add up to {count} member after you upgrade your group to a supergroup.";
 "lng_profile_add_more_after_upgrade#two" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
 "lng_profile_add_more_after_upgrade#few" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
 "lng_profile_add_more_after_upgrade#many" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
+"lng_profile_add_more_after_upgrade#other" = "You will be able to add up to {count} members after you upgrade your group to a supergroup.";
 "lng_profile_audios#zero" = "{count} voice messages";
 "lng_profile_audios#two" = "{count} voice messages";
 "lng_profile_audios#few" = "{count} voice messages";
@@ -2230,6 +2277,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_files#two" = "{count} files";
 "lng_profile_files#few" = "{count} files";
 "lng_profile_files#many" = "{count} files";
+"lng_profile_manage_admins" = "Manage administrators";
+"lng_profile_manage_blocklist" = "Manage banned users";
+"lng_profile_manage_restrictedlist" = "Manage restricted users";
 "lng_profile_migrate_reached#zero" = "{count} members limit reached";
 "lng_profile_migrate_reached#two" = "{count} members limit reached";
 "lng_profile_migrate_reached#few" = "{count} members limit reached";
@@ -2238,6 +2288,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_photos#two" = "{count} photos";
 "lng_profile_photos#few" = "{count} photos";
 "lng_profile_photos#many" = "{count} photos";
+"lng_profile_recent_actions" = "Recent actions";
 "lng_profile_shared_links#zero" = "{count} shared links";
 "lng_profile_shared_links#two" = "{count} shared links";
 "lng_profile_shared_links#few" = "{count} shared links";
@@ -2256,6 +2307,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_reconnecting#two" = "Reconnect in {count} s...";
 "lng_reconnecting#few" = "Reconnect in {count} s...";
 "lng_reconnecting#many" = "Reconnect in {count} s...";
+"lng_restricted_list_title" = "Restricted users";
 "lng_rights_chat_banned_day#zero" = "For {count} days";
 "lng_rights_chat_banned_day#two" = "For {count} days";
 "lng_rights_chat_banned_day#few" = "For {count} days";
@@ -2340,6 +2392,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_stickers_count#two" = "{count} stickers";
 "lng_stickers_count#few" = "{count} stickers";
 "lng_stickers_count#many" = "{count} stickers";
+"lng_sure_add_admin_unban" = "This user is currently restricted or banned. Are you sure you want to unban and promote them?";
+"lng_sure_ban_user_channel" = "Ban {user} in the channel?";
+"lng_sure_ban_user_group" = "Ban {user} in the group?";
 "lng_terms_age#zero" = "I confirm that I am {count} or over";
 "lng_terms_age#two" = "I confirm that I am {count} or over";
 "lng_terms_age#few" = "I confirm that I am {count} or over";

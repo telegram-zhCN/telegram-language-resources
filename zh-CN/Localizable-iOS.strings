@@ -2527,7 +2527,7 @@ Unused sets are archived when you add more.";
 "Channel.BanUser.PermissionSendMedia" = "发送媒体";
 "Channel.BanUser.PermissionSendStickersAndGifs" = "发送贴纸和 GIF";
 "Channel.BanUser.PermissionEmbedLinks" = "显示链接预览";
-
+"Channel.BanUser.PermissionSendPolls" = "发起投票";
 
 
 "Channel.BanUser.Unban" = "解除封禁";
@@ -3820,8 +3820,8 @@ Unused sets are archived when you add more.";
 
 
 
-
-
+"GroupInfo.Permissions.Title" = "权限";
+"GroupInfo.Permissions.SectionTitle" = "这个群组的成员可以做什么？";
 
 
 
@@ -3852,8 +3852,8 @@ Unused sets are archived when you add more.";
 
 
 
-
-
+"GroupRemoved.Title" = "已移除的用户";
+"GroupRemoved.Remove" = "移除用户";
 
 
 
