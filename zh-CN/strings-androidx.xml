@@ -314,7 +314,7 @@
   <string name="DeletePhoto">删除照片</string>
   <string name="ClearHistory">清空历史记录</string>
   <string name="Cancel">取消</string>
-  <string name="AddMember">添加成员</string>
+  <string name="AddMember">邀请新成员</string>
   <string name="DeleteAndLeave">删除并退出</string>
   <string name="justAdd">刚刚加入到群组</string>
   <string name="KickFromGroup">从群组中移除</string>
@@ -1286,10 +1286,10 @@
   <string name="Follow">订阅</string>
   <string name="Unselect">取消选择</string>
   <string name="ActionIrreversible">此操作无法撤销。</string>
-  <string name="LinkInUse">抱歉，这个公共链接已被占用。</string>
-  <string name="LinkInvalid">抱歉，这个公共链接不符合规范。</string>
-  <string name="LinkInvalidShort">公共链接名必须至少包含 5 个字符。</string>
-  <string name="LinkInvalidLong">公共链接不能超过 32 个字符。</string>
+  <string name="LinkInUse">抱歉，这个公开链接已被占用。</string>
+  <string name="LinkInvalid">抱歉，这个公开链接不符合规范。</string>
+  <string name="LinkInvalidShort">公开链接名必须至少包含 5 个字符。</string>
+  <string name="LinkInvalidLong">公开链接不能超过 32 个字符。</string>
   <string name="LinkInvalidStartNumber">抱歉，链接不能以数字开头。</string>
   <string name="LinkGroupHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并加入您的群组。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
   <string name="LinkChannelHelp">您可以在 **Telegram** 上设置一个公开链接，他人能通过此链接找到并订阅您的频道。\n\n您可以使用 **a-z**, **0-9** 及下划线。\n最小长度为 **5** 个字符。</string>
@@ -1475,7 +1475,7 @@
   <string name="ChatAccessRestrictedChannel">您已被频道管理员封禁</string>
   <string name="ChatAccessPrivateGroup">此群组为私人群组</string>
   <string name="ChatAccessPrivateChannel">此频道为私人频道</string>
-  <string name="YouCantInviteMembers">您不能添加成员到此对话</string>
+  <string name="YouCantInviteMembers">您不能邀请成员到此对话</string>
   <string name="RecoveryCodeSent">我们已经将六位数字恢复码发送至您的邮箱 (%1$s)。请查阅您的邮件并将验证码输入到此处。</string>
   <string name="RecoveryCodeSentEmailUnknown">我们给您发送了一个六位数字恢复码。请查阅您的电子邮箱并将验证码输入到此处。</string>
   <string name="RestoreEmailTroubleUnknown">无法访问您的电子邮箱？</string>
@@ -1766,8 +1766,8 @@
   <string name="LeaveNoReturnHintGroup">警告：除非由其他成员邀请，否则您将无法回到此群组。</string>
   <string name="LeaveCreatorHintChannel">警告：除非由管理员邀请，否则您将无法返回此频道。</string>
   <string name="LeaveCreatorHintGroup">警告：除非由其他成员邀请，否则您将无法返回此群组。</string>
-  <string name="LeaveReturnPublicLinkHintChannel">您将可以通过公共链接返回此频道</string>
-  <string name="LeaveReturnPublicLinkHintGroup">您将可以通过公共链接返回此群组</string>
+  <string name="LeaveReturnPublicLinkHintChannel">您将可以通过公开链接返回此频道</string>
+  <string name="LeaveReturnPublicLinkHintGroup">您将可以通过公开链接返回此群组</string>
   <string name="DeleteUserChatConfirm">您确定要删除与 %1$s 的对话吗？此操作不可撤销。</string>
   <string name="DeleteSecretChatPendingConfirm">您确定要取消与 %1$s 的加密对话吗？</string>
   <string name="DeleteSecretChatClosedConfirm">您确定要删除与 %1$s 的加密对话吗？此操作不可撤销。</string>
@@ -1816,7 +1816,7 @@
   <string name="ChatSuggestionsDisabled">机器人推荐已被禁用。\n可在 设置 &gt; 隐私与安全 处重新开启。</string>
   <string name="ChatLinkView">查看对话</string>
   <string name="ChatLinkRemove">移除链接</string>
-  <string name="ChatLinkRemoveAlert">等等！你确定你要将 %1$s 设为私有并且移除它的公共链接？若如此做，该链接可能会被其他用户生成。</string>
+  <string name="ChatLinkRemoveAlert">等等！你确定你要将 %1$s 设为私有并且移除它的公开链接？若如此做，该链接可能会被其他用户生成。</string>
   <string name="HoldMediaTutorial">按住查看此图片</string>
   <string name="SecretPasscodeInfo">当您设置了一个附加锁定码后，您将需要在每次访问此对话前输入它。此对话的消息预览将被从对话列表中隐藏。\n\n注意：如果您忘记了您的锁定码，此对话的内容将会丢失。\n\n如果您需要一个全局锁定码，请通过 设置 &gt; 隐私和安全 &gt; 锁定码 来设置。</string>
   <string name="ChatContentProtected">内容被保护</string>

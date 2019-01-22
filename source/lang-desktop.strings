@@ -215,7 +215,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_reset_account" = "Reset your account";
 "lng_signin_sure_reset" = "Warning!\n\nYou will lose all your chats and messages, along with any media and files you shared!\n\nDo you want to reset your account?";
 "lng_signin_reset" = "Reset";
-"lng_signin_reset_wait" = "Since the account {phone_number} is active and protected by a password, we will delete it in 1 week for security purposes. You can cancel this process at any time.\n\nYou’ll be able to reset your account in:\n{when}";
+"lng_signin_reset_wait" = "Since the account {phone_number} is active and protected by a password, we will delete it in 1 week for security purposes. You can cancel this process at any time.\n\nYou'll be able to reset your account in:\n{when}";
 "lng_signin_reset_days#one" = "{count} day";
 "lng_signin_reset_days#other" = "{count} days";
 "lng_signin_reset_hours#one" = "{count} hour";
@@ -1059,7 +1059,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_group_about_header" = "You have created a group.";
 "lng_group_about_text" = "Groups can have:";
-"lng_group_about1" = "Up to 100,000 members";
+"lng_group_about1" = "Up to 200,000 members";
 "lng_group_about2" = "Persistent chat history";
 "lng_group_about3" = "Public links such as t.me/title";
 "lng_group_about4" = "Admins with different rights";
@@ -1491,7 +1491,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_about_add_admins_no" = "This admin will not be able to add new admins.";
 "lng_rights_about_admin_cant_edit" = "You are not allowed to edit the rights of this admin.";
 "lng_rights_about_restriction_cant_edit" = "You cannot change the restrictions for this user.";
-"lng_rights_restriction_for_all" = "This option is disabled for all members in Group Permissions. You can either enable the permission for everyone or make this user an admin.";
+"lng_rights_restriction_for_all" = "This option is disabled for all members in Group Permissions.";
 "lng_rights_permission_for_all" = "This option is enabled for all members in Group Permissions.";
 "lng_rights_permission_unavailable" = "This permission is not available in public groups.";
 "lng_rights_permission_cant_edit" = "You cannot edit this permission.";
@@ -1870,7 +1870,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_suggest_title" = "Data export ready";
 "lng_export_suggest_text" = "You can now download the data you requested. Start exporting data?";
 "lng_export_suggest_cancel" = "Not now";
-"lng_export_about_telegram" = "Here is the data you requested. Remember: Telegram is ad free, it doesn't use your data for ad targeting and doesn’t sell it to others. Telegram only keeps the information it needs to function as a secure and feature-rich cloud service.\n\nCheck out Settings > Privacy & Security on Telegram's mobile apps for the relevant settings.";
+"lng_export_about_telegram" = "Here is the data you requested. Remember: Telegram is ad free, it doesn't use your data for ad targeting and doesn't sell it to others. Telegram only keeps the information it needs to function as a secure and feature-rich cloud service.\n\nCheck out Settings > Privacy & Security on Telegram's mobile apps for the relevant settings.";
 "lng_export_about_contacts" = "If you allow access, your contacts are continuously synced with Telegram. Thanks to this, you can easily switch to Telegram without losing your existing social graph – and connect with friends across all your devices. We use data about your contacts to let you know when they join Telegram. We also use it to make sure that you see the names you have in your phone book instead of the screen names people choose for themselves.\n\nYou can disable contact syncing or delete your stored contacts in Settings > Privacy & Security on Telegram's mobile apps.";
 "lng_export_about_frequent" = "This rating shows which people you are likelier to message frequently. Telegram uses this data to populate the 'People' box at the top of the Search section. This rating is also calculated for inline bots so that the app can suggest the bots you are most likely to use in the attachment menu (or when you start a new message with \"@\").\n\nTo delete this data, go to Settings > Privacy & Security and disable 'Suggest Frequent Contacts' (requires Telegram for iOS v.4.8.3 or Telegram for Android v.4.8.10 or higher).";
 "lng_export_about_sessions" = "We store session info to display your connected devices in Settings > Privacy & Security > Active Sessions.";
@@ -1889,7 +1889,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_about" = "Unfortunately, this custom language pack ({lang_name}) doesn't contain data for Telegram Desktop. You can contribute to this language pack using the {link}.";
 "lng_language_not_ready_link" = "translation platform";
 
-"lng_launch_exe_warning" = "This file has a {extension} extension.\nAre you sure you want to run it?";
+"lng_launch_exe_warning" = "This file has a {extension} extension.\nIt may harm your computer.\nAre you sure you want to run it?";
 "lng_launch_exe_sure" = "Run";
 "lng_launch_exe_dont_ask" = "Don't ask me again";
 

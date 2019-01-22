@@ -701,7 +701,7 @@
     <string name="ChatYourSelfName">You</string>
     <string name="GroupEmptyTitle1">You have created a **group**.</string>
     <string name="GroupEmptyTitle2">Groups can have:</string>
-    <string name="GroupDescription1">Up to 100,000 members</string>
+    <string name="GroupDescription1">Up to 200,000 members</string>
     <string name="GroupDescription2">Persistent chat history</string>
     <string name="GroupDescription3">Public links such as t.me/title</string>
     <string name="GroupDescription4">Admins with different rights</string>
@@ -729,10 +729,10 @@
     <string name="AttachInlineRestrictedForever">The admins of this group have restricted you from sending inline content here</string>
     <string name="AttachStickersRestrictedForever">The admins of this group have restricted you from sending stickers.</string>
     <string name="SendMessageRestrictedForever">The admins of this group have restricted you from writing here.</string>
-    <string name="GlobalAttachMediaRestricted">Sending media isn’t allowed in this group.</string>
-    <string name="GlobalAttachInlineRestricted">Inline bots aren’t allowed in this group.</string>
-    <string name="GlobalAttachStickersRestricted">Stickers aren’t allowed in this group.</string>
-    <string name="GlobalSendMessageRestricted">Writing messages isn’t allowed in this group.</string>
+    <string name="GlobalAttachMediaRestricted">Sending media isn\'t allowed in this group.</string>
+    <string name="GlobalAttachInlineRestricted">Inline bots aren\'t allowed in this group.</string>
+    <string name="GlobalAttachStickersRestricted">Stickers aren\'t allowed in this group.</string>
+    <string name="GlobalSendMessageRestricted">Writing messages isn\'t allowed in this group.</string>
     <string name="ChatAdmin">admin</string>
     <string name="ApkRestricted">APK installation is restricted for this app. You can enable this in system settings.</string>
     <string name="UnreadMessages">Unread Messages</string>

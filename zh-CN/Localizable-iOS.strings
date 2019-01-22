@@ -616,7 +616,7 @@
 "GroupInfo.SetGroupPhotoDelete" = "移除头像";
 "GroupInfo.Notifications" = "消息通知";
 "GroupInfo.Sound" = "声音";
-
+"GroupInfo.SetSound" = "设置提示音";
 "GroupInfo.SharedMedia" = "分享的媒体文件";
 "GroupInfo.SharedMediaNone" = "无";
 "GroupInfo.DeleteAndExit" = "删除并退出";
@@ -627,7 +627,7 @@
 "GroupInfo.ParticipantCount_any" = "%@ 位成员";
 
 
-"GroupInfo.AddParticipant" = "添加成员";
+"GroupInfo.AddParticipant" = "邀请新成员";
 "GroupInfo.AddParticipantTitle" = "联系人";
 "GroupInfo.AddParticipantConfirmation" = "添加 %@ 到此群组？";
 "GroupInfo.LeftStatus" = "您已退出此群组";
@@ -1555,7 +1555,7 @@
 "Channel.Info.Banned" = "已封禁";
 "Channel.Info.Members" = "成员";
 
-"Channel.Members.AddMembers" = "添加成员";
+"Channel.Members.AddMembers" = "邀请新成员";
 "Channel.Members.AddMembersHelp" = "此列表仅频道管理员可见。";
 "Channel.Members.Title" = "成员";
 "Channel.BlackList.Title" = "已封禁";
@@ -1833,7 +1833,7 @@
 "ChannelMembers.WhoCanAddMembers.AllMembers" = "所有成员";
 "ChannelMembers.WhoCanAddMembers.Admins" = "仅管理员";
 "ChannelMembers.WhoCanAddMembersAllHelp" = "所有人都能邀请新成员";
-"ChannelMembers.WhoCanAddMembersAdminsHelp" = "只有管理员能添加成员。";
+"ChannelMembers.WhoCanAddMembersAdminsHelp" = "只有管理员能邀请成员。";
 
 "ChannelMembers.GroupAdminsTitle" = "群组管理员";
 "ChannelMembers.ChannelAdminsTitle" = "频道管理员";
@@ -2545,14 +2545,14 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.BanReadMessages" = "查看消息";
 "Channel.AdminLog.BanSendMessages" = "发送消息";
 "Channel.AdminLog.BanSendMedia" = "发送媒体";
-
+"Channel.AdminLog.BanSendStickersAndGifs" = "发送贴纸和 GIF";
 "Channel.AdminLog.BanEmbedLinks" = "显示链接预览";
 "Channel.AdminLog.MessageRestricted" = "%@ 修改了 %@ 的限制 (%@)";
 "Channel.AdminLog.MessageAdmin" = "%@ 修改了 %@ 的权限 (%@)";
-
-
-
-
+"Channel.AdminLog.ChangeInfo" = "更该群组信息";
+"Channel.AdminLog.PinMessages" = "置顶消息";
+"Channel.AdminLog.AddMembers" = "邀请新成员";
+"Channel.AdminLog.SendPolls" = "发起投票";
 
 "Channel.AdminLog.CanChangeInfo" = "修改信息";
 "Channel.AdminLog.CanSendMessages" = "发布消息";
@@ -2825,7 +2825,7 @@ Unused sets are archived when you add more.";
 
 "Group.Setup.HistoryVisibleHelp" = "新成员将可以查看所有消息记录。";
 "Group.Setup.HistoryHiddenHelp" = "新成员将不能查看加群前的消息记录。";
-
+"Group.Setup.BasicHistoryHiddenHelp" = "新成员只能看到最近 100 条消息。";
 
 
 "Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ 设置消息记录对新成员可见";
@@ -3814,58 +3814,58 @@ Unused sets are archived when you add more.";
 
 
 
+"Contacts.SortedByName" = "按姓名排序";
+"Contacts.SortedByPresence" = "按最后上线时间排序";
 
 
 
-
-
-
+"GroupInfo.Permissions" = "成员权限";
 "GroupInfo.Permissions.Title" = "权限";
 "GroupInfo.Permissions.SectionTitle" = "这个群组的成员可以做什么？";
+"GroupInfo.Permissions.Removed" = "被封禁的用户";
+"GroupInfo.Permissions.Exceptions" = "例外";
+"GroupInfo.Permissions.AddException" = "添加例外";
+"GroupInfo.Permissions.SearchPlaceholder" = "搜索例外";
+
+"GroupInfo.Administrators" = "管理员";
 
 
 
+"GroupPermission.NoSendMedia" = "无法发送媒体";
+
+"GroupPermission.NoSendPolls" = "无法发起投票";
+"GroupPermission.NoSendLinks" = "无法使用预览";
+"GroupPermission.NoChangeInfo" = "无法更改信息";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"GroupPermission.Title" = "例外";
+"GroupPermission.NewTitle" = "新例外";
+"GroupPermission.SectionTitle" = "这位成员可以做什么？";
+"GroupPermission.Duration" = "持续时间";
+"GroupPermission.AddedInfo" = "被 %1$@ 在 %2$@ 添加例外";
+"GroupPermission.Delete" = "删除例外项";
 
 "GroupPermission.ApplyAlertAction" = "应用";
+"GroupPermission.AddSuccess" = "成功添加例外";
 
 
 
 
-
-"GroupRemoved.Title" = "已移除的用户";
-"GroupRemoved.Remove" = "移除用户";
-
-
-
+"GroupRemoved.Title" = "被封禁的用户";
+"GroupRemoved.Remove" = "封禁用户";
+"GroupRemoved.RemoveInfo" = "被管理员从群组封禁的用户无法通过邀请链接重新加入。";
+"ChannelRemoved.RemoveInfo" = "被管理员删除的成员无法通过邀请链接返回频道。";
 
 
+"GroupRemoved.AddToGroup" = "邀请加入群组";
 
 
-"EmptyGroupInfo.Title" = "您创建了一个群组";
-
-
-"EmptyGroupInfo.Line2" = "永久聊天历史记录";
-"EmptyGroupInfo.Line3" = "如 t.me/title 一样的公共链接";
+"EmptyGroupInfo.Title" = "您创建了一个**群组**";
+"EmptyGroupInfo.Subtitle" = "群组可以拥有：";
+"EmptyGroupInfo.Line1" = "最多 %@ 位成员";
+"EmptyGroupInfo.Line2" = "历史记录永久保留";
+"EmptyGroupInfo.Line3" = "如 t.me/title 一样的公开链接";
 "EmptyGroupInfo.Line4" = "设置权限细分的管理员";
 
 
@@ -3895,7 +3895,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"WallpaperColors.Title" = "设置为纯色";
 
 
 
@@ -3923,13 +3923,13 @@ Unused sets are archived when you add more.";
 "ChatList.LeaveGroupConfirmation" = "您确定要退出 %@ 吗？";
 
 "Undo.Undo" = "撤销";
-
-
-
-
-
-
-
+"Undo.MessagesDeleted" = "消息已删除";
+"Undo.ChatDeleted" = "对话已删除";
+"Undo.SecretChatDeleted" = "加密对话已删除";
+"Undo.LeftChannel" = "已退出群组";
+"Undo.LeftGroup" = "已退出群组";
+"Undo.DeletedChannel" = "频道已删除";
+"Undo.DeletedGroup" = "群组已删除";
 
 
 

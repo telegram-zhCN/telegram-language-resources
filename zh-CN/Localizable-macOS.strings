@@ -18,7 +18,6 @@
 "Navigation.Cancel" = "取消";
 "Navigation.Next" = "下一步";
 
-"Gallery.Counter" = "%d / %d";
 
 "Peer.Status.online" = "在线";
 "Peer.Status.recently" = "近期有上线";
@@ -86,8 +85,16 @@
 "PeerInfo.bio" = "个人简介";
 "PeerInfo.info" = "信息";
 "PeerInfo.SetGroupPhoto" = "设置群组图片";
-"PeerInfo.AddMember" = "添加成员";
+"PeerInfo.AddMember" = "邀请新成员";
 "PeerInfo.DeleteAndExit" = "删除并退出";
+
+"PeerInfo.Permissions" = "成员权限";
+"PeerInfo.Administrators" = "管理员";
+
+
+
+
+
 "PeerInfo.LeaveGroup" = "退出群组";
 
 "PeerInfo.StopBot" = "停止使用";
@@ -102,6 +109,9 @@
 "Confirm.DeleteAdminedChannel" = "且慢！删除此频道将会移除所有关注者并且会丢失所有消息。\n\n确定要删除此频道吗？";
 "Confirm.DeleteChatUser" = "您确定要删除所有消息记录？\n\n此操作不可撤销";
 "Confirm.LeaveGroup" = "您确定要退出此群组吗？";
+
+
+
 
 "PeerMedia.SharedMedia" = "分享的媒体";
 "EmptyPeer.Description" = "请选择一个对话开始聊天";
@@ -234,7 +244,8 @@
 "Chat.Input.Mute" = "免打扰";
 "Chat.Input.Unmute" = "取消免打扰";
 "Chat.Input.Return" = "返回群组";
-"Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
+
+
 "Chat.Input.Delete" = "删除并退出";
 "Chat.Input.Join" = "加入";
 "Chat.Input.Unblock" = "取消屏蔽";
@@ -352,9 +363,13 @@
 "Login.EnterPasswordDescription" = "您已经启用两步认证，这个附加的密码将保护您的帐号。";
 "Login.RecoveryMailFailed" = "因为您在设置密码时没有同时提供恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
 
+
+
+
+
 "Login.ResetAccount" = "重置我的账户";
 "Login.ResetAccountDescription" = "如果您继续重置帐户，您将丢失所有对话与消息，以及您共享的所有媒体和文件。";
-"Login.ResetAccount" = "重置我的账户";
+
 
 "PHONE_NUMBER_INVALID" = "无效的手机号码";
 "Login.FloodWait" = "Too many attempts, please try again later.";
@@ -691,9 +706,7 @@
 "PeerInfo.MembersHeader_other" = "%d  位成员";
 
 "PeerInfo.InviteLink" = "邀请链接";
-"PeerInfo.Admins" = "管理员";
 "PeerInfo.BlackList" = "黑名单";
-"PeerInfo.SetAdmins" = "设置管理员";
 "PeerInfo.GroupType" = "群组类型";
 "PeerInfo.ChannelType" = "频道类型";
 "PeerInfo.GroupType.Public" = "公开";
@@ -701,6 +714,8 @@
 "PeerInfo.SetAboutDescription" = "您可以给您的频道添加一段简介。";
 "PeerInfo.About.Placeholder" = "简介";
 "PeerInfo.ConvertToSupergroup" = "升级为超级群组";
+"PeerInfo.RemovedUsers" = "被封禁的用户";
+
 
 "Telegram.ChannelBlacklistViewController" = "黑名单";
 "Telegram.ChannelAdminsViewController" = "管理员";
@@ -710,7 +725,7 @@
 "Admins.GroupAdmins" = "群组管理员";
 "Admins.ChannelAdmins" = "频道管理员";
 
-"Admins.OnlyAdminsCanAddMembers" = "只有管理员能添加成员。";
+"Admins.OnlyAdminsCanAddMembers" = "只有管理员能邀请成员。";
 "Admins.EverbodyCanAddMembers" = "Any member can add new members";
 "Admins.GroupDescription" = "您可以添加管理员来帮助您管理群组。";
 "Admins.ChannelDescription" = "您可以添加管理员来帮助您管理您的频道。";
@@ -735,6 +750,13 @@
 
 
 "PeerInfo.Confirm.Add" = "添加";
+
+
+
+
+
+
+
 
 "PeerInfo.Confirm.AddMember" = "将 \"%@\" 添加到此群组？";
 "PeerInfo.Confirm.RemovePeer" = "从群组中移除  \"%@\" ？";
@@ -787,7 +809,9 @@
 "PeerInfo.DeleteChannel" = "删除频道";
 "PeerInfo.DeleteSecretChat" = "删除加密对话";
 
-"ChannelMembers.AddMembers" = "添加成员";
+"ChannelMembers.AddMembers" = "邀请新成员";
+
+
 "ChannelMembers.InviteLink" = "使用链接邀请";
 "ChannelMembers.MembersListDesc" = "此列表仅频道管理员可见。";
 "Telegram.ChannelMembersViewController" = "频道成员";
@@ -795,7 +819,7 @@
 "LinkInvation.Group.Confirm.Revoke" = "您确定要撤销这个邀请链接吗？一旦撤销，其他人将无法使用此链接加入小组。";
 "LinkInvation.Channel.Confirm.Revoke" = "您确定要撤销这个邀请链接吗？一旦撤销，其他人将无法使用此链接加入这个频道。";
 "LinkInvation.Confirm.Ok" = "撤销";
-"ChannelMembers.Select.Title" = "添加成员";
+"ChannelMembers.Select.Title" = "邀请新成员";
 "PeerInfo.Confirm.StartSecretChat" = "您确定要和 \"%@\" 开始加密对话吗？";
 
 
@@ -867,6 +891,9 @@
 "RecentSessions.Confirm.Revoke" = "您确定要注销此设备？";
 "RecentSessions.Revoke" = "撤销";
 "RecentSessions.Error.FreshReset" = "出于安全原因，您无法使用刚刚连接的设备终止之前的设备会话。 请通过之前使用的设备操作或等待几个小时。";
+
+
+
 
 "Legacy.Intro.Description1" = "欢迎使用超快又稳定的 macOS 版 Telegram，现全以 Swift 3.0 重写。";
 "Legacy.Intro.Description2" = "请注意你现有的加密对话将以只读方式显示。你需要创建一个新的加密对话来继续聊天。";
@@ -1136,27 +1163,43 @@
 "Channel.EditAdmin.Permission.AddNewAdmins" = "添加新管理员";
 "Channel.EditAdmin.Permission.PostMessages" = "发布消息";
 "Channel.EditAdmin.Permission.EditMessages" = "编辑消息";
-"Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
+
+
+
+
 
 "Channel.Persmission.Denied.SendMessages.Until" = "此群组的管理员限制了您在此发送消息的能力至 %@";
 "Channel.Persmission.Denied.SendMessages.Forever" = "此群组的管理员限制了您在此发送消息的能力";
 
+
 "Channel.Persmission.Denied.SendMedia.Until" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Channel.Persmission.Denied.SendMedia.Forever" = "此群组的管理员限制了您在此发送媒体文件的能力。";
 
+
 "Channel.Persmission.Denied.SendStickers.Until" = "此群组的管理员限制了您在此发送贴纸的能力至 %@。";
 "Channel.Persmission.Denied.SendStickers.Forever" = "此群组的管理员限制了您在此发送贴纸的能力。";
+
 
 "Channel.Persmission.Denied.SendGifs.Until" = "频道管理员已经禁止你在该频道发送 GIF 图片，该限制将在 %@ 解除，";
 "Channel.Persmission.Denied.SendGifs.Forever" = "群组管理员已经禁止您在此群发送 GIF。";
 
 
+
+
+
+
+
 "Channel.Persmission.Denied.SendInline.Until" = "此群组的管理员限制了您发送机器人内容的能力至 %@。";
 "Channel.Persmission.Denied.SendInline.Forever" = "此群组的管理员限制了您在此发送机器人内容的能力。";
+
+
 
 "Channel.Admin.Dismiss" = "撤销管理员";
 "Channel.Admin.AdminAccess" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "Channel.Admin.AdminRestricted" = "该管理员不能添加新管理员。";
+
+
+
 
 "Channel.Admin.WhatCanAdminDo" = "管理员权限";
 
@@ -1186,6 +1229,11 @@
 "EventLog.Service.Demote.SendMessages" = "发送消息";
 "EventLog.Service.Demote.SendMedia" = "发送媒体";
 "EventLog.Service.Demote.SendStickers" = "发送贴纸";
+
+
+
+
+
 "EventLog.Service.Demote.EmbedLinks" = "显示链接预览";
 "EventLog.Service.Demote.SendInline" = "发送嵌入式消息";
 
@@ -1198,6 +1246,9 @@
 "EventLog.Service.Promote.AddNewAdmins" = "添加新管理员";
 "EventLog.Service.Promote.BanUsers" = "屏蔽用户";
 "EventLog.Service.Promote.EditMessages" = "编辑消息";
+
+"EventLog.Service.ChangedDefaultsRights" = "更改了默认权限";
+
 
 "EventLog.Service.Promoted.Changed" = "修改了 %@ %@ 的权限:";
 "EventLog.Service.Promoted" = "将 %@ %@ 设为管理员:";
@@ -1256,7 +1307,19 @@
 
 "ChannelBlacklist.Restricted" = "限制";
 "ChannelBlacklist.Blocked" = "封禁";
-"ChannelBlacklist.AddMember" = "添加成员";
+
+"Channel.Blacklist.RemoveUser" = "封禁用户";
+
+
+
+"Channel.Blacklist.DescChannel" = "被管理员删除的成员无法通过邀请链接返回频道。";
+"Channel.Blacklist.DescGroup" = "被管理员从群组封禁的用户无法通过邀请链接重新加入。";
+
+
+"Channel.Blacklist.RestrictedBy" = "被 %@ 限制";
+"Channel.Blacklist.BlockedBy" = "被 %@ 屏蔽";
+"Channel.Blacklist.DemoteAdminError" = "抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。";
+
 
 "Channel.UserRestriction" = "用户限制";
 "Channel.BlockUser.CanReadMessages" = "查看消息";
@@ -1267,11 +1330,11 @@
 "Channel.BlockUser.BlockFor" = "屏蔽时长";
 "Channel.Blacklist.SelectNewUserTitle" = "成员";
 
+"Channel.Exception.DisabledOption.Group" = "该项已在群组默认权限中被禁用。";
+
+
 "Channel.Admins.PromotedBy" = "被 %@ 设为管理员";
 "Channel.Admins.AddAdminError" = "抱歉，您无权将此用户提升为管理员。";
-"Channel.Blacklist.RestrictedBy" = "被 %@ 限制";
-"Channel.Blacklist.BlockedBy" = "被 %@ 屏蔽";
-"Channel.Blacklist.DemoteAdminError" = "抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。";
 
 "Channel.Admins.Promote.BannedAdminError" = "抱歉，您无法设置该用户为管理员，因为该用户在黑名单中，且您无权解封。";
 "Channel.Admins.Promote.UnmemberAdminError" = "抱歉，您无法设置该用户为管理员，因为这位用户不是群组成员，且您无法将他邀请到该群组。";
@@ -1423,6 +1486,8 @@
 "PreHistorySettings.Header" = "历史记录对新成员";
 "PreHistorySettings.Description.Visible" = "新成员将可以查看所有消息记录。";
 "PreHistorySettings.Description.Hidden" = "新成员将不能查看加群前的消息记录。";
+"PreHistorySettings.Description.Group.Hidden" = "新成员只能看到最近 100 条消息。";
+
 "Chat.AdminBadge" = "管理员";
 
 "ChangePhoneNumber.Intro.Description" = "您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
@@ -1520,6 +1585,9 @@
 "TwoStepAuth.RecoveryCodeInvalid" = "验证码无效，请重试。";
 "TwoStepAuth.RecoveryCodeExpired" = "验证码已过期";
 "TwoStepAuth.RecoveryEmailUnavailableNew" = "无法访问您的恢复邮箱 [%@]()？";
+
+
+
 
 "TwoStepAuth.ConfirmEmailCodeDesc" = "请输入我们刚刚发送到 %@ 的验证码。";
 
@@ -2110,6 +2178,12 @@
 
 "PrivacyAndSecurity.BlockedUsers" = "2 位用户";
 
+
+
+
+
+
+
 "Location.Send.MyLocation" = "发送我的当前位置";
 "Location.Send.ThisLocation" = "发送此位置";
 "Location.Send.ThisLocation.Unknown" = "未知位置";
@@ -2380,9 +2454,7 @@
 
 "EditImageControl.Confirm.Discard" = "您确定要放弃所有更改吗？";
 //
-"_NS:103.title" = "编辑";
-"_NS:167.title" = "窗口";
-"_NS:81.title" = "查看";
+
 
 
 "Message.Status.Archiving" = "正在压缩 %d%";
@@ -2435,6 +2507,15 @@
 
 
 "Chat.Poll.TotalVotes_other" = "%d 人已投票";
+
+
+
+
+
+
+
+
+
 
 
 "Chat.Poll.TotalVotesEmpty" = "无人投票";
@@ -2493,8 +2574,177 @@
 "Passport.ResetPassword.Confirm.OK" = "重置";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Channel.BanUser.PermissionSendMessages" = "发送消息";
+"Channel.BanUser.PermissionSendMedia" = "发送媒体";
+
+
+"Channel.BanUser.PermissionSendPolls" = "发起投票";
+
+
+
+
+
+
+
+"GroupPermission.NoSendMedia" = "无法发送媒体";
+
+"GroupPermission.NoSendPolls" = "无法发起投票";
+"GroupPermission.NoSendLinks" = "无法使用预览";
+"GroupPermission.NoChangeInfo" = "无法更改信息";
+
+
+
+
+"GroupPermission.NewTitle" = "新例外";
+"GroupPermission.SectionTitle" = "这位成员可以做什么？";
+"GroupPermission.Duration" = "持续时间";
+"GroupPermission.AddedInfo" = "被 %@ 在 %@ 添加例外";
+"GroupPermission.Delete" = "删除例外项";
+
+
+"GroupPermission.AddSuccess" = "成功添加例外";
+
+
+
+
+"Telegram.ChannelPermissionsController" = "成员权限";
+
+"GroupInfo.Permissions.Removed" = "被封禁的用户";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"EmptyGroupInfo.Title" = "您创建了一个**群组**";
+"EmptyGroupInfo.Subtitle" = "群组可以拥有：";
+"EmptyGroupInfo.Line1" = "• 最多 %@ 位成员";
+"EmptyGroupInfo.Line2" = "• 历史记录永久保留";
+
+"EmptyGroupInfo.Line4" = "设置权限细分的管理员";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//"_NS:103.title" = "Edit";
+//"_NS:167.title" = "Window";
+//"_NS:81.title" = "View";
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
+"Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
+"ChannelBlacklist.AddMember" = "邀请新成员";
+"Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
+"Gallery.Counter" = "%d / %d";
+"PeerInfo.Admins" = "管理员";
+"PeerInfo.SetAdmins" = "设置管理员";
 "TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 "TwoStepAuth.SetupHint" = "请创建一个密码提示。";
+"_NS:103.title" = "编辑";
+"_NS:167.title" = "窗口";
+"_NS:81.title" = "查看";

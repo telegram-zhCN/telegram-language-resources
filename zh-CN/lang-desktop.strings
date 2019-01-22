@@ -694,7 +694,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_invite_to_group" = "添加到群组";
 "lng_profile_delete_contact" = "删除";
 "lng_profile_set_group_photo" = "设置图片";
-"lng_profile_add_participant" = "添加成员";
+"lng_profile_add_participant" = "邀请新成员";
 "lng_profile_view_channel" = "查看频道";
 "lng_profile_join_channel" = "加入频道";
 "lng_profile_join_group" = "加入群组";
@@ -796,15 +796,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_recent_actions" = "近期操作";
 "lng_manage_peer_members" = "成员";
 "lng_manage_peer_administrators" = "管理员";
-
-
-
+"lng_manage_peer_exceptions" = "例外";
+"lng_manage_peer_removed_users" = "被封禁的用户";
+"lng_manage_peer_permissions" = "成员权限";
 "lng_manage_history_visibility_title" = "历史记录对新成员";
 "lng_manage_history_visibility_shown" = "可见";
 "lng_manage_history_visibility_shown_about" = "新成员将可以查看所有消息记录。";
 "lng_manage_history_visibility_hidden" = "不可见";
 "lng_manage_history_visibility_hidden_about" = "新成员将不能查看加群前的消息记录。";
-
+"lng_manage_history_visibility_hidden_legacy" = "新成员只能看到最近 100 条消息。";
 
 "lng_report_title" = "举报频道";
 "lng_report_group_title" = "举报此群组";
@@ -818,10 +818,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_button" = "举报";
 "lng_report_thanks" = "非常感谢！ 我们会尽快核查您的举报。";
 
-"lng_channel_add_members" = "添加成员";
+"lng_channel_add_members" = "邀请新成员";
 
-
-
+"lng_channel_add_removed" = "封禁用户";
+"lng_channel_add_exception" = "添加例外";
 "lng_channel_admins" = "管理员";
 "lng_channel_add_admin" = "添加管理员";
 "lng_channel_admin_status_creator" = "创建者";
@@ -830,8 +830,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_banned_status_restricted_by" = "被 {user} 限制";
 
 
-
-
+"lng_channel_removed_list_about" = "被管理员删除的成员无法通过邀请链接返回频道。";
+"lng_group_removed_list_about" = "被管理员从群组封禁的用户无法通过邀请链接重新加入。";
 
 "lng_chat_all_members_admins" = "将所有成员设为管理员";
 "lng_chat_about_all_admins" = "所有成员可以添加新成员、编辑群组名称及头像。";
@@ -1057,12 +1057,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_stickers_description" = "你可以为所有群成员选择一个贴纸包，这样当他们在群里聊天时都可以看到并使用它。";
 "lng_group_stickers_add" = "选择贴纸包";
 
+"lng_group_about_header" = "您创建了一个**群组**";
+"lng_group_about_text" = "群组可以拥有：";
+"lng_group_about1" = "最多 200,000 位成员";
+"lng_group_about2" = "历史记录永久保留";
 
-
-
-
-
-
+"lng_group_about4" = "设置权限细分的管理员";
 
 "lng_switch_stickers" = "贴纸";
 "lng_switch_emoji" = "Emoji";
@@ -1491,12 +1491,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_about_add_admins_no" = "该管理员不能添加新管理员。";
 "lng_rights_about_admin_cant_edit" = "您无权修改此管理员的权限。";
 
-
-
+"lng_rights_restriction_for_all" = "该项已在群组默认权限中被禁用。";
+"lng_rights_permission_for_all" = "该项已在群组默认权限中被启用。";
 
 
 "lng_rights_user_restrictions" = "用户限制";
-"lng_rights_user_restrictions_header" = "这位用户可以做什么？";
+"lng_rights_user_restrictions_header" = "这位成员可以做什么？";
 "lng_rights_default_restrictions_header" = "这个群组的成员可以做什么？";
 
 "lng_rights_channel_info" = "修改频道信息";
@@ -1515,8 +1515,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_chat_send_media" = "发送多媒体";
 "lng_rights_chat_send_stickers" = "发送贴纸和 GIF";
 "lng_rights_chat_send_links" = "显示链接预览";
-
-
+"lng_rights_chat_send_polls" = "发起投票";
+"lng_rights_chat_add_members" = "添加成员";
 "lng_rights_chat_banned_until_header" = "限制持续时间";
 "lng_rights_chat_banned_forever" = "永久";
 
@@ -1540,8 +1540,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 
-
-
+"lng_exceptions_list_title" = "例外";
+"lng_removed_list_title" = "被封禁的用户";
 
 "lng_admin_log_title_all" = "所有操作";
 "lng_admin_log_title_selected" = "选中的操作";
@@ -1606,7 +1606,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_banned" = "封禁了 {user}";
 "lng_admin_log_restricted" = "更改 {user} 的限制 {until}";
 "lng_admin_log_promoted" = "更改 {user} 的管理权限";
-
+"lng_admin_log_changed_default_permissions" = "更改了默认权限";
 "lng_admin_log_changed_stickers_group" = "{from} 更换了群组贴纸包 {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "贴纸包";
 "lng_admin_log_removed_stickers_group" = "{from} 删除了群组贴纸包";

@@ -1555,7 +1555,7 @@
 "Channel.Info.Banned" = "Banned";
 "Channel.Info.Members" = "Members";
 
-"Channel.Members.AddMembers" = "Add Members";
+"Channel.Members.AddMembers" = "Add Subscribers";
 "Channel.Members.AddMembersHelp" = "Only channel admins can see this list.";
 "Channel.Members.Title" = "Members";
 "Channel.BlackList.Title" = "Banned";
@@ -2447,7 +2447,7 @@ Unused sets are archived when you add more.";
 "Call.AudioRouteHeadphones" = "Headphones";
 "Call.AudioRouteHide" = "Hide";
 
-"Call.PhoneCallInProgressMessage" = "You can’t place a Telegram call if you’re already on a phone call.";
+"Call.PhoneCallInProgressMessage" = "You can't place a Telegram call if you're already on a phone call.";
 "Call.RecordingDisabledMessage" = "Please end your call before recording a voice message.";
 
 "Call.EmojiDescription" = "If these emoji are the same on %@'s screen, this call is 100%% secure.";
@@ -2645,19 +2645,19 @@ Unused sets are archived when you add more.";
 
 "Conversation.RestrictedTextTimed" = "The admins of this group have restricted you from writing messages until %@.";
 "Conversation.RestrictedText" = "The admins of this group have restricted you from writing messages.";
-"Conversation.DefaultRestrictedText" = "Writing messages isn’t allowed in this group.";
+"Conversation.DefaultRestrictedText" = "Writing messages isn't allowed in this group.";
 
 "Conversation.RestrictedInlineTimed" = "The admins of this group have restricted you from posting inline content here until %@.";
 "Conversation.RestrictedInline" = "The admins of this group have restricted you from posting inline content here.";
-"Conversation.DefaultRestrictedInline" = "Posting inline content isn’t allowed in this group.";
+"Conversation.DefaultRestrictedInline" = "Posting inline content isn't allowed in this group.";
 
 "Conversation.RestrictedMediaTimed" = "The admins of this group have restricted you from posting media content here until %@.";
 "Conversation.RestrictedMedia" = "The admins of this group have restricted you from posting media content here.";
-"Conversation.DefaultRestrictedMedia" = "Posting media content isn’t allowed in this group.";
+"Conversation.DefaultRestrictedMedia" = "Posting media content isn't allowed in this group.";
 
 "Conversation.RestrictedStickersTimed" = "The admins of this group have restricted you from posting stickers here until %@.";
 "Conversation.RestrictedStickers" = "The admins of this group have restricted you from sending stickers.";
-"Conversation.DefaultRestrictedStickers" = "Posting stickers isn’t allowed in this group.";
+"Conversation.DefaultRestrictedStickers" = "Posting stickers isn't allowed in this group.";
 
 "ChatSettings.ConnectionType.Title" = "CONNECTION TYPE";
 "ChatSettings.ConnectionType.UseProxy" = "Use Proxy";
@@ -2892,7 +2892,7 @@ Unused sets are archived when you add more.";
 "Notification.PinnedLiveLocationMessage" = "%@ pinned a live location";
 "Message.PinnedLiveLocationMessage" = "pinned live location";
 
-
+"NotificationSettings.ContactJoined" = "New Contacts";
 
 "AccessDenied.LocationAlwaysDenied" = "If you'd like to share your Live Location with friends, Telegram needs location access when the app is in the background.\n\nPlease go to your device‘s settings > Privacy > Location Services and set Telegram to Always.";
 
@@ -3209,7 +3209,7 @@ Unused sets are archived when you add more.";
 "Passport.PasswordPlaceholder" = "Enter your password";
 "Passport.InvalidPasswordError" = "Invalid password. Please try again.";
 "Passport.FloodError" = "Limit exceeded. Please try again later.";
-"Passport.UpdateRequiredError" = "Sorry, your Telegram app is out of date and can’t handle this request. Please update Telegram.";
+"Passport.UpdateRequiredError" = "Sorry, your Telegram app is out of date and can't handle this request. Please update Telegram.";
 
 "Passport.ForgottenPassword" = "Forgotten Password";
 "Passport.PasswordReset" = "All documents uploaded to your Telegram Passport will be lost. You will be able to upload new documents.";
@@ -3399,7 +3399,7 @@ Unused sets are archived when you add more.";
 "UserInfo.NotificationsDefault" = "Default";
 "UserInfo.NotificationsDefaultSound" = "Default (%@)";
 
-"DialogList.ProxyConnectionIssuesTooltip" = "Can’t connect to your preferred proxy.\nTap to change settings.";
+"DialogList.ProxyConnectionIssuesTooltip" = "Can't connect to your preferred proxy.\nTap to change settings.";
 
 "Conversation.TapAndHoldToRecord" = "Tap and hold to record";
 
@@ -3863,7 +3863,7 @@ Unused sets are archived when you add more.";
 
 "EmptyGroupInfo.Title" = "You have created a group";
 "EmptyGroupInfo.Subtitle" = "Groups can have:";
-"EmptyGroupInfo.Line1" = "Up to %@ members";
+"EmptyGroupInfo.Line1" = "Up to 200,000 members";
 "EmptyGroupInfo.Line2" = "Persistent chat history";
 "EmptyGroupInfo.Line3" = "Public links such as t.me/title";
 "EmptyGroupInfo.Line4" = "Admins with different rights";
