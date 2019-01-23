@@ -365,6 +365,8 @@
     <string name="EditAdminPinMessages">Pin Messages</string>
     <string name="EditAdminPromotedBy">Promoted by %1$s</string>
     <string name="EditAdminCantEdit">You cannot edit the rights of this admin.</string>
+    <string name="EditCantEditPermissions">You cannot edit this permission.</string>
+    <string name="EditCantEditPermissionsPublic">This permission is not available in public groups.</string>
     <string name="UserRemovedBy">Removed by %1$s</string>
     <string name="UserRestrictions">User Permissions</string>
     <string name="UserRestrictionsDisabled">This option is disabled for all members in Group Permissions</string>

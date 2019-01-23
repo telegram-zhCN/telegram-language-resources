@@ -365,6 +365,8 @@
     <string name="EditAdminPinMessages">置顶消息</string>
     <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
     <string name="EditAdminCantEdit">您无权修改此管理员的权限。</string>
+    <string name="EditCantEditPermissions">You cannot edit this permission.</string>
+    <string name="EditCantEditPermissionsPublic">This permission is not available in public groups.</string>
     <string name="UserRemovedBy">被 %1$s 封禁</string>
     <string name="UserRestrictions">用户权限</string>
     <string name="UserRestrictionsDisabled">该项已在群组默认权限中被禁用。</string>
