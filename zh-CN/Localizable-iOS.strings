@@ -2554,7 +2554,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.AddMembers" = "邀请新成员";
 "Channel.AdminLog.SendPolls" = "发起投票";
 
-"Channel.AdminLog.CanChangeInfo" = "修改信息";
+"Channel.AdminLog.CanChangeInfo" = "修改群组信息";
 "Channel.AdminLog.CanSendMessages" = "发布消息";
 "Channel.AdminLog.CanDeleteMessages" = "删除消息";
 "Channel.AdminLog.CanBanUsers" = "禁止用户";

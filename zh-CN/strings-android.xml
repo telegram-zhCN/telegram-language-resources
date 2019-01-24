@@ -487,7 +487,7 @@
     <string name="EventLogEditedMedia">un1 编辑了媒体:</string>
     <string name="EventLogEditedMediaCaption">un1 编辑了媒体与说明：</string>
     <string name="EventLogOriginalMessages">原始消息</string>
-    <string name="EventLogOriginalCaption">原说明</string>
+    <string name="EventLogOriginalCaption">原始说明</string>
     <string name="EventLogOriginalCaptionEmpty">无</string>
     <string name="EventLogPinnedMessages">un1 置顶了这条消息：</string>
     <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
@@ -513,7 +513,7 @@
     <string name="EventLogDefaultPermissions">更改了默认权限</string>
     <string name="EventLogRestrictedSendStickers">发送贴纸和 GIF</string>
     <string name="EventLogRestrictedSendMedia">发送媒体</string>
-    <string name="EventLogRestrictedChangeInfo">Change info</string>
+    <string name="EventLogRestrictedChangeInfo">修改群组信息</string>
     <string name="EventLogRestrictedInviteUsers">邀请新成员</string>
     <string name="EventLogRestrictedPinMessages">置顶消息</string>
     <string name="EventLogRestrictedSendPolls">发起投票</string>
@@ -531,15 +531,15 @@
     <string name="EventLogPromotedAddUsers">添加用户</string>
     <string name="EventLogPromotedPinMessages">置顶消息</string>
     <string name="EventLogFilterAll">所有操作</string>
-    <string name="EventLogFilterNewRestrictions">- 新例外</string>
-    <string name="EventLogFilterNewAdmins">- 新管理员任命</string>
-    <string name="EventLogFilterNewMembers">- 新成员加入</string>
-    <string name="EventLogFilterGroupInfo">- 群组信息变更</string>
+    <string name="EventLogFilterNewRestrictions">新例外</string>
+    <string name="EventLogFilterNewAdmins">新管理员任命</string>
+    <string name="EventLogFilterNewMembers">新成员加入</string>
+    <string name="EventLogFilterGroupInfo">群组信息变更</string>
     <string name="EventLogFilterChannelInfo">频道信息变更</string>
-    <string name="EventLogFilterDeletedMessages">- 消息删除</string>
-    <string name="EventLogFilterEditedMessages">- 消息编辑</string>
-    <string name="EventLogFilterPinnedMessages">- 消息置顶</string>
-    <string name="EventLogFilterLeavingMembers">- 成员退出</string>
+    <string name="EventLogFilterDeletedMessages">消息删除</string>
+    <string name="EventLogFilterEditedMessages">消息编辑</string>
+    <string name="EventLogFilterPinnedMessages">消息置顶</string>
+    <string name="EventLogFilterLeavingMembers">成员退出</string>
     <!--broadcasts-->
     <string name="NewBroadcastList">新建群发列表</string>
     <string name="EnterListName">输入列表名称</string>

@@ -1337,7 +1337,7 @@
   <string name="EventLogEditedCaption">%1$s 编辑了说明:</string>
   <string name="EventLogRemovedCaption">%1$s 移除了说明：</string>
   <string name="EventLogOriginalMessages">原始消息</string>
-  <string name="EventLogOriginalCaption">原说明</string>
+  <string name="EventLogOriginalCaption">原始说明</string>
   <string name="EventLogOriginalCaptionEmpty">无</string>
   <string name="EventLogPinnedMessages">%1$s 置顶了这条消息：</string>
   <string name="EventLogUnpinnedMessages">%1$s 解除了消息置顶</string>
