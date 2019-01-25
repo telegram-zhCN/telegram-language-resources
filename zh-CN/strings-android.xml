@@ -206,7 +206,7 @@
     <string name="MegaLeaveAlertWithName">您确定要退出 **%1$s** 吗？</string>
     <string name="GroupUserCantAdd">抱歉，您不能将此用户加入群组。</string>
     <string name="GroupUserAddLimit">抱歉，此群组已满员。</string>
-    <string name="GroupUserLeftError">抱歉，该用户已决定退出此群组，因此您无法邀请该用户回来。</string>
+    <string name="GroupUserLeftError">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
     <string name="GroupUserCantAdmin">抱歉，群组内管理员人数过多。</string>
     <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
     <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
@@ -315,7 +315,7 @@
     <string name="ChannelCantOpenBanned">抱歉，目前您已被禁止在公开群组中发送消息。</string>
     <string name="ChannelCantOpenNa">抱歉，该对话已无法访问。</string>
     <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
-    <string name="ChannelUserLeftError">抱歉，该用户已决定退出此频道，因此您无法邀请该用户回来。</string>
+    <string name="ChannelUserLeftError">抱歉，此用户已决定退出此频道，因此您无法邀请此用户回来。</string>
     <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
     <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
     <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
@@ -365,8 +365,8 @@
     <string name="EditAdminPinMessages">置顶消息</string>
     <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
     <string name="EditAdminCantEdit">您无权修改此管理员的权限。</string>
-    <string name="EditCantEditPermissions">You cannot edit this permission.</string>
-    <string name="EditCantEditPermissionsPublic">This permission is not available in public groups.</string>
+    <string name="EditCantEditPermissions">您不能修改此权限。</string>
+    <string name="EditCantEditPermissionsPublic">此权限在公开群组中不可用。</string>
     <string name="UserRemovedBy">被 %1$s 封禁</string>
     <string name="UserRestrictions">用户权限</string>
     <string name="UserRestrictionsDisabled">该项已在群组默认权限中被禁用。</string>
@@ -380,13 +380,13 @@
     <string name="UserRestrictionsChangeInfo">修改群组信息</string>
     <string name="UserRestrictionsPinMessages">置顶消息</string>
     <string name="UserRestrictionsInviteUsers">添加用户</string>
-    <string name="UserRestrictionsNoRead">can\'t read</string>
+    <string name="UserRestrictionsNoRead">无法查看消息</string>
     <string name="UserRestrictionsNoSend">无法发送消息</string>
     <string name="UserRestrictionsNoSendMedia">无法发送媒体</string>
     <string name="UserRestrictionsNoSendPolls">无法发起投票</string>
     <string name="UserRestrictionsNoSendStickers">无法发送贴纸</string>
     <string name="UserRestrictionsNoEmbedLinks">无法使用预览</string>
-    <string name="UserRestrictionsNoChangeInfo">无法更改信息</string>
+    <string name="UserRestrictionsNoChangeInfo">无法更改群组信息</string>
     <string name="UserRestrictionsNoPinMessages">无法置顶消息</string>
     <string name="UserRestrictionsNoInviteUsers">无法邀请成员</string>
     <string name="UserRestrictionsDuration">时长</string>
@@ -423,7 +423,7 @@
     <string name="ChooseFromSearch">通过网络搜索</string>
     <string name="Statistics">统计数据</string>
     <string name="AddBotAsAdmin">机器人只能被添加为管理员。</string>
-    <string name="CantAddBotAsAdmin">Sorry, bots can only be added to channels as administrators.</string>
+    <string name="CantAddBotAsAdmin">抱歉，机器人在频道中只能被添加为管理员。</string>
     <string name="MakeAdmin">添加为管理员</string>
     <string name="AdminWillBeRemoved">如果您对 %1$s 作出限制，他将被撤销管理员权限。</string>
     <!--polls-->
@@ -590,7 +590,7 @@
     <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
     <string name="InstantView">即时预览</string>
     <string name="OpenGroup">查看群组</string>
-    <string name="OpenBackground">VIEW BACKGROUND</string>
+    <string name="OpenBackground">查看背景</string>
     <string name="OpenChannel">查看频道</string>
     <string name="OpenMessage">查看消息</string>
     <string name="InstantViewNightMode">暗色主题将会在夜间自动启用</string>
@@ -724,17 +724,17 @@
     <string name="DiscardVideoMessageDescription">您确定要停止录制并放弃已录制的视频留言吗？</string>
     <string name="DiscardVoiceMessageAction">放弃</string>
     <string name="AttachMediaRestricted">此群组的管理员限制了您在此发送媒体文件的权限直到 %1$s</string>
-    <string name="AttachInlineRestricted">此群组的管理员限制了您发送机器人内容的能力至 %1$s</string>
+    <string name="AttachInlineRestricted">此群组的管理员限制了您发送 Inline 内容的能力至 %1$s</string>
     <string name="AttachStickersRestricted">此群组的管理员限制了您发送贴纸的能力至 %1$s</string>
     <string name="SendMessageRestricted">此群组的管理员限制了您在此发送消息的能力至 %1$s</string>
     <string name="AttachMediaRestrictedForever">此群组的管理员限制了您发送媒体文件的能力</string>
-    <string name="AttachInlineRestrictedForever">此群组的管理员限制了您在此发送机器人内容的能力</string>
+    <string name="AttachInlineRestrictedForever">此群组的管理员限制了您在此发送 Inline 内容的能力</string>
     <string name="AttachStickersRestrictedForever">此群组的管理员限制了您在此发送贴纸的能力</string>
     <string name="SendMessageRestrictedForever">此群组的管理员限制了您在此发送消息的能力</string>
-    <string name="GlobalAttachMediaRestricted">该群组不允许发送媒体。</string>
-    <string name="GlobalAttachInlineRestricted">Inline bots aren\'t allowed in this group.</string>
-    <string name="GlobalAttachStickersRestricted">该群组不允许发送贴纸。</string>
-    <string name="GlobalSendMessageRestricted">该群组不允许发送消息。</string>
+    <string name="GlobalAttachMediaRestricted">此群组不允许发送媒体。</string>
+    <string name="GlobalAttachInlineRestricted">此群组不允许 Inline 机器人。</string>
+    <string name="GlobalAttachStickersRestricted">此群组不允许发送贴纸。</string>
+    <string name="GlobalSendMessageRestricted">此群组不允许发送消息。</string>
     <string name="ChatAdmin">管理员</string>
     <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
     <string name="UnreadMessages">未读消息</string>
@@ -1293,7 +1293,7 @@
     <string name="NotificationsForGroups">群组通知</string>
     <string name="NotificationsForPrivateChats">私聊通知</string>
     <string name="NotificationsForChannels">频道通知</string>
-    <string name="TapToChange">Tap to change</string>
+    <string name="TapToChange">点按更改</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1547,7 +1547,7 @@
     <string name="FingerprintNotRecognized">指纹未识别，请重试。</string>
     <string name="ScreenCapture">在最近任务界面显示应用内容</string>
     <string name="ScreenCaptureInfo">如果禁用，您将无法在应用中进行截图，且聊天内容将在最近任务界面中隐藏。</string>
-    <string name="ScreenCaptureAlert">This will hide the contents of your chats or chat list from the task switcher, but you will not be able to take screenshots on Telegram.\n\nYou may need to restart the app for this to take effect.</string>
+    <string name="ScreenCaptureAlert">这将在最近任务界面中隐藏聊天或聊天列表的内容，但您将无法在 Telegram 上截取屏幕截图。\n\n您可能需要重新启动应用才能生效。</string>
     <string name="TooManyTries">尝试次数过多\n请在 %1$s 后重试</string>
     <!--media view-->
     <string name="SharedFilesTab">文件</string>
@@ -1795,7 +1795,7 @@
     <string name="NeverShareWithPlaceholder">选择无法看见您上线时间的用户...</string>
     <string name="EmpryUsersPlaceholder">添加用户</string>
     <string name="PrivacyFloodControlError">抱歉，请求过于频繁。现在暂时无法修改隐私设置，请稍后再试。</string>
-    <string name="RemoveFromListText">长按可删除该用户。</string>
+    <string name="RemoveFromListText">长按删除用户。</string>
     <string name="GroupsAndChannels">邀请权限控制</string>
     <string name="WhoCanAddMe">谁可以邀请我进入群组？</string>
     <string name="WhoCanAddMeInfo">您可以精确控制其他人能否邀请您进入任意群组或频道。</string>
@@ -1805,14 +1805,14 @@
     <string name="NeverAllowPlaceholder">从不允许...</string>
     <string name="CustomShareInfo">根据上面的设置，这些用户将能够或不能将您添加到群组或频道。</string>
     <string name="GroupsAndChannelsHelp">控制谁能邀请您进入群组或频道。</string>
-    <string name="InviteToGroupError">抱歉，根据该用户的隐私设置，您不能将其添加到群组。</string>
-    <string name="InviteToChannelError">抱歉，根据该用户的隐私设置，您不能将其添加到频道。</string>
+    <string name="InviteToGroupError">抱歉，根据此用户的隐私设置，您不能将其添加到群组。</string>
+    <string name="InviteToChannelError">抱歉，根据此用户的隐私设置，您不能将其添加到频道。</string>
     <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
     <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
     <string name="SyncContactsDelete">删除已同步联系人</string>
     <string name="SuggestContacts">推荐频繁往来的联系人</string>
     <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
-    <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和消息框内机器人的使用偏好。</string>
+    <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。</string>
     <!--edit video view-->
     <string name="SendingVideo">正在发送视频...</string>
     <string name="SendingGif">正在发送 GIF...</string>
@@ -1876,9 +1876,9 @@
     <string name="ActionRemovedPhoto">un1 删除了群组标识</string>
     <string name="ActionChangedPhoto">un1 更换了群组头像</string>
     <string name="ActionChangedTitle">un1 将群组名称更改为 un2</string>
-    <string name="ActionCreateGroup">un1 创建了该群组</string>
+    <string name="ActionCreateGroup">un1 创建了此群组</string>
     <string name="ActionYouKickUser">您已将 un2 移除</string>
-    <string name="ActionYouLeftUser">您退出了该群组</string>
+    <string name="ActionYouLeftUser">您退出了此群组</string>
     <string name="ActionYouAddUser">您添加了 un2</string>
     <string name="ActionYouScored">你获得 %1$s 分</string>
     <string name="ActionUserScored">un1 获得 %1$s 分</string>
@@ -1893,7 +1893,7 @@
     <string name="ActionAddUserSelf">un1 返回了此群组</string>
     <string name="ActionAddUserSelfMega">un1 加入了这个群组</string>
     <string name="ActionAddUserSelfYou">您返回了此群组</string>
-    <string name="ActionBotAllowed">当您登录 %1$s 时，你允许这个机器人给你发送消息</string>
+    <string name="ActionBotAllowed">您允许了此机器人在您登录 %1$s 时向您发送消息。</string>
     <string name="ActionBotDocuments">%1$s 已收到以下档案: %2$s</string>
     <string name="ActionBotDocumentIdentity">个人信息</string>
     <string name="ActionBotDocumentAddress">地址</string>
@@ -1959,7 +1959,7 @@
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
     <string name="AreYouSureDeleteThisChatWithUser">您确定要删除与 **%1$s** 的对话吗？</string>
     <string name="AreYouSureDeleteThisChatWithSecretUser">您确定要删除与 **%1$s** 的加密对话吗？</string>
-    <string name="AreYouSureDeleteThisChatWithGroup">Are you sure you want to delete the chat **%1$s**?</string>
+    <string name="AreYouSureDeleteThisChatWithGroup">您确定要删除 %1$s 吗？</string>
     <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
     <string name="ShareYouLocationTitle">是否分享您的位置信息？</string>
     <string name="ShareYouLocationInfo">此操作会把您的当前位置信息发送给机器人。</string>
@@ -1981,7 +1981,7 @@
     <string name="AreYouSureClearHistoryWithChat">您确定要清空 **%1$s** 的消息记录吗？</string>
     <string name="AreYouSureClearHistory">您确定要清空聊天记录吗？</string>
     <string name="AreYouSureClearHistoryChannel">确定删除此频道中所有缓存的消息和媒体文件？</string>
-    <string name="AreYouSureClearHistoryGroup">是否删除该群组中所有缓存的消息记录和媒体文件？</string>
+    <string name="AreYouSureClearHistoryGroup">您确定要删除此群组中所有缓存的消息记录和媒体文件吗？</string>
     <string name="AreYouSureDeleteMessages">您确定要删除 %1$s吗？</string>
     <string name="SendMessagesToGroup">发送消息到 %1$s ？</string>
     <string name="SendGameToGroup">要分享游戏给 %1$s 吗？</string>
@@ -1989,7 +1989,7 @@
     <string name="NoUsernameFound">没有 Telegram 帐户使用此用户名。</string>
     <string name="BotCantJoinGroups">此机器人无法加入群组。</string>
     <string name="SecretLinkPreviewAlert">您要启用加密对话中的链接预览功能吗？注意，所有的链接预览均在 Telegram 的服务器上生成。</string>
-    <string name="SecretChatContextBotAlert">请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
+    <string name="SecretChatContextBotAlert">请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
     <string name="EditMessageError">抱歉，您不能编辑这条消息。</string>
     <string name="AllowReadSms">请授予 Telegram 短信权限以便我们自动读取验证码。</string>
     <string name="AllowReadCall">请授予 Telegram 电话权限以便我们自动读取验证码。</string>
@@ -1998,15 +1998,15 @@
     <string name="UserRestricted">抱歉，您无法执行此操作。</string>
     <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>
     <string name="JoinGroup">加入群组</string>
-    <string name="AddAdminErrorNotAMember">抱歉，您无法将这位用户设为管理员。因为该用户不是此群组的成员，且您也无权添加该用户。</string>
-    <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在黑名单中，并且您无权解除其封禁。</string>
-    <string name="AddBannedErrorAdmin">抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。</string>
+    <string name="AddAdminErrorNotAMember">抱歉，您无法将此用户设为管理员。因为此用户不是群组成员，且您也无权添加此用户。</string>
+    <string name="AddAdminErrorBlacklisted">抱歉，您无法将此用户设为管理员。因为此用户在黑名单中，并且您无权解除其封禁。</string>
+    <string name="AddBannedErrorAdmin">抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。</string>
     <string name="ErrorSendRestrictedStickers">抱歉，此群组的管理员限制了您在此发送贴纸的能力。</string>
     <string name="ErrorSendRestrictedMedia">抱歉，此群组的管理员限制了您在此发送媒体文件的能力。</string>
-    <string name="ErrorSendRestrictedPolls">Sorry, the admins of this group have restricted you from sending polls.</string>
-    <string name="ErrorSendRestrictedStickersAll">Sorry, sending stickers is not allowed in this group.</string>
-    <string name="ErrorSendRestrictedMediaAll">Sorry, sending media is not allowed in this group.</string>
-    <string name="ErrorSendRestrictedPollsAll">Sorry, sending polls is not allowed in this group.</string>
+    <string name="ErrorSendRestrictedPolls">抱歉，此群组的管理员限制了您在此发起投票的能力。</string>
+    <string name="ErrorSendRestrictedStickersAll">抱歉，此群组不允许发送贴纸。</string>
+    <string name="ErrorSendRestrictedMediaAll">抱歉，此群组不允许发送媒体。</string>
+    <string name="ErrorSendRestrictedPollsAll">抱歉，此群组不允许发起投票。</string>
     <string name="TosDecline">我们对此感到非常抱歉，但这也意味着您现在无法注册 Telegram。\n\n与其它软件不同，我们不会利用您的个人数据来导向广告或其它商业目的。Telegram 储存的所有文件都是为了给您创造一个功能丰富的云服务体验。 您可以在「设置」—「隐私和安全」 里调整我们使用您数据的方式（例如：删除已同步的联系人）。\n\n但若您完全无法接受 Telegram 的云数据政策，我们将无法为您提供服务。</string>
     <string name="TosAgeTitle">年龄验证</string>
     <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
@@ -2116,8 +2116,8 @@
     <string name="VoipErrorUnknown">暂时无法呼叫</string>
     <string name="RateCallEcho">我听到了自己的回声</string>
     <string name="RateCallNoise">我听到了背景噪音</string>
-    <string name="RateCallInterruptions">The other side kept disappearing</string>
-    <string name="RateCallDistorted">Speech was distorted</string>
+    <string name="RateCallInterruptions">另一方不断消失</string>
+    <string name="RateCallDistorted">语音扭曲了</string>
     <string name="RateCallSilentLocal">我听不到对方的声音</string>
     <string name="RateCallSilentRemote">对方听不到我的声音</string>
     <string name="RateCallDropped">通话意外结束</string>

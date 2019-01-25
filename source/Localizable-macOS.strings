@@ -2179,7 +2179,7 @@
 "PrivacyAndSecurity.BlockedUsers" = "%@ users";
 
 "PrivacyAndSecurity.ClearCloudDraftsHeader" = "CHATS";
-"PrivacyAndSecurity.ClearCloudDrafts" = "Clear Cloud Drafts";
+"PrivacyAndSecurity.ClearCloudDrafts" = "Delete All Cloud Drafts";
 
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "Are you sure you want to clear all cloud drafts?";
 

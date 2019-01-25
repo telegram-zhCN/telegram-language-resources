@@ -104,7 +104,7 @@
 "PeerInfo.Report" = "举报";
 "PeerInfo.sharelink" = "分享链接";
 "PeerInfo.Confirm.LeaveChannel" = "您确定要退出这个频道吗？";
-"PeerInfo.Confirm.LeaveGroup" = "你确定你要退出该群组？\n\n此操作不可撤销。";
+"PeerInfo.Confirm.LeaveGroup" = "你确定你要退出此群组？\n\n此操作不可撤销。";
 "PeerInfo.Confirm.DeleteChat" = "你确定你要删除所有消息记录并退出 \"%@\"？\n\n此操作不可撤销。";
 "Confirm.DeleteAdminedChannel" = "且慢！删除此频道将会移除所有关注者并且会丢失所有消息。\n\n确定要删除此频道吗？";
 "Confirm.DeleteChatUser" = "您确定要删除所有消息记录？\n\n此操作不可撤销";
@@ -453,9 +453,9 @@
 "Error.Username.UnderscopeStart" = "用户名不能以下划线开头。";
 "Error.Username.UnderscopeEnd" = "用户名不能以下划线结尾。";
 "Error.Username.NumberStart" = "用户名不能以数字开头。";
-"Error.Username.Invalid" = "该用户名无效";
+"Error.Username.Invalid" = "此用户名无效";
 "Error.Username.MinimumLength" = "用户名必须至少包含 5 个字符";
-"Error.Username.AlreadyTaken" = "该用户名已被占用";
+"Error.Username.AlreadyTaken" = "此用户名已被占用";
 "UsernameSettings.Done" = "完成";
 
 "Search.Separator.ChatsAndContacts" = "联系人与对话";
@@ -661,7 +661,7 @@
 "Notification.LockedPreview" = "您有一条新消息";
 "JoinLink.Join" = "加入";
 
-"Group.Unavailable" = "抱歉，该群组似乎不存在。";
+"Group.Unavailable" = "抱歉，此群组似乎不存在。";
 
 "Chat.Title.self" = "您的云存储";
 "Separator.ShowMore" = "显示更多";
@@ -756,7 +756,7 @@
 
 
 
-
+"peerInfo.Confirm.ClearHistory.Group" = "此操作将会从您的 Telegram 云中删除此群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
 
 "PeerInfo.Confirm.AddMember" = "将 \"%@\" 添加到此群组？";
 "PeerInfo.Confirm.RemovePeer" = "从群组中移除  \"%@\" ？";
@@ -944,7 +944,7 @@
 "StickerSet.Remove" = "移除";
 "InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
 "InstalledStickers.Remove.Delete" = "删除";
-"Alert.UserDoesntExists" = "抱歉，这个用户好像不存在。";
+"Alert.UserDoesntExists" = "抱歉，此用户好像不存在。";
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 
 "Login.Header.Code" = "输入验证码";
@@ -1170,7 +1170,7 @@
 
 "Channel.Persmission.Denied.SendMessages.Until" = "此群组的管理员限制了您在此发送消息的能力至 %@";
 "Channel.Persmission.Denied.SendMessages.Forever" = "此群组的管理员限制了您在此发送消息的能力";
-
+"Channel.Persmission.Denied.SendMessages.DefaultRestrictedText" = "此群组不允许发送消息。";
 
 "Channel.Persmission.Denied.SendMedia.Until" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Channel.Persmission.Denied.SendMedia.Forever" = "此群组的管理员限制了您在此发送媒体文件的能力。";
@@ -1189,9 +1189,9 @@
 
 
 
-"Channel.Persmission.Denied.SendInline.Until" = "此群组的管理员限制了您发送机器人内容的能力至 %@。";
-"Channel.Persmission.Denied.SendInline.Forever" = "此群组的管理员限制了您在此发送机器人内容的能力。";
-
+"Channel.Persmission.Denied.SendInline.Until" = "此群组的管理员限制了您发送 Inline 内容的能力至 %@。";
+"Channel.Persmission.Denied.SendInline.Forever" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";
+"Channel.Persmission.Denied.SendInline.DefaultRestrictedText" = "此群组不允许 Inline 机器人。";
 
 
 "Channel.Admin.Dismiss" = "撤销管理员";
@@ -1235,7 +1235,7 @@
 
 
 "EventLog.Service.Demote.EmbedLinks" = "显示链接预览";
-"EventLog.Service.Demote.SendInline" = "发送嵌入式消息";
+"EventLog.Service.Demote.SendInline" = "发送 Inline 消息";
 
 "EventLog.Service.Promote.ChangeInfo" = "修改信息";
 "EventLog.Service.Promote.DeleteMessages" = "删除消息";
@@ -1318,7 +1318,7 @@
 
 "Channel.Blacklist.RestrictedBy" = "被 %@ 限制";
 "Channel.Blacklist.BlockedBy" = "被 %@ 屏蔽";
-"Channel.Blacklist.DemoteAdminError" = "抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。";
+"Channel.Blacklist.DemoteAdminError" = "抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。";
 
 
 "Channel.UserRestriction" = "用户限制";
@@ -1336,8 +1336,8 @@
 "Channel.Admins.PromotedBy" = "被 %@ 设为管理员";
 "Channel.Admins.AddAdminError" = "抱歉，您无权将此用户提升为管理员。";
 
-"Channel.Admins.Promote.BannedAdminError" = "抱歉，您无法设置该用户为管理员，因为该用户在黑名单中，且您无权解封。";
-"Channel.Admins.Promote.UnmemberAdminError" = "抱歉，您无法设置该用户为管理员，因为这位用户不是群组成员，且您无法将他邀请到该群组。";
+"Channel.Admins.Promote.BannedAdminError" = "抱歉，您无法设置此用户为管理员，因为此用户在黑名单中，且您无权解封。";
+"Channel.Admins.Promote.UnmemberAdminError" = "抱歉，您无法将此用户设为管理员。因为此用户不是群组成员，且您也无权添加此用户。";
 "Channel.BanForever" = "长期";
 
 "Channel.EventFilter.EventsHeader" = "事件";
@@ -1798,7 +1798,7 @@
 "CrashOnLaunch.Information" = "如果 Telegram 依然在您打开它时崩溃，点击 OK 按钮来登出帐号。这应该能解决问题。";
 "ChatWallpaper.Empty" = "默认";
 
-"Chat.Service.BotPermissionAllowed" = "您允许该机器人在您使用 %@ 登录时向您发出消息。";
+"Chat.Service.BotPermissionAllowed" = "您允许了此机器人在您登录 %@ 时向您发送消息。";
 
 "Compose.CreateGroup.LimitError" = "您能够在创建群组并升级到超级群组后添加更多的用户。";
 
@@ -2222,7 +2222,7 @@
 
 "Suggest.Frequent.Contacts" = "推荐频繁往来的联系人";
 "Suggest.Frequent.Contacts.Desc" = "在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。";
-"Suggest.Frequent.Contacts.Alert" = "这将删除所有有关您通信频率的统计数据和消息框内机器人的使用偏好。";
+"Suggest.Frequent.Contacts.Alert" = "这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。";
 
 "Telegram.PeerMediaController" = "分享的媒体";
 "AccountSettings.ReadArticles" = "Read Articles";
@@ -2625,7 +2625,7 @@
 
 
 "GroupPermission.AddSuccess" = "成功添加例外";
-
+"GroupPermission.NotAvailableInPublicGroups" = "此权限在公开群组中不可用。";
 
 
 

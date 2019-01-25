@@ -854,7 +854,7 @@
 "Username.InvalidTooShort" = "用户名必须至少包含 **5** 个字符";
 "Username.InvalidStartsWithNumber" = "抱歉，用户名不能以数字开头";
 "Username.InvalidCharacters" = "用户名只允许使用 a-z, 0-9 和下划线。";
-"Username.InvalidTaken" = "抱歉，该用户名已被占用";
+"Username.InvalidTaken" = "抱歉，此用户名已被占用";
 
 "Username.CheckingUsername" = "正在检查用户名...";
 "Username.UsernameIsAvailable" = "%@ 可用";
@@ -1396,8 +1396,8 @@
 "UserInfo.ShareMyContactInfo" = "分享我的联系信息";
 
 "GroupInfo.InvitationLinkAcceptChannel" = "确定加入频道 \"%@\" ？";
-"GroupInfo.InvitationLinkDoesNotExist" = "抱歉，该群组似乎不存在。";
-"GroupInfo.InvitationLinkGroupFull" = "抱歉，该群组已满员";
+"GroupInfo.InvitationLinkDoesNotExist" = "抱歉，此群组似乎不存在。";
+"GroupInfo.InvitationLinkGroupFull" = "抱歉，此群组已满员";
 
 "Core.ServiceUserStatus" = "服务通知";
 
@@ -1459,7 +1459,7 @@
 "Conversation.SearchPlaceholder" = "搜索此会话";
 "Conversation.SearchNoResults" = "无搜索结果";
 
-"GroupInfo.AddUserLeftError" = "抱歉，如果某位用户已退出该群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
+"GroupInfo.AddUserLeftError" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
 
 "DialogList.SearchSectionRecent" = "最近";
 
@@ -1606,7 +1606,7 @@
 "ShareMenu.Send" = "发送";
 
 "Conversation.ReportSpam" = "举报垃圾信息";
-"Conversation.ReportSpamConfirmation" = "您确定要举报该用户发布垃圾信息？";
+"Conversation.ReportSpamConfirmation" = "您确定要举报此用户发布垃圾信息吗？";
 "SharedMedia.EmptyMusicText" = "在此会话中所分享的全部音乐会出现在这里。";
 
 "ChatSettings.AutoPlayAnimations" = "自动播放 GIF ";
@@ -1636,8 +1636,8 @@
 "Notification.RenamedGroup" = "群组名称已更改";
 
 "Group.ErrorAddTooMuchBots" = "抱歉，此群组的机器人数量已达上限。";
-"Group.ErrorAddTooMuchAdmins" = "抱歉，该群组的管理员人数已达上限。";
-"Group.ErrorAddBlocked" = "抱歉，您无法添加该用户到群组。";
+"Group.ErrorAddTooMuchAdmins" = "抱歉，此群组的管理员人数已达上限。";
+"Group.ErrorAddBlocked" = "抱歉，您无法添加此用户到群组。";
 "Group.ErrorNotMutualContact" = "抱歉，目前您只能邀请双向联系人加入群组。";
 
 "Conversation.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
@@ -1864,7 +1864,7 @@
 "KeyCommand.ChatInfo" = "详细信息";
 
 "Conversation.SecretLinkPreviewAlert" = "要为私密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。";
-"Conversation.SecretChatContextBotAlert" = "请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。";
+"Conversation.SecretChatContextBotAlert" = "请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。";
 
 "Map.OpenInWaze" = "在 Waze 中打开";
 
@@ -2549,7 +2549,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.BanEmbedLinks" = "显示链接预览";
 "Channel.AdminLog.MessageRestricted" = "%@ 修改了 %@ 的限制 (%@)";
 "Channel.AdminLog.MessageAdmin" = "%@ 修改了 %@ 的权限 (%@)";
-"Channel.AdminLog.ChangeInfo" = "更该群组信息";
+"Channel.AdminLog.ChangeInfo" = "修改群组信息";
 "Channel.AdminLog.PinMessages" = "置顶消息";
 "Channel.AdminLog.AddMembers" = "邀请新成员";
 "Channel.AdminLog.SendPolls" = "发起投票";
@@ -2645,19 +2645,19 @@ Unused sets are archived when you add more.";
 
 "Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在此发送消息的能力至 %@";
 "Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的能力。";
+"Conversation.DefaultRestrictedText" = "此群组不允许发送消息。";
 
-
-"Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送机器人内容的能力至 %@";
-"Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的能力";
-"Conversation.DefaultRestrictedInline" = "此群组不允许发送 inline 内容";
+"Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送 Inline 内容的能力至 %@";
+"Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";
+"Conversation.DefaultRestrictedInline" = "此群组不允许 Inline 机器人。";
 
 "Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的能力";
-
+"Conversation.DefaultRestrictedMedia" = "此群组不允许发送媒体。";
 
 "Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在此发送贴纸的能力至 %@";
 "Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的能力";
-
+"Conversation.DefaultRestrictedStickers" = "此群组不允许发送贴纸。";
 
 "ChatSettings.ConnectionType.Title" = "连接类型";
 "ChatSettings.ConnectionType.UseProxy" = "使用代理";
@@ -2689,11 +2689,11 @@ Unused sets are archived when you add more.";
 
 "Camera.Title" = "拍摄照片或视频";
 
-"Channel.Members.AddAdminErrorNotAMember" = "抱歉，您无法将这位用户设为管理员。因为该用户不是此群组的成员，且您也无权添加该用户。";
+"Channel.Members.AddAdminErrorNotAMember" = "抱歉，您无法将此用户设为管理员。因为此用户不是群组成员，且您也无权添加此用户。";
 
-"Channel.Members.AddAdminErrorBlacklisted" = "抱歉，您无法设置该用户为管理员，因为该用户在黑名单中，且您无权解封。";
+"Channel.Members.AddAdminErrorBlacklisted" = "抱歉，您无法设置此用户为管理员，因为此用户在黑名单中，且您无权解封。";
 
-"Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁这位用户。因为该用户是此群组的管理员，并且您也无权撤销其管理员权限。";
+"Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。";
 
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
@@ -3036,7 +3036,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.EventsLeavingSubscribers" = "订阅者退出";
 
 "Conversation.ClearPrivateHistory" = "此操作将会从您的 Telegram 云中删除该对话的所有消息和媒体，但对方储存的内容仍将被保留。";
-"Conversation.ClearGroupHistory" = "此操作将会从您的 Telegram 云中删除该群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
+"Conversation.ClearGroupHistory" = "此操作将会从您的 Telegram 云中删除此群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
 "Conversation.ClearSecretHistory" = "此操作将会清空对话双方的消息和媒体记录。";
 "Conversation.ClearSelfHistory" = "这将从您的 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
@@ -3086,7 +3086,7 @@ Unused sets are archived when you add more.";
 "AuthSessions.LogOutApplicationsHelp" = "您可以在所有支持使用 Telegram 登入的网站中登录。";
 "AuthSessions.LoggedInWithTelegram" = "使用 Telegram 登录";
 "AuthSessions.LogOut" = "登出";
-"AuthSessions.Message" = "您允许这个机器人在你登录 %@ 时向您发送消息。";
+"AuthSessions.Message" = "您允许了此机器人在您登录 %@ 时向您发送消息。";
 
 "Conversation.ContextMenuReport" = "举报";
 
@@ -3405,7 +3405,7 @@ Unused sets are archived when you add more.";
 
 "Privacy.TopPeers" = "推荐频繁往来的联系人";
 "Privacy.TopPeersHelp" = "在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。";
-"Privacy.TopPeersWarning" = "这将删除所有有关您通信频率的统计数据和消息框内机器人的使用偏好。";
+"Privacy.TopPeersWarning" = "这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。";
 "Privacy.TopPeersDelete" = "删除";
 
 "Conversation.EditingCaptionPanelTitle" = "编辑说明";
@@ -3848,7 +3848,7 @@ Unused sets are archived when you add more.";
 
 "GroupPermission.ApplyAlertAction" = "应用";
 "GroupPermission.AddSuccess" = "成功添加例外";
-
+"GroupPermission.NotAvailableInPublicGroups" = "此权限在公开群组中不可用。";
 
 
 

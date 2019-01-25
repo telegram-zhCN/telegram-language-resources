@@ -357,7 +357,7 @@
   <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
   <string name="SendMessageTo">发送消息给...</string>
   <string name="GroupName">小组名称</string>
-  <string name="GroupDontAdd">阻止我被加入到该群组</string>
+  <string name="GroupDontAdd">从列表中移除</string>
   <string name="GroupEnterValidName">请输入一个有效的群组名</string>
   <string name="ConvertGroup">升级为超级群组</string>
   <string name="Link">链接</string>
@@ -414,7 +414,7 @@
   <string name="group_user_self_removed">您移除了 %1$s</string>
   <string name="group_user_removed_self">%1$s 已将您从群组中移除</string>
   <string name="group_user_remove">%1$s 离开了群组</string>
-  <string name="group_user_remove_self">您退出了该群组</string>
+  <string name="group_user_remove_self">您退出了此群组</string>
   <string name="group_user_join_by_link">%1$s 通过邀请链接加入了群组</string>
   <string name="group_user_join_by_link_self">您通过邀请链接加入了此群组。</string>
   <string name="group_created">%1$s 创建了群组 «%2$s»</string>
@@ -501,7 +501,7 @@
   <string name="PasswordIsInvalid">您输入的密码无效</string>
   <string name="InviteLinkInvalid">此邀请链接已失效</string>
   
-  <string name="InlineBot">消息框内机器人</string>
+  <string name="InlineBot">Inline 机器人</string>
   
   <string name="SelectedSuffix_other">已选中</string>
 
@@ -1464,7 +1464,7 @@
   <string name="NoRestrictionsHint">请至少设置一条限制</string>
   <string name="NoAdminRulesHint">请至少授予一个权限</string>
   <string name="SecretLinkPreviewAlert">要为加密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。</string>
-  <string name="SecretChatContextBotAlert">请注意消息框内机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
+  <string name="SecretChatContextBotAlert">请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
   <string name="ClearRecentEmojiAction">清除最近使用的 Emoji</string>
   <string name="PaintModeDoodle">涂鸦</string>
   <string name="PaintModeArrow">箭头</string>
@@ -1711,7 +1711,7 @@
   <string name="SyncContactsDelete">删除已同步联系人</string>
   <string name="SyncContactsDeleteButton">删除已同步联系人</string>
   <string name="SyncContactsDeleteInfo">这样做将从 Telegram 服务器中移除关于您通讯录的一切信息。如果“同步通讯录”功能保持开启，您的通讯录会被重新同步到 Telegram 服务器。</string>
-  <string name="BotWebsiteAllowed">你允许这个 bot 在你登陆 %1$s 时给你发送消息。</string>
+  <string name="BotWebsiteAllowed">您允许了此机器人在您登录 %1$s 时向您发送消息。</string>
   <string name="QuickActionSettingNone">无</string>
   <string name="QuickActionSettingShare">分享</string>
   <string name="QuickActionSettingReply">回复</string>
@@ -1722,7 +1722,7 @@
   <string name="PrivacyClearPayment">付款信息</string>
   <string name="PrivacyPaymentsClearAlert">是否删除您的配送信息，并使所有的付款提供商清除您保存的信用卡？请注意 Telegram 从来不会存储您的信用卡数据。</string>
   <string name="SuggestContacts">推荐频繁往来的联系人</string>
-  <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和消息框内机器人的使用偏好。</string>
+  <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。</string>
   <string name="SuggestContactsDone">删除并停止使用</string>
   <string name="MarkAsRead">标记为已读</string>
   <string name="MarkAsUnread">标记为未读</string>
@@ -2267,7 +2267,7 @@
   
   
 
-  <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，该用户已决定退出此群组，因此您无法邀请该用户回来。</string>
+  <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
 
   
   
