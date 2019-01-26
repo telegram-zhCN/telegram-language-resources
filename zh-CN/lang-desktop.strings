@@ -798,7 +798,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_administrators" = "管理员";
 "lng_manage_peer_exceptions" = "例外";
 "lng_manage_peer_removed_users" = "被封禁的用户";
-"lng_manage_peer_permissions" = "成员权限";
+"lng_manage_peer_permissions" = "权限";
 "lng_manage_history_visibility_title" = "历史记录对新成员";
 "lng_manage_history_visibility_shown" = "可见";
 "lng_manage_history_visibility_shown_about" = "新成员将可以查看所有消息记录。";
@@ -1054,7 +1054,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_faved_stickers_add" = "添加到收藏夹";
 "lng_faved_stickers_remove" = "从收藏中移除";
 "lng_group_stickers" = "群组贴纸包";
-"lng_group_stickers_description" = "你可以为所有群成员选择一个贴纸包，这样当他们在群里聊天时都可以看到并使用它。";
+"lng_group_stickers_description" = "你可以选择一个贴纸包，以供全体成员使用。";
 "lng_group_stickers_add" = "选择贴纸包";
 
 "lng_group_about_header" = "您创建了一个**群组**";
@@ -1493,7 +1493,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_about_restriction_cant_edit" = "您不能更改此用户的限制。";
 "lng_rights_restriction_for_all" = "该项已在群组默认权限中被禁用。";
 "lng_rights_permission_for_all" = "该项已在群组默认权限中被启用。";
-"lng_rights_permission_unavailable" = "此权限在公开群组中不可用。";
+"lng_rights_permission_unavailable" = "此权限不能在公开群组中开放。";
 "lng_rights_permission_cant_edit" = "您不能修改此权限。";
 "lng_rights_user_restrictions" = "用户限制";
 "lng_rights_user_restrictions_header" = "这位成员可以做什么？";
@@ -1505,7 +1505,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_channel_delete" = "删除其他人的消息";
 "lng_rights_group_info" = "修改群组信息";
 "lng_rights_group_ban" = "封禁用户";
-"lng_rights_group_invite_link" = "使用链接邀请用户";
+"lng_rights_group_invite_link" = "生成邀请链接";
 "lng_rights_group_invite" = "添加用户";
 "lng_rights_group_pin" = "置顶消息";
 "lng_rights_group_delete" = "删除消息";
@@ -1625,7 +1625,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_admin_delete_messages" = "删除消息";
 "lng_admin_log_admin_ban_users" = "封禁用户";
 "lng_admin_log_admin_invite_users" = "添加用户";
-"lng_admin_log_admin_invite_link" = "使用链接邀请用户";
+"lng_admin_log_admin_invite_link" = "生成邀请链接";
 "lng_admin_log_admin_pin_messages" = "置顶消息";
 "lng_admin_log_admin_add_admins" = "添加新管理员";
 

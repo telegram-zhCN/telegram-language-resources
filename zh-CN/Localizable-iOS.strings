@@ -2504,9 +2504,9 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissionEditMessages" = "编辑消息";
 "Channel.EditAdmin.PermissionDeleteMessages" = "删除消息";
 "Channel.EditAdmin.PermissionBanUsers" = "禁止用户";
+"Channel.EditAdmin.PermissionInviteSubscribers" = "添加订阅者";
 
-
-
+"Channel.EditAdmin.PermissionInviteViaLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionPinMessages" = "置顶消息";
 "Channel.EditAdmin.PermissionAddAdmins" = "添加新管理员";
 
@@ -2559,7 +2559,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanDeleteMessages" = "删除消息";
 "Channel.AdminLog.CanBanUsers" = "禁止用户";
 "Channel.AdminLog.CanInviteUsers" = "添加用户";
-"Channel.AdminLog.CanChangeInviteLink" = "使用链接邀请用户";
+"Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.AdminLog.CanPinMessages" = "置顶消息";
 "Channel.AdminLog.CanAddAdmins" = "添加新管理员";
 "Channel.AdminLog.CanEditMessages" = "编辑消息";
@@ -3819,7 +3819,7 @@ Unused sets are archived when you add more.";
 
 
 
-"GroupInfo.Permissions" = "成员权限";
+"GroupInfo.Permissions" = "权限";
 "GroupInfo.Permissions.Title" = "权限";
 "GroupInfo.Permissions.SectionTitle" = "这个群组的成员可以做什么？";
 "GroupInfo.Permissions.Removed" = "被封禁的用户";
@@ -3848,18 +3848,18 @@ Unused sets are archived when you add more.";
 
 "GroupPermission.ApplyAlertAction" = "应用";
 "GroupPermission.AddSuccess" = "成功添加例外";
-"GroupPermission.NotAvailableInPublicGroups" = "此权限在公开群组中不可用。";
+"GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
 
-
+"Channel.Management.RemovedBy" = "被 %@ 封禁";
 
 "GroupRemoved.Title" = "被封禁的用户";
 "GroupRemoved.Remove" = "封禁用户";
 "GroupRemoved.RemoveInfo" = "被管理员从群组封禁的用户无法通过邀请链接重新加入。";
 "ChannelRemoved.RemoveInfo" = "被管理员删除的成员无法通过邀请链接返回频道。";
-
-
+"GroupRemoved.UsersSectionTitle" = "被封禁的用户";
+"GroupRemoved.ViewUserInfo" = "查看个人信息";
 "GroupRemoved.AddToGroup" = "邀请加入群组";
-
+"GroupRemoved.DeleteUser" = "删除";
 
 "EmptyGroupInfo.Title" = "您创建了一个**群组**";
 "EmptyGroupInfo.Subtitle" = "群组可以拥有：";

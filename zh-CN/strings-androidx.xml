@@ -1140,7 +1140,7 @@
   <string name="InviteFriends">邀请朋友</string>
   <string name="InviteText">嘿！和我一起用 %1$s 吧：\n%2$s</string>
   <string name="ShowForwardOptions">显示转发选项</string>
-  <string name="OpenProfile">查看用户信息</string>
+  <string name="OpenProfile">查看个人信息</string>
   <string name="OpenChannel">查看频道</string>
   <string name="OpenGroup">查看群组</string>
   <string name="OpenBot">打开机器人</string>

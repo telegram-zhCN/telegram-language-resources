@@ -361,12 +361,12 @@
     <string name="EditAdminRemoveAdmin">撤销管理员</string>
     <string name="EditAdminBanUsers">封禁用户</string>
     <string name="EditAdminAddUsers">添加用户</string>
-    <string name="EditAdminAddUsersViaLink">使用链接邀请用户</string>
+    <string name="EditAdminAddUsersViaLink">生成邀请链接</string>
     <string name="EditAdminPinMessages">置顶消息</string>
     <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
     <string name="EditAdminCantEdit">您无权修改此管理员的权限。</string>
     <string name="EditCantEditPermissions">您不能修改此权限。</string>
-    <string name="EditCantEditPermissionsPublic">此权限在公开群组中不可用。</string>
+    <string name="EditCantEditPermissionsPublic">此权限不能在公开群组中开放。</string>
     <string name="UserRemovedBy">被 %1$s 封禁</string>
     <string name="UserRestrictions">用户权限</string>
     <string name="UserRestrictionsDisabled">该项已在群组默认权限中被禁用。</string>
@@ -1118,7 +1118,7 @@
     <string name="BackgroundPreviewLine2">Thank you!</string>
     <string name="SetBackground">设为聊天背景</string>
     <string name="SelectColorTitle">选择颜色</string>
-    <string name="UploadImage">Upload image</string>
+    <string name="UploadImage">上传图片</string>
     <string name="SelectImage">选择图片</string>
     <string name="LoadingFullImage">正在加载完整图片...</string>
     <string name="SetColor">设置为纯色</string>

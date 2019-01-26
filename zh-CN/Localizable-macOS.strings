@@ -88,7 +88,7 @@
 "PeerInfo.AddMember" = "邀请新成员";
 "PeerInfo.DeleteAndExit" = "删除并退出";
 
-"PeerInfo.Permissions" = "成员权限";
+"PeerInfo.Permissions" = "权限";
 "PeerInfo.Administrators" = "管理员";
 
 
@@ -1163,9 +1163,9 @@
 "Channel.EditAdmin.Permission.AddNewAdmins" = "添加新管理员";
 "Channel.EditAdmin.Permission.PostMessages" = "发布消息";
 "Channel.EditAdmin.Permission.EditMessages" = "编辑消息";
+"Channel.EditAdmin.PermissionInviteSubscribers" = "添加订阅者";
 
-
-
+"Channel.EditAdmin.PermissionInviteViaLink" = "生成邀请链接";
 
 
 "Channel.Persmission.Denied.SendMessages.Until" = "此群组的管理员限制了您在此发送消息的能力至 %@";
@@ -1241,7 +1241,7 @@
 "EventLog.Service.Promote.DeleteMessages" = "删除消息";
 "EventLog.Service.Promote.PostMessages" = "发布消息";
 "EventLog.Service.Promote.AddUsers" = "添加用户";
-"EventLog.Service.Promote.InviteViaLink" = "使用链接邀请用户";
+"EventLog.Service.Promote.InviteViaLink" = "生成邀请链接";
 "EventLog.Service.Promote.PinMessages" = "置顶";
 "EventLog.Service.Promote.AddNewAdmins" = "添加新管理员";
 "EventLog.Service.Promote.BanUsers" = "屏蔽用户";
@@ -2625,11 +2625,11 @@
 
 
 "GroupPermission.AddSuccess" = "成功添加例外";
-"GroupPermission.NotAvailableInPublicGroups" = "此权限在公开群组中不可用。";
+"GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
 
 
 
-"Telegram.ChannelPermissionsController" = "成员权限";
+"Telegram.ChannelPermissionsController" = "权限";
 
 "GroupInfo.Permissions.Removed" = "被封禁的用户";
 
