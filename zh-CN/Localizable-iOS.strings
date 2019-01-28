@@ -1,5 +1,5 @@
 // Notifications
-
+"PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
 
 
 
@@ -54,7 +54,7 @@
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
 
-
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
 
@@ -83,7 +83,7 @@
 
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 
-
+"PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
 
 
 
@@ -120,7 +120,7 @@
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
 
-
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
 
@@ -137,13 +137,13 @@
 
 
 
-
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 
 
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 
 "PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|发布了 %2$d 条视频留言";
-
+"PUSH_CHANNEL_MESSAGE" = "%1$@|发布了一条消息";
 
 
 
@@ -3884,6 +3884,7 @@ Unused sets are archived when you add more.";
 
 
 
+"Wallpaper.SetColor" = "设置纯色背景";
 
 
 
@@ -3894,8 +3895,7 @@ Unused sets are archived when you add more.";
 
 
 
-
-"WallpaperColors.Title" = "设置为纯色";
+"WallpaperColors.Title" = "设置纯色背景";
 
 
 

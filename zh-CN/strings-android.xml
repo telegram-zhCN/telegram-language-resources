@@ -1121,7 +1121,7 @@
     <string name="UploadImage">上传图片</string>
     <string name="SelectImage">选择图片</string>
     <string name="LoadingFullImage">正在加载完整图片...</string>
-    <string name="SetColor">设置为纯色</string>
+    <string name="SetColor">设置纯色背景</string>
     <string name="MessagesSettings">聊天设置</string>
     <string name="SendByEnter">使用回车键发送消息</string>
     <string name="Events">事件</string>
