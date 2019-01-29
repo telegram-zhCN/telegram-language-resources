@@ -1475,7 +1475,7 @@
   <string name="ChatAccessRestrictedChannel">您已被频道管理员封禁</string>
   <string name="ChatAccessPrivateGroup">此群组为私人群组</string>
   <string name="ChatAccessPrivateChannel">此频道为私人频道</string>
-  <string name="YouCantInviteMembers">您不能邀请成员到此对话</string>
+  <string name="YouCantInviteMembers">您无法邀请新成员加入此群组</string>
   <string name="RecoveryCodeSent">我们已经将六位数字恢复码发送至您的邮箱 (%1$s)。请查阅您的邮件并将验证码输入到此处。</string>
   <string name="RecoveryCodeSentEmailUnknown">我们给您发送了一个六位数字恢复码。请查阅您的电子邮箱并将验证码输入到此处。</string>
   <string name="RestoreEmailTroubleUnknown">无法访问您的电子邮箱？</string>

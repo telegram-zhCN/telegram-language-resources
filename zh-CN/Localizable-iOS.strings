@@ -1888,7 +1888,7 @@
 "Conversation.PinnedMessage" = "置顶消息";
 
 "Conversation.Moderate.Delete" = "删除消息";
-"Conversation.Moderate.Ban" = "屏蔽用户";
+"Conversation.Moderate.Ban" = "封禁用户";
 "Conversation.Moderate.Report" = "举报垃圾信息";
 "Conversation.Moderate.DeleteAllMessages" = "删除来自 %@ 的所有消息";
 
@@ -2505,7 +2505,7 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissionDeleteMessages" = "删除消息";
 "Channel.EditAdmin.PermissionBanUsers" = "禁止用户";
 "Channel.EditAdmin.PermissionInviteSubscribers" = "添加订阅者";
-
+"Channel.EditAdmin.PermissionInviteMembers" = "邀请新成员";
 "Channel.EditAdmin.PermissionInviteViaLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionPinMessages" = "置顶消息";
 "Channel.EditAdmin.PermissionAddAdmins" = "添加新管理员";
@@ -2521,15 +2521,15 @@ Unused sets are archived when you add more.";
 "Localization.LanguageCustom" = "自定义";
 
 "Channel.BanUser.Title" = "封禁用户";
-"Channel.BanUser.PermissionsHeader" = "用户限制";
+"Channel.BanUser.PermissionsHeader" = "限制用户权限";
 "Channel.BanUser.PermissionReadMessages" = "查看消息";
 "Channel.BanUser.PermissionSendMessages" = "发送消息";
 "Channel.BanUser.PermissionSendMedia" = "发送媒体";
 "Channel.BanUser.PermissionSendStickersAndGifs" = "发送贴纸和 GIF";
 "Channel.BanUser.PermissionEmbedLinks" = "显示链接预览";
 "Channel.BanUser.PermissionSendPolls" = "发起投票";
-
-
+"Channel.BanUser.PermissionChangeGroupInfo" = "修改群组信息";
+"Channel.BanUser.PermissionAddMembers" = "邀请新成员";
 "Channel.BanUser.Unban" = "解除封禁";
 
 "Channel.BanUser.BlockFor" = "屏蔽时长";
@@ -2892,7 +2892,7 @@ Unused sets are archived when you add more.";
 "Notification.PinnedLiveLocationMessage" = "%@ 置顶了一个实时位置";
 "Message.PinnedLiveLocationMessage" = "置顶了实时位置";
 
-
+"NotificationSettings.ContactJoined" = "新联系人加入";
 
 "AccessDenied.LocationAlwaysDenied" = "如果您想与好友共享实时位置信息, Telegram 将需要后台位置访问权限。\n\n请前往「设置 > 隐私 > 位置服务」并将 Telegram 设为“总是”。";
 
@@ -3817,7 +3817,7 @@ Unused sets are archived when you add more.";
 "Contacts.SortedByName" = "按姓名排序";
 "Contacts.SortedByPresence" = "按最后上线时间排序";
 
-
+"NotificationSettings.ContactJoinedInfo" = "当您有联系人加入 Telegram 时接收推送通知。";
 
 "GroupInfo.Permissions" = "权限";
 "GroupInfo.Permissions.Title" = "权限";
@@ -3830,14 +3830,14 @@ Unused sets are archived when you add more.";
 "GroupInfo.Administrators" = "管理员";
 
 
-
+"GroupPermission.NoSendMessages" = "无法发送消息";
 "GroupPermission.NoSendMedia" = "无法发送媒体";
-
+"GroupPermission.NoSendGifs" = "无法发送 GIF";
 "GroupPermission.NoSendPolls" = "无法发起投票";
 "GroupPermission.NoSendLinks" = "无法使用预览";
 "GroupPermission.NoChangeInfo" = "无法更改信息";
-
-
+"GroupPermission.NoAddMembers" = "无法邀请成员";
+"GroupPermission.NoPinMessages" = "无法置顶消息";
 
 "GroupPermission.Title" = "例外";
 "GroupPermission.NewTitle" = "新例外";
@@ -3896,7 +3896,7 @@ Unused sets are archived when you add more.";
 
 
 "WallpaperColors.Title" = "设置纯色背景";
-
+"WallpaperColors.SetCustomColor" = "设置自定义颜色";
 
 
 
@@ -3936,7 +3936,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"SocksProxySetup.ShareQRCodeInfo" = "您的朋友可以通过使用相机扫描此二维码添加代理。";
 "SocksProxySetup.ShareQRCode" = "分享二维码";
 "SocksProxySetup.ShareLink" = "分享代理链接";
 

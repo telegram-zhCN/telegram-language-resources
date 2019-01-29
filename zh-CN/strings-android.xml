@@ -251,7 +251,7 @@
     <string name="MegaPrivateInfo">私人群组只能通过他人邀请或通过邀请链接加入。</string>
     <string name="ChannelLinkTitle">永久链接</string>
     <string name="ChannelInviteLinkTitle">邀请链接</string>
-    <string name="ChannelAddMembers">添加关注者</string>
+    <string name="ChannelAddMembers">添加订阅者</string>
     <string name="LeaveChannel">退出频道</string>
     <string name="LeaveChannelMenu">退出频道</string>
     <string name="ChannelSettings">设置</string>
@@ -590,7 +590,7 @@
     <string name="IsSendingPhoto">%1$s 正在发送图片...</string>
     <string name="InstantView">即时预览</string>
     <string name="OpenGroup">查看群组</string>
-    <string name="OpenBackground">查看背景</string>
+    <string name="OpenBackground">查看聊天背景</string>
     <string name="OpenChannel">查看频道</string>
     <string name="OpenMessage">查看消息</string>
     <string name="InstantViewNightMode">暗色主题将会在夜间自动启用</string>
@@ -1110,12 +1110,12 @@
     <string name="Default">默认</string>
     <string name="Support">支持</string>
     <string name="OnlyIfSilent">仅静音模式</string>
-    <string name="BackgroundBlurred">Blurred</string>
+    <string name="BackgroundBlurred">模糊</string>
     <string name="BackgroundMotion">Motion</string>
     <string name="ChatBackground">聊天背景</string>
     <string name="BackgroundPreview">背景预览</string>
-    <string name="BackgroundPreviewLine1">Hint: some background images look better with blur effect.</string>
-    <string name="BackgroundPreviewLine2">Thank you!</string>
+    <string name="BackgroundPreviewLine1">提示：一些背景图像使用模糊效果会看起来更好。</string>
+    <string name="BackgroundPreviewLine2">谢谢！</string>
     <string name="SetBackground">设为聊天背景</string>
     <string name="SelectColorTitle">选择颜色</string>
     <string name="UploadImage">上传图片</string>

@@ -1164,7 +1164,7 @@
 "Channel.EditAdmin.Permission.PostMessages" = "发布消息";
 "Channel.EditAdmin.Permission.EditMessages" = "编辑消息";
 "Channel.EditAdmin.PermissionInviteSubscribers" = "添加订阅者";
-
+"Channel.EditAdmin.PermissionInviteMembers" = "邀请新成员";
 "Channel.EditAdmin.PermissionInviteViaLink" = "生成邀请链接";
 
 
@@ -1232,7 +1232,7 @@
 
 
 
-
+"EventLog.Service.Demote.AddMembers" = "邀请新成员";
 
 "EventLog.Service.Demote.EmbedLinks" = "显示链接预览";
 "EventLog.Service.Demote.SendInline" = "发送 Inline 消息";
@@ -2509,7 +2509,7 @@
 "Chat.Poll.TotalVotes_other" = "%d 人已投票";
 
 
-
+"Chat.Poll.Tooltip.NoVotes" = "无人投票";
 
 
 
@@ -2593,17 +2593,17 @@
 
 
 
-
-
-
+"Channel.BanUser.Title" = "封禁用户";
+"Channel.BanUser.PermissionsHeader" = "限制用户权限";
+"Channel.BanUser.PermissionReadMessages" = "查看消息";
 "Channel.BanUser.PermissionSendMessages" = "发送消息";
 "Channel.BanUser.PermissionSendMedia" = "发送媒体";
 
 
 "Channel.BanUser.PermissionSendPolls" = "发起投票";
 
-
-
+"Channel.BanUser.PermissionAddMembers" = "邀请新成员";
+"Channel.BanUser.Unban" = "解除封禁";
 
 
 
@@ -2614,7 +2614,7 @@
 "GroupPermission.NoSendLinks" = "无法使用预览";
 "GroupPermission.NoChangeInfo" = "无法更改信息";
 
-
+"GroupPermission.NoPinMessages" = "无法置顶消息";
 
 
 "GroupPermission.NewTitle" = "新例外";
@@ -2634,10 +2634,10 @@
 "GroupInfo.Permissions.Removed" = "被封禁的用户";
 
 
+"GroupInfo.Permissions.SearchPlaceholder" = "搜索例外";
 
-
-
-
+"GroupInfo.Administrators" = "管理员";
+"GroupInfo.Administrators.Title" = "管理员";
 
 
 
@@ -2718,7 +2718,7 @@
 
 
 
-
+"WallpaperPreview.Blurred" = "模糊";
 
 //
 //"_NS:103.title" = "Edit";
