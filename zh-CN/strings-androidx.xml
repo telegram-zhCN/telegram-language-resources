@@ -1065,7 +1065,7 @@
   <string name="ChatQuickActions">划动操作</string>
   <string name="Duration">持续时间</string>
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
-  <string name="VoipFeedbackCommentHint">添加评价</string>
+  <string name="VoipFeedbackCommentHint">附加说明</string>
   <string name="VoipAudioRoutingEarpiece">听筒</string>
   <string name="VoipAudioRoutingSpeaker">扬声器</string>
   <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
@@ -1308,8 +1308,8 @@
   <string name="InviteBackToGroup">将其邀请回群组</string>
   <string name="InviteBackToChannel">将其邀请回频道</string>
   <string name="MemberCannotJoinRegularGroup">除非被其他成员邀请或获得一个邀请链接，否则 %1$s 将无法再次加入此群组。</string>
-  <string name="AdminCanAssignAdmins">该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。</string>
-  <string name="AdminCannotAssignAdmins">该管理员不能添加新管理员。</string>
+  <string name="AdminCanAssignAdmins">该管理员能够任命新管理员，并赋予其最高与本人相当的权限。</string>
+  <string name="AdminCannotAssignAdmins">该管理员无法任命新管理员。</string>
   <string name="ShareMyContactInfo">分享我的联系方式</string>
   <string name="MemberBanChannel">此用户将被封禁并从频道中移除。</string>
   <string name="MemberBanGroup">此用户将被封禁并从群组中移除。</string>
@@ -1919,7 +1919,7 @@
   <string name="json_1_audioPerformer">大卫·哈塞尔霍夫</string>
   <string name="json_1_text1">哈哈！嗨起来！**Waow!!**</string>
   <string name="json_1_text2">莱因哈特，你的音乐口味得换换了&#127926;。</string>
-  <string name="json_1_text3">啊，玩电子乐的小子！你应该好好听听古典乐曲，哈塞尔霍夫的就不错！</string>
+  <string name="json_1_text3">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
   <string name="json_1_text4">真是没法交流...</string>
 
   <string name="json_2_name1">丹妮莉丝</string>
@@ -2222,7 +2222,7 @@
   <string name="BadgeCounter">未读消息数量提示</string>
   <string name="BadgeCounterMuted">包含已关闭通知的对话</string>
   <string name="BadgeCounterMessages">按消息数统计未读</string>
-  
+  <string name="BadgeCounterMessagesOn">开启以显示未读消息数而非未读对话数。</string>
   <string name="BadgeCounterMessagesOff">关闭以显示未读对话数而非未读消息数。</string>
   <string name="NotificationsPrivateInfo">您可以在特定的用户信息界面中设置针对他们的通知策略。</string>
   <string name="NotificationsGroupInfo">您可以在特定的群组信息界面中设置针对他们的通知策略。</string>

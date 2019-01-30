@@ -15,8 +15,8 @@
 "PUSH_ENCRYPTED_MESSAGE" = "您有一条新消息%1$@";
 "PUSH_LOCKED_MESSAGE" = "您有一条新消息%1$@";
 
-
-
+"PUSH_ENCRYPTION_REQUEST" = "新加密聊天请求%1$@";
+"PUSH_ENCRYPTION_ACCEPT" = "您的加密聊天请求已被接受%1$@";
 
 
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
@@ -25,10 +25,10 @@
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 
-
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 
-
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息";
 
 
 
@@ -41,7 +41,7 @@
 
 "PUSH_CHAT_DELETE_YOU" = "%2$@|%1$@ 已将您从群组中移除";
 
-
+"PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
 
 
 
@@ -53,7 +53,7 @@
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
-
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
@@ -119,7 +119,7 @@
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
-
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
@@ -134,7 +134,7 @@
 
 
 
-
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
 
 
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
@@ -149,13 +149,13 @@
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 
-
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 
 
 
 
-
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息";
 
 
 
@@ -169,13 +169,13 @@
 
 
 "PUSH_CHAT_DELETE_YOU" = "%2$@|%1$@ 已将您从群组中移除";
-
+"PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
 
 "PUSH_CHAT_JOINED" = "%2$@|%1$@ 加入了群组";
+"PUSH_CHAT_MESSAGE_FWD" = "%2$@|%1$@ 转发了一条消息";
 
 
-
-
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 
 
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
@@ -184,7 +184,7 @@
 
 
 
-
+"PUSH_CHAT_MESSAGE" = "%2$@|%1$@ 发送了一条消息";
 
 
 
@@ -1555,7 +1555,7 @@
 "Channel.Info.Banned" = "已封禁";
 "Channel.Info.Members" = "成员";
 
-"Channel.Members.AddMembers" = "邀请新成员";
+"Channel.Members.AddMembers" = "添加订阅者";
 "Channel.Members.AddMembersHelp" = "此列表仅频道管理员可见。";
 "Channel.Members.Title" = "成员";
 "Channel.BlackList.Title" = "已封禁";
@@ -1975,7 +1975,7 @@
 
 "Coub.TapForSound" = "点击播放声音";
 
-"Preview.SaveGif" = "保存 GIF";
+"Preview.SaveGif" = "保存到 GIF 库";
 "Preview.DeleteGif" = "删除 GIF";
 "Preview.CopyAddress" = "拷贝地址";
 
@@ -2447,7 +2447,7 @@ Unused sets are archived when you add more.";
 "Call.AudioRouteHeadphones" = "耳机";
 "Call.AudioRouteHide" = "隐藏";
 
-"Call.PhoneCallInProgressMessage" = "你不能在电话通话时同时使用 Telegram 通话。";
+"Call.PhoneCallInProgressMessage" = "你不能在打电话的同时使用 Telegram 通话。";
 "Call.RecordingDisabledMessage" = "请在录制语音留言前结束当前通话。";
 
 "Call.EmojiDescription" = "如果这些 Emoji 也同时出现在 %@ 的屏幕上，本次通话是 100%% 安全的。";
@@ -2559,7 +2559,6 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanDeleteMessages" = "删除消息";
 "Channel.AdminLog.CanBanUsers" = "禁止用户";
 "Channel.AdminLog.CanInviteUsers" = "添加用户";
-"Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.AdminLog.CanPinMessages" = "置顶消息";
 "Channel.AdminLog.CanAddAdmins" = "添加新管理员";
 "Channel.AdminLog.CanEditMessages" = "编辑消息";
@@ -3052,8 +3051,8 @@ Unused sets are archived when you add more.";
 "Appearance.ThemeNight" = "夜间";
 "Appearance.ThemeNightBlue" = "夜间蓝";
 "Appearance.PreviewReplyAuthor" = "卢西奥";
-"Appearance.PreviewReplyText" = "莱因哈特，你的音乐口味得...";
-"Appearance.PreviewIncomingText" = "你们这群小屁孩就知道电子音乐。你们应该听听经典摇滚，比如哈塞尔霍夫！";
+"Appearance.PreviewReplyText" = "莱因哈特，我们需要给你找点...";
+"Appearance.PreviewIncomingText" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
 "Appearance.PreviewOutgoingText" = "老兄，我现在都无法直视你了。抱歉...";
 "Appearance.AccentColor" = "主题色";
 "Appearance.PickAccentColor" = "选取一种主题色";
@@ -3209,7 +3208,7 @@ Unused sets are archived when you add more.";
 "Passport.PasswordPlaceholder" = "请输入您的密码";
 "Passport.InvalidPasswordError" = "密码错误，请重试。";
 "Passport.FloodError" = "错误次数已达上限，请稍后再试。";
-"Passport.UpdateRequiredError" = "很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请更新 Telegram。";
+"Passport.UpdateRequiredError" = "很抱歉，您的 Telegram 版本过低，无法处理此请求。请尽快更新 Telegram。";
 
 "Passport.ForgottenPassword" = "忘记密码";
 "Passport.PasswordReset" = "所有已上传到 Telegram Passport 的数据将丢失。您将可以上传新的文档。";
@@ -3606,7 +3605,7 @@ Unused sets are archived when you add more.";
 "Notifications.Badge.IncludePublicGroups" = "包含公开群组";
 "Notifications.Badge.IncludeChannels" = "Include Channels";
 "Notifications.Badge.CountUnreadMessages" = "按消息数统计未读";
-"Notifications.Badge.CountUnreadMessages.InfoOff" = "Switch on to show the number of unread messages instead of chats.";
+"Notifications.Badge.CountUnreadMessages.InfoOff" = "开启以显示未读消息数而非未读对话数。";
 "Notifications.Badge.CountUnreadMessages.InfoOn" = "关闭以显示未读对话数而非未读消息数。";
 
 "Appearance.ReduceMotion" = "减少动画效果";
@@ -3625,8 +3624,8 @@ Unused sets are archived when you add more.";
 "Watch.Message.Call" = "通话";
 "Watch.Message.Game" = "游戏";
 "Watch.Message.Invoice" = "账单";
-
-
+"Watch.Message.Poll" = "投票";
+"Watch.Message.Unsupported" = "消息类型不支持";
 
 
 
@@ -3716,7 +3715,7 @@ Unused sets are archived when you add more.";
 "Permissions.ContactsAllow.v0" = "允许访问";
 "Permissions.ContactsAllowInSettings.v0" = "在设置中允许";
 
-
+"Permissions.NotificationsTitle.v0" = "请启用推送通知";
 "Permissions.NotificationsText.v0" = "不要错过来自朋友和同事的重要消息。";
 
 "Permissions.NotificationsAllow.v0" = "开启推送通知";
@@ -3746,12 +3745,12 @@ Unused sets are archived when you add more.";
 "Notifications.PermissionsText" = "不要错过来自朋友和同事的重要消息。";
 "Notifications.PermissionsUnreachableTitle" = "请检查通知设置";
 "Notifications.PermissionsUnreachableText" = "您目前在设置中关闭了部分消息通知。";
-
+"Notifications.PermissionsAllow" = "启用推送通知";
 "Notifications.PermissionsAllowInSettings" = "在设置中启用";
 "Notifications.PermissionsOpenSettings" = "打开设置";
 
 "Notifications.PermissionsSuppressWarningText" = "你的当前设置可能会错过 Telegram 内的重要消息。\n\n您可以启用提醒或横幅功能，并设置仅屏蔽特定的对话或消息类型，以享有更好的体验。";
-
+"Notifications.PermissionsKeepDisabled" = "保持禁用";
 "Notifications.PermissionsEnable" = "启用";
 
 "ChatSettings.DownloadInBackground" = "后台下载";
@@ -3809,11 +3808,11 @@ Unused sets are archived when you add more.";
 "Conversation.UnsupportedMediaPlaceholder" = "您目前的 Telegram 版本无法显示此类消息，请尽快更新到最新版。";
 "Conversation.UpdateTelegram" = "更新 Telegram";
 
+"Cache.LowDiskSpaceText" = "您的手机存储空间已耗尽。请在下载或上传媒体文件前释放足够空间。";
 
 
-
-
-
+"Contacts.SortByName" = "姓名";
+"Contacts.SortByPresence" = "最后上线时间";
 "Contacts.SortedByName" = "按姓名排序";
 "Contacts.SortedByPresence" = "按最后上线时间排序";
 
@@ -3828,7 +3827,7 @@ Unused sets are archived when you add more.";
 "GroupInfo.Permissions.SearchPlaceholder" = "搜索例外";
 
 "GroupInfo.Administrators" = "管理员";
-
+"GroupInfo.Administrators.Title" = "管理员";
 
 "GroupPermission.NoSendMessages" = "无法发送消息";
 "GroupPermission.NoSendMedia" = "无法发送媒体";
@@ -3845,7 +3844,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.Duration" = "持续时间";
 "GroupPermission.AddedInfo" = "被 %1$@ 在 %2$@ 添加例外";
 "GroupPermission.Delete" = "删除例外项";
-
+"GroupPermission.ApplyAlertText" = "您已经更改了这个成员在 %@ 的权限。\n要应用修改吗？";
 "GroupPermission.ApplyAlertAction" = "应用";
 "GroupPermission.AddSuccess" = "成功添加例外";
 "GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
@@ -3868,22 +3867,24 @@ Unused sets are archived when you add more.";
 "EmptyGroupInfo.Line3" = "如 t.me/title 一样的公开链接";
 "EmptyGroupInfo.Line4" = "设置权限细分的管理员";
 
+"WallpaperPreview.Title" = "背景预览";
+"WallpaperPreview.PreviewTopText" = "点按设置以应用背景";
 
-
-
-
+"WallpaperPreview.SwipeTopText" = "向两侧滑动可以查看更多背景图";
 "WallpaperPreview.SwipeBottomText" = "如何才能 让这心意 映在镜中让你看清？";
-
+"WallpaperPreview.SwipeColorsTopText" = "向两侧滑动可查看更多颜色";
 "WallpaperPreview.SwipeColorsBottomText" = "如何才能 让这心意 映在镜中让你看清？";
-
+"WallpaperPreview.CustomColorTopText" = "你可以通过下方的滑条改变颜色";
 "WallpaperPreview.CustomColorBottomText" = "如何才能 让这心意 映在镜中让你看清？";
 
 "WallpaperPreview.CropBottomText" = "如何才能 让这心意 映在镜中让你看清？";
 
+"WallpaperPreview.Blurred" = "模糊";
 
 
 
 
+"Wallpaper.SearchShort" = "搜索";
 "Wallpaper.SetColor" = "设置纯色背景";
 
 
@@ -3898,21 +3899,21 @@ Unused sets are archived when you add more.";
 "WallpaperColors.Title" = "设置纯色背景";
 "WallpaperColors.SetCustomColor" = "设置自定义颜色";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"WallpaperSearch.ColorTitle" = "按颜色搜索";
+"WallpaperSearch.Recent" = "近期搜索记录";
+"WallpaperSearch.ColorPrefix" = "颜色: ";
+"WallpaperSearch.ColorBlue" = "蓝色";
+"WallpaperSearch.ColorRed" = "红色";
+"WallpaperSearch.ColorOrange" = "橙色";
+"WallpaperSearch.ColorYellow" = "黄色";
+"WallpaperSearch.ColorGreen" = "绿色";
+"WallpaperSearch.ColorTeal" = "凫绿";
+"WallpaperSearch.ColorPurple" = "紫色";
+"WallpaperSearch.ColorPink" = "粉色";
+"WallpaperSearch.ColorBrown" = "褐色";
+"WallpaperSearch.ColorBlack" = "黑色";
+"WallpaperSearch.ColorGray" = "灰色";
+"WallpaperSearch.ColorWhite" = "白色";
 
 "Channel.AdminLog.DefaultRestrictionsUpdated" = "更改了默认权限";
 "Channel.AdminLog.PollStopped" = "%@ 终止了投票";
@@ -3941,6 +3942,19 @@ Unused sets are archived when you add more.";
 "SocksProxySetup.ShareLink" = "分享代理链接";
 
 
+"CallFeedback.WhatWentWrong" = "哪里出了问题？";
+"CallFeedback.ReasonEcho" = "我听到了自己的回声";
+"CallFeedback.ReasonNoise" = "我听到了背景噪音";
+"CallFeedback.ReasonInterruption" = "对方持续掉线";
+"CallFeedback.ReasonDistortedSpeech" = "声音听起来扭曲";
+"CallFeedback.ReasonSilentLocal" = "我听不到对方的声音";
+"CallFeedback.ReasonSilentRemote" = "对方听不到我的声音";
+"CallFeedback.ReasonDropped" = "通话意外结束";
+"CallFeedback.AddComment" = "附加说明";
+"CallFeedback.IncludeLogs" = "包含技术信息";
+"CallFeedback.IncludeLogsInfo" = "这些信息不会透漏您的通话内容，但能帮助我们更快的修复问题。";
+
+"CallFeedback.Success" = "感谢反馈";
 
 
 
@@ -3968,6 +3982,7 @@ Unused sets are archived when you add more.";
 "CHANNEL_MESSAGE_DOC" = "%1$@ 发布了一个文件";
 "CHANNEL_MESSAGE_DOC_SEPARATED" = "%1$@|发布了一个文件";
 "CHANNEL_MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
+"CHANNEL_MESSAGE_GAME_SEPARATED" = "%1$@|邀请您一起玩 %2$@";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 发布了一个位置";
 "CHANNEL_MESSAGE_GEOLIVE" = "%1$@ 正在共享实时位置";
 "CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|发布了一条实时位置信息";
@@ -4039,6 +4054,7 @@ Unused sets are archived when you add more.";
 "CONTACT_JOINED_SEPARATED" = "%1$@|加入了 Telegram！";
 "Channel.AdminLog.BanSendGifs" = "发送 GIF";
 "Channel.AdminLog.BanSendStickers" = "发送贴纸";
+"Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加用户";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";

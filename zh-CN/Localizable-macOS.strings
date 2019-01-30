@@ -87,11 +87,11 @@
 "PeerInfo.SetGroupPhoto" = "设置群组图片";
 "PeerInfo.AddMember" = "邀请新成员";
 "PeerInfo.DeleteAndExit" = "删除并退出";
-
+"PeerInfo.DeleteGroup" = "删除群组";
 "PeerInfo.Permissions" = "权限";
 "PeerInfo.Administrators" = "管理员";
 
-
+"PeerInfo.Confirm.DeleteGroupConfirmation" = "注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？";
 
 
 
@@ -244,7 +244,7 @@
 "Chat.Input.Mute" = "免打扰";
 "Chat.Input.Unmute" = "取消免打扰";
 "Chat.Input.Return" = "返回群组";
-
+"Chat.Input.SecretChat.WaitingToUserOnline" = "正在等待 %@ 上线...";
 
 "Chat.Input.Delete" = "删除并退出";
 "Chat.Input.Join" = "加入";
@@ -750,8 +750,8 @@
 
 
 "PeerInfo.Confirm.Add" = "添加";
-
-
+"peerInfo.Confirm.Leave" = "退出";
+"PeerInfo.Confirm.Clear" = "清空";
 
 
 
@@ -810,7 +810,7 @@
 "PeerInfo.DeleteSecretChat" = "删除加密对话";
 
 "ChannelMembers.AddMembers" = "邀请新成员";
-
+"ChannelMembers.AddSubscribers" = "添加订阅者";
 
 "ChannelMembers.InviteLink" = "使用链接邀请";
 "ChannelMembers.MembersListDesc" = "此列表仅频道管理员可见。";
@@ -892,8 +892,8 @@
 "RecentSessions.Revoke" = "撤销";
 "RecentSessions.Error.FreshReset" = "出于安全原因，您无法使用刚刚连接的设备终止之前的设备会话。 请通过之前使用的设备操作或等待几个小时。";
 
-
-
+"RecentSessions.IncompleteAttemptHeader" = "未完成的登录尝试";
+"RecentSessions.IncompleteAttemptDesc" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。";
 
 "Legacy.Intro.Description1" = "欢迎使用超快又稳定的 macOS 版 Telegram，现全以 Swift 3.0 重写。";
 "Legacy.Intro.Description2" = "请注意你现有的加密对话将以只读方式显示。你需要创建一个新的加密对话来继续聊天。";
@@ -1174,19 +1174,19 @@
 
 "Channel.Persmission.Denied.SendMedia.Until" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Channel.Persmission.Denied.SendMedia.Forever" = "此群组的管理员限制了您在此发送媒体文件的能力。";
-
+"Channel.Persmission.Denied.SendMedia.DefaultRestrictedText" = "此群组不允许发送媒体。";
 
 "Channel.Persmission.Denied.SendStickers.Until" = "此群组的管理员限制了您在此发送贴纸的能力至 %@。";
 "Channel.Persmission.Denied.SendStickers.Forever" = "此群组的管理员限制了您在此发送贴纸的能力。";
-
+"Channel.Persmission.Denied.SendStickers.DefaultRestrictedText" = "此群组不允许发送贴纸。";
 
 "Channel.Persmission.Denied.SendGifs.Until" = "频道管理员已经禁止你在该频道发送 GIF 图片，该限制将在 %@ 解除，";
 "Channel.Persmission.Denied.SendGifs.Forever" = "群组管理员已经禁止您在此群发送 GIF。";
+"Channel.Persmission.Denied.SendGifs.DefaultRestrictedText" = "此群组不允许发送GIF。";
 
-
-
-
-
+"Channel.Persmission.Denied.SendPoll.Until" = "该群组的管理员限制您在此处发起投票直至 %@。";
+"Channel.Persmission.Denied.SendPoll.Forever" = "该群组的管理员限制您在此处发起投票。";
+"Channel.Persmission.Denied.SendPoll.DefaultRestrictedText" = "该群组不允许发起投票。";
 
 
 "Channel.Persmission.Denied.SendInline.Until" = "此群组的管理员限制了您发送 Inline 内容的能力至 %@。";
@@ -1199,7 +1199,7 @@
 "Channel.Admin.AdminRestricted" = "该管理员不能添加新管理员。";
 
 
-
+"Channel.Admin.CantEdit" = "您无权编辑此管理员的权限。";
 
 "Channel.Admin.WhatCanAdminDo" = "管理员权限";
 
@@ -1229,11 +1229,11 @@
 "EventLog.Service.Demote.SendMessages" = "发送消息";
 "EventLog.Service.Demote.SendMedia" = "发送媒体";
 "EventLog.Service.Demote.SendStickers" = "发送贴纸";
-
-
-
+"EventLog.Service.Demote.ChangeInfo" = "修改信息";
+"EventLog.Service.Demote.SendGifs" = "发送 GIF";
+"EventLog.Service.Demote.PostPolls" = "发起投票";
 "EventLog.Service.Demote.AddMembers" = "邀请新成员";
-
+"EventLog.Service.Demote.PinMessages" = "置顶消息";
 "EventLog.Service.Demote.EmbedLinks" = "显示链接预览";
 "EventLog.Service.Demote.SendInline" = "发送 Inline 消息";
 
@@ -1309,8 +1309,8 @@
 "ChannelBlacklist.Blocked" = "封禁";
 
 "Channel.Blacklist.RemoveUser" = "封禁用户";
-
-
+"Channel.Blacklist.Context.AddToGroup" = "邀请加入群组";
+"Channel.Blacklist.Context.Remove" = "删除";
 
 "Channel.Blacklist.DescChannel" = "被管理员删除的成员无法通过邀请链接返回频道。";
 "Channel.Blacklist.DescGroup" = "被管理员从群组封禁的用户无法通过邀请链接重新加入。";
@@ -1727,10 +1727,10 @@
 "AppearanceSettings.FollowSystemAppearance.DefaultHeader" = "DEFAULT PALETTES";
 
 
-"AppearanceSettings.ChatPreview.UserName1" = "长者";
-"AppearanceSettings.ChatPreview.UserName2" = "董先生";
-"AppearanceSettings.ChatPreview.ZeroText" = "垂死病中惊坐起，谈笑风生又一年 🎶。";
-"AppearanceSettings.ChatPreview.FirstText" = "啊，现在你们这群小屁孩肯定只听过铁克诺音乐！你们真应该听听古典音乐，比如哈塞尔霍夫的作品！";
+"AppearanceSettings.ChatPreview.UserName1" = "卢西奥";
+"AppearanceSettings.ChatPreview.UserName2" = "莱因哈特";
+"AppearanceSettings.ChatPreview.ZeroText" = "莱因哈特，我们需要给你找点新的音乐🎶。";
+"AppearanceSettings.ChatPreview.FirstText" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
 "AppearanceSettings.ChatPreview.SecondText" = "老兄，我现在都无法直视你了。";
 
 
@@ -1794,7 +1794,7 @@
 
 "CrashOnLaunch.OK" = "注销";
 "CrashOnLaunch.Cancel" = "取消";
-"CrashOnLaunch.Message" = "发生了些问题。";
+"CrashOnLaunch.Message" = "发生了一些问题。";
 "CrashOnLaunch.Information" = "如果 Telegram 依然在您打开它时崩溃，点击 OK 按钮来登出帐号。这应该能解决问题。";
 "ChatWallpaper.Empty" = "默认";
 
@@ -2179,9 +2179,9 @@
 "PrivacyAndSecurity.BlockedUsers" = "2 位用户";
 
 
+"PrivacyAndSecurity.ClearCloudDrafts" = "删除所有云端草稿";
 
-
-
+"PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "您确定要清空所有草稿吗？";
 
 
 "Location.Send.MyLocation" = "发送我的当前位置";
@@ -2516,7 +2516,7 @@
 
 
 
-
+"Chat.Poll.Tooltip.Votes_other" = "%d 人已投票";
 
 "Chat.Poll.TotalVotesEmpty" = "无人投票";
 "Chat.Poll.TotalVotesResultEmpty" = "无人投票";
@@ -2580,15 +2580,15 @@
 
 
 
+"InstantPage.RelatedArticleAuthorAndDateTitle" = "%@ • %@";
 
 
 
 
 
 
-
-
-
+"Chat.Unsupported.UpdatedApp" = "更新";
+"Chat.Message.UnsupportedNew" = "您目前的 Telegram 版本无法显示此类消息，请更新到最新版。";
 
 
 
@@ -2598,42 +2598,42 @@
 "Channel.BanUser.PermissionReadMessages" = "查看消息";
 "Channel.BanUser.PermissionSendMessages" = "发送消息";
 "Channel.BanUser.PermissionSendMedia" = "发送媒体";
-
-
+"Channel.BanUser.PermissionSendStickersAndGifs" = "发送贴纸和 GIF";
+"Channel.BanUser.PermissionEmbedLinks" = "显示链接预览";
 "Channel.BanUser.PermissionSendPolls" = "发起投票";
-
+"Channel.BanUser.PermissionChangeGroupInfo" = "修改群组信息";
 "Channel.BanUser.PermissionAddMembers" = "邀请新成员";
 "Channel.BanUser.Unban" = "解除封禁";
 
 
 
-
+"GroupPermission.NoSendMessages" = "无法发送消息";
 "GroupPermission.NoSendMedia" = "无法发送媒体";
-
+"GroupPermission.NoSendGifs" = "无法发送 GIF";
 "GroupPermission.NoSendPolls" = "无法发起投票";
 "GroupPermission.NoSendLinks" = "无法使用预览";
 "GroupPermission.NoChangeInfo" = "无法更改信息";
-
+"GroupPermission.NoAddMembers" = "无法邀请成员";
 "GroupPermission.NoPinMessages" = "无法置顶消息";
 
-
+"GroupPermission.Title" = "例外";
 "GroupPermission.NewTitle" = "新例外";
 "GroupPermission.SectionTitle" = "这位成员可以做什么？";
 "GroupPermission.Duration" = "持续时间";
 "GroupPermission.AddedInfo" = "被 %@ 在 %@ 添加例外";
 "GroupPermission.Delete" = "删除例外项";
-
-
+"GroupPermission.ApplyAlertText" = "您已经更改了这个成员在 %@ 的权限。\n要应用修改吗？";
+"GroupPermission.ApplyAlertAction" = "应用";
 "GroupPermission.AddSuccess" = "成功添加例外";
 "GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
 
 
 
 "Telegram.ChannelPermissionsController" = "权限";
-
+"GroupInfo.Permissions.SectionTitle" = "群组成员都能做什么？";
 "GroupInfo.Permissions.Removed" = "被封禁的用户";
-
-
+"GroupInfo.Permissions.Exceptions" = "例外";
+"GroupInfo.Permissions.AddException" = "添加例外";
 "GroupInfo.Permissions.SearchPlaceholder" = "搜索例外";
 
 "GroupInfo.Administrators" = "管理员";
@@ -2656,8 +2656,8 @@
 
 
 
-
-
+"Time.TodayAt" = "今天 %@";
+"Time.YesterdayAt" = "昨天 %@";
 
 
 "EmptyGroupInfo.Title" = "您创建了一个**群组**";
@@ -2668,6 +2668,7 @@
 "EmptyGroupInfo.Line4" = "设置权限细分的管理员";
 
 
+"Chat.UndoManager.Undo" = "撤销";
 
 
 
@@ -2714,12 +2715,11 @@
 
 
 
-
-
+"Gallery.SaveGif" = "保存到 GIF 库";
 
 
 "WallpaperPreview.Blurred" = "模糊";
-
+"WallpaperPreview.Header" = "背景预览";
 //
 //"_NS:103.title" = "Edit";
 //"_NS:167.title" = "Window";
@@ -2729,7 +2729,7 @@
 
 
 
-
+"WallpaperPreview.DoesntExists" = "抱歉，这个背景似乎不存在。";
 
 
 

@@ -2559,7 +2559,6 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanDeleteMessages" = "Delete Messages";
 "Channel.AdminLog.CanBanUsers" = "Ban Users";
 "Channel.AdminLog.CanInviteUsers" = "Add Users";
-"Channel.AdminLog.CanChangeInviteLink" = "Invite Users Via Link";
 "Channel.AdminLog.CanPinMessages" = "Pin Messages";
 "Channel.AdminLog.CanAddAdmins" = "Add New Admins";
 "Channel.AdminLog.CanEditMessages" = "Edit Messages";
@@ -2619,7 +2618,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.EventsDeletedMessages" = "Deleted Messages";
 "Channel.AdminLogFilter.EventsEditedMessages" = "Edited Messages";
 "Channel.AdminLogFilter.EventsPinned" = "Pinned Messages";
-"Channel.AdminLogFilter.EventsLeaving" = "Members Removed";
+"Channel.AdminLogFilter.EventsLeaving" = "Leaving Members";
 "Channel.AdminLogFilter.AdminsTitle" = "ADMINS";
 "Channel.AdminLogFilter.AdminsAll" = "All Admins";
 
@@ -2705,7 +2704,7 @@ Unused sets are archived when you add more.";
 
 "Call.ReportPlaceholder" = "What went wrong?";
 "Call.ReportIncludeLog" = "Send technical information";
-"Call.ReportIncludeLogDescription" = "This won't reveal the contents of your conversation, but will help us fix the issue sooner.";
+"Call.ReportIncludeLogDescription" = "Doesn't reveal chat contents and helps us fix the issue sooner.";
 "Call.ReportSkip" = "Skip";
 "Call.ReportSend" = "Send";
 
@@ -3869,50 +3868,52 @@ Unused sets are archived when you add more.";
 "EmptyGroupInfo.Line4" = "Admins with different rights";
 
 "WallpaperPreview.Title" = "Background Preview";
-
-
+"WallpaperPreview.PreviewTopText" = "Press Set to apply the background";
+"WallpaperPreview.PreviewBottomText" = "Enjoy the view";
 "WallpaperPreview.SwipeTopText" = "Swipe left or right to preview more backgrounds";
-"WallpaperPreview.SwipeBottomText" = "Backgrounds. Backgrounds everywhere.";
+"WallpaperPreview.SwipeBottomText" = "Tap 'Motion' and try tilting your device";
 "WallpaperPreview.SwipeColorsTopText" = "Swipe left or right to see more colors";
 "WallpaperPreview.SwipeColorsBottomText" = "Salmon is a fish, not a color";
 "WallpaperPreview.CustomColorTopText" = "Use sliders to adjust color";
 "WallpaperPreview.CustomColorBottomText" = "Something to match your curtains";
 "WallpaperPreview.CropTopText" = "Pinch and pan to adjust background";
-"WallpaperPreview.CropBottomText" = "Pinch me, I'm dreaming";
+"WallpaperPreview.CropBottomText" = "Get a sharing link for your background when you're done";
+"WallpaperPreview.Motion" = "Motion";
+"WallpaperPreview.Blurred" = "Blurred";
+"WallpaperPreview.Pattern" = "Pattern";
+"WallpaperPreview.Color" = "Color";
 
-
-
-
-
+"Wallpaper.Search" = "Search Backgrounds";
+"Wallpaper.SearchShort" = "Search";
 "Wallpaper.SetColor" = "Set a Color";
 "Wallpaper.SetCustomBackground" = "Choose from Gallery";
+"Wallpaper.SetCustomBackgroundInfo" = "You can set a custom background image and share it with your friends.";
 
-
-
-
-
-
-
-
+"Wallpaper.DeleteConfirmation_1" = "Delete Background";
+"Wallpaper.DeleteConfirmation_2" = "Delete %@ Backgrounds";
+"Wallpaper.DeleteConfirmation_3_10" = "Delete %@ Backgrounds";
+"Wallpaper.DeleteConfirmation_any" = "Delete %@ Backgrounds";
+"Wallpaper.DeleteConfirmation_many" = "Delete %@ Backgrounds";
+"Wallpaper.DeleteConfirmation_0" = "Delete %@ Backgrounds";
 
 "WallpaperColors.Title" = "Set a Color";
 "WallpaperColors.SetCustomColor" = "Set Custom Color";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"WallpaperSearch.ColorTitle" = "SEARCH BY COLOR";
+"WallpaperSearch.Recent" = "RECENT";
+"WallpaperSearch.ColorPrefix" = "color: ";
+"WallpaperSearch.ColorBlue" = "Blue";
+"WallpaperSearch.ColorRed" = "Red";
+"WallpaperSearch.ColorOrange" = "Orange";
+"WallpaperSearch.ColorYellow" = "Yellow";
+"WallpaperSearch.ColorGreen" = "Green";
+"WallpaperSearch.ColorTeal" = "Teal";
+"WallpaperSearch.ColorPurple" = "Purple";
+"WallpaperSearch.ColorPink" = "Pink";
+"WallpaperSearch.ColorBrown" = "Brown";
+"WallpaperSearch.ColorBlack" = "Black";
+"WallpaperSearch.ColorGray" = "Gray";
+"WallpaperSearch.ColorWhite" = "White";
 
 "Channel.AdminLog.DefaultRestrictionsUpdated" = "changed default permissions";
 "Channel.AdminLog.PollStopped" = "%@ stopped poll";
@@ -3933,25 +3934,38 @@ Unused sets are archived when you add more.";
 
 "AccessDenied.Wallpapers" = "Telegram needs access to your photo library to set a custom wallpaper.\n\nPlease go to your device‘s settings > Privacy > Photos and set Telegram to ON.";
 
-
-
+"Conversation.ChatBackground" = "Chat Background";
+"Conversation.ViewBackground" = "VIEW BACKGROUND";
 
 "SocksProxySetup.ShareQRCodeInfo" = "Your friends can add this proxy by scanning this code with phone or in-app camera.";
 "SocksProxySetup.ShareQRCode" = "Share QR Code";
 "SocksProxySetup.ShareLink" = "Share Link";
 
+"CallFeedback.Title" = "Call Feedback";
+"CallFeedback.WhatWentWrong" = "WHAT WENT WRONG?";
+"CallFeedback.ReasonEcho" = "I heard my own voice";
+"CallFeedback.ReasonNoise" = "I heard background noise";
+"CallFeedback.ReasonInterruption" = "The other side kept disappearing";
+"CallFeedback.ReasonDistortedSpeech" = "Speech was distorted";
+"CallFeedback.ReasonSilentLocal" = "I couldn't hear the other side";
+"CallFeedback.ReasonSilentRemote" = "The other side couldn't hear me";
+"CallFeedback.ReasonDropped" = "Call ended unexpectedly";
+"CallFeedback.AddComment" = "Add an optional comment";
+"CallFeedback.IncludeLogs" = "Include technical information";
+"CallFeedback.IncludeLogsInfo" = "Doesn't reveal chat contents and helps us fix the issue sooner.";
+"CallFeedback.Send" = "Send";
+"CallFeedback.Success" = "Thanks for\nyour feedback";
 
+"WebSearch.SearchNoResults" = "No Results";
+"WebSearch.SearchNoResultsDescription" = "There were no results for \"%@\".\nTry a new search.";
 
+"WallpaperPreview.PatternIntensity" = "Pattern Intensity";
 
+"Message.Wallpaper" = "Chat Background";
 
-
-
-
-
-
-
-
-
+"Wallpaper.ResetWallpapers" = "Reset Chat Backgrounds";
+"Wallpaper.ResetWallpapersInfo" = "Remove all uploaded chat backgrounds and restore pre-installed backgrounds for all themes.";
+"Wallpaper.ResetWallpapersConfirmation" = "Reset Chat Backgrounds";
 
 
 /* new from translations.telegram.org */
@@ -4048,6 +4062,7 @@ Unused sets are archived when you add more.";
 "CONTACT_JOINED_SEPARATED" = "%1$@|joined Telegram!";
 "Channel.AdminLog.BanSendGifs" = "Send GIFs";
 "Channel.AdminLog.BanSendStickers" = "Send Stickers";
+"Channel.AdminLog.CanChangeInviteLink" = "Invite Users Via Link";
 "Channel.EditAdmin.PermissionInviteUsers" = "Add Users";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";

@@ -1299,7 +1299,7 @@
 "ChannelEventFilter.DeletedMessages" = "Deleted Messages";
 "ChannelEventFilter.EditedMessages" = "Edited Messages";
 "ChannelEventFilter.PinnedMessages" = "Pinned Messages";
-"ChannelEventFilter.LeavingMembers" = "Members Removed";
+"ChannelEventFilter.LeavingMembers" = "Leaving Members";
 
 "Group.EventLog.EmptyText" = "**No events here yet**\n\nThere were no service actions taken by the group's members and admins for the last 48 hours.";
 "Channel.EventLog.EmptyText" = "**No events here yet**\n\nThere were no service actions taken by the channel's members and admins for the last 48 hours.";
