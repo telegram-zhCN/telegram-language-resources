@@ -753,8 +753,8 @@
 "peerInfo.Confirm.Leave" = "退出";
 "PeerInfo.Confirm.Clear" = "清空";
 
-
-
+"peerInfo.Confirm.ClearHistory.User" = "此操作将会从 Telegram 云端删除该对话的所有消息和媒体，但对方储存的内容仍将被保留。";
+"peerInfo.Confirm.ClearHistory.SavedMesssages" = "这将从 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
 "peerInfo.Confirm.ClearHistory.Group" = "此操作将会从您的 Telegram 云中删除此群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
 
@@ -2664,7 +2664,7 @@
 "EmptyGroupInfo.Subtitle" = "群组可以拥有：";
 "EmptyGroupInfo.Line1" = "• 最多 %@ 位成员";
 "EmptyGroupInfo.Line2" = "• 历史记录永久保留";
-
+"EmptyGroupInfo.Line3" = "如 t.me/title 一样的公开链接";
 "EmptyGroupInfo.Line4" = "设置权限细分的管理员";
 
 

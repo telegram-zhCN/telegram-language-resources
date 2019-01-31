@@ -1128,6 +1128,8 @@
     <string name="FontSizePreviewReply">Reinhardt, we need to find you some new tunes &#127926;.</string>
     <string name="FontSizePreviewLine1">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
     <string name="FontSizePreviewLine2">I can\'t even take you seriously right now.</string>
+    <string name="BackgroundColorSinglePreviewLine1">Press \'Set\' to apply the background.</string>
+    <string name="BackgroundColorSinglePreviewLine2">Enjoy the view.</string>
     <string name="SetBackground">SET BACKGROUND</string>
     <string name="SearchByColor">Search by color</string>
     <string name="SearchBackgrounds">Search Backgrounds</string>

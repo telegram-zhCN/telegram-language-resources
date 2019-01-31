@@ -1128,6 +1128,8 @@
     <string name="FontSizePreviewReply">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="FontSizePreviewLine1">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
     <string name="FontSizePreviewLine2">I can\'t even take you seriously right now.</string>
+    <string name="BackgroundColorSinglePreviewLine1">Press \'Set\' to apply the background.</string>
+    <string name="BackgroundColorSinglePreviewLine2">Enjoy the view.</string>
     <string name="SetBackground">设为聊天背景</string>
     <string name="SearchByColor">Search by color</string>
     <string name="SearchBackgrounds">Search Backgrounds</string>

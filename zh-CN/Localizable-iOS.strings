@@ -2704,7 +2704,7 @@ Unused sets are archived when you add more.";
 
 "Call.ReportPlaceholder" = "出了什么问题？";
 "Call.ReportIncludeLog" = "发送技术信息";
-"Call.ReportIncludeLogDescription" = "这不会泄露您的对话内容，但却能帮助我们尽快修复问题。";
+"Call.ReportIncludeLogDescription" = "这不会泄露您的通话内容，但却能帮助我们尽快修复问题。";
 "Call.ReportSkip" = "跳过";
 "Call.ReportSend" = "发送";
 
@@ -3037,7 +3037,7 @@ Unused sets are archived when you add more.";
 "Conversation.ClearPrivateHistory" = "此操作将会从您的 Telegram 云中删除该对话的所有消息和媒体，但对方储存的内容仍将被保留。";
 "Conversation.ClearGroupHistory" = "此操作将会从您的 Telegram 云中删除此群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
 "Conversation.ClearSecretHistory" = "此操作将会清空对话双方的消息和媒体记录。";
-"Conversation.ClearSelfHistory" = "这将从您的 Telegram 云端删除您在此会话中的所有的消息和媒体。";
+"Conversation.ClearSelfHistory" = "这将从 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
 "MediaPicker.LivePhotoDescription" = "实况照片将会自动播放，并像 GIF 一样循环播放。";
 
@@ -3873,11 +3873,11 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.SwipeTopText" = "向两侧滑动可以查看更多背景图";
 "WallpaperPreview.SwipeBottomText" = "如何才能 让这心意 映在镜中让你看清？";
 "WallpaperPreview.SwipeColorsTopText" = "向两侧滑动可查看更多颜色";
-"WallpaperPreview.SwipeColorsBottomText" = "如何才能 让这心意 映在镜中让你看清？";
+"WallpaperPreview.SwipeColorsBottomText" = "三文鱼是一种鱼，不是一种颜色";
 "WallpaperPreview.CustomColorTopText" = "你可以通过下方的滑条改变颜色";
-"WallpaperPreview.CustomColorBottomText" = "如何才能 让这心意 映在镜中让你看清？";
+"WallpaperPreview.CustomColorBottomText" = "可以选一个与你的窗帘搭配的色彩";
 
-"WallpaperPreview.CropBottomText" = "如何才能 让这心意 映在镜中让你看清？";
+"WallpaperPreview.CropBottomText" = "当你完成背景设计后你可以获得一个分享链接";
 
 "WallpaperPreview.Blurred" = "模糊";
 
@@ -3952,7 +3952,7 @@ Unused sets are archived when you add more.";
 "CallFeedback.ReasonDropped" = "通话意外结束";
 "CallFeedback.AddComment" = "附加说明";
 "CallFeedback.IncludeLogs" = "包含技术信息";
-"CallFeedback.IncludeLogsInfo" = "这些信息不会透漏您的通话内容，但能帮助我们更快的修复问题。";
+"CallFeedback.IncludeLogsInfo" = "这些信息不会泄露您的通话内容，但却能帮助我们尽快修复问题。";
 
 "CallFeedback.Success" = "感谢反馈";
 
