@@ -1528,7 +1528,7 @@
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
-  <string name="AutoNightDisabled">禁用</string>
+  <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightScheduled">计划时段</string>
   <string name="AutoNightModeScheduledByLocation">自动检测当地日落和日出时间</string>

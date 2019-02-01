@@ -209,7 +209,7 @@
 "Modal.CopyLink" = "拷贝链接";
 "Modal.Cancel" = "取消";
 "Modal.OK" = "好";
-
+"Modal.Set" = "设置";
 "QuickLook.Preview" = "预览";
 
 
@@ -1542,7 +1542,7 @@
 "TwoStepAuth.PendingEmailHelp" = "您的两步验证恢复邮箱 %@ 正等待验证。";
 "TwoStepAuth.GenericHelp" = "您开启了二次验证，\n今后您在登录时将会需要输入在这里设置的密码。";
 
-"TwoStepAuth.ConfirmationTextNew" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";
+"TwoStepAuth.ConfirmationTextNew" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并输入邮件中的验证码来完成两步验证的设置。";
 "TwoStepAuth.ConfirmationAbort" = "取消两步验证设置";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Enter your cloud password";
@@ -1749,7 +1749,7 @@
 
 "GeneralSettings.AutoplayGifs" = "自动播放 GIF";
 "GeneralSettings.AccentColor" = "强调色";
-"GeneralSettings.ChatBackground" = "聊天背景";
+"GeneralSettings.ChatBackground" = "聊天窗口背景图";
 "Chat.LiveLocation" = "实时位置";
 "ArchivedStickers.Empty" = "您最近的通话将在此显示";
 "ChatList.TitleFeed" = "订阅";
@@ -2717,7 +2717,6 @@
 
 "Gallery.SaveGif" = "保存到 GIF 库";
 
-
 "WallpaperPreview.Blurred" = "模糊";
 "WallpaperPreview.Header" = "背景预览";
 //
@@ -2730,8 +2729,20 @@
 
 
 "WallpaperPreview.DoesntExists" = "抱歉，这个背景似乎不存在。";
+"WallpaperPreview.Apply" = "应用";
 
 
+
+
+
+
+"Chat.WP.Color.FirstMessage" = "点击 “应用” 即可设置背景图";
+"Chat.WP.Color.SecondMessage" = "尽情享受吧";
+
+"Chat.WP.Pattern.None" = "无";
+"Chat.WP.Pattern" = "图案";
+"Chat.WP.Color" = "颜色";
+"Chat.WP.Intensity" = "图案深度";
 
 
 /* new from translations.telegram.org */

@@ -668,7 +668,7 @@
 "Settings.NotificationsAndSounds" = "通知与声音";
 "Settings.ChatSettings" = "数据与存储";
 "Settings.BlockedUsers" = "已屏蔽";
-"Settings.ChatBackground" = "聊天背景";
+"Settings.ChatBackground" = "聊天窗口背景图";
 "Settings.Support" = "我有疑问";
 "Settings.FAQ" = "常见问题";
 "Settings.FAQ_URL" = "https://telegram.org/faq#general-questions";
@@ -742,7 +742,7 @@
 "BlockedUsers.Unblock" = "取消屏蔽";
 
 // Wallpaper
-"Wallpaper.Title" = "聊天背景";
+"Wallpaper.Title" = "聊天窗口背景图";
 "Wallpaper.PhotoLibrary" = "照片图库";
 "Wallpaper.Set" = "选用";
 "Wallpaper.Wallpaper" = "背景";
@@ -2704,7 +2704,7 @@ Unused sets are archived when you add more.";
 
 "Call.ReportPlaceholder" = "出了什么问题？";
 "Call.ReportIncludeLog" = "发送技术信息";
-"Call.ReportIncludeLogDescription" = "这不会泄露您的通话内容，但却能帮助我们尽快修复问题。";
+"Call.ReportIncludeLogDescription" = "不会泄露对话的内容并且能帮助我们尽快修复问题。";
 "Call.ReportSkip" = "跳过";
 "Call.ReportSend" = "发送";
 
@@ -3045,7 +3045,7 @@ Unused sets are archived when you add more.";
 "Appearance.Title" = "外观";
 "Appearance.TextSize" = "字体大小";
 "Appearance.Preview" = "聊天预览";
-"Appearance.ColorTheme" = "主题配色";
+"Appearance.ColorTheme" = "色彩主题";
 "Appearance.ThemeDayClassic" = "经典日间";
 "Appearance.ThemeDay" = "日间";
 "Appearance.ThemeNight" = "夜间";
@@ -3058,7 +3058,7 @@ Unused sets are archived when you add more.";
 "Appearance.PickAccentColor" = "选取一种主题色";
 
 "Appearance.AutoNightTheme" = "自动启用夜间模式";
-"Appearance.AutoNightThemeDisabled" = "禁用";
+"Appearance.AutoNightThemeDisabled" = "关闭";
 
 "AutoNightTheme.Title" = "自动启用夜间模式";
 "AutoNightTheme.Disabled" = "禁用";
@@ -3717,7 +3717,7 @@ Unused sets are archived when you add more.";
 
 "Permissions.NotificationsTitle.v0" = "请启用推送通知";
 "Permissions.NotificationsText.v0" = "不要错过来自朋友和同事的重要消息。";
-
+"Permissions.NotificationsUnreachableText.v0" = "请注意，您在设置中禁用了部分消息通知。";
 "Permissions.NotificationsAllow.v0" = "开启推送通知";
 "Permissions.NotificationsAllowInSettings.v0" = "在设置中打开";
 
@@ -3869,7 +3869,7 @@ Unused sets are archived when you add more.";
 
 "WallpaperPreview.Title" = "背景预览";
 "WallpaperPreview.PreviewTopText" = "点按设置以应用背景";
-
+"WallpaperPreview.PreviewBottomText" = "欣赏美景吧！";
 "WallpaperPreview.SwipeTopText" = "向两侧滑动可以查看更多背景图";
 "WallpaperPreview.SwipeBottomText" = "如何才能 让这心意 映在镜中让你看清？";
 "WallpaperPreview.SwipeColorsTopText" = "向两侧滑动可查看更多颜色";
@@ -3878,12 +3878,12 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.CustomColorBottomText" = "可以选一个与你的窗帘搭配的色彩";
 
 "WallpaperPreview.CropBottomText" = "当你完成背景设计后你可以获得一个分享链接";
-
+"WallpaperPreview.Motion" = "动效";
 "WallpaperPreview.Blurred" = "模糊";
+"WallpaperPreview.Pattern" = "图案";
 
 
-
-
+"Wallpaper.Search" = "搜索背景";
 "Wallpaper.SearchShort" = "搜索";
 "Wallpaper.SetColor" = "设置纯色背景";
 
@@ -3934,14 +3934,14 @@ Unused sets are archived when you add more.";
 
 
 
-
-
+"Conversation.ChatBackground" = "聊天窗口背景图";
+"Conversation.ViewBackground" = "查看背景图";
 
 "SocksProxySetup.ShareQRCodeInfo" = "您的朋友可以通过使用相机扫描此二维码添加代理。";
 "SocksProxySetup.ShareQRCode" = "分享二维码";
 "SocksProxySetup.ShareLink" = "分享代理链接";
 
-
+"CallFeedback.Title" = "通话质量反馈";
 "CallFeedback.WhatWentWrong" = "哪里出了问题？";
 "CallFeedback.ReasonEcho" = "我听到了自己的回声";
 "CallFeedback.ReasonNoise" = "我听到了背景噪音";
@@ -3953,18 +3953,18 @@ Unused sets are archived when you add more.";
 "CallFeedback.AddComment" = "附加说明";
 "CallFeedback.IncludeLogs" = "包含技术信息";
 "CallFeedback.IncludeLogsInfo" = "这些信息不会泄露您的通话内容，但却能帮助我们尽快修复问题。";
-
+"CallFeedback.Send" = "发送";
 "CallFeedback.Success" = "感谢反馈";
 
 
 
 
+"WallpaperPreview.PatternIntensity" = "图案深度";
 
+"Message.Wallpaper" = "聊天窗口背景图";
 
-
-
-
-
+"Wallpaper.ResetWallpapers" = "重置聊天窗口背景图";
+"Wallpaper.ResetWallpapersInfo" = "删除所有上传的聊天窗口背景图并恢复预置的聊天背景。";
 
 
 

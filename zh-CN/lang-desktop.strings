@@ -145,8 +145,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_add_admin_invite_channel" = "这名用户非本频道订阅者。是否邀请其加入并提升为管理员？";
 "lng_sure_add_admin_unremove" = "此用户目前已被限制或已被移除。您确定要设置为管理员吗？";
 "lng_sure_ban_admin" = "此用户是群组的管理员。是否确定继续对其作出限制？";
-"lng_sure_remove_user_group" = "从群组中移除 {user} ？";
-"lng_sure_remove_user_channel" = "从频道中移除 {user} ？";
 "lng_sure_enable_socks" = "您确定要启用这项代理吗？\n\n服务器: {server}\n端口: {port}\n\n您稍后可以在 设置 > 高级 > 连接类型 中修改您的代理服务器。";
 "lng_sure_enable" = "启用";
 
@@ -329,7 +327,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_send_ctrlenter" = "按 Ctrl+Enter 发送消息";
 "lng_settings_send_cmdenter" = "按 Cmd+Enter 发送消息";
 
-"lng_settings_section_background" = "聊天背景";
+"lng_settings_section_background" = "聊天窗口背景图";
 "lng_settings_bg_use_default" = "使用默认主题";
 "lng_settings_bg_from_gallery" = "从图库中选择";
 "lng_settings_bg_from_file" = "从文件中选择";
@@ -391,17 +389,19 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_enable_animations" = "动画切换效果";
 "lng_settings_autoplay_gifs" = "自动播放 GIF";
 
-"lng_backgrounds_header" = "选择新的聊天背景";
+"lng_backgrounds_header" = "选择新的聊天背景图";
 "lng_theme_sure_keep" = "保留此主题？";
 
 "lng_theme_reverting#other" = "将在 {count} 秒后还原为以前的主题。";
 "lng_theme_keep_changes" = "保留更改";
 "lng_theme_revert" = "还原";
-
-
-
-
-
+"lng_background_header" = "背景预览";
+"lng_background_text1" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
+"lng_background_text2" = "我现在都无法直视你了。";
+"lng_background_bad_link" = "该背景图链接无效。";
+"lng_background_apply" = "应用";
+"lng_background_share" = "分享";
+"lng_background_link_copied" = "链接已复制到剪贴板";
 
 "lng_download_path_ask" = "下载前询问保存目录";
 "lng_download_path" = "下载目录";
@@ -1035,6 +1035,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_animation_title" = "GIF 动画";
 "lng_media_size_limit" = "文件大小限制";
 "lng_media_size_up_to" = "不超过 {size}";
+"lng_media_chat_background" = "聊天窗口背景图";
 
 "lng_emoji_category1" = "人物";
 "lng_emoji_category2" = "自然";
@@ -1489,6 +1490,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_edit_admin_header" = "这位管理员可以做什么？";
 "lng_rights_about_add_admins_yes" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "lng_rights_about_add_admins_no" = "该管理员不能添加新管理员。";
+
 "lng_rights_about_admin_cant_edit" = "您无权修改此管理员的管理权限。";
 "lng_rights_about_restriction_cant_edit" = "您不能更改此用户的限制。";
 "lng_rights_restriction_for_all" = "该项已在群组默认权限中被禁用。";
@@ -2082,3 +2084,5 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_add_admin_unban" = "此用户当前正被限制或封禁。是否确定将其解封并提升至管理员？";
 "lng_sure_ban_user_channel" = "要在频道中封禁 {user} 吗？";
 "lng_sure_ban_user_group" = "是否要在群组中封禁 {user} ？";
+"lng_sure_remove_user_channel" = "从频道中移除 {user} ？";
+"lng_sure_remove_user_group" = "从群组中移除 {user} ？";

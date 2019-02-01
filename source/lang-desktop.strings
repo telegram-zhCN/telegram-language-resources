@@ -145,8 +145,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_add_admin_invite_channel" = "This user is not a subscriber of this channel. Add them to the channel and promote them to admin?";
 "lng_sure_add_admin_unremove" = "This user is currently restricted or removed. Are you sure you want to promote them?";
 "lng_sure_ban_admin" = "This user is an admin. Are you sure you want to go ahead and restrict them?";
-"lng_sure_remove_user_group" = "Remove {user} from the group?";
-"lng_sure_remove_user_channel" = "Remove {user} from the channel?";
 "lng_sure_enable_socks" = "Are you sure you want to enable this proxy?\n\nServer: {server}\nPort: {port}\n\nYou can change your proxy server later in Settings > Advanced > Connection Type.";
 "lng_sure_enable" = "Enable";
 
@@ -397,11 +395,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#other" = "Reverting to the old theme in {count} seconds.";
 "lng_theme_keep_changes" = "Keep changes";
 "lng_theme_revert" = "Revert";
-
-
-
-
-
+"lng_background_header" = "Background preview";
+"lng_background_text1" = "Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!";
+"lng_background_text2" = "I can't even take you seriously right now.";
+"lng_background_bad_link" = "This background link appears to be invalid.";
+"lng_background_apply" = "Apply";
+"lng_background_share" = "Share";
+"lng_background_link_copied" = "Link copied to clipboard";
 
 "lng_download_path_ask" = "Ask download path for each file";
 "lng_download_path" = "Download path";
@@ -1035,6 +1035,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_animation_title" = "Animated GIFs";
 "lng_media_size_limit" = "Limit by size";
 "lng_media_size_up_to" = "up to {size}";
+"lng_media_chat_background" = "Chat background";
 
 "lng_emoji_category1" = "People";
 "lng_emoji_category2" = "Nature";
@@ -1489,6 +1490,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_edit_admin_header" = "What can this admin do?";
 "lng_rights_about_add_admins_yes" = "This admin will be able to add new admins with the same (or more limited) permissions.";
 "lng_rights_about_add_admins_no" = "This admin will not be able to add new admins.";
+
 "lng_rights_about_admin_cant_edit" = "You are not allowed to edit the rights of this admin.";
 "lng_rights_about_restriction_cant_edit" = "You cannot change the restrictions for this user.";
 "lng_rights_restriction_for_all" = "This option is disabled for all members in Group Permissions.";
@@ -2395,6 +2397,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_add_admin_unban" = "This user is currently restricted or banned. Are you sure you want to unban and promote them?";
 "lng_sure_ban_user_channel" = "Ban {user} in the channel?";
 "lng_sure_ban_user_group" = "Ban {user} in the group?";
+"lng_sure_remove_user_channel" = "Remove {user} from the channel?";
+"lng_sure_remove_user_group" = "Remove {user} from the group?";
 "lng_terms_age#zero" = "I confirm that I am {count} or over";
 "lng_terms_age#two" = "I confirm that I am {count} or over";
 "lng_terms_age#few" = "I confirm that I am {count} or over";
