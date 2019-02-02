@@ -431,7 +431,7 @@
     <string name="Poll">投票</string>
     <string name="Question">问题</string>
     <string name="QuestionHint">请输入问题</string>
-    <string name="PollOptions">投票备选项</string>
+    <string name="PollOptions">候选项</string>
     <string name="AddAnOption">添加一个选项...</string>
     <string name="AddAnOptionInfo">您还可以再添加 %1$s。</string>
     <string name="AddAnOptionInfoMax">您添加的选项已达最大数量。</string>
@@ -1116,9 +1116,9 @@
     <string name="BackgroundBlurred">模糊</string>
     <string name="BackgroundMotion">动效</string>
     <string name="ChatBackground">聊天窗口背景图</string>
-    <string name="ResetChatBackgrounds">重置聊天窗口背景图</string>
-    <string name="ResetChatBackgroundsInfo">删除所有上传的聊天窗口背景图并恢复预置的聊天背景。</string>
-    <string name="ResetChatBackgroundsAlert">您确定要重置所有聊天窗口背景图吗？</string>
+    <string name="ResetChatBackgrounds">重置背景图列表</string>
+    <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
+    <string name="ResetChatBackgroundsAlert">您确定要重置背景图列表吗？</string>
     <string name="DeleteChatBackgroundsAlert">您确定要删除选定的背景吗？</string>
     <string name="BackgroundPreview">背景预览</string>
     <string name="BackgroundPreviewLine1">提示：一些背景图使用模糊效果看起来会更好。</string>

@@ -78,8 +78,8 @@
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
-
-
+"PUSH_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
+"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
 
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 
@@ -99,7 +99,7 @@
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|开始分享他们的实时位置";
 
 
-
+"PUSH_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
 
 
 
@@ -130,13 +130,13 @@
 
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
-
+"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
 
 
 
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
 
-
+"PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|发布了 %2$d 段视频";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 
 
@@ -145,7 +145,7 @@
 "PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|发布了 %2$d 条视频留言";
 "PUSH_CHANNEL_MESSAGE" = "%1$@|发布了一条消息";
 
-
+"PUSH_CHANNEL_MESSAGES_any" = "%1$@|发布了 %2$d 条消息";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 
@@ -209,8 +209,8 @@
 
 
 
-
-
+"PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
+"PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
 
 
 
@@ -3609,7 +3609,7 @@ Unused sets are archived when you add more.";
 "Notifications.Badge.CountUnreadMessages.InfoOn" = "关闭以显示未读对话数而非未读消息数。";
 
 "Appearance.ReduceMotion" = "减少动画效果";
-"Appearance.ReduceMotionInfo" = "Disable animations in message bubbles and in the chats list.";
+"Appearance.ReduceMotionInfo" = "关闭对话列表和对话气泡的动画效果。";
 
 "Appearance.Animations" = "ANIMATIONS";
 
@@ -3735,7 +3735,7 @@ Unused sets are archived when you add more.";
 "Contacts.PermissionsTitle" = "通讯录访问权限";
 "Contacts.PermissionsText" = "请允许 Telegram 访问您的通讯录，以便寻找您的好友。";
 "Contacts.PermissionsAllow" = "允许访问";
-
+"Contacts.PermissionsAllowInSettings" = "在设置中允许访问";
 
 
 
@@ -3748,7 +3748,7 @@ Unused sets are archived when you add more.";
 "Notifications.PermissionsAllow" = "启用推送通知";
 "Notifications.PermissionsAllowInSettings" = "在设置中启用";
 "Notifications.PermissionsOpenSettings" = "打开设置";
-
+"Notifications.PermissionsSuppressWarningTitle" = "要保持禁用通知吗？";
 "Notifications.PermissionsSuppressWarningText" = "你的当前设置可能会错过 Telegram 内的重要消息。\n\n您可以启用提醒或横幅功能，并设置仅屏蔽特定的对话或消息类型，以享有更好的体验。";
 "Notifications.PermissionsKeepDisabled" = "保持禁用";
 "Notifications.PermissionsEnable" = "启用";
@@ -3777,7 +3777,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.Create" = "发送";
 "CreatePoll.TextHeader" = "问题";
 "CreatePoll.TextPlaceholder" = "请输入问题";
-"CreatePoll.OptionsHeader" = "投票备选项";
+"CreatePoll.OptionsHeader" = "候选项";
 "CreatePoll.OptionPlaceholder" = "选项";
 "CreatePoll.AddOption" = "添加一个选项";
 
@@ -3882,12 +3882,11 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.Blurred" = "模糊";
 "WallpaperPreview.Pattern" = "图案";
 
-
 "Wallpaper.Search" = "搜索背景";
 "Wallpaper.SearchShort" = "搜索";
 "Wallpaper.SetColor" = "设置纯色背景";
 
-
+"Wallpaper.SetCustomBackgroundInfo" = "您可以设置一个自定义的背景图并与朋友分享。";
 
 
 
@@ -3963,9 +3962,13 @@ Unused sets are archived when you add more.";
 
 "Message.Wallpaper" = "聊天窗口背景图";
 
-"Wallpaper.ResetWallpapers" = "重置聊天窗口背景图";
-"Wallpaper.ResetWallpapersInfo" = "删除所有上传的聊天窗口背景图并恢复预置的聊天背景。";
+"Wallpaper.ResetWallpapers" = "重置背景图列表";
+"Wallpaper.ResetWallpapersInfo" = "删除所有上传的背景图并恢复预置的背景图列表。";
+"Wallpaper.ResetWallpapersConfirmation" = "重置聊天背景列表";
 
+"Proxy.TooltipUnavailable" = "这个代理可能无法使用，请尝试换一个。";
+
+"SocksProxySetup.Status" = "状态";
 
 
 /* new from translations.telegram.org */

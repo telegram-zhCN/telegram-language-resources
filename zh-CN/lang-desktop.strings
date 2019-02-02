@@ -1908,7 +1908,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_title" = "发起投票";
 "lng_polls_create_question" = "问题";
 "lng_polls_create_question_placeholder" = "请输入问题";
-"lng_polls_create_options" = "投票备选项";
+"lng_polls_create_options" = "候选项";
 "lng_polls_create_option_add" = "添加一个选项...";
 
 "lng_polls_create_limit#other" = "您还可以再添加 {count} 个选项。";

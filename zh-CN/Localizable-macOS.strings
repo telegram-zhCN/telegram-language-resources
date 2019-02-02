@@ -111,7 +111,7 @@
 "Confirm.LeaveGroup" = "您确定要退出此群组吗？";
 
 
-
+"PeerInfo.Confirm.DeleteUserChat" = "您确定要删除这个对话吗？";
 
 "PeerMedia.SharedMedia" = "分享的媒体";
 "EmptyPeer.Description" = "请选择一个对话开始聊天";
@@ -354,7 +354,7 @@
 "Login.EnterCodeFromApp" = "请输入您从其他 Telegram 客户端收到的验证码。";
 "Login.SendSmsIfNotReceivedAppCode" = "没有收到验证码？";
 "Login.JustSentSms" = "我们已经向您的手机发送了一条包含验证码的短信。请将其输入在上方。";
-"Login.PhoneCalledCode" = "我们正在呼叫您的手机来播报验证码。\n请在下方输入您的验证码。";
+"Login.PhoneCalledCode" = "我们刚刚拨打了您的手机。\n请在下方输入您的验证码。";
 "Login.PhoneDialed" = "Telegram 已经拨通您的手机";
 "Login.willCall" = "Telegram 会在 %d:%@ 后改用电话语音播报验证码";
 "Login.willSendSms" = "Telegram 将在 %d:%@ 后给你发送短信";
@@ -1331,7 +1331,7 @@
 "Channel.Blacklist.SelectNewUserTitle" = "成员";
 
 "Channel.Exception.DisabledOption.Group" = "该项已在群组默认权限中被禁用。";
-
+"Channel.Exception.DisabledOption.Channel" = "该项已在频道默认权限中被禁用。";
 
 "Channel.Admins.PromotedBy" = "被 %@ 设为管理员";
 "Channel.Admins.AddAdminError" = "抱歉，您无权将此用户提升为管理员。";
@@ -2178,7 +2178,7 @@
 
 "PrivacyAndSecurity.BlockedUsers" = "2 位用户";
 
-
+"PrivacyAndSecurity.ClearCloudDraftsHeader" = "对话窗口";
 "PrivacyAndSecurity.ClearCloudDrafts" = "删除所有云端草稿";
 
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "您确定要清空所有草稿吗？";
@@ -2510,7 +2510,7 @@
 
 
 "Chat.Poll.Tooltip.NoVotes" = "无人投票";
-
+"Chat.Poll.Tooltip.Votes_countable" = "%d";
 
 
 
@@ -2539,7 +2539,7 @@
 "NewPoll.QuestionHeaderLimit" = "问题 (%d)";
 
 "NewPoll.QuestionPlaceholder" = "请输入问题";
-"NewPoll.OptionsHeader" = "投票备选项";
+"NewPoll.OptionsHeader" = "候选项";
 "NewPoll.OptionsPlaceholder" = "选项";
 "NewPoll.OptionsAddOption" = "添加一个选项...";
 
@@ -2672,6 +2672,15 @@
 
 
 
+"Chat.UndoManager.ChatsDeleted_countable" = "%d";
+
+
+
+
+
+
+
+"Chat.UndoManager.ChatsHistoryCleared_countable" = "%d";
 
 
 
@@ -2680,6 +2689,7 @@
 
 
 
+"Chat.UndoManager.ChatLeft_countable" = "%d";
 
 
 
@@ -2687,6 +2697,7 @@
 
 
 
+"Chat.UndoManager.ChannelLeft_countable" = "%d";
 
 
 
@@ -2694,18 +2705,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+"Chat.UndoManager.ChannelDeleted_countable" = "%d";
 
 
 
@@ -2725,16 +2725,16 @@
 //"_NS:81.title" = "View";
 
 
-
-
+"Channel.ErrorAddBlocked" = "抱歉，您不能将此用户加入频道。";
+"Channel.ErrorAddTooMuch" = "抱歉，您只能将前200名用户加入频道。注意：通过频道链接加入的用户人数无上限。";
 
 "WallpaperPreview.DoesntExists" = "抱歉，这个背景似乎不存在。";
 "WallpaperPreview.Apply" = "应用";
+"Chat.WP.BackgroundTitle" = "聊天窗口背景图";
 
+"Chat.WP.SelectFromFile" = "选择文件";
 
-
-
-
+"Chat.WP.SecondMessage" = "捏一下我，我在做梦！";
 
 "Chat.WP.Color.FirstMessage" = "点击 “应用” 即可设置背景图";
 "Chat.WP.Color.SecondMessage" = "尽情享受吧";
@@ -2756,6 +2756,7 @@
 "TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 "TwoStepAuth.SetupHint" = "请创建一个密码提示。";
+"WallpaperPreview.Plain" = "普通";
 "_NS:103.title" = "编辑";
 "_NS:167.title" = "窗口";
 "_NS:81.title" = "查看";

@@ -3882,7 +3882,6 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.Blurred" = "Blurred";
 "WallpaperPreview.Pattern" = "Pattern";
 
-
 "Wallpaper.Search" = "Search Backgrounds";
 "Wallpaper.SearchShort" = "Search";
 "Wallpaper.SetColor" = "Set a Color";
@@ -3966,6 +3965,10 @@ Unused sets are archived when you add more.";
 "Wallpaper.ResetWallpapers" = "Reset Chat Backgrounds";
 "Wallpaper.ResetWallpapersInfo" = "Remove all uploaded chat backgrounds and restore pre-installed backgrounds for all themes.";
 "Wallpaper.ResetWallpapersConfirmation" = "Reset Chat Backgrounds";
+
+"Proxy.TooltipUnavailable" = "The proxy may be unavailable. Try selecting another one.";
+
+"SocksProxySetup.Status" = "Status";
 
 
 /* new from translations.telegram.org */
