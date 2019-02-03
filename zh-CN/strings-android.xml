@@ -120,7 +120,7 @@
     <string name="Contacts">联系人</string>
     <string name="NewGroup">新建群组</string>
     <string name="Yesterday">昨天</string>
-    <string name="NoResult">没有结果</string>
+    <string name="NoResult">无搜索结果</string>
     <string name="NoChats">暂无对话...</string>
     <string name="RecentlyViewed">最近查看过</string>
     <string name="RecentlyViewedHide">隐藏</string>

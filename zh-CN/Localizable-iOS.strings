@@ -3711,7 +3711,7 @@ Unused sets are archived when you add more.";
 "Permissions.Skip" = "跳过";
 
 "Permissions.ContactsTitle.v0" = "同步您的通讯录";
-
+"Permissions.ContactsText.v0" = "查看您在 Telegram 上的朋友并无缝切换，无需手动添加。";
 "Permissions.ContactsAllow.v0" = "允许访问";
 "Permissions.ContactsAllowInSettings.v0" = "在设置中允许";
 
@@ -3754,12 +3754,12 @@ Unused sets are archived when you add more.";
 "Notifications.PermissionsEnable" = "启用";
 
 "ChatSettings.DownloadInBackground" = "后台下载";
+"ChatSettings.DownloadInBackgroundInfo" = "应用将会在进入后台的一段时间内继续下载媒体文件。";
 
+"Cache.ServiceFiles" = "服务文件";
 
-
-
-"SharedMedia.SearchNoResults" = "无结果";
-"SharedMedia.SearchNoResultsDescription" = "没有找到 \"%@\" 。\n尝试重新搜索。";
+"SharedMedia.SearchNoResults" = "无搜索结果";
+"SharedMedia.SearchNoResultsDescription" = "未找到与 “%@” 相关的信息。\n请尝试搜索其他内容。";
 
 "MessagePoll.LabelAnonymous" = "匿名投票";
 "MessagePoll.LabelClosed" = "最终结果";
@@ -3862,7 +3862,7 @@ Unused sets are archived when you add more.";
 
 "EmptyGroupInfo.Title" = "您创建了一个**群组**";
 "EmptyGroupInfo.Subtitle" = "群组可以拥有：";
-"EmptyGroupInfo.Line1" = "最多 %@ 位成员";
+"EmptyGroupInfo.Line1" = "最多 200,000 位成员";
 "EmptyGroupInfo.Line2" = "历史记录永久保留";
 "EmptyGroupInfo.Line3" = "如 t.me/title 一样的公开链接";
 "EmptyGroupInfo.Line4" = "设置权限细分的管理员";
@@ -3871,12 +3871,12 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.PreviewTopText" = "点按设置以应用背景";
 "WallpaperPreview.PreviewBottomText" = "欣赏美景吧！";
 "WallpaperPreview.SwipeTopText" = "向两侧滑动可以查看更多背景图";
-"WallpaperPreview.SwipeBottomText" = "如何才能 让这心意 映在镜中让你看清？";
+"WallpaperPreview.SwipeBottomText" = "点按“动效”并尝试倾斜您的手机";
 "WallpaperPreview.SwipeColorsTopText" = "向两侧滑动可查看更多颜色";
 "WallpaperPreview.SwipeColorsBottomText" = "三文鱼是一种鱼，不是一种颜色";
 "WallpaperPreview.CustomColorTopText" = "你可以通过下方的滑条改变颜色";
 "WallpaperPreview.CustomColorBottomText" = "可以选一个与你的窗帘搭配的色彩";
-
+"WallpaperPreview.CropTopText" = "拖动手指来调整背景图的大小和位置";
 "WallpaperPreview.CropBottomText" = "当你完成背景设计后你可以获得一个分享链接";
 "WallpaperPreview.Motion" = "动效";
 "WallpaperPreview.Blurred" = "模糊";
@@ -3955,8 +3955,8 @@ Unused sets are archived when you add more.";
 "CallFeedback.Send" = "发送";
 "CallFeedback.Success" = "感谢反馈";
 
-
-
+"WebSearch.SearchNoResults" = "无搜索结果";
+"WebSearch.SearchNoResultsDescription" = "未找到与 “%@” 相关的信息。\n请尝试搜索其他内容。";
 
 "WallpaperPreview.PatternIntensity" = "图案深度";
 
@@ -4076,6 +4076,7 @@ Unused sets are archived when you add more.";
 "MESSAGE_FWDS" = "%1$@ 向你转发了 %2$@ 条消息";
 "MESSAGE_FWDS_SEPARATED" = "%1$@|向您转发了 %2$@ 条消息";
 "MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
+"MESSAGE_GAME_SEPARATED" = "%1$@|邀请你一起玩 %2$@";
 "MESSAGE_GEO" = "%1$@ 给您发送了一个位置";
 "MESSAGE_GEOLIVE" = "%1$@ 已开始共享他们的实时位置";
 "MESSAGE_GIF" = "%1$@ 给您发送了一个 GIF";

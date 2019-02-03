@@ -1072,7 +1072,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_gifs_search" = "搜索 GIF";
 "lng_gifs_no_saved" = "您还没有保存过 GIF";
 
-"lng_inline_bot_no_results" = "没有结果。";
+"lng_inline_bot_no_results" = "无搜索结果";
 "lng_inline_bot_via" = "通过 {inline_bot}";
 
 "lng_box_remove" = "删除";
