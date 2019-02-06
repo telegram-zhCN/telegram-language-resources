@@ -1250,7 +1250,7 @@
   <string name="RightEditMessages">编辑消息</string>
   <string name="NoGroupsToShow">没有可显示的群组</string>
   <string name="GroupsWillBeShownHere">您与此人共同加入的群组将会显示在此处</string>
-  <string name="EditAdminRights">编辑管理员权限</string>
+  <string name="EditAdminRights">修改管理员权限</string>
   <string name="ViewAdminRights">查看管理员权限</string>
   <string name="RevokeAdminRights">撤销管理员权限</string>
   <string name="EditUserRestrictions">编辑用户限制</string>
