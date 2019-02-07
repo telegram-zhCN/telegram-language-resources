@@ -59,7 +59,7 @@
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
 
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
-
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条联系人信息";
 
 
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
@@ -72,7 +72,7 @@
 "PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
 
-
+"PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
 
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
@@ -125,7 +125,7 @@
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
 
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
-
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条联系人信息";
 
 
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
@@ -195,7 +195,7 @@
 "PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
 
-
+"PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
 
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
@@ -3810,7 +3810,7 @@ Unused sets are archived when you add more.";
 
 "Cache.LowDiskSpaceText" = "您的手机存储空间已耗尽。请在下载或上传媒体文件前释放足够空间。";
 
-
+"Contacts.SortBy" = "排列方式按：";
 "Contacts.SortByName" = "姓名";
 "Contacts.SortByPresence" = "最后上线时间";
 "Contacts.SortedByName" = "按姓名排序";
