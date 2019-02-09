@@ -1244,6 +1244,8 @@
     <string name="VibrationDefault">默认</string>
     <string name="SmartNotifications">智能通知</string>
     <string name="NotificationsExceptions">例外</string>
+    <string name="NotificationsAddAnException">添加一个例外</string>
+    <string name="NotificationsNewException">新例外</string>
     <string name="NoExceptions">此区域将列出所有使用自定义通知设置的对话。\n\n您可以通过资料页中 “通知” 设置来自定义通知。</string>
     <string name="EmptyExceptions">无</string>
     <string name="SmartNotificationsInfo">%2$s %1$d 次</string>
@@ -1991,7 +1993,7 @@
     <string name="Loading">载入中...</string>
     <string name="NoPlayerInstalled">没有可用的视频播放器，请先安装一个再播放</string>
     <string name="NoMailInstalled">请发送邮件到 sms@stel.com 来告诉我们您遇到的问题。</string>
-    <string name="NoHandleAppInstalled">您没有安装可执行 \\'%1$s\\' 类型文件的应用，请先安装一个再继续</string>
+    <string name="NoHandleAppInstalled">您没有安装可执行 %1$s 类型文件的应用，请先安装一个再继续</string>
     <string name="InviteUser">此用户还未加入 Telegram ，是否发送邀请？</string>
     <string name="AreYouSure">您确定吗？</string>
     <string name="AddToTheGroupTitle">添加 %1$s 到群组 %2$s？</string>

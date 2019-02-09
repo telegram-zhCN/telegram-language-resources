@@ -3860,7 +3860,7 @@ Unused sets are archived when you add more.";
 "GroupRemoved.AddToGroup" = "邀请加入群组";
 "GroupRemoved.DeleteUser" = "删除";
 
-"EmptyGroupInfo.Title" = "您创建了一个**群组**";
+"EmptyGroupInfo.Title" = "您创建了一个群组";
 "EmptyGroupInfo.Subtitle" = "群组可以拥有：";
 "EmptyGroupInfo.Line1" = "最多 200,000 位成员";
 "EmptyGroupInfo.Line2" = "历史记录永久保留";

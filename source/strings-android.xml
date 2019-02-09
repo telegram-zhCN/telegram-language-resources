@@ -1244,6 +1244,8 @@
     <string name="VibrationDefault">Default</string>
     <string name="SmartNotifications">Smart Notifications</string>
     <string name="NotificationsExceptions">Exceptions</string>
+    <string name="NotificationsAddAnException">Add an Exception</string>
+    <string name="NotificationsNewException">New Exception</string>
     <string name="NoExceptions">This section will list all chats with non-default notification settings.\n\nYou can customize notifications for a chat by opening its profile and choosing \'Notifications\'.</string>
     <string name="EmptyExceptions">None</string>
     <string name="SmartNotificationsInfo">%1$d / %2$s</string>

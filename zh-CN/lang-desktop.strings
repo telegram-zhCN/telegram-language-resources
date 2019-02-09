@@ -1058,7 +1058,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_stickers_description" = "你可以选择一个贴纸包，以供全体成员使用。";
 "lng_group_stickers_add" = "选择贴纸包";
 
-"lng_group_about_header" = "您创建了一个**群组**";
+"lng_group_about_header" = "您创建了一个群组";
 "lng_group_about_text" = "群组可以拥有：";
 "lng_group_about1" = "最多 200,000 位成员";
 "lng_group_about2" = "历史记录永久保留";
