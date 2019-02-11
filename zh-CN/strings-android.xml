@@ -734,7 +734,7 @@
     <string name="GlobalAttachMediaRestricted">此群组不允许发送媒体。</string>
     <string name="GlobalAttachInlineRestricted">此群组不允许 Inline 机器人。</string>
     <string name="GlobalAttachStickersRestricted">此群组不允许发送贴纸。</string>
-    <string name="GlobalSendMessageRestricted">此群组不允许发送消息。</string>
+    <string name="GlobalSendMessageRestricted">全员禁言中</string>
     <string name="ChatAdmin">管理员</string>
     <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
     <string name="UnreadMessages">未读消息</string>

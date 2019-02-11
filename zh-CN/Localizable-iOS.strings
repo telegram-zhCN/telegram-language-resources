@@ -2644,7 +2644,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在此发送消息的能力至 %@";
 "Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的能力。";
-"Conversation.DefaultRestrictedText" = "此群组不允许发送消息。";
+"Conversation.DefaultRestrictedText" = "全员禁言中";
 
 "Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送 Inline 内容的能力至 %@";
 "Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";

@@ -1170,7 +1170,7 @@
 
 "Channel.Persmission.Denied.SendMessages.Until" = "此群组的管理员限制了您在此发送消息的能力至 %@";
 "Channel.Persmission.Denied.SendMessages.Forever" = "此群组的管理员限制了您在此发送消息的能力";
-"Channel.Persmission.Denied.SendMessages.DefaultRestrictedText" = "此群组不允许发送消息。";
+"Channel.Persmission.Denied.SendMessages.DefaultRestrictedText" = "全员禁言中";
 
 "Channel.Persmission.Denied.SendMedia.Until" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
 "Channel.Persmission.Denied.SendMedia.Forever" = "此群组的管理员限制了您在此发送媒体文件的能力。";

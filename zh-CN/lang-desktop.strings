@@ -1017,7 +1017,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_attach_file" = "文件";
 "lng_attach_photo" = "图片";
 
-"lng_media_open_with" = "打开至";
+"lng_media_open_with" = "打开方式...";
 "lng_media_download" = "下载";
 "lng_media_cancel" = "取消";
 "lng_media_video" = "视频";
@@ -1537,7 +1537,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_inline" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";
 "lng_restricted_send_polls" = "此群组的管理员限制了您在此发起投票的能力。";
 
-"lng_restricted_send_message_all" = "此群组不允许发送消息。";
+"lng_restricted_send_message_all" = "全员禁言中";
 "lng_restricted_send_media_all" = "此群组不允许发送媒体。";
 "lng_restricted_send_stickers_all" = "此群组不允许发送贴纸。";
 "lng_restricted_send_gifs_all" = "此群组不允许发送 GIF。";
