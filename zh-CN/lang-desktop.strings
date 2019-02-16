@@ -402,8 +402,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_background_apply" = "应用";
 "lng_background_share" = "分享";
 "lng_background_link_copied" = "链接已复制到剪贴板";
-
-
+"lng_background_blur" = "模糊";
+"lng_background_sure_delete" = "您确定要删除这个背景吗？";
 
 "lng_download_path_ask" = "下载前询问保存目录";
 "lng_download_path" = "下载目录";
