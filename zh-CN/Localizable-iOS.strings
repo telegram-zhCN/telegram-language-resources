@@ -1,24 +1,24 @@
 // Notifications
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
+"PUSH_MESSAGE_NOTEXT" = "%1$@ 给您发送了一条消息";
+"PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
+"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|给您发送了一张自毁图片";
+"PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
+"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
+"PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
 
-
-
-
-
-
-
-
+"PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|开始分享他们的实时位置";
-
-
-
+"PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
+"PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
+"PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
 "PUSH_ENCRYPTED_MESSAGE" = "您有一条新消息%1$@";
 "PUSH_LOCKED_MESSAGE" = "您有一条新消息%1$@";
 
 "PUSH_ENCRYPTION_REQUEST" = "新加密聊天请求%1$@";
 "PUSH_ENCRYPTION_ACCEPT" = "您的加密聊天请求已被接受%1$@";
 
-
+"PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
 
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
@@ -46,7 +46,7 @@
 
 
 
-
+"PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
 
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
@@ -60,7 +60,7 @@
 
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
 "PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条联系人信息";
-"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个地图";
+"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 
@@ -74,7 +74,7 @@
 
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
-"PUSH_PINNED_GEO" = "%1$@|置顶了一个地图\n";
+"PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
@@ -84,36 +84,36 @@
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
+"PUSH_MESSAGE_NOTEXT" = "%1$@ 给您发送了一条消息";
+"PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
+"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|给您发送了一张自毁图片";
+"PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
+"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
 
+"PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
+"PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
+"PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
+"PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
 
-
-
-
-
-
-
-
-
-
-
+"PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|开始分享他们的实时位置";
-
-
+"PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
+"PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
 
 
 
 
+"PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
 
 
+"PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 
 
+"PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
 
 
-
-
-
-
+"PUSH_MESSAGE" = "%1$@|给您发送了一条消息";
 
 
 
@@ -126,7 +126,7 @@
 
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
 "PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条联系人信息";
-"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个地图";
+"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
@@ -197,7 +197,7 @@
 
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
-"PUSH_PINNED_GEO" = "%1$@|置顶了一个地图\n";
+"PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
@@ -1315,7 +1315,7 @@
 "TwoStepAuth.RecoveryCode" = "验证码";
 "TwoStepAuth.RecoveryCodeHelp" = "请查阅电子邮箱并输入我们发送给您的六位数字来关闭两步验证。";
 "TwoStepAuth.RecoveryCodeInvalid" = "验证码无效，请重新输入。";
-"TwoStepAuth.RecoveryCodeExpired" = "我们重新向您发送了六位认证码";
+"TwoStepAuth.RecoveryCodeExpired" = "我们重新发送了六位验证码。";
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 
 "TwoStepAuth.FloodError" = "错误次数已达上限，请稍后再试。";
@@ -2460,7 +2460,7 @@ Unused sets are archived when you add more.";
 "UserInfo.TelegramCall" = "Telegram Call";
 "UserInfo.PhoneCall" = "电话";
 
-"SharedMedia.CategoryMedia" = "已共享媒体";
+"SharedMedia.CategoryMedia" = "媒体";
 "SharedMedia.CategoryDocs" = "文件";
 "SharedMedia.CategoryLinks" = "链接";
 "SharedMedia.CategoryOther" = "语音";
@@ -2982,7 +2982,7 @@ Unused sets are archived when you add more.";
 "Privacy.PaymentsClearInfoDoneHelp" = "付款和配送信息已清除";
 
 "InfoPlist.NSContactsUsageDescription" = "为了让您能够在您所有的设备上联系您的朋友，Telegram 会持续上传您的联系人信息到它高度加密的云端服务器上。";
-"InfoPlist.NSLocationWhenInUseUsageDescription" = "当您向伙伴发送您的位置时，Telegram 需要此权限。";
+"InfoPlist.NSLocationWhenInUseUsageDescription" = "Telegram 需要此权限以便向朋友发送位置。";
 "InfoPlist.NSCameraUsageDescription" = "我们需要它来拍照或录像。";
 "InfoPlist.NSPhotoLibraryUsageDescription" = "我们需要它来分享图库中的照片和视频。";
 "InfoPlist.NSPhotoLibraryAddUsageDescription" = "我们需要它来保存照片和视频到您的图库。";
@@ -2990,7 +2990,7 @@ Unused sets are archived when you add more.";
 "InfoPlist.NSSiriUsageDescription" = "您可以使用 Siri 发送消息。";
 "InfoPlist.NSLocationAlwaysAndWhenInUseUsageDescription" = "当您使用 “实时位置分享” 功能时，Telegram 需要后台访问您的位置信息用于持续更新。";
 "InfoPlist.NSLocationAlwaysUsageDescription" = "当您使用 “实时位置分享” 功能时，Telegram 需要后台访问您的位置信息用于持续更新。当您需要从 Apple Watch 发送位置时该权限也是必需的。";
-"InfoPlist.NSLocationWhenInUseUsageDescription" = "当您向伙伴发送您的位置时，Telegram 需要此权限。";
+"InfoPlist.NSLocationWhenInUseUsageDescription" = "Telegram 需要此权限以便向朋友发送位置。";
 "InfoPlist.NSFaceIDUsageDescription" = "您可以使用 Face ID 解锁应用。";
 
 "Privacy.Calls.P2PNever" = "从不";
@@ -3989,7 +3989,7 @@ Unused sets are archived when you add more.";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 发布了一个位置";
 "CHANNEL_MESSAGE_GEOLIVE" = "%1$@ 正在共享实时位置";
 "CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|发布了一条实时位置信息";
-"CHANNEL_MESSAGE_GEO_SEPARATED" = "%1$@|发布了一张地图";
+"CHANNEL_MESSAGE_GEO_SEPARATED" = "%1$@|发布了一个位置";
 "CHANNEL_MESSAGE_GIF" = "%1$@ 发布了一个 GIF";
 "CHANNEL_MESSAGE_GIF_SEPARATED" = "%1$@|发布了一张 GIF";
 "CHANNEL_MESSAGE_NOTEXT" = "%1$@ 发布了一段文字";
@@ -4029,10 +4029,10 @@ Unused sets are archived when you add more.";
 "CHAT_MESSAGE_FWDS" = "%1$@ 转发了 %3$@ 条消息到群组 %2$@";
 "CHAT_MESSAGE_FWDS_SEPARATED" = "%2$@|%1$@ 转发了 %3$@ 条消息";
 "CHAT_MESSAGE_GAME" = "%1$@ 邀请您加入群组 %2$@  来玩 %3$@";
-"CHAT_MESSAGE_GEO" = "%1$@ 向群组 %2$@ 分享了地理位置";
+"CHAT_MESSAGE_GEO" = "%1$@ 向群组 %2$@ 发送了一个位置";
 "CHAT_MESSAGE_GEOLIVE" = "%1$@ 已开始与 %2$@ 共享实时位置";
 "CHAT_MESSAGE_GEOLIVE_SEPARATED" = "%2$@|%1$@ 开始共享他们的实时位置";
-"CHAT_MESSAGE_GEO_SEPARATED" = "%2$@|%1$@ 发送了一张地图";
+"CHAT_MESSAGE_GEO_SEPARATED" = "%2$@|%1$@ 发送了一个位置";
 "CHAT_MESSAGE_GIF" = "%1$@ 向群组 %2$@ 分享了 GIF";
 "CHAT_MESSAGE_GIF_SEPARATED" = "%2$@|%1$@ 发送了一个 GIF";
 "CHAT_MESSAGE_NOTEXT" = "%1$@ 发送了一条消息到群组 %2$@";
@@ -4067,9 +4067,10 @@ Unused sets are archived when you add more.";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
-"MESSAGES" = "%1$@ sent you %2$@ messages";
+"MESSAGES" = "%1$@ 给您发送了 %2$@ 条消息";
+"MESSAGES_SEPARATED" = "%1$@|给您发送了 %2$@ 条消息";
 "MESSAGE_AUDIO" = "%1$@ 给您发送了一条语音留言";
-"MESSAGE_AUDIO_SEPARATED" = "%1$@|给你发送了一条语音消息";
+"MESSAGE_AUDIO_SEPARATED" = "%1$@|给你发送了一条语音留言";
 "MESSAGE_CONTACT" = "%1$@ 给您分享了一条联系人信息";
 "MESSAGE_CONTACT_SEPARATED" = "%1$@|分享了一条联系人信息";
 "MESSAGE_DOC" = "%1$@ 给您发送了一个文件";
@@ -4081,21 +4082,24 @@ Unused sets are archived when you add more.";
 "MESSAGE_GEO" = "%1$@ 给您发送了一个位置";
 "MESSAGE_GEOLIVE" = "%1$@ 已开始共享他们的实时位置";
 "MESSAGE_GEOLIVE_SEPARATED" = "%1$@|开始分享他们的实时位置";
-"MESSAGE_GEO_SEPARATED" = "%1$@|给你发送了一个地图";
-"MESSAGE_GIF" = "%1$@ 给您发送了一个 GIF";
+"MESSAGE_GEO_SEPARATED" = "%1$@|给你发送了一个位置";
+"MESSAGE_GIF" = "%1$@ 给您发送了一张 GIF";
+"MESSAGE_GIF_SEPARATED" = "%1$@|给您发送了一张 GIF";
 "MESSAGE_NOTEXT" = "%1$@ 给您发送了一条消息";
 "MESSAGE_NOTEXT_SEPARATED" = "%1$@|给您发送了一条消息";
 "MESSAGE_PHOTO" = "%1$@ 给您发送了一张图片";
-"MESSAGE_PHOTOS" = "%1$@ sent you %2$@ photos";
+"MESSAGE_PHOTOS" = "%1$@ 给您发送了 %2$@ 张图片";
+"MESSAGE_PHOTOS_SEPARATED" = "%1$@|给您发送了 %2$@ 张图片";
 "MESSAGE_PHOTO_SECRET" = "%1$@ 给您发送了一张自毁图片";
 "MESSAGE_PHOTO_SECRET_SEPARATED" = "%1$@|给您发送了一张自毁图片";
 "MESSAGE_PHOTO_SEPARATED" = "%1$@|给您发送了一张图片";
 "MESSAGE_POLL" = "%1$@ 给您发送了一项投票";
-"MESSAGE_POLL_SEPARATED" = "%1$@|给你发送了一个投票";
+"MESSAGE_POLL_SEPARATED" = "%1$@|给你发送了一项投票";
 "MESSAGE_ROUND" = "%1$@ 给您发送了一条视频留言";
+"MESSAGE_ROUND_SEPARATED" = "%1$@|给您发送了一段视频留言";
 "MESSAGE_SCREENSHOT" = "%1$@ 截图了！";
 "MESSAGE_SCREENSHOT_SEPARATED" = "%1$@|截了一张图！";
-"MESSAGE_STICKER" = "%1$@ 向您发送了 %2$@ 贴纸";
+"MESSAGE_STICKER" = "%1$@ 给您发送了 %2$@ 贴纸";
 "MESSAGE_STICKER_SEPARATED" = "%1$@|给你发送了一个 %2$@ 贴纸";
 "MESSAGE_TEXT" = "%1$@: %2$@";
 "MESSAGE_TEXT_SEPARATED" = "%1$@|%2$@";
@@ -4121,7 +4125,7 @@ Unused sets are archived when you add more.";
 "PINNED_GEO" = "%1$@ 置顶了一个位置";
 "PINNED_GEOLIVE" = "%1$@ 置顶了实时位置";
 "PINNED_GEOLIVE_SEPARATED" = "%1$@|置顶了一个实时位置";
-"PINNED_GEO_SEPARATED" = "%1$@|置顶了一个地图";
+"PINNED_GEO_SEPARATED" = "%1$@|置顶了一个位置";
 "PINNED_GIF" = "%1$@ 置顶了一张 GIF";
 "PINNED_GIF_SEPARATED" = "%1$@|置顶了一张 GIF";
 "PINNED_INVOICE_SEPARATED" = "%1$@|置顶了一张账单";

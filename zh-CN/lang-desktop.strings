@@ -735,7 +735,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_top_bar_share_contact" = "分享";
 
 "lng_profile_info_section" = "信息";
-"lng_info_tab_media" = "已共享媒体";
+"lng_info_tab_media" = "媒体";
 "lng_info_mobile_label" = "手机";
 "lng_info_username_label" = "用户名";
 "lng_info_bio_label" = "个人简介";
