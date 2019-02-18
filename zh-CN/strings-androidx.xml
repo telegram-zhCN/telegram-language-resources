@@ -1580,12 +1580,12 @@
   <string name="LoadingPlaces">正在搜索附近地点...</string>
   <string name="NoPlacesFound">未找到地点</string>
   
-  <string name="SharingLiveLocationToChats_other">你正在与 %1$s 个对话共享实时位置</string>
+  <string name="SharingLiveLocationToChats_other">您正在与 %1$s 个对话共享实时位置</string>
   <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
   <string name="LiveLocationAlertGroup">选择这个群的成员在多长时间内可看到你的精确位置。</string>
   <string name="StopSharingLiveLocation">停止位置共享</string>
-  <string name="StopLiveLocationInfo">您确定要停止与所有对话的实时位置分享吗？</string>
-  <string name="StopLiveLocationInfoX">您确定要停止与 %1$s 分享您的实时位置吗？</string>
+  <string name="StopLiveLocationInfo">您确定要停止所有实时位置更新吗？</string>
+  <string name="StopLiveLocationInfoX">您确定要停止更新与 %1$s 共享的实时位置吗？</string>
   
   <string name="SharingWithXChats_other">分享到 %1$s 个对话</string>
   <string name="SharingWithX">与 %1$s 共享</string>

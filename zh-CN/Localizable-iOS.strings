@@ -6,48 +6,48 @@
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
-
+"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了一条联系人信息";
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
-"PUSH_MESSAGE_GEOLIVE" = "%1$@|开始分享他们的实时位置";
+"PUSH_MESSAGE_GEOLIVE" = "%1$@|正在共享他们的实时位置";
 "PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
 "PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
 "PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
 "PUSH_ENCRYPTED_MESSAGE" = "您有一条新消息%1$@";
 "PUSH_LOCKED_MESSAGE" = "您有一条新消息%1$@";
-
+"PUSH_MESSAGE_SCREENSHOT" = "%1$@|截图了！";
 "PUSH_ENCRYPTION_REQUEST" = "新加密聊天请求%1$@";
 "PUSH_ENCRYPTION_ACCEPT" = "您的加密聊天请求已被接受%1$@";
 
 "PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
-
+"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 向群里发送了一项投票";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 在群组中发送了一条消息";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息";
-
-"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 开始分享他们的实时位置";
-"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 在群组中发送了一个文件";
-
-"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 在群组中发送了一个GIF";
-
+"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
+"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
+"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
+"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ 向群里发送了一条语音留言";
+"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
+"PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ 更改了群组名称";
 "PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ 更改了群组头像";
-
-
+"PUSH_CHAT_ADD_MEMBER" = "%2$@|%1$@ 邀请了 %3$@ 加入群组";
+"PUSH_CHAT_ADD_YOU" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_DELETE_YOU" = "%2$@|%1$@ 已将您从群组中移除";
-
+"PUSH_CHAT_DELETE_MEMBER" = "%2$@|%1$@ 已将 %3$@ 从群组中移除";
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
-
+"PUSH_CHAT_RETURNED" = "%2$@|%1$@ 回到了群组";
 
 
 
 "PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
-
+"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ 向群里发送了一张 %3$@ 贴纸";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
 
@@ -57,11 +57,11 @@
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
-
+"PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
 "PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条联系人信息";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
-
+"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 
 
@@ -71,16 +71,16 @@
 "PUSH_PINNED_VIDEO" = "%1$@|置顶了一段视频";
 "PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
-
+"PUSH_PINNED_STICKER" = "%1$@|置顶了一张 %2$@ 贴纸";
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
-"PUSH_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
-"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
-
+"PUSH_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
+"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
+"PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
@@ -89,33 +89,33 @@
 "PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|给您发送了一张自毁图片";
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
-
+"PUSH_MESSAGE_SCREENSHOT" = "%1$@|截图了！";
 "PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
 "PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
 "PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
 "PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
-
+"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了一条联系人信息";
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
-"PUSH_MESSAGE_GEOLIVE" = "%1$@|开始分享他们的实时位置";
+"PUSH_MESSAGE_GEOLIVE" = "%1$@|正在共享他们的实时位置";
 "PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
 "PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
-"PUSH_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
+"PUSH_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
+"PUSH_MESSAGE_INVOICE" = "%1$@|给您发送了一张 %2$@ 的账单";
 
 
-
-
+"PUSH_MESSAGE_FWDS_any" = "%1$@|转发给您 %2$d 条消息";
 "PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
 
-
+"PUSH_MESSAGE_PHOTOS_any" = "%1$@|给您发送了 %2$d 张图片";
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 
-
+"PUSH_MESSAGE_VIDEOS_any" = "%1$@|给您发送了 %2$d 段视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
 
-
+"PUSH_MESSAGE_ROUNDS_any" = "%1$@|给您发送了 %2$d 条视频留言";
 "PUSH_MESSAGE" = "%1$@|给您发送了一条消息";
 
-
+"PUSH_MESSAGES_any" = "%1$@|给您发送了 %2$d 条消息";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
@@ -123,23 +123,23 @@
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
-
+"PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
 "PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条联系人信息";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
-
+"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
-"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请你一起玩 %2$@";
+"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
 
 
-
+"PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|发布了 %2$d 条转发的消息";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
 
 "PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|发布了 %2$d 段视频";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
 
-
+"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|发布了 %2$d 段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
 
 "PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|发布了 %2$d 条视频留言";
@@ -148,29 +148,29 @@
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|发布了 %2$d 条消息";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 在群组中发送了一条消息";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 
-"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 在群组中发送了一个文件";
-
-
+"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
+"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ 向群里发送了一张 %3$@ 贴纸";
+"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ 向群里发送了一条语音留言";
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息";
-
-"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 开始分享他们的实时位置";
-
-"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 在群组中发送了一个GIF";
-
-
-
+"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
+"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
+"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 向群里发送了一项投票";
+"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
+"PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
+"PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@ 发送了一张 %3$@ 的账单";
+"PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ edited the group\'s name";
 "PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ edited the group\'s photo";
-
-
-
+"PUSH_CHAT_ADD_MEMBER" = "%2$@|%1$@ 邀请了 %3$@ 加入群组";
+"PUSH_CHAT_ADD_YOU" = "%2$@|%1$@ 邀请您加入群组";
+"PUSH_CHAT_DELETE_MEMBER" = "%2$@|%1$@ 已将 %3$@ 从群组中移除";
 "PUSH_CHAT_DELETE_YOU" = "%2$@|%1$@ 已将您从群组中移除";
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
-
+"PUSH_CHAT_RETURNED" = "%2$@|%1$@ 回到了群组";
 "PUSH_CHAT_JOINED" = "%2$@|%1$@ 加入了群组";
 "PUSH_CHAT_MESSAGE_FWD" = "%2$@|%1$@ 转发了一条消息";
 
@@ -194,14 +194,14 @@
 "PUSH_PINNED_VIDEO" = "%1$@|置顶了一段视频";
 "PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
-
+"PUSH_PINNED_STICKER" = "%1$@|置顶了一张 %2$@ 贴纸";
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
-
+"PUSH_PINNED_INVOICE" = "%1$@|置顶了一张账单";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
@@ -2831,7 +2831,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.MessageGroupPreHistoryHidden" = "%@ 使消息记录对新成员不可见";
 
 "Map.PullUpForPlaces" = "向上拖动查看附近地点";
-"Map.ShareLiveLocation" = "分享我的实时位置到...";
+"Map.ShareLiveLocation" = "分享我的实时位置...";
 "Map.ShareLiveLocationHelp" = "在您移动时实时更新";
 "Map.StopLiveLocation" = "停止位置共享";
 "Map.Directions" = "路线";
@@ -3984,11 +3984,12 @@ Unused sets are archived when you add more.";
 "CHANNEL_MESSAGE_CONTACT_SEPARATED" = "%1$@|发布了一条联系人信息";
 "CHANNEL_MESSAGE_DOC" = "%1$@ 发布了一个文件";
 "CHANNEL_MESSAGE_DOC_SEPARATED" = "%1$@|发布了一个文件";
+"CHANNEL_MESSAGE_FWDS_SEPARATED" = "%1$@|发布了 %2$@ 条转发的消息";
 "CHANNEL_MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
 "CHANNEL_MESSAGE_GAME_SEPARATED" = "%1$@|邀请您一起玩 %2$@";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 发布了一个位置";
 "CHANNEL_MESSAGE_GEOLIVE" = "%1$@ 正在共享实时位置";
-"CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|发布了一条实时位置信息";
+"CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|正在共享实时位置";
 "CHANNEL_MESSAGE_GEO_SEPARATED" = "%1$@|发布了一个位置";
 "CHANNEL_MESSAGE_GIF" = "%1$@ 发布了一个 GIF";
 "CHANNEL_MESSAGE_GIF_SEPARATED" = "%1$@|发布了一张 GIF";
@@ -4008,9 +4009,12 @@ Unused sets are archived when you add more.";
 "CHANNEL_MESSAGE_TEXT_SEPARATED" = "%1$@|%2$@";
 "CHANNEL_MESSAGE_VIDEO" = "%1$@ 发布了一段视频";
 "CHANNEL_MESSAGE_VIDEO_SEPARATED" = "%1$@|发布了一段视频";
-"CHAT_ADD_MEMBER" = "%1$@ added %3$@ to the group %2$@";
+"CHAT_ADD_MEMBER" = "%1$@ 邀请了 %3$@ 加入群组 %2$@";
+"CHAT_ADD_MEMBER_SEPARATED" = "%2$@|%1$@ 邀请了 %3$@ 加入群组";
 "CHAT_ADD_YOU" = "%1$@ 邀请您加入群组 %2$@";
+"CHAT_ADD_YOU_SEPARATED" = "%2$@|%1$@ 邀请您加入群组";
 "CHAT_CREATED" = "%1$@ 邀请您加入群组 %2$@";
+"CHAT_CREATED_SEPARATED" = "%2$@|%1$@ 邀请您加入群组";
 "CHAT_DELETE_MEMBER" = "%1$@ 已将 %3$@ 从群组 %2$@ 中移除";
 "CHAT_DELETE_MEMBER_SEPARATED" = "%2$@|%1$@ 已将 %3$@ 从群组中移除";
 "CHAT_DELETE_YOU" = "%1$@ 已将您从群组 %2$@ 中移除";
@@ -4018,40 +4022,44 @@ Unused sets are archived when you add more.";
 "CHAT_JOINED_SEPARATED" = "%2$@|%1$@ 加入了群组";
 "CHAT_LEFT" = "%1$@ 退出了群组 %2$@";
 "CHAT_LEFT_SEPARATED" = "%2$@|%1$@ 退出了群组";
-"CHAT_MESSAGES" = "%1$@ sent %3$@ messages to the group %2$@";
+"CHAT_MESSAGES" = "%1$@ 发送了 %3$@ 条消息到群组 %2$@";
 "CHAT_MESSAGES_SEPARATED" = "%2$@|%1$@ 发送了 %3$@ 条消息";
 "CHAT_MESSAGE_AUDIO" = "%1$@ 向群组 %2$@ 发送了语音留言";
 "CHAT_MESSAGE_AUDIO_SEPARATED" = "%2$@|%1$@ 发送了一条语音留言";
 "CHAT_MESSAGE_CONTACT" = "%1$@ 向群组 %2$@ 分享了联系信息";
 "CHAT_MESSAGE_CONTACT_SEPARATED" = "%2$@|%1$@ 分享了一条联系人信息";
-"CHAT_MESSAGE_DOC" = "%1$@ 向群组 %2$@ 分享了文件";
+"CHAT_MESSAGE_DOC" = "%1$@ 发送了一个文件到群组 %2$@";
 "CHAT_MESSAGE_DOC_SEPARATED" = "%2$@|%1$@ 发送了一个文件";
 "CHAT_MESSAGE_FWDS" = "%1$@ 转发了 %3$@ 条消息到群组 %2$@";
 "CHAT_MESSAGE_FWDS_SEPARATED" = "%2$@|%1$@ 转发了 %3$@ 条消息";
 "CHAT_MESSAGE_GAME" = "%1$@ 邀请您加入群组 %2$@  来玩 %3$@";
-"CHAT_MESSAGE_GEO" = "%1$@ 向群组 %2$@ 发送了一个位置";
+"CHAT_MESSAGE_GAME_SEPARATED" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
+"CHAT_MESSAGE_GEO" = "%1$@ 发送了一个位置到群组 %2$@";
 "CHAT_MESSAGE_GEOLIVE" = "%1$@ 已开始与 %2$@ 共享实时位置";
-"CHAT_MESSAGE_GEOLIVE_SEPARATED" = "%2$@|%1$@ 开始共享他们的实时位置";
+"CHAT_MESSAGE_GEOLIVE_SEPARATED" = "%2$@|%1$@ 正在共享他们的实时位置";
 "CHAT_MESSAGE_GEO_SEPARATED" = "%2$@|%1$@ 发送了一个位置";
-"CHAT_MESSAGE_GIF" = "%1$@ 向群组 %2$@ 分享了 GIF";
+"CHAT_MESSAGE_GIF" = "%1$@ 发送了一个 GIF 到群组 %2$@";
 "CHAT_MESSAGE_GIF_SEPARATED" = "%2$@|%1$@ 发送了一个 GIF";
+"CHAT_MESSAGE_INVOICE_SEPARATED" = "%2$@|%1$@ 发送了一张 %3$@ 的账单";
 "CHAT_MESSAGE_NOTEXT" = "%1$@ 发送了一条消息到群组 %2$@";
 "CHAT_MESSAGE_NOTEXT_SEPARATED" = "%2$@|%1$@ 发送了一条消息";
 "CHAT_MESSAGE_PHOTO" = "%1$@ 发送了一张图片到群组 %2$@";
-"CHAT_MESSAGE_PHOTOS" = "%1$@ sent %3$@ photos to the group %2$@";
+"CHAT_MESSAGE_PHOTOS" = "%1$@ 发送了 %3$@ 张图片到群组 %2$@";
 "CHAT_MESSAGE_PHOTOS_SEPARATED" = "%2$@|%1$@ 发送了 %3$@ 张图片";
 "CHAT_MESSAGE_PHOTO_SEPARATED" = "%2$@|%1$@ 发送了一张图片";
 "CHAT_MESSAGE_POLL" = "%1$@ 发送了一项投票到群组 %2$@";
 "CHAT_MESSAGE_POLL_SEPARATED" = "%2$@|%1$@ 发送了一项投票";
-"CHAT_MESSAGE_ROUND" = "%1$@ 向群组 %2$@ 发送了视频留言";
+"CHAT_MESSAGE_ROUND" = "%1$@ 发送了一条视频留言到群组 %2$@";
 "CHAT_MESSAGE_ROUND_SEPARATED" = "%2$@|%1$@ 发送了一条视频留言";
 "CHAT_MESSAGE_STICKER" = "%1$@ 发送了 %3$@ 贴纸到群组 %2$@";
+"CHAT_MESSAGE_STICKER_SEPARATED" = "%2$@|%1$@ 发送了一张 %3$@ 贴纸";
 "CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
 "CHAT_MESSAGE_TEXT_SEPARATED" = "%2$@|%1$@: %3$@";
 "CHAT_MESSAGE_VIDEO" = "%1$@ 发送了一段视频到群组 %2$@";
+"CHAT_MESSAGE_VIDEO_SEPARATED" = "%2$@|%1$@ 发送了一段视频";
 "CHAT_PHOTO_EDITED" = "%1$@ 编辑了群组 %2$@ 的图片";
 "CHAT_RETURNED" = "%1$@ 回到了群组 %2$@";
-"CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ 返回了群组";
+"CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ 回到了群组";
 "CHAT_TITLE_EDITED" = "%1$@ 编辑了群组 %2$@ 的名字";
 "CONTACT_JOINED" = "%1$@ 加入了 Telegram！";
 "CONTACT_JOINED_SEPARATED" = "%1$@|加入了 Telegram！";
@@ -4078,13 +4086,14 @@ Unused sets are archived when you add more.";
 "MESSAGE_FWDS" = "%1$@ 向你转发了 %2$@ 条消息";
 "MESSAGE_FWDS_SEPARATED" = "%1$@|向您转发了 %2$@ 条消息";
 "MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
-"MESSAGE_GAME_SEPARATED" = "%1$@|邀请你一起玩 %2$@";
+"MESSAGE_GAME_SEPARATED" = "%1$@|邀请您一起玩 %2$@";
 "MESSAGE_GEO" = "%1$@ 给您发送了一个位置";
-"MESSAGE_GEOLIVE" = "%1$@ 已开始共享他们的实时位置";
-"MESSAGE_GEOLIVE_SEPARATED" = "%1$@|开始分享他们的实时位置";
+"MESSAGE_GEOLIVE" = "%1$@ 正在共享他们的实时位置";
+"MESSAGE_GEOLIVE_SEPARATED" = "%1$@|正在共享他们的实时位置";
 "MESSAGE_GEO_SEPARATED" = "%1$@|给你发送了一个位置";
 "MESSAGE_GIF" = "%1$@ 给您发送了一张 GIF";
 "MESSAGE_GIF_SEPARATED" = "%1$@|给您发送了一张 GIF";
+"MESSAGE_INVOICE_SEPARATED" = "%1$@|给您发送了一张 %2$@ 的账单";
 "MESSAGE_NOTEXT" = "%1$@ 给您发送了一条消息";
 "MESSAGE_NOTEXT_SEPARATED" = "%1$@|给您发送了一条消息";
 "MESSAGE_PHOTO" = "%1$@ 给您发送了一张图片";
@@ -4098,7 +4107,7 @@ Unused sets are archived when you add more.";
 "MESSAGE_ROUND" = "%1$@ 给您发送了一条视频留言";
 "MESSAGE_ROUND_SEPARATED" = "%1$@|给您发送了一段视频留言";
 "MESSAGE_SCREENSHOT" = "%1$@ 截图了！";
-"MESSAGE_SCREENSHOT_SEPARATED" = "%1$@|截了一张图！";
+"MESSAGE_SCREENSHOT_SEPARATED" = "%1$@|截图了！";
 "MESSAGE_STICKER" = "%1$@ 给您发送了 %2$@ 贴纸";
 "MESSAGE_STICKER_SEPARATED" = "%1$@|给你发送了一个 %2$@ 贴纸";
 "MESSAGE_TEXT" = "%1$@: %2$@";
@@ -4108,6 +4117,8 @@ Unused sets are archived when you add more.";
 "MESSAGE_VIDEO_SECRET_SEPARATED" = "%1$@|给您发送了一段自毁视频";
 "MESSAGE_VIDEO_SEPARATED" = "%1$@|给您发送了一段视频";
 "NEW_CHAT_MESSAGES_SEPARATED_any" = "%2$@|%1$@ 发送了 %3$d 条消息";
+"NEW_CHAT_MESSAGE_FWDS_SEPARATED_any" = "%2$@|%1$@ 转发了 %3$d 条消息";
+"NEW_CHAT_MESSAGE_PHOTOS_SEPARATED_any" = "%2$@|%1$@ 发送了 %3$d 张图片";
 "Notification.ChannelMigratedFrom" = "此群组已升级为超级群组";
 "Notifications.DisplayNamesOnLockScreenInfo" = "锁屏状态时在通知中显示对方名称。如需关闭此功能, 请打开 iOS 设置 > Telegram > 通知，并将“显示预览”项更改为“仅解锁时”或“从不”。";
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
@@ -4123,7 +4134,7 @@ Unused sets are archived when you add more.";
 "PINNED_GAME" = "%1$@ 置顶了一个游戏";
 "PINNED_GAME_SEPARATED" = "%1$@|置顶了一个游戏";
 "PINNED_GEO" = "%1$@ 置顶了一个位置";
-"PINNED_GEOLIVE" = "%1$@ 置顶了实时位置";
+"PINNED_GEOLIVE" = "%1$@ 置顶了一条实时位置";
 "PINNED_GEOLIVE_SEPARATED" = "%1$@|置顶了一个实时位置";
 "PINNED_GEO_SEPARATED" = "%1$@|置顶了一个位置";
 "PINNED_GIF" = "%1$@ 置顶了一张 GIF";
@@ -4138,6 +4149,7 @@ Unused sets are archived when you add more.";
 "PINNED_ROUND" = "%1$@ 置顶了一条视频留言";
 "PINNED_ROUND_SEPARATED" = "%1$@|置顶了一段视频留言";
 "PINNED_STICKER" = "%1$@ 置顶了一个贴纸 (%2$@)";
+"PINNED_STICKER_SEPARATED" = "%1$@|置顶了一张 %2$@ 贴纸";
 "PINNED_TEXT" = "%1$@ 置顶了 \"%2$@\"";
 "PINNED_TEXT_SEPARATED" = "%1$@|置顶了 \"%2$@\"";
 "PINNED_VIDEO" = "%1$@ 置顶了一段视频";
