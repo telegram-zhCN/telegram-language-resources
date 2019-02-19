@@ -685,9 +685,9 @@
 "TextView.Transform.Code" = "等宽";
 "TextView.Transform.URL" = "转换为链接";
 
-"AccountsController.NewAccount" = "新账号";
+"AccountsController.NewAccount" = "新帐号";
 
-"Account.Confirm.Logout" = "退出登录？";
+"Account.Confirm.Logout" = "注销?";
 "Account.Confirm.LogoutText" = "请记住，注销将删除并关闭您所有的加密对话。";
 
 "Telegram.ConvertGroupViewController" = "超级群组";
@@ -1414,7 +1414,7 @@
 "Telegram.BioViewController" = "个人简介";
 
 "Bio.Placeholder" = "您的自我介绍";
-"Bio.Description" = "一些个人简介，例如年龄、工作或城市。\n示例: 23岁，来自旧金山的设计师";
+"Bio.Description" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
 "Bio.Save" = "保存";
 
 "ServiceMessage.ExpiredPhoto" = "图片已自毁";
@@ -1485,8 +1485,8 @@
 
 "PreHistorySettings.Header" = "历史记录对新成员";
 "PreHistorySettings.Description.Visible" = "新成员将可以查看所有消息记录。";
-"PreHistorySettings.Description.Hidden" = "新成员将不能查看加群前的消息记录。";
-"PreHistorySettings.Description.Group.Hidden" = "新成员只能看到最近 100 条消息。";
+"PreHistorySettings.Description.Hidden" = "新成员不能查看他们加入前的消息。";
+"PreHistorySettings.Description.Group.Hidden" = "新成员只能查看他们加入前的 100 条消息。";
 
 "Chat.AdminBadge" = "管理员";
 
@@ -1795,7 +1795,7 @@
 "CrashOnLaunch.OK" = "注销";
 "CrashOnLaunch.Cancel" = "取消";
 "CrashOnLaunch.Message" = "发生了一些问题。";
-"CrashOnLaunch.Information" = "如果 Telegram 依然在您打开它时崩溃，点击 OK 按钮来登出帐号。这应该能解决问题。";
+"CrashOnLaunch.Information" = "如果 Telegram 依然在您打开它时崩溃，点击 OK 按钮来注销帐号。这应该能解决问题。";
 "ChatWallpaper.Empty" = "默认";
 
 "Chat.Service.BotPermissionAllowed" = "您允许了此机器人在您登录 %@ 时向您发送消息。";
@@ -2678,7 +2678,7 @@
 
 
 
-
+"Chat.UndoManager.ChatsDeleted_other" = "已删除 %d 个对话";
 
 "Chat.UndoManager.ChatsHistoryCleared_countable" = "%d";
 
@@ -2686,7 +2686,7 @@
 
 
 
-
+"Chat.UndoManager.ChatsHistoryCleared_other" = "已清空 %d 个对话的历史记录";
 
 
 "Chat.UndoManager.ChatLeft_countable" = "%d";
@@ -2695,7 +2695,7 @@
 
 
 
-
+"Chat.UndoManager.ChatLeft_other" = "已退出 %d 个群组";
 
 "Chat.UndoManager.ChannelLeft_countable" = "%d";
 
@@ -2703,7 +2703,7 @@
 
 
 
-
+"Chat.UndoManager.ChannelLeft_other" = "已退出 %d 个频道";
 
 "Chat.UndoManager.ChannelDeleted_countable" = "%d";
 
@@ -2711,7 +2711,7 @@
 
 
 
-
+"Chat.UndoManager.ChannelDeleted_other" = "已删除 %d 个频道";
 
 
 

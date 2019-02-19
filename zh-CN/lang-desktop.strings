@@ -266,7 +266,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_bio_title" = "编辑您的个人简介";
 "lng_bio_placeholder" = "个人简介";
-"lng_bio_about" = "您可以给自己添加一些简介。任何人在打开您的个人信息后将会看到这个简介。";
+"lng_bio_about" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
 
 "lng_settings_section_info" = "个人信息";
 "lng_settings_username" = "用户名：";
@@ -381,7 +381,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_passcode_title" = "设置锁定码";
 "lng_settings_password_title" = "两步验证";
 "lng_settings_sessions_title" = "活动会话";
-"lng_settings_destroy_title" = "删除我的账号";
+"lng_settings_destroy_title" = "删除我的帐号";
 "lng_settings_network_proxy" = "网络与代理";
 "lng_settings_version_info" = "版本与更新";
 "lng_settings_system_integration" = "系统设置";
@@ -805,8 +805,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_history_visibility_shown" = "可见";
 "lng_manage_history_visibility_shown_about" = "新成员将可以查看所有消息记录。";
 "lng_manage_history_visibility_hidden" = "不可见";
-"lng_manage_history_visibility_hidden_about" = "新成员将不能查看加群前的消息记录。";
-"lng_manage_history_visibility_hidden_legacy" = "新成员只能看到最近 100 条消息。";
+"lng_manage_history_visibility_hidden_about" = "新成员不能查看他们加入前的消息。";
+"lng_manage_history_visibility_hidden_legacy" = "新成员只能查看他们加入前的 100 条消息。";
 
 "lng_report_title" = "举报频道";
 "lng_report_group_title" = "举报此群组";

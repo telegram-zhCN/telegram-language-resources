@@ -1441,6 +1441,7 @@
 "Target.InviteToGroupConfirmation" = "Add the bot to \"%@\"?";
 "Target.InviteToGroupErrorAlreadyInvited" = "The bot is already a member of the group.";
 "Bot.GenericBotStatus" = "bot";
+"Bot.GenericSupportStatus" = "support";
 "Bot.DescriptionTitle" = "What can this bot do?";
 "Bot.GroupStatusReadsHistory" = "has access to messages";
 "Bot.GroupStatusDoesNotReadHistory" = "has no access to messages";
@@ -3921,6 +3922,7 @@ Unused sets are archived when you add more.";
 "ChatList.DeleteChatConfirmation" = "Are you sure you want to delete the chat\nwith %@?";
 "ChatList.DeleteSecretChatConfirmation" = "Are you sure you want to delete the secret chat\nwith %@?";
 "ChatList.LeaveGroupConfirmation" = "Are you sure you want to leave %@?";
+"ChatList.DeleteSavedMessagesConfirmation" = "Are you sure you want to delete\nSaved Messages?";
 
 "Undo.Undo" = "Undo";
 "Undo.MessagesDeleted" = "Messages deleted";
@@ -3955,6 +3957,7 @@ Unused sets are archived when you add more.";
 "CallFeedback.Send" = "Send";
 "CallFeedback.Success" = "Thanks for\nyour feedback";
 
+"Settings.AddAccount" = "Add Account";
 "WebSearch.SearchNoResults" = "No Results";
 "WebSearch.SearchNoResultsDescription" = "There were no results for \"%@\".\nTry a new search.";
 
@@ -3969,6 +3972,76 @@ Unused sets are archived when you add more.";
 "Proxy.TooltipUnavailable" = "The proxy may be unavailable. Try selecting another one.";
 
 "SocksProxySetup.Status" = "Status";
+"Login.PhoneNumberAlreadyAuthorized" = "This account is already logged in from this app.";
+
+"Login.PhoneNumberAlreadyAuthorizedSwitch" = "Switch";
+
+"Call.AnsweringWithAccount" = "Answering as %@";
+
+"AutoDownloadSettings.CellularTitle" = "Using Cellular";
+"AutoDownloadSettings.WifiTitle" = "Using Wi-Fi";
+"AutoDownloadSettings.AutoDownload" = "Auto-Download Media";
+"AutoDownloadSettings.MediaTypes" = "TYPES OF MEDIA";
+"AutoDownloadSettings.Photos" = "Photos";
+"AutoDownloadSettings.Videos" = "Videos";
+"AutoDownloadSettings.Files" = "Files";
+"AutoDownloadSettings.VoiceMessagesInfo" = "Voice messages are tiny, they are always downloaded automatically.";
+"AutoDownloadSettings.ResetSettings" = "Reset Auto-Download Settings";
+
+"AutoDownloadSettings.AutodownloadPhotos" = "AUTO-DOWNLOAD PHOTOS";
+"AutoDownloadSettings.AutodownloadVideos" = "AUTO-DOWNLOAD VIDEOS AND GIFS";
+"AutoDownloadSettings.AutodownloadFiles" = "AUTO-DOWNLOAD FILES AND MUSIC";
+
+"AutoDownloadSettings.MaxVideoSize" = "MAXIMUM VIDEO SIZE";
+"AutoDownloadSettings.MaxFileSize" = "MAXIMUM FILE SIZE";
+
+"AutoDownloadSettings.DataUsage" = "DATA USAGE";
+"AutoDownloadSettings.DataUsageLow" = "Low";
+"AutoDownloadSettings.DataUsageMedium" = "Medium";
+"AutoDownloadSettings.DataUsageHigh" = "High";
+"AutoDownloadSettings.DataUsageCustom" = "Custom";
+
+"AutoDownloadSettings.OnForAll" = "On for all chats";
+"AutoDownloadSettings.OnFor" = "On for %@";
+"AutoDownloadSettings.TypeContacts" = "Contacts";
+"AutoDownloadSettings.TypePrivateChats" = "PM";
+"AutoDownloadSettings.TypeGroupChats" = "Groups";
+"AutoDownloadSettings.TypeChannels" = "Channels";
+"AutoDownloadSettings.UpToForAll" = "Up to %@ for all chats";
+"AutoDownloadSettings.UpToFor" = "Up to %@ for %@";
+"AutoDownloadSettings.OffForAll" = "Off for all chats";
+"AutoDownloadSettings.Delimeter" = ", ";
+"AutoDownloadSettings.LastDelimeter" = " and ";
+
+"AutoDownloadSettings.PreloadVideo" = "Preload Larger Videos";
+"AutoDownloadSettings.PreloadVideoInfo" = "Preload the first seconds of videos larger than %@ for instant playback.";
+
+"ChatSettings.AutoDownloadUsingCellular" = "Using Cellular";
+"ChatSettings.AutoDownloadUsingWiFi" = "Using Wi-Fi";
+"ChatSettings.AutoPlayTitle" = "AUTO-PLAY MEDIA";
+"ChatSettings.AutoPlayGifs" = "GIFs";
+"ChatSettings.AutoPlayVideos" = "Videos";
+
+"ChatSettings.AutoDownloadSettings.TypePhoto" = "Photos";
+"ChatSettings.AutoDownloadSettings.TypeVideo" = "Videos (%@)";
+"ChatSettings.AutoDownloadSettings.TypeFile" = "Files (%@)";
+"ChatSettings.AutoDownloadSettings.OffForAll" = "Disabled";
+"ChatSettings.AutoDownloadSettings.Delimeter" = ", ";
+
+"LogoutOptions.Title" = "Log out";
+"LogoutOptions.AlternativeOptionsSection" = "ALTERNATIVE OPTIONS";
+"LogoutOptions.AddAccountTitle" = "Add another account";
+"LogoutOptions.AddAccountText" = "Connect your other Telegram accounts and easily switch between them.";
+"LogoutOptions.SetPasscodeTitle" = "Set a Passcode";
+"LogoutOptions.SetPasscodeText" = "Lock the app with a passcode so that others can't open it.";
+"LogoutOptions.ClearCacheTitle" = "Clear Cache";
+"LogoutOptions.ClearCacheText" = "Free up disk space on your device; your media will stay in the cloud.";
+"LogoutOptions.ChangePhoneNumberTitle" = "Change Phone Number";
+"LogoutOptions.ChangePhoneNumberText" = "Move your contacts, groups, messages and media to a new number.";
+"LogoutOptions.ContactSupportTitle" = "Contact Support";
+"LogoutOptions.ContactSupportText" = "Tell us about any issues; logging out doesn't usually help.";
+"LogoutOptions.LogOut" = "Log Out";
+"LogoutOptions.LogOutInfo" = "Remember, logging out kills all your Secret Chats.";
 
 
 /* new from translations.telegram.org */

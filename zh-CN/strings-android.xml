@@ -402,8 +402,8 @@
     <string name="ChatHistoryVisible">可见</string>
     <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
     <string name="ChatHistoryHidden">隐藏</string>
-    <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
-    <string name="ChatHistoryHiddenInfo2">新成员只能看到最近 100 条消息。</string>
+    <string name="ChatHistoryHiddenInfo">新成员不能查看他们加入前的消息。</string>
+    <string name="ChatHistoryHiddenInfo2">新成员只能查看他们加入前的 100 条消息。</string>
     <string name="ProfileJoinChannel">加入频道</string>
     <string name="ProfileJoinGroup">加入群组</string>
     <string name="GroupType">群组类型</string>
@@ -940,7 +940,7 @@
     <string name="UserBio">个人简介</string>
     <string name="UserBioDetail">添加一些关于你的介绍</string>
     <string name="UserBioEmpty">无</string>
-    <string name="UserBioInfo">您可以给自己添加一些简介。任何人在打开您的个人资料页后将会看到这个简介。</string>
+    <string name="UserBioInfo">一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生</string>
     <string name="StartEncryptedChat">开始加密对话</string>
     <string name="GroupsInCommon">共同加入的群组</string>
     <string name="GroupsInCommonTitle">共同加入的群组</string>

@@ -1072,7 +1072,7 @@
   <string name="NightMode">夜间模式</string>
   <string name="Proxy">代理</string>
   <string name="Connection">链接</string>
-  <string name="ProxyDisabled">不使用</string>
+  <string name="ProxyDisabled">已禁用</string>
   <string name="ProxySetup">点击设置</string>
   <string name="ProxyCredentials">认证信息</string>
   <string name="ProxyCredentialsOptional">认证信息（可选）</string>
@@ -1130,7 +1130,7 @@
   <string name="SendSticker">发送贴纸</string>
   <string name="ViewPackPreview">查看对应贴纸包</string>
   <string name="UserBio">个人简介</string>
-  <string name="BioDescription">一些个人简介，例如年龄、工作或城市。\n示例：23 岁，来自旧金山的设计师</string>
+  <string name="BioDescription">一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生</string>
   <string name="AttachPhotoExpired">图片已自毁</string>
   <string name="AttachVideoExpired">视频已自毁</string>
   <string name="SendByEnter">使用回车键发送消息</string>
@@ -1406,7 +1406,7 @@
   <string name="XRemovedGroupStickerSet">%1$s 删除了群组贴纸包</string>
   <string name="ChatHistory">新成员历史记录可见性</string>
   <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
-  <string name="ChatHistoryHiddenInfo">新成员将不能查看加群前的消息记录。</string>
+  <string name="ChatHistoryHiddenInfo">新成员不能查看他们加入前的消息。</string>
   <string name="ChatHistoryHidden">不可见</string>
   <string name="ChatHistoryVisible">可见</string>
   <string name="DiscardCurrentChanges">放弃当前更改？</string>
