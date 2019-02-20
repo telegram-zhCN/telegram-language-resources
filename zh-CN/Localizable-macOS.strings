@@ -2642,18 +2642,18 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+"Time.PreciseDate_m1" = "1月%@日%@年 %@";
+"Time.PreciseDate_m2" = "2月%@日%@年 %@";
+"Time.PreciseDate_m3" = "3月%@日%@年 %@";
+"Time.PreciseDate_m4" = "4月%@日%@年 %@";
+"Time.PreciseDate_m5" = "5月%@日%@年 %@";
+"Time.PreciseDate_m6" = "6月%@日%@年 %@";
+"Time.PreciseDate_m7" = "7月%@日%@年 %@";
+"Time.PreciseDate_m8" = "8月%@日%@年 %@";
+"Time.PreciseDate_m9" = "9月%@日%@年 %@";
+"Time.PreciseDate_m10" = "10月%@日%@年 %@";
+"Time.PreciseDate_m11" = "11月%@日%@年 %@";
+"Time.PreciseDate_m12" = "12月%@日%@年 %@";
 
 
 "Time.TodayAt" = "今天 %@";
@@ -2733,7 +2733,7 @@
 "Chat.WP.BackgroundTitle" = "聊天窗口背景图";
 
 "Chat.WP.SelectFromFile" = "选择文件";
-
+"Chat.WP.FirstMessage" = "通过缩放、滑动和双击来选择一个适合做背景的区域。";
 "Chat.WP.SecondMessage" = "捏一下我，我在做梦！";
 
 "Chat.WP.Color.FirstMessage" = "点击 “应用” 即可设置背景图";

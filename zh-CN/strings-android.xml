@@ -579,6 +579,7 @@
     <string name="ChooseStickerSetNotFoundInfo">请检查您的输入，或从下面列表中选取一个</string>
     <!--chat view-->
     <string name="Invisible">隐身</string>
+    <string name="SupportStatus">支持</string>
     <string name="Typing">正在输入...</string>
     <string name="IsTyping">正在输入...</string>
     <string name="AreTyping">都在输入...</string>
@@ -1125,6 +1126,7 @@
     <string name="BackgroundPreviewLine2">哇！谢谢</string>
     <string name="BackgroundColorPreviewLine1">向两侧滑动可查看更多颜色。</string>
     <string name="BackgroundColorPreviewLine2">Salmon 是一种鱼，并不是一种颜色。</string>
+    <string name="FontSizePreviewName">卢西奥</string>
     <string name="FontSizePreviewReply">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="FontSizePreviewLine1">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
     <string name="FontSizePreviewLine2">我现在都无法直视你了。</string>
@@ -1206,13 +1208,51 @@
     <string name="Long">长</string>
     <string name="AutomaticMediaDownload">自动下载媒体文件</string>
     <string name="AutoDownloadMedia">自动下载媒体文件</string>
+    <string name="AutoDownloadOnAllChats">对所有对话启用</string>
+    <string name="AutoDownloadUpToOnAllChats">对所有对话不超过 %1$s</string>
+    <string name="AutoDownloadOff">关闭</string>
+    <string name="AutoDownloadOnUpToFor">对 %2$s 不超过 %1$s</string>
+    <string name="AutoDownloadOnFor">对 %1$s 启用</string>
+    <string name="AutoDownloadContacts">联系人</string>
+    <string name="AutoDownloadChannels">频道</string>
+    <string name="AutoDownloadLow">低</string>
+    <string name="AutoDownloadMedium">中</string>
+    <string name="AutoDownloadHigh">高</string>
+    <string name="AutoDownloadCustom">自定义</string>
+    <string name="AutoDownloadPm">私聊</string>
+    <string name="AutoDownloadGroups">群组</string>
+    <string name="AutoDownloadAllMedia">所有媒体</string>
+    <string name="AutoDownloadPhotos">图片</string>
+    <string name="AutoDownloadVideos">视频</string>
+    <string name="AutoDownloadFiles">文件</string>
+    <string name="AutoDownloadFilesTitle">自动下载文件和音乐</string>
+    <string name="AutoDownloadPhotosTitle">自动下载图片</string>
+    <string name="AutoDownloadVideosTitle">自动下载视频和 GIF</string>
+    <string name="AutoDownloadMaxVideoSize">视频大小限制</string>
+    <string name="AutoDownloadMaxFileSize">文件大小限制</string>
+    <string name="AutoDownloadPreloadMusic">预加载下一曲</string>
+    <string name="AutoDownloadPreloadMusicInfo">当您在听音乐时预加载下一曲。</string>
+    <string name="AutoDownloadPreloadVideo">预加载更大的视频</string>
+    <string name="AutoDownloadPreloadVideoInfo">预加载大于 %1$s 视频的前几秒钟以便快速回放。</string>
+    <string name="AutoDownloadAnd">%1$s 和 %2$s</string>
+    <string name="AutoDownloadOnMobileDataInfo">如欲在使用移动数据时自动下载媒体文件，请打开此开关。</string>
+    <string name="AutoDownloadOnRoamingDataInfo">如欲在漫游时自动下载媒体文件，请打开此开关。</string>
+    <string name="AutoDownloadOnWiFiDataInfo">如欲在使用 Wi-Fi 时自动下载媒体文件，请打开此开关。</string>
+    <string name="AutoDownloadOnMobileData">使用移动数据时</string>
+    <string name="AutoDownloadOnRoamingData">漫游时</string>
+    <string name="AutoDownloadOnWiFiData">使用 Wi-Fi 时</string>
+    <string name="AutoDownloadDataUsage">移动数据使用计划</string>
+    <string name="AutoDownloadTypes">媒体类型</string>
+    <string name="AutoDownloadAudioInfo">由于语音留言体积很小，它们将始终自动下载。</string>
+    <string name="NoMediaAutoDownload">禁用自动下载</string>
     <string name="ResetAutomaticMediaDownload">重置自动下载设置</string>
     <string name="ResetAutomaticMediaDownloadAlert">您确定要重置自动下载设置吗？</string>
-    <string name="WhenUsingMobileData">使用移动数据流量时</string>
+    <string name="WhenUsingMobileData">使用移动数据时</string>
     <string name="WhenConnectedOnWiFi">接入 Wi-Fi 时</string>
     <string name="WhenRoaming">漫游时</string>
-    <string name="NoMediaAutoDownload">禁用自动下载</string>
-    <string name="AutoplayGifs">自动播放 GIF</string>
+    <string name="AutoplayGIF">GIF</string>
+    <string name="AutoplayVideo">视频</string>
+    <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>
     <string name="EditName">编辑名称</string>
@@ -1330,6 +1370,19 @@
     <string name="NotificationsForPrivateChats">私聊通知</string>
     <string name="NotificationsForChannels">频道通知</string>
     <string name="TapToChange">点按更改</string>
+    <string name="AlternativeOptions">其他选项</string>
+    <string name="AddAnotherAccount">添加另一个帐户</string>
+    <string name="AddAnotherAccountInfo">登录其他 Telegram 帐户并在它们之间轻松切换。</string>
+    <string name="SetPasscode">设置锁定码</string>
+    <string name="SetPasscodeInfo">用屏幕锁定码保护您的隐私信息。</string>
+    <string name="ClearCache">清空缓存</string>
+    <string name="ClearCacheInfo">释放设备上的空间；您的媒体文件仍会保存在云端。</string>
+    <string name="ChangePhoneNumber">更改手机号码</string>
+    <string name="ChangePhoneNumberInfo">将您的联系人、群组、聊天信息和媒体文件转移到新手机号上。</string>
+    <string name="ContactSupport">联系志愿者客服</string>
+    <string name="ContactSupportInfo">如果有问题，请告诉我们；注销无助于解决问题。</string>
+    <string name="LogOutTitle">注销</string>
+    <string name="LogOutInfo">谨记，退出登录将会销毁所有的加密聊天。</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1661,7 +1714,7 @@
     <string name="Of">%1$d / %2$d</string>
     <string name="Gallery">相册</string>
     <string name="AllPhotos">所有图片</string>
-    <string name="AllMedia">所有图片和视频</string>
+    <string name="AllMedia">所有媒体</string>
     <string name="AllVideos">全部视频</string>
     <string name="NoPhotos">暂无图片</string>
     <string name="PleaseDownload">请先下载此媒体文件</string>
@@ -1782,9 +1835,10 @@
     <string name="DataSettings">数据和存储</string>
     <string name="DataUsage">存储和网络用量</string>
     <string name="StorageUsage">存储使用情况</string>
-    <string name="MobileUsage">移动数据使用情况</string>
-    <string name="RoamingUsage">漫游数据使用情况</string>
-    <string name="WiFiUsage">Wi-Fi 数据使用情况</string>
+    <string name="NetworkUsage">移动数据使用情况</string>
+    <string name="NetworkUsageMobile">移动数据</string>
+    <string name="NetworkUsageWiFi">WI-FI</string>
+    <string name="NetworkUsageRoaming">漫游</string>
     <string name="MessagesDataUsage">消息和其它数据</string>
     <string name="CountSent">已发送</string>
     <string name="CountReceived">已接收</string>
@@ -1858,7 +1912,7 @@
     <string name="InviteToChannelError">抱歉，根据此用户的隐私设置，您不能将其添加到频道。</string>
     <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
     <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
-    <string name="SyncContactsDelete">删除已同步联系人</string>
+    <string name="SyncContactsDelete">清空云端通讯录</string>
     <string name="SuggestContacts">推荐频繁往来的联系人</string>
     <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
     <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。</string>
@@ -2075,7 +2129,7 @@
     <string name="PermissionXiaomiLockscreen">请授予 Telegram 在锁屏界面显示的权限以确保通话正常工作。</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
-    <string name="Page2Title">快速</string>
+    <string name="Page2Title">极速</string>
     <string name="Page3Title">免费</string>
     <string name="Page4Title">安全</string>
     <string name="Page5Title">强大</string>
@@ -2494,6 +2548,7 @@
 
   <!-- new from translations.telegram.org -->
 
+  <string name="AutoplayGifs">自动播放 GIF</string>
   <string name="ConnectingToProxyDisable">禁用</string>
   <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置 &gt; 数据和存储 中重新启用它。</string>
   <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
@@ -2504,6 +2559,7 @@
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
   <string name="EnableProxyAlert2">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
   <string name="KickFromSupergroup">限制用户权限</string>
+  <string name="MobileUsage">移动数据使用情况</string>
   <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
   <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
   <string name="NotificationsPriority">优先级</string>
@@ -2520,6 +2576,7 @@
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
   <string name="RegisterText">请设置您的姓名。</string>
+  <string name="RoamingUsage">漫游数据使用情况</string>
   <string name="SetAdminsAll">将所有成员都设为管理员</string>
   <string name="SetAdminsAllInfo">所有成员都能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
   <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
@@ -2529,6 +2586,7 @@
   <string name="UserRestrictionsBy">被 %1$s 限制</string>
   <string name="UserRestrictionsUntil">封禁时间</string>
   <string name="ViewDetails">查看联系人</string>
+  <string name="WiFiUsage">Wi-Fi 数据使用情况</string>
   <string name="_tg_cancel">取消</string>
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>

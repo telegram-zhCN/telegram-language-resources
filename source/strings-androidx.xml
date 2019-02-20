@@ -593,6 +593,8 @@
   <string name="Chats">Chats</string>
   <string name="Notifications">Notifications</string>
   <string name="NotificationsEnabled">Enabled</string>
+  
+  
   <string name="NotificationsDisabled">Disabled</string>
   <string name="PrivacySettings">Privacy and Security</string>
   <string name="AskAQuestion">Ask a Question</string>
@@ -640,6 +642,8 @@
   <string name="GroupsAndChannels">Groups and Channels</string>
   <string name="SecurityTitle">Security</string>
   <string name="SessionsTitle">Active Sessions</string>
+  
+  
   <string name="TwoStepVerification">Two-Step Verification</string>
   <string name="PasswordEnabled">Enabled</string>
   <string name="PasswordDisabled">Disabled</string>
@@ -649,7 +653,9 @@
   <string name="TerminateAllSessions">Terminate All Other Sessions</string>
   <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
   <string name="TerminateSessionQuestion">Terminate this session?</string>
+  
   <string name="TerminateSession">Terminate session</string>
+  
   <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
   <string name="Everybody">Everybody</string>
   <string name="MyContacts">My Contacts</string>
@@ -714,6 +720,7 @@
   <string name="Sound">Sound</string>
   <string name="SoundDisabled">Disabled</string>
   <string name="InChatSound">In-Chat Sounds</string>
+  
   <string name="Events">Events</string>
   <string name="EventNewContact">New Contacts</string>
   <string name="EventNewContactInfo">Receive notification when one of your contacts becomes available on Telegram.</string>
@@ -731,8 +738,7 @@
   <string name="Archived">Archived</string>
   <string name="Masks">Masks</string>
   <string name="StickersHide">Archive</string>
-  <string name="UndoAllCustom">Undo all custom notification settings for all your contacts and groups</string>
-  <string name="AreYouSureNotifyReset">Are you sure you want to reset all custom notification settings for all your contacts and groups?</string>
+  <string name="UndoAllCustom">Undo all custom notification settings for all your contacts, groups and channels</string>
   <string name="XOnlyIfSilent">%1$s (only if silent)</string>
   <string name="XButOnlyIfSilent">%1$s (but only if silent)</string>
   <string name="Long">Long</string>
@@ -1157,7 +1163,6 @@
   <string name="PriorityAboutUrgentAndLow">Urgent notifications will appear when your phone is in Do Not Disturb mode. Low priority notifications will appear in system tray without interrupting.</string>
   <string name="PriorityAboutLow">Low priority notifications will appear in system tray without interrupting.</string>
   <string name="NotificationsPriority">Priority</string>
-  <string name="Importance">Importance</string>
   <string name="SelectMessagesInBetween">Select messages in between</string>
   <string name="ProcessingFile">Processing…</string>
   <string name="ProcessingFileWait">Processing files. Please wait…</string>
@@ -1511,6 +1516,8 @@
   <string name="PlayStop">Stop</string>
   <string name="NotificationChannelCommonPrivate">Default notification settings for all private chats and mentions.</string>
   <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
+  
+  
   <string name="NotificationChannelSecretChat">Custom notification settings for the Secret Chat with %1$s.</string>
   <string name="NotificationChannelUser">Custom notification settings for messages and mentions from %1$s.</string>
   <string name="NotificationChannelGroupChat">Custom notification settings for the Group «%1$s».</string>
@@ -1527,6 +1534,7 @@
   <string name="IncognitoKeyboardInfo">Request keyboard to not update any personalized data such as typing history and personalized language model based on what you type in Secret Chats.\n\nBe aware that this setting is not a guarantee, and some IMEs may not respect it.</string>
   <string name="FailureMessageText">This message could not be displayed because of an error. We are very sorry for that.\n\nPlease copy the scary error details below and submit them to support@telegram.org so we can investigate the issue. Thank you!</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  
   <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
   <string name="AutoNightDisabled">Disabled</string>
   <string name="AutoNightAutomatic">Automatic</string>
@@ -1546,6 +1554,7 @@
   <string name="OtherWebSessions">Connected Websites</string>
   <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
   <string name="DisconnectWebsite">Disconnect</string>
+  
   <string name="DisconnectAllWebsitesHint">Are you sure you want to disconnect all websites?</string>
   <string name="DisconnectWebsiteBan">Block %1$s</string>
   <string name="ConnectedWebsitesDesc">Tap to disconnect from your Telegram account.</string>
@@ -1564,7 +1573,6 @@
   <string name="SetProfilePhotoError">Error updating photo: %1$s</string>
   <string name="BotNotFound">Bot %1$s not found</string>
   <string name="AddAccount">Add Account</string>
-  <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
   <string name="VoipAnsweringAsAccount">Answering as %1$s</string>
   <string name="ShowSourceMessage">Go to source chat</string>
   <string name="Directions">Directions…</string>
@@ -1673,6 +1681,7 @@
   <string name="message_adminSign">"  admin"</string>
   <string name="message_adminSignPlain">admin</string>
   <string name="WhoCanCallMe">Who can call me</string>
+  
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
   <string name="PrivacyLastSeenNobodyExcept">Nobody (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenContacts">Only contacts can see your Last Seen</string>
@@ -1691,6 +1700,12 @@
   <string name="PrivacyCallsContactsExcept">Only contacts (%1$s) can call you</string>
   <string name="PrivacyCallsEverybody">Everybody can call you</string>
   <string name="PrivacyCallsEverybodyExcept">Everybody (%1$s) can call you</string>
+  
+  
+  
+  
+  
+  
   <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsDefault">Use global settings (%1$s)</string>
   <string name="NotificationsDefaultEnabled">Enabled</string>
@@ -1839,7 +1854,7 @@
   <string name="LocalisationApplied">Localization successfully applied</string>
   <string name="LanguageSectionOfficial">Official</string>
   <string name="LanguageSectionInstalled">Installed</string>
-  <string name="LanguageSectionRaw">Unreleased</string>
+  <string name="LanguageSectionRaw">Beta</string>
   <string name="TranslationMoreTitle">Can\'t find your language?</string>
   <string name="TranslationMoreDone">Got it</string>
   <string name="TranslationMoreCreate">Create</string>
@@ -1959,7 +1974,21 @@
   <string name="email_LoginTooLong_subject">Telegram X connection issue</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
-  <string name="SignOutHint">Are you sure you want to sign out as %1$s? All secret chats will be lost.</string>
+  <string name="SignOutHint">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
+  <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   <string name="TdlibLogs">TDLib Logs</string>
   <string name="TdlibLogsWarning">**Warning:** TDLib Logs may contain **private data**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
@@ -2200,14 +2229,21 @@
   <string name="ActionMutePerson">Mute %1$s</string>
   <string name="ActionMuteEveryone">Mute all</string>
 
-  <string name="ActionMuteHours_one">Mute for %1$sh</string>
+  
+  
+  
+  
+  
+  
+
+  <!--<string name="ActionMuteHours_one">Mute for %1$sh</string>
   <string name="ActionMuteHours_other">Mute for %1$sh</string>
 
   <string name="ActionMutePersonHours_one">Mute %2$s for %1$sh</string>
   <string name="ActionMutePersonHours_other">Mute %2$s for %1$sh</string>
 
   <string name="ActionMuteAll_one">Mute all for %1$sh</string>
-  <string name="ActionMuteAll_other">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_other">Mute all for %1$sh</string>-->
 
   <string name="MessagePreviewDefault">Default</string>
   <string name="MessagePreviewEnabled">Enabled</string>
@@ -2259,6 +2295,7 @@
   
   
   
+  
 
   
 
@@ -2268,6 +2305,45 @@
   
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
 
   
   
@@ -2280,17 +2356,23 @@
   <string name="AccurateToMeters_many">Accurate to %1$s meters</string>
   <string name="ActionDone">Hide</string>
   <string name="ActionMuteAll_zero">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_one">Mute all for %1$sh</string>
   <string name="ActionMuteAll_two">Mute all for %1$sh</string>
   <string name="ActionMuteAll_few">Mute all for %1$sh</string>
   <string name="ActionMuteAll_many">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_other">Mute all for %1$sh</string>
   <string name="ActionMuteHours_zero">Mute for %1$sh</string>
+  <string name="ActionMuteHours_one">Mute for %1$sh</string>
   <string name="ActionMuteHours_two">Mute for %1$sh</string>
   <string name="ActionMuteHours_few">Mute for %1$sh</string>
   <string name="ActionMuteHours_many">Mute for %1$sh</string>
+  <string name="ActionMuteHours_other">Mute for %1$sh</string>
   <string name="ActionMutePersonHours_zero">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_one">Mute %2$s for %1$sh</string>
   <string name="ActionMutePersonHours_two">Mute %2$s for %1$sh</string>
   <string name="ActionMutePersonHours_few">Mute %2$s for %1$sh</string>
   <string name="ActionMutePersonHours_many">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_other">Mute %2$s for %1$sh</string>
   <string name="AddXMasks_zero">Add %1$s masks</string>
   <string name="AddXMasks_two">Add %1$s masks</string>
   <string name="AddXMasks_few">Add %1$s masks</string>
@@ -2306,6 +2388,7 @@
   <string name="AppBadgeTypeChats">Number of chats</string>
   <string name="AppBadgeTypeMessages">Number of messages</string>
   <string name="AppBadgeUnmuted">From non-muted chats</string>
+  <string name="AreYouSureNotifyReset">Are you sure you want to reset all custom notification settings for all your contacts and groups?</string>
   <string name="AsXMessages_zero">as %1$s messages</string>
   <string name="AsXMessages_two">as %1$s messages</string>
   <string name="AsXMessages_few">as %1$s messages</string>
@@ -2365,6 +2448,7 @@
   <string name="FromXChats_two">from %1$s chats</string>
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
+  <string name="Importance">Importance</string>
   <string name="InAppNotifications">In-App Notifications</string>
   <string name="InviteTextCommonMany_zero">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_two">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>

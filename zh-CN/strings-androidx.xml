@@ -5,7 +5,7 @@
   <string name="language_continueInLanguage">使用简体中文继续</string>
 
   <string name="Page1Title">Telegram X</string>
-  <string name="Page2Title">快速</string>
+  <string name="Page2Title">极速</string>
   <string name="Page3Title">免费</string>
   <string name="Page4Title">强大</string>
   <string name="Page5Title">安全</string>
@@ -532,7 +532,7 @@
   <string name="SendCurrentLocation">发送我的位置</string>
   <string name="SearchForPlaces">搜索附近地点</string>
   <string name="SearchForImages">搜索图片</string>
-  <string name="AllMedia">所有图片和视频</string>
+  <string name="AllMedia">所有媒体</string>
   <string name="UserUnavailable">用户暂不可用</string>
   
   <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
@@ -593,6 +593,8 @@
   <string name="Chats">聊天</string>
   <string name="Notifications">通知</string>
   <string name="NotificationsEnabled">启用</string>
+  
+  
   <string name="NotificationsDisabled">关闭</string>
   <string name="PrivacySettings">隐私和安全</string>
   <string name="AskAQuestion">向我们提问</string>
@@ -625,7 +627,7 @@
   <string name="Other">其它</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
   <string name="RestrictOnWiFi">接入 Wi-Fi 时限制下载</string>
-  <string name="RestrictOverMobile">使用移动数据流量时限制下载</string>
+  <string name="RestrictOverMobile">使用移动数据时限制下载</string>
   <string name="RestrictOnRoaming">漫游时限制下载</string>
   <string name="MediaExceedingX">任何体积超过 %1$s 的多媒体</string>
   <string name="AnyMedia">任何多媒体文件</string>
@@ -640,6 +642,8 @@
   <string name="GroupsAndChannels">群组和频道</string>
   <string name="SecurityTitle">安全</string>
   <string name="SessionsTitle">活动会话</string>
+  
+  
   <string name="TwoStepVerification">两步验证</string>
   <string name="PasswordEnabled">启用</string>
   <string name="PasswordDisabled">已禁用</string>
@@ -649,7 +653,9 @@
   <string name="TerminateAllSessions">注销除本机外所有设备</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
   <string name="TerminateSessionQuestion">注销此会话？</string>
+  
   <string name="TerminateSession">注销会话</string>
+  
   <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
   <string name="Everybody">所有人</string>
   <string name="MyContacts">我的联系人</string>
@@ -714,6 +720,7 @@
   <string name="Sound">声音</string>
   <string name="SoundDisabled">关闭</string>
   <string name="InChatSound">发送提示音</string>
+  
   <string name="Events">事件</string>
   <string name="EventNewContact">新联系人加入</string>
   <string name="EventNewContactInfo">当您的其中一个联系人加入 Telegram 时获得通知。</string>
@@ -731,8 +738,7 @@
   <string name="Archived">已归档</string>
   <string name="Masks">装饰</string>
   <string name="StickersHide">归档</string>
-  <string name="UndoAllCustom">撤销所有对联系人和群组的通知设置的更改</string>
-  <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
+  <string name="UndoAllCustom">撤销所有对联系人、群组和频道的通知设置更改</string>
   <string name="XOnlyIfSilent">%1$s （仅在静音模式）</string>
   <string name="XButOnlyIfSilent">%1$s （仅在静音模式）</string>
   <string name="Long">长</string>
@@ -1157,7 +1163,6 @@
   <string name="PriorityAboutUrgentAndLow">当你的手机处于“请勿打扰”模式时，将只显示紧急通知。 低优先级的通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="NotificationsPriority">优先级</string>
-  <string name="Importance">优先级</string>
   <string name="SelectMessagesInBetween">选中中间的消息</string>
   <string name="ProcessingFile">正在处理...</string>
   <string name="ProcessingFileWait">正在处理文件，请稍候...</string>
@@ -1511,6 +1516,8 @@
   <string name="PlayStop">停止</string>
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
+  
+  
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
   <string name="NotificationChannelUser">自定义 %1$s 的消息及提及。</string>
   <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义通知设置</string>
@@ -1527,6 +1534,7 @@
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
+  
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>
@@ -1546,6 +1554,7 @@
   <string name="OtherWebSessions">已关联的网站</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="DisconnectWebsite">断开连接</string>
+  
   <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 账户吗？</string>
   <string name="DisconnectWebsiteBan">同时停止使用 %1$s</string>
   <string name="ConnectedWebsitesDesc">轻触以取消该网站与 Telegram 账号的关联</string>
@@ -1564,7 +1573,6 @@
   <string name="SetProfilePhotoError">上传头像时出错：%1$s</string>
   <string name="BotNotFound">机器人 %1$s 未找到</string>
   <string name="AddAccount">添加帐户</string>
-  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
   <string name="VoipAnsweringAsAccount">作为 %1$s 回应</string>
   <string name="ShowSourceMessage">查看源对话</string>
   <string name="Directions">路线...</string>
@@ -1673,6 +1681,7 @@
   <string name="message_adminSign">" 管理员"</string>
   <string name="message_adminSignPlain">管理员</string>
   <string name="WhoCanCallMe">谁可以呼叫我</string>
+  
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenNobodyExcept">没有人 (%1$s) 可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenContacts">只有联系人可以看到您的最后上线时间</string>
@@ -1691,6 +1700,12 @@
   <string name="PrivacyCallsContactsExcept">只有联系人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsEverybody">任何人都可以呼叫您</string>
   <string name="PrivacyCallsEverybodyExcept">任何人 (%1$s) 都可以呼叫您</string>
+  
+  
+  
+  
+  
+  
   <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
   <string name="NotificationsDefault">使用全局设置（%1$s）</string>
   <string name="NotificationsDefaultEnabled">启用</string>
@@ -1708,8 +1723,8 @@
   <string name="SyncContacts">同步通讯录</string>
   <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的账户。</string>
   <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
-  <string name="SyncContactsDelete">删除已同步联系人</string>
-  <string name="SyncContactsDeleteButton">删除已同步联系人</string>
+  <string name="SyncContactsDelete">清空云端通讯录</string>
+  <string name="SyncContactsDeleteButton">清空云端通讯录</string>
   <string name="SyncContactsDeleteInfo">这样做将从 Telegram 服务器中移除关于您通讯录的一切信息。如果“同步通讯录”功能保持开启，您的通讯录会被重新同步到 Telegram 服务器。</string>
   <string name="BotWebsiteAllowed">您允许了此机器人在您登录 %1$s 时向您发送消息。</string>
   <string name="QuickActionSettingNone">无</string>
@@ -1839,7 +1854,7 @@
   <string name="LocalisationApplied">语言包已成功安装</string>
   <string name="LanguageSectionOfficial">官方</string>
   <string name="LanguageSectionInstalled">已安装</string>
-  <string name="LanguageSectionRaw">未发布</string>
+  <string name="LanguageSectionRaw">测试版</string>
   <string name="TranslationMoreTitle">找不到你的语言？</string>
   <string name="TranslationMoreDone">了解</string>
   <string name="TranslationMoreCreate">创建</string>
@@ -1960,6 +1975,20 @@
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
   <string name="SignOutHint">您确定要登出 %1$s 吗？所有加密聊天记录将丢失。</string>
+  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   <string name="TdlibLogs">TDLib 日志</string>
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
@@ -2201,13 +2230,20 @@
   <string name="ActionMuteEveryone">免打扰所有</string>
 
   
-  <string name="ActionMuteHours_other">免打扰 %1$s 小时</string>
-
   
-  <string name="ActionMutePersonHours_other">免打扰 %2$s  %1$s小时</string>
-
   
-  <string name="ActionMuteAll_other">免打扰所有 %1$s 小时</string>
+  
+  
+  
+
+  <!--<string name="ActionMuteHours_one">Mute for %1$sh</string>
+  <string name="ActionMuteHours_other">Mute for %1$sh</string>
+
+  <string name="ActionMutePersonHours_one">Mute %2$s for %1$sh</string>
+  <string name="ActionMutePersonHours_other">Mute %2$s for %1$sh</string>
+
+  <string name="ActionMuteAll_one">Mute all for %1$sh</string>
+  <string name="ActionMuteAll_other">Mute all for %1$sh</string>-->
 
   <string name="MessagePreviewDefault">默认</string>
   <string name="MessagePreviewEnabled">启用</string>
@@ -2259,6 +2295,7 @@
   
   
   
+  
 
   
 
@@ -2270,11 +2307,53 @@
   <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
 
   
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
   
 
   <!-- new from translations.telegram.org -->
 
   <string name="ActionDone">隐藏</string>
+  <string name="ActionMuteAll_other">免打扰所有 %1$s 小时</string>
+  <string name="ActionMuteHours_other">免打扰 %1$s 小时</string>
+  <string name="ActionMutePersonHours_other">免打扰 %2$s  %1$s小时</string>
   <string name="AppBadge">未读消息计数角标</string>
   <string name="AppBadgeAll">所有对话</string>
   <string name="AppBadgeDisabled">已禁用</string>
@@ -2282,9 +2361,11 @@
   <string name="AppBadgeTypeChats">对话数目</string>
   <string name="AppBadgeTypeMessages">消息数目</string>
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
+  <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="BadgeCounterSetting">通知圆点</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
+  <string name="Importance">优先级</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>
   <string name="ShareTitleMessage">分享消息到...</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
