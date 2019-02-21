@@ -1372,17 +1372,17 @@
     <string name="TapToChange">Tap to change</string>
     <string name="AlternativeOptions">Alternative options</string>
     <string name="AddAnotherAccount">Add another account</string>
-    <string name="AddAnotherAccountInfo">Connect your other Telegram accounts and easily switch between them.</string>
+    <string name="AddAnotherAccountInfo">Connect other Telegram accounts and easily switch between them.</string>
     <string name="SetPasscode">Set a Passcode</string>
     <string name="SetPasscodeInfo">Lock the app with a passcode so that others can\'t open it.</string>
     <string name="ClearCache">Clear Cache</string>
     <string name="ClearCacheInfo">Free up disk space on your device; your media will stay in the cloud.</string>
     <string name="ChangePhoneNumber">Change Phone Number</string>
-    <string name="ChangePhoneNumberInfo">Move your contacts, groups, messages and media to a new number.</string>
+    <string name="ChangePhoneNumberInfo">Move your account, chats and media to a new number.</string>
     <string name="ContactSupport">Contact Support</string>
     <string name="ContactSupportInfo">Tell us about any issues; logging out doesn\'t usually help.</string>
     <string name="LogOutTitle">Log Out</string>
-    <string name="LogOutInfo">Remember, logging out kills all your Secret Chats.</string>
+    <string name="LogOutInfo">Logging out deactivates all Secret Chats.</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClear">Clear cached text messages?</string>
@@ -2171,6 +2171,7 @@
     <string name="UseLessDataNever">Never</string>
     <string name="UseLessDataOnMobile">Only on mobile data</string>
     <string name="UseLessDataAlways">Always</string>
+    <string name="UseLessDataOnRoaming">Only while roaming</string>
     <string name="VoipAnswerCall">Answer</string>
     <string name="VoipDeclineCall">Decline</string>
     <string name="VoipOffline">You\'re currently offline. Please connect to the Internet in order to make calls.</string>

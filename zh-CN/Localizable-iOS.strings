@@ -3886,7 +3886,7 @@ Unused sets are archived when you add more.";
 "Wallpaper.Search" = "搜索背景";
 "Wallpaper.SearchShort" = "搜索";
 "Wallpaper.SetColor" = "设置纯色背景";
-
+"Wallpaper.SetCustomBackground" = "从图库中选择";
 "Wallpaper.SetCustomBackgroundInfo" = "您可以设置一个自定义的背景图并与朋友分享。";
 
 

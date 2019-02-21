@@ -601,7 +601,7 @@
   <string name="TelegramFAQ">Telegram FAQ</string>
   <string name="HideForYourself">Dismiss for yourself</string>
   <string name="DataSaver">Data Saver</string>
-  <string name="DataSaverDesc">Media will never autodownload with Data Saver enabled. Pending downloads are paused once it turns on.</string>
+  <string name="DataSaverDesc">With Data Saver enabled, media will never download automatically. All pending downloads are paused.</string>
   <string name="TurnOnAutomatically">Turn on automatically</string>
   <string name="InPrivateChats">In Private Chats</string>
   <string name="InGroups">In Groups</string>

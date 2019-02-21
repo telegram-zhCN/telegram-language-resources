@@ -4031,17 +4031,17 @@ Unused sets are archived when you add more.";
 "LogoutOptions.Title" = "Log out";
 "LogoutOptions.AlternativeOptionsSection" = "ALTERNATIVE OPTIONS";
 "LogoutOptions.AddAccountTitle" = "Add another account";
-"LogoutOptions.AddAccountText" = "Connect your other Telegram accounts and easily switch between them.";
+"LogoutOptions.AddAccountText" = "Connect other Telegram accounts and easily switch between them.";
 "LogoutOptions.SetPasscodeTitle" = "Set a Passcode";
 "LogoutOptions.SetPasscodeText" = "Lock the app with a passcode so that others can't open it.";
 "LogoutOptions.ClearCacheTitle" = "Clear Cache";
 "LogoutOptions.ClearCacheText" = "Free up disk space on your device; your media will stay in the cloud.";
 "LogoutOptions.ChangePhoneNumberTitle" = "Change Phone Number";
-"LogoutOptions.ChangePhoneNumberText" = "Move your contacts, groups, messages and media to a new number.";
+"LogoutOptions.ChangePhoneNumberText" = "Move your account, chats and media to a new number.";
 "LogoutOptions.ContactSupportTitle" = "Contact Support";
 "LogoutOptions.ContactSupportText" = "Tell us about any issues; logging out doesn't usually help.";
 "LogoutOptions.LogOut" = "Log Out";
-"LogoutOptions.LogOutInfo" = "Remember, logging out kills all your Secret Chats.";
+"LogoutOptions.LogOutInfo" = "Logging out deactivates all Secret Chats.";
 
 
 /* new from translations.telegram.org */

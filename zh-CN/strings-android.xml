@@ -2171,6 +2171,7 @@
     <string name="UseLessDataNever">从不</string>
     <string name="UseLessDataOnMobile">仅在使用移动数据时</string>
     <string name="UseLessDataAlways">总是</string>
+    <string name="UseLessDataOnRoaming">Only while roaming</string>
     <string name="VoipAnswerCall">接听</string>
     <string name="VoipDeclineCall">拒接</string>
     <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行通话。</string>
