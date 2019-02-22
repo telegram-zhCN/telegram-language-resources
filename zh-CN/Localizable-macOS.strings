@@ -1158,7 +1158,7 @@
 "Channel.EditAdmin.Permission.ChangeInfo" = "修改频道信息";
 "Group.EditAdmin.Permission.ChangeInfo" = "修改群组信息";
 "Channel.EditAdmin.Permission.DeleteMessages" = "删除消息";
-"Channel.EditAdmin.Permission.BanUsers" = "禁止用户";
+"Channel.EditAdmin.Permission.BanUsers" = "封禁用户";
 "Channel.EditAdmin.Permission.PinMessages" = "置顶";
 "Channel.EditAdmin.Permission.AddNewAdmins" = "添加新管理员";
 "Channel.EditAdmin.Permission.PostMessages" = "发布消息";

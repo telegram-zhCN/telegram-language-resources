@@ -1248,7 +1248,7 @@
   <string name="RightChangeGroupInfo">修改群组信息</string>
   <string name="RightChangeChannelInfo">修改频道信息</string>
   <string name="EditAdminGroupDeleteMessages">删除消息</string>
-  <string name="RightBanUsers">禁止用户</string>
+  <string name="RightBanUsers">封禁用户</string>
   <string name="RightInviteViaLink">添加用户</string>
   <string name="RightPinMessages">置顶</string>
   <string name="RightAddNewAdmins">添加新管理员</string>
