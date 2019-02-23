@@ -2473,7 +2473,7 @@
 "Forward.ToSavedMessages" = "转发消息到这里以便快速访问";
 
 
-"GalleryView.FastSave.Image" = "图像已保存到 [下载]() 文件夹";
+"GalleryView.FastSave.Image" = "图片已保存到您的 [下载]() 文件夹";
 "GalleryView.FastSave.Video" = "视频已保存到 [下载]() 文件夹";
 "GalleryView.FastSave.Gif" = "GIF 已保存到 [下载]() 文件夹";
 

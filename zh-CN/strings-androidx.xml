@@ -601,7 +601,7 @@
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="HideForYourself">暂时对自己隐藏</string>
   <string name="DataSaver">节省移动数据流量</string>
-  <string name="DataSaverDesc">当流量节省开启时，将不会自动下载多媒体文件。\n开启时尚未完成的下载会被暂停。</string>
+  <string name="DataSaverDesc">当启用流量节省时，多媒体文件将不会自动下载。所有尚未完成的下载会被暂停。</string>
   <string name="TurnOnAutomatically">自动开启</string>
   <string name="InPrivateChats">在私聊中</string>
   <string name="InGroups">在群组中</string>
@@ -1974,7 +1974,7 @@
   <string name="email_LoginTooLong_subject">Telegram X 连接问题</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
-  <string name="SignOutHint">您确定要登出 %1$s 吗？所有加密聊天记录将丢失。</string>
+  <string name="SignOutHint">您确定要注销 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
 
   

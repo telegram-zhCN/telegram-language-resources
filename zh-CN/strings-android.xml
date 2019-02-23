@@ -1378,11 +1378,11 @@
     <string name="ClearCache">清空缓存</string>
     <string name="ClearCacheInfo">释放设备上的空间；您的媒体文件仍会保存在云端。</string>
     <string name="ChangePhoneNumber">更改手机号码</string>
-    <string name="ChangePhoneNumberInfo">将您的联系人、群组、聊天信息和媒体文件转移到新手机号上。</string>
+    <string name="ChangePhoneNumberInfo">将您的帐号、聊天信息和媒体文件转移到新手机号上。</string>
     <string name="ContactSupport">联系志愿者客服</string>
     <string name="ContactSupportInfo">如果有问题，请告诉我们；注销无助于解决问题。</string>
     <string name="LogOutTitle">注销</string>
-    <string name="LogOutInfo">谨记，退出登录将会销毁所有的加密聊天。</string>
+    <string name="LogOutInfo">退出登录将会销毁所有的加密聊天记录。</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -2056,7 +2056,7 @@
     <string name="SendMessagesTo">发送消息给 %1$s ？</string>
     <string name="SendGameTo">分享游戏给 %1$s 吗？</string>
     <string name="SendContactTo">发送联系人信息给 %1$s ？</string>
-    <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天数据。</string>
+    <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
     <string name="AreYouSureDeleteAndExit">您确定要删除并退出此群组吗？</string>
     <string name="AreYouSureDeleteAndExitName">您确定要删除并退出 **%1$s** 吗？</string>
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>

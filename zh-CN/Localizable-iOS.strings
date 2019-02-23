@@ -4037,11 +4037,11 @@ Unused sets are archived when you add more.";
 "LogoutOptions.ClearCacheTitle" = "清空缓存";
 "LogoutOptions.ClearCacheText" = "释放设备上的空间；您的媒体文件仍会保存在云端。";
 "LogoutOptions.ChangePhoneNumberTitle" = "更改手机号码";
-"LogoutOptions.ChangePhoneNumberText" = "将您的联系人、群组、聊天信息和媒体文件转移到新手机号上。";
+"LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号上。";
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
 "LogoutOptions.LogOut" = "注销";
-"LogoutOptions.LogOutInfo" = "谨记，退出登录将会销毁所有的加密聊天。";
+"LogoutOptions.LogOutInfo" = "退出登录将会销毁所有的加密聊天记录。";
 
 
 /* new from translations.telegram.org */
