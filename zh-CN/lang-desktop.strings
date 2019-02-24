@@ -266,7 +266,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_bio_title" = "编辑您的个人简介";
 "lng_bio_placeholder" = "个人简介";
-"lng_bio_about" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
+"lng_bio_about" = "您可以给自己添加一些简介。任何人在打开您的个人信息后将会看到这个简介。";
 
 "lng_settings_section_info" = "个人信息";
 "lng_settings_username" = "用户名：";
@@ -1530,12 +1530,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_chat_banned_custom" = "自定义";
 "lng_rights_chat_banned_custom_date" = "直至 {date}";
 
-"lng_restricted_send_message" = "此群组的管理员限制了您在此发送消息的能力。";
-"lng_restricted_send_media" = "此群组的管理员限制了您在此发送媒体文件的能力。";
-"lng_restricted_send_stickers" = "此群组的管理员限制了您在此发送贴纸的能力";
-"lng_restricted_send_gifs" = "此群组的管理员限制了您在此发送 GIF 的能力";
-"lng_restricted_send_inline" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";
-"lng_restricted_send_polls" = "此群组的管理员限制了您在此发起投票的能力。";
+"lng_restricted_send_message" = "您已被管理员禁言";
+"lng_restricted_send_media" = "群组管理员已禁止您发送媒体文件。";
+"lng_restricted_send_stickers" = "群组管理员已禁止您发送贴纸。";
+"lng_restricted_send_gifs" = "群组管理员已禁止您发送 GIF。";
+"lng_restricted_send_inline" = "群组管理员已禁止您发送机器人内容。";
+"lng_restricted_send_polls" = "群组管理员已禁止您发起投票。";
 
 "lng_restricted_send_message_all" = "全员禁言中";
 "lng_restricted_send_media_all" = "此群组不允许发送媒体。";

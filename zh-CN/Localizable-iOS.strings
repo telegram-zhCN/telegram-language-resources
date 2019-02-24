@@ -2623,8 +2623,8 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.AdminsTitle" = "管理员";
 "Channel.AdminLogFilter.AdminsAll" = "所有管理员";
 
-"Group.ErrorSendRestrictedStickers" = "抱歉，群组管理员限制了您在此处发送贴纸的能力。";
-"Group.ErrorSendRestrictedMedia" = "抱歉，群组管理员限制了您在此处发送媒体文件的能力。";
+"Group.ErrorSendRestrictedStickers" = "抱歉，群组管理员已禁止您发送贴纸。";
+"Group.ErrorSendRestrictedMedia" = "抱歉，群组管理员已禁止您发送媒体文件。";
 
 "SharedMedia.ViewInChat" = "在对话中查看";
 
@@ -2643,20 +2643,20 @@ Unused sets are archived when you add more.";
 "GroupInfo.ActionPromote" = "设置管理员";
 "GroupInfo.ActionRestrict" = "限制";
 
-"Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在此发送消息的能力至 %@";
-"Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的能力。";
+"Conversation.RestrictedTextTimed" = "您已被管理员禁言至 %@";
+"Conversation.RestrictedText" = "您已被管理员禁言";
 "Conversation.DefaultRestrictedText" = "全员禁言中";
 
-"Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您发送 Inline 内容的能力至 %@";
-"Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";
+"Conversation.RestrictedInlineTimed" = "群组管理员已禁止您发送机器人内容至 %@。";
+"Conversation.RestrictedInline" = "群组管理员已禁止您发送机器人内容。";
 "Conversation.DefaultRestrictedInline" = "此群组不允许 Inline 机器人。";
 
-"Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
-"Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的能力";
+"Conversation.RestrictedMediaTimed" = "群组管理员已禁止您发送媒体文件至 %@。";
+"Conversation.RestrictedMedia" = "群组管理员已禁止您发送媒体文件。";
 "Conversation.DefaultRestrictedMedia" = "此群组不允许发送媒体。";
 
-"Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在此发送贴纸的能力至 %@";
-"Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的能力";
+"Conversation.RestrictedStickersTimed" = "群组管理员已禁止您发送贴纸至 %@";
+"Conversation.RestrictedStickers" = "群组管理员已禁止您发送贴纸。";
 "Conversation.DefaultRestrictedStickers" = "此群组不允许发送贴纸。";
 
 "ChatSettings.ConnectionType.Title" = "连接类型";

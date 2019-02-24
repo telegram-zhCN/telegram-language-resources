@@ -1168,16 +1168,16 @@
 "Channel.EditAdmin.PermissionInviteViaLink" = "生成邀请链接";
 
 
-"Channel.Persmission.Denied.SendMessages.Until" = "此群组的管理员限制了您在此发送消息的能力至 %@";
-"Channel.Persmission.Denied.SendMessages.Forever" = "此群组的管理员限制了您在此发送消息的能力";
+"Channel.Persmission.Denied.SendMessages.Until" = "您已被管理员禁言至 %@";
+"Channel.Persmission.Denied.SendMessages.Forever" = "您已被管理员禁言";
 "Channel.Persmission.Denied.SendMessages.DefaultRestrictedText" = "全员禁言中";
 
-"Channel.Persmission.Denied.SendMedia.Until" = "此群组的管理员限制了您在此发送媒体文件的能力至 %@。";
-"Channel.Persmission.Denied.SendMedia.Forever" = "此群组的管理员限制了您在此发送媒体文件的能力。";
+"Channel.Persmission.Denied.SendMedia.Until" = "群组管理员已禁止您发送媒体文件至 %@。";
+"Channel.Persmission.Denied.SendMedia.Forever" = "群组管理员已禁止您发送媒体文件。";
 "Channel.Persmission.Denied.SendMedia.DefaultRestrictedText" = "此群组不允许发送媒体。";
 
-"Channel.Persmission.Denied.SendStickers.Until" = "此群组的管理员限制了您在此发送贴纸的能力至 %@。";
-"Channel.Persmission.Denied.SendStickers.Forever" = "此群组的管理员限制了您在此发送贴纸的能力。";
+"Channel.Persmission.Denied.SendStickers.Until" = "群组管理员已禁止您发送贴纸至 %@。";
+"Channel.Persmission.Denied.SendStickers.Forever" = "群组管理员已禁止您发送贴纸。";
 "Channel.Persmission.Denied.SendStickers.DefaultRestrictedText" = "此群组不允许发送贴纸。";
 
 "Channel.Persmission.Denied.SendGifs.Until" = "频道管理员已经禁止你在该频道发送 GIF 图片，该限制将在 %@ 解除，";
@@ -1189,8 +1189,8 @@
 "Channel.Persmission.Denied.SendPoll.DefaultRestrictedText" = "该群组不允许发起投票。";
 
 
-"Channel.Persmission.Denied.SendInline.Until" = "此群组的管理员限制了您发送 Inline 内容的能力至 %@。";
-"Channel.Persmission.Denied.SendInline.Forever" = "此群组的管理员限制了您在此发送 Inline 内容的能力。";
+"Channel.Persmission.Denied.SendInline.Until" = "群组管理员已禁止您发送机器人内容至 %@。";
+"Channel.Persmission.Denied.SendInline.Forever" = "群组管理员已禁止您发送机器人内容。";
 "Channel.Persmission.Denied.SendInline.DefaultRestrictedText" = "此群组不允许 Inline 机器人。";
 
 
