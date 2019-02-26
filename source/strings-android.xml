@@ -1221,7 +1221,6 @@
     <string name="AutoDownloadCustom">Custom</string>
     <string name="AutoDownloadPm">PM</string>
     <string name="AutoDownloadGroups">Groups</string>
-    <string name="AutoDownloadAllMedia">All media</string>
     <string name="AutoDownloadPhotos">Photos</string>
     <string name="AutoDownloadVideos">Videos</string>
     <string name="AutoDownloadFiles">Files</string>
@@ -1234,7 +1233,6 @@
     <string name="AutoDownloadPreloadMusicInfo">Start downloading the next track while you are listening to an audio file.</string>
     <string name="AutoDownloadPreloadVideo">Preload larger videos</string>
     <string name="AutoDownloadPreloadVideoInfo">Preload the first few seconds (1-2 MB) of videos larger than %1$s for instant playback.</string>
-    <string name="AutoDownloadAnd">%1$s and %2$s</string>
     <string name="AutoDownloadOnMobileDataInfo">Turn this ON if you want media to be automatically downloaded on mobile data.</string>
     <string name="AutoDownloadOnRoamingDataInfo">Turn this ON if you want media to be automatically downloaded when roaming.</string>
     <string name="AutoDownloadOnWiFiDataInfo">Turn this ON if you want media to be automatically downloaded on Wi-Fi.</string>
@@ -1252,6 +1250,7 @@
     <string name="WhenRoaming">When roaming</string>
     <string name="AutoplayGIF">GIFs</string>
     <string name="AutoplayVideo">Videos</string>
+    <string name="AutoplayVideoInfo">Press the volume buttons to turn sound on.</string>
     <string name="AutoplayMedia">Auto-play media</string>
     <string name="RaiseToSpeak">Raise to Speak</string>
     <string name="SaveToGallerySettings">Save to Gallery</string>

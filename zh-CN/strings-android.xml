@@ -1221,7 +1221,6 @@
     <string name="AutoDownloadCustom">自定义</string>
     <string name="AutoDownloadPm">私聊</string>
     <string name="AutoDownloadGroups">群组</string>
-    <string name="AutoDownloadAllMedia">所有媒体</string>
     <string name="AutoDownloadPhotos">图片</string>
     <string name="AutoDownloadVideos">视频</string>
     <string name="AutoDownloadFiles">文件</string>
@@ -1234,7 +1233,6 @@
     <string name="AutoDownloadPreloadMusicInfo">当您在听音乐时预加载下一曲。</string>
     <string name="AutoDownloadPreloadVideo">预加载更大的视频</string>
     <string name="AutoDownloadPreloadVideoInfo">预加载大于 %1$s 视频的前几秒钟以便快速回放。</string>
-    <string name="AutoDownloadAnd">%1$s 和 %2$s</string>
     <string name="AutoDownloadOnMobileDataInfo">如欲在使用移动数据时自动下载媒体文件，请打开此开关。</string>
     <string name="AutoDownloadOnRoamingDataInfo">如欲在漫游时自动下载媒体文件，请打开此开关。</string>
     <string name="AutoDownloadOnWiFiDataInfo">如欲在使用 Wi-Fi 时自动下载媒体文件，请打开此开关。</string>
@@ -1252,6 +1250,7 @@
     <string name="WhenRoaming">漫游时</string>
     <string name="AutoplayGIF">GIF</string>
     <string name="AutoplayVideo">视频</string>
+    <string name="AutoplayVideoInfo">Press the volume buttons to turn sound on.</string>
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>
