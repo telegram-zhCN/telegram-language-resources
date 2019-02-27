@@ -91,6 +91,8 @@
 "PeerInfo.Permissions" = "权限";
 "PeerInfo.Administrators" = "管理员";
 
+"PeerInfo.Statistics" = "统计数据";
+
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？";
 
 
@@ -884,6 +886,15 @@
 "Alert.SendError.Resend" = "重新发送";
 "Alert.SendError.Delete" = "删除";
 "Alert.SendError.Ignore" = "忽略";
+
+
+"Alert.SendError.ResendItems_countable" = "%d";
+
+
+
+
+
+
 
 "GeneralSettings.EnableSidebar" = "侧栏";
 "Telegram.RecentSessionsController" = "活动会话";
@@ -2743,6 +2754,83 @@
 "Chat.WP.Pattern" = "图案";
 "Chat.WP.Color" = "颜色";
 "Chat.WP.Intensity" = "图案深度";
+
+
+
+"AccountViewController.Update" = "更新";
+
+
+
+"Update.UpdateTelegram" = "更新 Telegram";
+"AppUpdate.CheckForUpdates" = "检查更新";
+"AppUpdate.DownloadUpdate" = "下载更新";
+
+"AppUpdate.Downloading" = "下载中...";
+"AppUpdate.Unarchiving" = "解压中...";
+"AppUpdate.Title" = "更新";
+
+
+
+
+
+
+"DataAndStorage.Autoplay.Header" = "自动播放";
+"DataAndStorage.Autoplay.GIFs" = "GIF";
+"DataAndStorage.Autoplay.Videos" = "视频";
+
+
+
+"DataAndStorage.Category.PreloadLargeVideos" = "预加载更大的视频";
+"DataAndStorage.Category.PreloadLargeVideosDesc" = "预加载大于 %@ MB 视频的前几秒钟以便快速回放。";
+
+
+
+"Confirm.Header.PermissionInlineBotContact" = "分享您的手机号码？";
+"Confirm.Desc.PermissionInlineBotContact" = "机器人将会获取您的手机号码。这可能对与其他服务的集成有用。";
+
+
+"AutoDownloadSettings.OnForAll" = "对所有对话启用";
+"AutoDownloadSettings.OnFor" = "对 %@ 启用";
+"AutoDownloadSettings.TypePrivateChats" = "在私聊中";
+"AutoDownloadSettings.TypeGroupChats" = "群组";
+"AutoDownloadSettings.TypeChannels" = "频道";
+"AutoDownloadSettings.UpToForAll" = "对所有对话不超过 %@";
+"AutoDownloadSettings.UpToFor" = "不超过 %@ 对于 %@";
+"AutoDownloadSettings.OffForAll" = "对所有对话关闭";
+
+"AutoDownloadSettings.LastDelimeter" = "和";
+
+
+
+"LogoutOptions.Title" = "注销";
+"LogoutOptions.AlternativeOptionsSection" = "其他选项";
+"LogoutOptions.AddAccountTitle" = "添加另一个帐户";
+
+"LogoutOptions.SetPasscodeTitle" = "设置锁定码";
+"LogoutOptions.SetPasscodeText" = "用屏幕锁定码保护您的隐私信息。";
+"LogoutOptions.ClearCacheTitle" = "清空缓存";
+"LogoutOptions.ClearCacheText" = "释放设备上的空间；您的媒体文件仍会保存在云端。";
+"LogoutOptions.ChangePhoneNumberTitle" = "更改手机号码";
+"LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号上。";
+"LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
+"LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
+"LogoutOptions.LogOut" = "注销";
+"LogoutOptions.LogOutInfo" = "退出登录将会销毁所有的加密聊天记录。";
+
+
+
+
+"CallSettings.Title" = "通话设置";
+
+"CallSettings.Output.Text" = "输出设备";
+"CallSettings.Input.Title" = "麦克风";
+"CallSettings.Input.Text" = "输入设备";
+"CallSettings.OtherSettings.Title" = "其他设置";
+"CallSettings.MuteSound" = "通话时将其他应用设为静音";
+
+
+
+
 
 
 /* new from translations.telegram.org */

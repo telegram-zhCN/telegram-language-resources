@@ -91,6 +91,8 @@
 "PeerInfo.Permissions" = "Permissions";
 "PeerInfo.Administrators" = "Administrators";
 
+"PeerInfo.Statistics" = "Statistics";
+
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?";
 
 
@@ -884,6 +886,15 @@
 "Alert.SendError.Resend" = "Resend";
 "Alert.SendError.Delete" = "Delete";
 "Alert.SendError.Ignore" = "Ignore";
+
+
+"Alert.SendError.ResendItems_countable" = "%d";
+"Alert.SendError.ResendItems_zero" = "Resend %d messages";
+"Alert.SendError.ResendItems_one" = "Resend %d message";
+"Alert.SendError.ResendItems_two" = "Resend %d messages";
+"Alert.SendError.ResendItems_few" = "Resend %d messages";
+"Alert.SendError.ResendItems_many" = "Resend %d messages";
+"Alert.SendError.ResendItems_other" = "Resend %d messages";
 
 "GeneralSettings.EnableSidebar" = "Sidebar";
 "Telegram.RecentSessionsController" = "Active Sessions";
@@ -2743,6 +2754,83 @@
 "Chat.WP.Pattern" = "Pattern";
 "Chat.WP.Color" = "Color";
 "Chat.WP.Intensity" = "Pattern Intensity";
+
+
+
+"AccountViewController.Update" = "Update";
+"AccountViewController.Desc.Updated" = "updated";
+"AccountViewController.Desc.Failed" = "failed";
+
+"Update.UpdateTelegram" = "Update Telegram";
+"AppUpdate.CheckForUpdates" = "Check for Updates";
+"AppUpdate.DownloadUpdate" = "Download Update";
+"AppUpdate.RetrievingInfo" = "Retrieving Information...";
+"AppUpdate.Downloading" = "Downloading...";
+"AppUpdate.Unarchiving" = "Unarchiving...";
+"AppUpdate.Title" = "Updates";
+"AppUpdate.Uptodate" = "You have the latest version of Telegram.";
+"AppUpdate.NewestAvailable" = "Please update the app to get the latest features and improvements.";
+"AppUpdate.Title.New" = "NEW VERSION (your version: %@)";
+"AppUpdate.Title.Previous" = "PREVIOUS VERSIONS";
+
+
+"DataAndStorage.Autoplay.Header" = "AUTO-PLAY MEDIA";
+"DataAndStorage.Autoplay.GIFs" = "GIFs";
+"DataAndStorage.Autoplay.Videos" = "Videos";
+"DataAndStorage.Autoplay.SoundOnHover" = "Sound on Hover";
+"DataAndStorage.Autoplay.SoundOnHover.Desc" = "Sound will start playing when you move your cursor over a video.";
+
+"DataAndStorage.Category.PreloadLargeVideos" = "Preload Larger Videos";
+"DataAndStorage.Category.PreloadLargeVideosDesc" = "Preload first few seconds (1-2 MB) of videos large than %@ MB for instant playback.";
+
+
+
+"Confirm.Header.PermissionInlineBotContact" = "Share Your Phone Number?";
+"Confirm.Desc.PermissionInlineBotContact" = "The bot will know your phone number. This can be useful for integration with other services.";
+
+
+"AutoDownloadSettings.OnForAll" = "On for all chats";
+"AutoDownloadSettings.OnFor" = "On for %@";
+"AutoDownloadSettings.TypePrivateChats" = "Private Chats";
+"AutoDownloadSettings.TypeGroupChats" = "Groups";
+"AutoDownloadSettings.TypeChannels" = "Channels";
+"AutoDownloadSettings.UpToForAll" = "Up to %@ for all chats";
+"AutoDownloadSettings.UpToFor" = "Up to %@ for %@";
+"AutoDownloadSettings.OffForAll" = "Off for all chats";
+"AutoDownloadSettings.Delimeter" = ", ";
+"AutoDownloadSettings.LastDelimeter" = " and ";
+
+
+
+"LogoutOptions.Title" = "Log out";
+"LogoutOptions.AlternativeOptionsSection" = "ALTERNATIVE OPTIONS";
+"LogoutOptions.AddAccountTitle" = "Add another account";
+"LogoutOptions.AddAccountText" = "Connect other Telegram accounts and easily switch between them.";
+"LogoutOptions.SetPasscodeTitle" = "Set a Passcode";
+"LogoutOptions.SetPasscodeText" = "Lock the app with a passcode so that others can't open it.";
+"LogoutOptions.ClearCacheTitle" = "Clear Cache";
+"LogoutOptions.ClearCacheText" = "Free up disk space on your device; your media will stay in the cloud.";
+"LogoutOptions.ChangePhoneNumberTitle" = "Change Phone Number";
+"LogoutOptions.ChangePhoneNumberText" = "Move your contacts, groups, messages and media to a new number.";
+"LogoutOptions.ContactSupportTitle" = "Contact Support";
+"LogoutOptions.ContactSupportText" = "Tell us about any issues; logging out doesn't usually help.";
+"LogoutOptions.LogOut" = "Log Out";
+"LogoutOptions.LogOutInfo" = "Remember, logging out kills all your Secret Chats.";
+
+
+"Chat.Video.Processing" = "processing...";
+
+"CallSettings.Title" = "Call Settings";
+"CallSettings.Output.Title" = "SOUND";
+"CallSettings.Output.Text" = "Output device";
+"CallSettings.Input.Title" = "MICROPHONE";
+"CallSettings.Input.Text" = "Input device";
+"CallSettings.OtherSettings.Title" = "OTHER SETTINGS";
+"CallSettings.MuteSound" = "Mute other sounds during calls";
+"CallSettings.OpenSystemPreferences" = "Open system preferences";
+
+
+"Telegram.ChannelStatisticsController" = "Channel Stats";
 
 
 /* new from translations.telegram.org */
