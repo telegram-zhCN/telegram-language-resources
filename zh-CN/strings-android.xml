@@ -808,7 +808,7 @@
     <string name="NotificationGroupFew">%1$s 发送了 %3$s 到群组 %2$s</string>
     <string name="NotificationGroupForwardedFew">%1$s 转发了 %3$s 到群组 %2$s</string>
     <string name="Reply">回复</string>
-    <string name="ReplyToGroup">回复给 %1$s</string>
+    <string name="ReplyToGroup">回复 %1$s</string>
     <string name="ReplyToUser">回复给 %1$s</string>
     <string name="BackgroundRestricted">后台数据已被限制。</string>
     <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
