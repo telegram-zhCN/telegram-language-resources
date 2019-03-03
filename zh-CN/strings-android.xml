@@ -1250,7 +1250,7 @@
     <string name="WhenRoaming">漫游时</string>
     <string name="AutoplayGIF">GIF</string>
     <string name="AutoplayVideo">视频</string>
-    <string name="AutoplayVideoInfo">Press the volume buttons to turn sound on.</string>
+    <string name="AutoplayVideoInfo">按动音量键打开声音</string>
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>

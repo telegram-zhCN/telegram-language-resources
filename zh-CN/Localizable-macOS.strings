@@ -894,7 +894,7 @@
 
 
 
-
+"Alert.SendError.ResendItems_other" = "重新发送 %d 条消息";
 
 "GeneralSettings.EnableSidebar" = "侧栏";
 "Telegram.RecentSessionsController" = "活动会话";
@@ -2758,27 +2758,27 @@
 
 
 "AccountViewController.Update" = "更新";
-
-
+"AccountViewController.Desc.Updated" = "已更新";
+"AccountViewController.Desc.Failed" = "失败";
 
 "Update.UpdateTelegram" = "更新 Telegram";
 "AppUpdate.CheckForUpdates" = "检查更新";
 "AppUpdate.DownloadUpdate" = "下载更新";
-
+"AppUpdate.RetrievingInfo" = "获取信息...";
 "AppUpdate.Downloading" = "下载中...";
 "AppUpdate.Unarchiving" = "解压中...";
 "AppUpdate.Title" = "更新";
-
-
-
-
+"AppUpdate.Uptodate" = "你已经安装了最新版Telegram。";
+"AppUpdate.NewestAvailable" = "请更新应用以获得最新的改进和特性。";
+"AppUpdate.Title.New" = "新版本 (当前版本: %@)";
+"AppUpdate.Title.Previous" = "历史版本";
 
 
 "DataAndStorage.Autoplay.Header" = "自动播放";
 "DataAndStorage.Autoplay.GIFs" = "GIF";
 "DataAndStorage.Autoplay.Videos" = "视频";
-
-
+"DataAndStorage.Autoplay.SoundOnHover" = "选中时播放提示音";
+"DataAndStorage.Autoplay.SoundOnHover.Desc" = "声音将在你的光标移到视频上时播放";
 
 "DataAndStorage.Category.PreloadLargeVideos" = "预加载更大的视频";
 "DataAndStorage.Category.PreloadLargeVideosDesc" = "预加载大于 %@ MB 视频的前几秒钟以便快速回放。";
@@ -2805,7 +2805,7 @@
 "LogoutOptions.Title" = "注销";
 "LogoutOptions.AlternativeOptionsSection" = "其他选项";
 "LogoutOptions.AddAccountTitle" = "添加另一个帐户";
-
+"LogoutOptions.AddAccountText" = "关联其他Telegram帐户并随性切换。";
 "LogoutOptions.SetPasscodeTitle" = "设置锁定码";
 "LogoutOptions.SetPasscodeText" = "用屏幕锁定码保护您的隐私信息。";
 "LogoutOptions.ClearCacheTitle" = "清空缓存";
@@ -2818,19 +2818,19 @@
 "LogoutOptions.LogOutInfo" = "退出登录将会销毁所有的加密聊天记录。";
 
 
-
+"Chat.Video.Processing" = "正在处理...";
 
 "CallSettings.Title" = "通话设置";
-
+"CallSettings.Output.Title" = "音频";
 "CallSettings.Output.Text" = "输出设备";
 "CallSettings.Input.Title" = "麦克风";
 "CallSettings.Input.Text" = "输入设备";
 "CallSettings.OtherSettings.Title" = "其他设置";
 "CallSettings.MuteSound" = "通话时将其他应用设为静音";
+"CallSettings.OpenSystemPreferences" = "打开系统偏好设置";
 
 
-
-
+"Telegram.ChannelStatisticsController" = "频道状态";
 
 
 /* new from translations.telegram.org */
