@@ -2731,9 +2731,7 @@
 "WallpaperPreview.Blurred" = "模糊";
 "WallpaperPreview.Header" = "背景预览";
 //
-//"_NS:103.title" = "Edit";
-//"_NS:167.title" = "Window";
-//"_NS:81.title" = "View";
+
 
 
 "Channel.ErrorAddBlocked" = "抱歉，您不能将此用户加入频道。";
@@ -2833,6 +2831,13 @@
 "Telegram.ChannelStatisticsController" = "频道状态";
 
 
+
+
+"_NS:103.title" = "编辑";
+"_NS:167.title" = "窗口";
+"_NS:81.title" = "查看";
+
+
 /* new from translations.telegram.org */
 
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
@@ -2845,6 +2850,3 @@
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 "TwoStepAuth.SetupHint" = "请创建一个密码提示。";
 "WallpaperPreview.Plain" = "普通";
-"_NS:103.title" = "编辑";
-"_NS:167.title" = "窗口";
-"_NS:81.title" = "查看";
