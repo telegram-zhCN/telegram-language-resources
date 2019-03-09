@@ -3626,7 +3626,7 @@ Unused sets are archived when you add more.";
 "Watch.Message.Game" = "游戏";
 "Watch.Message.Invoice" = "账单";
 "Watch.Message.Poll" = "投票";
-"Watch.Message.Unsupported" = "消息类型不支持";
+"Watch.Message.Unsupported" = "此消息类型尚未支持";
 
 
 
@@ -4029,7 +4029,7 @@ Unused sets are archived when you add more.";
 "ChatSettings.AutoDownloadSettings.Delimeter" = "，";
 
 "LogoutOptions.Title" = "注销";
-"LogoutOptions.AlternativeOptionsSection" = "其他选项";
+"LogoutOptions.AlternativeOptionsSection" = "其它选项";
 "LogoutOptions.AddAccountTitle" = "添加另一个帐户";
 "LogoutOptions.AddAccountText" = "登录其他 Telegram 帐户并在它们之间轻松切换。";
 "LogoutOptions.SetPasscodeTitle" = "设置锁定码";

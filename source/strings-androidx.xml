@@ -118,6 +118,8 @@
   <string name="xOnline_other">%1$s online</string>
   <string name="xGroups_one">%1$s group</string>
   <string name="xGroups_other">%1$s groups</string>
+  <string name="xChannels_one">%1$s channel</string>
+  <string name="xChannels_other">%1$s channels</string>
   <string name="xWebsites_one">%1$s website</string>
   <string name="xWebsites_other">%1$s websites</string>
   <string name="DeleteAccountIfAwayForDays_one">%1$s day</string>
@@ -247,6 +249,7 @@
   <string name="Message">Message</string>
   <string name="DeletedMessage">Deleted message</string>
   <string name="UnsupportedMessage">Unsupported message</string>
+  <string name="UnsupportedMessageType">Unsupported message</string>
   <string name="YouHaveNewMessage">You have a new message</string>
   <string name="ChatContentWithCaption">%1$s: %2$s</string>
   <string name="ChatContentVoice">Voice Message</string>
@@ -341,6 +344,7 @@
   <string name="ChannelName">Channel Name</string>
   <string name="ServiceNotifications">service notifications</string>
   <string name="Bot">bot</string>
+  <string name="Support">support</string>
   <string name="deletedUser">deleted user</string>
   <string name="unknownUser">unknown user</string>
   <string name="BotStatusRead">has access to messages</string>
@@ -593,8 +597,8 @@
   <string name="Chats">Chats</string>
   <string name="Notifications">Notifications</string>
   <string name="NotificationsEnabled">Enabled</string>
-  
-  
+  <string name="NotificationsEnabledHint">Enabled (%1$s)</string>
+  <string name="NotificationsBlocked">Blocked</string>
   <string name="NotificationsDisabled">Disabled</string>
   <string name="PrivacySettings">Privacy and Security</string>
   <string name="AskAQuestion">Ask a Question</string>
@@ -642,8 +646,8 @@
   <string name="GroupsAndChannels">Groups and Channels</string>
   <string name="SecurityTitle">Security</string>
   <string name="SessionsTitle">Active Sessions</string>
-  
-  
+  <string name="SessionsIncompleteTitle">Incomplete Login Attempts</string>
+  <string name="SessionsIncompleteInfo">The devices above have no access to your messages. The code was entered correctly, but no correct password was given.</string>
   <string name="TwoStepVerification">Two-Step Verification</string>
   <string name="PasswordEnabled">Enabled</string>
   <string name="PasswordDisabled">Disabled</string>
@@ -653,9 +657,9 @@
   <string name="TerminateAllSessions">Terminate All Other Sessions</string>
   <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
   <string name="TerminateSessionQuestion">Terminate this session?</string>
-  
+  <string name="TerminateIncompleteSessionQuestion">Terminate this login attempt?</string>
   <string name="TerminateSession">Terminate session</string>
-  
+  <string name="TerminateIncompleteSession">Terminate login attempt</string>
   <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
   <string name="Everybody">Everybody</string>
   <string name="MyContacts">My Contacts</string>
@@ -679,6 +683,7 @@
   <string name="SetRecoveryEmail">Set Recovery Email</string>
   <string name="ChangeRecoveryEmail">Change Recovery Email</string>
   <string name="TurnPasswordOffQuestion">Are you sure you want to disable your password?</string>
+  <string name="TurnPasswordOffQuestion2">Are you sure you want to disable your password?\n\n**Warning**! All data saved in your Telegram Passport will be lost!</string>
   <string name="YourPassword">Your Password</string>
   <string name="EnterAPassword">Enter a password</string>
   <string name="ReEnterAPassword">Re-enter a password</string>
@@ -713,14 +718,14 @@
   <string name="EmailMatchesOldOne">Email address hasn\'t changed.</string>
   <string name="Hint">Hint: %1$s</string>
   <string name="PrivateChats">Private Chats</string>
-  
+  <string name="PrivateChatsMentions">Private Chats and Mentions</string>
   <string name="MessagePreview">Message Preview</string>
   <string name="Vibrate">Vibrate</string>
   <string name="VibrateDisabled">Disabled</string>
   <string name="Sound">Sound</string>
   <string name="SoundDisabled">Disabled</string>
   <string name="InChatSound">In-Chat Sounds</string>
-  
+  <string name="InChatSoundInfo">Play sounds for incoming and outgoing messages when chat is open.</string>
   <string name="Events">Events</string>
   <string name="EventNewContact">New Contacts</string>
   <string name="EventNewContactInfo">Receive notification when one of your contacts becomes available on Telegram.</string>
@@ -818,6 +823,7 @@
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
   <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
+  <string name="ActionPinnedPoll">%1$s pinned a **poll**</string>
   <string name="ActionPinnedGeoLive">%1$s pinned a **live location**</string>
   <string name="ActionPinnedSticker">%1$s pinned a **sticker**</string>
   <string name="ActionPinnedGif">%1$s pinned a **GIF**</string>
@@ -1159,7 +1165,7 @@
   <string name="PriorityRegular">Regular</string>
   <string name="PriorityUrgent">Urgent</string>
   <string name="PriorityLow">Low</string>
-  
+  <string name="PriorityMedium">Medium</string>
   <string name="PriorityAboutUrgentAndLow">Urgent notifications will appear when your phone is in Do Not Disturb mode. Low priority notifications will appear in system tray without interrupting.</string>
   <string name="PriorityAboutLow">Low priority notifications will appear in system tray without interrupting.</string>
   <string name="NotificationsPriority">Priority</string>
@@ -1482,6 +1488,7 @@
   <string name="ChatAccessPrivateChannel">This channel is private</string>
   <string name="YouCantInviteMembers">You can\'t add members to this chat</string>
   <string name="RecoveryCodeSent">We\'ve sent you a 6-digit recovery code to %1$s. Please check your email and enter it here.</string>
+  <string name="RecoveryCodeResent">The verification code has been resent to your email.</string>
   <string name="RecoveryCodeSentEmailUnknown">We\'ve sent you a 6-digit recovery code. Please check your email and enter it here.</string>
   <string name="RestoreEmailTroubleUnknown">Having trouble accessing your email?</string>
   <string name="VoipInCallBranding">Telegram Call</string>
@@ -1516,8 +1523,8 @@
   <string name="PlayStop">Stop</string>
   <string name="NotificationChannelCommonPrivate">Default notification settings for all private chats and mentions.</string>
   <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
-  
-  
+  <string name="NotificationChannelCommonGroups">Default notification settings for all group chats.</string>
+  <string name="NotificationChannelCommonChannels">Default notification settings for all channels.</string>
   <string name="NotificationChannelSecretChat">Custom notification settings for the Secret Chat with %1$s.</string>
   <string name="NotificationChannelUser">Custom notification settings for messages and mentions from %1$s.</string>
   <string name="NotificationChannelGroupChat">Custom notification settings for the Group «%1$s».</string>
@@ -1534,7 +1541,7 @@
   <string name="IncognitoKeyboardInfo">Request keyboard to not update any personalized data such as typing history and personalized language model based on what you type in Secret Chats.\n\nBe aware that this setting is not a guarantee, and some IMEs may not respect it.</string>
   <string name="FailureMessageText">This message could not be displayed because of an error. We are very sorry for that.\n\nPlease copy the scary error details below and submit them to support@telegram.org so we can investigate the issue. Thank you!</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
-  
+  <string name="PrivacyCallsP2PTitle2">Peer-to-Peer in Calls</string>
   <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
   <string name="AutoNightDisabled">Disabled</string>
   <string name="AutoNightAutomatic">Automatic</string>
@@ -1554,7 +1561,7 @@
   <string name="OtherWebSessions">Connected Websites</string>
   <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
   <string name="DisconnectWebsite">Disconnect</string>
-  
+  <string name="DisconnectWebsiteAction">Disconnect Website</string>
   <string name="DisconnectAllWebsitesHint">Are you sure you want to disconnect all websites?</string>
   <string name="DisconnectWebsiteBan">Block %1$s</string>
   <string name="ConnectedWebsitesDesc">Tap to disconnect from your Telegram account.</string>
@@ -1681,7 +1688,7 @@
   <string name="message_adminSign">"  admin"</string>
   <string name="message_adminSignPlain">admin</string>
   <string name="WhoCanCallMe">Who can call me</string>
-  
+  <string name="UseP2PWith">Use peer-to-peer with</string>
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
   <string name="PrivacyLastSeenNobodyExcept">Nobody (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenContacts">Only contacts can see your Last Seen</string>
@@ -1700,12 +1707,12 @@
   <string name="PrivacyCallsContactsExcept">Only contacts (%1$s) can call you</string>
   <string name="PrivacyCallsEverybody">Everybody can call you</string>
   <string name="PrivacyCallsEverybodyExcept">Everybody (%1$s) can call you</string>
-  
-  
-  
-  
-  
-  
+  <string name="PrivacyP2PNobody">Disabled</string>
+  <string name="PrivacyP2PNobodyExcept">Disabled (%1$s)</string>
+  <string name="PrivacyP2PContacts">Only for contacts</string>
+  <string name="PrivacyP2PContactsExcept">Only for contacts (%1$s)</string>
+  <string name="PrivacyP2PEverybody">Enabled</string>
+  <string name="PrivacyP2PEverybodyExcept">Enabled (%1$s)</string>
   <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsDefault">Use global settings (%1$s)</string>
   <string name="NotificationsDefaultEnabled">Enabled</string>
@@ -1977,18 +1984,18 @@
   <string name="SignOutHint">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
   <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="SignOutAlt">Alternative options</string>
+  <string name="SignOutAltAddAccount">Add another account</string>
+  <string name="SignOutAltAddAccountHint">Set up multiple phone numbers and easily switch between them.</string>
+  <string name="SignOutAltPasscode">Set a Passcode</string>
+  <string name="SignOutAltPasscodeHint">Lock the app with a passcode so that others can\'t open it.</string>
+  <string name="SignOutAltClearCache">Clear Cache</string>
+  <string name="SignOutAltClearCacheHint">Free up disk space on your device; your media will stay in the cloud.</string>
+  <string name="SignOutAltChangeNumber">Change Phone Number</string>
+  <string name="SignOutAltChangeNumberHint">Move your contacts, groups, messages and media to a new number.</string>
+  <string name="SignOutAltHelp">Contact Support</string>
+  <string name="SignOutAltHelpHint">Tell us about any issues; logging out doesn\'t usually help.</string>
+  <string name="SignOutAltHint">Remember, logging out kills all your Secret Chats.</string>
 
   <string name="TdlibLogs">TDLib Logs</string>
   <string name="TdlibLogsWarning">**Warning:** TDLib Logs may contain **private data**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
@@ -2164,6 +2171,7 @@
   <string name="ShareTextProxyLink2">%1$s\n\nThis link may be helpful in accessing Telegram in censored regions.</string>
   <string name="ShareTextStickerLink">Check out «%1$s» sticker set for Telegram: %2$s</string>
   <string name="ShareTextStickerLink2">Check out «%1$s» sticker set: %2$s</string>
+  <string name="ShareTextLanguageLink">Check out %1$s translation for Telegram: %2$s</string>
 
   <string name="ShareTitleText">Share to…</string>
 
@@ -2212,6 +2220,7 @@
   <string name="ShareBtnMessage">Share Link</string>
   <string name="ShareBtnBot">Share Bot</string>
   <string name="ShareBtnProxy">Share Proxy</string>
+  <string name="ShareBtnLanguage">Share Language</string>
   <string name="ShareBtnStickerSet">Share Stickers</string>
 
   <string name="ShareContact">Share Contact</string>
@@ -2229,12 +2238,12 @@
   <string name="ActionMutePerson">Mute %1$s</string>
   <string name="ActionMuteEveryone">Mute all</string>
 
-  
-  
-  
-  
-  
-  
+  <string name="NotificationMutedChat">Muted %1$s for 1 hour</string>
+  <string name="NotificationMutedPerson">Muted %1$s for 1 hour</string>
+  <string name="NotificationMutedPersons_one">Muted %1$s person for 1 hour</string>
+  <string name="NotificationMutedPersons_other">Muted %1$s people for 1 hour</string>
+  <string name="NotificationRead">Marked messages as read</string>
+  <string name="NotificationReadMentions">Marked mentions as read</string>
 
   <!--<string name="ActionMuteHours_one">Mute for %1$sh</string>
   <string name="ActionMuteHours_other">Mute for %1$sh</string>
@@ -2254,7 +2263,7 @@
 
   <string name="OpenCloudChat">Open Cloud Chat</string>
 
-  
+  <string name="SystemNotificationSettings">System Notification Settings</string>
   <string name="BadgeCounter">Badge Counter</string>
   <string name="BadgeCounterMuted">Include Muted Chats</string>
   <string name="BadgeCounterMessages">Count Unread Messages</string>
@@ -2264,87 +2273,144 @@
   <string name="NotificationsGroupInfo">You can set custom notifications for specific groups on their profile page.</string>
   <string name="NotificationsChannelInfo">You can set custom notifications for specific channels on their profile page.</string>
   <string name="AppBadgeHint">Display a badge counter on the application icon. This may not work on some devices.\n\nYour system may display an extra badge while playing music or having an active call regardless of these settings.</string>
-  
-  
-  
+  <string name="IncludeDismissed">Include Dismissed Messages</string>
+  <string name="IncludeDismissedHintOn">Switch on to include previously dismissed unread messages when new notification arrives from a chat.</string>
+  <string name="IncludeDismissedHintOff">Switch off to exclude previously dismissed unread messages when new notification arrives from a chat.</string>
   
   <string name="Channels">Channels</string>
 
-  
+  <string name="Mentions">Mentions and Replies</string>
 
-  
+  <string name="Prioritize">Personal Notifications</string>
 
-  
-  
+  <string name="PinnedMessagesOff">Switch off to apply group notification settings when someone pins a message. You will receive no notification, if group is muted.</string>
+  <string name="PinnedMessagesOn">Switch on to apply private notification settings when someone pins a message. You will receive no notification, if message author is muted.</string>
 
-  
-  
+  <string name="MentionsOff">Switch off to apply group notification settings to mentions and replies. You will receive no notification, if group is muted.</string>
+  <string name="MentionsOn">Switch on to apply private notification settings to mentions and replies. You will receive no notification, if message author is muted.</string>
 
-  
-  
-  
+  <string name="NotificationMerge">Merge notification categories</string>
+  <string name="NotificationMergeOn">Turn on to display notifications from private chats, groups and channels in a single notification group.</string>
+  <string name="NotificationMergeOff">Turn off to display notifications from private chats, groups and channels separately.</string>
 
-  
-  
-  
+  <string name="MentionsDefault">Default</string>
+  <string name="MentionsEnabled">Enabled</string>
+  <string name="MentionsDisabled">Disabled</string>
 
-  
-  
-  
+  <string name="PinnedDefault">Default</string>
+  <string name="PinnedEnabled">Enabled</string>
+  <string name="PinnedDisabled">Disabled</string>
 
-  
-  
-  
-  
+  <string name="CategoryPrivate">Private</string>
+  <string name="CategorySecret">Secret</string>
+  <string name="CategoryGroup">Group Chats</string>
+  <string name="CategoryChannels">Channels</string>
 
-  
+  <string name="format_accountAndCategory">%1$s • %2$s</string>
 
-  
+  <string name="NotificationAdvanced">Advanced</string>
 
-  
-  
+  <string name="format_pinned">Pinned: %1$s</string>
+  <string name="format_notificationTitlePinned">%1$s (pinned message)</string>
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
 
-  
+  <string name="AllAccounts">Messages</string>
+
+  <string name="NotificationImportance">Notification Style</string>
+  <string name="NotificationImportanceHigh">Sound and pop-up</string>
+  <string name="NotificationImportanceHighNoSound">Vibrate and pop-up</string>
+  <string name="NotificationImportanceHighMuted">Pop up on screen</string>
+  <string name="NotificationImportanceDefault">Sound</string>
+  <string name="NotificationImportanceDefaultNoSound">Vibrate</string>
+  <string name="NotificationImportanceDefaultMuted">Silent</string>
+  <string name="NotificationImportanceLow">Silent</string>
+  <string name="NotificationImportanceLowMuted">Silent (lower priority)</string>
+  <string name="NotificationImportanceMin">Silent and minimised</string>
+  <string name="NotificationImportanceNone">Disabled</string>
+
+  <string name="xExceptions_one">%1$s exception</string>
+  <string name="xExceptions_other">%1$s exceptions</string>
+
+  <string name="NotificationsBlockedAll">All notifications from Telegram are blocked by system.</string>
+  <string name="EventNewContact2">New Contacts Notification</string>
+
+  <string name="NotificationsSetting">Notifications</string>
+  <string name="NotificationsSettingOn">Notifications are enabled by default. You can mute specific chats from the chats list.</string>
+  <string name="NotificationsSettingBlocked">Notifications are blocked by default. Change Notification Style value to unblock them.</string>
+  <string name="NotificationsSettingOff">Notifications are disabled by default. You can unmute specific chats from the chats list.</string>
+
+  <string name="ShowSecret">Secret Chats on Lock Screen</string>
+  <string name="ShowSecretOn">Turn off to hide secret chat notifications when device is locked. You will still receive sound, if device is not muted.</string>
+  <string name="ShowSecretOff">Turn on to display secret chat notifications when device is locked. This doesn\'t reveal the contents of messages.</string>
+
+  <string name="HideSecret">Hide on Lock Screen</string>
+  <string name="HideSecretOn">Turn off to display secret chat notifications when device is locked. This doesn\'t reveal the contents of messages.</string>
+  <string name="HideSecretOff">Turn on to hide secret chat notifications when device is locked. You will still receive sound, if device is not muted.</string>
+
+  <string name="ResetNotificationsConfirm">Reset all notification settings, including custom notification settings for your contacts, groups and channels?</string>
+
+  <string name="NotificationsGuideBlockedApp">Notifications from Telegram are blocked in system settings. Tap System Notification Settings to unblock them.</string>
+  <string name="NotificationsGuideBlockedCategory">Notifications for current account are disabled in system settings.\n\nTo enable notifications:\n• Tap System Notification Settings\n• Find «%1$s» notification category.\n• Turn toggle on to unblock notifications.</string>
+  <string name="NotificationsGuideBlockedAll">Notifications from Telegram are blocked in system settings.\n\nTo enable notifications:\n• Tap System Notification Settings\n• Turn «Show Notifications» toggle on.</string>
+  <string name="NotificationsGuideSyncGlobalOff">You have data sync turned off in system settings. Notifications may not arrive when app is closed.\n\nData sync may be implicitly turned off by the battery optimization mode on your device.</string>
+  <string name="NotificationsGuideSyncAppOff">You have data sync turned off for Telegram X. Notifications may not arrive when app is closed.\n\nData sync may be implicitly turned off by the battery optimization mode on your device.</string>
+  <string name="TurnSyncOnApp">Turn on data sync</string>
+  <string name="TurnSyncOnSystem">Turn on data sync</string>
+
+  <string name="LanguageSame">You are already using this language pack (**%1$s**). You can change your language at any time in Settings.</string>
+  <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform](%3$s).\n\nYou can change your language back at any time in Settings.</string>
+  <string name="LanguageCustomAlert">You are about to apply a custom language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform](%3$s).\n\nYou can change your language back at any time in Settings.</string>
+  <string name="LanguageChange">Change Language</string>
+  <string name="LanguageChangeSuccess">Language successfully changed</string>
+  <string name="LanguageDelete">Remove Language</string>
+  <string name="LanguageDeleteConfirm">Are you sure you want to delete this language?\n\n%1$s / %2$s will no longer be available in the languages list.\n\nYou can return it back later by following this link:\n%3$s</string>
+
+  <string name="RecoveryEmailSent">We have sent you an email to confirm your address.</string>
+  <string name="ResendRecoveryEmailCode">Resend code</string>
+  <string name="AbortPasswordConfirm">Are you sure you want to abort Two-Step Verification setup?</string>
+  <string name="CheckYourVerificationEmail2">To complete recovery email setup, check %1$s (don\'t forget the spam folder) and enter the code we just sent you.</string>
+
+  <string name="TestMode">Testing Utilities</string>
+  <string name="TestModeWarn">**Warning**: Testing Utilities are available for **testing** and **debugging** purposes **only**. None of them are guaranteed to work.\n\nDo not use them, unless you know what you are doing.</string>
+  <string name="CopyVersion">Copy Version</string>
+
+  <string name="AppLogs">Application Logs</string>
+
+  <string name="CreatePoll">New Poll</string>
+  <string name="RetractVote">Retract Vote</string>
+  <string name="StopPoll">Stop Poll</string>
+
+  <string name="SecretChatForwardError">This message cannot be forwarded to secret chats.</string>
+
+  <string name="StopPollWarn">If you stop this poll now, nobody will be able to vote in it anymore.\n\nThis action cannot be undone.</string>
+
+  <string name="PollPreview">Poll: %1$s</string>
+  <string name="PollQuestion">Question</string>
+  <string name="PollQuestionEmpty">Ask a Question</string>
+  <string name="PollOption">Option</string>
+  <string name="PollOptions">Poll options</string>
+  <string name="PollDiscard">Discard Poll</string>
+  <string name="PollDiscardPrompt">Are you sure you want to discard this poll?</string>
+  <string name="PollOptionsAdd">Add an option…</string>
+  <string name="PollOptionsLimit_one">You can add %1$s more option</string>
+  <string name="PollOptionsLimit_other">You can add %1$s more options</string>
+  <string name="PollOptionsMax">You have added the maximum number of options.</string>
+
+  <string name="PollAnonymous">Anonymous Poll</string>
+  <string name="PollResults">Final Results</string>
+
+  <string name="xVotes_one">%1$s vote</string>
+  <string name="xVotes_other">%1$s votes</string>
+  <string name="NoVotes">No votes</string>
+
+  <string name="NotificationSyncOffWarn">**Want notifications for new messages?**\n\nTurn on system auto sync to get notifications while app is closed.</string>
+  <string name="NeverShowAgain">Never show again</string>
+  <string name="NotificationSyncAccept">Turn on</string>
+  <string name="NotificationSyncDecline">No, thanks</string>
 
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-
-  
-
-  
-  
-  
-
   
   
 
@@ -2462,6 +2528,14 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
+  <string name="NotificationMutedPersons_zero">Muted %1$s people for 1 hour</string>
+  <string name="NotificationMutedPersons_two">Muted %1$s people for 1 hour</string>
+  <string name="NotificationMutedPersons_few">Muted %1$s people for 1 hour</string>
+  <string name="NotificationMutedPersons_many">Muted %1$s people for 1 hour</string>
+  <string name="PollOptionsLimit_zero">You can add %1$s more options</string>
+  <string name="PollOptionsLimit_two">You can add %1$s more options</string>
+  <string name="PollOptionsLimit_few">You can add %1$s more options</string>
+  <string name="PollOptionsLimit_many">You can add %1$s more options</string>
   <string name="RemoveXMasks_zero">Remove %1$s masks</string>
   <string name="RemoveXMasks_two">Remove %1$s masks</string>
   <string name="RemoveXMasks_few">Remove %1$s masks</string>
@@ -2648,6 +2722,10 @@
   <string name="xCalls_two">%1$s calls</string>
   <string name="xCalls_few">%1$s calls</string>
   <string name="xCalls_many">%1$s calls</string>
+  <string name="xChannels_zero">%1$s channels</string>
+  <string name="xChannels_two">%1$s channels</string>
+  <string name="xChannels_few">%1$s channels</string>
+  <string name="xChannels_many">%1$s channels</string>
   <string name="xChats_zero">%1$s chats</string>
   <string name="xChats_two">%1$s chats</string>
   <string name="xChats_few">%1$s chats</string>
@@ -2676,6 +2754,10 @@
   <string name="xDaysShort_two">%1$sd</string>
   <string name="xDaysShort_few">%1$sd</string>
   <string name="xDaysShort_many">%1$sd</string>
+  <string name="xExceptions_zero">%1$s exceptions</string>
+  <string name="xExceptions_two">%1$s exceptions</string>
+  <string name="xExceptions_few">%1$s exceptions</string>
+  <string name="xExceptions_many">%1$s exceptions</string>
   <string name="xFiles_zero">%1$s files</string>
   <string name="xFiles_two">%1$s files</string>
   <string name="xFiles_few">%1$s files</string>
@@ -2848,6 +2930,10 @@
   <string name="xVoiceMessages_two">%1$s voice messages</string>
   <string name="xVoiceMessages_few">%1$s voice messages</string>
   <string name="xVoiceMessages_many">%1$s voice messages</string>
+  <string name="xVotes_zero">%1$s votes</string>
+  <string name="xVotes_two">%1$s votes</string>
+  <string name="xVotes_few">%1$s votes</string>
+  <string name="xVotes_many">%1$s votes</string>
   <string name="xWallpapers_zero">%1$s wallpapers</string>
   <string name="xWallpapers_two">%1$s wallpapers</string>
   <string name="xWallpapers_few">%1$s wallpapers</string>

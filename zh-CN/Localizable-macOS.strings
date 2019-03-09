@@ -1481,7 +1481,7 @@
 "FastSettings.LockTelegram" = "锁定 Telegram";
 "FastSettings.Mute2Hours" = "免打扰 2 小时";
 "FastSettings.Unmute" = "取消免打扰";
-"FastSettings.SetPasscode" = "设置密码";
+"FastSettings.SetPasscode" = "设置锁定码";
 
 "GeneralSettings.AppearanceSettings" = "显示设置";
 
@@ -2801,7 +2801,7 @@
 
 
 "LogoutOptions.Title" = "注销";
-"LogoutOptions.AlternativeOptionsSection" = "其他选项";
+"LogoutOptions.AlternativeOptionsSection" = "其它选项";
 "LogoutOptions.AddAccountTitle" = "添加另一个帐户";
 "LogoutOptions.AddAccountText" = "关联其他 Telegram 帐户并随时切换。";
 "LogoutOptions.SetPasscodeTitle" = "设置锁定码";

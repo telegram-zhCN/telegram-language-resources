@@ -57,7 +57,7 @@
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">、</string>
-  <string name="format_concatSeparatorLast">和</string>
+  <string name="format_concatSeparatorLast">" 和 "</string>
   <string name="format_numberSuffix_thousand">K</string>
   <string name="format_numberSuffix_million">M</string>
   <string name="format_numberSuffix_billion">B</string>
@@ -118,6 +118,8 @@
   <string name="xOnline_other">%1$s 人在线</string>
   
   <string name="xGroups_other">%1$s 个群组</string>
+  
+  <string name="xChannels_other">%1$s 个频道</string>
   
   <string name="xWebsites_other">%1$s 个网站</string>
   
@@ -246,7 +248,8 @@
   <string name="SelectChat">选择对话</string>
   <string name="Message">输入消息</string>
   <string name="DeletedMessage">消息已被删除</string>
-  <string name="UnsupportedMessage">尚未支持的消息</string>
+  <string name="UnsupportedMessage">此消息类型尚未支持</string>
+  <string name="UnsupportedMessageType">此消息类型尚未支持</string>
   <string name="YouHaveNewMessage">您有一条新消息</string>
   <string name="ChatContentWithCaption">%1$s: %2$s</string>
   <string name="ChatContentVoice">语音留言</string>
@@ -341,6 +344,7 @@
   <string name="ChannelName">频道名称</string>
   <string name="ServiceNotifications">通知服务</string>
   <string name="Bot">机器人</string>
+  <string name="Support">支持</string>
   <string name="deletedUser">已销号用户</string>
   <string name="unknownUser">未知的用户</string>
   <string name="BotStatusRead">可以访问消息</string>
@@ -479,7 +483,7 @@
   <string name="SecretLinkPreviewEnable">启用</string>
   <string name="AirplaneModeDisable">禁用</string>
   <string name="EditName">编辑名称</string>
-  <string name="Stickers">贴纸</string>
+  <string name="Stickers">贴纸与装饰</string>
   <string name="NoAppToOpen">未找到可打开此文件的应用</string>
   <string name="CopyLine">复制 行</string>
   <string name="TextNotLoadedHint">请等待文本加载完毕</string>
@@ -591,12 +595,12 @@
   <string name="Done">完成</string>
   <string name="Off">关闭</string>
   <string name="Chats">聊天</string>
-  <string name="Notifications">通知</string>
+  <string name="Notifications">通知与提醒</string>
   <string name="NotificationsEnabled">启用</string>
   
   
   <string name="NotificationsDisabled">关闭</string>
-  <string name="PrivacySettings">隐私和安全</string>
+  <string name="PrivacySettings">隐私与安全</string>
   <string name="AskAQuestion">向我们提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="HideForYourself">暂时对自己隐藏</string>
@@ -642,7 +646,7 @@
   <string name="GroupsAndChannels">群组和频道</string>
   <string name="SecurityTitle">安全</string>
   <string name="SessionsTitle">活动会话</string>
-  
+  <string name="SessionsIncompleteTitle">未完成的登录尝试</string>
   
   <string name="TwoStepVerification">两步验证</string>
   <string name="PasswordEnabled">启用</string>
@@ -653,9 +657,9 @@
   <string name="TerminateAllSessions">注销除本机外所有设备</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
   <string name="TerminateSessionQuestion">注销此会话？</string>
-  
+  <string name="TerminateIncompleteSessionQuestion">要终止这次登录吗？</string>
   <string name="TerminateSession">注销会话</string>
-  
+  <string name="TerminateIncompleteSession">终止此尝试</string>
   <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
   <string name="Everybody">所有人</string>
   <string name="MyContacts">我的联系人</string>
@@ -679,6 +683,7 @@
   <string name="SetRecoveryEmail">设置恢复邮箱</string>
   <string name="ChangeRecoveryEmail">更改恢复邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
+  
   <string name="YourPassword">您的密码</string>
   <string name="EnterAPassword">请输入密码</string>
   <string name="ReEnterAPassword">请再次输入密码</string>
@@ -713,7 +718,7 @@
   <string name="EmailMatchesOldOne">新的电子邮箱地址与旧地址相同。</string>
   <string name="Hint">提示： %1$s</string>
   <string name="PrivateChats">私聊</string>
-  
+  <string name="PrivateChatsMentions">私聊与提及</string>
   <string name="MessagePreview">消息预览</string>
   <string name="Vibrate">振动</string>
   <string name="VibrateDisabled">关闭</string>
@@ -818,6 +823,7 @@
   <string name="ActionPinnedGame">%1$s 置顶了 %2$s</string>
   <string name="ActionPinnedNoText">%1$s 置顶了一条**消息**</string>
   <string name="ActionPinnedGeo">%1$s 置顶了一个**位置**</string>
+  <string name="ActionPinnedPoll">%1$s 置顶了一项**投票**</string>
   <string name="ActionPinnedGeoLive">%1$s 置顶了一个**实时位置**</string>
   <string name="ActionPinnedSticker">%1$s 置顶了一张**贴纸**</string>
   <string name="ActionPinnedGif">%1$s 置顶了一个 **GIF**</string>
@@ -876,10 +882,10 @@
   <string name="Group">群组</string>
   <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="RenameContact">重命名联系人</string>
-  <string name="Themes">主题</string>
-  <string name="ThemeSettings">主题和对话</string>
-  <string name="Tweaks">界面设置</string>
-  <string name="TweakSettings">界面</string>
+  <string name="Themes">主题与样式</string>
+  <string name="ThemeSettings">主题与样式</string>
+  <string name="Tweaks">界面与交互</string>
+  <string name="TweakSettings">界面与交互</string>
   <string name="ThemeClassic">经典</string>
   <string name="ThemeBlue">蓝色</string>
   <string name="ThemeNight">暗黑</string>
@@ -1400,7 +1406,7 @@
   <string name="HoldToAudio">按住来录制音频。点击切换为拍摄视频。</string>
   <string name="HoldToVideo">按住来拍摄视频。点击切换为录制音频。</string>
   <string name="SecretChatFeatureUnsupported">%1$s 的 Telegram 客户端不支持此项功能，请其先更新客户端后再试。</string>
-  <string name="UseHqRoundVideos">录制高清视频消息</string>
+  <string name="UseHqRoundVideos">使用高清画质</string>
   <string name="DiscardVideoMessageTitle">放弃录制留言</string>
   <string name="DiscardVideoMessageDescription">你确定要放弃刚录制的视频留言吗？</string>
   <string name="Discard">丢弃</string>
@@ -1482,6 +1488,7 @@
   <string name="ChatAccessPrivateChannel">此频道为私人频道</string>
   <string name="YouCantInviteMembers">您无法邀请新成员加入此群组</string>
   <string name="RecoveryCodeSent">我们已经将六位数字恢复码发送至您的邮箱 (%1$s)。请查阅您的邮件并将验证码输入到此处。</string>
+  
   <string name="RecoveryCodeSentEmailUnknown">我们给您发送了一个六位数字恢复码。请查阅您的电子邮箱并将验证码输入到此处。</string>
   <string name="RestoreEmailTroubleUnknown">无法访问您的电子邮箱？</string>
   <string name="VoipInCallBranding">Telegram Call</string>
@@ -1517,7 +1524,7 @@
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   
-  
+  <string name="NotificationChannelCommonChannels">恢复所有频道的默认通知设置。</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
   <string name="NotificationChannelUser">自定义 %1$s 的消息及提及。</string>
   <string name="NotificationChannelGroupChat">针对群组 «%1$s» 的自定义通知设置</string>
@@ -1534,7 +1541,7 @@
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
-  
+  <string name="PrivacyCallsP2PTitle2">通话端对端连接</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>
@@ -1977,18 +1984,18 @@
   <string name="SignOutHint">您确定要注销 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="SignOutAlt">其它选项</string>
+  <string name="SignOutAltAddAccount">添加另一个帐户</string>
+  <string name="SignOutAltAddAccountHint">登录其他 Telegram 帐户并在它们之间轻松切换。</string>
+  <string name="SignOutAltPasscode">设置锁定码</string>
+  <string name="SignOutAltPasscodeHint">用屏幕锁定码保护您的隐私信息。</string>
+  <string name="SignOutAltClearCache">清空缓存</string>
+  <string name="SignOutAltClearCacheHint">释放设备上的空间；您的媒体文件仍会保存在云端。</string>
+  <string name="SignOutAltChangeNumber">更改手机号码</string>
+  <string name="SignOutAltChangeNumberHint">将您的帐号、聊天信息和媒体文件转移到新手机号上。</string>
+  <string name="SignOutAltHelp">联系志愿者客服</string>
+  <string name="SignOutAltHelpHint">如果有问题，请告诉我们；注销无助于解决问题。</string>
+  <string name="SignOutAltHint">退出登录将会销毁所有的加密聊天记录。</string>
 
   <string name="TdlibLogs">TDLib 日志</string>
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
@@ -2164,6 +2171,7 @@
   <string name="ShareTextProxyLink2">%1$s\n\n此链接可能有助于在存在审查的地区访问 Telegram。</string>
   <string name="ShareTextStickerLink">查看 Telegram 上的 «%1$s» 贴纸包：%2$s</string>
   <string name="ShareTextStickerLink2">查看 «%1$s» 贴纸包：%2$s</string>
+  
 
   <string name="ShareTitleText">分享到...</string>
 
@@ -2212,6 +2220,7 @@
   <string name="ShareBtnMessage">分享消息</string>
   <string name="ShareBtnBot">分享机器人</string>
   <string name="ShareBtnProxy">分享代理</string>
+  <string name="ShareBtnLanguage">分享语言包</string>
   <string name="ShareBtnStickerSet">分享贴纸</string>
 
   <string name="ShareContact">分享联系人</string>
@@ -2233,8 +2242,8 @@
   
   
   
-  
-  
+  <string name="NotificationRead">标记为已读</string>
+  <string name="NotificationReadMentions">标记为已读</string>
 
   <!--<string name="ActionMuteHours_one">Mute for %1$sh</string>
   <string name="ActionMuteHours_other">Mute for %1$sh</string>
@@ -2254,7 +2263,7 @@
 
   <string name="OpenCloudChat">打开普通对话</string>
 
-  
+  <string name="SystemNotificationSettings">系统通知设置</string>
   <string name="BadgeCounter">未读消息数量提示</string>
   <string name="BadgeCounterMuted">包含已关闭通知的对话</string>
   <string name="BadgeCounterMessages">按消息数统计未读</string>
@@ -2280,11 +2289,7 @@
   
   
 
-  
-  
-  
-
-  
+  <string name="NotificationMerge">合并同类通知</string>
   
   
 
@@ -2295,11 +2300,15 @@
   
   
   
-  
+
+  <string name="CategoryPrivate">私聊</string>
+  <string name="CategorySecret">加密对话</string>
+  <string name="CategoryGroup">群组</string>
+  <string name="CategoryChannels">频道</string>
 
   
 
-  
+  <string name="NotificationAdvanced">高级</string>
 
   
   
@@ -2310,7 +2319,7 @@
 
   
   
-  
+  <string name="NotificationImportanceHighNoSound">振动与弹窗</string>
   
   
   
@@ -2324,7 +2333,76 @@
   
 
   
+  <string name="EventNewContact2">联系人加入 Telegram</string>
+
+  <string name="NotificationsSetting">通知与提醒</string>
   
+  
+  
+
+  
+  
+  
+
+  <string name="HideSecret">在锁屏界面上隐藏</string>
+  
+  
+
+  
+
+  <string name="NotificationsGuideBlockedApp">您在系统设置中关闭了 Telegram 的通知权限。请点按 “系统通知设置” 来开启它。</string>
+  
+  
+  
+  
+  <string name="TurnSyncOnApp">打开数据同步</string>
+  <string name="TurnSyncOnSystem">打开数据同步</string>
+
+  
+  
+  
+  
+  <string name="LanguageChangeSuccess">语言已成功更改</string>
+  
+  
+
+  <string name="RecoveryEmailSent">我们已经发送给您一封电子邮件来确认您的邮箱地址。</string>
+  <string name="ResendRecoveryEmailCode">重新发送验证码</string>
+  <string name="AbortPasswordConfirm">您确定要终止两步验证设置？</string>
+  
+
+  <string name="TestMode">测试工具</string>
+  
+  <string name="CopyVersion">复制版本号</string>
+
+  <string name="AppLogs">应用日志</string>
+
+  <string name="CreatePoll">发起投票</string>
+  <string name="RetractVote">撤回我的投票</string>
+  
+
+  <string name="SecretChatForwardError">您无法将此消息转发到加密对话中。</string>
+
+  <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
+
+  
+  <string name="PollQuestion">问题</string>
+  <string name="PollQuestionEmpty">请输入问题</string>
+  <string name="PollOption">选项</string>
+  <string name="PollOptions">候选项</string>
+  <string name="PollDiscard">放弃发起投票</string>
+  <string name="PollDiscardPrompt">您确定要放弃发起新投票吗？</string>
+  <string name="PollOptionsAdd">添加一个选项...</string>
+  
+  <string name="PollOptionsLimit_other">您还可以添加 %1$s 个选项</string>
+  <string name="PollOptionsMax">您添加的选项已达最大数量。</string>
+
+  <string name="PollAnonymous">匿名投票</string>
+  <string name="PollResults">最终结果</string>
+
+  
+  <string name="xVotes_other">%1$s 人已投票</string>
+  <string name="NoVotes">无人投票</string>
 
   
   
@@ -2333,18 +2411,6 @@
 
   
   
-  
-
-  
-  
-  
-
-  
-
-  
-  
-  
-
   
   
 

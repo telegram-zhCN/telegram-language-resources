@@ -1369,7 +1369,7 @@
     <string name="NotificationsForPrivateChats">私聊通知</string>
     <string name="NotificationsForChannels">频道通知</string>
     <string name="TapToChange">点按更改</string>
-    <string name="AlternativeOptions">其他选项</string>
+    <string name="AlternativeOptions">其它选项</string>
     <string name="AddAnotherAccount">添加另一个帐户</string>
     <string name="AddAnotherAccountInfo">登录其他 Telegram 帐户并在它们之间轻松切换。</string>
     <string name="SetPasscode">设置锁定码</string>
