@@ -515,7 +515,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_connection_proxy_connecting" = "正在通过代理连接...";
 "lng_connection_proxy" = "通过代理的 {transport} ";
 "lng_connection_header" = "连接类型";
-"lng_connection_auto_rb" = "自动（默认使用TCP或HTTP）";
+"lng_connection_auto_rb" = "自动（默认使用 TCP 或 HTTP）";
 "lng_connection_http_proxy_rb" = "通过 HTTP 代理";
 "lng_connection_tcp_proxy_rb" = "通过 SOCKS5 代理";
 "lng_connection_try_ipv6" = "尝试通过 IPv6 连接";
@@ -585,7 +585,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_title" = "已屏蔽的用户";
 "lng_blocked_list_unknown_phone" = "未知号码";
 "lng_blocked_list_unblock" = "取消屏蔽";
-"lng_blocked_list_restart" = "重启";
+"lng_blocked_list_restart" = "重新启用";
 "lng_blocked_list_add" = "屏蔽此用户";
 "lng_blocked_list_add_title" = "选择要屏蔽的用户";
 "lng_blocked_list_already_blocked" = "已被屏蔽";
@@ -1034,7 +1034,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_video_messages_title" = "视频留言";
 "lng_media_file_title" = "文件";
 "lng_media_music_title" = "音乐";
-"lng_media_animation_title" = "GIF 动画";
+"lng_media_animation_title" = "GIF";
 "lng_media_size_limit" = "文件大小限制";
 "lng_media_size_up_to" = "不超过 {size}";
 "lng_media_chat_background" = "聊天窗口背景图";
@@ -1418,7 +1418,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_confirm_phone_link_invalid" = "这个链接已损坏或已过期。";
 "lng_confirm_phone_title" = "撤销帐号重置请求";
-"lng_confirm_phone_about" = "一位有权访问您的电话号码  {phone} 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。";
+"lng_confirm_phone_about" = "一位有权访问您的电话号码 {phone} 的人请求删除您的 Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。";
 "lng_confirm_phone_success" = "成功！\n您的账号 {phone} 的删除请求已经被撤销。您现在可以关闭这个窗口。";
 "lng_confirm_phone_send" = "发送";
 "lng_confirm_phone_enter_code" = "请输入验证码。";

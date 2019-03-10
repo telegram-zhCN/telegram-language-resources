@@ -916,7 +916,7 @@
 // Photo Editor
 "PhotoEditor.DiscardChanges" = "放弃更改";
 
-"PhotoEditor.Original" = "原图";
+"PhotoEditor.Original" = "原始比例";
 
 "PhotoEditor.CropReset" = "还原";
 "PhotoEditor.CropAuto" = "自动";

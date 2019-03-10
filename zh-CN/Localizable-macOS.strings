@@ -2453,7 +2453,7 @@
 
 
 "SelectAreaControl.Dimension.None" = "无";
-"SelectAreaControl.Dimension.Original" = "原图";
+"SelectAreaControl.Dimension.Original" = "原始比例";
 "SelectAreaControl.Dimension.Square" = "正方形";
 
 "Td7-aD-5lo.title" = "窗口";

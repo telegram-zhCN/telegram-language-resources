@@ -1765,7 +1765,7 @@
     <string name="PaintOutlined">描边</string>
     <string name="PaintRegular">标准</string>
     <string name="CropReset">重置</string>
-    <string name="CropOriginal">原图</string>
+    <string name="CropOriginal">原始比例</string>
     <string name="CropSquare">正方形</string>
     <string name="SinglePhotosHelp">将媒体文件分开发送</string>
     <string name="GroupPhotosHelp">将媒体聚合至一条消息</string>

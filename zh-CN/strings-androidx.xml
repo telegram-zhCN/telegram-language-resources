@@ -1421,8 +1421,8 @@
   <string name="ChatHistoryHidden">不可见</string>
   <string name="ChatHistoryVisible">可见</string>
   <string name="DiscardCurrentChanges">放弃当前更改？</string>
-  <string name="CropFree">免费</string>
-  <string name="CropOriginal">原图</string>
+  <string name="CropFree">自由</string>
+  <string name="CropOriginal">原始比例</string>
   <string name="UseRearRoundVideos">默认使用后置摄像头</string>
   <string name="EMail">电子邮箱</string>
   <string name="Beginning">起始日期</string>
@@ -2293,7 +2293,7 @@
   
   
 
-  
+  <string name="MentionsDefault">默认</string>
   
   
 
@@ -2361,7 +2361,7 @@
   
   
   
-  
+  <string name="LanguageChange">更改语言</string>
   <string name="LanguageChangeSuccess">语言已成功更改</string>
   
   
@@ -2405,7 +2405,7 @@
   <string name="NoVotes">无人投票</string>
 
   
-  
+  <string name="NeverShowAgain">不再显示</string>
   
   
 
