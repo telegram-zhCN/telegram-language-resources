@@ -2283,10 +2283,10 @@
 
   <string name="Prioritize">Personal Notifications</string>
 
-  <string name="PinnedMessagesOff">Switch off to apply group notification settings when someone pins a message. You will receive no notification, if group is muted.</string>
+  <string name="PinnedMessagesOff">Switch off to apply group notification settings when someone pins a message. You will receive no notification if the group is muted.</string>
   <string name="PinnedMessagesOn">Switch on to apply private notification settings when someone pins a message. You will receive no notification, if message author is muted.</string>
 
-  <string name="MentionsOff">Switch off to apply group notification settings to mentions and replies. You will receive no notification, if group is muted.</string>
+  <string name="MentionsOff">Switch off to apply group notification settings to mentions and replies. You will receive no notifications if the group is muted.</string>
   <string name="MentionsOn">Switch on to apply private notification settings to mentions and replies. You will receive no notification, if message author is muted.</string>
 
   <string name="NotificationMerge">Merge notification categories</string>
