@@ -598,7 +598,7 @@
   <string name="Notifications">通知与提醒</string>
   <string name="NotificationsEnabled">启用</string>
   
-  
+  <string name="NotificationsBlocked">已屏蔽</string>
   <string name="NotificationsDisabled">关闭</string>
   <string name="PrivacySettings">隐私与安全</string>
   <string name="AskAQuestion">向我们提问</string>
@@ -2273,8 +2273,8 @@
   <string name="NotificationsGroupInfo">您可以在特定的群组信息界面中设置针对他们的通知策略。</string>
   <string name="NotificationsChannelInfo">您可以在特定的频道信息界面中设置针对他们的通知策略。</string>
   <string name="AppBadgeHint">在应用图标上显示未读消息数。在部分设备上可能无法显示。\n\n无论设置如何，系统都可能在播放音乐或进行通话时显示额外的消息计数。</string>
-  
-  
+  <string name="IncludeDismissed">包括错过的消息</string>
+  <string name="IncludeDismissedHintOn">切换来开启在新通知中包括会话中错过的未读消息</string>
   
   <string name="Groups">群组</string>
   <string name="Channels">频道</string>
@@ -2297,7 +2297,7 @@
   
   
 
-  
+  <string name="PinnedDefault">默认</string>
   
   
 
@@ -2317,7 +2317,7 @@
 
   
 
-  
+  <string name="NotificationImportance">通知风格</string>
   
   <string name="NotificationImportanceHighNoSound">振动与弹窗</string>
   
@@ -2332,7 +2332,7 @@
   
   
 
-  
+  <string name="NotificationsBlockedAll">系统屏蔽了来自Telegram的所有通知。</string>
   <string name="EventNewContact2">联系人加入 Telegram</string>
 
   <string name="NotificationsSetting">通知与提醒</string>
@@ -2340,7 +2340,7 @@
   
   
 
-  
+  <string name="ShowSecret">在锁定屏幕上显示加密会话</string>
   
   
 
@@ -2348,7 +2348,7 @@
   
   
 
-  
+  <string name="ResetNotificationsConfirm">重置所有通知设置,包括对你对联系人,群组和频道通知的自定义设置</string>
 
   <string name="NotificationsGuideBlockedApp">您在系统设置中关闭了 Telegram 的通知权限。请点按 “系统通知设置” 来开启它。</string>
   
@@ -2363,7 +2363,7 @@
   
   <string name="LanguageChange">更改语言</string>
   <string name="LanguageChangeSuccess">语言已成功更改</string>
-  
+  <string name="LanguageDelete">移除语言包</string>
   
 
   <string name="RecoveryEmailSent">我们已经发送给您一封电子邮件来确认您的邮箱地址。</string>
@@ -2379,7 +2379,7 @@
 
   <string name="CreatePoll">发起投票</string>
   <string name="RetractVote">撤回我的投票</string>
-  
+  <string name="StopPoll">终止投票</string>
 
   <string name="SecretChatForwardError">您无法将此消息转发到加密对话中。</string>
 
@@ -2406,7 +2406,7 @@
 
   
   <string name="NeverShowAgain">不再显示</string>
-  
+  <string name="NotificationSyncAccept">启用</string>
   
 
   

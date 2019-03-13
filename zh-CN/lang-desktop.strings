@@ -436,7 +436,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_round#other" = "{count} 条视频留言";
 
 "lng_local_storage_animation#other" = "{count} 张 GIF 图片";
+"lng_local_storage_media" = "媒体缓存";
 "lng_local_storage_size_limit" = "缓存文件大小上限：{size}";
+"lng_local_storage_media_limit" = "媒体缓存限制: {size}";
 "lng_local_storage_time_limit" = "自动清除 {limit}前的缓存文件";
 
 "lng_local_storage_limit_weeks#other" = "{count} 周";
@@ -1000,6 +1002,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forwarded_via" = "转发自 {user} 通过 {inline_bot}";
 "lng_forwarded_channel_via" = "转发自 {channel} 通过 {inline_bot}";
 "lng_forwarded_signed" = "{channel} ({user})";
+"lng_signed_author" = "作者: {user}";
 "lng_in_reply_to" = "回复";
 "lng_edited" = "已编辑";
 "lng_edited_date" = "编辑时间：{date} ";
@@ -1094,6 +1097,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_stickers_count#other" = "{count} 张贴纸";
 "lng_stickers_masks_pack" = "这是一个装饰包。您可以在 Telegram 移动端的照片编辑器里使用它。";
+
 "lng_stickers_group_set" = "群组贴纸包";
 "lng_stickers_remove_group_set" = "删除群组贴纸包？";
 "lng_stickers_group_from_your" = "从已经安装的贴纸包中选择";
@@ -1255,6 +1259,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_copy_text" = "复制文本";
 "lng_context_open_gif" = "打开 GIF";
 "lng_context_save_gif" = "保存到 GIF 库";
+
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";
@@ -1487,6 +1492,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_player_message_today" = "今天 {time}";
 "lng_player_message_yesterday" = "昨天 {time}";
 "lng_player_message_date" = "{date} {time}";
+//"lng_player_cant_stream" = "This file can't be played before it is fully downloaded.\n\nWould you like to download it?";
+
 
 "lng_rights_edit_admin" = "编辑权限";
 "lng_rights_edit_admin_header" = "这位管理员可以做什么？";
