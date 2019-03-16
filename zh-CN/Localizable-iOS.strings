@@ -1819,7 +1819,7 @@
 "Privacy.GroupsAndChannels.CustomHelp" = "您可以精确控制其他人能否邀请您进入任意群组或频道。";
 "Privacy.GroupsAndChannels.AlwaysAllow" = "总是允许";
 "Privacy.GroupsAndChannels.NeverAllow" = "从不允许";
-"Privacy.GroupsAndChannels.CustomShareHelp" = "在这里配置的权限将会覆盖全局设置。";
+"Privacy.GroupsAndChannels.CustomShareHelp" = "无论上面如何设置，这些用户将能或不能将您添加到群组或频道。";
 
 "Privacy.GroupsAndChannels.AlwaysAllow.Title" = "总是允许";
 "Privacy.GroupsAndChannels.AlwaysAllow.Placeholder" = "总是允许...";
@@ -2411,7 +2411,7 @@ Unused sets are archived when you add more.";
 "Privacy.Calls.CustomHelp" = "你可以限制其他人和你语音通话的权限";
 "Privacy.Calls.AlwaysAllow" = "总是允许";
 "Privacy.Calls.NeverAllow" = "从不允许";
-"Privacy.Calls.CustomShareHelp" = "无论上面如何设置，这些用户将能够或不能呼叫您。";
+"Privacy.Calls.CustomShareHelp" = "无论上面如何设置，这些用户都能或者不能呼叫您。";
 
 "Privacy.Calls.AlwaysAllow.Title" = "总是允许";
 "Privacy.Calls.AlwaysAllow.Placeholder" = "总是允许...";

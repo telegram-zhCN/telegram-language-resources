@@ -616,7 +616,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_header" = "谁可以邀请您到群组或频道";
 "lng_edit_privacy_groups_always_empty" = "总是允许";
 "lng_edit_privacy_groups_never_empty" = "从不允许";
-"lng_edit_privacy_groups_exceptions" = "在这里配置的特例将会覆盖上面的全局设置。";
+"lng_edit_privacy_groups_exceptions" = "无论上面如何设置，这些用户将能或不能将您添加到群组或频道。";
 "lng_edit_privacy_groups_always_title" = "总是允许";
 "lng_edit_privacy_groups_never_title" = "从不允许";
 
@@ -624,7 +624,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_calls_header" = "谁可以呼叫你";
 "lng_edit_privacy_calls_always_empty" = "总是允许";
 "lng_edit_privacy_calls_never_empty" = "从不允许";
-"lng_edit_privacy_calls_exceptions" = "在这里配置的特例将会覆盖上面的全局设置。";
+"lng_edit_privacy_calls_exceptions" = "无论上面如何设置，这些用户都能或者不能呼叫您。";
 "lng_edit_privacy_calls_always_title" = "总是允许";
 "lng_edit_privacy_calls_never_title" = "从不允许";
 
