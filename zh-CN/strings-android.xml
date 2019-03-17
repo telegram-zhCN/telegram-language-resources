@@ -2163,7 +2163,7 @@
     <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
     <string name="Calls">通话</string>
     <string name="CustomP2PInfo">无论上面如何设置，通话中的端对端连接都会或者不会对这些用户启用。</string>
-    <string name="P2PEnabledWith">使用端对端连接</string>
+    <string name="P2PEnabledWith">对谁启用端对端连接？</string>
     <string name="WhoCanCallMe">谁可以给我打电话？</string>
     <string name="WhoCanCallMeInfo">您可以限制能够给您打电话的人。</string>
     <string name="CustomCallInfo">无论上面如何设置，这些用户都能或者不能呼叫您。</string>
