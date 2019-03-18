@@ -2409,6 +2409,12 @@
   <string name="NotificationSyncAccept">Turn on</string>
   <string name="NotificationSyncDecline">No, thanks</string>
 
+  <string name="LaunchOops">Oops! TDLib %1$s (Build %2$s)</string>
+  <string name="LaunchApp">Launch App</string>
+  
+
+  <!--<string name="BetaPrompt">You are using **beta** version of Telegram X. By continuing using .</string>-->
+
   
   
   
