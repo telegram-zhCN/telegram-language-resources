@@ -3850,6 +3850,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.AddSuccess" = "成功添加例外";
 "GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
 
+
 "Channel.Management.RemovedBy" = "被 %@ 封禁";
 
 "GroupRemoved.Title" = "被封禁的用户";
@@ -3987,20 +3988,16 @@ Unused sets are archived when you add more.";
 "AutoDownloadSettings.Files" = "文件";
 "AutoDownloadSettings.VoiceMessagesInfo" = "由于语音留言体积很小，它们将始终自动下载。";
 "AutoDownloadSettings.ResetSettings" = "重置自动下载设置";
-
 "AutoDownloadSettings.AutodownloadPhotos" = "自动下载图片";
 "AutoDownloadSettings.AutodownloadVideos" = "自动下载视频和 GIF";
 "AutoDownloadSettings.AutodownloadFiles" = "自动下载文件和音乐";
-
 "AutoDownloadSettings.MaxVideoSize" = "视频大小限制";
 "AutoDownloadSettings.MaxFileSize" = "文件大小限制";
-
 "AutoDownloadSettings.DataUsage" = "移动数据使用计划";
 "AutoDownloadSettings.DataUsageLow" = "低";
 "AutoDownloadSettings.DataUsageMedium" = "中";
 "AutoDownloadSettings.DataUsageHigh" = "高";
 "AutoDownloadSettings.DataUsageCustom" = "自定义";
-
 "AutoDownloadSettings.OnForAll" = "对所有对话启用";
 "AutoDownloadSettings.OnFor" = "对 %@ 启用";
 "AutoDownloadSettings.TypeContacts" = "联系人";
@@ -4012,7 +4009,6 @@ Unused sets are archived when you add more.";
 "AutoDownloadSettings.OffForAll" = "对所有对话关闭";
 "AutoDownloadSettings.Delimeter" = "，";
 "AutoDownloadSettings.LastDelimeter" = "和";
-
 "AutoDownloadSettings.PreloadVideo" = "预加载更大的视频";
 "AutoDownloadSettings.PreloadVideoInfo" = "预加载大于 %@ 视频的前几秒钟以便快速回放。";
 
@@ -4042,6 +4038,157 @@ Unused sets are archived when you add more.";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
 "LogoutOptions.LogOut" = "注销";
 "LogoutOptions.LogOutInfo" = "退出登录将会销毁所有的加密聊天记录。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */

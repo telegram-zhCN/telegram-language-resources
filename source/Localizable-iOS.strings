@@ -3850,6 +3850,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.AddSuccess" = "Exception Added";
 "GroupPermission.NotAvailableInPublicGroups" = "This permission is not available in public groups.";
 
+
 "Channel.Management.RemovedBy" = "Removed by %@";
 
 "GroupRemoved.Title" = "Removed Users";
@@ -3987,20 +3988,16 @@ Unused sets are archived when you add more.";
 "AutoDownloadSettings.Files" = "Files";
 "AutoDownloadSettings.VoiceMessagesInfo" = "Voice messages are tiny, they are always downloaded automatically.";
 "AutoDownloadSettings.ResetSettings" = "Reset Auto-Download Settings";
-
 "AutoDownloadSettings.AutodownloadPhotos" = "AUTO-DOWNLOAD PHOTOS";
 "AutoDownloadSettings.AutodownloadVideos" = "AUTO-DOWNLOAD VIDEOS AND GIFS";
 "AutoDownloadSettings.AutodownloadFiles" = "AUTO-DOWNLOAD FILES AND MUSIC";
-
 "AutoDownloadSettings.MaxVideoSize" = "MAXIMUM VIDEO SIZE";
 "AutoDownloadSettings.MaxFileSize" = "MAXIMUM FILE SIZE";
-
 "AutoDownloadSettings.DataUsage" = "DATA USAGE";
 "AutoDownloadSettings.DataUsageLow" = "Low";
 "AutoDownloadSettings.DataUsageMedium" = "Medium";
 "AutoDownloadSettings.DataUsageHigh" = "High";
 "AutoDownloadSettings.DataUsageCustom" = "Custom";
-
 "AutoDownloadSettings.OnForAll" = "On for all chats";
 "AutoDownloadSettings.OnFor" = "On for %@";
 "AutoDownloadSettings.TypeContacts" = "Contacts";
@@ -4012,7 +4009,6 @@ Unused sets are archived when you add more.";
 "AutoDownloadSettings.OffForAll" = "Off for all chats";
 "AutoDownloadSettings.Delimeter" = ", ";
 "AutoDownloadSettings.LastDelimeter" = " and ";
-
 "AutoDownloadSettings.PreloadVideo" = "Preload Larger Videos";
 "AutoDownloadSettings.PreloadVideoInfo" = "Preload the first seconds of videos larger than %@ for instant playback.";
 
@@ -4042,6 +4038,157 @@ Unused sets are archived when you add more.";
 "LogoutOptions.ContactSupportText" = "Tell us about any issues; logging out doesn't usually help.";
 "LogoutOptions.LogOut" = "Log Out";
 "LogoutOptions.LogOutInfo" = "Logging out deactivates all Secret Chats.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
