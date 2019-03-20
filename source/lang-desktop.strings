@@ -1359,7 +1359,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_delete_for_me_hint#one" = "This will delete it just for you.";
 "lng_delete_for_me_hint#other" = "This will delete them just for you.";
 "lng_delete_for_everyone_check" = "Delete for everyone";
-"lng_delete_for_other_check" = "Delete for {user}";
+"lng_delete_for_other_check" = "Also delete for {user}";
 "lng_box_delete" = "Delete";
 "lng_box_leave" = "Leave";
 
