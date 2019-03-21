@@ -3849,7 +3849,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.ApplyAlertAction" = "Apply";
 "GroupPermission.AddSuccess" = "Exception Added";
 "GroupPermission.NotAvailableInPublicGroups" = "This permission is not available in public groups.";
-"GroupPermission.AddMembersNotAvailable" = "You don't have persmission to add members.";
+"GroupPermission.AddMembersNotAvailable" = "You don't have permission to add members.";
 
 "Channel.Management.RemovedBy" = "Removed by %@";
 
@@ -4069,7 +4069,7 @@ Unused sets are archived when you add more.";
 "Privacy.ProfilePhoto.AlwaysShareWith.Title" = "Always Share With";
 "Privacy.ProfilePhoto.NeverShareWith.Title" = "Never Share With";
 
-"Privacy.Forwards.WhoCanForward" = "WHO CAN ADD LINK TO MY ACCOUNT WHEN FORWARDING MY MESSAGES";
+"Privacy.Forwards.WhoCanForward" = "WHO ADDS A LINK TO MY ACCOUNT WHEN FORWARDING MY MESSAGES";
 "Privacy.Forwards.CustomHelp" = "When forwarded to other chats, messages you send will not link back to your account.";
 "Privacy.Forwards.AlwaysAllow.Title" = "Always Allow";
 "Privacy.Forwards.NeverAllow.Title" = "Never Allow";
@@ -4078,8 +4078,8 @@ Unused sets are archived when you add more.";
 
 "Conversation.ForwardAuthorHiddenTooltip" = "The account was hidden by the user";
 
-"Privacy.Forwards.Preview" = "PREVIEW";
-"Privacy.Forwards.PreviewMessageText" = "Reinhardt, we need to find you some new music.";
+"Privacy.Forwards.Preview" = "SAMPLE MESSAGE";
+"Privacy.Forwards.PreviewMessageText" = "Reinhardt, we need to find you some new tunes.";
 "Privacy.Forwards.AlwaysLink" = "Link to your account";
 "Privacy.Forwards.LinkIfAllowed" = "Link if allowed by settings below";
 "Privacy.Forwards.NeverLink" = "Not a link to your account";
@@ -4089,6 +4089,8 @@ Unused sets are archived when you add more.";
 
 "Chat.DeleteMessagesConfirmation_1" = "Delete message";
 "Chat.DeleteMessagesConfirmation_any" = "Delete %@ messages";
+
+"Settings.Search" = "Search";
 
 "SettingsSearch.FAQ" = "FAQ";
 
@@ -4188,6 +4190,11 @@ Unused sets are archived when you add more.";
 "SettingsSearch.Synonyms.Watch" = "Apple Watch";
 "SettingsSearch.Synonyms.Support" = "Support";
 "SettingsSearch.Synonyms.FAQ" = " ";
+
+"ChatList.DeleteForCurrentUser" = "Delete just for me";
+"ChatList.DeleteForEveryone" = "Delete for me and %@";
+
+"ChatList.ClearChatConfirmation" = "Are you sure you want to delete all\nmessages in the chat with %@?";
 
 
 /* new from translations.telegram.org */
