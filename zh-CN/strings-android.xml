@@ -921,6 +921,7 @@
     <string name="SetAdmins">设置管理员</string>
     <string name="BanFromTheGroup">封禁此用户</string>
     <string name="DeleteAndExit">删除并退出群组</string>
+    <string name="DeleteAndExitButton">Delete and Leave Group</string>
     <string name="Notifications">通知</string>
     <string name="ChangePermissions">修改权限</string>
     <string name="KickFromGroup">从群组中移除</string>

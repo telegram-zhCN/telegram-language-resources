@@ -921,6 +921,7 @@
     <string name="SetAdmins">Set admins</string>
     <string name="BanFromTheGroup">BAN FROM THE GROUP</string>
     <string name="DeleteAndExit">Delete and leave group</string>
+    <string name="DeleteAndExitButton">Delete and Leave Group</string>
     <string name="Notifications">Notifications</string>
     <string name="ChangePermissions">Change permissions</string>
     <string name="KickFromGroup">Remove from group</string>
