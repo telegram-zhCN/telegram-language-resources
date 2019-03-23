@@ -2102,6 +2102,7 @@
     <string name="AreYouSureDeleteAndExitName">您确定要删除并退出 **%1$s** 吗？</string>
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
     <string name="AreYouSureDeleteThisChatWithUser">您确定要删除与 **%1$s** 的对话吗？</string>
+    <string name="AreYouSureDeleteThisChatSavedMessages">Are you sure you want to delete **Saved Messages**?</string>
     <string name="AreYouSureDeleteThisChatWithSecretUser">您确定要删除与 **%1$s** 的加密对话吗？</string>
     <string name="AreYouSureDeleteThisChatWithGroup">您确定要删除 %1$s 吗？</string>
     <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
@@ -2124,14 +2125,18 @@
     <string name="AreYouSureClearHistoryWithSecretUser">您确定要清空与 **%1$s** 的加密对话消息记录吗？</string>
     <string name="AreYouSureClearHistoryWithChat">您确定要清空 **%1$s** 的消息记录吗？</string>
     <string name="AreYouSureClearHistory">您确定要清空聊天记录吗？</string>
+    <string name="AreYouSureClearHistorySavedMessages">Are you sure you want to clear **Saved Messages**?</string>
     <string name="AreYouSureClearHistoryChannel">确定删除此频道中所有缓存的消息和媒体文件？</string>
     <string name="AreYouSureClearHistoryGroup">您确定要删除此群组中所有缓存的消息记录和媒体文件吗？</string>
     <string name="DeleteMessagesTitle">Delete %1$s</string>
     <string name="DeleteSingleMessagesTitle">Delete message</string>
+    <string name="DeleteMessagesTextGroupPart">You can also delete the %1$s from the inboxes of other group members by checking \"Delete for all members\".</string>
     <string name="DeleteMessagesTextGroup">You can also delete the %1$s you sent from the inboxes of other group members by checking \"Unsend my messages\".</string>
     <string name="DeleteMessagesText">You can also delete the %1$s you sent from **%2$s**\'s inbox by checking \"Unsend my messages\".</string>
     <string name="AreYouSureDeleteSingleMessage">Are you sure you want to delete this message?</string>
     <string name="AreYouSureDeleteFewMessages">Are you sure you want to delete these messages?</string>
+    <string name="AreYouSureDeleteSingleMessageMega">Are you sure you want to delete this message for everyone?</string>
+    <string name="AreYouSureDeleteFewMessagesMega">Are you sure you want to delete these messages for everyone?</string>
     <string name="DeleteMessagesOption">Unsend My Messages</string>
     <string name="DeleteMessagesOptionAlso">Also delete for %1$s</string>
     <string name="ClearHistoryOptionAlso">Also clear history for %1$s</string>
