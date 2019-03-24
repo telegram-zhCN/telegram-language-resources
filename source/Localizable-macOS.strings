@@ -519,6 +519,9 @@
 "PrivacySettings.LastSeen" = "Last Seen";
 "PrivacySettings.Groups" = "Groups";
 "PrivacySettings.VoiceCalls" = "Voice Calls";
+"PrivacySettings.ProfilePhoto" = "Profile Photo";
+"PrivacySettings.Forwards" = "Forwarded Messages";
+
 "PrivacySettings.SecurityHeader" = "SECURITY";
 "PrivacySettings.Passcode" = "Passcode";
 "PrivacySettings.ActiveSessions" = "Active Sessions";
@@ -756,6 +759,8 @@
 "PeerInfo.Confirm.Clear" = "Clear";
 
 "peerInfo.Confirm.ClearHistory.User" = "This will delete all messages and media in this chat from your Telegram cloud. Your chat partner will still have them.";
+"peerInfo.Confirm.ClearHistory.UserBothSides" = "Are you sure you want to delete all messages in the chat?";
+
 "peerInfo.Confirm.ClearHistory.SavedMesssages" = "This will delete all messages and media in this chat from your Telegram cloud.";
 
 "peerInfo.Confirm.ClearHistory.Group" = "This will delete all messages and media in this chat from your Telegram cloud. Other members of the group will still have them.";
@@ -969,6 +974,10 @@
 "Contacts.NotRegistredTitle" = "Not a Telegram User";
 "Contacts.NotRegistredDescription" = "This person is not registered on Telegram yet.\n\nYou will be able to send them a Telegram message as soon as they sign up.";
 
+"Contacts.PhoneNumber.Invalid" = "phone number can't be empty";
+"Contacts.PhoneNumber.NotRegistred" = "the person with this phone number is not registered on Telegram yet.";
+
+
 "DataAndStorage.StorageUsage" = "Storage Usage";
 "DataAndStorage.NetworkUsage" = "Network Usage";
 
@@ -1012,6 +1021,17 @@
 "PrivacySettingsController.P2p.Desc" = "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slighly decrease audio quality";
 
 
+"PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto" = "WHO CAN SEE MY PROFILE PHOTO";
+"PrivacySettingsController.ProfilePhoto.CustomHelp" = "You can restrict who can see your profile photo with granular precision.";
+"PrivacySettingsController.ProfilePhoto.AlwaysShareWith.Title" = "Always Share With";
+"PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "Never Share With";
+
+"PrivacySettingsController.Forwards.WhoCanForward" = "WHO CAN FORWARD MY MESSAGES";
+"PrivacySettingsController.Forwards.CustomHelp" = "You can restrict who can forward your messages with granular precision.";
+"PrivacySettingsController.Forwards.AlwaysAllow.Title" = "Always Allow";
+"PrivacySettingsController.Forwards.NeverAllow.Title" = "Never Allow";
+
+
 "PrivacySettingsController.UserCount_countable" = "%d";
 "PrivacySettingsController.UserCount_zero" = "%d users";
 "PrivacySettingsController.UserCount_one" = "%d user";
@@ -1047,6 +1067,7 @@
 "Call.StatusFailed" = "Call Failed";
 "Call.StatusBusy" = "Busy";
 "Call.StatusCalling" = "is calling you...";
+"Call.StatusCallingAccount" = "is calling → %@...";
 
 
 
@@ -1524,6 +1545,7 @@
 "GeneralSettings.ForceTouch.Reply" = "Reply to Message";
 "GeneralSettings.ForceTouch.Edit" = "Edit Message";
 "GeneralSettings.ForceTouch.Forward" = "Forward Message";
+"GeneralSettings.ForceTouch.PreviewMedia" = "Preview Media";
 
 
 "ChatMessage.Tooltip.Views" = "views";
@@ -1752,6 +1774,7 @@
 "Chat.Message.DeleteForMeAndPerson" = "Delete for me and %@";
 "Chat.Message.DeleteForMe" = "Delete for me";
 "Chat.Message.DeleteForEveryone" = "Delete for everyone";
+"Chat.Message.UnsendMessages" = "Unsend my messages";
 
 "Chat.CopySelectedText" = "Copy Selected Text";
 
@@ -2135,6 +2158,7 @@
 "EditAccount.Username" = "Username";
 "EditAccount.ChangeNumber" = "Change Number";
 "EditAccount.NameDesc" = "Enter your name and add a profile photo.";
+"EditAccount.AddAccount" = "Add Account";
 
 
 "Chanel.EventFilter.AllAdmins" = "All Admins";
@@ -2216,6 +2240,8 @@
 "ProxySettings.ShareProxyList" = "Share Proxy List";
 "TermsOfService.Title" = "Terms of Service";
 "TermsOfService.Accept" = "Agree & Continue";
+"TermsOfService.Accept.ConfirmAge" = "Confirm";
+
 "TermsOfService.Disagree" = "Decline";
 "TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 "TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
@@ -2831,11 +2857,72 @@
 "Telegram.ChannelStatisticsController" = "Channel Stats";
 
 
+"AccountSettings.AddAccount" = "Add Account";
+"AccountSettings.DeleteAccount" = "Delete Account";
 
 
-"_NS:103.title" = "Edit";
-"_NS:167.title" = "Window";
-"_NS:81.title" = "View";
+"PasscodeController.Install.Title" = "Passcode";
+"PasscodeController.Change.Title" = "Change Passcode";
+"PasscodeController.Disable.Title" = "Disable Passcode";
+
+"PasscodeController.EnterPasscode.Placeholder" = "Enter a passcode";
+"PasscodeController.ReEnterPasscode.Placeholder" = "Re-enter new passcode";
+
+"PasscodeController.Current.Placeholder" = "Enter current passcode";
+
+
+"PasscodeController.Header.Current" = "CURRENT PASSCODE";
+"PasscodeController.Header.New" = "NEW PASSCODE";
+
+"PasscodeController.Text" = "When a local passcode is set, a lock button is appears in quick settings menu. Just hover settings icon in tab bar or use ⌘ + L.\n\nNote: if you forget your local passcode you'll need to log out of Telegram Macos and log in again.";
+
+"PasscodeController.Error.Different" = "passcodes are different";
+"PasscodeController.Error.Current" = "invalid passcode";
+
+
+"Passlock.EnterYourPasscode" = "Enter Your Passcode";
+
+
+"Login.PhoneNumberAlreadyAuthorized" = "This account is already logged in from this app.";
+"Login.PhoneNumberAlreadyAuthorized.Switch" = "Switch";
+
+"InputFormatter.Text.Header" = "TEXT";
+"InputFormatter.URL.Header" = "URL";
+"InputFormatter.URL.Placeholder" = "URL";
+
+
+"_NS:99.title" = "Edit";
+"_NS:77.title" = "View";
+"_NS:163.title" = "Window";
+
+
+
+"NotificationSettings.ShowNotificationsFrom" = "SHOW NOTIFICATIONS FROM";
+"NotificationSettings.AllAccounts" = "All Accounts";
+"NotificationSettings.ShowNotificationsFrom.On" = "Turn this off if you want to receive notifications only from your active account.";
+"NotificationSettings.ShowNotificationsFrom.Off" = "Turn this on if you want to receive notifications only from all your accounts.";
+
+
+"Login.Register.Desc" = "Enter your name and add a profile picture.";
+"Login.Register.FirstName.Placeholder" = "First Name";
+"Login.Register.LastName.Placeholder" = "Last Name";
+"Login.Register.AddPhoto.Placeholder" = "add\nphoto";
+"Login.InvalidFirstNameError" = "Invalid first name. Please try again.";
+"Login.InvalidLastNameError" = "Invalid last name. Please try again.";
+
+
+"ChatList.EmptyText" = "**You have no conversations yet**\nStart messaging by tapping the pencil button in the top right corner or got to the Contacts section.";
+
+
+"ChatList.Popover.ReadAll" = "Read All";
+
+
+"Chat.Tooltip.HiddenForwardName" = "The account was hidden by the user";
+
+
+"GeneralSettings.EmojiPrediction.DisableText" = "Disable emoji suggestions? You can re-enable them in Settings at any time.";
+"GeneralSettings.EmojiPrediction.Disable" = "Disable";
+"GeneralSettings.EmojiPrediction" = "Suggest Emoji";
 
 
 /* new from translations.telegram.org */
@@ -2850,3 +2937,6 @@
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";
 "WallpaperPreview.Plain" = "Plain";
+"_NS:103.title" = "Edit";
+"_NS:167.title" = "Window";
+"_NS:81.title" = "View";

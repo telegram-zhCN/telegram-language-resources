@@ -1893,7 +1893,7 @@
     <string name="PrivacyForwardsEverybody">Link to your account</string>
     <string name="PrivacyForwardsContacts">Link if allowed by the settings below</string>
     <string name="PrivacyForwardsNobody">Not a link to your account</string>
-    <string name="PrivacyForwardsTitle">Who adds a link to my account when forwarding my messages?</string>
+    <string name="PrivacyForwardsTitle">Who can add a link to my account when forwarding my messages?</string>
     <string name="PrivacyForwardsInfo">When forwarded to other chats, messages you send will not link back to your account.</string>
     <string name="PrivacyForwardsInfo2">These settings will override the values above.</string>
     <string name="PrivacyForwardsMessageLine">Reinhardt, we need to find you some new tunes &#127926;.</string>

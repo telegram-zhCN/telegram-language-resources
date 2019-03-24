@@ -4052,6 +4052,25 @@ Unused sets are archived when you add more.";
 
 
 
+"NotificationSettings.ShowNotificationsFromAccountsSection" = "显示通知";
+"NotificationSettings.ShowNotificationsAllAccounts" = "为所有帐户显示";
+"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想接收当前帐户的通知，请关闭此选项。";
+
+
+
+"Gif.NoGifsFound" = "未找到 GIF";
+
+
+"Privacy.ProfilePhoto" = "头像";
+"Privacy.Forwards" = "引用转发来源";
+
+
+"Privacy.ProfilePhoto.CustomHelp" = "您可以精确地控制哪些人可以查看您的头像。";
+
+
+
+"Privacy.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接？";
+"Privacy.Forwards.CustomHelp" = "当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。";
 
 
 
@@ -4061,28 +4080,9 @@ Unused sets are archived when you add more.";
 
 
 
+"Privacy.Forwards.AlwaysLink" = "可以链接到您的帐户";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Privacy.Forwards.NeverLink" = "无法链接到您的帐户";
 
 
 

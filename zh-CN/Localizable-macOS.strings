@@ -519,6 +519,9 @@
 "PrivacySettings.LastSeen" = "最后上线时间";
 "PrivacySettings.Groups" = "群组";
 "PrivacySettings.VoiceCalls" = "语音通话";
+
+
+
 "PrivacySettings.SecurityHeader" = "安全";
 "PrivacySettings.Passcode" = "密码";
 "PrivacySettings.ActiveSessions" = "所有设备";
@@ -756,6 +759,8 @@
 "PeerInfo.Confirm.Clear" = "清空";
 
 "peerInfo.Confirm.ClearHistory.User" = "此操作将会从 Telegram 云端删除该对话的所有消息和媒体，但对方储存的内容仍将被保留。";
+
+
 "peerInfo.Confirm.ClearHistory.SavedMesssages" = "这将从 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
 "peerInfo.Confirm.ClearHistory.Group" = "此操作将会从您的 Telegram 云中删除此群组的所有消息和媒体，但其他群成员储存的内容仍将被保留。";
@@ -969,6 +974,10 @@
 "Contacts.NotRegistredTitle" = "不是 Telegram 用户";
 "Contacts.NotRegistredDescription" = "该联系人尚未注册 Telegram 。\n\n当其完成注册后，您即可向其发送消息。";
 
+
+
+
+
 "DataAndStorage.StorageUsage" = "存储用量";
 "DataAndStorage.NetworkUsage" = "网络用量";
 
@@ -1012,6 +1021,17 @@
 "PrivacySettingsController.P2p.Desc" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 
 
+
+
+
+
+
+
+
+
+
+
+
 "PrivacySettingsController.UserCount_countable" = "%d";
 
 
@@ -1047,6 +1067,7 @@
 "Call.StatusFailed" = "通话失败";
 "Call.StatusBusy" = "忙线";
 "Call.StatusCalling" = "正在呼叫您...";
+
 
 
 
@@ -1526,6 +1547,7 @@
 "GeneralSettings.ForceTouch.Forward" = "转发消息";
 
 
+
 "ChatMessage.Tooltip.Views" = "次浏览";
 
 
@@ -1752,6 +1774,7 @@
 "Chat.Message.DeleteForMeAndPerson" = "删除并从 %@ 处撤回";
 "Chat.Message.DeleteForMe" = "仅删除";
 "Chat.Message.DeleteForEveryone" = "删除并撤回";
+
 
 "Chat.CopySelectedText" = "拷贝所选内容";
 
@@ -2137,6 +2160,7 @@
 "EditAccount.NameDesc" = "请输入您的姓名，并添加一张头像。\n提示：请勿输入个人真实信息。";
 
 
+
 "Chanel.EventFilter.AllAdmins" = "全部管理员";
 "Chanel.EventFilter.AllEvents" = "全选";
 
@@ -2216,6 +2240,8 @@
 "ProxySettings.ShareProxyList" = "分享代理列表";
 "TermsOfService.Title" = "服务条款";
 "TermsOfService.Accept" = "同意并继续";
+
+
 "TermsOfService.Disagree" = "拒绝";
 "TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 "TermsOfService.Disagree.Text.Last" = "警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 > 导出 Telegram 数据。）";
@@ -2833,9 +2859,70 @@
 
 
 
-"_NS:103.title" = "编辑";
-"_NS:167.title" = "窗口";
-"_NS:81.title" = "查看";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
@@ -2850,3 +2937,6 @@
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 "TwoStepAuth.SetupHint" = "请创建一个密码提示。";
 "WallpaperPreview.Plain" = "普通";
+"_NS:103.title" = "编辑";
+"_NS:167.title" = "窗口";
+"_NS:81.title" = "查看";
