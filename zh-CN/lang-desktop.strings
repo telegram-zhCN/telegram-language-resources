@@ -359,6 +359,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_calls_peer_to_peer" = "通话端对端连接";
 "lng_settings_groups_invite" = "邀请权限控制";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
+"lng_settings_forwards_privacy" = "引用转发来源";
+"lng_settings_profile_photo_privacy" = "头像";
 "lng_settings_sessions_about" = "控制您在其它设备上的会话。";
 "lng_settings_passcode_disable" = "禁用锁定码";
 "lng_settings_password_disable" = "禁用两步验证密码";
@@ -412,10 +414,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_download_path_clear" = "全部清空";
 "lng_download_path_header" = "选择下载目录";
 "lng_download_path_default_radio" = "「下载」目录";
-"lng_download_path_temp_radio" = "临时目录，在退出登录或卸载软件时会自动清空";
+"lng_download_path_temp_radio" = "临时目录，在注销或卸载软件时会自动清空";
 "lng_download_path_dir_radio" = "自定义目录，只能手动清空";
 "lng_download_path_choose" = "选择下载目录";
-"lng_sure_clear_downloads" = "您确定要立即从临时目录中删除所有下载的文件？ 它们会在您退出登录或卸载软件时自动被清除。";
+"lng_sure_clear_downloads" = "您确定要立即从临时目录中删除所有下载的文件？ 它们会在您注销或卸载软件时自动被清除。";
 "lng_download_path_failed" = "无法下载，下载目录可能无效\n\n您可以在「设置」中更改下载目录";
 "lng_download_path_settings" = "前往「设置」";
 "lng_download_finish_failed" = "文件下载失败\n\n重试？";
@@ -640,6 +642,27 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_calls_p2p_contacts" = "我的联系人";
 "lng_edit_privacy_calls_p2p_nobody" = "不允许任何人";
 
+"lng_edit_privacy_forwards_title" = "引用转发来源";
+"lng_edit_privacy_forwards_header" = "谁可以在转发我的消息上附加用户链接";
+
+"lng_edit_privacy_forwards_always_empty" = "总是允许";
+"lng_edit_privacy_forwards_never_empty" = "从不允许";
+"lng_edit_privacy_forwards_exceptions" = "这些设置会覆盖上面的设置。";
+"lng_edit_privacy_forwards_always_title" = "总是允许";
+"lng_edit_privacy_forwards_never_title" = "从不允许";
+"lng_edit_privacy_forwards_sample_message" = "莱因哈特，我们需要给你找点新的音乐🎶。";
+"lng_edit_privacy_forwards_sample_everyone" = "可以链接到您的帐户";
+"lng_edit_privacy_forwards_sample_contacts" = "允许时可点击查看个人信息";
+"lng_edit_privacy_forwards_sample_nobody" = "无法链接到您的帐户";
+
+"lng_edit_privacy_profile_photo_title" = "头像";
+"lng_edit_privacy_profile_photo_header" = "谁可以看到我的头像";
+"lng_edit_privacy_profile_photo_always_empty" = "总是允许";
+"lng_edit_privacy_profile_photo_never_empty" = "从不允许";
+"lng_edit_privacy_profile_photo_exceptions" = "这些设置会覆盖上面的设置。";
+"lng_edit_privacy_profile_photo_always_title" = "总是允许";
+"lng_edit_privacy_profile_photo_never_title" = "从不允许";
+
 "lng_self_destruct_title" = "自动删除帐号";
 "lng_self_destruct_description" = "如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除。";
 
@@ -803,6 +826,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_exceptions" = "例外";
 "lng_manage_peer_removed_users" = "被封禁的用户";
 "lng_manage_peer_permissions" = "权限";
+
+"lng_manage_peer_group_type" = "群组类型";
+"lng_manage_peer_channel_type" = "频道类型";
+"lng_manage_private_peer_title" = "私密";
+"lng_manage_public_peer_title" = "公开";
+
 "lng_manage_history_visibility_title" = "历史记录对新成员";
 "lng_manage_history_visibility_shown" = "可见";
 "lng_manage_history_visibility_shown_about" = "新成员将可以查看所有消息记录。";
@@ -859,6 +888,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_private_group_title" = "私人群组";
 "lng_create_private_group_about" = "用户只能通过用户邀请或公开的邀请链接加入";
 "lng_create_group_skip" = "跳过";
+
+"lng_create_channel_link_about" = "您可以使用 a-z、0-9 和下划线。\n最小长度为5个字符。";
 
 "lng_create_channel_link_invalid" = "无效链接";
 "lng_create_channel_link_occupied" = "抱歉，该链接已被占用";
@@ -1002,6 +1033,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forwarded_via" = "转发自 {user} 通过 {inline_bot}";
 "lng_forwarded_channel_via" = "转发自 {channel} 通过 {inline_bot}";
 "lng_forwarded_signed" = "{channel} ({user})";
+"lng_forwarded_hidden" = "此用户的隐私设置拒绝您回溯消息来源";
 "lng_signed_author" = "作者: {user}";
 "lng_in_reply_to" = "回复";
 "lng_edited" = "已编辑";
@@ -1358,8 +1390,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_delete_for_me_chat_hint#other" = "这将只为您删除这些消息，而不是此对话的其他参与者。";
 
 "lng_delete_for_me_hint#other" = "这将只为您删除这些消息。";
+"lng_selected_unsend_about_user_one" = "您还可以通过选中“撤回我的消息”以从 {user} 的消息记录中删除您发送的消息。";
+
+"lng_selected_unsend_about_user#other" = "您还可以通过选中“撤回我的消息”以从 {user} 的消息记录中删除您发送的 {count} 条消息。";
+"lng_selected_unsend_about_group_one" = "您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的消息。";
+
+"lng_selected_unsend_about_group#other" = "您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的 {count} 条消息。";
 "lng_delete_for_everyone_check" = "为所有人删除";
-"lng_delete_for_other_check" = "为 {user} 删除";
+"lng_delete_for_other_check" = "同时为 {user} 删除";
+"lng_delete_for_other_my" = "撤回我的消息";
 "lng_box_delete" = "删除";
 "lng_box_leave" = "退出";
 

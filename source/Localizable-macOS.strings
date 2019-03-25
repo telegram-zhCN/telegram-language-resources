@@ -1026,7 +1026,7 @@
 "PrivacySettingsController.ProfilePhoto.AlwaysShareWith.Title" = "Always Share With";
 "PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "Never Share With";
 
-"PrivacySettingsController.Forwards.WhoCanForward" = "WHO CAN FORWARD MY MESSAGES";
+"PrivacySettingsController.Forwards.WhoCanForward" = "WHO CAN ADD A LINK TO MY ACCOUNT WHEN FORWARDING MY MESSAGES";
 "PrivacySettingsController.Forwards.CustomHelp" = "You can restrict who can forward your messages with granular precision.";
 "PrivacySettingsController.Forwards.AlwaysAllow.Title" = "Always Allow";
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "Never Allow";
@@ -2858,7 +2858,7 @@
 
 
 "AccountSettings.AddAccount" = "Add Account";
-"AccountSettings.DeleteAccount" = "Delete Account";
+"AccountSettings.DeleteAccount" = "Remove Account";
 
 
 "PasscodeController.Install.Title" = "Passcode";
@@ -2874,7 +2874,7 @@
 "PasscodeController.Header.Current" = "CURRENT PASSCODE";
 "PasscodeController.Header.New" = "NEW PASSCODE";
 
-"PasscodeController.Text" = "When a local passcode is set, a lock button is appears in quick settings menu. Just hover settings icon in tab bar or use ⌘ + L.\n\nNote: if you forget your local passcode you'll need to log out of Telegram Macos and log in again.";
+"PasscodeController.Text" = "When a local passcode is set, a lock button appears in quick settings menu. Just hover over the Settings icon in the tab bar or use ⌘ + L.\n\nNote: if you forget your local passcode, you'll need to log out of Telegram for macOS and log in again.";
 
 "PasscodeController.Error.Different" = "passcodes are different";
 "PasscodeController.Error.Current" = "invalid passcode";
@@ -2900,7 +2900,7 @@
 "NotificationSettings.ShowNotificationsFrom" = "SHOW NOTIFICATIONS FROM";
 "NotificationSettings.AllAccounts" = "All Accounts";
 "NotificationSettings.ShowNotificationsFrom.On" = "Turn this off if you want to receive notifications only from your active account.";
-"NotificationSettings.ShowNotificationsFrom.Off" = "Turn this on if you want to receive notifications only from all your accounts.";
+"NotificationSettings.ShowNotificationsFrom.Off" = "Turn this on if you want to receive notifications from all your accounts.";
 
 
 "Login.Register.Desc" = "Enter your name and add a profile picture.";
@@ -2911,7 +2911,7 @@
 "Login.InvalidLastNameError" = "Invalid last name. Please try again.";
 
 
-"ChatList.EmptyText" = "**You have no conversations yet**\nStart messaging by tapping the pencil button in the top right corner or got to the Contacts section.";
+"ChatList.EmptyText" = "**You have no conversations yet**\nStart messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
 
 
 "ChatList.Popover.ReadAll" = "Read All";

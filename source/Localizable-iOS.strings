@@ -890,7 +890,7 @@
 
 "PrivacySettings.SecurityTitle" = "SECURITY";
 
-"PrivacySettings.DeleteAccountTitle" = "DELETE MY ACCOUNT";
+"PrivacySettings.DeleteAccountTitle" = "AUTOMATICALLY DELETE MY ACCOUNT";
 "PrivacySettings.DeleteAccountIfAwayFor" = "If Away For";
 "PrivacySettings.DeleteAccountHelp" = "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.";
 

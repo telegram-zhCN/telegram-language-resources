@@ -168,7 +168,7 @@
     <string name="Hashtags">HASHTAGS</string>
     <string name="Recent">Recent</string>
     <string name="ChatHints">People</string>
-    <string name="ChatHintsDelete">Delete %1$s from suggestions?</string>
+    <string name="ChatHintsDelete">Remove %1$s from suggestions?</string>
     <string name="LinkPreview">Link preview</string>
     <string name="Draft">Draft</string>
     <string name="HistoryCleared">History was cleared</string>
@@ -2655,6 +2655,8 @@
     <string name="AccDescrVideoQuality">Video quality</string>
     <string name="AccDescrAspectRatio">Aspect ratio</string>
     <string name="AccDescrTakeMorePics">Take one more picture</string>
+    <string name="AccActionTakePicture">Take a picture</string>
+    <string name="AccActionRecordVideo">Record video</string>
     <!--date formatters-->
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>

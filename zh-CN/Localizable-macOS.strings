@@ -519,8 +519,8 @@
 "PrivacySettings.LastSeen" = "最后上线时间";
 "PrivacySettings.Groups" = "群组";
 "PrivacySettings.VoiceCalls" = "语音通话";
-
-
+"PrivacySettings.ProfilePhoto" = "头像";
+"PrivacySettings.Forwards" = "转发引用来源";
 
 "PrivacySettings.SecurityHeader" = "安全";
 "PrivacySettings.Passcode" = "密码";
@@ -1021,15 +1021,15 @@
 "PrivacySettingsController.P2p.Desc" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 
 
+"PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto" = "谁可以看到我的头像";
+"PrivacySettingsController.ProfilePhoto.CustomHelp" = "您可以精确地控制哪些人可以查看您的头像。";
 
 
 
+"PrivacySettingsController.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接";
 
-
-
-
-
-
+"PrivacySettingsController.Forwards.AlwaysAllow.Title" = "总是允许";
+"PrivacySettingsController.Forwards.NeverAllow.Title" = "从不允许";
 
 
 "PrivacySettingsController.UserCount_countable" = "%d";
@@ -1774,7 +1774,7 @@
 "Chat.Message.DeleteForMeAndPerson" = "删除并从 %@ 处撤回";
 "Chat.Message.DeleteForMe" = "仅删除";
 "Chat.Message.DeleteForEveryone" = "删除并撤回";
-
+"Chat.Message.UnsendMessages" = "撤回我的消息";
 
 "Chat.CopySelectedText" = "拷贝所选内容";
 
@@ -2839,7 +2839,7 @@
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
 "LogoutOptions.LogOut" = "注销";
-"LogoutOptions.LogOutInfo" = "退出登录将会销毁所有的加密聊天记录。";
+"LogoutOptions.LogOutInfo" = "注销将会销毁所有的加密聊天记录。";
 
 
 "Chat.Video.Processing" = "正在处理...";
@@ -2883,6 +2883,24 @@
 
 
 
+"Login.PhoneNumberAlreadyAuthorized" = "该帐户已在此应用中登录。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+"NotificationSettings.ShowNotificationsFrom" = "显示通知";
+"NotificationSettings.AllAccounts" = "为所有帐户显示";
+"NotificationSettings.ShowNotificationsFrom.On" = "如果您只想接收当前帐户的通知，请关闭此选项。";
+"NotificationSettings.ShowNotificationsFrom.Off" = "如果您想接收所有帐户的通知，请启用此选项。";
 
 
 
@@ -2899,25 +2917,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Chat.Tooltip.HiddenForwardName" = "此用户的隐私设置拒绝您回溯消息来源";
 
 
 

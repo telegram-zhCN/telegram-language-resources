@@ -1270,7 +1270,7 @@
     <string name="AutoplayGIF">GIF</string>
     <string name="AutoplayVideo">视频</string>
     <string name="AutoplayVideoInfo">按动音量键打开声音</string>
-    <string name="HidAccount">此帐户被用户隐藏</string>
+    <string name="HidAccount">此用户的隐私设置拒绝您回溯消息来源</string>
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>
@@ -1404,7 +1404,7 @@
     <string name="ContactSupport">联系志愿者客服</string>
     <string name="ContactSupportInfo">如果有问题，请告诉我们；注销无助于解决问题。</string>
     <string name="LogOutTitle">注销</string>
-    <string name="LogOutInfo">退出登录将会销毁所有的加密聊天记录。</string>
+    <string name="LogOutInfo">注销将会销毁所有的加密聊天记录。</string>
     <string name="SearchInSettings">搜索设置和常见问题</string>
     <string name="SettingsRecent">最近搜索</string>
     <string name="SettingsFaqSearchTitle">常见问题</string>
@@ -1886,14 +1886,14 @@
     <string name="PrivacyTitle">隐私</string>
     <string name="PrivacyLastSeen">最后上线时间</string>
     <string name="PrivacyProfilePhoto">头像</string>
-    <string name="PrivacyProfilePhotoTitle">可以看到我的头像？</string>
+    <string name="PrivacyProfilePhotoTitle">谁可以看到我的头像？</string>
     <string name="PrivacyProfilePhotoInfo">您可以精确地控制哪些人可以查看您的头像。</string>
     <string name="PrivacyProfilePhotoInfo2">这些设置会覆盖上面的设置。</string>
     <string name="PrivacyForwards">引用转发来源</string>
     <string name="PrivacyForwardsEverybody">可以链接到您的帐户</string>
-    <string name="PrivacyForwardsContacts">下面设置允许的人可以链接</string>
+    <string name="PrivacyForwardsContacts">允许时可点击查看个人信息</string>
     <string name="PrivacyForwardsNobody">无法链接到您的帐户</string>
-    <string name="PrivacyForwardsTitle">谁可以在转发我的消息时携带引用来源？</string>
+    <string name="PrivacyForwardsTitle">谁可以在转发我的消息上附加用户链接？</string>
     <string name="PrivacyForwardsInfo">当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。</string>
     <string name="PrivacyForwardsInfo2">这些设置会覆盖上面的设置。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
@@ -2130,14 +2130,14 @@
     <string name="AreYouSureClearHistoryGroup">您确定要删除此群组中所有缓存的消息记录和媒体文件吗？</string>
     <string name="DeleteMessagesTitle">删除 %1$s</string>
     <string name="DeleteSingleMessagesTitle">删除消息</string>
-    <string name="DeleteMessagesTextGroupPart">You can also delete the %1$s from the inboxes of other group members by checking \"Delete for all members\".</string>
-    <string name="DeleteMessagesTextGroup">You can also delete the %1$s you sent from the inboxes of other group members by checking \"Unsend my messages\".</string>
-    <string name="DeleteMessagesText">You can also delete the %1$s you sent from **%2$s**\'s inbox by checking \"Unsend my messages\".</string>
+    <string name="DeleteMessagesTextGroupPart">您还可以通过选中“为所有成员删除”以从其他群组成员的消息记录中删除 %1$s。</string>
+    <string name="DeleteMessagesTextGroup">您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的 %1$s。</string>
+    <string name="DeleteMessagesText">您还可以通过选中“撤回我的消息”以从 **%2$s** 的消息记录中删除您发送的 %1$s。</string>
     <string name="AreYouSureDeleteSingleMessage">您确定要删除这条消息吗？</string>
     <string name="AreYouSureDeleteFewMessages">您确定要删除这些消息吗？</string>
     <string name="AreYouSureDeleteSingleMessageMega">您确定要为所有人删除此消息吗？</string>
     <string name="AreYouSureDeleteFewMessagesMega">您确定要为所有人删除这些消息吗？</string>
-    <string name="DeleteMessagesOption">Unsend My Messages</string>
+    <string name="DeleteMessagesOption">撤回我的消息</string>
     <string name="DeleteMessagesOptionAlso">同时为 %1$s 删除</string>
     <string name="ClearHistoryOptionAlso">同时为 %1$s 清空历史记录</string>
     <string name="SendMessagesToGroup">发送消息到 %1$s ？</string>
@@ -2655,6 +2655,8 @@
     <string name="AccDescrVideoQuality">Video quality</string>
     <string name="AccDescrAspectRatio">Aspect ratio</string>
     <string name="AccDescrTakeMorePics">Take one more picture</string>
+    <string name="AccActionTakePicture">Take a picture</string>
+    <string name="AccActionRecordVideo">Record video</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>

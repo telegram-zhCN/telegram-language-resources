@@ -1995,7 +1995,7 @@
   <string name="SignOutAltChangeNumberHint">将您的帐号、聊天信息和媒体文件转移到新手机号上。</string>
   <string name="SignOutAltHelp">联系志愿者客服</string>
   <string name="SignOutAltHelpHint">如果有问题，请告诉我们；注销无助于解决问题。</string>
-  <string name="SignOutAltHint">退出登录将会销毁所有的加密聊天记录。</string>
+  <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
 
   <string name="TdlibLogs">TDLib 日志</string>
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>

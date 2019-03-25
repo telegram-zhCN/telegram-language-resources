@@ -4037,7 +4037,7 @@ Unused sets are archived when you add more.";
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
 "LogoutOptions.LogOut" = "注销";
-"LogoutOptions.LogOutInfo" = "退出登录将会销毁所有的加密聊天记录。";
+"LogoutOptions.LogOutInfo" = "注销将会销毁所有的加密聊天记录。";
 
 
 
@@ -4055,7 +4055,7 @@ Unused sets are archived when you add more.";
 "NotificationSettings.ShowNotificationsFromAccountsSection" = "显示通知";
 "NotificationSettings.ShowNotificationsAllAccounts" = "为所有帐户显示";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想接收当前帐户的通知，请关闭此选项。";
-
+"NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "如果您想接收所有帐户的通知，请启用此选项。";
 
 
 "Gif.NoGifsFound" = "未找到 GIF";
@@ -4064,28 +4064,28 @@ Unused sets are archived when you add more.";
 "Privacy.ProfilePhoto" = "头像";
 "Privacy.Forwards" = "引用转发来源";
 
-
+"Privacy.ProfilePhoto.WhoCanSeeMyPhoto" = "谁可以看到我的头像";
 "Privacy.ProfilePhoto.CustomHelp" = "您可以精确地控制哪些人可以查看您的头像。";
 
 
 
 "Privacy.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接？";
 "Privacy.Forwards.CustomHelp" = "当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。";
+"Privacy.Forwards.AlwaysAllow.Title" = "总是允许";
+"Privacy.Forwards.NeverAllow.Title" = "从不允许";
 
 
 
-
-
-
+"Conversation.ForwardAuthorHiddenTooltip" = "此用户的隐私设置拒绝您回溯消息来源";
 
 
 
 "Privacy.Forwards.AlwaysLink" = "可以链接到您的帐户";
-
+"Privacy.Forwards.LinkIfAllowed" = "允许时可点击查看个人信息";
 "Privacy.Forwards.NeverLink" = "无法链接到您的帐户";
 
 
-
+"Chat.UnsendMyMessages" = "撤回我的消息";
 
 
 

@@ -1134,8 +1134,8 @@
   <string name="AttachRound">Video message</string>
   <string name="MicrophoneMissing">Microphone is required in order to make calls. It seems to be not present on your device.</string>
   <string name="People">People</string>
-  <string name="ChatHintsDelete">Delete %1$s from suggestions?</string>
-  <string name="DeleteXFromRecents">Delete %1$s from recently found chats?</string>
+  <string name="ChatHintsDelete">Remove %1$s from suggestions?</string>
+  <string name="DeleteXFromRecents">Remove %1$s from recently found chats?</string>
   <string name="SendTo">Send to</string>
   <string name="SelectChats">Select Chats</string>
   <string name="AddComment">Add a comment…</string>
@@ -1174,7 +1174,7 @@
   <string name="ProcessingFileWait">Processing files. Please wait…</string>
   <string name="AreYouSureDeleteThisChat">Are you sure you want to delete this chat?</string>
   <string name="UserRestricted">Sorry, you were restricted by chat admins from performing this action.</string>
-  <string name="HashtagDeleteHint">Delete this hashtag from suggestions?</string>
+  <string name="HashtagDeleteHint">Remove this hashtag from suggestions?</string>
   <string name="ReportChatSpam">Are you sure you want to report %1$s for spam?</string>
   <string name="Report">Report</string>
   <string name="ReportChat">Report %1$s</string>
@@ -1762,7 +1762,7 @@
   <string name="FoundMessagesQuery">%1$s</string>
   <string name="ViewMessagesFromYou">Messages from you</string>
   <string name="ViewMessagesFromUser">Messages from %1$s</string>
-  <string name="BotDeleteHint">Delete bot from suggestions?</string>
+  <string name="BotDeleteHint">Remove bot from suggestions?</string>
   <string name="BotHelp">Help</string>
   <string name="BotSettings">Settings</string>
   <string name="TextFormatBold">Bold</string>
