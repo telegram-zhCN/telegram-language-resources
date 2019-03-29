@@ -2593,7 +2593,7 @@
     <string name="AccDescrMoreOptions">More options</string>
     <string name="AccActionPlay">Play</string>
     <string name="AccActionPause">Pause</string>
-    <string name="AccActionDownload">Download</string>
+    <string name="AccActionDownload">下载</string>
     <string name="AccActionCancelDownload">Cancel download</string>
     <string name="AccActionOpenFile">Open file</string>
     <string name="AccActionMessageOptions">Message options</string>
