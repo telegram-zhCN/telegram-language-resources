@@ -438,7 +438,7 @@
   <string name="LoadingMessages">正在读取消息...</string>
   <string name="LoadingMessage">正在读取消息...</string>
   <string name="SaveGif">保存到 GIF 库</string>
-  <string name="GifSaved">此 GIF 已保存到多媒体键盘</string>
+  <string name="GifSaved">此 GIF 已保存到 GIF 库</string>
   <string name="RemoveGifConfirm">删除保存的这个 GIF？</string>
   <string name="NoMediaYet">这里暂时还没有图片或视频</string>
   <string name="AttachAudio">语音留言</string>

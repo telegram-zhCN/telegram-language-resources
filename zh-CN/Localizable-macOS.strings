@@ -2904,6 +2904,8 @@
 
 
 
+"Login.Register.FirstName.Placeholder" = "名字";
+"Login.Register.LastName.Placeholder" = "姓氏";
 
 
 
@@ -2912,9 +2914,7 @@
 
 
 
-
-
-
+"ChatList.Popover.ReadAll" = "全部设为已读";
 
 
 "Chat.Tooltip.HiddenForwardName" = "此用户的隐私设置拒绝您回溯消息来源";
