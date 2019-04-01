@@ -157,6 +157,8 @@
   <string name="xChats_other">%1$s 个对话</string>
   
   <string name="xMessages_other">%1$s 条消息</string>
+  
+  
   <string name="NewMessages">新消息</string>
   
   <string name="xNewMessages_other">%1$s 条新消息</string>
@@ -253,6 +255,7 @@
   <string name="YouHaveNewMessage">您有一条新消息</string>
   <string name="ChatContentWithCaption">%1$s: %2$s</string>
   <string name="ChatContentVoice">语音留言</string>
+  
   <string name="ChatContentRoundVideo">视频留言</string>
   <string name="ChatContentVideo">视频</string>
   <string name="ChatContentFile">文件</string>
@@ -298,6 +301,7 @@
   <string name="ChangePasscodeInfo">当您设置好一个锁定码后，聊天列表上方会出现一个锁形图标。点击它来锁定或解锁 Telegram 应用。\n\n注意：如果您忘记了锁定码，您将只能卸载然后重新安装 Telegram。重装之后您将丢失所有的加密对话。</string>
   <string name="AutoLock">自动锁定</string>
   <string name="AutoLockDisabled">从不</string>
+  
   <string name="passcode_auto_hint">在离开一段时间后需要重新输入锁定码进行验证。</string>
   <string name="ChangePasscode">更改密码</string>
   <string name="passcode_passcodeInvisibility">密码不可见</string>
@@ -491,6 +495,12 @@
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
   <string name="fileSize_KB">%1$s KB</string>
+  <!--<string name="unit_GB">%1$s GB</string>
+  <string name="unit_MB">%1$s MB</string>
+  <string name="unit_KB">%1$s KB</string>
+  <string name="unit_GiB">%1$s GiB</string>
+  <string name="unit_MiB">%1$s MiB</string>
+  <string name="unit_KiB">%1$s KiB</string>-->
   <string name="DownloadingOf">%1$s, %2$s</string>
   <string name="Downloading">正在下载 %1$s 共 %2$s</string>
   <string name="Confirm">确认</string>
@@ -549,6 +559,7 @@
   
   <string name="game_ActionYouScoredInGame_other">你在 %2$s 中获得 %1$s 分</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
+  
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
   <string name="ShareYourPhoneNumberDesc">%1$s 将会获取您的手机号码。\n\n 这可能用于其他集成服务。</string>
@@ -749,20 +760,6 @@
   <string name="Long">长</string>
   <string name="DoubleShort">两次短震动</string>
   <string name="IsDefault">%1$s（默认）</string>
-  <string name="NotificationMessageNoText">%1$s 给您发送了一条消息</string>
-  <string name="NotificationMessagePhoto">%1$s 给您发送了一张图片</string>
-  <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
-  <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
-  <string name="NotificationMessageVoice">%1$s 给您发送了一条语音留言</string>
-  <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
-  <string name="NotificationMessageRoundVideo">%1$s 给您发送了一条视频留言</string>
-  <string name="ChannelMessageNoText">%1$s 发送了一条消息</string>
-  <string name="ChannelMessagePhoto">%1$s 发送了一张图片</string>
-  <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
-  <string name="ChannelMessageAudio">%1$s 发送了一条语音留言</string>
-  <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
-  <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
-  <string name="ChannelMessageRoundVideo">%1$s 发布了一条视频留言</string>
   <string name="XSentAMessage">%1$s 发送了一条消息</string>
   <string name="XSentAPhoto">%1$s 发送了一张图片</string>
   <string name="XSentAVideo">%1$s 发送了一段视频</string>
@@ -833,6 +830,7 @@
   <string name="ActionPinnedVideo">%1$s 置顶了一段**视频**</string>
   <string name="ActionPinnedRound">%1$s 置顶了一条**视频留言**</string>
   <string name="ActionPinnedVoice">%1$s 置顶了一条**语音留言**</string>
+  
   <string name="UnknownTrack">未知音轨</string>
   <string name="AudioUnknownArtist">未知艺术家</string>
   <string name="MaxSize">最大大小</string>
@@ -2305,6 +2303,7 @@
   <string name="CategorySecret">加密对话</string>
   <string name="CategoryGroup">群组</string>
   <string name="CategoryChannels">频道</string>
+  
 
   <string name="format_accountAndCategory">%1$s • %2$s</string>
 
@@ -2386,6 +2385,7 @@
   <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
 
   
+  
   <string name="PollQuestion">问题</string>
   <string name="PollQuestionEmpty">请输入问题</string>
   <string name="PollOption">选项</string>
@@ -2427,6 +2427,19 @@
   
 
   
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
 
   
   
@@ -2448,10 +2461,24 @@
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
   <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="BadgeCounterSetting">通知圆点</string>
+  <string name="ChannelMessageAudio">%1$s 发送了一条语音留言</string>
+  <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
+  <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
+  <string name="ChannelMessageNoText">%1$s 发送了一条消息</string>
+  <string name="ChannelMessagePhoto">%1$s 发送了一张图片</string>
+  <string name="ChannelMessageRoundVideo">%1$s 发布了一条视频留言</string>
+  <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="Importance">优先级</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>
+  <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
+  <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
+  <string name="NotificationMessageNoText">%1$s 给您发送了一条消息</string>
+  <string name="NotificationMessagePhoto">%1$s 给您发送了一张图片</string>
+  <string name="NotificationMessageRoundVideo">%1$s 给您发送了一条视频留言</string>
+  <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
+  <string name="NotificationMessageVoice">%1$s 给您发送了一条语音留言</string>
   <string name="ShareTitleMessage">分享消息到...</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
 </resources>

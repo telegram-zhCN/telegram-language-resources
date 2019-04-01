@@ -157,6 +157,8 @@
   <string name="xChats_other">%1$s chats</string>
   <string name="xMessages_one">%1$s message</string>
   <string name="xMessages_other">%1$s messages</string>
+  <string name="xForwards_one">%1$s forwarded message</string>
+  <string name="xForwards_other">%1$s forwarded messages</string>
   <string name="NewMessages">New Messages</string>
   <string name="xNewMessages_one">%1$s new message</string>
   <string name="xNewMessages_other">%1$s new messages</string>
@@ -253,6 +255,7 @@
   <string name="YouHaveNewMessage">You have a new message</string>
   <string name="ChatContentWithCaption">%1$s: %2$s</string>
   <string name="ChatContentVoice">Voice Message</string>
+  <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">Video Message</string>
   <string name="ChatContentVideo">Video</string>
   <string name="ChatContentFile">File</string>
@@ -298,6 +301,7 @@
   <string name="ChangePasscodeInfo">When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock the app.\n\nNote: if you forget the passcode, you\'ll need to delete and reinstall the app. All secret chats will be lost.</string>
   <string name="AutoLock">Auto-Lock</string>
   <string name="AutoLockDisabled">Disabled</string>
+  <string name="AutoLockInstant">Instant</string>
   <string name="passcode_auto_hint">Require passcode if away for a time.</string>
   <string name="ChangePasscode">Change Passcode</string>
   <string name="passcode_passcodeInvisibility">Passcode Invisibility</string>
@@ -491,6 +495,12 @@
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
   <string name="fileSize_KB">%1$s KB</string>
+  <!--<string name="unit_GB">%1$s GB</string>
+  <string name="unit_MB">%1$s MB</string>
+  <string name="unit_KB">%1$s KB</string>
+  <string name="unit_GiB">%1$s GiB</string>
+  <string name="unit_MiB">%1$s MiB</string>
+  <string name="unit_KiB">%1$s KiB</string>-->
   <string name="DownloadingOf">%1$s of %2$s</string>
   <string name="Downloading">Downloading %1$s of %2$s</string>
   <string name="Confirm">Confirm</string>
@@ -549,6 +559,7 @@
   <string name="game_ActionYouScoredInGame_one">You scored %1$s in %2$s</string>
   <string name="game_ActionYouScoredInGame_other">You scored %1$s in %2$s</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
+  <string name="NotificationGame">Invited you to play %1$s</string>
   <string name="Draft">Draft</string>
   <string name="ShareYourPhoneNumberTitle">Share your phone number?</string>
   <string name="ShareYourPhoneNumberDesc">%1$s will know your phone number.\n\nThis can be useful for integration with other services.</string>
@@ -749,20 +760,6 @@
   <string name="Long">Long</string>
   <string name="DoubleShort">Double Short</string>
   <string name="IsDefault">%1$s (default)</string>
-  <string name="NotificationMessageNoText">%1$s sent you a message</string>
-  <string name="NotificationMessagePhoto">%1$s sent you a photo</string>
-  <string name="NotificationMessageVideo">%1$s sent you a video</string>
-  <string name="NotificationMessageGif">%1$s sent you a GIF</string>
-  <string name="NotificationMessageVoice">%1$s sent you a voice message</string>
-  <string name="NotificationMessageDocument">%1$s sent you a file</string>
-  <string name="NotificationMessageRoundVideo">%1$s sent you a video message</string>
-  <string name="ChannelMessageNoText">%1$s posted a message</string>
-  <string name="ChannelMessagePhoto">%1$s posted a photo</string>
-  <string name="ChannelMessageVideo">%1$s posted a video</string>
-  <string name="ChannelMessageAudio">%1$s posted a voice message</string>
-  <string name="ChannelMessageGIF">%1$s posted a GIF</string>
-  <string name="ChannelMessageDocument">%1$s posted a file</string>
-  <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
   <string name="XSentAMessage">%1$s sent a message</string>
   <string name="XSentAPhoto">%1$s sent a photo</string>
   <string name="XSentAVideo">%1$s sent a video</string>
@@ -833,6 +830,7 @@
   <string name="ActionPinnedVideo">%1$s pinned a **video**</string>
   <string name="ActionPinnedRound">%1$s pinned a **video message**</string>
   <string name="ActionPinnedVoice">%1$s pinned a **voice message**</string>
+  <string name="ActionPinnedContact">%1$s pinned a **contact**</string>
   <string name="UnknownTrack">Unknown Track</string>
   <string name="AudioUnknownArtist">Unknown Artist</string>
   <string name="MaxSize">Max size</string>
@@ -2305,6 +2303,7 @@
   <string name="CategorySecret">Secret</string>
   <string name="CategoryGroup">Group Chats</string>
   <string name="CategoryChannels">Channels</string>
+  <string name="CategoryBots">Bots</string>
 
   <string name="format_accountAndCategory">%1$s • %2$s</string>
 
@@ -2385,6 +2384,7 @@
 
   <string name="StopPollWarn">If you stop this poll now, nobody will be able to vote in it anymore.\n\nThis action cannot be undone.</string>
 
+  <string name="Poll">Poll</string>
   <string name="PollPreview">Poll: %1$s</string>
   <string name="PollQuestion">Question</string>
   <string name="PollQuestionEmpty">Ask a Question</string>
@@ -2426,7 +2426,20 @@
   <string name="LaunchSubtitleTdlibIssue">TDLib fatal error. Version: %1$s</string>
   <string name="LaunchAppGuideTdlibIssue">Telegram X has previously failed to launch because of TDLib fatal error.\n\nPress **Launch App** to try again. If application continues to fail, follow these steps:\n\n• [Verify](%2$s) you have the latest Telegram X version installed.\n• Restart your device.\n\n**If the steps above do not help**\n\n1. Share error details with TDLib developers using one of the following ways:\n— Privately via [@tdlib_bot](https://t.me/tdlib_bot) by using another device or [Telegram Web](https://web.telegram.org/).\n— Publicly via [GitHub page](https://github.com/tdlib/td/issues). **Do not** share **tdlib_log.txt** publicly.\n2. Kindly wait for the response.\n3. Change log settings below as requested by TDLib developers.\n4. Press **Launch App** to make app force stop again.\n5. Share **tdlib_log.txt** with TDLib developers and wait for the problem to be resolved.\n6. Once updated, you\'ll be able to launch app normally.\n\n**Alternative options**\n\n• Search for similar issues on [GitHub](https://github.com/tdlib/td/issues) to see if there are common solutions.\n• Reinstall the app. Secret chats will be lost. If you use same phone number you were logged in, all other chats and data will be restored from the Telegram cloud.</string>
 
+  <string name="SelfDestructPhoto">Self-Destruct Photo</string>
+  <string name="SelfDestructVideo">Self-Destruct Video</string>
+
+  <string name="InvoiceFor">Invoice for %1$s</string>
+  <string name="Invoice">Invoice</string>
+
   <string name="MarketUrl">https://play.google.com/store/apps/details?id=org.thunderdog.challegram</string>
+
+  <string name="NotificationChannelOther">Other</string>
+  <string name="RetrievingMessages">Checking for new messages</string>
+
+  <string name="AllowNotifications">Display Notifications Content</string>
+  <string name="AllowNotificationsInfo">If enabled, you will see notifications content when app is locked, however, actions such as Reply or Mark as Read will not be available until you unlock the app.</string>
+  <string name="AutoLockInstantWarn">Can\'t unlock app, because of instant Auto-Lock. Hold lock button to change this.</string>
 
   
   
@@ -2491,6 +2504,13 @@
   <string name="AttachVideosSuffix_few">" videos"</string>
   <string name="AttachVideosSuffix_many">" videos"</string>
   <string name="BadgeCounterSetting">App Icon Badge</string>
+  <string name="ChannelMessageAudio">%1$s posted a voice message</string>
+  <string name="ChannelMessageDocument">%1$s posted a file</string>
+  <string name="ChannelMessageGIF">%1$s posted a GIF</string>
+  <string name="ChannelMessageNoText">%1$s posted a message</string>
+  <string name="ChannelMessagePhoto">%1$s posted a photo</string>
+  <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
+  <string name="ChannelMessageVideo">%1$s posted a video</string>
   <string name="ChatPhoto">Chat photo</string>
   <string name="ColorClearAll_zero">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
   <string name="ColorClearAll_two">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
@@ -2547,6 +2567,13 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
+  <string name="NotificationMessageDocument">%1$s sent you a file</string>
+  <string name="NotificationMessageGif">%1$s sent you a GIF</string>
+  <string name="NotificationMessageNoText">%1$s sent you a message</string>
+  <string name="NotificationMessagePhoto">%1$s sent you a photo</string>
+  <string name="NotificationMessageRoundVideo">%1$s sent you a video message</string>
+  <string name="NotificationMessageVideo">%1$s sent you a video</string>
+  <string name="NotificationMessageVoice">%1$s sent you a voice message</string>
   <string name="NotificationMutedPersons_zero">Muted %1$s people for 1 hour</string>
   <string name="NotificationMutedPersons_two">Muted %1$s people for 1 hour</string>
   <string name="NotificationMutedPersons_few">Muted %1$s people for 1 hour</string>
@@ -2785,6 +2812,10 @@
   <string name="xFolders_two">%1$s folders</string>
   <string name="xFolders_few">%1$s folders</string>
   <string name="xFolders_many">%1$s folders</string>
+  <string name="xForwards_zero">%1$s forwarded messages</string>
+  <string name="xForwards_two">%1$s forwarded messages</string>
+  <string name="xForwards_few">%1$s forwarded messages</string>
+  <string name="xForwards_many">%1$s forwarded messages</string>
   <string name="xGIFs_zero">%1$s GIFs</string>
   <string name="xGIFs_two">%1$s GIFs</string>
   <string name="xGIFs_few">%1$s GIFs</string>
