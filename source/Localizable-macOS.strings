@@ -314,7 +314,7 @@
 "Chat.Cancel" = "Cancel";
 "Gallery.Context.SaveAs" = "Save As...";
 "Gallery.Context.ShowMessage" = "Show Message";
-"Gallery.Context.CopyToClipboard" = "Copy to Clipboard";
+"Gallery.Context.CopyToClipboard" = "Copy Media";
 "Gallery.ContextDeletePhoto" = "Delete";
 
 "Gallery.WaitDownload.Photo" = "Please wait for the photo to be fully downloaded.";
