@@ -2304,6 +2304,9 @@
   <string name="CategoryGroup">Group Chats</string>
   <string name="CategoryChannels">Channels</string>
   <string name="CategoryBots">Bots</string>
+  <string name="CategoryUnread">Unread</string>
+  <string name="xBots_one">%1$s bot</string>
+  <string name="xBots_other">%1$s bots</string>
 
   <string name="format_accountAndCategory">%1$s • %2$s</string>
 
@@ -2436,10 +2439,12 @@
 
   <string name="NotificationChannelOther">Other</string>
   <string name="RetrievingMessages">Checking for new messages</string>
+  <string name="RetrieveMessagesError">Failed to fetch messages. Tap to resolve.</string>
 
   <string name="AllowNotifications">Display Notifications Content</string>
   <string name="AllowNotificationsInfo">If enabled, you will see notifications content when app is locked, however, actions such as Reply or Mark as Read will not be available until you unlock the app.</string>
   <string name="AutoLockInstantWarn">Can\'t unlock app, because of instant Auto-Lock. Hold lock button to change this.</string>
+  <string name="ForwardAuthorHidden">This account was hidden by the user.</string>
 
   
   
@@ -2760,6 +2765,10 @@
   <string name="xBanned_two">%1$s banned</string>
   <string name="xBanned_few">%1$s banned</string>
   <string name="xBanned_many">%1$s banned</string>
+  <string name="xBots_zero">%1$s bots</string>
+  <string name="xBots_two">%1$s bots</string>
+  <string name="xBots_few">%1$s bots</string>
+  <string name="xBots_many">%1$s bots</string>
   <string name="xBytes_zero">%1$s bytes</string>
   <string name="xBytes_two">%1$s bytes</string>
   <string name="xBytes_few">%1$s bytes</string>
