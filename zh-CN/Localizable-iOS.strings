@@ -20,7 +20,6 @@
 
 "PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
-"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 向群里发送了一项投票";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
@@ -44,8 +43,6 @@
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
 "PUSH_CHAT_RETURNED" = "%2$@|%1$@ 回到了群组";
 
-
-
 "PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
 "PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ 向群里发送了一张 %3$@ 贴纸";
 
@@ -64,7 +61,6 @@
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 
-
 "PUSH_PINNED_TEXT" = "%1$@|置顶了 \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|置顶了一条消息";
 "PUSH_PINNED_PHOTO" = "%1$@|置顶了一张图片";
@@ -73,7 +69,6 @@
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
 "PUSH_PINNED_STICKER" = "%1$@|置顶了一张 %2$@ 贴纸";
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
-"PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
@@ -149,7 +144,6 @@
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
-"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ 发送了一条视频留言";
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
@@ -211,6 +205,14 @@
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
+
+
+
+
+
+
+
+
 
 
 
@@ -3926,8 +3928,9 @@ Unused sets are archived when you add more.";
 "ChatList.DeleteSavedMessagesConfirmation" = "确定删除收藏夹中所有内容？";
 
 "Undo.Undo" = "撤销";
-"Undo.MessagesDeleted" = "消息已删除";
 "Undo.ChatDeleted" = "对话已删除";
+
+
 "Undo.SecretChatDeleted" = "加密对话已删除";
 "Undo.LeftChannel" = "已退出群组";
 "Undo.LeftGroup" = "已退出群组";
@@ -4086,6 +4089,21 @@ Unused sets are archived when you add more.";
 
 
 "Chat.UnsendMyMessages" = "撤回我的消息";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4394,3 +4412,4 @@ Unused sets are archived when you add more.";
 "Peer.DeletedUser" = "已删除用户";
 "SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
 "StickerPacksSettings.ArchivedMasks.Info" = "你可以拥有最多 200 套装饰。\n未使用的装饰将在你添加更多的装饰时被归档。";
+"Undo.MessagesDeleted" = "消息已删除";
