@@ -366,7 +366,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_password_disable" = "禁用两步验证密码";
 "lng_settings_password_abort" = "关闭两步验证";
 "lng_settings_password_reenter_email" = "重新输入恢复邮箱";
-"lng_settings_about_bio" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
+"lng_settings_about_bio" = "一些个人简介，例如年龄、工作或城市。\n示例: 23岁，来自旧金山的设计师";
 "lng_settings_name_label" = "姓名";
 "lng_settings_username_label" = "用户名";
 "lng_settings_phone_label" = "手机号码";

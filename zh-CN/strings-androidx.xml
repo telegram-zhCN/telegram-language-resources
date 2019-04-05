@@ -1172,7 +1172,7 @@
   <string name="ProcessingFileWait">正在处理文件，请稍候...</string>
   <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
   <string name="UserRestricted">抱歉，您被会话的管理员限制执行此操作。</string>
-  <string name="HashtagDeleteHint">将此标签从推荐列表中删除？</string>
+  <string name="HashtagDeleteHint">要将此标签从推荐列表中删除吗？</string>
   <string name="ReportChatSpam">您确定要举报 %1$s 发送垃圾信息？</string>
   <string name="Report">举报</string>
   <string name="ReportChat">举报 %1$s</string>
@@ -1760,7 +1760,7 @@
   <string name="FoundMessagesQuery">%1$s</string>
   <string name="ViewMessagesFromYou">您发送的消息</string>
   <string name="ViewMessagesFromUser">%1$s 发送的消息</string>
-  <string name="BotDeleteHint">将此机器人从推荐列表中删除？</string>
+  <string name="BotDeleteHint">要将此机器人从推荐列表中删除吗？</string>
   <string name="BotHelp">帮助</string>
   <string name="BotSettings">设置</string>
   <string name="TextFormatBold">加粗</string>
@@ -2169,7 +2169,7 @@
   <string name="ShareTextProxyLink2">%1$s\n\n此链接可能有助于在存在审查的地区访问 Telegram。</string>
   <string name="ShareTextStickerLink">查看 Telegram 上的 «%1$s» 贴纸包：%2$s</string>
   <string name="ShareTextStickerLink2">查看 «%1$s» 贴纸包：%2$s</string>
-  
+  <string name="ShareTextLanguageLink">点击此链接安装 %1$s 语言包: %2$s</string>
 
   <string name="ShareTitleText">分享到...</string>
 
@@ -2410,23 +2410,23 @@
   
   <string name="NeverShowAgain">不再显示</string>
   <string name="NotificationSyncAccept">启用</string>
-  
+  <string name="NotificationSyncDecline">不用了</string>
 
-  
+  <string name="LaunchTitle">喔唷，崩溃啦！</string>
   <string name="LaunchApp">继续启动</string>
   
-  
+  <string name="LaunchAppViewError">查看错误详情</string>
 
-  
-  
+  <string name="LaunchSubtitleDiskFull">存储空间已满</string>
+  <string name="LaunchAppGuideDiskFull">Telegram X 之前未能启动，因为设备存储已满。\n\n请确保有足够的可用存储空间，然后按**启动应用程序**再试一次。\n\n目前可用空间：%1$s</string>
 
-  
-  
+  <string name="LaunchSubtitleDatabaseBroken">数据库损坏</string>
+  <string name="LaunchAppGuideDatabaseBroken">Telegram X 之前未能启动，因为 TDLib 数据库已被损坏。设备存储故障可能会导致发生这种情况。\n\n请按 **启动应用程序** 继续。 如果应用程序仍然失败，请按照下列步骤操作\n\n•检查您是否有足够的可用磁盘空间。当前可用：**%1$s**。\n•确保没有其他存储问题，例如SD卡被弹出或无法识别。\n•重启设备。\n\n如果这没有帮助，您可以在 [TDLib的GitHub页面]（https://github.com/tdlib/td/issues）上查找类似的问题以获取可能的解决方案，或者创建一个新问题，包括错误消息和设备细节。</string>
 
-  
-  
+  <string name="LaunchSubtitleExternalError">外部错误</string>
+  <string name="LaunchAppGuideExternalError">由于设备错误，Telegram X 之前未能启动。\n\n请按**启动应用程序**再试一次。 如果应用程序仍然失败，请按照下列步骤操作\n\n•检查您是否有足够的可用磁盘空间。当前可用：**%1$s**。\n•确保没有其他存储问题，例如SD卡被弹出或无法识别。\n•重启设备。\n\n如果这没有帮助，您可以在 [TDLib的GitHub页面]（https://github.com/tdlib/td/issues） 上查找类似的问题以获取可能的解决方案，或者创建一个新问题，包括错误消息和设备细节。</string>
 
-  
+  <string name="LaunchSubtitleTdlibIssue">TDLib 致命错误。版本：%1$s</string>
   
 
   
