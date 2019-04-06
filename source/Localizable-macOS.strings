@@ -2903,6 +2903,12 @@
 "NotificationSettings.ShowNotificationsFrom.Off" = "Turn this on if you want to receive notifications from all your accounts.";
 
 
+"NotificationSettings.SnoofHeader" = "SHOW NOTIFICATIONS WHEN";
+"NotificationSettings.Snoof" = "App is in Focus";
+"NotificationSettings.Snoof.On" = "Turn this off if you want to receive notifications only when application is not in focus.";
+"NotificationSettings.Snoof.Off" = "Turn this on if you want to always receive notifications.";
+
+
 "Login.Register.Desc" = "Enter your name and add a profile picture.";
 "Login.Register.FirstName.Placeholder" = "First Name";
 "Login.Register.LastName.Placeholder" = "Last Name";
@@ -2923,6 +2929,29 @@
 "GeneralSettings.EmojiPrediction.DisableText" = "Disable emoji suggestions? You can re-enable them in Settings at any time.";
 "GeneralSettings.EmojiPrediction.Disable" = "Disable";
 "GeneralSettings.EmojiPrediction" = "Suggest Emoji";
+
+"GeneralSettings.StatusBarItem" = "Menu Bar Item";
+
+
+"NotificationSettings.ContactJoined" = "New Contacts";
+"NotificationSettings.ContactJoinedInfo" = "Receive notifications when one of your contacts becomes available on Telegram.";
+
+
+
+"Chat.ViewBackground" = "VIEW BACKGROUND";
+
+
+"GeneralSettings.BigEmoji" = "Big Emoji";
+
+
+"App.Tooltip.VoiceRecord" = "Hold to record audio. Click to switch to video";
+"App.Tooltip.VideoRecord" = "Hold to record video. Click to switch to audio";
+
+
+
+"StatusBar.Activate" = "Activate";
+"StatusBar.Hide" = "Hide";
+"StatusBar.Quit" = "Quit";
 
 
 /* new from translations.telegram.org */

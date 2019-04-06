@@ -1270,7 +1270,7 @@
     <string name="AutoplayGIF">GIF</string>
     <string name="AutoplayVideo">视频</string>
     <string name="AutoplayVideoInfo">按动音量键打开声音</string>
-    <string name="HidAccount">此用户的隐私设置拒绝您回溯消息来源</string>
+    <string name="HidAccount">此帐户被用户隐藏</string>
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>

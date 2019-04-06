@@ -141,6 +141,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_cant_ban_admin" = "Sorry, you can't ban this user because they are an admin in this group and you are not allowed to demote them.";
 "lng_error_admin_limit" = "Sorry, you've reached the maximum number of admins for this group.";
 "lng_error_admin_limit_channel" = "Sorry, you've reached the maximum number of admins for this channel.";
+"lng_error_post_link_invalid" = "Unfortunately, you can't access this message. You are not a member of the chat where it was posted.";
 "lng_sure_add_admin_invite" = "This user is not a member of this group. Add them to the group and promote them to admin?";
 "lng_sure_add_admin_invite_channel" = "This user is not a subscriber of this channel. Add them to the channel and promote them to admin?";
 "lng_sure_add_admin_unremove" = "This user is currently restricted or removed. Are you sure you want to promote them?";
@@ -161,6 +162,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_pinned_pin" = "Pin";
 "lng_pinned_unpin" = "Unpin";
 "lng_pinned_notify" = "Notify all members";
+
+"lng_edit_media_album_error" = "This file cannot be saved as a part of an album.";
+"lng_edit_media_invalid_file" = "Sorry, no way to use this file.";
 
 "lng_intro_about" = "Welcome to the official Telegram Desktop app.\nIt's fast and secure.";
 "lng_start_msgs" = "START MESSAGING";
@@ -845,6 +849,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_message_title" = "Report message";
 "lng_report_reason_spam" = "Spam";
 "lng_report_reason_violence" = "Violence";
+"lng_report_reason_child_abuse" = "Child Abuse";
 "lng_report_reason_pornography" = "Pornography";
 "lng_report_reason_other" = "Other";
 "lng_report_reason_description" = "Description";
@@ -1026,6 +1031,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_no_room" = "Unable to join this group because there are too many members in it already.";
 
 "lng_channel_public_link_copied" = "Link copied to clipboard.";
+"lng_context_about_private_link" = "This link will only work for members of this chat.";
 
 "lng_forwarded" = "Forwarded from {user}";
 "lng_forwarded_date" = "Original: {date}";
@@ -1254,6 +1260,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_duration_played" = "{played} / {duration}";
 "lng_date_and_duration" = "{date}, {duration}";
 "lng_choose_image" = "Choose an image";
+"lng_choose_file" = "Choose a file";
 "lng_choose_files" = "Choose files";
 "lng_game_tag" = "Game";
 

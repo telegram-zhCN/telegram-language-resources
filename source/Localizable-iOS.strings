@@ -6,7 +6,7 @@
 "PUSH_MESSAGE_VIDEO" = "%1$@|sent you a video";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|sent you a self-destructing video";
 "PUSH_MESSAGE_ROUND" = "%1$@|sent you a video message";
-"PUSH_MESSAGE_CONTACT" = "%1$@|shared a contact %2$@ with you";
+"PUSH_MESSAGE_CONTACT" = "%1$@|shared %2$@'s contact with you";
 "PUSH_MESSAGE_GEO" = "%1$@|sent you a map";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|started sharing their live location";
 "PUSH_MESSAGE_DOC" = "%1$@|sent you a file";
@@ -18,8 +18,8 @@
 "PUSH_ENCRYPTION_REQUEST" = "New secret chat request%1$@";
 "PUSH_ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
 
-"PUSH_MESSAGE_POLL" = "%1$@|sent you a poll %2$@";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|posted a poll %2$@";
+"PUSH_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
 "PUSH_PINNED_POLL" = "%1$@|pinned a poll";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
@@ -27,7 +27,7 @@
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ sent a photo";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ sent a video";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ sent a video message";
-"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ shared a contact %3$@";
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ shared %3$@'s contact";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ sent a map to the group";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ started sharing their live location";
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ sent a file to the group";
@@ -56,7 +56,7 @@
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|posted a file";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|posted a %2$@ sticker";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|posted a voice message";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|posted a %2$@ contact";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|posted %2$@'s contact";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|posted a map";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|posted a live location";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|posted a GIF";
@@ -89,10 +89,10 @@
 "PUSH_MESSAGE_DOC" = "%1$@|sent you a file";
 "PUSH_MESSAGE_STICKER" = "%1$@|sent you a %2$@ sticker";
 "PUSH_MESSAGE_AUDIO" = "%1$@|sent you a voice message";
-"PUSH_MESSAGE_CONTACT" = "%1$@|shared a contact %2$@ with you";
+"PUSH_MESSAGE_CONTACT" = "%1$@|shared %2$@'s contact with you";
 "PUSH_MESSAGE_GEO" = "%1$@|sent you a map";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|started sharing their live location";
-"PUSH_MESSAGE_POLL" = "%1$@|sent you a poll %2$@";
+"PUSH_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
 "PUSH_MESSAGE_GIF" = "%1$@|sent you a GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|invited you to play %2$@";
 "PUSH_MESSAGE_INVOICE" = "%1$@|sent you an invoice for %2$@";
@@ -120,10 +120,10 @@
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|posted a file";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|posted a %2$@ sticker";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|posted a voice message";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|posted a %2$@ contact";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|posted %2$@'s contact";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|posted a map";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|posted a live location";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|posted a poll %2$@";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|posted a GIF";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|invited you to play %2$@";
 "PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|posted a forwarded message";
@@ -149,10 +149,10 @@
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ sent a file to the group";
 "PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ sent a %3$@ sticker to the group";
 "PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ sent a voice message to the group";
-"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ shared a contact %3$@";
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ shared %3$@'s contact";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ sent a map to the group";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ started sharing their live location";
-"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ sent a poll %3$@ to the group";
+"PUSH_CHAT_MESSAGE_POLL" = "%2$@|poll by %1$@ \"%3$@\"";
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ sent a GIF to the group";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ invited the group to play %3$@";
 "PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@ sent an invoice for %3$@";
@@ -190,7 +190,7 @@
 "PUSH_PINNED_DOC" = "%1$@|pinned a file";
 "PUSH_PINNED_STICKER" = "%1$@|pinned a %2$@ sticker";
 "PUSH_PINNED_AUDIO" = "%1$@|pinned a voice message";
-"PUSH_PINNED_CONTACT" = "%1$@|pinned a %2$@ contact";
+"PUSH_PINNED_CONTACT" = "%1$@|pinned %2$@'s contact";
 "PUSH_PINNED_GEO" = "%1$@|pinned a map";
 "PUSH_PINNED_GEOLIVE" = "%1$@|pinned a live location";
 "PUSH_PINNED_POLL" = "%1$@|pinned a poll";

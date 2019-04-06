@@ -2304,9 +2304,9 @@
   <string name="CategoryGroup">群组</string>
   <string name="CategoryChannels">频道</string>
   
+  <string name="CategoryUnread">未读</string>
   
-  
-  
+  <string name="xBots_other">%1$s 个机器人</string>
 
   <string name="format_accountAndCategory">%1$s • %2$s</string>
 
@@ -2387,7 +2387,7 @@
 
   <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
 
-  
+  <string name="Poll">投票</string>
   
   <string name="PollQuestion">问题</string>
   <string name="PollQuestionEmpty">请输入问题</string>
@@ -2414,7 +2414,7 @@
 
   <string name="LaunchTitle">喔唷，崩溃啦！</string>
   <string name="LaunchApp">继续启动</string>
-  
+  <string name="LaunchAppShareError">分享错误详情</string>
   <string name="LaunchAppViewError">查看错误详情</string>
 
   <string name="LaunchSubtitleDiskFull">存储空间已满</string>
@@ -2444,7 +2444,7 @@
   
   
   
-  
+  <string name="ForwardAuthorHidden">此帐户被用户隐藏</string>
 
   
   

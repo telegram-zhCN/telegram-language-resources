@@ -4079,7 +4079,7 @@ Unused sets are archived when you add more.";
 
 
 
-"Conversation.ForwardAuthorHiddenTooltip" = "此用户的隐私设置拒绝您回溯消息来源";
+"Conversation.ForwardAuthorHiddenTooltip" = "此帐户被用户隐藏";
 
 
 
