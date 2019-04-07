@@ -2316,6 +2316,8 @@
   
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
+  
+  
 
   
 
@@ -2445,6 +2447,8 @@
   
   
   <string name="ForwardAuthorHidden">此帐户被用户隐藏</string>
+
+  
 
   
   

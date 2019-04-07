@@ -2316,6 +2316,8 @@
   <string name="format_notificationTitlePinned">%1$s (pinned message)</string>
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
+  <string name="error_CHAT_SEND_POLL_FORBIDDEN">Chat admins have restricted posting polls</string>
+  <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
 
   <string name="AllAccounts">Messages</string>
 
@@ -2445,6 +2447,8 @@
   <string name="AllowNotificationsInfo">If enabled, you will see notifications content when app is locked, however, actions such as Reply or Mark as Read will not be available until you unlock the app.</string>
   <string name="AutoLockInstantWarn">Can\'t unlock app, because of instant Auto-Lock. Hold lock button to change this.</string>
   <string name="ForwardAuthorHidden">This account was hidden by the user.</string>
+
+  <string name="SendVideoError">Unsupported video format. Try using less video options or sending this video as a file. See log for details.</string>
 
   
   
