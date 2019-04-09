@@ -2874,7 +2874,7 @@
 "PasscodeController.Header.Current" = "CURRENT PASSCODE";
 "PasscodeController.Header.New" = "NEW PASSCODE";
 
-"PasscodeController.Text" = "When a local passcode is set, a lock button appears in quick settings menu. Just hover over the Settings icon in the tab bar or use ⌘ + L.\n\nNote: if you forget your local passcode, you'll need to log out of Telegram for macOS and log in again.";
+"PasscodeController.Text" = "To lock, hover over the Settings icon in the tab bar and choose \"Lock Telegram\" or use ⌘ + L.\n\nNote: if you forget your local passcode, you'll need to log out of Telegram for macOS and log in again.";
 
 "PasscodeController.Error.Different" = "passcodes are different";
 "PasscodeController.Error.Current" = "invalid passcode";
@@ -2903,8 +2903,8 @@
 "NotificationSettings.ShowNotificationsFrom.Off" = "Turn this on if you want to receive notifications from all your accounts.";
 
 
-"NotificationSettings.SnoofHeader" = "SHOW NOTIFICATIONS WHEN";
-"NotificationSettings.Snoof" = "App is in Focus";
+"NotificationSettings.SnoofHeader" = "WHEN APP IS IN FOCUS";
+"NotificationSettings.Snoof" = "Show notifications";
 "NotificationSettings.Snoof.On" = "Turn this off if you want to receive notifications only when application is not in focus.";
 "NotificationSettings.Snoof.Off" = "Turn this on if you want to always receive notifications.";
 
@@ -2917,7 +2917,7 @@
 "Login.InvalidLastNameError" = "Invalid last name. Please try again.";
 
 
-"ChatList.EmptyText" = "**You have no conversations yet**\nStart messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
+"ChatList.EmptyText" = "**You have no chats yet**\nStart messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
 
 
 "ChatList.Popover.ReadAll" = "Read All";

@@ -550,6 +550,8 @@
   <string name="UserUnavailable">user is unavailable</string>
   <string name="YouCantForwardMoreMessages_one">Sorry, you can\'t forward more than %1$s message at once</string>
   <string name="YouCantForwardMoreMessages_other">Sorry, you can\'t forward more than %1$s messages at once</string>
+  
+  
   <string name="game_ActionUserScored_one">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_other">%2$s scored %1$s</string>
   <string name="game_ActionUserScoredInGame_one">%2$s scored %1$s in %3$s</string>
