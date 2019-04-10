@@ -263,6 +263,19 @@
   <string name="ChatContentAnimation">GIF</string>
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="Audio">音乐</string>
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
@@ -435,6 +448,7 @@
   <string name="YouCreatedChannel">您创建了此频道</string>
   <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
   <string name="ActionChannelChangedTitle">频道名称已更改</string>
+  
   <string name="ActionChannelChangedPhoto">频道头像已更换</string>
   <string name="DeleteMessage">删除消息</string>
   <string name="DeleteMessages">删除消息</string>
@@ -550,6 +564,8 @@
   <string name="UserUnavailable">用户暂不可用</string>
   
   <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
+  
+  
   
   
   
@@ -2450,6 +2466,9 @@
   
   <string name="ForwardAuthorHidden">此帐户被用户隐藏</string>
 
+  
+
+  
   
 
   

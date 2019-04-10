@@ -263,6 +263,19 @@
   <string name="ChatContentAnimation">GIF</string>
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
+  <string name="ChatContentGroupCreate">Created the group</string>
+  <string name="ChatContentGroupReturn">Returned to the group</string>
+  <string name="ChatContentGroupAddYou">Added you to the group</string>
+  <string name="ChatContentGroupAdd">Added %1$s to the group</string>
+  <string name="ChatContentGroupAddMembers_one">Added %1$s member to the group</string>
+  <string name="ChatContentGroupAddMembers_other">Added %1$s members to the group</string>
+  <string name="ChatContentGroupLeft">Left the group</string>
+  <string name="ChatContentGroupJoin">Joined the group by invite link</string>
+  <string name="ChatContentGroupKickYou">Kicked you from the group</string>
+  <string name="ChatContentGroupKick">Kicked %1$s from the group</string>
+  <string name="ChatContentGroupPhoto">Changed the group photo</string>
+  <string name="ChatContentGroupPhotoRemove">Removed the group photo</string>
+  <string name="ChatContentGroupName">Renamed the group to «%1$s»</string>
   <string name="Audio">Audio</string>
   <string name="Voice">Voice</string>
   <string name="Photo">Photo</string>
@@ -434,7 +447,8 @@
   <string name="ActionCreateChannel">Channel created</string>
   <string name="YouCreatedChannel">You created the channel</string>
   <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
-  <string name="ActionChannelChangedTitle">Channel title changed</string>
+  <string name="ActionChannelChangedTitle">Channel renamed</string>
+  <string name="ActionChannelChangedTitleTo">Channel renamed to «%1$s»</string>
   <string name="ActionChannelChangedPhoto">Channel photo changed</string>
   <string name="DeleteMessage">Delete message</string>
   <string name="DeleteMessages">Delete messages</string>
@@ -550,8 +564,10 @@
   <string name="UserUnavailable">user is unavailable</string>
   <string name="YouCantForwardMoreMessages_one">Sorry, you can\'t forward more than %1$s message at once</string>
   <string name="YouCantForwardMoreMessages_other">Sorry, you can\'t forward more than %1$s messages at once</string>
-  
-  
+  <string name="game_ActionScoredInGame_one">Scored %1$s in %2$s</string>
+  <string name="game_ActionScoredInGame_other">Scored %1$s in %2$s</string>
+  <string name="game_ActionScored_one">Scored %1$s</string>
+  <string name="game_ActionScored_other">Scored %1$s</string>
   <string name="game_ActionUserScored_one">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_other">%2$s scored %1$s</string>
   <string name="game_ActionUserScoredInGame_one">%2$s scored %1$s in %3$s</string>
@@ -2452,6 +2468,9 @@
 
   <string name="SendVideoError">Unsupported video format. Try using less video options or sending this video as a file. See log for details.</string>
 
+  <string name="Optimizing">Optimizing Database</string>
+  <string name="OptimizingInfo">Telegram optimizes the database after an update. Please wait. This operation may take a while.</string>
+
   
   
   
@@ -2522,6 +2541,10 @@
   <string name="ChannelMessagePhoto">%1$s posted a photo</string>
   <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
   <string name="ChannelMessageVideo">%1$s posted a video</string>
+  <string name="ChatContentGroupAddMembers_zero">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_two">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_few">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_many">Added %1$s members to the group</string>
   <string name="ChatPhoto">Chat photo</string>
   <string name="ColorClearAll_zero">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
   <string name="ColorClearAll_two">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
@@ -2703,6 +2726,14 @@
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
+  <string name="game_ActionScored_zero">Scored %1$s</string>
+  <string name="game_ActionScored_two">Scored %1$s</string>
+  <string name="game_ActionScored_few">Scored %1$s</string>
+  <string name="game_ActionScored_many">Scored %1$s</string>
+  <string name="game_ActionScoredInGame_zero">Scored %1$s in %2$s</string>
+  <string name="game_ActionScoredInGame_two">Scored %1$s in %2$s</string>
+  <string name="game_ActionScoredInGame_few">Scored %1$s in %2$s</string>
+  <string name="game_ActionScoredInGame_many">Scored %1$s in %2$s</string>
   <string name="game_ActionUserScored_zero">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_two">%2$s scored %1$s</string>
   <string name="game_ActionUserScored_few">%2$s scored %1$s</string>

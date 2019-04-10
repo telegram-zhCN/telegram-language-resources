@@ -568,6 +568,7 @@
 "Text.CopyText" = "Copy Text";
 "Text.CopyLabel" = "Copy %@";
 
+
 "Peer.Activity.User.TypingText" = "typing";
 "Peer.Activity.User.SendingPhoto" = "sending a photo";
 "Peer.Activity.User.RecordingVideo" = "recording video";
@@ -575,7 +576,7 @@
 "Peer.Activity.User.RecordingAudio" = "recording voice";
 "Peer.Activity.User.SendingFile" = "sending file";
 
-
+"Peer.Activity.Chat.PlayingGame" = "%@ is playing a game";
 "Peer.Activity.Chat.TypingText" = "%@ is typing";
 "Peer.Activity.Chat.SendingPhoto" = "%@ is sending photo";
 "Peer.Activity.Chat.RecordingVideo" = "%@ is recording video";
@@ -583,6 +584,7 @@
 "Peer.Activity.Chat.RecordingAudio" = "%@ is recording voice";
 "Peer.Activity.Chat.SendingFile" = "%@ is sending file";
 
+"Peer.Activity.Chat.Multi.PlayingGame1" = "%@ and %d others are playing a game";
 "Peer.Activity.Chat.Multi.TypingText1" = "%@ and %d others are typing";
 "Peer.Activity.Chat.Multi.SendingPhoto1" = "%@ and %d others are sending photos";
 "Peer.Activity.Chat.Multi.RecordingVideo1" = "%@ and %d others are recording video";
@@ -961,6 +963,8 @@
 "InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
 "InstalledStickers.Remove.Delete" = "Delete";
 "Alert.UserDoesntExists" = "Sorry, this user doesn't seem to exist.";
+"Alert.PrivateChannel.AccessError" = "Unfortunately, you can't access this message. You are not a member of the chat where it was posted.";
+
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
 
 "Login.Header.Code" = "Enter Code";
@@ -2952,6 +2956,9 @@
 "StatusBar.Activate" = "Activate";
 "StatusBar.Hide" = "Hide";
 "StatusBar.Quit" = "Quit";
+
+"Chat.Service.SearchAllMessages" = "Search messages by %@";
+
 
 
 /* new from translations.telegram.org */
