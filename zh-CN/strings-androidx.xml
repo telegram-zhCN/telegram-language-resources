@@ -295,6 +295,7 @@
   <string name="copied_phone">手机号码已复制到剪贴板</string>
   <string name="CopiedUsername">用户名已复制到剪贴板</string>
   <string name="CopiedLink">链接已复制到剪贴板</string>
+  
   <string name="CopiedText">文本已复制到剪贴板</string>
   <string name="CopiedColor">颜色及其名称已复制到剪贴板</string>
   <string name="passcode_pattern_tooshort">密码图案必须连接至少 4 个点</string>

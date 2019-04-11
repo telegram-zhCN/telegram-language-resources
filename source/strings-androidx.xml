@@ -295,6 +295,7 @@
   <string name="copied_phone">Phone number has been copied to the clipboard</string>
   <string name="CopiedUsername">Username has been copied to the clipboard</string>
   <string name="CopiedLink">Link has been copied to the clipboard</string>
+  <string name="CopiedLinkPrivate">Link has been copied to the clipboard. It works only for members of this chat.</string>
   <string name="CopiedText">Text has been copied to the clipboard</string>
   <string name="CopiedColor">Color and its name have been copied to the clipboard</string>
   <string name="passcode_pattern_tooshort">Pattern should be at least 4 dots long</string>
