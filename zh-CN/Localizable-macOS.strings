@@ -848,7 +848,7 @@
 "ChatList.Service.Call.Cancelled" = "取消的电话";
 "ChatList.Service.Call.Missed" = "未接电话";
 
-"Chat.Service.Call.Cancelled" = "已取消";
+"Chat.Service.Call.Cancelled" = "未接通";
 "Chat.Service.Call.Missed" = "未接";
 
 "ChatList.Service.GameScored1_countable" = "%d %@";
@@ -1027,8 +1027,8 @@
 
 "PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto" = "谁可以看到我的头像";
 "PrivacySettingsController.ProfilePhoto.CustomHelp" = "您可以精确地控制哪些人可以查看您的头像。";
-
-
+"PrivacySettingsController.ProfilePhoto.AlwaysShareWith.Title" = "总是共享给";
+"PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "从不共享给";
 
 "PrivacySettingsController.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接";
 
@@ -1549,7 +1549,7 @@
 "GeneralSettings.ForceTouch.Reply" = "回复消息";
 "GeneralSettings.ForceTouch.Edit" = "编辑消息";
 "GeneralSettings.ForceTouch.Forward" = "转发消息";
-
+"GeneralSettings.ForceTouch.PreviewMedia" = "预览媒体文件";
 
 
 "ChatMessage.Tooltip.Views" = "次浏览";
@@ -2162,7 +2162,7 @@
 "EditAccount.Username" = "用户名";
 "EditAccount.ChangeNumber" = "更改号码";
 "EditAccount.NameDesc" = "请输入您的姓名，并添加一张头像。\n提示：请勿输入个人真实信息。";
-
+"EditAccount.AddAccount" = "添加帐号";
 
 
 "Chanel.EventFilter.AllAdmins" = "全部管理员";
@@ -2927,7 +2927,7 @@
 "ChatList.Popover.ReadAll" = "全部设为已读";
 
 
-"Chat.Tooltip.HiddenForwardName" = "此帐户被用户隐藏";
+"Chat.Tooltip.HiddenForwardName" = "此用户的隐私设置拒绝您查看转发来源";
 
 
 

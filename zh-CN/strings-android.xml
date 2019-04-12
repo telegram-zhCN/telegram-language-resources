@@ -1270,7 +1270,7 @@
     <string name="AutoplayGIF">GIF</string>
     <string name="AutoplayVideo">视频</string>
     <string name="AutoplayVideoInfo">按动音量键打开声音</string>
-    <string name="HidAccount">此帐户被用户隐藏</string>
+    <string name="HidAccount">此用户的隐私设置拒绝您查看转发来源</string>
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>
@@ -2236,7 +2236,7 @@
     <string name="CallMessageOutgoing">外拨电话</string>
     <string name="CallMessageIncoming">来电</string>
     <string name="CallMessageIncomingMissed">未接电话</string>
-    <string name="CallMessageOutgoingMissed">取消的电话</string>
+    <string name="CallMessageOutgoingMissed">未接通</string>
     <string name="CallMessageIncomingDeclined">拒接电话</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
     <string name="NoCallLog">您还没有拨打过任何电话。</string>
@@ -2584,7 +2584,7 @@
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
-    <string name="AccDescrSecretChat">Secret chat</string>
+    <string name="AccDescrSecretChat">加密对话</string>
     <string name="AccDescrSentDate">Sent %s</string>
     <string name="AccDescrReceivedDate">Received %s</string>
     <string name="AccDescrGoBack">返回</string>

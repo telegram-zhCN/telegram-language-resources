@@ -755,7 +755,7 @@
   <string name="Sound">声音</string>
   <string name="SoundDisabled">关闭</string>
   <string name="InChatSound">发送提示音</string>
-  
+  <string name="InChatSoundInfo">在聊天界面时仍播放通知铃声。</string>
   <string name="Events">事件</string>
   <string name="EventNewContact">新联系人加入</string>
   <string name="EventNewContactInfo">当您的其中一个联系人加入 Telegram 时获得通知。</string>
@@ -970,7 +970,7 @@
   <string name="CleaningUp">正在清理...</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
-  <string name="ResetStatsHint">您确定要重置网络用量统计数据吗</string>
+  <string name="ResetStatsHint">您确定要重置网络用量统计数据吗？</string>
   <string name="Reset">重置</string>
   <string name="TotalDataUsage">总计</string>
   <string name="MessagesAndData">消息和服务数据</string>
@@ -1046,7 +1046,7 @@
   <string name="AnswerCall">接听</string>
   <string name="OutgoingCallBusy">去电 (忙)</string>
   <string name="Missed">未接</string>
-  <string name="Cancelled">已取消</string>
+  <string name="Cancelled">未接通</string>
   <string name="Outgoing">外拨电话</string>
   <string name="Incoming">来电</string>
   <string name="CallAgain">再次呼叫</string>
@@ -2359,7 +2359,7 @@
   <string name="EventNewContact2">联系人加入 Telegram</string>
 
   <string name="NotificationsSetting">通知与提醒</string>
-  
+  <string name="NotificationsSettingOn">默认情况下将启用通知。 您可以从对话列表中将特定对话设为静音。</string>
   
   <string name="NotificationsSettingOff">通知已被默认禁用.你可以从会话列表中取消特定会话的免打扰.</string>
 
@@ -2374,7 +2374,7 @@
   <string name="ResetNotificationsConfirm">重置所有通知设置,包括对你对联系人,群组和频道通知的自定义设置</string>
 
   <string name="NotificationsGuideBlockedApp">您在系统设置中关闭了 Telegram 的通知权限。请点按 “系统通知设置” 来开启它。</string>
-  
+  <string name="NotificationsGuideBlockedCategory">在系统设置中禁用当前帐户的推送通知。\n\n要启用通知，请：\n•点击系统通知设置\n•查找 «%1$s» 通知类别。\n•将该类别的开关打开。</string>
   
   
   
@@ -2465,12 +2465,12 @@
   
   
   
-  <string name="ForwardAuthorHidden">此帐户被用户隐藏</string>
+  <string name="ForwardAuthorHidden">此用户的隐私设置拒绝您查看转发来源</string>
 
   
 
-  
-  
+  <string name="Optimizing">正在优化数据库</string>
+  <string name="OptimizingInfo">Telegram 会在每次更新后优化数据库。请稍等一会，这可能需要一些时间。</string>
 
   
   

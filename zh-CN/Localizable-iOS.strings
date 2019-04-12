@@ -142,7 +142,7 @@
 "PUSH_CHANNEL_MESSAGE" = "%1$@|发布了一条消息";
 
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|发布了一组图片";
-
+"PUSH_CHANNEL_ALBUM" = "%1$@|发布了一组图片";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
@@ -2266,7 +2266,7 @@ Unused sets are archived when you add more.";
 "Notification.CallOutgoingShort" = "外拨电话";
 "Notification.CallIncomingShort" = "来电";
 "Notification.CallMissedShort" = "未接";
-"Notification.CallCanceledShort" = "已取消";
+"Notification.CallCanceledShort" = "未接通";
 "Notification.CallFormat" = "%1$@, %2$@"; // 1 - time, 2 - duration
 
 
@@ -3854,7 +3854,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.ApplyAlertAction" = "应用";
 "GroupPermission.AddSuccess" = "成功添加例外";
 "GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
-
+"GroupPermission.AddMembersNotAvailable" = "您无权添加成员。";
 
 "Channel.Management.RemovedBy" = "被 %@ 封禁";
 
@@ -4047,7 +4047,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"ChannelInfo.Stats" = "统计数据";
 
 
 
@@ -4072,17 +4072,17 @@ Unused sets are archived when you add more.";
 
 "Privacy.ProfilePhoto.WhoCanSeeMyPhoto" = "谁可以看到我的头像";
 "Privacy.ProfilePhoto.CustomHelp" = "您可以精确地控制哪些人可以查看您的头像。";
-
-
+"Privacy.ProfilePhoto.AlwaysShareWith.Title" = "总是共享给";
+"Privacy.ProfilePhoto.NeverShareWith.Title" = "从不共享给";
 
 "Privacy.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接？";
 "Privacy.Forwards.CustomHelp" = "当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。";
 "Privacy.Forwards.AlwaysAllow.Title" = "总是允许";
 "Privacy.Forwards.NeverAllow.Title" = "从不允许";
 
+"Conversation.ContextMenuCancelSending" = "取消发送";
 
-
-"Conversation.ForwardAuthorHiddenTooltip" = "此帐户被用户隐藏";
+"Conversation.ForwardAuthorHiddenTooltip" = "此用户的隐私设置拒绝您查看转发来源";
 
 
 
@@ -4098,6 +4098,7 @@ Unused sets are archived when you add more.";
 
 
 
+"SettingsSearch.FAQ" = "常见问题";
 
 
 
@@ -4182,6 +4183,7 @@ Unused sets are archived when you add more.";
 
 
 
+"SettingsSearch.Synonyms.Appearance.ChatBackground" = "壁纸\n墙纸\n背景";
 
 
 
@@ -4192,6 +4194,8 @@ Unused sets are archived when you add more.";
 
 
 
+"SettingsSearch.Synonyms.Support" = "支持\n客服";
+"SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
 
 
 
@@ -4211,11 +4215,7 @@ Unused sets are archived when you add more.";
 
 
 
-
-
-
-
-
+"Call.Speaker" = "免提";
 
 
 
