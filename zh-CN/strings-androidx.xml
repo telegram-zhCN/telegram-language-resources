@@ -823,7 +823,11 @@
   <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
   <string name="DeleteForUser">为 %1$s 删除</string>
+  
+  
   <string name="DeleteForEveryone">删除并撤回</string>
+  
+  
   <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
   <string name="ReportSpam">举报垃圾信息</string>
   <string name="BanUser">封禁用户</string>
@@ -2337,6 +2341,7 @@
   <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
   
   
+  
 
   
 
@@ -2392,6 +2397,10 @@
   <string name="RecoveryEmailSent">我们已经发送给您一封电子邮件来确认您的邮箱地址。</string>
   <string name="ResendRecoveryEmailCode">重新发送验证码</string>
   <string name="AbortPasswordConfirm">您确定要终止两步验证设置？</string>
+  
+  
+  
+  
   
 
   <string name="TestMode">测试工具</string>

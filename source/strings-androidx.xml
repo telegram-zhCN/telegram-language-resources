@@ -823,7 +823,11 @@
   <string name="QDeleteXFromY">Delete %1$s from %2$s?</string>
   <string name="DeleteAllFrom">Delete all from %1$s</string>
   <string name="DeleteForUser">Delete for %1$s</string>
+  <string name="DeleteXForUser_one">Delete %1$s message for %2$s</string>
+  <string name="DeleteXForUser_other">Delete %1$s messages for %2$s</string>
   <string name="DeleteForEveryone">Delete for everyone</string>
+  <string name="DeleteXForEveryone_one">Delete %1$s message for everyone</string>
+  <string name="DeleteXForEveryone_other">Delete %1$s messages for everyone</string>
   <string name="DeleteForMeAndX">Delete for me and %1$s</string>
   <string name="ReportSpam">Report spam</string>
   <string name="BanUser">Ban user</string>
@@ -2337,6 +2341,7 @@
   <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">Chat admins have restricted posting polls</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
+  <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
 
   <string name="AllAccounts">Messages</string>
 
@@ -2392,7 +2397,11 @@
   <string name="RecoveryEmailSent">We have sent you an email to confirm your address.</string>
   <string name="ResendRecoveryEmailCode">Resend code</string>
   <string name="AbortPasswordConfirm">Are you sure you want to abort Two-Step Verification setup?</string>
+  <string name="AbortRecoveryEmailConfirm">Are you sure you want to abort recovery email setup?</string>
   <string name="CheckYourVerificationEmail2">To complete recovery email setup, check %1$s (don\'t forget the spam folder) and enter the code we just sent you.</string>
+  <string name="CheckYourVerificationEmail3">To complete recovery email change, check %1$s (don\'t forget the spam folder) and enter the code we just sent you.</string>
+  <string name="AbortRecoveryEmail">Abort recovery email setup</string>
+  <string name="AbortRecoveryEmailChange">Abort recovery email change</string>
 
   <string name="TestMode">Testing Utilities</string>
   <string name="TestModeWarn">**Warning**: Testing Utilities are available for **testing** and **debugging** purposes **only**. None of them are guaranteed to work.\n\nDo not use them, unless you know what you are doing.</string>
@@ -2572,6 +2581,14 @@
   <string name="DeleteAccountIfAwayForYears_two">%1$s years</string>
   <string name="DeleteAccountIfAwayForYears_few">%1$s years</string>
   <string name="DeleteAccountIfAwayForYears_many">%1$s years</string>
+  <string name="DeleteXForEveryone_zero">Delete %1$s messages for everyone</string>
+  <string name="DeleteXForEveryone_two">Delete %1$s messages for everyone</string>
+  <string name="DeleteXForEveryone_few">Delete %1$s messages for everyone</string>
+  <string name="DeleteXForEveryone_many">Delete %1$s messages for everyone</string>
+  <string name="DeleteXForUser_zero">Delete %1$s messages for %2$s</string>
+  <string name="DeleteXForUser_two">Delete %1$s messages for %2$s</string>
+  <string name="DeleteXForUser_few">Delete %1$s messages for %2$s</string>
+  <string name="DeleteXForUser_many">Delete %1$s messages for %2$s</string>
   <string name="DestroyX_zero">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_two">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_few">Destroy %2$s? It will disappear for you and %1$s other members.</string>

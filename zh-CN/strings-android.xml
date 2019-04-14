@@ -2588,7 +2588,7 @@
     <string name="AccDescrSentDate">Sent %s</string>
     <string name="AccDescrReceivedDate">Received %s</string>
     <string name="AccDescrGoBack">返回</string>
-    <string name="AccDescrOpenMenu">Open navigation menu</string>
+    <string name="AccDescrOpenMenu">打开导航菜单</string>
     <string name="AccDescrMusicInfo">%2$s by %1$s</string>
     <string name="AccDescrMoreOptions">更多选项</string>
     <string name="AccActionPlay">播放</string>
@@ -2607,7 +2607,7 @@
     <string name="AccDescrShowKeyboard">Show keyboard</string>
     <string name="AccDescrVoiceMessage">录制语音留言</string>
     <string name="AccDescrVideoMessage">录制视频留言</string>
-    <string name="AccDescrOpenChat">Open chat</string>
+    <string name="AccDescrOpenChat">打开对话</string>
     <string name="AccDescrProfilePicture">头像</string>
     <string name="AccDescrChangeProfilePicture">更改头像</string>
     <string name="AccDescrContactSorting">Change sorting</string>
@@ -2617,9 +2617,9 @@
     <string name="AccDescrCancelReply">取消回复</string>
     <string name="AccDescrCancelForward">取消转发</string>
     <string name="AccDescrCancelEdit">Cancel editing</string>
-    <string name="AccDescrReplying">Replying to</string>
+    <string name="AccDescrReplying">正在回复</string>
     <string name="AccDescrForwarding">Forwarding from</string>
-    <string name="AccDescrEditing">Editing</string>
+    <string name="AccDescrEditing">正在编辑</string>
     <string name="AccDescrPasscodeLock">Lock application</string>
     <string name="AccDescrPasscodeUnlock">解锁应用</string>
     <string name="AccDescrBackspace">Backspace</string>
@@ -2646,10 +2646,10 @@
     <string name="AccDescrPhotoEditor">Photo editor</string>
     <string name="AccDescrPhotoAdjust">Adjustments</string>
     <string name="AccDescrPhotoViewer">Photo viewer</string>
-    <string name="AccDescrPageDown">Go to bottom</string>
+    <string name="AccDescrPageDown">转到底部</string>
     <string name="AccDescrMentionDown">Go to next mention</string>
     <string name="AccDescrMuteMic">Mute microphone</string>
-    <string name="AccDescrIVTitle">Title</string>
+    <string name="AccDescrIVTitle">标题</string>
     <string name="AccDescrIVHeading">Heading</string>
     <string name="AccDescrMyLocation">My location</string>
     <string name="AccDescrVideoQuality">视频质量</string>

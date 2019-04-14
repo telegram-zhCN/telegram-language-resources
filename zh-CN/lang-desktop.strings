@@ -648,7 +648,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_forwards_title" = "引用转发来源";
 "lng_edit_privacy_forwards_header" = "谁可以在转发我的消息上附加用户链接";
-
+"lng_edit_privacy_forwards_warning" = "当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。";
 "lng_edit_privacy_forwards_always_empty" = "总是允许";
 "lng_edit_privacy_forwards_never_empty" = "从不允许";
 "lng_edit_privacy_forwards_exceptions" = "这些设置会覆盖上面的设置。";
@@ -849,7 +849,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_message_title" = "举报消息";
 "lng_report_reason_spam" = "垃圾信息";
 "lng_report_reason_violence" = "暴力";
-
+"lng_report_reason_child_abuse" = "儿童虐待";
 "lng_report_reason_pornography" = "色情";
 "lng_report_reason_other" = "其它";
 "lng_report_reason_description" = "说明";
@@ -1260,7 +1260,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_duration_played" = "{played} / {duration}";
 "lng_date_and_duration" = "{date}, {duration}";
 "lng_choose_image" = "选择一张图片";
-
+"lng_choose_file" = "选择文件";
 "lng_choose_files" = "选择文件";
 "lng_game_tag" = "游戏";
 
