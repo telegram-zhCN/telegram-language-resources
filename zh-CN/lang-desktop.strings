@@ -163,8 +163,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_pinned_unpin" = "取消置顶";
 "lng_pinned_notify" = "通知所有成员";
 
-
-
+"lng_edit_media_album_error" = "此文件无法保存为相册的一部分。";
+"lng_edit_media_invalid_file" = "抱歉，您无权使用此文件。";
 
 "lng_intro_about" = "欢迎使用 Telegram 官方桌面版客户端。\n它快速且安全。";
 "lng_start_msgs" = "开始聊天";
@@ -1031,7 +1031,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_invite_no_room" = "此群组已满员，无法加入。";
 
 "lng_channel_public_link_copied" = "链接已复制到剪贴板";
-
+"lng_context_about_private_link" = "此链接仅对已加入的成员有效。";
 
 "lng_forwarded" = "转发自用户 {user}";
 "lng_forwarded_date" = "原始: {date}";

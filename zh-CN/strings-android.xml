@@ -2623,7 +2623,7 @@
     <string name="AccDescrPasscodeLock">Lock application</string>
     <string name="AccDescrPasscodeUnlock">解锁应用</string>
     <string name="AccDescrBackspace">Backspace</string>
-    <string name="AccDescrPrevious">Previous</string>
+    <string name="AccDescrPrevious">上一个</string>
     <string name="AccDescrRepeatOff">Repeat, off</string>
     <string name="AccDescrRepeatList">Repeat, playlist</string>
     <string name="AccDescrRepeatOne">Repeat, one</string>
@@ -2642,13 +2642,13 @@
     <string name="AccDescrExpandPanel">Expand panel</string>
     <string name="AccDescrCollapsePanel">Collapse panel</string>
     <string name="AccDescrUserOptions">User options</string>
-	<string name="AccDescrRotate">Rotate</string>
+	<string name="AccDescrRotate">旋转</string>
     <string name="AccDescrPhotoEditor">Photo editor</string>
     <string name="AccDescrPhotoAdjust">Adjustments</string>
     <string name="AccDescrPhotoViewer">Photo viewer</string>
     <string name="AccDescrPageDown">转到底部</string>
     <string name="AccDescrMentionDown">Go to next mention</string>
-    <string name="AccDescrMuteMic">Mute microphone</string>
+    <string name="AccDescrMuteMic">关闭麦克风</string>
     <string name="AccDescrIVTitle">标题</string>
     <string name="AccDescrIVHeading">Heading</string>
     <string name="AccDescrMyLocation">My location</string>
