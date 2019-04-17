@@ -2383,8 +2383,10 @@
   
   
   
+  
   <string name="TurnSyncOnApp">打开数据同步</string>
   <string name="TurnSyncOnSystem">打开数据同步</string>
+  
 
   
   
@@ -2480,6 +2482,11 @@
 
   <string name="Optimizing">正在优化数据库</string>
   <string name="OptimizingInfo">Telegram 会在每次更新后优化数据库。请稍等一会，这可能需要一些时间。</string>
+
+  
+
+  
+  
 
   
   

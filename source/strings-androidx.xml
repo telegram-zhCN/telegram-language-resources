@@ -2383,8 +2383,10 @@
   <string name="NotificationsGuideBlockedAll">Notifications from Telegram are blocked in system settings.\n\nTo enable notifications:\n• Tap System Notification Settings\n• Turn «Show Notifications» toggle on.</string>
   <string name="NotificationsGuideSyncGlobalOff">You have data sync turned off in system settings. Notifications may not arrive when app is closed.\n\nData sync may be implicitly turned off by the battery optimization mode on your device.</string>
   <string name="NotificationsGuideSyncAppOff">You have data sync turned off for Telegram X. Notifications may not arrive when app is closed.\n\nData sync may be implicitly turned off by the battery optimization mode on your device.</string>
+  <string name="NotificationsGuideFirebaseUnavailable">Google Play Services are unavailable. Please check you have them installed and up-to-date.\n\nNotifications may arrive with big delays or not arrive at all without them.</string>
   <string name="TurnSyncOnApp">Turn on data sync</string>
   <string name="TurnSyncOnSystem">Turn on data sync</string>
+  <string name="InstallGooglePlayServices">Get Google Play Services</string>
 
   <string name="LanguageSame">You are already using this language pack (**%1$s**). You can change your language at any time in Settings.</string>
   <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform](%3$s).\n\nYou can change your language back at any time in Settings.</string>
@@ -2480,6 +2482,11 @@
 
   <string name="Optimizing">Optimizing Database</string>
   <string name="OptimizingInfo">Telegram optimizes the database after an update. Please wait. This operation may take a while.</string>
+
+  <string name="ShareContentUnsupported">Sorry, this type of media is not yet supported.</string>
+
+  <string name="SessionLogInDate">Logged in: %1$s</string>
+  <string name="SessionLastActiveDate">Last active: %1$s</string>
 
   
   
