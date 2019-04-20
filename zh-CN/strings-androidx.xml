@@ -2002,8 +2002,8 @@
   <string name="email_LoginTooLong_subject">Telegram X 连接问题</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
-  <string name="SignOutHint">您确定要注销 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
-  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
+  
+  
 
   <string name="SignOutAlt">其它选项</string>
   <string name="SignOutAltAddAccount">添加另一个帐户</string>
@@ -2016,7 +2016,7 @@
   <string name="SignOutAltChangeNumberHint">将您的帐号、聊天信息和媒体文件转移到新手机号上。</string>
   <string name="SignOutAltHelp">联系志愿者客服</string>
   <string name="SignOutAltHelpHint">如果有问题，请告诉我们；注销无助于解决问题。</string>
-  <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
+  
 
   <string name="TdlibLogs">TDLib 日志</string>
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
@@ -2492,6 +2492,26 @@
   
   
   
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
 
   <!-- new from translations.telegram.org -->
 
@@ -2526,6 +2546,9 @@
   <string name="NotificationMessageRoundVideo">%1$s 给您发送了一条视频留言</string>
   <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
   <string name="NotificationMessageVoice">%1$s 给您发送了一条语音留言</string>
+  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
   <string name="ShareTitleMessage">分享消息到...</string>
+  <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
+  <string name="SignOutHint">您确定要注销 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
 </resources>

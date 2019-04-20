@@ -2002,8 +2002,8 @@
   <string name="email_LoginTooLong_subject">Telegram X connection issue</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
-  <string name="SignOutHint">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
-  <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
+  <string name="SignOutHint2">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats. Downloaded media will be erased from this device.</string>
+  <string name="RemoveAccountHint2">Sign out as %1$s? All secret chats on this account will be lost. Downloaded media will be erased from this device.</string>
 
   <string name="SignOutAlt">Alternative options</string>
   <string name="SignOutAltAddAccount">Add another account</string>
@@ -2016,7 +2016,7 @@
   <string name="SignOutAltChangeNumberHint">Move your contacts, groups, messages and media to a new number.</string>
   <string name="SignOutAltHelp">Contact Support</string>
   <string name="SignOutAltHelpHint">Tell us about any issues; logging out doesn\'t usually help.</string>
-  <string name="SignOutAltHint">Remember, logging out kills all your Secret Chats.</string>
+  <string name="SignOutAltHint2">Remember, logging out kills all your Secret Chats. Downloaded media will be erased from this device.</string>
 
   <string name="TdlibLogs">TDLib Logs</string>
   <string name="TdlibLogsWarning">**Warning:** TDLib Logs may contain **private data**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
@@ -2488,6 +2488,26 @@
   <string name="SessionLogInDate">Logged in: %1$s</string>
   <string name="SessionLastActiveDate">Last active: %1$s</string>
 
+  <string name="EraseDatabase">Erase All Data</string>
+  <string name="EraseDatabaseDone">All data successfully erased.</string>
+  <string name="EraseDatabaseProgress">Erasing all data… Please wait, this operation may take a while. Don\'t turn off the app.</string>
+  <string name="EraseDatabaseWarn">**Warning!**\n\nSecret chats, settings and all cached data will be lost.</string>
+  <string name="EraseDatabaseWarn2">**No, seriously.**\n\nAre you sure you want to reset all local data for this account, except authorization state?</string>
+
+  <string name="ReadAllChats">Mark all chats as read</string>
+  <string name="ReadAllChatsInfo">Are you sure you want to mark all chats and mentions as read?</string>
+  <string name="ReadAllChatsDone_one">Marked %1$s chat as read</string>
+  <string name="ReadAllChatsDone_other">Marked %1$s chats as read</string>
+
+  <string name="LinkStateNone">%1$s does not see your phone number.</string>
+  <string name="LinkStateKnowsNumber">%1$s can see your phone number.</string>
+  <string name="LinkStateKnowsNumberContact">%1$s can see your phone number. You have them in your contacts list.</string>
+  <string name="LinkStateKnowsNumberMutual">%1$s and you can see phone number of each other.</string>
+  <string name="LinkStateContact">%1$s has your phone number in their contacts list.</string>
+  <string name="LinkStateContactMutual">%1$s and you have phone number of each other in the contacts list.</string>
+
+  <string name="PhoneNumberUnknown">Unknown</string>
+
   
   
   
@@ -2641,6 +2661,11 @@
   <string name="PollOptionsLimit_two">You can add %1$s more options</string>
   <string name="PollOptionsLimit_few">You can add %1$s more options</string>
   <string name="PollOptionsLimit_many">You can add %1$s more options</string>
+  <string name="ReadAllChatsDone_zero">Marked %1$s chats as read</string>
+  <string name="ReadAllChatsDone_two">Marked %1$s chats as read</string>
+  <string name="ReadAllChatsDone_few">Marked %1$s chats as read</string>
+  <string name="ReadAllChatsDone_many">Marked %1$s chats as read</string>
+  <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
   <string name="RemoveXMasks_zero">Remove %1$s masks</string>
   <string name="RemoveXMasks_two">Remove %1$s masks</string>
   <string name="RemoveXMasks_few">Remove %1$s masks</string>
@@ -2726,6 +2751,8 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
+  <string name="SignOutAltHint">Remember, logging out kills all your Secret Chats.</string>
+  <string name="SignOutHint">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
   <string name="SuggestInvitingUserCommon_zero">%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram.</string>
   <string name="SuggestInvitingUserCommon_two">%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram.</string>
   <string name="SuggestInvitingUserCommon_few">%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram.</string>
