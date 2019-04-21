@@ -2490,9 +2490,10 @@
 
   <string name="EraseDatabase">Erase All Data</string>
   <string name="EraseDatabaseDone">All data successfully erased.</string>
-  <string name="EraseDatabaseProgress">Erasing all data… Please wait, this operation may take a while. Don\'t turn off the app.</string>
-  <string name="EraseDatabaseWarn">**Warning!**\n\nSecret chats, settings and all cached data will be lost.</string>
-  <string name="EraseDatabaseWarn2">**No, seriously.**\n\nAre you sure you want to reset all local data for this account, except authorization state?</string>
+  <string name="EraseDatabaseProgress">Erasing all data… Please wait, this operation may take a while. Don\'t close the app.</string>
+  <string name="EraseDatabaseWarn">**Warning!**\n\nSecret Chats will be lost. All media will need to be downloaded again.</string>
+  <string name="EraseDatabaseWarn2">**No, seriously.**\n\nAre you sure you want to clear Local Database, delete all downloaded media files and kill all Secret Chats?</string>
+  <string name="EraseDatabaseMultiUser">This action does not affect other accounts.</string>
 
   <string name="ReadAllChats">Mark all chats as read</string>
   <string name="ReadAllChatsInfo">Are you sure you want to mark all chats and mentions as read?</string>
@@ -2507,6 +2508,9 @@
   <string name="LinkStateContactMutual">%1$s and you have phone number of each other in the contacts list.</string>
 
   <string name="PhoneNumberUnknown">Unknown</string>
+
+  <string name="Stats">Statistics</string>
+  <string name="ViewStats">View Statistics</string>
 
   
   
