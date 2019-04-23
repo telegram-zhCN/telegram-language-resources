@@ -2503,9 +2503,9 @@
   <string name="LinkStateNone">%1$s does not see your phone number.</string>
   <string name="LinkStateKnowsNumber">%1$s can see your phone number.</string>
   <string name="LinkStateKnowsNumberContact">%1$s can see your phone number. You have them in your contacts list.</string>
-  <string name="LinkStateKnowsNumberMutual">%1$s and you can see phone number of each other.</string>
+  <string name="LinkStateKnowsNumberMutual">%1$s and you can see each other\'s phone number.</string>
   <string name="LinkStateContact">%1$s has your phone number in their contacts list.</string>
-  <string name="LinkStateContactMutual">%1$s and you have phone number of each other in the contacts list.</string>
+  <string name="LinkStateContactMutual">%1$s and you have each other\'s phone number in the contacts list.</string>
 
   <string name="PhoneNumberUnknown">Unknown</string>
 
