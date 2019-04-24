@@ -1481,7 +1481,7 @@
   <string name="SyncHintRetry">为了帮助你在 Telegram 上与你的朋友和家人联系，请允许我们访问你的通讯录。\n\n点击 设置 &gt; 权限，并将 通讯录 权限设为开启。</string>
   <string name="SyncHintUnavailable">要允许 Telegram 访问您的通讯录，请点击 设置 &gt; 权限，并将 通讯录 权限设为开启</string>
   <string name="Continue">继续</string>
-  <string name="NoChatsText">**没有对话可以展示**\n\n邀请您的朋友和家人来&#160;加入#160;Telegram吧</string>
+  <string name="NoChatsText">**没有对话可以展示**\n\n邀请您的朋友和家人来加入 Telegram 吧</string>
   <string name="ShowContacts">开始聊天</string>
   <string name="ContactsOnTelegramSingle">%1$s 正在使用&#160;Telegram</string>
   <string name="ContactsOnTelegramSeveral">%1$s 和 %2$s 正在&#160;使用&#160;Telegram</string>
