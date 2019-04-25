@@ -85,6 +85,7 @@
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s，%2$s</string>
   <string name="login_PhoneNumber">手机号码</string>
+  
   <string name="login_Code">验证码</string>
   <string name="login_Password">密码</string>
   <string name="login_Country">国家</string>
@@ -94,6 +95,8 @@
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
   <string name="login_InvalidPhone">请输入有效的手机号码</string>
+  
+  
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
@@ -1999,8 +2002,22 @@
 
   <string name="HelpEmailError">请发送一封邮件到 %1$s 告诉我们您的问题</string>
 
+  
+  
+
   <string name="email_LoginTooLong_subject">Telegram X 连接问题</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
 
   
   
@@ -2510,6 +2527,10 @@
   
 
   
+
+  
+  
+
   
 
   

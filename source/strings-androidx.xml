@@ -85,6 +85,7 @@
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s, %2$s</string>
   <string name="login_PhoneNumber">Phone number</string>
+  <string name="login_error">Error: %1$s. __Contact us__, if you need help.</string>
   <string name="login_Code">Code</string>
   <string name="login_Password">Password</string>
   <string name="login_Country">Country</string>
@@ -94,6 +95,8 @@
   <string name="LastName">Last name</string>
   <string name="login_LastName">Last name (optional)</string>
   <string name="login_InvalidPhone">Please enter a valid phone number</string>
+  <string name="login_PHONE_NUMBER_INVALID">Invalid phone number. Please check the number and try again.\n\n__Contact us__, if the phone number is correct.</string>
+  <string name="login_PHONE_NUMBER_BANNED">Phone number is banned. __Contact us__, if you need help.</string>
   <string name="location_Nearby">Nearby</string>
   <string name="location_AwayMeters">%1$s m away</string>
   <string name="location_AwayKilometers">%1$s km away</string>
@@ -1999,8 +2002,22 @@
 
   <string name="HelpEmailError">Please send an email to %1$s and tell us about your problem</string>
 
+  <string name="email_SmsHelp">sms@stel.com</string>
+  <string name="email_LoginHelp">login@stel.com</string>
+
   <string name="email_LoginTooLong_subject">Telegram X connection issue</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
+
+  <string name="email_InvalidNumber_subject">Invalid phone number: %1$s</string>
+  <string name="email_InvalidNumber_text">My mobile phone operator: (please enter the name)\nI\'m trying to use my mobile phone number: %1$s\nBut Telegram says it\'s invalid. Please help.</string>
+
+  <string name="email_BannedNumber_subject">Banned phone number: %1$s</string>
+  <string name="email_BannedNumber_text">I\'m trying to use my mobile phone number: %1$s\nBut Telegram says it\'s banned. Please help.</string>
+
+  <string name="email_LoginError_subject">Telegram X error: %1$s</string>
+  <string name="email_LoginError_text">I\'m trying to use my mobile phone number: %1$s\nBut Telegram shows an error. Please help.\nError: %2$s</string>
+
+  <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
   <string name="SignOutHint2">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats. Downloaded media will be erased from this device.</string>
   <string name="RemoveAccountHint2">Sign out as %1$s? All secret chats on this account will be lost. Downloaded media will be erased from this device.</string>
@@ -2509,8 +2526,12 @@
 
   <string name="PhoneNumberUnknown">Unknown</string>
 
+  <string name="SignedOutAs">Signed out as %1$s</string>
+
   <string name="Stats">Statistics</string>
   <string name="ViewStats">View Statistics</string>
+
+  <string name="InstantViewUnsupported">Instant View for this page is not yet supported.</string>
 
   
   
