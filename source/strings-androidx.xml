@@ -274,6 +274,7 @@
   <string name="ChatContentGroupAddMembers_other">Added %1$s members to the group</string>
   <string name="ChatContentGroupLeft">Left the group</string>
   <string name="ChatContentGroupJoin">Joined the group by invite link</string>
+  <string name="ChatContentGroupJoinPublic">Joined the group</string>
   <string name="ChatContentGroupKickYou">Kicked you from the group</string>
   <string name="ChatContentGroupKick">Kicked %1$s from the group</string>
   <string name="ChatContentGroupPhoto">Changed the group photo</string>
@@ -990,6 +991,8 @@
   <string name="ClearCacheHint">This operation may take a few minutes to complete</string>
   <string name="KeepMediaInfo">Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
   <string name="LocalDatabase">Local Database</string>
+  <string name="FeatureUnavailableSorry">Sorry</string>
+  <string name="LocalDatabaseExcuse">For now it\'s not possible to clear Local Database without losing all Secret Chats and deleting downloaded files.\n\nIf you still want to reduce Local Database size, use three-dot menu&#160;&gt;&#160;Erase All Data.\n\nIt saves more data than logging out, reinstalling the app or clearing its data.</string>
   <string name="MediaAndFiles">Media and Files</string>
   <string name="OtherChats">Other Chats</string>
   <string name="SecretFiles">Secret media and files</string>
@@ -2426,7 +2429,10 @@
   <string name="TestModeWarn">**Warning**: Testing Utilities are available for **testing** and **debugging** purposes **only**. None of them are guaranteed to work.\n\nDo not use them, unless you know what you are doing.</string>
   <string name="CopyVersion">Copy Version</string>
 
+  <string name="LogFiles">Log Files</string>
   <string name="AppLogs">Application Logs</string>
+  <string name="AppLogsDisable">Turn off all logs</string>
+  <string name="AppLogsClear">Delete all application log files?</string>
 
   <string name="CreatePoll">New Poll</string>
   <string name="RetractVote">Retract Vote</string>
@@ -2532,6 +2538,8 @@
   <string name="ViewStats">View Statistics</string>
 
   <string name="InstantViewUnsupported">Instant View for this page is not yet supported.</string>
+
+  <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
   
   

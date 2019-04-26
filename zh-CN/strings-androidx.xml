@@ -279,6 +279,7 @@
   
   
   
+  
   <string name="Audio">音乐</string>
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
@@ -990,6 +991,8 @@
   <string name="ClearCacheHint">该操作可能需要持续几分钟</string>
   <string name="KeepMediaInfo">为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。</string>
   <string name="LocalDatabase">本地数据库</string>
+  
+  
   <string name="MediaAndFiles">媒体文件和其他文件</string>
   <string name="OtherChats">其它对话</string>
   <string name="SecretFiles">私人媒体文件和其他文件</string>
@@ -2426,7 +2429,10 @@
   
   <string name="CopyVersion">复制版本号</string>
 
+  
   <string name="AppLogs">应用日志</string>
+  
+  
 
   <string name="CreatePoll">发起投票</string>
   <string name="RetractVote">撤回我的投票</string>
@@ -2529,6 +2535,8 @@
   
 
   
+  
+
   
 
   
