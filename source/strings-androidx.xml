@@ -2517,6 +2517,7 @@
   <string name="EraseDatabaseWarn">**Warning!**\n\nSecret Chats will be lost. All media will need to be downloaded again.</string>
   <string name="EraseDatabaseWarn2">**No, seriously.**\n\nAre you sure you want to clear Local Database, delete all downloaded media files and kill all Secret Chats?</string>
   <string name="EraseDatabaseMultiUser">This action does not affect other accounts.</string>
+  <string name="EraseDatabaseWait">Please wait until the previous operation is completed.</string>
 
   <string name="ReadAllChats">Mark all chats as read</string>
   <string name="ReadAllChatsInfo">Are you sure you want to mark all chats and mentions as read?</string>
@@ -2538,6 +2539,23 @@
   <string name="ViewStats">View Statistics</string>
 
   <string name="InstantViewUnsupported">Instant View for this page is not yet supported.</string>
+  <string name="LanguageDatabase">Localizations</string>
+  <string name="SettingsAndThemes">Settings and Themes</string>
+
+  <string name="Paints">Drawings</string>
+  <string name="PaintsInfo">Telegram X remembers vector drawings you made via the in-app image editor for possible future use.\n\nWould you like to make Telegram X unsee them?</string>
+
+  <string name="JunkFiles">Unused Files</string>
+  <string name="JunkFilesInfo">Service files that were created while using some features or older app versions.</string>
+
+  <string name="format_approx">%1$s (approx.)</string>
+
+  <string name="ShowOtherChats">Show Other Chats</string>
+
+  <string name="UseSystemFonts">Use System Fonts</string>
+  <string name="UseSystemFontsHint">**Warning!**\n\nTelegram X does not guarantee proper rendering of system fonts.</string>
+
+  <string name="RestartEffect">Restart the app for this to take effect.</string>
 
   <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
