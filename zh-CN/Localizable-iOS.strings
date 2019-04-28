@@ -2728,7 +2728,7 @@ Unused sets are archived when you add more.";
 
 
 
-"Contacts.ImportersCount_any" = "%@ 位在 Telegram 上的联系人";
+"Contacts.ImportersCount_any" = "%@ 位 Telegram 用户有此联系人信息";
 
 
 
@@ -3603,13 +3603,13 @@ Unused sets are archived when you add more.";
 "Share.AuthTitle" = "登陆到 Telegram";
 "Share.AuthDescription" = "Open Telegram and log in to share.";
 
-"Notifications.DisplayNamesOnLockScreen" = "Names on Lock Screen";
+"Notifications.DisplayNamesOnLockScreen" = "在锁屏界面上显示名称";
 "Notifications.DisplayNamesOnLockScreenInfoWithLink" = "设备锁定后在通知栏上显示姓名。若需禁用，请确保“显示预览”功能也设置为“解锁时”或“从不” [iOS 设置> 通知].";
 
 "Notifications.Badge" = "未读消息数量提示";
 "Notifications.Badge.IncludeMutedChats" = "包含已关闭通知的对话";
 "Notifications.Badge.IncludePublicGroups" = "包含公开群组";
-"Notifications.Badge.IncludeChannels" = "Include Channels";
+"Notifications.Badge.IncludeChannels" = "包含频道";
 "Notifications.Badge.CountUnreadMessages" = "按消息数统计未读";
 "Notifications.Badge.CountUnreadMessages.InfoOff" = "开启以显示未读消息数而非未读对话数。";
 "Notifications.Badge.CountUnreadMessages.InfoOn" = "关闭以显示未读对话数而非未读消息数。";

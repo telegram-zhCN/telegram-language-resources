@@ -392,7 +392,7 @@
   <string name="CopyCoordinates">复制坐标</string>
   <string name="CopiedCoordinates">坐标已复制到剪贴板</string>
   <string name="CopyLink">复制链接</string>
-  <string name="Convert">升级</string>
+  <string name="Convert">升级为超级群组</string>
   <string name="Search">搜索</string>
   <string name="NoChats">没有对话</string>
   <string name="NoContacts">未找到任何联系人</string>
@@ -638,7 +638,7 @@
   <string name="AskAQuestion">向我们提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="HideForYourself">暂时对自己隐藏</string>
-  <string name="DataSaver">节省移动数据流量</string>
+  <string name="DataSaver">省流量模式</string>
   <string name="DataSaverDesc">当启用流量节省时，多媒体文件将不会自动下载。所有尚未完成的下载会被暂停。</string>
   <string name="TurnOnAutomatically">自动开启</string>
   <string name="InPrivateChats">在私聊中</string>
@@ -669,7 +669,7 @@
   <string name="RestrictOnRoaming">漫游时限制下载</string>
   <string name="MediaExceedingX">任何体积超过 %1$s 的多媒体</string>
   <string name="AnyMedia">任何多媒体文件</string>
-  <string name="Nothing">没有东西</string>
+  <string name="Nothing">从不</string>
   <string name="BioNone">无</string>
   <string name="BlockedNone">无</string>
   <string name="NoRestrictions">无限制</string>
@@ -1009,7 +1009,7 @@
   <string name="Send">发送</string>
   <string name="ClearRecentStickers">清空最近贴纸列表</string>
   <string name="CropSquare">正方形</string>
-  <string name="Wallpaper">背景</string>
+  <string name="Wallpaper">聊天窗口背景图</string>
   <string name="ChatPreview">对话预览</string>
   <string name="AndroidVersionWarning">很抱歉，该项功能仅在 Android %1$s（%2$s）或以上版本可用。</string>
   <string name="RemoveStickerSet">移除贴纸包 %1$s？</string>
@@ -2360,8 +2360,8 @@
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
   
-  
-  
+  <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
+  <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
 
   
 
@@ -2403,7 +2403,7 @@
   
   
   
-  
+  <string name="NotificationsGuideFirebaseUnavailable">Google Play 服务不可用。 请检查您是否安装了最新版本。\n\n此时推送通知可能延迟或丢失。</string>
   <string name="TurnSyncOnApp">打开数据同步</string>
   <string name="TurnSyncOnSystem">打开数据同步</string>
   
@@ -2419,7 +2419,7 @@
   <string name="RecoveryEmailSent">我们已经发送给您一封电子邮件来确认您的邮箱地址。</string>
   <string name="ResendRecoveryEmailCode">重新发送验证码</string>
   <string name="AbortPasswordConfirm">您确定要终止两步验证设置？</string>
-  
+  <string name="AbortRecoveryEmailConfirm">您确定要放弃设置恢复邮箱吗？</string>
   
   
   
@@ -2496,8 +2496,8 @@
   
   
 
-  
-  
+  <string name="AllowNotifications">通知时显示具体内容</string>
+  <string name="AllowNotificationsInfo">如果启用，在应用被锁定时您仍可以在推送通知中看到具体消息内容。然而如“回复”、\"标记为已读\"等功能在您解锁前将无法使用。</string>
   
   <string name="ForwardAuthorHidden">此用户的隐私设置拒绝您查看转发来源</string>
 
@@ -2516,8 +2516,8 @@
   
   
   
-  
-  
+  <string name="EraseDatabaseMultiUser">该操作不会影响其他帐户。</string>
+  <string name="EraseDatabaseWait">请等待上一个操作完成。</string>
 
   
   
@@ -2535,8 +2535,8 @@
 
   
 
-  
-  
+  <string name="Stats">统计数据</string>
+  <string name="ViewStats">查看统计数据</string>
 
   
   
@@ -2552,10 +2552,10 @@
 
   
 
-  
-  
+  <string name="UseSystemFonts">使用系统字体</string>
+  <string name="UseSystemFontsHint">**注意!**\n\nTelegram X 不能保证成功渲染系统字体。</string>
 
-  
+  <string name="RestartEffect">将在重启应用后生效。</string>
 
   
 

@@ -1004,7 +1004,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_convert_feature3" = "— 管理员可以为群组添加一个简介";
 "lng_profile_convert_feature4" = "— 创建者可以给群组设置一个公开链接";
 "lng_profile_convert_warning" = "{bold_start}注意：{bold_end} 此操作不可撤销";
-"lng_profile_convert_confirm" = "升级";
+"lng_profile_convert_confirm" = "立刻升级";
 "lng_profile_add_more_after_create" = "创建群组后，您将能够添加更多成员。";
 
 "lng_channel_not_accessible" = "抱歉，无法访问此频道";

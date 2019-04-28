@@ -1648,7 +1648,7 @@
     <string name="ChangePasscodeInfo">当您设置好一个锁定码后，聊天列表上方会出现一个锁形图标。点击它来锁定或解锁 Telegram 应用。\n\n注意：如果您忘记了锁定码，您将只能卸载然后重新安装 Telegram。重装之后您将丢失所有的加密对话。</string>
     <string name="PasscodePIN">PIN 码</string>
     <string name="PasscodePassword">密码</string>
-    <string name="EnterCurrentPasscode">请输入您当前的锁定码</string>
+    <string name="EnterCurrentPasscode">请输入当前锁定码</string>
     <string name="EnterNewFirstPasscode">请输入一个锁定码</string>
     <string name="EnterNewPasscode">请输入您要设置的新锁定码</string>
     <string name="EnterYourPasscode">请输入您的锁定码</string>

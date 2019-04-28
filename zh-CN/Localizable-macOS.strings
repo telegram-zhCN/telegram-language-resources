@@ -2869,6 +2869,10 @@
 
 
 
+"PasscodeController.EnterPasscode.Placeholder" = "请输入一个锁定码";
+"PasscodeController.ReEnterPasscode.Placeholder" = "请再输入一次";
+
+"PasscodeController.Current.Placeholder" = "请输入当前锁定码";
 
 
 
@@ -2877,18 +2881,14 @@
 
 
 
+"PasscodeController.Error.Current" = "锁定码无效";
 
 
-
-
-
-
-
-
+"Passlock.EnterYourPasscode" = "请输入密码";
 
 
 "Login.PhoneNumberAlreadyAuthorized" = "该帐户已在此应用中登录。";
-
+"Login.PhoneNumberAlreadyAuthorized.Switch" = "切换";
 
 
 
