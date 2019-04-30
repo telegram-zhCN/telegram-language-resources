@@ -1075,7 +1075,7 @@
     <!--settings view-->
     <string name="ResetNotificationsText">Reset all notification settings to default</string>
     <string name="ResetNotificationsAlert">Are you sure you want to reset all notification settings to default?</string>
-    <string name="TextSizeHeader">Messages text size</string>
+    <string name="TextSizeHeader">Message text size</string>
     <string name="AskAQuestion">Ask a Question</string>
     <string name="EnableAnimations">Enable Animations</string>
     <string name="ChatSettings">Chat Settings</string>
@@ -2714,7 +2714,7 @@
   <string name="SetAdminsNotAllInfo">Only admins can add and remove members, pin messages, edit name and photo of the group.</string>
   <string name="SetAdminsTitle">Chat Admins</string>
   <string name="SharedMediaTitle">Shared Media</string>
-  <string name="TextSize">Messages Text Size</string>
+  <string name="TextSize">Message Text Size</string>
   <string name="UserRestrictionsBy">Restricted by %1$s</string>
   <string name="UserRestrictionsUntil">Banned until</string>
   <string name="ViewDetails">VIEW CONTACT</string>

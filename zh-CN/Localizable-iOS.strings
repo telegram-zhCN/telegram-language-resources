@@ -543,6 +543,7 @@
 "Message.ForwardedMessage" = "转发的消息\n来自: %@";
 "Message.Animation" = "GIF";
 
+
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "呃，发生了一个错误。";
 "ConversationProfile.UnknownAddMemberError" = "抱歉，遇到了一个意外问题，我们已收到错误报告并将尽快修复。";
@@ -4194,6 +4195,7 @@ Unused sets are archived when you add more.";
 
 
 
+
 "SettingsSearch.Synonyms.Support" = "支持\n客服";
 "SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
 
@@ -4216,6 +4218,47 @@ Unused sets are archived when you add more.";
 
 
 "Call.Speaker" = "免提";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

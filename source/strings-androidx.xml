@@ -1859,7 +1859,7 @@
   <string name="ErrorUserDeleted">Cannot perform this action, because user account is deactivated.</string>
   <string name="GroupUpgradedFrom">Group upgraded to supergroup. Tap here to view older history.</string>
   <string name="GroupUpgradedTo">Group upgraded to supergroup.</string>
-  <string name="MembersDetailRestricted">Users with restrictions</string>
+  <string name="MembersDetailRestricted">Members with restrictions</string>
   <string name="MembersDetailAdmins">Administrators</string>
   <string name="MembersDetailBanned">Banned users</string>
   <string name="ChatSuggestionsDisabled">Bot suggestions are disabled.\nTurn them back on in Settings &gt; Privacy and Security.</string>
