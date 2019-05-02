@@ -141,7 +141,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_cant_ban_admin" = "抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。";
 "lng_error_admin_limit" = "抱歉，此群组的管理员人数已达上限。";
 "lng_error_admin_limit_channel" = "抱歉，该频道的管理员人数已达上限。";
-
+"lng_error_post_link_invalid" = "很遗憾,你无法访问这条消息.你不是消息来源会话的成员.";
 "lng_sure_add_admin_invite" = "这名用户非本群组成员。是否要邀请其加入并提升为管理员？";
 "lng_sure_add_admin_invite_channel" = "这名用户非本频道订阅者。是否邀请其加入并提升为管理员？";
 "lng_sure_add_admin_unremove" = "此用户目前已被限制或已被移除。您确定要设置为管理员吗？";
@@ -833,8 +833,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_manage_peer_group_type" = "群组类型";
 "lng_manage_peer_channel_type" = "频道类型";
-
-
+"lng_manage_private_group_title" = "私密";
+"lng_manage_public_group_title" = "公开";
 "lng_manage_private_peer_title" = "私密";
 "lng_manage_public_peer_title" = "公开";
 
@@ -1197,14 +1197,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_saved_short" = "保存";
 "lng_saved_forward_here" = "转发消息到这里以便快速访问";
 
+"lng_archived_name" = "已归档对话";
+"lng_archived_add" = "已归档对话";
+"lng_archived_remove" = "未归档对话";
 
 
 
-
-
-
-
-
+"lng_archived_chats#other" = "{count} 个对话";
+"lng_archived_unread_two" = "{chat}, {second_chat}";
 
 
 
@@ -1311,7 +1311,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_copy_text" = "复制文本";
 "lng_context_open_gif" = "打开 GIF";
 "lng_context_save_gif" = "保存到 GIF 库";
-
+"lng_context_attached_stickers" = "装饰";
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";

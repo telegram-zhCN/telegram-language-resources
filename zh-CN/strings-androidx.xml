@@ -161,7 +161,7 @@
   
   <string name="xMessages_other">%1$s 条消息</string>
   
-  
+  <string name="xForwards_other">%1$s 条转发的消息</string>
   <string name="NewMessages">新消息</string>
   
   <string name="xNewMessages_other">%1$s 条新消息</string>
@@ -258,7 +258,7 @@
   <string name="YouHaveNewMessage">您有一条新消息</string>
   <string name="ChatContentWithCaption">%1$s: %2$s</string>
   <string name="ChatContentVoice">语音留言</string>
-  
+  <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">视频留言</string>
   <string name="ChatContentVideo">视频</string>
   <string name="ChatContentFile">文件</string>
@@ -2359,7 +2359,7 @@
   
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
-  
+  <string name="error_CHAT_SEND_POLL_FORBIDDEN">群组管理员限制了发送投票</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
 
@@ -2375,7 +2375,7 @@
   
   
   
-  
+  <string name="NotificationImportanceNone">禁用</string>
 
   
   
@@ -2414,7 +2414,7 @@
   <string name="LanguageChange">更改语言</string>
   <string name="LanguageChangeSuccess">语言已成功更改</string>
   <string name="LanguageDelete">移除语言包</string>
-  
+  <string name="LanguageDeleteConfirm">您确定要删除这种语言吗？\n\n%1$s / %2$s 将不再置于语言列表中。\n\n您可以随时使用此链接恢复：\n%3$s</string>
 
   <string name="RecoveryEmailSent">我们已经发送给您一封电子邮件来确认您的邮箱地址。</string>
   <string name="ResendRecoveryEmailCode">重新发送验证码</string>
@@ -2426,7 +2426,7 @@
   
 
   <string name="TestMode">测试工具</string>
-  
+  <string name="TestModeWarn">**警告**：测试实用程序**仅**可用于**测试**和**调试**目的。 他们都不被保证能工作。\n\n除非你知道自己在做什么，否则不要使用它们。</string>
   <string name="CopyVersion">复制版本号</string>
 
   
@@ -2482,26 +2482,26 @@
   <string name="LaunchAppGuideExternalError">由于设备错误，Telegram X 之前未能启动。\n\n请按**启动应用程序**再试一次。 如果应用程序仍然失败，请按照下列步骤操作\n\n•检查您是否有足够的可用磁盘空间。当前可用：**%1$s**。\n•确保没有其他存储问题，例如SD卡被弹出或无法识别。\n•重启设备。\n\n如果这没有帮助，您可以在 [TDLib的GitHub页面]（https://github.com/tdlib/td/issues） 上查找类似的问题以获取可能的解决方案，或者创建一个新问题，包括错误消息和设备细节。</string>
 
   <string name="LaunchSubtitleTdlibIssue">TDLib 致命错误。版本：%1$s</string>
-  
+  <string name="LaunchAppGuideTdlibIssue">由于TDLib致命错误，Telegram X之前未能启动。\n\n按**启动应用程序**再试一次。如果应用程序继续失败，请执行以下步骤：\n\n•[验证]（%2$s）您安装了最新的Telegram X版本。\n•重启设备。\n\n**如果上述步骤无效**\n\n1.使用以下方法之一与TDLib开发人员共享错误详细信息：\n - (私密)通过[@tdlib_bot]（https://t.me/tdlib_bot）使用其他设备或[Telegram Web]（https://web.telegram.org/）。\n - (公开)通过[GitHub页面]（https://github.com/tdlib/td/issues）。 **不要**公开分享** tdlib_log.txt **。\n2.请等待回复。\n3.根据TDLib开发人员的要求，在下面更改日志设置。\n4.按**启动应用程序**以使应用程序强制再次停止。\n5.与TDLib开发人员共享** tdlib_log.txt **并等待问题得到解决。\n6.更新后，您将能够正常启动应用程序。\n\n**备选方案**\n\n•在[GitHub]（https://github.com/tdlib/td/issues）上搜索类似问题，看看是否有通用解决方案。\n•重新安装应用程序。私密聊天将丢失。如果您使用的是同一个电话号码，则会从Telegram云中恢复所有其他聊天和数据。</string>
+
+  <string name="SelfDestructPhoto">自毁图片</string>
+  <string name="SelfDestructVideo">自毁视频</string>
 
   
-  
-
-  
-  
+  <string name="Invoice">账单</string>
 
   
 
-  
-  
-  
+  <string name="NotificationChannelOther">其他</string>
+  <string name="RetrievingMessages">正在获取新消息</string>
+  <string name="RetrieveMessagesError">获取消息失败.点击以解决.</string>
 
   <string name="AllowNotifications">通知时显示具体内容</string>
   <string name="AllowNotificationsInfo">如果启用，在应用被锁定时您仍可以在推送通知中看到具体消息内容。然而如“回复”、\"标记为已读\"等功能在您解锁前将无法使用。</string>
   
   <string name="ForwardAuthorHidden">此用户的隐私设置拒绝您查看转发来源</string>
 
-  
+  <string name="SendVideoError">不支持的视频格式. 尝试使用更少的视频选项或者直接作为文件发送.查看日志以获取细节.</string>
 
   <string name="Optimizing">正在优化数据库</string>
   <string name="OptimizingInfo">Telegram 会在每次更新后优化数据库。请稍等一会，这可能需要一些时间。</string>
@@ -2515,7 +2515,7 @@
   
   
   
-  
+  <string name="EraseDatabaseWarn2">**重要提示**\n\n您确定要清除本地数据库，删除所有下载的媒体文件并删除取消所有加密聊天吗？</string>
   <string name="EraseDatabaseMultiUser">该操作不会影响其他帐户。</string>
   <string name="EraseDatabaseWait">请等待上一个操作完成。</string>
 
