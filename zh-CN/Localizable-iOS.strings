@@ -6,7 +6,7 @@
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
-"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了一条 %2$@ 联系人信息";
+"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|正在共享他们的实时位置";
 "PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
@@ -18,8 +18,8 @@
 "PUSH_ENCRYPTION_REQUEST" = "新加密聊天请求%1$@";
 "PUSH_ENCRYPTION_ACCEPT" = "您的加密聊天请求已被接受%1$@";
 
-"PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
+"PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
@@ -56,7 +56,7 @@
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条 %2$@ 联系人信息";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了 %2$@ 的联系方式";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
@@ -89,10 +89,10 @@
 "PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
 "PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
 "PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
-"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了一条 %2$@ 联系人信息";
+"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|正在共享他们的实时位置";
-"PUSH_MESSAGE_POLL" = "%1$@|给您发送了一项投票";
+"PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
 "PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
 "PUSH_MESSAGE_INVOICE" = "%1$@|给您发送了一张 %2$@ 的账单";
@@ -121,10 +121,10 @@
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了一条 %2$@ 联系人信息";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了 %2$@ 的联系方式";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发布了一项投票";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
 "PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|发布了一条转发的消息";
@@ -154,7 +154,7 @@
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
-"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 向群里发送了一项投票";
+"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 发起投票 \"%3$@\"";
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
 "PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@ 发送了一张 %3$@ 的账单";
@@ -193,7 +193,7 @@
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
 "PUSH_PINNED_STICKER" = "%1$@|置顶了一张 %2$@ 贴纸";
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
-"PUSH_PINNED_CONTACT" = "%1$@|置顶了一条联系人信息";
+"PUSH_PINNED_CONTACT" = "%1$@|置顶了 %2$@ 的联系方式";
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
@@ -542,7 +542,7 @@
 "Message.Audio" = "语音留言";
 "Message.ForwardedMessage" = "转发的消息\n来自: %@";
 "Message.Animation" = "GIF";
-
+"Message.Game" = "游戏";
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "呃，发生了一个错误。";
@@ -896,7 +896,7 @@
 
 "PrivacySettings.SecurityTitle" = "安全";
 
-"PrivacySettings.DeleteAccountTitle" = "删除账户";
+"PrivacySettings.DeleteAccountTitle" = "删除我的账号";
 "PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
 "PrivacySettings.DeleteAccountHelp" = "此时间后，您的帐号如未上线，您的所有资料——包括消息记录、联系人都会被删除。";
 
@@ -3933,7 +3933,7 @@ Unused sets are archived when you add more.";
 
 "Undo.Undo" = "撤销";
 "Undo.ChatDeleted" = "对话已删除";
-
+"Undo.ChatCleared" = "聊天记录已清空";
 
 "Undo.SecretChatDeleted" = "加密对话已删除";
 "Undo.LeftChannel" = "已退出群组";
@@ -4085,7 +4085,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.ForwardAuthorHiddenTooltip" = "此用户的隐私设置拒绝您查看转发来源";
 
-
+"Privacy.Forwards.Preview" = "消息示例";
 
 "Privacy.Forwards.AlwaysLink" = "可以链接到您的帐户";
 "Privacy.Forwards.LinkIfAllowed" = "允许时可点击查看个人信息";
@@ -4097,7 +4097,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"Settings.Search" = "搜索";
 
 "SettingsSearch.FAQ" = "常见问题";
 
@@ -4178,7 +4178,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"SettingsSearch.Synonyms.Proxy.Title" = "SOCKS5\nMTProto\nmtproxy\nmt\nmtp\nsocks";
 
 
 
@@ -4204,14 +4204,14 @@ Unused sets are archived when you add more.";
 
 
 
-
+"Settings.CheckPhoneNumberTitle" = "%@ 仍然是您的手机号码吗？";
 
 
 "Settings.ChangePhoneNumber" = "更改手机号码";
 
 
 
-
+"DataUpgrade.Running" = "正在优化...";
 
 "Call.Mute" = "静音";
 
@@ -4219,22 +4219,22 @@ Unused sets are archived when you add more.";
 
 "Call.Speaker" = "免提";
 
+"MemberSearch.BotSection" = "机器人";
 
 
 
 
+"Stickers.ClearRecent" = "清空最近使用贴纸";
+
+"Appearance.Other" = "其他";
 
 
+"ChatList.ArchiveAction" = "归档";
+"ChatList.UnarchiveAction" = "取消归档";
+"ChatList.HideAction" = "隐藏";
 
 
-
-
-
-
-
-
-
-
+"ChatList.UndoArchiveTitle" = "对话已归档";
 
 
 

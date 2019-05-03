@@ -95,7 +95,7 @@
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
   <string name="login_InvalidPhone">请输入有效的手机号码</string>
-  
+  <string name="login_PHONE_NUMBER_INVALID">无效的电话号码。 请检查号码，然后重试。\n\n如果电话号码正确，__请联系我们__。</string>
   
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
@@ -266,17 +266,17 @@
   <string name="ChatContentAnimation">GIF</string>
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
+  <string name="ChatContentGroupCreate">创建了群组</string>
+  <string name="ChatContentGroupReturn">返回了群组</string>
   
   
   
   
-  
-  
-  
-  
-  
-  
-  
+  <string name="ChatContentGroupLeft">退出了群组</string>
+  <string name="ChatContentGroupJoin">通过邀请链接加入了群组</string>
+  <string name="ChatContentGroupJoinPublic">加入了群组</string>
+  <string name="ChatContentGroupKickYou">将您移出群组</string>
+  <string name="ChatContentGroupKick">"将 %1$s 移出群组 "</string>
   
   
   
@@ -2011,16 +2011,16 @@
   <string name="email_LoginTooLong_subject">Telegram X 连接问题</string>
   <string name="email_LoginTooLong_text">My Internet service provider is: (please enter the name)\n\nI\'ve just installed the application and tried to start messaging, but Telegram X is unable to connect to the server. Please help.\n\nApp version: %1$s\nLanguage: %2$s\nAwait time: %3$s\nSystem Language: %4$s\nSystem Version: %5$s</string>
 
-  
-  
+  <string name="email_InvalidNumber_subject">Invalid phone number: %1$s</string>
+  <string name="email_InvalidNumber_text">My mobile phone operator: (please enter the name)\nI\'m trying to use my mobile phone number: %1$s\nBut Telegram says it\'s invalid. Please help.</string>
 
-  
-  
+  <string name="email_BannedNumber_subject">Banned phone number: %1$s</string>
+  <string name="email_BannedNumber_text">I\'m trying to use my mobile phone number: %1$s\nBut Telegram says it\'s banned. Please help.</string>
 
-  
-  
+  <string name="email_LoginError_subject">Telegram X error: %1$s</string>
+  <string name="email_LoginError_text">I\'m trying to use my mobile phone number: %1$s\nBut Telegram shows an error. Please help.\nError: %2$s</string>
 
-  
+  <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
   
   
@@ -2370,7 +2370,7 @@
   <string name="NotificationImportanceHighNoSound">振动与弹窗</string>
   
   
-  
+  <string name="NotificationImportanceDefaultNoSound">振动</string>
   
   
   
@@ -2401,7 +2401,7 @@
   <string name="NotificationsGuideBlockedApp">您在系统设置中关闭了 Telegram 的通知权限。请点按 “系统通知设置” 来开启它。</string>
   <string name="NotificationsGuideBlockedCategory">在系统设置中禁用当前帐户的推送通知。\n\n要启用通知，请：\n•点击系统通知设置\n•查找 «%1$s» 通知类别。\n•将该类别的开关打开。</string>
   
-  
+  <string name="NotificationsGuideSyncGlobalOff">您在系统设置中关闭了数据同步。当应用关闭时，您可能无法收到推送通知。\n\n您设备上的电池优化模式可能会静默关闭后台数据同步。</string>
   
   <string name="NotificationsGuideFirebaseUnavailable">Google Play 服务不可用。 请检查您是否安装了最新版本。\n\n此时推送通知可能延迟或丢失。</string>
   <string name="TurnSyncOnApp">打开数据同步</string>
@@ -2429,10 +2429,10 @@
   <string name="TestModeWarn">**警告**：测试实用程序**仅**可用于**测试**和**调试**目的。 他们都不被保证能工作。\n\n除非你知道自己在做什么，否则不要使用它们。</string>
   <string name="CopyVersion">复制版本号</string>
 
-  
+  <string name="LogFiles">日志文件</string>
   <string name="AppLogs">应用日志</string>
-  
-  
+  <string name="AppLogsDisable">关闭所有日志</string>
+  <string name="AppLogsClear">删除所有应用程序日志？</string>
 
   <string name="CreatePoll">发起投票</string>
   <string name="RetractVote">撤回我的投票</string>
@@ -2508,47 +2508,47 @@
 
   
 
-  
-  
+  <string name="SessionLogInDate">登录时间: %1$s</string>
+  <string name="SessionLastActiveDate">最后活跃时间: %1$s</string>
 
+  <string name="EraseDatabase">清除所有数据</string>
+  <string name="EraseDatabaseDone">所有数据都已成功删除。</string>
   
-  
-  
-  
+  <string name="EraseDatabaseWarn">**警告！**\n\n加密聊天记录将全部丢失。 所有媒体都将需要重新下载。</string>
   <string name="EraseDatabaseWarn2">**重要提示**\n\n您确定要清除本地数据库，删除所有下载的媒体文件并删除取消所有加密聊天吗？</string>
   <string name="EraseDatabaseMultiUser">该操作不会影响其他帐户。</string>
   <string name="EraseDatabaseWait">请等待上一个操作完成。</string>
 
-  
-  
-  
-  
-
-  
-  
-  
+  <string name="ReadAllChats">标记所有对话为已读</string>
   
   
   
 
   
+  <string name="LinkStateKnowsNumber">%1$s 可以看到你的手机号码。</string>
+  
+  
+  
+  
+
+  <string name="PhoneNumberUnknown">未知</string>
 
   
 
   <string name="Stats">统计数据</string>
   <string name="ViewStats">查看统计数据</string>
 
-  
-  
+  <string name="InstantViewUnsupported">即时预览暂不支持此页面。</string>
+  <string name="LanguageDatabase">语言包文件</string>
+  <string name="SettingsAndThemes">设置和主题</string>
+
+  <string name="Paints">图片</string>
   
 
   
   
 
-  
-  
-
-  
+  <string name="format_approx">%1$s (估算)</string>
 
   
 
@@ -2557,7 +2557,7 @@
 
   <string name="RestartEffect">将在重启应用后生效。</string>
 
-  
+  <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
   
   

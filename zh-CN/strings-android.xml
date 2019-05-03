@@ -2610,7 +2610,7 @@
     <string name="AccDescrOpenChat">打开对话</string>
     <string name="AccDescrProfilePicture">头像</string>
     <string name="AccDescrChangeProfilePicture">更改头像</string>
-    <string name="AccDescrContactSorting">Change sorting</string>
+    <string name="AccDescrContactSorting">更改排序方式</string>
     <string name="AccDescrShowAccounts">显示帐户列表</string>
     <string name="AccDescrHideAccounts">隐藏帐户列表</string>
 	<string name="AccDescrGoToMessage">Go to message</string>
@@ -2714,7 +2714,7 @@
   <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
   <string name="SetAdminsTitle">管理员</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
-  <string name="TextSize">文字大小</string>
+  <string name="TextSize">消息文字大小</string>
   <string name="UserRestrictionsBy">被 %1$s 限制</string>
   <string name="UserRestrictionsUntil">封禁时间</string>
   <string name="ViewDetails">查看联系人</string>

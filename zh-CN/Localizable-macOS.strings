@@ -978,7 +978,7 @@
 "Contacts.NotRegistredTitle" = "不是 Telegram 用户";
 "Contacts.NotRegistredDescription" = "该联系人尚未注册 Telegram 。\n\n当其完成注册后，您即可向其发送消息。";
 
-
+"Contacts.PhoneNumber.Invalid" = "手机号码不能为空";
 
 
 
@@ -2890,13 +2890,13 @@
 "Login.PhoneNumberAlreadyAuthorized" = "该帐户已在此应用中登录。";
 "Login.PhoneNumberAlreadyAuthorized.Switch" = "切换";
 
+"InputFormatter.Text.Header" = "文本";
+"InputFormatter.URL.Header" = "链接";
+"InputFormatter.URL.Placeholder" = "链接";
 
 
-
-
-
-
-
+"_NS:99.title" = "编辑";
+"_NS:77.title" = "查看";
 
 
 
@@ -2913,7 +2913,7 @@
 
 
 
-
+"Login.Register.Desc" = "请输入您的姓名并添加一张头像。";
 "Login.Register.FirstName.Placeholder" = "名字";
 "Login.Register.LastName.Placeholder" = "姓氏";
 

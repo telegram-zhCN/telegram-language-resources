@@ -833,7 +833,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_manage_peer_group_type" = "群组类型";
 "lng_manage_peer_channel_type" = "频道类型";
-"lng_manage_private_group_title" = "私密";
+"lng_manage_private_group_title" = "私聊";
 "lng_manage_public_group_title" = "公开";
 "lng_manage_private_peer_title" = "私密";
 "lng_manage_public_peer_title" = "公开";
@@ -1842,7 +1842,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_native_name_language" = "请用{language}填写您的姓名";
 "lng_passport_native_name_language_about" = "请以您所居住的国家语言填写您的姓名。";
 "lng_passport_address" = "地址";
-"lng_passport_address_enter" = "请输入地址";
+"lng_passport_address_enter" = "请提供您的住址";
 "lng_passport_street" = "街道";
 "lng_passport_city" = "城市";
 "lng_passport_state" = "省份";
