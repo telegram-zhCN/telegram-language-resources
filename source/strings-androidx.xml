@@ -2559,6 +2559,16 @@
 
   <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
+  <string name="EmojiLoaded">Downloaded</string>
+  <string name="EmojiInstalling">Installing…</string>
+  <string name="Emoji">Emoji Set</string>
+  <string name="EmojiCurrent">Current Set</string>
+  <string name="EmojiBuiltIn">Default</string>
+  <string name="EmojiPreview">&#128512;&#128521;\n&#128532;&#128552;</string>
+  <string name="EmojiInfo">This affects emoji appearance only for you. Others see them based on their preferences.</string>
+  <string name="EmojiSets">Emoji Sets</string>
+  <string name="EmojiSetsInfo">Are you sure you want to clear unused emoji sets?</string>
+
   
   
   
