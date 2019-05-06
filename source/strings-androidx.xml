@@ -1146,7 +1146,7 @@
   <string name="ProxySettings">Proxy settings</string>
   <string name="EnableProxyAlertTitle">Are you sure you want to enable this proxy?</string>
   <string name="EnableProxyAlertHint">You can change your proxy server later in Settings &gt; Data and Storage.</string>
-  <string name="EnableProxyAlertHintMtproto">This proxy may display a sponsored channel in your chats list. This doesn\'t reveal any of your Telegram traffic.</string>
+  <string name="EnableProxyAlertHintMtproto">This proxy may display a sponsored channel in your chat list. This doesn\'t reveal any of your Telegram traffic.</string>
   <string name="ProxyEnable">Enable</string>
   <string name="ProxySaveForLater">Save Proxy</string>
   <string name="UseProxyUsername">Username</string>
@@ -2384,9 +2384,9 @@
   <string name="EventNewContact2">New Contacts Notification</string>
 
   <string name="NotificationsSetting">Notifications</string>
-  <string name="NotificationsSettingOn">Notifications are enabled by default. You can mute specific chats from the chats list.</string>
+  <string name="NotificationsSettingOn">Notifications are enabled by default. You can mute specific chats from the chat list.</string>
   <string name="NotificationsSettingBlocked">Notifications are blocked by default. Change Notification Style value to unblock them.</string>
-  <string name="NotificationsSettingOff">Notifications are disabled by default. You can unmute specific chats from the chats list.</string>
+  <string name="NotificationsSettingOff">Notifications are disabled by default. You can unmute specific chats from the chat list.</string>
 
   <string name="ShowSecret">Secret Chats on Lock Screen</string>
   <string name="ShowSecretOn">Turn off to hide secret chat notifications when device is locked. You will still receive sound, if device is not muted.</string>

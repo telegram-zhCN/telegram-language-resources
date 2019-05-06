@@ -2193,7 +2193,7 @@
 "Chat.ProxySponsored.CapDesc" = "This channel is shown by your proxy server";
 "Chat.ProxySponsored.CapTitle" = "Proxy Sponsor";
 
-"Chat.ProxySponsored.AlertText" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
+"Chat.ProxySponsored.AlertText" = "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings.";
 "Chat.ProxySponsored.AlertSettings" = "Settings";
 "Chat.ProxySponsored.AlertHeader" = "Proxy Sponsor";
 

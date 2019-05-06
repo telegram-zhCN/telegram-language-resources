@@ -3141,7 +3141,7 @@ Unused sets are archived when you add more.";
 "SocksProxySetup.ProxyEnabled" = "Proxy\nEnabled";
 
 "DialogList.AdLabel" = "Proxy Sponsor";
-"DialogList.AdNoticeAlert" = "This channel is shown by your proxy server. To remove this channel from your chats list, disable the proxy in Telegram Settings.";
+"DialogList.AdNoticeAlert" = "This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings.";
 "SocksProxySetup.AdNoticeHelp" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal your Telegram traffic.";
 
 "SocksProxySetup.ShareProxyList" = "Share Proxy List";
@@ -3616,7 +3616,7 @@ Unused sets are archived when you add more.";
 "Notifications.Badge.CountUnreadMessages.InfoOn" = "Switch off to show the number of unread chats instead of messages.";
 
 "Appearance.ReduceMotion" = "Reduce Motion";
-"Appearance.ReduceMotionInfo" = "Disable animations in message bubbles and in the chats list.";
+"Appearance.ReduceMotionInfo" = "Disable animations in message bubbles and in the chat list.";
 
 "Appearance.Animations" = "ANIMATIONS";
 
