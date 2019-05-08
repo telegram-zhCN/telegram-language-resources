@@ -1260,7 +1260,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_user_action_upload_file" = "{user} is sending a file";
 "lng_unread_bar#one" = "{count} unread message";
 "lng_unread_bar#other" = "{count} unread messages";
-
+/* "lng_unread_bar_some" = "Unread messages"; */
 
 "lng_maps_point" = "Location";
 "lng_save_photo" = "Save image";
@@ -1285,6 +1285,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_unpin_from_top" = "Unpin from top";
 "lng_context_mark_unread" = "Mark as unread";
 "lng_context_mark_read" = "Mark as read";
+"lng_context_archive_expand" = "Expand";
+"lng_context_archive_collapse" = "Collapse";
 
 "lng_context_promote_admin" = "Promote to admin";
 "lng_context_edit_permissions" = "Edit permissions";
@@ -1552,7 +1554,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_player_message_yesterday" = "Yesterday at {time}";
 "lng_player_message_date" = "{date} at {time}";
 /* "lng_player_cant_stream" = "This file can't be played before it is fully downloaded.\n\nWould you like to download it?"; */
-
+/* "lng_player_download" = "Download"; */
 
 "lng_rights_edit_admin" = "Edit permissions";
 "lng_rights_edit_admin_header" = "What can this admin do?";

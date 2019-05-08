@@ -2022,7 +2022,7 @@
 
   <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
-  
+  <string name="SignOutHint2">您确定要将 %1$s 注销吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，退出会取消你所有的加密聊天，并抹除所有已下载的媒体文件。</string>
   
 
   <string name="SignOutAlt">其它选项</string>
@@ -2316,7 +2316,7 @@
   <string name="AppBadgeHint">在应用图标上显示未读消息数。在部分设备上可能无法显示。\n\n无论设置如何，系统都可能在播放音乐或进行通话时显示额外的消息计数。</string>
   <string name="IncludeDismissed">包括错过的消息</string>
   <string name="IncludeDismissedHintOn">切换来开启在新通知中包括会话中错过的未读消息</string>
-  
+  <string name="IncludeDismissedHintOff">关闭以在收到新通知时排除之前错过的通知</string>
   <string name="Groups">群组</string>
   <string name="Channels">频道</string>
 
@@ -2385,7 +2385,7 @@
 
   <string name="NotificationsSetting">通知与提醒</string>
   <string name="NotificationsSettingOn">默认情况下将启用通知。 您可以从对话列表中将特定对话设为静音。</string>
-  
+  <string name="NotificationsSettingBlocked">通知被默认屏蔽.修改通知样式来解除屏蔽</string>
   <string name="NotificationsSettingOff">通知已被默认禁用.你可以从会话列表中取消特定会话的免打扰.</string>
 
   <string name="ShowSecret">在锁定屏幕上显示加密会话</string>
@@ -2513,7 +2513,7 @@
 
   <string name="EraseDatabase">清除所有数据</string>
   <string name="EraseDatabaseDone">所有数据都已成功删除。</string>
-  
+  <string name="EraseDatabaseProgress">"抹除所有数据...请稍候，不要关闭应用程序，此操作可能需要一段时间。 "</string>
   <string name="EraseDatabaseWarn">**警告！**\n\n加密聊天记录将全部丢失。 所有媒体都将需要重新下载。</string>
   <string name="EraseDatabaseWarn2">**重要提示**\n\n您确定要清除本地数据库，删除所有下载的媒体文件并删除取消所有加密聊天吗？</string>
   <string name="EraseDatabaseMultiUser">该操作不会影响其他帐户。</string>

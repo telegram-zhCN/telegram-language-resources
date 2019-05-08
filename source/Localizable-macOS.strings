@@ -1402,6 +1402,9 @@
 "ProxySettings.Password" = "Password";
 "ProxySettings.Save" = "Save";
 
+"ProxySettings.QR.Text" = "You or your friends can add this proxy by scanning this code with phone or in-app camera.";
+
+
 "Channel.EventLog.OriginalMessage" = "Original message";
 "Channel.EventLog.Empty" = "Empty";
 "Channel.Admin.CantEditRights" = "You cannot edit the rights of this admin.";
@@ -2328,6 +2331,10 @@
 "ChatList.Swiping.Mute" = "Mute";
 "ChatList.Swiping.Unmute" = "Unmute";
 
+"ChatList.Swiping.Archive" = "Archive";
+"ChatList.Swiping.Unarchive" = "Unarchive";
+
+
 "PeerSelect.InviteViaLink" = "Invite to Group via Link";
 
 
@@ -2959,6 +2966,33 @@
 
 "Chat.Service.SearchAllMessages" = "Search messages by %@";
 
+"TextView.Transform.RemoveAll" = "Clear Transformations";
+"ChatList.ArchivedChats" = "Archived Chats";
+
+"Telegram.UpgradeDatabase.Title" = "Optimizing Database";
+"Telegram.UpgradeDatabase.Text" = "Telegram needs to optimize its database after this update. This may take a few minutes, sorry for the inconvenience.";
+
+
+"Notification.MarkAsRead" = "Mark as Read";
+
+
+"Archive.Tooltip.First.Title" = "Chat Archived";
+"Archive.Tooltip.First.Text" = "unmuted chats will get unarchived if new messages arrive.";
+
+"Archive.Tooltip.Second.Title" = "Chat Archived";
+"Archive.Tooltip.Second.Text" = "muted chats will stay archived after new messages arrive.";
+
+"Archive.Tooltip.Third.Title" = "Chat Archived";
+"Archive.Tooltip.Third.Text" = "you can pin an unlimited number of archived chats on the top.";
+
+"Archive.Tooltip.JustArchive.Title" = "Chat Archived";
+
+
+"ChatList.RevealAction.Collapse" = "Collapse";
+"ChatList.RevealAction.Expand" = "Expand";
+
+
+"Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "Sorry, you can't create a group with these users due to their privacy settings.";
 
 
 /* new from translations.telegram.org */

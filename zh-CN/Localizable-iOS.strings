@@ -4227,7 +4227,7 @@ Unused sets are archived when you add more.";
 "Stickers.ClearRecent" = "清空最近使用贴纸";
 
 "Appearance.Other" = "其他";
-
+"Appearance.LargeEmoji" = "大号表情";
 
 "ChatList.ArchiveAction" = "归档";
 "ChatList.UnarchiveAction" = "取消归档";
@@ -4235,6 +4235,7 @@ Unused sets are archived when you add more.";
 
 
 "ChatList.UndoArchiveTitle" = "对话已归档";
+
 
 
 

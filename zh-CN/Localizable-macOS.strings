@@ -1402,6 +1402,9 @@
 "ProxySettings.Password" = "密码";
 "ProxySettings.Save" = "保存";
 
+
+
+
 "Channel.EventLog.OriginalMessage" = "原始消息";
 "Channel.EventLog.Empty" = "无";
 "Channel.Admin.CantEditRights" = "您无权修改此管理员的权限。";
@@ -2328,6 +2331,10 @@
 "ChatList.Swiping.Mute" = "关闭通知";
 "ChatList.Swiping.Unmute" = "开启通知";
 
+
+
+
+
 "PeerSelect.InviteViaLink" = "通过链接邀请他人加入群组";
 
 
@@ -2943,6 +2950,33 @@
 
 
 "Chat.ViewBackground" = "查看背景图";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

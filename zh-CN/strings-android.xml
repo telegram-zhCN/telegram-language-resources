@@ -144,12 +144,26 @@
     <string name="EncryptedChatStartedIncoming">您已加入加密对话。</string>
     <string name="ClearHistory">清空历史记录</string>
     <string name="HistoryClearedUndo">消息记录已清空。</string>
+    <string name="ChatsMute">Mute</string>
+    <string name="ChatsUnmute">Unmute</string>
     <string name="ChatDeletedUndo">对话已删除。</string>
     <string name="GroupDeletedUndo">群组已删除。</string>
     <string name="ChannelDeletedUndo">频道已删除。</string>
+    <string name="ArchivePinned">Archive pinned.</string>
+    <string name="ArchivePinnedInfo">Swipe left on the archive to hide it.</string>
+    <string name="ArchiveHidden">Archive hidden.</string>
+    <string name="ArchiveHiddenInfo">Swipe down to see the archive.</string>
+    <string name="ChatArchived">Chat archived.</string>
+    <string name="ChatsArchived">Chats archived.</string>
+    <string name="ChatArchivedInfo">Hide the archive by swiping left on it.</string>
     <string name="Undo">撤销</string>
     <string name="ClearHistoryCache">清除消息缓存</string>
     <string name="DeleteChat">删除并退出群组</string>
+    <string name="HideOnTop">Hide</string>
+    <string name="UnhideFromTop">Pin</string>
+    <string name="Archive">Archive</string>
+    <string name="Unarchive">Unarchive</string>
+    <string name="ArchivedChats">Archived Chats</string>
     <string name="DeleteChatUser">删除对话</string>
     <string name="HiddenName">已销号</string>
     <string name="SelectChat">选择对话</string>
@@ -191,6 +205,12 @@
     <string name="ContactsPermissionAlertNotNow">稍后再说</string>
     <string name="ContactsPermissionAlertContinue">继续</string>
     <string name="YourContacts">您在 Telegram 上的联系人</string>
+    <string name="ArchiveHintHeader1">This is your Archive</string>
+    <string name="ArchiveHintText1">Chats with enabled notifications get unarchived when new messages arrive.</string>
+    <string name="ArchiveHintHeader2">Muted chats</string>
+    <string name="ArchiveHintText2">Chats with disabled notifications stay archived when new messages arrive.</string>
+    <string name="ArchiveHintHeader3">Pinned chats</string>
+    <string name="ArchiveHintText3">You can pin an unlimited number of archived chats to the top.</string>
     <!--channels-->
     <string name="SetAsAdmin">设为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
@@ -282,6 +302,11 @@
     <string name="ChannelAddException">添加例外</string>
     <string name="ChannelSearchException">搜索例外</string>
     <string name="ChannelBlockedUsers">被封禁的用户</string>
+    <string name="ChannelContacts">Contacts in this channel</string>
+    <string name="GroupContacts">Contacts in this group</string>
+    <string name="ChannelBots">Bots</string>
+    <string name="ChannelOtherMembers">Other members</string>
+    <string name="ChannelOtherSubscribers">Other subscribers</string>
     <string name="ChannelRestrictedUsers">受限的用户</string>
     <string name="ChannelAdministrators">管理员</string>
     <string name="ChannelDelete">删除频道</string>
@@ -331,13 +356,14 @@
     <string name="ChannelMessageNoText">%1$s 发送了一条消息</string>
     <string name="ChannelMessagePhoto">%1$s 发送了一张图片</string>
     <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
-    <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
-    <string name="ChannelMessagePoll">%1$s 发布了一项投票</string>
+    <string name="ChannelMessageContact2">%1$s posted a contact %2$s</string>
+    <string name="ChannelMessagePoll2">%1$s posted a poll %2$s</string>
     <string name="ChannelMessageMap">%1$s 发送了一个位置</string>
     <string name="ChannelMessageLiveLocation">%1$s 正在共享实时位置</string>
     <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
     <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
     <string name="ChannelMessageFew">"%1$s 发送了 %2$s "</string>
+    <string name="ChannelMessageAlbum">%1$s posted an album</string>
     <string name="ChannelMessageAudio">%1$s 发布了一条语音留言</string>
     <string name="ChannelMessageRound">%1$s 发送了一条视频留言</string>
     <string name="ChannelMessageMusic">%1$s 发布了一首音乐</string>
@@ -761,6 +787,7 @@
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">不使用预览</string>
     <string name="InstallGoogleMaps">安装 Google 地图？</string>
+    <string name="ScamMessage">SCAM</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -769,6 +796,7 @@
     <string name="YouHaveNewMessage">您有一条新消息</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s 发送给你 %2$s</string>
+    <string name="NotificationMessageAlbum">%1$s sent you an album</string>
     <string name="NotificationMessageForwardFew">%1$s 向您转发了 %2$s</string>
     <string name="NotificationMessageNoText">%1$s 给您发送了一条消息</string>
     <string name="NotificationMessagePhoto">%1$s 给您发送了一张图片</string>
@@ -776,11 +804,12 @@
     <string name="NotificationMessageInvoice">%1$s 向您发送了一个 %2$s 的订单</string>
     <string name="NotificationMessageSDPhoto">%1$s 给您发送了一张自毁图片</string>
     <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
-    <string name="NotificationMessageContact">%1$s 给您分享了一条联系人信息</string>
-    <string name="NotificationMessagePoll">%1$s 给您发送了一项投票</string>
+    <string name="NotificationMessageContact2">%1$s shared a contact %2$s with you</string>
+    <string name="NotificationMessagePoll2">%1$s sent you a poll %2$s</string>
     <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
     <string name="NotificationMessageLiveLocation">%1$s 正在与您共享实时位置</string>
     <string name="NotificationMessageGame">"%1$s 邀请您玩 %2$s "</string>
+    <string name="NotificationMessageGameScored">%1$s scored %3$s in game %2$s</string>
     <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
     <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
     <string name="NotificationMessageAudio">%1$s 给您发送了一条语音留言</string>
@@ -792,11 +821,12 @@
     <string name="NotificationMessageGroupNoText">%1$s 发送了一条消息到 %2$s 群组</string>
     <string name="NotificationMessageGroupPhoto">%1$s 发送了一张图片到群组 %2$s</string>
     <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到群组 %2$s</string>
-    <string name="NotificationMessageGroupPoll">%1$s 发送了一项投票到群组 %2$s</string>
-    <string name="NotificationMessageGroupContact">%1$s 分享了一条联系人信息到 %2$s 群组</string>
+    <string name="NotificationMessageGroupPoll2">%1$s sent a poll %3$s to the group %2$s</string>
+    <string name="NotificationMessageGroupContact2">%1$s shared a contact %3$s in the group %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
     <string name="NotificationMessageGroupLiveLocation">"%1$s 共享了实时位置在群组 %2$s "</string>
     <string name="NotificationMessageGroupGame">%1$s 邀请您加入群组 %2$s 来玩 %3$s</string>
+    <string name="NotificationMessageGroupGameScored">%1$s scored %4$s in game %3$s in the group %2$s</string>
     <string name="NotificationMessageGroupDocument">%1$s 发送了一个文件到群组 %2$s</string>
     <string name="NotificationMessageGroupGif">%1$s 发送了一张 GIF 到群组 %2$s</string>
     <string name="NotificationMessageGroupInvoice">%1$s 给群组 %2$s 发送了一张 %3$s 的账单</string>
@@ -819,6 +849,7 @@
     <string name="NotificationContactNewPhoto">%1$s 更新了头像</string>
     <string name="NotificationInvitedToGroupByLink">%1$s 已通过邀请链接加入群组 %2$s</string>
     <string name="NotificationGroupFew">%1$s 发送了 %3$s 到群组 %2$s</string>
+    <string name="NotificationGroupAlbum">%1$s sent an album to the group %2$s</string>
     <string name="NotificationGroupForwardedFew">%1$s 转发了 %3$s 到群组 %2$s</string>
     <string name="Reply">回复</string>
     <string name="ReplyToGroup">回复 %1$s</string>
@@ -827,16 +858,17 @@
     <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
     <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
-    <string name="NotificationActionPinnedPoll">%1$s 在群组 %2$s 置顶了一项投票</string>
+    <string name="NotificationActionPinnedPoll2">%1$s pinned a poll %3$s in the group %2$s</string>
     <string name="NotificationActionPinnedPhoto">%1$s 在群组 %2$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGame">%1$s 在群组 %2$s 置顶了一个游戏</string>
+    <string name="NotificationActionPinnedGameScore">%1$s pinned a game score in the group %2$s</string>
     <string name="NotificationActionPinnedVideo">%1$s 在群组 %2$s 置顶了一段视频</string>
     <string name="NotificationActionPinnedFile">%1$s 在群组 %2$s 置顶了一个文件</string>
     <string name="NotificationActionPinnedSticker">%1$s 在群组 %2$s 置顶了一张贴纸</string>
     <string name="NotificationActionPinnedStickerEmoji">%1$s 在群组 %2$s 置顶了一张 %3$s 贴纸</string>
     <string name="NotificationActionPinnedVoice">%1$s 在群组 %2$s 置顶了一段语音留言</string>
     <string name="NotificationActionPinnedRound">%1$s 在群组 %2$s 置顶了一段视频留言</string>
-    <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一条联系人信息</string>
+    <string name="NotificationActionPinnedContact2">%1$s pinned a contact %3$s in the group %2$s</string>
     <string name="NotificationActionPinnedGeo">%1$s 在群组 %2$s 置顶了一个地理位置</string>
     <string name="NotificationActionPinnedGeoLive">%1$s 在群组 %2$s 置顶了一个实时位置</string>
     <string name="NotificationActionPinnedGif">%1$s 在群组 %2$s 置顶了一张 GIF</string>
@@ -844,9 +876,10 @@
     <string name="NotificationActionPinnedInvoice">%1$s 在群组 %2$s 置顶了一张账单</string>
     <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
-    <string name="NotificationActionPinnedPollChannel">%1$s 置顶了一项投票</string>
+    <string name="NotificationActionPinnedPollChannel2">%1$s pinned a poll %2$s</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGameChannel">%1$s 置顶了一个游戏</string>
+    <string name="NotificationActionPinnedGameScoreChannel">%1$s pinned a game score</string>
     <string name="NotificationActionPinnedVideoChannel">%1$s 置顶了一段视频</string>
     <string name="NotificationActionPinnedFileChannel">%1$s 置顶了一个文件</string>
     <string name="NotificationActionPinnedInvoiceChannel">%1$s 置顶了一张留言</string>
@@ -854,7 +887,7 @@
     <string name="NotificationActionPinnedStickerEmojiChannel">%1$s 置顶了 1 张 %2$s 贴纸</string>
     <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了一条语音留言</string>
     <string name="NotificationActionPinnedRoundChannel">%1$s 置顶了一条视频留言</string>
-    <string name="NotificationActionPinnedContactChannel">%1$s 置顶了一条联系人信息</string>
+    <string name="NotificationActionPinnedContactChannel2">%1$s pinned a contact %2$s</string>
     <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了一个位置</string>
     <string name="NotificationActionPinnedGeoLiveChannel">%1$s 置顶了一个实时位置</string>
     <string name="NotificationActionPinnedGifChannel">%1$s 置顶了一张 GIF</string>
@@ -899,6 +932,8 @@
     <string name="JoinToGroupErrorFull">抱歉，此群组已满员。</string>
     <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
     <string name="LinkCopied">链接已复制到剪贴板</string>
+    <string name="LinkCopiedPrivate">Link copied to clipboard.\nThis link will only work for members of this chat.</string>
+    <string name="LinkNotFound">Unfortunately, you can\'t access this message. You are not a member of the chat where it was posted.</string>
     <string name="PhoneCopied">手机号码已复制到剪贴板</string>
     <string name="EmailCopied">电子邮箱已复制到剪贴板</string>
     <string name="InviteToGroupByLink">通过链接邀请他人加入群组</string>
@@ -993,6 +1028,8 @@
     <!--stickers view-->
     <string name="StickersName">贴纸和装饰</string>
     <string name="AddStickers">添加贴纸包</string>
+    <string name="AddStickersCount">ADD %1$s</string>
+    <string name="RemoveStickersCount">REMOVE %1$s</string>
     <string name="AddMasks">添加装饰</string>
     <string name="AddToStickers">添加到贴纸库</string>
     <string name="AddToFavorites">添加到收藏</string>
@@ -1065,6 +1102,9 @@
     <string name="SaveTheme">保存主题</string>
     <string name="NewTheme">新建颜色主题</string>
     <string name="ColorTheme">色彩主题</string>
+    <string name="ChatList">Chat list view</string>
+    <string name="ChatListDefault">Two lines</string>
+    <string name="ChatListExpanded">Three lines</string>
     <string name="CreateTheme">创建主题</string>
     <string name="ApplyTheme">应用</string>
     <string name="ThemePreview">主题预览</string>
@@ -1243,6 +1283,9 @@
     <string name="AutoDownloadPhotos">图片</string>
     <string name="AutoDownloadVideos">视频</string>
     <string name="AutoDownloadFiles">文件</string>
+    <string name="AutoDownloadPhotosOn">Photos</string>
+    <string name="AutoDownloadVideosOn">Videos</string>
+    <string name="AutoDownloadFilesOn">Files</string>
     <string name="AutoDownloadFilesTitle">自动下载文件和音乐</string>
     <string name="AutoDownloadPhotosTitle">自动下载图片</string>
     <string name="AutoDownloadVideosTitle">自动下载视频和 GIF</string>
@@ -2098,6 +2141,12 @@
     <string name="SendGameTo">分享游戏给 %1$s 吗？</string>
     <string name="SendContactTo">发送联系人信息给 %1$s ？</string>
     <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
+    <string name="DeleteFewChatsTitle">Delete %1$s</string>
+    <string name="ClearFewChatsTitle">Clear %1$s</string>
+    <string name="ClearCacheFewChatsTitle">Empty cache for %1$s</string>
+    <string name="AreYouSureDeleteFewChats">Are you sure you want to delete selected chats?</string>
+    <string name="AreYouSureClearHistoryFewChats">Are you sure you want to clear history in selected chats?</string>
+    <string name="AreYouSureClearHistoryCacheFewChats">Delete all cached text and media from selected chats?</string>
     <string name="AreYouSureDeleteAndExit">您确定要删除并退出此群组吗？</string>
     <string name="AreYouSureDeleteAndExitName">您确定要删除并退出 **%1$s** 吗？</string>
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
@@ -2310,6 +2359,24 @@
     <string name="Chats_few">%1$d 个对话</string>
     <string name="Chats_many">%1$d 个对话</string>
     <string name="Chats_other">%1$d 个对话</string>
+    <string name="ChatsSelected_zero">%1$d chats</string>
+    <string name="ChatsSelected_one">%1$d chat</string>
+    <string name="ChatsSelected_two">%1$d chats</string>
+    <string name="ChatsSelected_few">%1$d chats</string>
+    <string name="ChatsSelected_many">%1$d chats</string>
+    <string name="ChatsSelected_other">%1$d chats</string>
+    <string name="ChatsSelectedClearCache_zero">%1$d chats</string>
+    <string name="ChatsSelectedClearCache_one">%1$d chat</string>
+    <string name="ChatsSelectedClearCache_two">%1$d chats</string>
+    <string name="ChatsSelectedClearCache_few">%1$d chats</string>
+    <string name="ChatsSelectedClearCache_many">%1$d chats</string>
+    <string name="ChatsSelectedClearCache_other">%1$d chats</string>
+    <string name="ChatsSelectedClear_zero">%1$d chats</string>
+    <string name="ChatsSelectedClear_one">%1$d chat</string>
+    <string name="ChatsSelectedClear_two">%1$d chats</string>
+    <string name="ChatsSelectedClear_few">%1$d chats</string>
+    <string name="ChatsSelectedClear_many">%1$d chats</string>
+    <string name="ChatsSelectedClear_other">%1$d chats</string>
     <string name="ChatsException_zero">%1$d 个对话</string>
     <string name="ChatsException_one">%1$d 个对话</string>
     <string name="ChatsException_two">%1$d 个对话</string>
@@ -2436,6 +2503,12 @@
     <string name="Stickers_few">%1$d 张贴纸</string>
     <string name="Stickers_many">%1$d 张贴纸</string>
     <string name="Stickers_other">%1$d 张贴纸</string>
+    
+    
+    
+    
+    
+    
     <string name="Subscribers_zero">%1$d 位订阅者</string>
     <string name="Subscribers_one">%1$d 位订阅者</string>
     <string name="Subscribers_two">%1$d 位订阅者</string>
@@ -2503,6 +2576,12 @@
     <string name="Photos_few">%1$d 张图片</string>
     <string name="Photos_many">%1$d 张图片</string>
     <string name="Photos_other">%1$d 张图片</string>
+    <string name="Videos_zero">%1$d photos</string>
+    <string name="Videos_one">%1$d photo</string>
+    <string name="Videos_two">%1$d photos</string>
+    <string name="Videos_few">%1$d photos</string>
+    <string name="Videos_many">%1$d photos</string>
+    <string name="Videos_other">%1$d photos</string>
     <string name="Files_zero">%1$d 个文件</string>
     <string name="Files_one">%1$d 个文件</string>
     <string name="Files_two">%1$d 个文件</string>
@@ -2655,6 +2734,12 @@
     <string name="AccDescrVideoQuality">视频质量</string>
     <string name="AccDescrAspectRatio">Aspect ratio</string>
     <string name="AccDescrTakeMorePics">Take one more picture</string>
+	<string name="AccDescrMsgRead">Seen</string>
+    <string name="AccDescrMsgUnread">Not seen</string>
+    <string name="AccDescrMsgNotPlayed">Not played</string>
+    <string name="AccDescrSearchNext">Next search result</string>
+    <string name="AccDescrSearchPrev">Previous search result</string>
+	<string name="AccDescrSearchByUser">Filter by user</string>
     <string name="AccActionTakePicture">照相</string>
     <string name="AccActionRecordVideo">录制视频</string>
     <!--date formatters-->
@@ -2681,6 +2766,8 @@
 
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s吗？</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
+  <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
+  <string name="ChannelMessagePoll">%1$s 发布了一项投票</string>
   <string name="ConnectingToProxyDisable">禁用</string>
   <string name="ConnectingToProxyDisableAlert">您确定要禁用代理服务器 %1$s 吗？您可以在设置 &gt; 数据和存储 中重新启用它。</string>
   <string name="ConnectingToProxyTapToDisable">点按此处禁用代理...</string>
@@ -2694,6 +2781,14 @@
   <string name="MobileUsage">移动数据使用情况</string>
   <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
   <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
+  <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一条联系人信息</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s 置顶了一条联系人信息</string>
+  <string name="NotificationActionPinnedPoll">%1$s 在群组 %2$s 置顶了一项投票</string>
+  <string name="NotificationActionPinnedPollChannel">%1$s 置顶了一项投票</string>
+  <string name="NotificationMessageContact">%1$s 给您分享了一条联系人信息</string>
+  <string name="NotificationMessageGroupContact">%1$s 分享了一条联系人信息到 %2$s 群组</string>
+  <string name="NotificationMessageGroupPoll">%1$s 发送了一项投票到群组 %2$s</string>
+  <string name="NotificationMessagePoll">%1$s 给您发送了一项投票</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最高</string>
