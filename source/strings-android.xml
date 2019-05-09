@@ -121,7 +121,7 @@
     <string name="NewGroup">New Group</string>
     <string name="Yesterday">yesterday</string>
     <string name="NoResult">No results</string>
-    <string name="NoChats">No chats yet...</string>
+    <string name="NoChats">Welcome to Telegram</string>
     <string name="RecentlyViewed">Recently viewed</string>
     <string name="RecentlyViewedHide">HIDE</string>
     <string name="NoChatsHelp">Start messaging by tapping the pencil button in the bottom right corner.</string>
@@ -2503,12 +2503,12 @@
     <string name="Stickers_few">%1$d stickers</string>
     <string name="Stickers_many">%1$d stickers</string>
     <string name="Stickers_other">%1$d stickers</string>
-    
-    
-    
-    
-    
-    
+    <string name="MasksCount_zero">%1$d masks</string>
+    <string name="MasksCount_one">%1$d mask</string>
+    <string name="MasksCount_two">%1$d masks</string>
+    <string name="MasksCount_few">%1$d masks</string>
+    <string name="MasksCount_many">%1$d masks</string>
+    <string name="MasksCount_other">%1$d masks</string>
     <string name="Subscribers_zero">%1$d subscribers</string>
     <string name="Subscribers_one">%1$d subscriber</string>
     <string name="Subscribers_two">%1$d subscribers</string>
@@ -2576,12 +2576,12 @@
     <string name="Photos_few">%1$d photos</string>
     <string name="Photos_many">%1$d photos</string>
     <string name="Photos_other">%1$d photos</string>
-    <string name="Videos_zero">%1$d photos</string>
-    <string name="Videos_one">%1$d photo</string>
-    <string name="Videos_two">%1$d photos</string>
-    <string name="Videos_few">%1$d photos</string>
-    <string name="Videos_many">%1$d photos</string>
-    <string name="Videos_other">%1$d photos</string>
+    <string name="Videos_zero">%1$d videos</string>
+    <string name="Videos_one">%1$d video</string>
+    <string name="Videos_two">%1$d videos</string>
+    <string name="Videos_few">%1$d videos</string>
+    <string name="Videos_many">%1$d videos</string>
+    <string name="Videos_other">%1$d videos</string>
     <string name="Files_zero">%1$d files</string>
     <string name="Files_one">%1$d file</string>
     <string name="Files_two">%1$d files</string>

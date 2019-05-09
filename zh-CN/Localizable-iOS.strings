@@ -4222,7 +4222,7 @@ Unused sets are archived when you add more.";
 "MemberSearch.BotSection" = "机器人";
 
 
-
+"Conversation.ErrorInaccessibleMessage" = "很遗憾，你无法访问这条消息。你不是消息来源对话的成员。";
 
 "Stickers.ClearRecent" = "清空最近使用贴纸";
 
@@ -4240,6 +4240,7 @@ Unused sets are archived when you add more.";
 
 
 
+"ChatList.UndoArchiveRevealedText" = "向左滑动以隐藏归档。";
 
 
 
@@ -4256,8 +4257,7 @@ Unused sets are archived when you add more.";
 
 
 
-
-
+"ArchivedChats.IntroText1" = "已启用通知的对话将在接收到新消息时被取消归档。";
 
 
 
