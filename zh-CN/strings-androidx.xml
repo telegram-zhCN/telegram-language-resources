@@ -268,18 +268,18 @@
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
   <string name="ChatContentGroupCreate">创建了群组</string>
   <string name="ChatContentGroupReturn">返回了群组</string>
+  <string name="ChatContentGroupAddYou">将你添加进群组</string>
+  <string name="ChatContentGroupAdd">已将 %1$s 添加进入群组</string>
   
-  
-  
-  
+  <string name="ChatContentGroupAddMembers_other">已添加 %1$s 位成员进入群组</string>
   <string name="ChatContentGroupLeft">退出了群组</string>
   <string name="ChatContentGroupJoin">通过邀请链接加入了群组</string>
   <string name="ChatContentGroupJoinPublic">加入了群组</string>
   <string name="ChatContentGroupKickYou">将您移出群组</string>
   <string name="ChatContentGroupKick">"将 %1$s 移出群组 "</string>
-  
-  
-  
+  <string name="ChatContentGroupPhoto">已更改群组头像</string>
+  <string name="ChatContentGroupPhotoRemove">已移除群组头像</string>
+  <string name="ChatContentGroupName">群组被重命名为 «%1$s»</string>
   <string name="Audio">音乐</string>
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
@@ -453,7 +453,7 @@
   <string name="YouCreatedChannel">您创建了此频道</string>
   <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
   <string name="ActionChannelChangedTitle">频道名称已更改</string>
-  
+  <string name="ActionChannelChangedTitleTo">频道被重命名为 «%1$s»</string>
   <string name="ActionChannelChangedPhoto">频道头像已更换</string>
   <string name="DeleteMessage">删除消息</string>
   <string name="DeleteMessages">删除消息</string>
@@ -570,9 +570,9 @@
   
   <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
   
+  <string name="game_ActionScoredInGame_other">在 %2$s 中得分 %1$s</string>
   
-  
-  
+  <string name="game_ActionScored_other">得分 %1$s</string>
   
   <string name="game_ActionUserScored_other">%2$s 获得 %1$s 分</string>
   
@@ -828,10 +828,10 @@
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
   <string name="DeleteForUser">为 %1$s 删除</string>
   
-  
+  <string name="DeleteXForUser_other">删除来自 %2$s 的 %1$s 条消息</string>
   <string name="DeleteForEveryone">删除并撤回</string>
   
-  
+  <string name="DeleteXForEveryone_other">为所有人删除 %1$s 条消息</string>
   <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
   <string name="ReportSpam">举报垃圾信息</string>
   <string name="BanUser">封禁用户</string>
@@ -870,7 +870,7 @@
   <string name="UsernameChecking">检查用户名中...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="UsernameCurrent">%1$s 是您当前用户名。</string>
-  <string name="ThisLinkWillOpen">此链接会在 Telegram 中打开一个与您的会话窗口：</string>
+  <string name="ThisLinkWillOpen">此链接会在 Telegram 中打开一个与您的对话窗口：</string>
   <string name="ThisLinkOpens">此链接会在 Telegram 中打开一个与您的会话窗口：\n</string>
   <string name="FeatureUnavailable">抱歉，此功能在您的国家暂时不可用</string>
   <string name="PhoneNumberChange">更换手机号码</string>
@@ -1169,7 +1169,7 @@
   <string name="SendSticker">发送贴纸</string>
   <string name="ViewPackPreview">查看对应贴纸包</string>
   <string name="UserBio">个人简介</string>
-  <string name="BioDescription">一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生</string>
+  <string name="BioDescription">一些个人简介，例如年龄、工作或城市。\n示例：23 岁，来自旧金山的设计师</string>
   <string name="AttachPhotoExpired">图片已自毁</string>
   <string name="AttachVideoExpired">视频已自毁</string>
   <string name="SendByEnter">使用回车键发送消息</string>
@@ -1200,7 +1200,7 @@
   <string name="ProcessingFile">正在处理...</string>
   <string name="ProcessingFileWait">正在处理文件，请稍候...</string>
   <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
-  <string name="UserRestricted">抱歉，您被会话的管理员限制执行此操作。</string>
+  <string name="UserRestricted">抱歉，您被对话的管理员限制执行此操作。</string>
   <string name="HashtagDeleteHint">要将此标签从推荐列表中删除吗？</string>
   <string name="ReportChatSpam">您确定要举报 %1$s 发送垃圾信息？</string>
   <string name="Report">举报</string>
@@ -2388,7 +2388,7 @@
   <string name="NotificationsSettingBlocked">通知被默认屏蔽.修改通知样式来解除屏蔽</string>
   <string name="NotificationsSettingOff">通知已被默认禁用.你可以从会话列表中取消特定会话的免打扰.</string>
 
-  <string name="ShowSecret">在锁定屏幕上显示加密会话</string>
+  <string name="ShowSecret">在锁定屏幕上显示加密对话</string>
   <string name="ShowSecretOn">关闭以在设备锁定时隐藏加密会话通知.若设备没有静音,你仍将收到通知声.</string>
   <string name="ShowSecretOff">打开以在设备锁定时显示加密会话通知,这不会泄漏具体消息内容</string>
 
@@ -2400,15 +2400,15 @@
 
   <string name="NotificationsGuideBlockedApp">您在系统设置中关闭了 Telegram 的通知权限。请点按 “系统通知设置” 来开启它。</string>
   <string name="NotificationsGuideBlockedCategory">在系统设置中禁用当前帐户的推送通知。\n\n要启用通知，请：\n•点击系统通知设置\n•查找 «%1$s» 通知类别。\n•将该类别的开关打开。</string>
-  
+  <string name="NotificationsGuideBlockedAll">来自Telegram的通知在系统设置中被阻止。\n\n要启用通知：\n•点击系统通知设置\n•打开“显示通知”以打开。</string>
   <string name="NotificationsGuideSyncGlobalOff">您在系统设置中关闭了数据同步。当应用关闭时，您可能无法收到推送通知。\n\n您设备上的电池优化模式可能会静默关闭后台数据同步。</string>
-  
+  <string name="NotificationsGuideSyncAppOff">您已关闭Telegram X的数据同步。应用关闭时，通知可能无法到达。\n\n您设备上的电池优化模式可能会静默关闭数据同步。</string>
   <string name="NotificationsGuideFirebaseUnavailable">Google Play 服务不可用。 请检查您是否安装了最新版本。\n\n此时推送通知可能延迟或丢失。</string>
   <string name="TurnSyncOnApp">打开数据同步</string>
   <string name="TurnSyncOnSystem">打开数据同步</string>
-  
+  <string name="InstallGooglePlayServices">获取 Google Play 服务</string>
 
-  
+  <string name="LanguageSame">您正在使用此语言包了（**%1$s**）。您可以随时在“设置”中更改语言。</string>
   
   
   <string name="LanguageChange">更改语言</string>
@@ -2506,7 +2506,7 @@
   <string name="Optimizing">正在优化数据库</string>
   <string name="OptimizingInfo">Telegram 会在每次更新后优化数据库。请稍等一会，这可能需要一些时间。</string>
 
-  
+  <string name="ShareContentUnsupported">对不起，此类型媒体文件不受支持</string>
 
   <string name="SessionLogInDate">登录时间: %1$s</string>
   <string name="SessionLastActiveDate">最后活跃时间: %1$s</string>
@@ -2559,15 +2559,16 @@
 
   <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
+  <string name="EmojiLoaded">已下载</string>
   
   
   
+  <string name="EmojiBuiltIn">默认</string>
+  <string name="EmojiPreview">&#128512;&#128521;\n&#128532;&#128552;</string>
   
-  
-  
-  
-  
-  
+  <string name="EmojiSets">Emoji 包</string>
+  <string name="EmojiSetsInfo">你确定要清除未使用的 Emoji 包吗?</string>
+  <string name="BigEmoji">大号 Emoji</string>
 
   
   

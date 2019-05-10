@@ -2568,6 +2568,7 @@
   <string name="EmojiInfo">This affects emoji appearance only for you. Others see them based on their preferences.</string>
   <string name="EmojiSets">Emoji Sets</string>
   <string name="EmojiSetsInfo">Are you sure you want to clear unused emoji sets?</string>
+  <string name="BigEmoji">Big Emoji</string>
 
   
   

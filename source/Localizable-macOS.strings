@@ -83,6 +83,7 @@
 "PeerInfo.username" = "username";
 "PeerInfo.about" = "about";
 "PeerInfo.bio" = "bio";
+"PeerInfo.scam" = "scam";
 "PeerInfo.info" = "info";
 "PeerInfo.SetGroupPhoto" = "Set Group Photo";
 "PeerInfo.AddMember" = "Add Members";
@@ -2993,6 +2994,12 @@
 
 
 "Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "Sorry, you can't create a group with these users due to their privacy settings.";
+"PeerInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
+"ChannelInfo.ScamWarning" = "⚠️ Warning: Many users reported this channel as a scam. Please be careful, especially if it asks you for money.";
+"GroupInfo.ScamWarning" = "⚠️ Warning: Many users reported this group as a scam. Please be careful, especially if it asks you for money.";
+
+
+"Mark.Scam" = "SCAM";
 
 
 /* new from translations.telegram.org */

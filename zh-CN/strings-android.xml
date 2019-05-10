@@ -745,7 +745,7 @@
     <string name="GroupDescription4">设置权限细分的管理员</string>
     <string name="ChatYourSelfDescription1">转发消息到这里来保存它们</string>
     <string name="ChatYourSelfDescription2">发送媒体和文件来存储它们</string>
-    <string name="ChatYourSelfDescription3">在任意设备上访问这个对话</string>
+    <string name="ChatYourSelfDescription3">在任意设备上访问此对话</string>
     <string name="ChatYourSelfDescription4">使用搜索来更快地查找信息</string>
     <string name="ChatYourSelfTitle">你的云存储</string>
     <string name="JumpToDate">跳转</string>
@@ -1020,7 +1020,7 @@
     <string name="UsernameInvalidLong">用户名不能超过 32 个字符。</string>
     <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
     <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的手机号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**、**0–9** 和下划线。最小长度为 **5** 个字符。</string>
-    <string name="UsernameHelpLink">此链接会打开一个与您的会话窗口：\n%1$s</string>
+    <string name="UsernameHelpLink">此链接会打开一个与您的对话窗口：\n%1$s</string>
     <string name="UsernameChecking">正在检查用户名...</string>
     <string name="UsernameAvailable">%1$s 可用</string>
     <string name="UsernameEmpty">无</string>

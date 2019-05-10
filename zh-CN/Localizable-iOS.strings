@@ -209,7 +209,7 @@
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
 
-
+"PUSH_MESSAGE_GAME_SCORE" = "%1$@ 在 %2$@ 得到 %3$@";
 
 
 
@@ -389,7 +389,7 @@
 "DialogList.TabTitle" = "对话";
 "DialogList.Title" = "对话";
 "DialogList.SearchLabel" = "搜索消息或用户";
-"DialogList.NoMessagesTitle" = "尚无会话";
+"DialogList.NoMessagesTitle" = "尚无对话";
 "DialogList.NoMessagesText" = "要开始聊天，请按右上角的铅笔按钮，或者进入联系人页面。";
 "DialogList.SingleTypingSuffix" = "%@ 正在输入";
 "DialogList.SingleRecordingAudioSuffix" = "%@ 正在录制语音";
@@ -409,7 +409,7 @@
 
 // Compose
 "Compose.TokenListPlaceholder" = "请选择收件人";
-"Compose.NewMessage" = "新建会话";
+"Compose.NewMessage" = "新建对话";
 "Compose.NewGroup" = "新建群组";
 "Compose.NewGroupTitle" = "新建群组";
 "Compose.NewEncryptedChat" = "新建加密对话";
@@ -1463,7 +1463,7 @@
 "WatchRemote.AlertText" = "在此查看这条消息？";
 "WatchRemote.AlertOpen" = "打开";
 
-"Conversation.SearchPlaceholder" = "搜索此会话";
+"Conversation.SearchPlaceholder" = "搜索此对话";
 "Conversation.SearchNoResults" = "无搜索结果";
 
 "GroupInfo.AddUserLeftError" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
@@ -1614,7 +1614,7 @@
 
 "Conversation.ReportSpam" = "举报垃圾信息";
 "Conversation.ReportSpamConfirmation" = "您确定要举报此用户发布垃圾信息吗？";
-"SharedMedia.EmptyMusicText" = "在此会话中所分享的全部音乐会出现在这里。";
+"SharedMedia.EmptyMusicText" = "在此对话中所分享的全部音乐会出现在这里。";
 
 "ChatSettings.AutoPlayAnimations" = "自动播放 GIF ";
 
@@ -1863,10 +1863,10 @@
 "KeyCommand.ScrollUp" = "向上滚动";
 "KeyCommand.ScrollDown" = "向下滚动";
 "KeyCommand.NewMessage" = "新消息";
-"KeyCommand.JumpToPreviousChat" = "跳转到上一个会话";
-"KeyCommand.JumpToNextChat" = "跳转到下一个会话";
-"KeyCommand.JumpToPreviousUnreadChat" = "跳转到上一个未读会话";
-"KeyCommand.JumpToNextUnreadChat" = "跳转到下一个未读会话";
+"KeyCommand.JumpToPreviousChat" = "跳转到上一个对话";
+"KeyCommand.JumpToNextChat" = "跳转到下一个对话";
+"KeyCommand.JumpToPreviousUnreadChat" = "跳转到上一个未读对话";
+"KeyCommand.JumpToNextUnreadChat" = "跳转到下一个未读对话";
 "KeyCommand.SendMessage" = "发送消息";
 "KeyCommand.ChatInfo" = "详细信息";
 
@@ -2023,7 +2023,7 @@
 "Conversation.CloudStorageInfo.Title" = "您的云存储";
 "Conversation.ClousStorageInfo.Description1" = "• 转发消息到这来保存它们";
 "Conversation.ClousStorageInfo.Description2" = "• 发送媒体和文件来存储它们";
-"Conversation.ClousStorageInfo.Description3" = "• 在任意设备上访问这个会话";
+"Conversation.ClousStorageInfo.Description3" = "• 在任意设备上访问此对话";
 "Conversation.ClousStorageInfo.Description4" = "• 使用搜索来更快地找东西";
 
 "Conversation.CloudStorage.ChatStatus" = "和你自己聊天";
@@ -4238,10 +4238,10 @@ Unused sets are archived when you add more.";
 
 
 
-
+"ChatList.UndoArchiveHiddenText" = "下滑以查看归档。";
 
 "ChatList.UndoArchiveRevealedText" = "向左滑动以隐藏归档。";
-
+"ChatList.ArchivedChatsTitle" = "已归档对话";
 
 
 
@@ -4259,8 +4259,8 @@ Unused sets are archived when you add more.";
 
 "ArchivedChats.IntroText1" = "已启用通知的对话将在接收到新消息时被取消归档。";
 
-
-
+"ArchivedChats.IntroText2" = "已禁用通知的对话将在接收到新消息时保持归档。";
+"ArchivedChats.IntroTitle3" = "置顶的对话";
 
 
 

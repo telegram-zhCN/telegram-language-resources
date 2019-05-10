@@ -264,8 +264,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_username_bad_symbols" = "用户名只允许使用 a-z, 0-9 和下划线。";
 "lng_username_available" = "此用户名可用";
 "lng_username_not_found" = "未找到用户名 @{user}";
-"lng_username_link_willbe" = "此链接会打开一个与您的会话窗口：";
-"lng_username_link" = "此链接会打开一个与您的会话窗口：";
+"lng_username_link_willbe" = "此链接会打开一个与您的对话窗口：";
+"lng_username_link" = "此链接会打开一个与您的对话窗口：";
 "lng_username_copied" = "链接已复制到剪贴板";
 
 "lng_bio_title" = "编辑您的个人简介";
@@ -1185,7 +1185,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_record_cancel" = "将光标移出此处可取消发送";
 "lng_will_be_notified" = "消息发布后订阅者将收到推送通知";
 "lng_wont_be_notified" = "消息发布后订阅者将收到无声通知";
-"lng_willbe_history" = "请选择一个会话开始聊天";
+"lng_willbe_history" = "请选择一个对话开始聊天";
 "lng_from_you" = "您";
 "lng_from_draft" = "草稿";
 "lng_bot_description" = "它能做什么？";
@@ -1198,7 +1198,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_saved_forward_here" = "转发消息到这里以便快速访问";
 
 "lng_archived_name" = "已归档对话";
-"lng_archived_add" = "已归档对话";
+"lng_archived_add" = "归档对话";
 "lng_archived_remove" = "取消归档";
 "lng_archived_added" = "已禁用通知的对话将在接收到新消息时保持归档。";
 
@@ -1226,7 +1226,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_groups_not_found" = "未找到群组";
 "lng_bot_sure_invite" = "将此机器人添加到群组 «{group}»？";
 "lng_bot_already_in_group" = "机器人已在此群组中。";
-"lng_bot_choose_chat" = "选择会话";
+"lng_bot_choose_chat" = "选择一个对话";
 "lng_bot_no_chats" = "没有对话";
 "lng_bot_chats_not_found" = "未找到对话";
 "lng_bot_sure_share_game" = "与 {user} 分享此游戏？";
@@ -1358,7 +1358,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_forwarding_from#other" = "{user} 和其他 {count} 人";
 "lng_forwarding_from_two" = "{user} 和 {second_user}";
-"lng_inline_switch_choose" = "选择会话...";
+"lng_inline_switch_choose" = "选择对话...";
 "lng_inline_switch_cant" = "抱歉，不能在此输入:(";
 
 "lng_share_cant" = "抱歉，不能分享到此处 :(";

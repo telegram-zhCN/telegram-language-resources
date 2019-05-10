@@ -75,7 +75,7 @@
 "Telegram.PeerInfoController" = "信息";
 "PeerInfo.SendMessage" = "发送消息";
 "PeerInfo.ShareContact" = "分享联系方式";
-"PeerInfo.StartSecretChat" = "开始加密会话";
+"PeerInfo.StartSecretChat" = "开始加密对话";
 "PeerInfo.SharedMedia" = "分享的媒体";
 "PeerInfo.Notifications" = "通知";
 "PeerInfo.BlockUser" = "屏蔽此用户";
@@ -83,6 +83,7 @@
 "PeerInfo.username" = "用户名";
 "PeerInfo.about" = "关于";
 "PeerInfo.bio" = "个人简介";
+"PeerInfo.scam" = "欺诈";
 "PeerInfo.info" = "信息";
 "PeerInfo.SetGroupPhoto" = "设置群组图片";
 "PeerInfo.AddMember" = "邀请新成员";
@@ -598,7 +599,7 @@
 "Peer.Media.SharedMediaEmptyList" = "快在这个会话里分享一些图片或者视频吧\n不然这个回形针会继续不嗨森";
 "Peer.Media.SharedFilesEmptyList" = "您可以发送和接收任何类型的文件，单文件大小最高 1.5 GB，并随时在任何地方访问它们。";
 "Peer.Media.SharedLinksEmptyList" = "所有已共享的链接都会在这里显示。";
-"Peer.Media.SharedMusicEmptyList" = "此会话中共享的所有音乐都会在这里显示。";
+"Peer.Media.SharedMusicEmptyList" = "此对话中共享的所有音乐都会在这里显示。";
 "Peer.Media.SharedVoiceEmptyList" = "此对话中共享的所有语音和视频留言均会在这里列出。";
 "SecretTimer.Off" = "关闭";
 
@@ -1402,7 +1403,7 @@
 "ProxySettings.Password" = "密码";
 "ProxySettings.Save" = "保存";
 
-
+"ProxySettings.QR.Text" = "你和你的朋友可以用手机或应用内相机扫描该二维码以添加该代理。";
 
 
 "Channel.EventLog.OriginalMessage" = "原始消息";
@@ -1752,7 +1753,7 @@
 "AppearanceSettings.TextSize.Header" = "文字大小";
 "AppearanceSettings.ChatPreview.Header" = "效果预览";
 "AppearanceSettings.ColorTheme.Header" = "主题色调";
-"AppearanceSettings.ChatView.Header" = "会话样式";
+"AppearanceSettings.ChatView.Header" = "对话样式";
 
 "AppearanceSettings.ColorTheme.day" = "标准亮色调";
 "AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
@@ -2331,7 +2332,7 @@
 "ChatList.Swiping.Mute" = "关闭通知";
 "ChatList.Swiping.Unmute" = "开启通知";
 
-
+"ChatList.Swiping.Archive" = "归档";
 "ChatList.Swiping.Unarchive" = "取消归档";
 
 
@@ -2952,6 +2953,31 @@
 "Chat.ViewBackground" = "查看背景图";
 
 
+"GeneralSettings.BigEmoji" = "大号 Emoji";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"ChatList.ArchivedChats" = "已归档对话";
+
+"Telegram.UpgradeDatabase.Title" = "正在优化数据库";
+"Telegram.UpgradeDatabase.Text" = "Telegram 需要在此次更新后优化数据库。这将花费几分钟时间，对您带来不便深感抱歉。";
+
+
+"Notification.MarkAsRead" = "标记为已读";
+
+
+"Archive.Tooltip.First.Title" = "对话已归档";
 
 
 
@@ -2968,31 +2994,12 @@
 
 
 
+"PeerInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
+"ChannelInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此频道存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
+"GroupInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此群组存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Mark.Scam" = "欺诈";
 
 
 /* new from translations.telegram.org */
