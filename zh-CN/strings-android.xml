@@ -932,7 +932,7 @@
     <string name="JoinToGroupErrorFull">抱歉，此群组已满员。</string>
     <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
     <string name="LinkCopied">链接已复制到剪贴板</string>
-    <string name="LinkCopiedPrivate">Link copied to clipboard.\nThis link will only work for members of this chat.</string>
+    <string name="LinkCopiedPrivate">链接已复制到剪贴板。\n此链接仅适用于此对话的成员。</string>
     <string name="LinkNotFound">很遗憾，你无法访问这条消息。你不是消息来源对话的成员。</string>
     <string name="PhoneCopied">手机号码已复制到剪贴板</string>
     <string name="EmailCopied">电子邮箱已复制到剪贴板</string>
@@ -2144,9 +2144,9 @@
     <string name="DeleteFewChatsTitle">删除 %1$s</string>
     <string name="ClearFewChatsTitle">清空 %1$s</string>
     <string name="ClearCacheFewChatsTitle">清除 %1$s的缓存</string>
-    <string name="AreYouSureDeleteFewChats">Are you sure you want to delete selected chats?</string>
-    <string name="AreYouSureClearHistoryFewChats">Are you sure you want to clear history in selected chats?</string>
-    <string name="AreYouSureClearHistoryCacheFewChats">Delete all cached text and media from selected chats?</string>
+    <string name="AreYouSureDeleteFewChats">您确定要删除所选对话吗？</string>
+    <string name="AreYouSureClearHistoryFewChats">您确定要清空所选对话的历史记录？</string>
+    <string name="AreYouSureClearHistoryCacheFewChats">删除所选对话中所有缓存的文本和媒体？</string>
     <string name="AreYouSureDeleteAndExit">您确定要删除并退出此群组吗？</string>
     <string name="AreYouSureDeleteAndExitName">您确定要删除并退出 **%1$s** 吗？</string>
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>

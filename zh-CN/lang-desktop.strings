@@ -1090,7 +1090,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_emoji_category6" = "物品";
 "lng_emoji_category7" = "符号 & 旗帜";
 "lng_emoji_hide_panel" = "点击隐藏 Emoji 侧边栏";
-"lng_emoji_manage_sets" = "选择 Emoji 类型";
+"lng_emoji_manage_sets" = "选择 Emoji 包";
 "lng_emoji_set_ready" = "已就绪";
 "lng_emoji_set_active" = "当前选择";
 "lng_emoji_set_download" = "需要下载 {size}";

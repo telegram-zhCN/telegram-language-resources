@@ -85,7 +85,7 @@
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s，%2$s</string>
   <string name="login_PhoneNumber">手机号码</string>
-  
+  <string name="login_error">错误:  %1$s. 如果您需要帮助请 __联系我们__ .</string>
   <string name="login_Code">验证码</string>
   <string name="login_Password">密码</string>
   <string name="login_Country">国家</string>
@@ -96,7 +96,7 @@
   <string name="login_LastName">姓氏（可选）</string>
   <string name="login_InvalidPhone">请输入有效的手机号码</string>
   <string name="login_PHONE_NUMBER_INVALID">无效的电话号码。 请检查号码，然后重试。\n\n如果电话号码正确，__请联系我们__。</string>
-  
+  <string name="login_PHONE_NUMBER_BANNED">改手机号已被封禁. 如果您需要帮助请 __联系我们__ .</string>
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
@@ -631,7 +631,7 @@
   <string name="Chats">聊天</string>
   <string name="Notifications">通知与提醒</string>
   <string name="NotificationsEnabled">启用</string>
-  
+  <string name="NotificationsEnabledHint">已启用 (%1$s)</string>
   <string name="NotificationsBlocked">已屏蔽</string>
   <string name="NotificationsDisabled">关闭</string>
   <string name="PrivacySettings">隐私与安全</string>
@@ -717,7 +717,7 @@
   <string name="SetRecoveryEmail">设置恢复邮箱</string>
   <string name="ChangeRecoveryEmail">更改恢复邮箱</string>
   <string name="TurnPasswordOffQuestion">您确定要删除您的密码吗？</string>
-  
+  <string name="TurnPasswordOffQuestion2">你确定要禁用你的密码？ \n**警告**！所有储存在 Telegram Passport 中的数据都将丢失！</string>
   <string name="YourPassword">您的密码</string>
   <string name="EnterAPassword">请输入密码</string>
   <string name="ReEnterAPassword">请再次输入密码</string>
@@ -991,8 +991,8 @@
   <string name="ClearCacheHint">该操作可能需要持续几分钟</string>
   <string name="KeepMediaInfo">为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。</string>
   <string name="LocalDatabase">本地数据库</string>
-  
-  
+  <string name="FeatureUnavailableSorry">抱歉</string>
+  <string name="LocalDatabaseExcuse">目前，在不丢失所有加密对话和删除已下载文件的情况下，无法清理本地数据库。\n\n如果您仍想减少本地数据库大小，请使用右上角三点菜单&gt;擦除所有数据。\n\n它比注销，重装应用程序或清除数据更节省空间。</string>
   <string name="MediaAndFiles">媒体文件和其他文件</string>
   <string name="OtherChats">其它对话</string>
   <string name="SecretFiles">私人媒体文件和其他文件</string>
@@ -1192,7 +1192,7 @@
   <string name="PriorityRegular">常规</string>
   <string name="PriorityUrgent">紧急</string>
   <string name="PriorityLow">低</string>
-  
+  <string name="PriorityMedium">中</string>
   <string name="PriorityAboutUrgentAndLow">当你的手机处于“请勿打扰”模式时，将只显示紧急通知。 低优先级的通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="NotificationsPriority">优先级</string>
@@ -1550,7 +1550,7 @@
   <string name="PlayStop">停止</string>
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
-  
+  <string name="NotificationChannelCommonGroups">对群组会话通知的默认设置</string>
   <string name="NotificationChannelCommonChannels">恢复所有频道的默认通知设置。</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
   <string name="NotificationChannelUser">自定义 %1$s 的消息及提及。</string>
@@ -2022,7 +2022,7 @@
 
   <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
-  <string name="SignOutHint2">您确定要将 %1$s 注销吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，退出会取消你所有的加密聊天，并抹除所有已下载的媒体文件。</string>
+  <string name="SignOutHint2">您确定要将 %1$s 注销吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，退出会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
   
 
   <string name="SignOutAlt">其它选项</string>
@@ -2036,7 +2036,7 @@
   <string name="SignOutAltChangeNumberHint">将您的帐号、聊天信息和媒体文件转移到新手机号上。</string>
   <string name="SignOutAltHelp">联系志愿者客服</string>
   <string name="SignOutAltHelpHint">如果有问题，请告诉我们；注销无助于解决问题。</string>
-  
+  <string name="SignOutAltHint2">谨记，退出会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
 
   <string name="TdlibLogs">TDLib 日志</string>
   <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
@@ -2420,10 +2420,10 @@
   <string name="ResendRecoveryEmailCode">重新发送验证码</string>
   <string name="AbortPasswordConfirm">您确定要终止两步验证设置？</string>
   <string name="AbortRecoveryEmailConfirm">您确定要放弃设置恢复邮箱吗？</string>
-  
-  
-  
-  
+  <string name="CheckYourVerificationEmail2">要完成恢复邮箱设置，请查看 %1$s（不要查看忘记垃圾邮件文件夹）并输入我们刚发送给您的代码。</string>
+  <string name="CheckYourVerificationEmail3">要完成恢复邮箱更改，请查看 %1$s（不要查看忘记垃圾邮件文件夹）并输入我们刚发送给您的代码。</string>
+  <string name="AbortRecoveryEmail">终止恢复邮箱设置</string>
+  <string name="AbortRecoveryEmailChange">终止恢复邮箱更改</string>
 
   <string name="TestMode">测试工具</string>
   <string name="TestModeWarn">**警告**：测试实用程序**仅**可用于**测试**和**调试**目的。 他们都不被保证能工作。\n\n除非你知道自己在做什么，否则不要使用它们。</string>
@@ -2462,7 +2462,7 @@
   <string name="xVotes_other">%1$s 人已投票</string>
   <string name="NoVotes">无人投票</string>
 
-  
+  <string name="NotificationSyncOffWarn">**想要收到新消息的通知吗？**\n\n在应用关闭时启用系统自动同步以获取通知。</string>
   <string name="NeverShowAgain">不再显示</string>
   <string name="NotificationSyncAccept">启用</string>
   <string name="NotificationSyncDecline">不用了</string>
@@ -2520,20 +2520,20 @@
   <string name="EraseDatabaseWait">请等待上一个操作完成。</string>
 
   <string name="ReadAllChats">标记所有对话为已读</string>
+  <string name="ReadAllChatsInfo">您确定要将所有会话和提及标为已读?</string>
   
-  
-  
+  <string name="ReadAllChatsDone_other">已将 %1$s 个会话标为已读</string>
 
-  
+  <string name="LinkStateNone">%1$s 不能看到您的手机号码</string>
   <string name="LinkStateKnowsNumber">%1$s 可以看到你的手机号码。</string>
-  
-  
-  
-  
+  <string name="LinkStateKnowsNumberContact">%1$s 能看到您的手机号码,他们在您的联系人列表内.</string>
+  <string name="LinkStateKnowsNumberMutual">%1$s 和您可以互相看到对方的手机号码</string>
+  <string name="LinkStateContact">%1$s 在联系人列表中拥有您的手机号码</string>
+  <string name="LinkStateContactMutual">%1$s 同您互相在联系人列表中有对方的手机号码</string>
 
   <string name="PhoneNumberUnknown">未知</string>
 
-  
+  <string name="SignedOutAs">注销 %1$s</string>
 
   <string name="Stats">统计数据</string>
   <string name="ViewStats">查看统计数据</string>
@@ -2550,7 +2550,7 @@
 
   <string name="format_approx">%1$s (估算)</string>
 
-  
+  <string name="ShowOtherChats">显示其他会话</string>
 
   <string name="UseSystemFonts">使用系统字体</string>
   <string name="UseSystemFontsHint">**注意!**\n\nTelegram X 不能保证成功渲染系统字体。</string>
@@ -2560,12 +2560,12 @@
   <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
   <string name="EmojiLoaded">已下载</string>
-  
-  
-  
+  <string name="EmojiInstalling">正在安装...</string>
+  <string name="Emoji">Emoji 包</string>
+  <string name="EmojiCurrent">当前选择</string>
   <string name="EmojiBuiltIn">默认</string>
   <string name="EmojiPreview">&#128512;&#128521;\n&#128532;&#128552;</string>
-  
+  <string name="EmojiInfo">这仅将影响您自己的 emoji 显示样式，其他人将以他们自己的选择显示。</string>
   <string name="EmojiSets">Emoji 包</string>
   <string name="EmojiSetsInfo">你确定要清除未使用的 Emoji 包吗?</string>
   <string name="BigEmoji">大号 Emoji</string>
