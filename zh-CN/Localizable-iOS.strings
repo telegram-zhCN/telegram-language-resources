@@ -4199,7 +4199,7 @@ Unused sets are archived when you add more.";
 "SettingsSearch.Synonyms.Support" = "支持\n客服";
 "SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
 
-
+"ChatList.DeleteForCurrentUser" = "仅为我删除";
 
 
 
@@ -4252,13 +4252,13 @@ Unused sets are archived when you add more.";
 
 
 
+"Conversation.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
 
 
 
-
-
+"ArchivedChats.IntroTitle1" = "这里是您的归档";
 "ArchivedChats.IntroText1" = "已启用通知的对话将在接收到新消息时被取消归档。";
-
+"ArchivedChats.IntroTitle2" = "已静音的对话";
 "ArchivedChats.IntroText2" = "已禁用通知的对话将在接收到新消息时保持归档。";
 "ArchivedChats.IntroTitle3" = "置顶的对话";
 
