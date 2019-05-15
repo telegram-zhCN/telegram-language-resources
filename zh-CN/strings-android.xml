@@ -182,6 +182,8 @@
     <string name="Hashtags">标签</string>
     <string name="Recent">最近</string>
     <string name="ChatHints">用户</string>
+    <string name="ChatHintsDeleteAlertTitle">Remove suggestion</string>
+    <string name="ChatHintsDeleteAlert">Are you sure you want to remove **%1$s** from suggestions?</string>
     <string name="ChatHintsDelete">您确定要从建议列表中删除 %1$s 吗？</string>
     <string name="LinkPreview">链接预览</string>
     <string name="Draft">草稿</string>
@@ -698,6 +700,8 @@
     <string name="PinMessage">置顶</string>
     <string name="PinNotify">通知所有成员</string>
     <string name="UnpinMessage">取消置顶</string>
+    <string name="PinMessageAlertTitle">Pin message</string>
+    <string name="UnpinMessageAlertTitle">Unpin message</string>
     <string name="PinMessageAlert">您确定要在群组中置顶此消息？</string>
     <string name="PinMessageAlertChannel">您确定要在频道中置顶此消息？</string>
     <string name="PinMessageAlertChat">您确定要在对话中置顶此消息？</string>
@@ -1178,6 +1182,7 @@
     <string name="ChatBackground">聊天窗口背景图</string>
     <string name="ResetChatBackgrounds">重置背景图列表</string>
     <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
+    <string name="ResetChatBackgroundsAlertTitle">Reset chat backgrounds</string>
     <string name="ResetChatBackgroundsAlert">您确定要重置背景图列表吗？</string>
     <string name="DeleteChatBackgroundsAlert">您确定要删除选定的背景吗？</string>
     <string name="BackgroundPreview">背景预览</string>
@@ -1306,6 +1311,7 @@
     <string name="AutoDownloadAudioInfo">由于语音留言体积很小，它们将始终自动下载。</string>
     <string name="NoMediaAutoDownload">禁用自动下载</string>
     <string name="ResetAutomaticMediaDownload">重置自动下载设置</string>
+    <string name="ResetAutomaticMediaDownloadAlertTitle">Reset settings</string>
     <string name="ResetAutomaticMediaDownloadAlert">您确定要重置自动下载设置吗？</string>
     <string name="WhenUsingMobileData">使用移动数据时</string>
     <string name="WhenConnectedOnWiFi">接入 Wi-Fi 时</string>
@@ -1373,6 +1379,7 @@
     <string name="DebugMenuImportContacts">导入通讯录</string>
     <string name="DebugMenuReloadContacts">重载通讯录</string>
     <string name="DebugMenuResetDialogs">重置所有对话</string>
+    <string name="DebugMenuReadAllDialogs">Read all Dialogs</string>
     <string name="DebugMenuEnableCamera">启用应用内相机</string>
     <string name="DebugMenuDisableCamera">禁用应用内相机</string>
     <string name="DebugMenuResetContacts">重置已导入的通讯录</string>
@@ -1825,6 +1832,8 @@
     <string name="AreYouSureDeleteGIF">您确定要删除此 GIF 吗？</string>
     <string name="DiscardChanges">要放弃修改吗？</string>
     <string name="ClearSearch">是否清除搜索历史？</string>
+    <string name="ClearSearchAlert">Are you sure you want to clear your search history?</string>
+    <string name="ClearSearchAlertTitle">Clear search history</string>
     <string name="ClearButton">清空</string>
     <string name="AddCaption">添加说明...</string>
     <string name="PhotoCaption">图片说明</string>
@@ -1923,6 +1932,7 @@
     <string name="TotalDataUsage">总计</string>
     <string name="ResetStatistics">重置统计数据</string>
     <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
+    <string name="ResetStatisticsAlertTitle">Reset statistics</string>
     <string name="ResetStatisticsAlert">您确定要重置统计数据吗？</string>
     <!--privacy settings-->
     <string name="PrivacySettings">隐私和安全</string>
@@ -2029,6 +2039,7 @@
     <string name="Call">呼叫</string>
     <string name="Copy">复制</string>
     <string name="Delete">删除</string>
+    <string name="Start">Start</string>
     <string name="DeleteAndStop">删除并停止</string>
     <string name="Forward">转发</string>
     <string name="Retry">重试</string>
@@ -2167,6 +2178,7 @@
     <string name="AreYouSureBlockContact">您确定要屏蔽此联系人吗？</string>
     <string name="AreYouSureUnblockContact">您确定要取消屏蔽此联系人吗？</string>
     <string name="AreYouSureDeleteContact">您确定要删除此联系人吗？</string>
+    <string name="AreYouSureSecretChatTitle">Secret chat</string>
     <string name="AreYouSureSecretChat">您确定要开始加密对话吗？</string>
     <string name="AreYouSureRegistration">您确定要取消注册吗？</string>
     <string name="StopVerification">您想停止手机号码验证过程吗？</string>
