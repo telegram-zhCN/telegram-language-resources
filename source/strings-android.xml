@@ -1379,7 +1379,7 @@
     <string name="DebugMenuImportContacts">Import Contacts</string>
     <string name="DebugMenuReloadContacts">Reload Contacts</string>
     <string name="DebugMenuResetDialogs">Reset Dialogs</string>
-    <string name="DebugMenuReadAllDialogs">Read all Dialogs</string>
+    <string name="DebugMenuReadAllDialogs">Read all Chats</string>
     <string name="DebugMenuEnableCamera">Enable in-app camera</string>
     <string name="DebugMenuDisableCamera">Disable in-app camera</string>
     <string name="DebugMenuResetContacts">Reset Imported Contacts</string>
