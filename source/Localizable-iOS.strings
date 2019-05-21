@@ -3057,10 +3057,10 @@ Unused sets are archived when you add more.";
 "Appearance.ThemeDay" = "Day";
 "Appearance.ThemeNight" = "Night";
 "Appearance.ThemeNightBlue" = "Night Blue";
-"Appearance.PreviewReplyAuthor" = "Lucio";
-"Appearance.PreviewReplyText" = "Reinhardt, we need to find you some...";
-"Appearance.PreviewIncomingText" = "Ah you kids today with techno music! Enjoy the classics, like Hasselhoff!";
-"Appearance.PreviewOutgoingText" = "I can't take you seriously right now. Sorry..";
+"Appearance.PreviewReplyAuthor" = "Bob Harris";
+"Appearance.PreviewReplyText" = "Good morning! 👋";
+"Appearance.PreviewIncomingText" = "Do you know what time it is?";
+"Appearance.PreviewOutgoingText" = "It's morning in Tokyo 😎";
 "Appearance.AccentColor" = "Accent Color";
 "Appearance.PickAccentColor" = "Pick an Accent Color";
 

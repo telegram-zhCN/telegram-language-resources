@@ -1379,7 +1379,7 @@
     <string name="DebugMenuImportContacts">导入通讯录</string>
     <string name="DebugMenuReloadContacts">重载通讯录</string>
     <string name="DebugMenuResetDialogs">重置所有对话</string>
-    <string name="DebugMenuReadAllDialogs">Read all Chats</string>
+    <string name="DebugMenuReadAllDialogs">标记所有对话为已读</string>
     <string name="DebugMenuEnableCamera">启用应用内相机</string>
     <string name="DebugMenuDisableCamera">禁用应用内相机</string>
     <string name="DebugMenuResetContacts">重置已导入的通讯录</string>

@@ -1190,10 +1190,10 @@
     <string name="BackgroundPreviewLine2">Woo-hoo! Thanks</string>
     <string name="BackgroundColorPreviewLine1">Swipe left or right to see more colors.</string>
     <string name="BackgroundColorPreviewLine2">Salmon is a fish, not a color.</string>
-    <string name="FontSizePreviewName">Lucio</string>
-    <string name="FontSizePreviewReply">Reinhardt, we need to find you some new tunes &#127926;.</string>
-    <string name="FontSizePreviewLine1">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
-    <string name="FontSizePreviewLine2">I can\'t even take you seriously right now.</string>
+    <string name="FontSizePreviewName">Bob Harris</string>
+    <string name="FontSizePreviewReply">Good morning! &#128075;</string>
+    <string name="FontSizePreviewLine1">Do you know what time it is?</string>
+    <string name="FontSizePreviewLine2">It\'s morning in Tokyo &#128526;</string>
     <string name="BackgroundColorSinglePreviewLine1">Press \'Set\' to apply the background.</string>
     <string name="BackgroundColorSinglePreviewLine2">Enjoy the view.</string>
     <string name="SetBackground">SET BACKGROUND</string>
