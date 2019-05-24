@@ -1190,10 +1190,10 @@
     <string name="BackgroundPreviewLine2">哇！谢谢</string>
     <string name="BackgroundColorPreviewLine1">向两侧滑动可查看更多颜色。</string>
     <string name="BackgroundColorPreviewLine2">Salmon 是一种鱼，并不是一种颜色。</string>
-    <string name="FontSizePreviewName">卢西奥</string>
-    <string name="FontSizePreviewReply">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
-    <string name="FontSizePreviewLine1">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
-    <string name="FontSizePreviewLine2">我现在都无法直视你了。</string>
+    <string name="FontSizePreviewName">鮑伯·哈里斯</string>
+    <string name="FontSizePreviewReply">早上好！&#128075;</string>
+    <string name="FontSizePreviewLine1">你知道现在几点吗？</string>
+    <string name="FontSizePreviewLine2">东京现在是早晨 &#128526;</string>
     <string name="BackgroundColorSinglePreviewLine1">点按 “设置” 即可应用背景图。</string>
     <string name="BackgroundColorSinglePreviewLine2">欣赏美景吧！</string>
     <string name="SetBackground">设为背景图</string>

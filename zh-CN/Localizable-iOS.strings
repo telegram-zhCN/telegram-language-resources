@@ -3057,10 +3057,10 @@ Unused sets are archived when you add more.";
 "Appearance.ThemeDay" = "日间";
 "Appearance.ThemeNight" = "夜间";
 "Appearance.ThemeNightBlue" = "夜间蓝";
-"Appearance.PreviewReplyAuthor" = "卢西奥";
-"Appearance.PreviewReplyText" = "莱因哈特，我们需要给你找点...";
-"Appearance.PreviewIncomingText" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
-"Appearance.PreviewOutgoingText" = "老兄，我现在都无法直视你了。抱歉...";
+"Appearance.PreviewReplyAuthor" = "鮑伯·哈里斯";
+"Appearance.PreviewReplyText" = "早上好！👋";
+"Appearance.PreviewIncomingText" = "你知道现在几点吗？";
+"Appearance.PreviewOutgoingText" = "东京现在是早晨 😎";
 "Appearance.AccentColor" = "主题色";
 "Appearance.PickAccentColor" = "选取一种主题色";
 
