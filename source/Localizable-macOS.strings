@@ -75,6 +75,7 @@
 "Telegram.PeerInfoController" = "Info";
 "PeerInfo.SendMessage" = "Send Message";
 "PeerInfo.ShareContact" = "Share Contact";
+"PeerInfo.ShareMyInfo" = "Share My Contact Info";
 "PeerInfo.StartSecretChat" = "Start Secret Chat";
 "PeerInfo.SharedMedia" = "Shared Media";
 "PeerInfo.Notifications" = "Notifications";
@@ -251,6 +252,7 @@
 
 "Chat.Input.Delete" = "Delete and exit";
 "Chat.Input.Join" = "Join";
+
 "Chat.Input.Unblock" = "Unblock";
 "Chat.Input.Restart" = "Restart";
 "Chat.Input.Close" = "Close";
@@ -519,9 +521,19 @@
 "PrivacySettings.BlockedUsers" = "Blocked Users";
 "PrivacySettings.LastSeen" = "Last Seen";
 "PrivacySettings.Groups" = "Groups";
+
 "PrivacySettings.VoiceCalls" = "Voice Calls";
 "PrivacySettings.ProfilePhoto" = "Profile Photo";
 "PrivacySettings.Forwards" = "Forwarded Messages";
+
+
+"PrivacySettings.GroupMembersCount_countable" = "%d";
+
+
+
+
+
+
 
 "PrivacySettings.SecurityHeader" = "SECURITY";
 "PrivacySettings.Passcode" = "Passcode";
@@ -636,6 +648,15 @@
 "Timer.Hours_few" = "%d hours";
 "Timer.Hours_many" = "%d hours";
 "Timer.Hours_other" = "%d hours";
+
+
+"LastSeen.HoursAgo_countable" = "%d";
+"LastSeen.HoursAgo_zero" = "last seen %d hours ago";
+"LastSeen.HoursAgo_one" = "last seen %d hour ago";
+"LastSeen.HoursAgo_two" = "last seen %d hours ago";
+"LastSeen.HoursAgo_few" = "last seen %d hours ago";
+"LastSeen.HoursAgo_many" = "last seen %d hours ago";
+"LastSeen.HoursAgo_other" = "last seen %d hours ago";
 
 
 "Timer.Weeks_countable" = "%d";
@@ -831,6 +852,7 @@
 "LinkInvation.Confirm.Ok" = "Revoke";
 "ChannelMembers.Select.Title" = "Add Members";
 "PeerInfo.Confirm.StartSecretChat" = "Are you sure you want to start a secret chat with \"%@\"?";
+
 
 
 "PeerInfo.BotStatus.HasNoAccess" = "has no access to messages";
@@ -1037,6 +1059,10 @@
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "Never Allow";
 
 
+
+
+
+
 "PrivacySettingsController.UserCount_countable" = "%d";
 "PrivacySettingsController.UserCount_zero" = "%d users";
 "PrivacySettingsController.UserCount_one" = "%d user";
@@ -1116,6 +1142,11 @@
 "Chat.Context.Info" = "Info";
 "Chat.Context.FeedInfo" = "Channels Info";
 "Chat.Context.SharedMedia" = "Shared Media";
+"Chat.Context.ClearHistory" = "Clear Chat History";
+
+
+
+
 "Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
 "Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
@@ -1191,6 +1222,7 @@
 "Suggest.Localization.Other" = "Other";
 
 "PrivacySettings.PeerSelect.AddNew" = "Add New";
+
 
 "Channel.EditAdmin.Permission.ChangeInfo" = "Change Channel Info";
 "Group.EditAdmin.Permission.ChangeInfo" = "Change Group Info";
@@ -1529,6 +1561,7 @@
 "PreHistorySettings.Description.Group.Hidden" = "New members won't see more than 100 previous messages.";
 
 "Chat.AdminBadge" = "admin";
+
 
 "ChangePhoneNumber.Intro.Description" = "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important**: all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
 "ChangePhoneNumber.Intro.Alert" = "All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
@@ -3000,6 +3033,86 @@
 
 
 "Mark.Scam" = "SCAM";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
