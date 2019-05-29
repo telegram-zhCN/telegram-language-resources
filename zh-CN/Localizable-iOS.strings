@@ -4066,7 +4066,7 @@ Unused sets are archived when you add more.";
 
 
 "Gif.NoGifsFound" = "未找到 GIF";
-
+"Gif.NoGifsPlaceholder" = "您还没有保存过 GIF。";
 
 "Privacy.ProfilePhoto" = "头像";
 "Privacy.Forwards" = "引用转发来源";
@@ -4195,7 +4195,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"SettingsSearch.Synonyms.Watch" = "Apple Watch";
 "SettingsSearch.Synonyms.Support" = "支持\n客服";
 "SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
 
@@ -4221,7 +4221,7 @@ Unused sets are archived when you add more.";
 
 "MemberSearch.BotSection" = "机器人";
 
-
+"Conversation.PrivateMessageLinkCopied" = "此链接仅对已加入的成员有效。";
 "Conversation.ErrorInaccessibleMessage" = "很遗憾，你无法访问这条消息。你不是消息来源对话的成员。";
 
 "Stickers.ClearRecent" = "清空最近使用贴纸";
@@ -4232,14 +4232,14 @@ Unused sets are archived when you add more.";
 "ChatList.ArchiveAction" = "归档";
 "ChatList.UnarchiveAction" = "取消归档";
 "ChatList.HideAction" = "隐藏";
-
+"ChatList.UnhideAction" = "置顶";
 
 "ChatList.UndoArchiveTitle" = "对话已归档";
-
-
-
+"ChatList.UndoArchiveMultipleTitle" = "对话已归档。";
+"ChatList.UndoArchiveText1" = "向左滑动以隐藏归档。";
+"ChatList.UndoArchiveHiddenTitle" = "归档已隐藏";
 "ChatList.UndoArchiveHiddenText" = "下滑以查看归档。";
-
+"ChatList.UndoArchiveRevealedTitle" = "归档已置顶";
 "ChatList.UndoArchiveRevealedText" = "向左滑动以隐藏归档。";
 "ChatList.ArchivedChatsTitle" = "已归档对话";
 
