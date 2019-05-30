@@ -1532,6 +1532,7 @@
 "Forward.ChannelReadOnly" = "抱歉，您不能在此频道发布消息。";
 
 "Channel.ErrorAccessDenied" = "抱歉，这是一个私密频道。";
+
 "Conversation.InputTextBroadcastPlaceholder" = "发布消息";
 
 "Channel.NotificationLoading" = "加载中...";
@@ -2159,6 +2160,7 @@ Unused sets are archived when you add more.";
 "ShareMenu.CopyShareLinkGame" = "拷贝游戏链接";
 
 "Message.PinnedGame" = "置顶了一个游戏";
+
 
 "Target.ShareGameConfirmationPrivate" = "与 %@ 分享此游戏？";
 "Target.ShareGameConfirmationGroup" = "与 \"%@\" 分享此游戏？";
@@ -4211,7 +4213,10 @@ Unused sets are archived when you add more.";
 
 
 
-"DataUpgrade.Running" = "正在优化...";
+"AppUpgrade.Running" = "Optimizing Telegram...
+This may take a while, depending on the size of the database. Please keep the app open until the process is finished.
+
+Sorry for the inconvenience.";
 
 "Call.Mute" = "静音";
 
@@ -4252,6 +4257,7 @@ Unused sets are archived when you add more.";
 
 
 
+
 "Conversation.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
 
 
@@ -4262,6 +4268,71 @@ Unused sets are archived when you add more.";
 "ArchivedChats.IntroText2" = "已禁用通知的对话将在接收到新消息时保持归档。";
 "ArchivedChats.IntroTitle3" = "置顶的对话";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
+
+Any member of this group will be able to see messages in the channel.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Conversation.OpenBotLinkOpen" = "打开";
+
+"TextFormat.Link" = "链接";
+
+"TextFormat.AddLinkTitle" = "添加链接";
+
+"TextFormat.AddLinkPlaceholder" = "链接";
+
+
+
+"Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
 
 
 /* new from translations.telegram.org */
@@ -4360,6 +4431,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.BanSendStickers" = "发送贴纸";
 "Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加用户";
+"DataUpgrade.Running" = "正在优化...";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";
 "ENCRYPTION_REQUEST" = "新加密对话请求 %1$@";

@@ -252,7 +252,7 @@
 
 "Chat.Input.Delete" = "Delete and exit";
 "Chat.Input.Join" = "Join";
-
+"Chat.Input.Discuss" = "Discuss";
 "Chat.Input.Unblock" = "Unblock";
 "Chat.Input.Restart" = "Restart";
 "Chat.Input.Close" = "Close";
@@ -521,19 +521,19 @@
 "PrivacySettings.BlockedUsers" = "Blocked Users";
 "PrivacySettings.LastSeen" = "Last Seen";
 "PrivacySettings.Groups" = "Groups";
-
+"PrivacySettings.PhoneNumber" = "Phone Number";
 "PrivacySettings.VoiceCalls" = "Voice Calls";
 "PrivacySettings.ProfilePhoto" = "Profile Photo";
 "PrivacySettings.Forwards" = "Forwarded Messages";
 
 
 "PrivacySettings.GroupMembersCount_countable" = "%d";
-
-
-
-
-
-
+"PrivacySettings.GroupMembersCount_zero" = "%d members";
+"PrivacySettings.GroupMembersCount_one" = "%d member";
+"PrivacySettings.GroupMembersCount_two" = "%d members";
+"PrivacySettings.GroupMembersCount_few" = "%d members";
+"PrivacySettings.GroupMembersCount_many" = "%d members";
+"PrivacySettings.GroupMembersCount_other" = "%d members";
 
 "PrivacySettings.SecurityHeader" = "SECURITY";
 "PrivacySettings.Passcode" = "Passcode";
@@ -852,7 +852,7 @@
 "LinkInvation.Confirm.Ok" = "Revoke";
 "ChannelMembers.Select.Title" = "Add Members";
 "PeerInfo.Confirm.StartSecretChat" = "Are you sure you want to start a secret chat with \"%@\"?";
-
+"PeerInfo.Confirm.ShareInfo" = "Are you sure you want to share your phone number with \"%@\"?";
 
 
 "PeerInfo.BotStatus.HasNoAccess" = "has no access to messages";
@@ -1059,9 +1059,10 @@
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "Never Allow";
 
 
-
-
-
+"PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "WHO CAN SEE MY PHONE NUMBER";
+"PrivacySettingsController.PhoneNumber.CustomHelp" = "Users who already have your number saved in the contacts will also see it on Telegram.";
+"PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "Always Share With";
+"PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "Never Share";
 
 "PrivacySettingsController.UserCount_countable" = "%d";
 "PrivacySettingsController.UserCount_zero" = "%d users";
@@ -1144,8 +1145,8 @@
 "Chat.Context.SharedMedia" = "Shared Media";
 "Chat.Context.ClearHistory" = "Clear Chat History";
 
-
-
+"Chat.Context.Archive" = "Archive";
+"Chat.Context.Unarchive" = "Unarchive";
 
 "Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
@@ -1222,7 +1223,7 @@
 "Suggest.Localization.Other" = "Other";
 
 "PrivacySettings.PeerSelect.AddNew" = "Add New";
-
+"PrivacySettings.PeerSelect.AddUserOrGroup" = "Add Users or Groups";
 
 "Channel.EditAdmin.Permission.ChangeInfo" = "Change Channel Info";
 "Group.EditAdmin.Permission.ChangeInfo" = "Change Group Info";
@@ -1561,7 +1562,7 @@
 "PreHistorySettings.Description.Group.Hidden" = "New members won't see more than 100 previous messages.";
 
 "Chat.AdminBadge" = "admin";
-
+"Chat.ChannelBadge" = "channel";
 
 "ChangePhoneNumber.Intro.Description" = "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important**: all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
 "ChangePhoneNumber.Intro.Alert" = "All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
@@ -3028,91 +3029,100 @@
 
 "Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "Sorry, you can't create a group with these users due to their privacy settings.";
 "PeerInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
-"ChannelInfo.ScamWarning" = "⚠️ Warning: Many users reported this channel as a scam. Please be careful, especially if it asks you for money.";
-"GroupInfo.ScamWarning" = "⚠️ Warning: Many users reported this group as a scam. Please be careful, especially if it asks you for money.";
+"ChannelInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
+"GroupInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
 
 
 "Mark.Scam" = "SCAM";
 
 
+"GeneralSettings.CopyRTF" = "Copy Text Formatting";
 
 
+"ChatList.RevealAction.Hide" = "Hide";
+"ChatList.RevealAction.Pin" = "Pin";
 
 
+"Bot.InlineAuth.Header" = "Open Link";
+"Bot.InlineAuth.Title" = "Do you want to open\n%@?";
+"Bot.InlineAuth.Open" = "Open";
 
+"Bot.InlineAuth.Option.Login" = "Log in to %@ as %@";
+"Bot.InlineAuth.Option.AllowSendMessages" = "Allow %@ to send me messages";
 
 
+"PeerInfo.Discussion" = "Discussion";
+"PeerInfo.LinkedChannel" = "Linked Channel";
+"PeerInfo.Discussion.Add" = "Add";
+"PeerInfo.Discussion.Desc" = "Add group chat for comments.";
 
 
+"DiscussionController.Group.Title" = "Linked Channel";
+"DiscussionController.Channel.Title" = "Discussion Group";
 
+"DiscussionController.Channel.Empty.Header" = "Select a group chat for discussion that will be displayed in your channel.";
+"DiscussionController.Channel.Empty.CreateGroup" = "Create a New Group";
+"DiscussionController.Channel.Empty.Description" = "Everything you post in the channel will be forwarded to this group.";
 
 
+"DiscussionController.PrivateGroup" = "private group";
+"DiscussionController.PrivateChannel" = "private channel";
 
 
 
 
+"Discussion.Set.Modal.OK" = "Link Group";
 
 
+"Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
+"Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will able to see all messages in the channel.";
 
 
+"DiscussionController.Channel.Set.Header" = "A link to **%@** is shown to all subscribers in the bottom panel.";
+"DiscussionController.Channel.Set.Description" = "Everything you post in the channel will be forwarded to this group.";
 
+"DiscussionController.Channel.Set.UnlinkGroup" = "Unlink Group";
 
 
+"DiscussionController.Group.Set.Header" = "**%@** is linking the group as its discussion board.";
+"DiscussionController.Group.Set.Description" = "All new messages posted in this channel are forwarded to this group.";
 
+"DiscussionController.Group.Set.UnlinkChannel" = "Unlink Channel";
 
 
+"DiscussionController.Confrim.UnlinkChannel" = "Are you sure you want to unlink the channel from this group?";
+"DiscussionController.Confrim.UnlinkGroup" = "Are you sure you want to unlink the group from this channel?";
 
 
+"PrivacyAndSecurity.Item.Off" = "Off";
+"PrivacyAndSecurity.Item.On" = "On";
 
+"DiscussionController.Group.Unset.Description" = "Channel successfully unlinked.";
 
+"DiscussionController.IconText" = "Discuss";
 
 
+"Channel.EventLog.MessageChangedLinkedGroup" = "%@ linked %@ as the discussion group";
+"Channel.EventLog.MessageChangedLinkedChannel" = "%@ linked this group to %@";
+"Channel.EventLog.MessageChangedUnlinkedGroup" = "%@ removed discussion group";
+"Channel.EventLog.MessageChangedUnlinkedChannel" = "%@ unlinked this group from %@";
 
 
+"DiscussionController.Error.PreHistory" = "Warning: If you set this private group as the discussion group for your channel, all channel subscribers will be able to access the group. \"Chat history for new members\" will be switched to Visible";
+"DiscussionController.Error.OK" = "Proceed";
 
 
+"PreHistory.Confirm.Unlink" = "Warning, this will unlink the group from \"%@\"";
 
 
 
+"Channel.Error.DontHavePermissions" = "Sorry, you don't have the necessary permissions for this action.";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Channel.AddBotErrorHaveRights" = "Bots can only be added as administrators.";
+"Channel.AddBotAsAdmin" = "Make Admin";
+"Channel.AddBotErrorNoRights" = "Sorry, bots can only be added to channels as administrators.";
 
 
 /* new from translations.telegram.org */
