@@ -4276,7 +4276,7 @@ Sorry for the inconvenience.";
 
 "Privacy.AddNewPeer" = "Add Users or Groups";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "WHO CAN SEE MY PHONE NUMBER";
-"PrivacyPhoneNumberSettings.CustomHelp" = "Users who already have your number saved in the contacts will also see it on Telegram.";
+"PrivacyPhoneNumberSettings.CustomHelp" = "Users who already have your number saved in their contacts will also see it on Telegram.";
 "Privacy.PhoneNumber" = "Phone Number";
 "PrivacySettings.PhoneNumber" = "Phone Number";
 "Contacts.SearchUsersAndGroupsLabel" = "Search for users and groups";
@@ -4293,10 +4293,10 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup" = "Discussion";
 "Group.LinkedChannel" = "Linked Channel";
 "Channel.DiscussionGroupAdd" = "Add";
-"Channel.DiscussionGroupInfo" = "Add group chat for comments.";
+"Channel.DiscussionGroupInfo" = "Add a group chat for comments.";
 "Channel.DiscussionGroup.Header" = "Select a group chat for discussion that will be displayed in your channel.";
 "Channel.DiscussionGroup.HeaderSet" = "A link to %@ is shown to all subscribers in the bottom panel.";
-"Channel.DiscussionGroup.HeaderGroupSet" = "%@ is linking the group as its discussion board.";
+"Channel.DiscussionGroup.HeaderGroupSet" = "This group is linked as the discussion board for %@.";
 "Channel.DiscussionGroup.HeaderLabel" = "Discuss";
 "Channel.DiscussionGroup.Create" = "Create New Group";
 "Channel.DiscussionGroup.PrivateGroup" = "private group";
@@ -4330,9 +4330,9 @@ Any member of this group will be able to see messages in the channel.";
 "TextFormat.AddLinkText" = "The link will be displayed as \"%@\".";
 "TextFormat.AddLinkPlaceholder" = "URL";
 
-"Channel.AddBotErrorHaveRights" = "Bots can only be added as administrators.";
+"Channel.AddBotErrorHaveRights" = "Bots can only be added to channels as administrators.";
 "Channel.AddBotAsAdmin" = "Make Admin";
-"Channel.AddBotErrorNoRights" = "Sorry, bots can only be added to channels as administrators.";
+"Channel.AddBotErrorNoRights" = "Bots can only be added to channels as administrators.";
 
 
 /* new from translations.telegram.org */

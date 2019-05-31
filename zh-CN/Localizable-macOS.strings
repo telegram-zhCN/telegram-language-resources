@@ -252,7 +252,7 @@
 
 "Chat.Input.Delete" = "删除并退出";
 "Chat.Input.Join" = "加入";
-
+"Chat.Input.Discuss" = "讨论";
 "Chat.Input.Unblock" = "取消屏蔽";
 "Chat.Input.Restart" = "重启";
 "Chat.Input.Close" = "关闭";
@@ -1035,7 +1035,7 @@
 "PrivacySettingsController.MyContacts" = "我的联系人";
 "PrivacySettingsController.Nobody" = "不允许任何人";
 "PrivacySettingsController.NeverShare" = "从不共享";
-"PrivacySettingsController.AlwaysShare" = "总是公开";
+"PrivacySettingsController.AlwaysShare" = "总是共享";
 "PrivacySettingsController.NeverShareWith" = "从不共享给";
 "PrivacySettingsController.AlwaysShareWith" = "总是共享给";
 "PrivacySettingsController.NeverAllow" = "从不允许";
@@ -1059,10 +1059,10 @@
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "从不允许";
 
 
+"PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "谁可以看到我的手机号？";
 
-
-
-
+"PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "总是共享给";
+"PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "从不共享";
 
 "PrivacySettingsController.UserCount_countable" = "%d";
 
@@ -1082,7 +1082,7 @@
 
 "PrivacySettingsController.PhoneCallHeader" = "谁可以呼叫我";
 "PrivacySettingsController.PhoneCallDescription" = "你可以限制其他人和你语音通话的权限";
-"PrivacySettingsController.PeerInfo" = "这些设定会覆盖上面的设定。";
+"PrivacySettingsController.PeerInfo" = "这些设置会覆盖上面的设置。";
 
 "Chat.Call.Outgoing" = "外拨电话";
 "Chat.Call.Incoming" = "来电";
@@ -1223,7 +1223,7 @@
 "Suggest.Localization.Other" = "其它";
 
 "PrivacySettings.PeerSelect.AddNew" = "添加...";
-
+"PrivacySettings.PeerSelect.AddUserOrGroup" = "添加用户或群组";
 
 "Channel.EditAdmin.Permission.ChangeInfo" = "修改频道信息";
 "Group.EditAdmin.Permission.ChangeInfo" = "修改群组信息";
@@ -3043,6 +3043,51 @@
 
 
 
+"Bot.InlineAuth.Header" = "打开链接";
+"Bot.InlineAuth.Title" = "您想打开\n%@ 吗？";
+
+
+"Bot.InlineAuth.Option.Login" = "以 %@ 身份登录 %@";
+"Bot.InlineAuth.Option.AllowSendMessages" = "允许 **%@** 向我发送消息";
+
+
+"PeerInfo.Discussion" = "讨论群";
+"PeerInfo.LinkedChannel" = "链接的频道";
+
+"PeerInfo.Discussion.Desc" = "添加一个用于评论的群组。";
+
+
+
+
+
+"DiscussionController.Channel.Empty.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
+"DiscussionController.Channel.Empty.CreateGroup" = "创建一个新群组";
+"DiscussionController.Channel.Empty.Description" = "您在频道中发布的所有内容都将被转发到此群组。";
+
+
+"DiscussionController.PrivateGroup" = "私人群组";
+
+
+
+
+
+"Discussion.Set.Modal.OK" = "链接群组";
+
+
+
+
+
+
+"DiscussionController.Channel.Set.Header" = "一个指向 **%@** 的链接正在底部面板中向所有订阅者显示。";
+
+
+"DiscussionController.Channel.Set.UnlinkGroup" = "取消链接群组";
+
+
+"DiscussionController.Group.Set.Header" = "**%@** 正在将此群组作为其讨论板。";
+
+
+"DiscussionController.Group.Set.UnlinkChannel" = "取消链接频道";
 
 
 
@@ -3058,54 +3103,9 @@
 
 
 
+"Channel.EventLog.MessageChangedLinkedChannel" = "%@ 将此群组与 %@ 链接";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Channel.EventLog.MessageChangedUnlinkedChannel" = "%@ 将此群组与 %@ 取消链接";
 
 
 
@@ -3130,6 +3130,7 @@
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
 "ChannelBlacklist.AddMember" = "邀请新成员";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
+"Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "Gallery.Counter" = "%d / %d";
 "PeerInfo.Admins" = "管理员";
 "PeerInfo.SetAdmins" = "设置管理员";

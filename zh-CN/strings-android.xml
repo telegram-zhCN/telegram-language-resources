@@ -455,6 +455,27 @@
     <string name="CantAddBotAsAdmin">抱歉，机器人在频道中只能被添加为管理员。</string>
     <string name="MakeAdmin">添加为管理员</string>
     <string name="AdminWillBeRemoved">如果您对 %1$s 作出限制，他将被撤销管理员权限。</string>
+    <string name="Discussion">讨论群</string>
+    <string name="DiscussionInfo">添加一个用于评论的群组</string>
+    <string name="LinkedChannel">链接的频道</string>
+    <string name="DiscussionChannelHelp">选择一个将在您的频道中显示的用于讨论的群组。</string>
+    <string name="DiscussionChannelHelp2">您在频道中发布的所有内容都将被转发到此群组。</string>
+    <string name="DiscussionChannelGroupSetHelp">一个指向 **%1$s** 的链接正在底部面板中向所有订阅者显示。</string>
+    <string name="DiscussionGroupHelp">**%1$s** 正在将此群组作为其讨论板。</string>
+    <string name="DiscussionGroupHelp2">此频道中发布的所有新消息都将转发到该群组。</string>
+    <string name="DiscussionCreateGroup">创建一个新群组</string>
+    <string name="DiscussionUnlinkGroup">取消链接群组</string>
+    <string name="DiscussionUnlinkChannel">取消链接频道</string>
+    <string name="DiscussionUnlink">取消链接</string>
+    <string name="DiscussionLinkGroup">链接群组</string>
+    <string name="DiscussionLinkGroupPublicAlert">您想让 **%1$s** 成为 **%2$s** 的讨论板吗？</string>
+    <string name="DiscussionLinkGroupPrivateAlert">您想让 **%1$s** 成为 **%2$s** 的讨论板吗？\n\n该群组的任何成员都可以查看频道中的消息。</string>
+    <string name="DiscussionLinkGroupPublicPrivateAlert">您想让 **%1$s** 成为 **%2$s** 的讨论板吗？\n\n该频道的任何成员都可以查看群组中的消息。</string>
+    <string name="DiscussionLinkGroupAlertHistory">“新成员历史记录可见性”将被切换为可见。</string>
+    <string name="DiscussionUnlinkGroupAlert">你确定要从此群组取消链接 **%1$s** 吗？</string>
+    <string name="DiscussionUnlinkChannelAlert">您确定要将 **%1$s** 从此频道取消链接吗？</string>
+    <string name="ChannelDiscuss">讨论</string>
+    <string name="DiscussChannel">频道</string>
     <!--polls-->
     <string name="NewPoll">发起投票</string>
     <string name="Poll">投票</string>
@@ -524,6 +545,10 @@
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
     <string name="EventLogChangedStickersSet">un1 更换了群组贴纸包</string>
     <string name="EventLogRemovedStickersSet">un1 删除了群组贴纸包</string>
+    <string name="EventLogChangedLinkedGroup">un1 使 un2 成为此频道的讨论群</string>
+    <string name="EventLogRemovedLinkedGroup">un1 移除了讨论群 un2</string>
+    <string name="EventLogChangedLinkedChannel">un1 将此群组与 un2 链接</string>
+    <string name="EventLogRemovedLinkedChannel">un1 将此群组与 un2 取消链接</string>
     <string name="EventLogChangedGroupLink">un1 修改了群组链接:</string>
     <string name="EventLogChangedChannelLink">un1 修改了频道链接:</string>
     <string name="EventLogRemovedGroupLink">un1 删除了群组链接</string>
@@ -680,7 +705,10 @@
     <string name="UploadItems">上传 %1$s</string>
     <string name="SendAsFile">发送原图</string>
     <string name="SendAsFiles">发送原图</string>
-    <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
+    <string name="OpenUrlTitle">打开链接</string>
+    <string name="OpenUrlAlert2">您想打开 %1$s 吗？</string>
+    <string name="OpenUrlOption1">以 **%2$s** 身份登录 %1$s</string>
+    <string name="OpenUrlOption2">允许 **%1$s** 向我发送消息</string>
     <string name="CancelSending">取消发送</string>
     <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的手机号码) 到通过机器人打开的网页？</string>
     <string name="ReportSpam">举报垃圾信息</string>
@@ -792,6 +820,7 @@
     <string name="MapPreviewProviderNobody">不使用预览</string>
     <string name="InstallGoogleMaps">安装 Google 地图？</string>
     <string name="ScamMessage">诈骗</string>
+    <string name="ViaBot">通过</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -899,6 +928,7 @@
     <string name="SecretChatName">Telegram</string>
     <!--contacts view-->
     <string name="SelectContact">选择联系人</string>
+    <string name="SelectContacts">选择联系人</string>
     <string name="ContactShare">分享联系人</string>
     <string name="NoContacts">还没有联系人</string>
     <string name="InviteText2">嗨，我在使用 Telegram 聊天。加入我们吧！从这里下载：%1$s</string>
@@ -951,6 +981,8 @@
     <string name="CopyLink">复制链接</string>
     <string name="ShareLink">分享链接</string>
     <string name="LinkInfo">任何已安装 Telegram 的用户都将可以通过此链接加入您的群组。</string>
+    <string name="SearchForPeople">搜索人...</string>
+    <string name="SearchForPeopleAndGroups">搜索用户与群组...</string>
     <!--group info view-->
     <string name="GroupMembers">成员</string>
     <string name="SharedMedia">分享的媒体文件</string>
@@ -979,6 +1011,9 @@
     <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
     <string name="Invite">邀请</string>
     <string name="BlockContact">屏蔽</string>
+    <string name="BlockUser">屏蔽用户</string>
+    <string name="UserBlocked">用户已屏蔽</string>
+    <string name="UserUnblocked">用户已取消屏蔽</string>
     <string name="EditContact">编辑联系人</string>
     <string name="DeleteContact">删除联系人</string>
     <string name="PhoneHome">家庭</string>
@@ -1086,7 +1121,7 @@
     <string name="AutoNightThemeOff">未启用</string>
     <string name="AutoNightDisabled">关闭</string>
     <string name="AutoNightScheduled">计划时段</string>
-    <string name="AutoNightAutomatic">自动</string>
+    <string name="AutoNightAdaptive">自适应</string>
     <string name="AutoNightSchedule">时间段</string>
     <string name="AutoNightLocation">使用当地日落/日出时间</string>
     <string name="AutoNightUpdateLocation">更新位置</string>
@@ -1098,6 +1133,8 @@
     <string name="AutoNightBrightnessInfo">当环境亮度低于 %1$d%% 时，切换为夜间主题。</string>
     <string name="ThemeDark">暗色</string>
     <string name="ThemeDarkBlue">深蓝色</string>
+    <string name="ThemeGraphite">石墨</string>
+    <string name="ThemeArcticBlue">北极蓝</string>
     <string name="ThemeBlue">蓝色</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
     <string name="IncorrectTheme">错误的主题文件</string>
@@ -1106,6 +1143,8 @@
     <string name="SaveTheme">保存主题</string>
     <string name="NewTheme">新建颜色主题</string>
     <string name="ColorTheme">色彩主题</string>
+    <string name="BuiltInThemes">内置主题</string>
+    <string name="CustomThemes">自定义主题</string>
     <string name="ChatList">对话列表视图</string>
     <string name="ChatListDefault">双行</string>
     <string name="ChatListExpanded">三行</string>
@@ -1113,11 +1152,13 @@
     <string name="ApplyTheme">应用</string>
     <string name="ThemePreview">主题预览</string>
     <string name="SelectColor">选择颜色</string>
+    <string name="ColorThemes">色彩主题</string>
+    <string name="ShowAllThemes">显示所有主题</string>
     <string name="CreateNewThemeMenu">创建新主题</string>
     <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
     <string name="CreateNewThemeAlert">您可以通过更改应用中的颜色来创建自己的主题。\n\n您可以随时切换回默认的 Telegram 主题。</string>
     <!--settings view-->
-    <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
+    <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
     <string name="TextSizeHeader">消息文字大小</string>
     <string name="AskAQuestion">向我们提问</string>
@@ -1172,6 +1213,7 @@
     <string name="NotificationsTurnOn">启用</string>
     <string name="NotificationsTurnOff">禁用</string>
     <string name="BlockedUsers">已屏蔽的用户</string>
+    <string name="BlockedUsersInfo">被屏蔽的用户将无法与您联系，也无法看到您的最后上线时间。</string>
     <string name="LogOut">注销</string>
     <string name="NoSound">无声</string>
     <string name="Default">默认</string>
@@ -1182,7 +1224,7 @@
     <string name="ChatBackground">聊天窗口背景图</string>
     <string name="ResetChatBackgrounds">重置背景图列表</string>
     <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
-    <string name="ResetChatBackgroundsAlertTitle">重置聊天界面背景图</string>
+    <string name="ResetChatBackgroundsAlertTitle">重置聊天窗口背景图</string>
     <string name="ResetChatBackgroundsAlert">您确定要重置背景图列表吗？</string>
     <string name="DeleteChatBackgroundsAlert">您确定要删除选定的背景吗？</string>
     <string name="BackgroundPreview">背景预览</string>
@@ -1942,6 +1984,10 @@
     <string name="PrivacyProfilePhotoTitle">谁可以看到我的头像？</string>
     <string name="PrivacyProfilePhotoInfo">您可以精确地控制哪些人可以查看您的头像。</string>
     <string name="PrivacyProfilePhotoInfo2">这些设置会覆盖上面的设置。</string>
+    <string name="PrivacyPhone">手机号</string>
+    <string name="PrivacyPhoneTitle">谁可以看到我的手机号？</string>
+    <string name="PrivacyPhoneInfo">已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。</string>
+    <string name="PrivacyPhoneInfo2">您可以将用户或整个群组添加为覆盖上面的设置的例外。</string>
     <string name="PrivacyForwards">引用转发来源</string>
     <string name="PrivacyForwardsEverybody">可以链接到您的帐户</string>
     <string name="PrivacyForwardsContacts">允许时可点击查看个人信息</string>
@@ -1950,7 +1996,9 @@
     <string name="PrivacyForwardsInfo">当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。</string>
     <string name="PrivacyForwardsInfo2">这些设置会覆盖上面的设置。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
+    <string name="PrivacyP2PHeader">端到端</string>
     <string name="PrivacyP2P">通话端对端连接</string>
+    <string name="PrivacyP2P2">使用端到端链接与</string>
     <string name="PrivacyBots">机器人与网站</string>
     <string name="PrivacyPaymentsClear">清除付款和配送信息</string>
     <string name="PrivacyPaymentsClearAlert">是否删除您的配送信息，并使所有的付款提供商清除您保存的信用卡？请注意 Telegram 从来不会存储您的信用卡数据。</string>
@@ -1985,11 +2033,9 @@
     <string name="PrivacySettingsChangedAlert">您已更改了一些隐私设置。应用更改？</string>
     <string name="AlwaysShareWith">总是共享给</string>
     <string name="NeverShareWith">从不共享给</string>
-    <string name="CustomShareSettingsHelp">这些设置会覆盖全局设置。</string>
+    <string name="CustomShareSettingsHelp">这些设置会覆盖上面的设置。</string>
     <string name="AlwaysShareWithTitle">总是共享</string>
-    <string name="AlwaysShareWithPlaceholder">选择可以看见您上线时间的用户...</string>
     <string name="NeverShareWithTitle">从不共享</string>
-    <string name="NeverShareWithPlaceholder">选择无法看见您上线时间的用户...</string>
     <string name="EmpryUsersPlaceholder">添加用户</string>
     <string name="PrivacyFloodControlError">抱歉，请求过于频繁。现在暂时无法修改隐私设置，请稍后再试。</string>
     <string name="RemoveFromListText">长按删除用户。</string>
@@ -1998,8 +2044,6 @@
     <string name="WhoCanAddMeInfo">您可以精确控制其他人能否邀请您进入任意群组或频道。</string>
     <string name="AlwaysAllow">总是允许</string>
     <string name="NeverAllow">从不允许</string>
-    <string name="AlwaysAllowPlaceholder">总是允许...</string>
-    <string name="NeverAllowPlaceholder">从不允许...</string>
     <string name="CustomShareInfo">无论上面如何设置，这些用户将能或不能将您添加到群组或频道。</string>
     <string name="GroupsAndChannelsHelp">控制谁能邀请您进入群组或频道。</string>
     <string name="InviteToGroupError">抱歉，根据此用户的隐私设置，您不能将其添加到群组。</string>
@@ -2010,6 +2054,8 @@
     <string name="SuggestContacts">推荐频繁往来的联系人</string>
     <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
     <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。</string>
+    <string name="PrivacyAddAnException">添加用户或群组</string>
+    <string name="PrivacyExceptions">例外</string>
     <!--edit video view-->
     <string name="SendingVideo">正在发送视频...</string>
     <string name="SendingGif">正在发送 GIF...</string>
@@ -2126,6 +2172,8 @@
     <string name="ActionTakeScreenshootYou">您截了一张图！</string>
     <string name="ActionTakeScreenshoot">un1 截了一张图！</string>
     <!--Alert messages-->
+    <string name="DeleteAllMessagesAlert">警告！ 这将**删除**聊天中**双方**的**所有消息**。</string>
+    <string name="DeleteAll">删除全部</string>
     <string name="StopLoading">停止加载？</string>
     <string name="UpdateTelegram">更新 Telegram</string>
     <string name="UpdateAppAlert">很抱歉，您的 Telegram 程序已经过时，无法处理这个请求。请升级 Telegram。</string>
@@ -2148,6 +2196,12 @@
     <string name="AddToTheGroupTitle">添加 %1$s 到群组 %2$s？</string>
     <string name="AddToTheGroupForwardCount">要转发的最近消息数：</string>
     <string name="AddToTheGroup">添加 %1$s 到此群组？</string>
+    <string name="AddMembersAlertTitle">添加 %1$s</string>
+    <string name="AddOneMemberAlertTitle">添加成员</string>
+    <string name="AddMembersAlertNamesText">您确定要添加 %1$s 到 **%2$s** 吗？</string>
+    <string name="AddMembersAlertCountText">您确定要添加 %1$s 到 **%2$s** 吗？</string>
+    <string name="AddMembersForwardMessages">向新成员显示最后100条消息</string>
+    <string name="AddOneMemberForwardMessages">向 **%1$s** 显示最后100条消息</string>
     <string name="SendMessagesTo">发送消息给 %1$s ？</string>
     <string name="SendGameTo">分享游戏给 %1$s 吗？</string>
     <string name="SendContactTo">发送联系人信息给 %1$s ？</string>
@@ -2175,7 +2229,7 @@
     <string name="AreYouSureShareMyContactInfoBot">机器人将会获取您的手机号码。这可能对与其他服务的集成有用。</string>
     <string name="AreYouSureShareMyContactInfoUser">您确定要将您的手机号码 %1$s 分享给 **%2$s** 吗？</string>
     <string name="AreYouSureShareMyContactInfo">您确定要分享您的手机号码？</string>
-    <string name="AreYouSureBlockContact">您确定要屏蔽此联系人吗？</string>
+    <string name="AreYouSureBlockContact2">您确定要屏蔽 **%1$s** 吗？</string>
     <string name="AreYouSureUnblockContact">您确定要取消屏蔽此联系人吗？</string>
     <string name="AreYouSureDeleteContact">您确定要删除此联系人吗？</string>
     <string name="AreYouSureSecretChatTitle">加密对话</string>
@@ -2606,6 +2660,12 @@
     <string name="Media_few">%1$d 个媒体</string>
     <string name="Media_many">%1$d 个媒体</string>
     <string name="Media_other">%1$d 个媒体</string>
+    <string name="BlockedUsersCount_zero">%1$d 位已被屏蔽的用户</string>
+    <string name="BlockedUsersCount_one">%1$d 位已被屏蔽的用户</string>
+    <string name="BlockedUsersCount_two">%1$d 位已被屏蔽的用户</string>
+    <string name="BlockedUsersCount_few">%1$d 位已被屏蔽的用户</string>
+    <string name="BlockedUsersCount_many">%1$d 位已被屏蔽的用户</string>
+    <string name="BlockedUsersCount_other">%1$d 位已被屏蔽的用户</string>
     <string name="ForwardedFile_zero">%1$d 个转发的文件</string>
     <string name="ForwardedFile_one">%1$d 个转发的文件</string>
     <string name="ForwardedFile_two">%1$d 个转发的文件</string>
@@ -2776,7 +2836,11 @@
 
   <!-- new from translations.telegram.org -->
 
+  <string name="AlwaysAllowPlaceholder">总是允许...</string>
+  <string name="AlwaysShareWithPlaceholder">总是公开给...</string>
+  <string name="AreYouSureBlockContact">您确定要屏蔽此联系人吗？</string>
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s吗？</string>
+  <string name="AutoNightAutomatic">自动</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
   <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
   <string name="ChannelMessagePoll">%1$s 发布了一项投票</string>
@@ -2791,6 +2855,8 @@
   <string name="EnableProxyAlert2">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
   <string name="KickFromSupergroup">限制用户权限</string>
   <string name="MobileUsage">移动数据使用情况</string>
+  <string name="NeverAllowPlaceholder">从不允许...</string>
+  <string name="NeverShareWithPlaceholder">从不共享给...</string>
   <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
   <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
   <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一条联系人信息</string>
@@ -2804,6 +2870,7 @@
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最高</string>
+  <string name="OpenUrlAlert">是否打开链接 %1$s ？</string>
   <string name="PassportInfo">通过使用 Telegram Passport，您可以方便地注册需要实名认证网站和服务。\n\n您的信息、个人数据和档案受端到端加密保护。没有人，包括 Telegram，可以在未经您许可的情况下访问它们。\n\n您可以阅读我们的 FAQ 来了解更多信息。</string>
   <string name="PassportSDK_Cancel">取消</string>
   <string name="PassportSDK_DownloadTelegram">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>

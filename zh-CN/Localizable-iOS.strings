@@ -902,15 +902,15 @@
 
 "PrivacyLastSeenSettings.Title" = "最后上线";
 "PrivacyLastSeenSettings.CustomHelp" = "注意：对于您设置为无法看到您最后上线时间的用户，您也无法看到他们的最后上线时间，取而代之的是大概的上线时间（如：最近、一周内、一个月内）。";
-"PrivacyLastSeenSettings.AlwaysShareWith" = "总是对他们公开...";
-"PrivacyLastSeenSettings.NeverShareWith" = "不对他们公开...";
-"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "这些设置将会优先于上述设置。";
+"PrivacyLastSeenSettings.AlwaysShareWith" = "总是共享给";
+"PrivacyLastSeenSettings.NeverShareWith" = "从不共享给";
+"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "这些设置会覆盖上面的设置。";
 
 "PrivacyLastSeenSettings.CustomShareSettings.Delete" = "删除";
-"PrivacyLastSeenSettings.AlwaysShareWith.Title" = "总是公开";
+"PrivacyLastSeenSettings.AlwaysShareWith.Title" = "总是共享";
 "PrivacyLastSeenSettings.AlwaysShareWith.Placeholder" = "总是公开给...";
-"PrivacyLastSeenSettings.NeverShareWith.Title" = "不对他们公开";
-"PrivacyLastSeenSettings.NeverShareWith.Placeholder" = "不对他们公开...";
+"PrivacyLastSeenSettings.NeverShareWith.Title" = "从不共享";
+"PrivacyLastSeenSettings.NeverShareWith.Placeholder" = "从不共享给...";
 "PrivacyLastSeenSettings.EmpryUsersPlaceholder" = "添加用户";
 
 
@@ -4274,6 +4274,12 @@ Sorry for the inconvenience.";
 
 
 
+"Privacy.AddNewPeer" = "添加用户或群组";
+"PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号？";
+
+
+"PrivacySettings.PhoneNumber" = "手机号";
+"Contacts.SearchUsersAndGroupsLabel" = "搜索用户与群组...";
 
 
 
@@ -4284,26 +4290,20 @@ Sorry for the inconvenience.";
 
 
 
+"Channel.DiscussionGroup" = "讨论群";
+"Group.LinkedChannel" = "链接的频道";
+
+"Channel.DiscussionGroupInfo" = "添加一个用于评论的群组。";
+"Channel.DiscussionGroup.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
+"Channel.DiscussionGroup.HeaderSet" = "一个指向 %@ 的链接正在底部面板中向所有订阅者显示。";
+"Channel.DiscussionGroup.HeaderGroupSet" = "%@ 正在将此群组作为其讨论板。";
+"Channel.DiscussionGroup.HeaderLabel" = "讨论";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Channel.DiscussionGroup.LinkGroup" = "链接群组";
+"Channel.DiscussionGroup.UnlinkGroup" = "取消链接群组";
+"Channel.DiscussionGroup.UnlinkChannel" = "取消链接频道";
 
 "Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
 
@@ -4313,15 +4313,15 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Channel.AdminLog.MessageChangedLinkedGroup" = "%1$@ 使 %2$@ 成为此频道的讨论群";
+"Channel.AdminLog.MessageChangedLinkedChannel" = "%1$@ 将此群组与 %2$@ 链接";
+"Channel.AdminLog.MessageChangedUnlinkedGroup" = "%1$@ 移除了讨论群 %2$@";
+"Channel.AdminLog.MessageChangedUnlinkedChannel" = "%1$@ 将此群组与 %2$@ 取消链接";
 
-
-
-
-
-
-
-
-
+"Conversation.OpenBotLinkTitle" = "打开链接";
+"Conversation.OpenBotLinkText" = "您想打开 **%@** 吗？";
+"Conversation.OpenBotLinkLogin" = "以 **%2$@** 身份登录 %1$@";
+"Conversation.OpenBotLinkAllowMessages" = "允许 **%@** 向我发送消息";
 "Conversation.OpenBotLinkOpen" = "打开";
 
 "TextFormat.Link" = "链接";

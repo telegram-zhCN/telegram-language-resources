@@ -119,11 +119,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_status" = "channel";
 "lng_group_status" = "group";
 
-"lng_channel_members_link#one" = "{count} member";
-"lng_channel_members_link#other" = "{count} members";
-"lng_channel_admins_link#one" = "{count} administrator";
-"lng_channel_admins_link#other" = "{count} administrators";
-
 "lng_flood_error" = "Too many tries. Please try again later.";
 "lng_gif_error" = "An error has occurred while reading GIF animation :(";
 "lng_edit_error" = "You cannot edit this message";
@@ -293,6 +288,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_count_unread" = "Count unread messages";
 "lng_settings_events_title" = "Events";
 "lng_settings_events_joined" = "Contact joined Telegram";
+"lng_settings_events_pinned" = "Pinned messages";
 
 "lng_notification_preview" = "You have a new message";
 "lng_notification_reply" = "Reply";
@@ -360,9 +356,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_privacy_title" = "Privacy";
 "lng_settings_last_seen" = "Last seen";
 "lng_settings_calls" = "Voice calls";
-"lng_settings_calls_peer_to_peer" = "Peer-to-peer in calls";
+"lng_settings_calls_peer_to_peer_title" = "Peer-to-peer";
+"lng_settings_calls_peer_to_peer_button" = "Use peer-to-peer with";
 "lng_settings_groups_invite" = "Groups";
 "lng_settings_group_privacy_about" = "Change who can add you to groups and channels.";
+"lng_settings_phone_number_privacy" = "Phone number";
 "lng_settings_forwards_privacy" = "Forwarded messages";
 "lng_settings_profile_photo_privacy" = "Profile photo";
 "lng_settings_sessions_about" = "Control your sessions on other devices.";
@@ -609,6 +607,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_exceptions_count#other" = "{count} users";
 "lng_edit_privacy_exceptions_add" = "Add users";
 
+"lng_edit_privacy_phone_number_title" = "Phone number privacy";
+"lng_edit_privacy_phone_number_header" = "Who can see your phone number";
+"lng_edit_privacy_phone_number_warning" = "Users who already have your number saved in their contacts will also see it on Telegram.";
+"lng_edit_privacy_phone_number_always_empty" = "Always share with";
+"lng_edit_privacy_phone_number_never_empty" = "Never share with";
+"lng_edit_privacy_phone_number_exceptions" = "Add users or groups to override the settings above.";
+"lng_edit_privacy_phone_number_always_title" = "Always share with";
+"lng_edit_privacy_phone_number_never_title" = "Never share with";
+
 "lng_edit_privacy_lastseen_title" = "Last seen privacy";
 "lng_edit_privacy_lastseen_header" = "Who can see your last seen time";
 "lng_edit_privacy_lastseen_warning" = "Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).";
@@ -838,6 +845,26 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_private_peer_title" = "Private";
 "lng_manage_public_peer_title" = "Public";
 
+"lng_manage_discussion_group" = "Discussion";
+"lng_manage_discussion_group_add" = "Add a group";
+"lng_manage_linked_channel" = "Linked channel";
+"lng_manage_linked_channel_restore" = "Restore linked channel";
+"lng_manage_discussion_group_about" = "Select a group chat for discussion that will be displayed in your channel.";
+"lng_manage_discussion_group_about_chosen" = "A link to {group} is shown to all subscribers in the bottom panel.";
+"lng_manage_discussion_group_create" = "Create a new group";
+"lng_manage_discussion_group_unlink" = "Unlink group";
+"lng_manage_discussion_group_posted" = "Everything you post in the channel is forwarded to this group.";
+"lng_manage_discussion_group_sure" = "Do you want to make {group} the discussion board for {channel}?";
+"lng_manage_linked_channel_private" = "Any member of this group will be able to see messages in the channel.";
+"lng_manage_discussion_group_private" = "Anyone from the channel will be able to see messages in this group.";
+"lng_manage_discussion_group_link" = "Link group";
+"lng_manage_discussion_group_private_status" = "private group";
+"lng_manage_linked_channel_about" = "{channel} is linking the group as its discussion board.";
+"lng_manage_linked_channel_unlink" = "Unlink channel";
+"lng_manage_linked_channel_posted" = "All new messages posted in this channel are forwarded to the group.";
+"lng_manage_discussion_group_warning" = "\"Chat history for new members\" will be switched to {visible}.";
+"lng_manage_discussion_group_visible" = "Visible";
+
 "lng_manage_history_visibility_title" = "Chat history for new members";
 "lng_manage_history_visibility_shown" = "Visible";
 "lng_manage_history_visibility_shown_about" = "New members will see messages that were sent before they joined.";
@@ -1047,6 +1074,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edited" = "edited";
 "lng_edited_date" = "Edited: {date}";
 "lng_admin_badge" = "admin";
+"lng_channel_badge" = "channel";
 "lng_fast_reply" = "Reply";
 "lng_cancel_edit_post_sure" = "Cancel editing?";
 "lng_cancel_edit_post_yes" = "Yes";
@@ -1193,6 +1221,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restart_button" = "Restart";
 "lng_channel_mute" = "Mute";
 "lng_channel_unmute" = "Unmute";
+"lng_channel_discuss" = "Discuss";
 "lng_saved_messages" = "Saved Messages";
 "lng_saved_short" = "Save";
 "lng_saved_forward_here" = "Forward messages here for quick access";
@@ -1202,11 +1231,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_remove" = "Unarchive chat";
 "lng_archived_added" = "Chat archived.\nMuted chats will stay archived after new messages arrive.";
 "lng_archived_removed" = "Chat restored from your archive.";
-"lng_archived_chats#one" = "{count} chat";
-"lng_archived_chats#other" = "{count} chats";
-"lng_archived_unread_two" = "{chat}, {second_chat}";
-"lng_archived_unread#one" = "{chat}, {second_chat} and {count} more unread chat";
-"lng_archived_unread#other" = "{chat}, {second_chat} and {count} more unread chats";
+"lng_archived_last_list" = "{accumulated}, {chat}";
+"lng_archived_last#one" = "{chats} and {count} more chat";
+"lng_archived_last#other" = "{chats} and {count} more chats";
 
 "lng_dialogs_text_with_from" = "{from_part} {message}";
 "lng_dialogs_text_from_wrapped" = "{from}:";
@@ -1219,6 +1246,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_open_link" = "Open";
 "lng_allow_bot_pass" = "Allow {bot_name} to pass your Telegram name and ID (not your phone number) to the web pages you open via this bot?";
 "lng_allow_bot" = "Allow";
+"lng_url_auth_open_confirm" = "Do you want to open {link}?";
+"lng_url_auth_login_option" = "Log in to {domain} as {user}";
+"lng_url_auth_allow_messages" = "Allow {bot} to send me messages";
 
 "lng_bot_start" = "Start";
 "lng_bot_choose_group" = "Select a Group";
@@ -1682,6 +1712,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_changed_stickers_group" = "{from} changed the group's {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "sticker set";
 "lng_admin_log_removed_stickers_group" = "{from} removed the group's sticker set";
+"lng_admin_log_changed_linked_chat" = "{from} changed the discussion group to «{chat}»";
+"lng_admin_log_removed_linked_chat" = "{from} removed the discussion group";
+"lng_admin_log_changed_linked_channel" = "{from} changed the linked channel to «{chat}»";
+"lng_admin_log_removed_linked_channel" = "{from} removed the linked channel";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
 "lng_admin_log_restricted_forever" = "indefinitely";
 "lng_admin_log_restricted_until" = "until {date}";
@@ -2107,25 +2141,38 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_game_you_scored_no_game#many" = "You scored {count}";
 "lng_action_group_migrate" = "The group was upgraded to a supergroup";
 "lng_archived_chats#zero" = "{count} chats";
+"lng_archived_chats#one" = "{count} chat";
 "lng_archived_chats#two" = "{count} chats";
 "lng_archived_chats#few" = "{count} chats";
 "lng_archived_chats#many" = "{count} chats";
+"lng_archived_chats#other" = "{count} chats";
+"lng_archived_last#zero" = "{chats} and {count} more chats";
+"lng_archived_last#two" = "{chats} and {count} more chats";
+"lng_archived_last#few" = "{chats} and {count} more chats";
+"lng_archived_last#many" = "{chats} and {count} more chats";
 "lng_archived_unread#zero" = "{chat}, {second_chat} and {count} more unread chats";
+"lng_archived_unread#one" = "{chat}, {second_chat} and {count} more unread chat";
 "lng_archived_unread#two" = "{chat}, {second_chat} and {count} more unread chats";
 "lng_archived_unread#few" = "{chat}, {second_chat} and {count} more unread chats";
 "lng_archived_unread#many" = "{chat}, {second_chat} and {count} more unread chats";
+"lng_archived_unread#other" = "{chat}, {second_chat} and {count} more unread chats";
+"lng_archived_unread_two" = "{chat}, {second_chat}";
 "lng_banned_list_title" = "Banned users";
 "lng_channel_add_banned" = "Ban user";
 "lng_channel_add_restricted" = "Restrict user";
 "lng_channel_admins_link#zero" = "{count} administrators";
+"lng_channel_admins_link#one" = "{count} administrator";
 "lng_channel_admins_link#two" = "{count} administrators";
 "lng_channel_admins_link#few" = "{count} administrators";
 "lng_channel_admins_link#many" = "{count} administrators";
+"lng_channel_admins_link#other" = "{count} administrators";
 "lng_channel_blocked_list_about" = "Banned users are removed from the channel.\nInvite links don't work for them.";
 "lng_channel_members_link#zero" = "{count} members";
+"lng_channel_members_link#one" = "{count} member";
 "lng_channel_members_link#two" = "{count} members";
 "lng_channel_members_link#few" = "{count} members";
 "lng_channel_members_link#many" = "{count} members";
+"lng_channel_members_link#other" = "{count} members";
 "lng_chat_status_members#zero" = "{count} members";
 "lng_chat_status_members#two" = "{count} members";
 "lng_chat_status_members#few" = "{count} members";
@@ -2444,6 +2491,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_audios_cached#few" = "{count} voice messages, {size}";
 "lng_settings_audios_cached#many" = "{count} voice messages, {size}";
 "lng_settings_audios_cached#other" = "{count} voice messages, {size}";
+"lng_settings_calls_peer_to_peer" = "Peer-to-peer in calls";
 "lng_settings_calls_privacy" = "Phone calls privacy";
 "lng_settings_edit_info" = "Edit information";
 "lng_settings_groups_invite_privacy" = "Groups and Channels invite settings";
