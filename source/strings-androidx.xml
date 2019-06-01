@@ -701,7 +701,7 @@
   <string name="WhoCanAddYouToGroupsAndChannels">Who can add you to groups and channels?</string>
   <string name="WhoCanAddMeInfo">You can restrict who can add you to groups and channels with granular precision.</string>
   <string name="LastSeenTitle">Who can see your Last Seen time?</string>
-  <string name="CustomHelp">Important: you won\'t be able to see Last Seen times for people with whom you don\'t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</string>
+  <string name="CustomHelp">You won\'t see Last Seen and Online statuses for people with whom you don\'t share yours. Approximate last seen will be shown instead (recently, within a week, within a month).</string>
   <string name="AlwaysShareWith">Always Share With</string>
   <string name="NeverShareWith">Never Share With</string>
   <string name="CustomShareSettingsHelp">These settings will override the values above.</string>

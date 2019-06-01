@@ -354,7 +354,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_connection_type" = "Connection type";
 "lng_settings_downloading_update" = "Downloading update {progress}...";
 "lng_settings_privacy_title" = "Privacy";
-"lng_settings_last_seen" = "Last seen";
+"lng_settings_last_seen" = "Last seen & online";
 "lng_settings_calls" = "Voice calls";
 "lng_settings_calls_peer_to_peer_title" = "Peer-to-peer";
 "lng_settings_calls_peer_to_peer_button" = "Use peer-to-peer with";
@@ -618,10 +618,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_lastseen_title" = "Last seen privacy";
 "lng_edit_privacy_lastseen_header" = "Who can see your last seen time";
-"lng_edit_privacy_lastseen_warning" = "Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).";
+"lng_edit_privacy_lastseen_warning" = "You won't see Last Seen and Online statuses for people with whom you don't share yours. Approximate last seen will be shown instead (recently, within a week, within a month).";
 "lng_edit_privacy_lastseen_always_empty" = "Always share with";
 "lng_edit_privacy_lastseen_never_empty" = "Never share with";
-"lng_edit_privacy_lastseen_exceptions" = "These settings will override the values above.";
+"lng_edit_privacy_lastseen_exceptions" = "You can add users or entire groups as exceptions that will override the settings above.";
 "lng_edit_privacy_lastseen_always_title" = "Always share with";
 "lng_edit_privacy_lastseen_never_title" = "Never share with";
 

@@ -353,7 +353,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_default_scale" = "默认界面缩放";
 "lng_settings_connection_type" = "连接类型";
 "lng_settings_downloading_update" = "下载更新中 {progress} ...";
-"lng_settings_privacy_title" = "私密";
+"lng_settings_privacy_title" = "隐私";
 "lng_settings_last_seen" = "最后上线时间";
 "lng_settings_calls" = "语音通话";
 "lng_settings_calls_peer_to_peer_title" = "端到端";
@@ -610,7 +610,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_title" = "手机号隐私";
 "lng_edit_privacy_phone_number_header" = "谁可以看到您的手机号";
 "lng_edit_privacy_phone_number_warning" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
-"lng_edit_privacy_phone_number_always_empty" = "总是允许";
+"lng_edit_privacy_phone_number_always_empty" = "总是共享给";
 "lng_edit_privacy_phone_number_never_empty" = "从不共享给";
 "lng_edit_privacy_phone_number_exceptions" = "添加用户或群组以覆盖上面的设置。";
 "lng_edit_privacy_phone_number_always_title" = "总是共享给";
@@ -618,10 +618,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_lastseen_title" = "最后上线时间隐私设置";
 "lng_edit_privacy_lastseen_header" = "谁可以看到你的最后上线时间";
-"lng_edit_privacy_lastseen_warning" = "注意：对于您不愿意分享最后上线时间的对象，他们最后的上线时间您将也无法看到。取而代之的是大概的上线时间（最近、一周内、一个月内）。";
+"lng_edit_privacy_lastseen_warning" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 "lng_edit_privacy_lastseen_always_empty" = "总是允许";
 "lng_edit_privacy_lastseen_never_empty" = "从不共享给";
-"lng_edit_privacy_lastseen_exceptions" = "这些设置会覆盖上面的设置。";
+"lng_edit_privacy_lastseen_exceptions" = "您可以将用户或整个群组添加为覆盖上述设置的例外。";
 "lng_edit_privacy_lastseen_always_title" = "总是共享给";
 "lng_edit_privacy_lastseen_never_title" = "从不共享给";
 
@@ -842,21 +842,21 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_peer_channel_type" = "频道类型";
 "lng_manage_private_group_title" = "私聊";
 "lng_manage_public_group_title" = "公开";
-"lng_manage_private_peer_title" = "私密";
+"lng_manage_private_peer_title" = "私人";
 "lng_manage_public_peer_title" = "公开";
 
 "lng_manage_discussion_group" = "讨论群";
 "lng_manage_discussion_group_add" = "添加一个群组";
 "lng_manage_linked_channel" = "链接的频道";
-
+"lng_manage_linked_channel_restore" = "恢复链接的频道";
 "lng_manage_discussion_group_about" = "选择一个将在您的频道中显示的用于讨论的群组。";
 "lng_manage_discussion_group_about_chosen" = "一个指向 {group} 的链接正在底部面板中向所有订阅者显示。";
 "lng_manage_discussion_group_create" = "创建一个新群组";
 "lng_manage_discussion_group_unlink" = "取消链接群组";
 "lng_manage_discussion_group_posted" = "您在频道中发布的所有内容都将被转发到此群组。";
-
-
-
+"lng_manage_discussion_group_sure" = "您想让 {group} 成为 {channel} 的讨论版吗？";
+"lng_manage_linked_channel_private" = "该群组的任何成员都可以查看频道中的消息。";
+"lng_manage_discussion_group_private" = "该频道的任何成员都可以查看频道中的消息。";
 "lng_manage_discussion_group_link" = "链接群组";
 "lng_manage_discussion_group_private_status" = "私人群组";
 "lng_manage_linked_channel_about" = "{channel} 正在将此群组此作为其讨论板。";
@@ -1230,10 +1230,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_add" = "归档对话";
 "lng_archived_remove" = "取消归档";
 "lng_archived_added" = "已禁用通知的对话将在接收到新消息时保持归档。";
-
+"lng_archived_removed" = "对话已从归档中恢复。";
 "lng_archived_last_list" = "{accumulated}, {chat}";
 
-
+"lng_archived_last#other" = "{chats} 和更多 {count} 个对话";
 
 "lng_dialogs_text_with_from" = "{from_part} {message}";
 "lng_dialogs_text_from_wrapped" = "{from}:";
@@ -1712,10 +1712,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_changed_stickers_group" = "{from} 更换了群组贴纸包 {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "贴纸包";
 "lng_admin_log_removed_stickers_group" = "{from} 删除了群组贴纸包";
-
-
-
-
+"lng_admin_log_changed_linked_chat" = "{from} 将讨论群更改为 «{chat}»";
+"lng_admin_log_removed_linked_chat" = "{from} 移除了讨论群";
+"lng_admin_log_changed_linked_channel" = "{from} 将链接的频道更改为 «{chat}»";
+"lng_admin_log_removed_linked_channel" = "{from} 移除了链接的频道";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
 "lng_admin_log_restricted_forever" = "永久";
 "lng_admin_log_restricted_until" = "直至 {date}";
@@ -2125,6 +2125,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_passport_in_vi" = "越南语";
 "lng_action_group_migrate" = "此群组已升级为超级群组";
 "lng_archived_chats#other" = "{count} 个对话";
+"lng_archived_unread#other" = "{chat}, {second_chat} 和更多 {count} 个未读对话";
 "lng_archived_unread_two" = "{chat}, {second_chat}";
 "lng_banned_list_title" = "被封禁的用户";
 "lng_channel_add_banned" = "封禁用户";

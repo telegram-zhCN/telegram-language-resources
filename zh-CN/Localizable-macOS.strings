@@ -493,7 +493,7 @@
 
 
 "Channel.Public" = "公开";
-"Channel.Private" = "私密";
+"Channel.Private" = "私人";
 
 
 "Channel.PrivateAboutChannel" = "私人频道只能通过邀请链接加入。";
@@ -571,7 +571,7 @@
 "ChatList.Context.Unpin" = "取消置顶";
 
 "ChatList.SecretChat.Terminated" = "加密对话已被取消";
-"ChatList.SecretChat.Joined" = "%@ 进入了你的私密对话。";
+"ChatList.SecretChat.Joined" = "%@ 进入了你的加密对话。";
 "ChatList.SecretChat.Created" = "%@ 创建了加密对话";
 "ChatList.SecretChat.ExKeys" = "等待用户上线";
 
@@ -739,7 +739,7 @@
 "PeerInfo.GroupType" = "群组类型";
 "PeerInfo.ChannelType" = "频道类型";
 "PeerInfo.GroupType.Public" = "公开";
-"PeerInfo.GroupType.Private" = "私密";
+"PeerInfo.GroupType.Private" = "私人";
 "PeerInfo.SetAboutDescription" = "您可以给您的频道添加一段简介。";
 "PeerInfo.About.Placeholder" = "简介";
 "PeerInfo.ConvertToSupergroup" = "升级为超级群组";
@@ -1075,14 +1075,14 @@
 "PrivacySettingsController.AddUsers" = "添加用户";
 
 "PrivacySettingsController.LastSeenHeader" = "谁可以看到我的上线时间";
-"PrivacySettingsController.LastSeenDescription" = "注意：如果对方没有和你分享他们的最近在线时间，则你只能看到大致的时间段，如最近，一周内，一个月内等。";
+"PrivacySettingsController.LastSeenDescription" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 
 "PrivacySettingsController.GroupHeader" = "邀请权限控制";
 "PrivacySettingsController.GroupDescription" = "您可以精确控制其他人能否邀请您进入任意群组或频道。";
 
 "PrivacySettingsController.PhoneCallHeader" = "谁可以呼叫我";
 "PrivacySettingsController.PhoneCallDescription" = "你可以限制其他人和你语音通话的权限";
-"PrivacySettingsController.PeerInfo" = "这些设置会覆盖上面的设置。";
+"PrivacySettingsController.PeerInfo" = "您可以将用户或整个群组添加为覆盖上述设置的例外。";
 
 "Chat.Call.Outgoing" = "外拨电话";
 "Chat.Call.Incoming" = "来电";
@@ -1883,7 +1883,7 @@
 "PeerInfo.Bot.Share" = "分享";
 "PeerInfo.Bot.Settings" = "设置";
 "PeerInfo.Bot.Help" = "帮助";
-"PeerInfo.Bot.Privacy" = "私密";
+"PeerInfo.Bot.Privacy" = "隐私";
 
 "Passcode.Or" = "或";
 "Passcode.UseTouchId" = "使用触控 ID 解锁";
@@ -3074,7 +3074,7 @@
 "Discussion.Set.Modal.OK" = "链接群组";
 
 
-
+"Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "您想让 %@ 成为 %@ 的讨论版吗？";
 
 
 

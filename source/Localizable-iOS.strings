@@ -882,8 +882,8 @@
 "PrivacySettings.Title" = "Privacy and Security";
 
 "PrivacySettings.PrivacyTitle" = "PRIVACY";
-"PrivacySettings.LastSeen" = "Last Seen";
-"PrivacySettings.LastSeenTitle" = "Last Seen";
+"PrivacySettings.LastSeen" = "Last Seen & Online";
+"PrivacySettings.LastSeenTitle" = "Last Seen & Online";
 "PrivacySettings.LastSeenEverybody" = "Everybody";
 "PrivacySettings.LastSeenContacts" = "My Contacts";
 "PrivacySettings.LastSeenNobody" = "Nobody";
@@ -900,11 +900,11 @@
 "PrivacySettings.DeleteAccountIfAwayFor" = "If Away For";
 "PrivacySettings.DeleteAccountHelp" = "If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.";
 
-"PrivacyLastSeenSettings.Title" = "Last Seen";
-"PrivacyLastSeenSettings.CustomHelp" = "Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).";
+"PrivacyLastSeenSettings.Title" = "Last Seen & Online";
+"PrivacyLastSeenSettings.CustomHelp" = "You won't see Last Seen and Online statuses for people with whom you don't share yours. Approximate last seen will be shown instead (recently, within a week, within a month).";
 "PrivacyLastSeenSettings.AlwaysShareWith" = "Always Share With";
 "PrivacyLastSeenSettings.NeverShareWith" = "Never Share With";
-"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "These settings will override the values above.";
+"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "You can add users or entire groups as exceptions that will override the settings above.";
 
 "PrivacyLastSeenSettings.CustomShareSettings.Delete" = "Delete";
 "PrivacyLastSeenSettings.AlwaysShareWith.Title" = "Always Share";

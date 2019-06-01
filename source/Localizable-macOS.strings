@@ -1030,7 +1030,7 @@
 "Sidebar.Peer.Restricted" = "Sidebar is not available in this chat";
 
 
-"PrivacySettingsController.Header" = "Last Seen";
+"PrivacySettingsController.Header" = "Last Seen & Online";
 "PrivacySettingsController.Everbody" = "Everybody";
 "PrivacySettingsController.MyContacts" = "My Contacts";
 "PrivacySettingsController.Nobody" = "Nobody";
@@ -1075,14 +1075,14 @@
 "PrivacySettingsController.AddUsers" = "Add Users";
 
 "PrivacySettingsController.LastSeenHeader" = "WHO CAN SEE MY TIMESTAMP";
-"PrivacySettingsController.LastSeenDescription" = "Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).";
+"PrivacySettingsController.LastSeenDescription" = "You won't see Last Seen and Online statuses for people with whom you don't share yours. Approximate last seen will be shown instead (recently, within a week, within a month).";
 
 "PrivacySettingsController.GroupHeader" = "WHO CAN ADD ME TO GROUP CHATS";
 "PrivacySettingsController.GroupDescription" = "You can restrict who can add you to groups and channels with granular precision.";
 
 "PrivacySettingsController.PhoneCallHeader" = "WHO CAN CALL ME";
 "PrivacySettingsController.PhoneCallDescription" = "You can restrict who can call you with granular precision.";
-"PrivacySettingsController.PeerInfo" = "These settings will override the values above.";
+"PrivacySettingsController.PeerInfo" = "You can add users or entire groups as exceptions that will override the settings above.";
 
 "Chat.Call.Outgoing" = "Outgoing Call";
 "Chat.Call.Incoming" = "Incoming Call";
@@ -3074,9 +3074,9 @@
 "Discussion.Set.Modal.OK" = "Link Group";
 
 
-"Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "Do you want make **%@** the discussion board for **%@**?";
-"Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "Do you want make **%@** the discussion board for **%@**?\n\nAny member of this group will able to see all messages in the channel.";
-"Discussion.Set.Modal.Text.ChannelPrivateGroup" = "Do you want make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see messages in the channel.";
+"Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "Do you want to make **%@** the discussion board for **%@**?";
+"Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will able to see all messages in the channel.";
+"Discussion.Set.Modal.Text.ChannelPrivateGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see messages in the channel.";
 
 "DiscussionController.Channel.Set.Header" = "A link to **%@** is shown to all subscribers in the bottom panel.";
 "DiscussionController.Channel.Set.Description" = "Everything you post in the channel will be forwarded to this group.";

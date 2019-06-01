@@ -465,7 +465,7 @@
 "Conversation.EncryptionProcessing" = "正在交换加密密钥...";
 "Conversation.EmptyPlaceholder" = "这里暂时还没有消息...";
 "Conversation.EncryptedPlaceholderTitleIncoming" = "%@ 邀请您进入加密对话。";
-"Conversation.EncryptedPlaceholderTitleOutgoing" = "您已邀请 %@ 进入私密对话";
+"Conversation.EncryptedPlaceholderTitleOutgoing" = "您已邀请 %@ 进入加密对话";
 "Conversation.EncryptedDescriptionTitle" = "加密对话：";
 "Conversation.EncryptedDescription1" = "使用端到端加密";
 "Conversation.EncryptedDescription2" = "不会在我们的服务器上留下任何痕迹";
@@ -901,10 +901,10 @@
 "PrivacySettings.DeleteAccountHelp" = "此时间后，您的帐号如未上线，您的所有资料——包括消息记录、联系人都会被删除。";
 
 "PrivacyLastSeenSettings.Title" = "最后上线";
-"PrivacyLastSeenSettings.CustomHelp" = "注意：对于您设置为无法看到您最后上线时间的用户，您也无法看到他们的最后上线时间，取而代之的是大概的上线时间（如：最近、一周内、一个月内）。";
+"PrivacyLastSeenSettings.CustomHelp" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 "PrivacyLastSeenSettings.AlwaysShareWith" = "总是共享给";
 "PrivacyLastSeenSettings.NeverShareWith" = "从不共享给";
-"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "这些设置会覆盖上面的设置。";
+"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "您可以将用户或整个群组添加为覆盖上述设置的例外。";
 
 "PrivacyLastSeenSettings.CustomShareSettings.Delete" = "删除";
 "PrivacyLastSeenSettings.AlwaysShareWith.Title" = "总是共享";
@@ -1531,7 +1531,7 @@
 "Channel.JoinChannel" = "加入";
 "Forward.ChannelReadOnly" = "抱歉，您不能在此频道发布消息。";
 
-"Channel.ErrorAccessDenied" = "抱歉，这是一个私密频道。";
+"Channel.ErrorAccessDenied" = "抱歉，这是一个私人频道。";
 
 "Conversation.InputTextBroadcastPlaceholder" = "发布消息";
 
@@ -1871,7 +1871,7 @@
 "KeyCommand.SendMessage" = "发送消息";
 "KeyCommand.ChatInfo" = "详细信息";
 
-"Conversation.SecretLinkPreviewAlert" = "要为私密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。";
+"Conversation.SecretLinkPreviewAlert" = "要为加密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。";
 "Conversation.SecretChatContextBotAlert" = "请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。";
 
 "Map.OpenInWaze" = "在 Waze 中打开";
@@ -2981,7 +2981,7 @@ Unused sets are archived when you add more.";
 "Group.Username.CreatePublicLinkHelp" = "其他用户可以通过搜索或群成员分享的链接来加入群组。";
 "Channel.TypeSetup.Title" = "频道类型";
 
-"Group.Setup.TypePrivate" = "私密";
+"Group.Setup.TypePrivate" = "私人";
 "Group.Setup.TypePublic" = "公开";
 
 "Channel.Info.Subscribers" = "订阅者";
