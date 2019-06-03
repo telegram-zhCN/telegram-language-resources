@@ -3054,7 +3054,7 @@
 "PeerInfo.Discussion" = "Discussion";
 "PeerInfo.LinkedChannel" = "Linked Channel";
 "PeerInfo.Discussion.Add" = "Add";
-"PeerInfo.Discussion.Desc" = "Add group chat for comments.";
+"PeerInfo.Discussion.Desc" = "Add a group chat for comments.";
 
 
 "DiscussionController.Group.Title" = "Linked Channel";
