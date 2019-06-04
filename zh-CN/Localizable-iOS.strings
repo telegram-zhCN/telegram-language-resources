@@ -4298,7 +4298,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.HeaderSet" = "一个指向 %@ 的链接正在底部面板中向所有订阅者显示。";
 "Channel.DiscussionGroup.HeaderGroupSet" = "%@ 正在将此群组作为其讨论板。";
 "Channel.DiscussionGroup.HeaderLabel" = "讨论";
-
+"Channel.DiscussionGroup.Create" = "新建群组";
 
 
 "Channel.DiscussionGroup.LinkGroup" = "链接群组";

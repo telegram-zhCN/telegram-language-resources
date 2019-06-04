@@ -1133,7 +1133,7 @@
     <string name="AutoNightBrightnessInfo">当环境亮度低于 %1$d%% 时，切换为夜间主题。</string>
     <string name="ThemeDark">暗色</string>
     <string name="ThemeDarkBlue">深蓝色</string>
-    <string name="ThemeGraphite">石墨</string>
+    <string name="ThemeGraphite">石墨黑</string>
     <string name="ThemeArcticBlue">北极蓝</string>
     <string name="ThemeBlue">蓝色</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
