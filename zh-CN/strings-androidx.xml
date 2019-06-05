@@ -96,7 +96,7 @@
   <string name="login_LastName">姓氏（可选）</string>
   <string name="login_InvalidPhone">请输入有效的手机号码</string>
   <string name="login_PHONE_NUMBER_INVALID">无效的电话号码。 请检查号码，然后重试。\n\n如果电话号码正确，__请联系我们__。</string>
-  <string name="login_PHONE_NUMBER_BANNED">该手机号已被封禁. 如果您需要帮助请 __联系我们__ .</string>
+  <string name="login_PHONE_NUMBER_BANNED">该手机号已被封禁。如果您需要帮助，请__联系我们__。</string>
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
