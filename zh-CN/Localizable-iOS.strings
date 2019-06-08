@@ -4292,14 +4292,14 @@ Sorry for the inconvenience.";
 
 "Channel.DiscussionGroup" = "讨论群";
 "Group.LinkedChannel" = "链接的频道";
-
+"Channel.DiscussionGroupAdd" = "添加";
 "Channel.DiscussionGroupInfo" = "添加一个用于评论的群组。";
 "Channel.DiscussionGroup.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
 "Channel.DiscussionGroup.HeaderSet" = "一个指向 %@ 的链接正在底部面板中向所有订阅者显示。";
 "Channel.DiscussionGroup.HeaderGroupSet" = "%@ 正在将此群组作为其讨论板。";
 "Channel.DiscussionGroup.HeaderLabel" = "讨论";
 "Channel.DiscussionGroup.Create" = "新建群组";
-
+"Channel.DiscussionGroup.PrivateGroup" = "私人群组";
 
 "Channel.DiscussionGroup.LinkGroup" = "链接群组";
 "Channel.DiscussionGroup.UnlinkGroup" = "取消链接群组";
@@ -4331,7 +4331,7 @@ Any member of this group will be able to see messages in the channel.";
 "TextFormat.AddLinkPlaceholder" = "链接";
 
 
-
+"Channel.AddBotAsAdmin" = "添加为管理员";
 "Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
 
 
