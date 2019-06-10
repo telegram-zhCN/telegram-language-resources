@@ -1486,6 +1486,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_mediaview_saved" = "图片已保存在 [c]下载[/c] 目录";
 
+
 "lng_theme_preview_title" = "主题预览";
 "lng_theme_preview_generating" = "正在生成主题预览...";
 "lng_theme_preview_invalid" = "主题文件数据错误";
@@ -2019,6 +2020,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_limit#other" = "您还可以再添加 {count} 个选项。";
 "lng_polls_create_maximum" = "您添加的选项已达最大数量。";
 "lng_polls_create_button" = "确认";
+
+
+
+
 
 // Wnd specific
 

@@ -1485,6 +1485,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mediaview_date_time" = "{date} at {time}";
 
 "lng_mediaview_saved" = "Image was saved to your [c]Downloads[/c] folder";
+"lng_mediaview_video_loading" = "Loading - {percent}";
 
 "lng_theme_preview_title" = "Theme Preview";
 "lng_theme_preview_generating" = "Generating color theme preview...";
@@ -2019,6 +2020,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_limit#other" = "You can add {count} more options.";
 "lng_polls_create_maximum" = "You have added the maximum number of options.";
 "lng_polls_create_button" = "Create";
+
+"lng_outdated_title" = "PLEASE UPDATE YOUR OPERATING SYSTEM.";
+"lng_outdated_soon" = "Otherwise, Telegram Desktop will stop updating on {date}.";
+"lng_outdated_now" = "So that Telegram Desktop can update to newer versions.";
 
 /* Wnd specific */
 
