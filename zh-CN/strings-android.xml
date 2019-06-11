@@ -753,7 +753,7 @@
     <string name="ReportChatPornography">色情</string>
     <string name="ReportChatChild">儿童虐待</string>
     <string name="ReportChatOther">其它</string>
-    <string name="ReportChatDescription">简介</string>
+    <string name="ReportChatDescription">详情</string>
     <string name="PinnedMessage">置顶消息</string>
     <string name="PinnedPoll">置顶投票</string>
     <string name="EditedMessage">已编辑</string>
