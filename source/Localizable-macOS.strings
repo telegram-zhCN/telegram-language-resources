@@ -3075,7 +3075,7 @@
 
 
 "Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "Do you want to make **%@** the discussion board for **%@**?";
-"Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will able to see all messages in the channel.";
+"Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.ChannelPrivateGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see messages in the channel.";
 
 "DiscussionController.Channel.Set.Header" = "A link to **%@** is shown to all subscribers in the bottom panel.";
@@ -3130,7 +3130,7 @@
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
-"Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will able to see all messages in the channel.";
+"Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
 "Gallery.Counter" = "%d of %d";
 "PeerInfo.Admins" = "Admins";
