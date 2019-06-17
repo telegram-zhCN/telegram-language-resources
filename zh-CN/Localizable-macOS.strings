@@ -521,7 +521,7 @@
 "PrivacySettings.BlockedUsers" = "已屏蔽的用户";
 "PrivacySettings.LastSeen" = "最后上线时间";
 "PrivacySettings.Groups" = "群组";
-
+"PrivacySettings.PhoneNumber" = "手机号";
 "PrivacySettings.VoiceCalls" = "语音通话";
 "PrivacySettings.ProfilePhoto" = "头像";
 "PrivacySettings.Forwards" = "转发引用来源";

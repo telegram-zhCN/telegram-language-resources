@@ -4277,7 +4277,7 @@ Sorry for the inconvenience.";
 "Privacy.AddNewPeer" = "添加用户或群组";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号？";
 
-
+"Privacy.PhoneNumber" = "手机号";
 "PrivacySettings.PhoneNumber" = "手机号";
 "Contacts.SearchUsersAndGroupsLabel" = "搜索用户与群组...";
 
