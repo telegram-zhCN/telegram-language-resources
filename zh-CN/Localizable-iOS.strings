@@ -1614,7 +1614,10 @@
 "ShareMenu.Send" = "发送";
 
 "Conversation.ReportSpam" = "举报垃圾信息";
+
 "Conversation.ReportSpamConfirmation" = "您确定要举报此用户发布垃圾信息吗？";
+
+
 "SharedMedia.EmptyMusicText" = "在此对话中所分享的全部音乐会出现在这里。";
 
 "ChatSettings.AutoPlayAnimations" = "自动播放 GIF ";
@@ -4333,6 +4336,124 @@ Any member of this group will be able to see messages in the channel.";
 
 "Channel.AddBotAsAdmin" = "添加为管理员";
 "Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Conversation.BlockUser" = "屏蔽此用户";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
