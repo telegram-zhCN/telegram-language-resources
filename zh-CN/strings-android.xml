@@ -231,6 +231,9 @@
     <string name="GroupUserAddLimit">抱歉，此群组已满员。</string>
     <string name="GroupUserLeftError">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
     <string name="GroupUserCantAdmin">抱歉，群组内管理员人数过多。</string>
+    <string name="PublicChannelsTooMuch">Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first.</string>
+    <string name="LocatedChannelsTooMuch">Sorry, the target user has too many location-based groups already. Please ask them to delete one of their existing ones first.</string>
+    <string name="YourLocatedChannelsTooMuch">Sorry, you have too many location-based groups already. Please delete one of your existing ones first.</string>
     <string name="GroupUserCantBot">抱歉，此群组的机器人数量已达上限。</string>
     <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
     <string name="ActionPinnedNoText">un1 置顶了一条消息</string>
@@ -266,6 +269,7 @@
     <string name="ChannelSettingsChangedAlert">您更改了频道的一些设置。确定要应用它们吗？</string>
     <string name="ChannelPublic">公开频道</string>
     <string name="MegaPublic">公开群组</string>
+    <string name="MegaLocation">Location-based Group</string>
     <string name="ChannelPublicInfo">公开频道可以被搜索，任何人都可以加入。</string>
     <string name="MegaPublicInfo">任何人都可以搜索和加入公开群组，并查看其历史记录。</string>
     <string name="ChannelPrivate">私人频道</string>
@@ -283,7 +287,7 @@
     <string name="ChannelSilentBroadcast">静默广播</string>
     <string name="ChannelAlertTitle">什么是频道？</string>
     <string name="ChannelAlertText">频道是向大众广播消息的得力工具</string>
-    <string name="ChannelAlertCreate">创建新频道</string>
+    <string name="ChannelAlertCreate2">Create Channel</string>
     <string name="LinkInUse">抱歉，此链接名已经被使用了。</string>
     <string name="LinkInvalid">抱歉，此名称不符合规范。</string>
     <string name="LinkInvalidShort">频道链接名必须包含至少5个字符。</string>
@@ -325,6 +329,7 @@
     <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
     <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
     <string name="ChannelCreator">创建者</string>
+    <string name="ChannelAdministrator">Administrator</string>
     <string name="ChannelAdmin">管理员</string>
     <string name="ChannelMute">暂停消息通知</string>
     <string name="ChannelUnmute">启用消息通知</string>
@@ -388,6 +393,18 @@
     <string name="EditAdminGroupDeleteMessages">删除消息</string>
     <string name="EditAdminAddAdmins">添加新管理员</string>
     <string name="EditAdminRemoveAdmin">撤销管理员</string>
+    <string name="EditAdminGroupTransfer">Transfer Group Ownership</string>
+    <string name="EditAdminChannelTransfer">Transfer Channel Ownership</string>
+    <string name="EditAdminTransferAlertTitle">Security Check</string>
+    <string name="EditAdminTransferAlertText">You can transfer this group to **%1$s** only if you have:</string>
+    <string name="EditAdminTransferAlertText1">Enabled **2-Step Verification** more than **7 days** ago.</string>
+    <string name="EditAdminTransferAlertText2">Logged in on this device more than **24 hours** ago.</string>
+    <string name="EditAdminTransferAlertText3">Please come back later.</string>
+    <string name="EditAdminTransferSetPassword">Set Password</string>
+    <string name="EditAdminTransferReadyAlertText">This will transfer the **full owner** rights for **%1$s** to **%2$s**.</string>
+    <string name="EditAdminTransferChangeOwner">Change Owner</string>
+    <string name="EditAdminTransferGroupToast">**%1$s** is now the owner of the group.</string>
+    <string name="EditAdminTransferChannelToast">**%1$s** is now the owner of the channel.</string>
     <string name="EditAdminBanUsers">封禁用户</string>
     <string name="EditAdminAddUsers">添加用户</string>
     <string name="EditAdminAddUsersViaLink">生成邀请链接</string>
@@ -445,6 +462,8 @@
     <string name="TypePublic">公开</string>
     <string name="TypePrivateGroup">私人</string>
     <string name="TypePublicGroup">公开</string>
+    <string name="TypeLocationGroup">Link</string>
+    <string name="TypeLocationGroupEdit">Tap to add a permanent link</string>
     <string name="ChoosePhoto">选择图片</string>
     <string name="ChooseTakePhoto">拍照</string>
     <string name="ChooseFromGallery">从相册中上传</string>
@@ -543,6 +562,9 @@
     <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
     <string name="EventLogStopPoll">un1 终止了投票:</string>
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
+    <string name="EventLogChangedLocation">un1 changed group location to \"%@\"</string>
+    <string name="EventLogRemovedLocation">un1 removed group location</string>
+    <string name="EventLogChangedOwnership">transferred ownership to %1$s</string>
     <string name="EventLogChangedStickersSet">un1 更换了群组贴纸包</string>
     <string name="EventLogRemovedStickersSet">un1 删除了群组贴纸包</string>
     <string name="EventLogChangedLinkedGroup">un1 使 un2 成为此频道的讨论群</string>
@@ -674,6 +696,7 @@
     <string name="NoRecent">没有最近使用</string>
     <string name="Message">消息</string>
     <string name="TypeMessage">输入消息</string>
+    <string name="ShareMyPhone">SHARE MY PHONE NUMBER</string>
     <string name="ShareMyContactInfo">分享我的联系方式</string>
     <string name="AddToContacts">添加到通讯录</string>
     <string name="EncryptedPlaceholderTitleIncoming">%s 邀请您进入加密对话。</string>
@@ -711,10 +734,19 @@
     <string name="OpenUrlOption2">允许 **%1$s** 向我发送消息</string>
     <string name="CancelSending">取消发送</string>
     <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的手机号码) 到通过机器人打开的网页？</string>
+    <string name="ReportSpamLocation">GROUP UNRELATED TO LOCATION?</string>
+    <string name="ReportUnrelatedGroup">Report unrelated group</string>
+    <string name="ReportUnrelatedGroupText">Please let us know if this group is not related to this location:\n\n**%1$s**</string>
+    <string name="ReportUnrelatedGroupTextNoAddress">Please let us know if this group is not related to this location.</string>
     <string name="ReportSpam">举报垃圾信息</string>
+    <string name="ReportSpamTitle">Report spam</string>
+    <string name="BlockUserTitle">Block %1$s</string>
+    <string name="ReportSpamUser">BLOCK USER</string>
     <string name="ReportSpamAndLeave">举报垃圾信息并退出</string>
     <string name="AddContactChat">添加联系人</string>
+    <string name="AddContactFullChat">ADD %1$s TO CONTACTS</string>
     <string name="ViewContact">查看联系人</string>
+    <string name="BlockUserAlert">Do you want to block **%1$s** from messaging and calling you on Telegram?</string>
     <string name="ReportSpamAlert">您确定要举报此用户发送垃圾信息？</string>
     <string name="ReportSpamAlertGroup">您确定要举报此群组内发布的垃圾信息？</string>
     <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息？</string>
@@ -956,6 +988,8 @@
     <string name="UpdateContactsMessage">Telegram 检测到很多未同步的联系人，您想现在将其同步吗？如果您在使用自己的设备、SIM 卡和 Google 帐户，请选择‘确定’。</string>
     <string name="SortedByName">按姓名排序</string>
     <string name="SortedByLastSeen">按最后上线时间排序</string>
+    <string name="AddContactByPhone">Add %1$s</string>
+    <string name="PhoneNumberSearch">Phone number</string>
     <!--group create view-->
     <string name="SendMessageTo">添加成员...</string>
     <string name="SoftUserLimitAlert">你将能够在完成创建并将其升级为超级群组后添加更多的用户。</string>
@@ -1025,6 +1059,7 @@
     <string name="ContactBirthday">出生日期</string>
     <string name="ContactJobTitle">标题</string>
     <string name="CreateNewContact">新建联系人</string>
+    <string name="NewContact">New Contact</string>
     <string name="AddToExistingContact">添加到现有联系人</string>
     <string name="UserBio">个人简介</string>
     <string name="UserBioDetail">添加一些关于你的介绍</string>
@@ -1044,6 +1079,11 @@
     <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
     <string name="NumberUnknown">未知</string>
     <string name="PhoneHidden">未知</string>
+    <string name="MobileHidden">Mobile hidden</string>
+    <string name="MobileHiddenExceptionInfo">Phone number will be visible once %1$s adds you as a contact.</string>
+    <string name="MobileVisibleInfo">When you tap **DONE**, your phone number will become visible to %1$s.</string>
+    <string name="SharePhoneNumberWith">Share my phone number with %1$s</string>
+    <string name="NowInContacts">%1$s is now in your contact list.</string>
     <string name="Info">信息</string>
     <string name="Phone">手机号码</string>
     <string name="SharedContent">分享的内容</string>
@@ -1214,6 +1254,9 @@
     <string name="NotificationsTurnOff">禁用</string>
     <string name="BlockedUsers">已屏蔽的用户</string>
     <string name="BlockedUsersInfo">被屏蔽的用户将无法与您联系，也无法看到您的最后上线时间。</string>
+    <string name="BlockUserMultiTitle">Block User</string>
+    <string name="BlockUserChatsTitle">CHATS</string>
+    <string name="BlockUserContactsTitle">CONTACTS</string>
     <string name="LogOut">注销</string>
     <string name="NoSound">无声</string>
     <string name="Default">默认</string>
@@ -1221,6 +1264,7 @@
     <string name="OnlyIfSilent">仅静音模式</string>
     <string name="BackgroundBlurred">模糊</string>
     <string name="BackgroundMotion">动效</string>
+    <string name="ChangeChatBackground">Change Chat Background</string>
     <string name="ChatBackground">聊天窗口背景图</string>
     <string name="ResetChatBackgrounds">重置背景图列表</string>
     <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
@@ -1379,7 +1423,8 @@
     <string name="RepeatNotifications">重复通知</string>
     <string name="PhoneNumberHelp">您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息、文件、联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
     <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</string>
-    <string name="PhoneNumberChange">更换手机号码</string>
+    <string name="PhoneNumberChange2">Change Number</string>
+    <string name="PhoneNumberChangeTitle">Change number</string>
     <string name="ChangePhoneNewNumber">新手机号码</string>
     <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
     <string name="ChangePhoneNumberOccupied">手机号码 %1$s 已经和一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。</string>
@@ -1395,6 +1440,9 @@
     <string name="SmartNotifications">智能通知</string>
     <string name="NotificationsExceptions">例外</string>
     <string name="NotificationsAddAnException">添加一个例外</string>
+    <string name="NotificationsDeleteAllException">Delete All Exceptions</string>
+    <string name="NotificationsDeleteAllExceptionTitle">Delete all exceptions</string>
+    <string name="NotificationsDeleteAllExceptionAlert">Are you sure you want to delete all exceptions?</string>
     <string name="NotificationsNewException">新例外</string>
     <string name="NoExceptions">此区域将列出所有使用自定义通知设置的对话。\n\n您可以通过资料页中 “通知” 设置来自定义通知。</string>
     <string name="EmptyExceptions">无</string>
@@ -1807,6 +1855,7 @@
     <string name="ShareLocation">位置</string>
     <string name="SharedPlace">地点</string>
     <string name="AccurateTo">精确到 %1$s</string>
+    <string name="AwayTo">%1$s away</string>
     <string name="NearbyPlaces">或选择一个位置</string>
     <string name="ShowNearbyPlaces">向上拖动查看附近地点</string>
     <string name="LiveLocations">实时位置</string>
@@ -1823,6 +1872,21 @@
     <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
     <string name="LiveLocationAlertGroup">选择这个群的成员在多长时间内可看到你的精确位置。</string>
     <string name="GpsDisabledAlert">看起来您禁用了位置服务，若需要使用基于位置的功能，请将其重新开启。</string>
+    <string name="PeopleNearby">People Nearby</string>
+    <string name="AddPeopleNearby">Add People Nearby</string>
+    <string name="PeopleNearbyAccessInfo">Use this section to quickly exchange phone numbers with people around you.\n\nPlease switch on location access to enable this feature.</string>
+    <string name="PeopleNearbyHeader">People nearby</string>
+    <string name="PeopleNearbyAllowAccess">Allow Access</string>
+    <string name="ChatsNearbyHeader">Groups nearby</string>
+    <string name="PeopleNearbyInfo">Ask your friend nearby to open this page to exchange phone numbers.</string>
+    <string name="PeopleNearbyEmpty">No one else is viewing **People Nearby**.</string>
+    <string name="NearbyCreateGroup">Create a Local Group</string>
+    <string name="NearbyStartGroup">Start Group</string>
+    <string name="NearbyCreateGroupInfo">Anyone close to this location (neighbors, co-workers, fellow students, event attendees, visitors of a venue) will be able to see your group in the People Nearby section.</string>
+    <string name="NearbyCreateGroupInfo2">If you start an unrelated group at this location, you may lose the ability to create location-based groups.</string>
+    <string name="ChatSetLocation">Set Location</string>
+    <string name="ChatSetThisLocation">Set this location</string>
+    <string name="ChatSetLocationInfo">People will be able to find your group in the People Nearby section.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">显示所有图片和视频</string>
     <string name="ShowAllFiles">显示所有文件</string>
@@ -1899,6 +1963,7 @@
     <string name="SetAdditionalPasswordInfo">您可以设置一个密码，这将作为新设备登录时除短信验证码外的身份验证。</string>
     <string name="YourPassword">您的密码</string>
     <string name="PleaseEnterCurrentPassword">请输入您的密码</string>
+    <string name="PleaseEnterCurrentPasswordTransfer">Please enter your password to complete the transfer.</string>
     <string name="PleaseEnterFirstPassword">请输入一个密码</string>
     <string name="PleaseEnterPassword">请输入新的解锁密码</string>
     <string name="PleaseReEnterPassword">请再次输入密码</string>
@@ -2029,6 +2094,7 @@
     <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
     <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
     <string name="AddExceptions">添加例外</string>
+    <string name="AddToExceptions">Add to exceptions</string>
     <string name="CustomHelp">您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。</string>
     <string name="PrivacySettingsChangedAlert">您已更改了一些隐私设置。应用更改？</string>
     <string name="AlwaysShareWith">总是共享给</string>
@@ -2056,6 +2122,7 @@
     <string name="SuggestContactsAlert">这将删除所有有关您通信频率的统计数据和 Inline 机器人的使用偏好。</string>
     <string name="PrivacyAddAnException">添加用户或群组</string>
     <string name="PrivacyExceptions">例外</string>
+    <string name="BlockedEmpty">None</string>
     <!--edit video view-->
     <string name="SendingVideo">正在发送视频...</string>
     <string name="SendingGif">正在发送 GIF...</string>
@@ -2842,6 +2909,7 @@
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s吗？</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
+  <string name="ChannelAlertCreate">创建新频道</string>
   <string name="ChannelMessageContact">%1$s 分享了一位联系人</string>
   <string name="ChannelMessagePoll">%1$s 发布了一项投票</string>
   <string name="ConnectingToProxyDisable">禁用</string>
@@ -2878,6 +2946,7 @@
   <string name="PassportSDK_OpenGooglePlay">打开 Google Play</string>
   <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
   <string name="PendingEmailText">您的两步验证恢复邮箱 %1$s 正等待验证。</string>
+  <string name="PhoneNumberChange">更换手机号码</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>

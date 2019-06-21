@@ -4372,6 +4372,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Group.EditAdmin.TransferOwnership" = "转让群组所有权";
 
 
 
@@ -4402,6 +4403,11 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"PeopleNearby.Title" = "附近的人";
+
+"PeopleNearby.Users" = "附近的人";
+
+"PeopleNearby.Groups" = "附近的群";
 
 
 
@@ -4411,14 +4417,8 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
-
+"Group.Location.Title" = "地点";
+"Group.Location.ChangeLocation" = "更改地点";
 
 
 

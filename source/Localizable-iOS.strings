@@ -3733,7 +3733,7 @@ Unused sets are archived when you add more.";
 "Permissions.NotificationsAllow.v0" = "Turn Notifications ON";
 "Permissions.NotificationsAllowInSettings.v0" = "Turn ON in Settings";
 
-"Permissions.CellularDataTitle.v0" = "Turn ON Notifications";
+"Permissions.CellularDataTitle.v0" = "Enable Cellular Data";
 "Permissions.CellularDataText.v0" = "Don't worry, Telegram keeps network usage to a minimum. You can further control this in Settings > Data and Storage.";
 "Permissions.CellularDataAllowInSettings.v0" = "Turn ON in Settings";
 
