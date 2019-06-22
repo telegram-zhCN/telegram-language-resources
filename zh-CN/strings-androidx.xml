@@ -89,14 +89,14 @@
   <string name="login_Code">验证码</string>
   <string name="login_Password">密码</string>
   <string name="login_Country">国家</string>
-  <string name="login_SmsHint">我们会向您的手机号发送一条验证码短信。</string>
+  <string name="login_SmsHint">我们会向您的手机号码发送一条验证码短信。</string>
   <string name="login_YourName">您的姓名</string>
   <string name="login_FirstName">名字</string>
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
   <string name="login_InvalidPhone">请输入有效的手机号码</string>
   <string name="login_PHONE_NUMBER_INVALID">无效的电话号码。 请检查号码，然后重试。\n\n如果电话号码正确，__请联系我们__。</string>
-  <string name="login_PHONE_NUMBER_BANNED">该手机号已被封禁。如果您需要帮助，请 __联系我们__ .</string>
+  <string name="login_PHONE_NUMBER_BANNED">该手机号码已被封禁。如果您需要帮助，请 __联系我们__ 。</string>
   <string name="location_Nearby">附近</string>
   <string name="location_AwayMeters">%1$s 米以外</string>
   <string name="location_AwayKilometers">%1$s 千米以外</string>
@@ -1045,7 +1045,7 @@
   <string name="ContactAdded">已添加联系人</string>
   <string name="SuggestInvitingUser">%1$s 尚未使用 Telegram，是否通过短信邀请他加入？</string>
   
-  <string name="SuggestInvitingUserCommon_other">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号加入了通讯录。</string>
+  <string name="SuggestInvitingUserCommon_other">%2$s 尚未使用 Telegram，是否通过短信邀请他加入？您与另外 %1$s 个联系人均将其手机号码加入了通讯录。</string>
   <string name="OutgoingCall">外拨电话</string>
   <string name="IncomingCall">接听电话</string>
   <string name="MissedCall">未接来电</string>
@@ -2033,7 +2033,7 @@
   <string name="SignOutAltClearCache">清空缓存</string>
   <string name="SignOutAltClearCacheHint">释放设备上的空间；您的媒体文件仍会保存在云端。</string>
   <string name="SignOutAltChangeNumber">更改手机号码</string>
-  <string name="SignOutAltChangeNumberHint">将您的帐号、聊天信息和媒体文件转移到新手机号上。</string>
+  <string name="SignOutAltChangeNumberHint">将您的帐号、聊天信息和媒体文件转移到新手机号码上。</string>
   <string name="SignOutAltHelp">联系志愿者客服</string>
   <string name="SignOutAltHelpHint">如果有问题，请告诉我们；注销无助于解决问题。</string>
   <string name="SignOutAltHint2">谨记，退出会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>

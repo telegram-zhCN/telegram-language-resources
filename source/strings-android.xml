@@ -279,6 +279,7 @@
     <string name="ChannelLinkTitle">Permanent link</string>
     <string name="ChannelInviteLinkTitle">Invite Link</string>
     <string name="ChannelAddMembers">Add members</string>
+    <string name="GroupAddMembers">Add Members</string>
     <string name="LeaveChannel">Leave Channel</string>
     <string name="LeaveChannelMenu">Leave channel</string>
     <string name="ChannelSettings">Settings</string>
@@ -562,7 +563,7 @@
     <string name="EventLogUnpinnedMessages">un1 unpinned message</string>
     <string name="EventLogStopPoll">un1 stopped the poll:</string>
     <string name="EventLogDeletedMessages">un1 deleted this message:</string>
-    <string name="EventLogChangedLocation">un1 changed group location to \"%@\"</string>
+    <string name="EventLogChangedLocation">un1 changed group location to \"%1$s\"</string>
     <string name="EventLogRemovedLocation">un1 removed group location</string>
     <string name="EventLogChangedOwnership">transferred ownership to %1$s</string>
     <string name="EventLogChangedStickersSet">un1 changed the group sticker set</string>
@@ -1879,14 +1880,14 @@
     <string name="PeopleNearbyAllowAccess">Allow Access</string>
     <string name="ChatsNearbyHeader">Groups nearby</string>
     <string name="PeopleNearbyInfo">Ask your friend nearby to open this page to exchange phone numbers.</string>
-    <string name="PeopleNearbyEmpty">No one else is viewing **People Nearby**.</string>
+    <string name="PeopleNearbyEmpty">Looking for users around you...</string>
     <string name="NearbyCreateGroup">Create a Local Group</string>
     <string name="NearbyStartGroup">Start Group</string>
     <string name="NearbyCreateGroupInfo">Anyone close to this location (neighbors, co-workers, fellow students, event attendees, visitors of a venue) will be able to see your group in the People Nearby section.</string>
     <string name="NearbyCreateGroupInfo2">If you start an unrelated group at this location, you may lose the ability to create location-based groups.</string>
     <string name="ChatSetLocation">Set Location</string>
     <string name="ChatSetThisLocation">Set this location</string>
-    <string name="ChatSetLocationInfo">People will be able to find your group in the People Nearby section.</string>
+    <string name="ChatSetLocationInfo">People will be able to find your group in the \"People Nearby\" section.</string>
     <!--photo gallery view-->
     <string name="ShowAllMedia">Show all media</string>
     <string name="ShowAllFiles">Show all files</string>

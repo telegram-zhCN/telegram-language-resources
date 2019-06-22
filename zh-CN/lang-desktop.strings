@@ -360,7 +360,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_calls_peer_to_peer_button" = "使用端到端链接与";
 "lng_settings_groups_invite" = "邀请权限控制";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
-"lng_settings_phone_number_privacy" = "手机号";
+"lng_settings_phone_number_privacy" = "手机号码";
 "lng_settings_forwards_privacy" = "引用转发来源";
 "lng_settings_profile_photo_privacy" = "头像";
 "lng_settings_sessions_about" = "控制您在其它设备上的会话。";
@@ -608,8 +608,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_exceptions_add" = "添加用户";
 
 "lng_edit_privacy_phone_number_title" = "手机号隐私";
-"lng_edit_privacy_phone_number_header" = "谁可以看到您的手机号";
-"lng_edit_privacy_phone_number_warning" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
+"lng_edit_privacy_phone_number_header" = "谁可以看到您的手机号码";
+"lng_edit_privacy_phone_number_warning" = "已将您的手机号码保存在其联系人中的用户将在 Telegram 上看到该号码。";
 "lng_edit_privacy_phone_number_always_empty" = "总是共享给";
 "lng_edit_privacy_phone_number_never_empty" = "从不共享给";
 "lng_edit_privacy_phone_number_exceptions" = "添加用户或群组以覆盖上面的设置。";

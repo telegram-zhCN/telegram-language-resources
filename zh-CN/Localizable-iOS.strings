@@ -3345,7 +3345,7 @@ Unused sets are archived when you add more.";
 
 "Passport.Phone.Title" = "手机号码";
 "Passport.Phone.UseTelegramNumber" = "使用 %@";
-"Passport.Phone.UseTelegramNumberHelp" = "使用当前 Telegram 帐户绑定的手机号。";
+"Passport.Phone.UseTelegramNumberHelp" = "使用当前 Telegram 帐户绑定的手机号码。";
 "Passport.Phone.EnterOtherNumber" = "或输入新的手机号码";
 "Passport.Phone.Help" = "注意：您将会收到发送至您提供的手机号码上的一份验证码。";
 "Passport.Phone.Delete" = "删除手机号码";
@@ -4045,7 +4045,7 @@ Unused sets are archived when you add more.";
 "LogoutOptions.ClearCacheTitle" = "清空缓存";
 "LogoutOptions.ClearCacheText" = "释放设备上的空间；您的媒体文件仍会保存在云端。";
 "LogoutOptions.ChangePhoneNumberTitle" = "更改手机号码";
-"LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号上。";
+"LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号码上。";
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
 "LogoutOptions.LogOut" = "注销";
@@ -4278,16 +4278,16 @@ Sorry for the inconvenience.";
 
 
 "Privacy.AddNewPeer" = "添加用户或群组";
-"PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号？";
+"PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号码？";
 
-"Privacy.PhoneNumber" = "手机号";
-"PrivacySettings.PhoneNumber" = "手机号";
+"Privacy.PhoneNumber" = "手机号码";
+"PrivacySettings.PhoneNumber" = "手机号码";
 "Contacts.SearchUsersAndGroupsLabel" = "搜索用户与群组...";
 
 
 
 
-
+"UserInfo.BlockConfirmationTitle" = "你想屏蔽 %@ 给您发送消息和打电话吗？";
 
 
 
@@ -4351,7 +4351,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Notification.Exceptions.DeleteAllConfirmation" = "您确定要删除所有例外吗？";
 
 
 
@@ -4366,15 +4366,28 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"AddContact.ContactWillBeSharedAfterMutual" = "一旦 %1$@ 将您添加为联系人，电话号码将可见。";
 
 
-
-
+"AddContact.StatusSuccess" = "%@ 现在位于您的联系人列表中。";
 
 
 "Group.EditAdmin.TransferOwnership" = "转让群组所有权";
 
 
+"OwnershipTransfer.SecurityCheck" = "安全检查";
+
+
+
+
+"Channel.OwnershipTransfer.Title" = "转让频道所有权";
+
+
+
+
+
+
+"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
 
 
 
@@ -4388,23 +4401,10 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Contacts.AddPeopleNearby" = "添加附近的人";
 
 "PeopleNearby.Title" = "附近的人";
-
+"PeopleNearby.Description" = "让您附近的朋友打开此页面以交换手机号码。";
 "PeopleNearby.Users" = "附近的人";
 
 "PeopleNearby.Groups" = "附近的群";
@@ -4421,6 +4421,27 @@ Any member of this group will be able to see messages in the channel.";
 "Group.Location.ChangeLocation" = "更改地点";
 
 
+"Channel.AdminLog.MessageTransferedName" = "将所有权转让给 %1$@";
+
+
+
+
+"Map.SetThisLocation" = "设置为此地点";
+
+
+
+
+
+
+"Conversation.ReportGroupLocation" = "群组与位置无关？";
+"ReportGroupLocation.Title" = "举报无关群组";
+"ReportGroupLocation.Text" = "如果此群组与此位置无关，请告知我们。";
+
+
+"LocalGroup.Title" = "创建一个本地群组";
+"LocalGroup.Text" = "靠近此位置的任何人（邻居，同事，同学，活动参与者，场地访客）都可以在“附近的人员”中看到您的群组。";
+"LocalGroup.ButtonTitle" = "创建群组";
+"LocalGroup.IrrelevantWarning" = "如果您在此位置创建无关群组，你可能会失去创建基于位置的群组的能力。";
 
 
 
@@ -4430,28 +4451,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"CreateGroup.ErrorLocatedGroupsTooMuch" = "抱歉，您已经有太多基于位置的群组了。 请先删除一个现有的。";
 
 
 

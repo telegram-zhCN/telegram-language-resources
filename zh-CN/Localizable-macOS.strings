@@ -450,7 +450,7 @@
 "Chat.List.Map" = "位置";
 "Chat.List.Contact" = "联系人信息";
 
-"UsernameSettings.ChangeDescription" = "你可以选择一个用户名，这样其他人就可以通过用户名（而不是手机号）找到你。\n\n\n你可以使用 a-z，0-9 和下划线（_），至少 5 个字符。";
+"UsernameSettings.ChangeDescription" = "你可以选择一个用户名，这样其他人就可以通过用户名（而不是手机号码）找到你。\n\n\n你可以使用 a-z，0-9 和下划线（_），至少 5 个字符。";
 "UsernameSettings.InputPlaceholder" = "输入您的用户名";
 "Telegram.UsernameSettingsViewController" = "用户名";
 "UsernameSettings.available" = "%@ 可用";
@@ -521,7 +521,7 @@
 "PrivacySettings.BlockedUsers" = "已屏蔽的用户";
 "PrivacySettings.LastSeen" = "最后上线时间";
 "PrivacySettings.Groups" = "群组";
-"PrivacySettings.PhoneNumber" = "手机号";
+"PrivacySettings.PhoneNumber" = "手机号码";
 "PrivacySettings.VoiceCalls" = "语音通话";
 "PrivacySettings.ProfilePhoto" = "头像";
 "PrivacySettings.Forwards" = "转发引用来源";
@@ -1059,8 +1059,8 @@
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "从不允许";
 
 
-"PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "谁可以看到我的手机号？";
-
+"PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "谁可以看到我的手机号码？";
+"PrivacySettingsController.PhoneNumber.CustomHelp" = "已将您的手机号码保存在其联系人中的用户将在 Telegram 上看到该号码。";
 "PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "总是共享给";
 "PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "从不共享";
 
@@ -2059,7 +2059,7 @@
 "SecureId.InsertPassword.Password" = "请输入您的密码";
 "SecureId.InsertPassword.Next" = "下一步";
 "SecureId.InsertPassword.Description" = "请输入密码来访问个人信息";
-"SecureId.PhoneNumber.UseSame.Desc" = "使用当前 Telegram 帐户绑定的手机号";
+"SecureId.PhoneNumber.UseSame.Desc" = "使用当前 Telegram 帐户绑定的手机号码";
 "SecureId.PhoneNumber.UseSame" = "使用 %@";
 "SecureId.PhoneNumber.Note" = "注意：您将会收到发送至您提供的手机号码上的一份验证码。";
 "SecureId.PhoneNumber.Header" = "OR ENTER ANOTHER PHONE NUMBER";
@@ -2881,7 +2881,7 @@
 "LogoutOptions.ClearCacheTitle" = "清空缓存";
 "LogoutOptions.ClearCacheText" = "释放设备上的空间；您的媒体文件仍会保存在云端。";
 "LogoutOptions.ChangePhoneNumberTitle" = "更改手机号码";
-"LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号上。";
+"LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号码上。";
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
 "LogoutOptions.LogOut" = "注销";

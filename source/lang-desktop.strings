@@ -608,7 +608,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_exceptions_add" = "Add users";
 
 "lng_edit_privacy_phone_number_title" = "Phone number privacy";
-"lng_edit_privacy_phone_number_header" = "Who can see your phone number";
+"lng_edit_privacy_phone_number_header" = "Who can see my phone number";
 "lng_edit_privacy_phone_number_warning" = "Users who already have your number saved in their contacts will also see it on Telegram.";
 "lng_edit_privacy_phone_number_always_empty" = "Always share with";
 "lng_edit_privacy_phone_number_never_empty" = "Never share with";
@@ -617,7 +617,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_never_title" = "Never share with";
 
 "lng_edit_privacy_lastseen_title" = "Last seen privacy";
-"lng_edit_privacy_lastseen_header" = "Who can see your last seen time";
+"lng_edit_privacy_lastseen_header" = "Who can see my last seen time";
 "lng_edit_privacy_lastseen_warning" = "You won't see Last Seen and Online statuses for people with whom you don't share yours. Approximate last seen will be shown instead (recently, within a week, within a month).";
 "lng_edit_privacy_lastseen_always_empty" = "Always share with";
 "lng_edit_privacy_lastseen_never_empty" = "Never share with";
@@ -626,7 +626,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_never_title" = "Never share with";
 
 "lng_edit_privacy_groups_title" = "Group invite settings";
-"lng_edit_privacy_groups_header" = "Who can invite you to groups and channels";
+"lng_edit_privacy_groups_header" = "Who can add me to groups and channels";
 "lng_edit_privacy_groups_always_empty" = "Always allow";
 "lng_edit_privacy_groups_never_empty" = "Never allow";
 "lng_edit_privacy_groups_exceptions" = "These users will or will not be able to add you to groups and channels regardless of the settings above.";
@@ -634,7 +634,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_never_title" = "Never allow";
 
 "lng_edit_privacy_calls_title" = "Voice calls";
-"lng_edit_privacy_calls_header" = "Who can call you";
+"lng_edit_privacy_calls_header" = "Who can call me";
 "lng_edit_privacy_calls_always_empty" = "Always allow";
 "lng_edit_privacy_calls_never_empty" = "Never allow";
 "lng_edit_privacy_calls_exceptions" = "These users will or will not be able to call you regardless of the settings above.";
