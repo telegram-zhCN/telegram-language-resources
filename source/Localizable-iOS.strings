@@ -1614,7 +1614,7 @@
 "ShareMenu.Send" = "Send";
 
 "Conversation.ReportSpam" = "Report Spam";
-
+"Conversation.ReportSpamAndLeave" = "Report Spam and Leave";
 "Conversation.ReportSpamConfirmation" = "Are you sure you want to report spam from this user?";
 "Conversation.ReportSpamGroupConfirmation" = "Are you sure you want to report spam from this group?";
 "Conversation.ReportSpamChannelConfirmation" = "Are you sure you want to report spam from this channel?";

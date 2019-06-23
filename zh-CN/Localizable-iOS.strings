@@ -4377,7 +4377,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "OwnershipTransfer.SecurityCheck" = "安全检查";
 
-
+"OwnershipTransfer.ComeBackLater" = "请稍后再回来。";
 
 
 "Channel.OwnershipTransfer.Title" = "转让频道所有权";
@@ -4406,14 +4406,14 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.Title" = "附近的人";
 "PeopleNearby.Description" = "让您附近的朋友打开此页面以交换手机号码。";
 "PeopleNearby.Users" = "附近的人";
-
+"PeopleNearby.UsersEmpty" = "正在寻您你周围的用户...";
 "PeopleNearby.Groups" = "附近的群";
 
 
 
 
 
-
+"ContactInfo.PhoneNumberHidden" = "手机号已隐藏";
 
 
 

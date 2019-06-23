@@ -202,6 +202,8 @@
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Mono">Mono</string>
+    <string name="Strike">Strike</string>
+    <string name="Underline">Underline</string>
     <string name="Regular">Regular</string>
     <string name="ContactsPermissionAlert">**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
     <string name="ContactsPermissionAlertNotNow">NOT NOW</string>
@@ -354,6 +356,7 @@
     <string name="ChannelUserCantAdmin">Sorry, too many admins in this channel.</string>
     <string name="ChannelUserCantBot">Sorry, too many bots in this channel.</string>
     <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
+    <string name="ChannelTooMuch">Sorry, you are a member of too many groups and channels. Please leave some before creating a new one.</string>
     <string name="ChannelAddedBy">un1 added you to this channel</string>
     <string name="ChannelJoined">You joined this channel</string>
     <string name="ChannelMegaJoined">You joined this group</string>
@@ -398,6 +401,7 @@
     <string name="EditAdminChannelTransfer">Transfer Channel Ownership</string>
     <string name="EditAdminTransferAlertTitle">Security Check</string>
     <string name="EditAdminTransferAlertText">You can transfer this group to **%1$s** only if you have:</string>
+    <string name="EditChannelAdminTransferAlertText">You can transfer this channel to **%1$s** only if you have:</string>
     <string name="EditAdminTransferAlertText1">Enabled **2-Step Verification** more than **7 days** ago.</string>
     <string name="EditAdminTransferAlertText2">Logged in on this device more than **24 hours** ago.</string>
     <string name="EditAdminTransferAlertText3">Please come back later.</string>
@@ -1878,6 +1882,8 @@
     <string name="PeopleNearbyAccessInfo">Use this section to quickly exchange phone numbers with people around you.\n\nPlease switch on location access to enable this feature.</string>
     <string name="PeopleNearbyHeader">People nearby</string>
     <string name="PeopleNearbyAllowAccess">Allow Access</string>
+    <string name="PeopleNearbyGpsInfo">Use this section to quickly exchange phone numbers with people around you.\n\nPlease turn location services on to enable this feature.</string>
+    <string name="PeopleNearbyGps">Turn On</string>
     <string name="ChatsNearbyHeader">Groups nearby</string>
     <string name="PeopleNearbyInfo">Ask your friend nearby to open this page to exchange phone numbers.</string>
     <string name="PeopleNearbyEmpty">Looking for users around you...</string>

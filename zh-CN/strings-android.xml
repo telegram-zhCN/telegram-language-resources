@@ -202,6 +202,8 @@
     <string name="Bold">粗体</string>
     <string name="Italic">斜体</string>
     <string name="Mono">等宽</string>
+    <string name="Strike">删除线</string>
+    <string name="Underline">下划线</string>
     <string name="Regular">常规</string>
     <string name="ContactsPermissionAlert">Telegram 需要访问您的通讯录才能使您在任何设备上联系您的朋友。您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
     <string name="ContactsPermissionAlertNotNow">稍后再说</string>
@@ -354,6 +356,7 @@
     <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
     <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
     <string name="ChannelUserAddLimit">抱歉，您只能将至多 200 名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
+    <string name="ChannelTooMuch">Sorry, you are a member of too many groups and channels. Please leave some before creating a new one.</string>
     <string name="ChannelAddedBy">un1 将您添加到了此频道</string>
     <string name="ChannelJoined">您加入了这个频道</string>
     <string name="ChannelMegaJoined">您加入了这个群组</string>
@@ -398,9 +401,10 @@
     <string name="EditAdminChannelTransfer">转让频道所有权</string>
     <string name="EditAdminTransferAlertTitle">安全检查</string>
     <string name="EditAdminTransferAlertText">只有在以下情况下，您才能将此群组转让给**%1$s**：</string>
+    <string name="EditChannelAdminTransferAlertText">You can transfer this channel to **%1$s** only if you have:</string>
     <string name="EditAdminTransferAlertText1">启用**两步验证**超过**7天**。</string>
     <string name="EditAdminTransferAlertText2">在此设备登录超过**24小时**。</string>
-    <string name="EditAdminTransferAlertText3">Please come back later.</string>
+    <string name="EditAdminTransferAlertText3">请稍后再回来。</string>
     <string name="EditAdminTransferSetPassword">设置密码</string>
     <string name="EditAdminTransferReadyAlertText">这会将 **%1$s** 的**全部所有者**权利转让给 **%2$s**。</string>
     <string name="EditAdminTransferChangeOwner">更改所有者</string>
@@ -1060,7 +1064,7 @@
     <string name="ContactBirthday">出生日期</string>
     <string name="ContactJobTitle">标题</string>
     <string name="CreateNewContact">新建联系人</string>
-    <string name="NewContact">New Contact</string>
+    <string name="NewContact">新建联系人</string>
     <string name="AddToExistingContact">添加到现有联系人</string>
     <string name="UserBio">个人简介</string>
     <string name="UserBioDetail">添加一些关于你的介绍</string>
@@ -1080,7 +1084,7 @@
     <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
     <string name="NumberUnknown">未知</string>
     <string name="PhoneHidden">未知</string>
-    <string name="MobileHidden">Mobile hidden</string>
+    <string name="MobileHidden">手机号已隐藏</string>
     <string name="MobileHiddenExceptionInfo">一旦 %1$s 将您添加为联系人，电话号码将可见。</string>
     <string name="MobileVisibleInfo">当您点按**完成**时，您的电话号码将对 %1$s 可见。</string>
     <string name="SharePhoneNumberWith">与 %1$s 分享我的电话号码</string>
@@ -1266,7 +1270,7 @@
     <string name="BackgroundBlurred">模糊</string>
     <string name="BackgroundMotion">动效</string>
     <string name="ChangeChatBackground">更改聊天窗口背景图</string>
-    <string name="ChatBackground">聊天窗口背景图</string>
+    <string name="ChatBackground">更改聊天窗口背景图</string>
     <string name="ResetChatBackgrounds">重置背景图列表</string>
     <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
     <string name="ResetChatBackgroundsAlertTitle">重置聊天窗口背景图</string>
@@ -1878,9 +1882,11 @@
     <string name="PeopleNearbyAccessInfo">使用此功能可以快速与周围的人交换电话号码。\n\n请启用位置访问权限以启用此功能。</string>
     <string name="PeopleNearbyHeader">附近的人</string>
     <string name="PeopleNearbyAllowAccess">允许访问</string>
+    <string name="PeopleNearbyGpsInfo">使用此功能可以快速与周围的人交换电话号码。\n\n 请启用位置服务以启用此功能。</string>
+    <string name="PeopleNearbyGps">打开</string>
     <string name="ChatsNearbyHeader">附近的群</string>
     <string name="PeopleNearbyInfo">让您附近的朋友打开此页面以交换手机号码。</string>
-    <string name="PeopleNearbyEmpty">没有其他的人正在看“附近的人”。</string>
+    <string name="PeopleNearbyEmpty">正在寻您你周围的用户...</string>
     <string name="NearbyCreateGroup">创建一个本地群组</string>
     <string name="NearbyStartGroup">创建群组</string>
     <string name="NearbyCreateGroupInfo">靠近此位置的任何人（邻居，同事，同学，活动参与者，场地访客）都可以在“附近的人员”中看到您的群组。</string>
