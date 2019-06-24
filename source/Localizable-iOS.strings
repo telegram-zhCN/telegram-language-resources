@@ -3060,7 +3060,7 @@ Unused sets are archived when you add more.";
 "Appearance.ColorTheme" = "COLOR THEME";
 "Appearance.ThemeDayClassic" = "Day Classic";
 "Appearance.ThemeDay" = "Day";
-"Appearance.ThemeNight" = "Night";
+"Appearance.ThemeNight" = "Monochrome";
 "Appearance.ThemeNightBlue" = "Night Blue";
 "Appearance.PreviewReplyAuthor" = "Bob Harris";
 "Appearance.PreviewReplyText" = "Good morning! 👋";
@@ -4408,7 +4408,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.Users" = "People Nearby";
 "PeopleNearby.UsersEmpty" = "Looking for users around you...";
 "PeopleNearby.Groups" = "Groups Nearby";
-"PeopleNearby.CreateGroup" = "Create a Group Here";
+"PeopleNearby.CreateGroup" = "Create a Local Group";
 "PeopleNearby.NoMembers" = "no members";
 
 "Channel.Management.LabelOwner" = "Owner";
@@ -4429,7 +4429,7 @@ Any member of this group will be able to see messages in the channel.";
 "Map.SetThisLocation" = "Set This Location";
 
 "Permissions.PeopleNearbyTitle.v0" = "People Nearby";
-"Permissions.PeopleNearbyText.v0" = "Use this section to quickly add people near you and discover nearby group chats.\n\nPlease allow location access\nto start using this feature.";
+"Permissions.PeopleNearbyText.v0" = "Quickly add people nearby who are also viewing this section and discover local group chats.  \n\nPlease allow on location access to enable this feature.";
 "Permissions.PeopleNearbyAllow.v0" = "Allow Access";
 "Permissions.PeopleNearbyAllowInSettings.v0" = "Allow in Settings";
 

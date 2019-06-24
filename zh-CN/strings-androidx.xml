@@ -288,7 +288,7 @@
   <string name="File">文件</string>
   <string name="Location">位置</string>
   <string name="AttachContact">联系人</string>
-  <string name="FromYou">你</string>
+  <string name="FromYou">您</string>
   <string name="Username">用户名</string>
   <string name="Phone">电话</string>
   <string name="prompt_network">无网络连接。请稍后再试。</string>
@@ -570,17 +570,17 @@
   
   <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
   
-  <string name="game_ActionScoredInGame_other">在 %2$s 中得分 %1$s</string>
+  <string name="game_ActionScoredInGame_other">在 %2$s 中获得了 %1$s 分</string>
   
-  <string name="game_ActionScored_other">得分 %1$s</string>
+  <string name="game_ActionScored_other">获得了 %1$s</string>
   
   <string name="game_ActionUserScored_other">%2$s 获得 %1$s 分</string>
   
   <string name="game_ActionUserScoredInGame_other">%2$s 在 %3$s 中获得 %1$s 分</string>
   
-  <string name="game_ActionYouScored_other">你获得 %1$s 分</string>
+  <string name="game_ActionYouScored_other">您获得了 %1$s 分</string>
   
-  <string name="game_ActionYouScoredInGame_other">你在 %2$s 中获得 %1$s 分</string>
+  <string name="game_ActionYouScoredInGame_other">您在 %2$s 中获得了 %1$s 分</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
   <string name="NotificationGame">邀请你一起玩 %1$s</string>
   <string name="Draft">草稿</string>
@@ -833,7 +833,7 @@
   
   <string name="DeleteXForEveryone_other">为所有人删除 %1$s 条消息</string>
   <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
-  <string name="ReportSpam">举报垃圾信息</string>
+  <string name="ReportSpam">举报骚扰行为</string>
   <string name="BanUser">封禁用户</string>
   <string name="Pin">置顶</string>
   <string name="Unpin">取消置顶</string>
@@ -1202,7 +1202,7 @@
   <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
   <string name="UserRestricted">抱歉，您被对话的管理员限制执行此操作。</string>
   <string name="HashtagDeleteHint">要将此标签从推荐列表中删除吗？</string>
-  <string name="ReportChatSpam">您确定要举报 %1$s 发送垃圾信息？</string>
+  <string name="ReportChatSpam">您确定要举报 %1$s 存在骚扰行为？</string>
   <string name="Report">举报</string>
   <string name="ReportChat">举报 %1$s</string>
   <string name="Spam">垃圾信息</string>
@@ -2590,13 +2590,13 @@
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
   <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="BadgeCounterSetting">通知圆点</string>
-  <string name="ChannelMessageAudio">%1$s 发送了一条语音留言</string>
-  <string name="ChannelMessageDocument">%1$s 发送了一个文件</string>
-  <string name="ChannelMessageGIF">%1$s 发送了一张 GIF</string>
-  <string name="ChannelMessageNoText">%1$s 发送了一条消息</string>
-  <string name="ChannelMessagePhoto">%1$s 发送了一张图片</string>
+  <string name="ChannelMessageAudio">%1$s 发布了一条语音留言</string>
+  <string name="ChannelMessageDocument">%1$s 发布了一个文件</string>
+  <string name="ChannelMessageGIF">%1$s 发布了一张 GIF</string>
+  <string name="ChannelMessageNoText">%1$s 发布了一条消息</string>
+  <string name="ChannelMessagePhoto">%1$s 发布了一张图片</string>
   <string name="ChannelMessageRoundVideo">%1$s 发布了一条视频留言</string>
-  <string name="ChannelMessageVideo">%1$s 发送了一段视频</string>
+  <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="Importance">优先级</string>

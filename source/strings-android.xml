@@ -1879,10 +1879,10 @@
     <string name="GpsDisabledAlert">Your GPS seems to be disabled, please enable it to access location-based features.</string>
     <string name="PeopleNearby">People Nearby</string>
     <string name="AddPeopleNearby">Add People Nearby</string>
-    <string name="PeopleNearbyAccessInfo">Use this section to quickly exchange phone numbers with people around you.\n\nPlease switch on location access to enable this feature.</string>
+    <string name="PeopleNearbyAccessInfo">Quickly add people nearby who are viewing this section and discover local group chats.  \n\nPlease switch on location access to enable this feature.</string>
     <string name="PeopleNearbyHeader">People nearby</string>
     <string name="PeopleNearbyAllowAccess">Allow Access</string>
-    <string name="PeopleNearbyGpsInfo">Use this section to quickly exchange phone numbers with people around you.\n\nPlease turn location services on to enable this feature.</string>
+    <string name="PeopleNearbyGpsInfo">Quickly add people nearby who are also viewing this section and discover local group chats.  \n\nPlease turn on location services to enable this feature.</string>
     <string name="PeopleNearbyGps">Turn On</string>
     <string name="ChatsNearbyHeader">Groups nearby</string>
     <string name="PeopleNearbyInfo">Ask your friend nearby to open this page to exchange phone numbers.</string>

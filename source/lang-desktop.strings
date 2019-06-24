@@ -1213,6 +1213,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_contact_block_done" = "{user} is now blocked.";
 "lng_new_contact_add" = "Add contact";
 "lng_new_contact_share" = "Share my phone number";
+"lng_new_contact_share_sure" = "Are you sure you want to share your phone number {phone} with {user}?";
 "lng_new_contact_share_done" = "{user} can now see your phone number.";
 "lng_new_contact_add_name" = "Add {user} to contacts";
 "lng_new_contact_add_done" = "{user} is now in your contact list.";
@@ -1488,8 +1489,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_about_text1" = "Official free messaging app based on {api_link}\nfor speed and security.";
 "lng_about_text1_api" = "Telegram API";
 "lng_about_text2" = "This software is licensed under {gpl_link} version 3.\nSource code is available on {github_link}.";
-
-
 "lng_about_text3" = "Visit {faq_link} for more info.";
 "lng_about_text3_faq" = "Telegram FAQ";
 "lng_about_done" = "Done";
@@ -1761,6 +1760,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_banned" = "banned {user}";
 "lng_admin_log_restricted" = "changed restrictions for {user} {until}";
 "lng_admin_log_promoted" = "changed privileges for {user}";
+"lng_admin_log_transferred" = "transferred ownership to {user}";
 "lng_admin_log_changed_default_permissions" = "changed default permissions";
 "lng_admin_log_changed_stickers_group" = "{from} changed the group's {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "sticker set";

@@ -209,11 +209,11 @@
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
 
-"PUSH_MESSAGE_GAME_SCORE" = "%1$@ 在 %2$@ 得到 %3$@";
+"PUSH_MESSAGE_GAME_SCORE" = "%1$@ 在 %2$@ 中获得了 %3$@ 分";
 
 
 
-
+"PUSH_PINNED_GAME_SCORE" = "%1$@ 置顶了一项游戏成绩";
 
 
 
@@ -665,7 +665,7 @@
 "Document.TargetConfirmationFormat" = "发送文件 ({size}) 给 {target}？";
 
 // Dialog List
-"DialogList.You" = "我";
+"DialogList.You" = "您";
 
 // Settings
 "Settings.SetProfilePhoto" = "上传头像";
@@ -1532,7 +1532,7 @@
 "Forward.ChannelReadOnly" = "抱歉，您不能在此频道发布消息。";
 
 "Channel.ErrorAccessDenied" = "抱歉，这是一个私人频道。";
-
+"Group.ErrorAccessDenied" = "抱歉，这个群组是私人群组。";
 "Conversation.InputTextBroadcastPlaceholder" = "发布消息";
 
 "Channel.NotificationLoading" = "加载中...";
@@ -1613,11 +1613,11 @@
 
 "ShareMenu.Send" = "发送";
 
-"Conversation.ReportSpam" = "举报垃圾信息";
-
-"Conversation.ReportSpamConfirmation" = "您确定要举报此用户发布垃圾信息吗？";
-
-
+"Conversation.ReportSpam" = "举报骚扰行为";
+"Conversation.ReportSpamAndLeave" = "举报骚扰行为并退出";
+"Conversation.ReportSpamConfirmation" = "您确定要举报此用户存在骚扰行为？";
+"Conversation.ReportSpamGroupConfirmation" = "您确定要举报此群组发布垃圾信息吗？";
+"Conversation.ReportSpamChannelConfirmation" = "您确定要举报该频道发布垃圾信息吗？";
 "SharedMedia.EmptyMusicText" = "在此对话中所分享的全部音乐会出现在这里。";
 
 "ChatSettings.AutoPlayAnimations" = "自动播放 GIF ";
@@ -1895,7 +1895,7 @@
 
 "Conversation.Pin" = "置顶";
 "Conversation.Unpin" = "取消置顶";
-"Conversation.Report" = "举报骚扰";
+"Conversation.Report" = "举报骚扰行为";
 "Conversation.PinnedMessage" = "置顶消息";
 
 "Conversation.Moderate.Delete" = "删除消息";
@@ -2090,42 +2090,42 @@
 
 
 
-"ServiceMessage.GameScoreSimple_any" = "{name} 获得 %@ 分";
+"ServiceMessage.GameScoreSimple_any" = "{name} 获得了 %@ 分";
 
 
 
 
 
 
-"ServiceMessage.GameScoreSelfSimple_any" = "你获得 %@ 分";
+"ServiceMessage.GameScoreSelfSimple_any" = "您获得了 %@ 分";
 
 
 
 
 
 
-"Notification.GameScoreExtended_any" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreExtended_any" = "在 {game} 中获得了 %@ 分";
 
 
 
 
 
 
-"Notification.GameScoreSelfExtended_any" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreSelfExtended_any" = "在 {game} 中获得了 %@ 分";
 
 
 
 
 
 
-"Notification.GameScoreSimple_any" = "获得 %@ 分";
+"Notification.GameScoreSimple_any" = "获了 %@ 分";
 
 
 
 
 
 
-"Notification.GameScoreSelfSimple_any" = "获得 %@ 分";
+"Notification.GameScoreSelfSimple_any" = "获得了 %@ 分";
 
 
 
@@ -2163,7 +2163,7 @@ Unused sets are archived when you add more.";
 "ShareMenu.CopyShareLinkGame" = "拷贝游戏链接";
 
 "Message.PinnedGame" = "置顶了一个游戏";
-
+"Message.AuthorPinnedGame" = "%@ 置顶了一个游戏";
 
 "Target.ShareGameConfirmationPrivate" = "与 %@ 分享此游戏？";
 "Target.ShareGameConfirmationGroup" = "与 \"%@\" 分享此游戏？";
@@ -2863,7 +2863,7 @@ Unused sets are archived when you add more.";
 "Message.LiveLocation" = "实时位置";
 "Conversation.LiveLocation" = "实时位置";
 
-"Conversation.LiveLocationYou" = "你";
+"Conversation.LiveLocationYou" = "您";
 "Conversation.LiveLocationYouAnd" = "*你* 和 %@";
 
 
@@ -3939,7 +3939,7 @@ Unused sets are archived when you add more.";
 "Undo.Undo" = "撤销";
 "Undo.ChatDeleted" = "对话已删除";
 "Undo.ChatCleared" = "聊天记录已清空";
-
+"Undo.ChatClearedForBothSides" = "已为双方清空聊天记录";
 "Undo.SecretChatDeleted" = "加密对话已删除";
 "Undo.LeftChannel" = "已退出群组";
 "Undo.LeftGroup" = "已退出群组";
@@ -4060,7 +4060,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"ChatList.SelectedChats_any" = "已选中 %@ 个对话";
 
 
 
@@ -4069,7 +4069,7 @@ Unused sets are archived when you add more.";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想接收当前帐户的通知，请关闭此选项。";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "如果您想接收所有帐户的通知，请启用此选项。";
 
-
+"Gif.Search" = "搜索 GIF 图";
 "Gif.NoGifsFound" = "未找到 GIF";
 "Gif.NoGifsPlaceholder" = "您还没有保存过 GIF。";
 
@@ -4169,7 +4169,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"SettingsSearch.Synonyms.Data.Storage.Title" = "缓存\n存储";
 
 
 
@@ -4205,7 +4205,7 @@ Unused sets are archived when you add more.";
 "SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
 
 "ChatList.DeleteForCurrentUser" = "仅为我删除";
-
+"ChatList.DeleteForEveryone" = "为我和 %@ 同时删除";
 
 
 
@@ -4251,19 +4251,19 @@ Sorry for the inconvenience.";
 "ChatList.UndoArchiveRevealedText" = "向左滑动以隐藏归档。";
 "ChatList.ArchivedChatsTitle" = "已归档对话";
 
+"PasscodeSettings.PasscodeOptions" = "密码选项";
+"PasscodeSettings.DoNotMatch" = "密码不匹配，请重试。";
 
+"Conversation.PrivateChannelTooltip" = "这个频道是私人频道";
 
-
-
-
-
-
-
-
+"PasscodeSettings.PasscodeOptions" = "密码选项";
+"PasscodeSettings.AlphanumericCode" = "自选密码";
+"PasscodeSettings.4DigitCode" = "四位数字密码";
+"PasscodeSettings.6DigitCode" = "六位数字密码";
 
 "Conversation.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
 
-
+"Conversation.ClearChatConfirmation" = "注意，这将清空您与 %@ 的所有聊天记录。";
 
 "ArchivedChats.IntroTitle1" = "这里是您的归档";
 "ArchivedChats.IntroText1" = "已启用通知的对话将在接收到新消息时被取消归档。";
@@ -4272,26 +4272,26 @@ Sorry for the inconvenience.";
 "ArchivedChats.IntroTitle3" = "置顶的对话";
 
 
-
-
-
-
+"UserInfo.ScamUserWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
+"UserInfo.ScamBotWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
+"ChannelInfo.ScamChannelWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
+"GroupInfo.ScamGroupWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
 
 "Privacy.AddNewPeer" = "添加用户或群组";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号码？";
-
+"PrivacyPhoneNumberSettings.CustomHelp" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
 "Privacy.PhoneNumber" = "手机号码";
 "PrivacySettings.PhoneNumber" = "手机号码";
 "Contacts.SearchUsersAndGroupsLabel" = "搜索用户与群组...";
 
-
-
+"PrivacySettings.PasscodeOff" = "关";
+"PrivacySettings.PasscodeOn" = "开";
 
 "UserInfo.BlockConfirmationTitle" = "你想屏蔽 %@ 给您发送消息和打电话吗？";
+"UserInfo.BlockActionTitle" = "屏蔽 %@";
 
 
-
-
+"PrivacySettings.BlockedPeersEmpty" = "无";
 
 "Channel.DiscussionGroup" = "讨论群";
 "Group.LinkedChannel" = "链接的频道";
@@ -4303,18 +4303,18 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.HeaderLabel" = "讨论";
 "Channel.DiscussionGroup.Create" = "新建群组";
 "Channel.DiscussionGroup.PrivateGroup" = "私人群组";
-
+"Channel.DiscussionGroup.Info" = "你在这个频道所发送的任何信息都会同时被推送到这个群组中。";
 "Channel.DiscussionGroup.LinkGroup" = "链接群组";
 "Channel.DiscussionGroup.UnlinkGroup" = "取消链接群组";
 "Channel.DiscussionGroup.UnlinkChannel" = "取消链接频道";
-
+"Channel.DiscussionGroup.PublicChannelLink" = "确定要将 %1$@ 设置为 %2$@ 的讨论群组吗？";
 "Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
 
 Any member of this group will be able to see messages in the channel.";
+"Channel.DiscussionGroup.MakeHistoryPublic" = "注意：如果将此私人群组设置为频道群组，所有的频道订阅人将可以访问此群组。”群组新成员的聊天记录限制”将切换至全部可见。";
+"Channel.DiscussionGroup.MakeHistoryPublicProceed" = "同意";
 
-
-
-
+"Channel.DiscussionGroup.SearchPlaceholder" = "搜索";
 
 "Channel.AdminLog.MessageChangedLinkedGroup" = "%1$@ 使 %2$@ 成为此频道的讨论群";
 "Channel.AdminLog.MessageChangedLinkedChannel" = "%1$@ 将此群组与 %2$@ 链接";
@@ -4333,10 +4333,12 @@ Any member of this group will be able to see messages in the channel.";
 
 "TextFormat.AddLinkPlaceholder" = "链接";
 
-
+"Channel.AddBotErrorHaveRights" = "机器人只能作为管理员被加入群组。";
 "Channel.AddBotAsAdmin" = "添加为管理员";
 "Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
 
+"Appearance.AppIcon" = "应用图标";
+"Appearance.AppIconDefault" = "默认";
 
 
 
@@ -4348,45 +4350,43 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
+"Notification.Exceptions.DeleteAll" = "全部删除";
 "Notification.Exceptions.DeleteAllConfirmation" = "您确定要删除所有例外吗？";
 
 
 
+"Notification.Exceptions.NewException.MessagePreviewHeader" = "消息预览";
+"Notification.Exceptions.PreviewAlwaysOn" = "显示预览";
 
-
-
-
+"Notification.Exceptions.RemoveFromExceptions" = "从例外中删除";
 
 "Conversation.BlockUser" = "屏蔽此用户";
 
 
+"Conversation.AddToContacts" = "添加联系人";
 
 
-
-"AddContact.ContactWillBeSharedAfterMutual" = "一旦 %1$@ 将您添加为联系人，电话号码将可见。";
-
-
-"AddContact.StatusSuccess" = "%@ 现在位于您的联系人列表中。";
+"AddContact.ContactWillBeSharedAfterMutual" = "一旦 %1$@ 将您添加为联系人，电话号码将对您可见。";
+"AddContact.SharedContactException" = "分享我的手机号码";
+"AddContact.SharedContactExceptionInfo" = "您可以让您的电话号码对 %@ 可见。";
+"AddContact.StatusSuccess" = "%@ 现在已位于您的联系人列表中。";
 
 
 "Group.EditAdmin.TransferOwnership" = "转让群组所有权";
-
+"Channel.EditAdmin.TransferOwnership" = "转移频道所有权";
 
 "OwnershipTransfer.SecurityCheck" = "安全检查";
 
 "OwnershipTransfer.ComeBackLater" = "请稍后再回来。";
-
+"OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
 "Channel.OwnershipTransfer.Title" = "转让频道所有权";
 
+"Group.OwnershipTransfer.Title" = "转移群组所有权";
 
+"Channel.OwnershipTransfer.ChangeOwner" = "转移所有权";
 
-
-
-
+"Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
 
 
@@ -4397,7 +4397,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Channel.OwnershipTransfer.PasswordPlaceholder" = "密码";
 
 
 
@@ -4408,52 +4408,52 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.Users" = "附近的人";
 "PeopleNearby.UsersEmpty" = "正在寻您你周围的用户...";
 "PeopleNearby.Groups" = "附近的群";
+"PeopleNearby.CreateGroup" = "创建本地群组";
 
 
-
-
-
+"Channel.Management.LabelOwner" = "创建者";
+"Channel.Management.LabelAdministrator" = "管理员";
 "ContactInfo.PhoneNumberHidden" = "手机号已隐藏";
 
-
+"Common.ActionNotAllowedError" = "抱歉，您无法执行此操作。";
 
 "Group.Location.Title" = "地点";
 "Group.Location.ChangeLocation" = "更改地点";
-
+"Group.Location.Info" = "人们可以使用“附近的人”找到您的群组。";
 
 "Channel.AdminLog.MessageTransferedName" = "将所有权转让给 %1$@";
-
+"Channel.AdminLog.MessageTransferedNameUsername" = "将群主权限转移至 %1$@ (%2$@)";
 
 
 
 "Map.SetThisLocation" = "设置为此地点";
 
+"Permissions.PeopleNearbyTitle.v0" = "附近的人";
 
-
-
-
+"Permissions.PeopleNearbyAllow.v0" = "允许访问";
+"Permissions.PeopleNearbyAllowInSettings.v0" = "在设置中允许";
 
 "Conversation.ReportGroupLocation" = "群组与位置无关？";
 "ReportGroupLocation.Title" = "举报无关群组";
 "ReportGroupLocation.Text" = "如果此群组与此位置无关，请告知我们。";
-
+"ReportGroupLocation.Report" = "举报";
 
 "LocalGroup.Title" = "创建一个本地群组";
 "LocalGroup.Text" = "靠近此位置的任何人（邻居，同事，同学，活动参与者，场地访客）都可以在“附近的人员”中看到您的群组。";
 "LocalGroup.ButtonTitle" = "创建群组";
 "LocalGroup.IrrelevantWarning" = "如果您在此位置创建无关群组，你可能会失去创建基于位置的群组的能力。";
 
+"GroupInfo.Location" = "位置";
+"GroupInfo.PublicLink" = "公开链接";
 
 
-
-
-
+"Group.PublicLink.Title" = "公开链接";
 
 
 
 "CreateGroup.ErrorLocatedGroupsTooMuch" = "抱歉，您已经有太多基于位置的群组了。 请先删除一个现有的。";
 
-
+"GroupInfo.LabelOwner" = "所有者";
 
 
 /* new from translations.telegram.org */
@@ -4476,9 +4476,9 @@ Any member of this group will be able to see messages in the channel.";
 "CHANNEL_MESSAGE_GEOLIVE" = "%1$@ 正在共享实时位置";
 "CHANNEL_MESSAGE_GEOLIVE_SEPARATED" = "%1$@|正在共享实时位置";
 "CHANNEL_MESSAGE_GEO_SEPARATED" = "%1$@|发布了一个位置";
-"CHANNEL_MESSAGE_GIF" = "%1$@ 发布了一个 GIF";
+"CHANNEL_MESSAGE_GIF" = "%1$@ 发布了一张 GIF";
 "CHANNEL_MESSAGE_GIF_SEPARATED" = "%1$@|发布了一张 GIF";
-"CHANNEL_MESSAGE_NOTEXT" = "%1$@ 发布了一段文字";
+"CHANNEL_MESSAGE_NOTEXT" = "%1$@ 发布了一条消息";
 "CHANNEL_MESSAGE_NOTEXT_SEPARATED" = "%1$@|发布了一条消息";
 "CHANNEL_MESSAGE_PHOTO" = "%1$@ 发布了一张图片";
 "CHANNEL_MESSAGE_PHOTOS" = "%1$@ posted %2$@ photos";
@@ -4566,7 +4566,7 @@ Any member of this group will be able to see messages in the channel.";
 "MESSAGE_AUDIO" = "%1$@ 给您发送了一条语音留言";
 "MESSAGE_AUDIO_SEPARATED" = "%1$@|给你发送了一条语音留言";
 "MESSAGE_CONTACT" = "%1$@ 给您分享了一条联系人信息";
-"MESSAGE_CONTACT_SEPARATED" = "%1$@|分享了一条联系人信息";
+"MESSAGE_CONTACT_SEPARATED" = "%1$@|给您分享了一条联系人信息";
 "MESSAGE_DOC" = "%1$@ 给您发送了一个文件";
 "MESSAGE_DOC_SEPARATED" = "%1$@|给您发送了一个文件";
 "MESSAGE_FWDS" = "%1$@ 向你转发了 %2$@ 条消息";
