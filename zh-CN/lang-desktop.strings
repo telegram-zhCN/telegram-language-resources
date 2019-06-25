@@ -1213,7 +1213,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_contact_block_done" = "{user} 已被屏蔽。";
 "lng_new_contact_add" = "添加联系人";
 "lng_new_contact_share" = "分享我的手机号码";
-
+"lng_new_contact_share_sure" = "您确定要将您的手机号码 {phone} 分享给 {user} 吗？";
 "lng_new_contact_share_done" = "{user} 现在可以看到您的手机号码。";
 "lng_new_contact_add_name" = "将 {user} 添加到联系人列表";
 "lng_new_contact_add_done" = "{user} 现在已位于您的联系人列表中。";
@@ -1760,7 +1760,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_banned" = "封禁了 {user}";
 "lng_admin_log_restricted" = "更改 {user} 的限制 {until}";
 "lng_admin_log_promoted" = "更改 {user} 的管理权限";
-
+"lng_admin_log_transferred" = "将所有权转让给 {user}";
 "lng_admin_log_changed_default_permissions" = "更改了默认权限";
 "lng_admin_log_changed_stickers_group" = "{from} 更换了群组贴纸包 {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "贴纸包";

@@ -4429,7 +4429,7 @@ Any member of this group will be able to see messages in the channel.";
 "Map.SetThisLocation" = "设置为此地点";
 
 "Permissions.PeopleNearbyTitle.v0" = "附近的人";
-
+"Permissions.PeopleNearbyText.v0" = "快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置访问权限以启用此功能。";
 "Permissions.PeopleNearbyAllow.v0" = "允许访问";
 "Permissions.PeopleNearbyAllowInSettings.v0" = "在设置中允许";
 

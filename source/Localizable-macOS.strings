@@ -17,6 +17,7 @@
 "Navigation.Close" = "Close";
 "Navigation.Cancel" = "Cancel";
 "Navigation.Next" = "Next";
+"Navigation.Add" = "Add";
 
 
 "Peer.Status.online" = "online";
@@ -399,6 +400,7 @@
 
 "Telegram.GeneralSettingsViewController" = "General Settings";
 "AccountSettings.Logout" = "Logout";
+"NotificationSettings.ToggleNotifications.Header" = "NOTIFICATIONS";
 "NotificationSettings.ToggleNotifications" = "Notifications";
 "NotificationSettings.MessagesPreview" = "Message Preview";
 "NotificationSettings.IncludeMutedChats" = "Include Muted Chats";
@@ -946,6 +948,7 @@
 "PeerInfo.Confirm.DeleteContact" = "Are you sure you want to delete this contact?";
 "Compose.SelectUsers" = "Select users";
 "PeerInfo.AddContact" = "Add Contact";
+"PeerInfo.AddUserToContact" = "Add %@ to Contacts";
 "Telegram.GroupAdminsController" = "Admins";
 "GroupAdmins.AllMembersAdmins" = "All Members Are Admins";
 "GroupAdmins.Desc.AdminInvites" = "Only admins can add and remove members, and can edit the group's name and photo.";
@@ -1268,6 +1271,19 @@
 "Channel.Admin.AdminAccess" = "This admin will be able to add new admins with the same (or more limited) permissions.";
 "Channel.Admin.AdminRestricted" = "This admin will not be able to add new admins.";
 
+"Channel.Admin.TransferOwnership.Group" = "Transfer Group Ownership";
+"Channel.Admin.TransferOwnership.Channel" = "Transfer Channel Ownership";
+
+"Channel.Admin.TransferOwnership.Password.Desc" = "Please enter your 2-Step verification password to complete the transfer.";
+"Channel.Admin.TransferOwnership.Password.Title" = "Two-Step Verification";
+
+"Channel.Admin.TransferOwnership.Confirm.Group.Title" = "Transfer Group Ownership";
+"Channel.Admin.TransferOwnership.Confirm.Group.Text" = "This will transfer the full owner rights for %@ to %@.\n\nYou will no longer be considered the creator of the group. The new owner will be free to remove any of your admin privileges or even ban you.";
+"Channel.Admin.TransferOwnership.Confirm.Channel.Title" = "Transfer Channel Ownership";
+"Channel.Admin.TransferOwnership.Confirm.Channel.Text" = "This will transfer the full owner rights for %@ to %@.\n\nYou will no longer be considered the creator of the channel. The new owner will be free to remove any of your admin privileges or even ban you.";
+"Channel.Admin.TransferOwnership.Confirm.OK" = "Change Owner";
+
+
 
 "Channel.Admin.CantEdit" = "You are not allowed to edit the rights of this admin.";
 
@@ -1290,6 +1306,11 @@
 "Group.EventLog.Service.AboutRemoved" = "%@ removed the group's description:";
 "Channel.EventLog.Service.LinkRemoved" = "%@ removed channel link:";
 "Channel.EventLog.Service.AboutRemoved" = "%@ removed this channel's description:";
+
+
+"Channel.EventLog.MessageTransferedName" = "transferred ownership to %@ %@";
+"Channel.EventLog.MessageTransfered" = "transferred ownership";
+
 
 "EventLog.Service.PreviousTitle" = "Previous Title";
 "EventLog.Service.PreviousLink" = "Previous Link";
@@ -3123,6 +3144,44 @@
 "Channel.AddBotErrorHaveRights" = "Bots can only be added as administrators.";
 "Channel.AddBotAsAdmin" = "Make Admin";
 "Channel.AddBotErrorNoRights" = "Sorry, bots can only be added to channels as administrators.";
+
+
+"Search.Confirm.ClearHistory" = "Are you sure you want to clear your search history?";
+
+
+"InputPasswordController.Placeholder" = "Password";
+"InputPasswordController.Error.WrongPassword" = "Invalid password. Please try again";
+
+
+
+"NewContact.Title" = "New Contact";
+
+"NewContact.Phone.Hidden" = "Hidden";
+"NewContact.Phone" = "phone number";
+"NewContact.Phone.Hidden.Text" = "Phone number will be **visible** once %@ adds you as a contact.";
+"NewContact.Exception.ShareMyPhoneNumber" = "Share My Phone Number";
+"NewContact.Exception.ShareMyPhoneNumber.Desc" = "You can make your phone visible to %@.";
+
+
+"Channel.TransferOwner.Error.Title" = "Security Check";
+"Channel.TransferOwner.Error.Text" = "Ownership transfers are only available if:\n\n• 2-Step Verification was enabled for your account more than 7 days ago.\n\n• You have logged in on this device more than 24 hours ago.\n\nPlease come back later.";
+"Channel.TransferOwner.Error.Enable2FA" = "Enable 2-Step Verification.";
+
+"BlockContact.Title" = "Do you want to block %@ from messaging and calling you on Telegram?";
+"BlockContact.Options.Action" = "Block %@";
+"BlockContact.Options.Report" = "Report Spam";
+"BlockContact.Options.DeleteChat" = "Delete this Chat";
+
+
+"Group.TransferOwner.ErrorPrivacyRestricted" = "Sorry, this user is not a member of this group and their privacy settings prevent you from adding them manually.";
+"Channel.TransferOwner.ErrorPrivacyRestricted" = "Sorry, this user is not a member of this channel and their privacy settings prevent you from adding them manually.";
+
+"Channel.TransferOwner.ErrorPublicChannelsTooMuch" = "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first.";
+
+"Group.TransferOwner.ErrorAdminsTooMuch" = "Sorry, this group has too many admins and the new owner can't be added. Please remove one of the existing admins first.";
+"Channel.TransferOwner.ErrorAdminsTooMuch" = "Sorry, this channel has too many admins and the new owner can't be added. Please remove one of the existing admins first.";
+
+"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "Sorry, the target user has too many location-based groups already. Please ask them to delete or transfer one of their existing ones first.";
 
 
 /* new from translations.telegram.org */

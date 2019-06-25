@@ -19,6 +19,7 @@
 "Navigation.Next" = "下一步";
 
 
+
 "Peer.Status.online" = "在线";
 "Peer.Status.recently" = "近期有上线";
 "Peer.Status.justNow" = "刚刚在线";
@@ -399,6 +400,7 @@
 
 "Telegram.GeneralSettingsViewController" = "通用设置";
 "AccountSettings.Logout" = "登出";
+
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
 "NotificationSettings.IncludeMutedChats" = "包含已关闭通知的对话";
@@ -946,6 +948,7 @@
 "PeerInfo.Confirm.DeleteContact" = "您确定要删除这个联系人吗？";
 "Compose.SelectUsers" = "选择用户";
 "PeerInfo.AddContact" = "添加联系人";
+
 "Telegram.GroupAdminsController" = "管理员";
 "GroupAdmins.AllMembersAdmins" = "将所有成员设为管理员";
 "GroupAdmins.Desc.AdminInvites" = "只有管理员能邀请、移除成员或更改群组名称及头像。";
@@ -1269,6 +1272,19 @@
 "Channel.Admin.AdminRestricted" = "该管理员不能添加新管理员。";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 "Channel.Admin.CantEdit" = "您无权编辑此管理员的权限。";
 
 "Channel.Admin.WhatCanAdminDo" = "管理员权限";
@@ -1290,6 +1306,11 @@
 "Group.EventLog.Service.AboutRemoved" = "%@ 移除了群组简介:";
 "Channel.EventLog.Service.LinkRemoved" = "%@ 移除了频道链接:";
 "Channel.EventLog.Service.AboutRemoved" = "%@ removed this channel's description:";
+
+
+
+
+
 
 "EventLog.Service.PreviousTitle" = "旧名称";
 "EventLog.Service.PreviousLink" = "旧链接";
@@ -3106,6 +3127,44 @@
 "Channel.EventLog.MessageChangedLinkedChannel" = "%@ 将此群组与 %@ 链接";
 
 "Channel.EventLog.MessageChangedUnlinkedChannel" = "%@ 将此群组与 %@ 取消链接";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

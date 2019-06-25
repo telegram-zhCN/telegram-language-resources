@@ -1466,7 +1466,7 @@
 "Conversation.SearchPlaceholder" = "Search this chat";
 "Conversation.SearchNoResults" = "No Results";
 
-"GroupInfo.AddUserLeftError" = "Sorry, if a person left a group, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
+"GroupInfo.AddUserLeftError" = "Sorry, if a person left a group, you need to be in their contact list to bring them back.";
 
 "DialogList.SearchSectionRecent" = "Recent";
 

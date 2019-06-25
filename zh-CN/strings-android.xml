@@ -1260,7 +1260,7 @@
     <string name="BlockedUsers">已屏蔽的用户</string>
     <string name="BlockedUsersInfo">被屏蔽的用户将无法与您联系，也无法看到您的最后上线时间。</string>
     <string name="BlockUserMultiTitle">屏蔽用户</string>
-    <string name="BlockUserChatsTitle">CHATS</string>
+    <string name="BlockUserChatsTitle">对话</string>
     <string name="BlockUserContactsTitle">联系人</string>
     <string name="LogOut">注销</string>
     <string name="NoSound">无声</string>
@@ -1879,10 +1879,10 @@
     <string name="GpsDisabledAlert">看起来您禁用了位置服务，若需要使用基于位置的功能，请将其重新开启。</string>
     <string name="PeopleNearby">附近的人</string>
     <string name="AddPeopleNearby">添加附近的人</string>
-    <string name="PeopleNearbyAccessInfo">使用此功能可以快速与周围的人交换电话号码。\n\n请启用位置访问权限以启用此功能。</string>
+    <string name="PeopleNearbyAccessInfo">快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置访问权限以启用此功能。</string>
     <string name="PeopleNearbyHeader">附近的人</string>
     <string name="PeopleNearbyAllowAccess">允许访问</string>
-    <string name="PeopleNearbyGpsInfo">使用此功能可以快速与周围的人交换电话号码。\n\n 请启用位置服务以启用此功能。</string>
+    <string name="PeopleNearbyGpsInfo">快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置服务以启用此功能。</string>
     <string name="PeopleNearbyGps">打开</string>
     <string name="ChatsNearbyHeader">附近的群</string>
     <string name="PeopleNearbyInfo">让您附近的朋友打开此页面以交换手机号码。</string>
