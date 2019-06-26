@@ -1604,7 +1604,7 @@
 "PhotoEditor.CurvesGreen" = "Green";
 "PhotoEditor.CurvesBlue" = "Blue";
 
-
+"Channel.ErrorAddBlocked" = "Sorry, you can't add this user to channels because of user's privacy settings.";
 "Channel.ErrorAddTooMuch" = "Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel's link.";
 
 "ChannelIntro.Title" = "What is a Channel?";
@@ -4328,6 +4328,8 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.OpenBotLinkOpen" = "Open";
 
 "TextFormat.Link" = "Link";
+
+
 
 "TextFormat.AddLinkTitle" = "Add Link";
 "TextFormat.AddLinkText" = "The link will be displayed as \"%@\".";

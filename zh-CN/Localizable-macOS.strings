@@ -515,7 +515,7 @@
 "Group.NewGroup" = "新建群组";
 
 "Chat.Confirm.ActionUndonable" = "此操作无法撤销。";
-"Chat.Confirm.DeleteMessages" = "删除所有历史记录？";
+"Chat.Confirm.DeleteMessages" = "删除所选消息？";
 "Chat.Confirm.DeleteMessagesForEveryone" = "为所有人撤回";
 
 "Telegram.PrivacyAndSecurityViewController" = "隐私和安全";
@@ -801,7 +801,7 @@
 "PeerInfo.Phone" = "手机";
 
 "ConvertToSupergroup.Alert.Error" = "出现了一些问题，请重试。";
-"ConvertToSuperGroup.Confirm" = "您确定要这么做吗？此操作无法撤销！";
+"ConvertToSuperGroup.Confirm" = "您确定要这么做吗？此操作无法撤销。";
 "Telegram.LinkInvationController" = "邀请链接";
 
 "GroupInvation.CopyLink" = "拷贝链接";
