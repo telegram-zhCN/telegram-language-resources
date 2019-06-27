@@ -4458,6 +4458,14 @@ Any member of this group will be able to see messages in the channel.";
 "GroupInfo.LabelOwner" = "所有者";
 
 
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "AUTH_REGION" = "在新设备上登录 %1$@， 位置： %2$@";
