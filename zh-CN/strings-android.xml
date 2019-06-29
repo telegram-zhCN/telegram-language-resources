@@ -331,7 +331,7 @@
     <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
     <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
     <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
-    <string name="ChannelCreator">创建者</string>
+    <string name="ChannelCreator">所有者</string>
     <string name="ChannelAdministrator">管理员</string>
     <string name="ChannelAdmin">管理员</string>
     <string name="ChannelMute">暂停消息通知</string>

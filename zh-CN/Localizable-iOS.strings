@@ -4413,7 +4413,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.CreateGroup" = "创建本地群组";
 
 
-"Channel.Management.LabelOwner" = "创建者";
+"Channel.Management.LabelOwner" = "所有者";
 "Channel.Management.LabelAdministrator" = "管理员";
 "ContactInfo.PhoneNumberHidden" = "手机号已隐藏";
 
