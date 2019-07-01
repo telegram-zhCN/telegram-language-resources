@@ -58,6 +58,7 @@
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">", "</string>
   <string name="format_concatSeparatorLast">" and "</string>
+  <string name="format_concatSeparatorLastPerson">" and "</string>
   <string name="format_numberSuffix_thousand">K</string>
   <string name="format_numberSuffix_million">M</string>
   <string name="format_numberSuffix_billion">B</string>
@@ -328,6 +329,7 @@
   <string name="BlockContact">Block</string>
   <string name="Unblock">Unblock</string>
   <string name="Share">Share</string>
+  <string name="ViewAdmins">View admins</string>
   <string name="SwipeShare">Share</string>
   <string name="SwipeReply">Reply</string>
   <string name="edit">Edit</string>
@@ -385,7 +387,6 @@
   <string name="GroupName">Group name</string>
   <string name="GroupDontAdd">Do not add to the group</string>
   <string name="GroupEnterValidName">Please enter a valid group name</string>
-  <string name="ConvertGroup">Convert to Supergroup</string>
   <string name="Link">Link</string>
   <string name="Copy">Copy</string>
   <string name="CopyText">Copy text</string>
@@ -1024,7 +1025,6 @@
   <string name="XChangedGroupTitle">%1$s changed the group name</string>
   <string name="XJoinedByLink">%1$s joined by invite link</string>
   <string name="YouJoinedByLink">You joined by invite link</string>
-  <string name="GroupConvertHint">**Members limit reached.**\nTo go over the **%1$s** members limit, you can convert your group to a **supergroup**. In supergroups:\n\n• The user limit is **%2$s** members\n• New members may see the entire chat history\n• Admins can delete messages for everyone\n• Notifications are muted by default</string>
   <string name="XCreatedGroup">%1$s created the group</string>
   <string name="YouCreatedGroup">You created the group</string>
   <string name="XofY">%1$s of %2$s</string>
@@ -1090,6 +1090,7 @@
   <string name="VoipBranding">Telegram Call</string>
   <string name="CallBrandingIncoming">Incoming Telegram Call</string>
   <string name="OnMobileNetwork">On Mobile Network</string>
+  <string name="OnRoaming">While Roaming</string>
   <string name="UseLessDataAlways">Always</string>
   <string name="MicrophonePermission">Permission required</string>
   <string name="MicrophonePermissionDesc">Microphone access required in order to make calls.</string>
@@ -1258,13 +1259,14 @@
   <string name="RestrictedByX">Restricted by %1$s</string>
   <string name="RestrictedByXOnDate">Restricted by %1$s %2$s</string>
   <string name="EditGroup">Edit Group</string>
+  <string name="GroupInfo">Group Info</string>
   <string name="GroupType">Group Type</string>
   <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="RecentActionsGroupHint">Service actions in the group in the last 48 hours.</string>
   <string name="RecentActionsChannelHint">Service actions in the channel in the last 48 hours.</string>
   <string name="Banned">Banned</string>
   <string name="Private">Private</string>
-  <string name="WhoCanAddMembersAllMembers">All members</string>
+  <string name="AllMembers">All members</string>
   <string name="OnlyAdmins">Only admins</string>
   <string name="ChannelType">Channel Type</string>
   <string name="EditAdmin">Edit Admin</string>
@@ -1277,6 +1279,7 @@
   <string name="UserRestrictionsSend">Send Messages</string>
   <string name="RightSendMedia">Send Media</string>
   <string name="UserRestrictionsSendStickers">Send Stickers &amp; GIFs</string>
+  <string name="UserRestrictionsSendPolls">Send Polls</string>
   <string name="UserRestrictionsEmbedLinks">Embed Links</string>
   <string name="RightChangeGroupInfo">Change Group Info</string>
   <string name="RightChangeChannelInfo">Change Channel Info</string>
@@ -1378,6 +1381,7 @@
   <string name="EventLogOriginalCaption">Original caption</string>
   <string name="EventLogOriginalCaptionEmpty">Empty</string>
   <string name="EventLogPinnedMessages">%1$s pinned this message:</string>
+  <string name="EventLogPollStopped">%1$s stopped the poll:</string>
   <string name="EventLogUnpinnedMessages">%1$s unpinned message</string>
   <string name="EventLogDeletedMessages">%1$s deleted this message:</string>
   <string name="EventLogChangedGroupLink">%1$s changed the group link:</string>
@@ -1394,13 +1398,26 @@
   <string name="EventLogToggledInvitesOff">%1$s disabled group invites</string>
   <string name="EventLogToggledSignaturesOn">%1$s enabled signatures</string>
   <string name="EventLogToggledSignaturesOff">%1$s disabled signatures</string>
+  <string name="EventLogPermissions">changed default permissions</string>
+  <string name="EventLogPermissionSendMessages">Send messages</string>
+  <string name="EventLogPermissionSendMedia">Send media</string>
   <string name="EventLogRestrictedNew">restricted %1$s\n\nDuration: %2$s</string>
   <string name="EventLogRestrictedUntil">changed restrictions for %1$s\n\nDuration: %2$s</string>
   <string name="EventLogRestrictedDeleted">removed restrictions of %1$s</string>
   <string name="EventLogRestrictedSendStickers">Send stickers &amp; GIFs</string>
+  <string name="EventLogPermissionSendStickers">Send stickers &amp; GIFs</string>
+  <string name="EventLogRestrictedSendPolls">Send polls</string>
+  <string name="EventLogPermissionSendPolls">Send polls</string>
+  <string name="EventLogRestrictedChangeInfo">Change info</string>
+  <string name="EventLogPermissionChangeInfo">Change info</string>
+  <string name="EventLogRestrictedPinMessages">Pin messages</string>
+  <string name="EventLogPermissionPinMessages">Pin messages</string>
+  <string name="EventLogRestrictedAddUsers">Add users</string>
+  <string name="EventLogPermissionAddUsers">Add users</string>
   <string name="EventLogRestrictedSendMedia">Send media</string>
   <string name="EventLogRestrictedSendMessages">Send messages</string>
   <string name="EventLogRestrictedSendEmbed">Embed links</string>
+  <string name="EventLogPermissionSendEmbed">Embed links</string>
   <string name="EventLogRestrictedReadMessages">Read messages</string>
   <string name="EventLogPromotedNew">promoted %1$s</string>
   <string name="EventLogPromoted">changed privileges of %1$s</string>
@@ -1446,6 +1463,8 @@
   <string name="ChatHistoryVisibleInfo">New members will see messages that were sent before they joined.</string>
   <string name="ChatHistoryHiddenInfo">New members won\'t see earlier messages.</string>
   <string name="ChatHistoryHidden">Hidden</string>
+  <string name="ChatHistoryPartiallyHiddenInfo_one">New members won\'t see more than %1$s earlier message.</string>
+  <string name="ChatHistoryPartiallyHiddenInfo_other">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatHistoryVisible">Visible</string>
   <string name="DiscardCurrentChanges">Discard current changes?</string>
   <string name="CropFree">Free</string>
@@ -2570,6 +2589,36 @@
   <string name="EmojiSetsInfo">Are you sure you want to clear unused emoji sets?</string>
   <string name="BigEmoji">Big Emoji</string>
 
+  <string name="error_CHAT_ADMIN_REQUIRED">You do not have enough privileges to perform this action.</string>
+  <string name="ChatPermissions">Chat Permissions</string>
+  <string name="WhatMembersCanDo">What can members of this group do?</string>
+  <string name="MemberSince">Member since %1$s %2$s</string>
+  <string name="format_statusAndDate">%1$s\n%2$s</string>
+  <string name="format_nameAndDate">%1$s\n%2$s</string>
+  <string name="format_nameAndStatus">%1$s\n%2$s</string>
+  <string name="format_nameStatusDate">%1$s\n%2$s\n%3$s</string>
+
+  <string name="xPermissions_one">%1$s of %2$s</string>
+  <string name="xPermissions_other">%1$s of %2$s</string>
+
+  <string name="ChatDisabledGifs">Only admins can send GIFs in this group</string>
+  <string name="ChatDisabledBots">Only admins can use inline bots in this group</string>
+  <string name="ChatDisabledStickers">Only admins can send stickers in this group</string>
+  <string name="ChatDisabledMedia">Only admins can send media in this group</string>
+  <string name="ChatDisabledPolls">Only admins can create polls in this group</string>
+  <string name="ChatDisabledMessages">Only admins can write messages in this group</string>
+
+  <string name="ChatRestrictedGifs">Admins have restricted you from sending GIFs in this group</string>
+  <string name="ChatRestrictedBots">Admins have restricted you from using inline bots in this group</string>
+  <string name="ChatRestrictedStickers">Admins have restricted you from sending stickers in this group</string>
+  <string name="ChatRestrictedMedia">Admins have restricted you from sending media in this group</string>
+  <string name="ChatRestrictedPolls">Admins have restricted you from sending polls in this group</string>
+  <string name="ChatRestrictedMessages">Admins have restricted you from sending messages in this group</string>
+
+  <string name="UpgradeChatPrompt">To perform this action, this chat will be converted to supergroup.\n\n**Note**: new members will not see messages sent before the conversion.</string>
+  <string name="AppUpdateReady">Telegram X is ready to be updated.</string>
+  <string name="AppUpdateRestart">Restart</string>
+
   
   
   
@@ -2644,6 +2693,10 @@
   <string name="ChatContentGroupAddMembers_two">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_few">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_many">Added %1$s members to the group</string>
+  <string name="ChatHistoryPartiallyHiddenInfo_zero">New members won\'t see more than %1$s earlier messages.</string>
+  <string name="ChatHistoryPartiallyHiddenInfo_two">New members won\'t see more than %1$s earlier messages.</string>
+  <string name="ChatHistoryPartiallyHiddenInfo_few">New members won\'t see more than %1$s earlier messages.</string>
+  <string name="ChatHistoryPartiallyHiddenInfo_many">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatPhoto">Chat photo</string>
   <string name="ColorClearAll_zero">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
   <string name="ColorClearAll_two">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
@@ -2658,6 +2711,7 @@
   <string name="ContactsOnTelegramMany_two">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_few">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_many">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
+  <string name="ConvertGroup">Convert to Supergroup</string>
   <string name="DeleteAccountIfAwayForDays_zero">%1$s days</string>
   <string name="DeleteAccountIfAwayForDays_two">%1$s days</string>
   <string name="DeleteAccountIfAwayForDays_few">%1$s days</string>
@@ -2694,6 +2748,7 @@
   <string name="FromXChats_two">from %1$s chats</string>
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
+  <string name="GroupConvertHint">**Members limit reached.**\nTo go over the **%1$s** members limit, you can convert your group to a **supergroup**. In supergroups:\n\n• The user limit is **%2$s** members\n• New members may see the entire chat history\n• Admins can delete messages for everyone\n• Notifications are muted by default</string>
   <string name="Importance">Importance</string>
   <string name="InAppNotifications">In-App Notifications</string>
   <string name="InviteTextCommonMany_zero">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
@@ -2835,6 +2890,7 @@
   <string name="TryAgainSeconds_two">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
+  <string name="WhoCanAddMembersAllMembers">All members</string>
   <string name="YouCantForwardMoreMessages_zero">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
@@ -3072,6 +3128,10 @@
   <string name="xPeopleJoinedGroup_two">%1$s members joined the group</string>
   <string name="xPeopleJoinedGroup_few">%1$s members joined the group</string>
   <string name="xPeopleJoinedGroup_many">%1$s members joined the group</string>
+  <string name="xPermissions_zero">%1$s of %2$s</string>
+  <string name="xPermissions_two">%1$s of %2$s</string>
+  <string name="xPermissions_few">%1$s of %2$s</string>
+  <string name="xPermissions_many">%1$s of %2$s</string>
   <string name="xPhotos_zero">%1$s photos</string>
   <string name="xPhotos_two">%1$s photos</string>
   <string name="xPhotos_few">%1$s photos</string>
