@@ -711,8 +711,8 @@
 "Chat.SecretChat.4Feature" = "- 不允许转发";
 
 
-"TextView.Transform.Bold" = "加粗";
-"TextView.Transform.Italic" = "倾斜";
+"TextView.Transform.Bold" = "粗体";
+"TextView.Transform.Italic" = "斜体";
 "TextView.Transform.Code" = "等宽";
 "TextView.Transform.URL" = "转换为链接";
 

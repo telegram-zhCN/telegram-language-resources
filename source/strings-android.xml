@@ -202,7 +202,7 @@
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Mono">Mono</string>
-    <string name="Strike">Strike</string>
+    <string name="Strike">Strikethrough</string>
     <string name="Underline">Underline</string>
     <string name="Regular">Regular</string>
     <string name="ContactsPermissionAlert">**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
@@ -1044,12 +1044,12 @@
     <string name="ConvertGroupInfo2">**In supergroups:**\n\n• New members can see the full message history\n• Deleted messages will disappear for all members\n• Admins can add a description to the group\n• Creator can set a public link for the group</string>
     <string name="ConvertGroupInfo3">**Note:** this action can\'t be undone.</string>
     <!--contact info view-->
-    <string name="ShareContact">Share</string>
-    <string name="AddContact">Add</string>
+    <string name="ShareContact">Share contact</string>
+    <string name="AddContact">Add to contacts</string>
     <string name="AddContactTitle">Add contact</string>
     <string name="ContactNotRegistered">%1$s is not on Telegram yet, would you like to invite them to join?</string>
     <string name="Invite">Invite</string>
-    <string name="BlockContact">Block</string>
+    <string name="BlockContact">Block user</string>
     <string name="BlockUser">Block user</string>
     <string name="UserBlocked">User blocked</string>
     <string name="UserUnblocked">User unblocked</string>
@@ -1882,7 +1882,7 @@
     <string name="PeopleNearbyAccessInfo">Quickly add people nearby who are viewing this section and discover local group chats.  \n\nPlease switch on location access to enable this feature.</string>
     <string name="PeopleNearbyHeader">People nearby</string>
     <string name="PeopleNearbyAllowAccess">Allow Access</string>
-    <string name="PeopleNearbyGpsInfo">Quickly add people nearby who are also viewing this section and discover local group chats.  \n\nPlease turn on location services to enable this feature.</string>
+    <string name="PeopleNearbyGpsInfo">Quickly add people nearby who are also viewing this section and discover local group chats.\n\nPlease turn on location services to enable this feature.</string>
     <string name="PeopleNearbyGps">Turn On</string>
     <string name="ChatsNearbyHeader">Groups nearby</string>
     <string name="PeopleNearbyInfo">Ask your friend nearby to open this page to exchange phone numbers.</string>
@@ -2017,7 +2017,7 @@
     <string name="ResetMyAccountWarningText">This action can\'t be undone.\n\nIf you reset your account, all your messages and chats will be deleted.</string>
     <string name="ResetMyAccountWarningReset">Reset account</string>
     <string name="LoginPassword">Password</string>
-    <string name="LoginPasswordText">You have enabled Two-Step Verification, so your account is protected with an additional password.</string>
+    <string name="LoginPasswordText">You have Two-Step Verification enabled, so your account is protected with an additional password.</string>
     <string name="ForgotPassword">Forgot password?</string>
     <string name="PasswordRecovery">Password Recovery</string>
     <string name="PasswordCode">Code</string>
@@ -2361,7 +2361,7 @@
     <string name="TosDeclineDeleteAccount">Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings &gt; Export Telegram Data.)</string>
     <!--permissions-->
     <string name="PermissionContacts">To let you connect with friends across all your devices, your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.</string>
-    <string name="PermissionStorage">Telegram needs access to your storage so that you can send and save photos, videos, music and other media.</string>
+    <string name="PermissionStorage">Telegram needs storage access so you can send and save photos, videos, music and other media.</string>
     <string name="PermissionNoAudio">Telegram needs access to your microphone so that you can send voice messages.</string>
     <string name="PermissionNoAudioVideo">Telegram needs access to your microphone so that you can record videos.</string>
     <string name="PermissionNoCamera">Telegram needs access to your camera so that you can capture photos and videos.</string>
@@ -2966,7 +2966,7 @@
   <string name="SharedMediaTitle">Shared Media</string>
   <string name="TextSize">Message Text Size</string>
   <string name="UserRestrictionsBy">Restricted by %1$s</string>
-  <string name="UserRestrictionsUntil">Banned until</string>
+  <string name="UserRestrictionsUntil">Restricted until</string>
   <string name="ViewDetails">VIEW CONTACT</string>
   <string name="WiFiUsage">Wi-Fi Data Usage</string>
   <string name="_tg_cancel">Cancel</string>

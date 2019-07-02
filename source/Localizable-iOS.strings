@@ -1296,7 +1296,7 @@
 "TwoStepAuth.EnterPasswordTitle" = "Password";
 "TwoStepAuth.EnterPasswordPassword" = "Password";
 "TwoStepAuth.EnterPasswordHint" = "Hint: %@";
-"TwoStepAuth.EnterPasswordHelp" = "You have enabled Two-Step Verification, so your account is protected with an additional password.";
+"TwoStepAuth.EnterPasswordHelp" = "You have Two-Step Verification enabled, so your account is protected with an additional password.";
 "TwoStepAuth.EnterPasswordInvalid" = "Invalid password. Please try again.";
 "TwoStepAuth.EnterPasswordForgot" = "Forgot password?";
 

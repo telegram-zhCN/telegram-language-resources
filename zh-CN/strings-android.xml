@@ -1957,7 +1957,7 @@
     <string name="PaintEdit">编辑</string>
     <string name="PaintDuplicate">复制</string>
     <string name="PaintOutlined">描边</string>
-    <string name="PaintRegular">标准</string>
+    <string name="PaintRegular">常规</string>
     <string name="CropReset">重置</string>
     <string name="CropOriginal">原始比例</string>
     <string name="CropSquare">正方形</string>

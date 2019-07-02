@@ -1811,8 +1811,8 @@
   <string name="BotDeleteHint">要将此机器人从推荐列表中删除吗？</string>
   <string name="BotHelp">帮助</string>
   <string name="BotSettings">设置</string>
-  <string name="TextFormatBold">加粗</string>
-  <string name="TextFormatItalic">倾斜</string>
+  <string name="TextFormatBold">粗体</string>
+  <string name="TextFormatItalic">斜体</string>
   <string name="TextFormatMonospace">等宽</string>
   <string name="TextFormatLink">创建链接</string>
   <string name="EarpieceMode">播放到听筒</string>

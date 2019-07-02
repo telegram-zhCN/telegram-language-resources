@@ -3657,8 +3657,8 @@ Unused sets are archived when you add more.";
 "ApplyLanguage.LanguageNotSupportedError" = "抱歉，这个语言似乎并不存在。";
 "ApplyLanguage.ApplySuccess" = "语言已更改";
 
-"TextFormat.Bold" = "加粗";
-"TextFormat.Italic" = "倾斜";
+"TextFormat.Bold" = "粗体";
+"TextFormat.Italic" = "斜体";
 "TextFormat.Monospace" = "等宽";
 
 "TwoStepAuth.SetupPasswordTitle" = "设置密码";
