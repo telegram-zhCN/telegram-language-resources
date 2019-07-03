@@ -363,10 +363,10 @@
 "Login.PhoneCalledCode" = "We've just called your number. Please enter the code above.";
 "Login.PhoneDialed" = "Telegram dialed your number";
 "Login.willCall" = "Telegram will call you in %d:%@";
-"Login.willSendSms" = "Telegram will send you an SMS in %d:%@";
+"Login.willSendSms" = "Sending you an SMS in %d:%@";
 "Login.passwordPlaceholder" = "password";
 
-"Login.EnterPasswordDescription" = "You have enabled Two-Step Verification, your account is now protected with an additional password.";
+"Login.EnterPasswordDescription" = "You have Two-Step Verification enabled, so your account is protected with an additional password.";
 "Login.RecoveryMailFailed" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 
 "Login.PasswordForgot" = "Forgot password?";
@@ -444,7 +444,7 @@
 "Chat.EmptyChat" = "No messages here yet";
 
 "Chat.List.Sticker" = "%@ Sticker";
-"Chat.List.Voice" = "Voice message";
+"Chat.List.Voice" = "Voice Message";
 "Chat.List.InstantVideo" = "Video message";
 "Chat.List.Video" = "Video";
 "Chat.List.Photo" = "Photo";

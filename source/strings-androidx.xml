@@ -887,7 +887,7 @@
   <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
   <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
   <string name="SentCallOnly">We\'ve sent an activation call to your phone **%1$s**.\n\nDon\'t accept the call, Telegram will process everything automatically.</string>
-  <string name="SentCallCode">We are calling your phone **%1$s** to dictate a code.</string>
+  <string name="SentCallCode">Calling your phone **%1$s** to dictate the code.</string>
   <string name="DidNotGetTheCode">Haven\'t received the code?</string>
   <string name="SuccessfullyChangedNumber">Successfully changed number to %1$s.</string>
   <string name="YourPhone">Your Phone</string>
