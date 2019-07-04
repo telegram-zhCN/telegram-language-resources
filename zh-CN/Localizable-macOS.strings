@@ -363,7 +363,7 @@
 "Login.PhoneCalledCode" = "我们刚刚拨打了您的手机。\n请在下方输入您的验证码。";
 "Login.PhoneDialed" = "Telegram 已经拨通您的手机";
 "Login.willCall" = "Telegram 会在 %d:%@ 后改用电话语音播报验证码";
-"Login.willSendSms" = "Telegram 将在 %d:%@ 后给你发送短信";
+"Login.willSendSms" = "%d:%@ 后给您发送短信";
 "Login.passwordPlaceholder" = "密码";
 
 "Login.EnterPasswordDescription" = "您已经启用两步认证，这个附加的密码将保护您的帐号。";

@@ -887,7 +887,7 @@
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
   <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>
   <string name="SentCallOnly">我们即将呼叫您的手机（**%1$s**）。\n\n请不要接听此电话，Telegram 将自动处理这一切。</string>
-  <string name="SentCallCode">我们正在呼叫您的手机 **%1$s** 并播报验证码。</string>
+  <string name="SentCallCode">正在呼叫您的手机 **%1$s** 并播报验证码。</string>
   <string name="DidNotGetTheCode">没有收到验证码？</string>
   <string name="SuccessfullyChangedNumber">已成功将您的手机号码改为 %1$s。</string>
   <string name="YourPhone">您的电话号码</string>

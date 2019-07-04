@@ -357,7 +357,7 @@
 "Login.CodeFloodError" = "错误次数已达上限，请稍后再试";
 "Login.InvalidPhoneError" = "手机号码无效，请重新输入。";
 "Login.InvalidFirstNameError" = "您输入的名字不符合要求，请重新输入";
-"Login.InvalidLastNameError" = "您输入的姓氏不符合要求，请重新输入";
+"Login.InvalidLastNameError" = "抱歉，这个姓氏不能被使用";
 
 "Login.InvalidPhoneEmailSubject" = "Invalid phone number: %@";
 "Login.InvalidPhoneEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram says it's invalid. Please help.\n\nApp version: %2$@\nOS version: %3$@\nLocale: %4$@\nMNC: %5$@";
@@ -1296,7 +1296,7 @@
 "TwoStepAuth.EnterPasswordTitle" = "密码";
 "TwoStepAuth.EnterPasswordPassword" = "密码";
 "TwoStepAuth.EnterPasswordHint" = "提示： %@";
-"TwoStepAuth.EnterPasswordHelp" = "此帐号已被两步验证密码保护。";
+"TwoStepAuth.EnterPasswordHelp" = "您已经启用两步认证，这个附加的密码将保护您的帐号。";
 "TwoStepAuth.EnterPasswordInvalid" = "密码无效，请重新输入。";
 "TwoStepAuth.EnterPasswordForgot" = "密码忘了？";
 
@@ -3697,7 +3697,7 @@ Unused sets are archived when you add more.";
 
 "Login.CheckOtherSessionMessages" = "查看你的 Telegram 消息";
 "Login.SendCodeViaSms" = "通过短信发送验证码";
-"Login.CancelPhoneVerification" = "您想停止手机号码验证过程吗？";
+"Login.CancelPhoneVerification" = "您想停止验证过程吗？";
 "Login.CancelPhoneVerificationStop" = "停止";
 "Login.CancelPhoneVerificationContinue" = "继续";
 "Login.CodeExpired" = "验证码已过期，请重新登录后再试。";
@@ -4570,7 +4570,7 @@ Any member of this group will be able to see messages in the channel.";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
 "Login.PRIVACY_URL" = "https://telegram.org/privacy";
-"Login.SmsRequestState1" = "Telegram 将在 %d:%.2d 后给您发送短信";
+"Login.SmsRequestState1" = "%d:%.2d 后给您发送短信";
 "MESSAGES" = "%1$@ 给您发送了 %2$@ 条消息";
 "MESSAGES_SEPARATED" = "%1$@|给您发送了 %2$@ 条消息";
 "MESSAGE_AUDIO" = "%1$@ 给您发送了一条语音留言";

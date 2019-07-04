@@ -28,9 +28,9 @@
     <string name="SentAppCodeTitle">查看你的 Telegram 消息</string>
     <string name="SentSmsCodeTitle">输入验证码</string>
     <string name="SentCallCode">我们正在呼叫您的手机 **%1$s**。\n\n请不要接听，Telegram 将会自动处理接下来的事情。</string>
-    <string name="SentCallOnly">我们正在呼叫您的手机 **%1$s** 并播报验证码。</string>
+    <string name="SentCallOnly">正在呼叫您的手机 **%1$s** 并播报验证码。</string>
     <string name="CallText">Telegram 会在 %1$d:%2$02d 后改用电话语音播报验证码</string>
-    <string name="SmsText">我们会在 %1$d:%2$02d 后给您发送短信</string>
+    <string name="SmsText">%1$d:%2$02d 后给您发送短信</string>
     <string name="Calling">正在呼叫您...</string>
     <string name="SendingSms">正在发送短信...</string>
     <string name="Code">验证码</string>
@@ -49,7 +49,7 @@
     <string name="OtherLoginCode">您的登录验证码是**%1$s**。在您尝试登录 Telegram 应用程序时输入它。 \n\n不要将此验证码透露给任何人。</string>
     <!--signup view-->
     <string name="YourName">您的姓名</string>
-    <string name="RegisterText2">请输入您的名字并上传一张头像。</string>
+    <string name="RegisterText2">输入您的名字并上传一张头像。</string>
     <string name="FirstName">名字（必填）</string>
     <string name="LastName">姓氏（可选）</string>
     <string name="CancelRegistration">取消注册</string>
@@ -1044,12 +1044,12 @@
     <string name="ConvertGroupInfo2">**在超级群组中**： \n• 新成员可以看到所有聊天记录 \n• 所有成员将看不到已删除的消息 \n• 管理员可以为群组添加一个简介\n• 创建者可以给群组设置一个公开链接</string>
     <string name="ConvertGroupInfo3">**注意：**此操作不可撤销。</string>
     <!--contact info view-->
-    <string name="ShareContact">分享</string>
-    <string name="AddContact">添加</string>
+    <string name="ShareContact">分享联系人</string>
+    <string name="AddContact">添加联系人</string>
     <string name="AddContactTitle">添加联系人</string>
     <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
     <string name="Invite">邀请</string>
-    <string name="BlockContact">屏蔽</string>
+    <string name="BlockContact">屏蔽用户</string>
     <string name="BlockUser">屏蔽用户</string>
     <string name="UserBlocked">用户已屏蔽</string>
     <string name="UserUnblocked">用户已取消屏蔽</string>
@@ -2260,7 +2260,7 @@
     <string name="InvalidCode">验证码无效</string>
     <string name="PhoneNumberFlood">抱歉，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。</string>
     <string name="InvalidFirstName">您输入的名字不符合要求，请重新输入。</string>
-    <string name="InvalidLastName">您输入的姓氏不符合要求，请重新输入。</string>
+    <string name="InvalidLastName">抱歉，这个姓氏不能被使用</string>
     <string name="Loading">载入中...</string>
     <string name="NoPlayerInstalled">没有可用的视频播放器，请先安装一个再播放</string>
     <string name="NoMailInstalled">请发送邮件到 sms@stel.com 来告诉我们您遇到的问题。</string>
@@ -2309,11 +2309,11 @@
     <string name="AreYouSureSecretChatTitle">加密对话</string>
     <string name="AreYouSureSecretChat">您确定要开始加密对话吗？</string>
     <string name="AreYouSureRegistration">您确定要取消注册吗？</string>
-    <string name="StopVerification">您想停止手机号码验证过程吗？</string>
+    <string name="StopVerification">您想停止验证过程吗？</string>
     <string name="AreYouSureClearHistoryWithUser">您确定要清空与 **%1$s** 的消息记录吗？</string>
     <string name="AreYouSureClearHistoryWithSecretUser">您确定要清空与 **%1$s** 的加密对话消息记录吗？</string>
     <string name="AreYouSureClearHistoryWithChat">您确定要清空 **%1$s** 的消息记录吗？</string>
-    <string name="AreYouSureClearHistory">您确定要清空聊天记录吗？</string>
+    <string name="AreYouSureClearHistory">您确定要删除此对话中的所有消息吗？</string>
     <string name="AreYouSureClearHistorySavedMessages">您确定要清空收藏夹内的消息吗？</string>
     <string name="AreYouSureClearHistoryChannel">确定删除此频道中所有缓存的消息和媒体文件？</string>
     <string name="AreYouSureClearHistoryGroup">您确定要删除此群组中所有缓存的消息记录和媒体文件吗？</string>
