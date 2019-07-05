@@ -789,7 +789,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_channel_title" = "频道信息";
 "lng_profile_enable_notifications" = "通知";
 "lng_profile_send_message" = "发送消息";
-"lng_info_add_as_contact" = "添加为联系人";
+"lng_info_add_as_contact" = "添加联系人";
 "lng_profile_shared_media" = "分享的媒体文件";
 "lng_media_type_photos" = "图片";
 "lng_media_type_videos" = "视频";

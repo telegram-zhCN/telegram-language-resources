@@ -445,6 +445,7 @@
     <string name="UserRestrictionsBlock">封禁并从群组中移除</string>
     <string name="UserRestrictionsApplyChanges">确定应用更改吗？</string>
     <string name="UserRestrictionsApplyChangesText">您更改了该成员在 **%1$s** 的权限。确定要应用它们吗？</string>
+    <string name="UserRestrictionsCustom">Custom</string>
     <string name="ManageGroup">管理群组</string>
     <string name="ManageChannel">管理频道</string>
     <string name="ManageGroupMenu">管理群组</string>
@@ -858,6 +859,7 @@
     <string name="InstallGoogleMaps">安装 Google 地图？</string>
     <string name="ScamMessage">诈骗</string>
     <string name="ViaBot">通过</string>
+    <string name="MessageNotFound">Message doesn\'t exist</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -1556,6 +1558,11 @@
     <string name="SettingsNoResults">没有结果</string>
     <string name="SettingsNoRecent">无最近搜索</string>
     <string name="SettingsSearchFaq">常见问题</string>
+    <string name="DistanceUnits">Distance Units</string>
+    <string name="DistanceUnitsTitle">Distance units</string>
+    <string name="DistanceUnitsAutomatic">Automatic</string>
+    <string name="DistanceUnitsKilometers">Kilometers</string>
+    <string name="DistanceUnitsMiles">Miles</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
@@ -1847,8 +1854,10 @@
     <string name="Map">地图</string>
     <string name="Satellite">卫星</string>
     <string name="Hybrid">混合</string>
-    <string name="MetersAway">米以外</string>
-    <string name="KMetersAway">千米以外</string>
+    <string name="MetersAway2">%1$s m away</string>
+    <string name="KMetersAway2">%1$s km away</string>
+    <string name="FootsAway">%1$s ft away</string>
+    <string name="MilesAway">%1$s mi away</string>
     <string name="SendLocation">发送我当前的位置</string>
     <string name="SendLiveLocation">分享我的实时位置...</string>
     <string name="StopLiveLocation">停止位置共享</string>
@@ -2928,7 +2937,9 @@
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
   <string name="EnableProxyAlert2">您可以稍后在设置 &gt; 数据和存储 中修改您的代理服务器。</string>
+  <string name="KMetersAway">千米以外</string>
   <string name="KickFromSupergroup">限制用户权限</string>
+  <string name="MetersAway">米以外</string>
   <string name="MobileUsage">移动数据使用情况</string>
   <string name="NeverAllowPlaceholder">从不允许...</string>
   <string name="NeverShareWithPlaceholder">从不共享给...</string>
