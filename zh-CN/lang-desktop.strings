@@ -592,7 +592,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_title" = "已屏蔽的用户";
 "lng_blocked_list_unknown_phone" = "未知号码";
 "lng_blocked_list_unblock" = "取消屏蔽";
-"lng_blocked_list_restart" = "重新启用";
 "lng_blocked_list_add" = "屏蔽此用户";
 "lng_blocked_list_add_title" = "选择要屏蔽的用户";
 "lng_blocked_list_already_blocked" = "已被屏蔽";
@@ -778,6 +777,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_info_section" = "信息";
 "lng_info_tab_media" = "媒体";
 "lng_info_mobile_label" = "手机";
+
 "lng_info_username_label" = "用户名";
 "lng_info_bio_label" = "个人简介";
 "lng_info_link_label" = "链接";
@@ -2192,6 +2192,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_unread#other" = "{chat}, {second_chat} 和更多 {count} 个未读对话";
 "lng_archived_unread_two" = "{chat}, {second_chat}";
 "lng_banned_list_title" = "被封禁的用户";
+"lng_blocked_list_restart" = "重新启用";
 "lng_change_phone_description" = "您可以在此更改您注册 Telegram 的手机号码。\n您的帐户和所有的云端数据——消息，媒体，联系人等\n将会被迁移到新的手机号码。\n\n[b]注意[/b]：如果您的 Telegram 联系人有您的旧号码，\n并且您没有在 Telegram 里屏蔽他们，\n您的[b]新号码[/b]将被添加到他们的通讯录里。";
 "lng_channel_add_banned" = "封禁用户";
 "lng_channel_add_restricted" = "限制用户权限";

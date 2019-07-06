@@ -592,7 +592,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_title" = "Blocked users";
 "lng_blocked_list_unknown_phone" = "unknown phone number";
 "lng_blocked_list_unblock" = "Unblock";
-"lng_blocked_list_restart" = "Restart";
 "lng_blocked_list_add" = "Block user";
 "lng_blocked_list_add_title" = "Select user to block";
 "lng_blocked_list_already_blocked" = "blocked already";
@@ -778,6 +777,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_info_section" = "Info";
 "lng_info_tab_media" = "Media";
 "lng_info_mobile_label" = "Mobile";
+"lng_info_mobile_hidden" = "Hidden";
 "lng_info_username_label" = "Username";
 "lng_info_bio_label" = "Bio";
 "lng_info_link_label" = "Link";
@@ -2222,6 +2222,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_unread#other" = "{chat}, {second_chat} and {count} more unread chats";
 "lng_archived_unread_two" = "{chat}, {second_chat}";
 "lng_banned_list_title" = "Banned users";
+"lng_blocked_list_restart" = "Restart";
 "lng_change_phone_description" = "You can change your Telegram number\nhere. Your account and all your cloud data\n— messages, media, contacts, etc. will be\nmoved to the new number.\n\n[b]Important[/b]: all your Telegram contacts will\nget your [b]new number[/b] added to their address\nbook, provided they had your old number and\nyou haven't blocked them in Telegram.";
 "lng_channel_add_banned" = "Ban user";
 "lng_channel_add_restricted" = "Restrict user";
