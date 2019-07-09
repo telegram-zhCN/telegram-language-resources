@@ -1757,7 +1757,7 @@
   <string name="PrivacyP2PNobodyExcept">已禁用 (%1$s)</string>
   <string name="PrivacyP2PContacts">仅对联系人</string>
   <string name="PrivacyP2PContactsExcept">仅对联系人 (%1$s)</string>
-  <string name="PrivacyP2PEverybody">已启用</string>
+  <string name="PrivacyP2PEverybody">启用</string>
   <string name="PrivacyP2PEverybodyExcept">已启用 (%1$s)</string>
   <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
   <string name="NotificationsDefault">使用全局设置（%1$s）</string>
@@ -2354,12 +2354,12 @@
   <string name="NotificationMergeOff">关闭以单独显示来自私聊，群组和频道的通知。</string>
 
   <string name="MentionsDefault">默认</string>
-  
-  
+  <string name="MentionsEnabled">启用</string>
+  <string name="MentionsDisabled">启用</string>
 
   <string name="PinnedDefault">默认</string>
-  
-  
+  <string name="PinnedEnabled">启用</string>
+  <string name="PinnedDisabled">启用</string>
 
   <string name="CategoryPrivate">私聊</string>
   <string name="CategorySecret">加密对话</string>
@@ -2374,7 +2374,7 @@
 
   <string name="NotificationAdvanced">高级</string>
 
-  
+  <string name="format_pinned">置顶：%1$s</string>
   
 
   <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
@@ -2385,15 +2385,15 @@
   
 
   <string name="NotificationImportance">通知风格</string>
-  
+  <string name="NotificationImportanceHigh">声音与弹窗</string>
   <string name="NotificationImportanceHighNoSound">振动与弹窗</string>
-  
-  
+  <string name="NotificationImportanceHighMuted">在屏幕上弹窗</string>
+  <string name="NotificationImportanceDefault">声音</string>
   <string name="NotificationImportanceDefaultNoSound">振动</string>
   
+  <string name="NotificationImportanceLow">静音</string>
   
-  
-  
+  <string name="NotificationImportanceMin">静音与最小化</string>
   <string name="NotificationImportanceNone">禁用</string>
 
   
@@ -2562,7 +2562,7 @@
   <string name="SettingsAndThemes">设置和主题</string>
 
   <string name="Paints">图片</string>
-  
+  <string name="PaintsInfo">Telegram X会缓存您使用内置编辑器编辑后的图片来以备将来使用。\n\n你想让Telegram X清除这些缓存吗？</string>
 
   <string name="JunkFiles">未使用的文件</string>
   
@@ -2589,19 +2589,9 @@
   <string name="EmojiSetsInfo">你确定要清除未使用的 Emoji 包吗?</string>
   <string name="BigEmoji">大号 Emoji</string>
 
+  <string name="error_CHAT_ADMIN_REQUIRED">你没有足够的权限来执行这个操作。</string>
   
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
+  <string name="WhatMembersCanDo">这个群组的成员可以做什么？</string>
   
   
   
@@ -2610,14 +2600,24 @@
 
   
   
-  
-  
-  
-  
 
-  
-  
-  
+  <string name="ChatDisabledGifs">仅管理员能在此群组中发送GIF</string>
+  <string name="ChatDisabledBots">仅管理员能在此群组中使用inline机器人</string>
+  <string name="ChatDisabledStickers">只有管理员能在这个群组中发送贴纸</string>
+  <string name="ChatDisabledMedia">仅管理员能在此群组中发送媒体文件</string>
+  <string name="ChatDisabledPolls">仅管理员能在此群组中发送投票</string>
+  <string name="ChatDisabledMessages">仅管理员能在此群组中发言</string>
+
+  <string name="ChatRestrictedGifs">管理员限制了您在此群组中发送GIF</string>
+  <string name="ChatRestrictedBots">管理员限制了您在此群组中使用inline机器人</string>
+  <string name="ChatRestrictedStickers">管理员限制了您在此群组中发送贴纸</string>
+  <string name="ChatRestrictedMedia">管理员限制了您在此群组中发送媒体文件</string>
+  <string name="ChatRestrictedPolls">管理员限制了您在此群组中发送投票</string>
+  <string name="ChatRestrictedMessages">管理员限制了您在此群组中发送消息</string>
+
+  <string name="UpgradeChatPrompt">要执行此操作，此聊天将被转换为超级群组。\n \n **注意**：新成员将无法查看转换前发送的消息。</string>
+  <string name="AppUpdateReady">Telegram X 已经准备好了更新</string>
+  <string name="AppUpdateRestart">重启</string>
 
   
   
