@@ -733,7 +733,7 @@
   <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐户两个选择。</string>
   <string name="EnterCode">输入验证码</string>
   <string name="PasswordRecovery">找回密码</string>
-  <string name="LoginPasswordText">您已经启用两步认证，这个附加的密码将保护您的帐号。</string>
+  <string name="LoginPasswordText">您已经启用两步认证，这个附加密码将保护您的帐号。</string>
   <string name="EnterPassword">输入密码</string>
   <string name="YourEmail">你的电子邮件地址</string>
   <string name="YourEmailInfo">请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
@@ -1541,7 +1541,7 @@
   <string name="PhoneCall">电话</string>
   <string name="SetAsCurrent">设置为当前头像</string>
   <string name="ArchiveStickerSet">确定归档贴纸集 %1$s？稍后你可以在 设置 &gt; 贴纸 &gt;&#160;已归档 中找回。</string>
-  <string name="ArchiveStickerSetAction">存档</string>
+  <string name="ArchiveStickerSetAction">归档</string>
   <string name="ArchivePack">归档此贴纸包</string>
   <string name="ClearDrawing">清空涂鸦</string>
   <string name="RoundVideoPlaybackError">播放视频留言失败，请查阅日志获取详情。</string>

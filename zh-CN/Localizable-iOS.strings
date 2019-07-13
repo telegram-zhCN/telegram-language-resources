@@ -1296,7 +1296,7 @@
 "TwoStepAuth.EnterPasswordTitle" = "密码";
 "TwoStepAuth.EnterPasswordPassword" = "密码";
 "TwoStepAuth.EnterPasswordHint" = "提示： %@";
-"TwoStepAuth.EnterPasswordHelp" = "您已经启用两步认证，这个附加的密码将保护您的帐号。";
+"TwoStepAuth.EnterPasswordHelp" = "您已经启用两步认证，这个附加密码将保护您的帐号。";
 "TwoStepAuth.EnterPasswordInvalid" = "密码无效，请重新输入。";
 "TwoStepAuth.EnterPasswordForgot" = "密码忘了？";
 
@@ -1604,7 +1604,7 @@
 "PhotoEditor.CurvesGreen" = "绿";
 "PhotoEditor.CurvesBlue" = "蓝";
 
-
+"Channel.ErrorAddBlocked" = "抱歉，根据此用户的隐私设置，您不能将其添加到频道。";
 "Channel.ErrorAddTooMuch" = "抱歉，您只能将前200名用户加入频道。注意：通过频道链接加入的用户人数无上限。";
 
 "ChannelIntro.Title" = "什么是频道？";
@@ -1779,7 +1779,7 @@
 "ExplicitContent.AlertTitle" = "抱歉";
 "ExplicitContent.AlertChannel" = "您无法访问这个频道，因为它违反了 App Store 的规定。";
 
-"StickerSettings.ContextHide" = "存档";
+"StickerSettings.ContextHide" = "归档";
 
 "Conversation.LinkDialogSave" = "保存";
 "Conversation.GifTooltip" = "点按这里访问保存的 GIF";
@@ -4091,7 +4091,7 @@ Unused sets are archived when you add more.";
 "Conversation.ForwardAuthorHiddenTooltip" = "此用户的隐私设置拒绝您查看转发来源";
 
 "Privacy.Forwards.Preview" = "消息示例";
-
+"Privacy.Forwards.PreviewMessageText" = "莱茵哈德，我们得给你找点新的音乐。";
 "Privacy.Forwards.AlwaysLink" = "可以链接到您的帐户";
 "Privacy.Forwards.LinkIfAllowed" = "允许时可点击查看个人信息";
 "Privacy.Forwards.NeverLink" = "无法链接到您的帐户";
@@ -4195,7 +4195,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"SettingsSearch.Synonyms.Appearance.Animations" = "动画";
 
 
 
@@ -4207,14 +4207,14 @@ Unused sets are archived when you add more.";
 "ChatList.DeleteForCurrentUser" = "仅为我删除";
 "ChatList.DeleteForEveryone" = "为我和 %@ 同时删除";
 
-
+"ChatList.ClearChatConfirmation" = "确定要删除与 %@ 的所有聊天记录吗？";
 
 "Settings.CheckPhoneNumberTitle" = "%@ 仍然是您的手机号码吗？";
-
+"Settings.CheckPhoneNumberText" = "及时更新手机号码以确保您能正常登录 Telegram。[了解更多]()";
 
 "Settings.ChangePhoneNumber" = "更改手机号码";
 
-
+"Undo.ChatDeletedForBothSides" = "已从双方删除对话";
 
 "AppUpgrade.Running" = "Optimizing Telegram...
 This may take a while, depending on the size of the database. Please keep the app open until the process is finished.
@@ -4270,7 +4270,7 @@ Sorry for the inconvenience.";
 "ArchivedChats.IntroTitle2" = "已静音的对话";
 "ArchivedChats.IntroText2" = "已禁用通知的对话将在接收到新消息时保持归档。";
 "ArchivedChats.IntroTitle3" = "置顶的对话";
-
+"ArchivedChats.IntroText3" = "您可以任意置顶已归档的对话。";
 
 "UserInfo.ScamUserWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
 "UserInfo.ScamBotWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
@@ -4289,7 +4289,7 @@ Sorry for the inconvenience.";
 
 "UserInfo.BlockConfirmationTitle" = "你想屏蔽 %@ 给您发送消息和打电话吗？";
 "UserInfo.BlockActionTitle" = "屏蔽 %@";
-
+"ReportSpam.DeleteThisChat" = "删除对话";
 
 "PrivacySettings.BlockedPeersEmpty" = "无";
 
@@ -4332,7 +4332,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "TextFormat.AddLinkTitle" = "添加链接";
-
+"TextFormat.AddLinkText" = "此链接将显示为 “%@”";
 "TextFormat.AddLinkPlaceholder" = "链接";
 
 "Channel.AddBotErrorHaveRights" = "机器人只能作为管理员被加入群组。";
@@ -4342,37 +4342,37 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.AppIcon" = "应用图标";
 "Appearance.AppIconDefault" = "默认";
 
+"Appearance.AppIconClassic" = "经典";
+"Appearance.AppIconClassicX" = "经典 X";
+"Appearance.AppIconFilled" = "大图标";
+"Appearance.AppIconFilledX" = "大图标 X";
 
-
-
-
-
-
-
-
-
+"Appearance.ThemeCarouselClassic" = "经典";
+"Appearance.ThemeCarouselDay" = "日间";
+"Appearance.ThemeCarouselNightBlue" = "夜光蓝";
+"Appearance.ThemeCarouselNight" = "摩登灰";
 
 "Notification.Exceptions.DeleteAll" = "全部删除";
 "Notification.Exceptions.DeleteAllConfirmation" = "您确定要删除所有例外吗？";
-
-
+"Notification.Exceptions.Add" = "添加";
+"Exceptions.AddToExceptions" = "添加到例外";
 
 "Notification.Exceptions.NewException.MessagePreviewHeader" = "消息预览";
 "Notification.Exceptions.PreviewAlwaysOn" = "显示预览";
-
+"Notification.Exceptions.PreviewAlwaysOff" = "隐藏预览";
 "Notification.Exceptions.RemoveFromExceptions" = "从例外中删除";
 
 "Conversation.BlockUser" = "屏蔽此用户";
-
-
+"Conversation.ShareMyPhoneNumber" = "分享我的电话号码";
+"Conversation.ShareMyPhoneNumberConfirmation" = "您确定要将您的手机号码 “%1$@” 分享给 %2$@ 吗？";
 "Conversation.AddToContacts" = "添加联系人";
-
+"Conversation.AddNameToContacts" = "将 %@ 添加到通讯录";
 
 "AddContact.ContactWillBeSharedAfterMutual" = "一旦 %1$@ 将您添加为联系人，电话号码将对您可见。";
 "AddContact.SharedContactException" = "分享我的手机号码";
 "AddContact.SharedContactExceptionInfo" = "您可以让您的电话号码对 %@ 可见。";
 "AddContact.StatusSuccess" = "%@ 现在已位于您的联系人列表中。";
-
+"Conversation.ShareMyPhoneNumber.StatusSuccess" = "%@ 现在可以看到您的手机号码。";
 
 "Group.EditAdmin.TransferOwnership" = "转让群组所有权";
 "Channel.EditAdmin.TransferOwnership" = "转移频道所有权";
@@ -4394,10 +4394,10 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Group.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
 
 
-
-
+"Channel.OwnershipTransfer.EnterPassword" = "请输入密码";
 
 "Channel.OwnershipTransfer.PasswordPlaceholder" = "密码";
 
@@ -4461,9 +4461,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"CreateGroup.ChannelsTooMuch" = "抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。";
 
-
-
+"Invite.ChannelsTooMuch" = "抱歉，目标用户已加入太多的群组和频道。请先让他们退出一些。";
 
 
 /* new from translations.telegram.org */

@@ -17,7 +17,7 @@
 "Navigation.Close" = "关闭";
 "Navigation.Cancel" = "取消";
 "Navigation.Next" = "下一步";
-
+"Navigation.Add" = "添加";
 
 
 "Peer.Status.online" = "在线";
@@ -400,7 +400,7 @@
 
 "Telegram.GeneralSettingsViewController" = "通用设置";
 "AccountSettings.Logout" = "登出";
-
+"NotificationSettings.ToggleNotifications.Header" = "通知";
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
 "NotificationSettings.IncludeMutedChats" = "包含已关闭通知的对话";
@@ -785,7 +785,7 @@
 "PeerInfo.Confirm.Clear" = "清空";
 
 "peerInfo.Confirm.ClearHistory.User" = "此操作将会从 Telegram 云端删除该对话的所有消息和媒体，但对方储存的内容仍将被保留。";
-
+"peerInfo.Confirm.ClearHistory.UserBothSides" = "您确定要清空消息记录吗？";
 
 "peerInfo.Confirm.ClearHistory.SavedMesssages" = "这将从 Telegram 云端删除您在此会话中的所有的消息和媒体。";
 
@@ -948,7 +948,7 @@
 "PeerInfo.Confirm.DeleteContact" = "您确定要删除这个联系人吗？";
 "Compose.SelectUsers" = "选择用户";
 "PeerInfo.AddContact" = "添加联系人";
-
+"PeerInfo.AddUserToContact" = "将 %@ 添加到通讯录";
 "Telegram.GroupAdminsController" = "管理员";
 "GroupAdmins.AllMembersAdmins" = "将所有成员设为管理员";
 "GroupAdmins.Desc.AdminInvites" = "只有管理员能邀请、移除成员或更改群组名称及头像。";
@@ -1005,7 +1005,7 @@
 "Contacts.NotRegistredDescription" = "该联系人尚未注册 Telegram 。\n\n当其完成注册后，您即可向其发送消息。";
 
 "Contacts.PhoneNumber.Invalid" = "手机号码不能为空";
-
+"Contacts.PhoneNumber.NotRegistred" = "这个手机号码还没有在 Telegram 上注册过。";
 
 
 "DataAndStorage.StorageUsage" = "存储用量";
@@ -1148,8 +1148,8 @@
 "Chat.Context.SharedMedia" = "分享的媒体";
 "Chat.Context.ClearHistory" = "清空历史记录";
 
-
-
+"Chat.Context.Archive" = "归档";
+"Chat.Context.Unarchive" = "取消归档";
 
 "Payments.Unsupported" = "抱歉，Telegram 的 macOS 客户端暂不支持付款。请使用我们的移动端应用进行此操作。";
 
@@ -1275,7 +1275,7 @@
 
 
 
-
+"Channel.Admin.TransferOwnership.Password.Title" = "两步验证";
 
 
 
@@ -1583,7 +1583,7 @@
 "PreHistorySettings.Description.Group.Hidden" = "新成员只能查看他们加入前的 100 条消息。";
 
 "Chat.AdminBadge" = "管理员";
-
+"Chat.ChannelBadge" = "频道";
 
 "ChangePhoneNumber.Intro.Description" = "您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
 "ChangePhoneNumber.Intro.Alert" = "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。";
@@ -1657,7 +1657,7 @@
 
 "TwoStepAuth.EnterPasswordPassword" = "密码";
 "TwoStepAuth.EnterPasswordHint" = "提示： %@";
-"TwoStepAuth.EnterPasswordHelp" = "您已经启用两步认证，这个附加的密码将保护您的帐号。";
+"TwoStepAuth.EnterPasswordHelp" = "您已经启用两步认证，这个附加密码将保护您的帐号。";
 "TwoStepAuth.EnterPasswordForgot" = "忘记密码？";
 
 "TwoStep.AuthEmailSkip" = "跳过";
@@ -2971,7 +2971,7 @@
 
 
 
-
+"NotificationSettings.Snoof" = "显示通知";
 
 
 
@@ -3012,12 +3012,12 @@
 
 
 
-
+"App.Tooltip.VideoRecord" = "按住来拍摄视频。点击切换至录制音频。";
 
 
 
 "StatusBar.Activate" = "激活";
-
+"StatusBar.Hide" = "隐藏";
 "StatusBar.Quit" = "退出";
 
 
@@ -3060,13 +3060,13 @@
 
 
 
-
-
+"ChatList.RevealAction.Hide" = "隐藏";
+"ChatList.RevealAction.Pin" = "置顶";
 
 
 "Bot.InlineAuth.Header" = "打开链接";
 "Bot.InlineAuth.Title" = "您想打开\n%@ 吗？";
-
+"Bot.InlineAuth.Open" = "打开";
 
 "Bot.InlineAuth.Option.Login" = "以 %@ 身份登录 %@";
 "Bot.InlineAuth.Option.AllowSendMessages" = "允许 **%@** 向我发送消息";
@@ -3074,12 +3074,12 @@
 
 "PeerInfo.Discussion" = "讨论群";
 "PeerInfo.LinkedChannel" = "链接的频道";
-
+"PeerInfo.Discussion.Add" = "添加";
 "PeerInfo.Discussion.Desc" = "添加一个用于评论的群组。";
 
 
 
-
+"DiscussionController.Channel.Title" = "讨论群";
 
 "DiscussionController.Channel.Empty.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
 "DiscussionController.Channel.Empty.CreateGroup" = "创建一个新群组";
@@ -3087,7 +3087,7 @@
 
 
 "DiscussionController.PrivateGroup" = "私人群组";
-
+"DiscussionController.PrivateChannel" = "私人频道";
 
 
 
@@ -3115,12 +3115,12 @@
 
 
 
+"PrivacyAndSecurity.Item.Off" = "关";
+"PrivacyAndSecurity.Item.On" = "开";
 
 
 
-
-
-
+"DiscussionController.IconText" = "讨论";
 
 
 
@@ -3143,6 +3143,27 @@
 
 
 
+"Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
+
+
+
+
+
+
+"InputPasswordController.Error.WrongPassword" = "密码错误，请重试。";
+
+
+
+"NewContact.Title" = "新建联系人";
+
+"NewContact.Phone.Hidden" = "未知";
+
+
+
+
+
+
+"Channel.TransferOwner.Error.Title" = "安全检查";
 
 
 
@@ -3152,28 +3173,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Group.TransferOwner.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
 
 
 
