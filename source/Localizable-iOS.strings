@@ -4705,7 +4705,7 @@ Any member of this group will be able to see messages in the channel.";
 "PINNED_POLL_SEPARATED" = "%1$@|pinned a poll";
 "PINNED_ROUND" = "%1$@ pinned a video message";
 "PINNED_ROUND_SEPARATED" = "%1$@|pinned a video message";
-"PINNED_STICKER" = "%1$@ pinned a %2$@sticker";
+"PINNED_STICKER" = "%1$@ pinned a %2$@ sticker";
 "PINNED_STICKER_SEPARATED" = "%1$@|pinned a %2$@ sticker";
 "PINNED_TEXT" = "%1$@ pinned \"%2$@\"";
 "PINNED_TEXT_SEPARATED" = "%1$@|pinned \"%2$@\"";
