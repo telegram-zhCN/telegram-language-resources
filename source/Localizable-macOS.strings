@@ -1262,7 +1262,7 @@
 "Channel.Persmission.Denied.SendPoll.DefaultRestrictedText" = "Posting polls isn't allowed in this group.";
 
 
-"Channel.Persmission.Denied.SendInline.Until" = "The admins of this group have restricted you from posting inline content here until %@.";
+"Channel.Persmission.Denied.SendInline.Until" = "Group admins have restricted you from sending inline content until %@";
 "Channel.Persmission.Denied.SendInline.Forever" = "The admins of this group have restricted you from posting inline content here.";
 "Channel.Persmission.Denied.SendInline.DefaultRestrictedText" = "Posting inline content isn't allowed in this group.";
 
@@ -1570,7 +1570,7 @@
 
 "Chat.Context.CopyBlock" = "Copy Preformatted Block";
 
-"Compose.SelectGroupUsers.Placeholder" = "Whom would you like to message?";
+"Compose.SelectGroupUsers.Placeholder" = "Who would you like to add?";
 
 "PeerInfo.PreHistory" = "Chat History For New Members";
 "PeerInfo.PreHistory.Visible" = "Visible";

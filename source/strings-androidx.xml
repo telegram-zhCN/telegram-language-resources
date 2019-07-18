@@ -105,7 +105,7 @@
   <string name="location_personAwayMeters">is %1$s m away</string>
   <string name="location_personAwayKilometers">is %1$s km away</string>
   <string name="status_Online">online</string>
-  <string name="status_LastSeenRecently">seen recently</string>
+  <string name="status_LastSeenRecently">last seen recently</string>
   <string name="status_LastSeenWithinWeek">seen within a week</string>
   <string name="status_LastSeenWithinMonth">seen within a month</string>
   <string name="status_LastSeenUnknown">seen a long time ago</string>

@@ -393,7 +393,7 @@
 "DialogList.NoMessagesText" = "Start messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
 "DialogList.SingleTypingSuffix" = "%@ is typing";
 "DialogList.SingleRecordingAudioSuffix" = "%@ is recording";
-"DialogList.SingleUploadingPhotoSuffix" = "%@ is sending photo";
+"DialogList.SingleUploadingPhotoSuffix" = "%@ is sending a photo";
 "DialogList.SingleUploadingVideoSuffix" = "%@ is sending video";
 "DialogList.SingleRecordingVideoMessageSuffix" = "%@ is recording video";
 "DialogList.SingleUploadingFileSuffix" = "%@ is sending a file";
@@ -465,7 +465,7 @@
 "Conversation.EncryptionProcessing" = "Exchanging encryption keys...";
 "Conversation.EmptyPlaceholder" = "No messages here yet...";
 "Conversation.EncryptedPlaceholderTitleIncoming" = "%@ invited you to join a secret chat.";
-"Conversation.EncryptedPlaceholderTitleOutgoing" = "You have invited %@ to join a secret chat.";
+"Conversation.EncryptedPlaceholderTitleOutgoing" = "You invited %@ to join a secret chat.";
 "Conversation.EncryptedDescriptionTitle" = "Secret chats:";
 "Conversation.EncryptedDescription1" = "Use end-to-end encryption";
 "Conversation.EncryptedDescription2" = "Leave no trace on our servers";
@@ -507,7 +507,7 @@
 "Notification.CreatedChannel" = "Channel created";
 "Notification.CreatedChatWithTitle" = "%@ created the group \"%@\"";
 "Notification.Joined" = "%@ joined Telegram";
-"Notification.ChangedGroupName" = "%@ changed group name to \"%@\"";
+"Notification.ChangedGroupName" = "%@ changed the group name to \"%@\"";
 "Notification.NewAuthDetected" = "%1$@,\nWe detected a login into your account from a new device on %2$@, %3$@ at %4$@\n\nDevice: %5$@\nLocation: %6$@\n\nIf this wasn't you, you can go to Settings > Privacy and Security > Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team";
 "Notification.MessageLifetimeChanged" = "%1$@ set the self-destruct timer to %2$@";
 "Notification.MessageLifetimeChangedOutgoing" = "You set the self-destruct timer to %1$@";
@@ -688,7 +688,7 @@
 "Notifications.MessageNotificationsAlert" = "Show Notifications";
 "Notifications.MessageNotificationsPreview" = "Message Preview";
 "Notifications.MessageNotificationsSound" = "Sound";
-"Notifications.MessageNotificationsHelp" = "You can set custom notifications for specific users on their Info page.";
+"Notifications.MessageNotificationsHelp" = "You can set custom notifications for specific users on their profile page.";
 "Notifications.MessageNotificationsExceptionsHelp" = "Set custom notifications for specific users.";
 
 
@@ -1037,7 +1037,7 @@
 "FileSize.MB" = "%@ MB";
 "FileSize.GB" = "%@ GB";
 
-"DownloadingStatus" = "Downloading %@ of %@";
+"DownloadingStatus" = "downloading %@ of %@";
 
 "Time.MonthOfYear_m1" = "January %@";
 "Time.MonthOfYear_m2" = "February %@";
@@ -1171,7 +1171,7 @@
 "AccessDenied.MicrophoneRestricted" = "Microphone access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Microphone and set Telegram to ON.";
 
 
-"AccessDenied.Camera" = "Telegram needs camera access so that you can take photos and videos.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
+"AccessDenied.Camera" = "Telegram needs camera access so that you can take photos and videos.\n\nPlease go to your device settings > Privacy > Camera and set Telegram to ON.";
 
 "AccessDenied.CameraRestricted" = "Camera access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Camera and set Telegram to ON.";
 
@@ -1181,7 +1181,7 @@
 
 "AccessDenied.SaveMedia" = "Telegram needs access to your photo library so that you can save photos and videos.\n\nPlease go to your device‘s settings > Privacy > Photos and set Telegram to ON.";
 
-"AccessDenied.PhotosRestricted" = "Photo access is restricted for Telegram.\n\nPlease go to your device‘s settings > General > Restrictions > Photos and set Telegram to ON.";
+"AccessDenied.PhotosRestricted" = "Photo access is restricted for Telegram.\n\nPlease go to your device settings > General > Restrictions > Photos and set Telegram to ON.";
 
 "AccessDenied.LocationDenied" = "Telegram needs access to your location so that you can share it with your contacts.\n\nPlease go to your device‘s settings > Privacy > Location Services and set Telegram to ON.";
 
@@ -1347,7 +1347,7 @@
 "Map.AccurateTo" = "Accurate to %@";
 "Map.Search" = "Search places nearby";
 "Map.ShowPlaces" = "Show places";
-"Map.LoadError" = "An error occurred. Please try again.";
+"Map.LoadError" = "An error occurred, please try again.";
 "Map.LocatingError" = "Failed to locate";
 "Map.Unknown" = "Unknown location";
 
@@ -1480,7 +1480,7 @@
 "Login.EmailPhoneBody" = "I'm trying to use my mobile phone number: %@\nBut Telegram says it's invalid. Please help.\nAdditional Info: %@, %@.";
 
 
-"SharedMedia.EmptyLinksText" = "All links shared in this chat will appear here.";
+"SharedMedia.EmptyLinksText" = "All links shared in this chat will appear here";
 
 "SharedMedia.Link_1" = "1 link";
 "SharedMedia.Link_2" = "%@ links";
@@ -1569,7 +1569,7 @@
 "Channel.BlackList.Title" = "Banned";
 "Channel.Management.Title" = "Admins";
 "Channel.Management.LabelCreator" = "Creator";
-"Channel.Management.LabelEditor" = "Admin";
+"Channel.Management.LabelEditor" = "admin";
 
 "Channel.Management.AddModerator" = "Add Admin";
 "Channel.Management.AddModeratorHelp" = "You can add admins to help you manage your channel.";
@@ -1825,7 +1825,7 @@
 "CreateGroup.SoftUserLimitAlert" = "You will be able to add more users after you finish creating the group and convert it to a supergroup.";
 
 "Privacy.GroupsAndChannels" = "Groups & Channels";
-"Privacy.GroupsAndChannels.WhoCanAddMe" = "WHO CAN ADD ME TO GROUP CHATS";
+"Privacy.GroupsAndChannels.WhoCanAddMe" = "WHO CAN ADD ME";
 "Privacy.GroupsAndChannels.CustomHelp" = "You can restrict who can add you to groups and channels with granular precision.";
 "Privacy.GroupsAndChannels.AlwaysAllow" = "Always Allow";
 "Privacy.GroupsAndChannels.NeverAllow" = "Never Allow";
@@ -1978,7 +1978,7 @@
 "StickerPack.HideStickers" = "Hide Stickers";
 "StickerPack.ShowStickers" = "Show Stickers";
 
-"ShareMenu.ShareTo" = "Share to";
+"ShareMenu.ShareTo" = "Share with";
 "ShareMenu.SelectChats" = "Select chats";
 "ShareMenu.Comment" = "Add a comment...";
 
@@ -2000,7 +2000,7 @@
 
 "StickerPack.ErrorNotFound" = "Sorry, this sticker set doesn't seem to exist.";
 
-"Camera.TapAndHoldForVideo" = "Tap and hold for video";
+"Camera.TapAndHoldForVideo" = "Press and hold for video";
 
 "DialogList.RecentTitlePeople" = "People";
 
@@ -2157,7 +2157,7 @@ Unused sets are archived when you add more.";
 
 "CloudStorage.Title" = "Cloud Storage";
 
-"Widget.AuthRequired" = "Log in to Telegram";
+"Widget.AuthRequired" = "Log In to Telegram";
 "Widget.NoUsers" = "Start messaging to see your friends here";
 
 "ShareMenu.CopyShareLinkGame" = "Copy link to game";
@@ -2168,7 +2168,7 @@ Unused sets are archived when you add more.";
 "Target.ShareGameConfirmationPrivate" = "Share the game with %@?";
 "Target.ShareGameConfirmationGroup" = "Share the game with \"%@\"?";
 
-"Activity.PlayingGame" = "playing game";
+"Activity.PlayingGame" = "playing a game";
 "Activity.UploadingVideoMessage" = "sending a video";
 
 "DialogList.SinglePlayingGameSuffix" = "%@ is playing a game";
@@ -2419,7 +2419,7 @@ Unused sets are archived when you add more.";
 "Privacy.Calls" = "Voice Calls";
 
 "Privacy.Calls.WhoCanCallMe" = "WHO CAN CALL ME";
-"Privacy.Calls.CustomHelp" = "You can restrict who can call you with granular precision.";
+"Privacy.Calls.CustomHelp" = "Choose exactly who can and can't call you.";
 "Privacy.Calls.AlwaysAllow" = "Always Allow";
 "Privacy.Calls.NeverAllow" = "Never Allow";
 "Privacy.Calls.CustomShareHelp" = "These users will or will not be able to call you regardless of the settings above.";
@@ -2656,7 +2656,7 @@ Unused sets are archived when you add more.";
 
 "Conversation.RestrictedTextTimed" = "The admins of this group have restricted you from writing messages until %@.";
 "Conversation.RestrictedText" = "The admins of this group have restricted you from writing messages.";
-"Conversation.DefaultRestrictedText" = "Writing messages isn't allowed in this group.";
+"Conversation.DefaultRestrictedText" = "Sending messages is not allowed in this group.";
 
 "Conversation.RestrictedInlineTimed" = "The admins of this group have restricted you from posting inline content here until %@.";
 "Conversation.RestrictedInline" = "The admins of this group have restricted you from posting inline content here.";
@@ -2727,7 +2727,7 @@ Unused sets are archived when you add more.";
 "Settings.ApplyProxyAlertCredentials" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\nUsername: %3$@\nPassword: %4$@\n\nYou can change your proxy server later in Settings > Data and Storage.";
 "Settings.ApplyProxyAlertEnable" = "Enable";
 
-"Channel.Management.RestrictedBy" = "Restricted by %@";
+"Channel.Management.RestrictedBy" = "restricted by %@";
 
 "Stickers.FrequentlyUsed" = "Recently Used";
 
@@ -3101,12 +3101,12 @@ Unused sets are archived when you add more.";
 
 "Conversation.ContextMenuReport" = "Report";
 
-"Stickers.Search" = "Search Stickers";
+"Stickers.Search" = "Search for stickers";
 "Stickers.NoStickersFound" = "No Stickers Found";
 
 "Camera.Discard" = "Discard All";
 
-"Stickers.SuggestStickers" = "Suggest Stickers by Emoji";
+"Stickers.SuggestStickers" = "Suggest by Emoji";
 "Stickers.SuggestAll" = "All Sets";
 "Stickers.SuggestAdded" = "My Sets";
 "Stickers.SuggestNone" = "None";
@@ -3355,7 +3355,7 @@ Unused sets are archived when you add more.";
 "Passport.Email.UseTelegramEmailHelp" = "Use the same address as on Telegram.";
 "Passport.Email.EnterOtherEmail" = "OR ENTER A NEW EMAIL ADDRESS";
 "Passport.Email.EmailPlaceholder" = "Enter your email address";
-"Passport.Email.Help" = "Note: You will receive a confirmation code to the email address you provide.";
+"Passport.Email.Help" = "A confirmation code will be sent to the email you provide.";
 "Passport.Email.Delete" = "Delete Email Address";
 "Passport.Email.CodeHelp" = "Please enter the confirmation code we've just sent to %@";
 
@@ -3378,7 +3378,7 @@ Unused sets are archived when you add more.";
 "Passport.ScanPassport" = "Scan Your Passport";
 "Passport.ScanPassportHelp" = "Scan your passport or identity card with machine-readable zone to fill personal details automatically.";
 
-"TwoStepAuth.PasswordRemovePassportConfirmation" = "Are you sure you want to disable your password?\n\nWarning! All data saved in your Telegram Passport will be lost!";
+"TwoStepAuth.PasswordRemovePassportConfirmation" = "Are you sure you want to disable your password?\n\nWarning! All data saved in your Telegram Passport will be lost.";
 
 "Application.Update" = "Update";
 
@@ -3481,10 +3481,10 @@ Unused sets are archived when you add more.";
 "Notifications.ExceptionsUnmuted" = "Unmuted";
 "Notifications.AddExceptionTitle" = "Add Exception";
 
-"Notifications.ExceptionsMessagePlaceholder" = "This section will list all private chats with non-default notification settings.";
-"Notifications.ExceptionsGroupPlaceholder" = "This section will list all groups and channels with non-default notification settings.";
+"Notifications.ExceptionsMessagePlaceholder" = "This section will list all private chats with non-default notification settings";
+"Notifications.ExceptionsGroupPlaceholder" = "This section will list all groups and channels with non-default notification settings";
 
-"Passport.Identity.LatinNameHelp" = "Enter your name using the Latin alphabet";
+"Passport.Identity.LatinNameHelp" = "Enter your name using Latin characters.";
 "Passport.Identity.NativeNameTitle" = "YOUR NAME IN %@";
 "Passport.Identity.NativeNameGenericTitle" = "NAME IN COUNTRY OF RESIDENCE";
 "Passport.Identity.NativeNameHelp" = "Your name in the language of your country of residence.";
@@ -3683,10 +3683,10 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.SetupResendEmailCodeAlert" = "The code has been sent. Please check your email. Be sure to check the spam folder as well.";
 "TwoStepAuth.EnterEmailCode" = "Enter Code";
 
-"TwoStepAuth.EnabledSuccess" = "Two-Step verification\nis enabled.";
+"TwoStepAuth.EnabledSuccess" = "Two-Step Verification Enabled";
 "TwoStepAuth.DisableSuccess" = "Two-Step verification\nis disabled.";
 "TwoStepAuth.PasswordChangeSuccess" = "Your password\nhas been changed.";
-"TwoStepAuth.EmailAddSuccess" = "Your recovery email\nhas been added.";
+"TwoStepAuth.EmailAddSuccess" = "Recovery Email Added";
 "TwoStepAuth.EmailChangeSuccess" = "Your recovery email\nhas been changed.";
 
 "Conversation.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
@@ -3801,7 +3801,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.AddMoreOptions_any" = "You can add %@ more options.";
 "CreatePoll.AllOptionsAdded" = "You have added the maximum number of options.";
 
-"CreatePoll.CancelConfirmation" = "Are you sure you want to discard this poll?";
+"CreatePoll.CancelConfirmation" = "Do you want to discard this poll?";
 
 "ForwardedPolls_1" = "Forwarded poll";
 "ForwardedPolls_2" = "%@ forwarded polls";
@@ -3895,7 +3895,7 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.Blurred" = "Blurred";
 "WallpaperPreview.Pattern" = "Pattern";
 
-"Wallpaper.Search" = "Search Backgrounds";
+"Wallpaper.Search" = "Search for images";
 "Wallpaper.SearchShort" = "Search";
 "Wallpaper.SetColor" = "Set a Color";
 "Wallpaper.SetCustomBackground" = "Choose from Photos";
@@ -4071,7 +4071,7 @@ Unused sets are archived when you add more.";
 
 "Gif.Search" = "Search GIFs";
 "Gif.NoGifsFound" = "No GIFs Found";
-"Gif.NoGifsPlaceholder" = "You have no saved GIFs yet.";
+"Gif.NoGifsPlaceholder" = "No Saved GIFs";
 
 "Privacy.ProfilePhoto" = "Profile Photo";
 "Privacy.Forwards" = "Forwarded Messages";
@@ -4229,7 +4229,7 @@ Sorry for the inconvenience.";
 
 "MemberSearch.BotSection" = "BOTS";
 
-"Conversation.PrivateMessageLinkCopied" = "This link will only work for members of this chat.";
+"Conversation.PrivateMessageLinkCopied" = "This link will only work for chat members";
 "Conversation.ErrorInaccessibleMessage" = "Unfortunately, you can't access this message. You are not a member of the chat where it was posted.";
 
 "Stickers.ClearRecent" = "Clear Recent Stickers";
@@ -4244,7 +4244,7 @@ Sorry for the inconvenience.";
 
 "ChatList.UndoArchiveTitle" = "Chat archived";
 "ChatList.UndoArchiveMultipleTitle" = "Chats archived";
-"ChatList.UndoArchiveText1" = "Hide the archive by swiping left on it.";
+"ChatList.UndoArchiveText1" = "Swipe left on the archive to hide it.";
 "ChatList.UndoArchiveHiddenTitle" = "Archive hidden";
 "ChatList.UndoArchiveHiddenText" = "Swipe down to see the archive.";
 "ChatList.UndoArchiveRevealedTitle" = "Archive pinned";
@@ -4307,7 +4307,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.LinkGroup" = "Link Group";
 "Channel.DiscussionGroup.UnlinkGroup" = "Unlink Group";
 "Channel.DiscussionGroup.UnlinkChannel" = "Unlink Channel";
-"Channel.DiscussionGroup.PublicChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?";
+"Channel.DiscussionGroup.PublicChannelLink" = "Make %1$@ the discussion group for %2$@?";
 "Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
 
 Any member of this group will be able to see messages in the channel.";
@@ -4389,7 +4389,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.OwnershipTransfer.ChangeOwner" = "Change Owner";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first.";
-"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "Sorry, the target user has too many location-based groups already. Please ask them to delete or transfer one of their existing ones first.";
+"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "Sorry, the target user owns too many location-based groups. Please ask them to delete or transfer an existing one first.";
 
 "Group.OwnershipTransfer.ErrorAdminsTooMuch" = "Sorry, this group has too many admins and the new owner can't be added. Please remove one of the existing admins first.";
 "Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "Sorry, this channel has too many admins and the new owner can't be added. Please remove one of the existing admins first.";
@@ -4413,7 +4413,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.CreateGroup" = "Create a Local Group";
 "PeopleNearby.NoMembers" = "no members";
 
-"Channel.Management.LabelOwner" = "Owner";
+"Channel.Management.LabelOwner" = "owner";
 "Channel.Management.LabelAdministrator" = "Administrator";
 "ContactInfo.PhoneNumberHidden" = "Hidden";
 
@@ -4556,7 +4556,7 @@ Any member of this group will be able to see messages in the channel.";
 "CHAT_RETURNED" = "%1$@ returned to the group %2$@";
 "CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ has returned to the group";
 "CHAT_TITLE_EDITED" = "%1$@ edited the group's %2$@ name";
-"CONTACT_JOINED" = "%1$@ joined Telegram!";
+"CONTACT_JOINED" = "%1$@ joined Telegram";
 "CONTACT_JOINED_SEPARATED" = "%1$@|joined Telegram!";
 "Channel.AdminLog.BanSendGifs" = "Send GIFs";
 "Channel.AdminLog.BanSendStickers" = "Send Stickers";
