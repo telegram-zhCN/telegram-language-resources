@@ -777,7 +777,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_info_section" = "信息";
 "lng_info_tab_media" = "媒体";
 "lng_info_mobile_label" = "手机";
-
+"lng_info_mobile_hidden" = "未知";
 "lng_info_username_label" = "用户名";
 "lng_info_bio_label" = "个人简介";
 "lng_info_link_label" = "链接";
@@ -950,7 +950,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_failed_add_participant" = "无法添加用户。请稍后再试。";
 "lng_failed_add_not_mutual" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
-"lng_failed_add_not_mutual_channel" = "抱歉，如果一位用户主动退出了频道，只有双向联系人可以将其添加回来（双方都需要有对方的手机号码）。";
+"lng_failed_add_not_mutual_channel" = "抱歉，如果一位用户主动退出了频道，您需要在他们的联系人列表中才能将其添加回来。";
 
 "lng_sure_delete_contact" = "您确定从联系人列表中删除 {contact} 吗？";
 "lng_sure_delete_history" = "您确定要删除所有与 {contact} 的消息记录？\n\n此操作不可撤销。";
@@ -984,7 +984,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_user_left" = "{from} 退出了群组";
 "lng_action_user_joined" = "{from} 加入了群组";
 "lng_action_user_joined_by_link" = "{from} 通过邀请链接加入了群组";
-"lng_action_user_registered" = "{from} 刚刚加入了 Telegram";
+"lng_action_user_registered" = "{from} 加入了 Telegram";
 "lng_action_removed_photo" = "{from} 删除了群组图片";
 "lng_action_removed_photo_channel" = "频道头像已删除";
 "lng_action_changed_photo" = "{from} 更换了群组图片";
@@ -1180,7 +1180,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_stickers_count#other" = "{count} 张贴纸";
 "lng_stickers_masks_pack" = "这是一个装饰包。您可以在 Telegram 移动端的照片编辑器里使用它。";
-
+"lng_stickers_attached_sets" = "贴纸包";
 "lng_stickers_group_set" = "群组贴纸包";
 "lng_stickers_remove_group_set" = "删除群组贴纸包？";
 "lng_stickers_group_from_your" = "从已经安装的贴纸包中选择";
@@ -1997,7 +1997,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_voice_messages" = "语音留言";
 "lng_export_option_video_messages" = "视频留言";
 "lng_export_option_stickers" = "贴纸";
-"lng_export_option_gifs" = "动态 GIF 图";
+"lng_export_option_gifs" = "GIF";
 "lng_export_option_files" = "文件";
 "lng_export_option_size_limit" = "文件大小限制：{size}";
 "lng_export_header_format" = "保存路径和格式";
@@ -2270,7 +2270,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_peer_to_peer" = "端对端连接";
 "lng_settings_self_destruct" = "帐号自毁设置";
 "lng_sure_add_admin_unban" = "此用户当前正被限制或封禁。是否确定将其解封并提升至管理员？";
-"lng_sure_ban_user_channel" = "要在频道中封禁 {user} 吗？";
-"lng_sure_ban_user_group" = "是否要在群组中封禁 {user} ？";
+"lng_sure_ban_user_channel" = "您确定要在频道中封禁 {user} 吗？";
+"lng_sure_ban_user_group" = "您确定要要在群组中封禁 {user} 吗？";
 "lng_sure_remove_user_channel" = "从频道中移除 {user} ？";
 "lng_sure_remove_user_group" = "从群组中移除 {user} ？";

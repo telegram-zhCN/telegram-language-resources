@@ -23,7 +23,7 @@
     <string name="SyncContactsAdded">此设备上的通讯录已被同步至您的帐户。</string>
     <!--code enter view-->
     <string name="YourCode">手机验证</string>
-    <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
+    <string name="SentSmsCode">短信激活码已发送至 **%1$s**。</string>
     <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>
     <string name="SentAppCodeTitle">查看你的 Telegram 消息</string>
     <string name="SentSmsCodeTitle">输入验证码</string>
@@ -195,7 +195,7 @@
     <string name="SendGifPreview">发送 GIF</string>
     <string name="ViewPackPreview">查看对应贴纸包</string>
     <string name="PinToTop">置顶</string>
-    <string name="PinToTopLimitReached">抱歉，您最多只能置顶 %1$s 。</string>
+    <string name="PinToTopLimitReached">抱歉，您只能在主列表中置顶 %1$s 个对话。 如果您想让您的对话更加的有组织，请尝试归档一些对话 —— 已归档对话文件夹中允许无限数量的置顶对话。</string>
     <string name="UnpinFromTop">取消置顶</string>
     <string name="MarkAsUnread">标记为未读</string>
     <string name="MarkAsRead">标记为已读</string>
@@ -1075,7 +1075,7 @@
     <string name="StartEncryptedChat">开始加密对话</string>
     <string name="GroupsInCommon">共同加入的群组</string>
     <string name="GroupsInCommonTitle">共同加入的群组</string>
-    <string name="NoGroupsInCommon">还没有共同加入的群组</string>
+    <string name="NoGroupsInCommon">没有共同加入的群组</string>
     <string name="CreateEncryptedChatError">发生错误</string>
     <string name="EncryptionKey">加密密钥</string>
     <string name="MessageLifetime">阅后即焚计时器</string>
@@ -2192,7 +2192,7 @@
     <string name="Deactivate">立即删除</string>
     <string name="Back">返回</string>
     <string name="SignUp">注册</string>
-    <string name="DeclineDeactivate">拒绝并删除数据</string>
+    <string name="DeclineDeactivate">拒绝并删除</string>
     <string name="Next">下一步</string>
     <!--messages-->
     <string name="ActionInviteYou">您通过邀请链接加入了此群组</string>
@@ -2819,8 +2819,8 @@
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
     <string name="AccDescrSecretChat">加密对话</string>
-    <string name="AccDescrSentDate">已发送 %s</string>
-    <string name="AccDescrReceivedDate">Received %s</string>
+    <string name="AccDescrSentDate">于 %s 发送</string>
+    <string name="AccDescrReceivedDate">于 %s 收到</string>
     <string name="AccDescrGoBack">返回</string>
     <string name="AccDescrOpenMenu">打开导航菜单</string>
     <string name="AccDescrMusicInfo">由 %1$s 创作的 %2$s</string>
@@ -2835,7 +2835,7 @@
     <string name="AccDescrEmojiButton">表情符号、贴纸与动态图</string>
     <string name="AccDescrAttachButton">添加媒体文件</string>
     <string name="AccDescrChanSilentOn">静默发送</string>
-    <string name="AccDescrChanSilentOff">Send notifications</string>
+    <string name="AccDescrChanSilentOff">启用通知</string>
     <string name="AccDescrBotCommands">机器人命令</string>
     <string name="AccDescrBotKeyboard">机器人键盘</string>
     <string name="AccDescrShowKeyboard">显示键盘</string>
@@ -2873,8 +2873,8 @@
     <string name="AccDescrStickerSet">贴纸包</string>
     <string name="AccDescrGIFs">动态图</string>
     <string name="AccDescrStickers">贴纸</string>
-    <string name="AccDescrExpandPanel">Expand panel</string>
-    <string name="AccDescrCollapsePanel">Collapse panel</string>
+    <string name="AccDescrExpandPanel">展开面板</string>
+    <string name="AccDescrCollapsePanel">收起面板</string>
     <string name="AccDescrUserOptions">用户选项</string>
 	<string name="AccDescrRotate">旋转</string>
     <string name="AccDescrPhotoEditor">图片编辑器</string>

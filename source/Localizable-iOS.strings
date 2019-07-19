@@ -626,7 +626,7 @@
 "GroupInfo.SharedMedia" = "Shared Media";
 "GroupInfo.SharedMediaNone" = "None";
 "GroupInfo.DeleteAndExit" = "Delete and Exit";
-"GroupInfo.DeleteAndExitConfirmation" = "You will not be able to join this group again.";
+"GroupInfo.DeleteAndExitConfirmation" = "You will not be able to return to this group unless added by another member.";
 "GroupInfo.ParticipantCount_1" = "1 member";
 "GroupInfo.ParticipantCount_2" = "%@ members";
 "GroupInfo.ParticipantCount_3_10" = "%@ members";
@@ -3311,7 +3311,7 @@ Unused sets are archived when you add more.";
 "Passport.Address.TypePassportRegistration" = "Passport Registration";
 "Passport.Address.TypeUtilityBill" = "Utility Bill";
 "Passport.Address.TypeBankStatement" = "Bank Statement";
-"Passport.Address.TypeRentalAgreement" = "Tenancy Agreement";
+"Passport.Address.TypeRentalAgreement" = "Rental Agreement";
 "Passport.Address.TypeTemporaryRegistration" = "Temporary Registration";
 
 "Passport.Address.AddResidentialAddress" = "Add Residential Address";
@@ -4555,7 +4555,7 @@ Any member of this group will be able to see messages in the channel.";
 "CHAT_PHOTO_EDITED" = "%1$@ edited the group's %2$@ photo";
 "CHAT_RETURNED" = "%1$@ returned to the group %2$@";
 "CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ has returned to the group";
-"CHAT_TITLE_EDITED" = "%1$@ edited the group's %2$@ name";
+"CHAT_TITLE_EDITED" = "%1$@ edited the name of the group %2$@";
 "CONTACT_JOINED" = "%1$@ joined Telegram";
 "CONTACT_JOINED_SEPARATED" = "%1$@|joined Telegram!";
 "Channel.AdminLog.BanSendGifs" = "Send GIFs";

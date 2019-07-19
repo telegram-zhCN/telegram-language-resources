@@ -230,7 +230,7 @@
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ joined group via invite link";
 "Chat.Service.Group.MigratedToSupergroup" = "This group was upgraded to a supergroup";
-"Chat.Service.Group.TookScreenshot" = "%@ took a screenshot";
+"Chat.Service.Group.TookScreenshot" = "%@ took a screenshot!";
 "Chat.Service.PinnedMessage" = "pinned message";
 "Chat.Service.PeerJoinedTelegram" = "%@ joined Telegram";
 
@@ -565,7 +565,7 @@
 "ChatList.Context.ClearHistory" = "Clear History";
 "ChatList.Context.Call" = "Call";
 "ChatList.Context.DeleteChat" = "Delete Chat";
-"ChatList.Context.DeleteAndExit" = "Delete And Exit";
+"ChatList.Context.DeleteAndExit" = "Delete and Exit";
 "ChatList.Context.LeaveChannel" = "Leave Channel";
 "ChatList.Context.LeaveGroup" = "Leave Group";
 "ChatList.Context.ReturnGroup" = "Return to Group";
@@ -1102,7 +1102,7 @@
 "Call.StatusFailed" = "Call Failed";
 "Call.StatusBusy" = "Busy";
 "Call.StatusCalling" = "is calling you...";
-"Call.StatusCallingAccount" = "is calling → %@...";
+"Call.StatusCallingAccount" = "calling → %@...";
 
 
 
@@ -1657,7 +1657,7 @@
 
 "TwoStepAuth.EnterPasswordPassword" = "Password";
 "TwoStepAuth.EnterPasswordHint" = "Hint: %@";
-"TwoStepAuth.EnterPasswordHelp" = "You have enabled Two-Step Verification, so your account is protected with an additional password.";
+"TwoStepAuth.EnterPasswordHelp" = "You have Two-Step Verification enabled, so your account is protected with an additional password.";
 "TwoStepAuth.EnterPasswordForgot" = "Forgot password?";
 
 "TwoStep.AuthEmailSkip" = "Skip";
