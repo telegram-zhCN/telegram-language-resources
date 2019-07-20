@@ -234,7 +234,7 @@
     <string name="GroupUserLeftError">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
     <string name="GroupUserCantAdmin">Sorry, too many administrators in this group.</string>
     <string name="PublicChannelsTooMuch">Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first.</string>
-    <string name="LocatedChannelsTooMuch">Sorry, the target user has too many location-based groups already. Please ask them to delete one of their existing ones first.</string>
+    <string name="LocatedChannelsTooMuch">Sorry, the target user owns too many location-based groups. Please ask them to delete or transfer an existing one first.</string>
     <string name="YourLocatedChannelsTooMuch">Sorry, you have too many location-based groups already. Please delete one of your existing ones first.</string>
     <string name="GroupUserCantBot">Sorry, too many bots in this group.</string>
     <string name="ActionPinnedText">un1 pinned \"%1$s\"</string>
