@@ -92,6 +92,7 @@
   <string name="login_Country">国家</string>
   <string name="login_SmsHint">我们会向您的手机号码发送一条验证码短信。</string>
   <string name="login_YourName">您的姓名</string>
+  
   <string name="login_FirstName">名字</string>
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
@@ -1260,7 +1261,6 @@
   <string name="RestrictedByXOnDate">被 %1$s 于 %2$s 限制</string>
   <string name="EditGroup">编辑群组</string>
   
-  <string name="GroupType">群组类型</string>
   <string name="WhoCanAddMembers">邀请新成员权限</string>
   <string name="RecentActionsGroupHint">在过去的 48 小时内群组发生的管理操作。</string>
   <string name="RecentActionsChannelHint">在过去的 48 小时内频道发生的管理操作。</string>
@@ -1268,7 +1268,7 @@
   <string name="Private">私人</string>
   
   <string name="OnlyAdmins">仅管理员</string>
-  <string name="ChannelType">频道类型</string>
+  
   <string name="EditAdmin">编辑管理员</string>
   <string name="AdminRights">管理员权限</string>
   <string name="UserRestrictions">用户限制</string>
@@ -1301,6 +1301,7 @@
   <string name="BannedWillBeShownHere">被封禁的成员都会在这里显示</string>
   <string name="RestrictedWillBeShownHere">被限制的成员都会在这里显示</string>
   <string name="UnbanMember">解除封禁</string>
+  
   <string name="BlockFor">屏蔽时长</string>
   <string name="RestrictFor">限制时长</string>
   <string name="RestrictUntil">限制至</string>
@@ -2072,6 +2073,7 @@
   <string name="ThemeCreateConfirm">创建</string>
   <string name="ThemeCreateTitle">新建主题</string>
   <string name="ThemeName">姓名</string>
+  
   <string name="ThemeEdit">编辑</string>
   <string name="ThemeRemove">删除</string>
   <string name="ThemeRemoveConfirm">删除主题</string>
@@ -2115,6 +2117,7 @@
   <string name="ColorAlphaPercentage">不透明%</string>
 
   <string name="ThemeEditName">编辑姓名</string>
+  
   <string name="ThemeColorFormat">颜色格式</string>
 
   <string name="ThemeCalcTitle">移除透明度</string>
@@ -2601,6 +2604,8 @@
   
   
 
+  
+
   <string name="ChatDisabledGifs">仅管理员能在此群组中发送GIF</string>
   <string name="ChatDisabledBots">仅管理员能在此群组中使用inline机器人</string>
   <string name="ChatDisabledStickers">只有管理员能在这个群组中发送贴纸</string>
@@ -2618,6 +2623,39 @@
   <string name="UpgradeChatPrompt">要执行此操作，此聊天将被转换为超级群组。\n \n **注意**：新成员将无法查看转换前发送的消息。</string>
   <string name="AppUpdateReady">Telegram X 已经准备好了更新</string>
   <string name="AppUpdateRestart">重启</string>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
 
   
   
@@ -2646,10 +2684,12 @@
   <string name="ChannelMessagePhoto">%1$s 发布了一张图片</string>
   <string name="ChannelMessageRoundVideo">%1$s 发布了一条视频留言</string>
   <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
+  <string name="ChannelType">频道类型</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="ConvertGroup">升级为超级群组</string>
   <string name="GroupConvertHint">**成员数已达到 %1$s 人上限。**\n升级到 **超级群组** 来增加成员上限并获得更多功能。\n在超级群组中：\n\n• 超级群组可以提升至高达 **%2$s** 人的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>
+  <string name="GroupType">群组类型</string>
   <string name="Importance">优先级</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>

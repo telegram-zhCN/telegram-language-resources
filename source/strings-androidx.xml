@@ -92,6 +92,7 @@
   <string name="login_Country">Country</string>
   <string name="login_SmsHint">We will send an SMS with a confirmation code to your phone number.</string>
   <string name="login_YourName">Your name</string>
+  
   <string name="login_FirstName">First name</string>
   <string name="LastName">Last name</string>
   <string name="login_LastName">Last name (optional)</string>
@@ -1260,7 +1261,6 @@
   <string name="RestrictedByXOnDate">Restricted by %1$s %2$s</string>
   <string name="EditGroup">Edit Group</string>
   <string name="GroupInfo">Group Info</string>
-  <string name="GroupType">Group Type</string>
   <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="RecentActionsGroupHint">Service actions in the group in the last 48 hours.</string>
   <string name="RecentActionsChannelHint">Service actions in the channel in the last 48 hours.</string>
@@ -1268,7 +1268,7 @@
   <string name="Private">Private</string>
   <string name="AllMembers">All members</string>
   <string name="OnlyAdmins">Only admins</string>
-  <string name="ChannelType">Channel Type</string>
+  
   <string name="EditAdmin">Edit Admin</string>
   <string name="AdminRights">Admin Rights</string>
   <string name="UserRestrictions">User Restrictions</string>
@@ -1301,6 +1301,7 @@
   <string name="BannedWillBeShownHere">Banned members will be shown here</string>
   <string name="RestrictedWillBeShownHere">Restricted members will be shown here</string>
   <string name="UnbanMember">Unban user</string>
+  
   <string name="BlockFor">Block for</string>
   <string name="RestrictFor">Restrict for</string>
   <string name="RestrictUntil">Restrict until</string>
@@ -2072,6 +2073,7 @@
   <string name="ThemeCreateConfirm">Create</string>
   <string name="ThemeCreateTitle">New Theme</string>
   <string name="ThemeName">Name</string>
+  
   <string name="ThemeEdit">Edit</string>
   <string name="ThemeRemove">Delete</string>
   <string name="ThemeRemoveConfirm">Delete Theme</string>
@@ -2115,6 +2117,7 @@
   <string name="ColorAlphaPercentage">A%</string>
 
   <string name="ThemeEditName">Edit Name</string>
+  
   <string name="ThemeColorFormat">Color Format</string>
 
   <string name="ThemeCalcTitle">Remove Transparency</string>
@@ -2601,6 +2604,8 @@
   <string name="xPermissions_one">%1$s of %2$s</string>
   <string name="xPermissions_other">%1$s of %2$s</string>
 
+  
+
   <string name="ChatDisabledGifs">Only admins can send GIFs in this group</string>
   <string name="ChatDisabledBots">Only admins can use inline bots in this group</string>
   <string name="ChatDisabledStickers">Only admins can send stickers in this group</string>
@@ -2618,6 +2623,39 @@
   <string name="UpgradeChatPrompt">To perform this action, this chat will be converted to supergroup.\n\n**Note**: new members will not see messages sent before the conversion.</string>
   <string name="AppUpdateReady">Telegram X is ready to be updated.</string>
   <string name="AppUpdateRestart">Restart</string>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
 
   
   
@@ -2689,6 +2727,7 @@
   <string name="ChannelMessagePhoto">%1$s posted a photo</string>
   <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
   <string name="ChannelMessageVideo">%1$s posted a video</string>
+  <string name="ChannelType">Channel Type</string>
   <string name="ChatContentGroupAddMembers_zero">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_two">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_few">Added %1$s members to the group</string>
@@ -2749,6 +2788,7 @@
   <string name="FromXChats_few">from %1$s chats</string>
   <string name="FromXChats_many">from %1$s chats</string>
   <string name="GroupConvertHint">**Members limit reached.**\nTo go over the **%1$s** members limit, you can convert your group to a **supergroup**. In supergroups:\n\n• The user limit is **%2$s** members\n• New members may see the entire chat history\n• Admins can delete messages for everyone\n• Notifications are muted by default</string>
+  <string name="GroupType">Group Type</string>
   <string name="Importance">Importance</string>
   <string name="InAppNotifications">In-App Notifications</string>
   <string name="InviteTextCommonMany_zero">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
