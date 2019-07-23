@@ -336,7 +336,7 @@
     <string name="ChannelAdmin">Admin</string>
     <string name="ChannelMute">MUTE</string>
     <string name="ChannelUnmute">UNMUTE</string>
-    <string name="ChannelAddAdmin">Add Administrator</string>
+    <string name="ChannelAddAdmin">Add Admin</string>
     <string name="ChannelBlockUser">Remove User</string>
     <string name="Unban">Unban</string>
     <string name="UnbanText">Tap and hold on user to unban.</string>

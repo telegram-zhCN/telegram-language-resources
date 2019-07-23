@@ -1617,7 +1617,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_no_mic_permission" = "Telegram needs access to your microphone so that you can make calls and record voice messages.";
 
-"lng_player_message_today" = "Today at {time}";
+"lng_player_message_today" = "today at {time}";
 "lng_player_message_yesterday" = "yesterday at {time}";
 "lng_player_message_date" = "{date} at {time}";
 /* "lng_player_cant_stream" = "This file can't be played before it is fully downloaded.\n\nWould you like to download it?"; */
