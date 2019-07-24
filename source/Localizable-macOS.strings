@@ -1427,7 +1427,7 @@
 "Channel.Admins.PromotedBy" = "promoted by %@";
 "Channel.Admins.AddAdminError" = "Sorry, you're not allowed to promote this user to become an admin.";
 
-"Channel.Admins.Promote.BannedAdminError" = "Sorry, you can't add this user as an admin because they are in the blacklist and you can't unban them.";
+"Channel.Admins.Promote.BannedAdminError" = "Sorry, you can't add this user as an admin because they are in the Removed Users list and you can't unban them.";
 "Channel.Admins.Promote.UnmemberAdminError" = "Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to invite them.";
 "Channel.BanForever" = "Forever";
 

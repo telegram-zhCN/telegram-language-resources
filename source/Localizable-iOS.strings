@@ -2702,7 +2702,7 @@ Unused sets are archived when you add more.";
 
 "Channel.Members.AddAdminErrorNotAMember" = "Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to add them.";
 
-"Channel.Members.AddAdminErrorBlacklisted" = "Sorry, you can't add this user as an admin because they are in the blacklist and you can't unban them.";
+"Channel.Members.AddAdminErrorBlacklisted" = "Sorry, you can't add this user as an admin because they are in the Removed Users list and you can't unban them.";
 
 "Channel.Members.AddBannedErrorAdmin" = "Sorry, you can't ban this user because they are an admin in this group and you are not allowed to demote them.";
 
@@ -3881,7 +3881,7 @@ Unused sets are archived when you add more.";
 "EmptyGroupInfo.Line4" = "Admins with different rights";
 
 "WallpaperPreview.Title" = "Background Preview";
-"WallpaperPreview.PreviewTopText" = "Press Set to apply the background";
+"WallpaperPreview.PreviewTopText" = "Tap Set to apply the background";
 "WallpaperPreview.PreviewBottomText" = "Enjoy the view";
 "WallpaperPreview.SwipeTopText" = "Swipe left or right to preview more backgrounds";
 "WallpaperPreview.SwipeBottomText" = "Tap 'Motion' and try tilting your device";

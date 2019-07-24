@@ -2354,7 +2354,7 @@
     <string name="YouBlockedUser">Sorry, you can\'t add this user or bot to groups because you\'ve blocked them. Please unblock to proceed.</string>
     <string name="JoinGroup">JOIN GROUP</string>
     <string name="AddAdminErrorNotAMember">Sorry, you can\'t add this user as an admin because they are not a member of this group and you are not allowed to add them.</string>
-    <string name="AddAdminErrorBlacklisted">Sorry, you can\'t add this user as an admin because they are in the blacklist and you can\'t unban them.</string>
+    <string name="AddAdminErrorBlacklisted">Sorry, you can\'t add this user as an admin because they are in the Removed Users list and you can\'t unban them.</string>
     <string name="AddBannedErrorAdmin">Sorry, you can\'t ban this user because they are an admin in this group and you are not allowed to demote them.</string>
     <string name="ErrorSendRestrictedStickers">Sorry, the admins of this group have restricted you from sending stickers.</string>
     <string name="ErrorSendRestrictedMedia">Sorry, the admins of this group have restricted you from sending media.</string>
