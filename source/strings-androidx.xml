@@ -2380,7 +2380,7 @@
   <string name="format_pinned">Pinned: %1$s</string>
   <string name="format_notificationTitlePinned">%1$s (pinned message)</string>
 
-  <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
+  <string name="error_USER_NOT_MUTUAL_CONTACT">Sorry, if a person is no longer part of a group, you need to be in their Telegram contacts in order to add them back.\n\nNote that they can still join via the group\'s invite link as long as they are not in the Removed Users list.</string>
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">Chat admins have restricted posting polls</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>

@@ -949,7 +949,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_crop" = "Select an area for the profile photo";
 
 "lng_failed_add_participant" = "Could not add user. Please try again later.";
-"lng_failed_add_not_mutual" = "Sorry, if a person left a group, you need to be in their contact list to bring them back.";
+"lng_failed_add_not_mutual" = "Sorry, if a person is no longer part of a group, you need to be in their Telegram contacts in order to add them back.\n\nNote that they can still join via the group's invite link as long as they are not in the Removed Users list.";
 "lng_failed_add_not_mutual_channel" = "Sorry, if a person left a channel, you need to be in their contact list to bring them back.";
 
 "lng_sure_delete_contact" = "Are you sure you want to delete {contact} from your contact list?";

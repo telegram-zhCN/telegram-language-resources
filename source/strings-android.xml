@@ -231,7 +231,7 @@
     <string name="MegaLeaveAlertWithName">Are you sure you want to leave **%1$s**?</string>
     <string name="GroupUserCantAdd">Sorry, you can\'t add this user to groups.</string>
     <string name="GroupUserAddLimit">Sorry, this group is full.</string>
-    <string name="GroupUserLeftError">Sorry, this user decided to leave this group, so you cannot add them back here.</string>
+    <string name="GroupUserLeftError">Sorry, if a person is no longer part of a group, you need to be in their Telegram contacts in order to add them back.\n\nNote that they can still join via the group\'s invite link as long as they are not in the Removed Users list.</string>
     <string name="GroupUserCantAdmin">Sorry, too many administrators in this group.</string>
     <string name="PublicChannelsTooMuch">Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first.</string>
     <string name="LocatedChannelsTooMuch">Sorry, the target user owns too many location-based groups. Please ask them to delete or transfer an existing one first.</string>

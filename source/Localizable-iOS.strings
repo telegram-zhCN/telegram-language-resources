@@ -1466,7 +1466,7 @@
 "Conversation.SearchPlaceholder" = "Search this chat";
 "Conversation.SearchNoResults" = "No Results";
 
-"GroupInfo.AddUserLeftError" = "Sorry, if a person left a group, you need to be in their contact list to bring them back.";
+"GroupInfo.AddUserLeftError" = "Sorry, if a person is no longer part of a group, you need to be in their Telegram contacts in order to add them back.\n\nNote that they can still join via the group's invite link as long as they are not in the Removed Users list.";
 
 "DialogList.SearchSectionRecent" = "Recent";
 
