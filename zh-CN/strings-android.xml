@@ -976,8 +976,8 @@
     <string name="TodayAtFormatted">%1$s</string>
     <string name="YesterdayAtFormatted">昨天 %1$s</string>
     <string name="Online">在线</string>
-    <string name="LastSeen">最近上线</string>
-    <string name="LastSeenDate">上次上线</string>
+    <string name="LastSeen">最近上线于</string>
+    <string name="LastSeenDate">最近上线于</string>
     <string name="LastSeenFormatted">最近上线于 %1$s</string>
     <string name="LastSeenDateFormatted">最近上线于 %1$s</string>
     <string name="InviteFriends">邀请朋友</string>
@@ -2060,7 +2060,7 @@
     <!--privacy settings-->
     <string name="PrivacySettings">隐私和安全</string>
     <string name="PrivacyTitle">隐私</string>
-    <string name="PrivacyLastSeen">最后上线时间</string>
+    <string name="PrivacyLastSeen">在线状态</string>
     <string name="PrivacyProfilePhoto">头像</string>
     <string name="PrivacyProfilePhotoTitle">谁可以看到我的头像？</string>
     <string name="PrivacyProfilePhotoInfo">您可以精确地控制哪些人可以查看您的头像。</string>

@@ -626,7 +626,7 @@
 "GroupInfo.SharedMedia" = "分享的媒体文件";
 "GroupInfo.SharedMediaNone" = "无";
 "GroupInfo.DeleteAndExit" = "删除并退出";
-"GroupInfo.DeleteAndExitConfirmation" = "您将无法再次加入此群组";
+"GroupInfo.DeleteAndExitConfirmation" = "您将无法再次加入此群组。";
 
 
 
@@ -882,7 +882,7 @@
 "PrivacySettings.Title" = "隐私与安全";
 
 "PrivacySettings.PrivacyTitle" = "隐私";
-"PrivacySettings.LastSeen" = "最后上线时间";
+"PrivacySettings.LastSeen" = "在线状态";
 "PrivacySettings.LastSeenTitle" = "最后上线时间";
 "PrivacySettings.LastSeenEverybody" = "所有人";
 "PrivacySettings.LastSeenContacts" = "我的联系人";
@@ -900,7 +900,7 @@
 "PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
 "PrivacySettings.DeleteAccountHelp" = "此时间后，您的帐号如未上线，您的所有资料——包括消息记录、联系人都会被删除。";
 
-"PrivacyLastSeenSettings.Title" = "最后上线";
+"PrivacyLastSeenSettings.Title" = "在线状态";
 "PrivacyLastSeenSettings.CustomHelp" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 "PrivacyLastSeenSettings.AlwaysShareWith" = "总是共享给";
 "PrivacyLastSeenSettings.NeverShareWith" = "从不共享给";
@@ -1480,7 +1480,7 @@
 "Login.EmailPhoneBody" = "I'm trying to use my mobile phone number: %@\nBut Telegram says it's invalid. Please help.\nAdditional Info: %@, %@.";
 
 
-"SharedMedia.EmptyLinksText" = "所有已分享的链接都会在此显示。";
+"SharedMedia.EmptyLinksText" = "对话中的所有链接都会在此显示。";
 
 
 
@@ -2000,7 +2000,7 @@
 
 "StickerPack.ErrorNotFound" = "抱歉，此贴纸包不存在。";
 
-"Camera.TapAndHoldForVideo" = "长按拍摄";
+"Camera.TapAndHoldForVideo" = "长按录制视频";
 
 "DialogList.RecentTitlePeople" = "用户";
 
@@ -2157,7 +2157,7 @@ Unused sets are archived when you add more.";
 
 "CloudStorage.Title" = "云存储";
 
-"Widget.AuthRequired" = "登陆到 Telegram";
+"Widget.AuthRequired" = "登录到 Telegram";
 "Widget.NoUsers" = "发送第一条消息后就能在这里看到你的朋友";
 
 "ShareMenu.CopyShareLinkGame" = "拷贝游戏链接";
@@ -2419,7 +2419,7 @@ Unused sets are archived when you add more.";
 "Privacy.Calls" = "语音通话";
 
 "Privacy.Calls.WhoCanCallMe" = "谁可以呼叫我";
-"Privacy.Calls.CustomHelp" = "你可以限制其他人和你语音通话的权限";
+"Privacy.Calls.CustomHelp" = "你可以控制其他人和你语音通话的权限。";
 "Privacy.Calls.AlwaysAllow" = "总是允许";
 "Privacy.Calls.NeverAllow" = "从不允许";
 "Privacy.Calls.CustomShareHelp" = "无论上面如何设置，这些用户都能或者不能呼叫您。";
@@ -3683,7 +3683,7 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.SetupResendEmailCodeAlert" = "验证码已发送。 请检查您的电子邮箱（不要忘记垃圾邮件文件夹）。";
 "TwoStepAuth.EnterEmailCode" = "输入验证码";
 
-"TwoStepAuth.EnabledSuccess" = "Two-Step verification\nis enabled.";
+"TwoStepAuth.EnabledSuccess" = "两步验证\n已启用";
 "TwoStepAuth.DisableSuccess" = "Two-Step verification\nis disabled.";
 "TwoStepAuth.PasswordChangeSuccess" = "Your password\nhas been changed.";
 "TwoStepAuth.EmailAddSuccess" = "您已成功添加\n恢复邮箱";
@@ -3733,7 +3733,7 @@ Unused sets are archived when you add more.";
 "Permissions.NotificationsAllow.v0" = "开启推送通知";
 "Permissions.NotificationsAllowInSettings.v0" = "在设置中打开";
 
-"Permissions.CellularDataTitle.v0" = "开启推送通知";
+"Permissions.CellularDataTitle.v0" = "开启移动数据流量";
 "Permissions.CellularDataText.v0" = "不要担心，Telegram 会努力保持使用尽可能少的网络流量。您可以在 设置 >  数据和存储 处细化控制。";
 "Permissions.CellularDataAllowInSettings.v0" = "在设置中打开";
 
@@ -3801,7 +3801,7 @@ Unused sets are archived when you add more.";
 "CreatePoll.AddMoreOptions_any" = "您还可以再添加 %@ 个选项。";
 "CreatePoll.AllOptionsAdded" = "您添加的选项已达最大数量。";
 
-"CreatePoll.CancelConfirmation" = "您确定要放弃发起新投票吗？";
+"CreatePoll.CancelConfirmation" = "您确定要放弃发起投票吗？";
 
 
 
@@ -3895,7 +3895,7 @@ Unused sets are archived when you add more.";
 "WallpaperPreview.Blurred" = "模糊";
 "WallpaperPreview.Pattern" = "图案";
 
-"Wallpaper.Search" = "搜索背景";
+"Wallpaper.Search" = "搜索背景图";
 "Wallpaper.SearchShort" = "搜索";
 "Wallpaper.SetColor" = "设置纯色背景";
 "Wallpaper.SetCustomBackground" = "从图库中选择";
@@ -4555,7 +4555,7 @@ Any member of this group will be able to see messages in the channel.";
 "CHAT_PHOTO_EDITED" = "%1$@ 编辑了群组 %2$@ 的图片";
 "CHAT_RETURNED" = "%1$@ 回到了群组 %2$@";
 "CHAT_RETURNED_SEPARATED" = "%2$@|%1$@ 回到了群组";
-"CHAT_TITLE_EDITED" = "%1$@ 编辑了群组 %2$@ 的名字";
+"CHAT_TITLE_EDITED" = "%1$@ 编辑了群组 %2$@ 的名称";
 "CONTACT_JOINED" = "%1$@ 加入了 Telegram！";
 "CONTACT_JOINED_SEPARATED" = "%1$@|加入了 Telegram！";
 "Channel.AdminLog.BanSendGifs" = "发送 GIF";

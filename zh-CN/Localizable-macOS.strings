@@ -436,7 +436,7 @@
 
 
 "Time.at" = "于";
-"Time.last_seen" = "最后上线";
+"Time.last_seen" = "最近上线";
 "Time.today" = "今天";
 "Time.yesterday" = "昨天";
 
@@ -521,7 +521,7 @@
 "Telegram.PrivacyAndSecurityViewController" = "隐私和安全";
 "PrivacySettings.PrivacyHeader" = "隐私";
 "PrivacySettings.BlockedUsers" = "已屏蔽的用户";
-"PrivacySettings.LastSeen" = "最后上线时间";
+"PrivacySettings.LastSeen" = "在线状态";
 "PrivacySettings.Groups" = "群组";
 "PrivacySettings.PhoneNumber" = "手机号码";
 "PrivacySettings.VoiceCalls" = "语音通话";
@@ -658,7 +658,7 @@
 
 
 
-
+"LastSeen.HoursAgo_other" = "%d 小时前在线";
 
 
 "Timer.Weeks_countable" = "%d";
@@ -1033,7 +1033,7 @@
 "Sidebar.Peer.Restricted" = "该对话无法使用侧边栏";
 
 
-"PrivacySettingsController.Header" = "最后上线";
+"PrivacySettingsController.Header" = "在线状态";
 "PrivacySettingsController.Everbody" = "所有人";
 "PrivacySettingsController.MyContacts" = "我的联系人";
 "PrivacySettingsController.Nobody" = "不允许任何人";
@@ -1057,7 +1057,7 @@
 "PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "从不共享给";
 
 "PrivacySettingsController.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接";
-
+"PrivacySettingsController.Forwards.CustomHelp" = "你可以精确的限制谁可以转发你的消息。";
 "PrivacySettingsController.Forwards.AlwaysAllow.Title" = "总是允许";
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "从不允许";
 
@@ -1271,15 +1271,15 @@
 "Channel.Admin.AdminAccess" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "Channel.Admin.AdminRestricted" = "该管理员不能添加新管理员。";
 
-
-
+"Channel.Admin.TransferOwnership.Group" = "转移群组所有权";
+"Channel.Admin.TransferOwnership.Channel" = "转移频道所有权";
 
 
 "Channel.Admin.TransferOwnership.Password.Title" = "两步验证";
 
+"Channel.Admin.TransferOwnership.Confirm.Group.Title" = "转让群组所有权";
 
-
-
+"Channel.Admin.TransferOwnership.Confirm.Channel.Title" = "转移频道所有权";
 
 
 
@@ -2924,13 +2924,13 @@
 "Telegram.ChannelStatisticsController" = "频道统计";
 
 
+"AccountSettings.AddAccount" = "添加账号";
+"AccountSettings.DeleteAccount" = "删除账号";
 
 
+"PasscodeController.Install.Title" = "锁定码";
 
-
-
-
-
+"PasscodeController.Disable.Title" = "关闭锁定码";
 
 "PasscodeController.EnterPasscode.Placeholder" = "请输入一个锁定码";
 "PasscodeController.ReEnterPasscode.Placeholder" = "请再输入一次";
@@ -2938,12 +2938,12 @@
 "PasscodeController.Current.Placeholder" = "请输入当前锁定码";
 
 
+"PasscodeController.Header.Current" = "当前锁定码";
 
 
 
 
-
-
+"PasscodeController.Error.Different" = "密码不一致";
 "PasscodeController.Error.Current" = "锁定码无效";
 
 
@@ -2970,10 +2970,10 @@
 "NotificationSettings.ShowNotificationsFrom.Off" = "如果您想接收所有帐户的通知，请启用此选项。";
 
 
-
+"NotificationSettings.SnoofHeader" = "当应用处于专注模式时";
 "NotificationSettings.Snoof" = "显示通知";
 
-
+"NotificationSettings.Snoof.Off" = "如果你想随时接收通知，请开启此选项。";
 
 
 "Login.Register.Desc" = "请输入您的姓名并添加一张头像。";
@@ -3001,7 +3001,7 @@
 
 
 "NotificationSettings.ContactJoined" = "新建联系人";
-
+"NotificationSettings.ContactJoinedInfo" = "当你的联系人注册 Telegram 时收到通知。";
 
 
 
@@ -3020,7 +3020,7 @@
 "StatusBar.Hide" = "隐藏";
 "StatusBar.Quit" = "退出";
 
-
+"Chat.Service.SearchAllMessages" = "在 %@ 发送的消息中搜索";
 
 
 "ChatList.ArchivedChats" = "已归档对话";
@@ -3041,11 +3041,11 @@
 
 
 
+"Archive.Tooltip.JustArchive.Title" = "对话已归档。";
 
 
-
-
-
+"ChatList.RevealAction.Collapse" = "收起";
+"ChatList.RevealAction.Expand" = "展开";
 
 
 
@@ -3097,16 +3097,16 @@
 
 "Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "您想让 %@ 成为 %@ 的讨论版吗？";
 
-
+"Discussion.Set.Modal.Text.ChannelPrivateGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群组？\n\n群组成员将可以看到频道上的所有消息。";
 
 "DiscussionController.Channel.Set.Header" = "一个指向 **%@** 的链接正在底部面板中向所有订阅者显示。";
-
+"DiscussionController.Channel.Set.Description" = "你在这个频道所发送的任何信息都会同时被推送到这个群组中。";
 
 "DiscussionController.Channel.Set.UnlinkGroup" = "取消链接群组";
 
 
 "DiscussionController.Group.Set.Header" = "**%@** 正在将此群组作为其讨论板。";
-
+"DiscussionController.Group.Set.Description" = "你在这个频道所发送的任何消息都会同时被推送到这个群组中。";
 
 "DiscussionController.Group.Set.UnlinkChannel" = "取消链接频道";
 
@@ -3123,7 +3123,7 @@
 "DiscussionController.IconText" = "讨论";
 
 
-
+"Channel.EventLog.MessageChangedLinkedGroup" = "%@ 将 %@ 设定为此频道的讨论群";
 "Channel.EventLog.MessageChangedLinkedChannel" = "%@ 将此群组与 %@ 链接";
 
 "Channel.EventLog.MessageChangedUnlinkedChannel" = "%@ 将此群组与 %@ 取消链接";
@@ -3141,15 +3141,15 @@
 
 
 
-
-
+"Channel.AddBotErrorHaveRights" = "机器人只能被添加为管理员。";
+"Channel.AddBotAsAdmin" = "添加为管理员";
 "Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
 
 
+"Search.Confirm.ClearHistory" = "确定要清空你的搜索记录吗？";
 
 
-
-
+"InputPasswordController.Placeholder" = "密码";
 "InputPasswordController.Error.WrongPassword" = "密码错误，请重试。";
 
 
@@ -3157,20 +3157,20 @@
 "NewContact.Title" = "新建联系人";
 
 "NewContact.Phone.Hidden" = "未知";
-
-
-
-
+"NewContact.Phone" = "手机号码";
+"NewContact.Phone.Hidden.Text" = "一旦 %@ 将您添加为联系人，电话号码将对您可见。";
+"NewContact.Exception.ShareMyPhoneNumber" = "分享我的手机号码";
+"NewContact.Exception.ShareMyPhoneNumber.Desc" = "您可以让您的电话号码对 %@ 可见。";
 
 
 "Channel.TransferOwner.Error.Title" = "安全检查";
 
+"Channel.TransferOwner.Error.Enable2FA" = "启用两步验证";
 
 
 
 
-
-
+"BlockContact.Options.DeleteChat" = "删除此对话";
 
 
 "Group.TransferOwner.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
