@@ -4466,6 +4466,46 @@ Any member of this group will be able to see messages in the channel.";
 "Invite.ChannelsTooMuch" = "抱歉，目标用户已加入太多的群组和频道。请先让他们退出一些。";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "AUTH_REGION" = "在新设备上登录 %1$@， 位置： %2$@";
