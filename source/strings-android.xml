@@ -23,7 +23,7 @@
     <string name="SyncContactsAdded">Contacts from this device were added to your account.</string>
     <!--code enter view-->
     <string name="YourCode">Phone verification</string>
-    <string name="SentSmsCode">An SMS activation code has been sent to **%1$s**.</string>
+    <string name="SentSmsCode">We’ve sent an SMS with an activation code to your phone **%1$s**.</string>
     <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
     <string name="SentAppCodeTitle">Check your Telegram messages</string>
     <string name="SentSmsCodeTitle">Enter code</string>
@@ -508,7 +508,7 @@
     <string name="SlowmodeSeconds">%1$ds</string>
     <string name="SlowmodeMinutes">%1$dm</string>
     <string name="SlowmodeHours">%1$dh</string>
-    <string name="SlowmodeInfoOff">Choose how often members can send a message.</string>
+    <string name="SlowmodeInfoOff">Choose how long each member must wait before sending their next message.</string>
     <string name="SlowmodeInfoSelected">Members will be able to send only one message every %1$s.</string>
     <string name="SlowmodeSendError">Slow Mode is enabled. You can\'t send more than one message at once.</string>
     <string name="SlowmodeSelectSendError">Slow Mode is enabled. You can\'t select more items.</string>

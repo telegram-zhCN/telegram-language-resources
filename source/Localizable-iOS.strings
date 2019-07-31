@@ -4475,7 +4475,7 @@ Any member of this group will be able to see messages in the channel.";
 "StickerPacksSettings.AnimatedStickers" = "Loop Animated Stickers";
 "StickerPacksSettings.AnimatedStickersInfo" = "Animated stickers will play in chat continuously.";
 "GroupInfo.Permissions.SlowmodeHeader" = "SLOW MODE";
-"GroupInfo.Permissions.SlowmodeInfo" = "Choose how often members can send a message.";
+"GroupInfo.Permissions.SlowmodeInfo" = "Choose how long each member must wait before sending their next message.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ disabled the slow mode";
 "Channel.AdminLog.SetSlowmode" = "%1$@ set the slow mode timer to %2$@";
 
