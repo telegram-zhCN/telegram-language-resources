@@ -204,10 +204,11 @@
 "PreviewSender.CaptionPlaceholder" = "添加说明...";
 "PreviewSender.CommentPlaceholder" = "发表评论...";
 "PreviewSender.FileTooltip" = "无损发送";
+"PreviewSender.MediaTooltip" = "快速发送";
 "PreviewSender.CollageTooltip" = "将媒体合并至一条消息";
 "PreviewSender.ArchiveTooltip" = "将所有媒体压缩到一个文件";
 
-"PreviewSender.MediaTooltip" = "快速发送";
+
 
 "Modal.Send" = "发送";
 "Modal.Share" = "分享";
@@ -475,6 +476,7 @@
 
 
 "Presence.bot" = "机器人";
+
 "CreateGroup.NameHolder" = "群组名称";
 "Telegram.ChannelIntroViewController" = "频道";
 "Channel.IntroDescriptionHeader" = "什么是频道？";
@@ -617,6 +619,7 @@
 "Peer.Media.SharedVoiceEmptyList" = "此对话中共享的所有语音和视频留言均会在这里列出。";
 "SecretTimer.Off" = "关闭";
 
+
 "Timer.Seconds_countable" = "%d";
 
 
@@ -701,6 +704,17 @@
 "Stickers.Recent" = "最近";
 "Stickers.Favorite" = "收藏夹";
 "Stickers.SearchAdd" = "设置";
+
+
+
+
+
+
+
+
+
+
+
 "Account.Confirm.AskQuestion" = "请注意：Telegram 的技术支持由志愿者提供，反馈时请使用英文，我们会尽快回复您，但是您可能需要等待一段时间。\n\n请前往 Telegram FAQ 看看：那里有各种常见问题及故障排除提示。";
 "Account.Confirm.GoToFaq" = "打开 FAQ";
 
@@ -762,11 +776,13 @@
 "Admins.ChannelDescription" = "您可以添加管理员来帮助您管理您的频道。";
 "Admins.SelectNewAdminTitle" = "联系人";
 "Admins.AddAdmin" = "添加管理员";
-"Admins.Creator" = "创建者";
 "Admins.Admin" = "管理员";
 "Admins.WhoCanInvite.Text" = "邀请新成员权限";
 "Admins.WhoCanInvite.Admins" = "仅管理员";
 "Admins.WhoCanInvite.Everyone" = "所有成员";
+
+
+
 
 "Telegram.ChannelVisibilityController" = "群组";
 
@@ -1312,6 +1328,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 "EventLog.Service.PreviousTitle" = "旧名称";
 "EventLog.Service.PreviousLink" = "旧链接";
 "EventLog.Service.PreviousDesc" = "旧简介";
@@ -1483,6 +1508,9 @@
 "ProxySettings.ExportLink" = "从剪贴板导出链接";
 "ProxySettings.CopyLink" = "分享代理链接";
 
+
+
+
 "ProxySettings.ProxyNotFound" = "在剪贴板内未找到代理服务器设置。";
 "ProxySettings.ExportDescription" = "如果你的剪贴板内含有 socks5-link (**t.me/socks?server=127.0.0.1&port=80**) ，它将立即显示";
 "Confirm.AddBotToGroup" = "将机器人添加到 \"%@\" ？";
@@ -1493,6 +1521,9 @@
 "GeneralSettings.DarkMode" = "深色模式";
 "GeneralSettings.DarkMode.Description" = "一套适用于夜间以及深色桌面的配色方案";
 "GeneralSettings.Font.Description" = "信息中使用大字体";
+
+
+
 
 
 "MessageContext.CopyMessageLink1" = "拷贝消息链接";
@@ -1583,6 +1614,8 @@
 "PreHistorySettings.Description.Group.Hidden" = "新成员只能查看他们加入前的 100 条消息。";
 
 "Chat.AdminBadge" = "管理员";
+
+
 "Chat.ChannelBadge" = "频道";
 
 "ChangePhoneNumber.Intro.Description" = "您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
@@ -2571,6 +2604,7 @@
 
 "Chat.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Chat.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
+
 "Generic.ErrorMoreInfo" = "更多详情";
 
 
@@ -2973,7 +3007,7 @@
 "NotificationSettings.SnoofHeader" = "当应用处于专注模式时";
 "NotificationSettings.Snoof" = "显示通知";
 
-"NotificationSettings.Snoof.Off" = "如果你想随时接收通知，请开启此选项。";
+"NotificationSettings.Snoof.Off" = "如果您想随时接收通知，请开启此选项。";
 
 
 "Login.Register.Desc" = "请输入您的姓名并添加一张头像。";
@@ -2988,6 +3022,7 @@
 
 
 "ChatList.Popover.ReadAll" = "全部设为已读";
+
 
 
 "Chat.Tooltip.HiddenForwardName" = "此用户的隐私设置拒绝您查看转发来源";
@@ -3184,8 +3219,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Chat.Send.WithoutSound" = "静音发送";
+
+
+
+
+
 /* new from translations.telegram.org */
 
+"Admins.Creator" = "创建者";
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
 "ChannelBlacklist.AddMember" = "邀请新成员";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";

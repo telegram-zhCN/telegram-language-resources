@@ -2408,7 +2408,7 @@
   <string name="NotificationsSetting">通知与提醒</string>
   <string name="NotificationsSettingOn">默认情况下将启用通知。 您可以从对话列表中将特定对话设为静音。</string>
   <string name="NotificationsSettingBlocked">通知被默认屏蔽.修改通知样式来解除屏蔽</string>
-  <string name="NotificationsSettingOff">通知已被默认禁用.你可以从会话列表中取消特定会话的免打扰.</string>
+  <string name="NotificationsSettingOff">通知已被默认禁用。你可以从会话列表中取消特定会话的免打扰。</string>
 
   <string name="ShowSecret">在锁定屏幕上显示加密对话</string>
   <string name="ShowSecretOn">关闭以在设备锁定时隐藏加密会话通知.若设备没有静音,你仍将收到通知声.</string>

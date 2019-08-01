@@ -204,10 +204,11 @@
 "PreviewSender.CaptionPlaceholder" = "Add a caption...";
 "PreviewSender.CommentPlaceholder" = "Add a comment...";
 "PreviewSender.FileTooltip" = "Send without compression";
+"PreviewSender.MediaTooltip" = "Send in a quick way";
 "PreviewSender.CollageTooltip" = "Group all media into one message";
 "PreviewSender.ArchiveTooltip" = "Archive all media in one zip file";
 
-"PreviewSender.MediaTooltip" = "Send in a quick way";
+
 
 "Modal.Send" = "Send";
 "Modal.Share" = "Share";
@@ -475,6 +476,7 @@
 
 
 "Presence.bot" = "bot";
+"Presence.Support" = "support";
 "CreateGroup.NameHolder" = "Group Name";
 "Telegram.ChannelIntroViewController" = "Channel";
 "Channel.IntroDescriptionHeader" = "What is a Channel?";
@@ -616,6 +618,7 @@
 "Peer.Media.SharedMusicEmptyList" = "All music shared in this chat will appear here.";
 "Peer.Media.SharedVoiceEmptyList" = "All voice and video messages shared in this chat will appear here.";
 "SecretTimer.Off" = "Off";
+"Channel.SlowMode.Off" = "Off";
 
 "Timer.Seconds_countable" = "%d";
 "Timer.Seconds_zero" = "%d seconds";
@@ -701,6 +704,17 @@
 "Stickers.Recent" = "Recent";
 "Stickers.Favorite" = "Favorite";
 "Stickers.SearchAdd" = "Add";
+"Stickers.Context.Archive" = "Archive";
+
+
+"Stickers.Count_countable" = "%d";
+"Stickers.Count_zero" = "%d stickers";
+"Stickers.Count_one" = "%d sticker";
+"Stickers.Count_two" = "%d stickers";
+"Stickers.Count_few" = "%d stickers";
+"Stickers.Count_many" = "%d stickers";
+"Stickers.Count_other" = "%d stickers";
+
 "Account.Confirm.AskQuestion" = "Please note that Telegram Support is run by volunteers. We try to respond as quickly as possible, but it may take a while.\n\nPlease take a look at the Telegram FAQ: it has important troubleshooting tips and answers to most questions.";
 "Account.Confirm.GoToFaq" = "Open FAQ";
 
@@ -762,11 +776,13 @@
 "Admins.ChannelDescription" = "You can add admins to help you manage your channel";
 "Admins.SelectNewAdminTitle" = "Contacts";
 "Admins.AddAdmin" = "Add Admin";
-"Admins.Creator" = "Creator";
 "Admins.Admin" = "Admin";
 "Admins.WhoCanInvite.Text" = "Who can add members";
 "Admins.WhoCanInvite.Admins" = "Only Admins";
 "Admins.WhoCanInvite.Everyone" = "All Members";
+
+"Admins.Owner" = "Owner";
+
 
 "Telegram.ChannelVisibilityController" = "Group";
 
@@ -1308,6 +1324,15 @@
 "Channel.EventLog.Service.AboutRemoved" = "%@ removed this channel's description:";
 
 
+"Channel.EventLog.MessageRankName" = "changed custom title for %@: %@";
+
+"Channel.EventLog.Service.DisabledSlowMode" = "%@ disabled slowmode";
+
+"Channel.EventLog.Service.SetSlowMode" = "%@ set slowmode to %@";
+
+"Channel.EventLog.Service.PlusTitle" = "+ Title: %@";
+"Channel.EventLog.Service.MinusTitle" = "- Title";
+
 "Channel.EventLog.MessageTransferedName" = "transferred ownership to %@ %@";
 "Channel.EventLog.MessageTransfered" = "transferred ownership";
 
@@ -1483,6 +1508,9 @@
 "ProxySettings.ExportLink" = "Export link from clipboard";
 "ProxySettings.CopyLink" = "Share proxy link";
 
+"ProxySettings.IncorrectSecret" = "Incorrect secret. Please try again.";
+
+
 "ProxySettings.ProxyNotFound" = "Proxy settings not found in clipboard.";
 "ProxySettings.ExportDescription" = "If your clipboard contains socks5-link (**t.me/socks?server=127.0.0.1&port=80**) it will apply immediately";
 "Confirm.AddBotToGroup" = "Add the bot to \"%@\"?";
@@ -1493,6 +1521,9 @@
 "GeneralSettings.DarkMode" = "Dark Mode";
 "GeneralSettings.DarkMode.Description" = "A color scheme for nighttime and dark desktops";
 "GeneralSettings.Font.Description" = "Use large font for messages";
+
+"GeneralSettings.OpenLatestChatOnLaunch" = "Automatically Open Latest Chat";
+"GeneralSettings.AcceptSecretChats" = "Accept Secret Chats";
 
 
 "MessageContext.CopyMessageLink1" = "Copy Message Link";
@@ -1583,6 +1614,8 @@
 "PreHistorySettings.Description.Group.Hidden" = "New members won't see more than 100 previous messages.";
 
 "Chat.AdminBadge" = "admin";
+"Chat.OwnerBadge" = "owner";
+
 "Chat.ChannelBadge" = "channel";
 
 "ChangePhoneNumber.Intro.Description" = "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important**: all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
@@ -2571,6 +2604,7 @@
 
 "Chat.SendMessageErrorFlood" = "Sorry, you can only send messages to mutual contacts at the moment.";
 "Chat.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
+"Chat.SendMessageSlowmodeError" = "Slowmode is enabled.";
 "Generic.ErrorMoreInfo" = "More Info";
 
 
@@ -2988,6 +3022,7 @@
 
 
 "ChatList.Popover.ReadAll" = "Read All";
+"ChatList.Popover.Confirm" = "Are you sure you want to read all chats?";
 
 
 "Chat.Tooltip.HiddenForwardName" = "The account was hidden by the user";
@@ -3184,8 +3219,55 @@
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "Sorry, the target user has too many location-based groups already. Please ask them to delete or transfer one of their existing ones first.";
 
 
+"Channel.BotDoesntSupportGroups" = "Sorry, this bot is telling us it doesn't want to be added to groups. You can't add this bot unless its developers change their mind.";
+"Channel.TooMuchBots" = "Sorry, there are already too many bots in this group. Please remove some of the bots you're not using first.";
+
+
+"Channel.Permissions.SlowMode.Text.Off" = "Members will be able to send only one message per this interval.";
+"Channel.Permissions.SlowMode.Text.Selected" = "Members will be able to send only one message every %@";
+
+"Channel.Permissions.SlowMode.Header" = "SLOW MODE";
+
+"Channel.SlowMode.MessageIn" = "Message in %@:%@";
+"Channel.SlowMode.ToolTip" = "Slowmode is enabled.\nYou can send your next message in %@:%@";
+
+
+"SlowMode.Multiple.Error" = "Slow mode is enabled. You can't send more than one message at a time.";
+"SlowMode.ForwardComment.Error" = "Slow mode is enabled. You can't forward a message with a comment";
+"SlowMode.TooLong.Error" = "Slow mode is enabled. This text is too long to send as one message.";
+
+
+"SlowMode.PreviewSender.FileTooltip" = "Slowmode is Enabled.\nThere is no way to send multiple files at once.";
+"SlowMode.PreviewSender.MediaTooltip" = "Slowmode is Enabled.\nThere is no way to send multiple media at once.";
+"SlowMode.PreviewSender.Comment" = "Slowmode is Enabled.\nYou can't add comment as addition message.";
+
+
+"Channel.Permissions.SlowMode.Timeout.Off" = "Off";
+"Channel.Permissions.SlowMode.Timeout.10s" = "10s";
+"Channel.Permissions.SlowMode.Timeout.30s" = "30s";
+"Channel.Permissions.SlowMode.Timeout.1m" = "1m";
+"Channel.Permissions.SlowMode.Timeout.5m" = "5m";
+"Channel.Permissions.SlowMode.Timeout.15m" = "15m";
+"Channel.Permissions.SlowMode.Timeout.1h" = "1h";
+
+
+"Channel.Admin.Role.Header" = "CUSTOM TITLE";
+"Channel.Admin.Role.Placeholder.Owner" = "owner";
+"Channel.Admin.Role.Placeholder.Admin" = "admin";
+
+"Channel.Admin.Role.Admin.Desc" = "A title that will be shown instead of 'admin'.";
+"Channel.Admin.Role.Owner.Desc" = "A title that will be shown instead of 'owner'.";
+
+
+"Chat.Send.WithoutSound" = "Send Without Sound";
+
+
+"PeerInfo.InviteError.ContactNeeded" = "Sorry, you must be in this user's Telegram contacts to add them to this group.\n\nThey can also join on their own if you send them an invite link.";
+
+
 /* new from translations.telegram.org */
 
+"Admins.Creator" = "Creator";
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";

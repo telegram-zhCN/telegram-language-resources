@@ -1485,7 +1485,7 @@
     <string name="DirectShare">Direct Share</string>
     <string name="DirectShareInfo">Show recent chats in Android share menu</string>
     <string name="Emoji">Emoji</string>
-    <string name="EmojiBigSize">Draw single big emoji</string>
+    <string name="LargeEmoji">Large Emoji</string>
     <string name="EmojiUseDefault">Use system default emoji</string>
     <string name="TelegramVersion">Telegram for Android %1$s</string>
     <string name="DebugMenu">Debug Menu</string>
@@ -2981,6 +2981,7 @@
   <string name="CreateNewThemeInfo">You can create your own theme by changing colors within the app. You can always switch back to the default Telegram theme here.</string>
   <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
   <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
+  <string name="EmojiBigSize">Draw single big emoji</string>
   <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>
   <string name="EnableProxyAlert2">You can change your proxy server later in Settings &gt; Data and Storage.</string>
   <string name="KMetersAway">km away</string>

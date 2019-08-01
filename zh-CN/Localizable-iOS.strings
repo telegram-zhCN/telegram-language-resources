@@ -4235,7 +4235,7 @@ Sorry for the inconvenience.";
 "Stickers.ClearRecent" = "清空最近使用贴纸";
 
 "Appearance.Other" = "其他";
-"Appearance.LargeEmoji" = "大号表情";
+"Appearance.LargeEmoji" = "大号 Emoji";
 
 "ChatList.ArchiveAction" = "归档";
 "ChatList.UnarchiveAction" = "取消归档";
@@ -4472,6 +4472,12 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"StickerPacksSettings.AnimatedStickers" = "循环播放动画贴纸";
+
+
+"GroupInfo.Permissions.SlowmodeInfo" = "选择每个成员在发送下一条消息之前必须等待的时间。";
+
+"Channel.AdminLog.SetSlowmode" = "%1$@ 将慢速模式定时器设置为 %2$@";
 
 
 
@@ -4490,13 +4496,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
+"Conversation.SendMessage.SendSilently" = "静音发送";
 
 
 
