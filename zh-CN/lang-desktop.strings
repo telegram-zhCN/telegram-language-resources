@@ -895,7 +895,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_thanks" = "非常感谢！ 我们会尽快核查您的举报。";
 
 "lng_channel_add_members" = "邀请新成员";
-"lng_channel_add_users" = "添加用户";
+"lng_channel_add_users" = "添加成员";
 "lng_channel_add_removed" = "封禁用户";
 "lng_channel_add_exception" = "添加例外";
 "lng_channel_admins" = "管理员";
@@ -948,7 +948,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_group_crop" = "选择合适区域作为群组标识";
 "lng_create_channel_crop" = "截取一个区域作为头像";
 
-"lng_failed_add_participant" = "无法添加用户。请稍后再试。";
+"lng_failed_add_participant" = "无法邀请这位用户。请稍后再试。";
 "lng_failed_add_not_mutual" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
 "lng_failed_add_not_mutual_channel" = "抱歉，如果一位用户主动退出了频道，您需要在他们的联系人列表中才能将其添加回来。";
 
@@ -1785,7 +1785,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_admin_edit_messages" = "编辑消息";
 "lng_admin_log_admin_delete_messages" = "删除消息";
 "lng_admin_log_admin_ban_users" = "封禁用户";
-"lng_admin_log_admin_invite_users" = "添加用户";
+"lng_admin_log_admin_invite_users" = "添加成员";
 "lng_admin_log_admin_invite_link" = "生成邀请链接";
 "lng_admin_log_admin_pin_messages" = "置顶消息";
 "lng_admin_log_admin_add_admins" = "添加新管理员";

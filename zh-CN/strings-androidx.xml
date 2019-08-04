@@ -1285,7 +1285,7 @@
   <string name="RightChangeChannelInfo">修改频道信息</string>
   <string name="EditAdminGroupDeleteMessages">删除消息</string>
   <string name="RightBanUsers">封禁用户</string>
-  <string name="RightInviteViaLink">添加用户</string>
+  <string name="RightInviteViaLink">添加成员</string>
   <string name="RightPinMessages">置顶</string>
   <string name="RightAddNewAdmins">添加新管理员</string>
   <string name="RightEditMessages">编辑消息</string>
@@ -1399,26 +1399,26 @@
   <string name="EventLogToggledInvitesOff">%1$s 禁用了邀请权限</string>
   <string name="EventLogToggledSignaturesOn">%1$s 启用了消息署名</string>
   <string name="EventLogToggledSignaturesOff">%1$s 禁用了消息署名</string>
-  
-  
-  
+  <string name="EventLogPermissions">更改了默认权限</string>
+  <string name="EventLogPermissionSendMessages">发送消息</string>
+  <string name="EventLogPermissionSendMedia">发送媒体</string>
   <string name="EventLogRestrictedNew">已限制 %1$s\n\n时长：%2$s</string>
   <string name="EventLogRestrictedUntil">修改了 %1$s 的限制\n\n时长: %2$s</string>
   <string name="EventLogRestrictedDeleted">移除了 %1$s 的限制</string>
   <string name="EventLogRestrictedSendStickers">发送贴纸和 GIF</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="EventLogPermissionSendStickers">发送贴纸和 GIF</string>
+  <string name="EventLogRestrictedSendPolls">发起投票</string>
+  <string name="EventLogPermissionSendPolls">发起投票</string>
+  <string name="EventLogRestrictedChangeInfo">修改群组信息</string>
+  <string name="EventLogPermissionChangeInfo">修改群组信息</string>
+  <string name="EventLogRestrictedPinMessages">置顶消息</string>
+  <string name="EventLogPermissionPinMessages">置顶消息</string>
+  <string name="EventLogRestrictedAddUsers">添加成员</string>
+  <string name="EventLogPermissionAddUsers">添加成员</string>
   <string name="EventLogRestrictedSendMedia">发送多媒体</string>
   <string name="EventLogRestrictedSendMessages">发送消息</string>
   <string name="EventLogRestrictedSendEmbed">显示链接预览</string>
-  
+  <string name="EventLogPermissionSendEmbed">显示链接预览</string>
   <string name="EventLogRestrictedReadMessages">查看消息</string>
   <string name="EventLogPromotedNew">提升了 %1$s</string>
   <string name="EventLogPromoted">修改了 %1$s 的权限</string>
@@ -1430,7 +1430,7 @@
   <string name="EventLogPromotedDeleteMessages">删除消息</string>
   <string name="EventLogPromotedAddAdmins">添加管理员</string>
   <string name="EventLogPromotedBanUsers">封禁用户</string>
-  <string name="EventLogPromotedAddUsers">添加用户</string>
+  <string name="EventLogPromotedAddUsers">添加成员</string>
   <string name="EventLogPromotedPinMessages">置顶消息</string>
   <string name="EventLogFilterAll">所有操作</string>
   <string name="EventLogFilterNewRestrictions">限制成员</string>

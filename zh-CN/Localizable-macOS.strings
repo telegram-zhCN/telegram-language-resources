@@ -537,7 +537,7 @@
 
 
 
-
+"PrivacySettings.GroupMembersCount_other" = "%d 位用户";
 
 "PrivacySettings.SecurityHeader" = "安全";
 "PrivacySettings.Passcode" = "密码";
@@ -1601,7 +1601,7 @@
 
 "Chat.Context.CopyBlock" = "拷贝代码块";
 
-"Compose.SelectGroupUsers.Placeholder" = "请选择收件人";
+"Compose.SelectGroupUsers.Placeholder" = "您想要同谁联系？";
 
 "PeerInfo.PreHistory" = "新成员历史记录可见性";
 "PeerInfo.PreHistory.Visible" = "可见";
@@ -2963,7 +2963,7 @@
 
 
 "PasscodeController.Install.Title" = "锁定码";
-
+"PasscodeController.Change.Title" = "更改锁定码";
 "PasscodeController.Disable.Title" = "关闭锁定码";
 
 "PasscodeController.EnterPasscode.Placeholder" = "请输入一个锁定码";
@@ -2973,7 +2973,7 @@
 
 
 "PasscodeController.Header.Current" = "当前锁定码";
-
+"PasscodeController.Header.New" = "新建锁定码";
 
 
 
@@ -3029,8 +3029,8 @@
 
 
 
-
-
+"GeneralSettings.EmojiPrediction.Disable" = "关闭";
+"GeneralSettings.EmojiPrediction" = "根据输入内容推荐 Emoji";
 
 
 
@@ -3046,7 +3046,7 @@
 "GeneralSettings.BigEmoji" = "大号 Emoji";
 
 
-
+"App.Tooltip.VoiceRecord" = "按住来录制音频。点击切换为拍摄视频。";
 "App.Tooltip.VideoRecord" = "按住来拍摄视频。点击切换至录制音频。";
 
 
@@ -3070,11 +3070,11 @@
 "Archive.Tooltip.First.Title" = "对话已归档";
 
 
+"Archive.Tooltip.Second.Title" = "对话已归档";
 
 
-
-
-
+"Archive.Tooltip.Third.Title" = "对话已归档";
+"Archive.Tooltip.Third.Text" = "您可以任意置顶已归档的对话。";
 
 "Archive.Tooltip.JustArchive.Title" = "对话已归档。";
 
@@ -3092,7 +3092,7 @@
 "Mark.Scam" = "欺诈";
 
 
-
+"GeneralSettings.CopyRTF" = "复制时携带格式";
 
 
 "ChatList.RevealAction.Hide" = "隐藏";
@@ -3242,13 +3242,13 @@
 
 
 
-
-
-
-
-
-
-
+"Channel.Permissions.SlowMode.Timeout.Off" = "关闭";
+"Channel.Permissions.SlowMode.Timeout.10s" = "10 秒";
+"Channel.Permissions.SlowMode.Timeout.30s" = "30 秒";
+"Channel.Permissions.SlowMode.Timeout.1m" = "1 分钟";
+"Channel.Permissions.SlowMode.Timeout.5m" = "5 分钟";
+"Channel.Permissions.SlowMode.Timeout.15m" = "15 分钟";
+"Channel.Permissions.SlowMode.Timeout.1h" = "1 小时";
 
 
 

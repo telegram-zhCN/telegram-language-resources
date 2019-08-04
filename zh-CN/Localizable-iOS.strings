@@ -2570,7 +2570,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanSendMessages" = "发布消息";
 "Channel.AdminLog.CanDeleteMessages" = "删除消息";
 "Channel.AdminLog.CanBanUsers" = "封禁用户";
-"Channel.AdminLog.CanInviteUsers" = "添加用户";
+"Channel.AdminLog.CanInviteUsers" = "添加成员";
 "Channel.AdminLog.CanPinMessages" = "置顶消息";
 "Channel.AdminLog.CanAddAdmins" = "添加新管理员";
 "Channel.AdminLog.CanEditMessages" = "编辑消息";
@@ -4055,7 +4055,7 @@ Unused sets are archived when you add more.";
 
 "ChannelInfo.Stats" = "统计数据";
 
-
+"Conversation.PressVolumeButtonForSound" = "按下音量键\n解除静音状态";
 
 
 
@@ -4211,7 +4211,7 @@ Unused sets are archived when you add more.";
 
 "Settings.CheckPhoneNumberTitle" = "%@ 仍然是您的手机号码吗？";
 "Settings.CheckPhoneNumberText" = "及时更新手机号码以确保您能正常登录 Telegram。[了解更多]()";
-
+"Settings.KeepPhoneNumber" = "保留 “%@“";
 "Settings.ChangePhoneNumber" = "更改手机号码";
 
 "Undo.ChatDeletedForBothSides" = "已从双方删除对话";
@@ -4329,7 +4329,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "TextFormat.Link" = "链接";
 
-
+"TextFormat.Underline" = "下划线";
 
 "TextFormat.AddLinkTitle" = "添加链接";
 "TextFormat.AddLinkText" = "此链接将显示为 “%@”";
@@ -4341,7 +4341,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Appearance.AppIcon" = "应用图标";
 "Appearance.AppIconDefault" = "默认";
-
+"Appearance.AppIconDefaultX" = "默认 X";
 "Appearance.AppIconClassic" = "经典";
 "Appearance.AppIconClassicX" = "经典 X";
 "Appearance.AppIconFilled" = "大图标";
@@ -4378,7 +4378,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.EditAdmin.TransferOwnership" = "转移频道所有权";
 
 "OwnershipTransfer.SecurityCheck" = "安全检查";
-
+"OwnershipTransfer.SecurityRequirements" = "所有权转移将在满足以下条件时可用：\n\n•该帐户的两步验证已开启超过**7天**。\n\n•该帐户已在这台设备上登陆超过**24小时**。";
 "OwnershipTransfer.ComeBackLater" = "请稍后再回来。";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
@@ -4395,13 +4395,13 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "Group.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
-
+"Channel.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";
 
 "Channel.OwnershipTransfer.EnterPassword" = "请输入密码";
-
+"Channel.OwnershipTransfer.EnterPasswordText" = "请输入你的两步验证密码以完成所有权转移。";
 "Channel.OwnershipTransfer.PasswordPlaceholder" = "密码";
 
-
+"Channel.OwnershipTransfer.TransferCompleted" = "**%1$@** 现在是**%2$@**的所有者";
 
 "Contacts.AddPeopleNearby" = "添加附近的人";
 
@@ -4491,15 +4491,15 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Group.EditAdmin.RankTitle" = "自定义头衔";
 
 
-
-
+"Group.EditAdmin.RankAdminPlaceholder" = "管理员";
 
 "Conversation.SendMessage.SendSilently" = "静音发送";
 
 
-
+"Appearance.ThemeCarouselNewNight" = "夜间";
 
 
 
@@ -4601,7 +4601,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.BanSendGifs" = "发送 GIF";
 "Channel.AdminLog.BanSendStickers" = "发送贴纸";
 "Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
-"Channel.EditAdmin.PermissionInviteUsers" = "添加用户";
+"Channel.EditAdmin.PermissionInviteUsers" = "添加成员";
 "DataUpgrade.Running" = "正在优化...";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";

@@ -214,7 +214,7 @@
     <string name="ArchiveHintHeader2">已静音的对话</string>
     <string name="ArchiveHintText2">已禁用通知的对话将在接收到新消息时保持归档。</string>
     <string name="ArchiveHintHeader3">置顶的对话</string>
-    <string name="ArchiveHintText3">您可以将无限数量的已归档对话置顶。</string>
+    <string name="ArchiveHintText3">您可以任意置顶已归档的对话。</string>
     <!--channels-->
     <string name="SetAsAdmin">设为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
@@ -413,7 +413,7 @@
     <string name="EditAdminTransferGroupToast">**%1$s** 现在是群组的所有者。</string>
     <string name="EditAdminTransferChannelToast">**%1$s** 现在是频道的所有者。</string>
     <string name="EditAdminBanUsers">封禁用户</string>
-    <string name="EditAdminAddUsers">添加用户</string>
+    <string name="EditAdminAddUsers">添加成员</string>
     <string name="EditAdminAddUsersViaLink">生成邀请链接</string>
     <string name="EditAdminPinMessages">置顶消息</string>
     <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
@@ -432,7 +432,7 @@
     <string name="UserRestrictionsEmbedLinks">显示链接预览</string>
     <string name="UserRestrictionsChangeInfo">修改群组信息</string>
     <string name="UserRestrictionsPinMessages">置顶消息</string>
-    <string name="UserRestrictionsInviteUsers">添加用户</string>
+    <string name="UserRestrictionsInviteUsers">添加成员</string>
     <string name="UserRestrictionsNoRead">无法查看消息</string>
     <string name="UserRestrictionsNoSend">无法发送消息</string>
     <string name="UserRestrictionsNoSendMedia">无法发送媒体</string>
@@ -622,7 +622,7 @@
     <string name="EventLogPromotedDeleteMessages">删除消息</string>
     <string name="EventLogPromotedAddAdmins">添加管理员</string>
     <string name="EventLogPromotedBanUsers">封禁用户</string>
-    <string name="EventLogPromotedAddUsers">添加用户</string>
+    <string name="EventLogPromotedAddUsers">添加成员</string>
     <string name="EventLogPromotedTitle">头衔：%1$s</string>
     <string name="EventLogPromotedRemovedTitle">头衔</string>
     <string name="EventLogPromotedPinMessages">置顶消息</string>
