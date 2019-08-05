@@ -3239,9 +3239,6 @@
 
 
 
-
-
-
 "Channel.Permissions.SlowMode.Timeout.Off" = "关闭";
 "Channel.Permissions.SlowMode.Timeout.10s" = "10 秒";
 "Channel.Permissions.SlowMode.Timeout.30s" = "30 秒";
