@@ -2291,7 +2291,7 @@
     <string name="BannedPhoneNumber">This phone number is banned.</string>
     <string name="CodeExpired">Code expired, please retry login.</string>
     <string name="FloodWait">Too many attempts, please try again later</string>
-    <string name="FloodWaitTime">Too many attempts, please try again in %1$s</string>
+    <string name="FloodWaitTime">Attempts exceeded, please try again in %1$s</string>
     <string name="InvalidCode">Invalid code</string>
     <string name="PhoneNumberFlood">Sorry, you have deleted and re-created your account too many times recently. Please wait for a few days before signing up again.</string>
     <string name="InvalidFirstName">Invalid first name</string>
