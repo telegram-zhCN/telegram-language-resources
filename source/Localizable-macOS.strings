@@ -1326,9 +1326,9 @@
 
 "Channel.EventLog.MessageRankName" = "changed custom title for %@: %@";
 
-"Channel.EventLog.Service.DisabledSlowMode" = "%@ disabled slowmode";
+"Channel.EventLog.Service.DisabledSlowMode" = "%@ disabled slow mode";
 
-"Channel.EventLog.Service.SetSlowMode" = "%@ set slowmode to %@";
+"Channel.EventLog.Service.SetSlowMode" = "%@ set slow mode to %@";
 
 "Channel.EventLog.Service.PlusTitle" = "+ Title: %@";
 "Channel.EventLog.Service.MinusTitle" = "- Title";
@@ -2604,7 +2604,7 @@
 
 "Chat.SendMessageErrorFlood" = "Sorry, you can only send messages to mutual contacts at the moment.";
 "Chat.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
-"Chat.SendMessageSlowmodeError" = "Slowmode is enabled.";
+"Chat.SendMessageSlowmodeError" = "Slow mode is enabled.";
 "Generic.ErrorMoreInfo" = "More Info";
 
 
@@ -3022,7 +3022,7 @@
 
 
 "ChatList.Popover.ReadAll" = "Read All";
-"ChatList.Popover.Confirm" = "Are you sure you want to read all chats?";
+"ChatList.Popover.Confirm" = "Are you sure you want to mark all chats as read?";
 
 
 "Chat.Tooltip.HiddenForwardName" = "The account was hidden by the user";
@@ -3223,20 +3223,20 @@
 "Channel.TooMuchBots" = "Sorry, there are already too many bots in this group. Please remove some of the bots you're not using first.";
 
 
-"Channel.Permissions.SlowMode.Text.Off" = "Members will be able to send only one message per this interval.";
+"Channel.Permissions.SlowMode.Text.Off" = "Choose how long each member must wait before sending their next message.";
 "Channel.Permissions.SlowMode.Text.Selected" = "Members will be able to send only one message every %@";
 
 "Channel.Permissions.SlowMode.Header" = "SLOW MODE";
 
 
 "SlowMode.Multiple.Error" = "Slow mode is enabled. You can't send more than one message at a time.";
-"SlowMode.ForwardComment.Error" = "Slow mode is enabled. You can't forward a message with a comment";
+"SlowMode.ForwardComment.Error" = "Slow mode is enabled. You can't forward a message with a comment.";
 "SlowMode.TooLong.Error" = "Slow mode is enabled. This text is too long to send as one message.";
 
 
-"SlowMode.PreviewSender.FileTooltip" = "Slowmode is Enabled.\nThere is no way to send multiple files at once.";
-"SlowMode.PreviewSender.MediaTooltip" = "Slowmode is Enabled.\nThere is no way to send multiple media at once.";
-"SlowMode.PreviewSender.Comment" = "Slowmode is Enabled.\nYou can't add comment as addition message.";
+"SlowMode.PreviewSender.FileTooltip" = "Slow mode is enabled.\nYou can't send multiple files at once.";
+"SlowMode.PreviewSender.MediaTooltip" = "Slow mode is enabled.\nYou can't send multiple media at once.";
+"SlowMode.PreviewSender.Comment" = "Slow Mode is Enabled.\nYou can't add a comment.";
 
 
 "Channel.Permissions.SlowMode.Timeout.Off" = "Off";
