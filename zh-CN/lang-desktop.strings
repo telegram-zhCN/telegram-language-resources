@@ -146,6 +146,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_enable_socks" = "您确定要启用这项代理吗？\n\n服务器: {server}\n端口: {port}\n\n您稍后可以在 设置 > 高级 > 连接类型 中修改您的代理服务器。";
 "lng_sure_enable" = "启用";
 
+
+
 "lng_edit_deleted" = "这条消息已被删除";
 "lng_edit_too_long" = "字数已超限制";
 "lng_edit_message" = "编辑消息";
@@ -323,6 +325,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_replace_emojis" = "替换 Emoji";
 "lng_settings_suggest_emoji" = "显示 Emoji 替换建议";
 "lng_settings_suggest_by_emoji" = "通过 Emoji 推荐贴纸";
+"lng_settings_loop_stickers" = "循环播放动画贴纸";
+"lng_settings_large_emoji" = "大号 Emoji";
 "lng_settings_view_emojis" = "显示列表";
 "lng_settings_send_enter" = "按 Enter 发送消息";
 "lng_settings_send_ctrlenter" = "按 Ctrl+Enter 发送消息";
@@ -381,6 +385,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_stickers_emoji" = "贴纸和 Emoji";
 "lng_settings_messages" = "消息";
 "lng_settings_themes" = "主题";
+
+
+
+
 "lng_settings_data_storage" = "数据与存储";
 "lng_settings_information" = "编辑资料";
 "lng_settings_passcode_title" = "设置锁定码";
@@ -560,6 +568,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_sponsor_warning" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
 
 "lng_settings_blocked_users" = "已屏蔽的用户";
+
 "lng_settings_show_sessions" = "显示所有活动会话";
 "lng_settings_export_data" = "导出 Telegram 数据";
 "lng_settings_destroy_if" = "如果离线时间超过...";
@@ -1089,6 +1098,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edited" = "已编辑";
 "lng_edited_date" = "编辑时间：{date} ";
 "lng_admin_badge" = "管理员";
+
 "lng_channel_badge" = "频道";
 "lng_fast_reply" = "回复";
 "lng_cancel_edit_post_sure" = "取消编辑？";
@@ -1229,6 +1239,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cant_invite_make_admin" = "设为管理员";
 
 "lng_send_button" = "发送";
+"lng_send_silent_message" = "静音发送";
 "lng_message_ph" = "输入消息...";
 "lng_broadcast_ph" = "发布消息...";
 "lng_broadcast_silent_ph" = "静默广播..";
@@ -1625,6 +1636,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_rights_edit_admin" = "编辑权限";
 "lng_rights_edit_admin_header" = "这位管理员可以做什么？";
+"lng_rights_edit_admin_rank_name" = "自定义头衔";
+
 "lng_rights_about_add_admins_yes" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "lng_rights_about_add_admins_no" = "该管理员不能添加新管理员。";
 
@@ -1637,6 +1650,24 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_user_restrictions" = "用户限制";
 "lng_rights_user_restrictions_header" = "这位成员可以做什么？";
 "lng_rights_default_restrictions_header" = "这个群组的成员可以做什么？";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"lng_slowmode_too_long" = "抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。 您不能一次发送多条消息。";
 
 "lng_rights_channel_info" = "修改频道信息";
 "lng_rights_channel_post" = "发布消息";
@@ -1696,6 +1727,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_exceptions_list_title" = "例外";
 "lng_removed_list_title" = "被封禁的用户";
+
+
+
+
+
 
 "lng_admin_log_title_all" = "所有操作";
 "lng_admin_log_title_selected" = "选中的操作";
@@ -1771,6 +1807,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_removed_linked_channel" = "{from} 移除了链接的频道";
 "lng_admin_log_changed_location_chat" = "{from} 将群组地点更改至 “{address}”";
 "lng_admin_log_removed_location_chat" = "{from} 移除了群组位置";
+
+
 "lng_admin_log_user_with_username" = "{name} ({mention})";
 "lng_admin_log_restricted_forever" = "永久";
 "lng_admin_log_restricted_until" = "直至 {date}";

@@ -2374,7 +2374,7 @@
     <string name="EditMessageError">抱歉，您不能编辑这条消息。</string>
     <string name="AllowReadCall">请授予 Telegram 电话权限以便我们自动读取验证码。</string>
     <string name="AllowReadCallAndLog">请允许 Telegram 接听电话与读取通话记录，以便我们自动为您输入验证码。</string>
-    <string name="AllowReadCallLog">Please allow Telegram to read the call log so that we can automatically enter your code for you.</string>
+    <string name="AllowReadCallLog">请允许 Telegram 读取通话记录，以便为您自动填写验证码。</string>
     <string name="AllowFillNumber">请允许 Telegram 接收来电，以便自动验证您的手机号码。</string>
     <string name="UserRestricted">抱歉，您无法执行此操作。</string>
     <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>

@@ -1618,7 +1618,7 @@
 
 "Chat.ChannelBadge" = "channel";
 
-"ChangePhoneNumber.Intro.Description" = "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.\n\n**Important**: all your Telegram contacts will get your **new number** added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
+"ChangePhoneNumber.Intro.Description" = "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.";
 "ChangePhoneNumber.Intro.Alert" = "All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
 "Telegram.PhoneNumberConfirmController" = "Change Number";
 
@@ -2703,7 +2703,7 @@
 "NewPoll.OptionsDescriptionLimitReached" = "You have added the maximum number of options.";
 
 "NewPoll.DisacardConfirm" = "Are you sure you want to discard this poll?";
-"NewPoll.DisacardConfirm.Yes" = "Yes";
+"NewPoll.DisacardConfirm.Yes" = "Discard";
 "NewPoll.DisacardConfirm.No" = "No";
 
 
