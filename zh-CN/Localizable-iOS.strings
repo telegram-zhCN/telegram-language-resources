@@ -771,7 +771,7 @@
 
 
 
-"MessageTimer.Seconds_any" = "%@ 秒";
+"MessageTimer.Seconds_any" = "%@秒";
 
 
 
@@ -4479,7 +4479,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Channel.AdminLog.SetSlowmode" = "%1$@ 将慢速模式定时器设置为 %2$@";
 
-
+"Chat.SlowmodeTooltip" = "慢速模式已启用。您可以\n在%@后发送下一条消息";
 
 
 

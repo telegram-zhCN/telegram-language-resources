@@ -86,7 +86,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_connecting_to_proxy" = "正在连接代理...";
 "lng_connecting_settings" = "设置";
 
-"lng_reconnecting#other" = "将在 {count} 秒后重新连接...";
+"lng_reconnecting#other" = "{count}秒后重新连接...";
 "lng_reconnecting_try_now" = "立刻重连";
 
 "lng_status_service_notifications" = "系统通知";
@@ -100,9 +100,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_last_month" = "最近上线于一个月内";
 "lng_status_lastseen_now" = "刚刚在线";
 
-"lng_status_lastseen_minutes#other" = "最近上线 {count} 分钟前";
+"lng_status_lastseen_minutes#other" = "最近上线于{count}分钟前";
 
-"lng_status_lastseen_hours#other" = "最近上线 {count} 小时前";
+"lng_status_lastseen_hours#other" = "最近上线于{count}小时前";
 "lng_status_lastseen_today" = "最近上线于今天 {time}";
 "lng_status_lastseen_yesterday" = "最近上线于昨天 {time}";
 "lng_status_lastseen_date" = "最近上线于 {date}";
@@ -145,8 +145,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_ban_admin" = "此用户是群组的管理员。是否确定继续对其作出限制？";
 "lng_sure_enable_socks" = "您确定要启用这项代理吗？\n\n服务器: {server}\n端口: {port}\n\n您稍后可以在 设置 > 高级 > 连接类型 中修改您的代理服务器。";
 "lng_sure_enable" = "启用";
-
-
+"lng_proxy_invalid" = "代理链接无效。";
+"lng_proxy_unsupported" = "您的 Telegram Desktop 版本不支持此代理类型或代理链接无效。 请将 Telegram Desktop 更新到最新版本。";
 
 "lng_edit_deleted" = "这条消息已被删除";
 "lng_edit_too_long" = "字数已超限制";
@@ -219,9 +219,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_signin_reset_days#other" = "{count} 天";
 
-"lng_signin_reset_hours#other" = "{count} 小时";
+"lng_signin_reset_hours#other" = "{count}小时";
 
-"lng_signin_reset_minutes#other" = "{count} 分钟";
+"lng_signin_reset_minutes#other" = "{count}分钟";
 "lng_signin_reset_in_days" = "{days_count} {hours_count} {minutes_count}";
 "lng_signin_reset_in_hours" = "{hours_count} {minutes_count}";
 "lng_signin_reset_cancelled" = "您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。";
@@ -385,10 +385,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_stickers_emoji" = "贴纸和 Emoji";
 "lng_settings_messages" = "消息";
 "lng_settings_themes" = "主题";
-
-
-
-
+"lng_settings_theme_blue" = "蓝色";
+"lng_settings_theme_classic" = "经典";
+"lng_settings_theme_midnight" = "午夜";
+"lng_settings_theme_matrix" = "矩阵";
 "lng_settings_data_storage" = "数据与存储";
 "lng_settings_information" = "编辑资料";
 "lng_settings_passcode_title" = "设置锁定码";
@@ -405,7 +405,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_backgrounds_header" = "选择新的聊天背景图";
 "lng_theme_sure_keep" = "保留此主题？";
 
-"lng_theme_reverting#other" = "将在 {count} 秒后还原为以前的主题。";
+"lng_theme_reverting#other" = "{count}秒后还原为以前的主题。";
 "lng_theme_keep_changes" = "保留更改";
 "lng_theme_revert" = "还原";
 "lng_background_header" = "背景预览";
@@ -478,9 +478,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_autolock_away" = "在离开状态下多久后自动锁定：";
 "lng_passcode_autolock_inactive" = "在不活跃状态下多久后自动锁定：";
 
-"lng_passcode_autolock_minutes#other" = "{count} 分钟";
+"lng_passcode_autolock_minutes#other" = "{count}分钟";
 
-"lng_passcode_autolock_hours#other" = "{count} 小时";
+"lng_passcode_autolock_hours#other" = "{count}小时";
 "lng_passcode_enter_old" = "输入旧密码";
 "lng_passcode_enter_first" = "输入密码";
 "lng_passcode_enter_new" = "输入新密码";
@@ -568,7 +568,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_sponsor_warning" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
 
 "lng_settings_blocked_users" = "已屏蔽的用户";
-
+"lng_settings_no_blocked_users" = "无";
 "lng_settings_show_sessions" = "显示所有活动会话";
 "lng_settings_export_data" = "导出 Telegram 数据";
 "lng_settings_destroy_if" = "如果离线时间超过...";
@@ -707,7 +707,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_change_phone_success" = "您的手机号码已被更改。";
 
 
-"lng_mute_duration_hours#other" = "持续 {count} 小时";
+"lng_mute_duration_hours#other" = "{count}小时";
 
 "lng_mute_duration_days#other" = "持续 {count} 天";
 "lng_mute_duration_forever" = "永久";
@@ -975,12 +975,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_message_unsupported" = "当前 Telegram 版本不支持此消息。请在“设置”页更新本应用到最新版或在这里下载： {link}";
 
 
-"lng_duration_seconds#other" = "{count} 秒";
+"lng_duration_seconds#other" = "{count}秒";
 
-"lng_duration_minsec_minutes#other" = "{count} 分钟";
+"lng_duration_minsec_minutes#other" = "{count}分";
 
-"lng_duration_minsec_seconds#other" = "{count} 秒";
-"lng_duration_minutes_seconds" = "{minutes_count} 分 {seconds_count} 秒";
+"lng_duration_minsec_seconds#other" = "{count}秒";
+"lng_duration_minutes_seconds" = "{minutes_count}分{seconds_count}秒";
 
 "lng_action_add_user" = "{from} 邀请了 {user}";
 "lng_action_add_users_many" = "{from} 邀请了 {users}";
@@ -1098,7 +1098,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edited" = "已编辑";
 "lng_edited_date" = "编辑时间：{date} ";
 "lng_admin_badge" = "管理员";
-
+"lng_owner_badge" = "所有者";
 "lng_channel_badge" = "频道";
 "lng_fast_reply" = "回复";
 "lng_cancel_edit_post_sure" = "取消编辑？";
@@ -1637,7 +1637,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_edit_admin" = "编辑权限";
 "lng_rights_edit_admin_header" = "这位管理员可以做什么？";
 "lng_rights_edit_admin_rank_name" = "自定义头衔";
-
+"lng_rights_edit_admin_rank_about" = "一个自定义的头衔将展示给所有成员而不是“{title}”。";
 "lng_rights_about_add_admins_yes" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "lng_rights_about_add_admins_no" = "该管理员不能添加新管理员。";
 
@@ -1650,23 +1650,23 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_user_restrictions" = "用户限制";
 "lng_rights_user_restrictions_header" = "这位成员可以做什么？";
 "lng_rights_default_restrictions_header" = "这个群组的成员可以做什么？";
+"lng_rights_slowmode_header" = "慢速模式";
+"lng_rights_slowmode_off" = "关闭";
 
+"lng_rights_slowmode_seconds#other" = "{count}秒";
 
+"lng_rights_slowmode_minutes#other" = "{count}分钟";
 
+"lng_rights_slowmode_hours#other" = "{count}小时";
+"lng_rights_slowmode_about" = "成员每隔一段时间只能发一条消息。";
+"lng_rights_slowmode_about_interval" = "成员每{interval}只能发一条消息。";
 
+"lng_rights_slowmode_interval_seconds#other" = "每{count}秒";
 
+"lng_rights_slowmode_interval_minutes#other" = "每{count}分钟";
 
-
-
-
-
-
-
-
-
-
-
-
+"lng_slowmode_enabled" = "慢速模式已启用。您可以\n在{left}后发送下一条消息";
+"lng_slowmode_no_many" = "慢速模式已启用。 您不能一次发送多条消息。";
 "lng_slowmode_too_long" = "抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。 您不能一次发送多条消息。";
 
 "lng_rights_channel_info" = "修改频道信息";
@@ -1729,9 +1729,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_removed_list_title" = "被封禁的用户";
 
 
+"lng_admin_log_slow_mode_seconds#other" = "{count}喵";
 
-
-
+"lng_admin_log_slow_mode_minutes#other" = "{count}分钟";
 
 "lng_admin_log_title_all" = "所有操作";
 "lng_admin_log_title_selected" = "选中的操作";
@@ -1749,12 +1749,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_members_removed" = "成员退出";
 "lng_admin_log_filter_all_admins" = "全体用户和管理员";
 "lng_admin_log_about" = "这是什么？";
-"lng_admin_log_about_text" = "此列表包含了在过去 48 小时内群组成员和管理员执行的所有管理操作。";
+"lng_admin_log_about_text" = "此列表包含了在过去48小时内群组成员和管理员执行的所有管理操作。";
 "lng_admin_log_no_results_title" = "未找到操作日志";
 "lng_admin_log_no_results_text" = "找不到与您查询的近期操作相符的结果。";
 "lng_admin_log_no_results_search_text" = "找不到包含 ‘{query}’ 的近期操作。";
 "lng_admin_log_no_events_title" = "暂无操作日志";
-"lng_admin_log_no_events_text" = "在过去的 48 小时内\n群组成员和管理员\n没有执行任何服务操作。";
+"lng_admin_log_no_events_text" = "在过去的48小时内\n群组成员和管理员\n没有执行任何服务操作。";
 
 "lng_admin_log_empty_text" = "无";
 "lng_admin_log_changed_title_group" = "{from} 将群组名更改为 «{title}»";
@@ -1807,8 +1807,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_removed_linked_channel" = "{from} 移除了链接的频道";
 "lng_admin_log_changed_location_chat" = "{from} 将群组地点更改至 “{address}”";
 "lng_admin_log_removed_location_chat" = "{from} 移除了群组位置";
-
-
+"lng_admin_log_changed_slow_mode" = "{from} 将慢速模式定时器设置为 {duration}";
+"lng_admin_log_removed_slow_mode" = "{from} 禁用了慢速模式";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
 "lng_admin_log_restricted_forever" = "永久";
 "lng_admin_log_restricted_until" = "直至 {date}";
@@ -2066,7 +2066,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_delay" = "出于安全原因，您的数据只能在 {hours} 后才可下载。我们已经向您的全部设备通知了这个数据导出请求，以确保这个请求是您授权的，并留出时间给您以取消之。\n\n请在 {date} 重新使用当前设备发起一次数据导出请求以下载数据。";
 "lng_export_delay_less_than_hour" = "少于 1 小时";
 
-"lng_export_delay_hours#other" = "{count} 小时";
+"lng_export_delay_hours#other" = "{count}小时";
 "lng_export_suggest_title" = "数据导出已准备好";
 "lng_export_suggest_text" = "您现在可以下载您请求导出的数据了。您想要开始下载数据了吗？";
 "lng_export_suggest_cancel" = "稍后再说";
