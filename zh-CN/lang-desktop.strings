@@ -100,9 +100,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_last_month" = "最近上线于一个月内";
 "lng_status_lastseen_now" = "刚刚在线";
 
-"lng_status_lastseen_minutes#other" = "最近上线于{count}分钟前";
+"lng_status_lastseen_minutes#other" = "最近上线于 {count} 分钟前";
 
-"lng_status_lastseen_hours#other" = "最近上线于{count}小时前";
+"lng_status_lastseen_hours#other" = "最近上线于 {count} 小时前";
 "lng_status_lastseen_today" = "最近上线于今天 {time}";
 "lng_status_lastseen_yesterday" = "最近上线于昨天 {time}";
 "lng_status_lastseen_date" = "最近上线于 {date}";
