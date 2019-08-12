@@ -1448,7 +1448,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_contact_phone_will_be_shared" = "您可以让您的电话号码对 {user} 可见。";
 "lng_edit_contact_title" = "编辑联系人名称";
 "lng_edit_channel_title" = "编辑频道";
-"lng_edit_sign_messages" = "对消息签名";
+"lng_edit_sign_messages" = "对消息署名";
 "lng_edit_group" = "编辑群组";
 "lng_edit_self_title" = "编辑您的姓名";
 "lng_confirm_contact_data" = "添加联系人";
