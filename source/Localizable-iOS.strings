@@ -4082,7 +4082,7 @@ Unused sets are archived when you add more.";
 "Privacy.ProfilePhoto.NeverShareWith.Title" = "Never Share With";
 
 "Privacy.Forwards.WhoCanForward" = "WHO CAN ADD A LINK TO MY ACCOUNT WHEN FORWARDING MY MESSAGES";
-"Privacy.Forwards.CustomHelp" = "When forwarded to other chats, messages you send will not link back to your account.";
+"Privacy.Forwards.CustomHelp" = "Messages you send will not link back to your account when forwarded by other users.";
 "Privacy.Forwards.AlwaysAllow.Title" = "Always Allow";
 "Privacy.Forwards.NeverAllow.Title" = "Never Allow";
 

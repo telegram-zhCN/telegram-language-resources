@@ -668,7 +668,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_forwards_title" = "Forwarded messages privacy";
 "lng_edit_privacy_forwards_header" = "Who can add a link to my account when forwarding my messages";
-"lng_edit_privacy_forwards_warning" = "When forwarded to other chats, messages you send will not link back to your account.";
+"lng_edit_privacy_forwards_warning" = "Messages you send will not link back to your account when forwarded by other users.";
 "lng_edit_privacy_forwards_always_empty" = "Always allow";
 "lng_edit_privacy_forwards_never_empty" = "Never allow";
 "lng_edit_privacy_forwards_exceptions" = "These settings will override the values above.";
