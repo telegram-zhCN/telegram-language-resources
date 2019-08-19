@@ -3844,7 +3844,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.NoSendMessages" = "无法发送消息";
 "GroupPermission.NoSendMedia" = "无法发送媒体";
 "GroupPermission.NoSendGifs" = "无法发送 GIF";
-"GroupPermission.NoSendPolls" = "无法发起投票";
+"GroupPermission.NoSendPolls" = "无权发起投票";
 "GroupPermission.NoSendLinks" = "无法使用预览";
 "GroupPermission.NoChangeInfo" = "无法更改信息";
 "GroupPermission.NoAddMembers" = "无法邀请成员";
