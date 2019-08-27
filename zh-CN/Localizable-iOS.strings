@@ -4280,6 +4280,10 @@ Sorry for the inconvenience.";
 "Privacy.AddNewPeer" = "添加用户或群组";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号码？";
 "PrivacyPhoneNumberSettings.CustomHelp" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
+
+
+
+
 "Privacy.PhoneNumber" = "手机号码";
 "PrivacySettings.PhoneNumber" = "手机号码";
 "Contacts.SearchUsersAndGroupsLabel" = "搜索用户与群组...";
@@ -4491,6 +4495,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
 "Group.EditAdmin.RankTitle" = "自定义头衔";
 
 
@@ -4499,7 +4504,165 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.SendMessage.SendSilently" = "静音发送";
 
 
+
 "Appearance.ThemeCarouselNewNight" = "夜间";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
