@@ -1,38 +1,38 @@
 // Notifications
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_MESSAGE_NOTEXT" = "%1$@|sent you a message";
-"PUSH_MESSAGE_PHOTO" = "%1$@|sent you a photo";
-"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|sent you a self-destructing photo";
-"PUSH_MESSAGE_VIDEO" = "%1$@|sent you a video";
-"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|sent you a self-destructing video";
-"PUSH_MESSAGE_ROUND" = "%1$@|sent you a video message";
-"PUSH_MESSAGE_CONTACT" = "%1$@|shared %2$@'s contact with you";
-"PUSH_MESSAGE_GEO" = "%1$@|sent you a map";
-"PUSH_MESSAGE_GEOLIVE" = "%1$@|started sharing their live location";
-"PUSH_MESSAGE_DOC" = "%1$@|sent you a file";
-"PUSH_MESSAGE_AUDIO" = "%1$@|sent you a voice message";
-"PUSH_MESSAGE_GIF" = "%1$@|sent you a GIF";
+"PUSH_MESSAGE_NOTEXT" = "%1$@|New message";
+"PUSH_MESSAGE_PHOTO" = "%1$@|📷 Photo";
+"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|🔥 Self-destructing photo";
+"PUSH_MESSAGE_VIDEO" = "%1$@|🎞 Video";
+"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|🔥 Self-destructing video";
+"PUSH_MESSAGE_ROUND" = "%1$@|Video message";
+"PUSH_MESSAGE_CONTACT" = "%1$@|Contact: %2$@";
+"PUSH_MESSAGE_GEO" = "%1$@|Location";
+"PUSH_MESSAGE_GEOLIVE" = "%1$@|Live location";
+"PUSH_MESSAGE_DOC" = "%1$@|📎 Document";
+"PUSH_MESSAGE_AUDIO" = "%1$@|Voice message";
+"PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "PUSH_LOCKED_MESSAGE" = "You have a new message%1$@";
 "PUSH_MESSAGE_SCREENSHOT" = "%1$@|took a screenshot!";
 "PUSH_ENCRYPTION_REQUEST" = "New secret chat request%1$@";
 "PUSH_ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
 
-"PUSH_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
+"PUSH_MESSAGE_POLL" = "%1$@|Poll \"%2$@\"";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|Poll \"%2$@\"";
 "PUSH_PINNED_POLL" = "%1$@|pinned a poll";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ sent a message to the group";
-"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ sent a photo";
-"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ sent a video";
-"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ sent a video message";
-"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ shared %3$@'s contact";
-"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ sent a map to the group";
-"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ started sharing their live location";
-"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ sent a file to the group";
-"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ sent a voice message to the group";
-"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ sent a GIF to the group";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@: Message";
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@: 📷 Photo";
+"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 🎞 Video";
+"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: Video message";
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@: %3$@'s contact";
+"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@: Location";
+"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@: Live location";
+"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@: 📎 Document";
+"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: Voice message";
+"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@: 🎞 GIF";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ invited you to the group";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ edited the group's name";
 "PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ edited the group's photo";
@@ -43,23 +43,23 @@
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ left the group";
 "PUSH_CHAT_RETURNED" = "%2$@|%1$@ returned to the group";
 
-"PUSH_MESSAGE_STICKER" = "%1$@|sent you a %2$@ sticker";
-"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ sent a %3$@ sticker to the group";
+"PUSH_MESSAGE_STICKER" = "%1$@|%2$@ Sticker";
+"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@: %3$@ Sticker";
 
 "PUSH_CONTACT_JOINED" = "%1$@|joined Telegram!";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|posted a message";
-"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|posted a photo";
-"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|posted a video";
-"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|posted a video message";
-"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|posted a file";
-"PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|posted a %2$@ sticker";
-"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|posted a voice message";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|posted %2$@'s contact";
-"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|posted a map";
-"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|posted a live location";
-"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|posted a GIF";
+"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|New message";
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 Photo";
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|🎞 Video";
+"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|Video message";
+"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|📎 Document";
+"PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|%2$@ Sticker";
+"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|Voice message";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|Contact: %2$@";
+"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|Location";
+"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|Live location";
+"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|🎞 GIF";
 
 "PUSH_PINNED_TEXT" = "%1$@|pinned \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|pinned a message";
@@ -79,85 +79,85 @@
 "PUSH_PINNED_GAME" = "%1$@|pinned a game";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_MESSAGE_NOTEXT" = "%1$@|sent you a message";
-"PUSH_MESSAGE_PHOTO" = "%1$@|sent you a photo";
-"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|sent you a self-destructing photo";
-"PUSH_MESSAGE_VIDEO" = "%1$@|sent you a video";
-"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|sent you a self-destructing video";
+"PUSH_MESSAGE_NOTEXT" = "%1$@|New message";
+"PUSH_MESSAGE_PHOTO" = "%1$@|📷 Photo";
+"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|🔥 Self-destructing photo";
+"PUSH_MESSAGE_VIDEO" = "%1$@|🎞 Video";
+"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|🔥 Self-destructing video";
 "PUSH_MESSAGE_SCREENSHOT" = "%1$@|took a screenshot!";
-"PUSH_MESSAGE_ROUND" = "%1$@|sent you a video message";
-"PUSH_MESSAGE_DOC" = "%1$@|sent you a file";
-"PUSH_MESSAGE_STICKER" = "%1$@|sent you a %2$@ sticker";
-"PUSH_MESSAGE_AUDIO" = "%1$@|sent you a voice message";
-"PUSH_MESSAGE_CONTACT" = "%1$@|shared %2$@'s contact with you";
-"PUSH_MESSAGE_GEO" = "%1$@|sent you a map";
-"PUSH_MESSAGE_GEOLIVE" = "%1$@|started sharing their live location";
-"PUSH_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
-"PUSH_MESSAGE_GIF" = "%1$@|sent you a GIF";
+"PUSH_MESSAGE_ROUND" = "%1$@|Video message";
+"PUSH_MESSAGE_DOC" = "%1$@|📎 Document";
+"PUSH_MESSAGE_STICKER" = "%1$@|%2$@ Sticker";
+"PUSH_MESSAGE_AUDIO" = "%1$@|Voice message";
+"PUSH_MESSAGE_CONTACT" = "%1$@|Contact: %2$@";
+"PUSH_MESSAGE_GEO" = "%1$@|Location";
+"PUSH_MESSAGE_GEOLIVE" = "%1$@|Live location";
+"PUSH_MESSAGE_POLL" = "%1$@|Poll \"%2$@\"";
+"PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|invited you to play %2$@";
-"PUSH_MESSAGE_INVOICE" = "%1$@|sent you an invoice for %2$@";
-"PUSH_MESSAGE_FWD" = "%1$@|forwarded you a message";
-"PUSH_MESSAGE_FWDS_1" = "%1$@|forwarded you a message";
-"PUSH_MESSAGE_FWDS_any" = "%1$@|forwarded you %2$d messages";
-"PUSH_MESSAGE_PHOTO" = "%1$@|sent you a photo";
-"PUSH_MESSAGE_PHOTOS_1" = "%1$@|sent you a photo";
-"PUSH_MESSAGE_PHOTOS_any" = "%1$@|sent you %2$d photos";
-"PUSH_MESSAGE_VIDEO" = "%1$@|sent you a video";
-"PUSH_MESSAGE_VIDEOS_1" = "%1$@|sent you a video";
-"PUSH_MESSAGE_VIDEOS_any" = "%1$@|sent you %2$d videos";
-"PUSH_MESSAGE_ROUND" = "%1$@|sent you a video message";
-"PUSH_MESSAGE_ROUNDS_1" = "%1$@|sent you a video message";
-"PUSH_MESSAGE_ROUNDS_any" = "%1$@|sent you %2$d video messages";
-"PUSH_MESSAGE" = "%1$@|sent you a message";
-"PUSH_MESSAGES_1" = "%1$@|sent you an album";
-"PUSH_MESSAGES_any" = "%1$@|sent you an album";
-"PUSH_ALBUM" = "%1$@|sent you an album";
+"PUSH_MESSAGE_INVOICE" = "%1$@|Invoice for %2$@";
+"PUSH_MESSAGE_FWD" = "%1$@|Forwarded message";
+"PUSH_MESSAGE_FWDS_1" = "%1$@|Forwarded message";
+"PUSH_MESSAGE_FWDS_any" = "%1$@|%2$d Forwarded messages";
+"PUSH_MESSAGE_PHOTO" = "%1$@|📷 Photo";
+"PUSH_MESSAGE_PHOTOS_1" = "%1$@|📷 Photo";
+"PUSH_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d photos";
+"PUSH_MESSAGE_VIDEO" = "%1$@|🎞 Video";
+"PUSH_MESSAGE_VIDEOS_1" = "%1$@|🎞 Video";
+"PUSH_MESSAGE_VIDEOS_any" = "%1$@|🎞 %2$d videos";
+"PUSH_MESSAGE_ROUND" = "%1$@|Video message";
+"PUSH_MESSAGE_ROUNDS_1" = "%1$@|Video message";
+"PUSH_MESSAGE_ROUNDS_any" = "%1$@|%2$d video messages";
+"PUSH_MESSAGE" = "%1$@|New message";
+"PUSH_MESSAGES_1" = "%1$@|📷 Album";
+"PUSH_MESSAGES_any" = "%1$@|📷 Album";
+"PUSH_ALBUM" = "%1$@|📷 Album";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|posted a message";
-"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|posted a photo";
-"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|posted a video";
-"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|posted a video message";
-"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|posted a file";
-"PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|posted a %2$@ sticker";
-"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|posted a voice message";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|posted %2$@'s contact";
-"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|posted a map";
-"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|posted a live location";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|poll \"%2$@\"";
-"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|posted a GIF";
+"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|New message";
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 Photo";
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|🎞 Video";
+"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|Video message";
+"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|📎 Document";
+"PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|%2$@ Sticker";
+"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|Voice message";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|Contact: %2$@";
+"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|Location";
+"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|Live location";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|Poll \"%2$@\"";
+"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|🎞 GIF";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|invited you to play %2$@";
-"PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|posted a forwarded message";
-"PUSH_CHANNEL_MESSAGE_FWDS_1" = "%1$@|posted a forwarded message";
-"PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|posted %2$d forwarded messages";
-"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|posted a photo";
-"PUSH_CHANNEL_MESSAGE_PHOTOS_1" = "%1$@|posted a photo";
-"PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|posted %2$d photos";
-"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|posted a video";
-"PUSH_CHANNEL_MESSAGE_VIDEOS_1" = "%1$@|posted a video";
-"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|posted %2$d videos";
-"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|posted a video message";
-"PUSH_CHANNEL_MESSAGE_ROUNDS_1" = "%1$@|posted a video message";
-"PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|posted %2$d video messages";
-"PUSH_CHANNEL_MESSAGE" = "%1$@|posted a message";
-"PUSH_CHANNEL_MESSAGES_1" = "%1$@|posted an album";
-"PUSH_CHANNEL_MESSAGES_any" = "%1$@|posted an album";
-"PUSH_CHANNEL_ALBUM" = "%1$@|posted an album";
+"PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|Forwarded message";
+"PUSH_CHANNEL_MESSAGE_FWDS_1" = "%1$@|Forwarded message";
+"PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|%2$d forwarded messages";
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 Photo";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_1" = "%1$@|📷 Photo";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d photos";
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|🎞 Video";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_1" = "%1$@|🎞 Video";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|🎞 %2$d videos";
+"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|Video message";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_1" = "%1$@|Video message";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|%2$d video messages";
+"PUSH_CHANNEL_MESSAGE" = "%1$@|New message";
+"PUSH_CHANNEL_MESSAGES_1" = "%1$@|🖼 Album";
+"PUSH_CHANNEL_MESSAGES_any" = "%1$@|🖼 Album";
+"PUSH_CHANNEL_ALBUM" = "%1$@|📷 Album";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ sent a message to the group";
-"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ sent a video";
-"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ sent a video message";
-"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ sent a file to the group";
-"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ sent a %3$@ sticker to the group";
-"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ sent a voice message to the group";
-"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ shared %3$@'s contact";
-"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ sent a map to the group";
-"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ started sharing their live location";
-"PUSH_CHAT_MESSAGE_POLL" = "%2$@|poll by %1$@ \"%3$@\"";
-"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ sent a GIF to the group";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@: Message";
+"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 🎞 Video";
+"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: Video message";
+"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@: 📎 Document";
+"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@: %3$@ Sticker";
+"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: Voice message";
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@: %3$@'s contact";
+"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@: Location";
+"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@: Live location";
+"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@: Poll \"%3$@\"";
+"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@: 🎞 GIF";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ invited the group to play %3$@";
-"PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@ sent an invoice for %3$@";
+"PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@: Invoice for %3$@";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ invited you to the group";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ edited the group\'s name";
 "PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ edited the group\'s photo";
@@ -168,22 +168,22 @@
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ left the group";
 "PUSH_CHAT_RETURNED" = "%2$@|%1$@ returned to the group";
 "PUSH_CHAT_JOINED" = "%2$@|%1$@ has joined the group";
-"PUSH_CHAT_MESSAGE_FWD" = "%2$@|%1$@ forwarded a message";
-"PUSH_CHAT_MESSAGE_FWDS_1" = "%2$@|%1$@ forwarded a message";
-"PUSH_CHAT_MESSAGE_FWDS_any" = "%2$@|%1$@ forwarded %3$d messages";
-"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ sent a photo";
-"PUSH_CHAT_MESSAGE_PHOTOS_1" = "%2$@|%1$@ sent a photo";
-"PUSH_CHAT_MESSAGE_PHOTOS_any" = "%2$@|%1$@ sent %3$d photos";
-"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ sent a video";
-"PUSH_CHAT_MESSAGE_VIDEOS_1" = "%2$@|%1$@ sent a video";
-"PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@ sent %3$d videos";
-"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ sent a video message";
-"PUSH_CHAT_MESSAGE_ROUNDS_1" = "%2$@|%1$@ sent a video message";
-"PUSH_CHAT_MESSAGE_ROUNDS_any" = "%2$@|%1$@ sent %3$d video messages";
-"PUSH_CHAT_MESSAGE" = "%2$@|%1$@ sent a message";
-"PUSH_CHAT_MESSAGES_1" = "%2$@|%1$@ sent an album";
-"PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@ sent an album";
-"PUSH_CHAT_ALBUM" = "%2$@|%1$@ sent an album";
+"PUSH_CHAT_MESSAGE_FWD" = "%2$@|%1$@: Forwarded message";
+"PUSH_CHAT_MESSAGE_FWDS_1" = "%2$@|%1$@: Forwarded message";
+"PUSH_CHAT_MESSAGE_FWDS_any" = "%2$@|%1$@: %3$d Forwarded messages";
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@: 📷 Photo";
+"PUSH_CHAT_MESSAGE_PHOTOS_1" = "%2$@|%1$@: 📷 Photo";
+"PUSH_CHAT_MESSAGE_PHOTOS_any" = "%2$@|%1$@: 📷 %3$d photos";
+"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 🎞 Video";
+"PUSH_CHAT_MESSAGE_VIDEOS_1" = "%2$@|%1$@: 🎞 Video";
+"PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@: 🎞 %3$d videos";
+"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: Video message";
+"PUSH_CHAT_MESSAGE_ROUNDS_1" = "%2$@|%1$@: Video message";
+"PUSH_CHAT_MESSAGE_ROUNDS_any" = "%2$@|%1$@: %3$d video messages";
+"PUSH_CHAT_MESSAGE" = "%2$@|%1$@: Message";
+"PUSH_CHAT_MESSAGES_1" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷 Album";
 
 "PUSH_PINNED_TEXT" = "%1$@|pinned \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|pinned a message";
@@ -203,19 +203,21 @@
 
 "PUSH_CONTACT_JOINED" = "%1$@|joined Telegram!";
 
-"PUSH_AUTH_UNKNOWN" = "New login|from unrecognized device %1$@";
-"PUSH_AUTH_REGION" = "New login|from unrecognized device %1$@, location: %2$@";
+"PUSH_AUTH_UNKNOWN" = "New login|from %1$@";
+"PUSH_AUTH_REGION" = "New login|Device: %1$@; location: %2$@";
 
-"PUSH_PHONE_CALL_REQUEST" = "%1$@|is calling you!";
-"PUSH_PHONE_CALL_MISSED" = "%1$@|You missed a call";
+"PUSH_PHONE_CALL_REQUEST" = "%1$@|Incoming call!";
+"PUSH_PHONE_CALL_MISSED" = "%1$@|Missed call";
 
 "PUSH_MESSAGE_GAME_SCORE" = "%1$@ scored %3$@ in game %2$@";
 
-"PUSH_MESSAGE_CHANNEL_MESSAGE_GAME_SCORE" = "%1$@ scored %3$@ in game %2$@";
+"PUSH_MESSAGE_CHANNEL_MESSAGE_GAME_SCORE" = "%1$@ scored %3$@ in %2$@";
 
 "PUSH_PINNED_GAME_SCORE" = "%1$@ pinned a game score";
-"PUSH_CHAT_MESSAGE_GAME_SCORE" = "%1$@ scored %4$@ in game %3$@ in the group %2$@";
+"PUSH_CHAT_MESSAGE_GAME_SCORE" = "%1$@ scored %4$@ in %3$@ ";
 
+
+"PUSH_REMINDER_TITLE" = "🗓 Reminder";
 
 
 
@@ -4280,9 +4282,9 @@ Sorry for the inconvenience.";
 "Privacy.AddNewPeer" = "Add Users or Groups";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "WHO CAN SEE MY PHONE NUMBER";
 "PrivacyPhoneNumberSettings.CustomHelp" = "Users who already have your number saved in their contacts will also see it on Telegram.";
+"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "Users who add your number to their contacts will see it on Telegram only if they are your contacts.";
 
-
-
+"PrivacyPhoneNumberSettings.DiscoveryHeader" = "WHO CAN FIND ME BY MY NUMBER";
 
 "Privacy.PhoneNumber" = "Phone Number";
 "PrivacySettings.PhoneNumber" = "Phone Number";
@@ -4485,8 +4487,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "Chat.SlowmodeTooltip" = "Slow Mode is enabled. You can send\nyour next message in %@.";
 "Chat.SlowmodeTooltipPending" = "Slow Mode is enabled. You can't send more than one message at once.";
-
-
+"Chat.AttachmentLimitReached" = "You can't select more items.";
+"Chat.SlowmodeAttachmentLimitReached" = "Slow Mode is enabled. You can't select more items.";
 "Chat.AttachmentMultipleFilesDisabled" = "Slow Mode is enabled. You can't send multiple files at once.";
 "Chat.AttachmentMultipleForwardDisabled" = "Slow Mode is enabled. You can't forward multiple messages at once.";
 "Chat.MultipleTextMessagesDisabled" = "Slow Mode is enabled. You can't send multiple messages at once.";
@@ -4502,7 +4504,7 @@ Any member of this group will be able to see messages in the channel.";
 "Group.EditAdmin.RankAdminPlaceholder" = "admin";
 
 "Conversation.SendMessage.SendSilently" = "Send Without Sound";
-
+"Conversation.SendMessage.ScheduleMessage" = "Schedule Message";
 
 "Appearance.ThemeCarouselTintedNight" = "Tinted Night";
 "Appearance.ThemeCarouselNewNight" = "Night";
@@ -4511,156 +4513,164 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.MessageRankUsername" = "changed custom title for %1$@ (%2$@):\n%3$@";
 "Channel.AdminLog.MessageRank" = "changed custom title:\n%1$@";
 
+"VoiceOver.Editing.ClearText" = "Clear text";
+"VoiceOver.Recording.StopAndPreview" = "Stop and preview";
+"VoiceOver.Media.PlaybackRate" = "Playback rate";
+"VoiceOver.Media.PlaybackRateNormal" = "Normal";
+"VoiceOver.Media.PlaybackRateFast" = "Fast";
+"VoiceOver.Media.PlaybackRateChange" = "Double tap to change";
+"VoiceOver.Media.PlaybackStop" = "Stop playback";
+"VoiceOver.Media.PlaybackPlay" = "Play";
+"VoiceOver.Media.PlaybackPause" = "Pause";
+"VoiceOver.Navigation.Compose" = "Compose";
+"VoiceOver.Navigation.Search" = "Search";
+"VoiceOver.Navigation.ProxySettings" = "Proxy settings";
+"VoiceOver.DiscardPreparedContent" = "Discard";
+"VoiceOver.AttachMedia" = "Send media";
+"VoiceOver.Chat.RecordPreviewVoiceMessage" = "Preview voice message";
+"VoiceOver.Chat.RecordModeVoiceMessage" = "Voice message";
+"VoiceOver.Chat.RecordModeVoiceMessageInfo" = "Double tap and hold to record voice message. Slide up to pin recording, slide left to cancel. Double tap to switch to video.";
+"VoiceOver.Chat.RecordModeVideoMessage" = "Video message";
+"VoiceOver.Chat.RecordModeVideoMessageInfo" = "Double tap and hold to record video message. Slide up to pin recording, slide left to cancel. Double tap to switch to audio.";
+"VoiceOver.Chat.Message" = "Message";
+"VoiceOver.Chat.YourMessage" = "Your message";
+"VoiceOver.Chat.ReplyFrom" = "Reply to message from: %@";
+"VoiceOver.Chat.Reply" = "Reply to message";
+"VoiceOver.Chat.ReplyToYourMessage" = "Reply to your message";
+"VoiceOver.Chat.ForwardedFrom" = "Forwarded from: %@";
+"VoiceOver.Chat.ForwardedFromYou" = "Forwarded from you";
+"VoiceOver.Chat.PhotoFrom" = "Photo, from: %@";
+"VoiceOver.Chat.Photo" = "Photo";
+"VoiceOver.Chat.YourPhoto" = "Your photo";
+"VoiceOver.Chat.VoiceMessageFrom" = "Voice message, from: %@";
+"VoiceOver.Chat.VoiceMessage" = "Voice message";
+"VoiceOver.Chat.YourVoiceMessage" = "Your voice message";
+"VoiceOver.Chat.MusicFrom" = "Music file, from: %@";
+"VoiceOver.Chat.Music" = "Music message";
+"VoiceOver.Chat.YourMusic" = "Your music message";
+"VoiceOver.Chat.VideoFrom" = "Video, from: %@";
+"VoiceOver.Chat.Video" = "Video";
+"VoiceOver.Chat.YourVideo" = "Your video";
+"VoiceOver.Chat.VideoMessageFrom" = "Video message, from: %@";
+"VoiceOver.Chat.VideoMessage" = "Video message";
+"VoiceOver.Chat.YourVideoMessage" = "Your video message";
+"VoiceOver.Chat.FileFrom" = "File, from: %@";
+"VoiceOver.Chat.File" = "File";
+"VoiceOver.Chat.YourFile" = "Your file";
+"VoiceOver.Chat.ContactFrom" = "Shared contact, from: %@";
+"VoiceOver.Chat.Contact" = "Shared contact";
+"VoiceOver.Chat.ContactPhoneNumberCount_1" = "%@ phone number";
+"VoiceOver.Chat.ContactPhoneNumberCount_any" = "%@ phone numbers";
+"VoiceOver.Chat.ContactPhoneNumber" = "Phone number";
+"VoiceOver.Chat.ContactEmailCount_1" = "%@ email address";
+"VoiceOver.Chat.ContactEmailCount_any" = "%@ email addresses";
+"VoiceOver.Chat.ContactEmail" = "Email";
+"VoiceOver.Chat.ContactOrganization" = "Organization: %@";
+"VoiceOver.Chat.YourContact" = "Your shared contact";
+"VoiceOver.Chat.AnonymousPollFrom" = "Anonymous poll, from: %@";
+"VoiceOver.Chat.AnonymousPoll" = "Anonymous poll";
+"VoiceOver.Chat.YourAnonymousPoll" = "Your Anonymous poll";
+"VoiceOver.Chat.PollOptionCount_1" = "%@ option:";
+"VoiceOver.Chat.PollOptionCount_any" = "%@ options:";
+"VoiceOver.Chat.PollVotes_1" = "%@ vote";
+"VoiceOver.Chat.PollVotes_any" = "%@ votes";
+"VoiceOver.Chat.PollNoVotes" = "No votes";
+"VoiceOver.Chat.PollFinalResults" = "Final results";
+"VoiceOver.Chat.OptionSelected" = "selected";
+"VoiceOver.Chat.PagePreview" = "Page preview";
+"VoiceOver.Chat.Title" = "Title: %@";
+"VoiceOver.Chat.Caption" = "Caption: %@";
+"VoiceOver.Chat.Duration" = "Duration: %@";
+"VoiceOver.Chat.Size" = "Size: %@";
+"VoiceOver.Chat.MusicTitle" = "%1$@, by %2$@";
+"VoiceOver.Chat.PlayHint" = "Double tap to play";
+"VoiceOver.Chat.OpenHint" = "Double tap to open";
+"VoiceOver.Chat.OpenLinkHint" = "Double tap to open link";
+"VoiceOver.Chat.SeenByRecipient" = "Seen by recipient";
+"VoiceOver.Chat.SeenByRecipients" = "Seen by recipients";
+"VoiceOver.Chat.Selected" = "Selected";
+"VoiceOver.MessageContextDelete" = "Delete";
+"VoiceOver.MessageContextReport" = "Report";
+"VoiceOver.MessageContextForward" = "Forward";
+"VoiceOver.MessageContextShare" = "Share";
+"VoiceOver.MessageContextSend" = "Send";
+"VoiceOver.MessageContextReply" = "Reply";
+"VoiceOver.MessageContextOpenMessageMenu" = "Open message menu";
+
+"ProxyServer.VoiceOver.Active" = "Active";
+
+"Conversation.ScheduleMessage.Title" = "Schedule Message";
+"Conversation.ScheduleMessage.SendToday" = "Send today at %@";
+"Conversation.ScheduleMessage.SendTomorrow" = "Send tomorrow at %@";
+"Conversation.ScheduleMessage.SendOn" = "Send on %@ at %@";
+
+"Conversation.SetReminder.Title" = "Set a Reminder";
+"Conversation.SetReminder.RemindToday" = "Remind today at %@";
+"Conversation.SetReminder.RemindTomorrow" = "Remind tomorrow at %@";
+"Conversation.SetReminder.RemindOn" = "Remind on %@ at %@";
+
+"ScheduledMessages.Title" = "Scheduled Messages";
+"ScheduledMessages.RemindersTitle" = "Reminders";
+"ScheduledMessages.ScheduledDate" = "Scheduled for %@";
+"ScheduledMessages.SendNow" = "Send Now";
+"ScheduledMessages.EditTime" = "Reschedule";
+"ScheduledMessages.ClearAll" = "Clear All";
+"ScheduledMessages.ClearAllConfirmation" = "Clear Scheduled Messages";
+"ScheduledMessages.Delete" = "Delete Scheduled Message";
+"ScheduledMessages.DeleteMany" = "Delete Scheduled Messages";
+"ScheduledMessages.EmptyPlaceholder" = "No scheduled messages here yet...";
+"ScheduledMessages.BotActionUnavailable" = "This action will become available after the message is published.";
+"ScheduledMessages.PollUnavailable" = "Voting will become available after the message is published.";
+"ScheduledMessages.ReminderNotification" = "📅 Reminder";
 
+"Conversation.SendMessage.SetReminder" = "Set a Reminder";
 
+"Conversation.SelectedMessages_1" = "%@ Message Selected";
+"Conversation.SelectedMessages_2" = "%@ Messages Selected";
+"Conversation.SelectedMessages_3_10" = "%@ Messages Selected";
+"Conversation.SelectedMessages_any" = "%@ Messages Selected";
+"Conversation.SelectedMessages_many" = "%@ Messages Selected";
+"Conversation.SelectedMessages_0" = "%@ Messages Selected";
 
+"AccentColor.Title" = "Accent Color";
 
+"Appearance.ThemePreview.ChatList.1.Name" = "Alicia Torreaux";
+"Appearance.ThemePreview.ChatList.1.Text" = "Bob says hi.";
 
+"Appearance.ThemePreview.ChatList.2.Name" = "Roberto";
+"Appearance.ThemePreview.ChatList.2.Text" = "Say hello to Alice 👋";
 
+"Appearance.ThemePreview.ChatList.3.Name" = "Campus Public Chat";
+"Appearance.ThemePreview.ChatList.3.AuthorName" = "Jennie Alpha";
+"Appearance.ThemePreview.ChatList.3.Text" = "We just reached 2,500 members! WOO!";
 
+"Appearance.ThemePreview.ChatList.4.Name" = "Veronica";
+"Appearance.ThemePreview.ChatList.4.Text" = "Table for four, 2PM. Be there.";
 
+"Appearance.ThemePreview.ChatList.5.Name" = "Animal Videos";
+"Appearance.ThemePreview.ChatList.5.Text" = "Vote now! Moar cat videos in this channel?";
 
+"Appearance.ThemePreview.ChatList.6.Name" = "Little Sister";
+"Appearance.ThemePreview.ChatList.6.Text" = "Don't tell mom yet, but I got the job! I'm going to ROME!";
 
+"Appearance.ThemePreview.ChatList.7.Name" = "Jennie Alpha";
+"Appearance.ThemePreview.ChatList.7.Text" = "🖼 Check these out";
 
+"Appearance.ThemePreview.Chat.1.Text" = "Does he want me to, to turn from the right or turn from the left? 🤔";
+"Appearance.ThemePreview.Chat.2.ReplyName" = "Bob Harris";
+"Appearance.ThemePreview.Chat.2.Text" = "Right side. And, uh, with intensity.";
+"Appearance.ThemePreview.Chat.3.Text" = "Is that everything? It seemed like he said quite a bit more than that. 😯";
 
+"GroupInfo.Permissions.SlowmodeValue.Off" = "Off";
 
+"Undo.ScheduledMessagesCleared" = "Scheduled messages cleared";
 
+"Appearance.CreateTheme" = "Create New Theme";
+"Appearance.CreateThemeInfo" = "A new theme template has been created from your current theme and added to your Saved Messages.";
+"Appearance.Publish" = "Publish";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Conversation.Theme" = "Color Theme";
+"Conversation.ViewTheme" = "VIEW THEME";
 
 
 
@@ -4915,73 +4925,90 @@ Any member of this group will be able to see messages in the channel.";
 "PINNED_TEXT_SEPARATED" = "%1$@|pinned \"%2$@\"";
 "PINNED_VIDEO" = "%1$@ pinned a video";
 "PINNED_VIDEO_SEPARATED" = "%1$@|pinned a video";
-"PUSH_CHANNEL_MESSAGES_0" = "%1$@|posted an album";
-"PUSH_CHANNEL_MESSAGES_2" = "%1$@|posted an album";
-"PUSH_CHANNEL_MESSAGES_3_10" = "%1$@|posted an album";
-"PUSH_CHANNEL_MESSAGES_many" = "%1$@|posted an album";
-"PUSH_CHANNEL_MESSAGE_FWDS_0" = "%1$@|posted %2$d forwarded messages";
-"PUSH_CHANNEL_MESSAGE_FWDS_2" = "%1$@|posted %2$d forwarded messages";
-"PUSH_CHANNEL_MESSAGE_FWDS_3_10" = "%1$@|posted %2$d forwarded messages";
-"PUSH_CHANNEL_MESSAGE_FWDS_many" = "%1$@|posted %2$d forwarded messages";
-"PUSH_CHANNEL_MESSAGE_PHOTOS_0" = "%1$@|posted %2$d photos";
-"PUSH_CHANNEL_MESSAGE_PHOTOS_2" = "%1$@|posted %2$d photos";
-"PUSH_CHANNEL_MESSAGE_PHOTOS_3_10" = "%1$@|posted %2$d photos";
-"PUSH_CHANNEL_MESSAGE_PHOTOS_many" = "%1$@|posted %2$d photos";
-"PUSH_CHANNEL_MESSAGE_ROUNDS_0" = "%1$@|posted %2$d video messages";
-"PUSH_CHANNEL_MESSAGE_ROUNDS_2" = "%1$@|posted %2$d video messages";
-"PUSH_CHANNEL_MESSAGE_ROUNDS_3_10" = "%1$@|posted %2$d video messages";
-"PUSH_CHANNEL_MESSAGE_ROUNDS_many" = "%1$@|posted %2$d video messages";
-"PUSH_CHANNEL_MESSAGE_VIDEOS_0" = "%1$@|posted %2$d videos";
-"PUSH_CHANNEL_MESSAGE_VIDEOS_2" = "%1$@|posted %2$d videos";
-"PUSH_CHANNEL_MESSAGE_VIDEOS_3_10" = "%1$@|posted %2$d videos";
-"PUSH_CHANNEL_MESSAGE_VIDEOS_many" = "%1$@|posted %2$d videos";
-"PUSH_CHAT_MESSAGES_0" = "%2$@|%1$@ sent an album";
-"PUSH_CHAT_MESSAGES_2" = "%2$@|%1$@ sent an album";
-"PUSH_CHAT_MESSAGES_3_10" = "%2$@|%1$@ sent an album";
-"PUSH_CHAT_MESSAGES_many" = "%2$@|%1$@ sent an album";
-"PUSH_CHAT_MESSAGE_FWDS_0" = "%2$@|%1$@ forwarded %3$d messages";
-"PUSH_CHAT_MESSAGE_FWDS_2" = "%2$@|%1$@ forwarded %3$d messages";
-"PUSH_CHAT_MESSAGE_FWDS_3_10" = "%2$@|%1$@ forwarded %3$d messages";
-"PUSH_CHAT_MESSAGE_FWDS_many" = "%2$@|%1$@ forwarded %3$d messages";
-"PUSH_CHAT_MESSAGE_PHOTOS_0" = "%2$@|%1$@ sent %3$d photos";
-"PUSH_CHAT_MESSAGE_PHOTOS_2" = "%2$@|%1$@ sent %3$d photos";
-"PUSH_CHAT_MESSAGE_PHOTOS_3_10" = "%2$@|%1$@ sent %3$d photos";
-"PUSH_CHAT_MESSAGE_PHOTOS_many" = "%2$@|%1$@ sent %3$d photos";
-"PUSH_CHAT_MESSAGE_ROUNDS_0" = "%2$@|%1$@ sent %3$d video messages";
-"PUSH_CHAT_MESSAGE_ROUNDS_2" = "%2$@|%1$@ sent %3$d video messages";
-"PUSH_CHAT_MESSAGE_ROUNDS_3_10" = "%2$@|%1$@ sent %3$d video messages";
-"PUSH_CHAT_MESSAGE_ROUNDS_many" = "%2$@|%1$@ sent %3$d video messages";
-"PUSH_CHAT_MESSAGE_VIDEOS_0" = "%2$@|%1$@ sent %3$d videos";
-"PUSH_CHAT_MESSAGE_VIDEOS_2" = "%2$@|%1$@ sent %3$d videos";
-"PUSH_CHAT_MESSAGE_VIDEOS_3_10" = "%2$@|%1$@ sent %3$d videos";
-"PUSH_CHAT_MESSAGE_VIDEOS_many" = "%2$@|%1$@ sent %3$d videos";
-"PUSH_MESSAGES_0" = "%1$@|sent you an album";
-"PUSH_MESSAGES_2" = "%1$@|sent you an album";
-"PUSH_MESSAGES_3_10" = "%1$@|sent you an album";
-"PUSH_MESSAGES_many" = "%1$@|sent you an album";
-"PUSH_MESSAGE_ALBUM" = "%1$@|sent you an album";
-"PUSH_MESSAGE_FWDS_0" = "%1$@|forwarded you %2$d messages";
-"PUSH_MESSAGE_FWDS_2" = "%1$@|forwarded you %2$d messages";
-"PUSH_MESSAGE_FWDS_3_10" = "%1$@|forwarded you %2$d messages";
-"PUSH_MESSAGE_FWDS_many" = "%1$@|forwarded you %2$d messages";
-"PUSH_MESSAGE_PHOTOS_0" = "%1$@|sent you %2$d photos";
-"PUSH_MESSAGE_PHOTOS_2" = "%1$@|sent you %2$d photos";
-"PUSH_MESSAGE_PHOTOS_3_10" = "%1$@|sent you %2$d photos";
-"PUSH_MESSAGE_PHOTOS_many" = "%1$@|sent you %2$d photos";
-"PUSH_MESSAGE_ROUNDS_0" = "%1$@|sent you %2$d video messages";
-"PUSH_MESSAGE_ROUNDS_2" = "%1$@|sent you %2$d video messages";
-"PUSH_MESSAGE_ROUNDS_3_10" = "%1$@|sent you %2$d video messages";
-"PUSH_MESSAGE_ROUNDS_many" = "%1$@|sent you %2$d video messages";
-"PUSH_MESSAGE_VIDEOS_0" = "%1$@|sent you %2$d videos";
-"PUSH_MESSAGE_VIDEOS_2" = "%1$@|sent you %2$d videos";
-"PUSH_MESSAGE_VIDEOS_3_10" = "%1$@|sent you %2$d videos";
-"PUSH_MESSAGE_VIDEOS_many" = "%1$@|sent you %2$d videos";
+"PUSH_CHANNEL_MESSAGES_0" = "%1$@|🖼 Album";
+"PUSH_CHANNEL_MESSAGES_2" = "%1$@|🖼 Album";
+"PUSH_CHANNEL_MESSAGES_3_10" = "%1$@|🖼 Album";
+"PUSH_CHANNEL_MESSAGES_many" = "%1$@|🖼 Album";
+"PUSH_CHANNEL_MESSAGE_FWDS_0" = "%1$@|%2$d forwarded messages";
+"PUSH_CHANNEL_MESSAGE_FWDS_2" = "%1$@|%2$d forwarded messages";
+"PUSH_CHANNEL_MESSAGE_FWDS_3_10" = "%1$@|%2$d forwarded messages";
+"PUSH_CHANNEL_MESSAGE_FWDS_many" = "%1$@|%2$d forwarded messages";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_0" = "%1$@|📷 %2$d photos";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_2" = "%1$@|📷 %2$d photos";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_3_10" = "%1$@|📷 %2$d photos";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_many" = "%1$@|📷 %2$d photos";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_0" = "%1$@|%2$d video messages";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_2" = "%1$@|%2$d video messages";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_3_10" = "%1$@|%2$d video messages";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_many" = "%1$@|%2$d video messages";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_0" = "%1$@|🎞 %2$d videos";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_2" = "%1$@|🎞 %2$d videos";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_3_10" = "%1$@|🎞 %2$d videos";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_many" = "%1$@|🎞 %2$d videos";
+"PUSH_CHAT_MESSAGES_0" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_MESSAGES_2" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_MESSAGES_3_10" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_MESSAGES_many" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_MESSAGE_FWDS_0" = "%2$@|%1$@: %3$d Forwarded messages";
+"PUSH_CHAT_MESSAGE_FWDS_2" = "%2$@|%1$@: %3$d Forwarded messages";
+"PUSH_CHAT_MESSAGE_FWDS_3_10" = "%2$@|%1$@: %3$d Forwarded messages";
+"PUSH_CHAT_MESSAGE_FWDS_many" = "%2$@|%1$@: %3$d Forwarded messages";
+"PUSH_CHAT_MESSAGE_PHOTOS_0" = "%2$@|%1$@: 📷 %3$d photos";
+"PUSH_CHAT_MESSAGE_PHOTOS_2" = "%2$@|%1$@: 📷 %3$d photos";
+"PUSH_CHAT_MESSAGE_PHOTOS_3_10" = "%2$@|%1$@: 📷 %3$d photos";
+"PUSH_CHAT_MESSAGE_PHOTOS_many" = "%2$@|%1$@: 📷 %3$d photos";
+"PUSH_CHAT_MESSAGE_ROUNDS_0" = "%2$@|%1$@: %3$d video messages";
+"PUSH_CHAT_MESSAGE_ROUNDS_2" = "%2$@|%1$@: %3$d video messages";
+"PUSH_CHAT_MESSAGE_ROUNDS_3_10" = "%2$@|%1$@: %3$d video messages";
+"PUSH_CHAT_MESSAGE_ROUNDS_many" = "%2$@|%1$@: %3$d video messages";
+"PUSH_CHAT_MESSAGE_VIDEOS_0" = "%2$@|%1$@: 🎞 %3$d videos";
+"PUSH_CHAT_MESSAGE_VIDEOS_2" = "%2$@|%1$@: 🎞 %3$d videos";
+"PUSH_CHAT_MESSAGE_VIDEOS_3_10" = "%2$@|%1$@: 🎞 %3$d videos";
+"PUSH_CHAT_MESSAGE_VIDEOS_many" = "%2$@|%1$@: 🎞 %3$d videos";
+"PUSH_MESSAGES_0" = "%1$@|📷 Album";
+"PUSH_MESSAGES_2" = "%1$@|📷 Album";
+"PUSH_MESSAGES_3_10" = "%1$@|📷 Album";
+"PUSH_MESSAGES_many" = "%1$@|📷 Album";
+"PUSH_MESSAGE_ALBUM" = "%1$@|📷 Album";
+"PUSH_MESSAGE_FWDS_0" = "%1$@|%2$d Forwarded messages";
+"PUSH_MESSAGE_FWDS_2" = "%1$@|%2$d Forwarded messages";
+"PUSH_MESSAGE_FWDS_3_10" = "%1$@|%2$d Forwarded messages";
+"PUSH_MESSAGE_FWDS_many" = "%1$@|%2$d Forwarded messages";
+"PUSH_MESSAGE_PHOTOS_0" = "%1$@|📷 %2$d photos";
+"PUSH_MESSAGE_PHOTOS_2" = "%1$@|📷 %2$d photos";
+"PUSH_MESSAGE_PHOTOS_3_10" = "%1$@|📷 %2$d photos";
+"PUSH_MESSAGE_PHOTOS_many" = "%1$@|📷 %2$d photos";
+"PUSH_MESSAGE_ROUNDS_0" = "%1$@|%2$d video messages";
+"PUSH_MESSAGE_ROUNDS_2" = "%1$@|%2$d video messages";
+"PUSH_MESSAGE_ROUNDS_3_10" = "%1$@|%2$d video messages";
+"PUSH_MESSAGE_ROUNDS_many" = "%1$@|%2$d video messages";
+"PUSH_MESSAGE_VIDEOS_0" = "%1$@|🎞 %2$d videos";
+"PUSH_MESSAGE_VIDEOS_2" = "%1$@|🎞 %2$d videos";
+"PUSH_MESSAGE_VIDEOS_3_10" = "%1$@|🎞 %2$d videos";
+"PUSH_MESSAGE_VIDEOS_many" = "%1$@|🎞 %2$d videos";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "You need to have Telegram Messenger installed to use Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "Not Now";
 "PassportKit.Button.GetTelegramAlertTitle" = "Get Telegram Messenger";
 "PassportKit.Button.Title" = "Log in with Telegram";
 "Peer.DeletedUser" = "Deleted User";
+"ScheduledMessages.ScheduledToday" = "Scheduled for today";
 "SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
 "StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.\nUnused sets are archived when you add more.";
 "Undo.MessagesDeleted" = "Messages deleted";
+"VoiceOver.Chat.ContactEmailCount_0" = "%@ email addresses";
+"VoiceOver.Chat.ContactEmailCount_2" = "%@ email addresses";
+"VoiceOver.Chat.ContactEmailCount_3_10" = "%@ email addresses";
+"VoiceOver.Chat.ContactEmailCount_many" = "%@ email addresses";
+"VoiceOver.Chat.ContactPhoneNumberCount_0" = "%@ phone numbers";
+"VoiceOver.Chat.ContactPhoneNumberCount_2" = "%@ phone numbers";
+"VoiceOver.Chat.ContactPhoneNumberCount_3_10" = "%@ phone numbers";
+"VoiceOver.Chat.ContactPhoneNumberCount_many" = "%@ phone numbers";
+"VoiceOver.Chat.PollOptionCount_0" = "%@ options:";
+"VoiceOver.Chat.PollOptionCount_2" = "%@ options:";
+"VoiceOver.Chat.PollOptionCount_3_10" = "%@ options:";
+"VoiceOver.Chat.PollOptionCount_many" = "%@ options:";
+"VoiceOver.Chat.PollVotes_0" = "%@ votes";
+"VoiceOver.Chat.PollVotes_2" = "%@ votes";
+"VoiceOver.Chat.PollVotes_3_10" = "%@ votes";
+"VoiceOver.Chat.PollVotes_many" = "%@ votes";
