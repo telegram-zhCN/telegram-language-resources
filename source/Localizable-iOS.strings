@@ -204,7 +204,7 @@
 "PUSH_CONTACT_JOINED" = "%1$@|joined Telegram!";
 
 "PUSH_AUTH_UNKNOWN" = "New login|from %1$@";
-"PUSH_AUTH_REGION" = "New login|Device: %1$@; location: %2$@";
+"PUSH_AUTH_REGION" = "New login|Device: %1$@. Location: %2$@";
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|Incoming call!";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|Missed call";

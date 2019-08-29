@@ -298,6 +298,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_notification_hide_all" = "全部隐藏";
 "lng_notification_sample" = "这是一个示例通知";
 
+
 "lng_settings_section_general" = "通用";
 "lng_settings_change_lang" = "更换语言";
 "lng_languages" = "选择语言";
@@ -385,10 +386,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_stickers_emoji" = "贴纸和 Emoji";
 "lng_settings_messages" = "消息";
 "lng_settings_themes" = "主题";
-"lng_settings_theme_blue" = "蓝色";
+
 "lng_settings_theme_classic" = "经典";
-"lng_settings_theme_midnight" = "午夜";
-"lng_settings_theme_matrix" = "矩阵";
+
+
+
 "lng_settings_data_storage" = "数据与存储";
 "lng_settings_information" = "编辑资料";
 "lng_settings_passcode_title" = "设置锁定码";
@@ -628,6 +630,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_exceptions" = "添加用户或群组以覆盖上面的设置。";
 "lng_edit_privacy_phone_number_always_title" = "总是共享给";
 "lng_edit_privacy_phone_number_never_title" = "从不共享给";
+
+
+
 
 "lng_edit_privacy_lastseen_title" = "最后上线时间隐私设置";
 "lng_edit_privacy_lastseen_header" = "谁可以看到您的最后上线时间";
@@ -1240,6 +1245,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_send_button" = "发送";
 "lng_send_silent_message" = "静音发送";
+
+
+
+
+
 "lng_message_ph" = "输入消息...";
 "lng_broadcast_ph" = "发布消息...";
 "lng_broadcast_silent_ph" = "静默广播..";
@@ -1258,6 +1268,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_saved_messages" = "收藏夹";
 "lng_saved_short" = "保存";
 "lng_saved_forward_here" = "转发消息到这里以便快速访问";
+
+
+
 
 "lng_archived_name" = "已归档对话";
 "lng_archived_add" = "归档对话";
@@ -1386,6 +1399,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";
 "lng_context_forward_msg" = "转发";
+
 "lng_context_delete_msg" = "删除消息";
 "lng_context_select_msg" = "选择此消息";
 "lng_context_report_msg" = "举报";
@@ -1395,6 +1409,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_copy_selected" = "复制所选内容";
 "lng_context_copy_selected_items" = "复制所选内容";
 "lng_context_forward_selected" = "转发所选内容";
+
 "lng_context_delete_selected" = "删除所选内容";
 "lng_context_clear_selection" = "取消选择";
 "lng_send_image_empty" = "无法发送空文件: {name}";
@@ -1472,6 +1487,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_clear" = "取消";
 "lng_selected_delete" = "删除";
 "lng_selected_forward" = "转发";
+
 "lng_selected_cancel_sure_this" = "取消上传？";
 "lng_selected_upload_stop" = "停止";
 "lng_selected_delete_sure_this" = "您确定要删除此消息？";
@@ -2307,6 +2323,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_no_data_cached" = "无任何缓存！";
 "lng_settings_peer_to_peer" = "端对端连接";
 "lng_settings_self_destruct" = "帐号自毁设置";
+"lng_settings_theme_blue" = "蓝色";
+"lng_settings_theme_matrix" = "矩阵";
+"lng_settings_theme_midnight" = "午夜";
 "lng_sure_add_admin_unban" = "此用户当前正被限制或封禁。是否确定将其解封并提升至管理员？";
 "lng_sure_ban_user_channel" = "您确定要在频道中封禁 {user} 吗？";
 "lng_sure_ban_user_group" = "您确定要要在群组中封禁 {user} 吗？";
