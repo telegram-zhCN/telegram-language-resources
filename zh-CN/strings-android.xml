@@ -357,6 +357,7 @@
     <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
     <string name="ChannelUserAddLimit">抱歉，您只能将至多 200 名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
     <string name="ChannelTooMuch">抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。</string>
+    <string name="ChannelTooMuchJoin">Sorry, you are a member of too many groups and channels. Please leave some before joining a new one.</string>
     <string name="ChannelAddedBy">un1 将您添加到了此频道</string>
     <string name="ChannelJoined">您加入了这个频道</string>
     <string name="ChannelMegaJoined">您加入了这个群组</string>
@@ -690,6 +691,7 @@
     <string name="InstantView">即时预览</string>
     <string name="OpenGroup">查看群组</string>
     <string name="OpenBackground">查看背景图</string>
+    <string name="OpenTheme">VIEW THEME</string>
     <string name="OpenChannel">查看频道</string>
     <string name="OpenMessage">查看消息</string>
     <string name="InstantViewNightMode">暗色主题将会在夜间自动启用</string>
@@ -711,6 +713,7 @@
     <string name="ChatDocument">文件</string>
     <string name="ChatCamera">相机</string>
     <string name="NoMessages">暂无消息...</string>
+    <string name="NoScheduledMessages">No scheduled messages here yet...</string>
     <string name="ForwardedMessage">转发的消息</string>
     <string name="From">来自</string>
     <string name="FromFormatted">来自 %1$s</string>
@@ -718,6 +721,7 @@
     <string name="NoRecent">没有最近使用</string>
     <string name="Message">消息</string>
     <string name="TypeMessage">输入消息</string>
+    <string name="TypeScheduleMessage">Schedule message</string>
     <string name="ShareMyPhone">分享我的电话号码</string>
     <string name="ShareMyContactInfo">分享我的联系方式</string>
     <string name="AddToContacts">添加到通讯录</string>
@@ -879,12 +883,26 @@
     <string name="SlowModeHint">慢速模式已启用。您可以\n在%1$s后发送下一条消息</string>
     <string name="TapForVideo">点按照相，按住录像</string>
     <string name="SendWithoutSound">静音发送</string>
+    <string name="MessageScheduleSend">Send Now</string>>
+    <string name="MessageScheduleEditTime">Reschedule</string>
+    <string name="MessageScheduleToday">Today</string>
+    <string name="Schedule">Schedule</string>
+    <string name="ScheduleMessage">Schedule message</string>
+    <string name="ScheduledMessages">Scheduled messages</string>
+    <string name="Reminders">Reminders</string>
+    <string name="SetReminder">Set a reminder</string>
+    <string name="MessageScheduledOn">Scheduled for %1$s</string>
+    <string name="MessageScheduledLimitReached">Sorry, you can not schedule more than 100 messages.</string>
+    <string name="MessageScheduledBotAction">This action will become available after the message is published.</string>
+    <string name="MessageScheduledVote">Voting will become available after the message is published.</string>
+    <string name="MessageScheduledReminderNotification">&#128197; Reminder</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
     <string name="MessageLifetimeRemoved">%1$s 取消了阅后即焚计时器</string>
     <string name="MessageLifetimeYouRemoved">您取消了阅后即焚计时器</string>
     <string name="YouHaveNewMessage">您有一条新消息</string>
+    <string name="NotificationMessageScheduled">&#128197; You: %1$s</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s 发送给你 %2$s</string>
     <string name="NotificationMessageAlbum">%1$s 给您发送了一组图片</string>
@@ -1212,6 +1230,8 @@
     <string name="ColorTheme">色彩主题</string>
     <string name="BuiltInThemes">内置主题</string>
     <string name="CustomThemes">自定义主题</string>
+    <string name="ThemeSetUrl">Set link</string>
+    <string name="ThemeUrl">Theme Link</string>
     <string name="ChatList">对话列表视图</string>
     <string name="ChatListDefault">双行</string>
     <string name="ChatListExpanded">三行</string>
@@ -1221,9 +1241,20 @@
     <string name="SelectColor">选择颜色</string>
     <string name="ColorThemes">色彩主题</string>
     <string name="ShowAllThemes">显示所有主题</string>
+    <string name="ThemeNotFound">Theme not found</string>
     <string name="CreateNewThemeMenu">创建新主题</string>
     <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
     <string name="CreateNewThemeAlert">您可以通过更改应用中的颜色来创建自己的主题。\n\n您可以随时切换回默认的 Telegram 主题。</string>
+    <string name="ThemeHelpLink">Your theme will be updated for all users each time you change it. Anyone can install it using this link:\n%1$s</string>
+    <string name="ThemeSetUrlHelp">You can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.</string>
+    <string name="SetUrlInvalid">Sorry, this link is invalid.</string>
+    <string name="SetUrlInvalidShort">A link must have at least 5 characters.</string>
+    <string name="SetUrlInvalidLong">The link must not exceed 64 characters.</string>
+    <string name="SetUrlInvalidStartNumber">Sorry, the link can\'t start with a number.</string>
+    <string name="SetUrlChecking">Checking link...</string>
+    <string name="SetUrlInUse">Sorry, this link is already taken.</string>
+    <string name="SetUrlAvailable">%1$s is available.</string>
+    <string name="SetUrlPlaceholder">Link</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
@@ -2093,7 +2124,9 @@
     <string name="PrivacyProfilePhotoInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyPhone">手机号码</string>
     <string name="PrivacyPhoneTitle">谁可以看到我的手机号码？</string>
+    <string name="PrivacyPhoneTitle2">Who can find me by my number?</string>
     <string name="PrivacyPhoneInfo">已将您的手机号码保存在其联系人中的用户将在 Telegram 上看到该号码。</string>
+    <string name="PrivacyPhoneInfo3">Users who add your number to their contacts will see it on Telegram only if they are your contacts.</string>
     <string name="PrivacyPhoneInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwards">引用转发来源</string>
     <string name="PrivacyForwardsEverybody">可以链接到您的帐户</string>
@@ -2959,7 +2992,14 @@
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">a h:mm</string>
     <string name="formatDateAtTime">%1$s %2$s</string>
-    <string name="formatDateScheduleDay">MMMd日EEEE</string>
+    <string name="formatDateSchedule">MMM d</string>
+    <string name="formatDateScheduleYear">MMM d yyyy</string>
+    <string name="SendTodayAt">\'Send today at\' HH:mm</string>
+    <string name="SendDayAt">\'Send on\' MMM d \'at\' HH:mm</string>
+    <string name="SendDayYearAt">\'Send on\' MMM d yyyy \'at\' HH:mm</string>
+    <string name="RemindTodayAt">\'Remind today at\' HH:mm</string>
+    <string name="RemindDayAt">\'Remind on\' MMM d \'at\' HH:mm</string>
+    <string name="RemindDayYearAt">\'Remind on\' MMM d yyyy \'at\' HH:mm</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -3030,6 +3070,7 @@
   <string name="_tg_cancel">取消</string>
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
+  <string name="formatDateScheduleDay">MMMd日EEEE</string>
   <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>

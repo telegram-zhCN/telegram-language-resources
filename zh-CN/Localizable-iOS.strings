@@ -4335,7 +4335,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.OpenBotLinkOpen" = "打开";
 
 "TextFormat.Link" = "链接";
-
+"TextFormat.Strikethrough" = "删除线";
 "TextFormat.Underline" = "下划线";
 
 "TextFormat.AddLinkTitle" = "添加链接";
@@ -4500,8 +4500,8 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "Group.EditAdmin.RankTitle" = "自定义头衔";
-
-
+"Group.EditAdmin.RankInfo" = "一个自定义的头衔将展示给所有成员而不是'%@'.";
+"Group.EditAdmin.RankOwnerPlaceholder" = "所有者";
 "Group.EditAdmin.RankAdminPlaceholder" = "管理员";
 
 "Conversation.SendMessage.SendSilently" = "静音发送";

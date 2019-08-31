@@ -831,6 +831,9 @@
 "Chat.Header.ReportSpam" = "举报骚扰行为";
 "Chat.Confirm.Unpin" = "您确定要取消置顶此消息吗？";
 
+
+
+
 "StickerPack.Add1_countable" = "%d";
 
 
@@ -869,6 +872,8 @@
 "LinkInvation.Channel.Confirm.Revoke" = "您确定要撤销这个邀请链接吗？一旦撤销，其他人将无法使用此链接加入这个频道。";
 "LinkInvation.Confirm.Ok" = "撤销";
 "ChannelMembers.Select.Title" = "邀请新成员";
+
+
 "PeerInfo.Confirm.StartSecretChat" = "您确定要和 \"%@\" 开始加密对话吗？";
 
 
@@ -1008,6 +1013,8 @@
 
 
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
+
+
 
 "Login.Header.Code" = "输入验证码";
 "Login.Header.Password" = "输入密码";
@@ -2602,6 +2609,7 @@
 
 
 
+
 "Chat.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Chat.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
 
@@ -2703,6 +2711,8 @@
 "NewPoll.OptionsDescriptionLimitReached" = "您添加的选项已达最大数量。";
 
 "NewPoll.DisacardConfirm" = "您确定要放弃发起新投票吗？";
+
+
 "NewPoll.DisacardConfirm.Yes" = "放弃发起投票";
 "NewPoll.DisacardConfirm.No" = "取消";
 
@@ -3239,6 +3249,7 @@
 
 
 
+
 "Channel.Permissions.SlowMode.Timeout.Off" = "关闭";
 "Channel.Permissions.SlowMode.Timeout.10s" = "10 秒";
 "Channel.Permissions.SlowMode.Timeout.30s" = "30 秒";
@@ -3252,11 +3263,100 @@
 
 
 
-
+"Channel.Admin.Role.Admin.Desc" = "一个自定义的头衔将展示给所有成员而不是'管理员'.";
 
 
 
 "Chat.Send.WithoutSound" = "静音发送";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -624,7 +624,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_phone_number_title" = "Phone number privacy";
 "lng_edit_privacy_phone_number_header" = "Who can see my phone number";
-"lng_edit_privacy_phone_number_warning" = "Users who already have your number saved in their contacts will also see it on Telegram.";
+"lng_edit_privacy_phone_number_warning" = "Users who have your number saved in their contacts will also see it on Telegram.";
 "lng_edit_privacy_phone_number_always_empty" = "Always share with";
 "lng_edit_privacy_phone_number_never_empty" = "Never share with";
 "lng_edit_privacy_phone_number_exceptions" = "Add users or groups to override the settings above.";
