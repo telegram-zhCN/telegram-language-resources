@@ -109,9 +109,9 @@
 "PUSH_MESSAGE_ROUNDS_1" = "%1$@|📺 Video message";
 "PUSH_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d video messages";
 "PUSH_MESSAGE" = "%1$@|New message";
-"PUSH_MESSAGES_1" = "%1$@|📷 Album";
-"PUSH_MESSAGES_any" = "%1$@|📷 Album";
-"PUSH_ALBUM" = "%1$@|📷 Album";
+"PUSH_MESSAGES_1" = "%1$@|📷📹 Album";
+"PUSH_MESSAGES_any" = "%1$@|📷📹 Albums";
+"PUSH_ALBUM" = "%1$@|📷📹 Album";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|New message";
@@ -183,7 +183,7 @@
 "PUSH_CHAT_MESSAGE" = "%2$@|%1$@: Message";
 "PUSH_CHAT_MESSAGES_1" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 Album";
-"PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 Album";
 
 "PUSH_PINNED_TEXT" = "%1$@|📌 Pinned \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|📌 Pinned a message";
@@ -4980,10 +4980,10 @@ Any member of this group will be able to see messages in the channel.";
 "PUSH_CHAT_MESSAGE_VIDEOS_2" = "%2$@|%1$@: 📹 %3$d videos";
 "PUSH_CHAT_MESSAGE_VIDEOS_3_10" = "%2$@|%1$@: 📹 %3$d videos";
 "PUSH_CHAT_MESSAGE_VIDEOS_many" = "%2$@|%1$@: 📹 %3$d videos";
-"PUSH_MESSAGES_0" = "%1$@|📷 Album";
-"PUSH_MESSAGES_2" = "%1$@|📷 Album";
-"PUSH_MESSAGES_3_10" = "%1$@|📷 Album";
-"PUSH_MESSAGES_many" = "%1$@|📷 Album";
+"PUSH_MESSAGES_0" = "%1$@|📷📹 Albums";
+"PUSH_MESSAGES_2" = "%1$@|📷📹 Albums";
+"PUSH_MESSAGES_3_10" = "%1$@|📷📹 Albums";
+"PUSH_MESSAGES_many" = "%1$@|📷📹 Albums";
 "PUSH_MESSAGE_ALBUM" = "%1$@|📷 Album";
 "PUSH_MESSAGE_FWDS_0" = "%1$@|%2$d forwarded messages";
 "PUSH_MESSAGE_FWDS_2" = "%1$@|%2$d forwarded messages";

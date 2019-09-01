@@ -903,6 +903,7 @@
     <string name="MessageLifetimeYouRemoved">You disabled the self-destruct timer</string>
     <string name="YouHaveNewMessage">You have a new message</string>
     <string name="NotificationMessageScheduled">&#128197; You: %1$s</string>
+    <string name="NotificationMessageScheduledName">&#128197; You</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s sent you %2$s</string>
     <string name="NotificationMessageAlbum">%1$s sent you an album</string>

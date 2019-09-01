@@ -903,6 +903,7 @@
     <string name="MessageLifetimeYouRemoved">您取消了阅后即焚计时器</string>
     <string name="YouHaveNewMessage">您有一条新消息</string>
     <string name="NotificationMessageScheduled">&#128197; You: %1$s</string>
+    <string name="NotificationMessageScheduledName">&#128197; You</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s 发送给你 %2$s</string>
     <string name="NotificationMessageAlbum">%1$s 给您发送了一组图片</string>
