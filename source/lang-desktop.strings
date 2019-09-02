@@ -1758,7 +1758,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_title" = "Filter";
 "lng_admin_log_filter_all_actions" = "All actions";
 "lng_admin_log_filter_restrictions" = "New restrictions";
-"lng_admin_log_filter_admins_new" = "New admins";
+"lng_admin_log_filter_admins_new" = "Admin rights";
 "lng_admin_log_filter_members_new" = "New members";
 "lng_admin_log_filter_info_group" = "Group info";
 "lng_admin_log_filter_info_channel" = "Channel info";

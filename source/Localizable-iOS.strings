@@ -2626,7 +2626,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.EventsTitle" = "ACTIONS";
 "Channel.AdminLogFilter.EventsAll" = "All Actions";
 "Channel.AdminLogFilter.EventsRestrictions" = "New Restrictions";
-"Channel.AdminLogFilter.EventsAdmins" = "New Admins";
+"Channel.AdminLogFilter.EventsAdmins" = "Admin Rights";
 "Channel.AdminLogFilter.EventsNewMembers" = "New Members";
 "Channel.AdminLogFilter.EventsInfo" = "Group Info";
 "Channel.AdminLogFilter.ChannelEventsInfo" = "Channel Info";

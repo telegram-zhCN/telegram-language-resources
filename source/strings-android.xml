@@ -629,7 +629,7 @@
     <string name="EventLogPromotedPinMessages">Pin messages</string>
     <string name="EventLogFilterAll">All actions</string>
     <string name="EventLogFilterNewRestrictions">New exceptions</string>
-    <string name="EventLogFilterNewAdmins">New admins</string>
+    <string name="EventLogFilterNewAdmins">Admin rights</string>
     <string name="EventLogFilterNewMembers">New members</string>
     <string name="EventLogFilterGroupInfo">Group info</string>
     <string name="EventLogFilterChannelInfo">Channel info</string>

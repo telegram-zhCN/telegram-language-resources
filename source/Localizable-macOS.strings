@@ -1415,7 +1415,7 @@
 "Telegram.ChannelEventLogController" = "All Actions";
 
 "ChannelEventFilter.NewRestrictions" = "New Restrictions";
-"ChannelEventFilter.NewAdmins" = "New Admins";
+"ChannelEventFilter.NewAdmins" = "Admin Rights";
 "ChannelEventFilter.NewMembers" = "New Members";
 "ChannelEventFilter.GroupInfo" = "Group Info";
 "ChannelEventFilter.ChannelInfo" = "Channel Info";
