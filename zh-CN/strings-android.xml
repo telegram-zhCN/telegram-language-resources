@@ -1244,10 +1244,15 @@
     <string name="ShowAllThemes">显示所有主题</string>
     <string name="ThemeNotFound">Theme not found</string>
     <string name="CreateNewThemeMenu">创建新主题</string>
+    <string name="NewThemeTitle">New Theme</string>
+    <string name="EditThemeTitle">Edit Theme</string>
     <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
     <string name="CreateNewThemeAlert">您可以通过更改应用中的颜色来创建自己的主题。\n\n您可以随时切换回默认的 Telegram 主题。</string>
-    <string name="ThemeHelpLink">Your theme will be updated for all users each time you change it. Anyone can install it using this link:\n%1$s</string>
     <string name="ThemeSetUrlHelp">You can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.</string>
+    <string name="ThemeHelpLink">Your theme will be updated for all users each time you change it. Anyone can install it using this link:\n%1$s</string>
+    <string name="ThemeCreateHelp">Anyone can install your theme using this link. When you change the theme, it will be updated for all users who installed it.\n\nThe theme will be based on your currently selected theme and wallpaper.</string>
+    <string name="ThemeCreateHelp2">You can change the link of your theme.\n\nTheme links must be longer than 5 characters and can use a-z, 0-9 and underscores.</string>
+    <string name="ThemeNameInvalid">Sorry, theme name is invalid.</string>
     <string name="SetUrlInvalid">Sorry, this link is invalid.</string>
     <string name="SetUrlInvalidShort">A link must have at least 5 characters.</string>
     <string name="SetUrlInvalidLong">The link must not exceed 64 characters.</string>
@@ -1256,6 +1261,22 @@
     <string name="SetUrlInUse">Sorry, this link is already taken.</string>
     <string name="SetUrlAvailable">%1$s is available.</string>
     <string name="SetUrlPlaceholder">Link</string>
+    <string name="ThemeNamePlaceholder">Name</string>
+    <string name="ThemePreviewTitle">Reinhardt</string>
+    <string name="ThemePreviewLine1">Reinhardt, we need to find you some new tunes \uD83C\uDFB6.</string>
+    <string name="ThemePreviewLine2">I can\'t even take you seriously right now.</string>
+    <string name="ThemePreviewLine3">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
+    <string name="ThemePreviewLine3Reply">Lucio</string>
+    <string name="ThemePreviewLine4">Bring it on! I LIVE for this!</string>
+    <string name="ThemePreviewSongTitle">True Survivor</string>
+    <string name="ThemePreviewSongPerformer">David Hasselhoff</string>
+    <string name="NewThemePreviewName">Bob Harris</string>
+    <string name="NewThemePreviewReply">Good morning! &#128075;</string>
+    <string name="NewThemePreviewLine1">Do you know what time it is?</string>
+    <string name="NewThemePreviewLine2">It\'s morning in Tokyo &#128526;</string>
+    <string name="UseDifferentTheme">Use a different theme</string>
+    <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
+    <string name="ChooseTheme">Choose theme</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
@@ -2893,6 +2914,12 @@
     <string name="MediaSelected_few">已选择 %1$d 个媒体</string>
     <string name="MediaSelected_many">已选择 %1$d 个媒体</string>
     <string name="MediaSelected_other">已选择 %1$d 个媒体</string>
+    <string name="ThemeInstallCount_zero">%1$d people are using this theme</string>
+    <string name="ThemeInstallCount_one">%1$d person is using this theme</string>
+    <string name="ThemeInstallCount_two">%1$d people are using this theme</string>
+    <string name="ThemeInstallCount_few">%1$d people are using this theme</string>
+    <string name="ThemeInstallCount_many">%1$d people are using this theme</string>
+    <string name="ThemeInstallCount_other">%1$d people are using this theme</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
