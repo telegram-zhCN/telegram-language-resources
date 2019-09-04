@@ -1263,7 +1263,7 @@
     <string name="SetUrlPlaceholder">Link</string>
     <string name="ThemeNamePlaceholder">Name</string>
     <string name="ThemePreviewTitle">Reinhardt</string>
-    <string name="ThemePreviewLine1">Reinhardt, we need to find you some new tunes \uD83C\uDFB6.</string>
+    <string name="ThemePreviewLine1">Reinhardt, we need to find you some new tunes &#127926;.</string>
     <string name="ThemePreviewLine2">I can\'t even take you seriously right now.</string>
     <string name="ThemePreviewLine3">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
     <string name="ThemePreviewLine3Reply">Lucio</string>
@@ -1277,6 +1277,7 @@
     <string name="UseDifferentTheme">Use a different theme</string>
     <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
     <string name="ChooseTheme">Choose theme</string>
+    <string name="ExportTheme">Export</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
