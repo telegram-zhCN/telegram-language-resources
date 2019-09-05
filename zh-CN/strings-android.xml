@@ -1243,6 +1243,7 @@
     <string name="ColorThemes">色彩主题</string>
     <string name="ShowAllThemes">显示所有主题</string>
     <string name="ThemeNotFound">Theme not found</string>
+    <string name="ThemeNotSupported">Sorry, this color theme doesn’t support your device yet.</string>
     <string name="CreateNewThemeMenu">创建新主题</string>
     <string name="NewThemeTitle">New Theme</string>
     <string name="EditThemeTitle">Edit Theme</string>
@@ -1278,6 +1279,7 @@
     <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
     <string name="ChooseTheme">Choose theme</string>
     <string name="ExportTheme">Export</string>
+    <string name="Create">Create</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>

@@ -1243,6 +1243,7 @@
     <string name="ColorThemes">Color Themes</string>
     <string name="ShowAllThemes">Show all Themes</string>
     <string name="ThemeNotFound">Theme not found</string>
+    <string name="ThemeNotSupported">Sorry, this color theme doesn’t support your device yet.</string>
     <string name="CreateNewThemeMenu">Create new theme</string>
     <string name="NewThemeTitle">New Theme</string>
     <string name="EditThemeTitle">Edit Theme</string>
@@ -1278,6 +1279,7 @@
     <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
     <string name="ChooseTheme">Choose theme</string>
     <string name="ExportTheme">Export</string>
+    <string name="Create">Create</string>
     <!--settings view-->
     <string name="ResetNotificationsText">All notification settings reset to default</string>
     <string name="ResetNotificationsAlert">Are you sure you want to reset all notification settings to default?</string>

@@ -2628,7 +2628,7 @@
   <string name="ChannelLinkSet">Tap to set public channel link</string>
 
   <string name="AgeVerification_one">You must be at least %1$s year old to use Telegram.</string>
-  <string name="AgeVerification_other">You must be at least %1$s years old to use Telegram</string>
+  <string name="AgeVerification_other">You must be at least %1$s years old to use Telegram.</string>
 
   <string name="TermsOfService">Terms of Service</string>
   <string name="TermsOfServiceDone">Agree</string>
@@ -2698,10 +2698,10 @@
   <string name="AddXStickers_two">Add %1$s stickers</string>
   <string name="AddXStickers_few">Add %1$s stickers</string>
   <string name="AddXStickers_many">Add %1$s stickers</string>
-  <string name="AgeVerification_zero">You must be at least %1$s years old to use Telegram</string>
-  <string name="AgeVerification_two">You must be at least %1$s years old to use Telegram</string>
-  <string name="AgeVerification_few">You must be at least %1$s years old to use Telegram</string>
-  <string name="AgeVerification_many">You must be at least %1$s years old to use Telegram</string>
+  <string name="AgeVerification_zero">You must be at least %1$s years old to use Telegram.</string>
+  <string name="AgeVerification_two">You must be at least %1$s years old to use Telegram.</string>
+  <string name="AgeVerification_few">You must be at least %1$s years old to use Telegram.</string>
+  <string name="AgeVerification_many">You must be at least %1$s years old to use Telegram.</string>
   <string name="AppBadge">Unread Count Badge</string>
   <string name="AppBadgeAll">From all chats</string>
   <string name="AppBadgeDisabled">Disabled</string>
