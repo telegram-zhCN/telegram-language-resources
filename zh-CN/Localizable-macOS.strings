@@ -476,7 +476,7 @@
 
 
 "Presence.bot" = "机器人";
-
+"Presence.Support" = "支持";
 "CreateGroup.NameHolder" = "群组名称";
 "Telegram.ChannelIntroViewController" = "频道";
 "Channel.IntroDescriptionHeader" = "什么是频道？";
@@ -601,7 +601,7 @@
 "Peer.Activity.Chat.RecordingAudio" = "%@ 正在录制语音留言";
 "Peer.Activity.Chat.SendingFile" = "%@ 正在发送文件";
 
-
+"Peer.Activity.Chat.Multi.PlayingGame1" = "%@ 和 %d 位用户正在游戏";
 "Peer.Activity.Chat.Multi.TypingText1" = "%@ 和其他 %d 人正在输入";
 "Peer.Activity.Chat.Multi.SendingPhoto1" = "%@ 和其他 %d 人正在发送图片";
 "Peer.Activity.Chat.Multi.RecordingVideo1" = "%@ 和其他 %d 人正在录制视频";
@@ -781,7 +781,7 @@
 "Admins.WhoCanInvite.Admins" = "仅管理员";
 "Admins.WhoCanInvite.Everyone" = "所有成员";
 
-
+"Admins.Owner" = "所有者";
 
 
 "Telegram.ChannelVisibilityController" = "群组";
@@ -830,8 +830,8 @@
 "Chat.Header.PinnedMessage" = "置顶消息";
 "Chat.Header.ReportSpam" = "举报骚扰行为";
 "Chat.Confirm.Unpin" = "您确定要取消置顶此消息吗？";
-
-
+"Chat.Confirm.Unpin.Header" = "解除消息置顶";
+"Chat.Confirm.Unpin.OK" = "解除置顶";
 
 
 "StickerPack.Add1_countable" = "%d";
@@ -872,10 +872,10 @@
 "LinkInvation.Channel.Confirm.Revoke" = "您确定要撤销这个邀请链接吗？一旦撤销，其他人将无法使用此链接加入这个频道。";
 "LinkInvation.Confirm.Ok" = "撤销";
 "ChannelMembers.Select.Title" = "邀请新成员";
-
-
+"PeerInfo.Confirm.SecretChat.Header" = "加密对话";
+"PeerInfo.Confirm.SecretChat.OK" = "开始";
 "PeerInfo.Confirm.StartSecretChat" = "您确定要和 \"%@\" 开始加密对话吗？";
-
+"PeerInfo.Confirm.ShareInfo" = "您确定将您的手机号码共享给 “%@” 吗？";
 
 
 "PeerInfo.BotStatus.HasNoAccess" = "不能访问消息";
@@ -1010,11 +1010,11 @@
 "InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
 "InstalledStickers.Remove.Delete" = "删除";
 "Alert.UserDoesntExists" = "抱歉，此用户好像不存在。";
-
+"Alert.PrivateChannel.AccessError" = "很遗憾，你无法访问这条消息。你不是消息来源对话的成员。";
 
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
-
-
+"InAppLinks.Confirm.OpenExternal.Header" = "打开链接";
+"InAppLinks.Confirm.OpenExternal.OK" = "打开";
 
 "Login.Header.Code" = "输入验证码";
 "Login.Header.Password" = "输入密码";
@@ -1304,7 +1304,7 @@
 
 "Channel.Admin.TransferOwnership.Confirm.Channel.Title" = "转移频道所有权";
 
-
+"Channel.Admin.TransferOwnership.Confirm.OK" = "转移所有权";
 
 
 
@@ -1333,15 +1333,15 @@
 
 
 
+"Channel.EventLog.Service.DisabledSlowMode" = "%@ 关闭了慢速模式";
+
+"Channel.EventLog.Service.SetSlowMode" = "%@ 将慢速模式设置为 %@";
 
 
 
 
-
-
-
-
-
+"Channel.EventLog.MessageTransferedName" = "将群主权限转移至 %@ (%@)";
+"Channel.EventLog.MessageTransfered" = "转移群主权限";
 
 
 "EventLog.Service.PreviousTitle" = "旧名称";
@@ -1529,8 +1529,8 @@
 "GeneralSettings.DarkMode.Description" = "一套适用于夜间以及深色桌面的配色方案";
 "GeneralSettings.Font.Description" = "信息中使用大字体";
 
-
-
+"GeneralSettings.OpenLatestChatOnLaunch" = "自动打开最新对话";
+"GeneralSettings.AcceptSecretChats" = "接受加密对话";
 
 
 "MessageContext.CopyMessageLink1" = "拷贝消息链接";
@@ -1621,7 +1621,7 @@
 "PreHistorySettings.Description.Group.Hidden" = "新成员只能查看他们加入前的 100 条消息。";
 
 "Chat.AdminBadge" = "管理员";
-
+"Chat.OwnerBadge" = "所有者";
 
 "Chat.ChannelBadge" = "频道";
 
@@ -2341,9 +2341,9 @@
 
 "Chat.MessageAction.ShowMessage" = "显示消息";
 "ProxySettings.ShareProxyList" = "分享代理列表";
-"TermsOfService.Title" = "服务条款";
+"TermsOfService.Title" = "服务协议";
 "TermsOfService.Accept" = "同意并继续";
-
+"TermsOfService.Accept.ConfirmAge" = "确定";
 
 "TermsOfService.Disagree" = "拒绝";
 "TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
@@ -2612,7 +2612,7 @@
 
 "Chat.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Chat.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
-
+"Chat.SendMessageSlowmodeError" = "慢速模式已启用。";
 "Generic.ErrorMoreInfo" = "更多详情";
 
 
@@ -2711,7 +2711,7 @@
 "NewPoll.OptionsDescriptionLimitReached" = "您添加的选项已达最大数量。";
 
 "NewPoll.DisacardConfirm" = "您确定要放弃发起新投票吗？";
-
+"NewPoll.DisacardConfirmHeader" = "投票";
 
 "NewPoll.DisacardConfirm.Yes" = "放弃发起投票";
 "NewPoll.DisacardConfirm.No" = "取消";
@@ -3042,7 +3042,7 @@
 "GeneralSettings.EmojiPrediction.Disable" = "关闭";
 "GeneralSettings.EmojiPrediction" = "根据输入内容推荐 Emoji";
 
-
+"GeneralSettings.StatusBarItem" = "菜单栏物件";
 
 
 "NotificationSettings.ContactJoined" = "新建联系人";
@@ -3078,10 +3078,10 @@
 
 
 "Archive.Tooltip.First.Title" = "对话已归档";
-
+"Archive.Tooltip.First.Text" = "已启用通知的对话将在接收到新消息时被取消归档。";
 
 "Archive.Tooltip.Second.Title" = "对话已归档";
-
+"Archive.Tooltip.Second.Text" = "已关闭通知的对话在接收新消息之后将继续保持归档状态。";
 
 "Archive.Tooltip.Third.Title" = "对话已归档";
 "Archive.Tooltip.Third.Text" = "您可以任意置顶已归档的对话。";
@@ -3093,7 +3093,7 @@
 "ChatList.RevealAction.Expand" = "展开";
 
 
-
+"Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。";
 "PeerInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
 "ChannelInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此频道存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
 "GroupInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此群组存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
@@ -3156,7 +3156,7 @@
 "DiscussionController.Group.Set.UnlinkChannel" = "取消链接频道";
 
 
-
+"DiscussionController.Confrim.UnlinkChannel" = "确定要解除群组与此频道的链接吗？";
 
 
 
@@ -3175,14 +3175,14 @@
 
 
 
+"DiscussionController.Error.OK" = "同意";
 
 
 
 
 
 
-
-
+"Channel.Error.DontHavePermissions" = "抱歉，您没有权限来执行这项操作。";
 
 
 
@@ -3219,33 +3219,33 @@
 
 
 "Group.TransferOwner.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
+"Channel.TransferOwner.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";
+
+"Channel.TransferOwner.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
+
+"Group.TransferOwner.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
+"Channel.TransferOwner.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
+
+"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
 
 
 
 
 
 
+"Channel.Permissions.SlowMode.Text.Off" = "选择每个成员在发送下一条消息之前必须等待的时间。";
+"Channel.Permissions.SlowMode.Text.Selected" = "群组成员在 %@ 内只能发送一条消息";
+
+"Channel.Permissions.SlowMode.Header" = "慢速模式";
 
 
 
 
+"SlowMode.ForwardComment.Error" = "慢速模式已启用，您不能在转发消息的同时评论。";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"SlowMode.PreviewSender.FileTooltip" = "慢速模式已启用。\n您不能一次发送多个文件。";
 
 
 
@@ -3259,12 +3259,12 @@
 "Channel.Permissions.SlowMode.Timeout.1h" = "1 小时";
 
 
-
-
-
+"Channel.Admin.Role.Header" = "自定义头衔";
+"Channel.Admin.Role.Placeholder.Owner" = "所有者";
+"Channel.Admin.Role.Placeholder.Admin" = "管理员";
 
 "Channel.Admin.Role.Admin.Desc" = "一个自定义的头衔将展示给所有成员而不是'管理员'.";
-
+"Channel.Admin.Role.Owner.Desc" = "一个头衔将代替“管理员”显示。";
 
 
 "Chat.Send.WithoutSound" = "静音发送";
@@ -3278,8 +3278,12 @@
 
 
 
+"Chat.Send.SetReminder" = "定时提醒";
+"Chat.Send.ScheduledMessage" = "定时发送";
+"ScheduleController.Title" = "定时消息";
 
 
+"Chat.Title.Reminder" = "提醒";
 
 
 
@@ -3289,11 +3293,15 @@
 
 
 
+"Chat.Context.Scheduled.SendNow" = "立刻发送";
 
 
 
+"Chat.Right.Context.ScheduledMessages" = "定时消息";
+"Chat.Right.Context.Reminder" = "提醒";
 
 
+"Notification.Reminder" = "🗓 提醒";
 
 
 
@@ -3311,23 +3319,36 @@
 
 
 
+"PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
 
 
 
+"NewTheme.Create" = "新建";
+"NewTheme.Title" = "新建主题";
+"NewTheme.Placeholder" = "主题名称";
+"NewTheme.Desc" = "这个主题将基于您当前应用的主题。";
+"NewTheme.EmptyTextError" = "主题名不能为空。";
 
 
 
 
+"Appearance.NewTheme" = "新建主题";
+"Appearance.ExportTheme" = "导出主题";
+"Appearance.Theme.Share" = "分享";
 
 
 
 
 
+"EditTheme.Title" = "编辑主题";
 
+"EditTheme.SelectFile" = "从文件创建...";
 
 
+"EditTheme.SelectFileDesc" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
 
+"EditTheme.NamePlaceholder" = "主题名称";
 
 
 
@@ -3349,15 +3370,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
+"ThemePreview.UsesCount_other" = "%d 人正在使用该主题";
 
 
 

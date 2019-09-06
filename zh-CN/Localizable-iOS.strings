@@ -5,13 +5,13 @@
 "PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|给您发送了一张自毁图片";
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
-"PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
+"PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 "PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
-"PUSH_MESSAGE_GEOLIVE" = "%1$@|正在共享他们的实时位置";
-"PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
+"PUSH_MESSAGE_GEOLIVE" = "%1$@|实时位置";
+"PUSH_MESSAGE_DOC" = "%1$@|📎 文件";
 "PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
-"PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
+"PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_ENCRYPTED_MESSAGE" = "您有一条新消息%1$@";
 "PUSH_LOCKED_MESSAGE" = "您有一条新消息%1$@";
 "PUSH_MESSAGE_SCREENSHOT" = "%1$@|截图了！";
@@ -26,12 +26,12 @@
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
-"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ 发送了一条视频留言";
+"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
-"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ 向群里发送了一条语音留言";
+"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: 🎤 语音留言";
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ 更改了群组名称";
@@ -50,12 +50,12 @@
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
-"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
-"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
-"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
-"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|📹 视频";
+"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
+"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|📎 文件";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
-"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
+"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|🎤 语音留言";
 "PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了 %2$@ 的联系方式";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
@@ -73,7 +73,7 @@
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
-"PUSH_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
+"PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
@@ -85,16 +85,16 @@
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
 "PUSH_MESSAGE_SCREENSHOT" = "%1$@|截图了！";
-"PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
-"PUSH_MESSAGE_DOC" = "%1$@|给您发送了一个文件";
+"PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
+"PUSH_MESSAGE_DOC" = "%1$@|📎 文件";
 "PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
 "PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
 "PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
-"PUSH_MESSAGE_GEOLIVE" = "%1$@|正在共享他们的实时位置";
+"PUSH_MESSAGE_GEOLIVE" = "%1$@|实时位置";
 "PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
-"PUSH_MESSAGE_GIF" = "%1$@|给您发送了一张 GIF";
-"PUSH_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
+"PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
+"PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
 "PUSH_MESSAGE_INVOICE" = "%1$@|给您发送了一张 %2$@ 的账单";
 "PUSH_MESSAGE_FWD" = "%1$@|转发给您一条消息";
 
@@ -105,22 +105,22 @@
 "PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
 
 "PUSH_MESSAGE_VIDEOS_any" = "%1$@|给您发送了 %2$d 段视频";
-"PUSH_MESSAGE_ROUND" = "%1$@|给您发送了一段视频留言";
+"PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
 "PUSH_MESSAGE_ROUNDS_any" = "%1$@|给您发送了 %2$d 条视频留言";
-"PUSH_MESSAGE" = "%1$@|给您发送了一条消息";
+"PUSH_MESSAGE" = "%1$@|新消息";
 
 "PUSH_MESSAGES_any" = "%1$@|给您发送了一组图片";
-
+"PUSH_ALBUM" = "%1$@|📷📹 相册";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
-"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
-"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
-"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
-"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|发布了一个文件";
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|📹 视频";
+"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
+"PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|📎 文件";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
-"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|发布了一条语音留言";
+"PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|🎤 语音留言";
 "PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了 %2$@ 的联系方式";
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
@@ -130,27 +130,27 @@
 "PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|发布了一条转发的消息";
 
 "PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|发布了 %2$d 条转发的消息";
-"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|发布了一张图片";
+"PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
 
-"PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|发布了 %2$d 段视频";
-"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|发布了一段视频";
+"PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d 段视频";
+"PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|📹 视频";
 
-"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|发布了 %2$d 段视频";
-"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|发布了一条视频留言";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 段视频";
+"PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
 "PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|发布了 %2$d 条视频留言";
 "PUSH_CHANNEL_MESSAGE" = "%1$@|发布了一条消息";
 
-"PUSH_CHANNEL_MESSAGES_any" = "%1$@|发布了一组图片";
+"PUSH_CHANNEL_MESSAGES_any" = "%1$@|📷 相册";
 "PUSH_CHANNEL_ALBUM" = "%1$@|发布了一组图片";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
-"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ 发送了一条视频留言";
+"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
 "PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ 向群里发送了一张 %3$@ 贴纸";
-"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@ 向群里发送了一条语音留言";
+"PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: 🎤 语音留言";
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
@@ -177,13 +177,13 @@
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 
 "PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@ 发送了 %3$d 段视频";
-"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@ 发送了一条视频留言";
+"PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 
 "PUSH_CHAT_MESSAGE_ROUNDS_any" = "%2$@|%1$@ 发送了 %3$d 条视频留言";
 "PUSH_CHAT_MESSAGE" = "%2$@|%1$@ 发送了一条消息";
 
 "PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@ 发送了一组图片";
-
+"PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 相册";
 
 "PUSH_PINNED_TEXT" = "%1$@|置顶了 \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|置顶了一条消息";
@@ -198,13 +198,13 @@
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
-"PUSH_PINNED_INVOICE" = "%1$@|置顶了一张账单";
+"PUSH_PINNED_INVOICE" = "%1$@|📌 置顶了一张账单";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
 
 "PUSH_AUTH_UNKNOWN" = "新设备登录|来自陌生设备 %1$@";
-"PUSH_AUTH_REGION" = "新设备登陆登录|来自陌生设备 %1$@, 位置: %2$@";
+"PUSH_AUTH_REGION" = "新设备登录|来自陌生设备 %1$@, 位置: %2$@";
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
@@ -217,7 +217,7 @@
 
 
 
-
+"PUSH_REMINDER_TITLE" = "🗓 提醒";
 
 
 
@@ -1402,7 +1402,7 @@
 "GroupInfo.InviteLink.RevokeAlert.Success" = "旧链接已失效，新链接已生成。";
 "GroupInfo.InviteLink.CopyAlert.Success" = "链接已拷贝到剪贴板。";
 
-"UserInfo.ShareMyContactInfo" = "分享我的联系信息";
+"UserInfo.ShareMyContactInfo" = "分享我的联系方式";
 
 "GroupInfo.InvitationLinkAcceptChannel" = "确定加入频道 \"%@\" ？";
 "GroupInfo.InvitationLinkDoesNotExist" = "抱歉，此群组似乎不存在。";
@@ -4285,7 +4285,7 @@ Sorry for the inconvenience.";
 "PrivacyPhoneNumberSettings.CustomHelp" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
 
 
-
+"PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
 "Privacy.PhoneNumber" = "手机号码";
 "PrivacySettings.PhoneNumber" = "手机号码";
@@ -4392,14 +4392,14 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.OwnershipTransfer.Title" = "转让频道所有权";
 
 "Group.OwnershipTransfer.Title" = "转移群组所有权";
-
+"Group.OwnershipTransfer.DescriptionInfo" = "这会将全部的**所有者权利**从 **%1$@** 转移至 **%2$@** 。\n\n您将不再被视为这个群组的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
 "Channel.OwnershipTransfer.ChangeOwner" = "转移所有权";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
 
-
-
+"Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
+"Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
 
 "Group.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
 "Channel.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";
@@ -4454,7 +4454,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "GroupInfo.Location" = "位置";
 "GroupInfo.PublicLink" = "公开链接";
-
+"GroupInfo.PublicLinkAdd" = "添加";
 
 "Group.PublicLink.Title" = "公开链接";
 
@@ -4481,23 +4481,23 @@ Any member of this group will be able to see messages in the channel.";
 
 "StickerPacksSettings.AnimatedStickers" = "循环播放动画贴纸";
 
-
+"GroupInfo.Permissions.SlowmodeHeader" = "慢速模式";
 "GroupInfo.Permissions.SlowmodeInfo" = "选择每个成员在发送下一条消息之前必须等待的时间。";
-
+"Channel.AdminLog.DisabledSlowmode" = "%@ 关闭了慢速模式";
 "Channel.AdminLog.SetSlowmode" = "%1$@ 将慢速模式定时器设置为 %2$@";
 
 "Chat.SlowmodeTooltip" = "慢速模式已启用。您可以\n在%@后发送下一条消息";
+"Chat.SlowmodeTooltipPending" = "慢速模式已启用。 您不能一次发送多条消息。";
 
 
+"Chat.AttachmentMultipleFilesDisabled" = "慢速模式已启用。您不能一次发送多个文件。";
+"Chat.AttachmentMultipleForwardDisabled" = "慢速模式已启用。您不能一次转发多条消息。";
+"Chat.MultipleTextMessagesDisabled" = "慢速模式已启用。您不能一次发送多条消息。";
+"Share.MultipleMessagesDisabled" = "慢速模式已启用。您不能一次发送多条消息。";
+"Chat.SlowmodeSendError" = "慢速模式已启用。";
 
 
-
-
-
-
-
-
-
+"Conversation.Owner" = "所有者";
 
 "Group.EditAdmin.RankTitle" = "自定义头衔";
 "Group.EditAdmin.RankInfo" = "一个自定义的头衔将展示给所有成员而不是'%@'.";
@@ -4505,7 +4505,7 @@ Any member of this group will be able to see messages in the channel.";
 "Group.EditAdmin.RankAdminPlaceholder" = "管理员";
 
 "Conversation.SendMessage.SendSilently" = "静音发送";
-
+"Conversation.SendMessage.ScheduleMessage" = "定时发送";
 
 
 "Appearance.ThemeCarouselNewNight" = "夜间";
@@ -4562,17 +4562,20 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"VoiceOver.Chat.ContactPhoneNumber" = "手机号码";
 
 
 
 
 
 
+"VoiceOver.Chat.AnonymousPoll" = "匿名投票";
 
 
 
 
 
+"VoiceOver.Chat.PollNoVotes" = "无人投票";
 
 
 
@@ -4597,6 +4600,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Conversation.ScheduleMessage.Title" = "定时消息";
 
 
 
@@ -4607,14 +4611,21 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ScheduledMessages.RemindersTitle" = "提醒";
 
 
+"ScheduledMessages.SendNow" = "立刻发送";
 
 
+"ScheduledMessages.ClearAllConfirmation" = "清空定时消息";
+"ScheduledMessages.Delete" = "删除定时消息";
+"ScheduledMessages.DeleteMany" = "删除定时消息";
+"ScheduledMessages.EmptyPlaceholder" = "暂无定时消息...";
 
 
 
 
+"Conversation.SendMessage.SetReminder" = "定时提醒";
 
 
 
@@ -4623,6 +4634,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"AccentColor.Title" = "强调色";
 
 
 
@@ -4645,17 +4657,31 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"GroupInfo.Permissions.SlowmodeValue.Off" = "关闭";
 
 
 
+"Appearance.CreateTheme" = "创建新主题";
+"Appearance.EditTheme" = "编辑主题";
+"Appearance.ShareTheme" = "分享";
+"Appearance.RemoveTheme" = "移除";
+"Appearance.RemoveThemeConfirmation" = "移除该主题";
 
 
 
 
 
 
+"EditTheme.CreateTitle" = "新建主题";
+"EditTheme.EditTitle" = "编辑主题";
+"EditTheme.Title" = "主题名称";
+"EditTheme.ShortLink" = "链接";
+"EditTheme.Preview" = "对话预览";
+"EditTheme.UploadNewTheme" = "从文件创建...";
 
+"EditTheme.ThemeTemplateAlertTitle" = "新的主题已添加";
 
+"EditTheme.FileReadError" = "主题文件无效";
 
 
 
@@ -4681,43 +4707,17 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"EditTheme.ErrorLinkTaken" = "抱歉，该链接已被占用。";
+"EditTheme.ErrorInvalidCharacters" = "抱歉，该链接包含无效字符。";
 
 
+"Theme.ErrorNotFound" = "抱歉，这个色彩主题不存在。";
+"Theme.Unsupported" = "抱歉，您的设备不支持这个色彩主题。";
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Theme.UsersCount_any" = "%@ 人正在使用该主题";
 
 
 
@@ -4824,6 +4824,7 @@ Any member of this group will be able to see messages in the channel.";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";
 "ENCRYPTION_REQUEST" = "新加密对话请求 %1$@";
+"EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
@@ -4914,6 +4915,7 @@ Any member of this group will be able to see messages in the channel.";
 "PINNED_TEXT_SEPARATED" = "%1$@|置顶了 \"%2$@\"";
 "PINNED_VIDEO" = "%1$@ 置顶了一段视频";
 "PINNED_VIDEO_SEPARATED" = "%1$@|置顶了一段视频";
+"PUSH_MESSAGE_ALBUM" = "%1$@|📷 相册";
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "稍后再说";

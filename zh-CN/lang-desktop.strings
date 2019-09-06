@@ -1,9 +1,9 @@
-/*
-This file is part of Telegram Desktop,
-the official desktop application for the Telegram messaging service.
-
-For license and copyright information please follow this link:
-https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
+/* 
+This file is part of Telegram Desktop, 
+the official desktop application for the Telegram messaging service. 
+ 
+For license and copyright information please follow this link: 
+https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL 
 */
 "lng_language_name" = "简体中文";
 "lng_switch_to_this" = "使用简体中文继续";
@@ -410,6 +410,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#other" = "{count}秒后还原为以前的主题。";
 "lng_theme_keep_changes" = "保留更改";
 "lng_theme_revert" = "还原";
+
 "lng_background_header" = "背景预览";
 "lng_background_text1" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
 "lng_background_text2" = "我现在都无法直视你了。";
@@ -1245,8 +1246,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_send_button" = "发送";
 "lng_send_silent_message" = "静音发送";
-
-
+"lng_schedule_message" = "定时发送";
+"lng_reminder_message" = "定时提醒";
 
 
 
@@ -1270,7 +1271,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_saved_forward_here" = "转发消息到这里以便快速访问";
 
 
-
+"lng_reminder_messages" = "提醒";
 
 
 
@@ -1490,7 +1491,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_clear" = "取消";
 "lng_selected_delete" = "删除";
 "lng_selected_forward" = "转发";
-
+"lng_selected_send_now" = "立刻发送";
 "lng_selected_cancel_sure_this" = "取消上传？";
 "lng_selected_upload_stop" = "停止";
 "lng_selected_delete_sure_this" = "您确定要删除此消息？";
@@ -1876,7 +1877,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 //"lng_info_feed_channels" = "Channels";
 
 "lng_terms_signup" = "注册即代表您同意{link}。";
-"lng_terms_signup_link" = "服务条款";
+"lng_terms_signup_link" = "服务协议";
 "lng_terms_header" = "服务条款";
 
 "lng_terms_age#other" = "我确认我已满 {count} 周岁";

@@ -58,7 +58,7 @@
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">、</string>
   <string name="format_concatSeparatorLast">" 和 "</string>
-  
+  <string name="format_concatSeparatorLastPerson">和</string>
   <string name="format_numberSuffix_thousand">K</string>
   <string name="format_numberSuffix_million">M</string>
   <string name="format_numberSuffix_billion">B</string>
@@ -92,7 +92,7 @@
   <string name="login_Country">国家</string>
   <string name="login_SmsHint">我们会向您的手机号码发送一条验证码短信。</string>
   <string name="login_YourName">您的姓名</string>
-  
+  <string name="Registration">注册</string>
   <string name="login_FirstName">名字</string>
   <string name="LastName">姓氏</string>
   <string name="login_LastName">姓氏（可选）</string>
@@ -330,7 +330,7 @@
   <string name="BlockContact">屏蔽</string>
   <string name="Unblock">取消屏蔽</string>
   <string name="Share">转发 / 分享</string>
-  
+  <string name="ViewAdmins">查看管理员</string>
   <string name="SwipeShare">转发 / 分享</string>
   <string name="SwipeReply">回复</string>
   <string name="edit">编辑</string>
@@ -1091,7 +1091,7 @@
   <string name="VoipBranding">Telegram Call</string>
   <string name="CallBrandingIncoming">Telegram Call 来电</string>
   <string name="OnMobileNetwork">仅限数据网络</string>
-  
+  <string name="OnRoaming">漫游时</string>
   <string name="UseLessDataAlways">总是</string>
   <string name="MicrophonePermission">需要权限</string>
   <string name="MicrophonePermissionDesc">语音通话需要麦克风权限。</string>
@@ -1260,13 +1260,13 @@
   <string name="RestrictedByX">被 %1$s 限制</string>
   <string name="RestrictedByXOnDate">被 %1$s 于 %2$s 限制</string>
   <string name="EditGroup">编辑群组</string>
-  
+  <string name="GroupInfo">群组信息</string>
   <string name="WhoCanAddMembers">邀请新成员权限</string>
   <string name="RecentActionsGroupHint">在过去的 48 小时内群组发生的管理操作。</string>
   <string name="RecentActionsChannelHint">在过去的 48 小时内频道发生的管理操作。</string>
   <string name="Banned">已封禁</string>
   <string name="Private">私人</string>
-  
+  <string name="AllMembers">所有成员</string>
   <string name="OnlyAdmins">仅管理员</string>
   
   <string name="EditAdmin">编辑管理员</string>
@@ -1279,7 +1279,7 @@
   <string name="UserRestrictionsSend">发送消息</string>
   <string name="RightSendMedia">发送媒体</string>
   <string name="UserRestrictionsSendStickers">发送贴纸和 GIF</string>
-  
+  <string name="UserRestrictionsSendPolls">发起投票</string>
   <string name="UserRestrictionsEmbedLinks">显示链接预览</string>
   <string name="RightChangeGroupInfo">修改群组信息</string>
   <string name="RightChangeChannelInfo">修改频道信息</string>
@@ -2073,7 +2073,7 @@
   <string name="ThemeCreateConfirm">创建</string>
   <string name="ThemeCreateTitle">新建主题</string>
   <string name="ThemeName">姓名</string>
-  
+  <string name="ThemeWallpaper">壁纸链接</string>
   <string name="ThemeEdit">编辑</string>
   <string name="ThemeRemove">删除</string>
   <string name="ThemeRemoveConfirm">删除主题</string>
@@ -2117,7 +2117,7 @@
   <string name="ColorAlphaPercentage">不透明%</string>
 
   <string name="ThemeEditName">编辑名称</string>
-  
+  <string name="ThemeEditWallpaper">编辑壁纸</string>
   <string name="ThemeColorFormat">颜色格式</string>
 
   <string name="ThemeCalcTitle">移除透明度</string>
@@ -2385,7 +2385,7 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
 
-  
+  <string name="AllAccounts">消息</string>
 
   <string name="NotificationImportance">通知风格</string>
   <string name="NotificationImportanceHigh">声音与弹窗</string>
@@ -2393,7 +2393,7 @@
   <string name="NotificationImportanceHighMuted">在屏幕上弹窗</string>
   <string name="NotificationImportanceDefault">声音</string>
   <string name="NotificationImportanceDefaultNoSound">振动</string>
-  
+  <string name="NotificationImportanceDefaultMuted">静默</string>
   <string name="NotificationImportanceLow">静音</string>
   
   <string name="NotificationImportanceMin">静音与最小化</string>
@@ -2509,7 +2509,7 @@
   <string name="SelfDestructPhoto">自毁图片</string>
   <string name="SelfDestructVideo">自毁视频</string>
 
-  
+  <string name="InvoiceFor">%1$s 的账单</string>
   <string name="Invoice">账单</string>
 
   
@@ -2624,22 +2624,14 @@
   <string name="AppUpdateReady">Telegram X 已经准备好了更新</string>
   <string name="AppUpdateRestart">重启</string>
 
-  
-  
+  <string name="GroupLinkSet">点击设置公开群组链接</string>
+  <string name="ChannelLinkSet">点击设置公开频道链接</string>
 
   
-  
+  <string name="AgeVerification_other">您必须年满 %1$s 岁才可以使用 Telegram。</string>
 
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
+  <string name="TermsOfService">服务协议</string>
+  <string name="TermsOfServiceDone">同意</string>
 
   
   
@@ -2647,18 +2639,26 @@
   
   
   
+  <string name="PrivacyForwardLinkTitle">引用转发来源</string>
+
+  <string name="PrivacyPhotoNobody">没有人可以看到您的头像</string>
+  <string name="PrivacyPhotoNobodyExcept">没有人 (%1$s) 可以看到您的头像</string>
+  <string name="PrivacyPhotoContacts">只有联系人可以看到您的头像</string>
+  <string name="PrivacyPhotoContactsExcept">只有联系人 (%1$s) 可以看到您的头像</string>
+  <string name="PrivacyPhotoEverybody">每个人都可以看到你的头像</string>
+  <string name="PrivacyPhotoEverybodyExcept">每个人 (%1$s) 都可以看到你的头像</string>
+  <string name="PrivacyPhotoTitle">头像</string>
+
+  <string name="WhoCanForwardLink">谁可以在转发我的消息上附加用户链接？</string>
   
 
   
   
 
   
-  
 
-  
-
-  
-  
+  <string name="AnimatedStickers">动态贴纸</string>
+  <string name="AnimatedStickersInfo">您确定要清除动态贴纸缓存吗？</string>
 
   
   

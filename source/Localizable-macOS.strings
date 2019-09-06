@@ -3294,13 +3294,14 @@
 "Chat.Date.ScheduledFor" = "Scheduled for %@";
 
 "Chat.Context.Scheduled.SendNow" = "Send Now";
-"Chat.Context.Scheduled.Reschedule" = "Reschedule";
+"Chat.Context.Scheduled.Reschedule" = "Re-schedule";
 
 
 "Chat.Right.Context.ScheduledMessages" = "Scheduled Messages";
 "Chat.Right.Context.Reminder" = "Reminder";
 
 "Notification.ScheduledTitle" = "📆 You";
+"Notification.Reminder" = "📆 Reminder";
 
 
 "Join.ChannelsTooMuch" = "Sorry, you are a member of too many groups and channels. Please leave some before joining one.";
@@ -3338,7 +3339,7 @@
 "Appearance.CloudThemes" = "CLOUD THEMES";
 
 
-"Appearance.CloudTheme.Unsupported" = "Incompatible with macOS, click to edit";
+"Appearance.CloudTheme.Unsupported" = "No macOS version, click to edit";
 
 "EditTheme.Title" = "Edit Theme";
 
@@ -3351,8 +3352,9 @@
 "EditTheme.SlugPlaceholder" = "short link";
 "EditTheme.SlugDesc" = "Your theme will be updated for all users each time you change it. Anyone can install it using this link.\n\nTheme links must be longer than 5 characters and can use a-z, 0-9 and underscores.";
 "EditTheme.SlugError.AlreadyExists" = "This link is already taken. Please try a different one.";
-"EditTheme.SlugError.Format" = "invalid format.";
+"EditTheme.SlugError.Format" = "invalid format";
 "EditTheme.Edit" = "Save";
+"EditThame.Name.AlreadyTaken" = "This name is already taken.";
 
 
 "Appearance.Confirm.RemoveTitle" = "Theme";
@@ -3360,6 +3362,17 @@
 
 
 "Chat.Action.ViewTheme" = "VIEW THEME";
+
+
+"ThemePreview.UsesCount_countable" = "%d";
+"ThemePreview.UsesCount_zero" = "%d people are using this theme";
+"ThemePreview.UsesCount_one" = "%d person is using this theme";
+"ThemePreview.UsesCount_two" = "%d people are using this theme";
+"ThemePreview.UsesCount_few" = "%d people are using this theme";
+"ThemePreview.UsesCount_many" = "%d people are using this theme";
+"ThemePreview.UsesCount_other" = "%d people are using this theme";
+
+
 
 
 /* new from translations.telegram.org */
