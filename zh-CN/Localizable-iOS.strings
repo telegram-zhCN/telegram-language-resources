@@ -244,6 +244,7 @@
 "Common.More" = "更多";
 "Common.Select" = "选择";
 
+
 // State
 "State.Connecting" = "连接中...";
 "State.connecting" = "连接中...";
@@ -309,6 +310,7 @@
 
 "LastSeen.YesterdayAt" = "昨天 %@ 在线";
 "LastSeen.AtDate" = " %@ 在线";
+
 "LastSeen.Lately" = "最近上过线";
 "LastSeen.WithinAWeek" = "几天前在线";
 "LastSeen.WithinAMonth" = "几周前在线";
@@ -4718,6 +4720,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "Theme.UsersCount_any" = "%@ 人正在使用该主题";
+
+
+
 
 
 

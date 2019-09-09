@@ -243,6 +243,7 @@
 "Common.Search" = "Search";
 "Common.More" = "More";
 "Common.Select" = "Select";
+"Items.NOfM" = "%1$@ of %2$@";
 
 // State
 "State.Connecting" = "Connecting...";
@@ -309,6 +310,7 @@
 "LastSeen.HoursAgo_0" = "last seen %@ hours ago";
 "LastSeen.YesterdayAt" = "last seen yesterday at %@";
 "LastSeen.AtDate" = "last seen %@";
+
 "LastSeen.Lately" = "last seen recently";
 "LastSeen.WithinAWeek" = "last seen within a week";
 "LastSeen.WithinAMonth" = "last seen within a month";
@@ -2516,7 +2518,7 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissionChangeInfo" = "Change Channel Info";
 "Group.EditAdmin.PermissionChangeInfo" = "Change Group Info";
 "Channel.EditAdmin.PermissionPostMessages" = "Post Messages";
-"Channel.EditAdmin.PermissionEditMessages" = "Edit Messages";
+"Channel.EditAdmin.PermissionEditMessages" = "Edit Messages of Others";
 "Channel.EditAdmin.PermissionDeleteMessages" = "Delete Messages";
 "Channel.EditAdmin.PermissionBanUsers" = "Ban Users";
 "Channel.EditAdmin.PermissionInviteSubscribers" = "Add Subscribers";
@@ -2576,7 +2578,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanInviteUsers" = "Add Users";
 "Channel.AdminLog.CanPinMessages" = "Pin Messages";
 "Channel.AdminLog.CanAddAdmins" = "Add New Admins";
-"Channel.AdminLog.CanEditMessages" = "Edit Messages";
+"Channel.AdminLog.CanEditMessages" = "Edit Messages of Others";
 
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ enabled group invites";
 "Channel.AdminLog.MessageToggleInvitesOff" = "%@ disabled group invites";
@@ -4722,6 +4724,9 @@ Any member of this group will be able to see messages in the channel.";
 "Theme.UsersCount_0" = "%@ people are using this theme";
 
 "Conversation.SendMessageErrorTooMuchScheduled" = "Sorry, you can not schedule more than 100 messages.";
+
+"Channel.EditAdmin.PermissionDeleteMessagesOfOthers" = "Delete Messages of Others";
+"Channel.AdminLog.CanDeleteMessagesOfOthers" = "Delete Messages of Others";
 
 
 /* new from translations.telegram.org */
