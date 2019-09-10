@@ -167,6 +167,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_media_album_error" = "此文件无法保存为相册的一部分。";
 "lng_edit_media_invalid_file" = "抱歉，您无权使用此文件。";
 
+
 "lng_intro_about" = "欢迎使用 Telegram 官方桌面版客户端。\n它快速且安全。";
 "lng_start_msgs" = "开始聊天";
 
@@ -1613,9 +1614,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_error" = "编辑器遇到了一个错误 :( 详情请见 'log.txt'";
 
 
+
 "lng_theme_editor_done" = "主题导出成功！";
 "lng_theme_editor_title" = "修改配色";
-"lng_theme_editor_export_button" = "导出主题";
+
+
+
+
 
 
 
@@ -2361,3 +2366,4 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_ban_user_group" = "您确定要要在群组中封禁 {user} 吗？";
 "lng_sure_remove_user_channel" = "从频道中移除 {user} ？";
 "lng_sure_remove_user_group" = "从群组中移除 {user} ？";
+"lng_theme_editor_export_button" = "导出主题";

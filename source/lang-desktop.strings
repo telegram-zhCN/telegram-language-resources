@@ -166,6 +166,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_media_album_error" = "This file cannot be saved as a part of an album.";
 "lng_edit_media_invalid_file" = "Sorry, no way to use this file.";
+"lng_edit_caption_attach" = "Sorry, you can't attach a new media while you're editing your message.";
 
 "lng_intro_about" = "Welcome to the official Telegram Desktop app.\nIt's fast and secure.";
 "lng_start_msgs" = "START MESSAGING";
@@ -1613,9 +1614,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_error" = "The editor encountered an error :( See 'log.txt' for details.";
 "lng_theme_editor_sure_close" = "Are you sure you want to close the editor? Your changes won't be saved.";
 "lng_theme_editor_need_auth" = "You need to log in to save your theme.";
+"lng_theme_editor_need_unlock" = "You need to unlock Telegram to save your theme.";
 "lng_theme_editor_done" = "Theme exported successfully!";
 "lng_theme_editor_title" = "Edit color palette";
-"lng_theme_editor_export_button" = "Export theme";
 "lng_theme_editor_save_button" = "Save theme";
 
 "lng_theme_editor_create_title" = "Create theme";
@@ -1627,6 +1628,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_import_existing" = "Import existing theme";
 "lng_theme_editor_save_title" = "Save theme";
 "lng_theme_editor_link_about" = "Your theme will be updated for all users each time you change it. Anyone can install it using this link.\n\nTheme links must be longer than 5 characters and use a-z, 0-9 and underscores.";
+
+"lng_theme_editor_menu_export" = "Export theme";
+"lng_theme_editor_menu_import" = "Import theme";
+"lng_theme_editor_menu_show" = "Show palette file";
 
 "lng_payments_not_supported" = "Sorry, Telegram Desktop doesn't support payments yet. Please use one of our mobile apps to do this.";
 "lng_payments_receipt_label" = "Receipt";
@@ -2734,6 +2739,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_terms_age#two" = "I confirm that I am {count} or over";
 "lng_terms_age#few" = "I confirm that I am {count} or over";
 "lng_terms_age#many" = "I confirm that I am {count} or over";
+"lng_theme_editor_export_button" = "Export theme";
 "lng_theme_no_desktop_version" = "Sorry, this theme doesn't include a version for Telegram Desktop.\n\n(Also, Telegram Desktop doesn't support cloud themes yet.)";
 "lng_theme_preview_users#zero" = "{count} people are using this theme";
 "lng_theme_preview_users#two" = "{count} people are using this theme";
