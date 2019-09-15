@@ -774,7 +774,7 @@
   <string name="NoStickerSets">No sticker sets installed</string>
   <string name="NoMasks">No masks installed</string>
   <string name="ArchivedStickersInfo">You can have up to %1$s sticker sets installed. Unused stickers are archived when you install new sets.</string>
-  <string name="MasksHint">You can add masks to photos and videos you send. To do this, open the photo editor before sending a photo.</string>
+  <string name="MasksHint">In future versions, you will be able to add masks to photos and videos you send.</string>
   <string name="Trending">Trending</string>
   <string name="Archived">Archived</string>
   <string name="Masks">Masks</string>
@@ -2659,6 +2659,12 @@
 
   <string name="AnimatedStickers">Animated Stickers</string>
   <string name="AnimatedStickersInfo">Are you sure you want to clear animated stickers cache?</string>
+
+  <string name="DiscardEditMsg">Discard message</string>
+  <string name="DiscardEditMsgHint">Are you sure you want to discard edited message? These changes will be lost.</string>
+
+  <string name="DiscardEditCaption">Discard caption</string>
+  <string name="DiscardEditCaptionHint">Are you sure you want to discard edited caption? These changes will be lost.</string>
 
   
   
