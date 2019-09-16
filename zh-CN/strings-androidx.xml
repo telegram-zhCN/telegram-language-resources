@@ -1160,6 +1160,7 @@
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
   <string name="DeleteEntry">删除此条</string>
   <string name="Sticker">[贴纸]</string>
+  
   <string name="AttachRound">视频留言</string>
   <string name="MicrophoneMissing">需要麦克风才能拨打电话，你的设备似乎没有。</string>
   <string name="People">用户</string>

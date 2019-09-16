@@ -1160,6 +1160,7 @@
   <string name="NotificationContactJoined">%1$s joined Telegram!</string>
   <string name="DeleteEntry">Delete Entry</string>
   <string name="Sticker">Sticker</string>
+  <string name="AnimatedSticker">Animated Sticker</string>
   <string name="AttachRound">Video message</string>
   <string name="MicrophoneMissing">Microphone is required in order to make calls. It seems to be not present on your device.</string>
   <string name="People">People</string>
