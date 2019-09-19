@@ -2667,6 +2667,10 @@
   <string name="DiscardEditCaption">Discard caption</string>
   <string name="DiscardEditCaptionHint">Are you sure you want to discard edited caption? These changes will be lost.</string>
 
+  <string name="ChatContentRestricted">Content Unavailable</string>
+  <string name="MediaRestricted">Media unavailable</string>
+  <string name="DisplaySensitiveContent">Display sensitive content</string>
+
   
   
   
