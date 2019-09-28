@@ -2176,7 +2176,7 @@
 "SecureId.Upload.Title.ReverseSide" = "Reverse Side";
 
 "SecureId.Info.Title" = "What is Telegram Passport?";
-"SecureId.Info" = "With Telegram Passport you can easily sign up for websites and services that require identity veritification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody including Telegram, can access them without your permission.";
+"SecureId.Info" = "With Telegram Passport you can easily sign up for websites and services that require identity verification.\n\nYour information, personal data, and documents are protected by end-to-end encryption. Nobody, including Telegram, can access them without your permission.";
 "SecureId.Info.More" = "More Info";
 "SecureId.Info.DeletePassport" = "Are you sure you want to delete your Telegram Passport? All details will be lost.";
 
