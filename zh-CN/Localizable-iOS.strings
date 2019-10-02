@@ -4056,7 +4056,7 @@ Unused sets are archived when you add more.";
 "LogoutOptions.LogOut" = "注销";
 "LogoutOptions.LogOutInfo" = "注销将会销毁所有的加密聊天记录。";
 
-
+"GroupPermission.PermissionGloballyDisabled" = "此权限在此群组已被禁止";
 
 "ChannelInfo.Stats" = "统计数据";
 
@@ -4101,11 +4101,11 @@ Unused sets are archived when you add more.";
 "Privacy.Forwards.LinkIfAllowed" = "允许时可点击查看个人信息";
 "Privacy.Forwards.NeverLink" = "无法链接到您的帐户";
 
-
+"Chat.UnsendMyMessagesAlertTitle" = "撤回会同时在 %@ 处删除此消息。";
 "Chat.UnsendMyMessages" = "撤回我的消息";
 
 
-
+"Chat.DeleteMessagesConfirmation_any" = "删除 %@ 消息";
 
 "Settings.Search" = "搜索";
 
@@ -4161,7 +4161,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"SettingsSearch.Synonyms.Privacy.TwoStepAuth" = "密码";
 
 
 
@@ -4285,7 +4285,7 @@ Sorry for the inconvenience.";
 "Privacy.AddNewPeer" = "添加用户或群组";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号码？";
 "PrivacyPhoneNumberSettings.CustomHelp" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
-
+"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "只有您的联系人才能通过通讯录手机号码匹配到您。";
 
 "PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
@@ -4296,7 +4296,7 @@ Sorry for the inconvenience.";
 "PrivacySettings.PasscodeOff" = "关";
 "PrivacySettings.PasscodeOn" = "开";
 
-"UserInfo.BlockConfirmationTitle" = "你想屏蔽 %@ 给您发送消息和打电话吗？";
+"UserInfo.BlockConfirmationTitle" = "你想屏蔽 %@ 吗？";
 "UserInfo.BlockActionTitle" = "屏蔽 %@";
 "ReportSpam.DeleteThisChat" = "删除对话";
 
@@ -4420,7 +4420,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.UsersEmpty" = "正在寻您你周围的用户...";
 "PeopleNearby.Groups" = "附近的群";
 "PeopleNearby.CreateGroup" = "创建本地群组";
-
+"PeopleNearby.NoMembers" = "无成员";
 
 "Channel.Management.LabelOwner" = "所有者";
 "Channel.Management.LabelAdministrator" = "管理员";
@@ -4435,7 +4435,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.MessageTransferedName" = "将所有权转让给 %1$@";
 "Channel.AdminLog.MessageTransferedNameUsername" = "将群主权限转移至 %1$@ (%2$@)";
 
-
+"Channel.AdminLog.MessageChangedGroupGeoLocation" = "将群组的位置更改至 “%@”";
 
 "Map.SetThisLocation" = "设置为此地点";
 
@@ -4603,29 +4603,29 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "Conversation.ScheduleMessage.Title" = "定时消息";
+"Conversation.ScheduleMessage.SendToday" = "在今天 %@ 时发送";
+"Conversation.ScheduleMessage.SendTomorrow" = "在明天 %@ 时发送";
+"Conversation.ScheduleMessage.SendOn" = "在 %@ %@ 时发送";
 
+"Conversation.SetReminder.Title" = "设置一个备忘录";
 
+"Conversation.SetReminder.RemindTomorrow" = "在明天 %@ 时提醒我";
+"Conversation.SetReminder.RemindOn" = "在 %@ %@ 时提醒我";
 
-
-
-
-
-
-
-
+"ScheduledMessages.Title" = "定时消息";
 "ScheduledMessages.RemindersTitle" = "提醒";
-
+"ScheduledMessages.ScheduledDate" = "在 %@ 发送";
 
 "ScheduledMessages.SendNow" = "立刻发送";
-
-
+"ScheduledMessages.EditTime" = "编辑发送时间";
+"ScheduledMessages.ClearAll" = "全部清空";
 "ScheduledMessages.ClearAllConfirmation" = "清空定时消息";
 "ScheduledMessages.Delete" = "删除定时消息";
 "ScheduledMessages.DeleteMany" = "删除定时消息";
 "ScheduledMessages.EmptyPlaceholder" = "暂无定时消息...";
 
-
-
+"ScheduledMessages.PollUnavailable" = "投票功能将在消息发布后正式开始。";
+"ScheduledMessages.ReminderNotification" = "📅 备忘录";
 
 "Conversation.SendMessage.SetReminder" = "定时提醒";
 
@@ -4669,8 +4669,8 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.RemoveTheme" = "移除";
 "Appearance.RemoveThemeConfirmation" = "移除该主题";
 
-
-
+"Conversation.Theme" = "色彩主题";
+"Conversation.ViewTheme" = "预览主题";
 
 
 
@@ -4723,7 +4723,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Conversation.SendMessageErrorTooMuchScheduled" = "抱歉，您只能同时设置 100 条定时消息。";
 
 
 

@@ -76,7 +76,7 @@
 "Telegram.PeerInfoController" = "信息";
 "PeerInfo.SendMessage" = "发送消息";
 "PeerInfo.ShareContact" = "分享联系方式";
-
+"PeerInfo.ShareMyInfo" = "分享我的联系方式";
 "PeerInfo.StartSecretChat" = "开始加密对话";
 "PeerInfo.SharedMedia" = "分享的媒体";
 "PeerInfo.Notifications" = "通知";
@@ -2608,7 +2608,7 @@
 "Message.Status.Archive.FailedSizeLimit" = "已超出文件大小限制";
 
 
-
+"Chat.SendMessageError.TooMuchScheduled" = "抱歉，您只能同时设置 100 条定时消息。";
 
 "Chat.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Chat.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
@@ -3016,7 +3016,7 @@
 
 "NotificationSettings.SnoofHeader" = "当应用处于专注模式时";
 "NotificationSettings.Snoof" = "显示通知";
-
+"NotificationSettings.Snoof.On" = "如果你只希望在非专注模式时收到通知，请关闭此选项。";
 "NotificationSettings.Snoof.Off" = "如果您想随时接收通知，请开启此选项。";
 
 
@@ -3032,7 +3032,7 @@
 
 
 "ChatList.Popover.ReadAll" = "全部设为已读";
-
+"ChatList.Popover.Confirm" = "您确定要将所有对话标记为已读吗？";
 
 
 "Chat.Tooltip.HiddenForwardName" = "此用户的隐私设置拒绝您查看转发来源";
@@ -3163,7 +3163,7 @@
 "PrivacyAndSecurity.Item.Off" = "关";
 "PrivacyAndSecurity.Item.On" = "开";
 
-
+"DiscussionController.Group.Unset.Description" = "成功解除与频道的连接。";
 
 "DiscussionController.IconText" = "讨论";
 
@@ -3212,9 +3212,9 @@
 
 "Channel.TransferOwner.Error.Enable2FA" = "启用两步验证";
 
-
-
-
+"BlockContact.Title" = "你想屏蔽 %@ 吗？";
+"BlockContact.Options.Action" = "屏蔽 %@";
+"BlockContact.Options.Report" = "举报垃圾信息";
 "BlockContact.Options.DeleteChat" = "删除此对话";
 
 
@@ -3274,8 +3274,8 @@
 
 
 
-
-
+"Schedule.SendToday" = "在今天 %@ 时发送";
+"Schedule.SendDate" = "在 %@ %@ 时发送";
 
 
 "Chat.Send.SetReminder" = "定时提醒";
@@ -3284,23 +3284,23 @@
 
 
 "Chat.Title.Reminder" = "提醒";
+"Chat.Title.ScheduledMessages" = "定时消息";
+"Chat.Context.ClearScheduled" = "全部清空";
+"Chat.Context.ClearScheduled.Confirm.Header" = "定时消息";
 
+"Chat.Context.ClearScheduled.Confirm.OK" = "全部清空";
+"Chat.Date.ScheduledFor" = "在 %@ 发送";
 
-
-
-
-
-
-
+"Chat.Date.ScheduledFor" = "在 %@ 发送";
 
 "Chat.Context.Scheduled.SendNow" = "立刻发送";
-
+"Chat.Context.Scheduled.Reschedule" = "编辑发送时间";
 
 
 "Chat.Right.Context.ScheduledMessages" = "定时消息";
 "Chat.Right.Context.Reminder" = "提醒";
 
-
+"Notification.ScheduledTitle" = "📆 您";
 "Notification.Reminder" = "🗓 提醒";
 
 
@@ -3308,6 +3308,7 @@
 
 
 
+"ThemePreview.Title" = "主题预览";
 
 
 
@@ -3316,8 +3317,7 @@
 
 
 
-
-
+"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "只有您的联系人才能通过通讯录手机号码匹配到您。";
 
 "PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
@@ -3331,8 +3331,8 @@
 "NewTheme.EmptyTextError" = "主题名不能为空。";
 
 
-
-
+"Appearance.Theme.Remove" = "删除";
+"Appearance.Theme.Edit" = "编辑";
 "Appearance.NewTheme" = "新建主题";
 "Appearance.ExportTheme" = "导出主题";
 "Appearance.Theme.Share" = "分享";
@@ -3353,15 +3353,15 @@
 
 
 
+"EditTheme.Edit" = "保存";
 
 
 
+"Appearance.Confirm.RemoveTitle" = "主题";
+"Appearance.Confirm.RemoveText" = "您确定要删除这个主题吗？";
 
 
-
-
-
-
+"Chat.Action.ViewTheme" = "预览主题";
 
 
 

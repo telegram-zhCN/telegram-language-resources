@@ -76,7 +76,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month_day_year" = "{year}年{month}{day}日";
 "lng_month_year" = "{year}年{month}";
 
-
+"lng_calendar_beginning" = "最初消息";
 
 "lng_box_ok" = "确定";
 "lng_box_done" = "确定";
@@ -184,7 +184,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bad_country_code" = "无效的国家代码";
 "lng_country_ph" = "搜索";
 "lng_country_none" = "未找到您搜索的国家";
-"lng_country_select" = "选择国家";
+"lng_country_select" = "选择国家/地区";
 
 "lng_code_ph" = "验证码";
 "lng_code_desc" = "我们已经向您的手机发送了一条验证码短信。\n请在下方输入您的验证码。";
@@ -300,7 +300,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_notification_reply" = "回复";
 "lng_notification_hide_all" = "全部隐藏";
 "lng_notification_sample" = "这是一个示例通知";
-
+"lng_notification_reminder" = "备忘录";
 
 "lng_settings_section_general" = "通用";
 "lng_settings_change_lang" = "更换语言";
@@ -340,10 +340,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_bg_use_default" = "使用默认主题";
 "lng_settings_bg_from_gallery" = "从图库中选择";
 "lng_settings_bg_from_file" = "从文件中选择";
-
-
-
-
+"lng_settings_bg_theme_edit" = "编辑主题";
+"lng_settings_bg_theme_create" = "新建主题";
+"lng_settings_bg_cloud_themes" = "自定义主题";
+"lng_settings_bg_show_all" = "显示所有主题";
 "lng_settings_bg_tile" = "平铺背景";
 "lng_settings_adaptive_wide" = "宽屏时消息左对齐";
 
@@ -417,10 +417,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_keep_changes" = "保留更改";
 "lng_theme_revert" = "还原";
 
-
-
-
-
+"lng_theme_share" = "分享";
+"lng_theme_edit" = "编辑";
+"lng_theme_delete" = "删除";
+"lng_theme_delete_sure" = "您确定要删除此主题吗？";
 "lng_background_header" = "背景预览";
 "lng_background_text1" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
 "lng_background_text2" = "我现在都无法直视你了。";
@@ -620,7 +620,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_about" = "被屏蔽的用户不能向您发送消息或将您添加到群组。他们也不能查看您的头像，在线状态和最后在线时间。";
 "lng_blocked_list_not_found" = "未找到符合条件的用户";
 "lng_blocked_list_confirm_title" = "屏蔽 {name}";
-"lng_blocked_list_confirm_text" = "你想屏蔽 {name} 给您发送消息和打电话吗？";
+"lng_blocked_list_confirm_text" = "你想屏蔽 {name} 吗？";
 "lng_blocked_list_confirm_clear" = "删除这个对话";
 "lng_blocked_list_confirm_ok" = "屏蔽";
 
@@ -642,8 +642,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_always_title" = "总是共享给";
 "lng_edit_privacy_phone_number_never_title" = "从不共享给";
 
-
-
+"lng_edit_privacy_phone_number_find" = "谁可以通过我的手机号找到我？";
+"lng_edit_privacy_phone_number_contacts" = "只有您的联系人才能通过通讯录手机号码匹配到您。";
 
 "lng_edit_privacy_lastseen_title" = "最后上线时间隐私设置";
 "lng_edit_privacy_lastseen_header" = "谁可以看到您的最后上线时间";
@@ -1259,9 +1259,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_send_silent_message" = "静音发送";
 "lng_schedule_message" = "定时发送";
 "lng_reminder_message" = "定时提醒";
-
-
-
+"lng_schedule_title" = "发送此消息于...";
+"lng_remind_title" = "提醒我...";
+"lng_schedule_at" = "";
 "lng_message_ph" = "输入消息...";
 "lng_broadcast_ph" = "发布消息...";
 "lng_broadcast_silent_ph" = "静默广播..";
@@ -1281,11 +1281,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_saved_short" = "保存";
 "lng_saved_forward_here" = "转发消息到这里以便快速访问";
 
-
+"lng_scheduled_messages" = "定时消息";
 "lng_reminder_messages" = "提醒";
+"lng_scheduled_send_now" = "现在发送此消息？";
 
-
-
+"lng_scheduled_send_now_many#other" = "现在发送这 {count} 条消息吗？";
 
 "lng_archived_name" = "已归档对话";
 "lng_archived_add" = "归档对话";
@@ -1414,7 +1414,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";
 "lng_context_forward_msg" = "转发";
-
+"lng_context_send_now_msg" = "现在发送";
 "lng_context_delete_msg" = "删除消息";
 "lng_context_select_msg" = "选择此消息";
 "lng_context_report_msg" = "举报";
@@ -1424,7 +1424,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_copy_selected" = "复制所选内容";
 "lng_context_copy_selected_items" = "复制所选内容";
 "lng_context_forward_selected" = "转发所选内容";
-
+"lng_context_send_now_selected" = "现在发送";
 "lng_context_delete_selected" = "删除所选内容";
 "lng_context_clear_selection" = "取消选择";
 "lng_send_image_empty" = "无法发送空文件: {name}";
@@ -1568,7 +1568,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_preview_invalid" = "主题文件数据错误";
 "lng_theme_preview_apply" = "应用此主题";
 
-
+"lng_theme_preview_users#other" = "{count} 人正在使用该主题";
 
 "lng_new_authorization" = "{name}，\n我们在 {date}{day}{time} 发现一个新设备登录您的帐号。\n\n设备： {device}\n位置： {location}\n\n如果这不是您本人， 您可以前往「设置—显示所有活动会话」 中注销该会话。\n\n如果您认为其他人在您不知情时登录了您的帐号，请您在 隐私和安全 设置中启用 两步验证密码。\n\n谢谢！\nTelegram 团队";
 
@@ -1612,26 +1612,26 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_save_palette" = "保存配色文件";
 "lng_theme_editor_choose_name" = "保存主题文件";
 "lng_theme_editor_error" = "编辑器遇到了一个错误 :( 详情请见 'log.txt'";
-
-
-
+"lng_theme_editor_sure_close" = "您确定要关闭编辑器吗？您的更改将不会保存。";
+"lng_theme_editor_need_auth" = "您需要登录才能保存您的主题。";
+"lng_theme_editor_need_unlock" = "您需要解锁 Telegram 来保存您的主题。";
 "lng_theme_editor_done" = "主题导出成功！";
 "lng_theme_editor_title" = "修改配色";
+"lng_theme_editor_save_button" = "保存主题";
 
 
 
+"lng_theme_editor_create" = "新建";
+"lng_theme_editor_name" = "主题名称";
 
 
+"lng_theme_editor_import_existing" = "导入现有主题";
+"lng_theme_editor_save_title" = "保存主题";
 
 
-
-
-
-
-
-
-
-
+"lng_theme_editor_menu_export" = "导出主题";
+"lng_theme_editor_menu_import" = "导入主题";
+"lng_theme_editor_menu_show" = "显示色块文件";
 
 "lng_payments_not_supported" = "抱歉，Telegram 桌面版客户端暂不支持付款。请使用我们的移动端应用进行此操作。";
 "lng_payments_receipt_label" = "收据";
