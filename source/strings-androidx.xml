@@ -81,6 +81,7 @@
   <string name="format_ivAuthorDateSeparator">" • "</string>
   <string name="format_dateViaBot">%1$s via %2$s</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
+  <string name="format_channelAndSignature">%1$s (%2$s)</string>
   <string name="messagesCount_one">%1$s</string>
   <string name="messagesCount_other">%1$s</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
@@ -89,9 +90,8 @@
   <string name="login_error">Error: %1$s. __Contact us__, if you need help.</string>
   <string name="login_Code">Code</string>
   <string name="login_Password">Password</string>
-  <string name="login_Country">Country</string>
+  <string name="Region">Region</string>
   <string name="login_SmsHint">We will send an SMS with a confirmation code to your phone number.</string>
-  <string name="login_YourName">Your name</string>
   <string name="Registration">Registration</string>
   <string name="login_FirstName">First name</string>
   <string name="LastName">Last name</string>
@@ -269,19 +269,31 @@
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
   <string name="ChatContentGroupCreate">Created the group</string>
+  <string name="ChatContentGroupCreate_outgoing">Created the group</string>
   <string name="ChatContentGroupReturn">Returned to the group</string>
+  <string name="ChatContentGroupReturn_outgoing">Returned to the group</string>
   <string name="ChatContentGroupAddYou">Added you to the group</string>
   <string name="ChatContentGroupAdd">Added %1$s to the group</string>
+  <string name="ChatContentGroupAdd_outgoing">Added %1$s to the group</string>
   <string name="ChatContentGroupAddMembers_one">Added %1$s member to the group</string>
   <string name="ChatContentGroupAddMembers_other">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_outgoing_one">Added %1$s member to the group</string>
+  <string name="ChatContentGroupAddMembers_outgoing_other">Added %1$s members to the group</string>
   <string name="ChatContentGroupLeft">Left the group</string>
+  <string name="ChatContentGroupLeft_outgoing">Left the group</string>
   <string name="ChatContentGroupJoin">Joined the group by invite link</string>
+  <string name="ChatContentGroupJoin_outgoing">Joined the group by invite link</string>
   <string name="ChatContentGroupJoinPublic">Joined the group</string>
+  <string name="ChatContentGroupJoinPublic_outgoing">Joined the group</string>
   <string name="ChatContentGroupKickYou">Kicked you from the group</string>
   <string name="ChatContentGroupKick">Kicked %1$s from the group</string>
+  <string name="ChatContentGroupKick_outgoing">Kicked %1$s from the group</string>
   <string name="ChatContentGroupPhoto">Changed the group photo</string>
+  <string name="ChatContentGroupPhoto_outgoing">Changed the group photo</string>
   <string name="ChatContentGroupPhotoRemove">Removed the group photo</string>
+  <string name="ChatContentGroupPhotoRemove_outgoing">Removed the group photo</string>
   <string name="ChatContentGroupName">Renamed the group to «%1$s»</string>
+  <string name="ChatContentGroupName_outgoing">Renamed the group to «%1$s»</string>
   <string name="Audio">Audio</string>
   <string name="Voice">Voice</string>
   <string name="Photo">Photo</string>
@@ -370,6 +382,7 @@
   <string name="ServiceNotifications">service notifications</string>
   <string name="Bot">bot</string>
   <string name="Support">support</string>
+  <string name="SupportOnline">support (online)</string>
   <string name="deletedUser">deleted user</string>
   <string name="unknownUser">unknown user</string>
   <string name="BotStatusRead">has access to messages</string>
@@ -394,15 +407,11 @@
   <string name="CopyCoordinates">Copy coordinates</string>
   <string name="CopiedCoordinates">Coordinates have been copied to the clipboard</string>
   <string name="CopyLink">Copy link</string>
-  <string name="Convert">Convert</string>
   <string name="Search">Search</string>
   <string name="NoChats">You have no chats</string>
   <string name="NoContacts">No contacts to display</string>
   <string name="ChannelCreator">Creator</string>
   <string name="Administrator">Administrator</string>
-  <string name="SetAdminsAll">All Members Are Admins</string>
-  <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
-  <string name="AdminsAreSelectedHint">Only chosen admins can add new members, edit name and photo of the group.</string>
   <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
   <string name="ChannelAddAdmin">Add administrator</string>
   <string name="InviteLink">Invite Link</string>
@@ -585,6 +594,9 @@
   <string name="game_ActionYouScoredInGame_other">You scored %1$s in %2$s</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
   <string name="NotificationGame">Invited you to play %1$s</string>
+  <string name="NotificationGame_outgoing">You invited to play %1$s</string>
+  <string name="NotificationGame_group">Invited you to play %1$s</string>
+  <string name="NotificationGame_group_outgoing">You invited to play %1$s</string>
   <string name="Draft">Draft</string>
   <string name="ShareYourPhoneNumberTitle">Share your phone number?</string>
   <string name="ShareYourPhoneNumberDesc">%1$s will know your phone number.\n\nThis can be useful for integration with other services.</string>
@@ -658,6 +670,10 @@
   <string name="VoiceMessages">Voice messages</string>
   <string name="Files">Files</string>
   <string name="Music">Music</string>
+  <string name="TabEmptyPhotos">No photos</string>
+  <string name="TabEmptyMedias">No medias</string>
+  <string name="TabEmptyLinks">No links</string>
+  <string name="TabEmptyDocs">No documents</string>
   <string name="NoPhotos">No Photos</string>
   <string name="NoVideos">No Videos</string>
   <string name="NoGIFs">No GIFs</string>
@@ -762,8 +778,6 @@
   <string name="SoundDisabled">Disabled</string>
   <string name="InChatSound">In-Chat Sounds</string>
   <string name="InChatSoundInfo">Play sounds for incoming and outgoing messages when chat is open.</string>
-  <string name="Events">Events</string>
-  <string name="EventNewContact">New Contacts</string>
   <string name="EventNewContactInfo">Receive notification when one of your contacts becomes available on Telegram.</string>
   <string name="PinnedMessages">Pinned Messages</string>
   <string name="RepeatNotifications">Repeat Notifications</string>
@@ -779,19 +793,11 @@
   <string name="Archived">Archived</string>
   <string name="Masks">Masks</string>
   <string name="StickersHide">Archive</string>
-  <string name="UndoAllCustom">Undo all custom notification settings for all your contacts, groups and channels</string>
   <string name="XOnlyIfSilent">%1$s (only if silent)</string>
   <string name="XButOnlyIfSilent">%1$s (but only if silent)</string>
   <string name="Long">Long</string>
   <string name="DoubleShort">Double Short</string>
   <string name="IsDefault">%1$s (default)</string>
-  <string name="XSentAMessage">%1$s sent a message</string>
-  <string name="XSentAPhoto">%1$s sent a photo</string>
-  <string name="XSentAVideo">%1$s sent a video</string>
-  <string name="XSentAGIF">%1$s sent a GIF</string>
-  <string name="XSentAVoice">%1$s sent a voice message</string>
-  <string name="XSentAFile">%1$s sent a file</string>
-  <string name="XSentARoundVideo">%1$s sent a video message</string>
   <string name="SmileysAndPeople">Smileys &amp; People</string>
   <string name="AnimalsAndNature">Animals &amp; Nature</string>
   <string name="FoodDrink">Food &amp; Drink</string>
@@ -874,7 +880,7 @@
   <string name="UsernameCurrent">%1$s is your current username.</string>
   <string name="ThisLinkWillOpen">This link will open a chat with you on Telegram:</string>
   <string name="ThisLinkOpens">This link opens a chat with you on Telegram:</string>
-  <string name="FeatureUnavailable">Sorry, this feature is currently not available in your country.</string>
+  <string name="FeatureUnavailable">Sorry, this feature is currently not available in your region.</string>
   <string name="PhoneNumberChange">Change Number</string>
   <string name="PhoneNumberChangeDone">Continue</string>
   <string name="PhoneNumberHelp">You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.</string>
@@ -883,7 +889,7 @@
   <string name="ChangePhoneHelp">We will send an SMS with a confirmation code to your new number.</string>
   <string name="NewPhone">New phone number</string>
   <string name="NewNumber">New Number</string>
-  <string name="CountryNotFound">Country code not found</string>
+  <string name="RegionNotFound">Area code not found</string>
   <string name="ConfirmationCode">Confirmation Code</string>
   <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
   <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
@@ -969,7 +975,6 @@
   <string name="FolderEmpty">This folder is empty</string>
   <string name="AttachFolderHome">Home</string>
   <string name="DataSettings">Data and Storage</string>
-  <string name="DataUsage">Disk and network usage</string>
   <string name="StorageUsage">Storage Usage</string>
   <string name="ReduceMotion">Reduce Motion</string>
   <string name="StorageUsageHint">Manage disk space</string>
@@ -1000,7 +1005,6 @@
   <string name="SecretFiles">Secret media and files</string>
   <string name="Clear">Clear</string>
   <string name="ClearX">Clear %1$s</string>
-  <string name="service_Notifications">This service is used for displaying message notifications.</string>
   <string name="UnmutesInX">Unmute in %1$s</string>
   <string name="MuteForever">Mute forever</string>
   <string name="NotificationsCustomize">Customize</string>
@@ -1030,6 +1034,7 @@
   <string name="YouCreatedGroup">You created the group</string>
   <string name="XofY">%1$s of %2$s</string>
   <string name="ReadingXLine">Reading line %1$s…</string>
+  <string name="format_linesAndViews">%1$s, %2$s</string>
   <string name="xPeopleJoinedGroup_one">%1$s member joined the group</string>
   <string name="xPeopleJoinedGroup_other">%1$s members joined the group</string>
   <string name="xPeopleJoinedChannel_one">%1$s member joined the channel</string>
@@ -1195,9 +1200,7 @@
   <string name="PriorityRegular">Regular</string>
   <string name="PriorityUrgent">Urgent</string>
   <string name="PriorityLow">Low</string>
-  <string name="PriorityMedium">Medium</string>
   <string name="PriorityAboutUrgentAndLow">Urgent notifications will appear when your phone is in Do Not Disturb mode. Low priority notifications will appear in system tray without interrupting.</string>
-  <string name="PriorityAboutLow">Low priority notifications will appear in system tray without interrupting.</string>
   <string name="NotificationsPriority">Priority</string>
   <string name="SelectMessagesInBetween">Select messages in between</string>
   <string name="ProcessingFile">Processing…</string>
@@ -1234,7 +1237,6 @@
   <string name="VideoMessages">Video messages</string>
   <string name="NoVideoMessages">No Video messages</string>
   <string name="DeleteContactConfirm">Are you sure you want to delete %1$s from contacts list?</string>
-  <string name="NotificationsGooglePlayServices">Google Play Services is needed for guaranteed notification delivery.</string>
   <string name="BotIsDown">Bot is not responding. Please try again later.</string>
   <string name="BotIsDownSpecific">%1$s is not responding. Please try again later.</string>
   <string name="UseInAppBrowser">In-app Browser</string>
@@ -1262,11 +1264,9 @@
   <string name="RestrictedByXOnDate">Restricted by %1$s %2$s</string>
   <string name="EditGroup">Edit Group</string>
   <string name="GroupInfo">Group Info</string>
-  <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="RecentActionsGroupHint">Service actions in the group in the last 48 hours.</string>
   <string name="RecentActionsChannelHint">Service actions in the channel in the last 48 hours.</string>
   <string name="Banned">Banned</string>
-  <string name="Private">Private</string>
   <string name="AllMembers">All members</string>
   <string name="OnlyAdmins">Only admins</string>
   <string name="OnlyAdminsSpecific">Only admins with privilege</string>
@@ -1294,7 +1294,6 @@
   <string name="GroupsWillBeShownHere">Groups in common will be shown here</string>
   <string name="EditAdminRights">Edit Admin Rights</string>
   <string name="ViewAdminRights">View Admin Rights</string>
-  <string name="RevokeAdminRights">Revoke Admin Rights</string>
   <string name="EditUserRestrictions">Edit User Restrictions</string>
   <string name="RestrictUser">Restrict user</string>
   <string name="ViewRestrictions">View Restrictions</string>
@@ -1328,7 +1327,6 @@
   <string name="SomeCallInProgressDesc">This action cannot be done while call is active.</string>
   <string name="Follow">Follow</string>
   <string name="Unselect">Unselect</string>
-  <string name="ActionIrreversible">This action cannot be undone</string>
   <string name="LinkInUse">Sorry, this public link is already taken.</string>
   <string name="LinkInvalid">Sorry, this public link is invalid.</string>
   <string name="LinkInvalidShort">Public link must have at least 5 characters.</string>
@@ -1570,7 +1568,6 @@
   <string name="PlayResume">Resume</string>
   <string name="PlayStop">Stop</string>
   <string name="NotificationChannelCommonPrivate">Default notification settings for all private chats and mentions.</string>
-  <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
   <string name="NotificationChannelCommonGroups">Default notification settings for all group chats.</string>
   <string name="NotificationChannelCommonChannels">Default notification settings for all channels.</string>
   <string name="NotificationChannelSecretChat">Custom notification settings for the Secret Chat with %1$s.</string>
@@ -1588,7 +1585,6 @@
   <string name="IncognitoKeyboard">Incognito Keyboard</string>
   <string name="IncognitoKeyboardInfo">Request keyboard to not update any personalized data such as typing history and personalized language model based on what you type in Secret Chats.\n\nBe aware that this setting is not a guarantee, and some IMEs may not respect it.</string>
   <string name="FailureMessageText">This message could not be displayed because of an error. We are very sorry for that.\n\nPlease copy the scary error details below and submit them to support@telegram.org so we can investigate the issue. Thank you!</string>
-  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PrivacyCallsP2PTitle2">Peer-to-Peer in Calls</string>
   <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
   <string name="AutoNightDisabled">Disabled</string>
@@ -1729,7 +1725,6 @@
   <string name="AutoInstantViewAll">All links</string>
   <string name="DeepLinkUnsupported">Unknown or broken link format</string>
   <string name="AppUpdateRequiredTitle">Update required</string>
-  <string name="AppUpdateRequiredText">To perform this action, please update Telegram version.</string>
   <string name="AppUpdateOk">Update</string>
   <string name="ProxySponsor">Proxy sponsor</string>
   <string name="message_via">" via "</string>
@@ -1893,7 +1888,6 @@
   <string name="DragChatsHint">Drag chat to reorder</string>
   <string name="OpenMap">Open in Maps</string>
   <string name="MapPreviewProvider">Map Preview Provider</string>
-  <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
   <string name="MapPreviewProviderInfo">When you receive a map or live location, in order to display a map preview, it has to be generated by the selected provider.\n\nThis requires sending an anonymous request with the received location coordinates.</string>
   <string name="MapPreviewProviderHint">Choose provider to be used to display map previews in Secret Chats.\n\nThis requires sending an anonymous request with the received location coordinates to the selected provider.</string>
   <string name="MapPreviewProviderNone">None</string>
@@ -2336,7 +2330,6 @@
   <string name="NotificationsPrivateInfo">You can set custom notifications for specific users on their profile page.</string>
   <string name="NotificationsGroupInfo">You can set custom notifications for specific groups on their profile page.</string>
   <string name="NotificationsChannelInfo">You can set custom notifications for specific channels on their profile page.</string>
-  <string name="AppBadgeHint">Display a badge counter on the application icon. This may not work on some devices.\n\nYour system may display an extra badge while playing music or having an active call regardless of these settings.</string>
   <string name="IncludeDismissed">Include Dismissed Messages</string>
   <string name="IncludeDismissedHintOn">Switch on to include previously dismissed unread messages when new notification arrives from a chat.</string>
   <string name="IncludeDismissedHintOff">Switch off to exclude previously dismissed unread messages when new notification arrives from a chat.</string>
@@ -2386,8 +2379,6 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
 
-  <string name="AllAccounts">Messages</string>
-
   <string name="NotificationImportance">Notification Style</string>
   <string name="NotificationImportanceHigh">Sound and pop-up</string>
   <string name="NotificationImportanceHighNoSound">Vibrate and pop-up</string>
@@ -2403,7 +2394,6 @@
   <string name="xExceptions_one">%1$s exception</string>
   <string name="xExceptions_other">%1$s exceptions</string>
 
-  <string name="NotificationsBlockedAll">All notifications from Telegram are blocked by system.</string>
   <string name="EventNewContact2">New Contacts Notification</string>
 
   <string name="NotificationsSetting">Notifications</string>
@@ -2466,7 +2456,6 @@
   <string name="StopPollWarn">If you stop this poll now, nobody will be able to vote in it anymore.\n\nThis action cannot be undone.</string>
 
   <string name="Poll">Poll</string>
-  <string name="PollPreview">Poll: %1$s</string>
   <string name="PollQuestion">Question</string>
   <string name="PollQuestionEmpty">Ask a Question</string>
   <string name="PollOption">Option</string>
@@ -2668,8 +2657,23 @@
   <string name="DiscardEditCaptionHint">Are you sure you want to discard edited caption? These changes will be lost.</string>
 
   <string name="ChatContentRestricted">Content Unavailable</string>
+  <string name="ChatContentScreenshot">Took a screenshot</string>
+  <string name="ChatContentPinned">Pinned Message</string>
   <string name="MediaRestricted">Media unavailable</string>
   <string name="DisplaySensitiveContent">Display sensitive content</string>
+
+  <string name="ChatListStyle">Chat List Style</string>
+  <!--<string name="ChatListStyleOptIcons">Media Icons</string>
+  <string name="ChatListStyleOptFormatting">Text Formatting</string>-->
+  <string name="ChatListStyle1">Two lines</string>
+  <string name="ChatListStyle2">Three lines</string>
+  <string name="ChatListStyle3">Three lines (bigger text)</string>
+
+  
+  
+  
+
+  <string name="format_tracksAndDuration">%1$s, %2$s</string>
 
   
   
@@ -2683,6 +2687,7 @@
   <string name="AccurateToMeters_few">Accurate to %1$s meters</string>
   <string name="AccurateToMeters_many">Accurate to %1$s meters</string>
   <string name="ActionDone">Hide</string>
+  <string name="ActionIrreversible">This action cannot be undone</string>
   <string name="ActionMuteAll_zero">Mute all for %1$sh</string>
   <string name="ActionMuteAll_one">Mute all for %1$sh</string>
   <string name="ActionMuteAll_two">Mute all for %1$sh</string>
@@ -2709,17 +2714,21 @@
   <string name="AddXStickers_two">Add %1$s stickers</string>
   <string name="AddXStickers_few">Add %1$s stickers</string>
   <string name="AddXStickers_many">Add %1$s stickers</string>
+  <string name="AdminsAreSelectedHint">Only chosen admins can add new members, edit name and photo of the group.</string>
   <string name="AgeVerification_zero">You must be at least %1$s years old to use Telegram.</string>
   <string name="AgeVerification_two">You must be at least %1$s years old to use Telegram.</string>
   <string name="AgeVerification_few">You must be at least %1$s years old to use Telegram.</string>
   <string name="AgeVerification_many">You must be at least %1$s years old to use Telegram.</string>
+  <string name="AllAccounts">Messages</string>
   <string name="AppBadge">Unread Count Badge</string>
   <string name="AppBadgeAll">From all chats</string>
   <string name="AppBadgeDisabled">Disabled</string>
+  <string name="AppBadgeHint">Display a badge counter on the application icon. This may not work on some devices.\n\nYour system may display an extra badge while playing music or having an active call regardless of these settings.</string>
   <string name="AppBadgeType">Badge Type</string>
   <string name="AppBadgeTypeChats">Number of chats</string>
   <string name="AppBadgeTypeMessages">Number of messages</string>
   <string name="AppBadgeUnmuted">From non-muted chats</string>
+  <string name="AppUpdateRequiredText">To perform this action, please update Telegram version.</string>
   <string name="AreYouSureNotifyReset">Are you sure you want to reset all custom notification settings for all your contacts and groups?</string>
   <string name="AsXMessages_zero">as %1$s messages</string>
   <string name="AsXMessages_two">as %1$s messages</string>
@@ -2750,6 +2759,10 @@
   <string name="ChatContentGroupAddMembers_two">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_few">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_many">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_outgoing_zero">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_outgoing_two">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_outgoing_few">Added %1$s members to the group</string>
+  <string name="ChatContentGroupAddMembers_outgoing_many">Added %1$s members to the group</string>
   <string name="ChatHistoryPartiallyHiddenInfo_zero">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatHistoryPartiallyHiddenInfo_two">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatHistoryPartiallyHiddenInfo_few">New members won\'t see more than %1$s earlier messages.</string>
@@ -2768,7 +2781,10 @@
   <string name="ContactsOnTelegramMany_two">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_few">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
   <string name="ContactsOnTelegramMany_many">%2$s and %1$s more of your contacts are&#160;using&#160;Telegram</string>
+  <string name="Convert">Convert</string>
   <string name="ConvertGroup">Convert to Supergroup</string>
+  <string name="CountryNotFound">Country code not found</string>
+  <string name="DataUsage">Disk and network usage</string>
   <string name="DeleteAccountIfAwayForDays_zero">%1$s days</string>
   <string name="DeleteAccountIfAwayForDays_two">%1$s days</string>
   <string name="DeleteAccountIfAwayForDays_few">%1$s days</string>
@@ -2797,6 +2813,8 @@
   <string name="ErrorPinnedChatsLimit_two">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
   <string name="ErrorPinnedChatsLimit_few">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
   <string name="ErrorPinnedChatsLimit_many">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
+  <string name="EventNewContact">New Contacts</string>
+  <string name="Events">Events</string>
   <string name="ForwardLastXMessages_zero">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_two">Forward last %1$s messages</string>
   <string name="ForwardLastXMessages_few">Forward last %1$s messages</string>
@@ -2813,6 +2831,7 @@
   <string name="InviteTextCommonMany_two">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_few">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_many">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
   <string name="MuteForXDays_few">Mute for %1$s days</string>
@@ -2821,6 +2840,7 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
+  <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
   <string name="NotificationMessageGif">%1$s sent you a GIF</string>
   <string name="NotificationMessageNoText">%1$s sent you a message</string>
@@ -2832,10 +2852,17 @@
   <string name="NotificationMutedPersons_two">Muted %1$s people for 1 hour</string>
   <string name="NotificationMutedPersons_few">Muted %1$s people for 1 hour</string>
   <string name="NotificationMutedPersons_many">Muted %1$s people for 1 hour</string>
+  <string name="NotificationsBlockedAll">All notifications from Telegram are blocked by system.</string>
+  <string name="NotificationsGooglePlayServices">Google Play Services is needed for guaranteed notification delivery.</string>
   <string name="PollOptionsLimit_zero">You can add %1$s more options</string>
   <string name="PollOptionsLimit_two">You can add %1$s more options</string>
   <string name="PollOptionsLimit_few">You can add %1$s more options</string>
   <string name="PollOptionsLimit_many">You can add %1$s more options</string>
+  <string name="PollPreview">Poll: %1$s</string>
+  <string name="PriorityAboutLow">Low priority notifications will appear in system tray without interrupting.</string>
+  <string name="PriorityMedium">Medium</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="Private">Private</string>
   <string name="ReadAllChatsDone_zero">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_two">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_few">Marked %1$s chats as read</string>
@@ -2853,6 +2880,7 @@
   <string name="ReportXMessages_two">Report %1$s messages</string>
   <string name="ReportXMessages_few">Report %1$s messages</string>
   <string name="ReportXMessages_many">Report %1$s messages</string>
+  <string name="RevokeAdminRights">Revoke Admin Rights</string>
   <string name="SelectedAudioSuffix_zero">" audios"</string>
   <string name="SelectedAudioSuffix_two">" audios"</string>
   <string name="SelectedAudioSuffix_few">" audios"</string>
@@ -2893,6 +2921,8 @@
   <string name="SelectedVoiceSuffix_two">" messages"</string>
   <string name="SelectedVoiceSuffix_few">" messages"</string>
   <string name="SelectedVoiceSuffix_many">" messages"</string>
+  <string name="SetAdminsAll">All Members Are Admins</string>
+  <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="ShareTitleAudioX_zero">Share %1$s audios to…</string>
   <string name="ShareTitleAudioX_two">Share %1$s audios to…</string>
   <string name="ShareTitleAudioX_few">Share %1$s audios to…</string>
@@ -2948,7 +2978,16 @@
   <string name="TryAgainSeconds_two">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
+  <string name="UndoAllCustom">Undo all custom notification settings for all your contacts, groups and channels</string>
+  <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="WhoCanAddMembersAllMembers">All members</string>
+  <string name="XSentAFile">%1$s sent a file</string>
+  <string name="XSentAGIF">%1$s sent a GIF</string>
+  <string name="XSentAMessage">%1$s sent a message</string>
+  <string name="XSentAPhoto">%1$s sent a photo</string>
+  <string name="XSentARoundVideo">%1$s sent a video message</string>
+  <string name="XSentAVideo">%1$s sent a video</string>
+  <string name="XSentAVoice">%1$s sent a voice message</string>
   <string name="YouCantForwardMoreMessages_zero">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
@@ -2986,6 +3025,8 @@
   <string name="inXMinutes_two">in %1$s minutes</string>
   <string name="inXMinutes_few">in %1$s minutes</string>
   <string name="inXMinutes_many">in %1$s minutes</string>
+  <string name="login_Country">Country</string>
+  <string name="login_YourName">Your name</string>
   <string name="mentionCount_zero">%1$s mentions</string>
   <string name="mentionCount_two">%1$s mentions</string>
   <string name="mentionCount_few">%1$s mentions</string>
@@ -2994,6 +3035,7 @@
   <string name="messagesCount_two">%1$s</string>
   <string name="messagesCount_few">%1$s</string>
   <string name="messagesCount_many">%1$s</string>
+  <string name="service_Notifications">This service is used for displaying message notifications.</string>
   <string name="status_LastSeen_hours_zero">seen %1$s hours ago</string>
   <string name="status_LastSeen_hours_two">seen %1$s hours ago</string>
   <string name="status_LastSeen_hours_few">seen %1$s hours ago</string>

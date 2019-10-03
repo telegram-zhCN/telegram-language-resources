@@ -82,6 +82,7 @@
   <string name="format_dateViaBot">%1$s 通过 %2$s</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   
+  
   <string name="messagesCount_other">%1$s</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s，%2$s</string>
@@ -89,9 +90,8 @@
   <string name="login_error">错误:  %1$s. 如果您需要帮助请 __联系我们__ .</string>
   <string name="login_Code">验证码</string>
   <string name="login_Password">密码</string>
-  <string name="login_Country">国家</string>
+  
   <string name="login_SmsHint">我们会向您的手机号码发送一条验证码短信。</string>
-  <string name="login_YourName">您的姓名</string>
   <string name="Registration">注册</string>
   <string name="login_FirstName">名字</string>
   <string name="LastName">姓氏</string>
@@ -269,19 +269,31 @@
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
   <string name="ChatContentGroupCreate">创建了群组</string>
+  
   <string name="ChatContentGroupReturn">返回了群组</string>
+  
   <string name="ChatContentGroupAddYou">将你添加进群组</string>
   <string name="ChatContentGroupAdd">已将 %1$s 添加进入群组</string>
   
+  
   <string name="ChatContentGroupAddMembers_other">已添加 %1$s 位成员进入群组</string>
+  
+  
   <string name="ChatContentGroupLeft">退出了群组</string>
+  
   <string name="ChatContentGroupJoin">通过邀请链接加入了群组</string>
+  
   <string name="ChatContentGroupJoinPublic">加入了群组</string>
+  
   <string name="ChatContentGroupKickYou">将您移出群组</string>
   <string name="ChatContentGroupKick">"将 %1$s 移出群组 "</string>
+  
   <string name="ChatContentGroupPhoto">已更改群组头像</string>
+  
   <string name="ChatContentGroupPhotoRemove">已移除群组头像</string>
+  
   <string name="ChatContentGroupName">群组被重命名为 «%1$s»</string>
+  
   <string name="Audio">音乐</string>
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
@@ -370,6 +382,7 @@
   <string name="ServiceNotifications">通知服务</string>
   <string name="Bot">机器人</string>
   <string name="Support">支持</string>
+  
   <string name="deletedUser">已销号用户</string>
   <string name="unknownUser">未知的用户</string>
   <string name="BotStatusRead">可以访问消息</string>
@@ -394,15 +407,11 @@
   <string name="CopyCoordinates">复制坐标</string>
   <string name="CopiedCoordinates">坐标已复制到剪贴板</string>
   <string name="CopyLink">复制链接</string>
-  <string name="Convert">升级为超级群组</string>
   <string name="Search">搜索</string>
   <string name="NoChats">没有对话</string>
   <string name="NoContacts">未找到任何联系人</string>
   <string name="ChannelCreator">创建者</string>
   <string name="Administrator">管理员</string>
-  <string name="SetAdminsAll">将所有成员都设为管理员</string>
-  <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
-  <string name="AdminsAreSelectedHint">只有管理员能够添加和移除成员、编辑此群组的名称和头像。</string>
   <string name="LinkInfo">任何已安装 Telegram 的用户都可以通过此链接加入您的群组。</string>
   <string name="ChannelAddAdmin">添加管理员</string>
   <string name="InviteLink">邀请链接</string>
@@ -585,6 +594,9 @@
   <string name="game_ActionYouScoredInGame_other">您在 %2$s 中获得了 %1$s 分</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
   <string name="NotificationGame">邀请你一起玩 %1$s</string>
+  
+  
+  
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
   <string name="ShareYourPhoneNumberDesc">%1$s 将会获取您的手机号码。\n\n 这可能用于其他集成服务。</string>
@@ -658,6 +670,10 @@
   <string name="VoiceMessages">语音留言</string>
   <string name="Files">文件</string>
   <string name="Music">音乐</string>
+  
+  
+  
+  
   <string name="NoPhotos">排除图片</string>
   <string name="NoVideos">排除视频</string>
   <string name="NoGIFs">排除 GIF</string>
@@ -762,8 +778,6 @@
   <string name="SoundDisabled">关闭</string>
   <string name="InChatSound">发送提示音</string>
   <string name="InChatSoundInfo">在聊天窗口时仍播放通知铃声。</string>
-  <string name="Events">事件</string>
-  <string name="EventNewContact">新联系人加入</string>
   <string name="EventNewContactInfo">当您的其中一个联系人加入 Telegram 时获得通知。</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="RepeatNotifications">重复通知</string>
@@ -779,19 +793,11 @@
   <string name="Archived">已归档</string>
   <string name="Masks">装饰</string>
   <string name="StickersHide">归档</string>
-  <string name="UndoAllCustom">撤销所有对联系人、群组和频道的通知设置更改</string>
   <string name="XOnlyIfSilent">%1$s （仅在静音模式）</string>
   <string name="XButOnlyIfSilent">%1$s （仅在静音模式）</string>
   <string name="Long">长</string>
   <string name="DoubleShort">两次短震动</string>
   <string name="IsDefault">%1$s（默认）</string>
-  <string name="XSentAMessage">%1$s 发送了一条消息</string>
-  <string name="XSentAPhoto">%1$s 发送了一张图片</string>
-  <string name="XSentAVideo">%1$s 发送了一段视频</string>
-  <string name="XSentAGIF">%1$s 发送了一张 GIF</string>
-  <string name="XSentAVoice">%1$s 发送了一条语音留言</string>
-  <string name="XSentAFile">%1$s发送了一个文件</string>
-  <string name="XSentARoundVideo">%1$s 发送了一条视频留言</string>
   <string name="SmileysAndPeople">表情 &amp; 人物</string>
   <string name="AnimalsAndNature">动物 &amp; 自然</string>
   <string name="FoodDrink">食物 &amp; 饮料</string>
@@ -883,7 +889,7 @@
   <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
   <string name="NewPhone">新的电话号码</string>
   <string name="NewNumber">新的号码</string>
-  <string name="CountryNotFound">国家代码无法识别</string>
+  
   <string name="ConfirmationCode">验证码</string>
   <string name="SentSmsCode">我们已经向您的手机号码 **%1$s** 发送了一条带有激活验证码的短信。</string>
   <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>
@@ -969,7 +975,6 @@
   <string name="FolderEmpty">这个文件夹是空的</string>
   <string name="AttachFolderHome">返回</string>
   <string name="DataSettings">数据与存储</string>
-  <string name="DataUsage">存储和网络使用情况</string>
   <string name="StorageUsage">存储用量</string>
   <string name="ReduceMotion">减少动画效果</string>
   <string name="StorageUsageHint">管理占用空间</string>
@@ -1000,7 +1005,6 @@
   <string name="SecretFiles">私人媒体文件和其他文件</string>
   <string name="Clear">清空</string>
   <string name="ClearX">清理 %1$s 文件</string>
-  <string name="service_Notifications">该服务用于显示消息通知。</string>
   <string name="UnmutesInX">%1$s 后解除通知停用</string>
   <string name="MuteForever">永久停用通知</string>
   <string name="NotificationsCustomize">自定义</string>
@@ -1030,6 +1034,7 @@
   <string name="YouCreatedGroup">您创建了此群组</string>
   <string name="XofY">%1$s/ %2$s</string>
   <string name="ReadingXLine">正在读取第 %1$s 行...</string>
+  
   
   <string name="xPeopleJoinedGroup_other">%1$s 位成员加入了群组</string>
   
@@ -1195,9 +1200,7 @@
   <string name="PriorityRegular">常规</string>
   <string name="PriorityUrgent">紧急</string>
   <string name="PriorityLow">低</string>
-  <string name="PriorityMedium">中</string>
   <string name="PriorityAboutUrgentAndLow">当你的手机处于“请勿打扰”模式时，将只显示紧急通知。 低优先级的通知将显示在系统状态栏中且不会发起通知。</string>
-  <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="SelectMessagesInBetween">选中中间的消息</string>
   <string name="ProcessingFile">正在处理...</string>
@@ -1234,7 +1237,6 @@
   <string name="VideoMessages">视频留言</string>
   <string name="NoVideoMessages">排除视频留言</string>
   <string name="DeleteContactConfirm">你确认你想将 %1$s 从通讯录中删除吗？</string>
-  <string name="NotificationsGooglePlayServices">我们需要 Google Play 服务以保证可靠地获取通知。</string>
   <string name="BotIsDown">机器人暂未响应。请稍后重试。</string>
   <string name="BotIsDownSpecific">%1$s 暂未响应。请稍后重试。</string>
   <string name="UseInAppBrowser">应用内浏览器</string>
@@ -1262,11 +1264,9 @@
   <string name="RestrictedByXOnDate">被 %1$s 于 %2$s 限制</string>
   <string name="EditGroup">编辑群组</string>
   <string name="GroupInfo">群组信息</string>
-  <string name="WhoCanAddMembers">邀请新成员权限</string>
   <string name="RecentActionsGroupHint">在过去的 48 小时内群组发生的管理操作。</string>
   <string name="RecentActionsChannelHint">在过去的 48 小时内频道发生的管理操作。</string>
   <string name="Banned">已封禁</string>
-  <string name="Private">私人</string>
   <string name="AllMembers">所有成员</string>
   <string name="OnlyAdmins">仅管理员</string>
   
@@ -1294,7 +1294,6 @@
   <string name="GroupsWillBeShownHere">您与此人共同加入的群组将会显示在此处</string>
   <string name="EditAdminRights">修改管理员权限</string>
   <string name="ViewAdminRights">查看管理员权限</string>
-  <string name="RevokeAdminRights">撤销管理员权限</string>
   <string name="EditUserRestrictions">编辑用户限制</string>
   <string name="RestrictUser">限制用户权限</string>
   <string name="ViewRestrictions">查看当前限制</string>
@@ -1328,7 +1327,6 @@
   <string name="SomeCallInProgressDesc">在通话时无法执行此操作</string>
   <string name="Follow">订阅</string>
   <string name="Unselect">取消选择</string>
-  <string name="ActionIrreversible">此操作无法撤销。</string>
   <string name="LinkInUse">抱歉，这个公开链接已被占用。</string>
   <string name="LinkInvalid">抱歉，这个公开链接不符合规范。</string>
   <string name="LinkInvalidShort">公开链接名必须至少包含 5 个字符。</string>
@@ -1570,7 +1568,6 @@
   <string name="PlayResume">继续</string>
   <string name="PlayStop">停止</string>
   <string name="NotificationChannelCommonPrivate">适用于所有私聊的默认消息提醒设置</string>
-  <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationChannelCommonGroups">对群组会话通知的默认设置</string>
   <string name="NotificationChannelCommonChannels">恢复所有频道的默认通知设置。</string>
   <string name="NotificationChannelSecretChat">适用于与 %1$s 加密对话的自定义消息提醒设置</string>
@@ -1588,7 +1585,6 @@
   <string name="IncognitoKeyboard">无痕键盘</string>
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
-  <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyCallsP2PTitle2">通话端对端连接</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
@@ -1729,7 +1725,6 @@
   <string name="AutoInstantViewAll">所有链接</string>
   <string name="DeepLinkUnsupported">未知或损坏的链接</string>
   <string name="AppUpdateRequiredTitle">需要更新</string>
-  <string name="AppUpdateRequiredText">要进行此操作，请更新 Telegram。</string>
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
   <string name="message_via">通过</string>
@@ -1893,7 +1888,6 @@
   <string name="DragChatsHint">拖动重新排序对话</string>
   <string name="OpenMap">在地图中显示</string>
   <string name="MapPreviewProvider">地图预览提供商</string>
-  <string name="MapPreviewProviderCloud">普通对话的地图预览提供商</string>
   <string name="MapPreviewProviderInfo">当您收到一个地图或实时位置时，一个预览图会被您选择的提供商生成。\n\n这要求我们发送一个包含位置坐标的匿名请求。</string>
   <string name="MapPreviewProviderHint">选择一个提供商生成加密对话的地图预览。\n\n这要求我们发送一个包含位置坐标的匿名请求。</string>
   <string name="MapPreviewProviderNone">无</string>
@@ -2336,7 +2330,6 @@
   <string name="NotificationsPrivateInfo">您可以在特定的用户信息界面中设置针对他们的通知策略。</string>
   <string name="NotificationsGroupInfo">您可以在特定的群组信息界面中设置针对他们的通知策略。</string>
   <string name="NotificationsChannelInfo">您可以在特定的频道信息界面中设置针对他们的通知策略。</string>
-  <string name="AppBadgeHint">在应用图标上显示未读消息数。在部分设备上可能无法显示。\n\n无论设置如何，系统都可能在播放音乐或进行通话时显示额外的消息计数。</string>
   <string name="IncludeDismissed">包括错过的消息</string>
   <string name="IncludeDismissedHintOn">切换来开启在新通知中包括会话中错过的未读消息</string>
   <string name="IncludeDismissedHintOff">关闭以在收到新通知时排除之前错过的通知</string>
@@ -2386,8 +2379,6 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
 
-  <string name="AllAccounts">消息</string>
-
   <string name="NotificationImportance">通知风格</string>
   <string name="NotificationImportanceHigh">声音与弹窗</string>
   <string name="NotificationImportanceHighNoSound">振动与弹窗</string>
@@ -2403,7 +2394,6 @@
   
   <string name="xExceptions_other">%1$s 个例外</string>
 
-  <string name="NotificationsBlockedAll">系统屏蔽了来自Telegram的所有通知。</string>
   <string name="EventNewContact2">联系人加入 Telegram</string>
 
   <string name="NotificationsSetting">通知与提醒</string>
@@ -2466,7 +2456,6 @@
   <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
 
   <string name="Poll">投票</string>
-  <string name="PollPreview">投票: %1$s</string>
   <string name="PollQuestion">问题</string>
   <string name="PollQuestionEmpty">请输入问题</string>
   <string name="PollOption">选项</string>
@@ -2669,7 +2658,22 @@
 
   
   
+  
+  
   <string name="DisplaySensitiveContent">显示敏感内容</string>
+
+  
+  <!--<string name="ChatListStyleOptIcons">Media Icons</string>
+  <string name="ChatListStyleOptFormatting">Text Formatting</string>-->
+  
+  
+  
+
+  
+  
+  
+
+  
 
   
   
@@ -2679,16 +2683,21 @@
   <!-- new from translations.telegram.org -->
 
   <string name="ActionDone">隐藏</string>
+  <string name="ActionIrreversible">此操作无法撤销。</string>
   <string name="ActionMuteAll_other">免打扰所有 %1$s 小时</string>
   <string name="ActionMuteHours_other">免打扰 %1$s 小时</string>
   <string name="ActionMutePersonHours_other">免打扰 %2$s  %1$s小时</string>
+  <string name="AdminsAreSelectedHint">只有管理员能够添加和移除成员、编辑此群组的名称和头像。</string>
+  <string name="AllAccounts">消息</string>
   <string name="AppBadge">未读消息计数角标</string>
   <string name="AppBadgeAll">所有对话</string>
   <string name="AppBadgeDisabled">已禁用</string>
+  <string name="AppBadgeHint">在应用图标上显示未读消息数。在部分设备上可能无法显示。\n\n无论设置如何，系统都可能在播放音乐或进行通话时显示额外的消息计数。</string>
   <string name="AppBadgeType">角标类型</string>
   <string name="AppBadgeTypeChats">对话数目</string>
   <string name="AppBadgeTypeMessages">消息数目</string>
   <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
+  <string name="AppUpdateRequiredText">要进行此操作，请更新 Telegram。</string>
   <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="BadgeCounterSetting">通知圆点</string>
   <string name="ChannelMessageAudio">%1$s 发布了一条语音留言</string>
@@ -2701,11 +2710,18 @@
   <string name="ChannelType">频道类型</string>
   <string name="ChatPhoto">对话头像</string>
   <string name="ContactJoined">联系人加入 Telegram</string>
+  <string name="Convert">升级为超级群组</string>
   <string name="ConvertGroup">升级为超级群组</string>
+  <string name="CountryNotFound">国家代码无法识别</string>
+  <string name="DataUsage">存储和网络使用情况</string>
+  <string name="EventNewContact">新联系人加入</string>
+  <string name="Events">事件</string>
   <string name="GroupConvertHint">**成员数已达到 %1$s 人上限。**\n升级到 **超级群组** 来增加成员上限并获得更多功能。\n在超级群组中：\n\n• 超级群组可以提升至高达 **%2$s** 人的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>
   <string name="GroupType">群组类型</string>
   <string name="Importance">优先级</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>
+  <string name="MapPreviewProviderCloud">普通对话的地图预览提供商</string>
+  <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
   <string name="NotificationMessageNoText">%1$s 给您发送了一条消息</string>
@@ -2713,10 +2729,32 @@
   <string name="NotificationMessageRoundVideo">%1$s 给您发送了一条视频留言</string>
   <string name="NotificationMessageVideo">%1$s 给您发送了一段视频</string>
   <string name="NotificationMessageVoice">%1$s 给您发送了一条语音留言</string>
+  <string name="NotificationsBlockedAll">系统屏蔽了来自Telegram的所有通知。</string>
+  <string name="NotificationsGooglePlayServices">我们需要 Google Play 服务以保证可靠地获取通知。</string>
+  <string name="PollPreview">投票: %1$s</string>
+  <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
+  <string name="PriorityMedium">中</string>
+  <string name="PrivacyCallsP2PTitle">端对端连接</string>
+  <string name="Private">私人</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
+  <string name="RevokeAdminRights">撤销管理员权限</string>
+  <string name="SetAdminsAll">将所有成员都设为管理员</string>
+  <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
   <string name="ShareTitleMessage">分享消息到...</string>
   <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
   <string name="SignOutHint">您确定要注销 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
+  <string name="UndoAllCustom">撤销所有对联系人、群组和频道的通知设置更改</string>
+  <string name="WhoCanAddMembers">邀请新成员权限</string>
   <string name="WhoCanAddMembersAllMembers">所有成员</string>
+  <string name="XSentAFile">%1$s发送了一个文件</string>
+  <string name="XSentAGIF">%1$s 发送了一张 GIF</string>
+  <string name="XSentAMessage">%1$s 发送了一条消息</string>
+  <string name="XSentAPhoto">%1$s 发送了一张图片</string>
+  <string name="XSentARoundVideo">%1$s 发送了一条视频留言</string>
+  <string name="XSentAVideo">%1$s 发送了一段视频</string>
+  <string name="XSentAVoice">%1$s 发送了一条语音留言</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
+  <string name="login_Country">国家</string>
+  <string name="login_YourName">您的姓名</string>
+  <string name="service_Notifications">该服务用于显示消息通知。</string>
 </resources>
