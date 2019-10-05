@@ -1209,6 +1209,7 @@
     <string name="AutoNightScheduled">Scheduled</string>
     <string name="AutoNightAdaptive">Adaptive</string>
     <string name="AutoNightSchedule">Schedule</string>
+    <string name="AutoNightSystemDefault">System Default</string>
     <string name="AutoNightLocation">Use Local Sunset &amp; Sunrise</string>
     <string name="AutoNightUpdateLocation">Update Location</string>
     <string name="AutoNightUpdateLocationInfo">Calculating sunset &amp; sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.\n\nSunset: %1$s\nSunrise: %2$s</string>
@@ -2680,6 +2681,12 @@
     <string name="items_few">%1$d items</string>
     <string name="items_many">%1$d items</string>
     <string name="items_other">%1$d items</string>
+    
+    
+    
+    
+    
+    
     <string name="FromChats_zero">from %1$d chats</string>
     <string name="FromChats_one">from %1$d chat</string>
     <string name="FromChats_two">from %1$d chats</string>
@@ -3021,6 +3028,8 @@
 	<string name="AccDescrSearchByUser">Filter by user</string>
     <string name="AccActionTakePicture">Take a picture</string>
     <string name="AccActionRecordVideo">Record video</string>
+    <string name="AccSwipeForArchive">Swipe down for archive</string>
+    <string name="AccReleaseForArchive">Release for archive</string>
     <!--date formatters-->
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>

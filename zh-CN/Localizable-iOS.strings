@@ -962,7 +962,7 @@
 
 "Settings.PhoneNumber" = "更改号码";
 
-"PhoneNumberHelp.Help" = "您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
+"PhoneNumberHelp.Help" = "你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。";
 "PhoneNumberHelp.Alert" = "所有拥有当前号码，且未被屏蔽的 Telegram 联系人会自动获取新号码。";
 "PhoneNumberHelp.ChangeNumber" = "更换手机号码";
 
@@ -2628,7 +2628,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.EventsTitle" = "操作";
 "Channel.AdminLogFilter.EventsAll" = "所有操作";
 "Channel.AdminLogFilter.EventsRestrictions" = "限制成员";
-"Channel.AdminLogFilter.EventsAdmins" = "新管理员任命";
+"Channel.AdminLogFilter.EventsAdmins" = "任免管理员";
 "Channel.AdminLogFilter.EventsNewMembers" = "新成员加入";
 "Channel.AdminLogFilter.EventsInfo" = "群组信息变更";
 "Channel.AdminLogFilter.ChannelEventsInfo" = "频道信息变更";
@@ -3376,7 +3376,7 @@ Unused sets are archived when you add more.";
 "FastTwoStepSetup.HintPlaceholder" = "设置密码提示";
 "FastTwoStepSetup.HintHelp" = "请设置一个密码提示";
 
-"Passport.DiscardMessageTitle" = "撤销";
+"Passport.DiscardMessageTitle" = "放弃修改";
 "Passport.DiscardMessageDescription" = "您确定要放弃所有更改吗？";
 "Passport.DiscardMessageAction" = "放弃";
 
@@ -4680,7 +4680,7 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ShortLink" = "链接";
 "EditTheme.Preview" = "对话预览";
 "EditTheme.UploadNewTheme" = "从文件创建...";
-
+"EditTheme.UploadEditedTheme" = "从文件上传...";
 "EditTheme.ThemeTemplateAlertTitle" = "新的主题已添加";
 
 "EditTheme.FileReadError" = "主题文件无效";

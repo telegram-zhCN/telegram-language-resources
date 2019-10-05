@@ -2662,6 +2662,11 @@
   <string name="MediaRestricted">Media unavailable</string>
   <string name="DisplaySensitiveContent">Display sensitive content</string>
 
+  <string name="format_notificationSilentTitle">%1$s &#128277;</string>
+  <string name="format_notificationSilentText">&#128277; %1$s</string>
+  <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
+  <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
+
   <string name="ChatListStyle">Chat List Style</string>
   <!--<string name="ChatListStyleOptIcons">Media Icons</string>
   <string name="ChatListStyleOptFormatting">Text Formatting</string>-->

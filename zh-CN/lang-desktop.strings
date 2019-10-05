@@ -711,7 +711,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_self_destruct_years#other" = "{count} 年";
 
 "lng_change_phone_title" = "更改手机号码";
-"lng_change_phone_about" = "您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。";
+"lng_change_phone_about" = "你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。";
 "lng_change_phone_warning" = "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。";
 "lng_change_phone_occupied" = "手机号码 {phone} 已经和另一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。";
 "lng_change_phone_button" = "更换手机号码";
@@ -1789,7 +1789,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_title" = "过滤";
 "lng_admin_log_filter_all_actions" = "所有操作";
 "lng_admin_log_filter_restrictions" = "限制成员";
-"lng_admin_log_filter_admins_new" = "新管理员任命";
+"lng_admin_log_filter_admins_new" = "任免管理员";
 "lng_admin_log_filter_members_new" = "新成员加入";
 "lng_admin_log_filter_info_group" = "群组信息变更";
 "lng_admin_log_filter_info_channel" = "频道信息变更";

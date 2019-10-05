@@ -629,7 +629,7 @@
     <string name="EventLogPromotedPinMessages">置顶消息</string>
     <string name="EventLogFilterAll">所有操作</string>
     <string name="EventLogFilterNewRestrictions">新例外</string>
-    <string name="EventLogFilterNewAdmins">新管理员任命</string>
+    <string name="EventLogFilterNewAdmins">任免管理员</string>
     <string name="EventLogFilterNewMembers">新成员加入</string>
     <string name="EventLogFilterGroupInfo">群组信息变更</string>
     <string name="EventLogFilterChannelInfo">频道信息变更</string>
@@ -1209,6 +1209,7 @@
     <string name="AutoNightScheduled">计划时段</string>
     <string name="AutoNightAdaptive">自适应</string>
     <string name="AutoNightSchedule">时间段</string>
+    <string name="AutoNightSystemDefault">System Default</string>
     <string name="AutoNightLocation">使用当地日落/日出时间</string>
     <string name="AutoNightUpdateLocation">更新位置</string>
     <string name="AutoNightUpdateLocationInfo">计算日落 &amp; 日出时间需要检测一次您的粗略位置。请注意，此位置仅会本地存储在您的设备上。\n\n日落：%1$s\n日出：%2$s</string>
@@ -1520,7 +1521,7 @@
     <string name="NotificationsPriorityUrgent">紧急</string>
     <string name="RepeatNotificationsNever">从不</string>
     <string name="RepeatNotifications">重复通知</string>
-    <string name="PhoneNumberHelp">您可以在这里更换当前与 Telegram 帐号绑定的手机号码。此帐号的一切资料，包括云端储存的消息、文件、联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
+    <string name="PhoneNumberHelp">你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。</string>
     <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</string>
     <string name="PhoneNumberChange2">更改手机号码</string>
     <string name="PhoneNumberChangeTitle">更改手机号码</string>
@@ -2680,6 +2681,12 @@
     <string name="items_few">%1$d 项</string>
     <string name="items_many">%1$d 项</string>
     <string name="items_other">%1$d 项</string>
+    
+    
+    
+    
+    
+    
     <string name="FromChats_zero">来自 %1$d 个对话</string>
     <string name="FromChats_one">来自 %1$d 个对话</string>
     <string name="FromChats_two">来自 %1$d 个对话</string>
@@ -3021,6 +3028,8 @@
 	<string name="AccDescrSearchByUser">按用户排序</string>
     <string name="AccActionTakePicture">照相</string>
     <string name="AccActionRecordVideo">录制视频</string>
+    <string name="AccSwipeForArchive">Swipe down for archive</string>
+    <string name="AccReleaseForArchive">Release for archive</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>

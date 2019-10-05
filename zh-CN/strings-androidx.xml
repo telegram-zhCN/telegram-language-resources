@@ -788,7 +788,7 @@
   <string name="NoStickerSets">未添加任何贴纸包</string>
   <string name="NoMasks">未添加任何装饰包</string>
   <string name="ArchivedStickersInfo">您最多能够拥有 %1$s 个贴纸包。未被使用的贴纸包将在您添加新贴纸包时被归档。</string>
-  <string name="MasksHint">你可以在要发送的图片或视频里添加装饰——只需在发送前打开图片编辑器进行编辑即可。</string>
+  <string name="MasksHint">在将来的版本中，你将可以在发送的图片及视频中添加装饰。</string>
   <string name="Trending">热门</string>
   <string name="Archived">已归档</string>
   <string name="Masks">装饰</string>
@@ -880,10 +880,10 @@
   <string name="UsernameCurrent">%1$s 是您当前用户名。</string>
   <string name="ThisLinkWillOpen">此链接会在 Telegram 中打开一个与您的对话窗口：</string>
   <string name="ThisLinkOpens">此链接会在 Telegram 中打开一个与您的会话窗口：\n</string>
-  <string name="FeatureUnavailable">抱歉，此功能在您的国家暂时不可用</string>
+  <string name="FeatureUnavailable">抱歉，此功能在您的地区暂时不可用</string>
   <string name="PhoneNumberChange">更换手机号码</string>
   <string name="PhoneNumberChangeDone">继续</string>
-  <string name="PhoneNumberHelp">更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会获得您的**新号码**。</string>
+  <string name="PhoneNumberHelp">你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。</string>
   <string name="PhoneNumberAlert">所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会即时获取您的新号码。</string>
   <string name="PhoneNumberInUse">抱歉，该电话号码已被使用。</string>
   <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
@@ -1034,7 +1034,7 @@
   <string name="YouCreatedGroup">您创建了此群组</string>
   <string name="XofY">%1$s/ %2$s</string>
   <string name="ReadingXLine">正在读取第 %1$s 行...</string>
-  
+  <string name="format_linesAndViews">%1$s, %2$s</string>
   
   <string name="xPeopleJoinedGroup_other">%1$s 位成员加入了群组</string>
   
@@ -1165,7 +1165,7 @@
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
   <string name="DeleteEntry">删除此条</string>
   <string name="Sticker">[贴纸]</string>
-  
+  <string name="AnimatedSticker">动态贴纸</string>
   <string name="AttachRound">视频留言</string>
   <string name="MicrophoneMissing">需要麦克风才能拨打电话，你的设备似乎没有。</string>
   <string name="People">用户</string>
@@ -1381,7 +1381,7 @@
   <string name="EventLogOriginalCaption">原始说明</string>
   <string name="EventLogOriginalCaptionEmpty">无</string>
   <string name="EventLogPinnedMessages">%1$s 置顶了这条消息：</string>
-  
+  <string name="EventLogPollStopped">%1$s 结束了投票：</string>
   <string name="EventLogUnpinnedMessages">%1$s 解除了消息置顶</string>
   <string name="EventLogDeletedMessages">%1$s 删除了这条消息：</string>
   <string name="EventLogChangedGroupLink">%1$s 修改了群组链接：</string>
@@ -1433,7 +1433,7 @@
   <string name="EventLogPromotedPinMessages">置顶消息</string>
   <string name="EventLogFilterAll">所有操作</string>
   <string name="EventLogFilterNewRestrictions">限制成员</string>
-  <string name="EventLogFilterNewAdmins">新管理员任命</string>
+  <string name="EventLogFilterNewAdmins">任免管理员</string>
   <string name="EventLogFilterNewMembers">新成员加入</string>
   <string name="EventLogFilterGroupInfo">群组信息变更</string>
   <string name="EventLogFilterChannelInfo">频道信息变更</string>
@@ -1464,7 +1464,7 @@
   <string name="ChatHistoryHiddenInfo">新成员不能查看他们加入前的消息。</string>
   <string name="ChatHistoryHidden">不可见</string>
   
-  
+  <string name="ChatHistoryPartiallyHiddenInfo_other">新成员只能看到最近 %1$s 条消息。</string>
   <string name="ChatHistoryVisible">可见</string>
   <string name="DiscardCurrentChanges">放弃当前更改？</string>
   <string name="CropFree">自由</string>
@@ -2558,7 +2558,7 @@
   <string name="PaintsInfo">Telegram X会缓存您使用内置编辑器编辑后的图片来以备将来使用。\n\n你想让Telegram X清除这些缓存吗？</string>
 
   <string name="JunkFiles">未使用的文件</string>
-  
+  <string name="JunkFilesInfo">使用某些功能或较旧的应用版本时创建的服务文件。</string>
 
   <string name="format_approx">%1$s (估算)</string>
 
@@ -2642,8 +2642,8 @@
   <string name="WhoCanForwardLink">谁可以在转发我的消息上附加用户链接？</string>
   
 
-  
-  
+  <string name="WhoCanSeePhoto">谁可以查看您的头像？</string>
+  <string name="WhoCanSeePhotoInfo">您可以精确地控制哪些人可以查看您的头像。</string>
 
   
 
@@ -2651,16 +2651,21 @@
   <string name="AnimatedStickersInfo">您确定要清除动态贴纸缓存吗？</string>
 
   <string name="DiscardEditMsg">放弃编辑</string>
-  
+  <string name="DiscardEditMsgHint">你确定要放弃已经修改的消息吗？这将失去这些改动。</string>
 
-  
-  
+  <string name="DiscardEditCaption">放弃说明</string>
+  <string name="DiscardEditCaptionHint">你确定要放弃已经修改的备注吗？这将失去这些改动。</string>
 
   
   
   
   
   <string name="DisplaySensitiveContent">显示敏感内容</string>
+
+  <string name="format_notificationSilentTitle">%1$s &#128277;</string>
+  <string name="format_notificationSilentText">&#128277; %1$s</string>
+  <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
+  <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
 
   
   <!--<string name="ChatListStyleOptIcons">Media Icons</string>
