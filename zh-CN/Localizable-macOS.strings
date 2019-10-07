@@ -2217,7 +2217,7 @@
 "SecureId.EmptyDescription.TemporaryRegistration" = "上传您的临时居住证明的扫描件";
 
 "SecureId.EmptyDescription.PersonalDetails" = "输入您的个人信息";
-"SecureId.EmptyDescription.Address" = "请输入地址";
+"SecureId.EmptyDescription.Address" = "提供您的住址";
 
 "SecureId.EmptyDescription.Passport" = "上传一份护照扫描件";
 "SecureId.EmptyDescription.DriversLicense" = "上传一份驾驶证扫描件";

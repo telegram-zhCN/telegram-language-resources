@@ -1768,6 +1768,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_inline" = "群组管理员已禁止您发送机器人内容。";
 "lng_restricted_send_polls" = "群组管理员已禁止您发起投票。";
 
+
+
+
+
+
+
+
 "lng_restricted_send_message_all" = "全员禁言中";
 "lng_restricted_send_media_all" = "此群组不允许发送媒体。";
 "lng_restricted_send_stickers_all" = "此群组不允许发送贴纸。";
@@ -2021,7 +2028,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_native_name_language" = "请用{language}填写您的姓名";
 "lng_passport_native_name_language_about" = "请以您所居住的国家语言填写您的姓名。";
 "lng_passport_address" = "地址";
-"lng_passport_address_enter" = "请提供您的住址";
+"lng_passport_address_enter" = "提供您的住址";
 "lng_passport_street" = "街道";
 "lng_passport_city" = "城市";
 "lng_passport_state" = "省份";

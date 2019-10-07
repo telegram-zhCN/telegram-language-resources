@@ -3208,7 +3208,7 @@ Unused sets are archived when you add more.";
 "Passport.FieldIdentityUploadHelp" = "上传您的身份证明";
 "Passport.FieldIdentitySelfieHelp" = "上传和你的证件一起的自拍照";
 "Passport.FieldAddress" = "住宅地址";
-"Passport.FieldAddressHelp" = "请输入地址";
+"Passport.FieldAddressHelp" = "提供您的住址";
 "Passport.FieldAddressUploadHelp" = "上传您的地址证明";
 "Passport.FieldPhone" = "手机号码";
 "Passport.FieldPhoneHelp" = "提供您的联系电话";
@@ -4471,7 +4471,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "CreateGroup.ChannelsTooMuch" = "抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。";
-
+"Join.ChannelsTooMuch" = "抱歉，您已加入太多的群组和频道。加入新的之前请先退出一些。";
 "Invite.ChannelsTooMuch" = "抱歉，目标用户已加入太多的群组和频道。请先让他们退出一些。";
 
 

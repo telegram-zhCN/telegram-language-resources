@@ -357,7 +357,7 @@
     <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
     <string name="ChannelUserAddLimit">抱歉，您只能将至多 200 名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
     <string name="ChannelTooMuch">抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。</string>
-    <string name="ChannelTooMuchJoin">Sorry, you are a member of too many groups and channels. Please leave some before joining a new one.</string>
+    <string name="ChannelTooMuchJoin">抱歉，您已加入太多的群组和频道。加入新的之前请先退出一些。</string>
     <string name="ChannelAddedBy">un1 将您添加到了此频道</string>
     <string name="ChannelJoined">您加入了这个频道</string>
     <string name="ChannelMegaJoined">您加入了这个群组</string>
@@ -903,7 +903,7 @@
     <string name="MessageLifetimeYouRemoved">您取消了阅后即焚计时器</string>
     <string name="YouHaveNewMessage">您有一条新消息</string>
     <string name="NotificationMessageScheduled">&#128197; You: %1$s</string>
-    <string name="NotificationMessageScheduledName">&#128197; You</string>
+    <string name="NotificationMessageScheduledName">&#128197; 您</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s 发送给你 %2$s</string>
     <string name="NotificationMessageAlbum">%1$s 给您发送了一组图片</string>
@@ -1221,7 +1221,7 @@
     <string name="ThemeDark">暗色</string>
     <string name="ThemeDarkBlue">深蓝色</string>
     <string name="ThemeGraphite">石墨黑</string>
-    <string name="ThemeArcticBlue">北极蓝</string>
+    <string name="ThemeArcticBlue">北极</string>
     <string name="ThemeBlue">单色</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
     <string name="IncorrectTheme">错误的主题文件</string>
@@ -1709,7 +1709,7 @@
     <string name="PassportAddAgreement">添加租赁合同</string>
     <string name="PassportAddress">地址</string>
     <string name="PassportResidentialAddress">住宅地址</string>
-    <string name="PassportAddressNoUploadInfo">请输入地址</string>
+    <string name="PassportAddressNoUploadInfo">提供您的住址</string>
     <string name="PassportAddressInfo">上传您的地址证明</string>
     <string name="PassportAddressHeader">地址</string>
     <string name="PassportStreet1">街道</string>
@@ -1794,7 +1794,7 @@
     <string name="PassportDeleteDocument">删除此档案</string>
     <string name="PassportDeleteInfo">删除</string>
     <string name="PassportDeleteScanAlert">您确定要删除此扫描件吗？</string>
-    <string name="PassportDeleteSelfieAlert">您确定要删除这张自拍吗？</string>
+    <string name="PassportDeleteSelfieAlert">您确定要删除这张自拍照吗？</string>
     <string name="PassportDeleteDocumentAlert">您确定要删除此档案吗？</string>
     <string name="PassportDeletePersonalAlert">您确定要删除您的个人信息吗？</string>
     <string name="PassportDeleteAddressAlert">您确定要删除您的地址信息吗？</string>
@@ -3028,8 +3028,8 @@
 	<string name="AccDescrSearchByUser">按用户排序</string>
     <string name="AccActionTakePicture">照相</string>
     <string name="AccActionRecordVideo">录制视频</string>
-    <string name="AccSwipeForArchive">Swipe down for archive</string>
-    <string name="AccReleaseForArchive">Release for archive</string>
+    <string name="AccSwipeForArchive">下滑查看归档对话</string>
+    <string name="AccReleaseForArchive">松开查看归档对话</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
