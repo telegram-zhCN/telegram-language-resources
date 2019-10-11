@@ -954,10 +954,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_public_group_title" = "Public Group";
 "lng_create_public_group_about" = "Anyone can find the group in search and join, chat history is available to everybody";
 "lng_create_private_group_title" = "Private Group";
-"lng_create_private_group_about" = "People can only join if they were invited or have an invite link";
+"lng_create_private_group_about" = "People can only join if they are added or have an invite link";
 "lng_create_permanent_link_title" = "Permanent link";
 "lng_create_invite_link_title" = "Invite link";
-"lng_create_invite_link_about" = "People can join if they were invited, have an invite link, or from \"Groups nearby\"";
+"lng_create_invite_link_about" = "People can join if they are added, have an invite link, or from \"Groups nearby\"";
 
 "lng_create_group_skip" = "Skip";
 
