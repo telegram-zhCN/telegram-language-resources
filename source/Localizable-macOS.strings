@@ -1630,7 +1630,7 @@
 "Telegram.PhoneNumberConfirmController" = "Change Number";
 
 "ChangeNumber.SendData.Error.LimitExceeded" = "You have requested for an authorization code too many times. Please try again later.";
-"ChangeNumber.SendData.Error.InvalidPhoneNumber" = "The phone number you entered is not valid. Please enter the correct number along with your area code.";
+"ChangeNumber.SendData.Error.InvalidPhoneNumber" = "The phone number you entered is not valid. Please enter the correct number along with your country code.";
 "ChangeNumber.SendData.Error.PhoneNumberOccupied" = "The number %@ is already connected to a Telegram account. Please delete that account before migrating to the new number.";
 "ChangeNumber.SendData.Error.Generic" = "An error occurred. Please try again later.";
 

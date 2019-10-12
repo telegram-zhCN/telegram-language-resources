@@ -889,7 +889,7 @@
   <string name="ChangePhoneHelp">We will send an SMS with a confirmation code to your new number.</string>
   <string name="NewPhone">New phone number</string>
   <string name="NewNumber">New Number</string>
-  <string name="RegionNotFound">Area code not found</string>
+  <string name="RegionNotFound">Country code not found</string>
   <string name="ConfirmationCode">Confirmation Code</string>
   <string name="SentSmsCode">We\'ve sent an SMS with an activation code to your phone **%1$s**.</string>
   <string name="SentAppCode">We\'ve sent the code to the **Telegram** app on your other device.</string>
