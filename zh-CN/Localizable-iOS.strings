@@ -223,6 +223,7 @@
 
 
 
+
 // Common
 "Common.OK" = "好";
 "Common.Cancel" = "取消";
@@ -4056,6 +4057,7 @@ Unused sets are archived when you add more.";
 "LogoutOptions.LogOut" = "注销";
 "LogoutOptions.LogOutInfo" = "注销将会销毁所有的加密聊天记录。";
 
+
 "GroupPermission.PermissionGloballyDisabled" = "此权限在此群组已被禁止";
 
 "ChannelInfo.Stats" = "统计数据";
@@ -4724,6 +4726,191 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "Conversation.SendMessageErrorTooMuchScheduled" = "抱歉，您只能同时设置 100 条定时消息。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ //three to ten
+ //one
+ //two
+ //three to ten
+ // more than ten
+ // more than ten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
