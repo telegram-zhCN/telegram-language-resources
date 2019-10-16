@@ -1301,9 +1301,9 @@
 "Channel.Admin.TransferOwnership.Password.Title" = "两步验证";
 
 "Channel.Admin.TransferOwnership.Confirm.Group.Title" = "转让群组所有权";
-
+"Channel.Admin.TransferOwnership.Confirm.Group.Text" = "这会将%@全部的所有者权限从转移至 %@ 。\n\n您将不再被视为这个群组的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
 "Channel.Admin.TransferOwnership.Confirm.Channel.Title" = "转移频道所有权";
-
+"Channel.Admin.TransferOwnership.Confirm.Channel.Text" = "这会将%@全部的所有者权限转移至 %@ 。\n\n您将不再被视为这个频道的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
 "Channel.Admin.TransferOwnership.Confirm.OK" = "转移所有权";
 
 

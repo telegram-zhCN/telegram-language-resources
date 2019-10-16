@@ -861,7 +861,7 @@
 
 "Username.Title" = "用户名";
 "Username.Placeholder" = "您的用户名";
-"Username.Help" = "设定用户名后，其他用户能通过用户名找到您，从而保证您无需泄漏手机号。\n\n您可以使用 **a-z**、**0-9** 以及 **_**，并且至少使用 **5** 个字符。";
+"Username.Help" = "设定用户名后，其他用户能通过用户名找到您，从而保证您无需泄漏手机号。\n\n您可以使用 **a-z**、**0-9** 及 下划线，最小长度为 **5** 个字符。";
 "Username.InvalidTooShort" = "用户名必须至少包含 **5** 个字符";
 "Username.InvalidStartsWithNumber" = "抱歉，用户名不能以数字开头";
 "Username.InvalidCharacters" = "用户名只允许使用 a-z, 0-9 和下划线。";
@@ -4394,9 +4394,9 @@ Any member of this group will be able to see messages in the channel.";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
 "Channel.OwnershipTransfer.Title" = "转让频道所有权";
-
+"Channel.OwnershipTransfer.DescriptionInfo" = "这会将%1$@全部的**所有者权限**转移至 **%2$@** 。\n\n您将不再被视为这个频道的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
 "Group.OwnershipTransfer.Title" = "转移群组所有权";
-"Group.OwnershipTransfer.DescriptionInfo" = "这会将全部的**所有者权利**从 **%1$@** 转移至 **%2$@** 。\n\n您将不再被视为这个群组的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
+"Group.OwnershipTransfer.DescriptionInfo" = "这会将%1$@全部的**所有者权限**转移至 **%2$@** 。\n\n您将不再被视为这个群组的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
 "Channel.OwnershipTransfer.ChangeOwner" = "转移所有权";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
@@ -4461,8 +4461,8 @@ Any member of this group will be able to see messages in the channel.";
 "GroupInfo.PublicLinkAdd" = "添加";
 
 "Group.PublicLink.Title" = "公开链接";
-
-
+"Group.PublicLink.Placeholder" = "链接";
+"Group.PublicLink.Info" = "人们可以同他人分享这个链接，并通过 Telegram 搜索找到您的群组。\n\n您可以使用 **a-z**，**0-9** 及下划线。最小长度为 **5** 个字符。";
 
 "CreateGroup.ErrorLocatedGroupsTooMuch" = "抱歉，您已经有太多基于位置的群组了。 请先删除一个现有的。";
 
@@ -4514,9 +4514,9 @@ Any member of this group will be able to see messages in the channel.";
 
 "Appearance.ThemeCarouselNewNight" = "夜间";
 
-
-
-
+"Channel.AdminLog.MessageRankName" = "修改了 %1$@ 的自定义头衔:\n%2$@";
+"Channel.AdminLog.MessageRankUsername" = "修改了 %1$@ 的自定义头衔(%2$@):\n%3$@";
+"Channel.AdminLog.MessageRank" = "修改自定义头衔:\n%1$@";
 
 
 
@@ -4610,7 +4610,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.ScheduleMessage.SendOn" = "在 %@ %@ 时发送";
 
 "Conversation.SetReminder.Title" = "设置一个备忘录";
-
+"Conversation.SetReminder.RemindToday" = "在今天 %@ 时提醒我";
 "Conversation.SetReminder.RemindTomorrow" = "在明天 %@ 时提醒我";
 "Conversation.SetReminder.RemindOn" = "在 %@ %@ 时提醒我";
 
@@ -4732,16 +4732,16 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatList.Context.MarkAsRead" = "标记为已读";
+"ChatList.Context.MarkAsUnread" = "标记为未读";
 
 
+"ChatList.Context.Pin" = "置顶";
+"ChatList.Context.Unpin" = "取消置顶";
+"ChatList.Context.Mute" = "免打扰";
+"ChatList.Context.Unmute" = "取消免打扰";
 
-
-
-
-
-
-
-
+"ChatList.Context.Delete" = "删除";
 
 
 
@@ -5012,6 +5012,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.BanSendStickers" = "发送贴纸";
 "Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加成员";
+"Chat.AttachmentLimitExceeded" = "抱歉，您无法一次选择更多的项目。";
 "DataUpgrade.Running" = "正在优化...";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";

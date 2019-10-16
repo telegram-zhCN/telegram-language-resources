@@ -874,7 +874,7 @@
   <string name="UsernameInvalidShort">用户名必须包含至少 5 个字符。</string>
   <string name="UsernameInvalidLong">用户名不能超过 32 个字符。</string>
   <string name="UsernameInvalidStartNumber">抱歉，用户名不能以数字开头。</string>
-  <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**、**0–9** 和下划线。\n最小长度为 **5** 个字符。</string>
+  <string name="UsernameHelp">您可以在 **Telegram** 上设置一个用户名。设置后，别人将能够在不知道您的电话号码的情况下，通过此用户名找到您并与您联系。\n\n您可以使用 **a–z**、**0–9** 及下划线。\n最小长度为 **5** 个字符。</string>
   <string name="UsernameChecking">检查用户名中...</string>
   <string name="UsernameAvailable">%1$s 可用</string>
   <string name="UsernameCurrent">%1$s 是您当前用户名。</string>
