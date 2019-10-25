@@ -888,7 +888,7 @@
     <string name="MessageScheduleToday">Today</string>
     <string name="Schedule">Schedule</string>
     <string name="ScheduleMessage">Schedule message</string>
-    <string name="ScheduledMessages">Scheduled messages</string>
+    <string name="ScheduledMessages">Scheduled Messages</string>
     <string name="Reminders">Reminders</string>
     <string name="SetReminder">Set a reminder</string>
     <string name="MessageScheduledOn">Scheduled for %1$s</string>

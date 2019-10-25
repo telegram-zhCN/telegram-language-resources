@@ -4213,6 +4213,13 @@ Unused sets are archived when you add more.";
 
 "ChatList.DeleteForCurrentUser" = "Delete just for me";
 "ChatList.DeleteForEveryone" = "Delete for me and %@";
+"ChatList.DeleteForEveryoneConfirmationTitle" = "Warning!";
+"ChatList.DeleteForEveryoneConfirmationText" = "This will **delete all messages** in this chat for **both participants**.";
+"ChatList.DeleteForEveryoneConfirmationAction" = "Delete All";
+
+"ChatList.DeleteSavedMessagesConfirmationTitle" = "Warning!";
+"ChatList.DeleteSavedMessagesConfirmationText" = "This will **delete all messages** in this chat.";
+"ChatList.DeleteSavedMessagesConfirmationAction" = "Delete All";
 
 "ChatList.ClearChatConfirmation" = "Are you sure you want to delete all\nmessages in the chat with %@?";
 
@@ -4756,23 +4763,139 @@ Any member of this group will be able to see messages in the channel.";
 
 "ChatSearch.ResultsTooltip" = "Tap to view as a list.";
 
-"Updated.JustNow" = "just now";
-"Updated.MinutesAgo_0" = "%@ minutes ago"; //three to ten
-"Updated.MinutesAgo_1" = "1 minute ago"; //one
-"Updated.MinutesAgo_2" = "%@ minutes ago"; //two
-"Updated.MinutesAgo_3_10" = "%@ minutes ago"; //three to ten
-"Updated.MinutesAgo_many" = "%@ minutes ago"; // more than ten
-"Updated.MinutesAgo_any" = "%@ minutes ago"; // more than ten
-"Updated.HoursAgo_0" = "%@ hours ago";
-"Updated.HoursAgo_1" = "1 hour ago";
-"Updated.HoursAgo_2" = "%@ hours ago";
-"Updated.HoursAgo_3_10" = "%@ hours ago";
-"Updated.HoursAgo_any" = "%@ hours ago";
-"Updated.HoursAgo_many" = "%@ hours ago";
-"Updated.HoursAgo_0" = "%@ hours ago";
-"Updated.YesterdayAt" = "yesterday at %@";
-"Updated.AtDate" = "%@";
-"Updated.TodayAt" = "today at %@";
+
+ //three to ten
+ //one
+ //two
+ //three to ten
+ // more than ten
+ // more than ten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5238,6 +5361,22 @@ Any member of this group will be able to see messages in the channel.";
 "SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
 "StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.\nUnused sets are archived when you add more.";
 "Undo.MessagesDeleted" = "Messages deleted";
+"Updated.AtDate" = "%@";
+"Updated.HoursAgo_0" = "%@ hours ago";
+"Updated.HoursAgo_1" = "1 hour ago";
+"Updated.HoursAgo_2" = "%@ hours ago";
+"Updated.HoursAgo_3_10" = "%@ hours ago";
+"Updated.HoursAgo_many" = "%@ hours ago";
+"Updated.HoursAgo_any" = "%@ hours ago";
+"Updated.JustNow" = "just now";
+"Updated.MinutesAgo_0" = "%@ minutes ago";
+"Updated.MinutesAgo_1" = "1 minute ago";
+"Updated.MinutesAgo_2" = "%@ minutes ago";
+"Updated.MinutesAgo_3_10" = "%@ minutes ago";
+"Updated.MinutesAgo_many" = "%@ minutes ago";
+"Updated.MinutesAgo_any" = "%@ minutes ago";
+"Updated.TodayAt" = "today at %@";
+"Updated.YesterdayAt" = "yesterday at %@";
 "VoiceOver.Chat.ContactEmailCount_0" = "%@ email addresses";
 "VoiceOver.Chat.ContactEmailCount_2" = "%@ email addresses";
 "VoiceOver.Chat.ContactEmailCount_3_10" = "%@ email addresses";

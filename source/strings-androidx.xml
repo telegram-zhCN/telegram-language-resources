@@ -184,7 +184,7 @@
   <string name="xPhotos_one">%1$s photo</string>
   <string name="xPhotos_other">%1$s photos</string>
   <string name="xMedia_one">%1$s media</string>
-  <string name="xMedia_other">%1$s medias</string>
+  <string name="xMedia_other">%1$s media</string>
   <string name="xVideos_one">%1$s video</string>
   <string name="xVideos_other">%1$s videos</string>
   <string name="xViews_one">%1$s view</string>
@@ -552,7 +552,7 @@
   <string name="SelectedPhotoSuffix_one">" photo"</string>
   <string name="SelectedPhotoSuffix_other">" photos"</string>
   <string name="SelectedMediaSuffix_one">" media"</string>
-  <string name="SelectedMediaSuffix_other">" medias"</string>
+  <string name="SelectedMediaSuffix_other">" media"</string>
   <string name="SelectedVideoSuffix_one">" video"</string>
   <string name="SelectedVideoSuffix_other">" videos"</string>
   <string name="SelectedAudioSuffix_one">" audio"</string>
@@ -671,7 +671,7 @@
   <string name="Files">Files</string>
   <string name="Music">Music</string>
   <string name="TabEmptyPhotos">No photos</string>
-  <string name="TabEmptyMedias">No medias</string>
+  <string name="TabEmptyMedias">No media</string>
   <string name="TabEmptyLinks">No links</string>
   <string name="TabEmptyDocs">No documents</string>
   <string name="NoPhotos">No Photos</string>
@@ -1492,7 +1492,7 @@
   <string name="AttachPhotosSuffix_one">" photo"</string>
   <string name="AttachPhotosSuffix_other">" photos"</string>
   <string name="AttachMediasSuffix_one">" media"</string>
-  <string name="AttachMediasSuffix_other">" medias"</string>
+  <string name="AttachMediasSuffix_other">" media"</string>
   <string name="NewPinnedMessage">Pinned message: %1$s</string>
   <string name="PinnedMessageChanged">Pinned message changed</string>
   <string name="Markdown">Markdown</string>
@@ -2264,8 +2264,8 @@
 
   <string name="ShareTextMedia">Media from %1$s</string>
   <string name="ShareTitleMedia">Share media to…</string>
-  <string name="ShareTitleMediaX_one">Share %1$s media to…</string>
-  <string name="ShareTitleMediaX_other">Share %1$s medias to…</string>
+  <string name="ShareTitleMediaX_one">Share %1$s media with…</string>
+  <string name="ShareTitleMediaX_other">Share %1$s media with…</string>
 
   <string name="ShareTitleContact">Share contact to…</string>
 
@@ -2739,10 +2739,10 @@
   <string name="AsXMessages_two">as %1$s messages</string>
   <string name="AsXMessages_few">as %1$s messages</string>
   <string name="AsXMessages_many">as %1$s messages</string>
-  <string name="AttachMediasSuffix_zero">" medias"</string>
-  <string name="AttachMediasSuffix_two">" medias"</string>
-  <string name="AttachMediasSuffix_few">" medias"</string>
-  <string name="AttachMediasSuffix_many">" medias"</string>
+  <string name="AttachMediasSuffix_zero">" media"</string>
+  <string name="AttachMediasSuffix_two">" media"</string>
+  <string name="AttachMediasSuffix_few">" media"</string>
+  <string name="AttachMediasSuffix_many">" media"</string>
   <string name="AttachPhotosSuffix_zero">" photos"</string>
   <string name="AttachPhotosSuffix_two">" photos"</string>
   <string name="AttachPhotosSuffix_few">" photos"</string>
@@ -2902,10 +2902,10 @@
   <string name="SelectedLinkSuffix_two">" links"</string>
   <string name="SelectedLinkSuffix_few">" links"</string>
   <string name="SelectedLinkSuffix_many">" links"</string>
-  <string name="SelectedMediaSuffix_zero">" medias"</string>
-  <string name="SelectedMediaSuffix_two">" medias"</string>
-  <string name="SelectedMediaSuffix_few">" medias"</string>
-  <string name="SelectedMediaSuffix_many">" medias"</string>
+  <string name="SelectedMediaSuffix_zero">" media"</string>
+  <string name="SelectedMediaSuffix_two">" media"</string>
+  <string name="SelectedMediaSuffix_few">" media"</string>
+  <string name="SelectedMediaSuffix_many">" media"</string>
   <string name="SelectedPhotoSuffix_zero">" photos"</string>
   <string name="SelectedPhotoSuffix_two">" photos"</string>
   <string name="SelectedPhotoSuffix_few">" photos"</string>
@@ -2944,10 +2944,10 @@
   <string name="ShareTitleImageX_two">Share %1$s photos to…</string>
   <string name="ShareTitleImageX_few">Share %1$s photos to…</string>
   <string name="ShareTitleImageX_many">Share %1$s photos to…</string>
-  <string name="ShareTitleMediaX_zero">Share %1$s medias to…</string>
-  <string name="ShareTitleMediaX_two">Share %1$s medias to…</string>
-  <string name="ShareTitleMediaX_few">Share %1$s medias to…</string>
-  <string name="ShareTitleMediaX_many">Share %1$s medias to…</string>
+  <string name="ShareTitleMediaX_zero">Share %1$s media with…</string>
+  <string name="ShareTitleMediaX_two">Share %1$s media with…</string>
+  <string name="ShareTitleMediaX_few">Share %1$s media with…</string>
+  <string name="ShareTitleMediaX_many">Share %1$s media with…</string>
   <string name="ShareTitleMessage">Share message to…</string>
   <string name="ShareTitleVideoX_zero">Share %1$s videos to…</string>
   <string name="ShareTitleVideoX_two">Share %1$s videos to…</string>
@@ -3173,10 +3173,10 @@
   <string name="xMasks_two">%1$s masks</string>
   <string name="xMasks_few">%1$s masks</string>
   <string name="xMasks_many">%1$s masks</string>
-  <string name="xMedia_zero">%1$s medias</string>
-  <string name="xMedia_two">%1$s medias</string>
-  <string name="xMedia_few">%1$s medias</string>
-  <string name="xMedia_many">%1$s medias</string>
+  <string name="xMedia_zero">%1$s media</string>
+  <string name="xMedia_two">%1$s media</string>
+  <string name="xMedia_few">%1$s media</string>
+  <string name="xMedia_many">%1$s media</string>
   <string name="xMembers_zero">%1$s members</string>
   <string name="xMembers_two">%1$s members</string>
   <string name="xMembers_few">%1$s members</string>
