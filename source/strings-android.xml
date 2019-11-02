@@ -15,7 +15,6 @@
     <string name="AccountAlreadyLoggedIn">This account is already logged in from this app.</string>
     <string name="AccountSwitch">Switch</string>
     <string name="SyncContacts">Sync Contacts</string>
-    <string name="SyncContactsDeleteInfo">This will remove your contacts from the Telegram servers. If \'Sync Contacts\' is enabled, contacts will be re-synced.</string>
     <string name="SyncContactsOn">Contacts from this device will be added to this account.</string>
     <string name="SyncContactsOff">Contacts from this device will not be added to this account.</string>
     <string name="SyncContactsInfoOn">Contacts from this device will be added to your account.</string>
@@ -199,6 +198,9 @@
     <string name="UnpinFromTop">Unpin from top</string>
     <string name="MarkAsUnread">Mark as unread</string>
     <string name="MarkAsRead">Mark as read</string>
+    <string name="MarkAllAsRead">Mark all as read</string>
+    <string name="HideAboveTheList">Hide Above the List</string>
+    <string name="PinInTheList">Pin in the List</string>
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Mono">Mono</string>
@@ -325,6 +327,7 @@
     <string name="ChannelLeaveAlertWithName">Are you sure you want to leave **%1$s**?</string>
     <string name="ChannelDeleteInfo">You will lose all messages in this channel.</string>
     <string name="ChannelEdit">Edit</string>
+    <string name="ChannelPublicEmptyUsernameTitle">Choose a link</string>
     <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.</string>
     <string name="ActionCreateChannel">Channel created</string>
     <string name="ActionChannelChangedPhoto">Channel photo changed</string>
@@ -356,6 +359,7 @@
     <string name="ChannelUserCantAdmin">Sorry, too many admins in this channel.</string>
     <string name="ChannelUserCantBot">Sorry, too many bots in this channel.</string>
     <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
+    <string name="ChannelTooMuchTitle">Too many communities</string>
     <string name="ChannelTooMuch">Sorry, you are a member of too many groups and channels. Please leave some before creating a new one.</string>
     <string name="ChannelTooMuchJoin">Sorry, you are a member of too many groups and channels. Please leave some before joining a new one.</string>
     <string name="ChannelAddedBy">un1 added you to this channel</string>
@@ -646,7 +650,10 @@
     <string name="AddRecipient">Add recipient</string>
     <string name="KickFromBroadcast">Remove from broadcast list</string>
     <!--audio view-->
-    <string name="NoAudio">Please add files to the music library on your device to see them here.</string>
+    <string name="NoAudioFiles">No audio files</string>
+    <string name="NoAudioFilesInfo">Your music library is empty.</string>
+    <string name="NoAudioFound">No results found</string>
+    <string name="NoAudioFoundInfo">There are no matches with **%1$s** in your music library.</string>
     <string name="AttachMusic">Music</string>
     <string name="AudioUnknownArtist">Unknown artist</string>
     <string name="AudioUnknownTitle">Unknown title</string>
@@ -871,7 +878,7 @@
     <string name="SearchEmojiHint">Search emoji</string>
     <string name="URL">URL</string>
     <string name="MapPreviewProvider">Map Preview Provider</string>
-    <string name="ChooseMapPreviewProvider">Choose Map Preview Provider</string>
+    <string name="MapPreviewProviderTitle">Map preview provider</string>
     <string name="MapPreviewProviderTelegram">Telegram</string>
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
@@ -1087,6 +1094,7 @@
     <string name="ShareContact">Share contact</string>
     <string name="AddContact">Add to contacts</string>
     <string name="AddContactTitle">Add Contact</string>
+    <string name="ContactNotRegisteredTitle">Invite to Telegram</string>
     <string name="ContactNotRegistered">%1$s is not on Telegram yet, would you like to invite them to join?</string>
     <string name="Invite">Invite</string>
     <string name="BlockContact">Block user</string>
@@ -1223,6 +1231,7 @@
     <string name="ThemeGraphite">Graphite</string>
     <string name="ThemeArcticBlue">Arctic</string>
     <string name="ThemeBlue">Mono</string>
+    <string name="DeleteThemeTitle">Delete theme</string>
     <string name="DeleteThemeAlert">Are you sure you want to delete this theme?</string>
     <string name="IncorrectTheme">Incorrect theme file</string>
     <string name="EnterThemeName">Enter theme name</string>
@@ -1299,6 +1308,7 @@
     <string name="Create">Create</string>
     <!--settings view-->
     <string name="ResetNotificationsText">All notification settings reset to default</string>
+    <string name="ResetNotificationsAlertTitle">Reset all notifications</string>
     <string name="ResetNotificationsAlert">Are you sure you want to reset all notification settings to default?</string>
     <string name="TextSizeHeader">Message text size</string>
     <string name="AskAQuestion">Ask a Question</string>
@@ -1434,7 +1444,8 @@
     <string name="TermsOfService">Terms of Service</string>
     <string name="TermsOfServiceLogin">By signing up,\nyou agree to the *Terms of Service*.</string>
     <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
-    <string name="DeleteLocalization">Delete localization?</string>
+    <string name="DeleteLocalizationTitle">Delete language pack</string>
+    <string name="DeleteLocalizationText">Are you sure you want to delete **%1$s** language pack?</string>
     <string name="IncorrectLocalization">Incorrect localization file</string>
     <string name="NotificationsService">Keep-Alive Service</string>
     <string name="NotificationsServiceInfo">Relaunch app when shut down. Enable for reliable notifications.</string>
@@ -1658,7 +1669,8 @@
     <string name="DistanceUnitsMiles">Miles</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
-    <string name="LocalDatabaseClear">Clear cached text messages?</string>
+    <string name="LocalDatabaseClearTextTitle">Clear local database</string>
+    <string name="LocalDatabaseClearText">Are you sure you want to clear cached text messages?</string>
     <string name="LocalDatabaseInfo">Clearing the local database will delete the texts of cached messages and compress the database to save internal disk space. Telegram needs some data to work, so database size will not reach zero.\n\nThis operation can take a few minutes to complete.</string>
     <string name="ClearMediaCache">Clear Cache</string>
     <string name="CacheClear">Clear</string>
@@ -1686,6 +1698,7 @@
     <string name="TelegramPassportCreatePasswordInfo">Please create a password to secure your personal data with end-to-end encryption.\n\nThis password will also be required whenever you log in to Telegram on a new device.</string>
     <string name="TelegramPassportCreatePassword">CREATE A PASSWORD</string>
     <string name="TelegramPassportDelete">Delete Telegram Passport</string>
+    <string name="TelegramPassportDeleteTitle">Delete Telegram passport</string>
     <string name="TelegramPassportDeleteAlert">Are you sure you want to delete your Telegram Passport?</string>
     <string name="PassportUseLatinOnly">Please use latin characters only.</string>
     <string name="PassportAddPassportInfo">Upload scans of a certified English translation of your passport.</string>
@@ -1871,7 +1884,11 @@
     <string name="SessionsInfo">Control your sessions on other devices.</string>
     <string name="TerminateSessionInfo">Tap on a session to terminate.</string>
     <string name="TerminateSessionQuestion">Terminate this session?</string>
+    <string name="TerminateSessionText">Are you sure you want to terminate this session?</string>
     <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
+    <string name="AreYouSureSessionsTitle">Terminate sessions</string>
+    <string name="AreYouSureSessionTitle">Terminate session</string>
+    <string name="Terminate">Terminate</string>
     <string name="AreYouSureSessions">Are you sure you want to terminate all other sessions?</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="UnofficialApp">unofficial app</string>
@@ -1880,7 +1897,10 @@
     <string name="OtherWebSessions">Connected websites</string>
     <string name="WebSessionsTitle">Logged in with Telegram</string>
     <string name="TerminateWebSessionInfo">Tap to disconnect from your Telegram account.</string>
-    <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
+    <string name="TerminateWebSessionText">Are you sure you want to disconnect %1$s?</string>
+    <string name="TerminateWebSessionTitle">Disconnect website</string>
+    <string name="TerminateWebSessionsTitle">Disconnect websites</string>
+    <string name="Disconnect">Disconnect</string>
     <string name="TerminateWebSessionStop">Block %1$s</string>
     <string name="TerminateAllWebSessions">Disconnect All Websites</string>
     <string name="AreYouSureWebSessions">Are you sure you want to disconnect all websites where you used Telegram to log in?</string>
@@ -1954,9 +1974,10 @@
     <string name="SendLocation">Send my current location</string>
     <string name="SendLiveLocation">Share My Live Location for...</string>
     <string name="StopLiveLocation">Stop Sharing Location</string>
-    <string name="StopLiveLocationAlertToUser">Are you sure you want to stop sharing live location with %1$s?</string>
-    <string name="StopLiveLocationAlertToGroup">Are you sure you want to stop sharing live location with %1$s?</string>
-    <string name="StopLiveLocationAlertAll">Are you sure you want to stop sharing your live location?</string>
+    <string name="StopLiveLocationAlertToTitle">Stop location sharing</string>
+    <string name="StopLiveLocationAlertToUserText">Do you want to stop sharing your live location with **%1$s**?</string>
+    <string name="StopLiveLocationAlertToGroupText">Do you want to stop sharing your live location with **%1$s**?</string>
+    <string name="StopLiveLocationAlertAllText">Do you want to stop sharing your live location?</string>
     <string name="SendLiveLocationInfo">Updated in real time as you move</string>
     <string name="SendSelectedLocation">Send selected location</string>
     <string name="ShareLocation">Location</string>
@@ -1978,7 +1999,8 @@
     <string name="SharingLiveLocationTitle">You are sharing your Live Location with %1$s</string>
     <string name="LiveLocationAlertPrivate">Choose for how long %1$s will see your accurate location.</string>
     <string name="LiveLocationAlertGroup">Choose for how long people in this chat will see your live location.</string>
-    <string name="GpsDisabledAlert">Your GPS seems to be disabled, please enable it to access location-based features.</string>
+    <string name="GpsDisabledAlertTitle">Enable GPS</string>
+    <string name="GpsDisabledAlertText">Please enable your GPS to access location-based features.</string>
     <string name="PeopleNearby">People Nearby</string>
     <string name="AddPeopleNearby">Add People Nearby</string>
     <string name="PeopleNearbyAccessInfo">Quickly add people nearby who are viewing this section and discover local group chats.  \n\nPlease switch on location access to enable this feature.</string>
@@ -2046,8 +2068,11 @@
     <string name="BlurOff">Off</string>
     <string name="BlurLinear">Linear</string>
     <string name="BlurRadial">Radial</string>
+    <string name="AreYouSureDeletePhotoTitle">Delete photo</string>
     <string name="AreYouSureDeletePhoto">Are you sure you want to delete this photo?</string>
+    <string name="AreYouSureDeleteVideoTitle">Delete video</string>
     <string name="AreYouSureDeleteVideo">Are you sure you want to delete this video?</string>
+    <string name="AreYouSureDeleteGIFTitle">Delete GIF</string>
     <string name="AreYouSureDeleteGIF">Are you sure you want to delete this GIF?</string>
     <string name="DiscardChanges">Discard changes?</string>
     <string name="ClearSearch">Clear search history?</string>
@@ -2099,15 +2124,19 @@
     <string name="TurnPasswordOff">Turn Password Off</string>
     <string name="SetRecoveryEmail">Set Recovery Email</string>
     <string name="ChangeRecoveryEmail">Change Recovery Email</string>
+    <string name="TurnPasswordOffQuestionTitle">Disable password</string>
     <string name="TurnPasswordOffQuestion">Are you sure you want to disable your password?</string>
     <string name="CancelPasswordQuestion">Are you sure you want to abort two-step verification setup?</string>
     <string name="CancelEmailQuestion">Are you sure you want to abort recovery email setup?</string>
+    <string name="CancelEmailQuestionTitle">Abort setup</string>
     <string name="TurnPasswordOffPassport">Warning! All data saved in your Telegram Passport will be lost!</string>
     <string name="PasswordHint">Password Hint</string>
     <string name="PasswordHintText">Create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
     <string name="AbortEmail">Abort recovery email setup</string>
+    <string name="Abort">Abort</string>
+    <string name="Disable">Disable</string>
     <string name="EmailPasswordConfirmText2">To complete Two-Step Verification Setup, check your email (don\'t forget the spam folder) and enter the code we just sent you.</string>
     <string name="EmailPasswordConfirmText3">To complete reсoverу email setup, check %1$s (don\'t forget the spam folder) and enter the code we just sent you.</string>
     <string name="PasswordAsHintError">Hint must be different from your password</string>
@@ -2115,6 +2144,7 @@
     <string name="RestorePasswordNoEmailTitle">Sorry</string>
     <string name="RestorePasswordNoEmailText">Since you didn\'t provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
     <string name="RestorePasswordResetAccount">RESET ACCOUNT</string>
+    <string name="RestoreEmailSentTitle">Recovery code</string>
     <string name="RestoreEmailSent">We have sent a recovery code to the email address you provided:\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">Please check your email and enter the 6-digit code we sent you.</string>
     <string name="RestoreEmailTrouble">Having trouble accessing your email %1$s?</string>
@@ -2183,6 +2213,8 @@
     <string name="PrivacyP2P2">Use Peer-to-Peer with</string>
     <string name="PrivacyBots">Bots and websites</string>
     <string name="PrivacyPaymentsClear">Clear Payment and Shipping Info</string>
+    <string name="PrivacyPaymentsClearAlertTitle">Clear payment info</string>
+    <string name="PrivacyPaymentsClearAlertText">Are you sure you want to clear your payment and shipping info?</string>
     <string name="PrivacyPaymentsClearAlert">Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.</string>
     <string name="PrivacyBotsInfo">Websites where you used Telegram to log in.</string>
     <string name="PrivacyClearShipping">Shipping info</string>
@@ -2236,10 +2268,13 @@
     <string name="SyncContactsDelete">Delete Synced Contacts</string>
     <string name="SuggestContacts">Suggest Frequent Contacts</string>
     <string name="SuggestContactsInfo">Display people you message frequently at the top of the search section for quick access.</string>
+    <string name="SuggestContactsTitle">Disable suggestions</string>
     <string name="SuggestContactsAlert">This will delete all data about the people you message frequently as well as the inline bots you are likely to use.</string>
     <string name="PrivacyAddAnException">Add Users or Groups</string>
     <string name="PrivacyExceptions">Exceptions</string>
     <string name="BlockedEmpty">None</string>
+    <string name="SyncContactsDeleteTitle">Delete contacts</string>
+    <string name="SyncContactsDeleteText">This will remove your contacts from the Telegram servers.\n\nIf \'**Sync Contacts**\' is enabled, contacts will be re-synced.</string>
     <!--edit video view-->
     <string name="SendingVideo">Sending video...</string>
     <string name="SendingGif">Sending GIF...</string>
@@ -2377,7 +2412,8 @@
     <string name="NoHandleAppInstalled">You don\'t have applications that can handle the file type \'%1$s\', please install one to continue</string>
     <string name="InviteUser">This user does not have Telegram yet, send an invitation?</string>
     <string name="AreYouSure">Are you sure?</string>
-    <string name="AddToTheGroupTitle">Add %1$s to the chat %2$s?</string>
+    <string name="AddToTheGroupAlertTitle">Add bot</string>
+    <string name="AddToTheGroupAlertText">Do you want to add **%1$s** to the group **%2$s**?</string>
     <string name="AddToTheGroupForwardCount">Number of last messages to forward:</string>
     <string name="AddToTheGroup">Add %1$s to the group?</string>
     <string name="AddMembersAlertTitle">Add %1$s</string>
@@ -2386,9 +2422,9 @@
     <string name="AddMembersAlertCountText">Are you sure you want to add %1$s to **%2$s**?</string>
     <string name="AddMembersForwardMessages">Show the last 100 messages to the new members</string>
     <string name="AddOneMemberForwardMessages">Show the last 100 messages to **%1$s**</string>
-    <string name="SendMessagesTo">Send messages to %1$s?</string>
-    <string name="SendGameTo">Share game to %1$s?</string>
-    <string name="SendContactTo">Send contact to %1$s?</string>
+    <string name="SendMessagesToText">Do you want to send this message to **%1$s**?</string>
+    <string name="SendGameToText">Do you want to share this game to **%1$s**?</string>
+    <string name="SendContactToText">Do you want to send this contact to **%1$s**?</string>
     <string name="AreYouSureLogout">Are you sure you want to log out?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
     <string name="DeleteFewChatsTitle">Delete %1$s</string>
     <string name="ClearFewChatsTitle">Clear %1$s</string>
@@ -2403,6 +2439,7 @@
     <string name="AreYouSureDeleteThisChatSavedMessages">Are you sure you want to delete **Saved Messages**?</string>
     <string name="AreYouSureDeleteThisChatWithSecretUser">Are you sure you want to delete the secret chat with **%1$s**?</string>
     <string name="AreYouSureDeleteThisChatWithGroup">Are you sure you want to delete the chat **%1$s**?</string>
+    <string name="AreYouSureClearDraftsTitle">Delete cloud drafts</string>
     <string name="AreYouSureClearDrafts">Are you sure you want to delete all cloud drafts?</string>
     <string name="ShareYouLocationTitle">Share your location?</string>
     <string name="ShareYouLocationInfo">This will send your current location to the bot.</string>
@@ -2439,9 +2476,10 @@
     <string name="DeleteMessagesOption">Unsend My Messages</string>
     <string name="DeleteMessagesOptionAlso">Also delete for %1$s</string>
     <string name="ClearHistoryOptionAlso">Also clear history for %1$s</string>
-    <string name="SendMessagesToGroup">Send messages to %1$s?</string>
-    <string name="SendGameToGroup">Share game to %1$s?</string>
-    <string name="SendContactToGroup">Send contact to %1$s?</string>
+    <string name="SendMessageTitle">Send message</string>
+    <string name="SendMessagesToGroupText">Do you want to send this message to **%1$s**?</string>
+    <string name="SendGameToGroupText">Do you want to share this game to **%1$s**?</string>
+    <string name="SendContactToGroupText">Do you want to send this contact to **%1$s**?</string>
     <string name="NoUsernameFound">There is no Telegram account with this username.</string>
     <string name="BotCantJoinGroups">This bot can\'t join groups.</string>
     <string name="SecretLinkPreviewAlert">Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</string>
@@ -2578,7 +2616,169 @@
     <string name="RateCallSilentLocal">I couldn\'t hear the other side</string>
     <string name="RateCallSilentRemote">The other side couldn\'t hear me</string>
     <string name="RateCallDropped">Call ended unexpectedly</string>
+    <!--wallet-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <!--plural-->
+    <string name="DeleteBackground_zero">Delete %1$d backgrounds</string>
+    <string name="DeleteBackground_one">Delete background</string>
+    <string name="DeleteBackground_two">Delete %1$d backgrounds</string>
+    <string name="DeleteBackground_few">Delete %1$d backgrounds</string>
+    <string name="DeleteBackground_many">Delete %1$d backgrounds</string>
+    <string name="DeleteBackground_other">Delete %1$d backgrounds</string>
     <string name="Recipient_zero">%1$d recipients</string>
     <string name="Recipient_one">%1$d recipient</string>
     <string name="Recipient_two">%1$d recipients</string>
@@ -3059,6 +3259,7 @@
 
   <!-- new from translations.telegram.org -->
 
+  <string name="AddToTheGroupTitle">Add %1$s to the chat %2$s?</string>
   <string name="AllowReadCallAndSms">Please allow Telegram to receive calls so that we can automatically confirm your phone number.</string>
   <string name="AllowReadSms">Please allow Telegram to receive SMS so that we can automatically enter your code for you.</string>
   <string name="AlwaysAllowPlaceholder">Always allow...</string>
@@ -3070,22 +3271,27 @@
   <string name="ChannelAlertCreate">CREATE CHANNEL</string>
   <string name="ChannelMessageContact">%1$s posted a contact</string>
   <string name="ChannelMessagePoll">%1$s posted a poll</string>
+  <string name="ChooseMapPreviewProvider">Choose Map Preview Provider</string>
   <string name="ConnectingToProxyDisable">Disable</string>
   <string name="ConnectingToProxyDisableAlert">Are you sure you want to disable proxy server %1$s? You can reenable it later in Settings &gt; Data and Storage.</string>
   <string name="ConnectingToProxyTapToDisable">Tap here to disable proxy...</string>
   <string name="CreateNewTheme">Create New Theme</string>
   <string name="CreateNewThemeInfo">You can create your own theme by changing colors within the app. You can always switch back to the default Telegram theme here.</string>
   <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
+  <string name="DeleteLocalization">Delete localization?</string>
   <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
   <string name="EmojiBigSize">Draw single big emoji</string>
   <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>
   <string name="EnableProxyAlert2">You can change your proxy server later in Settings &gt; Data and Storage.</string>
+  <string name="GpsDisabledAlert">Your GPS seems to be disabled, please enable it to access location-based features.</string>
   <string name="KMetersAway">km away</string>
   <string name="KickFromSupergroup">Restrict user</string>
+  <string name="LocalDatabaseClear">Clear cached text messages?</string>
   <string name="MetersAway">m away</string>
   <string name="MobileUsage">Mobile Data Usage</string>
   <string name="NeverAllowPlaceholder">Never allow...</string>
   <string name="NeverShareWithPlaceholder">Never share with users...</string>
+  <string name="NoAudio">Please add files to the music library on your device to see them here.</string>
   <string name="NoBlockedChannel">Banned users are removed from the channel and can only come back if added by an admin. Invite links don\'t work for them.</string>
   <string name="NoBlockedGroup">Banned users are removed from the group and can only come back if added by an admin. Invite links don\'t work for them.</string>
   <string name="NotificationActionPinnedContact">%1$s pinned a contact in the group %2$s</string>
@@ -3113,11 +3319,22 @@
   <string name="PrivacyPaymentsClearInfo">You can delete your shipping info and instruct all payment providers to remove your saved credit cards. Note that Telegram never stores your credit card data.</string>
   <string name="RegisterText">Set up your first and last name</string>
   <string name="RoamingUsage">Roaming Data Usage</string>
+  <string name="SendContactTo">Send contact to %1$s?</string>
+  <string name="SendContactToGroup">Send contact to %1$s?</string>
+  <string name="SendGameTo">Share game to %1$s?</string>
+  <string name="SendGameToGroup">Share game to %1$s?</string>
+  <string name="SendMessagesTo">Send messages to %1$s?</string>
+  <string name="SendMessagesToGroup">Send messages to %1$s?</string>
   <string name="SetAdminsAll">All Members Are Admins</string>
   <string name="SetAdminsAllInfo">All members can add new members, pin messages, edit name and photo of the group.</string>
   <string name="SetAdminsNotAllInfo">Only admins can add and remove members, pin messages, edit name and photo of the group.</string>
   <string name="SetAdminsTitle">Chat Admins</string>
   <string name="SharedMediaTitle">Shared Media</string>
+  <string name="StopLiveLocationAlertAll">Are you sure you want to stop sharing your live location?</string>
+  <string name="StopLiveLocationAlertToGroup">Are you sure you want to stop sharing live location with %1$s?</string>
+  <string name="StopLiveLocationAlertToUser">Are you sure you want to stop sharing live location with %1$s?</string>
+  <string name="SyncContactsDeleteInfo">This will remove your contacts from the Telegram servers. If \'Sync Contacts\' is enabled, contacts will be re-synced.</string>
+  <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
   <string name="TextSize">Message Text Size</string>
   <string name="UserRestrictionsBy">Restricted by %1$s</string>
   <string name="UserRestrictionsUntil">Restricted until</string>
