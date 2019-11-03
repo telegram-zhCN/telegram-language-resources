@@ -3877,7 +3877,7 @@ Unused sets are archived when you add more.";
 "GroupRemoved.UsersSectionTitle" = "REMOVED USERS";
 "GroupRemoved.ViewUserInfo" = "View User Info";
 "GroupRemoved.AddToGroup" = "Add To Group";
-"GroupRemoved.DeleteUser" = "Delete";
+"GroupRemoved.DeleteUser" = "Delete User";
 
 "EmptyGroupInfo.Title" = "You have created a group";
 "EmptyGroupInfo.Subtitle" = "Groups can have:";

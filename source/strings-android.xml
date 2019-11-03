@@ -145,7 +145,7 @@
     <string name="HistoryClearedUndo">History cleared.</string>
     <string name="ChatsMute">Mute</string>
     <string name="ChatsUnmute">Unmute</string>
-    <string name="ChatDeletedUndo">Chat deleted.</string>
+    <string name="ChatDeletedUndo">Chat deleted</string>
     <string name="GroupDeletedUndo">Group deleted.</string>
     <string name="ChannelDeletedUndo">Channel deleted.</string>
     <string name="ArchivePinned">Archive pinned.</string>
