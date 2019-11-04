@@ -370,7 +370,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_calls" = "Voice calls";
 "lng_settings_calls_peer_to_peer_title" = "Peer-to-peer";
 "lng_settings_calls_peer_to_peer_button" = "Use peer-to-peer with";
-"lng_settings_groups_invite" = "Groups";
+"lng_settings_groups_invite" = "Groups & channels";
 "lng_settings_group_privacy_about" = "Change who can add you to groups and channels.";
 "lng_settings_phone_number_privacy" = "Phone number";
 "lng_settings_forwards_privacy" = "Forwarded messages";
@@ -749,7 +749,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_bio" = "Bio:";
 "lng_profile_add_contact" = "Add Contact";
 "lng_profile_edit_contact" = "Edit";
-"lng_profile_clear_and_exit" = "Delete and exit";
+"lng_profile_clear_and_exit" = "Delete and leave";
 "lng_profile_leave_channel" = "Leave channel";
 "lng_profile_delete_channel" = "Delete channel";
 "lng_profile_leave_group" = "Leave group";
@@ -829,7 +829,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_delete_contact" = "Delete contact";
 "lng_info_share_contact" = "Share contact";
 "lng_profile_clear_history" = "Clear history";
-"lng_profile_delete_conversation" = "Delete conversation";
+"lng_profile_delete_conversation" = "Delete chat";
 "lng_profile_block_user" = "Block user";
 "lng_profile_unblock_user" = "Unblock user";
 "lng_profile_export_chat" = "Export chat history";
@@ -939,7 +939,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_chat_about_admins" = "Group admins can add and remove members, edit name and photo of the group.";
 
 "lng_participant_filter" = "Search";
-"lng_participant_invite" = "Invite";
+"lng_participant_invite" = "Add";
 "lng_participant_invite_sorry#one" = "Sorry, you can only add the first {count} member to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
 "lng_participant_invite_sorry#other" = "Sorry, you can only add the first {count} members to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
 "lng_create_group_back" = "Back";
@@ -1403,7 +1403,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_save_video" = "Save Video As...";
 "lng_context_save_audio_file" = "Save Audio File As...";
 "lng_context_save_audio" = "Save Voice Message As...";
-"lng_context_pack_info" = "Pack Info";
+"lng_context_pack_info" = "View Sticker Set";
 "lng_context_pack_add" = "Add Stickers";
 "lng_context_save_file" = "Save File As...";
 "lng_context_copy_text" = "Copy Text";
@@ -1414,7 +1414,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_reply_msg" = "Reply";
 "lng_context_edit_msg" = "Edit";
 "lng_context_forward_msg" = "Forward Message";
-"lng_context_send_now_msg" = "Send now";
+"lng_context_send_now_msg" = "Send Now";
 "lng_context_delete_msg" = "Delete Message";
 "lng_context_select_msg" = "Select Message";
 "lng_context_report_msg" = "Report Message";

@@ -199,8 +199,8 @@
     <string name="MarkAsUnread">Mark as unread</string>
     <string name="MarkAsRead">Mark as read</string>
     <string name="MarkAllAsRead">Mark all as read</string>
-    <string name="HideAboveTheList">Hide Above the List</string>
-    <string name="PinInTheList">Pin in the List</string>
+    <string name="HideAboveTheList">Hide above the list</string>
+    <string name="PinInTheList">Pin in the list</string>
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="Mono">Mono</string>

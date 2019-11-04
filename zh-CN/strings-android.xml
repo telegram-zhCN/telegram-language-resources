@@ -199,8 +199,8 @@
     <string name="MarkAsUnread">标记为未读</string>
     <string name="MarkAsRead">标记为已读</string>
     <string name="MarkAllAsRead">Mark all as read</string>
-    <string name="HideAboveTheList">Hide Above the List</string>
-    <string name="PinInTheList">Pin in the List</string>
+    <string name="HideAboveTheList">Hide above the list</string>
+    <string name="PinInTheList">Pin in the list</string>
     <string name="Bold">粗体</string>
     <string name="Italic">斜体</string>
     <string name="Mono">等宽</string>
