@@ -1028,7 +1028,7 @@
 "Contacts.NotRegistredDescription" = "This person is not registered on Telegram yet.\n\nYou will be able to send them a Telegram message as soon as they sign up.";
 
 "Contacts.PhoneNumber.Invalid" = "phone number can't be empty";
-"Contacts.PhoneNumber.NotRegistred" = "the person with this phone number is not registered on Telegram yet.";
+"Contacts.PhoneNumber.NotRegistred" = "The person with this phone number is not registered on Telegram yet.";
 
 
 "DataAndStorage.StorageUsage" = "Storage Usage";
