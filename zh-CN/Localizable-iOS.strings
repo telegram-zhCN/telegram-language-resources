@@ -3868,6 +3868,11 @@ Unused sets are archived when you add more.";
 "GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
 "GroupPermission.AddMembersNotAvailable" = "您无权添加成员。";
 
+
+
+
+
+
 "Channel.Management.RemovedBy" = "被 %@ 封禁";
 
 "GroupRemoved.Title" = "被封禁的用户";
@@ -4497,6 +4502,8 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ 关闭了慢速模式";
 "Channel.AdminLog.SetSlowmode" = "%1$@ 将慢速模式定时器设置为 %2$@";
 
+
+
 "Chat.SlowmodeTooltip" = "慢速模式已启用。您可以\n在%@后发送下一条消息";
 "Chat.SlowmodeTooltipPending" = "慢速模式已启用。 您不能一次发送多条消息。";
 
@@ -4770,6 +4777,48 @@ Any member of this group will be able to see messages in the channel.";
  //three to ten
  // more than ten
  // more than ten
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

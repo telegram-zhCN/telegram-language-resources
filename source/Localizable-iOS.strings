@@ -3868,6 +3868,11 @@ Unused sets are archived when you add more.";
 "GroupPermission.NotAvailableInPublicGroups" = "This permission is not available in public groups.";
 "GroupPermission.AddMembersNotAvailable" = "You don't have permission to add members.";
 
+"Channel.EditAdmin.PermissionEnabledByDefault" = "This option is permitted for all members in Group Permissions.";
+
+"GroupPermission.EditingDisabled" = "You cannot edit restrictions of this user.";
+"GroupPermission.PermissionDisabledByDefault" = "This option is disabled for all members in Group Permissions.";
+
 "Channel.Management.RemovedBy" = "Removed by %@";
 
 "GroupRemoved.Title" = "Removed Users";
@@ -4497,6 +4502,8 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ disabled the slow mode";
 "Channel.AdminLog.SetSlowmode" = "%1$@ set the slow mode timer to %2$@";
 
+
+
 "Chat.SlowmodeTooltip" = "Slow Mode is enabled. You can send\nyour next message in %@.";
 "Chat.SlowmodeTooltipPending" = "Slow Mode is enabled. You can't send more than one message at once.";
 "Chat.AttachmentLimitReached" = "You can't select more items.";
@@ -5007,36 +5014,78 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Conversation.ClearCache" = "Clear Cache";
+"ClearCache.Description" = "Media files will be deleted from your phone, but available for re-downloading when necessary.";
+"ClearCache.FreeSpaceDescription" = "If you want to save space on your device, you don't need to delete anything.\n\nYou can use cache settings to remove unnecessary media — and re-download files if you need them again.";
+"ClearCache.FreeSpace" = "Free Space";
+"ClearCache.Success" = "**%@** freed on your %@!";
+"ClearCache.StorageUsage" = "Storage Usage";
 
 
 
 
+"Conversation.SwipeToReplyHintTitle" = "Swipe To Reply";
+"Conversation.SwipeToReplyHintText" = "Swipe left on any message to reply to it.";
 
+"TwoFactorSetup.Intro.Title" = "Additional Password";
+"TwoFactorSetup.Intro.Text" = "You can set a password that will be\nrequired when you log in on a new device in addition to the code you get via SMS.";
+"TwoFactorSetup.Intro.Action" = "Set Additional Password";
 
+"TwoFactorSetup.Password.Title" = "Create Password";
+"TwoFactorSetup.Password.PlaceholderPassword" = "Password";
+"TwoFactorSetup.Password.PlaceholderConfirmPassword" = "Re-enter Password";
+"TwoFactorSetup.Password.Action" = "Create Password";
 
+"TwoFactorSetup.Email.Title" = "Recovery Email";
+"TwoFactorSetup.Email.Text" = "You can set a recovery email to be able to reset you password and restore access to your Telegram account.";
+"TwoFactorSetup.Email.Placeholder" = "Your email address";
+"TwoFactorSetup.Email.Action" = "Continue";
+"TwoFactorSetup.Email.SkipAction" = "Skip setting email";
+"TwoFactorSetup.Email.SkipConfirmationTitle" = "No, seriously.";
+"TwoFactorSetup.Email.SkipConfirmationText" = "If you forget your password, you will lose access to your Telegram account. There will be no way to restore it.";
+"TwoFactorSetup.Email.SkipConfirmationSkip" = "Skip";
 
+"TwoFactorSetup.EmailVerification.Title" = "Recovery Email";
+"TwoFactorSetup.EmailVerification.Text" = "Please enter code we've just emailed at %@";
+"TwoFactorSetup.EmailVerification.Placeholder" = "Code";
+"TwoFactorSetup.EmailVerification.Action" = "Continue";
+"TwoFactorSetup.EmailVerification.ChangeAction" = "Change Email";
+"TwoFactorSetup.EmailVerification.ResendAction" = "Re-send Code";
 
+"TwoFactorSetup.Hint.Title" = "Hint";
+"TwoFactorSetup.Hint.Text" = "You can create an optional hint for\nyour password.";
+"TwoFactorSetup.Hint.Placeholder" = "Hint (optional)";
+"TwoFactorSetup.Hint.Action" = "Continue";
+"TwoFactorSetup.Hint.SkipAction" = "Skip setting hint";
 
+"TwoFactorSetup.Done.Title" = "Password Set!";
+"TwoFactorSetup.Done.Text" = "This password will be required when you log in on a new device in addition to the code you get via SMS.";
+"TwoFactorSetup.Done.Action" = "Return to Settings";
 
+"AutoNightTheme.System" = "System";
 
+"ChatSettings.OpenLinksIn" = "Open Links in";
+"SettingsSearch.Synonyms.ChatSettings.OpenLinksIn" = "Browser";
 
+"WebBrowser.Title" = "Web Browser";
+"WebBrowser.DefaultBrowser" = "DEFAULT WEB BROWSER";
+"WebBrowser.InAppSafari" = "In-App Safari";
 
+"Widget.ApplicationLocked" = "Unlock the app to use the widget";
 
+"Group.ErrorSupergroupConversionNotPossible" = "Sorry, you are a member of too many groups and channels. Please leave some before creating a new one.";
 
+"ClearCache.StorageTitle" = "%@ STORAGE";
+"ClearCache.StorageCache" = "Telegram Cache";
+"ClearCache.StorageServiceFiles" = "Telegram Service Files";
+"ClearCache.StorageOtherApps" = "Other Apps";
+"ClearCache.StorageFree" = "Free";
+"ClearCache.ClearCache" = "Clear Telegram Cache";
+"ClearCache.Clear" = "Clear";
+"ClearCache.Forever" = "Forever";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+"ChatList.DeletedChats_1" = "Deleted 1 chat";
+"ChatList.DeletedChats_any" = "Deleted %@ chats";
 
 
 /* new from translations.telegram.org */
@@ -5142,6 +5191,10 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.DeleteMessagesConfirmation_2" = "Delete %@ messages";
 "Chat.DeleteMessagesConfirmation_3_10" = "Delete %@ messages";
 "Chat.DeleteMessagesConfirmation_many" = "Delete %@ messages";
+"ChatList.DeletedChats_0" = "Deleted %@ chats";
+"ChatList.DeletedChats_2" = "Deleted %@ chats";
+"ChatList.DeletedChats_3_10" = "Deleted %@ chats";
+"ChatList.DeletedChats_many" = "Deleted %@ chats";
 "DataUpgrade.Running" = "Optimizing...";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
