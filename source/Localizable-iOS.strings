@@ -5037,7 +5037,7 @@ Any member of this group will be able to see messages in the channel.";
 "TwoFactorSetup.Password.Action" = "Create Password";
 
 "TwoFactorSetup.Email.Title" = "Recovery Email";
-"TwoFactorSetup.Email.Text" = "You can set a recovery email to be able to reset you password and restore access to your Telegram account.";
+"TwoFactorSetup.Email.Text" = "You can set a recovery email to be able to reset your password and restore access to your Telegram account.";
 "TwoFactorSetup.Email.Placeholder" = "Your email address";
 "TwoFactorSetup.Email.Action" = "Continue";
 "TwoFactorSetup.Email.SkipAction" = "Skip setting email";
@@ -5086,6 +5086,11 @@ Any member of this group will be able to see messages in the channel.";
 
 "ChatList.DeletedChats_1" = "Deleted 1 chat";
 "ChatList.DeletedChats_any" = "Deleted %@ chats";
+
+"Appearance.ColorThemeNight" = "COLOR THEME — AUTO-NIGHT MODE";
+
+"UserInfo.StartSecretChatConfirmation" = "Are you sure you want to start a secret chat with\n%@?";
+"UserInfo.StartSecretChatStart" = "Start";
 
 
 /* new from translations.telegram.org */
