@@ -599,6 +599,8 @@
 "UserInfo.AddContact" = "Add Contact";
 "UserInfo.ShareContact" = "Share Contact";
 "UserInfo.StartSecretChat" = "Start Secret Chat";
+"UserInfo.StartSecretChatConfirmation" = "Are you sure you want to start a secret chat with\n%@?";
+"UserInfo.StartSecretChatStart" = "Start";
 "UserInfo.DeleteContact" = "Delete Contact";
 "UserInfo.CreateNewContact" = "Create New Contact";
 "UserInfo.AddToExisting" = "Add to Existing";
@@ -5091,6 +5093,13 @@ Any member of this group will be able to see messages in the channel.";
 
 "UserInfo.StartSecretChatConfirmation" = "Are you sure you want to start a secret chat with\n%@?";
 "UserInfo.StartSecretChatStart" = "Start";
+
+"GroupInfo.ShowMoreMembers_0" = "Show %@ More Members";
+"GroupInfo.ShowMoreMembers_1" = "Show %@ More Members";
+"GroupInfo.ShowMoreMembers_2" = "Show %@ More Members";
+"GroupInfo.ShowMoreMembers_3_10" = "Show %@ More Members";
+"GroupInfo.ShowMoreMembers_many" = "Show %@ More Members";
+"GroupInfo.ShowMoreMembers_any" = "Show %@ More Members";
 
 
 /* new from translations.telegram.org */

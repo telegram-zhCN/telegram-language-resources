@@ -599,6 +599,8 @@
 "UserInfo.AddContact" = "添加联系人";
 "UserInfo.ShareContact" = "分享联系信息";
 "UserInfo.StartSecretChat" = "开始加密对话";
+
+
 "UserInfo.DeleteContact" = "删除联系人";
 "UserInfo.CreateNewContact" = "创建新的联系人";
 "UserInfo.AddToExisting" = "添加到现有联系人";
@@ -4777,6 +4779,13 @@ Any member of this group will be able to see messages in the channel.";
  //three to ten
  // more than ten
  // more than ten
+
+
+
+
+
+
+
 
 
 
