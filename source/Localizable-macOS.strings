@@ -3279,7 +3279,7 @@
 
 
 "Chat.Send.SetReminder" = "Set a Reminder";
-"Chat.Send.ScheduledMessage" = "Schedule a Message";
+"Chat.Send.ScheduledMessage" = "Schedule Message";
 "ScheduleController.Title" = "Schedule Message";
 "ScheduleController.at" = "at";
 
