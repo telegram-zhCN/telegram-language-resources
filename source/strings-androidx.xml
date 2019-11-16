@@ -90,7 +90,7 @@
   <string name="login_error">Error: %1$s. __Contact us__, if you need help.</string>
   <string name="login_Code">Code</string>
   <string name="login_Password">Password</string>
-  <string name="Region">Region</string>
+  <string name="Country">Country</string>
   <string name="login_SmsHint">We will send an SMS with a confirmation code to your phone number.</string>
   <string name="Registration">Registration</string>
   <string name="login_FirstName">First name</string>
@@ -2572,6 +2572,7 @@
   <string name="format_usageAndLogsSize">%1$s + %2$s</string>
 
   <string name="EmojiLoaded">Downloaded</string>
+  <string name="EmojiUpdate">Update Needed</string>
   <string name="EmojiInstalling">Installing…</string>
   <string name="Emoji">Emoji Set</string>
   <string name="EmojiCurrent">Current Set</string>
@@ -2679,6 +2680,22 @@
   
 
   <string name="format_tracksAndDuration">%1$s, %2$s</string>
+
+  <string name="Icons">Icon Set</string>
+  <string name="IconsBuiltIn">Default</string>
+  <string name="IconsLoaded">Downloaded</string>
+  <string name="IconsUpdate">Update Needed</string>
+  <string name="IconsInstalling">Installing…</string>
+  <string name="IconsCurrent">Current Set</string>
+
+  <string name="EmojiSetUpdated">Emoji set %1$s has been updated. Would you like to download a new version to keep using it?</string>
+  <string name="EmojiSetUpdate">Download and update</string>
+
+  <string name="Resend">Resend</string>
+  <string name="SendFailureInfo">Send failed: %1$s</string>
+  <string name="LastEditTime">Last edit: %1$s</string>
+  <string name="ResendXMessages_one">Resend %1$s message</string>
+  <string name="ResendXMessages_other">Resend %1$s messages</string>
 
   
   
@@ -2872,6 +2889,7 @@
   <string name="ReadAllChatsDone_two">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_few">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_many">Marked %1$s chats as read</string>
+  <string name="Region">Region</string>
   <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
   <string name="RemoveXMasks_zero">Remove %1$s masks</string>
   <string name="RemoveXMasks_two">Remove %1$s masks</string>
@@ -2885,6 +2903,10 @@
   <string name="ReportXMessages_two">Report %1$s messages</string>
   <string name="ReportXMessages_few">Report %1$s messages</string>
   <string name="ReportXMessages_many">Report %1$s messages</string>
+  <string name="ResendXMessages_zero">Resend %1$s messages</string>
+  <string name="ResendXMessages_two">Resend %1$s messages</string>
+  <string name="ResendXMessages_few">Resend %1$s messages</string>
+  <string name="ResendXMessages_many">Resend %1$s messages</string>
   <string name="RevokeAdminRights">Revoke Admin Rights</string>
   <string name="SelectedAudioSuffix_zero">" audios"</string>
   <string name="SelectedAudioSuffix_two">" audios"</string>
