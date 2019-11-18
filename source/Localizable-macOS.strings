@@ -2282,7 +2282,7 @@
 
 "NetworkUsage.NetworkUsageSince" = "Network usage since %@";
 
-"Chat.Recording.Cancel" = "Are you sure you want to cancel recording?";
+"Chat.Recording.Cancel" = "Are you sure you want to stop recording and discard\nyour voice message?";
 "ChatList.SponsoredChannel" = "Proxy Sponsor";
 
 
