@@ -1375,7 +1375,7 @@
     <string name="BackgroundBlurred">Blurred</string>
     <string name="BackgroundMotion">Motion</string>
     <string name="ChangeChatBackground">Change Chat Background</string>
-    <string name="ChatBackground">Change Chat Background</string>
+    <string name="ChatBackground">Chat Background</string>
     <string name="ResetChatBackgrounds">Reset Chat Backgrounds</string>
     <string name="ResetChatBackgroundsInfo">Remove all uploaded chat backgrounds and restore the pre-installed ones.</string>
     <string name="ResetChatBackgroundsAlertTitle">Reset chat backgrounds</string>
