@@ -3063,7 +3063,6 @@ Unused sets are archived when you add more.";
 
 "Settings.Appearance" = "Appearance";
 "Appearance.Title" = "Appearance";
-"Appearance.TextSize" = "TEXT SIZE";
 "Appearance.Preview" = "CHAT PREVIEW";
 "Appearance.ColorTheme" = "COLOR THEME";
 "Appearance.ThemeDayClassic" = "Day Classic";
@@ -4504,7 +4503,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ disabled the slow mode";
 "Channel.AdminLog.SetSlowmode" = "%1$@ set the slow mode timer to %2$@";
 
-
+"GroupInfo.Permissions.EditingDisabled" = "You cannot edit this permission.";
 
 "Chat.SlowmodeTooltip" = "Slow Mode is enabled. You can send\nyour next message in %@.";
 "Chat.SlowmodeTooltipPending" = "Slow Mode is enabled. You can't send more than one message at once.";
@@ -5023,8 +5022,8 @@ Any member of this group will be able to see messages in the channel.";
 "ClearCache.Success" = "**%@** freed on your %@!";
 "ClearCache.StorageUsage" = "Storage Usage";
 
-
-
+"Conversation.ScheduleMessage.SendWhenOnline" = "Send When Online";
+"ScheduledMessages.ScheduledOnline" = "Scheduled until online";
 
 "Conversation.SwipeToReplyHintTitle" = "Swipe To Reply";
 "Conversation.SwipeToReplyHintText" = "Swipe left on any message to reply to it.";
@@ -5094,12 +5093,56 @@ Any member of this group will be able to see messages in the channel.";
 "UserInfo.StartSecretChatConfirmation" = "Are you sure you want to start a secret chat with\n%@?";
 "UserInfo.StartSecretChatStart" = "Start";
 
+
+
+
+
 "GroupInfo.ShowMoreMembers_0" = "Show %@ More Members";
 "GroupInfo.ShowMoreMembers_1" = "Show %@ More Member";
 "GroupInfo.ShowMoreMembers_2" = "Show %@ More Members";
 "GroupInfo.ShowMoreMembers_3_10" = "Show %@ More Members";
 "GroupInfo.ShowMoreMembers_many" = "Show %@ More Members";
 "GroupInfo.ShowMoreMembers_any" = "Show %@ More Members";
+
+"ContactInfo.Note" = "note";
+
+"Group.Location.CreateInThisPlace" = "Create a group in this place";
+
+"Theme.Colors.Accent" = "Accent";
+"Theme.Colors.Background" = "Background";
+"Theme.Colors.Messages" = "Messages";
+"Theme.Colors.ColorWallpaperWarning" = "Are you sure you want to change your chat wallpaper to a color?";
+"Theme.Colors.ColorWallpaperWarningProceed" = "Proceed";
+
+"IntentsSettings.Title" = "Share Sheet";
+"IntentsSettings.MainAccount" = "Main Account";
+"IntentsSettings.MainAccountInfo" = "Choose an account for Siri and share suggestions.";
+"IntentsSettings.SuggestedChats" = "Suggested Chats";
+"IntentsSettings.SuggestedChatsContacts" = "Contacts";
+"IntentsSettings.SuggestedChatsSavedMessages" = "Saved Messages";
+"IntentsSettings.SuggestedChatsPrivateChats" = "Private Chats";
+"IntentsSettings.SuggestedChatsGroups" = "Groups";
+"IntentsSettings.SuggestedChatsInfo" = "Archived chats will not be suggested.";
+"IntentsSettings.SuggestBy" = "Suggest By";
+"IntentsSettings.SuggestByAll" = "All Sent Messages";
+"IntentsSettings.SuggestByShare" = "Only Shared Messages";
+"IntentsSettings.ResetAll" = "Reset All Share Suggestions";
+"IntentsSettings.Reset" = "Reset";
+
+"Conversation.SendingOptionsTooltip" = "Hold this button to schedule your message\nor send it without sound.";
+
+"Appearance.TextSizeSetting" = "Text Size";
+"Appearance.TextSize.Automatic" = "System";
+"Appearance.TextSize.Title" = "Text Size";
+"Appearance.TextSize.UseSystem" = "Use System Text Size";
+"Appearance.TextSize.Apply" = "Set";
+
+"Shortcut.SwitchAccount" = "Switch Account";
+
+"Settings.Devices" = "Devices";
+"Settings.AddDevice" = "Add";
+"AuthSessions.DevicesTitle" = "Devices";
+"AuthSessions.AddDevice" = "Add Device";
 
 
 /* new from translations.telegram.org */
@@ -5109,6 +5152,7 @@ Any member of this group will be able to see messages in the channel.";
 "AUTH_UNKNOWN_SEPARATED" = "New login|from unrecognized device %1$@";
 "Appearance.CreateThemeInfo" = "A new theme template has been created from your current theme and was sent to your Saved Messages.";
 "Appearance.Publish" = "Publish";
+"Appearance.TextSize" = "TEXT SIZE";
 "CHANNEL_MESSAGES" = "%1$@ posted %2$@ messages";
 "CHANNEL_MESSAGES_SEPARATED" = "%1$@|posted %2$@ messages";
 "CHANNEL_MESSAGE_AUDIO" = "%1$@ posted a voice message";

@@ -198,6 +198,7 @@
 "Alert.Cancel" = "取消";
 
 
+
 "Alert.Forward.Error" = "抱歉，您无法转发消息到此对话。";
 
 "PreviewSender.CompressFile" = "压缩并发送";
@@ -215,6 +216,7 @@
 "Modal.CopyLink" = "拷贝链接";
 "Modal.Cancel" = "取消";
 "Modal.OK" = "好";
+
 "Modal.Set" = "设置";
 "QuickLook.Preview" = "预览";
 
@@ -294,6 +296,9 @@
 "AccountSettings.FAQ" = "Telegram FAQ";
 "AccountSettings.AskQuestion" = "向我们提问";
 
+
+
+
 "ConnectingStatus.connecting" = "连接中";
 "ConnectingStatus.online" = "在线";
 "ConnectingStatus.updating" = "获取中...";
@@ -358,6 +363,14 @@
 "Login.codePlaceholder" = "验证码";
 
 
+//"Login.QR.Title" = "Login Telegram by QR Code";
+//"Login.QR.Help1" = "Open Telegram on your phone";
+//"Login.QR.Help2" = "Open **Settings** and select **Devices**";
+//"Login.QR.Help3" = "Point your phone to this screen to capture the code";
+//"Login.QR.Cancel" = "Login by phone Number";
+//
+//"Login.QR.Login" = "Login by QR Code";
+
 "Login.EnterCodeFromApp" = "请输入您从其他 Telegram 客户端收到的验证码。";
 "Login.SendSmsIfNotReceivedAppCode" = "没有收到验证码？";
 "Login.JustSentSms" = "我们已经向您的手机发送了一条包含验证码的短信。请将其输入在上方。";
@@ -405,6 +418,8 @@
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
 "NotificationSettings.IncludeMutedChats" = "包含已关闭通知的对话";
+
+
 "NotificationSettings.CountUnreadMessages" = "按消息数统计未读";
 
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";
@@ -488,7 +503,9 @@
 "Compose.Create" = "创建";
 "Compose.Next" = "下一步";
 "Channel.ChannelNameHolder" = "频道名称";
+
 "Channel.DescriptionHolder" = "简介";
+
 "Channel.DescriptionHolderDescrpiton" = "您可以给您的频道添加一段简介。";
 
 
@@ -851,6 +868,11 @@
 "ReportReason.Porno" = "色情";
 "ReportReason.ChildAbuse" = "儿童虐待";
 "ReportReason.Copyright" = "侵犯版权";
+
+
+
+
+
 "PeerInfo.ChannelReported" = "Thank you! Your report will be reviewed by our team soon.";
 
 "PeerInfo.SignMessages.Desc" = "Append names of the admins to the messages they post.";
@@ -1012,7 +1034,8 @@
 "Alert.UserDoesntExists" = "抱歉，此用户好像不存在。";
 "Alert.PrivateChannel.AccessError" = "很遗憾，你无法访问这条消息。你不是消息来源对话的成员。";
 
-"InAppLinks.Confirm.OpenExternal" = "打开 %@？";
+
+
 "InAppLinks.Confirm.OpenExternal.Header" = "打开链接";
 "InAppLinks.Confirm.OpenExternal.OK" = "打开";
 
@@ -1469,6 +1492,7 @@
 "Channel.SelectPeers.Contacts" = "联系人";
 "Channel.SelectPeers.Global" = "全局";
 
+
 "Supergroup.DeleteRestriction.DeleteMessage" = "删除消息";
 "Supergroup.DeleteRestriction.BanUser" = "封禁用户";
 "Supergroup.DeleteRestriction.ReportSpam" = "举报垃圾信息";
@@ -1548,6 +1572,7 @@
 "Bio.Placeholder" = "您的自我介绍";
 "Bio.Description" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
 "Bio.Save" = "保存";
+
 
 "ServiceMessage.ExpiredPhoto" = "图片已自毁";
 "ServiceMessage.ExpiredFile" = "文件已自毁";
@@ -2502,6 +2527,7 @@
 "Appearance.Settings.AutoNight" = "自动启用夜间模式";
 
 
+
 "SecureId.Error.ScansLimit" = "您同时最多只能上传二十个文件。";
 "SecureId.Request.Upload.Translation" = "上传您的证件翻译件";
 "SecureId.Request.Upload.Selfie" = "请上传一张您拿着文件的自拍照";
@@ -2516,6 +2542,14 @@
 "AutoNight.Settings.SunsetAndSunrise" = "使用当地日落/日出时间";
 "AutoNight.Settings.Disabled" = "已禁用";
 "AutoNight.Settings.Scheduled" = "计划时段";
+
+
+
+
+
+
+
+
 
 
 "Gallery.Context.Share.ThisPhoto" = "这张图片";
@@ -2835,6 +2869,15 @@
 
 
 "Chat.UndoManager.ChatsHistoryCleared_other" = "已清空 %d 个对话的历史记录";
+
+
+
+
+
+
+
+
+
 
 
 "Chat.UndoManager.ChatLeft_countable" = "%d";
@@ -3213,6 +3256,7 @@
 "Channel.TransferOwner.Error.Enable2FA" = "启用两步验证";
 
 "BlockContact.Title" = "你想屏蔽 %@ 吗？";
+
 "BlockContact.Options.Action" = "屏蔽 %@";
 "BlockContact.Options.Report" = "举报垃圾信息";
 "BlockContact.Options.DeleteChat" = "删除此对话";
@@ -3278,6 +3322,8 @@
 "Schedule.SendDate" = "在 %@ %@ 时发送";
 
 
+
+
 "Chat.Send.SetReminder" = "定时提醒";
 "Chat.Send.ScheduledMessage" = "定时发送";
 "ScheduleController.Title" = "定时消息";
@@ -3289,9 +3335,11 @@
 "Chat.Context.ClearScheduled.Confirm.Header" = "定时消息";
 
 "Chat.Context.ClearScheduled.Confirm.OK" = "全部清空";
-"Chat.Date.ScheduledFor" = "在 %@ 发送";
 
 "Chat.Date.ScheduledFor" = "在 %@ 发送";
+
+
+
 
 "Chat.Context.Scheduled.SendNow" = "立刻发送";
 "Chat.Context.Scheduled.Reschedule" = "编辑发送时间";
@@ -3300,7 +3348,6 @@
 "Chat.Right.Context.ScheduledMessages" = "定时消息";
 "Chat.Right.Context.Reminder" = "提醒";
 
-"Notification.ScheduledTitle" = "📆 您";
 "Notification.Reminder" = "🗓 提醒";
 
 
@@ -3375,6 +3422,238 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//
+//"Wallet.Splash.Intro.Header" = "Gram Wallet";
+//"Wallet.Splash.Intro.Title" = "Gram Wallet";
+//"Wallet.Splash.Intro.Desc" = "Gram wallet allows you to make fast and secure blockchain-based payments without intermediaries.";
+//"Wallet.Splash.Intro.Terms" = "By creating the wallet you accept\n[Terms of Conditions](Terms).";
+//"Wallet.Splash.Intro.Button" = "New Wallet";
+//"Wallet.Splash.Intro.ImportExists" = "Import Exists";
+//
+//
+//"Wallet.Splash.Created.Header" = "Congratulations!";
+//"Wallet.Splash.Created.Title" = "Congratulations!";
+//"Wallet.Splash.Created.Desc" = "Your Gram wallet has just been created. Only you control it.\n\nTo be able to always have access to it, please write down secret words and setup a secure passcode.";
+//"Wallet.Splash.Created.Button" = "Continue";
+//
+//"Wallet.Splash.CreatePasscode.Header" = "Perfect!";
+//"Wallet.Splash.CreatePasscode.Title" = "Perfect!";
+//"Wallet.Splash.CreatePasscode.Desc" = "Now set up a passcode to secure your transactions.";
+//"Wallet.Splash.CreatePasscode.Button" = "Continue";
+//"Wallet.Splash.CreatePasscode.Error" = "Passcodes do not match";
+//"Wallet.Splash.CreatePasscode.Placeholder1" = "Enter your passcode";
+//"Wallet.Splash.CreatePasscode.Placeholder2" = "Re-Enter your passcode";
+//
+//"Wallet.Splash.Success.Header" = "Ready to go!";
+//"Wallet.Splash.Success.Title" = "Ready to go!";
+//"Wallet.Splash.Success.Desc" = "You’re all set. Now you have a wallet that only you control - directly, without middlemen or bankers.";
+//"Wallet.Splash.Success.Button" = "My Wallet";
+//
+//"Wallet.Splash.RestoreFailed.Header" = "Too Bad";
+//"Wallet.Splash.RestoreFailed.Title" = "Too Bad";
+//"Wallet.Splash.RestoreFailed.Desc" = "Without the secret words, you can't restore access to the wallet.\n\n[Enter 24 Words](EnterWords)";
+//"Wallet.Splash.RestoreFailed.Button" = "New Wallet";
+//
+//"Wallet.Splash.Save24Words.Header" = "24 Secret Words";
+//"Wallet.Splash.Save24Words.Title" = "24 Secret Words";
+//"Wallet.Splash.Save24Words.Desc" = "Write down these 24 words in the correct order and store them in a secret place.\n\nUse these secret words to restore access to your wallet if you lose your passcode or Telegram account.";
+//"Wallet.Splash.Save24Words.Button" = "Done";
+//"Wallet.Splash.Save24Words.Copy" = "Copy Secret Words";
+//"Wallet.Splash.Save24Words.CopyHeader" = "24 Secret Words";
+//"Wallet.Splash.Save24Words.CopyText" = "Are you sure you want to copy Secret Words? Please keep it in safe place.";
+//
+//"Wallet.Splash.Save24Words.Confirm.Header" = "Sure Done?";
+//"Wallet.Splash.Save24Words.Confirm.Text" = "You didn't have enough time to write those words down.";
+//"Wallet.Splash.Save24Words.Confirm.OK" = "OK, Sorry";
+//"Wallet.Splash.Save24Words.Confirm.Thrid" = "I'm Sure.";
+//"Wallet.Splash.Save24Words.Confirm.Apoligies" = "Apologies Accepted.";
+//
+//
+//"Wallet.Splash.TestWords.Header" = "Test Time!";
+//"Wallet.Splash.TestWords.Title" = "Test Time!";
+//"Wallet.Splash.TestWords.Desc" = "Let's check that you wrote them down correctly. Please enter words %d, %d and %d below.";
+//"Wallet.Splash.TestWords.Button" = "Continue";
+//"Wallet.Splash.TestWords.IncorrectHeader" = "Incorrect words!";
+//"Wallet.Splash.TestWords.IncorrectText" = "The secret words you have entered do not match the ones in the list.";
+//"Wallet.Splash.TestWords.Incorrect.OK" = "Try Again";
+//"Wallet.Splash.TestWords.Incorrect.Thrid" = "View Words";
+//
+//"Wallet.Splash.Import.Header" = "24 Secret Words";
+//"Wallet.Splash.Import.Title" = "24 Secret Words";
+//"Wallet.Splash.Import.Desc" = "Please restore access to your wallet by entering the 24 secret words you wrote down when creating the wallet.";
+//"Wallet.Splash.Import.Button" = "Import Wallet";
+//"Wallet.Splash.Import.Button.Sub" = "[I don't have those.](HaventWords)";
+//"Wallet.Splash.Import.Error.Title" = "Incorrect Words";
+//"Wallet.Splash.Import.Error.Text" = "Sorry, you have entered incorrect secret words. Please double check and try again.";
+//"Wallet.Splash.Import.FromClipboard" = "Import From Clipboard";
+//
+//
+//"Wallet.Splash.SecurityChanged.Header" = "Wallet";
+//"Wallet.Splash.SecurityChanged.Title" = "Wallet is Unavailable";
+//
+//"Wallet.Splash.SecurityChanged.Desc" = "Unfortunately, the wallet you connected to this app couldn't be accessed. To restore your wallet, click \"Import Existing Wallet.\".\n\n[Create New Wallet](CreateNew)";
+//"Wallet.Splash.SecurityChanged.Button" = "Import Existing Wallet";
+//
+//"Wallet.Info.WalletCreated.Header" = "Wallet Created";
+//"Wallet.Info.WalletCreated.Text" = "your wallet address";
+//
+//
+//"Wallet.TerminateApp.Title" = "Gram Wallet";
+//"Wallet.TerminateApp.Text" = "You are on the way of creation new Wallet. Are you sure you have finished with it and want to terminate Telegram?";
+//"Wallet.TerminateApp.OK" = "YES";
+//"Wallet.TerminateApp.Cancel" = "NO";
+//
+//"Wallet.Splash.CloseConfirm.Header" = "Gram Wallet";
+//"Wallet.Splash.CloseConfirm.Text" = "Please sure you have written secret words before do this action. Otherwise you will not be able to restore you wallet.";
+//"Wallet.Splash.CloseConfirm.OK" = "OK";
+//"Wallet.Splash.CloseConfirm.Thrid" = "Close Anyway";
+//
+//
+//"Wallet.Receive.Title" = "Receive Grams";
+//"Wallet.Receive.YourWalletAddress" = "YOUR WALLET ADDRESS";
+//"Wallet.Receive.CopyWalletAddress" = "Copy Wallet Address";
+//"Wallet.Receive.ShareWalletAddress" = "Share Wallet Address";
+//"Wallet.Receive.ShareWalletDesc" = "Share this link with other Gram wallet owners to receive Grams from them.";
+//
+//"Wallet.Receive.CreateInvoice" = "Create Invoice";
+//"Wallet.Receive.CreateInvoiceDesc" = "You can specify amount and purpose of the payment to save the sender some time.";
+//
+//"Wallet.CreateInvoice.Title" = "Create Invoice";
+//"Wallet.CreateInvoice.AmoutTitle" = "AMOUNT";
+//"Wallet.CreateInvoice.AmoutPlaceholder" = "Grams to receive";
+//"Wallet.CreateInvoice.CommentTitle" = "COMMENT (OPTIONAL)";
+//"Wallet.CreateInvoice.CommentPlaceholder" = "Description of the payment";
+//"Wallet.CreateInvoice.InvoiceTitle" = "INVOICE URL";
+//"Wallet.CreateInvoice.CopyURL" = "Copy Invoice URL";
+//"Wallet.CreateInvoice.ShareURL" = "Share Invoice URL";
+//"Wallet.CreateInvoice.ShareDesc" = "Share this link with other Gram wallet owners to receive Grams from them.";
+//
+//"Wallet.Send.Title" = "Send Grams";
+//"Wallet.Send.RecipientHeader" = "RECIPIENT WALLET ADDRESS";
+//"Wallet.Send.RecipientPlaceholder" = "Enter wallet address...";
+//"Wallet.Send.RecipientDesc" = "Copy the 48-letter address of the recipient here or ask them to send you a ton:// link.";
+//"Wallet.Send.AmountHeader" = "AMOUNT";
+//"Wallet.Send.AmountBalance" = "BALANCE:     %@";
+//"Wallet.Send.AmountPlaceholder" = "Grams to send";
+//"Wallet.Send.CommentPlaceholder" = "Optional description of the payment";
+//
+//"Wallet.Send.Confirmation.Header" = "Confirmation";
+//"Wallet.Send.Confirmation.Text" = "Do you want to send %@ Grams to %@?\n\nFees: ~%@ grams";
+//"Wallet.Send.Confirmation.OK" = "Send Grams";
+//
+//
+//"Wallet.Send.ErrorTitle" = "Wallet";
+//"Wallet.Send.ErrorInvalidAddress" = "Invalid wallet address. Please correct and try again.";
+//"Wallet.Send.ErrorNetwork" = "Couldn't send grams. Please make sure your internet connection is working and try again.";
+//"Wallet.Send.ErrorDecryptionFailed" = "Encryption error. If you will see this error again, please delete wallet and import your secret words again.";
+//"Wallet.Send.ErrorNotEnoughFundsText" = "Unfortunately, your transfer couldn't be completed. You don't have enough grams.";
+//"Wallet.Send.Error.DestinationIsNotInitialized" = "This address belongs to an empty wallet. Are you sure you want to transfer grams to it?";
+//"Wallet.Send.SendAnyway" = "Send Anyway";
+//
+//
+//"Wallet.Send.SendingTitle" = "Sending Grams";
+//"Wallet.Send.SendingText" = "Please wait few seconds for your transaction to be processed...";
+//
+//"Wallet.Send.SentTitle" = "Done";
+//"Wallet.Send.SentText" = "**%@** Grams have been sent.";
+//"Wallet.Send.SentViewMyWallet" = "View My Wallet";
+//"Wallet.Send.Process.Tranfer" = "Transfer";
+//
+//"Wallet.Send.Confirm.Title" = "Send Grams";
+//"Wallet.Send.SelfConfirm.Text" = "Sending Grams from a wallet to the same wallet doesn't make sense, you will simply waste a portion of the value on blockchain fees.";
+//"Wallet.Send.SelfConfirm.OK" = "Send Anyway";
+//
+//"Wallet.TonLink.Empty.Title" = "Gram Wallet";
+//"Wallet.TonLink.Empty.Text" = "This link can be used to send money on the TON Blockchain. To do this, you need to set up a Gram wallet first.";
+//"Wallet.TonLink.Empty.Thrid" = "Set up Gram Wallet";
+//
+//"Wallet.TransactionPreview.Title" = "Transaction";
+//"Wallet.TransactionPreview.Recipient" = "RECIPIENT";
+//"Wallet.TransactionPreview.Sender" = "SENDER";
+//"Wallet.TransactionPreview.CopyAddress" = "Copy Address";
+//"Wallet.TransactionPreview.SendGrams" = "Send Grams";
+//"Wallet.TransactionPreview.CommentHeader" = "COMMENT";
+//"Wallet.TransactionPreview.StorageFee" = "%@ storage fee";
+//"Wallet.TransactionPreview.TransactionFee" = "%@ transaction fee";
+//
+//
+//"Wallet.BalanceInfo.Title" = "Wallet";
+//"Wallet.BalanceInfo.Send" = "Send";
+//"Wallet.BalanceInfo.Receive" = "Receive";
+//"Wallet.BalanceInfo.YouBalance" = "your balance";
+//"Wallet.BalanceInfo.Updating1" = "updating.";
+//"Wallet.BalanceInfo.Updating2" = "updating..";
+//"Wallet.BalanceInfo.Updating3" = "updating...";
+//
+//"Wallet.BalanceInfo.Syncing" = "%@ syncing...";
+//
+//"Wallet.BalanceInfo.Transaction.Fees" = "-%@ blockchain fees";
+//
+//"Wallet.BalanceInfo.RetrieveError" = "The wallet state can not be retrived at this time.";
+//
+//"Wallet.Transaction.To" = "to:";
+//"Wallet.Transaction.From" = "from:";
+//"Wallet.Transaction.EmptyTransaction" = "Empty Transaction";
+//"Wallet.Transaction.EmptyAddress" = "No Address";
+//
+//"Wallet.Settings.DeleteWallet" = "Delete Wallet";
+//"Wallet.Settings.DeleteWallet.Desc" = "This will disconnect the wallet from this app. You will be able to restore your wallet using 24 secret words – or import another wallet.\n\nWallets are located in the TON Blockchain, which is not controlled by Telegram. If you want a wallet to be deleted, simply transfer all the grams from it and leave it empty.";
+//"Wallet.Settings.Title" = "Wallet Settings";
+//"Wallet.Settings.Delete.Confirm.Header" = "Delete Wallet";
+//"Wallet.Settings.Delete.Confirm.Text" = "Are you sure you want to delete the wallet?\n\nNote: This will disconnect the wallet from this app. You will be able to restore your wallet using 24 secret words – or import another wallet.";
+//"Wallet.Settings.Delete.Confirm.OK" = "Delete";
+//
+//
+//
+//
+//"Wallet.ProcessTransaction.Passcode.Title" = "Passcode";
+//"Wallet.ProcessTransaction.Passcode.Text" = "Enter your passcode for transfer Grams.";
+//"Wallet.ProcessTransaction.Passcode.Placeholder" = "Enter your passcode";
+//"Wallet.ProcessTransaction.Passcode.TextError" = "Try again in: %@";
+//"Wallet.ProcessTransaction.Passcode.TitleError" = "Passcode Disabled";
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "创建者";
@@ -3383,6 +3662,8 @@
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "Gallery.Counter" = "%d / %d";
+"InAppLinks.Confirm.OpenExternal" = "打开 %@？";
+"Notification.ScheduledTitle" = "📆 您";
 "PeerInfo.Admins" = "管理员";
 "PeerInfo.SetAdmins" = "设置管理员";
 "TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";

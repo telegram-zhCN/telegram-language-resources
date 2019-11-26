@@ -99,7 +99,7 @@
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?";
 
 
-
+"PeerInfo.ShowMore" = "Show More";
 "PeerInfo.LeaveGroup" = "Leave Group";
 
 "PeerInfo.StopBot" = "Stop Bot";
@@ -196,7 +196,8 @@
 
 "Alert.OK" = "OK";
 "Alert.Cancel" = "Cancel";
-
+"Alert.Discard" = "Discard";
+"Alert.NO" = "No";
 
 "Alert.Forward.Error" = "Sorry, you can't forward messages to this conversation.";
 
@@ -215,6 +216,7 @@
 "Modal.CopyLink" = "Copy Link";
 "Modal.Cancel" = "Cancel";
 "Modal.OK" = "OK";
+"Modal.Apply" = "Apply";
 "Modal.Set" = "Set";
 "QuickLook.Preview" = "Preview";
 
@@ -294,6 +296,9 @@
 "AccountSettings.FAQ" = "Telegram FAQ";
 "AccountSettings.AskQuestion" = "Ask a Question";
 
+"AccountSettings.Wallet" = "Gram Wallet";
+
+
 "ConnectingStatus.connecting" = "connecting";
 "ConnectingStatus.online" = "online";
 "ConnectingStatus.updating" = "updating";
@@ -358,6 +363,14 @@
 "Login.codePlaceholder" = "code";
 
 
+/* "Login.QR.Title" = "Login Telegram by QR Code"; */
+/* "Login.QR.Help1" = "Open Telegram on your phone"; */
+/* "Login.QR.Help2" = "Open **Settings** and select **Devices**"; */
+/* "Login.QR.Help3" = "Point your phone to this screen to capture the code"; */
+/* "Login.QR.Cancel" = "Login by phone Number"; */
+
+/* "Login.QR.Login" = "Login by QR Code"; */
+
 "Login.EnterCodeFromApp" = "Please enter the code you've just received in Telegram on your other device.";
 "Login.SendSmsIfNotReceivedAppCode" = "Haven't received the code?";
 "Login.JustSentSms" = "We have sent you a code via SMS. Please enter it above.";
@@ -405,6 +418,8 @@
 "NotificationSettings.ToggleNotifications" = "Notifications";
 "NotificationSettings.MessagesPreview" = "Message Preview";
 "NotificationSettings.IncludeMutedChats" = "Include Muted Chats";
+"NotificationSettings.BadgeEnabled" = "Enabled";
+
 "NotificationSettings.CountUnreadMessages" = "Count Unread Messages";
 
 "NotificationSettings.IncludePublicGroups" = "Include Public Groups";
@@ -488,7 +503,9 @@
 "Compose.Create" = "Create";
 "Compose.Next" = "Next";
 "Channel.ChannelNameHolder" = "Channel Name";
+"Channel.NameHeader" = "CHANNEL NAME";
 "Channel.DescriptionHolder" = "Description";
+"Channel.DescHeader" = "DESCRIPTION";
 "Channel.DescriptionHolderDescrpiton" = "You can provide an optional description for your channel.";
 
 
@@ -851,6 +868,11 @@
 "ReportReason.Porno" = "Pornography";
 "ReportReason.ChildAbuse" = "Child Abuse";
 "ReportReason.Copyright" = "Copyright";
+"ReportReason.Other" = "Other";
+"ReportReason.Other.Placeholder" = "Description";
+"ReportReason.Report" = "Report";
+
+
 "PeerInfo.ChannelReported" = "Thank you! Your report will be reviewed by our team soon.";
 
 "PeerInfo.SignMessages.Desc" = "Append names of the admins to the messages they post.";
@@ -1012,7 +1034,8 @@
 "Alert.UserDoesntExists" = "Sorry, this user doesn't seem to exist.";
 "Alert.PrivateChannel.AccessError" = "Unfortunately, you can't access this message. You are not a member of the chat where it was posted.";
 
-"InAppLinks.Confirm.OpenExternal" = "open %@?";
+"InAppLinks.Confirm.OpenExternalNew" = "Do you want to open \"%@\"?";
+
 "InAppLinks.Confirm.OpenExternal.Header" = "Open Link";
 "InAppLinks.Confirm.OpenExternal.OK" = "Open";
 
@@ -1469,6 +1492,7 @@
 "Channel.SelectPeers.Contacts" = "contacts";
 "Channel.SelectPeers.Global" = "global";
 
+"Supergroup.DeleteRestriction.Title" = "Manage Messages";
 "Supergroup.DeleteRestriction.DeleteMessage" = "Delete Message";
 "Supergroup.DeleteRestriction.BanUser" = "Ban User";
 "Supergroup.DeleteRestriction.ReportSpam" = "Report Spam";
@@ -1548,6 +1572,7 @@
 "Bio.Placeholder" = "A few words about you";
 "Bio.Description" = "Any details such as age, occupation or city.\nExample: 23 y.o. designer from San Francisco";
 "Bio.Save" = "Save";
+"Bio.Header" = "BIO";
 
 "ServiceMessage.ExpiredPhoto" = "photo has expired";
 "ServiceMessage.ExpiredFile" = "file has expired";
@@ -2500,7 +2525,8 @@
 "Alert.Confirm.Stop" = "Stop";
 
 "Appearance.Settings.AutoNight" = "Auto-Night Mode";
-
+"Appearance.Settings.AutoNightHeader" = "AUTO-NIGHT MODE";
+"Appearance.Settings.BubblesMode" = "Bubbles Mode";
 
 "SecureId.Error.ScansLimit" = "You can't upload more than 20 files";
 "SecureId.Request.Upload.Translation" = "Upload a translation of your document";
@@ -2516,7 +2542,15 @@
 "AutoNight.Settings.SunsetAndSunrise" = "Use Local Sunset & Sunrise";
 "AutoNight.Settings.Disabled" = "Disabled";
 "AutoNight.Settings.Scheduled" = "Scheduled";
+"AutoNight.Settings.SystemBased" = "System";
+"AutoNight.Settings.SystemBasedDesc" = "App interfaces will match the system appearance settings.";
+"AutoNight.Settings.PreferredTheme" = "PREFERRED NIGHT THEME";
 
+"AutoNight.Settings.UpdateLocation.Error" = "Can't determine your location. Please check your system settings and try again.";
+
+"DarkMode.Confirm.NightMode.Header" = "Night Mode";
+"DarkMode.Confirm.NightMode.Text" = "You have enabled auto night mode. If you want to change dark mode you have to disable it.";
+"DarkMode.Confirm.NightMode.OK" = "Disable";
 
 "Gallery.Context.Share.ThisPhoto" = "This Photo";
 "Gallery.Context.Share.AllPhotos_countable" = "%d";
@@ -2835,6 +2869,15 @@
 "Chat.UndoManager.ChatsHistoryCleared_few" = "%d Chat History Cleared";
 "Chat.UndoManager.ChatsHistoryCleared_many" = "%d Chat History Cleared";
 "Chat.UndoManager.ChatsHistoryCleared_other" = "%d Chat History Cleared";
+
+
+"Chat.UndoManager.ChatsArchived_countable" = "%d";
+"Chat.UndoManager.ChatsArchived_zero" = "%d Chats Archived";
+"Chat.UndoManager.ChatsArchived_one" = "Chat Archived";
+"Chat.UndoManager.ChatsArchived_two" = "%d Chats Archived";
+"Chat.UndoManager.ChatsArchived_few" = "%d Chats Archived";
+"Chat.UndoManager.ChatsArchived_many" = "%d Chats Archived";
+"Chat.UndoManager.ChatsArchived_other" = "%d Chats Archived";
 
 
 "Chat.UndoManager.ChatLeft_countable" = "%d";
@@ -3213,6 +3256,7 @@
 "Channel.TransferOwner.Error.Enable2FA" = "Enable 2-Step Verification.";
 
 "BlockContact.Title" = "Do you want to block %@ from messaging and calling you on Telegram?";
+"BlockContact.Options.Title" = "Manage User";
 "BlockContact.Options.Action" = "Block %@";
 "BlockContact.Options.Report" = "Report Spam";
 "BlockContact.Options.DeleteChat" = "Delete this Chat";
@@ -3277,6 +3321,8 @@
 "Schedule.SendToday" = "Send today at %@";
 "Schedule.SendDate" = "Send on %@ at %@";
 
+"Schedule.SendWhenOnline" = "Send When Online";
+
 
 "Chat.Send.SetReminder" = "Set a Reminder";
 "Chat.Send.ScheduledMessage" = "Schedule Message";
@@ -3289,9 +3335,11 @@
 "Chat.Context.ClearScheduled.Confirm.Header" = "Scheduled Messages";
 "Chat.Context.ClearScheduled.Confirm.Info" = "Are you sure you want to delete all scheduled messages?";
 "Chat.Context.ClearScheduled.Confirm.OK" = "Clear All";
-"Chat.Date.ScheduledFor" = "Scheduled for %@";
 
 "Chat.Date.ScheduledFor" = "Scheduled for %@";
+"Chat.Date.ScheduledUntilOnline" = "Scheduled until online";
+"Chat.Date.ScheduledForToday" = "Scheduled for today";
+
 
 "Chat.Context.Scheduled.SendNow" = "Send Now";
 "Chat.Context.Scheduled.Reschedule" = "Re-schedule";
@@ -3300,7 +3348,6 @@
 "Chat.Right.Context.ScheduledMessages" = "Scheduled Messages";
 "Chat.Right.Context.Reminder" = "Reminder";
 
-"Notification.ScheduledTitle" = "📆 You";
 "Notification.Reminder" = "📆 Reminder";
 
 
@@ -3375,6 +3422,238 @@
 
 
 
+"Updated.JustNow" = "updated just now";
+"Updated.MinutesAgo_countable" = "%d";
+"Updated.MinutesAgo_zero" = "";
+"Updated.MinutesAgo_one" = "updated %d minute ago";
+"Updated.MinutesAgo_two" = "";
+"Updated.MinutesAgo_few" = "";
+"Updated.MinutesAgo_many" = "";
+"Updated.MinutesAgo_any" = "updated %d minutes ago";
+
+"Updated.HoursAgo_countable" = "%d";
+"Updated.HoursAgo_zero" = "";
+"Updated.HoursAgo_one" = "updated %d hour ago";
+"Updated.HoursAgo_two" = "";
+"Updated.HoursAgo_few" = "";
+"Updated.HoursAgo_many" = "";
+"Updated.HoursAgo_any" = "updated %d hours ago";
+"Updated.YesterdayAt" = "updated yesterday at %@";
+"Updated.AtDate" = "updated %@";
+"Updated.TodayAt" = "updated today at %@";
+
+
+
+"SelectPeers.Title.SelectChat" = "Select Chat";
+"SelectPeers.Title.SearchMembers" = "Search Members";
+
+
+"ChatList.Mute.1Hour" = "For 1 Hour";
+"ChatList.Mute.4Hours" = "For 4 Hours";
+"ChatList.Mute.8Hours" = "For 8 Hours";
+"ChatList.Mute.1Day" = "For 1 Day";
+"ChatList.Mute.3Days" = "For 3 Days";
+"ChatList.Mute.Forever" = "Forever";
+
+
+
+
+
+
+
+
+
+
+/* "Wallet.Splash.Intro.Header" = "Gram Wallet"; */
+/* "Wallet.Splash.Intro.Title" = "Gram Wallet"; */
+/* "Wallet.Splash.Intro.Desc" = "Gram wallet allows you to make fast and secure blockchain-based payments without intermediaries."; */
+/* "Wallet.Splash.Intro.Terms" = "By creating the wallet you accept\n[Terms of Conditions](Terms)."; */
+/* "Wallet.Splash.Intro.Button" = "New Wallet"; */
+/* "Wallet.Splash.Intro.ImportExists" = "Import Exists"; */
+
+
+/* "Wallet.Splash.Created.Header" = "Congratulations!"; */
+/* "Wallet.Splash.Created.Title" = "Congratulations!"; */
+/* "Wallet.Splash.Created.Desc" = "Your Gram wallet has just been created. Only you control it.\n\nTo be able to always have access to it, please write down secret words and setup a secure passcode."; */
+/* "Wallet.Splash.Created.Button" = "Continue"; */
+
+/* "Wallet.Splash.CreatePasscode.Header" = "Perfect!"; */
+/* "Wallet.Splash.CreatePasscode.Title" = "Perfect!"; */
+/* "Wallet.Splash.CreatePasscode.Desc" = "Now set up a passcode to secure your transactions."; */
+/* "Wallet.Splash.CreatePasscode.Button" = "Continue"; */
+/* "Wallet.Splash.CreatePasscode.Error" = "Passcodes do not match"; */
+/* "Wallet.Splash.CreatePasscode.Placeholder1" = "Enter your passcode"; */
+/* "Wallet.Splash.CreatePasscode.Placeholder2" = "Re-Enter your passcode"; */
+
+/* "Wallet.Splash.Success.Header" = "Ready to go!"; */
+/* "Wallet.Splash.Success.Title" = "Ready to go!"; */
+/* "Wallet.Splash.Success.Desc" = "You’re all set. Now you have a wallet that only you control - directly, without middlemen or bankers."; */
+/* "Wallet.Splash.Success.Button" = "My Wallet"; */
+
+/* "Wallet.Splash.RestoreFailed.Header" = "Too Bad"; */
+/* "Wallet.Splash.RestoreFailed.Title" = "Too Bad"; */
+/* "Wallet.Splash.RestoreFailed.Desc" = "Without the secret words, you can't restore access to the wallet.\n\n[Enter 24 Words](EnterWords)"; */
+/* "Wallet.Splash.RestoreFailed.Button" = "New Wallet"; */
+
+/* "Wallet.Splash.Save24Words.Header" = "24 Secret Words"; */
+/* "Wallet.Splash.Save24Words.Title" = "24 Secret Words"; */
+/* "Wallet.Splash.Save24Words.Desc" = "Write down these 24 words in the correct order and store them in a secret place.\n\nUse these secret words to restore access to your wallet if you lose your passcode or Telegram account."; */
+/* "Wallet.Splash.Save24Words.Button" = "Done"; */
+/* "Wallet.Splash.Save24Words.Copy" = "Copy Secret Words"; */
+/* "Wallet.Splash.Save24Words.CopyHeader" = "24 Secret Words"; */
+/* "Wallet.Splash.Save24Words.CopyText" = "Are you sure you want to copy Secret Words? Please keep it in safe place."; */
+
+/* "Wallet.Splash.Save24Words.Confirm.Header" = "Sure Done?"; */
+/* "Wallet.Splash.Save24Words.Confirm.Text" = "You didn't have enough time to write those words down."; */
+/* "Wallet.Splash.Save24Words.Confirm.OK" = "OK, Sorry"; */
+/* "Wallet.Splash.Save24Words.Confirm.Thrid" = "I'm Sure."; */
+/* "Wallet.Splash.Save24Words.Confirm.Apoligies" = "Apologies Accepted."; */
+
+
+/* "Wallet.Splash.TestWords.Header" = "Test Time!"; */
+/* "Wallet.Splash.TestWords.Title" = "Test Time!"; */
+/* "Wallet.Splash.TestWords.Desc" = "Let's check that you wrote them down correctly. Please enter words %d, %d and %d below."; */
+/* "Wallet.Splash.TestWords.Button" = "Continue"; */
+/* "Wallet.Splash.TestWords.IncorrectHeader" = "Incorrect words!"; */
+/* "Wallet.Splash.TestWords.IncorrectText" = "The secret words you have entered do not match the ones in the list."; */
+/* "Wallet.Splash.TestWords.Incorrect.OK" = "Try Again"; */
+/* "Wallet.Splash.TestWords.Incorrect.Thrid" = "View Words"; */
+
+/* "Wallet.Splash.Import.Header" = "24 Secret Words"; */
+/* "Wallet.Splash.Import.Title" = "24 Secret Words"; */
+/* "Wallet.Splash.Import.Desc" = "Please restore access to your wallet by entering the 24 secret words you wrote down when creating the wallet."; */
+/* "Wallet.Splash.Import.Button" = "Import Wallet"; */
+/* "Wallet.Splash.Import.Button.Sub" = "[I don't have those.](HaventWords)"; */
+/* "Wallet.Splash.Import.Error.Title" = "Incorrect Words"; */
+/* "Wallet.Splash.Import.Error.Text" = "Sorry, you have entered incorrect secret words. Please double check and try again."; */
+/* "Wallet.Splash.Import.FromClipboard" = "Import From Clipboard"; */
+
+
+/* "Wallet.Splash.SecurityChanged.Header" = "Wallet"; */
+/* "Wallet.Splash.SecurityChanged.Title" = "Wallet is Unavailable"; */
+
+/* "Wallet.Splash.SecurityChanged.Desc" = "Unfortunately, the wallet you connected to this app couldn't be accessed. To restore your wallet, click \"Import Existing Wallet.\".\n\n[Create New Wallet](CreateNew)"; */
+/* "Wallet.Splash.SecurityChanged.Button" = "Import Existing Wallet"; */
+
+/* "Wallet.Info.WalletCreated.Header" = "Wallet Created"; */
+/* "Wallet.Info.WalletCreated.Text" = "your wallet address"; */
+
+
+/* "Wallet.TerminateApp.Title" = "Gram Wallet"; */
+/* "Wallet.TerminateApp.Text" = "You are on the way of creation new Wallet. Are you sure you have finished with it and want to terminate Telegram?"; */
+/* "Wallet.TerminateApp.OK" = "YES"; */
+/* "Wallet.TerminateApp.Cancel" = "NO"; */
+
+/* "Wallet.Splash.CloseConfirm.Header" = "Gram Wallet"; */
+/* "Wallet.Splash.CloseConfirm.Text" = "Please sure you have written secret words before do this action. Otherwise you will not be able to restore you wallet."; */
+/* "Wallet.Splash.CloseConfirm.OK" = "OK"; */
+/* "Wallet.Splash.CloseConfirm.Thrid" = "Close Anyway"; */
+
+
+/* "Wallet.Receive.Title" = "Receive Grams"; */
+/* "Wallet.Receive.YourWalletAddress" = "YOUR WALLET ADDRESS"; */
+/* "Wallet.Receive.CopyWalletAddress" = "Copy Wallet Address"; */
+/* "Wallet.Receive.ShareWalletAddress" = "Share Wallet Address"; */
+/* "Wallet.Receive.ShareWalletDesc" = "Share this link with other Gram wallet owners to receive Grams from them."; */
+
+/* "Wallet.Receive.CreateInvoice" = "Create Invoice"; */
+/* "Wallet.Receive.CreateInvoiceDesc" = "You can specify amount and purpose of the payment to save the sender some time."; */
+
+/* "Wallet.CreateInvoice.Title" = "Create Invoice"; */
+/* "Wallet.CreateInvoice.AmoutTitle" = "AMOUNT"; */
+/* "Wallet.CreateInvoice.AmoutPlaceholder" = "Grams to receive"; */
+/* "Wallet.CreateInvoice.CommentTitle" = "COMMENT (OPTIONAL)"; */
+/* "Wallet.CreateInvoice.CommentPlaceholder" = "Description of the payment"; */
+/* "Wallet.CreateInvoice.InvoiceTitle" = "INVOICE URL"; */
+/* "Wallet.CreateInvoice.CopyURL" = "Copy Invoice URL"; */
+/* "Wallet.CreateInvoice.ShareURL" = "Share Invoice URL"; */
+/* "Wallet.CreateInvoice.ShareDesc" = "Share this link with other Gram wallet owners to receive Grams from them."; */
+
+/* "Wallet.Send.Title" = "Send Grams"; */
+/* "Wallet.Send.RecipientHeader" = "RECIPIENT WALLET ADDRESS"; */
+/* "Wallet.Send.RecipientPlaceholder" = "Enter wallet address..."; */
+/* "Wallet.Send.RecipientDesc" = "Copy the 48-letter address of the recipient here or ask them to send you a ton:// link."; */
+/* "Wallet.Send.AmountHeader" = "AMOUNT"; */
+/* "Wallet.Send.AmountBalance" = "BALANCE:     %@"; */
+/* "Wallet.Send.AmountPlaceholder" = "Grams to send"; */
+/* "Wallet.Send.CommentPlaceholder" = "Optional description of the payment"; */
+
+/* "Wallet.Send.Confirmation.Header" = "Confirmation"; */
+/* "Wallet.Send.Confirmation.Text" = "Do you want to send %@ Grams to %@?\n\nFees: ~%@ grams"; */
+/* "Wallet.Send.Confirmation.OK" = "Send Grams"; */
+
+
+/* "Wallet.Send.ErrorTitle" = "Wallet"; */
+/* "Wallet.Send.ErrorInvalidAddress" = "Invalid wallet address. Please correct and try again."; */
+/* "Wallet.Send.ErrorNetwork" = "Couldn't send grams. Please make sure your internet connection is working and try again."; */
+/* "Wallet.Send.ErrorDecryptionFailed" = "Encryption error. If you will see this error again, please delete wallet and import your secret words again."; */
+/* "Wallet.Send.ErrorNotEnoughFundsText" = "Unfortunately, your transfer couldn't be completed. You don't have enough grams."; */
+/* "Wallet.Send.Error.DestinationIsNotInitialized" = "This address belongs to an empty wallet. Are you sure you want to transfer grams to it?"; */
+/* "Wallet.Send.SendAnyway" = "Send Anyway"; */
+
+
+/* "Wallet.Send.SendingTitle" = "Sending Grams"; */
+/* "Wallet.Send.SendingText" = "Please wait few seconds for your transaction to be processed..."; */
+
+/* "Wallet.Send.SentTitle" = "Done"; */
+/* "Wallet.Send.SentText" = "**%@** Grams have been sent."; */
+/* "Wallet.Send.SentViewMyWallet" = "View My Wallet"; */
+/* "Wallet.Send.Process.Tranfer" = "Transfer"; */
+
+/* "Wallet.Send.Confirm.Title" = "Send Grams"; */
+/* "Wallet.Send.SelfConfirm.Text" = "Sending Grams from a wallet to the same wallet doesn't make sense, you will simply waste a portion of the value on blockchain fees."; */
+/* "Wallet.Send.SelfConfirm.OK" = "Send Anyway"; */
+
+/* "Wallet.TonLink.Empty.Title" = "Gram Wallet"; */
+/* "Wallet.TonLink.Empty.Text" = "This link can be used to send money on the TON Blockchain. To do this, you need to set up a Gram wallet first."; */
+/* "Wallet.TonLink.Empty.Thrid" = "Set up Gram Wallet"; */
+
+/* "Wallet.TransactionPreview.Title" = "Transaction"; */
+/* "Wallet.TransactionPreview.Recipient" = "RECIPIENT"; */
+/* "Wallet.TransactionPreview.Sender" = "SENDER"; */
+/* "Wallet.TransactionPreview.CopyAddress" = "Copy Address"; */
+/* "Wallet.TransactionPreview.SendGrams" = "Send Grams"; */
+/* "Wallet.TransactionPreview.CommentHeader" = "COMMENT"; */
+/* "Wallet.TransactionPreview.StorageFee" = "%@ storage fee"; */
+/* "Wallet.TransactionPreview.TransactionFee" = "%@ transaction fee"; */
+
+
+/* "Wallet.BalanceInfo.Title" = "Wallet"; */
+/* "Wallet.BalanceInfo.Send" = "Send"; */
+/* "Wallet.BalanceInfo.Receive" = "Receive"; */
+/* "Wallet.BalanceInfo.YouBalance" = "your balance"; */
+/* "Wallet.BalanceInfo.Updating1" = "updating."; */
+/* "Wallet.BalanceInfo.Updating2" = "updating.."; */
+/* "Wallet.BalanceInfo.Updating3" = "updating..."; */
+
+/* "Wallet.BalanceInfo.Syncing" = "%@ syncing..."; */
+
+/* "Wallet.BalanceInfo.Transaction.Fees" = "-%@ blockchain fees"; */
+
+/* "Wallet.BalanceInfo.RetrieveError" = "The wallet state can not be retrived at this time."; */
+
+/* "Wallet.Transaction.To" = "to:"; */
+/* "Wallet.Transaction.From" = "from:"; */
+/* "Wallet.Transaction.EmptyTransaction" = "Empty Transaction"; */
+/* "Wallet.Transaction.EmptyAddress" = "No Address"; */
+
+/* "Wallet.Settings.DeleteWallet" = "Delete Wallet"; */
+/* "Wallet.Settings.DeleteWallet.Desc" = "This will disconnect the wallet from this app. You will be able to restore your wallet using 24 secret words – or import another wallet.\n\nWallets are located in the TON Blockchain, which is not controlled by Telegram. If you want a wallet to be deleted, simply transfer all the grams from it and leave it empty."; */
+/* "Wallet.Settings.Title" = "Wallet Settings"; */
+/* "Wallet.Settings.Delete.Confirm.Header" = "Delete Wallet"; */
+/* "Wallet.Settings.Delete.Confirm.Text" = "Are you sure you want to delete the wallet?\n\nNote: This will disconnect the wallet from this app. You will be able to restore your wallet using 24 secret words – or import another wallet."; */
+/* "Wallet.Settings.Delete.Confirm.OK" = "Delete"; */
+
+
+
+
+/* "Wallet.ProcessTransaction.Passcode.Title" = "Passcode"; */
+/* "Wallet.ProcessTransaction.Passcode.Text" = "Enter your passcode for transfer Grams."; */
+/* "Wallet.ProcessTransaction.Passcode.Placeholder" = "Enter your passcode"; */
+/* "Wallet.ProcessTransaction.Passcode.TextError" = "Try again in: %@"; */
+/* "Wallet.ProcessTransaction.Passcode.TitleError" = "Passcode Disabled"; */
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "Creator";
@@ -3384,11 +3663,15 @@
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
 "Gallery.Counter" = "%d of %d";
+"InAppLinks.Confirm.OpenExternal" = "open %@?";
+"Notification.ScheduledTitle" = "📆 You";
 "PeerInfo.Admins" = "Admins";
 "PeerInfo.SetAdmins" = "Set Admins";
 "TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";
+"Updated.HoursAgo_other" = "";
+"Updated.MinutesAgo_other" = "";
 "WallpaperPreview.Plain" = "Plain";
 "_NS:103.title" = "Edit";
 "_NS:167.title" = "Window";

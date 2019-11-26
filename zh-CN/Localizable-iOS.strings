@@ -3063,7 +3063,6 @@ Unused sets are archived when you add more.";
 
 "Settings.Appearance" = "外观";
 "Appearance.Title" = "外观";
-"Appearance.TextSize" = "字体大小";
 "Appearance.Preview" = "聊天预览";
 "Appearance.ColorTheme" = "色彩主题";
 "Appearance.ThemeDayClassic" = "经典日间";
@@ -5102,11 +5101,56 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "AUTH_REGION" = "在新设备上登录 %1$@， 位置： %2$@";
 "AUTH_REGION_SEPARATED" = "新设备登录|来自陌生设备 %1$@，地点：%2$@";
 "AUTH_UNKNOWN_SEPARATED" = "新设备登录|来自陌生设备 %1$@";
+"Appearance.TextSize" = "字体大小";
 "CHANNEL_MESSAGES" = "%1$@ posted %2$@ messages";
 "CHANNEL_MESSAGES_SEPARATED" = "%1$@|发布了 %2$@ 条消息";
 "CHANNEL_MESSAGE_AUDIO" = "%1$@ 发布了一条语音留言";
