@@ -198,7 +198,7 @@
     <string name="UnpinFromTop">取消置顶</string>
     <string name="MarkAsUnread">标记为未读</string>
     <string name="MarkAsRead">标记为已读</string>
-    <string name="MarkAllAsRead">Mark all as read</string>
+    <string name="MarkAllAsRead">全部标记为已读</string>
     <string name="HideAboveTheList">Hide above the list</string>
     <string name="PinInTheList">Pin in the list</string>
     <string name="Bold">粗体</string>
@@ -327,7 +327,7 @@
     <string name="ChannelLeaveAlertWithName">您确定要退出 **%1$s** 吗？</string>
     <string name="ChannelDeleteInfo">您将会丢失此频道的所有消息。</string>
     <string name="ChannelEdit">编辑</string>
-    <string name="ChannelPublicEmptyUsernameTitle">Choose a link</string>
+    <string name="ChannelPublicEmptyUsernameTitle">选择链接</string>
     <string name="ChannelPublicEmptyUsername">请为您的公开频道设置一个链接，以便他人能通过搜索找到此频道并分享给他人。\n\n如果您对此不感兴趣，我们建议您创建一个私人频道。</string>
     <string name="ActionCreateChannel">频道已创建</string>
     <string name="ActionChannelChangedPhoto">频道头像已更换</string>
@@ -359,7 +359,7 @@
     <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
     <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
     <string name="ChannelUserAddLimit">抱歉，您只能将至多 200 名用户加入频道。但是通过频道连接加入的用户不限数量。</string>
-    <string name="ChannelTooMuchTitle">Too many communities</string>
+    <string name="ChannelTooMuchTitle">群组过多</string>
     <string name="ChannelTooMuch">抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。</string>
     <string name="ChannelTooMuchJoin">抱歉，您已加入太多的群组和频道。加入新的之前请先退出一些。</string>
     <string name="ChannelAddedBy">un1 将您添加到了此频道</string>
@@ -652,7 +652,7 @@
     <!--audio view-->
     <string name="NoAudioFiles">No audio files</string>
     <string name="NoAudioFilesInfo">Your music library is empty.</string>
-    <string name="NoAudioFound">No results found</string>
+    <string name="NoAudioFound">查询无结果</string>
     <string name="NoAudioFoundInfo">There are no matches with **%1$s** in your music library.</string>
     <string name="AttachMusic">音乐</string>
     <string name="AudioUnknownArtist">未知艺术家</string>
@@ -1231,7 +1231,7 @@
     <string name="ThemeGraphite">石墨黑</string>
     <string name="ThemeArcticBlue">北极</string>
     <string name="ThemeBlue">单色</string>
-    <string name="DeleteThemeTitle">Delete theme</string>
+    <string name="DeleteThemeTitle">删除主题</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
     <string name="IncorrectTheme">错误的主题文件</string>
     <string name="EnterThemeName">输入主题名称</string>
@@ -1308,7 +1308,7 @@
     <string name="Create">创建</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
-    <string name="ResetNotificationsAlertTitle">Reset all notifications</string>
+    <string name="ResetNotificationsAlertTitle">重置所有通知</string>
     <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
     <string name="TextSizeHeader">消息文字大小</string>
     <string name="AskAQuestion">向我们提问</string>
@@ -1444,8 +1444,8 @@
     <string name="TermsOfService">服务协议</string>
     <string name="TermsOfServiceLogin">注册即代表您同意*服务条款*。</string>
     <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
-    <string name="DeleteLocalizationTitle">Delete language pack</string>
-    <string name="DeleteLocalizationText">Are you sure you want to delete **%1$s** language pack?</string>
+    <string name="DeleteLocalizationTitle">删除语言包</string>
+    <string name="DeleteLocalizationText">您是否确定删除%1$s语音包？</string>
     <string name="IncorrectLocalization">语言包文件无效或已损坏</string>
     <string name="NotificationsService">后台服务常驻</string>
     <string name="NotificationsServiceInfo">当应用被终止时自动重启后台服务，确保及时收到通知。</string>
@@ -2070,7 +2070,7 @@
     <string name="BlurRadial">圆形</string>
     <string name="AreYouSureDeletePhotoTitle">Delete photo</string>
     <string name="AreYouSureDeletePhoto">确定删除此图片？</string>
-    <string name="AreYouSureDeleteVideoTitle">Delete video</string>
+    <string name="AreYouSureDeleteVideoTitle">删除视频</string>
     <string name="AreYouSureDeleteVideo">确定删除此视频？</string>
     <string name="AreYouSureDeleteGIFTitle">Delete GIF</string>
     <string name="AreYouSureDeleteGIF">您确定要删除此 GIF 吗？</string>
@@ -2135,8 +2135,8 @@
     <string name="PasswordDoNotMatch">密码不正确</string>
     <string name="AbortPassword">关闭两步验证</string>
     <string name="AbortEmail">终止恢复邮箱设置</string>
-    <string name="Abort">Abort</string>
-    <string name="Disable">Disable</string>
+    <string name="Abort">终止</string>
+    <string name="Disable">禁用</string>
     <string name="EmailPasswordConfirmText2">要完成两步验证设置，请检查您的电子邮箱（不要忘记垃圾邮件文件夹）并输入我们刚刚发送给您的代码。</string>
     <string name="EmailPasswordConfirmText3">要完成重新设置的电子邮件设置，请检查 %1$s（不要忘记垃圾邮件文件夹）并输入我们刚发送给您的代码。</string>
     <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
@@ -2144,7 +2144,7 @@
     <string name="RestorePasswordNoEmailTitle">抱歉</string>
     <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
     <string name="RestorePasswordResetAccount">重置帐户</string>
-    <string name="RestoreEmailSentTitle">Recovery code</string>
+    <string name="RestoreEmailSentTitle">恢复秘密</string>
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
@@ -2476,7 +2476,7 @@
     <string name="DeleteMessagesOption">撤回我的消息</string>
     <string name="DeleteMessagesOptionAlso">同时为 %1$s 删除</string>
     <string name="ClearHistoryOptionAlso">同时为 %1$s 清空历史记录</string>
-    <string name="SendMessageTitle">Send message</string>
+    <string name="SendMessageTitle">发送消息</string>
     <string name="SendMessagesToGroupText">Do you want to send this message to **%1$s**?</string>
     <string name="SendGameToGroupText">Do you want to share this game to **%1$s**?</string>
     <string name="SendContactToGroupText">Do you want to send this contact to **%1$s**?</string>

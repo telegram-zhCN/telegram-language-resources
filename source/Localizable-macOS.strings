@@ -363,13 +363,12 @@
 "Login.codePlaceholder" = "code";
 
 
-/* "Login.QR.Title" = "Login Telegram by QR Code"; */
-/* "Login.QR.Help1" = "Open Telegram on your phone"; */
-/* "Login.QR.Help2" = "Open **Settings** and select **Devices**"; */
-/* "Login.QR.Help3" = "Point your phone to this screen to capture the code"; */
-/* "Login.QR.Cancel" = "Login by phone Number"; */
 
-/* "Login.QR.Login" = "Login by QR Code"; */
+
+
+
+
+
 
 "Login.EnterCodeFromApp" = "Please enter the code you've just received in Telegram on your other device.";
 "Login.SendSmsIfNotReceivedAppCode" = "Haven't received the code?";
@@ -3422,25 +3421,25 @@
 
 
 
-"Updated.JustNow" = "updated just now";
-"Updated.MinutesAgo_countable" = "%d";
-"Updated.MinutesAgo_zero" = "";
-"Updated.MinutesAgo_one" = "updated %d minute ago";
-"Updated.MinutesAgo_two" = "";
-"Updated.MinutesAgo_few" = "";
-"Updated.MinutesAgo_many" = "";
-"Updated.MinutesAgo_any" = "updated %d minutes ago";
+/* "Updated.JustNow" = "updated just now"; */
+/* "Updated.MinutesAgo_countable" = "%d"; */
+/* "Updated.MinutesAgo_zero" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_one" = "updated %d minute ago"; */
+/* "Updated.MinutesAgo_two" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_few" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_many" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_any" = "updated %d minutes ago"; */
 
-"Updated.HoursAgo_countable" = "%d";
-"Updated.HoursAgo_zero" = "";
-"Updated.HoursAgo_one" = "updated %d hour ago";
-"Updated.HoursAgo_two" = "";
-"Updated.HoursAgo_few" = "";
-"Updated.HoursAgo_many" = "";
-"Updated.HoursAgo_any" = "updated %d hours ago";
-"Updated.YesterdayAt" = "updated yesterday at %@";
-"Updated.AtDate" = "updated %@";
-"Updated.TodayAt" = "updated today at %@";
+/* "Updated.HoursAgo_countable" = "%d"; */
+/* "Updated.HoursAgo_zero" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_one" = "updated %d hour ago"; */
+/* "Updated.HoursAgo_two" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_few" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_many" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_any" = "updated %d hours ago"; */
+/* "Updated.YesterdayAt" = "updated yesterday at %@"; */
+/* "Updated.AtDate" = "updated %@"; */
+/* "Updated.TodayAt" = "updated today at %@"; */
 
 
 
@@ -3670,8 +3669,6 @@
 "TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";
-"Updated.HoursAgo_other" = "";
-"Updated.MinutesAgo_other" = "";
 "WallpaperPreview.Plain" = "Plain";
 "_NS:103.title" = "Edit";
 "_NS:167.title" = "Window";

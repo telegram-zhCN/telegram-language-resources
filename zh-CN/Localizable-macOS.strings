@@ -363,13 +363,12 @@
 "Login.codePlaceholder" = "验证码";
 
 
-//"Login.QR.Title" = "Login Telegram by QR Code";
-//"Login.QR.Help1" = "Open Telegram on your phone";
-//"Login.QR.Help2" = "Open **Settings** and select **Devices**";
-//"Login.QR.Help3" = "Point your phone to this screen to capture the code";
-//"Login.QR.Cancel" = "Login by phone Number";
-//
-//"Login.QR.Login" = "Login by QR Code";
+
+
+
+
+
+
 
 "Login.EnterCodeFromApp" = "请输入您从其他 Telegram 客户端收到的验证码。";
 "Login.SendSmsIfNotReceivedAppCode" = "没有收到验证码？";
@@ -3422,25 +3421,25 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//"Updated.JustNow" = "updated just now";
+//"Updated.MinutesAgo_countable" = "%d";
+//"Updated.MinutesAgo_zero" = "updated %d minutes ago";
+//"Updated.MinutesAgo_one" = "updated %d minute ago";
+//"Updated.MinutesAgo_two" = "updated %d minutes ago";
+//"Updated.MinutesAgo_few" = "updated %d minutes ago";
+//"Updated.MinutesAgo_many" = "updated %d minutes ago";
+//"Updated.MinutesAgo_any" = "updated %d minutes ago";
+//
+//"Updated.HoursAgo_countable" = "%d";
+//"Updated.HoursAgo_zero" = "updated %d hours ago";
+//"Updated.HoursAgo_one" = "updated %d hour ago";
+//"Updated.HoursAgo_two" = "updated %d hours ago";
+//"Updated.HoursAgo_few" = "updated %d hours ago";
+//"Updated.HoursAgo_many" = "updated %d hours ago";
+//"Updated.HoursAgo_any" = "updated %d hours ago";
+//"Updated.YesterdayAt" = "updated yesterday at %@";
+//"Updated.AtDate" = "updated %@";
+//"Updated.TodayAt" = "updated today at %@";
 
 
 
