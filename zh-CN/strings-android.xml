@@ -199,7 +199,7 @@
     <string name="MarkAsUnread">标记为未读</string>
     <string name="MarkAsRead">标记为已读</string>
     <string name="MarkAllAsRead">全部标记为已读</string>
-    <string name="HideAboveTheList">Hide above the list</string>
+    <string name="HideAboveTheList">隐藏于列表上方</string>
     <string name="PinInTheList">Pin in the list</string>
     <string name="Bold">粗体</string>
     <string name="Italic">斜体</string>
@@ -878,7 +878,7 @@
     <string name="SearchEmojiHint">搜索 emoji</string>
     <string name="URL">链接</string>
     <string name="MapPreviewProvider">地图预览提供商</string>
-    <string name="MapPreviewProviderTitle">Map preview provider</string>
+    <string name="MapPreviewProviderTitle">地图预览提供商</string>
     <string name="MapPreviewProviderTelegram">Telegram</string>
     <string name="MapPreviewProviderGoogle">Google</string>
     <string name="MapPreviewProviderYandex">Yandex</string>
@@ -1217,7 +1217,7 @@
     <string name="AutoNightScheduled">计划时段</string>
     <string name="AutoNightAdaptive">自适应</string>
     <string name="AutoNightSchedule">时间段</string>
-    <string name="AutoNightSystemDefault">System Default</string>
+    <string name="AutoNightSystemDefault">系统默认</string>
     <string name="AutoNightLocation">使用当地日落/日出时间</string>
     <string name="AutoNightUpdateLocation">更新位置</string>
     <string name="AutoNightUpdateLocationInfo">计算日落 &amp; 日出时间需要检测一次您的粗略位置。请注意，此位置仅会本地存储在您的设备上。\n\n日落：%1$s\n日出：%2$s</string>
