@@ -200,7 +200,7 @@
     <string name="MarkAsRead">标记为已读</string>
     <string name="MarkAllAsRead">全部标记为已读</string>
     <string name="HideAboveTheList">隐藏于列表上方</string>
-    <string name="PinInTheList">Pin in the list</string>
+    <string name="PinInTheList">在列表中置顶</string>
     <string name="Bold">粗体</string>
     <string name="Italic">斜体</string>
     <string name="Mono">等宽</string>
@@ -1094,7 +1094,7 @@
     <string name="ShareContact">分享联系人</string>
     <string name="AddContact">添加联系人</string>
     <string name="AddContactTitle">添加联系人</string>
-    <string name="ContactNotRegisteredTitle">Invite to Telegram</string>
+    <string name="ContactNotRegisteredTitle">邀请好友</string>
     <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
     <string name="Invite">邀请</string>
     <string name="BlockContact">屏蔽用户</string>
@@ -1888,7 +1888,7 @@
     <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
     <string name="AreYouSureSessionsTitle">Terminate sessions</string>
     <string name="AreYouSureSessionTitle">Terminate session</string>
-    <string name="Terminate">Terminate</string>
+    <string name="Terminate">结束</string>
     <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
     <string name="TerminateAllSessions">注销除本机外所有设备</string>
     <string name="UnofficialApp">非官方应用</string>
@@ -2412,7 +2412,7 @@
     <string name="NoHandleAppInstalled">您没有安装可执行 %1$s 类型文件的应用，请先安装一个再继续</string>
     <string name="InviteUser">此用户还未加入 Telegram ，是否发送邀请？</string>
     <string name="AreYouSure">您确定吗？</string>
-    <string name="AddToTheGroupAlertTitle">Add bot</string>
+    <string name="AddToTheGroupAlertTitle">添加机器人</string>
     <string name="AddToTheGroupAlertText">Do you want to add **%1$s** to the group **%2$s**?</string>
     <string name="AddToTheGroupForwardCount">要转发的最近消息数：</string>
     <string name="AddToTheGroup">添加 %1$s 到此群组？</string>
@@ -2477,7 +2477,7 @@
     <string name="DeleteMessagesOptionAlso">同时为 %1$s 删除</string>
     <string name="ClearHistoryOptionAlso">同时为 %1$s 清空历史记录</string>
     <string name="SendMessageTitle">发送消息</string>
-    <string name="SendMessagesToGroupText">Do you want to send this message to **%1$s**?</string>
+    <string name="SendMessagesToGroupText">您要把这条消息发送给 **%1$s** 吗？</string>
     <string name="SendGameToGroupText">Do you want to share this game to **%1$s**?</string>
     <string name="SendContactToGroupText">Do you want to send this contact to **%1$s**?</string>
     <string name="NoUsernameFound">没有 Telegram 帐户使用此用户名。</string>
