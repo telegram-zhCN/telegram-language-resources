@@ -115,6 +115,7 @@
     <string name="PaymentPhoneEmailToProvider">手机号码和邮箱地址将作为付款信息发送给 %1$s。</string>
     <!--chats view-->
     <string name="NewConversationShortcut">新建对话</string>
+    <string name="AutoNightModeOff">Auto-Night Mode is off</string>
     <string name="Settings">设置</string>
     <string name="Contacts">联系人</string>
     <string name="NewGroup">新建群组</string>
@@ -661,6 +662,7 @@
     <string name="ReverseOrder">倒序</string>
     <!--documents view-->
     <string name="SelectFile">选择文件</string>
+    <string name="SearchRecentFiles">Search Recent Files</string>
     <string name="FreeOfTotal">%1$s 可用，共 %2$s</string>
     <string name="UnknownError">未知错误</string>
     <string name="AccessError">访问出错</string>
@@ -672,8 +674,15 @@
     <string name="SystemRoot">系统根目录</string>
     <string name="SdCard">SD 卡</string>
     <string name="Folder">文件夹</string>
+    <string name="RecentFiles">Recent files</string>
+    <string name="NoFilesFound">No results found</string>
+    <string name="NoFilesFoundInfo">There are no matches with **%1$s** in current directory.</string>
+    <string name="NoFilesInfo">This folder is empty.</string>
     <string name="GalleryInfo">发送原图</string>
     <string name="MusicInfo">发送音乐文件</string>
+    <string name="AppFolderInfo">Browse the app\'s folder</string>
+    <string name="InternalFolderInfo">Browse your file system</string>
+    <string name="ExternalFolderInfo">Browse your external storage</string>
     <!--group stickers-->
     <string name="GroupStickers">群组贴纸包</string>
     <string name="ChooseFromYourStickers">从你添加的贴纸包中选择</string>
@@ -889,6 +898,7 @@
     <string name="MessageNotFound">消息不存在</string>
     <string name="SlowModeHint">慢速模式已启用。您可以\n在%1$s后发送下一条消息</string>
     <string name="TapForVideo">点按照相，按住录像</string>
+    <string name="TapToViewAsList">Tap to view as a list.</string>
     <string name="SendWithoutSound">静音发送</string>
     <string name="MessageScheduleSend">立刻发送</string>>
     <string name="MessageScheduleEditTime">编辑发送时间</string>
@@ -896,13 +906,16 @@
     <string name="Schedule">定时发送</string>
     <string name="ScheduleMessage">定时发送</string>
     <string name="ScheduledMessages">定时消息</string>
+    <string name="ScheduleWhenOnline">Send when %1$s comes online</string>
     <string name="Reminders">提醒</string>
     <string name="SetReminder">定时提醒</string>
     <string name="MessageScheduledOn">在 %1$s 发送</string>
+    <string name="MessageScheduledUntilOnline">Scheduled until online</string>
     <string name="MessageScheduledLimitReached">抱歉，您只能同时设置 100 条定时消息。</string>
     <string name="MessageScheduledBotAction">This action will become available after the message is published.</string>
     <string name="MessageScheduledVote">投票功能将在消息发布后正式开始。</string>
     <string name="MessageScheduledReminderNotification">&#128197; 备忘录</string>
+    <string name="OneResult">1 result</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -968,6 +981,10 @@
     <string name="NotificationGroupFew">%1$s 发送了 %3$s 到群组 %2$s</string>
     <string name="NotificationGroupAlbum">%1$s 发送了一组图片到群组 %2$s</string>
     <string name="NotificationGroupForwardedFew">%1$s 转发了 %3$s 到群组 %2$s</string>
+    <string name="NotificationHiddenName">Telegram</string>
+    <string name="NotificationHiddenChatName">Telegram</string>
+    <string name="NotificationHiddenChatUserName">User</string>
+    <string name="NotificationHiddenMessage">New message</string>
     <string name="Reply">回复</string>
     <string name="ReplyToGroup">回复 %1$s</string>
     <string name="ReplyToUser">回复给 %1$s</string>
@@ -1014,6 +1031,8 @@
     <string name="SelectContact">选择联系人</string>
     <string name="SelectContacts">选择联系人</string>
     <string name="ContactShare">分享联系人</string>
+    <string name="ShareContactTitle">Share Contact</string>
+    <string name="AddContactPhonebookTitle">Add Contact</string>
     <string name="NoContacts">还没有联系人</string>
     <string name="InviteText2">嗨，我在使用 Telegram 聊天。加入我们吧！从这里下载：%1$s</string>
     <string name="TodayAt">于</string>
@@ -1306,6 +1325,12 @@
     <string name="ChooseTheme">选择主题</string>
     <string name="ExportTheme">导出</string>
     <string name="Create">创建</string>
+    <string name="ColorPickerMainColor">Main Color</string>
+    <string name="ColorPickerBackground">Background</string>
+    <string name="ColorPickerMyMessages">My Messages</string>
+    <string name="ColorPickerResetAll">RESET ALL</string>
+    <string name="ColorPickerReset">RESET</string>
+    <string name="ChangeWallpaperToColor">Are you sure you want to change your chat wallpaper to a color?</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlertTitle">重置所有通知</string>
@@ -1314,6 +1339,7 @@
     <string name="AskAQuestion">向我们提问</string>
     <string name="EnableAnimations">动画切换效果</string>
     <string name="ChatSettings">聊天设置</string>
+    <string name="Devices">Devices</string>
     <string name="SettingsHelp">帮助</string>
     <string name="Account">帐号</string>
     <string name="Unblock">取消屏蔽</string>
@@ -1348,6 +1374,7 @@
     <string name="ColorDark">暗色</string>
     <string name="ColorPink">粉色</string>
     <string name="FontSize">字体大小</string>
+    <string name="FontType">Font Type</string>
     <string name="ColorViolet">紫色</string>
     <string name="ColorOrange">橙色</string>
     <string name="NotificationsLedInfo">LED 指示灯是在部分设备上能够提示新消息的闪烁的小灯。</string>
@@ -1589,6 +1616,7 @@
     <string name="ChangeLanguageLater">您可以稍后在设置中更改您的语言。</string>
     <string name="ChooseYourLanguage">选择您的语言</string>
     <string name="ChooseYourLanguageOther">其它</string>
+    <string name="PasteFromClipboard">Paste from clipboard</string>
     <string name="ProxySettings">代理设置</string>
     <string name="ProxyDetails">代理信息</string>
     <string name="Proxy">代理</string>
@@ -1667,6 +1695,15 @@
     <string name="DistanceUnitsAutomatic">自动</string>
     <string name="DistanceUnitsKilometers">千米</string>
     <string name="DistanceUnitsMiles">英里</string>
+    <string name="AuthAnotherClient">Login by QR Code</string>
+    <string name="AuthAnotherClientScan">Scan QR Code</string>
+    <string name="AuthAnotherClientTokenError">Token invalid or already expired.</string>
+    <string name="AuthAnotherClientNotFound">No auth token found</string>
+    <string name="AuthAnotherClientOk">Auth successfull</string>
+    <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
+    <string name="AuthAnotherClientInfo1">*Download Telegram* on your computer.</string>
+    <string name="AuthAnotherClientInfo2">Run Telegram Desktop to get the QR code.</string>
+    <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">Clear local database</string>
@@ -1971,8 +2008,12 @@
     <string name="KMetersAway2">%1$s 千米远</string>
     <string name="FootsAway">%1$s 英尺远</string>
     <string name="MilesAway">%1$s 英里远</string>
+    <string name="Directions">Directions</string>
+    <string name="NoPlacesFound">No places found</string>
+    <string name="NoPlacesFoundInfo">There are no matches with **%1$s** near you.</string>
     <string name="SendLocation">发送我当前的位置</string>
     <string name="SendLiveLocation">分享我的实时位置...</string>
+    <string name="SendLiveLocationMenu">Share my Live Location</string>
     <string name="StopLiveLocation">停止位置共享</string>
     <string name="StopLiveLocationAlertToTitle">Stop location sharing</string>
     <string name="StopLiveLocationAlertToUserText">Do you want to stop sharing your live location with **%1$s**?</string>
@@ -1984,8 +2025,8 @@
     <string name="SharedPlace">地点</string>
     <string name="AccurateTo">精确到 %1$s</string>
     <string name="AwayTo">%1$s 远</string>
-    <string name="NearbyPlaces">或选择一个位置</string>
-    <string name="ShowNearbyPlaces">向上拖动查看附近地点</string>
+    <string name="NearbyVenue">Or choose a venue</string>
+    <string name="TapToSendLocation">Tap to send this location</string>
     <string name="LiveLocations">实时位置</string>
     <string name="SendLiveLocationFor15m">15分钟</string>
     <string name="SendLiveLocationFor1h">1小时</string>
@@ -2019,6 +2060,8 @@
     <string name="ChatSetThisLocation">设置为此地点</string>
     <string name="ChatSetLocationInfo">人们可以在“附近的人”中找到您的群组。</string>
     <!--photo gallery view-->
+    <string name="ShowAsList">Show as list</string>
+    <string name="ShowAsGrid">Show as grid</string>
     <string name="ShowAllMedia">显示所有图片和视频</string>
     <string name="ShowAllFiles">显示所有文件</string>
     <string name="TapToDownload">点按下载</string>
@@ -2036,7 +2079,7 @@
     <string name="PleaseStreamDownload">请等待视频下载完毕</string>
     <string name="VideoDoesNotSupportStreaming">这个视频没有针对在线播放进行优化，你可能要完全下载它才能播放。</string>
     <string name="CantPlayVideo">无法播放此视频。要尝试使用外部播放器播放吗？</string>
-    <string name="NoRecentPhotos">没有最近的图片</string>
+    <string name="NoRecentSearches">No recent searches</string>
     <string name="ImagesTab">图片</string>
     <string name="GifsTab">GIF</string>
     <string name="NoRecentGIFs">沒有最近使用的 GIF</string>
@@ -2772,6 +2815,8 @@
     
     
     
+    
+    
     <!--plural-->
     <string name="DeleteBackground_zero">Delete %1$d backgrounds</string>
     <string name="DeleteBackground_one">Delete background</string>
@@ -3146,6 +3191,12 @@
     <string name="ThemeInstallCount_few">%1$d 人正在使用该主题</string>
     <string name="ThemeInstallCount_many">%1$d 人正在使用该主题</string>
     <string name="ThemeInstallCount_other">%1$d 人正在使用该主题</string>
+    <string name="CountOfResults_zero">%1$d of %2$d results</string>
+    <string name="CountOfResults_one">%1$d of %2$d results</string>
+    <string name="CountOfResults_two">%1$d of %2$d results</string>
+    <string name="CountOfResults_few">%1$d of %2$d results</string>
+    <string name="CountOfResults_many">%1$d of %2$d results</string>
+    <string name="CountOfResults_other">%1$d of %2$d results</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
@@ -3230,6 +3281,8 @@
     <string name="AccActionRecordVideo">录制视频</string>
     <string name="AccSwipeForArchive">下滑查看归档对话</string>
     <string name="AccReleaseForArchive">松开查看归档对话</string>
+    <string name="AccDescrVideoCompressLow">Smaller size</string>
+    <string name="AccDescrVideoCompressHigh">Higher quality</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
@@ -3289,11 +3342,13 @@
   <string name="LocalDatabaseClear">清除缓存的消息记录？</string>
   <string name="MetersAway">米以外</string>
   <string name="MobileUsage">移动数据使用情况</string>
+  <string name="NearbyPlaces">或选择一个位置</string>
   <string name="NeverAllowPlaceholder">从不允许...</string>
   <string name="NeverShareWithPlaceholder">从不共享给...</string>
   <string name="NoAudio">请添加音乐到设备上的歌曲库，它们将会在这里显示。</string>
   <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
   <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
+  <string name="NoRecentPhotos">没有最近的图片</string>
   <string name="NotificationActionPinnedContact">%1$s 在群组 %2$s 置顶了一条联系人信息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 置顶了一条联系人信息</string>
   <string name="NotificationActionPinnedPoll">%1$s 在群组 %2$s 置顶了一项投票</string>
@@ -3330,6 +3385,7 @@
   <string name="SetAdminsNotAllInfo">只有管理员能够添加和移除成员、置顶消息与编辑群组名称和头像。</string>
   <string name="SetAdminsTitle">管理员</string>
   <string name="SharedMediaTitle">分享的图片和视频</string>
+  <string name="ShowNearbyPlaces">向上拖动查看附近地点</string>
   <string name="StopLiveLocationAlertAll">您确定要停止所有实时位置更新吗？</string>
   <string name="StopLiveLocationAlertToGroup">您确定要停止更新与 %1$s 共享的实时位置吗？</string>
   <string name="StopLiveLocationAlertToUser">您确定要停止更新与 %1$s 共享的实时位置吗？</string>

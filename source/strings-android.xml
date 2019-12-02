@@ -115,6 +115,7 @@
     <string name="PaymentPhoneEmailToProvider">Phone and email address will be passed to %1$s as billing info.</string>
     <!--chats view-->
     <string name="NewConversationShortcut">New conversation</string>
+    <string name="AutoNightModeOff">Auto-Night Mode is off</string>
     <string name="Settings">Settings</string>
     <string name="Contacts">Contacts</string>
     <string name="NewGroup">New Group</string>
@@ -661,6 +662,7 @@
     <string name="ReverseOrder">Reverse order</string>
     <!--documents view-->
     <string name="SelectFile">Select File</string>
+    <string name="SearchRecentFiles">Search Recent Files</string>
     <string name="FreeOfTotal">Free %1$s of %2$s</string>
     <string name="UnknownError">Unknown error</string>
     <string name="AccessError">Access error</string>
@@ -672,8 +674,15 @@
     <string name="SystemRoot">System Root</string>
     <string name="SdCard">SD Card</string>
     <string name="Folder">Folder</string>
+    <string name="RecentFiles">Recent files</string>
+    <string name="NoFilesFound">No results found</string>
+    <string name="NoFilesFoundInfo">There are no matches with **%1$s** in current directory.</string>
+    <string name="NoFilesInfo">This folder is empty.</string>
     <string name="GalleryInfo">To send images without compression</string>
     <string name="MusicInfo">To send music files</string>
+    <string name="AppFolderInfo">Browse the app\'s folder</string>
+    <string name="InternalFolderInfo">Browse your file system</string>
+    <string name="ExternalFolderInfo">Browse your external storage</string>
     <!--group stickers-->
     <string name="GroupStickers">Group Stickers</string>
     <string name="ChooseFromYourStickers">Choose from your stickers</string>
@@ -889,6 +898,7 @@
     <string name="MessageNotFound">Message doesn\'t exist</string>
     <string name="SlowModeHint">Slow Mode is enabled. You can send\nyour next message in %1$s</string>
     <string name="TapForVideo">Tap for photo, hold for video</string>
+    <string name="TapToViewAsList">Tap to view as a list.</string>
     <string name="SendWithoutSound">Send without sound</string>
     <string name="MessageScheduleSend">Send Now</string>>
     <string name="MessageScheduleEditTime">Reschedule</string>
@@ -896,13 +906,16 @@
     <string name="Schedule">Schedule</string>
     <string name="ScheduleMessage">Schedule message</string>
     <string name="ScheduledMessages">Scheduled Messages</string>
+    <string name="ScheduleWhenOnline">Send when %1$s comes online</string>
     <string name="Reminders">Reminders</string>
     <string name="SetReminder">Set a reminder</string>
     <string name="MessageScheduledOn">Scheduled for %1$s</string>
+    <string name="MessageScheduledUntilOnline">Scheduled until online</string>
     <string name="MessageScheduledLimitReached">Sorry, you can not schedule more than 100 messages.</string>
     <string name="MessageScheduledBotAction">This action will become available after the message is published.</string>
     <string name="MessageScheduledVote">Voting will become available after the message is published.</string>
     <string name="MessageScheduledReminderNotification">&#128197; Reminder</string>
+    <string name="OneResult">1 result</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -968,6 +981,10 @@
     <string name="NotificationGroupFew">%1$s sent %3$s to the group %2$s</string>
     <string name="NotificationGroupAlbum">%1$s sent an album to the group %2$s</string>
     <string name="NotificationGroupForwardedFew">%1$s forwarded %3$s to the group %2$s</string>
+    <string name="NotificationHiddenName">Telegram</string>
+    <string name="NotificationHiddenChatName">Telegram</string>
+    <string name="NotificationHiddenChatUserName">User</string>
+    <string name="NotificationHiddenMessage">New message</string>
     <string name="Reply">Reply</string>
     <string name="ReplyToGroup">Reply to %1$s</string>
     <string name="ReplyToUser">Reply to %1$s</string>
@@ -1014,6 +1031,8 @@
     <string name="SelectContact">Select Contact</string>
     <string name="SelectContacts">Select Contacts</string>
     <string name="ContactShare">SHARE CONTACT</string>
+    <string name="ShareContactTitle">Share Contact</string>
+    <string name="AddContactPhonebookTitle">Add Contact</string>
     <string name="NoContacts">No contacts yet</string>
     <string name="InviteText2">Hey, I\'m using Telegram to chat. Join me! Download it here: %1$s</string>
     <string name="TodayAt">at</string>
@@ -1306,6 +1325,12 @@
     <string name="ChooseTheme">Choose theme</string>
     <string name="ExportTheme">Export</string>
     <string name="Create">Create</string>
+    <string name="ColorPickerMainColor">Main Color</string>
+    <string name="ColorPickerBackground">Background</string>
+    <string name="ColorPickerMyMessages">My Messages</string>
+    <string name="ColorPickerResetAll">RESET ALL</string>
+    <string name="ColorPickerReset">RESET</string>
+    <string name="ChangeWallpaperToColor">Are you sure you want to change your chat wallpaper to a color?</string>
     <!--settings view-->
     <string name="ResetNotificationsText">All notification settings reset to default</string>
     <string name="ResetNotificationsAlertTitle">Reset all notifications</string>
@@ -1314,6 +1339,7 @@
     <string name="AskAQuestion">Ask a Question</string>
     <string name="EnableAnimations">Enable Animations</string>
     <string name="ChatSettings">Chat Settings</string>
+    <string name="Devices">Devices</string>
     <string name="SettingsHelp">Help</string>
     <string name="Account">Account</string>
     <string name="Unblock">Unblock</string>
@@ -1348,6 +1374,7 @@
     <string name="ColorDark">Dark</string>
     <string name="ColorPink">Pink</string>
     <string name="FontSize">Font Size</string>
+    <string name="FontType">Font Type</string>
     <string name="ColorViolet">Violet</string>
     <string name="ColorOrange">Orange</string>
     <string name="NotificationsLedInfo">LED is a small blinking light on some devices that is used to indicate new messages.</string>
@@ -1589,6 +1616,7 @@
     <string name="ChangeLanguageLater">You can change your language later in Settings.</string>
     <string name="ChooseYourLanguage">Choose your language</string>
     <string name="ChooseYourLanguageOther">Other</string>
+    <string name="PasteFromClipboard">Paste from clipboard</string>
     <string name="ProxySettings">Proxy Settings</string>
     <string name="ProxyDetails">Proxy Details</string>
     <string name="Proxy">Proxy</string>
@@ -1667,6 +1695,15 @@
     <string name="DistanceUnitsAutomatic">Automatic</string>
     <string name="DistanceUnitsKilometers">Kilometers</string>
     <string name="DistanceUnitsMiles">Miles</string>
+    <string name="AuthAnotherClient">Login by QR Code</string>
+    <string name="AuthAnotherClientScan">Scan QR Code</string>
+    <string name="AuthAnotherClientTokenError">Token invalid or already expired.</string>
+    <string name="AuthAnotherClientNotFound">No auth token found</string>
+    <string name="AuthAnotherClientOk">Auth successfull</string>
+    <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
+    <string name="AuthAnotherClientInfo1">*Download Telegram* on your computer.</string>
+    <string name="AuthAnotherClientInfo2">Run Telegram Desktop to get the QR code.</string>
+    <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClearTextTitle">Clear local database</string>
@@ -1971,8 +2008,12 @@
     <string name="KMetersAway2">%1$s km away</string>
     <string name="FootsAway">%1$s ft away</string>
     <string name="MilesAway">%1$s mi away</string>
+    <string name="Directions">Directions</string>
+    <string name="NoPlacesFound">No places found</string>
+    <string name="NoPlacesFoundInfo">There are no matches with **%1$s** near you.</string>
     <string name="SendLocation">Send my current location</string>
     <string name="SendLiveLocation">Share My Live Location for...</string>
+    <string name="SendLiveLocationMenu">Share my Live Location</string>
     <string name="StopLiveLocation">Stop Sharing Location</string>
     <string name="StopLiveLocationAlertToTitle">Stop location sharing</string>
     <string name="StopLiveLocationAlertToUserText">Do you want to stop sharing your live location with **%1$s**?</string>
@@ -1984,8 +2025,8 @@
     <string name="SharedPlace">Place</string>
     <string name="AccurateTo">Accurate to %1$s</string>
     <string name="AwayTo">%1$s away</string>
-    <string name="NearbyPlaces">Or choose a place</string>
-    <string name="ShowNearbyPlaces">Pull up to see places nearby</string>
+    <string name="NearbyVenue">Or choose a venue</string>
+    <string name="TapToSendLocation">Tap to send this location</string>
     <string name="LiveLocations">Live locations</string>
     <string name="SendLiveLocationFor15m">for 15 minutes</string>
     <string name="SendLiveLocationFor1h">for 1 hour</string>
@@ -2019,6 +2060,8 @@
     <string name="ChatSetThisLocation">Set this location</string>
     <string name="ChatSetLocationInfo">People will be able to find your group in the \"People Nearby\" section.</string>
     <!--photo gallery view-->
+    <string name="ShowAsList">Show as list</string>
+    <string name="ShowAsGrid">Show as grid</string>
     <string name="ShowAllMedia">Show all media</string>
     <string name="ShowAllFiles">Show all files</string>
     <string name="TapToDownload">Tap to download</string>
@@ -2036,7 +2079,7 @@
     <string name="PleaseStreamDownload">Please wait for the video to be fully downloaded.</string>
     <string name="VideoDoesNotSupportStreaming">This video is not optimized for streaming. You may need to download it in full to play it.</string>
     <string name="CantPlayVideo">App was unable to play this video. Try to play it with external player?</string>
-    <string name="NoRecentPhotos">No recent photos</string>
+    <string name="NoRecentSearches">No recent searches</string>
     <string name="ImagesTab">IMAGES</string>
     <string name="GifsTab">GIFS</string>
     <string name="NoRecentGIFs">No recent GIFs</string>
@@ -2772,6 +2815,8 @@
     
     
     
+    
+    
     <!--plural-->
     <string name="DeleteBackground_zero">Delete %1$d backgrounds</string>
     <string name="DeleteBackground_one">Delete background</string>
@@ -3146,6 +3191,12 @@
     <string name="ThemeInstallCount_few">%1$d people are using this theme</string>
     <string name="ThemeInstallCount_many">%1$d people are using this theme</string>
     <string name="ThemeInstallCount_other">%1$d people are using this theme</string>
+    <string name="CountOfResults_zero">%1$d of %2$d results</string>
+    <string name="CountOfResults_one">%1$d of %2$d results</string>
+    <string name="CountOfResults_two">%1$d of %2$d results</string>
+    <string name="CountOfResults_few">%1$d of %2$d results</string>
+    <string name="CountOfResults_many">%1$d of %2$d results</string>
+    <string name="CountOfResults_other">%1$d of %2$d results</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">Group</string>
     <string name="AccDescrChannel">Channel</string>
@@ -3230,6 +3281,8 @@
     <string name="AccActionRecordVideo">Record video</string>
     <string name="AccSwipeForArchive">Swipe down for archive</string>
     <string name="AccReleaseForArchive">Release for archive</string>
+    <string name="AccDescrVideoCompressLow">Smaller size</string>
+    <string name="AccDescrVideoCompressHigh">Higher quality</string>
     <!--date formatters-->
     <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
     <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
@@ -3289,11 +3342,13 @@
   <string name="LocalDatabaseClear">Clear cached text messages?</string>
   <string name="MetersAway">m away</string>
   <string name="MobileUsage">Mobile Data Usage</string>
+  <string name="NearbyPlaces">Or choose a place</string>
   <string name="NeverAllowPlaceholder">Never allow...</string>
   <string name="NeverShareWithPlaceholder">Never share with users...</string>
   <string name="NoAudio">Please add files to the music library on your device to see them here.</string>
   <string name="NoBlockedChannel">Banned users are removed from the channel and can only come back if added by an admin. Invite links don\'t work for them.</string>
   <string name="NoBlockedGroup">Banned users are removed from the group and can only come back if added by an admin. Invite links don\'t work for them.</string>
+  <string name="NoRecentPhotos">No recent photos</string>
   <string name="NotificationActionPinnedContact">%1$s pinned a contact in the group %2$s</string>
   <string name="NotificationActionPinnedContactChannel">%1$s pinned a contact</string>
   <string name="NotificationActionPinnedPoll">%1$s pinned a poll in the group %2$s</string>
@@ -3330,6 +3385,7 @@
   <string name="SetAdminsNotAllInfo">Only admins can add and remove members, pin messages, edit name and photo of the group.</string>
   <string name="SetAdminsTitle">Chat Admins</string>
   <string name="SharedMediaTitle">Shared Media</string>
+  <string name="ShowNearbyPlaces">Pull up to see places nearby</string>
   <string name="StopLiveLocationAlertAll">Are you sure you want to stop sharing your live location?</string>
   <string name="StopLiveLocationAlertToGroup">Are you sure you want to stop sharing live location with %1$s?</string>
   <string name="StopLiveLocationAlertToUser">Are you sure you want to stop sharing live location with %1$s?</string>
