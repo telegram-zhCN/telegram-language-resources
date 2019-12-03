@@ -1325,7 +1325,7 @@
     <string name="ChooseTheme">选择主题</string>
     <string name="ExportTheme">导出</string>
     <string name="Create">创建</string>
-    <string name="ColorPickerMainColor">Main Color</string>
+    <string name="ColorPickerMainColor">Accent Color</string>
     <string name="ColorPickerBackground">Background</string>
     <string name="ColorPickerMyMessages">My Messages</string>
     <string name="ColorPickerResetAll">RESET ALL</string>

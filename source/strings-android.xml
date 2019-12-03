@@ -1325,7 +1325,7 @@
     <string name="ChooseTheme">Choose theme</string>
     <string name="ExportTheme">Export</string>
     <string name="Create">Create</string>
-    <string name="ColorPickerMainColor">Main Color</string>
+    <string name="ColorPickerMainColor">Accent Color</string>
     <string name="ColorPickerBackground">Background</string>
     <string name="ColorPickerMyMessages">My Messages</string>
     <string name="ColorPickerResetAll">RESET ALL</string>
