@@ -355,7 +355,7 @@
     <string name="ChannelCantOpenBanned">Unfortunately, you were banned from participating in public groups.</string>
     <string name="ChannelCantOpenNa">Sorry, this chat is no longer accessible.</string>
     <string name="ChannelAddTo">Add %1$s to the channel?</string>
-    <string name="ChannelUserLeftError">Sorry, this user decided to leave this channel, so you cannot add them back here.</string>
+    <string name="ChannelUserLeftError">Sorry, if a person is no longer part of a channel, you need to be in their Telegram contacts in order to add them back.\n\nNote that they could still join via the channel\'s invite link as long as they are not in the Removed users list.</string>
     <string name="ChannelUserCantAdd">Sorry, you can\'t add this user to channels.</string>
     <string name="ChannelUserCantAdmin">Sorry, too many admins in this channel.</string>
     <string name="ChannelUserCantBot">Sorry, too many bots in this channel.</string>
@@ -748,7 +748,7 @@
     <string name="EncryptedDescription2">Leave no trace on our servers</string>
     <string name="EncryptedDescription3">Have a self-destruct timer</string>
     <string name="EncryptedDescription4">Do not allow forwarding</string>
-    <string name="YouWereKicked">you were removed from the group</string>
+    <string name="YouWereKicked">you were removed</string>
     <string name="YouLeft">You left this group</string>
     <string name="DeleteThisGroup">Delete this group</string>
     <string name="DeleteThisChat">Delete this chat</string>

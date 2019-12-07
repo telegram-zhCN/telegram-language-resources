@@ -2343,7 +2343,7 @@
 "PrivacyAndSecurity.ClearCloudDraftsHeader" = "CHATS";
 "PrivacyAndSecurity.ClearCloudDrafts" = "Delete All Cloud Drafts";
 
-"PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "Are you sure you want to clear all cloud drafts?";
+"PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "Are you sure you want to delete all cloud drafts?";
 
 
 "Location.Send.MyLocation" = "Send My Current Location";

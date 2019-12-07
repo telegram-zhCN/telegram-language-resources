@@ -446,7 +446,7 @@
 "Conversation.ForwardTitle" = "Forward";
 "Conversation.ForwardChats" = "Chats";
 "Conversation.ForwardContacts" = "Contacts";
-"Conversation.StatusKickedFromGroup" = "you were removed from the group";
+"Conversation.StatusKickedFromGroup" = "you were removed";
 "Conversation.StatusLeftGroup" = "you have left the group";
 "Conversation.StatusTyping" = "typing";
 "Conversation.Call" = "Call";
