@@ -5145,6 +5145,14 @@ Any member of this group will be able to see messages in the channel.";
 "AuthSessions.DevicesTitle" = "Devices";
 "AuthSessions.AddDevice" = "Add Device";
 
+
+
+
+
+
+
+
+
 "Map.SendThisPlace" = "Send This Place";
 "Map.SetThisPlace" = "Set This Place";
 "Map.AddressOnMap" = "Address On Map";
@@ -5154,6 +5162,25 @@ Any member of this group will be able to see messages in the channel.";
 "Map.HomeAndWorkTitle" = "Home & Work Addresses";
 "Map.HomeAndWorkInfo" = "Telegram uses the Home and Work addresses from your Contact Card.\n\nKeep your Contact Card up to date for quick access to sending Home and Work addresses.";
 "Map.SearchNoResultsDescription" = "There were no results for \"%@\".\nTry a new search.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
