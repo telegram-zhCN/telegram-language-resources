@@ -1728,8 +1728,8 @@
   <string name="AppUpdateOk">Update</string>
   <string name="ProxySponsor">Proxy sponsor</string>
   <string name="message_via">" via "</string>
-  <string name="message_adminSign">"  admin"</string>
   <string name="message_adminSignPlain">admin</string>
+  <string name="message_ownerSign">owner</string>
   <string name="WhoCanCallMe">Who can call me</string>
   <string name="UseP2PWith">Use peer-to-peer with</string>
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
@@ -2536,13 +2536,6 @@
   <string name="ReadAllChatsDone_one">Marked %1$s chat as read</string>
   <string name="ReadAllChatsDone_other">Marked %1$s chats as read</string>
 
-  <string name="LinkStateNone">%1$s does not see your phone number.</string>
-  <string name="LinkStateKnowsNumber">%1$s can see your phone number.</string>
-  <string name="LinkStateKnowsNumberContact">%1$s can see your phone number. You have them in your contacts list.</string>
-  <string name="LinkStateKnowsNumberMutual">%1$s and you can see each other\'s phone number.</string>
-  <string name="LinkStateContact">%1$s has your phone number in their contacts list.</string>
-  <string name="LinkStateContactMutual">%1$s and you have each other\'s phone number in the contacts list.</string>
-
   <string name="PhoneNumberUnknown">Unknown</string>
 
   <string name="SignedOutAs">Signed out as %1$s</string>
@@ -2696,6 +2689,69 @@
   <string name="LastEditTime">Last edit: %1$s</string>
   <string name="ResendXMessages_one">Resend %1$s message</string>
   <string name="ResendXMessages_other">Resend %1$s messages</string>
+  <string name="EmojiUpdateUnavailable">Emoji update unavailable. Please try again later.</string>
+
+  <string name="ContactStateMutual">%1$s and you have added each other in the contacts list.</string>
+  <string name="ContactStateOutgoing">%1$s is in your contacts list.</string>
+
+  <string name="ContactStateMutualNoPhone">%1$s and you have each other in the contacts list, but they do not share the phone number with you.</string>
+  <string name="ContactStateOutgoingNoPhone">You do not have access to %1$s\'s phone number.</string>
+
+  <string name="Archive">Archive</string>
+  <string name="ArchiveTitle">Archived Chats</string>
+  <string name="Unarchive">Unarchive</string>
+
+  <string name="ArchiveChat">Archive Chat</string>
+  <string name="UnarchiveChat">Unarchive Chat</string>
+
+  <string name="ReportLocation">Group unrelated to location?</string>
+  <string name="ReportLocationTitle">Report unrelated group</string>
+  <string name="ReportLocationDesc">Please let us know if this group is not related to this location:\n\n%1$s</string>
+  <string name="ReportLocationAction">Report</string>
+  <string name="SharePhoneNumber">Share Phone Number</string>
+  <string name="SharePhoneNumberAction">Share My Phone Number</string>
+  <string name="PhoneNumber">Phone Number</string>
+  <string name="WhoCanSeePhone">Who can see your Phone Number?</string>
+  <string name="WhoCanSeePhoneInfo">Users who have your number saved in their contacts will also see it on Telegram.</string>
+
+  <string name="PrivacyShowNumberNobody">Nobody can see your phone number</string>
+  <string name="PrivacyShowNumberNobodyExcept">Nobody (%1$s) can see your phone number</string>
+  <string name="PrivacyShowNumberContacts">Only contacts can see your phone number</string>
+  <string name="PrivacyShowNumberContactsExcept">Only contacts (%1$s) can see your phone number</string>
+  <string name="PrivacyShowNumberEverybody">Everybody can see your phone number</string>
+  <string name="PrivacyShowNumberEverybodyExcept">Everybody (%1$s) can see your phone number</string>
+
+  <!--<string name="PrivacyAllowFindingNobody">Nobody can see your phone number</string>
+  <string name="PrivacyAllowFindingNobodyExcept">Nobody (%1$s) can see your phone number</string>-->
+  <string name="PrivacyAllowFindingContacts">Only contacts can find you on Telegram</string>
+  <string name="PrivacyAllowFindingContactsExcept">Only contacts (%1$s) can find you on Telegram</string>
+  <string name="PrivacyAllowFindingEverybody">Everybody can find you on Telegram</string>
+  <string name="PrivacyAllowFindingEverybodyExcept">Everybody (%1$s) can find you on Telegram</string>
+
+  <string name="ShareMyNumber">Share my phone number with %1$s</string>
+
+  <string name="FindingByPhoneNumber">Finding by Phone Number</string>
+  <string name="WhoCanFindByPhone">Who can find me by my number?</string>
+  <string name="WhoCanFindByPhoneInfoEveryone">Users who have your number saved in the contacts list will also see it on Telegram.</string>
+  <string name="WhoCanFindByPhoneInfoContacts">Users who add your number to their contacts will see it on Telegram only if they are your contacts.</string>
+
+  <string name="NumberHidden">Number is unknown</string>
+  <string name="NumberHiddenHint">Phone number will be visible once %1$s adds you as a contact or changes their privacy settings.</string>
+
+  <string name="CategoryMain">All Chats</string>
+  <string name="CategoryArchive">Archive</string>
+  <string name="CategoryArchivePrivate">Archive / Private</string>
+  <string name="CategoryArchiveGroup">Archive / Groups</string>
+  <string name="CategoryArchiveChannels">Archive / Channels</string>
+  <string name="CategoryArchiveBots">Archive / Bots</string>
+  <string name="CategoryArchiveUnread">Archive / Unread</string>
+
+  
+  
+  
+  
+  
+  
 
   
   
@@ -2853,6 +2909,12 @@
   <string name="InviteTextCommonMany_two">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_few">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_many">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="LinkStateContact">%1$s has your phone number in their contacts list.</string>
+  <string name="LinkStateContactMutual">%1$s and you have each other\'s phone number in the contacts list.</string>
+  <string name="LinkStateKnowsNumber">%1$s can see your phone number.</string>
+  <string name="LinkStateKnowsNumberContact">%1$s can see your phone number. You have them in your contacts list.</string>
+  <string name="LinkStateKnowsNumberMutual">%1$s and you can see each other\'s phone number.</string>
+  <string name="LinkStateNone">%1$s does not see your phone number.</string>
   <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
@@ -3058,6 +3120,7 @@
   <string name="mentionCount_two">%1$s mentions</string>
   <string name="mentionCount_few">%1$s mentions</string>
   <string name="mentionCount_many">%1$s mentions</string>
+  <string name="message_adminSign">"  admin"</string>
   <string name="messagesCount_zero">%1$s</string>
   <string name="messagesCount_two">%1$s</string>
   <string name="messagesCount_few">%1$s</string>

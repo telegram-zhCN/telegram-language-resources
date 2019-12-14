@@ -1728,8 +1728,8 @@
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
   <string name="message_via">通过</string>
-  <string name="message_adminSign">" 管理员"</string>
   <string name="message_adminSignPlain">管理员</string>
+  
   <string name="WhoCanCallMe">谁可以呼叫我</string>
   <string name="UseP2PWith">使用端对端连接</string>
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
@@ -2536,13 +2536,6 @@
   
   <string name="ReadAllChatsDone_other">已将 %1$s 个会话标为已读</string>
 
-  <string name="LinkStateNone">%1$s 不能看到您的手机号码</string>
-  <string name="LinkStateKnowsNumber">%1$s 可以看到你的手机号码。</string>
-  <string name="LinkStateKnowsNumberContact">%1$s 能看到您的手机号码,他们在您的联系人列表内.</string>
-  <string name="LinkStateKnowsNumberMutual">%1$s 和您可以互相看到对方的手机号码</string>
-  <string name="LinkStateContact">%1$s 在联系人列表中拥有您的手机号码</string>
-  <string name="LinkStateContactMutual">%1$s 同您互相在联系人列表中有对方的手机号码</string>
-
   <string name="PhoneNumberUnknown">未知</string>
 
   <string name="SignedOutAs">注销 %1$s</string>
@@ -2696,6 +2689,69 @@
   
   
   
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  <!--<string name="PrivacyAllowFindingNobody">Nobody can see your phone number</string>
+  <string name="PrivacyAllowFindingNobodyExcept">Nobody (%1$s) can see your phone number</string>-->
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
 
   
   
@@ -2742,6 +2798,12 @@
   <string name="GroupType">群组类型</string>
   <string name="Importance">优先级</string>
   <string name="InAppNotifications">应用开启时的消息通知</string>
+  <string name="LinkStateContact">%1$s 在联系人列表中拥有您的手机号码</string>
+  <string name="LinkStateContactMutual">%1$s 同您互相在联系人列表中有对方的手机号码</string>
+  <string name="LinkStateKnowsNumber">%1$s 可以看到你的手机号码。</string>
+  <string name="LinkStateKnowsNumberContact">%1$s 能看到您的手机号码,他们在您的联系人列表内.</string>
+  <string name="LinkStateKnowsNumberMutual">%1$s 和您可以互相看到对方的手机号码</string>
+  <string name="LinkStateNone">%1$s 不能看到您的手机号码</string>
   <string name="MapPreviewProviderCloud">普通对话的地图预览提供商</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
@@ -2778,5 +2840,6 @@
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="login_Country">国家</string>
   <string name="login_YourName">您的姓名</string>
+  <string name="message_adminSign">" 管理员"</string>
   <string name="service_Notifications">该服务用于显示消息通知。</string>
 </resources>
