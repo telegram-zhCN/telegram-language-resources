@@ -916,6 +916,8 @@
     <string name="MessageScheduledVote">投票功能将在消息发布后正式开始。</string>
     <string name="MessageScheduledReminderNotification">&#128197; 备忘录</string>
     <string name="OneResult">1 result</string>
+    <string name="VideoQualityIsTooLow">Video quality is too low to change compression settings.</string>
+    <string name="TextSelectionHit">Hold the **word**, then move the cursor to select more text to copy.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -1179,6 +1181,7 @@
     <!--stickers view-->
     <string name="StickersName">贴纸和装饰</string>
     <string name="LoopAnimatedStickers">循环播放动画贴纸</string>
+    <string name="AnimatedStickers">Animated Stickers</string>
     <string name="AddStickers">添加贴纸包</string>
     <string name="AddStickersCount">添加 %1$s</string>
     <string name="RemoveStickersCount">移除 %1$s</string>
@@ -1247,12 +1250,13 @@
     <string name="AutoNightBrightnessInfo">当环境亮度低于 %1$d%% 时，切换为夜间主题。</string>
     <string name="ThemeDark">暗色</string>
     <string name="ThemeDarkBlue">深蓝色</string>
-    <string name="ThemeGraphite">石墨黑</string>
+    <string name="ThemeDay">Day</string>
     <string name="ThemeArcticBlue">北极</string>
-    <string name="ThemeBlue">单色</string>
+    <string name="ThemeClassic">Classic</string>
     <string name="DeleteThemeTitle">删除主题</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
     <string name="IncorrectTheme">错误的主题文件</string>
+    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually\n\nPlease enter theme name:</string>
     <string name="EnterThemeName">输入主题名称</string>
     <string name="CloseEditor">关闭编辑器</string>
     <string name="SaveTheme">保存主题</string>
@@ -1318,8 +1322,9 @@
     <string name="ThemePreviewSongPerformer">David Hasselhoff</string>
     <string name="NewThemePreviewName">Bob Harris</string>
     <string name="NewThemePreviewReply">Good morning! &#128075;</string>
+    <string name="NewThemePreviewReply2">Good morning</string>
     <string name="NewThemePreviewLine1">Do you know what time it is?</string>
-    <string name="NewThemePreviewLine2">It\'s morning in Tokyo &#128526;</string>
+    <string name="NewThemePreviewLine3">It\'s morning in *Tokyo* &#128526;</string>
     <string name="UseDifferentTheme">Use a different theme</string>
     <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
     <string name="ChooseTheme">选择主题</string>
@@ -1331,6 +1336,9 @@
     <string name="ColorPickerResetAll">RESET ALL</string>
     <string name="ColorPickerReset">RESET</string>
     <string name="ChangeWallpaperToColor">Are you sure you want to change your chat wallpaper to a color?</string>
+    <string name="ShareTheme">Share theme</string>
+    <string name="DeleteTheme">Delete theme</string>
+    <string name="OpenInEditor">Open in editor</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlertTitle">重置所有通知</string>
@@ -1427,6 +1435,7 @@
     <string name="BackgroundHexColorCode">十六进制颜色编码</string>
     <string name="BackgroundColor">颜色</string>
     <string name="BackgroundPattern">图案</string>
+    <string name="BackgroundChoosePattern">Choose pattern</string>
     <string name="BackgroundIntensity">深度</string>
     <string name="Blue">蓝色</string>
     <string name="Red">红色</string>
@@ -1695,15 +1704,16 @@
     <string name="DistanceUnitsAutomatic">自动</string>
     <string name="DistanceUnitsKilometers">千米</string>
     <string name="DistanceUnitsMiles">英里</string>
-    <string name="AuthAnotherClient">Login by QR Code</string>
+    <string name="AuthAnotherClient">Scan QR Code</string>
     <string name="AuthAnotherClientScan">Scan QR Code</string>
     <string name="AuthAnotherClientTokenError">Token invalid or already expired.</string>
     <string name="AuthAnotherClientNotFound">No auth token found</string>
     <string name="AuthAnotherClientOk">Auth successfull</string>
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
-    <string name="AuthAnotherClientInfo1">*Download Telegram* on your computer.</string>
+    <string name="AuthAnotherClientInfo1">Download Telegram on your computer from *desktop.telegram.org*.</string>
     <string name="AuthAnotherClientInfo2">Run Telegram Desktop to get the QR code.</string>
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
+    <string name="AuthAnotherClientUrl">This code can be used to allow someone to log in to your Telegram account.\n\nTo confirm Telegram login, please go to Settings &gt; Devices &gt; Scan QR and scan the code.</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">Clear local database</string>
@@ -2028,6 +2038,7 @@
     <string name="NearbyVenue">Or choose a venue</string>
     <string name="TapToSendLocation">Tap to send this location</string>
     <string name="LiveLocations">实时位置</string>
+    <string name="LiveLocationContext">Live Location</string>
     <string name="SendLiveLocationFor15m">15分钟</string>
     <string name="SendLiveLocationFor1h">1小时</string>
     <string name="SendLiveLocationFor8h">8小时</string>
@@ -2059,6 +2070,7 @@
     <string name="ChatSetLocation">设置地点</string>
     <string name="ChatSetThisLocation">设置为此地点</string>
     <string name="ChatSetLocationInfo">人们可以在“附近的人”中找到您的群组。</string>
+    <string name="PlacesInThisArea">Places in this area</string>
     <!--photo gallery view-->
     <string name="ShowAsList">Show as list</string>
     <string name="ShowAsGrid">Show as grid</string>
@@ -3392,6 +3404,8 @@
   <string name="SyncContactsDeleteInfo">这将把你的通讯录信息从 Telegram 服务端删除。如果“同步通讯录”选项处于启用状态，通讯录信息将被重新同步。</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="TextSize">消息文字大小</string>
+  <string name="ThemeBlue">单色</string>
+  <string name="ThemeGraphite">石墨黑</string>
   <string name="UserRestrictionsBy">被 %1$s 限制</string>
   <string name="UserRestrictionsUntil">封禁至</string>
   <string name="ViewDetails">查看联系人</string>
@@ -3403,4 +3417,5 @@
   <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
+  <string name="NewThemePreviewLine2">It\'s morning in Tokyo &#128526;</string>
 </resources>

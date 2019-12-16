@@ -916,6 +916,8 @@
     <string name="MessageScheduledVote">Voting will become available after the message is published.</string>
     <string name="MessageScheduledReminderNotification">&#128197; Reminder</string>
     <string name="OneResult">1 result</string>
+    <string name="VideoQualityIsTooLow">Video quality is too low to change compression settings.</string>
+    <string name="TextSelectionHit">Hold the **word**, then move the cursor to select more text to copy.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -1179,6 +1181,7 @@
     <!--stickers view-->
     <string name="StickersName">Stickers and Masks</string>
     <string name="LoopAnimatedStickers">Loop Animated Stickers</string>
+    <string name="AnimatedStickers">Animated Stickers</string>
     <string name="AddStickers">Add Stickers</string>
     <string name="AddStickersCount">ADD %1$s</string>
     <string name="RemoveStickersCount">REMOVE %1$s</string>
@@ -1247,12 +1250,13 @@
     <string name="AutoNightBrightnessInfo">Switch to your preferred night theme when ambient lighting falls below %1$d%%.</string>
     <string name="ThemeDark">Dark</string>
     <string name="ThemeDarkBlue">Dark Blue</string>
-    <string name="ThemeGraphite">Graphite</string>
+    <string name="ThemeDay">Day</string>
     <string name="ThemeArcticBlue">Arctic</string>
-    <string name="ThemeBlue">Mono</string>
+    <string name="ThemeClassic">Classic</string>
     <string name="DeleteThemeTitle">Delete theme</string>
     <string name="DeleteThemeAlert">Are you sure you want to delete this theme?</string>
     <string name="IncorrectTheme">Incorrect theme file</string>
+    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually\n\nPlease enter theme name:</string>
     <string name="EnterThemeName">Enter theme name</string>
     <string name="CloseEditor">CLOSE EDITOR</string>
     <string name="SaveTheme">SAVE THEME</string>
@@ -1318,8 +1322,9 @@
     <string name="ThemePreviewSongPerformer">David Hasselhoff</string>
     <string name="NewThemePreviewName">Bob Harris</string>
     <string name="NewThemePreviewReply">Good morning! &#128075;</string>
+    <string name="NewThemePreviewReply2">Good morning</string>
     <string name="NewThemePreviewLine1">Do you know what time it is?</string>
-    <string name="NewThemePreviewLine2">It\'s morning in Tokyo &#128526;</string>
+    <string name="NewThemePreviewLine3">It\'s morning in *Tokyo* &#128526;</string>
     <string name="UseDifferentTheme">Use a different theme</string>
     <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
     <string name="ChooseTheme">Choose theme</string>
@@ -1331,6 +1336,9 @@
     <string name="ColorPickerResetAll">RESET ALL</string>
     <string name="ColorPickerReset">RESET</string>
     <string name="ChangeWallpaperToColor">Are you sure you want to change your chat wallpaper to a color?</string>
+    <string name="ShareTheme">Share theme</string>
+    <string name="DeleteTheme">Delete theme</string>
+    <string name="OpenInEditor">Open in editor</string>
     <!--settings view-->
     <string name="ResetNotificationsText">All notification settings reset to default</string>
     <string name="ResetNotificationsAlertTitle">Reset all notifications</string>
@@ -1427,6 +1435,7 @@
     <string name="BackgroundHexColorCode">Hex color code</string>
     <string name="BackgroundColor">Color</string>
     <string name="BackgroundPattern">Pattern</string>
+    <string name="BackgroundChoosePattern">Choose pattern</string>
     <string name="BackgroundIntensity">Intensity</string>
     <string name="Blue">Blue</string>
     <string name="Red">Red</string>
@@ -1695,15 +1704,16 @@
     <string name="DistanceUnitsAutomatic">Automatic</string>
     <string name="DistanceUnitsKilometers">Kilometers</string>
     <string name="DistanceUnitsMiles">Miles</string>
-    <string name="AuthAnotherClient">Login by QR Code</string>
+    <string name="AuthAnotherClient">Scan QR Code</string>
     <string name="AuthAnotherClientScan">Scan QR Code</string>
     <string name="AuthAnotherClientTokenError">Token invalid or already expired.</string>
     <string name="AuthAnotherClientNotFound">No auth token found</string>
     <string name="AuthAnotherClientOk">Auth successfull</string>
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
-    <string name="AuthAnotherClientInfo1">*Download Telegram* on your computer.</string>
+    <string name="AuthAnotherClientInfo1">Download Telegram on your computer from *desktop.telegram.org*.</string>
     <string name="AuthAnotherClientInfo2">Run Telegram Desktop to get the QR code.</string>
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
+    <string name="AuthAnotherClientUrl">This code can be used to allow someone to log in to your Telegram account.\n\nTo confirm Telegram login, please go to Settings &gt; Devices &gt; Scan QR and scan the code.</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClearTextTitle">Clear local database</string>
@@ -2028,6 +2038,7 @@
     <string name="NearbyVenue">Or choose a venue</string>
     <string name="TapToSendLocation">Tap to send this location</string>
     <string name="LiveLocations">Live locations</string>
+    <string name="LiveLocationContext">Live Location</string>
     <string name="SendLiveLocationFor15m">for 15 minutes</string>
     <string name="SendLiveLocationFor1h">for 1 hour</string>
     <string name="SendLiveLocationFor8h">for 8 hours</string>
@@ -2059,6 +2070,7 @@
     <string name="ChatSetLocation">Set Location</string>
     <string name="ChatSetThisLocation">Set this location</string>
     <string name="ChatSetLocationInfo">People will be able to find your group in the \"People Nearby\" section.</string>
+    <string name="PlacesInThisArea">Places in this area</string>
     <!--photo gallery view-->
     <string name="ShowAsList">Show as list</string>
     <string name="ShowAsGrid">Show as grid</string>
@@ -3345,6 +3357,7 @@
   <string name="NearbyPlaces">Or choose a place</string>
   <string name="NeverAllowPlaceholder">Never allow...</string>
   <string name="NeverShareWithPlaceholder">Never share with users...</string>
+  <string name="NewThemePreviewLine2">It\'s morning in Tokyo &#128526;</string>
   <string name="NoAudio">Please add files to the music library on your device to see them here.</string>
   <string name="NoBlockedChannel">Banned users are removed from the channel and can only come back if added by an admin. Invite links don\'t work for them.</string>
   <string name="NoBlockedGroup">Banned users are removed from the group and can only come back if added by an admin. Invite links don\'t work for them.</string>
@@ -3392,6 +3405,8 @@
   <string name="SyncContactsDeleteInfo">This will remove your contacts from the Telegram servers. If \'Sync Contacts\' is enabled, contacts will be re-synced.</string>
   <string name="TerminateWebSessionQuestion">Disconnect %1$s?</string>
   <string name="TextSize">Message Text Size</string>
+  <string name="ThemeBlue">Mono</string>
+  <string name="ThemeGraphite">Graphite</string>
   <string name="UserRestrictionsBy">Restricted by %1$s</string>
   <string name="UserRestrictionsUntil">Restricted until</string>
   <string name="ViewDetails">VIEW CONTACT</string>
