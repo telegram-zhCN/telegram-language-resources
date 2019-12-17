@@ -1256,7 +1256,7 @@
     <string name="DeleteThemeTitle">Delete theme</string>
     <string name="DeleteThemeAlert">Are you sure you want to delete this theme?</string>
     <string name="IncorrectTheme">Incorrect theme file</string>
-    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually\n\nPlease enter theme name:</string>
+    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually.\n\nPlease enter theme name:</string>
     <string name="EnterThemeName">Enter theme name</string>
     <string name="CloseEditor">CLOSE EDITOR</string>
     <string name="SaveTheme">SAVE THEME</string>

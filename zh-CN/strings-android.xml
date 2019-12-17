@@ -1256,7 +1256,7 @@
     <string name="DeleteThemeTitle">删除主题</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
     <string name="IncorrectTheme">错误的主题文件</string>
-    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually\n\nPlease enter theme name:</string>
+    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually.\n\nPlease enter theme name:</string>
     <string name="EnterThemeName">输入主题名称</string>
     <string name="CloseEditor">关闭编辑器</string>
     <string name="SaveTheme">保存主题</string>
