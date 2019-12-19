@@ -1730,6 +1730,7 @@
   <string name="message_via">" via "</string>
   <string name="message_adminSignPlain">admin</string>
   <string name="message_ownerSign">owner</string>
+  <string name="message_channelSign">channel</string>
   <string name="WhoCanCallMe">Who can call me</string>
   <string name="UseP2PWith">Use peer-to-peer with</string>
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
@@ -2746,12 +2747,51 @@
   <string name="CategoryArchiveBots">Archive / Bots</string>
   <string name="CategoryArchiveUnread">Archive / Unread</string>
 
-  
-  
-  
-  
-  
-  
+  <string name="NoArchive">Archive is empty</string>
+  <string name="NoGroups">No groups to show</string>
+  <string name="NoChannels">No channels to show</string>
+  <string name="NoPrivateChats">No private chats</string>
+  <string name="NoBotsChats">No chats with bots</string>
+  <string name="NoUnreadChats">No unread chats</string>
+
+  <string name="OpenLinkConfirm">Do you want to open %1$s?</string>
+  <string name="LogInAsOn">Log in as %1$s on %2$s</string>
+  <string name="AllowWriteAccess">Allow %1$s to send me messages</string>
+  <string name="Discuss">Discuss</string>
+  <string name="LinkedChannel">Linked Channel</string>
+  <string name="LinkedGroup">Linked Group</string>
+  <string name="DiscussionsChat">Discussion Chat</string>
+  <string name="LinkChannel">Link a channel</string>
+  <string name="LinkGroup">Add a group chat for comments</string>
+
+  <string name="GroupChannelInfo">%1$s is linking the group as its discussion board.\n\nAll new messages posted there are forwarded to the group.</string>
+  <string name="GroupChannelUnlink">Unlink Channel</string>ew
+
+  <string name="ChannelGroupNew">Create new group</string>
+  <string name="ChannelGroupExisting">Choose existing</string>
+  <string name="ChannelGroupRemove">Unlink Group</string>
+
+  <string name="ChannelGroupInfo">Select a group chat for discussion that will be displayed in your channel.</string>
+  <string name="ChannelGroupInfo2">A link to %1$s is shown to all subscribers in the bottom panel.\n\nEverything you post in the channel will be forwarded to this group.</string>
+
+  <string name="UnlinkGroupConfirm">Are you sure you want to unlink %1$s from this channel?</string>
+  <string name="UnlinkGroupDone">Unlink</string>
+
+  <string name="UnlinkChannelConfirm">Are you sure you want to unlink %1$s from this group?</string>
+  <string name="UnlinkChannelDone">Unlink</string>
+
+  <string name="NoCommentChats">No suitable chats found for a discussion.</string>
+  <string name="LinkGroupConfirmDone">Link Group</string>
+  <string name="LinkGroupConfirm">Do you want to make %1$s the discussion board for %2$s?</string>
+  <string name="LinkGroupConfirmWarnPrivateChannel">Any member of this group will be able to see messages in the channel.</string>
+  <string name="LinkGroupConfirmWarnPrivateGroup">Anyone from the channel will be able to see messages in this group.</string>
+  <string name="LinkGroupConfirmWarnPreHistory">**Chat history for new members** will be switched to **Visible**.</string>
+  <string name="LinkGroupConfirmOverride">Warning: %1$s will be unlinked from %2$s.</string>
+  <string name="LinkGroupConfirmOverrideDone">Unlink and Proceed</string>
+
+  <string name="ChatHistoryWarnLinkedChannel">Warning: this group will be unlinked from %1$s.</string>
+
+  <string name="LinkGroupTitle">Select Chat</string>
 
   
   
