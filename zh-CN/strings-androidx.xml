@@ -1441,6 +1441,17 @@
   <string name="EventLogFilterEditedMessages">消息编辑</string>
   <string name="EventLogFilterPinnedMessages">消息置顶</string>
   <string name="EventLogFilterLeavingMembers">成员退出</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="UntilX">直到 %1$s</string>
   <string name="NetworkUsage">网络用量</string>
   <string name="Use169Output">16:9 相机分辨率</string>

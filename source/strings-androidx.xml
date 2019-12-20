@@ -1441,6 +1441,17 @@
   <string name="EventLogFilterEditedMessages">Edited messages</string>
   <string name="EventLogFilterPinnedMessages">Pinned messages</string>
   <string name="EventLogFilterLeavingMembers">Leaving members</string>
+  <string name="EventLogSlowModeChanged">%1$s set the slow mode timer to %2$s</string>
+  <string name="EventLogSlowModeDisabled">%1$s disabled the slow mode</string>
+  <string name="EventLogLinkedChannelChanged">%1$s linked this group to %2$s</string>
+  <string name="EventLogLinkedChannelRemoved">%1$s unlinked this group from %2$s</string>
+  <string name="EventLogLinkedChannelChangedUnknown">This group was linked to %1$s</string>
+  <string name="EventLogLinkedChannelRemovedUnknown">This group was unlinked from %1$s</string>
+  <string name="EventLogLinkedGroupChanged">%1$s made %2$s the discussion group for this channel</string>
+  <string name="EventLogLinkedGroupRemoved">%1$s removed the discussion group %2$s</string>
+  <string name="EventLogLocationSet">%1$s set group location to %2$s</string>
+  <string name="EventLogLocationChanged">%1$s changed group location to %2$s</string>
+  <string name="EventLogLocationRemoved">%1$s removed group location</string>
   <string name="UntilX">Until %1$s</string>
   <string name="NetworkUsage">Network Usage</string>
   <string name="Use169Output">16:9 Camera output</string>
@@ -2265,8 +2276,8 @@
 
   <string name="ShareTextMedia">Media from %1$s</string>
   <string name="ShareTitleMedia">Share media to…</string>
-  <string name="ShareTitleMediaX_one">Share %1$s media with…</string>
-  <string name="ShareTitleMediaX_other">Share %1$s media with…</string>
+  <string name="ShareTitleMediaX_one">Share %1$s media to…</string>
+  <string name="ShareTitleMediaX_other">Share %1$s media to…</string>
 
   <string name="ShareTitleContact">Share contact to…</string>
 
@@ -3068,10 +3079,10 @@
   <string name="ShareTitleImageX_two">Share %1$s photos to…</string>
   <string name="ShareTitleImageX_few">Share %1$s photos to…</string>
   <string name="ShareTitleImageX_many">Share %1$s photos to…</string>
-  <string name="ShareTitleMediaX_zero">Share %1$s media with…</string>
-  <string name="ShareTitleMediaX_two">Share %1$s media with…</string>
-  <string name="ShareTitleMediaX_few">Share %1$s media with…</string>
-  <string name="ShareTitleMediaX_many">Share %1$s media with…</string>
+  <string name="ShareTitleMediaX_zero">Share %1$s media to…</string>
+  <string name="ShareTitleMediaX_two">Share %1$s media to…</string>
+  <string name="ShareTitleMediaX_few">Share %1$s media to…</string>
+  <string name="ShareTitleMediaX_many">Share %1$s media to…</string>
   <string name="ShareTitleMessage">Share message to…</string>
   <string name="ShareTitleVideoX_zero">Share %1$s videos to…</string>
   <string name="ShareTitleVideoX_two">Share %1$s videos to…</string>
