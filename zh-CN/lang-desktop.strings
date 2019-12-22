@@ -764,7 +764,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_add_participant" = "邀请新成员";
 "lng_profile_view_channel" = "查看频道";
 "lng_profile_join_channel" = "加入频道";
-"lng_profile_join_group" = "加入群组";
+"lng_profile_join_group" = "加入";
 "lng_profile_delete_and_exit" = "退出";
 "lng_profile_kick" = "移除";
 "lng_profile_delete_removed" = "删除";

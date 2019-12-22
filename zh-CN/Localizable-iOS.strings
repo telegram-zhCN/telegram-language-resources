@@ -211,10 +211,10 @@
 
 "PUSH_MESSAGE_GAME_SCORE" = "%1$@ 在 %2$@ 中获得了 %3$@ 分";
 
-
+"PUSH_MESSAGE_CHANNEL_MESSAGE_GAME_SCORE" = "%1$@ 在游戏 %2$@ 中获得了 %3$@ 分";
 
 "PUSH_PINNED_GAME_SCORE" = "%1$@ 置顶了一项游戏成绩";
-
+"PUSH_CHAT_MESSAGE_GAME_SCORE" = "%1$@ 在游戏 %3$@ 中获得 %4$@ 分";
 
 
 "PUSH_REMINDER_TITLE" = "🗓 提醒";
@@ -2021,7 +2021,7 @@
 "StickerPacksSettings.FeaturedPacks" = "热门贴纸";
 "FeaturedStickerPacks.Title" = "热门贴纸";
 
-"Invitation.JoinGroup" = "加入群组";
+"Invitation.JoinGroup" = "加入";
 
 
 
@@ -2521,7 +2521,7 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissionChangeInfo" = "修改频道信息";
 "Group.EditAdmin.PermissionChangeInfo" = "修改群组信息";
 "Channel.EditAdmin.PermissionPostMessages" = "发布消息";
-"Channel.EditAdmin.PermissionEditMessages" = "编辑消息";
+"Channel.EditAdmin.PermissionEditMessages" = "编辑其他人的消息";
 "Channel.EditAdmin.PermissionDeleteMessages" = "删除消息";
 "Channel.EditAdmin.PermissionBanUsers" = "封禁用户";
 "Channel.EditAdmin.PermissionInviteSubscribers" = "添加订阅者";
@@ -2581,7 +2581,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanInviteUsers" = "添加成员";
 "Channel.AdminLog.CanPinMessages" = "置顶消息";
 "Channel.AdminLog.CanAddAdmins" = "添加新管理员";
-"Channel.AdminLog.CanEditMessages" = "编辑消息";
+"Channel.AdminLog.CanEditMessages" = "编辑其他人的消息";
 
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ 启用了邀请权限";
 "Channel.AdminLog.MessageToggleInvitesOff" = "%@ 禁用了邀请权限";
@@ -3871,7 +3871,7 @@ Unused sets are archived when you add more.";
 
 
 
-
+"GroupPermission.EditingDisabled" = "您不能编辑该用户的权限。";
 
 
 "Channel.Management.RemovedBy" = "被 %@ 封禁";
@@ -4335,7 +4335,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
 
 Any member of this group will be able to see messages in the channel.";
-"Channel.DiscussionGroup.MakeHistoryPublic" = "注意：如果将此私人群组设置为频道群组，所有的频道订阅人将可以访问此群组。”群组新成员的聊天记录限制”将切换至全部可见。";
+"Channel.DiscussionGroup.MakeHistoryPublic" = "注意：如果将此私人群组设置为讨论群，所有的频道订阅人将可以访问此群组。”群组新成员的聊天记录限制”将切换至全部可见。";
 "Channel.DiscussionGroup.MakeHistoryPublicProceed" = "同意";
 
 "Channel.DiscussionGroup.SearchPlaceholder" = "搜索";
@@ -4413,7 +4413,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.OwnershipTransfer.ChangeOwner" = "转移所有权";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
-"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
+"Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经创建太多基于位置的群组了。 请让他们先删除或转让一个。";
 
 "Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
 "Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
@@ -4640,7 +4640,7 @@ Any member of this group will be able to see messages in the channel.";
 "ScheduledMessages.Delete" = "删除定时消息";
 "ScheduledMessages.DeleteMany" = "删除定时消息";
 "ScheduledMessages.EmptyPlaceholder" = "暂无定时消息...";
-
+"ScheduledMessages.BotActionUnavailable" = "这个操作将在消息发布后可用。";
 "ScheduledMessages.PollUnavailable" = "投票功能将在消息发布后正式开始。";
 "ScheduledMessages.ReminderNotification" = "📅 备忘录";
 
@@ -4649,7 +4649,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Conversation.SelectedMessages_any" = "已选中 %@ 条";
 
 
 
@@ -4742,15 +4742,15 @@ Any member of this group will be able to see messages in the channel.";
 
 "Conversation.SendMessageErrorTooMuchScheduled" = "抱歉，您只能同时设置 100 条定时消息。";
 
-
+"ChatList.Context.MarkAllAsRead" = "全部标记为已读";
 
 
 
 
 "ChatList.Context.MarkAsRead" = "标记为已读";
 "ChatList.Context.MarkAsUnread" = "标记为未读";
-
-
+"ChatList.Context.Archive" = "归档";
+"ChatList.Context.Unarchive" = "取消归档";
 "ChatList.Context.Pin" = "置顶";
 "ChatList.Context.Unpin" = "取消置顶";
 "ChatList.Context.Mute" = "免打扰";
@@ -4762,12 +4762,12 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Theme.Context.Apply" = "应用";
 
 
 
-
-
-
+"Channel.EditAdmin.PermissionDeleteMessagesOfOthers" = "删除其他人的消息";
+"Channel.AdminLog.CanDeleteMessagesOfOthers" = "删除其他人的消息";
 
 
 
@@ -5020,23 +5020,34 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ClearCache.StorageUsage" = "存储空间用量";
 
+"Conversation.ScheduleMessage.SendWhenOnline" = "当上线时发送";
+"ScheduledMessages.ScheduledOnline" = "当上线时发送";
 
 
 
 
 
 
+"TwoFactorSetup.Intro.Action" = "设置一个附加密码";
 
+"TwoFactorSetup.Password.Title" = "设置密码";
+"TwoFactorSetup.Password.PlaceholderPassword" = "密码";
 
 
 
+"TwoFactorSetup.Email.Title" = "恢复邮箱";
 
+"TwoFactorSetup.Email.Placeholder" = "您的邮箱地址";
+"TwoFactorSetup.Email.Action" = "继续";
+"TwoFactorSetup.Email.SkipAction" = "跳过邮箱设置";
 
 
 
 
 
+"TwoFactorSetup.EmailVerification.Text" = "请输入我们刚刚发送到 %@ 的验证码";
 
 
 
@@ -5057,6 +5068,8 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"WebBrowser.Title" = "浏览器";
+"WebBrowser.DefaultBrowser" = "默认网页浏览器";
 
 
 
@@ -5064,8 +5077,13 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ClearCache.StorageCache" = "Telegram 缓存";
 
+"ClearCache.StorageOtherApps" = "其他应用";
+"ClearCache.StorageFree" = "可用空间";
+"ClearCache.ClearCache" = "清空 Telegram 缓存";
 
+"ClearCache.Forever" = "永久";
 
 
 
@@ -5093,6 +5111,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Theme.Colors.ColorWallpaperWarning" = "您确定要将聊天窗口背景设置为纯色吗？";
 
 
 
@@ -5109,6 +5128,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"IntentsSettings.Reset" = "重置";
 
 
 
@@ -5141,27 +5161,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Map.SearchNoResultsDescription" = "找不到 \"%@\"。\n请尝试一个新的关键词。";
 
 
 
@@ -5386,3 +5386,9 @@ Any member of this group will be able to see messages in the channel.";
 "SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
 "StickerPacksSettings.ArchivedMasks.Info" = "你可以拥有最多 200 套装饰。\n未使用的装饰将在你添加更多的装饰时被归档。";
 "Undo.MessagesDeleted" = "消息已删除";
+"Updated.AtDate" = "%@";
+"Updated.HoursAgo_any" = "%@ 小时前";
+"Updated.JustNow" = "刚刚";
+"Updated.MinutesAgo_any" = "%@ 分钟前";
+"Updated.TodayAt" = "今天 %@";
+"Updated.YesterdayAt" = "昨天 %@";

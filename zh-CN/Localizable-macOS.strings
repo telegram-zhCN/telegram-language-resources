@@ -3216,7 +3216,7 @@
 "Channel.EventLog.MessageChangedUnlinkedChannel" = "%@ 将此群组与 %@ 取消链接";
 
 
-
+"DiscussionController.Error.PreHistory" = "注意：如果将此私人群组设置为讨论群，所有的频道订阅人将可以访问此群组。”群组新成员的聊天记录限制”将切换至全部可见。";
 "DiscussionController.Error.OK" = "同意";
 
 
@@ -3320,7 +3320,7 @@
 "Schedule.SendToday" = "在今天 %@ 时发送";
 "Schedule.SendDate" = "在 %@ %@ 时发送";
 
-
+"Schedule.SendWhenOnline" = "当上线时发送";
 
 
 "Chat.Send.SetReminder" = "定时提醒";
@@ -3336,7 +3336,7 @@
 "Chat.Context.ClearScheduled.Confirm.OK" = "全部清空";
 
 "Chat.Date.ScheduledFor" = "在 %@ 发送";
-
+"Chat.Date.ScheduledUntilOnline" = "当上线时发送";
 
 
 
