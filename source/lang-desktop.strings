@@ -1141,7 +1141,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_auto_in_channels" = "In channels";
 "lng_media_auto_title" = "Automatically download";
 "lng_media_photo_title" = "Photos";
-"lng_media_video_title" = "Video files";
+"lng_media_video_title" = "Videos";
 "lng_media_audio_title" = "Voice messages";
 "lng_media_video_messages_title" = "Round video messages";
 "lng_media_file_title" = "Files";
