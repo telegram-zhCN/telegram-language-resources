@@ -505,6 +505,7 @@
 "Notification.JoinedChat" = "%@ 加入了群组";
 "Notification.JoinedChannel" = "%@ 加入了频道";
 "Notification.Invited" = "%@ 邀请了 %@";
+
 "Notification.LeftChat" = "%@ 退出了群组";
 "Notification.LeftChannel" = "%@ 退出了频道";
 "Notification.Kicked" = "%@ 移除了 %@";
@@ -2561,6 +2562,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.InfoPanelTitle" = "这是什么？";
 "Channel.AdminLog.InfoPanelAlertTitle" = "什么是事件记录？";
 "Channel.AdminLog.InfoPanelAlertText" = "此列表包含了在过去 48 小时内群组成员和管理员执行的所有服务操作。";
+
 
 "Channel.AdminLog.BanReadMessages" = "查看消息";
 "Channel.AdminLog.BanSendMessages" = "发送消息";
@@ -4676,6 +4678,12 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
+
+
+
+
+
 "GroupInfo.Permissions.SlowmodeValue.Off" = "关闭";
 
 
@@ -5161,7 +5169,58 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
+
 "Map.SearchNoResultsDescription" = "找不到 \"%@\"。\n请尝试一个新的关键词。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
