@@ -178,8 +178,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_photo_caption" = "添加说明";
 "lng_photos_comment" = "说明";
 
+
+
+
+
+
+
 "lng_phone_title" = "您的手机号码";
 "lng_phone_desc" = "请确认您的国家代码，\n并输入您的手机号码。";
+
 "lng_country_code" = "国家代码";
 "lng_bad_country_code" = "无效的国家代码";
 "lng_country_ph" = "搜索";
@@ -408,7 +415,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_system_integration" = "系统设置";
 "lng_settings_performance" = "性能";
 "lng_settings_enable_animations" = "动画切换效果";
-"lng_settings_autoplay_gifs" = "自动播放 GIF";
+
+
+
+
+
+
 
 "lng_backgrounds_header" = "选择新的聊天背景图";
 "lng_theme_sure_keep" = "保留此主题？";
@@ -1140,12 +1152,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_auto_in_groups" = "在群组中";
 "lng_media_auto_in_channels" = "在频道中";
 "lng_media_auto_title" = "自动下载";
+"lng_media_auto_play" = "自动播放";
 "lng_media_photo_title" = "照片";
 "lng_media_video_title" = "视频";
-"lng_media_audio_title" = "语音留言";
 "lng_media_video_messages_title" = "视频留言";
 "lng_media_file_title" = "文件";
-"lng_media_music_title" = "音乐";
 "lng_media_animation_title" = "GIF";
 "lng_media_size_limit" = "文件大小限制";
 "lng_media_size_up_to" = "不超过 {size}";
@@ -1590,6 +1601,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_formatting_link_text" = "文本";
 "lng_formatting_link_url" = "链接";
 "lng_formatting_link_create" = "创建";
+
+
+
+
 
 "lng_full_name" = "{first_name} {last_name}";
 
@@ -2225,6 +2240,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_menu_new_channel" = "新建频道";
 "lng_mac_menu_show" = "打开 Telegram";
 
+
 "lng_mac_touchbar_favorite_stickers" = "收藏的贴纸";
 
 // Keys finished
@@ -2325,13 +2341,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_discussion_group_visible" = "可见";
 "lng_manage_peer_banned_users" = "被封禁的用户";
 "lng_manage_peer_restricted_users" = "受限的用户";
+"lng_media_audio_title" = "语音留言";
 "lng_media_auto_audio" = "自动下载语音留言";
 "lng_media_auto_gif" = "自动下载 GIF";
 "lng_media_auto_groups" = "群组和频道";
 "lng_media_auto_photo" = "自动下载图片";
-"lng_media_auto_play" = "自动播放";
 "lng_media_auto_private_chats" = "私聊";
 "lng_media_gif_title" = "GIF 和动画";
+"lng_media_music_title" = "音乐";
 "lng_mediaview_file_n_of_count" = "{file} {count} 中的 {n}";
 "lng_mediaview_n_of_count" = "第 {n} 张，共 {count} 张";
 "lng_mediaview_saved" = "图片已保存在 [c]下载[/c] 目录";
@@ -2355,6 +2372,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_list_title" = "受限的用户";
 "lng_settings_advanced_notifications" = "通知位置和计数";
 "lng_settings_audios_cached#other" = "{count} 条语音留言，共 {size}";
+"lng_settings_autoplay_gifs" = "自动播放 GIF";
 "lng_settings_bg_edit_theme" = "打开主题编辑器";
 "lng_settings_calls_peer_to_peer" = "通话端对端连接";
 "lng_settings_calls_privacy" = "通话隐私";

@@ -5149,9 +5149,9 @@ Any member of this group will be able to see messages in the channel.";
 "Shortcut.SwitchAccount" = "Switch Account";
 
 "Settings.Devices" = "Devices";
-"Settings.AddDevice" = "Add";
+"Settings.AddDevice" = "Scan QR";
 "AuthSessions.DevicesTitle" = "Devices";
-"AuthSessions.AddDevice" = "Add Device";
+"AuthSessions.AddDevice" = "Scan QR";
 "AuthSessions.AddDevice.ScanInfo" = "Scan a QR code to log into\nthis account on another device.";
 "AuthSessions.AddDevice.ScanTitle" = "Scan QR Code";
 "AuthSessions.AddDevice.InvalidQRCode" = "Invalid QR Code";
@@ -5160,7 +5160,7 @@ Any member of this group will be able to see messages in the channel.";
 "AuthSessions.AddDeviceIntro.Text2" = "Run Telegram on your computer to get the QR code";
 "AuthSessions.AddDeviceIntro.Text3" = "Scan the QR code to connect your account";
 "AuthSessions.AddDeviceIntro.Action" = "Scan QR Code";
-"AuthSessions.AddedDeviceTitle" = "Loggin Successful";
+"AuthSessions.AddedDeviceTitle" = "Login Successful";
 "AuthSessions.AddedDeviceTerminate" = "Terminate";
 
 "Map.SendThisPlace" = "Send This Place";
@@ -5216,8 +5216,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "OldChannels.ChannelFormat" = "channel, ";
 "OldChannels.GroupEmptyFormat" = "group, ";
-"OldChannels.GroupFormat_1" = "%@ member";
-"OldChannels.GroupFormat_any" = "%@ members";
+"OldChannels.GroupFormat_1" = "%@ member ";
+"OldChannels.GroupFormat_any" = "%@ members ";
 
 "OldChannels.InactiveWeek_1" = "inactive %@ week";
 "OldChannels.InactiveWeek_any" = "inactive %@ weeks";
@@ -5240,6 +5240,8 @@ Any member of this group will be able to see messages in the channel.";
 "StickerPackActionInfo.RemovedTitle" = "Stickers Removed";
 "StickerPackActionInfo.ArchivedTitle" = "Stickers Archived";
 "StickerPackActionInfo.RemovedText" = "%@ is no longer in your stickers.";
+
+
 
 
 /* new from translations.telegram.org */
@@ -5466,10 +5468,10 @@ Any member of this group will be able to see messages in the channel.";
 "NEW_MESSAGE_PHOTOS_SEPARATED_any" = "%1$@|sent you %2$d photos";
 "Notification.ChannelMigratedFrom" = "This group was upgraded to a supergroup";
 "Notifications.DisplayNamesOnLockScreenInfo" = "Display names in notifications when the device is locked. To disable, open iOS Settings > Telegram > Notifications, and set \"Show Previews\" to \"When Unlocked\" or \"Never\".";
-"OldChannels.GroupFormat_0" = "%@ members";
-"OldChannels.GroupFormat_2" = "%@ members";
-"OldChannels.GroupFormat_3_10" = "%@ members";
-"OldChannels.GroupFormat_many" = "%@ members";
+"OldChannels.GroupFormat_0" = "%@ members ";
+"OldChannels.GroupFormat_2" = "%@ members ";
+"OldChannels.GroupFormat_3_10" = "%@ members ";
+"OldChannels.GroupFormat_many" = "%@ members ";
 "OldChannels.InactiveMonth_0" = "inactive %@ months";
 "OldChannels.InactiveMonth_2" = "inactive %@ months";
 "OldChannels.InactiveMonth_3_10" = "inactive %@ months";
