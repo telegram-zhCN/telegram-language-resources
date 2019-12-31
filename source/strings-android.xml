@@ -143,6 +143,7 @@
     <string name="EncryptedChatStartedOutgoing">%s joined your secret chat.</string>
     <string name="EncryptedChatStartedIncoming">You joined the secret chat.</string>
     <string name="ClearHistory">Clear history</string>
+    <string name="ClearRecentHistory">Clear history</string>
     <string name="HistoryClearedUndo">History cleared.</string>
     <string name="ChatsMute">Mute</string>
     <string name="ChatsUnmute">Unmute</string>
@@ -1251,6 +1252,7 @@
     <string name="ThemeDark">Dark</string>
     <string name="ThemeDarkBlue">Dark Blue</string>
     <string name="ThemeDay">Day</string>
+    <string name="ThemeNight">Night</string>
     <string name="ThemeArcticBlue">Arctic</string>
     <string name="ThemeClassic">Classic</string>
     <string name="DeleteThemeTitle">Delete theme</string>
@@ -1262,6 +1264,8 @@
     <string name="SaveTheme">SAVE THEME</string>
     <string name="NewTheme">New color theme</string>
     <string name="ColorTheme">Color theme</string>
+    <string name="ColorThemeChanged">Color theme changed.</string>
+    <string name="ColorThemeChangedInfo">You can change it back in *Chat Settings*.</string>
     <string name="BuiltInThemes">Built-in themes</string>
     <string name="CustomThemes">Custom themes</string>
     <string name="ThemeSetUrl">Set link</string>
@@ -1337,8 +1341,14 @@
     <string name="ColorPickerReset">RESET</string>
     <string name="ChangeWallpaperToColor">Are you sure you want to change your chat wallpaper to a color?</string>
     <string name="ShareTheme">Share theme</string>
+    <string name="EditThemeColors">Edit colors</string>
+    <string name="ThemeResetToDefaults">Reset to default</string>
+    <string name="ThemeResetToDefaultsTitle">Reset settings</string>
+    <string name="ThemeResetToDefaultsText">Are you sure you want to reset text size and color settings?</string>
     <string name="DeleteTheme">Delete theme</string>
     <string name="OpenInEditor">Open in editor</string>
+    <string name="SaveChangesAlertTitle">Save changes?</string>
+    <string name="SaveChangesAlertText">Do you want to apply the new colors you chose?</string>
     <!--settings view-->
     <string name="ResetNotificationsText">All notification settings reset to default</string>
     <string name="ResetNotificationsAlertTitle">Reset all notifications</string>
@@ -2445,6 +2455,17 @@
     <string name="FromYou">You</string>
     <string name="ActionTakeScreenshootYou">You took a screenshot!</string>
     <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
+    <!--too many communities-->
+    <string name="LimitReached">Limit Reached</string>
+    <string name="InactiveChats">Inactive chats</string>
+    <string name="InactiveChannelSignature">channel, inactive for %1$s</string>
+    <string name="InactiveChatSignature">%1$s, inactive for %2$s</string>
+    <string name="LeaveChats">Leave %1$s</string>
+    <string name="TooManyCommunities">Too Many Communities</string>
+    <string name="TooManyCommunitiesHintJoin">Sorry, you are a member of too many groups or channels. Please leave some before joining a new one.</string>
+    <string name="TooManyCommunitiesHintCreate">Sorry, you are a member of too many groups or channels. Please leave some before creating a new one.</string>
+    <string name="TooManyCommunitiesHintEdit">Sorry, you are a member of too many groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups.</string>
+    <string name="UserChannelTooMuchJoin">Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first.</string>
     <!--Alert messages-->
     <string name="DeleteAllMessagesAlert">Warning! This will **delete all messages** in this chat for **both** participants.</string>
     <string name="DeleteAll">Delete All</string>

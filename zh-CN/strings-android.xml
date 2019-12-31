@@ -143,6 +143,7 @@
     <string name="EncryptedChatStartedOutgoing">%s 进入了您的加密对话。</string>
     <string name="EncryptedChatStartedIncoming">您已加入加密对话。</string>
     <string name="ClearHistory">清空历史记录</string>
+    <string name="ClearRecentHistory">Clear history</string>
     <string name="HistoryClearedUndo">消息记录已清空。</string>
     <string name="ChatsMute">关闭通知</string>
     <string name="ChatsUnmute">开启通知</string>
@@ -1251,6 +1252,7 @@
     <string name="ThemeDark">暗色</string>
     <string name="ThemeDarkBlue">深蓝色</string>
     <string name="ThemeDay">日间</string>
+    <string name="ThemeNight">Night</string>
     <string name="ThemeArcticBlue">北极</string>
     <string name="ThemeClassic">经典</string>
     <string name="DeleteThemeTitle">删除主题</string>
@@ -1262,6 +1264,8 @@
     <string name="SaveTheme">保存主题</string>
     <string name="NewTheme">新建颜色主题</string>
     <string name="ColorTheme">色彩主题</string>
+    <string name="ColorThemeChanged">Color theme changed.</string>
+    <string name="ColorThemeChangedInfo">You can change it back in *Chat Settings*.</string>
     <string name="BuiltInThemes">内置主题</string>
     <string name="CustomThemes">自定义主题</string>
     <string name="ThemeSetUrl">设置公开链接</string>
@@ -1337,8 +1341,14 @@
     <string name="ColorPickerReset">重置</string>
     <string name="ChangeWallpaperToColor">您确定要将聊天窗口背景设置为纯色吗？</string>
     <string name="ShareTheme">分享主题</string>
+    <string name="EditThemeColors">Edit colors</string>
+    <string name="ThemeResetToDefaults">Reset to default</string>
+    <string name="ThemeResetToDefaultsTitle">Reset settings</string>
+    <string name="ThemeResetToDefaultsText">Are you sure you want to reset text size and color settings?</string>
     <string name="DeleteTheme">删除主题</string>
     <string name="OpenInEditor">在编辑器中打开</string>
+    <string name="SaveChangesAlertTitle">Save changes?</string>
+    <string name="SaveChangesAlertText">Do you want to apply the new colors you chose?</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlertTitle">重置所有通知</string>
@@ -2445,6 +2455,17 @@
     <string name="FromYou">您</string>
     <string name="ActionTakeScreenshootYou">您截了一张图！</string>
     <string name="ActionTakeScreenshoot">un1 截了一张图！</string>
+    <!--too many communities-->
+    <string name="LimitReached">Limit Reached</string>
+    <string name="InactiveChats">Inactive chats</string>
+    <string name="InactiveChannelSignature">channel, inactive for %1$s</string>
+    <string name="InactiveChatSignature">%1$s, inactive for %2$s</string>
+    <string name="LeaveChats">Leave %1$s</string>
+    <string name="TooManyCommunities">Too Many Communities</string>
+    <string name="TooManyCommunitiesHintJoin">Sorry, you are a member of too many groups or channels. Please leave some before joining a new one.</string>
+    <string name="TooManyCommunitiesHintCreate">Sorry, you are a member of too many groups or channels. Please leave some before creating a new one.</string>
+    <string name="TooManyCommunitiesHintEdit">Sorry, you are a member of too many groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups.</string>
+    <string name="UserChannelTooMuchJoin">Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first.</string>
     <!--Alert messages-->
     <string name="DeleteAllMessagesAlert">警告！ 这将**删除**聊天中**双方**的**所有消息**。</string>
     <string name="DeleteAll">删除全部</string>
