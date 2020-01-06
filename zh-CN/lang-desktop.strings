@@ -399,10 +399,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_stickers_emoji" = "贴纸和 Emoji";
 "lng_settings_messages" = "消息";
 "lng_settings_themes" = "主题";
-
+"lng_settings_theme_day" = "日间";
 "lng_settings_theme_classic" = "经典";
 
-
+"lng_settings_theme_night" = "夜间";
 
 "lng_settings_data_storage" = "数据与存储";
 "lng_settings_information" = "编辑资料";
@@ -1634,7 +1634,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_title" = "修改配色";
 "lng_theme_editor_save_button" = "保存主题";
 
-
+"lng_theme_editor_create_title" = "创建主题";
 
 "lng_theme_editor_create" = "新建";
 "lng_theme_editor_name" = "主题名称";

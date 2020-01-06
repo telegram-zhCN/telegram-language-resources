@@ -4699,7 +4699,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-"EditTheme.CreateTitle" = "新建主题";
+"EditTheme.CreateTitle" = "创建主题";
 "EditTheme.EditTitle" = "编辑主题";
 "EditTheme.Title" = "主题名称";
 "EditTheme.ShortLink" = "链接";
@@ -5153,7 +5153,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"AuthSessions.AddDevice.ScanTitle" = "扫描二维码";
 
 
 

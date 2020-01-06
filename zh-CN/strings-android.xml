@@ -1252,7 +1252,7 @@
     <string name="ThemeDark">暗色</string>
     <string name="ThemeDarkBlue">深蓝色</string>
     <string name="ThemeDay">日间</string>
-    <string name="ThemeNight">Night</string>
+    <string name="ThemeNight">夜间</string>
     <string name="ThemeArcticBlue">北极</string>
     <string name="ThemeClassic">经典</string>
     <string name="DeleteThemeTitle">删除主题</string>
@@ -1714,7 +1714,7 @@
     <string name="DistanceUnitsAutomatic">自动</string>
     <string name="DistanceUnitsKilometers">千米</string>
     <string name="DistanceUnitsMiles">英里</string>
-    <string name="AuthAnotherClient">Scan QR Code</string>
+    <string name="AuthAnotherClient">扫描二维码</string>
     <string name="AuthAnotherClientScan">扫描二维码</string>
     <string name="AuthAnotherClientTokenError">二维码无效或已过期。</string>
     <string name="AuthAnotherClientNotFound">找不到验证码。</string>
@@ -2028,7 +2028,7 @@
     <string name="KMetersAway2">%1$s 千米远</string>
     <string name="FootsAway">%1$s 英尺远</string>
     <string name="MilesAway">%1$s 英里远</string>
-    <string name="Directions">Directions</string>
+    <string name="Directions">路线</string>
     <string name="NoPlacesFound">No places found</string>
     <string name="NoPlacesFoundInfo">There are no matches with **%1$s** near you.</string>
     <string name="SendLocation">发送我当前的位置</string>
