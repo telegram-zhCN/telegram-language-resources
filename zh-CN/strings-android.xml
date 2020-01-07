@@ -587,7 +587,7 @@
     <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
     <string name="EventLogStopPoll">un1 终止了投票:</string>
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
-    <string name="EventLogChangedLocation">un1 将群组地点更改至 “%1$s”</string>
+    <string name="EventLogChangedLocation">un1 将群组位置更改至 “%1$s”</string>
     <string name="EventLogRemovedLocation">un1 移除了群组位置</string>
     <string name="EventLogChangedOwnership">将所有权转让给 %1$s</string>
     <string name="EventLogChangedStickersSet">un1 更换了群组贴纸包</string>
@@ -916,16 +916,16 @@
     <string name="MessageScheduledBotAction">这个操作将在消息发布后可用。</string>
     <string name="MessageScheduledVote">投票功能将在消息发布后正式开始。</string>
     <string name="MessageScheduledReminderNotification">&#128197; 备忘录</string>
-    <string name="OneResult">1 result</string>
-    <string name="VideoQualityIsTooLow">Video quality is too low to change compression settings.</string>
-    <string name="TextSelectionHit">Hold the **word**, then move the cursor to select more text to copy.</string>
+    <string name="OneResult">1 结果</string>
+    <string name="VideoQualityIsTooLow">视频质量太低，无法更改压缩设置。</string>
+    <string name="TextSelectionHit">按住消息中的**文字**，移动光标选择完毕之后即可复制。</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
     <string name="MessageLifetimeRemoved">%1$s 取消了阅后即焚计时器</string>
     <string name="MessageLifetimeYouRemoved">您取消了阅后即焚计时器</string>
     <string name="YouHaveNewMessage">您有一条新消息</string>
-    <string name="NotificationMessageScheduled">&#128197; You: %1$s</string>
+    <string name="NotificationMessageScheduled">&#128197; 你: %1$s</string>
     <string name="NotificationMessageScheduledName">&#128197; 您</string>
     <string name="NotificationMessageText">%1$s: %2$s</string>
     <string name="NotificationMessageFew">%1$s 发送给你 %2$s</string>
@@ -1258,7 +1258,7 @@
     <string name="DeleteThemeTitle">删除主题</string>
     <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
     <string name="IncorrectTheme">错误的主题文件</string>
-    <string name="EnterThemeNameEdit">Tap **Create** if you want to share your theme with others or customize each color manually.\n\nPlease enter theme name:</string>
+    <string name="EnterThemeNameEdit">如果要与其他人共享主题或手动自定义每种颜色，请点击“创建”。\n\n请输入主题名称：</string>
     <string name="EnterThemeName">输入主题名称</string>
     <string name="CloseEditor">关闭编辑器</string>
     <string name="SaveTheme">保存主题</string>
@@ -1270,7 +1270,7 @@
     <string name="CustomThemes">自定义主题</string>
     <string name="ThemeSetUrl">设置公开链接</string>
     <string name="ThemeUrl">主题链接</string>
-    <string name="ChatList">对话列表视图</string>
+    <string name="ChatList">对话列表样式</string>
     <string name="ChatListDefault">双行</string>
     <string name="ChatListExpanded">三行</string>
     <string name="CreateTheme">创建主题</string>
@@ -1720,13 +1720,13 @@
     <string name="AuthAnotherClientNotFound">找不到验证码。</string>
     <string name="AuthAnotherClientOk">成功登录！</string>
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
-    <string name="AuthAnotherClientInfo1">Download Telegram on your computer from *desktop.telegram.org*.</string>
+    <string name="AuthAnotherClientInfo1">从*desktop.telegram.org*下载Telegram。</string>
     <string name="AuthAnotherClientInfo2">使用 Telegram 桌面版获得二维码。</string>
     <string name="AuthAnotherClientInfo3">扫描二维码登录您的帐户。</string>
     <string name="AuthAnotherClientUrl">这个二维码可以用于登录您的 Telegram 帐户。\n\n要确认登录，请前往 设置 &gt; 设备 &gt; 扫描二维码 扫描此二维码。</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
-    <string name="LocalDatabaseClearTextTitle">Clear local database</string>
+    <string name="LocalDatabaseClearTextTitle">清除本地数据库</string>
     <string name="LocalDatabaseClearText">Are you sure you want to clear cached text messages?</string>
     <string name="LocalDatabaseInfo">清除本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram 需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
     <string name="ClearMediaCache">清除缓存</string>
@@ -1943,7 +1943,7 @@
     <string name="TerminateSessionQuestion">注销此会话？</string>
     <string name="TerminateSessionText">Are you sure you want to terminate this session?</string>
     <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
-    <string name="AreYouSureSessionsTitle">Terminate sessions</string>
+    <string name="AreYouSureSessionsTitle">终止活动会话</string>
     <string name="AreYouSureSessionTitle">Terminate session</string>
     <string name="Terminate">结束</string>
     <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
@@ -2030,10 +2030,10 @@
     <string name="MilesAway">%1$s 英里远</string>
     <string name="Directions">路线</string>
     <string name="NoPlacesFound">No places found</string>
-    <string name="NoPlacesFoundInfo">There are no matches with **%1$s** near you.</string>
+    <string name="NoPlacesFoundInfo">你的附近没有与”%1$s“匹配的结果。</string>
     <string name="SendLocation">发送我当前的位置</string>
     <string name="SendLiveLocation">分享我的实时位置...</string>
-    <string name="SendLiveLocationMenu">Share my Live Location</string>
+    <string name="SendLiveLocationMenu">分享我的位置动态</string>
     <string name="StopLiveLocation">停止位置共享</string>
     <string name="StopLiveLocationAlertToTitle">结束位置共享</string>
     <string name="StopLiveLocationAlertToUserText">您要停止与 **%1$s** 分享位置信息吗？</string>
@@ -2674,7 +2674,7 @@
     <string name="CallReportIncludeLogs">附带技术详情</string>
     <string name="CallReportLogsExplain">不会泄露对话的内容并且能帮助我们尽快修复问题。</string>
     <string name="CallReportSent">感谢您帮助 Telegram Call 变得更好。</string>
-    <string name="VoipAnsweringAsAccount">作为 %s 回应</string>
+    <string name="VoipAnsweringAsAccount">作为 %s 接听</string>
     <string name="VoipQuickReplies">来电拒接消息模板</string>
     <string name="VoipQuickRepliesExplain">拒接 Telegram 电话时，你可以使用以上的模板答复。您可以根据喜好来更改它们。</string>
     <string name="QuickReplyDefault1">我现在不方便接电话，有什么事吗？</string>
@@ -3224,12 +3224,12 @@
     <string name="ThemeInstallCount_few">%1$d 人正在使用该主题</string>
     <string name="ThemeInstallCount_many">%1$d 人正在使用该主题</string>
     <string name="ThemeInstallCount_other">%1$d 人正在使用该主题</string>
-    <string name="CountOfResults_zero">%1$d of %2$d results</string>
-    <string name="CountOfResults_one">%1$d of %2$d results</string>
-    <string name="CountOfResults_two">%1$d of %2$d results</string>
-    <string name="CountOfResults_few">%1$d of %2$d results</string>
-    <string name="CountOfResults_many">%1$d of %2$d results</string>
-    <string name="CountOfResults_other">%1$d of %2$d results</string>
+    <string name="CountOfResults_zero">%1$d/ %2$d 结果</string>
+    <string name="CountOfResults_one">%1$d/ %2$d 结果</string>
+    <string name="CountOfResults_two">%1$d/ %2$d 结果</string>
+    <string name="CountOfResults_few">%1$d/ %2$d 结果</string>
+    <string name="CountOfResults_many">%1$d/ %2$d 结果</string>
+    <string name="CountOfResults_other">%1$d/ %2$d 结果</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>

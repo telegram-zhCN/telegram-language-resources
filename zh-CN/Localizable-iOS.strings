@@ -600,8 +600,8 @@
 "UserInfo.AddContact" = "添加联系人";
 "UserInfo.ShareContact" = "分享联系信息";
 "UserInfo.StartSecretChat" = "开始加密对话";
-
-
+"UserInfo.StartSecretChatConfirmation" = "确定开启与%@的加密对话吗？";
+"UserInfo.StartSecretChatStart" = "开始";
 "UserInfo.DeleteContact" = "删除联系人";
 "UserInfo.CreateNewContact" = "创建新的联系人";
 "UserInfo.AddToExisting" = "添加到现有联系人";
@@ -4221,13 +4221,13 @@ Unused sets are archived when you add more.";
 
 "ChatList.DeleteForCurrentUser" = "仅为我删除";
 "ChatList.DeleteForEveryone" = "为我和 %@ 同时删除";
+"ChatList.DeleteForEveryoneConfirmationTitle" = "警告！";
+"ChatList.DeleteForEveryoneConfirmationText" = "这将会**双向删除**此对话中**全部消息记录**。";
+"ChatList.DeleteForEveryoneConfirmationAction" = "删除全部";
 
-
-
-
-
-
-
+"ChatList.DeleteSavedMessagesConfirmationTitle" = "警告！";
+"ChatList.DeleteSavedMessagesConfirmationText" = "这将会删除此会话中**全部消息记录**。";
+"ChatList.DeleteSavedMessagesConfirmationAction" = "删除全部";
 
 "ChatList.ClearChatConfirmation" = "确定要删除与 %@ 的所有聊天记录吗？";
 
@@ -4499,7 +4499,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "StickerPacksSettings.AnimatedStickers" = "循环播放动画贴纸";
-
+"StickerPacksSettings.AnimatedStickersInfo" = "动态贴纸会在聊天页面循环播放。";
 "GroupInfo.Permissions.SlowmodeHeader" = "慢速模式";
 "GroupInfo.Permissions.SlowmodeInfo" = "选择每个成员在发送下一条消息之前必须等待的时间。";
 "Channel.AdminLog.DisabledSlowmode" = "%@ 关闭了慢速模式";
@@ -4516,7 +4516,7 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.MultipleTextMessagesDisabled" = "慢速模式已启用。您不能一次发送多条消息。";
 "Share.MultipleMessagesDisabled" = "慢速模式已启用。您不能一次发送多条消息。";
 "Chat.SlowmodeSendError" = "慢速模式已启用。";
-
+"StickerPacksSettings.AnimatedStickersInfo" = "动态贴纸会在聊天页面循环播放。";
 
 "Conversation.Owner" = "所有者";
 
@@ -4751,10 +4751,10 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.SendMessageErrorTooMuchScheduled" = "抱歉，您只能同时设置 100 条定时消息。";
 
 "ChatList.Context.MarkAllAsRead" = "全部标记为已读";
-
-
-
-
+"ChatList.Context.HideArchive" = "隐藏于列表上方";
+"ChatList.Context.UnhideArchive" = "在列表中置顶";
+"ChatList.Context.RemoveFromRecents" = "从最近中清除";
+"ChatList.Context.AddToContacts" = "添加到联系人";
 "ChatList.Context.MarkAsRead" = "标记为已读";
 "ChatList.Context.MarkAsUnread" = "标记为未读";
 "ChatList.Context.Archive" = "归档";
@@ -4763,7 +4763,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.Context.Unpin" = "取消置顶";
 "ChatList.Context.Mute" = "免打扰";
 "ChatList.Context.Unmute" = "取消免打扰";
-
+"ChatList.Context.JoinChannel" = "加入频道";
 "ChatList.Context.Delete" = "删除";
 
 
@@ -5098,6 +5098,8 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"UserInfo.StartSecretChatConfirmation" = "确定开启与%@的加密对话吗？";
+"UserInfo.StartSecretChatStart" = "开始";
 
 
 
@@ -5112,9 +5114,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
+"Group.Location.CreateInThisPlace" = "在该位置创建群组";
 
 
 
@@ -5203,7 +5203,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"ChatContextMenu.TextSelectionTip" = "按住消息中的文字，移动光标选择完毕之后即可复制。";
 
 
 

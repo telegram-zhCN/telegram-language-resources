@@ -166,7 +166,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_media_album_error" = "此文件无法保存为相册的一部分。";
 "lng_edit_media_invalid_file" = "抱歉，您无权使用此文件。";
-
+"lng_edit_caption_attach" = "抱歉，你不能在已经输入编辑的情况下添加媒体文件。";
 
 "lng_intro_about" = "欢迎使用 Telegram 官方桌面版客户端。\n它快速且安全。";
 "lng_start_msgs" = "开始聊天";
@@ -415,12 +415,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_system_integration" = "系统设置";
 "lng_settings_performance" = "性能";
 "lng_settings_enable_animations" = "动画切换效果";
+"lng_settings_sensitive_title" = "敏感内容";
+"lng_settings_sensitive_disable_filtering" = "关闭过滤";
 
 
-
-
-
-
+"lng_settings_spellchecker" = "拼写检查";
+"lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
 
 "lng_backgrounds_header" = "选择新的聊天背景图";
 "lng_theme_sure_keep" = "保留此主题？";
@@ -428,7 +428,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#other" = "{count}秒后还原为以前的主题。";
 "lng_theme_keep_changes" = "保留更改";
 "lng_theme_revert" = "还原";
-
+"lng_theme_no_desktop" = "抱歉，该主题暂未包含支持Telegram Desktop的版本。";
 "lng_theme_share" = "分享";
 "lng_theme_edit" = "编辑";
 "lng_theme_delete" = "删除";
@@ -1785,7 +1785,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 
-
+"lng_restricted_send_stickers_until" = "本群管理员限制你发送贴纸直到 {date} {time} 。";
 
 
 
@@ -1877,7 +1877,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_removed_linked_chat" = "{from} 移除了讨论群";
 "lng_admin_log_changed_linked_channel" = "{from} 将链接的频道更改为 «{chat}»";
 "lng_admin_log_removed_linked_channel" = "{from} 移除了链接的频道";
-"lng_admin_log_changed_location_chat" = "{from} 将群组地点更改至 “{address}”";
+"lng_admin_log_changed_location_chat" = "{from} 将群组位置更改至 “{address}”";
 "lng_admin_log_removed_location_chat" = "{from} 移除了群组位置";
 "lng_admin_log_changed_slow_mode" = "{from} 将慢速模式定时器设置为 {duration}";
 "lng_admin_log_removed_slow_mode" = "{from} 禁用了慢速模式";
@@ -2392,3 +2392,4 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_remove_user_channel" = "从频道中移除 {user} ？";
 "lng_sure_remove_user_group" = "从群组中移除 {user} ？";
 "lng_theme_editor_export_button" = "导出主题";
+"lng_theme_no_desktop_version" = "抱歉，该主题暂未包含支持Telegram Desktop的版本。\n\n(同样，Telegram Desktop暂未支持云端主题)";

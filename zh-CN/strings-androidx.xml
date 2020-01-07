@@ -269,31 +269,31 @@
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
   <string name="ChatContentGroupCreate">创建了群组</string>
-  
+  <string name="ChatContentGroupCreate_outgoing">创建了群组</string>
   <string name="ChatContentGroupReturn">返回了群组</string>
-  
+  <string name="ChatContentGroupReturn_outgoing">回到了群组</string>
   <string name="ChatContentGroupAddYou">将你添加进群组</string>
   <string name="ChatContentGroupAdd">已将 %1$s 添加进入群组</string>
-  
+  <string name="ChatContentGroupAdd_outgoing">添加了 %1$s  进入群组</string>
   
   <string name="ChatContentGroupAddMembers_other">已添加 %1$s 位成员进入群组</string>
   
   
   <string name="ChatContentGroupLeft">退出了群组</string>
-  
+  <string name="ChatContentGroupLeft_outgoing">退出了群组</string>
   <string name="ChatContentGroupJoin">通过邀请链接加入了群组</string>
-  
+  <string name="ChatContentGroupJoin_outgoing">通过邀请链接加入了群组</string>
   <string name="ChatContentGroupJoinPublic">加入了群组</string>
-  
+  <string name="ChatContentGroupJoinPublic_outgoing">加入了群组</string>
   <string name="ChatContentGroupKickYou">将您移出群组</string>
   <string name="ChatContentGroupKick">"将 %1$s 移出群组 "</string>
-  
+  <string name="ChatContentGroupKick_outgoing">%1$s 被移除出群组</string>
   <string name="ChatContentGroupPhoto">已更改群组头像</string>
-  
+  <string name="ChatContentGroupPhoto_outgoing">修改了群组头像</string>
   <string name="ChatContentGroupPhotoRemove">已移除群组头像</string>
-  
+  <string name="ChatContentGroupPhotoRemove_outgoing">移除了群组头像</string>
   <string name="ChatContentGroupName">群组被重命名为 «%1$s»</string>
-  
+  <string name="ChatContentGroupName_outgoing">将群组改名为 «%1$s»</string>
   <string name="Audio">音乐</string>
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
@@ -1441,17 +1441,17 @@
   <string name="EventLogFilterEditedMessages">消息编辑</string>
   <string name="EventLogFilterPinnedMessages">消息置顶</string>
   <string name="EventLogFilterLeavingMembers">成员退出</string>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="EventLogSlowModeChanged">%1$s 将慢速模式定时器设置为 %2$s</string>
+  <string name="EventLogSlowModeDisabled">%1$s 关闭了慢速模式</string>
+  <string name="EventLogLinkedChannelChanged">%1$s 将该群组链接至 %2$s</string>
+  <string name="EventLogLinkedChannelRemoved">%1$s 终止了该群组与 %2$s 的连接</string>
+  <string name="EventLogLinkedChannelChangedUnknown">该群组被链接至 %1$s</string>
+  <string name="EventLogLinkedChannelRemovedUnknown">该群组已被终止与 %1$s 的链接</string>
+  <string name="EventLogLinkedGroupChanged">%1$s 将 %2$s 设置为频道讨论群</string>
+  <string name="EventLogLinkedGroupRemoved">%1$s 移除了讨论群 %2$s</string>
+  <string name="EventLogLocationSet">%1$s 将群组位置设置至 %2$s</string>
+  <string name="EventLogLocationChanged">%1$s 将群组位置更改至 “%2$s”</string>
+  <string name="EventLogLocationRemoved">%1$s 移除了群组位置</string>
   <string name="UntilX">直到 %1$s</string>
   <string name="NetworkUsage">网络用量</string>
   <string name="Use169Output">16:9 相机分辨率</string>
@@ -1740,7 +1740,7 @@
   <string name="ProxySponsor">代理赞助商</string>
   <string name="message_via">通过</string>
   <string name="message_adminSignPlain">管理员</string>
-  
+  <string name="message_ownerSign">所有者</string>
   
   <string name="WhoCanCallMe">谁可以呼叫我</string>
   <string name="UseP2PWith">使用端对端连接</string>
@@ -2673,12 +2673,12 @@
   <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
 
-  
+  <string name="ChatListStyle">对话列表样式</string>
   <!--<string name="ChatListStyleOptIcons">Media Icons</string>
   <string name="ChatListStyleOptFormatting">Text Formatting</string>-->
-  
-  
-  
+  <string name="ChatListStyle1">双行</string>
+  <string name="ChatListStyle2">三行</string>
+  <string name="ChatListStyle3">三行 (较大字号)</string>
 
   
   
@@ -2698,10 +2698,10 @@
 
   
   
+  <string name="LastEditTime">上次编辑：%1$s</string>
   
-  
-  
-  
+  <string name="ResendXMessages_other">重发 %1$s 条消息</string>
+  <string name="EmojiUpdateUnavailable">无法升级 Emoji，请稍后再试。</string>
 
   
   
@@ -2709,7 +2709,7 @@
   
   
 
-  
+  <string name="Archive">归档</string>
   
   
 
@@ -2871,6 +2871,7 @@
   <string name="PriorityMedium">中</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="Private">私人</string>
+  <string name="Region">地区</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
   <string name="RevokeAdminRights">撤销管理员权限</string>
   <string name="SetAdminsAll">将所有成员都设为管理员</string>
