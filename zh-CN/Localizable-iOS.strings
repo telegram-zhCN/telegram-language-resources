@@ -3184,7 +3184,7 @@ Unused sets are archived when you add more.";
 "PrivacyPolicy.Accept" = "同意并继续";
 
 "PrivacyPolicy.AgeVerificationTitle" = "年龄验证";
-"PrivacyPolicy.AgeVerificationMessage" = "点按 同意 确认您已满 %@ 周岁";
+"PrivacyPolicy.AgeVerificationMessage" = "点击 同意 确认您已满 %@ 周岁";
 "PrivacyPolicy.AgeVerificationAgree" = "同意";
 
 "PrivacyPolicy.DeclineTitle" = "拒绝";
@@ -5207,9 +5207,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"OldChannels.NoticeText" = "抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。";
 
-
-
+"OldChannels.NoticeUpgradeText" = "抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。";
 
 
 

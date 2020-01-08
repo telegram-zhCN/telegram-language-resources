@@ -235,7 +235,7 @@
     <string name="MegaLeaveAlertWithName">您确定要退出 **%1$s** 吗？</string>
     <string name="GroupUserCantAdd">抱歉，您不能将此用户加入群组。</string>
     <string name="GroupUserAddLimit">抱歉，此群组已满员。</string>
-    <string name="GroupUserLeftError">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
+    <string name="GroupUserLeftError">抱歉，您需要被他们添加为联系人才能将已退出群组的用户邀请回来。\n\n但他们仍可在未列入群组黑名单的情况下通过邀请链接重新加入群组。</string>
     <string name="GroupUserCantAdmin">抱歉，群组内管理员人数过多。</string>
     <string name="PublicChannelsTooMuch">抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。</string>
     <string name="LocatedChannelsTooMuch">抱歉，目标用户已经创建太多基于位置的群组了。 请让他们先删除或转让一个。</string>
@@ -356,7 +356,7 @@
     <string name="ChannelCantOpenBanned">抱歉，目前您已被禁止在公开群组中发送消息。</string>
     <string name="ChannelCantOpenNa">抱歉，该对话已无法访问。</string>
     <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
-    <string name="ChannelUserLeftError">抱歉，此用户已决定退出此频道，因此您无法邀请此用户回来。</string>
+    <string name="ChannelUserLeftError">抱歉，您需要被他们添加为联系人才能将已退出频道的用户邀请回来。\n\n但他们仍可在未列入频道黑名单的情况下通过邀请链接重新加入频道。</string>
     <string name="ChannelUserCantAdd">抱歉，您不能将此用户加入频道。</string>
     <string name="ChannelUserCantAdmin">抱歉，此频道的管理员人数已达上限。</string>
     <string name="ChannelUserCantBot">抱歉，此频道的机器人数量已达上限。</string>
@@ -1288,8 +1288,8 @@
     <string name="CreateNewThemeAlert">您可以通过更改应用中的颜色来创建自己的主题。\n\n您可以随时切换回默认的 Telegram 主题。</string>
     <string name="ThemeSetUrlHelp">您可以使用 a-z, 0-9 和下划线。\n最短长度为 5 个字符。</string>
     <string name="ThemeHelpLink">Your theme will be updated for all users each time you change it. Anyone can install it using this link:\n%1$s</string>
-    <string name="ThemeCreateHelp">Anyone can install your theme using this link. When you change the theme, it will be updated for all users who installed it.\n\nThe theme will be based on your currently selected theme and wallpaper.</string>
-    <string name="ThemeCreateHelp2">You can change the link of your theme.\n\nTheme links must be longer than 5 characters and can use a-z, 0-9 and underscores.</string>
+    <string name="ThemeCreateHelp">任何人都可以通过该链接安装您的主题。并在您修改主题之后获得更新。\n\n该主题将包括您正在使用的主题和壁纸。</string>
+    <string name="ThemeCreateHelp2">您可以修改您主题的公开链接。\n\n您可以使用 a-z、0-9 和下划线，最小长度为5个字符。</string>
     <string name="ThemeNameInvalid">抱歉，主题名无效。</string>
     <string name="SetUrlInvalid">抱歉，该链接包含无效字符。</string>
     <string name="SetUrlInvalidShort">链接最少需要 5 个字符。</string>
@@ -1299,11 +1299,11 @@
     <string name="SetUrlInUse">抱歉，该链接已被占用。</string>
     <string name="SetUrlAvailable">%1$s 可用。</string>
     <string name="SetUrlPlaceholder">链接</string>
-    <string name="ThemeNamePlaceholder">Name</string>
+    <string name="ThemeNamePlaceholder">名字</string>
     <string name="ThemePreviewDialog1">Eva Summer</string>
     <string name="ThemePreviewDialogMessage1">Reminds me of a Chinese prove...</string>
     <string name="ThemePreviewDialog2">Your inner Competition</string>
-    <string name="ThemePreviewDialogMessage2">hey, I\'ve updated the source code.</string>
+    <string name="ThemePreviewDialogMessage2">嘿，我已经更新了源代码。</string>
     <string name="ThemePreviewDialog3">Mike Apple</string>
     <string name="ThemePreviewDialogMessage3">&#129335;&#8205;&#9794;&#65039; 贴纸</string>
     <string name="ThemePreviewDialog4">Paul Newman</string>
@@ -1319,7 +1319,7 @@
     <string name="ThemePreviewTitle">Reinhardt</string>
     <string name="ThemePreviewLine1">Reinhardt, we need to find you some new tunes &#127926;.</string>
     <string name="ThemePreviewLine2">I can\'t even take you seriously right now.</string>
-    <string name="ThemePreviewLine3">Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!</string>
+    <string name="ThemePreviewLine3">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
     <string name="ThemePreviewLine3Reply">Lucio</string>
     <string name="ThemePreviewLine4">Bring it on! I LIVE for this!</string>
     <string name="ThemePreviewSongTitle">True Survivor</string>
@@ -1329,8 +1329,8 @@
     <string name="NewThemePreviewReply2">Good morning</string>
     <string name="NewThemePreviewLine1">Do you know what time it is?</string>
     <string name="NewThemePreviewLine3">It\'s morning in *Tokyo* &#128526;</string>
-    <string name="UseDifferentTheme">Use a different theme</string>
-    <string name="UseDifferentThemeInfo">You can also use an existing custom theme as a foundation for your theme.</string>
+    <string name="UseDifferentTheme">使用另一个主题</string>
+    <string name="UseDifferentThemeInfo">您同样可以选择一个已经存在的自定义主题作为该主题的基础。</string>
     <string name="ChooseTheme">选择主题</string>
     <string name="ExportTheme">导出</string>
     <string name="Create">创建</string>
@@ -1342,13 +1342,13 @@
     <string name="ChangeWallpaperToColor">您确定要将聊天窗口背景设置为纯色吗？</string>
     <string name="ShareTheme">分享主题</string>
     <string name="EditThemeColors">Edit colors</string>
-    <string name="ThemeResetToDefaults">Reset to default</string>
-    <string name="ThemeResetToDefaultsTitle">Reset settings</string>
-    <string name="ThemeResetToDefaultsText">Are you sure you want to reset text size and color settings?</string>
+    <string name="ThemeResetToDefaults">恢复默认</string>
+    <string name="ThemeResetToDefaultsTitle">重置设置</string>
+    <string name="ThemeResetToDefaultsText">您确定要重置字体大小和自定义色彩？</string>
     <string name="DeleteTheme">删除主题</string>
     <string name="OpenInEditor">在编辑器中打开</string>
-    <string name="SaveChangesAlertTitle">Save changes?</string>
-    <string name="SaveChangesAlertText">Do you want to apply the new colors you chose?</string>
+    <string name="SaveChangesAlertTitle">保存更改？</string>
+    <string name="SaveChangesAlertText">您确定要采用您选择的新颜色？</string>
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlertTitle">重置所有通知</string>
@@ -1420,7 +1420,7 @@
     <string name="BackgroundBlurred">模糊</string>
     <string name="BackgroundMotion">动效</string>
     <string name="ChangeChatBackground">更改聊天窗口背景图</string>
-    <string name="ChatBackground">更改聊天窗口背景图</string>
+    <string name="ChatBackground">聊天背景</string>
     <string name="ResetChatBackgrounds">重置背景图列表</string>
     <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
     <string name="ResetChatBackgroundsAlertTitle">重置聊天窗口背景图</string>
@@ -1579,7 +1579,7 @@
     <string name="RepeatNotificationsNever">从不</string>
     <string name="RepeatNotifications">重复通知</string>
     <string name="PhoneNumberHelp">你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。</string>
-    <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。</string>
+    <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。\n您可以在 设置 &gt; 隐私和安全 &gt; 手机号码 中修改这项权限</string>
     <string name="PhoneNumberChange2">更改手机号码</string>
     <string name="PhoneNumberChangeTitle">更改手机号码</string>
     <string name="ChangePhoneNewNumber">新手机号码</string>
@@ -1727,7 +1727,7 @@
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">清除本地数据库</string>
-    <string name="LocalDatabaseClearText">Are you sure you want to clear cached text messages?</string>
+    <string name="LocalDatabaseClearText">您确定要清理已缓存的文字消息？</string>
     <string name="LocalDatabaseInfo">清除本地数据库将删除缓存在本地的聊天记录并压缩数据库以节省存储空间。Telegram 需要一些数据来维持正常工作，所以数据库大小不会完全归零。\n\n此操作需要一些时间来完成。</string>
     <string name="ClearMediaCache">清除缓存</string>
     <string name="CacheClear">清除</string>
@@ -1755,7 +1755,7 @@
     <string name="TelegramPassportCreatePasswordInfo">请设置一个密码用于通过端对端保护您的数据。\n\n此密码也将用于登录 Telegram。</string>
     <string name="TelegramPassportCreatePassword">设置一个密码</string>
     <string name="TelegramPassportDelete">删除 Telegram Passport</string>
-    <string name="TelegramPassportDeleteTitle">Delete Telegram passport</string>
+    <string name="TelegramPassportDeleteTitle">删除 Telegram passport</string>
     <string name="TelegramPassportDeleteAlert">您确定要删除您的 Telegram Passport 吗？</string>
     <string name="PassportUseLatinOnly">您只能使用拉丁字母。</string>
     <string name="PassportAddPassportInfo">上传一份经过认证的护照英语翻译扫描件。</string>
@@ -1941,10 +1941,10 @@
     <string name="SessionsInfo">控制您在其它设备上的会话。</string>
     <string name="TerminateSessionInfo">点击一个会话来注销它。</string>
     <string name="TerminateSessionQuestion">注销此会话？</string>
-    <string name="TerminateSessionText">Are you sure you want to terminate this session?</string>
+    <string name="TerminateSessionText">您确定要结束该会话吗？</string>
     <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
     <string name="AreYouSureSessionsTitle">终止活动会话</string>
-    <string name="AreYouSureSessionTitle">Terminate session</string>
+    <string name="AreYouSureSessionTitle">结束会话</string>
     <string name="Terminate">结束</string>
     <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
     <string name="TerminateAllSessions">注销除本机外所有设备</string>
@@ -1954,7 +1954,7 @@
     <string name="OtherWebSessions">已关联的网站</string>
     <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
     <string name="TerminateWebSessionInfo">轻触以取消该网站与 Telegram 账号的关联</string>
-    <string name="TerminateWebSessionText">Are you sure you want to disconnect %1$s?</string>
+    <string name="TerminateWebSessionText">您确定要断开与 %1$s 的连接吗？</string>
     <string name="TerminateWebSessionTitle">Disconnect website</string>
     <string name="TerminateWebSessionsTitle">Disconnect websites</string>
     <string name="Disconnect">断开</string>
@@ -2270,7 +2270,7 @@
     <string name="PrivacyForwardsContacts">允许时可点击查看个人信息</string>
     <string name="PrivacyForwardsNobody">无法链接到您的帐户</string>
     <string name="PrivacyForwardsTitle">谁可以在转发我的消息上附加用户链接？</string>
-    <string name="PrivacyForwardsInfo">当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。</string>
+    <string name="PrivacyForwardsInfo">被其他用户转发的消息将无法链接回您的帐户。</string>
     <string name="PrivacyForwardsInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="PrivacyP2PHeader">端到端</string>
@@ -2460,12 +2460,12 @@
     <string name="InactiveChats">Inactive chats</string>
     <string name="InactiveChannelSignature">channel, inactive for %1$s</string>
     <string name="InactiveChatSignature">%1$s, inactive for %2$s</string>
-    <string name="LeaveChats">Leave %1$s</string>
+    <string name="LeaveChats">退出 %1$s</string>
     <string name="TooManyCommunities">Too Many Communities</string>
-    <string name="TooManyCommunitiesHintJoin">Sorry, you are a member of too many groups or channels. Please leave some before joining a new one.</string>
-    <string name="TooManyCommunitiesHintCreate">Sorry, you are a member of too many groups or channels. Please leave some before creating a new one.</string>
-    <string name="TooManyCommunitiesHintEdit">Sorry, you are a member of too many groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups.</string>
-    <string name="UserChannelTooMuchJoin">Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first.</string>
+    <string name="TooManyCommunitiesHintJoin">抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。</string>
+    <string name="TooManyCommunitiesHintCreate">抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。</string>
+    <string name="TooManyCommunitiesHintEdit">抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。</string>
+    <string name="UserChannelTooMuchJoin">抱歉，目标用户已加入太多的群组和频道。请先让他们退出一些。</string>
     <!--Alert messages-->
     <string name="DeleteAllMessagesAlert">警告！ 这将**删除**聊天中**双方**的**所有消息**。</string>
     <string name="DeleteAll">删除全部</string>
@@ -2569,7 +2569,7 @@
     <string name="YouBlockedUser">抱歉，您不能将此用户或机器人添加到群组，因为您已经屏蔽了他们。请先取消屏蔽再继续。</string>
     <string name="JoinGroup">加入</string>
     <string name="AddAdminErrorNotAMember">抱歉，您无法将此用户设为管理员。因为此用户不是群组成员，且您也无权添加此用户。</string>
-    <string name="AddAdminErrorBlacklisted">抱歉，您无法将此用户设为管理员。因为此用户在黑名单中，并且您无权解除其封禁。</string>
+    <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在黑名单中，并且您无权解除其封禁。</string>
     <string name="AddBannedErrorAdmin">抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。</string>
     <string name="ErrorSendRestrictedStickers">抱歉，群组管理员已禁止您发送贴纸。</string>
     <string name="ErrorSendRestrictedMedia">抱歉，群组管理员已禁止您发送媒体文件。</string>
@@ -2588,7 +2588,7 @@
     <string name="PermissionStorage">Telegram 需要访问您的本地存储才能发送和保存照片，视频，音乐和其他媒体文件。</string>
     <string name="PermissionNoAudio">Telegram 需要访问您的麦克风来录制语音留言。</string>
     <string name="PermissionNoAudioVideo">Telegram 需要访问您的麦克风来录制视频。</string>
-    <string name="PermissionNoCamera">Telegram 需要访问您的相机来拍照或录像。</string>
+    <string name="PermissionNoCamera">Telegram 需要访问您的相机来拍照或录像。请在设置授予权限。</string>
     <string name="PermissionNoLocation">Telegram 需要使用定位服务才能获取您的地址并分享给您的朋友。</string>
     <string name="PermissionNoLocationPosition">Telegram 需要获取您的定位服务权限</string>
     <string name="PermissionDrawAboveOtherApps">Telegram 需要使用出现在其他应用上的权限以在画中画模式中播放视频。</string>
