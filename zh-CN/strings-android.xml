@@ -1308,7 +1308,7 @@
     <string name="ThemePreviewDialogMessage3">&#129335;&#8205;&#9794;&#65039; 贴纸</string>
     <string name="ThemePreviewDialog4">Paul Newman</string>
     <string name="ThemePreviewDialogMessage4">Any ideas?</string>
-    <string name="ThemePreviewDialog5">Old Pirates</string>
+    <string name="ThemePreviewDialog5">老海盗</string>
     <string name="ThemePreviewDialogMessage5">Yo-ho-ho!</string>
     <string name="ThemePreviewDialog6">Kate Bright</string>
     <string name="ThemePreviewDialogMessage6">Hola!</string>
@@ -1325,7 +1325,7 @@
     <string name="ThemePreviewSongTitle">True Survivor</string>
     <string name="ThemePreviewSongPerformer">David Hasselhoff</string>
     <string name="NewThemePreviewName">Bob Harris</string>
-    <string name="NewThemePreviewReply">Good morning! &#128075;</string>
+    <string name="NewThemePreviewReply">早上好！&#128075;</string>
     <string name="NewThemePreviewReply2">Good morning</string>
     <string name="NewThemePreviewLine1">Do you know what time it is?</string>
     <string name="NewThemePreviewLine3">It\'s morning in *Tokyo* &#128526;</string>
