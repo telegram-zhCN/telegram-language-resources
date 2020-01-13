@@ -1228,6 +1228,7 @@
   <string name="FreedX">Freed %1$s of disk space</string>
   <string name="LinkPreview">Link Preview</string>
   <string name="ClearHistoryConfirm">Are you sure you want to clear history for this chat? This action cannot be undone.</string>
+  <string name="ClearSavedMessagesConfirm">Are you sure you want to clear all **Saved Messages**? This action cannot be undone.</string>
   <string name="Channel">Channel</string>
   <string name="ThemeCyan">Cyan</string>
   <string name="ThemePink">Pink</string>
@@ -1846,6 +1847,7 @@
   <string name="LeaveReturnPublicLinkHintChannel">You will be able to return to this channel by its public link</string>
   <string name="LeaveReturnPublicLinkHintGroup">You will be able to return to this group by its public link</string>
   <string name="DeleteUserChatConfirm">Are you sure you want to delete the chat with %1$s? This action cannot be undone.</string>
+  <string name="DeleteSavedMessagesConfirm">Are you sure you want to delete all **Saved Messages**? This action cannot be undone.</string>
   <string name="DeleteSecretChatPendingConfirm">Are you sure you want to cancel the secret chat with %1$s?</string>
   <string name="DeleteSecretChatClosedConfirm">Are you sure you want to delete the secret chat with %1$s? This action cannot be undone.</string>
   <string name="DeleteSecretChatConfirm">Are you sure you want to delete the secret chat with %1$s? All chat history will be deleted forever. This action cannot be undone.</string>
@@ -2680,9 +2682,9 @@
   <string name="ChatListStyle2">Three lines</string>
   <string name="ChatListStyle3">Three lines (bigger text)</string>
 
-  
-  
-  
+  <!--<string name="TonLogsWarning">**Warning:** TON Logs may contain your wallet\'s **private key**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
+  <string name="TonLogs">TON Logs</string>
+  <string name="Wallet">Wallet</string>-->
 
   <string name="format_tracksAndDuration">%1$s, %2$s</string>
 
@@ -2711,6 +2713,7 @@
 
   <string name="Archive">Archive</string>
   <string name="ArchiveTitle">Archived Chats</string>
+  <string name="ArchiveTitleList">Archived Chats</string>
   <string name="Unarchive">Unarchive</string>
 
   <string name="ArchiveChat">Archive Chat</string>
@@ -2803,6 +2806,22 @@
   <string name="ChatHistoryWarnLinkedChannel">Warning: this group will be unlinked from %1$s.</string>
 
   <string name="LinkGroupTitle">Select Chat</string>
+  <string name="ArchiveHide">Hide above the list</string>
+  <string name="ArchivePin">Pin in the list</string>
+
+  <string name="MessagesPrivate">Messages in private chats</string>
+  <string name="MessagesGroups">Messages in groups</string>
+  <string name="MessagesBots">Messages from bots</string>
+  <string name="MessagesChannels">Messages from channels</string>
+  <string name="MessagesArchive">Messages in archived chats</string>
+
+  <string name="ArchiveRead">Read All</string>
+
+  <string name="xArchivedChats_one">%1$s archived chat</string>
+  <string name="xArchivedChats_other">%1$s archived chats</string>
+
+  <string name="OpenArchive">Archived Chats</string>
+  <string name="OpenArchiveHint">**No chats to show**\n\nAll of your chats are in the archive</string>
 
   
   
@@ -3205,6 +3224,10 @@
   <string name="xAdmins_two">%1$s admins</string>
   <string name="xAdmins_few">%1$s admins</string>
   <string name="xAdmins_many">%1$s admins</string>
+  <string name="xArchivedChats_zero">%1$s archived chats</string>
+  <string name="xArchivedChats_two">%1$s archived chats</string>
+  <string name="xArchivedChats_few">%1$s archived chats</string>
+  <string name="xArchivedChats_many">%1$s archived chats</string>
   <string name="xAudios_zero">%1$s audios</string>
   <string name="xAudios_two">%1$s audios</string>
   <string name="xAudios_few">%1$s audios</string>

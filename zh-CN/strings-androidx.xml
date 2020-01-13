@@ -1228,6 +1228,7 @@
   <string name="FreedX">已释放 %1$s 存储空间</string>
   <string name="LinkPreview">链接预览</string>
   <string name="ClearHistoryConfirm">您确定要清空此对话的历史记录吗？此操作不可撤销。</string>
+  
   <string name="Channel">频道</string>
   <string name="ThemeCyan">青色</string>
   <string name="ThemePink">粉色</string>
@@ -1846,6 +1847,7 @@
   <string name="LeaveReturnPublicLinkHintChannel">您将可以通过公开链接返回此频道</string>
   <string name="LeaveReturnPublicLinkHintGroup">您将可以通过公开链接返回此群组</string>
   <string name="DeleteUserChatConfirm">您确定要删除与 %1$s 的对话吗？此操作不可撤销。</string>
+  
   <string name="DeleteSecretChatPendingConfirm">您确定要取消与 %1$s 的加密对话吗？</string>
   <string name="DeleteSecretChatClosedConfirm">您确定要删除与 %1$s 的加密对话吗？此操作不可撤销。</string>
   <string name="DeleteSecretChatConfirm">您确定要删除与 %1$s 的加密对话吗？所有对话历史均会被永久删除。此操作不可撤销。</string>
@@ -2680,9 +2682,9 @@
   <string name="ChatListStyle2">三行</string>
   <string name="ChatListStyle3">三行 (较大字号)</string>
 
-  
-  
-  
+  <!--<string name="TonLogsWarning">**Warning:** TON Logs may contain your wallet\'s **private key**.\n\nDo not share them with anyone, unless you know what you are doing.</string>
+  <string name="TonLogs">TON Logs</string>
+  <string name="Wallet">Wallet</string>-->
 
   
 
@@ -2710,6 +2712,7 @@
   
 
   <string name="Archive">归档</string>
+  
   
   
 
@@ -2802,6 +2805,22 @@
 
   
 
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+
+  
   
 
   

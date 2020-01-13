@@ -89,7 +89,7 @@
 "PeerInfo.info" = "info";
 "PeerInfo.SetGroupPhoto" = "Set Group Photo";
 "PeerInfo.AddMember" = "Add Members";
-"PeerInfo.DeleteAndExit" = "Delete and Exit";
+"PeerInfo.DeleteAndExit" = "Delete and Leave";
 "PeerInfo.DeleteGroup" = "Delete Group";
 "PeerInfo.Permissions" = "Permissions";
 "PeerInfo.Administrators" = "Administrators";
@@ -231,7 +231,7 @@
 "Chat.Service.Group.RemovedPhoto" = "%@ removed group photo";
 "Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
-"Chat.Service.Group.JoinedByLink" = "%@ joined group via invite link";
+"Chat.Service.Group.JoinedByLink" = "%@ joined the group via invite link";
 "Chat.Service.Group.MigratedToSupergroup" = "This group was upgraded to a supergroup";
 "Chat.Service.Group.TookScreenshot" = "%@ took a screenshot!";
 "Chat.Service.PinnedMessage" = "pinned message";
@@ -254,7 +254,7 @@
 "Chat.Input.Return" = "Return to the group";
 "Chat.Input.SecretChat.WaitingToUserOnline" = "Waiting for %@ to get online...";
 
-"Chat.Input.Delete" = "Delete and exit";
+"Chat.Input.Delete" = "Delete and Leave";
 "Chat.Input.Join" = "Join";
 "Chat.Input.Discuss" = "Discuss";
 "Chat.Input.Unblock" = "Unblock";
@@ -391,7 +391,7 @@
 
 
 "PHONE_NUMBER_INVALID" = "Invalid phone number";
-"Login.FloodWait" = "Too many attempts, please try again later.";
+"Login.FloodWait" = "Attempts exceeded, please try again later.";
 "PHONE_CODE_INVALID" = "Invalid code";
 "PHONE_CODE_EXPIRED" = "Code expired";
 "PASSWORD_HASH_INVALID" = "Incorrect password";
@@ -412,7 +412,7 @@
 "GeneralSettings.SendByCmdEnter" = "Use ⌘ + Enter to send";
 
 "Telegram.GeneralSettingsViewController" = "General Settings";
-"AccountSettings.Logout" = "Logout";
+"AccountSettings.Logout" = "Log Out";
 "NotificationSettings.ToggleNotifications.Header" = "NOTIFICATIONS";
 "NotificationSettings.ToggleNotifications" = "Notifications";
 "NotificationSettings.MessagesPreview" = "Message Preview";
@@ -467,7 +467,7 @@
 "Chat.List.Map" = "Location";
 "Chat.List.Contact" = "Contact";
 
-"UsernameSettings.ChangeDescription" = "You can choose a username on Telegram. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\n\nYou can use a-z, 0-9 and underscores. Minimum length is 5 characters.";
+"UsernameSettings.ChangeDescription" = "People will be able to find you by this username and contact you without needing your phone number.\n\nYou can use a–z, 0–9 and underscores.\nMinimum length is 5 characters.";
 "UsernameSettings.InputPlaceholder" = "Enter your username";
 "Telegram.UsernameSettingsViewController" = "Username";
 "UsernameSettings.available" = "%@ is available";
@@ -540,7 +540,7 @@
 "PrivacySettings.PrivacyHeader" = "PRIVACY";
 "PrivacySettings.BlockedUsers" = "Blocked Users";
 "PrivacySettings.LastSeen" = "Last Seen";
-"PrivacySettings.Groups" = "Groups";
+"PrivacySettings.Groups" = "Groups and Channels";
 "PrivacySettings.PhoneNumber" = "Phone Number";
 "PrivacySettings.VoiceCalls" = "Voice Calls";
 "PrivacySettings.ProfilePhoto" = "Profile Photo";
@@ -583,7 +583,7 @@
 "ChatList.Context.ClearHistory" = "Clear History";
 "ChatList.Context.Call" = "Call";
 "ChatList.Context.DeleteChat" = "Delete Chat";
-"ChatList.Context.DeleteAndExit" = "Delete and Exit";
+"ChatList.Context.DeleteAndExit" = "Delete and Leave";
 "ChatList.Context.LeaveChannel" = "Leave Channel";
 "ChatList.Context.LeaveGroup" = "Leave Group";
 "ChatList.Context.ReturnGroup" = "Return to Group";
@@ -800,7 +800,7 @@
 "Admins.Owner" = "Owner";
 
 
-"Telegram.ChannelVisibilityController" = "Group";
+"Telegram.ChannelVisibilityController" = "Channel";
 
 
 "PeerInfo.Confirm.AddMembers1_countable" = "%d";
@@ -995,7 +995,7 @@
 "GroupAdmins.AllMembersAdmins" = "All Members Are Admins";
 "GroupAdmins.Desc.AdminInvites" = "Only admins can add and remove members, and can edit the group's name and photo.";
 "GroupAdmins.Desc.AllInvites" = "Group members can add new members, and can edit the name or photo of the group.";
-"Login.PhoneNumberNotRegistred" = "This phone number isn't registered. If you don't have a Telegram account yet, please sign up with your mobile device.";
+"Login.PhoneNumberNotRegistred" = "This phone number isn't registered. If you don't have a Telegram account yet, please sign up on your mobile device.";
 "Login.YourPhoneLabel" = "your phone";
 "Login.YourCodeLabel" = "your code";
 "Login.YourPasswordLabel" = "your password";
@@ -1082,10 +1082,10 @@
 "PrivacySettingsController.Everbody" = "Everybody";
 "PrivacySettingsController.MyContacts" = "My Contacts";
 "PrivacySettingsController.Nobody" = "Nobody";
-"PrivacySettingsController.NeverShare" = "Never Share";
-"PrivacySettingsController.AlwaysShare" = "Always Share";
+"PrivacySettingsController.NeverShare" = "Never Share With";
+"PrivacySettingsController.AlwaysShare" = "Always Share With";
 "PrivacySettingsController.NeverShareWith" = "Never Share With";
-"PrivacySettingsController.AlwaysShareWith" = "Always Share With";
+"PrivacySettingsController.AlwaysShareWith" = "Always Share With…";
 "PrivacySettingsController.NeverAllow" = "Never Allow";
 "PrivacySettingsController.AlwaysAllow" = "Always Allow";
 
@@ -1098,18 +1098,18 @@
 
 "PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto" = "WHO CAN SEE MY PROFILE PHOTO";
 "PrivacySettingsController.ProfilePhoto.CustomHelp" = "You can restrict who can see your profile photo with granular precision.";
-"PrivacySettingsController.ProfilePhoto.AlwaysShareWith.Title" = "Always Share With";
-"PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "Never Share With";
+"PrivacySettingsController.ProfilePhoto.AlwaysShareWith.Title" = "Always Share With…";
+"PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "Never Share With…";
 
 "PrivacySettingsController.Forwards.WhoCanForward" = "WHO CAN ADD A LINK TO MY ACCOUNT WHEN FORWARDING MY MESSAGES";
-"PrivacySettingsController.Forwards.CustomHelp" = "You can restrict who can forward your messages with granular precision.";
+"PrivacySettingsController.Forwards.CustomHelp" = "You can restrict who can add a link to your account when forwarding your messages.";
 "PrivacySettingsController.Forwards.AlwaysAllow.Title" = "Always Allow";
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "Never Allow";
 
 
 "PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "WHO CAN SEE MY PHONE NUMBER";
 "PrivacySettingsController.PhoneNumber.CustomHelp" = "Users who have your number saved in their contacts will also see it on Telegram.";
-"PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "Always Share With";
+"PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "Always Share With…";
 "PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "Never Share";
 
 "PrivacySettingsController.UserCount_countable" = "%d";
@@ -1122,7 +1122,7 @@
 
 "PrivacySettingsController.AddUsers" = "Add Users";
 
-"PrivacySettingsController.LastSeenHeader" = "WHO CAN SEE MY TIMESTAMP";
+"PrivacySettingsController.LastSeenHeader" = "WHO CAN SEE MY LAST SEEN";
 "PrivacySettingsController.LastSeenDescription" = "You won't see Last Seen and Online statuses for people with whom you don't share yours. Approximate last seen will be shown instead (recently, within a week, within a month).";
 
 "PrivacySettingsController.GroupHeader" = "WHO CAN ADD ME TO GROUP CHATS";
@@ -1664,7 +1664,7 @@
 "ChangeNumber.ConfirmCode.Error.codeExpired" = "Code expired.";
 "ChangeNumber.ConfirmCode.Error.limitExceeded" = "You have entered invalid code too many times. Please try again later.";
 "ChangeNumber.ConfirmCode.Success" = "You have changed your phone number to %@.";
-"Messages.Placeholder.Broadcast" = "Broadcast...";
+"Messages.Placeholder.Broadcast" = "Broadcast a message…";
 "Messages.Placeholder.SilentBroadcast" = "Silent Broadcast...";
 
 
@@ -1898,9 +1898,9 @@
 "Chat.Empty.LinkPreview" = "Link Preview";
 
 "Confirm.Delete" = "Delete";
-"Chat.Message.DeleteForMeAndPerson" = "Delete for me and %@";
-"Chat.Message.DeleteForMe" = "Delete for me";
-"Chat.Message.DeleteForEveryone" = "Delete for everyone";
+"Chat.Message.DeleteForMeAndPerson" = "Delete for Me and %@";
+"Chat.Message.DeleteForMe" = "Delete for Me";
+"Chat.Message.DeleteForEveryone" = "Delete for Everyone";
 "Chat.Message.UnsendMessages" = "Unsend my messages";
 
 "Chat.CopySelectedText" = "Copy Selected Text";
@@ -1947,8 +1947,8 @@
 "DataAndStorage.Confirm.ResetSettings" = "Undo all custom auto-download settings.";
 "Chat.Confirm.ReportSpamUser" = "Are you sure you want to report spam from this user?";
 "Chat.Confirm.ReportSpam" = "Report Spam?";
-"Chat.Confirm.ReportSpam.Channel" = "Report Spam and leave channel?";
-"Chat.Confirm.ReportSpam.Group" = "Report Spam and leave group?";
+"Chat.Confirm.ReportSpam.Channel" = "Report Spam and Leave Channel?";
+"Chat.Confirm.ReportSpam.Group" = "Report Spam and Leave Group?";
 
 "Appearance.CustomBackground" = "Custom Background";
 "Appearance.CustomBackground.FileError" = "The file size must not exceed 10MB and the image dimensions must not exceed 500x500px.";
@@ -2006,7 +2006,7 @@
 
 "SecureId.Request.Header1" = "**%@** requests access to your personal data to sign you up for their services.";
 
-"SecureId.Request.Permission.Email" = "Email";
+"SecureId.Request.Permission.Email" = "Email Address";
 "SecureId.Request.Permission.Phone" = "Phone Number";
 "SecureId.Request.Permission.PersonalDetails" = "Personal Details";
 "SecureId.Request.Permission.Passport" = "Passport";
@@ -2373,7 +2373,7 @@
 "TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 "TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
 "TermsOfService.Disagree.Text.Last.OK" = "Delete Now";
-"TermsOfService.Disagree.OK" = "Decline & Deactivate";
+"TermsOfService.Disagree.OK" = "Decline & Delete";
 "TermsOfService.ConfirmAge" = "I confirm that I am %@ or over.";
 "TermsOfService.ProceedBot" = "Please agree and proceed to %@.";
 "ChatList.Context.MaskAsRead" = "Mark As Read";
@@ -2525,7 +2525,7 @@
 
 "Appearance.Settings.AutoNight" = "Auto-Night Mode";
 "Appearance.Settings.AutoNightHeader" = "AUTO-NIGHT MODE";
-"Appearance.Settings.BubblesMode" = "Bubbles Mode";
+"Appearance.Settings.BubblesMode" = "Bubble Mode";
 
 "SecureId.Error.ScansLimit" = "You can't upload more than 20 files";
 "SecureId.Request.Upload.Translation" = "Upload a translation of your document";
@@ -2542,13 +2542,13 @@
 "AutoNight.Settings.Disabled" = "Disabled";
 "AutoNight.Settings.Scheduled" = "Scheduled";
 "AutoNight.Settings.SystemBased" = "System";
-"AutoNight.Settings.SystemBasedDesc" = "App interfaces will match the system appearance settings.";
-"AutoNight.Settings.PreferredTheme" = "PREFERRED NIGHT THEME";
+"AutoNight.Settings.SystemBasedDesc" = "App interface will match the system appearance settings.";
+"AutoNight.Settings.PreferredTheme" = "PREFERRED DARK THEME";
 
 "AutoNight.Settings.UpdateLocation.Error" = "Can't determine your location. Please check your system settings and try again.";
 
 "DarkMode.Confirm.NightMode.Header" = "Night Mode";
-"DarkMode.Confirm.NightMode.Text" = "You have enabled auto night mode. If you want to change dark mode you have to disable it.";
+"DarkMode.Confirm.NightMode.Text" = "You have enabled auto-night mode. If you want to change dark mode settings, you'll need to disable it first.";
 "DarkMode.Confirm.NightMode.OK" = "Disable";
 
 "Gallery.Context.Share.ThisPhoto" = "This Photo";
@@ -2593,7 +2593,7 @@
 "TouchBar.RecentlyUsed" = "Recently Used";
 
 
-"RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs access to your microphone so that you can make calls.";
+"RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs microphone access so that you can make calls.";
 /* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages"; */
 /* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Audio" = "Telegram needs access to your microphone to send voice messages"; */
 /* "RequestAcces.Error.HaveNotAccess.VoiceMessage.Camera" = "Telegram needs access to your camera to send voice messages"; */
@@ -2641,11 +2641,11 @@
 "Message.Status.Archive.FailedSizeLimit" = "file size limit exceeded";
 
 
-"Chat.SendMessageError.TooMuchScheduled" = "Sorry, you can only send only 100 scheduled messages.";
+"Chat.SendMessageError.TooMuchScheduled" = "Sorry, you can only send 100 scheduled messages.";
 
 "Chat.SendMessageErrorFlood" = "Sorry, you can only send messages to mutual contacts at the moment.";
 "Chat.SendMessageErrorGroupRestricted" = "Sorry, you are currently restricted from posting to public groups.";
-"Chat.SendMessageSlowmodeError" = "Slow mode is enabled.";
+"Chat.SendMessageSlowmodeError" = "Slow Mode is active.";
 "Generic.ErrorMoreInfo" = "More Info";
 
 
@@ -3095,7 +3095,7 @@
 "Chat.ViewBackground" = "VIEW BACKGROUND";
 
 
-"GeneralSettings.BigEmoji" = "Big Emoji";
+"GeneralSettings.BigEmoji" = "Large Emoji";
 
 
 "App.Tooltip.VoiceRecord" = "Hold to record audio. Click to switch to video";
@@ -3252,7 +3252,7 @@
 
 "Channel.TransferOwner.Error.Title" = "Security Check";
 "Channel.TransferOwner.Error.Text" = "Ownership transfers are only available if:\n\n• 2-Step Verification was enabled for your account more than 7 days ago.\n\n• You have logged in on this device more than 24 hours ago.\n\nPlease come back later.";
-"Channel.TransferOwner.Error.Enable2FA" = "Enable 2-Step Verification.";
+"Channel.TransferOwner.Error.Enable2FA" = "Enable Two-Step Verification";
 
 "BlockContact.Title" = "Do you want to block %@ from messaging and calling you on Telegram?";
 "BlockContact.Options.Title" = "Manage User";
@@ -3283,14 +3283,14 @@
 
 
 
-"SlowMode.Multiple.Error" = "Slow mode is enabled. You can't send more than one message at a time.";
-"SlowMode.ForwardComment.Error" = "Slow mode is enabled. You can't forward a message with a comment.";
-"SlowMode.TooLong.Error" = "Slow mode is enabled. This text is too long to send as one message.";
+"SlowMode.Multiple.Error" = "Slow Mode is active. You can't send more than one message at a time.";
+"SlowMode.ForwardComment.Error" = "Slow Mode is active. You can't forward a message with a comment.";
+"SlowMode.TooLong.Error" = "Slow Mode is active. This text is too long to send as one message.";
 
 
-"SlowMode.PreviewSender.FileTooltip" = "Slow mode is enabled.\nYou can't send multiple files at once.";
+"SlowMode.PreviewSender.FileTooltip" = "Slow Mode is active.\nYou can't send multiple files at once.";
 "SlowMode.PreviewSender.MediaTooltip" = "Slow mode is enabled.\nYou can't send multiple media at once.";
-"SlowMode.PreviewSender.Comment" = "Slow Mode is Enabled.\nYou can't add a comment.";
+"SlowMode.PreviewSender.Comment" = "Slow Mode is active.\nYou can't add a comment.";
 
 
 "Channel.Permissions.SlowMode.Timeout.Off" = "Off";
@@ -3398,7 +3398,7 @@
 "EditTheme.SlugPlaceholder" = "short link";
 "EditTheme.SlugDesc" = "Your theme will be updated for all users each time you change it. Anyone can install it using this link.\n\nTheme links must be longer than 5 characters and can use a-z, 0-9 and underscores.";
 "EditTheme.SlugError.AlreadyExists" = "This link is already taken. Please try a different one.";
-"EditTheme.SlugError.Format" = "invalid format";
+"EditTheme.SlugError.Format" = "Sorry, invalid format";
 "EditTheme.Edit" = "Save";
 "EditThame.Name.AlreadyTaken" = "This name is already taken.";
 
