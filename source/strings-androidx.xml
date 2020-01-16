@@ -2464,6 +2464,7 @@
   <string name="CreatePoll">New Poll</string>
   <string name="RetractVote">Retract Vote</string>
   <string name="StopPoll">Stop Poll</string>
+  <string name="StopQuiz">Stop Quiz</string>
 
   <string name="SecretChatForwardError">This message cannot be forwarded to secret chats.</string>
 
@@ -2482,11 +2483,19 @@
   <string name="PollOptionsMax">You have added the maximum number of options.</string>
 
   <string name="PollAnonymous">Anonymous Poll</string>
+  <string name="PollPublic">Public Poll</string>
   <string name="PollResults">Final Results</string>
+  <string name="QuizAnonymous">Anonymous Quiz</string>
+  <string name="QuizPublic">Quiz</string>
+  <string name="QuizResults">Final Results</string>
 
   <string name="xVotes_one">%1$s vote</string>
   <string name="xVotes_other">%1$s votes</string>
   <string name="NoVotes">No votes</string>
+
+  <string name="xAnswered_one">%1$s answered</string>
+  <string name="xAnswered_other">%1$s answered</string>
+  <string name="NoAnswered">Nobody answered yet</string>
 
   <string name="NotificationSyncOffWarn">**Want notifications for new messages?**\n\nTurn on system auto sync to get notifications while app is closed.</string>
   <string name="NeverShowAgain">Never show again</string>
@@ -2814,6 +2823,10 @@
   <string name="MessagesBots">Messages from bots</string>
   <string name="MessagesChannels">Messages from channels</string>
   <string name="MessagesArchive">Messages in archived chats</string>
+  <string name="MessagesArchivePrivate">Messages in archived private chats</string>
+  <string name="MessagesArchiveGroups">Messages in archived groups</string>
+  <string name="MessagesArchiveBots">Messages from archived bots</string>
+  <string name="MessagesArchiveChannels">Messages from archived channels</string>
 
   <string name="ArchiveRead">Read All</string>
 
@@ -3224,6 +3237,10 @@
   <string name="xAdmins_two">%1$s admins</string>
   <string name="xAdmins_few">%1$s admins</string>
   <string name="xAdmins_many">%1$s admins</string>
+  <string name="xAnswered_zero">%1$s answered</string>
+  <string name="xAnswered_two">%1$s answered</string>
+  <string name="xAnswered_few">%1$s answered</string>
+  <string name="xAnswered_many">%1$s answered</string>
   <string name="xArchivedChats_zero">%1$s archived chats</string>
   <string name="xArchivedChats_two">%1$s archived chats</string>
   <string name="xArchivedChats_few">%1$s archived chats</string>

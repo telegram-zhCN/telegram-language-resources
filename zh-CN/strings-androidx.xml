@@ -2464,6 +2464,7 @@
   <string name="CreatePoll">发起投票</string>
   <string name="RetractVote">撤回我的投票</string>
   <string name="StopPoll">终止投票</string>
+  
 
   <string name="SecretChatForwardError">您无法将此消息转发到加密对话中。</string>
 
@@ -2482,11 +2483,19 @@
   <string name="PollOptionsMax">您添加的选项已达最大数量。</string>
 
   <string name="PollAnonymous">匿名投票</string>
+  
   <string name="PollResults">最终结果</string>
+  
+  
+  
 
   
   <string name="xVotes_other">%1$s 人已投票</string>
   <string name="NoVotes">无人投票</string>
+
+  
+  
+  
 
   <string name="NotificationSyncOffWarn">**想要收到新消息的通知吗？**\n\n在应用关闭时启用系统自动同步以获取通知。</string>
   <string name="NeverShowAgain">不再显示</string>
@@ -2809,6 +2818,10 @@
   
   
 
+  
+  
+  
+  
   
   
   
