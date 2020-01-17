@@ -5132,6 +5132,7 @@ Any member of this group will be able to see messages in the channel.";
 "IntentsSettings.SuggestedChatsPrivateChats" = "Private Chats";
 "IntentsSettings.SuggestedChatsGroups" = "Groups";
 "IntentsSettings.SuggestedChatsInfo" = "Archived chats will not be suggested.";
+"IntentsSettings.SuggestedAndSpotlightChatsInfo" = "Suggestions will appear in the Share Sheet and Spotlight search results. Archived chats will not be suggested.";
 "IntentsSettings.SuggestBy" = "Suggest By";
 "IntentsSettings.SuggestByAll" = "All Sent Messages";
 "IntentsSettings.SuggestByShare" = "Only Shared Messages";
@@ -5241,7 +5242,46 @@ Any member of this group will be able to see messages in the channel.";
 "StickerPackActionInfo.ArchivedTitle" = "Stickers Archived";
 "StickerPackActionInfo.RemovedText" = "%@ is no longer in your stickers.";
 
+"Conversation.ContextMenuCancelEditing" = "Cancel Editing";
 
+"Map.NoPlacesNearby" = "There are no known places nearby.\nTry a different location.";
+
+"CreatePoll.QuizTitle" = "New Quiz";
+"CreatePoll.QuizOptionsHeader" = "QUIZ OPTIONS";
+"CreatePoll.Anonymous" = "Anonymous Voting";
+"CreatePoll.MultipleChoice" = "Multiple Choice";
+"CreatePoll.MultipleChoiceQuizAlert" = "A quiz has one correct answer.";
+"CreatePoll.Quiz" = "Quiz Mode";
+"CreatePoll.QuizInfo" = "A quiz has one correct answer. Users can't revoke their answers.";
+"CreatePoll.QuizTip" = "Tap to choose the correct answer";
+
+"MessagePoll.LabelPoll" = "Public Poll";
+"MessagePoll.LabelAnonymousQuiz" = "Anonymous Quiz";
+"MessagePoll.LabelQuiz" = "Quiz";
+"MessagePoll.SubmitVote" = "Submit Vote";
+"MessagePoll.ViewResults" = "View Results";
+"MessagePoll.QuizNoUsers" = "Nobody answered yet";
+"MessagePoll.QuizCount_0" = "%@ answered";
+"MessagePoll.QuizCount_1" = "1 answered";
+"MessagePoll.QuizCount_2" = "%@ answered";
+"MessagePoll.QuizCount_3_10" = "%@ answered";
+"MessagePoll.QuizCount_many" = "%@ answered";
+"MessagePoll.QuizCount_any" = "%@ answered";
+
+"PollResults.Title" = "Poll Results";
+"PollResults.Collapse" = "COLLAPSE";
+"PollResults.ShowMore_1" = "Show %@ More";
+"PollResults.ShowMore_any" = "Show %@ More";
+
+"Conversation.StopQuiz" = "Stop Quiz";
+"Conversation.StopQuizConfirmationTitle" = "If you stop this quiz now, nobody will be able to submit answers. This action cannot be undone.";
+"Conversation.StopQuizConfirmation" = "Stop Quiz";
+
+"Forward.ErrorDisabledForChat" = "Sorry, you can't forward messages to this chat.";
+"Forward.ErrorPublicPollDisabledInChannels" = "Sorry, public polls can’t be forwarded to channels.";
+"Forward.ErrorPublicQuizDisabledInChannels" = "Sorry, public polls can’t be forwarded to channels.";
+
+"Map.PlacesInThisArea" = "Places In This Area";
 
 
 /* new from translations.telegram.org */
@@ -5588,6 +5628,10 @@ Any member of this group will be able to see messages in the channel.";
 "PassportKit.Button.GetTelegramAlertTitle" = "Get Telegram Messenger";
 "PassportKit.Button.Title" = "Log in with Telegram";
 "Peer.DeletedUser" = "Deleted User";
+"PollResults.ShowMore_0" = "Show %@ More";
+"PollResults.ShowMore_2" = "Show %@ More";
+"PollResults.ShowMore_3_10" = "Show %@ More";
+"PollResults.ShowMore_many" = "Show %@ More";
 "SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
 "StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.\nUnused sets are archived when you add more.";
 "Undo.MessagesDeleted" = "Messages deleted";

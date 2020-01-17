@@ -5136,6 +5136,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
 "IntentsSettings.Reset" = "重置";
 
 
@@ -5210,6 +5211,45 @@ Any member of this group will be able to see messages in the channel.";
 "OldChannels.NoticeText" = "抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。";
 
 "OldChannels.NoticeUpgradeText" = "抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
