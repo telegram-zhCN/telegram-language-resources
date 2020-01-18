@@ -1307,7 +1307,7 @@
     <string name="CustomThemes">Custom themes</string>
     <string name="ThemeSetUrl">Set link</string>
     <string name="ThemeUrl">Theme Link</string>
-    <string name="BubbleRadius">Rounded corners</string>
+    <string name="BubbleRadius">Message corners</string>
     <string name="ChatList">Chat list view</string>
     <string name="ChatListDefault">Two lines</string>
     <string name="ChatListExpanded">Three lines</string>

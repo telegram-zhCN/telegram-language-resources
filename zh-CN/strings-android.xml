@@ -1307,7 +1307,7 @@
     <string name="CustomThemes">自定义主题</string>
     <string name="ThemeSetUrl">设置公开链接</string>
     <string name="ThemeUrl">主题链接</string>
-    <string name="BubbleRadius">Rounded corners</string>
+    <string name="BubbleRadius">Message corners</string>
     <string name="ChatList">对话列表样式</string>
     <string name="ChatListDefault">双行</string>
     <string name="ChatListExpanded">三行</string>
