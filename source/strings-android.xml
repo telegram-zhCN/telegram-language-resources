@@ -245,6 +245,7 @@
     <string name="ActionPinnedText">un1 pinned \"%1$s\"</string>
     <string name="ActionPinnedNoText">un1 pinned a message</string>
     <string name="ActionPinnedPoll">un1 pinned a poll</string>
+    <string name="ActionPinnedQuiz">un1 pinned a quiz</string>
     <string name="ActionPinnedPhoto">un1 pinned a photo</string>
     <string name="ActionPinnedVideo">un1 pinned a video</string>
     <string name="ActionPinnedFile">un1 pinned a file</string>
@@ -377,6 +378,7 @@
     <string name="ChannelMessageVideo">%1$s posted a video</string>
     <string name="ChannelMessageContact2">%1$s posted a contact %2$s</string>
     <string name="ChannelMessagePoll2">%1$s posted a poll %2$s</string>
+    <string name="ChannelMessageQuiz2">%1$s posted a quiz %2$s</string>
     <string name="ChannelMessageMap">%1$s posted a location</string>
     <string name="ChannelMessageLiveLocation">%1$s posted a live location</string>
     <string name="ChannelMessageDocument">%1$s posted a file</string>
@@ -545,7 +547,7 @@
     <string name="QuizWrongAnswerInfo">You missed the correct option.</string>
     <string name="QuizWellDone">Well done!</string>
     <string name="QuizWellDoneInfo">You chose the right answer.</string>
-    <string name="PublicPoll">Public Poll</string>
+    <string name="PublicPoll">Poll</string>
     <string name="QuizPoll">Quiz</string>
     <string name="PollSubmitVotes">VOTE</string>
     <string name="PollViewResults">VIEW RESULTS</string>
@@ -568,12 +570,12 @@
     <string name="Vote_few">%1$d votes</string>
     <string name="Vote_many">%1$d votes</string>
     <string name="Vote_other">%1$d votes</string>
-    <string name="VoteQuiz_zero">%1$d answered</string>
-    <string name="VoteQuiz_one">%1$d answered</string>
-    <string name="VoteQuiz_two">%1$d answered</string>
-    <string name="VoteQuiz_few">%1$d answered</string>
-    <string name="VoteQuiz_many">%1$d answered</string>
-    <string name="VoteQuiz_other">%1$d answered</string>
+    <string name="Answer_zero">%1$d answers</string>
+    <string name="Answer_one">%1$d answer</string>
+    <string name="Answer_two">%1$d answers</string>
+    <string name="Answer_few">%1$d answers</string>
+    <string name="Answer_many">%1$d answers</string>
+    <string name="Answer_other">%1$d answers</string>
     <string name="ShowVotes_zero">Show More (%1$d)</string>
     <string name="ShowVotes_one">Show More (%1$d)</string>
     <string name="ShowVotes_two">Show More (%1$d)</string>
@@ -976,6 +978,7 @@
     <string name="NotificationMessageSDVideo">%1$s sent you a self-destructing video</string>
     <string name="NotificationMessageContact2">%1$s shared a contact %2$s with you</string>
     <string name="NotificationMessagePoll2">%1$s sent you a poll %2$s</string>
+    <string name="NotificationMessageQuiz2">%1$s sent you a quiz %2$s</string>
     <string name="NotificationMessageMap">%1$s sent you a location</string>
     <string name="NotificationMessageLiveLocation">%1$s sent you a live location</string>
     <string name="NotificationMessageGame">%1$s invited you to play %2$s</string>
@@ -992,6 +995,7 @@
     <string name="NotificationMessageGroupPhoto">%1$s sent a photo to the group %2$s</string>
     <string name="NotificationMessageGroupVideo">%1$s sent a video to the group %2$s</string>
     <string name="NotificationMessageGroupPoll2">%1$s sent a poll %3$s to the group %2$s</string>
+    <string name="NotificationMessageGroupQuiz2">%1$s sent a quiz %3$s to the group %2$s</string>
     <string name="NotificationMessageGroupContact2">%1$s shared a contact %3$s in the group %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s sent a location to the group %2$s</string>
     <string name="NotificationMessageGroupLiveLocation">%1$s shared a live location with the group %2$s</string>
@@ -1033,6 +1037,7 @@
     <string name="NotificationActionPinnedText">%1$s pinned \"%2$s\" in the group %3$s</string>
     <string name="NotificationActionPinnedNoText">%1$s pinned a message in the group %2$s</string>
     <string name="NotificationActionPinnedPoll2">%1$s pinned a poll %3$s in the group %2$s</string>
+    <string name="NotificationActionPinnedQuiz2">%1$s pinned a quiz %3$s in the group %2$s</string>
     <string name="NotificationActionPinnedPhoto">%1$s pinned a photo in the group %2$s</string>
     <string name="NotificationActionPinnedGame">%1$s pinned a game in the group %2$s</string>
     <string name="NotificationActionPinnedGameScore">%1$s pinned a game score in the group %2$s</string>
@@ -1051,6 +1056,7 @@
     <string name="NotificationActionPinnedTextChannel">%1$s pinned \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s pinned a message</string>
     <string name="NotificationActionPinnedPollChannel2">%1$s pinned a poll %2$s</string>
+    <string name="NotificationActionPinnedQuizChannel2">%1$s pinned a quiz %2$s</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s pinned a photo</string>
     <string name="NotificationActionPinnedGameChannel">%1$s pinned a game</string>
     <string name="NotificationActionPinnedGameScoreChannel">%1$s pinned a game score</string>
