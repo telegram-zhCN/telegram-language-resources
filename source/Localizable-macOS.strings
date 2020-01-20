@@ -611,11 +611,11 @@
 
 "Peer.Activity.Chat.PlayingGame" = "%@ is playing a game";
 "Peer.Activity.Chat.TypingText" = "%@ is typing";
-"Peer.Activity.Chat.SendingPhoto" = "%@ is sending photo";
+"Peer.Activity.Chat.SendingPhoto" = "%@ is sending a photo";
 "Peer.Activity.Chat.RecordingVideo" = "%@ is recording video";
-"Peer.Activity.Chat.SendingVideo" = "%@ is sending video";
+"Peer.Activity.Chat.SendingVideo" = "%@ is sending a video";
 "Peer.Activity.Chat.RecordingAudio" = "%@ is recording voice";
-"Peer.Activity.Chat.SendingFile" = "%@ is sending file";
+"Peer.Activity.Chat.SendingFile" = "%@ is sending a file";
 
 "Peer.Activity.Chat.Multi.PlayingGame1" = "%@ and %d others are playing a game";
 "Peer.Activity.Chat.Multi.TypingText1" = "%@ and %d others are typing";

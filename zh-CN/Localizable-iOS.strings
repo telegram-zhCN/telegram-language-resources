@@ -22,6 +22,10 @@
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 
+
+
+
+
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
 "PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
@@ -93,6 +97,7 @@
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|实时位置";
 "PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
+
 "PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
 "PUSH_MESSAGE_INVOICE" = "%1$@|给您发送了一张 %2$@ 的账单";
@@ -125,6 +130,7 @@
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
+
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
 "PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|发布了一条转发的消息";
@@ -155,6 +161,7 @@
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
 "PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 发起投票 \"%3$@\"";
+
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
 "PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@ 发送了一张 %3$@ 的账单";
@@ -197,6 +204,7 @@
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
+
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 "PUSH_PINNED_INVOICE" = "%1$@|📌 置顶了一张账单";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
@@ -1928,6 +1936,7 @@
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
 "Notification.PinnedPollMessage" = "%@ 置顶了一项投票";
 
+
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "置顶了图片";
 "Message.PinnedVideoMessage" = "置顶了一段视频";
@@ -1937,7 +1946,6 @@
 "Message.PinnedStickerMessage" = "置顶了一张贴纸";
 "Message.PinnedLocationMessage" = "置顶了一条位置信息";
 "Message.PinnedContactMessage" = "置顶了一条联系人信息";
-"Message.PinnedPollMessage" = "置顶投票";
 
 "Notification.PinnedMessage" = "已置顶消息";
 
@@ -3794,6 +3802,7 @@ Unused sets are archived when you add more.";
 "AttachmentMenu.Poll" = "投票";
 "Conversation.PinnedPoll" = "置顶投票";
 
+
 "CreatePoll.Title" = "发起投票";
 "CreatePoll.Create" = "发送";
 "CreatePoll.TextHeader" = "问题";
@@ -5433,6 +5442,7 @@ Any member of this group will be able to see messages in the channel.";
 "MESSAGE_VIDEO_SECRET" = "%1$@ 给您发送了一张自毁视频";
 "MESSAGE_VIDEO_SECRET_SEPARATED" = "%1$@|给您发送了一段自毁视频";
 "MESSAGE_VIDEO_SEPARATED" = "%1$@|给您发送了一段视频";
+"Message.PinnedPollMessage" = "置顶投票";
 "NEW_CHANNEL_MESSAGES_SEPARATED_any" = "%1$@|发布了 %2$d 条消息";
 "NEW_CHANNEL_MESSAGE_FWDS_SEPARATED_any" = "%1$@|发布了 %2$d 条转发的消息";
 "NEW_CHANNEL_MESSAGE_PHOTOS_SEPARATED_any" = "%1$@|发布了 %2$d 张图片";
