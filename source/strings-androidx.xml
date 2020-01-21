@@ -856,6 +856,7 @@
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
   <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
   <string name="ActionPinnedPoll">%1$s pinned a **poll**</string>
+  <string name="ActionPinnedQuiz">%1$s pinned a **quiz**</string>
   <string name="ActionPinnedGeoLive">%1$s pinned a **live location**</string>
   <string name="ActionPinnedSticker">%1$s pinned a **sticker**</string>
   <string name="ActionPinnedGif">%1$s pinned a **GIF**</string>
@@ -1383,6 +1384,7 @@
   <string name="EventLogOriginalCaptionEmpty">Empty</string>
   <string name="EventLogPinnedMessages">%1$s pinned this message:</string>
   <string name="EventLogPollStopped">%1$s stopped the poll:</string>
+  <string name="EventLogQuizStopped">%1$s stopped the quiz:</string>
   <string name="EventLogUnpinnedMessages">%1$s unpinned message</string>
   <string name="EventLogDeletedMessages">%1$s deleted this message:</string>
   <string name="EventLogChangedGroupLink">%1$s changed the group link:</string>
@@ -2469,7 +2471,13 @@
   <string name="SecretChatForwardError">This message cannot be forwarded to secret chats.</string>
 
   <string name="StopPollWarn">If you stop this poll now, nobody will be able to vote in it anymore.\n\nThis action cannot be undone.</string>
+  <string name="StopQuizWarn">If you stop this quiz now, nobody will be able to participate in it anymore.\n\nThis action cannot be undone.</string>
 
+  <string name="ViewPollResults">View Results</string>
+  <string name="ViewQuizResults">View Results</string>
+  <string name="Vote">Vote</string>
+
+  <string name="Quiz">Quiz</string>
   <string name="Poll">Poll</string>
   <string name="PollQuestion">Question</string>
   <string name="PollQuestionEmpty">Ask a Question</string>
@@ -2477,25 +2485,30 @@
   <string name="PollOptions">Poll options</string>
   <string name="PollDiscard">Discard Poll</string>
   <string name="PollDiscardPrompt">Are you sure you want to discard this poll?</string>
+  <string name="QuizDiscard">Discard Quiz</string>
+  <string name="QuizDiscardPrompt">Are you sure you want to discard this quiz?</string>
   <string name="PollOptionsAdd">Add an option…</string>
   <string name="PollOptionsLimit_one">You can add %1$s more option</string>
   <string name="PollOptionsLimit_other">You can add %1$s more options</string>
   <string name="PollOptionsMax">You have added the maximum number of options.</string>
 
   <string name="PollAnonymous">Anonymous Poll</string>
-  <string name="PollPublic">Public Poll</string>
+  <string name="PollPublic">Poll</string>
   <string name="PollResults">Final Results</string>
   <string name="QuizAnonymous">Anonymous Quiz</string>
   <string name="QuizPublic">Quiz</string>
   <string name="QuizResults">Final Results</string>
 
+  <string name="PollResultsTitle">Poll Results</string>
+  <string name="QuizResultsTitle">Quiz Results</string>
+
   <string name="xVotes_one">%1$s vote</string>
   <string name="xVotes_other">%1$s votes</string>
   <string name="NoVotes">No votes</string>
 
-  <string name="xAnswered_one">%1$s answered</string>
-  <string name="xAnswered_other">%1$s answered</string>
-  <string name="NoAnswered">Nobody answered yet</string>
+  <string name="xAnswers_one">%1$s answer</string>
+  <string name="xAnswers_other">%1$s answers</string>
+  <string name="NoAnswers">No answers yet</string>
 
   <string name="NotificationSyncOffWarn">**Want notifications for new messages?**\n\nTurn on system auto sync to get notifications while app is closed.</string>
   <string name="NeverShowAgain">Never show again</string>
@@ -2836,6 +2849,15 @@
   <string name="OpenArchive">Archived Chats</string>
   <string name="OpenArchiveHint">**No chats to show**\n\nAll of your chats are in the archive</string>
 
+  <string name="PollSettingAnonymous">Anonymous Voting</string>
+  <string name="PollSettingMultiple">Multiple Options</string>
+  <string name="PollSettingQuiz">Quiz Mode</string>
+  <string name="PollSettingQuizInfo">Polls in Quiz Mode have one correct answer. Users can\'t revoke their answers.</string>
+
+  <string name="PollPublicForwardHint">Sorry, polls with visible votes can\'t be forwarded to channels.</string>
+  <string name="xCorrectAnswers_one">%1$s correct answer</string>
+  <string name="xCorrectAnswers_other">%1$s correct answers</string>
+
   
   
   
@@ -3007,6 +3029,7 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
+  <string name="NoAnswered">Nobody answered yet</string>
   <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
   <string name="NotificationMessageGif">%1$s sent you a GIF</string>
@@ -3238,9 +3261,15 @@
   <string name="xAdmins_few">%1$s admins</string>
   <string name="xAdmins_many">%1$s admins</string>
   <string name="xAnswered_zero">%1$s answered</string>
+  <string name="xAnswered_one">%1$s answered</string>
   <string name="xAnswered_two">%1$s answered</string>
   <string name="xAnswered_few">%1$s answered</string>
   <string name="xAnswered_many">%1$s answered</string>
+  <string name="xAnswered_other">%1$s answered</string>
+  <string name="xAnswers_zero">%1$s answers</string>
+  <string name="xAnswers_two">%1$s answers</string>
+  <string name="xAnswers_few">%1$s answers</string>
+  <string name="xAnswers_many">%1$s answers</string>
   <string name="xArchivedChats_zero">%1$s archived chats</string>
   <string name="xArchivedChats_two">%1$s archived chats</string>
   <string name="xArchivedChats_few">%1$s archived chats</string>
@@ -3285,6 +3314,10 @@
   <string name="xContactsJoined_two">%1$s contacts on Telegram</string>
   <string name="xContactsJoined_few">%1$s contacts on Telegram</string>
   <string name="xContactsJoined_many">%1$s contacts on Telegram</string>
+  <string name="xCorrectAnswers_zero">%1$s correct answers</string>
+  <string name="xCorrectAnswers_two">%1$s correct answers</string>
+  <string name="xCorrectAnswers_few">%1$s correct answers</string>
+  <string name="xCorrectAnswers_many">%1$s correct answers</string>
   <string name="xDays_zero">%1$s days</string>
   <string name="xDays_two">%1$s days</string>
   <string name="xDays_few">%1$s days</string>

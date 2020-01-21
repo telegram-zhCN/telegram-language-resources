@@ -856,6 +856,7 @@
   <string name="ActionPinnedNoText">%1$s 置顶了一条**消息**</string>
   <string name="ActionPinnedGeo">%1$s 置顶了一个**位置**</string>
   <string name="ActionPinnedPoll">%1$s 置顶了一项**投票**</string>
+  
   <string name="ActionPinnedGeoLive">%1$s 置顶了一个**实时位置**</string>
   <string name="ActionPinnedSticker">%1$s 置顶了一张**贴纸**</string>
   <string name="ActionPinnedGif">%1$s 置顶了一个 **GIF**</string>
@@ -1383,6 +1384,7 @@
   <string name="EventLogOriginalCaptionEmpty">无</string>
   <string name="EventLogPinnedMessages">%1$s 置顶了这条消息：</string>
   <string name="EventLogPollStopped">%1$s 结束了投票：</string>
+  
   <string name="EventLogUnpinnedMessages">%1$s 解除了消息置顶</string>
   <string name="EventLogDeletedMessages">%1$s 删除了这条消息：</string>
   <string name="EventLogChangedGroupLink">%1$s 修改了群组链接：</string>
@@ -2469,7 +2471,13 @@
   <string name="SecretChatForwardError">您无法将此消息转发到加密对话中。</string>
 
   <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
+  
 
+  
+  
+  
+
+  
   <string name="Poll">投票</string>
   <string name="PollQuestion">问题</string>
   <string name="PollQuestionEmpty">请输入问题</string>
@@ -2477,6 +2485,8 @@
   <string name="PollOptions">候选项</string>
   <string name="PollDiscard">放弃发起投票</string>
   <string name="PollDiscardPrompt">您确定要放弃发起新投票吗？</string>
+  
+  
   <string name="PollOptionsAdd">添加一个选项...</string>
   
   <string name="PollOptionsLimit_other">您还可以添加 %1$s 个选项</string>
@@ -2486,6 +2496,9 @@
   
   <string name="PollResults">最终结果</string>
   
+  
+  
+
   
   
 
@@ -2833,6 +2846,15 @@
   
   
 
+  
+  
+
+  
+  
+  
+  
+
+  
   
   
 

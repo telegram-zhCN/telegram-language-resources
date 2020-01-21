@@ -5264,7 +5264,7 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.QuizInfo" = "A quiz has one correct answer. Users can't revoke their answers.";
 "CreatePoll.QuizTip" = "Tap to choose the correct answer";
 
-"MessagePoll.LabelPoll" = "Public Poll";
+"MessagePoll.LabelPoll" = "Poll";
 "MessagePoll.LabelAnonymousQuiz" = "Anonymous Quiz";
 "MessagePoll.LabelQuiz" = "Quiz";
 "MessagePoll.SubmitVote" = "Submit Vote";
@@ -5287,10 +5287,12 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.StopQuizConfirmation" = "Stop Quiz";
 
 "Forward.ErrorDisabledForChat" = "Sorry, you can't forward messages to this chat.";
-"Forward.ErrorPublicPollDisabledInChannels" = "Sorry, public polls can’t be forwarded to channels.";
-"Forward.ErrorPublicQuizDisabledInChannels" = "Sorry, public polls can’t be forwarded to channels.";
+"Forward.ErrorPublicPollDisabledInChannels" = "Sorry, polls with visible votes can’t be forwarded to channels.";
+"Forward.ErrorPublicQuizDisabledInChannels" = "Sorry, polls with visible votes can’t be forwarded to channels.";
 
 "Map.PlacesInThisArea" = "Places In This Area";
+
+"Conversation.LiveLocationYouAndOther" = "**You** and %@";
 
 
 /* new from translations.telegram.org */

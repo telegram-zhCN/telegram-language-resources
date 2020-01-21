@@ -532,9 +532,10 @@
     <string name="PollResults">Poll Results</string>
     <string name="PollAnonymous">Anonymous Voting</string>
     <string name="PollQuiz">Quiz Mode</string>
+    <string name="PollSelectOption">Select an option first</string>
     <string name="PollCollapse">Collapse</string>
     <string name="PollExpand">Expand</string>
-    <string name="PublicPollCantForward">Sorry, public polls can’t be forwarded to channels.</string>
+    <string name="PublicPollCantForward">Sorry, polls with visible votes can’t be forwarded to channels.</string>
     <string name="PollCantForwardSecretChat">Sorry, polls can’t be forwarded to secret chats.</string>
     <string name="PollMultiple">Multiple Answers</string>
     <string name="PollTapToSelect">Tap to choose the correct answer</string>
@@ -624,6 +625,7 @@
     <string name="EventLogPinnedMessages">un1 pinned this message:</string>
     <string name="EventLogUnpinnedMessages">un1 unpinned message</string>
     <string name="EventLogStopPoll">un1 stopped the poll:</string>
+    <string name="EventLogStopQuiz">un1 stopped the quiz:</string>
     <string name="EventLogDeletedMessages">un1 deleted this message:</string>
     <string name="EventLogChangedLocation">un1 changed group location to \"%1$s\"</string>
     <string name="EventLogRemovedLocation">un1 removed group location</string>

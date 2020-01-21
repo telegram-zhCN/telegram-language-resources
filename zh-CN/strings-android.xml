@@ -532,9 +532,10 @@
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
     <string name="PollQuiz">小测验</string>
+    <string name="PollSelectOption">Select an option first</string>
     <string name="PollCollapse">收起</string>
     <string name="PollExpand">展开</string>
-    <string name="PublicPollCantForward">Sorry, public polls can’t be forwarded to channels.</string>
+    <string name="PublicPollCantForward">Sorry, polls with visible votes can’t be forwarded to channels.</string>
     <string name="PollCantForwardSecretChat">Sorry, polls can’t be forwarded to secret chats.</string>
     <string name="PollMultiple">多选答案</string>
     <string name="PollTapToSelect">点按选择正确答案</string>
@@ -624,6 +625,7 @@
     <string name="EventLogPinnedMessages">un1 置顶了这条消息：</string>
     <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
     <string name="EventLogStopPoll">un1 终止了投票:</string>
+    <string name="EventLogStopQuiz">un1 stopped the quiz:</string>
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
     <string name="EventLogChangedLocation">un1 将群组位置更改至 “%1$s”</string>
     <string name="EventLogRemovedLocation">un1 移除了群组位置</string>
