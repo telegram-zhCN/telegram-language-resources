@@ -23,7 +23,7 @@
 "PUSH_PINNED_POLL" = "%1$@|📌 Pinned a poll";
 
 "PUSH_MESSAGE_QUIZ" = "%1$@|sent you a quiz %2$@";
-"PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|posted a quiz %2$@";
+"PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|posted the quiz \"%2$@\"";
 "PUSH_PINNED_QUIZ" = "%1$@|pinned a quiz";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
@@ -130,7 +130,7 @@
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|📍 Location";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|Live location";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|📊 Poll \"%2$@\"";
-"PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|posted a quiz %2$@";
+"PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|posted the quiz \"%2$@\"";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|🎮 Play %2$@";
 "PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|Forwarded message";
@@ -161,7 +161,7 @@
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@: 📍 Location";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@: Live location";
 "PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@: 📊 Poll \"%3$@\"";
-"PUSH_CHAT_MESSAGE_QUIZ" = "%2$@|%1$@ sent a quiz %3$@ to the group";
+"PUSH_CHAT_MESSAGE_QUIZ" = "%2$@|%1$@ sent the quiz \"%3$@\" to the group";
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@: 📹 GIF";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ invited the group to play %3$@";
 "PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@: Invoice for %3$@";
@@ -5259,15 +5259,15 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.QuizOptionsHeader" = "QUIZ OPTIONS";
 "CreatePoll.Anonymous" = "Anonymous Voting";
 "CreatePoll.MultipleChoice" = "Multiple Choice";
-"CreatePoll.MultipleChoiceQuizAlert" = "A quiz has one correct answer.";
+"CreatePoll.MultipleChoiceQuizAlert" = "Polls in quiz mode can have only one correct answer.";
 "CreatePoll.Quiz" = "Quiz Mode";
-"CreatePoll.QuizInfo" = "A quiz has one correct answer. Users can't revoke their answers.";
+"CreatePoll.QuizInfo" = "Polls in Quiz Mode have one correct answer. Users can't revoke their answers.";
 "CreatePoll.QuizTip" = "Tap to choose the correct answer";
 
 "MessagePoll.LabelPoll" = "Poll";
 "MessagePoll.LabelAnonymousQuiz" = "Anonymous Quiz";
 "MessagePoll.LabelQuiz" = "Quiz";
-"MessagePoll.SubmitVote" = "Submit Vote";
+"MessagePoll.SubmitVote" = "Vote";
 "MessagePoll.ViewResults" = "View Results";
 "MessagePoll.QuizNoUsers" = "Nobody answered yet";
 "MessagePoll.QuizCount_0" = "%@ answered";
@@ -5279,8 +5279,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "PollResults.Title" = "Poll Results";
 "PollResults.Collapse" = "COLLAPSE";
-"PollResults.ShowMore_1" = "Show %@ More";
-"PollResults.ShowMore_any" = "Show %@ More";
+"PollResults.ShowMore_1" = "Show More (%@)";
+"PollResults.ShowMore_any" = "Show More (%@)";
 
 "Conversation.StopQuiz" = "Stop Quiz";
 "Conversation.StopQuizConfirmationTitle" = "If you stop this quiz now, nobody will be able to submit answers. This action cannot be undone.";
@@ -5291,6 +5291,11 @@ Any member of this group will be able to see messages in the channel.";
 "Forward.ErrorPublicQuizDisabledInChannels" = "Sorry, polls with visible votes can’t be forwarded to channels.";
 
 "Map.PlacesInThisArea" = "Places In This Area";
+
+"Appearance.BubbleCornersSetting" = "Message Corners";
+"Appearance.BubbleCorners.Title" = "Message Corners";
+"Appearance.BubbleCorners.AdjustAdjacent" = "Adjust Adjacent Corners";
+"Appearance.BubbleCorners.Apply" = "Set";
 
 "Conversation.LiveLocationYouAndOther" = "**You** and %@";
 
@@ -5640,10 +5645,10 @@ Any member of this group will be able to see messages in the channel.";
 "PassportKit.Button.GetTelegramAlertTitle" = "Get Telegram Messenger";
 "PassportKit.Button.Title" = "Log in with Telegram";
 "Peer.DeletedUser" = "Deleted User";
-"PollResults.ShowMore_0" = "Show %@ More";
-"PollResults.ShowMore_2" = "Show %@ More";
-"PollResults.ShowMore_3_10" = "Show %@ More";
-"PollResults.ShowMore_many" = "Show %@ More";
+"PollResults.ShowMore_0" = "Show More (%@)";
+"PollResults.ShowMore_2" = "Show More (%@)";
+"PollResults.ShowMore_3_10" = "Show More (%@)";
+"PollResults.ShowMore_many" = "Show More (%@)";
 "SocksProxySetup.UseSocks5" = "Use SOCKS5 Proxy";
 "StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.\nUnused sets are archived when you add more.";
 "Undo.MessagesDeleted" = "Messages deleted";

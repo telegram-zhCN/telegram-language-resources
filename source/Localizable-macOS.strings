@@ -136,6 +136,12 @@
 "Chat.DropQuickDesc" = "in a quick way";
 "Chat.DropAsFilesDesc" = "without compression";
 
+"Chat.DropEditTitle" = "Drop file here to edit media";
+"Chat.DropEditDesc" = "Edit Media";
+
+
+
+
 "Chat.DropFolder.Title" = "Drop the folder here to send it";
 "Chat.DropFolder.Desc" = "as an archive";
 
@@ -271,6 +277,9 @@
 "Message.Context.Goto" = "Show Message";
 "Message.Context.Pin" = "Pin";
 
+"Message.Context.Report.AlertOK" = "Thank you! Your report will be reviewed by our team very soon.";
+
+
 "Message.Context.Confirm.Pin1" = "Would you like to pin this message?";
 "Message.Context.Confirm.NotifyPin" = "Notify all members";
 
@@ -402,7 +411,6 @@
 
 
 
-"GeneralSettings.LargeFonts" = "Large Font";
 "GeneralSettings.MediaKeysForInAppPlayer" = "Handle media keys for in-app player";
 "GeneralSettings.EmojiReplacements" = "Automatically replace emojis";
 "GeneralSettings.InputSettings" = "INPUT SETTINGS";
@@ -1026,6 +1034,7 @@
 "InstalledStickers.PacksTitle" = "STICKER SETS";
 "InstalledStickers.Descrpiption" = "Artists are welcome to add their own sticker sets using our @stickers bot.\n\nTap on a sticker to view and add the whole set.";
 "InstalledStickers.Archived" = "Archived Stickers";
+"InstalledStickers.LoopAnimated" = "Loop Animated Stickers";
 "InstalledStickers.Tranding" = "Trending Stickers";
 "StickerSet.Remove" = "Remove";
 "InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
@@ -1875,10 +1884,10 @@
 "AppearanceSettings.ChatView.Header" = "CHAT VIEW";
 
 "AppearanceSettings.ColorTheme.day" = "Day";
-"AppearanceSettings.ColorTheme.day_classic" = "Day Classic";
-"AppearanceSettings.ColorTheme.dark" = "Dark";
-"AppearanceSettings.ColorTheme.night_blue" = "Night Blue";
-"AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
+"AppearanceSettings.ColorTheme.dayClassic" = "Day Classic";
+"AppearanceSettings.ColorTheme.system" = "System";
+"AppearanceSettings.ColorTheme.nightAccent" = "Night Accent";
+
 "AppearanceSettings.ChatView.Classic" = "Minimalist";
 "AppearanceSettings.ChatView.Bubbles" = "Bubbles";
 "AppearanceSettings.FollowSystemAppearance" = "Follow System Appearance";
@@ -1892,6 +1901,10 @@
 "AppearanceSettings.ChatPreview.ZeroText" = "Reinhardt, we need to find you some new tunes 🎶.";
 "AppearanceSettings.ChatPreview.FirstText" = "Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!";
 "AppearanceSettings.ChatPreview.SecondText" = "I can't even take you seriously right now.";
+
+"AppearanceSettings.ChatPreview.1" = "Good morning! 👋";
+"AppearanceSettings.ChatPreview.2" = "Do you know what time it is?";
+"AppearanceSettings.ChatPreview.3" = "It's morning in Tokyo 😎";
 
 
 
@@ -1947,6 +1960,7 @@
 "DataAndStorage.Confirm.ResetSettings" = "Undo all custom auto-download settings.";
 "Chat.Confirm.ReportSpamUser" = "Are you sure you want to report spam from this user?";
 "Chat.Confirm.ReportSpam" = "Report Spam?";
+"Chat.Confirm.ReportSpam.Header" = "Report Spam";
 "Chat.Confirm.ReportSpam.Channel" = "Report Spam and Leave Channel?";
 "Chat.Confirm.ReportSpam.Group" = "Report Spam and Leave Group?";
 
@@ -2287,6 +2301,8 @@
 "EditAccount.NameDesc" = "Enter your name and add a profile photo.";
 "EditAccount.AddAccount" = "Add Account";
 
+"EditAccount.Title" = "Edit Profile";
+
 
 "Chanel.EventFilter.AllAdmins" = "All Admins";
 "Chanel.EventFilter.AllEvents" = "All Events";
@@ -2342,6 +2358,10 @@
 
 "PrivacyAndSecurity.ClearCloudDraftsHeader" = "CHATS";
 "PrivacyAndSecurity.ClearCloudDrafts" = "Delete All Cloud Drafts";
+
+"PrivacyAndSecurity.SensitiveHeader" = "SENSITIVE CONTENT";
+"PrivacyAndSecurity.SensitiveText" = "Disable filtering";
+"PrivacyAndSecurity.SensitiveDesc" = "Display sensitive media in public channels on all your Telegram devices.";
 
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "Are you sure you want to delete all cloud drafts?";
 
@@ -2679,13 +2699,21 @@
 "UnknownError" = "An error occurred. Please try again later.";
 
 
-"Chat.Poll.TotalVotes_countable" = "%d";
-"Chat.Poll.TotalVotes_zero" = "%d users voted";
-"Chat.Poll.TotalVotes_one" = "%d user voted";
-"Chat.Poll.TotalVotes_two" = "%d users voted";
-"Chat.Poll.TotalVotes_few" = "%d users voted";
-"Chat.Poll.TotalVotes_many" = "%d users voted";
-"Chat.Poll.TotalVotes_other" = "%d users voted";
+"Chat.Poll.TotalVotes1_countable" = "%d";
+"Chat.Poll.TotalVotes1_zero" = "%d votes";
+"Chat.Poll.TotalVotes1_one" = "%d vote";
+"Chat.Poll.TotalVotes1_two" = "%d votes";
+"Chat.Poll.TotalVotes1_few" = "%d votes";
+"Chat.Poll.TotalVotes1_many" = "%d votes";
+"Chat.Poll.TotalVotes1_other" = "%d votes";
+
+"Chat.Quiz.TotalVotes_countable" = "%d";
+"Chat.Quiz.TotalVotes_zero" = "%d answers";
+"Chat.Quiz.TotalVotes_one" = "%d answer";
+"Chat.Quiz.TotalVotes_two" = "%d answers";
+"Chat.Quiz.TotalVotes_few" = "%d answers";
+"Chat.Quiz.TotalVotes_many" = "%d answers";
+"Chat.Quiz.TotalVotes_other" = "%d answers";
 
 
 "Chat.Poll.Tooltip.NoVotes" = "no votes";
@@ -2697,11 +2725,28 @@
 "Chat.Poll.Tooltip.Votes_many" = "%d votes";
 "Chat.Poll.Tooltip.Votes_other" = "%d votes";
 
+
+"Chat.Quiz.Tooltip.NoVotes" = "no answers";
+"Chat.Quiz.Tooltip.Votes_countable" = "%d";
+"Chat.Quiz.Tooltip.Votes_zero" = "%d answers";
+"Chat.Quiz.Tooltip.Votes_one" = "%d answer";
+"Chat.Quiz.Tooltip.Votes_two" = "%d answers";
+"Chat.Quiz.Tooltip.Votes_few" = "%d answers";
+"Chat.Quiz.Tooltip.Votes_many" = "%d answers";
+"Chat.Quiz.Tooltip.Votes_other" = "%d answers";
+
+
 "Chat.Poll.TotalVotesEmpty" = "No votes yet";
 "Chat.Poll.TotalVotesResultEmpty" = "No votes";
 
+"Chat.Quiz.TotalVotesEmpty" = "No answers yet";
+"Chat.Quiz.TotalVotesResultEmpty" = "No answers";
+
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "Anonymous Poll";
+"Chat.Poll.Type.Public" = "Poll";
+"Chat.Poll.Type.AnonymousQuiz" = "Anonymous Quiz";
+"Chat.Poll.Type.Quiz" = "Quiz";
 "Chat.Poll.Type.Closed" = "Final Results";
 
 "Chat.Poll.Unvote" = "Retract Vote";
@@ -2709,10 +2754,19 @@
 "Chat.Poll.Stop.Confirm.Header" = "Stop Poll?";
 "Chat.Poll.Stop.Confirm.Text" = "If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone.";
 
+"Chat.Poll.ViewResults" = "View Results";
+"Chat.Poll.SubmitVote" = "Vote";
+
+"Chat.Quiz.Stop" = "Stop Quiz";
+"Chat.Quiz.Stop.Confirm.Header" = "Stop Quiz?";
+"Chat.Quiz.Stop.Confirm.Text" = "If you stop this quiz now, nobody will be able to answer in it anymore. This action cannot be undone.";
+
+
 
 "Language.RemovePack" = "Are you sure you want to remove this language pack?";
 
 "NewPoll.Title" = "New Poll";
+"NewPoll.Title.Quiz" = "New Quiz";
 "NewPoll.QuestionHeader" = "QUESTION";
 
 "NewPoll.QuestionHeaderLimit" = "QUESTION (%d)";
@@ -2721,6 +2775,11 @@
 "NewPoll.OptionsHeader" = "POLL OPTIONS";
 "NewPoll.OptionsPlaceholder" = "Option";
 "NewPoll.OptionsAddOption" = "Add an Option";
+
+"NewPoll.QuizTooltip" = "Click to choose the correct answer";
+
+"NewPoll.QuizMultiple.Error" = "Polls in quiz mode can have only one correct answer.";
+
 
 "NewPoll.OptionsDescription_countable" = "%d";
 "NewPoll.OptionsDescription_zero" = "You can add %d more options";
@@ -2748,6 +2807,24 @@
 
 "NewPoll.DisacardConfirm.Yes" = "Discard";
 "NewPoll.DisacardConfirm.No" = "No";
+
+
+"NewPoll.Anonymous" = "Anonymous Voting";
+"NewPoll.MultipleChoice" = "Multiple Choice";
+"NewPoll.Quiz" = "Quiz Mode";
+"NewPoll.QuizDesc" = "Polls in Quiz Mode have one correct answer. Users can't revoke their answers.";
+
+"PollResults.Title.Poll" = "Poll Results";
+"PollResults.Collapse" = "[Collapse]()";
+"PollResults.Title.Quiz" = "Quiz Results";
+
+"PollResults.LoadMore_countable" = "%d";
+"PollResults.LoadMore_zero" = "Show More (%d)";
+"PollResults.LoadMore_one" = "Show More (%d)";
+"PollResults.LoadMore_two" = "Show More (%d)";
+"PollResults.LoadMore_few" = "Show More (%d)";
+"PollResults.LoadMore_many" = "Show More (%d)";
+"PollResults.LoadMore_other" = "Show More (%d)";
 
 
 "Passport.ResetPassword.Confirm.Header" = "Forgotten Password";
@@ -3351,6 +3428,11 @@
 
 
 "Join.ChannelsTooMuch" = "Sorry, you are a member of too many groups and channels. Please leave some before joining one.";
+"Create.ChannelsTooMuch" = "Sorry, you are a member of too many groups and channels. Please leave some before creating a new one.";
+"Upgrade.ChannelsTooMuch" = "Sorry, you are a member of too many groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups.";
+"Invite.ChannelsTooMuch" = "Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first.";
+
+"Join.InactiveChannels" = "Inactive Chats";
 "Chat.Scheduled.InlineButton.Error" = "The buttons will become active as soon as the message is sent.";
 
 
@@ -3380,6 +3462,7 @@
 "Appearance.Theme.Remove" = "Remove";
 "Appearance.Theme.Edit" = "Edit";
 "Appearance.NewTheme" = "New Theme";
+"Appearance.Reset" = "Reset to Defaults";
 "Appearance.ExportTheme" = "Export Theme";
 "Appearance.Theme.Share" = "Share";
 "Appearance.CloudThemes" = "CLOUD THEMES";
@@ -3405,6 +3488,7 @@
 
 "Appearance.Confirm.RemoveTitle" = "Theme";
 "Appearance.Confirm.RemoveText" = "Are you sure you want to remove this theme?";
+"Appearance.Confirm.RemoveOK" = "Remove";
 
 
 "Chat.Action.ViewTheme" = "VIEW THEME";
@@ -3421,25 +3505,6 @@
 
 
 
-/* "Updated.JustNow" = "updated just now"; */
-/* "Updated.MinutesAgo_countable" = "%d"; */
-/* "Updated.MinutesAgo_zero" = "updated %d minutes ago"; */
-/* "Updated.MinutesAgo_one" = "updated %d minute ago"; */
-/* "Updated.MinutesAgo_two" = "updated %d minutes ago"; */
-/* "Updated.MinutesAgo_few" = "updated %d minutes ago"; */
-/* "Updated.MinutesAgo_many" = "updated %d minutes ago"; */
-/* "Updated.MinutesAgo_any" = "updated %d minutes ago"; */
-
-/* "Updated.HoursAgo_countable" = "%d"; */
-/* "Updated.HoursAgo_zero" = "updated %d hours ago"; */
-/* "Updated.HoursAgo_one" = "updated %d hour ago"; */
-/* "Updated.HoursAgo_two" = "updated %d hours ago"; */
-/* "Updated.HoursAgo_few" = "updated %d hours ago"; */
-/* "Updated.HoursAgo_many" = "updated %d hours ago"; */
-/* "Updated.HoursAgo_any" = "updated %d hours ago"; */
-/* "Updated.YesterdayAt" = "updated yesterday at %@"; */
-/* "Updated.AtDate" = "updated %@"; */
-/* "Updated.TodayAt" = "updated today at %@"; */
 
 
 
@@ -3453,6 +3518,185 @@
 "ChatList.Mute.1Day" = "For 1 Day";
 "ChatList.Mute.3Days" = "For 3 Days";
 "ChatList.Mute.Forever" = "Forever";
+
+
+
+
+
+"SettingsSearch.Synonyms.EditProfile.Title" = " ";
+"SettingsSearch.Synonyms.EditProfile.Bio" = " ";
+"SettingsSearch.Synonyms.EditProfile.PhoneNumber" = " ";
+"SettingsSearch.Synonyms.EditProfile.Username" = "nickname";
+"SettingsSearch.Synonyms.EditProfile.AddAccount" = " ";
+"SettingsSearch.Synonyms.EditProfile.Logout" = " ";
+
+"SettingsSearch.Synonyms.Calls.Title" = " ";
+"SettingsSearch.Synonyms.Calls.CallTab" = " ";
+
+"SettingsSearch.Synonyms.Stickers.Title" = " ";
+"SettingsSearch.Synonyms.Stickers.SuggestStickers" = " ";
+"SettingsSearch.Synonyms.Stickers.FeaturedPacks" = " ";
+"SettingsSearch.Synonyms.Stickers.ArchivedPacks" = " ";
+"SettingsSearch.Synonyms.Stickers.Masks" = " ";
+
+"SettingsSearch.Synonyms.Notifications.Title" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsAlert" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsExceptions" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsAlert" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsExceptions" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsAlert" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsExceptions" = " ";
+"SettingsSearch.Synonyms.Notifications.InAppNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.InAppNotificationsVibrate" = " ";
+"SettingsSearch.Synonyms.Notifications.InAppNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.DisplayNamesOnLockScreen" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChats" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedPublicGroups" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChannels" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeCountUnreadMessages" = " ";
+"SettingsSearch.Synonyms.Notifications.ContactJoined" = " ";
+"SettingsSearch.Synonyms.Notifications.ResetAllNotifications" = " ";
+
+"SettingsSearch.Synonyms.Privacy.Title" = " ";
+"SettingsSearch.Synonyms.Privacy.BlockedUsers" = " ";
+"SettingsSearch.Synonyms.Privacy.LastSeen" = " ";
+"SettingsSearch.Synonyms.Privacy.ProfilePhoto" = " ";
+"SettingsSearch.Synonyms.Privacy.Forwards" = " ";
+"SettingsSearch.Synonyms.Privacy.Calls" = " ";
+"SettingsSearch.Synonyms.Privacy.GroupsAndChannels" = " ";
+"SettingsSearch.Synonyms.Privacy.Passcode" = " ";
+"SettingsSearch.Synonyms.Privacy.PasscodeAndTouchId" = " ";
+"SettingsSearch.Synonyms.Privacy.PasscodeAndFaceId" = " ";
+"SettingsSearch.Synonyms.Privacy.TwoStepAuth" = "Password";
+"SettingsSearch.Synonyms.Privacy.AuthSessions" = " ";
+"SettingsSearch.Synonyms.Privacy.DeleteAccountIfAwayFor" = " ";
+
+"SettingsSearch.Synonyms.Privacy.Data.Title" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.ContactsReset" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.ContactsSync" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.TopPeers" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.DeleteDrafts" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.ClearPaymentsInfo" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.SecretChatLinkPreview" = " ";
+
+"SettingsSearch.Synonyms.Data.Title" = " ";
+"SettingsSearch.Synonyms.Data.Storage.Title" = "Cache";
+"SettingsSearch.Synonyms.Data.Storage.KeepMedia" = " ";
+"SettingsSearch.Synonyms.Data.Storage.ClearCache" = " ";
+"SettingsSearch.Synonyms.Data.NetworkUsage" = " ";
+"SettingsSearch.Synonyms.Data.AutoDownloadUsingCellular" = " ";
+"SettingsSearch.Synonyms.Data.AutoDownloadUsingWifi" = " ";
+"SettingsSearch.Synonyms.Data.AutoDownloadReset" = " ";
+"SettingsSearch.Synonyms.Data.AutoplayGifs" = " ";
+"SettingsSearch.Synonyms.Data.AutoplayVideos" = " ";
+"SettingsSearch.Synonyms.Data.CallsUseLessData" = " ";
+"SettingsSearch.Synonyms.Data.SaveIncomingPhotos" = " ";
+"SettingsSearch.Synonyms.Data.SaveEditedPhotos" = " ";
+"SettingsSearch.Synonyms.Data.DownloadInBackground" = " ";
+
+"SettingsSearch.Synonyms.Proxy.Title" = "SOCKS5\nMTProto";
+"SettingsSearch.Synonyms.Proxy.AddProxy" = " ";
+"SettingsSearch.Synonyms.Proxy.UseForCalls" = " ";
+
+"SettingsSearch.Synonyms.Appearance.Title" = " ";
+"SettingsSearch.Synonyms.Appearance.TextSize" = "font";
+"SettingsSearch.Synonyms.Appearance.ChatBackground" = "Wallpaper";
+"SettingsSearch.Synonyms.Appearance.ChatBackground.SetColor" = " ";
+"SettingsSearch.Synonyms.Appearance.ChatBackground.Custom" = " ";
+"SettingsSearch.Synonyms.Appearance.AutoNightTheme" = " ";
+"SettingsSearch.Synonyms.Appearance.ColorTheme" = " ";
+"SettingsSearch.Synonyms.Appearance.ChatMode" = "bubbles";
+
+
+"SettingsSearch.Synonyms.SavedMessages" = " ";
+"SettingsSearch.Synonyms.AppLanguage" = " ";
+"SettingsSearch.Synonyms.Passport" = " ";
+"SettingsSearch.Synonyms.Watch" = "Apple Watch";
+"SettingsSearch.Synonyms.Support" = "Support";
+"SettingsSearch.Synonyms.FAQ" = " ";
+
+
+"SettingsSearch.EmptyItem" = "Search results from Settings and the Telegram FAQ will appear here.";
+
+
+"SettingsSearch.Recent" = "RECENT";
+"SettingsSearch.Recent.Clear" = "clear";
+
+
+"InactiveChannels.InactiveWeek_countable" = "%d";
+"InactiveChannels.InactiveWeek_zero" = "inactive for %d weeks";
+"InactiveChannels.InactiveWeek_one" = "inactive for %d week";
+"InactiveChannels.InactiveWeek_two" = "inactive for %d weeks";
+"InactiveChannels.InactiveWeek_few" = "inactive for %d weeks";
+"InactiveChannels.InactiveWeek_many" = "inactive for %d weeks";
+"InactiveChannels.InactiveWeek_other" = "inactive for %d weeks";
+
+"InactiveChannels.InactiveMonth_countable" = "%d";
+"InactiveChannels.InactiveMonth_zero" = "inactive for %d months";
+"InactiveChannels.InactiveMonth_one" = "inactive for %d month";
+"InactiveChannels.InactiveMonth_two" = "inactive for %d months";
+"InactiveChannels.InactiveMonth_few" = "inactive for %d months";
+"InactiveChannels.InactiveMonth_many" = "inactive for %d months";
+"InactiveChannels.InactiveMonth_other" = "inactive for %d months";
+
+"InactiveChannels.InactiveYear_countable" = "%d";
+"InactiveChannels.InactiveYear_zero" = "inactive for  %d years";
+"InactiveChannels.InactiveYear_one" = "inactive for %d year";
+"InactiveChannels.InactiveYear_two" = "inactive for  %d years";
+"InactiveChannels.InactiveYear_few" = "inactive for  %d years";
+"InactiveChannels.InactiveYear_many" = "inactive for  %d years";
+"InactiveChannels.InactiveYear_other" = "inactive for  %d years";
+
+
+/* "InactiveChannels.InactiveWeek_Group_countable" = "%d %d"; */
+/* "InactiveChannels.InactiveWeek_Group_zero" = "%d members, inactive %d week"; */
+/* "InactiveChannels.InactiveWeek_Group_one" = "%d members, inactive %d week"; */
+/* "InactiveChannels.InactiveWeek_Group_two" = "%d members, inactive %d weeks"; */
+/* "InactiveChannels.InactiveWeek_Group_few" = "%d members, inactive %d weeks"; */
+/* "InactiveChannels.InactiveWeek_Group_many" = "%d members, inactive %d weeks"; */
+/* "InactiveChannels.InactiveWeek_Group_other" = "%d members, inactive %d weeks"; */
+
+/* "InactiveChannels.InactiveMonth_Group_countable" = "%d %d"; */
+/* "InactiveChannels.InactiveMonth_Group_zero" = "%d members, inactive %d month"; */
+/* "InactiveChannels.InactiveMonth_Group_one" = "%d members, inactive %d month"; */
+/* "InactiveChannels.InactiveMonth_Group_two" = "%d members, inactive %d months"; */
+/* "InactiveChannels.InactiveMonth_Group_few" = "%d members, inactive %d months"; */
+/* "InactiveChannels.InactiveMonth_Group_many" = "%d members, inactive %d months"; */
+/* "InactiveChannels.InactiveMonth_Group_other" = "%d members, inactive %d months"; */
+
+/* "InactiveChannels.InactiveYear_Group_countable" = "%d %d"; */
+/* "InactiveChannels.InactiveYear_Group_zero" = "%d members, inactive %d year"; */
+/* "InactiveChannels.InactiveYear_Group_one" = "%d members, inactive %d year"; */
+/* "InactiveChannels.InactiveYear_Group_two" = "%d members, inactive %d years"; */
+/* "InactiveChannels.InactiveYear_Group_few" = "%d members, inactive %d years"; */
+/* "InactiveChannels.InactiveYear_Group_many" = "%d members, inactive %d years"; */
+/* "InactiveChannels.InactiveYear_Group_other" = "%d members, inactive %d years"; */
+
+
+"InactiveChannels.Title" = "Limit Reached";
+"InactiveChannels.OK" = "Leave";
+"InactiveChannels.Header" = "LEAST ACTIVE";
+"InactiveChannels.BlockHeader" = "Too many groups and channels";
+
+
+
+
+"Poll.Forward.Error" = "Sorry, polls with visible votes can’t be forwarded to channels.";
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3653,15 +3897,52 @@
 /* "Wallet.ProcessTransaction.Passcode.TitleError" = "Passcode Disabled"; */
 
 
+/* "Updated.JustNow" = "updated just now"; */
+/* "Updated.MinutesAgo_countable" = "%d"; */
+/* "Updated.MinutesAgo_zero" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_one" = "updated %d minute ago"; */
+/* "Updated.MinutesAgo_two" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_few" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_many" = "updated %d minutes ago"; */
+/* "Updated.MinutesAgo_any" = "updated %d minutes ago"; */
+
+/* "Updated.HoursAgo_countable" = "%d"; */
+/* "Updated.HoursAgo_zero" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_one" = "updated %d hour ago"; */
+/* "Updated.HoursAgo_two" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_few" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_many" = "updated %d hours ago"; */
+/* "Updated.HoursAgo_any" = "updated %d hours ago"; */
+/* "Updated.YesterdayAt" = "updated yesterday at %@"; */
+/* "Updated.AtDate" = "updated %@"; */
+/* "Updated.TodayAt" = "updated today at %@"; */
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "Creator";
+"AppearanceSettings.ColorTheme.dark" = "Dark";
+"AppearanceSettings.ColorTheme.day_classic" = "Day Classic";
+"AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
+"AppearanceSettings.ColorTheme.night_blue" = "Night Blue";
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
+"Chat.Poll.TotalVotes_zero" = "%d users voted";
+"Chat.Poll.TotalVotes_one" = "%d user voted";
+"Chat.Poll.TotalVotes_two" = "%d users voted";
+"Chat.Poll.TotalVotes_few" = "%d users voted";
+"Chat.Poll.TotalVotes_many" = "%d users voted";
+"Chat.Poll.TotalVotes_other" = "%d users voted";
+"Chat.Poll.TotalVotes_countable" = "%d";
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
 "Gallery.Counter" = "%d of %d";
+"GeneralSettings.LargeFonts" = "Large Font";
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
 "Notification.ScheduledTitle" = "📆 You";
 "PeerInfo.Admins" = "Admins";

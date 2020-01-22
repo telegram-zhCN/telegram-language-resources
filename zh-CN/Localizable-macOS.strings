@@ -136,6 +136,12 @@
 "Chat.DropQuickDesc" = "快速发送";
 "Chat.DropAsFilesDesc" = "无损发送";
 
+
+
+
+
+
+
 "Chat.DropFolder.Title" = "拖拽文件夹到此处发送";
 "Chat.DropFolder.Desc" = "以压缩文件形式";
 
@@ -271,6 +277,9 @@
 "Message.Context.Goto" = "显示消息";
 "Message.Context.Pin" = "置顶";
 
+
+
+
 "Message.Context.Confirm.Pin1" = "您确定要置顶此消息吗？";
 "Message.Context.Confirm.NotifyPin" = "通知所有成员";
 
@@ -402,7 +411,6 @@
 
 
 
-"GeneralSettings.LargeFonts" = "大字体";
 "GeneralSettings.MediaKeysForInAppPlayer" = "处理应用内播放器中的媒体键";
 "GeneralSettings.EmojiReplacements" = "自动替换 Emoji";
 "GeneralSettings.InputSettings" = "输入设置";
@@ -1026,6 +1034,7 @@
 "InstalledStickers.PacksTitle" = "您的贴纸包";
 "InstalledStickers.Descrpiption" = "用户可以通过机器人 @stickers 创建自己的贴纸包。\n\n点击贴纸可以预览及添加贴纸包。";
 "InstalledStickers.Archived" = "已存档贴纸";
+
 "InstalledStickers.Tranding" = "热门贴纸";
 "StickerSet.Remove" = "移除";
 "InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
@@ -1875,10 +1884,10 @@
 "AppearanceSettings.ChatView.Header" = "对话样式";
 
 "AppearanceSettings.ColorTheme.day" = "标准亮色调";
-"AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
-"AppearanceSettings.ColorTheme.dark" = "标准暗色调";
-"AppearanceSettings.ColorTheme.night_blue" = "蓝光暗色调";
-"AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
+
+
+
+
 "AppearanceSettings.ChatView.Classic" = "简洁";
 "AppearanceSettings.ChatView.Bubbles" = "气泡";
 "AppearanceSettings.FollowSystemAppearance" = "跟随系统样式";
@@ -1892,6 +1901,10 @@
 "AppearanceSettings.ChatPreview.ZeroText" = "莱因哈特，我们需要给你找点新的音乐🎶。";
 "AppearanceSettings.ChatPreview.FirstText" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
 "AppearanceSettings.ChatPreview.SecondText" = "老兄，我现在都无法直视你了。";
+
+
+
+
 
 
 
@@ -1947,6 +1960,7 @@
 "DataAndStorage.Confirm.ResetSettings" = "撤销全部自定义自动下载设置";
 "Chat.Confirm.ReportSpamUser" = "您确定要举报此用户存在骚扰行为？";
 "Chat.Confirm.ReportSpam" = "要举报骚扰行为吗？";
+
 "Chat.Confirm.ReportSpam.Channel" = "要举报骚扰行为并退出这个频道吗？";
 "Chat.Confirm.ReportSpam.Group" = "要举报骚扰并退出此群组吗？";
 
@@ -2288,6 +2302,8 @@
 "EditAccount.AddAccount" = "添加帐号";
 
 
+
+
 "Chanel.EventFilter.AllAdmins" = "全部管理员";
 "Chanel.EventFilter.AllEvents" = "全选";
 
@@ -2342,6 +2358,10 @@
 
 "PrivacyAndSecurity.ClearCloudDraftsHeader" = "对话窗口";
 "PrivacyAndSecurity.ClearCloudDrafts" = "删除所有云端草稿";
+
+
+
+
 
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "您确定要清空所有草稿吗？";
 
@@ -2679,13 +2699,21 @@
 "UnknownError" = "出现未知错误，请稍后再试。";
 
 
-"Chat.Poll.TotalVotes_countable" = "%d";
 
 
 
 
 
-"Chat.Poll.TotalVotes_other" = "%d 人已投票";
+
+
+
+
+
+
+
+
+
+
 
 
 "Chat.Poll.Tooltip.NoVotes" = "无人投票";
@@ -2697,11 +2725,28 @@
 
 "Chat.Poll.Tooltip.Votes_other" = "%d 人已投票";
 
+
+
+
+
+
+
+
+
+
+
+
 "Chat.Poll.TotalVotesEmpty" = "无人投票";
 "Chat.Poll.TotalVotesResultEmpty" = "无人投票";
 
+
+
+
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "匿名投票";
+
+
+
 "Chat.Poll.Type.Closed" = "最终结果";
 
 "Chat.Poll.Unvote" = "撤回我的投票";
@@ -2710,9 +2755,18 @@
 "Chat.Poll.Stop.Confirm.Text" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
 
 
+
+
+
+
+
+
+
+
 "Language.RemovePack" = "您确定要移除这个语言包吗？";
 
 "NewPoll.Title" = "发起投票";
+
 "NewPoll.QuestionHeader" = "问题";
 
 "NewPoll.QuestionHeaderLimit" = "问题 (%d)";
@@ -2721,6 +2775,11 @@
 "NewPoll.OptionsHeader" = "候选项";
 "NewPoll.OptionsPlaceholder" = "选项";
 "NewPoll.OptionsAddOption" = "添加一个选项...";
+
+
+
+
+
 
 "NewPoll.OptionsDescription_countable" = "%d";
 
@@ -2748,6 +2807,24 @@
 
 "NewPoll.DisacardConfirm.Yes" = "放弃发起投票";
 "NewPoll.DisacardConfirm.No" = "取消";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 "Passport.ResetPassword.Confirm.Header" = "忘记密码";
@@ -3354,6 +3431,11 @@
 
 
 
+
+
+
+
+
 "ThemePreview.Title" = "主题预览";
 
 
@@ -3380,6 +3462,7 @@
 "Appearance.Theme.Remove" = "删除";
 "Appearance.Theme.Edit" = "编辑";
 "Appearance.NewTheme" = "新建主题";
+
 "Appearance.ExportTheme" = "导出主题";
 "Appearance.Theme.Share" = "分享";
 "Appearance.CloudThemes" = "云端主题";
@@ -3407,6 +3490,7 @@
 "Appearance.Confirm.RemoveText" = "您确定要删除这个主题吗？";
 
 
+
 "Chat.Action.ViewTheme" = "预览主题";
 
 
@@ -3421,25 +3505,178 @@
 
 
 
-//"Updated.JustNow" = "updated just now";
-//"Updated.MinutesAgo_countable" = "%d";
-//"Updated.MinutesAgo_zero" = "updated %d minutes ago";
-//"Updated.MinutesAgo_one" = "updated %d minute ago";
-//"Updated.MinutesAgo_two" = "updated %d minutes ago";
-//"Updated.MinutesAgo_few" = "updated %d minutes ago";
-//"Updated.MinutesAgo_many" = "updated %d minutes ago";
-//"Updated.MinutesAgo_any" = "updated %d minutes ago";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
-//"Updated.HoursAgo_countable" = "%d";
-//"Updated.HoursAgo_zero" = "updated %d hours ago";
-//"Updated.HoursAgo_one" = "updated %d hour ago";
-//"Updated.HoursAgo_two" = "updated %d hours ago";
-//"Updated.HoursAgo_few" = "updated %d hours ago";
-//"Updated.HoursAgo_many" = "updated %d hours ago";
-//"Updated.HoursAgo_any" = "updated %d hours ago";
-//"Updated.YesterdayAt" = "updated yesterday at %@";
-//"Updated.AtDate" = "updated %@";
-//"Updated.TodayAt" = "updated today at %@";
+//"InactiveChannels.InactiveWeek_Group_countable" = "%d %d";
+//"InactiveChannels.InactiveWeek_Group_zero" = "%d members, inactive %d week";
+//"InactiveChannels.InactiveWeek_Group_one" = "%d members, inactive %d week";
+//"InactiveChannels.InactiveWeek_Group_two" = "%d members, inactive %d weeks";
+//"InactiveChannels.InactiveWeek_Group_few" = "%d members, inactive %d weeks";
+//"InactiveChannels.InactiveWeek_Group_many" = "%d members, inactive %d weeks";
+//"InactiveChannels.InactiveWeek_Group_other" = "%d members, inactive %d weeks";
+//
+//"InactiveChannels.InactiveMonth_Group_countable" = "%d %d";
+//"InactiveChannels.InactiveMonth_Group_zero" = "%d members, inactive %d month";
+//"InactiveChannels.InactiveMonth_Group_one" = "%d members, inactive %d month";
+//"InactiveChannels.InactiveMonth_Group_two" = "%d members, inactive %d months";
+//"InactiveChannels.InactiveMonth_Group_few" = "%d members, inactive %d months";
+//"InactiveChannels.InactiveMonth_Group_many" = "%d members, inactive %d months";
+//"InactiveChannels.InactiveMonth_Group_other" = "%d members, inactive %d months";
+//
+//"InactiveChannels.InactiveYear_Group_countable" = "%d %d";
+//"InactiveChannels.InactiveYear_Group_zero" = "%d members, inactive %d year";
+//"InactiveChannels.InactiveYear_Group_one" = "%d members, inactive %d year";
+//"InactiveChannels.InactiveYear_Group_two" = "%d members, inactive %d years";
+//"InactiveChannels.InactiveYear_Group_few" = "%d members, inactive %d years";
+//"InactiveChannels.InactiveYear_Group_many" = "%d members, inactive %d years";
+//"InactiveChannels.InactiveYear_Group_other" = "%d members, inactive %d years";
 
 
 
@@ -3461,6 +3698,13 @@
 
 
 
+
+
+//
+//
+//
+//
+//
 //
 //
 //"Wallet.Splash.Intro.Header" = "Gram Wallet";
@@ -3651,16 +3895,48 @@
 //"Wallet.ProcessTransaction.Passcode.Placeholder" = "Enter your passcode";
 //"Wallet.ProcessTransaction.Passcode.TextError" = "Try again in: %@";
 //"Wallet.ProcessTransaction.Passcode.TitleError" = "Passcode Disabled";
+//
+//
+//"Updated.JustNow" = "updated just now";
+//"Updated.MinutesAgo_countable" = "%d";
+//"Updated.MinutesAgo_zero" = "updated %d minutes ago";
+//"Updated.MinutesAgo_one" = "updated %d minute ago";
+//"Updated.MinutesAgo_two" = "updated %d minutes ago";
+//"Updated.MinutesAgo_few" = "updated %d minutes ago";
+//"Updated.MinutesAgo_many" = "updated %d minutes ago";
+//"Updated.MinutesAgo_any" = "updated %d minutes ago";
+//
+//"Updated.HoursAgo_countable" = "%d";
+//"Updated.HoursAgo_zero" = "updated %d hours ago";
+//"Updated.HoursAgo_one" = "updated %d hour ago";
+//"Updated.HoursAgo_two" = "updated %d hours ago";
+//"Updated.HoursAgo_few" = "updated %d hours ago";
+//"Updated.HoursAgo_many" = "updated %d hours ago";
+//"Updated.HoursAgo_any" = "updated %d hours ago";
+//"Updated.YesterdayAt" = "updated yesterday at %@";
+//"Updated.AtDate" = "updated %@";
+//"Updated.TodayAt" = "updated today at %@";
+//
+//
+//
+//
 
 
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "创建者";
+"AppearanceSettings.ColorTheme.dark" = "标准暗色调";
+"AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
+"AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
+"AppearanceSettings.ColorTheme.night_blue" = "蓝光暗色调";
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
 "ChannelBlacklist.AddMember" = "邀请新成员";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
+"Chat.Poll.TotalVotes_other" = "%d 人已投票";
+"Chat.Poll.TotalVotes_countable" = "%d";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "Gallery.Counter" = "%d / %d";
+"GeneralSettings.LargeFonts" = "大字体";
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "Notification.ScheduledTitle" = "📆 您";
 "PeerInfo.Admins" = "管理员";

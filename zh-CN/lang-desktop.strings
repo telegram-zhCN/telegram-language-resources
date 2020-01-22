@@ -158,6 +158,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_deleted_message" = "已删除的消息";
 "lng_pinned_message" = "置顶消息";
 "lng_pinned_poll" = "置顶投票";
+
 "lng_pinned_unpin_sure" = "您确定要取消置顶此消息吗？";
 "lng_pinned_pin_sure" = "您确定要置顶此消息吗？";
 "lng_pinned_pin" = "置顶";
@@ -1294,6 +1295,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_scheduled_messages" = "定时消息";
 "lng_reminder_messages" = "提醒";
+
+
+
 "lng_scheduled_send_now" = "现在发送此消息？";
 
 "lng_scheduled_send_now_many#other" = "现在发送这 {count} 条消息吗？";
@@ -1797,6 +1801,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_inline_all" = "此群组不允许 Inline 机器人。";
 "lng_restricted_send_polls_all" = "抱歉，此群组不允许发起投票。";
 
+
+
 "lng_exceptions_list_title" = "例外";
 "lng_removed_list_title" = "被封禁的用户";
 
@@ -2166,10 +2172,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_launch_exe_dont_ask" = "不再询问";
 
 "lng_polls_anonymous" = "匿名投票";
+
+
+
 "lng_polls_closed" = "最终结果";
 
 "lng_polls_votes_count#other" = "{count} 人已投票";
 "lng_polls_votes_none" = "无人投票";
+
+
+
+
+
 "lng_polls_retract" = "撤回我的投票";
 "lng_polls_stop" = "终止投票";
 "lng_polls_stop_warning" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
@@ -2183,7 +2197,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_polls_create_limit#other" = "您还可以再添加 {count} 个选项。";
 "lng_polls_create_maximum" = "您添加的选项已达最大数量。";
+
+
+
+
+
 "lng_polls_create_button" = "确认";
+
+
+
+
+
+
 
 "lng_outdated_title" = "请更新您的操作系统。";
 "lng_outdated_soon" = "否则，Telegram Desktop将在 {date} 停止更新。";

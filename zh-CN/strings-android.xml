@@ -378,7 +378,7 @@
     <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
     <string name="ChannelMessageContact2">%1$s 发布了一条联系人信息 %2$s</string>
     <string name="ChannelMessagePoll2">%1$s 发布了一项投票 %2$s</string>
-    <string name="ChannelMessageQuiz2">%1$s posted a quiz %2$s</string>
+    <string name="ChannelMessageQuiz2">%1$s posted the quiz \"%2$s\"</string>
     <string name="ChannelMessageMap">%1$s 发布了一个位置</string>
     <string name="ChannelMessageLiveLocation">%1$s 正在共享实时位置</string>
     <string name="ChannelMessageDocument">%1$s 发布了一个文件</string>
@@ -558,7 +558,7 @@
     <string name="StopPollAlertText">如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。</string>
     <string name="StopQuiz">结束小测验</string>
     <string name="StopQuizAlertTitle">结束小测验？</string>
-    <string name="StopQuizAlertText">If you stop this quiz now, nobody will be able to vote in it anymore. This action cannot be undone.</string>
+    <string name="StopQuizAlertText">If you stop this quiz now, nobody will be able to submit answers. This action cannot be undone.</string>
     <string name="CancelPollAlertTitle">放弃发起投票</string>
     <string name="CancelPollAlertText">您确定要放弃发起新投票吗？</string>
     <string name="Unvote">撤回我的投票</string>
@@ -980,7 +980,7 @@
     <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
     <string name="NotificationMessageContact2">%1$s 给您分享了一条 %2$s 联系人信息</string>
     <string name="NotificationMessagePoll2">%1$s 给您发送了一项头片 %2$s</string>
-    <string name="NotificationMessageQuiz2">%1$s sent you a quiz %2$s</string>
+    <string name="NotificationMessageQuiz2">%1$s sent you the quiz \"%2$s\"</string>
     <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
     <string name="NotificationMessageLiveLocation">%1$s 正在与您共享实时位置</string>
     <string name="NotificationMessageGame">"%1$s 邀请您玩 %2$s "</string>
@@ -997,7 +997,7 @@
     <string name="NotificationMessageGroupPhoto">%1$s 发送了一张图片到群组 %2$s</string>
     <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到群组 %2$s</string>
     <string name="NotificationMessageGroupPoll2">%1$s  发送了一项投票 %3$s 到群组 %2$s</string>
-    <string name="NotificationMessageGroupQuiz2">%1$s sent a quiz %3$s to the group %2$s</string>
+    <string name="NotificationMessageGroupQuiz2">%1$s sent the quiz \"%3$s\" to the group %2$s</string>
     <string name="NotificationMessageGroupContact2">%1$s 分享了一条联系人信息 %3$s 在群组 %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
     <string name="NotificationMessageGroupLiveLocation">"%1$s 共享了实时位置在群组 %2$s "</string>
@@ -1039,7 +1039,7 @@
     <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
     <string name="NotificationActionPinnedPoll2">%1$s 置顶了一项投票 %3$s 在群组 %2$s</string>
-    <string name="NotificationActionPinnedQuiz2">%1$s pinned a quiz %3$s in the group %2$s</string>
+    <string name="NotificationActionPinnedQuiz2">%1$s pinned the quiz \"%3$s\" in the group %2$s</string>
     <string name="NotificationActionPinnedPhoto">%1$s 在群组 %2$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGame">%1$s 在群组 %2$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedGameScore">%1$s 置顶了一项游戏成绩在群组 %2$s</string>
@@ -1058,7 +1058,7 @@
     <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
     <string name="NotificationActionPinnedPollChannel2">%1$s 置顶了一项投票 %2$s</string>
-    <string name="NotificationActionPinnedQuizChannel2">%1$s pinned a quiz %2$s</string>
+    <string name="NotificationActionPinnedQuizChannel2">%1$s pinned the quiz \"%2$s\"</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGameChannel">%1$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedGameScoreChannel">%1$s 置顶了一项游戏成绩</string>
