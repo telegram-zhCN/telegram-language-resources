@@ -3681,7 +3681,7 @@
 
 "InactiveChannels.Title" = "Limit Reached";
 "InactiveChannels.OK" = "Leave";
-"InactiveChannels.Header" = "LEAST ACTIVE";
+"InactiveChannels.Header" = "MOST INACTIVE";
 "InactiveChannels.BlockHeader" = "Too many groups and channels";
 
 

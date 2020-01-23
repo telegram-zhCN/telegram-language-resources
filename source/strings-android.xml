@@ -525,10 +525,12 @@
     <string name="SlowmodeSendErrorTooLong">Sorry, this text is too long to send as one message.\n\nSlow Mode is enabled. You can\'t send more than one message at once.</string>
     <!--polls-->
     <string name="NewPoll">New Poll</string>
+    <string name="NewQuiz">New Quiz</string>
     <string name="Poll">Poll</string>
     <string name="Question">Question</string>
     <string name="QuestionHint">Ask a question</string>
     <string name="PollOptions">Poll options</string>
+    <string name="QuizAnswers">Quiz answers</string>
     <string name="PollResults">Poll Results</string>
     <string name="PollAnonymous">Anonymous Voting</string>
     <string name="PollQuiz">Quiz Mode</string>

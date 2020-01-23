@@ -22,7 +22,7 @@
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|📊 Poll \"%2$@\"";
 "PUSH_PINNED_POLL" = "%1$@|📌 Pinned a poll";
 
-"PUSH_MESSAGE_QUIZ" = "%1$@|sent you a quiz %2$@";
+"PUSH_MESSAGE_QUIZ" = "%1$@|sent you the quiz \"%2$@\"";
 "PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|posted the quiz \"%2$@\"";
 "PUSH_PINNED_QUIZ" = "%1$@|pinned a quiz";
 
@@ -97,7 +97,7 @@
 "PUSH_MESSAGE_GEO" = "%1$@|📍 Location";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|Live location";
 "PUSH_MESSAGE_POLL" = "%1$@|📊 Poll \"%2$@\"";
-"PUSH_MESSAGE_QUIZ" = "%1$@|sent you a quiz %2$@";
+"PUSH_MESSAGE_QUIZ" = "%1$@|sent you the quiz \"%2$@\"";
 "PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 Play %2$@";
 "PUSH_MESSAGE_INVOICE" = "%1$@|Invoice for %2$@";

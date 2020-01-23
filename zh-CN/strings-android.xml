@@ -143,7 +143,7 @@
     <string name="EncryptedChatStartedOutgoing">%s 进入了您的加密对话。</string>
     <string name="EncryptedChatStartedIncoming">您已加入加密对话。</string>
     <string name="ClearHistory">清空历史记录</string>
-    <string name="ClearRecentHistory">Clear history</string>
+    <string name="ClearRecentHistory">清除历史记录</string>
     <string name="HistoryClearedUndo">消息记录已清空。</string>
     <string name="ChatsMute">关闭通知</string>
     <string name="ChatsUnmute">开启通知</string>
@@ -525,10 +525,12 @@
     <string name="SlowmodeSendErrorTooLong">抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。 您不能一次发送多条消息。</string>
     <!--polls-->
     <string name="NewPoll">发起投票</string>
+    <string name="NewQuiz">发起小测验</string>
     <string name="Poll">投票</string>
     <string name="Question">问题</string>
     <string name="QuestionHint">请输入问题</string>
     <string name="PollOptions">候选项</string>
+    <string name="QuizAnswers">Quiz answers</string>
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
     <string name="PollQuiz">小测验</string>
@@ -571,12 +573,12 @@
     <string name="Vote_few">%1$d 人已投票</string>
     <string name="Vote_many">%1$d 人已投票</string>
     <string name="Vote_other">%1$d 人已投票</string>
-    <string name="Answer_zero">%1$d answers</string>
-    <string name="Answer_one">%1$d answer</string>
-    <string name="Answer_two">%1$d answers</string>
-    <string name="Answer_few">%1$d answers</string>
-    <string name="Answer_many">%1$d answers</string>
-    <string name="Answer_other">%1$d answers</string>
+    <string name="Answer_zero">%1$d 人回答</string>
+    <string name="Answer_one">%1$d 人回答</string>
+    <string name="Answer_two">%1$d 人回答</string>
+    <string name="Answer_few">%1$d 人回答</string>
+    <string name="Answer_many">%1$d 人回答</string>
+    <string name="Answer_other">%1$d 人回答</string>
     <string name="ShowVotes_zero">Show More (%1$d)</string>
     <string name="ShowVotes_one">Show More (%1$d)</string>
     <string name="ShowVotes_two">Show More (%1$d)</string>
@@ -1438,7 +1440,7 @@
     <string name="ColorDark">暗色</string>
     <string name="ColorPink">粉色</string>
     <string name="FontSize">字体大小</string>
-    <string name="FontType">Font Type</string>
+    <string name="FontType">字体类型</string>
     <string name="ColorViolet">紫色</string>
     <string name="ColorOrange">橙色</string>
     <string name="NotificationsLedInfo">LED 指示灯是在部分设备上能够提示新消息的闪烁的小灯。</string>

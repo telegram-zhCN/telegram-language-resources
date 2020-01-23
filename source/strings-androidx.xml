@@ -2464,6 +2464,7 @@
   <string name="AppLogsClear">Delete all application log files?</string>
 
   <string name="CreatePoll">New Poll</string>
+  <string name="CreateQuiz">New Quiz</string>
   <string name="RetractVote">Retract Vote</string>
   <string name="StopPoll">Stop Poll</string>
   <string name="StopQuiz">Stop Quiz</string>
@@ -2475,6 +2476,10 @@
 
   <string name="ViewPollResults">View Results</string>
   <string name="ViewQuizResults">View Results</string>
+  <string name="ViewXPollResults_one">View %1$s Result</string>
+  <string name="ViewXPollResults_other">View %1$s Results</string>
+  <string name="ViewXQuizResults_one">View %1$s Result</string>
+  <string name="ViewXQuizResults_other">View %1$s Results</string>
   <string name="Vote">Vote</string>
 
   <string name="Quiz">Quiz</string>
@@ -2483,6 +2488,7 @@
   <string name="PollQuestionEmpty">Ask a Question</string>
   <string name="PollOption">Option</string>
   <string name="PollOptions">Poll options</string>
+  <string name="QuizOptions">Quiz options</string>
   <string name="PollDiscard">Discard Poll</string>
   <string name="PollDiscardPrompt">Are you sure you want to discard this poll?</string>
   <string name="QuizDiscard">Discard Quiz</string>
@@ -2858,6 +2864,8 @@
   <string name="xCorrectAnswers_one">%1$s correct answer</string>
   <string name="xCorrectAnswers_other">%1$s correct answers</string>
 
+  <string name="BatmanTransitions">Batman Transitions in Polls</string>
+
   
   
   
@@ -3174,6 +3182,14 @@
   <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
   <string name="UndoAllCustom">Undo all custom notification settings for all your contacts, groups and channels</string>
+  <string name="ViewXPollResults_zero">View %1$s Results</string>
+  <string name="ViewXPollResults_two">View %1$s Results</string>
+  <string name="ViewXPollResults_few">View %1$s Results</string>
+  <string name="ViewXPollResults_many">View %1$s Results</string>
+  <string name="ViewXQuizResults_zero">View %1$s Results</string>
+  <string name="ViewXQuizResults_two">View %1$s Results</string>
+  <string name="ViewXQuizResults_few">View %1$s Results</string>
+  <string name="ViewXQuizResults_many">View %1$s Results</string>
   <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="WhoCanAddMembersAllMembers">All members</string>
   <string name="XSentAFile">%1$s sent a file</string>

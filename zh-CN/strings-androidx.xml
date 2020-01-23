@@ -2464,6 +2464,7 @@
   <string name="AppLogsClear">删除所有应用程序日志？</string>
 
   <string name="CreatePoll">发起投票</string>
+  
   <string name="RetractVote">撤回我的投票</string>
   <string name="StopPoll">终止投票</string>
   
@@ -2476,6 +2477,10 @@
   
   
   
+  
+  
+  
+  
 
   
   <string name="Poll">投票</string>
@@ -2483,6 +2488,7 @@
   <string name="PollQuestionEmpty">请输入问题</string>
   <string name="PollOption">选项</string>
   <string name="PollOptions">候选项</string>
+  
   <string name="PollDiscard">放弃发起投票</string>
   <string name="PollDiscardPrompt">您确定要放弃发起新投票吗？</string>
   
@@ -2856,6 +2862,8 @@
 
   
   
+  
+
   
 
   
