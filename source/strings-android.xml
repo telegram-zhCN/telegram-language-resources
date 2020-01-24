@@ -1766,7 +1766,7 @@
     <string name="AuthAnotherClientScan">Scan QR Code</string>
     <string name="AuthAnotherClientTokenError">Token invalid or already expired.</string>
     <string name="AuthAnotherClientNotFound">No auth token found</string>
-    <string name="AuthAnotherClientOk">Auth successfull</string>
+    <string name="AuthAnotherClientOk">Auth successful</string>
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
     <string name="AuthAnotherClientInfo1">Download Telegram on your computer from *desktop.telegram.org*.</string>
     <string name="AuthAnotherClientInfo2">Run Telegram Desktop to get the QR code.</string>

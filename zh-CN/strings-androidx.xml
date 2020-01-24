@@ -90,7 +90,7 @@
   <string name="login_error">错误:  %1$s. 如果您需要帮助请 __联系我们__ .</string>
   <string name="login_Code">验证码</string>
   <string name="login_Password">密码</string>
-  
+  <string name="Country">国家</string>
   <string name="login_SmsHint">我们会向您的手机号码发送一条验证码短信。</string>
   <string name="Registration">注册</string>
   <string name="login_FirstName">名字</string>
@@ -856,7 +856,7 @@
   <string name="ActionPinnedNoText">%1$s 置顶了一条**消息**</string>
   <string name="ActionPinnedGeo">%1$s 置顶了一个**位置**</string>
   <string name="ActionPinnedPoll">%1$s 置顶了一项**投票**</string>
-  
+  <string name="ActionPinnedQuiz">%1$s 置顶了一个 **小测验**</string>
   <string name="ActionPinnedGeoLive">%1$s 置顶了一个**实时位置**</string>
   <string name="ActionPinnedSticker">%1$s 置顶了一张**贴纸**</string>
   <string name="ActionPinnedGif">%1$s 置顶了一个 **GIF**</string>
@@ -898,7 +898,7 @@
   <string name="SentCallCode">正在呼叫您的手机 **%1$s** 并播报验证码。</string>
   <string name="DidNotGetTheCode">没有收到验证码？</string>
   <string name="SuccessfullyChangedNumber">已成功将您的手机号码改为 %1$s。</string>
-  <string name="YourPhone">您的电话号码</string>
+  <string name="YourPhone">您的手机号码</string>
   <string name="SetUpUsername">设置用户名</string>
   <string name="PhoneMobile">手机</string>
   <string name="GroupsInCommon">共同加入的群组</string>
@@ -1229,7 +1229,7 @@
   <string name="FreedX">已释放 %1$s 存储空间</string>
   <string name="LinkPreview">链接预览</string>
   <string name="ClearHistoryConfirm">您确定要清空此对话的历史记录吗？此操作不可撤销。</string>
-  
+  <string name="ClearSavedMessagesConfirm">您确定要清空**收藏夹**内的消息吗？这个操作是不可逆的。</string>
   <string name="Channel">频道</string>
   <string name="ThemeCyan">青色</string>
   <string name="ThemePink">粉色</string>
@@ -1271,7 +1271,7 @@
   <string name="Banned">已封禁</string>
   <string name="AllMembers">所有成员</string>
   <string name="OnlyAdmins">仅管理员</string>
-  
+  <string name="OnlyAdminsSpecific">仅限有特权的管理员</string>
   <string name="EditAdmin">编辑管理员</string>
   <string name="AdminRights">管理员权限</string>
   <string name="UserRestrictions">用户限制</string>
@@ -1303,7 +1303,7 @@
   <string name="BannedWillBeShownHere">被封禁的成员都会在这里显示</string>
   <string name="RestrictedWillBeShownHere">被限制的成员都会在这里显示</string>
   <string name="UnbanMember">解除封禁</string>
-  
+  <string name="UnbanMemberBot">取消机器人封禁</string>
   <string name="BlockFor">屏蔽时长</string>
   <string name="RestrictFor">限制时长</string>
   <string name="RestrictUntil">限制至</string>
@@ -1384,7 +1384,7 @@
   <string name="EventLogOriginalCaptionEmpty">无</string>
   <string name="EventLogPinnedMessages">%1$s 置顶了这条消息：</string>
   <string name="EventLogPollStopped">%1$s 结束了投票：</string>
-  
+  <string name="EventLogQuizStopped">%1$s 停止了测验：</string>
   <string name="EventLogUnpinnedMessages">%1$s 解除了消息置顶</string>
   <string name="EventLogDeletedMessages">%1$s 删除了这条消息：</string>
   <string name="EventLogChangedGroupLink">%1$s 修改了群组链接：</string>
@@ -1744,7 +1744,7 @@
   <string name="message_via">通过</string>
   <string name="message_adminSignPlain">管理员</string>
   <string name="message_ownerSign">所有者</string>
-  
+  <string name="message_channelSign">频道</string>
   <string name="WhoCanCallMe">谁可以呼叫我</string>
   <string name="UseP2PWith">使用端对端连接</string>
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
@@ -1849,7 +1849,7 @@
   <string name="LeaveReturnPublicLinkHintChannel">您将可以通过公开链接返回此频道</string>
   <string name="LeaveReturnPublicLinkHintGroup">您将可以通过公开链接返回此群组</string>
   <string name="DeleteUserChatConfirm">您确定要删除与 %1$s 的对话吗？此操作不可撤销。</string>
-  
+  <string name="DeleteSavedMessagesConfirm">您确定要清空**收藏夹**内的消息吗？这个操作是不可逆的。</string>
   <string name="DeleteSecretChatPendingConfirm">您确定要取消与 %1$s 的加密对话吗？</string>
   <string name="DeleteSecretChatClosedConfirm">您确定要删除与 %1$s 的加密对话吗？此操作不可撤销。</string>
   <string name="DeleteSecretChatConfirm">您确定要删除与 %1$s 的加密对话吗？所有对话历史均会被永久删除。此操作不可撤销。</string>
@@ -2054,7 +2054,7 @@
   <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
   <string name="SignOutHint2">您确定要将 %1$s 注销吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，退出会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
-  
+  <string name="RemoveAccountHint2">要注销 %1$s 吗？此帐户上的所有加密对话都将丢失。已下载的媒体将从此设备中抹去。</string>
 
   <string name="SignOutAlt">其它选项</string>
   <string name="SignOutAltAddAccount">添加另一个帐户</string>
@@ -2312,7 +2312,7 @@
   <string name="ActionMutePerson">免打扰 %1$s</string>
   <string name="ActionMuteEveryone">免打扰所有</string>
 
-  
+  <string name="NotificationMutedChat">静音 %1$s 一小时</string>
   <string name="NotificationMutedPerson">禁言 %1$s 一小时</string>
   
   <string name="NotificationMutedPersons_other">将该 %1$s 人禁言一小时</string>
@@ -2464,57 +2464,57 @@
   <string name="AppLogsClear">删除所有应用程序日志？</string>
 
   <string name="CreatePoll">发起投票</string>
-  
+  <string name="CreateQuiz">发起小测验</string>
   <string name="RetractVote">撤回我的投票</string>
   <string name="StopPoll">终止投票</string>
-  
+  <string name="StopQuiz">停止测验</string>
 
   <string name="SecretChatForwardError">您无法将此消息转发到加密对话中。</string>
 
   <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
-  
+  <string name="StopQuizWarn">如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。</string>
 
+  <string name="ViewPollResults">查看结果</string>
+  <string name="ViewQuizResults">查看结果</string>
   
+  <string name="ViewXPollResults_other">查看 %1$s 的结果</string>
   
-  
-  
-  
-  
-  
+  <string name="ViewXQuizResults_other">查看 %1$s 的结果</string>
+  <string name="Vote">投票</string>
 
-  
+  <string name="Quiz">小测验</string>
   <string name="Poll">投票</string>
   <string name="PollQuestion">问题</string>
   <string name="PollQuestionEmpty">请输入问题</string>
   <string name="PollOption">选项</string>
   <string name="PollOptions">候选项</string>
-  
+  <string name="QuizOptions">测验选项</string>
   <string name="PollDiscard">放弃发起投票</string>
   <string name="PollDiscardPrompt">您确定要放弃发起新投票吗？</string>
-  
-  
+  <string name="QuizDiscard">取消测验</string>
+  <string name="QuizDiscardPrompt">你确定要取消这次测验吗？</string>
   <string name="PollOptionsAdd">添加一个选项...</string>
   
   <string name="PollOptionsLimit_other">您还可以添加 %1$s 个选项</string>
   <string name="PollOptionsMax">您添加的选项已达最大数量。</string>
 
   <string name="PollAnonymous">匿名投票</string>
-  
+  <string name="PollPublic">投票</string>
   <string name="PollResults">最终结果</string>
-  
-  
-  
+  <string name="QuizAnonymous">匿名小测验</string>
+  <string name="QuizPublic">小测验</string>
+  <string name="QuizResults">最终结果</string>
 
-  
-  
+  <string name="PollResultsTitle">投票结果</string>
+  <string name="QuizResultsTitle">测验结果</string>
 
   
   <string name="xVotes_other">%1$s 人已投票</string>
   <string name="NoVotes">无人投票</string>
 
   
-  
-  
+  <string name="xAnswers_other">%1$s 人已回答</string>
+  <string name="NoAnswers">无人回答</string>
 
   <string name="NotificationSyncOffWarn">**想要收到新消息的通知吗？**\n\n在应用关闭时启用系统自动同步以获取通知。</string>
   <string name="NeverShowAgain">不再显示</string>
@@ -2630,7 +2630,7 @@
   
   
 
-  
+  <string name="UserDisabledMessages">您不能给这个用户发消息</string>
 
   <string name="ChatDisabledGifs">仅管理员能在此群组中发送GIF</string>
   <string name="ChatDisabledBots">仅管理员能在此群组中使用inline机器人</string>
@@ -2659,12 +2659,12 @@
   <string name="TermsOfService">服务协议</string>
   <string name="TermsOfServiceDone">同意</string>
 
-  
-  
-  
-  
-  
-  
+  <string name="PrivacyForwardLinkNobody">无法链接到您的账号</string>
+  <string name="PrivacyForwardLinkNobodyExcept">无法链接到您的账号（%1$s）</string>
+  <string name="PrivacyForwardLinkContacts">只有联系人可以链接到您的账号</string>
+  <string name="PrivacyForwardLinkContactsExcept">只有联系人可以链接到您的账号（%1$s）</string>
+  <string name="PrivacyForwardLinkEverybody">链接到您的账号</string>
+  <string name="PrivacyForwardLinkEverybodyExcept">链接到您的账号（%1$s）</string>
   <string name="PrivacyForwardLinkTitle">引用转发来源</string>
 
   <string name="PrivacyPhotoNobody">没有人可以看到您的头像</string>
@@ -2676,7 +2676,7 @@
   <string name="PrivacyPhotoTitle">头像</string>
 
   <string name="WhoCanForwardLink">谁可以在转发我的消息上附加用户链接？</string>
-  
+  <string name="WhoCanForwardLinkInfo">消息被转发时，您可以控制转发的消息中是否包含个人信息链接。</string>
 
   <string name="WhoCanSeePhoto">谁可以查看您的头像？</string>
   <string name="WhoCanSeePhotoInfo">您可以精确地控制哪些人可以查看您的头像。</string>
@@ -2694,7 +2694,7 @@
 
   
   
-  
+  <string name="ChatContentPinned">置顶消息</string>
   
   <string name="DisplaySensitiveContent">显示敏感内容</string>
 
@@ -2741,19 +2741,9 @@
 
   <string name="Archive">归档</string>
   
-  
-  
-
-  
+  <string name="ArchiveTitleList">已归档对话</string>
   
 
-  
-  
-  
-  
-  
-  
-  
   
   
 
@@ -2761,40 +2751,43 @@
   
   
   
-  
-  
+  <string name="SharePhoneNumber">分享联系方式</string>
+  <string name="SharePhoneNumberAction">分享我的联系方式</string>
+  <string name="PhoneNumber">手机号码</string>
+  <string name="WhoCanSeePhone">谁可以看到我的手机号码？</string>
+  <string name="WhoCanSeePhoneInfo">已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。</string>
+
+  <string name="PrivacyShowNumberNobody">没有人可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberNobodyExcept">没有人 (%1$s) 可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberContacts">只有你的联系人可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberContactsExcept">只有你的联系人 (%1$s) 可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberEverybody">所有人都可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberEverybodyExcept">所有人 (%1$s) 都可以看到你的手机号码</string>
 
   <!--<string name="PrivacyAllowFindingNobody">Nobody can see your phone number</string>
   <string name="PrivacyAllowFindingNobodyExcept">Nobody (%1$s) can see your phone number</string>-->
-  
-  
-  
-  
+  <string name="PrivacyAllowFindingContacts">只有你的联系人才能在 Telegram 上找到你</string>
+  <string name="PrivacyAllowFindingContactsExcept">你的联系人 (%1$s) 可以在 Telegram 上找到你</string>
+  <string name="PrivacyAllowFindingEverybody">所有人都可以在 Telegram 上找到你</string>
+  <string name="PrivacyAllowFindingEverybodyExcept">所有人 (%1$s) 都可以在 Telegram 上找到你</string>
 
-  
+  <string name="ShareMyNumber">与 %1$s 分享我的手机号码</string>
 
-  
-  
-  
-  
+  <string name="FindingByPhoneNumber">通过手机号码查找</string>
+  <string name="WhoCanFindByPhone">谁可以通过我的手机号找到我？</string>
+  <string name="WhoCanFindByPhoneInfoEveryone">已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。</string>
+  <string name="WhoCanFindByPhoneInfoContacts">只有您的联系人才能通过手机号码匹配到您。</string>
 
-  
-  
+  <string name="NumberHidden">未知手机号码</string>
+  <string name="NumberHiddenHint">%1$s 的手机号码将在他将你添加到通讯录或更改隐私设置后可见。</string>
 
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
+  <string name="CategoryMain">所有对话</string>
+  <string name="CategoryArchive">归档</string>
+  <string name="CategoryArchivePrivate">归档 / 私聊</string>
+  <string name="CategoryArchiveGroup">归档 / 群组</string>
+  <string name="CategoryArchiveChannels">归档 / 频道</string>
+  <string name="CategoryArchiveBots">归档 / 机器人</string>
+  <string name="CategoryArchiveUnread">归档 / 未读</string>
 
   
   
@@ -2802,44 +2795,35 @@
   
   
   
+
   
   
+  <string name="AllowWriteAccess">允许 **%1$s** 向我发送消息</string>
+  <string name="Discuss">讨论</string>
+  <string name="LinkedChannel">链接的频道</string>
+  <string name="LinkedGroup">链接的群组</string>
+  <string name="DiscussionsChat">讨论群</string>
+  <string name="LinkChannel">连接一个频道</string>
   
 
   
   ew
 
-  
-  
-  
+  <string name="ChannelGroupNew">创建一个新群组</string>
+  <string name="ChannelGroupExisting">选择已有群组</string>
+  <string name="ChannelGroupRemove">取消链接群组</string>
 
-  
+  <string name="ChannelGroupInfo">选择一个将在您的频道中显示的用于讨论的群组。</string>
   <string name="ChannelGroupInfo2">一个到 %1$s 的链接将在所有订阅者的底栏处展示。\n\n您在频道中发布的所有消息将被同步转发至这个群组。</string>
 
-  
-  
+  <string name="UnlinkGroupConfirm">您确定要取消 **%1$s** 到此频道的链接吗？</string>
+  <string name="UnlinkGroupDone">取消链接</string>
 
   
-  
+  <string name="UnlinkChannelDone">取消链接</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-  
-  
-
-  
-  
-  
+  <string name="NoCommentChats">找不到适合讨论的群组。</string>
+  <string name="LinkGroupConfirmDone">链接群组</string>
   
   
   
@@ -2850,15 +2834,31 @@
   
 
   
-  
+  <string name="ArchiveHide">隐藏于列表上方</string>
+  <string name="ArchivePin">在列表中置顶</string>
+
+  <string name="MessagesPrivate">私聊消息</string>
+  <string name="MessagesGroups">群组消息</string>
+  <string name="MessagesBots">机器人消息</string>
+  <string name="MessagesChannels">频道消息</string>
+  <string name="MessagesArchive">已归档的消息</string>
+  <string name="MessagesArchivePrivate">归档的私聊消息</string>
+  <string name="MessagesArchiveGroups">归档的群组消息</string>
+  <string name="MessagesArchiveBots">归档的机器人消息</string>
+  <string name="MessagesArchiveChannels">归档的频道消息</string>
+
+  <string name="ArchiveRead">全部设为已读</string>
 
   
+  <string name="xArchivedChats_other">%1$s 个已归档对话</string>
+
+  <string name="OpenArchive">已归档对话</string>
   
 
-  
-  
-  
-  
+  <string name="PollSettingAnonymous">匿名投票</string>
+  <string name="PollSettingMultiple">可多选</string>
+  <string name="PollSettingQuiz">小测验模式</string>
+  <string name="PollSettingQuizInfo">测验模式中只有一个正确答案。一旦作答将无法撤销。</string>
 
   
   
@@ -2918,6 +2918,7 @@
   <string name="LinkStateKnowsNumberMutual">%1$s 和您可以互相看到对方的手机号码</string>
   <string name="LinkStateNone">%1$s 不能看到您的手机号码</string>
   <string name="MapPreviewProviderCloud">普通对话的地图预览提供商</string>
+  <string name="NoAnswered">无人回答</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
@@ -2956,4 +2957,5 @@
   <string name="login_YourName">您的姓名</string>
   <string name="message_adminSign">" 管理员"</string>
   <string name="service_Notifications">该服务用于显示消息通知。</string>
+  <string name="xAnswered_other">%1$s 人已回答</string>
 </resources>

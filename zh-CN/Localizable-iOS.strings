@@ -382,7 +382,7 @@
 "Login.PhoneGenericEmailBody" = "I'm trying to use my mobile phone number: %1$@\nBut Telegram shows an error. Please help.\n\nError: %2$@\nApp version: %3$@\nOS version: %4$@\nLocale: %5$@\nMNC: %6$@";
 
 
-"Login.PhoneTitle" = "您的电话号码";
+"Login.PhoneTitle" = "手机号码";
 "Login.PhonePlaceholder" = "您的手机号码";
 "Login.CountryCode" = "国家代码";
 "Login.InvalidCountryCode" = "无效的国家代码";
@@ -4310,8 +4310,8 @@ Sorry for the inconvenience.";
 
 "Privacy.AddNewPeer" = "添加用户或群组";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号码？";
-"PrivacyPhoneNumberSettings.CustomHelp" = "已将您的手机号保存在其联系人中的用户将在 Telegram 上看到该号码。";
-"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "只有您的联系人才能通过通讯录手机号码匹配到您。";
+"PrivacyPhoneNumberSettings.CustomHelp" = "已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。";
+"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "只有您的联系人才能通过手机号码匹配到您。";
 
 "PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
@@ -5256,35 +5256,35 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"CreatePoll.QuizOptionsHeader" = "测验选项";
+"CreatePoll.Anonymous" = "匿名投票";
+"CreatePoll.MultipleChoice" = "可多选";
+
+"CreatePoll.Quiz" = "小测验模式";
+"CreatePoll.QuizInfo" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
 
 
 
 
 
+"MessagePoll.SubmitVote" = "提交投票";
+"MessagePoll.ViewResults" = "查看结果";
+"MessagePoll.QuizNoUsers" = "无人回答";
 
 
 
 
 
+"MessagePoll.QuizCount_any" = "%@ 人已回答";
+
+"PollResults.Title" = "投票结果";
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Conversation.StopQuizConfirmationTitle" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
+"Conversation.StopQuizConfirmation" = "停止测验";
 
 
 

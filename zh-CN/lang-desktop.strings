@@ -174,7 +174,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_intro_next" = "下一步";
 "lng_intro_finish" = "注册";
-"lng_intro_submit" = "提交";
+"lng_intro_submit" = "解锁";
 
 "lng_photo_caption" = "添加说明";
 "lng_photos_comment" = "说明";
@@ -648,7 +648,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_phone_number_title" = "手机号隐私";
 "lng_edit_privacy_phone_number_header" = "谁可以看到您的手机号码";
-"lng_edit_privacy_phone_number_warning" = "已将您的手机号码保存在其联系人中的用户将在 Telegram 上看到该号码。";
+"lng_edit_privacy_phone_number_warning" = "已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。";
 "lng_edit_privacy_phone_number_always_empty" = "总是共享给";
 "lng_edit_privacy_phone_number_never_empty" = "从不共享给";
 "lng_edit_privacy_phone_number_exceptions" = "添加用户或群组以覆盖上面的设置。";
@@ -656,7 +656,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_never_title" = "从不共享给";
 
 "lng_edit_privacy_phone_number_find" = "谁可以通过我的手机号找到我？";
-"lng_edit_privacy_phone_number_contacts" = "只有您的联系人才能通过通讯录手机号码匹配到您。";
+"lng_edit_privacy_phone_number_contacts" = "只有您的联系人才能通过手机号码匹配到您。";
 
 "lng_edit_privacy_lastseen_title" = "最后上线时间隐私设置";
 "lng_edit_privacy_lastseen_header" = "谁可以看到您的最后上线时间";
@@ -1458,6 +1458,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_send_photo" = "单独作为一张图片发送";
 "lng_send_file" = "作为文件发送";
 
+
 "lng_forward_choose" = "选择接收者...";
 "lng_forward_cant" = "抱歉，不能转发到此处 :(";
 "lng_forward_share_contact" = "确认分享联系信息给 {recipient}？";
@@ -2180,10 +2181,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_votes_count#other" = "{count} 人已投票";
 "lng_polls_votes_none" = "无人投票";
 
-
-
-
-
+"lng_polls_answers_count#other" = "{count} 人已回答";
+"lng_polls_answers_none" = "无人回答";
+"lng_polls_submit_votes" = "投票";
+"lng_polls_view_results" = "查看结果";
 "lng_polls_retract" = "撤回我的投票";
 "lng_polls_stop" = "终止投票";
 "lng_polls_stop_warning" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
@@ -2199,13 +2200,16 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_maximum" = "您添加的选项已达最大数量。";
 
 
-
-
-
+"lng_polls_create_anonymous" = "匿名投票";
+"lng_polls_create_multiple_choice" = "可多选";
+"lng_polls_create_quiz_mode" = "小测验模式";
 "lng_polls_create_button" = "确认";
 
 
 
+
+"lng_polls_poll_results_title" = "投票结果";
+"lng_polls_quiz_results_title" = "测验结果";
 
 
 

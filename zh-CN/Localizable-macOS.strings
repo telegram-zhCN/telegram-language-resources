@@ -420,7 +420,7 @@
 "GeneralSettings.SendByCmdEnter" = "用 ⌘ + 回车 来发送";
 
 "Telegram.GeneralSettingsViewController" = "通用设置";
-"AccountSettings.Logout" = "登出";
+"AccountSettings.Logout" = "注销";
 "NotificationSettings.ToggleNotifications.Header" = "通知";
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
@@ -1004,7 +1004,7 @@
 "GroupAdmins.Desc.AdminInvites" = "只有管理员能邀请、移除成员或更改群组名称及头像。";
 "GroupAdmins.Desc.AllInvites" = "所有群组成员均可以邀请新成员、编辑群组名称及头像。";
 "Login.PhoneNumberNotRegistred" = "这个电话号码没有注册过。如果你没有注册过 Telegram 账号，请在您的移动设备上注册。";
-"Login.YourPhoneLabel" = "电话号码";
+"Login.YourPhoneLabel" = "手机号码";
 "Login.YourCodeLabel" = "验证码";
 "Login.YourPasswordLabel" = "密码";
 
@@ -1117,7 +1117,7 @@
 
 
 "PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "谁可以看到我的手机号码？";
-"PrivacySettingsController.PhoneNumber.CustomHelp" = "已将您的手机号码保存在其联系人中的用户将在 Telegram 上看到该号码。";
+"PrivacySettingsController.PhoneNumber.CustomHelp" = "已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。";
 "PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "总是共享给";
 "PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "从不共享";
 
@@ -2740,7 +2740,7 @@
 "Chat.Poll.TotalVotesResultEmpty" = "无人投票";
 
 
-
+"Chat.Quiz.TotalVotesResultEmpty" = "无人回答";
 
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "匿名投票";
@@ -2755,11 +2755,11 @@
 "Chat.Poll.Stop.Confirm.Text" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
 
 
+"Chat.Poll.SubmitVote" = "投票";
 
 
 
-
-
+"Chat.Quiz.Stop.Confirm.Text" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
 
 
 
@@ -2809,14 +2809,14 @@
 "NewPoll.DisacardConfirm.No" = "取消";
 
 
+"NewPoll.Anonymous" = "匿名投票";
+"NewPoll.MultipleChoice" = "可多选";
+"NewPoll.Quiz" = "小测验模式";
+"NewPoll.QuizDesc" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
 
 
 
-
-
-
-
-
+"PollResults.Title.Quiz" = "测验结果";
 
 
 
@@ -3445,7 +3445,7 @@
 
 
 
-"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "只有您的联系人才能通过通讯录手机号码匹配到您。";
+"PrivacyPhoneNumberSettings.CustomDisabledHelp" = "只有您的联系人才能通过手机号码匹配到您。";
 
 "PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
