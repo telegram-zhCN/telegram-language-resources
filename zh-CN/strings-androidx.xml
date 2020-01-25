@@ -2523,8 +2523,12 @@
 
   <string name="LaunchTitle">喔唷，崩溃啦！</string>
   <string name="LaunchApp">继续启动</string>
+  
   <string name="LaunchAppShareError">分享错误详情</string>
   <string name="LaunchAppViewError">查看错误详情</string>
+  
+
+  
 
   <string name="LaunchSubtitleDiskFull">存储空间已满</string>
   <string name="LaunchAppGuideDiskFull">Telegram X 之前未能启动，因为设备存储已满。\n\n请确保有足够的可用存储空间，然后按**启动应用程序**再试一次。\n\n目前可用空间：%1$s</string>

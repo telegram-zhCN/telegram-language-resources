@@ -2523,8 +2523,12 @@
 
   <string name="LaunchTitle">Aw, Snap!</string>
   <string name="LaunchApp">Launch App</string>
+  <string name="LaunchAppCheckUpdate">Check for Updates</string>
   <string name="LaunchAppShareError">Share error details</string>
   <string name="LaunchAppViewError">View error details</string>
+  <string name="LaunchAppEraseDatabase">Erase Database &amp; Launch App</string>
+
+  <string name="LaunchAppUserSubtitle">offline</string>
 
   <string name="LaunchSubtitleDiskFull">Disk storage is full</string>
   <string name="LaunchAppGuideDiskFull">Telegram X has previously failed to launch because the device storage was full.\n\nMake sure there\'s enough storage space available and press **Launch App** to try again.\n\nCurrently available: %1$s</string>
