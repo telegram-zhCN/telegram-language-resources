@@ -259,7 +259,7 @@
 "State.connecting" = "连接中...";
 "State.ConnectingToProxy" = "正在连接代理...";
 "State.ConnectingToProxyInfo" = "点击此处设置";
-"State.Updating" = "收取中...";
+"State.Updating" = "刷新中...";
 "State.WaitingForNetwork" = "等待网络连接";
 
 // Presence
@@ -3661,7 +3661,7 @@ Unused sets are archived when you add more.";
 "AuthSessions.IncompleteAttempts" = "未完成的登录尝试";
 "AuthSessions.IncompleteAttemptsInfo" = "这些设备无法访问您的帐号。他们输入了正确的手机验证码，但没有提供正确的两步验证密码。";
 
-"AuthSessions.Terminate" = "确定";
+"AuthSessions.Terminate" = "注销会话";
 
 "ApplyLanguage.ChangeLanguageAlreadyActive" = "This language (%1$@) is already active.";
 

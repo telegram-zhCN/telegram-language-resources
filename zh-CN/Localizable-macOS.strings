@@ -310,7 +310,7 @@
 
 "ConnectingStatus.connecting" = "连接中";
 "ConnectingStatus.online" = "在线";
-"ConnectingStatus.updating" = "获取中...";
+"ConnectingStatus.updating" = "刷新中...";
 "ConnectingStatus.waitingNetwork" = "等待网络连接";
 "ConnectingStatus.connectingToProxy" = "正在连接代理";
 
