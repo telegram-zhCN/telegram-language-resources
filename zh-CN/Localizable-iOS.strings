@@ -319,7 +319,7 @@
 
 "LastSeen.YesterdayAt" = "昨天 %@ 在线";
 "LastSeen.AtDate" = " %@ 在线";
-
+"LastSeen.TodayAt" = "最近上线于今天 %@";
 "LastSeen.Lately" = "最近上过线";
 "LastSeen.WithinAWeek" = "几天前在线";
 "LastSeen.WithinAMonth" = "几周前在线";
