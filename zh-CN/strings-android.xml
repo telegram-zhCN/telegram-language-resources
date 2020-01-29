@@ -221,7 +221,7 @@
     <string name="ArchiveHintText3">您可以任意置顶已归档的对话。</string>
     <string name="ScheduledOrNoSoundHint">Hold this button to schedule your message or send it without sound.</string>
     <!--channels-->
-    <string name="SetAsAdmin">设为管理员</string>
+    <string name="SetAsAdmin">提升为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
     <string name="NoBlockedUsers">暂无被封禁用户</string>
     <string name="DeleteMega">删除群组</string>
@@ -245,7 +245,7 @@
     <string name="ActionPinnedText">un1 置顶了 \"%1$s\"</string>
     <string name="ActionPinnedNoText">un1 置顶了一条消息</string>
     <string name="ActionPinnedPoll">un1 置顶了一项投票</string>
-    <string name="ActionPinnedQuiz">un1 pinned a quiz</string>
+    <string name="ActionPinnedQuiz">un1 置顶了一个小测验</string>
     <string name="ActionPinnedPhoto">un1 置顶了一张图片</string>
     <string name="ActionPinnedVideo">un1 置顶了一段视频</string>
     <string name="ActionPinnedFile">un1 置顶了一个文件</string>
@@ -534,7 +534,7 @@
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
     <string name="PollQuiz">小测验模式</string>
-    <string name="PollSelectOption">Select an option first</string>
+    <string name="PollSelectOption">请先选择一个选项</string>
     <string name="PollCollapse">收起</string>
     <string name="PollExpand">展开</string>
     <string name="PublicPollCantForward">Sorry, polls with visible votes can’t be forwarded to channels.</string>
@@ -579,12 +579,12 @@
     <string name="Answer_few">%1$d 人已回答</string>
     <string name="Answer_many">%1$d 人已回答</string>
     <string name="Answer_other">%1$d 人已回答</string>
-    <string name="ShowVotes_zero">Show More (%1$d)</string>
-    <string name="ShowVotes_one">Show More (%1$d)</string>
-    <string name="ShowVotes_two">Show More (%1$d)</string>
-    <string name="ShowVotes_few">Show More (%1$d)</string>
-    <string name="ShowVotes_many">Show More (%1$d)</string>
-    <string name="ShowVotes_other">Show More (%1$d)</string>
+    <string name="ShowVotes_zero">显示更多 (%1$d)</string>
+    <string name="ShowVotes_one">显示更多 (%1$d)</string>
+    <string name="ShowVotes_two">显示更多 (%1$d)</string>
+    <string name="ShowVotes_few">显示更多 (%1$d)</string>
+    <string name="ShowVotes_many">显示更多 (%1$d)</string>
+    <string name="ShowVotes_other">显示更多 (%1$d)</string>
     <string name="Option_zero">%1$d 个选项</string>
     <string name="Option_one">%1$d 个选项</string>
     <string name="Option_two">%1$d 个选项</string>
@@ -627,7 +627,7 @@
     <string name="EventLogPinnedMessages">un1 置顶了这条消息：</string>
     <string name="EventLogUnpinnedMessages">un1 取消置顶了消息</string>
     <string name="EventLogStopPoll">un1 终止了投票:</string>
-    <string name="EventLogStopQuiz">un1 stopped the quiz:</string>
+    <string name="EventLogStopQuiz">un1 终止了测验：</string>
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
     <string name="EventLogChangedLocation">un1 将群组位置更改至 “%1$s”</string>
     <string name="EventLogRemovedLocation">un1 移除了群组位置</string>
@@ -957,7 +957,7 @@
     <string name="MessageScheduledLimitReached">抱歉，您只能同时设置 100 条定时消息。</string>
     <string name="MessageScheduledBotAction">这个操作将在消息发布后可用。</string>
     <string name="MessageScheduledVote">投票功能将在消息发布后正式开始。</string>
-    <string name="MessageScheduledVoteResults">Poll results will become available after the message is published.</string>
+    <string name="MessageScheduledVoteResults">只有在消息发布后您才能看到投票结果。</string>
     <string name="MessageScheduledReminderNotification">&#128197; 备忘录</string>
     <string name="OneResult">1 结果</string>
     <string name="VideoQualityIsTooLow">视频质量太低，无法更改压缩设置。</string>
@@ -1335,7 +1335,7 @@
     <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
     <string name="CreateNewThemeAlert">您可以通过更改应用中的颜色来创建自己的主题。\n\n您可以随时切换回默认的 Telegram 主题。</string>
     <string name="ThemeSetUrlHelp">您可以使用 a-z, 0-9 和下划线。\n最短长度为 5 个字符。</string>
-    <string name="ThemeHelpLink">Your theme will be updated for all users each time you change it. Anyone can install it using this link:\n%1$s</string>
+    <string name="ThemeHelpLink">每当您的主题被修改之后，用户将同步收到更新。任何人都可以通过这个链接安装您的主题：\n%1$s</string>
     <string name="ThemeCreateHelp">任何人都可以通过该链接安装您的主题。并在您修改主题之后获得更新。\n\n该主题将包括您正在使用的主题和壁纸。</string>
     <string name="ThemeCreateHelp2">您可以修改您主题的公开链接。\n\n您可以使用 a-z、0-9 和下划线，最小长度为5个字符。</string>
     <string name="ThemeNameInvalid">抱歉，主题名无效。</string>
@@ -1366,7 +1366,7 @@
     <string name="ThemePreviewDialogMessage8">Did someone say peanut butter?</string>
     <string name="ThemePreviewTitle">Reinhardt</string>
     <string name="ThemePreviewLine1">Reinhardt, we need to find you some new tunes &#127926;.</string>
-    <string name="ThemePreviewLine2">I can\'t even take you seriously right now.</string>
+    <string name="ThemePreviewLine2">我真的对你刮目相看了。</string>
     <string name="ThemePreviewLine3">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
     <string name="ThemePreviewLine3Reply">Lucio</string>
     <string name="ThemePreviewLine4">Bring it on! I LIVE for this!</string>
@@ -1460,7 +1460,7 @@
     <string name="BlockUserMultiTitle">屏蔽用户</string>
     <string name="BlockUserChatsTitle">对话</string>
     <string name="BlockUserContactsTitle">联系人</string>
-    <string name="LogOut">注销</string>
+    <string name="LogOut">退出当前帐号</string>
     <string name="NoSound">无声</string>
     <string name="Default">默认</string>
     <string name="Support">支持</string>
@@ -1749,7 +1749,7 @@
     <string name="ChangePhoneNumberInfo">将您的帐号、聊天信息和媒体文件转移到新手机号码上。</string>
     <string name="ContactSupport">联系志愿者客服</string>
     <string name="ContactSupportInfo">如果有问题，请告诉我们；注销无助于解决问题。</string>
-    <string name="LogOutTitle">注销</string>
+    <string name="LogOutTitle">退出当前帐号</string>
     <string name="LogOutInfo">注销将会销毁所有的加密聊天记录。</string>
     <string name="SearchInSettings">搜索设置和常见问题</string>
     <string name="SettingsRecent">最近搜索</string>
@@ -2549,7 +2549,7 @@
     <string name="SendMessagesToText">您要将这条消息发送给 **%1$s** 吗？</string>
     <string name="SendGameToText">您要将这个游戏分享给 **%1$s** 吗？</string>
     <string name="SendContactToText">您要将这个联系人信息分享给 **%1$s** 吗？</string>
-    <string name="AreYouSureLogout">您确定要注销吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
+    <string name="AreYouSureLogout">您确定要退出当前帐号吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，这将会清除所有的加密聊天记录。</string>
     <string name="DeleteFewChatsTitle">删除 %1$s</string>
     <string name="ClearFewChatsTitle">清空 %1$s</string>
     <string name="ClearCacheFewChatsTitle">清除 %1$s的缓存</string>

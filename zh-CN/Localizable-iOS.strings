@@ -303,7 +303,7 @@
 "Time.TodayAt" = "今天 %@";
 "Time.YesterdayAt" = "昨天 %@";
 
-"LastSeen.JustNow" = "刚刚在线";
+"LastSeen.JustNow" = "不久前在线";
  //three to ten
  //one
  //two
@@ -318,8 +318,8 @@
 
 
 "LastSeen.YesterdayAt" = "昨天 %@ 在线";
-"LastSeen.AtDate" = " %@ 在线";
-"LastSeen.TodayAt" = "最近上线于今天 %@";
+"LastSeen.AtDate" = "最后上线于 %@";
+"LastSeen.TodayAt" = "最近上线于 今天 %@";
 "LastSeen.Lately" = "最近上过线";
 "LastSeen.WithinAWeek" = "几天前在线";
 "LastSeen.WithinAMonth" = "几周前在线";
@@ -513,7 +513,7 @@
 "Notification.JoinedChat" = "%@ 加入了群组";
 "Notification.JoinedChannel" = "%@ 加入了频道";
 "Notification.Invited" = "%@ 邀请了 %@";
-
+"Notification.InvitedMultiple" = "%@ 邀请了 %@";
 "Notification.LeftChat" = "%@ 退出了群组";
 "Notification.LeftChannel" = "%@ 退出了频道";
 "Notification.Kicked" = "%@ 移除了 %@";
@@ -685,7 +685,7 @@
 
 // Settings
 "Settings.SetProfilePhoto" = "上传头像";
-"Settings.Logout" = "注销";
+"Settings.Logout" = "退出当前帐号";
 "Settings.Title" = "设置";
 "Settings.NotificationsAndSounds" = "通知与声音";
 "Settings.ChatSettings" = "数据与存储";
@@ -774,7 +774,7 @@
 
 
 
-"Settings.LogoutConfirmationTitle" = "注销?";
+"Settings.LogoutConfirmationTitle" = "退出登录？";
 "Settings.LogoutConfirmationText" = "\nTelegram 能在所有设备上同时登录和使用。\n\n但请注意，注销将会清除所有的加密对话数据。";
 
 "Login.PadPhoneHelp" = "\n您可以使用手机号在各种设备上登录 Telegram。\n请不要在此使用您 iPad SIM 卡的号码，我们需要向您发送一条短信。\n\n使用此号码？\n{number}";
@@ -1014,8 +1014,8 @@
 
 
 "Notification.Reply" = "回复";
-"Notification.Mute1h" = "免打扰 1 小时";
-"Notification.Mute1hMin" = "免打扰 1 小时";
+"Notification.Mute1h" = "暂停通知 1 小时";
+"Notification.Mute1hMin" = "暂停通知 1 小时";
 "Conversation.ContextMenuShare" = "分享";
 
 
@@ -1085,14 +1085,14 @@
 
 
 
-"MuteFor.Hours_any" = "免打扰 %@ 小时";
+"MuteFor.Hours_any" = "暂停通知 %@ 小时";
 
 
 
 
 
 
-"MuteFor.Days_any" = "免打扰 %@ 天";
+"MuteFor.Days_any" = "暂停通知 %@ 天";
 
 
 
@@ -1935,7 +1935,7 @@
 "Notification.PinnedContactMessage" = "%@ 置顶了一条联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
 "Notification.PinnedPollMessage" = "%@ 置顶了一项投票";
-
+"Notification.PinnedQuizMessage" = "%@ 置顶了一个小测验";
 
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "置顶了图片";
@@ -3113,7 +3113,7 @@ Unused sets are archived when you add more.";
 "AuthSessions.LogOutApplications" = "从所有网站中断开";
 "AuthSessions.LogOutApplicationsHelp" = "您可以在所有支持使用 Telegram 登入的网站中登录。";
 "AuthSessions.LoggedInWithTelegram" = "使用 Telegram 登录";
-"AuthSessions.LogOut" = "注销";
+"AuthSessions.LogOut" = "登出";
 "AuthSessions.Message" = "您允许了此机器人在您登录 %@ 时向您发送消息。";
 
 "Conversation.ContextMenuReport" = "举报";
@@ -4059,7 +4059,7 @@ Unused sets are archived when you add more.";
 "ChatSettings.AutoDownloadSettings.OffForAll" = "已禁用";
 "ChatSettings.AutoDownloadSettings.Delimeter" = "，";
 
-"LogoutOptions.Title" = "注销";
+"LogoutOptions.Title" = "退出当前帐号";
 "LogoutOptions.AlternativeOptionsSection" = "其它选项";
 "LogoutOptions.AddAccountTitle" = "添加另一个帐户";
 "LogoutOptions.AddAccountText" = "登录其他 Telegram 帐户并在它们之间轻松切换。";
@@ -4071,7 +4071,7 @@ Unused sets are archived when you add more.";
 "LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号码上。";
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
-"LogoutOptions.LogOut" = "注销";
+"LogoutOptions.LogOut" = "退出当前帐号";
 "LogoutOptions.LogOutInfo" = "注销将会销毁所有的加密聊天记录。";
 
 
@@ -4236,7 +4236,7 @@ Unused sets are archived when you add more.";
 
 "ChatList.DeleteSavedMessagesConfirmationTitle" = "警告！";
 "ChatList.DeleteSavedMessagesConfirmationText" = "这将会删除此会话中**全部消息记录**。";
-"ChatList.DeleteSavedMessagesConfirmationAction" = "删除全部";
+"ChatList.DeleteSavedMessagesConfirmationAction" = "全部删除";
 
 "ChatList.ClearChatConfirmation" = "确定要删除与 %@ 的所有聊天记录吗？";
 
@@ -4514,7 +4514,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ 关闭了慢速模式";
 "Channel.AdminLog.SetSlowmode" = "%1$@ 将慢速模式定时器设置为 %2$@";
 
-
+"GroupInfo.Permissions.EditingDisabled" = "您无法修改这项权限。";
 
 "Chat.SlowmodeTooltip" = "慢速模式已启用。您可以\n在%@后发送下一条消息";
 "Chat.SlowmodeTooltipPending" = "慢速模式已启用。 您不能一次发送多条消息。";
@@ -4672,7 +4672,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Appearance.ThemePreview.ChatList.3.Text" = "哇！我们刚刚达到 2500 人了！";
 
 
 
@@ -4719,6 +4719,14 @@ Any member of this group will be able to see messages in the channel.";
 
 "EditTheme.FileReadError" = "主题文件无效";
 
+"EditTheme.Create.TopInfo" = "主题将基于您当前选择的颜色和壁纸。";
+
+
+
+
+
+
+"EditTheme.Edit.BottomInfo" = "您可以选择一个新文件来更新主题。 它将为所有用户更新。";
 
 
 
@@ -4728,20 +4736,12 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"EditTheme.Expand.Preview.OutgoingText" = "或上传一个主题文件";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+"EditTheme.Edit.Preview.IncomingReplyText" = "它是如何工作的？";
+"EditTheme.Edit.Preview.IncomingText" = "使用你当前的颜色";
+"EditTheme.Edit.Preview.OutgoingText" = "或者上传一个主题文件";
 
 "EditTheme.ErrorLinkTaken" = "抱歉，该链接已被占用。";
 "EditTheme.ErrorInvalidCharacters" = "抱歉，该链接包含无效字符。";
@@ -4770,8 +4770,8 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.Context.Unarchive" = "取消归档";
 "ChatList.Context.Pin" = "置顶";
 "ChatList.Context.Unpin" = "取消置顶";
-"ChatList.Context.Mute" = "免打扰";
-"ChatList.Context.Unmute" = "取消免打扰";
+"ChatList.Context.Mute" = "暂停消息通知";
+"ChatList.Context.Unmute" = "恢复消息通知";
 "ChatList.Context.JoinChannel" = "加入频道";
 "ChatList.Context.Delete" = "删除";
 
@@ -4781,7 +4781,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Theme.Context.Apply" = "应用";
 
-
+"Settings.Context.Logout" = "退出当前帐号";
 
 "Channel.EditAdmin.PermissionDeleteMessagesOfOthers" = "删除其他人的消息";
 "Channel.AdminLog.CanDeleteMessagesOfOthers" = "删除其他人的消息";
@@ -5055,7 +5055,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "TwoFactorSetup.Email.Title" = "恢复邮箱";
-
+"TwoFactorSetup.Email.Text" = "您可以设置一个恢复邮箱来重置密码及恢复您的Telegram账户权限。";
 "TwoFactorSetup.Email.Placeholder" = "您的邮箱地址";
 "TwoFactorSetup.Email.Action" = "继续";
 "TwoFactorSetup.Email.SkipAction" = "跳过邮箱设置";
@@ -5093,17 +5093,17 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"ClearCache.StorageTitle" = "%@ 储存空间";
 "ClearCache.StorageCache" = "Telegram 缓存";
-
+"ClearCache.StorageServiceFiles" = "Telegram 服务文件";
 "ClearCache.StorageOtherApps" = "其他应用";
 "ClearCache.StorageFree" = "可用空间";
 "ClearCache.ClearCache" = "清空 Telegram 缓存";
-
+"ClearCache.Clear" = "清除";
 "ClearCache.Forever" = "永久";
 
 
-
+"ChatList.DeletedChats_any" = "删除一个对话\n删除 %@ 个对话";
 
 
 
@@ -5125,11 +5125,11 @@ Any member of this group will be able to see messages in the channel.";
 
 "Group.Location.CreateInThisPlace" = "在该位置创建群组";
 
-
-
-
+"Theme.Colors.Accent" = "强调色";
+"Theme.Colors.Background" = "背景";
+"Theme.Colors.Messages" = "消息";
 "Theme.Colors.ColorWallpaperWarning" = "您确定要将聊天窗口背景设置为纯色吗？";
-
+"Theme.Colors.ColorWallpaperWarningProceed" = "确定";
 
 
 
@@ -5150,20 +5150,26 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Appearance.TextSizeSetting" = "字体大小";
+"Appearance.TextSize.Automatic" = "系统";
+"Appearance.TextSize.Title" = "字体大小";
+"Appearance.TextSize.UseSystem" = "使用系统字体大小";
 
 
+"Shortcut.SwitchAccount" = "切换帐户";
 
+"Settings.Devices" = "设备";
 
+"AuthSessions.DevicesTitle" = "设备";
 
-
-
-
-
-
-
-
-
+"AuthSessions.AddDevice.ScanInfo" = "扫描二维码以在其他设备上登录该帐户。";
 "AuthSessions.AddDevice.ScanTitle" = "扫描二维码";
+"AuthSessions.AddDevice.InvalidQRCode" = "无效二维码";
+"AuthSessions.AddDeviceIntro.Title" = "通过二维码登入";
+"AuthSessions.AddDeviceIntro.Text1" = "从 [desktop.telegram.org]() 下载 Telegram 到您的计算机上";
+"AuthSessions.AddDeviceIntro.Text2" = "在您的计算机上运行 Telegram 来获得二维码";
+"AuthSessions.AddDeviceIntro.Text3" = "扫描二维码来连接您的帐户";
+"AuthSessions.AddDeviceIntro.Action" = "扫描二维码";
 
 
 
@@ -5171,18 +5177,19 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
-
+"Map.Home" = "家";
+"Map.Work" = "工作";
 
 
 "Map.SearchNoResultsDescription" = "找不到 \"%@\"。\n请尝试一个新的关键词。";
 
+"ChatList.Search.ShowMore" = "显示更多";
+"ChatList.Search.ShowLess" = "显示更少";
+
+"AuthSessions.OtherDevices" = "官方的 Telegram 应用仅适用于 iPhone、iPad、Android、macOS、Windows 和 Linux。[了解更多]()";
+
+"MediaPlayer.UnknownArtist" = "未知艺术家";
+"MediaPlayer.UnknownTrack" = "未知音轨";
 
 
 
@@ -5191,34 +5198,27 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Theme.Context.ChangeColors" = "修改颜色";
 
 
 
+"Theme.Colors.Proceed" = "继续";
 
+"AuthSessions.AddDevice.UrlLoginHint" = "这个二维码可以用于登录您的 Telegram 帐户。\n\n要确认登录，请前往 设置 > 设备 > 扫描二维码 扫描此二维码。";
 
+"Appearance.RemoveThemeColor" = "移除";
+"Appearance.RemoveThemeColorConfirmation" = "移除颜色";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+"WallpaperPreview.PatternTitle" = "选择图案";
 
 
 
 "ChatContextMenu.TextSelectionTip" = "按住消息中的文字，移动光标选择完毕之后即可复制。";
 
-
-
+"OldChannels.Title" = "达到上限";
+"OldChannels.NoticeTitle" = "过多的群组和频道";
 "OldChannels.NoticeText" = "抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。";
-
+"OldChannels.NoticeCreateText" = "抱歉，您加入了过多的群组和频道。\n请退出一些再创建新的。";
 "OldChannels.NoticeUpgradeText" = "抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。";
 
 

@@ -100,7 +100,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_recently" = "最近曾上线";
 "lng_status_last_week" = "最近上线于一周内";
 "lng_status_last_month" = "最近上线于一个月内";
-"lng_status_lastseen_now" = "刚刚在线";
+"lng_status_lastseen_now" = "不久前在线";
 
 "lng_status_lastseen_minutes#other" = "最近上线于 {count} 分钟前";
 
@@ -518,7 +518,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_enter" = "请输入您的锁定码";
 "lng_passcode_ph" = "锁定码";
 "lng_passcode_submit" = "解锁";
-"lng_passcode_logout" = "注销";
+"lng_passcode_logout" = "退出当前帐号";
 "lng_passcode_need_unblock" = "请先解锁";
 
 "lng_cloud_password_waiting_code" = "验证码已发送到 {email}...";
@@ -610,8 +610,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_faq_button" = "前往「常见问题」";
 "lng_settings_ask_ok" = "向志愿者提问";
 "lng_settings_faq" = "常见问题";
-"lng_settings_logout" = "注销";
-"lng_sure_logout" = "您确定要注销？";
+"lng_settings_logout" = "退出当前帐号";
+"lng_sure_logout" = "您确定要退出当前帐号吗？";
 
 "lng_settings_need_restart" = "您需要重启软件才能执行某些变更。立即重启？";
 "lng_settings_restart_now" = "立即重启";
@@ -1268,6 +1268,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cant_invite_make_admin" = "设为管理员";
 
 "lng_send_button" = "发送";
+
 "lng_send_silent_message" = "静音发送";
 "lng_schedule_message" = "定时发送";
 "lng_reminder_message" = "定时提醒";
@@ -1399,7 +1400,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_archive_to_list" = "移至对话列表";
 "lng_context_archive_to_menu_info" = "归档已移置主菜单！\n您可以从归档按钮的上下文菜单中移回它。";
 
-"lng_context_promote_admin" = "设为管理员";
+"lng_context_promote_admin" = "提升为管理员";
 "lng_context_edit_permissions" = "编辑权限";
 "lng_context_restrict_user" = "限制用户权限";
 "lng_context_remove_from_group" = "从群组中移除";
@@ -1418,7 +1419,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_save_video" = "保存视频到...";
 "lng_context_save_audio_file" = "保存音乐文件到...";
 "lng_context_save_audio" = "保存语音留言到...";
-"lng_context_pack_info" = "贴纸信息";
+"lng_context_pack_info" = "查看贴纸包";
 "lng_context_pack_add" = "添加贴纸";
 "lng_context_save_file" = "保存文件到...";
 "lng_context_copy_text" = "复制文本";
@@ -2199,7 +2200,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_limit#other" = "您还可以再添加 {count} 个选项。";
 "lng_polls_create_maximum" = "您添加的选项已达最大数量。";
 
-
 "lng_polls_create_anonymous" = "匿名投票";
 "lng_polls_create_multiple_choice" = "可多选";
 "lng_polls_create_quiz_mode" = "小测验模式";
@@ -2208,10 +2208,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 
+
 "lng_polls_poll_results_title" = "投票结果";
 "lng_polls_quiz_results_title" = "测验结果";
 
-
+"lng_polls_show_more#other" = "显示更多 ({count})";
 
 
 "lng_outdated_title" = "请更新您的操作系统。";
@@ -2253,7 +2254,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_menu_quit_telegram" = "退出 {telegram}";
 "lng_mac_menu_about_telegram" = "关于 {telegram}";
 "lng_mac_menu_file" = "文件";
-"lng_mac_menu_logout" = "注销";
+"lng_mac_menu_logout" = "退出当前帐号";
 "lng_mac_menu_edit" = "编辑";
 "lng_mac_menu_undo" = "撤销";
 "lng_mac_menu_redo" = "重做";

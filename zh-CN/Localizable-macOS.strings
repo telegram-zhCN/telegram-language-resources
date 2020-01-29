@@ -22,7 +22,7 @@
 
 "Peer.Status.online" = "在线";
 "Peer.Status.recently" = "近期有上线";
-"Peer.Status.justNow" = "刚刚在线";
+"Peer.Status.justNow" = "不久前在线";
 "Peer.Status.lastWeek" = "本周有上线";
 "Peer.Status.lastMonth" = "最近一个月内有上线";
 "Peer.Status.longTimeAgo" = "很久没上线";
@@ -255,8 +255,8 @@
 "Chat.Service.SecretChat.DisabledTimer" = "%@ 取消了阅后即焚计时器";
 "Chat.Service.SecretChat.DisabledTimer.Self" = "您取消了阅后即焚计时器";
 
-"Chat.Input.Mute" = "免打扰";
-"Chat.Input.Unmute" = "取消免打扰";
+"Chat.Input.Mute" = "关闭消息通知";
+"Chat.Input.Unmute" = "开启消息通知";
 "Chat.Input.Return" = "返回群组";
 "Chat.Input.SecretChat.WaitingToUserOnline" = "正在等待 %@ 上线...";
 
@@ -420,7 +420,7 @@
 "GeneralSettings.SendByCmdEnter" = "用 ⌘ + 回车 来发送";
 
 "Telegram.GeneralSettingsViewController" = "通用设置";
-"AccountSettings.Logout" = "注销";
+"AccountSettings.Logout" = "退出当前帐号";
 "NotificationSettings.ToggleNotifications.Header" = "通知";
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
@@ -573,7 +573,7 @@
 "PrivacySettings.TwoStepVerification" = "两步验证";
 
 "Telegram.PasscodeSettingsViewController" = "密码";
-"Passcode.Lost.Description" = "如果您忘记了锁定码，您可以 [注销]()";
+"Passcode.Lost.Description" = "如果您忘记了锁定码，您可以 [退出当前帐号]()";
 
 
 
@@ -586,8 +586,8 @@
 
 
 
-"ChatList.Context.Unmute" = "取消免打扰";
-"ChatList.Context.Mute" = "免打扰";
+"ChatList.Context.Unmute" = "恢复消息通知";
+"ChatList.Context.Mute" = "暂停消息通知";
 "ChatList.Context.ClearHistory" = "清空历史记录";
 "ChatList.Context.Call" = "通话";
 "ChatList.Context.DeleteChat" = "删除此对话";
@@ -756,7 +756,7 @@
 
 "AccountsController.NewAccount" = "新帐号";
 
-"Account.Confirm.Logout" = "注销?";
+"Account.Confirm.Logout" = "退出登录？";
 "Account.Confirm.LogoutText" = "请记住，注销将删除并关闭您所有的加密对话。";
 
 "Telegram.ConvertGroupViewController" = "超级群组";
@@ -1195,7 +1195,7 @@
 "Chat.Context.Edit1" = "编辑";
 "Chat.Context.EditHelp" = "点击日期";
 "Chat.Context.EnableNotifications" = "免打扰";
-"Chat.Context.DisableNotifications" = "取消免打扰";
+"Chat.Context.DisableNotifications" = "恢复消息通知";
 "Chat.Context.ClearHistory" = "清空历史记录";
 "Chat.Context.Info" = "查看简介";
 "Chat.Context.FeedInfo" = "频道信息";
@@ -1633,8 +1633,8 @@
 "FastSettings.EnableDarkMode" = "启用深色模式";
 "FastSettings.DisableDarkMode" = "关闭深色模式";
 "FastSettings.LockTelegram" = "锁定 Telegram";
-"FastSettings.Mute2Hours" = "免打扰 2 小时";
-"FastSettings.Unmute" = "取消免打扰";
+"FastSettings.Mute2Hours" = "暂停通知 2 小时";
+"FastSettings.Unmute" = "恢复消息通知";
 "FastSettings.SetPasscode" = "设置锁定码";
 
 "GeneralSettings.AppearanceSettings" = "显示设置";
@@ -1967,10 +1967,10 @@
 "Appearance.CustomBackground" = "自定义背景图";
 "Appearance.CustomBackground.FileError" = "文件大小不得超过10MB，图像尺寸不得超过500x500像素。";
 
-"CrashOnLaunch.OK" = "注销";
+"CrashOnLaunch.OK" = "退出登录";
 "CrashOnLaunch.Cancel" = "取消";
 "CrashOnLaunch.Message" = "发生了一些问题。";
-"CrashOnLaunch.Information" = "如果 Telegram 依然在您打开它时崩溃，点击 OK 按钮来注销帐号。这应该能解决问题。";
+"CrashOnLaunch.Information" = "如果 Telegram 依然在您打开它时崩溃，点击 OK 按钮来退出当前帐号。这应该能解决问题。";
 "ChatWallpaper.Empty" = "默认";
 
 "Chat.Service.BotPermissionAllowed" = "您允许了此机器人在您登录 %@ 时向您发送消息。";
@@ -2295,7 +2295,7 @@
 
 
 
-"EditAccount.Logout" = "注销";
+"EditAccount.Logout" = "退出当前帐号";
 "EditAccount.Username" = "用户名";
 "EditAccount.ChangeNumber" = "更改号码";
 "EditAccount.NameDesc" = "请输入您的姓名，并添加一张头像。\n提示：请勿输入个人真实信息。";
@@ -3056,7 +3056,7 @@
 
 
 
-"LogoutOptions.Title" = "注销";
+"LogoutOptions.Title" = "退出当前帐号";
 "LogoutOptions.AlternativeOptionsSection" = "其它选项";
 "LogoutOptions.AddAccountTitle" = "添加另一个帐户";
 "LogoutOptions.AddAccountText" = "关联其他 Telegram 帐户并随时切换。";
@@ -3068,7 +3068,7 @@
 "LogoutOptions.ChangePhoneNumberText" = "将您的帐号、聊天信息和媒体文件转移到新手机号码上。";
 "LogoutOptions.ContactSupportTitle" = "联系志愿者客服";
 "LogoutOptions.ContactSupportText" = "如果有问题，请告诉我们；注销无助于解决问题。";
-"LogoutOptions.LogOut" = "注销";
+"LogoutOptions.LogOut" = "退出当前帐号";
 "LogoutOptions.LogOutInfo" = "注销将会销毁所有的加密聊天记录。";
 
 
@@ -3104,7 +3104,7 @@
 "PasscodeController.Header.Current" = "当前锁定码";
 "PasscodeController.Header.New" = "新建锁定码";
 
-
+"PasscodeController.Text" = "需要锁定 Telegram 时，将鼠标悬停在“设置”图标上，然后选择“锁定 Telegram”，或者直接按 ⌘ + L 。\n\n注意：如果你忘记了锁定码，则需要重新登录你的 Telegram 账号。";
 
 "PasscodeController.Error.Different" = "密码不一致";
 "PasscodeController.Error.Current" = "锁定码无效";
@@ -3679,10 +3679,10 @@
 //"InactiveChannels.InactiveYear_Group_other" = "%d members, inactive %d years";
 
 
+"InactiveChannels.Title" = "达到上限";
 
 
-
-
+"InactiveChannels.BlockHeader" = "过多的群组和频道";
 
 
 

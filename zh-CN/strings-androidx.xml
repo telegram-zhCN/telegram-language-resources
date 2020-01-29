@@ -110,7 +110,7 @@
   <string name="status_LastSeenWithinWeek">最近一周内有上线</string>
   <string name="status_LastSeenWithinMonth">最近一个月内有上线</string>
   <string name="status_LastSeenUnknown">很久没上线</string>
-  <string name="status_LastSeen_now">刚刚在线</string>
+  <string name="status_LastSeen_now">不久前在线</string>
   <string name="status_LastSeen_today">最近上线于 %1$s</string>
   <string name="status_LastSeen_yesterday">昨天 %1$s 在线</string>
   <string name="status_LastSeen_weekday">%1$s %2$s 上过线</string>
@@ -172,9 +172,9 @@
   
   <string name="xVideoMessages_other">%1$s 条视频留言</string>
   
-  <string name="MuteForXDays_other">免打扰 %1$s 天</string>
+  <string name="MuteForXDays_other">暂停通知 %1$s 天</string>
   
-  <string name="MuteForXHours_other">免打扰 %1$s 小时</string>
+  <string name="MuteForXHours_other">暂停通知 %1$s 小时</string>
   
   <string name="inXMinutes_other">%1$s 分钟内</string>
   
@@ -364,9 +364,9 @@
   <string name="fingerprint_fail">未知的指纹</string>
   <string name="cam_hint">请在系统设置中允许 Telegram X 使用摄像头。</string>
   <string name="Settings">设置</string>
-  <string name="LogOut">注销</string>
-  <string name="Mute">免打扰</string>
-  <string name="Unmute">取消免打扰</string>
+  <string name="LogOut">退出当前帐号</string>
+  <string name="Mute">暂停消息通知</string>
+  <string name="Unmute">恢复消息通知</string>
   <string name="returnToGroup">返回群组</string>
   <string name="returnToChannel">返回到频道</string>
   <string name="LoadingUser">加载用户...</string>
@@ -393,12 +393,12 @@
   <string name="BotStart">开始</string>
   <string name="ChannelPublic">公开频道</string>
   <string name="ChannelPublicInfo">公开频道可以被搜索，并且任何人都可以加入。</string>
-  <string name="ChannelUsernameHelp">人们可以与他人分享此链接，并使用 Telegram 的搜索找到您的频道。</string>
+  <string name="ChannelUsernameHelp">用户可与他人分享此链接，使用 Telegram 搜索也能找到您的频道。</string>
   <string name="ChannelPrivate">私人频道</string>
   <string name="ChannelPrivateInfo">私人频道只能通过邀请链接加入。</string>
   <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
   <string name="SendMessageTo">发送消息给...</string>
-  <string name="GroupName">小组名称</string>
+  <string name="GroupName">群组名称</string>
   <string name="GroupDontAdd">从列表中移除</string>
   <string name="GroupEnterValidName">请输入一个有效的群组名</string>
   <string name="Link">链接</string>
@@ -2053,7 +2053,7 @@
 
   <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
-  <string name="SignOutHint2">您确定要将 %1$s 注销吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，退出会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
+  <string name="SignOutHint2">您确定要退出 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，这会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
   <string name="RemoveAccountHint2">要注销 %1$s 吗？此帐户上的所有加密对话都将丢失。已下载的媒体将从此设备中抹去。</string>
 
   <string name="SignOutAlt">其它选项</string>
@@ -2309,8 +2309,8 @@
   <string name="format_editedVisible">%1$s</string>
 
   <string name="ActionMute">免打扰</string>
-  <string name="ActionMutePerson">免打扰 %1$s</string>
-  <string name="ActionMuteEveryone">免打扰所有</string>
+  <string name="ActionMutePerson">关闭来自 %1$s 的消息通知</string>
+  <string name="ActionMuteEveryone">关闭所有通知</string>
 
   <string name="NotificationMutedChat">静音 %1$s 一小时</string>
   <string name="NotificationMutedPerson">禁言 %1$s 一小时</string>
@@ -2356,10 +2356,10 @@
 
   <string name="Prioritize">私聊通知</string>
 
-  <string name="PinnedMessagesOff">关闭以使置顶通知跟随群组消息设置.如果群组开启免打扰,你将不会收到此项通知.</string>
+  <string name="PinnedMessagesOff">关闭以使置顶通知跟随群组消息设置，即如果群组设置了静音，你将不会收到关于置顶信息的通知。</string>
   
 
-  <string name="MentionsOff">关闭以使提及和回复通知跟随群组消息设置.如果群组开启免打扰,你将不会收到此项通知.</string>
+  <string name="MentionsOff">关闭以使提及或回复通知跟随群组消息设置，即如果群组设置了静音，你将不会收到关于它们的通知。</string>
   
 
   <string name="NotificationMerge">合并同类通知</string>
@@ -2415,7 +2415,7 @@
   <string name="NotificationsSetting">通知与提醒</string>
   <string name="NotificationsSettingOn">默认情况下将启用通知。 您可以从对话列表中将特定对话设为静音。</string>
   <string name="NotificationsSettingBlocked">通知被默认屏蔽.修改通知样式来解除屏蔽</string>
-  <string name="NotificationsSettingOff">通知已被默认禁用。你可以从会话列表中取消特定会话的免打扰。</string>
+  <string name="NotificationsSettingOff">通知已被默认禁用。你可以从会话列表中打开特定对话的消息通知。</string>
 
   <string name="ShowSecret">在锁定屏幕上显示加密对话</string>
   <string name="ShowSecretOn">关闭以在设备锁定时隐藏加密会话通知.若设备没有静音,你仍将收到通知声.</string>
@@ -2879,9 +2879,9 @@
 
   <string name="ActionDone">隐藏</string>
   <string name="ActionIrreversible">此操作无法撤销。</string>
-  <string name="ActionMuteAll_other">免打扰所有 %1$s 小时</string>
-  <string name="ActionMuteHours_other">免打扰 %1$s 小时</string>
-  <string name="ActionMutePersonHours_other">免打扰 %2$s  %1$s小时</string>
+  <string name="ActionMuteAll_other">暂停全部通知 %1$s 小时</string>
+  <string name="ActionMuteHours_other">暂停通知 %1$s 小时</string>
+  <string name="ActionMutePersonHours_other">暂停来自 %2$s 的通知 %1$s小时</string>
   <string name="AdminsAreSelectedHint">只有管理员能够添加和移除成员、编辑此群组的名称和头像。</string>
   <string name="AllAccounts">消息</string>
   <string name="AppBadge">未读消息计数角标</string>
@@ -2945,7 +2945,7 @@
   <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
   <string name="ShareTitleMessage">分享消息到...</string>
   <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
-  <string name="SignOutHint">您确定要注销 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，注销将会清除所有的加密聊天记录。</string>
+  <string name="SignOutHint">您确定要退出 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，这将会清除所有的加密聊天记录。</string>
   <string name="UndoAllCustom">撤销所有对联系人、群组和频道的通知设置更改</string>
   <string name="WhoCanAddMembers">邀请新成员权限</string>
   <string name="WhoCanAddMembersAllMembers">所有成员</string>
