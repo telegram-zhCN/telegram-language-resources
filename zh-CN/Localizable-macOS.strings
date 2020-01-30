@@ -85,7 +85,7 @@
 "PeerInfo.username" = "用户名";
 "PeerInfo.about" = "关于";
 "PeerInfo.bio" = "个人简介";
-"PeerInfo.scam" = "欺诈";
+"PeerInfo.scam" = "scam";
 "PeerInfo.info" = "信息";
 "PeerInfo.SetGroupPhoto" = "设置群组图片";
 "PeerInfo.AddMember" = "邀请新成员";
@@ -904,7 +904,7 @@
 "PeerInfo.Confirm.SecretChat.Header" = "加密对话";
 "PeerInfo.Confirm.SecretChat.OK" = "开始";
 "PeerInfo.Confirm.StartSecretChat" = "您确定要和 \"%@\" 开始加密对话吗？";
-"PeerInfo.Confirm.ShareInfo" = "您确定将您的手机号码共享给 “%@” 吗？";
+"PeerInfo.Confirm.ShareInfo" = "Are you sure you want to share your phone number with \"%@\"?";
 
 
 "PeerInfo.BotStatus.HasNoAccess" = "不能访问消息";
@@ -2124,7 +2124,7 @@
 
 "SecureId.RequestedInformation.Header" = "所需信息";
 "SecureId.Accept.Policy" = "您同意[登录部件示例隐私政策](_applyPolicy_)并允许他们的 **%@** 给您发送消息。";
-"SecureId.Accept.Help" = "You are sending your documents directly to **%@** and allowing their **%@** to send you messages.";
+"SecureId.Accept.Help" = "您的文件将被直接发送给 **%@**。同时，也将允许 **%@** 给您发送信息。";
 "Chat.Service.SecureId.AccessGranted" = "%@ received the following documents: %@";
 "SecureId.RemoveEmail" = "删除邮箱地址？";
 "SecureId.RemovePhoneNumber" = "删除电话号码？";
@@ -3039,8 +3039,8 @@
 
 
 
-"Confirm.Header.PermissionInlineBotContact" = "分享您的手机号码？";
-"Confirm.Desc.PermissionInlineBotContact" = "机器人将会获取您的手机号码。这可能对与其他服务的集成有用。";
+"Confirm.Header.PermissionInlineBotContact" = "Share Your Phone Number?";
+"Confirm.Desc.PermissionInlineBotContact" = "The bot will know your phone number. This can be useful for integration with other services.";
 
 
 "AutoDownloadSettings.OnForAll" = "对所有对话启用";
@@ -3213,12 +3213,12 @@
 
 
 "Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。";
-"PeerInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
-"ChannelInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
-"GroupInfo.ScamWarning" = "⚠️ 警告: 许多用户报告此群组存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
+"PeerInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
+"ChannelInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
+"GroupInfo.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
 
 
-"Mark.Scam" = "欺诈";
+"Mark.Scam" = "SCAM";
 
 
 "GeneralSettings.CopyRTF" = "复制时携带格式";
@@ -3323,7 +3323,7 @@
 "NewContact.Phone.Hidden" = "未知";
 "NewContact.Phone" = "手机号码";
 "NewContact.Phone.Hidden.Text" = "一旦 %@ 将您添加为联系人，电话号码将对您可见。";
-"NewContact.Exception.ShareMyPhoneNumber" = "分享我的手机号码";
+"NewContact.Exception.ShareMyPhoneNumber" = "Share My Phone Number";
 "NewContact.Exception.ShareMyPhoneNumber.Desc" = "您可以让您的电话号码对 %@ 可见。";
 
 

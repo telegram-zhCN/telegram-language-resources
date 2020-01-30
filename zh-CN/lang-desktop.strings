@@ -226,7 +226,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_reset_account" = "重置账号";
 "lng_signin_sure_reset" = "警告！\n\n您将丢失所有对话与消息，以及您共享的所有媒体和文件。\n\n您确定要重置您的帐户吗？";
 "lng_signin_reset" = "重置";
-"lng_signin_reset_wait" = "因为 {phone_number} 这个账号处于活动状态并且设置了密码，出于安全考虑，我们将在 一周后执行删除。您可以在这段时间内随时取消这一过程。\n\n您将可以在以下时间重置您的账号：\n{when}";
+"lng_signin_reset_wait" = "因为帐号（{phone_number}）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。您可以随时撤销这一进程。\n\n在这段时间后，您将能重置您的帐号：\n{when}";
 
 "lng_signin_reset_days#other" = "{count} 天";
 
@@ -1135,7 +1135,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cancel_edit_post_no" = "否";
 
 "lng_bot_share_location_unavailable" = "抱歉，Telegram 桌面版暂时不支持位置信息实时分享。";
-"lng_bot_share_phone" = "确认将手机号码分享给机器人？";
+"lng_bot_share_phone" = "您确定要将您的手机号码分享给此机器人吗？";
 "lng_bot_share_phone_confirm" = "分享";
 
 "lng_attach_failed" = "失败";
@@ -1251,8 +1251,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_contact_block" = "屏蔽此用户";
 "lng_new_contact_block_done" = "{user} 已被屏蔽。";
 "lng_new_contact_add" = "添加联系人";
-"lng_new_contact_share" = "分享我的手机号码";
-"lng_new_contact_share_sure" = "您确定要将您的手机号码 {phone} 分享给 {user} 吗？";
+"lng_new_contact_share" = "Share my phone number";
+"lng_new_contact_share_sure" = "Do you want to share your phone number {phone} with {user}?";
 "lng_new_contact_share_done" = "{user} 现在可以看到您的手机号码。";
 "lng_new_contact_add_name" = "将 {user} 添加到联系人列表";
 "lng_new_contact_add_done" = "{user} 现在已位于您的联系人列表中。";
@@ -1323,7 +1323,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_open_this_link" = "打开此链接？";
 "lng_open_link" = "打开";
-"lng_allow_bot_pass" = "是否允许 {bot_name} 传送你的 Telegram 昵称及 ID（不是你的电话号码）到该机器人打开的网页？";
+"lng_allow_bot_pass" = "是否允许 {bot_name} 传送您的 Telegram 昵称及 ID（不是您的手机号码）到通过机器人打开的网页中呢？";
 "lng_allow_bot" = "允许";
 "lng_url_auth_open_confirm" = "您想打开 {link} 吗？";
 "lng_url_auth_login_option" = "以 {user} 身份登录 {domain}";
@@ -1491,7 +1491,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_enter_contact_data" = "新建联系人";
 "lng_contact_mobile_hidden" = "手机号已隐藏";
 "lng_contact_phone_after" = "一旦 {user} 将您添加为联系人，电话号码将对您可见。";
-"lng_contact_share_phone" = "分享我的联系方式";
+"lng_contact_share_phone" = "Share my phone number";
 "lng_contact_phone_will_be_shared" = "您可以让您的电话号码对 {user} 可见。";
 "lng_edit_contact_title" = "编辑联系人名称";
 "lng_edit_channel_title" = "编辑频道";
@@ -1587,7 +1587,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_theme_preview_users#other" = "{count} 人正在使用该主题";
 
-"lng_new_authorization" = "{name}，\n我们在 {date}{day}{time} 发现一个新设备登录您的帐号。\n\n设备： {device}\n位置： {location}\n\n如果这不是您本人， 您可以前往「设置—显示所有活动会话」 中注销该会话。\n\n如果您认为其他人在您不知情时登录了您的帐号，请您在 隐私和安全 设置中启用 两步验证密码。\n\n谢谢！\nTelegram 团队";
+"lng_new_authorization" = "{name}，\n我们发现您的帐号在{date}{day} {time} 从新的设备登录：\n\n设备：{device}\n位置：{location}\n\n如果这不是您本人，您可以在「设置 - 显示所有活跃会话」中将该对话注销。\n\n如果您认为其他人在您不知情的情况下登录了您的账号，您可以在设置中开启「两步验证」。\n\n此致，\nTelegram 团队";
 
 "lng_new_version_wrap" = "Telegram Desktop 已更新到 {version}\n\n{changes}\n\n更多版本记录请在这里查看：\n{link}";
 "lng_new_version_minor" = "— 错误修复及细节改进";
@@ -1616,7 +1616,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_confirm_phone_link_invalid" = "这个链接已损坏或已过期。";
 "lng_confirm_phone_title" = "撤销帐号重置请求";
-"lng_confirm_phone_about" = "一位有权访问您的电话号码 {phone} 的人请求删除您的 Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。";
+"lng_confirm_phone_about" = "某个人通过您的手机号码（{phone）发送了删除您的 Telegram 账号并重置您的两步验证密码的请求。\n\n如果那并非您本人，请输入我们刚刚通过短信给您的手机号码发送的验证码。";
 "lng_confirm_phone_success" = "成功！\n您的账号 {phone} 的删除请求已经被撤销。您现在可以关闭这个窗口。";
 "lng_confirm_phone_send" = "发送";
 "lng_confirm_phone_enter_code" = "请输入验证码。";
@@ -1962,7 +1962,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_about_password" = "当您使用一个新设备登录时，\n您将需要输入此密码。";
 "lng_passport_password_create" = "设置一个密码";
 "lng_passport_email_validate" = "验证";
-"lng_passport_code_sent" = "验证码已发送到\n{email}";
+"lng_passport_code_sent" = "验证码已发送到 {email}";
 "lng_passport_stop_password_sure" = "您确定您要取消设定您的密码吗？";
 "lng_passport_password_placeholder" = "您的密码";
 "lng_passport_next" = "下一步";

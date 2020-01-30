@@ -2565,14 +2565,14 @@
     <string name="AreYouSureDeleteThisChatWithGroup">Are you sure you want to delete the chat **%1$s**?</string>
     <string name="AreYouSureClearDraftsTitle">Delete cloud drafts</string>
     <string name="AreYouSureClearDrafts">Are you sure you want to delete all cloud drafts?</string>
-    <string name="ShareYouLocationTitle">Share your location?</string>
+    <string name="ShareYouLocationTitle">Share Your Location?</string>
     <string name="ShareYouLocationInfo">This will send your current location to the bot.</string>
     <string name="ShareYouLocationUnable">App was unable to determine your current location</string>
     <string name="ShareYouLocationUnableManually">Choose manually</string>
     <string name="ShareYouLocationInline">This bot would like to know your location each time you send it a request. This can be used to provide location-specific results.</string>
     <string name="ShareYouPhoneNumberTitle">Share your phone number?</string>
     <string name="AreYouSureShareMyContactInfoBot">The bot will know your phone number. This can be useful for integration with other services.</string>
-    <string name="AreYouSureShareMyContactInfoUser">Are you sure you want to share your phone number %1$s with **%2$s**?</string>
+    <string name="AreYouSureShareMyContactInfoUser">Do you want to share your phone number %1$s with **%2$s**?</string>
     <string name="AreYouSureShareMyContactInfo">Are you sure you want to share your phone number?</string>
     <string name="AreYouSureBlockContact2">Are you sure you want to block **%1$s**?</string>
     <string name="AreYouSureUnblockContact">Are you sure you want to unblock this contact?</string>

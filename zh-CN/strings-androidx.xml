@@ -599,9 +599,9 @@
   
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
-  <string name="ShareYourPhoneNumberDesc">%1$s 将会获取您的手机号码。\n\n 这可能用于其他集成服务。</string>
+  <string name="ShareYourPhoneNumberDesc">机器人 %1$s 将会获取您的手机号码。\n\n这可能对机器人与其它服务的集成有用。</string>
   <string name="ShareYourLocation">是否分享您的位置信息？</string>
-  <string name="ShareYouLocationInfo">此操作将会告知机器人您的当前位置。</string>
+  <string name="ShareYouLocationInfo">此操作会把您当前的位置信息发送给机器人。</string>
   <string name="ShareYouLocationInline">机器人需要在您每次向它发送请求时获取您的位置信息，以便提供与位置相关的查询结果。</string>
   <string name="DetectLocationError">无法确认您当前的位置。</string>
   <string name="ShareYouLocationUnableManually">手动选择</string>
@@ -1033,7 +1033,7 @@
   <string name="YouJoinedByLink">您通过邀请链接加入了此群组。</string>
   <string name="XCreatedGroup">%1$s 创建了群组</string>
   <string name="YouCreatedGroup">您创建了此群组</string>
-  <string name="XofY">%1$s/ %2$s</string>
+  <string name="XofY">%1$s / %2$s</string>
   <string name="ReadingXLine">正在读取第 %1$s 行...</string>
   <string name="format_linesAndViews">%1$s, %2$s</string>
   
@@ -2300,8 +2300,8 @@
   <string name="ShareContact">分享联系人</string>
   <string name="DoneSave">已收藏</string>
 
-  <string name="CancelAccountReset">撤销帐号重置请求</string>
-  <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
+  <string name="CancelAccountReset">Cancel Account Reset</string>
+  <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
 
   
   <string name="mentionCount_other">%1$s 提及</string>
@@ -2755,8 +2755,8 @@
   
   
   
-  <string name="SharePhoneNumber">分享联系方式</string>
-  <string name="SharePhoneNumberAction">分享我的联系方式</string>
+  <string name="SharePhoneNumber">分享手机号码</string>
+  <string name="SharePhoneNumberAction">分享我的手机号码</string>
   <string name="PhoneNumber">手机号码</string>
   <string name="WhoCanSeePhone">谁可以看到我的手机号码？</string>
   <string name="WhoCanSeePhoneInfo">已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。</string>
@@ -2775,7 +2775,7 @@
   <string name="PrivacyAllowFindingEverybody">所有人都可以在 Telegram 上找到你</string>
   <string name="PrivacyAllowFindingEverybodyExcept">所有人 (%1$s) 都可以在 Telegram 上找到你</string>
 
-  <string name="ShareMyNumber">与 %1$s 分享我的手机号码</string>
+  <string name="ShareMyNumber">向 %1$s 分享我的手机号</string>
 
   <string name="FindingByPhoneNumber">通过手机号码查找</string>
   <string name="WhoCanFindByPhone">谁可以通过我的手机号找到我？</string>

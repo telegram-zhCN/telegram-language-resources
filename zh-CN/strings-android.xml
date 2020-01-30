@@ -38,11 +38,11 @@
     <string name="DidNotGetTheCodeSms">通过短信发送验证码</string>
     <string name="CancelAccountReset">撤销帐号重置请求</string>
     <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
-    <string name="ResetAccount">重置帐户</string>
-    <string name="ResetAccountInfo">因为账号 **%1$s** 处于活动状态并且被密码保护，出于安全考虑，我们将会在一周后删除它。\n\n在此期间，您可以随时取消此过程。</string>
+    <string name="ResetAccount">重置帐号</string>
+    <string name="ResetAccountInfo">因为帐号（**%1$s**）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。</string>
     <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
     <string name="ResetAccountCancelledAlert">您近期的重置账号请求被当前活动用户取消，请于 7 天后重试。</string>
-    <string name="ResetAccountButton">重置帐户</string>
+    <string name="ResetAccountButton">重置帐号</string>
     <string name="CancelLinkExpired">链接无效或已过期。</string>
     <string name="CancelLinkSuccess">已取消您账号的删除请求 %1$s 。您现在可以关闭此窗口。</string>
     <string name="OtherLoginCode">您的登录验证码是**%1$s**。在您尝试登录 Telegram 应用程序时输入它。 \n\n不要将此验证码透露给任何人。</string>
@@ -83,7 +83,7 @@
     <string name="PaymentCardSavePaymentInformationInfoLine1">您可以保存您的付款信息以便在未来使用。</string>
     <string name="PaymentCardSavePaymentInformationInfoLine2">请先开启“两步验证”后再启用此功能。</string>
     <string name="PaymentTransactionReview">交易检查</string>
-    <string name="PaymentTransactionMessage">您确定要为 %3$s 向机器人 %2$s 转账 %1$s ？</string>
+    <string name="PaymentTransactionMessage">您确定要为 %3$s 向机器人 %2$s 转账 %1$s 吗？</string>
     <string name="PaymentTransactionTotal">总计</string>
     <string name="PaymentInvoice">账单</string>
     <string name="PaymentTestInvoice">测试账单</string>
@@ -101,7 +101,7 @@
     <string name="PaymentFailed">抱歉，付款被拒绝。</string>
     <string name="PaymentConnectionFailed">无法连接至支付服务器。请检查您的互联网连接并重试。</string>
     <string name="PaymentWarning">警告</string>
-    <string name="PaymentWarningText">Telegram 和 %1$s 都无法获得您的信用卡信息。信用卡信息将只会被支付平台 %2$s 处理。\n\n款项将会直接发送给 %1$s 的开发者。Telegram 不能提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
+    <string name="PaymentWarningText">无论是 Telegram 还是 %1$s 都无法获取您的信用卡信息。信用卡信息将仅由支付平台 %2$s 处理。\n\n款项将会直接发送给 %1$s 的开发者。Telegram 无法提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$s 的开发者或者您的银行。</string>
     <string name="PaymentPassword">密码和电子邮箱</string>
     <string name="PaymentPasswordTitle">密码</string>
     <string name="PaymentPasswordEnter">请输入密码</string>
@@ -781,7 +781,7 @@
     <string name="Message">消息</string>
     <string name="TypeMessage">输入消息</string>
     <string name="TypeScheduleMessage">定时消息</string>
-    <string name="ShareMyPhone">分享我的电话号码</string>
+    <string name="ShareMyPhone">SHARE MY PHONE NUMBER</string>
     <string name="ShareMyContactInfo">分享我的联系方式</string>
     <string name="AddToContacts">添加到通讯录</string>
     <string name="EncryptedPlaceholderTitleIncoming">%s 邀请您进入加密对话。</string>
@@ -818,7 +818,7 @@
     <string name="OpenUrlOption1">以 **%2$s** 身份登录 %1$s</string>
     <string name="OpenUrlOption2">允许 **%1$s** 向我发送消息</string>
     <string name="CancelSending">取消发送</string>
-    <string name="BotPermissionGameAlert">是否允许 %1$s 传送你的 Telegram 昵称及 ID (不是你的手机号码) 到通过机器人打开的网页？</string>
+    <string name="BotPermissionGameAlert">是否允许 %1$s 传送您的 Telegram 昵称及 ID（不是您的手机号码）到通过机器人打开的网页中呢？</string>
     <string name="ReportSpamLocation">群组与位置无关？</string>
     <string name="ReportUnrelatedGroup">举报无关群组</string>
     <string name="ReportUnrelatedGroupText">如果此群组与此位置无关，请告知我们：\n\n**%1$s**</string>
@@ -936,7 +936,7 @@
     <string name="MapPreviewProviderYandex">Yandex</string>
     <string name="MapPreviewProviderNobody">不使用预览</string>
     <string name="InstallGoogleMaps">安装 Google 地图？</string>
-    <string name="ScamMessage">诈骗</string>
+    <string name="ScamMessage">SCAM</string>
     <string name="ViaBot">通过</string>
     <string name="MessageNotFound">消息不存在</string>
     <string name="SlowModeHint">慢速模式已启用。您可以\n在%1$s后发送下一条消息</string>
@@ -1023,7 +1023,7 @@
     <string name="NotificationGroupKickYou">%1$s 将您移出了 %2$s 群组</string>
     <string name="NotificationGroupLeftMember">%1$s 已退出 %2$s 群组</string>
     <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
-    <string name="NotificationUnrecognizedDevice">%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动会话」中将该会话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队</string>
+    <string name="NotificationUnrecognizedDevice">%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以在「设置 - 隐私和安全 - 活动会话」中将该对话注销。\n\n如果您认为其他人在您不知情的情况下登录了您的帐号，您可以在「设置 - 隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队</string>
     <string name="NotificationContactNewPhoto">%1$s 更新了头像</string>
     <string name="NotificationInvitedToGroupByLink">%1$s 已通过邀请链接加入群组 %2$s</string>
     <string name="NotificationGroupFew">%1$s 发送了 %3$s 到群组 %2$s</string>
@@ -1204,7 +1204,7 @@
     <string name="MobileHidden">手机号已隐藏</string>
     <string name="MobileHiddenExceptionInfo">一旦 %1$s 将您添加为联系人，电话号码将对您可见。</string>
     <string name="MobileVisibleInfo">当您点按**完成**时，您的电话号码将对 %1$s 可见。</string>
-    <string name="SharePhoneNumberWith">与 %1$s 分享我的手机号码</string>
+    <string name="SharePhoneNumberWith">Share my phone number with %1$s</string>
     <string name="NowInContacts">%1$s 现在已位于您的联系人列表中。</string>
     <string name="Info">信息</string>
     <string name="Phone">手机号码</string>
@@ -1374,9 +1374,9 @@
     <string name="ThemePreviewSongPerformer">David Hasselhoff</string>
     <string name="NewThemePreviewName">Bob Harris</string>
     <string name="NewThemePreviewReply">早上好！&#128075;</string>
-    <string name="NewThemePreviewReply2">Good morning</string>
+    <string name="NewThemePreviewReply2">早上好</string>
     <string name="NewThemePreviewLine1">Do you know what time it is?</string>
-    <string name="NewThemePreviewLine3">It\'s morning in *Tokyo* &#128526;</string>
+    <string name="NewThemePreviewLine3">东京现在是早晨 &#128526;</string>
     <string name="UseDifferentTheme">使用另一个主题</string>
     <string name="UseDifferentThemeInfo">您同样可以选择一个已经存在的自定义主题作为该主题的基础。</string>
     <string name="ChooseTheme">选择主题</string>
@@ -1770,8 +1770,8 @@
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
     <string name="AuthAnotherClientInfo1">从*desktop.telegram.org*下载Telegram。</string>
     <string name="AuthAnotherClientInfo2">使用 Telegram 桌面版获得二维码。</string>
-    <string name="AuthAnotherClientInfo3">扫描二维码登录您的帐户。</string>
-    <string name="AuthAnotherClientUrl">这个二维码可以用于登录您的 Telegram 帐户。\n\n要确认登录，请前往 设置 &gt; 设备 &gt; 扫描二维码 扫描此二维码。</string>
+    <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
+    <string name="AuthAnotherClientUrl">此二维码可登录到您的 Telegram 帐号。\n\n要确认Telegram登录，请转到 **设置**&gt;**设备**&gt;**扫一扫**。</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">清除本地数据库</string>
@@ -1854,7 +1854,7 @@
     <string name="PassportRequest">**%1$s** 请求访问您的个人信息来注册其服务。</string>
     <string name="PassportRequestPasswordInfo">请输入密码以访问个人信息</string>
     <string name="PassportPolicy">您同意 *%1$s 隐私政策* 并允许机器人 @%2$s 向您发送消息。</string>
-    <string name="PassportNoPolicy">您的档案将直接发往 %1$s 并允许 @%2$s 后续向您发送消息。</string>
+    <string name="PassportNoPolicy">您的文件将被直接发送给 %1$s。同时，也将允许 @%2$s 给您发送消息。</string>
     <string name="PassportAuthorize">授权</string>
     <string name="PassportAddPassport">添加护照</string>
     <string name="PassportAddInternalPassport">添加户口本</string>
@@ -2256,7 +2256,7 @@
     <string name="PasswordEmailInvalid">无效的邮件地址。 请检查您是否输入正确，然后重试。</string>
     <string name="RestorePasswordNoEmailTitle">抱歉</string>
     <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
-    <string name="RestorePasswordResetAccount">重置帐户</string>
+    <string name="RestorePasswordResetAccount">重置帐号</string>
     <string name="RestoreEmailSentTitle">恢复码</string>
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
@@ -2566,13 +2566,13 @@
     <string name="AreYouSureClearDraftsTitle">清空所有草稿</string>
     <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
     <string name="ShareYouLocationTitle">是否分享您的位置信息？</string>
-    <string name="ShareYouLocationInfo">此操作会把您的当前位置信息发送给机器人。</string>
+    <string name="ShareYouLocationInfo">此操作会把您当前的位置信息发送给机器人。</string>
     <string name="ShareYouLocationUnable">应用无法确认您的当前位置</string>
     <string name="ShareYouLocationUnableManually">手动选择</string>
-    <string name="ShareYouLocationInline">机器人需要在您每次向它发送请求时获取您的位置信息，以便提供与位置相关的查询结果。</string>
+    <string name="ShareYouLocationInline">机器人需要在您每次向其发送请求时获取您的位置信息，以便提供基于位置的查询结果。</string>
     <string name="ShareYouPhoneNumberTitle">是否分享您的手机号码？</string>
-    <string name="AreYouSureShareMyContactInfoBot">机器人将会获取您的手机号码。这可能对与其他服务的集成有用。</string>
-    <string name="AreYouSureShareMyContactInfoUser">您确定要将您的手机号码 %1$s 分享给 **%2$s** 吗？</string>
+    <string name="AreYouSureShareMyContactInfoBot">机器人将会获取您的手机号码。这可能对机器人与其它服务的集成有用。</string>
+    <string name="AreYouSureShareMyContactInfoUser">您确定要将您的手机号码（%1$s）分享给 **%2$s** 吗？</string>
     <string name="AreYouSureShareMyContactInfo">您确定要分享您的手机号码？</string>
     <string name="AreYouSureBlockContact2">您确定要屏蔽 **%1$s** 吗？</string>
     <string name="AreYouSureUnblockContact">您确定要取消屏蔽此联系人吗？</string>
@@ -2607,7 +2607,7 @@
     <string name="NoUsernameFound">没有 Telegram 帐户使用此用户名。</string>
     <string name="BotCantJoinGroups">此机器人无法加入群组。</string>
     <string name="SecretLinkPreviewAlert">您要启用加密对话中的链接预览功能吗？注意，所有的链接预览均在 Telegram 的服务器上生成。</string>
-    <string name="SecretChatContextBotAlert">请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
+    <string name="SecretChatContextBotAlert">请注意：消息框内机器人是由第三方开发者提供的。为了使机器人工作，您在 @ 这些机器人（后需接空格）之后输入的消息将会传送给相关的开发者。</string>
     <string name="EditMessageError">抱歉，您不能编辑这条消息。</string>
     <string name="AllowReadCall">请授予 Telegram 电话权限以便我们自动读取验证码。</string>
     <string name="AllowReadCallAndLog">请允许 Telegram 接听电话与读取通话记录，以便我们自动为您输入验证码。</string>

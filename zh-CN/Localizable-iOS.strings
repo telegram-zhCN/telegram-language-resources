@@ -211,8 +211,8 @@
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
 
-"PUSH_AUTH_UNKNOWN" = "新设备登录|来自陌生设备 %1$@";
-"PUSH_AUTH_REGION" = "新设备登录|来自陌生设备 %1$@, 位置: %2$@";
+"PUSH_AUTH_UNKNOWN" = "New login|from %1$@";
+"PUSH_AUTH_REGION" = "New login|Device: %1$@. Location: %2$@";
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
@@ -252,7 +252,7 @@
 "Common.Search" = "搜索";
 "Common.More" = "更多";
 "Common.Select" = "选择";
-
+"Items.NOfM" = "%1$@ / %2$@";
 
 // State
 "State.Connecting" = "连接中...";
@@ -522,7 +522,7 @@
 "Notification.CreatedChatWithTitle" = "%@ 创建了群组 \"%@\"";
 "Notification.Joined" = "%@ 加入了 Telegram";
 "Notification.ChangedGroupName" = "%@ 将群组名称更改为 \"%@\"";
-"Notification.NewAuthDetected" = "%1$@,\n我们在 %3$@ %2$@ %4$@发现一个新设备登录您的帐号\n\n设备: %5$@\n位置: %6$@\n\n如果这不是您本人，您可以在「设置-隐私和安全-活动会话」中将该会话注销\n\n如果您认为其他人在您不知情的情况下登录了您的帐户，您可以在「设置-隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队";
+"Notification.NewAuthDetected" = "%1$@，\n我们发现您的帐号在%3$@%2$@ %4$@ 从新的设备登录\n\n设备：%5$@\n位置：%6$@\n\n如果这不是您本人，您可以在「Telegram 设置 - 隐私和安全 - 活动会话」中将该对话注销。\n\n如果您认为其他人在您不知情的情况下登录了您的账号，您可以在「Telegram 设置 - 隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队";
 "Notification.MessageLifetimeChanged" = "%1$@ 已将阅后即焚计时器设定为 %2$@";
 "Notification.MessageLifetimeChangedOutgoing" = "您已将阅后即焚计时器设定为 %1$@";
 "Notification.MessageLifetimeRemoved" = "%1$@ 取消了阅后即焚计时器";
@@ -1892,7 +1892,7 @@
 "KeyCommand.ChatInfo" = "详细信息";
 
 "Conversation.SecretLinkPreviewAlert" = "要为加密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。";
-"Conversation.SecretChatContextBotAlert" = "请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。";
+"Conversation.SecretChatContextBotAlert" = "请注意：消息框内机器人是由第三方开发者提供的。为了使机器人工作，您在 @ 这些机器人（后需接空格）之后输入的消息将会传送给相关的开发者。";
 
 "Map.OpenInWaze" = "在 Waze 中打开";
 
@@ -2007,11 +2007,11 @@
 "Preview.DeleteGif" = "删除 GIF";
 "Preview.CopyAddress" = "拷贝地址";
 
-"Conversation.ShareBotLocationConfirmationTitle" = "分享您的位置信息？";
-"Conversation.ShareBotLocationConfirmation" = "此操作将会告知机器人您的当前位置。";
+"Conversation.ShareBotLocationConfirmationTitle" = "是否分享您的位置信息？";
+"Conversation.ShareBotLocationConfirmation" = "此操作会把您当前的位置信息发送给机器人。";
 
-"Conversation.ShareBotContactConfirmationTitle" = "分享您的手机号码？";
-"Conversation.ShareBotContactConfirmation" = "机器人将会获取您的手机号码。这可能对与其他服务的集成有用。";
+"Conversation.ShareBotContactConfirmationTitle" = "是否分享您的手机号码？";
+"Conversation.ShareBotContactConfirmation" = "机器人将会获取您的手机号码。这可能对机器人与其它服务的集成有用。";
 
 "Conversation.ShareInlineBotLocationConfirmation" = "机器人需要在您每次向其发送请求时获取您的位置信息，以便提供基于位置的查询结果。";
 
@@ -2055,8 +2055,8 @@
 
 "Contacts.TopSection" = "联系人";
 
-"Login.ResetAccountProtected.Title" = "重置帐户";
-"Login.ResetAccountProtected.Text" = "因为 %@ 这个账号处于活动状态并设置了密码保护，出于安全考虑，我们将在 1 周后予以删除。\n\n你可以在这段时间内随时取消这一流程。";
+"Login.ResetAccountProtected.Title" = "重置帐号";
+"Login.ResetAccountProtected.Text" = "因为帐号（%@）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。";
 "Login.ResetAccountProtected.TimerTitle" = "您将能够在此时间后重置您的帐户:";
 "Login.ResetAccountProtected.Reset" = "重置";
 "Login.ResetAccountProtected.LimitExceeded" = "您近期的重置帐户请求被它当前活动帐户撤销，请于 7 天后重试。";
@@ -2068,7 +2068,7 @@
 "Login.SmsRequestState3" = "Telegram 已向您发送短信\n[仍未收到验证码？]";
 
 "CancelResetAccount.Title" = "撤销帐号重置请求";
-"CancelResetAccount.TextSMS" = "一位有权访问您的电话号码 %@ 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。";
+"CancelResetAccount.TextSMS" = "某个人通过您的手机号码（%@）发送了删除您的 Telegram 账号并重置您的两步验证密码的请求。\n\n如果那并非您本人，请输入我们刚刚通过短信给您的手机号码发送的验证码。";
 
 "CancelResetAccount.Success" = "您的帐户 %@ 的删除请求已经被撤销。";
 
@@ -2166,7 +2166,7 @@
 
 
 
-"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传送你的 Telegram 昵称及 ID（不是你的电话号码）到你通过此机器人打开的网页中呢？";
+"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传送您的 Telegram 昵称及 ID（不是您的手机号码）到通过机器人打开的网页中呢？";
 "StickerPacksSettings.ArchivedMasks" = "已归档装饰";
 "StickerSettings.MaskContextInfo" = "如果你归档了一套装饰，你可以立即从「已归档装饰」中将它们放回。";
 "StickerPacksSettings.ArchivedMasks.Info" = "You can have up to 200 sets of masks.
@@ -2513,7 +2513,7 @@ Unused sets are archived when you add more.";
 "Message.ForwardedMessageShort" = "转发自\n%@";
 
 "Checkout.LiabilityAlertTitle" = "警告";
-"Checkout.LiabilityAlert" = "Telegram 服务器 和 %1$@ 均无法获取您的信用卡信息。信用卡信息将仅由支付平台 %2$@ 处理。\n\n您的款项将直接发送至 %1$@ 的开发者。Telegram 无法提供任何保障，因此您需要自行承担风险。如果出现问题，请联系 %1$@ 的开发者或信用卡的开户行。";
+"Checkout.LiabilityAlert" = "无论是 Telegram 还是 %1$@ 都无法获取您的信用卡信息。信用卡信息将仅由支付平台 %2$@ 处理。\n\n款项将会直接发送给 %1$@ 的开发者。Telegram 无法提供任何形式的担保，继续付款所带来的风险将由您自己承担。如果遇到问题，请联系 %1$@ 的开发者或者您的银行。";
 
 
 "Settings.AppLanguage.Unofficial" = "非官方";
@@ -3227,7 +3227,7 @@ Unused sets are archived when you add more.";
 "Passport.FieldEmail" = "邮箱地址";
 "Passport.FieldEmailHelp" = "提供您的邮箱地址";
 "Passport.PrivacyPolicy" = "您同意 [%1$@ 隐私政策] 并允许机器人 @%2$@ 向您发送消息。";
-"Passport.AcceptHelp" = "您的档案将直接发往 %1$@ 并允许 @%2$@ 后续向您发送消息。";
+"Passport.AcceptHelp" = "您的文件将被直接发送给 %1$@。同时，也将允许 %2$@ 给您发送信息。";
 "Passport.Authorize" = "授权";
 
 "Passport.DeletePassport" = "删除 Telegram Passport";
@@ -4292,7 +4292,7 @@ Sorry for the inconvenience.";
 "PasscodeSettings.4DigitCode" = "四位数字密码";
 "PasscodeSettings.6DigitCode" = "六位数字密码";
 
-"Conversation.ScamWarning" = "⚠️ 警告: 许多用户报告此账户存在诈骗行为。请小心谨慎，特别是在被索要金钱时。";
+"Conversation.ScamWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
 
 "Conversation.ClearChatConfirmation" = "注意，这将清空您与 %@ 的所有聊天记录。";
 
@@ -4303,9 +4303,9 @@ Sorry for the inconvenience.";
 "ArchivedChats.IntroTitle3" = "置顶的对话";
 "ArchivedChats.IntroText3" = "您可以任意置顶已归档的对话。";
 
-"UserInfo.ScamUserWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
-"UserInfo.ScamBotWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
-"ChannelInfo.ScamChannelWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
+"UserInfo.ScamUserWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
+"UserInfo.ScamBotWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
+"ChannelInfo.ScamChannelWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
 "GroupInfo.ScamGroupWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
 
 "Privacy.AddNewPeer" = "添加用户或群组";
@@ -4398,13 +4398,13 @@ Any member of this group will be able to see messages in the channel.";
 "Notification.Exceptions.RemoveFromExceptions" = "从例外中删除";
 
 "Conversation.BlockUser" = "屏蔽此用户";
-"Conversation.ShareMyPhoneNumber" = "分享我的电话号码";
-"Conversation.ShareMyPhoneNumberConfirmation" = "您确定要将您的手机号码 “%1$@” 分享给 %2$@ 吗？";
+"Conversation.ShareMyPhoneNumber" = "Share My Phone Number";
+"Conversation.ShareMyPhoneNumberConfirmation" = "Do you want to share your phone number %1$@ with %2$@?";
 "Conversation.AddToContacts" = "添加联系人";
 "Conversation.AddNameToContacts" = "将 %@ 添加到通讯录";
 
 "AddContact.ContactWillBeSharedAfterMutual" = "一旦 %1$@ 将您添加为联系人，电话号码将对您可见。";
-"AddContact.SharedContactException" = "分享我的手机号码";
+"AddContact.SharedContactException" = "Share My Phone Number";
 "AddContact.SharedContactExceptionInfo" = "您可以让您的电话号码对 %@ 可见。";
 "AddContact.StatusSuccess" = "%@ 现在已位于您的联系人列表中。";
 "Conversation.ShareMyPhoneNumber.StatusSuccess" = "%@ 现在可以看到您的手机号码。";
@@ -5204,7 +5204,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Theme.Colors.Proceed" = "继续";
 
-"AuthSessions.AddDevice.UrlLoginHint" = "这个二维码可以用于登录您的 Telegram 帐户。\n\n要确认登录，请前往 设置 > 设备 > 扫描二维码 扫描此二维码。";
+"AuthSessions.AddDevice.UrlLoginHint" = "This code can be used to allow someone to log in to your Telegram account.\n\nTo confirm Telegram login, please go to Settings > Devices > Scan QR and scan the code.";
 
 "Appearance.RemoveThemeColor" = "移除";
 "Appearance.RemoveThemeColorConfirmation" = "移除颜色";
@@ -5302,9 +5302,9 @@ Any member of this group will be able to see messages in the channel.";
 
 /* new from translations.telegram.org */
 
-"AUTH_REGION" = "在新设备上登录 %1$@， 位置： %2$@";
-"AUTH_REGION_SEPARATED" = "新设备登录|来自陌生设备 %1$@，地点：%2$@";
-"AUTH_UNKNOWN_SEPARATED" = "新设备登录|来自陌生设备 %1$@";
+"AUTH_REGION" = "从新的设备登录 %1$@，位置：%2$@";
+"AUTH_REGION_SEPARATED" = "New login|from unrecognized device %1$@, location: %2$@";
+"AUTH_UNKNOWN_SEPARATED" = "New login|from unrecognized device %1$@";
 "Appearance.TextSize" = "字体大小";
 "CHANNEL_MESSAGES" = "%1$@ posted %2$@ messages";
 "CHANNEL_MESSAGES_SEPARATED" = "%1$@|发布了 %2$@ 条消息";

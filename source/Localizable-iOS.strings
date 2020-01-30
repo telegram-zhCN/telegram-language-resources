@@ -4399,7 +4399,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Conversation.BlockUser" = "Block User";
 "Conversation.ShareMyPhoneNumber" = "Share My Phone Number";
-"Conversation.ShareMyPhoneNumberConfirmation" = "Are you sure you want to share your phone number %1$@ with %2$@?";
+"Conversation.ShareMyPhoneNumberConfirmation" = "Do you want to share your phone number %1$@ with %2$@?";
 "Conversation.AddToContacts" = "Add to Contacts";
 "Conversation.AddNameToContacts" = "Add %@ to Contacts";
 
