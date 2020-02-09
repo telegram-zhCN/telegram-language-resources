@@ -1509,11 +1509,8 @@
   <string name="AttachMediasSuffix_other">" media"</string>
   <string name="NewPinnedMessage">Pinned message: %1$s</string>
   <string name="PinnedMessageChanged">Pinned message changed</string>
-  <string name="Markdown">Markdown</string>
-  <string name="MarkdownEnabled">Enabled</string>
-  <string name="MarkdownTextOnly">Enabled (no GUI)</string>
-  <string name="MarkdownDisabled">Disabled</string>
-  <string name="MarkdownHint">When active, following markdown rules apply:\n**bold**\n__italic__\n`code` ```code block```\n[text](url)</string>
+  <string name="EditMarkdown">Edit Markdown</string>
+  <string name="EditMarkdownHint">Edit text in messages using the old-school way: `**`**bold**`**`, `__`__italic__`__`, `~~`~~strikethrough~~`~~`, ````monospace````, [text](url)</string>
   <string name="MessageNotFound">Message not found</string>
   <string name="SyncHintTitle">Find Contacts</string>
   <string name="SyncHint">To help you connect with friends and family, allow %1$s access to your contacts.</string>
@@ -1826,6 +1823,8 @@
   <string name="TextFormatBold">Bold</string>
   <string name="TextFormatItalic">Italic</string>
   <string name="TextFormatMonospace">Monospace</string>
+  <string name="TextFormatStrikethrough">Strikethrough</string>
+  <string name="TextFormatUnderline">Underline</string>
   <string name="TextFormatLink">Create Link</string>
   <string name="EarpieceMode">Playback through earpiece</string>
   <string name="EarpieceModeNever">Never</string>
@@ -2341,6 +2340,7 @@
   <string name="BadgeCounter">Badge Counter</string>
   <string name="BadgeCounterMuted">Include Muted Chats</string>
   <string name="BadgeCounterMessages">Count Unread Messages</string>
+  <string name="BadgeCounterArchive">Include Archived Chats</string>
   <string name="BadgeCounterMessagesOn">Switch on to show the number of unread messages instead of chats.</string>
   <string name="BadgeCounterMessagesOff">Switch off to show the number of unread chats instead of messages.</string>
   <string name="NotificationsPrivateInfo">You can set custom notifications for specific users on their profile page.</string>
@@ -3033,6 +3033,11 @@
   <string name="LinkStateKnowsNumberMutual">%1$s and you can see each other\'s phone number.</string>
   <string name="LinkStateNone">%1$s does not see your phone number.</string>
   <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
+  <string name="Markdown">Markdown</string>
+  <string name="MarkdownDisabled">Disabled</string>
+  <string name="MarkdownEnabled">Enabled</string>
+  <string name="MarkdownHint">When active, following markdown rules apply:\n**bold**\n__italic__\n`code` ```code block```\n[text](url)</string>
+  <string name="MarkdownTextOnly">Enabled (no GUI)</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
   <string name="MuteForXDays_few">Mute for %1$s days</string>

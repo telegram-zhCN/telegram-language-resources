@@ -1509,11 +1509,8 @@
   <string name="AttachMediasSuffix_other">个媒体文件</string>
   <string name="NewPinnedMessage">置顶消息：%1$s</string>
   <string name="PinnedMessageChanged">置顶消息已更改</string>
-  <string name="Markdown">Markdown</string>
-  <string name="MarkdownEnabled">启用</string>
-  <string name="MarkdownTextOnly">启用（无图形界面）</string>
-  <string name="MarkdownDisabled">关闭</string>
-  <string name="MarkdownHint">当启用时，以下规则生效：\n**粗体**\n__斜体__\n`等宽代码行`\n```等宽代码片段···\n[链接文字](地址)</string>
+  
+  
   <string name="MessageNotFound">未找到消息</string>
   <string name="SyncHintTitle">寻找联系人</string>
   <string name="SyncHint">为了和您认识的每个人无缝联系，请允许 %1$s 访问您的通讯录。</string>
@@ -1826,6 +1823,8 @@
   <string name="TextFormatBold">粗体</string>
   <string name="TextFormatItalic">斜体</string>
   <string name="TextFormatMonospace">等宽</string>
+  
+  
   <string name="TextFormatLink">创建链接</string>
   <string name="EarpieceMode">播放到听筒</string>
   <string name="EarpieceModeNever">从不</string>
@@ -2341,6 +2340,7 @@
   <string name="BadgeCounter">未读消息数量提示</string>
   <string name="BadgeCounterMuted">包含已关闭通知的对话</string>
   <string name="BadgeCounterMessages">按消息数统计未读</string>
+  
   <string name="BadgeCounterMessagesOn">开启以显示未读消息数而非未读对话数。</string>
   <string name="BadgeCounterMessagesOff">关闭以显示未读对话数而非未读消息数。</string>
   <string name="NotificationsPrivateInfo">您可以在特定的用户信息界面中设置针对他们的通知策略。</string>
@@ -2922,6 +2922,11 @@
   <string name="LinkStateKnowsNumberMutual">%1$s 和您可以互相看到对方的手机号码</string>
   <string name="LinkStateNone">%1$s 不能看到您的手机号码</string>
   <string name="MapPreviewProviderCloud">普通对话的地图预览提供商</string>
+  <string name="Markdown">Markdown</string>
+  <string name="MarkdownDisabled">关闭</string>
+  <string name="MarkdownEnabled">启用</string>
+  <string name="MarkdownHint">当启用时，以下规则生效：\n**粗体**\n__斜体__\n`等宽代码行`\n```等宽代码片段···\n[链接文字](地址)</string>
+  <string name="MarkdownTextOnly">启用（无图形界面）</string>
   <string name="NoAnswered">无人回答</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
