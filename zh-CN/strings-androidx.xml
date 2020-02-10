@@ -410,7 +410,7 @@
   <string name="Search">搜索</string>
   <string name="NoChats">没有对话</string>
   <string name="NoContacts">未找到任何联系人</string>
-  <string name="ChannelCreator">创建者</string>
+  
   <string name="Administrator">管理员</string>
   <string name="LinkInfo">任何已安装 Telegram 的用户都可以通过此链接加入您的群组。</string>
   <string name="ChannelAddAdmin">添加管理员</string>
@@ -1295,6 +1295,7 @@
   <string name="NoGroupsToShow">没有可显示的群组</string>
   <string name="GroupsWillBeShownHere">您与此人共同加入的群组将会显示在此处</string>
   <string name="EditAdminRights">修改管理员权限</string>
+  
   <string name="ViewAdminRights">查看管理员权限</string>
   <string name="EditUserRestrictions">编辑用户限制</string>
   <string name="RestrictUser">限制用户权限</string>
@@ -1742,6 +1743,8 @@
   <string name="message_adminSignPlain">管理员</string>
   <string name="message_ownerSign">所有者</string>
   <string name="message_channelSign">频道</string>
+  
+  
   <string name="WhoCanCallMe">谁可以呼叫我</string>
   <string name="UseP2PWith">使用端对端连接</string>
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
@@ -2644,11 +2647,19 @@
   <string name="ChatDisabledMessages">仅管理员能在此群组中发言</string>
 
   <string name="ChatRestrictedGifs">管理员限制了您在此群组中发送GIF</string>
+  
   <string name="ChatRestrictedBots">管理员禁止您在此群组中发送机器人内容</string>
+  
   <string name="ChatRestrictedStickers">管理员禁止您在此群组中发送贴纸</string>
+  
   <string name="ChatRestrictedMedia">管理员限制了您在此群组中发送媒体文件</string>
+  
   <string name="ChatRestrictedPolls">管理员禁止您在此群组中发布投票</string>
+  
   <string name="ChatRestrictedMessages">管理员禁止您在此群组中发送消息</string>
+  
+  
+  
 
   <string name="UpgradeChatPrompt">要执行此操作，此聊天将被转换为超级群组。\n \n **注意**：新成员将无法查看转换前发送的消息。</string>
   <string name="AppUpdateReady">Telegram X 已经准备好了更新</string>
@@ -2895,6 +2906,7 @@
   <string name="AppUpdateRequiredText">要进行此操作，请更新 Telegram。</string>
   <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="BadgeCounterSetting">通知圆点</string>
+  <string name="ChannelCreator">创建者</string>
   <string name="ChannelMessageAudio">%1$s 发布了一条语音留言</string>
   <string name="ChannelMessageDocument">%1$s 发布了一个文件</string>
   <string name="ChannelMessageGIF">%1$s 发布了一张 GIF</string>

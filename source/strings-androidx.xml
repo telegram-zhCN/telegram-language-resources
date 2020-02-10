@@ -410,7 +410,7 @@
   <string name="Search">Search</string>
   <string name="NoChats">You have no chats</string>
   <string name="NoContacts">No contacts to display</string>
-  <string name="ChannelCreator">Creator</string>
+  <string name="ChannelOwner">Owner</string>
   <string name="Administrator">Administrator</string>
   <string name="LinkInfo">Anyone who has Telegram installed will be able to join your group by following this link.</string>
   <string name="ChannelAddAdmin">Add administrator</string>
@@ -1295,6 +1295,7 @@
   <string name="NoGroupsToShow">No groups to show</string>
   <string name="GroupsWillBeShownHere">Groups in common will be shown here</string>
   <string name="EditAdminRights">Edit Admin Rights</string>
+  <string name="EditAdminTitle">Edit Custom Title</string>
   <string name="ViewAdminRights">View Admin Rights</string>
   <string name="EditUserRestrictions">Edit User Restrictions</string>
   <string name="RestrictUser">Restrict user</string>
@@ -1742,6 +1743,8 @@
   <string name="message_adminSignPlain">admin</string>
   <string name="message_ownerSign">owner</string>
   <string name="message_channelSign">channel</string>
+  <string name="CustomTitle">Custom Title</string>
+  <string name="CustomTitleHint">A custom title that will be shown to all members instead of \'%1$s\'.</string>
   <string name="WhoCanCallMe">Who can call me</string>
   <string name="UseP2PWith">Use peer-to-peer with</string>
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
@@ -2644,11 +2647,19 @@
   <string name="ChatDisabledMessages">Only admins can write messages in this group</string>
 
   <string name="ChatRestrictedGifs">Admins have restricted you from sending GIFs in this group</string>
+  <string name="ChatRestrictedGifsUntil">Admins have restricted you from sending GIFs in this group until %1$s</string>
   <string name="ChatRestrictedBots">Admins have restricted you from using inline bots in this group</string>
+  <string name="ChatRestrictedBotsUntil">Admins have restricted you from using inline bots in this group until %1$s</string>
   <string name="ChatRestrictedStickers">Admins have restricted you from sending stickers in this group</string>
+  <string name="ChatRestrictedStickersUntil">Admins have restricted you from sending stickers in this group until %1$s</string>
   <string name="ChatRestrictedMedia">Admins have restricted you from sending media in this group</string>
+  <string name="ChatRestrictedMediaUntil">Admins have restricted you from sending media in this group until %1$s</string>
   <string name="ChatRestrictedPolls">Admins have restricted you from sending polls in this group</string>
+  <string name="ChatRestrictedPollsUntil">Admins have restricted you from sending polls in this group until %1$s</string>
   <string name="ChatRestrictedMessages">Admins have restricted you from sending messages in this group</string>
+  <string name="ChatRestrictedMessagesUntil">Admins have restricted you from sending messages in this group until %1$s</string>
+  <string name="ChatBanned">Admins have banned you in this group</string>
+  <string name="ChatBannedUntil">Admins have banned you in this group until %1$s</string>
 
   <string name="UpgradeChatPrompt">To perform this action, this chat will be converted to supergroup.\n\n**Note**: new members will not see messages sent before the conversion.</string>
   <string name="AppUpdateReady">Telegram X is ready to be updated.</string>
@@ -2942,6 +2953,7 @@
   <string name="AttachVideosSuffix_few">" videos"</string>
   <string name="AttachVideosSuffix_many">" videos"</string>
   <string name="BadgeCounterSetting">App Icon Badge</string>
+  <string name="ChannelCreator">Creator</string>
   <string name="ChannelMessageAudio">%1$s posted a voice message</string>
   <string name="ChannelMessageDocument">%1$s posted a file</string>
   <string name="ChannelMessageGIF">%1$s posted a GIF</string>
