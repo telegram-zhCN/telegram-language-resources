@@ -1580,6 +1580,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mediaview_downloads" = "下载";
 "lng_mediaview_video_loading" = "加载中 - {percent}";
 
+
+
 "lng_theme_preview_title" = "主题预览";
 "lng_theme_preview_generating" = "正在生成主题预览...";
 "lng_theme_preview_invalid" = "主题文件数据错误";

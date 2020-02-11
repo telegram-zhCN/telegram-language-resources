@@ -412,12 +412,12 @@
 
 
 "GeneralSettings.MediaKeysForInAppPlayer" = "Handle media keys for in-app player";
-"GeneralSettings.EmojiReplacements" = "Automatically replace emojis";
+"GeneralSettings.EmojiReplacements" = "Replace Emoji Automatically";
 "GeneralSettings.InputSettings" = "INPUT SETTINGS";
 "GeneralSettings.GeneralSettings" = "GENERAL SETTINGS";
 
-"GeneralSettings.SendByEnter" = "Use Enter to send";
-"GeneralSettings.SendByCmdEnter" = "Use ⌘ + Enter to send";
+"GeneralSettings.SendByEnter" = "Send with Enter";
+"GeneralSettings.SendByCmdEnter" = "Send with ⌘ + Enter";
 
 "Telegram.GeneralSettingsViewController" = "General Settings";
 "AccountSettings.Logout" = "Log Out";
@@ -978,7 +978,7 @@
 "Alert.SendError.ResendItems_many" = "Resend %d messages";
 "Alert.SendError.ResendItems_other" = "Resend %d messages";
 
-"GeneralSettings.EnableSidebar" = "Sidebar";
+"GeneralSettings.EnableSidebar" = "Show Sticker Sidebar";
 "Telegram.RecentSessionsController" = "Active Sessions";
 "RecentSessions.Confirm.TerminateOthers" = "Are you sure you want to terminate all other sessions?";
 "RecentSessions.Confirm.Revoke" = "Do you want to terminate this session?";
@@ -1083,7 +1083,7 @@
 "Message.Context.SaveGif" = "Add GIF";
 "Message.Context.RemoveGif" = "Remove GIF";
 "Context.RecentGifRemove" = "Remove";
-"Sidebar.Avalability" = "The sidebar is only available while chatting";
+"Sidebar.Avalability" = "Your stickers, GIFs and emoji will appear in this panel when you open any chat.";
 "Sidebar.Peer.Restricted" = "Sidebar is not available in this chat";
 
 
@@ -1561,7 +1561,7 @@
 "GeneralSettings.DarkMode.Description" = "A color scheme for nighttime and dark desktops";
 "GeneralSettings.Font.Description" = "Use large font for messages";
 
-"GeneralSettings.OpenLatestChatOnLaunch" = "Automatically Open Latest Chat";
+"GeneralSettings.OpenLatestChatOnLaunch" = "Reopen Last Chat On Launch";
 "GeneralSettings.AcceptSecretChats" = "Accept Secret Chats";
 
 
@@ -3161,7 +3161,7 @@
 "GeneralSettings.EmojiPrediction.Disable" = "Disable";
 "GeneralSettings.EmojiPrediction" = "Suggest Emoji";
 
-"GeneralSettings.StatusBarItem" = "Menu Bar Item";
+"GeneralSettings.StatusBarItem" = "Show Icon in Menu Bar";
 
 
 "NotificationSettings.ContactJoined" = "New Contacts";
@@ -3681,7 +3681,7 @@
 
 "InactiveChannels.Title" = "Limit Reached";
 "InactiveChannels.OK" = "Leave";
-"InactiveChannels.Header" = "MOST INACTIVE";
+"InactiveChannels.Header" = "LEAST ACTIVE";
 "InactiveChannels.BlockHeader" = "Too many groups and channels";
 
 

@@ -5159,9 +5159,9 @@ Any member of this group will be able to see messages in the channel.";
 "Shortcut.SwitchAccount" = "切换帐户";
 
 "Settings.Devices" = "设备";
-
+"Settings.AddDevice" = "扫描二维码";
 "AuthSessions.DevicesTitle" = "设备";
-
+"AuthSessions.AddDevice" = "扫描二维码";
 "AuthSessions.AddDevice.ScanInfo" = "扫描二维码以在其他设备上登录该帐户。";
 "AuthSessions.AddDevice.ScanTitle" = "扫描二维码";
 "AuthSessions.AddDevice.InvalidQRCode" = "无效二维码";
