@@ -262,6 +262,11 @@
 "State.Updating" = "刷新中...";
 "State.WaitingForNetwork" = "等待网络连接";
 
+
+
+
+
+
 // Presence
 "Presence.online" = "当前在线";
 
@@ -5285,6 +5290,41 @@ Any member of this group will be able to see messages in the channel.";
 
 "Conversation.StopQuizConfirmationTitle" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
 "Conversation.StopQuizConfirmation" = "停止测验";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
