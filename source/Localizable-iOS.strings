@@ -610,7 +610,7 @@
 "UserInfo.LastNamePlaceholder" = "Last Name";
 "UserInfo.GenericPhoneLabel" = "mobile";
 "UserInfo.SendMessage" = "Send Message";
-"UserInfo.AddContact" = "Add Contact";
+"UserInfo.AddContact" = "Add to Contacts";
 "UserInfo.ShareContact" = "Share Contact";
 "UserInfo.StartSecretChat" = "Start Secret Chat";
 "UserInfo.StartSecretChatConfirmation" = "Are you sure you want to start a secret chat with\n%@?";

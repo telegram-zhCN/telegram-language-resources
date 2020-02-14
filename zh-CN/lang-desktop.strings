@@ -174,7 +174,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_intro_next" = "下一步";
 "lng_intro_finish" = "注册";
-"lng_intro_submit" = "解锁";
+"lng_intro_submit" = "提交";
 
 "lng_photo_caption" = "添加说明";
 "lng_photos_comment" = "说明";

@@ -420,7 +420,7 @@
 "GeneralSettings.SendByCmdEnter" = "用 ⌘ + 回车 来发送";
 
 "Telegram.GeneralSettingsViewController" = "通用设置";
-"AccountSettings.Logout" = "退出当前帐号";
+"AccountSettings.Logout" = "退出";
 "NotificationSettings.ToggleNotifications.Header" = "通知";
 "NotificationSettings.ToggleNotifications" = "通知";
 "NotificationSettings.MessagesPreview" = "消息预览";
