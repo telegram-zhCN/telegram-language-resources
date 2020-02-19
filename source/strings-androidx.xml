@@ -119,6 +119,7 @@
   <string name="status_LastSeen_minutes_other">seen %1$s minutes ago</string>
   <string name="status_LastSeen_hours_one">seen %1$s hour ago</string>
   <string name="status_LastSeen_hours_other">seen %1$s hours ago</string>
+  <string name="format_tomorrow">tomorrow at %1$s</string>
   <string name="xOnline_one">%1$s online</string>
   <string name="xOnline_other">%1$s online</string>
   <string name="xGroups_one">%1$s group</string>
@@ -1110,6 +1111,8 @@
   <string name="VoipEndCall">End call</string>
   <string name="HangUp">Hang up</string>
   <string name="ChatQuickActions">Swipe actions</string>
+  <string name="LoopAnimatedStickers">Loop Animated Stickers</string>
+  <string name="AnimatedEmoji">Animated Emoji</string>
   <string name="Duration">Duration</string>
   <string name="VoipRateCallAlert">Please rate the quality of your Telegram call</string>
   <string name="VoipFeedbackCommentHint">Add an optional comment</string>
@@ -1432,6 +1435,8 @@
   <string name="EventLogPromotedEditMessages">Edit messages</string>
   <string name="EventLogPromotedDeleteMessages">Delete messages</string>
   <string name="EventLogPromotedAddAdmins">Add admins</string>
+  <string name="EventLogPromotedTitle">Title: %1$s</string>
+  <string name="EventLogPromotedTitleChange">Title: %1$s -&gt; %2$s</string>
   <string name="EventLogPromotedBanUsers">Ban users</string>
   <string name="EventLogPromotedAddUsers">Add users</string>
   <string name="EventLogPromotedPinMessages">Pin messages</string>
@@ -1532,6 +1537,7 @@
   <string name="InviteContacts">Invite Contacts</string>
   <string name="NoRestrictionsHint">Specify at least one restriction rule</string>
   <string name="NoAdminRulesHint">Specify at least one admin rule</string>
+  <string name="CustomTitleTooBig">Custom Title is too long</string>
   <string name="SecretLinkPreviewAlert">Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.</string>
   <string name="SecretChatContextBotAlert">Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot\'s username are sent to the respective developer.</string>
   <string name="ClearRecentEmojiAction">Clear Recent Emoji</string>
@@ -2880,6 +2886,8 @@
   <string name="xCorrectAnswers_other">%1$s correct answers</string>
 
   <string name="BatmanTransitions">Batman Transitions in Polls</string>
+
+  <string name="OpenStickerSet">Show Sticker Set</string>
 
   
   

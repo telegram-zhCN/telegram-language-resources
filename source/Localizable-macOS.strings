@@ -410,7 +410,6 @@
 "Chat.ForwardActionHeader" = "Forward Messages";
 
 
-
 "GeneralSettings.MediaKeysForInAppPlayer" = "Handle media keys for in-app player";
 "GeneralSettings.EmojiReplacements" = "Replace Emoji Automatically";
 "GeneralSettings.InputSettings" = "INPUT SETTINGS";
@@ -418,6 +417,11 @@
 
 "GeneralSettings.SendByEnter" = "Send with Enter";
 "GeneralSettings.SendByCmdEnter" = "Send with ⌘ + Enter";
+
+"GeneralSettings.InterfaceHeader" = "INTERFACE";
+"GeneralSettings.AdvancedHeader" = "ADVANCED";
+"GeneralSettings.EmojiAndStickers" = "EMOJI & STICKERS";
+
 
 "Telegram.GeneralSettingsViewController" = "General Settings";
 "AccountSettings.Logout" = "Log Out";
@@ -541,8 +545,25 @@
 "Group.NewGroup" = "New Group";
 
 "Chat.Confirm.ActionUndonable" = "This action can't be undone";
-"Chat.Confirm.DeleteMessages" = "Delete selected messages?";
 "Chat.Confirm.DeleteMessagesForEveryone" = "Delete for Everyone";
+
+
+"Chat.Confirm.DeleteMessages_countable" = "%d";
+
+
+
+
+
+
+
+"Chat.Confirm.DeleteForEveryone_countable" = "%d";
+"Chat.Confirm.DeleteForEveryone_zero" = "Are you sure you want to delete this messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_one" = "Are you sure you want to delete this message for everyone?";
+"Chat.Confirm.DeleteForEveryone_two" = "Are you sure you want to delete this messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_few" = "Are you sure you want to delete this messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_many" = "Are you sure you want to delete this messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_other" = "Are you sure you want to delete this messages for everyone?";
+
 
 "Telegram.PrivacyAndSecurityViewController" = "Privacy and Security";
 "PrivacySettings.PrivacyHeader" = "PRIVACY";
@@ -731,6 +752,11 @@
 "Stickers.Context.Archive" = "Archive";
 
 
+"Stickers.Confirm.ClearRecentHeader" = "Clear Recent Stickers";
+"Stickers.Confirm.ClearRecentText" = "Are you sure you want to clear recent stickers?";
+"Stickers.Confirm.ClearRecentOK" = "Clear";
+
+
 "Stickers.Count_countable" = "%d";
 "Stickers.Count_zero" = "%d stickers";
 "Stickers.Count_one" = "%d sticker";
@@ -916,6 +942,10 @@
 "ChannelVisibility.Checking" = "Checking...";
 "ChannelVisibility.Loading" = "Loading...";
 "ChannelVisibility.Confirm.Revoke" = "Are you sure you want to make this channel private and remove its username?";
+
+"ChannelVisibility.Confirm.MakePrivate.Channel" = "If you make this channel private, the name @%@ will be removed. Anyone else will be able to take it for their public groups or channels.";
+"ChannelVisibility.Confirm.MakePrivate.Group" = "If you make this group private, the name @%@ will be removed. Anyone else will be able to take it for their public groups or channels.";
+
 "Peer.DeletedUser" = "Deleted Account";
 
 "ChatList.Service.Call.incoming" = "Incoming Call (%@)";
@@ -1085,7 +1115,7 @@
 "Context.RecentGifRemove" = "Remove";
 "Sidebar.Avalability" = "Your stickers, GIFs and emoji will appear in this panel when you open any chat.";
 "Sidebar.Peer.Restricted" = "Sidebar is not available in this chat";
-
+"Sidebar.Hide" = "Hide Panel";
 
 "PrivacySettingsController.Header" = "Last Seen & Online";
 "PrivacySettingsController.Everbody" = "Everybody";
@@ -1220,6 +1250,7 @@
 "4sb-4s-VLi.title" = "Quit Telegram";
 "5QF-Oa-p0T.title" = "Edit";
 
+"aMa-rb-kjV.title" = "Global Search";
 
 "5kV-Vb-QxS.title" = "About Telegram";
 "6dh-zS-Vam.title" = "Redo";
@@ -1914,7 +1945,15 @@
 "Chat.Message.DeleteForMeAndPerson" = "Delete for Me and %@";
 "Chat.Message.DeleteForMe" = "Delete for Me";
 "Chat.Message.DeleteForEveryone" = "Delete for Everyone";
-"Chat.Message.UnsendMessages" = "Unsend my messages";
+
+
+"Chat.Message.UnsendMessages_countable" = "%d";
+
+
+
+
+
+
 
 "Chat.CopySelectedText" = "Copy Selected Text";
 
@@ -2621,6 +2660,10 @@
 "RequestAcces.Error.Conirm.Settings" = "Settings";
 
 
+"RequestAcces.Error.HaveNotAccess.VideoMessages" = "Telegram needs access to your microphone and camera to record video messages.";
+"RequestAcces.Error.HaveNotAccess.VoiceMessages" = "Telegram needs access to your microphone to record voice messages.";
+
+
 /* new from translations.telegram.org */
 
 "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
@@ -2672,9 +2715,9 @@
 "Forward.ToSavedMessages" = "forward messages here for quick access";
 
 
-"GalleryView.FastSave.Image" = "Image saved to your [Download]() folder";
-"GalleryView.FastSave.Video" = "Video saved to your [Download]() folder";
-"GalleryView.FastSave.Gif" = "GIF saved to your [Download]() folder";
+"GalleryView.FastSave.Image1" = "Image saved to\n[Downloads]()";
+"GalleryView.FastSave.Video1" = "Video saved to\n[Downloads]()";
+"GalleryView.FastSave.Gif1" = "GIF saved to\n[Downloads]()";
 
 
 "Localization.Preview.Error.Generic" = "Sorry, this language doesn't seem to exist.";
@@ -3150,6 +3193,8 @@
 "ChatList.EmptyText" = "**You have no chats yet**\nStart messaging by tapping the pencil button in the top right corner or go to the Contacts section.";
 
 
+"ChatList.Archive.Back" = "Chats";
+
 "ChatList.Popover.ReadAll" = "Read All";
 "ChatList.Popover.Confirm" = "Are you sure you want to mark all chats as read?";
 
@@ -3537,7 +3582,6 @@
 "SettingsSearch.Synonyms.Stickers.SuggestStickers" = " ";
 "SettingsSearch.Synonyms.Stickers.FeaturedPacks" = " ";
 "SettingsSearch.Synonyms.Stickers.ArchivedPacks" = " ";
-"SettingsSearch.Synonyms.Stickers.Masks" = " ";
 
 "SettingsSearch.Synonyms.Notifications.Title" = " ";
 "SettingsSearch.Synonyms.Notifications.MessageNotificationsAlert" = " ";
@@ -3653,30 +3697,7 @@
 "InactiveChannels.InactiveYear_many" = "inactive for  %d years";
 "InactiveChannels.InactiveYear_other" = "inactive for  %d years";
 
-
-/* "InactiveChannels.InactiveWeek_Group_countable" = "%d %d"; */
-/* "InactiveChannels.InactiveWeek_Group_zero" = "%d members, inactive %d week"; */
-/* "InactiveChannels.InactiveWeek_Group_one" = "%d members, inactive %d week"; */
-/* "InactiveChannels.InactiveWeek_Group_two" = "%d members, inactive %d weeks"; */
-/* "InactiveChannels.InactiveWeek_Group_few" = "%d members, inactive %d weeks"; */
-/* "InactiveChannels.InactiveWeek_Group_many" = "%d members, inactive %d weeks"; */
-/* "InactiveChannels.InactiveWeek_Group_other" = "%d members, inactive %d weeks"; */
-
-/* "InactiveChannels.InactiveMonth_Group_countable" = "%d %d"; */
-/* "InactiveChannels.InactiveMonth_Group_zero" = "%d members, inactive %d month"; */
-/* "InactiveChannels.InactiveMonth_Group_one" = "%d members, inactive %d month"; */
-/* "InactiveChannels.InactiveMonth_Group_two" = "%d members, inactive %d months"; */
-/* "InactiveChannels.InactiveMonth_Group_few" = "%d members, inactive %d months"; */
-/* "InactiveChannels.InactiveMonth_Group_many" = "%d members, inactive %d months"; */
-/* "InactiveChannels.InactiveMonth_Group_other" = "%d members, inactive %d months"; */
-
-/* "InactiveChannels.InactiveYear_Group_countable" = "%d %d"; */
-/* "InactiveChannels.InactiveYear_Group_zero" = "%d members, inactive %d year"; */
-/* "InactiveChannels.InactiveYear_Group_one" = "%d members, inactive %d year"; */
-/* "InactiveChannels.InactiveYear_Group_two" = "%d members, inactive %d years"; */
-/* "InactiveChannels.InactiveYear_Group_few" = "%d members, inactive %d years"; */
-/* "InactiveChannels.InactiveYear_Group_many" = "%d members, inactive %d years"; */
-/* "InactiveChannels.InactiveYear_Group_other" = "%d members, inactive %d years"; */
+"Chat.Edit.Cancel.Text" = "Are you sure you want to discard all changes?";
 
 
 "InactiveChannels.Title" = "Limit Reached";
@@ -3690,22 +3711,58 @@
 "Poll.Forward.Error" = "Sorry, polls with visible votes can’t be forwarded to channels.";
 
 
+/* "ChatList.Filter.Back" = "Chats"; */
+
+/* "ChatList.Filter.AllChats" = "All Chats"; */
+/* "ChatList.Filter.AllChatsShort" = "All"; */
 
 
 
+/* "ChatList.HideMuted" = "Hide Muted"; */
+/* "ChatList.UnhideMuted" = "Unhide Muted"; */
+
+/* "ChatList.Filter.List.AddNew" = "Create New Filter"; */
+/* "ChatList.Filter.List.Title" = "Filters"; */
+
+/* "ChatList.Filter.Preset.Title" = "Filter"; */
+/* "ChatList.Filter.Preset.NewName" = "New Filter"; */
+
+/* "ChatList.Filter.Edit" = "Edit"; */
+/* "ChatList.Filter.Delete" = "Delete"; */
+/* "ChatList.Filter.AddChats" = "Add Chats"; */
+/* "ChatList.Filter.EditFilters" = "Edit Filters"; */
 
 
+/* "ChatList.Filter.Setup" = "Filters"; */
+/* "ChatList.Filter.All" = "All"; */
+/* "ChatList.Filter.PrivateChats" = "Private Chats"; */
+/* "ChatList.Filter.PublicGroups" = "Public Groups"; */
+/* "ChatList.Filter.PrivateGroups" = "Private Groups"; */
+/* "ChatList.Filter.SecretChat" = "Secret Chats"; */
+/* "ChatList.Filter.Channels" = "Channels"; */
+/* "ChatList.Filter.Bots" = "Bots"; */
+/* "ChatList.Filter.UnmutedChats" = "Unmuted"; */
+/* "ChatList.Filter.UnreadChats" = "Unread"; */
 
+/* "ChatList.Filter.Desc.Customized" = "Customized"; */
+/* "ChatList.Filter.Desc.Unmuted" = "All Unmuted"; */
+/* "ChatList.Filter.Desc.Unread" = "All Unread"; */
+/* "ChatList.Filter.Desc.PrivateChats" = "All Private Chats"; */
+/* "ChatList.Filter.Desc.PrivateGroups" = "All Private Groups"; */
+/* "ChatList.Filter.Desc.Groups" = "All Groups"; */
+/* "ChatList.Filter.Desc.PublicGroups" = "All Public Groups"; */
+/* "ChatList.Filter.Desc.Channels" = "All Channels"; */
+/* "ChatList.Filter.Desc.Bots" = "All Bots"; */
+/* "ChatList.Filter.Desc.SecretChats" = "All Secret Chats"; */
 
+/* "ChatList.Add.Placeholder" = "Select chats..."; */
+/* "ChatList.Add.Save" = "Add"; */
 
+/* "ChatList.CloseFilter" = "Show All"; */
+/* "ChatList.CloseFilterShort" = "All"; */
 
-
-
-
-
-
-
-
+/* "ChatList.Filter.Empty" = "**No chats currently match this filter.**\n\n[Edit Filters](filter)"; */
+/* "ChatList.Filter.Tooltip" = "You can organize your chats by right click."; */
 
 /* "Wallet.Splash.Intro.Header" = "Gram Wallet"; */
 /* "Wallet.Splash.Intro.Title" = "Gram Wallet"; */
@@ -3931,7 +3988,9 @@
 "AppearanceSettings.ColorTheme.night_blue" = "Night Blue";
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 "ChannelBlacklist.AddMember" = "Add Member";
+"Chat.Confirm.DeleteMessages" = "Delete selected messages?";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
+"Chat.Message.UnsendMessages" = "Unsend my messages";
 "Chat.Poll.TotalVotes_zero" = "%d users voted";
 "Chat.Poll.TotalVotes_one" = "%d user voted";
 "Chat.Poll.TotalVotes_two" = "%d users voted";
@@ -3942,11 +4001,15 @@
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
 "Gallery.Counter" = "%d of %d";
+"GalleryView.FastSave.Gif" = "GIF saved to your [Download]() folder";
+"GalleryView.FastSave.Image" = "Image saved to your [Download]() folder";
+"GalleryView.FastSave.Video" = "Video saved to your [Download]() folder";
 "GeneralSettings.LargeFonts" = "Large Font";
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
 "Notification.ScheduledTitle" = "📆 You";
 "PeerInfo.Admins" = "Admins";
 "PeerInfo.SetAdmins" = "Set Admins";
+"SettingsSearch.Synonyms.Stickers.Masks" = " ";
 "TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";

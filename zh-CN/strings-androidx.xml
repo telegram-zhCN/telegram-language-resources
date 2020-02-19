@@ -120,6 +120,7 @@
   
   <string name="status_LastSeen_hours_other">最近上线于 %1$s 小时前</string>
   
+  
   <string name="xOnline_other">%1$s 人在线</string>
   
   <string name="xGroups_other">%1$s 个群组</string>
@@ -1110,6 +1111,8 @@
   <string name="VoipEndCall">结束通话</string>
   <string name="HangUp">挂断电话</string>
   <string name="ChatQuickActions">划动操作</string>
+  
+  
   <string name="Duration">持续时间</string>
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
   <string name="VoipFeedbackCommentHint">附加说明</string>
@@ -1432,6 +1435,8 @@
   <string name="EventLogPromotedEditMessages">编辑消息</string>
   <string name="EventLogPromotedDeleteMessages">删除消息</string>
   <string name="EventLogPromotedAddAdmins">添加管理员</string>
+  
+  
   <string name="EventLogPromotedBanUsers">封禁用户</string>
   <string name="EventLogPromotedAddUsers">添加成员</string>
   <string name="EventLogPromotedPinMessages">置顶消息</string>
@@ -1532,6 +1537,7 @@
   <string name="InviteContacts">邀请联系人</string>
   <string name="NoRestrictionsHint">请至少设置一条限制</string>
   <string name="NoAdminRulesHint">请至少授予一个权限</string>
+  
   <string name="SecretLinkPreviewAlert">要为加密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。</string>
   <string name="SecretChatContextBotAlert">请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
   <string name="ClearRecentEmojiAction">清除最近使用的 Emoji</string>
@@ -2877,6 +2883,8 @@
 
   
   
+  
+
   
 
   

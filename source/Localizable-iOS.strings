@@ -5345,6 +5345,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "PeerInfo.BioExpand" = "more";
 
+"External.OpenIn" = "Open in %@";
+
 
 /* new from translations.telegram.org */
 

@@ -410,7 +410,6 @@
 "Chat.ForwardActionHeader" = "转发消息";
 
 
-
 "GeneralSettings.MediaKeysForInAppPlayer" = "处理应用内播放器中的媒体键";
 "GeneralSettings.EmojiReplacements" = "自动替换 Emoji";
 "GeneralSettings.InputSettings" = "输入设置";
@@ -418,6 +417,11 @@
 
 "GeneralSettings.SendByEnter" = "用回车来发送";
 "GeneralSettings.SendByCmdEnter" = "用 ⌘ + 回车 来发送";
+
+
+
+
+
 
 "Telegram.GeneralSettingsViewController" = "通用设置";
 "AccountSettings.Logout" = "退出";
@@ -541,8 +545,25 @@
 "Group.NewGroup" = "新建群组";
 
 "Chat.Confirm.ActionUndonable" = "此操作无法撤销。";
-"Chat.Confirm.DeleteMessages" = "删除所选消息？";
 "Chat.Confirm.DeleteMessagesForEveryone" = "为所有人撤回";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 "Telegram.PrivacyAndSecurityViewController" = "隐私和安全";
 "PrivacySettings.PrivacyHeader" = "隐私";
@@ -739,6 +760,11 @@
 
 
 
+
+
+
+
+
 "Account.Confirm.AskQuestion" = "请注意：Telegram 的技术支持由志愿者提供，反馈时请使用英文，我们会尽快回复您，但是您可能需要等待一段时间。\n\n请前往 Telegram FAQ 看看：那里有各种常见问题及故障排除提示。";
 "Account.Confirm.GoToFaq" = "打开 FAQ";
 
@@ -916,6 +942,10 @@
 "ChannelVisibility.Checking" = "检查中...";
 "ChannelVisibility.Loading" = "加载中...";
 "ChannelVisibility.Confirm.Revoke" = "您确定您要将该频道设为私人频道吗？这将会移除它的频道名。";
+
+
+
+
 "Peer.DeletedUser" = "已销号";
 
 "ChatList.Service.Call.incoming" = "来电 (%@)";
@@ -1219,6 +1249,7 @@
 "4J7-dP-txa.title" = "进入全屏幕";
 "4sb-4s-VLi.title" = "退出 Telegram";
 "5QF-Oa-p0T.title" = "编辑";
+
 
 
 "5kV-Vb-QxS.title" = "关于 Telegram";
@@ -1914,7 +1945,15 @@
 "Chat.Message.DeleteForMeAndPerson" = "删除并从 %@ 处撤回";
 "Chat.Message.DeleteForMe" = "仅删除";
 "Chat.Message.DeleteForEveryone" = "删除并撤回";
-"Chat.Message.UnsendMessages" = "撤回我的消息";
+
+
+
+
+
+
+
+
+
 
 "Chat.CopySelectedText" = "拷贝所选内容";
 
@@ -2621,6 +2660,10 @@
 "RequestAcces.Error.Conirm.Settings" = "设置";
 
 
+
+
+
+
 /* new from translations.telegram.org */
 
 "ChatList.Context.PinError" = "对不起，您最多只能置顶 5 个对话。";
@@ -2672,9 +2715,9 @@
 "Forward.ToSavedMessages" = "转发消息到这里以便快速访问";
 
 
-"GalleryView.FastSave.Image" = "图片已保存到您的 [下载]() 文件夹";
-"GalleryView.FastSave.Video" = "视频已保存到 [下载]() 文件夹";
-"GalleryView.FastSave.Gif" = "GIF 已保存到 [下载]() 文件夹";
+
+
+
 
 
 "Localization.Preview.Error.Generic" = "抱歉，这个语言似乎并不存在。";
@@ -3142,6 +3185,8 @@
 "Login.Register.Desc" = "请输入您的姓名并添加一张头像。";
 "Login.Register.FirstName.Placeholder" = "名字";
 "Login.Register.LastName.Placeholder" = "姓氏";
+
+
 
 
 
@@ -3653,30 +3698,6 @@
 
 
 
-//
-//"InactiveChannels.InactiveWeek_Group_countable" = "%d %d";
-//"InactiveChannels.InactiveWeek_Group_zero" = "%d members, inactive %d week";
-//"InactiveChannels.InactiveWeek_Group_one" = "%d members, inactive %d week";
-//"InactiveChannels.InactiveWeek_Group_two" = "%d members, inactive %d weeks";
-//"InactiveChannels.InactiveWeek_Group_few" = "%d members, inactive %d weeks";
-//"InactiveChannels.InactiveWeek_Group_many" = "%d members, inactive %d weeks";
-//"InactiveChannels.InactiveWeek_Group_other" = "%d members, inactive %d weeks";
-//
-//"InactiveChannels.InactiveMonth_Group_countable" = "%d %d";
-//"InactiveChannels.InactiveMonth_Group_zero" = "%d members, inactive %d month";
-//"InactiveChannels.InactiveMonth_Group_one" = "%d members, inactive %d month";
-//"InactiveChannels.InactiveMonth_Group_two" = "%d members, inactive %d months";
-//"InactiveChannels.InactiveMonth_Group_few" = "%d members, inactive %d months";
-//"InactiveChannels.InactiveMonth_Group_many" = "%d members, inactive %d months";
-//"InactiveChannels.InactiveMonth_Group_other" = "%d members, inactive %d months";
-//
-//"InactiveChannels.InactiveYear_Group_countable" = "%d %d";
-//"InactiveChannels.InactiveYear_Group_zero" = "%d members, inactive %d year";
-//"InactiveChannels.InactiveYear_Group_one" = "%d members, inactive %d year";
-//"InactiveChannels.InactiveYear_Group_two" = "%d members, inactive %d years";
-//"InactiveChannels.InactiveYear_Group_few" = "%d members, inactive %d years";
-//"InactiveChannels.InactiveYear_Group_many" = "%d members, inactive %d years";
-//"InactiveChannels.InactiveYear_Group_other" = "%d members, inactive %d years";
 
 
 "InactiveChannels.Title" = "达到上限";
@@ -3690,22 +3711,58 @@
 
 
 
-
-
-
-
-
-
-
-
-
+//"ChatList.Filter.Back" = "Chats";
+//
+//"ChatList.Filter.AllChats" = "All Chats";
+//"ChatList.Filter.AllChatsShort" = "All";
 
 //
 //
+//"ChatList.HideMuted" = "Hide Muted";
+//"ChatList.UnhideMuted" = "Unhide Muted";
+//
+//"ChatList.Filter.List.AddNew" = "Create New Filter";
+//"ChatList.Filter.List.Title" = "Filters";
+//
+//"ChatList.Filter.Preset.Title" = "Filter";
+//"ChatList.Filter.Preset.NewName" = "New Filter";
+//
+//"ChatList.Filter.Edit" = "Edit";
+//"ChatList.Filter.Delete" = "Delete";
+//"ChatList.Filter.AddChats" = "Add Chats";
+//"ChatList.Filter.EditFilters" = "Edit Filters";
 //
 //
+//"ChatList.Filter.Setup" = "Filters";
+//"ChatList.Filter.All" = "All";
+//"ChatList.Filter.PrivateChats" = "Private Chats";
+//"ChatList.Filter.PublicGroups" = "Public Groups";
+//"ChatList.Filter.PrivateGroups" = "Private Groups";
+//"ChatList.Filter.SecretChat" = "Secret Chats";
+//"ChatList.Filter.Channels" = "Channels";
+//"ChatList.Filter.Bots" = "Bots";
+//"ChatList.Filter.UnmutedChats" = "Unmuted";
+//"ChatList.Filter.UnreadChats" = "Unread";
 //
+//"ChatList.Filter.Desc.Customized" = "Customized";
+//"ChatList.Filter.Desc.Unmuted" = "All Unmuted";
+//"ChatList.Filter.Desc.Unread" = "All Unread";
+//"ChatList.Filter.Desc.PrivateChats" = "All Private Chats";
+//"ChatList.Filter.Desc.PrivateGroups" = "All Private Groups";
+//"ChatList.Filter.Desc.Groups" = "All Groups";
+//"ChatList.Filter.Desc.PublicGroups" = "All Public Groups";
+//"ChatList.Filter.Desc.Channels" = "All Channels";
+//"ChatList.Filter.Desc.Bots" = "All Bots";
+//"ChatList.Filter.Desc.SecretChats" = "All Secret Chats";
 //
+//"ChatList.Add.Placeholder" = "Select chats...";
+//"ChatList.Add.Save" = "Add";
+//
+//"ChatList.CloseFilter" = "Show All";
+//"ChatList.CloseFilterShort" = "All";
+//
+//"ChatList.Filter.Empty" = "**No chats currently match this filter.**\n\n[Edit Filters](filter)";
+//"ChatList.Filter.Tooltip" = "You can organize your chats by right click.";
 //
 //"Wallet.Splash.Intro.Header" = "Gram Wallet";
 //"Wallet.Splash.Intro.Title" = "Gram Wallet";
@@ -3918,7 +3975,7 @@
 //"Updated.TodayAt" = "updated today at %@";
 //
 //
-//
+
 //
 
 
@@ -3931,11 +3988,16 @@
 "AppearanceSettings.ColorTheme.night_blue" = "蓝光暗色调";
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
 "ChannelBlacklist.AddMember" = "邀请新成员";
+"Chat.Confirm.DeleteMessages" = "删除所选消息？";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
+"Chat.Message.UnsendMessages" = "撤回我的消息";
 "Chat.Poll.TotalVotes_other" = "%d 人已投票";
 "Chat.Poll.TotalVotes_countable" = "%d";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "Gallery.Counter" = "%d / %d";
+"GalleryView.FastSave.Gif" = "GIF 已保存到 [下载]() 文件夹";
+"GalleryView.FastSave.Image" = "图片已保存到您的 [下载]() 文件夹";
+"GalleryView.FastSave.Video" = "视频已保存到 [下载]() 文件夹";
 "GeneralSettings.LargeFonts" = "大字体";
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "Notification.ScheduledTitle" = "📆 您";
