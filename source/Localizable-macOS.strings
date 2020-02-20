@@ -557,12 +557,12 @@
 
 
 "Chat.Confirm.DeleteForEveryone_countable" = "%d";
-"Chat.Confirm.DeleteForEveryone_zero" = "Are you sure you want to delete this messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_zero" = "Are you sure you want to delete these messages for everyone?";
 "Chat.Confirm.DeleteForEveryone_one" = "Are you sure you want to delete this message for everyone?";
-"Chat.Confirm.DeleteForEveryone_two" = "Are you sure you want to delete this messages for everyone?";
-"Chat.Confirm.DeleteForEveryone_few" = "Are you sure you want to delete this messages for everyone?";
-"Chat.Confirm.DeleteForEveryone_many" = "Are you sure you want to delete this messages for everyone?";
-"Chat.Confirm.DeleteForEveryone_other" = "Are you sure you want to delete this messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_two" = "Are you sure you want to delete these messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_few" = "Are you sure you want to delete these messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_many" = "Are you sure you want to delete these messages for everyone?";
+"Chat.Confirm.DeleteForEveryone_other" = "Are you sure you want to delete these messages for everyone?";
 
 
 "Telegram.PrivacyAndSecurityViewController" = "Privacy and Security";
