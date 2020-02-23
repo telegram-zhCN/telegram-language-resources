@@ -1012,6 +1012,8 @@
   <string name="NotificationsCustomize">Customize</string>
   <string name="MuteNotifications">Mute notifications</string>
   <string name="EnableNotifications">Enable notifications</string>
+  <string name="EnableNotifications2_one">Unmute %1$s chat</string>
+  <string name="EnableNotifications2_other">Unmute %1$s chats</string>
   <string name="CustomNotificationsHint">These settings will override the global values in Settings&#160;&gt;&#160;Notifications.</string>
   <string name="CustomNotifications">Custom notifications</string>
   <string name="Send">Send</string>
@@ -1778,6 +1780,8 @@
   <string name="PrivacyP2PEverybody">Enabled</string>
   <string name="PrivacyP2PEverybodyExcept">Enabled (%1$s)</string>
   <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
+  <string name="NotificationsEnableOverride2">Enabling notifications for these chats will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
+  <string name="NotificationsEnableOverride3">Enabling notifications for some of selected chats will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsDefault">Use global settings (%1$s)</string>
   <string name="NotificationsDefaultEnabled">Enabled</string>
   <string name="NotificationsDefaultUnmutesIn">Unmutes in %1$s</string>
@@ -1893,6 +1897,7 @@
   <string name="TabMembers">Members</string>
   <string name="TabMessages">Messages</string>
   <string name="MoreMessageOptions">More</string>
+  <string name="MoreChatOptions">More</string>
   <string name="MessagePin">Pin</string>
   <string name="MessageUnpin">Unpin</string>
   <string name="MessageReport">Report message</string>
@@ -2590,6 +2595,8 @@
   <string name="ReadAllChatsInfo">Are you sure you want to mark all chats and mentions as read?</string>
   <string name="ReadAllChatsDone_one">Marked %1$s chat as read</string>
   <string name="ReadAllChatsDone_other">Marked %1$s chats as read</string>
+  <string name="MarkedXChats_one">Marked %1$s chat as unread</string>
+  <string name="MarkedXChats_other">Marked %1$s chats as unread</string>
 
   <string name="PhoneNumberUnknown">Unknown</string>
 
@@ -2889,6 +2896,94 @@
 
   <string name="OpenStickerSet">Show Sticker Set</string>
 
+  <string name="PinTooMuchWarn_one">Sorry, you can only pin %1$s chat in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
+  <string name="PinTooMuchWarn_other">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
+
+  <string name="PinXChats_one">Pin %1$s chat</string>
+  <string name="PinXChats_other">Pin %1$s chats</string>
+  <string name="UnpinXChats_one">Unpin %1$s chat</string>
+  <string name="UnpinXChats_other">Unpin %1$s chats</string>
+
+  <string name="ArchiveXChats_one">Archive %1$s chat</string>
+  <string name="ArchiveXChats_other">Archive %1$s chats</string>
+  <string name="UnarchiveXChats_one">Unarchive %1$s chat</string>
+  <string name="UnarchiveXChats_other">Unarchive %1$s chats</string>
+  <string name="ArchivedXChats_one">Archived %1$s chat</string>
+  <string name="ArchivedXChats_other">Archived %1$s chats</string>
+  <string name="UnarchivedXChats_one">Unarchived %1$s chat</string>
+  <string name="UnarchivedXChats_other">Unarchived %1$s chats</string>
+
+  <string name="DeleteChatCache">Clear media cache</string>
+
+  <string name="ReportXChats_one">Report %1$s chat</string>
+  <string name="ReportXChats_other">Report %1$s chats</string>
+  <string name="ReportedXChats_one">Reported %1$s chat</string>
+  <string name="ReportedXChats_other">Reported %1$s chats</string>
+
+  <string name="BlockXUsers_one">Block %1$s user</string>
+  <string name="BlockXUsers_other">Block %1$s users</string>
+  <string name="BlockedXUsers_one">Blocked %1$s user</string>
+  <string name="BlockedXUsers_other">Blocked %1$s users</string>
+  <string name="UnblockXUsers_one">Unblock %1$s user</string>
+  <string name="UnblockXUsers_other">Unblock %1$s users</string>
+  <string name="UnblockedXUsers_one">Unblocked %1$s user</string>
+  <string name="UnblockedXUsers_other">Unblocked %1$s users</string>
+
+  <string name="UnmutedXChats_one">Unmuted %1$s chat</string>
+  <string name="UnmutedXChats_other">Unmuted %1$s chats</string>
+  <string name="NotificationsOnXChats_one">Enabled notifications for %1$s chat</string>
+  <string name="NotificationsOnXChats_other">Enabled notifications for %1$s chats</string>
+  <string name="MuteXChats_one">Mute %1$s chat</string>
+  <string name="MuteXChats_other">Mute %1$s chats</string>
+  <string name="MutedXChats_one">Muted %1$s chat</string>
+  <string name="MutedXChats_other">Muted %1$s chats</string>
+
+  <string name="ClearXChats_one">Clear media in %1$s chat? You will need to download media again.</string>
+  <string name="ClearXChats_other">Clear media in %1$s chats? You will need to download media again.</string>
+  <string name="ClearedXChats_one">Cleared media for %1$s chat</string>
+  <string name="ClearedXChats_other">Cleared media for %1$s chats</string>
+
+  <string name="SelectMore">Select…</string>
+  <string name="SelectAll">Select All</string>
+  <string name="SelectUnread">Select Unread</string>
+  <string name="SelectMuted">Select Muted</string>
+
+  <string name="ClearXHistoriesConfirm_one">Are you sure you want to clear history in %1$s chat?</string>
+  <string name="ClearXHistoriesConfirm_other">Are you sure you want to clear history in %1$s chats?</string>
+  <string name="ClearedXHistories_one">Cleared %1$s histories</string>
+  <string name="ClearedXHistories_other">Cleared %1$s histories</string>
+  <string name="ClearXHistories_one">Clear %1$s chat history</string>
+  <string name="ClearXHistories_other">Clear %1$s chat histories</string>
+
+  <string name="RevokeForX_one">Delete all messages for %1$s other user</string>
+  <string name="RevokeForX_other">Delete all messages for %1$s other users</string>
+
+  <string name="DeleteXChatsConfirm_one">Are you sure you want to delete %1$s chat?</string>
+  <string name="DeleteXChatsConfirm_other">Are you sure you want to delete %1$s chats?</string>
+  <string name="DeletedXChats_one">Deleted %1$s chat</string>
+  <string name="DeletedXChats_other">Deleted %1$s chats</string>
+  <string name="DeleteXChats_one">Delete %1$s chat</string>
+  <string name="DeleteXChats_other">Delete %1$s chats</string>
+
+  <string name="LosingXAdminRights_one">You will lose admin rights in %1$s chat</string>
+  <string name="LosingXAdminRights_other">You will lose admin rights in %1$s chats</string>
+
+  <string name="LeaveXPrivateGroup_one">You will be unable to return to %1$s group</string>
+  <string name="LeaveXPrivateGroup_other">You will be unable to return to %1$s groups</string>
+
+  <string name="LeaveXPrivateChannel_one">You will be unable to return to %1$s channel</string>
+  <string name="LeaveXPrivateChannel_other">You will be unable to return to %1$s channels</string>
+
+  <string name="LeaveXChats_one">You will be unable to return to %1$s chat</string>
+  <string name="LeaveXChats_other">You will be unable to return to %1$s chats</string>
+
+  <string name="ClosingXSecretChats_one">%1$s secret chat will be cancelled</string>
+  <string name="ClosingXSecretChats_other">%1$s secret chats will be cancelled</string>
+
+  <string name="NoUndoWarn">This action cannot be undone.</string>
+
+  <string name="ClearHistoryBtn">Clear</string>
+
   
   
   
@@ -2943,6 +3038,14 @@
   <string name="AppBadgeTypeMessages">Number of messages</string>
   <string name="AppBadgeUnmuted">From non-muted chats</string>
   <string name="AppUpdateRequiredText">To perform this action, please update Telegram version.</string>
+  <string name="ArchiveXChats_zero">Archive %1$s chats</string>
+  <string name="ArchiveXChats_two">Archive %1$s chats</string>
+  <string name="ArchiveXChats_few">Archive %1$s chats</string>
+  <string name="ArchiveXChats_many">Archive %1$s chats</string>
+  <string name="ArchivedXChats_zero">Archived %1$s chats</string>
+  <string name="ArchivedXChats_two">Archived %1$s chats</string>
+  <string name="ArchivedXChats_few">Archived %1$s chats</string>
+  <string name="ArchivedXChats_many">Archived %1$s chats</string>
   <string name="AreYouSureNotifyReset">Are you sure you want to reset all custom notification settings for all your contacts and groups?</string>
   <string name="AsXMessages_zero">as %1$s messages</string>
   <string name="AsXMessages_two">as %1$s messages</string>
@@ -2961,6 +3064,14 @@
   <string name="AttachVideosSuffix_few">" videos"</string>
   <string name="AttachVideosSuffix_many">" videos"</string>
   <string name="BadgeCounterSetting">App Icon Badge</string>
+  <string name="BlockXUsers_zero">Block %1$s users</string>
+  <string name="BlockXUsers_two">Block %1$s users</string>
+  <string name="BlockXUsers_few">Block %1$s users</string>
+  <string name="BlockXUsers_many">Block %1$s users</string>
+  <string name="BlockedXUsers_zero">Blocked %1$s users</string>
+  <string name="BlockedXUsers_two">Blocked %1$s users</string>
+  <string name="BlockedXUsers_few">Blocked %1$s users</string>
+  <string name="BlockedXUsers_many">Blocked %1$s users</string>
   <string name="ChannelCreator">Creator</string>
   <string name="ChannelMessageAudio">%1$s posted a voice message</string>
   <string name="ChannelMessageDocument">%1$s posted a file</string>
@@ -2983,6 +3094,30 @@
   <string name="ChatHistoryPartiallyHiddenInfo_few">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatHistoryPartiallyHiddenInfo_many">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatPhoto">Chat photo</string>
+  <string name="ClearXChats_zero">Clear media in %1$s chats? You will need to download media again.</string>
+  <string name="ClearXChats_two">Clear media in %1$s chats? You will need to download media again.</string>
+  <string name="ClearXChats_few">Clear media in %1$s chats? You will need to download media again.</string>
+  <string name="ClearXChats_many">Clear media in %1$s chats? You will need to download media again.</string>
+  <string name="ClearXHistories_zero">Clear %1$s chat histories</string>
+  <string name="ClearXHistories_two">Clear %1$s chat histories</string>
+  <string name="ClearXHistories_few">Clear %1$s chat histories</string>
+  <string name="ClearXHistories_many">Clear %1$s chat histories</string>
+  <string name="ClearXHistoriesConfirm_zero">Are you sure you want to clear history in %1$s chats?</string>
+  <string name="ClearXHistoriesConfirm_two">Are you sure you want to clear history in %1$s chats?</string>
+  <string name="ClearXHistoriesConfirm_few">Are you sure you want to clear history in %1$s chats?</string>
+  <string name="ClearXHistoriesConfirm_many">Are you sure you want to clear history in %1$s chats?</string>
+  <string name="ClearedXChats_zero">Cleared media for %1$s chats</string>
+  <string name="ClearedXChats_two">Cleared media for %1$s chats</string>
+  <string name="ClearedXChats_few">Cleared media for %1$s chats</string>
+  <string name="ClearedXChats_many">Cleared media for %1$s chats</string>
+  <string name="ClearedXHistories_zero">Cleared %1$s histories</string>
+  <string name="ClearedXHistories_two">Cleared %1$s histories</string>
+  <string name="ClearedXHistories_few">Cleared %1$s histories</string>
+  <string name="ClearedXHistories_many">Cleared %1$s histories</string>
+  <string name="ClosingXSecretChats_zero">%1$s secret chats will be cancelled</string>
+  <string name="ClosingXSecretChats_two">%1$s secret chats will be cancelled</string>
+  <string name="ClosingXSecretChats_few">%1$s secret chats will be cancelled</string>
+  <string name="ClosingXSecretChats_many">%1$s secret chats will be cancelled</string>
   <string name="ColorClearAll_zero">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
   <string name="ColorClearAll_two">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
   <string name="ColorClearAll_few">Delete all %1$s other versions of %2$s?\n\nThis action cannot be undone.</string>
@@ -3012,6 +3147,14 @@
   <string name="DeleteAccountIfAwayForYears_two">%1$s years</string>
   <string name="DeleteAccountIfAwayForYears_few">%1$s years</string>
   <string name="DeleteAccountIfAwayForYears_many">%1$s years</string>
+  <string name="DeleteXChats_zero">Delete %1$s chats</string>
+  <string name="DeleteXChats_two">Delete %1$s chats</string>
+  <string name="DeleteXChats_few">Delete %1$s chats</string>
+  <string name="DeleteXChats_many">Delete %1$s chats</string>
+  <string name="DeleteXChatsConfirm_zero">Are you sure you want to delete %1$s chats?</string>
+  <string name="DeleteXChatsConfirm_two">Are you sure you want to delete %1$s chats?</string>
+  <string name="DeleteXChatsConfirm_few">Are you sure you want to delete %1$s chats?</string>
+  <string name="DeleteXChatsConfirm_many">Are you sure you want to delete %1$s chats?</string>
   <string name="DeleteXForEveryone_zero">Delete %1$s messages for everyone</string>
   <string name="DeleteXForEveryone_two">Delete %1$s messages for everyone</string>
   <string name="DeleteXForEveryone_few">Delete %1$s messages for everyone</string>
@@ -3020,10 +3163,18 @@
   <string name="DeleteXForUser_two">Delete %1$s messages for %2$s</string>
   <string name="DeleteXForUser_few">Delete %1$s messages for %2$s</string>
   <string name="DeleteXForUser_many">Delete %1$s messages for %2$s</string>
+  <string name="DeletedXChats_zero">Deleted %1$s chats</string>
+  <string name="DeletedXChats_two">Deleted %1$s chats</string>
+  <string name="DeletedXChats_few">Deleted %1$s chats</string>
+  <string name="DeletedXChats_many">Deleted %1$s chats</string>
   <string name="DestroyX_zero">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_two">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_few">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_many">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+  <string name="EnableNotifications2_zero">Unmute %1$s chats</string>
+  <string name="EnableNotifications2_two">Unmute %1$s chats</string>
+  <string name="EnableNotifications2_few">Unmute %1$s chats</string>
+  <string name="EnableNotifications2_many">Unmute %1$s chats</string>
   <string name="ErrorPinnedChatsLimit_zero">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
   <string name="ErrorPinnedChatsLimit_two">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
   <string name="ErrorPinnedChatsLimit_few">Sorry, you can pin up to %1$s chats and %1$s secret chats at once.</string>
@@ -3046,18 +3197,38 @@
   <string name="InviteTextCommonMany_two">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_few">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
   <string name="InviteTextCommonMany_many">Hey, I\'m using Telegram to chat – and so are %1$s of our other contacts. Join us! Download it here: %2$s</string>
+  <string name="LeaveXChats_zero">You will be unable to return to %1$s chats</string>
+  <string name="LeaveXChats_two">You will be unable to return to %1$s chats</string>
+  <string name="LeaveXChats_few">You will be unable to return to %1$s chats</string>
+  <string name="LeaveXChats_many">You will be unable to return to %1$s chats</string>
+  <string name="LeaveXPrivateChannel_zero">You will be unable to return to %1$s channels</string>
+  <string name="LeaveXPrivateChannel_two">You will be unable to return to %1$s channels</string>
+  <string name="LeaveXPrivateChannel_few">You will be unable to return to %1$s channels</string>
+  <string name="LeaveXPrivateChannel_many">You will be unable to return to %1$s channels</string>
+  <string name="LeaveXPrivateGroup_zero">You will be unable to return to %1$s groups</string>
+  <string name="LeaveXPrivateGroup_two">You will be unable to return to %1$s groups</string>
+  <string name="LeaveXPrivateGroup_few">You will be unable to return to %1$s groups</string>
+  <string name="LeaveXPrivateGroup_many">You will be unable to return to %1$s groups</string>
   <string name="LinkStateContact">%1$s has your phone number in their contacts list.</string>
   <string name="LinkStateContactMutual">%1$s and you have each other\'s phone number in the contacts list.</string>
   <string name="LinkStateKnowsNumber">%1$s can see your phone number.</string>
   <string name="LinkStateKnowsNumberContact">%1$s can see your phone number. You have them in your contacts list.</string>
   <string name="LinkStateKnowsNumberMutual">%1$s and you can see each other\'s phone number.</string>
   <string name="LinkStateNone">%1$s does not see your phone number.</string>
+  <string name="LosingXAdminRights_zero">You will lose admin rights in %1$s chats</string>
+  <string name="LosingXAdminRights_two">You will lose admin rights in %1$s chats</string>
+  <string name="LosingXAdminRights_few">You will lose admin rights in %1$s chats</string>
+  <string name="LosingXAdminRights_many">You will lose admin rights in %1$s chats</string>
   <string name="MapPreviewProviderCloud">Map Preview Provider in Cloud Chats</string>
   <string name="Markdown">Markdown</string>
   <string name="MarkdownDisabled">Disabled</string>
   <string name="MarkdownEnabled">Enabled</string>
   <string name="MarkdownHint">When active, following markdown rules apply:\n**bold**\n__italic__\n`code` ```code block```\n[text](url)</string>
   <string name="MarkdownTextOnly">Enabled (no GUI)</string>
+  <string name="MarkedXChats_zero">Marked %1$s chats as unread</string>
+  <string name="MarkedXChats_two">Marked %1$s chats as unread</string>
+  <string name="MarkedXChats_few">Marked %1$s chats as unread</string>
+  <string name="MarkedXChats_many">Marked %1$s chats as unread</string>
   <string name="MuteForXDays_zero">Mute for %1$s days</string>
   <string name="MuteForXDays_two">Mute for %1$s days</string>
   <string name="MuteForXDays_few">Mute for %1$s days</string>
@@ -3066,6 +3237,14 @@
   <string name="MuteForXHours_two">Mute for %1$s hours</string>
   <string name="MuteForXHours_few">Mute for %1$s hours</string>
   <string name="MuteForXHours_many">Mute for %1$s hours</string>
+  <string name="MuteXChats_zero">Mute %1$s chats</string>
+  <string name="MuteXChats_two">Mute %1$s chats</string>
+  <string name="MuteXChats_few">Mute %1$s chats</string>
+  <string name="MuteXChats_many">Mute %1$s chats</string>
+  <string name="MutedXChats_zero">Muted %1$s chats</string>
+  <string name="MutedXChats_two">Muted %1$s chats</string>
+  <string name="MutedXChats_few">Muted %1$s chats</string>
+  <string name="MutedXChats_many">Muted %1$s chats</string>
   <string name="NoAnswered">Nobody answered yet</string>
   <string name="NotificationChannelCommonGroup">Default notification settings for all group chats and channels.</string>
   <string name="NotificationMessageDocument">%1$s sent you a file</string>
@@ -3081,6 +3260,18 @@
   <string name="NotificationMutedPersons_many">Muted %1$s people for 1 hour</string>
   <string name="NotificationsBlockedAll">All notifications from Telegram are blocked by system.</string>
   <string name="NotificationsGooglePlayServices">Google Play Services is needed for guaranteed notification delivery.</string>
+  <string name="NotificationsOnXChats_zero">Enabled notifications for %1$s chats</string>
+  <string name="NotificationsOnXChats_two">Enabled notifications for %1$s chats</string>
+  <string name="NotificationsOnXChats_few">Enabled notifications for %1$s chats</string>
+  <string name="NotificationsOnXChats_many">Enabled notifications for %1$s chats</string>
+  <string name="PinTooMuchWarn_zero">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
+  <string name="PinTooMuchWarn_two">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
+  <string name="PinTooMuchWarn_few">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
+  <string name="PinTooMuchWarn_many">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
+  <string name="PinXChats_zero">Pin %1$s chats</string>
+  <string name="PinXChats_two">Pin %1$s chats</string>
+  <string name="PinXChats_few">Pin %1$s chats</string>
+  <string name="PinXChats_many">Pin %1$s chats</string>
   <string name="PollOptionsLimit_zero">You can add %1$s more options</string>
   <string name="PollOptionsLimit_two">You can add %1$s more options</string>
   <string name="PollOptionsLimit_few">You can add %1$s more options</string>
@@ -3104,15 +3295,27 @@
   <string name="RemoveXStickers_two">Remove %1$s stickers</string>
   <string name="RemoveXStickers_few">Remove %1$s stickers</string>
   <string name="RemoveXStickers_many">Remove %1$s stickers</string>
+  <string name="ReportXChats_zero">Report %1$s chats</string>
+  <string name="ReportXChats_two">Report %1$s chats</string>
+  <string name="ReportXChats_few">Report %1$s chats</string>
+  <string name="ReportXChats_many">Report %1$s chats</string>
   <string name="ReportXMessages_zero">Report %1$s messages</string>
   <string name="ReportXMessages_two">Report %1$s messages</string>
   <string name="ReportXMessages_few">Report %1$s messages</string>
   <string name="ReportXMessages_many">Report %1$s messages</string>
+  <string name="ReportedXChats_zero">Reported %1$s chats</string>
+  <string name="ReportedXChats_two">Reported %1$s chats</string>
+  <string name="ReportedXChats_few">Reported %1$s chats</string>
+  <string name="ReportedXChats_many">Reported %1$s chats</string>
   <string name="ResendXMessages_zero">Resend %1$s messages</string>
   <string name="ResendXMessages_two">Resend %1$s messages</string>
   <string name="ResendXMessages_few">Resend %1$s messages</string>
   <string name="ResendXMessages_many">Resend %1$s messages</string>
   <string name="RevokeAdminRights">Revoke Admin Rights</string>
+  <string name="RevokeForX_zero">Delete all messages for %1$s other users</string>
+  <string name="RevokeForX_two">Delete all messages for %1$s other users</string>
+  <string name="RevokeForX_few">Delete all messages for %1$s other users</string>
+  <string name="RevokeForX_many">Delete all messages for %1$s other users</string>
   <string name="SelectedAudioSuffix_zero">" audios"</string>
   <string name="SelectedAudioSuffix_two">" audios"</string>
   <string name="SelectedAudioSuffix_few">" audios"</string>
@@ -3210,7 +3413,31 @@
   <string name="TryAgainSeconds_two">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_few">Try again in %1$s seconds</string>
   <string name="TryAgainSeconds_many">Try again in %1$s seconds</string>
+  <string name="UnarchiveXChats_zero">Unarchive %1$s chats</string>
+  <string name="UnarchiveXChats_two">Unarchive %1$s chats</string>
+  <string name="UnarchiveXChats_few">Unarchive %1$s chats</string>
+  <string name="UnarchiveXChats_many">Unarchive %1$s chats</string>
+  <string name="UnarchivedXChats_zero">Unarchived %1$s chats</string>
+  <string name="UnarchivedXChats_two">Unarchived %1$s chats</string>
+  <string name="UnarchivedXChats_few">Unarchived %1$s chats</string>
+  <string name="UnarchivedXChats_many">Unarchived %1$s chats</string>
+  <string name="UnblockXUsers_zero">Unblock %1$s users</string>
+  <string name="UnblockXUsers_two">Unblock %1$s users</string>
+  <string name="UnblockXUsers_few">Unblock %1$s users</string>
+  <string name="UnblockXUsers_many">Unblock %1$s users</string>
+  <string name="UnblockedXUsers_zero">Unblocked %1$s users</string>
+  <string name="UnblockedXUsers_two">Unblocked %1$s users</string>
+  <string name="UnblockedXUsers_few">Unblocked %1$s users</string>
+  <string name="UnblockedXUsers_many">Unblocked %1$s users</string>
   <string name="UndoAllCustom">Undo all custom notification settings for all your contacts, groups and channels</string>
+  <string name="UnmutedXChats_zero">Unmuted %1$s chats</string>
+  <string name="UnmutedXChats_two">Unmuted %1$s chats</string>
+  <string name="UnmutedXChats_few">Unmuted %1$s chats</string>
+  <string name="UnmutedXChats_many">Unmuted %1$s chats</string>
+  <string name="UnpinXChats_zero">Unpin %1$s chats</string>
+  <string name="UnpinXChats_two">Unpin %1$s chats</string>
+  <string name="UnpinXChats_few">Unpin %1$s chats</string>
+  <string name="UnpinXChats_many">Unpin %1$s chats</string>
   <string name="ViewXPollResults_zero">View %1$s Results</string>
   <string name="ViewXPollResults_two">View %1$s Results</string>
   <string name="ViewXPollResults_few">View %1$s Results</string>

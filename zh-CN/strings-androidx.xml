@@ -1012,6 +1012,8 @@
   <string name="NotificationsCustomize">自定义</string>
   <string name="MuteNotifications">暂停消息通知</string>
   <string name="EnableNotifications">启用消息通知</string>
+  
+  
   <string name="CustomNotificationsHint">这些设置会覆盖在 设置&#160;-&#160;通知 中的全局设置。</string>
   <string name="CustomNotifications">自定义通知</string>
   <string name="Send">发送</string>
@@ -1111,8 +1113,8 @@
   <string name="VoipEndCall">结束通话</string>
   <string name="HangUp">挂断电话</string>
   <string name="ChatQuickActions">划动操作</string>
-  
-  
+  <string name="LoopAnimatedStickers">循环播放动态贴纸</string>
+  <string name="AnimatedEmoji">动态 Emoji</string>
   <string name="Duration">持续时间</string>
   <string name="VoipRateCallAlert">请评价此次 Telegram Call 的质量</string>
   <string name="VoipFeedbackCommentHint">附加说明</string>
@@ -1778,6 +1780,8 @@
   <string name="PrivacyP2PEverybody">启用</string>
   <string name="PrivacyP2PEverybodyExcept">已启用 (%1$s)</string>
   <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
+  
+  
   <string name="NotificationsDefault">使用全局设置（%1$s）</string>
   <string name="NotificationsDefaultEnabled">启用</string>
   <string name="NotificationsDefaultUnmutesIn">%1$s 后解除静音</string>
@@ -1893,6 +1897,7 @@
   <string name="TabMembers">成员</string>
   <string name="TabMessages">消息</string>
   <string name="MoreMessageOptions">更多</string>
+  
   <string name="MessagePin">置顶</string>
   <string name="MessageUnpin">取消置顶</string>
   <string name="MessageReport">举报消息</string>
@@ -2590,6 +2595,8 @@
   <string name="ReadAllChatsInfo">您确定要将所有会话和提及标为已读?</string>
   
   <string name="ReadAllChatsDone_other">已将 %1$s 个会话标为已读</string>
+  
+  
 
   <string name="PhoneNumberUnknown">未知</string>
 
@@ -2882,6 +2889,94 @@
   <string name="PollSettingQuizInfo">测验模式中只有一个正确答案。一旦作答将无法撤销。</string>
 
   
+  
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
   
   
 
