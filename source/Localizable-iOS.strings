@@ -4443,7 +4443,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Channel.OwnershipTransfer.TransferCompleted" = "**%1$@** is now the owner of **%2$@**";
 
-"Contacts.AddPeopleNearby" = "Add People Nearby";
+"Contacts.AddPeopleNearby" = "Find People Nearby";
 
 "PeopleNearby.Title" = "People Nearby";
 "PeopleNearby.Description" = "Ask your friend nearby to open this page to exchange phone numbers.";

@@ -1313,9 +1313,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_last#other" = "{chats} 和更多 {count} 个对话";
 
 "lng_dialogs_text_with_from" = "{from_part} {message}";
-"lng_dialogs_text_from_wrapped" = "{from}:";
-"lng_dialogs_text_media" = "{media_part} {caption}";
-"lng_dialogs_text_media_wrapped" = "{media},";
+"lng_dialogs_text_from_wrapped" = "{from}：";
+"lng_dialogs_text_media" = "{media_part}{caption}";
+"lng_dialogs_text_media_wrapped" = "{media}，";
 "lng_dialogs_show_all_chats" = "显示所有对话";
 "lng_dialogs_hide_muted_chats" = "隐藏已静音对话";
 "lng_dialogs_skip_archive_in_search" = "隐藏已归档的搜索结果";
@@ -2334,7 +2334,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_group_migrate" = "此群组已升级为超级群组";
 "lng_archived_chats#other" = "{count} 个对话";
 "lng_archived_unread#other" = "{chat}, {second_chat} 和更多 {count} 个未读对话";
-"lng_archived_unread_two" = "{chat}, {second_chat}";
+"lng_archived_unread_two" = "{chat}，{second_chat}";
 "lng_banned_list_title" = "被封禁的用户";
 "lng_blocked_list_restart" = "重新启用";
 "lng_change_phone_description" = "您可以在此更改您注册 Telegram 的手机号码。\n您的帐户和所有的云端数据——消息，媒体，联系人等\n将会被迁移到新的手机号码。\n\n[b]注意[/b]：如果您的 Telegram 联系人有您的旧号码，\n并且您没有在 Telegram 里屏蔽他们，\n您的[b]新号码[/b]将被添加到他们的通讯录里。";
