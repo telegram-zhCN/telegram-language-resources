@@ -795,7 +795,7 @@
     <string name="YouLeft">您已经退出此群组</string>
     <string name="DeleteThisGroup">删除群组记录</string>
     <string name="DeleteThisChat">删除此对话</string>
-    <string name="DeleteTheseChats">Delete chats</string>
+    <string name="DeleteTheseChats">删除对话</string>
     <string name="SlideToCancel">滑动以取消</string>
     <string name="SaveToDownloads">保存到下载</string>
     <string name="SaveToGIFs">保存到 GIF 库</string>
