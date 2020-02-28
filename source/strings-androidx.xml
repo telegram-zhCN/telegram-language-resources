@@ -2938,6 +2938,8 @@
   <string name="MutedXChats_one">Muted %1$s chat</string>
   <string name="MutedXChats_other">Muted %1$s chats</string>
 
+  <string name="ClearingXChats_one">Clearing media in %1$s chat… This operation may take some time, please wait.</string>
+  <string name="ClearingXChats_other">Clearing media in %1$s chats… This operation may take some time, please wait.</string>
   <string name="ClearXChats_one">Clear media in %1$s chat? You will need to download media again.</string>
   <string name="ClearXChats_other">Clear media in %1$s chats? You will need to download media again.</string>
   <string name="ClearedXChats_one">Cleared media for %1$s chat</string>
@@ -2983,6 +2985,28 @@
   <string name="NoUndoWarn">This action cannot be undone.</string>
 
   <string name="ClearHistoryBtn">Clear</string>
+
+  <string name="format_notificationGroupSender">%1$s @ %2$s</string>
+
+  <string name="HoldToSilentBroadcast">Hold to broadcast without sound and more.</string>
+  <string name="HoldToSilentMessage">Hold to send without sound and more.</string>
+
+  <string name="SendSchedule">Schedule message</string>
+  <string name="SendNoSound">Send without sound</string>
+  <string name="SendNoMarkdown">Send without markdown</string>
+  <string name="SendOnceOnline">Send once online</string>
+  <string name="SendReminder">Set a Reminder</string>
+  <string name="SaveNoMarkdown">Save without markdown</string>
+
+  <string name="SendInXMinutes_one">Send in %1$s minute</string>
+  <string name="SendInXMinutes_other">Send in %1$s minutes</string>
+  <string name="SendInXHours_one">Send in %1$s hour</string>
+  <string name="SendInXHours_other">Send in %1$s hours</string>
+  <string name="SendAtCustomTime">Send at specific date…</string>
+
+  <string name="format_sendTodayAt">%1$s (%2$s)</string>
+  <string name="format_sendTomorrowAt">%1$s (tomorrow at %2$s)</string>
+  <string name="ScheduledMessages">Scheduled Messages</string>
 
   
   
@@ -3114,6 +3138,10 @@
   <string name="ClearedXHistories_two">Cleared %1$s histories</string>
   <string name="ClearedXHistories_few">Cleared %1$s histories</string>
   <string name="ClearedXHistories_many">Cleared %1$s histories</string>
+  <string name="ClearingXChats_zero">Clearing media in %1$s chats… This operation may take some time, please wait.</string>
+  <string name="ClearingXChats_two">Clearing media in %1$s chats… This operation may take some time, please wait.</string>
+  <string name="ClearingXChats_few">Clearing media in %1$s chats… This operation may take some time, please wait.</string>
+  <string name="ClearingXChats_many">Clearing media in %1$s chats… This operation may take some time, please wait.</string>
   <string name="ClosingXSecretChats_zero">%1$s secret chats will be cancelled</string>
   <string name="ClosingXSecretChats_two">%1$s secret chats will be cancelled</string>
   <string name="ClosingXSecretChats_few">%1$s secret chats will be cancelled</string>
@@ -3356,6 +3384,14 @@
   <string name="SelectedVoiceSuffix_two">" messages"</string>
   <string name="SelectedVoiceSuffix_few">" messages"</string>
   <string name="SelectedVoiceSuffix_many">" messages"</string>
+  <string name="SendInXHours_zero">Send in %1$s hours</string>
+  <string name="SendInXHours_two">Send in %1$s hours</string>
+  <string name="SendInXHours_few">Send in %1$s hours</string>
+  <string name="SendInXHours_many">Send in %1$s hours</string>
+  <string name="SendInXMinutes_zero">Send in %1$s minutes</string>
+  <string name="SendInXMinutes_two">Send in %1$s minutes</string>
+  <string name="SendInXMinutes_few">Send in %1$s minutes</string>
+  <string name="SendInXMinutes_many">Send in %1$s minutes</string>
   <string name="SetAdminsAll">All Members Are Admins</string>
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="ShareTitleAudioX_zero">Share %1$s audios to…</string>
