@@ -2728,6 +2728,11 @@
 
   <string name="format_notificationSilentTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentText">&#128277; %1$s</string>
+
+  <string name="Reminder">&#128197; Reminder</string>
+
+  <string name="format_notificationScheduledTitle">&#128197; Scheduled message for %1$s</string>
+  <string name="format_notificationScheduledText">&#128197; %1$s</string>
   <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
 
@@ -3004,9 +3009,29 @@
   <string name="SendInXHours_other">Send in %1$s hours</string>
   <string name="SendAtCustomTime">Send at specific date…</string>
 
+  <string name="RemindInXMinutes_one">Remind in %1$s minute</string>
+  <string name="RemindInXMinutes_other">Remind in %1$s minutes</string>
+  <string name="RemindInXHours_one">Remind in %1$s hour</string>
+  <string name="RemindInXHours_other">Remind in %1$s hours</string>
+  <string name="RemindAtCustomTime">Remind at specific date…</string>
+
   <string name="format_sendTodayAt">%1$s (%2$s)</string>
   <string name="format_sendTomorrowAt">%1$s (tomorrow at %2$s)</string>
   <string name="ScheduledMessages">Scheduled Messages</string>
+
+  <string name="ScheduledUntilOnline">Scheduled until online</string>
+  <string name="ScheduledToday">Scheduled for today</string>
+  <string name="ScheduledTomorrow">Scheduled for tomorrow</string>
+  <string name="ScheduledDate">Scheduled for %1$s</string>
+
+  <string name="SendNow">Send Now</string>
+  <string name="Reschedule">Reschedule</string>
+  <string name="ErrorScheduled">This action will become available after the message is published.</string>
+  <string name="SendXMessagesNow_one">Send %1$s message?</string>
+  <string name="SendXMessagesNow_other">Send %1$s messages?</string>
+  <string name="Reminders">Reminders</string>
+
+  <string name="SendAndOpen">Send and open chat</string>
 
   
   
@@ -3314,6 +3339,14 @@
   <string name="ReadAllChatsDone_few">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_many">Marked %1$s chats as read</string>
   <string name="Region">Region</string>
+  <string name="RemindInXHours_zero">Remind in %1$s hours</string>
+  <string name="RemindInXHours_two">Remind in %1$s hours</string>
+  <string name="RemindInXHours_few">Remind in %1$s hours</string>
+  <string name="RemindInXHours_many">Remind in %1$s hours</string>
+  <string name="RemindInXMinutes_zero">Remind in %1$s minutes</string>
+  <string name="RemindInXMinutes_two">Remind in %1$s minutes</string>
+  <string name="RemindInXMinutes_few">Remind in %1$s minutes</string>
+  <string name="RemindInXMinutes_many">Remind in %1$s minutes</string>
   <string name="RemoveAccountHint">Sign out as %1$s? All secret chats on this account will be lost.</string>
   <string name="RemoveXMasks_zero">Remove %1$s masks</string>
   <string name="RemoveXMasks_two">Remove %1$s masks</string>
@@ -3392,6 +3425,10 @@
   <string name="SendInXMinutes_two">Send in %1$s minutes</string>
   <string name="SendInXMinutes_few">Send in %1$s minutes</string>
   <string name="SendInXMinutes_many">Send in %1$s minutes</string>
+  <string name="SendXMessagesNow_zero">Send %1$s messages?</string>
+  <string name="SendXMessagesNow_two">Send %1$s messages?</string>
+  <string name="SendXMessagesNow_few">Send %1$s messages?</string>
+  <string name="SendXMessagesNow_many">Send %1$s messages?</string>
   <string name="SetAdminsAll">All Members Are Admins</string>
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="ShareTitleAudioX_zero">Share %1$s audios to…</string>
