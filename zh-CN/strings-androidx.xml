@@ -468,7 +468,14 @@
   <string name="ActionChannelChangedTitleTo">频道被重命名为 «%1$s»</string>
   <string name="ActionChannelChangedPhoto">频道头像已更换</string>
   <string name="DeleteMessage">删除消息</string>
-  <string name="DeleteMessages">删除消息</string>
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="NoMessages">这里暂时还没有消息...</string>
   <string name="LoadingMessages">正在读取消息...</string>
   <string name="LoadingMessage">正在读取消息...</string>
@@ -2733,6 +2740,8 @@
 
   
   
+  
+  
   <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
 
@@ -2995,20 +3004,10 @@
 
   
   
-
-  
-  
-  
-  
   
   
 
   
-  
-  
-  
-  
-
   
   
   
@@ -3018,6 +3017,18 @@
   
   
   
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
 
   
   
@@ -3028,6 +3039,9 @@
   
   
   
+  
+  
+
   
   
 
@@ -3073,6 +3087,7 @@
   <string name="ConvertGroup">升级为超级群组</string>
   <string name="CountryNotFound">国家代码无法识别</string>
   <string name="DataUsage">存储和网络使用情况</string>
+  <string name="DeleteMessages">删除消息</string>
   <string name="EventNewContact">新联系人加入</string>
   <string name="Events">事件</string>
   <string name="GroupConvertHint">**成员数已达到 %1$s 人上限。**\n升级到 **超级群组** 来增加成员上限并获得更多功能。\n在超级群组中：\n\n• 超级群组可以提升至高达 **%2$s** 人的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>

@@ -1171,7 +1171,7 @@
     <string name="BlockContact">屏蔽用户</string>
     <string name="BlockUser">屏蔽用户</string>
     <string name="BlockUsers">屏蔽用户</string>
-    <string name="BlockUserMessage">Do you want to block **%1$s** from messaging and calling you on Telegram?</string>
+    <string name="BlockUserMessage">你是否想要阻止 **%1$s** 在Telegram上给你发消息和打电话？</string>
     <string name="BlockUsersMessage">Do you want to block **%1$s** from messaging and calling you on Telegram?</string>
     <string name="UserBlocked">用户已屏蔽</string>
     <string name="UserUnblocked">用户已取消屏蔽</string>

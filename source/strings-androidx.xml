@@ -468,7 +468,14 @@
   <string name="ActionChannelChangedTitleTo">Channel renamed to «%1$s»</string>
   <string name="ActionChannelChangedPhoto">Channel photo changed</string>
   <string name="DeleteMessage">Delete message</string>
-  <string name="DeleteMessages">Delete messages</string>
+  <string name="DeleteScheduled">Delete scheduled message</string>
+  <string name="DeleteReminder">Delete reminder</string>
+  <string name="DeleteXScheduled_one">Delete %1$s scheduled message</string>
+  <string name="DeleteXScheduled_other">Delete %1$s scheduled messages</string>
+  <string name="DeleteXReminders_one">Delete %1$s reminder</string>
+  <string name="DeleteXReminders_other">Delete %1$s reminders</string>
+  <string name="DeleteXMessages_one">Delete %1$s message</string>
+  <string name="DeleteXMessages_other">Delete %1$s messages</string>
   <string name="NoMessages">No messages here yet…</string>
   <string name="LoadingMessages">Loading messages…</string>
   <string name="LoadingMessage">Loading message…</string>
@@ -2731,7 +2738,9 @@
 
   <string name="Reminder">&#128197; Reminder</string>
 
-  <string name="format_notificationScheduledTitle">&#128197; Scheduled message for %1$s</string>
+  <string name="format_notificationScheduledPrivate">&#128197; Scheduled message for %1$s</string>
+  <string name="format_notificationScheduledGroup">&#128197; Scheduled message for %1$s</string>
+  <string name="format_notificationScheduledChannel">&#128197; Scheduled message posted in %1$s</string>
   <string name="format_notificationScheduledText">&#128197; %1$s</string>
   <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
@@ -2993,8 +3002,10 @@
 
   <string name="format_notificationGroupSender">%1$s @ %2$s</string>
 
-  <string name="HoldToSilentBroadcast">Hold to broadcast without sound and more.</string>
-  <string name="HoldToSilentMessage">Hold to send without sound and more.</string>
+  
+  
+  <string name="HoldToSilentBroadcast">Hold for silent broadcast and more.</string>
+  
 
   <string name="SendSchedule">Schedule message</string>
   <string name="SendNoSound">Send without sound</string>
@@ -3030,6 +3041,9 @@
   <string name="SendXMessagesNow_one">Send %1$s message?</string>
   <string name="SendXMessagesNow_other">Send %1$s messages?</string>
   <string name="Reminders">Reminders</string>
+
+  
+  
 
   <string name="SendAndOpen">Send and open chat</string>
 
@@ -3200,6 +3214,7 @@
   <string name="DeleteAccountIfAwayForYears_two">%1$s years</string>
   <string name="DeleteAccountIfAwayForYears_few">%1$s years</string>
   <string name="DeleteAccountIfAwayForYears_many">%1$s years</string>
+  <string name="DeleteMessages">Delete messages</string>
   <string name="DeleteXChats_zero">Delete %1$s chats</string>
   <string name="DeleteXChats_two">Delete %1$s chats</string>
   <string name="DeleteXChats_few">Delete %1$s chats</string>
@@ -3216,6 +3231,18 @@
   <string name="DeleteXForUser_two">Delete %1$s messages for %2$s</string>
   <string name="DeleteXForUser_few">Delete %1$s messages for %2$s</string>
   <string name="DeleteXForUser_many">Delete %1$s messages for %2$s</string>
+  <string name="DeleteXMessages_zero">Delete %1$s messages</string>
+  <string name="DeleteXMessages_two">Delete %1$s messages</string>
+  <string name="DeleteXMessages_few">Delete %1$s messages</string>
+  <string name="DeleteXMessages_many">Delete %1$s messages</string>
+  <string name="DeleteXReminders_zero">Delete %1$s reminders</string>
+  <string name="DeleteXReminders_two">Delete %1$s reminders</string>
+  <string name="DeleteXReminders_few">Delete %1$s reminders</string>
+  <string name="DeleteXReminders_many">Delete %1$s reminders</string>
+  <string name="DeleteXScheduled_zero">Delete %1$s scheduled messages</string>
+  <string name="DeleteXScheduled_two">Delete %1$s scheduled messages</string>
+  <string name="DeleteXScheduled_few">Delete %1$s scheduled messages</string>
+  <string name="DeleteXScheduled_many">Delete %1$s scheduled messages</string>
   <string name="DeletedXChats_zero">Deleted %1$s chats</string>
   <string name="DeletedXChats_two">Deleted %1$s chats</string>
   <string name="DeletedXChats_few">Deleted %1$s chats</string>
