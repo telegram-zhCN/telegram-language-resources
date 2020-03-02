@@ -2938,10 +2938,14 @@
   <string name="BlockXUsers_other">Block %1$s users</string>
   <string name="BlockedXUsers_one">Blocked %1$s user</string>
   <string name="BlockedXUsers_other">Blocked %1$s users</string>
-  <string name="UnblockXUsers_one">Unblock %1$s user</string>
-  <string name="UnblockXUsers_other">Unblock %1$s users</string>
   <string name="UnblockedXUsers_one">Unblocked %1$s user</string>
   <string name="UnblockedXUsers_other">Unblocked %1$s users</string>
+  <string name="BlockXBots_one">Block %1$s bot</string>
+  <string name="BlockXBots_other">Block %1$s bots</string>
+  <string name="BlockedXBots_one">Blocked %1$s bot</string>
+  <string name="BlockedXBots_other">Blocked %1$s bots</string>
+  <string name="UnblockedXBots_one">Unblocked %1$s bot</string>
+  <string name="UnblockedXBots_other">Unblocked %1$s bots</string>
 
   <string name="UnmutedXChats_one">Unmuted %1$s chat</string>
   <string name="UnmutedXChats_other">Unmuted %1$s chats</string>
@@ -2958,6 +2962,10 @@
   <string name="ClearXChats_other">Clear media in %1$s chats? You will need to download media again.</string>
   <string name="ClearedXChats_one">Cleared media for %1$s chat</string>
   <string name="ClearedXChats_other">Cleared media for %1$s chats</string>
+  <string name="ClearedSizeChats_one">Cleared %2$s in %1$s chat</string>
+  <string name="ClearedSizeChats_other">Cleared %2$s in %1$s chats</string>
+  <string name="ClearedNoneChats_one">No media to clear in %1$s chat</string>
+  <string name="ClearedNoneChats_other">No media to clear in %1$s chats</string>
 
   <string name="SelectMore">Select…</string>
   <string name="SelectAll">Select All</string>
@@ -3002,10 +3010,10 @@
 
   <string name="format_notificationGroupSender">%1$s @ %2$s</string>
 
-  
-  
+  <string name="HoldToRemind">Hold to create a reminder.</string>
+  <string name="HoldToSchedule">Hold to send at specific date and other options.</string>
   <string name="HoldToSilentBroadcast">Hold for silent broadcast and more.</string>
-  
+  <string name="HoldToSchedule2">Hold to send once %1$s goes online and other options.</string>
 
   <string name="SendSchedule">Schedule message</string>
   <string name="SendNoSound">Send without sound</string>
@@ -3042,10 +3050,18 @@
   <string name="SendXMessagesNow_other">Send %1$s messages?</string>
   <string name="Reminders">Reminders</string>
 
-  
-  
+  <string name="EventScheduledMessage">Sent Scheduled Messages</string>
+  <string name="EventScheduledMessageDesc">Receive notification when one of your scheduled messages gets sent to the chat with enabled notifications.</string>
+
+  <string name="RemindTodayAt">Remind today at %1$s</string>
+  <string name="RemindTomorrowAt">Remind tomorrow at %1$s</string>
+  <string name="RemindDateAt">Remind %1$s at %2$s</string>
+  <string name="SendTodayAt">Send today at %1$s</string>
+  <string name="SendTomorrowAt">Send tomorrow at %1$s</string>
+  <string name="SendDateAt">Send %1$s at %2$s</string>
 
   <string name="SendAndOpen">Send and open chat</string>
+  <string name="Tomorrow">Tomorrow</string>
 
   
   
@@ -3127,10 +3143,18 @@
   <string name="AttachVideosSuffix_few">" videos"</string>
   <string name="AttachVideosSuffix_many">" videos"</string>
   <string name="BadgeCounterSetting">App Icon Badge</string>
+  <string name="BlockXBots_zero">Block %1$s bots</string>
+  <string name="BlockXBots_two">Block %1$s bots</string>
+  <string name="BlockXBots_few">Block %1$s bots</string>
+  <string name="BlockXBots_many">Block %1$s bots</string>
   <string name="BlockXUsers_zero">Block %1$s users</string>
   <string name="BlockXUsers_two">Block %1$s users</string>
   <string name="BlockXUsers_few">Block %1$s users</string>
   <string name="BlockXUsers_many">Block %1$s users</string>
+  <string name="BlockedXBots_zero">Blocked %1$s bots</string>
+  <string name="BlockedXBots_two">Blocked %1$s bots</string>
+  <string name="BlockedXBots_few">Blocked %1$s bots</string>
+  <string name="BlockedXBots_many">Blocked %1$s bots</string>
   <string name="BlockedXUsers_zero">Blocked %1$s users</string>
   <string name="BlockedXUsers_two">Blocked %1$s users</string>
   <string name="BlockedXUsers_few">Blocked %1$s users</string>
@@ -3169,6 +3193,14 @@
   <string name="ClearXHistoriesConfirm_two">Are you sure you want to clear history in %1$s chats?</string>
   <string name="ClearXHistoriesConfirm_few">Are you sure you want to clear history in %1$s chats?</string>
   <string name="ClearXHistoriesConfirm_many">Are you sure you want to clear history in %1$s chats?</string>
+  <string name="ClearedNoneChats_zero">No media to clear in %1$s chats</string>
+  <string name="ClearedNoneChats_two">No media to clear in %1$s chats</string>
+  <string name="ClearedNoneChats_few">No media to clear in %1$s chats</string>
+  <string name="ClearedNoneChats_many">No media to clear in %1$s chats</string>
+  <string name="ClearedSizeChats_zero">Cleared %2$s in %1$s chats</string>
+  <string name="ClearedSizeChats_two">Cleared %2$s in %1$s chats</string>
+  <string name="ClearedSizeChats_few">Cleared %2$s in %1$s chats</string>
+  <string name="ClearedSizeChats_many">Cleared %2$s in %1$s chats</string>
   <string name="ClearedXChats_zero">Cleared media for %1$s chats</string>
   <string name="ClearedXChats_two">Cleared media for %1$s chats</string>
   <string name="ClearedXChats_few">Cleared media for %1$s chats</string>
@@ -3522,9 +3554,15 @@
   <string name="UnarchivedXChats_few">Unarchived %1$s chats</string>
   <string name="UnarchivedXChats_many">Unarchived %1$s chats</string>
   <string name="UnblockXUsers_zero">Unblock %1$s users</string>
+  <string name="UnblockXUsers_one">Unblock %1$s user</string>
   <string name="UnblockXUsers_two">Unblock %1$s users</string>
   <string name="UnblockXUsers_few">Unblock %1$s users</string>
   <string name="UnblockXUsers_many">Unblock %1$s users</string>
+  <string name="UnblockXUsers_other">Unblock %1$s users</string>
+  <string name="UnblockedXBots_zero">Unblocked %1$s bots</string>
+  <string name="UnblockedXBots_two">Unblocked %1$s bots</string>
+  <string name="UnblockedXBots_few">Unblocked %1$s bots</string>
+  <string name="UnblockedXBots_many">Unblocked %1$s bots</string>
   <string name="UnblockedXUsers_zero">Unblocked %1$s users</string>
   <string name="UnblockedXUsers_two">Unblocked %1$s users</string>
   <string name="UnblockedXUsers_few">Unblocked %1$s users</string>
