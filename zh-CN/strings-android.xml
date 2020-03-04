@@ -530,7 +530,7 @@
     <string name="Question">问题</string>
     <string name="QuestionHint">请输入问题</string>
     <string name="PollOptions">候选项</string>
-    <string name="QuizAnswers">Quiz answers</string>
+    <string name="QuizAnswers">问卷答案</string>
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
     <string name="PollQuiz">小测验模式</string>
@@ -1063,7 +1063,7 @@
     <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
     <string name="NotificationActionPinnedPollChannel2">%1$s 置顶了一项投票 %2$s</string>
-    <string name="NotificationActionPinnedQuizChannel2">%1$s pinned the quiz \"%2$s\"</string>
+    <string name="NotificationActionPinnedQuizChannel2">%1$s 置顶了问卷 \"%2$s\"</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGameChannel">%1$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedGameScoreChannel">%1$s 置顶了一项游戏成绩</string>
@@ -2127,7 +2127,7 @@
     <string name="MakeMyselfVisible">使我对外可见</string>
     <string name="MakeMyselfVisibleTitle">Show Your Profile?</string>
     <string name="MakeMyselfVisibleInfo">Users nearby will be able to view your profile and send you messages. This may help you find new friends, but could also attract excessive attention. You can stop sharing your profile at any time.\n\nYour phone number will remain hidden.</string>
-    <string name="StopShowingMe">Stop Showing Me</string>
+    <string name="StopShowingMe">停止可见我</string>
     <string name="PeopleNearby">附近的人</string>
     <string name="AddPeopleNearby">添加附近的人</string>
     <string name="PeopleNearbyAccessInfo">快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置访问权限以启用此功能。</string>
@@ -2526,7 +2526,7 @@
     <string name="InactiveChannelSignature">channel, inactive for %1$s</string>
     <string name="InactiveChatSignature">%1$s, inactive for %2$s</string>
     <string name="LeaveChats">退出 %1$s</string>
-    <string name="TooManyCommunities">Too Many Communities</string>
+    <string name="TooManyCommunities">社区太多</string>
     <string name="TooManyCommunitiesHintJoin">抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。</string>
     <string name="TooManyCommunitiesHintCreate">抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。</string>
     <string name="TooManyCommunitiesHintEdit">抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。</string>
