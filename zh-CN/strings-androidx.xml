@@ -861,6 +861,7 @@
   <string name="PinNotify">通知所有成员</string>
   <string name="ActionPinnedText">%1$s 置顶了 “%2$s”</string>
   <string name="ActionPinnedGame">%1$s 置顶了 %2$s</string>
+  
   <string name="ActionPinnedNoText">%1$s 置顶了一条**消息**</string>
   <string name="ActionPinnedGeo">%1$s 置顶了一个**位置**</string>
   <string name="ActionPinnedPoll">%1$s 置顶了一项**投票**</string>
@@ -1005,6 +1006,7 @@
   <string name="KeepMediaForever">永久</string>
   <string name="UserRestrictionsUntilForever">永久</string>
   <string name="ClearCacheHint">该操作可能需要持续几分钟</string>
+  
   <string name="KeepMediaInfo">为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。</string>
   <string name="LocalDatabase">本地数据库</string>
   <string name="FeatureUnavailableSorry">抱歉</string>
@@ -1199,7 +1201,6 @@
   <string name="CopiedCashtag">已将此标签复制到剪贴板</string>
   <string name="InviteFriends">邀请朋友</string>
   <string name="InviteText">嘿！和我一起用 %1$s 吧：\n%2$s</string>
-  <string name="ShowForwardOptions">显示转发选项</string>
   <string name="OpenProfile">查看个人信息</string>
   <string name="OpenChannel">查看频道</string>
   <string name="OpenGroup">查看群组</string>
@@ -1904,6 +1905,7 @@
   <string name="TabMembers">成员</string>
   <string name="TabMessages">消息</string>
   <string name="MoreMessageOptions">更多</string>
+  
   
   <string name="MessagePin">置顶</string>
   <string name="MessageUnpin">取消置顶</string>
@@ -3062,6 +3064,10 @@
 
   
   
+  
+  
+
+  
 
   
   
@@ -3144,6 +3150,7 @@
   <string name="SetAdminsAll">将所有成员都设为管理员</string>
   <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>
   <string name="ShareTitleMessage">分享消息到...</string>
+  <string name="ShowForwardOptions">显示转发选项</string>
   <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
   <string name="SignOutHint">您确定要退出 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，这将会清除所有的加密聊天记录。</string>
   <string name="UndoAllCustom">撤销所有对联系人、群组和频道的通知设置更改</string>

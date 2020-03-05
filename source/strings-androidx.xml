@@ -861,6 +861,7 @@
   <string name="PinNotify">Notify all members</string>
   <string name="ActionPinnedText">%1$s pinned \"%2$s\"</string>
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
+  <string name="ActionPinnedGameNoName">%1$s pinned **game**</string>
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
   <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
   <string name="ActionPinnedPoll">%1$s pinned a **poll**</string>
@@ -1005,6 +1006,7 @@
   <string name="KeepMediaForever">Forever</string>
   <string name="UserRestrictionsUntilForever">Forever</string>
   <string name="ClearCacheHint">This operation may take a few minutes to complete</string>
+  <string name="ClearCacheHint2">Calculating storage usage by chat… This operation may take a few minutes to complete</string>
   <string name="KeepMediaInfo">Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
   <string name="LocalDatabase">Local Database</string>
   <string name="FeatureUnavailableSorry">Sorry</string>
@@ -1199,7 +1201,6 @@
   <string name="CopiedCashtag">Cashtag has been copied to the clipboard</string>
   <string name="InviteFriends">Invite Friends</string>
   <string name="InviteText">Hey, let\'s switch to %1$s:\n%2$s</string>
-  <string name="ShowForwardOptions">Show forwarding options</string>
   <string name="OpenProfile">View Profile</string>
   <string name="OpenChannel">View Channel</string>
   <string name="OpenGroup">View Group</string>
@@ -1905,6 +1906,7 @@
   <string name="TabMessages">Messages</string>
   <string name="MoreMessageOptions">More</string>
   <string name="MoreChatOptions">More</string>
+  <string name="MoreForwardOptions">More options…</string>
   <string name="MessagePin">Pin</string>
   <string name="MessageUnpin">Unpin</string>
   <string name="MessageReport">Report message</string>
@@ -3062,6 +3064,10 @@
 
   <string name="SendAndOpen">Send and open chat</string>
   <string name="Tomorrow">Tomorrow</string>
+  <string name="format_dateTime">%1$s at %2$s</string>
+  <string name="ScheduledMessage">Scheduled Message</string>
+
+  <string name="Reference">Reference</string>
 
   
   
@@ -3523,6 +3529,7 @@
   <string name="SharingWithXChats_two">sharing with %1$s chats</string>
   <string name="SharingWithXChats_few">sharing with %1$s chats</string>
   <string name="SharingWithXChats_many">sharing with %1$s chats</string>
+  <string name="ShowForwardOptions">Show forwarding options</string>
   <string name="SignOutAltHint">Remember, logging out kills all your Secret Chats.</string>
   <string name="SignOutHint">Are you sure you want to log out as %1$s?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.</string>
   <string name="SuggestInvitingUserCommon_zero">%2$s is not on Telegram yet. Would you like to invite them via SMS? They may have up to %1$s contacts on Telegram.</string>

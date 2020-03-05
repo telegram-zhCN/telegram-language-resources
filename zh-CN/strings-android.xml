@@ -538,7 +538,7 @@
     <string name="PollCollapse">收起</string>
     <string name="PollExpand">展开</string>
     <string name="PublicPollCantForward">Sorry, polls with visible votes can’t be forwarded to channels.</string>
-    <string name="PollCantForwardSecretChat">Sorry, polls can’t be forwarded to secret chats.</string>
+    <string name="PollCantForwardSecretChat">抱歉无法</string>
     <string name="PollMultiple">可多选</string>
     <string name="PollTapToSelect">点按选择正确答案</string>
     <string name="QuizInfo">测验模式中只有一个正确答案。一旦作答将无法撤销。</string>
@@ -963,7 +963,7 @@
     <string name="OneResult">1 结果</string>
     <string name="VideoQualityIsTooLow">视频质量太低，无法更改压缩设置。</string>
     <string name="TextSelectionHit">按住消息中的**文字**，移动光标选择完毕之后即可复制。</string>
-    <string name="CardNumberCopied">Card number copied to clipboard</string>
+    <string name="CardNumberCopied">卡号已复制到剪切板</string>
     <string name="CopyCardNumber">赋值</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
@@ -1217,7 +1217,7 @@
     <string name="SharedPhotosAndVideos">图片与视频</string>
     <string name="SharedLinks">链接</string>
     <string name="SharedAudioFiles">音乐</string>
-    <string name="SendMessageLocation">Send Message</string>
+    <string name="SendMessageLocation">发送</string>
     <string name="ReportUserLocation">举报</string>
     <!--usernames-->
     <string name="Username">用户名</string>
@@ -2125,7 +2125,7 @@
     <string name="GpsDisabledAlertTitle">启用 GPS</string>
     <string name="GpsDisabledAlertText">请打开 GPS 以使用位置服务。</string>
     <string name="MakeMyselfVisible">使我对外可见</string>
-    <string name="MakeMyselfVisibleTitle">Show Your Profile?</string>
+    <string name="MakeMyselfVisibleTitle">显示个人资料</string>
     <string name="MakeMyselfVisibleInfo">Users nearby will be able to view your profile and send you messages. This may help you find new friends, but could also attract excessive attention. You can stop sharing your profile at any time.\n\nYour phone number will remain hidden.</string>
     <string name="StopShowingMe">停止可见我</string>
     <string name="PeopleNearby">附近的人</string>
@@ -2136,7 +2136,7 @@
     <string name="PeopleNearbyGpsInfo">快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置服务以启用此功能。</string>
     <string name="PeopleNearbyGps">打开</string>
     <string name="ChatsNearbyHeader">附近的群</string>
-    <string name="PeopleNearbyInfo2">Exchange contact info with people nearby and find new friends.</string>
+    <string name="PeopleNearbyInfo2">与附近的人交换联系方式并查找新伙伴</string>
     <string name="PeopleNearbyEmpty">正在寻您你周围的用户...</string>
     <string name="NearbyCreateGroup">创建一个本地群组</string>
     <string name="NearbyStartGroup">创建群组</string>
