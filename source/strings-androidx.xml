@@ -861,7 +861,7 @@
   <string name="PinNotify">Notify all members</string>
   <string name="ActionPinnedText">%1$s pinned \"%2$s\"</string>
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
-  <string name="ActionPinnedGameNoName">%1$s pinned **game**</string>
+  <string name="ActionPinnedGameNoName">%1$s pinned a **game**</string>
   <string name="ActionPinnedNoText">%1$s pinned a **message**</string>
   <string name="ActionPinnedGeo">%1$s pinned a **location**</string>
   <string name="ActionPinnedPoll">%1$s pinned a **poll**</string>
@@ -1835,9 +1835,11 @@
   <string name="ActionRead">Mark as Read</string>
   <string name="FoundMessagesFromUser">messages from %1$s</string>
   <string name="FoundMessagesFromSelf">messages from you</string>
+  <string name="FoundMessagesFromAutoPost">messages from channels</string>
   <string name="FoundMessagesQuery">%1$s</string>
   <string name="ViewMessagesFromYou">Messages from you</string>
   <string name="ViewMessagesFromUser">Messages from %1$s</string>
+  <string name="ViewMessagesFromAutoPost">Messages from channels</string>
   <string name="BotDeleteHint">Remove bot from suggestions?</string>
   <string name="BotHelp">Help</string>
   <string name="BotSettings">Settings</string>
@@ -3068,6 +3070,9 @@
   <string name="ScheduledMessage">Scheduled Message</string>
 
   <string name="Reference">Reference</string>
+  <string name="SendAsFile">Send as file</string>
+  <string name="SendAsXFiles_one">Send as %1$s file</string>
+  <string name="SendAsXFiles_other">Send as %1$s files</string>
 
   
   
@@ -3482,6 +3487,10 @@
   <string name="SelectedVoiceSuffix_two">" messages"</string>
   <string name="SelectedVoiceSuffix_few">" messages"</string>
   <string name="SelectedVoiceSuffix_many">" messages"</string>
+  <string name="SendAsXFiles_zero">Send as %1$s files</string>
+  <string name="SendAsXFiles_two">Send as %1$s files</string>
+  <string name="SendAsXFiles_few">Send as %1$s files</string>
+  <string name="SendAsXFiles_many">Send as %1$s files</string>
   <string name="SendInXHours_zero">Send in %1$s hours</string>
   <string name="SendInXHours_two">Send in %1$s hours</string>
   <string name="SendInXHours_few">Send in %1$s hours</string>
