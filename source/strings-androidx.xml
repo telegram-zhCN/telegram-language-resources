@@ -3069,6 +3069,14 @@
   <string name="format_dateTime">%1$s at %2$s</string>
   <string name="ScheduledMessage">Scheduled Message</string>
 
+  <string name="BlockUntilToday">Block until today at %1$s</string>
+  <string name="BlockUntilTomorrow">Block until tomorrow at %1$s</string>
+  <string name="BlockUntilFuture">Block until %1$s at %2$s</string>
+
+  <string name="RestrictUntilToday">Restrict until today at %1$s</string>
+  <string name="RestrictUntilTomorrow">Restrict until tomorrow at %1$s</string>
+  <string name="RestrictUntilFuture">Restrict until %1$s at %2$s</string>
+
   <string name="Reference">Reference</string>
   <string name="SendAsFile">Send as file</string>
   <string name="SendAsXFiles_one">Send as %1$s file</string>
