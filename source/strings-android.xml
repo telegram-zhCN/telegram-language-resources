@@ -191,7 +191,7 @@
     <string name="HistoryCleared">History was cleared</string>
     <string name="ArticleByAuthor">by %1$s</string>
     <string name="ArticleDateByAuthor">%1$s by %2$s</string>
-    <string name="PreviewFeedback">Leave feedback about this preview</string>
+    <string name="PreviewFeedback">Report a bug with this preview</string>
     <string name="SendStickerPreview">Send Sticker</string>
     <string name="SendGifPreview">Send GIF</string>
     <string name="ViewPackPreview">View Pack</string>

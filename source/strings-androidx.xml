@@ -1006,7 +1006,7 @@
   <string name="KeepMediaForever">Forever</string>
   <string name="UserRestrictionsUntilForever">Forever</string>
   <string name="ClearCacheHint">This operation may take a few minutes to complete</string>
-  <string name="ClearCacheHint2">Calculating storage usage by chat… This operation may take a few minutes to complete</string>
+  <string name="ClearCacheHint2">Calculating storage usage by your chats… This operation may take a few minutes to complete</string>
   <string name="KeepMediaInfo">Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
   <string name="LocalDatabase">Local Database</string>
   <string name="FeatureUnavailableSorry">Sorry</string>
@@ -3015,14 +3015,14 @@
   <string name="format_notificationGroupSender">%1$s @ %2$s</string>
 
   <string name="HoldToRemind">Hold to create a reminder.</string>
-  <string name="HoldToSchedule">Hold to send at specific date and other options.</string>
+  <string name="HoldToSchedule">Hold to send at a specific date and other options.</string>
   <string name="HoldToSilentBroadcast">Hold for silent broadcast and more.</string>
-  <string name="HoldToSchedule2">Hold to send once %1$s goes online and other options.</string>
+  <string name="HoldToSchedule2">Hold to send when %1$s goes online and other options.</string>
 
   <string name="SendSchedule">Schedule message</string>
   <string name="SendNoSound">Send without sound</string>
   <string name="SendNoMarkdown">Send without markdown</string>
-  <string name="SendOnceOnline">Send once online</string>
+  <string name="SendOnceOnline">Send when online</string>
   <string name="SendReminder">Set a Reminder</string>
   <string name="SaveNoMarkdown">Save without markdown</string>
 
@@ -3055,7 +3055,7 @@
   <string name="Reminders">Reminders</string>
 
   <string name="EventScheduledMessage">Sent Scheduled Messages</string>
-  <string name="EventScheduledMessageDesc">Receive notification when one of your scheduled messages gets sent to the chat with enabled notifications.</string>
+  <string name="EventScheduledMessageDesc">Receive a notification when one of your scheduled messages gets sent to a chat with enabled notifications.</string>
 
   <string name="RemindTodayAt">Remind today at %1$s</string>
   <string name="RemindTomorrowAt">Remind tomorrow at %1$s</string>
