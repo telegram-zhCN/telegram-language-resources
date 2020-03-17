@@ -1132,7 +1132,7 @@
 "PrivacySettingsController.P2p.Contacts" = "My Contacts";
 "PrivacySettingsController.P2p.Never" = "Never";
 "PrivacySettingsController.P2p.Header" = "PEER TO PEER";
-"PrivacySettingsController.P2p.Desc" = "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slighly decrease audio quality";
+"PrivacySettingsController.P2p.Desc" = "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.";
 
 
 "PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto" = "WHO CAN SEE MY PROFILE PHOTO";

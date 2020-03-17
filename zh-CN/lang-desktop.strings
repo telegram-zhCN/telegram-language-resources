@@ -423,6 +423,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
 
+
+
+
+
+
 "lng_backgrounds_header" = "选择新的聊天背景图";
 "lng_theme_sure_keep" = "保留此主题？";
 
@@ -1369,7 +1374,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_user_action_upload_file" = "{user} 正在发送文件";
 
 "lng_unread_bar#other" = "{count} 条未读消息";
-//"lng_unread_bar_some" = "Unread messages";
+
 
 "lng_maps_point" = "位置";
 "lng_save_photo" = "保存图片";
@@ -1610,6 +1615,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_formatting_link_text" = "文本";
 "lng_formatting_link_url" = "链接";
 "lng_formatting_link_create" = "创建";
+
 
 
 
@@ -2233,6 +2239,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_linux_menu_undo" = "撤销";
 "lng_linux_menu_redo" = "重做";
+
+
 
 "lng_linux_no_audio_prefs" = "您尚未安装任何音频设置应用。";
 
