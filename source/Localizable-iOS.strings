@@ -5349,7 +5349,8 @@ Any member of this group will be able to see messages in the channel.";
 "External.OpenIn" = "Open in %@";
 
 "ChatList.EmptyChatList" = "You have no\nconversations yet.";
-"ChatList.EmptyChatFilterList" = "This folder is empty.";
+"ChatList.EmptyChatListFilterTitle" = "Folder is empty.";
+"ChatList.EmptyChatListFilterText" = "No chats currently match this folder.";
 
 "ChatList.EmptyChatListNewMessage" = "New Message";
 "ChatList.EmptyChatListEditFilter" = "Edit Folder";
@@ -5386,13 +5387,13 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
+"InstantPage.Views_0" = "%@ views";
+"InstantPage.Views_1" = "%@ view";
+"InstantPage.Views_2" = "%@ views";
+"InstantPage.Views_3_10" = "%@ views";
+"InstantPage.Views_many" = "%@ views";
+"InstantPage.Views_any" = "%@ views";
+"InstantPage.FeedbackButtonShort" = "Wrong layout?";
 
 "ChatList.EditFolder" = "Edit Folder";
 "ChatList.AddChatsToFolder" = "Add Chats";
@@ -5452,6 +5453,8 @@ Any member of this group will be able to see messages in the channel.";
 "ChatListFolder.DiscardCancel" = "No";
 "ChatListFolder.IncludeChatsTitle" = "Include Chats";
 "ChatListFolder.ExcludeChatsTitle" = "Exclude Chats";
+
+"ChatListFolderSettings.AddRecommended" = "ADD";
 
 
 /* new from translations.telegram.org */
@@ -5562,6 +5565,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.DeletedChats_2" = "Deleted %@ chats";
 "ChatList.DeletedChats_3_10" = "Deleted %@ chats";
 "ChatList.DeletedChats_many" = "Deleted %@ chats";
+"ChatList.EmptyChatFilterList" = "This folder is empty.";
 "DataUpgrade.Running" = "Optimizing...";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
