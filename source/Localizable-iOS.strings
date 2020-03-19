@@ -4095,7 +4095,7 @@ Unused sets are archived when you add more.";
 
 "NotificationSettings.ShowNotificationsFromAccountsSection" = "SHOW NOTIFICATIONS FROM";
 "NotificationSettings.ShowNotificationsAllAccounts" = "All Accounts";
-"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "Turn this off if you want to receive notifications only from your active account.";
+"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "Turn this off if you want to receive notifications only from the account you are currently using.";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "Turn this on if you want to receive notifications from all your accounts.";
 
 "Gif.Search" = "Search GIFs";

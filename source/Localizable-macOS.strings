@@ -3172,7 +3172,7 @@
 
 "NotificationSettings.ShowNotificationsFrom" = "SHOW NOTIFICATIONS FROM";
 "NotificationSettings.AllAccounts" = "All Accounts";
-"NotificationSettings.ShowNotificationsFrom.On" = "Turn this off if you want to receive notifications only from your active account.";
+"NotificationSettings.ShowNotificationsFrom.On" = "Turn this off if you want to receive notifications only from the account you are currently using.";
 "NotificationSettings.ShowNotificationsFrom.Off" = "Turn this on if you want to receive notifications from all your accounts.";
 
 
