@@ -530,7 +530,7 @@
     <string name="Question">问题</string>
     <string name="QuestionHint">请输入问题</string>
     <string name="PollOptions">候选项</string>
-    <string name="QuizAnswers">问卷答案</string>
+    <string name="QuizAnswers">小测验答案</string>
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
     <string name="PollQuiz">小测验模式</string>
@@ -538,7 +538,7 @@
     <string name="PollCollapse">收起</string>
     <string name="PollExpand">展开</string>
     <string name="PublicPollCantForward">Sorry, polls with visible votes can’t be forwarded to channels.</string>
-    <string name="PollCantForwardSecretChat">抱歉无法</string>
+    <string name="PollCantForwardSecretChat">抱歉，无法将投票转发到加密对话。</string>
     <string name="PollMultiple">可多选</string>
     <string name="PollTapToSelect">点按选择正确答案</string>
     <string name="QuizInfo">测验模式中只有一个正确答案。一旦作答将无法撤销。</string>
@@ -1063,7 +1063,7 @@
     <string name="NotificationActionPinnedTextChannel">%1$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
     <string name="NotificationActionPinnedPollChannel2">%1$s 置顶了一项投票 %2$s</string>
-    <string name="NotificationActionPinnedQuizChannel2">%1$s 置顶了问卷 \"%2$s\"</string>
+    <string name="NotificationActionPinnedQuizChannel2">%1$s 置顶了小测验 \"%2$s\"</string>
     <string name="NotificationActionPinnedPhotoChannel">%1$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGameChannel">%1$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedGameScoreChannel">%1$s 置顶了一项游戏成绩</string>
@@ -1217,7 +1217,7 @@
     <string name="SharedPhotosAndVideos">图片与视频</string>
     <string name="SharedLinks">链接</string>
     <string name="SharedAudioFiles">音乐</string>
-    <string name="SendMessageLocation">发送</string>
+    <string name="SendMessageLocation">发送消息</string>
     <string name="ReportUserLocation">举报</string>
     <!--usernames-->
     <string name="Username">用户名</string>
@@ -2526,7 +2526,7 @@
     <string name="InactiveChannelSignature">channel, inactive for %1$s</string>
     <string name="InactiveChatSignature">%1$s, inactive for %2$s</string>
     <string name="LeaveChats">退出 %1$s</string>
-    <string name="TooManyCommunities">社区太多</string>
+    <string name="TooManyCommunities">群组与频道过多</string>
     <string name="TooManyCommunitiesHintJoin">抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。</string>
     <string name="TooManyCommunitiesHintCreate">抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。</string>
     <string name="TooManyCommunitiesHintEdit">抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。</string>
