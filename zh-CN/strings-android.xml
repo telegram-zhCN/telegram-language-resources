@@ -271,10 +271,6 @@
     <string name="ChannelUsernameHelp">如果您设置了永久链接，其他人将能够找到并加入您的群组。\n\n您可以使用 a-z、0-9 和下划线。\n最小长度为5个字符。</string>
     <string name="MegaUsernameHelp">如果您设置了永久链接，其他人将能够找到并加入您的群组。\n\n您可以使用 a-z、0-9 和下划线。\n最小长度为5个字符。</string>
     <string name="ChannelVerifiedWarning">Warning</string>
-    <string name="ChannelVerifiedNameChange">If you change the name of your channel, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
-    <string name="ChannelVerifiedUsernameChange">If you change the name of your channel, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
-    <string name="GroupVerifiedNameChange">If you change the name of your group, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
-    <string name="GroupVerifiedUsernameChange">If you change the name of your group, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
     <string name="ChannelUsernamePlaceholder">链接</string>
     <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
     <string name="MegaPrivateLinkHelp">人们可以通过上方链接加入您的群组。您可以随时撤销这个链接。</string>
@@ -1255,10 +1251,12 @@
     <string name="AddToFavorites">添加到收藏</string>
     <string name="AddedToFavorites">此贴纸已添加到收藏</string>
     <string name="RemovedFromFavorites">此贴纸已从收藏中移除</string>
+    <string name="RemovedFromRecent">Sticker was removed from Recent</string>
     <string name="RecentStickers">最近使用</string>
     <string name="FavoriteStickers">收藏夹</string>
     <string name="CurrentGroupStickers">群组贴纸包</string>
     <string name="DeleteFromFavorites">从收藏中移除</string>
+    <string name="DeleteFromRecent">Delete from Recent</string>
     <string name="AddToMasks">添加到装饰库</string>
     <string name="AddStickersNotFound">未找到该贴纸包</string>
     <string name="StickersRemoved">贴纸包已移除</string>
@@ -2110,7 +2108,11 @@
     <string name="FilterRemoveExclusionTitle">Remove exception</string>
     <string name="FilterRemoveInclusionTitle">Remove exception</string>
     <string name="FilterRemoveExclusionText">Are you sure you want to remove \"%1$s\" from always excluded chats?</string>
+    <string name="FilterRemoveExclusionChatText">Are you sure you want to remove \"%1$s\" from always excluded chats?</string>
+    <string name="FilterRemoveExclusionUserText">Are you sure you want to remove \"%1$s\" from always excluded chats?</string>
     <string name="FilterRemoveInclusionText">Are you sure you want to remove \"%1$s\" from always included chats?</string>
+    <string name="FilterRemoveInclusionChatText">Are you sure you want to remove \"%1$s\" from always included chats?</string>
+    <string name="FilterRemoveInclusionUserText">Are you sure you want to remove \"%1$s\" from always included chats?</string>
     <string name="FilterAvailableTitle">Chat folders</string>
     <string name="FilterAvailableText">Open *Settings / Folders* to organize your chats into folders.</string>
     <!--passcode view-->
@@ -2301,6 +2303,10 @@
     <string name="ClearSearch">是否清除搜索历史？</string>
     <string name="ClearSearchAlert">您确定要清除搜索记录吗？</string>
     <string name="ClearSearchAlertTitle">清除搜索记录</string>
+    <string name="ClearSearchSingleAlertTitle">Search history</string>
+    <string name="ClearSearchSingleUserAlertText">Are you sure you want to remove \"%1$s\" from search history?</string>
+    <string name="ClearSearchSingleChatAlertText">Are you sure you want to remove \"%1$s\" from search history?</string>
+    <string name="ClearSearchRemove">Remove</string>
     <string name="ClearButton">清空</string>
     <string name="AddCaption">添加说明...</string>
     <string name="PhotoCaption">图片说明</string>
@@ -2764,6 +2770,7 @@
     <string name="IVInteractionsChartTitle">IV Interactions</string>
     <string name="LoadingStats">Loading stats...</string>
     <string name="LoadingStatsDescription">Please wait a few moments while we are generating graphs.</string>
+    <string name="TopHoursChartTitle">Views by hours</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">极速</string>
@@ -3573,7 +3580,6 @@
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="SlideUpToLock">Slide up to lock recording</string>
-    <string name="TopHoursChartTitle">Views by hours</string>
 
   <!-- new from translations.telegram.org -->
 

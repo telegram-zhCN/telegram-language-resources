@@ -3690,12 +3690,12 @@
 "InactiveChannels.InactiveMonth_other" = "inactive for %d months";
 
 "InactiveChannels.InactiveYear_countable" = "%d";
-"InactiveChannels.InactiveYear_zero" = "inactive for  %d years";
+"InactiveChannels.InactiveYear_zero" = "inactive for %d years";
 "InactiveChannels.InactiveYear_one" = "inactive for %d year";
-"InactiveChannels.InactiveYear_two" = "inactive for  %d years";
-"InactiveChannels.InactiveYear_few" = "inactive for  %d years";
-"InactiveChannels.InactiveYear_many" = "inactive for  %d years";
-"InactiveChannels.InactiveYear_other" = "inactive for  %d years";
+"InactiveChannels.InactiveYear_two" = "inactive for %d years";
+"InactiveChannels.InactiveYear_few" = "inactive for %d years";
+"InactiveChannels.InactiveYear_many" = "inactive for %d years";
+"InactiveChannels.InactiveYear_other" = "inactive for %d years";
 
 "Chat.Edit.Cancel.Text" = "Are you sure you want to discard all changes?";
 

@@ -271,10 +271,6 @@
     <string name="ChannelUsernameHelp">If you set a permanent link, other people will be able to find and join your channel.\n\nYou can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.</string>
     <string name="MegaUsernameHelp">If you set a permanent link, other people will be able to find and join your group.\n\nYou can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.</string>
     <string name="ChannelVerifiedWarning">Warning</string>
-    <string name="ChannelVerifiedNameChange">If you change the name of your channel, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
-    <string name="ChannelVerifiedUsernameChange">If you change the name of your channel, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
-    <string name="GroupVerifiedNameChange">If you change the name of your group, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
-    <string name="GroupVerifiedUsernameChange">If you change the name of your group, it will loose its verified status. You will need to send a new application to *@verification_bot*.</string>
     <string name="ChannelUsernamePlaceholder">link</string>
     <string name="ChannelPrivateLinkHelp">People can join your channel by following this link. You can revoke the link any time.</string>
     <string name="MegaPrivateLinkHelp">People can join your group by following this link. You can revoke the link any time.</string>
@@ -1255,10 +1251,12 @@
     <string name="AddToFavorites">Add to Favorites</string>
     <string name="AddedToFavorites">Sticker was added to Favorites</string>
     <string name="RemovedFromFavorites">Sticker was removed from Favorites</string>
+    <string name="RemovedFromRecent">Sticker was removed from Recent</string>
     <string name="RecentStickers">Recently Used</string>
     <string name="FavoriteStickers">Favorites</string>
     <string name="CurrentGroupStickers">Group Stickers</string>
     <string name="DeleteFromFavorites">Delete from Favorites</string>
+    <string name="DeleteFromRecent">Delete from Recent</string>
     <string name="AddToMasks">Add to Masks</string>
     <string name="AddStickersNotFound">Stickers not found</string>
     <string name="StickersRemoved">Stickers removed</string>
@@ -2110,7 +2108,11 @@
     <string name="FilterRemoveExclusionTitle">Remove exception</string>
     <string name="FilterRemoveInclusionTitle">Remove exception</string>
     <string name="FilterRemoveExclusionText">Are you sure you want to remove \"%1$s\" from always excluded chats?</string>
+    <string name="FilterRemoveExclusionChatText">Are you sure you want to remove \"%1$s\" from always excluded chats?</string>
+    <string name="FilterRemoveExclusionUserText">Are you sure you want to remove \"%1$s\" from always excluded chats?</string>
     <string name="FilterRemoveInclusionText">Are you sure you want to remove \"%1$s\" from always included chats?</string>
+    <string name="FilterRemoveInclusionChatText">Are you sure you want to remove \"%1$s\" from always included chats?</string>
+    <string name="FilterRemoveInclusionUserText">Are you sure you want to remove \"%1$s\" from always included chats?</string>
     <string name="FilterAvailableTitle">Chat folders</string>
     <string name="FilterAvailableText">Open *Settings / Folders* to organize your chats into folders.</string>
     <!--passcode view-->
@@ -2301,6 +2303,10 @@
     <string name="ClearSearch">Clear search history?</string>
     <string name="ClearSearchAlert">Are you sure you want to clear your search history?</string>
     <string name="ClearSearchAlertTitle">Clear search history</string>
+    <string name="ClearSearchSingleAlertTitle">Search history</string>
+    <string name="ClearSearchSingleUserAlertText">Are you sure you want to remove \"%1$s\" from search history?</string>
+    <string name="ClearSearchSingleChatAlertText">Are you sure you want to remove \"%1$s\" from search history?</string>
+    <string name="ClearSearchRemove">Remove</string>
     <string name="ClearButton">Clear</string>
     <string name="AddCaption">Add a caption...</string>
     <string name="PhotoCaption">Photo Caption</string>
@@ -2764,6 +2770,7 @@
     <string name="IVInteractionsChartTitle">IV Interactions</string>
     <string name="LoadingStats">Loading stats...</string>
     <string name="LoadingStatsDescription">Please wait a few moments while we are generating graphs.</string>
+    <string name="TopHoursChartTitle">Views by hours</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">Fast</string>
@@ -3573,7 +3580,6 @@
     <string name="RemindDayAt">\'Remind on\' MMM d \'at\' HH:mm</string>
     <string name="RemindDayYearAt">\'Remind on\' MMM d yyyy \'at\' HH:mm</string>
     <string name="SlideUpToLock">Slide up to lock recording</string>
-    <string name="TopHoursChartTitle">Views by hours</string>
 
   <!-- new from translations.telegram.org -->
 
