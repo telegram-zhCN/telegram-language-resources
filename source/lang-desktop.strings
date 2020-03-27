@@ -153,7 +153,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_deleted" = "This message was deleted";
 "lng_edit_too_long" = "Your message text is too long";
 "lng_edit_message" = "Edit message";
-"lng_edit_message_text" = "New message text...";
+"lng_edit_message_text" = "New message...";
 "lng_deleted" = "Deleted Account";
 "lng_deleted_message" = "Deleted message";
 "lng_pinned_message" = "Pinned message";
@@ -181,7 +181,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_intro_qr_title" = "Scan From Mobile Telegram";
 "lng_intro_qr_step1" = "Open Telegram on your phone";
-"lng_intro_qr_step2" = "Go to Settings > Devices > Scan QR Code";
+"lng_intro_qr_step2" = "Go to Settings > Devices > Scan QR";
 "lng_intro_qr_step3" = "Scan this image to Log In";
 "lng_intro_qr_skip" = "Or log in using your phone number";
 
@@ -250,6 +250,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dlg_new_channel_name" = "Channel name";
 "lng_no_contacts" = "You have no contacts";
 "lng_no_chats" = "Your chats will be here";
+"lng_no_chats_filter" = "No chats currently belong to this folder.";
 "lng_contacts_loading" = "Loading...";
 "lng_contacts_not_found" = "No contacts found";
 "lng_dlg_search_for_messages" = "Search for messages";
@@ -343,6 +344,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_send_enter" = "Send with Enter";
 "lng_settings_send_ctrlenter" = "Send with Ctrl+Enter";
 "lng_settings_send_cmdenter" = "Send with Cmd+Enter";
+
+"lng_settings_section_filters" = "Folders";
 
 "lng_settings_section_background" = "Chat background";
 "lng_settings_bg_use_default" = "Use default theme";
@@ -1006,7 +1009,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_delete_saved_messages" = "Are you sure you want to delete all your saved messages?\n\nThis action cannot be undone.";
 
 "lng_message_empty" = "Empty Message";
-"lng_message_unsupported" = "This message is not supported by your version of Telegram Desktop. Please update to the latest version in Settings, or install it from {link}";
+"lng_message_unsupported" = "This message is not supported by your version of Telegram. Please update to the latest version in Settings > Advanced, or install it from {link}";
 
 "lng_duration_seconds#one" = "{count} second";
 "lng_duration_seconds#other" = "{count} seconds";
@@ -1631,7 +1634,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_confirm_phone_enter_code" = "Please enter the code.";
 
 "lng_theme_editor_no_keys" = "No keys in the palette yet";
-"lng_theme_editor_cant_change_theme" = "You can't apply a new theme while you're editing the colour palette. Please close the theme editor first.";
+"lng_theme_editor_cant_change_theme" = "You can't apply a new theme while editing the color palette. Please close the theme editor first.";
 "lng_theme_editor_new_keys" = "Not in the palette yet";
 "lng_theme_editor_background_image" = "Background image";
 "lng_theme_editor_saved_to_jpg" = "Saved to JPEG, {size}";
@@ -1682,7 +1685,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_status_busy" = "line busy";
 "lng_call_fingerprint_tooltip" = "If emoji on {user}'s screen are the same, this call is 100% secure";
 
-"lng_call_error_not_available" = "Sorry, {user} doesn't accept calls.";
+"lng_call_error_not_available" = "Sorry, you cannot call {user} because of their privacy settings.";
 "lng_call_error_outdated" = "{user}'s app does not support calls. They need to update their app before you can call them.";
 "lng_call_error_audio_io" = "There seems to be a problem with your sound card. Please make sure that your computer's speakers and microphone are working and try again.";
 
@@ -1839,6 +1842,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_all_admins" = "All users and admins";
 "lng_admin_log_about" = "What is this?";
 "lng_admin_log_about_text" = "This is a list of all service actions taken by the group's members and admins in the last 48 hours.";
+"lng_admin_log_about_text_channel" = "This is a list of all service actions taken by the channel's admins in the last 48 hours.";
 "lng_admin_log_no_results_title" = "No actions found";
 "lng_admin_log_no_results_text" = "No recent actions that match your query have been found.";
 "lng_admin_log_no_results_search_text" = "No recent actions that contain '{query}' have been found.";
@@ -2228,6 +2232,62 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_outdated_soon" = "Otherwise, Telegram Desktop will stop updating on {date}.";
 "lng_outdated_now" = "So that Telegram Desktop can update to newer versions.";
 
+"lng_filters_all" = "All chats";
+"lng_filters_setup" = "Edit";
+"lng_filters_title" = "Folders";
+"lng_filters_subtitle" = "My folders";
+"lng_filters_no_chats" = "No chats";
+"lng_filters_chats_count#one" = "{count} chat";
+"lng_filters_chats_count#other" = "{count} chats";
+"lng_filters_create" = "Create new folder";
+"lng_filters_about" = "Create folders for different groups of chats and quickly switch between them.";
+"lng_filters_recommended" = "Recommended folders";
+"lng_filters_recommended_add" = "Add";
+"lng_filters_restore" = "Undo";
+"lng_filters_new" = "New Folder";
+"lng_filters_edit" = "Edit Folder";
+"lng_filters_new_name" = "Folder name";
+"lng_filters_add_chats" = "Add chats";
+"lng_filters_remove_chats" = "Remove chats";
+"lng_filters_include" = "Included Chats";
+"lng_filters_include_about" = "Choose chats and types of chats that will appear in this folder.";
+"lng_filters_exclude" = "Excluded Chats";
+"lng_filters_exclude_about" = "Choose chats and types of chats that will never appear in this folder.";
+"lng_filters_create_button" = "Create";
+"lng_filters_include_title" = "Include Chats";
+"lng_filters_exclude_title" = "Exclude Chats";
+"lng_filters_edit_types" = "Chat types";
+"lng_filters_edit_chats" = "Chats";
+"lng_filters_include_contacts" = "Contacts";
+"lng_filters_include_non_contacts" = "Non-Contacts";
+"lng_filters_include_groups" = "Groups";
+"lng_filters_include_channels" = "Channels";
+"lng_filters_include_bots" = "Bots";
+"lng_filters_exclude_muted" = "Muted";
+"lng_filters_exclude_read" = "Read";
+"lng_filters_exclude_archived" = "Archived";
+"lng_filters_name_people" = "People";
+"lng_filters_name_unread" = "Unread";
+"lng_filters_name_unmuted" = "Unmuted";
+"lng_filters_add" = "Done";
+"lng_filters_limit" = "Sorry, you have reached folders limit.";
+"lng_filters_empty" = "Please choose at least one chat for this folder.";
+"lng_filters_default" = "Please change at least one rule for this folder.";
+"lng_filters_type_contacts" = "Contacts";
+"lng_filters_type_non_contacts" = "Non-Contacts";
+"lng_filters_type_groups" = "Groups";
+"lng_filters_type_channels" = "Channels";
+"lng_filters_type_bots" = "Bots";
+"lng_filters_type_no_archived" = "Archived";
+"lng_filters_type_no_muted" = "Muted";
+"lng_filters_type_no_read" = "Read";
+"lng_filters_icon_header" = "Choose an icon";
+"lng_filters_error_pinned_max" = "Sorry, you can't pin any more chats to the top.";
+"lng_filters_context_edit" = "Edit Folder";
+"lng_filters_context_remove" = "Remove";
+"lng_filters_remove_sure" = "This will remove the folder, your chats will not be deleted.";
+"lng_filters_remove_yes" = "Remove";
+
 /* Wnd specific */
 
 "lng_wnd_choose_program_menu" = "Choose Default Program...";
@@ -2499,6 +2559,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_state_video_message" = "Round video message";
 "lng_export_state_voice_message" = "Voice message";
 "lng_export_total_files" = "Total files: {count}.";
+"lng_filters_chats_count#zero" = "{count} chats";
+"lng_filters_chats_count#two" = "{count} chats";
+"lng_filters_chats_count#few" = "{count} chats";
+"lng_filters_chats_count#many" = "{count} chats";
 "lng_forward_messages#zero" = "{count} forwarded messages";
 "lng_forward_messages#two" = "{count} forwarded messages";
 "lng_forward_messages#few" = "{count} forwarded messages";

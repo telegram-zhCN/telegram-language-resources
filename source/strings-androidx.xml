@@ -351,7 +351,7 @@
   <string name="BotInvite">Add to group</string>
   <string name="AddContact">Add Contact</string>
   <string name="takePhoto">Take photo</string>
-  <string name="pickFromGallery">Choose from gallery</string>
+  <string name="pickFromGallery">Choose from Gallery</string>
   <string name="DeletePhoto">Delete photo</string>
   <string name="ClearHistory">Clear history</string>
   <string name="Cancel">Cancel</string>
@@ -493,8 +493,8 @@
   <string name="PublicLinkTooShort">Public link is too short</string>
   <string name="PublicLinkIsInvalid">You can use only a–z, 0–9 and underscores for a Telegram public link.</string>
   <string name="SaveToGallery">Save to Gallery</string>
-  <string name="PhotoHasBeenSavedToGallery">Photo has been saved to gallery</string>
-  <string name="VideoHasBeenSavedToGallery">Video has been saved to gallery</string>
+  <string name="PhotoHasBeenSavedToGallery">Photo saved to Gallery</string>
+  <string name="VideoHasBeenSavedToGallery">Video saved to Gallery</string>
   <string name="ChannelSignMessages">Sign Messages</string>
   <string name="PostNotFound">Post not found</string>
   <string name="OpenSupergroup">Open Supergroup</string>
@@ -1090,7 +1090,7 @@
   <string name="VoipOfflineAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to make calls.</string>
   <string name="VoipOfflineTitle">Offline</string>
   <string name="VoipOffline">You\'re currently offline. Please connect to the Internet in order to make calls.</string>
-  <string name="NoRightToCall">Sorry, %1$s doesn\'t accept calls.</string>
+  <string name="NoRightToCall">Sorry, you cannot call %1$s because of their privacy settings.</string>
   <string name="VoipConnecting">Connecting</string>
   <string name="VoipRinging">Ringing</string>
   <string name="VoipWaiting">Waiting</string>
@@ -1207,7 +1207,7 @@
   <string name="OpenBot">View Bot</string>
   <string name="SendAsCopy">Send as copy</string>
   <string name="RemoveCaptions">Remove captions in copies</string>
-  <string name="GifHasBeenSavedToGallery">GIF has been saved to gallery</string>
+  <string name="GifHasBeenSavedToGallery">GIF saved to Gallery</string>
   <string name="Error">Error</string>
   <string name="UsernameNotOccupied">Username %1$s not found</string>
   <string name="UsernameNotOccupiedUnknown">Chat with specified username not found</string>
@@ -1371,7 +1371,7 @@
   <string name="MemberBanChannel">This User will be banned and removed from channel.</string>
   <string name="MemberBanGroup">This User will be banned and removed from group.</string>
   <string name="MemberRestrictChannel">This user will not be removed from the channel.</string>
-  <string name="MemberRestrictGroup">This User will not be removed from group.</string>
+  <string name="MemberRestrictGroup">This user will not be removed from the group.</string>
   <string name="UserIsAlreadyAdmin">User is already admin</string>
   <string name="YouCantBanThis">You cannot ban this user</string>
   <string name="YouCantPromoteThis">You cannot promote this user</string>
@@ -2012,7 +2012,7 @@
   <string name="ApplicationFolderWarning">**Warning!**\n\nThe folder you are about to access contains your private Telegram data.\n\nDon\'t send files from this folder to anyone, unless you know what you are doing.</string>
   <string name="ApplicationFolderWarningConfirm">Proceed</string>
 
-  <string name="SaveOutgoingPhotos">Save edited photos to gallery</string>
+  <string name="SaveOutgoingPhotos">Save edited photos to Gallery</string>
   <string name="RememberAlbumSetting">Remember media grouping setting</string>
 
   <string name="ProcessingMedia">Processing %1$s</string>
@@ -2652,7 +2652,7 @@
   <string name="error_CHAT_ADMIN_REQUIRED">You do not have enough privileges to perform this action.</string>
   <string name="ChatPermissions">Chat Permissions</string>
   <string name="WhatMembersCanDo">What can members of this group do?</string>
-  <string name="MemberSince">Member since %1$s %2$s</string>
+  <string name="MemberSince">Member since %1$s at %2$s</string>
   <string name="format_statusAndDate">%1$s\n%2$s</string>
   <string name="format_nameAndDate">%1$s\n%2$s</string>
   <string name="format_nameAndStatus">%1$s\n%2$s</string>
@@ -2978,7 +2978,7 @@
 
   <string name="ClearXHistoriesConfirm_one">Are you sure you want to clear history in %1$s chat?</string>
   <string name="ClearXHistoriesConfirm_other">Are you sure you want to clear history in %1$s chats?</string>
-  <string name="ClearedXHistories_one">Cleared %1$s histories</string>
+  <string name="ClearedXHistories_one">Cleared %1$s history</string>
   <string name="ClearedXHistories_other">Cleared %1$s histories</string>
   <string name="ClearXHistories_one">Clear %1$s chat history</string>
   <string name="ClearXHistories_other">Clear %1$s chat histories</string>

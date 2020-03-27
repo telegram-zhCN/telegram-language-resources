@@ -158,7 +158,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_deleted_message" = "已删除的消息";
 "lng_pinned_message" = "置顶消息";
 "lng_pinned_poll" = "置顶投票";
-
+"lng_pinned_quiz" = "置顶小测验";
 "lng_pinned_unpin_sure" = "您确定要取消置顶此消息吗？";
 "lng_pinned_pin_sure" = "您确定要置顶此消息吗？";
 "lng_pinned_pin" = "置顶";
@@ -174,7 +174,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_intro_next" = "下一步";
 "lng_intro_finish" = "注册";
-"lng_intro_submit" = "提交";
+"lng_intro_submit" = "解锁";
 
 "lng_photo_caption" = "添加说明";
 "lng_photos_comment" = "说明";
@@ -250,6 +250,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dlg_new_channel_name" = "频道名称";
 "lng_no_contacts" = "您还没有任何联系人";
 "lng_no_chats" = "您的对话将在此处显示";
+
 "lng_contacts_loading" = "加载中...";
 "lng_contacts_not_found" = "未找到任何联系人";
 "lng_dlg_search_for_messages" = "搜索消息";
@@ -308,7 +309,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_notification_reply" = "回复";
 "lng_notification_hide_all" = "全部隐藏";
 "lng_notification_sample" = "这是一个示例通知";
-"lng_notification_reminder" = "备忘录";
+"lng_notification_reminder" = "提醒";
 
 "lng_settings_section_general" = "通用";
 "lng_settings_change_lang" = "更换语言";
@@ -343,6 +344,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_send_enter" = "按 Enter 发送消息";
 "lng_settings_send_ctrlenter" = "按 Ctrl+Enter 发送消息";
 "lng_settings_send_cmdenter" = "按 Cmd+Enter 发送消息";
+
+
 
 "lng_settings_section_background" = "聊天窗口背景图";
 "lng_settings_bg_use_default" = "使用默认主题";
@@ -434,7 +437,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#other" = "{count}秒后还原为以前的主题。";
 "lng_theme_keep_changes" = "保留更改";
 "lng_theme_revert" = "还原";
-"lng_theme_no_desktop" = "抱歉，该主题暂未包含支持Telegram Desktop的版本。";
+"lng_theme_no_desktop" = "抱歉，该主题暂未包含支持 Telegram Desktop 的版本。";
 "lng_theme_share" = "分享";
 "lng_theme_edit" = "编辑";
 "lng_theme_delete" = "删除";
@@ -1839,6 +1842,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_all_admins" = "全体用户和管理员";
 "lng_admin_log_about" = "这是什么？";
 "lng_admin_log_about_text" = "此列表包含了在过去48小时内群组成员和管理员执行的所有管理操作。";
+
 "lng_admin_log_no_results_title" = "未找到操作日志";
 "lng_admin_log_no_results_text" = "找不到与您查询的近期操作相符的结果。";
 "lng_admin_log_no_results_search_text" = "找不到包含 ‘{query}’ 的近期操作。";
@@ -2183,9 +2187,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_launch_exe_dont_ask" = "不再询问";
 
 "lng_polls_anonymous" = "匿名投票";
-
-
-
+"lng_polls_public" = "投票";
+"lng_polls_anonymous_quiz" = "匿名小测验";
+"lng_polls_public_quiz" = "小测验";
 "lng_polls_closed" = "最终结果";
 
 "lng_polls_votes_count#other" = "{count} 人已投票";
@@ -2208,12 +2212,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_polls_create_limit#other" = "您还可以再添加 {count} 个选项。";
 "lng_polls_create_maximum" = "您添加的选项已达最大数量。";
-
+"lng_polls_create_settings" = "设置";
 "lng_polls_create_anonymous" = "匿名投票";
 "lng_polls_create_multiple_choice" = "可多选";
-"lng_polls_create_quiz_mode" = "小测验模式";
+"lng_polls_create_quiz_mode" = "小测验";
 "lng_polls_create_button" = "确认";
-
+"lng_polls_create_one_answer" = "小测验只有一个正确答案。";
 
 
 
@@ -2222,11 +2226,67 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_quiz_results_title" = "测验结果";
 
 "lng_polls_show_more#other" = "显示更多 ({count})";
-
+"lng_polls_votes_collapse" = "收起";
 
 "lng_outdated_title" = "请更新您的操作系统。";
 "lng_outdated_soon" = "否则，Telegram Desktop将在 {date} 停止更新。";
 "lng_outdated_now" = "这样 Telegram Desktop 就可以更新到更新的版本。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Wnd specific
 

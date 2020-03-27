@@ -2213,6 +2213,7 @@ Unused sets are archived when you add more.";
 "DialogList.Unpin" = "取消置顶";
 "DialogList.PinLimitError" = "抱歉，您最多只能置顶 %@ 个对话。";
 
+
 "Conversation.DeleteMessagesForMe" = "从本地删除";
 "Conversation.DeleteMessagesFor" = "从本地和 %@ 删除";
 "Conversation.DeleteMessagesForEveryone" = "为所有人删除";
@@ -4640,7 +4641,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.ScheduleMessage.SendTomorrow" = "在明天 %@ 时发送";
 "Conversation.ScheduleMessage.SendOn" = "在 %@ %@ 时发送";
 
-"Conversation.SetReminder.Title" = "设置一个备忘录";
+"Conversation.SetReminder.Title" = "定时提醒";
 "Conversation.SetReminder.RemindToday" = "在今天 %@ 时提醒我";
 "Conversation.SetReminder.RemindTomorrow" = "在明天 %@ 时提醒我";
 "Conversation.SetReminder.RemindOn" = "在 %@ %@ 时提醒我";
@@ -4658,7 +4659,7 @@ Any member of this group will be able to see messages in the channel.";
 "ScheduledMessages.EmptyPlaceholder" = "暂无定时消息...";
 "ScheduledMessages.BotActionUnavailable" = "这个操作将在消息发布后可用。";
 "ScheduledMessages.PollUnavailable" = "投票功能将在消息发布后正式开始。";
-"ScheduledMessages.ReminderNotification" = "📅 备忘录";
+"ScheduledMessages.ReminderNotification" = "📅 提醒";
 
 "Conversation.SendMessage.SetReminder" = "定时提醒";
 
@@ -5455,6 +5456,21 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"Conversation.Dice" = "掷骰的结果是 Telegram 随机生成的。\n将 🎲 发送到任意聊天来从 Telegram 获得一个随机数。";
 
 
 /* new from translations.telegram.org */

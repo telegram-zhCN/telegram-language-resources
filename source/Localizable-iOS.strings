@@ -2212,6 +2212,7 @@ Unused sets are archived when you add more.";
 "DialogList.Pin" = "Pin";
 "DialogList.Unpin" = "Unpin";
 "DialogList.PinLimitError" = "Sorry, you can pin no more than %@ chats to the top.";
+"DialogList.UnknownPinLimitError" = "Sorry, you can't pin any more chats to the top.";
 
 "Conversation.DeleteMessagesForMe" = "Delete for me";
 "Conversation.DeleteMessagesFor" = "Delete for me and %@";
@@ -2473,7 +2474,7 @@ Unused sets are archived when you add more.";
 
 "NetworkUsageSettings.CallDataSection" = "CALLS";
 
-"Call.PrivacyErrorMessage" = "Sorry, %@ doesn't accept calls.";
+"Call.PrivacyErrorMessage" = "Sorry, you cannot call %@ because of their privacy settings.";
 
 "Notification.CallBack" = "Call Back";
 
@@ -3204,7 +3205,7 @@ Unused sets are archived when you add more.";
 "PrivacyPolicy.DeclineMessage" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 "PrivacyPolicy.DeclineDeclineAndDelete" = "Decline and Delete";
 
-"PrivacyPolicy.DeclineLastWarning" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
+"PrivacyPolicy.DeclineLastWarning" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Advanced > Export Telegram data.)";
 "PrivacyPolicy.DeclineDeleteNow" = "Delete Now";
 
 "Settings.Passport" = "Telegram Passport";
@@ -4513,7 +4514,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.BotDoesntSupportGroups" = "Sorry, this bot is telling us it doesn't want to be added to groups. You can't add this bot unless its developers change their mind.";
 
 "StickerPacksSettings.AnimatedStickers" = "Loop Animated Stickers";
-"StickerPacksSettings.AnimatedStickersInfo" = "Animated stickers will play in chat continuously.";
+"StickerPacksSettings.AnimatedStickersInfo" = "Animated stickers will play continuously in chats.";
 "GroupInfo.Permissions.SlowmodeHeader" = "SLOW MODE";
 "GroupInfo.Permissions.SlowmodeInfo" = "Choose how long each member must wait before sending their next message.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ disabled the slow mode";
@@ -4530,7 +4531,7 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.MultipleTextMessagesDisabled" = "Slow Mode is enabled. You can't send multiple messages at once.";
 "Share.MultipleMessagesDisabled" = "Slow Mode is enabled. You can't send multiple messages at once.";
 "Chat.SlowmodeSendError" = "Slow Mode is enabled.";
-"StickerPacksSettings.AnimatedStickersInfo" = "Animated stickers will play in chat continuously.";
+"StickerPacksSettings.AnimatedStickersInfo" = "Animated stickers will play continuously in chats.";
 
 "Conversation.Owner" = "owner";
 
@@ -4551,7 +4552,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "VoiceOver.Editing.ClearText" = "Clear text";
 "VoiceOver.Recording.StopAndPreview" = "Stop and preview";
-"VoiceOver.Media.PlaybackRate" = "Playback rate";
+"VoiceOver.Media.PlaybackRate" = "Playback speed";
 "VoiceOver.Media.PlaybackRateNormal" = "Normal";
 "VoiceOver.Media.PlaybackRateFast" = "Fast";
 "VoiceOver.Media.PlaybackRateChange" = "Double tap to change";
@@ -4565,9 +4566,9 @@ Any member of this group will be able to see messages in the channel.";
 "VoiceOver.AttachMedia" = "Send media";
 "VoiceOver.Chat.RecordPreviewVoiceMessage" = "Preview voice message";
 "VoiceOver.Chat.RecordModeVoiceMessage" = "Voice message";
-"VoiceOver.Chat.RecordModeVoiceMessageInfo" = "Double tap and hold to record voice message. Slide up to pin recording, slide left to cancel. Double tap to switch to video.";
+"VoiceOver.Chat.RecordModeVoiceMessageInfo" = "Double tap and hold to record voice message. Slide up to lock recording, slide left to cancel. Double tap to switch to video.";
 "VoiceOver.Chat.RecordModeVideoMessage" = "Video message";
-"VoiceOver.Chat.RecordModeVideoMessageInfo" = "Double tap and hold to record video message. Slide up to pin recording, slide left to cancel. Double tap to switch to audio.";
+"VoiceOver.Chat.RecordModeVideoMessageInfo" = "Double tap and hold to record video message. Slide up to lock recording, slide left to cancel. Double tap to switch to audio.";
 "VoiceOver.Chat.Message" = "Message";
 "VoiceOver.Chat.YourMessage" = "Your message";
 "VoiceOver.Chat.ReplyFrom" = "Reply to message from: %@";
@@ -5167,7 +5168,7 @@ Any member of this group will be able to see messages in the channel.";
 "Settings.Devices" = "Devices";
 "Settings.AddDevice" = "Scan QR";
 "AuthSessions.DevicesTitle" = "Devices";
-"AuthSessions.AddDevice" = "Scan QR";
+"AuthSessions.AddDevice" = "Scan QR Code";
 "AuthSessions.AddDevice.ScanInfo" = "Scan a QR code to log into\nthis account on another device.";
 "AuthSessions.AddDevice.ScanTitle" = "Scan QR Code";
 "AuthSessions.AddDevice.InvalidQRCode" = "Invalid QR Code";
@@ -5337,7 +5338,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneMedia" = "Media";
 "PeerInfo.PaneFiles" = "Files";
 "PeerInfo.PaneLinks" = "Links";
-
+"PeerInfo.PaneVoice" = "Voice Messages";
 "PeerInfo.PaneAudio" = "Audio";
 "PeerInfo.PaneGroups" = "Groups";
 "PeerInfo.PaneMembers" = "Members";
@@ -5357,35 +5358,39 @@ Any member of this group will be able to see messages in the channel.";
 
 "ChatListFilter.AddChatsTitle" = "Add Chats...";
 
+"Stats.Overview" = "OVERVIEW";
+"Stats.Followers" = "Followers";
+"Stats.EnabledNotifications" = "Enabled Notifications";
+"Stats.ViewsPerPost" = "Views Per Post";
+"Stats.SharesPerPost" = "Shares Per Post";
 
+"Stats.GrowthTitle" = "GROWTH";
+"Stats.FollowersTitle" = "FOLLOWERS";
+"Stats.NotificationsTitle" = "NOTIFICATIONS";
+"Stats.InteractionsTitle" = "INTERACTIONS";
+"Stats.InstantViewInteractionsTitle" = "INSTANT VIEW INTERACTIONS";
+"Stats.ViewsBySourceTitle" = "VIEWS BY SOURCE";
+"Stats.ViewsByHoursTitle" = "VIEWS BY HOURS (UTC)";
+"Stats.FollowersBySourceTitle" = "FOLLOWERS BY SOURCE";
+"Stats.LanguagesTitle" = "LANGUAGES";
+"Stats.PostsTitle" = "RECENT POSTS";
 
+"Stats.MessageViews_0" = "%@ views";
+"Stats.MessageViews_1" = "%@ view";
+"Stats.MessageViews_2" = "%@ views";
+"Stats.MessageViews_3_10" = "%@ views";
+"Stats.MessageViews_many" = "%@ views";
+"Stats.MessageViews_any" = "%@ views";
 
+"Stats.MessageForwards_0" = "%@ forwards";
+"Stats.MessageForwards_1" = "%@ forward";
+"Stats.MessageForwards_2" = "%@ forwards";
+"Stats.MessageForwards_3_10" = "%@ forwards";
+"Stats.MessageForwards_many" = "%@ forwards";
+"Stats.MessageForwards_any" = "%@ forwards";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Stats.LoadingTitle" = "Preparing stats";
+"Stats.LoadingText" = "Please wait a few moments while\nwe generate your stats";
 
 "InstantPage.Views_0" = "%@ views";
 "InstantPage.Views_1" = "%@ view";
@@ -5420,7 +5425,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatListFolderSettings.Title" = "Folders";
 "ChatListFolderSettings.FoldersSection" = "FOLDERS";
 "ChatListFolderSettings.NewFolder" = "Create New Folder";
-"ChatListFolderSettings.EditFoldersInfo" = "Tap \"Edit\" to change the order or delete folders.";
+"ChatListFolderSettings.EditFoldersInfo" = "Tap 'Edit' to change the order or delete folders.";
 "ChatListFolderSettings.RecommendedFoldersSection" = "RECOMMENDED FOLDERS";
 "ChatListFolderSettings.RecommendedNewFolder" = "Add Custom Folder";
 
@@ -5455,6 +5460,17 @@ Any member of this group will be able to see messages in the channel.";
 "ChatListFolder.ExcludeChatsTitle" = "Exclude Chats";
 
 "ChatListFolderSettings.AddRecommended" = "ADD";
+
+"ChatListFilter.ShowMoreChats_0" = "Show %@ More Chats";
+"ChatListFilter.ShowMoreChats_1" = "Show %@ More Chat";
+"ChatListFilter.ShowMoreChats_2" = "Show %@ More Chats";
+"ChatListFilter.ShowMoreChats_3_10" = "Show %@ More Chats";
+"ChatListFilter.ShowMoreChats_many" = "Show %@ More Chats";
+"ChatListFilter.ShowMoreChats_any" = "Show %@ More Chats";
+
+"MuteFor.Forever" = "Mute Forever";
+
+"Conversation.Dice" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 
 
 /* new from translations.telegram.org */

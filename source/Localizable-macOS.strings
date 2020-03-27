@@ -858,7 +858,7 @@
 "peerInfo.Confirm.ClearHistory.Group" = "This will delete all messages and media in this chat from your Telegram cloud. Other members of the group will still have them.";
 
 "PeerInfo.Confirm.AddMember" = "Add \"%@\" to the group?";
-"PeerInfo.Confirm.RemovePeer" = "Remove \"%@\" from group?";
+"PeerInfo.Confirm.RemovePeer" = "Remove %@ from the group?";
 
 "PeerInfo.FirstName.Placeholder" = "First Name";
 "PeerInfo.LastName.Placeholder" = "Last Name";
@@ -1062,7 +1062,7 @@
 "Telegram.ArchivedStickerPacksController" = "Archived Stickers";
 "ArchivedStickers.Description" = "You can have up to 200 sticker sets installed. Unused stickers are archived when you add more.";
 "InstalledStickers.PacksTitle" = "STICKER SETS";
-"InstalledStickers.Descrpiption" = "Artists are welcome to add their own sticker sets using our @stickers bot.\n\nTap on a sticker to view and add the whole set.";
+"InstalledStickers.Descrpiption" = "Create your own sticker sets using the @stickers bot.\n\nClick on a sticker to view and add the whole set.";
 "InstalledStickers.Archived" = "Archived Stickers";
 "InstalledStickers.LoopAnimated" = "Loop Animated Stickers";
 "InstalledStickers.Tranding" = "Trending Stickers";
@@ -1177,7 +1177,7 @@
 "CallHeader.EndCall" = "End Call";
 "Call.ParticipantVersionOutdatedError" = "%@'s app does not support calls. They need to update their app before you can call them.";
 "Call.UndefinedError" = "Undefined error, please try later.";
-"Call.PrivacyErrorMessage" = "Sorry, %@ doesn't accept calls.";
+"Call.PrivacyErrorMessage" = "Sorry, you cannot call %@ because of their privacy settings.";
 
 "Call.StatusRequesting" = "Contacting...";
 "Call.StatusRinging" = "Ringing...";
@@ -2430,7 +2430,7 @@
 
 "TermsOfService.Disagree" = "Decline";
 "TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
-"TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Export Telegram Data.)";
+"TermsOfService.Disagree.Text.Last" = "Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings > Advanced > Export Telegram data.)";
 "TermsOfService.Disagree.Text.Last.OK" = "Delete Now";
 "TermsOfService.Disagree.OK" = "Decline & Delete";
 "TermsOfService.ConfirmAge" = "I confirm that I am %@ or over.";
@@ -3670,7 +3670,7 @@
 
 
 "SettingsSearch.Recent" = "RECENT";
-"SettingsSearch.Recent.Clear" = "clear";
+"SettingsSearch.Recent.Clear" = "Clear";
 
 
 "InactiveChannels.InactiveWeek_countable" = "%d";
@@ -3703,7 +3703,7 @@
 "InactiveChannels.Title" = "Limit Reached";
 "InactiveChannels.OK" = "Leave";
 "InactiveChannels.Header" = "LEAST ACTIVE";
-"InactiveChannels.BlockHeader" = "Too many groups and channels";
+"InactiveChannels.BlockHeader" = "Too Many Groups and Channels";
 
 
 
