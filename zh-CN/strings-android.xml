@@ -198,7 +198,7 @@
     <string name="SendGifPreview">发送 GIF</string>
     <string name="ViewPackPreview">查看对应贴纸包</string>
     <string name="PinToTop">置顶</string>
-    <string name="PinToTopLimitReached2">Sorry, you can only pin %1$s to the top in the main list. More chats can be pinned in Chat Folders and your Archive.</string>
+    <string name="PinToTopLimitReached2">抱歉，您只能将 %1$s 个对话在主列表置顶。“对话文件夹”和“归档”中可以置顶更多对话。</string>
     <string name="PinFolderLimitReached">抱歉，您无法再将更多的对话置顶。</string>
     <string name="UnpinFromTop">取消置顶</string>
     <string name="MarkAsUnread">标记为未读</string>
@@ -969,7 +969,7 @@
     <string name="TextSelectionHit">按住消息中的**文字**，移动光标选择完毕之后即可复制。</string>
     <string name="CardNumberCopied">银行卡号已复制到剪切板</string>
     <string name="CopyCardNumber">赋值</string>
-    <string name="DiceInfo">掷骰的结果是 Telegram 随机生成的。\n将 &#127922; 发送到任意聊天来从 Telegram 获得一个随机数。</string>
+    <string name="DiceInfo">将 &#127922; 发送到任意对话来从 Telegram 获得一个随机数。</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -2051,7 +2051,7 @@
     <!--filters-->
     <string name="Filters">文件夹</string>
     <string name="FiltersSetup">Setup</string>
-    <string name="FiltersSetupPinAlert">Set Up Folders</string>
+    <string name="FiltersSetupPinAlert">设置文件夹</string>
     <string name="CreateNewFilter">创建新文件夹</string>
     <string name="CreateNewFilterInfo">为不同的对话创建文件夹，然后在它们之间快速切换。</string>
     <string name="FilterRecommended">推荐文件夹</string>
@@ -2070,7 +2070,7 @@
     <string name="FilterDeleteItem">删除</string>
     <string name="FilterExcludeArchived">排除已归档</string>
     <string name="FilterUnread">未读</string>
-    <string name="FilterDelete">删除文件夹</string>
+    <string name="FilterDelete">移除文件夹</string>
     <string name="FilterMuted">已禁用消息通知</string>
     <string name="FilterRead">已读</string>
     <string name="FilterArchived">已归档</string>
@@ -2082,8 +2082,8 @@
     <string name="FilterChats">对话</string>
     <string name="FilterInclude">已包括的对话</string>
     <string name="FilterExclude">已排除的对话</string>
-    <string name="FilterIncludeInfo">Choose chats and types of chats that will appear in this folder.</string>
-    <string name="FilterExcludeInfo">Choose chats and types of chats that will not appear in this folder.</string>
+    <string name="FilterIncludeInfo">选择会出现在此文件夹中的对话和对话类型。</string>
+    <string name="FilterExcludeInfo">选择不会出现在此文件夹中的对话和对话类型。</string>
     <string name="FilterSecretChats">加密对话</string>
     <string name="FilterBots">机器人</string>
     <string name="FilterAddingChats">添加对话</string>
@@ -2096,7 +2096,7 @@
     <string name="FilterNonContact">非联系人</string>
     <string name="FilterAddException">添加例外</string>
     <string name="FilterNameHint">文件夹名</string>
-    <string name="FilterDeleteAlert">您确定要删除此文件夹吗？</string>
+    <string name="FilterDeleteAlert">您确定要删除此文件夹吗？您的对话不会被删除。</string>
     <string name="FilterDiscardTitle">应用更改？</string>
     <string name="FilterDiscardAlert">您已编辑此文件夹。应用更改？</string>
     <string name="FilterDiscardNewTitle">创建文件夹？</string>

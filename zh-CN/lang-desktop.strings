@@ -250,7 +250,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dlg_new_channel_name" = "频道名称";
 "lng_no_contacts" = "您还没有任何联系人";
 "lng_no_chats" = "您的对话将在此处显示";
-
+"lng_no_chats_filter" = "当前没有对话属于该文件夹。";
 "lng_contacts_loading" = "加载中...";
 "lng_contacts_not_found" = "未找到任何联系人";
 "lng_dlg_search_for_messages" = "搜索消息";
@@ -345,7 +345,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_send_ctrlenter" = "按 Ctrl+Enter 发送消息";
 "lng_settings_send_cmdenter" = "按 Cmd+Enter 发送消息";
 
-
+"lng_settings_section_filters" = "文件夹";
 
 "lng_settings_section_background" = "聊天窗口背景图";
 "lng_settings_bg_use_default" = "使用默认主题";
@@ -1276,7 +1276,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cant_invite_make_admin" = "设为管理员";
 
 "lng_send_button" = "发送";
-
+"lng_schedule_button" = "定时发送";
 "lng_send_silent_message" = "静音发送";
 "lng_schedule_message" = "定时发送";
 "lng_reminder_message" = "定时提醒";
@@ -1304,9 +1304,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_scheduled_messages" = "定时消息";
 "lng_reminder_messages" = "提醒";
-
-
-
+"lng_scheduled_date" = "在 {date} 发送";
+"lng_scheduled_date_until_online" = "当上线时发送";
+"lng_scheduled_send_until_online" = "当上线时发送";
 "lng_scheduled_send_now" = "现在发送此消息？";
 
 "lng_scheduled_send_now_many#other" = "现在发送这 {count} 条消息吗？";
@@ -2232,61 +2232,61 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_outdated_soon" = "否则，Telegram Desktop将在 {date} 停止更新。";
 "lng_outdated_now" = "这样 Telegram Desktop 就可以更新到更新的版本。";
 
+"lng_filters_all" = "全部对话";
+"lng_filters_setup" = "编辑";
+"lng_filters_title" = "文件夹";
+"lng_filters_subtitle" = "我的文件夹";
+"lng_filters_no_chats" = "没有对话";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"lng_filters_chats_count#other" = "{count} 个对话";
+"lng_filters_create" = "创建新文件夹";
+"lng_filters_about" = "为不同的对话创建文件夹，然后在它们之间快速切换。";
+"lng_filters_recommended" = "推荐文件夹";
+"lng_filters_recommended_add" = "添加";
+"lng_filters_restore" = "撤销";
+"lng_filters_new" = "新建文件夹";
+"lng_filters_edit" = "编辑文件夹";
+"lng_filters_new_name" = "文件夹名";
+"lng_filters_add_chats" = "添加对话";
+"lng_filters_remove_chats" = "移除对话";
+"lng_filters_include" = "已包括的对话";
+"lng_filters_include_about" = "选择会出现在此文件夹中的对话和对话类型。";
+"lng_filters_exclude" = "已排除的对话";
+"lng_filters_exclude_about" = "选择不会出现在此文件夹中的对话和对话类型。";
+"lng_filters_create_button" = "创建";
+"lng_filters_include_title" = "包括的对话";
+"lng_filters_exclude_title" = "排除的对话";
+"lng_filters_edit_types" = "对话类型";
+"lng_filters_edit_chats" = "对话";
+"lng_filters_include_contacts" = "联系人";
+"lng_filters_include_non_contacts" = "非联系人";
+"lng_filters_include_groups" = "群组";
+"lng_filters_include_channels" = "频道";
+"lng_filters_include_bots" = "机器人";
+"lng_filters_exclude_muted" = "已禁用消息通知";
+"lng_filters_exclude_read" = "已读";
+"lng_filters_exclude_archived" = "已归档";
+"lng_filters_name_people" = "用户";
+"lng_filters_name_unread" = "未读";
+"lng_filters_name_unmuted" = "未禁用消息通知";
+"lng_filters_add" = "完成";
+"lng_filters_limit" = "抱歉，您已达到文件夹数限制。";
+"lng_filters_empty" = "请为此文件夹至少选择一个对话。";
+"lng_filters_default" = "请为此文件夹至少更改一个规则。";
+"lng_filters_type_contacts" = "联系人";
+"lng_filters_type_non_contacts" = "非联系人";
+"lng_filters_type_groups" = "群组";
+"lng_filters_type_channels" = "频道";
+"lng_filters_type_bots" = "机器人";
+"lng_filters_type_no_archived" = "已归档";
+"lng_filters_type_no_muted" = "已禁用消息通知";
+"lng_filters_type_no_read" = "已读";
+"lng_filters_icon_header" = "选择一个图标";
+"lng_filters_error_pinned_max" = "抱歉，您无法再将更多的对话置顶。";
+"lng_filters_context_edit" = "编辑文件夹";
+"lng_filters_context_remove" = "移除";
+"lng_filters_remove_sure" = "这将移除该文件夹，您的对话不会被删除。";
+"lng_filters_remove_yes" = "移除";
 
 // Wnd specific
 
@@ -2340,7 +2340,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_menu_new_group" = "新建群组";
 "lng_mac_menu_new_channel" = "新建频道";
 "lng_mac_menu_show" = "打开 Telegram";
-
+"lng_mac_menu_emoji_and_symbols" = "Emoji 与符号";
 
 "lng_mac_touchbar_favorite_stickers" = "收藏的贴纸";
 

@@ -5470,7 +5470,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-"Conversation.Dice" = "掷骰的结果是 Telegram 随机生成的。\n将 🎲 发送到任意聊天来从 Telegram 获得一个随机数。";
+"Conversation.Dice" = "将 🎲 发送到任意对话来从 Telegram 获得一个随机数。";
 
 
 /* new from translations.telegram.org */
