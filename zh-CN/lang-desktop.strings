@@ -179,15 +179,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_photo_caption" = "添加说明";
 "lng_photos_comment" = "说明";
 
-
-
-
-
-
+"lng_intro_qr_title" = "通过移动端 Telegram 应用扫描二维码";
+"lng_intro_qr_step1" = "在您的手机上打开 Telegram";
+"lng_intro_qr_step2" = "转到设置 > 设备 > 扫描二维码";
+"lng_intro_qr_step3" = "请扫描此图像以登陆";
+"lng_intro_qr_skip" = "或使用手机号码登陆";
 
 "lng_phone_title" = "您的手机号码";
 "lng_phone_desc" = "请确认您的国家代码，\n并输入您的手机号码。";
-
+"lng_phone_to_qr" = "扫描二维码快速登录";
 "lng_country_code" = "国家代码";
 "lng_bad_country_code" = "无效的国家代码";
 "lng_country_ph" = "搜索";
@@ -405,9 +405,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_themes" = "主题";
 "lng_settings_theme_day" = "日间";
 "lng_settings_theme_classic" = "经典";
-
+"lng_settings_theme_tinted" = "染";
 "lng_settings_theme_night" = "夜间";
-
+"lng_settings_theme_accent_title" = "选择强调色";
 "lng_settings_data_storage" = "数据与存储";
 "lng_settings_information" = "编辑资料";
 "lng_settings_passcode_title" = "设置锁定码";
@@ -421,11 +421,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_enable_animations" = "动画切换效果";
 "lng_settings_sensitive_title" = "敏感内容";
 "lng_settings_sensitive_disable_filtering" = "关闭过滤";
-
+"lng_settings_sensitive_about" = "允许在您所有登录 Telegram 的设备上显示公共频道内的敏感内容";
 
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
-
+"lng_settings_custom_spellchecker" = "使用拼写检查器";
 
 
 
@@ -1170,7 +1170,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_size_limit" = "文件大小限制";
 "lng_media_size_up_to" = "不超过 {size}";
 "lng_media_chat_background" = "聊天窗口背景图";
-
+"lng_media_color_theme" = "色彩主题";
 
 "lng_emoji_category1" = "人物";
 "lng_emoji_category2" = "自然";
@@ -1587,9 +1587,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mediaview_saved_to" = "图片已保存到您的 {downloads} 文件夹中";
 "lng_mediaview_downloads" = "下载";
 "lng_mediaview_video_loading" = "加载中 - {percent}";
+"lng_mediaview_playback_speed" = "播放速度";
 
-
-
+"lng_mediaview_rotate_video" = "旋转视频";
 
 "lng_theme_preview_title" = "主题预览";
 "lng_theme_preview_generating" = "正在生成主题预览...";
@@ -1653,14 +1653,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_save_button" = "保存主题";
 
 "lng_theme_editor_create_title" = "创建主题";
-
+"lng_theme_editor_attach_title" = "附加桌面版主题";
 "lng_theme_editor_create" = "新建";
 "lng_theme_editor_name" = "主题名称";
-
-
+"lng_theme_editor_create_description" = "新主题将基于您当前选择的颜色和北京。 或者，您可以从文件中导入现有主题或调色板。";
+"lng_theme_editor_attach_description" = "您可以根据当前选择的颜色和北京创建主题的桌面版部分。 或者，您可以从文件中导入现有主题或调色板。";
 "lng_theme_editor_import_existing" = "导入现有主题";
 "lng_theme_editor_save_title" = "保存主题";
-
+"lng_theme_editor_link_about" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用小写字母 a-z 、数字 0-9 和下划线 _ 。";
 
 "lng_theme_editor_menu_export" = "导出主题";
 "lng_theme_editor_menu_import" = "导入主题";
@@ -1801,12 +1801,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_inline" = "群组管理员已禁止您发送机器人内容。";
 "lng_restricted_send_polls" = "群组管理员已禁止您发起投票。";
 
-
-
-"lng_restricted_send_stickers_until" = "本群管理员限制你发送贴纸直到 {date} {time} 。";
-
-
-
+"lng_restricted_send_message_until" = "群组管理员已限制您发送消息直到 {date} {time} 。";
+"lng_restricted_send_media_until" = "群组管理员已限制您发送媒体直到 {date} {time} 。";
+"lng_restricted_send_stickers_until" = "群组管理员已限制您发送贴纸直到 {date} {time} 。";
+"lng_restricted_send_gifs_until" = "群组管理员已限制您发送 GIF 直到 {date} {time} 。";
+"lng_restricted_send_inline_until" = "群组管理员已限制您发送机器人内容直到 {date} {time} 。";
+"lng_restricted_send_polls_until" = "群组管理员已限制您发起投票直到 {date} {time} 。";
 
 "lng_restricted_send_message_all" = "全员禁言中";
 "lng_restricted_send_media_all" = "此群组不允许发送媒体。";
@@ -1815,7 +1815,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_inline_all" = "此群组不允许 Inline 机器人。";
 "lng_restricted_send_polls_all" = "抱歉，此群组不允许发起投票。";
 
-
+"lng_restricted_send_public_polls" = "抱歉，公开投票不能被转发到频道中。";
 
 "lng_exceptions_list_title" = "例外";
 "lng_removed_list_title" = "被封禁的用户";
@@ -1842,7 +1842,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_all_admins" = "全体用户和管理员";
 "lng_admin_log_about" = "这是什么？";
 "lng_admin_log_about_text" = "此列表包含了在过去48小时内群组成员和管理员执行的所有管理操作。";
-
+"lng_admin_log_about_text_channel" = "此列表包含了在过去48小时内频道管理员执行的所有管理操作。";
 "lng_admin_log_no_results_title" = "未找到操作日志";
 "lng_admin_log_no_results_text" = "找不到与您查询的近期操作相符的结果。";
 "lng_admin_log_no_results_search_text" = "找不到包含 ‘{query}’ 的近期操作。";
@@ -2218,9 +2218,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_quiz_mode" = "小测验";
 "lng_polls_create_button" = "确认";
 "lng_polls_create_one_answer" = "小测验只有一个正确答案。";
-
-
-
+"lng_polls_choose_question" = "请输入问题";
+"lng_polls_choose_answers" = "请输入至少两个候选项。";
+"lng_polls_choose_correct" = "请选择正确答案。";
 
 "lng_polls_poll_results_title" = "投票结果";
 "lng_polls_quiz_results_title" = "测验结果";
@@ -2460,6 +2460,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_reverse_side_name" = "扫描";
 "lng_passport_selfie_name" = "图片";
 "lng_phone_notreg" = "如果您还没有 Telegram 账号，\n请使用您的 {link_start}Android / iPhone 设备{link_end} [b]注册[/b] 或 {signup_start} 在此注册 {signup_end}";
+"lng_polls_create_hint" = "单击选择正确答案";
 "lng_profile_add_more_after_upgrade#other" = "从普通群组升级为超级群组后，您将可以添加高达 {count} 位成员。";
 "lng_profile_manage_admins" = "设置管理员";
 "lng_profile_manage_blocklist" = "管理被封禁用户";
@@ -2493,4 +2494,4 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_remove_user_channel" = "从频道中移除 {user} ？";
 "lng_sure_remove_user_group" = "从群组中移除 {user} ？";
 "lng_theme_editor_export_button" = "导出主题";
-"lng_theme_no_desktop_version" = "抱歉，该主题暂未包含支持Telegram Desktop的版本。\n\n(同样，Telegram Desktop暂未支持云端主题)";
+"lng_theme_no_desktop_version" = "抱歉，该主题暂未包含支持 Telegram Desktop 的版本。\n\n(同样，Telegram Desktop 暂未支持云端主题)";

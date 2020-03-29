@@ -1096,6 +1096,7 @@
     <string name="TodayAt">at</string>
     <string name="YesterdayAt">yesterday at</string>
     <string name="TodayAtFormatted">at %1$s</string>
+    <string name="TodayAtFormattedWithToday">today at %1$s</string>
     <string name="YesterdayAtFormatted">yesterday at %1$s</string>
     <string name="Online">online</string>
     <string name="LastSeen">last seen</string>
@@ -2118,6 +2119,8 @@
     <string name="FilterRemoveInclusionUserText">Are you sure you want to remove \"%1$s\" from the always included list?</string>
     <string name="FilterAvailableTitle">Chat folders</string>
     <string name="FilterAvailableText">Open *Settings &gt; Folders* to organize your chats into folders.</string>
+    <string name="FilterNameNonMuted">Not Muted</string>
+    <string name="FilterNameUnread">Unread</string>
     <!--passcode view-->
     <string name="Passcode">Passcode Lock</string>
     <string name="ChangePasscode">Change Passcode</string>
@@ -2775,6 +2778,8 @@
     <string name="LoadingStats">Loading stats...</string>
     <string name="LoadingStatsDescription">Please wait a few moments while we are generating graphs.</string>
     <string name="TopHoursChartTitle">Views by hours (UTC)</string>
+    <string name="SlideUpToLock">Slide up to lock recording</string>
+    <string name="NotificationsChartTitle">Notifications</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">Fast</string>
@@ -3589,7 +3594,6 @@
     <string name="RemindTodayAt">\'Remind today at\' HH:mm</string>
     <string name="RemindDayAt">\'Remind on\' MMM d \'at\' HH:mm</string>
     <string name="RemindDayYearAt">\'Remind on\' MMM d yyyy \'at\' HH:mm</string>
-    <string name="SlideUpToLock">Slide up to lock recording</string>
 
   <!-- new from translations.telegram.org -->
 

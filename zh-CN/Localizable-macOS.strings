@@ -301,6 +301,7 @@
 
 "AccountSettings.PrivacyAndSecurity" = "隐私和安全";
 
+
 "AccountSettings.About" = "关于";
 "AccountSettings.FAQ" = "Telegram FAQ";
 "AccountSettings.AskQuestion" = "向我们提问";
@@ -341,6 +342,16 @@
 
 "Chat.Input.Accessory.EditMessage" = "编辑消息";
 "Chat.Message.edited" = "已编辑";
+
+
+
+
+
+
+
+
+
+
 
 "PeerMedia.Popover.SharedMedia" = "分享的媒体";
 "PeerMedia.Popover.SharedFiles" = "分享的文件";
@@ -433,7 +444,7 @@
 
 "NotificationSettings.CountUnreadMessages" = "按消息数统计未读";
 
-"NotificationSettings.IncludePublicGroups" = "包含公开群组";
+
 "NotificationSettings.IncludeChannels" = "包含频道";
 
 
@@ -1899,7 +1910,8 @@
 "Search.Global.Channel1_other" = "%@, %d 位订阅者";
 
 //"ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
-"ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
+
+
 
 
 "Storage.ClearAll" = "全部清除";
@@ -3711,58 +3723,171 @@
 
 
 
-//"ChatList.Filter.Back" = "Chats";
-//
-//"ChatList.Filter.AllChats" = "All Chats";
-//"ChatList.Filter.AllChatsShort" = "All";
+
+
+
 
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
-//"ChatList.HideMuted" = "Hide Muted";
-//"ChatList.UnhideMuted" = "Unhide Muted";
-//
-//"ChatList.Filter.List.AddNew" = "Create New Filter";
-//"ChatList.Filter.List.Title" = "Filters";
-//
-//"ChatList.Filter.Preset.Title" = "Filter";
-//"ChatList.Filter.Preset.NewName" = "New Filter";
-//
-//"ChatList.Filter.Edit" = "Edit";
-//"ChatList.Filter.Delete" = "Delete";
-//"ChatList.Filter.AddChats" = "Add Chats";
-//"ChatList.Filter.EditFilters" = "Edit Filters";
-//
-//
-//"ChatList.Filter.Setup" = "Filters";
-//"ChatList.Filter.All" = "All";
-//"ChatList.Filter.PrivateChats" = "Private Chats";
-//"ChatList.Filter.PublicGroups" = "Public Groups";
-//"ChatList.Filter.PrivateGroups" = "Private Groups";
-//"ChatList.Filter.SecretChat" = "Secret Chats";
-//"ChatList.Filter.Channels" = "Channels";
-//"ChatList.Filter.Bots" = "Bots";
-//"ChatList.Filter.UnmutedChats" = "Unmuted";
-//"ChatList.Filter.UnreadChats" = "Unread";
-//
-//"ChatList.Filter.Desc.Customized" = "Customized";
-//"ChatList.Filter.Desc.Unmuted" = "All Unmuted";
-//"ChatList.Filter.Desc.Unread" = "All Unread";
-//"ChatList.Filter.Desc.PrivateChats" = "All Private Chats";
-//"ChatList.Filter.Desc.PrivateGroups" = "All Private Groups";
-//"ChatList.Filter.Desc.Groups" = "All Groups";
-//"ChatList.Filter.Desc.PublicGroups" = "All Public Groups";
-//"ChatList.Filter.Desc.Channels" = "All Channels";
-//"ChatList.Filter.Desc.Bots" = "All Bots";
-//"ChatList.Filter.Desc.SecretChats" = "All Secret Chats";
-//
-//"ChatList.Add.Placeholder" = "Select chats...";
-//"ChatList.Add.Save" = "Add";
-//
-//"ChatList.CloseFilter" = "Show All";
-//"ChatList.CloseFilterShort" = "All";
-//
-//"ChatList.Filter.Empty" = "**No chats currently match this filter.**\n\n[Edit Filters](filter)";
-//"ChatList.Filter.Tooltip" = "You can organize your chats by right click.";
 //
 //"Wallet.Splash.Intro.Header" = "Gram Wallet";
 //"Wallet.Splash.Intro.Title" = "Gram Wallet";
@@ -3975,7 +4100,7 @@
 //"Updated.TodayAt" = "updated today at %@";
 //
 //
-
+//
 //
 
 
@@ -3993,6 +4118,7 @@
 "Chat.Message.UnsendMessages" = "撤回我的消息";
 "Chat.Poll.TotalVotes_other" = "%d 人已投票";
 "Chat.Poll.TotalVotes_countable" = "%d";
+"ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "Gallery.Counter" = "%d / %d";
 "GalleryView.FastSave.Gif" = "GIF 已保存到 [下载]() 文件夹";
@@ -4001,6 +4127,7 @@
 "GeneralSettings.LargeFonts" = "大字体";
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "Notification.ScheduledTitle" = "📆 您";
+"NotificationSettings.IncludePublicGroups" = "包含公开群组";
 "PeerInfo.Admins" = "管理员";
 "PeerInfo.SetAdmins" = "设置管理员";
 "TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";

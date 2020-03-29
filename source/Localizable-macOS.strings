@@ -300,6 +300,7 @@
 "AccountSettings.Username" = "Username";
 "AccountSettings.Language" = "Language";
 "AccountSettings.PrivacyAndSecurity" = "Privacy and Security";
+"AccountSettings.Filters" = "Chat Folders";
 
 "AccountSettings.About" = "About";
 "AccountSettings.FAQ" = "Telegram FAQ";
@@ -342,6 +343,16 @@
 "Chat.Input.Accessory.EditMessage" = "Edit Message";
 "Chat.Message.edited" = "edited";
 
+
+"Chat.Input.Error.MessageTooLong_countable" = "%d";
+"Chat.Input.Error.MessageTooLong_zero" = "Your message is too long to be saved. Please remove %d characters.";
+"Chat.Input.Error.MessageTooLong_one" = "Your message is too long to be saved. Please remove %d character.";
+"Chat.Input.Error.MessageTooLong_two" = "Your message is too long to be saved. Please remove %d characters.";
+"Chat.Input.Error.MessageTooLong_few" = "Your message is too long to be saved. Please remove %d characters.";
+"Chat.Input.Error.MessageTooLong_many" = "Your message is too long to be saved. Please remove %d characters.";
+"Chat.Input.Error.MessageTooLong_other" = "Your message is too long to be saved. Please remove %d characters.";
+
+
 "PeerMedia.Popover.SharedMedia" = "Shared Media";
 "PeerMedia.Popover.SharedFiles" = "Shared Files";
 "PeerMedia.Popover.SharedLinks" = "Shared Links";
@@ -372,12 +383,12 @@
 "Login.codePlaceholder" = "code";
 
 
-
-
-
-
-
-
+"Login.QR.Title" = "Log in to Telegram by QR Code";
+"Login.QR.Help1" = "Open Telegram on your phone";
+"Login.QR.Help2" = "Go to **Settings** > **Devices** > **Scan QR**";
+"Login.QR.Help3" = "Point your phone at this screen to confirm login";
+"Login.QR.Cancel" = "Log in by phone Number";
+"Login.QR.Login" = "Log in by QR Code";
 
 "Login.EnterCodeFromApp" = "Please enter the code you've just received in Telegram on your other device.";
 "Login.SendSmsIfNotReceivedAppCode" = "Haven't received the code?";
@@ -433,7 +444,7 @@
 
 "NotificationSettings.CountUnreadMessages" = "Count Unread Messages";
 
-"NotificationSettings.IncludePublicGroups" = "Include Public Groups";
+"NotificationSettings.IncludeGroups" = "Include Groups";
 "NotificationSettings.IncludeChannels" = "Include Channels";
 
 
@@ -1899,7 +1910,8 @@
 "Search.Global.Channel1_other" = "%@, %d subscribers";
 
 /* "ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top."; */
-"ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
+"ChatList.Context.PinErrorNew2" = "Sorry, you can only pin 5 chats to the top in the main list. More chats can be pinned in Chat Folders and your Archive.";
+"ChatList.Context.PinErrorNew.SetupFolders" = "Set Up Folders";
 
 
 "Storage.ClearAll" = "Clear All";
@@ -3711,58 +3723,171 @@
 "Poll.Forward.Error" = "Sorry, polls with visible votes can’t be forwarded to channels.";
 
 
-/* "ChatList.Filter.Back" = "Chats"; */
-
-/* "ChatList.Filter.AllChats" = "All Chats"; */
-/* "ChatList.Filter.AllChatsShort" = "All"; */
 
 
 
-/* "ChatList.HideMuted" = "Hide Muted"; */
-/* "ChatList.UnhideMuted" = "Unhide Muted"; */
-
-/* "ChatList.Filter.List.AddNew" = "Create New Filter"; */
-/* "ChatList.Filter.List.Title" = "Filters"; */
-
-/* "ChatList.Filter.Preset.Title" = "Filter"; */
-/* "ChatList.Filter.Preset.NewName" = "New Filter"; */
-
-/* "ChatList.Filter.Edit" = "Edit"; */
-/* "ChatList.Filter.Delete" = "Delete"; */
-/* "ChatList.Filter.AddChats" = "Add Chats"; */
-/* "ChatList.Filter.EditFilters" = "Edit Filters"; */
 
 
-/* "ChatList.Filter.Setup" = "Filters"; */
-/* "ChatList.Filter.All" = "All"; */
-/* "ChatList.Filter.PrivateChats" = "Private Chats"; */
-/* "ChatList.Filter.PublicGroups" = "Public Groups"; */
-/* "ChatList.Filter.PrivateGroups" = "Private Groups"; */
-/* "ChatList.Filter.SecretChat" = "Secret Chats"; */
-/* "ChatList.Filter.Channels" = "Channels"; */
-/* "ChatList.Filter.Bots" = "Bots"; */
-/* "ChatList.Filter.UnmutedChats" = "Unmuted"; */
-/* "ChatList.Filter.UnreadChats" = "Unread"; */
 
-/* "ChatList.Filter.Desc.Customized" = "Customized"; */
-/* "ChatList.Filter.Desc.Unmuted" = "All Unmuted"; */
-/* "ChatList.Filter.Desc.Unread" = "All Unread"; */
-/* "ChatList.Filter.Desc.PrivateChats" = "All Private Chats"; */
-/* "ChatList.Filter.Desc.PrivateGroups" = "All Private Groups"; */
-/* "ChatList.Filter.Desc.Groups" = "All Groups"; */
-/* "ChatList.Filter.Desc.PublicGroups" = "All Public Groups"; */
-/* "ChatList.Filter.Desc.Channels" = "All Channels"; */
-/* "ChatList.Filter.Desc.Bots" = "All Bots"; */
-/* "ChatList.Filter.Desc.SecretChats" = "All Secret Chats"; */
+"ChatList.HideMuted" = "Hide Muted";
+"ChatList.UnhideMuted" = "Unhide Muted";
 
-/* "ChatList.Add.Placeholder" = "Select chats..."; */
-/* "ChatList.Add.Save" = "Add"; */
+"ChatList.Filter.List.AddNew" = "Add a Custom Folder";
+"ChatList.Filter.List.Title" = "Chat Folders";
 
-/* "ChatList.CloseFilter" = "Show All"; */
-/* "ChatList.CloseFilterShort" = "All"; */
+"ChatList.Filter.Title" = "Folder";
+"ChatList.Filter.NewTitle" = "Create Folder";
+"ChatList.Filter.Done" = "Create";
 
-/* "ChatList.Filter.Empty" = "**No chats currently match this filter.**\n\n[Edit Filters](filter)"; */
-/* "ChatList.Filter.Tooltip" = "You can organize your chats by right click."; */
+"ChatList.Filter.Edit" = "Edit";
+"ChatList.Filter.Delete" = "Delete";
+"ChatList.Filter.AddChats" = "Add Chats";
+"ChatList.Filter.EditFilters" = "Edit Folders";
+
+"ChatList.Filter.Include.LimitReached" = "Sorry, you can only add up to 100 chats.";
+"ChatList.Filter.Exclude.LimitReached" = "Sorry, you can only add up to 100 chats.";
+
+
+"ChatList.Filter.ShowMore_countable" = "%d";
+"ChatList.Filter.ShowMore_zero" = "Show %d More Chats";
+"ChatList.Filter.ShowMore_one" = "Show %d More Chat";
+"ChatList.Filter.ShowMore_two" = "Show %d More Chats";
+"ChatList.Filter.ShowMore_few" = "Show %d More Chats";
+"ChatList.Filter.ShowMore_many" = "Show %d More Chats";
+"ChatList.Filter.ShowMore_other" = "Show %d More Chats";
+
+
+"ChatList.Filter.Hide_countable" = "%d";
+"ChatList.Filter.Hide_zero" = "Hide %d Chats";
+"ChatList.Filter.Hide_one" = "Hide %d Chat";
+"ChatList.Filter.Hide_two" = "Hide %d Chats";
+"ChatList.Filter.Hide_few" = "Hide %d Chats";
+"ChatList.Filter.Hide_many" = "Hide %d Chats";
+"ChatList.Filter.Hide_other" = "Hide %d Chats";
+
+
+"ChatList.Filter.SetupEmpty" = "Add Folder";
+"ChatList.Filter.Setup" = "Edit Folders";
+"ChatList.Filter.All" = "All";
+"ChatList.Filter.Contacts" = "Contacts";
+"ChatList.Filter.NonContacts" = "Non-Contacts";
+"ChatList.Filter.Groups" = "Groups";
+"ChatList.Filter.SmallGroups" = "Small Groups";
+"ChatList.Filter.SecretChat" = "Secret Chats";
+"ChatList.Filter.Channels" = "Channels";
+"ChatList.Filter.Bots" = "Bots";
+"ChatList.Filter.MutedChats" = "Muted";
+"ChatList.Filter.ReadChats" = "Read";
+"ChatList.Filter.Archive" = "Archived";
+
+"ChatList.Filter.List.Header" = "FOLDERS";
+"ChatList.Filter.List.Desc" = "Drag and drop folders to change order. Right click to remove.";
+"ChatList.Filter.List.Remove" = "Remove";
+"ChatList.Filter.Recommended.Add" = "Add";
+"ChatList.Filter.Recommended.Header" = "RECOMMENDED";
+"ChatList.Filter.Header" = "Create folders for different groups of chats and quickly switch between them.";
+
+
+"ChatList.Add.Placeholder" = "Select chats...";
+"ChatList.Add.Save" = "Add";
+
+"ChatList.Add.TopSeparator" = "CHAT TYPES";
+"ChatList.Add.BottomSeparator" = "CHATS";
+
+"ChatList.CloseFilter" = "Show All";
+"ChatList.CloseFilterShort" = "All";
+
+"ChatList.Filter.Empty" = "**No chats currently match this folder.**\n\n[Edit Folder](filter)";
+"ChatList.Filter.Tooltip" = "You can organize your chats by right click.";
+
+"ChatList.Filter.Loading" = "**Adding Chats**\nPlease wait a few moments while we fill this folder for you...";
+
+
+"ChatList.Filter.Add.Done" = "Done";
+"ChatList.Filter.Error.LikeChats" = "Can’t create a folder that includes all your chats.";
+"ChatList.Filter.Error.Empty" = "Please add some chats or chat types to the folder.";
+
+"ChatList.Filter.Include.Desc" = "Choose chats and types of chats that will appear in this folder";
+"ChatList.Filter.Include.AddChat" = "Add Chats";
+"ChatList.Filter.Include.Header" = "INCLUDED CHATS";
+"ChatList.Filter.Include.RemoveChat" = "Remove";
+
+"ChatList.Filter.Exclude.Desc" = "Choose chats and types of chats that will never appear in this folder";
+"ChatList.Filter.Exclude.AddChat" = "Add Chats";
+"ChatList.Filter.Exclude.Header" = "EXCLUDED CHATS";
+"ChatList.Filter.Exclude.RemoveChat" = "Remove";
+
+
+"ChatList.Filter.ExcludeMuted" = "Exclude Muted";
+"ChatList.Filter.ExcludeRead" = "Exclude Read";
+
+"ChatList.Filter.Categories.Header" = "INCLUDE CHAT TYPES";
+"ChatList.Filter.Name.Header" = "FOLDER NAME";
+"ChatList.Filter.Name.Placeholder" = "Folder Name";
+
+"ChatList.Filter.Confirm.Remove.Header" = "Delete Folder";
+"ChatList.Filter.Confirm.Remove.Text" = "Are you sure you want to delete folder?";
+"ChatList.Filter.Confirm.Remove.OK" = "Delete";
+
+"ChatList.Filter.Discard.Header" = "Discard Changes";
+"ChatList.Filter.Discard.Text" = "Are you sure you want to discard all changes?";
+"ChatList.Filter.Discard.OK" = "Discard";
+"ChatList.Filter.Discard.Cancel" = "Cancel";
+
+
+
+"ChatList.Filter.Tilte.Default.Unmuted" = "Unmuted";
+"ChatList.Filter.Tilte.Default.Unread" = "Unread";
+"ChatList.Filter.Tilte.Default.Channels" = "Channels";
+"ChatList.Filter.Tilte.Default.Groups" = "Groups";
+"ChatList.Filter.Tilte.Default.Bots" = "Bots";
+"ChatList.Filter.Tilte.Default.Contacts" = "Contacts";
+"ChatList.Filter.Tilte.Default.NonContacts" = "Non-Contacts";
+
+
+"ChannelStats.Title" = "Channel Statistics";
+
+"ChannelStats.ViewsCount_countable" = "%d";
+"ChannelStats.ViewsCount_zero" = "%d views";
+"ChannelStats.ViewsCount_one" = "%d views";
+"ChannelStats.ViewsCount_two" = "%d views";
+"ChannelStats.ViewsCount_few" = "%d views";
+"ChannelStats.ViewsCount_many" = "%d views";
+"ChannelStats.ViewsCount_other" = "%d views";
+
+
+"ChannelStats.SharesCount_countable" = "%d";
+"ChannelStats.SharesCount_zero" = "%d shares";
+"ChannelStats.SharesCount_one" = "%d shares";
+"ChannelStats.SharesCount_two" = "%d shares";
+"ChannelStats.SharesCount_few" = "%d shares";
+"ChannelStats.SharesCount_many" = "%d shares";
+"ChannelStats.SharesCount_other" = "%d shares";
+
+
+"ChannelStats.Overview" = "OVERVIEW";
+"ChannelStats.Overview.Followers" = "Followers";
+"ChannelStats.Overview.EnabledNotifications" = "Enabled Notifications";
+"ChannelStats.Overview.ViewsPerPost" = "Views Per Post";
+"ChannelStats.Overview.SharesPerPost" = "Shares Per Post";
+
+"ChannelStats.Graph.Growth" = "GROWTH";
+"ChannelStats.Graph.Followers" = "FOLLOWERS";
+"ChannelStats.Graph.ViewsBySource" = "VIEWS BY SOURCE";
+"ChannelStats.Graph.ViewsByHours" = "VIEWS BY HOURS (UTC)";
+"ChannelStats.Graph.NewFollowersBySource" = "FOLLOWERS BY SOURCE";
+"ChannelStats.Graph.Language" = "LANGUAGE";
+"ChannelStats.Graph.Notifications" = "NOTIFICATIONS";
+"ChannelStats.Graph.Interactions" = "INTERACTIONS";
+
+"ChannelStats.Recent.Header" = "TOP RECENT POSTS";
+
+"Chat.Dice.Result" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
+
+"Channel.Stats.Loading" = "**Preparing stats**\nPlease wait a few moments while we generate your stats";
+
+
+
 
 /* "Wallet.Splash.Intro.Header" = "Gram Wallet"; */
 /* "Wallet.Splash.Intro.Title" = "Gram Wallet"; */
@@ -3998,6 +4123,7 @@
 "Chat.Poll.TotalVotes_many" = "%d users voted";
 "Chat.Poll.TotalVotes_other" = "%d users voted";
 "Chat.Poll.TotalVotes_countable" = "%d";
+"ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
 "Gallery.Counter" = "%d of %d";
@@ -4007,6 +4133,7 @@
 "GeneralSettings.LargeFonts" = "Large Font";
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
 "Notification.ScheduledTitle" = "📆 You";
+"NotificationSettings.IncludePublicGroups" = "Include Public Groups";
 "PeerInfo.Admins" = "Admins";
 "PeerInfo.SetAdmins" = "Set Admins";
 "SettingsSearch.Synonyms.Stickers.Masks" = " ";

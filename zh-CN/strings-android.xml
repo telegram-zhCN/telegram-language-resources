@@ -193,7 +193,7 @@
     <string name="HistoryCleared">历史聊天记录已被清除</string>
     <string name="ArticleByAuthor">%1$s</string>
     <string name="ArticleDateByAuthor">%2$s 于 %1$s</string>
-    <string name="PreviewFeedback2">Wrong layout?</string>
+    <string name="PreviewFeedback2">布局错误？</string>
     <string name="SendStickerPreview">发送贴纸</string>
     <string name="SendGifPreview">发送 GIF</string>
     <string name="ViewPackPreview">查看对应贴纸包</string>
@@ -222,7 +222,7 @@
     <string name="ArchiveHintText2">已禁用通知的对话将在接收到新消息时保持归档。</string>
     <string name="ArchiveHintHeader3">置顶的对话</string>
     <string name="ArchiveHintText3">您可以任意置顶已归档的对话。</string>
-    <string name="ScheduledOrNoSoundHint">Hold this button to schedule your message or send it without sound.</string>
+    <string name="ScheduledOrNoSoundHint">按住这个按钮来定时或静音发送您的消息。</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
@@ -382,7 +382,7 @@
     <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
     <string name="ChannelMessageContact2">%1$s 发布了一条联系人信息 %2$s</string>
     <string name="ChannelMessagePoll2">%1$s 发布了一项投票 %2$s</string>
-    <string name="ChannelMessageQuiz2">%1$s posted the quiz \"%2$s\"</string>
+    <string name="ChannelMessageQuiz2">%1$s 发布了小测验“%2$s”</string>
     <string name="ChannelMessageMap">%1$s 发布了一个位置</string>
     <string name="ChannelMessageLiveLocation">%1$s 正在共享实时位置</string>
     <string name="ChannelMessageDocument">%1$s 发布了一个文件</string>
@@ -541,7 +541,7 @@
     <string name="PollSelectOption">请先选择一个选项</string>
     <string name="PollCollapse">收起</string>
     <string name="PollExpand">展开</string>
-    <string name="PublicPollCantForward">Sorry, polls with visible votes can’t be forwarded to channels.</string>
+    <string name="PublicPollCantForward">抱歉，公开投票不能被转发到频道中。</string>
     <string name="PollCantForwardSecretChat">抱歉，无法将投票转发到加密对话。</string>
     <string name="PollMultiple">可多选</string>
     <string name="PollTapToSelect">点按选择正确答案</string>
@@ -701,7 +701,7 @@
     <string name="NoAudioFiles">无音频文件。</string>
     <string name="NoAudioFilesInfo">您的音乐库是空的。</string>
     <string name="NoAudioFound">找不到结果</string>
-    <string name="NoAudioFoundInfo">There are no matches with **%1$s** in your music library.</string>
+    <string name="NoAudioFoundInfo">在您的音乐库中找不到 **%1$s**。</string>
     <string name="AttachMusic">音乐</string>
     <string name="AudioUnknownArtist">未知艺术家</string>
     <string name="AudioUnknownTitle">未知标题</string>
@@ -946,7 +946,7 @@
     <string name="MessageNotFound">消息不存在</string>
     <string name="SlowModeHint">慢速模式已启用。您可以\n在%1$s后发送下一条消息</string>
     <string name="TapForVideo">点按照相，按住录像</string>
-    <string name="TapToViewAsList">Tap to view as a list.</string>
+    <string name="TapToViewAsList">点按以列表查看。</string>
     <string name="SendWithoutSound">静音发送</string>
     <string name="MessageScheduleSend">立刻发送</string>>
     <string name="MessageScheduleEditTime">编辑发送时间</string>
@@ -990,7 +990,7 @@
     <string name="NotificationMessageSDVideo">%1$s 给您发送了一张自毁视频</string>
     <string name="NotificationMessageContact2">%1$s 给您分享了一条 %2$s 联系人信息</string>
     <string name="NotificationMessagePoll2">%1$s 给您发送了一项头片 %2$s</string>
-    <string name="NotificationMessageQuiz2">%1$s sent you the quiz \"%2$s\"</string>
+    <string name="NotificationMessageQuiz2">%1$s 向您发送了小测验“%2$s”</string>
     <string name="NotificationMessageMap">%1$s 给您发送了一个位置</string>
     <string name="NotificationMessageLiveLocation">%1$s 正在与您共享实时位置</string>
     <string name="NotificationMessageGame">"%1$s 邀请您玩 %2$s "</string>
@@ -1007,7 +1007,7 @@
     <string name="NotificationMessageGroupPhoto">%1$s 发送了一张图片到群组 %2$s</string>
     <string name="NotificationMessageGroupVideo">%1$s 发送了一段视频到群组 %2$s</string>
     <string name="NotificationMessageGroupPoll2">%1$s  发送了一项投票 %3$s 到群组 %2$s</string>
-    <string name="NotificationMessageGroupQuiz2">%1$s sent the quiz \"%3$s\" to the group %2$s</string>
+    <string name="NotificationMessageGroupQuiz2">%1$s 向群组 %2$s 中发送了小测验 %3$s</string>
     <string name="NotificationMessageGroupContact2">%1$s 分享了一条联系人信息 %3$s 在群组 %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s 发送了一个位置到 %2$s 群组</string>
     <string name="NotificationMessageGroupLiveLocation">"%1$s 共享了实时位置在群组 %2$s "</string>
@@ -1039,7 +1039,7 @@
     <string name="NotificationGroupForwardedFew">%1$s 转发了 %3$s 到群组 %2$s</string>
     <string name="NotificationHiddenName">Telegram</string>
     <string name="NotificationHiddenChatName">Telegram</string>
-    <string name="NotificationHiddenChatUserName">User</string>
+    <string name="NotificationHiddenChatUserName">用户</string>
     <string name="NotificationHiddenMessage">新消息</string>
     <string name="Reply">回复</string>
     <string name="ReplyToGroup">回复 %1$s</string>
@@ -1049,7 +1049,7 @@
     <string name="NotificationActionPinnedText">%1$s 在群组 %3$s 置顶了 \"%2$s\"</string>
     <string name="NotificationActionPinnedNoText">%1$s 在群组 %2$s 置顶了一条消息</string>
     <string name="NotificationActionPinnedPoll2">%1$s 置顶了一项投票 %3$s 在群组 %2$s</string>
-    <string name="NotificationActionPinnedQuiz2">%1$s pinned the quiz \"%3$s\" in the group %2$s</string>
+    <string name="NotificationActionPinnedQuiz2">%1$s 在群组 %2$s 中置顶了小测验“%3$s”</string>
     <string name="NotificationActionPinnedPhoto">%1$s 在群组 %2$s 置顶了一张图片</string>
     <string name="NotificationActionPinnedGame">%1$s 在群组 %2$s 置顶了一个游戏</string>
     <string name="NotificationActionPinnedGameScore">%1$s 置顶了一项游戏成绩在群组 %2$s</string>
@@ -1096,6 +1096,7 @@
     <string name="TodayAt">于</string>
     <string name="YesterdayAt">于昨天</string>
     <string name="TodayAtFormatted">%1$s</string>
+    <string name="TodayAtFormattedWithToday">今天 %1$s</string>
     <string name="YesterdayAtFormatted">昨天 %1$s</string>
     <string name="Online">在线</string>
     <string name="LastSeen">最近上线于</string>
@@ -1176,8 +1177,8 @@
     <string name="BlockContact">屏蔽用户</string>
     <string name="BlockUser">屏蔽用户</string>
     <string name="BlockUsers">屏蔽用户</string>
-    <string name="BlockUserMessage">你是否想要阻止 **%1$s** 在Telegram上给你发消息和打电话？</string>
-    <string name="BlockUsersMessage">Do you want to block **%1$s** from messaging and calling you on Telegram?</string>
+    <string name="BlockUserMessage">您要屏蔽 %1$s 在 Telegram 上给您发送的消息与拨打的电话吗？</string>
+    <string name="BlockUsersMessage">您要屏蔽 %1$s 在 Telegram 上给您发送的消息与拨打的电话吗？</string>
     <string name="UserBlocked">用户已屏蔽</string>
     <string name="UserUnblocked">用户已取消屏蔽</string>
     <string name="EditContact">编辑联系人</string>
@@ -1305,9 +1306,9 @@
     <string name="ArchivedStickersAlertInfo">你的一些旧贴纸包已经被归档。你可以在设置里重新激活它们。</string>
     <string name="ArchivedMasksAlertTitle">已归档装饰</string>
     <string name="ArchivedMasksAlertInfo">您的一些旧图贴包已经被归档。你可以在设置里重新激活它们。</string>
-    <string name="DeleteStickerSetsAlertTitle">Delete %1$s</string>
+    <string name="DeleteStickerSetsAlertTitle">删除 %1$s</string>
     <string name="DeleteStickersAlertMessage">您确定要删除所选贴纸包吗？</string>
-    <string name="ArchiveStickerSetsAlertTitle">Archive %1$s</string>
+    <string name="ArchiveStickerSetsAlertTitle">归档 %1$s</string>
     <string name="ArchiveStickersAlertMessage">您确定要归档所选贴纸包吗？</string>
     <!--theme view-->
     <string name="Theme">主题</string>
@@ -1413,7 +1414,7 @@
     <string name="ExportTheme">导出</string>
     <string name="Create">创建</string>
     <string name="ColorPickerMainColor">主题色</string>
-    <string name="ColorPickerBackground">Background</string>
+    <string name="ColorPickerBackground">背景色</string>
     <string name="ColorPickerMyMessages">我的消息</string>
     <string name="ColorPickerResetAll">重置全部</string>
     <string name="ColorPickerReset">重置</string>
@@ -2039,8 +2040,8 @@
     <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
     <string name="TerminateWebSessionInfo">轻触以取消该网站与 Telegram 账号的关联</string>
     <string name="TerminateWebSessionText">您确定要断开与 %1$s 的连接吗？</string>
-    <string name="TerminateWebSessionTitle">Disconnect website</string>
-    <string name="TerminateWebSessionsTitle">Disconnect websites</string>
+    <string name="TerminateWebSessionTitle">取消网站关联</string>
+    <string name="TerminateWebSessionsTitle">取消网站关联</string>
     <string name="Disconnect">断开</string>
     <string name="TerminateWebSessionStop">屏蔽 %1$s</string>
     <string name="TerminateAllWebSessions">取消与所有网站的关联</string>
@@ -2118,6 +2119,8 @@
     <string name="FilterRemoveInclusionUserText">您确定要将 %1$s 从始终包括的对话中移除吗？</string>
     <string name="FilterAvailableTitle">对话文件夹</string>
     <string name="FilterAvailableText">打开 *设置-文件夹* 来将您的对话组织到文件夹中。</string>
+    <string name="FilterNameNonMuted">未禁用消息通知</string>
+    <string name="FilterNameUnread">未读</string>
     <!--passcode view-->
     <string name="Passcode">锁定码</string>
     <string name="ChangePasscode">修改锁定码</string>
@@ -2187,7 +2190,7 @@
     <string name="FootsAway">%1$s 英尺远</string>
     <string name="MilesAway">%1$s 英里远</string>
     <string name="Directions">路线</string>
-    <string name="NoPlacesFound">No places found</string>
+    <string name="NoPlacesFound">没有找到地点</string>
     <string name="NoPlacesFoundInfo">你的附近没有与”%1$s“匹配的结果。</string>
     <string name="SendLocation">发送我当前的位置</string>
     <string name="SendLiveLocation">分享我的实时位置...</string>
@@ -2226,14 +2229,14 @@
     <string name="MakeMyselfVisibleInfo">Users nearby will be able to view your profile and send you messages. This may help you find new friends, but could also attract excessive attention. You can stop sharing your profile at any time.\n\nYour phone number will remain hidden.</string>
     <string name="StopShowingMe">使我对外不可见</string>
     <string name="PeopleNearby">附近的人</string>
-    <string name="AddPeopleNearby">添加附近的人</string>
+    <string name="AddPeopleNearby">寻找附近的人</string>
     <string name="PeopleNearbyAccessInfo">快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置访问权限以启用此功能。</string>
     <string name="PeopleNearbyHeader">附近的人</string>
     <string name="PeopleNearbyAllowAccess">允许访问</string>
     <string name="PeopleNearbyGpsInfo">快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置服务以启用此功能。</string>
     <string name="PeopleNearbyGps">打开</string>
     <string name="ChatsNearbyHeader">附近的群</string>
-    <string name="PeopleNearbyInfo2">与附近的人交换联系方式并查找新伙伴</string>
+    <string name="PeopleNearbyInfo2">与附近的人交换联系方式并查找新朋友</string>
     <string name="PeopleNearbyEmpty">正在寻您你周围的用户...</string>
     <string name="NearbyCreateGroup">创建一个本地群组</string>
     <string name="NearbyStartGroup">创建群组</string>
@@ -2409,7 +2412,7 @@
     <string name="BytesSent">已发送字节</string>
     <string name="BytesReceived">已接收字节</string>
     <string name="FilesDataUsage">文件</string>
-    <string name="CallsDataUsage">通话</string>
+    <string name="CallsDataUsage">通话设置</string>
     <string name="OutgoingCalls">外拨电话</string>
     <string name="IncomingCalls">来电</string>
     <string name="CallsTotalTime">总时间</string>
@@ -2625,8 +2628,8 @@
     <!--too many communities-->
     <string name="LimitReached">达到上限</string>
     <string name="InactiveChats">不活跃的聊天</string>
-    <string name="InactiveChannelSignature">channel, inactive for %1$s</string>
-    <string name="InactiveChatSignature">%1$s, inactive for %2$s</string>
+    <string name="InactiveChannelSignature">频道，%1$s 未发布内容</string>
+    <string name="InactiveChatSignature">%1$s，%2$s 未发送消息</string>
     <string name="LeaveChats">退出 %1$s</string>
     <string name="TooManyCommunities">群组与频道过多</string>
     <string name="TooManyCommunitiesHintJoin">抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。</string>
@@ -2737,7 +2740,7 @@
     <string name="JoinGroup">加入</string>
     <string name="AddAdminErrorNotAMember">抱歉，您无法将此用户设为管理员。因为此用户不是群组成员，且您也无权添加此用户。</string>
     <string name="AddAdminErrorBlacklisted">抱歉，您无法将这位用户设为管理员。因为该用户在黑名单中，并且您无权解除其封禁。</string>
-    <string name="AddUserErrorBlacklisted">Sorry, you can\'t add this user because they are on the list of Removed Users and you can\'t unban them.</string>
+    <string name="AddUserErrorBlacklisted">抱歉，您无法添加此用户，因为他们在“已封禁用户”列表中，并且您无法解禁他们。</string>
     <string name="AddBannedErrorAdmin">抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。</string>
     <string name="ErrorSendRestrictedStickers">抱歉，群组管理员已禁止您发送贴纸。</string>
     <string name="ErrorSendRestrictedMedia">抱歉，群组管理员已禁止您发送媒体文件。</string>
@@ -2763,18 +2766,20 @@
     <string name="PermissionOpenSettings">设置</string>
     <string name="PermissionXiaomiLockscreen">请授予 Telegram 在锁屏界面显示的权限以确保通话正常工作。</string>
     <!--charts-->
-    <string name="GrowthChartTitle">Growth</string>
-    <string name="FollowersChartTitle">Followers</string>
-    <string name="InteractionsChartTitle">Interactions</string>
+    <string name="GrowthChartTitle">增长</string>
+    <string name="FollowersChartTitle">订阅数</string>
+    <string name="InteractionsChartTitle">互动</string>
     <string name="ViewsBySourceChartTitle">Views by source</string>
     <string name="NewFollowersBySourceChartTitle">New followers by source</string>
-    <string name="LanguagesChartTitle">Languages</string>
-    <string name="RecentPosts">Recent posts</string>
-    <string name="ZoomOut">Zoom out</string>
-    <string name="IVInteractionsChartTitle">IV Interactions</string>
-    <string name="LoadingStats">Loading stats...</string>
-    <string name="LoadingStatsDescription">Please wait a few moments while we are generating graphs.</string>
-    <string name="TopHoursChartTitle">Views by hours (UTC)</string>
+    <string name="LanguagesChartTitle">语言</string>
+    <string name="RecentPosts">最近发布</string>
+    <string name="ZoomOut">缩小</string>
+    <string name="IVInteractionsChartTitle">即时预览互动</string>
+    <string name="LoadingStats">正在加载统计数据...</string>
+    <string name="LoadingStatsDescription">图表绘制中，请稍等片刻。</string>
+    <string name="TopHoursChartTitle">每小时浏览次数（UTC）</string>
+    <string name="SlideUpToLock">向上滑动以锁定录制</string>
+    <string name="NotificationsChartTitle">通知</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">极速</string>
@@ -3032,12 +3037,12 @@
     
     
     <!--plural-->
-    <string name="DeleteBackground_zero">Delete %1$d backgrounds</string>
-    <string name="DeleteBackground_one">Delete background</string>
-    <string name="DeleteBackground_two">Delete %1$d backgrounds</string>
-    <string name="DeleteBackground_few">Delete %1$d backgrounds</string>
-    <string name="DeleteBackground_many">Delete %1$d backgrounds</string>
-    <string name="DeleteBackground_other">Delete %1$d backgrounds</string>
+    <string name="DeleteBackground_zero">删除 %1$d 张背景</string>
+    <string name="DeleteBackground_one">删除 %1$d 张背景</string>
+    <string name="DeleteBackground_two">删除 %1$d 张背景</string>
+    <string name="DeleteBackground_few">删除 %1$d 张背景</string>
+    <string name="DeleteBackground_many">删除 %1$d 张背景</string>
+    <string name="DeleteBackground_other">删除 %1$d 张背景</string>
     <string name="Recipient_zero">%1$d 个接收者</string>
     <string name="Recipient_one">%1$d 个接收者</string>
     <string name="Recipient_two">%1$d 个接收者</string>
@@ -3278,24 +3283,24 @@
     <string name="DaysBold_few">**%1$d** 天</string>
     <string name="DaysBold_many">**%1$d** 天</string>
     <string name="DaysBold_other">**%1$d** 天</string>
-    <string name="Views_zero">%1$s views</string>
-    <string name="Views_one">%1$s view</string>
-    <string name="Views_two">%1$s views</string>
-    <string name="Views_few">%1$s views</string>
-    <string name="Views_many">%1$s views</string>
-    <string name="Views_other">%1$s views</string>
-    <string name="Shares_zero">%1$s shares</string>
-    <string name="Shares_one">%1$s share</string>
-    <string name="Shares_two">%1$s shares</string>
-    <string name="Shares_few">%1$s shares</string>
-    <string name="Shares_many">%1$s shares</string>
-    <string name="Shares_other">%1$s shares</string>
-    <string name="StickerSets_zero">%1$s sticker sets</string>
-    <string name="StickerSets_one">%1$s sticker set</string>
-    <string name="StickerSets_two">%1$s sticker sets</string>
-    <string name="StickerSets_few">%1$s sticker sets</string>
-    <string name="StickerSets_many">%1$s sticker sets</string>
-    <string name="StickerSets_other">%1$s sticker sets</string>
+    <string name="Views_zero">%1$s 次查看</string>
+    <string name="Views_one">%1$s 次查看</string>
+    <string name="Views_two">%1$s 次查看</string>
+    <string name="Views_few">%1$s 次查看</string>
+    <string name="Views_many">%1$s 次查看</string>
+    <string name="Views_other">%1$s 次查看</string>
+    <string name="Shares_zero">%1$s 次分享</string>
+    <string name="Shares_one">%1$s 次分享</string>
+    <string name="Shares_two">%1$s 次分享</string>
+    <string name="Shares_few">%1$s 次分享</string>
+    <string name="Shares_many">%1$s 次分享</string>
+    <string name="Shares_other">%1$s 次分享</string>
+    <string name="StickerSets_zero">%1$s 个贴纸包</string>
+    <string name="StickerSets_one">%1$s 个贴纸包</string>
+    <string name="StickerSets_two">%1$s 个贴纸包</string>
+    <string name="StickerSets_few">%1$s 个贴纸包</string>
+    <string name="StickerSets_many">%1$s 个贴纸包</string>
+    <string name="StickerSets_other">%1$s 个贴纸包</string>
     <!--forwarded messages-->
     <string name="ForwardedMessageCount_zero">%1$d 条转发的消息</string>
     <string name="ForwardedMessageCount_one">%1$d 条转发的消息</string>
@@ -3471,12 +3476,12 @@
     <string name="UsersCountTitle_few">%1$d 个用户</string>
     <string name="UsersCountTitle_many">%1$d 个用户</string>
     <string name="UsersCountTitle_other">%1$d 个用户</string>
-    <string name="MembersCountSelected_zero">%1$d of %2$d selected</string>
-    <string name="MembersCountSelected_one">%1$d of %2$d selected</string>
-    <string name="MembersCountSelected_two">%1$d of %2$d selected</string>
-    <string name="MembersCountSelected_few">%1$d of %2$d selected</string>
-    <string name="MembersCountSelected_many">%1$d of %2$d selected</string>
-    <string name="MembersCountSelected_other">%1$d of %2$d selected</string>
+    <string name="MembersCountSelected_zero">%1$d / %2$d</string>
+    <string name="MembersCountSelected_one">%1$d / %2$d</string>
+    <string name="MembersCountSelected_two">%1$d / %2$d</string>
+    <string name="MembersCountSelected_few">%1$d / %2$d</string>
+    <string name="MembersCountSelected_many">%1$d / %2$d</string>
+    <string name="MembersCountSelected_other">%1$d / %2$d</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
@@ -3589,7 +3594,6 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
-    <string name="SlideUpToLock">Slide up to lock recording</string>
 
   <!-- new from translations.telegram.org -->
 
