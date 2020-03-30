@@ -969,7 +969,8 @@
     <string name="TextSelectionHit">按住消息中的**文字**，移动光标选择完毕之后即可复制。</string>
     <string name="CardNumberCopied">银行卡号已复制到剪切板</string>
     <string name="CopyCardNumber">赋值</string>
-    <string name="DiceInfo">将 &#127922; 发送到任意对话来从 Telegram 获得一个随机数。</string>
+    <string name="DiceInfo2">Send a **:dice:** emoji to any chat to roll a die.</string>
+    <string name="SendDice">SEND</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -3617,6 +3618,7 @@
   <string name="CreateNewThemeInfo">您可以在应用内修改其颜色来创建您自己的主题。您可以在任何时候在这里还原为 Telegram 默认的主题。</string>
   <string name="DeleteAccountIfAwayFor">离线时间</string>
   <string name="DeleteLocalization">要删除这个语言包吗？</string>
+  <string name="DiceInfo">将 &#127922; 发送到任意对话来从 Telegram 获得一个随机数。</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="EmojiBigSize">显示单个大号 emoji</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>

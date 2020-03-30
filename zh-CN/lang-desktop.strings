@@ -1329,6 +1329,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_skip_archive_in_search" = "隐藏已归档的搜索结果";
 "lng_dialogs_show_archive_in_search" = "显示已归档的搜索结果";
 
+
+
 "lng_open_this_link" = "打开此链接？";
 "lng_open_link" = "打开";
 "lng_allow_bot_pass" = "是否允许 {bot_name} 传送您的 Telegram 昵称及 ID（不是您的手机号码）到通过机器人打开的网页中呢？";

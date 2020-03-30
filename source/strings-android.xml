@@ -969,7 +969,8 @@
     <string name="TextSelectionHit">Hold the **word**, then move the cursor to select more text to copy.</string>
     <string name="CardNumberCopied">Card number copied to clipboard</string>
     <string name="CopyCardNumber">Copy</string>
-    <string name="DiceInfo">Send a &#127922; emoji to any chat to get a random number from Telegram.</string>
+    <string name="DiceInfo2">Send a **:dice:** emoji to any chat to roll a die.</string>
+    <string name="SendDice">SEND</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s set the self-destruct timer to %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">You set the self-destruct timer to %1$s</string>
@@ -3617,6 +3618,7 @@
   <string name="CreateNewThemeInfo">You can create your own theme by changing colors within the app. You can always switch back to the default Telegram theme here.</string>
   <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
   <string name="DeleteLocalization">Delete localization?</string>
+  <string name="DiceInfo">Send a &#127922; emoji to any chat to get a random number from Telegram.</string>
   <string name="EmailPasswordConfirmText">Please follow these steps to complete Two-Step Verification Setup:\n\n1. Check your email (don\'t forget the spam folder)\n%1$s\n\n2. Click on the validation link.</string>
   <string name="EmojiBigSize">Draw single big emoji</string>
   <string name="EnableProxyAlert">Are you sure you want to enable this proxy?</string>

@@ -5420,7 +5420,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.PeerTypeBot" = "bot";
 "ChatList.PeerTypeGroup" = "group";
 "ChatList.PeerTypeChannel" = "channel";
-"ChatListFolderSettings.Info" = "Create folders for different groups of chats and\nquickly switch between them.";
+"ChatListFolderSettings.Info" = "Create folders for different groups of chats and quickly switch between them.";
 
 "ChatListFolderSettings.Title" = "Folders";
 "ChatListFolderSettings.FoldersSection" = "FOLDERS";

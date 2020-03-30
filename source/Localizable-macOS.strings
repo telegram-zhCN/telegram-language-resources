@@ -3744,8 +3744,8 @@
 "ChatList.Filter.AddChats" = "Add Chats";
 "ChatList.Filter.EditFilters" = "Edit Folders";
 
-"ChatList.Filter.Include.LimitReached" = "Sorry, you can only add up to 100 chats.";
-"ChatList.Filter.Exclude.LimitReached" = "Sorry, you can only add up to 100 chats.";
+"ChatList.Filter.Include.LimitReached" = "Sorry, you can only add up to 100 individual chats. Try using chat types.";
+"ChatList.Filter.Exclude.LimitReached" = "Sorry, you can only add up to 100 individual chats. Try using chat types.";
 
 
 "ChatList.Filter.ShowMore_countable" = "%d";
@@ -3807,12 +3807,12 @@
 "ChatList.Filter.Error.LikeChats" = "Can’t create a folder that includes all your chats.";
 "ChatList.Filter.Error.Empty" = "Please add some chats or chat types to the folder.";
 
-"ChatList.Filter.Include.Desc" = "Choose chats and types of chats that will appear in this folder";
+"ChatList.Filter.Include.Desc" = "Choose chats and types of chats that will appear in this folder.";
 "ChatList.Filter.Include.AddChat" = "Add Chats";
 "ChatList.Filter.Include.Header" = "INCLUDED CHATS";
 "ChatList.Filter.Include.RemoveChat" = "Remove";
 
-"ChatList.Filter.Exclude.Desc" = "Choose chats and types of chats that will never appear in this folder";
+"ChatList.Filter.Exclude.Desc" = "Choose chats and types of chats that will not appear in this folder.";
 "ChatList.Filter.Exclude.AddChat" = "Add Chats";
 "ChatList.Filter.Exclude.Header" = "EXCLUDED CHATS";
 "ChatList.Filter.Exclude.RemoveChat" = "Remove";
@@ -3825,8 +3825,8 @@
 "ChatList.Filter.Name.Header" = "FOLDER NAME";
 "ChatList.Filter.Name.Placeholder" = "Folder Name";
 
-"ChatList.Filter.Confirm.Remove.Header" = "Delete Folder";
-"ChatList.Filter.Confirm.Remove.Text" = "Are you sure you want to delete folder?";
+"ChatList.Filter.Confirm.Remove.Header" = "Remove Folder";
+"ChatList.Filter.Confirm.Remove.Text" = "Are you sure you want to remove this folder?";
 "ChatList.Filter.Confirm.Remove.OK" = "Delete";
 
 "ChatList.Filter.Discard.Header" = "Discard Changes";
