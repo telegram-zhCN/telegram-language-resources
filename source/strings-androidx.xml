@@ -420,7 +420,7 @@
   <string name="ChannelBroadcast">Broadcast</string>
   <string name="LeaveChannel">Leave channel</string>
   <string name="DestroyChannel">Destroy channel</string>
-  <string name="DestroyChannelHint">Wait! Deleting this channel will remove all members and all messages will be lost.\nDelete the channel anyway?</string>
+  <string name="DestroyChannelHint">Wait! Deleting this channel will remove all subscribers and all messages will be lost.\nDelete the channel anyway?</string>
   <string name="LeaveMegaMenu">Leave group</string>
   <string name="DestroyGroup">Destroy group</string>
   <string name="DestroyGroupHint">Wait! Deleting this group will remove all members and all messages will be lost.\nDelete the group anyway?</string>

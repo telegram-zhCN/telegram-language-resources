@@ -969,8 +969,8 @@
     <string name="TextSelectionHit">按住消息中的**文字**，移动光标选择完毕之后即可复制。</string>
     <string name="CardNumberCopied">银行卡号已复制到剪切板</string>
     <string name="CopyCardNumber">赋值</string>
-    <string name="DiceInfo2">Send a **:dice:** emoji to any chat to roll a die.</string>
-    <string name="SendDice">SEND</string>
+    <string name="DiceInfo2">发送一个 **:dice:** 到任意对话来掷骰。</string>
+    <string name="SendDice">发送</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>

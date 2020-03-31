@@ -111,7 +111,7 @@
 "PeerInfo.Confirm.LeaveChannel" = "Are you sure you want to leave this channel?";
 "PeerInfo.Confirm.LeaveGroup" = "Are you sure you want to leave this group?\n\nThis action cannot be undone.";
 "PeerInfo.Confirm.DeleteChat" = "Are you sure you want to delete all message history and leave \"%@\"?\n\nThis action cannot be undone.";
-"Confirm.DeleteAdminedChannel" = "Wait! Deleting this channel will remove all of its members and all of its messages will be lost forever.\n\nAre you sure you want to continue?";
+"Confirm.DeleteAdminedChannel" = "Wait! Deleting this channel will remove all of its subscribers and all of its messages will be lost forever.\n\nAre you sure you want to continue?";
 "Confirm.DeleteChatUser" = "Are you sure you want to delete all message history?\n\nThis action cannot be undone.";
 "Confirm.LeaveGroup" = "Are you sure you want to leave this group?";
 
@@ -363,6 +363,9 @@
 "PeerMedia.Files" = "Docs";
 "PeerMedia.Links" = "Links";
 "PeerMedia.Audio" = "Audio";
+
+"PeerMedia.Voice" = "Voice";
+
 
 "Chat.Message.Via" = "via";
 
@@ -641,7 +644,7 @@
 "Text.CopyText" = "Copy Text";
 "Text.CopyLabel" = "Copy %@";
 
-
+"Peer.Activity.User.PlayingGame" = "playing a game";
 "Peer.Activity.User.TypingText" = "typing";
 "Peer.Activity.User.SendingPhoto" = "sending a photo";
 "Peer.Activity.User.RecordingVideo" = "recording video";
@@ -2170,7 +2173,7 @@
 "SecureId.Address.Scans_other" = "%d scans";
 
 
-"SecureId.IdentityScan.Description" = "The document must contain your first and last name, your residential address, a stamp / barcode / QR code / logo, and issue date, no more than 3 month ago.";
+"SecureId.IdentityScan.Description" = "The document must contain your first and last name, your residential address, a stamp / barcode / QR code / logo, and issue date, no more than 3 months ago.";
 
 
 "SecureId.RequestedInformation.Header" = "REQUESTED INFORMATION";
@@ -2511,7 +2514,6 @@
 "StorageUsage.Clear" = "Clear";
 
 
-"PeerMedia.Voice" = "Voice";
 
 
 "ChatList.Swiping.Read" = "Read";
@@ -3415,7 +3417,7 @@
 
 "Channel.Permissions.SlowMode.Header" = "SLOW MODE";
 
-
+"Channel.SlowMode.ToolTip" = "Slowmode is enabled.\nYou can send your next message in %@:%@";
 
 "SlowMode.Multiple.Error" = "Slow Mode is active. You can't send more than one message at a time.";
 "SlowMode.ForwardComment.Error" = "Slow Mode is active. You can't forward a message with a comment.";
@@ -3723,9 +3725,9 @@
 "Poll.Forward.Error" = "Sorry, polls with visible votes can’t be forwarded to channels.";
 
 
+"ChatList.Filter.Back" = "Chats";
 
-
-
+"ChatList.Filter.AllChats" = "All Chats";
 
 
 

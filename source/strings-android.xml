@@ -330,7 +330,7 @@
     <string name="ChannelAdministrators">Administrators</string>
     <string name="ChannelDelete">Delete Channel</string>
     <string name="ChannelDeleteMenu">Delete channel</string>
-    <string name="ChannelDeleteAlert">Wait! Deleting this channel will remove all members and all messages will be lost. Delete the channel anyway?</string>
+    <string name="ChannelDeleteAlert">Wait! Deleting this channel will remove all subscribers and all messages will be lost. Delete the channel anyway?</string>
     <string name="ChannelLeaveAlert">Are you sure you want to leave the channel?</string>
     <string name="ChannelLeaveAlertWithName">Are you sure you want to leave **%1$s**?</string>
     <string name="ChannelDeleteInfo">You will lose all messages in this channel.</string>
@@ -398,7 +398,7 @@
     <string name="WhoCanAddMembersAllMembers">All Members</string>
     <string name="WhoCanAddMembersAdmins">Only Admins</string>
     <string name="ChannelNotifyMembersInfoOn">Subscribers will be notified when you post</string>
-    <string name="ChannelNotifyMembersInfoOff">Members will receive a silent notification</string>
+    <string name="ChannelNotifyMembersInfoOff">Subscribers will receive a silent notification</string>
     <string name="ChannelSignMessages">Sign Messages</string>
     <string name="ChannelSignMessagesInfo">Add names of the admins to the messages they post.</string>
     <string name="EditAdmin">Admin Rights</string>

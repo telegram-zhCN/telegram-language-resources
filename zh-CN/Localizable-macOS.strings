@@ -364,6 +364,9 @@
 "PeerMedia.Links" = "链接";
 "PeerMedia.Audio" = "音乐";
 
+"PeerMedia.Voice" = "留言";
+
+
 "Chat.Message.Via" = "通过";
 
 "Audio.UnknownArtist" = "未知艺术家";
@@ -2511,7 +2514,6 @@
 "StorageUsage.Clear" = "清除";
 
 
-"PeerMedia.Voice" = "留言";
 
 
 "ChatList.Swiping.Read" = "设为已读";
