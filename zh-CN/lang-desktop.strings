@@ -1329,7 +1329,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_skip_archive_in_search" = "隐藏已归档的搜索结果";
 "lng_dialogs_show_archive_in_search" = "显示已归档的搜索结果";
 
-
+"lng_about_dice" = "将 🎲 发送到任意对话来从 Telegram 获得一个随机数。";
 
 "lng_open_this_link" = "打开此链接？";
 "lng_open_link" = "打开";
