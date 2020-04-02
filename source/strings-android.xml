@@ -919,7 +919,7 @@
     <string name="AttachGifRestricted">The admins of this group have restricted you from sending GIFs here until %1$s</string>
     <string name="SendMessageRestricted">The admins of this group have restricted you from writing here until %1$s</string>
     <string name="AttachMediaRestrictedForever">The admins of this group have restricted you from sending media here.</string>
-    <string name="AttachInlineRestrictedForever">The admins of this group have restricted you from sending inline content here</string>
+    <string name="AttachInlineRestrictedForever">The admins of this group have restricted you from sending inline content here.</string>
     <string name="AttachStickersRestrictedForever">The admins of this group have restricted you from sending stickers.</string>
     <string name="AttachGifRestrictedForever">The admins of this group have restricted you from sending GIFs.</string>
     <string name="SendMessageRestrictedForever">The admins of this group have restricted you from writing here.</string>
