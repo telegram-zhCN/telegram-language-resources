@@ -1844,7 +1844,7 @@
 
 "Conversation.MessageViaUser" = "via %@";
 
-"CreateGroup.SoftUserLimitAlert" = "You will be able to add more users after you finish creating the group and convert it to a supergroup.";
+"CreateGroup.SoftUserLimitAlert" = "You will be able to add more members after you create the group.";
 
 "Privacy.GroupsAndChannels" = "Groups & Channels";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "WHO CAN ADD ME";

@@ -1123,7 +1123,7 @@
     <string name="PhoneNumberSearch">Phone number</string>
     <!--group create view-->
     <string name="SendMessageTo">Add people...</string>
-    <string name="SoftUserLimitAlert">You will be able to add more users after you finish creating the group and convert it to a supergroup.</string>
+    <string name="SoftUserLimitAlert">You will be able to add more members after you create the group.</string>
     <string name="EnterGroupNamePlaceholder">Enter group name</string>
     <string name="GroupName">Group name</string>
     <string name="MembersCountZero">up to %1$s</string>

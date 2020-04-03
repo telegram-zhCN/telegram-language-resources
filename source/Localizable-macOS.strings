@@ -2029,7 +2029,7 @@
 
 "Chat.Service.BotPermissionAllowed" = "You allowed this bot to message you when you logged in on %@";
 
-"Compose.CreateGroup.LimitError" = "You will be able to add more users after you finish creating the group and convert it to supergroup.";
+"Compose.CreateGroup.LimitError" = "You will be able to add more members after you create the group.";
 
 
 "PeerInfo.Bot.AddToGroup" = "Add To Group";

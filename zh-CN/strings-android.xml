@@ -2052,7 +2052,7 @@
     <string name="LoginAttemptsInfo">这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。</string>
     <!--filters-->
     <string name="Filters">文件夹</string>
-    <string name="FiltersSetup">Setup</string>
+    <string name="FiltersSetup">设定</string>
     <string name="FiltersSetupPinAlert">设置文件夹</string>
     <string name="CreateNewFilter">创建新文件夹</string>
     <string name="CreateNewFilterInfo">为不同的对话创建文件夹，然后在它们之间快速切换。</string>
