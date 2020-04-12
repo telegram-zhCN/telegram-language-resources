@@ -4543,7 +4543,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.SendMessage.SendSilently" = "静音发送";
 "Conversation.SendMessage.ScheduleMessage" = "定时发送";
 
-
+"Appearance.ThemeCarouselTintedNight" = "暗黑";
 "Appearance.ThemeCarouselNewNight" = "夜间";
 
 "Channel.AdminLog.MessageRankName" = "修改了 %1$@ 的自定义头衔:\n%2$@";
@@ -4689,7 +4689,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Appearance.ThemePreview.Chat.2.ReplyName" = "Bob Harris";
 
 
 
@@ -4722,29 +4722,29 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.UploadNewTheme" = "从文件创建...";
 "EditTheme.UploadEditedTheme" = "从文件上传...";
 "EditTheme.ThemeTemplateAlertTitle" = "新的主题已添加";
-
+"EditTheme.ThemeTemplateAlertText" = "按住主题以编辑或获取共享链接。 每次更改主题后，安装主题的用户都会获得自动更新。\n\n要进行高级编辑，你可以在“已保存的消息”中找到带有主题的文件。";
 "EditTheme.FileReadError" = "主题文件无效";
 
 "EditTheme.Create.TopInfo" = "主题将基于您当前选择的颜色和壁纸。";
+"EditTheme.Create.BottomInfo" = "您还可以使用手动编辑的自定义主题文件。";
 
+"EditTheme.Expand.TopInfo" = "主题将基于您当前选择的颜色和背景。";
+"EditTheme.Expand.BottomInfo" = "您还可以使用手动编辑的自定义主题文件。";
 
-
-
-
-
+"EditTheme.Edit.TopInfo" = "每次更改主题时，将为所有用户同步更新。 任何人都可以使用此链接进行安装。\n\n主题链接的长度必须至少为** 5 **个字符，并且可以使用** a-z **，** 0-9 **和下划线。";
 "EditTheme.Edit.BottomInfo" = "您可以选择一个新文件来更新主题。 它将为所有用户更新。";
 
+"EditTheme.Create.Preview.IncomingReplyName" = "Bob";
+"EditTheme.Create.Preview.IncomingReplyText" = "它是如何工作的？";
+"EditTheme.Create.Preview.IncomingText" = "使用当前的颜色";
+"EditTheme.Create.Preview.OutgoingText" = "或者上传一个主题文件";
 
-
-
-
-
-
-
-
+"EditTheme.Expand.Preview.IncomingReplyName" = "Bob";
+"EditTheme.Expand.Preview.IncomingReplyText" = "它是如何工作的？";
+"EditTheme.Expand.Preview.IncomingText" = "使用您当前的颜色";
 "EditTheme.Expand.Preview.OutgoingText" = "或上传一个主题文件";
 
-
+"EditTheme.Edit.Preview.IncomingReplyName" = "Bob";
 "EditTheme.Edit.Preview.IncomingReplyText" = "它是如何工作的？";
 "EditTheme.Edit.Preview.IncomingText" = "使用你当前的颜色";
 "EditTheme.Edit.Preview.OutgoingText" = "或者上传一个主题文件";
@@ -5039,7 +5039,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Conversation.ClearCache" = "清除缓存";
 
 
 
@@ -5112,7 +5112,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "ChatList.DeletedChats_any" = "删除一个对话\n删除 %@ 个对话";
 
-
+"Appearance.ColorThemeNight" = "颜色主题 — 自动-夜间模式";
 
 "UserInfo.StartSecretChatConfirmation" = "确定开启与%@的加密对话吗？";
 "UserInfo.StartSecretChatStart" = "开始";
@@ -5142,15 +5142,15 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"IntentsSettings.SuggestedChats" = "建议的对话";
+"IntentsSettings.SuggestedChatsContacts" = "联系人";
+"IntentsSettings.SuggestedChatsSavedMessages" = "收藏夹";
+"IntentsSettings.SuggestedChatsPrivateChats" = "私密对话";
+"IntentsSettings.SuggestedChatsGroups" = "群组";
 
 
 
-
-
-
-
-
-
+"IntentsSettings.SuggestByAll" = "所有发出的信息";
 
 
 "IntentsSettings.Reset" = "重置";
@@ -5328,11 +5328,20 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"PeerInfo.ButtonMute" = "静音";
+"PeerInfo.ButtonUnmute" = "取消静音";
+"PeerInfo.ButtonMore" = "更多";
+"PeerInfo.ButtonAddMember" = "添加成员";
 
 
 
+"PeerInfo.PaneMedia" = "媒体";
+"PeerInfo.PaneFiles" = "文件";
+"PeerInfo.PaneLinks" = "链接";
 
+"PeerInfo.PaneAudio" = "音频";
 
+"PeerInfo.PaneMembers" = "成员";
 
 
 
@@ -5340,11 +5349,14 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatList.EmptyChatList" = "您还没有过对话。";
 
 
 
+"ChatList.EmptyChatListNewMessage" = "新建对话";
 
 
+"ChatListFilter.AddChatsTitle" = "添加对话";
 
 
 
@@ -5392,6 +5404,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatList.AddChatsToFolder" = "添加对话";
 
 
 
@@ -5404,34 +5417,38 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatList.ChatTypesSection" = "对话类型";
 
+"ChatList.PeerTypeContact" = "联系人";
+"ChatList.PeerTypeBot" = "机器人";
+"ChatList.PeerTypeGroup" = "群组";
 
+"ChatListFolderSettings.Info" = "为对话创建不同的文件夹，并且可以在它们间迅速切换。";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"ChatListFolderSettings.Title" = "文件夹";
+"ChatListFolderSettings.FoldersSection" = "文件夹";
+"ChatListFolderSettings.NewFolder" = "创建新文件夹";
+"ChatListFolderSettings.EditFoldersInfo" = "点按 “编辑” 以对分组进行排序或删除。";
 "ChatListFolderSettings.RecommendedFoldersSection" = "推荐文件夹";
 
 
+"ChatListFolder.TitleCreate" = "新建文件夹";
+
+"ChatListFolder.CategoryContacts" = "联系人";
+"ChatListFolder.CategoryNonContacts" = "非联系人";
+"ChatListFolder.CategoryBots" = "机器人";
+"ChatListFolder.CategoryGroups" = "群组";
+"ChatListFolder.CategoryChannels" = "频道";
+"ChatListFolder.CategoryMuted" = "已禁用消息通知";
+"ChatListFolder.CategoryRead" = "已读";
+"ChatListFolder.CategoryArchived" = "已归档";
+"ChatListFolder.NameSectionHeader" = "文件夹名";
+"ChatListFolder.NamePlaceholder" = "文件夹名";
+"ChatListFolder.IncludedSectionHeader" = "已包括的对话";
+
+"ChatListFolder.IncludeSectionInfo" = "选择会出现在此文件夹中的对话和对话类型。";
+"ChatListFolder.ExcludedSectionHeader" = "已排除的对话";
+"ChatListFolder.ExcludeSectionInfo" = "选择不会出现在此文件夹中的对话和对话类型。";
 
 
 
@@ -5442,27 +5459,10 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatListFolder.IncludeChatsTitle" = "包括的对话";
+"ChatListFolder.ExcludeChatsTitle" = "排除的对话";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"ChatListFolderSettings.AddRecommended" = "添加";
 
 
 
@@ -5588,6 +5588,7 @@ Any member of this group will be able to see messages in the channel.";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";
 "ENCRYPTION_REQUEST" = "新加密对话请求 %1$@";
+"EditTheme.ThemeTemplateAlert" = "新主题已添加\n\n按住主题进行编辑或获取分享链接。 每次更改主题后，安装主题的用户都会自动获得更新。\n\n为了进行高级编辑，可以在“已保存的消息”中找到带有主题的文件。";
 "EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
