@@ -54,6 +54,7 @@
   <string name="timestampShort_weekday">%1$s %2$s</string>
   <string name="timestampShort_date">%1$s %2$s</string>
   <string name="format_timestamp">%1$02d-%2$02d-%3$02d %4$s</string>
+  
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">、</string>
@@ -263,6 +264,9 @@
   <string name="ChatContentVoice">语音留言</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">视频留言</string>
+  
+  
+  
   <string name="ChatContentVideo">视频</string>
   <string name="ChatContentFile">文件</string>
   <string name="ChatContentPhoto">图片</string>
@@ -1473,7 +1477,6 @@
   <string name="EventLogLocationRemoved">%1$s 移除了群组位置</string>
   <string name="UntilX">直到 %1$s</string>
   <string name="NetworkUsage">网络用量</string>
-  <string name="Use169Output">16:9 相机分辨率</string>
   <string name="RecentStickers">近期使用过</string>
   <string name="AddToFavorites">添加到收藏夹</string>
   <string name="RemoveFromFavorites">从收藏中移除</string>
@@ -2666,6 +2669,7 @@
   <string name="ChatDisabledGifs">仅管理员能在此群组中发送GIF</string>
   <string name="ChatDisabledBots">仅管理员能在此群组中使用inline机器人</string>
   <string name="ChatDisabledStickers">只有管理员能在这个群组中发送贴纸</string>
+  
   <string name="ChatDisabledMedia">仅管理员能在此群组中发送媒体文件</string>
   <string name="ChatDisabledPolls">仅管理员能在此群组中发送投票</string>
   <string name="ChatDisabledMessages">仅管理员能在此群组中发言</string>
@@ -2675,6 +2679,8 @@
   <string name="ChatRestrictedBots">管理员禁止您在此群组中发送机器人内容</string>
   
   <string name="ChatRestrictedStickers">管理员禁止您在此群组中发送贴纸</string>
+  
+  
   
   <string name="ChatRestrictedMedia">管理员限制了您在此群组中发送媒体文件</string>
   
@@ -3084,6 +3090,66 @@
 
   
   
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
   
   
 
@@ -3167,6 +3233,7 @@
   <string name="SignOutAltHint">注销将会销毁所有的加密聊天记录。</string>
   <string name="SignOutHint">您确定要退出 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝地使用 Telegram。\n\n请记住，这将会清除所有的加密聊天记录。</string>
   <string name="UndoAllCustom">撤销所有对联系人、群组和频道的通知设置更改</string>
+  <string name="Use169Output">16:9 相机分辨率</string>
   <string name="WhoCanAddMembers">邀请新成员权限</string>
   <string name="WhoCanAddMembersAllMembers">所有成员</string>
   <string name="XSentAFile">%1$s发送了一个文件</string>

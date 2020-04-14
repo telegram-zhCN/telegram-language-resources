@@ -54,6 +54,7 @@
   <string name="timestampShort_weekday">%1$s at %2$s</string>
   <string name="timestampShort_date">%1$s at %2$s</string>
   <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
+  
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">", "</string>
@@ -263,6 +264,9 @@
   <string name="ChatContentVoice">Voice Message</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">Video Message</string>
+  
+  
+  
   <string name="ChatContentVideo">Video</string>
   <string name="ChatContentFile">File</string>
   <string name="ChatContentPhoto">Photo</string>
@@ -1368,8 +1372,8 @@
   <string name="AdminCanAssignAdmins">This admin will be able to add new admins with the same (or more limited) permissions.</string>
   <string name="AdminCannotAssignAdmins">This admin will not be able to add new admins.</string>
   <string name="ShareMyContactInfo">Share my contact</string>
-  <string name="MemberBanChannel">This User will be banned and removed from channel.</string>
-  <string name="MemberBanGroup">This User will be banned and removed from group.</string>
+  <string name="MemberBanChannel">This user will be banned and removed from the channel.</string>
+  <string name="MemberBanGroup">This user will be banned and removed from the group.</string>
   <string name="MemberRestrictChannel">This user will not be removed from the channel.</string>
   <string name="MemberRestrictGroup">This user will not be removed from the group.</string>
   <string name="UserIsAlreadyAdmin">User is already admin</string>
@@ -1473,7 +1477,6 @@
   <string name="EventLogLocationRemoved">%1$s removed group location</string>
   <string name="UntilX">Until %1$s</string>
   <string name="NetworkUsage">Network Usage</string>
-  <string name="Use169Output">16:9 Camera output</string>
   <string name="RecentStickers">Recently Used</string>
   <string name="AddToFavorites">Add to Favorites</string>
   <string name="RemoveFromFavorites">Remove from Favorites</string>
@@ -2666,6 +2669,7 @@
   <string name="ChatDisabledGifs">Only admins can send GIFs in this group</string>
   <string name="ChatDisabledBots">Only admins can use inline bots in this group</string>
   <string name="ChatDisabledStickers">Only admins can send stickers in this group</string>
+  
   <string name="ChatDisabledMedia">Only admins can send media in this group</string>
   <string name="ChatDisabledPolls">Only admins can create polls in this group</string>
   <string name="ChatDisabledMessages">Only admins can write messages in this group</string>
@@ -2676,6 +2680,8 @@
   <string name="ChatRestrictedBotsUntil">Admins have restricted you from using inline bots in this group until %1$s</string>
   <string name="ChatRestrictedStickers">Admins have restricted you from sending stickers in this group</string>
   <string name="ChatRestrictedStickersUntil">Admins have restricted you from sending stickers in this group until %1$s</string>
+  
+  
   <string name="ChatRestrictedMedia">Admins have restricted you from sending media in this group</string>
   <string name="ChatRestrictedMediaUntil">Admins have restricted you from sending media in this group until %1$s</string>
   <string name="ChatRestrictedPolls">Admins have restricted you from sending polls in this group</string>
@@ -3081,6 +3087,66 @@
   <string name="SendAsFile">Send as file</string>
   <string name="SendAsXFiles_one">Send as %1$s file</string>
   <string name="SendAsXFiles_other">Send as %1$s files</string>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
 
   
   
@@ -3600,6 +3666,7 @@
   <string name="UnpinXChats_two">Unpin %1$s chats</string>
   <string name="UnpinXChats_few">Unpin %1$s chats</string>
   <string name="UnpinXChats_many">Unpin %1$s chats</string>
+  <string name="Use169Output">16:9 Camera output</string>
   <string name="ViewXPollResults_zero">View %1$s Results</string>
   <string name="ViewXPollResults_two">View %1$s Results</string>
   <string name="ViewXPollResults_few">View %1$s Results</string>
