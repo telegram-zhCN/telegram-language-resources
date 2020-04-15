@@ -1017,7 +1017,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_duration_minsec_minutes#other" = "{count}分";
 
 "lng_duration_minsec_seconds#other" = "{count}秒";
-"lng_duration_minutes_seconds" = "{minutes_count}分{seconds_count}秒";
+"lng_duration_minutes_seconds" = "{minutes_count}{seconds_count}";
 
 "lng_action_add_user" = "{from} 邀请了 {user}";
 "lng_action_add_users_many" = "{from} 邀请了 {users}";
