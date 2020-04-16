@@ -26,6 +26,7 @@
 
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">zh-CN</string>
+  
   <string name="language_name">中文（简体）</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
   <string name="language_dateFormatLocale">zh-CN</string>
@@ -345,7 +346,10 @@
   <string name="passcode_fingerprint">指纹解锁</string>
   <string name="LoadingInformation">信息加载中...</string>
   <string name="BlockContact">屏蔽</string>
+  
   <string name="Unblock">取消屏蔽</string>
+  
+  
   <string name="Share">转发 / 分享</string>
   <string name="ViewAdmins">查看管理员</string>
   <string name="SwipeShare">转发 / 分享</string>
@@ -2620,6 +2624,7 @@
   <string name="ViewStats">查看统计数据</string>
 
   <string name="InstantViewUnsupported">即时预览暂不支持此页面。</string>
+  
   <string name="LanguageDatabase">语言包文件</string>
   <string name="SettingsAndThemes">设置和主题</string>
 
@@ -2671,6 +2676,8 @@
   <string name="ChatDisabledStickers">只有管理员能在这个群组中发送贴纸</string>
   
   <string name="ChatDisabledMedia">仅管理员能在此群组中发送媒体文件</string>
+  
+  
   <string name="ChatDisabledPolls">仅管理员能在此群组中发送投票</string>
   <string name="ChatDisabledMessages">仅管理员能在此群组中发言</string>
 
@@ -2679,6 +2686,10 @@
   <string name="ChatRestrictedBots">管理员禁止您在此群组中发送机器人内容</string>
   
   <string name="ChatRestrictedStickers">管理员禁止您在此群组中发送贴纸</string>
+  
+  
+  
+  
   
   
   
@@ -2963,68 +2974,9 @@
   
   
   
-  
-  
 
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
   
   
   
@@ -3037,13 +2989,8 @@
   
   
   
-
   
   
-  
-  
-  
-
   
   
   
@@ -3072,6 +3019,77 @@
 
   
   
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
   
   
 
@@ -3145,6 +3163,15 @@
   
   
 
+  
+  
+  
+
+  
+  
+
+  
+  
   
   
 

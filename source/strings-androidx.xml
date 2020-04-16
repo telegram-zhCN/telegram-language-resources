@@ -26,6 +26,7 @@
 
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">en</string>
+  <string name="language_emoji">&#127468;&#127463;</string>
   <string name="language_name">English</string>
   <string name="language_nameInEnglish">English</string>
   <string name="language_dateFormatLocale">en-UK</string>
@@ -54,7 +55,7 @@
   <string name="timestampShort_weekday">%1$s at %2$s</string>
   <string name="timestampShort_date">%1$s at %2$s</string>
   <string name="format_timestamp">%1$02d.%2$02d.%3$02d %4$s</string>
-  
+  <string name="format_datestamp">%1$02d.%2$02d.%3$02d</string>
   <string name="format_decimalSeparator">.</string>
   <string name="format_thousandsSeparator">,</string>
   <string name="format_concatSeparator">", "</string>
@@ -264,9 +265,9 @@
   <string name="ChatContentVoice">Voice Message</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">Video Message</string>
-  
-  
-  
+  <string name="ChatContentDice">Dice: rolling…</string>
+  <string name="ChatContentDiceRolled_one">Dice: %1$s</string>
+  <string name="ChatContentDiceRolled_other">Dice: %1$s</string>
   <string name="ChatContentVideo">Video</string>
   <string name="ChatContentFile">File</string>
   <string name="ChatContentPhoto">Photo</string>
@@ -345,7 +346,10 @@
   <string name="passcode_fingerprint">Unlock with Fingerprint</string>
   <string name="LoadingInformation">Loading information…</string>
   <string name="BlockContact">Block</string>
+  <string name="BlockBot">Block and Stop</string>
   <string name="Unblock">Unblock</string>
+  <string name="UnblockBot">Unblock</string>
+  <string name="RestartBot">Restart</string>
   <string name="Share">Share</string>
   <string name="ViewAdmins">View admins</string>
   <string name="SwipeShare">Share</string>
@@ -2620,6 +2624,7 @@
   <string name="ViewStats">View Statistics</string>
 
   <string name="InstantViewUnsupported">Instant View for this page is not yet supported.</string>
+  <string name="InstantViewError">Instant View could not be displayed due to an error.</string>
   <string name="LanguageDatabase">Localizations</string>
   <string name="SettingsAndThemes">Settings and Themes</string>
 
@@ -2669,8 +2674,10 @@
   <string name="ChatDisabledGifs">Only admins can send GIFs in this group</string>
   <string name="ChatDisabledBots">Only admins can use inline bots in this group</string>
   <string name="ChatDisabledStickers">Only admins can send stickers in this group</string>
-  
+  <string name="ChatDisabledDice">Only admins can roll a die in this group. Hold to send it as an emoji.</string>
   <string name="ChatDisabledMedia">Only admins can send media in this group</string>
+  <string name="ChatDisabledVoice">Only admins can send voice messages in this group</string>
+  <string name="ChatDisabledVideoNotes">Only admins can send video messages in this group</string>
   <string name="ChatDisabledPolls">Only admins can create polls in this group</string>
   <string name="ChatDisabledMessages">Only admins can write messages in this group</string>
 
@@ -2680,8 +2687,12 @@
   <string name="ChatRestrictedBotsUntil">Admins have restricted you from using inline bots in this group until %1$s</string>
   <string name="ChatRestrictedStickers">Admins have restricted you from sending stickers in this group</string>
   <string name="ChatRestrictedStickersUntil">Admins have restricted you from sending stickers in this group until %1$s</string>
-  
-  
+  <string name="ChatRestrictedDice">Admins have restricted you from rolling a die in this group. Hold to send it as an emoji.</string>
+  <string name="ChatRestrictedDiceUntil">Admins have restricted you from rolling a die in this group until %1$s. Hold to send it as an emoji.</string>
+  <string name="ChatRestrictedVoice">Admins have restricted you from sending voice messages in this group</string>
+  <string name="ChatRestrictedVideoNotes">Admins have restricted you from sending video messages in this group</string>
+  <string name="ChatRestrictedVoiceUntil">Admins have restricted you from sending voice messages in this group until %1$s</string>
+  <string name="ChatRestrictedVideoNotesUntil">Admins have restricted you from sending video messages in this group until %1$s</string>
   <string name="ChatRestrictedMedia">Admins have restricted you from sending media in this group</string>
   <string name="ChatRestrictedMediaUntil">Admins have restricted you from sending media in this group until %1$s</string>
   <string name="ChatRestrictedPolls">Admins have restricted you from sending polls in this group</string>
@@ -2957,6 +2968,13 @@
   <string name="UnblockedXBots_one">Unblocked %1$s bot</string>
   <string name="UnblockedXBots_other">Unblocked %1$s bots</string>
 
+  <string name="BlockUserConfirm">Are you sure you want to block %1$s?</string>
+  <string name="BlockBotConfirm">Are you sure you want to stop and block %1$s?</string>
+  <string name="BlockedUser">%1$s has been blocked.</string>
+  <string name="BlockedBot">%1$s has been stopped.</string>
+  <string name="UnblockedUser">%1$s has been unblocked.</string>
+  <string name="UnblockedBot">%1$s has been unblocked.</string>
+
   <string name="UnmutedXChats_one">Unmuted %1$s chat</string>
   <string name="UnmutedXChats_other">Unmuted %1$s chats</string>
   <string name="NotificationsOnXChats_one">Enabled notifications for %1$s chat</string>
@@ -3088,65 +3106,74 @@
   <string name="SendAsXFiles_one">Send as %1$s file</string>
   <string name="SendAsXFiles_other">Send as %1$s files</string>
 
-  
-  
+  <string name="Camera">In-App Camera</string>
+  <string name="CameraSettings">Camera Settings</string>
 
-  
-  
+  <string name="TakePhoto">Take Photo</string>
+  <string name="TakeVideo">Take Video</string>
 
-  
-  
+  <string name="CameraUseSystem">Use system camera</string>
+  <string name="CameraUseExperimental">Use system camera</string>
 
-  
-  
-  
-  
+  <string name="CameraType">Camera Type</string>
+  <string name="CameraTypeLegacy">Legacy</string>
+  <string name="CameraTypeXBeta">CameraX (experimental)</string>
+  <string name="CameraTypeSystem">System</string>
 
-  
-  
+  <string name="CameraRatio">Aspect Ratio</string>
+  <string name="CameraRatioFull">Full Screen</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="CameraKeepMedia">Keep Discarded Media</string>
+  <string name="CameraGrid">Grid Lines</string>
+  <string name="CameraVolume">Press Volume key to</string>
+  <string name="CameraVolumeShoot">Take picture or record video</string>
+  <string name="CameraVolumeZoom">Zoom</string>
+  <string name="CameraVolumeNone">System volume</string>
+  <string name="CameraFlip">Pictures as previewed</string>
+  <string name="CameraFlipInfo">Save selfies as they appear in the preview without flipping them.</string>
 
-  
-  
-  
-  
-  
-  
+  <string name="DiscardMediaMsg">Discard changes</string>
+  <string name="DiscardMediaHint">Are you sure you want to discard edited media? These changes will be lost.</string>
+  <string name="DiscardMediaMsg2">Discard captions</string>
+  <string name="DiscardMediaHint2">Are you sure you want to discard entered captions? These changes will be lost.</string>
+  <string name="DiscardMediaMsg3">Discard changes</string>
+  <string name="DiscardMediaHint3">Are you sure you want to discard captions and edited media? These changes will be lost.</string>
 
-  
-  
-  
+  <string name="QuizExplanation">Explanation</string>
+  <string name="QuizExplanationEmpty">Add an explanation</string>
+  <string name="QuizExplanationInfo">Quiz participants will see this text after choosing the wrong option (good for educational purposes).</string>
 
-  
+  <string name="ZoomOut">Zoom Out</string>
 
-  
-  
-  
-  
-  
-  
-  
+  <string name="StatsRange">Based on %1$s period.</string>
+  <string name="StatsMembers">Members</string>
+  <string name="StatsViews">Views</string>
+  <string name="StatsShares">Shares</string>
+  <string name="StatsNotifications">Enabled Notifications</string>
+  <string name="StatsValueGrowth">%1$s: +%2$s (%3$s%%) ↑</string>
+  <string name="StatsValueFall">%1$s: -%2$s (%3$s%%) ↓</string>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <string name="StatsChartGrowth">Growth</string>
+  <string name="StatsChartFollowers">Followers</string>
+  <string name="StatsChartNotifications">Notifications</string>
+  <string name="StatsChartViewsByHour">Views by hour (UTC)</string>
+  <string name="StatsChartViewsBySource">Views by source</string>
+  <string name="StatsChartFollowersBySource">New followers by source</string>
+  <string name="StatsChartLanguage">Language</string>
+  <string name="StatsChartInteractions">Interactions</string>
+  <string name="StatsChartIv">IV Interactions</string>
 
-  
-  
+  <string name="SendDiceAsEmoji">Send as emoji</string>
+  <string name="SendDiceHint">Send a &#127922; emoji to any chat to get a random number from Telegram.</string>
+  <string name="SendDice">Send a dice</string>
+
+  <string name="NoVotesResult">No votes</string>
+  <string name="NoAnswersResult">No answers</string>
+
+  <string name="HoldToSendAsCopy">Hold to send as copy and other options.</string>
+  <string name="HoldToSendAsFile">Hold to send as file and other options.</string>
+  <string name="CameraButtonHint">Tap for photo, hold for video</string>
+  <string name="UseExplicitDice">Explicit Dice</string>
 
   
   
@@ -3253,6 +3280,10 @@
   <string name="ChannelMessageRoundVideo">%1$s posted a video message</string>
   <string name="ChannelMessageVideo">%1$s posted a video</string>
   <string name="ChannelType">Channel Type</string>
+  <string name="ChatContentDiceRolled_zero">Dice: %1$s</string>
+  <string name="ChatContentDiceRolled_two">Dice: %1$s</string>
+  <string name="ChatContentDiceRolled_few">Dice: %1$s</string>
+  <string name="ChatContentDiceRolled_many">Dice: %1$s</string>
   <string name="ChatContentGroupAddMembers_zero">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_two">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_few">Added %1$s members to the group</string>
