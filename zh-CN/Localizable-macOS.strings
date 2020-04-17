@@ -300,7 +300,7 @@
 "AccountSettings.Username" = "用户名";
 
 "AccountSettings.PrivacyAndSecurity" = "隐私和安全";
-
+"AccountSettings.Filters" = "对话文件夹";
 
 "AccountSettings.About" = "关于";
 "AccountSettings.FAQ" = "Telegram FAQ";
@@ -1191,7 +1191,7 @@
 "CallHeader.EndCall" = "结束通话";
 "Call.ParticipantVersionOutdatedError" = "%@ 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。";
 "Call.UndefinedError" = "未知错误，请稍后再试";
-"Call.PrivacyErrorMessage" = "抱歉，%@ 不接受呼叫。";
+"Call.PrivacyErrorMessage" = "抱歉，由于 %@ 的隐私设置，您无法与其进行通话。";
 
 "Call.StatusRequesting" = "连接中...";
 "Call.StatusRinging" = "响铃中...";
@@ -1913,7 +1913,7 @@
 "Search.Global.Channel1_other" = "%@, %d 位订阅者";
 
 //"ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
-
+"ChatList.Context.PinErrorNew2" = "抱歉，在主对话列表中，您只能将 5 个对话置顶。但是，在“对话文件夹”和“已归档对话”中，则可以将更多对话置顶。";
 
 
 
@@ -1950,7 +1950,7 @@
 
 
 
-
+"AppearanceSettings.ChatPreview.3" = "现在是东京的早晨😎";
 
 
 
@@ -2029,7 +2029,7 @@
 
 "Chat.Service.BotPermissionAllowed" = "您允许了此机器人在您登录 %@ 时向您发送消息。";
 
-"Compose.CreateGroup.LimitError" = "您能够在创建群组并升级到超级群组后添加更多的用户。";
+"Compose.CreateGroup.LimitError" = "创建群组后，您将可以添加更多成员。";
 
 
 "PeerInfo.Bot.AddToGroup" = "添加到群组";
@@ -2445,7 +2445,7 @@
 
 "TermsOfService.Disagree" = "拒绝";
 "TermsOfService.Disagree.Text" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
-"TermsOfService.Disagree.Text.Last" = "警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 > 导出 Telegram 数据。）";
+"TermsOfService.Disagree.Text.Last" = "警告，这将不可逆转地删除您的 Telegram 帐号，以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的帐号前下载您的数据以免损失。（为了下载您的数据，请使用最新版 Telegram Desktop，并打开 设置 > 高级 > 导出 Telegram 数据。）";
 "TermsOfService.Disagree.Text.Last.OK" = "立刻删除";
 "TermsOfService.Disagree.OK" = "拒绝并销号";
 "TermsOfService.ConfirmAge" = "我确认我已满 %@ 周岁。";
@@ -3735,7 +3735,7 @@
 
 
 
-
+"ChatList.Filter.List.Title" = "对话文件夹";
 
 
 
@@ -3864,29 +3864,29 @@
 
 
 
+"ChannelStats.SharesCount_other" = "%d 次转发";
 
 
+"ChannelStats.Overview" = "总览";
 
+"ChannelStats.Overview.EnabledNotifications" = "开启通知";
+"ChannelStats.Overview.ViewsPerPost" = "每个帖子的观看次数";
+"ChannelStats.Overview.SharesPerPost" = "每个帖子的分享次数";
 
+"ChannelStats.Graph.Growth" = "增长";
+"ChannelStats.Graph.Followers" = "订阅者";
+"ChannelStats.Graph.ViewsBySource" = "浏览来源";
+"ChannelStats.Graph.ViewsByHours" = "每小时浏览次数 (UTC)";
+"ChannelStats.Graph.NewFollowersBySource" = "新订阅者的来源";
+"ChannelStats.Graph.Language" = "语言";
+"ChannelStats.Graph.Notifications" = "通知";
+"ChannelStats.Graph.Interactions" = "互动";
 
+"ChannelStats.Recent.Header" = "最近的帖子";
 
+"Chat.Dice.Result" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Channel.Stats.Loading" = "**正在准备统计**\n在我们为您生成统计图表时，请稍等片刻。";
 
 
 //

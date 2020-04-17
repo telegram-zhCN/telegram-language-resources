@@ -26,7 +26,7 @@
 
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">en</string>
-  <string name="language_emoji">&#127468;&#127463;</string>
+  <string name="language_emoji">&#127482;&#127480;</string>
   <string name="language_name">English</string>
   <string name="language_nameInEnglish">English</string>
   <string name="language_dateFormatLocale">en-UK</string>
@@ -3173,7 +3173,7 @@
   <string name="HoldToSendAsCopy">Hold to send as copy and other options.</string>
   <string name="HoldToSendAsFile">Hold to send as file and other options.</string>
   <string name="CameraButtonHint">Tap for photo, hold for video</string>
-  <string name="UseExplicitDice">Explicit Dice</string>
+  
 
   
   

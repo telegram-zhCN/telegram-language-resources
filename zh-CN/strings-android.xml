@@ -198,7 +198,7 @@
     <string name="SendGifPreview">发送 GIF</string>
     <string name="ViewPackPreview">查看对应贴纸包</string>
     <string name="PinToTop">置顶</string>
-    <string name="PinToTopLimitReached2">抱歉，您只能将 %1$s 个对话在主列表置顶。“对话文件夹”和“归档”中可以置顶更多对话。</string>
+    <string name="PinToTopLimitReached2">抱歉，在主对话列表中，您只能将 %1$s置顶。但是，在“对话文件夹”和“已归档对话”中，则可以将更多对话置顶。</string>
     <string name="PinFolderLimitReached">抱歉，您无法再将更多的对话置顶。</string>
     <string name="UnpinFromTop">取消置顶</string>
     <string name="MarkAsUnread">标记为未读</string>
@@ -330,7 +330,7 @@
     <string name="ChannelAdministrators">管理员</string>
     <string name="ChannelDelete">删除频道</string>
     <string name="ChannelDeleteMenu">删除频道</string>
-    <string name="ChannelDeleteAlert">注意！删除此频道将会清除所有关注者并且所有消息将会丢失。确定要删除此频道？</string>
+    <string name="ChannelDeleteAlert">注意！删除此频道将会清除所有订阅者并且所有消息将会丢失。确定要删除此频道？</string>
     <string name="ChannelLeaveAlert">您确定要退出此频道吗？</string>
     <string name="ChannelLeaveAlertWithName">您确定要退出 **%1$s** 吗？</string>
     <string name="ChannelDeleteInfo">您将会丢失此频道的所有消息。</string>
@@ -489,7 +489,7 @@
     <string name="ChoosePhoto">选择图片</string>
     <string name="ChooseTakePhoto">拍照</string>
     <string name="ChooseFromGallery">从相册中上传</string>
-    <string name="SelectFromGallery">从图库中选择</string>
+    <string name="SelectFromGallery">从相册中选择</string>
     <string name="ChooseFromSearch">通过网络搜索</string>
     <string name="Statistics">统计数据</string>
     <string name="AddBotAsAdmin">机器人只能被添加为管理员。</string>
@@ -1123,7 +1123,7 @@
     <string name="PhoneNumberSearch">手机号码</string>
     <!--group create view-->
     <string name="SendMessageTo">添加成员...</string>
-    <string name="SoftUserLimitAlert">你将能够在完成创建并将其升级为超级群组后添加更多的用户。</string>
+    <string name="SoftUserLimitAlert">创建群组后，您将可以添加更多成员。</string>
     <string name="EnterGroupNamePlaceholder">输入群组名称</string>
     <string name="GroupName">群组名称</string>
     <string name="MembersCountZero">最多 %1$s</string>
@@ -1264,15 +1264,15 @@
     <string name="StickersRemoved">贴纸包已移除</string>
     <string name="StickersRemovedInfo">%1$s 已不在您的贴纸中。</string>
     <string name="MasksRemoved">装饰已被移除</string>
-    <string name="MasksRemovedInfo">%1$s is no longer in your masks.</string>
+    <string name="MasksRemovedInfo">%1$s已从您的装饰列表中移除。</string>
     <string name="StickersArchived">贴纸已归档。</string>
     <string name="StickersArchivedInfo">%1$s 已被移动到您的归档中。</string>
-    <string name="MasksArchived">Masks archived.</string>
+    <string name="MasksArchived">装饰已归档。</string>
     <string name="MasksArchivedInfo">%1$s 已被移动到您的归档中。</string>
     <string name="AddStickersInstalled">新的贴纸包已添加</string>
     <string name="AddStickersInstalledInfo">%1$s 已被添加到您的贴纸中。</string>
     <string name="AddMasksInstalled">新的装饰已添加</string>
-    <string name="AddMasksInstalledInfo">%1$s has been added to your masks.</string>
+    <string name="AddMasksInstalledInfo">%1$s 已添加到您的装饰列表中。</string>
     <string name="StickersHide">归档</string>
     <string name="StickersShare">分享</string>
     <string name="StickersCopy">复制链接</string>
@@ -1381,34 +1381,34 @@
     <string name="SetUrlPlaceholder">链接</string>
     <string name="ThemeNamePlaceholder">名字</string>
     <string name="ThemePreviewDialog1">Eva Summer</string>
-    <string name="ThemePreviewDialogMessage1">Reminds me of a Chinese prove...</string>
-    <string name="ThemePreviewDialog2">Your inner Competition</string>
+    <string name="ThemePreviewDialogMessage1">让我想起了一句中国谚语</string>
+    <string name="ThemePreviewDialog2">你内心的竞争</string>
     <string name="ThemePreviewDialogMessage2">嘿，我已经更新了源代码。</string>
-    <string name="ThemePreviewDialog3">Mike Apple</string>
+    <string name="ThemePreviewDialog3">麦克 阿普尔</string>
     <string name="ThemePreviewDialogMessage3">&#129335;&#8205;&#9794;&#65039; 贴纸</string>
-    <string name="ThemePreviewDialog4">Paul Newman</string>
-    <string name="ThemePreviewDialogMessage4">Any ideas?</string>
+    <string name="ThemePreviewDialog4">保罗 纽曼</string>
+    <string name="ThemePreviewDialogMessage4">有什么想法吗？</string>
     <string name="ThemePreviewDialog5">老海盗</string>
-    <string name="ThemePreviewDialogMessage5">Yo-ho-ho!</string>
-    <string name="ThemePreviewDialog6">Kate Bright</string>
-    <string name="ThemePreviewDialogMessage6">Hola!</string>
-    <string name="ThemePreviewDialog7">Nick K</string>
-    <string name="ThemePreviewDialogMessage7">These are not the droids you are looking for.</string>
-    <string name="ThemePreviewDialog8">Adler Toberg</string>
-    <string name="ThemePreviewDialogMessage8">Did someone say peanut butter?</string>
-    <string name="ThemePreviewTitle">Reinhardt</string>
-    <string name="ThemePreviewLine1">Reinhardt, we need to find you some new tunes &#127926;.</string>
+    <string name="ThemePreviewDialogMessage5">喂！</string>
+    <string name="ThemePreviewDialog6">凯特 布莱特</string>
+    <string name="ThemePreviewDialogMessage6">你好！</string>
+    <string name="ThemePreviewDialog7">尼克 K</string>
+    <string name="ThemePreviewDialogMessage7">这些不是您要找的机器人。</string>
+    <string name="ThemePreviewDialog8">阿德勒·托伯格</string>
+    <string name="ThemePreviewDialogMessage8">刚刚有人提到了花生酱？</string>
+    <string name="ThemePreviewTitle">莱因哈特</string>
+    <string name="ThemePreviewLine1">莱因哈特，我们需要您找一些新的歌曲 &#127926;。</string>
     <string name="ThemePreviewLine2">我真的对你刮目相看了。</string>
     <string name="ThemePreviewLine3">啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！</string>
     <string name="ThemePreviewLine3Reply">Lucio</string>
-    <string name="ThemePreviewLine4">Bring it on! I LIVE for this!</string>
+    <string name="ThemePreviewLine4">来吧！我为此而活！</string>
     <string name="ThemePreviewSongTitle">True Survivor</string>
     <string name="ThemePreviewSongPerformer">David Hasselhoff</string>
-    <string name="NewThemePreviewName">Bob Harris</string>
+    <string name="NewThemePreviewName">鲍勃·哈里斯</string>
     <string name="NewThemePreviewReply">早上好！&#128075;</string>
     <string name="NewThemePreviewReply2">早上好</string>
-    <string name="NewThemePreviewLine1">Do you know what time it is?</string>
-    <string name="NewThemePreviewLine3">东京现在是早晨 &#128526;</string>
+    <string name="NewThemePreviewLine1">你知道现在几点吗？</string>
+    <string name="NewThemePreviewLine3">现在是*东京*的早晨&#128526;</string>
     <string name="UseDifferentTheme">使用另一个主题</string>
     <string name="UseDifferentThemeInfo">您同样可以选择一个已经存在的自定义主题作为该主题的基础。</string>
     <string name="ChooseTheme">选择主题</string>
@@ -1515,7 +1515,7 @@
     <string name="FontSizePreviewName">鮑伯·哈里斯</string>
     <string name="FontSizePreviewReply">早上好！&#128075;</string>
     <string name="FontSizePreviewLine1">你知道现在几点吗？</string>
-    <string name="FontSizePreviewLine2">东京现在是早晨 &#128526;</string>
+    <string name="FontSizePreviewLine2">现在是东京的早晨&#128526;</string>
     <string name="BackgroundColorSinglePreviewLine1">点按 “设置” 即可应用背景图。</string>
     <string name="BackgroundColorSinglePreviewLine2">欣赏美景吧！</string>
     <string name="SetBackground">设为背景图</string>
@@ -1804,7 +1804,7 @@
     <string name="AuthAnotherClientScan">扫描二维码</string>
     <string name="AuthAnotherClientTokenError">二维码无效或已过期。</string>
     <string name="AuthAnotherClientNotFound">找不到验证码。</string>
-    <string name="AuthAnotherClientOk">成功登录！</string>
+    <string name="AuthAnotherClientOk">验证成功</string>
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
     <string name="AuthAnotherClientInfo1">从*desktop.telegram.org*下载Telegram。</string>
     <string name="AuthAnotherClientInfo2">使用 Telegram 桌面版获得二维码。</string>
@@ -2052,7 +2052,7 @@
     <string name="LoginAttemptsInfo">这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。</string>
     <!--filters-->
     <string name="Filters">文件夹</string>
-    <string name="FiltersSetup">设定</string>
+    <string name="FiltersSetup">编辑</string>
     <string name="FiltersSetupPinAlert">设置文件夹</string>
     <string name="CreateNewFilter">创建新文件夹</string>
     <string name="CreateNewFilterInfo">为不同的对话创建文件夹，然后在它们之间快速切换。</string>
@@ -2227,7 +2227,7 @@
     <string name="GpsDisabledAlertText">请打开 GPS 以使用位置服务。</string>
     <string name="MakeMyselfVisible">使我对外可见</string>
     <string name="MakeMyselfVisibleTitle">使您的资料公开可见？</string>
-    <string name="MakeMyselfVisibleInfo">Users nearby will be able to view your profile and send you messages. This may help you find new friends, but could also attract excessive attention. You can stop sharing your profile at any time.\n\nYour phone number will remain hidden.</string>
+    <string name="MakeMyselfVisibleInfo">附近的用户将可以查看您的个人资料。这可能会帮助您认识新朋友，但也有可能让您受到不必要的注意。您可以随时关闭这个功能。\n\n另外您的手机号将保持隐藏状态。</string>
     <string name="StopShowingMe">使我对外不可见</string>
     <string name="PeopleNearby">附近的人</string>
     <string name="AddPeopleNearby">寻找附近的人</string>
@@ -2754,7 +2754,7 @@
     <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
     <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
     <string name="TosUpdateDecline">我们感到非常抱歉，但这意味着我们必须分道扬镳了。与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们就无法提供此项服务。您可以现在就删除您的账号；或是再看看，直到您觉得我们使用您的数据的方式不满意时再删除。</string>
-    <string name="TosDeclineDeleteAccount">警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 &gt; 导出 Telegram 数据。）</string>
+    <string name="TosDeclineDeleteAccount">警告，这将不可逆转地删除您的 Telegram 帐号，以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的帐号前下载您的数据以免损失。（为了下载您的数据，请使用最新版 Telegram Desktop，并打开 设置 &gt; 高级 &gt; 导出 Telegram 数据。）</string>
     <!--permissions-->
     <string name="PermissionContacts">为了让您能在任意设备上和朋友联系，您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
     <string name="PermissionStorage">Telegram 需要访问您的本地存储才能发送和保存照片，视频，音乐和其他媒体文件。</string>
@@ -2768,17 +2768,17 @@
     <string name="PermissionXiaomiLockscreen">请授予 Telegram 在锁屏界面显示的权限以确保通话正常工作。</string>
     <!--charts-->
     <string name="GrowthChartTitle">增长</string>
-    <string name="FollowersChartTitle">订阅数</string>
+    <string name="FollowersChartTitle">订阅者</string>
     <string name="InteractionsChartTitle">互动</string>
-    <string name="ViewsBySourceChartTitle">Views by source</string>
-    <string name="NewFollowersBySourceChartTitle">New followers by source</string>
+    <string name="ViewsBySourceChartTitle">浏览来源</string>
+    <string name="NewFollowersBySourceChartTitle">新订阅者的来源</string>
     <string name="LanguagesChartTitle">语言</string>
-    <string name="RecentPosts">最近发布</string>
+    <string name="RecentPosts">最近的帖子</string>
     <string name="ZoomOut">缩小</string>
     <string name="IVInteractionsChartTitle">即时预览互动</string>
     <string name="LoadingStats">正在加载统计数据...</string>
-    <string name="LoadingStatsDescription">图表绘制中，请稍等片刻。</string>
-    <string name="TopHoursChartTitle">每小时浏览次数（UTC）</string>
+    <string name="LoadingStatsDescription">正在生成统计数据图表，请稍等片刻。</string>
+    <string name="TopHoursChartTitle">每小时浏览次数 (UTC)</string>
     <string name="SlideUpToLock">向上滑动以锁定录制</string>
     <string name="NotificationsChartTitle">通知</string>
     <!--Intro view-->
@@ -2854,7 +2854,7 @@
     <string name="VoipAudioRoutingSpeaker">扬声器</string>
     <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
     <string name="ReturnToCall">返回通话</string>
-    <string name="CallNotAvailable">抱歉，**%1$s** 不同意进行通话。</string>
+    <string name="CallNotAvailable">抱歉，由于 %1$s 的隐私设置，您无法与其进行通话。</string>
     <string name="CallEmojiKeyTooltip">如果 %1$s 屏幕上的 emoji 和此处的相同，此通话就是 100%% 安全的。</string>
     <string name="CallMessageReportProblem">评价通话</string>
     <string name="CallReportHint">出了什么问题？</string>
@@ -3618,7 +3618,7 @@
   <string name="CreateNewThemeInfo">您可以在应用内修改其颜色来创建您自己的主题。您可以在任何时候在这里还原为 Telegram 默认的主题。</string>
   <string name="DeleteAccountIfAwayFor">离线时间</string>
   <string name="DeleteLocalization">要删除这个语言包吗？</string>
-  <string name="DiceInfo">将 &#127922; 发送到任意对话来从 Telegram 获得一个随机数。</string>
+  <string name="DiceInfo">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="EmojiBigSize">显示单个大号 emoji</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
@@ -3638,6 +3638,7 @@
   <string name="NetworkUsageWiFi">WI-FI</string>
   <string name="NeverAllowPlaceholder">从不允许...</string>
   <string name="NeverShareWithPlaceholder">从不共享给...</string>
+  <string name="NewThemePreviewLine2">现在是东京的早晨&#128526;</string>
   <string name="NoAudio">请添加音乐到设备上的歌曲库，它们将会在这里显示。</string>
   <string name="NoBlockedChannel">被封禁的用户将会从频道中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接加入。</string>
   <string name="NoBlockedGroup">被封禁的用户将会从群组中移除，并且只有被管理员添加才能再次加入。他们将不能使用邀请链接再次加入。</string>
@@ -3706,5 +3707,4 @@
   <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
-  <string name="NewThemePreviewLine2">It\'s morning in Tokyo &#128526;</string>
 </resources>

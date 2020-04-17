@@ -1611,7 +1611,7 @@
 "Notification.GroupInviterSelf" = "您加入了此群组";
 
 "ChannelInfo.DeleteChannel" = "删除频道";
-"ChannelInfo.DeleteChannelConfirmation" = "注意：删除频道会清除所有成员和消息记录。 确定删除频道？";
+"ChannelInfo.DeleteChannelConfirmation" = "注意：删除频道会清除所有订阅者和消息记录。确定删除频道？";
 
 "ChannelInfo.ChannelForbidden" = "抱歉，频道 \"%@\" 不存在。";
 "ChannelInfo.AddParticipantConfirmation" = "Add %@ to the channel?";
@@ -1844,7 +1844,7 @@
 
 "Conversation.MessageViaUser" = "通过 %@";
 
-"CreateGroup.SoftUserLimitAlert" = "您将可以在升级到超级群组后添加更多的用户";
+"CreateGroup.SoftUserLimitAlert" = "创建群组后，您将可以添加更多成员。";
 
 "Privacy.GroupsAndChannels" = "群组和频道";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "邀请权限控制";
@@ -2474,7 +2474,7 @@ Unused sets are archived when you add more.";
 
 "NetworkUsageSettings.CallDataSection" = "通话";
 
-"Call.PrivacyErrorMessage" = "抱歉，%@ 不接受呼叫。";
+"Call.PrivacyErrorMessage" = "抱歉，由于 %@ 的隐私设置，您无法与其进行通话。";
 
 "Notification.CallBack" = "回拨";
 
@@ -3088,7 +3088,7 @@ Unused sets are archived when you add more.";
 "Appearance.PreviewReplyAuthor" = "鮑伯·哈里斯";
 "Appearance.PreviewReplyText" = "早上好！👋";
 "Appearance.PreviewIncomingText" = "你知道现在几点吗？";
-"Appearance.PreviewOutgoingText" = "东京现在是早晨 😎";
+"Appearance.PreviewOutgoingText" = "现在是东京的早晨😎";
 "Appearance.AccentColor" = "主题色";
 "Appearance.PickAccentColor" = "选取一种主题色";
 
@@ -3205,7 +3205,7 @@ Unused sets are archived when you add more.";
 "PrivacyPolicy.DeclineMessage" = "We're very sorry, but this means we must part ways here. Unlike others, we don't use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy & Security settings.\n\nBut if you're generally not OK with Telegram's modest requirements, it won't be possible for us to provide you with this service.";
 "PrivacyPolicy.DeclineDeclineAndDelete" = "拒绝并删除数据";
 
-"PrivacyPolicy.DeclineLastWarning" = "警告，这将不可逆转地删除您的 Telegram 帐户以及您存储在 Telegram 云中的所有数据\n\n请注意：您现在可以取消删除操作，并在删除您的账户前下载您的数据以免损失。（为了下载您的数据，请使用最新版本的 Telegram 桌面版客户端，并打开 设置 > 导出 Telegram 数据。）";
+"PrivacyPolicy.DeclineLastWarning" = "警告，这将不可逆转地删除您的 Telegram 帐号，以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的帐号前下载您的数据以免损失。（为了下载您的数据，请使用最新版 Telegram Desktop，并打开 设置 > 高级 > 导出 Telegram 数据。）";
 "PrivacyPolicy.DeclineDeleteNow" = "立刻删除";
 
 "Settings.Passport" = "Telegram Passport";
@@ -5358,39 +5358,39 @@ Any member of this group will be able to see messages in the channel.";
 
 "ChatListFilter.AddChatsTitle" = "添加对话";
 
+"Stats.Overview" = "总览";
+"Stats.Followers" = "订阅者";
+"Stats.EnabledNotifications" = "开启通知";
+"Stats.ViewsPerPost" = "每个帖子的观看次数";
+"Stats.SharesPerPost" = "每个帖子的分享次数";
+
+"Stats.GrowthTitle" = "增长";
+"Stats.FollowersTitle" = "订阅者";
+"Stats.NotificationsTitle" = "通知";
+"Stats.InteractionsTitle" = "互动";
+"Stats.InstantViewInteractionsTitle" = "即时预览互动";
+"Stats.ViewsBySourceTitle" = "浏览来源";
+"Stats.ViewsByHoursTitle" = "每小时浏览次数 (UTC)";
+"Stats.FollowersBySourceTitle" = "新订阅者的来源";
+"Stats.LanguagesTitle" = "语言";
+"Stats.PostsTitle" = "最近的帖子";
 
 
 
 
 
 
+"Stats.MessageViews_any" = "%@ 次浏览";
 
 
 
 
 
 
+"Stats.MessageForwards_any" = "%@ 次转发";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Stats.LoadingTitle" = "正在准备统计";
+"Stats.LoadingText" = "正在生成统计数据图表，请稍等片刻。";
 
 
 
@@ -5416,7 +5416,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Settings.ChatFolders" = "对话文件夹";
 "ChatList.ChatTypesSection" = "对话类型";
 
 "ChatList.PeerTypeContact" = "联系人";
@@ -5473,7 +5473,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-"Conversation.Dice" = "将 🎲 发送到任意对话来从 Telegram 获得一个随机数。";
+"Conversation.Dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 
 
 

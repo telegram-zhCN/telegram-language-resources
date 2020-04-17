@@ -1098,7 +1098,7 @@
   <string name="VoipOfflineAirplane">您现在正处于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行通话。</string>
   <string name="VoipOfflineTitle">离线</string>
   <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行通话。</string>
-  <string name="NoRightToCall">抱歉，%1$s 不接受通话。</string>
+  <string name="NoRightToCall">抱歉，由于 %1$s 的隐私设置，您无法与其进行通话。</string>
   <string name="VoipConnecting">连接中</string>
   <string name="VoipRinging">正在响铃</string>
   <string name="VoipWaiting">正在等待</string>
@@ -3148,23 +3148,23 @@
   
   
   
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
+  <string name="StatsShares">分享次数</string>
+  <string name="StatsNotifications">开启通知</string>
   
   
 
+  <string name="StatsChartGrowth">增长</string>
+  <string name="StatsChartFollowers">订阅者</string>
+  <string name="StatsChartNotifications">通知</string>
+  <string name="StatsChartViewsByHour">每小时浏览次数 (UTC)</string>
+  <string name="StatsChartViewsBySource">浏览来源</string>
+  <string name="StatsChartFollowersBySource">新订阅者的来源</string>
+  <string name="StatsChartLanguage">语言</string>
+  <string name="StatsChartInteractions">互动</string>
   
+
   
+  <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   
 
   
