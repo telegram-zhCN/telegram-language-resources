@@ -1770,6 +1770,9 @@
   
   <string name="WhoCanCallMe">谁可以呼叫我</string>
   <string name="UseP2PWith">使用端对端连接</string>
+  
+  
+  
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenNobodyExcept">没有人 (%1$s) 可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenContacts">只有联系人可以看到您的最后上线时间</string>
@@ -1782,18 +1785,27 @@
   <string name="PrivacyAddToGroupsContactsExcept">只有通讯录联系人 (%1$s) 可以邀请您进入群组和频道</string>
   <string name="PrivacyAddToGroupsEverybody">任何人都可以邀请您进入群组和频道</string>
   <string name="PrivacyAddToGroupsEverybodyExcept">任何人 (%1$s) 都可以邀请您进入群组和频道</string>
+  
+  
+  
   <string name="PrivacyCallsNobody">没有人可以呼叫您</string>
   <string name="PrivacyCallsNobodyExcept">没有任何人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsContacts">只有联系人可以呼叫您</string>
   <string name="PrivacyCallsContactsExcept">只有联系人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsEverybody">任何人都可以呼叫您</string>
   <string name="PrivacyCallsEverybodyExcept">任何人 (%1$s) 都可以呼叫您</string>
+  
+  
+  
   <string name="PrivacyP2PNobody">已禁用</string>
   <string name="PrivacyP2PNobodyExcept">已禁用 (%1$s)</string>
   <string name="PrivacyP2PContacts">仅对联系人</string>
   <string name="PrivacyP2PContactsExcept">仅对联系人 (%1$s)</string>
   <string name="PrivacyP2PEverybody">启用</string>
   <string name="PrivacyP2PEverybodyExcept">已启用 (%1$s)</string>
+  
+  
+  
   <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
   
   
@@ -2722,7 +2734,13 @@
   <string name="PrivacyForwardLinkEverybody">链接到您的账号</string>
   <string name="PrivacyForwardLinkEverybodyExcept">链接到您的账号（%1$s）</string>
   <string name="PrivacyForwardLinkTitle">引用转发来源</string>
+  
+  
+  
 
+  
+  
+  
   <string name="PrivacyPhotoNobody">没有人可以看到您的头像</string>
   <string name="PrivacyPhotoNobodyExcept">没有人 (%1$s) 可以看到您的头像</string>
   <string name="PrivacyPhotoContacts">只有联系人可以看到您的头像</string>
@@ -2820,6 +2838,9 @@
   <string name="WhoCanSeePhone">谁可以看到我的手机号码？</string>
   <string name="WhoCanSeePhoneInfo">已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。</string>
 
+  
+  
+  
   <string name="PrivacyShowNumberNobody">没有人可以看到你的手机号码</string>
   <string name="PrivacyShowNumberNobodyExcept">没有人 (%1$s) 可以看到你的手机号码</string>
   <string name="PrivacyShowNumberContacts">只有你的联系人可以看到你的手机号码</string>
@@ -2865,7 +2886,6 @@
   <string name="Discuss">讨论</string>
   <string name="LinkedChannel">链接的频道</string>
   <string name="LinkedGroup">链接的群组</string>
-  <string name="DiscussionsChat">讨论群</string>
   <string name="LinkChannel">连接一个频道</string>
   
 
@@ -2920,7 +2940,7 @@
 
   <string name="PollSettingAnonymous">匿名投票</string>
   <string name="PollSettingMultiple">可多选</string>
-  <string name="PollSettingQuiz">小测验模式</string>
+  <string name="PollSettingQuiz">测验模式</string>
   <string name="PollSettingQuizInfo">测验模式中只有一个正确答案。一旦作答将无法撤销。</string>
 
   
@@ -3063,8 +3083,6 @@
   
 
   
-  
-  
 
   
   
@@ -3104,7 +3122,6 @@
   
   
   
-  
 
   
   
@@ -3112,7 +3129,6 @@
   
   
 
-  
   
 
   
@@ -3177,6 +3193,36 @@
 
   
   
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
   
   
 
@@ -3216,6 +3262,7 @@
   <string name="CountryNotFound">国家代码无法识别</string>
   <string name="DataUsage">存储和网络使用情况</string>
   <string name="DeleteMessages">删除消息</string>
+  <string name="DiscussionsChat">讨论群</string>
   <string name="EventNewContact">新联系人加入</string>
   <string name="Events">事件</string>
   <string name="GroupConvertHint">**成员数已达到 %1$s 人上限。**\n升级到 **超级群组** 来增加成员上限并获得更多功能。\n在超级群组中：\n\n• 超级群组可以提升至高达 **%2$s** 人的成员上限\n• 新成员能看到所有历史聊天记录\n• 管理员能够删除任何人的消息\n• 消息通知默认关闭</string>

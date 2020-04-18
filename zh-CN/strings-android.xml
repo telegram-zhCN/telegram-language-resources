@@ -537,7 +537,7 @@
     <string name="QuizAnswers">小测验答案</string>
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
-    <string name="PollQuiz">小测验模式</string>
+    <string name="PollQuiz">测验模式</string>
     <string name="PollSelectOption">请先选择一个选项</string>
     <string name="PollCollapse">收起</string>
     <string name="PollExpand">展开</string>
@@ -1762,9 +1762,9 @@
     <string name="Appearance">外观</string>
     <string name="StickersAndMasks">贴纸和装饰</string>
     <string name="ThemeInfo">选择自定义配色方案</string>
-    <string name="ShowNotificationsFor">显示通知</string>
-    <string name="AllAccounts">为所有帐户显示</string>
-    <string name="ShowNotificationsForInfo">如果您只想接收当前帐户的通知，请关闭此选项。</string>
+    <string name="ShowNotificationsFor">显示哪些帐号的通知？</string>
+    <string name="AllAccounts">所有帐号</string>
+    <string name="ShowNotificationsForInfo">如果您只想收到当前帐号的通知，请关闭此功能。</string>
     <string name="NotificationsForChats">对话通知</string>
     <string name="NotificationsPrivateChats">私聊</string>
     <string name="NotificationsGroups">群组</string>
@@ -2311,8 +2311,8 @@
     <string name="ClearSearchAlert">您确定要清除搜索记录吗？</string>
     <string name="ClearSearchAlertTitle">清除搜索记录</string>
     <string name="ClearSearchSingleAlertTitle">搜索记录</string>
-    <string name="ClearSearchSingleUserAlertText">您确定要从搜索记录中移除 %1$s 吗？</string>
-    <string name="ClearSearchSingleChatAlertText">您确定要从搜索记录中移除 %1$s 吗？</string>
+    <string name="ClearSearchSingleUserAlertText">您确定要从您的搜索记录中移除“%1$s”吗？</string>
+    <string name="ClearSearchSingleChatAlertText">您确定要从您的搜索记录中移除“%1$s”吗？</string>
     <string name="ClearSearchRemove">移除</string>
     <string name="ClearButton">清空</string>
     <string name="AddCaption">添加说明...</string>
@@ -3665,7 +3665,7 @@
   <string name="PeopleNearbyInfo">让您附近的朋友打开此页面以交换手机号码。</string>
   <string name="PhoneNumberChange">更换手机号码</string>
   <string name="PinToTopLimitReached">抱歉，您只能在主列表中置顶 %1$s 个对话。 如果您想让您的对话更加的有组织，请尝试归档一些对话 —— 已归档对话文件夹中允许无限数量的置顶对话。</string>
-  <string name="PreviewFeedback">发送关于此预览的反馈</string>
+  <string name="PreviewFeedback">报告此预览的错误</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>

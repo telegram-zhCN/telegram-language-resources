@@ -426,10 +426,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
 "lng_settings_custom_spellchecker" = "使用拼写检查器";
+"lng_settings_auto_download_dictionaries" = "自动下载词典";
 
-
-
-
+"lng_settings_manage_enabled_dictionary" = "词典已启用";
+"lng_settings_manage_remove_dictionary" = "移除词典";
 
 "lng_backgrounds_header" = "选择新的聊天背景图";
 "lng_theme_sure_keep" = "保留此主题？";
@@ -1621,7 +1621,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_formatting_link_url" = "链接";
 "lng_formatting_link_create" = "创建";
 
-
+"lng_spellchecker_submenu" = "拼写检查";
 
 
 
@@ -1659,7 +1659,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_create" = "新建";
 "lng_theme_editor_name" = "主题名称";
 "lng_theme_editor_create_description" = "新主题将基于您当前选择的颜色和北京。 或者，您可以从文件中导入现有主题或调色板。";
-"lng_theme_editor_attach_description" = "您可以根据当前选择的颜色和北京创建主题的桌面版部分。 或者，您可以从文件中导入现有主题或调色板。";
+"lng_theme_editor_attach_description" = "您可以根据当前选择的颜色和壁纸创建桌面端主题。 您也可以从文件中导入现有主题或调色板。";
 "lng_theme_editor_import_existing" = "导入现有主题";
 "lng_theme_editor_save_title" = "保存主题";
 "lng_theme_editor_link_about" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用小写字母 a-z 、数字 0-9 和下划线 _ 。";
@@ -2217,9 +2217,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_settings" = "设置";
 "lng_polls_create_anonymous" = "匿名投票";
 "lng_polls_create_multiple_choice" = "可多选";
-"lng_polls_create_quiz_mode" = "小测验";
+"lng_polls_create_quiz_mode" = "测验模式";
 "lng_polls_create_button" = "确认";
-"lng_polls_create_one_answer" = "小测验只有一个正确答案。";
+"lng_polls_create_one_answer" = "测验模式下的投票只能有一个正确答案。";
 "lng_polls_choose_question" = "请输入问题";
 "lng_polls_choose_answers" = "请输入至少两个候选项。";
 "lng_polls_choose_correct" = "请选择正确答案。";

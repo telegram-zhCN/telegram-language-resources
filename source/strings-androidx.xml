@@ -1770,6 +1770,9 @@
   <string name="CustomTitleHint">A custom title that will be shown to all members instead of \'%1$s\'.</string>
   <string name="WhoCanCallMe">Who can call me</string>
   <string name="UseP2PWith">Use peer-to-peer with</string>
+  
+  
+  
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
   <string name="PrivacyLastSeenNobodyExcept">Nobody (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenContacts">Only contacts can see your Last Seen</string>
@@ -1782,18 +1785,27 @@
   <string name="PrivacyAddToGroupsContactsExcept">Only contacts (%1$s) can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsEverybody">Everybody can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsEverybodyExcept">Everybody (%1$s) can add you to groups and channels</string>
+  
+  
+  
   <string name="PrivacyCallsNobody">Nobody can call you</string>
   <string name="PrivacyCallsNobodyExcept">Nobody (%1$s) can call you</string>
   <string name="PrivacyCallsContacts">Only contacts can call you</string>
   <string name="PrivacyCallsContactsExcept">Only contacts (%1$s) can call you</string>
   <string name="PrivacyCallsEverybody">Everybody can call you</string>
   <string name="PrivacyCallsEverybodyExcept">Everybody (%1$s) can call you</string>
+  
+  
+  
   <string name="PrivacyP2PNobody">Disabled</string>
   <string name="PrivacyP2PNobodyExcept">Disabled (%1$s)</string>
   <string name="PrivacyP2PContacts">Only for contacts</string>
   <string name="PrivacyP2PContactsExcept">Only for contacts (%1$s)</string>
   <string name="PrivacyP2PEverybody">Enabled</string>
   <string name="PrivacyP2PEverybodyExcept">Enabled (%1$s)</string>
+  
+  
+  
   <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsEnableOverride2">Enabling notifications for these chats will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsEnableOverride3">Enabling notifications for some of selected chats will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
@@ -2722,7 +2734,13 @@
   <string name="PrivacyForwardLinkEverybody">Have a link to your account</string>
   <string name="PrivacyForwardLinkEverybodyExcept">Have a link to your account (%1$s)</string>
   <string name="PrivacyForwardLinkTitle">Forwarded Messages</string>
+  
+  
+  
 
+  
+  
+  
   <string name="PrivacyPhotoNobody">Nobody can see your profile photo</string>
   <string name="PrivacyPhotoNobodyExcept">Nobody (%1$s) can see your profile photo</string>
   <string name="PrivacyPhotoContacts">Only contacts can see your profile photo</string>
@@ -2820,6 +2838,9 @@
   <string name="WhoCanSeePhone">Who can see your Phone Number?</string>
   <string name="WhoCanSeePhoneInfo">Users who have your number saved in their contacts will also see it on Telegram.</string>
 
+  
+  
+  
   <string name="PrivacyShowNumberNobody">Nobody can see your phone number</string>
   <string name="PrivacyShowNumberNobodyExcept">Nobody (%1$s) can see your phone number</string>
   <string name="PrivacyShowNumberContacts">Only contacts can see your phone number</string>
@@ -2865,7 +2886,6 @@
   <string name="Discuss">Discuss</string>
   <string name="LinkedChannel">Linked Channel</string>
   <string name="LinkedGroup">Linked Group</string>
-  <string name="DiscussionsChat">Discussion Chat</string>
   <string name="LinkChannel">Link a channel</string>
   <string name="LinkGroup">Add a group chat for comments</string>
 
@@ -2919,7 +2939,7 @@
   <string name="OpenArchiveHint">**No chats to show**\n\nAll of your chats are in the archive</string>
 
   <string name="PollSettingAnonymous">Anonymous Voting</string>
-  <string name="PollSettingMultiple">Multiple Options</string>
+  <string name="PollSettingMultiple">Multiple Answers</string>
   <string name="PollSettingQuiz">Quiz Mode</string>
   <string name="PollSettingQuizInfo">Polls in Quiz Mode have one correct answer. Users can\'t revoke their answers.</string>
 
@@ -3062,8 +3082,6 @@
   <string name="RemindInXHours_other">Remind in %1$s hours</string>
   <string name="RemindAtCustomTime">Remind at specific date…</string>
 
-  <string name="format_sendTodayAt">%1$s (%2$s)</string>
-  <string name="format_sendTomorrowAt">%1$s (tomorrow at %2$s)</string>
   <string name="ScheduledMessages">Scheduled Messages</string>
 
   <string name="ScheduledUntilOnline">Scheduled until online</string>
@@ -3101,7 +3119,6 @@
   <string name="RestrictUntilTomorrow">Restrict until tomorrow at %1$s</string>
   <string name="RestrictUntilFuture">Restrict until %1$s at %2$s</string>
 
-  <string name="Reference">Reference</string>
   <string name="SendAsFile">Send as file</string>
   <string name="SendAsXFiles_one">Send as %1$s file</string>
   <string name="SendAsXFiles_other">Send as %1$s files</string>
@@ -3113,7 +3130,6 @@
   <string name="TakeVideo">Take Video</string>
 
   <string name="CameraUseSystem">Use system camera</string>
-  <string name="CameraUseExperimental">Use system camera</string>
 
   <string name="CameraType">Camera Type</string>
   <string name="CameraTypeLegacy">Legacy</string>
@@ -3173,6 +3189,36 @@
   <string name="HoldToSendAsCopy">Hold to send as copy and other options.</string>
   <string name="HoldToSendAsFile">Hold to send as file and other options.</string>
   <string name="CameraButtonHint">Tap for photo, hold for video</string>
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
   
 
   
@@ -3399,6 +3445,7 @@
   <string name="DestroyX_two">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_few">Destroy %2$s? It will disappear for you and %1$s other members.</string>
   <string name="DestroyX_many">Destroy %2$s? It will disappear for you and %1$s other members.</string>
+  <string name="DiscussionsChat">Discussion Chat</string>
   <string name="EnableNotifications2_zero">Unmute %1$s chats</string>
   <string name="EnableNotifications2_two">Unmute %1$s chats</string>
   <string name="EnableNotifications2_few">Unmute %1$s chats</string>
@@ -3513,6 +3560,7 @@
   <string name="ReadAllChatsDone_two">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_few">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_many">Marked %1$s chats as read</string>
+  <string name="Reference">Reference</string>
   <string name="Region">Region</string>
   <string name="RemindInXHours_zero">Remind in %1$s hours</string>
   <string name="RemindInXHours_two">Remind in %1$s hours</string>
@@ -3720,6 +3768,8 @@
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
+  <string name="format_sendTodayAt">%1$s (%2$s)</string>
+  <string name="format_sendTomorrowAt">%1$s (tomorrow at %2$s)</string>
   <string name="game_ActionScored_zero">Scored %1$s</string>
   <string name="game_ActionScored_two">Scored %1$s</string>
   <string name="game_ActionScored_few">Scored %1$s</string>

@@ -2200,7 +2200,7 @@ Unused sets are archived when you add more.";
 
 "StickerPack.ViewPack" = "预览贴纸包";
 "InstantPage.AuthorAndDateTitle" = "%1$@ 于 %2$@";
-"InstantPage.FeedbackButton" = "发送关于此预览的反馈";
+"InstantPage.FeedbackButton" = "报告此预览的错误";
 "Conversation.JumpToDate" = "跳转";
 "Conversation.AddToReadingList" = "添加到阅读列表";
 
@@ -4094,9 +4094,9 @@ Unused sets are archived when you add more.";
 
 
 
-"NotificationSettings.ShowNotificationsFromAccountsSection" = "显示通知";
-"NotificationSettings.ShowNotificationsAllAccounts" = "为所有帐户显示";
-"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想接收当前帐户的通知，请关闭此选项。";
+"NotificationSettings.ShowNotificationsFromAccountsSection" = "显示哪些帐号的通知？";
+"NotificationSettings.ShowNotificationsAllAccounts" = "所有帐号";
+"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想收到当前帐号的通知，请关闭此功能。";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "如果您想接收所有帐户的通知，请启用此选项。";
 
 "Gif.Search" = "搜索 GIF 图";
@@ -5138,21 +5138,21 @@ Any member of this group will be able to see messages in the channel.";
 "Theme.Colors.ColorWallpaperWarning" = "您确定要将聊天窗口背景设置为纯色吗？";
 "Theme.Colors.ColorWallpaperWarningProceed" = "确定";
 
-
-
-
-
+"ChatSettings.IntentsSettings" = "分享菜单";
+"IntentsSettings.Title" = "分享菜单";
+"IntentsSettings.MainAccount" = "主帐号";
+"IntentsSettings.MainAccountInfo" = "选择一个帐号，用于 Siri 和分享建议。";
 "IntentsSettings.SuggestedChats" = "建议的对话";
 "IntentsSettings.SuggestedChatsContacts" = "联系人";
 "IntentsSettings.SuggestedChatsSavedMessages" = "收藏夹";
 "IntentsSettings.SuggestedChatsPrivateChats" = "私密对话";
 "IntentsSettings.SuggestedChatsGroups" = "群组";
 
-
-
+"IntentsSettings.SuggestedAndSpotlightChatsInfo" = "建议将显示在“分享菜单”和 Spotlight 搜索结果中。已归档对话不会被建议。";
+"IntentsSettings.SuggestBy" = "建议的来源";
 "IntentsSettings.SuggestByAll" = "所有发出的信息";
-
-
+"IntentsSettings.SuggestByShare" = "仅分享的消息";
+"IntentsSettings.ResetAll" = "重置所有分享建议";
 "IntentsSettings.Reset" = "重置";
 
 
@@ -5266,8 +5266,8 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.QuizOptionsHeader" = "测验选项";
 "CreatePoll.Anonymous" = "匿名投票";
 "CreatePoll.MultipleChoice" = "可多选";
-
-"CreatePoll.Quiz" = "小测验模式";
+"CreatePoll.MultipleChoiceQuizAlert" = "测验模式下的投票只能有一个正确答案。";
+"CreatePoll.Quiz" = "测验模式";
 "CreatePoll.QuizInfo" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
 
 

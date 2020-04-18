@@ -5265,7 +5265,7 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.QuizTitle" = "New Quiz";
 "CreatePoll.QuizOptionsHeader" = "QUIZ OPTIONS";
 "CreatePoll.Anonymous" = "Anonymous Voting";
-"CreatePoll.MultipleChoice" = "Multiple Choice";
+"CreatePoll.MultipleChoice" = "Multiple Answers";
 "CreatePoll.MultipleChoiceQuizAlert" = "Polls in quiz mode can have only one correct answer.";
 "CreatePoll.Quiz" = "Quiz Mode";
 "CreatePoll.QuizInfo" = "Polls in Quiz Mode have one correct answer. Users can't revoke their answers.";

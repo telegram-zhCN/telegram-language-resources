@@ -94,7 +94,17 @@
 "PeerInfo.Permissions" = "Permissions";
 "PeerInfo.Administrators" = "Administrators";
 
-"PeerInfo.Statistics" = "Statistics";
+"PeerInfo.Action.Message" = "Message";
+"PeerInfo.Action.Mute" = "Mute";
+"PeerInfo.Action.Unmute" = "Unmute";
+"PeerInfo.Action.SecretChat" = "Secret";
+"PeerInfo.Action.Call" = "Call";
+"PeerInfo.Action.More" = "More";
+"PeerInfo.Action.Share" = "Share";
+"PeerInfo.Action.Report" = "Report";
+"PeerInfo.Action.Statistics" = "Statistics";
+"PeerInfo.Action.Leave" = "Leave";
+"PeerInfo.Action.AddMembers" = "Add";
 
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?";
 
@@ -363,9 +373,9 @@
 "PeerMedia.Files" = "Docs";
 "PeerMedia.Links" = "Links";
 "PeerMedia.Audio" = "Audio";
-
+"PeerMedia.Members" = "Members";
 "PeerMedia.Voice" = "Voice";
-
+"PeerMedia.CommonGroups" = "Groups";
 
 "Chat.Message.Via" = "via";
 
@@ -825,6 +835,9 @@
 "PeerInfo.ConvertToSupergroup" = "Convert To Supergroup";
 "PeerInfo.RemovedUsers" = "Removed Users";
 
+"PeerInfo.ShowMoreText" = "[more]()";
+"PeerInfo.GroupTitle.Pleceholder" = "Group Name";
+"PeerInfo.ChannelTitle.Pleceholder" = "Channel Name";
 
 "Telegram.ChannelBlacklistViewController" = "Blacklist";
 "Telegram.ChannelAdminsViewController" = "Admins";
@@ -2799,6 +2812,8 @@
 "Chat.Quiz.TotalVotesEmpty" = "No answers yet";
 "Chat.Quiz.TotalVotesResultEmpty" = "No answers";
 
+"Chat.Quiz.TextType" = "Quiz";
+
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "Anonymous Poll";
 "Chat.Poll.Type.Public" = "Poll";
@@ -2847,6 +2862,10 @@
 "NewPoll.OptionsDescription_other" = "You can add %d more options";
 
 
+"NewPoll.Explanation.Header" = "EXPLANATION";
+"NewPoll.Explanation.Placeholder" = "Add a Comment (Optional)";
+"NewPoll.Explanation.Desc" = "Users will see this comment after choosing a wrong answer, good for educational purposes.";
+
 "NewPoll.OptionsDescriptionMinimum_countable" = "%d";
 "NewPoll.OptionsDescriptionMinimum_zero" = "Minimum %d options";
 "NewPoll.OptionsDescriptionMinimum_one" = "Minimum %d option";
@@ -2867,7 +2886,7 @@
 
 
 "NewPoll.Anonymous" = "Anonymous Voting";
-"NewPoll.MultipleChoice" = "Multiple Choice";
+"NewPoll.MultipleChoice" = "Multiple Answers";
 "NewPoll.Quiz" = "Quiz Mode";
 "NewPoll.QuizDesc" = "Polls in Quiz Mode have one correct answer. Users can't revoke their answers.";
 
@@ -3790,6 +3809,11 @@
 "ChatList.Filter.Header" = "Create folders for different groups of chats and quickly switch between them.";
 
 
+"ChatList.Filter.TabBar.Header" = "TABS VIEW";
+"ChatList.Filter.TabBar.OnTheTop" = "Tabs at the top";
+"ChatList.Filter.TabBar.OnTheLeft" = "Tabs on the left";
+"ChatList.Filter.TabBar.Desc" = "If you have many folders, try moving tabs to the left.";
+
 "ChatList.Add.Placeholder" = "Select chats...";
 "ChatList.Add.Save" = "Add";
 
@@ -3882,11 +3906,60 @@
 "ChannelStats.Graph.Notifications" = "NOTIFICATIONS";
 "ChannelStats.Graph.Interactions" = "INTERACTIONS";
 
+"Graph.ZoomOut" = "Zoom Out";
+"Graph.Total" = "Total";
+
 "ChannelStats.Recent.Header" = "TOP RECENT POSTS";
 
-"Chat.Dice.Result" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
+"Chat.Dice.ResultNew" = "Send a %@ emoji to any chat to get a random number from Telegram.";
 
 "Channel.Stats.Loading" = "**Preparing stats**\nPlease wait a few moments while we generate your stats";
+
+
+"GeneralSettings.ShortcutsHeader" = "SHORTCUTS";
+"GeneralSettings.Shortcuts" = "Keyboard Shortcuts";
+
+"ShortcutsController.Title" = "Shortcuts";
+
+"ShortcutsController.Chat" = "CHAT";
+"ShortcutsController.Chat.OpenInfo" = "Open Info";
+"ShortcutsController.Chat.SelectMessageToReply" = "Select Message To Reply";
+"ShortcutsController.Chat.EditLastMessage" = "Edit Last Message";
+"ShortcutsController.Chat.RecordVoiceMessage" = "Record Voice/Video Message";
+"ShortcutsController.Chat.SearchMessages" = "Search Messages";
+
+
+"ShortcutsController.Search" = "SEARCH";
+"ShortcutsController.Search.QuickSearch" = "Quick Search";
+"ShortcutsController.Search.GlobalSearch" = "Global Search";
+
+"ShortcutsController.Markdown" = "MARKDOWN";
+"ShortcutsController.Markdown.Bold" = "Bold";
+"ShortcutsController.Markdown.Italic" = "Italic";
+"ShortcutsController.Markdown.Monospace" = "Monospace";
+"ShortcutsController.Markdown.Hyperlink" = "Hyperlink";
+"ShortcutsController.Markdown.Strikethrough" = "Strikethrough";
+
+"ShortcutsController.Mouse" = "MOUSE";
+"ShortcutsController.Mouse.FastReply" = "Fast Reply";
+"ShortcutsController.Mouse.FastReply.Value" = "Double Click";
+"ShortcutsController.Mouse.ScheduleMessage" = "Schedule a message";
+"ShortcutsController.Mouse.ScheduleMessage.Value" = "Option click on 'Send Message'";
+
+
+"ShortcutsController.Gestures" = "GESTURES";
+"ShortcutsController.Gestures.ChatAction" = "Chat Actions";
+"ShortcutsController.Gestures.ChatAction.Value" = "Swipe both sides";
+"ShortcutsController.Gestures.Reply" = "Reply";
+"ShortcutsController.Gestures.Reply.Value" = "Swipe From Right To Left";
+"ShortcutsController.Gestures.Stickers" = "Stickers/Emoji/GIFs Panel";
+"ShortcutsController.Gestures.Stickers.Value" = "Swipe both sides";
+"ShortcutsController.Gestures.Navigation" = "Navigation Back";
+"ShortcutsController.Gestures.Navigations.Value" = "Swipe From Left To Right";
+
+
+"ShortcutsController.Others" = "OTHERS";
+"ShortcutsController.Others.LockByPasscode" = "Lock by Passcode";
 
 
 
@@ -4116,6 +4189,7 @@
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Confirm.DeleteMessages" = "Delete selected messages?";
+"Chat.Dice.Result" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
 "Chat.Message.UnsendMessages" = "Unsend my messages";
 "Chat.Poll.TotalVotes_zero" = "%d users voted";
@@ -4138,6 +4212,7 @@
 "NotificationSettings.IncludePublicGroups" = "Include Public Groups";
 "PeerInfo.Admins" = "Admins";
 "PeerInfo.SetAdmins" = "Set Admins";
+"PeerInfo.Statistics" = "Statistics";
 "SettingsSearch.Synonyms.Stickers.Masks" = " ";
 "TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";

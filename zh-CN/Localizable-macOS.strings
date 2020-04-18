@@ -94,7 +94,17 @@
 "PeerInfo.Permissions" = "权限";
 "PeerInfo.Administrators" = "管理员";
 
-"PeerInfo.Statistics" = "统计数据";
+
+
+
+
+
+
+
+
+
+
+
 
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？";
 
@@ -824,6 +834,9 @@
 "PeerInfo.About.Placeholder" = "简介";
 "PeerInfo.ConvertToSupergroup" = "升级为超级群组";
 "PeerInfo.RemovedUsers" = "被封禁的用户";
+
+
+
 
 
 "Telegram.ChannelBlacklistViewController" = "黑名单";
@@ -2799,6 +2812,8 @@
 
 "Chat.Quiz.TotalVotesResultEmpty" = "无人回答";
 
+
+
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "匿名投票";
 
@@ -2835,7 +2850,7 @@
 
 
 
-
+"NewPoll.QuizMultiple.Error" = "测验模式下的投票只能有一个正确答案。";
 
 
 "NewPoll.OptionsDescription_countable" = "%d";
@@ -2845,6 +2860,10 @@
 
 
 "NewPoll.OptionsDescription_other" = "您还可以再添加 %d 个选项。";
+
+
+
+
 
 
 "NewPoll.OptionsDescriptionMinimum_countable" = "%d";
@@ -2868,7 +2887,7 @@
 
 "NewPoll.Anonymous" = "匿名投票";
 "NewPoll.MultipleChoice" = "可多选";
-"NewPoll.Quiz" = "小测验模式";
+"NewPoll.Quiz" = "测验模式";
 "NewPoll.QuizDesc" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
 
 
@@ -3184,9 +3203,9 @@
 
 
 
-"NotificationSettings.ShowNotificationsFrom" = "显示通知";
-"NotificationSettings.AllAccounts" = "为所有帐户显示";
-"NotificationSettings.ShowNotificationsFrom.On" = "如果您只想接收当前帐户的通知，请关闭此选项。";
+"NotificationSettings.ShowNotificationsFrom" = "显示哪些帐号的通知？";
+"NotificationSettings.AllAccounts" = "所有帐号";
+"NotificationSettings.ShowNotificationsFrom.On" = "如果您只想收到当前帐号的通知，请关闭此功能。";
 "NotificationSettings.ShowNotificationsFrom.Off" = "如果您想接收所有帐户的通知，请启用此选项。";
 
 
@@ -3864,6 +3883,11 @@
 
 
 
+
+
+
+
+
 "ChannelStats.SharesCount_other" = "%d 次转发";
 
 
@@ -3882,11 +3906,60 @@
 "ChannelStats.Graph.Notifications" = "通知";
 "ChannelStats.Graph.Interactions" = "互动";
 
+
+
+
 "ChannelStats.Recent.Header" = "最近的帖子";
 
-"Chat.Dice.Result" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
+
 
 "Channel.Stats.Loading" = "**正在准备统计**\n在我们为您生成统计图表时，请稍等片刻。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //
@@ -4116,6 +4189,7 @@
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
 "ChannelBlacklist.AddMember" = "邀请新成员";
 "Chat.Confirm.DeleteMessages" = "删除所选消息？";
+"Chat.Dice.Result" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
 "Chat.Message.UnsendMessages" = "撤回我的消息";
 "Chat.Poll.TotalVotes_other" = "%d 人已投票";
@@ -4132,6 +4206,7 @@
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";
 "PeerInfo.Admins" = "管理员";
 "PeerInfo.SetAdmins" = "设置管理员";
+"PeerInfo.Statistics" = "统计数据";
 "TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 "TwoStepAuth.SetupHint" = "请创建一个密码提示。";
