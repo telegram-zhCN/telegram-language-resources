@@ -24,7 +24,7 @@
     <string name="YourCode">手机验证</string>
     <string name="SentSmsCode">短信激活码已发送至 **%1$s**。</string>
     <string name="SentAppCode">我们已向您其他设备上的 **Telegram** 应用发送了一条验证码消息。</string>
-    <string name="SentAppCodeTitle">查看你的 Telegram 消息</string>
+    <string name="SentAppCodeTitle">查看您的 Telegram 消息</string>
     <string name="SentSmsCodeTitle">输入验证码</string>
     <string name="SentCallCode">我们正在呼叫您的手机 **%1$s**。\n\n请不要接听，Telegram 将会自动处理接下来的事情。</string>
     <string name="SentCallOnly">正在呼叫您的手机 **%1$s** 并播报验证码。</string>
@@ -272,8 +272,8 @@
     <string name="MegaUsernameHelp">如果您设置了永久链接，其他人将能够找到并加入您的群组。\n\n您可以使用 a-z、0-9 和下划线。\n最小长度为5个字符。</string>
     <string name="ChannelVerifiedWarning">警告</string>
     <string name="ChannelUsernamePlaceholder">链接</string>
-    <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
-    <string name="MegaPrivateLinkHelp">人们可以通过上方链接加入您的群组。您可以随时撤销这个链接。</string>
+    <string name="ChannelPrivateLinkHelp">用戶可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
+    <string name="MegaPrivateLinkHelp">用戶可以通过上方链接加入您的群组。您可以随时撤销这个链接。</string>
     <string name="DescriptionOptionalPlaceholder">简介 (可选)</string>
     <string name="DescriptionPlaceholder">简介</string>
     <string name="DescriptionInfo">您可以给您的频道添加一段简介。</string>
@@ -466,7 +466,7 @@
     <string name="ManageChannel">管理频道</string>
     <string name="ManageGroupMenu">管理群组</string>
     <string name="ManageChannelMenu">管理频道</string>
-    <string name="ChatHistory">新成员历史记录可见性</string>
+    <string name="ChatHistory">新成员历史对话可见性</string>
     <string name="ChatHistoryVisible">可见</string>
     <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
     <string name="ChatHistoryHidden">隐藏</string>
@@ -512,7 +512,7 @@
     <string name="DiscussionLinkGroupPublicAlert">您想让 **%1$s** 成为 **%2$s** 的讨论板吗？</string>
     <string name="DiscussionLinkGroupPrivateAlert">您想让 **%1$s** 成为 **%2$s** 的讨论板吗？\n\n该群组的任何成员都可以查看频道中的消息。</string>
     <string name="DiscussionLinkGroupPublicPrivateAlert">您想让 **%1$s** 成为 **%2$s** 的讨论板吗？\n\n该频道的任何成员都可以查看群组中的消息。</string>
-    <string name="DiscussionLinkGroupAlertHistory">“新成员历史记录可见性”将被切换为可见。</string>
+    <string name="DiscussionLinkGroupAlertHistory">对于新成员，历史对话将被设置为可见。</string>
     <string name="DiscussionUnlinkGroupAlert">你确定要从此群组取消链接 **%1$s** 吗？</string>
     <string name="DiscussionUnlinkChannelAlert">您确定要取消 **%1$s** 到此频道的链接吗？</string>
     <string name="ChannelDiscuss">讨论</string>
@@ -551,9 +551,9 @@
     <string name="AddAnOptionInfoMax">您添加的选项已达最大数量。</string>
     <string name="AnonymousPoll">匿名投票</string>
     <string name="QuizWrongAnswer">答错了！</string>
-    <string name="QuizWrongAnswerInfo">你错过了正确的选项。</string>
+    <string name="QuizWrongAnswerInfo">您错过了正确的选项。</string>
     <string name="QuizWellDone">干得漂亮！</string>
-    <string name="QuizWellDoneInfo">你选择了正确的答案。</string>
+    <string name="QuizWellDoneInfo">您选择了正确的答案。</string>
     <string name="PublicPoll">投票</string>
     <string name="QuizPoll">小测验</string>
     <string name="PollSubmitVotes">投票</string>
@@ -732,7 +732,7 @@
     <string name="ExternalFolderInfo">浏览您的外置存储</string>
     <!--group stickers-->
     <string name="GroupStickers">群组贴纸包</string>
-    <string name="ChooseFromYourStickers">从你添加的贴纸包中选择</string>
+    <string name="ChooseFromYourStickers">从您收藏的贴纸包中选择</string>
     <string name="GroupStickersInfo">你可以为所有群成员选择一个贴纸包，这样当他们在群里聊天时都可以看到并使用它。</string>
     <string name="ChooseStickerSet">选择贴纸包</string>
     <string name="ChooseStickerSetPlaceholder">贴纸包</string>
@@ -836,7 +836,7 @@
     <string name="AddContactChat">添加联系人</string>
     <string name="AddContactFullChat">添加 %1$s 到联系人</string>
     <string name="ViewContact">查看联系人</string>
-    <string name="BlockUserAlert">你想屏蔽 %1$s 吗？</string>
+    <string name="BlockUserAlert">您想屏蔽 %1$s 的所有消息和通话吗？</string>
     <string name="ReportSpamAlert">您确定要举报此用户存在骚扰行为？</string>
     <string name="ReportSpamAlertGroup">您确定要举报此群组发布垃圾信息吗？</string>
     <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息吗？</string>
@@ -1242,9 +1242,9 @@
     <string name="ErrorOccurred">发生错误</string>
     <!--stickers view-->
     <string name="StickersName">贴纸和装饰</string>
-    <string name="LoopAnimatedStickers">循环播放动画贴纸</string>
-    <string name="LoopAnimatedStickersInfo">动画贴纸会在聊天页面循环播放。</string>
-    <string name="AnimatedStickers">动画贴纸</string>
+    <string name="LoopAnimatedStickers">循环播放动态贴纸</string>
+    <string name="LoopAnimatedStickersInfo">动态贴纸将在对话中持续播放。</string>
+    <string name="AnimatedStickers">动态贴纸</string>
     <string name="AddStickers">添加贴纸包</string>
     <string name="AddStickersCount">添加 %1$s</string>
     <string name="RemoveStickersCount">移除 %1$s</string>
@@ -1364,7 +1364,7 @@
     <string name="CreateNewThemeMenu">创建新主题</string>
     <string name="NewThemeTitle">新建主题</string>
     <string name="EditThemeTitle">编辑主题</string>
-    <string name="CreateNewThemeHelp">点按调色板图标来查看每个屏幕上元素的列表并修改它们。</string>
+    <string name="CreateNewThemeHelp">点击调色板图标来查看每个界面上元素的列表并编辑它们。</string>
     <string name="CreateNewThemeAlert">您可以通过更改应用中的颜色来创建自己的主题。\n\n您可以随时切换回默认的 Telegram 主题。</string>
     <string name="ThemeSetUrlHelp">您可以使用 a-z, 0-9 和下划线。\n最短长度为 5 个字符。</string>
     <string name="ThemeHelpLink">每当您的主题被修改之后，用户将同步收到更新。任何人都可以通过这个链接安装您的主题：\n%1$s</string>
@@ -1432,11 +1432,11 @@
     <!--settings view-->
     <string name="ResetNotificationsText">所有的通知设置已被重置为默认设置</string>
     <string name="ResetNotificationsAlertTitle">重置所有通知</string>
-    <string name="ResetNotificationsAlert">你确定要重置所有通知设置？</string>
+    <string name="ResetNotificationsAlert">您确定要还原所有通知设置吗？</string>
     <string name="TextSizeHeader">消息文字大小</string>
     <string name="AskAQuestion">向我们提问</string>
     <string name="EnableAnimations">动画切换效果</string>
-    <string name="ChatSettings">聊天设置</string>
+    <string name="ChatSettings">对话设置</string>
     <string name="Devices">设备</string>
     <string name="SettingsHelp">帮助</string>
     <string name="SettingsDebug">调试</string>
@@ -1501,7 +1501,7 @@
     <string name="BackgroundBlurred">模糊</string>
     <string name="BackgroundMotion">动效</string>
     <string name="ChangeChatBackground">更改聊天窗口背景图</string>
-    <string name="ChatBackground">聊天背景</string>
+    <string name="ChatBackground">对话背景</string>
     <string name="ResetChatBackgrounds">重置背景图列表</string>
     <string name="ResetChatBackgroundsInfo">删除所有上传的背景图并恢复预置的背景图列表。</string>
     <string name="ResetChatBackgroundsAlertTitle">重置聊天窗口背景图</string>
@@ -1545,7 +1545,7 @@
     <string name="SelectImage">选择图片</string>
     <string name="LoadingFullImage">正在加载完整图片...</string>
     <string name="SetColor">设置纯色背景</string>
-    <string name="MessagesSettings">聊天设置</string>
+    <string name="MessagesSettings">消息设置</string>
     <string name="SendByEnter">使用回车键发送消息</string>
     <string name="Events">事件</string>
     <string name="ContactJoined">联系人加入 Telegram</string>
@@ -1830,7 +1830,7 @@
     <string name="KeepMediaInfo">为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。</string>
     <string name="KeepMediaForever">永久保留</string>
     <string name="AudioAutodownload">语音留言</string>
-    <string name="VideoMessagesAutodownload">视频留言</string>
+    <string name="VideoMessagesAutodownload">视频</string>
     <!--passport view-->
     <string name="TelegramPassport">Telegram Passport</string>
     <string name="PassportRequestedInformation">所需的信息</string>
@@ -1961,7 +1961,7 @@
     <string name="PassportUploadAdditinalDocument">上传补充扫描件</string>
     <string name="PassportUploadMaxReached">您最多只能上传 %1$s 个文件。</string>
     <string name="PassportUploadNotImage">您只能上传图片。</string>
-    <string name="PassportScanPassport">扫描你的护照</string>
+    <string name="PassportScanPassport">扫描您的护照</string>
     <string name="PassportScanPassportInfo">扫描带有机读区域的护照或身份证来自动填充个人信息。</string>
     <string name="PassportNoDocumentsAdd">添加一个文档</string>
     <string name="PassportNoDocuments">您暂时未上传任何文档</string>
@@ -2082,8 +2082,8 @@
     <string name="FilterRemoveChats">移除对话</string>
     <string name="FilterChatTypes">对话类型</string>
     <string name="FilterChats">对话</string>
-    <string name="FilterInclude">已包括的对话</string>
-    <string name="FilterExclude">已排除的对话</string>
+    <string name="FilterInclude">包括的对话</string>
+    <string name="FilterExclude">排除的对话</string>
     <string name="FilterIncludeInfo">选择会出现在此文件夹中的对话和对话类型。</string>
     <string name="FilterExcludeInfo">选择不会出现在此文件夹中的对话和对话类型。</string>
     <string name="FilterSecretChats">加密对话</string>
@@ -2112,14 +2112,14 @@
     <string name="FilterShowMoreChats_other">显示另外 %1$d 个对话</string>
     <string name="FilterRemoveExclusionTitle">移除例外</string>
     <string name="FilterRemoveInclusionTitle">移除例外</string>
-    <string name="FilterRemoveExclusionText">您确定要将 %1$s 从始终排除的对话中移除吗？</string>
-    <string name="FilterRemoveExclusionChatText">您确定要将 %1$s 从始终排除的对话中移除吗？</string>
-    <string name="FilterRemoveExclusionUserText">您确定要将 %1$s 从始终排除的对话中移除吗？</string>
-    <string name="FilterRemoveInclusionText">您确定要将 %1$s 从始终包括的对话中移除吗？</string>
-    <string name="FilterRemoveInclusionChatText">您确定要将 %1$s 从始终包括的对话中移除吗？</string>
-    <string name="FilterRemoveInclusionUserText">您确定要将 %1$s 从始终包括的对话中移除吗？</string>
+    <string name="FilterRemoveExclusionText">您确定要从排除的对话中移除“%1$s”吗？</string>
+    <string name="FilterRemoveExclusionChatText">您确定要从排除的对话中移除“%1$s”吗？</string>
+    <string name="FilterRemoveExclusionUserText">您确定要从排除的对话中移除“%1$s”吗？</string>
+    <string name="FilterRemoveInclusionText">您确定要从包括的对话中移除“%1$s”吗？</string>
+    <string name="FilterRemoveInclusionChatText">您确定要从包括的对话中移除“%1$s”吗？</string>
+    <string name="FilterRemoveInclusionUserText">您确定要从包括的对话中移除“%1$s”吗？</string>
     <string name="FilterAvailableTitle">对话文件夹</string>
-    <string name="FilterAvailableText">打开 *设置-文件夹* 来将您的对话组织到文件夹中。</string>
+    <string name="FilterAvailableText">打开 *设置 &gt; 文件夹*，将对话整理到文件夹中。</string>
     <string name="FilterNameNonMuted">未禁用消息通知</string>
     <string name="FilterNameUnread">未读</string>
     <!--passcode view-->
@@ -2238,14 +2238,14 @@
     <string name="PeopleNearbyGps">打开</string>
     <string name="ChatsNearbyHeader">附近的群</string>
     <string name="PeopleNearbyInfo2">与附近的人交换联系方式并查找新朋友</string>
-    <string name="PeopleNearbyEmpty">正在寻您你周围的用户...</string>
+    <string name="PeopleNearbyEmpty">正在寻找您周围的用户...</string>
     <string name="NearbyCreateGroup">创建一个本地群组</string>
     <string name="NearbyStartGroup">创建群组</string>
     <string name="NearbyCreateGroupInfo">靠近此位置的任何人（邻居，同事，同学，活动参与者，场地访客）都可以在“附近的人员”中看到您的群组。</string>
     <string name="NearbyCreateGroupInfo2">如果您在此位置创建无关群组，你可能会失去创建基于位置的群组的能力。</string>
     <string name="ChatSetLocation">设置地点</string>
     <string name="ChatSetThisLocation">设置为此地点</string>
-    <string name="ChatSetLocationInfo">人们可以在“附近的人”中找到您的群组。</string>
+    <string name="ChatSetLocationInfo">用戶可以在“附近的人”中找到您的群组。</string>
     <string name="PlacesInThisArea">附近</string>
     <!--photo gallery view-->
     <string name="ShowAsList">以列表显示</string>
@@ -2414,7 +2414,7 @@
     <string name="BytesReceived">已接收字节</string>
     <string name="FilesDataUsage">文件</string>
     <string name="CallsDataUsage">通话设置</string>
-    <string name="OutgoingCalls">外拨电话</string>
+    <string name="OutgoingCalls">拨出通话</string>
     <string name="IncomingCalls">来电</string>
     <string name="CallsTotalTime">总时间</string>
     <string name="TotalDataUsage">总计</string>
@@ -2833,11 +2833,11 @@
     <string name="VoipOfflineTitle">离线</string>
     <string name="VoipOfflineAirplaneTitle">飞行模式</string>
     <string name="VoipOfflineOpenSettings">设置</string>
-    <string name="CallMessageOutgoing">外拨电话</string>
+    <string name="CallMessageOutgoing">拨出通话</string>
     <string name="CallMessageIncoming">来电</string>
-    <string name="CallMessageIncomingMissed">未接电话</string>
+    <string name="CallMessageIncomingMissed">未接通话</string>
     <string name="CallMessageOutgoingMissed">未接通</string>
-    <string name="CallMessageIncomingDeclined">拒接电话</string>
+    <string name="CallMessageIncomingDeclined">已拒绝通话</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
     <string name="NoCallLog">您还没有拨打过任何电话。</string>
     <string name="VoipPeerIncompatible">**%1$s** 的应用使用了不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>

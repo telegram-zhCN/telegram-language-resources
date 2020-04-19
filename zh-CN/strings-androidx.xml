@@ -278,7 +278,7 @@
   <string name="ChatContentGroupCreate_outgoing">创建了群组</string>
   <string name="ChatContentGroupReturn">返回了群组</string>
   <string name="ChatContentGroupReturn_outgoing">回到了群组</string>
-  <string name="ChatContentGroupAddYou">将你添加进群组</string>
+  <string name="ChatContentGroupAddYou">将您添加进群组</string>
   <string name="ChatContentGroupAdd">已将 %1$s 添加进入群组</string>
   <string name="ChatContentGroupAdd_outgoing">添加了 %1$s  进入群组</string>
   
@@ -310,7 +310,7 @@
   <string name="AttachContact">联系人</string>
   <string name="FromYou">您</string>
   <string name="Username">用户名</string>
-  <string name="Phone">电话</string>
+  <string name="Phone">手机号码</string>
   <string name="prompt_network">无网络连接。请稍后再试。</string>
   <string name="PasscodeTitle">锁定码</string>
   <string name="PasscodeItem">锁定码</string>
@@ -405,7 +405,7 @@
   <string name="ChannelUsernameHelp">用户可与他人分享此链接，使用 Telegram 搜索也能找到您的频道。</string>
   <string name="ChannelPrivate">私人频道</string>
   <string name="ChannelPrivateInfo">私人频道只能通过邀请链接加入。</string>
-  <string name="ChannelPrivateLinkHelp">人们可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
+  <string name="ChannelPrivateLinkHelp">用戶可以通过以上链接加入您的频道。您可以随时撤销此链接。</string>
   <string name="SendMessageTo">发送消息给...</string>
   <string name="GroupName">群组名称</string>
   <string name="GroupDontAdd">从列表中移除</string>
@@ -658,7 +658,7 @@
   <string name="MessageLifetime">阅后即焚计时器</string>
   <string name="Done">完成</string>
   <string name="Off">关闭</string>
-  <string name="Chats">聊天</string>
+  <string name="Chats">对话</string>
   <string name="Notifications">通知与提醒</string>
   <string name="NotificationsEnabled">启用</string>
   <string name="NotificationsEnabledHint">已启用 (%1$s)</string>
@@ -768,7 +768,7 @@
   <string name="PasswordRecovery">找回密码</string>
   <string name="LoginPasswordText">您已经启用两步认证，这个附加密码将保护您的帐号。</string>
   <string name="EnterPassword">输入密码</string>
-  <string name="YourEmail">你的电子邮件地址</string>
+  <string name="YourEmail">您的电子邮件地址</string>
   <string name="YourEmailInfo">请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
   <string name="Skip">跳过</string>
   <string name="Warning">警告</string>
@@ -824,10 +824,10 @@
   <string name="New">新建</string>
   <string name="Add">添加</string>
   <string name="AddMemberBtn">添加</string>
-  <string name="BlockListEmpty">你还没有屏蔽任何人</string>
+  <string name="BlockListEmpty">您还没有屏蔽任何人</string>
   <string name="QBlockX">屏蔽 %1$s？</string>
   <string name="QUnblockX">取消屏蔽 %1$s？</string>
-  <string name="YouTookAScreenshot">你截了一张图</string>
+  <string name="YouTookAScreenshot">您保存了一张屏幕截图</string>
   <string name="XTookAScreenshot">%1$s 截了一张图</string>
   <string name="YouDisabledTimer">您取消了阅后即焚计时器</string>
   <string name="XDisabledTimer">%1$s 取消了阅后即焚计时器</string>
@@ -1064,7 +1064,7 @@
   <string name="QAddXToChannel">将 %1$s 添加到此频道？</string>
   <string name="QDeleteX">删除 %1$s？</string>
   <string name="VoiceCalls">语音通话</string>
-  <string name="VoiceCallPrivacyDesc">你可以限制其他人和你进行语音通话的权限</string>
+  <string name="VoiceCallPrivacyDesc">您可以精准地控制谁可以与你进行语音通话</string>
   <string name="Ringtone">铃声</string>
   <string name="RingtoneDisabled">已禁用</string>
   <string name="Calls">通话</string>
@@ -1489,14 +1489,14 @@
   <string name="SecretChatFeatureUnsupported">%1$s 的 Telegram 客户端不支持此项功能，请其先更新客户端后再试。</string>
   <string name="UseHqRoundVideos">使用高清画质</string>
   <string name="DiscardVideoMessageTitle">放弃录制留言</string>
-  <string name="DiscardVideoMessageDescription">你确定要放弃刚录制的视频留言吗？</string>
+  <string name="DiscardVideoMessageDescription">您确定要丢弃此视频吗？</string>
   <string name="Discard">丢弃</string>
   <string name="MediaTypeUnsupported">这种类型的媒体文件不支持该功能</string>
   <string name="XMadeGroupHistoryHidden">"%1$s 设置消息记录对新成员不可见 "</string>
   <string name="XMadeGroupHistoryVisible">%1$s 设置消息记录对新成员可见</string>
   <string name="XChangedGroupStickerSet">%1$s 更换了群组贴纸包</string>
   <string name="XRemovedGroupStickerSet">%1$s 删除了群组贴纸包</string>
-  <string name="ChatHistory">新成员历史记录可见性</string>
+  <string name="ChatHistory">新成员历史对话可见性</string>
   <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
   <string name="ChatHistoryHiddenInfo">新成员不能查看他们加入前的消息。</string>
   <string name="ChatHistoryHidden">不可见</string>
@@ -1573,7 +1573,7 @@
   <string name="RecoveryCodeSentEmailUnknown">我们给您发送了一个六位数字恢复码。请查阅您的电子邮箱并将验证码输入到此处。</string>
   <string name="RestoreEmailTroubleUnknown">无法访问您的电子邮箱？</string>
   <string name="VoipInCallBranding">Telegram Call</string>
-  <string name="PhoneCall">电话</string>
+  <string name="PhoneCall">手机通话</string>
   <string name="SetAsCurrent">设置为当前头像</string>
   <string name="ArchiveStickerSet">确定归档贴纸集 %1$s？稍后你可以在 设置 &gt; 贴纸 &gt;&#160;已归档 中找回。</string>
   <string name="ArchiveStickerSetAction">归档</string>
@@ -1963,7 +1963,7 @@
   <string name="LanguageSectionOfficial">官方</string>
   <string name="LanguageSectionInstalled">已安装</string>
   <string name="LanguageSectionRaw">测试版</string>
-  <string name="TranslationMoreTitle">找不到你的语言？</string>
+  <string name="TranslationMoreTitle">找不到您的语言？</string>
   <string name="TranslationMoreDone">了解</string>
   <string name="TranslationMoreCreate">创建</string>
   <string name="TranslationMoreText">下列可用语言由 [翻译平台](https://translations.telegram.org) 管理。\n\nTelegram 将会在相应语言的翻译被官方采纳时将其提供给您。\n\n在此期间，您可以安装自定义的语言包。该文件可通过关注 [翻译进度](https://translations.telegram.org/classic-zh-cn/android_x/) 获得，也可由您 [自行](https://t.me/tgx_android_translate/) 创建。</string>
@@ -2140,7 +2140,7 @@
   <string name="ThemeCategoryContent">内容</string>
   <string name="ThemeCategoryNavigation">头部</string>
   <string name="ThemeCategoryControls">控件</string>
-  <string name="ThemeCategoryChats">聊天</string>
+  <string name="ThemeCategoryChats">对话</string>
   <string name="ThemeCategoryBubbles">气泡</string>
   <string name="ThemeCategoryColors">多媒体</string>
   <string name="ThemeCategoryIV">即时预览</string>
@@ -2536,7 +2536,7 @@
   <string name="PollDiscard">放弃发起投票</string>
   <string name="PollDiscardPrompt">您确定要放弃发起新投票吗？</string>
   <string name="QuizDiscard">取消测验</string>
-  <string name="QuizDiscardPrompt">你确定要取消这次测验吗？</string>
+  <string name="QuizDiscardPrompt">您确定要取消这次测验吗？</string>
   <string name="PollOptionsAdd">添加一个选项...</string>
   
   <string name="PollOptionsLimit_other">您还可以添加 %1$s 个选项</string>
@@ -2669,7 +2669,7 @@
   <string name="EmojiSetsInfo">你确定要清除未使用的 Emoji 包吗?</string>
   <string name="BigEmoji">大号 Emoji</string>
 
-  <string name="error_CHAT_ADMIN_REQUIRED">你没有足够的权限来执行这个操作。</string>
+  <string name="error_CHAT_ADMIN_REQUIRED">您没有足够的权限来执行这个操作。</string>
   <string name="ChatPermissions">聊天权限</string>
   <string name="WhatMembersCanDo">这个群组的成员可以做什么？</string>
   <string name="MemberSince">%1$s %2$s 加入</string>
@@ -2745,7 +2745,7 @@
   <string name="PrivacyPhotoNobodyExcept">没有人 (%1$s) 可以看到您的头像</string>
   <string name="PrivacyPhotoContacts">只有联系人可以看到您的头像</string>
   <string name="PrivacyPhotoContactsExcept">只有联系人 (%1$s) 可以看到您的头像</string>
-  <string name="PrivacyPhotoEverybody">每个人都可以看到你的头像</string>
+  <string name="PrivacyPhotoEverybody">每个人都可以看到您的头像</string>
   <string name="PrivacyPhotoEverybodyExcept">每个人 (%1$s) 都可以看到你的头像</string>
   <string name="PrivacyPhotoTitle">头像</string>
 
@@ -2841,11 +2841,11 @@
   
   
   
-  <string name="PrivacyShowNumberNobody">没有人可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberNobody">没有人可以看到您的手机号码</string>
   <string name="PrivacyShowNumberNobodyExcept">没有人 (%1$s) 可以看到你的手机号码</string>
-  <string name="PrivacyShowNumberContacts">只有你的联系人可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberContacts">只有您的联系人可以看到您的手机号码</string>
   <string name="PrivacyShowNumberContactsExcept">只有你的联系人 (%1$s) 可以看到你的手机号码</string>
-  <string name="PrivacyShowNumberEverybody">所有人都可以看到你的手机号码</string>
+  <string name="PrivacyShowNumberEverybody">所有人都可以看到您的手机号码</string>
   <string name="PrivacyShowNumberEverybodyExcept">所有人 (%1$s) 都可以看到你的手机号码</string>
 
   <!--<string name="PrivacyAllowFindingNobody">Nobody can see your phone number</string>

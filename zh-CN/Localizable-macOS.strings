@@ -562,7 +562,7 @@
 
 "Channel.ExportLinkAboutChannel" = "用户可通过以上链接加入您的频道。您可以随时撤销此链接。";
 "Channel.ExportLinkAboutGroup" = "用户可以通过此链接加入您的群组。您可以随时撤销此链接。";
-"Channel.UsernameAboutChannel" = "人们可以分享这个链接，也可以通过全局搜索找到您的频道。";
+"Channel.UsernameAboutChannel" = "用户可以与他人分享这个链接或通过 Telegram 搜索找到您的频道。";
 "Channel.UsernameAboutGroup" = "用户可以分享此链接给他人，并且能通过搜索找到您的群组。";
 
 
@@ -1091,7 +1091,7 @@
 "InstalledStickers.PacksTitle" = "您的贴纸包";
 "InstalledStickers.Descrpiption" = "用户可以通过机器人 @stickers 创建自己的贴纸包。\n\n点击贴纸可以预览及添加贴纸包。";
 "InstalledStickers.Archived" = "已存档贴纸";
-
+"InstalledStickers.LoopAnimated" = "循环播放动态贴纸";
 "InstalledStickers.Tranding" = "热门贴纸";
 "StickerSet.Remove" = "移除";
 "InstalledStickers.Remove.Description" = "This sticker set will be archived. You can quickly restore it later from the Archived Stickers section.";
@@ -1168,7 +1168,7 @@
 "PrivacySettingsController.ProfilePhoto.NeverShareWith.Title" = "从不共享给";
 
 "PrivacySettingsController.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接";
-"PrivacySettingsController.Forwards.CustomHelp" = "你可以精确的限制谁可以转发你的消息。";
+"PrivacySettingsController.Forwards.CustomHelp" = "您可以精确地控制谁可以转发您的消息。";
 "PrivacySettingsController.Forwards.AlwaysAllow.Title" = "总是允许";
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "从不允许";
 
@@ -1195,7 +1195,7 @@
 "PrivacySettingsController.GroupDescription" = "您可以精确控制其他人能否邀请您进入任意群组或频道。";
 
 "PrivacySettingsController.PhoneCallHeader" = "谁可以呼叫我";
-"PrivacySettingsController.PhoneCallDescription" = "你可以限制其他人和你语音通话的权限";
+"PrivacySettingsController.PhoneCallDescription" = "您可以精确地控制谁可以与您语音通话。";
 "PrivacySettingsController.PeerInfo" = "您可以将用户或整个群组添加为覆盖上述设置的例外。";
 
 "Chat.Call.Outgoing" = "外拨电话";
@@ -1334,7 +1334,7 @@
 
 /* This key for which language this file, for example: Italian -> Italiano, Russian -> Русский */
 "AccountSettings.CurrentLanguage" = "简体中文";
-"Suggest.Localization.Header" = "选择你的语言";
+"Suggest.Localization.Header" = "选择您的语言";
 "Suggest.Localization.Other" = "其它";
 
 "PrivacySettings.PeerSelect.AddNew" = "添加...";
@@ -1420,7 +1420,7 @@
 "Channel.EventLog.Service.AboutRemoved" = "%@ removed this channel's description:";
 
 
-
+"Channel.EventLog.MessageRankName" = "将 %@ 的头衔更改为: %@";
 
 "Channel.EventLog.Service.DisabledSlowMode" = "%@ 关闭了慢速模式";
 
@@ -1589,7 +1589,7 @@
 
 "ConnectingStatus.DisableProxy" = "点按这里禁用代理";
 "Proxy.ForceDisable" = "您确定要禁用代理服务器 %@ 吗？";
-"Proxy.ForceEnable.Header1" = "你想要添加这个代理吗？";
+"Proxy.ForceEnable.Header1" = "您要添加这个代理吗？";
 "Proxy.ForceEnable.OK" = "添加代理";
 "Proxy.ForceEnable.Enable" = "启用代理";
 "Proxy.ForceEnable.MTPDesc" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
@@ -1605,7 +1605,7 @@
 "ProxySettings.ExportLink" = "从剪贴板导出链接";
 "ProxySettings.CopyLink" = "分享代理链接";
 
-
+"ProxySettings.IncorrectSecret" = "密钥不正确。请重试。";
 
 
 "ProxySettings.ProxyNotFound" = "在剪贴板内未找到代理服务器设置。";
@@ -1681,7 +1681,7 @@
 "PeerInfo.SetGroupStickersSet" = "群组贴纸包";
 "Telegram.GroupStickerSetController" = "群组贴纸包";
 "GroupStickers.CreateDescription" = "您可以通过机器人 @stickers 创建您自己的贴纸包。";
-"GroupStickers.ChooseHeader" = "从你安装的贴纸包中选择";
+"GroupStickers.ChooseHeader" = "从您收藏的贴纸包中选择";
 "GroupStickers.EmptyHeader" = "贴纸包未找到";
 "GroupStickers.EmptyDesc" = "请检查您的输入，或从下面列表中选取一个";
 
@@ -1701,7 +1701,7 @@
 
 "Compose.SelectGroupUsers.Placeholder" = "您想要同谁联系？";
 
-"PeerInfo.PreHistory" = "新成员历史记录可见性";
+"PeerInfo.PreHistory" = "新成员历史对话可见性";
 "PeerInfo.PreHistory.Visible" = "可见";
 "PeerInfo.PreHistory.Hidden" = "隐藏";
 "Telegram.PreHistorySettingsController" = "历史记录权限设置";
@@ -2850,7 +2850,7 @@
 
 
 
-"NewPoll.QuizMultiple.Error" = "测验模式下的投票只能有一个正确答案。";
+"NewPoll.QuizMultiple.Error" = "测验模式下只能有一个正确答案。";
 
 
 "NewPoll.OptionsDescription_countable" = "%d";
@@ -3098,7 +3098,7 @@
 "AppUpdate.Downloading" = "正在下载...";
 "AppUpdate.Unarchiving" = "正在解压...";
 "AppUpdate.Title" = "更新";
-"AppUpdate.Uptodate" = "你已经安装了最新版 Telegram。";
+"AppUpdate.Uptodate" = "您已安装最新版本 Telegram。";
 "AppUpdate.NewestAvailable" = "请更新应用以获得最新的改进和特性。";
 "AppUpdate.Title.New" = "新版本 (当前版本: %@)";
 "AppUpdate.Title.Previous" = "历史版本";
@@ -3108,7 +3108,7 @@
 "DataAndStorage.Autoplay.GIFs" = "GIF";
 "DataAndStorage.Autoplay.Videos" = "视频";
 "DataAndStorage.Autoplay.SoundOnHover" = "选中时播放提示音";
-"DataAndStorage.Autoplay.SoundOnHover.Desc" = "声音将在你的光标移到视频上时播放。";
+"DataAndStorage.Autoplay.SoundOnHover.Desc" = "声音将在您把光标移到视频上时开始播放。";
 
 "DataAndStorage.Category.PreloadLargeVideos" = "预加载更大的视频";
 "DataAndStorage.Category.PreloadLargeVideosDesc" = "预加载大于 %@ MB 视频的前几秒钟以便快速回放。";
@@ -3199,7 +3199,7 @@
 
 "_NS:99.title" = "编辑";
 "_NS:77.title" = "查看";
-
+"_NS:163.title" = "窗口";
 
 
 
@@ -3320,7 +3320,7 @@
 "PeerInfo.Discussion.Desc" = "添加一个用于评论的群组。";
 
 
-
+"DiscussionController.Group.Title" = "关联的群组";
 "DiscussionController.Channel.Title" = "讨论群";
 
 "DiscussionController.Channel.Empty.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
@@ -3348,13 +3348,13 @@
 
 
 "DiscussionController.Group.Set.Header" = "**%@** 正在将此群组作为其讨论板。";
-"DiscussionController.Group.Set.Description" = "你在这个频道所发送的任何消息都会同时被推送到这个群组中。";
+"DiscussionController.Group.Set.Description" = "您在此频道中发送的所有消息都将会同时被推送到该群组中。";
 
 "DiscussionController.Group.Set.UnlinkChannel" = "取消链接频道";
 
 
 "DiscussionController.Confrim.UnlinkChannel" = "确定要解除群组与此频道的链接吗？";
-
+"DiscussionController.Confrim.UnlinkGroup" = "您确定要解除群组与此频道的关联吗？";
 
 
 "PrivacyAndSecurity.Item.Off" = "关";
@@ -3367,7 +3367,7 @@
 
 "Channel.EventLog.MessageChangedLinkedGroup" = "%@ 将 %@ 设定为此频道的讨论群";
 "Channel.EventLog.MessageChangedLinkedChannel" = "%@ 将此群组与 %@ 链接";
-
+"Channel.EventLog.MessageChangedUnlinkedGroup" = "讨论群已被 %@ 移除";
 "Channel.EventLog.MessageChangedUnlinkedChannel" = "%@ 将此群组与 %@ 取消链接";
 
 
@@ -3388,7 +3388,7 @@
 "Channel.AddBotErrorNoRights" = "抱歉，机器人在频道中只能被添加为管理员。";
 
 
-"Search.Confirm.ClearHistory" = "确定要清空你的搜索记录吗？";
+"Search.Confirm.ClearHistory" = "您确定要清空搜索历史吗？";
 
 
 "InputPasswordController.Placeholder" = "密码";
@@ -3409,7 +3409,7 @@
 
 "Channel.TransferOwner.Error.Enable2FA" = "启用两步验证";
 
-"BlockContact.Title" = "你想屏蔽 %@ 吗？";
+"BlockContact.Title" = "您想屏蔽 %@ 的所有消息和通话吗？";
 
 "BlockContact.Options.Action" = "屏蔽 %@";
 "BlockContact.Options.Report" = "举报垃圾信息";
@@ -3487,7 +3487,7 @@
 "Chat.Title.ScheduledMessages" = "定时消息";
 "Chat.Context.ClearScheduled" = "全部清空";
 "Chat.Context.ClearScheduled.Confirm.Header" = "定时消息";
-
+"Chat.Context.ClearScheduled.Confirm.Info" = "您确定要删除所有定时消息吗？";
 "Chat.Context.ClearScheduled.Confirm.OK" = "全部清空";
 
 "Chat.Date.ScheduledFor" = "在 %@ 发送";
@@ -3528,7 +3528,7 @@
 "PrivacyPhoneNumberSettings.DiscoveryHeader" = "谁可以通过我的手机号找到我";
 
 
-
+"Theme.GetTheme.Error" = "抱歉，该主题在 macOS 上不存在。";
 
 "NewTheme.Create" = "新建";
 "NewTheme.Title" = "新建主题";
@@ -3557,11 +3557,11 @@
 
 "EditTheme.NamePlaceholder" = "主题名称";
 
+"EditTheme.SlugDesc" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用 a-z,  0-9 和下划线。";
 
-
-
+"EditTheme.SlugError.Format" = "对不起，格式错误";
 "EditTheme.Edit" = "保存";
-
+"EditThame.Name.AlreadyTaken" = "此名称已被使用。";
 
 
 "Appearance.Confirm.RemoveTitle" = "主题";
@@ -3835,12 +3835,12 @@
 
 
 
+"ChatList.Filter.Include.Header" = "包括的对话";
 
 
 
 
-
-
+"ChatList.Filter.Exclude.Header" = "排除的对话";
 
 
 
@@ -3892,7 +3892,7 @@
 
 
 "ChannelStats.Overview" = "总览";
-
+"ChannelStats.Overview.Followers" = "订阅者";
 "ChannelStats.Overview.EnabledNotifications" = "开启通知";
 "ChannelStats.Overview.ViewsPerPost" = "每个帖子的观看次数";
 "ChannelStats.Overview.SharesPerPost" = "每个帖子的分享次数";

@@ -136,7 +136,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_cant_add_member" = "抱歉，您不能将机器人加入此群组。请寻求群组管理员帮助。";
 "lng_error_cant_add_bot" = "抱歉，此机器人不能加入群组。";
 "lng_error_cant_add_admin_invite" = "抱歉，您无法设置此用户为管理员，因为此用户不是群组成员，且您无法将他邀请到此群组。";
-"lng_error_cant_add_admin_unban" = "抱歉，您无法设置此用户为管理员，因为此用户在黑名单中，且您无权解封。";
+"lng_error_cant_add_admin_unban" = "抱歉，您无法设置此用户为管理员。因为此用户在该群组黑名单中，且您无权解封。";
 "lng_error_cant_ban_admin" = "抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。";
 "lng_error_admin_limit" = "抱歉，此群组的管理员人数已达上限。";
 "lng_error_admin_limit_channel" = "抱歉，该频道的管理员人数已达上限。";
@@ -153,7 +153,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_deleted" = "这条消息已被删除";
 "lng_edit_too_long" = "字数已超限制";
 "lng_edit_message" = "编辑消息";
-"lng_edit_message_text" = "输入新消息..";
+"lng_edit_message_text" = "输入新消息...";
 "lng_deleted" = "已销号";
 "lng_deleted_message" = "已删除的消息";
 "lng_pinned_message" = "置顶消息";
@@ -338,7 +338,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_replace_emojis" = "替换 Emoji";
 "lng_settings_suggest_emoji" = "显示 Emoji 替换建议";
 "lng_settings_suggest_by_emoji" = "通过 Emoji 推荐贴纸";
-"lng_settings_loop_stickers" = "循环播放动画贴纸";
+"lng_settings_loop_stickers" = "循环播放动态贴纸";
 "lng_settings_large_emoji" = "大号 Emoji";
 "lng_settings_view_emojis" = "显示列表";
 "lng_settings_send_enter" = "按 Enter 发送消息";
@@ -381,7 +381,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_calls" = "语音通话";
 "lng_settings_calls_peer_to_peer_title" = "端到端";
 "lng_settings_calls_peer_to_peer_button" = "使用端到端链接与";
-"lng_settings_groups_invite" = "邀请权限控制";
+"lng_settings_groups_invite" = "被邀请权限";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
 "lng_settings_phone_number_privacy" = "手机号码";
 "lng_settings_forwards_privacy" = "引用转发来源";
@@ -427,7 +427,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
 "lng_settings_custom_spellchecker" = "使用拼写检查器";
 "lng_settings_auto_download_dictionaries" = "自动下载词典";
-
+"lng_settings_manage_dictionaries" = "管理词典";
 "lng_settings_manage_enabled_dictionary" = "词典已启用";
 "lng_settings_manage_remove_dictionary" = "移除词典";
 
@@ -519,7 +519,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_enter_first" = "输入密码";
 "lng_passcode_enter_new" = "输入新密码";
 "lng_passcode_confirm_new" = "请再次输入密码";
-"lng_passcode_about" = "设置好锁定码后，一个锁形图标会出现在您聊天列表的顶部，点击该图标来锁定应用。\n\n注意：如果您忘记了锁定码，您将需要重新登录 Telegram 桌面版。";
+"lng_passcode_about" = "设置锁定码后，一个锁形图标会出现在您对话列表的顶部。点击该图标以锁定 Telegram 桌面版。\n\n注意：如果您忘记了锁定码，您将需要重新登录 Telegram 桌面版。";
 "lng_passcode_differ" = "密码不一致";
 "lng_passcode_wrong" = "密码错误";
 "lng_passcode_is_same" = "新旧密码相同";
@@ -598,7 +598,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_credentials" = "认证信息";
 "lng_proxy_description" = "已经保存的代理将会在这里列出。";
 "lng_proxy_sponsor" = "代理赞助商";
-"lng_proxy_sponsor_about" = "这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。";
+"lng_proxy_sponsor_about" = "此频道由您的代理服务器所展示。在 Telegram 设置中禁用此代理即可从您的对话列表中移除该频道。";
 "lng_proxy_sponsor_warning" = "这个代理可能会在您的对话列表中显示其赞助频道。代理服务器无法泄露任何您的 Telegram 内容。";
 
 "lng_settings_blocked_users" = "已屏蔽的用户";
@@ -641,7 +641,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_about" = "被屏蔽的用户不能向您发送消息或将您添加到群组。他们也不能查看您的头像，在线状态和最后在线时间。";
 "lng_blocked_list_not_found" = "未找到符合条件的用户";
 "lng_blocked_list_confirm_title" = "屏蔽 {name}";
-"lng_blocked_list_confirm_text" = "你想屏蔽 {name} 吗？";
+"lng_blocked_list_confirm_text" = "您想屏蔽 {name} 的所有消息和通话吗？";
 "lng_blocked_list_confirm_clear" = "删除这个对话";
 "lng_blocked_list_confirm_ok" = "屏蔽";
 
@@ -666,7 +666,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_find" = "谁可以通过我的手机号找到我？";
 "lng_edit_privacy_phone_number_contacts" = "只有您的联系人才能通过手机号码匹配到您。";
 
-"lng_edit_privacy_lastseen_title" = "最后上线时间隐私设置";
+"lng_edit_privacy_lastseen_title" = "最后上线时间可见性";
 "lng_edit_privacy_lastseen_header" = "谁可以看到您的最后上线时间";
 "lng_edit_privacy_lastseen_warning" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 "lng_edit_privacy_lastseen_always_empty" = "总是允许";
@@ -676,7 +676,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_never_title" = "从不共享给";
 
 "lng_edit_privacy_groups_title" = "邀请权限控制";
-"lng_edit_privacy_groups_header" = "谁可以邀请您到群组或频道";
+"lng_edit_privacy_groups_header" = "谁可以邀请我至群组和频道";
 "lng_edit_privacy_groups_always_empty" = "总是允许";
 "lng_edit_privacy_groups_never_empty" = "从不允许";
 "lng_edit_privacy_groups_exceptions" = "无论上面如何设置，这些用户将能或不能将您添加到群组或频道。";
@@ -705,7 +705,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_edit_privacy_forwards_title" = "引用转发来源";
 "lng_edit_privacy_forwards_header" = "谁可以在转发我的消息上附加用户链接";
-"lng_edit_privacy_forwards_warning" = "当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。";
+"lng_edit_privacy_forwards_warning" = "您发送的消息被其他用户转发后将无法链接回您的帐户。";
 "lng_edit_privacy_forwards_always_empty" = "总是允许";
 "lng_edit_privacy_forwards_never_empty" = "从不允许";
 "lng_edit_privacy_forwards_exceptions" = "这些设置会覆盖上面的设置。";
@@ -764,7 +764,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_profile_common_groups#other" = "{count} 个共同加入的群组";
 "lng_profile_participants_section" = "成员";
-"lng_profile_mobile_number" = "电话：";
+"lng_profile_mobile_number" = "手机号码：";
 "lng_profile_username" = "用户名：";
 "lng_profile_link" = "链接：";
 "lng_profile_bio" = "个人简介：";
@@ -918,7 +918,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_linked_channel_about" = "{channel} 正在将此群组此作为其讨论板。";
 "lng_manage_linked_channel_unlink" = "取消链接频道";
 "lng_manage_linked_channel_posted" = "此频道中发布的所有新消息都将转发到该群组。";
-"lng_manage_discussion_group_warning" = "“新成员历史记录可见性”将被切换为{visible}。";
+"lng_manage_discussion_group_warning" = "对于新成员的历史对话将被切换为**可见**。";
 
 "lng_manage_history_visibility_title" = "历史记录对新成员";
 "lng_manage_history_visibility_shown" = "可见";
@@ -975,10 +975,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_public_group_title" = "公开群组";
 "lng_create_public_group_about" = "任何人可以通过搜索找到并加入群组，并且能看到所有聊天记录";
 "lng_create_private_group_title" = "私人群组";
-"lng_create_private_group_about" = "用户只能通过用户邀请或公开的邀请链接加入";
+"lng_create_private_group_about" = "用户只能通过被邀请或使用邀请链接加入";
 "lng_create_permanent_link_title" = "永久链接";
 "lng_create_invite_link_title" = "邀请链接";
-"lng_create_invite_link_about" = "如果被邀请，有邀请链接或通过“附近的群”，人们可以加入";
+"lng_create_invite_link_about" = "用戶可以通过被邀请，使用邀请链接或通过“附近的群组”来加入";
 
 "lng_create_group_skip" = "跳过";
 
@@ -995,7 +995,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_crop" = "截取一个区域作为头像";
 
 "lng_failed_add_participant" = "无法邀请这位用户。请稍后再试。";
-"lng_failed_add_not_mutual" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
+"lng_failed_add_not_mutual" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以添加回他们（你们互相拥有对方的电话号码）。";
 "lng_failed_add_not_mutual_channel" = "抱歉，如果一位用户主动退出了频道，您需要在他们的联系人列表中才能将其添加回来。";
 
 "lng_sure_delete_contact" = "您确定从联系人列表中删除 {contact} 吗？";
@@ -1009,7 +1009,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_delete_saved_messages" = "您确定要删除所有收藏的消息？\n\n此操作不可撤销。";
 
 "lng_message_empty" = "无消息";
-"lng_message_unsupported" = "当前 Telegram 版本不支持此消息。请在“设置”页更新本应用到最新版或在这里下载： {link}";
+"lng_message_unsupported" = "当前 Telegram 版本不支持查看此消息。请在 设置 里更新到最新版本或在这里下载： {link}";
 
 
 "lng_duration_seconds#other" = "{count}秒";
@@ -1166,7 +1166,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_video_title" = "视频";
 "lng_media_video_messages_title" = "视频留言";
 "lng_media_file_title" = "文件";
-"lng_media_animation_title" = "GIF";
+"lng_media_animation_title" = "GIFs";
 "lng_media_size_limit" = "文件大小限制";
 "lng_media_size_up_to" = "不超过 {size}";
 "lng_media_chat_background" = "聊天窗口背景图";
@@ -1190,7 +1190,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_faved_stickers_add" = "添加到收藏夹";
 "lng_faved_stickers_remove" = "从收藏中移除";
 "lng_group_stickers" = "群组贴纸包";
-"lng_group_stickers_description" = "你可以选择一个贴纸包，以供全体成员使用。";
+"lng_group_stickers_description" = "您可以选择一个贴纸包供全体成员使用。";
 "lng_group_stickers_add" = "选择贴纸包";
 
 "lng_group_about_header" = "您创建了一个群组";
@@ -1379,7 +1379,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_user_action_upload_file" = "{user} 正在发送文件";
 
 "lng_unread_bar#other" = "{count} 条未读消息";
-
+"lng_unread_bar_some" = "未读消息";
 
 "lng_maps_point" = "位置";
 "lng_save_photo" = "保存图片";
@@ -1408,7 +1408,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_archive_collapse" = "收起";
 "lng_context_archive_to_menu" = "移至主菜单";
 "lng_context_archive_to_list" = "移至对话列表";
-"lng_context_archive_to_menu_info" = "归档已移置主菜单！\n您可以从归档按钮的上下文菜单中移回它。";
+"lng_context_archive_to_menu_info" = "归档已移至主页面！\n您可以从归档按钮的内容菜单中找回它。";
 
 "lng_context_promote_admin" = "提升为管理员";
 "lng_context_edit_permissions" = "编辑权限";
@@ -1454,7 +1454,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_delete_selected" = "删除所选内容";
 "lng_context_clear_selection" = "取消选择";
 "lng_send_image_empty" = "无法发送空文件: {name}";
-"lng_send_image_too_large" = "无法发送此文件，因为文件大小大于 1500 MB: {name}";
+"lng_send_image_too_large" = "无法发送此文件，因为它大于 1500 MB: {name}";
 
 "lng_send_images_selected#other" = "已选择 {count} 张图片";
 
@@ -1468,7 +1468,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_send_album" = "作为一组图片发送";
 "lng_send_photo" = "单独作为一张图片发送";
 "lng_send_file" = "作为文件发送";
-
+"lng_send_media_invalid_files" = "抱歉，找不到有效的文件。";
 
 "lng_forward_choose" = "选择接收者...";
 "lng_forward_cant" = "抱歉，不能转发到此处 :(";
@@ -1590,7 +1590,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mediaview_downloads" = "下载";
 "lng_mediaview_video_loading" = "加载中 - {percent}";
 "lng_mediaview_playback_speed" = "播放速度";
-
+"lng_mediaview_playback_speed_normal" = "正常";
 "lng_mediaview_rotate_video" = "旋转视频";
 
 "lng_theme_preview_title" = "主题预览";
@@ -1622,9 +1622,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_formatting_link_create" = "创建";
 
 "lng_spellchecker_submenu" = "拼写检查";
-
-
-
+"lng_spellchecker_add" = "添加到词典";
+"lng_spellchecker_remove" = "从词典中移除";
+"lng_spellchecker_ignore" = "忽略单词";
 
 "lng_full_name" = "{first_name} {last_name}";
 
@@ -1658,8 +1658,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_attach_title" = "附加桌面版主题";
 "lng_theme_editor_create" = "新建";
 "lng_theme_editor_name" = "主题名称";
-"lng_theme_editor_create_description" = "新主题将基于您当前选择的颜色和北京。 或者，您可以从文件中导入现有主题或调色板。";
-"lng_theme_editor_attach_description" = "您可以根据当前选择的颜色和壁纸创建桌面端主题。 您也可以从文件中导入现有主题或调色板。";
+"lng_theme_editor_create_description" = "新主题将基于您当前选择的颜色和壁纸。 您也可以从文件中导入现有主题或配色。";
+"lng_theme_editor_attach_description" = "您可以根据当前选择的颜色和壁纸创建桌面端主题。 您也可以从文件中导入现有主题或配色。";
 "lng_theme_editor_import_existing" = "导入现有主题";
 "lng_theme_editor_save_title" = "保存主题";
 "lng_theme_editor_link_about" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用小写字母 a-z 、数字 0-9 和下划线 _ 。";
@@ -1726,7 +1726,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_about_add_admins_yes" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
 "lng_rights_about_add_admins_no" = "该管理员不能添加新管理员。";
 
-"lng_rights_about_admin_cant_edit" = "您无权修改此管理员的管理权限。";
+"lng_rights_about_admin_cant_edit" = "您无法修改此管理员的权限。";
 "lng_rights_about_restriction_cant_edit" = "您不能更改此用户的限制。";
 "lng_rights_restriction_for_all" = "该项已在群组默认权限中被禁用。";
 "lng_rights_permission_for_all" = "该项已在群组默认权限中被启用。";
@@ -1790,7 +1790,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_transfer_check_later" = "请稍后再回来。";
 "lng_rights_transfer_set_password" = "设置密码";
 "lng_rights_transfer_about" = "这将转让 {group} 的所有者权限至 {user}。";
-"lng_rights_transfer_sure" = "更改所有者";
+"lng_rights_transfer_sure" = "转让";
 "lng_rights_transfer_password_title" = "两步验证";
 "lng_rights_transfer_password_description" = "请输入您的密码以完成转让。";
 "lng_rights_transfer_done_group" = "{user} 现在是群组的所有者。";
@@ -2014,7 +2014,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_phone_description" = "输入您的手机号码";
 "lng_passport_email_title" = "电子邮箱";
 "lng_passport_email_description" = "输入您的邮箱地址";
-"lng_passport_identity_selfie" = "拍一张和你的证件一起的自拍照";
+"lng_passport_identity_selfie" = "拍一张您和证件自拍";
 "lng_passport_translation_needed" = "添加您的证件的一份英文翻译件";
 "lng_passport_accept_allow" = "您同意 {policy} 并允许机器人 {bot} 向您发送消息。";
 "lng_passport_allow" = "您允许机器人 {bot} 向您发送消息。";
@@ -2040,7 +2040,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_upload_reverse_side" = "上传证件反面扫描件";
 "lng_passport_reupload_reverse_side" = "重新上传证件反面扫描件";
 "lng_passport_main_page_title" = "首页";
-"lng_passport_main_page_description" = "上传你的证件的首页扫描件";
+"lng_passport_main_page_description" = "上传您证件的首页扫描件";
 "lng_passport_upload_main_page" = "上传证件首页扫描件";
 "lng_passport_reupload_main_page" = "重新上传证件首页扫描件";
 "lng_passport_personal_details" = "个人信息";
@@ -2128,7 +2128,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_photos" = "照片";
 "lng_export_option_video_files" = "视频";
 "lng_export_option_voice_messages" = "语音留言";
-"lng_export_option_video_messages" = "视频留言";
+"lng_export_option_video_messages" = "圆视频";
 "lng_export_option_stickers" = "贴纸";
 "lng_export_option_gifs" = "GIF";
 "lng_export_option_files" = "文件";
@@ -2166,7 +2166,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_suggest_text" = "您现在可以下载您请求导出的数据了。您想要开始下载数据了吗？";
 "lng_export_suggest_cancel" = "稍后再说";
 "lng_export_about_telegram" = "这里是您请求的全部数据。请记住：Telegram 并不将您的数据用于广告定位也不出售您的数据。Telegram 只储存用于提供安全且功能丰富的云服务所需的信息。\n\n您可以在 Telegram 的移动应用的 设置 > 隐私和安全 中查找相关设置。";
-"lng_export_about_contacts" = "如果您同意，您的联系人将会被即时同步至 Telegram。有赖于此，您可以很轻松地切换到 Telegram 而不失去您的社交网络，以及在您的所有设备上与朋友聊天。我们使用关于您的联系人的数据以在他们开始使用 Telegram 时提醒您，以及保证您所看到的联系人的名称是您通讯录中的名称而不是他们自己选择的昵称。\n\n您可以在移动设备上的 设置 > 隐私和安全 中禁止联系人同步功能或是删除已被同步的联系人数据。";
+"lng_export_about_contacts" = "如果您授权，您的联系人将会被即时同步至 Telegram。有赖于此，您可以很轻松地把社交圈子带到 Telegram 上并在您的所有设备上与朋友聊天。我们使用您的联系人数据以在他们加入 Telegram 时提醒您，并使您看到通讯录中您给他们的标注而不是他们自己选择的昵称。\n\n您可以在移动设备上 Telegram 的 设置 > 隐私和安全 中关闭联系人同步功能或删除已同步的联系人数据。";
 "lng_export_about_frequent" = "该项评分用以显示您最近常联系的人。Telegram 使用这些数据来填充搜索部分顶部的“人脉”框。该项评分也会分析 Inline 机器人，以便软件可以在附件菜单中建议您最有可能使用的机器人（或者当您使用“@”开始新的消息时）。\n\n如果您要删除此项数据，请在移动设备上打开 设置 > 隐私和安全 并禁用“推荐常用联系人”功能（需要 Telegram iOS 客户端版本 v.4.8.3 或 Telegram Android 客户端版本 v.4.8.10 或更高版本）。";
 "lng_export_about_sessions" = "我们储存活动会话信息以在 设置 > 隐私和安全 > 显示所有活动会话 中显示您已连接的设备。";
 "lng_export_about_web_sessions" = "我们储存此项信息以显示您使用 Telegram 授权登录的所有网站。此项信息在在 设置 > 隐私和安全 > 显示所有活动会话 中显示。";
@@ -2179,7 +2179,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_switch_link" = "翻译平台";
 "lng_language_switch_apply" = "更改";
 "lng_language_not_found" = "抱歉，该语言包不存在。";
-"lng_language_already" = "您已在使用该语言包。在设置中可以更改您的语言。";
+"lng_language_already" = "您正在使用此语言包。您可以随时在设置中改回您的语言。";
 "lng_language_not_ready_title" = "数据不足";
 "lng_language_not_ready_about" = "抱歉，此个性语言包 ({lang_name}) 不包含供 Telegram 桌面版 使用的信息，您可以通过此链接 {link} 为此语言包贡献翻译。";
 "lng_language_not_ready_link" = "翻译平台";
@@ -2219,7 +2219,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_multiple_choice" = "可多选";
 "lng_polls_create_quiz_mode" = "测验模式";
 "lng_polls_create_button" = "确认";
-"lng_polls_create_one_answer" = "测验模式下的投票只能有一个正确答案。";
+"lng_polls_create_one_answer" = "测验模式下只能有一个正确答案。";
 "lng_polls_choose_question" = "请输入问题";
 "lng_polls_choose_answers" = "请输入至少两个候选项。";
 "lng_polls_choose_correct" = "请选择正确答案。";
@@ -2251,9 +2251,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_filters_new_name" = "文件夹名";
 "lng_filters_add_chats" = "添加对话";
 "lng_filters_remove_chats" = "移除对话";
-"lng_filters_include" = "已包括的对话";
+"lng_filters_include" = "包括的对话";
 "lng_filters_include_about" = "选择会出现在此文件夹中的对话和对话类型。";
-"lng_filters_exclude" = "已排除的对话";
+"lng_filters_exclude" = "排除的对话";
 "lng_filters_exclude_about" = "选择不会出现在此文件夹中的对话和对话类型。";
 "lng_filters_create_button" = "创建";
 "lng_filters_include_title" = "包括的对话";
@@ -2272,7 +2272,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_filters_name_unread" = "未读";
 "lng_filters_name_unmuted" = "未禁用消息通知";
 "lng_filters_add" = "完成";
-"lng_filters_limit" = "抱歉，您已达到文件夹数限制。";
+"lng_filters_limit" = "抱歉，您无法创建更多文件夹。";
 "lng_filters_empty" = "请为此文件夹至少选择一个对话。";
 "lng_filters_default" = "请为此文件夹至少更改一个规则。";
 "lng_filters_type_contacts" = "联系人";
@@ -2301,8 +2301,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_linux_menu_undo" = "撤销";
 "lng_linux_menu_redo" = "重做";
-
-
+"lng_linux_menu_tools" = "工具";
+"lng_linux_menu_help" = "帮助";
 
 "lng_linux_no_audio_prefs" = "您尚未安装任何音频设置应用。";
 
@@ -2316,8 +2316,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_recommended_apps" = "推荐应用程序";
 "lng_mac_all_apps" = "所有应用程序";
 "lng_mac_always_open_with" = "总是使用此应用程序打开";
-"lng_mac_this_app_can_open" = "此应用程序可以打开 \"{file}\" ";
-"lng_mac_not_known_app" = "此应用程序不一定能打开 \"{file}\" ";
+"lng_mac_this_app_can_open" = "此应用程序可以打开 \"{file}\" 。";
+"lng_mac_not_known_app" = "此应用程序不一定能打开 \"{file}\" 。";
 
 "lng_mac_menu_services" = "我有疑问";
 "lng_mac_menu_hide_telegram" = "隐藏 {telegram}";
@@ -2407,7 +2407,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_unread_two" = "{chat}，{second_chat}";
 "lng_banned_list_title" = "被封禁的用户";
 "lng_blocked_list_restart" = "重新启用";
-"lng_change_phone_description" = "您可以在此更改您注册 Telegram 的手机号码。\n您的帐户和所有的云端数据——消息，媒体，联系人等\n将会被迁移到新的手机号码。\n\n[b]注意[/b]：如果您的 Telegram 联系人有您的旧号码，\n并且您没有在 Telegram 里屏蔽他们，\n您的[b]新号码[/b]将被添加到他们的通讯录里。";
+"lng_change_phone_description" = "您可以在此更改您 Telegram 绑定的手机号码。您的帐户和所有云端数据——消息，媒体文件，联系人等\n将会被迁移至新的手机号码。";
 "lng_channel_add_banned" = "封禁用户";
 "lng_channel_add_restricted" = "限制用户权限";
 "lng_channel_admins_link#other" = "{count} 位管理员";
