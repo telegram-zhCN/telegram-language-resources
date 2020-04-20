@@ -262,9 +262,9 @@
 "State.Updating" = "刷新中...";
 "State.WaitingForNetwork" = "等待网络连接";
 
-
-
-
+"ChatState.Connecting" = "连接中...";
+"ChatState.ConnectingToProxy" = "正在连接代理...";
+"ChatState.Updating" = "收取中...";
 
 
 // Presence
@@ -1022,7 +1022,7 @@
 "Notification.Mute1h" = "暂停通知 1 小时";
 "Notification.Mute1hMin" = "暂停通知 1 小时";
 "Conversation.ContextMenuShare" = "分享";
-
+"Conversation.ContextMenuLookUp" = "查找";
 
 "SharedMedia.TitleAll" = "共享媒体";
 
@@ -2211,7 +2211,7 @@ Unused sets are archived when you add more.";
 "Application.Name" = "Telegram";
 "DialogList.Pin" = "置顶";
 "DialogList.Unpin" = "取消置顶";
-"DialogList.PinLimitError" = "抱歉，您最多只能置顶 %@ 个对话。";
+"DialogList.PinLimitError" = "抱歉，您只能置顶 %@ 个对话。";
 
 
 "Conversation.DeleteMessagesForMe" = "从本地删除";
@@ -2576,7 +2576,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.InfoPanelTitle" = "这是什么？";
 "Channel.AdminLog.InfoPanelAlertTitle" = "什么是事件记录？";
 "Channel.AdminLog.InfoPanelAlertText" = "此列表包含了在过去 48 小时内群组成员和管理员执行的所有服务操作。";
-
+"Channel.AdminLog.InfoPanelChannelAlertText" = "此列表包含了在过去48小时内频道管理员执行的所有管理操作。";
 
 "Channel.AdminLog.BanReadMessages" = "查看消息";
 "Channel.AdminLog.BanSendMessages" = "发送消息";
@@ -3886,7 +3886,7 @@ Unused sets are archived when you add more.";
 "GroupPermission.NotAvailableInPublicGroups" = "此权限不能在公开群组中开放。";
 "GroupPermission.AddMembersNotAvailable" = "您无权添加成员。";
 
-
+"Channel.EditAdmin.PermissionEnabledByDefault" = "已在群组默认权限中启用该项。";
 
 "GroupPermission.EditingDisabled" = "您不能编辑该用户的权限。";
 
@@ -4136,99 +4136,99 @@ Unused sets are archived when you add more.";
 
 "SettingsSearch.FAQ" = "常见问题";
 
+"SettingsSearch.Synonyms.EditProfile.Title" = " ";
+"SettingsSearch.Synonyms.EditProfile.Bio" = " ";
+"SettingsSearch.Synonyms.EditProfile.PhoneNumber" = " ";
+"SettingsSearch.Synonyms.EditProfile.Username" = " ";
 
+"SettingsSearch.Synonyms.EditProfile.Logout" = " ";
 
+"SettingsSearch.Synonyms.Calls.Title" = " ";
+"SettingsSearch.Synonyms.Calls.CallTab" = " ";
 
+"SettingsSearch.Synonyms.Stickers.Title" = " ";
+"SettingsSearch.Synonyms.Stickers.SuggestStickers" = " ";
+"SettingsSearch.Synonyms.Stickers.FeaturedPacks" = " ";
+"SettingsSearch.Synonyms.Stickers.ArchivedPacks" = " ";
+"SettingsSearch.Synonyms.Stickers.Masks" = " ";
 
+"SettingsSearch.Synonyms.Notifications.Title" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsAlert" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.MessageNotificationsExceptions" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsAlert" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.GroupNotificationsExceptions" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsAlert" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.ChannelNotificationsExceptions" = " ";
+"SettingsSearch.Synonyms.Notifications.InAppNotificationsSound" = " ";
+"SettingsSearch.Synonyms.Notifications.InAppNotificationsVibrate" = " ";
+"SettingsSearch.Synonyms.Notifications.InAppNotificationsPreview" = " ";
+"SettingsSearch.Synonyms.Notifications.DisplayNamesOnLockScreen" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChats" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedPublicGroups" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChannels" = " ";
+"SettingsSearch.Synonyms.Notifications.BadgeCountUnreadMessages" = " ";
+"SettingsSearch.Synonyms.Notifications.ContactJoined" = " ";
+"SettingsSearch.Synonyms.Notifications.ResetAllNotifications" = " ";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"SettingsSearch.Synonyms.Privacy.Title" = " ";
+"SettingsSearch.Synonyms.Privacy.BlockedUsers" = " ";
+"SettingsSearch.Synonyms.Privacy.LastSeen" = " ";
+"SettingsSearch.Synonyms.Privacy.ProfilePhoto" = " ";
+"SettingsSearch.Synonyms.Privacy.Forwards" = " ";
+"SettingsSearch.Synonyms.Privacy.Calls" = " ";
+"SettingsSearch.Synonyms.Privacy.GroupsAndChannels" = " ";
+"SettingsSearch.Synonyms.Privacy.Passcode" = " ";
+"SettingsSearch.Synonyms.Privacy.PasscodeAndTouchId" = " ";
+"SettingsSearch.Synonyms.Privacy.PasscodeAndFaceId" = " ";
 "SettingsSearch.Synonyms.Privacy.TwoStepAuth" = "密码";
+"SettingsSearch.Synonyms.Privacy.AuthSessions" = " ";
+"SettingsSearch.Synonyms.Privacy.DeleteAccountIfAwayFor" = " ";
 
+"SettingsSearch.Synonyms.Privacy.Data.Title" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.ContactsReset" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.ContactsSync" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.TopPeers" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.DeleteDrafts" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.ClearPaymentsInfo" = " ";
+"SettingsSearch.Synonyms.Privacy.Data.SecretChatLinkPreview" = " ";
 
-
-
-
-
-
-
-
-
-
-
+"SettingsSearch.Synonyms.Data.Title" = " ";
 "SettingsSearch.Synonyms.Data.Storage.Title" = "缓存\n存储";
-
-
-
-
-
-
-
-
-
-
-
-
+"SettingsSearch.Synonyms.Data.Storage.KeepMedia" = " ";
+"SettingsSearch.Synonyms.Data.Storage.ClearCache" = " ";
+"SettingsSearch.Synonyms.Data.NetworkUsage" = " ";
+"SettingsSearch.Synonyms.Data.AutoDownloadUsingCellular" = " ";
+"SettingsSearch.Synonyms.Data.AutoDownloadUsingWifi" = " ";
+"SettingsSearch.Synonyms.Data.AutoDownloadReset" = " ";
+"SettingsSearch.Synonyms.Data.AutoplayGifs" = " ";
+"SettingsSearch.Synonyms.Data.AutoplayVideos" = " ";
+"SettingsSearch.Synonyms.Data.CallsUseLessData" = " ";
+"SettingsSearch.Synonyms.Data.SaveIncomingPhotos" = " ";
+"SettingsSearch.Synonyms.Data.SaveEditedPhotos" = " ";
+"SettingsSearch.Synonyms.Data.DownloadInBackground" = " ";
 
 "SettingsSearch.Synonyms.Proxy.Title" = "SOCKS5\nMTProto\nmtproxy\nmt\nmtp\nsocks";
+"SettingsSearch.Synonyms.Proxy.AddProxy" = " ";
+"SettingsSearch.Synonyms.Proxy.UseForCalls" = " ";
 
-
-
-
-
+"SettingsSearch.Synonyms.Appearance.Title" = " ";
+"SettingsSearch.Synonyms.Appearance.TextSize" = " ";
 "SettingsSearch.Synonyms.Appearance.ChatBackground" = "壁纸\n墙纸\n背景";
-
-
-
-
-
+"SettingsSearch.Synonyms.Appearance.ChatBackground.SetColor" = " ";
+"SettingsSearch.Synonyms.Appearance.ChatBackground.Custom" = " ";
+"SettingsSearch.Synonyms.Appearance.AutoNightTheme" = " ";
+"SettingsSearch.Synonyms.Appearance.ColorTheme" = " ";
+"SettingsSearch.Synonyms.Appearance.LargeEmoji" = " ";
 "SettingsSearch.Synonyms.Appearance.Animations" = "动画";
 
-
-
+"SettingsSearch.Synonyms.SavedMessages" = " ";
+"SettingsSearch.Synonyms.AppLanguage" = " ";
 
 "SettingsSearch.Synonyms.Watch" = "Apple Watch";
 "SettingsSearch.Synonyms.Support" = "支持\n客服";
@@ -4462,7 +4462,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Group.Location.Title" = "地点";
 "Group.Location.ChangeLocation" = "更改地点";
-"Group.Location.Info" = "用戶可以使用“附近的人”找到您的群组。";
+"Group.Location.Info" = "用户可以使用“附近的人”找到您的群组。";
 
 "Channel.AdminLog.MessageTransferedName" = "将所有权转让给 %1$@";
 "Channel.AdminLog.MessageTransferedNameUsername" = "将群主权限转移至 %1$@ (%2$@)";
@@ -4508,7 +4508,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Contacts.DeselectAll" = "取消全选";
 
 
 
@@ -4524,7 +4524,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Chat.SlowmodeTooltip" = "慢速模式已启用。您可以\n在%@后发送下一条消息";
 "Chat.SlowmodeTooltipPending" = "慢速模式已启用。 您不能一次发送多条消息。";
-
+"Chat.AttachmentLimitReached" = "您无法选择更多项目。";
 
 "Chat.AttachmentMultipleFilesDisabled" = "慢速模式已启用。您不能一次发送多个文件。";
 "Chat.AttachmentMultipleForwardDisabled" = "慢速模式已启用。您不能一次转发多条消息。";
@@ -4557,6 +4557,11 @@ Any member of this group will be able to see messages in the channel.";
 
 "VoiceOver.Media.PlaybackRateChange" = "双击更改";
 
+"VoiceOver.Media.PlaybackPlay" = "播放";
+"VoiceOver.Media.PlaybackPause" = "暂停";
+
+"VoiceOver.Navigation.Search" = "搜索";
+"VoiceOver.Navigation.ProxySettings" = "代理设置";
 
 
 
@@ -4564,74 +4569,69 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"VoiceOver.Chat.Message" = "信息";
+
+
+
+"VoiceOver.Chat.ReplyToYourMessage" = "回复您的信息";
+
+
+
+"VoiceOver.Chat.Photo" = "照片";
+
+
+"VoiceOver.Chat.VoiceMessage" = "语音信息";
+
+"VoiceOver.Chat.MusicFrom" = "音乐文件，来自: %@";
+
+
+
+"VoiceOver.Chat.Video" = "视频";
 
 
 
 
+"VoiceOver.Chat.FileFrom" = "文件，来自: %@";
+"VoiceOver.Chat.File" = "文件";
+"VoiceOver.Chat.YourFile" = "你的文件";
+"VoiceOver.Chat.ContactFrom" = "共享的联系人，来自: %@";
+"VoiceOver.Chat.Contact" = "共享的联系人";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"VoiceOver.Chat.ContactPhoneNumberCount_any" = "%@ 电话号码";
 "VoiceOver.Chat.ContactPhoneNumber" = "手机号码";
 
 
 
 
 
-
+"VoiceOver.Chat.AnonymousPollFrom" = "匿名投票，来自: %@";
 "VoiceOver.Chat.AnonymousPoll" = "匿名投票";
-
+"VoiceOver.Chat.YourAnonymousPoll" = "您的匿名投票";
 
 
 
 
 "VoiceOver.Chat.PollNoVotes" = "无人投票";
+"VoiceOver.Chat.PollFinalResults" = "最终结果";
+"VoiceOver.Chat.OptionSelected" = "已选";
 
 
 
 
 
 
+"VoiceOver.Chat.PlayHint" = "双击以播放";
 
 
 
 
+"VoiceOver.Chat.Selected" = "已选";
+"VoiceOver.MessageContextDelete" = "删除";
 
-
-
-
-
-
-
-
-
-
+"VoiceOver.MessageContextForward" = "转发";
+"VoiceOver.MessageContextShare" = "分享";
+"VoiceOver.MessageContextSend" = "发送";
+"VoiceOver.MessageContextReply" = "回复";
 
 
 
@@ -4648,10 +4648,10 @@ Any member of this group will be able to see messages in the channel.";
 
 "ScheduledMessages.Title" = "定时消息";
 "ScheduledMessages.RemindersTitle" = "提醒";
-"ScheduledMessages.ScheduledDate" = "在 %@ 发送";
-
-"ScheduledMessages.SendNow" = "立刻发送";
-"ScheduledMessages.EditTime" = "编辑发送时间";
+"ScheduledMessages.ScheduledDate" = "%@的约定";
+"ScheduledMessages.ScheduledToday" = "今天的约定";
+"ScheduledMessages.SendNow" = "立即发送";
+"ScheduledMessages.EditTime" = "重新定时";
 "ScheduledMessages.ClearAll" = "全部清空";
 "ScheduledMessages.ClearAllConfirmation" = "清空定时消息";
 "ScheduledMessages.Delete" = "删除定时消息";
@@ -4672,32 +4672,32 @@ Any member of this group will be able to see messages in the channel.";
 
 "AccentColor.Title" = "强调色";
 
-
-
-
-
-
-
+"Appearance.ThemePreview.ChatList.1.Name" = "Alicia Torreaux";
+"Appearance.ThemePreview.ChatList.1.Text" = "Bob 向你问好。😊 ❤️ 😱";
+"Appearance.ThemePreview.ChatList.2.Name" = "Roberto";
+"Appearance.ThemePreview.ChatList.2.Text" = "向 Alice 问好 👋";
+"Appearance.ThemePreview.ChatList.3.Name" = "Campus Public Chat";
+"Appearance.ThemePreview.ChatList.3.AuthorName" = "Jennie Alpha";
 "Appearance.ThemePreview.ChatList.3.Text" = "哇！我们刚刚达到 2500 人了！";
+"Appearance.ThemePreview.ChatList.4.Name" = "Veronica";
 
+"Appearance.ThemePreview.ChatList.5.Name" = "Animal Videos";
 
+"Appearance.ThemePreview.ChatList.6.Name" = "小妹妹";
 
-
-
-
-
+"Appearance.ThemePreview.ChatList.7.Name" = "Jennie Alpha";
 "Appearance.ThemePreview.ChatList.7.Text" = "🖼 看看这些";
 
-
+"Appearance.ThemePreview.Chat.1.Text" = "他是想让我向左转还是向右转呢？ 🤔";
 "Appearance.ThemePreview.Chat.2.ReplyName" = "Bob Harris";
+"Appearance.ThemePreview.Chat.2.Text" = "向左。唔，没错，就是左边。";
+"Appearance.ThemePreview.Chat.3.Text" = "这是全部吗？ 好像他说的不止这些。 😯";
 
 
 
 
-
-
-
-
+"Appearance.ThemePreview.Chat.6.Text" = "他就说了这些？";
+"Appearance.ThemePreview.Chat.7.Text" = "是的，看向镜头。";
 
 "GroupInfo.Permissions.SlowmodeValue.Off" = "关闭";
 
@@ -4712,7 +4712,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Theme" = "色彩主题";
 "Conversation.ViewTheme" = "预览主题";
 
-
+"Message.Theme" = "色彩主题";
 
 "EditTheme.CreateTitle" = "创建主题";
 "EditTheme.EditTitle" = "编辑主题";
@@ -4781,9 +4781,9 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.Context.JoinChannel" = "加入频道";
 "ChatList.Context.Delete" = "删除";
 
-
-
-
+"ContactList.Context.SendMessage" = "发送消息";
+"ContactList.Context.StartSecretChat" = "开始私密对话";
+"ContactList.Context.Call" = "通话";
 
 "Theme.Context.Apply" = "应用";
 
@@ -5040,10 +5040,10 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "Conversation.ClearCache" = "清除缓存";
-
-
-
-
+"ClearCache.Description" = "媒体文件将从您的手机中删除，但在必要时可以重新下载。";
+"ClearCache.FreeSpaceDescription" = "您无需为了节省设备空间而删除任何内容。\n\n您可以使用缓存设置来删除不必要的媒体，并在需要时重新下载。";
+"ClearCache.FreeSpace" = "释放空间";
+"ClearCache.Success" = "已将**%@** 缓存从你的 %@中清除!";
 "ClearCache.StorageUsage" = "存储空间用量";
 
 "Conversation.ScheduleMessage.SendWhenOnline" = "当上线时发送";
@@ -5058,47 +5058,47 @@ Any member of this group will be able to see messages in the channel.";
 
 "TwoFactorSetup.Password.Title" = "设置密码";
 "TwoFactorSetup.Password.PlaceholderPassword" = "密码";
-
-
+"TwoFactorSetup.Password.PlaceholderConfirmPassword" = "确认密码";
+"TwoFactorSetup.Password.Action" = "创建密码";
 
 "TwoFactorSetup.Email.Title" = "恢复邮箱";
 "TwoFactorSetup.Email.Text" = "您可以设置一个恢复邮箱来重置密码及恢复您的Telegram账户权限。";
 "TwoFactorSetup.Email.Placeholder" = "您的邮箱地址";
 "TwoFactorSetup.Email.Action" = "继续";
 "TwoFactorSetup.Email.SkipAction" = "跳过邮箱设置";
+"TwoFactorSetup.Email.SkipConfirmationTitle" = "不，我确认。";
+"TwoFactorSetup.Email.SkipConfirmationText" = "如果忘记密码，您将无法访问 Telegram帐户。 这不可恢复。";
+"TwoFactorSetup.Email.SkipConfirmationSkip" = "跳过";
 
-
-
-
-
+"TwoFactorSetup.EmailVerification.Title" = "恢复邮箱";
 "TwoFactorSetup.EmailVerification.Text" = "请输入我们刚刚发送到 %@ 的验证码";
+"TwoFactorSetup.EmailVerification.Placeholder" = "验证码";
+"TwoFactorSetup.EmailVerification.Action" = "继续";
+"TwoFactorSetup.EmailVerification.ChangeAction" = "更换邮箱";
+"TwoFactorSetup.EmailVerification.ResendAction" = "重发验证码";
+
+"TwoFactorSetup.Hint.Title" = "提示";
+
+"TwoFactorSetup.Hint.Placeholder" = "密码提示（可选）";
+"TwoFactorSetup.Hint.Action" = "继续";
+"TwoFactorSetup.Hint.SkipAction" = "跳过设置密码提示";
+
+"TwoFactorSetup.Done.Title" = "密码已设置！";
+"TwoFactorSetup.Done.Text" = "登录新设备时，除了通过短信获得的代码外，您还需要输入此密码。";
+"TwoFactorSetup.Done.Action" = "回到设置";
+
+"AutoNightTheme.System" = "系统";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"SettingsSearch.Synonyms.ChatSettings.OpenLinksIn" = "浏览器";
 
 "WebBrowser.Title" = "浏览器";
 "WebBrowser.DefaultBrowser" = "默认网页浏览器";
 
 
+"Widget.ApplicationLocked" = "解锁应用程序以使用小组件";
 
-
-
+"Group.ErrorSupergroupConversionNotPossible" = "抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。";
 
 "ClearCache.StorageTitle" = "%@ 储存空间";
 "ClearCache.StorageCache" = "Telegram 缓存";
@@ -5147,7 +5147,7 @@ Any member of this group will be able to see messages in the channel.";
 "IntentsSettings.SuggestedChatsSavedMessages" = "收藏夹";
 "IntentsSettings.SuggestedChatsPrivateChats" = "私密对话";
 "IntentsSettings.SuggestedChatsGroups" = "群组";
-
+"IntentsSettings.SuggestedChatsInfo" = "已归档对话不会被建议。";
 "IntentsSettings.SuggestedAndSpotlightChatsInfo" = "建议将显示在“分享菜单”和 Spotlight 搜索结果中。已归档对话不会被建议。";
 "IntentsSettings.SuggestBy" = "建议的来源";
 "IntentsSettings.SuggestByAll" = "所有发出的信息";
@@ -5155,13 +5155,13 @@ Any member of this group will be able to see messages in the channel.";
 "IntentsSettings.ResetAll" = "重置所有分享建议";
 "IntentsSettings.Reset" = "重置";
 
-
+"Conversation.SendingOptionsTooltip" = "按住此按钮以定时发送您的消息\n或静音发送。";
 
 "Appearance.TextSizeSetting" = "字体大小";
 "Appearance.TextSize.Automatic" = "系统";
 "Appearance.TextSize.Title" = "字体大小";
 "Appearance.TextSize.UseSystem" = "使用系统字体大小";
-
+"Appearance.TextSize.Apply" = "设置";
 
 "Shortcut.SwitchAccount" = "切换帐户";
 
@@ -5177,17 +5177,17 @@ Any member of this group will be able to see messages in the channel.";
 "AuthSessions.AddDeviceIntro.Text2" = "在您的计算机上运行 Telegram 来获得二维码";
 "AuthSessions.AddDeviceIntro.Text3" = "扫描二维码来连接您的帐户";
 "AuthSessions.AddDeviceIntro.Action" = "扫描二维码";
+"AuthSessions.AddedDeviceTitle" = "登录成功";
+"AuthSessions.AddedDeviceTerminate" = "终止";
 
-
-
-
+"Map.SendThisPlace" = "发送此位置";
 
 
 
 "Map.Home" = "家";
 "Map.Work" = "工作";
-
-
+"Map.HomeAndWorkTitle" = "家 & 工作地址";
+"Map.HomeAndWorkInfo" = "Telegram使用联系人卡片中的家庭住址和工作地址。\n保持您的联系卡片为最新状态，以快速访问发送家庭和工作地址。";
 "Map.SearchNoResultsDescription" = "找不到 \"%@\"。\n请尝试一个新的关键词。";
 
 "ChatList.Search.ShowMore" = "显示更多";
@@ -5207,7 +5207,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Theme.Context.ChangeColors" = "修改颜色";
 
-
+"EditTheme.ChangeColors" = "更改颜色";
 
 "Theme.Colors.Proceed" = "继续";
 
@@ -5218,7 +5218,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "WallpaperPreview.PatternTitle" = "选择图案";
 
-
+"WallpaperPreview.PatternPaternApply" = "应用";
 
 "ChatContextMenu.TextSelectionTip" = "按住消息中的文字，移动光标选择完毕之后即可复制。";
 
@@ -5229,34 +5229,34 @@ Any member of this group will be able to see messages in the channel.";
 "OldChannels.NoticeUpgradeText" = "抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。";
 
 
+"OldChannels.Leave_any" = "离开%@ 对话";
+
+"OldChannels.ChannelFormat" = "频道，";
+"OldChannels.GroupEmptyFormat" = "群组，";
 
 
 
 
+"OldChannels.InactiveWeek_any" = "%@周不活跃";
 
 
+"OldChannels.InactiveMonth_any" = "%@个月不活跃";
 
 
+"OldChannels.InactiveYear_any" = "%@年不活跃";
+
+"PrivacySettings.WebSessions" = "活跃网站";
+
+"Appearance.ShareThemeColor" = "分享";
+
+"Theme.ThemeChanged" = "多彩主题已修改。";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"StickerPackActionInfo.AddedTitle" = "贴纸已添加";
+"StickerPackActionInfo.AddedText" = "%@ 已被添加到您的贴纸包中。";
+"StickerPackActionInfo.RemovedTitle" = "贴纸已移除";
+"StickerPackActionInfo.ArchivedTitle" = "贴纸已归档";
+"StickerPackActionInfo.RemovedText" = "%@已不在您的贴纸中。";
 
 
 
@@ -5269,11 +5269,11 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.MultipleChoiceQuizAlert" = "测验模式下只能有一个正确答案。";
 "CreatePoll.Quiz" = "测验模式";
 "CreatePoll.QuizInfo" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
+"CreatePoll.QuizTip" = "点按选择正确答案";
 
-
-
-
-
+"MessagePoll.LabelPoll" = "公开投票";
+"MessagePoll.LabelAnonymousQuiz" = "匿名小测验";
+"MessagePoll.LabelQuiz" = "小测验";
 "MessagePoll.SubmitVote" = "提交投票";
 "MessagePoll.ViewResults" = "查看结果";
 "MessagePoll.QuizNoUsers" = "无人回答";
@@ -5285,15 +5285,24 @@ Any member of this group will be able to see messages in the channel.";
 "MessagePoll.QuizCount_any" = "%@ 人已回答";
 
 "PollResults.Title" = "投票结果";
+"PollResults.Collapse" = "收起";
 
 
 
-
-
+"Conversation.StopQuiz" = "结束小测验";
 "Conversation.StopQuizConfirmationTitle" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
 "Conversation.StopQuizConfirmation" = "停止测验";
 
 
+"Forward.ErrorPublicPollDisabledInChannels" = "抱歉，公开投票不能被转发到频道中。";
+"Forward.ErrorPublicQuizDisabledInChannels" = "抱歉，公开投票不能被转发到频道中。";
+
+"Map.PlacesInThisArea" = "附近";
+
+
+"Appearance.BubbleCorners.Title" = "消息圆角大小";
+
+"Appearance.BubbleCorners.Apply" = "设置";
 
 
 
@@ -5305,16 +5314,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
-
-
-
-
+"PeopleNearby.ShowMorePeople_any" = "显示其他 %@ 人";
 
 
 
@@ -5326,13 +5326,13 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "PeerInfo.ButtonMessage" = "发消息";
-
+"PeerInfo.ButtonDiscuss" = "讨论";
 "PeerInfo.ButtonCall" = "通话";
 "PeerInfo.ButtonMute" = "静音";
 "PeerInfo.ButtonUnmute" = "取消静音";
 "PeerInfo.ButtonMore" = "更多";
 "PeerInfo.ButtonAddMember" = "添加成员";
-
+"PeerInfo.ButtonSearch" = "搜索";
 
 
 "PeerInfo.PaneMedia" = "媒体";
@@ -5343,9 +5343,9 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneGroups" = "群组";
 "PeerInfo.PaneMembers" = "成员";
 
+"PeerInfo.AddToContacts" = "添加到联系人";
 
-
-
+"PeerInfo.BioExpand" = "更多";
 
 
 
@@ -5354,7 +5354,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "ChatList.EmptyChatListNewMessage" = "新建对话";
-
+"ChatList.EmptyChatListEditFilter" = "编辑文件夹";
 
 "ChatListFilter.AddChatsTitle" = "添加对话";
 
@@ -5403,26 +5403,26 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"ChatList.EditFolder" = "编辑文件夹";
 "ChatList.AddChatsToFolder" = "添加对话";
+"ChatList.RemoveFolderConfirmation" = "这将移除该文件夹，您的对话不会被删除。";
+"ChatList.RemoveFolderAction" = "移除";
+"ChatList.RemoveFolder" = "移除";
+"ChatList.ReorderTabs" = "排序";
 
 
-
-
-
-
-
-
-
-
-
+"ChatList.AddFolder" = "添加文件夹";
+"ChatList.EditFolders" = "编辑文件夹";
+"ChatList.FolderAllChats" = "全部对话";
+"ChatList.Tabs.AllChats" = "全部对话";
+"ChatList.Tabs.All" = "全部";
 "Settings.ChatFolders" = "对话文件夹";
 "ChatList.ChatTypesSection" = "对话类型";
 
 "ChatList.PeerTypeContact" = "联系人";
 "ChatList.PeerTypeBot" = "机器人";
 "ChatList.PeerTypeGroup" = "群组";
-
+"ChatList.PeerTypeChannel" = "频道";
 "ChatListFolderSettings.Info" = "为对话创建不同的文件夹，并且可以在它们间迅速切换。";
 
 "ChatListFolderSettings.Title" = "文件夹";
@@ -5430,10 +5430,10 @@ Any member of this group will be able to see messages in the channel.";
 "ChatListFolderSettings.NewFolder" = "创建新文件夹";
 "ChatListFolderSettings.EditFoldersInfo" = "点按 “编辑” 以对分组进行排序或删除。";
 "ChatListFolderSettings.RecommendedFoldersSection" = "推荐文件夹";
-
+"ChatListFolderSettings.RecommendedNewFolder" = "添加自定义文件夹";
 
 "ChatListFolder.TitleCreate" = "新建文件夹";
-
+"ChatListFolder.TitleEdit" = "编辑文件夹";
 "ChatListFolder.CategoryContacts" = "联系人";
 "ChatListFolder.CategoryNonContacts" = "非联系人";
 "ChatListFolder.CategoryBots" = "机器人";
@@ -5445,18 +5445,18 @@ Any member of this group will be able to see messages in the channel.";
 "ChatListFolder.NameSectionHeader" = "文件夹名";
 "ChatListFolder.NamePlaceholder" = "文件夹名";
 "ChatListFolder.IncludedSectionHeader" = "包括的对话";
-
+"ChatListFolder.AddChats" = "添加对话";
 "ChatListFolder.IncludeSectionInfo" = "选择会出现在此文件夹中的对话和对话类型。";
 "ChatListFolder.ExcludedSectionHeader" = "排除的对话";
 "ChatListFolder.ExcludeSectionInfo" = "选择不会出现在此文件夹中的对话和对话类型。";
 
+"ChatListFolder.NameUnread" = "未读";
+"ChatListFolder.NameChannels" = "频道";
+"ChatListFolder.NameContacts" = "联系人";
 
 
-
-
-
-
-
+"ChatListFolder.NameGroups" = "群组";
+"ChatListFolder.DiscardConfirmation" = "您已更改此文件夹。放弃更改？";
 
 
 "ChatListFolder.IncludeChatsTitle" = "包括的对话";
@@ -5469,7 +5469,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"ChatListFilter.ShowMoreChats_any" = "显示另外 %@ 个对话";
 
 
 
@@ -5482,7 +5482,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Conversation.ContextMenuDiscuss" = "讨论";
 
 
 
@@ -5491,6 +5491,8 @@ Any member of this group will be able to see messages in the channel.";
 "AUTH_REGION" = "从新的设备登录 %1$@，位置：%2$@";
 "AUTH_REGION_SEPARATED" = "New login|from unrecognized device %1$@, location: %2$@";
 "AUTH_UNKNOWN_SEPARATED" = "New login|from unrecognized device %1$@";
+"Appearance.CreateThemeInfo" = "已基于当前主题创建出一套新的主题模板，并保存到了你的收藏夹中。";
+"Appearance.Publish" = "发布";
 "Appearance.TextSize" = "字体大小";
 "CHANNEL_MESSAGES" = "%1$@ posted %2$@ messages";
 "CHANNEL_MESSAGES_SEPARATED" = "%1$@|发布了 %2$@ 条消息";
@@ -5584,10 +5586,12 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加成员";
 "Chat.AttachmentLimitExceeded" = "抱歉，您无法一次选择更多的项目。";
+"ChatList.EmptyChatFilterList" = "空文件夹";
 "DataUpgrade.Running" = "正在优化...";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";
 "ENCRYPTION_REQUEST" = "新加密对话请求 %1$@";
+"EditTheme.ShortLinkInfo" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用小写字母 a-z 、数字 0-9 和下划线 _ 。";
 "EditTheme.ThemeTemplateAlert" = "新主题已添加\n\n按住主题进行编辑或获取分享链接。 每次更改主题后，安装主题的用户都会自动获得更新。\n\n为了进行高级编辑，可以在“已保存的消息”中找到带有主题的文件。";
 "EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";

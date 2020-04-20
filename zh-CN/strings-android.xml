@@ -290,8 +290,8 @@
     <string name="MegaPrivateInfo">私人群组只能通过他人邀请或通过邀请链接加入。</string>
     <string name="ChannelLinkTitle">永久链接</string>
     <string name="ChannelInviteLinkTitle">邀请链接</string>
-    <string name="ChannelAddMembers">添加订阅者</string>
     <string name="GroupAddMembers">添加成员</string>
+    <string name="ChannelAddSubscribers">Add Subscribers</string>
     <string name="LeaveChannel">退出频道</string>
     <string name="LeaveChannelMenu">退出频道</string>
     <string name="ChannelSettings">设置</string>
@@ -531,9 +531,9 @@
     <string name="NewPoll">发起投票</string>
     <string name="NewQuiz">发起小测验</string>
     <string name="Poll">投票</string>
-    <string name="Question">问题</string>
+    <string name="PollQuestion">Poll question</string>
     <string name="QuestionHint">请输入问题</string>
-    <string name="PollOptions">候选项</string>
+    <string name="AnswerOptions">Answer options</string>
     <string name="QuizAnswers">小测验答案</string>
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
@@ -722,6 +722,7 @@
     <string name="SdCard">SD 卡</string>
     <string name="Folder">文件夹</string>
     <string name="RecentFiles">最近文件</string>
+    <string name="RecentFilesAZ">Files A-Z</string>
     <string name="NoFilesFound">找不到结果。</string>
     <string name="NoFilesFoundInfo">在这个文件夹中找不到 **%1$s**。</string>
     <string name="NoFilesInfo">这个文件夹是空的。</string>
@@ -730,6 +731,7 @@
     <string name="AppFolderInfo">浏览应用文件夹</string>
     <string name="InternalFolderInfo">浏览您的文件系统</string>
     <string name="ExternalFolderInfo">浏览您的外置存储</string>
+    <string name="SearchMusic">Search music</string>
     <!--group stickers-->
     <string name="GroupStickers">群组贴纸包</string>
     <string name="ChooseFromYourStickers">从您收藏的贴纸包中选择</string>
@@ -799,7 +801,8 @@
     <string name="YouLeft">您已经退出此群组</string>
     <string name="DeleteThisGroup">删除群组记录</string>
     <string name="DeleteThisChat">删除此对话</string>
-    <string name="DeleteTheseChats">删除对话</string>
+    <string name="DeleteThisChatBothSides">Delete this chat</string>
+    <string name="DeleteTheseChatsBothSides">Delete chats</string>
     <string name="SlideToCancel">滑动以取消</string>
     <string name="SaveToDownloads">保存到下载</string>
     <string name="SaveToGIFs">保存到 GIF 库</string>
@@ -932,6 +935,7 @@
     <string name="ApkRestricted">此应用已被限制安装 APK，你可以在系统设置中启用它。</string>
     <string name="UnreadMessages">未读消息</string>
     <string name="SearchStickersHint">搜索贴纸包</string>
+    <string name="SearchTrendingStickersHint">Search trending stickers</string>
     <string name="SearchEmojiHint">搜索 emoji</string>
     <string name="URL">链接</string>
     <string name="MapPreviewProvider">地图预览提供商</string>
@@ -948,8 +952,8 @@
     <string name="TapForVideo">点按照相，按住录像</string>
     <string name="TapToViewAsList">点按以列表查看。</string>
     <string name="SendWithoutSound">静音发送</string>
-    <string name="MessageScheduleSend">立刻发送</string>>
-    <string name="MessageScheduleEditTime">编辑发送时间</string>
+    <string name="MessageScheduleSend">立即发送</string>>
+    <string name="MessageScheduleEditTime">重新定时</string>
     <string name="MessageScheduleToday">今天</string>
     <string name="Schedule">定时发送</string>
     <string name="ScheduleMessage">定时发送</string>
@@ -957,7 +961,7 @@
     <string name="ScheduleWhenOnline">当 %1$s 上线时发送</string>
     <string name="Reminders">提醒</string>
     <string name="SetReminder">定时提醒</string>
-    <string name="MessageScheduledOn">在 %1$s 发送</string>
+    <string name="MessageScheduledOn">%1$s的约定</string>
     <string name="MessageScheduledUntilOnline">当上线时发送</string>
     <string name="MessageScheduledLimitReached">抱歉，您只能同时设置 100 条定时消息。</string>
     <string name="MessageScheduledBotAction">这个操作将在消息发布后可用。</string>
@@ -970,7 +974,9 @@
     <string name="CardNumberCopied">银行卡号已复制到剪切板</string>
     <string name="CopyCardNumber">赋值</string>
     <string name="DiceInfo2">发送一个 **:dice:** 到任意对话来掷骰。</string>
-    <string name="SendDice">发送</string>
+    <string name="DartInfo">Send a **:darts:** emoji to try your luck.</string>
+    <string name="DiceEmojiInfo">Send a %1$s emoji to try your luck.</string>
+    <string name="SendDice">发送</string>Send a dart emoji
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -1257,6 +1263,7 @@
     <string name="RecentStickers">最近使用</string>
     <string name="FavoriteStickers">收藏夹</string>
     <string name="CurrentGroupStickers">群组贴纸包</string>
+    <string name="OtherStickers">More Stickers</string>
     <string name="DeleteFromFavorites">从收藏中移除</string>
     <string name="DeleteFromRecent">从最近使用中移除</string>
     <string name="AddToMasks">添加到装饰库</string>
@@ -1435,6 +1442,8 @@
     <string name="ResetNotificationsAlert">您确定要还原所有通知设置吗？</string>
     <string name="TextSizeHeader">消息文字大小</string>
     <string name="AskAQuestion">向我们提问</string>
+    <string name="AddAnExplanation">Add an explanation</string>
+    <string name="AddAnExplanationInfo">Users will see this text after choosing the wrong answer, good for educational purposes.</string>
     <string name="EnableAnimations">动画切换效果</string>
     <string name="ChatSettings">对话设置</string>
     <string name="Devices">设备</string>
@@ -2245,7 +2254,7 @@
     <string name="NearbyCreateGroupInfo2">如果您在此位置创建无关群组，你可能会失去创建基于位置的群组的能力。</string>
     <string name="ChatSetLocation">设置地点</string>
     <string name="ChatSetThisLocation">设置为此地点</string>
-    <string name="ChatSetLocationInfo">用戶可以在“附近的人”中找到您的群组。</string>
+    <string name="ChatSetLocationInfo">用户可以在“附近的人”中找到您的群组。</string>
     <string name="PlacesInThisArea">附近</string>
     <!--photo gallery view-->
     <string name="ShowAsList">以列表显示</string>
@@ -2683,6 +2692,7 @@
     <string name="AreYouSureDeleteAndExitName">您确定要删除并退出 **%1$s** 吗？</string>
     <string name="AreYouSureDeleteThisChat">您确定要删除此对话吗？</string>
     <string name="AreYouSureDeleteThisChatWithUser">您确定要删除与 **%1$s** 的对话吗？</string>
+    <string name="AreYouSureDeleteThisChatWithBot">Are you sure you want to delete the chat with **%1$s** and block them?</string>
     <string name="AreYouSureDeleteThisChatSavedMessages">您确定要删除收藏夹吗？</string>
     <string name="AreYouSureDeleteThisChatWithSecretUser">您确定要删除与 **%1$s** 的加密对话吗？</string>
     <string name="AreYouSureDeleteThisChatWithGroup">您确定要删除 %1$s 吗？</string>
@@ -2781,6 +2791,18 @@
     <string name="TopHoursChartTitle">每小时浏览次数 (UTC)</string>
     <string name="SlideUpToLock">向上滑动以锁定录制</string>
     <string name="NotificationsChartTitle">通知</string>
+    <string name="DeviceStorage">Device storage</string>
+    <string name="TotalDeviceFreeSize">%s Free</string>
+    <string name="ClearTelegramCache">Clear Telegram Cache</string>
+    <string name="StatisticOverview">Overview</string>
+    <string name="ViewsPerPost">Views Per Post</string>
+    <string name="SharesPerPost">Shares Per Post</string>
+    <string name="EnabledNotifications">Enabled Notifications</string>
+    <string name="ClearLocalDatabase">Clear Local Database</string>
+    <string name="TelegramCacheSize">%s Telegram Cache</string>
+    <string name="LocalDatabaseSize">%s Telegram Local Database</string>
+    <string name="CacheWasCleared">%s freed on your device!</string>
+    <string name="TotalDeviceSize">%s Other Data</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">极速</string>
@@ -3607,6 +3629,7 @@
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s吗？</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
+  <string name="ChannelAddMembers">添加订阅者</string>
   <string name="ChannelAlertCreate">创建新频道</string>
   <string name="ChannelMessageContact">%1$s 发布了一条联系人信息</string>
   <string name="ChannelMessagePoll">%1$s 发布了一项投票</string>
@@ -3618,6 +3641,7 @@
   <string name="CreateNewThemeInfo">您可以在应用内修改其颜色来创建您自己的主题。您可以在任何时候在这里还原为 Telegram 默认的主题。</string>
   <string name="DeleteAccountIfAwayFor">离线时间</string>
   <string name="DeleteLocalization">要删除这个语言包吗？</string>
+  <string name="DeleteTheseChats">删除对话</string>
   <string name="DiceInfo">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="EmojiBigSize">显示单个大号 emoji</string>
@@ -3665,10 +3689,12 @@
   <string name="PeopleNearbyInfo">让您附近的朋友打开此页面以交换手机号码。</string>
   <string name="PhoneNumberChange">更换手机号码</string>
   <string name="PinToTopLimitReached">抱歉，您只能在主列表中置顶 %1$s 个对话。 如果您想让您的对话更加的有组织，请尝试归档一些对话 —— 已归档对话文件夹中允许无限数量的置顶对话。</string>
+  <string name="PollOptions">候选项</string>
   <string name="PreviewFeedback">报告此预览的错误</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
+  <string name="Question">问题</string>
   <string name="RegisterText">请设置您的姓名。</string>
   <string name="RoamingUsage">漫游数据使用情况</string>
   <string name="SendContactTo">发送联系人信息给 %1$s ？</string>

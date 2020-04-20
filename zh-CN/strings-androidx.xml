@@ -476,10 +476,10 @@
   <string name="ActionChannelChangedTitleTo">频道被重命名为 «%1$s»</string>
   <string name="ActionChannelChangedPhoto">频道头像已更换</string>
   <string name="DeleteMessage">删除消息</string>
+  <string name="DeleteScheduled">删除定时消息</string>
   
   
-  
-  
+  <string name="DeleteXScheduled_other">删除 %1$s 条定时消息</string>
   
   
   
@@ -2777,10 +2777,10 @@
 
   
 
-  
-  
-  
-  
+  <string name="format_notificationScheduledPrivate">&#128197; 私聊“%1$s”</string>
+  <string name="format_notificationScheduledGroup">&#128197; 群组“%1$s”</string>
+  <string name="format_notificationScheduledChannel">&#128197; 频道“%1$s”</string>
+  <string name="format_notificationScheduledText">&#128197; %1$s</string>
   <!--<string name="format_notificationSilentChannelTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentChannelText">&#128277; %1$s</string>-->
 
@@ -3059,9 +3059,45 @@
   
 
   
+  <string name="HoldToSchedule">按住可在特定日期发送和选择其他选项。</string>
+  
+  
+
+  <string name="SendSchedule">定时发送</string>
+  <string name="SendNoSound">静音发送</string>
   
   
   
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  <string name="ScheduledMessages">定时消息</string>
+
+  
+  <string name="ScheduledToday">今天的约定</string>
+  <string name="ScheduledTomorrow">明天的约定</string>
+  <string name="ScheduledDate">%1$s的约定</string>
+
+  <string name="SendNow">立即发送</string>
+  <string name="Reschedule">重新定时</string>
+  <string name="ErrorScheduled">这个操作将在消息发布后可用。</string>
+  
+  
+  
+
+  <string name="EventScheduledMessage">发送了定时消息</string>
+  <string name="EventScheduledMessageDesc">当您的定时消息之一发送到开启通知的对话时，将收到通知。</string>
 
   
   
@@ -3073,43 +3109,7 @@
   
   
   
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
+  <string name="ScheduledMessage">定时消息</string>
 
   
   

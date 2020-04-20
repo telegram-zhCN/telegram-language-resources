@@ -439,8 +439,8 @@
 "GeneralSettings.InputSettings" = "输入设置";
 "GeneralSettings.GeneralSettings" = "通用设置";
 
-"GeneralSettings.SendByEnter" = "用回车来发送";
-"GeneralSettings.SendByCmdEnter" = "用 ⌘ + 回车 来发送";
+"GeneralSettings.SendByEnter" = "按下 Enter 键就发送消息";
+"GeneralSettings.SendByCmdEnter" = "按下 ⌘ + Enter 键才发送消息";
 
 
 
@@ -2627,7 +2627,7 @@
 "AutoNight.Settings.SunsetAndSunrise" = "使用当地日落/日出时间";
 "AutoNight.Settings.Disabled" = "已禁用";
 "AutoNight.Settings.Scheduled" = "计划时段";
-
+"AutoNight.Settings.SystemBased" = "系统";
 
 
 
@@ -2817,7 +2817,7 @@
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "匿名投票";
 
-
+"Chat.Poll.Type.AnonymousQuiz" = "匿名小测验";
 
 "Chat.Poll.Type.Closed" = "最终结果";
 
@@ -2848,7 +2848,7 @@
 "NewPoll.OptionsPlaceholder" = "选项";
 "NewPoll.OptionsAddOption" = "添加一个选项...";
 
-
+"NewPoll.QuizTooltip" = "点按选择正确答案";
 
 "NewPoll.QuizMultiple.Error" = "测验模式下只能有一个正确答案。";
 
@@ -3490,13 +3490,13 @@
 "Chat.Context.ClearScheduled.Confirm.Info" = "您确定要删除所有定时消息吗？";
 "Chat.Context.ClearScheduled.Confirm.OK" = "全部清空";
 
-"Chat.Date.ScheduledFor" = "在 %@ 发送";
+"Chat.Date.ScheduledFor" = "%@的约定";
 "Chat.Date.ScheduledUntilOnline" = "当上线时发送";
+"Chat.Date.ScheduledForToday" = "今天的约定";
 
 
-
-"Chat.Context.Scheduled.SendNow" = "立刻发送";
-"Chat.Context.Scheduled.Reschedule" = "编辑发送时间";
+"Chat.Context.Scheduled.SendNow" = "立即发送";
+"Chat.Context.Scheduled.Reschedule" = "重新定时";
 
 
 "Chat.Right.Context.ScheduledMessages" = "定时消息";
@@ -3511,7 +3511,7 @@
 
 
 
-
+"Chat.Scheduled.InlineButton.Error" = "发送消息后，按钮将立即激活。";
 
 
 "ThemePreview.Title" = "主题预览";
@@ -3775,7 +3775,7 @@
 
 
 
-
+"ChatList.Filter.ShowMore_other" = "显示另外 %d 个对话";
 
 
 
@@ -3863,8 +3863,8 @@
 
 
 
-
-
+"ChatList.Filter.Tilte.Default.Unread" = "未读";
+"ChatList.Filter.Tilte.Default.Channels" = "频道";
 
 
 
@@ -3943,7 +3943,7 @@
 
 
 
-
+"ShortcutsController.Mouse.ScheduleMessage" = "定时消息";
 
 
 

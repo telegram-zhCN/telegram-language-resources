@@ -131,7 +131,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_phone_flood" = "对不起，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。";
 "lng_error_start_minimized_passcoded" = "您已经设置了锁定码，所以 Telegram 不能以最小化模式启动。您必须输入锁定码以启动 Telegram。";
 
-"lng_error_pinned_max#other" = "对不起，您最多只能将 {count} 个对话置顶。";
+"lng_error_pinned_max#other" = "抱歉，您只能置顶 {count} 个对话。";
 "lng_error_public_groups_denied" = "抱歉，目前您已被禁止在公开群组中发送消息。\n{more_info}";
 "lng_error_cant_add_member" = "抱歉，您不能将机器人加入此群组。请寻求群组管理员帮助。";
 "lng_error_cant_add_bot" = "抱歉，此机器人不能加入群组。";
@@ -182,8 +182,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_intro_qr_title" = "通过移动端 Telegram 应用扫描二维码";
 "lng_intro_qr_step1" = "在您的手机上打开 Telegram";
 "lng_intro_qr_step2" = "转到设置 > 设备 > 扫描二维码";
-"lng_intro_qr_step3" = "请扫描此图像以登陆";
-"lng_intro_qr_skip" = "或使用手机号码登陆";
+"lng_intro_qr_step3" = "请扫描此图像以登录";
+"lng_intro_qr_skip" = "或使用手机号码登录";
 
 "lng_phone_title" = "您的手机号码";
 "lng_phone_desc" = "请确认您的国家代码，\n并输入您的手机号码。";
@@ -335,15 +335,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_scale_auto" = "自动 ({cur})";
 
 "lng_settings_section_chat_settings" = "聊天设置";
-"lng_settings_replace_emojis" = "替换 Emoji";
+"lng_settings_replace_emojis" = "自动替换 Emoji";
 "lng_settings_suggest_emoji" = "显示 Emoji 替换建议";
 "lng_settings_suggest_by_emoji" = "通过 Emoji 推荐贴纸";
 "lng_settings_loop_stickers" = "循环播放动态贴纸";
 "lng_settings_large_emoji" = "大号 Emoji";
 "lng_settings_view_emojis" = "显示列表";
-"lng_settings_send_enter" = "按 Enter 发送消息";
-"lng_settings_send_ctrlenter" = "按 Ctrl+Enter 发送消息";
-"lng_settings_send_cmdenter" = "按 Cmd+Enter 发送消息";
+"lng_settings_send_enter" = "按下 Enter 键就发送消息";
+"lng_settings_send_ctrlenter" = "按下 Ctrl+Enter 键才发送消息";
+"lng_settings_send_cmdenter" = "按下 Ctrl+Enter 键才发送消息";
 
 "lng_settings_section_filters" = "文件夹";
 
@@ -544,7 +544,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_change_hint" = "输入新密码的提示";
 "lng_cloud_password_bad" = "密码与密码提示不能相同";
 "lng_cloud_password_email" = "输入一个恢复邮箱";
-"lng_cloud_password_bad_email" = "邮箱地址不正确，请重新输入。";
+"lng_cloud_password_bad_email" = "无效的邮箱地址";
 "lng_cloud_password_about" = "当您在新设备登录时，除了输入短信验证码外，还要输入此密码。";
 "lng_cloud_password_about_recover" = "警告！您确定不设置恢复邮箱吗？\n\n一旦您忘记密码，您将无法再登录您的 Telegram 账号。";
 "lng_cloud_password_skip_email" = "跳过";
@@ -629,7 +629,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sessions_other_desc" = "您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。";
 "lng_sessions_terminate_all" = "注销除本机外所有设备";
 "lng_sessions_terminate_all_about" = "注销除本设备之外的其他所有设备。";
-"lng_sessions_incomplete" = "未完成的登陆请求";
+"lng_sessions_incomplete" = "未完成的登录尝试";
 "lng_sessions_incomplete_about" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。";
 
 "lng_blocked_list_title" = "已屏蔽的用户";
@@ -655,7 +655,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_exceptions_add" = "添加用户";
 
 "lng_edit_privacy_phone_number_title" = "手机号隐私";
-"lng_edit_privacy_phone_number_header" = "谁可以看到您的手机号码";
+"lng_edit_privacy_phone_number_header" = "谁可以看到我的手机号码？";
 "lng_edit_privacy_phone_number_warning" = "已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。";
 "lng_edit_privacy_phone_number_always_empty" = "总是共享给";
 "lng_edit_privacy_phone_number_never_empty" = "从不共享给";
@@ -960,7 +960,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_chat_about_admins" = "只有管理员可以添加及移除成员、编辑群组名称及头像。";
 
 "lng_participant_filter" = "搜索";
-"lng_participant_invite" = "邀请";
+"lng_participant_invite" = "添加";
 
 "lng_participant_invite_sorry#other" = "对不起，您只能将前 {count} 名用户手动加入频道。\n\n从现在开始，其他人只能通过您的邀请链接来加入。";
 "lng_create_group_back" = "返回";
@@ -1276,7 +1276,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cant_invite_make_admin" = "设为管理员";
 
 "lng_send_button" = "发送";
-"lng_schedule_button" = "定时发送";
+"lng_schedule_button" = "确定";
 "lng_send_silent_message" = "静音发送";
 "lng_schedule_message" = "定时发送";
 "lng_reminder_message" = "定时提醒";
@@ -1304,7 +1304,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_scheduled_messages" = "定时消息";
 "lng_reminder_messages" = "提醒";
-"lng_scheduled_date" = "在 {date} 发送";
+"lng_scheduled_date" = "{date}的约定";
 "lng_scheduled_date_until_online" = "当上线时发送";
 "lng_scheduled_send_until_online" = "当上线时发送";
 "lng_scheduled_send_now" = "现在发送此消息？";
@@ -1529,7 +1529,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_clear" = "取消";
 "lng_selected_delete" = "删除";
 "lng_selected_forward" = "转发";
-"lng_selected_send_now" = "立刻发送";
+"lng_selected_send_now" = "立即发送";
 "lng_selected_cancel_sure_this" = "取消上传？";
 "lng_selected_upload_stop" = "停止";
 "lng_selected_delete_sure_this" = "您确定要删除此消息？";
@@ -1698,7 +1698,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_box_status_today" = "{time}";
 "lng_call_box_status_yesterday" = "昨天 {time}";
 "lng_call_box_status_date" = "{date} {time}";
-"lng_call_box_status_group" = "({count}) {status}";
+"lng_call_box_status_group" = "({amount}) {status}";
 
 "lng_call_outgoing" = "外拨电话";
 "lng_call_incoming" = "来电";
@@ -2003,7 +2003,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_address_agreement" = "租赁合同";
 "lng_passport_address_agreement_upload" = "上传您的租赁合同的扫描件";
 "lng_passport_address_registration" = "护照注册信息";
-"lng_passport_address_registration_upload" = "上传一份护照信息页的扫描件";
+"lng_passport_address_registration_upload" = "上传一份您护照注册页的扫描件";
 "lng_passport_address_temporary" = "临时居住证明";
 "lng_passport_address_temporary_upload" = "上传您的临时居住证明的扫描件";
 "lng_passport_address_about" = "为了确定您的地址，请上传被选中的证件的（所有页面的）扫描件或照片。";
@@ -2428,7 +2428,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_description" = "您可以选择谁能够将您添加到群组或频道：";
 "lng_edit_privacy_groups_never#other" = "从不允许 {count} 位用户";
 "lng_edit_privacy_lastseen_always#other" = "总是共享给 {count} 位用户";
-"lng_edit_privacy_lastseen_description" = "您可以选择谁能够查看您最后上线的时间：";
+"lng_edit_privacy_lastseen_description" = "谁可以看见我的最后上线时间";
 "lng_edit_privacy_lastseen_never#other" = "从不共享给 {count} 位用户";
 "lng_emoji_category0" = "常用";
 "lng_export_state_gif" = "动态 GIF 图";
