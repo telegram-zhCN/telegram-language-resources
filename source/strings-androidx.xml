@@ -265,6 +265,13 @@
   <string name="ChatContentVoice">Voice Message</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">Video Message</string>
+  <string name="ChatContentDart">Dart: throwing…</string>
+  <string name="ChatContentDart1">Dart: missed!</string>
+  <string name="ChatContentDart2">Dart thrown</string>
+  <string name="ChatContentDart3">Dart thrown</string>
+  <string name="ChatContentDart4">Dart thrown</string>
+  <string name="ChatContentDart5">Dart: almost there!</string>
+  <string name="ChatContentDart6">Dart: bullseye!</string>
   <string name="ChatContentDice">Dice: rolling…</string>
   <string name="ChatContentDiceRolled_one">Dice: %1$s</string>
   <string name="ChatContentDiceRolled_other">Dice: %1$s</string>
@@ -1770,9 +1777,9 @@
   <string name="CustomTitleHint">A custom title that will be shown to all members instead of \'%1$s\'.</string>
   <string name="WhoCanCallMe">Who can call me</string>
   <string name="UseP2PWith">Use peer-to-peer with</string>
-  
-  
-  
+  <string name="PrivacyLastSeenExceptionOn">Visible</string>
+  <string name="PrivacyLastSeenExceptionOff">Hidden</string>
+  <string name="PrivacyLastSeenExceptionContacts">Visible only for contacts</string>
   <string name="PrivacyLastSeenNobody">Nobody can see your Last Seen</string>
   <string name="PrivacyLastSeenNobodyExcept">Nobody (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenContacts">Only contacts can see your Last Seen</string>
@@ -1785,27 +1792,27 @@
   <string name="PrivacyAddToGroupsContactsExcept">Only contacts (%1$s) can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsEverybody">Everybody can add you to groups and channels</string>
   <string name="PrivacyAddToGroupsEverybodyExcept">Everybody (%1$s) can add you to groups and channels</string>
-  
-  
-  
+  <string name="PrivacyAddToGroupsExceptionOn">Allowed</string>
+  <string name="PrivacyAddToGroupsExceptionOff">Disallowed</string>
+  <string name="PrivacyAddToGroupsExceptionContacts">Only contacts</string>
   <string name="PrivacyCallsNobody">Nobody can call you</string>
   <string name="PrivacyCallsNobodyExcept">Nobody (%1$s) can call you</string>
   <string name="PrivacyCallsContacts">Only contacts can call you</string>
   <string name="PrivacyCallsContactsExcept">Only contacts (%1$s) can call you</string>
   <string name="PrivacyCallsEverybody">Everybody can call you</string>
   <string name="PrivacyCallsEverybodyExcept">Everybody (%1$s) can call you</string>
-  
-  
-  
+  <string name="PrivacyCallsExceptionOn">Allowed</string>
+  <string name="PrivacyCallsExceptionOff">Disallowed</string>
+  <string name="PrivacyCallsExceptionContacts">Only contacts</string>
   <string name="PrivacyP2PNobody">Disabled</string>
   <string name="PrivacyP2PNobodyExcept">Disabled (%1$s)</string>
   <string name="PrivacyP2PContacts">Only for contacts</string>
   <string name="PrivacyP2PContactsExcept">Only for contacts (%1$s)</string>
   <string name="PrivacyP2PEverybody">Enabled</string>
   <string name="PrivacyP2PEverybodyExcept">Enabled (%1$s)</string>
-  
-  
-  
+  <string name="PrivacyP2PExceptionOn">Allowed</string>
+  <string name="PrivacyP2PExceptionOff">Disallowed</string>
+  <string name="PrivacyP2PExceptionContacts">Only contacts</string>
   <string name="NotificationsEnableOverride">Enabling notifications for this chat will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsEnableOverride2">Enabling notifications for these chats will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
   <string name="NotificationsEnableOverride3">Enabling notifications for some of selected chats will override the global value in Settings&#160;&gt; Notifications (%1$s).</string>
@@ -2734,13 +2741,13 @@
   <string name="PrivacyForwardLinkEverybody">Have a link to your account</string>
   <string name="PrivacyForwardLinkEverybodyExcept">Have a link to your account (%1$s)</string>
   <string name="PrivacyForwardLinkTitle">Forwarded Messages</string>
-  
-  
-  
+  <string name="PrivacyForwardLinkExceptionOn">With a link to my account</string>
+  <string name="PrivacyForwardLinkExceptionOff">Without a link to my account</string>
+  <string name="PrivacyForwardLinkExceptionContacts">Only contacts can link to my account</string>
 
-  
-  
-  
+  <string name="PrivacyPhotoExceptionOn">Visible</string>
+  <string name="PrivacyPhotoExceptionOff">Hidden</string>
+  <string name="PrivacyPhotoExceptionContacts">Visible only for contacts</string>
   <string name="PrivacyPhotoNobody">Nobody can see your profile photo</string>
   <string name="PrivacyPhotoNobodyExcept">Nobody (%1$s) can see your profile photo</string>
   <string name="PrivacyPhotoContacts">Only contacts can see your profile photo</string>
@@ -2766,11 +2773,11 @@
   <string name="DiscardEditCaption">Discard caption</string>
   <string name="DiscardEditCaptionHint">Are you sure you want to discard edited caption? These changes will be lost.</string>
 
-  <string name="ChatContentRestricted">Content Unavailable</string>
   <string name="ChatContentScreenshot">Took a screenshot</string>
   <string name="ChatContentPinned">Pinned Message</string>
   <string name="MediaRestricted">Media unavailable</string>
   <string name="DisplaySensitiveContent">Display sensitive content</string>
+  <string name="IgnoreRestrictions">Ignore content restrictions</string>
 
   <string name="format_notificationSilentTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentText">&#128277; %1$s</string>
@@ -2838,9 +2845,9 @@
   <string name="WhoCanSeePhone">Who can see your Phone Number?</string>
   <string name="WhoCanSeePhoneInfo">Users who have your number saved in their contacts will also see it on Telegram.</string>
 
-  
-  
-  
+  <string name="PrivacyShowNumberExceptionOn">Visible</string>
+  <string name="PrivacyShowNumberExceptionContacts">Visible only for contacts</string>
+  <string name="PrivacyShowNumberExceptionOff">Hidden</string>
   <string name="PrivacyShowNumberNobody">Nobody can see your phone number</string>
   <string name="PrivacyShowNumberNobodyExcept">Nobody (%1$s) can see your phone number</string>
   <string name="PrivacyShowNumberContacts">Only contacts can see your phone number</string>
@@ -3182,6 +3189,8 @@
   <string name="SendDiceAsEmoji">Send as emoji</string>
   <string name="SendDiceHint">Send a &#127922; emoji to any chat to get a random number from Telegram.</string>
   <string name="SendDice">Send a dice</string>
+  
+  <string name="SendDiceHint2">Send a %1$s emoji to any chat to try your luck.</string>
 
   <string name="NoVotesResult">No votes</string>
   <string name="NoAnswersResult">No answers</string>
@@ -3191,35 +3200,36 @@
   <string name="CameraButtonHint">Tap for photo, hold for video</string>
   
 
-  
-  
+  <string name="EditPrivacyGlobal">Open General Privacy Settings</string>
+  <string name="EditPrivacy">Privacy Exceptions</string>
+  <string name="EditPrivacyHint">You can check how specific users or chat members see you via Profile – Three-dot-Menu – Privacy Exceptions.</string>
 
-  
-  
-  
-  
-  
-  
-  
+  <string name="PrivacyVisibilityUser">What %1$s can see on my profile?</string>
+  <string name="PrivacyVisibilityBot">What %1$s has access to?</string>
+  <string name="PrivacyVisibilityGroup">What members of this chat see on my profile?</string>
+  <string name="PrivacyActionUser">What %1$s is allowed to do?</string>
+  <string name="PrivacyActionBot">What %1$s is allowed to do?</string>
+  <string name="PrivacyActionGroup">What members of this chat are allowed to do?</string>
+  <string name="PrivacyOther">Other</string>
 
-  
-  
-  
-  
-  
-  
+  <string name="Privacy">Privacy Settings</string>
+  <string name="PrivacyDefault">Default</string>
+  <string name="PrivacyDefaultChat">Default for %1$s</string>
+  <string name="PrivacyDefaultContacts">Default for contacts</string>
+  <string name="PrivacyDefaultXChats_one">Default for %1$s chat</string>
+  <string name="PrivacyDefaultXChats_other">Default for %1$s chats</string>
 
-  
-  
-  
+  <string name="EditPrivacyPhoto">Profile Photo</string>
+  <string name="EditPrivacyStatus">Last Seen</string>
+  <string name="EditPrivacyPhoneNumber">Phone Number</string>
 
-  
-  
-  
-  
-  
-  
-  
+  <string name="EditPrivacyForward">Forward My Messages</string>
+  <string name="EditPrivacyCall">Call Me</string>
+  <string name="EditPrivacyCallP2P">Use Peer-to-Peer in Calls</string>
+  <string name="EditPrivacyCallP2PInfo">Disabling peer-to-peer will relay calls with %1$s through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
+  <string name="EditPrivacyChatInvite">Add Me to Groups and Channels</string>
+  <string name="EditPrivacyChatInviteGroup">Add Me to Other Chats</string>
+  <string name="EditPrivacyGroupInfo">These are default privacy settings applied to %1$s members. You can check your privacy settings for specific users on their profile page.</string>
 
   
   
@@ -3338,6 +3348,7 @@
   <string name="ChatContentGroupAddMembers_outgoing_two">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_outgoing_few">Added %1$s members to the group</string>
   <string name="ChatContentGroupAddMembers_outgoing_many">Added %1$s members to the group</string>
+  <string name="ChatContentRestricted">Content Unavailable</string>
   <string name="ChatHistoryPartiallyHiddenInfo_zero">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatHistoryPartiallyHiddenInfo_two">New members won\'t see more than %1$s earlier messages.</string>
   <string name="ChatHistoryPartiallyHiddenInfo_few">New members won\'t see more than %1$s earlier messages.</string>
@@ -3555,6 +3566,10 @@
   <string name="PriorityAboutLow">Low priority notifications will appear in system tray without interrupting.</string>
   <string name="PriorityMedium">Medium</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="PrivacyDefaultXChats_zero">Default for %1$s chats</string>
+  <string name="PrivacyDefaultXChats_two">Default for %1$s chats</string>
+  <string name="PrivacyDefaultXChats_few">Default for %1$s chats</string>
+  <string name="PrivacyDefaultXChats_many">Default for %1$s chats</string>
   <string name="Private">Private</string>
   <string name="ReadAllChatsDone_zero">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_two">Marked %1$s chats as read</string>

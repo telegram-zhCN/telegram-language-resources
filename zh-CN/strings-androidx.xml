@@ -19,7 +19,7 @@
   <string name="StartMessaging">开始聊天</string>
 
   <string name="network_Connecting">连接中...</string>
-  <string name="network_WaitingForNetwork">等待网络...</string>
+  <string name="network_WaitingForNetwork">等待网络连接...</string>
   <string name="network_Updating">刷新中...</string>
   <string name="Connected">已连接</string>
   <string name="ConnectingToProxy">正在连接代理...</string>
@@ -265,6 +265,13 @@
   <string name="ChatContentVoice">语音留言</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">视频留言</string>
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -2543,7 +2550,7 @@
   <string name="PollOptionsMax">您添加的选项已达最大数量。</string>
 
   <string name="PollAnonymous">匿名投票</string>
-  <string name="PollPublic">投票</string>
+  <string name="PollPublic">记名投票</string>
   <string name="PollResults">最终结果</string>
   <string name="QuizAnonymous">匿名小测验</string>
   <string name="QuizPublic">小测验</string>
@@ -2553,8 +2560,8 @@
   <string name="QuizResultsTitle">测验结果</string>
 
   
-  <string name="xVotes_other">%1$s 人已投票</string>
-  <string name="NoVotes">无人投票</string>
+  <string name="xVotes_other">%1$s 人投票</string>
+  <string name="NoVotes">没人投票</string>
 
   
   <string name="xAnswers_other">%1$s 人已回答</string>
@@ -2767,10 +2774,10 @@
   <string name="DiscardEditCaptionHint">你确定要放弃已经修改的备注吗？这将失去这些改动。</string>
 
   
-  
   <string name="ChatContentPinned">置顶消息</string>
   
   <string name="DisplaySensitiveContent">显示敏感内容</string>
+  
 
   <string name="format_notificationSilentTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentText">&#128277; %1$s</string>
@@ -2943,7 +2950,7 @@
   <string name="PollSettingQuiz">测验模式</string>
   <string name="PollSettingQuizInfo">测验模式中只有一个正确答案。一旦作答将无法撤销。</string>
 
-  
+  <string name="PollPublicForwardHint">抱歉，记名投票无法被转发到频道中。</string>
   
   
 
@@ -3182,15 +3189,18 @@
   
   <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   
-
   
   
 
+  <string name="NoVotesResult">没人投票</string>
+  
+
   
   
   
   
 
+  
   
   
 

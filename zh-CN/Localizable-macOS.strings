@@ -1055,7 +1055,7 @@
 "PeerInfo.Confirm.DeleteContact" = "您确定要删除这个联系人吗？";
 "Compose.SelectUsers" = "选择用户";
 "PeerInfo.AddContact" = "添加联系人";
-"PeerInfo.AddUserToContact" = "将 %@ 添加到通讯录";
+"PeerInfo.AddUserToContact" = "将 %@ 加为联系人";
 "Telegram.GroupAdminsController" = "管理员";
 "GroupAdmins.AllMembersAdmins" = "将所有成员设为管理员";
 "GroupAdmins.Desc.AdminInvites" = "只有管理员能邀请、移除成员或更改群组名称及头像。";
@@ -2775,6 +2775,7 @@
 
 
 
+"Chat.Poll.TotalVotes1_other" = "%d 人投票";
 
 
 
@@ -2785,15 +2786,14 @@
 
 
 
-
-"Chat.Poll.Tooltip.NoVotes" = "无人投票";
+"Chat.Poll.Tooltip.NoVotes" = "没人投票";
 "Chat.Poll.Tooltip.Votes_countable" = "%d";
 
 
 
 
 
-"Chat.Poll.Tooltip.Votes_other" = "%d 人已投票";
+"Chat.Poll.Tooltip.Votes_other" = "%d 人投票";
 
 
 
@@ -2806,8 +2806,8 @@
 
 
 
-"Chat.Poll.TotalVotesEmpty" = "无人投票";
-"Chat.Poll.TotalVotesResultEmpty" = "无人投票";
+"Chat.Poll.TotalVotesEmpty" = "没人投票";
+"Chat.Poll.TotalVotesResultEmpty" = "没人投票";
 
 
 "Chat.Quiz.TotalVotesResultEmpty" = "无人回答";
@@ -2816,7 +2816,7 @@
 
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "匿名投票";
-
+"Chat.Poll.Type.Public" = "记名投票";
 "Chat.Poll.Type.AnonymousQuiz" = "匿名小测验";
 
 "Chat.Poll.Type.Closed" = "最终结果";
@@ -2900,7 +2900,7 @@
 
 
 
-
+"PollResults.LoadMore_other" = "显示更多 (%d)";
 
 
 "Passport.ResetPassword.Confirm.Header" = "忘记密码";
@@ -3741,7 +3741,7 @@
 
 
 
-
+"Poll.Forward.Error" = "抱歉，记名投票无法被转发到频道中。";
 
 
 
@@ -4192,7 +4192,7 @@
 "Chat.Dice.Result" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
 "Chat.Message.UnsendMessages" = "撤回我的消息";
-"Chat.Poll.TotalVotes_other" = "%d 人已投票";
+"Chat.Poll.TotalVotes_other" = "%d 人投票";
 "Chat.Poll.TotalVotes_countable" = "%d";
 "ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";

@@ -265,7 +265,7 @@
 "ChatState.Connecting" = "连接中...";
 "ChatState.ConnectingToProxy" = "正在连接代理...";
 "ChatState.Updating" = "收取中...";
-
+"ChatState.WaitingForNetwork" = "等待网络连接...";
 
 // Presence
 "Presence.online" = "当前在线";
@@ -610,7 +610,7 @@
 "UserInfo.LastNamePlaceholder" = "姓氏";
 "UserInfo.GenericPhoneLabel" = "手机号码";
 "UserInfo.SendMessage" = "发送消息";
-"UserInfo.AddContact" = "添加联系人";
+"UserInfo.AddContact" = "加为联系人";
 "UserInfo.ShareContact" = "分享联系信息";
 "UserInfo.StartSecretChat" = "开始加密对话";
 "UserInfo.StartSecretChatConfirmation" = "确定开启与%@的加密对话吗？";
@@ -2212,7 +2212,7 @@ Unused sets are archived when you add more.";
 "DialogList.Pin" = "置顶";
 "DialogList.Unpin" = "取消置顶";
 "DialogList.PinLimitError" = "抱歉，您只能置顶 %@ 个对话。";
-
+"DialogList.UnknownPinLimitError" = "抱歉，您无法再将更多的对话置顶。";
 
 "Conversation.DeleteMessagesForMe" = "从本地删除";
 "Conversation.DeleteMessagesFor" = "从本地和 %@ 删除";
@@ -3798,13 +3798,13 @@ Unused sets are archived when you add more.";
 
 "MessagePoll.LabelAnonymous" = "匿名投票";
 "MessagePoll.LabelClosed" = "最终结果";
-"MessagePoll.NoVotes" = "无人投票";
+"MessagePoll.NoVotes" = "没人投票";
 
 
 
 
 
-"MessagePoll.VotedCount_any" = "%@ 人已投票";
+"MessagePoll.VotedCount_any" = "%@ 人投票";
 "AttachmentMenu.Poll" = "投票";
 "Conversation.PinnedPoll" = "置顶投票";
 
@@ -4229,7 +4229,7 @@ Unused sets are archived when you add more.";
 
 "SettingsSearch.Synonyms.SavedMessages" = " ";
 "SettingsSearch.Synonyms.AppLanguage" = " ";
-
+"SettingsSearch.Synonyms.Passport" = " ";
 "SettingsSearch.Synonyms.Watch" = "Apple Watch";
 "SettingsSearch.Synonyms.Support" = "支持\n客服";
 "SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
@@ -4406,8 +4406,8 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.BlockUser" = "屏蔽此用户";
 "Conversation.ShareMyPhoneNumber" = "Share My Phone Number";
 "Conversation.ShareMyPhoneNumberConfirmation" = "Do you want to share your phone number %1$@ with %2$@?";
-"Conversation.AddToContacts" = "添加联系人";
-"Conversation.AddNameToContacts" = "将 %@ 添加到通讯录";
+"Conversation.AddToContacts" = "加为联系人";
+"Conversation.AddNameToContacts" = "将 %@ 加为联系人";
 
 "AddContact.ContactWillBeSharedAfterMutual" = "一旦 %1$@ 将您添加为联系人，电话号码将对您可见。";
 "AddContact.SharedContactException" = "Share My Phone Number";
@@ -4481,7 +4481,7 @@ Any member of this group will be able to see messages in the channel.";
 "ReportGroupLocation.Text" = "如果此群组与此位置无关，请告知我们。";
 "ReportGroupLocation.Report" = "举报";
 
-"LocalGroup.Title" = "创建一个本地群组";
+"LocalGroup.Title" = "创建本地群组";
 "LocalGroup.Text" = "靠近此位置的任何人（邻居，同事，同学，活动参与者，场地访客）都可以在“附近的人员”中看到您的群组。";
 "LocalGroup.ButtonTitle" = "创建群组";
 "LocalGroup.IrrelevantWarning" = "如果您在此位置创建无关群组，你可能会失去创建基于位置的群组的能力。";
@@ -4550,20 +4550,20 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.MessageRankUsername" = "修改了 %1$@ 的自定义头衔(%2$@):\n%3$@";
 "Channel.AdminLog.MessageRank" = "修改自定义头衔:\n%1$@";
 
-
-
-
+"VoiceOver.Editing.ClearText" = "清除文字";
+"VoiceOver.Recording.StopAndPreview" = "停止并预览";
+"VoiceOver.Media.PlaybackRate" = "播放速度";
 
 
 "VoiceOver.Media.PlaybackRateChange" = "双击更改";
-
+"VoiceOver.Media.PlaybackStop" = "停止播放";
 "VoiceOver.Media.PlaybackPlay" = "播放";
 "VoiceOver.Media.PlaybackPause" = "暂停";
 
 "VoiceOver.Navigation.Search" = "搜索";
 "VoiceOver.Navigation.ProxySettings" = "代理设置";
 
-
+"VoiceOver.AttachMedia" = "发送媒体";
 
 
 
@@ -4600,7 +4600,7 @@ Any member of this group will be able to see messages in the channel.";
 "VoiceOver.Chat.ContactPhoneNumberCount_any" = "%@ 电话号码";
 "VoiceOver.Chat.ContactPhoneNumber" = "手机号码";
 
-
+"VoiceOver.Chat.ContactEmailCount_any" = "%@ 电邮地址";
 
 
 
@@ -4610,11 +4610,11 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-"VoiceOver.Chat.PollNoVotes" = "无人投票";
+"VoiceOver.Chat.PollVotes_any" = "%@ 人投票";
+"VoiceOver.Chat.PollNoVotes" = "没人投票";
 "VoiceOver.Chat.PollFinalResults" = "最终结果";
 "VoiceOver.Chat.OptionSelected" = "已选";
-
+"VoiceOver.Chat.PagePreview" = "页面预览";
 
 
 
@@ -4680,11 +4680,11 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.ThemePreview.ChatList.3.AuthorName" = "Jennie Alpha";
 "Appearance.ThemePreview.ChatList.3.Text" = "哇！我们刚刚达到 2500 人了！";
 "Appearance.ThemePreview.ChatList.4.Name" = "Veronica";
-
+"Appearance.ThemePreview.ChatList.4.Text" = "下午两点，订一张四人桌。待会见。";
 "Appearance.ThemePreview.ChatList.5.Name" = "Animal Videos";
-
+"Appearance.ThemePreview.ChatList.5.Text" = "现在投票！ 能在这个频道中播放猫咪视频吗？";
 "Appearance.ThemePreview.ChatList.6.Name" = "小妹妹";
-
+"Appearance.ThemePreview.ChatList.6.Text" = "先别告诉妈妈，我得到这份工作啦！我要去罗马咯！";
 "Appearance.ThemePreview.ChatList.7.Name" = "Jennie Alpha";
 "Appearance.ThemePreview.ChatList.7.Text" = "🖼 看看这些";
 
@@ -4694,8 +4694,8 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.ThemePreview.Chat.3.Text" = "这是全部吗？ 好像他说的不止这些。 😯";
 
 
-
-
+"Appearance.ThemePreview.Chat.4.Text" = "轻松一下，来杯三得利😎。";
+"Appearance.ThemePreview.Chat.5.Text" = "他要你转身，看着镜头。好吗？";
 "Appearance.ThemePreview.Chat.6.Text" = "他就说了这些？";
 "Appearance.ThemePreview.Chat.7.Text" = "是的，看向镜头。";
 
@@ -4769,7 +4769,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.Context.HideArchive" = "隐藏于列表上方";
 "ChatList.Context.UnhideArchive" = "在列表中置顶";
 "ChatList.Context.RemoveFromRecents" = "从最近中清除";
-"ChatList.Context.AddToContacts" = "添加到联系人";
+"ChatList.Context.AddToContacts" = "加为联系人";
 "ChatList.Context.MarkAsRead" = "标记为已读";
 "ChatList.Context.MarkAsUnread" = "标记为未读";
 "ChatList.Context.Archive" = "归档";
@@ -4792,7 +4792,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.EditAdmin.PermissionDeleteMessagesOfOthers" = "删除其他人的消息";
 "Channel.AdminLog.CanDeleteMessagesOfOthers" = "删除其他人的消息";
 
-
+"ChatSearch.ResultsTooltip" = "点击以列表方式查看。";
 
 
  //three to ten
@@ -5052,7 +5052,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"TwoFactorSetup.Intro.Title" = "额外的密码";
 
 "TwoFactorSetup.Intro.Action" = "设置一个附加密码";
 
@@ -5089,12 +5089,12 @@ Any member of this group will be able to see messages in the channel.";
 
 "AutoNightTheme.System" = "系统";
 
-
+"ChatSettings.OpenLinksIn" = "打开链接于";
 "SettingsSearch.Synonyms.ChatSettings.OpenLinksIn" = "浏览器";
 
 "WebBrowser.Title" = "浏览器";
 "WebBrowser.DefaultBrowser" = "默认网页浏览器";
-
+"WebBrowser.InAppSafari" = "应用内Safari";
 
 "Widget.ApplicationLocked" = "解锁应用程序以使用小组件";
 
@@ -5201,7 +5201,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Contacts.InviteContacts_any" = "邀请 %@ 位联系人";
 
 
 
@@ -5258,9 +5258,9 @@ Any member of this group will be able to see messages in the channel.";
 "StickerPackActionInfo.ArchivedTitle" = "贴纸已归档";
 "StickerPackActionInfo.RemovedText" = "%@已不在您的贴纸中。";
 
+"Conversation.ContextMenuCancelEditing" = "取消编辑";
 
-
-
+"Map.NoPlacesNearby" = "附近没有已知的地点。\n请尝试其它位置。";
 
 
 "CreatePoll.QuizOptionsHeader" = "测验选项";
@@ -5271,7 +5271,7 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.QuizInfo" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
 "CreatePoll.QuizTip" = "点按选择正确答案";
 
-"MessagePoll.LabelPoll" = "公开投票";
+"MessagePoll.LabelPoll" = "记名投票";
 "MessagePoll.LabelAnonymousQuiz" = "匿名小测验";
 "MessagePoll.LabelQuiz" = "小测验";
 "MessagePoll.SubmitVote" = "提交投票";
@@ -5287,15 +5287,15 @@ Any member of this group will be able to see messages in the channel.";
 "PollResults.Title" = "投票结果";
 "PollResults.Collapse" = "收起";
 
-
+"PollResults.ShowMore_any" = "显示更多 (%@)";
 
 "Conversation.StopQuiz" = "结束小测验";
 "Conversation.StopQuizConfirmationTitle" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
 "Conversation.StopQuizConfirmation" = "停止测验";
 
 
-"Forward.ErrorPublicPollDisabledInChannels" = "抱歉，公开投票不能被转发到频道中。";
-"Forward.ErrorPublicQuizDisabledInChannels" = "抱歉，公开投票不能被转发到频道中。";
+"Forward.ErrorPublicPollDisabledInChannels" = "抱歉，记名投票无法被转发到频道中。";
+"Forward.ErrorPublicQuizDisabledInChannels" = "抱歉，记名投票无法被转发到频道中。";
 
 "Map.PlacesInThisArea" = "附近";
 
@@ -5306,8 +5306,8 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
+"PeopleNearby.MakeVisible" = "使自己可被看见";
+"PeopleNearby.MakeInvisible" = "停止显示我";
 
 
 
@@ -5318,10 +5318,10 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"PeopleNearby.MakeVisibleTitle" = "显示您的个人资料？";
 
 
-
-
+"PeopleNearby.DiscoverDescription" = "与附近的人交换联系信息\n并找到新朋友。";
 
 
 
@@ -5343,7 +5343,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneGroups" = "群组";
 "PeerInfo.PaneMembers" = "成员";
 
-"PeerInfo.AddToContacts" = "添加到联系人";
+"PeerInfo.AddToContacts" = "加为联系人";
 
 "PeerInfo.BioExpand" = "更多";
 
@@ -5401,7 +5401,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"InstantPage.FeedbackButtonShort" = "布局错误？";
 
 "ChatList.EditFolder" = "编辑文件夹";
 "ChatList.AddChatsToFolder" = "添加对话";

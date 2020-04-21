@@ -835,7 +835,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_channel_title" = "频道信息";
 "lng_profile_enable_notifications" = "通知";
 "lng_profile_send_message" = "发送消息";
-"lng_info_add_as_contact" = "添加联系人";
+"lng_info_add_as_contact" = "加为联系人";
 "lng_profile_shared_media" = "分享的媒体文件";
 "lng_media_type_photos" = "图片";
 "lng_media_type_videos" = "视频";
@@ -1258,11 +1258,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_spam_ok" = "举报";
 "lng_new_contact_block" = "屏蔽此用户";
 "lng_new_contact_block_done" = "{user} 已被屏蔽。";
-"lng_new_contact_add" = "添加联系人";
+"lng_new_contact_add" = "加为联系人";
 "lng_new_contact_share" = "Share my phone number";
 "lng_new_contact_share_sure" = "Do you want to share your phone number {phone} with {user}?";
 "lng_new_contact_share_done" = "{user} 现在可以看到您的手机号码。";
-"lng_new_contact_add_name" = "将 {user} 添加到联系人列表";
+"lng_new_contact_add_name" = "将 {user} 加为联系人";
 "lng_new_contact_add_done" = "{user} 现在已位于您的联系人列表中。";
 "lng_cant_send_to_not_contact" = "抱歉，您现在只能给\n双向联系人发送消息。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，您现在只能将\n双向联系人加入群组。\n{more_info}";
@@ -1329,7 +1329,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_skip_archive_in_search" = "隐藏已归档的搜索结果";
 "lng_dialogs_show_archive_in_search" = "显示已归档的搜索结果";
 
-"lng_about_dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
+"lng_about_dice" = "将 🎲 发送到任意对话来从 Telegram 获得一个随机数。";
 
 "lng_open_this_link" = "打开此链接？";
 "lng_open_link" = "打开";
@@ -1817,7 +1817,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_inline_all" = "此群组不允许 Inline 机器人。";
 "lng_restricted_send_polls_all" = "抱歉，此群组不允许发起投票。";
 
-"lng_restricted_send_public_polls" = "抱歉，公开投票不能被转发到频道中。";
+"lng_restricted_send_public_polls" = "抱歉，记名投票无法被转发到频道中。";
 
 "lng_exceptions_list_title" = "例外";
 "lng_removed_list_title" = "被封禁的用户";
@@ -2189,13 +2189,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_launch_exe_dont_ask" = "不再询问";
 
 "lng_polls_anonymous" = "匿名投票";
-"lng_polls_public" = "投票";
+"lng_polls_public" = "记名投票";
 "lng_polls_anonymous_quiz" = "匿名小测验";
 "lng_polls_public_quiz" = "小测验";
 "lng_polls_closed" = "最终结果";
 
-"lng_polls_votes_count#other" = "{count} 人已投票";
-"lng_polls_votes_none" = "无人投票";
+"lng_polls_votes_count#other" = "{count} 人投票";
+"lng_polls_votes_none" = "没人投票";
 
 "lng_polls_answers_count#other" = "{count} 人已回答";
 "lng_polls_answers_none" = "无人回答";
