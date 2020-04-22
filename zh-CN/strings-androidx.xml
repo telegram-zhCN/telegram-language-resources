@@ -491,6 +491,8 @@
   
   
   
+  
+  
   <string name="NoMessages">这里暂时还没有消息...</string>
   <string name="LoadingMessages">正在读取消息...</string>
   <string name="LoadingMessage">正在读取消息...</string>
@@ -855,12 +857,18 @@
   <string name="Blur">模糊</string>
   <string name="BlurRadial">圆形</string>
   <string name="BlurLinear">线性</string>
-  <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>
+  
+  
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
   <string name="DeleteForUser">为 %1$s 删除</string>
   
   <string name="DeleteXForUser_other">删除来自 %2$s 的 %1$s 条消息</string>
+  
+  
+  
+  
   <string name="DeleteForEveryone">删除并撤回</string>
+  
   
   <string name="DeleteXForEveryone_other">为所有人删除 %1$s 条消息</string>
   <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
@@ -1069,7 +1077,6 @@
   <string name="xPeopleJoinedChannel_other">%1$s 个订阅者订阅了频道</string>
   <string name="AddToTheGroup">添加 %1$s 到此群组？</string>
   <string name="QAddXToChannel">将 %1$s 添加到此频道？</string>
-  <string name="QDeleteX">删除 %1$s？</string>
   <string name="VoiceCalls">语音通话</string>
   <string name="VoiceCallPrivacyDesc">您可以精准地控制谁可以与你进行语音通话</string>
   <string name="Ringtone">铃声</string>
@@ -3307,6 +3314,8 @@
   <string name="PriorityMedium">中</string>
   <string name="PrivacyCallsP2PTitle">端对端连接</string>
   <string name="Private">私人</string>
+  <string name="QDeleteX">删除 %1$s？</string>
+  <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>
   <string name="Region">地区</string>
   <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
   <string name="RevokeAdminRights">撤销管理员权限</string>

@@ -2153,6 +2153,7 @@
 
 "Stickers.Install" = "添加";
 
+
 "MaskStickerSettings.Title" = "装饰";
 "MaskStickerSettings.Info" = "你可以在要发送的图片或视频里添加装饰——只需在发送前打开图片编辑器进行编辑即可。";
 
@@ -5482,7 +5483,14 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+
+
+
+
 "Conversation.ContextMenuDiscuss" = "讨论";
+
+
+
 
 
 

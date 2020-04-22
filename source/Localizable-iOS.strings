@@ -2152,6 +2152,7 @@
 "Notification.GameScoreSelfSimple_0" = "scored %@";
 
 "Stickers.Install" = "ADD";
+"Stickers.Installed" = "ADDED";
 
 "MaskStickerSettings.Title" = "Masks";
 "MaskStickerSettings.Info" = "You can add masks to photos and videos you send. To do this, open the photo editor before sending a photo or video.";
@@ -5392,8 +5393,8 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.LoadingTitle" = "Preparing stats";
 "Stats.LoadingText" = "Please wait a few moments while\nwe generate your stats";
 
-
-
+"Stats.ZoomOut" = "Zoom Out";
+"Stats.Total" = "Total";
 
 "InstantPage.Views_0" = "%@ views";
 "InstantPage.Views_1" = "%@ view";
@@ -5477,13 +5478,20 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Conversation.SendDice" = "Send";
 
-
-
-
+"ForwardedDices_1" = "Forwarded dice";
+"ForwardedDices_2" = "%@ forwarded dices";
+"ForwardedDices_3_10" = "%@ forwarded dices";
+"ForwardedDices_any" = "%@ forwarded dices";
+"ForwardedDices_many" = "%@ forwarded dices";
+"ForwardedDices_0" = "%@ forwarded dices";
 
 "Conversation.ContextMenuDiscuss" = "Discuss";
 
+"CreatePoll.ExplanationHeader" = "EXPLANATION";
+"CreatePoll.Explanation" = "Add a Comment (Optional)";
+"CreatePoll.ExplanationInfo" = "Users will see this comment after choosing a wrong answer, good for educational purposes.";
 
 
 /* new from translations.telegram.org */
@@ -5595,6 +5603,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.DeletedChats_3_10" = "Deleted %@ chats";
 "ChatList.DeletedChats_many" = "Deleted %@ chats";
 "ChatList.EmptyChatFilterList" = "This folder is empty.";
+"Conversation.Dice." = "Send a dice emoji to any chat to roll a die.";
 "DataUpgrade.Running" = "Optimizing...";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
