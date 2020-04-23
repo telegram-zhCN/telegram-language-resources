@@ -1,9 +1,9 @@
 // Notifications
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_MESSAGE_NOTEXT" = "%1$@|给您发送了一条消息";
-"PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
-"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|给您发送了一张自毁图片";
-"PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
+"PUSH_MESSAGE_PHOTO" = "%1$@|📷 图片";
+"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|🔥 自毁图片";
+"PUSH_MESSAGE_VIDEO" = "%1$@|📹 视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 "PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
@@ -22,9 +22,9 @@
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
 
-
-
-
+"PUSH_MESSAGE_QUIZ" = "%1$@|发了一个测验“%2$@”给您";
+"PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|发布了测验“%2$@”";
+"PUSH_PINNED_QUIZ" = "%1$@|置顶了一个测验";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
@@ -32,8 +32,8 @@
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
-"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
-"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
+"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@：📍位置";
+"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@：实时位置";
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
 "PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: 🎤 语音留言";
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
@@ -48,7 +48,7 @@
 "PUSH_CHAT_RETURNED" = "%2$@|%1$@ 回到了群组";
 
 "PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
-"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ 向群里发送了一张 %3$@ 贴纸";
+"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@：%3$@ 贴纸";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
 
@@ -71,7 +71,7 @@
 "PUSH_PINNED_VIDEO" = "%1$@|置顶了一段视频";
 "PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
-"PUSH_PINNED_STICKER" = "%1$@|置顶了一张 %2$@ 贴纸";
+"PUSH_PINNED_STICKER" = "%1$@|📌置顶了一张 %2$@ 贴纸";
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
@@ -79,14 +79,14 @@
 
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
-"PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
+"PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ 邀请大家一起玩 %3$@";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_MESSAGE_NOTEXT" = "%1$@|给您发送了一条消息";
-"PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
-"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|给您发送了一张自毁图片";
-"PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
+"PUSH_MESSAGE_PHOTO" = "%1$@|📷 图片";
+"PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|🔥 自毁图片";
+"PUSH_MESSAGE_VIDEO" = "%1$@|📹 视频";
 "PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
 "PUSH_MESSAGE_SCREENSHOT" = "%1$@|截图了！";
 "PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
@@ -97,22 +97,22 @@
 "PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|实时位置";
 "PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
-
+"PUSH_MESSAGE_QUIZ" = "%1$@|发了一个测验“%2$@”给您";
 "PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
 "PUSH_MESSAGE_INVOICE" = "%1$@|给您发送了一张 %2$@ 的账单";
 "PUSH_MESSAGE_FWD" = "%1$@|转发给您一条消息";
 
-"PUSH_MESSAGE_FWDS_any" = "%1$@|转发给您 %2$d 条消息";
-"PUSH_MESSAGE_PHOTO" = "%1$@|给您发送了一张图片";
+"PUSH_MESSAGE_FWDS_any" = "%1$@|%2$d 条转发的消息";
+"PUSH_MESSAGE_PHOTO" = "%1$@|📷 图片";
 
-"PUSH_MESSAGE_PHOTOS_any" = "%1$@|给您发送了 %2$d 张图片";
-"PUSH_MESSAGE_VIDEO" = "%1$@|给您发送了一段视频";
+"PUSH_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d 张图片";
+"PUSH_MESSAGE_VIDEO" = "%1$@|📹 视频";
 
-"PUSH_MESSAGE_VIDEOS_any" = "%1$@|给您发送了 %2$d 段视频";
+"PUSH_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 段视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
-"PUSH_MESSAGE_ROUNDS_any" = "%1$@|给您发送了 %2$d 条视频留言";
+"PUSH_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d 条视频留言";
 "PUSH_MESSAGE" = "%1$@|新消息";
 
 "PUSH_MESSAGES_any" = "%1$@|给您发送了一组图片";
@@ -130,12 +130,12 @@
 "PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
 "PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
-
+"PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|发布了测验“%2$@”";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
 "PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|发布了一条转发的消息";
 
-"PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|发布了 %2$d 条转发的消息";
+"PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|%2$d 条转发的消息";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
 
 "PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d 段视频";
@@ -144,7 +144,7 @@
 "PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 段视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
-"PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|发布了 %2$d 条视频留言";
+"PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d 条视频留言";
 "PUSH_CHANNEL_MESSAGE" = "%1$@|发布了一条消息";
 
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|📷 相册";
@@ -155,16 +155,16 @@
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 "PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
-"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@ 向群里发送了一张 %3$@ 贴纸";
+"PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@：%3$@ 贴纸";
 "PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: 🎤 语音留言";
 "PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
-"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@ 向群里发送了一个位置";
-"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@ 正在共享他们的实时位置";
+"PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@：📍位置";
+"PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@：实时位置";
 "PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 发起投票 \"%3$@\"";
-
+"PUSH_CHAT_MESSAGE_QUIZ" = "%2$@|%1$@ 发送了测验“%3$@”到群组";
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
-"PUSH_CHAT_MESSAGE_GAME" = "%2$@|%1$@ 邀请大家一起玩 %3$@";
-"PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@ 发送了一张 %3$@ 的账单";
+"PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ 邀请大家一起玩 %3$@";
+"PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@：%3$@ 的账单";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ edited the group\'s name";
 "PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ edited the group\'s photo";
@@ -198,13 +198,13 @@
 "PUSH_PINNED_VIDEO" = "%1$@|置顶了一段视频";
 "PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
 "PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
-"PUSH_PINNED_STICKER" = "%1$@|置顶了一张 %2$@ 贴纸";
+"PUSH_PINNED_STICKER" = "%1$@|📌置顶了一张 %2$@ 贴纸";
 "PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
 "PUSH_PINNED_CONTACT" = "%1$@|置顶了 %2$@ 的联系方式";
 "PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
 "PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
 "PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
-
+"PUSH_PINNED_QUIZ" = "%1$@|置顶了一个测验";
 "PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
 "PUSH_PINNED_INVOICE" = "%1$@|📌 置顶了一张账单";
 "PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
@@ -709,7 +709,7 @@
 "Notifications.MessageNotificationsAlert" = "显示通知";
 "Notifications.MessageNotificationsPreview" = "消息预览";
 "Notifications.MessageNotificationsSound" = "声音";
-"Notifications.MessageNotificationsHelp" = "您可以在特定的用户信息界面中设置针对他们的通知策略。";
+"Notifications.MessageNotificationsHelp" = "您可以在特定用户的个人资料页中设置自定义通知。";
 "Notifications.MessageNotificationsExceptionsHelp" = "为特定用户设置自定义通知。";
 
 
@@ -718,14 +718,14 @@
 "Notifications.GroupNotificationsAlert" = "显示通知";
 "Notifications.GroupNotificationsPreview" = "消息预览";
 "Notifications.GroupNotificationsSound" = "声音";
-"Notifications.GroupNotificationsHelp" = "您可以在特定的群组信息界面中设置针对他们的通知策略。";
+"Notifications.GroupNotificationsHelp" = "您可以在特定群組的资料页中设置自定义通知。";
 "Notifications.GroupNotificationsExceptionsHelp" = "为特定群组设置自定义通知。";
 
 "Notifications.ChannelNotifications" = "频道通知";
 "Notifications.ChannelNotificationsAlert" = "显示通知";
 "Notifications.ChannelNotificationsPreview" = "消息预览";
 "Notifications.ChannelNotificationsSound" = "声音";
-"Notifications.ChannelNotificationsHelp" = "You can set custom notifications for specific channels on the Channel Info page.";
+"Notifications.ChannelNotificationsHelp" = "您可以在特定频道的资料页中设置自定义通知。";
 "Notifications.ChannelNotificationsExceptionsHelp" = "为特定频道设置自定义通知。";
 
 "Notifications.TextTone" = "提醒声音";
@@ -1236,7 +1236,7 @@
 
 
 
-"ForwardedStickers_any" = "%@ 个转发的贴纸";
+"ForwardedStickers_any" = "%@ 张转发的贴纸";
 
 
 
@@ -1391,11 +1391,11 @@
 
 "AccessDenied.LocationTracking" = "Telegram 需要访问您的位置信息以便与您的朋友分享。\n\n请前往「设置 > 隐私 > 定位服务」并打开 Telegram 的开关。";
 
-"PrivacySettings.AuthSessions" = "活动会话";
-"AuthSessions.Title" = "活动会话";
-"AuthSessions.CurrentSession" = "当前会话";
-"AuthSessions.TerminateOtherSessions" = "注销除本机外所有设备";
-"AuthSessions.TerminateOtherSessionsHelp" = "除本设备之外，其他已登录的设备都会被注销。";
+"PrivacySettings.AuthSessions" = "已登录的设备及网站";
+"AuthSessions.Title" = "已登录的设备";
+"AuthSessions.CurrentSession" = "当前设备";
+"AuthSessions.TerminateOtherSessions" = "将所有其他设备退出登录";
+"AuthSessions.TerminateOtherSessionsHelp" = "除本设备之外，其他已登录的设备都会被退出登录。";
 "AuthSessions.TerminateSession" = "注销此设备";
 "AuthSessions.OtherSessions" = "其他设备";
 "AuthSessions.EmptyTitle" = "无其他设备";
@@ -1434,7 +1434,7 @@
 "ChatSettings.Other" = "其它";
 "ChatSettings.Stickers" = "贴纸";
 
-"StickerPacksSettings.Title" = "贴纸设置";
+"StickerPacksSettings.Title" = "贴纸";
 "StickerPacksSettings.ShowStickersButton" = "显示贴纸面板";
 "StickerPacksSettings.ShowStickersButtonHelp" = "开启后，输入框右侧将出现用于访问贴纸面板的快捷图标。";
 
@@ -1452,7 +1452,7 @@
 
 
 
-"StickerPack.AddStickerCount_any" = "添加 %@ 个贴纸";
+"StickerPack.AddStickerCount_any" = "添加 %@ 张贴纸";
 
 
 
@@ -1940,7 +1940,7 @@
 "Notification.PinnedContactMessage" = "%@ 置顶了一条联系人信息";
 "Notification.PinnedDeletedMessage" = "%@ 置顶了一条删除的消息";
 "Notification.PinnedPollMessage" = "%@ 置顶了一项投票";
-"Notification.PinnedQuizMessage" = "%@ 置顶了一个小测验";
+"Notification.PinnedQuizMessage" = "%@ 置顶了一个测验";
 
 "Message.PinnedTextMessage" = "置顶了 \"%@\"";
 "Message.PinnedPhotoMessage" = "置顶了图片";
@@ -1993,7 +1993,7 @@
 
 
 
-"StickerPack.RemoveStickerCount_any" = "移除 %@ 个贴纸";
+"StickerPack.RemoveStickerCount_any" = "移除 %@ 张贴纸";
 
 
 
@@ -3808,7 +3808,7 @@ Unused sets are archived when you add more.";
 "MessagePoll.VotedCount_any" = "%@ 人投票";
 "AttachmentMenu.Poll" = "投票";
 "Conversation.PinnedPoll" = "置顶投票";
-
+"Conversation.PinnedQuiz" = "置顶测验";
 
 "CreatePoll.Title" = "发起投票";
 "CreatePoll.Create" = "发送";
@@ -3901,7 +3901,7 @@ Unused sets are archived when you add more.";
 "GroupRemoved.UsersSectionTitle" = "被封禁的用户";
 "GroupRemoved.ViewUserInfo" = "查看个人信息";
 "GroupRemoved.AddToGroup" = "邀请加入群组";
-"GroupRemoved.DeleteUser" = "删除";
+"GroupRemoved.DeleteUser" = "删除用户";
 
 "EmptyGroupInfo.Title" = "您创建了一个群组";
 "EmptyGroupInfo.Subtitle" = "群组可以拥有：";
@@ -5263,38 +5263,38 @@ Any member of this group will be able to see messages in the channel.";
 
 "Map.NoPlacesNearby" = "附近没有已知的地点。\n请尝试其它位置。";
 
-
+"CreatePoll.QuizTitle" = "发起测验";
 "CreatePoll.QuizOptionsHeader" = "测验选项";
 "CreatePoll.Anonymous" = "匿名投票";
 "CreatePoll.MultipleChoice" = "可多选";
 "CreatePoll.MultipleChoiceQuizAlert" = "测验模式下只能有一个正确答案。";
 "CreatePoll.Quiz" = "测验模式";
 "CreatePoll.QuizInfo" = "测验模式中只有一个正确答案。一旦作答将无法撤销。";
-"CreatePoll.QuizTip" = "点按选择正确答案";
+"CreatePoll.QuizTip" = "点选正确答案";
 
 "MessagePoll.LabelPoll" = "记名投票";
-"MessagePoll.LabelAnonymousQuiz" = "匿名小测验";
-"MessagePoll.LabelQuiz" = "小测验";
+"MessagePoll.LabelAnonymousQuiz" = "匿名测验";
+"MessagePoll.LabelQuiz" = "测验";
 "MessagePoll.SubmitVote" = "提交投票";
 "MessagePoll.ViewResults" = "查看结果";
-"MessagePoll.QuizNoUsers" = "无人回答";
+"MessagePoll.QuizNoUsers" = "沒人回答";
 
 
 
 
 
-"MessagePoll.QuizCount_any" = "%@ 人已回答";
+"MessagePoll.QuizCount_any" = "%@ 人回答";
 
 "PollResults.Title" = "投票结果";
 "PollResults.Collapse" = "收起";
 
 "PollResults.ShowMore_any" = "显示更多 (%@)";
 
-"Conversation.StopQuiz" = "结束小测验";
-"Conversation.StopQuizConfirmationTitle" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
+"Conversation.StopQuiz" = "停止测验";
+"Conversation.StopQuizConfirmationTitle" = "如果您现在停止测验，就没有人能再参与了。此操作无法撤消。";
 "Conversation.StopQuizConfirmation" = "停止测验";
 
-
+"Forward.ErrorDisabledForChat" = "抱歉，您不能将消息转发到此对话。";
 "Forward.ErrorPublicPollDisabledInChannels" = "抱歉，记名投票无法被转发到频道中。";
 "Forward.ErrorPublicQuizDisabledInChannels" = "抱歉，记名投票无法被转发到频道中。";
 
@@ -5339,7 +5339,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneMedia" = "媒体";
 "PeerInfo.PaneFiles" = "文件";
 "PeerInfo.PaneLinks" = "链接";
-
+"PeerInfo.PaneVoice" = "语音留言";
 "PeerInfo.PaneAudio" = "音频";
 "PeerInfo.PaneGroups" = "群组";
 "PeerInfo.PaneMembers" = "成员";
@@ -5472,16 +5472,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "ChatListFilter.ShowMoreChats_any" = "显示另外 %@ 个对话";
 
-
-
-"Conversation.Dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
-
-
-
-
-
-
-
+"MuteFor.Forever" = "永久关闭通知";
 
 
 
@@ -5489,7 +5480,9 @@ Any member of this group will be able to see messages in the channel.";
 
 "Conversation.ContextMenuDiscuss" = "讨论";
 
-
+"CreatePoll.ExplanationHeader" = "说明";
+"CreatePoll.Explanation" = "添加说明（可选）";
+"CreatePoll.ExplanationInfo" = "用户选择了错误的答案后会看到此文本，非常适合教育用途。";
 
 
 
@@ -5595,6 +5588,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加成员";
 "Chat.AttachmentLimitExceeded" = "抱歉，您无法一次选择更多的项目。";
 "ChatList.EmptyChatFilterList" = "空文件夹";
+"Conversation.Dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 "DataUpgrade.Running" = "正在优化...";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";

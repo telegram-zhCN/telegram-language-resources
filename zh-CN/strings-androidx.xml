@@ -722,22 +722,22 @@
   <string name="LastSeen">最后上线时间</string>
   <string name="GroupsAndChannels">群组和频道</string>
   <string name="SecurityTitle">安全</string>
-  <string name="SessionsTitle">活动会话</string>
+  <string name="SessionsTitle">已登录</string>
   <string name="SessionsIncompleteTitle">未完成的登录尝试</string>
   <string name="SessionsIncompleteInfo">这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。</string>
   <string name="TwoStepVerification">两步验证</string>
   <string name="PasswordEnabled">启用</string>
   <string name="PasswordDisabled">已禁用</string>
-  <string name="CurrentSession">当前会话</string>
-  <string name="NoOtherSessions">没有其它活动会话</string>
+  <string name="CurrentSession">当前设备</string>
+  <string name="NoOtherSessions">没有其他已登录的设备</string>
   <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。</string>
-  <string name="TerminateAllSessions">注销除本机外所有设备</string>
+  <string name="TerminateAllSessions">将所有其他设备退出登录</string>
   <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
   <string name="TerminateSessionQuestion">注销此会话？</string>
   <string name="TerminateIncompleteSessionQuestion">要终止这次登录吗？</string>
   <string name="TerminateSession">注销会话</string>
   <string name="TerminateIncompleteSession">终止此尝试</string>
-  <string name="AreYouSureSessions">您确定要注销其他所有的会话吗？</string>
+  <string name="AreYouSureSessions">您确定要将所有其他设备退出登录吗？</string>
   <string name="Everybody">所有人</string>
   <string name="MyContacts">我的联系人</string>
   <string name="Nobody">不允许任何人</string>
@@ -888,7 +888,7 @@
   <string name="ActionPinnedNoText">%1$s 置顶了一条**消息**</string>
   <string name="ActionPinnedGeo">%1$s 置顶了一个**位置**</string>
   <string name="ActionPinnedPoll">%1$s 置顶了一项**投票**</string>
-  <string name="ActionPinnedQuiz">%1$s 置顶了一个 **小测验**</string>
+  <string name="ActionPinnedQuiz">%1$s 置顶了一个**测验**</string>
   <string name="ActionPinnedGeoLive">%1$s 置顶了一个**实时位置**</string>
   <string name="ActionPinnedSticker">%1$s 置顶了一张**贴纸**</string>
   <string name="ActionPinnedGif">%1$s 置顶了一个 **GIF**</string>
@@ -2401,9 +2401,9 @@
   
   <string name="BadgeCounterMessagesOn">开启以显示未读消息数而非未读对话数。</string>
   <string name="BadgeCounterMessagesOff">关闭以显示未读对话数而非未读消息数。</string>
-  <string name="NotificationsPrivateInfo">您可以在特定的用户信息界面中设置针对他们的通知策略。</string>
-  <string name="NotificationsGroupInfo">您可以在特定的群组信息界面中设置针对他们的通知策略。</string>
-  <string name="NotificationsChannelInfo">您可以在特定的频道信息界面中设置针对他们的通知策略。</string>
+  <string name="NotificationsPrivateInfo">您可以在特定用户的个人资料页中设置自定义通知。</string>
+  <string name="NotificationsGroupInfo">您可以在特定群組的资料页中设置自定义通知。</string>
+  <string name="NotificationsChannelInfo">您可以在特定频道的资料页中设置自定义通知。</string>
   <string name="IncludeDismissed">包括错过的消息</string>
   <string name="IncludeDismissedHintOn">切换来开启在新通知中包括会话中错过的未读消息</string>
   <string name="IncludeDismissedHintOff">关闭以在收到新通知时排除之前错过的通知</string>
@@ -2522,7 +2522,7 @@
   <string name="AppLogsClear">删除所有应用程序日志？</string>
 
   <string name="CreatePoll">发起投票</string>
-  <string name="CreateQuiz">发起小测验</string>
+  <string name="CreateQuiz">发起测验</string>
   <string name="RetractVote">撤回我的投票</string>
   <string name="StopPoll">终止投票</string>
   <string name="StopQuiz">停止测验</string>
@@ -2530,17 +2530,17 @@
   <string name="SecretChatForwardError">您无法将此消息转发到加密对话中。</string>
 
   <string name="StopPollWarn">如果您现在终止它，其他人将无法继续投票。\n\n这个操作无法撤销。</string>
-  <string name="StopQuizWarn">如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。</string>
+  <string name="StopQuizWarn">如果您现在停止测验，就没有人能再参与了。\n\n此操作无法撤消。</string>
 
   <string name="ViewPollResults">查看结果</string>
   <string name="ViewQuizResults">查看结果</string>
   
   <string name="ViewXPollResults_other">查看 %1$s 的结果</string>
   
-  <string name="ViewXQuizResults_other">查看 %1$s 的结果</string>
+  <string name="ViewXQuizResults_other">查看 %1$s 个结果</string>
   <string name="Vote">投票</string>
 
-  <string name="Quiz">小测验</string>
+  <string name="Quiz">测验</string>
   <string name="Poll">投票</string>
   <string name="PollQuestion">问题</string>
   <string name="PollQuestionEmpty">请输入问题</string>
@@ -2549,8 +2549,8 @@
   <string name="QuizOptions">测验选项</string>
   <string name="PollDiscard">放弃发起投票</string>
   <string name="PollDiscardPrompt">您确定要放弃发起新投票吗？</string>
-  <string name="QuizDiscard">取消测验</string>
-  <string name="QuizDiscardPrompt">您确定要取消这次测验吗？</string>
+  <string name="QuizDiscard">放弃测验</string>
+  <string name="QuizDiscardPrompt">您确定要放弃这个测验吗？</string>
   <string name="PollOptionsAdd">添加一个选项...</string>
   
   <string name="PollOptionsLimit_other">您还可以添加 %1$s 个选项</string>
@@ -2559,8 +2559,8 @@
   <string name="PollAnonymous">匿名投票</string>
   <string name="PollPublic">记名投票</string>
   <string name="PollResults">最终结果</string>
-  <string name="QuizAnonymous">匿名小测验</string>
-  <string name="QuizPublic">小测验</string>
+  <string name="QuizAnonymous">匿名测验</string>
+  <string name="QuizPublic">测验</string>
   <string name="QuizResults">最终结果</string>
 
   <string name="PollResultsTitle">投票结果</string>
@@ -2572,7 +2572,7 @@
 
   
   <string name="xAnswers_other">%1$s 人已回答</string>
-  <string name="NoAnswers">无人回答</string>
+  <string name="NoAnswers">没人回答</string>
 
   <string name="NotificationSyncOffWarn">**想要收到新消息的通知吗？**\n\n在应用关闭时启用系统自动同步以获取通知。</string>
   <string name="NeverShowAgain">不再显示</string>
@@ -3169,9 +3169,9 @@
   
   
 
-  
-  
-  
+  <string name="QuizExplanation">说明</string>
+  <string name="QuizExplanationEmpty">添加说明</string>
+  <string name="QuizExplanationInfo">用户选择了错误的答案后会看到此文本，非常适合教育用途。</string>
 
   
 
@@ -3236,7 +3236,7 @@
   
   
   
-  
+  <string name="EditPrivacyGroupInfo">这些是应用于 %1$s 位成员的默认隐私设置。您可以在特定用户的个人资料页面上检查您的隐私设置。</string>
 
   
   
@@ -3298,7 +3298,7 @@
   <string name="MarkdownEnabled">启用</string>
   <string name="MarkdownHint">当启用时，以下规则生效：\n**粗体**\n__斜体__\n`等宽代码行`\n```等宽代码片段···\n[链接文字](地址)</string>
   <string name="MarkdownTextOnly">启用（无图形界面）</string>
-  <string name="NoAnswered">无人回答</string>
+  <string name="NoAnswered">沒人回答</string>
   <string name="NotificationChannelCommonGroup">适用于所有群组和频道的默认消息提醒设置</string>
   <string name="NotificationMessageDocument">%1$s 给您发送了一个文件</string>
   <string name="NotificationMessageGif">%1$s 给您发送了一张 GIF</string>
@@ -3341,5 +3341,5 @@
   <string name="login_YourName">您的姓名</string>
   <string name="message_adminSign">" 管理员"</string>
   <string name="service_Notifications">该服务用于显示消息通知。</string>
-  <string name="xAnswered_other">%1$s 人已回答</string>
+  <string name="xAnswered_other">%1$s 人回答</string>
 </resources>

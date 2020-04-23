@@ -5474,24 +5474,17 @@ Any member of this group will be able to see messages in the channel.";
 
 "MuteFor.Forever" = "Mute Forever";
 
-"Conversation.Dice" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
-
-
-
+"Conversation.Dice.u1F3B2" = "Send a dice emoji to any chat to roll a die.";
+"Conversation.Dice.u1F3AF" = "Send a dart emoji to try your luck.";
 "Conversation.SendDice" = "Send";
-
-"ForwardedDices_1" = "Forwarded dice";
-"ForwardedDices_2" = "%@ forwarded dices";
-"ForwardedDices_3_10" = "%@ forwarded dices";
-"ForwardedDices_any" = "%@ forwarded dices";
-"ForwardedDices_many" = "%@ forwarded dices";
-"ForwardedDices_0" = "%@ forwarded dices";
 
 "Conversation.ContextMenuDiscuss" = "Discuss";
 
 "CreatePoll.ExplanationHeader" = "EXPLANATION";
 "CreatePoll.Explanation" = "Add a Comment (Optional)";
 "CreatePoll.ExplanationInfo" = "Users will see this comment after choosing a wrong answer, good for educational purposes.";
+
+"FeaturedStickers.OtherSection" = "OTHER STICKERS";
 
 
 /* new from translations.telegram.org */
@@ -5603,6 +5596,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.DeletedChats_3_10" = "Deleted %@ chats";
 "ChatList.DeletedChats_many" = "Deleted %@ chats";
 "ChatList.EmptyChatFilterList" = "This folder is empty.";
+"Conversation.Dice" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 "Conversation.Dice." = "Send a dice emoji to any chat to roll a die.";
 "DataUpgrade.Running" = "Optimizing...";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
@@ -5612,6 +5606,12 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ThemeTemplateAlert" = "New Theme Added\n\nPress and hold on your theme to edit it or get a sharing link. Users who install your theme will get automatic updates each time you change it.\n\nFor advanced editing purposes, you can find a file with your theme in Saved Messages.";
 "EditTheme.UploadEditedInfo" = "You can update your theme for all users by uploading manual changes from a file.";
 "EditTheme.UploadNewInfo" = "The theme will be based on your currently selected colors and wallpaper. Alternatively, you can use a manually edited custom theme file.";
+"ForwardedDices_0" = "%@ forwarded dices";
+"ForwardedDices_1" = "Forwarded dice";
+"ForwardedDices_2" = "%@ forwarded dices";
+"ForwardedDices_3_10" = "%@ forwarded dices";
+"ForwardedDices_many" = "%@ forwarded dices";
+"ForwardedDices_any" = "%@ forwarded dices";
 "InviteText.ContactsCount_0" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";
 "InviteText.ContactsCount_1" = "Hey, I'm using Telegram to chat. Join me! Download it here: %@";
 "InviteText.ContactsCount_2" = "Hey, I'm using Telegram to chat – and so are %@ of our other contacts. Join us! Download it here: %@";

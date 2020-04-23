@@ -610,7 +610,7 @@
 
 "PrivacySettings.SecurityHeader" = "安全";
 "PrivacySettings.Passcode" = "密码";
-"PrivacySettings.ActiveSessions" = "所有设备";
+"PrivacySettings.ActiveSessions" = "已登录的设备";
 
 "PrivacySettings.UseProxy" = "使用代理";
 "PrivacySettings.ProxyHeader" = "连接类型";
@@ -996,8 +996,8 @@
 "Telegram.BlockedPeersViewController" = "已屏蔽的用户";
 "BlockedPeers.EmptyDescrpition" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
 
-"Sessions.CurrentSessionHeader" = "当前会话";
-"Sessions.TerminateOthers" = "注销除本机外所有设备";
+"Sessions.CurrentSessionHeader" = "当前设备";
+"Sessions.TerminateOthers" = "将所有其他设备退出登录";
 "Sessions.TerminateDescription" = "注销除本设备之外的其他所有设备。";
 "Sessions.ActiveSessionsHeader" = "其他设备";
 
@@ -1036,8 +1036,8 @@
 "Alert.SendError.ResendItems_other" = "重新发送 %d 条消息";
 
 "GeneralSettings.EnableSidebar" = "侧栏";
-"Telegram.RecentSessionsController" = "活动会话";
-"RecentSessions.Confirm.TerminateOthers" = "您确定要注销其他所有的会话吗？";
+"Telegram.RecentSessionsController" = "已登录的设备";
+"RecentSessions.Confirm.TerminateOthers" = "您确定要将所有其他设备退出登录吗？";
 "RecentSessions.Confirm.Revoke" = "您确定要注销此设备？";
 "RecentSessions.Revoke" = "撤销";
 "RecentSessions.Error.FreshReset" = "出于安全原因，您无法使用刚刚连接的设备终止之前的设备会话。 请通过之前使用的设备操作或等待几个小时。";
@@ -2777,13 +2777,13 @@
 
 "Chat.Poll.TotalVotes1_other" = "%d 人投票";
 
+"Chat.Quiz.TotalVotes_countable" = "%d";
 
 
 
 
 
-
-
+"Chat.Quiz.TotalVotes_other" = "%d 人回答";
 
 
 "Chat.Poll.Tooltip.NoVotes" = "没人投票";
@@ -2796,29 +2796,29 @@
 "Chat.Poll.Tooltip.Votes_other" = "%d 人投票";
 
 
+"Chat.Quiz.Tooltip.NoVotes" = "没人回答";
+"Chat.Quiz.Tooltip.Votes_countable" = "%d";
 
 
 
 
 
-
-
-
+"Chat.Quiz.Tooltip.Votes_other" = "%d 人回答";
 
 
 "Chat.Poll.TotalVotesEmpty" = "没人投票";
 "Chat.Poll.TotalVotesResultEmpty" = "没人投票";
 
+"Chat.Quiz.TotalVotesEmpty" = "没人回答";
+"Chat.Quiz.TotalVotesResultEmpty" = "沒人回答";
 
-"Chat.Quiz.TotalVotesResultEmpty" = "无人回答";
-
-
+"Chat.Quiz.TextType" = "测验";
 
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Type.Anonymous" = "匿名投票";
 "Chat.Poll.Type.Public" = "记名投票";
-"Chat.Poll.Type.AnonymousQuiz" = "匿名小测验";
-
+"Chat.Poll.Type.AnonymousQuiz" = "匿名测验";
+"Chat.Poll.Type.Quiz" = "测验";
 "Chat.Poll.Type.Closed" = "最终结果";
 
 "Chat.Poll.Unvote" = "撤回我的投票";
@@ -2829,16 +2829,16 @@
 
 "Chat.Poll.SubmitVote" = "投票";
 
-
-
-"Chat.Quiz.Stop.Confirm.Text" = "如果你现在停止测验，任何人都将无法继续提交结果。\n\n这个操作是不可逆的。";
+"Chat.Quiz.Stop" = "停止测验";
+"Chat.Quiz.Stop.Confirm.Header" = "停止测验？";
+"Chat.Quiz.Stop.Confirm.Text" = "如果您现在停止测验，就没有人能再参与了。此操作无法撤消。";
 
 
 
 "Language.RemovePack" = "您确定要移除这个语言包吗？";
 
 "NewPoll.Title" = "发起投票";
-
+"NewPoll.Title.Quiz" = "发起测验";
 "NewPoll.QuestionHeader" = "问题";
 
 "NewPoll.QuestionHeaderLimit" = "问题 (%d)";
@@ -2848,7 +2848,7 @@
 "NewPoll.OptionsPlaceholder" = "选项";
 "NewPoll.OptionsAddOption" = "添加一个选项...";
 
-"NewPoll.QuizTooltip" = "点按选择正确答案";
+"NewPoll.QuizTooltip" = "点选正确答案";
 
 "NewPoll.QuizMultiple.Error" = "测验模式下只能有一个正确答案。";
 
@@ -2862,9 +2862,9 @@
 "NewPoll.OptionsDescription_other" = "您还可以再添加 %d 个选项。";
 
 
-
-
-
+"NewPoll.Explanation.Header" = "说明";
+"NewPoll.Explanation.Placeholder" = "添加说明（可选）";
+"NewPoll.Explanation.Desc" = "用户选择了错误的答案后会看到此文本，非常适合教育用途。";
 
 "NewPoll.OptionsDescriptionMinimum_countable" = "%d";
 
