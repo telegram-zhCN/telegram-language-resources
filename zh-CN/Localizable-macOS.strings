@@ -997,8 +997,8 @@
 "BlockedPeers.EmptyDescrpition" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
 
 "Sessions.CurrentSessionHeader" = "当前设备";
-"Sessions.TerminateOthers" = "将所有其他设备退出登录";
-"Sessions.TerminateDescription" = "注销除本设备之外的其他所有设备。";
+"Sessions.TerminateOthers" = "将其他设备退出登录";
+"Sessions.TerminateDescription" = "退出所有已登录的设备，只保留当前使用的。";
 "Sessions.ActiveSessionsHeader" = "其他设备";
 
 
@@ -2863,8 +2863,8 @@
 
 
 "NewPoll.Explanation.Header" = "说明";
-"NewPoll.Explanation.Placeholder" = "添加说明（可选）";
-"NewPoll.Explanation.Desc" = "用户选择了错误的答案后会看到此文本，非常适合教育用途。";
+"NewPoll.Explanation.Placeholder" = "添加评论（可选）";
+"NewPoll.Explanation.Desc" = "用户选择了错误的答案后，会看到此文本，因此非常适合教育用途。";
 
 "NewPoll.OptionsDescriptionMinimum_countable" = "%d";
 
@@ -3806,7 +3806,7 @@
 
 
 
-
+"ChatList.Filter.Header" = "为不同的对话创建文件夹，然后在它们之间快速切换。";
 
 
 
@@ -3862,13 +3862,13 @@
 
 
 
-
+"ChatList.Filter.Tilte.Default.Unmuted" = "通知开启的";
 "ChatList.Filter.Tilte.Default.Unread" = "未读";
 "ChatList.Filter.Tilte.Default.Channels" = "频道";
 
+"ChatList.Filter.Tilte.Default.Bots" = "机器人";
 
-
-
+"ChatList.Filter.Tilte.Default.NonContacts" = "非联系人";
 
 
 
@@ -3906,7 +3906,7 @@
 "ChannelStats.Graph.Notifications" = "通知";
 "ChannelStats.Graph.Interactions" = "互动";
 
-
+"Graph.ZoomOut" = "缩小";
 
 
 "ChannelStats.Recent.Header" = "最近的帖子";

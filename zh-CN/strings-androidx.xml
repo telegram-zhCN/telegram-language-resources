@@ -731,8 +731,8 @@
   <string name="CurrentSession">当前设备</string>
   <string name="NoOtherSessions">没有其他已登录的设备</string>
   <string name="NoOtherSessionsInfo">您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。</string>
-  <string name="TerminateAllSessions">将所有其他设备退出登录</string>
-  <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
+  <string name="TerminateAllSessions">将其他设备退出登录</string>
+  <string name="ClearOtherSessionsHelp">退出所有已登录的设备，只保留当前使用的。</string>
   <string name="TerminateSessionQuestion">注销此会话？</string>
   <string name="TerminateIncompleteSessionQuestion">要终止这次登录吗？</string>
   <string name="TerminateSession">注销会话</string>
@@ -1217,7 +1217,7 @@
   <string name="BioDescription">一些个人简介，例如年龄、工作或城市。\n示例：23 岁，来自旧金山的设计师</string>
   <string name="AttachPhotoExpired">图片已自毁</string>
   <string name="AttachVideoExpired">视频已自毁</string>
-  <string name="SendByEnter">使用回车键发送消息</string>
+  <string name="SendByEnter">按下 Enter 键就发送消息</string>
   <string name="HideChatKeyboard">当滚动浏览对话时隐藏键盘</string>
   <string name="CopiedHashtag">已将此标签复制到剪贴板</string>
   <string name="CopiedCashtag">已将此标签复制到剪贴板</string>
@@ -2701,6 +2701,7 @@
   <string name="ChatDisabledBots">仅管理员能在此群组中使用inline机器人</string>
   <string name="ChatDisabledStickers">只有管理员能在这个群组中发送贴纸</string>
   
+  
   <string name="ChatDisabledMedia">仅管理员能在此群组中发送媒体文件</string>
   
   
@@ -2712,6 +2713,8 @@
   <string name="ChatRestrictedBots">管理员禁止您在此群组中发送机器人内容</string>
   
   <string name="ChatRestrictedStickers">管理员禁止您在此群组中发送贴纸</string>
+  
+  
   
   
   
@@ -3171,9 +3174,9 @@
 
   <string name="QuizExplanation">说明</string>
   <string name="QuizExplanationEmpty">添加说明</string>
-  <string name="QuizExplanationInfo">用户选择了错误的答案后会看到此文本，非常适合教育用途。</string>
+  <string name="QuizExplanationInfo">用户选择了错误的答案后，会看到此文本，因此非常适合教育用途。</string>
 
-  
+  <string name="ZoomOut">缩小</string>
 
   
   
@@ -3195,6 +3198,8 @@
 
   
   <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
+  
+  
   
   
   
@@ -3237,6 +3242,12 @@
   
   
   <string name="EditPrivacyGroupInfo">这些是应用于 %1$s 位成员的默认隐私设置。您可以在特定用户的个人资料页面上检查您的隐私设置。</string>
+
+  
+  
+
+  
+  
 
   
   

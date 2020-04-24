@@ -226,7 +226,7 @@
 
 
 "PUSH_REMINDER_TITLE" = "🗓 提醒";
-
+"PUSH_SENDER_YOU" = "📅 您";
 
 
 
@@ -1394,8 +1394,8 @@
 "PrivacySettings.AuthSessions" = "已登录的设备及网站";
 "AuthSessions.Title" = "已登录的设备";
 "AuthSessions.CurrentSession" = "当前设备";
-"AuthSessions.TerminateOtherSessions" = "将所有其他设备退出登录";
-"AuthSessions.TerminateOtherSessionsHelp" = "除本设备之外，其他已登录的设备都会被退出登录。";
+"AuthSessions.TerminateOtherSessions" = "将其他设备退出登录";
+"AuthSessions.TerminateOtherSessionsHelp" = "退出所有已登录的设备，只保留当前使用的。";
 "AuthSessions.TerminateSession" = "注销此设备";
 "AuthSessions.OtherSessions" = "其他设备";
 "AuthSessions.EmptyTitle" = "无其他设备";
@@ -4526,7 +4526,7 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.SlowmodeTooltip" = "慢速模式已启用。您可以\n在%@后发送下一条消息";
 "Chat.SlowmodeTooltipPending" = "慢速模式已启用。 您不能一次发送多条消息。";
 "Chat.AttachmentLimitReached" = "您无法选择更多项目。";
-
+"Chat.SlowmodeAttachmentLimitReached" = "慢速模式已启用。您无法选择更多。";
 "Chat.AttachmentMultipleFilesDisabled" = "慢速模式已启用。您不能一次发送多个文件。";
 "Chat.AttachmentMultipleForwardDisabled" = "慢速模式已启用。您不能一次转发多条消息。";
 "Chat.MultipleTextMessagesDisabled" = "慢速模式已启用。您不能一次发送多条消息。";
@@ -5127,7 +5127,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"GroupInfo.ShowMoreMembers_any" = "显示另外 %@ 位成员";
 
 
 
@@ -5235,7 +5235,7 @@ Any member of this group will be able to see messages in the channel.";
 "OldChannels.ChannelFormat" = "频道，";
 "OldChannels.GroupEmptyFormat" = "群组，";
 
-
+"OldChannels.GroupFormat_any" = "%@ 位成员 ";
 
 
 "OldChannels.InactiveWeek_any" = "%@周不活跃";
@@ -5300,9 +5300,9 @@ Any member of this group will be able to see messages in the channel.";
 
 "Map.PlacesInThisArea" = "附近";
 
-
-"Appearance.BubbleCorners.Title" = "消息圆角大小";
-
+"Appearance.BubbleCornersSetting" = "对话气泡圆角大小";
+"Appearance.BubbleCorners.Title" = "对话气泡圆角大小";
+"Appearance.BubbleCorners.AdjustAdjacent" = "调整对话气泡圆角大小";
 "Appearance.BubbleCorners.Apply" = "设置";
 
 
@@ -5324,7 +5324,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "PeopleNearby.DiscoverDescription" = "与附近的人交换联系信息\n并找到新朋友。";
 
-
+"Time.TomorrowAt" = "明天 %@";
 
 "PeerInfo.ButtonMessage" = "发消息";
 "PeerInfo.ButtonDiscuss" = "讨论";
@@ -5348,7 +5348,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "PeerInfo.BioExpand" = "更多";
 
-
+"External.OpenIn" = "使用 %@ 打开";
 
 "ChatList.EmptyChatList" = "您还没有过对话。";
 
@@ -5393,8 +5393,8 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.LoadingTitle" = "正在准备统计";
 "Stats.LoadingText" = "正在生成统计数据图表，请稍等片刻。";
 
-
-
+"Stats.ZoomOut" = "缩小";
+"Stats.Total" = "总计";
 
 
 
@@ -5411,7 +5411,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.RemoveFolder" = "移除";
 "ChatList.ReorderTabs" = "排序";
 
-
+"ChatList.TabIconFoldersTooltipEmptyFolders" = "按住不放，用文件夹组织对话。";
 "ChatList.AddFolder" = "添加文件夹";
 "ChatList.EditFolders" = "编辑文件夹";
 "ChatList.FolderAllChats" = "全部对话";
@@ -5419,17 +5419,17 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.Tabs.All" = "全部";
 "Settings.ChatFolders" = "对话文件夹";
 "ChatList.ChatTypesSection" = "对话类型";
-
+"ChatList.PeerTypeNonContact" = "用户";
 "ChatList.PeerTypeContact" = "联系人";
 "ChatList.PeerTypeBot" = "机器人";
 "ChatList.PeerTypeGroup" = "群组";
 "ChatList.PeerTypeChannel" = "频道";
-"ChatListFolderSettings.Info" = "为对话创建不同的文件夹，并且可以在它们间迅速切换。";
+"ChatListFolderSettings.Info" = "为不同的对话创建文件夹，然后在它们之间快速切换。";
 
 "ChatListFolderSettings.Title" = "文件夹";
 "ChatListFolderSettings.FoldersSection" = "文件夹";
 "ChatListFolderSettings.NewFolder" = "创建新文件夹";
-"ChatListFolderSettings.EditFoldersInfo" = "点按 “编辑” 以对分组进行排序或删除。";
+"ChatListFolderSettings.EditFoldersInfo" = "点击“编辑”以更改顺序或删除文件夹。";
 "ChatListFolderSettings.RecommendedFoldersSection" = "推荐文件夹";
 "ChatListFolderSettings.RecommendedNewFolder" = "添加自定义文件夹";
 
@@ -5450,16 +5450,16 @@ Any member of this group will be able to see messages in the channel.";
 "ChatListFolder.IncludeSectionInfo" = "选择会出现在此文件夹中的对话和对话类型。";
 "ChatListFolder.ExcludedSectionHeader" = "排除的对话";
 "ChatListFolder.ExcludeSectionInfo" = "选择不会出现在此文件夹中的对话和对话类型。";
-
+"ChatListFolder.NameNonMuted" = "通知开启的";
 "ChatListFolder.NameUnread" = "未读";
 "ChatListFolder.NameChannels" = "频道";
 "ChatListFolder.NameContacts" = "联系人";
-
-
+"ChatListFolder.NameNonContacts" = "非联系人";
+"ChatListFolder.NameBots" = "机器人";
 "ChatListFolder.NameGroups" = "群组";
 "ChatListFolder.DiscardConfirmation" = "您已更改此文件夹。放弃更改？";
-
-
+"ChatListFolder.DiscardDiscard" = "放弃";
+"ChatListFolder.DiscardCancel" = "否";
 "ChatListFolder.IncludeChatsTitle" = "包括的对话";
 "ChatListFolder.ExcludeChatsTitle" = "排除的对话";
 
@@ -5481,8 +5481,8 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.ContextMenuDiscuss" = "讨论";
 
 "CreatePoll.ExplanationHeader" = "说明";
-"CreatePoll.Explanation" = "添加说明（可选）";
-"CreatePoll.ExplanationInfo" = "用户选择了错误的答案后会看到此文本，非常适合教育用途。";
+"CreatePoll.Explanation" = "添加评论（可选）";
+"CreatePoll.ExplanationInfo" = "用户选择了错误的答案后，会看到此文本，因此非常适合教育用途。";
 
 
 

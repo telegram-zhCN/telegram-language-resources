@@ -341,7 +341,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_loop_stickers" = "循环播放动态贴纸";
 "lng_settings_large_emoji" = "大号 Emoji";
 "lng_settings_view_emojis" = "显示列表";
-"lng_settings_send_enter" = "按 Enter 发送消息";
+"lng_settings_send_enter" = "按下 Enter 键就发送消息";
 "lng_settings_send_ctrlenter" = "按下 Ctrl+Enter 键才发送消息";
 "lng_settings_send_cmdenter" = "按 Cmd+Enter 发送消息";
 
@@ -603,7 +603,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_settings_blocked_users" = "已屏蔽的用户";
 "lng_settings_no_blocked_users" = "无";
-"lng_settings_show_sessions" = "显示所有活动会话";
+"lng_settings_show_sessions" = "显示所有设备";
 "lng_settings_export_data" = "导出 Telegram 数据";
 "lng_settings_destroy_if" = "如果离线时间超过...";
 "lng_settings_change_phone" = "更改手机号码";
@@ -627,8 +627,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sessions_header" = "当前设备";
 "lng_sessions_other_header" = "已登录的设备";
 "lng_sessions_other_desc" = "您可以用同一个手机号码在其它手机、平板和桌面设备上登录 Telegram，所有数据会即时同步。";
-"lng_sessions_terminate_all" = "将所有其他设备退出登录";
-"lng_sessions_terminate_all_about" = "注销除本设备之外的其他所有设备。";
+"lng_sessions_terminate_all" = "将其他设备退出登录";
+"lng_sessions_terminate_all_about" = "退出所有已登录的设备，只保留当前使用的。";
 "lng_sessions_incomplete" = "未完成的登录尝试";
 "lng_sessions_incomplete_about" = "这些设备无法获取你的消息。他们输入了正确的验证码，但是没有提供正确的两步验证密码。";
 
@@ -1329,7 +1329,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_skip_archive_in_search" = "隐藏已归档的搜索结果";
 "lng_dialogs_show_archive_in_search" = "显示已归档的搜索结果";
 
-"lng_about_dice" = "将 🎲 发送到任意对话来从 Telegram 获得一个随机数。";
+"lng_about_random" = "发送一个 {emoji} 来试试你的运气。";
+"lng_about_random_send" = "发送";
 
 "lng_open_this_link" = "打开此链接？";
 "lng_open_link" = "打开";
@@ -2112,7 +2113,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_contacts" = "联系人列表";
 "lng_export_option_contacts_about" = "如果您同意，您的联系人将会被即时同步至 Telegram。您可以在移动设备上的 设置 > 隐私和安全 中调整这一设置。";
 "lng_export_option_sessions" = "已登录的设备";
-"lng_export_option_sessions_about" = "我们储存活动会话信息以在 设置 > 隐私和安全 > 显示所有活动会话 中显示您已连接的设备。";
+"lng_export_option_sessions_about" = "我们在 设置 > 隐私和安全 > 显示所有设备 中储存您已连接设备的信息以便您查看。";
 "lng_export_header_other" = "其它";
 "lng_export_option_other" = "杂项数据";
 "lng_export_option_other_about" = "本表单没有提到的其他类型的数据（测试中的功能）。";
@@ -2168,8 +2169,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_about_telegram" = "这里是您请求的全部数据。请记住：Telegram 并不将您的数据用于广告定位也不出售您的数据。Telegram 只储存用于提供安全且功能丰富的云服务所需的信息。\n\n您可以在 Telegram 的移动应用的 设置 > 隐私和安全 中查找相关设置。";
 "lng_export_about_contacts" = "如果您授权，您的联系人将会被即时同步至 Telegram。有赖于此，您可以很轻松地把社交圈子带到 Telegram 上并在您的所有设备上与朋友聊天。我们使用您的联系人数据以在他们加入 Telegram 时提醒您，并使您看到通讯录中您给他们的标注而不是他们自己选择的昵称。\n\n您可以在移动设备上 Telegram 的 设置 > 隐私和安全 中关闭联系人同步功能或删除已同步的联系人数据。";
 "lng_export_about_frequent" = "该项评分用以显示您最近常联系的人。Telegram 使用这些数据来填充搜索部分顶部的“人脉”框。该项评分也会分析 Inline 机器人，以便软件可以在附件菜单中建议您最有可能使用的机器人（或者当您使用“@”开始新的消息时）。\n\n如果您要删除此项数据，请在移动设备上打开 设置 > 隐私和安全 并禁用“推荐常用联系人”功能（需要 Telegram iOS 客户端版本 v.4.8.3 或 Telegram Android 客户端版本 v.4.8.10 或更高版本）。";
-"lng_export_about_sessions" = "我们储存活动会话信息以在 设置 > 隐私和安全 > 显示所有活动会话 中显示您已连接的设备。";
-"lng_export_about_web_sessions" = "我们储存此项信息以显示您使用 Telegram 授权登录的所有网站。此项信息在在 设置 > 隐私和安全 > 显示所有活动会话 中显示。";
+"lng_export_about_sessions" = "我们在 设置 > 隐私和安全 > 显示所有设备 中储存您已连接设备的信息以便您查看。";
+"lng_export_about_web_sessions" = "我们储存您使用 Telegram 授权登录的网站信息以便您查看。此项信息显示于 设置 > 隐私和安全 > 显示所有设备。";
 "lng_export_about_chats" = "此页面列出所导出的所有聊天内容。";
 "lng_export_about_left_chats" = "下面的内容显示了在本次导出时，您退出或被封禁的所有超级群组及频道。\n\n请注意，在离开您创建的超级群组/频道时，您可以选择将它们删除，或选择仅退出（如此您便可以在之后重新加入，或者只是退出以使其继续存在）。";
 
@@ -2223,6 +2224,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_choose_question" = "请输入问题";
 "lng_polls_choose_answers" = "请输入至少两个候选项。";
 "lng_polls_choose_correct" = "请选择正确答案。";
+"lng_polls_solution_title" = "说明";
+"lng_polls_solution_placeholder" = "添加评论（可选）";
+"lng_polls_solution_about" = "用户选择了错误的答案后，会看到此文本，因此非常适合教育用途。";
 
 "lng_polls_poll_results_title" = "投票结果";
 "lng_polls_quiz_results_title" = "测验结果";
@@ -2270,7 +2274,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_filters_exclude_archived" = "已归档";
 "lng_filters_name_people" = "用户";
 "lng_filters_name_unread" = "未读";
-"lng_filters_name_unmuted" = "未禁用消息通知";
+"lng_filters_name_unmuted" = "通知开启的";
 "lng_filters_add" = "完成";
 "lng_filters_limit" = "抱歉，您无法创建更多文件夹。";
 "lng_filters_empty" = "请为此文件夹至少选择一个对话。";
@@ -2398,6 +2402,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_passport_in_uk" = "乌克兰语";
 "cloud_lng_passport_in_uz" = "乌兹别克语";
 "cloud_lng_passport_in_vi" = "越南语";
+"lng_about_dice" = "将 🎲 发送到任意对话来从 Telegram 获得一个随机数。";
 "lng_about_text_1" = "基于 [a href=\"https://core.telegram.org/api\"]Telegram API[/a] 的官方免费聊天应用，为快速和安全而生。";
 "lng_about_text_2" = "本软件基于 [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] version 3 协议 \n源代码托管于 [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a]";
 "lng_about_text_3" = "更多详情请前往 {faq_open}常见问题{faq_close} ";

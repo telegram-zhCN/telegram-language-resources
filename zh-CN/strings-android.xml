@@ -525,15 +525,15 @@
     <string name="SlowmodeInfoOff">选择每个成员在发送下一条消息之前必须等待的时间。</string>
     <string name="SlowmodeInfoSelected">成员每%1$s只能发一条消息。</string>
     <string name="SlowmodeSendError">慢速模式已启用。 您不能一次发送多条消息。</string>
-    <string name="SlowmodeSelectSendError">慢速模式已启用。 您不能选择更多项目。</string>
+    <string name="SlowmodeSelectSendError">慢速模式已启用。您无法选择更多。</string>
     <string name="SlowmodeSendErrorTooLong">抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。 您不能一次发送多条消息。</string>
     <!--polls-->
     <string name="NewPoll">发起投票</string>
     <string name="NewQuiz">发起测验</string>
     <string name="Poll">投票</string>
-    <string name="PollQuestion">问题</string>
+    <string name="PollQuestion">投票问题</string>
     <string name="QuestionHint">请输入问题</string>
-    <string name="AnswerOptions">候选项</string>
+    <string name="AnswerOptions">答案选项</string>
     <string name="QuizAnswers">测验答案</string>
     <string name="PollResults">投票结果</string>
     <string name="PollAnonymous">匿名投票</string>
@@ -1356,7 +1356,7 @@
     <string name="CustomThemes">自定义主题</string>
     <string name="ThemeSetUrl">设置公开链接</string>
     <string name="ThemeUrl">主题链接</string>
-    <string name="BubbleRadius">消息圆角大小</string>
+    <string name="BubbleRadius">对话气泡圆角大小</string>
     <string name="ChatList">对话列表样式</string>
     <string name="ChatListDefault">双行</string>
     <string name="ChatListExpanded">三行</string>
@@ -1443,7 +1443,7 @@
     <string name="TextSizeHeader">消息文字大小</string>
     <string name="AskAQuestion">向我们提问</string>
     <string name="AddAnExplanation">添加说明</string>
-    <string name="AddAnExplanationInfo">用户选择了错误的答案后会看到此文本，非常适合教育用途。</string>
+    <string name="AddAnExplanationInfo">用户选择了错误的答案后，会看到此文本，因此非常适合教育用途。</string>
     <string name="EnableAnimations">动画切换效果</string>
     <string name="ChatSettings">对话设置</string>
     <string name="Devices">设备</string>
@@ -1555,7 +1555,7 @@
     <string name="LoadingFullImage">正在加载完整图片...</string>
     <string name="SetColor">设置纯色背景</string>
     <string name="MessagesSettings">消息设置</string>
-    <string name="SendByEnter">使用回车键发送消息</string>
+    <string name="SendByEnter">按下 Enter 键就发送消息</string>
     <string name="Events">事件</string>
     <string name="ContactJoined">联系人加入 Telegram</string>
     <string name="PinnedMessages">消息置顶</string>
@@ -2037,12 +2037,12 @@
     <string name="TerminateSessionInfo">点击一个会话来注销它。</string>
     <string name="TerminateSessionQuestion">注销此会话？</string>
     <string name="TerminateSessionText">您确定要结束该会话吗？</string>
-    <string name="ClearOtherSessionsHelp">注销除本设备之外的其他所有设备。</string>
+    <string name="ClearOtherSessionsHelp">退出所有已登录的设备，只保留当前使用的。</string>
     <string name="AreYouSureSessionsTitle">终止活动会话</string>
     <string name="AreYouSureSessionTitle">结束会话</string>
     <string name="Terminate">结束</string>
     <string name="AreYouSureSessions">您确定要将所有其他设备退出登录吗？</string>
-    <string name="TerminateAllSessions">将所有其他设备退出登录</string>
+    <string name="TerminateAllSessions">将其他设备退出登录</string>
     <string name="UnofficialApp">非官方应用</string>
     <string name="NoOtherWebSessions">没有活动的第三方登录</string>
     <string name="NoOtherWebSessionsInfo">您可以在在支持的网站上使用 Telegram 登录。</string>
@@ -2129,7 +2129,7 @@
     <string name="FilterRemoveInclusionUserText">您确定要从包括的对话中移除“%1$s”吗？</string>
     <string name="FilterAvailableTitle">对话文件夹</string>
     <string name="FilterAvailableText">打开 *设置 &gt; 文件夹*，将对话整理到文件夹中。</string>
-    <string name="FilterNameNonMuted">未禁用消息通知</string>
+    <string name="FilterNameNonMuted">通知开启的</string>
     <string name="FilterNameUnread">未读</string>
     <!--passcode view-->
     <string name="Passcode">锁定码</string>
