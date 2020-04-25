@@ -775,6 +775,7 @@
 "Stickers.SearchAdd" = "Add";
 "Stickers.Context.Archive" = "Archive";
 
+"Stickers.SearchAdded" = "Added";
 
 "Stickers.Confirm.ClearRecentHeader" = "Clear Recent Stickers";
 "Stickers.Confirm.ClearRecentText" = "Are you sure you want to clear recent stickers?";
@@ -3911,9 +3912,16 @@
 
 "ChannelStats.Recent.Header" = "TOP RECENT POSTS";
 
-"Chat.Dice.ResultNew" = "Send a %@ emoji to any chat to get a random number from Telegram.";
+"Chat.Emoji.Dice.ResultNew" = "Send a dice emoji to roll a die.";
+"Chat.Emoji.Dart.ResultNew" = "Send a dart emoji to try your luck.";
+"Chat.Emoji.Def.ResultNew" = "Send a %@ emoji to try your luck.";
+"Chat.Emoji.Send" = "Send";
 
 "Channel.Stats.Loading" = "**Preparing stats**\nPlease wait a few moments while we generate your stats";
+
+
+"GroupInfo.AddUserLeftError" = "Sorry, if a person left a group, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
+"ChannelInfo.AddUserLeftError" = "Sorry, if a person left a channel, only a mutual contact can bring them back (they need to have your phone number, and you need theirs).";
 
 
 "GeneralSettings.ShortcutsHeader" = "SHORTCUTS";
@@ -4190,6 +4198,7 @@
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Confirm.DeleteMessages" = "Delete selected messages?";
 "Chat.Dice.Result" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
+"Chat.Dice.ResultNew" = "Send a %@ emoji to any chat to get a random number from Telegram.";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
 "Chat.Message.UnsendMessages" = "Unsend my messages";
 "Chat.Poll.TotalVotes_zero" = "%d users voted";

@@ -2152,7 +2152,7 @@
 
 
 "Stickers.Install" = "添加";
-
+"Stickers.Installed" = "已添加";
 
 "MaskStickerSettings.Title" = "装饰";
 "MaskStickerSettings.Info" = "你可以在要发送的图片或视频里添加装饰——只需在发送前打开图片编辑器进行编辑即可。";
@@ -3890,7 +3890,7 @@ Unused sets are archived when you add more.";
 "Channel.EditAdmin.PermissionEnabledByDefault" = "已在群组默认权限中启用该项。";
 
 "GroupPermission.EditingDisabled" = "您不能编辑该用户的权限。";
-
+"GroupPermission.PermissionDisabledByDefault" = "在群组权限中，所有成员被设置为没有此权限。";
 
 "Channel.Management.RemovedBy" = "被 %@ 封禁";
 
@@ -4554,44 +4554,44 @@ Any member of this group will be able to see messages in the channel.";
 "VoiceOver.Editing.ClearText" = "清除文字";
 "VoiceOver.Recording.StopAndPreview" = "停止并预览";
 "VoiceOver.Media.PlaybackRate" = "播放速度";
-
-
+"VoiceOver.Media.PlaybackRateNormal" = "正常";
+"VoiceOver.Media.PlaybackRateFast" = "快速";
 "VoiceOver.Media.PlaybackRateChange" = "双击更改";
 "VoiceOver.Media.PlaybackStop" = "停止播放";
 "VoiceOver.Media.PlaybackPlay" = "播放";
 "VoiceOver.Media.PlaybackPause" = "暂停";
-
+"VoiceOver.Navigation.Compose" = "组成";
 "VoiceOver.Navigation.Search" = "搜索";
 "VoiceOver.Navigation.ProxySettings" = "代理设置";
-
+"VoiceOver.DiscardPreparedContent" = "放弃";
 "VoiceOver.AttachMedia" = "发送媒体";
-
-
-
-
-
+"VoiceOver.Chat.RecordPreviewVoiceMessage" = "预览语音留言";
+"VoiceOver.Chat.RecordModeVoiceMessage" = "语音留言";
+"VoiceOver.Chat.RecordModeVoiceMessageInfo" = "双击并按住以录制语音信息。 上滑动置顶录音，左滑取消。 双击切换到视频。";
+"VoiceOver.Chat.RecordModeVideoMessage" = "视频留言";
+"VoiceOver.Chat.RecordModeVideoMessageInfo" = "双击并按住以录制视频消息。向上滑动以保持录制，向左滑动来取消。双击可切换至语音。";
 "VoiceOver.Chat.Message" = "信息";
-
-
+"VoiceOver.Chat.YourMessage" = "您的消息";
+"VoiceOver.Chat.ReplyFrom" = "回复 %@ 的消息";
 
 "VoiceOver.Chat.ReplyToYourMessage" = "回复您的信息";
-
-
-
+"VoiceOver.Chat.ForwardedFrom" = "转发来自: %@";
+"VoiceOver.Chat.ForwardedFromYou" = "从您转发";
+"VoiceOver.Chat.PhotoFrom" = "照片，来自: %@";
 "VoiceOver.Chat.Photo" = "照片";
-
-
+"VoiceOver.Chat.YourPhoto" = "您的照片";
+"VoiceOver.Chat.VoiceMessageFrom" = "语音留​​言，来自: %@";
 "VoiceOver.Chat.VoiceMessage" = "语音信息";
-
+"VoiceOver.Chat.YourVoiceMessage" = "您的语音留​​言";
 "VoiceOver.Chat.MusicFrom" = "音乐文件，来自: %@";
-
-
-
+"VoiceOver.Chat.Music" = "音乐消息";
+"VoiceOver.Chat.YourMusic" = "您的音乐消息";
+"VoiceOver.Chat.VideoFrom" = "视频，来自: %@";
 "VoiceOver.Chat.Video" = "视频";
-
-
-
-
+"VoiceOver.Chat.YourVideo" = "您的视频";
+"VoiceOver.Chat.VideoMessageFrom" = "视频留言，来自: %@";
+"VoiceOver.Chat.VideoMessage" = "视频留言";
+"VoiceOver.Chat.YourVideoMessage" = "您的视频留言";
 "VoiceOver.Chat.FileFrom" = "文件，来自: %@";
 "VoiceOver.Chat.File" = "文件";
 "VoiceOver.Chat.YourFile" = "你的文件";
@@ -4602,40 +4602,40 @@ Any member of this group will be able to see messages in the channel.";
 "VoiceOver.Chat.ContactPhoneNumber" = "手机号码";
 
 "VoiceOver.Chat.ContactEmailCount_any" = "%@ 电邮地址";
-
-
-
+"VoiceOver.Chat.ContactEmail" = "电邮";
+"VoiceOver.Chat.ContactOrganization" = "组织: %@";
+"VoiceOver.Chat.YourContact" = "您的共享联系人";
 "VoiceOver.Chat.AnonymousPollFrom" = "匿名投票，来自: %@";
 "VoiceOver.Chat.AnonymousPoll" = "匿名投票";
 "VoiceOver.Chat.YourAnonymousPoll" = "您的匿名投票";
 
-
+"VoiceOver.Chat.PollOptionCount_any" = "%@ 个选项:";
 
 "VoiceOver.Chat.PollVotes_any" = "%@ 人投票";
 "VoiceOver.Chat.PollNoVotes" = "没人投票";
 "VoiceOver.Chat.PollFinalResults" = "最终结果";
 "VoiceOver.Chat.OptionSelected" = "已选";
 "VoiceOver.Chat.PagePreview" = "页面预览";
+"VoiceOver.Chat.Title" = "标题: %@";
+"VoiceOver.Chat.Caption" = "字幕: %@";
+"VoiceOver.Chat.Duration" = "时长: %@";
 
-
-
-
-
+"VoiceOver.Chat.MusicTitle" = "%1$@ , %2$@";
 "VoiceOver.Chat.PlayHint" = "双击以播放";
-
-
-
-
+"VoiceOver.Chat.OpenHint" = "双击可打开";
+"VoiceOver.Chat.OpenLinkHint" = "双击可打开链接";
+"VoiceOver.Chat.SeenByRecipient" = "接收者已看";
+"VoiceOver.Chat.SeenByRecipients" = "接收者已看";
 "VoiceOver.Chat.Selected" = "已选";
 "VoiceOver.MessageContextDelete" = "删除";
-
+"VoiceOver.MessageContextReport" = "举报";
 "VoiceOver.MessageContextForward" = "转发";
 "VoiceOver.MessageContextShare" = "分享";
 "VoiceOver.MessageContextSend" = "发送";
 "VoiceOver.MessageContextReply" = "回复";
+"VoiceOver.MessageContextOpenMessageMenu" = "打开消息菜单";
 
-
-
+"ProxyServer.VoiceOver.Active" = "活跃";
 
 "Conversation.ScheduleMessage.Title" = "定时消息";
 "Conversation.ScheduleMessage.SendToday" = "在今天 %@ 时发送";
@@ -5050,11 +5050,11 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.ScheduleMessage.SendWhenOnline" = "当上线时发送";
 "ScheduledMessages.ScheduledOnline" = "当上线时发送";
 
-
-
+"Conversation.SwipeToReplyHintTitle" = "滑动回复";
+"Conversation.SwipeToReplyHintText" = "在任何消息上向左滑动即可回复。";
 
 "TwoFactorSetup.Intro.Title" = "额外的密码";
-
+"TwoFactorSetup.Intro.Text" = "您可以设置一个密码\n除了通过SMS获得的验证码外，在新设备上登录时还需要此密码。";
 "TwoFactorSetup.Intro.Action" = "设置一个附加密码";
 
 "TwoFactorSetup.Password.Title" = "设置密码";
@@ -5079,7 +5079,7 @@ Any member of this group will be able to see messages in the channel.";
 "TwoFactorSetup.EmailVerification.ResendAction" = "重发验证码";
 
 "TwoFactorSetup.Hint.Title" = "提示";
-
+"TwoFactorSetup.Hint.Text" = "您可以选择为您的密码创建一个提示。";
 "TwoFactorSetup.Hint.Placeholder" = "密码提示（可选）";
 "TwoFactorSetup.Hint.Action" = "继续";
 "TwoFactorSetup.Hint.SkipAction" = "跳过设置密码提示";
@@ -5129,7 +5129,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "GroupInfo.ShowMoreMembers_any" = "显示另外 %@ 位成员";
 
-
+"ContactInfo.Note" = "注解";
 
 "Group.Location.CreateInThisPlace" = "在该位置创建群组";
 
@@ -5182,9 +5182,9 @@ Any member of this group will be able to see messages in the channel.";
 "AuthSessions.AddedDeviceTerminate" = "终止";
 
 "Map.SendThisPlace" = "发送此位置";
-
-
-
+"Map.SetThisPlace" = "设置此地点";
+"Map.AddressOnMap" = "地图上的地址";
+"Map.PlacesNearby" = "附近的地点";
 "Map.Home" = "家";
 "Map.Work" = "工作";
 "Map.HomeAndWorkTitle" = "家 & 工作地址";
@@ -5218,7 +5218,7 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.RemoveThemeColorConfirmation" = "移除颜色";
 
 "WallpaperPreview.PatternTitle" = "选择图案";
-
+"WallpaperPreview.PatternPaternDiscard" = "放弃";
 "WallpaperPreview.PatternPaternApply" = "应用";
 
 "ChatContextMenu.TextSelectionTip" = "按住消息中的文字，移动光标选择完毕之后即可复制。";
@@ -5228,7 +5228,7 @@ Any member of this group will be able to see messages in the channel.";
 "OldChannels.NoticeText" = "抱歉，您加入了太多群组和频道。请在加入新的之前退出一些。";
 "OldChannels.NoticeCreateText" = "抱歉，您加入了过多的群组和频道。\n请退出一些再创建新的。";
 "OldChannels.NoticeUpgradeText" = "抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。";
-
+"OldChannels.ChannelsHeader" = "最不活跃";
 
 "OldChannels.Leave_any" = "离开%@ 对话";
 
@@ -5251,7 +5251,7 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.ShareThemeColor" = "分享";
 
 "Theme.ThemeChanged" = "多彩主题已修改。";
-
+"Theme.ThemeChangedText" = "您可以在 [设置>外观]() 中将它改回来。";
 
 "StickerPackActionInfo.AddedTitle" = "贴纸已添加";
 "StickerPackActionInfo.AddedText" = "%@ 已被添加到您的贴纸包中。";
@@ -5305,7 +5305,7 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.BubbleCorners.AdjustAdjacent" = "调整对话气泡圆角大小";
 "Appearance.BubbleCorners.Apply" = "设置";
 
-
+"Conversation.LiveLocationYouAndOther" = "**您**与 %@";
 
 "PeopleNearby.MakeVisible" = "使自己可被看见";
 "PeopleNearby.MakeInvisible" = "停止显示我";
@@ -5317,7 +5317,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "PeopleNearby.ShowMorePeople_any" = "显示其他 %@ 人";
 
-
+"PeopleNearby.VisibleUntil" = "可见，直到 %@";
 
 "PeopleNearby.MakeVisibleTitle" = "显示您的个人资料？";
 
@@ -5334,7 +5334,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.ButtonMore" = "更多";
 "PeerInfo.ButtonAddMember" = "添加成员";
 "PeerInfo.ButtonSearch" = "搜索";
-
+"PeerInfo.ButtonLeave" = "退出";
 
 "PeerInfo.PaneMedia" = "媒体";
 "PeerInfo.PaneFiles" = "文件";
@@ -5351,8 +5351,8 @@ Any member of this group will be able to see messages in the channel.";
 "External.OpenIn" = "使用 %@ 打开";
 
 "ChatList.EmptyChatList" = "您还没有过对话。";
-
-
+"ChatList.EmptyChatListFilterTitle" = "没有对话";
+"ChatList.EmptyChatListFilterText" = "当前没有对话属于此文件夹。";
 
 "ChatList.EmptyChatListNewMessage" = "新建对话";
 "ChatList.EmptyChatListEditFilter" = "编辑文件夹";
@@ -5401,7 +5401,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"InstantPage.Views_any" = "%@ 次浏览";
 "InstantPage.FeedbackButtonShort" = "布局错误？";
 
 "ChatList.EditFolder" = "编辑文件夹";
@@ -5410,7 +5410,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.RemoveFolderAction" = "移除";
 "ChatList.RemoveFolder" = "移除";
 "ChatList.ReorderTabs" = "排序";
-
+"ChatList.TabIconFoldersTooltipNonEmptyFolders" = "长按“对话”标签可编辑文件夹及切换到其他文件夹页面。";
 "ChatList.TabIconFoldersTooltipEmptyFolders" = "按住不放，用文件夹组织对话。";
 "ChatList.AddFolder" = "添加文件夹";
 "ChatList.EditFolders" = "编辑文件夹";
@@ -5474,9 +5474,9 @@ Any member of this group will be able to see messages in the channel.";
 
 "MuteFor.Forever" = "永久关闭通知";
 
-
-
-
+"Conversation.Dice.u1F3B2" = "发送一个骰子 Emoji 到任何对话以掷骰子。";
+"Conversation.Dice.u1F3AF" = "发送一个飞镖 emoji 来试试您的运气。";
+"Conversation.SendDice" = "发送";
 
 "Conversation.ContextMenuDiscuss" = "讨论";
 
@@ -5484,7 +5484,17 @@ Any member of this group will be able to see messages in the channel.";
 "CreatePoll.Explanation" = "添加评论（可选）";
 "CreatePoll.ExplanationInfo" = "用户选择了错误的答案后，会看到此文本，因此非常适合教育用途。";
 
+"FeaturedStickers.OtherSection" = "其他贴纸";
 
+"ChatList.GenericPsaAlert" = "这会在您的对话列表中提供公共服务公告。";
+"ChatList.PsaAlert.covid" = "此信息向您提供正在发生的流行病相关公共服务公告。您可在 https://telegram.org/blog/coronavirus 了解有关此计划的更多信息";
+"ChatList.GenericPsaLabel" = "PSA";
+"ChatList.PsaLabel.covid" = "新冠肺炎 (COVID-19)";
+"Chat.GenericPsaTooltip" = "这是一个公共服务公告";
+"Chat.PsaTooltip.covid" = "此信息向您提供正在发生的流行病相关公共服务公告。您可在 https://telegram.org/blog/coronavirus 了解有关此计划的更多信息";
+
+"Message.GenericForwardedPsa" = "公共服务公告\n来自: %@";
+"Message.ForwardedPsa.covid" = "新冠肺炎通知\n来自: %@";
 
 
 /* new from translations.telegram.org */
@@ -5589,6 +5599,7 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.AttachmentLimitExceeded" = "抱歉，您无法一次选择更多的项目。";
 "ChatList.EmptyChatFilterList" = "空文件夹";
 "Conversation.Dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
+"Conversation.Dice." = "发送一个骰子 Emoji 到任何对话以掷骰子。";
 "DataUpgrade.Running" = "正在优化...";
 "ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
 "ENCRYPTION_ACCEPT" = "您的加密对话请求已被接受 %1$@";
@@ -5596,6 +5607,7 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ShortLinkInfo" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用小写字母 a-z 、数字 0-9 和下划线 _ 。";
 "EditTheme.ThemeTemplateAlert" = "新主题已添加\n\n按住主题进行编辑或获取分享链接。 每次更改主题后，安装主题的用户都会自动获得更新。\n\n为了进行高级编辑，可以在“已保存的消息”中找到带有主题的文件。";
 "EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
+"ForwardedDices_any" = "%@ 个转发的骰子";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";

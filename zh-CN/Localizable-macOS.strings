@@ -95,10 +95,10 @@
 "PeerInfo.Administrators" = "管理员";
 
 
+"PeerInfo.Action.Mute" = "静音";
+"PeerInfo.Action.Unmute" = "取消静音";
 
-
-
-
+"PeerInfo.Action.Call" = "通话";
 
 
 
@@ -109,7 +109,7 @@
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？";
 
 
-
+"PeerInfo.ShowMore" = "显示更多";
 "PeerInfo.LeaveGroup" = "退出群组";
 
 "PeerInfo.StopBot" = "停止使用";
@@ -287,7 +287,7 @@
 "Message.Context.Goto" = "显示消息";
 "Message.Context.Pin" = "置顶";
 
-
+"Message.Context.Report.AlertOK" = "非常感谢！\n我们会尽快核查您的举报。";
 
 
 "Message.Context.Confirm.Pin1" = "您确定要置顶此消息吗？";
@@ -354,7 +354,7 @@
 "Chat.Message.edited" = "已编辑";
 
 
-
+"Chat.Input.Error.MessageTooLong_countable" = "%d";
 
 
 
@@ -396,12 +396,12 @@
 "Login.codePlaceholder" = "验证码";
 
 
-
-
-
-
-
-
+"Login.QR.Title" = "扫描二维码以登录";
+"Login.QR.Help1" = "在您的手机上打开 Telegram";
+"Login.QR.Help2" = "转到**设置** > **设备** >** 扫描二维码**";
+"Login.QR.Help3" = "扫描此图片以登录";
+"Login.QR.Cancel" = "或使用您的手机号码登录";
+"Login.QR.Login" = "使用二维码快速登录";
 
 "Login.EnterCodeFromApp" = "请输入您从其他 Telegram 客户端收到的验证码。";
 "Login.SendSmsIfNotReceivedAppCode" = "没有收到验证码？";
@@ -540,7 +540,7 @@
 "Channel.ChannelNameHolder" = "频道名称";
 
 "Channel.DescriptionHolder" = "简介";
-
+"Channel.DescHeader" = "描述";
 "Channel.DescriptionHolderDescrpiton" = "您可以给您的频道添加一段简介。";
 
 
@@ -778,6 +778,7 @@
 
 
 
+"Stickers.Confirm.ClearRecentText" = "确定要清空最近使用的表情？";
 
 
 
@@ -930,7 +931,7 @@
 "ReportReason.Copyright" = "侵犯版权";
 
 
-
+"ReportReason.Report" = "举报";
 
 
 "PeerInfo.ChannelReported" = "Thank you! Your report will be reviewed by our team soon.";
@@ -1638,7 +1639,7 @@
 "Bio.Placeholder" = "您的自我介绍";
 "Bio.Description" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
 "Bio.Save" = "保存";
-
+"Bio.Header" = "简介";
 
 "ServiceMessage.ExpiredPhoto" = "图片已自毁";
 "ServiceMessage.ExpiredFile" = "文件已自毁";
@@ -1927,7 +1928,7 @@
 
 //"ChatList.Context.PinError" = "Sorry, you can pin no more than 5 chats to the top.";
 "ChatList.Context.PinErrorNew2" = "抱歉，在主对话列表中，您只能将 5 个对话置顶。但是，在“对话文件夹”和“已归档对话”中，则可以将更多对话置顶。";
-
+"ChatList.Context.PinErrorNew.SetupFolders" = "设置文件夹";
 
 
 "Storage.ClearAll" = "全部清除";
@@ -1961,8 +1962,8 @@
 "AppearanceSettings.ChatPreview.FirstText" = "啊，这年头你们这群小屁孩肯定只听过电音！你们真应该听听古典音乐，比如哈塞尔霍夫！";
 "AppearanceSettings.ChatPreview.SecondText" = "老兄，我现在都无法直视你了。";
 
-
-
+"AppearanceSettings.ChatPreview.1" = "早上好！👋";
+"AppearanceSettings.ChatPreview.2" = "你知道现在几点吗？";
 "AppearanceSettings.ChatPreview.3" = "现在是东京的早晨😎";
 
 
@@ -2426,8 +2427,8 @@
 "PrivacyAndSecurity.ClearCloudDraftsHeader" = "对话窗口";
 "PrivacyAndSecurity.ClearCloudDrafts" = "删除所有云端草稿";
 
-
-
+"PrivacyAndSecurity.SensitiveHeader" = "敏感内容";
+"PrivacyAndSecurity.SensitiveText" = "关闭过滤";
 
 
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "您确定要清空所有草稿吗？";
@@ -2610,7 +2611,7 @@
 "Alert.Confirm.Stop" = "停止";
 
 "Appearance.Settings.AutoNight" = "自动启用夜间模式";
-
+"Appearance.Settings.AutoNightHeader" = "自动启用夜间模式";
 
 
 "SecureId.Error.ScansLimit" = "您同时最多只能上传二十个文件。";
@@ -2769,7 +2770,7 @@
 "UnknownError" = "出现未知错误，请稍后再试。";
 
 
-
+"Chat.Poll.TotalVotes1_countable" = "%d";
 
 
 
@@ -2826,7 +2827,7 @@
 "Chat.Poll.Stop.Confirm.Header" = "终止投票？";
 "Chat.Poll.Stop.Confirm.Text" = "如果您现在终止它，其他人将无法继续投票。这个操作无法撤销。";
 
-
+"Chat.Poll.ViewResults" = "查看结果";
 "Chat.Poll.SubmitVote" = "投票";
 
 "Chat.Quiz.Stop" = "停止测验";
@@ -2894,7 +2895,7 @@
 
 "PollResults.Title.Quiz" = "测验结果";
 
-
+"PollResults.LoadMore_countable" = "%d";
 
 
 
@@ -3029,7 +3030,7 @@
 
 
 
-
+"Chat.UndoManager.ChatsArchived_other" = "%d 个对话已归档";
 
 
 "Chat.UndoManager.ChatLeft_countable" = "%d";
@@ -3338,7 +3339,7 @@
 
 
 "Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "您想让 %@ 成为 %@ 的讨论版吗？";
-
+"Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.ChannelPrivateGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群组？\n\n群组成员将可以看到频道上的所有消息。";
 
 "DiscussionController.Channel.Set.Header" = "一个指向 **%@** 的链接正在底部面板中向所有订阅者显示。";
@@ -3436,11 +3437,11 @@
 
 "Channel.Permissions.SlowMode.Header" = "慢速模式";
 
-
+"Channel.SlowMode.ToolTip" = "慢速模式已启用\n您可以在 %@:%@后发送消息";
 
 
 "SlowMode.ForwardComment.Error" = "慢速模式已启用，您不能在转发消息的同时评论。";
-
+"SlowMode.TooLong.Error" = "慢速模式已启用。此条消息超过了单条消息长度限制。";
 
 
 "SlowMode.PreviewSender.FileTooltip" = "慢速模式已启用。\n您不能一次发送多个文件。";
@@ -3506,11 +3507,11 @@
 
 
 
+"Create.ChannelsTooMuch" = "抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。";
+"Upgrade.ChannelsTooMuch" = "抱歉，您加入了太多的群组和频道。由于技术原因，您需要退出一些才能在您的群组中更改该设置。";
+"Invite.ChannelsTooMuch" = "抱歉，目标用户已加入太多的群组和频道。请先让他们退出一些。";
 
-
-
-
-
+"Join.InactiveChannels" = "不活跃的聊天";
 "Chat.Scheduled.InlineButton.Error" = "发送消息后，按钮将立即激活。";
 
 
@@ -3540,7 +3541,7 @@
 "Appearance.Theme.Remove" = "删除";
 "Appearance.Theme.Edit" = "编辑";
 "Appearance.NewTheme" = "新建主题";
-
+"Appearance.Reset" = "恢复默认";
 "Appearance.ExportTheme" = "导出主题";
 "Appearance.Theme.Share" = "分享";
 "Appearance.CloudThemes" = "云端主题";
@@ -3566,7 +3567,7 @@
 
 "Appearance.Confirm.RemoveTitle" = "主题";
 "Appearance.Confirm.RemoveText" = "您确定要删除这个主题吗？";
-
+"Appearance.Confirm.RemoveOK" = "移除";
 
 
 "Chat.Action.ViewTheme" = "预览主题";
@@ -3586,8 +3587,11 @@
 
 
 
+"SelectPeers.Title.SelectChat" = "选择对话";
+"SelectPeers.Title.SearchMembers" = "搜索成员";
 
 
+"ChatList.Mute.1Hour" = "1 小时";
 
 
 
@@ -3647,6 +3651,7 @@
 
 
 
+"SettingsSearch.Synonyms.Privacy.TwoStepAuth" = "密码";
 
 
 
@@ -3659,6 +3664,7 @@
 
 
 
+"SettingsSearch.Synonyms.Data.Storage.Title" = "缓存\n存储";
 
 
 
@@ -3672,18 +3678,13 @@
 
 
 
+"SettingsSearch.Synonyms.Proxy.Title" = "SOCKS5\nMTProto\nmtproxy\nmt\nmtp\nsocks";
 
 
 
 
 
-
-
-
-
-
-
-
+"SettingsSearch.Synonyms.Appearance.ChatBackground" = "壁纸\n墙纸\n背景";
 
 
 
@@ -3735,7 +3736,7 @@
 
 "InactiveChannels.Title" = "达到上限";
 
-
+"InactiveChannels.Header" = "最不活跃";
 "InactiveChannels.BlockHeader" = "过多的群组和频道";
 
 
@@ -3753,23 +3754,23 @@
 
 
 
-
+"ChatList.Filter.List.AddNew" = "创建新文件夹";
 "ChatList.Filter.List.Title" = "对话文件夹";
 
+"ChatList.Filter.Title" = "文件夹";
+"ChatList.Filter.NewTitle" = "新建文件夹";
+"ChatList.Filter.Done" = "创建";
+
+
+
+"ChatList.Filter.AddChats" = "添加对话";
+"ChatList.Filter.EditFilters" = "编辑文件夹";
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+"ChatList.Filter.ShowMore_countable" = "%d";
 
 
 
@@ -3778,6 +3779,7 @@
 "ChatList.Filter.ShowMore_other" = "显示另外 %d 个对话";
 
 
+"ChatList.Filter.Hide_countable" = "%d";
 
 
 
@@ -3786,26 +3788,25 @@
 
 
 
+"ChatList.Filter.SetupEmpty" = "新建文件夹";
 
+"ChatList.Filter.All" = "全部";
+"ChatList.Filter.Contacts" = "联系人";
+"ChatList.Filter.NonContacts" = "非联系人";
+"ChatList.Filter.Groups" = "群组";
 
-
-
-
-
-
-
-
-
-
+"ChatList.Filter.SecretChat" = "加密对话";
+"ChatList.Filter.Channels" = "频道";
+"ChatList.Filter.Bots" = "机器人";
 "ChatList.Filter.MutedChats" = "已禁用消息通知";
+"ChatList.Filter.ReadChats" = "已读";
 
 
 
 
 
 
-
-
+"ChatList.Filter.Recommended.Header" = "推荐文件夹";
 "ChatList.Filter.Header" = "为不同的对话创建文件夹，然后在它们之间快速切换。";
 
 
@@ -3817,13 +3818,13 @@
 
 
 
+"ChatList.Add.TopSeparator" = "对话类型";
 
 
 
 
 
-
-
+"ChatList.Filter.Empty" = "**当前没有对话属于此文件夹。**\n\n[编辑文件夹](filter)";
 
 
 
@@ -3836,7 +3837,7 @@
 
 
 "ChatList.Filter.Include.Header" = "包括的对话";
-
+"ChatList.Filter.Include.RemoveChat" = "移除";
 
 
 
@@ -3848,8 +3849,8 @@
 
 
 
-
-
+"ChatList.Filter.Name.Header" = "文件夹名";
+"ChatList.Filter.Name.Placeholder" = "文件夹名";
 
 
 
@@ -3865,24 +3866,24 @@
 "ChatList.Filter.Tilte.Default.Unmuted" = "通知开启的";
 "ChatList.Filter.Tilte.Default.Unread" = "未读";
 "ChatList.Filter.Tilte.Default.Channels" = "频道";
-
+"ChatList.Filter.Tilte.Default.Groups" = "群组";
 "ChatList.Filter.Tilte.Default.Bots" = "机器人";
-
+"ChatList.Filter.Tilte.Default.Contacts" = "联系人";
 "ChatList.Filter.Tilte.Default.NonContacts" = "非联系人";
 
 
 
 
+"ChannelStats.ViewsCount_countable" = "%d";
 
 
 
 
 
+"ChannelStats.ViewsCount_other" = "%d 次浏览";
 
 
-
-
-
+"ChannelStats.SharesCount_countable" = "%d";
 
 
 
@@ -3913,7 +3914,14 @@
 
 
 
+
+
+
 "Channel.Stats.Loading" = "**正在准备统计**\n在我们为您生成统计图表时，请稍等片刻。";
+
+
+
+
 
 
 

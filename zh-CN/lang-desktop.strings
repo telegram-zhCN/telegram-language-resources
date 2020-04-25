@@ -182,12 +182,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_intro_qr_title" = "通过移动端 Telegram 应用扫描二维码";
 "lng_intro_qr_step1" = "在您的手机上打开 Telegram";
 "lng_intro_qr_step2" = "转到设置 > 设备 > 扫描二维码";
-"lng_intro_qr_step3" = "请扫描此图像以登录";
-"lng_intro_qr_skip" = "或使用手机号码登录";
+"lng_intro_qr_step3" = "扫描此图片以登录";
+"lng_intro_qr_skip" = "或使用您的手机号码登录";
 
 "lng_phone_title" = "您的手机号码";
 "lng_phone_desc" = "请确认您的国家代码，\n并输入您的手机号码。";
-"lng_phone_to_qr" = "扫描二维码快速登录";
+"lng_phone_to_qr" = "使用二维码快速登录";
 "lng_country_code" = "国家代码";
 "lng_bad_country_code" = "无效的国家代码";
 "lng_country_ph" = "搜索";
@@ -250,7 +250,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dlg_new_channel_name" = "频道名称";
 "lng_no_contacts" = "您还没有任何联系人";
 "lng_no_chats" = "您的对话将在此处显示";
-"lng_no_chats_filter" = "当前没有对话属于该文件夹。";
+"lng_no_chats_filter" = "当前没有对话属于此文件夹。";
 "lng_contacts_loading" = "加载中...";
 "lng_contacts_not_found" = "未找到任何联系人";
 "lng_dlg_search_for_messages" = "搜索消息";

@@ -436,7 +436,7 @@
     <string name="EditCantEditPermissionsPublic">此权限不能在公开群组中开放。</string>
     <string name="UserRemovedBy">被 %1$s 封禁</string>
     <string name="UserRestrictions">用户权限</string>
-    <string name="UserRestrictionsDisabled">该项已在群组默认权限中被禁用。</string>
+    <string name="UserRestrictionsDisabled">在群组权限中，所有成员被设置为没有此权限。</string>
     <string name="UserRestrictionsCanDo">这位用户可以做什么？</string>
     <string name="UserRestrictionsRead">查看消息</string>
     <string name="UserRestrictionsSend">发送消息</string>
@@ -973,7 +973,7 @@
     <string name="TextSelectionHit">按住消息中的**文字**，移动光标选择完毕之后即可复制。</string>
     <string name="CardNumberCopied">银行卡号已复制到剪切板</string>
     <string name="CopyCardNumber">赋值</string>
-    <string name="DiceInfo2">发送一个 **:dice:** 到任意对话来掷骰。</string>
+    <string name="DiceInfo2">发送一个 **:dice:** Emoji 到任何对话以掷骰子。</string>
     <string name="DartInfo">发送一个 **:darts:** 来试试你的运气。</string>
     <string name="DiceEmojiInfo">发送一个 %1$s 来试试你的运气。</string>
     <string name="SendDice">发送</string>Send a dart emoji
@@ -1571,8 +1571,8 @@
     <string name="LanguageUnknownCustomAlert">很遗憾，此自定义语言包（**%1$s**）不包含 Telegram Android 版所需的数据。</string>
     <string name="AskAQuestionInfo">请注意，Telegram 的支持服务由全球志愿者提供，反馈时请使用英文。我们会尽快回复，但仍然需要一点时间。\n\n请前往 <![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram 常见问题</a>]]> 看看：那里有绝大多数问题的答案和重要的<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">故障排除</a>]]>提示。</string>
     <string name="AskButton">向志愿者提问</string>
-    <string name="TelegramFAQ">Telegram 常见问题</string>
-    <string name="TelegramFaq">Telegram 常见问题</string>
+    <string name="TelegramFAQ">常见问题</string>
+    <string name="TelegramFaq">常见问题</string>
     <string name="AddAccount">添加帐户</string>
     <string name="SelectAccount">选择帐户</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -2100,7 +2100,7 @@
     <string name="FilterAddingChats">添加对话</string>
     <string name="FilterAddingChatsInfo">我们正在为您填充此文件夹，请稍等片刻...</string>
     <string name="FilterNoChatsToDisplay">没有对话</string>
-    <string name="FilterNoChatsToDisplayInfo">当前没有对话属于该文件夹。</string>
+    <string name="FilterNoChatsToDisplayInfo">当前没有对话属于此文件夹。</string>
     <string name="FilterNew">新建文件夹</string>
     <string name="FilterNoChats">没有对话</string>
     <string name="FilterContact">联系人</string>
@@ -3306,12 +3306,12 @@
     <string name="DaysBold_few">**%1$d** 天</string>
     <string name="DaysBold_many">**%1$d** 天</string>
     <string name="DaysBold_other">**%1$d** 天</string>
-    <string name="Views_zero">%1$s 次查看</string>
-    <string name="Views_one">%1$s 次查看</string>
-    <string name="Views_two">%1$s 次查看</string>
-    <string name="Views_few">%1$s 次查看</string>
-    <string name="Views_many">%1$s 次查看</string>
-    <string name="Views_other">%1$s 次查看</string>
+    <string name="Views_zero">%1$s 次浏览</string>
+    <string name="Views_one">%1$s 次浏览</string>
+    <string name="Views_two">%1$s 次浏览</string>
+    <string name="Views_few">%1$s 次浏览</string>
+    <string name="Views_many">%1$s 次浏览</string>
+    <string name="Views_other">%1$s 次浏览</string>
     <string name="Shares_zero">%1$s 次分享</string>
     <string name="Shares_one">%1$s 次分享</string>
     <string name="Shares_two">%1$s 次分享</string>

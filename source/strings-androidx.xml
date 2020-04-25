@@ -859,7 +859,11 @@
   <string name="BlurLinear">Linear</string>
   <string name="QDeleteXMessagesFromY_one">Delete %1$s message from %2$s?</string>
   <string name="QDeleteXMessagesFromY_other">Delete %1$s messages from %2$s?</string>
+  <string name="QDeleteXMessagesFromYRole_one">Delete %1$s message from %2$s (%3$s)?</string>
+  <string name="QDeleteXMessagesFromYRole_other">Delete %1$s messages from %2$s (%3$s)?</string>
   <string name="DeleteAllFrom">Delete all from %1$s</string>
+  <string name="DeleteXMoreFrom_one">Delete %1$s more from %2$s</string>
+  <string name="DeleteXMoreFrom_other">Delete %1$s more from %2$s</string>
   <string name="DeleteForUser">Delete for %1$s</string>
   <string name="DeleteXForUser_one">Delete %1$s message for %2$s</string>
   <string name="DeleteXForUser_other">Delete %1$s messages for %2$s</string>
@@ -1292,6 +1296,24 @@
   <string name="NoMembersToShowDesc">Try changing your search query.\nFound members will be shown here.</string>
   <string name="ManageChannel">Manage Channel</string>
   <string name="ManageGroup">Manage Group</string>
+  <string name="RoleOwner">chat owner</string>
+  <string name="RoleLeft">not a member</string>
+  <string name="RoleBanned">banned member</string>
+  <string name="RoleMember_now">joined just now</string>
+  <string name="RoleMember_minutes_one">joined %1$s min ago</string>
+  <string name="RoleMember_minutes_other">joined %1$s mins ago</string>
+  <string name="RoleMember_hours_one">joined %1$s hr ago</string>
+  <string name="RoleMember_hours_other">joined %1$s hrs ago</string>
+  <string name="RoleMember_today">joined at %1$s</string>
+  <string name="RoleMember_yesterday">joined yesterday at %1$s</string>
+  <string name="RoleMember_days_one">joined %1$s day ago</string>
+  <string name="RoleMember_days_other">joined %1$s days ago</string>
+  <string name="RoleMember_weeks_one">joined %1$s week ago</string>
+  <string name="RoleMember_weeks_other">joined %1$s weeks ago</string>
+  <string name="RoleMember_months_one">joined %1$s month ago</string>
+  <string name="RoleMember_months_other">joined %1$s months ago</string>
+  <string name="RoleMember_years_one">joined %1$s year ago</string>
+  <string name="RoleMember_years_other">joined %1$s years ago</string>
   <string name="Restricted">Restricted</string>
   <string name="PromotedByX">Promoted by %1$s</string>
   <string name="PromotedByXOnDate">Promoted by %1$s %2$s</string>
@@ -1866,6 +1888,12 @@
   <string name="Sessions">Sessions</string>
   <string name="Websites">Websites</string>
   <string name="ActionRead">Mark as Read</string>
+  <string name="XFoundMessagesFromUser_one">%1$s message from %2$s</string>
+  <string name="XFoundMessagesFromUser_other">%1$s messages from %2$s</string>
+  <string name="XFoundMessagesFromSelf_one">%1$s message from you</string>
+  <string name="XFoundMessagesFromSelf_other">%1$s messages from you</string>
+  <string name="XFoundMessagesFromAutoPost_one">%1$s message from channels</string>
+  <string name="XFoundMessagesFromAutoPost_other">%1$s messages from channels</string>
   <string name="FoundMessagesFromUser">messages from %1$s</string>
   <string name="FoundMessagesFromSelf">messages from you</string>
   <string name="FoundMessagesFromAutoPost">messages from channels</string>
@@ -3178,10 +3206,10 @@
 
   <string name="ZoomOut">Zoom Out</string>
 
-  <string name="StatsRange">Based on %1$s period.</string>
+  <string name="StatsRange">Overview based on %1$s period.</string>
   <string name="StatsMembers">Members</string>
-  <string name="StatsViews">Views</string>
-  <string name="StatsShares">Shares</string>
+  <string name="StatsViews">Views Per Post</string>
+  <string name="StatsShares">Shares Per Post</string>
   <string name="StatsNotifications">Enabled Notifications</string>
   <string name="StatsValueGrowth">%1$s: +%2$s (%3$s%%) ↑</string>
   <string name="StatsValueFall">%1$s: -%2$s (%3$s%%) ↓</string>
@@ -3248,6 +3276,8 @@
 
   <string name="TakeVideoError">Error capturing video</string>
   <string name="TakePhotoError">Error taking picture</string>
+
+  <string name="MessageInputEmpty">Message must be non-empty</string>
 
   
   
@@ -3466,6 +3496,10 @@
   <string name="DeleteXMessages_two">Delete %1$s messages</string>
   <string name="DeleteXMessages_few">Delete %1$s messages</string>
   <string name="DeleteXMessages_many">Delete %1$s messages</string>
+  <string name="DeleteXMoreFrom_zero">Delete %1$s more from %2$s</string>
+  <string name="DeleteXMoreFrom_two">Delete %1$s more from %2$s</string>
+  <string name="DeleteXMoreFrom_few">Delete %1$s more from %2$s</string>
+  <string name="DeleteXMoreFrom_many">Delete %1$s more from %2$s</string>
   <string name="DeleteXReminders_zero">Delete %1$s reminders</string>
   <string name="DeleteXReminders_two">Delete %1$s reminders</string>
   <string name="DeleteXReminders_few">Delete %1$s reminders</string>
@@ -3607,6 +3641,10 @@
   <string name="QDeleteXMessagesFromY_two">Delete %1$s messages from %2$s?</string>
   <string name="QDeleteXMessagesFromY_few">Delete %1$s messages from %2$s?</string>
   <string name="QDeleteXMessagesFromY_many">Delete %1$s messages from %2$s?</string>
+  <string name="QDeleteXMessagesFromYRole_zero">Delete %1$s messages from %2$s (%3$s)?</string>
+  <string name="QDeleteXMessagesFromYRole_two">Delete %1$s messages from %2$s (%3$s)?</string>
+  <string name="QDeleteXMessagesFromYRole_few">Delete %1$s messages from %2$s (%3$s)?</string>
+  <string name="QDeleteXMessagesFromYRole_many">Delete %1$s messages from %2$s (%3$s)?</string>
   <string name="ReadAllChatsDone_zero">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_two">Marked %1$s chats as read</string>
   <string name="ReadAllChatsDone_few">Marked %1$s chats as read</string>
@@ -3651,6 +3689,30 @@
   <string name="RevokeForX_two">Delete all messages for %1$s other users</string>
   <string name="RevokeForX_few">Delete all messages for %1$s other users</string>
   <string name="RevokeForX_many">Delete all messages for %1$s other users</string>
+  <string name="RoleMember_days_zero">joined %1$s days ago</string>
+  <string name="RoleMember_days_two">joined %1$s days ago</string>
+  <string name="RoleMember_days_few">joined %1$s days ago</string>
+  <string name="RoleMember_days_many">joined %1$s days ago</string>
+  <string name="RoleMember_hours_zero">joined %1$s hrs ago</string>
+  <string name="RoleMember_hours_two">joined %1$s hrs ago</string>
+  <string name="RoleMember_hours_few">joined %1$s hrs ago</string>
+  <string name="RoleMember_hours_many">joined %1$s hrs ago</string>
+  <string name="RoleMember_minutes_zero">joined %1$s mins ago</string>
+  <string name="RoleMember_minutes_two">joined %1$s mins ago</string>
+  <string name="RoleMember_minutes_few">joined %1$s mins ago</string>
+  <string name="RoleMember_minutes_many">joined %1$s mins ago</string>
+  <string name="RoleMember_months_zero">joined %1$s months ago</string>
+  <string name="RoleMember_months_two">joined %1$s months ago</string>
+  <string name="RoleMember_months_few">joined %1$s months ago</string>
+  <string name="RoleMember_months_many">joined %1$s months ago</string>
+  <string name="RoleMember_weeks_zero">joined %1$s weeks ago</string>
+  <string name="RoleMember_weeks_two">joined %1$s weeks ago</string>
+  <string name="RoleMember_weeks_few">joined %1$s weeks ago</string>
+  <string name="RoleMember_weeks_many">joined %1$s weeks ago</string>
+  <string name="RoleMember_years_zero">joined %1$s years ago</string>
+  <string name="RoleMember_years_two">joined %1$s years ago</string>
+  <string name="RoleMember_years_few">joined %1$s years ago</string>
+  <string name="RoleMember_years_many">joined %1$s years ago</string>
   <string name="SelectedAudioSuffix_zero">" audios"</string>
   <string name="SelectedAudioSuffix_two">" audios"</string>
   <string name="SelectedAudioSuffix_few">" audios"</string>
@@ -3807,6 +3869,18 @@
   <string name="ViewXQuizResults_many">View %1$s Results</string>
   <string name="WhoCanAddMembers">Who Can Add Members</string>
   <string name="WhoCanAddMembersAllMembers">All members</string>
+  <string name="XFoundMessagesFromAutoPost_zero">%1$s messages from channels</string>
+  <string name="XFoundMessagesFromAutoPost_two">%1$s messages from channels</string>
+  <string name="XFoundMessagesFromAutoPost_few">%1$s messages from channels</string>
+  <string name="XFoundMessagesFromAutoPost_many">%1$s messages from channels</string>
+  <string name="XFoundMessagesFromSelf_zero">%1$s messages from you</string>
+  <string name="XFoundMessagesFromSelf_two">%1$s messages from you</string>
+  <string name="XFoundMessagesFromSelf_few">%1$s messages from you</string>
+  <string name="XFoundMessagesFromSelf_many">%1$s messages from you</string>
+  <string name="XFoundMessagesFromUser_zero">%1$s messages from %2$s</string>
+  <string name="XFoundMessagesFromUser_two">%1$s messages from %2$s</string>
+  <string name="XFoundMessagesFromUser_few">%1$s messages from %2$s</string>
+  <string name="XFoundMessagesFromUser_many">%1$s messages from %2$s</string>
   <string name="XSentAFile">%1$s sent a file</string>
   <string name="XSentAGIF">%1$s sent a GIF</string>
   <string name="XSentAMessage">%1$s sent a message</string>

@@ -191,7 +191,7 @@
   
   <string name="xVideos_other">%1$s 段视频</string>
   
-  <string name="xViews_other">%1$s 次查看</string>
+  <string name="xViews_other">%1$s 次浏览</string>
   
   <string name="xOtherPeopleNames_other">和其他 %1$s 人</string>
   
@@ -859,7 +859,11 @@
   <string name="BlurLinear">线性</string>
   
   
+  
+  
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
+  
+  
   <string name="DeleteForUser">为 %1$s 删除</string>
   
   <string name="DeleteXForUser_other">删除来自 %2$s 的 %1$s 条消息</string>
@@ -1292,6 +1296,24 @@
   <string name="NoMembersToShowDesc">尝试更改你的查询要求\n被查询到的成员会显示在这里</string>
   <string name="ManageChannel">管理频道</string>
   <string name="ManageGroup">管理群组</string>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="Restricted">受限</string>
   <string name="PromotedByX">被 %1$s 设为管理员</string>
   <string name="PromotedByXOnDate">由 %1$s 于 %2$s 设为管理员</string>
@@ -1866,6 +1888,12 @@
   <string name="Sessions">会话</string>
   <string name="Websites">网站</string>
   <string name="ActionRead">标记为已读</string>
+  
+  
+  
+  
+  
+  
   <string name="FoundMessagesFromUser">%1$s 发送的消息</string>
   <string name="FoundMessagesFromSelf">您发送的消息</string>
   
@@ -3247,6 +3275,8 @@
   
 
   
+  
+
   
 
   
