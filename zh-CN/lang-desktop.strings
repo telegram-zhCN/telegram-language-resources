@@ -179,7 +179,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_photo_caption" = "添加说明";
 "lng_photos_comment" = "说明";
 
-"lng_intro_qr_title" = "通过移动端 Telegram 应用扫描二维码";
+"lng_intro_qr_title" = "从移动端 Telegram 扫描";
 "lng_intro_qr_step1" = "在您的手机上打开 Telegram";
 "lng_intro_qr_step2" = "转到设置 > 设备 > 扫描二维码";
 "lng_intro_qr_step3" = "扫描此图片以登录";

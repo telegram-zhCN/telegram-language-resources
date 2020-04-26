@@ -396,7 +396,7 @@
 "Login.codePlaceholder" = "验证码";
 
 
-"Login.QR.Title" = "扫描二维码以登录";
+"Login.QR.Title" = "从移动端 Telegram 扫描";
 "Login.QR.Help1" = "在您的手机上打开 Telegram";
 "Login.QR.Help2" = "转到**设置** > **设备** >** 扫描二维码**";
 "Login.QR.Help3" = "扫描此图片以登录";

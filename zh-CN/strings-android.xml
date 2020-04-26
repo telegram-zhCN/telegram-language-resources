@@ -976,7 +976,18 @@
     <string name="DiceInfo2">发送一个 **:dice:** Emoji 到任何对话以掷骰子。</string>
     <string name="DartInfo">发送一个 **:darts:** 来试试你的运气。</string>
     <string name="DiceEmojiInfo">发送一个 %1$s 来试试你的运气。</string>
-    <string name="SendDice">发送</string>Send a dart emoji
+    <string name="SendDice">发送</string>
+    <string name="PsaType_covid">PSA</string>
+    <string name="PsaTypeDefault">PSA</string>
+    <string name="PsaInfo_covid">This message provides you with a public service announcement in relation to the ungoing Covid-19 pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus</string>
+    <string name="PsaInfoDefault">PSA info test</string>
+    <string name="PsaMessage_covid">Covid-19 Notification</string>
+    <string name="PsaMessageInfo_covid">This message provides you with a public service announcement in relation to the ungoing Covid-19 pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus</string>
+    <string name="PsaMessageDefault">Important Notification</string>
+    <string name="PsaMessageInfoDefault">This is an important notification.</string>
+    <string name="PsaHideChatAlertTitle">Hide chat</string>
+    <string name="PsaHideChatAlertText">Are you sure you want to hide the selected chat?</string>
+    <string name="PsaHide">Hide</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -1815,8 +1826,8 @@
     <string name="AuthAnotherClientNotFound">找不到验证码。</string>
     <string name="AuthAnotherClientOk">验证成功</string>
     <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org/</string>
-    <string name="AuthAnotherClientInfo1">从*desktop.telegram.org*下载Telegram。</string>
-    <string name="AuthAnotherClientInfo2">使用 Telegram 桌面版获得二维码。</string>
+    <string name="AuthAnotherClientInfo1">从 *desktop.telegram.org* 下载 Telegram 到您的计算机上。</string>
+    <string name="AuthAnotherClientInfo2">运行 Telegram Desktop 以获取二维码。</string>
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <string name="AuthAnotherClientUrl">此二维码可登录到您的 Telegram 帐号。\n\n要确认Telegram登录，请转到 **设置**&gt;**设备**&gt;**扫一扫**。</string>
     <!--cache view-->

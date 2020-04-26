@@ -5494,7 +5494,7 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.PsaTooltip.covid" = "This message provides you with a public service announcement in relation to the undergoing pandemics. Learn more about this initiative at https://telegram.org/blog/coronavirus";
 
 "Message.GenericForwardedPsa" = "Public Service Announcement\nFrom: %@";
-"Message.ForwardedPsa.covid" = "Covid-19 Notification\nFrom: %@";
+"Message.ForwardedPsa.covid" = "COVID-19 Notification\nFrom: %@";
 
 
 /* new from translations.telegram.org */
