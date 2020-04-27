@@ -97,18 +97,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_bot_reads_all" = "允许访问消息";
 "lng_status_bot_not_reads_all" = "不允许访问消息";
 "lng_status_offline" = "很久没上线";
-"lng_status_recently" = "最近曾上线";
-"lng_status_last_week" = "最近上线于一周内";
-"lng_status_last_month" = "最近上线于一个月内";
+"lng_status_recently" = "最近上过线";
+"lng_status_last_week" = "一周内有上线";
+"lng_status_last_month" = "一个月内曾上线";
 "lng_status_lastseen_now" = "不久前在线";
 
-"lng_status_lastseen_minutes#other" = "最近上线于 {count} 分钟前";
+"lng_status_lastseen_minutes#other" = "{count} 分钟前在线";
 
-"lng_status_lastseen_hours#other" = "最近上线于 {count} 小时前";
-"lng_status_lastseen_today" = "最近上线于今天 {time}";
-"lng_status_lastseen_yesterday" = "最近上线于昨天 {time}";
-"lng_status_lastseen_date" = "最近上线于 {date}";
-"lng_status_lastseen_date_time" = "最近上线于 {date} {time}";
+"lng_status_lastseen_hours#other" = "{count} 小时前在线";
+"lng_status_lastseen_today" = "最后上线于今天{time}";
+"lng_status_lastseen_yesterday" = "最后上线于昨天 {time}";
+"lng_status_lastseen_date" = "最后上线于 {date}";
+"lng_status_lastseen_date_time" = "最后上线于 {date} {time}";
 "lng_status_online" = "在线";
 "lng_status_connecting" = "连接中...";
 
@@ -377,7 +377,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_connection_type" = "连接类型";
 "lng_settings_downloading_update" = "下载更新中 {progress} ...";
 "lng_settings_privacy_title" = "隐私";
-"lng_settings_last_seen" = "最后上线时间";
+"lng_settings_last_seen" = "最后上线 & 在线";
 "lng_settings_calls" = "语音通话";
 "lng_settings_calls_peer_to_peer_title" = "端到端";
 "lng_settings_calls_peer_to_peer_button" = "使用端到端链接与";
@@ -666,8 +666,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_find" = "谁可以通过我的手机号找到我？";
 "lng_edit_privacy_phone_number_contacts" = "只有您的联系人才能通过手机号码匹配到您。";
 
-"lng_edit_privacy_lastseen_title" = "最后上线时间可见性";
-"lng_edit_privacy_lastseen_header" = "谁可以看到您的最后上线时间";
+"lng_edit_privacy_lastseen_title" = "最后上线 & 在线";
+"lng_edit_privacy_lastseen_header" = "谁可以看见我的最后上线时间？";
 "lng_edit_privacy_lastseen_warning" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 "lng_edit_privacy_lastseen_always_empty" = "总是允许";
 "lng_edit_privacy_lastseen_never_empty" = "从不共享给";
@@ -1258,7 +1258,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_spam_ok" = "举报";
 "lng_new_contact_block" = "屏蔽此用户";
 "lng_new_contact_block_done" = "{user} 已被屏蔽。";
-"lng_new_contact_add" = "添加联系人";
+"lng_new_contact_add" = "加为联系人";
 "lng_new_contact_share" = "Share my phone number";
 "lng_new_contact_share_sure" = "Do you want to share your phone number {phone} with {user}?";
 "lng_new_contact_share_done" = "{user} 现在可以看到您的手机号码。";
@@ -1296,7 +1296,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_unblock_button" = "取消屏蔽";
 "lng_restart_button" = "重启";
 "lng_channel_mute" = "静音";
-"lng_channel_unmute" = "取消静音";
+"lng_channel_unmute" = "开启通知";
 "lng_channel_discuss" = "讨论";
 "lng_saved_messages" = "收藏夹";
 "lng_saved_short" = "保存";
@@ -2433,7 +2433,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_description" = "您可以选择谁能够将您添加到群组或频道：";
 "lng_edit_privacy_groups_never#other" = "从不允许 {count} 位用户";
 "lng_edit_privacy_lastseen_always#other" = "总是共享给 {count} 位用户";
-"lng_edit_privacy_lastseen_description" = "您可以选择谁能够查看您最后上线的时间：";
+"lng_edit_privacy_lastseen_description" = "谁可以看见我的最后上线时间";
 "lng_edit_privacy_lastseen_never#other" = "从不共享给 {count} 位用户";
 "lng_emoji_category0" = "常用";
 "lng_export_state_gif" = "动态 GIF 图";
@@ -2488,7 +2488,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_edit_info" = "编辑信息";
 "lng_settings_groups_invite_privacy" = "群组和频道邀请设置";
 "lng_settings_images_cached#other" = "{count} 张图片，{size}";
-"lng_settings_last_seen_privacy" = "最后上线时间隐私";
+"lng_settings_last_seen_privacy" = "最后上线";
 "lng_settings_no_data_cached" = "无任何缓存！";
 "lng_settings_peer_to_peer" = "端对端连接";
 "lng_settings_self_destruct" = "帐号自毁设置";

@@ -109,8 +109,8 @@
   <string name="location_personAwayKilometers">距您 %1$s 千米远</string>
   <string name="status_Online">在线</string>
   <string name="status_LastSeenRecently">最近上过线</string>
-  <string name="status_LastSeenWithinWeek">最近一周内有上线</string>
-  <string name="status_LastSeenWithinMonth">最近一个月内有上线</string>
+  <string name="status_LastSeenWithinWeek">一周内有上线</string>
+  <string name="status_LastSeenWithinMonth">一个月内曾上线</string>
   <string name="status_LastSeenUnknown">很久没上线</string>
   <string name="status_LastSeen_now">不久前在线</string>
   <string name="status_LastSeen_today">最近上线于 %1$s</string>
@@ -382,7 +382,7 @@
   <string name="Settings">设置</string>
   <string name="LogOut">退出当前帐号</string>
   <string name="Mute">暂停消息通知</string>
-  <string name="Unmute">恢复消息通知</string>
+  <string name="Unmute">开启通知</string>
   <string name="returnToGroup">返回群组</string>
   <string name="returnToChannel">返回到频道</string>
   <string name="LoadingUser">加载用户...</string>
@@ -719,7 +719,7 @@
   <string name="Save">保存</string>
   <string name="PrivacyTitle">隐私</string>
   <string name="BlockedUsers">已屏蔽的用户</string>
-  <string name="LastSeen">最后上线时间</string>
+  <string name="LastSeen">最后上线</string>
   <string name="GroupsAndChannels">群组和频道</string>
   <string name="SecurityTitle">安全</string>
   <string name="SessionsTitle">已登录</string>
@@ -743,7 +743,7 @@
   <string name="Nobody">不允许任何人</string>
   <string name="WhoCanAddYouToGroupsAndChannels">谁可以邀请您到群组或频道？</string>
   <string name="WhoCanAddMeInfo">您可以精确控制其他人能否邀请您进入任意群组或频道。</string>
-  <string name="LastSeenTitle">谁可以看到您最后上线的时间？</string>
+  <string name="LastSeenTitle">谁可以看见我的最后上线时间？</string>
   <string name="CustomHelp">您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。</string>
   <string name="AlwaysShareWith">总是共享给</string>
   <string name="NeverShareWith">从不共享给</string>
@@ -1022,7 +1022,7 @@
   <string name="CleaningUp">正在清理...</string>
   <string name="ResetStatistics">重置统计数据</string>
   <string name="NetworkUsageSince">自 %1$s 的网络使用情况</string>
-  <string name="ResetStatsHint">您确定要重置网络用量统计数据吗？</string>
+  <string name="ResetStatsHint">您确定要重置您的网络用量统计数据吗？</string>
   <string name="Reset">重置</string>
   <string name="TotalDataUsage">总计</string>
   <string name="MessagesAndData">消息和服务数据</string>
@@ -1043,7 +1043,7 @@
   <string name="SecretFiles">私人媒体文件和其他文件</string>
   <string name="Clear">清空</string>
   <string name="ClearX">清理 %1$s 文件</string>
-  <string name="UnmutesInX">%1$s 后解除通知停用</string>
+  <string name="UnmutesInX">%1$s后开启通知</string>
   <string name="MuteForever">永久停用通知</string>
   <string name="NotificationsCustomize">自定义</string>
   <string name="MuteNotifications">暂停消息通知</string>
@@ -3041,7 +3041,7 @@
   
 
   
-  
+  <string name="UnmutedXChats_other">已开启 %1$s 个对话通知</string>
   
   
   
@@ -3260,7 +3260,7 @@
   
 
   
-  
+  <string name="EditPrivacyStatus">最后上线</string>
   
 
   
@@ -3294,13 +3294,13 @@
   <string name="AdminsAreSelectedHint">只有管理员能够添加和移除成员、编辑此群组的名称和头像。</string>
   <string name="AllAccounts">消息</string>
   <string name="AppBadge">未读消息计数角标</string>
-  <string name="AppBadgeAll">所有对话</string>
+  <string name="AppBadgeAll">从所有对话</string>
   <string name="AppBadgeDisabled">已禁用</string>
   <string name="AppBadgeHint">在应用图标上显示未读消息数。在部分设备上可能无法显示。\n\n无论设置如何，系统都可能在播放音乐或进行通话时显示额外的消息计数。</string>
   <string name="AppBadgeType">角标类型</string>
   <string name="AppBadgeTypeChats">对话数目</string>
   <string name="AppBadgeTypeMessages">消息数目</string>
-  <string name="AppBadgeUnmuted">仅限开启通知的对话</string>
+  <string name="AppBadgeUnmuted">从未关通知的对话</string>
   <string name="AppUpdateRequiredText">要进行此操作，请更新 Telegram。</string>
   <string name="AreYouSureNotifyReset">你确定要重设所有对话的自定义通知设置吗？</string>
   <string name="BadgeCounterSetting">通知圆点</string>

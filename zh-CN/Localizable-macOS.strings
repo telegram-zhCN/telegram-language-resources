@@ -21,15 +21,15 @@
 
 
 "Peer.Status.online" = "在线";
-"Peer.Status.recently" = "近期有上线";
+"Peer.Status.recently" = "最近上过线";
 "Peer.Status.justNow" = "不久前在线";
-"Peer.Status.lastWeek" = "本周有上线";
-"Peer.Status.lastMonth" = "最近一个月内有上线";
+"Peer.Status.lastWeek" = "一周内有上线";
+"Peer.Status.lastMonth" = "一个月内曾上线";
 "Peer.Status.longTimeAgo" = "很久没上线";
 
 "Peer.Status.Today" = "今天";
 "Peer.Status.Yesterday" = "昨天";
-"Peer.Status.LastSeenAt" = "最近在线时间%@ %@";
+"Peer.Status.LastSeenAt" = "最后上线于%@ %@";
 
 
 /* do not translate key with 'countable' suffix */
@@ -68,7 +68,7 @@
 
 
 
-"Peer.Status.minAgo_other" = "最近上线于 %d 分钟前";
+"Peer.Status.minAgo_other" = "%d 分钟前在线";
 
 "Peer.Status.channel" = "频道";
 "Peer.Status.group" = "群组";
@@ -96,13 +96,13 @@
 
 
 "PeerInfo.Action.Mute" = "静音";
-"PeerInfo.Action.Unmute" = "取消静音";
-
+"PeerInfo.Action.Unmute" = "开启通知";
+"PeerInfo.Action.SecretChat" = "秘密";
 "PeerInfo.Action.Call" = "通话";
 
 
 
-
+"PeerInfo.Action.Statistics" = "统计数据";
 
 
 
@@ -266,7 +266,7 @@
 "Chat.Service.SecretChat.DisabledTimer.Self" = "您取消了阅后即焚计时器";
 
 "Chat.Input.Mute" = "关闭消息通知";
-"Chat.Input.Unmute" = "开启消息通知";
+"Chat.Input.Unmute" = "开启通知";
 "Chat.Input.Return" = "返回群组";
 "Chat.Input.SecretChat.WaitingToUserOnline" = "正在等待 %@ 上线...";
 
@@ -487,7 +487,7 @@
 
 
 "Time.at" = "于";
-"Time.last_seen" = "最近上线";
+"Time.last_seen" = "最后上线";
 "Time.today" = "今天";
 "Time.yesterday" = "昨天";
 
@@ -592,7 +592,7 @@
 "Telegram.PrivacyAndSecurityViewController" = "隐私和安全";
 "PrivacySettings.PrivacyHeader" = "隐私";
 "PrivacySettings.BlockedUsers" = "已屏蔽的用户";
-"PrivacySettings.LastSeen" = "在线状态";
+"PrivacySettings.LastSeen" = "最后上线";
 "PrivacySettings.Groups" = "群组";
 "PrivacySettings.PhoneNumber" = "手机号码";
 "PrivacySettings.VoiceCalls" = "语音通话";
@@ -775,7 +775,7 @@
 "Stickers.SearchAdd" = "设置";
 
 
-
+"Stickers.SearchAdded" = "已安装";
 
 
 "Stickers.Confirm.ClearRecentText" = "确定要清空最近使用的表情？";
@@ -1145,7 +1145,7 @@
 "Sidebar.Peer.Restricted" = "该对话无法使用侧边栏";
 
 
-"PrivacySettingsController.Header" = "在线状态";
+"PrivacySettingsController.Header" = "最后上线 & 在线";
 "PrivacySettingsController.Everbody" = "所有人";
 "PrivacySettingsController.MyContacts" = "我的联系人";
 "PrivacySettingsController.Nobody" = "不允许任何人";
@@ -1189,7 +1189,7 @@
 
 "PrivacySettingsController.AddUsers" = "添加用户";
 
-"PrivacySettingsController.LastSeenHeader" = "谁可以看到我的上线时间";
+"PrivacySettingsController.LastSeenHeader" = "谁可以看见我最后上线时间";
 "PrivacySettingsController.LastSeenDescription" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 
 "PrivacySettingsController.GroupHeader" = "邀请权限控制";
@@ -1253,7 +1253,7 @@
 "Chat.Context.Edit1" = "编辑";
 "Chat.Context.EditHelp" = "点击日期";
 "Chat.Context.EnableNotifications" = "免打扰";
-"Chat.Context.DisableNotifications" = "恢复消息通知";
+"Chat.Context.DisableNotifications" = "开启通知";
 "Chat.Context.ClearHistory" = "清空历史记录";
 "Chat.Context.Info" = "查看简介";
 "Chat.Context.FeedInfo" = "频道信息";
@@ -1693,7 +1693,7 @@
 "FastSettings.DisableDarkMode" = "关闭深色模式";
 "FastSettings.LockTelegram" = "锁定 Telegram";
 "FastSettings.Mute2Hours" = "暂停通知 2 小时";
-"FastSettings.Unmute" = "恢复消息通知";
+"FastSettings.Unmute" = "开启通知";
 "FastSettings.SetPasscode" = "设置锁定码";
 
 "GeneralSettings.AppearanceSettings" = "显示设置";
@@ -3161,7 +3161,7 @@
 "CallSettings.OpenSystemPreferences" = "打开系统偏好设置";
 
 
-"Telegram.ChannelStatisticsController" = "频道统计";
+"Telegram.ChannelStatisticsController" = "频道统计数据";
 
 
 "AccountSettings.AddAccount" = "添加账号";
@@ -3428,8 +3428,8 @@
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
 
 
-
-
+"Channel.BotDoesntSupportGroups" = "抱歉，此机器人告诉我们它不想被添加到群组中。除非它的开发人员改变了主意，否则您无法这么做。";
+"Channel.TooMuchBots" = "抱歉，此群组中已有太多机器人。请先删除一些您不使用的。";
 
 
 "Channel.Permissions.SlowMode.Text.Off" = "选择每个成员在发送下一条消息之前必须等待的时间。";
@@ -3553,7 +3553,7 @@
 
 "EditTheme.SelectFile" = "从文件创建...";
 "EditTheme.SelectUpdatedFile" = "从文件上传...";
-
+"EditTheme.SelectUpdatedFileDesc" = "您可以通过上传来自文件的手动更改来为所有用户更新您的主题。";
 "EditTheme.SelectFileDesc" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
 
 "EditTheme.NamePlaceholder" = "主题名称";
@@ -3872,7 +3872,7 @@
 "ChatList.Filter.Tilte.Default.NonContacts" = "非联系人";
 
 
-
+"ChannelStats.Title" = "频道统计数据";
 
 "ChannelStats.ViewsCount_countable" = "%d";
 
@@ -3912,10 +3912,10 @@
 
 "ChannelStats.Recent.Header" = "最近的帖子";
 
-
-
-
-
+"Chat.Emoji.Dice.ResultNew" = "发送骰子 emoji 以掷骰子。";
+"Chat.Emoji.Dart.ResultNew" = "发送一个飞镖 emoji 以试试您的运气。";
+"Chat.Emoji.Def.ResultNew" = "发送一个 %@ emoji 以试试您的运气。";
+"Chat.Emoji.Send" = "发送";
 
 "Channel.Stats.Loading" = "**正在准备统计**\n在我们为您生成统计图表时，请稍等片刻。";
 

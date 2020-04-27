@@ -322,13 +322,13 @@
 "LastSeen.HoursAgo_any" = "%@ 小时前在线";
 
 
-"LastSeen.YesterdayAt" = "昨天 %@ 在线";
+"LastSeen.YesterdayAt" = "最后上线于昨天 %@";
 "LastSeen.AtDate" = "最后上线于 %@";
-"LastSeen.TodayAt" = "最近上线于 今天 %@";
+"LastSeen.TodayAt" = "最近上线于今天 %@";
 "LastSeen.Lately" = "最近上过线";
-"LastSeen.WithinAWeek" = "几天前在线";
-"LastSeen.WithinAMonth" = "几周前在线";
-"LastSeen.ALongTimeAgo" = "离线已久";
+"LastSeen.WithinAWeek" = "一周内有上线";
+"LastSeen.WithinAMonth" = "一个月内曾上线";
+"LastSeen.ALongTimeAgo" = "很久没上线";
 "LastSeen.Offline" = "很久没上线";
 
 "Date.DialogDateFormat" = "{month}{day}日";
@@ -575,7 +575,7 @@
 "Conversation.Kilobytes" = "%d KB";
 "Conversation.Bytes" = "%d B";
 "Conversation.ShareMyContactInfo" = "分享我的联系信息";
-"Conversation.AddContact" = "添加联系人";
+"Conversation.AddContact" = "加为联系人";
 "Conversation.SendMessage" = "发送消息";
 "Conversation.EncryptionCanceled" = "加密对话已被取消";
 "Conversation.DeleteManyMessages" = "删除消息";
@@ -903,8 +903,8 @@
 "PrivacySettings.Title" = "隐私与安全";
 
 "PrivacySettings.PrivacyTitle" = "隐私";
-"PrivacySettings.LastSeen" = "在线状态";
-"PrivacySettings.LastSeenTitle" = "最后上线时间";
+"PrivacySettings.LastSeen" = "最后上线 & 在线";
+"PrivacySettings.LastSeenTitle" = "最后上线 & 在线";
 "PrivacySettings.LastSeenEverybody" = "所有人";
 "PrivacySettings.LastSeenContacts" = "我的联系人";
 "PrivacySettings.LastSeenNobody" = "隐藏";
@@ -921,7 +921,7 @@
 "PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
 "PrivacySettings.DeleteAccountHelp" = "此时间后，您的帐号如未上线，您的所有资料——包括消息记录、联系人都会被删除。";
 
-"PrivacyLastSeenSettings.Title" = "在线状态";
+"PrivacyLastSeenSettings.Title" = "最后上线 & 在线";
 "PrivacyLastSeenSettings.CustomHelp" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
 "PrivacyLastSeenSettings.AlwaysShareWith" = "总是共享给";
 "PrivacyLastSeenSettings.NeverShareWith" = "从不共享给";
@@ -2233,7 +2233,7 @@ Unused sets are archived when you add more.";
 "NetworkUsageSettings.BytesReceived" = "已接收字节";
 
 "NetworkUsageSettings.ResetStats" = "重置统计数据";
-"NetworkUsageSettings.ResetStatsConfirmation" = "您确定要重置统计数据吗";
+"NetworkUsageSettings.ResetStatsConfirmation" = "您想要重置您的用量统计数据吗?";
 "NetworkUsageSettings.CellularUsageSince" = "自 %@ 的蜂窝移动网络用量";
 "NetworkUsageSettings.WifiUsageSince" = "自 %@ 的 Wi-Fi 用量";
 
@@ -3502,7 +3502,7 @@ Unused sets are archived when you add more.";
 "Notifications.ExceptionsChangeSound" = "更改提示音（%@）";
 "Notifications.ExceptionsDefaultSound" = "默认";
 "Notifications.ExceptionsMuted" = "免打扰";
-"Notifications.ExceptionsUnmuted" = "可提醒";
+"Notifications.ExceptionsUnmuted" = "已开通知";
 "Notifications.AddExceptionTitle" = "添加例外";
 
 "Notifications.ExceptionsMessagePlaceholder" = "此区域将列出所有含非默认通知设置的私聊对话。";
@@ -4511,8 +4511,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "Contacts.DeselectAll" = "取消全选";
 
-
-
+"Channel.TooMuchBots" = "抱歉，此群组中已有太多机器人。请先删除一些您不使用的。";
+"Channel.BotDoesntSupportGroups" = "抱歉，此机器人告诉我们它不想被添加到群组中。除非它的开发人员改变了主意，否则您无法这么做。";
 
 "StickerPacksSettings.AnimatedStickers" = "循环播放动态贴纸";
 "StickerPacksSettings.AnimatedStickersInfo" = "动态贴纸将在对话中持续播放。";
@@ -4573,7 +4573,7 @@ Any member of this group will be able to see messages in the channel.";
 "VoiceOver.Chat.Message" = "信息";
 "VoiceOver.Chat.YourMessage" = "您的消息";
 "VoiceOver.Chat.ReplyFrom" = "回复 %@ 的消息";
-
+"VoiceOver.Chat.Reply" = "回复消息";
 "VoiceOver.Chat.ReplyToYourMessage" = "回复您的信息";
 "VoiceOver.Chat.ForwardedFrom" = "转发来自: %@";
 "VoiceOver.Chat.ForwardedFromYou" = "从您转发";
@@ -4619,7 +4619,7 @@ Any member of this group will be able to see messages in the channel.";
 "VoiceOver.Chat.Title" = "标题: %@";
 "VoiceOver.Chat.Caption" = "字幕: %@";
 "VoiceOver.Chat.Duration" = "时长: %@";
-
+"VoiceOver.Chat.Size" = "大小：%@";
 "VoiceOver.Chat.MusicTitle" = "%1$@ , %2$@";
 "VoiceOver.Chat.PlayHint" = "双击以播放";
 "VoiceOver.Chat.OpenHint" = "双击可打开";
@@ -4693,7 +4693,7 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.ThemePreview.Chat.2.ReplyName" = "Bob Harris";
 "Appearance.ThemePreview.Chat.2.Text" = "向左。唔，没错，就是左边。";
 "Appearance.ThemePreview.Chat.3.Text" = "这是全部吗？ 好像他说的不止这些。 😯";
-
+"Appearance.ThemePreview.Chat.3.TextWithLink" = "就这样？他说得好像不只这样。😯";
 
 "Appearance.ThemePreview.Chat.4.Text" = "轻松一下，来杯三得利😎。";
 "Appearance.ThemePreview.Chat.5.Text" = "他要你转身，看着镜头。好吗？";
@@ -4753,7 +4753,7 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ErrorLinkTaken" = "抱歉，该链接已被占用。";
 "EditTheme.ErrorInvalidCharacters" = "抱歉，该链接包含无效字符。";
 
-
+"Wallpaper.ErrorNotFound" = "抱歉，这个对话背景好像不存在。";
 "Theme.ErrorNotFound" = "抱歉，这个色彩主题不存在。";
 "Theme.Unsupported" = "抱歉，您的设备不支持这个色彩主题。";
 
@@ -5330,7 +5330,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.ButtonDiscuss" = "讨论";
 "PeerInfo.ButtonCall" = "通话";
 "PeerInfo.ButtonMute" = "静音";
-"PeerInfo.ButtonUnmute" = "取消静音";
+"PeerInfo.ButtonUnmute" = "开启通知";
 "PeerInfo.ButtonMore" = "更多";
 "PeerInfo.ButtonAddMember" = "添加成员";
 "PeerInfo.ButtonSearch" = "搜索";
@@ -5475,7 +5475,7 @@ Any member of this group will be able to see messages in the channel.";
 "MuteFor.Forever" = "永久关闭通知";
 
 "Conversation.Dice.u1F3B2" = "发送一个骰子 Emoji 到任何对话以掷骰子。";
-"Conversation.Dice.u1F3AF" = "发送一个飞镖 emoji 来试试您的运气。";
+"Conversation.Dice.u1F3AF" = "发送一个飞镖 emoji 以试试您的运气。";
 "Conversation.SendDice" = "发送";
 
 "Conversation.ContextMenuDiscuss" = "讨论";
@@ -5487,11 +5487,11 @@ Any member of this group will be able to see messages in the channel.";
 "FeaturedStickers.OtherSection" = "其他贴纸";
 
 "ChatList.GenericPsaAlert" = "这会在您的对话列表中提供公共服务公告。";
-"ChatList.PsaAlert.covid" = "此信息向您提供正在发生的流行病相关公共服务公告。您可在 https://telegram.org/blog/coronavirus 了解有关此计划的更多信息";
+"ChatList.PsaAlert.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
 "ChatList.GenericPsaLabel" = "PSA";
 "ChatList.PsaLabel.covid" = "新冠肺炎 (COVID-19)";
 "Chat.GenericPsaTooltip" = "这是一个公共服务公告";
-"Chat.PsaTooltip.covid" = "此信息向您提供正在发生的流行病相关公共服务公告。您可在 https://telegram.org/blog/coronavirus 了解有关此计划的更多信息";
+"Chat.PsaTooltip.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
 
 "Message.GenericForwardedPsa" = "公共服务公告\n来自: %@";
 "Message.ForwardedPsa.covid" = "新冠肺炎通知\n来自: %@";
@@ -5606,6 +5606,7 @@ Any member of this group will be able to see messages in the channel.";
 "ENCRYPTION_REQUEST" = "新加密对话请求 %1$@";
 "EditTheme.ShortLinkInfo" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用小写字母 a-z 、数字 0-9 和下划线 _ 。";
 "EditTheme.ThemeTemplateAlert" = "新主题已添加\n\n按住主题进行编辑或获取分享链接。 每次更改主题后，安装主题的用户都会自动获得更新。\n\n为了进行高级编辑，可以在“已保存的消息”中找到带有主题的文件。";
+"EditTheme.UploadEditedInfo" = "您可以通过上传来自文件的手动更改来为所有用户更新您的主题。";
 "EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
 "ForwardedDices_any" = "%@ 个转发的骰子";
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
