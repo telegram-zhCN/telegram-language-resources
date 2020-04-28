@@ -94,17 +94,17 @@
 "PeerInfo.Permissions" = "权限";
 "PeerInfo.Administrators" = "管理员";
 
-
+"PeerInfo.Action.Message" = "消息";
 "PeerInfo.Action.Mute" = "静音";
 "PeerInfo.Action.Unmute" = "开启通知";
 "PeerInfo.Action.SecretChat" = "秘密";
 "PeerInfo.Action.Call" = "通话";
 
-
-
+"PeerInfo.Action.Share" = "分享";
+"PeerInfo.Action.Report" = "举报";
 "PeerInfo.Action.Statistics" = "统计数据";
-
-
+"PeerInfo.Action.Leave" = "退出";
+"PeerInfo.Action.AddMembers" = "添加";
 
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？";
 
@@ -373,7 +373,7 @@
 "PeerMedia.Files" = "文件";
 "PeerMedia.Links" = "链接";
 "PeerMedia.Audio" = "音乐";
-
+"PeerMedia.Members" = "成员";
 "PeerMedia.Voice" = "留言";
 
 
@@ -836,7 +836,7 @@
 "PeerInfo.ConvertToSupergroup" = "升级为超级群组";
 "PeerInfo.RemovedUsers" = "被封禁的用户";
 
-
+"PeerInfo.ShowMoreText" = "[显示更多]()";
 
 
 
@@ -929,7 +929,7 @@
 "ReportReason.Porno" = "色情";
 "ReportReason.ChildAbuse" = "儿童虐待";
 "ReportReason.Copyright" = "侵犯版权";
-
+"ReportReason.Other" = "其他";
 
 "ReportReason.Report" = "举报";
 
@@ -1278,7 +1278,7 @@
 "4sb-4s-VLi.title" = "退出 Telegram";
 "5QF-Oa-p0T.title" = "编辑";
 
-
+"aMa-rb-kjV.title" = "全局搜索";
 
 "5kV-Vb-QxS.title" = "关于 Telegram";
 "6dh-zS-Vam.title" = "重做";
@@ -3735,7 +3735,7 @@
 
 
 "InactiveChannels.Title" = "达到上限";
-
+"InactiveChannels.OK" = "退出";
 "InactiveChannels.Header" = "最不活跃";
 "InactiveChannels.BlockHeader" = "过多的群组和频道";
 
@@ -3810,10 +3810,10 @@
 "ChatList.Filter.Header" = "为不同的对话创建文件夹，然后在它们之间快速切换。";
 
 
-
-
-
-
+"ChatList.Filter.TabBar.Header" = "文件夹标签的位置";
+"ChatList.Filter.TabBar.OnTheTop" = "标签在顶部";
+"ChatList.Filter.TabBar.OnTheLeft" = "标签在左侧";
+"ChatList.Filter.TabBar.Desc" = "如果您有很多文件夹，请尝试将标签向左移动。";
 
 
 
@@ -3908,7 +3908,7 @@
 "ChannelStats.Graph.Interactions" = "互动";
 
 "Graph.ZoomOut" = "缩小";
-
+"Graph.Total" = "总计";
 
 "ChannelStats.Recent.Header" = "最近的帖子";
 
@@ -3924,50 +3924,50 @@
 
 
 
+"GeneralSettings.ShortcutsHeader" = "快捷键";
+"GeneralSettings.Shortcuts" = "键盘快捷键";
+
+"ShortcutsController.Title" = "快捷键";
+
+"ShortcutsController.Chat" = "对话";
+
+"ShortcutsController.Chat.SelectMessageToReply" = "选择要回复的消息";
+"ShortcutsController.Chat.EditLastMessage" = "编辑最后一条消息";
+
+"ShortcutsController.Chat.SearchMessages" = "搜索消息";
 
 
+"ShortcutsController.Search" = "搜索";
+"ShortcutsController.Search.QuickSearch" = "快速搜索";
+"ShortcutsController.Search.GlobalSearch" = "全局搜索";
 
+"ShortcutsController.Markdown" = "MARKDOWN";
+"ShortcutsController.Markdown.Bold" = "粗体";
+"ShortcutsController.Markdown.Italic" = "斜体";
+"ShortcutsController.Markdown.Monospace" = "等宽";
+"ShortcutsController.Markdown.Hyperlink" = "链接";
+"ShortcutsController.Markdown.Strikethrough" = "删除线";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"ShortcutsController.Mouse" = "鼠标";
+"ShortcutsController.Mouse.FastReply" = "快速回复";
+"ShortcutsController.Mouse.FastReply.Value" = "双击";
 "ShortcutsController.Mouse.ScheduleMessage" = "定时消息";
+"ShortcutsController.Mouse.ScheduleMessage.Value" = "选项点击“发送消息”";
 
 
+"ShortcutsController.Gestures" = "手势";
+"ShortcutsController.Gestures.ChatAction" = "对话操作";
+"ShortcutsController.Gestures.ChatAction.Value" = "左右滑动";
+"ShortcutsController.Gestures.Reply" = "回复";
+"ShortcutsController.Gestures.Reply.Value" = "从右向左滑动";
+"ShortcutsController.Gestures.Stickers" = "贴纸/Emoji/GIF面板";
+"ShortcutsController.Gestures.Stickers.Value" = "左右滑动";
+"ShortcutsController.Gestures.Navigation" = "返回";
+"ShortcutsController.Gestures.Navigations.Value" = "从左向右滑动";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+"ShortcutsController.Others" = "其他";
+"ShortcutsController.Others.LockByPasscode" = "使用密码锁定";
 
 
 //

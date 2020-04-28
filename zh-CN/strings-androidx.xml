@@ -1907,7 +1907,7 @@
   <string name="TextFormatBold">粗体</string>
   <string name="TextFormatItalic">斜体</string>
   <string name="TextFormatMonospace">等宽</string>
-  
+  <string name="TextFormatStrikethrough">删除线</string>
   
   <string name="TextFormatLink">创建链接</string>
   <string name="EarpieceMode">播放到听筒</string>
@@ -1922,7 +1922,6 @@
   <string name="TryAgainHours_other">请 %1$s 小时后再试</string>
   <string name="format_TooManyRequests">请求太过频繁。%1$s</string>
   <string name="JoinChannel">加入频道</string>
-  <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string>
   <string name="LeaveAdminNoReturnHintChannel">警告：您将失去此频道的所有管理权限，并且除非由管理员邀请，否则您将无法回到此频道。</string>
   <string name="LeaveAdminNoReturnHintGroup">警告：您将失去此群组的所有管理权限，并且除非由其他成员邀请，否则您将无法返回此群组。</string>
   <string name="LeaveNoReturnHintChannel">警告：除非由管理员邀请，否则您将无法回到此频道。</string>
@@ -2480,6 +2479,7 @@
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">群组管理员限制了发送投票</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
+  <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">通知风格</string>
   <string name="NotificationImportanceHigh">声音与弹窗</string>

@@ -1922,7 +1922,6 @@
   <string name="TryAgainHours_other">Try again in %1$s hours</string>
   <string name="format_TooManyRequests">Too many requests. %1$s</string>
   <string name="JoinChannel">Join Channel</string>
-  <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
   <string name="LeaveAdminNoReturnHintChannel">Warning: you will lose all your admin rights and will not be able to return to this channel unless added by an admin</string>
   <string name="LeaveAdminNoReturnHintGroup">Warning: you will lose all your admin rights and will not be able to return to this group unless added by another member</string>
   <string name="LeaveNoReturnHintChannel">Warning: you will not be able to return to this channel unless added by an admin</string>
@@ -2480,6 +2479,7 @@
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">Chat admins have restricted posting polls</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
+  <string name="NobodyLikesSpam2">Sorry, you can interact only with mutual contacts at the moment.</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">Notification Style</string>
   <string name="NotificationImportanceHigh">Sound and pop-up</string>
