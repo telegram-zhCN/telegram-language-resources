@@ -266,12 +266,12 @@
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">视频留言</string>
   
+  <string name="ChatContentDart1">飞镖：投偏了！</string>
+  <string name="ChatContentDart2">投掷飞镖</string>
+  <string name="ChatContentDart3">投掷飞镖</string>
+  <string name="ChatContentDart4">投掷飞镖</string>
   
-  
-  
-  
-  
-  
+  <string name="ChatContentDart6">飞镖：正中靶心！</string>
   
   
   
@@ -1677,9 +1677,9 @@
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="DisconnectWebsite">断开连接</string>
   
-  <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 账户吗？</string>
+  <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 帐号吗？</string>
   <string name="DisconnectWebsiteBan">同时停止使用 %1$s</string>
-  <string name="ConnectedWebsitesDesc">轻触以取消该网站与 Telegram 账号的关联</string>
+  <string name="ConnectedWebsitesDesc">轻触以取消该网站与您 Telegram 帐号的关联</string>
   <string name="NotificationsLed">LED</string>
   <string name="LedDisabled">无</string>
   <string name="LedDefault">默认</string>
@@ -1859,7 +1859,7 @@
   <string name="ProxyRemoveInfo">您确定要删除此代理设置吗？</string>
   <string name="ErrorUsersTooFew">抱歉，根据这些用户的隐私设置，您无法将他们添加到群组。</string>
   <string name="SyncContacts">同步通讯录</string>
-  <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的账户。</string>
+  <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的帐号。</string>
   <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
   <string name="SyncContactsDelete">清空云端通讯录</string>
   <string name="SyncContactsDeleteButton">清空云端通讯录</string>
@@ -1946,7 +1946,7 @@
   <string name="Copyright">侵犯版权</string>
   <string name="PrivacyAdvanced">高级</string>
   <string name="DeleteAccountIfAwayFor2">删除我的帐户若离线时间达</string>
-  <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您账号的所有资料——包括消息记录、联系人都会被删除。</string>
+  <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您帐号的所有资料——包括消息记录、联系人都会被删除。</string>
   <string name="PrivacyDeleteCloudDrafts">删除所有云端草稿</string>
   <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
   <string name="SeparateMediaTab">在分类中区分图片与视频</string>
@@ -1972,7 +1972,7 @@
   <string name="MessagePin">置顶</string>
   <string name="MessageUnpin">取消置顶</string>
   <string name="MessageReport">举报消息</string>
-  <string name="ErrorUserDeleted">您不能执行此操作，因为此账户已被注销。</string>
+  <string name="ErrorUserDeleted">您不能执行此操作，因为此帐号已被注销。</string>
   <string name="GroupUpgradedFrom">此群组已升级为超级群组，点按此处查阅更早的消息记录。</string>
   <string name="GroupUpgradedTo">此群组已升级为超级群组</string>
   <string name="MembersDetailRestricted">被限制的用户</string>
@@ -2475,10 +2475,11 @@
   <string name="format_pinned">置顶：%1$s</string>
   <string name="format_notificationTitlePinned">%1$s （置顶了消息）</string>
 
-  <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，此用户已决定退出此群组，因此您无法邀请此用户回来。</string>
+  <string name="error_USER_NOT_MUTUAL_CONTACT">抱歉，如果某人退出了群组，您必须是他的 Telegram 联系人才能将其加回。\n\n请注意，只要他不在黑名单中，他仍然可以通过群组的邀请链接加入。</string>
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">群组管理员限制了发送投票</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
+  
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">通知风格</string>
@@ -2772,12 +2773,12 @@
   <string name="TermsOfService">服务协议</string>
   <string name="TermsOfServiceDone">同意</string>
 
-  <string name="PrivacyForwardLinkNobody">无法链接到您的账号</string>
-  <string name="PrivacyForwardLinkNobodyExcept">无法链接到您的账号（%1$s）</string>
-  <string name="PrivacyForwardLinkContacts">只有联系人可以链接到您的账号</string>
-  <string name="PrivacyForwardLinkContactsExcept">只有联系人可以链接到您的账号（%1$s）</string>
-  <string name="PrivacyForwardLinkEverybody">链接到您的账号</string>
-  <string name="PrivacyForwardLinkEverybodyExcept">链接到您的账号（%1$s）</string>
+  <string name="PrivacyForwardLinkNobody">无法连接到您的帐号</string>
+  <string name="PrivacyForwardLinkNobodyExcept">无法链接到您的帐号（%1$s）</string>
+  <string name="PrivacyForwardLinkContacts">只有联系人可以链接到您的帐号</string>
+  <string name="PrivacyForwardLinkContactsExcept">只有联系人可以链接到您的帐号（%1$s）</string>
+  <string name="PrivacyForwardLinkEverybody">链接到您的帐号</string>
+  <string name="PrivacyForwardLinkEverybodyExcept">链接到您的帐号（%1$s）</string>
   <string name="PrivacyForwardLinkTitle">引用转发来源</string>
   
   
@@ -3114,6 +3115,8 @@
   
   
   
+  
+  
 
   
   
@@ -3208,8 +3211,8 @@
 
   
   
-  
-  <string name="StatsShares">分享次数</string>
+  <string name="StatsViews">每个帖子的浏览次数</string>
+  <string name="StatsShares">每个帖子的分享次数</string>
   <string name="StatsNotifications">开启通知</string>
   
   
@@ -3227,9 +3230,9 @@
   
   <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   
+  <string name="SendUnknownDice">试试您的运气</string>
   
-  
-  
+  <string name="SendDart">投掷飞镖</string>
   
 
   <string name="NoVotesResult">没人投票</string>
@@ -3275,6 +3278,8 @@
   
 
   
+  
+
   
 
   

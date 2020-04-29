@@ -917,7 +917,7 @@
 
 "PrivacySettings.SecurityTitle" = "安全";
 
-"PrivacySettings.DeleteAccountTitle" = "删除我的账号";
+"PrivacySettings.DeleteAccountTitle" = "删除我的帐号";
 "PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
 "PrivacySettings.DeleteAccountHelp" = "此时间后，您的帐号如未上线，您的所有资料——包括消息记录、联系人都会被删除。";
 
@@ -1324,7 +1324,7 @@
 
 "TwoStepAuth.EmailTitle" = "恢复邮箱";
 "TwoStepAuth.EmailSkip" = "跳过";
-"TwoStepAuth.EmailSkipAlert" = "您确定不设置密码找回邮箱？\n\n一旦忘记密码，您将无法再登录此 Telegram 账号，并且无法恢复。";
+"TwoStepAuth.EmailSkipAlert" = "您确定不设置密码找回邮箱？\n\n一旦忘记密码，您将无法再登录此 Telegram 帐号，并且无法恢复。";
 "TwoStepAuth.Email" = "电子邮箱";
 "TwoStepAuth.EmailPlaceholder" = "您的邮箱地址";
 "TwoStepAuth.EmailHelp" = "请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。";
@@ -1488,7 +1488,7 @@
 "Conversation.SearchPlaceholder" = "搜索此对话";
 "Conversation.SearchNoResults" = "无搜索结果";
 
-"GroupInfo.AddUserLeftError" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
+"GroupInfo.AddUserLeftError" = "抱歉，如果某人退出了群组，您必须是他的 Telegram 联系人才能将其加回。\n\n请注意，只要他不在黑名单中，他仍然可以通过群组的邀请链接加入。";
 
 "DialogList.SearchSectionRecent" = "最近";
 
@@ -2064,7 +2064,7 @@
 "Login.ResetAccountProtected.Text" = "因为帐号（%@）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。";
 "Login.ResetAccountProtected.TimerTitle" = "您将能够在此时间后重置您的帐户:";
 "Login.ResetAccountProtected.Reset" = "重置";
-"Login.ResetAccountProtected.LimitExceeded" = "您近期的重置帐户请求被它当前活动帐户撤销，请于 7 天后重试。";
+"Login.ResetAccountProtected.LimitExceeded" = "您近期的重置帐号请求被它当前活动用户取消，请于 7 天后重试。";
 
 "Login.CodeSentCall" = "我们正在呼叫您的手机并播报验证码。";
 
@@ -3181,7 +3181,7 @@ Unused sets are archived when you add more.";
 
 "Privacy.ContactsTitle" = "联系人";
 "Privacy.ContactsSync" = "同步通讯录";
-"Privacy.ContactsSyncHelp" = "开启以将该设备上的联系人即时同步至您的账户。";
+"Privacy.ContactsSyncHelp" = "开启以将该设备上的联系人即时同步至您的帐号。";
 "Privacy.ContactsReset" = "清空云端通讯录";
 "Privacy.ContactsResetConfirmation" = "这将把你的联系人信息从 Telegram 服务端删除。如果“同步联系人”选项处于启用状态，联系人信息将被重新同步。";
 
@@ -4313,7 +4313,7 @@ Sorry for the inconvenience.";
 "UserInfo.ScamUserWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
 "UserInfo.ScamBotWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
 "ChannelInfo.ScamChannelWarning" = "⚠️ Warning: Many users reported this account as a scam. Please be careful, especially if it asks you for money.";
-"GroupInfo.ScamGroupWarning" = "⚠️注意：这个账户被很多用户标记为诈骗账户。请注意您的生命及财产安全。";
+"GroupInfo.ScamGroupWarning" = "⚠️注意：这个帐号被很多用户标记为诈骗帐号。请注意您的生命及财产安全。";
 
 "Privacy.AddNewPeer" = "添加用户或群组";
 "PrivacyPhoneNumberSettings.WhoCanSeeMyPhoneNumber" = "谁可以看到我的手机号码？";
@@ -5063,7 +5063,7 @@ Any member of this group will be able to see messages in the channel.";
 "TwoFactorSetup.Password.Action" = "创建密码";
 
 "TwoFactorSetup.Email.Title" = "恢复邮箱";
-"TwoFactorSetup.Email.Text" = "您可以设置一个恢复邮箱来重置密码及恢复您的Telegram账户权限。";
+"TwoFactorSetup.Email.Text" = "您可以设置一个恢复邮箱来重置密码及恢复您的 Telegram 帐号权限。";
 "TwoFactorSetup.Email.Placeholder" = "您的邮箱地址";
 "TwoFactorSetup.Email.Action" = "继续";
 "TwoFactorSetup.Email.SkipAction" = "跳过邮箱设置";
@@ -5362,7 +5362,7 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.Overview" = "总览";
 "Stats.Followers" = "订阅者";
 "Stats.EnabledNotifications" = "开启通知";
-"Stats.ViewsPerPost" = "每个帖子的观看次数";
+"Stats.ViewsPerPost" = "每个帖子的浏览次数";
 "Stats.SharesPerPost" = "每个帖子的分享次数";
 
 "Stats.GrowthTitle" = "增长";

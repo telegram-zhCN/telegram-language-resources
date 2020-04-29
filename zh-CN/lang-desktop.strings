@@ -395,7 +395,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_choose_image" = "选择一张图片";
 "lng_close" = "关闭";
 "lng_cloud_password_about" = "当您在新设备登录时，除了输入短信验证码外，还要输入此密码。";
-"lng_cloud_password_about_recover" = "警告！您确定不设置恢复邮箱吗？\n\n一旦您忘记密码，您将无法再登录您的 Telegram 账号。";
+"lng_cloud_password_about_recover" = "警告！您确定不设置恢复邮箱吗？\n\n一旦您忘记密码，您将无法再登录您的 Telegram 帐号。";
 "lng_cloud_password_almost" = "验证链接已发送到您的邮箱，\n两步验证会在您打开验证链接后正式启用。";
 "lng_cloud_password_bad" = "密码与密码提示不能相同";
 "lng_cloud_password_bad_email" = "无效的邮箱地址";
@@ -437,7 +437,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_confirm_phone_enter_code" = "请输入验证码。";
 "lng_confirm_phone_link_invalid" = "这个链接已损坏或已过期。";
 "lng_confirm_phone_send" = "发送";
-"lng_confirm_phone_success" = "成功！\n您的账号 {phone} 的删除请求已经被撤销。您现在可以关闭这个窗口。";
+"lng_confirm_phone_success" = "成功！\n您帐号 {phone} 的删除请求已经被撤销。您现在可以关闭这个窗口。";
 "lng_confirm_phone_title" = "撤销帐号重置请求";
 "lng_connecting" = "连接中...";
 "lng_connecting_settings" = "设置";
@@ -766,7 +766,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_files" = "文件";
 "lng_export_option_gifs" = "GIF";
 "lng_export_option_html" = "人类可读的 HTML 格式";
-"lng_export_option_info" = "账户信息";
+"lng_export_option_info" = "帐号信息";
 "lng_export_option_info_about" = "您所使用的昵称、用户名、电话号码和头像。";
 "lng_export_option_json" = "机器可读的 JSON 格式";
 "lng_export_option_location" = "保存至：{path}";
@@ -811,8 +811,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_total_amount" = "共 {amount} 个文件";
 "lng_export_total_files" = "文件个数总计：{count}";
 "lng_export_total_size" = "文件大小总计：{size}";
-"lng_failed_add_not_mutual" = "抱歉，如果某位用户已退出此群组，只有双向联系人可以添加回他们（你们互相拥有对方的电话号码）。";
-"lng_failed_add_not_mutual_channel" = "抱歉，如果一位用户主动退出了频道，您需要在他们的联系人列表中才能将其添加回来。";
+"lng_failed_add_not_mutual" = "抱歉，如果某人退出了群组，您必须是他的 Telegram 联系人才能将其加回。\n\n请注意，只要他不在黑名单中，他仍然可以通过群组的邀请链接加入。";
+"lng_failed_add_not_mutual_channel" = "抱歉，如果某人退出了频道，您必须是他的 Telegram 联系人才能将其加回。";
 "lng_failed_add_participant" = "无法邀请这位用户。请稍后再试。";
 "lng_fast_reply" = "回复";
 "lng_faved_stickers_add" = "添加到收藏夹";
@@ -1429,7 +1429,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_payments_receipt_label" = "收据";
 "lng_payments_receipt_label_test" = "测试收据";
 "lng_phone_desc" = "请确认您的国家代码，\n并输入您的手机号码。";
-"lng_phone_notreg" = "如果您还没有 Telegram 账号，\n请使用您的 {link_start}Android / iPhone 设备{link_end} [b]注册[/b] 或 {signup_start} 在此注册 {signup_end}";
+"lng_phone_notreg" = "如果您还没有 Telegram 帐号，\n请使用您的 {link_start}Android / iPhone 设备{link_end} [b]注册[/b] 或 {signup_start} 在此注册 {signup_end}";
 "lng_phone_title" = "您的手机号码";
 "lng_phone_to_qr" = "使用二维码快速登录";
 "lng_photo_caption" = "添加说明";
@@ -1754,7 +1754,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_unsend_about_user#other" = "您还可以通过选中“撤回我的消息”以从 {user} 的消息记录中删除您发送的 {count} 条消息。";
 "lng_selected_unsend_about_user_one" = "您还可以通过选中“撤回我的消息”以从 {user} 的消息记录中删除您发送的消息。";
 "lng_selected_upload_stop" = "停止";
-"lng_self_destruct_description" = "如果您在此期间内从未登录过您的账号，您的账号、以及所有资料——包括群组、消息记录以及联系人都会被删除。";
+"lng_self_destruct_description" = "如果您在此期间内从未登录过您的帐号，您的帐号、以及所有资料——包括群组、消息记录以及联系人都会被删除。";
 "lng_self_destruct_months#other" = "{count} 个月";
 "lng_self_destruct_title" = "自动删除帐号";
 "lng_self_destruct_years#other" = "{count} 年";
@@ -1973,7 +1973,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_bad_password" = "密码错误";
 "lng_signin_banned_help" = "帮助";
 "lng_signin_banned_text" = "此手机号码已被封禁";
-"lng_signin_cant_email_forgot" = "如果您无法恢复对这个邮箱账户的访问权限，您现在只能尝试记起您的密码或者重置账户。";
+"lng_signin_cant_email_forgot" = "如果您无法恢复对这个邮箱帐号的访问权限，您现在只能尝试记起您的密码或者重置帐号。";
 "lng_signin_code" = "邮件中的验证码";
 "lng_signin_desc" = "请输入两步验证密码";
 "lng_signin_hint" = "提示：{password_hint}";
@@ -1985,8 +1985,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_recover_hint" = "验证码已发送到 {recover_email}";
 "lng_signin_recover_title" = "重置密码";
 "lng_signin_reset" = "重置";
-"lng_signin_reset_account" = "重置账号";
-"lng_signin_reset_cancelled" = "您近期的重置账号请求被它当前活动账号撤销，请于 7 天后重试。";
+"lng_signin_reset_account" = "重置帐号";
+"lng_signin_reset_cancelled" = "您近期的重置帐号请求被它当前活动用户取消，请于 7 天后重试。";
 "lng_signin_reset_days#other" = "{count} 天";
 "lng_signin_reset_hours#other" = "{count}小时";
 "lng_signin_reset_in_days" = "{days_count} {hours_count} {minutes_count}";

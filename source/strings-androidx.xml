@@ -2479,6 +2479,7 @@
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">Chat admins have restricted posting polls</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
+  <string name="error_NotFound">Page not found or no longer exists.</string>
   <string name="NobodyLikesSpam2">Sorry, you can interact only with mutual contacts at the moment.</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">Notification Style</string>
@@ -3110,6 +3111,8 @@
 
   <string name="SendSchedule">Schedule message</string>
   <string name="SendNoSound">Send without sound</string>
+  <string name="SendNoSoundX_one">Send without sound to %1$s chat</string>
+  <string name="SendNoSoundX_other">Send without sound to %1$s chats</string>
   <string name="SendNoMarkdown">Send without markdown</string>
   <string name="SendOnceOnline">Send when online</string>
   <string name="SendReminder">Set a Reminder</string>
@@ -3235,7 +3238,7 @@
   <string name="NoVotesResult">No votes</string>
   <string name="NoAnswersResult">No answers</string>
 
-  <string name="HoldToSendAsCopy">Hold to send as copy and other options.</string>
+  <string name="HoldToSendAsCopy">Hold to forward without quoting and other options.</string>
   <string name="HoldToSendAsFile">Hold to send as file and other options.</string>
   <string name="CameraButtonHint">Tap for photo, hold for video</string>
   
@@ -3278,6 +3281,8 @@
   <string name="TakePhotoError">Error taking picture</string>
 
   <string name="MessageInputEmpty">Message must be non-empty</string>
+
+  <string name="QuizOptionHint">Tap to choose the correct answer.</string>
 
   
   
@@ -3765,6 +3770,10 @@
   <string name="SendInXMinutes_two">Send in %1$s minutes</string>
   <string name="SendInXMinutes_few">Send in %1$s minutes</string>
   <string name="SendInXMinutes_many">Send in %1$s minutes</string>
+  <string name="SendNoSoundX_zero">Send without sound to %1$s chats</string>
+  <string name="SendNoSoundX_two">Send without sound to %1$s chats</string>
+  <string name="SendNoSoundX_few">Send without sound to %1$s chats</string>
+  <string name="SendNoSoundX_many">Send without sound to %1$s chats</string>
   <string name="SendXMessagesNow_zero">Send %1$s messages?</string>
   <string name="SendXMessagesNow_two">Send %1$s messages?</string>
   <string name="SendXMessagesNow_few">Send %1$s messages?</string>

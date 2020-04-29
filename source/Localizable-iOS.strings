@@ -4473,7 +4473,7 @@ Any member of this group will be able to see messages in the channel.";
 "Map.SetThisLocation" = "Set This Location";
 
 "Permissions.PeopleNearbyTitle.v0" = "People Nearby";
-"Permissions.PeopleNearbyText.v0" = "Quickly add people nearby who are also viewing this section and discover local group chats.  \n\nPlease allow on location access to enable this feature.";
+"Permissions.PeopleNearbyText.v0" = "Quickly add people nearby who are also viewing this section and discover local group chats.\n\nPlease allow on location access to enable this feature.";
 "Permissions.PeopleNearbyAllow.v0" = "Allow Access";
 "Permissions.PeopleNearbyAllowInSettings.v0" = "Allow in Settings";
 
