@@ -1,5 +1,5 @@
 ﻿"psa.chatlist.covid" = "COVID-19";
-
+"psa.text.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
 
 
 
@@ -7,7 +7,7 @@
 
 "psa.chat.alert.learnmore.covid" = "了解更多";
 "psa.chat.alert.learnmore.covid" = "了解更多";
-
+"psa.title.bubbles.covid" = "新冠肺炎通知\n来自: [%@]()";
 
 
 /* new from translations.telegram.org */
@@ -746,7 +746,7 @@
 "ChatList.SecretChat.Joined" = "%@ 进入了你的加密对话。";
 "ChatList.SecretChat.Terminated" = "加密对话已被取消";
 "ChatList.Service.Call.Cancelled" = "取消的电话";
-"ChatList.Service.Call.Missed" = "未接电话";
+"ChatList.Service.Call.Missed" = "未接来电";
 "ChatList.Service.Call.incoming" = "来电 (%@)";
 "ChatList.Service.Call.outgoing" = "去电 (%@)";
 "ChatList.Service.DestructingPhoto" = "自毁图片";
@@ -2326,6 +2326,7 @@
 "peerInfo.Confirm.ClearHistory.UserBothSides" = "您确定要清空消息记录吗？";
 "peerInfo.Confirm.Leave" = "退出";
 "psa.chat.alert.learnmore" = "了解更多";
+"psa.chatlist.covid" = "新冠肺炎 (COVID-19)";
 "rbD-Rh-wIN.title" = "键入时检查拼写";
 "rgM-f4-ycn.title" = "智能破折号";
 "sZh-ct-GQS.title" = "快速搜索";

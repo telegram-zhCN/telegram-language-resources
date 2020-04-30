@@ -2868,7 +2868,7 @@
     <string name="VoipOfflineOpenSettings">设置</string>
     <string name="CallMessageOutgoing">拨出通话</string>
     <string name="CallMessageIncoming">来电</string>
-    <string name="CallMessageIncomingMissed">未接通话</string>
+    <string name="CallMessageIncomingMissed">未接来电</string>
     <string name="CallMessageOutgoingMissed">未接通</string>
     <string name="CallMessageIncomingDeclined">已拒绝通话</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>

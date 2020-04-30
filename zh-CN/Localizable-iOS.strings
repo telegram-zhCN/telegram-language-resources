@@ -1,16 +1,16 @@
 // Notifications
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_MESSAGE_NOTEXT" = "%1$@|给您发送了一条消息";
+"PUSH_MESSAGE_NOTEXT" = "%1$@|新消息";
 "PUSH_MESSAGE_PHOTO" = "%1$@|📷 图片";
 "PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|🔥 自毁图片";
 "PUSH_MESSAGE_VIDEO" = "%1$@|📹 视频";
-"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
+"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|🔥 自毁视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
-"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
-"PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
+"PUSH_MESSAGE_CONTACT" = "%1$@|👤 %2$@";
+"PUSH_MESSAGE_GEO" = "%1$@|📍 位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|实时位置";
 "PUSH_MESSAGE_DOC" = "%1$@|📎 文件";
-"PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
+"PUSH_MESSAGE_AUDIO" = "%1$@|🎤 语音留言";
 "PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_ENCRYPTED_MESSAGE" = "您有一条新消息%1$@";
 "PUSH_LOCKED_MESSAGE" = "您有一条新消息%1$@";
@@ -18,25 +18,25 @@
 "PUSH_ENCRYPTION_REQUEST" = "新加密聊天请求%1$@";
 "PUSH_ENCRYPTION_ACCEPT" = "您的加密聊天请求已被接受%1$@";
 
-"PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
-"PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
+"PUSH_MESSAGE_POLL" = "%1$@|📊 投票“%2$@”";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|📊 投票“%2$@”";
+"PUSH_PINNED_POLL" = "%1$@|📌 置顶了一项投票";
 
 "PUSH_MESSAGE_QUIZ" = "%1$@|发了一个测验“%2$@”给您";
 "PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|发布了测验“%2$@”";
 "PUSH_PINNED_QUIZ" = "%1$@|置顶了一个测验";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
-"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
-"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@: 新消息";
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@: 📷 图片";
+"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 📹 视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
-"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@: 👤 %3$@";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@：📍位置";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@：实时位置";
-"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
+"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@: 📎 文件";
 "PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: 🎤 语音留言";
-"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
+"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@: 📹 GIF";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ 更改了群组名称";
 "PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ 更改了群组头像";
@@ -47,61 +47,61 @@
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
 "PUSH_CHAT_RETURNED" = "%2$@|%1$@ 回到了群组";
 
-"PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
+"PUSH_MESSAGE_STICKER" = "%1$@|%2$@ 贴纸";
 "PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@：%3$@ 贴纸";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
+"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|新消息";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|📹 视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|📎 文件";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|🎤 语音留言";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了 %2$@ 的联系方式";
-"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
-"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
-"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|👤 %2$@";
+"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|📍 位置";
+"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|实时位置";
+"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|📹 GIF";
 
-"PUSH_PINNED_TEXT" = "%1$@|置顶了 \"%2$@\"";
-"PUSH_PINNED_NOTEXT" = "%1$@|置顶了一条消息";
-"PUSH_PINNED_PHOTO" = "%1$@|置顶了一张图片";
-"PUSH_PINNED_VIDEO" = "%1$@|置顶了一段视频";
-"PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
-"PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
+"PUSH_PINNED_TEXT" = "%1$@|📌 置顶了“%2$@”";
+"PUSH_PINNED_NOTEXT" = "%1$@|📌 置顶了一条消息";
+"PUSH_PINNED_PHOTO" = "%1$@|📌 置顶了一张图片";
+"PUSH_PINNED_VIDEO" = "%1$@|📌 置顶了一段视频";
+"PUSH_PINNED_ROUND" = "%1$@|📌 置顶了一段视频留言";
+"PUSH_PINNED_DOC" = "%1$@|📌 置顶了一个文件";
 "PUSH_PINNED_STICKER" = "%1$@|📌置顶了一张 %2$@ 贴纸";
-"PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
-"PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
-"PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
-"PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
+"PUSH_PINNED_AUDIO" = "%1$@|📌 置顶了一条语音留言";
+"PUSH_PINNED_GEO" = "%1$@|📌 置顶了一个位置";
+"PUSH_PINNED_GEOLIVE" = "%1$@|📌 置顶了一个实时位置";
+"PUSH_PINNED_GIF" = "%1$@|📌 置顶了一个 GIF";
 
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
-"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
+"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|🎮 玩 %2$@";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ 邀请大家一起玩 %3$@";
-"PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
+"PUSH_PINNED_GAME" = "%1$@|📌 置顶了一个游戏";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_MESSAGE_NOTEXT" = "%1$@|给您发送了一条消息";
+"PUSH_MESSAGE_NOTEXT" = "%1$@|新消息";
 "PUSH_MESSAGE_PHOTO" = "%1$@|📷 图片";
 "PUSH_MESSAGE_PHOTO_SECRET" = "%1$@|🔥 自毁图片";
 "PUSH_MESSAGE_VIDEO" = "%1$@|📹 视频";
-"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|给您发送了一段自毁视频";
+"PUSH_MESSAGE_VIDEO_SECRET" = "%1$@|🔥 自毁视频";
 "PUSH_MESSAGE_SCREENSHOT" = "%1$@|截图了！";
 "PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 "PUSH_MESSAGE_DOC" = "%1$@|📎 文件";
-"PUSH_MESSAGE_STICKER" = "%1$@|给您发送了一张 %2$@ 贴纸";
-"PUSH_MESSAGE_AUDIO" = "%1$@|给您发送了一段语音留言";
-"PUSH_MESSAGE_CONTACT" = "%1$@|与您分享了 %2$@ 的联系方式";
-"PUSH_MESSAGE_GEO" = "%1$@|给您发送了一个位置";
+"PUSH_MESSAGE_STICKER" = "%1$@|%2$@ 贴纸";
+"PUSH_MESSAGE_AUDIO" = "%1$@|🎤 语音留言";
+"PUSH_MESSAGE_CONTACT" = "%1$@|👤 %2$@";
+"PUSH_MESSAGE_GEO" = "%1$@|📍 位置";
 "PUSH_MESSAGE_GEOLIVE" = "%1$@|实时位置";
-"PUSH_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
+"PUSH_MESSAGE_POLL" = "%1$@|📊 投票“%2$@”";
 "PUSH_MESSAGE_QUIZ" = "%1$@|发了一个测验“%2$@”给您";
 "PUSH_MESSAGE_GIF" = "%1$@|📹 GIF";
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
-"PUSH_MESSAGE_INVOICE" = "%1$@|给您发送了一张 %2$@ 的账单";
-"PUSH_MESSAGE_FWD" = "%1$@|转发给您一条消息";
+"PUSH_MESSAGE_INVOICE" = "%1$@|%2$@ 的账单";
+"PUSH_MESSAGE_FWD" = "%1$@|转发的消息";
 
 "PUSH_MESSAGE_FWDS_any" = "%1$@|%2$d 条转发的消息";
 "PUSH_MESSAGE_PHOTO" = "%1$@|📷 图片";
@@ -115,25 +115,25 @@
 "PUSH_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d 条视频留言";
 "PUSH_MESSAGE" = "%1$@|新消息";
 
-"PUSH_MESSAGES_any" = "%1$@|给您发送了一组图片";
+"PUSH_MESSAGES_any" = "%1$@|📷📹 相册";
 "PUSH_ALBUM" = "%1$@|📷📹 相册";
 
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
-"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|发布了一条消息";
+"PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|新消息";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|📹 视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 "PUSH_CHANNEL_MESSAGE_DOC" = "%1$@|📎 文件";
 "PUSH_CHANNEL_MESSAGE_STICKER" = "%1$@|发布了一张 %2$@ 贴纸";
 "PUSH_CHANNEL_MESSAGE_AUDIO" = "%1$@|🎤 语音留言";
-"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|发布了 %2$@ 的联系方式";
-"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|发送了一个位置";
-"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|正在共享实时位置";
-"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|发起投票 \"%2$@\"";
+"PUSH_CHANNEL_MESSAGE_CONTACT" = "%1$@|👤 %2$@";
+"PUSH_CHANNEL_MESSAGE_GEO" = "%1$@|📍 位置";
+"PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|实时位置";
+"PUSH_CHANNEL_MESSAGE_POLL" = "%1$@|📊 投票“%2$@”";
 "PUSH_CHANNEL_MESSAGE_QUIZ" = "%1$@|发布了测验“%2$@”";
-"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|发布了一个 GIF";
-"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|邀请您一起玩 %2$@";
-"PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|发布了一条转发的消息";
+"PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|📹 GIF";
+"PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|🎮 玩 %2$@";
+"PUSH_CHANNEL_MESSAGE_FWD" = "%1$@|转发的消息";
 
 "PUSH_CHANNEL_MESSAGE_FWDS_any" = "%1$@|%2$d 条转发的消息";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
@@ -145,24 +145,24 @@
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
 "PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d 条视频留言";
-"PUSH_CHANNEL_MESSAGE" = "%1$@|发布了一条消息";
+"PUSH_CHANNEL_MESSAGE" = "%1$@|新消息";
 
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|📷 相册";
-"PUSH_CHANNEL_ALBUM" = "%1$@|发布了一组图片";
+"PUSH_CHANNEL_ALBUM" = "%1$@|📷📹 相册";
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
-"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@ 向群里发送了一条消息";
-"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
+"PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@: 新消息";
+"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 📹 视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
-"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@ 向群里发送了一个文件";
+"PUSH_CHAT_MESSAGE_DOC" = "%2$@|%1$@: 📎 文件";
 "PUSH_CHAT_MESSAGE_STICKER" = "%2$@|%1$@：%3$@ 贴纸";
 "PUSH_CHAT_MESSAGE_AUDIO" = "%2$@|%1$@: 🎤 语音留言";
-"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@ 分享了一条联系人信息 %3$@";
+"PUSH_CHAT_MESSAGE_CONTACT" = "%2$@|%1$@: 👤 %3$@";
 "PUSH_CHAT_MESSAGE_GEO" = "%2$@|%1$@：📍位置";
 "PUSH_CHAT_MESSAGE_GEOLIVE" = "%2$@|%1$@：实时位置";
-"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@ 发起投票 \"%3$@\"";
+"PUSH_CHAT_MESSAGE_POLL" = "%2$@|%1$@: 📊 投票“%3$@”";
 "PUSH_CHAT_MESSAGE_QUIZ" = "%2$@|%1$@ 发送了测验“%3$@”到群组";
-"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@ 向群里发送了一个 GIF";
+"PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@: 📹 GIF";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ 邀请大家一起玩 %3$@";
 "PUSH_CHAT_MESSAGE_INVOICE" = "%2$@|%1$@：%3$@ 的账单";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
@@ -175,49 +175,49 @@
 "PUSH_CHAT_LEFT" = "%2$@|%1$@ 退出了群组";
 "PUSH_CHAT_RETURNED" = "%2$@|%1$@ 回到了群组";
 "PUSH_CHAT_JOINED" = "%2$@|%1$@ 加入了群组";
-"PUSH_CHAT_MESSAGE_FWD" = "%2$@|%1$@ 转发了一条消息";
+"PUSH_CHAT_MESSAGE_FWD" = "%2$@|%1$@: 转发的消息";
 
-"PUSH_CHAT_MESSAGE_FWDS_any" = "%2$@|%1$@ 转发了 %3$d 条消息";
-"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@ 发送了一张图片";
+"PUSH_CHAT_MESSAGE_FWDS_any" = "%2$@|%1$@: %3$d 转发的消息";
+"PUSH_CHAT_MESSAGE_PHOTO" = "%2$@|%1$@: 📷 图片";
 
-"PUSH_CHAT_MESSAGE_PHOTOS_any" = "%2$@|%1$@ 发送了 %3$d 张图片";
-"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@ 发送了一段视频";
+"PUSH_CHAT_MESSAGE_PHOTOS_any" = "%2$@|%1$@: 📷 %3$d 图片";
+"PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 📹 视频";
 
-"PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@ 发送了 %3$d 段视频";
+"PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@: 📹 %3$d 视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 
-"PUSH_CHAT_MESSAGE_ROUNDS_any" = "%2$@|%1$@ 发送了 %3$d 条视频留言";
-"PUSH_CHAT_MESSAGE" = "%2$@|%1$@ 发送了一条消息";
+"PUSH_CHAT_MESSAGE_ROUNDS_any" = "%2$@|%1$@: 📺 %3$d 视频留言";
+"PUSH_CHAT_MESSAGE" = "%2$@|%1$@: 消息";
 
-"PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@ 发送了一组图片";
+"PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 相册";
 "PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 相册";
 
-"PUSH_PINNED_TEXT" = "%1$@|置顶了 \"%2$@\"";
-"PUSH_PINNED_NOTEXT" = "%1$@|置顶了一条消息";
-"PUSH_PINNED_PHOTO" = "%1$@|置顶了一张图片";
-"PUSH_PINNED_VIDEO" = "%1$@|置顶了一段视频";
-"PUSH_PINNED_ROUND" = "%1$@|置顶了一段视频留言";
-"PUSH_PINNED_DOC" = "%1$@|置顶了一个文件";
+"PUSH_PINNED_TEXT" = "%1$@|📌 置顶了“%2$@”";
+"PUSH_PINNED_NOTEXT" = "%1$@|📌 置顶了一条消息";
+"PUSH_PINNED_PHOTO" = "%1$@|📌 置顶了一张图片";
+"PUSH_PINNED_VIDEO" = "%1$@|📌 置顶了一段视频";
+"PUSH_PINNED_ROUND" = "%1$@|📌 置顶了一段视频留言";
+"PUSH_PINNED_DOC" = "%1$@|📌 置顶了一个文件";
 "PUSH_PINNED_STICKER" = "%1$@|📌置顶了一张 %2$@ 贴纸";
-"PUSH_PINNED_AUDIO" = "%1$@|置顶了一条语音留言";
-"PUSH_PINNED_CONTACT" = "%1$@|置顶了 %2$@ 的联系方式";
-"PUSH_PINNED_GEO" = "%1$@|置顶了一个位置";
-"PUSH_PINNED_GEOLIVE" = "%1$@|置顶了一个实时位置";
-"PUSH_PINNED_POLL" = "%1$@|置顶了一项投票";
+"PUSH_PINNED_AUDIO" = "%1$@|📌 置顶了一条语音留言";
+"PUSH_PINNED_CONTACT" = "%1$@|📌 置顶了联系人: %2$@";
+"PUSH_PINNED_GEO" = "%1$@|📌 置顶了一个位置";
+"PUSH_PINNED_GEOLIVE" = "%1$@|📌 置顶了一个实时位置";
+"PUSH_PINNED_POLL" = "%1$@|📌 置顶了一项投票";
 "PUSH_PINNED_QUIZ" = "%1$@|置顶了一个测验";
-"PUSH_PINNED_GAME" = "%1$@|置顶了一个游戏";
+"PUSH_PINNED_GAME" = "%1$@|📌 置顶了一个游戏";
 "PUSH_PINNED_INVOICE" = "%1$@|📌 置顶了一张账单";
-"PUSH_PINNED_GIF" = "%1$@|置顶了一个 GIF";
+"PUSH_PINNED_GIF" = "%1$@|📌 置顶了一个 GIF";
 
 "PUSH_CONTACT_JOINED" = "%1$@|加入了 Telegram！";
 
 "PUSH_AUTH_UNKNOWN" = "New login|from %1$@";
 "PUSH_AUTH_REGION" = "New login|Device: %1$@. Location: %2$@";
 
-"PUSH_PHONE_CALL_REQUEST" = "%1$@|正在呼叫您！";
-"PUSH_PHONE_CALL_MISSED" = "%1$@|您错过了一通来电";
+"PUSH_PHONE_CALL_REQUEST" = "%1$@|来电！";
+"PUSH_PHONE_CALL_MISSED" = "%1$@|☎️未接来电";
 
-"PUSH_MESSAGE_GAME_SCORE" = "%1$@ 在 %2$@ 中获得了 %3$@ 分";
+"PUSH_MESSAGE_GAME_SCORE" = "🎮 %1$@在“%2$@”中获得了 %3$@ 分";
 
 "PUSH_MESSAGE_CHANNEL_MESSAGE_GAME_SCORE" = "%1$@ 在游戏 %2$@ 中获得了 %3$@ 分";
 
@@ -4445,7 +4445,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Channel.OwnershipTransfer.TransferCompleted" = "**%1$@** 现在是**%2$@**的所有者";
 
-"Contacts.AddPeopleNearby" = "添加附近的人";
+"Contacts.AddPeopleNearby" = "寻找附近的人";
 
 "PeopleNearby.Title" = "附近的人";
 "PeopleNearby.Description" = "让您附近的朋友打开此页面以交换手机号码。";
