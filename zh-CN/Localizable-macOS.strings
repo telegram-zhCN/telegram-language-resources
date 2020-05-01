@@ -1671,7 +1671,7 @@
 "PrivacySettingsController.Forwards.AlwaysAllow.Title" = "总是允许";
 "PrivacySettingsController.Forwards.CustomHelp" = "您可以精确地控制谁可以转发您的消息。";
 "PrivacySettingsController.Forwards.NeverAllow.Title" = "从不允许";
-"PrivacySettingsController.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接";
+"PrivacySettingsController.Forwards.WhoCanForward" = "谁可以在转发我的消息时附加我的帐号链接？";
 "PrivacySettingsController.GroupDescription" = "您可以精确控制其他人能否邀请您进入任意群组或频道。";
 "PrivacySettingsController.GroupHeader" = "邀请权限控制";
 "PrivacySettingsController.Header" = "最后上线 & 在线";
@@ -2020,13 +2020,13 @@
 "ShortcutsController.Chat.SelectMessageToReply" = "选择要回复的消息";
 "ShortcutsController.Gestures" = "手势";
 "ShortcutsController.Gestures.ChatAction" = "对话操作";
-"ShortcutsController.Gestures.ChatAction.Value" = "左右滑动";
+"ShortcutsController.Gestures.ChatAction.Value" = "向左或向右滑动";
 "ShortcutsController.Gestures.Navigation" = "返回";
 "ShortcutsController.Gestures.Navigations.Value" = "从左向右滑动";
 "ShortcutsController.Gestures.Reply" = "回复";
 "ShortcutsController.Gestures.Reply.Value" = "从右向左滑动";
 "ShortcutsController.Gestures.Stickers" = "贴纸/Emoji/GIF面板";
-"ShortcutsController.Gestures.Stickers.Value" = "左右滑动";
+"ShortcutsController.Gestures.Stickers.Value" = "向左或向右滑动";
 "ShortcutsController.Markdown" = "MARKDOWN";
 "ShortcutsController.Markdown.Bold" = "粗体";
 "ShortcutsController.Markdown.Hyperlink" = "链接";

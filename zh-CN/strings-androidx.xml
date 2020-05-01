@@ -2795,7 +2795,7 @@
   <string name="PrivacyPhotoEverybodyExcept">每个人 (%1$s) 都可以看到你的头像</string>
   <string name="PrivacyPhotoTitle">头像</string>
 
-  <string name="WhoCanForwardLink">谁可以在转发我的消息上附加用户链接？</string>
+  <string name="WhoCanForwardLink">谁可以在转发我的消息时附加我的帐号链接？</string>
   <string name="WhoCanForwardLinkInfo">消息被转发时，您可以控制转发的消息中是否包含个人信息链接。</string>
 
   <string name="WhoCanSeePhoto">谁可以查看您的头像？</string>

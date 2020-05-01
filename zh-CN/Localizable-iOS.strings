@@ -980,7 +980,7 @@
 "Settings.PhoneNumber" = "更改号码";
 
 "PhoneNumberHelp.Help" = "你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。";
-"PhoneNumberHelp.Alert" = "所有拥有当前号码，且未被屏蔽的 Telegram 联系人会自动获取新号码。";
+"PhoneNumberHelp.Alert" = "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。\n您可以在 设置 > 隐私和安全 > 手机号码 中修改这项权限。";
 "PhoneNumberHelp.ChangeNumber" = "更换手机号码";
 
 "ChangePhoneNumberNumber.Title" = "更改号码";
@@ -1193,7 +1193,7 @@
 "AccessDenied.MicrophoneRestricted" = "Telegram 无法访问麦克风。\n\n请前往「设置 > 通用 > 访问限制 > 麦克风」并打开 Telegram 的开关。";
 
 
-"AccessDenied.Camera" = "Telegram 需要访问您的相机来拍照或录像。\n\n请前往「设置 > 隐私 > 相机」并打开 Telegram 的开关。";
+"AccessDenied.Camera" = "Telegram 需要访问您的相机来拍照或录像。\n\n请前往您设备的「设置 > 隐私 > 相机」并打开 Telegram 的开关。";
 
 "AccessDenied.CameraRestricted" = "Telegram 受限制无法访问您的相机。\n\n请前往「设置 > 通用 > 访问限制 > 相机」并打开 Telegram 的开关。";
 
@@ -1369,7 +1369,7 @@
 "Map.AccurateTo" = "精确到 %@";
 "Map.Search" = "搜索附近地点";
 "Map.ShowPlaces" = "显示位置";
-"Map.LoadError" = "呃，出错了。 请稍后再试。";
+"Map.LoadError" = "呃，出错了，请稍后再试。";
 "Map.LocatingError" = "定位失败";
 "Map.Unknown" = "未知位置";
 
@@ -2727,7 +2727,7 @@ Unused sets are archived when you add more.";
 
 "Channel.Members.AddAdminErrorNotAMember" = "抱歉，您无法将此用户设为管理员。因为此用户不是群组成员，且您也无权添加此用户。";
 
-"Channel.Members.AddAdminErrorBlacklisted" = "抱歉，您无法设置此用户为管理员，因为此用户在黑名单中，且您无权解封。";
+"Channel.Members.AddAdminErrorBlacklisted" = "抱歉，您无法将此用户添加为管理员，因为他们在黑名单中，且您无权将其解封。";
 
 "Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁此用户。因为此用户是群组管理员，并且您也无权撤销其管理员权限。";
 
@@ -3084,7 +3084,7 @@ Unused sets are archived when you add more.";
 "Appearance.ColorTheme" = "色彩主题";
 "Appearance.ThemeDayClassic" = "经典日间";
 "Appearance.ThemeDay" = "日间";
-"Appearance.ThemeNight" = "夜间";
+"Appearance.ThemeNight" = "黑白";
 "Appearance.ThemeNightBlue" = "夜间蓝";
 "Appearance.PreviewReplyAuthor" = "鮑伯·哈里斯";
 "Appearance.PreviewReplyText" = "早上好！👋";
@@ -3130,7 +3130,7 @@ Unused sets are archived when you add more.";
 
 "Camera.Discard" = "丢弃全部操作";
 
-"Stickers.SuggestStickers" = "通过 Emoji 推荐贴纸";
+"Stickers.SuggestStickers" = "通过 Emoji 推荐";
 "Stickers.SuggestAll" = "全部贴纸包";
 "Stickers.SuggestAdded" = "已添加的贴纸包";
 "Stickers.SuggestNone" = "从不推荐";
@@ -3335,14 +3335,14 @@ Unused sets are archived when you add more.";
 "Passport.Address.TypePassportRegistration" = "护照注册信息";
 "Passport.Address.TypeUtilityBill" = "水电费账单";
 "Passport.Address.TypeBankStatement" = "银行对账单";
-"Passport.Address.TypeRentalAgreement" = "租赁合同";
+"Passport.Address.TypeRentalAgreement" = "租赁协议";
 "Passport.Address.TypeTemporaryRegistration" = "临时居住证明";
 
 "Passport.Address.AddResidentialAddress" = "添加住宅地址";
 "Passport.Address.AddPassportRegistration" = "添加护照注册信息";
 "Passport.Address.AddUtilityBill" = "添加水电费账单";
 "Passport.Address.AddBankStatement" = "添加银行对账单";
-"Passport.Address.AddRentalAgreement" = "添加租赁合同";
+"Passport.Address.AddRentalAgreement" = "添加租赁协议";
 "Passport.Address.AddTemporaryRegistration" = "添加临时居住证明";
 
 "Passport.Address.EditResidentialAddress" = "编辑住宅地址";
@@ -3379,7 +3379,7 @@ Unused sets are archived when you add more.";
 "Passport.Email.UseTelegramEmailHelp" = "使用您登记在 Telegram 上的邮件地址。";
 "Passport.Email.EnterOtherEmail" = "或输入新的邮箱地址";
 "Passport.Email.EmailPlaceholder" = "输入您的邮箱地址";
-"Passport.Email.Help" = "注意：您将会收到发送至您提供的邮件地址上的一份验证码。";
+"Passport.Email.Help" = "验证码将发送到您提供的电子邮件地址中。";
 "Passport.Email.Delete" = "删除邮箱地址";
 "Passport.Email.CodeHelp" = "请输入我们刚刚向 %@ 发送的验证码。";
 
@@ -3402,7 +3402,7 @@ Unused sets are archived when you add more.";
 "Passport.ScanPassport" = "扫描您的护照";
 "Passport.ScanPassportHelp" = "扫描带有机读区域的护照或身份证来自动填充个人信息。";
 
-"TwoStepAuth.PasswordRemovePassportConfirmation" = "您确定要删除您的密码吗？\n\n警告！所有储存在 Telegram Passport 中的数据都将丢失！";
+"TwoStepAuth.PasswordRemovePassportConfirmation" = "您确定要删除您的密码吗？\n\n警告！所有储存在 Telegram Passport 中的数据都将丢失。";
 
 "Application.Update" = "更新";
 
@@ -3505,10 +3505,10 @@ Unused sets are archived when you add more.";
 "Notifications.ExceptionsUnmuted" = "已开通知";
 "Notifications.AddExceptionTitle" = "添加例外";
 
-"Notifications.ExceptionsMessagePlaceholder" = "此区域将列出所有含非默认通知设置的私聊对话。";
-"Notifications.ExceptionsGroupPlaceholder" = "此区域将列出所有含非默认通知设置的群组与频道。";
+"Notifications.ExceptionsMessagePlaceholder" = "此区域将列出所有含非默认通知设置的私聊对话";
+"Notifications.ExceptionsGroupPlaceholder" = "此区域将列出所有含非默认通知设置的群组与频道";
 
-"Passport.Identity.LatinNameHelp" = "使用拉丁字母输入您的姓名";
+"Passport.Identity.LatinNameHelp" = "使用拉丁字母输入您的姓名。";
 "Passport.Identity.NativeNameTitle" = "%@ 中的名字";
 "Passport.Identity.NativeNameGenericTitle" = "您在居住国的姓名";
 "Passport.Identity.NativeNameHelp" = "请以您所居住的国家语言填写您的姓名。";
@@ -3710,7 +3710,7 @@ Unused sets are archived when you add more.";
 "TwoStepAuth.EnabledSuccess" = "两步验证\n已启用";
 "TwoStepAuth.DisableSuccess" = "Two-Step verification\nis disabled.";
 "TwoStepAuth.PasswordChangeSuccess" = "Your password\nhas been changed.";
-"TwoStepAuth.EmailAddSuccess" = "您已成功添加\n恢复邮箱";
+"TwoStepAuth.EmailAddSuccess" = "已添加恢复邮箱";
 "TwoStepAuth.EmailChangeSuccess" = "您已成功更改\n恢复邮箱";
 
 "Conversation.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
@@ -3911,7 +3911,7 @@ Unused sets are archived when you add more.";
 "EmptyGroupInfo.Line4" = "设置权限细分的管理员";
 
 "WallpaperPreview.Title" = "背景预览";
-"WallpaperPreview.PreviewTopText" = "点按设置以应用背景";
+"WallpaperPreview.PreviewTopText" = "点击设置应用背景";
 "WallpaperPreview.PreviewBottomText" = "欣赏美景吧！";
 "WallpaperPreview.SwipeTopText" = "向两侧滑动可以查看更多背景图";
 "WallpaperPreview.SwipeBottomText" = "点按“动效”并尝试倾斜您的手机";
@@ -4102,7 +4102,7 @@ Unused sets are archived when you add more.";
 
 "Gif.Search" = "搜索 GIF 图";
 "Gif.NoGifsFound" = "未找到 GIF";
-"Gif.NoGifsPlaceholder" = "您还没有保存过 GIF。";
+"Gif.NoGifsPlaceholder" = "没有已保存的GIF";
 
 "Privacy.ProfilePhoto" = "头像";
 "Privacy.Forwards" = "引用转发来源";
@@ -4112,8 +4112,8 @@ Unused sets are archived when you add more.";
 "Privacy.ProfilePhoto.AlwaysShareWith.Title" = "总是共享给";
 "Privacy.ProfilePhoto.NeverShareWith.Title" = "从不共享给";
 
-"Privacy.Forwards.WhoCanForward" = "谁可以在转发我的消息时添加一个到我帐户的链接？";
-"Privacy.Forwards.CustomHelp" = "当被转发到其他对话时，无法通过您发送的消息链接回您的帐户。";
+"Privacy.Forwards.WhoCanForward" = "谁可以在转发我的消息时附加我的帐号链接？";
+"Privacy.Forwards.CustomHelp" = "当其他用户转发时，您发送的消息不会链接回您的帐号。";
 "Privacy.Forwards.AlwaysAllow.Title" = "总是允许";
 "Privacy.Forwards.NeverAllow.Title" = "从不允许";
 
@@ -4349,7 +4349,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.LinkGroup" = "链接群组";
 "Channel.DiscussionGroup.UnlinkGroup" = "取消链接群组";
 "Channel.DiscussionGroup.UnlinkChannel" = "取消链接频道";
-"Channel.DiscussionGroup.PublicChannelLink" = "确定要将 %1$@ 设置为 %2$@ 的讨论群组吗？";
+"Channel.DiscussionGroup.PublicChannelLink" = "您想让“%1$@”成为频道“%2$@”的讨论群吗？";
 "Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
 
 Any member of this group will be able to see messages in the channel.";
@@ -4473,7 +4473,7 @@ Any member of this group will be able to see messages in the channel.";
 "Map.SetThisLocation" = "设置为此地点";
 
 "Permissions.PeopleNearbyTitle.v0" = "附近的人";
-"Permissions.PeopleNearbyText.v0" = "快速添加正在查看此页面的人并发现本地群组。\n\n请启用位置访问权限以启用此功能。";
+"Permissions.PeopleNearbyText.v0" = "快速添加附近也在查看此部分的人，并发现本地群组。  \n\n请允许位置访问以启用此功能。";
 "Permissions.PeopleNearbyAllow.v0" = "允许访问";
 "Permissions.PeopleNearbyAllowInSettings.v0" = "在设置中允许";
 
@@ -5320,7 +5320,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.VisibleUntil" = "可见，直到 %@";
 
 "PeopleNearby.MakeVisibleTitle" = "显示您的个人资料？";
-
+"PeopleNearby.MakeVisibleDescription" = "附近的用户将可以查看您的个人资料。这可能会帮助您认识新朋友，但也有可能引起不必要的注意。您可以随时关闭这个功能。\n\n您的手机号将保持隐藏状态。";
 
 "PeopleNearby.DiscoverDescription" = "与附近的人交换联系信息\n并找到新朋友。";
 

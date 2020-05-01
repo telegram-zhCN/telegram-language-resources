@@ -3274,7 +3274,7 @@
   <string name="EditPrivacyChatInviteGroup">Add Me to Other Chats</string>
   <string name="EditPrivacyGroupInfo">These are default privacy settings applied to %1$s members. You can check your privacy settings for specific users on their profile page.</string>
 
-  <string name="MuteNonContacts">Mute Non-Contacts</string>
+  <string name="MuteNonContacts">Silence Non-Contacts</string>
   <string name="MuteNonContactsInfo">Notifications from people that are not your contacts will appear without sound. You can add users to contacts without phone number from their profile.</string>
 
   <string name="TakeVideoError">Error capturing video</string>

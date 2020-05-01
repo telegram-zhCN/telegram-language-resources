@@ -977,7 +977,7 @@
     <string name="DartInfo">发送一个 **:darts:** 来试试你的运气。</string>
     <string name="DiceEmojiInfo">发送一个 %1$s emoji 以试试您的运气。</string>
     <string name="SendDice">发送</string>
-    <string name="PsaType_covid">公共服务通知</string>
+    <string name="PsaType_covid">新冠肺炎 (COVID-19)</string>
     <string name="PsaTypeDefault">公共服务通知</string>
     <string name="PsaInfo_covid">此消息为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus</string>
     <string name="PsaInfoDefault">公共服务公告信息测试</string>
@@ -986,7 +986,7 @@
     <string name="PsaMessageDefault">重要通知</string>
     <string name="PsaMessageInfoDefault">这是一个重要的通知。</string>
     <string name="PsaHideChatAlertTitle">隐藏对话</string>
-    <string name="PsaHideChatAlertText">您确定要隐藏所选的对话吗？</string>
+    <string name="PsaHideChatAlertText">您确定要隐藏此对话吗？</string>
     <string name="PsaHide">隐藏</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
@@ -2460,8 +2460,8 @@
     <string name="PrivacyForwardsEverybody">可以链接到您的帐户</string>
     <string name="PrivacyForwardsContacts">允许时可点击查看个人信息</string>
     <string name="PrivacyForwardsNobody">无法链接到您的帐户</string>
-    <string name="PrivacyForwardsTitle">谁可以在转发我的消息上附加用户链接？</string>
-    <string name="PrivacyForwardsInfo">被其他用户转发的消息将无法链接回您的帐户。</string>
+    <string name="PrivacyForwardsTitle">谁可以在转发我的消息时附加我的帐号链接？</string>
+    <string name="PrivacyForwardsInfo">当其他用户转发时，您发送的消息不会链接回您的帐号。</string>
     <string name="PrivacyForwardsInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="PrivacyP2PHeader">端到端</string>
