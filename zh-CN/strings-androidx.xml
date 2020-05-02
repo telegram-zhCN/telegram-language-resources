@@ -81,7 +81,6 @@
   <string name="format_ping">Ping: %1$s 毫秒</string>
   <string name="format_pingBest">Ping: %1$s 毫秒（最佳）</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
-  <string name="format_dateViaBot">%1$s 通过 %2$s</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   
   
@@ -311,6 +310,7 @@
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
   <string name="Video">视频</string>
+  
   <string name="sticker">%1$s [贴纸]</string>
   <string name="File">文件</string>
   <string name="Location">位置</string>
@@ -1798,7 +1798,8 @@
   <string name="AppUpdateRequiredTitle">需要更新</string>
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
-  <string name="message_via">通过</string>
+  
+  
   <string name="message_adminSignPlain">管理员</string>
   <string name="message_ownerSign">所有者</string>
   <string name="message_channelSign">频道</string>
@@ -3286,6 +3287,25 @@
 
   
   
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
   
   
 
@@ -3382,10 +3402,12 @@
   <string name="XSentARoundVideo">%1$s 发送了一条视频留言</string>
   <string name="XSentAVideo">%1$s 发送了一段视频</string>
   <string name="XSentAVoice">%1$s 发送了一条语音留言</string>
+  <string name="format_dateViaBot">%1$s 通过 %2$s</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="login_Country">国家</string>
   <string name="login_YourName">您的姓名</string>
   <string name="message_adminSign">" 管理员"</string>
+  <string name="message_via">通过</string>
   <string name="service_Notifications">该服务用于显示消息通知。</string>
   <string name="xAnswered_other">%1$s 人回答</string>
 </resources>

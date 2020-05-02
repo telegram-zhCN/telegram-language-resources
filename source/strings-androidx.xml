@@ -81,7 +81,6 @@
   <string name="format_ping">ping: %1$sms</string>
   <string name="format_pingBest">ping: %1$sms, best</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
-  <string name="format_dateViaBot">%1$s via %2$s</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   <string name="format_channelAndSignature">%1$s (%2$s)</string>
   <string name="messagesCount_one">%1$s</string>
@@ -311,6 +310,7 @@
   <string name="Voice">Voice</string>
   <string name="Photo">Photo</string>
   <string name="Video">Video</string>
+  <string name="Gif">GIF</string>
   <string name="sticker">%1$s Sticker</string>
   <string name="File">File</string>
   <string name="Location">Location</string>
@@ -1798,7 +1798,8 @@
   <string name="AppUpdateRequiredTitle">Update required</string>
   <string name="AppUpdateOk">Update</string>
   <string name="ProxySponsor">Proxy sponsor</string>
-  <string name="message_via">" via "</string>
+  <string name="message_viaBot">via %1$s</string>
+  <string name="message_nameViaBot">%1$s via %2$s</string>
   <string name="message_adminSignPlain">admin</string>
   <string name="message_ownerSign">owner</string>
   <string name="message_channelSign">channel</string>
@@ -3284,6 +3285,25 @@
 
   <string name="QuizOptionHint">Tap to choose the correct answer.</string>
 
+  <string name="PsaType">PSA</string>
+  <string name="PsaTypeCovid">COVID-19</string>
+
+  <string name="PsaForward">PSA Notification</string>
+  <string name="PsaForwardCovid">COVID-19 Notification</string>
+
+  <string name="PsaInfo">This message provides you with a public service announcement.</string>
+  <string name="PsaInfoCovid">This message provides you with a public service announcement in relation to the ongoing **COVID-19** pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus</string>
+
+  <string name="PsaHide">Hide</string>
+  <string name="PsaHideDone">Hide from chat list</string>
+  <string name="PsaFromX">from %1$s</string>
+  <string name="PsaFromXViaBot">from %1$s via %2$s</string>
+
+  <string name="PsaHideConfirm">Hide %1$s?</string>
+  <string name="PsaHideConfirmCovid">Hide COVID-19 notifications from %1$s?</string>
+
+  <string name="ProxySponsorAlert">This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings.</string>
+
   
   
   
@@ -3901,6 +3921,7 @@
   <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="format_dateViaBot">%1$s via %2$s</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_sendTodayAt">%1$s (%2$s)</string>
   <string name="format_sendTomorrowAt">%1$s (tomorrow at %2$s)</string>
@@ -3943,6 +3964,7 @@
   <string name="mentionCount_few">%1$s mentions</string>
   <string name="mentionCount_many">%1$s mentions</string>
   <string name="message_adminSign">"  admin"</string>
+  <string name="message_via">" via "</string>
   <string name="messagesCount_zero">%1$s</string>
   <string name="messagesCount_two">%1$s</string>
   <string name="messagesCount_few">%1$s</string>
