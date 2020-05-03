@@ -768,11 +768,11 @@
   <string name="EnterANewEmail">请输入新邮箱地址</string>
   <string name="ForgotPassword">忘记密码？</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
-  <string name="SinceNotProvided">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
+  <string name="SinceNotProvided">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐号。</string>
   <string name="PendingEmailText">您的两步验证恢复邮箱 %1$s 正等待验证。</string>
   <string name="CreateAHintForYourPassword">请设置一个密码提示</string>
   <string name="HavingTroubleAccessing">无法访问您的密码恢复邮箱\n %1$s?</string>
-  <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐户两个选择。</string>
+  <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐号两个选择。</string>
   <string name="EnterCode">输入验证码</string>
   <string name="PasswordRecovery">找回密码</string>
   <string name="LoginPasswordText">您已经启用两步认证，这个附加密码将保护您的帐号。</string>
@@ -781,7 +781,7 @@
   <string name="YourEmailInfo">请添加您的有效电子邮件地址。它是您在遗忘密码后唯一的恢复途径。</string>
   <string name="Skip">跳过</string>
   <string name="Warning">警告</string>
-  <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
+  <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐号，并且我们没有任何恢复帐号数据的方法。</string>
   <string name="PasswordDoNotMatch">密码不匹配</string>
   <string name="CheckYourVerificationEmail">请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。</string>
   <string name="InvalidCode">验证码无效，请重试。</string>
@@ -1299,7 +1299,7 @@
   
   
   
-  
+  <string name="RoleMember_now">刚刚加入</string>
   
   
   
@@ -1694,7 +1694,7 @@
   <string name="LedWhite">白色</string>
   <string name="SetProfilePhotoError">上传头像时出错：%1$s</string>
   <string name="BotNotFound">机器人 %1$s 未找到</string>
-  <string name="AddAccount">添加帐户</string>
+  <string name="AddAccount">添加帐号</string>
   <string name="VoipAnsweringAsAccount">作为 %1$s 回应</string>
   <string name="ShowSourceMessage">查看源对话</string>
   <string name="Directions">路线...</string>
@@ -1861,7 +1861,7 @@
   <string name="ErrorUsersTooFew">抱歉，根据这些用户的隐私设置，您无法将他们添加到群组。</string>
   <string name="SyncContacts">同步通讯录</string>
   <string name="SyncContactsInfoOff">开启以将该设备上的联系人即时同步至您的帐号。</string>
-  <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐户。</string>
+  <string name="SyncContactsInfoOn">此设备上的联系人将被同步至您的帐号。</string>
   <string name="SyncContactsDelete">清空云端通讯录</string>
   <string name="SyncContactsDeleteButton">清空云端通讯录</string>
   <string name="SyncContactsDeleteInfo">这样做将从 Telegram 服务器中移除关于您通讯录的一切信息。如果“同步通讯录”功能保持开启，您的通讯录会被重新同步到 Telegram 服务器。</string>
@@ -1946,8 +1946,8 @@
   <string name="DestroyX_other">要删除 %2$s 吗？它将从您和其他 %1$s 位成员的对话列表中消失。</string>
   <string name="Copyright">侵犯版权</string>
   <string name="PrivacyAdvanced">高级</string>
-  <string name="DeleteAccountIfAwayFor2">删除我的帐户若离线时间达</string>
-  <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您帐号的所有资料——包括消息记录、联系人都会被删除。</string>
+  <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
+  <string name="DeleteAccountHelp">您在这段时间内至少要上线一次，否则您的帐号将被删除，您也将失去所有消息记录和联系人。</string>
   <string name="PrivacyDeleteCloudDrafts">删除所有云端草稿</string>
   <string name="AreYouSureClearDrafts">您确定要删除所有草稿吗？</string>
   <string name="SeparateMediaTab">在分类中区分图片与视频</string>
@@ -2139,11 +2139,11 @@
   <string name="email_metadata">App version: %1$s\nLanguage: %2$s\nSystem Language: %3$s\nSystem Version: %4$s</string>
 
   <string name="SignOutHint2">您确定要退出 %1$s 吗？\n\n请注意，您可以同时在所有设备上无缝使用Telegram。\n\n谨记，这会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
-  <string name="RemoveAccountHint2">要注销 %1$s 吗？此帐户上的所有加密对话都将丢失。已下载的媒体将从此设备中抹去。</string>
+  <string name="RemoveAccountHint2">要注销 %1$s 吗？此帐号上的所有加密对话都将丢失。已下载的媒体将从此设备中抹去。</string>
 
   <string name="SignOutAlt">其它选项</string>
-  <string name="SignOutAltAddAccount">添加另一个帐户</string>
-  <string name="SignOutAltAddAccountHint">登录其他 Telegram 帐户并在它们之间轻松切换。</string>
+  <string name="SignOutAltAddAccount">添加其他帐号</string>
+  <string name="SignOutAltAddAccountHint">登录其他 Telegram 帐号并在它们之间轻松切换。</string>
   <string name="SignOutAltPasscode">设置锁定码</string>
   <string name="SignOutAltPasscodeHint">用屏幕锁定码保护您的隐私信息。</string>
   <string name="SignOutAltClearCache">清空缓存</string>
@@ -2662,7 +2662,7 @@
   <string name="EraseDatabaseProgress">"抹除所有数据...请稍候，不要关闭应用程序，此操作可能需要一段时间。 "</string>
   <string name="EraseDatabaseWarn">**警告！**\n\n加密聊天记录将全部丢失。 所有媒体都将需要重新下载。</string>
   <string name="EraseDatabaseWarn2">**重要提示**\n\n您确定要清除本地数据库，删除所有下载的媒体文件并删除取消所有加密聊天吗？</string>
-  <string name="EraseDatabaseMultiUser">该操作不会影响其他帐户。</string>
+  <string name="EraseDatabaseMultiUser">此操作不会影响其他帐号。</string>
   <string name="EraseDatabaseWait">请等待上一个操作完成。</string>
 
   <string name="ReadAllChats">标记所有对话为已读</string>
@@ -3291,6 +3291,9 @@
   
   
 
+  <string name="PsaInfo">此消息为您提供一个公共服务公告。</string>
+  
+
   
   
 
@@ -3383,7 +3386,7 @@
   <string name="QDeleteX">删除 %1$s？</string>
   <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>
   <string name="Region">地区</string>
-  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐户有关的加密对话信息将会丢失。</string>
+  <string name="RemoveAccountHint">您确认要登出 %1$s？该设备上所有与此帐号有关的加密对话信息将会丢失。</string>
   <string name="RevokeAdminRights">撤销管理员权限</string>
   <string name="SetAdminsAll">将所有成员都设为管理员</string>
   <string name="SetAdminsAllInfo">所有成员都能添加新成员、编辑群组名称和头像。</string>

@@ -719,7 +719,7 @@
   <string name="Save">Save</string>
   <string name="PrivacyTitle">Privacy</string>
   <string name="BlockedUsers">Blocked Users</string>
-  <string name="LastSeen">Last Seen</string>
+  <string name="LastSeen">Last Seen &amp; Online</string>
   <string name="GroupsAndChannels">Groups and Channels</string>
   <string name="SecurityTitle">Security</string>
   <string name="SessionsTitle">Active Sessions</string>
@@ -1816,12 +1816,12 @@
   <string name="PrivacyLastSeenContactsExcept">Only contacts (%1$s) can see your Last Seen</string>
   <string name="PrivacyLastSeenEverybody">Everybody can see your Last Seen</string>
   <string name="PrivacyLastSeenEverybodyExcept">Everybody (%1$s) can see your Last Seen</string>
-  <string name="PrivacyAddToGroupsNobody">Nobody can add you to groups and channels</string>
-  <string name="PrivacyAddToGroupsNobodyExcept">Nobody (%1$s) can add you to groups and channels</string>
-  <string name="PrivacyAddToGroupsContacts">Only contacts can add you to groups and channels</string>
-  <string name="PrivacyAddToGroupsContactsExcept">Only contacts (%1$s) can add you to groups and channels</string>
-  <string name="PrivacyAddToGroupsEverybody">Everybody can add you to groups and channels</string>
-  <string name="PrivacyAddToGroupsEverybodyExcept">Everybody (%1$s) can add you to groups and channels</string>
+  <string name="PrivacyAddToGroupsNobody">Nobody can add you</string>
+  <string name="PrivacyAddToGroupsNobodyExcept">Nobody (%1$s) can add you</string>
+  <string name="PrivacyAddToGroupsContacts">Only contacts can add you</string>
+  <string name="PrivacyAddToGroupsContactsExcept">Only contacts (%1$s) can add you</string>
+  <string name="PrivacyAddToGroupsEverybody">Everybody can add you</string>
+  <string name="PrivacyAddToGroupsEverybodyExcept">Everybody (%1$s) can add you</string>
   <string name="PrivacyAddToGroupsExceptionOn">Allowed</string>
   <string name="PrivacyAddToGroupsExceptionOff">Disallowed</string>
   <string name="PrivacyAddToGroupsExceptionContacts">Only contacts</string>
@@ -3221,10 +3221,10 @@
   <string name="StatsChartGrowth">Growth</string>
   <string name="StatsChartFollowers">Followers</string>
   <string name="StatsChartNotifications">Notifications</string>
-  <string name="StatsChartViewsByHour">Views by hour (UTC)</string>
+  <string name="StatsChartViewsByHour">Views by hours (UTC)</string>
   <string name="StatsChartViewsBySource">Views by source</string>
   <string name="StatsChartFollowersBySource">New followers by source</string>
-  <string name="StatsChartLanguage">Language</string>
+  <string name="StatsChartLanguage">Languages</string>
   <string name="StatsChartInteractions">Interactions</string>
   <string name="StatsChartIv">IV Interactions</string>
 
@@ -3248,11 +3248,11 @@
   <string name="EditPrivacy">Privacy Exceptions</string>
   <string name="EditPrivacyHint">You can check how specific users or chat members see you via Profile – Three-dot-Menu – Privacy Exceptions.</string>
 
-  <string name="PrivacyVisibilityUser">What %1$s can see on my profile?</string>
-  <string name="PrivacyVisibilityBot">What %1$s has access to?</string>
+  <string name="PrivacyVisibilityUser">What can %1$s see on my profile?</string>
+  <string name="PrivacyVisibilityBot">What does %1$s have access to?</string>
   <string name="PrivacyVisibilityGroup">What members of this chat see on my profile?</string>
-  <string name="PrivacyActionUser">What %1$s is allowed to do?</string>
-  <string name="PrivacyActionBot">What %1$s is allowed to do?</string>
+  <string name="PrivacyActionUser">What is %1$s allowed to do?</string>
+  <string name="PrivacyActionBot">What is %1$s allowed to do?</string>
   <string name="PrivacyActionGroup">What members of this chat are allowed to do?</string>
   <string name="PrivacyOther">Other</string>
 
@@ -3264,7 +3264,7 @@
   <string name="PrivacyDefaultXChats_other">Default for %1$s chats</string>
 
   <string name="EditPrivacyPhoto">Profile Photo</string>
-  <string name="EditPrivacyStatus">Last Seen</string>
+  <string name="EditPrivacyStatus">Last Seen &amp; Online</string>
   <string name="EditPrivacyPhoneNumber">Phone Number</string>
 
   <string name="EditPrivacyForward">Forward My Messages</string>
@@ -3276,7 +3276,7 @@
   <string name="EditPrivacyGroupInfo">These are default privacy settings applied to %1$s members. You can check your privacy settings for specific users on their profile page.</string>
 
   <string name="MuteNonContacts">Silence Non-Contacts</string>
-  <string name="MuteNonContactsInfo">Notifications from people that are not your contacts will appear without sound. You can add users to contacts without phone number from their profile.</string>
+  <string name="MuteNonContactsInfo">Notifications from people that are not your contacts will appear without sound. You can add users to contacts from their profile without knowing their phone number.</string>
 
   <string name="TakeVideoError">Error capturing video</string>
   <string name="TakePhotoError">Error taking picture</string>
@@ -3293,6 +3293,9 @@
 
   <string name="PsaInfo">This message provides you with a public service announcement.</string>
   <string name="PsaInfoCovid">This message provides you with a public service announcement in relation to the ongoing **COVID-19** pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus</string>
+
+  <string name="PsaChatInfo">This chat provides you with a public service announcements.</string>
+  <string name="PsaChatInfoCovid">This chat provides you with a public service announcements in relation to the ongoing **COVID-19** pandemic. Learn more about this initiative at https://telegram.org/blog/coronavirus</string>
 
   <string name="PsaHide">Hide</string>
   <string name="PsaHideDone">Hide from chat list</string>

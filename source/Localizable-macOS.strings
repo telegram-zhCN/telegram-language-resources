@@ -468,7 +468,7 @@
 "ChannelStats.Graph.Followers" = "FOLLOWERS";
 "ChannelStats.Graph.Growth" = "GROWTH";
 "ChannelStats.Graph.Interactions" = "INTERACTIONS";
-"ChannelStats.Graph.Language" = "LANGUAGE";
+"ChannelStats.Graph.Language" = "LANGUAGES";
 "ChannelStats.Graph.NewFollowersBySource" = "FOLLOWERS BY SOURCE";
 "ChannelStats.Graph.Notifications" = "NOTIFICATIONS";
 "ChannelStats.Graph.ViewsByHours" = "VIEWS BY HOURS (UTC)";

@@ -12,14 +12,14 @@
     <string name="StartText">请确认您的国家代码并输入您的手机号码。</string>
     <string name="ChooseCountry">选择国家</string>
     <string name="WrongCountry">国家代码无效</string>
-    <string name="AccountAlreadyLoggedIn">该帐户已在此应用中登录。</string>
+    <string name="AccountAlreadyLoggedIn">该帐号已在此应用中登录。</string>
     <string name="AccountSwitch">切换</string>
     <string name="SyncContacts">同步通讯录</string>
-    <string name="SyncContactsOn">此设备上的通讯录将被同步至此帐户。</string>
-    <string name="SyncContactsOff">此设备上的通讯录将不会被同步至此帐户。</string>
-    <string name="SyncContactsInfoOn">此设备上的通讯录将被同步至您的帐户。</string>
+    <string name="SyncContactsOn">此设备上的通讯录将被同步至此帐号。</string>
+    <string name="SyncContactsOff">此设备上的通讯录将不会被同步至此帐号。</string>
+    <string name="SyncContactsInfoOn">此设备上的通讯录将被同步至您的帐号。</string>
     <string name="SyncContactsInfoOff">开启以持续同步该设备的通讯录至您的帐号。</string>
-    <string name="SyncContactsAdded">此设备上的通讯录已被同步至您的帐户。</string>
+    <string name="SyncContactsAdded">此设备上的通讯录已被同步至您的帐号。</string>
     <!--code enter view-->
     <string name="YourCode">手机验证</string>
     <string name="SentSmsCode">短信激活码已发送至 **%1$s**。</string>
@@ -40,7 +40,7 @@
     <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
     <string name="ResetAccount">重置帐号</string>
     <string name="ResetAccountInfo">因为帐号（**%1$s**）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。</string>
-    <string name="ResetAccountStatus">您将能够在此时间后重置您的帐户:</string>
+    <string name="ResetAccountStatus">您将能够在此时间后重置您的帐号:</string>
     <string name="ResetAccountCancelledAlert">您近期的重置帐号请求被它当前活动用户取消，请于 7 天后重试。</string>
     <string name="ResetAccountButton">重置帐号</string>
     <string name="CancelLinkExpired">链接无效或已过期。</string>
@@ -1584,8 +1584,8 @@
     <string name="AskButton">向志愿者提问</string>
     <string name="TelegramFAQ">常见问题</string>
     <string name="TelegramFaq">常见问题</string>
-    <string name="AddAccount">添加帐户</string>
-    <string name="SelectAccount">选择帐户</string>
+    <string name="AddAccount">添加帐号</string>
+    <string name="SelectAccount">选择帐号</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
     <string name="PrivacyPolicy">隐私策略</string>
     <string name="TermsOfService">服务协议</string>
@@ -1686,7 +1686,7 @@
     <string name="PhoneNumberChangeTitle">更改手机号码</string>
     <string name="ChangePhoneNewNumber">新手机号码</string>
     <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
-    <string name="ChangePhoneNumberOccupied">手机号码 %1$s 已经和一个 Telegram 帐户绑定。请先删除该帐户再迁移到此新号码。</string>
+    <string name="ChangePhoneNumberOccupied">手机号码 %1$s 已经和一个 Telegram 帐号绑定。请先删除该帐号再迁移到此新号码。</string>
     <string name="NotificationsOther">其它</string>
     <string name="VibrationDisabled">禁用</string>
     <string name="PopupEnabled">启用</string>
@@ -1797,8 +1797,8 @@
     <string name="NotificationsForChannels">频道通知</string>
     <string name="TapToChange">点按更改</string>
     <string name="AlternativeOptions">其它选项</string>
-    <string name="AddAnotherAccount">添加另一个帐户</string>
-    <string name="AddAnotherAccountInfo">登录其他 Telegram 帐户并在它们之间轻松切换。</string>
+    <string name="AddAnotherAccount">添加其他帐号</string>
+    <string name="AddAnotherAccountInfo">登录其他 Telegram 帐号并在它们之间轻松切换。</string>
     <string name="SetPasscode">设置锁定码</string>
     <string name="SetPasscodeInfo">用屏幕锁定码保护您的隐私信息。</string>
     <string name="ClearCache">清空缓存</string>
@@ -1898,7 +1898,7 @@
     <string name="PassportDeletePhoneAlert">删除手机号码？</string>
     <string name="PassportPhoneInfo">输入您的手机号码</string>
     <string name="PassportPhoneUseSame">使用 %1$s</string>
-    <string name="PassportPhoneUseSameInfo">使用当前 Telegram 帐户绑定的手机号码。</string>
+    <string name="PassportPhoneUseSameInfo">使用当前 Telegram 帐号绑定的手机号码。</string>
     <string name="PassportPhoneUseSameEmailInfo">使用您登记在 Telegram 上的邮件地址。</string>
     <string name="PassportPhoneUseOther">或输入一个新的手机号码</string>
     <string name="PassportPhoneUploadInfo">注意：您将会收到发送至您提供的手机号码上的一份验证码。</string>
@@ -2370,7 +2370,7 @@
     <string name="YourEmailInfo">请输入有效的电子邮箱地址。它是您在遗忘密码后唯一的恢复途径。</string>
     <string name="YourEmailSkip">跳过</string>
     <string name="YourEmailSkipWarning">警告</string>
-    <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐户，并且我们没有任何恢复帐户数据的方法。</string>
+    <string name="YourEmailSkipWarningText">您确定不设置密码恢复邮箱？\n\n一旦您忘记了密码，您将无法再访问您的 Telegram 帐号，并且我们没有任何恢复帐号数据的方法。</string>
     <string name="YourEmailAlmostThere">快完成了！</string>
     <string name="YourEmailAlmostThereText">请查看您的邮箱（不要忘记垃圾邮件文件夹），并按要求完成两步验证设置。</string>
     <string name="YourPasswordSuccess">成功！</string>
@@ -2398,17 +2398,17 @@
     <string name="PasswordAsHintError">密码提示必须与密码本身不同</string>
     <string name="PasswordEmailInvalid">无效的邮件地址。 请检查您是否输入正确，然后重试。</string>
     <string name="RestorePasswordNoEmailTitle">抱歉</string>
-    <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。</string>
+    <string name="RestorePasswordNoEmailText">因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐号。</string>
     <string name="RestorePasswordResetAccount">重置帐号</string>
     <string name="RestoreEmailSentTitle">恢复码</string>
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
-    <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐户两个选择。</string>
-    <string name="ResetMyAccount">重置我的帐户</string>
-    <string name="ResetMyAccountText">如果您继续重置帐户，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
+    <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐号两个选择。</string>
+    <string name="ResetMyAccount">重置我的帐号</string>
+    <string name="ResetMyAccountText">如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
     <string name="ResetMyAccountWarning">警告</string>
-    <string name="ResetMyAccountWarningText">此操作无法撤销。\n\n如果您重置了您的帐户，所有的消息和对话都将被删除。</string>
+    <string name="ResetMyAccountWarningText">此操作无法撤销。\n\n如果您重置了您的帐号，所有的消息和对话都将被删除。</string>
     <string name="ResetMyAccountWarningReset">重置帐号</string>
     <string name="LoginPassword">密码</string>
     <string name="LoginPasswordText">您已经启用两步认证，这个附加密码将保护您的帐号。</string>
@@ -2457,9 +2457,9 @@
     <string name="PrivacyPhoneInfo3">只有您的联系人才能通过手机号码匹配到您。</string>
     <string name="PrivacyPhoneInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwards">引用转发来源</string>
-    <string name="PrivacyForwardsEverybody">可以链接到您的帐户</string>
+    <string name="PrivacyForwardsEverybody">链接到您的帐号</string>
     <string name="PrivacyForwardsContacts">允许时可点击查看个人信息</string>
-    <string name="PrivacyForwardsNobody">无法链接到您的帐户</string>
+    <string name="PrivacyForwardsNobody">没有链接到您的帐号</string>
     <string name="PrivacyForwardsTitle">谁可以在转发我的消息时附加我的帐号链接？</string>
     <string name="PrivacyForwardsInfo">当其他用户转发时，您发送的消息不会链接回您的帐号。</string>
     <string name="PrivacyForwardsInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
@@ -2493,10 +2493,10 @@
     <string name="P2PContactsMinusPlus">我的联系人 (-%1$d, +%2$d)</string>
     <string name="P2PNobodyPlus">不允许任何人 (+%1$d)</string>
     <string name="SecurityTitle">安全</string>
-    <string name="DeleteAccountTitle">自动删除帐号</string>
+    <string name="DeleteAccountTitle">帐号保留期限</string>
     <string name="PrivacyAdvanced">高级</string>
-    <string name="DeleteAccountIfAwayFor2">删除我的帐户若离线时间达</string>
-    <string name="DeleteAccountHelp">如果您在此期间内您的帐号未曾上线，您帐号的所有资料——包括消息记录、联系人都会被删除。</string>
+    <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
+    <string name="DeleteAccountHelp">您在这段时间内至少要上线一次，否则您的帐号将被删除，您也将失去所有消息记录和联系人。</string>
     <string name="LastSeenTitle">谁可以看见我的最后上线时间？</string>
     <string name="AddExceptions">添加例外</string>
     <string name="AddToExceptions">添加到例外</string>
@@ -2670,7 +2670,7 @@
     <string name="FloodWait">尝试次数过多，请稍后再试</string>
     <string name="FloodWaitTime">尝试次数过多，请在 %1$s 后重试</string>
     <string name="InvalidCode">验证码无效</string>
-    <string name="PhoneNumberFlood">抱歉，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。</string>
+    <string name="PhoneNumberFlood">抱歉，您最近删除并重建您帐号的次数过多。请稍等几天再来重新注册。</string>
     <string name="InvalidFirstName">您输入的名字不符合要求，请重新输入。</string>
     <string name="InvalidLastName">抱歉，这个姓氏不能被使用</string>
     <string name="Loading">载入中...</string>
@@ -2748,7 +2748,7 @@
     <string name="SendMessagesToGroupText">您要把这条消息发送给 **%1$s** 吗？</string>
     <string name="SendGameToGroupText">您要把这个游戏分享给 **%1$s** 吗？</string>
     <string name="SendContactToGroupText">您要将这个联系人资料分享给 **%1$s** 吗？</string>
-    <string name="NoUsernameFound">没有 Telegram 帐户使用此用户名。</string>
+    <string name="NoUsernameFound">没有 Telegram 帐号使用此用户名。</string>
     <string name="BotCantJoinGroups">此机器人无法加入群组。</string>
     <string name="SecretLinkPreviewAlert">您要启用加密对话中的链接预览功能吗？注意，所有的链接预览均在 Telegram 的服务器上生成。</string>
     <string name="SecretChatContextBotAlert">请注意：消息框内机器人是由第三方开发者提供的。为了使机器人工作，您在 @ 这些机器人（后需接空格）之后输入的消息将会传送给相关的开发者。</string>
@@ -2829,7 +2829,7 @@
     <string name="Page6Message">**Telegram** 让您能从\n多个设备收发消息</string>
     <string name="StartMessaging">开始聊天</string>
     <!-- VoIP -->
-    <string name="AccountSettings">帐户设置</string>
+    <string name="AccountSettings">帐号设置</string>
     <string name="VoipUseLessData">节省通话时的数据流量</string>
     <string name="VoipIncoming">来电</string>
     <string name="VoipConnecting">正在连接</string>
@@ -3546,8 +3546,8 @@
     <string name="AccDescrProfilePicture">头像</string>
     <string name="AccDescrChangeProfilePicture">更改头像</string>
     <string name="AccDescrContactSorting">更改排序方式</string>
-    <string name="AccDescrShowAccounts">显示帐户列表</string>
-    <string name="AccDescrHideAccounts">隐藏帐户列表</string>
+    <string name="AccDescrShowAccounts">显示帐号</string>
+    <string name="AccDescrHideAccounts">隐藏帐号</string>
     <string name="AccDescrGoToMessage">转到消息</string>
     <string name="AccDescrCancelReply">取消回复</string>
     <string name="AccDescrCancelForward">取消转发</string>

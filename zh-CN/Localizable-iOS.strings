@@ -917,9 +917,9 @@
 
 "PrivacySettings.SecurityTitle" = "安全";
 
-"PrivacySettings.DeleteAccountTitle" = "删除我的帐号";
-"PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
-"PrivacySettings.DeleteAccountHelp" = "此时间后，您的帐号如未上线，您的所有资料——包括消息记录、联系人都会被删除。";
+"PrivacySettings.DeleteAccountTitle" = "帐号保留期限";
+"PrivacySettings.DeleteAccountIfAwayFor" = "保留";
+"PrivacySettings.DeleteAccountHelp" = "您在这段时间内至少要上线一次，否则您的帐号将被删除，您也将失去所有消息记录和联系人。";
 
 "PrivacyLastSeenSettings.Title" = "最后上线 & 在线";
 "PrivacyLastSeenSettings.CustomHelp" = "您不会看到与您不共享的人的最后上线时间。 取而代之的是大致的上线时间（最近、一周内或一个月内）。";
@@ -1334,10 +1334,10 @@
 "TwoStepAuth.PasswordRemoveConfirmation" = "关闭两步验证？";
 "TwoStepAuth.EmailCodeExpired" = "这个验证码已经过期。请重新获取。";
 
-"TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐户。";
-"TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的帐户。";
-"TwoStepAuth.ResetAccountHelp" = "如果您确认重置您的帐户，您将丢失所有的聊天记录、分享的媒体文件和个人数据。";
-"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重置帐户，您将丢失所有对话与消息，以及您共享的所有媒体和文件。";
+"TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐号。";
+"TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的帐号。";
+"TwoStepAuth.ResetAccountHelp" = "如果您确认重置您的帐号，您将丢失所有的聊天记录、分享的媒体文件和个人数据。";
+"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。";
 
 "TwoStepAuth.RecoveryTitle" = "电子邮箱验证";
 "TwoStepAuth.RecoveryCode" = "验证码";
@@ -1387,7 +1387,7 @@
 "Map.ETAHours_any" = "%@ 小时";
 
 
-"ChangePhone.ErrorOccupied" = "该号码 %@ 已注册 Telegram，请在转移至新号码前删除对方帐户。";
+"ChangePhone.ErrorOccupied" = "该号码 %@ 已注册 Telegram，请在转移至新号码前删除对方帐号。";
 
 "AccessDenied.LocationTracking" = "Telegram 需要访问您的位置信息以便与您的朋友分享。\n\n请前往「设置 > 隐私 > 定位服务」并打开 Telegram 的开关。";
 
@@ -2062,7 +2062,7 @@
 
 "Login.ResetAccountProtected.Title" = "重置帐号";
 "Login.ResetAccountProtected.Text" = "因为帐号（%@）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。";
-"Login.ResetAccountProtected.TimerTitle" = "您将能够在此时间后重置您的帐户:";
+"Login.ResetAccountProtected.TimerTitle" = "您将能够在此时间后重置您的帐号:";
 "Login.ResetAccountProtected.Reset" = "重置";
 "Login.ResetAccountProtected.LimitExceeded" = "您近期的重置帐号请求被它当前活动用户取消，请于 7 天后重试。";
 
@@ -2075,7 +2075,7 @@
 "CancelResetAccount.Title" = "撤销帐号重置请求";
 "CancelResetAccount.TextSMS" = "某个人通过您的手机号码（%@）发送了删除您的 Telegram 账号并重置您的两步验证密码的请求。\n\n如果那并非您本人，请输入我们刚刚通过短信给您的手机号码发送的验证码。";
 
-"CancelResetAccount.Success" = "您的帐户 %@ 的删除请求已经被撤销。";
+"CancelResetAccount.Success" = "您帐号 %@ 的删除请求已经被撤销。";
 
 
 "Paint.Clear" = "清除所有";
@@ -2306,7 +2306,7 @@ Unused sets are archived when you add more.";
 
 "Call.CallAgain" = "再次呼叫";
 
-"Login.PhoneFloodError" = "对不起，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。";
+"Login.PhoneFloodError" = "对不起，您最近删除并重建您帐号的次数过多。请稍等几天再来重新注册。";
 
 "Checkout.Title" = "结算";
 "Checkout.TotalAmount" = "总计";
@@ -3369,7 +3369,7 @@ Unused sets are archived when you add more.";
 
 "Passport.Phone.Title" = "手机号码";
 "Passport.Phone.UseTelegramNumber" = "使用 %@";
-"Passport.Phone.UseTelegramNumberHelp" = "使用当前 Telegram 帐户绑定的手机号码。";
+"Passport.Phone.UseTelegramNumberHelp" = "使用当前 Telegram 帐号绑定的手机号码。";
 "Passport.Phone.EnterOtherNumber" = "或输入新的手机号码";
 "Passport.Phone.Help" = "注意：您将会收到发送至您提供的手机号码上的一份验证码。";
 "Passport.Phone.Delete" = "删除手机号码";
@@ -3447,7 +3447,7 @@ Unused sets are archived when you add more.";
 
 "Passport.CorrectErrors" = "点按修正错误";
 
-"Passport.NotLoggedInMessage" = "请登陆到您的帐户来使用 Telegram Passport";
+"Passport.NotLoggedInMessage" = "请登陆到您的帐号来使用 Telegram Passport";
 
 "Update.Title" = "Telegram 更新";
 "Update.AppVersion" = "Telegram %@";
@@ -4015,7 +4015,7 @@ Unused sets are archived when you add more.";
 "Proxy.TooltipUnavailable" = "这个代理可能无法使用，请尝试换一个。";
 
 "SocksProxySetup.Status" = "状态";
-"Login.PhoneNumberAlreadyAuthorized" = "该帐户已在此应用中登录。";
+"Login.PhoneNumberAlreadyAuthorized" = "该帐号已在此应用中登录。";
 
 "Login.PhoneNumberAlreadyAuthorizedSwitch" = "切换";
 
@@ -4068,8 +4068,8 @@ Unused sets are archived when you add more.";
 
 "LogoutOptions.Title" = "退出当前帐号";
 "LogoutOptions.AlternativeOptionsSection" = "其它选项";
-"LogoutOptions.AddAccountTitle" = "添加另一个帐户";
-"LogoutOptions.AddAccountText" = "登录其他 Telegram 帐户并在它们之间轻松切换。";
+"LogoutOptions.AddAccountTitle" = "添加其他帐号";
+"LogoutOptions.AddAccountText" = "登录其他 Telegram 帐号并在它们之间轻松切换。";
 "LogoutOptions.SetPasscodeTitle" = "设置锁定码";
 "LogoutOptions.SetPasscodeText" = "用屏幕锁定码保护您的隐私信息。";
 "LogoutOptions.ClearCacheTitle" = "清空缓存";
@@ -4098,7 +4098,7 @@ Unused sets are archived when you add more.";
 "NotificationSettings.ShowNotificationsFromAccountsSection" = "显示哪些帐号的通知？";
 "NotificationSettings.ShowNotificationsAllAccounts" = "所有帐号";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想收到当前帐号的通知，请关闭此功能。";
-"NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "如果您想接收所有帐户的通知，请启用此选项。";
+"NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "如果您想接收所有帐号的通知，请启用此选项。";
 
 "Gif.Search" = "搜索 GIF 图";
 "Gif.NoGifsFound" = "未找到 GIF";
@@ -4123,9 +4123,9 @@ Unused sets are archived when you add more.";
 
 "Privacy.Forwards.Preview" = "消息示例";
 "Privacy.Forwards.PreviewMessageText" = "莱茵哈德，我们得给你找点新的音乐。";
-"Privacy.Forwards.AlwaysLink" = "可以链接到您的帐户";
+"Privacy.Forwards.AlwaysLink" = "链接到您的帐号";
 "Privacy.Forwards.LinkIfAllowed" = "允许时可点击查看个人信息";
-"Privacy.Forwards.NeverLink" = "无法链接到您的帐户";
+"Privacy.Forwards.NeverLink" = "没有链接到您的帐号";
 
 "Chat.UnsendMyMessagesAlertTitle" = "撤回会同时在 %@ 处删除此消息。";
 "Chat.UnsendMyMessages" = "撤回我的消息";
@@ -4420,7 +4420,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.EditAdmin.TransferOwnership" = "转移频道所有权";
 
 "OwnershipTransfer.SecurityCheck" = "安全检查";
-"OwnershipTransfer.SecurityRequirements" = "所有权转移将在满足以下条件时可用：\n\n•该帐户的两步验证已开启超过**7天**。\n\n•该帐户已在这台设备上登陆超过**24小时**。";
+"OwnershipTransfer.SecurityRequirements" = "所有权转移将在满足以下条件时可用：\n\n•该帐号的两步验证已开启超过**7天**。\n\n•该帐号已在这台设备上登陆超过**24小时**。";
 "OwnershipTransfer.ComeBackLater" = "请稍后再回来。";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
@@ -5068,7 +5068,7 @@ Any member of this group will be able to see messages in the channel.";
 "TwoFactorSetup.Email.Action" = "继续";
 "TwoFactorSetup.Email.SkipAction" = "跳过邮箱设置";
 "TwoFactorSetup.Email.SkipConfirmationTitle" = "不，我确认。";
-"TwoFactorSetup.Email.SkipConfirmationText" = "如果忘记密码，您将无法访问 Telegram帐户。 这不可恢复。";
+"TwoFactorSetup.Email.SkipConfirmationText" = "如果忘记密码，您将无法访问 Telegram 帐号。 这不可恢复。";
 "TwoFactorSetup.Email.SkipConfirmationSkip" = "跳过";
 
 "TwoFactorSetup.EmailVerification.Title" = "恢复邮箱";
@@ -5164,13 +5164,13 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.TextSize.UseSystem" = "使用系统字体大小";
 "Appearance.TextSize.Apply" = "设置";
 
-"Shortcut.SwitchAccount" = "切换帐户";
+"Shortcut.SwitchAccount" = "切换帐号";
 
 "Settings.Devices" = "设备";
 "Settings.AddDevice" = "扫描二维码";
 "AuthSessions.DevicesTitle" = "设备";
 "AuthSessions.AddDevice" = "扫描二维码";
-"AuthSessions.AddDevice.ScanInfo" = "扫描二维码以在其他设备上登录该帐户。";
+"AuthSessions.AddDevice.ScanInfo" = "扫描二维码以在其他设备上登录该帐号。";
 "AuthSessions.AddDevice.ScanTitle" = "扫描二维码";
 "AuthSessions.AddDevice.InvalidQRCode" = "无效二维码";
 "AuthSessions.AddDeviceIntro.Title" = "通过二维码登录";
