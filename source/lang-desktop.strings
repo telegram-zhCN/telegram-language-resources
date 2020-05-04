@@ -968,8 +968,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_participant_filter" = "Search";
 "lng_participant_invite" = "Add";
-"lng_participant_invite_sorry#one" = "Sorry, you can only add the first {count} member to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
-"lng_participant_invite_sorry#other" = "Sorry, you can only add the first {count} members to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
+"lng_participant_invite_sorry#one" = "Sorry, you can only add the first {count} subscriber to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
+"lng_participant_invite_sorry#other" = "Sorry, you can only add the first {count} subscribers to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
 "lng_create_group_back" = "Back";
 "lng_create_group_next" = "Next";
 "lng_create_group_create" = "Create";
@@ -1010,7 +1010,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_delete_group_history" = "Are you sure you want to delete all message history in «{group}»?\n\nThis action cannot be undone.";
 "lng_sure_delete_and_exit" = "Are you sure you want to delete all message history and leave «{group}»?\n\nThis action cannot be undone.";
 "lng_sure_leave_channel" = "Are you sure you want to leave\nthis channel?";
-"lng_sure_delete_channel" = "Are you sure you want to delete this channel? All members will be removed and all messages will be lost.";
+"lng_sure_delete_channel" = "Are you sure you want to delete this channel? All subscribers will be removed and all messages will be lost.";
 "lng_sure_leave_group" = "Are you sure you want to leave this group?";
 "lng_sure_delete_group" = "Are you sure you want to delete this group? All members will be removed, and all messages will be lost.";
 "lng_sure_delete_saved_messages" = "Are you sure you want to delete all your saved messages?\n\nThis action cannot be undone.";
@@ -1295,8 +1295,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_broadcast_ph" = "Broadcast a message...";
 "lng_broadcast_silent_ph" = "Silent broadcast...";
 "lng_record_cancel" = "Release outside this field to cancel";
-"lng_will_be_notified" = "Members will be notified when you post";
-"lng_wont_be_notified" = "Members will receive a silent notification";
+"lng_will_be_notified" = "Subscribers will be notified when you post";
+"lng_wont_be_notified" = "Subscribers will receive a silent notification";
 "lng_willbe_history" = "Please select a chat to start messaging";
 "lng_from_you" = "You";
 "lng_from_draft" = "Draft";
@@ -2683,10 +2683,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mute_duration_hours#two" = "For {count} hours";
 "lng_mute_duration_hours#few" = "For {count} hours";
 "lng_mute_duration_hours#many" = "For {count} hours";
-"lng_participant_invite_sorry#zero" = "Sorry, you can only add the first {count} members to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
-"lng_participant_invite_sorry#two" = "Sorry, you can only add the first {count} members to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
-"lng_participant_invite_sorry#few" = "Sorry, you can only add the first {count} members to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
-"lng_participant_invite_sorry#many" = "Sorry, you can only add the first {count} members to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
+"lng_participant_invite_sorry#zero" = "Sorry, you can only add the first {count} subscribers to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
+"lng_participant_invite_sorry#two" = "Sorry, you can only add the first {count} subscribers to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
+"lng_participant_invite_sorry#few" = "Sorry, you can only add the first {count} subscribers to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
+"lng_participant_invite_sorry#many" = "Sorry, you can only add the first {count} subscribers to a channel personally.\n\nFrom now on, people will need to join via your invite link.";
 "lng_passcode_autolock_hours#zero" = "{count} hours";
 "lng_passcode_autolock_hours#two" = "{count} hours";
 "lng_passcode_autolock_hours#few" = "{count} hours";
