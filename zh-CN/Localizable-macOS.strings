@@ -1251,7 +1251,7 @@
 "Messages.ForwardHeader" = "已转发的消息";
 "Messages.Placeholder.Broadcast" = "发送广播...";
 "Messages.Placeholder.SentMessage" = "输入消息...";
-"Messages.Placeholder.SilentBroadcast" = "静默广播...";
+"Messages.Placeholder.SilentBroadcast" = "无声广播...";
 "Messages.ReplyLoading.Header" = "回复";
 "Messages.ReplyLoading.Loading" = "载入中...";
 "Messages.UnreadMark" = "未读消息";

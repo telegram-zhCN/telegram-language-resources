@@ -1908,7 +1908,7 @@
 
 "Channel.EditMessageErrorGeneric" = "抱歉，您不能编辑这条消息。";
 
-"Conversation.InputTextSilentBroadcastPlaceholder" = "静默广播";
+"Conversation.InputTextSilentBroadcastPlaceholder" = "无声广播";
 "Conversation.SilentBroadcastTooltipOn" = "消息发布后订阅者将收到推送通知";
 "Conversation.SilentBroadcastTooltipOff" = "消息发布后订阅者将收到无声通知";
 

@@ -273,7 +273,7 @@
   <string name="ChatContentDart6">飞镖：正中靶心！</string>
   
   
-  
+  <string name="ChatContentDiceRolled_other">骰子: %1$s</string>
   <string name="ChatContentVideo">视频</string>
   <string name="ChatContentFile">文件</string>
   <string name="ChatContentPhoto">图片</string>
@@ -663,7 +663,7 @@
   <string name="NotNow">稍后再说</string>
   <string name="ChannelNotifyMembersInfoOn">消息发布后订阅者将收到推送通知</string>
   <string name="ChannelNotifyMembersInfoOff">消息发布后订阅者将收到无声通知</string>
-  <string name="ChannelSilentBroadcast">静默广播</string>
+  <string name="ChannelSilentBroadcast">无声广播</string>
   <string name="MessageLifetime">阅后即焚计时器</string>
   <string name="Done">完成</string>
   <string name="Off">关闭</string>
@@ -3107,7 +3107,7 @@
 
   
   <string name="HoldToSchedule">按住可在特定日期发送和选择其他选项。</string>
-  
+  <string name="HoldToSilentBroadcast">按住以选择无声广播或其他。</string>
   
 
   <string name="SendSchedule">定时发送</string>

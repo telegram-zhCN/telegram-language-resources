@@ -297,7 +297,7 @@
     <string name="ChannelSettings">设置</string>
     <string name="ChannelJoin">加入</string>
     <string name="ChannelBroadcast">广播</string>
-    <string name="ChannelSilentBroadcast">静默广播</string>
+    <string name="ChannelSilentBroadcast">无声广播</string>
     <string name="ChannelAlertTitle">什么是频道？</string>
     <string name="ChannelAlertText">频道是向大众广播消息的得力工具</string>
     <string name="ChannelAlertCreate2">创建频道</string>

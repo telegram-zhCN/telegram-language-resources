@@ -969,7 +969,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_participant_filter" = "搜索";
 "lng_participant_invite" = "邀请";
 
-"lng_participant_invite_sorry#other" = "对不起，您只能将前 {count} 名用户手动加入频道。\n\n从现在开始，其他人只能通过您的邀请链接来加入。";
+"lng_participant_invite_sorry#other" = "抱歉，您个人只能在频道未满 {count} 位订阅者之前，可以手动拉人进频道。\n\n现在开始，人们需要通过邀请链接才能加入。";
 "lng_create_group_back" = "返回";
 "lng_create_group_next" = "下一步";
 "lng_create_group_create" = "创建";
@@ -1010,7 +1010,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_delete_group_history" = "您确定要删除群组 «{group}» 的所有消息记录？\n\n此操作不可撤销";
 "lng_sure_delete_and_exit" = "您确定要删除所有消息记录并退出群组 «{group}» ？\n\n此操作不可撤销";
 "lng_sure_leave_channel" = "您确定要退出此频道？";
-"lng_sure_delete_channel" = "您确定要删除此频道？所有成员会被移除，所有消息会被清空。";
+"lng_sure_delete_channel" = "您确定要删除此频道？所有订阅者将被移除，而您也将失去频道中的所有消息。";
 "lng_sure_leave_group" = "您确定要退出此群组吗？";
 "lng_sure_delete_group" = "您确定要删除此群组？所有成员将会被移除且所有消息将会被清空。";
 "lng_sure_delete_saved_messages" = "您确定要删除所有收藏的消息？\n\n此操作不可撤销。";
@@ -1293,10 +1293,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_schedule_at" = "";
 "lng_message_ph" = "输入消息...";
 "lng_broadcast_ph" = "发布消息...";
-"lng_broadcast_silent_ph" = "静默广播..";
+"lng_broadcast_silent_ph" = "无声广播...";
 "lng_record_cancel" = "将光标移出此处可取消发送";
-"lng_will_be_notified" = "消息发布后订阅者将收到推送通知";
-"lng_wont_be_notified" = "消息发布后订阅者将收到无声通知";
+"lng_will_be_notified" = "发布时订阅者会收到通知";
+"lng_wont_be_notified" = "订阅者会收到无声通知";
 "lng_willbe_history" = "请选择一个对话开始聊天";
 "lng_from_you" = "您";
 "lng_from_draft" = "草稿";
