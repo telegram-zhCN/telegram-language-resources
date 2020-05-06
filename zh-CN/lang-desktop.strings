@@ -1143,7 +1143,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edited" = "已编辑";
 "lng_edited_date" = "编辑时间：{date} ";
 "lng_admin_badge" = "管理员";
-"lng_owner_badge" = "所有者";
+"lng_owner_badge" = "拥有者";
 "lng_channel_badge" = "频道";
 "lng_fast_reply" = "回复";
 "lng_cancel_edit_post_sure" = "取消编辑？";
@@ -1791,8 +1791,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_chat_banned_custom" = "自定义";
 "lng_rights_chat_banned_custom_date" = "直至 {date}";
 
-"lng_rights_transfer_group" = "转让群组所有权";
-"lng_rights_transfer_channel" = "转让频道所有权";
+"lng_rights_transfer_group" = "转让群组拥有权";
+"lng_rights_transfer_channel" = "转让频道拥有权";
 "lng_rights_transfer_check" = "安全检查";
 "lng_rights_transfer_check_about" = "只有在以下情况下，您才能将此群组转让给 {user}*：";
 "lng_rights_transfer_check_password" = "启用**两步验证**超过**7天**。";
@@ -1800,11 +1800,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_transfer_check_later" = "请稍后再回来。";
 "lng_rights_transfer_set_password" = "设置密码";
 "lng_rights_transfer_about" = "这将转让 {group} 的所有者权限至 {user}。";
-"lng_rights_transfer_sure" = "转让";
+"lng_rights_transfer_sure" = "更改拥有者";
 "lng_rights_transfer_password_title" = "两步验证";
 "lng_rights_transfer_password_description" = "请输入您的密码以完成转让。";
-"lng_rights_transfer_done_group" = "{user} 现在是群组的所有者。";
-"lng_rights_transfer_done_channel" = "{user} 现在是频道的所有者。";
+"lng_rights_transfer_done_group" = "{user} 现在是群组的拥有者。";
+"lng_rights_transfer_done_channel" = "{user} 现在是频道的拥有者。";
 
 "lng_restricted_send_message" = "您已被管理员禁言";
 "lng_restricted_send_media" = "群组管理员已禁止您发送媒体文件。";
@@ -1860,6 +1860,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_no_results_search_text" = "找不到包含 ‘{query}’ 的近期操作。";
 "lng_admin_log_no_events_title" = "暂无操作日志";
 "lng_admin_log_no_events_text" = "在过去的48小时内\n群组成员和管理员\n没有执行任何服务操作。";
+"lng_admin_log_no_events_text_channel" = "在过去 48 小时内，频道管理员\n未执行任何操作。";
 
 "lng_admin_log_empty_text" = "无";
 "lng_admin_log_changed_title_group" = "{from} 将群组名更改为 «{title}»";
@@ -1901,7 +1902,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_banned" = "封禁了 {user}";
 "lng_admin_log_restricted" = "更改 {user} 的限制 {until}";
 "lng_admin_log_promoted" = "更改 {user} 的管理权限";
-"lng_admin_log_transferred" = "将所有权转让给 {user}";
+"lng_admin_log_transferred" = "转让了拥有权给 {user}";
 "lng_admin_log_changed_default_permissions" = "更改了默认权限";
 "lng_admin_log_changed_stickers_group" = "{from} 更换了群组贴纸包 {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "贴纸包";

@@ -426,7 +426,7 @@
   <string name="Search">搜索</string>
   <string name="NoChats">没有对话</string>
   <string name="NoContacts">未找到任何联系人</string>
-  
+  <string name="ChannelOwner">拥有者</string>
   <string name="Administrator">管理员</string>
   <string name="LinkInfo">任何已安装 Telegram 的用户都可以通过此链接加入您的群组。</string>
   <string name="ChannelAddAdmin">添加管理员</string>
@@ -492,7 +492,7 @@
   
   
   
-  
+  <string name="QDeleteXMessages_other">删除 %1$s 条消息</string>
   <string name="NoMessages">这里暂时还没有消息...</string>
   <string name="LoadingMessages">正在读取消息...</string>
   <string name="LoadingMessage">正在读取消息...</string>
@@ -860,7 +860,7 @@
   
   
   
-  
+  <string name="QDeleteXMessagesFromYRole_other">删除 %1$s 条消息来自 %2$s (%3$s)？</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
   
   
@@ -868,11 +868,11 @@
   
   <string name="DeleteXForUser_other">删除来自 %2$s 的 %1$s 条消息</string>
   
-  
+  <string name="DeleteXForMe_other">为自己删除 %1$s 条消息。</string>
   
   
   <string name="DeleteForEveryone">删除并撤回</string>
-  
+  <string name="DeleteForMe">仅从我的设备删除</string>
   
   <string name="DeleteXForEveryone_other">为所有人删除 %1$s 条消息</string>
   <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
@@ -1296,7 +1296,7 @@
   <string name="NoMembersToShowDesc">尝试更改你的查询要求\n被查询到的成员会显示在这里</string>
   <string name="ManageChannel">管理频道</string>
   <string name="ManageGroup">管理群组</string>
-  
+  <string name="RoleOwner">对话拥有者</string>
   
   
   <string name="RoleMember_now">刚刚加入</string>
@@ -1307,7 +1307,7 @@
   
   
   
-  
+  <string name="RoleMember_days_other">%1$s 天前加入</string>
   
   
   
@@ -1799,9 +1799,9 @@
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
   
-  
+  <string name="message_nameViaBot">%1$s 通过 %2$s</string>
   <string name="message_adminSignPlain">管理员</string>
-  <string name="message_ownerSign">所有者</string>
+  <string name="message_ownerSign">拥有者</string>
   <string name="message_channelSign">频道</string>
   
   
@@ -1890,7 +1890,7 @@
   <string name="Websites">网站</string>
   <string name="ActionRead">标记为已读</string>
   
-  
+  <string name="XFoundMessagesFromUser_other">%1$s 条消息来自 %2$s</string>
   
   
   
@@ -2746,8 +2746,8 @@
   
   
   
-  
-  
+  <string name="ChatRestrictedDart">管理员已禁止您在此群组中玩飞镖。按住以将其作为 emoji 发送。</string>
+  <string name="ChatRestrictedDartUntil">管理员已禁止您在此群组中玩飞镖，直到 %1$s。按住以将其作为 emoji 发送。</string>
   
   
   

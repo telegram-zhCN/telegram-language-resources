@@ -342,7 +342,7 @@
     <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
     <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
     <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
-    <string name="ChannelCreator">所有者</string>
+    <string name="ChannelCreator">拥有者</string>
     <string name="ChannelAdministrator">管理员</string>
     <string name="ChannelAdmin">管理员</string>
     <string name="ChannelMute">暂停消息通知</string>
@@ -413,8 +413,8 @@
     <string name="EditAdminGroupDeleteMessages">删除消息</string>
     <string name="EditAdminAddAdmins">添加新管理员</string>
     <string name="EditAdminRemoveAdmin">撤销管理员</string>
-    <string name="EditAdminGroupTransfer">转让群组所有权</string>
-    <string name="EditAdminChannelTransfer">转让频道所有权</string>
+    <string name="EditAdminGroupTransfer">转让群组拥有权</string>
+    <string name="EditAdminChannelTransfer">转让频道拥有权</string>
     <string name="EditAdminTransferAlertTitle">安全检查</string>
     <string name="EditAdminTransferAlertText">只有在以下情况下，您才能将此群组转让给 **%1$s**：</string>
     <string name="EditChannelAdminTransferAlertText">只有在以下情况下，您才能将此频道转让给 **%1$s**：</string>
@@ -423,9 +423,9 @@
     <string name="EditAdminTransferAlertText3">请稍后再回来。</string>
     <string name="EditAdminTransferSetPassword">设置密码</string>
     <string name="EditAdminTransferReadyAlertText">这会将 **%1$s** 的**全部所有者**权利转让给 **%2$s**。</string>
-    <string name="EditAdminTransferChangeOwner">更改所有者</string>
-    <string name="EditAdminTransferGroupToast">**%1$s** 现在是群组的所有者。</string>
-    <string name="EditAdminTransferChannelToast">**%1$s** 现在是频道的所有者。</string>
+    <string name="EditAdminTransferChangeOwner">更改拥有者</string>
+    <string name="EditAdminTransferGroupToast">**%1$s** 现在是群组的拥有者。</string>
+    <string name="EditAdminTransferChannelToast">**%1$s** 现在是频道的拥有者。</string>
     <string name="EditAdminBanUsers">封禁用户</string>
     <string name="EditAdminAddUsers">添加成员</string>
     <string name="EditAdminAddUsersViaLink">生成邀请链接</string>
@@ -635,7 +635,7 @@
     <string name="EventLogDeletedMessages">un1 删除了这条消息:</string>
     <string name="EventLogChangedLocation">un1 将群组位置更改至 “%1$s”</string>
     <string name="EventLogRemovedLocation">un1 移除了群组位置</string>
-    <string name="EventLogChangedOwnership">将所有权转让给 %1$s</string>
+    <string name="EventLogChangedOwnership">转让了拥有权给 %1$s</string>
     <string name="EventLogChangedStickersSet">un1 更换了群组贴纸包</string>
     <string name="EventLogRemovedStickersSet">un1 删除了群组贴纸包</string>
     <string name="EventLogChangedLinkedGroup">un1 使 un2 成为此频道的讨论群</string>

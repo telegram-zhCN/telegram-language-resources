@@ -368,7 +368,7 @@
 "Login.EmailNotConfiguredError" = "为了向我们发送错误详情，您需要设置一个电子邮箱地址。\n\n请前往系统 设置 > 密码与帐户 > 添加帐户 并设置一个电子邮箱帐户。";
 "Login.EmailCodeSubject" = "%@, no code";
 "Login.EmailCodeBody" = "My phone number is:\n%@\nI can't get an activation code for Telegram.";
-"Login.UnknownError" = "出现未知错误，请稍后再试";
+"Login.UnknownError" = "发生错误。请稍后再试。";
 "Login.InvalidCodeError" = "您输入的验证码无效，请重试。";
 "Login.NetworkError" = "请检查您的网络连接后重试";
 "Login.CodeExpiredError" = "验证码已过期，请重试";
@@ -2216,7 +2216,7 @@ Unused sets are archived when you add more.";
 "DialogList.UnknownPinLimitError" = "抱歉，您无法再将更多的对话置顶。";
 
 "Conversation.DeleteMessagesForMe" = "从本地删除";
-"Conversation.DeleteMessagesFor" = "从本地和 %@ 删除";
+"Conversation.DeleteMessagesFor" = "为我和 %@ 删除";
 "Conversation.DeleteMessagesForEveryone" = "为所有人删除";
 
 "NetworkUsageSettings.Title" = "网络用量";
@@ -4416,25 +4416,25 @@ Any member of this group will be able to see messages in the channel.";
 "AddContact.StatusSuccess" = "%@ 现在已位于您的联系人列表中。";
 "Conversation.ShareMyPhoneNumber.StatusSuccess" = "%@ 现在可以看到您的手机号码。";
 
-"Group.EditAdmin.TransferOwnership" = "转让群组所有权";
-"Channel.EditAdmin.TransferOwnership" = "转移频道所有权";
+"Group.EditAdmin.TransferOwnership" = "转让群组拥有权";
+"Channel.EditAdmin.TransferOwnership" = "转让频道拥有权";
 
 "OwnershipTransfer.SecurityCheck" = "安全检查";
-"OwnershipTransfer.SecurityRequirements" = "所有权转移将在满足以下条件时可用：\n\n•该帐号的两步验证已开启超过**7天**。\n\n•该帐号已在这台设备上登陆超过**24小时**。";
+"OwnershipTransfer.SecurityRequirements" = "要执行拥有权转让须符合以下条件：\n\n•您的帐号已启用两步验证超过 **7 天**。\n\n•您已登录此设备超过 **24 小时**。";
 "OwnershipTransfer.ComeBackLater" = "请稍后再回来。";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
-"Channel.OwnershipTransfer.Title" = "转让频道所有权";
+"Channel.OwnershipTransfer.Title" = "转让频道拥有权";
 "Channel.OwnershipTransfer.DescriptionInfo" = "这会将%1$@全部的**所有者权限**转移至 **%2$@** 。\n\n您将不再被视为这个频道的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
-"Group.OwnershipTransfer.Title" = "转移群组所有权";
-"Group.OwnershipTransfer.DescriptionInfo" = "这会将%1$@全部的**所有者权限**转移至 **%2$@** 。\n\n您将不再被视为这个群组的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
-"Channel.OwnershipTransfer.ChangeOwner" = "转移所有权";
+"Group.OwnershipTransfer.Title" = "转让群组拥有权";
+"Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**完整拥有权**转让给 **%2$@**。\n\n您将不再被视为群组的创建者。新的拥有者可以自由地移除您任何管理权限，甚至将您封禁。";
+"Channel.OwnershipTransfer.ChangeOwner" = "更改拥有者";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经创建太多基于位置的群组了。 请让他们先删除或转让一个。";
 
-"Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
-"Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，新的所有者暂时无法添加。请先移除一个现有的管理员。";
+"Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的拥有者暂时无法添加。请先移除一个现有的管理员。";
+"Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，新的拥有者暂时无法添加。请先移除一个现有的管理员。";
 
 "Group.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
 "Channel.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";
@@ -4455,7 +4455,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.CreateGroup" = "创建本地群组";
 "PeopleNearby.NoMembers" = "无成员";
 
-"Channel.Management.LabelOwner" = "所有者";
+"Channel.Management.LabelOwner" = "拥有者";
 "Channel.Management.LabelAdministrator" = "管理员";
 "ContactInfo.PhoneNumberHidden" = "手机号已隐藏";
 
@@ -4465,8 +4465,8 @@ Any member of this group will be able to see messages in the channel.";
 "Group.Location.ChangeLocation" = "更改地点";
 "Group.Location.Info" = "用户可以使用“附近的人”找到您的群组。";
 
-"Channel.AdminLog.MessageTransferedName" = "将所有权转让给 %1$@";
-"Channel.AdminLog.MessageTransferedNameUsername" = "将群主权限转移至 %1$@ (%2$@)";
+"Channel.AdminLog.MessageTransferedName" = "转让了拥有权给 %1$@";
+"Channel.AdminLog.MessageTransferedNameUsername" = "转让了拥有权给 %1$@ (%2$@)";
 
 "Channel.AdminLog.MessageChangedGroupGeoLocation" = "将群组的位置更改至 “%@”";
 
@@ -4497,7 +4497,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "CreateGroup.ErrorLocatedGroupsTooMuch" = "抱歉，您已经有太多基于位置的群组了。 请先删除一个现有的。";
 
-"GroupInfo.LabelOwner" = "所有者";
+"GroupInfo.LabelOwner" = "拥有者";
 
 
 
@@ -4534,11 +4534,11 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.SlowmodeSendError" = "慢速模式已启用。";
 "StickerPacksSettings.AnimatedStickersInfo" = "动态贴纸将在对话中持续播放。";
 
-"Conversation.Owner" = "所有者";
+"Conversation.Owner" = "拥有者";
 
 "Group.EditAdmin.RankTitle" = "自定义头衔";
 "Group.EditAdmin.RankInfo" = "一个自定义的头衔将展示给所有成员而不是'%@'.";
-"Group.EditAdmin.RankOwnerPlaceholder" = "所有者";
+"Group.EditAdmin.RankOwnerPlaceholder" = "拥有者";
 "Group.EditAdmin.RankAdminPlaceholder" = "管理员";
 
 "Conversation.SendMessage.SendSilently" = "静音发送";
