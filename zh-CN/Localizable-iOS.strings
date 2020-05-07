@@ -2442,7 +2442,7 @@ Unused sets are archived when you add more.";
 
 "Privacy.Calls" = "语音通话";
 
-"Privacy.Calls.WhoCanCallMe" = "谁可以呼叫我";
+"Privacy.Calls.WhoCanCallMe" = "谁可以打电话给我？";
 "Privacy.Calls.CustomHelp" = "您可以精确地控制谁可以与您语音通话。";
 "Privacy.Calls.AlwaysAllow" = "总是允许";
 "Privacy.Calls.NeverAllow" = "从不允许";
@@ -2733,8 +2733,8 @@ Unused sets are archived when you add more.";
 
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
-"Privacy.Calls.P2P" = "端对端连接";
-"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
+"Privacy.Calls.P2P" = "P2P传输";
+"Privacy.Calls.P2PHelp" = "禁用点对点传输后，所有通话流量将使用 Telegram 服务器中转可避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 
 "Privacy.Calls.Integration" = "iOS 通话集成";
 "Privacy.Calls.IntegrationHelp" = "iOS 通话集成能将 Telegram 通话显示在锁屏界面上和系统的通话记录里。如果启用了 iCloud 同步，您的通话记录将被共享给 Apple。";
@@ -4425,7 +4425,7 @@ Any member of this group will be able to see messages in the channel.";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
 "Channel.OwnershipTransfer.Title" = "转让频道拥有权";
-"Channel.OwnershipTransfer.DescriptionInfo" = "这会将%1$@全部的**所有者权限**转移至 **%2$@** 。\n\n您将不再被视为这个频道的创建者。新的所有者有权移除你的全部管理员权限，甚至将您封禁。";
+"Channel.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**完整拥有权**转让给 **%2$@**。\n\n您将不再被视为频道的创建者。新的拥有者可以自由地移除您任何管理的权限，甚至将您封禁。";
 "Group.OwnershipTransfer.Title" = "转让群组拥有权";
 "Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**完整拥有权**转让给 **%2$@**。\n\n您将不再被视为群组的创建者。新的拥有者可以自由地移除您任何管理权限，甚至将您封禁。";
 "Channel.OwnershipTransfer.ChangeOwner" = "更改拥有者";
@@ -4440,10 +4440,10 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";
 
 "Channel.OwnershipTransfer.EnterPassword" = "请输入密码";
-"Channel.OwnershipTransfer.EnterPasswordText" = "请输入您的两步验证码以完成转移。";
+"Channel.OwnershipTransfer.EnterPasswordText" = "请输入您的两步验证密码以完成转让。";
 "Channel.OwnershipTransfer.PasswordPlaceholder" = "密码";
 
-"Channel.OwnershipTransfer.TransferCompleted" = "**%1$@** 现在是**%2$@**的所有者";
+"Channel.OwnershipTransfer.TransferCompleted" = "**%1$@** 现在是**%2$@**的拥有者";
 
 "Contacts.AddPeopleNearby" = "寻找附近的人";
 

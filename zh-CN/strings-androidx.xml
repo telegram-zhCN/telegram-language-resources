@@ -310,7 +310,7 @@
   <string name="Voice">语音留言</string>
   <string name="Photo">图片</string>
   <string name="Video">视频</string>
-  
+  <string name="Gif">GIF</string>
   <string name="sticker">%1$s [贴纸]</string>
   <string name="File">文件</string>
   <string name="Location">位置</string>
@@ -1297,15 +1297,15 @@
   <string name="ManageChannel">管理频道</string>
   <string name="ManageGroup">管理群组</string>
   <string name="RoleOwner">对话拥有者</string>
-  
-  
+  <string name="RoleLeft">不是成员</string>
+  <string name="RoleBanned">被封禁的成员</string>
   <string name="RoleMember_now">刚刚加入</string>
   
+  <string name="RoleMember_minutes_other">%1$s 分钟前加入</string>
   
+  <string name="RoleMember_hours_other">%1$s 小时前加入</string>
   
-  
-  
-  
+  <string name="RoleMember_yesterday">昨天 %1$s 加入</string>
   
   <string name="RoleMember_days_other">%1$s 天前加入</string>
   
@@ -1313,7 +1313,7 @@
   
   
   
-  
+  <string name="RoleMember_years_other">%1$s 年前加入</string>
   <string name="Restricted">受限</string>
   <string name="PromotedByX">被 %1$s 设为管理员</string>
   <string name="PromotedByXOnDate">由 %1$s 于 %2$s 设为管理员</string>
@@ -1656,8 +1656,8 @@
   <string name="IncognitoKeyboard">无痕键盘</string>
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
-  <string name="PrivacyCallsP2PTitle2">通话端对端连接</string>
-  <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量将使用 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
+  <string name="PrivacyCallsP2PTitle2">通话使用点对点传输</string>
+  <string name="PeerToPeerInfo">禁用点对点传输后，所有通话流量将使用 Telegram 服务器中转可避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightScheduled">计划时段</string>
@@ -1798,31 +1798,31 @@
   <string name="AppUpdateRequiredTitle">需要更新</string>
   <string name="AppUpdateOk">更新</string>
   <string name="ProxySponsor">代理赞助商</string>
-  
+  <string name="message_viaBot">通过 %1$s</string>
   <string name="message_nameViaBot">%1$s 通过 %2$s</string>
   <string name="message_adminSignPlain">管理员</string>
   <string name="message_ownerSign">拥有者</string>
   <string name="message_channelSign">频道</string>
   
   
-  <string name="WhoCanCallMe">谁可以呼叫我</string>
-  <string name="UseP2PWith">使用端对端连接</string>
+  <string name="WhoCanCallMe">谁可以打电话给我？</string>
+  <string name="UseP2PWith">与谁通话使用点对点传输？</string>
+  <string name="PrivacyLastSeenExceptionOn">可见</string>
   
-  
-  
+  <string name="PrivacyLastSeenExceptionContacts">只有联系人可看见</string>
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenNobodyExcept">没有人 (%1$s) 可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenContacts">只有联系人可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenContactsExcept">只有联系人 (%1$s) 可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenEverybody">任何人都可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenEverybodyExcept">任何人 (%1$s) 都可以看到您的最后上线时间</string>
-  <string name="PrivacyAddToGroupsNobody">没有人可以邀请您进入群组和频道</string>
-  <string name="PrivacyAddToGroupsNobodyExcept">没有人 (%1$s) 可以邀请您进入群组和频道</string>
-  <string name="PrivacyAddToGroupsContacts">只有通讯录联系人可以邀请您进入群组和频道</string>
-  <string name="PrivacyAddToGroupsContactsExcept">只有通讯录联系人 (%1$s) 可以邀请您进入群组和频道</string>
-  <string name="PrivacyAddToGroupsEverybody">任何人都可以邀请您进入群组和频道</string>
-  <string name="PrivacyAddToGroupsEverybodyExcept">任何人 (%1$s) 都可以邀请您进入群组和频道</string>
-  
+  <string name="PrivacyAddToGroupsNobody">没有人可以加您</string>
+  <string name="PrivacyAddToGroupsNobodyExcept">没有人 (%1$s) 可以加您</string>
+  <string name="PrivacyAddToGroupsContacts">只有联系人可以加您</string>
+  <string name="PrivacyAddToGroupsContactsExcept">只有联系人 (%1$s) 可以加您</string>
+  <string name="PrivacyAddToGroupsEverybody">每个人都可以加您</string>
+  <string name="PrivacyAddToGroupsEverybodyExcept">每个人 (%1$s) 都可以加您</string>
+  <string name="PrivacyAddToGroupsExceptionOn">允许</string>
   
   
   <string name="PrivacyCallsNobody">没有人可以呼叫您</string>
@@ -1831,8 +1831,8 @@
   <string name="PrivacyCallsContactsExcept">只有联系人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsEverybody">任何人都可以呼叫您</string>
   <string name="PrivacyCallsEverybodyExcept">任何人 (%1$s) 都可以呼叫您</string>
-  
-  
+  <string name="PrivacyCallsExceptionOn">允许</string>
+  <string name="PrivacyCallsExceptionOff">不允许</string>
   
   <string name="PrivacyP2PNobody">已禁用</string>
   <string name="PrivacyP2PNobodyExcept">已禁用 (%1$s)</string>
@@ -2480,7 +2480,7 @@
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">群组管理员限制了发送投票</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
-  
+  <string name="error_NotFound">找不到页面或页面已不存在。</string>
   <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">通知风格</string>
@@ -2781,12 +2781,12 @@
   <string name="PrivacyForwardLinkEverybody">链接到您的帐号</string>
   <string name="PrivacyForwardLinkEverybodyExcept">链接到您的帐号（%1$s）</string>
   <string name="PrivacyForwardLinkTitle">引用转发来源</string>
-  
+  <string name="PrivacyForwardLinkExceptionOn">链接到我的帐号</string>
   
   
 
-  
-  
+  <string name="PrivacyPhotoExceptionOn">可见</string>
+  <string name="PrivacyPhotoExceptionOff">隐藏</string>
   
   <string name="PrivacyPhotoNobody">没有人可以看到您的头像</string>
   <string name="PrivacyPhotoNobodyExcept">没有人 (%1$s) 可以看到您的头像</string>
@@ -2885,9 +2885,9 @@
   <string name="WhoCanSeePhone">谁可以看到我的手机号码？</string>
   <string name="WhoCanSeePhoneInfo">已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。</string>
 
+  <string name="PrivacyShowNumberExceptionOn">可见</string>
   
-  
-  
+  <string name="PrivacyShowNumberExceptionOff">隐藏</string>
   <string name="PrivacyShowNumberNobody">没有人可以看到您的手机号码</string>
   <string name="PrivacyShowNumberNobodyExcept">没有人 (%1$s) 可以看到你的手机号码</string>
   <string name="PrivacyShowNumberContacts">只有您的联系人可以看到您的手机号码</string>
@@ -3210,7 +3210,7 @@
 
   <string name="ZoomOut">缩小</string>
 
-  
+  <string name="StatsRange">总览，%1$s。</string>
   
   <string name="StatsViews">每个帖子的浏览次数</string>
   <string name="StatsShares">每个帖子的分享次数</string>
@@ -3244,38 +3244,38 @@
   
   
 
+  <string name="EditPrivacyGlobal">开启一般隐私设置</string>
+  <string name="EditPrivacy">隐私例外</string>
+  
+
+  <string name="PrivacyVisibilityUser">%1$s 可以在我的个人资料上看到什么？</string>
+  
+  
+  
+  
+  
+  <string name="PrivacyOther">其他</string>
+
+  
+  <string name="PrivacyDefault">默认</string>
+  
   
   
   
 
-  
-  
-  
-  
-  
-  
-  
+  <string name="EditPrivacyPhoto">头像</string>
+  <string name="EditPrivacyStatus">最后上线 &amp; 在线</string>
+  <string name="EditPrivacyPhoneNumber">手机号码</string>
 
+  <string name="EditPrivacyForward">转发我的消息</string>
+  <string name="EditPrivacyCall">打电话给我</string>
+  <string name="EditPrivacyCallP2P">通话使用点对点传输</string>
   
-  
-  
-  
-  
-  
-
-  
-  <string name="EditPrivacyStatus">最后上线</string>
-  
-
-  
-  
-  
-  
-  
-  
+  <string name="EditPrivacyChatInvite">将我加到群组和频道</string>
+  <string name="EditPrivacyChatInviteGroup">将我加到其他对话</string>
   <string name="EditPrivacyGroupInfo">这些是应用于 %1$s 位成员的默认隐私设置。您可以在特定用户的个人资料页面上检查您的隐私设置。</string>
 
-  
+  <string name="MuteNonContacts">非联系人的通知关静音</string>
   
 
   
@@ -3381,7 +3381,7 @@
   <string name="PollPreview">投票: %1$s</string>
   <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="PriorityMedium">中</string>
-  <string name="PrivacyCallsP2PTitle">端对端连接</string>
+  <string name="PrivacyCallsP2PTitle">P2P传输</string>
   <string name="Private">私人</string>
   <string name="QDeleteX">删除 %1$s？</string>
   <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>
