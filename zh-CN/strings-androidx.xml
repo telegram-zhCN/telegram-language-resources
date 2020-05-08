@@ -1656,8 +1656,8 @@
   <string name="IncognitoKeyboard">无痕键盘</string>
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
-  <string name="PrivacyCallsP2PTitle2">通话使用点对点传输</string>
-  <string name="PeerToPeerInfo">禁用点对点传输后，所有通话流量将使用 Telegram 服务器中转可避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
+  <string name="PrivacyCallsP2PTitle2">端对端通话</string>
+  <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightScheduled">计划时段</string>
@@ -1824,7 +1824,7 @@
   <string name="PrivacyAddToGroupsEverybodyExcept">每个人 (%1$s) 都可以加您</string>
   <string name="PrivacyAddToGroupsExceptionOn">允许</string>
   
-  
+  <string name="PrivacyAddToGroupsExceptionContacts">只有联系人</string>
   <string name="PrivacyCallsNobody">没有人可以呼叫您</string>
   <string name="PrivacyCallsNobodyExcept">没有任何人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsContacts">只有联系人可以呼叫您</string>
@@ -1833,7 +1833,7 @@
   <string name="PrivacyCallsEverybodyExcept">任何人 (%1$s) 都可以呼叫您</string>
   <string name="PrivacyCallsExceptionOn">允许</string>
   <string name="PrivacyCallsExceptionOff">不允许</string>
-  
+  <string name="PrivacyCallsExceptionContacts">只有联系人</string>
   <string name="PrivacyP2PNobody">已禁用</string>
   <string name="PrivacyP2PNobodyExcept">已禁用 (%1$s)</string>
   <string name="PrivacyP2PContacts">仅对联系人</string>
@@ -1842,7 +1842,7 @@
   <string name="PrivacyP2PEverybodyExcept">已启用 (%1$s)</string>
   
   
-  
+  <string name="PrivacyP2PExceptionContacts">只有联系人</string>
   <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
   
   
@@ -2481,7 +2481,8 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
   <string name="error_NotFound">找不到页面或页面已不存在。</string>
-  <string name="NobodyLikesSpam2">抱歉，您现在只能将双向联系人添加到群组。</string> <!--PEER_FLOOD-->
+  
+  <string name="NobodyLikesSpam2">抱歉，您现在只能与双向联系人进行互动。</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">通知风格</string>
   <string name="NotificationImportanceHigh">声音与弹窗</string>
@@ -2783,7 +2784,7 @@
   <string name="PrivacyForwardLinkTitle">引用转发来源</string>
   <string name="PrivacyForwardLinkExceptionOn">链接到我的帐号</string>
   
-  
+  <string name="PrivacyForwardLinkExceptionContacts">只有联系人可以链接到我的帐号</string>
 
   <string name="PrivacyPhotoExceptionOn">可见</string>
   <string name="PrivacyPhotoExceptionOff">隐藏</string>

@@ -2442,7 +2442,7 @@ Unused sets are archived when you add more.";
 
 "Privacy.Calls" = "语音通话";
 
-"Privacy.Calls.WhoCanCallMe" = "谁可以打电话给我？";
+"Privacy.Calls.WhoCanCallMe" = "谁可以呼叫我";
 "Privacy.Calls.CustomHelp" = "您可以精确地控制谁可以与您语音通话。";
 "Privacy.Calls.AlwaysAllow" = "总是允许";
 "Privacy.Calls.NeverAllow" = "从不允许";
@@ -2734,7 +2734,7 @@ Unused sets are archived when you add more.";
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
 "Privacy.Calls.P2P" = "P2P传输";
-"Privacy.Calls.P2PHelp" = "禁用点对点传输后，所有通话流量将使用 Telegram 服务器中转可避免泄露您的 IP 地址，但这可能会轻微降低音质。";
+"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 
 "Privacy.Calls.Integration" = "iOS 通话集成";
 "Privacy.Calls.IntegrationHelp" = "iOS 通话集成能将 Telegram 通话显示在锁屏界面上和系统的通话记录里。如果启用了 iCloud 同步，您的通话记录将被共享给 Apple。";
@@ -4425,16 +4425,16 @@ Any member of this group will be able to see messages in the channel.";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
 "Channel.OwnershipTransfer.Title" = "转让频道拥有权";
-"Channel.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**完整拥有权**转让给 **%2$@**。\n\n您将不再被视为频道的创建者。新的拥有者可以自由地移除您任何管理的权限，甚至将您封禁。";
+"Channel.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为频道的创建者。新的拥有者可以自由移除您的管理权限，甚至将您封禁。";
 "Group.OwnershipTransfer.Title" = "转让群组拥有权";
-"Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**完整拥有权**转让给 **%2$@**。\n\n您将不再被视为群组的创建者。新的拥有者可以自由地移除您任何管理权限，甚至将您封禁。";
+"Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为群组的创建者。新的拥有者可以自由移除您的管理权限，甚至将您封禁。";
 "Channel.OwnershipTransfer.ChangeOwner" = "更改拥有者";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经创建太多基于位置的群组了。 请让他们先删除或转让一个。";
 
 "Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的拥有者暂时无法添加。请先移除一个现有的管理员。";
-"Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，新的拥有者暂时无法添加。请先移除一个现有的管理员。";
+"Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，暂时无法添加新的拥有者。请先移除一个管理员。";
 
 "Group.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
 "Channel.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";

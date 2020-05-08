@@ -422,7 +422,7 @@
     <string name="EditAdminTransferAlertText2">在此设备登录超过**24小时**。</string>
     <string name="EditAdminTransferAlertText3">请稍后再回来。</string>
     <string name="EditAdminTransferSetPassword">设置密码</string>
-    <string name="EditAdminTransferReadyAlertText">这将会把“%1$s”的**完整拥有权**转让给 %2$s。</string>
+    <string name="EditAdminTransferReadyAlertText">这将会把“%1$s”的**所有权**转让给 %2$s。</string>
     <string name="EditAdminTransferChangeOwner">更改拥有者</string>
     <string name="EditAdminTransferGroupToast">**%1$s** 现在是群组的拥有者。</string>
     <string name="EditAdminTransferChannelToast">**%1$s** 现在是频道的拥有者。</string>
@@ -2465,7 +2465,7 @@
     <string name="PrivacyForwardsInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="PrivacyP2PHeader">P2P传输</string>
-    <string name="PrivacyP2P">通话使用点对点传输</string>
+    <string name="PrivacyP2P">端对端通话</string>
     <string name="PrivacyP2P2">与谁通话使用点对点传输</string>
     <string name="PrivacyBots">机器人与网站</string>
     <string name="PrivacyPaymentsClear">清除付款和配送信息</string>
@@ -2520,7 +2520,7 @@
     <string name="InviteToGroupError">抱歉，根据此用户的隐私设置，您不能将其添加到群组。</string>
     <string name="InviteToChannelError">抱歉，根据此用户的隐私设置，您不能将其添加到频道。</string>
     <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
-    <string name="PrivacyCallsP2PHelp">禁用点对点传输后，所有通话流量将使用 Telegram 服务器中转可避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
+    <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
     <string name="SyncContactsDelete">清空云端通讯录</string>
     <string name="SuggestContacts">推荐频繁往来的联系人</string>
     <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
@@ -2774,7 +2774,7 @@
     <string name="TosAgeTitle">年龄验证</string>
     <string name="PrivacyPolicyAndTerms">隐私政策与服务条款</string>
     <string name="TosAgeText">点按 同意 确认您已满 %1$s 周岁</string>
-    <string name="TosUpdateDecline">我们感到非常抱歉，但这意味着我们必须分道扬镳了。与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们就无法提供此项服务。您可以现在就删除您的帐号；或是再看看，直到您觉得我们使用您的数据的方式不满意时再删除。</string>
+    <string name="TosUpdateDecline">我们感到非常抱歉，但这意味着我们必须分道扬镳了。与其他产品不同，我们并不将您的数据用于广告定位或其他商业目的。Telegram 只储存用于提供功能丰富的云服务所需的信息。您可以在“隐私和安全”设置中调整我们使用您的数据的方式。\n\n但如果您拒绝满足 Telegram 对基本数据的需求，我们就无法提供此项服务。您可以现在就删除您的账号；或是再看看，直到您觉得我们使用您的数据的方式不满意时再删除。</string>
     <string name="TosDeclineDeleteAccount">警告，这将不可逆转地删除您的 Telegram 帐号，以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的帐号前下载您的数据以免损失。（为了下载您的数据，请使用最新版 Telegram Desktop，并打开 设置 &gt; 高级 &gt; 导出 Telegram 数据。）</string>
     <!--permissions-->
     <string name="PermissionContacts">为了让您能在任意设备上和朋友联系，您的联系人将会被即时同步至高度加密的 Telegram 云服务器。</string>
@@ -2850,9 +2850,9 @@
     <string name="VoipSettingsRingtone">铃声</string>
     <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
     <string name="Calls">通话</string>
-    <string name="CustomP2PInfo">无论上述设置如何，与这些用户在通话中都将使用或不使用点对点传输。</string>
+    <string name="CustomP2PInfo">这些用户的通话将仅遵守对应的例外设置。</string>
     <string name="P2PEnabledWith">与谁通话使用点对点传输？</string>
-    <string name="WhoCanCallMe">谁可以打电话给我？</string>
+    <string name="WhoCanCallMe">谁可以给我打电话？</string>
     <string name="WhoCanCallMeInfo">您可以限制能够给您打电话的人。</string>
     <string name="CustomCallInfo">无论上面如何设置，这些用户都能或者不能呼叫您。</string>
     <string name="UseLessDataNever">从不</string>

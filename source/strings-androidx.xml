@@ -1569,7 +1569,7 @@
   <string name="NewPinnedMessage">Pinned message: %1$s</string>
   <string name="PinnedMessageChanged">Pinned message changed</string>
   <string name="EditMarkdown">Edit Markdown</string>
-  <string name="EditMarkdownHint">Edit text in messages using the old-school way: `**`**bold**`**`, `__`__italic__`__`, `~~`~~strikethrough~~`~~`, ````monospace````, [text](url)</string>
+  <string name="EditMarkdownHint">Edit text in messages using the old-school way: `**`**bold**`**`, `__`__italic__`__`, `~~`~~strikethrough~~`~~`,``` `monospace`,``` [text](url)</string>
   <string name="MessageNotFound">Message not found</string>
   <string name="SyncHintTitle">Find Contacts</string>
   <string name="SyncHint">To help you connect with friends and family, allow %1$s access to your contacts.</string>
@@ -2275,7 +2275,7 @@
   <string name="c_fillingPositive">Background of the Send button in the Share menu.</string>
   <string name="c_textSearchQueryHighlight">Current query highlight when searching chats, contacts, etc.</string>
   <string name="c_textSelectionHighlight">Selected text background.</string>
-  <string name="c_textLinkPressHighlight">Pressed link background. Must be opaque.</string>
+  <string name="c_textLinkPressHighlight">Pressed link background.</string>
   <string name="c_textNeutral">Buttons with neutral effect: save, done, cancel, etc.</string>
   <string name="c_textNegative">Buttons with negative effect: delete, remove, clear, etc.</string>
   <string name="c_drawer">Color overlay for the drawer header. When empty, **header** color is used.</string>
@@ -2481,6 +2481,7 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
   <string name="error_NotFound">Page not found or no longer exists.</string>
+  
   <string name="NobodyLikesSpam2">Sorry, you can interact only with mutual contacts at the moment.</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">Notification Style</string>
