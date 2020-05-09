@@ -2481,7 +2481,7 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">Sorry, this language pack doesn\'t exist</string>
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
   <string name="error_NotFound">Page not found or no longer exists.</string>
-  
+  <string name="error_STICKERSET_INVALID">Sticker set not found or no longer exists.</string>
   <string name="NobodyLikesSpam2">Sorry, you can interact only with mutual contacts at the moment.</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">Notification Style</string>
