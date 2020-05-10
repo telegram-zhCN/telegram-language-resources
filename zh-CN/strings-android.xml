@@ -2404,7 +2404,7 @@
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
-    <string name="RestoreEmailTroubleText">如果您无法恢复对电子邮箱的访问权限，那么您就只有想起密码和重置帐号两个选择。</string>
+    <string name="RestoreEmailTroubleText">如果无法访问您的电子邮箱，那么您将只能想起密码或重置账户。</string>
     <string name="ResetMyAccount">重置我的帐号</string>
     <string name="ResetMyAccountText">如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
     <string name="ResetMyAccountWarning">警告</string>
@@ -2464,7 +2464,7 @@
     <string name="PrivacyForwardsInfo">当其他用户转发时，您发送的消息不会链接回您的帐号。</string>
     <string name="PrivacyForwardsInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
-    <string name="PrivacyP2PHeader">P2P传输</string>
+    <string name="PrivacyP2PHeader">端到端连接</string>
     <string name="PrivacyP2P">端对端通话</string>
     <string name="PrivacyP2P2">与谁通话使用点对点传输</string>
     <string name="PrivacyBots">机器人与网站</string>
@@ -2850,7 +2850,7 @@
     <string name="VoipSettingsRingtone">铃声</string>
     <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
     <string name="Calls">通话</string>
-    <string name="CustomP2PInfo">这些用户的通话将仅遵守对应的例外设置。</string>
+    <string name="CustomP2PInfo">与这些用户的通话将仅遵循对应的例外设置。</string>
     <string name="P2PEnabledWith">与谁通话使用点对点传输？</string>
     <string name="WhoCanCallMe">谁可以给我打电话？</string>
     <string name="WhoCanCallMeInfo">您可以限制能够给您打电话的人。</string>

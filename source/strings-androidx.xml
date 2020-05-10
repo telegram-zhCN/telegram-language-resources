@@ -444,7 +444,8 @@
   <string name="RevokeLink">Revoke Link</string>
   <string name="GeneratingLink">Generating Link…</string>
   <string name="DiscardChanges">Discard changes</string>
-  <string name="ParticipantLimitReached">You can\'t add more members to this group</string>
+  <string name="ParticipantXLimitReached_one">You can\'t add more than %1$s member to this group</string>
+  <string name="ParticipantXLimitReached_other">You can\'t add more than %1$s members to this group</string>
   <string name="Reply">Reply</string>
   <string name="Select">Select</string>
   <string name="Open">Open</string>
@@ -886,6 +887,7 @@
   <string name="PinMessageInThisGroup">Pin this message in this group?</string>
   <string name="PinMessageInThisChannel">Pin this message in this channel?</string>
   <string name="PinNotify">Notify all members</string>
+  <string name="PinNotify2">Notify all subscribers</string>
   <string name="ActionPinnedText">%1$s pinned \"%2$s\"</string>
   <string name="ActionPinnedGame">%1$s pinned %2$s</string>
   <string name="ActionPinnedGameNoName">%1$s pinned a **game**</string>
@@ -950,7 +952,6 @@
   <string name="Yesterday">Yesterday</string>
   <string name="PublicGroup">Public group</string>
   <string name="Group">Group</string>
-  <string name="UserPrivacyRestricted">Sorry, the user restricted this action in their privacy settings.</string>
   <string name="RenameContact">Rename contact</string>
   <string name="Themes">Themes</string>
   <string name="ThemeSettings">Themes and Chats</string>
@@ -1319,6 +1320,8 @@
   <string name="PromotedByXOnDate">Promoted by %1$s %2$s</string>
   <string name="BannedByX">Banned by %1$s</string>
   <string name="BannedByXOnDate">Banned by %1$s %2$s</string>
+  <string name="InvitedByXOnDate">Invited by %1$s %2$s</string>
+  <string name="InvitedByX">Invited by %1$s</string>
   <string name="RestrictedByX">Restricted by %1$s</string>
   <string name="RestrictedByXOnDate">Restricted by %1$s %2$s</string>
   <string name="EditGroup">Edit Group</string>
@@ -1369,6 +1372,7 @@
   <string name="CustomDate">Custom date</string>
   <string name="RemoveRestrictions">Remove restrictions</string>
   <string name="UploadingPhotoWait">Uploading photo, please wait…</string>
+  <string name="DeletingPhotoWait">Deleting profile photo, please wait…</string>
   <string name="ChatTitleEmpty">Chat name can\'t be empty</string>
   <string name="ChannelLinkInfo">Anyone who has Telegram installed will be able to join your channel by following this link.</string>
   <string name="ChannelLink">Channel Link</string>
@@ -2482,6 +2486,8 @@
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
   <string name="error_NotFound">Page not found or no longer exists.</string>
   <string name="error_STICKERSET_INVALID">Sticker set not found or no longer exists.</string>
+  <string name="errorPrivacyAddMember">Sorry, the user restricted who can add them to chats in their privacy settings.</string>
+  <string name="UserPrivacyRestricted">Sorry, the user restricted this action in their privacy settings.</string>
   <string name="NobodyLikesSpam2">Sorry, you can interact only with mutual contacts at the moment.</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">Notification Style</string>
@@ -3308,6 +3314,18 @@
 
   <string name="ProxySponsorAlert">This channel is shown by your proxy server. To remove this channel from your chat list, disable the proxy in Telegram Settings.</string>
 
+  <string name="DebugVerbosity">Verbosity Level</string>
+  <string name="DebugLogTags">Log Tags</string>
+  <string name="DebugLogFiles">Log Files</string>
+  <string name="DebugLogcat">Use Logcat</string>
+  <string name="DebugAppLogsInfo">Application logs contain general information, which is useful for resolving certain types of issues.\n\nIncreasing log verbosity level may **slow down** the application **performance**.</string>
+  <string name="DebugLogSize">Max Log Size</string>
+  <string name="DebugLogcatOnly">Redirect to logcat</string>
+  <string name="DebugReset">Reset to default</string>
+  <string name="DebugModules">Modules</string>
+  <string name="DebugModulesInfo">This adjusts at what log level specific modules will be logged.\n\nExample: when **td_init** is set to **WARNING**, you will find corresponding output when **Verbosity Level** is set to **WARNING** or higher value.</string>
+  <string name="DebugShareError">Set **Verbosity Level** to **ASSERT** to share TDLib log.</string>
+
   
   
   
@@ -3639,6 +3657,11 @@
   <string name="NotificationsOnXChats_two">Enabled notifications for %1$s chats</string>
   <string name="NotificationsOnXChats_few">Enabled notifications for %1$s chats</string>
   <string name="NotificationsOnXChats_many">Enabled notifications for %1$s chats</string>
+  <string name="ParticipantLimitReached">You can\'t add more members to this group</string>
+  <string name="ParticipantXLimitReached_zero">You can\'t add more than %1$s members to this group</string>
+  <string name="ParticipantXLimitReached_two">You can\'t add more than %1$s members to this group</string>
+  <string name="ParticipantXLimitReached_few">You can\'t add more than %1$s members to this group</string>
+  <string name="ParticipantXLimitReached_many">You can\'t add more than %1$s members to this group</string>
   <string name="PinTooMuchWarn_zero">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
   <string name="PinTooMuchWarn_two">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>
   <string name="PinTooMuchWarn_few">Sorry, you can only pin %1$s chats in your main list. If you\'re looking for more organization, try archiving some chats — the Archived Chats folder allows unlimited pins.</string>

@@ -1335,7 +1335,7 @@
 "TwoStepAuth.EmailCodeExpired" = "这个验证码已经过期。请重新获取。";
 
 "TwoStepAuth.RecoveryUnavailable" = "因为您在设置密码时没有同时提供两步验证恢复邮箱，您剩余的选择只有回忆起您的密码或重置您的帐号。";
-"TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的帐号。";
+"TwoStepAuth.RecoveryFailed" = "您现在只能尝试想起密码，或者重置您的账户。";
 "TwoStepAuth.ResetAccountHelp" = "如果您确认重置您的帐号，您将丢失所有的聊天记录、分享的媒体文件和个人数据。";
 "TwoStepAuth.ResetAccountConfirmation" = "如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。";
 
@@ -4424,7 +4424,7 @@ Any member of this group will be able to see messages in the channel.";
 "OwnershipTransfer.ComeBackLater" = "请稍后再回来。";
 "OwnershipTransfer.SetupTwoStepAuth" = "启用两步验证";
 
-"Channel.OwnershipTransfer.Title" = "转让频道拥有权";
+"Channel.OwnershipTransfer.Title" = "转让频道所有权";
 "Channel.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为频道的创建者。新的拥有者可以自由移除您的管理权限，甚至将您封禁。";
 "Group.OwnershipTransfer.Title" = "转让群组拥有权";
 "Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为群组的创建者。新的拥有者可以自由移除您的管理权限，甚至将您封禁。";
@@ -5148,7 +5148,7 @@ Any member of this group will be able to see messages in the channel.";
 "IntentsSettings.SuggestedChatsSavedMessages" = "收藏夹";
 "IntentsSettings.SuggestedChatsPrivateChats" = "私密对话";
 "IntentsSettings.SuggestedChatsGroups" = "群组";
-"IntentsSettings.SuggestedChatsInfo" = "已归档对话不会被建议。";
+"IntentsSettings.SuggestedChatsInfo" = "已归档的对话将不会被推荐。";
 "IntentsSettings.SuggestedAndSpotlightChatsInfo" = "建议将显示在“分享菜单”和 Spotlight 搜索结果中。已归档对话不会被建议。";
 "IntentsSettings.SuggestBy" = "建议的来源";
 "IntentsSettings.SuggestByAll" = "所有发出的信息";

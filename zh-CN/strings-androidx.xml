@@ -264,7 +264,7 @@
   <string name="ChatContentVoice">语音留言</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">视频留言</string>
-  
+  <string name="ChatContentDart">飞镖正在空中...</string>
   <string name="ChatContentDart1">飞镖：投偏了！</string>
   <string name="ChatContentDart2">投掷飞镖</string>
   <string name="ChatContentDart3">投掷飞镖</string>
@@ -444,7 +444,8 @@
   <string name="RevokeLink">撤销链接</string>
   <string name="GeneratingLink">正在生成链接...</string>
   <string name="DiscardChanges">放弃修改</string>
-  <string name="ParticipantLimitReached">您无法向此群组中添加更多成员</string>
+  
+  
   <string name="Reply">回复</string>
   <string name="Select">选择</string>
   <string name="Open">打开</string>
@@ -886,6 +887,7 @@
   <string name="PinMessageInThisGroup">您要在这个群组里置顶这条消息吗？</string>
   <string name="PinMessageInThisChannel">您要在这个频道里置顶这条消息吗？</string>
   <string name="PinNotify">通知所有成员</string>
+  
   <string name="ActionPinnedText">%1$s 置顶了 “%2$s”</string>
   <string name="ActionPinnedGame">%1$s 置顶了 %2$s</string>
   
@@ -950,7 +952,6 @@
   <string name="Yesterday">昨天</string>
   <string name="PublicGroup">公开群组</string>
   <string name="Group">群组</string>
-  <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="RenameContact">重命名联系人</string>
   <string name="Themes">主题与样式</string>
   <string name="ThemeSettings">主题与样式</string>
@@ -1309,7 +1310,7 @@
   
   <string name="RoleMember_days_other">%1$s 天前加入</string>
   
-  
+  <string name="RoleMember_weeks_other">%1$s 周前加入</string>
   
   
   
@@ -1319,6 +1320,8 @@
   <string name="PromotedByXOnDate">由 %1$s 于 %2$s 设为管理员</string>
   <string name="BannedByX">被 %1$s 封禁</string>
   <string name="BannedByXOnDate">被 %1$s 于 %2$s 封禁</string>
+  
+  
   <string name="RestrictedByX">被 %1$s 限制</string>
   <string name="RestrictedByXOnDate">被 %1$s 于 %2$s 限制</string>
   <string name="EditGroup">编辑群组</string>
@@ -1369,6 +1372,7 @@
   <string name="CustomDate">自定义日期</string>
   <string name="RemoveRestrictions">移除限制</string>
   <string name="UploadingPhotoWait">上传头像中，请稍候...</string>
+  
   <string name="ChatTitleEmpty">标题不能设置为空</string>
   <string name="ChannelLinkInfo">任何 Telegram 用户都能够通过此链接加入您的频道。</string>
   <string name="ChannelLink">频道链接</string>
@@ -1656,7 +1660,7 @@
   <string name="IncognitoKeyboard">无痕键盘</string>
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
-  <string name="PrivacyCallsP2PTitle2">端对端通话</string>
+  <string name="PrivacyCallsP2PTitle2">端到端连接通话</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>
@@ -1801,30 +1805,30 @@
   <string name="message_viaBot">通过 %1$s</string>
   <string name="message_nameViaBot">%1$s 通过 %2$s</string>
   <string name="message_adminSignPlain">管理员</string>
-  <string name="message_ownerSign">拥有者</string>
+  <string name="message_ownerSign">所有者</string>
   <string name="message_channelSign">频道</string>
   
   
   <string name="WhoCanCallMe">谁可以打电话给我？</string>
   <string name="UseP2PWith">与谁通话使用点对点传输？</string>
   <string name="PrivacyLastSeenExceptionOn">可见</string>
-  
-  <string name="PrivacyLastSeenExceptionContacts">只有联系人可看见</string>
+  <string name="PrivacyLastSeenExceptionOff">隐藏</string>
+  <string name="PrivacyLastSeenExceptionContacts">仅联系人可见</string>
   <string name="PrivacyLastSeenNobody">没有人可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenNobodyExcept">没有人 (%1$s) 可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenContacts">只有联系人可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenContactsExcept">只有联系人 (%1$s) 可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenEverybody">任何人都可以看到您的最后上线时间</string>
   <string name="PrivacyLastSeenEverybodyExcept">任何人 (%1$s) 都可以看到您的最后上线时间</string>
-  <string name="PrivacyAddToGroupsNobody">没有人可以加您</string>
+  <string name="PrivacyAddToGroupsNobody">没有人可以添加您</string>
   <string name="PrivacyAddToGroupsNobodyExcept">没有人 (%1$s) 可以加您</string>
   <string name="PrivacyAddToGroupsContacts">只有联系人可以加您</string>
   <string name="PrivacyAddToGroupsContactsExcept">只有联系人 (%1$s) 可以加您</string>
-  <string name="PrivacyAddToGroupsEverybody">每个人都可以加您</string>
+  <string name="PrivacyAddToGroupsEverybody">所有人都可以将您添加到群组和频道中</string>
   <string name="PrivacyAddToGroupsEverybodyExcept">每个人 (%1$s) 都可以加您</string>
   <string name="PrivacyAddToGroupsExceptionOn">允许</string>
-  
-  <string name="PrivacyAddToGroupsExceptionContacts">只有联系人</string>
+  <string name="PrivacyAddToGroupsExceptionOff">不允许</string>
+  <string name="PrivacyAddToGroupsExceptionContacts">仅联系人</string>
   <string name="PrivacyCallsNobody">没有人可以呼叫您</string>
   <string name="PrivacyCallsNobodyExcept">没有任何人 (%1$s) 可以呼叫您</string>
   <string name="PrivacyCallsContacts">只有联系人可以呼叫您</string>
@@ -1840,8 +1844,8 @@
   <string name="PrivacyP2PContactsExcept">仅对联系人 (%1$s)</string>
   <string name="PrivacyP2PEverybody">启用</string>
   <string name="PrivacyP2PEverybodyExcept">已启用 (%1$s)</string>
-  
-  
+  <string name="PrivacyP2PExceptionOn">允许</string>
+  <string name="PrivacyP2PExceptionOff">不允许</string>
   <string name="PrivacyP2PExceptionContacts">只有联系人</string>
   <string name="NotificationsEnableOverride">启用该对话的消息通知会覆盖在 设置 &#160;&gt; 通知 中的全局设置（%1$s）</string>
   
@@ -1894,7 +1898,7 @@
   
   
   
-  
+  <string name="XFoundMessagesFromAutoPost_other">%1$s 条频道消息</string>
   <string name="FoundMessagesFromUser">%1$s 发送的消息</string>
   <string name="FoundMessagesFromSelf">您发送的消息</string>
   
@@ -2155,7 +2159,7 @@
   <string name="SignOutAltHint2">谨记，退出会取消你所有的加密对话，并抹除所有已下载的媒体文件。</string>
 
   <string name="TdlibLogs">TDLib 日志</string>
-  <string name="TdlibLogsWarning">**警告：** TDLib 日志可能包含 **隐私信息**。\n\n请勿将其分享给任何人，除非您知道您在做什么。</string>
+  <string name="TdlibLogsWarning">**警告：**TDLib 日志可能包含**私人数据**。\n\n除非您已理解自己的行为，否则不要将它们分享给任何人。</string>
   <string name="TdlibLogsWarningConfirm">继续</string>
 
   <string name="NoEmailApp">未找到电子邮件应用</string>
@@ -2480,8 +2484,10 @@
   <string name="error_CHAT_SEND_POLL_FORBIDDEN">群组管理员限制了发送投票</string>
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
-  <string name="error_NotFound">找不到页面或页面已不存在。</string>
+  <string name="error_NotFound">页面未找到或已不存在。</string>
+  <string name="error_STICKERSET_INVALID">贴纸包找不到或已不存在</string>
   
+  <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="NobodyLikesSpam2">抱歉，您现在只能与双向联系人进行互动。</string> <!--PEER_FLOOD-->
 
   <string name="NotificationImportance">通知风格</string>
@@ -2544,7 +2550,7 @@
   <string name="AbortRecoveryEmailChange">终止恢复邮箱更改</string>
 
   <string name="TestMode">测试工具</string>
-  <string name="TestModeWarn">**警告**：测试实用程序**仅**可用于**测试**和**调试**目的。 他们都不被保证能工作。\n\n除非你知道自己在做什么，否则不要使用它们。</string>
+  <string name="TestModeWarn">**Warning**: Testing Utilities are available for **testing** and **debugging** purposes **only**. None of them are guaranteed to work.\n\nDo not use them, unless you know what you are doing.</string>
   <string name="CopyVersion">复制版本号</string>
 
   <string name="LogFiles">日志文件</string>
@@ -2732,7 +2738,7 @@
   <string name="ChatDisabledBots">仅管理员能在此群组中使用inline机器人</string>
   <string name="ChatDisabledStickers">只有管理员能在这个群组中发送贴纸</string>
   
-  
+  <string name="ChatDisabledDart">本群组只允许管理者发送飞镖. 按住以 Emoji 发送</string>
   <string name="ChatDisabledMedia">仅管理员能在此群组中发送媒体文件</string>
   
   
@@ -2782,13 +2788,13 @@
   <string name="PrivacyForwardLinkEverybody">链接到您的帐号</string>
   <string name="PrivacyForwardLinkEverybodyExcept">链接到您的帐号（%1$s）</string>
   <string name="PrivacyForwardLinkTitle">引用转发来源</string>
-  <string name="PrivacyForwardLinkExceptionOn">链接到我的帐号</string>
-  
-  <string name="PrivacyForwardLinkExceptionContacts">只有联系人可以链接到我的帐号</string>
+  <string name="PrivacyForwardLinkExceptionOn">链接到我的账户</string>
+  <string name="PrivacyForwardLinkExceptionOff">不链接到我的账户</string>
+  <string name="PrivacyForwardLinkExceptionContacts">仅联系人可以链接到我的账户</string>
 
   <string name="PrivacyPhotoExceptionOn">可见</string>
   <string name="PrivacyPhotoExceptionOff">隐藏</string>
-  
+  <string name="PrivacyPhotoExceptionContacts">仅联系人可见</string>
   <string name="PrivacyPhotoNobody">没有人可以看到您的头像</string>
   <string name="PrivacyPhotoNobodyExcept">没有人 (%1$s) 可以看到您的头像</string>
   <string name="PrivacyPhotoContacts">只有联系人可以看到您的头像</string>
@@ -2818,7 +2824,7 @@
   <string name="ChatContentPinned">置顶消息</string>
   
   <string name="DisplaySensitiveContent">显示敏感内容</string>
-  
+  <string name="IgnoreRestrictions">忽略内容限制</string>
 
   <string name="format_notificationSilentTitle">%1$s &#128277;</string>
   <string name="format_notificationSilentText">&#128277; %1$s</string>
@@ -2887,7 +2893,7 @@
   <string name="WhoCanSeePhoneInfo">已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。</string>
 
   <string name="PrivacyShowNumberExceptionOn">可见</string>
-  
+  <string name="PrivacyShowNumberExceptionContacts">仅联系人可见</string>
   <string name="PrivacyShowNumberExceptionOff">隐藏</string>
   <string name="PrivacyShowNumberNobody">没有人可以看到您的手机号码</string>
   <string name="PrivacyShowNumberNobodyExcept">没有人 (%1$s) 可以看到你的手机号码</string>
@@ -3114,7 +3120,7 @@
   <string name="SendSchedule">定时发送</string>
   <string name="SendNoSound">静音发送</string>
   
-  
+  <string name="SendNoSoundX_other">向 %1$s 个对话静音发送</string>
   
   
   
@@ -3203,7 +3209,7 @@
   
   
   
-  
+  <string name="DiscardMediaHint3">您确定要放弃字幕和已编辑的媒体文件吗? 这些更改将丢失</string>
 
   <string name="QuizExplanation">说明</string>
   <string name="QuizExplanationEmpty">添加说明</string>
@@ -3241,7 +3247,7 @@
   
 
   
-  
+  <string name="HoldToSendAsFile">按住以发送文件和其他选项</string>
   
   
 
@@ -3260,9 +3266,9 @@
   
   <string name="PrivacyDefault">默认</string>
   
+  <string name="PrivacyDefaultContacts">联系人的默认设置</string>
   
-  
-  
+  <string name="PrivacyDefaultXChats_other">%1$s 个对话的默认设置</string>
 
   <string name="EditPrivacyPhoto">头像</string>
   <string name="EditPrivacyStatus">最后上线 &amp; 在线</string>
@@ -3270,42 +3276,54 @@
 
   <string name="EditPrivacyForward">转发我的消息</string>
   <string name="EditPrivacyCall">打电话给我</string>
-  <string name="EditPrivacyCallP2P">通话使用点对点传输</string>
+  <string name="EditPrivacyCallP2P">使用端到端连接通话</string>
   
   <string name="EditPrivacyChatInvite">将我加到群组和频道</string>
   <string name="EditPrivacyChatInviteGroup">将我加到其他对话</string>
   <string name="EditPrivacyGroupInfo">这些是应用于 %1$s 位成员的默认隐私设置。您可以在特定用户的个人资料页面上检查您的隐私设置。</string>
 
-  <string name="MuteNonContacts">非联系人的通知关静音</string>
+  <string name="MuteNonContacts">静音非联系人</string>
   
 
-  
-  
-
+  <string name="TakeVideoError">拍摄时发生错误</string>
   
 
-  
+  <string name="MessageInputEmpty">消息不能为空</string>
 
-  
-  
+  <string name="QuizOptionHint">点击选择正确答案</string>
 
-  
-  
+  <string name="PsaType">公共服务公告</string>
+  <string name="PsaTypeCovid">新冠肺炎</string>
+
+  <string name="PsaForward">公共服务公告通知</string>
+  <string name="PsaForwardCovid">新冠肺炎通知</string>
 
   <string name="PsaInfo">此消息为您提供一个公共服务公告。</string>
+  <string name="PsaInfoCovid">此对话为您提供正在发生的**新冠肺炎**疫情相关公共服务公告。在此了解有关此计划的更多信息：https://telegram.org/blog/coronavirus</string>
+
+  <string name="PsaChatInfo">此对话为您提供公共服务公告</string>
+  <string name="PsaChatInfoCovid">此对话为您提供正在发生的**新冠肺炎**疫情相关公共服务公告。在此了解有关此计划的更多信息：https://telegram.org/blog/coronavirus</string>
+
+  <string name="PsaHide">隐藏</string>
+  <string name="PsaHideDone">从对话列表里隐藏</string>
+  <string name="PsaFromX">来自 %1$s</string>
+  
+
+  <string name="PsaHideConfirm">隐藏 %1$s 吗?</string>
+  <string name="PsaHideConfirmCovid">隐藏来自 %1$s 的新冠肺炎通知吗?</string>
+
   
 
   
   
-
   
   
   
   
-
   
   
-
+  
+  
   
 
   
@@ -3379,6 +3397,7 @@
   <string name="NotificationMessageVoice">%1$s 给您发送了一条语音留言</string>
   <string name="NotificationsBlockedAll">系统屏蔽了来自Telegram的所有通知。</string>
   <string name="NotificationsGooglePlayServices">我们需要 Google Play 服务以保证可靠地获取通知。</string>
+  <string name="ParticipantLimitReached">您无法向此群组中添加更多成员</string>
   <string name="PollPreview">投票: %1$s</string>
   <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="PriorityMedium">中</string>

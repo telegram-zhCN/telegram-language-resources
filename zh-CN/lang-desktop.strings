@@ -381,7 +381,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_privacy_title" = "隐私";
 "lng_settings_last_seen" = "最后上线 & 在线";
 "lng_settings_calls" = "语音通话";
-"lng_settings_calls_peer_to_peer_title" = "P2P传输";
+"lng_settings_calls_peer_to_peer_title" = "端到端连接";
 "lng_settings_calls_peer_to_peer_button" = "与谁通话使用点对点传输";
 "lng_settings_groups_invite" = "被邀请权限";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
@@ -1833,7 +1833,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_removed_list_title" = "被封禁的用户";
 
 
-"lng_admin_log_slow_mode_seconds#other" = "{count}喵";
+"lng_admin_log_slow_mode_seconds#other" = "{count}秒";
 
 "lng_admin_log_slow_mode_minutes#other" = "{count}分钟";
 

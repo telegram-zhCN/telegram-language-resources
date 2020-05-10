@@ -264,7 +264,7 @@
 "Channel.Admin.TransferOwnership.Confirm.Group.Text" = "这将会把 %@ 的所有权转让给 %@。\n\n您将不再被视为群组的创建者。新的拥有者可以自由地移除您的管理权限，甚至将您封禁。";
 "Channel.Admin.TransferOwnership.Confirm.Group.Title" = "转让群组拥有权";
 "Channel.Admin.TransferOwnership.Confirm.OK" = "更改拥有者";
-"Channel.Admin.TransferOwnership.Group" = "转让群组拥有权";
+"Channel.Admin.TransferOwnership.Group" = "转让群组所有权";
 "Channel.Admin.TransferOwnership.Password.Desc" = "请输入您的两步验证密码以完成转让。";
 "Channel.Admin.TransferOwnership.Password.Title" = "两步验证";
 "Channel.Admin.WhatCanAdminDo" = "管理员权限";
@@ -400,7 +400,7 @@
 "Channel.TransferOwner.Error.Enable2FA" = "启用两步验证";
 "Channel.TransferOwner.Error.Text" = "要执行拥有权转让须符合以下条件：\n\n•您的帐号已启用两步验证超过 7 天。\n\n•您已登录此设备超过 24 小时。\n\n请您时间到了再回来。";
 "Channel.TransferOwner.Error.Title" = "安全检查";
-"Channel.TransferOwner.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，暂时无法添加新的拥有者。请先移除一个管理员。";
+"Channel.TransferOwner.ErrorAdminsTooMuch" = "抱歉，此频道有过多的管理者，故暂时无法添加新的拥有者。请先移除一个管理者。";
 "Channel.TransferOwner.ErrorPrivacyRestricted" = "抱歉，此用户并非此频道的成员，以及他们的隐私设置不允许您直接添加他们。";
 "Channel.TransferOwner.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
 "Channel.TypeHeaderChannel" = "频道类型";
@@ -1174,7 +1174,7 @@
 "Login.Next" = "下一步";
 "Login.PhoneCalledCode" = "我们刚刚拨打了您的手机。\n请在下方输入您的验证码。";
 "Login.PhoneDialed" = "Telegram 已经拨通您的手机";
-"Login.PhoneNumberAlreadyAuthorized" = "该帐号已在此应用中登录。";
+"Login.PhoneNumberAlreadyAuthorized" = "此账户已在本应用中登录。";
 "Login.PhoneNumberAlreadyAuthorized.Switch" = "切换";
 "Login.PhoneNumberNotRegistred" = "这个电话号码没有注册过。如果你没有注册过 Telegram 帐号，请在您的移动设备上注册。";
 "Login.QR.Cancel" = "或使用您的手机号码登录";
@@ -1690,7 +1690,7 @@
 "PrivacySettingsController.P2p.Never" = "从不";
 "PrivacySettingsController.PeerInfo" = "您可以将用户或整个群组添加为覆盖上述设置的例外。";
 "PrivacySettingsController.PhoneCallDescription" = "您可以精确地控制谁可以与您语音通话。";
-"PrivacySettingsController.PhoneCallHeader" = "谁可以呼叫我";
+"PrivacySettingsController.PhoneCallHeader" = "谁可以与我通话";
 "PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "总是共享给";
 "PrivacySettingsController.PhoneNumber.CustomHelp" = "已将您的手机号码保存在其通讯录中的用户将可关联到你在 Telegram 的身份。";
 "PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "从不共享";
