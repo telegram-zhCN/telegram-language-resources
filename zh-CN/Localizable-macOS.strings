@@ -1,6 +1,6 @@
 ﻿"psa.chatlist.covid" = "COVID-19";
 "psa.text.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
-
+"psa.title.covid" = "新冠肺炎通知";
 
 
 "psa.chat.text.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务公告。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";

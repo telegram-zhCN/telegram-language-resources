@@ -621,7 +621,7 @@
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一条消息</string>
   <string name="NotificationGame">邀请你一起玩 %1$s</string>
   
-  
+  <string name="NotificationGame_group">邀请了您一起玩 %1$s</string>
   
   <string name="Draft">草稿</string>
   <string name="ShareYourPhoneNumberTitle">是否分享您的手机号码？</string>
@@ -1896,7 +1896,7 @@
   
   <string name="XFoundMessagesFromUser_other">%1$s 条消息来自 %2$s</string>
   
-  
+  <string name="XFoundMessagesFromSelf_other">%1$s 条消息来自您</string>
   
   <string name="XFoundMessagesFromAutoPost_other">%1$s 条频道消息</string>
   <string name="FoundMessagesFromUser">%1$s 发送的消息</string>
@@ -2820,7 +2820,7 @@
   <string name="DiscardEditCaption">放弃说明</string>
   <string name="DiscardEditCaptionHint">你确定要放弃已经修改的备注吗？这将失去这些改动。</string>
 
-  
+  <string name="ChatContentScreenshot">截了一张图</string>
   <string name="ChatContentPinned">置顶消息</string>
   
   <string name="DisplaySensitiveContent">显示敏感内容</string>
@@ -3022,7 +3022,7 @@
   
   
 
-  
+  <string name="DeleteChatCache">清除媒体缓存</string>
 
   
   
@@ -3069,18 +3069,8 @@
   
   
 
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-
+  <string name="SelectMore">选择...</string>
+  <string name="SelectAll">全选</string>
   
   
 
@@ -3096,6 +3086,10 @@
 
   
   
+  
+  <string name="DeletedXChats_other">删除 %1$s 个对话</string>
+  
+  <string name="DeleteXChats_other">删除 %1$s 个对话</string>
 
   
   
@@ -3107,6 +3101,12 @@
   
 
   
+  
+
+  
+  
+
+  <string name="NoUndoWarn">此操作无法撤销！</string>
 
   
 
@@ -3150,7 +3150,7 @@
   <string name="ErrorScheduled">这个操作将在消息发布后可用。</string>
   
   
-  
+  <string name="Reminders">提醒</string>
 
   <string name="EventScheduledMessage">发送了定时消息</string>
   <string name="EventScheduledMessageDesc">当您的定时消息之一发送到开启通知的对话时，将收到通知。</string>
@@ -3163,7 +3163,7 @@
   
 
   
-  
+  <string name="Tomorrow">明天</string>
   
   <string name="ScheduledMessage">定时消息</string>
 
@@ -3239,9 +3239,9 @@
   <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   
   <string name="SendUnknownDice">试试您的运气</string>
-  
+  <string name="SendUnknownDiceHint">将 %1$s 表情符号发送到任何对话中，以试试您的运气。</string>
   <string name="SendDart">投掷飞镖</string>
-  
+  <string name="SendDartHint">发送 %1$s emoji 来玩飞镖。</string>
 
   <string name="NoVotesResult">没人投票</string>
   
@@ -3263,7 +3263,7 @@
   
   <string name="PrivacyOther">其他</string>
 
-  
+  <string name="Privacy">隐私设置</string>
   <string name="PrivacyDefault">默认</string>
   
   <string name="PrivacyDefaultContacts">联系人的默认设置</string>
@@ -3286,7 +3286,7 @@
   
 
   <string name="TakeVideoError">拍摄时发生错误</string>
-  
+  <string name="TakePhotoError">拍照时出错</string>
 
   <string name="MessageInputEmpty">消息不能为空</string>
 
@@ -3305,7 +3305,7 @@
   <string name="PsaChatInfoCovid">此对话为您提供正在发生的**新冠肺炎**疫情相关公共服务公告。在此了解有关此计划的更多信息：https://telegram.org/blog/coronavirus</string>
 
   <string name="PsaHide">隐藏</string>
-  <string name="PsaHideDone">从对话列表里隐藏</string>
+  <string name="PsaHideDone">从对话列表中隐藏</string>
   <string name="PsaFromX">来自 %1$s</string>
   
 

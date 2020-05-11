@@ -1337,7 +1337,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_skip_archive_in_search" = "隐藏已归档的搜索结果";
 "lng_dialogs_show_archive_in_search" = "显示已归档的搜索结果";
 
-"lng_about_random" = "发送一个 {emoji} 来试试你的运气。";
+"lng_about_random" = "将 {emoji} emoji 发送到任何对话中，以试试您的运气。";
 "lng_about_random_send" = "发送";
 
 "lng_open_this_link" = "打开此链接？";
