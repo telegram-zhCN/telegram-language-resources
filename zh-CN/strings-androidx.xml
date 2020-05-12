@@ -120,7 +120,7 @@
   <string name="status_LastSeen_minutes_other">最近上线于 %1$s 分钟前</string>
   
   <string name="status_LastSeen_hours_other">最近上线于 %1$s 小时前</string>
-  
+  <string name="format_tomorrow">明天 %1$s</string>
   
   <string name="xOnline_other">%1$s 人在线</string>
   
@@ -485,11 +485,11 @@
   <string name="ActionChannelChangedPhoto">频道头像已更换</string>
   <string name="DeleteMessage">删除消息</string>
   <string name="DeleteScheduled">删除定时消息</string>
-  
+  <string name="DeleteReminder">删除提醒</string>
   
   <string name="DeleteXScheduled_other">删除 %1$s 条定时消息</string>
   
-  
+  <string name="DeleteXReminders_other">删除 %1$s 个提醒</string>
   
   
   
@@ -1355,7 +1355,7 @@
   <string name="NoGroupsToShow">没有可显示的群组</string>
   <string name="GroupsWillBeShownHere">您与此人共同加入的群组将会显示在此处</string>
   <string name="EditAdminRights">修改管理员权限</string>
-  
+  <string name="EditAdminTitle">编辑自定义头衔</string>
   <string name="ViewAdminRights">查看管理员权限</string>
   <string name="EditUserRestrictions">编辑用户限制</string>
   <string name="RestrictUser">限制用户权限</string>
@@ -1594,7 +1594,7 @@
   <string name="InviteContacts">邀请联系人</string>
   <string name="NoRestrictionsHint">请至少设置一条限制</string>
   <string name="NoAdminRulesHint">请至少授予一个权限</string>
-  
+  <string name="CustomTitleTooBig">自定义头衔过长</string>
   <string name="SecretLinkPreviewAlert">要为加密对话启用链接预览吗？预览信息需要通过 Telegram 服务器生成。</string>
   <string name="SecretChatContextBotAlert">请注意 Inline 机器人是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传送给相应的开发者。</string>
   <string name="ClearRecentEmojiAction">清除最近使用的 Emoji</string>
@@ -1807,8 +1807,8 @@
   <string name="message_adminSignPlain">管理员</string>
   <string name="message_ownerSign">所有者</string>
   <string name="message_channelSign">频道</string>
-  
-  
+  <string name="CustomTitle">自定义头衔</string>
+  <string name="CustomTitleHint">一个自定义的头衔将展示给所有成员而不是“%1$s”。</string>
   <string name="WhoCanCallMe">谁可以打电话给我？</string>
   <string name="UseP2PWith">与谁通话使用点对点传输？</string>
   <string name="PrivacyLastSeenExceptionOn">可见</string>
@@ -1972,7 +1972,7 @@
   <string name="TabMembers">成员</string>
   <string name="TabMessages">消息</string>
   <string name="MoreMessageOptions">更多</string>
-  
+  <string name="MoreChatOptions">更多</string>
   
   <string name="MessagePin">置顶</string>
   <string name="MessageUnpin">取消置顶</string>
@@ -3112,7 +3112,7 @@
 
   
 
-  
+  <string name="HoldToRemind">按住以创建提醒。</string>
   <string name="HoldToSchedule">按住可在特定日期发送和选择其他选项。</string>
   <string name="HoldToSilentBroadcast">按住以选择无声广播或其他。</string>
   
@@ -3122,14 +3122,8 @@
   
   <string name="SendNoSoundX_other">向 %1$s 个对话静音发送</string>
   
-  
-  
-  
-
-  
-  
-  
-  
+  <string name="SendOnceOnline">当上线时发送</string>
+  <string name="SendReminder">定时提醒</string>
   
 
   
@@ -3137,10 +3131,16 @@
   
   
   
+
+  
+  <string name="RemindInXMinutes_other">%1$s 分钟后提醒</string>
+  
+  <string name="RemindInXHours_other">%1$s 小时后提醒</string>
+  <string name="RemindAtCustomTime">在特定时间提醒…</string>
 
   <string name="ScheduledMessages">定时消息</string>
 
-  
+  <string name="ScheduledUntilOnline">当上线时发送</string>
   <string name="ScheduledToday">今天的约定</string>
   <string name="ScheduledTomorrow">明天的约定</string>
   <string name="ScheduledDate">%1$s的约定</string>
@@ -3155,16 +3155,16 @@
   <string name="EventScheduledMessage">发送了定时消息</string>
   <string name="EventScheduledMessageDesc">当您的定时消息之一发送到开启通知的对话时，将收到通知。</string>
 
-  
-  
-  
+  <string name="RemindTodayAt">在今天 %1$s 时提醒我</string>
+  <string name="RemindTomorrowAt">在明天 %1$s 时提醒我</string>
+  <string name="RemindDateAt">在 %1$s 的 %2$s 提醒我</string>
   
   
   
 
   
   <string name="Tomorrow">明天</string>
-  
+  <string name="format_dateTime">%1$s 的 %2$s</string>
   <string name="ScheduledMessage">定时消息</string>
 
   
@@ -3218,7 +3218,7 @@
   <string name="ZoomOut">缩小</string>
 
   <string name="StatsRange">总览，%1$s。</string>
-  
+  <string name="StatsMembers">成员</string>
   <string name="StatsViews">每个帖子的浏览次数</string>
   <string name="StatsShares">每个帖子的分享次数</string>
   <string name="StatsNotifications">开启通知</string>
@@ -3233,7 +3233,7 @@
   <string name="StatsChartFollowersBySource">新订阅者的来源</string>
   <string name="StatsChartLanguage">语言</string>
   <string name="StatsChartInteractions">互动</string>
-  
+  <string name="StatsChartIv">即时预览互动</string>
 
   
   <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
