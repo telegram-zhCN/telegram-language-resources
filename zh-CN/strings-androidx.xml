@@ -859,7 +859,7 @@
   <string name="BlurRadial">圆形</string>
   <string name="BlurLinear">线性</string>
   
-  
+  <string name="QDeleteXMessagesFromY_other">删除 %1$s 条消息从 %2$s？</string>
   
   <string name="QDeleteXMessagesFromYRole_other">删除 %1$s 条消息来自 %2$s (%3$s)？</string>
   <string name="DeleteAllFrom">删除所有 %1$s 发送的消息</string>
@@ -887,7 +887,7 @@
   <string name="PinMessageInThisGroup">您要在这个群组里置顶这条消息吗？</string>
   <string name="PinMessageInThisChannel">您要在这个频道里置顶这条消息吗？</string>
   <string name="PinNotify">通知所有成员</string>
-  
+  <string name="PinNotify2">通知所有订阅者</string>
   <string name="ActionPinnedText">%1$s 置顶了 “%2$s”</string>
   <string name="ActionPinnedGame">%1$s 置顶了 %2$s</string>
   
@@ -2486,7 +2486,7 @@
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
   <string name="error_NotFound">页面未找到或已不存在。</string>
   <string name="error_STICKERSET_INVALID">贴纸包找不到或已不存在</string>
-  
+  <string name="errorPrivacyAddMember">抱歉，用户在其隐私设置中限制了谁可以将其添加到对话中。</string>
   <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="NobodyLikesSpam2">抱歉，您现在只能与双向联系人进行互动。</string> <!--PEER_FLOOD-->
 
@@ -3258,8 +3258,8 @@
   <string name="PrivacyVisibilityUser">%1$s 可以在我的个人资料上看到什么？</string>
   
   
-  
-  
+  <string name="PrivacyActionUser">%1$s 可以做什么？</string>
+  <string name="PrivacyActionBot">%1$s 可以做什么？</string>
   
   <string name="PrivacyOther">其他</string>
 
@@ -3283,7 +3283,7 @@
   <string name="EditPrivacyGroupInfo">这些是应用于 %1$s 位成员的默认隐私设置。您可以在特定用户的个人资料页面上检查您的隐私设置。</string>
 
   <string name="MuteNonContacts">静音非联系人</string>
-  
+  <string name="MuteNonContactsInfo">来自非联系人的通知将不会发出声音。您可以从用户的个人资料页将他加为联系人，而不用知道他的手机号码。</string>
 
   <string name="TakeVideoError">拍摄时发生错误</string>
   <string name="TakePhotoError">拍照时出错</string>

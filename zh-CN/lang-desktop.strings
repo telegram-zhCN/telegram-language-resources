@@ -300,6 +300,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_notifications_position" = "在屏幕上的位置";
 "lng_settings_notifications_count" = "通知计数";
 "lng_settings_sound_notify" = "播放提示音";
+
+
+
 "lng_settings_badge_title" = "未读消息数量提示";
 "lng_settings_include_muted" = "包含已关闭通知的对话";
 "lng_settings_count_unread" = "按消息数统计未读";
