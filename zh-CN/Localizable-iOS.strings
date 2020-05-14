@@ -5597,6 +5597,14 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加成员";
 "Chat.AttachmentLimitExceeded" = "抱歉，您无法一次选择更多的项目。";
+
+
+
+
+
+
+
+
 "ChatList.EmptyChatFilterList" = "空文件夹";
 "Conversation.Dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 "Conversation.Dice." = "发送一个骰子 Emoji 到任何对话以掷骰子。";
@@ -5608,7 +5616,17 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ThemeTemplateAlert" = "新主题已添加\n\n按住主题进行编辑或获取分享链接。 每次更改主题后，安装主题的用户都会自动获得更新。\n\n为了进行高级编辑，可以在“已保存的消息”中找到带有主题的文件。";
 "EditTheme.UploadEditedInfo" = "您可以通过上传来自文件的手动更改来为所有用户更新您的主题。";
 "EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
+
+
+
+
+
 "ForwardedDices_any" = "%@ 个转发的骰子";
+
+
+
+
+
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
@@ -5655,18 +5673,84 @@ Any member of this group will be able to see messages in the channel.";
 "MESSAGE_VIDEO_SECRET" = "%1$@ 给您发送了一张自毁视频";
 "MESSAGE_VIDEO_SECRET_SEPARATED" = "%1$@|给您发送了一段自毁视频";
 "MESSAGE_VIDEO_SEPARATED" = "%1$@|给您发送了一段视频";
+
 "Message.PinnedPollMessage" = "置顶投票";
+
+
+
+
+
 "NEW_CHANNEL_MESSAGES_SEPARATED_any" = "%1$@|发布了 %2$d 条消息";
+
+
+
+
+
 "NEW_CHANNEL_MESSAGE_FWDS_SEPARATED_any" = "%1$@|发布了 %2$d 条转发的消息";
+
+
+
+
+
 "NEW_CHANNEL_MESSAGE_PHOTOS_SEPARATED_any" = "%1$@|发布了 %2$d 张图片";
+
+
+
+
+
 "NEW_CHAT_MESSAGES_SEPARATED_any" = "%2$@|%1$@ 发送了 %3$d 条消息";
+
+
+
+
+
 "NEW_CHAT_MESSAGE_FWDS_SEPARATED_any" = "%2$@|%1$@ 转发了 %3$d 条消息";
+
+
+
+
+
 "NEW_CHAT_MESSAGE_PHOTOS_SEPARATED_any" = "%2$@|%1$@ 发送了 %3$d 张图片";
+
+
+
+
+
 "NEW_MESSAGES_SEPARATED_any" = "%1$@|给您发送了 %2$d 条消息";
+
+
+
+
+
 "NEW_MESSAGE_FWDS_SEPARATED_any" = "%1$@|转发给您 %2$d 条消息";
+
+
+
+
+
 "NEW_MESSAGE_PHOTOS_SEPARATED_any" = "%1$@|给您发送了 %2$d 张图片";
 "Notification.ChannelMigratedFrom" = "此群组已升级为超级群组";
 "Notifications.DisplayNamesOnLockScreenInfo" = "锁屏状态时在通知中显示对方名称。如需关闭此功能, 请打开 iOS 设置 > Telegram > 通知，并将“显示预览”项更改为“仅解锁时”或“从不”。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
 "PHONE_CALL_MISSED_SEPARATED" = "%1$@|您有未接来电";
 "PHONE_CALL_REQUEST" = "%1$@ 正在呼叫您...";
@@ -5700,19 +5784,140 @@ Any member of this group will be able to see messages in the channel.";
 "PINNED_TEXT_SEPARATED" = "%1$@|置顶了 \"%2$@\"";
 "PINNED_VIDEO" = "%1$@ 置顶了一段视频";
 "PINNED_VIDEO_SEPARATED" = "%1$@|置顶了一段视频";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "PUSH_MESSAGE_ALBUM" = "%1$@|📷 相册";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "稍后再说";
 "PassportKit.Button.GetTelegramAlertTitle" = "获取 Telegram Messenger";
 "PassportKit.Button.Title" = "通过 Telegram 登录";
 "Peer.DeletedUser" = "已删除用户";
+
+
+
+
 "SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
 "StickerPacksSettings.ArchivedMasks.Info" = "你可以拥有最多 200 套装饰。\n未使用的装饰将在你添加更多的装饰时被归档。";
 "Undo.MessagesDeleted" = "消息已删除";
 "Updated.AtDate" = "%@";
+
+
+
+
+
 "Updated.HoursAgo_any" = "%@ 小时前";
 "Updated.JustNow" = "刚刚";
+
+
+
+
+
 "Updated.MinutesAgo_any" = "%@ 分钟前";
 "Updated.TodayAt" = "今天 %@";
 "Updated.YesterdayAt" = "昨天 %@";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
