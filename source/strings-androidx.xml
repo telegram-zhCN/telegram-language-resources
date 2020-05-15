@@ -86,6 +86,7 @@
   <string name="messagesCount_one">%1$s</string>
   <string name="messagesCount_other">%1$s</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
+  <string name="format_notificationTicker">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s, %2$s</string>
   <string name="login_PhoneNumber">Phone number</string>
   <string name="login_error">Error: %1$s. __Contact us__, if you need help.</string>
@@ -2647,6 +2648,7 @@
 
   <string name="NotificationChannelOther">Other</string>
   <string name="RetrievingMessages">Checking for new messages</string>
+  <string name="RetrievingText">Account: %1$s</string>
   <string name="RetrieveMessagesError">Failed to fetch messages. Tap to resolve.</string>
 
   <string name="AllowNotifications">Display Notifications Content</string>
@@ -3117,6 +3119,8 @@
   <string name="HoldToSilentBroadcast">Hold for silent broadcast and more.</string>
   <string name="HoldToSchedule2">Hold to send when %1$s goes online and other options.</string>
 
+  <string name="HoldToTone">Hold &amp; keep for black, white and any color tone.</string>
+
   <string name="SendSchedule">Schedule message</string>
   <string name="SendNoSound">Send without sound</string>
   <string name="SendNoSoundX_one">Send without sound to %1$s chat</string>
@@ -3325,6 +3329,8 @@
   <string name="DebugModules">Modules</string>
   <string name="DebugModulesInfo">This adjusts at what log level specific modules will be logged.\n\nExample: when **td_init** is set to **WARNING**, you will find corresponding output when **Verbosity Level** is set to **WARNING** or higher value.</string>
   <string name="DebugShareError">Set **Verbosity Level** to **ASSERT** to share TDLib log.</string>
+
+  <string name="BrushSize">Brush Size: %1$s</string>
 
   
   
