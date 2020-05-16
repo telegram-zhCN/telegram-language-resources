@@ -53,6 +53,7 @@
 "AccountSettings.Stickers" = "贴纸";
 "AccountSettings.Theme" = "外观";
 "AccountSettings.Username" = "用户名";
+"AccountSettings.Wallet" = "Gram 钱包";
 "AccountViewController.Desc.Failed" = "失败";
 "AccountViewController.Desc.Updated" = "已更新";
 "AccountViewController.Update" = "更新";
@@ -75,7 +76,9 @@
 "Alert.Cancel" = "取消";
 "Alert.Confirm.Discard" = "放弃";
 "Alert.Confirm.Stop" = "停止";
+"Alert.Discard" = "放弃";
 "Alert.Forward.Error" = "抱歉，您无法转发消息到此对话。";
+"Alert.NO" = "不";
 "Alert.OK" = "好";
 "Alert.PrivateChannel.AccessError" = "很遗憾，你无法访问这条消息。你不是消息来源对话的成员。";
 "Alert.SendError.Delete" = "删除";
@@ -356,6 +359,7 @@
 "Channel.Intro.CreateChannel" = "创建频道";
 "Channel.IntroDescription" = "频道是向大众广播消息的得力工具";
 "Channel.IntroDescriptionHeader" = "什么是频道？";
+"Channel.NameHeader" = "频道名称";
 "Channel.NewChannel" = "新建频道";
 "Channel.Permissions.SlowMode.Header" = "慢速模式";
 "Channel.Permissions.SlowMode.Text.Off" = "选择每个成员在发送下一条消息之前必须等待的时间。";
@@ -461,6 +465,7 @@
 "Chat.Channel.Unaccessible" = "抱歉，无法访问此频道";
 "Chat.ChannelBadge" = "频道";
 "Chat.Confirm.ActionUndonable" = "此操作无法撤销。";
+"Chat.Confirm.DeleteForEveryone_other" = "您确定为所有人都删除这条消息吗？\n您确定为所有人都删除这些消息吗？";
 "Chat.Confirm.DeleteMessages" = "删除所选消息？";
 "Chat.Confirm.DeleteMessagesForEveryone" = "为所有人撤回";
 "Chat.Confirm.ReportSpam" = "要举报骚扰行为吗？";
@@ -505,6 +510,7 @@
 "Chat.DropFolder.Title" = "拖拽文件夹到此处发送";
 "Chat.DropQuickDesc" = "快速发送";
 "Chat.DropTitle" = "拖拽文件到此处";
+"Chat.Edit.Cancel.Text" = "您确定要放弃所有更改吗？";
 "Chat.EditMessage.Media" = "点击以编辑媒体文件";
 "Chat.Emoji.Dart.ResultNew" = "发送一个飞镖 emoji 以试试您的运气。";
 "Chat.Emoji.Def.ResultNew" = "发送一个 %@ emoji 以试试您的运气。";
@@ -653,6 +659,7 @@
 "Chat.UndoManager.ChatLeft_other" = "已退出 %d 个群组";
 "Chat.UndoManager.ChatLeft_countable" = "%d";
 "Chat.UndoManager.ChatsArchived_other" = "%d 个对话已归档";
+"Chat.UndoManager.ChatsArchived_countable" = "%d";
 "Chat.UndoManager.ChatsDeleted_other" = "已删除 %d 个对话";
 "Chat.UndoManager.ChatsDeleted_countable" = "%d";
 "Chat.UndoManager.ChatsHistoryCleared_other" = "已清空 %d 个对话的历史记录";
@@ -675,6 +682,7 @@
 "Chat.Webpage.MediaCount" = "%d / %d";
 "ChatInput.ShowNext" = "显示下一项";
 "ChatList.Add.TopSeparator" = "对话类型";
+"ChatList.Archive.Back" = "对话";
 "ChatList.ArchivedChats" = "已归档对话";
 "ChatList.Context.Call" = "通话";
 "ChatList.Context.ClearHistory" = "清空历史记录";
@@ -697,9 +705,17 @@
 "ChatList.Feeds" = "频道";
 "ChatList.Filter.AddChats" = "添加对话";
 "ChatList.Filter.All" = "全部";
+"ChatList.Filter.Archive" = "已归档";
 "ChatList.Filter.Bots" = "机器人";
 "ChatList.Filter.Channels" = "频道";
+"ChatList.Filter.Confirm.Remove.Header" = "移除文件夹";
+"ChatList.Filter.Confirm.Remove.OK" = "删除";
+"ChatList.Filter.Confirm.Remove.Text" = "您确定要移除这个文件夹吗？";
 "ChatList.Filter.Contacts" = "联系人";
+"ChatList.Filter.Discard.Cancel" = "取消";
+"ChatList.Filter.Discard.Header" = "放弃更改";
+"ChatList.Filter.Discard.OK" = "放弃";
+"ChatList.Filter.Discard.Text" = "您确定要放弃所有更改吗？";
 "ChatList.Filter.Done" = "创建";
 "ChatList.Filter.EditFilters" = "编辑文件夹";
 "ChatList.Filter.Empty" = "**当前没有对话属于此文件夹。**\n\n[编辑文件夹](filter)";
@@ -735,7 +751,12 @@
 "ChatList.Filter.Tilte.Default.Unread" = "未读";
 "ChatList.Filter.Title" = "文件夹";
 "ChatList.GroupChannel" = "群组频道";
+"ChatList.Mute.1Day" = "1 天";
 "ChatList.Mute.1Hour" = "1 小时";
+"ChatList.Mute.3Days" = "3 天";
+"ChatList.Mute.4Hours" = "4 小时";
+"ChatList.Mute.8Hours" = "8 小时";
+"ChatList.Mute.Forever" = "永久";
 "ChatList.Popover.Confirm" = "您确定要将所有对话标记为已读吗？";
 "ChatList.Popover.ReadAll" = "全部设为已读";
 "ChatList.RevealAction.Collapse" = "收起";
@@ -828,6 +849,7 @@
 "CrashOnLaunch.OK" = "退出登录";
 "Create.ChannelsTooMuch" = "抱歉，您加入了太多群组和频道。请在创建新的之前退出一些。";
 "CreateGroup.NameHolder" = "群组名称";
+"DarkMode.Confirm.NightMode.Header" = "夜间模式";
 "DataAndStorage.AutomaticAudioDownload.Header" = "自动下载语音";
 "DataAndStorage.AutomaticDownload" = "自动下载媒体文件";
 "DataAndStorage.AutomaticDownload.Files" = "文件";
@@ -1002,6 +1024,7 @@
 "GalleryView.FastSave.Video" = "视频已保存到 [下载]() 文件夹";
 "GeneralSettings.AccentColor" = "强调色";
 "GeneralSettings.AcceptSecretChats" = "接受加密对话";
+"GeneralSettings.AdvancedHeader" = "高级";
 "GeneralSettings.AppearanceSettings" = "显示设置";
 "GeneralSettings.AutoplayGifs" = "自动播放 GIF";
 "GeneralSettings.BigEmoji" = "大号 Emoji";
@@ -1009,6 +1032,7 @@
 "GeneralSettings.CopyRTF" = "复制时携带格式";
 "GeneralSettings.DarkMode" = "深色模式";
 "GeneralSettings.DarkMode.Description" = "一套适用于夜间以及深色桌面的配色方案";
+"GeneralSettings.EmojiAndStickers" = "Emoji 和贴纸";
 "GeneralSettings.EmojiPrediction" = "根据输入内容推荐 Emoji";
 "GeneralSettings.EmojiPrediction.Disable" = "关闭";
 "GeneralSettings.EmojiReplacements" = "自动替换 Emoji";
@@ -1106,6 +1130,9 @@
 "InAppLinks.Confirm.OpenExternal.OK" = "打开";
 "InactiveChannels.BlockHeader" = "过多的群组和频道";
 "InactiveChannels.Header" = "最不活跃";
+"InactiveChannels.InactiveMonth_other" = "%d 个月不活跃";
+"InactiveChannels.InactiveWeek_other" = "%d 周不活跃";
+"InactiveChannels.InactiveYear_other" = "%d 年不活跃";
 "InactiveChannels.OK" = "退出";
 "InactiveChannels.Title" = "达到上限";
 "InlineModalAction.Desc" = "通过 %@ 给用户或对话分享内容";
@@ -1143,6 +1170,7 @@
 "Language.OfficialTransationsHeader" = "官方翻译";
 "Language.RemovePack" = "您确定要移除这个语言包吗？";
 "LastSeen.HoursAgo_other" = "%d 小时前在线";
+"LastSeen.HoursAgo_countable" = "%d";
 "Legacy.Intro.Description1" = "欢迎使用超快又稳定的 macOS 版 Telegram，现全以 Swift 3.0 重写。";
 "Legacy.Intro.Description2" = "请注意你现有的加密对话将以只读方式显示。你需要创建一个新的加密对话来继续聊天。";
 "Legacy.Intro.Next" = "开始聊天";
@@ -1646,6 +1674,7 @@
 "PrivacySettings.DeleteAccountHeader" = "帐号保留期限";
 "PrivacySettings.Forwards" = "转发引用来源";
 "PrivacySettings.GroupMembersCount_other" = "%d 位用户";
+"PrivacySettings.GroupMembersCount_countable" = "%d";
 "PrivacySettings.Groups" = "群组";
 "PrivacySettings.LastSeen" = "最后上线";
 "PrivacySettings.LastSeenContactsMinus" = "我的联系人 (-%@)";
@@ -1759,12 +1788,15 @@
 "ReportReason.ChildAbuse" = "儿童虐待";
 "ReportReason.Copyright" = "侵犯版权";
 "ReportReason.Other" = "其他";
+"ReportReason.Other.Placeholder" = "描述";
 "ReportReason.Porno" = "色情";
 "ReportReason.Report" = "举报";
 "ReportReason.Spam" = "垃圾信息";
 "ReportReason.Violence" = "暴力";
 "RequestAcces.Error.Conirm.Settings" = "设置";
 "RequestAcces.Error.HaveNotAccess.Call" = "Telegram 需要访问您的麦克风来拨打电话。";
+"RequestAcces.Error.HaveNotAccess.VideoMessages" = "Telegram 需要访问您的麦克风和摄像头以录制视频消息";
+"RequestAcces.Error.HaveNotAccess.VoiceMessages" = "Telegram 需要访问您的麦克风以录制语音消息";
 "Ruw-6m-B2m.title" = "全选";
 "Schedule.SendDate" = "在 %@ %@ 时发送";
 "Schedule.SendToday" = "在今天 %@ 时发送";
@@ -2001,10 +2033,12 @@
 "Sessions.CurrentSessionHeader" = "当前设备";
 "Sessions.TerminateDescription" = "退出所有已登录的设备，只保留当前使用的。";
 "Sessions.TerminateOthers" = "将其他设备退出登录";
+"SettingsSearch.Recent.Clear" = "清除";
 "SettingsSearch.Synonyms.Appearance.ChatBackground" = "壁纸\n墙纸\n背景";
 "SettingsSearch.Synonyms.Data.Storage.Title" = "缓存\n存储";
 "SettingsSearch.Synonyms.Privacy.TwoStepAuth" = "密码";
 "SettingsSearch.Synonyms.Proxy.Title" = "SOCKS5\nMTProto\nmtproxy\nmt\nmtp\nsocks";
+"SettingsSearch.Synonyms.Watch" = "Apple Watch";
 "Share.Link.Copied" = "拷贝到剪贴板";
 "ShareExtension.Cancel" = "取消";
 "ShareExtension.Passcode.Next" = "下一步";
@@ -2057,7 +2091,10 @@
 "StickerPack.Add1_countable" = "%d";
 "StickerSet.DontExist" = "抱歉，这款贴纸包似乎不存在";
 "StickerSet.Remove" = "移除";
+"Stickers.Confirm.ClearRecentHeader" = "清除最近的贴纸";
+"Stickers.Confirm.ClearRecentOK" = "清除";
 "Stickers.Confirm.ClearRecentText" = "确定要清空最近使用的表情？";
+"Stickers.Count_countable" = "%d";
 "Stickers.Favorite" = "收藏夹";
 "Stickers.GroupStickers" = "群组贴纸";
 "Stickers.Recent" = "最近";

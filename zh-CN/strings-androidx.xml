@@ -86,7 +86,7 @@
   
   <string name="messagesCount_other">%1$s</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
-  
+  <string name="format_notificationTicker">%1$s: %2$s</string>
   <string name="format_sessionsAndWebsites">%1$s，%2$s</string>
   <string name="login_PhoneNumber">手机号码</string>
   <string name="login_error">错误:  %1$s. 如果您需要帮助请 __联系我们__ .</string>
@@ -270,7 +270,7 @@
   <string name="ChatContentDart2">投掷飞镖</string>
   <string name="ChatContentDart3">投掷飞镖</string>
   <string name="ChatContentDart4">投掷飞镖</string>
-  
+  <string name="ChatContentDart5">飞镖：差点正中红心！</string>
   <string name="ChatContentDart6">飞镖：正中靶心！</string>
   
   
@@ -446,7 +446,7 @@
   <string name="GeneratingLink">正在生成链接...</string>
   <string name="DiscardChanges">放弃修改</string>
   
-  
+  <string name="ParticipantXLimitReached_other">您最多只能添加 %1$s 位成员到此群组</string>
   <string name="Reply">回复</string>
   <string name="Select">选择</string>
   <string name="Open">打开</string>
@@ -1306,7 +1306,7 @@
   <string name="RoleMember_minutes_other">%1$s 分钟前加入</string>
   
   <string name="RoleMember_hours_other">%1$s 小时前加入</string>
-  
+  <string name="RoleMember_today">今天 %1$s 加入</string>
   <string name="RoleMember_yesterday">昨天 %1$s 加入</string>
   
   <string name="RoleMember_days_other">%1$s 天前加入</string>
@@ -1574,7 +1574,7 @@
   <string name="NewPinnedMessage">置顶消息：%1$s</string>
   <string name="PinnedMessageChanged">置顶消息已更改</string>
   
-  
+  <string name="EditMarkdownHint">使用老方法编辑消息中的文字：`**`**粗体**`**`, `__`__斜体__`__`, `~~`~~删除线~~`~~ `, ``` `等宽字体`,```[文字](链接)</string>
   <string name="MessageNotFound">未找到消息</string>
   <string name="SyncHintTitle">寻找联系人</string>
   <string name="SyncHint">为了和您认识的每个人无缝联系，请允许 %1$s 访问您的通讯录。</string>
@@ -2486,7 +2486,7 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">抱歉，此语言包不存在</string>
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
   <string name="error_NotFound">页面未找到或已不存在。</string>
-  <string name="error_STICKERSET_INVALID">贴纸包找不到或已不存在</string>
+  <string name="error_STICKERSET_INVALID">找不到贴纸包或已不存在。</string>
   <string name="errorPrivacyAddMember">抱歉，用户在其隐私设置中限制了谁可以将其添加到对话中。</string>
   <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="NobodyLikesSpam2">抱歉，您现在只能与双向联系人进行互动。</string> <!--PEER_FLOOD-->
@@ -2648,7 +2648,7 @@
 
   <string name="NotificationChannelOther">其他</string>
   <string name="RetrievingMessages">正在获取新消息</string>
-  
+  <string name="RetrievingText">账户：%1$s</string>
   <string name="RetrieveMessagesError">获取消息失败.点击以解决.</string>
 
   <string name="AllowNotifications">通知时显示具体内容</string>
@@ -3250,7 +3250,7 @@
   <string name="NoVotesResult">没人投票</string>
   
 
-  
+  <string name="HoldToSendAsCopy">按住可提供您更多的选项。</string>
   <string name="HoldToSendAsFile">按住以发送文件和其他选项</string>
   
   
@@ -3294,7 +3294,7 @@
 
   <string name="MessageInputEmpty">消息不能为空</string>
 
-  <string name="QuizOptionHint">点击选择正确答案</string>
+  <string name="QuizOptionHint">点击以选择正确的答案。</string>
 
   <string name="PsaType">公共服务公告</string>
   <string name="PsaTypeCovid">新冠肺炎</string>
@@ -3311,16 +3311,16 @@
   <string name="PsaHide">隐藏</string>
   <string name="PsaHideDone">从对话列表中隐藏</string>
   <string name="PsaFromX">来自 %1$s</string>
-  
+  <string name="PsaFromXViaBot">从 %1$s 通过 %2$s</string>
 
   <string name="PsaHideConfirm">隐藏 %1$s 吗?</string>
   <string name="PsaHideConfirmCovid">隐藏来自 %1$s 的新冠肺炎通知吗?</string>
 
-  
+  <string name="ProxySponsorAlert">这个频道是由您的代理服务器所展示的。若要从您的对话列表中移除此频道，在 Telegram 设置中禁用代理即可。</string>
 
   
   
-  
+  <string name="DebugLogFiles">日志文件</string>
   
   
   
