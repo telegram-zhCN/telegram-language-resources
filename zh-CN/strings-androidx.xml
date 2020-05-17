@@ -675,7 +675,7 @@
   <string name="NotificationsEnabledHint">已启用 (%1$s)</string>
   <string name="NotificationsBlocked">已屏蔽</string>
   <string name="NotificationsDisabled">关闭</string>
-  <string name="PrivacySettings">隐私与安全</string>
+  <string name="PrivacySettings">隐私和安全</string>
   <string name="AskAQuestion">向我们提问</string>
   <string name="TelegramFAQ">Telegram 常见问题</string>
   <string name="HideForYourself">暂时对自己隐藏</string>
@@ -1013,7 +1013,7 @@
   <string name="NoMusicFilesFound">没有找到音乐文件</string>
   <string name="FolderEmpty">这个文件夹是空的</string>
   <string name="AttachFolderHome">返回</string>
-  <string name="DataSettings">数据与存储</string>
+  <string name="DataSettings">数据和存储</string>
   <string name="StorageUsage">存储用量</string>
   <string name="ReduceMotion">减少动画效果</string>
   <string name="StorageUsageHint">管理占用空间</string>
@@ -1984,7 +1984,7 @@
   <string name="MembersDetailRestricted">被限制的用户</string>
   <string name="MembersDetailAdmins">管理员</string>
   <string name="MembersDetailBanned">被封禁的用户</string>
-  <string name="ChatSuggestionsDisabled">机器人推荐已被禁用。\n可在 设置 &gt; 隐私与安全 处重新开启。</string>
+  <string name="ChatSuggestionsDisabled">机器人推荐已被禁用。\n可在 设置 &gt; 隐私和安全 中重新开启。</string>
   <string name="ChatLinkView">查看对话</string>
   <string name="ChatLinkRemove">移除链接</string>
   <string name="ChatLinkRemoveAlert">等等！你确定你要将 %1$s 设为私人并且移除它的公开链接？若如此做，该链接可能会被其他用户生成。</string>

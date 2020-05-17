@@ -16,7 +16,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_back" = "返回";
 "lng_menu_night_mode" = "夜间模式";
 
-"lng_disable_notifications_from_tray" = "关闭消息通知";
+"lng_disable_notifications_from_tray" = "关闭通知";
 "lng_enable_notifications_from_tray" = "启用消息通知";
 "lng_open_from_tray" = "打开 Telegram";
 "lng_minimize_to_tray" = "最小化到托盘";
@@ -413,7 +413,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_theme_tinted" = "染";
 "lng_settings_theme_night" = "夜间";
 "lng_settings_theme_accent_title" = "选择强调色";
-"lng_settings_data_storage" = "数据与存储";
+"lng_settings_data_storage" = "数据和存储";
 "lng_settings_information" = "编辑资料";
 "lng_settings_passcode_title" = "设置锁定码";
 "lng_settings_password_title" = "两步验证";
@@ -1306,7 +1306,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_description" = "它能做什么？";
 "lng_unblock_button" = "取消屏蔽";
 "lng_restart_button" = "重启";
-"lng_channel_mute" = "静音";
+"lng_channel_mute" = "关闭通知";
 "lng_channel_unmute" = "开启通知";
 "lng_channel_discuss" = "讨论";
 "lng_saved_messages" = "收藏夹";
@@ -1972,8 +1972,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_terms_age#other" = "我确认我已满 {count} 周岁";
 "lng_terms_agree" = "同意并继续";
 "lng_terms_decline" = "拒绝";
-"lng_terms_signup_sorry" = "很遗憾，您不能注册Telegram帐号。\n\nTelegram的云服务功能十分强大，我们仅储存用于提供云服务所必需的信息，而不是像友商一样将您的数据用于「个性化广告」之类的商业目的。您可以在设置中的「隐私与安全」里调整我们使用您数据的方式。\n\n但如果您仍对Telegram如此克制的需求不尽满意，我们就无法再对您提供服务了。";
-"lng_terms_update_sorry" = "很遗憾，我们只能在此分别了。Telegram的云服务功能十分强大，我们仅储存用于提供云服务所必需的信息，而不是像友商一样将您的数据用于「个性化广告」之类的商业目的。您可以在设置中的「隐私与安全」里调整我们使用您数据的方式。\n\n但如果您仍对Telegram如此克制的需求不尽满意，我们就无法再对您提供服务了。您可以马上删除您的帐号⸺但为何不再尝试一下呢？若您还是对我们使用数据的方式感到不悦，您仍可以删除帐号。这样如何？";
+"lng_terms_signup_sorry" = "很遗憾，您不能注册Telegram帐号。\n\nTelegram的云服务功能十分强大，我们仅储存用于提供云服务所必需的信息，而不是像友商一样将您的数据用于「个性化广告」之类的商业目的。您可以在设置中的「隐私和安全」里调整我们使用您数据的方式。\n\n但如果您仍对Telegram如此克制的需求不尽满意，我们就无法再对您提供服务了。";
+"lng_terms_update_sorry" = "很遗憾，我们只能在此分别了。Telegram的云服务功能十分强大，我们仅储存用于提供云服务所必需的信息，而不是像友商一样将您的数据用于「个性化广告」之类的商业目的。您可以在设置中的「隐私和安全」里调整我们使用您数据的方式。\n\n但如果您仍对Telegram如此克制的需求不尽满意，我们就无法再对您提供服务了。您可以马上删除您的帐号⸺但为何不再尝试一下呢？若您还是对我们使用数据的方式感到不悦，您仍可以删除帐号。这样如何？";
 "lng_terms_decline_and_delete" = "拒绝并删除数据";
 "lng_terms_back" = "返回";
 "lng_terms_delete_warning" = "警告，这将不可逆转地删除您的 Telegram 帐号，以及您存储在 Telegram 云中的所有数据。\n\n请注意：您现在可以取消删除操作，并在删除您的帐号前下载您的数据以免损失。（为了下载您的数据，请使用最新版 Telegram Desktop，并打开 设置 > 高级 > 导出 Telegram 数据。）";

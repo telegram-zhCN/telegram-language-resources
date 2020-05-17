@@ -692,8 +692,8 @@
 "Settings.SetProfilePhoto" = "上传头像";
 "Settings.Logout" = "退出当前帐号";
 "Settings.Title" = "设置";
-"Settings.NotificationsAndSounds" = "通知与声音";
-"Settings.ChatSettings" = "数据与存储";
+"Settings.NotificationsAndSounds" = "通知和声音";
+"Settings.ChatSettings" = "数据和存储";
 "Settings.BlockedUsers" = "已屏蔽";
 "Settings.ChatBackground" = "聊天窗口背景图";
 "Settings.Support" = "我有疑问";
@@ -742,7 +742,7 @@
 "Notifications.ResetAllNotificationsHelp" = "撤消对所有联系人、群组和频道的自定义通知设置";
 
 // Chat Settings
-"ChatSettings.Title" = "数据与存储";
+"ChatSettings.Title" = "数据和存储";
 "ChatSettings.Appearance" = "显示效果";
 "ChatSettings.TextSize" = "字号";
 "ChatSettings.TextSizeUnits" = "号";
@@ -891,7 +891,7 @@
 "WebSearch.RecentSectionTitle" = "最近";
 "WebSearch.RecentSectionClear" = "清空";
 
-"Settings.PrivacySettings" = "隐私与安全";
+"Settings.PrivacySettings" = "隐私和安全";
 
 
 
@@ -900,7 +900,7 @@
 
 
 
-"PrivacySettings.Title" = "隐私与安全";
+"PrivacySettings.Title" = "隐私和安全";
 
 "PrivacySettings.PrivacyTitle" = "隐私";
 "PrivacySettings.LastSeen" = "最后上线 & 在线";
@@ -5899,7 +5899,7 @@ Any member of this group will be able to see messages in the channel.";
 "Appstore.Open" = "**开放**\n没有广告，没有收费。\n对所有人免费开放源代码。";
 "Appstore.Creative" = "**创造力**\n色彩主题、贴纸、GIF、\n视频消息及更多。";
 "Appstore.Public" = "**公开**\n公开的频道、开放的群组、\n各种功能的机器人。";
-"Appstore.Fast.Chat1" = "**Alicia Torreaux*\nBob says hi.";
+"Appstore.Fast.Chat1" = "**Alicia Torreaux**\nBob says hi.";
 "Appstore.Fast.Chat2" = "**Roberto**\nSay hello to Alice.";
 "Appstore.Fast.Chat3" = "**Digital Nomads**\nJennie\nWe just reached 2,500 members! WOO!";
 "Appstore.Fast.Chat4" = "**Veronica**\nTable for four, 2 PM. Be there.";
