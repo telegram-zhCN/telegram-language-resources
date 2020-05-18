@@ -526,7 +526,7 @@
     <string name="SlowmodeInfoSelected">成员每%1$s只能发一条消息。</string>
     <string name="SlowmodeSendError">慢速模式已启用。 您不能一次发送多条消息。</string>
     <string name="SlowmodeSelectSendError">慢速模式已启用。您无法选择更多。</string>
-    <string name="SlowmodeSendErrorTooLong">抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。 您不能一次发送多条消息。</string>
+    <string name="SlowmodeSendErrorTooLong">抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。您一次最多只能发送一条消息。</string>
     <!--polls-->
     <string name="NewPoll">发起投票</string>
     <string name="NewQuiz">发起测验</string>

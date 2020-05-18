@@ -114,6 +114,7 @@
 "Appearance.Reset" = "恢复默认";
 "Appearance.Settings.AutoNight" = "自动启用夜间模式";
 "Appearance.Settings.AutoNightHeader" = "自动启用夜间模式";
+"Appearance.Settings.BubblesMode" = "气泡模式";
 "Appearance.Theme.Edit" = "编辑";
 "Appearance.Theme.Remove" = "删除";
 "Appearance.Theme.Share" = "分享";
@@ -188,9 +189,11 @@
 "AutoNight.Settings.Sunrise.Desc.NA" = "计算日落/日出时间需要对您的粗略位置进行一次性检测。请注意，此位置仅会存储在您目前的设备上。\n\n日落：未知\n日出：未知";
 "AutoNight.Settings.SunsetAndSunrise" = "使用当地日落/日出时间";
 "AutoNight.Settings.SystemBased" = "系统";
+"AutoNight.Settings.SystemBasedDesc" = "App界面将匹配系统外观设置。";
 "AutoNight.Settings.Title" = "自动夜间主题";
 "AutoNight.Settings.To" = "至";
 "AutoNight.Settings.UpdateLocation" = "更新位置";
+"AutoNight.Settings.UpdateLocation.Error" = "无法确定您的位置。请检查系统设置，然后重试。";
 "BOF-NM-1cW.title" = "偏好设置...";
 "Bio.Description" = "一些个人简介，例如年龄、工作或城市。\n示例：24岁，来自下北泽的学生";
 "Bio.Header" = "简介";
@@ -199,6 +202,7 @@
 "BlockContact.Options.Action" = "屏蔽 %@";
 "BlockContact.Options.DeleteChat" = "删除此对话";
 "BlockContact.Options.Report" = "举报垃圾信息";
+"BlockContact.Options.Title" = "管理用户";
 "BlockContact.Title" = "您想屏蔽 %@ 的所有消息和通话吗？";
 "BlockedPeers.EmptyDescrpition" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
 "Bot.InlineAuth.Header" = "打开链接";
@@ -513,6 +517,7 @@
 "Chat.Dice.ResultNew" = "发送一个 %@ emoji 到任何对话就可以从 Telegram 获得一个随机数。";
 "Chat.DropAsFilesDesc" = "无损发送";
 "Chat.DropEditDesc" = "编辑媒体";
+"Chat.DropEditTitle" = "将文件拖放到这里以编辑媒体";
 "Chat.DropFolder.Desc" = "以压缩文件形式";
 "Chat.DropFolder.Title" = "拖拽文件夹到此处发送";
 "Chat.DropQuickDesc" = "快速发送";
@@ -724,6 +729,7 @@
 "ChatList.Filter.Archive" = "已归档";
 "ChatList.Filter.Back" = "对话";
 "ChatList.Filter.Bots" = "机器人";
+"ChatList.Filter.Categories.Header" = "包含对话类型";
 "ChatList.Filter.Channels" = "频道";
 "ChatList.Filter.Confirm.Remove.Header" = "移除文件夹";
 "ChatList.Filter.Confirm.Remove.OK" = "删除";
@@ -741,7 +747,9 @@
 "ChatList.Filter.Error.Empty" = "请将一些对话或对话类型添加到文件夹。";
 "ChatList.Filter.Error.LikeChats" = "无法创建包括所有对话的文件夹。";
 "ChatList.Filter.Exclude.AddChat" = "添加对话";
+"ChatList.Filter.Exclude.Desc" = "选择不会出现在此文件夹中的对话和对话类型。";
 "ChatList.Filter.Exclude.Header" = "排除的对话";
+"ChatList.Filter.Exclude.LimitReached" = "抱歉，您最多只能添加 100 个单独的对话。请尝试使用对话类型。";
 "ChatList.Filter.Exclude.RemoveChat" = "移除";
 "ChatList.Filter.ExcludeMuted" = "排除已静音";
 "ChatList.Filter.ExcludeRead" = "排除已读";
@@ -750,7 +758,9 @@
 "ChatList.Filter.Hide_other" = "隐藏 %d 个对话";
 "ChatList.Filter.Hide_countable" = "%d";
 "ChatList.Filter.Include.AddChat" = "添加对话";
+"ChatList.Filter.Include.Desc" = "选择将出现在此文件夹中的对话和对话类型。";
 "ChatList.Filter.Include.Header" = "包括的对话";
+"ChatList.Filter.Include.LimitReached" = "抱歉，您最多只能添加 100 个单独的对话。请尝试使用对话类型。";
 "ChatList.Filter.Include.RemoveChat" = "移除";
 "ChatList.Filter.List.AddNew" = "创建新文件夹";
 "ChatList.Filter.List.Desc" = "拖放文件夹以更改顺序。右键点击以移除。";
@@ -959,7 +969,9 @@
 "EditTheme.SelectUpdatedFile" = "从文件上传...";
 "EditTheme.SelectUpdatedFileDesc" = "您可以通过上传来自文件的手动更改来为所有用户更新您的主题。";
 "EditTheme.SlugDesc" = "您的主题将在每次更改时同步给所有用户。任何人都可通过此链接安装该主题。\n\n主题链接必须大于 5 个字符，且只能使用 a-z,  0-9 和下划线。";
+"EditTheme.SlugError.AlreadyExists" = "此链接已被使用。请尝试换一个。";
 "EditTheme.SlugError.Format" = "对不起，格式错误";
+"EditTheme.SlugPlaceholder" = "短链接";
 "EditTheme.Title" = "编辑主题";
 "Emoji.ActivityAndSport" = "活动 & 运动";
 "Emoji.AnimalsAndNature" = "动物 & 自然";
@@ -1088,6 +1100,7 @@
 "GeneralSettings.InputSettings" = "输入设置";
 "GeneralSettings.InstantView.ScrollBySpace" = "使用空格键向下滚动";
 "GeneralSettings.InstantViewHeader" = "即时预览";
+"GeneralSettings.InterfaceHeader" = "界面";
 "GeneralSettings.LargeFonts" = "大字体";
 "GeneralSettings.MediaKeysForInAppPlayer" = "处理应用内播放器中的媒体键";
 "GeneralSettings.OpenLatestChatOnLaunch" = "自动打开最新对话";
@@ -1168,6 +1181,7 @@
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "InAppLinks.Confirm.OpenExternal.Header" = "打开链接";
 "InAppLinks.Confirm.OpenExternal.OK" = "打开";
+"InAppLinks.Confirm.OpenExternalNew" = "您想打开 “%@”？";
 "InactiveChannels.BlockHeader" = "过多的群组和频道";
 "InactiveChannels.Header" = "最不活跃";
 "InactiveChannels.InactiveMonth_other" = "%d 个月不活跃";
@@ -1327,6 +1341,7 @@
 "Messages.ReplyLoading.Header" = "回复";
 "Messages.ReplyLoading.Loading" = "载入中...";
 "Messages.UnreadMark" = "未读消息";
+"Modal.Apply" = "应用";
 "Modal.Cancel" = "取消";
 "Modal.CopyLink" = "拷贝链接";
 "Modal.OK" = "好";
@@ -1400,6 +1415,7 @@
 "NotificationSettings.ContactJoinedInfo" = "当你的联系人注册 Telegram 时收到通知。";
 "NotificationSettings.CountUnreadMessages" = "按消息数统计未读";
 "NotificationSettings.IncludeChannels" = "包含频道";
+"NotificationSettings.IncludeGroups" = "包含群组";
 "NotificationSettings.IncludeMutedChats" = "包含已关闭通知的对话";
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";
 "NotificationSettings.MessagesPreview" = "消息预览";
@@ -1713,6 +1729,7 @@
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "您确定要清空所有草稿吗？";
 "PrivacyAndSecurity.Item.Off" = "关";
 "PrivacyAndSecurity.Item.On" = "开";
+"PrivacyAndSecurity.SensitiveDesc" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
 "PrivacyAndSecurity.SensitiveHeader" = "敏感内容";
 "PrivacyAndSecurity.SensitiveText" = "关闭过滤";
 "PrivacyAndSecurity.WebAuthorizationHeader" = "已关联的网站";
@@ -2084,6 +2101,7 @@
 "Sessions.CurrentSessionHeader" = "当前设备";
 "Sessions.TerminateDescription" = "退出所有已登录的设备，只保留当前使用的。";
 "Sessions.TerminateOthers" = "将其他设备退出登录";
+"SettingsSearch.EmptyItem" = "这里会显示搜索设置和 Telegram 常见问题的结果。";
 "SettingsSearch.Recent.Clear" = "清除";
 "SettingsSearch.Synonyms.AppLanguage" = " ";
 "SettingsSearch.Synonyms.Appearance.AutoNightTheme" = " ";
@@ -2218,6 +2236,8 @@
 "Sidebar.Hide" = "隐藏面板";
 "Sidebar.Peer.Restricted" = "该对话无法使用侧边栏";
 "SlowMode.ForwardComment.Error" = "慢速模式已启用，您不能在转发消息的同时评论。";
+"SlowMode.Multiple.Error" = "慢速模式已启用。您一次最多只能发送一条消息。";
+"SlowMode.PreviewSender.Comment" = "慢速模式已启用。\n您无法添加评论。";
 "SlowMode.PreviewSender.FileTooltip" = "慢速模式已启用。\n您不能一次发送多个文件。";
 "SlowMode.TooLong.Error" = "慢速模式已启用。此条消息超过了单条消息长度限制。";
 "StatusBar.Activate" = "激活";
@@ -2230,6 +2250,7 @@
 "Stickers.Confirm.ClearRecentHeader" = "清除最近的贴纸";
 "Stickers.Confirm.ClearRecentOK" = "清除";
 "Stickers.Confirm.ClearRecentText" = "确定要清空最近使用的表情？";
+"Stickers.Count_other" = "%d 张贴纸";
 "Stickers.Count_countable" = "%d";
 "Stickers.Favorite" = "收藏夹";
 "Stickers.GroupStickers" = "群组贴纸";
@@ -2266,6 +2287,7 @@
 "Supergroup.DeleteRestriction.DeleteAllMessages" = "删除所有消息";
 "Supergroup.DeleteRestriction.DeleteMessage" = "删除消息";
 "Supergroup.DeleteRestriction.ReportSpam" = "举报垃圾信息";
+"Supergroup.DeleteRestriction.Title" = "管理消息";
 "Td7-aD-5lo.title" = "窗口";
 "Telegram.AppearanceViewController" = "外观";
 "Telegram.ArchivedStickerPacksController" = "已存档贴纸";
@@ -2339,6 +2361,7 @@
 "Theme.GetTheme.Error" = "抱歉，该主题在 macOS 上不存在。";
 "ThemePreview.Title" = "主题预览";
 "ThemePreview.UsesCount_other" = "%d 人正在使用该主题";
+"ThemePreview.UsesCount_countable" = "%d";
 "Time.PreciseDate_m1" = "1月%@日%@年 %@";
 "Time.PreciseDate_m10" = "10月%@日%@年 %@";
 "Time.PreciseDate_m11" = "11月%@日%@年 %@";
@@ -2381,6 +2404,8 @@
 "TouchBar.RecentlyUsed" = "近期使用过";
 "TouchBar.SearchUsersOrMessages" = "搜索消息或用户";
 "TouchBar.StartSecretChat" = "开始加密对话";
+"TouchBarLabel.EmojiAndStickers" = "Emoji & 贴纸";
+"TouchBarLabel.NewChat" = "新对话";
 "TwoStep.AuthEmailSkip" = "跳过";
 "TwoStepAuth.AnError" = "出错了，请稍后再试。";
 "TwoStepAuth.ChangeEmail" = "更改恢复邮箱";

@@ -270,7 +270,7 @@
   <string name="ChatContentDart2">投掷飞镖</string>
   <string name="ChatContentDart3">投掷飞镖</string>
   <string name="ChatContentDart4">投掷飞镖</string>
-  <string name="ChatContentDart5">飞镖：差点正中红心！</string>
+  <string name="ChatContentDart5">飞镖：差一点正中红心！</string>
   <string name="ChatContentDart6">飞镖：正中靶心！</string>
   
   
@@ -956,8 +956,8 @@
   <string name="RenameContact">重命名联系人</string>
   <string name="Themes">主题与样式</string>
   <string name="ThemeSettings">主题与样式</string>
-  <string name="Tweaks">界面与交互</string>
-  <string name="TweakSettings">界面与交互</string>
+  <string name="Tweaks">界面选项</string>
+  <string name="TweakSettings">界面</string>
   <string name="ThemeClassic">经典</string>
   <string name="ThemeBlue">蓝色</string>
   <string name="ThemeNight">暗黑</string>

@@ -336,7 +336,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_auto_start" = "开机自动启动 Telegram";
 "lng_settings_start_min" = "启动后隐藏到托盘";
 "lng_settings_add_sendto" = "在「发送到」菜单中显示 Telegram";
-"lng_settings_section_scale" = "界面大小";
+"lng_settings_section_scale" = "界面缩放比例";
 "lng_settings_scale_auto" = "自动 ({cur})";
 
 "lng_settings_section_chat_settings" = "聊天设置";
@@ -378,7 +378,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_call_audio_ducking" = "通话时将其他应用设为静音";
 
 
-"lng_settings_default_scale" = "默认界面缩放";
+"lng_settings_default_scale" = "默认界面缩放比例";
 "lng_settings_connection_type" = "连接类型";
 "lng_settings_downloading_update" = "下载更新中 {progress} ...";
 "lng_settings_privacy_title" = "隐私";
@@ -426,7 +426,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_enable_animations" = "动画切换效果";
 "lng_settings_sensitive_title" = "敏感内容";
 "lng_settings_sensitive_disable_filtering" = "关闭过滤";
-"lng_settings_sensitive_about" = "允许在您所有登录 Telegram 的设备上显示公共频道内的敏感内容";
+"lng_settings_sensitive_about" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
 
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
@@ -1764,8 +1764,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_slowmode_interval_minutes#other" = "每{count}分钟";
 
 "lng_slowmode_enabled" = "慢速模式已启用。您可以\n在{left}后发送下一条消息";
-"lng_slowmode_no_many" = "慢速模式已启用。 您不能一次发送多条消息。";
-"lng_slowmode_too_long" = "抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。 您不能一次发送多条消息。";
+"lng_slowmode_no_many" = "慢速模式已启用。 您一次最多只能发送一条消息。";
+"lng_slowmode_too_long" = "抱歉，此文本太长，无法作为一条消息发送。\n\n慢速模式已启用。您一次最多只能发送一条消息。";
 
 "lng_rights_channel_info" = "修改频道信息";
 "lng_rights_channel_post" = "发布消息";
