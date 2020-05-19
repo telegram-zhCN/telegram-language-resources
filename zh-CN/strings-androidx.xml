@@ -289,9 +289,9 @@
   <string name="ChatContentGroupAdd">已将 %1$s 添加进入群组</string>
   <string name="ChatContentGroupAdd_outgoing">添加了 %1$s  进入群组</string>
   
-  <string name="ChatContentGroupAddMembers_other">已添加 %1$s 位成员进入群组</string>
+  <string name="ChatContentGroupAddMembers_other">加了 %1$s 位成员进群组</string>
   
-  
+  <string name="ChatContentGroupAddMembers_outgoing_other">加了 %1$s 位成员进群组</string>
   <string name="ChatContentGroupLeft">退出了群组</string>
   <string name="ChatContentGroupLeft_outgoing">退出了群组</string>
   <string name="ChatContentGroupJoin">通过邀请链接加入了群组</string>
