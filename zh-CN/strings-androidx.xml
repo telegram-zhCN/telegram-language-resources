@@ -2487,6 +2487,7 @@
   <string name="error_APP_UPGRADE_NEEDED">此功能不可用。 请确保该应用是最新版本，或等待新的更新。</string>
   <string name="error_NotFound">页面未找到或已不存在。</string>
   <string name="error_STICKERSET_INVALID">找不到贴纸包或已不存在。</string>
+  
   <string name="errorPrivacyAddMember">抱歉，用户在其隐私设置中限制了谁可以将其添加到对话中。</string>
   <string name="UserPrivacyRestricted">抱歉，此用户在隐私设置中限制了此操作。</string>
   <string name="NobodyLikesSpam2">抱歉，您现在只能与双向联系人进行互动。</string> <!--PEER_FLOOD-->
@@ -2529,9 +2530,12 @@
   <string name="NotificationsGuideSyncGlobalOff">您在系统设置中关闭了数据同步。当应用关闭时，您可能无法收到推送通知。\n\n您设备上的电池优化模式可能会静默关闭后台数据同步。</string>
   <string name="NotificationsGuideSyncAppOff">您已关闭Telegram X的数据同步。应用关闭时，通知可能无法到达。\n\n您设备上的电池优化模式可能会静默关闭数据同步。</string>
   <string name="NotificationsGuideFirebaseUnavailable">Google Play 服务不可用。 请检查您是否安装了最新版本。\n\n此时推送通知可能延迟或丢失。</string>
+  
+  
   <string name="TurnSyncOnApp">打开数据同步</string>
   <string name="TurnSyncOnSystem">打开数据同步</string>
   <string name="InstallGooglePlayServices">获取 Google Play 服务</string>
+  
 
   <string name="LanguageSame">您正在使用此语言包了（**%1$s**）。您可以随时在“设置”中更改语言。</string>
   
@@ -2553,6 +2557,7 @@
   <string name="TestMode">测试工具</string>
   <string name="TestModeWarn">**Warning**: Testing Utilities are available for **testing** and **debugging** purposes **only**. None of them are guaranteed to work.\n\nDo not use them, unless you know what you are doing.</string>
   <string name="CopyVersion">复制版本号</string>
+  
 
   <string name="LogFiles">日志文件</string>
   <string name="AppLogs">应用日志</string>

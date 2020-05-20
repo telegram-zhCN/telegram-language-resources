@@ -2487,6 +2487,7 @@
   <string name="error_APP_UPGRADE_NEEDED">This feature is not available. Please make sure the app is up-to-date, or wait for new updates.</string>
   <string name="error_NotFound">Page not found or no longer exists.</string>
   <string name="error_STICKERSET_INVALID">Sticker set not found or no longer exists.</string>
+  <string name="error_CHANNELS_TOO_MUCH">Sorry, you are a member of too many groups or channels. Please leave some before joining a new one.</string>
   <string name="errorPrivacyAddMember">Sorry, the user restricted who can add them to chats in their privacy settings.</string>
   <string name="UserPrivacyRestricted">Sorry, the user restricted this action in their privacy settings.</string>
   <string name="NobodyLikesSpam2">Sorry, you can interact only with mutual contacts at the moment.</string> <!--PEER_FLOOD-->
@@ -2529,9 +2530,12 @@
   <string name="NotificationsGuideSyncGlobalOff">You have data sync turned off in system settings. Notifications may not arrive when app is closed.\n\nData sync may be implicitly turned off by the battery optimization mode on your device.</string>
   <string name="NotificationsGuideSyncAppOff">You have data sync turned off for Telegram X. Notifications may not arrive when app is closed.\n\nData sync may be implicitly turned off by the battery optimization mode on your device.</string>
   <string name="NotificationsGuideFirebaseUnavailable">Google Play Services are unavailable. Please check you have them installed and up-to-date.\n\nNotifications may arrive with big delays or not arrive at all without them.</string>
+  <string name="NotificationsGuideError">**Telegram X** was unable to display some notifications for this account due to an unknown system error.\n\nPlease make sure:\n• All system updates are installed\n• Telegram X is up-to-date\n• There are no notification restrictions in system settings.\n\nIf the steps above do not help, you might want to share the detailed error report to @tgandroidtests, or look up for troubleshooting tips for your device.</string>
+  <string name="NotificationsGuideErrorChat">**Telegram X** was unable to display some notifications from %1$s due to an unknown system error.\n\nPlease make sure:\n• All system updates are installed\n• Telegram X is up-to-date\n• There are no notification restrictions in system settings.\n\nIf the steps above do not help, you might want to share the detailed error report to @tgandroidtests, or look up for troubleshooting tips for your device.</string>
   <string name="TurnSyncOnApp">Turn on data sync</string>
   <string name="TurnSyncOnSystem">Turn on data sync</string>
   <string name="InstallGooglePlayServices">Get Google Play Services</string>
+  <string name="ShareNotificationError">Share Error Report</string>
 
   <string name="LanguageSame">You are already using this language pack (**%1$s**). You can change your language at any time in Settings.</string>
   <string name="LanguageAlert">You are about to apply a language pack (**%1$s**) that is %2$d%% complete.\n\nThis will translate the entire interface. You can suggest corrections via the [translation platform](%3$s).\n\nYou can change your language back at any time in Settings.</string>
@@ -2553,6 +2557,7 @@
   <string name="TestMode">Testing Utilities</string>
   <string name="TestModeWarn">**Warning**: Testing Utilities are available for **testing** and **debugging** purposes **only**. None of them are guaranteed to work.\n\nDo not use them, unless you know what you are doing.</string>
   <string name="CopyVersion">Copy Version</string>
+  <string name="CopyReportData">Copy Report Details</string>
 
   <string name="LogFiles">Log Files</string>
   <string name="AppLogs">Application Logs</string>
