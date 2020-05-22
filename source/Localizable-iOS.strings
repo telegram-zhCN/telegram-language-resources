@@ -5383,12 +5383,12 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.MessageViews_many" = "%@ views";
 "Stats.MessageViews_any" = "%@ views";
 
-"Stats.MessageForwards_0" = "%@ forwards";
-"Stats.MessageForwards_1" = "%@ forward";
-"Stats.MessageForwards_2" = "%@ forwards";
-"Stats.MessageForwards_3_10" = "%@ forwards";
-"Stats.MessageForwards_many" = "%@ forwards";
-"Stats.MessageForwards_any" = "%@ forwards";
+"Stats.MessageForwards_0" = "%@ shares";
+"Stats.MessageForwards_1" = "%@ share";
+"Stats.MessageForwards_2" = "%@ shares";
+"Stats.MessageForwards_3_10" = "%@ shares";
+"Stats.MessageForwards_many" = "%@ shares";
+"Stats.MessageForwards_any" = "%@ shares";
 
 "Stats.LoadingTitle" = "Preparing stats";
 "Stats.LoadingText" = "Please wait a few moments while\nwe generate your stats";

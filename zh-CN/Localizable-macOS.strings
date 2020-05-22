@@ -1181,7 +1181,7 @@
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "InAppLinks.Confirm.OpenExternal.Header" = "打开链接";
 "InAppLinks.Confirm.OpenExternal.OK" = "打开";
-"InAppLinks.Confirm.OpenExternalNew" = "您想打开 “%@”？";
+"InAppLinks.Confirm.OpenExternalNew" = "您要打开 “%@” 吗？";
 "InactiveChannels.BlockHeader" = "过多的群组和频道";
 "InactiveChannels.Header" = "最不活跃";
 "InactiveChannels.InactiveMonth_other" = "%d 个月不活跃";
