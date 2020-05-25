@@ -275,7 +275,7 @@
 "ChangeNumber.SendData.Error.InvalidPhoneNumber" = "The phone number you entered is not valid. Please enter the correct number along with your country code.";
 "ChangeNumber.SendData.Error.LimitExceeded" = "You have requested for an authorization code too many times. Please try again later.";
 "ChangeNumber.SendData.Error.PhoneNumberOccupied" = "The number %@ is already connected to a Telegram account. Please delete that account before migrating to the new number.";
-"ChangePhoneNumber.Intro.Alert" = "All your Telegram contacts will get your new number added to their address book, provided they had your old number and you haven't blocked them in Telegram.";
+"ChangePhoneNumber.Intro.Alert" = "Users will see your new number if they have it in their address book or your privacy settings allow them to see it. You can modify this in Settings > Privacy and Security > Phone number.";
 "ChangePhoneNumber.Intro.Description" = "You can change your Telegram number here. Your account and all your cloud data — messages, media, contacts, etc. will be moved to the new number.";
 "Channel.AddBotAsAdmin" = "Make Admin";
 "Channel.AddBotErrorHaveRights" = "Bots can only be added as administrators.";
