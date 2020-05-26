@@ -1681,7 +1681,7 @@
     <string name="RepeatNotificationsNever">从不</string>
     <string name="RepeatNotifications">重复通知</string>
     <string name="PhoneNumberHelp">你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。</string>
-    <string name="PhoneNumberAlert">如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。\n您可以在 设置 &gt; 隐私和安全 &gt; 手机号码 中修改这项权限</string>
+    <string name="PhoneNumberAlert">如果用户手机通讯录中有您的新号码，或者您的隐私设置允许他们看到，则用户将看到您的新号码。您可以在“设置”&gt;“隐私和安全”&gt;“手机号码”中进行修改。</string>
     <string name="PhoneNumberChange2">更改手机号码</string>
     <string name="PhoneNumberChangeTitle">更改手机号码</string>
     <string name="ChangePhoneNewNumber">新手机号码</string>

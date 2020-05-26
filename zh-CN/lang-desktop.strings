@@ -741,7 +741,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_change_phone_title" = "更改手机号码";
 "lng_change_phone_about" = "你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。";
-"lng_change_phone_warning" = "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。";
+"lng_change_phone_warning" = "如果用户手机通讯录中有您的新号码，或者您的隐私设置允许他们看到，则用户将看到您的新号码。您可以在“设置”>“隐私和安全”>“手机号码”中进行修改。";
 "lng_change_phone_occupied" = "手机号码 {phone} 已经和另一个 Telegram 帐号绑定。请先删除该帐号再迁移到此新号码。";
 "lng_change_phone_button" = "更换手机号码";
 "lng_change_phone_new_title" = "输入新的手机号码";

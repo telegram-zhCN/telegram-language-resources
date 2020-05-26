@@ -924,7 +924,7 @@
   <string name="PhoneNumberChange">更换手机号码</string>
   <string name="PhoneNumberChangeDone">继续</string>
   <string name="PhoneNumberHelp">你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。</string>
-  <string name="PhoneNumberAlert">所有拥有您旧号码且未被您屏蔽的 Telegram 联系人会即时获取您的新号码。</string>
+  <string name="PhoneNumberAlert">如果用户手机通讯录中有您的新号码，或者您的隐私设置允许他们看到，则用户将看到您的新号码。您可以在“设置”&gt;“隐私和安全”&gt;“手机号码”中进行修改。</string>
   <string name="PhoneNumberInUse">抱歉，该电话号码已被使用。</string>
   <string name="ChangePhoneHelp">我们将会给您的新手机号码发送一条带有验证码的短信。</string>
   <string name="NewPhone">新的电话号码</string>

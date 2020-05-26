@@ -252,7 +252,7 @@
 "ChangeNumber.SendData.Error.InvalidPhoneNumber" = "您输入的手机号码无效。请输入带国家码的正确手机号码。";
 "ChangeNumber.SendData.Error.LimitExceeded" = "发送验证码次数过多，请稍后再试。";
 "ChangeNumber.SendData.Error.PhoneNumberOccupied" = "您所输入的号码 %@ 已经注册了 Telegram。请首先删除新号码对应的帐号，再进行迁移。";
-"ChangePhoneNumber.Intro.Alert" = "如果您的 Telegram 联系人有您的旧号码，并且您没有在 Telegram 里屏蔽他们，您的新号码将被添加到他们的通讯录里。";
+"ChangePhoneNumber.Intro.Alert" = "如果用户手机通讯录中有您的新号码，或者您的隐私设置允许他们看到，则用户将看到您的新号码。您可以在“设置”>“隐私和安全”>“手机号码”中进行修改。";
 "ChangePhoneNumber.Intro.Description" = "你可以在此更换当前与 Telegram 帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。";
 "Channel.AddBotAsAdmin" = "添加为管理员";
 "Channel.AddBotErrorHaveRights" = "机器人只能被添加为管理员。";
@@ -453,7 +453,7 @@
 "ChannelStats.Overview.SharesPerPost" = "每个帖子的分享次数";
 "ChannelStats.Overview.ViewsPerPost" = "每个帖子的浏览次数";
 "ChannelStats.Recent.Header" = "最近的帖子";
-"ChannelStats.SharesCount_other" = "%d 次转发";
+"ChannelStats.SharesCount_other" = "%d 次分享";
 "ChannelStats.SharesCount_countable" = "%d";
 "ChannelStats.Title" = "频道统计数据";
 "ChannelStats.ViewsCount_other" = "%d 次浏览";
