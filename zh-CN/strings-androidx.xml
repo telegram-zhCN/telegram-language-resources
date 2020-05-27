@@ -433,7 +433,7 @@
   <string name="ChannelAddAdmin">添加管理员</string>
   <string name="InviteLink">邀请链接</string>
   <string name="DismissAdmin">撤销管理员</string>
-  <string name="ChannelBroadcast">发布内容</string>
+  <string name="ChannelBroadcast">广播消息</string>
   <string name="LeaveChannel">退出频道</string>
   <string name="DestroyChannel">删除频道</string>
   <string name="DestroyChannelHint">注意！删除此频道将会移除所有成员并且会丢失所有消息。\n确定要删除此频道？</string>
@@ -873,11 +873,11 @@
   <string name="DeleteXForMe_other">为自己删除 %1$s 条消息。</string>
   
   
-  <string name="DeleteForEveryone">删除并撤回</string>
+  <string name="DeleteForEveryone">从所有人的设备中删除</string>
   <string name="DeleteForMe">仅从我的设备删除</string>
   
   <string name="DeleteXForEveryone_other">为所有人删除 %1$s 条消息</string>
-  <string name="DeleteForMeAndX">为我和 %1$s 删除</string>
+  <string name="DeleteForMeAndX">从我和 %1$s 的设备删除</string>
   <string name="ReportSpam">举报骚扰行为</string>
   <string name="BanUser">封禁用户</string>
   <string name="Pin">置顶</string>

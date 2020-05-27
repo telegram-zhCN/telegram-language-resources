@@ -318,7 +318,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_settings_section_general" = "通用";
 "lng_settings_change_lang" = "更换语言";
-"lng_languages" = "选择语言";
+"lng_languages" = "语言";
 "lng_sure_save_language" = "Telegram 将重启以完成界面语言更换";
 "lng_settings_update_automatically" = "自动更新";
 "lng_settings_install_beta" = "安装 beta 版本";
@@ -1295,7 +1295,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_remind_title" = "提醒我...";
 "lng_schedule_at" = "";
 "lng_message_ph" = "输入消息...";
-"lng_broadcast_ph" = "发布消息...";
+"lng_broadcast_ph" = "广播消息…";
 "lng_broadcast_silent_ph" = "无声广播...";
 "lng_record_cancel" = "将光标移出此处可取消发送";
 "lng_will_be_notified" = "发布时订阅者会收到通知";
@@ -1561,7 +1561,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_unsend_about_group_one" = "您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的消息。";
 
 "lng_selected_unsend_about_group#other" = "您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的 {count} 条消息。";
-"lng_delete_for_everyone_check" = "为所有人删除";
+"lng_delete_for_everyone_check" = "从所有人的设备中删除";
 "lng_delete_for_other_check" = "同时为 {user} 删除";
 "lng_delete_for_other_my" = "撤回我的消息";
 "lng_box_delete" = "删除";

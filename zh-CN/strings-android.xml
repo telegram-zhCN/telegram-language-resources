@@ -296,7 +296,7 @@
     <string name="LeaveChannelMenu">退出频道</string>
     <string name="ChannelSettings">设置</string>
     <string name="ChannelJoin">加入</string>
-    <string name="ChannelBroadcast">广播</string>
+    <string name="ChannelBroadcast">广播消息</string>
     <string name="ChannelSilentBroadcast">无声广播</string>
     <string name="ChannelAlertTitle">什么是频道？</string>
     <string name="ChannelAlertText">频道是向大众广播消息的得力工具</string>
@@ -786,7 +786,7 @@
     <string name="NoRecent">没有最近使用</string>
     <string name="Message">消息</string>
     <string name="TypeMessage">输入消息</string>
-    <string name="TypeScheduleMessage">定时消息</string>
+    <string name="TypeScheduleMessage">定时发送</string>
     <string name="ShareMyPhone">SHARE MY PHONE NUMBER</string>
     <string name="ShareMyContactInfo">分享我的联系方式</string>
     <string name="AddToContacts">添加到联系人</string>

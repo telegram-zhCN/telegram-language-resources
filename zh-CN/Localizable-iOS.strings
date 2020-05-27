@@ -1555,7 +1555,7 @@
 
 "Channel.ErrorAccessDenied" = "抱歉，这是一个私人频道。";
 "Group.ErrorAccessDenied" = "抱歉，这个群组是私人群组。";
-"Conversation.InputTextBroadcastPlaceholder" = "发布消息";
+"Conversation.InputTextBroadcastPlaceholder" = "广播消息";
 
 "Channel.NotificationLoading" = "加载中...";
 
@@ -2215,9 +2215,9 @@ Unused sets are archived when you add more.";
 "DialogList.PinLimitError" = "抱歉，您只能置顶 %@ 个对话。";
 "DialogList.UnknownPinLimitError" = "抱歉，您无法再将更多的对话置顶。";
 
-"Conversation.DeleteMessagesForMe" = "从本地删除";
-"Conversation.DeleteMessagesFor" = "为我和 %@ 删除";
-"Conversation.DeleteMessagesForEveryone" = "为所有人删除";
+"Conversation.DeleteMessagesForMe" = "仅从我的设备删除";
+"Conversation.DeleteMessagesFor" = "从我和 %@ 的设备删除";
+"Conversation.DeleteMessagesForEveryone" = "从所有人的设备中删除";
 
 "NetworkUsageSettings.Title" = "网络用量";
 "NetworkUsageSettings.Cellular" = "移动网络";
@@ -4236,7 +4236,7 @@ Unused sets are archived when you add more.";
 "SettingsSearch.Synonyms.FAQ" = "FAQ\n常见问题";
 
 "ChatList.DeleteForCurrentUser" = "仅为我删除";
-"ChatList.DeleteForEveryone" = "为我和 %@ 同时删除";
+"ChatList.DeleteForEveryone" = "从我和 %@ 的设备删除";
 "ChatList.DeleteForEveryoneConfirmationTitle" = "警告！";
 "ChatList.DeleteForEveryoneConfirmationText" = "这将会**双向删除**此对话中**全部消息记录**。";
 "ChatList.DeleteForEveryoneConfirmationAction" = "删除全部";

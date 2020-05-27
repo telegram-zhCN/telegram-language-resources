@@ -382,7 +382,7 @@
 "Channel.Persmission.Denied.SendGifs.Until" = "频道管理员已经禁止你在该频道发送 GIF 图片，该限制将在 %@ 解除，";
 "Channel.Persmission.Denied.SendInline.DefaultRestrictedText" = "此群组不允许 Inline 机器人。";
 "Channel.Persmission.Denied.SendInline.Forever" = "群组管理员已禁止您发送机器人内容。";
-"Channel.Persmission.Denied.SendInline.Until" = "群组管理员已禁止您发送机器人内容至 %@。";
+"Channel.Persmission.Denied.SendInline.Until" = "群组管理员已禁止您发送机器人内容，直到 %@。";
 "Channel.Persmission.Denied.SendMedia.DefaultRestrictedText" = "此群组不允许发送媒体。";
 "Channel.Persmission.Denied.SendMedia.Forever" = "群组管理员已禁止您发送媒体文件。";
 "Channel.Persmission.Denied.SendMedia.Until" = "群组管理员已禁止您发送媒体文件至 %@。";
@@ -474,7 +474,7 @@
 "Chat.Confirm.DeleteForEveryone_other" = "您确定为所有人都删除这条消息吗？\n您确定为所有人都删除这些消息吗？";
 "Chat.Confirm.DeleteForEveryone_countable" = "%d";
 "Chat.Confirm.DeleteMessages" = "删除所选消息？";
-"Chat.Confirm.DeleteMessagesForEveryone" = "为所有人撤回";
+"Chat.Confirm.DeleteMessagesForEveryone" = "从所有人的设备中删除";
 "Chat.Confirm.DeleteMessages_countable" = "%d";
 "Chat.Confirm.ReportSpam" = "要举报骚扰行为吗？";
 "Chat.Confirm.ReportSpam.Channel" = "要举报骚扰行为并退出这个频道吗？";
@@ -539,6 +539,7 @@
 "Chat.Input.Close" = "关闭";
 "Chat.Input.Delete" = "删除并退出";
 "Chat.Input.Discuss" = "讨论";
+"Chat.Input.Error.MessageTooLong_other" = "您发送的消息过长而不能被保存。请移除%d个字符。";
 "Chat.Input.Error.MessageTooLong_countable" = "%d";
 "Chat.Input.Join" = "加入";
 "Chat.Input.Mute" = "关闭通知";
@@ -563,9 +564,9 @@
 "Chat.LiveLocation.Updated_other" = "更新于 %d 分钟前";
 "Chat.LiveLocation.UpdatedNow" = "刚刚更新";
 "Chat.LiveLocation.Updated_countable" = "%d";
-"Chat.Message.DeleteForEveryone" = "删除并撤回";
-"Chat.Message.DeleteForMe" = "仅删除";
-"Chat.Message.DeleteForMeAndPerson" = "为我和 %@ 删除";
+"Chat.Message.DeleteForEveryone" = "从所有人的设备中删除";
+"Chat.Message.DeleteForMe" = "仅从我的设备删除";
+"Chat.Message.DeleteForMeAndPerson" = "从我和 %@ 的设备删除";
 "Chat.Message.MTProxy.Config" = "MTProxy 配置";
 "Chat.Message.Socks5.Config" = "SOCKS5 配置";
 "Chat.Message.UnsendMessages" = "撤回我的消息";
@@ -613,7 +614,7 @@
 "Chat.Quiz.TotalVotesEmpty" = "没人回答";
 "Chat.Quiz.TotalVotesResultEmpty" = "沒人回答";
 "Chat.Quiz.TotalVotes_countable" = "%d";
-"Chat.Recording.Cancel" = "您确定要停止录音吗？";
+"Chat.Recording.Cancel" = "您确定要停止录制并放弃已录制的语音留言吗？";
 "Chat.Right.Context.Reminder" = "提醒";
 "Chat.Right.Context.ScheduledMessages" = "定时消息";
 "Chat.Scheduled.InlineButton.Error" = "发送消息后，按钮将立即激活。";
@@ -627,7 +628,7 @@
 "Chat.Send.ScheduledMessage" = "定时发送";
 "Chat.Send.SetReminder" = "定时提醒";
 "Chat.Send.WithoutSound" = "静音发送";
-"Chat.SendMessageError.TooMuchScheduled" = "抱歉，您只能同时设置 100 条定时消息。";
+"Chat.SendMessageError.TooMuchScheduled" = "抱歉，尚未发送的定时消息最多只能有 100 条。";
 "Chat.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
 "Chat.SendMessageErrorGroupRestricted" = "抱歉，目前您已被禁止在公开群组中发送消息。";
 "Chat.SendMessageSlowmodeError" = "慢速模式已启用。";
@@ -930,6 +931,7 @@
 "DefaultSoundName" = "默认";
 "Discussion.Set.Modal.OK" = "链接群组";
 "Discussion.Set.Modal.Text.ChannelPrivateGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群组？\n\n群组成员将可以看到频道上的所有消息。";
+"Discussion.Set.Modal.Text.Private" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "Discussion.Set.Modal.Text.PublicChannelPublicGroup" = "您想让 %@ 成为 %@ 的讨论版吗？";
@@ -1087,6 +1089,7 @@
 "GeneralSettings.EmojiAndStickers" = "Emoji 和贴纸";
 "GeneralSettings.EmojiPrediction" = "根据输入内容推荐 Emoji";
 "GeneralSettings.EmojiPrediction.Disable" = "关闭";
+"GeneralSettings.EmojiPrediction.DisableText" = "确认关闭emoji推荐贴纸？你可以随时在设置中重新开启。";
 "GeneralSettings.EmojiReplacements" = "自动替换 Emoji";
 "GeneralSettings.EnableSidebar" = "显示侧边栏";
 "GeneralSettings.Font.Description" = "信息中使用大字体";
@@ -1110,7 +1113,7 @@
 "GeneralSettings.ShortcutsHeader" = "快捷键";
 "GeneralSettings.ShowArticlesInSearch" = "在搜索时推荐文章";
 "GeneralSettings.ShowCallsTab" = "显示呼叫面板";
-"GeneralSettings.StatusBarItem" = "菜单栏物件";
+"GeneralSettings.StatusBarItem" = "在菜单栏中显示图标";
 "Generic.ErrorMoreInfo" = "更多详情";
 "Graph.Total" = "总计";
 "Graph.ZoomOut" = "缩小";
@@ -1335,7 +1338,7 @@
 "Messages.File.State.Local" = "在访达中查看";
 "Messages.File.State.Remote" = "下载";
 "Messages.ForwardHeader" = "已转发的消息";
-"Messages.Placeholder.Broadcast" = "发送广播...";
+"Messages.Placeholder.Broadcast" = "广播消息…";
 "Messages.Placeholder.SentMessage" = "输入消息...";
 "Messages.Placeholder.SilentBroadcast" = "无声广播...";
 "Messages.ReplyLoading.Header" = "回复";
@@ -1695,6 +1698,7 @@
 "PollResults.LoadMore_countable" = "%d";
 "PollResults.Title.Poll" = "投票结果";
 "PollResults.Title.Quiz" = "测验结果";
+"PreHistory.Confirm.Unlink" = "注意，这将取消群组与 “%@” 的连接";
 "PreHistorySettings.Description.Group.Hidden" = "新成员只能查看他们加入前的 100 条消息。";
 "PreHistorySettings.Description.Hidden" = "新成员不能查看他们加入前的消息。";
 "PreHistorySettings.Description.Visible" = "新成员将可以查看所有消息记录。";
@@ -1862,7 +1866,7 @@
 "ReportReason.Spam" = "垃圾信息";
 "ReportReason.Violence" = "暴力";
 "RequestAcces.Error.Conirm.Settings" = "设置";
-"RequestAcces.Error.HaveNotAccess.Call" = "Telegram 需要访问您的麦克风来拨打电话。";
+"RequestAcces.Error.HaveNotAccess.Call" = "Telegram 需要访问麦克风，以便您可以拨打电话。";
 "RequestAcces.Error.HaveNotAccess.VideoMessages" = "Telegram 需要访问您的麦克风和摄像头以录制视频消息";
 "RequestAcces.Error.HaveNotAccess.VoiceMessages" = "Telegram 需要访问您的麦克风以录制语音消息";
 "Ruw-6m-B2m.title" = "全选";
@@ -2207,7 +2211,7 @@
 "ShortcutsController.Chat.SearchMessages" = "搜索消息";
 "ShortcutsController.Chat.SelectMessageToReply" = "选择要回复的消息";
 "ShortcutsController.Gestures" = "手势";
-"ShortcutsController.Gestures.ChatAction" = "对话操作";
+"ShortcutsController.Gestures.ChatAction" = "对话列表操作";
 "ShortcutsController.Gestures.ChatAction.Value" = "向左或向右滑动";
 "ShortcutsController.Gestures.Navigation" = "返回";
 "ShortcutsController.Gestures.Navigations.Value" = "从左向右滑动";
@@ -2232,7 +2236,7 @@
 "ShortcutsController.Search.GlobalSearch" = "全局搜索";
 "ShortcutsController.Search.QuickSearch" = "快速搜索";
 "ShortcutsController.Title" = "快捷键";
-"Sidebar.Avalability" = "侧边栏仅在聊天时可用";
+"Sidebar.Avalability" = "当您打开任何对话时，您的贴纸、GIF 和 emoji 将显示在此面板中。";
 "Sidebar.Hide" = "隐藏面板";
 "Sidebar.Peer.Restricted" = "该对话无法使用侧边栏";
 "SlowMode.ForwardComment.Error" = "慢速模式已启用，您不能在转发消息的同时评论。";
@@ -2300,7 +2304,7 @@
 "Telegram.ChannelMembersViewController" = "频道成员";
 "Telegram.ChannelPermissionsController" = "权限";
 "Telegram.ChannelStatisticsController" = "频道统计数据";
-"Telegram.ChannelVisibilityController" = "群组";
+"Telegram.ChannelVisibilityController" = "类型设置";
 "Telegram.ConvertGroupViewController" = "超级群组";
 "Telegram.DataAndStorageViewController" = "数据和存储";
 "Telegram.FeaturedStickerPacksController" = "热门贴纸";
