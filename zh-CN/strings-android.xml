@@ -342,7 +342,7 @@
     <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
     <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
     <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
-    <string name="ChannelCreator">拥有者</string>
+    <string name="ChannelCreator">创建者</string>
     <string name="ChannelAdministrator">管理员</string>
     <string name="ChannelAdmin">管理员</string>
     <string name="ChannelMute">暂停消息通知</string>
@@ -424,8 +424,8 @@
     <string name="EditAdminTransferSetPassword">设置密码</string>
     <string name="EditAdminTransferReadyAlertText">这将会把“%1$s”的**所有权**转让给 %2$s。</string>
     <string name="EditAdminTransferChangeOwner">更改拥有者</string>
-    <string name="EditAdminTransferGroupToast">**%1$s** 现在是群组的拥有者。</string>
-    <string name="EditAdminTransferChannelToast">**%1$s** 现在是频道的拥有者。</string>
+    <string name="EditAdminTransferGroupToast">**%1$s** 现在是群主。</string>
+    <string name="EditAdminTransferChannelToast">**%1$s** 现在是频道主。</string>
     <string name="EditAdminBanUsers">封禁用户</string>
     <string name="EditAdminAddUsers">添加成员</string>
     <string name="EditAdminAddUsersViaLink">生成邀请链接</string>
@@ -786,7 +786,7 @@
     <string name="NoRecent">没有最近使用</string>
     <string name="Message">消息</string>
     <string name="TypeMessage">输入消息</string>
-    <string name="TypeScheduleMessage">定时发送</string>
+    <string name="TypeScheduleMessage">定时消息</string>
     <string name="ShareMyPhone">SHARE MY PHONE NUMBER</string>
     <string name="ShareMyContactInfo">分享我的联系方式</string>
     <string name="AddToContacts">添加到联系人</string>

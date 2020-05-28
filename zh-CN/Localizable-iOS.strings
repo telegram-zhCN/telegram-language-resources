@@ -1521,7 +1521,6 @@
 
 "Channel.UpdatePhotoItem" = "设置频道头像";
 
-"Channel.AboutItem" = "关于";
 "Channel.LinkItem" = "分享链接";
 "Channel.Edit.AboutItem" = "简介";
 "Channel.Edit.LinkItem" = "链接";
@@ -2215,7 +2214,7 @@ Unused sets are archived when you add more.";
 "DialogList.PinLimitError" = "抱歉，您只能置顶 %@ 个对话。";
 "DialogList.UnknownPinLimitError" = "抱歉，您无法再将更多的对话置顶。";
 
-"Conversation.DeleteMessagesForMe" = "仅从我的设备删除";
+"Conversation.DeleteMessagesForMe" = "仅为我删除";
 "Conversation.DeleteMessagesFor" = "从我和 %@ 的设备删除";
 "Conversation.DeleteMessagesForEveryone" = "从所有人的设备中删除";
 
@@ -4427,13 +4426,13 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.OwnershipTransfer.Title" = "转让频道所有权";
 "Channel.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为频道的创建者。新的拥有者可以自由移除您的管理权限，甚至将您封禁。";
 "Group.OwnershipTransfer.Title" = "转让群组拥有权";
-"Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为群组的创建者。新的拥有者可以自由移除您的管理权限，甚至将您封禁。";
+"Group.OwnershipTransfer.DescriptionInfo" = "这将会把 **%1$@** 的**所有权**转让给 **%2$@**。\n\n您将不再被视为群主。新的群主可以自由移除您的管理权限，甚至将您封禁。";
 "Channel.OwnershipTransfer.ChangeOwner" = "更改拥有者";
 
 "Channel.OwnershipTransfer.ErrorPublicChannelsTooMuch" = "抱歉，目标用户已经有太多的公开群组或频道。 请让他们先将他们现有的群组或频道之一更改为私人。";
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经创建太多基于位置的群组了。 请让他们先删除或转让一个。";
 
-"Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的拥有者暂时无法添加。请先移除一个现有的管理员。";
+"Group.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的群主暂时无法添加。请先移除一个现有的管理员。";
 "Channel.OwnershipTransfer.ErrorAdminsTooMuch" = "抱歉，因此频道有过多的管理员，暂时无法添加新的拥有者。请先移除一个管理员。";
 
 "Group.OwnershipTransfer.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
@@ -4455,7 +4454,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeopleNearby.CreateGroup" = "创建本地群组";
 "PeopleNearby.NoMembers" = "无成员";
 
-"Channel.Management.LabelOwner" = "拥有者";
+"Channel.Management.LabelOwner" = "创建者";
 "Channel.Management.LabelAdministrator" = "管理员";
 "ContactInfo.PhoneNumberHidden" = "手机号已隐藏";
 
@@ -4497,7 +4496,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "CreateGroup.ErrorLocatedGroupsTooMuch" = "抱歉，您已经有太多基于位置的群组了。 请先删除一个现有的。";
 
-"GroupInfo.LabelOwner" = "拥有者";
+"GroupInfo.LabelOwner" = "群主";
 
 
 
@@ -4534,11 +4533,11 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.SlowmodeSendError" = "慢速模式已启用。";
 "StickerPacksSettings.AnimatedStickersInfo" = "动态贴纸将在对话中持续播放。";
 
-"Conversation.Owner" = "拥有者";
+"Conversation.Owner" = "群主";
 
 "Group.EditAdmin.RankTitle" = "自定义头衔";
 "Group.EditAdmin.RankInfo" = "一个自定义的头衔将展示给所有成员而不是'%@'.";
-"Group.EditAdmin.RankOwnerPlaceholder" = "拥有者";
+"Group.EditAdmin.RankOwnerPlaceholder" = "群主";
 "Group.EditAdmin.RankAdminPlaceholder" = "管理员";
 
 "Conversation.SendMessage.SendSilently" = "静音发送";
@@ -5339,10 +5338,11 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneMedia" = "媒体";
 "PeerInfo.PaneFiles" = "文件";
 "PeerInfo.PaneLinks" = "链接";
-"PeerInfo.PaneVoice" = "语音留言";
+
 "PeerInfo.PaneAudio" = "音频";
 "PeerInfo.PaneGroups" = "群组";
 "PeerInfo.PaneMembers" = "成员";
+
 
 "PeerInfo.AddToContacts" = "加为联系人";
 
@@ -5496,6 +5496,30 @@ Any member of this group will be able to see messages in the channel.";
 "Message.GenericForwardedPsa" = "公共服务公告\n来自: %@";
 "Message.ForwardedPsa.covid" = "新冠肺炎通知\n来自: %@";
 
+"Channel.AboutItem" = "关于";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* new from translations.telegram.org */
 
@@ -5505,6 +5529,37 @@ Any member of this group will be able to see messages in the channel.";
 "Appearance.CreateThemeInfo" = "已基于当前主题创建出一套新的主题模板，并保存到了你的收藏夹中。";
 "Appearance.Publish" = "发布";
 "Appearance.TextSize" = "字体大小";
+"Appstore.Cloud" = "**基于云**\n无限对话、媒体和\n文件的存储空间。";
+"Appstore.Cloud.Profile" = "**Jennifer**\n23 y.o. designer from San Francisco.";
+"Appstore.Creative" = "**创造力**\n色彩主题、贴纸、GIF、\n视频消息及更多。";
+"Appstore.Creative.Chat" = "**You**\nSend a dice emoji to roll a die!\n**You**\nAdvance to Illinois Ave. If you pass Go, collect coffee\n**Gabriella**\nPassed!\n**You**\nOkay\nWait for me there.";
+"Appstore.Creative.Chat.Name" = "**Gabriella**";
+"Appstore.Fast" = "**快速**\n简单、可靠，并且可\n在所有设备上同步。";
+"Appstore.Fast.Chat1" = "**Alicia Torreaux**\nBob says hi.";
+"Appstore.Fast.Chat2" = "**Roberto**\nSay hello to Alice.";
+"Appstore.Fast.Chat3" = "**Digital Nomads**\nJennie\nWe just reached 2,500 members! WOO!";
+"Appstore.Fast.Chat4" = "**Veronica**\nTable for four, 2 PM. Be there.";
+"Appstore.Fast.Chat5" = "**Animal Videos**\nVote now! Moar cat videos in this channel?";
+"Appstore.Fast.Chat6" = "**Little Sister**\nDon't tell mom yet, but I got the job! I'm going to ROME!";
+"Appstore.Fast.Chat7" = "**James**\nCheck these out";
+"Appstore.Fast.Chat8" = "**Study Group**\nEmma\nSticker";
+"Appstore.Fast.Chat9" = "**Digital Nomads**";
+"Appstore.Free.Chat" = "**Jessica**\nPaper airplane is lyfted by...\nWings\nPropeller\n**You**\nIs this from Monday’s test?\n**Harry**\nOnlinePartyPlan.ppd\nLet's get back to planning!\n**You**\n550 MB keynote file??\n**Helene**\nHe added fireworks videos";
+"Appstore.Free.Chat.Name" = "**Study Group**";
+"Appstore.Open" = "**开放**\n没有广告，没有收费。\n对所有人免费开放源代码。";
+"Appstore.Powerful" = "**强大**\n群组和广播频道\n的大小不受限制。";
+"Appstore.Powerful.Chat" = "**James**\nGood morning!\n\nDwayne joined the group\n\n**You**\nDo you have any idea what time it is?\n**Roxanne**\nIs it still morning?\nSure!\nNot sure\n**Emma**\nVoice";
+"Appstore.Private" = "**私人**\n您的数据永远不会泄露，\n只有您可以控制。";
+"Appstore.Private.Chat" = "**You**\nNo limits on the size of your cats.";
+"Appstore.Private.Chat.Name" = "**Beatrice**";
+"Appstore.Public" = "**公开**\n公开的频道、开放的群组、\n各种功能的机器人。";
+"Appstore.Public.Chat1" = "**Financial Times**\nTruth is like the sun. You can shut it out for a time, but it ain’t goin’ away.";
+"Appstore.Public.Chat2" = "**Bloomberg**\nWe'll be sending you a few big stories daily, which you can expect to start...";
+"Appstore.Public.Chat3" = "**Health and Safety**\nIf you're looking for official news about the Novel Coronavirus and COVID-19";
+"Appstore.Public.IV" = "We now have enough data to measure the relative effectiveness of major climate solutions. This simulator lets you see which ones would work best.\n\nBloomberg\n\nThe Best Way to Slow Global Warming? You Decide in This Climate Simulator\nIt was on Earth Day 2016 when more than 170 nations signed the Paris Agreement calling for limiting global warming \"to well below 2°C\".";
+"Appstore.Secure" = "**安全**\n所有对话的传输都具\n有强大的加密保护。";
+"Appstore.Secure.Chat" = "**Little Sister**\nAny gift ideas for mom?\n**You**A dog!\n**You**I'm serious. Let's get her a puppy. \n**You**\nI saw this!\n**Little Sister**\nI needed proof this was your idea!";
+"Appstore.Secure.Chat.Name" = "**Little Sister**";
 "CHANNEL_MESSAGES" = "%1$@ posted %2$@ messages";
 "CHANNEL_MESSAGES_SEPARATED" = "%1$@|发布了 %2$@ 条消息";
 "CHANNEL_MESSAGE_AUDIO" = "%1$@ 发布了一条语音留言";
@@ -5597,14 +5652,6 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.AdminLog.CanChangeInviteLink" = "生成邀请链接";
 "Channel.EditAdmin.PermissionInviteUsers" = "添加成员";
 "Chat.AttachmentLimitExceeded" = "抱歉，您无法一次选择更多的项目。";
-
-
-
-
-
-
-
-
 "ChatList.EmptyChatFilterList" = "空文件夹";
 "Conversation.Dice" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 "Conversation.Dice." = "发送一个骰子 Emoji 到任何对话以掷骰子。";
@@ -5616,17 +5663,7 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ThemeTemplateAlert" = "新主题已添加\n\n按住主题进行编辑或获取分享链接。 每次更改主题后，安装主题的用户都会自动获得更新。\n\n为了进行高级编辑，可以在“已保存的消息”中找到带有主题的文件。";
 "EditTheme.UploadEditedInfo" = "您可以通过上传来自文件的手动更改来为所有用户更新您的主题。";
 "EditTheme.UploadNewInfo" = "新创建的主题将基于当前选择的色彩和壁纸。另外，您也可以使用一个编辑过的主题文件。";
-
-
-
-
-
 "ForwardedDices_any" = "%@ 个转发的骰子";
-
-
-
-
-
 "InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用 Telegram 聊天。加入我们吧！从这里下载：%@";
 "LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
 "Login.CallRequestState1" = "Telegram 会在 %d:%.2d 后改用电话语音播报验证码";
@@ -5673,84 +5710,18 @@ Any member of this group will be able to see messages in the channel.";
 "MESSAGE_VIDEO_SECRET" = "%1$@ 给您发送了一张自毁视频";
 "MESSAGE_VIDEO_SECRET_SEPARATED" = "%1$@|给您发送了一段自毁视频";
 "MESSAGE_VIDEO_SEPARATED" = "%1$@|给您发送了一段视频";
-
 "Message.PinnedPollMessage" = "置顶投票";
-
-
-
-
-
 "NEW_CHANNEL_MESSAGES_SEPARATED_any" = "%1$@|发布了 %2$d 条消息";
-
-
-
-
-
 "NEW_CHANNEL_MESSAGE_FWDS_SEPARATED_any" = "%1$@|发布了 %2$d 条转发的消息";
-
-
-
-
-
 "NEW_CHANNEL_MESSAGE_PHOTOS_SEPARATED_any" = "%1$@|发布了 %2$d 张图片";
-
-
-
-
-
 "NEW_CHAT_MESSAGES_SEPARATED_any" = "%2$@|%1$@ 发送了 %3$d 条消息";
-
-
-
-
-
 "NEW_CHAT_MESSAGE_FWDS_SEPARATED_any" = "%2$@|%1$@ 转发了 %3$d 条消息";
-
-
-
-
-
 "NEW_CHAT_MESSAGE_PHOTOS_SEPARATED_any" = "%2$@|%1$@ 发送了 %3$d 张图片";
-
-
-
-
-
 "NEW_MESSAGES_SEPARATED_any" = "%1$@|给您发送了 %2$d 条消息";
-
-
-
-
-
 "NEW_MESSAGE_FWDS_SEPARATED_any" = "%1$@|转发给您 %2$d 条消息";
-
-
-
-
-
 "NEW_MESSAGE_PHOTOS_SEPARATED_any" = "%1$@|给您发送了 %2$d 张图片";
 "Notification.ChannelMigratedFrom" = "此群组已升级为超级群组";
 "Notifications.DisplayNamesOnLockScreenInfo" = "锁屏状态时在通知中显示对方名称。如需关闭此功能, 请打开 iOS 设置 > Telegram > 通知，并将“显示预览”项更改为“仅解锁时”或“从不”。";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 "PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
 "PHONE_CALL_MISSED_SEPARATED" = "%1$@|您有未接来电";
 "PHONE_CALL_REQUEST" = "%1$@ 正在呼叫您...";
@@ -5784,141 +5755,20 @@ Any member of this group will be able to see messages in the channel.";
 "PINNED_TEXT_SEPARATED" = "%1$@|置顶了 \"%2$@\"";
 "PINNED_VIDEO" = "%1$@ 置顶了一段视频";
 "PINNED_VIDEO_SEPARATED" = "%1$@|置顶了一段视频";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 "PUSH_MESSAGE_ALBUM" = "%1$@|📷 相册";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 "PassportKit.Button.GetTelegramAlertInstall" = "Install";
 "PassportKit.Button.GetTelegramAlertMessage" = "请登陆到 Telegram 来使用 Telegram Passport";
 "PassportKit.Button.GetTelegramAlertNotNow" = "稍后再说";
 "PassportKit.Button.GetTelegramAlertTitle" = "获取 Telegram Messenger";
 "PassportKit.Button.Title" = "通过 Telegram 登录";
 "Peer.DeletedUser" = "已删除用户";
-
-
-
-
+"PeerInfo.PaneVoice" = "语音留言";
 "SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
 "StickerPacksSettings.ArchivedMasks.Info" = "你可以拥有最多 200 套装饰。\n未使用的装饰将在你添加更多的装饰时被归档。";
 "Undo.MessagesDeleted" = "消息已删除";
 "Updated.AtDate" = "%@";
-
-
-
-
-
 "Updated.HoursAgo_any" = "%@ 小时前";
 "Updated.JustNow" = "刚刚";
-
-
-
-
-
 "Updated.MinutesAgo_any" = "%@ 分钟前";
 "Updated.TodayAt" = "今天 %@";
 "Updated.YesterdayAt" = "昨天 %@";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"Appstore.Fast" = "**快速**\n简单、可靠，并且可\n在所有设备上同步。";
-"Appstore.Powerful" = "**强大**\n群组和广播频道\n的大小不受限制。";
-"Appstore.Secure" = "**安全**\n所有对话的传输都具\n有强大的加密保护。";
-"Appstore.Private" = "**私人**\n您的数据永远不会泄露，\n只有您可以控制。";
-"Appstore.Cloud" = "**基于云**\n无限对话、媒体和\n文件的存储空间。";
-"Appstore.Open" = "**开放**\n没有广告，没有收费。\n对所有人免费开放源代码。";
-"Appstore.Creative" = "**创造力**\n色彩主题、贴纸、GIF、\n视频消息及更多。";
-"Appstore.Public" = "**公开**\n公开的频道、开放的群组、\n各种功能的机器人。";
-"Appstore.Fast.Chat1" = "**Alicia Torreaux**\nBob says hi.";
-"Appstore.Fast.Chat2" = "**Roberto**\nSay hello to Alice.";
-"Appstore.Fast.Chat3" = "**Digital Nomads**\nJennie\nWe just reached 2,500 members! WOO!";
-"Appstore.Fast.Chat4" = "**Veronica**\nTable for four, 2 PM. Be there.";
-"Appstore.Fast.Chat5" = "**Animal Videos**\nVote now! Moar cat videos in this channel?";
-"Appstore.Fast.Chat6" = "**Little Sister**\nDon't tell mom yet, but I got the job! I'm going to ROME!";
-"Appstore.Fast.Chat7" = "**James**\nCheck these out";
-"Appstore.Fast.Chat8" = "**Study Group**\nEmma\nSticker";
-"Appstore.Fast.Chat9" = "**Digital Nomads**";
-"Appstore.Powerful.Chat" = "**James**\nGood morning!\n\nDwayne joined the group\n\n**You**\nDo you have any idea what time it is?\n**Roxanne**\nIs it still morning?\nSure!\nNot sure\n**Emma**\nVoice";
-"Appstore.Secure.Chat.Name" = "**Little Sister**";
-"Appstore.Secure.Chat" = "**Little Sister**\nAny gift ideas for mom?\n**You**A dog!\n**You**I'm serious. Let's get her a puppy. \n**You**\nI saw this!\n**Little Sister**\nI needed proof this was your idea!";
-"Appstore.Private.Chat.Name" = "**Beatrice**";
-"Appstore.Private.Chat" = "**You**\nNo limits on the size of your cats.";
-"Appstore.Cloud.Profile" = "**Jennifer**\n23 y.o. designer from San Francisco.";
-"Appstore.Free.Chat.Name" = "**Study Group**";
-"Appstore.Free.Chat" = "**Jessica**\nPaper airplane is lyfted by...\nWings\nPropeller\n**You**\nIs this from Monday’s test?\n**Harry**\nOnlinePartyPlan.ppd\nLet's get back to planning!\n**You**\n550 MB keynote file??\n**Helene**\nHe added fireworks videos";
-"Appstore.Creative.Chat.Name" = "**Gabriella**";
-"Appstore.Creative.Chat" = "**You**\nSend a dice emoji to roll a die!\n**You**\nAdvance to Illinois Ave. If you pass Go, collect coffee\n**Gabriella**\nPassed!\n**You**\nOkay\nWait for me there.";
-"Appstore.Public.Chat1" = "**Financial Times**\nTruth is like the sun. You can shut it out for a time, but it ain’t goin’ away.";
-"Appstore.Public.Chat2" = "**Bloomberg**\nWe'll be sending you a few big stories daily, which you can expect to start...";
-"Appstore.Public.Chat3" = "**Health and Safety**\nIf you're looking for official news about the Novel Coronavirus and COVID-19";
-"Appstore.Public.IV" = "We now have enough data to measure the relative effectiveness of major climate solutions. This simulator lets you see which ones would work best.\n\nBloomberg\n\nThe Best Way to Slow Global Warming? You Decide in This Climate Simulator\nIt was on Earth Day 2016 when more than 170 nations signed the Paris Agreement calling for limiting global warming \"to well below 2°C\".";

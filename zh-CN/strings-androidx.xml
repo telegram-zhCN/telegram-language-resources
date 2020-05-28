@@ -427,7 +427,7 @@
   <string name="Search">搜索</string>
   <string name="NoChats">没有对话</string>
   <string name="NoContacts">未找到任何联系人</string>
-  <string name="ChannelOwner">拥有者</string>
+  <string name="ChannelOwner">创建者</string>
   <string name="Administrator">管理员</string>
   <string name="LinkInfo">任何已安装 Telegram 的用户都可以通过此链接加入您的群组。</string>
   <string name="ChannelAddAdmin">添加管理员</string>
@@ -873,7 +873,7 @@
   <string name="DeleteXForMe_other">为自己删除 %1$s 条消息。</string>
   
   
-  <string name="DeleteForEveryone">从所有人的设备中删除</string>
+  <string name="DeleteForEveryone">为所有人删除</string>
   <string name="DeleteForMe">仅从我的设备删除</string>
   
   <string name="DeleteXForEveryone_other">为所有人删除 %1$s 条消息</string>

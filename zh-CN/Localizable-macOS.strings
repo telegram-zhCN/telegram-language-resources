@@ -67,7 +67,7 @@
 "Admins.GroupAdmins" = "群组管理员";
 "Admins.GroupDescription" = "您可以添加管理员来帮助您管理群组。";
 "Admins.OnlyAdminsCanAddMembers" = "只有管理员能邀请成员。";
-"Admins.Owner" = "拥有者";
+"Admins.Owner" = "创建者";
 "Admins.SelectNewAdminTitle" = "联系人";
 "Admins.WhoCanInvite.Admins" = "仅管理员";
 "Admins.WhoCanInvite.Everyone" = "所有成员";
@@ -266,11 +266,11 @@
 "Channel.Admin.Role.Header" = "自定义头衔";
 "Channel.Admin.Role.Owner.Desc" = "一个头衔将代替“管理员”显示。";
 "Channel.Admin.Role.Placeholder.Admin" = "管理员";
-"Channel.Admin.Role.Placeholder.Owner" = "拥有者";
+"Channel.Admin.Role.Placeholder.Owner" = "群主";
 "Channel.Admin.TransferOwnership.Channel" = "转让频道拥有权";
 "Channel.Admin.TransferOwnership.Confirm.Channel.Text" = "这将会把 %@ 的所有权转让给 %@。\n\n您将不再被视为频道的创建者。新的拥有者可以自由地移除您的管理权限，甚至将您封禁。";
 "Channel.Admin.TransferOwnership.Confirm.Channel.Title" = "转让频道拥有权";
-"Channel.Admin.TransferOwnership.Confirm.Group.Text" = "这将会把 %@ 的所有权转让给 %@。\n\n您将不再被视为群组的创建者。新的拥有者可以自由地移除您的管理权限，甚至将您封禁。";
+"Channel.Admin.TransferOwnership.Confirm.Group.Text" = "这将会把 %@ 的所有权转让给 %@。\n\n您将不再被视为群主。新的群主可以自由地移除您的管理权限，甚至将您封禁。";
 "Channel.Admin.TransferOwnership.Confirm.Group.Title" = "转让群组拥有权";
 "Channel.Admin.TransferOwnership.Confirm.OK" = "更改拥有者";
 "Channel.Admin.TransferOwnership.Group" = "转让群组所有权";
@@ -566,7 +566,7 @@
 "Chat.LiveLocation.Updated_countable" = "%d";
 "Chat.Message.DeleteForEveryone" = "从所有人的设备中删除";
 "Chat.Message.DeleteForMe" = "仅从我的设备删除";
-"Chat.Message.DeleteForMeAndPerson" = "从我和 %@ 的设备删除";
+"Chat.Message.DeleteForMeAndPerson" = "为我和 %@ 删除";
 "Chat.Message.MTProxy.Config" = "MTProxy 配置";
 "Chat.Message.Socks5.Config" = "SOCKS5 配置";
 "Chat.Message.UnsendMessages" = "撤回我的消息";
@@ -576,7 +576,7 @@
 "Chat.Message.Via" = "通过";
 "Chat.Message.edited" = "已编辑";
 "Chat.MessageAction.ShowMessage" = "显示消息";
-"Chat.OwnerBadge" = "拥有者";
+"Chat.OwnerBadge" = "群主";
 "Chat.Poll.Result" = "%@%";
 "Chat.Poll.Stop" = "终止投票";
 "Chat.Poll.Stop.Confirm.Header" = "终止投票？";
@@ -1133,7 +1133,7 @@
 "Group.EventLog.Service.UpdateLeft" = "%@ 离开了群组";
 "Group.NewGroup" = "新建群组";
 "Group.OwnershipTransfer.ErrorLocatedGroupsTooMuch" = "抱歉，目标用户已经有太多基于位置的群组了。 请让他们先删除现有的一个。";
-"Group.TransferOwner.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的拥有者暂时无法添加。请先移除一个现有的管理员。";
+"Group.TransferOwner.ErrorAdminsTooMuch" = "抱歉，因此群组有过多的管理员，新的群主暂时无法添加。请先移除一个现有的管理员。";
 "Group.TransferOwner.ErrorPrivacyRestricted" = "抱歉，此用户并非此群组的成员，且他的隐私设置不允许您将其邀请进入群组。";
 "Group.Unavailable" = "抱歉，此群组似乎不存在。";
 "GroupAdmins.AllMembersAdmins" = "将所有成员设为管理员";

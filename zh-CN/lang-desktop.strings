@@ -1146,7 +1146,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edited" = "已编辑";
 "lng_edited_date" = "编辑时间：{date} ";
 "lng_admin_badge" = "管理员";
-"lng_owner_badge" = "拥有者";
+"lng_owner_badge" = "群主";
 "lng_channel_badge" = "频道";
 "lng_fast_reply" = "回复";
 "lng_cancel_edit_post_sure" = "取消编辑？";
@@ -1561,7 +1561,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_unsend_about_group_one" = "您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的消息。";
 
 "lng_selected_unsend_about_group#other" = "您还可以通过选中“撤回我的消息”以从其他群组成员的消息记录中删除您发送的 {count} 条消息。";
-"lng_delete_for_everyone_check" = "从所有人的设备中删除";
+"lng_delete_for_everyone_check" = "为所有人删除";
 "lng_delete_for_other_check" = "同时为 {user} 删除";
 "lng_delete_for_other_my" = "撤回我的消息";
 "lng_box_delete" = "删除";
@@ -1806,8 +1806,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_transfer_sure" = "更改拥有者";
 "lng_rights_transfer_password_title" = "两步验证";
 "lng_rights_transfer_password_description" = "请输入您的两步验证密码以完成转让。";
-"lng_rights_transfer_done_group" = "{user} 现在是群组的拥有者。";
-"lng_rights_transfer_done_channel" = "{user} 现在是频道的拥有者。";
+"lng_rights_transfer_done_group" = "{user} 现在是群主。";
+"lng_rights_transfer_done_channel" = "{user} 现在是频道主。";
 
 "lng_restricted_send_message" = "您已被管理员禁言";
 "lng_restricted_send_media" = "群组管理员已禁止您发送媒体文件。";
