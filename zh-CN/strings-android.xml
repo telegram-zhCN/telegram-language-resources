@@ -1308,6 +1308,7 @@
     <string name="Masks">装饰</string>
     <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
     <string name="FeaturedStickers">热门贴纸</string>
+    <string name="FeaturedGifs">Trending GIFs</string>
     <string name="SuggestStickers">通过 Emoji 推荐贴纸</string>
     <string name="SuggestStickersAll">全部贴纸包</string>
     <string name="SuggestStickersInstalled">已添加的贴纸包</string>
@@ -1668,6 +1669,7 @@
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>
+    <string name="SoundMuted">Sound muted</string>
     <string name="EditName">编辑名称</string>
     <string name="NotificationsCustomize">自定义</string>
     <string name="NotificationsCustom">自定义</string>
@@ -1830,6 +1832,7 @@
     <string name="AuthAnotherClientInfo2">运行 Telegram Desktop 以获取二维码。</string>
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <string name="AuthAnotherClientUrl">此二维码可登录到您的 Telegram 帐号。\n\n要确认Telegram登录，请转到 **设置**&gt;**设备**&gt;**扫一扫**。</string>
+    <string name="QRCodePermissionNoCamera">Telegram needs access to your camera so that you can scan QR codes.</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">清除本地数据库</string>
@@ -2142,6 +2145,18 @@
     <string name="FilterAvailableText">打开 *设置 &gt; 文件夹*，将对话整理到文件夹中。</string>
     <string name="FilterNameNonMuted">通知开启的</string>
     <string name="FilterNameUnread">未读</string>
+    <string name="FilterAddTo">Add to folder</string>
+    <string name="FilterRemoveFrom">Remove from folder</string>
+    <string name="FilterChoose">Choose a folder</string>
+    <string name="FilterUserAddedToExisting">**%1$s** added to **%2$s**</string>
+    <string name="FilterChatAddedToExisting">**%1$s** added to **%2$s**</string>
+    <string name="FilterChatsAddedToExisting">**%1$s** added to **%2$s**</string>
+    <string name="FilterUserRemovedFrom">**%1$s** removed from **%2$s**</string>
+    <string name="FilterChatRemovedFrom">**%1$s** removed from **%2$s**</string>
+    <string name="FilterChatsRemovedFrom">**%1$s** removed from **%2$s**</string>
+    <string name="FilterAddToAlertFullTitle">Limit reached</string>
+    <string name="FilterRemoveFromAlertFullText">Sorry, you can\'t add more than 100 chats to a folder.</string>
+    <string name="FilterAddToAlertFullText">Sorry, you can\'t exclude more than 100 chats from a folder.</string>
     <!--passcode view-->
     <string name="Passcode">锁定码</string>
     <string name="ChangePasscode">修改锁定码</string>
@@ -2271,6 +2286,7 @@
     <string name="ShowAsList">以列表显示</string>
     <string name="ShowAsGrid">以网格显示</string>
     <string name="ShowAllMedia">显示所有图片和视频</string>
+    <string name="ShowStickers">Show stickers</string>
     <string name="ShowAllFiles">显示所有文件</string>
     <string name="ShowAllGIFs">显示全部 GIF</string>
     <string name="TapToDownload">点按下载</string>
@@ -2345,6 +2361,7 @@
     <string name="PaintDuplicate">复制</string>
     <string name="PaintOutlined">描边</string>
     <string name="PaintRegular">常规</string>
+    <string name="PaintFramed">Framed</string>
     <string name="CropReset">重置</string>
     <string name="CropOriginal">原始比例</string>
     <string name="CropSquare">正方形</string>
@@ -2355,15 +2372,24 @@
     <!--password view-->
     <string name="TwoStepVerification">两步验证</string>
     <string name="TwoStepVerificationTitle">两步验证</string>
+    <string name="TwoStepVerificationPasswordSet">密码已设置！</string>
+    <string name="TwoStepVerificationPasswordSetInfo">This password will be required when you log in on a new device in addition to the code you get in the SMS.</string>
+    <string name="TwoStepVerificationPasswordReturnSettings">Return to Settings</string>
+    <string name="TwoStepVerificationPasswordReturnPassport">Return to Passport</string>
+    <string name="TwoStepVerificationSetPassword">设置密码</string>
     <string name="SetAdditionalPassword">设置两步验证密码</string>
     <string name="SetAdditionalPasswordInfo">您可以设置一个密码，这将作为新设备登录时除短信验证码外的身份验证。</string>
     <string name="YourPassword">您的密码</string>
+    <string name="PasswordOn">On</string>
+    <string name="PasswordOff">Off</string>
     <string name="PleaseEnterCurrentPassword">请输入您的密码</string>
     <string name="PleaseEnterCurrentPasswordTransfer">请输入您的两步验证密码以完成转让。</string>
     <string name="PleaseEnterFirstPassword">请输入一个密码</string>
+    <string name="PleaseEnterNewFirstPassword">请输入新密码</string>
     <string name="PleaseEnterPassword">请输入新的解锁密码</string>
     <string name="PleaseReEnterPassword">请再次输入密码</string>
     <string name="RecoveryEmail">恢复邮箱</string>
+    <string name="RecoveryEmailTitle">Recovery Email</string>
     <string name="YourEmail">您的电子邮箱地址</string>
     <string name="YourEmailCode">您的邮件验证码</string>
     <string name="YourEmailCodeInfo">请输入您在 %1$s 上收到的代码，以确认您的电子邮件地址</string>
@@ -2375,6 +2401,7 @@
     <string name="YourEmailAlmostThereText">请查看您的邮箱（不要忘记垃圾邮件文件夹），并按要求完成两步验证设置。</string>
     <string name="YourPasswordSuccess">成功！</string>
     <string name="YourPasswordSuccessText">您的两步验证密码现已启用。</string>
+    <string name="YourPasswordChangedSuccessText">Your password for Two-Step Verification has been changed.</string>
     <string name="YourEmailSuccessText">您的两步验证密码恢复邮箱现已启用。</string>
     <string name="ChangePassword">更改密码</string>
     <string name="TurnPasswordOff">删除密码</string>
@@ -2387,9 +2414,11 @@
     <string name="CancelEmailQuestionTitle">放弃设置</string>
     <string name="TurnPasswordOffPassport">警告！所有储存在 Telegram Passport 中的数据都将丢失！</string>
     <string name="PasswordHint">密码提示</string>
+    <string name="PasswordHintPlaceholder">提示</string>
     <string name="PasswordHintText">请设置一个密码提示</string>
     <string name="PasswordDoNotMatch">密码不正确</string>
     <string name="AbortPassword">关闭两步验证</string>
+    <string name="AbortPasswordMenu">Abort setup</string>
     <string name="AbortEmail">终止恢复邮箱设置</string>
     <string name="Abort">终止</string>
     <string name="Disable">禁用</string>
@@ -2417,6 +2446,8 @@
     <string name="PasswordCode">验证码</string>
     <string name="PasswordReset">密码已删除</string>
     <string name="ResendCode">重新发送验证码</string>
+    <string name="VerificationCode">验证码</string>
+    <string name="EnterCode">输入验证码</string>
     <string name="ResendCodeInfo">验证码已发送到您的电子邮箱</string>
     <string name="EnabledPasswordText">您已启用两步验证。\n今后您在登录新设备时将需要输入您设置的附加密码才能登录您的Telegram帐号。</string>
     <!--data settings-->
@@ -2659,6 +2690,7 @@
     <string name="UserChannelTooMuchJoin">抱歉，目标用户已加入太多的群组和频道。请先让他们退出一些。</string>
     <!--Alert messages-->
     <string name="DeleteAllMessagesAlert">警告！ 这将**删除**聊天中**双方**的**所有消息**。</string>
+    <string name="DeleteAllMessagesSavedAlert">Warning! This will **delete all messages** in this chat.</string>
     <string name="DeleteAll">删除全部</string>
     <string name="StopLoading">停止加载？</string>
     <string name="UpdateTelegram">更新 Telegram</string>
@@ -2912,164 +2944,6 @@
     <string name="RateCallSilentLocal">我听不到对方的声音</string>
     <string name="RateCallSilentRemote">对方听不到我的声音</string>
     <string name="RateCallDropped">通话意外结束</string>
-    <!--wallet-->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!--plural-->
     <string name="DeleteBackground_zero">删除 %1$d 张背景</string>
     <string name="DeleteBackground_one">删除 %1$d 张背景</string>
@@ -3179,12 +3053,6 @@
     <string name="items_few">%1$d 项</string>
     <string name="items_many">%1$d 项</string>
     <string name="items_other">%1$d 项</string>
-    
-    
-    
-    
-    
-    
     <string name="FromChats_zero">来自 %1$d 个对话</string>
     <string name="FromChats_one">来自 %1$d 个对话</string>
     <string name="FromChats_two">来自 %1$d 个对话</string>

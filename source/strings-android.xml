@@ -1308,6 +1308,7 @@
     <string name="Masks">Masks</string>
     <string name="MasksInfo">You can add masks to photos you send. To do this, open the photo editor before sending a photo.</string>
     <string name="FeaturedStickers">Trending Stickers</string>
+    <string name="FeaturedGifs">Trending GIFs</string>
     <string name="SuggestStickers">Suggest stickers by emoji</string>
     <string name="SuggestStickersAll">All Sets</string>
     <string name="SuggestStickersInstalled">My Sets</string>
@@ -1668,6 +1669,7 @@
     <string name="AutoplayMedia">Auto-play media</string>
     <string name="RaiseToSpeak">Raise to Speak</string>
     <string name="SaveToGallerySettings">Save to Gallery</string>
+    <string name="SoundMuted">Sound muted</string>
     <string name="EditName">Edit name</string>
     <string name="NotificationsCustomize">Customize</string>
     <string name="NotificationsCustom">Custom</string>
@@ -1830,6 +1832,7 @@
     <string name="AuthAnotherClientInfo2">Run Telegram Desktop to get the QR code.</string>
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <string name="AuthAnotherClientUrl">This code can be used to allow someone to log in to your Telegram account.\n\nTo confirm Telegram login, please go to Settings &gt; Devices &gt; Scan QR and scan the code.</string>
+    <string name="QRCodePermissionNoCamera">Telegram needs access to your camera so that you can scan QR codes.</string>
     <!--cache view-->
     <string name="LocalDatabase">Local Database</string>
     <string name="LocalDatabaseClearTextTitle">Clear local database</string>
@@ -2142,6 +2145,18 @@
     <string name="FilterAvailableText">Open *Settings &gt; Folders* to organize your chats into folders.</string>
     <string name="FilterNameNonMuted">Not Muted</string>
     <string name="FilterNameUnread">Unread</string>
+    <string name="FilterAddTo">Add to folder</string>
+    <string name="FilterRemoveFrom">Remove from folder</string>
+    <string name="FilterChoose">Choose a folder</string>
+    <string name="FilterUserAddedToExisting">**%1$s** added to **%2$s**</string>
+    <string name="FilterChatAddedToExisting">**%1$s** added to **%2$s**</string>
+    <string name="FilterChatsAddedToExisting">**%1$s** added to **%2$s**</string>
+    <string name="FilterUserRemovedFrom">**%1$s** removed from **%2$s**</string>
+    <string name="FilterChatRemovedFrom">**%1$s** removed from **%2$s**</string>
+    <string name="FilterChatsRemovedFrom">**%1$s** removed from **%2$s**</string>
+    <string name="FilterAddToAlertFullTitle">Limit reached</string>
+    <string name="FilterRemoveFromAlertFullText">Sorry, you can\'t add more than 100 chats to a folder.</string>
+    <string name="FilterAddToAlertFullText">Sorry, you can\'t exclude more than 100 chats from a folder.</string>
     <!--passcode view-->
     <string name="Passcode">Passcode Lock</string>
     <string name="ChangePasscode">Change Passcode</string>
@@ -2271,6 +2286,7 @@
     <string name="ShowAsList">Show as list</string>
     <string name="ShowAsGrid">Show as grid</string>
     <string name="ShowAllMedia">Show all media</string>
+    <string name="ShowStickers">Show stickers</string>
     <string name="ShowAllFiles">Show all files</string>
     <string name="ShowAllGIFs">Show all GIFs</string>
     <string name="TapToDownload">Tap to download</string>
@@ -2345,6 +2361,7 @@
     <string name="PaintDuplicate">Duplicate</string>
     <string name="PaintOutlined">Outlined</string>
     <string name="PaintRegular">Regular</string>
+    <string name="PaintFramed">Framed</string>
     <string name="CropReset">Reset</string>
     <string name="CropOriginal">Original</string>
     <string name="CropSquare">Square</string>
@@ -2355,15 +2372,24 @@
     <!--password view-->
     <string name="TwoStepVerification">Two-Step Verification</string>
     <string name="TwoStepVerificationTitle">Two-Step Verification</string>
+    <string name="TwoStepVerificationPasswordSet">Password Set!</string>
+    <string name="TwoStepVerificationPasswordSetInfo">This password will be required when you log in on a new device in addition to the code you get in the SMS.</string>
+    <string name="TwoStepVerificationPasswordReturnSettings">Return to Settings</string>
+    <string name="TwoStepVerificationPasswordReturnPassport">Return to Passport</string>
+    <string name="TwoStepVerificationSetPassword">Set Password</string>
     <string name="SetAdditionalPassword">Set Additional Password</string>
     <string name="SetAdditionalPasswordInfo">You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS.</string>
     <string name="YourPassword">Your Password</string>
+    <string name="PasswordOn">On</string>
+    <string name="PasswordOff">Off</string>
     <string name="PleaseEnterCurrentPassword">Enter your password</string>
     <string name="PleaseEnterCurrentPasswordTransfer">Please enter your password to complete the transfer.</string>
     <string name="PleaseEnterFirstPassword">Enter a password</string>
+    <string name="PleaseEnterNewFirstPassword">Enter a new password</string>
     <string name="PleaseEnterPassword">Enter your new password</string>
     <string name="PleaseReEnterPassword">Re-enter your password</string>
     <string name="RecoveryEmail">Recovery email</string>
+    <string name="RecoveryEmailTitle">Recovery Email</string>
     <string name="YourEmail">Your email</string>
     <string name="YourEmailCode">Your Email Code</string>
     <string name="YourEmailCodeInfo">Please confirm your email address by entering the code you just received on %1$s.</string>
@@ -2375,6 +2401,7 @@
     <string name="YourEmailAlmostThereText">Please check your email (don\'t forget the spam folder) to complete Two-Step Verification setup.</string>
     <string name="YourPasswordSuccess">Success!</string>
     <string name="YourPasswordSuccessText">Your password for Two-Step Verification is now active.</string>
+    <string name="YourPasswordChangedSuccessText">Your password for Two-Step Verification has been changed.</string>
     <string name="YourEmailSuccessText">Your recovery email for Two-Step Verification is now active.</string>
     <string name="ChangePassword">Change Password</string>
     <string name="TurnPasswordOff">Turn Password Off</string>
@@ -2387,9 +2414,11 @@
     <string name="CancelEmailQuestionTitle">Abort setup</string>
     <string name="TurnPasswordOffPassport">Warning! All data saved in your Telegram Passport will be lost!</string>
     <string name="PasswordHint">Password Hint</string>
+    <string name="PasswordHintPlaceholder">Hint</string>
     <string name="PasswordHintText">Create a hint for your password</string>
     <string name="PasswordDoNotMatch">Passwords do not match</string>
     <string name="AbortPassword">Abort two-step verification setup</string>
+    <string name="AbortPasswordMenu">Abort setup</string>
     <string name="AbortEmail">Abort recovery email setup</string>
     <string name="Abort">Abort</string>
     <string name="Disable">Disable</string>
@@ -2417,6 +2446,8 @@
     <string name="PasswordCode">Code</string>
     <string name="PasswordReset">Password deactivated</string>
     <string name="ResendCode">Resend code</string>
+    <string name="VerificationCode">Verification code</string>
+    <string name="EnterCode">Enter code</string>
     <string name="ResendCodeInfo">The verification code was sent to your email.</string>
     <string name="EnabledPasswordText">You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.</string>
     <!--data settings-->
@@ -2659,6 +2690,7 @@
     <string name="UserChannelTooMuchJoin">Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first.</string>
     <!--Alert messages-->
     <string name="DeleteAllMessagesAlert">Warning! This will **delete all messages** in this chat for **both** participants.</string>
+    <string name="DeleteAllMessagesSavedAlert">Warning! This will **delete all messages** in this chat.</string>
     <string name="DeleteAll">Delete All</string>
     <string name="StopLoading">Stop loading?</string>
     <string name="UpdateTelegram">Update Telegram</string>
@@ -2912,164 +2944,6 @@
     <string name="RateCallSilentLocal">I couldn\'t hear the other side</string>
     <string name="RateCallSilentRemote">The other side couldn\'t hear me</string>
     <string name="RateCallDropped">Call ended unexpectedly</string>
-    <!--wallet-->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!--plural-->
     <string name="DeleteBackground_zero">Delete %1$d backgrounds</string>
     <string name="DeleteBackground_one">Delete background</string>
@@ -3179,12 +3053,6 @@
     <string name="items_few">%1$d items</string>
     <string name="items_many">%1$d items</string>
     <string name="items_other">%1$d items</string>
-    
-    
-    
-    
-    
-    
     <string name="FromChats_zero">from %1$d chats</string>
     <string name="FromChats_one">from %1$d chat</string>
     <string name="FromChats_two">from %1$d chats</string>
