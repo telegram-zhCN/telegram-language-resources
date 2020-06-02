@@ -5551,7 +5551,7 @@ Any member of this group will be able to see messages in the channel.";
 "Appstore.Open" = "**开放**\n没有广告，没有收费。\n对所有人免费开放源代码。";
 "Appstore.Powerful" = "**强大**\n群组和广播频道\n的大小不受限制。";
 "Appstore.Powerful.Chat" = "**James**\nGood morning!\n\nDwayne joined the group\n\n**You**\nDo you have any idea what time it is?\n**Roxanne**\nIs it still morning?\nSure!\nNot sure\n**Emma**\nVoice";
-"Appstore.Private" = "**私人**\n您的数据永远不会泄露\n只有您可以控制";
+"Appstore.Private" = "**私人**\n您的数据永远不会泄露\n只有您可以控制。";
 "Appstore.Private.Chat" = "**You**\nNo limits on the size of your cats.";
 "Appstore.Private.Chat.Name" = "**Beatrice**";
 "Appstore.Public" = "**公开**\n公开的频道、开放的群组、\n各种功能的机器人。";

@@ -2418,7 +2418,7 @@
     <string name="PasswordHintText">请设置一个密码提示</string>
     <string name="PasswordDoNotMatch">密码不正确</string>
     <string name="AbortPassword">关闭两步验证</string>
-    <string name="AbortPasswordMenu">Abort setup</string>
+    <string name="AbortPasswordMenu">终止设定</string>
     <string name="AbortEmail">终止恢复邮箱设置</string>
     <string name="Abort">终止</string>
     <string name="Disable">禁用</string>
