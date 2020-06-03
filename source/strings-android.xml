@@ -909,6 +909,7 @@
     <string name="DeleteForUser">Delete for %1$s</string>
     <string name="DeleteForAll">Delete for all members</string>
     <string name="TextCopied">Text copied to clipboard</string>
+    <string name="HoldToAudioOnly">Hold to record audio.</string>
     <string name="HoldToAudio">Hold to record audio. Tap to switch to video.</string>
     <string name="HoldToVideo">Hold to record video. Tap to switch to audio.</string>
     <string name="DiscardVoiceMessageTitle">Discard Voice Message</string>
@@ -2403,6 +2404,7 @@
     <string name="YourPasswordSuccessText">Your password for Two-Step Verification is now active.</string>
     <string name="YourPasswordChangedSuccessText">Your password for Two-Step Verification has been changed.</string>
     <string name="YourEmailSuccessText">Your recovery email for Two-Step Verification is now active.</string>
+    <string name="YourEmailSuccessChangedText">Your recovery email for Two-Step Verification is changed.</string>
     <string name="ChangePassword">Change Password</string>
     <string name="TurnPasswordOff">Turn Password Off</string>
     <string name="SetRecoveryEmail">Set Recovery Email</string>

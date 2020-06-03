@@ -909,6 +909,7 @@
     <string name="DeleteForUser">为 %1$s 删除</string>
     <string name="DeleteForAll">为所有成员删除</string>
     <string name="TextCopied">文字已复制到剪贴板</string>
+    <string name="HoldToAudioOnly">Hold to record audio.</string>
     <string name="HoldToAudio">按住录制语音，点按切换为视频</string>
     <string name="HoldToVideo">按住录制视频，点按切换为语音</string>
     <string name="DiscardVoiceMessageTitle">放弃录制语音留言</string>
@@ -2403,6 +2404,7 @@
     <string name="YourPasswordSuccessText">您的两步验证密码现已启用。</string>
     <string name="YourPasswordChangedSuccessText">Your password for Two-Step Verification has been changed.</string>
     <string name="YourEmailSuccessText">您的两步验证密码恢复邮箱现已启用。</string>
+    <string name="YourEmailSuccessChangedText">Your recovery email for Two-Step Verification is changed.</string>
     <string name="ChangePassword">更改密码</string>
     <string name="TurnPasswordOff">删除密码</string>
     <string name="SetRecoveryEmail">设置恢复邮箱</string>
