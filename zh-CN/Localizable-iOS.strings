@@ -4241,7 +4241,7 @@ Unused sets are archived when you add more.";
 "ChatList.DeleteForEveryoneConfirmationAction" = "删除全部";
 
 "ChatList.DeleteSavedMessagesConfirmationTitle" = "警告！";
-"ChatList.DeleteSavedMessagesConfirmationText" = "这将会删除此会话中**全部消息记录**。";
+"ChatList.DeleteSavedMessagesConfirmationText" = "这将**删除**此对话中的**所有消息**。";
 "ChatList.DeleteSavedMessagesConfirmationAction" = "全部删除";
 
 "ChatList.ClearChatConfirmation" = "确定要删除与 %@ 的所有聊天记录吗？";
@@ -5085,7 +5085,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "TwoFactorSetup.Done.Title" = "密码已设置！";
 "TwoFactorSetup.Done.Text" = "登录新设备时，除了通过短信获得的代码外，您还需要输入此密码。";
-"TwoFactorSetup.Done.Action" = "回到设置";
+"TwoFactorSetup.Done.Action" = "返回设置";
 
 "AutoNightTheme.System" = "系统";
 
@@ -5338,11 +5338,11 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneMedia" = "媒体";
 "PeerInfo.PaneFiles" = "文件";
 "PeerInfo.PaneLinks" = "链接";
-
+"PeerInfo.PaneVoiceAndVideo" = "语音";
 "PeerInfo.PaneAudio" = "音频";
 "PeerInfo.PaneGroups" = "群组";
 "PeerInfo.PaneMembers" = "成员";
-
+"PeerInfo.PaneGifs" = "GIF";
 
 "PeerInfo.AddToContacts" = "加为联系人";
 
@@ -5497,30 +5497,30 @@ Any member of this group will be able to see messages in the channel.";
 "Message.ForwardedPsa.covid" = "新冠肺炎通知\n来自: %@";
 
 "Channel.AboutItem" = "关于";
+"PeerInfo.GroupAboutItem" = "关于";
 
+"Widget.ApplicationStartRequired" = "打开应用程序以使用小部件";
 
+"ChatList.Context.AddToFolder" = "添加到文件夹";
+"ChatList.Context.RemoveFromFolder" = "从文件夹中移除";
+"ChatList.Context.Back" = "返回";
+"ChatList.AddedToFolderTooltip" = "%1$@ 已添加到 %2$@";
+"ChatList.RemovedFromFolderTooltip" = "%1$@ 已从 %2$@ 中移除";
 
+"OwnershipTransfer.Transfer" = "转让";
 
+"TwoStepAuth.Disable" = "禁用";
 
+"Chat.Gifs.TrendingSectionHeader" = "热门GIF";
+"Chat.Gifs.SavedSectionHeader" = "我的GIF";
 
+"Paint.Framed" = "裱框";
 
+"Media.SendingOptionsTooltip" = "按住此按钮以发送带有阅后即焚计时器的消息。";
+"Media.SendWithTimer" = "限时消息";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Conversation.Timer.Title" = "限时消息";
+"Conversation.Timer.Send" = "限时消息";
 
 
 /* new from translations.telegram.org */

@@ -4000,6 +4000,8 @@
 
 
 
+"ChatList.Filter.AddToFolder" = "添加到文件夹";
+"ChatList.Filter.RemoveFromFolder" = "从文件夹中移除";
 
 
 
@@ -4007,9 +4009,7 @@
 
 
 
-
-
-
+"GifsPane.Trending" = "热门GIF";
 
 
 
