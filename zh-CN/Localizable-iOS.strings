@@ -5342,7 +5342,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneAudio" = "音频";
 "PeerInfo.PaneGroups" = "群组";
 "PeerInfo.PaneMembers" = "成员";
-"PeerInfo.PaneGifs" = "GIF";
+"PeerInfo.PaneGifs" = "GIFs";
 
 "PeerInfo.AddToContacts" = "加为联系人";
 
@@ -5511,8 +5511,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "TwoStepAuth.Disable" = "禁用";
 
-"Chat.Gifs.TrendingSectionHeader" = "热门GIF";
-"Chat.Gifs.SavedSectionHeader" = "我的GIF";
+"Chat.Gifs.TrendingSectionHeader" = "热门GIFs";
+"Chat.Gifs.SavedSectionHeader" = "我的 GIFs";
 
 "Paint.Framed" = "裱框";
 

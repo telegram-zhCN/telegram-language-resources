@@ -1309,7 +1309,7 @@
     <string name="Masks">装饰</string>
     <string name="MasksInfo">您可以在你要发送的图片或视频里添加装饰，只需在发送前开启图片编辑器进行编辑即可。</string>
     <string name="FeaturedStickers">热门贴纸</string>
-    <string name="FeaturedGifs">热门GIF</string>
+    <string name="FeaturedGifs">热门GIFs</string>
     <string name="SuggestStickers">通过 Emoji 推荐贴纸</string>
     <string name="SuggestStickersAll">全部贴纸包</string>
     <string name="SuggestStickersInstalled">已添加的贴纸包</string>
@@ -1670,7 +1670,7 @@
     <string name="AutoplayMedia">自动播放</string>
     <string name="RaiseToSpeak">贴耳语音</string>
     <string name="SaveToGallerySettings">保存到相册</string>
-    <string name="SoundMuted">声音关闭</string>
+    <string name="SoundMuted">已静音</string>
     <string name="EditName">编辑名称</string>
     <string name="NotificationsCustomize">自定义</string>
     <string name="NotificationsCustom">自定义</string>
@@ -2386,7 +2386,7 @@
     <string name="PleaseEnterCurrentPassword">请输入您的密码</string>
     <string name="PleaseEnterCurrentPasswordTransfer">请输入您的两步验证密码以完成转让。</string>
     <string name="PleaseEnterFirstPassword">请输入一个密码</string>
-    <string name="PleaseEnterNewFirstPassword">请输入新密码</string>
+    <string name="PleaseEnterNewFirstPassword">输入一个新密码</string>
     <string name="PleaseEnterPassword">请输入新的解锁密码</string>
     <string name="PleaseReEnterPassword">请再次输入密码</string>
     <string name="RecoveryEmail">恢复邮箱</string>
