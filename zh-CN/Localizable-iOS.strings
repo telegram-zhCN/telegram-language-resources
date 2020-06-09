@@ -5523,6 +5523,23 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Timer.Send" = "限时消息";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "AUTH_REGION" = "从新的设备登录 %1$@，位置：%2$@";

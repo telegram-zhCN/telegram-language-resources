@@ -4016,6 +4016,12 @@
 "Text.View.Transformations" = "Transformations";
 
 
+"PrivateChannel.Peek.Header" = "Join Channel";
+"PrivateChannel.Peek.Text" = "This channel is private. Please join it to continue viewing its content.";
+"PrivateChannel.Peek.OK" = "Join Channel";
+"PrivateChannel.Peek.Cancel" = "Cancel";
+
+
 
 /* "Wallet.Splash.Intro.Header" = "Gram Wallet"; */
 /* "Wallet.Splash.Intro.Title" = "Gram Wallet"; */

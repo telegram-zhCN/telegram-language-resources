@@ -5523,6 +5523,23 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Timer.Send" = "Send With Timer";
 
 
+
+
+
+
+"Conversation.NoticeInvitedByInChannel" = "%@ invited you to this channel";
+"Conversation.NoticeInvitedByInGroup" = "%@ invited you to this group";
+
+"ChatList.MessagePhotos_1" = "1 Photo";
+"ChatList.MessagePhotos_any" = "%@ Photos";
+"ChatList.MessageVideos_1" = "1 Video";
+"ChatList.MessageVideos_any" = "%@ Videos";
+
+"Conversation.PrivateChannelTimeLimitedAlertTitle" = "Join Channel";
+"Conversation.PrivateChannelTimeLimitedAlertText" = "This channel is private. Please join it now, otherwise you won't be able to view its content in the future.";
+"Conversation.PrivateChannelTimeLimitedAlertJoin" = "Join";
+
+
 /* new from translations.telegram.org */
 
 "AUTH_REGION" = "Login from a new device %1$@, location: %2$@";
@@ -5663,6 +5680,14 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.DeletedChats_3_10" = "Deleted %@ chats";
 "ChatList.DeletedChats_many" = "Deleted %@ chats";
 "ChatList.EmptyChatFilterList" = "This folder is empty.";
+"ChatList.MessagePhotos_0" = "%@ Photos";
+"ChatList.MessagePhotos_2" = "%@ Photos";
+"ChatList.MessagePhotos_3_10" = "%@ Photos";
+"ChatList.MessagePhotos_many" = "%@ Photos";
+"ChatList.MessageVideos_0" = "%@ Videos";
+"ChatList.MessageVideos_2" = "%@ Videos";
+"ChatList.MessageVideos_3_10" = "%@ Videos";
+"ChatList.MessageVideos_many" = "%@ Videos";
 "Conversation.Dice" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 "Conversation.Dice." = "Send a dice emoji to any chat to roll a die.";
 "DataUpgrade.Running" = "Optimizing...";

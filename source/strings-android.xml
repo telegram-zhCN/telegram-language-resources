@@ -2404,7 +2404,7 @@
     <string name="YourPasswordSuccessText">Your password for Two-Step Verification is now active.</string>
     <string name="YourPasswordChangedSuccessText">Your password for Two-Step Verification has been changed.</string>
     <string name="YourEmailSuccessText">Your recovery email for Two-Step Verification is now active.</string>
-    <string name="YourEmailSuccessChangedText">Your recovery email for Two-Step Verification is changed.</string>
+    <string name="YourEmailSuccessChangedText">Your recovery email for Two-Step Verification has been changed.</string>
     <string name="ChangePassword">Change Password</string>
     <string name="TurnPasswordOff">Turn Password Off</string>
     <string name="SetRecoveryEmail">Set Recovery Email</string>
