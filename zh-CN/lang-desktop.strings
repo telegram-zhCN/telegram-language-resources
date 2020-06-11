@@ -2500,7 +2500,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_audios_cached#other" = "{count} 条语音留言，共 {size}";
 "lng_settings_autoplay_gifs" = "自动播放 GIF";
 "lng_settings_bg_edit_theme" = "打开主题编辑器";
-"lng_settings_calls_peer_to_peer" = "端对端通话";
+"lng_settings_calls_peer_to_peer" = "端到端通话";
 "lng_settings_calls_privacy" = "通话隐私";
 "lng_settings_edit_info" = "编辑信息";
 "lng_settings_groups_invite_privacy" = "群组和频道邀请设置";

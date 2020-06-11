@@ -1661,7 +1661,7 @@
   <string name="IncognitoKeyboard">无痕键盘</string>
   <string name="IncognitoKeyboardInfo">要求输入法停止上传任何基于加密聊天内容的个性化数据，例如词库记录和个人语言模型。\n\n请注意此选项不保证有效，且一些输入法不遵守它。</string>
   <string name="FailureMessageText">此消息由于发生了一个错误而不能显示，我们对此非常抱歉。\n\n请复制下方的详细错误内容并将其通过电子邮件发送至 support@telegram.org 以便我们调查这个问题。感谢您！</string>
-  <string name="PrivacyCallsP2PTitle2">端到端连接通话</string>
+  <string name="PrivacyCallsP2PTitle2">端到端通话</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
   <string name="AutoNightAutomatic">自动</string>

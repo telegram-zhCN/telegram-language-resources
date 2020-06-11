@@ -2498,7 +2498,7 @@
     <string name="PrivacyForwardsInfo2">您可以将用户或整个群组添加为覆盖上述设置的例外。</string>
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="PrivacyP2PHeader">端到端连接</string>
-    <string name="PrivacyP2P">端对端通话</string>
+    <string name="PrivacyP2P">端到端通话</string>
     <string name="PrivacyP2P2">与谁通话使用点对点传输</string>
     <string name="PrivacyBots">机器人与网站</string>
     <string name="PrivacyPaymentsClear">清除付款和配送信息</string>
