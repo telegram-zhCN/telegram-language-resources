@@ -369,7 +369,7 @@
 
 
 "PeerMedia.Media" = "Media";
-"PeerMedia.Files" = "Docs";
+"PeerMedia.Files" = "Files";
 "PeerMedia.Links" = "Links";
 "PeerMedia.Audio" = "Audio";
 "PeerMedia.Members" = "Members";

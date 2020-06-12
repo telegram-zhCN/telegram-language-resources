@@ -5522,10 +5522,10 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Timer.Title" = "Send With Timer";
 "Conversation.Timer.Send" = "Send With Timer";
 
-
-
-
-
+"Paint.Pen" = "Pen";
+"Paint.Marker" = "Marker";
+"Paint.Neon" = "Neon";
+"Paint.Arrow" = "Arrow";
 
 "Conversation.NoticeInvitedByInChannel" = "%@ invited you to this channel";
 "Conversation.NoticeInvitedByInGroup" = "%@ invited you to this group";
@@ -5538,6 +5538,12 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.PrivateChannelTimeLimitedAlertTitle" = "Join Channel";
 "Conversation.PrivateChannelTimeLimitedAlertText" = "This channel is private. Please join it now, otherwise you won't be able to view its content in the future.";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "Join";
+
+"KeyCommand.SearchInChat" = "Search in Chat";
+
+
+
+
 
 
 /* new from translations.telegram.org */

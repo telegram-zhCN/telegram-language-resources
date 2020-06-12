@@ -1874,7 +1874,7 @@
 
 
 
-"PreviewSender.SendVideo_other" = "发送 %d 段视频";
+"PreviewSender.SendVideo_other" = "发送 %d 个视频";
 
 "PreviewSender.SendGif_countable" = "%d";
 
@@ -2675,7 +2675,7 @@
 
 
 
-"Gallery.Context.Share.AllVideos_other" = "全部 %d 段视频";
+"Gallery.Context.Share.AllVideos_other" = "全部 %d 个视频";
 
 "Gallery.Context.Share.AllItems_countable" = "%d";
 

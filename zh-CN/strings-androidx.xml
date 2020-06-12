@@ -189,7 +189,7 @@
   
   <string name="xMedia_other">%1$s 个媒体</string>
   
-  <string name="xVideos_other">%1$s 段视频</string>
+  <string name="xVideos_other">%1$s 个视频</string>
   
   <string name="xViews_other">%1$s 次浏览</string>
   
@@ -581,7 +581,7 @@
   
   <string name="SelectedMediaSuffix_other">个媒体文件</string>
   
-  <string name="SelectedVideoSuffix_other">段视频</string>
+  <string name="SelectedVideoSuffix_other">个视频</string>
   
   <string name="SelectedAudioSuffix_other">首音乐</string>
   
@@ -1566,7 +1566,7 @@
   
   <string name="AsXMessages_other">在 %1$s 条消息中发出</string>
   
-  <string name="AttachVideosSuffix_other">段视频</string>
+  <string name="AttachVideosSuffix_other">个视频</string>
   
   <string name="AttachPhotosSuffix_other">张图片</string>
   

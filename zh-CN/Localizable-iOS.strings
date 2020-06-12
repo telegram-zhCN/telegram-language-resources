@@ -109,7 +109,7 @@
 "PUSH_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d 张图片";
 "PUSH_MESSAGE_VIDEO" = "%1$@|📹 视频";
 
-"PUSH_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 段视频";
+"PUSH_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 个视频";
 "PUSH_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
 "PUSH_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d 条视频留言";
@@ -141,7 +141,7 @@
 "PUSH_CHANNEL_MESSAGE_PHOTOS_any" = "%1$@|📷 %2$d 段视频";
 "PUSH_CHANNEL_MESSAGE_VIDEO" = "%1$@|📹 视频";
 
-"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 段视频";
+"PUSH_CHANNEL_MESSAGE_VIDEOS_any" = "%1$@|📹 %2$d 个视频";
 "PUSH_CHANNEL_MESSAGE_ROUND" = "%1$@|📺 视频留言";
 
 "PUSH_CHANNEL_MESSAGE_ROUNDS_any" = "%1$@|📺 %2$d 条视频留言";
@@ -183,7 +183,7 @@
 "PUSH_CHAT_MESSAGE_PHOTOS_any" = "%2$@|%1$@: 📷 %3$d 图片";
 "PUSH_CHAT_MESSAGE_VIDEO" = "%2$@|%1$@: 📹 视频";
 
-"PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@: 📹 %3$d 视频";
+"PUSH_CHAT_MESSAGE_VIDEOS_any" = "%2$@|%1$@: 📹 %3$d 个视频";
 "PUSH_CHAT_MESSAGE_ROUND" = "%2$@|%1$@: 📺 视频留言";
 
 "PUSH_CHAT_MESSAGE_ROUNDS_any" = "%2$@|%1$@: 📺 %3$d 视频留言";
@@ -1036,7 +1036,7 @@
 
 
 
-"SharedMedia.Video_any" = "%@ 段视频";
+"SharedMedia.Video_any" = "%@ 个视频";
 
 
 
@@ -1818,7 +1818,7 @@
 
 
 
-"AttachmentMenu.SendVideo_any" = "发送 %@ 段视频";
+"AttachmentMenu.SendVideo_any" = "发送 %@ 个视频";
 
 
 
@@ -2965,7 +2965,7 @@ Unused sets are archived when you add more.";
 
 
 
-"Media.ShareVideo_any" = "全部 %@ 段视频";
+"Media.ShareVideo_any" = "全部 %@ 个视频";
 
 
 
@@ -5527,11 +5527,17 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Conversation.NoticeInvitedByInChannel" = "%@ 邀请您加入此频道";
+"Conversation.NoticeInvitedByInGroup" = "%@ 邀请您加入此群组";
 
 
+"ChatList.MessagePhotos_any" = "%@ 张图片";
 
+"ChatList.MessageVideos_any" = "%@ 个视频";
 
-
+"Conversation.PrivateChannelTimeLimitedAlertTitle" = "加入频道";
+"Conversation.PrivateChannelTimeLimitedAlertText" = "此频道是私人的。请现在就加入，否则未来您将无法查看其内容。";
+"Conversation.PrivateChannelTimeLimitedAlertJoin" = "加入";
 
 
 

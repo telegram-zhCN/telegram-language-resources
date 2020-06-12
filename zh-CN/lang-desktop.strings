@@ -806,7 +806,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_photos#other" = "{count} 张图片";
 "lng_profile_photos_header" = "图片";
 
-"lng_profile_videos#other" = "{count} 段视频";
+"lng_profile_videos#other" = "{count} 个视频";
 "lng_profile_videos_header" = "视频";
 
 "lng_profile_songs#other" = "{count} 首音乐";
@@ -867,7 +867,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_media_selected_photo#other" = "{count} 张图片";
 
-"lng_media_selected_video#other" = "{count} 段视频";
+"lng_media_selected_video#other" = "{count} 个视频";
 
 "lng_media_selected_song#other" = "{count} 首音乐";
 
