@@ -5536,7 +5536,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.MessageVideos_any" = "%@ Videos";
 
 "Conversation.PrivateChannelTimeLimitedAlertTitle" = "Join Channel";
-"Conversation.PrivateChannelTimeLimitedAlertText" = "This channel is private. Please join it now, otherwise you won't be able to view its content in the future.";
+"Conversation.PrivateChannelTimeLimitedAlertText" = "This channel is private. Please join it to continue viewing its content.";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "Join";
 
 "KeyCommand.SearchInChat" = "Search in Chat";
