@@ -5536,10 +5536,10 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.MessageVideos_any" = "%@ 个视频";
 
 "Conversation.PrivateChannelTimeLimitedAlertTitle" = "加入频道";
-"Conversation.PrivateChannelTimeLimitedAlertText" = "此频道是私人的。请现在就加入，否则未来您将无法查看其内容。";
+"Conversation.PrivateChannelTimeLimitedAlertText" = "此频道是私人的。请加入它以继续浏览其内容。";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "加入";
 
-
+"KeyCommand.SearchInChat" = "在对话中搜索";
 
 
 
