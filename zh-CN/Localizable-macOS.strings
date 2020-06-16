@@ -375,7 +375,7 @@
 "PeerMedia.Members" = "成员";
 "PeerMedia.Voice" = "留言";
 "PeerMedia.CommonGroups" = "群组";
-
+"PeerMedia.Gifs" = "GIFs";
 
 "Chat.Message.Via" = "通过";
 
@@ -689,7 +689,7 @@
 "Peer.Media.SharedMusicEmptyList" = "此对话中共享的所有音乐都会在这里显示。";
 "Peer.Media.SharedVoiceEmptyList" = "此对话中共享的所有语音和视频留言均会在这里列出。";
 "SecretTimer.Off" = "关闭";
-
+"Channel.SlowMode.Off" = "关闭";
 
 "Timer.Seconds_countable" = "%d";
 
@@ -775,7 +775,7 @@
 "Stickers.Recent" = "最近";
 "Stickers.Favorite" = "收藏夹";
 "Stickers.SearchAdd" = "设置";
-
+"Stickers.Context.Archive" = "归档";
 
 "Stickers.SearchAdded" = "已安装";
 
@@ -1740,8 +1740,8 @@
 "Messages.Placeholder.SilentBroadcast" = "无声广播...";
 
 
-
-
+"Messages.Placeholder.Broadcast.Small" = "广播... ";
+"Messages.Placeholder.SentMessage.Small" = "消息...";
 
 
 
@@ -2445,10 +2445,10 @@
 
 
 
+"Chat.SecretChat.Preview.Header" = "加密对话";
 
 
-
-
+"Chat.SecretChat.Preview.NO" = "否";
 
 
 "PrivacyAndSecurity.Confirm.ClearCloudDrafts" = "您确定要清空所有草稿吗？";
@@ -3539,7 +3539,7 @@
 
 
 
-
+"TouchBarLabel.ChatActions" = "对话操作";
 "TouchBarLabel.EmojiAndStickers" = "Emoji & 贴纸";
 "TouchBarLabel.NewChat" = "新对话";
 
@@ -3723,7 +3723,7 @@
 "SettingsSearch.EmptyItem" = "这里会显示搜索设置和 Telegram 常见问题的结果。";
 
 
-
+"SettingsSearch.Recent" = "最近";
 "SettingsSearch.Recent.Clear" = "清除";
 
 
@@ -3997,16 +3997,16 @@
 
 
 
-
+"PeerInfo.Group.Menu.Restrict" = "限制";
 
 
 "ChatList.Filter.AddToFolder" = "添加到文件夹";
 "ChatList.Filter.RemoveFromFolder" = "从文件夹中移除";
-
-
-
-
-
+"MessageTimer.ShortSeconds" = "%@秒";
+"MessageTimer.ShortMinutes" = "%@分钟";
+"MessageTimer.ShortHours" = "%@小时";
+"MessageTimer.ShortDays" = "%@天";
+"MessageTimer.ShortWeeks" = "%@周";
 
 
 "GifsPane.Trending" = "热门GIFs";
@@ -4018,8 +4018,8 @@
 
 
 "PrivateChannel.Peek.Text" = "此频道是私人的。请加入它以继续浏览其内容。";
-
-
+"PrivateChannel.Peek.OK" = "加入频道";
+"PrivateChannel.Peek.Cancel" = "取消";
 
 //
 //

@@ -5539,7 +5539,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.PrivateChannelTimeLimitedAlertText" = "此频道是私人的。请加入它以继续浏览其内容。";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "加入";
 
-"KeyCommand.SearchInChat" = "在对话中搜索";
+"KeyCommand.SearchInChat" = "搜索对话";
 
 
 
