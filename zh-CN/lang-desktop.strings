@@ -1454,7 +1454,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_edit_msg" = "编辑";
 "lng_context_forward_msg" = "转发";
 "lng_context_send_now_msg" = "现在发送";
-
+"lng_context_reschedule" = "重新定时";
 "lng_context_delete_msg" = "删除消息";
 "lng_context_select_msg" = "选择此消息";
 "lng_context_report_msg" = "举报";
@@ -2150,8 +2150,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_size_limit" = "文件大小限制：{size}";
 "lng_export_header_format" = "保存路径和格式";
 "lng_export_option_location" = "保存至：{path}";
-
-
+"lng_export_option_format_location" = "格式：{format}，路径：{path}";
+"lng_export_option_choose_format" = "选择导出格式";
 "lng_export_option_html" = "人类可读的 HTML 格式";
 "lng_export_option_json" = "机器可读的 JSON 格式";
 "lng_export_limits" = "From: {from}, to: {till}";
@@ -2251,7 +2251,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_votes_collapse" = "收起";
 
 "lng_outdated_title" = "请更新您的操作系统。";
-
+"lng_outdated_title_bits" = "请切换到64位操作系统。";
 "lng_outdated_soon" = "否则，Telegram Desktop将在 {date} 停止更新。";
 "lng_outdated_now" = "这样 Telegram Desktop 就可以更新到更新的版本。";
 
