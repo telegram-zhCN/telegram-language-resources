@@ -2391,7 +2391,7 @@
   <string name="DoneSave">Saved</string>
 
   <string name="CancelAccountReset">Cancel Account Reset</string>
-  <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
+  <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number. You can also cancel this by **changing your phone number** to a number you control.</string>
 
   <string name="mentionCount_one">%1$s mention</string>
   <string name="mentionCount_other">%1$s mentions</string>

@@ -2072,7 +2072,7 @@
 "Login.SmsRequestState3" = "Telegram sent you an SMS\n[Didn't get the code?]";
 
 "CancelResetAccount.Title" = "Cancel Account Reset";
-"CancelResetAccount.TextSMS" = "Somebody with access to your phone number %@ has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf it wasn't you, please enter the code we've just sent you via SMS to your number.";
+"CancelResetAccount.TextSMS" = "Somebody with access to your phone number %@ has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf it wasn't you, please enter the code we've just sent you via SMS to your number. You can also cancel this by **changing your phone number** to a number you control.";
 
 "CancelResetAccount.Success" = "The deletion process was cancelled for your account %@.";
 

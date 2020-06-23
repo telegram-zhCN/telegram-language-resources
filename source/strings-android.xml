@@ -37,7 +37,7 @@
     <string name="DidNotGetTheCode">Didn\'t get the code?</string>
     <string name="DidNotGetTheCodeSms">Send the code as an SMS</string>
     <string name="CancelAccountReset">Cancel account reset</string>
-    <string name="CancelAccountResetInfo">Somebody with access to your phone number **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS to your number.</string>
+    <string name="CancelAccountResetInfo">Somebody with access to **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by **changing your phone number**.</string>
     <string name="ResetAccount">Reset account</string>
     <string name="ResetAccountInfo">Since the account **%1$s** is active and protected by a password, we will delete it in 1 week for security purposes.\n\nYou can cancel this process at any time.</string>
     <string name="ResetAccountStatus">You\'ll be able to reset your account in:</string>
