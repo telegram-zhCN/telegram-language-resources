@@ -1594,7 +1594,7 @@
     <string name="TermsOfServiceLogin">注册即代表您同意*服务条款*。</string>
     <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
     <string name="DeleteLocalizationTitle">删除语言包</string>
-    <string name="DeleteLocalizationText">您是否确定删除 %1$s 语音包？</string>
+    <string name="DeleteLocalizationText">您是否确定删除 %1$s 语言包？</string>
     <string name="IncorrectLocalization">语言包文件无效或已损坏</string>
     <string name="NotificationsService">后台服务常驻</string>
     <string name="NotificationsServiceInfo">当应用被终止时自动重启后台服务，确保及时收到通知。</string>
