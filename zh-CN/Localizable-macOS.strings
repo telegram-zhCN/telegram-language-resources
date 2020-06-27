@@ -460,7 +460,7 @@
 "NotificationSettings.IncludeGroups" = "包含群组";
 "NotificationSettings.IncludeChannels" = "包含频道";
 
-
+"NotificationSettings.BounceDockIcon" = "弹跳 Dock 图标";
 
 "NotificationSettings.BadgeHeader" = "未读消息数量提示";
 "NotificationSettings.BadgeDesc" = "关闭以显示未读对话数而非未读消息数。";
@@ -2440,14 +2440,14 @@
 "PrivacyAndSecurity.SensitiveText" = "关闭过滤";
 "PrivacyAndSecurity.SensitiveDesc" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
 
-
-
-
+"PrivacyAndSecurity.SecretChatWebPreview.Header" = "加密对话";
+"PrivacyAndSecurity.SecretChatWebPreview.Text" = "链接预览";
+"PrivacyAndSecurity.SecretChatWebPreview.Desc" = "链接预览将在 Telegram 服务器上产生，我们不会储存与您所发送的链接有关的数据。";
 
 
 "Chat.SecretChat.Preview.Header" = "加密对话";
-
-
+"Chat.SecretChat.Preview.Text" = "您要启用加密对话中的链接预览功能吗？注意，所有的链接预览均会在 Telegram 服务器上生成。";
+"Chat.SecretChat.Preview.OK" = "是";
 "Chat.SecretChat.Preview.NO" = "否";
 
 
@@ -3285,7 +3285,7 @@
 
 "Chat.Service.SearchAllMessages" = "在 %@ 发送的消息中搜索";
 
-"TextView.Transform.RemoveAll" = "清除转换";
+"TextView.Transform.RemoveAll" = "纯文本";
 "ChatList.ArchivedChats" = "已归档对话";
 
 "Telegram.UpgradeDatabase.Title" = "正在优化数据库";
@@ -3996,9 +3996,9 @@
 "psa.chat.text.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务告示。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
 
 
-
+"PeerInfo.Group.Menu.Promote" = "晋升";
 "PeerInfo.Group.Menu.Restrict" = "限制";
-
+"PeerInfo.Group.Menu.Delete" = "删除";
 
 "ChatList.Filter.AddToFolder" = "添加到文件夹";
 "ChatList.Filter.RemoveFromFolder" = "从文件夹中移除";
@@ -4010,13 +4010,13 @@
 
 
 "GifsPane.Trending" = "热门GIFs";
+"GifsPane.Reactions" = "反应";
 
 
+"Text.View.Transformations" = "文字格式";
 
 
-
-
-
+"PrivateChannel.Peek.Header" = "加入频道";
 "PrivateChannel.Peek.Text" = "此频道是私人的。请加入它以继续浏览其内容。";
 "PrivateChannel.Peek.OK" = "加入频道";
 "PrivateChannel.Peek.Cancel" = "取消";

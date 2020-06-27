@@ -2675,7 +2675,7 @@ Unused sets are archived when you add more.";
 "Conversation.ViewChannel" = "查看频道";
 "Conversation.ViewGroup" = "查看群组";
 
-"GroupInfo.ActionPromote" = "设置管理员";
+"GroupInfo.ActionPromote" = "晋升";
 "GroupInfo.ActionRestrict" = "限制";
 
 "Conversation.RestrictedTextTimed" = "您已被管理员禁言至 %@";
@@ -5522,10 +5522,10 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Timer.Title" = "限时消息";
 "Conversation.Timer.Send" = "限时消息";
 
-
-
-
-
+"Paint.Pen" = "钢笔";
+"Paint.Marker" = "记号笔";
+"Paint.Neon" = "霓虹灯";
+"Paint.Arrow" = "箭头";
 
 "Conversation.NoticeInvitedByInChannel" = "%@ 邀请您加入此频道";
 "Conversation.NoticeInvitedByInGroup" = "%@ 邀请您加入此群组";

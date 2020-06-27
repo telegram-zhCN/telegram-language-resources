@@ -1620,7 +1620,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_version_minor" = "— 错误修复及细节改进";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制符";
-"lng_menu_formatting" = "格式化";
+"lng_menu_formatting" = "文字格式";
 "lng_menu_formatting_bold" = "粗体";
 "lng_menu_formatting_italic" = "斜体";
 "lng_menu_formatting_underline" = "下划线";
