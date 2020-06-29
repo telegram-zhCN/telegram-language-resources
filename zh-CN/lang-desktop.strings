@@ -16,6 +16,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_back" = "返回";
 "lng_menu_night_mode" = "夜间模式";
 
+
 "lng_disable_notifications_from_tray" = "关闭通知";
 "lng_enable_notifications_from_tray" = "启用消息通知";
 "lng_open_from_tray" = "打开 Telegram";
