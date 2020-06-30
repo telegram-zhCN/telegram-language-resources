@@ -17,6 +17,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_night_mode" = "夜间模式";
 
 
+
 "lng_disable_notifications_from_tray" = "关闭通知";
 "lng_enable_notifications_from_tray" = "启用消息通知";
 "lng_open_from_tray" = "打开 Telegram";
@@ -291,6 +292,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_empty_bio" = "无";
 
 "lng_settings_section_notify" = "通知";
+
+
+
 "lng_settings_notify_title" = "聊天通知";
 "lng_settings_desktop_notify" = "启用通知";
 "lng_settings_show_name" = "显示发送者名称";
