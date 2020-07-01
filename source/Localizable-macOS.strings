@@ -3231,7 +3231,7 @@
 
 
 "NotificationSettings.SnoofHeader" = "WHEN APP IS IN FOCUS";
-"NotificationSettings.Snoof" = "Show notifications";
+"NotificationSettings.Snoof" = "Show Notifications";
 "NotificationSettings.Snoof.On" = "Turn this off if you want to receive notifications only when application is not in focus.";
 "NotificationSettings.Snoof.Off" = "Turn this on if you want to always receive notifications.";
 
