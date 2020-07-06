@@ -2289,7 +2289,9 @@ Unused sets are archived when you add more.";
 
 "Notification.CallTimeFormat" = "%1$@ (%2$@)"; // 1 - type, 2 - duration
 "Notification.CallOutgoing" = "Outgoing Call";
+
 "Notification.CallIncoming" = "Incoming Call";
+
 "Notification.CallMissed" = "Missed Call";
 "Notification.CallCanceled" = "Cancelled Call";
 "Notification.CallOutgoingShort" = "Outgoing";
@@ -5328,6 +5330,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.ButtonMessage" = "Message";
 "PeerInfo.ButtonDiscuss" = "Discuss";
 "PeerInfo.ButtonCall" = "Call";
+
 "PeerInfo.ButtonMute" = "Mute";
 "PeerInfo.ButtonUnmute" = "Unmute";
 "PeerInfo.ButtonMore" = "More";
@@ -5540,6 +5543,140 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "Join";
 
 "KeyCommand.SearchInChat" = "Search in Chat";
+
+"PhotoEditor.SkinTool" = "Soften Skin";
+"PhotoEditor.BlurToolPortrait" = "Portrait";
+"PhotoEditor.SelectCoverFrame" = "Choose a cover for your profile video";
+
+"Conversation.PeerNearbyTitle" = "%1$@ is %2$@ away";
+"Conversation.PeerNearbyText" = "Send a message or tap on the greeting below to show that you are ready to chat.";
+"Conversation.PeerNearbyDistance" = "%1$@ is %2$@ away";
+
+"ProfilePhoto.MainPhoto" = "Main Photo";
+"ProfilePhoto.SetMainPhoto" = "Set as Main Photo";
+
+"ProfilePhoto.MainVideo" = "Main Video";
+"ProfilePhoto.SetMainVideo" = "Set as Main Video";
+
+"Stats.GroupOverview" = "OVERVIEW";
+"Stats.GroupMembers" = "Members";
+"Stats.GroupMessages" = "Messages";
+"Stats.GroupViewers" = "Viewing Members";
+"Stats.GroupPosters" = "Posting Members";
+
+"Stats.GroupGrowthTitle" = "GROWTH";
+"Stats.GroupMembersTitle" = "GROUP MEMBERS";
+"Stats.GroupNewMembersBySourceTitle" = "NEW MEMBERS BY SOURCE";
+"Stats.GroupLanguagesTitle" = "MEMBERS' PRIMARY LANGUAGE";
+"Stats.GroupMessagesTitle" = "MESSAGES";
+"Stats.GroupActionsTitle" = "ACTIONS";
+"Stats.GroupTopHoursTitle" = "TOP HOURS";
+"Stats.GroupTopWeekdaysTitle" = "TOP DAYS OF WEEK";
+"Stats.GroupTopPostersTitle" = "TOP MEMBERS";
+"Stats.GroupTopAdminsTitle" = "TOP ADMINS";
+"Stats.GroupTopInvitersTitle" = "TOP INVITERS";
+
+"Stats.GroupTopPosterMessages_0" = "%@ messages";
+"Stats.GroupTopPosterMessages_1" = "%@ message";
+"Stats.GroupTopPosterMessages_2" = "%@ messages";
+"Stats.GroupTopPosterMessages_3_10" = "%@ messages";
+"Stats.GroupTopPosterMessages_many" = "%@ messages";
+"Stats.GroupTopPosterMessages_any" = "%@ messages";
+
+"Stats.GroupTopPosterChars_0" = "%@ characters per message";
+"Stats.GroupTopPosterChars_1" = "%@ character per message";
+"Stats.GroupTopPosterChars_2" = "%@ characters per message";
+"Stats.GroupTopPosterChars_3_10" = "%@ characters per message";
+"Stats.GroupTopPosterChars_many" = "%@ characters per message";
+"Stats.GroupTopPosterChars_any" = "%@ characters per message";
+
+"Stats.GroupTopPoster.History" = "History";
+"Stats.GroupTopPoster.Promote" = "Promote";
+
+"Stats.GroupTopAdminDeletions_0" = "%@ deletions";
+"Stats.GroupTopAdminDeletions_1" = "%@ deletion";
+"Stats.GroupTopAdminDeletions_2" = "%@ deletions";
+"Stats.GroupTopAdminDeletions_3_10" = "%@ deletions";
+"Stats.GroupTopAdminDeletions_many" = "%@ deletions";
+"Stats.GroupTopAdminDeletions_any" = "%@ deletions";
+
+"Stats.GroupTopAdminKicks_0" = "%@ kicks";
+"Stats.GroupTopAdminKicks_1" = "%@ kick";
+"Stats.GroupTopAdminKicks_2" = "%@ kicks";
+"Stats.GroupTopAdminKicks_3_10" = "%@ kicks";
+"Stats.GroupTopAdminKicks_many" = "%@ kicks";
+"Stats.GroupTopAdminKicks_any" = "%@ kicks";
+
+"Stats.GroupTopAdminBans_0" = "%@ bans";
+"Stats.GroupTopAdminBans_1" = "%@ ban";
+"Stats.GroupTopAdminBans_2" = "%@ bans";
+"Stats.GroupTopAdminBans_3_10" = "%@ bans";
+"Stats.GroupTopAdminBans_many" = "%@ bans";
+"Stats.GroupTopAdminBans_any" = "%@ bans";
+
+"Stats.GroupTopAdmin.Actions" = "Actions";
+"Stats.GroupTopAdmin.Promote" = "Promote";
+
+"Stats.GroupTopInviterInvites_0" = "%@ invitations";
+"Stats.GroupTopInviterInvites_1" = "%@ invitation";
+"Stats.GroupTopInviterInvites_2" = "%@ invitations";
+"Stats.GroupTopInviterInvites_3_10" = "%@ invitations";
+"Stats.GroupTopInviterInvites_many" = "%@ invitations";
+"Stats.GroupTopInviterInvites_any" = "%@ invitations";
+
+"Stats.GroupTopInviter.History" = "History";
+"Stats.GroupTopInviter.Promote" = "Promote";
+
+"PrivacySettings.AutoArchiveTitle" = "NEW CHATS FROM UNKNOWN USERS";
+"PrivacySettings.AutoArchive" = "Archive and Mute";
+"PrivacySettings.AutoArchiveInfo" = "Automatically archive and mute new chats, groups and channels from non-contacts.";
+
+
+
+"Settings.SetProfilePhotoOrVideo" = "Set Profile Photo or Video";
+"Settings.SetNewProfilePhotoOrVideo" = "Set New Profile Photo or Video";
+"Settings.ViewVideo" = "View Video";
+"Settings.RemoveVideo" = "Remove Video";
+
+"Settings.EditProfileMedia" = "Edit";
+
+"Conversation.Unarchive" = "Unarchive";
+"Conversation.UnarchiveDone" = "The chat was moved to your main list.";
+
+"ChatList.AutoarchiveSuggestion.Title" = "Hide new chats?";
+"ChatList.AutoarchiveSuggestion.Text" = "You are receiving lots of new chats from users who are not in your Contact List. Do you want to have such chats **automatically muted** and **archived**?";
+"ChatList.AutoarchiveSuggestion.OpenSettings" = "Go to Settings";
+
+"SettingsSearch.Synonyms.ChatSettings.IntentsSettings" = "Siri Suggestions";
+
+"Stats.GroupShowMoreTopPosters_0" = "Show %@ More";
+"Stats.GroupShowMoreTopPosters_1" = "Show %@ More";
+"Stats.GroupShowMoreTopPosters_2" = "Show %@ More";
+"Stats.GroupShowMoreTopPosters_3_10" = "Show %@ More";
+"Stats.GroupShowMoreTopPosters_many" = "Show %@ More";
+"Stats.GroupShowMoreTopPosters_any" = "Show %@ More";
+
+"Stats.GroupShowMoreTopAdmins_0" = "Show %@ More";
+"Stats.GroupShowMoreTopAdmins_1" = "Show %@ More";
+"Stats.GroupShowMoreTopAdmins_2" = "Show %@ More";
+"Stats.GroupShowMoreTopAdmins_3_10" = "Show %@ More";
+"Stats.GroupShowMoreTopAdmins_many" = "Show %@ More";
+"Stats.GroupShowMoreTopAdmins_any" = "Show %@ More";
+
+"Stats.GroupShowMoreTopInviters_0" = "Show %@ More";
+"Stats.GroupShowMoreTopInviters_1" = "Show %@ More";
+"Stats.GroupShowMoreTopInviters_2" = "Show %@ More";
+"Stats.GroupShowMoreTopInviters_3_10" = "Show %@ More";
+"Stats.GroupShowMoreTopInviters_many" = "Show %@ More";
+"Stats.GroupShowMoreTopInviters_any" = "Show %@ More";
+
+
+
+
+
+
+
+
 
 
 

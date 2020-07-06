@@ -2289,7 +2289,9 @@ Unused sets are archived when you add more.";
 
 "Notification.CallTimeFormat" = "%1$@ (%2$@)"; // 1 - type, 2 - duration
 "Notification.CallOutgoing" = "外拨电话";
+
 "Notification.CallIncoming" = "来电";
+
 "Notification.CallMissed" = "未接来电";
 "Notification.CallCanceled" = "已取消通话";
 "Notification.CallOutgoingShort" = "拨出";
@@ -5328,6 +5330,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.ButtonMessage" = "发消息";
 "PeerInfo.ButtonDiscuss" = "讨论";
 "PeerInfo.ButtonCall" = "通话";
+
 "PeerInfo.ButtonMute" = "静音";
 "PeerInfo.ButtonUnmute" = "开启通知";
 "PeerInfo.ButtonMore" = "更多";
@@ -5540,6 +5543,140 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "加入";
 
 "KeyCommand.SearchInChat" = "搜索对话";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
