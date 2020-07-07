@@ -5670,17 +5670,21 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupShowMoreTopInviters_many" = "Show %@ More";
 "Stats.GroupShowMoreTopInviters_any" = "Show %@ More";
 
+"Settings.AddAnotherAccount" = "Add Another Account";
+"Settings.AddAnotherAccount.Help" = "You can add up to three accounts with different phone numbers.";
 
+"ProfilePhoto.OpenGallery" = "Open Gallery";
+"ProfilePhoto.SearchWeb" = "Search Web";
+"ProfilePhoto.OpenInEditor" = "Open in Editor";
 
+"Settings.EditAccount" = "Edit Account";
+"Settings.EditPhoto" = "Edit Photo";
 
+"Settings.FrequentlyAskedQuestions" = "Frequently Asked Questions";
 
-
-
-
-
-
-
-
+"Notification.ChangedGroupVideo" = "%@ changed group video";
+"Group.MessageVideoUpdated" = "Group video updated";
+"Channel.MessageVideoUpdated" = "Channel video updated";
 
 
 /* new from translations.telegram.org */
