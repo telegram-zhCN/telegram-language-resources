@@ -338,6 +338,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_update_fail" = "更新检查失败 :(";
 "lng_settings_workmode_tray" = "显示托盘图标";
 "lng_settings_workmode_window" = "显示任务栏图标";
+
 "lng_settings_auto_start" = "开机自动启动 Telegram";
 "lng_settings_start_min" = "启动后隐藏到托盘";
 "lng_settings_add_sendto" = "在「发送到」菜单中显示 Telegram";
