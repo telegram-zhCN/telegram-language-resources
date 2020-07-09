@@ -2426,6 +2426,8 @@ Unused sets are archived when you add more.";
 "Calls.RatingFeedback" = "输入文字...";
 
 "Call.StatusIncoming" = "Telegram 语音...";
+
+
 "Call.StatusRequesting" = "连接中...";
 "Call.StatusWaiting" = "等待中...";
 "Call.StatusRinging" = "响铃中...";
@@ -5543,6 +5545,13 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "加入";
 
 "KeyCommand.SearchInChat" = "搜索对话";
+
+
+
+
+
+
+
 
 
 
