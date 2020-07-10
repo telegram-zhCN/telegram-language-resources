@@ -37,7 +37,7 @@
     <string name="DidNotGetTheCode">没有收到验证码？</string>
     <string name="DidNotGetTheCodeSms">通过短信发送验证码</string>
     <string name="CancelAccountReset">撤销帐号重置请求</string>
-    <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
+    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
     <string name="ResetAccount">重置帐号</string>
     <string name="ResetAccountInfo">因为帐号（**%1$s**）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。</string>
     <string name="ResetAccountStatus">您将能够在此时间后重置您的帐号:</string>
@@ -223,6 +223,9 @@
     <string name="ArchiveHintHeader3">置顶的对话</string>
     <string name="ArchiveHintText3">您可以任意置顶已归档的对话。</string>
     <string name="ScheduledOrNoSoundHint">按住这个按钮来定时或静音发送您的消息。</string>
+    <string name="HideNewChatsAlertTitle">Hide new chats?</string>
+    <string name="HideNewChatsAlertText">You are receiving many new chats from users who are not in your Contacts List. Do you want have such chats **automatically muted** and **archived**?</string>
+    <string name="GoToSettings">GO TO SETTINGS</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
@@ -467,6 +470,8 @@
     <string name="ManageGroupMenu">管理群组</string>
     <string name="ManageChannelMenu">管理频道</string>
     <string name="ChatHistory">新成员历史对话可见性</string>
+    <string name="ChatSetNewPhoto">Set New Photo</string>
+    <string name="ChatSetPhotoOrVideo">Set Photo or Video</string>
     <string name="ChatHistoryVisible">可见</string>
     <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
     <string name="ChatHistoryHidden">隐藏</string>
@@ -487,7 +492,10 @@
     <string name="TypeLocationGroup">链接</string>
     <string name="TypeLocationGroupEdit">点按即可添加永久链接</string>
     <string name="ChoosePhoto">选择图片</string>
+    <string name="ChoosePhotoOrVideo">Choose photo or video</string>
+    <string name="AddPhoto">Set new photo</string>
     <string name="ChooseTakePhoto">拍照</string>
+    <string name="ChooseRecordVideo">Record video</string>
     <string name="ChooseFromGallery">从相册中上传</string>
     <string name="SelectFromGallery">从相册中选择</string>
     <string name="ChooseFromSearch">通过网络搜索</string>
@@ -702,10 +710,13 @@
     <string name="NoAudioFilesInfo">您的音乐库是空的。</string>
     <string name="NoAudioFound">找不到结果</string>
     <string name="NoAudioFoundInfo">在您的音乐库中找不到 **%1$s**。</string>
+    <string name="NoAudioFoundPlayerInfo">There are no matches for **%1$s**.</string>
     <string name="AttachMusic">音乐</string>
     <string name="AudioUnknownArtist">未知艺术家</string>
     <string name="AudioUnknownTitle">未知标题</string>
-    <string name="Shuffle">随机</string>
+    <string name="RepeatSong">Repeat song</string>
+    <string name="RepeatList">Repeat list</string>
+    <string name="ShuffleList">Shuffle list</string>
     <string name="ReverseOrder">倒序</string>
     <!--documents view-->
     <string name="SelectFile">选择文件</string>
@@ -989,6 +1000,15 @@
     <string name="PsaHideChatAlertTitle">隐藏对话</string>
     <string name="PsaHideChatAlertText">您确定要隐藏此对话吗？</string>
     <string name="PsaHide">隐藏</string>
+    <string name="NearbyPeopleGreetingsDescription">Send a message or tap on the greeting below to show that you are ready to chat</string>
+    <string name="NearbyPeopleGreetingsMessage">%1$s is in %2$s</string>
+    <string name="ChatDistanceToPeer">%1$s is %2$s</string>
+    <string name="ChatWasMovedToMainList">The chat was moved to your main list.</string>
+    <string name="SecretChatTimerDays">d</string>
+    <string name="SecretChatTimerSeconds">s</string>
+    <string name="SecretChatTimerMinutes">m</string>
+    <string name="SecretChatTimerHours">h</string>
+    <string name="SecretChatTimerWeeks">w</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -1147,6 +1167,11 @@
     <string name="MembersCountZero">最多 %1$s</string>
     <string name="JoinToGroupErrorFull">抱歉，此群组已满员。</string>
     <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
+    <string name="JoinByPeekChannelText">This channel is private. Please join it to continue viewing its content.</string>
+    <string name="JoinByPeekGroupText">This group is private. Please join it to continue viewing its content.</string>
+    <string name="JoinByPeekChannelTitle">Join Channel</string>
+    <string name="JoinByPeekGroupTitle">Join Group</string>
+    <string name="JoinByPeekJoin">JOIN</string>
     <string name="LinkCopied">链接已复制到剪贴板</string>
     <string name="LinkCopiedPrivate">链接已复制到剪贴板。\n此链接仅适用于此对话的成员。</string>
     <string name="LinkNotFound">很遗憾，你无法访问这条消息。你不是消息来源对话的成员。</string>
@@ -1834,6 +1859,7 @@
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <string name="AuthAnotherClientUrl">此二维码可登录到您的 Telegram 帐号。\n\n要确认Telegram登录，请转到 **设置**&gt;**设备**&gt;**扫一扫**。</string>
     <string name="QRCodePermissionNoCamera">Telegram 需要访问您的相机，以便您可以扫描二维码。</string>
+    <string name="SetProfilePhoto">Set Profile Photo</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">清除本地数据库</string>
@@ -2226,6 +2252,10 @@
     <string name="KMetersAway2">%1$s 千米远</string>
     <string name="FootsAway">%1$s 英尺远</string>
     <string name="MilesAway">%1$s 英里远</string>
+    <string name="MetersFromYou2">%1$s m from&#160;you</string>
+    <string name="KMetersFromYou2">%1$s km from&#160;you</string>
+    <string name="FootsFromYou">%1$s ft from&#160;you</string>
+    <string name="MilesFromYou">%1$s mi from&#160;you</string>
     <string name="Directions">路线</string>
     <string name="NoPlacesFound">没有找到地点</string>
     <string name="NoPlacesFoundInfo">你的附近没有与”%1$s“匹配的结果。</string>
@@ -2343,7 +2373,11 @@
     <string name="AreYouSureDeleteVideo">确定删除此视频？</string>
     <string name="AreYouSureDeleteGIFTitle">删除 GIF</string>
     <string name="AreYouSureDeleteGIF">您确定要删除此 GIF 吗？</string>
+    <string name="AreYouSureDeletePhotoEveryone">Are you sure you want to delete this photo for everyone?</string>
+    <string name="AreYouSureDeleteVideoEveryone">Are you sure you want to delete this video for everyone?</string>
+    <string name="AreYouSureDeleteGIFEveryone">Are you sure you want to delete this GIF for everyone?</string>
     <string name="DiscardChanges">要放弃修改吗？</string>
+    <string name="PhotoEditorDiscardAlert">Are you sure you want to discard all changes?</string>
     <string name="ClearSearch">是否清除搜索历史？</string>
     <string name="ClearSearchAlert">您确定要清除搜索记录吗？</string>
     <string name="ClearSearchAlertTitle">清除搜索记录</string>
@@ -2359,6 +2393,10 @@
     <string name="Caption">说明</string>
     <string name="PaintDelete">删除</string>
     <string name="PaintEdit">编辑</string>
+    <string name="PaintPen">Pen</string>
+    <string name="PaintMarker">Marker</string>
+    <string name="PaintNeon">Neon</string>
+    <string name="PaintArrow">Arrow</string>
     <string name="PaintDuplicate">复制</string>
     <string name="PaintOutlined">描边</string>
     <string name="PaintRegular">常规</string>
@@ -2370,6 +2408,15 @@
     <string name="GroupPhotosHelp">将媒体聚合至一条消息</string>
     <string name="SendWithoutGrouping">不以图片组方式发送</string>
     <string name="SendWithoutCompression">无压缩发送</string>
+    <string name="ChooseCover">Choose a cover for your profile video</string>
+    <string name="SetAsMain">Set as main</string>
+    <string name="EditPhoto">Open in editor</string>
+    <string name="MainProfilePhotoSetHint">This is your main profile photo now.</string>
+    <string name="MainProfileVideoSetHint">This is your main profile video now.</string>
+    <string name="MainChannelProfilePhotoSetHint">This is the main channel photo now.</string>
+    <string name="MainChannelProfileVideoSetHint">This is the main channel video now.</string>
+    <string name="MainGroupProfilePhotoSetHint">This is the main group photo now.</string>
+    <string name="MainGroupProfileVideoSetHint">This is the main group video now.</string>
     <!--password view-->
     <string name="TwoStepVerification">两步验证</string>
     <string name="TwoStepVerificationTitle">两步验证</string>
@@ -2435,6 +2482,7 @@
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
+    <string name="RestoreEmailTroubleNoEmail">Having trouble accessing your email?</string>
     <string name="RestoreEmailTroubleText">如果无法访问您的电子邮箱，那么您将只能想起密码或重置账户。</string>
     <string name="ResetMyAccount">重置我的帐号</string>
     <string name="ResetMyAccountText">如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
@@ -2527,8 +2575,12 @@
     <string name="P2PNobodyPlus">不允许任何人 (+%1$d)</string>
     <string name="SecurityTitle">安全</string>
     <string name="DeleteAccountTitle">帐号保留期限</string>
-    <string name="PrivacyAdvanced">高级</string>
+    <string name="NewChatsFromNonContacts">New chats from unknown users</string>
+    <string name="ArchiveAndMute">Archive and Mute</string>
+    <string name="ArchiveAndMuteInfo">Automatically archive and mute new chats, groups and channels from non-contacts.</string>
+    <string name="DeleteMyAccount">Delete my account</string>
     <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
+    <string name="DeleteAccountIfAwayFor3">If away for</string>
     <string name="DeleteAccountHelp">您在这段时间内至少要上线一次，否则您的帐号将被删除，您也将失去所有消息记录和联系人。</string>
     <string name="LastSeenTitle">谁可以看见我的最后上线时间？</string>
     <string name="AddExceptions">添加例外</string>
@@ -2848,6 +2900,52 @@
     <string name="LocalDatabaseSize">%s Telegram 本地数据库</string>
     <string name="CacheWasCleared">已将 %s 缓存从你的设备中清除!</string>
     <string name="TotalDeviceSize">%s 其他数据</string>
+    <string name="GroupMembersChartTitle">Group members</string>
+    <string name="NewMembersBySourceChartTitle">New members by source</string>
+    <string name="MembersLanguageChartTitle">Members\'s primary language</string>
+    <string name="MessagesChartTitle">Messages</string>
+    <string name="ActionsChartTitle">Actions</string>
+    <string name="MembersOverviewTitle">Members</string>
+    <string name="MessagesOverview">Messages</string>
+    <string name="ViewingMembers">Viewing members</string>
+    <string name="PostingMembers">PostingMembers</string>
+    <string name="Characters_zero">%1$d symbols</string>
+    <string name="Characters_one">%1$d symbol</string>
+    <string name="Characters_two">%1$d symbols</string>
+    <string name="Characters_few">%1$d symbols</string>
+    <string name="Characters_many">%1$d symbols</string>
+    <string name="Characters_other">%1$d symbols</string>
+    <string name="Deletions_zero">%1$d deletions</string>
+    <string name="Deletions_one">%1$d deletion</string>
+    <string name="Deletions_two">%1$d deletions</string>
+    <string name="Deletions_few">%1$d deletions</string>
+    <string name="Deletions_many">%1$d deletions</string>
+    <string name="Deletions_other">%1$d deletions</string>
+    <string name="Bans_zero">%1$d bans</string>
+    <string name="Bans_one">%1$d ban</string>
+    <string name="Bans_two">%1$d bans</string>
+    <string name="Bans_few">%1$d bans</string>
+    <string name="Bans_many">%1$d bans</string>
+    <string name="Bans_other">%1$d bans</string>
+    <string name="Restrictions_zero">%1$d restrictions</string>
+    <string name="Restrictions_one">%1$d restriction</string>
+    <string name="Restrictions_two">%1$d restrictions</string>
+    <string name="Restrictions_few">%1$d restrictions</string>
+    <string name="Restrictions_many">%1$d restrictions</string>
+    <string name="Restrictions_other">%1$d restrictions</string>
+    <string name="Invitations_zero">%1$d invitations</string>
+    <string name="Invitations_one">%1$d invitation</string>
+    <string name="Invitations_two">%1$d invitations</string>
+    <string name="Invitations_few">%1$d invitations</string>
+    <string name="Invitations_many">%1$d invitations</string>
+    <string name="Invitations_other">%1$d invitations</string>
+    <string name="TopAdmins">Top admins</string>
+    <string name="TopMembers">Top members</string>
+    <string name="TopInviters">Top inviters</string>
+    <string name="CharactersPerMessage">%s per message</string>
+    <string name="TopDaysOfWeekChartTitle">Top days of week</string>
+    <string name="StatisticSearchUserHistory">View Messages</string>
+    <string name="StatisticOpenProfile">Open Profile</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">极速</string>
@@ -3392,6 +3490,7 @@
     <string name="AccDescrSecretChat">加密对话</string>
     <string name="AccDescrSentDate">于 %s 发送</string>
     <string name="AccDescrReceivedDate">于 %s 收到</string>
+    <string name="AccDescrScheduledDate">Scheduled for %s</string>
     <string name="AccDescrGoBack">返回</string>
     <string name="AccDescrOpenMenu">打开导航菜单</string>
     <string name="AccDescrMusicInfo">由 %1$s 创作的 %2$s</string>
@@ -3448,6 +3547,7 @@
     <string name="AccDescrCollapsePanel">收起面板</string>
     <string name="AccDescrUserOptions">用户选项</string>
     <string name="AccDescrRotate">旋转</string>
+    <string name="AccDescrMirror">Mirror</string>
     <string name="AccDescrPhotoEditor">图片编辑器</string>
     <string name="AccDescrPhotoAdjust">调整</string>
     <string name="AccDescrPhotoViewer">图片查看器</string>
@@ -3462,6 +3562,8 @@
     <string name="AccDescrTakeMorePics">再拍摄一张照片</string>
     <string name="AccDescrMsgRead">已查看</string>
     <string name="AccDescrMsgUnread">未查看</string>
+    <string name="AccDescrMsgSending">Sending</string>
+    <string name="AccDescrMsgSendingError">Sending error</string>
     <string name="AccDescrMsgNotPlayed">未播放</string>
     <string name="AccDescrSearchNext">下一个搜索结果</string>
     <string name="AccDescrSearchPrev">历史搜索结果</string>
@@ -3472,6 +3574,14 @@
     <string name="AccReleaseForArchive">松开查看归档对话</string>
     <string name="AccDescrVideoCompressLow">更小体积</string>
     <string name="AccDescrVideoCompressHigh">更高画质</string>
+    <string name="AccDescrPlayerDuration">%1$s of %2$s</string>
+    <string name="AccDescrDownloadProgress">Downloaded %1$s of %2$s</string>
+    <string name="AccDescrUploadProgress">Uploaded %1$s of %2$s</string>
+    <string name="AccDescrNumberOfViews_one">Viewed %1$d time</string>
+    <string name="AccDescrNumberOfViews_two">Viewed %1$d times</string>
+    <string name="AccDescrNumberOfViews_few">Viewed %1$d times</string>
+    <string name="AccDescrNumberOfViews_many">Viewed %1$d times</string>
+    <string name="AccDescrNumberOfViews_other">Viewed %1$d times</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
@@ -3510,6 +3620,7 @@
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s吗？</string>
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoplayGifs">自动播放 GIF</string>
+  <string name="CancelAccountResetInfo">一位有权访问您的电话号码 **%1$s** 的人请求删除您的Telegram 帐户并重置您的两步验证密码。\n\n如果这不是您本人的操作，请输入我们刚刚通过短信发送给您的验证码。</string>
   <string name="ChannelAddMembers">添加订阅者</string>
   <string name="ChannelAlertCreate">创建新频道</string>
   <string name="ChannelMessageContact">%1$s 发布了一条联系人信息</string>
@@ -3572,6 +3683,7 @@
   <string name="PinToTopLimitReached">抱歉，您只能在主列表中置顶 %1$s 个对话。 如果您想让您的对话更加的有组织，请尝试归档一些对话 —— 已归档对话文件夹中允许无限数量的置顶对话。</string>
   <string name="PollOptions">候选项</string>
   <string name="PreviewFeedback">报告此预览的错误</string>
+  <string name="PrivacyAdvanced">高级</string>
   <string name="PrivacyCallsP2PTitle">P2P传输</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
@@ -3595,6 +3707,7 @@
   <string name="SharedMusicTab">音乐</string>
   <string name="SharedVoiceTab">留言</string>
   <string name="ShowNearbyPlaces">向上拖动查看附近地点</string>
+  <string name="Shuffle">随机</string>
   <string name="StopLiveLocationAlertAll">您确定要停止所有实时位置更新吗？</string>
   <string name="StopLiveLocationAlertToGroup">您确定要停止更新与 %1$s 共享的实时位置吗？</string>
   <string name="StopLiveLocationAlertToUser">您确定要停止更新与 %1$s 共享的实时位置吗？</string>
@@ -3614,4 +3727,5 @@
   <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
+  <string name="AccDescrNumberOfViews_zero">Viewed %1$d times</string>
 </resources>
