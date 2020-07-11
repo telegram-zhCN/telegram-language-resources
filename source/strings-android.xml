@@ -1001,7 +1001,7 @@
     <string name="PsaHideChatAlertText">Are you sure you want to hide this chat?</string>
     <string name="PsaHide">Hide</string>
     <string name="NearbyPeopleGreetingsDescription">Send a message or tap on the greeting below to show that you are ready to chat</string>
-    <string name="NearbyPeopleGreetingsMessage">%1$s is in %2$s</string>
+    <string name="NearbyPeopleGreetingsMessage">%1$s is %2$s</string>
     <string name="ChatDistanceToPeer">%1$s is %2$s</string>
     <string name="ChatWasMovedToMainList">The chat was moved to your main list.</string>
     <string name="SecretChatTimerDays">d</string>
@@ -2902,13 +2902,13 @@
     <string name="TotalDeviceSize">%s Other Data</string>
     <string name="GroupMembersChartTitle">Group members</string>
     <string name="NewMembersBySourceChartTitle">New members by source</string>
-    <string name="MembersLanguageChartTitle">Members\'s primary language</string>
+    <string name="MembersLanguageChartTitle">Members\' primary language</string>
     <string name="MessagesChartTitle">Messages</string>
     <string name="ActionsChartTitle">Actions</string>
     <string name="MembersOverviewTitle">Members</string>
     <string name="MessagesOverview">Messages</string>
     <string name="ViewingMembers">Viewing members</string>
-    <string name="PostingMembers">PostingMembers</string>
+    <string name="PostingMembers">Posting Members</string>
     <string name="Characters_zero">%1$d symbols</string>
     <string name="Characters_one">%1$d symbol</string>
     <string name="Characters_two">%1$d symbols</string>
