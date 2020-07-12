@@ -342,6 +342,7 @@
     <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.</string>
     <string name="ActionCreateChannel">Channel created</string>
     <string name="ActionChannelChangedPhoto">Channel photo changed</string>
+    <string name="ActionChannelChangedVideo">Channel video changed</string>
     <string name="ActionChannelRemovedPhoto">Channel photo removed</string>
     <string name="ActionChannelChangedTitle">Channel name changed to un2</string>
     <string name="ChangePublicLimitReached">Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.</string>
@@ -380,6 +381,7 @@
     <string name="ChannelCantSendMessage">Sorry, you can\'t send messages to this channel.</string>
     <string name="ChannelAddedByNotification">%1$s added you to the channel %2$s</string>
     <string name="ChannelPhotoEditNotification">Channel %1$s updated its photo</string>
+    <string name="ChannelVideoEditNotification">Channel %1$s updated its video</string>
     <string name="ChannelMessageNoText">%1$s posted a message</string>
     <string name="ChannelMessagePhoto">%1$s posted a photo</string>
     <string name="ChannelMessageVideo">%1$s posted a video</string>
@@ -627,6 +629,8 @@
     <string name="EventLogChannelJoined">un1 joined the channel</string>
     <string name="EventLogEditedGroupPhoto">un1 set a new group photo</string>
     <string name="EventLogEditedChannelPhoto">un1 set a new channel photo</string>
+    <string name="EventLogEditedGroupVideo">un1 set a new group video</string>
+    <string name="EventLogEditedChannelVideo">un1 set a new channel video</string>
     <string name="EventLogRemovedWGroupPhoto">un1 removed the group photo</string>
     <string name="EventLogRemovedChannelPhoto">un1 removed the channel photo</string>
     <string name="EventLogEditedMessages">un1 edited this message:</string>
@@ -1063,6 +1067,7 @@
     <string name="NotificationInvitedToGroup">%1$s invited you to the group %2$s</string>
     <string name="NotificationEditedGroupName">%1$s renamed the group %2$s</string>
     <string name="NotificationEditedGroupPhoto">%1$s changed the group photo for %2$s</string>
+    <string name="NotificationEditedGroupVideo">%1$s changed the group video for %2$s</string>
     <string name="NotificationGroupAddMember">%1$s invited %3$s to the group %2$s</string>
     <string name="NotificationGroupAddSelf">%1$s returned to the group %2$s</string>
     <string name="NotificationGroupAddSelfMega">%1$s joined the group %2$s</string>
@@ -2679,6 +2684,7 @@
     <string name="ActionAddUser">un1 added un2</string>
     <string name="ActionRemovedPhoto">un1 removed the group photo</string>
     <string name="ActionChangedPhoto">un1 changed the group photo</string>
+    <string name="ActionChangedVideo">un1 changed the group video</string>
     <string name="ActionChangedTitle">un1 changed the group name to un2</string>
     <string name="ActionCreateGroup">un1 created the group</string>
     <string name="ActionYouKickUser">You removed un2</string>
@@ -2690,6 +2696,7 @@
     <string name="ActionUserScoredInGame">un1 scored %1$s in un2</string>
     <string name="ActionYouRemovedPhoto">You removed the group photo</string>
     <string name="ActionYouChangedPhoto">You changed the group photo</string>
+    <string name="ActionYouChangedVideo">You changed the group video</string>
     <string name="ActionYouChangedTitle">You changed the group name to un2</string>
     <string name="ActionYouCreateGroup">You created the group</string>
     <string name="ActionKickUserYou">un1 removed you</string>

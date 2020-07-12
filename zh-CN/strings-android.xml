@@ -342,6 +342,7 @@
     <string name="ChannelPublicEmptyUsername">请为您的公开频道设置一个链接，以便他人能通过搜索找到此频道并分享给他人。\n\n如果您对此不感兴趣，我们建议您创建一个私人频道。</string>
     <string name="ActionCreateChannel">频道已创建</string>
     <string name="ActionChannelChangedPhoto">频道图片已更换</string>
+    <string name="ActionChannelChangedVideo">Channel video changed</string>
     <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
     <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
     <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
@@ -380,6 +381,7 @@
     <string name="ChannelCantSendMessage">抱歉，您不能在此频道中发布内容。</string>
     <string name="ChannelAddedByNotification">%1$s 将您添加到了 %2$s 频道</string>
     <string name="ChannelPhotoEditNotification">%1$s 更新了频道头像</string>
+    <string name="ChannelVideoEditNotification">Channel %1$s updated its video</string>
     <string name="ChannelMessageNoText">%1$s 发布了一条消息</string>
     <string name="ChannelMessagePhoto">%1$s 发布了一张图片</string>
     <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
@@ -627,6 +629,8 @@
     <string name="EventLogChannelJoined">un1 加入了频道</string>
     <string name="EventLogEditedGroupPhoto">un1 设置了新的群组标识</string>
     <string name="EventLogEditedChannelPhoto">un1 设置了新的频道标识</string>
+    <string name="EventLogEditedGroupVideo">un1 set a new group video</string>
+    <string name="EventLogEditedChannelVideo">un1 set a new channel video</string>
     <string name="EventLogRemovedWGroupPhoto">un1 删除了群组头像</string>
     <string name="EventLogRemovedChannelPhoto">un1 删除了频道头像</string>
     <string name="EventLogEditedMessages">un1 编辑了这条消息:</string>
@@ -1063,6 +1067,7 @@
     <string name="NotificationInvitedToGroup">"%1$s 邀请您加入群组 %2$s "</string>
     <string name="NotificationEditedGroupName">%1$s 重命名了群组 %2$s</string>
     <string name="NotificationEditedGroupPhoto">%1$s 更改了群组 %2$s 的头像</string>
+    <string name="NotificationEditedGroupVideo">%1$s changed the group video for %2$s</string>
     <string name="NotificationGroupAddMember">"%1$s 邀请了 %3$s 加入群组 %2$s "</string>
     <string name="NotificationGroupAddSelf">%1$s 回到了群组 %2$s</string>
     <string name="NotificationGroupAddSelfMega">%1$s 加入了群组 %2$s</string>
@@ -2679,6 +2684,7 @@
     <string name="ActionAddUser">un1 添加了 un2</string>
     <string name="ActionRemovedPhoto">un1 删除了群组标识</string>
     <string name="ActionChangedPhoto">un1 更换了群组头像</string>
+    <string name="ActionChangedVideo">un1 changed the group video</string>
     <string name="ActionChangedTitle">un1 将群组名称更改为 un2</string>
     <string name="ActionCreateGroup">un1 创建了此群组</string>
     <string name="ActionYouKickUser">您已将 un2 移除</string>
@@ -2690,6 +2696,7 @@
     <string name="ActionUserScoredInGame">un1 在 un2 中获得 %1$s 分</string>
     <string name="ActionYouRemovedPhoto">您删除了群组头像</string>
     <string name="ActionYouChangedPhoto">您更换了群组头像</string>
+    <string name="ActionYouChangedVideo">You changed the group video</string>
     <string name="ActionYouChangedTitle">您将群组名称更改为 un2</string>
     <string name="ActionYouCreateGroup">您创建了此群组</string>
     <string name="ActionKickUserYou">un1 已将您移除</string>
