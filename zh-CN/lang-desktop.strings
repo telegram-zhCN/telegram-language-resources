@@ -15,7 +15,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_update" = "更新";
 "lng_menu_back" = "返回";
 "lng_menu_night_mode" = "夜间模式";
-"lng_menu_add_account" = "添加帐号";
+"lng_menu_add_account" = "添加账户";
 
 
 "lng_disable_notifications_from_tray" = "关闭通知";
