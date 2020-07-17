@@ -2363,6 +2363,7 @@
     <string name="Grain">噪点</string>
     <string name="Sharpen">锐化</string>
     <string name="Fade">褪色</string>
+    <string name="SoftenSkin">Soften Skin</string>
     <string name="TintShadows">阴影</string>
     <string name="TintHighlights">高光</string>
     <string name="CurvesAll">全部</string>
@@ -2913,7 +2914,7 @@
     <string name="MessagesChartTitle">Messages</string>
     <string name="ActionsChartTitle">Actions</string>
     <string name="MembersOverviewTitle">Members</string>
-    <string name="MessagesOverview">Messages</string>
+    <string name="MessagesOverview">消息</string>
     <string name="ViewingMembers">Viewing members</string>
     <string name="PostingMembers">Posting Members</string>
     <string name="Characters_zero">%1$d symbols</string>

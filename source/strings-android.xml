@@ -2363,6 +2363,7 @@
     <string name="Grain">Grain</string>
     <string name="Sharpen">Sharpen</string>
     <string name="Fade">Fade</string>
+    <string name="SoftenSkin">Soften Skin</string>
     <string name="TintShadows">SHADOWS</string>
     <string name="TintHighlights">HIGHLIGHTS</string>
     <string name="CurvesAll">ALL</string>
