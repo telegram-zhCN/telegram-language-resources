@@ -3570,8 +3570,8 @@
     <string name="AccDescrTakeMorePics">再拍摄一张照片</string>
     <string name="AccDescrMsgRead">已查看</string>
     <string name="AccDescrMsgUnread">未查看</string>
-    <string name="AccDescrMsgSending">Sending</string>
-    <string name="AccDescrMsgSendingError">Sending error</string>
+    <string name="AccDescrMsgSending">正在发送</string>
+    <string name="AccDescrMsgSendingError">发送错误</string>
     <string name="AccDescrMsgNotPlayed">未播放</string>
     <string name="AccDescrSearchNext">下一个搜索结果</string>
     <string name="AccDescrSearchPrev">历史搜索结果</string>
