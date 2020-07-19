@@ -329,6 +329,7 @@
     <string name="ChannelBots">Bots</string>
     <string name="ChannelOtherMembers">Other members</string>
     <string name="ChannelOtherSubscribers">Other subscribers</string>
+    <string name="ChannelOtherSubscriberJoined">joined %1$s</string>
     <string name="ChannelRestrictedUsers">Restricted users</string>
     <string name="ChannelAdministrators">Administrators</string>
     <string name="ChannelDelete">Delete Channel</string>

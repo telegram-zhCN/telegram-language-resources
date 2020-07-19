@@ -329,6 +329,7 @@
     <string name="ChannelBots">机器人</string>
     <string name="ChannelOtherMembers">其他成员</string>
     <string name="ChannelOtherSubscribers">其他订阅者</string>
+    <string name="ChannelOtherSubscriberJoined">joined %1$s</string>
     <string name="ChannelRestrictedUsers">受限的用户</string>
     <string name="ChannelAdministrators">管理员</string>
     <string name="ChannelDelete">删除频道</string>
