@@ -1606,7 +1606,7 @@
     <string name="Language">语言</string>
     <string name="LanguageCustom">自定义</string>
     <string name="LanguageTitle">更换语言？</string>
-    <string name="LanguageAlert">您即将使用一个完成度为（%2$d%%）的自定义语言包（%1$s）。\n\n此操作将会应用到整个界面。您可以通过建议进行更正 [翻译平台]()。\n\n您可以随时在“设置”中更改语言。</string>
+    <string name="LanguageAlert">您将要使用一个完成度为 %2$d%% 的自定义语言包（**%1$s**）。\n\n此操作将会翻译整个界面。您可以通过 [翻译平台] 提供译文修正建议。\n\n您可以随时在“设置”中更改语言。</string>
     <string name="LanguageCustomAlert">您即将使用一个完成度为（%2$d%%）的自定义语言包（%1$s）。\n\n此操作将会应用到整个界面。您可以通过建议进行更正 [翻译平台]()。\n\n您可以随时在“设置”中更改语言。</string>
     <string name="LanguageUnknownTitle">数据不足</string>
     <string name="LanguageUnofficial">非官方语言</string>
@@ -2364,7 +2364,7 @@
     <string name="Grain">噪点</string>
     <string name="Sharpen">锐化</string>
     <string name="Fade">褪色</string>
-    <string name="SoftenSkin">Soften Skin</string>
+    <string name="SoftenSkin">磨皮</string>
     <string name="TintShadows">阴影</string>
     <string name="TintHighlights">高光</string>
     <string name="CurvesAll">全部</string>
