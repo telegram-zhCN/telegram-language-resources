@@ -1005,7 +1005,7 @@
     <string name="PsaHideChatAlertTitle">Hide chat</string>
     <string name="PsaHideChatAlertText">Are you sure you want to hide this chat?</string>
     <string name="PsaHide">Hide</string>
-    <string name="NearbyPeopleGreetingsDescription">Send a message or tap on the greeting below to show that you are ready to chat</string>
+    <string name="NearbyPeopleGreetingsDescription">Send a message or tap on the greeting below to show that you are ready to chat.</string>
     <string name="NearbyPeopleGreetingsMessage">%1$s is %2$s</string>
     <string name="ChatDistanceToPeer">%1$s is %2$s</string>
     <string name="ChatWasMovedToMainList">The chat was moved to your main list.</string>

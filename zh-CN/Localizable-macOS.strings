@@ -80,6 +80,8 @@
 "PeerInfo.SharedMedia" = "分享的媒体";
 "PeerInfo.Notifications" = "通知";
 "PeerInfo.BlockUser" = "屏蔽此用户";
+
+
 "PeerInfo.UnblockUser" = "取消屏蔽";
 "PeerInfo.username" = "用户名";
 "PeerInfo.about" = "关于";
@@ -242,8 +244,6 @@
 "Chat.Service.Group.AddedSelf" = "%@ 加入了群组";
 "Chat.Service.Group.RemovedMembers" = "%@ 移除了 %@";
 "Chat.Service.Group.RemovedSelf" = "%@ 离开了群组";
-"Chat.Service.Group.UpdatedPhoto" = "%@ 更换了群组图片";
-"Chat.Service.Group.RemovedPhoto" = "%@ 删除了群组头像";
 "Chat.Service.Group.UpdatedTitle" = "%@ 将群组名称更改为 \"%@\"";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ 置顶了 \"%@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ 通过邀请链接加入了群组";
@@ -253,9 +253,15 @@
 "Chat.Service.PeerJoinedTelegram" = "%@ 加入了 Telegram";
 
 
-
+"Chat.Service.Group.UpdatedPhoto" = "%@ 更换了群组图片";
+"Chat.Service.Group.RemovedPhoto" = "%@ 删除了群组头像";
 "Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";
 "Chat.Service.Channel.RemovedPhoto" = "频道头像已删除";
+
+
+
+
+
 "Chat.Service.Channel.UpdatedTitle" = "频道名称已修改为 \"%@\"";
 
 
@@ -285,6 +291,9 @@
 "Message.Context.Edit" = "编辑";
 "Message.Context.Goto" = "显示消息";
 "Message.Context.Pin" = "置顶";
+
+
+
 
 "Message.Context.Report.AlertOK" = "非常感谢！\n我们会尽快核查您的举报。";
 
@@ -504,6 +513,24 @@
 "Chat.List.Map" = "位置";
 "Chat.List.Contact" = "联系人信息";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "UsernameSettings.ChangeDescription" = "你可以选择一个用户名，这样其他人就可以通过用户名（而不是手机号码）找到你。\n\n\n你可以使用 a-z，0-9 和下划线（_），至少 5 个字符。";
 "UsernameSettings.InputPlaceholder" = "输入您的用户名";
 "Telegram.UsernameSettingsViewController" = "用户名";
@@ -684,7 +711,7 @@
 
 
 "Peer.Media.SharedMediaEmptyList" = "快在这个会话里分享一些图片或者视频吧\n不然这个回形针会继续不嗨森";
-"Peer.Media.SharedFilesEmptyList" = "您可以发送和接收任何类型的文件，单文件大小最高 1.5 GB，并随时在任何地方访问它们。";
+
 "Peer.Media.SharedLinksEmptyList" = "所有已共享的链接都会在这里显示。";
 "Peer.Media.SharedMusicEmptyList" = "此对话中共享的所有音乐都会在这里显示。";
 "Peer.Media.SharedVoiceEmptyList" = "此对话中共享的所有语音和视频留言均会在这里列出。";
@@ -1136,10 +1163,16 @@
 
 "Telegram.StorageUsageController" = "存储用量";
 "StorageUsage.KeepMedia" = "保留媒体文件";
+
+
+
+
+
+
 "StorageUsage.KeepMedia.Description" = "为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。";
 "StorageUsage.ChatsHeader" = "对话";
 "StorageUsage.Calculating" = "Telegram is calculating the current cache size.\nThis can take a few minutes.";
-"App.MaxFileSize" = "文件大小上限为 1.5 GB";
+
 "Message.Context.SaveGif" = "添加 GIF";
 "Message.Context.RemoveGif" = "移除 GIF";
 "Context.RecentGifRemove" = "移除";
@@ -2439,6 +2472,10 @@
 "PrivacyAndSecurity.SensitiveHeader" = "敏感内容";
 "PrivacyAndSecurity.SensitiveText" = "关闭过滤";
 "PrivacyAndSecurity.SensitiveDesc" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
+
+
+
+
 
 "PrivacyAndSecurity.SecretChatWebPreview.Header" = "加密对话";
 "PrivacyAndSecurity.SecretChatWebPreview.Text" = "链接预览";
@@ -4021,7 +4058,125 @@
 "PrivateChannel.Peek.OK" = "加入频道";
 "PrivateChannel.Peek.Cancel" = "取消";
 
-//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 //"Wallet.Splash.Intro.Header" = "Gram Wallet";
 //"Wallet.Splash.Intro.Title" = "Gram Wallet";
@@ -4238,9 +4393,13 @@
 //
 
 
+
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "创建者";
+"App.MaxFileSize" = "文件大小上限为 1.5 GB";
 "AppearanceSettings.ColorTheme.dark" = "标准暗色调";
 "AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
@@ -4265,6 +4424,7 @@
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "Notification.ScheduledTitle" = "📆 您";
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";
+"Peer.Media.SharedFilesEmptyList" = "您可以发送和接收任何类型的文件，单文件大小最高 1.5 GB，并随时在任何地方访问它们。";
 "PeerInfo.Admins" = "管理员";
 "PeerInfo.SetAdmins" = "设置管理员";
 "PeerInfo.Statistics" = "统计数据";

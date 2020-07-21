@@ -80,6 +80,8 @@
 "PeerInfo.SharedMedia" = "Shared Media";
 "PeerInfo.Notifications" = "Notifications";
 "PeerInfo.BlockUser" = "Block User";
+"PeerInfo.Unarchive" = "Unarchive";
+
 "PeerInfo.UnblockUser" = "Unblock User";
 "PeerInfo.username" = "username";
 "PeerInfo.about" = "about";
@@ -242,8 +244,6 @@
 "Chat.Service.Group.AddedSelf" = "%@ joined the group";
 "Chat.Service.Group.RemovedMembers" = "%@ removed %@";
 "Chat.Service.Group.RemovedSelf" = "%@ left the group";
-"Chat.Service.Group.UpdatedPhoto" = "%@ updated group photo";
-"Chat.Service.Group.RemovedPhoto" = "%@ removed group photo";
 "Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ joined the group via invite link";
@@ -253,9 +253,15 @@
 "Chat.Service.PeerJoinedTelegram" = "%@ joined Telegram";
 
 
-
+"Chat.Service.Group.UpdatedPhoto" = "%@ updated group photo";
+"Chat.Service.Group.RemovedPhoto" = "%@ removed group photo";
 "Chat.Service.Channel.UpdatedPhoto" = "channel photo updated";
 "Chat.Service.Channel.RemovedPhoto" = "channel photo removed";
+
+"Chat.Service.Group.UpdatedVideo" = "%@ updated group video";
+"Chat.Service.Channel.UpdatedVideo" = "channel video updated";
+
+
 "Chat.Service.Channel.UpdatedTitle" = "channel renamed to \"%@\"";
 
 
@@ -285,6 +291,9 @@
 "Message.Context.Edit" = "Edit";
 "Message.Context.Goto" = "Show Message";
 "Message.Context.Pin" = "Pin";
+"Message.Context.Unpin" = "Unpin";
+"Message.Context.Share" = "Share";
+
 
 "Message.Context.Report.AlertOK" = "Thank you! Your report will be reviewed by our team very soon.";
 
@@ -504,6 +513,24 @@
 "Chat.List.Map" = "Location";
 "Chat.List.Contact" = "Contact";
 
+
+"Chat.List.Video_countable" = "%d";
+
+
+
+
+
+
+
+
+"Chat.List.Photo_countable" = "%d";
+
+
+
+
+
+
+
 "UsernameSettings.ChangeDescription" = "People will be able to find you by this username and contact you without needing your phone number.\n\nYou can use a–z, 0–9 and underscores.\nMinimum length is 5 characters.";
 "UsernameSettings.InputPlaceholder" = "Enter your username";
 "Telegram.UsernameSettingsViewController" = "Username";
@@ -684,7 +711,7 @@
 
 
 "Peer.Media.SharedMediaEmptyList" = "Share photos and videos in this chat - or this paperclip stays unhappy.";
-"Peer.Media.SharedFilesEmptyList" = "You can send and receive files of any type up to 1.5 GB each and access them anywhere.";
+"Peer.Media.SharedFilesEmptyList1" = "You can send and receive files of any type up to 2.0 GB each and access them anywhere.";
 "Peer.Media.SharedLinksEmptyList" = "All links shared in this chat will appear here.";
 "Peer.Media.SharedMusicEmptyList" = "All music shared in this chat will appear here.";
 "Peer.Media.SharedVoiceEmptyList" = "All voice and video messages shared in this chat will appear here.";
@@ -1136,10 +1163,16 @@
 
 "Telegram.StorageUsageController" = "Storage Usage";
 "StorageUsage.KeepMedia" = "Keep Media";
+
+"StorageUsage.Limit.Desc" = "If your cache size exceeds this limit, the oldest media will be deleted.";
+
+"StorageUsage.Limit.NoLimit" = "No Limit";
+
+
 "StorageUsage.KeepMedia.Description" = "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.";
 "StorageUsage.ChatsHeader" = "CHATS";
 "StorageUsage.Calculating" = "Telegram is calculating the current cache size.\nThis can take a few minutes.";
-"App.MaxFileSize" = "Maximum file size is 1.5 GB";
+"App.MaxFileSize1" = "Maximum file size is 2.0 GB";
 "Message.Context.SaveGif" = "Add GIF";
 "Message.Context.RemoveGif" = "Remove GIF";
 "Context.RecentGifRemove" = "Remove";
@@ -2440,6 +2473,10 @@
 "PrivacyAndSecurity.SensitiveText" = "Disable filtering";
 "PrivacyAndSecurity.SensitiveDesc" = "Display sensitive media in public channels on all your Telegram devices.";
 
+"PrivacyAndSecurity.AutoArchiveHeader" = "NEW CHATS FROM UNKNOWN USERS";
+"PrivacyAndSecurity.AutoArchiveText" = "Archive and Mute";
+"PrivacyAndSecurity.AutoArchiveDesc" = "Automatically archive and mute new chats, groups and channels from non-contacts.";
+
 "PrivacyAndSecurity.SecretChatWebPreview.Header" = "SECRET CHAT";
 "PrivacyAndSecurity.SecretChatWebPreview.Text" = "Link Previews";
 "PrivacyAndSecurity.SecretChatWebPreview.Desc" = "Link previews will be generated on Telegram servers. We do not store data about the links you send.";
@@ -2687,7 +2724,7 @@
 
 
 "Gallery.Context.ShowGallery" = "Shared Media";
-
+"Gallery.Context.MainPhoto" = "Set As Main Photo";
 
 "TouchBar.Favorite" = "Favorite";
 "TouchBar.Recent" = "Recent";
@@ -4022,6 +4059,124 @@
 "PrivateChannel.Peek.Cancel" = "Cancel";
 
 
+"MediaSender.DiscardChanges.Header" = "Discard Changes";
+"MediaSender.DiscardChanges.Text" = "Are you sure you want to discard all changes?";
+"MediaSender.DiscardChanges.OK" = "Discard";
+
+
+"GroupStats.Title" = "Group Statistics";
+
+
+"Stats.GroupOverview" = "OVERVIEW";
+"Stats.GroupMembers" = "Members";
+"Stats.GroupMessages" = "Messages";
+"Stats.GroupViewers" = "Viewing Members";
+"Stats.GroupPosters" = "Posting Members";
+
+"Stats.GroupGrowthTitle" = "GROWTH";
+"Stats.GroupMembersTitle" = "GROUP MEMBERS";
+"Stats.GroupNewMembersBySourceTitle" = "NEW MEMBERS BY SOURCE";
+"Stats.GroupLanguagesTitle" = "MEMBERS' PRIMARY LANGUAGE";
+"Stats.GroupMessagesTitle" = "MESSAGES";
+"Stats.GroupActionsTitle" = "ACTIONS";
+"Stats.GroupTopHoursTitle" = "TOP HOURS";
+"Stats.GroupTopWeekdaysTitle" = "TOP DAYS OF WEEK";
+"Stats.GroupTopPostersTitle" = "TOP MEMBERS";
+"Stats.GroupTopAdminsTitle" = "TOP ADMINS";
+"Stats.GroupTopInvitersTitle" = "TOP INVITERS";
+
+
+
+"Stats.GroupTopPosterMessages_countable" = "%d";
+"Stats.GroupTopPosterMessages_zero" = "%d messages";
+"Stats.GroupTopPosterMessages_one" = "%d message";
+"Stats.GroupTopPosterMessages_two" = "%d messages";
+"Stats.GroupTopPosterMessages_few" = "%d messages";
+"Stats.GroupTopPosterMessages_many" = "%d messages";
+"Stats.GroupTopPosterMessages_other" = "%d messages";
+
+"Stats.GroupTopPosterChars_countable" = "%d";
+"Stats.GroupTopPosterChars_zero" = "%d symbols per message";
+"Stats.GroupTopPosterChars_one" = "%d symbol per message";
+"Stats.GroupTopPosterChars_two" = "%d symbols per message";
+"Stats.GroupTopPosterChars_few" = "%d symbols per message";
+"Stats.GroupTopPosterChars_many" = "%d symbols per message";
+"Stats.GroupTopPosterChars_other" = "%d symbols per message";
+
+"Stats.GroupTopPoster.History" = "History";
+"Stats.GroupTopPoster.Promote" = "Promote";
+
+
+"Stats.GroupTopAdminDeletions_countable" = "%d";
+"Stats.GroupTopAdminDeletions_zero" = "%d deletions";
+"Stats.GroupTopAdminDeletions_one" = "%d deletion";
+"Stats.GroupTopAdminDeletions_two" = "%d deletions";
+"Stats.GroupTopAdminDeletions_few" = "%d deletions";
+"Stats.GroupTopAdminDeletions_many" = "%d deletions";
+"Stats.GroupTopAdminDeletions_other" = "%d deletions";
+
+
+"Stats.GroupTopAdminKicks_countable" = "%d";
+"Stats.GroupTopAdminKicks_zero" = "%d kicks";
+"Stats.GroupTopAdminKicks_one" = "%d kick";
+"Stats.GroupTopAdminKicks_two" = "%d kicks";
+"Stats.GroupTopAdminKicks_few" = "%d kicks";
+"Stats.GroupTopAdminKicks_many" = "%d kicks";
+"Stats.GroupTopAdminKicks_other" = "%d kicks";
+
+"Stats.GroupTopAdminBans_countable" = "%d";
+"Stats.GroupTopAdminBans_zero" = "%d bans";
+"Stats.GroupTopAdminBans_one" = "%d ban";
+"Stats.GroupTopAdminBans_two" = "%d bans";
+"Stats.GroupTopAdminBans_few" = "%d bans";
+"Stats.GroupTopAdminBans_many" = "%d bans";
+"Stats.GroupTopAdminBans_other" = "%d bans";
+
+"Stats.GroupTopAdmin.Actions" = "Actions";
+"Stats.GroupTopAdmin.Promote" = "Promote";
+
+"Stats.GroupTopInviterInvites_countable" = "%d";
+"Stats.GroupTopInviterInvites_zero" = "%d invitations";
+"Stats.GroupTopInviterInvites_one" = "%d invitation";
+"Stats.GroupTopInviterInvites_two" = "%d invitations";
+"Stats.GroupTopInviterInvites_few" = "%d invitations";
+"Stats.GroupTopInviterInvites_many" = "%d invitations";
+"Stats.GroupTopInviterInvites_other" = "%d invitations";
+
+"Stats.GroupTopInviter.History" = "History";
+"Stats.GroupTopInviter.Promote" = "Promote";
+
+"Stats.ShowMore_countable" = "%d";
+"Stats.ShowMore_zero" = "Show %d More";
+"Stats.ShowMore_one" = "Show %d More";
+"Stats.ShowMore_two" = "Show %d More";
+"Stats.ShowMore_few" = "Show %d More";
+"Stats.ShowMore_many" = "Show %d More";
+"Stats.ShowMore_other" = "Show %d More";
+
+
+"NotificationSettings.SendMessageEffect" = "Sent Message";
+"NotificationSettings.SoundEffects" = "SOUND EFFECTS";
+
+"Alert.HideNewChats.Header" = "Hide new chats?";
+"Alert.HideNewChats.Text" = "You are receiving lots of new chats from users who are not in your Contact List. Do you want to have such chats automatically muted and archived?";
+"Alert.HideNewChats.Cancel" = "Cancel";
+"Alert.HideNewChats.OK" = "Go to Settings";
+
+
+"System.MemoryWarning.Header" = "Warning!";
+"System.MemoryWarning.Text" = "Your Mac is running low on disk space. Please free up some space by removing unnecessary files or changing your cache settings.\n\nFree space available: ~%@";
+"System.MemoryWarning.FreeSpace" = "%d GB";
+"System.MemoryWarning.LessThen1GB" = "Less than 1GB";
+
+"System.MemoryWarning.OK" = "OK";
+"System.MemoryWarning.DataAndStorage" = "App Data Storage";
+
+
+"VideoAvatar.ChooseDesc.Profile" = "Choose a cover for your profile video";
+"VideoAvatar.ChooseDesc.Group" = "Choose a cover for group video";
+"VideoAvatar.ChooseDesc.Channel" = "Choose a cover for channel video";
+
 
 /* "Wallet.Splash.Intro.Header" = "Gram Wallet"; */
 /* "Wallet.Splash.Intro.Title" = "Gram Wallet"; */
@@ -4238,9 +4393,13 @@
 
 
 
+
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "Creator";
+"App.MaxFileSize" = "Maximum file size is 1.5 GB";
 "AppearanceSettings.ColorTheme.dark" = "Dark";
 "AppearanceSettings.ColorTheme.day_classic" = "Day Classic";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
@@ -4270,6 +4429,7 @@
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
 "Notification.ScheduledTitle" = "📆 You";
 "NotificationSettings.IncludePublicGroups" = "Include Public Groups";
+"Peer.Media.SharedFilesEmptyList" = "You can send and receive files of any type up to 1.5 GB each and access them anywhere.";
 "PeerInfo.Admins" = "Admins";
 "PeerInfo.SetAdmins" = "Set Admins";
 "PeerInfo.Statistics" = "Statistics";
