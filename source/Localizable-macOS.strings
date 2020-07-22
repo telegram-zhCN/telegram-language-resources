@@ -711,7 +711,7 @@
 
 
 "Peer.Media.SharedMediaEmptyList" = "Share photos and videos in this chat - or this paperclip stays unhappy.";
-"Peer.Media.SharedFilesEmptyList1" = "You can send and receive files of any type up to 2.0 GB each and access them anywhere.";
+"Peer.Media.SharedFilesEmptyList1" = "You can send and receive files of any type up to 2 GB each and access them anywhere.";
 "Peer.Media.SharedLinksEmptyList" = "All links shared in this chat will appear here.";
 "Peer.Media.SharedMusicEmptyList" = "All music shared in this chat will appear here.";
 "Peer.Media.SharedVoiceEmptyList" = "All voice and video messages shared in this chat will appear here.";
@@ -1172,7 +1172,7 @@
 "StorageUsage.KeepMedia.Description" = "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.";
 "StorageUsage.ChatsHeader" = "CHATS";
 "StorageUsage.Calculating" = "Telegram is calculating the current cache size.\nThis can take a few minutes.";
-"App.MaxFileSize1" = "Maximum file size is 2.0 GB";
+"App.MaxFileSize1" = "Maximum file size is 2 GB";
 "Message.Context.SaveGif" = "Add GIF";
 "Message.Context.RemoveGif" = "Remove GIF";
 "Context.RecentGifRemove" = "Remove";
