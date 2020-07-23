@@ -3591,6 +3591,28 @@
     <string name="AccDescrNumberOfViews_few">Viewed %1$d times</string>
     <string name="AccDescrNumberOfViews_many">Viewed %1$d times</string>
     <string name="AccDescrNumberOfViews_other">Viewed %1$d times</string>
+    <string name="AccDescrSendPhotos_one">Send %1$d photo</string>
+    <string name="AccDescrSendPhotos_two">Send %1$d photos</string>
+    <string name="AccDescrSendPhotos_few">Send %1$d photos</string>
+    <string name="AccDescrSendPhotos_many">Send %1$d photos</string>
+    <string name="AccDescrSendPhotos_other">Send %1$d photos</string>
+    <string name="AccDescrSendFiles_one">Send %1$d file</string>
+    <string name="AccDescrSendFiles_two">Send %1$d files</string>
+    <string name="AccDescrSendFiles_few">Send %1$d files</string>
+    <string name="AccDescrSendFiles_many">Send %1$d files</string>
+    <string name="AccDescrSendFiles_other">Send %1$d files</string>
+    <string name="AccDescrSendAudio_one">Send %1$d audio file</string>
+    <string name="AccDescrSendAudio_two">Send %1$d audio files</string>
+    <string name="AccDescrSendAudio_few">Send %1$d audio files</string>
+    <string name="AccDescrSendAudio_many">Send %1$d audio files</string>
+    <string name="AccDescrSendAudio_other">Send %1$d audio files</string>
+    <string name="AccDescrShareInChats_one">Share in %1$d chat</string>
+    <string name="AccDescrShareInChats_two">Share in %1$d chats</string>
+    <string name="AccDescrShareInChats_few">Share in %1$d chats</string>
+    <string name="AccDescrShareInChats_many">Share in %1$d chats</string>
+    <string name="AccDescrShareInChats_other">Share in %1$d chats</string>
+    <string name="AccDescrQuizCorrectAnswer">Correct answer</string>
+    <string name="AccDescrPipMode">Picture-in-Picture mode</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
@@ -3737,4 +3759,8 @@
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
   <string name="AccDescrNumberOfViews_zero">Viewed %1$d times</string>
+  <string name="AccDescrSendAudio_zero">Send %1$d audio files</string>
+  <string name="AccDescrSendFiles_zero">Send %1$d files</string>
+  <string name="AccDescrSendPhotos_zero">Send %1$d photos</string>
+  <string name="AccDescrShareInChats_zero">Share in %1$d chats</string>
 </resources>
