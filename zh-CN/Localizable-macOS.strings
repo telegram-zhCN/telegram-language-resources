@@ -2692,7 +2692,7 @@
 "AutoNight.Settings.UpdateLocation.Error" = "无法确定您的位置。请检查系统设置，然后重试。";
 
 "DarkMode.Confirm.NightMode.Header" = "夜间模式";
-
+"DarkMode.Confirm.NightMode.Text" = "您已开启了自动启用夜间模式。如果您想更改深色模式的设置，您需要先关闭它。";
 
 
 "Gallery.Context.Share.ThisPhoto" = "这张图片";

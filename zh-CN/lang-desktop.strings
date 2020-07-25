@@ -16,7 +16,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_back" = "返回";
 "lng_menu_night_mode" = "夜间模式";
 "lng_menu_add_account" = "添加账户";
-
+"lng_menu_activate" = "切换为当前使用的帐号";
 
 "lng_disable_notifications_from_tray" = "关闭通知";
 "lng_enable_notifications_from_tray" = "启用消息通知";
@@ -292,9 +292,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_empty_bio" = "无";
 
 "lng_settings_section_notify" = "通知";
-
-
-
+"lng_settings_show_from" = "显示哪些帐号的通知？";
+"lng_settings_notify_all" = "所有帐号";
+"lng_settings_notify_all_about" = "如果您只想收到当前帐号的通知，请关闭此功能。";
 "lng_settings_notify_title" = "聊天通知";
 "lng_settings_desktop_notify" = "启用通知";
 "lng_settings_show_name" = "显示发送者名称";
@@ -338,7 +338,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_update_fail" = "更新检查失败 :(";
 "lng_settings_workmode_tray" = "显示托盘图标";
 "lng_settings_workmode_window" = "显示任务栏图标";
-
+"lng_settings_native_frame" = "使用系统窗框";
 "lng_settings_auto_start" = "开机自动启动 Telegram";
 "lng_settings_start_min" = "启动后隐藏到托盘";
 "lng_settings_add_sendto" = "在「发送到」菜单中显示 Telegram";
@@ -433,6 +433,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_sensitive_title" = "敏感内容";
 "lng_settings_sensitive_disable_filtering" = "关闭过滤";
 "lng_settings_sensitive_about" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
+
+"lng_settings_auto_night_mode" = "自动启用夜间模式";
+"lng_settings_auto_night_enabled" = "与系统设置匹配";
+"lng_settings_auto_night_warning" = "您已开启了自动启用夜间模式。如果您想更改深色模式的设置，您需要先关闭它。";
+"lng_settings_auto_night_disable" = "关闭";
 
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
