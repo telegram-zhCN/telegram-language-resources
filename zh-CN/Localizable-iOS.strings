@@ -3096,7 +3096,7 @@ Unused sets are archived when you add more.";
 "Appearance.AccentColor" = "主题色";
 "Appearance.PickAccentColor" = "选取一种主题色";
 
-"Appearance.AutoNightTheme" = "自动启用夜间模式";
+"Appearance.AutoNightTheme" = "自动夜间模式";
 "Appearance.AutoNightThemeDisabled" = "关闭";
 
 "AutoNightTheme.Title" = "自动启用夜间模式";
@@ -4098,9 +4098,9 @@ Unused sets are archived when you add more.";
 
 
 
-"NotificationSettings.ShowNotificationsFromAccountsSection" = "显示哪些帐号的通知？";
-"NotificationSettings.ShowNotificationsAllAccounts" = "所有帐号";
-"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想收到当前帐号的通知，请关闭此功能。";
+"NotificationSettings.ShowNotificationsFromAccountsSection" = "显示通知";
+"NotificationSettings.ShowNotificationsAllAccounts" = "所有账户";
+"NotificationSettings.ShowNotificationsAllAccountsInfoOn" = "如果您只想收到当前账户的通知，请关闭此功能。";
 "NotificationSettings.ShowNotificationsAllAccountsInfoOff" = "如果您想接收所有帐号的通知，请启用此选项。";
 
 "Gif.Search" = "搜索 GIF 图";

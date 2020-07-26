@@ -2667,7 +2667,7 @@
 "Alert.Confirm.Discard" = "放弃";
 "Alert.Confirm.Stop" = "停止";
 
-"Appearance.Settings.AutoNight" = "自动启用夜间模式";
+"Appearance.Settings.AutoNight" = "自动夜间模式";
 "Appearance.Settings.AutoNightHeader" = "自动启用夜间模式";
 "Appearance.Settings.BubblesMode" = "气泡模式";
 
@@ -2692,7 +2692,7 @@
 "AutoNight.Settings.UpdateLocation.Error" = "无法确定您的位置。请检查系统设置，然后重试。";
 
 "DarkMode.Confirm.NightMode.Header" = "夜间模式";
-"DarkMode.Confirm.NightMode.Text" = "您已开启了自动启用夜间模式。如果您想更改深色模式的设置，您需要先关闭它。";
+"DarkMode.Confirm.NightMode.Text" = "您已经开启了自动夜间模式。您需要先关闭此功能才能更改深色模式设定。";
 
 
 "Gallery.Context.Share.ThisPhoto" = "这张图片";
@@ -3261,9 +3261,9 @@
 
 
 
-"NotificationSettings.ShowNotificationsFrom" = "显示哪些帐号的通知？";
-"NotificationSettings.AllAccounts" = "所有帐号";
-"NotificationSettings.ShowNotificationsFrom.On" = "如果您只想收到当前帐号的通知，请关闭此功能。";
+"NotificationSettings.ShowNotificationsFrom" = "显示通知";
+"NotificationSettings.AllAccounts" = "所有账户";
+"NotificationSettings.ShowNotificationsFrom.On" = "如果您只想收到当前账户的通知，请关闭此功能。";
 "NotificationSettings.ShowNotificationsFrom.Off" = "如果您想接收所有帐号的通知，请启用此选项。";
 
 

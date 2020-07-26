@@ -1364,7 +1364,7 @@
     <string name="ArchiveStickersAlertMessage">您确定要归档所选贴纸包吗？</string>
     <!--theme view-->
     <string name="Theme">主题</string>
-    <string name="AutoNightTheme">自动启用夜间模式</string>
+    <string name="AutoNightTheme">自动夜间模式</string>
     <string name="AutoNightThemeOff">未启用</string>
     <string name="AutoNightDisabled">关闭</string>
     <string name="AutoNightScheduled">计划时段</string>
@@ -1816,9 +1816,9 @@
     <string name="Appearance">外观</string>
     <string name="StickersAndMasks">贴纸和装饰</string>
     <string name="ThemeInfo">选择自定义配色方案</string>
-    <string name="ShowNotificationsFor">显示哪些帐号的通知？</string>
-    <string name="AllAccounts">所有帐号</string>
-    <string name="ShowNotificationsForInfo">如果您只想收到当前帐号的通知，请关闭此功能。</string>
+    <string name="ShowNotificationsFor">显示通知</string>
+    <string name="AllAccounts">所有账户</string>
+    <string name="ShowNotificationsForInfo">如果您只想收到当前账户的通知，请关闭此功能。</string>
     <string name="NotificationsForChats">对话通知</string>
     <string name="NotificationsPrivateChats">私聊</string>
     <string name="NotificationsGroups">群组</string>

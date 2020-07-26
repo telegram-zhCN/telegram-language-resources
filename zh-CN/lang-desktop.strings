@@ -16,7 +16,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_back" = "返回";
 "lng_menu_night_mode" = "夜间模式";
 "lng_menu_add_account" = "添加账户";
-"lng_menu_activate" = "切换为当前使用的帐号";
+"lng_menu_activate" = "切换";
 
 "lng_disable_notifications_from_tray" = "关闭通知";
 "lng_enable_notifications_from_tray" = "启用消息通知";
@@ -292,9 +292,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_empty_bio" = "无";
 
 "lng_settings_section_notify" = "通知";
-"lng_settings_show_from" = "显示哪些帐号的通知？";
-"lng_settings_notify_all" = "所有帐号";
-"lng_settings_notify_all_about" = "如果您只想收到当前帐号的通知，请关闭此功能。";
+"lng_settings_show_from" = "显示通知";
+"lng_settings_notify_all" = "所有账户";
+"lng_settings_notify_all_about" = "如果您只想收到当前账户的通知，请关闭此功能。";
 "lng_settings_notify_title" = "聊天通知";
 "lng_settings_desktop_notify" = "启用通知";
 "lng_settings_show_name" = "显示发送者名称";
@@ -338,7 +338,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_update_fail" = "更新检查失败 :(";
 "lng_settings_workmode_tray" = "显示托盘图标";
 "lng_settings_workmode_window" = "显示任务栏图标";
-"lng_settings_native_frame" = "使用系统窗框";
+"lng_settings_native_frame" = "使用系统框架";
 "lng_settings_auto_start" = "开机自动启动 Telegram";
 "lng_settings_start_min" = "启动后隐藏到托盘";
 "lng_settings_add_sendto" = "在「发送到」菜单中显示 Telegram";
@@ -424,6 +424,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_passcode_title" = "设置锁定码";
 "lng_settings_password_title" = "两步验证";
 "lng_settings_sessions_title" = "已登录的设备";
+
+
+
 "lng_settings_destroy_title" = "帐号保留期限";
 "lng_settings_network_proxy" = "网络与代理";
 "lng_settings_version_info" = "版本与更新";
@@ -434,10 +437,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_sensitive_disable_filtering" = "关闭过滤";
 "lng_settings_sensitive_about" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
 
-"lng_settings_auto_night_mode" = "自动启用夜间模式";
-"lng_settings_auto_night_enabled" = "与系统设置匹配";
-"lng_settings_auto_night_warning" = "您已开启了自动启用夜间模式。如果您想更改深色模式的设置，您需要先关闭它。";
+"lng_settings_auto_night_mode" = "自动夜间模式";
+"lng_settings_auto_night_enabled" = "匹配系统设置";
+"lng_settings_auto_night_warning" = "您已经开启了自动夜间模式。您需要先关闭此功能才能更改深色模式设定。";
 "lng_settings_auto_night_disable" = "关闭";
+
+
+
+
 
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
@@ -1133,6 +1140,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_group_invite_members#other" = " {count} 位成员";
 
+
 "lng_group_invite_create" = "创建一个邀请链接";
 "lng_group_invite_about" = "Telegram 用户可以通过邀请链接加入您的群组";
 "lng_group_invite_about_channel" = "Telegram 用户可以通过邀请链接加入您的频道。";
@@ -1286,6 +1294,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_contact_share_done" = "{user} 现在可以看到您的手机号码。";
 "lng_new_contact_add_name" = "将 {user} 添加到联系人列表";
 "lng_new_contact_add_done" = "{user} 现在已位于您的联系人列表中。";
+
 "lng_cant_send_to_not_contact" = "抱歉，您现在只能给\n双向联系人发送消息。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，您现在只能将\n双向联系人加入群组。\n{more_info}";
 "lng_cant_more_info" = "详情 »";
