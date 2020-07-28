@@ -1488,7 +1488,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_delete_selected" = "Delete Selected";
 "lng_context_clear_selection" = "Clear Selection";
 "lng_send_image_empty" = "Could not send an empty file: {name}";
-"lng_send_image_too_large" = "Your file could not be sent, because it is larger than 1.5 GB: {name}\n\nYou can send as many files as you like, but each must be smaller than 1.5 GB.";
+"lng_send_image_too_large" = "File could not be sent, because it is larger than 2 GB: {name}\n\nYou can send as many files as you like, but each must be smaller than 2 GB.";
 "lng_send_images_selected#one" = "{count} image selected";
 "lng_send_images_selected#other" = "{count} images selected";
 "lng_send_photos#one" = "Send as {count} photo";

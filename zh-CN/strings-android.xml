@@ -719,9 +719,9 @@
     <string name="AttachMusic">音乐</string>
     <string name="AudioUnknownArtist">未知艺术家</string>
     <string name="AudioUnknownTitle">未知标题</string>
-    <string name="RepeatSong">Repeat song</string>
+    <string name="RepeatSong">单曲循环</string>
     <string name="RepeatList">列表循环</string>
-    <string name="ShuffleList">Shuffle list</string>
+    <string name="ShuffleList">列表随机播放</string>
     <string name="ReverseOrder">倒序</string>
     <!--documents view-->
     <string name="SelectFile">选择文件</string>
@@ -2380,7 +2380,7 @@
     <string name="AreYouSureDeleteVideo">确定删除此视频？</string>
     <string name="AreYouSureDeleteGIFTitle">删除 GIF</string>
     <string name="AreYouSureDeleteGIF">您确定要删除此 GIF 吗？</string>
-    <string name="AreYouSureDeletePhotoEveryone">Are you sure you want to delete this photo for everyone?</string>
+    <string name="AreYouSureDeletePhotoEveryone">您确定要为所有人删除此相片吗？</string>
     <string name="AreYouSureDeleteVideoEveryone">Are you sure you want to delete this video for everyone?</string>
     <string name="AreYouSureDeleteGIFEveryone">Are you sure you want to delete this GIF for everyone?</string>
     <string name="DiscardChanges">要放弃修改吗？</string>

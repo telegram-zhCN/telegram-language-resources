@@ -4399,7 +4399,7 @@
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "Creator";
-"App.MaxFileSize" = "Maximum file size is 1.5 GB";
+"App.MaxFileSize" = "Maximum file size is 2 GB";
 "AppearanceSettings.ColorTheme.dark" = "Dark";
 "AppearanceSettings.ColorTheme.day_classic" = "Day Classic";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
@@ -4429,7 +4429,7 @@
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
 "Notification.ScheduledTitle" = "📆 You";
 "NotificationSettings.IncludePublicGroups" = "Include Public Groups";
-"Peer.Media.SharedFilesEmptyList" = "You can send and receive files of any type up to 1.5 GB each and access them anywhere.";
+"Peer.Media.SharedFilesEmptyList" = "You can send and receive files of any type up to 2 GB each and access them anywhere.";
 "PeerInfo.Admins" = "Admins";
 "PeerInfo.SetAdmins" = "Set Admins";
 "PeerInfo.Statistics" = "Statistics";
