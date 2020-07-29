@@ -2417,7 +2417,7 @@
     <string name="SendWithoutCompression">无压缩发送</string>
     <string name="ChooseCover">为您的简介视频选择一个封面</string>
     <string name="SetAsMain">设为主要</string>
-    <string name="EditPhoto">Open in editor</string>
+    <string name="EditPhoto">在编辑器中打开</string>
     <string name="MainProfilePhotoSetHint">您的主页照片</string>
     <string name="MainProfileVideoSetHint">您的主页视频</string>
     <string name="MainChannelProfilePhotoSetHint">主频道照片</string>
@@ -2489,7 +2489,7 @@
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
-    <string name="RestoreEmailTroubleNoEmail">Having trouble accessing your email?</string>
+    <string name="RestoreEmailTroubleNoEmail">无法查看邮件？</string>
     <string name="RestoreEmailTroubleText">如果无法访问您的电子邮箱，那么您将只能想起密码或重置账户。</string>
     <string name="ResetMyAccount">重置我的帐号</string>
     <string name="ResetMyAccountText">如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
@@ -2585,7 +2585,7 @@
     <string name="NewChatsFromNonContacts">未知用户的新聊天</string>
     <string name="ArchiveAndMute">归档及静音</string>
     <string name="ArchiveAndMuteInfo">Automatically archive and mute new chats, groups and channels from non-contacts.</string>
-    <string name="DeleteMyAccount">Delete my account</string>
+    <string name="DeleteMyAccount">删除我的账号</string>
     <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
     <string name="DeleteAccountIfAwayFor3">If away for</string>
     <string name="DeleteAccountHelp">您在这段时间内至少要上线一次，否则您的帐号将被删除，您也将失去所有消息记录和联系人。</string>
@@ -2936,12 +2936,12 @@
     <string name="Bans_few">%1$d bans</string>
     <string name="Bans_many">%1$d bans</string>
     <string name="Bans_other">%1$d bans</string>
-    <string name="Restrictions_zero">%1$d restrictions</string>
-    <string name="Restrictions_one">%1$d restriction</string>
-    <string name="Restrictions_two">%1$d restrictions</string>
-    <string name="Restrictions_few">%1$d restrictions</string>
-    <string name="Restrictions_many">%1$d restrictions</string>
-    <string name="Restrictions_other">%1$d restrictions</string>
+    <string name="Restrictions_zero">%1$d 次限制</string>
+    <string name="Restrictions_one">%1$d 次限制</string>
+    <string name="Restrictions_two">%1$d 次限制</string>
+    <string name="Restrictions_few">%1$d 次限制</string>
+    <string name="Restrictions_many">%1$d 次限制</string>
+    <string name="Restrictions_other">%1$d 次限制</string>
     <string name="Invitations_zero">%1$d invitations</string>
     <string name="Invitations_one">%1$d invitation</string>
     <string name="Invitations_two">%1$d invitations</string>
@@ -3586,11 +3586,11 @@
     <string name="AccDescrPlayerDuration">%1$s of %2$s</string>
     <string name="AccDescrDownloadProgress">Downloaded %1$s of %2$s</string>
     <string name="AccDescrUploadProgress">Uploaded %1$s of %2$s</string>
-    <string name="AccDescrNumberOfViews_one">Viewed %1$d time</string>
-    <string name="AccDescrNumberOfViews_two">Viewed %1$d times</string>
-    <string name="AccDescrNumberOfViews_few">Viewed %1$d times</string>
-    <string name="AccDescrNumberOfViews_many">Viewed %1$d times</string>
-    <string name="AccDescrNumberOfViews_other">Viewed %1$d times</string>
+    <string name="AccDescrNumberOfViews_one">%1$d 次查看</string>
+    <string name="AccDescrNumberOfViews_two">%1$d 次查看</string>
+    <string name="AccDescrNumberOfViews_few">%1$d 次查看</string>
+    <string name="AccDescrNumberOfViews_many">%1$d 次查看</string>
+    <string name="AccDescrNumberOfViews_other">%1$d 次查看</string>
     <string name="AccDescrSendPhotos_one">发送 %1$d 张照片</string>
     <string name="AccDescrSendPhotos_two">发送 %1$d 张照片</string>
     <string name="AccDescrSendPhotos_few">发送 %1$d 张照片</string>
@@ -3758,9 +3758,9 @@
   <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
+  <string name="AccDescrNumberOfViews_zero">%1$d 次查看</string>
   <string name="AccDescrSendAudio_zero">发送 %1$d 音频文件</string>
   <string name="AccDescrSendFiles_zero">发送 %1$d 个文件</string>
   <string name="AccDescrSendPhotos_zero">发送 %1$d 张照片</string>
   <string name="AccDescrShareInChats_zero">分享到 %1$d 个l聊天</string>
-  <string name="AccDescrNumberOfViews_zero">Viewed %1$d times</string>
 </resources>
