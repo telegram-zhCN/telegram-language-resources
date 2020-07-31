@@ -5541,7 +5541,7 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.MessageVideos_any" = "%@ 个视频";
 
 "Conversation.PrivateChannelTimeLimitedAlertTitle" = "加入频道";
-"Conversation.PrivateChannelTimeLimitedAlertText" = "此频道是私人的。请加入它以继续浏览其内容。";
+"Conversation.PrivateChannelTimeLimitedAlertText" = "此频道是私人的。请加入以继续浏览其内容。";
 "Conversation.PrivateChannelTimeLimitedAlertJoin" = "加入";
 
 "KeyCommand.SearchInChat" = "搜索对话";
@@ -5566,6 +5566,11 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Stats.GroupGrowthTitle" = "上升";
+"Stats.GroupMembersTitle" = "群组成员";
+"Stats.GroupNewMembersBySourceTitle" = "新成员来源";
+"Stats.GroupLanguagesTitle" = "成员主要语言";
+"Stats.GroupMessagesTitle" = "消息";
 
 
 
@@ -5585,7 +5590,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Stats.GroupTopPosterChars_any" = "%@ 字每条消息";
 
+"Stats.GroupTopPoster.History" = "历史";
 
 
 
@@ -5628,6 +5635,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Settings.SetProfilePhotoOrVideo" = "设置图片或视频";
 
 
 
@@ -5635,6 +5643,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatList.AutoarchiveSuggestion.Title" = "隐藏新对话?";
+"ChatList.AutoarchiveSuggestion.Text" = "您收到了很多来自非联系人的对话. 您想将这些对话**自动静音**并**归档**吗?";
+"ChatList.AutoarchiveSuggestion.OpenSettings" = "转到设置";
 
 
 
@@ -5660,56 +5671,45 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Settings.AddAnotherAccount.Help" = "您最多可添加三个不同手机号码的账户。";
 
+"ProfilePhoto.OpenGallery" = "打开图片库";
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"Settings.EditPhoto" = "编辑";
 "Settings.EditVideo" = "编辑";
+"Settings.CancelUpload" = "取消上传";
 
+"Settings.FrequentlyAskedQuestions" = "常见问题";
 
-
-
-
-
-
+"Notification.ChangedGroupVideo" = "%@ 更改了群视频";
+"Group.MessageVideoUpdated" = "群视频已更新";
+"Channel.MessageVideoUpdated" = "频道视频已更新";
 
 "Conversation.Dice.u1F3C0" = "发送一个篮球 emoji 來试试运气。";
 "Conversation.Dice.u26BD" = "发送一个足球 emoji 來试试运气。";
 
 
 
+"EditProfile.NameAndPhotoOrVideoHelp" = "输入你的名字并选择性添加资料图片或视频。";
+
+"Settings.RemoveConfirmation" = "移除";
+
+"Conversation.ContextMenuOpenProfile" = "打开资料";
 
 
 
+"Conversation.ContextMenuOpenChannelProfile" = "打开资料";
+"Conversation.ContextMenuOpenChannel" = "打开频道";
+
+"Cache.KeepMediaHelp" = "云对话中**未访问**的图片, 视频和其他文件将被从您的设备移除以节省存储空间.";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+"Cache.MaximumCacheSize" = "最大缓存占用";
+"Cache.NoLimit" = "无限制";
+"Cache.MaximumCacheSizeHelp" = "如果缓存大小超出此限制，最早的媒体将被删除。\n\n所有媒体都会保留在Telegram服务器中，可按需要重新下载。";
 
 
 /* new from translations.telegram.org */

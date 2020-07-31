@@ -442,9 +442,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_auto_night_warning" = "您已经开启了自动夜间模式。您需要先关闭此功能才能更改深色模式设定。";
 "lng_settings_auto_night_disable" = "关闭";
 
-
-
-
+"lng_suggest_hide_new_title" = "隐藏新对话?";
+"lng_suggest_hide_new_about" = "您收到了很多来自非联系人的对话. 您想将这些对话**自动静音**并**归档**吗?";
+"lng_suggest_hide_new_to_settings" = "转到设置";
 
 "lng_settings_spellchecker" = "拼写检查";
 "lng_settings_system_spellchecker" = "使用系统提供的拼写检查";
@@ -1139,7 +1139,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 
 "lng_group_invite_members#other" = " {count} 位成员";
-
+"lng_channel_invite_private" = "此频道是私人的。请加入以继续浏览其内容。";
 
 "lng_group_invite_create" = "创建一个邀请链接";
 "lng_group_invite_about" = "Telegram 用户可以通过邀请链接加入您的群组";

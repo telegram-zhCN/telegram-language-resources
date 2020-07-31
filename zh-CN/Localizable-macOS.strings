@@ -258,8 +258,8 @@
 "Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";
 "Chat.Service.Channel.RemovedPhoto" = "频道头像已删除";
 
-
-
+"Chat.Service.Group.UpdatedVideo" = "%@ 更改了群视频";
+"Chat.Service.Channel.UpdatedVideo" = "频道视频已更新";
 
 
 "Chat.Service.Channel.UpdatedTitle" = "频道名称已修改为 \"%@\"";
@@ -1166,7 +1166,7 @@
 
 
 
-
+"StorageUsage.Limit.NoLimit" = "无限制";
 
 
 "StorageUsage.KeepMedia.Description" = "为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在 Telegram 云端，您需要时可再次下载。";
@@ -4054,7 +4054,7 @@
 
 
 "PrivateChannel.Peek.Header" = "加入频道";
-"PrivateChannel.Peek.Text" = "此频道是私人的。请加入它以继续浏览其内容。";
+"PrivateChannel.Peek.Text" = "此频道是私人的。请加入以继续浏览其内容。";
 "PrivateChannel.Peek.OK" = "加入频道";
 "PrivateChannel.Peek.Cancel" = "取消";
 
@@ -4073,7 +4073,11 @@
 
 
 
+"Stats.GroupGrowthTitle" = "上升";
+"Stats.GroupMembersTitle" = "群组成员";
 
+"Stats.GroupLanguagesTitle" = "成员主要语言";
+"Stats.GroupMessagesTitle" = "消息";
 
 
 
@@ -4097,6 +4101,7 @@
 
 
 
+"Stats.GroupTopPosterChars_other" = "%d 字每条消息";
 
 
 
@@ -4153,15 +4158,10 @@
 
 
 
+"Alert.HideNewChats.Header" = "隐藏新对话?";
+"Alert.HideNewChats.Text" = "您收到了很多来自非联系人的对话. 您想将这些对话**自动静音**并**归档**吗?";
 
-
-
-
-
-
-
-
-
+"Alert.HideNewChats.OK" = "转到设置";
 
 
 

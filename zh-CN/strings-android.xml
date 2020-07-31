@@ -223,8 +223,8 @@
     <string name="ArchiveHintHeader3">置顶的对话</string>
     <string name="ArchiveHintText3">您可以任意置顶已归档的对话。</string>
     <string name="ScheduledOrNoSoundHint">按住这个按钮来定时或静音发送您的消息。</string>
-    <string name="HideNewChatsAlertTitle">隐藏新聊天?</string>
-    <string name="HideNewChatsAlertText">You are receiving many new chats from users who are not in your Contacts List. Do you want have such chats **automatically muted** and **archived**?</string>
+    <string name="HideNewChatsAlertTitle">隐藏新对话?</string>
+    <string name="HideNewChatsAlertText">您收到了很多来自非联系人的对话. 您想将这些对话**自动静音**并**归档**吗?</string>
     <string name="GoToSettings">转到设置</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
@@ -473,8 +473,8 @@
     <string name="ManageGroupMenu">管理群组</string>
     <string name="ManageChannelMenu">管理频道</string>
     <string name="ChatHistory">新成员历史对话可见性</string>
-    <string name="ChatSetNewPhoto">设置新照片</string>
-    <string name="ChatSetPhotoOrVideo">设置相片或视频</string>
+    <string name="ChatSetNewPhoto">设置新图片</string>
+    <string name="ChatSetPhotoOrVideo">设置图片或视频</string>
     <string name="ChatHistoryVisible">可见</string>
     <string name="ChatHistoryVisibleInfo">新成员将可以查看所有消息记录。</string>
     <string name="ChatHistoryHidden">隐藏</string>
@@ -495,8 +495,8 @@
     <string name="TypeLocationGroup">链接</string>
     <string name="TypeLocationGroupEdit">点按即可添加永久链接</string>
     <string name="ChoosePhoto">选择图片</string>
-    <string name="ChoosePhotoOrVideo">选择相片或视频</string>
-    <string name="AddPhoto">设置新相片</string>
+    <string name="ChoosePhotoOrVideo">选择图片或视频</string>
+    <string name="AddPhoto">设置新图片</string>
     <string name="ChooseTakePhoto">拍照</string>
     <string name="ChooseRecordVideo">录制视频</string>
     <string name="ChooseFromGallery">从相册中上传</string>
@@ -715,11 +715,11 @@
     <string name="NoAudioFilesInfo">您的音乐库是空的。</string>
     <string name="NoAudioFound">找不到结果</string>
     <string name="NoAudioFoundInfo">在您的音乐库中找不到 **%1$s**。</string>
-    <string name="NoAudioFoundPlayerInfo">There are no matches for **%1$s**.</string>
+    <string name="NoAudioFoundPlayerInfo">没有匹配 **%1$s** 的结果.</string>
     <string name="AttachMusic">音乐</string>
     <string name="AudioUnknownArtist">未知艺术家</string>
     <string name="AudioUnknownTitle">未知标题</string>
-    <string name="RepeatSong">单曲循环</string>
+    <string name="RepeatSong">循环</string>
     <string name="RepeatList">列表循环</string>
     <string name="ShuffleList">列表随机播放</string>
     <string name="ReverseOrder">倒序</string>
@@ -1173,7 +1173,7 @@
     <string name="MembersCountZero">最多 %1$s</string>
     <string name="JoinToGroupErrorFull">抱歉，此群组已满员。</string>
     <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
-    <string name="JoinByPeekChannelText">This channel is private. Please join it to continue viewing its content.</string>
+    <string name="JoinByPeekChannelText">此频道是私人的。请加入以继续浏览其内容。</string>
     <string name="JoinByPeekGroupText">请加入私有群组以便查看内容。</string>
     <string name="JoinByPeekChannelTitle">加入频道</string>
     <string name="JoinByPeekGroupTitle">加入群组</string>
@@ -2910,7 +2910,7 @@
     <string name="CacheWasCleared">已将 %s 缓存从你的设备中清除!</string>
     <string name="TotalDeviceSize">%s 其他数据</string>
     <string name="GroupMembersChartTitle">群组成员</string>
-    <string name="NewMembersBySourceChartTitle">New members by source</string>
+    <string name="NewMembersBySourceChartTitle">新成员来源</string>
     <string name="MembersLanguageChartTitle">成员主要语言</string>
     <string name="MessagesChartTitle">消息</string>
     <string name="ActionsChartTitle">操作</string>
@@ -2951,7 +2951,7 @@
     <string name="TopAdmins">Top admins</string>
     <string name="TopMembers">Top members</string>
     <string name="TopInviters">Top inviters</string>
-    <string name="CharactersPerMessage">%s字每条消息</string>
+    <string name="CharactersPerMessage">%s 字每条消息</string>
     <string name="TopDaysOfWeekChartTitle">本周头号日</string>
     <string name="StatisticSearchUserHistory">查看消息</string>
     <string name="StatisticOpenProfile">打开个人资料</string>
