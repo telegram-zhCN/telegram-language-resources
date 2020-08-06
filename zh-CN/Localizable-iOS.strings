@@ -215,7 +215,9 @@
 "PUSH_AUTH_REGION" = "New login|Device: %1$@. Location: %2$@";
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|来电！";
+
 "PUSH_PHONE_CALL_MISSED" = "%1$@|☎️未接来电";
+
 
 "PUSH_MESSAGE_GAME_SCORE" = "🎮 %1$@在“%2$@”中获得了 %3$@ 分";
 
@@ -2293,7 +2295,9 @@ Unused sets are archived when you add more.";
 "Notification.CallIncoming" = "来电";
 
 "Notification.CallMissed" = "未接来电";
+
 "Notification.CallCanceled" = "已取消通话";
+
 "Notification.CallOutgoingShort" = "拨出";
 "Notification.CallIncomingShort" = "来电";
 "Notification.CallMissedShort" = "未接";
@@ -4789,6 +4793,7 @@ Any member of this group will be able to see messages in the channel.";
 "ContactList.Context.StartSecretChat" = "开始私密对话";
 "ContactList.Context.Call" = "通话";
 
+
 "Theme.Context.Apply" = "应用";
 
 "Settings.Context.Logout" = "退出当前帐号";
@@ -5710,6 +5715,11 @@ Any member of this group will be able to see messages in the channel.";
 "Cache.MaximumCacheSize" = "最大缓存占用";
 "Cache.NoLimit" = "无限制";
 "Cache.MaximumCacheSizeHelp" = "如果缓存大小超出此限制，最早的媒体将被删除。\n\n所有媒体都会保留在Telegram服务器中，可按需要重新下载。";
+
+
+
+
+
 
 
 /* new from translations.telegram.org */

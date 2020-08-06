@@ -215,7 +215,9 @@
 "PUSH_AUTH_REGION" = "New login|Device: %1$@. Location: %2$@";
 
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|Incoming call!";
+"PUSH_VIDEO_CALL_REQUEST" = "%1$@|is calling you!";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|☎️ Missed call";
+"PUSH_VIDEO_CALL_MISSED" = "%1$@|You missed a video call";
 
 "PUSH_MESSAGE_GAME_SCORE" = "🎮 %1$@ scored %3$@ in %2$@";
 
@@ -2293,7 +2295,9 @@ Unused sets are archived when you add more.";
 "Notification.CallIncoming" = "Incoming Call";
 
 "Notification.CallMissed" = "Missed Call";
+
 "Notification.CallCanceled" = "Cancelled Call";
+
 "Notification.CallOutgoingShort" = "Outgoing";
 "Notification.CallIncomingShort" = "Incoming";
 "Notification.CallMissedShort" = "Missed";
@@ -4789,6 +4793,7 @@ Any member of this group will be able to see messages in the channel.";
 "ContactList.Context.StartSecretChat" = "Start Secret Chat";
 "ContactList.Context.Call" = "Call";
 
+
 "Theme.Context.Apply" = "Apply";
 
 "Settings.Context.Logout" = "Log Out";
@@ -5710,6 +5715,11 @@ Any member of this group will be able to see messages in the channel.";
 "Cache.MaximumCacheSize" = "Maximum Cache Size";
 "Cache.NoLimit" = "No Limit";
 "Cache.MaximumCacheSizeHelp" = "If your cache size exceeds this limit, the oldest media will be deleted.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.";
+
+
+
+
+
 
 
 /* new from translations.telegram.org */
