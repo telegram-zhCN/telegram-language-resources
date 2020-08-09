@@ -2475,6 +2475,7 @@ Unused sets are archived when you add more.";
 "Call.CallInProgressTitle" = "正在通话中";
 "Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
 
+
 "Call.Message" = "输入消息";
 
 "UserInfo.TapToCall" = "点击进行端到端加密的通话";
@@ -5715,6 +5716,20 @@ Any member of this group will be able to see messages in the channel.";
 "Cache.MaximumCacheSize" = "最大缓存占用";
 "Cache.NoLimit" = "无限制";
 "Cache.MaximumCacheSizeHelp" = "如果缓存大小超出此限制，最早的媒体将被删除。\n\n所有媒体都会保留在Telegram服务器中，可按需要重新下载。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
