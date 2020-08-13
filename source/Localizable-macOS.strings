@@ -4096,12 +4096,12 @@
 "Stats.GroupTopPosterMessages_other" = "%d messages";
 
 "Stats.GroupTopPosterChars_countable" = "%d";
-"Stats.GroupTopPosterChars_zero" = "%d symbols per message";
-"Stats.GroupTopPosterChars_one" = "%d symbol per message";
-"Stats.GroupTopPosterChars_two" = "%d symbols per message";
-"Stats.GroupTopPosterChars_few" = "%d symbols per message";
-"Stats.GroupTopPosterChars_many" = "%d symbols per message";
-"Stats.GroupTopPosterChars_other" = "%d symbols per message";
+"Stats.GroupTopPosterChars_zero" = "%d characters per message";
+"Stats.GroupTopPosterChars_one" = "%d character per message";
+"Stats.GroupTopPosterChars_two" = "%d characters per message";
+"Stats.GroupTopPosterChars_few" = "%d characters per message";
+"Stats.GroupTopPosterChars_many" = "%d characters per message";
+"Stats.GroupTopPosterChars_other" = "%d characters per message";
 
 "Stats.GroupTopPoster.History" = "History";
 "Stats.GroupTopPoster.Promote" = "Promote";

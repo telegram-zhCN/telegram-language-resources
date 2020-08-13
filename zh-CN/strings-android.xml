@@ -2650,6 +2650,7 @@
     <string name="Edit">编辑</string>
     <string name="Send">发送</string>
     <string name="Call">呼叫</string>
+    <string name="VideoCall">Video Call</string>
     <string name="Copy">复制</string>
     <string name="Delete">删除</string>
     <string name="Start">开始</string>
@@ -2983,6 +2984,7 @@
     <string name="VoipRinging">正在响铃</string>
     <string name="VoipBusy">线路繁忙</string>
     <string name="VoipInCallBranding">Telegram Call</string>
+    <string name="VoipInVideoCallBranding">Telegram Video Call</string>
     <string name="VoipOutgoingCall">进行中的 Telegram 通话</string>
     <string name="VoipEndCall">结束通话</string>
     <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
@@ -3009,24 +3011,32 @@
     <string name="VoipOfflineOpenSettings">设置</string>
     <string name="CallMessageOutgoing">拨出通话</string>
     <string name="CallMessageIncoming">来电</string>
+    <string name="CallMessageVideoOutgoing">Outgoing Video Call</string>
+    <string name="CallMessageVideoIncoming">Incoming Video Call</string>
     <string name="CallMessageIncomingMissed">未接来电</string>
     <string name="CallMessageOutgoingMissed">未接通</string>
     <string name="CallMessageIncomingDeclined">已拒绝通话</string>
+    <string name="CallMessageVideoIncomingMissed">Missed Video Call</string>
+    <string name="CallMessageVideoOutgoingMissed">Cancelled Video Call</string>
+    <string name="CallMessageVideoIncomingDeclined">Declined Video Call</string>
     <string name="CallMessageWithDuration">%1$s (%2$s)</string>
     <string name="NoCallLog">您还没有拨打过任何电话。</string>
     <string name="VoipPeerIncompatible">**%1$s** 的应用使用了不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
     <string name="VoipPeerOutdated">**%1$s** 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
     <string name="VoipRateCallAlert">请对此次 Telegram Call 的质量作出评价</string>
     <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风来拨打电话。</string>
+    <string name="VoipNeedMicCameraPermission">Telegram needs access to your microphone and camera so that you can make video calls.</string>
     <string name="VoipFeedbackCommentHint">附加说明</string>
     <string name="CallBack">回拨</string>
     <string name="CallAgain">再次呼叫</string>
     <string name="DefaultRingtone">默认</string>
     <string name="ConfirmDeleteCallLog">您确定要删除这条通话记录吗？</string>
     <string name="CallViaTelegram">Telegram 通话</string>
+    <string name="VideoCallViaTelegram">Telegram Video Call</string>
     <string name="VoipAudioRoutingEarpiece">听筒</string>
     <string name="VoipAudioRoutingSpeaker">扬声器</string>
     <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
+    <string name="VoipOutputDevices">Output Devices</string>
     <string name="ReturnToCall">返回通话</string>
     <string name="CallNotAvailable">抱歉，由于 %1$s 的隐私设置，您无法与其进行通话。</string>
     <string name="CallEmojiKeyTooltip">如果 %1$s 屏幕上的 emoji 和此处的相同，此通话就是 100%% 安全的。</string>
@@ -3045,6 +3055,7 @@
     <string name="QuickReplyCustom">自定义消息...</string>
     <string name="AllowCustomQuickReply">允许自定义</string>
     <string name="VoipInCallBrandingWithName">有人正在呼叫 %s</string>
+    <string name="VoipInVideoCallBrandingWithName">Telegram Video Call to %s</string>
     <string name="VoipErrorUnknown">暂时无法呼叫</string>
     <string name="RateCallEcho">我听到了自己的回声</string>
     <string name="RateCallNoise">我听到了背景噪音</string>
@@ -3053,6 +3064,20 @@
     <string name="RateCallSilentLocal">我听不到对方的声音</string>
     <string name="RateCallSilentRemote">对方听不到我的声音</string>
     <string name="RateCallDropped">通话意外结束</string>
+    <string name="TapToTurnCamera">Tap here to turn on your camera</string>
+    <string name="VoipUnmute">Unmute</string>
+    <string name="VoipMute">Mute</string>
+    <string name="VoipStartVideo">Start Video</string>
+    <string name="VoipStopVideo">Stop Video</string>
+    <string name="VoipSpeaker">Speaker</string>
+    <string name="VoipFlip">Flip</string>
+    <string name="VoipSwitchToVideoCall">Switch to video call?</string>
+    <string name="VoipUserMicrophoneIsOff">%s\'s microphone is off</string>
+    <string name="VoipUserCameraIsOff">%s\'s camera is off</string>
+    <!--contacts shortcuts-->
+    <string name="ContactShortcutMessage">Message %1$s</string>
+    <string name="ContactShortcutVoiceCall">Voice call %1$s</string>
+    <string name="ContactShortcutVideoCall">Video call %1$s</string>
     <!--plural-->
     <string name="DeleteBackground_zero">删除 %1$d 张背景</string>
     <string name="DeleteBackground_one">删除 %1$d 张背景</string>
@@ -3613,6 +3638,12 @@
     <string name="AccDescrShareInChats_other">分享到 %1$d 个l聊天</string>
     <string name="AccDescrQuizCorrectAnswer">正确答案</string>
     <string name="AccDescrPipMode">画中画模式</string>
+    <string name="AccDescrVoipMicOn">Microphone is on</string>
+    <string name="AccDescrVoipMicOff">Microphone is off</string>
+    <string name="AccDescrVoipCamSwitchedToFront">Switched to front camera</string>
+    <string name="AccDescrVoipCamSwitchedToBack">Switched to rear camera</string>
+    <string name="AccDescrVoipCamOn">Camera is on</string>
+    <string name="AccDescrVoipCamOff">Camera is off</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
