@@ -2584,7 +2584,7 @@
     <string name="DeleteAccountTitle">帐号保留期限</string>
     <string name="NewChatsFromNonContacts">未知用户的新聊天</string>
     <string name="ArchiveAndMute">归档及静音</string>
-    <string name="ArchiveAndMuteInfo">Automatically archive and mute new chats, groups and channels from non-contacts.</string>
+    <string name="ArchiveAndMuteInfo">自动归档及静音非联系人的新聊天、群组和频道。</string>
     <string name="DeleteMyAccount">删除我的账号</string>
     <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
     <string name="DeleteAccountIfAwayFor3">保留</string>
@@ -3072,8 +3072,12 @@
     <string name="VoipSpeaker">Speaker</string>
     <string name="VoipFlip">Flip</string>
     <string name="VoipSwitchToVideoCall">Switch to video call?</string>
+    <string name="VoipSwitch">SWITCH</string>
     <string name="VoipUserMicrophoneIsOff">%s\'s microphone is off</string>
     <string name="VoipUserCameraIsOff">%s\'s camera is off</string>
+    <string name="AcceptCall">Accept</string>
+    <string name="DeclineCall">Decline</string>
+    <string name="RetryCall">Retry</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">Message %1$s</string>
     <string name="ContactShortcutVoiceCall">Voice call %1$s</string>

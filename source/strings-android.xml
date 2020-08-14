@@ -2612,7 +2612,7 @@
     <string name="InviteToGroupError">Sorry, you can\'t add this user to groups because of user\'s privacy settings.</string>
     <string name="InviteToChannelError">Sorry, you can\'t add this user to channels because of user\'s privacy settings.</string>
     <string name="CreateGroupError">Sorry, you can\'t create a group with these users because of their privacy settings.</string>
-    <string name="PrivacyCallsP2PHelp">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.</string>
+    <string name="PrivacyCallsP2PHelp">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may decrease audio and video quality.</string>
     <string name="SyncContactsDelete">Delete Synced Contacts</string>
     <string name="SuggestContacts">Suggest Frequent Contacts</string>
     <string name="SuggestContactsInfo">Display people you message frequently at the top of the search section for quick access.</string>
@@ -2989,7 +2989,7 @@
     <string name="VoipEndCall">End call</string>
     <string name="VoipOngoingAlertTitle">Another call in progress</string>
     <string name="VoipOngoingAlert">You currently have an ongoing call with **%1$s**. Would you like to hang up and start a new one with **%2$s**?</string>
-    <string name="VoipNotificationSettings">Voice calls</string>
+    <string name="VoipNotificationSettings">Calls</string>
     <string name="VoipSettingsRingtone">Ringtone</string>
     <string name="VoipRingtoneInfo">You can customize the ringtone used when this contact calls you on Telegram.</string>
     <string name="Calls">Calls</string>
@@ -3072,8 +3072,12 @@
     <string name="VoipSpeaker">Speaker</string>
     <string name="VoipFlip">Flip</string>
     <string name="VoipSwitchToVideoCall">Switch to video call?</string>
+    <string name="VoipSwitch">SWITCH</string>
     <string name="VoipUserMicrophoneIsOff">%s\'s microphone is off</string>
     <string name="VoipUserCameraIsOff">%s\'s camera is off</string>
+    <string name="AcceptCall">Accept</string>
+    <string name="DeclineCall">Decline</string>
+    <string name="RetryCall">Retry</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">Message %1$s</string>
     <string name="ContactShortcutVoiceCall">Voice call %1$s</string>

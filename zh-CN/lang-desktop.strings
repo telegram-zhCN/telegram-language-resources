@@ -1468,6 +1468,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_copy_text" = "复制文本";
 "lng_context_open_gif" = "打开 GIF";
 "lng_context_save_gif" = "保存到 GIF 库";
+
 "lng_context_attached_stickers" = "装饰";
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
@@ -1735,15 +1736,32 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_box_status_group" = "({amount}) {status}";
 
 "lng_call_outgoing" = "外拨电话";
+
 "lng_call_incoming" = "来电";
+
 "lng_call_missed" = "未接来电";
+
 "lng_call_cancelled" = "未接通";
+
 "lng_call_declined" = "未接来电";
+
 "lng_call_duration_info" = "{time}, {duration}";
 "lng_call_type_and_duration" = "{type} ({duration})";
 
 "lng_call_rate_label" = "请评价此次通话的质量";
 "lng_call_rate_comment" = "评价（选填）";
+
+
+
+
+
+
+
+
+
+
+
+
 
 "lng_no_mic_permission" = "Telegram 需要访问您的麦克风，以便您拨打电话及录制语音留言。";
 
