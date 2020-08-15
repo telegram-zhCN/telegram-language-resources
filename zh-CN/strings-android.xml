@@ -3034,6 +3034,7 @@
     <string name="CallViaTelegram">Telegram 通话</string>
     <string name="VideoCallViaTelegram">Telegram Video Call</string>
     <string name="VoipAudioRoutingEarpiece">听筒</string>
+    <string name="VoipAudioRoutingHeadset">Headset</string>
     <string name="VoipAudioRoutingSpeaker">扬声器</string>
     <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
     <string name="VoipOutputDevices">Output Devices</string>
@@ -3078,6 +3079,7 @@
     <string name="AcceptCall">Accept</string>
     <string name="DeclineCall">Decline</string>
     <string name="RetryCall">Retry</string>
+    <string name="VoipVideoUnavailable">Video</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">Message %1$s</string>
     <string name="ContactShortcutVoiceCall">Voice call %1$s</string>

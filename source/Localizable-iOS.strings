@@ -2238,13 +2238,13 @@ Unused sets are archived when you add more.";
 "NetworkUsageSettings.CellularUsageSince" = "Cellular usage since %@";
 "NetworkUsageSettings.WifiUsageSince" = "Wi-Fi usage since %@";
 
-"Settings.CallSettings" = "Voice Calls";
+"Settings.CallSettings" = "Calls";
 
 "Calls.TabTitle" = "Calls";
 "Calls.All" = "All";
 "Calls.Missed" = "Missed";
 
-"CallSettings.Title" = "Voice Calls";
+"CallSettings.Title" = "Calls";
 "CallSettings.RecentCalls" = "Recent Calls";
 "CallSettings.TabIcon" = "Show Calls Tab";
 "CallSettings.TabIconDescription" = "A call icon will appear in the tab bar.";
@@ -2447,7 +2447,7 @@ Unused sets are archived when you add more.";
 
 "Call.ParticipantVersionOutdatedError" = "%@'s app does not support calls. They need to update their app before you can call them.";
 
-"Privacy.Calls" = "Voice Calls";
+"Privacy.Calls" = "Calls";
 
 "Privacy.Calls.WhoCanCallMe" = "WHO CAN CALL ME";
 "Privacy.Calls.CustomHelp" = "Choose exactly who can and can't call you.";
@@ -2742,7 +2742,7 @@ Unused sets are archived when you add more.";
 "Group.Members.AddMemberBotErrorNotAllowed" = "Sorry, you don't have the necessary permissions to add bots to this group.";
 
 "Privacy.Calls.P2P" = "Peer-to-Peer";
-"Privacy.Calls.P2PHelp" = "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.";
+"Privacy.Calls.P2PHelp" = "Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may decrease audio and video quality.";
 
 "Privacy.Calls.Integration" = "iOS Call Integration";
 "Privacy.Calls.IntegrationHelp" = "iOS Call Integration shows Telegram calls on the lock screen and in the system's call history. If iCloud sync is enabled, your call history is shared with Apple.";
