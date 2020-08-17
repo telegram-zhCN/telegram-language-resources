@@ -2984,7 +2984,7 @@
     <string name="VoipRinging">正在响铃</string>
     <string name="VoipBusy">线路繁忙</string>
     <string name="VoipInCallBranding">Telegram Call</string>
-    <string name="VoipInVideoCallBranding">Telegram Video Call</string>
+    <string name="VoipInVideoCallBranding">Telegram 视频来电</string>
     <string name="VoipOutgoingCall">进行中的 Telegram 通话</string>
     <string name="VoipEndCall">结束通话</string>
     <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
@@ -3012,7 +3012,7 @@
     <string name="CallMessageOutgoing">拨出通话</string>
     <string name="CallMessageIncoming">来电</string>
     <string name="CallMessageVideoOutgoing">拨出视频通话</string>
-    <string name="CallMessageVideoIncoming">Incoming Video Call</string>
+    <string name="CallMessageVideoIncoming">视频来电</string>
     <string name="CallMessageIncomingMissed">未接来电</string>
     <string name="CallMessageOutgoingMissed">未接通</string>
     <string name="CallMessageIncomingDeclined">已拒绝通话</string>
@@ -3066,11 +3066,11 @@
     <string name="RateCallSilentRemote">对方听不到我的声音</string>
     <string name="RateCallDropped">通话意外结束</string>
     <string name="TapToTurnCamera">点击这里开启摄像头</string>
-    <string name="VoipUnmute">Unmute</string>
-    <string name="VoipMute">Mute</string>
-    <string name="VoipStartVideo">Start Video</string>
-    <string name="VoipStopVideo">Stop Video</string>
-    <string name="VoipSpeaker">Speaker</string>
+    <string name="VoipUnmute">取消静音</string>
+    <string name="VoipMute">静音</string>
+    <string name="VoipStartVideo">开启摄像头</string>
+    <string name="VoipStopVideo">关闭摄像头</string>
+    <string name="VoipSpeaker">扬声器</string>
     <string name="VoipFlip">Flip</string>
     <string name="VoipSwitchToVideoCall">要切换到视频通话吗?</string>
     <string name="VoipSwitch">SWITCH</string>
