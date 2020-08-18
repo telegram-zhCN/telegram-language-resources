@@ -4195,9 +4195,9 @@
 "VideoAvatar.Button.Cancel" = "Cancel";
 
 
-
-
-
+"Call.Accept" = "Accept";
+"Call.Decline" = "Decline";
+"Call.Decline" = "Decline";
 "Call.Camera" = "Camera";
 "Call.Mute" = "Mute";
 "Call.Recall" = "Recall";
@@ -4211,6 +4211,11 @@
 "Call.Toast.CameraOff" = "%@'s camera is off";
 "Call.Toast.MicroOff" = "%@'s microphone is off";
 "Call.Toast.LowBattery" = "%@'s battery is low";
+
+
+"Message.Text.CopyMusicTitle" = "Copy Music Name";
+
+"ShareCallLogs" = "Share Call Logs";
 
 
 /* new from translations.telegram.org */
