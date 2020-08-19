@@ -214,10 +214,10 @@
 "PUSH_AUTH_UNKNOWN" = "New login|from %1$@";
 "PUSH_AUTH_REGION" = "New login|Device: %1$@. Location: %2$@";
 
-"PUSH_PHONE_CALL_REQUEST" = "%1$@|来电！";
-
+"PUSH_PHONE_CALL_REQUEST" = "%1$@|拨入电话！";
+"PUSH_VIDEO_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|☎️未接来电";
-
+"PUSH_VIDEO_CALL_MISSED" = "%1$@|您错过了一通视频来电";
 
 "PUSH_MESSAGE_GAME_SCORE" = "🎮 %1$@在“%2$@”中获得了 %3$@ 分";
 
@@ -2290,18 +2290,18 @@ Unused sets are archived when you add more.";
 
 
 "Notification.CallTimeFormat" = "%1$@ (%2$@)"; // 1 - type, 2 - duration
-"Notification.CallOutgoing" = "外拨电话";
-
-"Notification.CallIncoming" = "来电";
-
+"Notification.CallOutgoing" = "拨出电话";
+"Notification.VideoCallOutgoing" = "拨出视频通话";
+"Notification.CallIncoming" = "拨入电话";
+"Notification.VideoCallIncoming" = "拨入视频通话";
 "Notification.CallMissed" = "未接来电";
-
-"Notification.CallCanceled" = "已取消通话";
-
+"Notification.VideoCallMissed" = "未接视频通话";
+"Notification.CallCanceled" = "已取消的通话";
+"Notification.VideoCallCanceled" = "已取消的视频通话";
 "Notification.CallOutgoingShort" = "拨出";
-"Notification.CallIncomingShort" = "来电";
+"Notification.CallIncomingShort" = "拨入";
 "Notification.CallMissedShort" = "未接";
-"Notification.CallCanceledShort" = "未接通";
+"Notification.CallCanceledShort" = "取消";
 "Notification.CallFormat" = "%1$@, %2$@"; // 1 - time, 2 - duration
 
 
@@ -2430,7 +2430,7 @@ Unused sets are archived when you add more.";
 "Calls.RatingFeedback" = "输入文字...";
 
 "Call.StatusIncoming" = "Telegram 语音...";
-
+"Call.IncomingVoiceCall" = "拨入语音通话";
 
 "Call.StatusRequesting" = "连接中...";
 "Call.StatusWaiting" = "等待中...";
@@ -2440,7 +2440,7 @@ Unused sets are archived when you add more.";
 "Call.StatusEnded" = "通话结束";
 "Call.StatusFailed" = "通话失败";
 "Call.StatusBusy" = "忙线";
-"Call.Accept" = "接受";
+"Call.Accept" = "接听";
 "Call.Decline" = "拒绝";
 
 "Call.StatusBar" = "轻触此处来返回通话 %@";
@@ -2470,7 +2470,7 @@ Unused sets are archived when you add more.";
 "Settings.SaveEditedPhotos" = "保存已编辑的图片";
 
 "Calls.NoCallsPlaceholder" = "您最近的通话将在此显示";
-"Calls.NoMissedCallsPlacehoder" = "您没有未接电话";
+"Calls.NoMissedCallsPlacehoder" = "您没有未接的来电";
 
 "Call.CallInProgressTitle" = "正在通话中";
 "Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
@@ -2487,7 +2487,7 @@ Unused sets are archived when you add more.";
 
 "Notification.CallBack" = "回拨";
 
-"Call.AudioRouteSpeaker" = "扬声器";
+"Call.AudioRouteSpeaker" = "扩音";
 "Call.AudioRouteHeadphones" = "耳机";
 "Call.AudioRouteHide" = "隐藏";
 
@@ -4267,11 +4267,11 @@ This may take a while, depending on the size of the database. Please keep the ap
 
 Sorry for the inconvenience.";
 
-"Call.Mute" = "静音";
-
-
-
-"Call.Speaker" = "免提";
+"Call.Mute" = "麦克风";
+"Call.Camera" = "摄像头";
+"Call.Flip" = "翻转";
+"Call.End" = "结束";
+"Call.Speaker" = "扩音";
 
 "MemberSearch.BotSection" = "机器人";
 
@@ -5337,8 +5337,8 @@ Any member of this group will be able to see messages in the channel.";
 
 "PeerInfo.ButtonMessage" = "发消息";
 "PeerInfo.ButtonDiscuss" = "讨论";
-"PeerInfo.ButtonCall" = "通话";
-
+"PeerInfo.ButtonCall" = "语音通话";
+"PeerInfo.ButtonVideoCall" = "视频通话";
 "PeerInfo.ButtonMute" = "静音";
 "PeerInfo.ButtonUnmute" = "开启通知";
 "PeerInfo.ButtonMore" = "更多";
@@ -5722,13 +5722,13 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Call.CameraTooltip" = "点击这里开启摄像头";
+"Call.CameraConfirmationText" = "切换到视频通话？";
+"Call.CameraConfirmationConfirm" = "切换";
 
-
-
-
-
-
-
+"Call.YourMicrophoneOff" = "您的麦克风未打开";
+"Call.MicrophoneOff" = "%@的麦克风未打开";
+"Call.CameraOff" = "%@的摄像头未打开";
 
 
 

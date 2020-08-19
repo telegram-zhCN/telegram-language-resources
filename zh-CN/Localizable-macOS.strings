@@ -1006,20 +1006,20 @@
 
 "Peer.DeletedUser" = "已销号";
 
-"ChatList.Service.Call.incoming" = "来电 (%@)";
-"ChatList.Service.Call.outgoing" = "去电 (%@)";
+"ChatList.Service.Call.incoming" = "拨入电话 (%@)";
+"ChatList.Service.Call.outgoing" = "拨出电话 (%@)";
 
 
 
 
-"ChatList.Service.Call.Cancelled" = "取消的电话";
+"ChatList.Service.Call.Cancelled" = "已取消的通话";
 "ChatList.Service.Call.Missed" = "未接来电";
 
+"ChatList.Service.VideoCall.Cancelled" = "已取消的视频通话";
+"ChatList.Service.VideoCall.Missed" = "未接视频通话";
 
 
-
-
-"Chat.Service.Call.Cancelled" = "未接通";
+"Chat.Service.Call.Cancelled" = "已取消的通话";
 "Chat.Service.Call.Missed" = "未接";
 
 "ChatList.Service.GameScored1_countable" = "%d %@";
@@ -1245,11 +1245,11 @@
 "PrivacySettingsController.PhoneCallDescription" = "您可以精确地控制谁可以与您语音通话。";
 "PrivacySettingsController.PeerInfo" = "您可以将用户或整个群组添加为覆盖上述设置的例外。";
 
-"Chat.Call.Outgoing" = "外拨电话";
-"Chat.Call.Incoming" = "来电";
+"Chat.Call.Outgoing" = "拨出电话";
+"Chat.Call.Incoming" = "拨入电话";
 
-
-
+"Chat.VideoCall.Outgoing" = "拨出视频通话";
+"Chat.VideoCall.Incoming" = "拨入视频通话";
 
 "CallHeader.EndCall" = "结束通话";
 "Call.ParticipantVersionOutdatedError" = "%@ 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。";
@@ -1268,7 +1268,7 @@
 
 
 "Call.Recent.Outgoing" = "外拨电话";
-"Call.Recent.Incoming" = "来电";
+"Call.Recent.Incoming" = "拨入";
 "Call.Recent.Missed" = "未接";
 
 
@@ -4195,6 +4195,10 @@
 
 
 
+"Call.Accept" = "接听";
+"Call.Decline" = "拒绝";
+"Call.Decline" = "拒绝";
+"Call.Camera" = "摄像头";
 
 
 
@@ -4203,13 +4207,9 @@
 
 
 
-
-
-
-
-
-
-
+"Call.CameraUnavailable" = "摄像头不可用\n[设置]()";
+"Call.Toast.CameraOff" = "%@的摄像头未打开";
+"Call.Toast.MicroOff" = "%@的麦克风未打开";
 
 
 

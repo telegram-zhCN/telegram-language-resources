@@ -1735,33 +1735,33 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_box_status_date" = "{date} {time}";
 "lng_call_box_status_group" = "({amount}) {status}";
 
-"lng_call_outgoing" = "外拨电话";
-
-"lng_call_incoming" = "来电";
-
+"lng_call_outgoing" = "拨出电话";
+"lng_call_video_outgoing" = "拨出视频通话";
+"lng_call_incoming" = "拨入电话";
+"lng_call_video_incoming" = "拨入视频通话";
 "lng_call_missed" = "未接来电";
-
-"lng_call_cancelled" = "未接通";
-
-"lng_call_declined" = "未接来电";
-
+"lng_call_video_missed" = "未接视频通话";
+"lng_call_cancelled" = "已取消的通话";
+"lng_call_video_cancelled" = "已取消的视频通话";
+"lng_call_declined" = "拒绝通话";
+"lng_call_video_declined" = "拒绝视频通话";
 "lng_call_duration_info" = "{time}, {duration}";
 "lng_call_type_and_duration" = "{type} ({duration})";
 
 "lng_call_rate_label" = "请评价此次通话的质量";
 "lng_call_rate_comment" = "评价（选填）";
 
+"lng_call_start_video" = "摄像头";
+"lng_call_stop_video" = "摄像头";
+"lng_call_end_call" = "结束";
+"lng_call_mute_audio" = "麦克风";
+"lng_call_unmute_audio" = "麦克风";
+"lng_call_accept" = "接听";
+"lng_call_decline" = "拒绝";
+"lng_call_redial" = "重拨";
+"lng_call_cancel" = "取消";
 
-
-
-
-
-
-
-
-
-
-
+"lng_call_microphone_off" = "{user}的麦克风未打开";
 
 "lng_no_mic_permission" = "Telegram 需要访问您的麦克风，以便您拨打电话及录制语音留言。";
 
