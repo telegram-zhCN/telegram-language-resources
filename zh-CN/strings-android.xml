@@ -720,8 +720,8 @@
     <string name="AudioUnknownArtist">未知艺术家</string>
     <string name="AudioUnknownTitle">未知标题</string>
     <string name="RepeatSong">循环</string>
-    <string name="RepeatList">列表循环</string>
-    <string name="ShuffleList">列表随机播放</string>
+    <string name="RepeatList">循环播放</string>
+    <string name="ShuffleList">随机播放</string>
     <string name="ReverseOrder">倒序</string>
     <!--documents view-->
     <string name="SelectFile">选择文件</string>
@@ -1865,7 +1865,7 @@
     <string name="AuthAnotherClientInfo3">Scan the QR code to connect your account.</string>
     <string name="AuthAnotherClientUrl">此二维码可登录到您的 Telegram 帐号。\n\n要确认Telegram登录，请转到 **设置**&gt;**设备**&gt;**扫一扫**。</string>
     <string name="QRCodePermissionNoCamera">Telegram 需要访问您的相机，以便您可以扫描二维码。</string>
-    <string name="SetProfilePhoto">上传头像</string>
+    <string name="SetProfilePhoto">设置头像</string>
     <!--cache view-->
     <string name="LocalDatabase">本地数据库</string>
     <string name="LocalDatabaseClearTextTitle">清除本地数据库</string>
@@ -2418,12 +2418,12 @@
     <string name="ChooseCover">为您的简介视频选择一个封面</string>
     <string name="SetAsMain">设为主要</string>
     <string name="EditPhoto">在编辑器中打开</string>
-    <string name="MainProfilePhotoSetHint">您的主页照片</string>
-    <string name="MainProfileVideoSetHint">您的主页视频</string>
-    <string name="MainChannelProfilePhotoSetHint">主频道照片</string>
-    <string name="MainChannelProfileVideoSetHint">主频道视频</string>
-    <string name="MainGroupProfilePhotoSetHint">这是现在的主要群组图片</string>
-    <string name="MainGroupProfileVideoSetHint">This is the main group video now.</string>
+    <string name="MainProfilePhotoSetHint">现在这是您主要的头像。</string>
+    <string name="MainProfileVideoSetHint">现在这是您主要的动态头像。</string>
+    <string name="MainChannelProfilePhotoSetHint">现在这是主要的频道头像。</string>
+    <string name="MainChannelProfileVideoSetHint">现在这是主要的频道动态头像。</string>
+    <string name="MainGroupProfilePhotoSetHint">现在这是主要的群组头像。</string>
+    <string name="MainGroupProfileVideoSetHint">现在这是主要的群组动态头像。</string>
     <!--password view-->
     <string name="TwoStepVerification">两步验证</string>
     <string name="TwoStepVerificationTitle">两步验证</string>
@@ -2650,7 +2650,7 @@
     <string name="Edit">编辑</string>
     <string name="Send">发送</string>
     <string name="Call">呼叫</string>
-    <string name="VideoCall">视频电话</string>
+    <string name="VideoCall">视频通话</string>
     <string name="Copy">复制</string>
     <string name="Delete">删除</string>
     <string name="Start">开始</string>
@@ -2984,7 +2984,7 @@
     <string name="VoipRinging">正在响铃</string>
     <string name="VoipBusy">线路繁忙</string>
     <string name="VoipInCallBranding">Telegram Call</string>
-    <string name="VoipInVideoCallBranding">Telegram 视频来电</string>
+    <string name="VoipInVideoCallBranding">Telegram 视频通话</string>
     <string name="VoipOutgoingCall">进行中的 Telegram 通话</string>
     <string name="VoipEndCall">结束</string>
     <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
@@ -3023,9 +3023,11 @@
     <string name="NoCallLog">您还没有拨打过任何电话。</string>
     <string name="VoipPeerIncompatible">**%1$s** 的应用使用了不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
     <string name="VoipPeerOutdated">**%1$s** 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
+    <string name="VoipPeerVideoOutdated">Sorry, **%1$s** is using an old version of Telegram that doesn\'t support video calls.</string>
+    <string name="VoipPeerVideoOutdatedMakeVoice">Make a voice call</string>
     <string name="VoipRateCallAlert">请对此次 Telegram Call 的质量作出评价</string>
     <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风来拨打电话。</string>
-    <string name="VoipNeedMicCameraPermission">Telegram 需要获得您的麦克风与相机权限以进行视频通话</string>
+    <string name="VoipNeedMicCameraPermission">Telegram 电报需要访问您的麦克风和摄像头，以便您可以进行视频通话。</string>
     <string name="VoipFeedbackCommentHint">附加说明</string>
     <string name="CallBack">回拨</string>
     <string name="CallAgain">再次呼叫</string>
@@ -3037,7 +3039,7 @@
     <string name="VoipAudioRoutingHeadset">Headset</string>
     <string name="VoipAudioRoutingSpeaker">扬声器</string>
     <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
-    <string name="VoipOutputDevices">Output Devices</string>
+    <string name="VoipOutputDevices">输出设备</string>
     <string name="ReturnToCall">返回通话</string>
     <string name="CallNotAvailable">抱歉，由于 %1$s 的隐私设置，您无法与其进行通话。</string>
     <string name="CallEmojiKeyTooltip">如果 %1$s 屏幕上的 emoji 和此处的相同，此通话就是 100%% 安全的。</string>
@@ -3056,7 +3058,7 @@
     <string name="QuickReplyCustom">自定义消息...</string>
     <string name="AllowCustomQuickReply">允许自定义</string>
     <string name="VoipInCallBrandingWithName">有人正在呼叫 %s</string>
-    <string name="VoipInVideoCallBrandingWithName">Telegram Video Call to %s</string>
+    <string name="VoipInVideoCallBrandingWithName">拨打 Telegram 视频电话给%s</string>
     <string name="VoipErrorUnknown">暂时无法呼叫</string>
     <string name="RateCallEcho">我听到了自己的回声</string>
     <string name="RateCallNoise">我听到了背景噪音</string>
@@ -3065,6 +3067,8 @@
     <string name="RateCallSilentLocal">我听不到对方的声音</string>
     <string name="RateCallSilentRemote">对方听不到我的声音</string>
     <string name="RateCallDropped">通话意外结束</string>
+    <string name="RateCallVideoDistorted">Video was distorted</string>
+    <string name="RateCallVideoPixelated">Video was pixelated</string>
     <string name="TapToTurnCamera">点击这里开启摄像头</string>
     <string name="VoipUnmute">麦克风</string>
     <string name="VoipMute">麦克风</string>
@@ -3079,11 +3083,11 @@
     <string name="AcceptCall">接听</string>
     <string name="DeclineCall">拒绝</string>
     <string name="RetryCall">Retry</string>
-    <string name="VoipVideoUnavailable">Video</string>
+    <string name="VoipVideoUnavailable">视频</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">Message %1$s</string>
-    <string name="ContactShortcutVoiceCall">Voice call %1$s</string>
-    <string name="ContactShortcutVideoCall">Video call %1$s</string>
+    <string name="ContactShortcutVoiceCall">语音通话 %1$s</string>
+    <string name="ContactShortcutVideoCall">视频通话 %1$s</string>
     <!--plural-->
     <string name="DeleteBackground_zero">删除 %1$d 张背景</string>
     <string name="DeleteBackground_one">删除 %1$d 张背景</string>
@@ -3648,8 +3652,8 @@
     <string name="AccDescrVoipMicOff">麦克风未打开</string>
     <string name="AccDescrVoipCamSwitchedToFront">切换到前置摄像头</string>
     <string name="AccDescrVoipCamSwitchedToBack">切换到后置摄像头</string>
-    <string name="AccDescrVoipCamOn">Camera is on</string>
-    <string name="AccDescrVoipCamOff">Camera is off</string>
+    <string name="AccDescrVoipCamOn">摄像头已开启</string>
+    <string name="AccDescrVoipCamOff">摄像头未开启</string>
     <!--date formatters-->
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
@@ -3676,6 +3680,7 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
+    <string name="VoipReconnecting">Reconnecting</string>
 
   <!-- new from translations.telegram.org -->
 

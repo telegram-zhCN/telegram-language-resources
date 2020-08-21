@@ -308,7 +308,7 @@
 "Entertainment.Switch.Emoji" = "Emoji";
 "Telegram.LayoutAccountController" = "设置";
 
-"AccountSettings.SetProfilePhoto" = "上传头像";
+"AccountSettings.SetProfilePhoto" = "设置头像";
 "AccountSettings.General" = "通用";
 "AccountSettings.Proxy" = "代理";
 "AccountSettings.Proxy.Connecting" = "连接中";

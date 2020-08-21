@@ -217,7 +217,7 @@
 "PUSH_PHONE_CALL_REQUEST" = "%1$@|拨入电话！";
 "PUSH_VIDEO_CALL_REQUEST" = "%1$@|正在呼叫您！";
 "PUSH_PHONE_CALL_MISSED" = "%1$@|☎️未接来电";
-"PUSH_VIDEO_CALL_MISSED" = "%1$@|您错过了一通视频来电";
+"PUSH_VIDEO_CALL_MISSED" = "%1$@|你错过了一通视频通话";
 
 "PUSH_MESSAGE_GAME_SCORE" = "🎮 %1$@在“%2$@”中获得了 %3$@ 分";
 
@@ -691,7 +691,7 @@
 "DialogList.You" = "您";
 
 // Settings
-"Settings.SetProfilePhoto" = "上传头像";
+"Settings.SetProfilePhoto" = "设置头像";
 "Settings.Logout" = "退出当前帐号";
 "Settings.Title" = "设置";
 "Settings.NotificationsAndSounds" = "通知和声音";
@@ -4793,7 +4793,7 @@ Any member of this group will be able to see messages in the channel.";
 "ContactList.Context.SendMessage" = "发送消息";
 "ContactList.Context.StartSecretChat" = "开始私密对话";
 "ContactList.Context.Call" = "通话";
-
+"ContactList.Context.VideoCall" = "视频通话";
 
 "Theme.Context.Apply" = "应用";
 
@@ -5681,7 +5681,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "ProfilePhoto.OpenGallery" = "打开图片库";
 
-
+"ProfilePhoto.OpenInEditor" = "在编辑器中打开";
 
 
 "Settings.EditPhoto" = "编辑";
