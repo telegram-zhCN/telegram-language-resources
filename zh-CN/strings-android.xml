@@ -1005,9 +1005,9 @@
     <string name="PsaHideChatAlertTitle">隐藏对话</string>
     <string name="PsaHideChatAlertText">您确定要隐藏此对话吗？</string>
     <string name="PsaHide">隐藏</string>
-    <string name="NearbyPeopleGreetingsDescription">Send a message or tap on the greeting below to show that you are ready to chat.</string>
-    <string name="NearbyPeopleGreetingsMessage">%1$s 是 %2$s</string>
-    <string name="ChatDistanceToPeer">%1$s 是 %2$s</string>
+    <string name="NearbyPeopleGreetingsDescription">发送消息或点击下面的问候语表明您已准备好聊天。</string>
+    <string name="NearbyPeopleGreetingsMessage">%1$s %2$s</string>
+    <string name="ChatDistanceToPeer">%1$s %2$s</string>
     <string name="ChatWasMovedToMainList">此聊天已移至您的主列表。</string>
     <string name="SecretChatTimerDays">天</string>
     <string name="SecretChatTimerSeconds">秒</string>
@@ -2258,8 +2258,8 @@
     <string name="KMetersAway2">%1$s 千米远</string>
     <string name="FootsAway">%1$s 英尺远</string>
     <string name="MilesAway">%1$s 英里远</string>
-    <string name="MetersFromYou2">距您 %1$s 米</string>
-    <string name="KMetersFromYou2">距您 %1$s 公里</string>
+    <string name="MetersFromYou2">距离您约 %1$s 米</string>
+    <string name="KMetersFromYou2">距离您约 %1$s 公里</string>
     <string name="FootsFromYou">距您 %1$s 英尺</string>
     <string name="MilesFromYou">距您 %1$s 英里</string>
     <string name="Directions">路线</string>
@@ -2401,7 +2401,7 @@
     <string name="PaintDelete">删除</string>
     <string name="PaintEdit">编辑</string>
     <string name="PaintPen">画笔</string>
-    <string name="PaintMarker">记号笔</string>
+    <string name="PaintMarker">马克笔</string>
     <string name="PaintNeon">荧光笔</string>
     <string name="PaintArrow">箭头</string>
     <string name="PaintDuplicate">复制</string>
@@ -2582,9 +2582,9 @@
     <string name="P2PNobodyPlus">不允许任何人 (+%1$d)</string>
     <string name="SecurityTitle">安全</string>
     <string name="DeleteAccountTitle">帐号保留期限</string>
-    <string name="NewChatsFromNonContacts">未知用户的新聊天</string>
-    <string name="ArchiveAndMute">归档及静音</string>
-    <string name="ArchiveAndMuteInfo">自动归档及静音非联系人的新聊天、群组和频道。</string>
+    <string name="NewChatsFromNonContacts">来自未知用户的新对话</string>
+    <string name="ArchiveAndMute">归档和关闭通知</string>
+    <string name="ArchiveAndMuteInfo">自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。</string>
     <string name="DeleteMyAccount">删除我的账号</string>
     <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
     <string name="DeleteAccountIfAwayFor3">保留</string>
@@ -3023,8 +3023,8 @@
     <string name="NoCallLog">您还没有拨打过任何电话。</string>
     <string name="VoipPeerIncompatible">**%1$s** 的应用使用了不兼容的协议。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
     <string name="VoipPeerOutdated">**%1$s** 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。</string>
-    <string name="VoipPeerVideoOutdated">Sorry, **%1$s** is using an old version of Telegram that doesn\'t support video calls.</string>
-    <string name="VoipPeerVideoOutdatedMakeVoice">Make a voice call</string>
+    <string name="VoipPeerVideoOutdated">抱歉，**%1$s** 使用的是不支持视频通话的旧版 Telegram。</string>
+    <string name="VoipPeerVideoOutdatedMakeVoice">拨打语音电话</string>
     <string name="VoipRateCallAlert">请对此次 Telegram Call 的质量作出评价</string>
     <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风来拨打电话。</string>
     <string name="VoipNeedMicCameraPermission">Telegram 电报需要访问您的麦克风和摄像头，以便您可以进行视频通话。</string>
@@ -3036,7 +3036,7 @@
     <string name="CallViaTelegram">Telegram 通话</string>
     <string name="VideoCallViaTelegram">Telegram 视频通话</string>
     <string name="VoipAudioRoutingEarpiece">听筒</string>
-    <string name="VoipAudioRoutingHeadset">Headset</string>
+    <string name="VoipAudioRoutingHeadset">耳机</string>
     <string name="VoipAudioRoutingSpeaker">扬声器</string>
     <string name="VoipAudioRoutingBluetooth">蓝牙耳机</string>
     <string name="VoipOutputDevices">输出设备</string>
@@ -3067,8 +3067,8 @@
     <string name="RateCallSilentLocal">我听不到对方的声音</string>
     <string name="RateCallSilentRemote">对方听不到我的声音</string>
     <string name="RateCallDropped">通话意外结束</string>
-    <string name="RateCallVideoDistorted">Video was distorted</string>
-    <string name="RateCallVideoPixelated">Video was pixelated</string>
+    <string name="RateCallVideoDistorted">视频被扭曲了</string>
+    <string name="RateCallVideoPixelated">视频被像素化</string>
     <string name="TapToTurnCamera">点击这里开启摄像头</string>
     <string name="VoipUnmute">麦克风</string>
     <string name="VoipMute">麦克风</string>
@@ -3082,10 +3082,10 @@
     <string name="VoipUserCameraIsOff">%s的摄像头未打开</string>
     <string name="AcceptCall">接听</string>
     <string name="DeclineCall">拒绝</string>
-    <string name="RetryCall">Retry</string>
+    <string name="RetryCall">重拨</string>
     <string name="VoipVideoUnavailable">视频</string>
     <!--contacts shortcuts-->
-    <string name="ContactShortcutMessage">Message %1$s</string>
+    <string name="ContactShortcutMessage">消息 %1$s</string>
     <string name="ContactShortcutVoiceCall">语音通话 %1$s</string>
     <string name="ContactShortcutVideoCall">视频通话 %1$s</string>
     <!--plural-->
@@ -3680,7 +3680,7 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
-    <string name="VoipReconnecting">Reconnecting</string>
+    <string name="VoipReconnecting">重新连接中</string>
 
   <!-- new from translations.telegram.org -->
 

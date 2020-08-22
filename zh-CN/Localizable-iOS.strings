@@ -5533,9 +5533,9 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Timer.Title" = "限时消息";
 "Conversation.Timer.Send" = "限时消息";
 
-"Paint.Pen" = "钢笔";
-"Paint.Marker" = "记号笔";
-"Paint.Neon" = "霓虹灯";
+"Paint.Pen" = "画笔";
+"Paint.Marker" = "马克笔";
+"Paint.Neon" = "马克笔";
 "Paint.Arrow" = "箭头";
 
 "Conversation.NoticeInvitedByInChannel" = "%@ 邀请您加入此频道";
@@ -5556,9 +5556,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
+"Conversation.PeerNearbyTitle" = "%1$@ 距离您约 %2$@";
+"Conversation.PeerNearbyText" = "发送消息或点击下面的问候语表明您已准备好聊天。";
+"Conversation.PeerNearbyDistance" = "%1$@ 距离您约 %2$@";
 
 
 
@@ -5636,8 +5636,8 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
+"PrivacySettings.AutoArchive" = "归档和关闭通知";
+"PrivacySettings.AutoArchiveInfo" = "自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。";
 
 
 

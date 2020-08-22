@@ -2487,9 +2487,9 @@
 "PrivacyAndSecurity.SensitiveText" = "关闭过滤";
 "PrivacyAndSecurity.SensitiveDesc" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
 
-
-
-
+"PrivacyAndSecurity.AutoArchiveHeader" = "来自未知用户的新对话";
+"PrivacyAndSecurity.AutoArchiveText" = "归档和关闭通知";
+"PrivacyAndSecurity.AutoArchiveDesc" = "自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。";
 
 "PrivacyAndSecurity.SecretChatWebPreview.Header" = "加密对话";
 "PrivacyAndSecurity.SecretChatWebPreview.Text" = "链接预览";

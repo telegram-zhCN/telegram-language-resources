@@ -370,6 +370,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_adaptive_wide" = "宽屏时消息左对齐";
 
 "lng_settings_section_call_settings" = "通话设置";
+
 "lng_settings_call_section_output" = "扬声器和耳机";
 "lng_settings_call_section_input" = "麦克风";
 "lng_settings_call_input_device" = "输入设备";
@@ -424,9 +425,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_passcode_title" = "设置锁定码";
 "lng_settings_password_title" = "两步验证";
 "lng_settings_sessions_title" = "已登录的设备";
-
-
-
+"lng_settings_new_unknown" = "来自未知用户的新对话";
+"lng_settings_auto_archive" = "归档和关闭通知";
+"lng_settings_auto_archive_about" = "自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。";
 "lng_settings_destroy_title" = "帐号保留期限";
 "lng_settings_network_proxy" = "网络与代理";
 "lng_settings_version_info" = "版本与更新";
@@ -1219,6 +1220,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_recent_stickers" = "近期使用过";
 "lng_faved_stickers_add" = "添加到收藏夹";
 "lng_faved_stickers_remove" = "从收藏中移除";
+
 "lng_group_stickers" = "群组贴纸包";
 "lng_group_stickers_description" = "您可以选择一个贴纸包供全体成员使用。";
 "lng_group_stickers_add" = "选择贴纸包";
@@ -1468,7 +1470,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_copy_text" = "复制文本";
 "lng_context_open_gif" = "打开 GIF";
 "lng_context_save_gif" = "保存到 GIF 库";
-
+"lng_context_delete_gif" = "删除 GIF";
 "lng_context_attached_stickers" = "装饰";
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
@@ -1724,6 +1726,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_call_error_not_available" = "抱歉，由于 {user} 的隐私设置，您无法与其进行通话。";
 "lng_call_error_outdated" = "{user} 的应用不支持通话。在您能够呼叫对方之前，对方必须先更新自己的应用。";
+
+
+
 "lng_call_error_audio_io" = "您的声卡似乎有问题，请您检查您的音响和麦克风后再试。";
 
 "lng_call_bar_hangup" = "结束通话";
