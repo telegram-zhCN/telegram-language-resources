@@ -342,9 +342,9 @@
     <string name="ChannelPublicEmptyUsernameTitle">选择链接</string>
     <string name="ChannelPublicEmptyUsername">请为您的公开频道设置一个链接，以便他人能通过搜索找到此频道并分享给他人。\n\n如果您对此不感兴趣，我们建议您创建一个私人频道。</string>
     <string name="ActionCreateChannel">频道已创建</string>
-    <string name="ActionChannelChangedPhoto">频道图片已更换</string>
+    <string name="ActionChannelChangedPhoto">频道头像已更改</string>
     <string name="ActionChannelChangedVideo">频道视频已更换</string>
-    <string name="ActionChannelRemovedPhoto">频道头像已删除</string>
+    <string name="ActionChannelRemovedPhoto">频道头像已移除</string>
     <string name="ActionChannelChangedTitle">频道名称已修改为 un2</string>
     <string name="ChangePublicLimitReached">抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。</string>
     <string name="ChannelCreator">创建者</string>
@@ -382,7 +382,7 @@
     <string name="ChannelCantSendMessage">抱歉，您不能在此频道中发布内容。</string>
     <string name="ChannelAddedByNotification">%1$s 将您添加到了 %2$s 频道</string>
     <string name="ChannelPhotoEditNotification">%1$s 更新了频道头像</string>
-    <string name="ChannelVideoEditNotification">频道%1$s更新了其视频</string>
+    <string name="ChannelVideoEditNotification">频道 %1$s 更新了其动态头像</string>
     <string name="ChannelMessageNoText">%1$s 发布了一条消息</string>
     <string name="ChannelMessagePhoto">%1$s 发布了一张图片</string>
     <string name="ChannelMessageVideo">%1$s 发布了一段视频</string>
@@ -628,12 +628,12 @@
     <string name="EventLogChannelRestricted">封禁了 %1$s</string>
     <string name="EventLogChannelUnrestricted">解封了 %1$s</string>
     <string name="EventLogChannelJoined">un1 加入了频道</string>
-    <string name="EventLogEditedGroupPhoto">un1 设置了新的群组标识</string>
-    <string name="EventLogEditedChannelPhoto">un1 设置了新的频道标识</string>
-    <string name="EventLogEditedGroupVideo">un1设置了新的群组视频</string>
-    <string name="EventLogEditedChannelVideo">un1设置了新频道视频</string>
-    <string name="EventLogRemovedWGroupPhoto">un1 删除了群组头像</string>
-    <string name="EventLogRemovedChannelPhoto">un1 删除了频道头像</string>
+    <string name="EventLogEditedGroupPhoto">un1 设置了新的群组头像</string>
+    <string name="EventLogEditedChannelPhoto">un1 设置了新的频道头像</string>
+    <string name="EventLogEditedGroupVideo">un1 设置一个新的群组动态头像</string>
+    <string name="EventLogEditedChannelVideo">un1 设置一个新的频道动态头像</string>
+    <string name="EventLogRemovedWGroupPhoto">un1 移除了群组头像</string>
+    <string name="EventLogRemovedChannelPhoto">un1 移除了频道头像</string>
     <string name="EventLogEditedMessages">un1 编辑了这条消息:</string>
     <string name="EventLogEditedCaption">un1 编辑了说明:</string>
     <string name="EventLogEditedMedia">un1 编辑了媒体:</string>
@@ -1068,7 +1068,7 @@
     <string name="NotificationInvitedToGroup">"%1$s 邀请您加入群组 %2$s "</string>
     <string name="NotificationEditedGroupName">%1$s 重命名了群组 %2$s</string>
     <string name="NotificationEditedGroupPhoto">%1$s 更改了群组 %2$s 的头像</string>
-    <string name="NotificationEditedGroupVideo">%1$s更换了%2$s的群组视频</string>
+    <string name="NotificationEditedGroupVideo">%1$s 更改了 %2$s 的群组动态头像</string>
     <string name="NotificationGroupAddMember">"%1$s 邀请了 %3$s 加入群组 %2$s "</string>
     <string name="NotificationGroupAddSelf">%1$s 回到了群组 %2$s</string>
     <string name="NotificationGroupAddSelfMega">%1$s 加入了群组 %2$s</string>
@@ -2685,8 +2685,8 @@
     <string name="ActionKickUser">un1 移除了 un2</string>
     <string name="ActionLeftUser">un1 退出了群组</string>
     <string name="ActionAddUser">un1 添加了 un2</string>
-    <string name="ActionRemovedPhoto">un1 删除了群组标识</string>
-    <string name="ActionChangedPhoto">un1 更换了群组头像</string>
+    <string name="ActionRemovedPhoto">un1 移除了群组头像</string>
+    <string name="ActionChangedPhoto">un1 更改了群组头像</string>
     <string name="ActionChangedVideo">un1变更了群组视频</string>
     <string name="ActionChangedTitle">un1 将群组名称更改为 un2</string>
     <string name="ActionCreateGroup">un1 创建了此群组</string>
@@ -2697,8 +2697,8 @@
     <string name="ActionUserScored">un1 获得了 %1$s 分</string>
     <string name="ActionYouScoredInGame">你在 un2 中获得 %1$s 分</string>
     <string name="ActionUserScoredInGame">un1 在 un2 中获得 %1$s 分</string>
-    <string name="ActionYouRemovedPhoto">您删除了群组头像</string>
-    <string name="ActionYouChangedPhoto">您更换了群组头像</string>
+    <string name="ActionYouRemovedPhoto">您移除了群组头像</string>
+    <string name="ActionYouChangedPhoto">您更改了群组头像</string>
     <string name="ActionYouChangedVideo">您更换了群组视频</string>
     <string name="ActionYouChangedTitle">您将群组名称更改为 un2</string>
     <string name="ActionYouCreateGroup">您创建了此群组</string>
@@ -2917,7 +2917,7 @@
     <string name="ActionsChartTitle">操作</string>
     <string name="MembersOverviewTitle">成员</string>
     <string name="MessagesOverview">消息</string>
-    <string name="ViewingMembers">预览成员</string>
+    <string name="ViewingMembers">浏览消息的成员</string>
     <string name="PostingMembers">发布成员</string>
     <string name="Characters_zero">%1$d 个符号</string>
     <string name="Characters_one">%1$d 个符号</string>
@@ -2949,11 +2949,11 @@
     <string name="Invitations_few">%1$d 次邀请</string>
     <string name="Invitations_many">%1$d 次邀请</string>
     <string name="Invitations_other">%1$d 次邀请</string>
-    <string name="TopAdmins">Top admins</string>
-    <string name="TopMembers">Top members</string>
+    <string name="TopAdmins">活跃管理员</string>
+    <string name="TopMembers">活跃成员</string>
     <string name="TopInviters">Top inviters</string>
     <string name="CharactersPerMessage">%s 字每条消息</string>
-    <string name="TopDaysOfWeekChartTitle">本周头号日</string>
+    <string name="TopDaysOfWeekChartTitle">每周活跃的日子</string>
     <string name="StatisticSearchUserHistory">查看消息</string>
     <string name="StatisticOpenProfile">打开个人资料</string>
     <!--Intro view-->

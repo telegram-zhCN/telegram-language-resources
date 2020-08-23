@@ -844,8 +844,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_copy_phone" = "复制手机号码";
 "lng_profile_copy_fullname" = "复制名字";
 "lng_profile_drop_area_title" = "拖拽图片到此处";
-"lng_profile_drop_area_subtitle" = "设置为群组图片";
-"lng_profile_drop_area_subtitle_channel" = "设置为频道图片";
+"lng_profile_drop_area_subtitle" = "以设置为群组头像";
+"lng_profile_drop_area_subtitle_channel" = "以设置为频道头像";
 "lng_profile_top_bar_share_contact" = "分享";
 
 "lng_profile_info_section" = "信息";
@@ -1020,7 +1020,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_link_available" = "该链接可用";
 "lng_create_channel_link_copied" = "链接已复制到剪贴板";
 
-"lng_create_group_crop" = "选择合适区域作为群组标识";
+"lng_create_group_crop" = "选择群组头像照片的范围";
 "lng_create_channel_crop" = "截取一个区域作为头像";
 
 "lng_failed_add_participant" = "无法邀请这位用户。请稍后再试。";
@@ -1060,10 +1060,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_user_joined" = "{from} 加入了群组";
 "lng_action_user_joined_by_link" = "{from} 通过邀请链接加入了群组";
 "lng_action_user_registered" = "{from} 加入了 Telegram";
-"lng_action_removed_photo" = "{from} 删除了群组图片";
-"lng_action_removed_photo_channel" = "频道头像已删除";
-"lng_action_changed_photo" = "{from} 更换了群组图片";
-"lng_action_changed_photo_channel" = "频道头像已更换";
+"lng_action_removed_photo" = "{from} 移除了群组头像";
+"lng_action_removed_photo_channel" = "频道头像已移除";
+"lng_action_changed_photo" = "{from} 更新了群组头像";
+"lng_action_changed_photo_channel" = "频道头像已更新";
 "lng_action_changed_title" = "{from} 将群组名称更改为 «{title}»";
 "lng_action_changed_title_channel" = "频道名称已更改为 «{title}»";
 "lng_action_created_chat" = "{from} 创建了群组 «{title}»";
@@ -1922,9 +1922,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_changed_link_channel" = "{from} 更换了频道链接：";
 "lng_admin_log_removed_link_channel" = "{from} 移除了频道链接";
 "lng_admin_log_previous_link" = "旧链接";
-"lng_admin_log_changed_photo_group" = "{from} 更换了群组标识";
-"lng_admin_log_changed_photo_channel" = "{from} 更换了频道头像";
-"lng_admin_log_removed_photo_group" = "{from} 删除了群组头像";
+"lng_admin_log_changed_photo_group" = "{from} 更改了群组头像";
+"lng_admin_log_changed_photo_channel" = "{from} 更改了频道头像";
+"lng_admin_log_removed_photo_group" = "{from} 移除了群组头像";
 "lng_admin_log_removed_photo_channel" = "{from} 移除了频道头像";
 "lng_admin_log_invites_enabled" = "{from} 启用了群组邀请";
 "lng_admin_log_invites_disabled" = "{from} 禁用了群组邀请";

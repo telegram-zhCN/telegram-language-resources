@@ -88,7 +88,7 @@
 "PeerInfo.bio" = "个人简介";
 "PeerInfo.scam" = "scam";
 "PeerInfo.info" = "信息";
-"PeerInfo.SetGroupPhoto" = "设置群组图片";
+"PeerInfo.SetGroupPhoto" = "设置群组头像";
 "PeerInfo.AddMember" = "邀请新成员";
 "PeerInfo.DeleteAndExit" = "删除并退出";
 "PeerInfo.DeleteGroup" = "删除群组";
@@ -254,10 +254,10 @@
 "Chat.Service.PeerJoinedTelegram" = "%@ 加入了 Telegram";
 
 
-"Chat.Service.Group.UpdatedPhoto" = "%@ 更换了群组图片";
-"Chat.Service.Group.RemovedPhoto" = "%@ 删除了群组头像";
+"Chat.Service.Group.UpdatedPhoto" = "%@ 更改了群组头像";
+"Chat.Service.Group.RemovedPhoto" = "%@ 移除了群组头像";
 "Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";
-"Chat.Service.Channel.RemovedPhoto" = "频道头像已删除";
+"Chat.Service.Channel.RemovedPhoto" = "频道头像已移除";
 
 "Chat.Service.Group.UpdatedVideo" = "%@ 更改了群视频";
 "Chat.Service.Channel.UpdatedVideo" = "频道视频已更新";
@@ -1009,7 +1009,7 @@
 "ChatList.Service.Call.incoming" = "拨入电话 (%@)";
 "ChatList.Service.Call.outgoing" = "拨出电话 (%@)";
 
-
+"ChatList.Service.VideoCall.incoming" = "拨入视频通话 (%@)";
 
 
 "ChatList.Service.Call.Cancelled" = "已取消的通话";
@@ -1540,7 +1540,7 @@
 
 
 "Group.EventLog.Service.PhotoUpdated" = "%@ updated the group's photo";
-"Group.EventLog.Service.PhotoRemoved" = "%@ 删除了群组头像";
+"Group.EventLog.Service.PhotoRemoved" = "%@ 移除了群组头像";
 "Channel.EventLog.Service.PhotoUpdated" = "%@ 更换了频道头像";
 "Channel.EventLog.Service.PhotoRemoved" = "%@ 移除了频道头像";
 
@@ -4085,7 +4085,7 @@
 
 
 
-
+"Stats.GroupViewers" = "浏览消息的成员";
 
 
 "Stats.GroupGrowthTitle" = "上升";
@@ -4093,11 +4093,11 @@
 
 "Stats.GroupLanguagesTitle" = "成员主要语言";
 "Stats.GroupMessagesTitle" = "消息";
-
-
-
-
-
+"Stats.GroupActionsTitle" = "操作";
+"Stats.GroupTopHoursTitle" = "活跃时间段";
+"Stats.GroupTopWeekdaysTitle" = "每周活跃的日子";
+"Stats.GroupTopPostersTitle" = "活跃成员";
+"Stats.GroupTopAdminsTitle" = "活跃管理员";
 
 
 
@@ -4128,6 +4128,7 @@
 
 
 
+"Stats.GroupTopAdminDeletions_other" = "%d 次删除";
 
 
 
@@ -4146,8 +4147,7 @@
 
 
 
-
-
+"Stats.GroupTopAdmin.Actions" = "操作";
 
 
 
@@ -4210,7 +4210,7 @@
 "Call.CameraUnavailable" = "摄像头不可用\n[设置]()";
 "Call.Toast.CameraOff" = "%@的摄像头未打开";
 "Call.Toast.MicroOff" = "%@的麦克风未打开";
-
+"Call.Toast.LowBattery" = "%@ 的电池电量过低";
 
 
 

@@ -39,7 +39,7 @@
 "PUSH_CHAT_MESSAGE_GIF" = "%2$@|%1$@: 📹 GIF";
 "PUSH_CHAT_CREATED" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_TITLE_EDITED" = "%2$@|%1$@ 更改了群组名称";
-"PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ 更改了群组头像";
+"PUSH_CHAT_PHOTO_EDITED" = "%2$@|%1$@ 编辑了群组头像";
 "PUSH_CHAT_ADD_MEMBER" = "%2$@|%1$@ 邀请了 %3$@ 加入群组";
 "PUSH_CHAT_ADD_YOU" = "%2$@|%1$@ 邀请您加入群组";
 "PUSH_CHAT_DELETE_YOU" = "%2$@|%1$@ 已将您从群组中移除";
@@ -515,8 +515,8 @@
 // Notification
 "Notification.RenamedChat" = "%@ 更改了群组名称";
 "Notification.RenamedChannel" = "频道名称已更改";
-"Notification.ChangedGroupPhoto" = "%@ 更换了群组图片";
-"Notification.RemovedGroupPhoto" = "%@ 删除了群组图片";
+"Notification.ChangedGroupPhoto" = "%@ 更改了群组头像";
+"Notification.RemovedGroupPhoto" = "%@ 移除了群组头像";
 "Notification.JoinedChat" = "%@ 加入了群组";
 "Notification.JoinedChannel" = "%@ 加入了频道";
 "Notification.Invited" = "%@ 邀请了 %@";
@@ -640,7 +640,7 @@
 "GroupInfo.Title" = "群组信息";
 "GroupInfo.GroupNamePlaceholder" = "群组名称";
 
-"GroupInfo.SetGroupPhoto" = "设置群组图片";
+"GroupInfo.SetGroupPhoto" = "设置群组头像";
 "GroupInfo.SetGroupPhotoStop" = "停止";
 "GroupInfo.SetGroupPhotoDelete" = "移除头像";
 "GroupInfo.Notifications" = "消息通知";
@@ -1126,7 +1126,7 @@
 
 "SharedMedia.EmptyTitle" = "暂无媒体文件";
 "SharedMedia.EmptyText" = "快在这个会话里分享一些照片或者视频吧\n——不然这个回形针会继续不嗨森。";
-"SharedMedia.EmptyFilesText" = "您可以发送和收取上限为 1.5G 的任意文件，\n并在所有设备上访问。";
+"SharedMedia.EmptyFilesText" = "您可以发送和收取上限为 2G 的任意文件，\n并在所有设备上访问。";
 
 "ShareFileTip.Title" = "分享文件";
 "ShareFileTip.Text" = "通过这里选择，并**无损**发送相机胶卷中的照片。\n\n如要分享其他类型的文件，请在 %@（例如浏览器）中打开它们，点按在 **通过其他应用打开** 或在分享按钮中选择「Telegram」打开。";
@@ -1516,8 +1516,8 @@
 "Compose.NewChannel" = "新建频道";
 "GroupInfo.ChannelListNamePlaceholder" = "频道名称";
 
-"Channel.MessagePhotoUpdated" = "频道头像已更换";
-"Channel.MessagePhotoRemoved" = "频道头像已删除";
+"Channel.MessagePhotoUpdated" = "频道头像已更新";
+"Channel.MessagePhotoRemoved" = "频道头像已移除";
 "Channel.MessageTitleUpdated" = "频道名称已更改为 \"%@\"";
 "Channel.TitleInfo" = "频道详情";
 
@@ -1654,7 +1654,7 @@
 "ChatAdmins.AdminLabel" = "管理员";
 
 "Group.MessagePhotoUpdated" = "群组头像已更新";
-"Group.MessagePhotoRemoved" = "群组头像已删除";
+"Group.MessagePhotoRemoved" = "群组头像已移除";
 
 "Group.UpgradeNoticeHeader" = "成员人数已达上限";
 
@@ -2238,13 +2238,13 @@ Unused sets are archived when you add more.";
 "NetworkUsageSettings.CellularUsageSince" = "自 %@ 的蜂窝移动网络用量";
 "NetworkUsageSettings.WifiUsageSince" = "自 %@ 的 Wi-Fi 用量";
 
-"Settings.CallSettings" = "语音通话";
+"Settings.CallSettings" = "通话";
 
 "Calls.TabTitle" = "呼叫";
 "Calls.All" = "全部";
 "Calls.Missed" = "未接";
 
-"CallSettings.Title" = "语音通话";
+"CallSettings.Title" = "通话";
 "CallSettings.RecentCalls" = "最近呼叫";
 "CallSettings.TabIcon" = "显示呼叫面板";
 "CallSettings.TabIconDescription" = "「呼叫」图标将显示在标签栏上。";
@@ -2431,7 +2431,7 @@ Unused sets are archived when you add more.";
 
 "Call.StatusIncoming" = "Telegram 语音...";
 "Call.IncomingVoiceCall" = "拨入语音通话";
-
+"Call.IncomingVideoCall" = "拨入视频通话";
 "Call.StatusRequesting" = "连接中...";
 "Call.StatusWaiting" = "等待中...";
 "Call.StatusRinging" = "响铃中...";
@@ -2447,7 +2447,7 @@ Unused sets are archived when you add more.";
 
 "Call.ParticipantVersionOutdatedError" = "%@ 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。";
 
-"Privacy.Calls" = "语音通话";
+"Privacy.Calls" = "通话";
 
 "Privacy.Calls.WhoCanCallMe" = "谁可以呼叫我";
 "Privacy.Calls.CustomHelp" = "您可以精确地控制谁可以与您语音通话。";
@@ -2474,7 +2474,7 @@ Unused sets are archived when you add more.";
 
 "Call.CallInProgressTitle" = "正在通话中";
 "Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
-
+"Call.ExternalCallInProgressMessage" = "请先结束当前的通话。";
 
 "Call.Message" = "输入消息";
 
@@ -3028,7 +3028,7 @@ Unused sets are archived when you add more.";
 
 "InfoPlist.NSContactsUsageDescription" = "为了让您能够在您所有的设备上联系您的朋友，Telegram 会持续上传您的联系人信息到它高度加密的云端服务器上。";
 "InfoPlist.NSLocationWhenInUseUsageDescription" = "Telegram 需要此权限以便向朋友发送位置。";
-"InfoPlist.NSCameraUsageDescription" = "我们需要它来拍照或录像。";
+"InfoPlist.NSCameraUsageDescription" = "我们需要此权限，这样您就可以拍摄和分享照片和视频，以及进行视频通话。";
 "InfoPlist.NSPhotoLibraryUsageDescription" = "我们需要它来分享图库中的照片和视频。";
 "InfoPlist.NSPhotoLibraryAddUsageDescription" = "我们需要它来保存照片和视频到您的图库。";
 "InfoPlist.NSMicrophoneUsageDescription" = "我们需要它来录制语音和视频留言。";
@@ -5567,9 +5567,9 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
+"Stats.GroupMembers" = "成员";
+"Stats.GroupMessages" = "消息";
+"Stats.GroupViewers" = "浏览消息的成员";
 
 
 "Stats.GroupGrowthTitle" = "上升";
@@ -5577,6 +5577,11 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupNewMembersBySourceTitle" = "新成员来源";
 "Stats.GroupLanguagesTitle" = "成员主要语言";
 "Stats.GroupMessagesTitle" = "消息";
+"Stats.GroupActionsTitle" = "操作";
+"Stats.GroupTopHoursTitle" = "活跃时间段";
+"Stats.GroupTopWeekdaysTitle" = "每周活跃的日子";
+"Stats.GroupTopPostersTitle" = "活跃成员";
+"Stats.GroupTopAdminsTitle" = "活跃管理员";
 
 
 
@@ -5584,12 +5589,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
-
-
-
+"Stats.GroupTopPosterMessages_any" = "%@ 个消息";
 
 
 
@@ -5606,6 +5606,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Stats.GroupTopAdminDeletions_any" = "%@ 次删除";
 
 
 
@@ -5621,6 +5622,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Stats.GroupTopAdmin.Actions" = "操作";
 
 
 
@@ -5630,9 +5632,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
-
-
+"Stats.GroupTopInviter.History" = "聊天记录";
 
 
 
@@ -5729,7 +5729,7 @@ Any member of this group will be able to see messages in the channel.";
 "Call.YourMicrophoneOff" = "您的麦克风未打开";
 "Call.MicrophoneOff" = "%@的麦克风未打开";
 "Call.CameraOff" = "%@的摄像头未打开";
-
+"Call.BatteryLow" = "%@ 的电池电量过低";
 
 
 
@@ -5979,6 +5979,7 @@ Any member of this group will be able to see messages in the channel.";
 "PassportKit.Button.Title" = "通过 Telegram 登录";
 "Peer.DeletedUser" = "已删除用户";
 "PeerInfo.PaneVoice" = "语音留言";
+"Settings.EditProfileMedia" = "编辑";
 "SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
 "StickerPacksSettings.ArchivedMasks.Info" = "你可以拥有最多 200 套装饰。\n未使用的装饰将在你添加更多的装饰时被归档。";
 "Undo.MessagesDeleted" = "消息已删除";
