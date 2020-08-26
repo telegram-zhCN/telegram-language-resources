@@ -5589,7 +5589,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-"Stats.GroupTopPosterMessages_any" = "%@ 个消息";
+"Stats.GroupTopPosterMessages_any" = "%@ 条消息";
 
 
 
