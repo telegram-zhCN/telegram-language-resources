@@ -1811,7 +1811,7 @@
   <string name="CustomTitle">自定义头衔</string>
   <string name="CustomTitleHint">一个自定义的头衔将展示给所有成员而不是“%1$s”。</string>
   <string name="WhoCanCallMe">谁可以打电话给我？</string>
-  <string name="UseP2PWith">与谁通话使用点对点传输？</string>
+  <string name="UseP2PWith">与谁通话使用端到端连接？</string>
   <string name="PrivacyLastSeenExceptionOn">可见</string>
   <string name="PrivacyLastSeenExceptionOff">隐藏</string>
   <string name="PrivacyLastSeenExceptionContacts">仅联系人可见</string>
@@ -3412,7 +3412,7 @@
   <string name="PollPreview">投票: %1$s</string>
   <string name="PriorityAboutLow">低优先级通知将显示在系统状态栏中且不会发起通知。</string>
   <string name="PriorityMedium">中</string>
-  <string name="PrivacyCallsP2PTitle">P2P传输</string>
+  <string name="PrivacyCallsP2PTitle">端到端连接</string>
   <string name="Private">私人</string>
   <string name="QDeleteX">删除 %1$s？</string>
   <string name="QDeleteXFromY">从 %2$s 删除 %1$s？</string>

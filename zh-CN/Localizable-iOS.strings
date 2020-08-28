@@ -2741,7 +2741,7 @@ Unused sets are archived when you add more.";
 
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
-"Privacy.Calls.P2P" = "P2P传输";
+"Privacy.Calls.P2P" = "端到端连接";
 "Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
 
 "Privacy.Calls.Integration" = "iOS 通话集成";
@@ -5533,7 +5533,7 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.Timer.Title" = "限时消息";
 "Conversation.Timer.Send" = "限时消息";
 
-"Paint.Pen" = "画笔";
+"Paint.Pen" = "钢笔";
 "Paint.Marker" = "马克笔";
 "Paint.Neon" = "马克笔";
 "Paint.Arrow" = "箭头";
@@ -5582,7 +5582,7 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupTopWeekdaysTitle" = "每周活跃的日子";
 "Stats.GroupTopPostersTitle" = "活跃成员";
 "Stats.GroupTopAdminsTitle" = "活跃管理员";
-
+"Stats.GroupTopInvitersTitle" = "最佳邀请者";
 
 
 
@@ -5646,7 +5646,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Conversation.Unarchive" = "取消归档";
 
 
 "ChatList.AutoarchiveSuggestion.Title" = "隐藏新对话?";
@@ -5715,7 +5715,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Cache.MaximumCacheSize" = "最大缓存占用";
 "Cache.NoLimit" = "无限制";
-"Cache.MaximumCacheSizeHelp" = "如果缓存大小超出此限制，最早的媒体将被删除。\n\n所有媒体都会保留在Telegram服务器中，可按需要重新下载。";
+"Cache.MaximumCacheSizeHelp" = "如果您的缓存大小超出此限制，则最旧的媒体将被删除。\n\n所有媒体仍然会保留在 Telegram 云服务器中，如果有需要，可重新下载。";
 
 
 

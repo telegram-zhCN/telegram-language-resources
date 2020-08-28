@@ -1174,7 +1174,7 @@
     <string name="JoinToGroupErrorFull">抱歉，此群组已满员。</string>
     <string name="JoinToGroupErrorNotExist">抱歉，该对话似乎不存在。</string>
     <string name="JoinByPeekChannelText">此频道是私人的。请加入以继续浏览其内容。</string>
-    <string name="JoinByPeekGroupText">请加入私有群组以便查看内容。</string>
+    <string name="JoinByPeekGroupText">此群组是私人的。请加入以继续浏览其内容。</string>
     <string name="JoinByPeekChannelTitle">加入频道</string>
     <string name="JoinByPeekGroupTitle">加入群组</string>
     <string name="JoinByPeekJoin">加入</string>
@@ -2384,7 +2384,7 @@
     <string name="AreYouSureDeleteVideoEveryone">Are you sure you want to delete this video for everyone?</string>
     <string name="AreYouSureDeleteGIFEveryone">您确定要为所有人删除此 GIF 吗？</string>
     <string name="DiscardChanges">要放弃修改吗？</string>
-    <string name="PhotoEditorDiscardAlert">您确定要放弃所有变更吗？</string>
+    <string name="PhotoEditorDiscardAlert">您确定要放弃所有更改吗？</string>
     <string name="ClearSearch">是否清除搜索历史？</string>
     <string name="ClearSearchAlert">您确定要清除搜索记录吗？</string>
     <string name="ClearSearchAlertTitle">清除搜索记录</string>
@@ -2400,7 +2400,7 @@
     <string name="Caption">说明</string>
     <string name="PaintDelete">删除</string>
     <string name="PaintEdit">编辑</string>
-    <string name="PaintPen">画笔</string>
+    <string name="PaintPen">钢笔</string>
     <string name="PaintMarker">马克笔</string>
     <string name="PaintNeon">荧光笔</string>
     <string name="PaintArrow">箭头</string>
@@ -2489,7 +2489,7 @@
     <string name="RestoreEmailSent">我们已经将验证码发送到您的邮箱：\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">请查阅您的邮件并输入我们发送给您的六位数字。</string>
     <string name="RestoreEmailTrouble">无法访问您的电子邮箱  %1$s ？</string>
-    <string name="RestoreEmailTroubleNoEmail">无法查看邮件？</string>
+    <string name="RestoreEmailTroubleNoEmail">无法访问您的电子邮件？</string>
     <string name="RestoreEmailTroubleText">如果无法访问您的电子邮箱，那么您将只能想起密码或重置账户。</string>
     <string name="ResetMyAccount">重置我的帐号</string>
     <string name="ResetMyAccountText">如果您继续重置帐号，您将丢失所有对话与消息，以及您共享的所有媒体和文件。</string>
@@ -2554,7 +2554,7 @@
     <string name="PrivacyForwardsMessageLine">莱因哈特，我们需要给你找点新的音乐&#127926;。</string>
     <string name="PrivacyP2PHeader">端到端连接</string>
     <string name="PrivacyP2P">端到端通话</string>
-    <string name="PrivacyP2P2">与谁通话使用点对点传输</string>
+    <string name="PrivacyP2P2">与谁通话使用端到端连接</string>
     <string name="PrivacyBots">机器人与网站</string>
     <string name="PrivacyPaymentsClear">清除付款和配送信息</string>
     <string name="PrivacyPaymentsClearAlertTitle">清空付款信息</string>
@@ -2585,7 +2585,7 @@
     <string name="NewChatsFromNonContacts">来自未知用户的新对话</string>
     <string name="ArchiveAndMute">归档和关闭通知</string>
     <string name="ArchiveAndMuteInfo">自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。</string>
-    <string name="DeleteMyAccount">删除我的账号</string>
+    <string name="DeleteMyAccount">帐号保留期限</string>
     <string name="DeleteAccountIfAwayFor2">帐号保留期限</string>
     <string name="DeleteAccountIfAwayFor3">保留</string>
     <string name="DeleteAccountHelp">您在这段时间内至少要上线一次，否则您的帐号将被删除，您也将失去所有消息记录和联系人。</string>
@@ -2612,7 +2612,7 @@
     <string name="InviteToGroupError">抱歉，根据此用户的隐私设置，您不能将其添加到群组。</string>
     <string name="InviteToChannelError">抱歉，根据此用户的隐私设置，您不能将其添加到频道。</string>
     <string name="CreateGroupError">抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。</string>
-    <string name="PrivacyCallsP2PHelp">禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
+    <string name="PrivacyCallsP2PHelp">禁用端到端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
     <string name="SyncContactsDelete">清空云端通讯录</string>
     <string name="SuggestContacts">推荐频繁往来的联系人</string>
     <string name="SuggestContactsInfo">在搜索区顶部展示与您频繁有消息往来的用户以便快速访问。</string>
@@ -2951,7 +2951,7 @@
     <string name="Invitations_other">%1$d 次邀请</string>
     <string name="TopAdmins">活跃管理员</string>
     <string name="TopMembers">活跃成员</string>
-    <string name="TopInviters">Top inviters</string>
+    <string name="TopInviters">最佳邀请者</string>
     <string name="CharactersPerMessage">%s 字每条消息</string>
     <string name="TopDaysOfWeekChartTitle">每周活跃的日子</string>
     <string name="StatisticSearchUserHistory">查看消息</string>
@@ -2989,12 +2989,12 @@
     <string name="VoipEndCall">结束</string>
     <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
     <string name="VoipOngoingAlert">您现在正在和 **%1$s** 通话。您想要挂断此通话然后和 **%2$s** 开始一个新的通话吗？</string>
-    <string name="VoipNotificationSettings">语音通话</string>
+    <string name="VoipNotificationSettings">通话</string>
     <string name="VoipSettingsRingtone">铃声</string>
     <string name="VoipRingtoneInfo">你可以自定义该联系人在 Telegram 上呼叫您时的铃声。</string>
     <string name="Calls">通话</string>
     <string name="CustomP2PInfo">与这些用户的通话将仅遵循对应的例外设置。</string>
-    <string name="P2PEnabledWith">与谁通话使用点对点传输？</string>
+    <string name="P2PEnabledWith">与谁通话使用端到端连接？</string>
     <string name="WhoCanCallMe">谁可以给我打电话？</string>
     <string name="WhoCanCallMeInfo">您可以限制能够给您打电话的人。</string>
     <string name="CustomCallInfo">无论上面如何设置，这些用户都能或者不能呼叫您。</string>
@@ -3757,7 +3757,7 @@
   <string name="PollOptions">候选项</string>
   <string name="PreviewFeedback">报告此预览的错误</string>
   <string name="PrivacyAdvanced">高级</string>
-  <string name="PrivacyCallsP2PTitle">P2P传输</string>
+  <string name="PrivacyCallsP2PTitle">端到端连接</string>
   <string name="PrivacyPayments">付款</string>
   <string name="PrivacyPaymentsClearInfo">您可以删除您的配送信息并通知所有的支付服务提供商清除您已保存的信用卡信息。请注意：Telegram 从来不会存储您的信用卡数据。</string>
   <string name="Question">问题</string>

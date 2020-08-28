@@ -370,7 +370,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_adaptive_wide" = "宽屏时消息左对齐";
 
 "lng_settings_section_call_settings" = "通话设置";
-
+"lng_settings_call_camera" = "摄像机";
 "lng_settings_call_section_output" = "扬声器和耳机";
 "lng_settings_call_section_input" = "麦克风";
 "lng_settings_call_input_device" = "输入设备";
@@ -392,7 +392,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_last_seen" = "最后上线 & 在线";
 "lng_settings_calls" = "语音通话";
 "lng_settings_calls_peer_to_peer_title" = "端到端连接";
-"lng_settings_calls_peer_to_peer_button" = "与谁通话使用点对点传输";
+"lng_settings_calls_peer_to_peer_button" = "与谁通话使用端到端连接";
 "lng_settings_groups_invite" = "被邀请权限";
 "lng_settings_group_privacy_about" = "控制谁能邀请您进入群组或频道。";
 "lng_settings_phone_number_privacy" = "手机号码";
@@ -719,7 +719,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_calls_never_title" = "从不允许";
 
 "lng_edit_privacy_calls_p2p_title" = "通话使用点对点传输";
-"lng_edit_privacy_calls_p2p_header" = "与谁通话使用点对点传输？";
+"lng_edit_privacy_calls_p2p_header" = "与谁通话使用端到端连接？";
 "lng_edit_privacy_calls_p2p_always_empty" = "总是允许";
 "lng_edit_privacy_calls_p2p_never_empty" = "从不允许";
 "lng_edit_privacy_calls_p2p_exceptions" = "这些用户的通话将仅遵守对应的例外设置。";
@@ -1220,7 +1220,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_recent_stickers" = "近期使用过";
 "lng_faved_stickers_add" = "添加到收藏夹";
 "lng_faved_stickers_remove" = "从收藏中移除";
-
+"lng_recent_stickers_remove" = "从“近期使用过”移除";
 "lng_group_stickers" = "群组贴纸包";
 "lng_group_stickers_description" = "您可以选择一个贴纸包供全体成员使用。";
 "lng_group_stickers_add" = "选择贴纸包";
@@ -1296,7 +1296,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_contact_share_done" = "{user} 现在可以看到您的手机号码。";
 "lng_new_contact_add_name" = "将 {user} 添加到联系人列表";
 "lng_new_contact_add_done" = "{user} 现在已位于您的联系人列表中。";
-
+"lng_new_contact_unarchive" = "取消归档";
 "lng_cant_send_to_not_contact" = "抱歉，您现在只能给\n双向联系人发送消息。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，您现在只能将\n双向联系人加入群组。\n{more_info}";
 "lng_cant_more_info" = "详情 »";
@@ -1491,7 +1491,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_delete_selected" = "删除所选内容";
 "lng_context_clear_selection" = "取消选择";
 "lng_send_image_empty" = "无法发送空文件: {name}";
-"lng_send_image_too_large" = "无法发送此文件，因为它大于 1500 MB: {name}";
+"lng_send_image_too_large" = "文件无法被发送，因为它大于 2 GB：{name}\n\n您可以根据需要发送任意数量的文件，但每个文件必须小于 2 GB。";
 
 "lng_send_images_selected#other" = "已选择 {count} 张图片";
 
@@ -1726,9 +1726,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_call_error_not_available" = "抱歉，由于 {user} 的隐私设置，您无法与其进行通话。";
 "lng_call_error_outdated" = "{user} 的应用不支持通话。在您能够呼叫对方之前，对方必须先更新自己的应用。";
-
-
-
+"lng_call_error_no_camera" = "找不到摄像机。请确保您的摄像机已连接到电脑。";
+"lng_call_error_camera_not_started" = "一旦您连接了，您可以切换到视频通话。";
+"lng_call_error_camera_outdated" = "{user} 的应用程序不支持视频通话。您需要请他（她）先更新软件。";
 "lng_call_error_audio_io" = "您的声卡似乎有问题，请您检查您的音响和麦克风后再试。";
 
 "lng_call_bar_hangup" = "结束通话";
@@ -2244,7 +2244,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_about" = "抱歉，此个性语言包 ({lang_name}) 不包含供 Telegram 桌面版 使用的信息，您可以通过此链接 {link} 为此语言包贡献翻译。";
 "lng_language_not_ready_link" = "翻译平台";
 
-"lng_launch_exe_warning" = "这个文件的扩展名是 {extension}。\n它可能会损害您的计算机。\n您确定要执行它吗？";
+"lng_launch_exe_warning" = "这个文件的扩展名是 {extension}。\n它可能会损害您的电脑。\n您确定要执行它吗？";
 "lng_launch_exe_sure" = "运行";
 "lng_launch_exe_dont_ask" = "不再询问";
 
@@ -2554,7 +2554,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_images_cached#other" = "{count} 张图片，{size}";
 "lng_settings_last_seen_privacy" = "最后上线";
 "lng_settings_no_data_cached" = "无任何缓存！";
-"lng_settings_peer_to_peer" = "P2P传输";
+"lng_settings_peer_to_peer" = "端到端连接";
 "lng_settings_self_destruct" = "帐号自毁设置";
 "lng_settings_theme_blue" = "蓝色";
 "lng_settings_theme_matrix" = "矩阵";

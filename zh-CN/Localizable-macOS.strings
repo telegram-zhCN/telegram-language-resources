@@ -1174,7 +1174,7 @@
 "StorageUsage.KeepMedia" = "保留媒体文件";
 
 
-
+"StorageUsage.Limit.Desc" = "如果您的缓存大小超出此限制，则最旧的媒体将被删除。";
 
 "StorageUsage.Limit.NoLimit" = "无限制";
 
