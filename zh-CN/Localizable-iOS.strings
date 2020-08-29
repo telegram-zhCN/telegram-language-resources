@@ -1813,7 +1813,7 @@
 
 
 
-"AttachmentMenu.SendPhoto_any" = "发送 %@ 张图片";
+"AttachmentMenu.SendPhoto_any" = "发送 %@ 张照片";
 
 
 
@@ -5554,7 +5554,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "PhotoEditor.SkinTool" = "磨皮";
 
-
+"PhotoEditor.SelectCoverFrame" = "选择动态头像的涵盖范围";
 
 "Conversation.PeerNearbyTitle" = "%1$@ 距离您约 %2$@";
 "Conversation.PeerNearbyText" = "发送消息或点击下面的问候语表明您已准备好聊天。";
@@ -5566,11 +5566,11 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Stats.GroupOverview" = "总览";
 "Stats.GroupMembers" = "成员";
 "Stats.GroupMessages" = "消息";
 "Stats.GroupViewers" = "浏览消息的成员";
-
+"Stats.GroupPosters" = "发送消息的成员";
 
 "Stats.GroupGrowthTitle" = "上升";
 "Stats.GroupMembersTitle" = "群组成员";
@@ -5620,7 +5620,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Stats.GroupTopAdminBans_any" = "%@ 次封禁";
 
 "Stats.GroupTopAdmin.Actions" = "操作";
 
@@ -5630,7 +5630,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Stats.GroupTopInviterInvites_any" = "%@ 次邀请";
 
 "Stats.GroupTopInviter.History" = "聊天记录";
 
@@ -5660,21 +5660,21 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Stats.GroupShowMoreTopPosters_any" = "显示另外 %@ 人";
 
 
 
 
 
 
+"Stats.GroupShowMoreTopAdmins_any" = "显示另外 %@ 人";
 
 
 
 
 
 
-
-
-
+"Stats.GroupShowMoreTopInviters_any" = "显示另外 %@ 人";
 
 
 "Settings.AddAnotherAccount.Help" = "您最多可添加三个不同手机号码的账户。";

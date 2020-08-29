@@ -4082,11 +4082,11 @@
 
 
 
-
+"Stats.GroupOverview" = "总览";
 
 
 "Stats.GroupViewers" = "浏览消息的成员";
-
+"Stats.GroupPosters" = "发送消息的成员";
 
 "Stats.GroupGrowthTitle" = "上升";
 "Stats.GroupMembersTitle" = "群组成员";
@@ -4145,7 +4145,7 @@
 
 
 
-
+"Stats.GroupTopAdminBans_other" = "%d 次封禁";
 
 "Stats.GroupTopAdmin.Actions" = "操作";
 
@@ -4156,6 +4156,7 @@
 
 
 
+"Stats.GroupTopInviterInvites_other" = "%d 次邀请";
 
 
 
@@ -4166,8 +4167,7 @@
 
 
 
-
-
+"Stats.ShowMore_other" = "显示另外 %d 人";
 
 
 
@@ -4188,7 +4188,7 @@
 
 
 
-
+"VideoAvatar.ChooseDesc.Profile" = "选择动态头像的涵盖范围";
 
 
 
