@@ -4116,7 +4116,7 @@
 
 
 
-"Stats.GroupTopPosterChars_other" = "%d 字每条消息";
+"Stats.GroupTopPosterChars_other" = "每条消息平均 %d 个字符";
 
 
 
@@ -4137,7 +4137,7 @@
 
 
 
-
+"Stats.GroupTopAdminKicks_other" = "%d 次限制";
 
 
 

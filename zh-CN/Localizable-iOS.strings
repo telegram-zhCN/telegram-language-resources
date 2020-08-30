@@ -5596,7 +5596,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-"Stats.GroupTopPosterChars_any" = "%@ 字每条消息";
+"Stats.GroupTopPosterChars_any" = "每条消息平均 %@ 个字符";
 
 "Stats.GroupTopPoster.History" = "历史";
 
@@ -5613,7 +5613,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"Stats.GroupTopAdminKicks_any" = "%@ 次限制";
 
 
 
