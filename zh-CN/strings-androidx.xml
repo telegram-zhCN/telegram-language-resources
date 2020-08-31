@@ -1046,7 +1046,7 @@
   <string name="Clear">清空</string>
   <string name="ClearX">清理 %1$s 文件</string>
   <string name="UnmutesInX">%1$s后开启通知</string>
-  <string name="MuteForever">永久停用通知</string>
+  <string name="MuteForever">永久关闭通知</string>
   <string name="NotificationsCustomize">自定义</string>
   <string name="MuteNotifications">暂停消息通知</string>
   <string name="EnableNotifications">启用消息通知</string>
@@ -1317,7 +1317,7 @@
   
   <string name="RoleMember_years_other">%1$s 年前加入</string>
   <string name="Restricted">受限</string>
-  <string name="PromotedByX">被 %1$s 设为管理员</string>
+  <string name="PromotedByX">由 %1$s 设为管理员</string>
   <string name="PromotedByXOnDate">由 %1$s 于 %2$s 设为管理员</string>
   <string name="BannedByX">被 %1$s 封禁</string>
   <string name="BannedByXOnDate">被 %1$s 于 %2$s 封禁</string>

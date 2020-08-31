@@ -181,7 +181,7 @@
     <string name="MuteFor">暂停通知 %1$s</string>
     <string name="UnmuteNotifications">开启通知</string>
     <string name="WillUnmuteIn">" %1$s后"</string>
-    <string name="MuteDisable">永久静音</string>
+    <string name="MuteDisable">永久关闭通知</string>
     <string name="Hashtags">标签</string>
     <string name="Recent">最近</string>
     <string name="ChatHints">用户</string>
@@ -436,7 +436,7 @@
     <string name="EditAdminAddUsers">添加成员</string>
     <string name="EditAdminAddUsersViaLink">生成邀请链接</string>
     <string name="EditAdminPinMessages">置顶消息</string>
-    <string name="EditAdminPromotedBy">被 %1$s 设为管理员</string>
+    <string name="EditAdminPromotedBy">由 %1$s 设为管理员</string>
     <string name="EditAdminCantEdit">您无权修改此管理员的权限。</string>
     <string name="EditCantEditPermissions">您不能修改此权限。</string>
     <string name="EditCantEditPermissionsPublic">此权限不能在公开群组中开放。</string>
@@ -2521,7 +2521,7 @@
     <string name="BytesSent">已发送字节</string>
     <string name="BytesReceived">已接收字节</string>
     <string name="FilesDataUsage">文件</string>
-    <string name="CallsDataUsage">通话设置</string>
+    <string name="CallsDataUsage">通话</string>
     <string name="OutgoingCalls">拨出电话</string>
     <string name="IncomingCalls">拨入电话</string>
     <string name="CallsTotalTime">总时间</string>
@@ -2582,7 +2582,7 @@
     <string name="P2PNobodyPlus">不允许任何人 (+%1$d)</string>
     <string name="SecurityTitle">安全</string>
     <string name="DeleteAccountTitle">帐号保留期限</string>
-    <string name="NewChatsFromNonContacts">来自未知用户的新对话</string>
+    <string name="NewChatsFromNonContacts">未知用户的新对话</string>
     <string name="ArchiveAndMute">归档和关闭通知</string>
     <string name="ArchiveAndMuteInfo">自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。</string>
     <string name="DeleteMyAccount">帐号保留期限</string>

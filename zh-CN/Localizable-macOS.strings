@@ -1595,7 +1595,7 @@
 "Channel.Exception.DisabledOption.Group" = "该项已在群组默认权限中被禁用。";
 "Channel.Exception.DisabledOption.Channel" = "该项已在频道默认权限中被禁用。";
 
-"Channel.Admins.PromotedBy" = "被 %@ 设为管理员";
+"Channel.Admins.PromotedBy" = "由 %@ 设为管理员";
 "Channel.Admins.AddAdminError" = "抱歉，您无权将此用户提升为管理员。";
 
 "Channel.Admins.Promote.BannedAdminError" = "抱歉，您无法设置此用户为管理员，因为此用户在黑名单中，且您无权解封。";
@@ -2487,7 +2487,7 @@
 "PrivacyAndSecurity.SensitiveText" = "关闭过滤";
 "PrivacyAndSecurity.SensitiveDesc" = "在所有您的 Telegram 设备上显示公开频道中的敏感媒体内容。";
 
-"PrivacyAndSecurity.AutoArchiveHeader" = "来自未知用户的新对话";
+"PrivacyAndSecurity.AutoArchiveHeader" = "未知用户的新对话";
 "PrivacyAndSecurity.AutoArchiveText" = "归档和关闭通知";
 "PrivacyAndSecurity.AutoArchiveDesc" = "自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。";
 
@@ -4048,7 +4048,7 @@
 "psa.chat.text.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务告示。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
 
 
-"PeerInfo.Group.Menu.Promote" = "晋升";
+"PeerInfo.Group.Menu.Promote" = "提升";
 "PeerInfo.Group.Menu.Restrict" = "限制";
 "PeerInfo.Group.Menu.Delete" = "删除";
 
@@ -4119,7 +4119,7 @@
 "Stats.GroupTopPosterChars_other" = "每条消息平均 %d 个字符";
 
 
-
+"Stats.GroupTopPoster.Promote" = "提升";
 
 
 
@@ -4148,7 +4148,7 @@
 "Stats.GroupTopAdminBans_other" = "%d 次封禁";
 
 "Stats.GroupTopAdmin.Actions" = "操作";
-
+"Stats.GroupTopAdmin.Promote" = "提升";
 
 
 
@@ -4159,7 +4159,7 @@
 "Stats.GroupTopInviterInvites_other" = "%d 次邀请";
 
 
-
+"Stats.GroupTopInviter.Promote" = "提升";
 
 
 

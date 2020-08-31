@@ -2674,7 +2674,7 @@ Unused sets are archived when you add more.";
 
 "Channel.Info.BlackList" = "黑名单";
 
-"Channel.Management.PromotedBy" = "被 %@ 设为管理员";
+"Channel.Management.PromotedBy" = "由 %@ 设为管理员";
 "DialogList.LanguageTooltip" = "您可以稍后在设置中更改您的语言";
 
 "Contacts.PhoneNumber" = "手机号码";
@@ -2684,7 +2684,7 @@ Unused sets are archived when you add more.";
 "Conversation.ViewChannel" = "查看频道";
 "Conversation.ViewGroup" = "查看群组";
 
-"GroupInfo.ActionPromote" = "晋升";
+"GroupInfo.ActionPromote" = "提升";
 "GroupInfo.ActionRestrict" = "限制";
 
 "Conversation.RestrictedTextTimed" = "您已被管理员禁言至 %@";
@@ -5599,7 +5599,7 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupTopPosterChars_any" = "每条消息平均 %@ 个字符";
 
 "Stats.GroupTopPoster.History" = "历史";
-
+"Stats.GroupTopPoster.Promote" = "提升";
 
 
 
@@ -5623,7 +5623,7 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupTopAdminBans_any" = "%@ 次封禁";
 
 "Stats.GroupTopAdmin.Actions" = "操作";
-
+"Stats.GroupTopAdmin.Promote" = "提升";
 
 
 
@@ -5633,9 +5633,9 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupTopInviterInvites_any" = "%@ 次邀请";
 
 "Stats.GroupTopInviter.History" = "聊天记录";
+"Stats.GroupTopInviter.Promote" = "提升";
 
-
-
+"PrivacySettings.AutoArchiveTitle" = "未知用户的新对话";
 "PrivacySettings.AutoArchive" = "归档和关闭通知";
 "PrivacySettings.AutoArchiveInfo" = "自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。";
 
