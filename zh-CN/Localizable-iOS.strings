@@ -5560,11 +5560,11 @@ Any member of this group will be able to see messages in the channel.";
 "Conversation.PeerNearbyText" = "发送消息或点击下面的问候语表明您已准备好聊天。";
 "Conversation.PeerNearbyDistance" = "%1$@ 距离您约 %2$@";
 
+"ProfilePhoto.MainPhoto" = "主要照片";
+"ProfilePhoto.SetMainPhoto" = "设为主要照片";
 
-
-
-
-
+"ProfilePhoto.MainVideo" = "主要视频";
+"ProfilePhoto.SetMainVideo" = "设为主要视频";
 
 "Stats.GroupOverview" = "总览";
 "Stats.GroupMembers" = "成员";
@@ -5639,12 +5639,12 @@ Any member of this group will be able to see messages in the channel.";
 "PrivacySettings.AutoArchive" = "归档和关闭通知";
 "PrivacySettings.AutoArchiveInfo" = "自动将来自非联系人的新私聊、群组和频道进行归档和关闭通知。";
 
-
+"Call.RemoteVideoPaused" = "%@ 的视频已暂停";
 
 "Settings.SetProfilePhotoOrVideo" = "设置图片或视频";
+"Settings.SetNewProfilePhotoOrVideo" = "设置新照片或视频";
 
-
-
+"Settings.RemoveVideo" = "移除视频";
 
 "Conversation.Unarchive" = "取消归档";
 
@@ -5676,11 +5676,11 @@ Any member of this group will be able to see messages in the channel.";
 
 "Stats.GroupShowMoreTopInviters_any" = "显示另外 %@ 人";
 
-
+"Settings.AddAnotherAccount" = "添加其他帐号";
 "Settings.AddAnotherAccount.Help" = "您最多可添加三个不同手机号码的账户。";
 
 "ProfilePhoto.OpenGallery" = "打开图片库";
-
+"ProfilePhoto.SearchWeb" = "搜索网页";
 "ProfilePhoto.OpenInEditor" = "在编辑器中打开";
 
 
@@ -5703,11 +5703,11 @@ Any member of this group will be able to see messages in the channel.";
 
 "Settings.RemoveConfirmation" = "移除";
 
-"Conversation.ContextMenuOpenProfile" = "打开资料";
+"Conversation.ContextMenuOpenProfile" = "打开资料页";
+"Conversation.ContextMenuSendMessage" = "发送消息";
 
 
-
-"Conversation.ContextMenuOpenChannelProfile" = "打开资料";
+"Conversation.ContextMenuOpenChannelProfile" = "打开资料页";
 "Conversation.ContextMenuOpenChannel" = "打开频道";
 
 "Cache.KeepMediaHelp" = "云对话中**未访问**的图片, 视频和其他文件将被从您的设备移除以节省存储空间.";
@@ -5734,7 +5734,7 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
-
+"AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
 
 
 /* new from translations.telegram.org */

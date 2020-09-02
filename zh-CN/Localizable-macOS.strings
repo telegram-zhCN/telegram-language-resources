@@ -2738,7 +2738,7 @@
 
 
 "Gallery.Context.ShowGallery" = "分享的媒体";
-
+"Gallery.Context.MainPhoto" = "设为主要照片";
 
 "TouchBar.Favorite" = "收藏夹";
 "TouchBar.Recent" = "最近";
@@ -4204,7 +4204,7 @@
 
 
 
-
+"Call.VideoPaused" = "%@ 的视频已暂停";
 
 
 "Call.CameraUnavailable" = "摄像头不可用\n[设置]()";

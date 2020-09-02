@@ -2955,7 +2955,7 @@
     <string name="CharactersPerMessage">每条消息平均 %s</string>
     <string name="TopDaysOfWeekChartTitle">每周活跃的日子</string>
     <string name="StatisticSearchUserHistory">查看消息</string>
-    <string name="StatisticOpenProfile">打开个人资料</string>
+    <string name="StatisticOpenProfile">打开资料页</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">极速</string>
