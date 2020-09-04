@@ -3618,9 +3618,9 @@
     <string name="AccReleaseForArchive">松开查看归档对话</string>
     <string name="AccDescrVideoCompressLow">更小体积</string>
     <string name="AccDescrVideoCompressHigh">更高画质</string>
-    <string name="AccDescrPlayerDuration">%1$s of %2$s</string>
-    <string name="AccDescrDownloadProgress">Downloaded %1$s of %2$s</string>
-    <string name="AccDescrUploadProgress">Uploaded %1$s of %2$s</string>
+    <string name="AccDescrPlayerDuration">%1$s / %2$s</string>
+    <string name="AccDescrDownloadProgress">已下载 %1$s / %2$s</string>
+    <string name="AccDescrUploadProgress">已上传 %1$s / %2$s</string>
     <string name="AccDescrNumberOfViews_one">查看了 %1$d 次</string>
     <string name="AccDescrNumberOfViews_two">查看了 %1$d 次</string>
     <string name="AccDescrNumberOfViews_few">查看了 %1$d 次</string>

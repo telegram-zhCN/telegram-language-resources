@@ -100,7 +100,7 @@
 "PeerInfo.Action.Unmute" = "开启通知";
 "PeerInfo.Action.SecretChat" = "秘密";
 "PeerInfo.Action.Call" = "通话";
-
+"PeerInfo.Action.VideoCall" = "视频";
 "PeerInfo.Action.More" = "更多";
 "PeerInfo.Action.Share" = "分享";
 "PeerInfo.Action.Report" = "举报";
@@ -4201,7 +4201,7 @@
 "Call.Camera" = "摄像头";
 
 
-
+"Call.Close" = "关闭";
 
 
 "Call.VideoPaused" = "%@ 的视频已暂停";
