@@ -2446,6 +2446,7 @@ Unused sets are archived when you add more.";
 "Call.StatusBar" = "轻触此处来返回通话 %@";
 
 "Call.ParticipantVersionOutdatedError" = "%@ 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。";
+"Call.ParticipantVideoVersionOutdatedError" = "%@的App不支持视频通话。他需要先更新其应用程序，然后您才能致电给他。";
 
 "Privacy.Calls" = "通话";
 
@@ -2742,7 +2743,7 @@ Unused sets are archived when you add more.";
 "Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您无权向此群组添加机器人。";
 
 "Privacy.Calls.P2P" = "端到端连接";
-"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。";
+"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但可能会降低音频和视频质量。";
 
 "Privacy.Calls.Integration" = "iOS 通话集成";
 "Privacy.Calls.IntegrationHelp" = "iOS 通话集成能将 Telegram 通话显示在锁屏界面上和系统的通话记录里。如果启用了 iCloud 同步，您的通话记录将被共享给 Apple。";
@@ -2755,6 +2756,7 @@ Unused sets are archived when you add more.";
 
 "Channel.EditAdmin.CannotEdit" = "您无权修改此管理员的权限。";
 "Call.RateCall" = "评价此次通话";
+"Call.ShareStats" = "分享统计数据";
 
 "Settings.ApplyProxyAlert" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\n\nYou can change your proxy server later in Settings > Data and Storage.";
 "Settings.ApplyProxyAlertCredentials" = "Are you sure you want to enable this proxy?\nServer: %1$@\nPort: %2$@\nUsername: %3$@\nPassword: %4$@\n\nYou can change your proxy server later in Settings > Data and Storage.";
@@ -4002,6 +4004,8 @@ Unused sets are archived when you add more.";
 "CallFeedback.ReasonSilentLocal" = "我听不到对方的声音";
 "CallFeedback.ReasonSilentRemote" = "对方听不到我的声音";
 "CallFeedback.ReasonDropped" = "通话意外结束";
+"CallFeedback.VideoReasonDistorted" = "视频被扭曲了";
+"CallFeedback.VideoReasonLowQuality" = "视频被像素化";
 "CallFeedback.AddComment" = "附加说明";
 "CallFeedback.IncludeLogs" = "包含技术信息";
 "CallFeedback.IncludeLogsInfo" = "这些信息不会泄露您的通话内容，但却能帮助我们尽快修复问题。";
@@ -5643,17 +5647,17 @@ Any member of this group will be able to see messages in the channel.";
 
 "Settings.SetProfilePhotoOrVideo" = "设置图片或视频";
 "Settings.SetNewProfilePhotoOrVideo" = "设置新照片或视频";
-
+"Settings.ViewVideo" = "查看视频";
 "Settings.RemoveVideo" = "移除视频";
 
 "Conversation.Unarchive" = "取消归档";
-
+"Conversation.UnarchiveDone" = "此聊天已移至您的主列表。";
 
 "ChatList.AutoarchiveSuggestion.Title" = "隐藏新对话?";
 "ChatList.AutoarchiveSuggestion.Text" = "您收到了很多来自非联系人的对话. 您想将这些对话**自动静音**并**归档**吗?";
 "ChatList.AutoarchiveSuggestion.OpenSettings" = "转到设置";
 
-
+"SettingsSearch.Synonyms.ChatSettings.IntentsSettings" = "Siri 建议";
 
 
 
@@ -5683,7 +5687,7 @@ Any member of this group will be able to see messages in the channel.";
 "ProfilePhoto.SearchWeb" = "搜索网页";
 "ProfilePhoto.OpenInEditor" = "在编辑器中打开";
 
-
+"Settings.EditAccount" = "编辑帐号";
 "Settings.EditPhoto" = "编辑";
 "Settings.EditVideo" = "编辑";
 "Settings.CancelUpload" = "取消上传";
@@ -5705,7 +5709,7 @@ Any member of this group will be able to see messages in the channel.";
 
 "Conversation.ContextMenuOpenProfile" = "打开资料页";
 "Conversation.ContextMenuSendMessage" = "发送消息";
-
+"Conversation.ContextMenuMention" = "提及";
 
 "Conversation.ContextMenuOpenChannelProfile" = "打开资料页";
 "Conversation.ContextMenuOpenChannel" = "打开频道";
@@ -5731,10 +5735,25 @@ Any member of this group will be able to see messages in the channel.";
 "Call.CameraOff" = "%@的摄像头未打开";
 "Call.BatteryLow" = "%@ 的电池电量过低";
 
-
+"Call.Audio" = "耳机";
 
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* new from translations.telegram.org */

@@ -3534,7 +3534,7 @@
     <string name="AccDescrSecretChat">加密对话</string>
     <string name="AccDescrSentDate">于 %s 发送</string>
     <string name="AccDescrReceivedDate">于 %s 收到</string>
-    <string name="AccDescrScheduledDate">预定于%s</string>
+    <string name="AccDescrScheduledDate">%s的约定</string>
     <string name="AccDescrGoBack">返回</string>
     <string name="AccDescrOpenMenu">打开导航菜单</string>
     <string name="AccDescrMusicInfo">由 %1$s 创作的 %2$s</string>
@@ -3641,11 +3641,11 @@
     <string name="AccDescrSendAudio_few">发送 %1$d 音频文件</string>
     <string name="AccDescrSendAudio_many">发送 %1$d 音频文件</string>
     <string name="AccDescrSendAudio_other">发送 %1$d 音频文件</string>
-    <string name="AccDescrShareInChats_one">分享到 %1$d 个l聊天</string>
-    <string name="AccDescrShareInChats_two">分享到 %1$d 个l聊天</string>
-    <string name="AccDescrShareInChats_few">分享到 %1$d 个l聊天</string>
-    <string name="AccDescrShareInChats_many">分享到 %1$d 个l聊天</string>
-    <string name="AccDescrShareInChats_other">分享到 %1$d 个l聊天</string>
+    <string name="AccDescrShareInChats_one">分享到 %1$d 个聊天</string>
+    <string name="AccDescrShareInChats_two">分享到 %1$d 个聊天</string>
+    <string name="AccDescrShareInChats_few">分享到 %1$d 个聊天</string>
+    <string name="AccDescrShareInChats_many">分享到 %1$d 个聊天</string>
+    <string name="AccDescrShareInChats_other">分享到 %1$d 个聊天</string>
     <string name="AccDescrQuizCorrectAnswer">正确答案</string>
     <string name="AccDescrPipMode">画中画模式</string>
     <string name="AccDescrVoipMicOn">麦克风已打开</string>
@@ -3688,6 +3688,7 @@
   <string name="AccDescrSendAudio_zero">发送 %1$d 音频文件</string>
   <string name="AccDescrSendFiles_zero">发送 %1$d 个文件</string>
   <string name="AccDescrSendPhotos_zero">发送 %1$d 张照片</string>
+  <string name="AccDescrShareInChats_zero">分享到 %1$d 个聊天</string>
   <string name="AddToTheGroupTitle">添加 %1$s 到群组 %2$s？</string>
   <string name="AllowReadCallAndSms">请允许 Telegram 接收来电，以便自动验证您的手机号码。</string>
   <string name="AllowReadSms">请授予 Telegram 短信权限以便我们自动读取验证码。</string>
@@ -3804,5 +3805,4 @@
   <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
-  <string name="AccDescrShareInChats_zero">分享到 %1$d 个l聊天</string>
 </resources>
