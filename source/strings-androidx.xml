@@ -3216,7 +3216,7 @@
   <string name="DiscardMediaMsg">Discard changes</string>
   <string name="DiscardMediaHint">Are you sure you want to discard edited media? These changes will be lost.</string>
   <string name="DiscardMediaMsg2">Discard captions</string>
-  <string name="DiscardMediaHint2">Are you sure you want to discard entered captions? These changes will be lost.</string>
+  <string name="DiscardMediaHint2">Are you sure you want to discard all captions? These changes will be lost.</string>
   <string name="DiscardMediaMsg3">Discard changes</string>
   <string name="DiscardMediaHint3">Are you sure you want to discard captions and edited media? These changes will be lost.</string>
 
@@ -3256,7 +3256,7 @@
   <string name="NoAnswersResult">No answers</string>
 
   <string name="HoldToSendAsCopy">Hold to forward without quoting and other options.</string>
-  <string name="HoldToSendAsFile">Hold to send as file and other options.</string>
+  <string name="HoldToSendAsFile">Hold to send as a file and other options.</string>
   <string name="CameraButtonHint">Tap for photo, hold for video</string>
   
 
