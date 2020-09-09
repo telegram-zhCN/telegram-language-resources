@@ -5354,7 +5354,7 @@ Any member of this group will be able to see messages in the channel.";
 "PeerInfo.PaneFiles" = "Files";
 "PeerInfo.PaneLinks" = "Links";
 "PeerInfo.PaneVoiceAndVideo" = "Voice";
-"PeerInfo.PaneAudio" = "Audio";
+"PeerInfo.PaneAudio" = "Music";
 "PeerInfo.PaneGroups" = "Groups";
 "PeerInfo.PaneMembers" = "Members";
 "PeerInfo.PaneGifs" = "GIFs";
