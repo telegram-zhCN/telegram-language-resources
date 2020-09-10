@@ -624,7 +624,7 @@
 "PrivacySettings.LastSeen" = "最后上线";
 "PrivacySettings.Groups" = "群组和频道";
 "PrivacySettings.PhoneNumber" = "手机号码";
-"PrivacySettings.VoiceCalls" = "语音通话";
+"PrivacySettings.VoiceCalls" = "通话";
 "PrivacySettings.ProfilePhoto" = "头像";
 "PrivacySettings.Forwards" = "转发引用来源";
 
@@ -4221,7 +4221,7 @@
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "创建者";
-"App.MaxFileSize" = "文件大小上限为 1.5 GB";
+"App.MaxFileSize" = "文件大小上限为 2 GB";
 "AppearanceSettings.ColorTheme.dark" = "标准暗色调";
 "AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
@@ -4246,7 +4246,7 @@
 "InAppLinks.Confirm.OpenExternal" = "打开 %@？";
 "Notification.ScheduledTitle" = "📆 您";
 "NotificationSettings.IncludePublicGroups" = "包含公开群组";
-"Peer.Media.SharedFilesEmptyList" = "您可以发送和接收任何类型的文件，单文件大小最高 1.5 GB，并随时在任何地方访问它们。";
+"Peer.Media.SharedFilesEmptyList" = "您可以发送和接收任何类型的文件，单文件大小最高 2 GB，并随时在任何地方访问它们。";
 "PeerInfo.Admins" = "管理员";
 "PeerInfo.SetAdmins" = "设置管理员";
 "PeerInfo.Statistics" = "统计数据";

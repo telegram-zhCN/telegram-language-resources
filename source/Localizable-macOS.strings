@@ -624,7 +624,7 @@
 "PrivacySettings.LastSeen" = "Last Seen";
 "PrivacySettings.Groups" = "Groups and Channels";
 "PrivacySettings.PhoneNumber" = "Phone Number";
-"PrivacySettings.VoiceCalls" = "Voice Calls";
+"PrivacySettings.VoiceCalls" = "Calls";
 "PrivacySettings.ProfilePhoto" = "Profile Photo";
 "PrivacySettings.Forwards" = "Forwarded Messages";
 

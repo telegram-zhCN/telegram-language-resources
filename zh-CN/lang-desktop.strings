@@ -390,7 +390,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_downloading_update" = "下载更新中 {progress} ...";
 "lng_settings_privacy_title" = "隐私";
 "lng_settings_last_seen" = "最后上线 & 在线";
-"lng_settings_calls" = "语音通话";
+"lng_settings_calls" = "通话";
 "lng_settings_calls_peer_to_peer_title" = "端到端连接";
 "lng_settings_calls_peer_to_peer_button" = "与谁通话使用端到端连接";
 "lng_settings_groups_invite" = "被邀请权限";
@@ -710,7 +710,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_groups_always_title" = "总是允许";
 "lng_edit_privacy_groups_never_title" = "从不允许";
 
-"lng_edit_privacy_calls_title" = "语音通话隐私设置";
+"lng_edit_privacy_calls_title" = "通话";
 "lng_edit_privacy_calls_header" = "谁可以呼叫我";
 "lng_edit_privacy_calls_always_empty" = "总是允许";
 "lng_edit_privacy_calls_never_empty" = "从不允许";
