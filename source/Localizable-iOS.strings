@@ -2607,6 +2607,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanInviteUsers" = "Add Users";
 "Channel.AdminLog.CanPinMessages" = "Pin Messages";
 "Channel.AdminLog.CanAddAdmins" = "Add New Admins";
+
 "Channel.AdminLog.CanEditMessages" = "Edit Messages of Others";
 
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ enabled group invites";
@@ -3659,13 +3660,13 @@ Unused sets are archived when you add more.";
 
 "Appearance.Animations" = "ANIMATIONS";
 
-
-
-
-
-
-
-
+"Weekday.Monday" = "Monday";
+"Weekday.Tuesday" = "Tuesday";
+"Weekday.Wednesday" = "Wednesday";
+"Weekday.Thursday" = "Thursday";
+"Weekday.Friday" = "Friday";
+"Weekday.Saturday" = "Saturday";
+"Weekday.Sunday" = "Sunday";
 
 "Watch.Message.Call" = "Call";
 "Watch.Message.Game" = "Game";
@@ -5739,6 +5740,21 @@ Any member of this group will be able to see messages in the channel.";
 "Call.AudioRouteMute" = "Mute Yourself";
 
 "AccessDenied.VideoCallCamera" = "Telegram needs access to your camera to make video calls.\n\nPlease go to Settings > Privacy > Camera and set Telegram to ON.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

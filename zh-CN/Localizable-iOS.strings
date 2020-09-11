@@ -2607,6 +2607,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanInviteUsers" = "添加成员";
 "Channel.AdminLog.CanPinMessages" = "置顶消息";
 "Channel.AdminLog.CanAddAdmins" = "添加新管理员";
+
 "Channel.AdminLog.CanEditMessages" = "编辑其他人的消息";
 
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ 启用了邀请权限";
@@ -5739,6 +5740,21 @@ Any member of this group will be able to see messages in the channel.";
 
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
