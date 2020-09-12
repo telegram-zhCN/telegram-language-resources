@@ -3660,13 +3660,13 @@ Unused sets are archived when you add more.";
 
 "Appearance.Animations" = "ANIMATIONS";
 
-
-
-
-
-
-
-
+"Weekday.Monday" = "星期一";
+"Weekday.Tuesday" = "星期二";
+"Weekday.Wednesday" = "星期三";
+"Weekday.Thursday" = "星期四";
+"Weekday.Friday" = "星期五";
+"Weekday.Saturday" = "星期六";
+"Weekday.Sunday" = "星期日";
 
 "Watch.Message.Call" = "通话";
 "Watch.Message.Game" = "游戏";
@@ -5558,7 +5558,7 @@ Any member of this group will be able to see messages in the channel.";
 "KeyCommand.SearchInChat" = "搜索对话";
 
 "PhotoEditor.SkinTool" = "磨皮";
-
+"PhotoEditor.BlurToolPortrait" = "肖像";
 "PhotoEditor.SelectCoverFrame" = "选择动态头像的涵盖范围";
 
 "Conversation.PeerNearbyTitle" = "%1$@ 距离您约 %2$@";
@@ -5737,7 +5737,7 @@ Any member of this group will be able to see messages in the channel.";
 "Call.BatteryLow" = "%@ 的电池电量过低";
 
 "Call.Audio" = "耳机";
-
+"Call.AudioRouteMute" = "关闭麦克风";
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
 
