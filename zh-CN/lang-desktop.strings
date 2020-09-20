@@ -940,7 +940,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_discussion_group_posted" = "您在频道中发布的所有内容都将被转发到此群组。";
 "lng_manage_discussion_group_sure" = "您想让 {group} 成为 {channel} 的讨论版吗？";
 "lng_manage_linked_channel_private" = "该群组的任何成员都可以查看频道中的消息。";
-"lng_manage_discussion_group_private" = "该频道的任何成员都可以查看频道中的消息。";
+"lng_manage_discussion_group_private" = "频道中的任何成员都可以查看群组信息。";
 "lng_manage_discussion_group_link" = "链接群组";
 "lng_manage_linked_channel_private_status" = "私人频道";
 "lng_manage_discussion_group_private_status" = "私人群组";

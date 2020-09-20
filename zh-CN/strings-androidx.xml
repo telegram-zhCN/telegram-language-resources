@@ -26,7 +26,7 @@
 
   <string name="AppNameAndVersion">Telegram X %1$s</string>
   <string name="language_code">zh-CN</string>
-  
+  <string name="language_emoji">&#127464;&#127475;</string>
   <string name="language_name">中文（简体）</string>
   <string name="language_nameInEnglish">Chinese Simplified</string>
   <string name="language_dateFormatLocale">zh-CN</string>
@@ -82,7 +82,7 @@
   <string name="format_pingBest">Ping: %1$s 毫秒（最佳）</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
-  
+  <string name="format_channelAndSignature">%1$s (%2$s)</string>
   
   <string name="messagesCount_other">%1$s</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
@@ -354,10 +354,10 @@
   <string name="passcode_fingerprint">指纹解锁</string>
   <string name="LoadingInformation">信息加载中...</string>
   <string name="BlockContact">屏蔽</string>
-  
+  <string name="BlockBot">屏蔽并停止</string>
   <string name="Unblock">取消屏蔽</string>
-  
-  
+  <string name="UnblockBot">取消屏蔽</string>
+  <string name="RestartBot">重新启用</string>
   <string name="Share">转发 / 分享</string>
   <string name="ViewAdmins">查看管理员</string>
   <string name="SwipeShare">转发 / 分享</string>
@@ -399,7 +399,7 @@
   <string name="ServiceNotifications">通知服务</string>
   <string name="Bot">机器人</string>
   <string name="Support">支持</string>
-  
+  <string name="SupportOnline">客服(在线)</string>
   <string name="deletedUser">已销号用户</string>
   <string name="unknownUser">未知的用户</string>
   <string name="BotStatusRead">可以访问消息</string>
@@ -699,8 +699,8 @@
   <string name="Music">音乐</string>
   
   
-  
-  
+  <string name="TabEmptyLinks">暂无链接</string>
+  <string name="TabEmptyDocs">暂无文档</string>
   <string name="NoPhotos">排除图片</string>
   <string name="NoVideos">排除视频</string>
   <string name="NoGIFs">排除 GIF</string>
@@ -1313,7 +1313,7 @@
   
   <string name="RoleMember_weeks_other">%1$s 周前加入</string>
   
-  
+  <string name="RoleMember_months_other">%1$s 个月前加入</string>
   
   <string name="RoleMember_years_other">%1$s 年前加入</string>
   <string name="Restricted">受限</string>
@@ -1417,7 +1417,7 @@
   <string name="AdminCanAssignAdmins">该管理员能够任命新管理员，并赋予其最高与本人相当的权限。</string>
   <string name="AdminCannotAssignAdmins">该管理员无法任命新管理员。</string>
   <string name="ShareMyContactInfo">分享我的联系方式</string>
-  <string name="MemberBanChannel">此用户将被封禁并从频道中移除。</string>
+  <string name="MemberBanChannel">此用户将被封禁并且不能再关注此频道。</string>
   <string name="MemberBanGroup">此用户将被封禁并从群组中移除。</string>
   <string name="MemberRestrictChannel">此用户将不会从频道中移除。</string>
   <string name="MemberRestrictGroup">此用户将不会从群组中移除。</string>
@@ -1494,8 +1494,8 @@
   <string name="EventLogPromotedEditMessages">编辑消息</string>
   <string name="EventLogPromotedDeleteMessages">删除消息</string>
   <string name="EventLogPromotedAddAdmins">添加管理员</string>
-  
-  
+  <string name="EventLogPromotedTitle">头衔：%1$s</string>
+  <string name="EventLogPromotedTitleChange">头衔：%1$s -&gt; %2$s</string>
   <string name="EventLogPromotedBanUsers">封禁用户</string>
   <string name="EventLogPromotedAddUsers">添加成员</string>
   <string name="EventLogPromotedPinMessages">置顶消息</string>
@@ -1681,7 +1681,7 @@
   <string name="OtherWebSessions">已关联的网站</string>
   <string name="TerminateWebSessionQuestion">是否取消与 %1$s 的关联？</string>
   <string name="DisconnectWebsite">断开连接</string>
-  
+  <string name="DisconnectWebsiteAction">断开与网站的链接</string>
   <string name="DisconnectAllWebsitesHint">您确定您想要在所有的网站上停止使用您的 Telegram 帐号吗？</string>
   <string name="DisconnectWebsiteBan">同时停止使用 %1$s</string>
   <string name="ConnectedWebsitesDesc">轻触以取消该网站与您 Telegram 帐号的关联</string>
@@ -1974,7 +1974,7 @@
   <string name="TabMessages">消息</string>
   <string name="MoreMessageOptions">更多</string>
   <string name="MoreChatOptions">更多</string>
-  
+  <string name="MoreForwardOptions">更多选项...</string>
   <string name="MessagePin">置顶</string>
   <string name="MessageUnpin">取消置顶</string>
   <string name="MessageReport">举报消息</string>
@@ -2684,7 +2684,7 @@
   
   <string name="ReadAllChatsDone_other">已将 %1$s 个会话标为已读</string>
   
-  
+  <string name="MarkedXChats_other">将 %1$s 个对话标记为已读</string>
 
   <string name="PhoneNumberUnknown">未知</string>
 
@@ -2869,7 +2869,7 @@
   
 
   
-  
+  <string name="SendFailureInfo">发送失败： %1$s</string>
   <string name="LastEditTime">上次编辑：%1$s</string>
   
   <string name="ResendXMessages_other">重发 %1$s 条消息</string>
@@ -2882,17 +2882,17 @@
   
 
   <string name="Archive">归档</string>
-  
+  <string name="ArchiveTitle">已归档对话</string>
   <string name="ArchiveTitleList">已归档对话</string>
-  
+  <string name="Unarchive">取消归档</string>
 
   
   
 
+  <string name="ReportLocation">群组与位置无关？</string>
+  <string name="ReportLocationTitle">举报无关群组</string>
   
-  
-  
-  
+  <string name="ReportLocationAction">举报</string>
   <string name="SharePhoneNumber">分享手机号码</string>
   <string name="SharePhoneNumberAction">分享我的手机号码</string>
   <string name="PhoneNumber">手机号码</string>
@@ -2934,24 +2934,24 @@
   <string name="CategoryArchiveBots">归档 / 机器人</string>
   <string name="CategoryArchiveUnread">归档 / 未读</string>
 
+  <string name="NoArchive">暂无归档</string>
   
   
   
   
-  
-  
+  <string name="NoUnreadChats">没有未读消息</string>
 
-  
-  
+  <string name="OpenLinkConfirm">你是否要打开链接 %1$s?</string>
+  <string name="LogInAsOn">在 %2$s 以 %1$s 登录</string>
   <string name="AllowWriteAccess">允许 **%1$s** 向我发送消息</string>
   <string name="Discuss">讨论</string>
   <string name="LinkedChannel">链接的频道</string>
   <string name="LinkedGroup">链接的群组</string>
   <string name="LinkChannel">连接一个频道</string>
-  
+  <string name="LinkGroup">关联讨论组以便评论</string>
 
   
-  ew
+  <string name="GroupChannelUnlink">取消链接频道</string>ew
 
   <string name="ChannelGroupNew">创建一个新群组</string>
   <string name="ChannelGroupExisting">选择已有群组</string>
@@ -2968,14 +2968,14 @@
 
   <string name="NoCommentChats">找不到适合讨论的群组。</string>
   <string name="LinkGroupConfirmDone">链接群组</string>
+  <string name="LinkGroupConfirm">您想将 **%1$s** 设置为 **%2$s** 的讨论群吗？</string>
   
-  
-  
-  
+  <string name="LinkGroupConfirmWarnPrivateGroup">频道中的任何成员都可以查看群组信息。</string>
+  <string name="LinkGroupConfirmWarnPreHistory">**聊天记录对新成员** 将设置为 **可见**</string>
   
   
 
-  
+  <string name="ChatHistoryWarnLinkedChannel">警告：该群组将与 %1$s 取消关联。</string>
 
   
   <string name="ArchiveHide">隐藏于列表上方</string>
@@ -3016,18 +3016,18 @@
   
 
   
+  <string name="PinXChats_other">置顶 %1$s 个对话</string>
   
-  
-  
+  <string name="UnpinXChats_other">取消置顶 %1$s 个对话</string>
 
   
+  <string name="ArchiveXChats_other">将 %1$s 个对话归档</string>
   
+  <string name="UnarchiveXChats_other">取消 %1$s 个对话的归档状态</string>
   
+  <string name="ArchivedXChats_other">归档了 %1$s 个对话</string>
   
-  
-  
-  
-  
+  <string name="UnarchivedXChats_other">已取消 %1$s 个对话的归档状态</string>
 
   <string name="DeleteChatCache">清除媒体缓存</string>
 
@@ -3037,11 +3037,11 @@
   
 
   
+  <string name="BlockXUsers_other">屏蔽 %1$s 个用户</string>
   
+  <string name="BlockedXUsers_other">已屏蔽了 %1$s 个用户</string>
   
-  
-  
-  
+  <string name="UnblockedXUsers_other">已取消 %1$s 个用户的屏蔽状态</string>
   
   
   
@@ -3052,9 +3052,9 @@
   
   
   
+  <string name="BlockedBot">%1$s 已停用。</string>
   
-  
-  
+  <string name="UnblockedBot">%1$s 已被解除停用状态。</string>
 
   
   <string name="UnmutedXChats_other">已开启 %1$s 个对话通知</string>
@@ -3079,17 +3079,17 @@
   <string name="SelectMore">选择...</string>
   <string name="SelectAll">全选</string>
   
+  <string name="SelectMuted">选择已静音对话</string>
+
+  
+  <string name="ClearXHistoriesConfirm_other">您确定要清空这 %1$s 个对话的聊天记录吗？</string>
+  
+  
+  
   
 
   
-  
-  
-  
-  
-  
-
-  
-  
+  <string name="RevokeForX_other">同时为其他 %1$s 个用户清空消息记录</string>
 
   
   
@@ -3099,10 +3099,10 @@
   <string name="DeleteXChats_other">删除 %1$s 个对话</string>
 
   
-  
+  <string name="LosingXAdminRights_other">您将失去这 %1$s 个对话的管理权</string>
 
   
-  
+  <string name="LeaveXPrivateGroup_other">您将无法返回这 %1$s 个群组。</string>
 
   
   
@@ -3202,7 +3202,7 @@
   
 
   
-  
+  <string name="CameraRatioFull">全屏幕</string>
 
   
   
@@ -3244,7 +3244,7 @@
   <string name="StatsChartInteractions">互动</string>
   <string name="StatsChartIv">即时预览互动</string>
 
-  
+  <string name="SendDiceAsEmoji">作为 Emoji 发送</string>
   <string name="SendDiceHint">将 &#127922; emoji 发送到任何对话就可以从 Telegram 获得一个随机数。</string>
   
   <string name="SendUnknownDice">试试您的运气</string>
@@ -3304,7 +3304,7 @@
   <string name="PsaType">公共服务公告</string>
   <string name="PsaTypeCovid">新冠肺炎</string>
 
-  <string name="PsaForward">公共服务公告通知</string>
+  <string name="PsaForward">公共服务公告</string>
   <string name="PsaForwardCovid">新冠肺炎通知</string>
 
   <string name="PsaInfo">此消息为您提供一个公共服务公告。</string>

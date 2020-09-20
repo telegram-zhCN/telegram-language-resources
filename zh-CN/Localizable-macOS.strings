@@ -292,8 +292,8 @@
 "Message.Context.Edit" = "编辑";
 "Message.Context.Goto" = "显示消息";
 "Message.Context.Pin" = "置顶";
-
-
+"Message.Context.Unpin" = "取消置顶";
+"Message.Context.Share" = "分享";
 
 
 "Message.Context.Report.AlertOK" = "非常感谢！\n我们会尽快核查您的举报。";
@@ -1173,7 +1173,7 @@
 "Telegram.StorageUsageController" = "存储用量";
 "StorageUsage.KeepMedia" = "保留媒体文件";
 
-
+"StorageUsage.Limit.Header" = "最大缓存占用";
 "StorageUsage.Limit.Desc" = "如果您的缓存大小超出此限制，则最旧的媒体将被删除。";
 
 "StorageUsage.Limit.NoLimit" = "无限制";
@@ -1669,7 +1669,7 @@
 "GeneralSettings.DarkMode.Description" = "一套适用于夜间以及深色桌面的配色方案";
 "GeneralSettings.Font.Description" = "信息中使用大字体";
 
-"GeneralSettings.OpenLatestChatOnLaunch" = "自动打开最新对话";
+"GeneralSettings.OpenLatestChatOnLaunch" = "启动时自动打开最新对话";
 "GeneralSettings.AcceptSecretChats" = "接受加密对话";
 
 
@@ -2002,7 +2002,7 @@
 "AppearanceSettings.ColorTheme.day" = "标准亮色调";
 "AppearanceSettings.ColorTheme.dayClassic" = "经典日间";
 "AppearanceSettings.ColorTheme.system" = "系统";
-
+"AppearanceSettings.ColorTheme.nightAccent" = "夜间配色";
 
 "AppearanceSettings.ChatView.Classic" = "简洁";
 "AppearanceSettings.ChatView.Bubbles" = "气泡";
@@ -2086,7 +2086,7 @@
 "Chat.Confirm.ReportSpam" = "要举报骚扰行为吗？";
 "Chat.Confirm.ReportSpam.Header" = "举报垃圾信息";
 "Chat.Confirm.ReportSpam.Channel" = "要举报骚扰行为并退出这个频道吗？";
-"Chat.Confirm.ReportSpam.Group" = "要举报骚扰并退出此群组吗？";
+"Chat.Confirm.ReportSpam.Group" = "要举报骚扰行为并退出此群组吗？";
 
 "Appearance.CustomBackground" = "自定义背景图";
 "Appearance.CustomBackground.FileError" = "文件大小不得超过10MB，图像尺寸不得超过500x500像素。";
@@ -2425,7 +2425,7 @@
 "EditAccount.NameDesc" = "请输入您的姓名，并添加一张头像。\n提示：请勿输入个人真实信息。";
 "EditAccount.AddAccount" = "添加帐号";
 
-
+"EditAccount.Title" = "编辑个人信息";
 
 
 "Chanel.EventFilter.AllAdmins" = "全部管理员";
@@ -2701,13 +2701,13 @@
 "AutoNight.Settings.Scheduled" = "计划时段";
 "AutoNight.Settings.SystemBased" = "系统";
 "AutoNight.Settings.SystemBasedDesc" = "App界面将匹配系统外观设置。";
-
+"AutoNight.Settings.PreferredTheme" = "优先使用深色主题";
 
 "AutoNight.Settings.UpdateLocation.Error" = "无法确定您的位置。请检查系统设置，然后重试。";
 
 "DarkMode.Confirm.NightMode.Header" = "夜间模式";
 "DarkMode.Confirm.NightMode.Text" = "您已经开启了自动夜间模式。您需要先关闭此功能才能更改深色模式设定。";
-
+"DarkMode.Confirm.NightMode.OK" = "停用";
 
 "Gallery.Context.Share.ThisPhoto" = "这张图片";
 "Gallery.Context.Share.AllPhotos_countable" = "%d";
@@ -3291,7 +3291,7 @@
 "Login.Register.Desc" = "请输入您的姓名并添加一张头像。";
 "Login.Register.FirstName.Placeholder" = "名字";
 "Login.Register.LastName.Placeholder" = "姓氏";
-
+"Login.Register.AddPhoto.Placeholder" = "添加\n照片";
 
 
 
@@ -3390,7 +3390,7 @@
 "PeerInfo.Discussion" = "讨论群";
 "PeerInfo.LinkedChannel" = "链接的频道";
 "PeerInfo.Discussion.Add" = "添加";
-"PeerInfo.Discussion.Desc" = "添加一个用于评论的群组。";
+"PeerInfo.Discussion.Desc" = "绑定一个用于评论的群组。";
 
 
 "DiscussionController.Group.Title" = "关联的群组";
@@ -3517,7 +3517,7 @@
 
 
 "SlowMode.PreviewSender.FileTooltip" = "慢速模式已启用。\n您不能一次发送多个文件。";
-
+"SlowMode.PreviewSender.MediaTooltip" = "慢速模式已启用。\n您不能一次发送多个媒体文件。";
 "SlowMode.PreviewSender.Comment" = "慢速模式已启用。\n您无法添加评论。";
 
 
@@ -4043,10 +4043,10 @@
 
 
 
-
+"psa.title" = "公告通知";
 "psa.chat.title" = "公共服务告示";
 "psa.chat.text.covid" = "此消息为您提供正在发生的新冠肺炎疫情相关公共服务告示。了解有关此计划的更多信息：https://telegram.org/blog/coronavirus";
-
+"psa.title.bubbles" = "来自 [%@]() 的公告通知";
 
 "PeerInfo.Group.Menu.Promote" = "提升";
 "PeerInfo.Group.Menu.Restrict" = "限制";
@@ -4074,9 +4074,9 @@
 "PrivateChannel.Peek.Cancel" = "取消";
 
 
-
-
-
+"MediaSender.DiscardChanges.Header" = "放弃更改";
+"MediaSender.DiscardChanges.Text" = "你确定要放弃所有更改吗";
+"MediaSender.DiscardChanges.OK" = "放弃";
 
 
 
@@ -4181,10 +4181,10 @@
 
 
 
+"System.MemoryWarning.FreeSpace" = "%d GB";
 
 
-
-
+"System.MemoryWarning.OK" = "好";
 
 
 
@@ -4192,7 +4192,7 @@
 
 
 
-
+"VideoAvatar.Button.Cancel" = "取消";
 
 
 "Call.Accept" = "接听";
@@ -4200,7 +4200,7 @@
 "Call.Decline" = "拒绝";
 "Call.Camera" = "摄像头";
 "Call.Mute" = "静音";
-
+"Call.Recall" = "重拨";
 "Call.Close" = "关闭";
 
 
@@ -4213,7 +4213,7 @@
 "Call.Toast.LowBattery" = "%@ 的电池电量过低";
 
 
-
+"Message.Text.CopyMusicTitle" = "复制歌曲名";
 
 
 
