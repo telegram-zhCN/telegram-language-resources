@@ -2508,7 +2508,7 @@ Unused sets are archived when you add more.";
 "SharedMedia.CategoryMedia" = "Media";
 "SharedMedia.CategoryDocs" = "Docs";
 "SharedMedia.CategoryLinks" = "Links";
-"SharedMedia.CategoryOther" = "Audio";
+"SharedMedia.CategoryOther" = "Music";
 
 "AccessDenied.VideoMessageCamera" = "Telegram needs access to your camera so that you can send video messages.\n\nPlease go to your device‘s settings > Privacy > Camera and set Telegram to ON.";
 "AccessDenied.VideoMessageMicrophone" = "Telegram needs access to your microphone so that you can send video messages.\n\nPlease go to your device‘s settings > Privacy > Microphone and set Telegram to ON.";
