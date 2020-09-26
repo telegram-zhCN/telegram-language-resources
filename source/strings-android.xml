@@ -2232,7 +2232,7 @@
     <string name="SharedMediaTabFull2">Shared Media</string>
     <string name="SharedGroupsTab2">Groups</string>
     <string name="SharedLinksTab2">Links</string>
-    <string name="SharedMusicTab2">Audio</string>
+    <string name="SharedMusicTab2">Music</string>
     <string name="SharedVoiceTab2">Voice Messages</string>
     <string name="SharedGIFsTab2">GIFs</string>
     <string name="DocumentsTitle">Shared Files</string>
@@ -3782,7 +3782,7 @@
   <string name="SharedLinksTab">LINKS</string>
   <string name="SharedMediaTab">MEDIA</string>
   <string name="SharedMediaTitle">Shared Media</string>
-  <string name="SharedMusicTab">AUDIO</string>
+  <string name="SharedMusicTab">MUSIC</string>
   <string name="SharedVoiceTab">VOICE</string>
   <string name="ShowNearbyPlaces">Pull up to see places nearby</string>
   <string name="Shuffle">Shuffle</string>
