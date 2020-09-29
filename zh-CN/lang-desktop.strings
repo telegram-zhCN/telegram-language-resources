@@ -812,6 +812,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_set_group_photo" = "设置图片";
 "lng_profile_add_participant" = "邀请新成员";
 "lng_profile_view_channel" = "查看频道";
+
 "lng_profile_join_channel" = "加入频道";
 "lng_profile_join_group" = "加入";
 "lng_profile_delete_and_exit" = "退出";
@@ -1319,6 +1320,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_message_ph" = "输入消息...";
 "lng_broadcast_ph" = "广播消息…";
 "lng_broadcast_silent_ph" = "无声广播...";
+
 "lng_record_cancel" = "将光标移出此处可取消发送";
 "lng_will_be_notified" = "发布时订阅者会收到通知";
 "lng_wont_be_notified" = "订阅者会收到无声通知";
@@ -1330,7 +1332,6 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restart_button" = "重启";
 "lng_channel_mute" = "关闭通知";
 "lng_channel_unmute" = "开启通知";
-"lng_channel_discuss" = "讨论";
 "lng_saved_messages" = "收藏夹";
 "lng_saved_short" = "保存";
 "lng_saved_forward_here" = "转发消息到这里以便快速访问";
@@ -1343,6 +1344,23 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_scheduled_send_now" = "现在发送此消息？";
 
 "lng_scheduled_send_now_many#other" = "现在发送这 {count} 条消息吗？";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 "lng_archived_name" = "已归档对话";
 "lng_archived_add" = "归档对话";
@@ -1439,6 +1457,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_unpin_from_top" = "取消置顶";
 "lng_context_mark_unread" = "标记为未读";
 "lng_context_mark_read" = "标记为已读";
+
+
+
 "lng_context_archive_expand" = "展开";
 "lng_context_archive_collapse" = "收起";
 "lng_context_archive_to_menu" = "移至主菜单";
@@ -1821,6 +1842,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_group_invite" = "邀请新成员";
 "lng_rights_group_pin" = "置顶消息";
 "lng_rights_group_delete" = "删除消息";
+
 "lng_rights_add_admins" = "添加新管理员";
 "lng_rights_chat_read" = "查看消息";
 "lng_rights_chat_send_text" = "发送消息";
@@ -1852,6 +1874,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_transfer_password_description" = "请输入您的两步验证密码以完成转让。";
 "lng_rights_transfer_done_group" = "{user} 现在是群主。";
 "lng_rights_transfer_done_channel" = "{user} 现在是频道主。";
+
+
+
+
 
 "lng_restricted_send_message" = "您已被管理员禁言";
 "lng_restricted_send_media" = "群组管理员已禁止您发送媒体文件。";
@@ -2481,6 +2507,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_add_restricted" = "限制用户权限";
 "lng_channel_admins_link#other" = "{count} 位管理员";
 "lng_channel_blocked_list_about" = "被封禁的用户将会从频道中移除。\n他们不能使用邀请链接再次加入。";
+"lng_channel_discuss" = "讨论";
 "lng_channel_members_link#other" = "{count} 位成员";
 "lng_cloud_password_waiting" = "验证链接已发送到 {email}..";
 "lng_code_telegram" = "我们已向您其他设备上的 [b]Telegram[/b] 应用\n发送了一条验证码消息，请在下方输入您的验证码。";

@@ -1556,6 +1556,7 @@
 
 "Channel.ErrorAccessDenied" = "抱歉，这是一个私人频道。";
 "Group.ErrorAccessDenied" = "抱歉，这个群组是私人群组。";
+
 "Conversation.InputTextBroadcastPlaceholder" = "广播消息";
 
 "Channel.NotificationLoading" = "加载中...";
@@ -5740,6 +5741,48 @@ Any member of this group will be able to see messages in the channel.";
 "Call.AudioRouteMute" = "关闭麦克风";
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

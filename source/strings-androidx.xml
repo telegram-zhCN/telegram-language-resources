@@ -36,6 +36,8 @@
   <string name="language_appliedLanguage">App language has been set to English.</string>
   <string name="MoreLanguages">More Languages</string>
   <string name="timestamp_now">just now</string>
+  <string name="timestamp_seconds_one">%1$s second ago</string>
+  <string name="timestamp_seconds_other">%1$s seconds ago</string>
   <string name="timestamp_minutes_one">%1$s minute ago</string>
   <string name="timestamp_minutes_other">%1$s minutes ago</string>
   <string name="timestamp_hours_one">%1$s hour ago</string>
@@ -46,6 +48,8 @@
   <string name="timestamp_weekday">%1$s at %2$s</string>
   <string name="timestamp_date">%1$s at %2$s</string>
   <string name="timestampShort_now">now</string>
+  <string name="timestampShort_seconds_one">%1$ss ago</string>
+  <string name="timestampShort_seconds_other">%1$ss ago</string>
   <string name="timestampShort_minutes_one">%1$sm ago</string>
   <string name="timestampShort_minutes_other">%1$sm ago</string>
   <string name="timestampShort_hours_one">%1$sh ago</string>
@@ -61,6 +65,7 @@
   <string name="format_concatSeparator">", "</string>
   <string name="format_concatSeparatorLast">" and "</string>
   <string name="format_concatSeparatorLastPerson">" and "</string>
+  <string name="format_trimmedDuration">%1$s / %2$s</string>
   <string name="format_numberSuffix_thousand">K</string>
   <string name="format_numberSuffix_million">M</string>
   <string name="format_numberSuffix_billion">B</string>
@@ -73,14 +78,14 @@
   <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_filesAndFolders">%1$s, %2$s</string>
-  <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
-  <string name="format_locationUpdated">updated %1$s</string>
+  <string name="format_contentAndModifyDate2">%1$s, %2$s</string>
   <string name="format_plus">+%1$d</string>
   <string name="format_minus">-%1$d</string>
   <string name="format_minusPlus">-%1$d, +%2$d</string>
   <string name="format_ping">ping: %1$sms</string>
   <string name="format_pingBest">ping: %1$sms, best</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
+  <string name="format_ivRelatedInfo">%1$s • %2$s</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   <string name="format_channelAndSignature">%1$s (%2$s)</string>
   <string name="messagesCount_one">%1$s</string>
@@ -117,6 +122,8 @@
   <string name="status_LastSeen_yesterday">seen yesterday at %1$s</string>
   <string name="status_LastSeen_weekday">seen on %1$s at %2$s</string>
   <string name="status_LastSeen_date">seen on %1$s at %2$s</string>
+  <string name="status_LastSeen_seconds_one">seen %1$s second ago</string>
+  <string name="status_LastSeen_seconds_other">seen %1$s seconds ago</string>
   <string name="status_LastSeen_minutes_one">seen %1$s minute ago</string>
   <string name="status_LastSeen_minutes_other">seen %1$s minutes ago</string>
   <string name="status_LastSeen_hours_one">seen %1$s hour ago</string>
@@ -552,12 +559,9 @@
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
   <string name="fileSize_KB">%1$s KB</string>
-  <!--<string name="unit_GB">%1$s GB</string>
-  <string name="unit_MB">%1$s MB</string>
-  <string name="unit_KB">%1$s KB</string>
-  <string name="unit_GiB">%1$s GiB</string>
-  <string name="unit_MiB">%1$s MiB</string>
-  <string name="unit_KiB">%1$s KiB</string>-->
+  <string name="fileSize_GiB">%1$s GiB</string>
+  <string name="fileSize_MiB">%1$s MiB</string>
+  <string name="fileSize_KiB">%1$s KiB</string>
   <string name="DownloadingOf">%1$s of %2$s</string>
   <string name="Downloading">Downloading %1$s of %2$s</string>
   <string name="Confirm">Confirm</string>
@@ -604,6 +608,7 @@
   <string name="SearchForPlaces">Search for places</string>
   <string name="SearchForImages">Search for images</string>
   <string name="AllMedia">All media</string>
+  <string name="AllVideos">All videos</string>
   <string name="UserUnavailable">user is unavailable</string>
   <string name="YouCantForwardMoreMessages_one">Sorry, you can\'t forward more than %1$s message at once</string>
   <string name="YouCantForwardMoreMessages_other">Sorry, you can\'t forward more than %1$s messages at once</string>
@@ -633,6 +638,7 @@
   <string name="DetectLocationError">Unable to detect current location.</string>
   <string name="ShareYouLocationUnableManually">Choose manually</string>
   <string name="NoLocationAccess">This feature requires access to your location.</string>
+  <string name="NoLocationAccessBackground">This feature requires access to your location while app is in background.</string>
   <string name="NoGoogleMaps">This feature requires Google Maps installed.</string>
   <string name="NoStorageAccess">This feature requires storage access.</string>
   <string name="NoMicrophoneAccess">This feature requires access to microphone.</string>
@@ -1302,6 +1308,8 @@
   <string name="RoleLeft">not a member</string>
   <string name="RoleBanned">banned member</string>
   <string name="RoleMember_now">joined just now</string>
+  <string name="RoleMember_seconds_one">joined %1$s sec ago</string>
+  <string name="RoleMember_seconds_other">joined %1$s secs ago</string>
   <string name="RoleMember_minutes_one">joined %1$s min ago</string>
   <string name="RoleMember_minutes_other">joined %1$s mins ago</string>
   <string name="RoleMember_hours_one">joined %1$s hr ago</string>
@@ -1664,6 +1672,8 @@
   <string name="PrivacyCallsP2PTitle2">Peer-to-Peer in Calls</string>
   <string name="PeerToPeerInfo">Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but will slightly decrease audio quality.</string>
   <string name="AutoNightDisabled">Disabled</string>
+  <string name="AutoNightSystem">System Default</string>
+  <string name="AutoNightSystemQ">System</string>
   <string name="AutoNightAutomatic">Automatic</string>
   <string name="AutoNightScheduled">Scheduled</string>
   <string name="AutoNightModeScheduledByLocation">Detect current sunset &amp; sunrise time</string>
@@ -1673,6 +1683,8 @@
   <string name="AutoNightModeDescription">Switch to night theme based on ambient lighting or your time preference.</string>
   <string name="AutoNightModeDescriptionAuto">Switch to night theme when ambient lighting falls below %1$d%%.\n\nSmall dot indicates current level of ambient lighting measured by your device.</string>
   <string name="AutoNightModeDescriptionScheduled">Switch to night theme based on your time preference.</string>
+  <string name="AutoNightModeDescriptionSystemQ">Switch to night theme based on your system settings.</string>
+  <string name="AutoNightModeDescriptionSystem">Switch to night theme based on the value provided by system.</string>
   <string name="PrivacyBots">Bots</string>
   <string name="WebSessionsTitle">Logged in with Telegram</string>
   <string name="NoActiveLogins">**No active logins**\n\nYou can log in on websites that support signing&#160;in&#160;with&#160;Telegram.</string>
@@ -3188,6 +3200,10 @@
   <string name="SendAsXFiles_one">Send as %1$s file</string>
   <string name="SendAsXFiles_other">Send as %1$s files</string>
 
+  <string name="SendOriginal">Send original</string>
+  <string name="SendXOriginals_one">Send %1$s original</string>
+  <string name="SendXOriginals_other">Send %1$s originals</string>
+
   <string name="Camera">In-App Camera</string>
   <string name="CameraSettings">Camera Settings</string>
 
@@ -3336,6 +3352,42 @@
   <string name="DebugShareError">Set **Verbosity Level** to **ASSERT** to share TDLib log.</string>
 
   <string name="BrushSize">Brush Size: %1$s</string>
+
+  <string name="VideoTrimUnsupported">This video file could not be trimmed</string>
+  <string name="WrongLayout">Wrong Layout?</string>
+
+  <string name="UnknownChats">Chats from unknown users</string>
+  <string name="ArchiveNonContacts">Archive and Mute</string>
+  <string name="ArchiveNonContactsInfo">Automatically archive and mute new chats, groups and channels from non-contacts.</string>
+  <string name="SizeUnit">Size Unit</string>
+  <string name="SizeUnitMetric">1000 bytes = 1 KB, 1000 KB = 1 MB</string>
+  <string name="SizeUnitBinary">1024 bytes = 1 KiB, 1024 KiB = 1 MiB</string>
+  <string name="ViewPhoto">View Photo</string>
+  <string name="Quality">Quality</string>
+
+  <string name="locationUpdated_now">updated just now</string>
+  <string name="locationUpdated_seconds_one">updated %1$s second ago</string>
+  <string name="locationUpdated_seconds_other">updated %1$s seconds ago</string>
+  <string name="locationUpdated_minutes_one">updated %1$s minute ago</string>
+  <string name="locationUpdated_minutes_other">updated %1$s minutes ago</string>
+  <string name="locationUpdated_hours_one">updated %1$s hour ago</string>
+  <string name="locationUpdated_hours_other">updated %1$s hours ago</string>
+  <string name="locationUpdated_today">updated at %1$s</string>
+  <string name="locationUpdated_yesterday">updated yesterday at %1$s</string>
+  <string name="locationUpdated_weekday">updated on %1$s at %2$s</string>
+  <string name="locationUpdated_date">updated on %1$s at %2$s</string>
+  
+  <string name="modified_now">modified just now</string>
+  <string name="modified_seconds_one">modified %1$s second ago</string>
+  <string name="modified_seconds_other">modified %1$s seconds ago</string>
+  <string name="modified_minutes_one">modified %1$s minute ago</string>
+  <string name="modified_minutes_other">modified %1$s minutes ago</string>
+  <string name="modified_hours_one">modified %1$s hour ago</string>
+  <string name="modified_hours_other">modified %1$s hours ago</string>
+  <string name="modified_today">modified at %1$s</string>
+  <string name="modified_yesterday">modified yesterday at %1$s</string>
+  <string name="modified_weekday">modified on %1$s at %2$s</string>
+  <string name="modified_date">modified on %1$s at %2$s</string>
 
   
   
@@ -3768,6 +3820,10 @@
   <string name="RoleMember_months_two">joined %1$s months ago</string>
   <string name="RoleMember_months_few">joined %1$s months ago</string>
   <string name="RoleMember_months_many">joined %1$s months ago</string>
+  <string name="RoleMember_seconds_zero">joined %1$s secs ago</string>
+  <string name="RoleMember_seconds_two">joined %1$s secs ago</string>
+  <string name="RoleMember_seconds_few">joined %1$s secs ago</string>
+  <string name="RoleMember_seconds_many">joined %1$s secs ago</string>
   <string name="RoleMember_weeks_zero">joined %1$s weeks ago</string>
   <string name="RoleMember_weeks_two">joined %1$s weeks ago</string>
   <string name="RoleMember_weeks_few">joined %1$s weeks ago</string>
@@ -3836,6 +3892,10 @@
   <string name="SendXMessagesNow_two">Send %1$s messages?</string>
   <string name="SendXMessagesNow_few">Send %1$s messages?</string>
   <string name="SendXMessagesNow_many">Send %1$s messages?</string>
+  <string name="SendXOriginals_zero">Send %1$s originals</string>
+  <string name="SendXOriginals_two">Send %1$s originals</string>
+  <string name="SendXOriginals_few">Send %1$s originals</string>
+  <string name="SendXOriginals_many">Send %1$s originals</string>
   <string name="SetAdminsAll">All Members Are Admins</string>
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="ShareTitleAudioX_zero">Share %1$s audios to…</string>
@@ -3959,7 +4019,9 @@
   <string name="YouCantForwardMoreMessages_two">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_few">Sorry, you can\'t forward more than %1$s messages at once</string>
   <string name="YouCantForwardMoreMessages_many">Sorry, you can\'t forward more than %1$s messages at once</string>
+  <string name="format_contentAndModifyDate">%1$s, modified %2$s</string>
   <string name="format_dateViaBot">%1$s via %2$s</string>
+  <string name="format_locationUpdated">updated %1$s</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_sendTodayAt">%1$s (%2$s)</string>
   <string name="format_sendTomorrowAt">%1$s (tomorrow at %2$s)</string>
@@ -3995,6 +4057,18 @@
   <string name="inXMinutes_two">in %1$s minutes</string>
   <string name="inXMinutes_few">in %1$s minutes</string>
   <string name="inXMinutes_many">in %1$s minutes</string>
+  <string name="locationUpdated_hours_zero">updated %1$s hours ago</string>
+  <string name="locationUpdated_hours_two">updated %1$s hours ago</string>
+  <string name="locationUpdated_hours_few">updated %1$s hours ago</string>
+  <string name="locationUpdated_hours_many">updated %1$s hours ago</string>
+  <string name="locationUpdated_minutes_zero">updated %1$s minutes ago</string>
+  <string name="locationUpdated_minutes_two">updated %1$s minutes ago</string>
+  <string name="locationUpdated_minutes_few">updated %1$s minutes ago</string>
+  <string name="locationUpdated_minutes_many">updated %1$s minutes ago</string>
+  <string name="locationUpdated_seconds_zero">updated %1$s seconds ago</string>
+  <string name="locationUpdated_seconds_two">updated %1$s seconds ago</string>
+  <string name="locationUpdated_seconds_few">updated %1$s seconds ago</string>
+  <string name="locationUpdated_seconds_many">updated %1$s seconds ago</string>
   <string name="login_Country">Country</string>
   <string name="login_YourName">Your name</string>
   <string name="mentionCount_zero">%1$s mentions</string>
@@ -4007,6 +4081,18 @@
   <string name="messagesCount_two">%1$s</string>
   <string name="messagesCount_few">%1$s</string>
   <string name="messagesCount_many">%1$s</string>
+  <string name="modified_hours_zero">modified %1$s hours ago</string>
+  <string name="modified_hours_two">modified %1$s hours ago</string>
+  <string name="modified_hours_few">modified %1$s hours ago</string>
+  <string name="modified_hours_many">modified %1$s hours ago</string>
+  <string name="modified_minutes_zero">modified %1$s minutes ago</string>
+  <string name="modified_minutes_two">modified %1$s minutes ago</string>
+  <string name="modified_minutes_few">modified %1$s minutes ago</string>
+  <string name="modified_minutes_many">modified %1$s minutes ago</string>
+  <string name="modified_seconds_zero">modified %1$s seconds ago</string>
+  <string name="modified_seconds_two">modified %1$s seconds ago</string>
+  <string name="modified_seconds_few">modified %1$s seconds ago</string>
+  <string name="modified_seconds_many">modified %1$s seconds ago</string>
   <string name="service_Notifications">This service is used for displaying message notifications.</string>
   <string name="status_LastSeen_hours_zero">seen %1$s hours ago</string>
   <string name="status_LastSeen_hours_two">seen %1$s hours ago</string>
@@ -4016,6 +4102,10 @@
   <string name="status_LastSeen_minutes_two">seen %1$s minutes ago</string>
   <string name="status_LastSeen_minutes_few">seen %1$s minutes ago</string>
   <string name="status_LastSeen_minutes_many">seen %1$s minutes ago</string>
+  <string name="status_LastSeen_seconds_zero">seen %1$s seconds ago</string>
+  <string name="status_LastSeen_seconds_two">seen %1$s seconds ago</string>
+  <string name="status_LastSeen_seconds_few">seen %1$s seconds ago</string>
+  <string name="status_LastSeen_seconds_many">seen %1$s seconds ago</string>
   <string name="timestampShort_hours_zero">%1$sh ago</string>
   <string name="timestampShort_hours_two">%1$sh ago</string>
   <string name="timestampShort_hours_few">%1$sh ago</string>
@@ -4024,6 +4114,10 @@
   <string name="timestampShort_minutes_two">%1$sm ago</string>
   <string name="timestampShort_minutes_few">%1$sm ago</string>
   <string name="timestampShort_minutes_many">%1$sm ago</string>
+  <string name="timestampShort_seconds_zero">%1$ss ago</string>
+  <string name="timestampShort_seconds_two">%1$ss ago</string>
+  <string name="timestampShort_seconds_few">%1$ss ago</string>
+  <string name="timestampShort_seconds_many">%1$ss ago</string>
   <string name="timestamp_hours_zero">%1$s hours ago</string>
   <string name="timestamp_hours_two">%1$s hours ago</string>
   <string name="timestamp_hours_few">%1$s hours ago</string>
@@ -4032,6 +4126,10 @@
   <string name="timestamp_minutes_two">%1$s minutes ago</string>
   <string name="timestamp_minutes_few">%1$s minutes ago</string>
   <string name="timestamp_minutes_many">%1$s minutes ago</string>
+  <string name="timestamp_seconds_zero">%1$s seconds ago</string>
+  <string name="timestamp_seconds_two">%1$s seconds ago</string>
+  <string name="timestamp_seconds_few">%1$s seconds ago</string>
+  <string name="timestamp_seconds_many">%1$s seconds ago</string>
   <string name="xAdmins_zero">%1$s admins</string>
   <string name="xAdmins_two">%1$s admins</string>
   <string name="xAdmins_few">%1$s admins</string>

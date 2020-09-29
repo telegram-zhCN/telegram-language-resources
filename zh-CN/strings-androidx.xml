@@ -37,6 +37,8 @@
   <string name="MoreLanguages">更多语言</string>
   <string name="timestamp_now">刚刚</string>
   
+  
+  
   <string name="timestamp_minutes_other">%1$s 分钟前</string>
   
   <string name="timestamp_hours_other">%1$s 小时前</string>
@@ -46,6 +48,8 @@
   <string name="timestamp_weekday">%1$s %2$s</string>
   <string name="timestamp_date">%1$s %2$s</string>
   <string name="timestampShort_now">现在</string>
+  
+  
   
   <string name="timestampShort_minutes_other">%1$s 分钟前</string>
   
@@ -61,6 +65,7 @@
   <string name="format_concatSeparator">、</string>
   <string name="format_concatSeparatorLast">" 和 "</string>
   <string name="format_concatSeparatorLastPerson">和</string>
+  
   <string name="format_numberSuffix_thousand">K</string>
   <string name="format_numberSuffix_million">M</string>
   <string name="format_numberSuffix_billion">B</string>
@@ -73,14 +78,14 @@
   <string name="format_fileSizeAndDescription">%2$s，%1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_filesAndFolders">%1$s，%2$s</string>
-  <string name="format_contentAndModifyDate">%1$s，最后修改于 %2$s</string>
-  <string name="format_locationUpdated">更新于 %1$s</string>
+  
   <string name="format_plus">+%1$d</string>
   <string name="format_minus">-%1$d</string>
   <string name="format_minusPlus">-%1$d, +%2$d</string>
   <string name="format_ping">Ping: %1$s 毫秒</string>
   <string name="format_pingBest">Ping: %1$s 毫秒（最佳）</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
+  
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   <string name="format_channelAndSignature">%1$s (%2$s)</string>
   
@@ -117,6 +122,8 @@
   <string name="status_LastSeen_yesterday">昨天 %1$s 在线</string>
   <string name="status_LastSeen_weekday">%1$s %2$s 上过线</string>
   <string name="status_LastSeen_date">%1$s %2$s 上过线</string>
+  
+  
   
   <string name="status_LastSeen_minutes_other">最近上线于 %1$s 分钟前</string>
   
@@ -552,12 +559,9 @@
   <string name="fileSize_GB">%1$s GB</string>
   <string name="fileSize_MB">%1$s MB</string>
   <string name="fileSize_KB">%1$s KB</string>
-  <!--<string name="unit_GB">%1$s GB</string>
-  <string name="unit_MB">%1$s MB</string>
-  <string name="unit_KB">%1$s KB</string>
-  <string name="unit_GiB">%1$s GiB</string>
-  <string name="unit_MiB">%1$s MiB</string>
-  <string name="unit_KiB">%1$s KiB</string>-->
+  
+  
+  
   <string name="DownloadingOf">%1$s, %2$s</string>
   <string name="Downloading">正在下载 %1$s 共 %2$s</string>
   <string name="Confirm">确认</string>
@@ -604,6 +608,7 @@
   <string name="SearchForPlaces">搜索附近地点</string>
   <string name="SearchForImages">搜索图片</string>
   <string name="AllMedia">所有媒体</string>
+  
   <string name="UserUnavailable">用户暂不可用</string>
   
   <string name="YouCantForwardMoreMessages_other">抱歉，您无法一次性转发多于 %1$s 条消息。</string>
@@ -633,6 +638,7 @@
   <string name="DetectLocationError">无法确认您当前的位置。</string>
   <string name="ShareYouLocationUnableManually">手动选择</string>
   <string name="NoLocationAccess">此功能需要获取您的定位服务权限。</string>
+  
   <string name="NoGoogleMaps">使用此功能需要安装 Google 地图。</string>
   <string name="NoStorageAccess">此功能需要获取您的存储访问权限。</string>
   <string name="NoMicrophoneAccess">此功能需要获取您的麦克风访问权限。</string>
@@ -1303,6 +1309,8 @@
   <string name="RoleBanned">被封禁的成员</string>
   <string name="RoleMember_now">刚刚加入</string>
   
+  
+  
   <string name="RoleMember_minutes_other">%1$s 分钟前加入</string>
   
   <string name="RoleMember_hours_other">%1$s 小时前加入</string>
@@ -1664,6 +1672,8 @@
   <string name="PrivacyCallsP2PTitle2">端到端通话</string>
   <string name="PeerToPeerInfo">禁用端对端连接后，所有通话流量都将通过 Telegram 服务器中转以避免泄露您的 IP 地址，但这可能会轻微降低音质。</string>
   <string name="AutoNightDisabled">关闭</string>
+  
+  
   <string name="AutoNightAutomatic">自动</string>
   <string name="AutoNightScheduled">计划时段</string>
   <string name="AutoNightModeScheduledByLocation">自动检测当地日落和日出时间</string>
@@ -1673,6 +1683,8 @@
   <string name="AutoNightModeDescription">根据环境亮度或时间计划决定是否切换到夜间模式。</string>
   <string name="AutoNightModeDescriptionAuto">当环境亮度低于 %1$d%% 时切换到夜间模式。小圆点指示您设备测量的当前环境亮度值。</string>
   <string name="AutoNightModeDescriptionScheduled">根据时间计划决定是否切换到夜间模式。</string>
+  
+  
   <string name="PrivacyBots">机器人</string>
   <string name="WebSessionsTitle">使用 Telegram 登录的网站</string>
   <string name="NoActiveLogins">**没有授权登录**\n\n你可以在所有支&#160;持&#160;使&#160;用 Telegram 登入的网站中登录。</string>
@@ -3190,6 +3202,10 @@
 
   
   
+  
+
+  
+  
 
   
   
@@ -3339,6 +3355,42 @@
 
   
   
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
   
   
 
@@ -3436,7 +3488,9 @@
   <string name="XSentARoundVideo">%1$s 发送了一条视频留言</string>
   <string name="XSentAVideo">%1$s 发送了一段视频</string>
   <string name="XSentAVoice">%1$s 发送了一条语音留言</string>
+  <string name="format_contentAndModifyDate">%1$s，最后修改于 %2$s</string>
   <string name="format_dateViaBot">%1$s 通过 %2$s</string>
+  <string name="format_locationUpdated">更新于 %1$s</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="login_Country">国家</string>
   <string name="login_YourName">您的姓名</string>

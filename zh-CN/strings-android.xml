@@ -226,6 +226,29 @@
     <string name="HideNewChatsAlertTitle">隐藏新对话?</string>
     <string name="HideNewChatsAlertText">您收到了很多来自非联系人的对话. 您想将这些对话**自动静音**并**归档**吗?</string>
     <string name="GoToSettings">转到设置</string>
+    <string name="OpenProfile">Open Profile</string>
+    <string name="OpenChannel2">Open Channel</string>
+    <string name="SendMessage">Send Message</string>
+    <string name="Mention">Mention</string>
+    <string name="NotificationsMutedHint">Notifications muted</string>
+    <string name="NotificationsMutedForHint">Notifications muted for %1$s</string>
+    <string name="NotificationsUnmutedHint">Notifications unmuted</string>
+    <string name="MessagesDeletedHint_zero">%1$d messages deleted</string>
+    <string name="MessagesDeletedHint_one">Message deleted</string>
+    <string name="MessagesDeletedHint_two">%1$d messages deleted</string>
+    <string name="MessagesDeletedHint_few">%1$d messages deleted</string>
+    <string name="MessagesDeletedHint_many">%1$d messages deleted</string>
+    <string name="MessagesDeletedHint_other">%1$d messages deleted</string>
+    <string name="SearchEmptyViewTitle">No Results</string>
+    <string name="SearchEmptyViewTitle2">No Results</string>
+    <string name="SearchEmptyViewFilteredSubtitle">%s from all your chats will be shown here.</string>
+    <string name="SearchEmptyViewFilteredSubtitle2">Try a new search.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMusic">Music</string>
+    <string name="SearchEmptyViewFilteredSubtitleFiles">Files</string>
+    <string name="SearchEmptyViewFilteredSubtitleLinks">Links</string>
+    <string name="SearchEmptyViewFilteredSubtitleVoice">Voice</string>
+    <string name="SearchEmptyViewFilteredSubtitleMedia">Media</string>
+    <string name="SearchAllChatsShort">Chats</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
@@ -364,6 +387,7 @@
     <string name="ChannelAdminsInfo">您可以添加管理员帮助您管理频道。长按可删除管理员。</string>
     <string name="ChannelJoinTo">您确定要加入 “%1$s” 频道？</string>
     <string name="ChannelCantOpenPrivate">抱歉，此对话已无法访问。</string>
+    <string name="ChannelCantOpenBannedByAdmin">Sorry, you can\'t access this chat because you were banned by an admin.</string>
     <string name="ChannelCantOpenBanned">抱歉，目前您已被禁止在公开群组中发送消息。</string>
     <string name="ChannelCantOpenNa">抱歉，该对话已无法访问。</string>
     <string name="ChannelAddTo">将 %1$s 添加到此频道？</string>
@@ -418,6 +442,7 @@
     <string name="EditAdminDeleteMessages">删除其他人的消息</string>
     <string name="EditAdminGroupDeleteMessages">删除消息</string>
     <string name="EditAdminAddAdmins">添加新管理员</string>
+    <string name="EditAdminSendAnonymously">Send Anonymously</string>
     <string name="EditAdminRemoveAdmin">撤销管理员</string>
     <string name="EditAdminGroupTransfer">转让群组拥有权</string>
     <string name="EditAdminChannelTransfer">转让频道拥有权</string>
@@ -508,11 +533,12 @@
     <string name="MakeAdmin">添加为管理员</string>
     <string name="AdminWillBeRemoved">如果您对 %1$s 作出限制，他将被撤销管理员权限。</string>
     <string name="Discussion">讨论群</string>
+    <string name="ViewDiscussion">View discussion</string>
     <string name="DiscussionInfo">添加一个用于评论的群组</string>
     <string name="LinkedChannel">链接的频道</string>
-    <string name="DiscussionChannelHelp">选择一个将在您的频道中显示的用于讨论的群组。</string>
+    <string name="DiscussionChannelHelp3">Select a group chat that will host comments from your channel.</string>
     <string name="DiscussionChannelHelp2">您在频道中发布的所有内容都将被转发到此群组。</string>
-    <string name="DiscussionChannelGroupSetHelp">一个指向 **%1$s** 的链接正在底部面板中向所有订阅者显示。</string>
+    <string name="DiscussionChannelGroupSetHelp2">**%1$s** is selected as the group that hosts comments for your channel.</string>
     <string name="DiscussionGroupHelp">**%1$s** 正在将此群组作为其讨论板。</string>
     <string name="DiscussionGroupHelp2">此频道中发布的所有新消息都将转发到该群组。</string>
     <string name="DiscussionCreateGroup">创建一个新群组</string>
@@ -687,6 +713,7 @@
     <string name="EventLogPromotedEditMessages">编辑消息</string>
     <string name="EventLogPromotedDeleteMessages">删除消息</string>
     <string name="EventLogPromotedAddAdmins">添加管理员</string>
+    <string name="EventLogPromotedSendAnonymously">Send anonymously</string>
     <string name="EventLogPromotedBanUsers">封禁用户</string>
     <string name="EventLogPromotedAddUsers">添加成员</string>
     <string name="EventLogPromotedTitle">头衔：%1$s</string>
@@ -856,6 +883,7 @@
     <string name="AddContactFullChat">添加 %1$s 到联系人</string>
     <string name="ViewContact">查看联系人</string>
     <string name="BlockUserAlert">您想屏蔽 %1$s 的所有消息和通话吗？</string>
+    <string name="BlockUserReplyAlert">Do you want to block messages from **%1$s**?</string>
     <string name="ReportSpamAlert">您确定要举报此用户存在骚扰行为？</string>
     <string name="ReportSpamAlertGroup">您确定要举报此群组发布垃圾信息吗？</string>
     <string name="ReportSpamAlertChannel">您确定要举报该频道发布垃圾信息吗？</string>
@@ -1014,6 +1042,24 @@
     <string name="SecretChatTimerMinutes">月</string>
     <string name="SecretChatTimerHours">小时</string>
     <string name="SecretChatTimerWeeks">周</string>
+    <string name="SharedToPrivateMessagesAndGroups">to private messages and groups</string>
+    
+    <string name="BotOwnershipTransfer">Transfer Bot Ownership</string>
+    <string name="BotOwnershipTransferReadyAlertText">This will transfer the **full owner** rights for the bot to the selected user.</string>
+    <string name="BotOwnershipTransferChangeOwner">Change Owner</string>
+    <string name="BotOwnershipTransferAlertText">You can transfer bot only if you have:</string>
+    <string name="LeaveAComment">Leave a comment</string>
+    <string name="CommentsTitle">Comments</string>
+    <string name="Comment">Comment</string>
+    <string name="RepliesTitle">Replies</string>
+    <string name="NoComments">No comments here yet...</string>
+    <string name="NoReplies">No replies here yet...</string>
+    <string name="ViewInChat">View in chat</string>
+    <string name="SendAnonymously">Send anonymously</string>
+    <string name="DiscussionStarted">Discussion started</string>
+    <string name="ViewThread">View Thread</string>
+    <string name="ChooseDate">Choose date</string>
+    <string name="RepliesChatInfo">This chat helps you keep track of replies to your comments in Channels.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -1165,6 +1211,10 @@
     <string name="SortedByLastSeen">按最后上线时间排序</string>
     <string name="AddContactByPhone">添加 %1$s</string>
     <string name="PhoneNumberSearch">手机号码</string>
+    <string name="NoContactsYet">You have no contacts on Telegram yet</string>
+    <string name="NoContactsYetLine1">Invite friends to try Telegram</string>
+    <string name="NoContactsYetLine2">Find people nearby to chat with</string>
+    <string name="NoContactsYetLine3">Search people by username</string>
     <!--group create view-->
     <string name="SendMessageTo">添加成员...</string>
     <string name="SoftUserLimitAlert">创建群组后，您将可以添加更多成员。</string>
@@ -1224,6 +1274,8 @@
     <string name="ContactNotRegisteredTitle">邀请好友使用 Telegram</string>
     <string name="ContactNotRegistered">%1$s 尚未使用 Telegram，是否邀请他加入？</string>
     <string name="Invite">邀请</string>
+    <string name="Block">BLOCK</string>
+    <string name="BlockAndDeleteReplies">BLOCK AND DELETE REPLIES</string>
     <string name="BlockContact">屏蔽用户</string>
     <string name="BlockUser">屏蔽用户</string>
     <string name="BlockUsers">屏蔽用户</string>
@@ -2424,6 +2476,8 @@
     <string name="MainChannelProfileVideoSetHint">现在这是主要的频道动态头像。</string>
     <string name="MainGroupProfilePhotoSetHint">现在这是主要的群组头像。</string>
     <string name="MainGroupProfileVideoSetHint">现在这是主要的群组动态头像。</string>
+    <string name="PhotoSavedHint">Photo saved to gallery</string>
+    <string name="VideoSavedHint">Video saved to gallery</string>
     <!--password view-->
     <string name="TwoStepVerification">两步验证</string>
     <string name="TwoStepVerificationTitle">两步验证</string>
@@ -3084,6 +3138,11 @@
     <string name="DeclineCall">拒绝</string>
     <string name="RetryCall">重拨</string>
     <string name="VoipVideoUnavailable">视频</string>
+    <string name="CallAlert">Are you sure you want to call **%1$s**?</string>
+    <string name="CallAlertTitle">Voice Call</string>
+    <string name="VideoCallAlert">Are you sure you want to video call **%1$s**?</string>
+    <string name="VideoCallAlertTitle">Video Call</string>
+    <string name="VoipReconnecting">重新连接中</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">消息 %1$s</string>
     <string name="ContactShortcutVoiceCall">语音通话 %1$s</string>
@@ -3341,6 +3400,12 @@
     <string name="Shares_few">%1$s 次分享</string>
     <string name="Shares_many">%1$s 次分享</string>
     <string name="Shares_other">%1$s 次分享</string>
+    <string name="Shared_zero">%1$s shared</string>
+    <string name="Shared_one">%1$s shared</string>
+    <string name="Shared_two">%1$s shared</string>
+    <string name="Shared_few">%1$s shared</string>
+    <string name="Shared_many">%1$s shared</string>
+    <string name="Shared_other">%1$s shared</string>
     <string name="StickerSets_zero">%1$s 个贴纸包</string>
     <string name="StickerSets_one">%1$s 个贴纸包</string>
     <string name="StickerSets_two">%1$s 个贴纸包</string>
@@ -3528,6 +3593,24 @@
     <string name="MembersCountSelected_few">%1$d / %2$d</string>
     <string name="MembersCountSelected_many">%1$d / %2$d</string>
     <string name="MembersCountSelected_other">%1$d / %2$d</string>
+    <string name="ViewReplies_zero">View %1$d Replies</string>
+    <string name="ViewReplies_one">View %1$d Reply</string>
+    <string name="ViewReplies_two">View %1$d Replies</string>
+    <string name="ViewReplies_few">View %1$d Replies</string>
+    <string name="ViewReplies_many">View %1$d Replies</string>
+    <string name="ViewReplies_other">View %1$d Replies</string>
+    <string name="Replies_zero">%1$d Replies</string>
+    <string name="Replies_one">%1$d Reply</string>
+    <string name="Replies_two">%1$d Replies</string>
+    <string name="Replies_few">%1$d Replies</string>
+    <string name="Replies_many">%1$d Replies</string>
+    <string name="Replies_other">%1$d Replies</string>
+    <string name="Comments_zero">%1$d Comments</string>
+    <string name="Comments_one">%1$d Comment</string>
+    <string name="Comments_two">%1$d Comments</string>
+    <string name="Comments_few">%1$d Comments</string>
+    <string name="Comments_many">%1$d Comments</string>
+    <string name="Comments_other">%1$d Comments</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
@@ -3655,6 +3738,7 @@
     <string name="AccDescrVoipCamOn">摄像头已开启</string>
     <string name="AccDescrVoipCamOff">摄像头未开启</string>
     <!--date formatters-->
+    <string name="formatterMonthYear">yyyy年M月</string>
     <string name="formatterStats12H">yyyy年M月d日 a h:mm</string>
     <string name="formatterStats24H">yyyy年M月d日 HH:mm</string>
     <string name="formatterBannedUntil12H">yyyy年M月d日 a h:mm</string>
@@ -3680,7 +3764,6 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
-    <string name="VoipReconnecting">重新连接中</string>
 
   <!-- new from translations.telegram.org -->
 
@@ -3713,6 +3796,8 @@
   <string name="DeleteLocalization">要删除这个语言包吗？</string>
   <string name="DeleteTheseChats">删除对话</string>
   <string name="DiceInfo">将 &#127922; 发送到任意对话来从 Telegram 获得一个随机数。</string>
+  <string name="DiscussionChannelGroupSetHelp">一个指向 **%1$s** 的链接正在底部面板中向所有订阅者显示。</string>
+  <string name="DiscussionChannelHelp">选择一个将在您的频道中显示的用于讨论的群组。</string>
   <string name="EmailPasswordConfirmText">请根据以下步骤以完成两步验证设置：\n\n1. 查看您的邮箱（不要忘记垃圾邮件文件夹）\n%1$s\n\n2. 点击验证链接。</string>
   <string name="EmojiBigSize">显示单个大号 emoji</string>
   <string name="EnableProxyAlert">您确定要启用此代理吗？</string>
@@ -3802,7 +3887,6 @@
   <string name="_tg_open_google_play">打开 Google Play</string>
   <string name="download_telegram_text">你需要 Telegram 来登陆 **%s**。你想现在安装吗？</string>
   <string name="formatDateScheduleDay">MMMd日EEEE</string>
-  <string name="formatterMonthYear">yyyy年M月</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
 </resources>

@@ -1556,6 +1556,7 @@
 
 "Channel.ErrorAccessDenied" = "Sorry, this channel is private.";
 "Group.ErrorAccessDenied" = "Sorry, this group is private.";
+"CommentsGroup.ErrorAccessDenied" = "Sorry, you can't access this chat because you were banned by an admin.";
 "Conversation.InputTextBroadcastPlaceholder" = "Broadcast";
 
 "Channel.NotificationLoading" = "Loading...";
@@ -2607,7 +2608,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanInviteUsers" = "Add Users";
 "Channel.AdminLog.CanPinMessages" = "Pin Messages";
 "Channel.AdminLog.CanAddAdmins" = "Add New Admins";
-
+"Channel.AdminLog.CanBeAnonymous" = "Remain Anonymous";
 "Channel.AdminLog.CanEditMessages" = "Edit Messages of Others";
 
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ enabled group invites";
@@ -5743,6 +5744,23 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"ChatList.Search.FilterChats" = "Chats";
+"ChatList.Search.FilterMedia" = "Media";
+"ChatList.Search.FilterLinks" = "Links";
+"ChatList.Search.FilterFiles" = "Files";
+"ChatList.Search.FilterMusic" = "Music";
+"ChatList.Search.FilterVoice" = "Voice";
+
+"ChatList.Search.NoResults" = "No Results";
+"ChatList.Search.NoResultsQueryDescription" = "There were no results for \"%@\".\nTry a new search.";
+"ChatList.Search.NoResultsDescription" = "There were no results.\nTry a new search.";
+
+"ChatList.Search.NoResultsFilter" = "Nothing Yet";
+"ChatList.Search.NoResultsFitlerMedia" = "Photos and videos from all your chats will be shown here.";
+"ChatList.Search.NoResultsFitlerLinks" = "Links from all your chats will be shown here.";
+"ChatList.Search.NoResultsFitlerFiles" = "Files from all your chats will be shown here.";
+"ChatList.Search.NoResultsFitlerMusic" = "Music from all your chats will be shown here.";
+"ChatList.Search.NoResultsFitlerVoice" = "Voice and video messages from all your chats will be shown here.";
 
 
 
@@ -5751,25 +5769,50 @@ Any member of this group will be able to see messages in the channel.";
 
 
 
+"Conversation.InputTextAnonymousPlaceholder" = "Send anonymously";
 
+"DialogList.Replies" = "Replies";
 
+"Conversation.ContextViewReplies_1" = "View %@ Reply";
+"Conversation.ContextViewReplies_any" = "View %@ Replies";
+"Conversation.ContextViewThread" = "View Thread";
 
+"Conversation.ViewReply" = "View Reply";
 
+"Conversation.MessageViewComments_1" = "[%@]Comment";
+"Conversation.MessageViewComments_any" = "[%@]Comments";
+"Conversation.MessageViewCommentsFormat" = "%1$@ %2$@";
 
+"Conversation.TitleCommentsEmpty" = "Comments";
+"Conversation.TitleComments_1" = "[%@]Comment";
+"Conversation.TitleComments_any" = "[%@]Comments";
+"Conversation.TitleCommentsFormat" = "%1$@ %2$@";
 
+"Conversation.TitleRepliesEmpty" = "Replies";
+"Conversation.TitleReplies_1" = "[%@]Reply";
+"Conversation.TitleReplies_any" = "[%@]Replies";
+"Conversation.TitleRepliesFormat" = "%1$@ %2$@";
 
+"Conversation.MessageLeaveComment" = "Leave a Comment";
+"Conversation.MessageLeaveCommentShort" = "Comment";
 
+"Conversation.DiscussionNotStarted" = "No comments here yet...";
+"Conversation.DiscussionStarted" = "Discussion started";
 
+"Conversation.InputTextPlaceholderReply" = "Reply";
+"Conversation.InputTextPlaceholderComment" = "Comment";
 
+"Conversation.TitleNoComments" = "Comments";
 
+"Conversation.ContextMenuBlock" = "Block User";
 
+"Replies.BlockAndDeleteRepliesActionTitle" = "Block and Delete Replies";
 
+"Channel.CommentsGroup.Header" = "Select a group chat that will host comments from your channel.";
+"Channel.CommentsGroup.HeaderSet" = "%@ is selected as the group that will be used to host comments for your channel.";
+"Channel.CommentsGroup.HeaderGroupSet" = "%@ links the group as its discussion board.";
 
-
-
-
-
-
+"RepliesChat.DescriptionText" = "This chat helps you keep track of replies to your comments in Channels.";
 
 
 /* new from translations.telegram.org */
@@ -5920,8 +5963,24 @@ Any member of this group will be able to see messages in the channel.";
 "ChatList.MessageVideos_2" = "%@ Videos";
 "ChatList.MessageVideos_3_10" = "%@ Videos";
 "ChatList.MessageVideos_many" = "%@ Videos";
+"Conversation.ContextViewReplies_0" = "View %@ Replies";
+"Conversation.ContextViewReplies_2" = "View %@ Replies";
+"Conversation.ContextViewReplies_3_10" = "View %@ Replies";
+"Conversation.ContextViewReplies_many" = "View %@ Replies";
 "Conversation.Dice" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 "Conversation.Dice." = "Send a dice emoji to any chat to roll a die.";
+"Conversation.MessageViewComments_0" = "[%@]Comments";
+"Conversation.MessageViewComments_2" = "[%@]Comments";
+"Conversation.MessageViewComments_3_10" = "[%@]Comments";
+"Conversation.MessageViewComments_many" = "[%@]Comments";
+"Conversation.TitleComments_0" = "[%@]Comments";
+"Conversation.TitleComments_2" = "[%@]Comments";
+"Conversation.TitleComments_3_10" = "[%@]Comments";
+"Conversation.TitleComments_many" = "[%@]Comments";
+"Conversation.TitleReplies_0" = "[%@]Replies";
+"Conversation.TitleReplies_2" = "[%@]Replies";
+"Conversation.TitleReplies_3_10" = "[%@]Replies";
+"Conversation.TitleReplies_many" = "[%@]Replies";
 "DataUpgrade.Running" = "Optimizing...";
 "ENCRYPTED_MESSAGE" = "You have a new message%1$@";
 "ENCRYPTION_ACCEPT" = "Your secret chat was accepted%1$@";
