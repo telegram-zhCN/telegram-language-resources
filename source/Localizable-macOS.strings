@@ -107,6 +107,7 @@
 "PeerInfo.Action.Statistics" = "Statistics";
 "PeerInfo.Action.Leave" = "Leave";
 "PeerInfo.Action.AddMembers" = "Add";
+"PeerInfo.Action.Discussion" = "Discuss";
 
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?";
 
@@ -382,6 +383,7 @@
 "PeerMedia.Files" = "Files";
 "PeerMedia.Links" = "Links";
 "PeerMedia.Audio" = "Audio";
+"PeerMedia.Music" = "Music";
 "PeerMedia.Members" = "Members";
 "PeerMedia.Voice" = "Voice";
 "PeerMedia.CommonGroups" = "Groups";
@@ -1059,6 +1061,8 @@
 
 "Peer.ServiceNotifications" = "service notifications";
 
+"Peer.RepliesNotifications" = "Replies Notifications";
+
 "Alert.SendError.Header" = "Your message could not be sent";
 "Alert.SendError.Text" = "An error occurred while sending the previous message. Would you like to try resending it?";
 "Alert.SendError.Resend" = "Resend";
@@ -1312,6 +1316,21 @@
 "Chat.Context.Archive" = "Archive";
 "Chat.Context.Unarchive" = "Unarchive";
 
+"Chat.Context.BlockUser" = "Block User";
+"Chat.Context.BlockGroup" = "Block Group";
+
+"Chat.Context.BlockUser.Header" = "Block User";
+"Chat.Context.BlockUser.Info" = "Do you want to block messages from %@";
+"Chat.Context.BlockUser.Third" = "Report Spam";
+"Chat.Context.BlockUser.OK" = "Block";
+"Chat.Context.BlockUser.Cancel" = "Cancel";
+
+"Chat.Context.BlockGroup.Header" = "Block Group";
+"Chat.Context.BlockGroup.Info" = "Do you want to block messages from %@?";
+"Chat.Context.BlockGroup.Third" = "Report Spam";
+"Chat.Context.BlockGroup.OK" = "Block";
+"Chat.Context.BlockGroup.Cancel" = "Cancel";
+
 "Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
 "Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
@@ -1400,6 +1419,7 @@
 "Channel.EditAdmin.Permission.EditMessages" = "Edit Messages";
 "Channel.EditAdmin.PermissionInviteSubscribers" = "Add Subscribers";
 "Channel.EditAdmin.PermissionInviteMembers" = "Add Members";
+"Channel.EditAdmin.PermissionAnonymous" = "Remain Anonymous";
 "Channel.EditAdmin.PermissionInviteViaLink" = "Invite Users via Link";
 
 
@@ -1508,6 +1528,9 @@
 "EventLog.Service.Promote.AddNewAdmins" = "Add New Admins";
 "EventLog.Service.Promote.BanUsers" = "Ban Users";
 "EventLog.Service.Promote.EditMessages" = "Edit Messages";
+
+"EventLog.Service.Promote.RemainAnonymous" = "Remain Anonymous";
+
 
 "EventLog.Service.ChangedDefaultsRights" = "changed default permissions";
 
@@ -1783,8 +1806,11 @@
 "ChangeNumber.ConfirmCode.Success" = "You have changed your phone number to %@.";
 
 "Messages.Placeholder.Broadcast" = "Broadcast a message…";
+"Messages.Placeholder.Reply" = "Reply...";
+"Messages.Placeholder.Comment" = "Comment...";
 "Messages.Placeholder.SentMessage" = "Write a message...";
 "Messages.Placeholder.SilentBroadcast" = "Silent Broadcast...";
+"Messages.Placeholder.Anonymous" = "Send Anonymously...";
 
 
 "Messages.Placeholder.Broadcast.Small" = "Broadcast...";
@@ -3396,7 +3422,7 @@
 "DiscussionController.Group.Title" = "Linked Channel";
 "DiscussionController.Channel.Title" = "Discussion Group";
 
-"DiscussionController.Channel.Empty.Header" = "Select a group chat for discussion that will be displayed in your channel.";
+"DiscussionController.Channel.Empty.Header1" = "Select a group chat that will be used to host comments from your channel.";
 "DiscussionController.Channel.Empty.CreateGroup" = "Create a New Group";
 "DiscussionController.Channel.Empty.Description" = "Everything you post in the channel will be forwarded to this group.";
 
@@ -3414,7 +3440,7 @@
 "Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.ChannelPrivateGroup" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see messages in the channel.";
 
-"DiscussionController.Channel.Set.Header" = "A link to **%@** is shown to all subscribers in the bottom panel.";
+"DiscussionController.Channel.Set.Header1" = "**%@** is selected as the group that will be used to host comments for your channel.";
 "DiscussionController.Channel.Set.Description" = "Everything you post in the channel will be forwarded to this group.";
 
 "DiscussionController.Channel.Set.UnlinkGroup" = "Unlink Group";
@@ -4203,6 +4229,12 @@
 "Call.Recall" = "Recall";
 "Call.Close" = "Close";
 
+"Call.Screen" = "Screen";
+
+/* "RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs access to your microphone to make calls"; */
+
+"Call.Screen.Error" = "Telegram needs access for Screen Sharing.";
+"Call.Camera.Error" = "Telegram needs access to camera for Video Call.";
 
 "Call.VideoPaused" = "%@'s paused video";
 
@@ -4216,6 +4248,160 @@
 "Message.Text.CopyMusicTitle" = "Copy Music Name";
 
 "ShareCallLogs" = "Share Call Logs";
+
+"Call.SameDevice.Error" = "Sorry, you can’t make a call between two accounts on the same device.";
+
+
+"Bot.TransferOwner.Error.Title" = "Security Check";
+"Bot.TransferOwner.Error.Text" = "Ownership transfers are only available if:\n\n• 2-Step Verification was enabled for your account more than 7 days ago.\n\n• You have logged in on this device more than 24 hours ago.\n\nPlease come back later.";
+"Bot.TransferOwner.Error.Enable2FA" = "Enable 2-Step Verification.";
+
+
+"Bot.TransferOwnership.Password.Desc" = "Please enter your 2-Step verification password to complete the transfer.";
+"Bot.TransferOwnership.Password.Title" = "Two-Step Verification";
+
+
+"Message.Context.ViewReplies_countable" = "%d";
+"Message.Context.ViewReplies_zero" = "View %d Replies";
+"Message.Context.ViewReplies_one" = "View %d Reply";
+"Message.Context.ViewReplies_two" = "View %d Replies";
+"Message.Context.ViewReplies_few" = "View %d Replies";
+"Message.Context.ViewReplies_many" = "View %d Replies";
+"Message.Context.ViewReplies_other" = "View %d Replies";
+
+
+"Message.Context.ViewComments_countable" = "%d";
+"Message.Context.ViewComments_zero" = "View %d Comments";
+"Message.Context.ViewComments_one" = "View %d Comment";
+"Message.Context.ViewComments_two" = "View %d Comments";
+"Message.Context.ViewComments_few" = "View %d Comments";
+"Message.Context.ViewComments_many" = "View %d Comments";
+"Message.Context.ViewComments_other" = "View %d Comments";
+
+"Message.Context.ViewThread" = "View Thread";
+
+
+"Search.Filter.ClearFilter" = "Clear Filter";
+"Search.Filter.Photos" = "Photos";
+"Search.Filter.Videos" = "Videos";
+"Search.Filter.Links" = "Links";
+"Search.Filter.Music" = "Music";
+"Search.Filter.Voice" = "Voice";
+"Search.Filter.GIFs" = "GIFs";
+"Search.Filter.Files" = "Files";
+
+
+
+"Channel.Comments.LeaveComment" = "Leave a Comment";
+
+
+"Channel.Comments.Count_countable" = "%d";
+"Channel.Comments.Count_zero" = "%d Comments";
+"Channel.Comments.Count_one" = "%d Comment";
+"Channel.Comments.Count_two" = "%d Comments";
+"Channel.Comments.Count_few" = "%d Comments";
+"Channel.Comments.Count_many" = "%d Comments";
+"Channel.Comments.Count_other" = "%d Comments";
+
+
+"Channel.Comments.Short.LeaveComment" = "Comment";
+"Channel.Comments.Short.Count_countable" = "%d";
+"Channel.Comments.Short.Count_zero" = "%d";
+"Channel.Comments.Short.Count_one" = "%d";
+"Channel.Comments.Short.Count_two" = "%d";
+"Channel.Comments.Short.Count_few" = "%d";
+"Channel.Comments.Short.Count_many" = "%d";
+"Channel.Comments.Short.Count_other" = "%d";
+
+
+"Chat.Empty.Comments" = "No comments here yet";
+"Chat.Empty.Replies" = "No replies here yet";
+
+
+"Chat.Comments.Kicked" = "You have been blocked to posting comments.";
+
+
+
+"Chat.Title.Replies_countable" = "%d";
+"Chat.Title.Replies_zero" = "%d Replies";
+"Chat.Title.Replies_one" = "%d Reply";
+"Chat.Title.Replies_two" = "%d Replies";
+"Chat.Title.Replies_few" = "%d Replies";
+"Chat.Title.Replies_many" = "%d Replies";
+"Chat.Title.Replies_other" = "%d Replies";
+
+
+"Chat.Title.Comments_countable" = "%d";
+"Chat.Title.Comments_zero" = "%d Comments";
+"Chat.Title.Comments_one" = "%d Comment";
+"Chat.Title.Comments_two" = "%d Comments";
+"Chat.Title.Comments_few" = "%d Comments";
+"Chat.Title.Comments_many" = "%d Comments";
+"Chat.Title.Comments_other" = "%d Comments";
+
+"PeerMedia.Title.Search.Media_countable" = "%d";
+"PeerMedia.Title.Search.Media_zero" = "%d Medias";
+"PeerMedia.Title.Search.Media_one" = "%d Media";
+"PeerMedia.Title.Search.Media_two" = "%d Medias";
+"PeerMedia.Title.Search.Media_few" = "%d Medias";
+"PeerMedia.Title.Search.Media_many" = "%d Medias";
+"PeerMedia.Title.Search.Media_other" = "%d Medias";
+
+
+"PeerMedia.Title.Search.Photos_countable" = "%d";
+"PeerMedia.Title.Search.Photos_zero" = "%d Photos";
+"PeerMedia.Title.Search.Photos_one" = "%d Photo";
+"PeerMedia.Title.Search.Photos_two" = "%d Photos";
+"PeerMedia.Title.Search.Photos_few" = "%d Photos";
+"PeerMedia.Title.Search.Photos_many" = "%d Photos";
+"PeerMedia.Title.Search.Photos_other" = "%d Photos";
+
+"PeerMedia.Title.Search.Videos_countable" = "%d";
+"PeerMedia.Title.Search.Videos_zero" = "%d Videos";
+"PeerMedia.Title.Search.Videos_one" = "%d Video";
+"PeerMedia.Title.Search.Videos_two" = "%d Videos";
+"PeerMedia.Title.Search.Videos_few" = "%d Videos";
+"PeerMedia.Title.Search.Videos_many" = "%d Videos";
+"PeerMedia.Title.Search.Videos_other" = "%d Videos";
+
+"PeerMedia.Title.Search.Links_countable" = "%d";
+"PeerMedia.Title.Search.Links_zero" = "%d Links";
+"PeerMedia.Title.Search.Links_one" = "%d Link";
+"PeerMedia.Title.Search.Links_two" = "%d Links";
+"PeerMedia.Title.Search.Links_few" = "%d Links";
+"PeerMedia.Title.Search.Links_many" = "%d Links";
+"PeerMedia.Title.Search.Links_other" = "%d Links";
+
+"PeerMedia.Title.Search.Music_countable" = "%d";
+"PeerMedia.Title.Search.Music_zero" = "%d Audios";
+"PeerMedia.Title.Search.Music_one" = "%d Audio";
+"PeerMedia.Title.Search.Music_two" = "%d Audios";
+"PeerMedia.Title.Search.Music_few" = "%d Audios";
+"PeerMedia.Title.Search.Music_many" = "%d Audios";
+"PeerMedia.Title.Search.Music_other" = "%d Audios";
+
+"PeerMedia.Title.Search.GIFs_countable" = "%d";
+"PeerMedia.Title.Search.GIFs_zero" = "%d GIFs";
+"PeerMedia.Title.Search.GIFs_one" = "%d GIF";
+"PeerMedia.Title.Search.GIFs_two" = "%d GIFs";
+"PeerMedia.Title.Search.GIFs_few" = "%d GIFs";
+"PeerMedia.Title.Search.GIFs_many" = "%d GIFs";
+"PeerMedia.Title.Search.GIFs_other" = "%d GIFs";
+
+"PeerMedia.Title.Search.Files_countable" = "%d";
+"PeerMedia.Title.Search.Files_zero" = "%d Files";
+"PeerMedia.Title.Search.Files_one" = "%d File";
+"PeerMedia.Title.Search.Files_two" = "%d Files";
+"PeerMedia.Title.Search.Files_few" = "%d Files";
+"PeerMedia.Title.Search.Files_many" = "%d Files";
+"PeerMedia.Title.Search.Files_other" = "%d Files";
+
+
+"Chat.CommentsHeader.Empty" = "No comments here yet...";
+"Chat.CommentsHeader.Full" = "Discussion started";
+
+
+"Chat.Replies.Desc" = "This chat helps you keep track of replies to your comments in Channels.";
 
 
 /* new from translations.telegram.org */
@@ -4243,6 +4429,8 @@
 "ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
+"DiscussionController.Channel.Empty.Header" = "Select a group chat for discussion that will be displayed in your channel.";
+"DiscussionController.Channel.Set.Header" = "A link to **%@** is shown to all subscribers in the bottom panel.";
 "Gallery.Counter" = "%d of %d";
 "GalleryView.FastSave.Gif" = "GIF saved to your [Download]() folder";
 "GalleryView.FastSave.Image" = "Image saved to your [Download]() folder";

@@ -241,13 +241,12 @@
     <string name="MessagesDeletedHint_other">%1$d messages deleted</string>
     <string name="SearchEmptyViewTitle">No Results</string>
     <string name="SearchEmptyViewTitle2">No Results</string>
-    <string name="SearchEmptyViewFilteredSubtitle">%s from all your chats will be shown here.</string>
     <string name="SearchEmptyViewFilteredSubtitle2">Try a new search.</string>
-    <string name="SearchEmptyViewFilteredSubtitleMusic">Music</string>
-    <string name="SearchEmptyViewFilteredSubtitleFiles">Files</string>
-    <string name="SearchEmptyViewFilteredSubtitleLinks">Links</string>
-    <string name="SearchEmptyViewFilteredSubtitleVoice">Voice</string>
-    <string name="SearchEmptyViewFilteredSubtitleMedia">Media</string>
+    <string name="SearchEmptyViewFilteredSubtitleMusic">Music from all your chats will be shown here.</string>
+    <string name="SearchEmptyViewFilteredSubtitleFiles">Files from all your chats will be shown here.</string>
+    <string name="SearchEmptyViewFilteredSubtitleLinks">Links from all your chats will be shown here.</string>
+    <string name="SearchEmptyViewFilteredSubtitleVoice">Voice from all your chats will be shown here.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMedia">Media from all your chats will be shown here.</string>
     <string name="SearchAllChatsShort">Chats</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
@@ -1060,6 +1059,7 @@
     <string name="ViewThread">View Thread</string>
     <string name="ChooseDate">Choose date</string>
     <string name="RepliesChatInfo">This chat helps you keep track of replies to your comments in Channels.</string>
+    <string name="ChannelPostDeleted">Sorry, this post has been removed from the discussion group.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -3753,6 +3753,7 @@
     <string name="chatDate">M月d日</string>
     <string name="chatFullDate">yyyy年M月d日</string>
     <string name="formatterWeek">EEE</string>
+    <string name="formatterWeekLong">EEEE</string>
     <string name="formatterDay24H">HH:mm</string>
     <string name="formatterDay12H">a h:mm</string>
     <string name="formatDateAtTime">%1$s %2$s</string>
@@ -3764,6 +3765,8 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
+    <string name="SearchTipToday">Today</string>
+    <string name="SearchTipYesterday">Yesterday</string>
 
   <!-- new from translations.telegram.org -->
 

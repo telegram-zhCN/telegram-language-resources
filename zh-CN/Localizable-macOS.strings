@@ -108,6 +108,7 @@
 "PeerInfo.Action.Leave" = "退出";
 "PeerInfo.Action.AddMembers" = "添加";
 
+
 "PeerInfo.Confirm.DeleteGroupConfirmation" = "注意！删除此群组将会移除所有成员并且会丢失所有消息。确定要删除此群组？";
 
 
@@ -382,6 +383,7 @@
 "PeerMedia.Files" = "文件";
 "PeerMedia.Links" = "链接";
 "PeerMedia.Audio" = "音乐";
+
 "PeerMedia.Members" = "成员";
 "PeerMedia.Voice" = "留言";
 "PeerMedia.CommonGroups" = "群组";
@@ -1059,6 +1061,8 @@
 
 "Peer.ServiceNotifications" = "服务通知";
 
+
+
 "Alert.SendError.Header" = "您的信息未发送成功";
 "Alert.SendError.Text" = "在发送上一条信息时遇到错误。是否重试？";
 "Alert.SendError.Resend" = "重新发送";
@@ -1312,6 +1316,21 @@
 "Chat.Context.Archive" = "归档";
 "Chat.Context.Unarchive" = "取消归档";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "Payments.Unsupported" = "抱歉，Telegram 的 macOS 客户端暂不支持付款。请使用我们的移动端应用进行此操作。";
 
 "Chat.Service.PaymentSent" = "您成功转账 **%@** 给 **%@**，转账原因：**%@**";
@@ -1400,6 +1419,7 @@
 "Channel.EditAdmin.Permission.EditMessages" = "编辑消息";
 "Channel.EditAdmin.PermissionInviteSubscribers" = "添加订阅者";
 "Channel.EditAdmin.PermissionInviteMembers" = "邀请新成员";
+
 "Channel.EditAdmin.PermissionInviteViaLink" = "生成邀请链接";
 
 
@@ -1508,6 +1528,9 @@
 "EventLog.Service.Promote.AddNewAdmins" = "添加新管理员";
 "EventLog.Service.Promote.BanUsers" = "屏蔽用户";
 "EventLog.Service.Promote.EditMessages" = "编辑消息";
+
+
+
 
 "EventLog.Service.ChangedDefaultsRights" = "更改了默认权限";
 
@@ -1783,8 +1806,11 @@
 "ChangeNumber.ConfirmCode.Success" = "您已经将您的手机号码更换为 %@。";
 
 "Messages.Placeholder.Broadcast" = "广播消息…";
+
+
 "Messages.Placeholder.SentMessage" = "输入消息...";
 "Messages.Placeholder.SilentBroadcast" = "无声广播...";
+
 
 
 "Messages.Placeholder.Broadcast.Small" = "广播... ";
@@ -3396,7 +3422,7 @@
 "DiscussionController.Group.Title" = "关联的群组";
 "DiscussionController.Channel.Title" = "讨论群";
 
-"DiscussionController.Channel.Empty.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
+
 "DiscussionController.Channel.Empty.CreateGroup" = "创建一个新群组";
 "DiscussionController.Channel.Empty.Description" = "您在频道中发布的所有内容都将被转发到此群组。";
 
@@ -3414,7 +3440,7 @@
 "Discussion.Set.Modal.Text.PrivateChannelPublicGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.ChannelPrivateGroup" = "是否要将 **%@** 设置为 **%@** 的讨论群组？\n\n群组成员将可以看到频道上的所有消息。";
 
-"DiscussionController.Channel.Set.Header" = "一个指向 **%@** 的链接正在底部面板中向所有订阅者显示。";
+
 "DiscussionController.Channel.Set.Description" = "你在这个频道所发送的任何信息都会同时被推送到这个群组中。";
 
 "DiscussionController.Channel.Set.UnlinkGroup" = "取消链接群组";
@@ -4204,6 +4230,12 @@
 "Call.Close" = "关闭";
 
 
+
+//"RequestAcces.Error.HaveNotAccess.Call" = "Telegram needs access to your microphone to make calls";
+
+
+
+
 "Call.VideoPaused" = "%@ 的视频已暂停";
 
 
@@ -4214,6 +4246,160 @@
 
 
 "Message.Text.CopyMusicTitle" = "复制歌曲名";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4238,6 +4424,8 @@
 "ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
 "Discussion.Set.Modal.Text.Private" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
+"DiscussionController.Channel.Empty.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
+"DiscussionController.Channel.Set.Header" = "一个指向 **%@** 的链接正在底部面板中向所有订阅者显示。";
 "Gallery.Counter" = "%d / %d";
 "GalleryView.FastSave.Gif" = "GIF 已保存到 [下载]() 文件夹";
 "GalleryView.FastSave.Image" = "图片已保存到您的 [下载]() 文件夹";
