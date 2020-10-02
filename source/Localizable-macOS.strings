@@ -4404,6 +4404,12 @@
 "Chat.Replies.Desc" = "This chat helps you keep track of replies to your comments in Channels.";
 
 
+"Chat.Discussion.MessageDeleted" = "Sorry, this post has been removed from the discussion group.";
+
+
+"Chat.Title.Discussion" = "Discussion";
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "Creator";
