@@ -1061,7 +1061,7 @@
 
 "Peer.ServiceNotifications" = "service notifications";
 
-"Peer.RepliesNotifications" = "Replies Notifications";
+"Peer.RepliesNotifications" = "Reply Notifications";
 
 "Alert.SendError.Header" = "Your message could not be sent";
 "Alert.SendError.Text" = "An error occurred while sending the previous message. Would you like to try resending it?";
@@ -1320,7 +1320,7 @@
 "Chat.Context.BlockGroup" = "Block Group";
 
 "Chat.Context.BlockUser.Header" = "Block User";
-"Chat.Context.BlockUser.Info" = "Do you want to block messages from %@";
+"Chat.Context.BlockUser.Info" = "Do you want to block messages from %@?";
 "Chat.Context.BlockUser.Third" = "Report Spam";
 "Chat.Context.BlockUser.OK" = "Block";
 "Chat.Context.BlockUser.Cancel" = "Cancel";
@@ -2523,7 +2523,7 @@
 
 
 "Chat.SecretChat.Preview.Header" = "Secret Chat";
-"Chat.SecretChat.Preview.Text" = "Would you like to enable extended link previews in Secret Chat? Note that link previews are generated on Telegram Servers.";
+"Chat.SecretChat.Preview.Text" = "Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.";
 "Chat.SecretChat.Preview.OK" = "YES";
 "Chat.SecretChat.Preview.NO" = "NO";
 
@@ -3422,7 +3422,7 @@
 "DiscussionController.Group.Title" = "Linked Channel";
 "DiscussionController.Channel.Title" = "Discussion Group";
 
-"DiscussionController.Channel.Empty.Header1" = "Select a group chat that will be used to host comments from your channel.";
+"DiscussionController.Channel.Empty.Header1" = "Select a group chat that will host comments from your channel.";
 "DiscussionController.Channel.Empty.CreateGroup" = "Create a New Group";
 "DiscussionController.Channel.Empty.Description" = "Everything you post in the channel will be forwarded to this group.";
 
@@ -4318,7 +4318,7 @@
 "Chat.Empty.Replies" = "No replies here yet";
 
 
-"Chat.Comments.Kicked" = "You have been blocked to posting comments.";
+"Chat.Comments.Kicked" = "You have been blocked from posting comments.";
 
 
 
