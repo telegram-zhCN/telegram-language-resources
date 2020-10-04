@@ -4158,20 +4158,20 @@
 
 
 "Stats.GroupTopAdminKicks_countable" = "%d";
-"Stats.GroupTopAdminKicks_zero" = "%d kicks";
-"Stats.GroupTopAdminKicks_one" = "%d kick";
-"Stats.GroupTopAdminKicks_two" = "%d kicks";
-"Stats.GroupTopAdminKicks_few" = "%d kicks";
-"Stats.GroupTopAdminKicks_many" = "%d kicks";
-"Stats.GroupTopAdminKicks_other" = "%d kicks";
+"Stats.GroupTopAdminKicks_zero" = "%d bans";
+"Stats.GroupTopAdminKicks_one" = "%d ban";
+"Stats.GroupTopAdminKicks_two" = "%d bans";
+"Stats.GroupTopAdminKicks_few" = "%d bans";
+"Stats.GroupTopAdminKicks_many" = "%d bans";
+"Stats.GroupTopAdminKicks_other" = "%d bans";
 
 "Stats.GroupTopAdminBans_countable" = "%d";
-"Stats.GroupTopAdminBans_zero" = "%d bans";
-"Stats.GroupTopAdminBans_one" = "%d ban";
-"Stats.GroupTopAdminBans_two" = "%d bans";
-"Stats.GroupTopAdminBans_few" = "%d bans";
-"Stats.GroupTopAdminBans_many" = "%d bans";
-"Stats.GroupTopAdminBans_other" = "%d bans";
+"Stats.GroupTopAdminBans_zero" = "%d restrictions";
+"Stats.GroupTopAdminBans_one" = "%d restriction";
+"Stats.GroupTopAdminBans_two" = "%d restrictions";
+"Stats.GroupTopAdminBans_few" = "%d restrictions";
+"Stats.GroupTopAdminBans_many" = "%d restrictions";
+"Stats.GroupTopAdminBans_other" = "%d restrictions";
 
 "Stats.GroupTopAdmin.Actions" = "Actions";
 "Stats.GroupTopAdmin.Promote" = "Promote";

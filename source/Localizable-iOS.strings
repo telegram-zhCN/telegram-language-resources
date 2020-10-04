@@ -5614,19 +5614,19 @@ Any member of this group will be able to see messages in the channel.";
 "Stats.GroupTopAdminDeletions_many" = "%@ deletions";
 "Stats.GroupTopAdminDeletions_any" = "%@ deletions";
 
-"Stats.GroupTopAdminKicks_0" = "%@ kicks";
-"Stats.GroupTopAdminKicks_1" = "%@ kick";
-"Stats.GroupTopAdminKicks_2" = "%@ kicks";
-"Stats.GroupTopAdminKicks_3_10" = "%@ kicks";
-"Stats.GroupTopAdminKicks_many" = "%@ kicks";
-"Stats.GroupTopAdminKicks_any" = "%@ kicks";
+"Stats.GroupTopAdminKicks_0" = "%@ bans";
+"Stats.GroupTopAdminKicks_1" = "%@ ban";
+"Stats.GroupTopAdminKicks_2" = "%@ bans";
+"Stats.GroupTopAdminKicks_3_10" = "%@ bans";
+"Stats.GroupTopAdminKicks_many" = "%@ bans";
+"Stats.GroupTopAdminKicks_any" = "%@ bans";
 
-"Stats.GroupTopAdminBans_0" = "%@ bans";
-"Stats.GroupTopAdminBans_1" = "%@ ban";
-"Stats.GroupTopAdminBans_2" = "%@ bans";
-"Stats.GroupTopAdminBans_3_10" = "%@ bans";
-"Stats.GroupTopAdminBans_many" = "%@ bans";
-"Stats.GroupTopAdminBans_any" = "%@ bans";
+"Stats.GroupTopAdminBans_0" = "%@ restrictions";
+"Stats.GroupTopAdminBans_1" = "%@ restriction";
+"Stats.GroupTopAdminBans_2" = "%@ restrictions";
+"Stats.GroupTopAdminBans_3_10" = "%@ restrictions";
+"Stats.GroupTopAdminBans_many" = "%@ restrictions";
+"Stats.GroupTopAdminBans_any" = "%@ restrictions";
 
 "Stats.GroupTopAdmin.Actions" = "Actions";
 "Stats.GroupTopAdmin.Promote" = "Promote";
