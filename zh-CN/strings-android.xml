@@ -241,14 +241,14 @@
     <string name="MessagesDeletedHint_many">%1$d messages deleted</string>
     <string name="MessagesDeletedHint_other">%1$d messages deleted</string>
     <string name="SearchEmptyViewTitle">无结果</string>
-    <string name="SearchEmptyViewTitle2">No Results</string>
-    <string name="SearchEmptyViewFilteredSubtitle2">Try a new search.</string>
+    <string name="SearchEmptyViewTitle2">无结果</string>
+    <string name="SearchEmptyViewFilteredSubtitle2">请再试搜索</string>
     <string name="SearchEmptyViewFilteredSubtitleMusic">Music from all your chats will be shown here.</string>
     <string name="SearchEmptyViewFilteredSubtitleFiles">Files from all your chats will be shown here.</string>
     <string name="SearchEmptyViewFilteredSubtitleLinks">Links from all your chats will be shown here.</string>
     <string name="SearchEmptyViewFilteredSubtitleVoice">Voice from all your chats will be shown here.</string>
     <string name="SearchEmptyViewFilteredSubtitleMedia">Media from all your chats will be shown here.</string>
-    <string name="SearchAllChatsShort">Chats</string>
+    <string name="SearchAllChatsShort">对话</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
     <string name="EditAdminRights">修改管理权限</string>
@@ -1048,7 +1048,7 @@
     <string name="BotOwnershipTransferReadyAlertText">This will transfer the **full owner** rights for the bot to the selected user.</string>
     <string name="BotOwnershipTransferChangeOwner">Change Owner</string>
     <string name="BotOwnershipTransferAlertText">You can transfer bot only if you have:</string>
-    <string name="LeaveAComment">Leave a comment</string>
+    <string name="LeaveAComment">留言</string>
     <string name="CommentsTitle">Comments</string>
     <string name="Comment">Comment</string>
     <string name="RepliesTitle">回复</string>
