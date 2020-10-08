@@ -1980,7 +1980,7 @@
   <string name="TabAudio">Audio</string>
   <string name="TabSharedGroups">Groups</string>
   <string name="TabAdmins">Admins</string>
-  <string name="TabBlacklist">Blacklist</string>
+  <string name="TabBlacklist">Blocked</string>
   <string name="TabRestricted">Restricted</string>
   <string name="TabMembers">Members</string>
   <string name="TabMessages">Messages</string>
