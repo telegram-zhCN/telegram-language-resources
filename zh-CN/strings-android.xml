@@ -899,6 +899,7 @@
     <string name="UnpinMessage">取消置顶</string>
     <string name="PinMessageAlertTitle">置顶消息</string>
     <string name="UnpinMessageAlertTitle">取消置顶消息</string>
+    
     <string name="PinMessageAlert">您确定要在群组中置顶此消息？</string>
     <string name="PinMessageAlertChannel">您确定要在频道中置顶此消息？</string>
     <string name="PinMessageAlertChat">您确定要在对话中置顶此消息？</string>
@@ -924,6 +925,7 @@
     <string name="ReportChatOther">其它</string>
     <string name="ReportChatDescription">详情</string>
     <string name="PinnedMessage">置顶消息</string>
+    
     <string name="PinnedPoll">置顶投票</string>
     <string name="EditedMessage">已编辑</string>
     <string name="EditMessage">编辑消息</string>
@@ -997,7 +999,7 @@
     <string name="TapForVideo">点按照相，按住录像</string>
     <string name="TapToViewAsList">点击以列表方式查看。</string>
     <string name="SendWithoutSound">静音发送</string>
-    <string name="MessageScheduleSend">立刻发送</string>>
+    <string name="MessageScheduleSend">立刻发送</string>
     <string name="MessageScheduleEditTime">重新定时</string>
     <string name="MessageScheduleToday">今天</string>
     <string name="Schedule">定时发送</string>
@@ -1054,7 +1056,7 @@
     <string name="RepliesTitle">回复</string>
     <string name="NoComments">No comments here yet...</string>
     <string name="NoReplies">暂无回复...</string>
-    <string name="ViewInChat">View in chat</string>
+    <string name="ViewInChat">在聊天中查看</string>
     <string name="SendAnonymously">Send anonymously</string>
     <string name="DiscussionStarted">Discussion started</string>
     <string name="ViewThread">View Thread</string>
@@ -1216,6 +1218,9 @@
     <string name="NoContactsYetLine1">Invite friends to try Telegram</string>
     <string name="NoContactsYetLine2">Find people nearby to chat with</string>
     <string name="NoContactsYetLine3">Search people by username</string>
+    
+    
+    
     <!--group create view-->
     <string name="SendMessageTo">添加成员...</string>
     <string name="SoftUserLimitAlert">创建群组后，您将可以添加更多成员。</string>
@@ -2479,6 +2484,29 @@
     <string name="MainGroupProfileVideoSetHint">现在这是主要的群组动态头像。</string>
     <string name="PhotoSavedHint">Photo saved to gallery</string>
     <string name="VideoSavedHint">Video saved to gallery</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <!--password view-->
     <string name="TwoStepVerification">两步验证</string>
     <string name="TwoStepVerificationTitle">两步验证</string>
@@ -3401,6 +3429,18 @@
     <string name="Shares_few">%1$s 次分享</string>
     <string name="Shares_many">%1$s 次分享</string>
     <string name="Shares_other">%1$s 次分享</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="Shared_zero">%1$s shared</string>
     <string name="Shared_one">%1$s shared</string>
     <string name="Shared_two">%1$s shared</string>
@@ -3618,6 +3658,12 @@
     <string name="CommentsCount_few">%1$d comments</string>
     <string name="CommentsCount_many">%1$d comments</string>
     <string name="CommentsCount_other">%1$d comments</string>
+    
+    
+    
+    
+    
+    
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">群组</string>
     <string name="AccDescrChannel">频道</string>
@@ -3774,6 +3820,11 @@
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="SearchTipToday">Today</string>
     <string name="SearchTipYesterday">Yesterday</string>
+    
+    
+    
+    
+    
 
   <!-- new from translations.telegram.org -->
 
