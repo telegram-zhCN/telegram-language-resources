@@ -230,7 +230,7 @@
     <string name="OpenChannel2">打开频道</string>
     <string name="OpenGroup2">Open Group</string>
     <string name="SendMessage">发送消息</string>
-    <string name="Mention">Mention</string>
+    <string name="Mention">提及</string>
     <string name="NotificationsMutedHint">Notifications muted</string>
     <string name="NotificationsMutedForHint">Notifications muted for %1$s</string>
     <string name="NotificationsUnmutedHint">Notifications unmuted</string>
@@ -1215,7 +1215,7 @@
     <string name="AddContactByPhone">添加 %1$s</string>
     <string name="PhoneNumberSearch">手机号码</string>
     <string name="NoContactsYet">You have no contacts on Telegram yet</string>
-    <string name="NoContactsYetLine1">Invite friends to try Telegram</string>
+    <string name="NoContactsYetLine1">邀请朋友来使用Telegram</string>
     <string name="NoContactsYetLine2">Find people nearby to chat with</string>
     <string name="NoContactsYetLine3">Search people by username</string>
     
@@ -3441,12 +3441,12 @@
     
     
     
-    <string name="Shared_zero">%1$s shared</string>
-    <string name="Shared_one">%1$s shared</string>
-    <string name="Shared_two">%1$s shared</string>
-    <string name="Shared_few">%1$s shared</string>
-    <string name="Shared_many">%1$s shared</string>
-    <string name="Shared_other">%1$s shared</string>
+    <string name="Shared_zero">%1$s 次分享</string>
+    <string name="Shared_one">%1$s 次分享</string>
+    <string name="Shared_two">%1$s 次分享</string>
+    <string name="Shared_few">%1$s 次分享</string>
+    <string name="Shared_many">%1$s 次分享</string>
+    <string name="Shared_other">%1$s 次分享</string>
     <string name="StickerSets_zero">%1$s 个贴纸包</string>
     <string name="StickerSets_one">%1$s 个贴纸包</string>
     <string name="StickerSets_two">%1$s 个贴纸包</string>
@@ -3818,8 +3818,8 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
-    <string name="SearchTipToday">Today</string>
-    <string name="SearchTipYesterday">Yesterday</string>
+    <string name="SearchTipToday">今天</string>
+    <string name="SearchTipYesterday">昨天</string>
     
     
     
