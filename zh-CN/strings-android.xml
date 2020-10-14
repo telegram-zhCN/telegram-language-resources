@@ -234,20 +234,20 @@
     <string name="NotificationsMutedHint">Notifications muted</string>
     <string name="NotificationsMutedForHint">Notifications muted for %1$s</string>
     <string name="NotificationsUnmutedHint">Notifications unmuted</string>
-    <string name="MessagesDeletedHint_zero">%1$d messages deleted</string>
-    <string name="MessagesDeletedHint_one">Message deleted</string>
-    <string name="MessagesDeletedHint_two">%1$d messages deleted</string>
-    <string name="MessagesDeletedHint_few">%1$d messages deleted</string>
-    <string name="MessagesDeletedHint_many">%1$d messages deleted</string>
-    <string name="MessagesDeletedHint_other">%1$d messages deleted</string>
+    <string name="MessagesDeletedHint_zero">%1$d 消息已删除</string>
+    <string name="MessagesDeletedHint_one">%1$d 消息已删除</string>
+    <string name="MessagesDeletedHint_two">%1$d 消息已删除</string>
+    <string name="MessagesDeletedHint_few">%1$d 消息已删除</string>
+    <string name="MessagesDeletedHint_many">%1$d 消息已删除</string>
+    <string name="MessagesDeletedHint_other">%1$d 消息已删除</string>
     <string name="SearchEmptyViewTitle">无结果</string>
     <string name="SearchEmptyViewTitle2">无结果</string>
     <string name="SearchEmptyViewFilteredSubtitle2">请再试搜索</string>
-    <string name="SearchEmptyViewFilteredSubtitleMusic">Music from all your chats will be shown here.</string>
-    <string name="SearchEmptyViewFilteredSubtitleFiles">Files from all your chats will be shown here.</string>
-    <string name="SearchEmptyViewFilteredSubtitleLinks">Links from all your chats will be shown here.</string>
-    <string name="SearchEmptyViewFilteredSubtitleVoice">Voice from all your chats will be shown here.</string>
-    <string name="SearchEmptyViewFilteredSubtitleMedia">Media from all your chats will be shown here.</string>
+    <string name="SearchEmptyViewFilteredSubtitleMusic">您所有聊天中的音频都会在这里显示。</string>
+    <string name="SearchEmptyViewFilteredSubtitleFiles">您所有聊天中的文件都会在这里显示</string>
+    <string name="SearchEmptyViewFilteredSubtitleLinks">您所有聊天中的链接都会在这里显示</string>
+    <string name="SearchEmptyViewFilteredSubtitleVoice">您所有聊天中的语音信息都会在这里显示</string>
+    <string name="SearchEmptyViewFilteredSubtitleMedia">您所有聊天中的媒体文件都会在这里显示</string>
     <string name="SearchAllChatsShort">对话</string>
     <!--channels-->
     <string name="SetAsAdmin">提升为管理员</string>
@@ -1044,7 +1044,7 @@
     <string name="SecretChatTimerMinutes">月</string>
     <string name="SecretChatTimerHours">小时</string>
     <string name="SecretChatTimerWeeks">周</string>
-    <string name="SharedToPrivateMessagesAndGroups">to private messages and groups</string>
+    <string name="SharedToPrivateMessagesAndGroups">给私密信息和群组</string>
     
     <string name="BotOwnershipTransfer">Transfer Bot Ownership</string>
     <string name="BotOwnershipTransferReadyAlertText">This will transfer the **full owner** rights for the bot to the selected user.</string>

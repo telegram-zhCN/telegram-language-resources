@@ -257,14 +257,14 @@
 
 "Chat.Service.Group.UpdatedPhoto" = "%@ updated group photo";
 "Chat.Service.Group.RemovedPhoto" = "%@ removed group photo";
-"Chat.Service.Channel.UpdatedPhoto" = "channel photo updated";
-"Chat.Service.Channel.RemovedPhoto" = "channel photo removed";
+"Chat.Service.Channel.UpdatedPhoto" = "Channel photo updated";
+"Chat.Service.Channel.RemovedPhoto" = "Channel photo removed";
 
 "Chat.Service.Group.UpdatedVideo" = "%@ updated group video";
-"Chat.Service.Channel.UpdatedVideo" = "channel video updated";
+"Chat.Service.Channel.UpdatedVideo" = "Channel video updated";
 
 
-"Chat.Service.Channel.UpdatedTitle" = "channel renamed to \"%@\"";
+"Chat.Service.Channel.UpdatedTitle" = "Channel renamed to \"%@\"";
 
 
 "Chat.Service.SecretChat.SetTimer" = "%@ set the self-destruct timer to %@";
