@@ -1214,10 +1214,10 @@
     <string name="SortedByLastSeen">按最后上线时间排序</string>
     <string name="AddContactByPhone">添加 %1$s</string>
     <string name="PhoneNumberSearch">手机号码</string>
-    <string name="NoContactsYet">You have no contacts on Telegram yet</string>
+    <string name="NoContactsYet">您在Telegram还没有联系人</string>
     <string name="NoContactsYetLine1">邀请朋友来使用Telegram</string>
-    <string name="NoContactsYetLine2">Find people nearby to chat with</string>
-    <string name="NoContactsYetLine3">Search people by username</string>
+    <string name="NoContactsYetLine2">查找附近的人聊天</string>
+    <string name="NoContactsYetLine3">通过用户名查找人</string>
     
     
     
