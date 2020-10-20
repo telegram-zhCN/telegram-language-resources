@@ -3652,12 +3652,12 @@
     <string name="Comments_few">%1$d 条评论</string>
     <string name="Comments_many">%1$d 条评论</string>
     <string name="Comments_other">%1$d 条评论</string>
-    <string name="CommentsCount_zero">%1$d comments</string>
-    <string name="CommentsCount_one">%1$d comment</string>
-    <string name="CommentsCount_two">%1$d comments</string>
-    <string name="CommentsCount_few">%1$d comments</string>
-    <string name="CommentsCount_many">%1$d comments</string>
-    <string name="CommentsCount_other">%1$d comments</string>
+    <string name="CommentsCount_zero">%1$d 条评论</string>
+    <string name="CommentsCount_one">%1$d 条评论</string>
+    <string name="CommentsCount_two">%1$d 条评论</string>
+    <string name="CommentsCount_few">%1$d 条评论</string>
+    <string name="CommentsCount_many">%1$d 条评论</string>
+    <string name="CommentsCount_other">%1$d 条评论</string>
     
     
     
