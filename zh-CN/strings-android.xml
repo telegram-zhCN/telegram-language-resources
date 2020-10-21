@@ -37,7 +37,7 @@
     <string name="DidNotGetTheCode">没有收到验证码？</string>
     <string name="DidNotGetTheCodeSms">通过短信发送验证码</string>
     <string name="CancelAccountReset">撤销帐号重置请求</string>
-    <string name="CancelAccountResetInfo2">Somebody with access to **%1$s** has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn\'t you, please enter the code we\'ve just sent you via SMS. You can also cancel this by *changing your phone number*.</string>
+    <string name="CancelAccountResetInfo2">有人正在删除您的 **%1$s** 帐号并重设两步验证码。\n\n若不是您的操作，请输入短信验证码。您也可以通过 *修改手机号码* 来取消此操作。</string>
     <string name="ResetAccount">重置帐号</string>
     <string name="ResetAccountInfo">因为帐号（**%1$s**）处于活跃状态且正被两步验证密码保护；出于安全考虑，我们将把删除帐号的进程推迟一周。\n\n您可以随时撤销这一进程。</string>
     <string name="ResetAccountStatus">您将能够在此时间后重置您的帐号:</string>
@@ -538,7 +538,7 @@
     <string name="LinkedChannel">链接的频道</string>
     <string name="DiscussionChannelHelp3">Select a group chat that will host comments from your channel.</string>
     <string name="DiscussionChannelHelp2">您在频道中发布的所有内容都将被转发到此群组。</string>
-    <string name="DiscussionChannelGroupSetHelp2">**%1$s** is selected as the group that hosts comments for your channel.</string>
+    <string name="DiscussionChannelGroupSetHelp2">**%1$s** 被设为您的频道中留言的群组。</string>
     <string name="DiscussionGroupHelp">**%1$s** 正在将此群组作为其讨论板。</string>
     <string name="DiscussionGroupHelp2">此频道中发布的所有新消息都将转发到该群组。</string>
     <string name="DiscussionCreateGroup">创建一个新群组</string>
@@ -1061,7 +1061,7 @@
     <string name="DiscussionStarted">讨论已开始</string>
     <string name="ViewThread">查看跟评</string>
     <string name="ChooseDate">选择日期</string>
-    <string name="RepliesChatInfo">This chat helps you keep track of replies to your comments in Channels.</string>
+    <string name="RepliesChatInfo">此聊天将帮助您在群组中跟踪对您的评论。</string>
     <string name="ChannelPostDeleted">Sorry, this post has been removed from the discussion group.</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
