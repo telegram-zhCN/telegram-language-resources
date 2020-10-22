@@ -900,7 +900,7 @@
     <string name="PinMessageAlertTitle">Pin message</string>
     <string name="UnpinMessageAlertTitle">Unpin message</string>
     
-    <string name="PinMessageAlert">Do you want to pin this message in this group?</string>
+    <string name="PinMessageAlert">Do you want to pin this message for all members in the group?</string>
     <string name="PinMessageAlertChannel">Do you want to pin this message in this channel?</string>
     <string name="PinMessageAlertChat">Do you want to pin this message at the top of the chat?</string>
     <string name="UnpinMessageAlert">Do you want to unpin this message?</string>
