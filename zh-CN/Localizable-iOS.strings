@@ -65,22 +65,9 @@
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|实时位置";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|📹 GIF";
 
-"PUSH_PINNED_TEXT" = "%1$@|📌 置顶了“%2$@”";
-"PUSH_PINNED_NOTEXT" = "%1$@|📌 置顶了一条消息";
-"PUSH_PINNED_PHOTO" = "%1$@|📌 置顶了一张图片";
-"PUSH_PINNED_VIDEO" = "%1$@|📌 置顶了一段视频";
-"PUSH_PINNED_ROUND" = "%1$@|📌 置顶了一段视频留言";
-"PUSH_PINNED_DOC" = "%1$@|📌 置顶了一个文件";
-"PUSH_PINNED_STICKER" = "%1$@|📌置顶了一张 %2$@ 贴纸";
-"PUSH_PINNED_AUDIO" = "%1$@|📌 置顶了一条语音留言";
-"PUSH_PINNED_GEO" = "%1$@|📌 置顶了一个位置";
-"PUSH_PINNED_GEOLIVE" = "%1$@|📌 置顶了一个实时位置";
-"PUSH_PINNED_GIF" = "%1$@|📌 置顶了一个 GIF";
-
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 邀请您一起玩 %2$@";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|🎮 玩 %2$@";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ 邀请大家一起玩 %3$@";
-"PUSH_PINNED_GAME" = "%1$@|📌 置顶了一个游戏";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_MESSAGE_NOTEXT" = "%1$@|新消息";
@@ -118,6 +105,10 @@
 "PUSH_MESSAGES_any" = "%1$@|📷📹 相册";
 "PUSH_ALBUM" = "%1$@|📷📹 相册";
 
+
+
+
+
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|新消息";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 图片";
@@ -149,6 +140,9 @@
 
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|📷 相册";
 "PUSH_CHANNEL_ALBUM" = "%1$@|📷📹 相册";
+
+
+
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@: 新消息";
@@ -191,6 +185,9 @@
 
 "PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 相册";
 "PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 相册";
+
+
+
 
 "PUSH_PINNED_TEXT" = "%1$@|📌 置顶了“%2$@”";
 "PUSH_PINNED_NOTEXT" = "%1$@|📌 置顶了一条消息";
@@ -1922,6 +1919,7 @@
 "Conversation.Report" = "举报骚扰行为";
 "Conversation.PinnedMessage" = "置顶消息";
 
+
 "Conversation.Moderate.Delete" = "删除消息";
 "Conversation.Moderate.Ban" = "封禁用户";
 "Conversation.Moderate.Report" = "举报垃圾信息";
@@ -1953,6 +1951,7 @@
 "Message.PinnedStickerMessage" = "置顶了一张贴纸";
 "Message.PinnedLocationMessage" = "置顶了一条位置信息";
 "Message.PinnedContactMessage" = "置顶了一条联系人信息";
+
 
 "Notification.PinnedMessage" = "已置顶消息";
 
@@ -2184,6 +2183,8 @@ Unused sets are archived when you add more.";
 
 "Widget.AuthRequired" = "登录到 Telegram";
 "Widget.NoUsers" = "发送第一条消息后就能在这里看到你的朋友";
+
+
 
 "ShareMenu.CopyShareLinkGame" = "拷贝游戏链接";
 
@@ -4359,6 +4360,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.HeaderLabel" = "讨论";
 "Channel.DiscussionGroup.Create" = "新建群组";
 "Channel.DiscussionGroup.PrivateGroup" = "私人群组";
+
 "Channel.DiscussionGroup.Info" = "你在这个频道所发送的任何信息都会同时被推送到这个群组中。";
 "Channel.DiscussionGroup.LinkGroup" = "链接群组";
 "Channel.DiscussionGroup.UnlinkGroup" = "取消链接群组";
@@ -5741,6 +5743,75 @@ Any member of this group will be able to see messages in the channel.";
 "Call.AudioRouteMute" = "关闭麦克风";
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -65,22 +65,9 @@
 "PUSH_CHANNEL_MESSAGE_GEOLIVE" = "%1$@|Live location";
 "PUSH_CHANNEL_MESSAGE_GIF" = "%1$@|📹 GIF";
 
-"PUSH_PINNED_TEXT" = "%1$@|📌 Pinned \"%2$@\"";
-"PUSH_PINNED_NOTEXT" = "%1$@|📌 Pinned a message";
-"PUSH_PINNED_PHOTO" = "%1$@|📌 Pinned a photo";
-"PUSH_PINNED_VIDEO" = "%1$@|📌 Pinned a video";
-"PUSH_PINNED_ROUND" = "%1$@|📌 Pinned a video message";
-"PUSH_PINNED_DOC" = "%1$@|📌 Pinned a document";
-"PUSH_PINNED_STICKER" = "%1$@|📌 Pinned a %2$@ sticker";
-"PUSH_PINNED_AUDIO" = "%1$@|📌 Pinned a voice message";
-"PUSH_PINNED_GEO" = "%1$@|📌 Pinned a location";
-"PUSH_PINNED_GEOLIVE" = "%1$@|📌 Pinned a live location";
-"PUSH_PINNED_GIF" = "%1$@|📌 Pinned a GIF";
-
 "PUSH_MESSAGE_GAME" = "%1$@|🎮 Play %2$@";
 "PUSH_CHANNEL_MESSAGE_GAME" = "%1$@|🎮 Play %2$@";
 "PUSH_CHAT_MESSAGE_GAME" = "%2$@|🎮 %1$@ invited the group to play %3$@";
-"PUSH_PINNED_GAME" = "%1$@|📌 Pinned a game";
 
 "PUSH_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_MESSAGE_NOTEXT" = "%1$@|New message";
@@ -118,6 +105,10 @@
 "PUSH_MESSAGES_any" = "%1$@|📷📹 Albums";
 "PUSH_ALBUM" = "%1$@|📷📹 Album";
 
+
+
+
+
 "PUSH_CHANNEL_MESSAGE_TEXT" = "%1$@|%2$@";
 "PUSH_CHANNEL_MESSAGE_NOTEXT" = "%1$@|New message";
 "PUSH_CHANNEL_MESSAGE_PHOTO" = "%1$@|📷 Photo";
@@ -149,6 +140,9 @@
 "PUSH_CHANNEL_MESSAGES_1" = "%1$@|📷 Album";
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|📷 Album";
 "PUSH_CHANNEL_ALBUM" = "%1$@|📷📹 Album";
+
+
+
 
 "PUSH_CHAT_MESSAGE_TEXT" = "%2$@|%1$@: %3$@";
 "PUSH_CHAT_MESSAGE_NOTEXT" = " %2$@|%1$@: New message";
@@ -191,6 +185,9 @@
 "PUSH_CHAT_MESSAGES_1" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 Album";
+
+
+
 
 "PUSH_PINNED_TEXT" = "%1$@|📌 Pinned \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|📌 Pinned a message";
@@ -1922,6 +1919,7 @@
 "Conversation.Report" = "Report Spam";
 "Conversation.PinnedMessage" = "Pinned Message";
 
+
 "Conversation.Moderate.Delete" = "Delete Message";
 "Conversation.Moderate.Ban" = "Ban User";
 "Conversation.Moderate.Report" = "Report Spam";
@@ -1953,6 +1951,7 @@
 "Message.PinnedStickerMessage" = "pinned sticker";
 "Message.PinnedLocationMessage" = "pinned location";
 "Message.PinnedContactMessage" = "pinned contact";
+
 
 "Notification.PinnedMessage" = "pinned message";
 
@@ -2184,6 +2183,8 @@ Unused sets are archived when you add more.";
 
 "Widget.AuthRequired" = "Log In to Telegram";
 "Widget.NoUsers" = "Start messaging to see your friends here";
+
+
 
 "ShareMenu.CopyShareLinkGame" = "Copy link to game";
 
@@ -4359,6 +4360,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.HeaderLabel" = "Discuss";
 "Channel.DiscussionGroup.Create" = "Create New Group";
 "Channel.DiscussionGroup.PrivateGroup" = "private group";
+
 "Channel.DiscussionGroup.Info" = "Everything you post in the channel will be forwarded to this group.";
 "Channel.DiscussionGroup.LinkGroup" = "Link Group";
 "Channel.DiscussionGroup.UnlinkGroup" = "Unlink Group";
@@ -5723,10 +5725,10 @@ Any member of this group will be able to see messages in the channel.";
 "Cache.NoLimit" = "No Limit";
 "Cache.MaximumCacheSizeHelp" = "If your cache size exceeds this limit, the oldest media will be deleted.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.";
 
-
-
-
-
+"Stats.MessageTitle" = "Message Statistics";
+"Stats.MessageOverview" = "Overview";
+"Stats.MessageInteractionsTitle" = "Interactions";
+"Stats.MessagePublicForwardsTitle" = "Public Shares";
 
 "Call.CameraTooltip" = "Tap here to turn on your camera";
 "Call.CameraConfirmationText" = "Switch to video call?";
@@ -5813,6 +5815,75 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.CommentsGroup.HeaderGroupSet" = "%@ links the group as its discussion board.";
 
 "RepliesChat.DescriptionText" = "This chat helps you keep track of replies to your comments in Channels.";
+
+"Channel.DiscussionMessageUnavailable" = "Sorry, this post has been removed from the discussion group.";
+
+"Conversation.ContextViewStats" = "View Statistics";
+
+"ChatList.MessageMusic_1" = "%@ Music File";
+"ChatList.MessageMusic_any" = "%@ Music Files";
+
+"Conversation.PinOlderMessageAlertTitle" = "Pin Message";
+"Conversation.PinOlderMessageAlertText" = "Do you want to pin an older message while leaving a more recent one pinned?";
+"Conversation.PinMessageAlertPin" = "Pin";
+
+"Conversation.ContextMenuSelect" = "Select";
+
+"Conversation.ContextMenuSelectAll_0" = "Select All %@ Items";
+"Conversation.ContextMenuSelectAll_1" = "Select All %@ Items";
+"Conversation.ContextMenuSelectAll_2" = "Select All %@ Items";
+"Conversation.ContextMenuSelectAll_3_10" = "Select All %@ Items";
+"Conversation.ContextMenuSelectAll_many" = "Select All %@ Items";
+"Conversation.ContextMenuSelectAll_any" = "Select All %@ Items";
+
+"Conversation.Dice.u1F3B0" = "Send a slot machine emoji to try your luck.";
+
+"Notification.ProximityReached" = "%1$@ is now within %2$@ from %3$@";
+"Notification.ProximityReachedYou" = "%1$@ is now within %2$@ from you";
+"Notification.ProximityYouReached" = "You are now within %1$@ from %2$@";
+
+"Location.ProximityNotification.Title" = "Proximity Alert";
+"Location.ProximityNotification.Notify" = "Notify me within %@";
+"Location.ProximityNotification.NotifyLong" = "Notify when %1$@ is within %2$@";
+"Location.ProximityNotification.AlreadyClose" = "You are already closer than %@";
+"Location.ProximityNotification.DistanceKM" = "km";
+"Location.ProximityNotification.DistanceM" = "m";
+"Location.ProximityNotification.DistanceMI" = "mi";
+
+"Location.ProximityTip" = "Alert when %@ is close";
+"Location.ProximityGroupTip" = "Alert when any group member is close";
+
+"ChatList.MessageFiles_1" = "%@ File";
+"ChatList.MessageFiles_any" = "%@ Files";
+
+"Chat.TitlePinnedMessages_1" = "Pinned Message";
+"Chat.TitlePinnedMessages_any" = "%@ Pinned Messages";
+
+"Chat.PanelHidePinnedMessages" = "Don't Show Pinned Messages";
+"Chat.PanelUnpinAllMessages" = "Unpin All Messages";
+
+"Chat.MessagesUnpinned_1" = "Message Unpinned";
+"Chat.MessagesUnpinned_any" = "%@ Messages Unpinned";
+
+"Chat.PinnedMessagesHiddenTitle" = "Pinned Messages Hidden";
+"Chat.PinnedMessagesHiddenText" = "You will see the bar with pinned messages only if a new message is pinned.";
+
+"OpenFile.PotentiallyDangerousContentAlert" = "Previewing this file can potentially expose your IP address to its sender. Continue?";
+
+"Chat.PinnedListPreview.ShowAllMessages" = "Show All Messages";
+"Chat.PinnedListPreview.UnpinAllMessages" = "Unpin All Messages";
+"Chat.PinnedListPreview.HidePinnedMessages" = "Hide Pinned Messages";
+
+"Conversation.PinMessagesForMe" = "Pin for me";
+"Conversation.PinMessagesFor" = "Pin for me and %@";
+
+"Location.LiveLocationRequired.Title" = "Share Location";
+"Location.LiveLocationRequired.Description" = "For the alert to work, please share your live location in this chat.";
+"Location.LiveLocationRequired.ShareLocation" = "Share Location";
+
+"Stats.Message.Views" = "Views";
+"Stats.Message.PublicShares" = "Public Shares";
+"Stats.Message.PrivateShares" = "Private Shares";
 
 
 /* new from translations.telegram.org */
@@ -5950,11 +6021,27 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.DeleteMessagesConfirmation_2" = "Delete %@ messages";
 "Chat.DeleteMessagesConfirmation_3_10" = "Delete %@ messages";
 "Chat.DeleteMessagesConfirmation_many" = "Delete %@ messages";
+"Chat.MessagesUnpinned_0" = "%@ Messages Unpinned";
+"Chat.MessagesUnpinned_2" = "%@ Messages Unpinned";
+"Chat.MessagesUnpinned_3_10" = "%@ Messages Unpinned";
+"Chat.MessagesUnpinned_many" = "%@ Messages Unpinned";
+"Chat.TitlePinnedMessages_0" = "%@ Pinned Messages";
+"Chat.TitlePinnedMessages_2" = "%@ Pinned Messages";
+"Chat.TitlePinnedMessages_3_10" = "%@ Pinned Messages";
+"Chat.TitlePinnedMessages_many" = "%@ Pinned Messages";
 "ChatList.DeletedChats_0" = "Deleted %@ chats";
 "ChatList.DeletedChats_2" = "Deleted %@ chats";
 "ChatList.DeletedChats_3_10" = "Deleted %@ chats";
 "ChatList.DeletedChats_many" = "Deleted %@ chats";
 "ChatList.EmptyChatFilterList" = "This folder is empty.";
+"ChatList.MessageFiles_0" = "%@ Files";
+"ChatList.MessageFiles_2" = "%@ Files";
+"ChatList.MessageFiles_3_10" = "%@ Files";
+"ChatList.MessageFiles_many" = "%@ Files";
+"ChatList.MessageMusic_0" = "%@ Music Files";
+"ChatList.MessageMusic_2" = "%@ Music Files";
+"ChatList.MessageMusic_3_10" = "%@ Music Files";
+"ChatList.MessageMusic_many" = "%@ Music Files";
 "ChatList.MessagePhotos_0" = "%@ Photos";
 "ChatList.MessagePhotos_2" = "%@ Photos";
 "ChatList.MessagePhotos_3_10" = "%@ Photos";
