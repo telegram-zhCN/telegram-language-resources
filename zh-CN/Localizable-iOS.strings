@@ -4366,9 +4366,7 @@ Sorry for the inconvenience.";
 "Channel.DiscussionGroup.UnlinkGroup" = "取消链接群组";
 "Channel.DiscussionGroup.UnlinkChannel" = "取消链接频道";
 "Channel.DiscussionGroup.PublicChannelLink" = "您想让“%1$@”成为频道“%2$@”的讨论群吗？";
-"Channel.DiscussionGroup.PrivateChannelLink" = "Do you want to make %1$@ the discussion board for %2$@?
 
-Any member of this group will be able to see messages in the channel.";
 "Channel.DiscussionGroup.MakeHistoryPublic" = "注意：如果将此私人群组设置为讨论群，所有的频道订阅人将可以访问此群组。”群组新成员的聊天记录限制”将切换至全部可见。";
 "Channel.DiscussionGroup.MakeHistoryPublicProceed" = "同意";
 
@@ -5743,6 +5741,11 @@ Any member of this group will be able to see messages in the channel.";
 "Call.AudioRouteMute" = "关闭麦克风";
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
 
 
 
