@@ -255,6 +255,10 @@
 "Chat.Service.PeerJoinedTelegram" = "%@ 加入了 Telegram";
 
 
+
+
+
+
 "Chat.Service.Group.UpdatedPhoto" = "%@ 更改了群组头像";
 "Chat.Service.Group.RemovedPhoto" = "%@ 移除了群组头像";
 "Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";
@@ -345,6 +349,8 @@
 "InputAttach.Popover.File" = "文件";
 "InputAttach.Popover.Location" = "位置";
 "InputAttach.Popover.Poll" = "投票";
+
+
 
 "Compose.Popover.NewGroup" = "新建群组";
 "Compose.Popover.NewChannel" = "新建频道";
@@ -581,6 +587,10 @@
 
 "Channel.Public" = "公开";
 "Channel.Private" = "私人";
+
+
+
+
 
 
 "Channel.PrivateAboutChannel" = "私人频道只能通过邀请链接加入。";
@@ -938,10 +948,18 @@
 "GroupInvation.ChannelDescription" = "任何Telegram用户都能够通过此链接加入您的频道。";
 
 "Chat.Header.PinnedMessage" = "置顶消息";
+
+
+
+
 "Chat.Header.ReportSpam" = "举报骚扰行为";
 "Chat.Confirm.Unpin" = "您确定要取消置顶此消息吗？";
 "Chat.Confirm.Unpin.Header" = "解除消息置顶";
 "Chat.Confirm.Unpin.OK" = "解除置顶";
+
+
+
+
 
 
 "StickerPack.Add1_countable" = "%d";
@@ -1299,6 +1317,32 @@
 "Call.Confirm.DiscardCurrent.Header" = "正在通话";
 "Call.Confirm.DiscardCurrent.Description" = "结束与 %@ 的通话并且和 %@ 进行新的通话？";
 "Call.RatingModal.Placeholder" = "作出评价...";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "QuickSwitcher.Recently" = "最近";
 "QuickSwitcher.Popular" = "人气";
 "QuickSwitcher.Description" = "按 **TAB** 或 **↑ ↓**  移动，按 **⮐** 选择，按 **ESC** 退出";
@@ -3250,13 +3294,9 @@
 "Chat.Video.Processing" = "正在处理...";
 
 "CallSettings.Title" = "通话设置";
-"CallSettings.Output.Title" = "音频";
-"CallSettings.Output.Text" = "输出设备";
 "CallSettings.Input.Title" = "麦克风";
 "CallSettings.Input.Text" = "输入设备";
-"CallSettings.OtherSettings.Title" = "其他设置";
-"CallSettings.MuteSound" = "通话时将其他应用设为静音";
-"CallSettings.OpenSystemPreferences" = "打开系统偏好设置";
+
 
 
 "Telegram.ChannelStatisticsController" = "频道统计数据";
@@ -4008,6 +4048,15 @@
 "Graph.ZoomOut" = "缩小";
 "Graph.Total" = "总计";
 
+
+
+
+
+
+
+
+
+
 "ChannelStats.Recent.Header" = "最近的帖子";
 
 "Chat.Emoji.Dice.ResultNew" = "发送骰子 emoji 以掷骰子。";
@@ -4410,6 +4459,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "创建者";
@@ -4418,6 +4497,11 @@
 "AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
 "AppearanceSettings.ColorTheme.night_blue" = "蓝光暗色调";
+"CallSettings.MuteSound" = "通话时将其他应用设为静音";
+"CallSettings.OpenSystemPreferences" = "打开系统偏好设置";
+"CallSettings.OtherSettings.Title" = "其他设置";
+"CallSettings.Output.Text" = "输出设备";
+"CallSettings.Output.Title" = "音频";
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
 "ChannelBlacklist.AddMember" = "邀请新成员";
 "Chat.Confirm.DeleteMessages" = "删除所选消息？";

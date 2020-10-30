@@ -255,6 +255,10 @@
 "Chat.Service.PeerJoinedTelegram" = "%@ joined Telegram";
 
 
+"Notification.ProximityReached" = "%@ is now within %@ from %@";
+"Notification.ProximityReachedYou" = "%@ is now within %@ from you";
+
+
 "Chat.Service.Group.UpdatedPhoto" = "%@ updated group photo";
 "Chat.Service.Group.RemovedPhoto" = "%@ removed group photo";
 "Chat.Service.Channel.UpdatedPhoto" = "Channel photo updated";
@@ -345,6 +349,8 @@
 "InputAttach.Popover.File" = "File";
 "InputAttach.Popover.Location" = "Location";
 "InputAttach.Popover.Poll" = "Poll";
+
+"InputAttach.Popover.Music" = "Audio File";
 
 "Compose.Popover.NewGroup" = "New Group";
 "Compose.Popover.NewChannel" = "New Channel";
@@ -582,6 +588,10 @@
 "Channel.Public" = "Public";
 "Channel.Private" = "Private";
 
+"Channel.RevokeLink" = "Revoke Link";
+"Channel.RevokeLink.Confirm.Header" = "Revoke Link";
+"Channel.RevokeLink.Confirm.Text" = "Are you sure you want to revoke this link? Once you do, no one will be able to join the group using it.";
+"Channel.RevokeLink.Confirm.OK" = "Revoke";
 
 "Channel.PrivateAboutChannel" = "Private channels can only be joined via an invite link.";
 "Channel.PublicAboutChannel" = "Public channels can be found in search, anyone can join them.";
@@ -938,11 +948,19 @@
 "GroupInvation.ChannelDescription" = "Anyone who has Telegram installed will be able to join your channel by following this link";
 
 "Chat.Header.PinnedMessage" = "Pinned message";
+"Chat.Header.PinnedPrevious" = "Previous message";
+
+"Chat.Header.PinnedMessage_Numer" = "Pinned message #%d";
+
 "Chat.Header.ReportSpam" = "Report Spam";
 "Chat.Confirm.Unpin" = "Would you like to unpin this message?";
 "Chat.Confirm.Unpin.Header" = "Unpin message";
 "Chat.Confirm.Unpin.OK" = "Unpin";
 
+
+"Chat.Confirm.PinOld" = "Do you want to pin an older message while leaving a more recent one pinned?";
+
+"Chat.Confirm.PinFor" = "Pin for me and %@";
 
 "StickerPack.Add1_countable" = "%d";
 "StickerPack.Add1_zero" = "Add %d Stickers";
@@ -1299,6 +1317,32 @@
 "Call.Confirm.DiscardCurrent.Header" = "Call in Progress";
 "Call.Confirm.DiscardCurrent.Description" = "Finish the call with %@ and start a new one with %@?";
 "Call.RatingModal.Placeholder" = "Leave comment...";
+"Call.RatingModal.NotNow" = "Not Now";
+
+"Call.RatingModal.Text" = "Please rate the quality of your Telegram call";
+
+"GeneralSettings.CallSettings.Header" = "CALL SETTINGS";
+"GeneralSettings.CallSettings.Text" = "Call Settings";
+
+"CallFeedback.Title" = "Call Feedback";
+"CallFeedback.WhatWentWrong" = "WHAT WENT WRONG?";
+"CallFeedback.ReasonEcho" = "I heard my own voice";
+"CallFeedback.ReasonNoise" = "I heard background noise";
+"CallFeedback.ReasonInterruption" = "The other side kept disappearing";
+"CallFeedback.ReasonDistortedSpeech" = "Speech was distorted";
+"CallFeedback.ReasonSilentLocal" = "I couldn't hear the other side";
+"CallFeedback.ReasonSilentRemote" = "The other side couldn't hear me";
+"CallFeedback.ReasonDropped" = "Call ended unexpectedly";
+"CallFeedback.VideoReasonDistorted" = "Video was distorted";
+"CallFeedback.VideoReasonLowQuality" = "Video was pixelated";
+"CallFeedback.AddComment" = "Add an optional comment";
+"CallFeedback.IncludeLogs" = "Include technical information";
+"CallFeedback.IncludeLogsInfo" = "This won't reveal the contents of your conversation, but will help us fix the issue sooner.";
+"CallFeedback.Send" = "Send";
+"CallFeedback.Success" = "Thanks for\nyour feedback";
+
+
+
 "QuickSwitcher.Recently" = "Recent";
 "QuickSwitcher.Popular" = "Popular";
 "QuickSwitcher.Description" = "**TAB** or **↑ ↓** to navigate, **⮐** to select, **ESC** to dismiss";
@@ -3250,14 +3294,10 @@
 "Chat.Video.Processing" = "processing...";
 
 "CallSettings.Title" = "Call Settings";
-"CallSettings.Output.Title" = "SOUND";
-"CallSettings.Output.Text" = "Output device";
 "CallSettings.Input.Title" = "MICROPHONE";
 "CallSettings.Input.Text" = "Input device";
-"CallSettings.OtherSettings.Title" = "OTHER SETTINGS";
-"CallSettings.MuteSound" = "Mute other sounds during calls";
-"CallSettings.OpenSystemPreferences" = "Open system preferences";
-
+"CallSettings.Camera.Title" = "CAMERA";
+"CallSettings.Device.Default" = "Default";
 
 "Telegram.ChannelStatisticsController" = "Channel Stats";
 
@@ -4008,6 +4048,15 @@
 "Graph.ZoomOut" = "Zoom Out";
 "Graph.Total" = "Total";
 
+
+"Stats.MessageTitle" = "Message Statistics";
+"Stats.MessageOverview" = "OVERVIEW";
+"Stats.MessageInteractionsTitle" = "INTERACTIONS";
+"Stats.MessagePublicForwardsTitle" = "Public Shares";
+"Stats.MessagePrivateForwardsTitle" = "Private Shares";
+"Stats.MessagePublicForwardsTitle.Header" = "PUBLIC SHARES";
+
+
 "ChannelStats.Recent.Header" = "TOP RECENT POSTS";
 
 "Chat.Emoji.Dice.ResultNew" = "Send a dice emoji to roll a die.";
@@ -4248,6 +4297,7 @@
 "Message.Text.CopyMusicTitle" = "Copy Track Name";
 
 "ShareCallLogs" = "Share Call Logs";
+"Call.Context.Rate" = "Rate This Call";
 
 "Call.SameDevice.Error" = "Sorry, you can’t make a call between two accounts on the same device.";
 
@@ -4409,6 +4459,35 @@
 
 "Chat.Title.Discussion" = "Discussion";
 
+"Chat.Title.PinnedMessages_countable" = "%d";
+"Chat.Title.PinnedMessages_zero" = "%d Pinned Messages";
+"Chat.Title.PinnedMessages_one" = "%d Pinned Message";
+"Chat.Title.PinnedMessages_two" = "%d Pinned Messages";
+"Chat.Title.PinnedMessages_few" = "%d Pinned Messages";
+"Chat.Title.PinnedMessages_many" = "%d Pinned Messages";
+"Chat.Title.PinnedMessages_other" = "%d Pinned Messages";
+
+"Chat.Pinned.UnpinAll_countable" = "%d";
+"Chat.Pinned.UnpinAll_zero" = "Unpin All %d Messages";
+"Chat.Pinned.UnpinAll_one" = "Unpin %d Message";
+"Chat.Pinned.UnpinAll_two" = "Unpin All %d Messages";
+"Chat.Pinned.UnpinAll_few" = "Unpin All %d Messages";
+"Chat.Pinned.UnpinAll_many" = "Unpin All %d Messages";
+"Chat.Pinned.UnpinAll_other" = "Unpin All %d Messages";
+
+"Chat.Pinned.DontShow" = "Don't Show Pinned Messages";
+
+
+"Chat.File.QuickLook.Svg" = "Previewing this file can potentially expose your IP address to its sender.";
+
+"Chat.UnpinAllMessagesConfirmation_countable" = "%d";
+"Chat.UnpinAllMessagesConfirmation_zero" = "Do you want to unpin all %d messages in this chat?";
+"Chat.UnpinAllMessagesConfirmation_one" = "Do you want to unpin all %d message in this chat?";
+"Chat.UnpinAllMessagesConfirmation_two" = "Do you want to unpin all %d messages in this chat?";
+"Chat.UnpinAllMessagesConfirmation_few" = "Do you want to unpin all %d messages in this chat?";
+"Chat.UnpinAllMessagesConfirmation_many" = "Do you want to unpin all %d messages in this chat?";
+"Chat.UnpinAllMessagesConfirmation_other" = "Do you want to unpin all %d messages in this chat?";
+
 
 /* new from translations.telegram.org */
 
@@ -4418,6 +4497,11 @@
 "AppearanceSettings.ColorTheme.day_classic" = "Day Classic";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
 "AppearanceSettings.ColorTheme.night_blue" = "Night Blue";
+"CallSettings.MuteSound" = "Mute other sounds during calls";
+"CallSettings.OpenSystemPreferences" = "Open system preferences";
+"CallSettings.OtherSettings.Title" = "OTHER SETTINGS";
+"CallSettings.Output.Text" = "Output device";
+"CallSettings.Output.Title" = "SOUND";
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Confirm.DeleteMessages" = "Delete selected messages?";

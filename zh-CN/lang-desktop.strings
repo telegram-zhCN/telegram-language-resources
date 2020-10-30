@@ -161,13 +161,25 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_deleted" = "已销号";
 "lng_deleted_message" = "已删除的消息";
 "lng_pinned_message" = "置顶消息";
+
 "lng_pinned_poll" = "置顶投票";
 "lng_pinned_quiz" = "置顶测验";
 "lng_pinned_unpin_sure" = "您确定要取消置顶此消息吗？";
 "lng_pinned_pin_sure" = "您确定要置顶此消息吗？";
+
+
 "lng_pinned_pin" = "置顶";
 "lng_pinned_unpin" = "取消置顶";
 "lng_pinned_notify" = "通知所有成员";
+
+
+
+
+
+
+
+
+
 
 "lng_edit_media_album_error" = "此文件无法保存为相册的一部分。";
 "lng_edit_media_invalid_file" = "抱歉，您无权使用此文件。";
@@ -1104,6 +1116,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_secure_phone" = "手机号码";
 "lng_action_secure_email" = "邮箱地址";
 
+
+
+
+
+
+
+
 "lng_ttl_photo_received" = "{from} 给您发送了一张阅后即焚图片，请在您的手机上查看。";
 "lng_ttl_photo_sent" = "您发送了一张阅后即焚图片。";
 "lng_ttl_photo_expired" = "图片已自毁";
@@ -1523,9 +1542,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_send_files_selected#other" = "已选择 {count} 个文件";
 
 "lng_send_files#other" = "发送 {count} 个文件";
-"lng_send_album" = "作为一组图片发送";
-"lng_send_photo" = "单独作为一张图片发送";
-"lng_send_file" = "作为文件发送";
+
+
 "lng_send_media_invalid_files" = "抱歉，找不到有效的文件。";
 
 "lng_forward_choose" = "选择接收者...";
@@ -2271,6 +2289,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_link" = "翻译平台";
 
 "lng_launch_exe_warning" = "这个文件的扩展名是 {extension}。\n它可能会损害您的电脑。\n您确定要执行它吗？";
+
 "lng_launch_exe_sure" = "运行";
 "lng_launch_exe_dont_ask" = "不再询问";
 
@@ -2570,6 +2589,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_spam_sure" = "您确定要举报此用户存在骚扰行为？";
 "lng_report_spam_thanks" = "感谢您的举报！";
 "lng_restricted_list_title" = "受限的用户";
+"lng_send_album" = "作为一组图片发送";
+"lng_send_file" = "作为文件发送";
+"lng_send_photo" = "单独作为一张图片发送";
 "lng_settings_advanced_notifications" = "通知位置和计数";
 "lng_settings_audios_cached#other" = "{count} 条语音留言，共 {size}";
 "lng_settings_autoplay_gifs" = "自动播放 GIF";

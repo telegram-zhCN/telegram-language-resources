@@ -2422,7 +2422,7 @@
     <string name="ProximityTooltioGroup">Alert when other members of the group are close</string>
     <string name="ProximityAlertSet">Proximity alert set</string>
     <string name="ProximityAlertSetInfoUser">We will notify you once %1$s is within %2$s from you.</string>
-    <string name="ProximityAlertSetInfoGroup">We will notify you once someone is within %2$s from you.</string>
+    <string name="ProximityAlertSetInfoGroup2">We will notify you once someone is within %1$s from you.</string>
     <string name="ProximityAlertCancelled">Proximity alert cancelled</string>
     <!--photo gallery view-->
     <string name="ShowAsList">Show as list</string>

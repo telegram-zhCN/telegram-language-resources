@@ -2422,7 +2422,7 @@
     <string name="ProximityTooltioGroup">Alert when other members of the group are close</string>
     <string name="ProximityAlertSet">Proximity alert set</string>
     <string name="ProximityAlertSetInfoUser">We will notify you once %1$s is within %2$s from you.</string>
-    <string name="ProximityAlertSetInfoGroup">We will notify you once someone is within %2$s from you.</string>
+    <string name="ProximityAlertSetInfoGroup2">We will notify you once someone is within %1$s from you.</string>
     <string name="ProximityAlertCancelled">Proximity alert cancelled</string>
     <!--photo gallery view-->
     <string name="ShowAsList">以列表显示</string>
@@ -2529,9 +2529,9 @@
     <string name="MainChannelProfileVideoSetHint">现在这是主要的频道动态头像。</string>
     <string name="MainGroupProfilePhotoSetHint">现在这是主要的群组头像。</string>
     <string name="MainGroupProfileVideoSetHint">现在这是主要的群组动态头像。</string>
-    <string name="PhotoSavedHint">Photo saved to gallery</string>
+    <string name="PhotoSavedHint">图片已保存到相册里</string>
     <string name="VideoSavedHint">视频已存到相册里</string>
-    <string name="PhotoSavedToDownloadsHint">Photo saved to downloads</string>
+    <string name="PhotoSavedToDownloadsHint">图片已保存到「下載」\n7/17</string>
     <string name="VideoSavedToDownloadsHint">Video saved to downloads</string>
     <string name="GifSavedToDownloadsHint">GIF saved to downloads</string>
     <string name="AudioSavedHint">File saved to music</string>
@@ -3028,7 +3028,7 @@
     <string name="PermissionDrawAboveOtherApps">Telegram 需要使用出现在其他应用上的权限以在画中画模式中播放视频。</string>
     <string name="PermissionOpenSettings">设置</string>
     <string name="PermissionXiaomiLockscreen">请授予 Telegram 在锁屏界面显示的权限以确保通话正常工作。</string>
-    <string name="PermissionBackgroundLocation">To share your live location in this chat, Telegram needs access to your location all the time, including while the app is in the background.\n\nWe will access your location only for the duration you choose, and you can stop sharing it any time. We won\'t use your location for any purpose other than sharing it in this chat.</string>
+    <string name="PermissionBackgroundLocation">为了能够在此聊天共享您的实时位置，Telegram 需要随时访问您的位置权限，包括应用在后台运行时。\n\n我们将会在您设定时间范围内访问您的位置权限，您随时可以终止位置共享。除了位置分享之外，我们不会把您的位置权限用于其它目的。</string>
     <!--charts-->
     <string name="GrowthChartTitle">增长</string>
     <string name="FollowersChartTitle">订阅者</string>
