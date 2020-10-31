@@ -255,8 +255,10 @@
 "Chat.Service.PeerJoinedTelegram" = "%@ joined Telegram";
 
 
-"Notification.ProximityReached" = "%@ is now within %@ from %@";
-"Notification.ProximityReachedYou" = "%@ is now within %@ from you";
+
+
+
+
 
 
 "Chat.Service.Group.UpdatedPhoto" = "%@ updated group photo";
@@ -4527,6 +4529,8 @@
 "GalleryView.FastSave.Video" = "Video saved to your [Download]() folder";
 "GeneralSettings.LargeFonts" = "Large Font";
 "InAppLinks.Confirm.OpenExternal" = "open %@?";
+"Notification.ProximityReached" = "%@ is now within %@ from %@";
+"Notification.ProximityReachedYou" = "%@ is now within %@ from you";
 "Notification.ScheduledTitle" = "📆 You";
 "NotificationSettings.IncludePublicGroups" = "Include Public Groups";
 "Peer.Media.SharedFilesEmptyList" = "You can send and receive files of any type up to 2 GB each and access them anywhere.";

@@ -259,6 +259,8 @@
 
 
 
+
+
 "Chat.Service.Group.UpdatedPhoto" = "%@ 更改了群组头像";
 "Chat.Service.Group.RemovedPhoto" = "%@ 移除了群组头像";
 "Chat.Service.Channel.UpdatedPhoto" = "频道头像已更新";

@@ -5881,7 +5881,7 @@ Sorry for the inconvenience.";
 
 "Location.ProximityAlertSetTitle" = "Proximity alert set";
 "Location.ProximityAlertSetText" = "We will notify you once %1$@ is within %2$@ from you.";
-"Location.ProximityAlertSetTextGroup" = "We will notify you once any group member is within %2$@ from you.";
+"Location.ProximityAlertSetTextGroup" = "We will notify you once any group member is within %@ from you.";
 "Location.ProximityAlertCancelled" = "Proximity alert cancelled";
 
 "Stats.Message.Views" = "Views";
