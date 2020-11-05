@@ -241,18 +241,20 @@
 
 
 "Chat.Service.You" = "您";
-"Chat.Service.Group.Created" = "%@ 创建了群组 \"%@\"";
-"Chat.Service.Group.AddedMembers" = "%@ 邀请了 %@";
+
+
+
 "Chat.Service.Group.AddedSelf" = "%@ 加入了群组";
-"Chat.Service.Group.RemovedMembers" = "%@ 移除了 %@";
+
 "Chat.Service.Group.RemovedSelf" = "%@ 离开了群组";
-"Chat.Service.Group.UpdatedTitle" = "%@ 将群组名称更改为 \"%@\"";
-"Chat.Service.Group.UpdatedPinnedMessage" = "%@ 置顶了 \"%@\"";
+
+
 "Chat.Service.Group.JoinedByLink" = "%@ 通过邀请链接加入了群组";
 "Chat.Service.Group.MigratedToSupergroup" = "此群组已升级为超级群组";
 "Chat.Service.Group.TookScreenshot" = "%@ 截了一张图";
 "Chat.Service.PinnedMessage" = "置顶消息";
 "Chat.Service.PeerJoinedTelegram" = "%@ 加入了 Telegram";
+
 
 
 
@@ -519,7 +521,7 @@
 "Chat.List.Voice" = "语音留言";
 "Chat.List.InstantVideo" = "视频留言";
 "Chat.List.Video" = "视频";
-"Chat.List.Photo" = "图片";
+
 "Chat.List.GIF" = "GIF";
 "Chat.List.Map" = "位置";
 "Chat.List.Contact" = "联系人信息";
@@ -4513,6 +4515,11 @@
 "Chat.Message.UnsendMessages" = "撤回我的消息";
 "Chat.Poll.TotalVotes_other" = "%d 人投票";
 "Chat.Poll.TotalVotes_countable" = "%d";
+"Chat.Service.Group.AddedMembers" = "%@ 邀请了 %@";
+"Chat.Service.Group.Created" = "%@ 创建了群组 \"%@\"";
+"Chat.Service.Group.RemovedMembers" = "%@ 移除了 %@";
+"Chat.Service.Group.UpdatedPinnedMessage" = "%@ 置顶了 \"%@\"";
+"Chat.Service.Group.UpdatedTitle" = "%@ 将群组名称更改为 \"%@\"";
 "ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
 "Discussion.Set.Modal.Text.Private" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";

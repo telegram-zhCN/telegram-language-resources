@@ -241,13 +241,14 @@
 
 
 "Chat.Service.You" = "You";
-"Chat.Service.Group.Created" = "%@ created the group \"%@\"";
-"Chat.Service.Group.AddedMembers" = "%@ added %@";
+
+"Chat.Service.Group.Created1" = "%1%@ created the group \"%2%@\"";
+"Chat.Service.Group.AddedMembers1" = "%1%@ invited %2%@";
 "Chat.Service.Group.AddedSelf" = "%@ joined the group";
-"Chat.Service.Group.RemovedMembers" = "%@ removed %@";
+"Chat.Service.Group.RemovedMembers1" = "%1%@ removed %2%@";
 "Chat.Service.Group.RemovedSelf" = "%@ left the group";
-"Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
-"Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
+"Chat.Service.Group.UpdatedTitle1" = "%1%@ changed the group name to \"%2%@\"";
+"Chat.Service.Group.UpdatedPinnedMessage1" = "%1%@ pinned \"%2%@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ joined the group via invite link";
 "Chat.Service.Group.MigratedToSupergroup" = "This group was upgraded to a supergroup";
 "Chat.Service.Group.TookScreenshot" = "%@ took a screenshot!";
@@ -256,8 +257,9 @@
 
 
 
-
-
+"Notification.ProximityReached_1" = "%1$@ is now within %2$@ from %3$@";
+"Notification.ProximityReachedYou_1" = "%1$@ is now within %2$@ from you";
+"Notification.ProximityYouReached_1" = "You are now within %1$@ from %2$@";
 
 
 
@@ -519,28 +521,28 @@
 "Chat.List.Voice" = "Voice Message";
 "Chat.List.InstantVideo" = "Video message";
 "Chat.List.Video" = "Video";
-"Chat.List.Photo" = "Photo";
+
 "Chat.List.GIF" = "GIF";
 "Chat.List.Map" = "Location";
 "Chat.List.Contact" = "Contact";
 
 
-"Chat.List.Video_countable" = "%d";
+"Chat.List.Video1_countable" = "%d";
+"Chat.List.Video1_zero" = "%d Videos";
+"Chat.List.Video1_one" = "Video";
+"Chat.List.Video1_two" = "%d Videos";
+"Chat.List.Video1_few" = "%d Videos";
+"Chat.List.Video1_many" = "%d Videos";
+"Chat.List.Video1_other" = "%d Videos";
 
 
-
-
-
-
-
-
-"Chat.List.Photo_countable" = "%d";
-
-
-
-
-
-
+"Chat.List.Photo1_countable" = "%d";
+"Chat.List.Photo1_zero" = "%d Photos";
+"Chat.List.Photo1_one" = "Photo";
+"Chat.List.Photo1_two" = "%d Photos";
+"Chat.List.Photo1_few" = "%d Photos";
+"Chat.List.Photo1_many" = "%d Photos";
+"Chat.List.Photo1_other" = "%d Photos";
 
 "UsernameSettings.ChangeDescription" = "People will be able to find you by this username and contact you without needing your phone number.\n\nYou can use a–z, 0–9 and underscores.\nMinimum length is 5 characters.";
 "UsernameSettings.InputPlaceholder" = "Enter your username";
@@ -4510,6 +4512,8 @@
 "Chat.Dice.Result" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 "Chat.Dice.ResultNew" = "Send a %@ emoji to any chat to get a random number from Telegram.";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
+"Chat.List.Photo_countable" = "%d";
+"Chat.List.Video_countable" = "%d";
 "Chat.Message.UnsendMessages" = "Unsend my messages";
 "Chat.Poll.TotalVotes_zero" = "%d users voted";
 "Chat.Poll.TotalVotes_one" = "%d user voted";
@@ -4518,6 +4522,11 @@
 "Chat.Poll.TotalVotes_many" = "%d users voted";
 "Chat.Poll.TotalVotes_other" = "%d users voted";
 "Chat.Poll.TotalVotes_countable" = "%d";
+"Chat.Service.Group.AddedMembers" = "%@ added %@";
+"Chat.Service.Group.Created" = "%@ created the group \"%@\"";
+"Chat.Service.Group.RemovedMembers" = "%@ removed %@";
+"Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
+"Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
 "ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
