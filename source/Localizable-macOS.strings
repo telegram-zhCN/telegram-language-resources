@@ -242,13 +242,13 @@
 
 "Chat.Service.You" = "You";
 
-"Chat.Service.Group.Created1" = "%1%@ created the group \"%2%@\"";
-"Chat.Service.Group.AddedMembers1" = "%1%@ invited %2%@";
+"Chat.Service.Group.Created1" = "%1$@ created the group \"%2$@\"";
+"Chat.Service.Group.AddedMembers1" = "%1$@ invited %2$@";
 "Chat.Service.Group.AddedSelf" = "%@ joined the group";
-"Chat.Service.Group.RemovedMembers1" = "%1%@ removed %2%@";
+"Chat.Service.Group.RemovedMembers1" = "%1$@ removed %2$@";
 "Chat.Service.Group.RemovedSelf" = "%@ left the group";
-"Chat.Service.Group.UpdatedTitle1" = "%1%@ changed the group name to \"%2%@\"";
-"Chat.Service.Group.UpdatedPinnedMessage1" = "%1%@ pinned \"%2%@\"";
+"Chat.Service.Group.UpdatedTitle1" = "%1$@ changed the group name to \"%2$@\"";
+"Chat.Service.Group.UpdatedPinnedMessage1" = "%1$@ pinned \"%2$@\"";
 "Chat.Service.Group.JoinedByLink" = "%@ joined the group via invite link";
 "Chat.Service.Group.MigratedToSupergroup" = "This group was upgraded to a supergroup";
 "Chat.Service.Group.TookScreenshot" = "%@ took a screenshot!";
