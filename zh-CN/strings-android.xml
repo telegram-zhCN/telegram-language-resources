@@ -2411,7 +2411,7 @@
     <string name="ChatSetThisLocation">设置为此地点</string>
     <string name="ChatSetLocationInfo">用户可以在“附近的人”中找到您的群组。</string>
     <string name="PlacesInThisArea">附近</string>
-    <string name="LocationNotifiation">定位通知</string>
+    <string name="LocationNotifiation">接近通知</string>
     <string name="LocationNotifiationButtonUser">Notify when %1$s is within %2$s</string>
     <string name="LocationNotifiationButtonGroup">Notify when someone is within %1$s</string>
     <string name="LocationNotifiationCloser">You are already closer than %1$s</string>
