@@ -617,7 +617,7 @@
 "Chat.Confirm.DeleteMessagesForEveryone" = "从所有人的设备中删除";
 
 
-"Chat.Confirm.DeleteMessages_countable" = "%d";
+
 
 
 
@@ -698,7 +698,13 @@
 "Chat.Message.Unsupported" = "当前 Telegram 版本不支持此消息。请在 App Store 更新本应用到最新版或在这里下载：https://macos.telegram.org";
 "Text.Copy" = "拷贝所选内容";
 "Text.CopyText" = "拷贝文本";
-"Text.CopyLabel" = "拷贝 %@";
+
+
+
+
+
+
+
 
 "Peer.Activity.User.PlayingGame" = "正在玩游戏";
 "Peer.Activity.User.TypingText" = "正在输入";
@@ -908,7 +914,8 @@
 "Admins.Owner" = "创建者";
 
 
-"Telegram.ChannelVisibilityController" = "类型设置";
+
+
 
 
 "PeerInfo.Confirm.AddMembers1_countable" = "%d";
@@ -1210,6 +1217,9 @@
 "StorageUsage.ChatsHeader" = "对话";
 "StorageUsage.Calculating" = "Telegram is calculating the current cache size.\nThis can take a few minutes.";
 
+
+
+
 "Message.Context.SaveGif" = "添加 GIF";
 "Message.Context.RemoveGif" = "移除 GIF";
 "Context.RecentGifRemove" = "移除";
@@ -1381,7 +1391,7 @@
 
 "Payments.Unsupported" = "抱歉，Telegram 的 macOS 客户端暂不支持付款。请使用我们的移动端应用进行此操作。";
 
-"Chat.Service.PaymentSent" = "您成功转账 **%@** 给 **%@**，转账原因：**%@**";
+
 "Chat.List.Service.PaymentSent" = "支付: %@";
 
 "Telegram.LanguageViewController" = "语言";
@@ -1542,12 +1552,12 @@
 
 "Channel.EventLog.Service.DisabledSlowMode" = "%@ 关闭了慢速模式";
 
-"Channel.EventLog.Service.SetSlowMode" = "%@ 将慢速模式设置为 %@";
 
 
 
 
-"Channel.EventLog.MessageTransferedName" = "转让了拥有权给 %@ (%@)";
+
+
 "Channel.EventLog.MessageTransfered" = "转让了拥有权";
 
 
@@ -1583,14 +1593,14 @@
 "EventLog.Service.ChangedDefaultsRights" = "更改了默认权限";
 
 
-"EventLog.Service.Promoted.Changed" = "修改了 %@ %@ 的权限:";
-"EventLog.Service.Promoted" = "将 %@ %@ 设为管理员:";
 
-"EventLog.Service.Demoted" = "永久限制了 %@ %@ ";
-"EventLog.Service.Demoted.Until" = "限制了 %@ %@ 直到 %@\n";
-"EventLog.Service.Demoted.Changed" = "永久更改了对 %@ %@ 的限制：";
-"EventLog.Service.Demoted.Changed.Until" = "更改了对 %@ %@ 的限制直到 %@:";
-"EventLog.Service.Banned" = "封禁了 %@ %@";
+
+
+
+
+
+
+
 
 "EventLog.Service.DeletedMessage" = "%@ 删除了消息:";
 "EventLog.Service.EditedMessage" = "%@ 编辑了消息:";
@@ -2035,7 +2045,7 @@
 "Peer.CreatePeer.Context.UpdatePhoto" = "上传群组图片";
 "Peer.CreatePeer.Context.RemovePhoto" = "移除群组图片";
 
-"Chat.Webpage.MediaCount" = "%d / %d";
+
 
 "Passcode.UseTouchId" = "使用触控 ID 解锁";
 "Passcode.UnlockTouchIdReason" = "解锁应用程序。";
@@ -2901,7 +2911,7 @@
 
 
 "ApplyLanguage.ChangeLanguageTitle" = "更换语言？";
-"ApplyLanguage.ChangeLanguageUnofficialText" = "您即将使用一个自定义语言包 **%@** （完成度 %@）。\n\n此操作将会应用到整个界面。您可以通过 [翻译平台]() 提出修改建议。\n\n您可以随时在“设置”中更改语言。";
+
 "ApplyLanguage.ChangeLanguageOfficialText" = "您将要应用语言包 (**%@**)。\n\n此操作将会应用到整个界面。您可以通过 [翻译平台]() 提出修改建议 。\n\n您可以随时在“设置”中更改语言。";
 "ApplyLanguage.ChangeLanguageAction" = "更换";
 "ApplyLanguage.ApplyLanguageAction" = "更换";
@@ -4493,6 +4503,7 @@
 
 
 
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "创建者";
@@ -4501,14 +4512,18 @@
 "AppearanceSettings.ColorTheme.day_classic" = "传统亮色调";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
 "AppearanceSettings.ColorTheme.night_blue" = "蓝光暗色调";
+"ApplyLanguage.ChangeLanguageUnofficialText" = "您即将使用一个自定义语言包 **%@** （完成度 %@）。\n\n此操作将会应用到整个界面。您可以通过 [翻译平台]() 提出修改建议。\n\n您可以随时在“设置”中更改语言。";
 "CallSettings.MuteSound" = "通话时将其他应用设为静音";
 "CallSettings.OpenSystemPreferences" = "打开系统偏好设置";
 "CallSettings.OtherSettings.Title" = "其他设置";
 "CallSettings.Output.Text" = "输出设备";
 "CallSettings.Output.Title" = "音频";
 "Channel.EditAdmin.Permission.InviteUsers" = "邀请用户";
+"Channel.EventLog.MessageTransferedName" = "转让了拥有权给 %@ (%@)";
+"Channel.EventLog.Service.SetSlowMode" = "%@ 将慢速模式设置为 %@";
 "ChannelBlacklist.AddMember" = "邀请新成员";
 "Chat.Confirm.DeleteMessages" = "删除所选消息？";
+"Chat.Confirm.DeleteMessages_countable" = "%d";
 "Chat.Dice.Result" = "将 🎲 emoji 发送到任何对话就可以从 Telegram 获得一个随机数。";
 "Chat.Dice.ResultNew" = "发送一个 %@ emoji 到任何对话就可以从 Telegram 获得一个随机数。";
 "Chat.Input.SecretChat.WaitingToOnline" = "正在等待其他用户上线...";
@@ -4520,12 +4535,20 @@
 "Chat.Service.Group.RemovedMembers" = "%@ 移除了 %@";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ 置顶了 \"%@\"";
 "Chat.Service.Group.UpdatedTitle" = "%@ 将群组名称更改为 \"%@\"";
+"Chat.Service.PaymentSent" = "您成功转账 **%@** 给 **%@**，转账原因：**%@**";
+"Chat.Webpage.MediaCount" = "%d / %d";
 "ChatList.Context.PinErrorNew" = "抱歉，您最多只能置顶 5 个对话。";
 "Discussion.Set.Modal.Text.Private" = "是否要将 **%@** 设置为 **%@** 的讨论群？\n\n群组成员将可以看到频道上的所有消息。";
 "Discussion.Set.Modal.Text.Public" = "您想让 **%@** 成为 **%@** 的讨论板吗？";
 "DiscussionController.Channel.Empty.Header" = "选择一个将在您的频道中显示的用于讨论的群组。";
 "DiscussionController.Channel.Set.Header" = "一个指向 **%@** 的链接正在底部面板中向所有订阅者显示。";
-"Gallery.Counter" = "%d / %d";
+"EventLog.Service.Banned" = "封禁了 %@ %@";
+"EventLog.Service.Demoted" = "永久限制了 %@ %@ ";
+"EventLog.Service.Demoted.Changed" = "永久更改了对 %@ %@ 的限制：";
+"EventLog.Service.Demoted.Changed.Until" = "更改了对 %@ %@ 的限制直到 %@:";
+"EventLog.Service.Demoted.Until" = "限制了 %@ %@ 直到 %@\n";
+"EventLog.Service.Promoted" = "将 %@ %@ 设为管理员:";
+"EventLog.Service.Promoted.Changed" = "修改了 %@ %@ 的权限:";
 "GalleryView.FastSave.Gif" = "GIF 已保存到 [下载]() 文件夹";
 "GalleryView.FastSave.Image" = "图片已保存到您的 [下载]() 文件夹";
 "GalleryView.FastSave.Video" = "视频已保存到 [下载]() 文件夹";
@@ -4538,6 +4561,8 @@
 "PeerInfo.SetAdmins" = "设置管理员";
 "PeerInfo.Statistics" = "统计数据";
 "SettingsSearch.Synonyms.Stickers.Masks" = " ";
+"Telegram.ChannelVisibilityController" = "类型设置";
+"Text.CopyLabel" = "拷贝 %@";
 "TwoStepAuth.ConfirmationText" = "请检查你的电子邮箱（不要忘记垃圾邮件文件夹），并点击验证链接来完成两步验证的设置。";
 "TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的电子邮箱 %@？";
 "TwoStepAuth.SetupHint" = "请创建一个密码提示。";

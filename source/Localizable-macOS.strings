@@ -617,13 +617,13 @@
 "Chat.Confirm.DeleteMessagesForEveryone" = "Delete for Everyone";
 
 
-"Chat.Confirm.DeleteMessages_countable" = "%d";
-
-
-
-
-
-
+"Chat.Confirm.DeleteMessages1_countable" = "%d";
+"Chat.Confirm.DeleteMessages1_zero" = "Delete selected messages?";
+"Chat.Confirm.DeleteMessages1_one" = "Delete selected message?";
+"Chat.Confirm.DeleteMessages1_two" = "Delete selected messages?";
+"Chat.Confirm.DeleteMessages1_few" = "Delete selected messages?";
+"Chat.Confirm.DeleteMessages1_many" = "Delete selected messages?";
+"Chat.Confirm.DeleteMessages1_other" = "Delete selected messages?";
 
 "Chat.Confirm.DeleteForEveryone_countable" = "%d";
 "Chat.Confirm.DeleteForEveryone_zero" = "Are you sure you want to delete these messages for everyone?";
@@ -698,7 +698,13 @@
 "Chat.Message.Unsupported" = "This message is not supported by your version of Telegram. Please update to the latest version from the AppStore or install it from https://macos.telegram.org";
 "Text.Copy" = "Copy Selected Text";
 "Text.CopyText" = "Copy Text";
-"Text.CopyLabel" = "Copy %@";
+
+
+"Text.CopyLabel_About" = "Copy About";
+"Text.CopyLabel_Bio" = "Copy Bio";
+"Text.CopyLabel_PhoneNumber" = "Copy Phone Number";
+"Text.CopyLabel_Username" = "Copy Username";
+"Text.CopyLabel_ShareLink" = "Copy Share Link";
 
 "Peer.Activity.User.PlayingGame" = "playing a game";
 "Peer.Activity.User.TypingText" = "typing";
@@ -908,8 +914,9 @@
 "Admins.Owner" = "Owner";
 
 
-"Telegram.ChannelVisibilityController" = "Channel";
+"Telegram.ChannelVisibilityController.Channel" = "Channel";
 
+"Telegram.ChannelVisibilityController.Group" = "Group";
 
 "PeerInfo.Confirm.AddMembers1_countable" = "%d";
 "PeerInfo.Confirm.AddMembers1_zero" = "Add %d users to the group?";
@@ -1209,6 +1216,9 @@
 "StorageUsage.KeepMedia.Description" = "Photos, videos and other files from cloud chats that you have **not accessed** during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.";
 "StorageUsage.ChatsHeader" = "CHATS";
 "StorageUsage.Calculating" = "Telegram is calculating the current cache size.\nThis can take a few minutes.";
+
+"StorageUsage.CleaningProcess" = "Your local cache is being cleared...";
+
 "App.MaxFileSize1" = "Maximum file size is 2 GB";
 "Message.Context.SaveGif" = "Add GIF";
 "Message.Context.RemoveGif" = "Remove GIF";
@@ -1381,7 +1391,7 @@
 
 "Payments.Unsupported" = "Sorry, Telegram for macOS doesn't support payments yet. Please use one of our mobile apps to do this.";
 
-"Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
+"Chat.Service.PaymentSent1" = "You have successfully transferred **%1$@** to **%2$@** for **%3$@**";
 "Chat.List.Service.PaymentSent" = "Payment: %@";
 
 "Telegram.LanguageViewController" = "Language";
@@ -1542,12 +1552,12 @@
 
 "Channel.EventLog.Service.DisabledSlowMode" = "%@ disabled slow mode";
 
-"Channel.EventLog.Service.SetSlowMode" = "%@ set slow mode to %@";
+"Channel.EventLog.Service.SetSlowMode1" = "%1$@ set slow mode timer to %2$@";
 
 "Channel.EventLog.Service.PlusTitle" = "+ Title: %@";
 "Channel.EventLog.Service.MinusTitle" = "- Title";
 
-"Channel.EventLog.MessageTransferedName" = "transferred ownership to %@ %@";
+"Channel.EventLog.MessageTransferedName1" = "transferred ownership to %1$@ %2$@";
 "Channel.EventLog.MessageTransfered" = "transferred ownership";
 
 
@@ -1583,14 +1593,14 @@
 "EventLog.Service.ChangedDefaultsRights" = "changed default permissions";
 
 
-"EventLog.Service.Promoted.Changed" = "changed privileges for %@ %@:";
-"EventLog.Service.Promoted" = "promoted %@ %@:";
+"EventLog.Service.Promoted.Changed1" = "changed privileges for %1$@ %2$@:";
+"EventLog.Service.Promoted1" = "promoted %1$@ %2$@:";
 
-"EventLog.Service.Demoted" = "restricted %@ %@ indefinitely";
-"EventLog.Service.Demoted.Until" = "restricted %@ %@ until %@";
-"EventLog.Service.Demoted.Changed" = "changed the restrictions for %@ %@ indefinitely";
-"EventLog.Service.Demoted.Changed.Until" = "changed restrictions for %@ %@ until %@";
-"EventLog.Service.Banned" = "Banned %@ %@";
+"EventLog.Service.Demoted1" = "restricted %1$@ %2$@ indefinitely";
+"EventLog.Service.Demoted.Until1" = "restricted %1$@ %2$@ until %3$@";
+"EventLog.Service.Demoted.Changed1" = "changed the restrictions for %1$@ %2$@ indefinitely";
+"EventLog.Service.Demoted.Changed.Until1" = "changed restrictions for %1$@ %2$@ until %3$@";
+"EventLog.Service.Banned1" = "Banned %1$@ %2$@";
 
 "EventLog.Service.DeletedMessage" = "%@ deleted message:";
 "EventLog.Service.EditedMessage" = "%@ edited message:";
@@ -2035,7 +2045,7 @@
 "Peer.CreatePeer.Context.UpdatePhoto" = "Update photo";
 "Peer.CreatePeer.Context.RemovePhoto" = "Remove photo";
 
-"Chat.Webpage.MediaCount" = "%d of %d";
+"Chat.Webpage.MediaCount1" = "%1$d of %2$d";
 
 "Passcode.UseTouchId" = "Unlock with Touch ID";
 "Passcode.UnlockTouchIdReason" = "unlock itself";
@@ -2901,7 +2911,7 @@
 
 
 "ApplyLanguage.ChangeLanguageTitle" = "Change Language?";
-"ApplyLanguage.ChangeLanguageUnofficialText" = "You are about to apply a custom language pack **%@** that is %@% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
+"ApplyLanguage.ChangeLanguageUnofficialText1" = "You are about to apply a custom language pack **%1$@** that is %2$@%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageOfficialText" = "You are about to apply a language pack **%@**.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageAction" = "Change";
 "ApplyLanguage.ApplyLanguageAction" = "Change";
@@ -4493,6 +4503,7 @@
 "Chat.UnpinAllMessagesConfirmation_other" = "Do you want to unpin all %d messages in this chat?";
 
 
+
 /* new from translations.telegram.org */
 
 "Admins.Creator" = "Creator";
@@ -4501,14 +4512,18 @@
 "AppearanceSettings.ColorTheme.day_classic" = "Day Classic";
 "AppearanceSettings.ColorTheme.mojave" = "Dark Mojave";
 "AppearanceSettings.ColorTheme.night_blue" = "Night Blue";
+"ApplyLanguage.ChangeLanguageUnofficialText" = "You are about to apply a custom language pack **%@** that is %@% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "CallSettings.MuteSound" = "Mute other sounds during calls";
 "CallSettings.OpenSystemPreferences" = "Open system preferences";
 "CallSettings.OtherSettings.Title" = "OTHER SETTINGS";
 "CallSettings.Output.Text" = "Output device";
 "CallSettings.Output.Title" = "SOUND";
 "Channel.EditAdmin.Permission.InviteUsers" = "Invite Users";
+"Channel.EventLog.MessageTransferedName" = "transferred ownership to %@ %@";
+"Channel.EventLog.Service.SetSlowMode" = "%@ set slow mode to %@";
 "ChannelBlacklist.AddMember" = "Add Member";
 "Chat.Confirm.DeleteMessages" = "Delete selected messages?";
+"Chat.Confirm.DeleteMessages_countable" = "%d";
 "Chat.Dice.Result" = "Send a 🎲 emoji to any chat to get a random number from Telegram.";
 "Chat.Dice.ResultNew" = "Send a %@ emoji to any chat to get a random number from Telegram.";
 "Chat.Input.SecretChat.WaitingToOnline" = "Waiting for the other user to come online...";
@@ -4527,12 +4542,20 @@
 "Chat.Service.Group.RemovedMembers" = "%@ removed %@";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
 "Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
+"Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
+"Chat.Webpage.MediaCount" = "%d of %d";
 "ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
 "Discussion.Set.Modal.Text.Public" = "Do you want to make **%@** the discussion board for **%@**?";
 "DiscussionController.Channel.Empty.Header" = "Select a group chat for discussion that will be displayed in your channel.";
 "DiscussionController.Channel.Set.Header" = "A link to **%@** is shown to all subscribers in the bottom panel.";
-"Gallery.Counter" = "%d of %d";
+"EventLog.Service.Banned" = "Banned %@ %@";
+"EventLog.Service.Demoted" = "restricted %@ %@ indefinitely";
+"EventLog.Service.Demoted.Changed" = "changed the restrictions for %@ %@ indefinitely";
+"EventLog.Service.Demoted.Changed.Until" = "changed restrictions for %@ %@ until %@";
+"EventLog.Service.Demoted.Until" = "restricted %@ %@ until %@";
+"EventLog.Service.Promoted" = "promoted %@ %@:";
+"EventLog.Service.Promoted.Changed" = "changed privileges for %@ %@:";
 "GalleryView.FastSave.Gif" = "GIF saved to your [Download]() folder";
 "GalleryView.FastSave.Image" = "Image saved to your [Download]() folder";
 "GalleryView.FastSave.Video" = "Video saved to your [Download]() folder";
@@ -4547,6 +4570,8 @@
 "PeerInfo.SetAdmins" = "Set Admins";
 "PeerInfo.Statistics" = "Statistics";
 "SettingsSearch.Synonyms.Stickers.Masks" = " ";
+"Telegram.ChannelVisibilityController" = "Channel";
+"Text.CopyLabel" = "Copy %@";
 "TwoStepAuth.ConfirmationText" = "Please check your email and click on the validation link to complete Two-Step Verification setup. Be sure to check the spam folder as well.";
 "TwoStepAuth.RecoveryEmailUnavailable" = "Having trouble accessing your email %@?";
 "TwoStepAuth.SetupHint" = "Please create a hint for your password";
