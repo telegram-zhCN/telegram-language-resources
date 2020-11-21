@@ -1202,7 +1202,7 @@
     <string name="NotificationActionPinnedContactUser">%1$s pinned a contact %2$s</string>
     <string name="NotificationActionPinnedGeoUser">%1$s 置顶了地图</string>
     <string name="NotificationActionPinnedGeoLiveUser">%1$s 置顶了实时位置</string>
-    <string name="NotificationActionPinnedGifUser">%1$s pinned a GIF</string>
+    <string name="NotificationActionPinnedGifUser">%1$s 置顶了一张GIF图像</string>
     <string name="NotificationActionPinnedMusicUser">%1$s pinned an audio file</string>
     <string name="SecretChatName">Telegram</string>
     <!--contacts view-->
@@ -2382,7 +2382,7 @@
     <string name="SharingYouAndOtherName">你和 %1$s</string>
     <string name="AttachLiveLocationIsSharing">%1$s 正在与 %2$s 共享</string>
     <string name="AttachLiveLocationIsSharingChat">与 %2$s 共享 %1$s</string>
-    <string name="AttachLiveLocationIsSharingChats">%1$s sharing with %2$s</string>
+    <string name="AttachLiveLocationIsSharingChats">与 %2$s 共享 %1$s</string>
     <string name="StopAllLocationSharings">全部停止</string>
     <string name="SharingLiveLocationTitle">您正在与 %1$s 共享您的实时位置</string>
     <string name="LiveLocationAlertPrivate">选择 %1$s 在多长时间内可看到你的精确位置。</string>
@@ -2414,7 +2414,7 @@
     <string name="LocationNotifiation">接近通知</string>
     <string name="LocationNotifiationButtonUser">Notify when %1$s is within %2$s</string>
     <string name="LocationNotifiationButtonGroup">Notify when someone is within %1$s</string>
-    <string name="LocationNotifiationCloser">You are already closer than %1$s</string>
+    <string name="LocationNotifiationCloser">您已经进入了%1$s以内</string>
     <string name="ShareLocationAlertTitle">共享位置</string>
     <string name="ShareLocationAlertButton">共享</string>
     <string name="ShareLocationAlertText">For the alert to work, please share your live location in this chat.</string>
@@ -2534,7 +2534,7 @@
     <string name="PhotoSavedToDownloadsHint">图片已保存到「下載」\n7/17</string>
     <string name="VideoSavedToDownloadsHint">Video saved to downloads</string>
     <string name="GifSavedToDownloadsHint">GIF saved to downloads</string>
-    <string name="AudioSavedHint">File saved to music</string>
+    <string name="AudioSavedHint">文件保存至音乐</string>
     <string name="FileSavedHint">File saved to downloads</string>
     <string name="FilesSavedHint_zero">%1$d files saved to downloads</string>
     <string name="FilesSavedHint_one">File saved to downloads</string>
@@ -3345,12 +3345,12 @@
     <string name="NewMessages_few">%1$d 条新消息</string>
     <string name="NewMessages_many">%1$d 条新消息</string>
     <string name="NewMessages_other">%1$d 条新消息</string>
-    <string name="MessagesUnpinned_zero">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_one">message unpinned</string>
-    <string name="MessagesUnpinned_two">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_few">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_many">%1$d messages unpinned</string>
-    <string name="MessagesUnpinned_other">%1$d messages unpinned</string>
+    <string name="MessagesUnpinned_zero">%1$d 条消息取消置顶</string>
+    <string name="MessagesUnpinned_one">%1$d 条消息取消置顶</string>
+    <string name="MessagesUnpinned_two">%1$d 条消息取消置顶</string>
+    <string name="MessagesUnpinned_few">%1$d 条消息取消置顶</string>
+    <string name="MessagesUnpinned_many">%1$d 条消息取消置顶</string>
+    <string name="MessagesUnpinned_other">%1$d 条消息取消置顶</string>
     <string name="messages_zero">%1$d 条消息</string>
     <string name="messages_one">%1$d 条消息</string>
     <string name="messages_two">%1$d 条消息</string>
