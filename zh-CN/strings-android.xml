@@ -1069,7 +1069,7 @@
     <string name="UnpinAllMessages">取消所有消息置顶</string>
     <string name="HidePinnedMessages">隐藏置顶消息</string>
     <string name="PinnedMessagesHidden">置顶消息已隐藏</string>
-    <string name="PinnedMessagesHiddenInfo">Pinned messages will be shown again if a new message is pinned.</string>
+    <string name="PinnedMessagesHiddenInfo">当新消息被置顶时，所以置顶消息会再次出现。</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s 已将阅后即焚计时器设定为 %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">您已将阅后即焚计时器设定为 %1$s</string>
@@ -2417,7 +2417,7 @@
     <string name="LocationNotifiationCloser">您已经进入了%1$s以内</string>
     <string name="ShareLocationAlertTitle">共享位置</string>
     <string name="ShareLocationAlertButton">共享</string>
-    <string name="ShareLocationAlertText">For the alert to work, please share your live location in this chat.</string>
+    <string name="ShareLocationAlertText">请在对话中共享实时位置以保证通知生效。</string>
     <string name="ProximityTooltioUser">Alert when %1$s is close</string>
     <string name="ProximityTooltioGroup">Alert when other members of the group are close</string>
     <string name="ProximityAlertSet">Proximity alert set</string>
