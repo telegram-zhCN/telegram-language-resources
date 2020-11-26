@@ -903,7 +903,7 @@
     <string name="UnpinMessage">取消置顶</string>
     <string name="PinMessageAlertTitle">置顶消息</string>
     <string name="UnpinMessageAlertTitle">取消置顶消息</string>
-    <string name="PinOldMessageAlert">Do you want to pin an older message while leaving a more recent one pinned?</string>
+    <string name="PinOldMessageAlert">您想置顶一条较旧的消息，并同时保留一则最新的消息吗？</string>
     <string name="PinMessageAlert">您确定要在群组中置顶此消息？</string>
     <string name="PinMessageAlertChannel">您确定要在频道中置顶此消息？</string>
     <string name="PinMessageAlertChat">您确定要在对话中置顶此消息？</string>
