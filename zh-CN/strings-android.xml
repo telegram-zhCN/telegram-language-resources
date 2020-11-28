@@ -231,9 +231,9 @@
     <string name="OpenGroup2">打开群组</string>
     <string name="SendMessage">发送消息</string>
     <string name="Mention">提及</string>
-    <string name="NotificationsMutedHint">Notifications muted</string>
+    <string name="NotificationsMutedHint">通知静音</string>
     <string name="NotificationsMutedForHint">Notifications muted for %1$s</string>
-    <string name="NotificationsUnmutedHint">Notifications unmuted</string>
+    <string name="NotificationsUnmutedHint">通知取消静音</string>
     <string name="MessagesDeletedHint_zero">%1$d 消息已删除</string>
     <string name="MessagesDeletedHint_one">%1$d 消息已删除</string>
     <string name="MessagesDeletedHint_two">%1$d 消息已删除</string>
@@ -1186,7 +1186,7 @@
     <string name="NotificationActionPinnedGifChannel">%1$s 置顶了一张 GIF</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了一首音乐</string>
     <string name="NotificationActionPinnedTextUser">%1$s 置顶了 %2$s</string>
-    <string name="NotificationActionPinnedNoTextUser">%1$s pinned a message</string>
+    <string name="NotificationActionPinnedNoTextUser">%1$s 置顶了消息</string>
     <string name="NotificationActionPinnedPollUser">%1$s 置顶了投票 %2$s</string>
     <string name="NotificationActionPinnedQuizUser">%1$s 置顶了问卷 %2$s</string>
     <string name="NotificationActionPinnedPhotoUser">%1$s 置顶了照片</string>
@@ -1194,7 +1194,7 @@
     <string name="NotificationActionPinnedGameScoreUser">%1$s pinned a game score</string>
     <string name="NotificationActionPinnedVideoUser">%1$s 置顶了视频</string>
     <string name="NotificationActionPinnedFileUser">%1$s 置顶了文件</string>
-    <string name="NotificationActionPinnedInvoiceUser">%1$s pinned an invoice</string>
+    <string name="NotificationActionPinnedInvoiceUser">%1$s 置顶了发票</string>
     <string name="NotificationActionPinnedStickerUser">%1$s 置顶了贴纸</string>
     <string name="NotificationActionPinnedStickerEmojiUser">%1$s 置顶了 %2$s 张贴纸</string>
     <string name="NotificationActionPinnedVoiceUser">%1$s 置顶了音频消息</string>
@@ -2342,12 +2342,12 @@
     <string name="KMetersAway2">%1$s 千米远</string>
     <string name="FootsAway">%1$s 英尺远</string>
     <string name="MilesAway">%1$s 英里远</string>
-    <string name="FootsShort">%1$s ft</string>
-    <string name="MilesShort">%1$s mi</string>
+    <string name="FootsShort">%1$s 英尺</string>
+    <string name="MilesShort">%1$s 英里</string>
     <string name="Mi">英里</string>
     <string name="Km">公里</string>
-    <string name="MetersShort">%1$s m</string>
-    <string name="KMetersShort">%1$s km</string>
+    <string name="MetersShort">%1$s 米</string>
+    <string name="KMetersShort">%1$s 公里</string>
     <string name="MetersFromYou2">距离您约 %1$s 米</string>
     <string name="KMetersFromYou2">距离您约 %1$s 公里</string>
     <string name="FootsFromYou">距离您约 %1$s 英尺</string>
@@ -2533,9 +2533,9 @@
     <string name="VideoSavedHint">视频已存到相册里</string>
     <string name="PhotoSavedToDownloadsHint">图片已保存到「下載」\n7/17</string>
     <string name="VideoSavedToDownloadsHint">Video saved to downloads</string>
-    <string name="GifSavedToDownloadsHint">GIF saved to downloads</string>
+    <string name="GifSavedToDownloadsHint">GIF 保存至[下载]</string>
     <string name="AudioSavedHint">文件保存至音乐</string>
-    <string name="FileSavedHint">File saved to downloads</string>
+    <string name="FileSavedHint">文件保存至下载</string>
     <string name="FilesSavedHint_zero">%1$d files saved to downloads</string>
     <string name="FilesSavedHint_one">File saved to downloads</string>
     <string name="FilesSavedHint_two">%1$d files saved to downloads</string>
@@ -2849,7 +2849,7 @@
     <string name="ActionAddUserSelf">un1 返回了此群组</string>
     <string name="ActionAddUserSelfMega">un1 加入了这个群组</string>
     <string name="ActionAddUserSelfYou">您返回了此群组</string>
-    <string name="ActionUserWithinRadius">un1 is now within %1$s from you</string>
+    <string name="ActionUserWithinRadius">un1 离你 %1$s</string>
     <string name="ActionUserWithinYouRadius">You are now within %1$s from un1</string>
     <string name="ActionUserWithinOtherRadius">un1 is now within %1$s from un2</string>
     <string name="ActionBotAllowed">您允许了此机器人在您登录 %1$s 时向您发送消息。</string>
@@ -3109,7 +3109,7 @@
     <string name="PrivateShares">私密分享</string>
     <string name="ViewStats">查看数据统计</string>
     <string name="ViewChannelStats">查看频道数据</string>
-    <string name="ViewMessageStatistic">Message Statistics</string>
+    <string name="ViewMessageStatistic">消息数据分析</string>
     <string name="ViewMessage">打开消息</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
@@ -3239,7 +3239,7 @@
     <string name="DeclineCall">拒绝</string>
     <string name="RetryCall">重拨</string>
     <string name="VoipVideoUnavailable">视频</string>
-    <string name="CallAlert">Are you sure you want to call **%1$s**?</string>
+    <string name="CallAlert">你确定要与 %1$s 进行通话吗？</string>
     <string name="CallAlertTitle">语音通话</string>
     <string name="VideoCallAlert">Are you sure you want to video call **%1$s**?</string>
     <string name="VideoCallAlertTitle">视频通话</string>
@@ -3507,12 +3507,12 @@
     <string name="Shares_few">%1$s 次分享</string>
     <string name="Shares_many">%1$s 次分享</string>
     <string name="Shares_other">%1$s 次分享</string>
-    <string name="PublicSharesCount_zero">%1$s public shares</string>
-    <string name="PublicSharesCount_one">%1$s public share</string>
-    <string name="PublicSharesCount_two">%1$s public shares</string>
-    <string name="PublicSharesCount_few">%1$s public shares</string>
-    <string name="PublicSharesCount_many">%1$s public shares</string>
-    <string name="PublicSharesCount_other">%1$s public shares</string>
+    <string name="PublicSharesCount_zero">%1$s 公共分享</string>
+    <string name="PublicSharesCount_one">%1$s 公共分享</string>
+    <string name="PublicSharesCount_two">%1$s 公共分享</string>
+    <string name="PublicSharesCount_few">%1$s 公共分享</string>
+    <string name="PublicSharesCount_many">%1$s 公共分享</string>
+    <string name="PublicSharesCount_other">%1$s 公共分享</string>
     <string name="Shared_zero">%1$s 次分享</string>
     <string name="Shared_one">%1$s 次分享</string>
     <string name="Shared_two">%1$s 次分享</string>
