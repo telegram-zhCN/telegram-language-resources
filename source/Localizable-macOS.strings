@@ -594,7 +594,7 @@
 
 "Channel.RevokeLink" = "Revoke Link";
 "Channel.RevokeLink.Confirm.Header" = "Revoke Link";
-"Channel.RevokeLink.Confirm.Text" = "Are you sure you want to revoke this link? Once you do, no one will be able to join the group using it.";
+"Channel.RevokeLink.Confirm.Text" = "Are you sure you want to revoke this link? Once this is done, nobody will be able to use it to join the group.";
 "Channel.RevokeLink.Confirm.OK" = "Revoke";
 
 "Channel.PrivateAboutChannel" = "Private channels can only be joined via an invite link.";
@@ -1217,7 +1217,7 @@
 "StorageUsage.ChatsHeader" = "CHATS";
 "StorageUsage.Calculating" = "Telegram is calculating the current cache size.\nThis can take a few minutes.";
 
-"StorageUsage.CleaningProcess" = "Your local cache is being cleared...";
+"StorageUsage.CleaningProcess" = "Freeing up space by clearing your local cache...";
 
 "App.MaxFileSize1" = "Maximum file size is 2 GB";
 "Message.Context.SaveGif" = "Add GIF";
@@ -1552,7 +1552,7 @@
 
 "Channel.EventLog.Service.DisabledSlowMode" = "%@ disabled slow mode";
 
-"Channel.EventLog.Service.SetSlowMode1" = "%1$@ set slow mode timer to %2$@";
+"Channel.EventLog.Service.SetSlowMode1" = "%1$@ set the slow mode timer to %2$@";
 
 "Channel.EventLog.Service.PlusTitle" = "+ Title: %@";
 "Channel.EventLog.Service.MinusTitle" = "- Title";
@@ -4492,11 +4492,11 @@
 "Chat.Pinned.DontShow" = "Don't Show Pinned Messages";
 
 
-"Chat.File.QuickLook.Svg" = "Previewing this file can potentially expose your IP address to its sender.";
+"Chat.File.QuickLook.Svg" = "Previewing this file can potentially expose your IP address to its creator.";
 
 "Chat.UnpinAllMessagesConfirmation_countable" = "%d";
 "Chat.UnpinAllMessagesConfirmation_zero" = "Do you want to unpin all %d messages in this chat?";
-"Chat.UnpinAllMessagesConfirmation_one" = "Do you want to unpin all %d message in this chat?";
+"Chat.UnpinAllMessagesConfirmation_one" = "Do you want to unpin %d message in this chat?";
 "Chat.UnpinAllMessagesConfirmation_two" = "Do you want to unpin all %d messages in this chat?";
 "Chat.UnpinAllMessagesConfirmation_few" = "Do you want to unpin all %d messages in this chat?";
 "Chat.UnpinAllMessagesConfirmation_many" = "Do you want to unpin all %d messages in this chat?";

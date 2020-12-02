@@ -1975,6 +1975,7 @@
 "Conversation.PinMessageAlertGroup" = "置顶此消息并通知所有成员？";
 "Conversation.PinMessageAlert.OnlyPin" = "仅置顶";
 
+
 "Conversation.UnpinMessageAlert" = "您确定要取消置顶此消息吗？";
 
 "Settings.About.Title" = "个人简介";
@@ -2281,6 +2282,19 @@ Unused sets are archived when you add more.";
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 "Call.ShortSeconds_any" = "%@ 秒";
 
 
@@ -2479,6 +2493,9 @@ Unused sets are archived when you add more.";
 "Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
 "Call.ExternalCallInProgressMessage" = "请先结束当前的通话。";
 
+
+
+
 "Call.Message" = "输入消息";
 
 "UserInfo.TapToCall" = "点击进行端到端加密的通话";
@@ -2611,6 +2628,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLog.CanAddAdmins" = "添加新管理员";
 
 "Channel.AdminLog.CanEditMessages" = "编辑其他人的消息";
+
 
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ 启用了邀请权限";
 "Channel.AdminLog.MessageToggleInvitesOff" = "%@ 禁用了邀请权限";
@@ -5741,6 +5759,83 @@ Sorry for the inconvenience.";
 "Call.AudioRouteMute" = "关闭麦克风";
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

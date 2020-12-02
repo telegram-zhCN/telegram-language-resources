@@ -178,7 +178,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_pinned_unpin_all#one" = "Unpin {count} message";
 "lng_pinned_unpin_all#other" = "Unpin all {count} messages";
 "lng_pinned_unpin_all_sure" = "Do you want to unpin all messages?";
-"lng_pinned_hide_all_sure" = "Do you want to hide the pinned messages bar? It will stay hidden until a new message is pinned.";
+"lng_pinned_hide_all_sure" = "Do you want to hide the pinned message bar? It will stay hidden until a new message is pinned.";
 "lng_pinned_hide_all_hide" = "Hide";
 
 "lng_edit_media_album_error" = "This file cannot be saved as a part of an album.";
@@ -2289,7 +2289,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_language_not_ready_link" = "translation platform";
 
 "lng_launch_exe_warning" = "This file has the extension {extension}\nIt may harm your computer.\nAre you sure you want to run it?";
-"lng_launch_svg_warning" = "Opening this file can potentially expose your IP address to its sender. Continue?";
+"lng_launch_svg_warning" = "Opening this file can potentially expose your IP address to its creator. Continue?";
 "lng_launch_exe_sure" = "Run";
 "lng_launch_exe_dont_ask" = "Don't ask me again";
 
