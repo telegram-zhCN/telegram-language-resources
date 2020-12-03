@@ -21,7 +21,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_disable_notifications_from_tray" = "Disable notifications";
 "lng_enable_notifications_from_tray" = "Enable notifications";
 "lng_open_from_tray" = "Open Telegram";
-"lng_minimize_to_tray" = "Minimize to tray";
+"lng_minimize_to_tray" = "Minimize to Tray";
 "lng_quit_from_tray" = "Quit Telegram";
 "lng_tray_icon_text" = "Telegram is still running here,\nyou can change this from settings page.\nIf this icon disappears from tray menu,\nyou can drag it here from hidden icons.";
 
@@ -128,8 +128,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_scam_badge" = "SCAM";
 
 "lng_flood_error" = "Too many tries. Please try again later.";
-"lng_gif_error" = "An error has occurred while reading GIF animation :(";
-"lng_edit_error" = "You cannot edit this message";
+"lng_gif_error" = "An error occurred while reading GIF";
+"lng_edit_error" = "You can't edit this message.";
 "lng_join_channel_error" = "Sorry, you have joined too many channels and supergroups. Please leave some before joining this one.";
 "lng_migrate_error" = "This action will convert the group to a supergroup. Unfortunately, you are a member of too many supergroups and channels. Please leave some of the channels or groups you don't need before proceeding.";
 "lng_error_phone_flood" = "Sorry, you have deleted and re-created your account too many times recently. Please wait for a few days before signing up again.";
@@ -258,8 +258,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signup_title" = "Your Info";
 "lng_signup_desc" = "Please enter your name and\nupload a photo.";
 
-"lng_signup_firstname" = "First Name";
-"lng_signup_lastname" = "Last Name";
+"lng_signup_firstname" = "First name";
+"lng_signup_lastname" = "Last name";
 
 "lng_dlg_filter" = "Search";
 "lng_dlg_new_group_name" = "Group name";
@@ -294,7 +294,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_username_link" = "This link opens a chat with you:";
 "lng_username_copied" = "Link copied to clipboard.";
 
-"lng_bio_title" = "Edit your bio";
+"lng_bio_title" = "Edit Your Bio";
 "lng_bio_placeholder" = "Bio";
 "lng_bio_about" = "You can add a few lines about yourself. Anyone who opens your profile will see this text.";
 
@@ -481,7 +481,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_background_header" = "Background preview";
 "lng_background_text1" = "Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!";
 "lng_background_text2" = "I can't even take you seriously right now.";
-"lng_background_bad_link" = "This background link appears to be invalid.";
+"lng_background_bad_link" = "Invalid background link.";
 "lng_background_apply" = "Apply";
 "lng_background_share" = "Share";
 "lng_background_link_copied" = "Link copied to clipboard";
@@ -501,7 +501,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_clear_downloads" = "Do you want to remove all downloaded files from temp folder? It is done automatically on logout or program uninstall.";
 "lng_download_path_failed" = "File download could not be started.\n\nThis might be because the download location you've selected is invalid. Try changing it in Settings > Advanced > Download Path.";
 "lng_download_path_settings" = "Settings";
-"lng_download_finish_failed" = "File download could not be finished.\n\nWould you like to try again?";
+"lng_download_finish_failed" = "File download could not be completed.\n\nWould you like to try again?";
 "lng_download_path_clearing" = "Clearing...";
 "lng_download_path_cleared" = "Cleared!";
 
@@ -676,7 +676,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_unblock" = "Unblock";
 "lng_blocked_list_add" = "Block user";
 "lng_blocked_list_add_title" = "Select user to block";
-"lng_blocked_list_already_blocked" = "blocked already";
+"lng_blocked_list_already_blocked" = "already blocked";
 "lng_blocked_list_about" = "Blocked users can't send you messages or add you to groups. They will not see your profile pictures, online and last seen status.";
 "lng_blocked_list_not_found" = "No users found.";
 "lng_blocked_list_confirm_title" = "Block {name}";
@@ -755,13 +755,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_forwards_sample_contacts" = "Link if allowed by settings below.";
 "lng_edit_privacy_forwards_sample_nobody" = "Not a link to your account.";
 
-"lng_edit_privacy_profile_photo_title" = "Profile photo privacy";
+"lng_edit_privacy_profile_photo_title" = "Profile Photo";
 "lng_edit_privacy_profile_photo_header" = "Who can see my profile photo";
 "lng_edit_privacy_profile_photo_always_empty" = "Always allow";
 "lng_edit_privacy_profile_photo_never_empty" = "Never allow";
 "lng_edit_privacy_profile_photo_exceptions" = "These settings will override the values above.";
-"lng_edit_privacy_profile_photo_always_title" = "Always allow";
-"lng_edit_privacy_profile_photo_never_title" = "Never allow";
+"lng_edit_privacy_profile_photo_always_title" = "Always Allow";
+"lng_edit_privacy_profile_photo_never_title" = "Never Allow";
 
 "lng_self_destruct_title" = "Account self-destruction";
 "lng_self_destruct_description" = "If you don't come online at least once within this period, your account will be deleted along with all groups, messages and contacts.";
@@ -970,7 +970,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_history_visibility_hidden_legacy" = "New members won't see more than 100 previous messages.";
 
 "lng_report_title" = "Report channel";
-"lng_report_group_title" = "Report group";
+"lng_report_group_title" = "Report Group";
 "lng_report_bot_title" = "Report bot";
 "lng_report_message_title" = "Report message";
 "lng_report_reason_spam" = "Spam";
@@ -1020,7 +1020,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_private_group_about" = "People can only join if they are added or have an invite link";
 "lng_create_permanent_link_title" = "Permanent link";
 "lng_create_invite_link_title" = "Invite link";
-"lng_create_invite_link_about" = "People can join if they are added, have an invite link, or from \"Groups nearby\"";
+"lng_create_invite_link_about" = "People can be added, or join via invite link or \"Groups nearby\"";
 
 "lng_create_group_skip" = "Skip";
 
@@ -1104,7 +1104,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_game_you_scored_no_game#one" = "You scored {count}";
 "lng_action_game_you_scored_no_game#other" = "You scored {count}";
 "lng_action_payment_done" = "You have just successfully transferred {amount} to {user}";
-"lng_action_payment_done_for" = "You have just successfully transferred {amount} to {user} for {invoice}";
+"lng_action_payment_done_for" = "You successfully transferred {amount} to {user} for {invoice}";
 "lng_action_took_screenshot" = "{from} took a screenshot!";
 "lng_action_you_took_screenshot" = "You took a screenshot!";
 "lng_action_bot_allowed_from_domain" = "You allowed this bot to message you when you logged in on {domain}.";
@@ -1184,7 +1184,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signed_author" = "Author: {user}";
 "lng_in_reply_to" = "In reply to";
 "lng_edited" = "edited";
-"lng_edited_date" = "Edited: {date}";
+"lng_edited_date" = "edited: {date}";
 "lng_admin_badge" = "admin";
 "lng_owner_badge" = "owner";
 "lng_channel_badge" = "channel";
@@ -1220,7 +1220,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_animation_title" = "GIFs";
 "lng_media_size_limit" = "Limit by size";
 "lng_media_size_up_to" = "up to {size}";
-"lng_media_chat_background" = "Chat background";
+"lng_media_chat_background" = "Chat Background";
 "lng_media_color_theme" = "Color theme";
 
 "lng_emoji_category1" = "People";
@@ -1271,14 +1271,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_stickers_add_pack" = "Add stickers";
 "lng_stickers_share_pack" = "Share Stickers";
 "lng_stickers_not_found" = "Sticker pack not found.";
-"lng_stickers_packs_archived" = "Some of your unused stickers have been archived to make room for the sets you've activated.";
-"lng_stickers_copied" = "Sticker pack link copied to clipboard.";
+"lng_stickers_packs_archived" = "Some of your unused stickers were archived to make room for the sets you activated.";
+"lng_stickers_copied" = "Link copied to clipboard.";
 "lng_stickers_default_set" = "Great Minds";
 "lng_stickers_you_have" = "Manage sticker sets";
 "lng_stickers_return" = "Undo";
 "lng_stickers_count#one" = "{count} sticker";
 "lng_stickers_count#other" = "{count} stickers";
-"lng_stickers_masks_pack" = "This is a pack of mask stickers. You can use them in the photo editor on our mobile apps.";
+"lng_stickers_masks_pack" = "This is a set of masks. Masks are only supported by mobile versions of Telegram.";
 "lng_stickers_attached_sets" = "Sets of attached stickers";
 "lng_stickers_group_set" = "Group sticker set";
 "lng_stickers_remove_group_set" = "Remove group sticker set?";
@@ -1304,18 +1304,18 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_delete_all_from" = "Delete all from this user";
 "lng_report_spam" = "Report Spam";
 "lng_report_spam_and_leave" = "Report spam and leave";
-"lng_report_spam_done" = "Thank you for your report.";
+"lng_report_spam_done" = "Thank you for your report";
 "lng_report_spam_sure_group" = "Are you sure you want to report spam in this group?";
 "lng_report_spam_sure_channel" = "Are you sure you want to report spam in this channel?";
 "lng_report_spam_ok" = "Report";
 "lng_new_contact_block" = "Block user";
-"lng_new_contact_block_done" = "{user} is now blocked.";
+"lng_new_contact_block_done" = "{user} is now blocked";
 "lng_new_contact_add" = "Add contact";
 "lng_new_contact_share" = "Share my phone number";
 "lng_new_contact_share_sure" = "Do you want to share your phone number {phone} with {user}?";
 "lng_new_contact_share_done" = "{user} can now see your phone number.";
 "lng_new_contact_add_name" = "Add {user} to contacts";
-"lng_new_contact_add_done" = "{user} is now in your contact list.";
+"lng_new_contact_add_done" = "{user} is now in your contacts";
 "lng_new_contact_unarchive" = "Unarchive";
 "lng_cant_send_to_not_contact" = "Sorry, you can only send messages to\nmutual contacts at the moment.\n{more_info}";
 "lng_cant_invite_not_contact" = "Sorry, you can only add mutual contacts\nto groups at the moment.\n{more_info}";
@@ -1343,7 +1343,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_record_cancel" = "Release outside this field to cancel";
 "lng_will_be_notified" = "Subscribers will be notified when you post";
 "lng_wont_be_notified" = "Subscribers will receive a silent notification";
-"lng_willbe_history" = "Please select a chat to start messaging";
+"lng_willbe_history" = "Select a chat to start messaging";
 "lng_from_you" = "You";
 "lng_from_draft" = "Draft";
 "lng_bot_description" = "What can this bot do?";
@@ -1384,7 +1384,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_archived_name" = "Archived chats";
 "lng_archived_add" = "Archive chat";
 "lng_archived_remove" = "Unarchive chat";
-"lng_archived_added" = "Chat archived.\nMuted chats will stay archived after new messages arrive.";
+"lng_archived_added" = "Chat archived.\nMuted chats stay archived when new messages arrive.";
 "lng_archived_removed" = "Chat restored from your archive.";
 "lng_archived_last_list" = "{accumulated}, {chat}";
 "lng_archived_last#one" = "{chats} and {count} more chat";
@@ -1448,23 +1448,23 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_user_action_upload_photo" = "{user} is sending a photo";
 "lng_send_action_upload_file" = "sending a file";
 "lng_user_action_upload_file" = "{user} is sending a file";
-"lng_unread_bar#one" = "{count} unread message";
-"lng_unread_bar#other" = "{count} unread messages";
+"lng_unread_bar#one" = "{count} Unread Message";
+"lng_unread_bar#other" = "{count} Unread Messages";
 "lng_unread_bar_some" = "Unread messages";
 
 "lng_maps_point" = "Location";
-"lng_save_photo" = "Save image";
-"lng_save_video" = "Save video";
-"lng_save_audio_file" = "Save audio file";
+"lng_save_photo" = "Save Image";
+"lng_save_video" = "Save Video";
+"lng_save_audio_file" = "Save Audio File";
 "lng_save_audio" = "Save voice message";
-"lng_save_file" = "Save file";
+"lng_save_file" = "Save File";
 "lng_save_downloaded" = "{ready} / {total} {mb}";
 "lng_duration_and_size" = "{duration}, {size}";
 "lng_duration_played" = "{played} / {duration}";
 "lng_date_and_duration" = "{date}, {duration}";
 "lng_choose_image" = "Choose an image";
 "lng_choose_file" = "Choose a file";
-"lng_choose_files" = "Choose files";
+"lng_choose_files" = "Choose Files";
 "lng_game_tag" = "Game";
 
 "lng_context_view_profile" = "View profile";
@@ -1530,7 +1530,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_send_now_selected" = "Send selected now";
 "lng_context_delete_selected" = "Delete Selected";
 "lng_context_clear_selection" = "Clear Selection";
-"lng_send_image_empty" = "Could not send an empty file: {name}";
+"lng_send_image_empty" = "File: {name} is empty and can't be sent.";
 "lng_send_image_too_large" = "File could not be sent, because it is larger than 2 GB: {name}\n\nYou can send as many files as you like, but each must be smaller than 2 GB.";
 "lng_send_images_selected#one" = "{count} image selected";
 "lng_send_images_selected#other" = "{count} images selected";
@@ -1588,7 +1588,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_add_contact" = "Create";
 "lng_add_contact_button" = "New contact";
 "lng_contacts_header" = "Contacts";
-"lng_contact_not_joined" = "Unfortunately {name} has not joined Telegram yet, but you can send them an invitation.\n\nWe will notify you about any of your contacts who join Telegram.";
+"lng_contact_not_joined" = "Unfortunately {name} has not joined Telegram yet, but you can send them an invitation.\n\nWe will notify you when any of your contacts join Telegram.";
 "lng_try_other_contact" = "Try someone else";
 "lng_create_group_link" = "Link";
 "lng_create_group_invite_link" = "Invite link";
@@ -1634,7 +1634,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_about_text1" = "Official free messaging app based on {api_link}\nfor speed and security.";
 "lng_about_text1_api" = "Telegram API";
 "lng_about_text2" = "This software is licensed under {gpl_link} version 3.\nSource code is available on {github_link}.";
-"lng_about_text3" = "Visit {faq_link} for more info.";
+"lng_about_text3" = "Visit the {faq_link} for more info.";
 "lng_about_text3_faq" = "Telegram FAQ";
 "lng_about_done" = "Done";
 
@@ -1676,7 +1676,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_preview_users#one" = "{count} person is using this theme";
 "lng_theme_preview_users#other" = "{count} people are using this theme";
 
-"lng_new_authorization" = "{name},\nWe detected a login into your account from a new device on {day}, {date} at {time}.\n\nDevice: {device}.\nLocation: {location}.\n\nIf this wasn't you, you can go to Settings > Privacy and Security > Show all sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team.";
+"lng_new_authorization" = "{name},\nWe detected a login to your account from a new device on {day}, {date} at {time}.\n\nDevice: {device}.\nLocation: {location}.\n\nIf this wasn't you, you can go to Settings > Privacy and Security > Show all sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable Two-Step Verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team.";
 
 "lng_new_version_wrap" = "Telegram Desktop was updated to version {version}\n\n{changes}\n\nFull version history is available here:\n{link}";
 "lng_new_version_minor" = "— Bug fixes and other minor improvements";
@@ -1704,7 +1704,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_full_name" = "{first_name} {last_name}";
 
-"lng_confirm_phone_link_invalid" = "This link is broken or has expired.";
+"lng_confirm_phone_link_invalid" = "This link is broken or expired.";
 "lng_confirm_phone_title" = "Cancel account reset";
 "lng_confirm_phone_about" = "Somebody with access to your phone number {phone} has requested to delete your Telegram account and reset your 2-Step Verification password.\n\nIf this wasn't you, please enter the code we've just sent you via SMS to your number. You can also cancel this by changing your phone number to a number you control.";
 "lng_confirm_phone_success" = "Success!\n\nThe deletion process was cancelled for your account {phone}. You may close this window now.";
@@ -1714,14 +1714,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_editor_no_keys" = "No keys in the palette yet";
 "lng_theme_editor_cant_change_theme" = "You can't apply a new theme while editing the color palette. Please close the theme editor first.";
 "lng_theme_editor_new_keys" = "Not in the palette yet";
-"lng_theme_editor_background_image" = "Background image";
+"lng_theme_editor_background_image" = "Background Image";
 "lng_theme_editor_saved_to_jpg" = "Saved to JPEG, {size}";
 "lng_theme_editor_read_from_jpg" = "JPEG image, {size}";
 "lng_theme_editor_read_from_png" = "PNG image, {size}";
 "lng_theme_editor_export" = "Export";
-"lng_theme_editor_choose_image" = "Choose background image";
-"lng_theme_editor_save_palette" = "Save palette file";
-"lng_theme_editor_choose_name" = "Save theme file";
+"lng_theme_editor_choose_image" = "Choose Background Image";
+"lng_theme_editor_save_palette" = "Save Palette File";
+"lng_theme_editor_choose_name" = "Save Theme File";
 "lng_theme_editor_error" = "The editor encountered an error :( See 'log.txt' for details.";
 "lng_theme_editor_sure_close" = "Are you sure you want to close the editor? Your changes won't be saved.";
 "lng_theme_editor_need_auth" = "You need to log in to save your theme.";
@@ -1882,7 +1882,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_transfer_channel" = "Transfer channel ownership";
 "lng_rights_transfer_check" = "Security check";
 "lng_rights_transfer_check_about" = "You can transfer this group to {user} only if you have:";
-"lng_rights_transfer_check_password" = "• Enabled **2-Step Verification** more than **7 days** ago.";
+"lng_rights_transfer_check_password" = "• Enabled **Two-Step Verification** more than **7 days** ago.";
 "lng_rights_transfer_check_session" = "• Logged in on this device more than **24 hours** ago.";
 "lng_rights_transfer_check_later" = "Please come back later.";
 "lng_rights_transfer_set_password" = "Set password";
@@ -2228,7 +2228,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_only_my" = "Only my messages";
 "lng_export_header_media" = "Media export settings";
 "lng_export_option_photos" = "Photos";
-"lng_export_option_video_files" = "Video files";
+"lng_export_option_video_files" = "Videos";
 "lng_export_option_voice_messages" = "Voice messages";
 "lng_export_option_video_messages" = "Video messages";
 "lng_export_option_stickers" = "Stickers";
@@ -2341,7 +2341,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_outdated_title" = "PLEASE UPDATE YOUR OPERATING SYSTEM.";
 "lng_outdated_title_bits" = "PLEASE SWITCH TO 64 BIT OPERATING SYSTEM.";
 "lng_outdated_soon" = "Otherwise, Telegram Desktop will stop updating on {date}.";
-"lng_outdated_now" = "So that Telegram Desktop can update to newer versions.";
+"lng_outdated_now" = "So Telegram Desktop can update to newer versions.";
 
 "lng_filters_all" = "All chats";
 "lng_filters_setup" = "Edit";
@@ -3044,7 +3044,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_reverting#two" = "Reverting to the old theme in {count} seconds.";
 "lng_theme_reverting#few" = "Reverting to the old theme in {count} seconds.";
 "lng_theme_reverting#many" = "Reverting to the old theme in {count} seconds.";
-"lng_unread_bar#zero" = "{count} unread messages";
-"lng_unread_bar#two" = "{count} unread messages";
-"lng_unread_bar#few" = "{count} unread messages";
-"lng_unread_bar#many" = "{count} unread messages";
+"lng_unread_bar#zero" = "{count} Unread Messages";
+"lng_unread_bar#two" = "{count} Unread Messages";
+"lng_unread_bar#few" = "{count} Unread Messages";
+"lng_unread_bar#many" = "{count} Unread Messages";

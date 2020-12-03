@@ -104,7 +104,7 @@
 "PUSH_MESSAGES_1" = "%1$@|📷📹 Album";
 "PUSH_MESSAGES_any" = "%1$@|📷📹 Albums";
 "PUSH_ALBUM" = "%1$@|📷📹 Album";
-
+"PUSH_MESSAGE_DOCS" = "%1$@|sent you %2$d files";
 
 
 
@@ -140,7 +140,7 @@
 "PUSH_CHANNEL_MESSAGES_1" = "%1$@|📷 Album";
 "PUSH_CHANNEL_MESSAGES_any" = "%1$@|📷 Album";
 "PUSH_CHANNEL_ALBUM" = "%1$@|📷📹 Album";
-
+"PUSH_CHANNEL_MESSAGE_DOCS" = "%1$@|posted %2$d files";
 
 
 
@@ -185,7 +185,7 @@
 "PUSH_CHAT_MESSAGES_1" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 Album";
-
+"PUSH_CHAT_MESSAGE_DOCS" = "%2$@|%1$@ sent %3$d files";
 
 
 
@@ -477,7 +477,7 @@
 "Conversation.Contact" = "Contact";
 "Conversation.BlockUser" = "Block User";
 "Conversation.UnblockUser" = "Unblock User";
-"Conversation.UnsupportedMedia" = "This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update";
+"Conversation.UnsupportedMedia" = "This message is not supported by your version of Telegram. Update the app to view: https://telegram.org/update";
 "Conversation.EncryptionWaiting" = "Waiting for %@ to get online...";
 "Conversation.EncryptionProcessing" = "Exchanging encryption keys...";
 "Conversation.EmptyPlaceholder" = "No messages here yet...";
@@ -526,7 +526,7 @@
 "Notification.CreatedChatWithTitle" = "%@ created the group \"%@\"";
 "Notification.Joined" = "%@ joined Telegram";
 "Notification.ChangedGroupName" = "%@ changed the group name to \"%@\"";
-"Notification.NewAuthDetected" = "%1$@,\nWe detected a login into your account from a new device on %2$@, %3$@ at %4$@\n\nDevice: %5$@\nLocation: %6$@\n\nIf this wasn't you, you can go to Settings > Privacy and Security > Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team";
+"Notification.NewAuthDetected" = "%1$@,\nWe detected a login to your account from a new device on %2$@, %3$@ at %4$@.\n\nDevice: %5$@.\nLocation: %6$@.\n\nIf this wasn't you, you can go to Settings > Devices and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable Two-Step Verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team";
 "Notification.MessageLifetimeChanged" = "%1$@ set the self-destruct timer to %2$@";
 "Notification.MessageLifetimeChangedOutgoing" = "You set the self-destruct timer to %1$@";
 "Notification.MessageLifetimeRemoved" = "%1$@ disabled the self-destruct timer";
@@ -1974,7 +1974,7 @@
 
 "Conversation.PinMessageAlertGroup" = "Pin this message and notify all members of the group?";
 "Conversation.PinMessageAlert.OnlyPin" = "Only Pin";
-
+"Conversation.PinMessageAlert.PinAndNotifyMembers" = "Pin and notify all members";
 
 "Conversation.UnpinMessageAlert" = "Would you like to unpin this message?";
 
@@ -3873,7 +3873,7 @@ Unused sets are archived when you add more.";
 
 "AttachmentMenu.WebSearch" = "Web Search";
 
-"Conversation.UnsupportedMediaPlaceholder" = "This message is not supported on your version of Telegram. Please update to the latest version.";
+"Conversation.UnsupportedMediaPlaceholder" = "This message is not supported by your version of Telegram. Please update to the latest version.";
 "Conversation.UpdateTelegram" = "UPDATE TELEGRAM";
 
 "Cache.LowDiskSpaceText" = "Your phone has run out of available storage. Please free some space to download or upload media.";
@@ -5917,8 +5917,6 @@ Sorry for the inconvenience.";
 "Media.LimitedAccessText" = "You have limited Telegram from accessing all of your photos.";
 "Media.LimitedAccessManage" = "Manage";
 
-"VoiceChat.BackTitle" = "Chat";
-
 "VoiceChat.StatusSpeaking" = "speaking";
 "VoiceChat.StatusListening" = "listening";
 
@@ -5944,7 +5942,6 @@ Sorry for the inconvenience.";
 
 "VoiceChat.UnmutePeer" = "Allow to Speak";
 "VoiceChat.MutePeer" = "Mute";
-"VoiceChat.InvitePeer" = "Invite";
 "VoiceChat.RemovePeer" = "Remove";
 "VoiceChat.RemovePeerConfirmation" = "Are you sure you want to remove %@ from the group chat?";
 "VoiceChat.RemovePeerRemove" = "Remove";
@@ -5985,6 +5982,11 @@ Sorry for the inconvenience.";
 "CHAT_VOICECHAT_START" = "%1$@ started a voice chat in the group %2$@";
 "CHAT_VOICECHAT_INVITE" = "%1$@ invited %3$@ to a voice chat in the group %2$@";
 "CHAT_VOICECHAT_INVITE_YOU" = "%1$@ invited you to a voice chat in the group %1$@";
+
+"Call.VoiceChatInProgressTitle" = "Voice Chat in Progress";
+
+
+"Conversation.Dice.u1F3B3" = "Send a bowling emoji to try your luck.";
 
 
 /* new from translations.telegram.org */
@@ -6437,6 +6439,7 @@ Sorry for the inconvenience.";
 "Updated.MinutesAgo_any" = "%@ minutes ago";
 "Updated.TodayAt" = "today at %@";
 "Updated.YesterdayAt" = "yesterday at %@";
+"VoiceChat.InvitePeer" = "Invite";
 "VoiceOver.Chat.ContactEmailCount_0" = "%@ email addresses";
 "VoiceOver.Chat.ContactEmailCount_2" = "%@ email addresses";
 "VoiceOver.Chat.ContactEmailCount_3_10" = "%@ email addresses";

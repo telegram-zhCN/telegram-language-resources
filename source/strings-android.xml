@@ -452,7 +452,7 @@
     <string name="EditAdminTransferAlertTitle">Security Check</string>
     <string name="EditAdminTransferAlertText">You can transfer this group to **%1$s** only if you:</string>
     <string name="EditChannelAdminTransferAlertText">You can transfer this channel to **%1$s** only if you have:</string>
-    <string name="EditAdminTransferAlertText1">Enabled **2-Step Verification** more than **7 days** ago.</string>
+    <string name="EditAdminTransferAlertText1">Enabled **Two-Step Verification** more than **7 days** ago.</string>
     <string name="EditAdminTransferAlertText2">Logged in on this device more than **24 hours** ago.</string>
     <string name="EditAdminTransferAlertText3">Please come back later.</string>
     <string name="EditAdminTransferSetPassword">Set Password</string>
@@ -676,8 +676,8 @@
     <string name="EventLogStopPoll">un1 stopped the poll:</string>
     <string name="EventLogStopQuiz">un1 stopped the quiz:</string>
     <string name="EventLogDeletedMessages">un1 deleted this message:</string>
-    <string name="EventLogChangedLocation">un1 changed group location to \"%1$s\"</string>
-    <string name="EventLogRemovedLocation">un1 removed group location</string>
+    <string name="EventLogChangedLocation">un1 changed the group location to \"%1$s\"</string>
+    <string name="EventLogRemovedLocation">un1 removed the group location</string>
     <string name="EventLogChangedOwnership">transferred ownership to %1$s</string>
     <string name="EventLogChangedStickersSet">un1 changed the group sticker set</string>
     <string name="EventLogRemovedStickersSet">un1 removed the group sticker set</string>
@@ -1146,7 +1146,7 @@
     <string name="NotificationGroupKickYou">%1$s removed you from the group %2$s</string>
     <string name="NotificationGroupLeftMember">%1$s left the group %2$s</string>
     <string name="NotificationContactJoined">%1$s joined Telegram!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,\nWe detected a login into your account from a new device on %2$s\n\nDevice: %3$s\nLocation: %4$s\n\nIf this wasn\'t you, you can go to Settings - Privacy and Security - Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nWe detected a login to your account from a new device on %2$s\n\nDevice: %3$s\nLocation: %4$s\n\nIf this wasn\'t you, you can go to Settings &gt; Devices and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable Two-Step Verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team</string>
     <string name="NotificationContactNewPhoto">%1$s updated profile photo</string>
     <string name="NotificationInvitedToGroupByLink">%1$s joined to the group %2$s via invite link</string>
     <string name="NotificationGroupFew">%1$s sent %3$s to the group %2$s</string>
@@ -2893,7 +2893,7 @@
     <string name="ActionBotDocumentRentalAgreement">Rental Agreement</string>
     <string name="ActionBotDocumentPhone">Phone Number</string>
     <string name="ActionBotDocumentEmail">Email Address</string>
-    <string name="UnsupportedMedia">This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update</string>
+    <string name="UnsupportedMedia">This message is not supported by your version of Telegram. Update the app to view: https://telegram.org/update</string>
     <string name="AttachPhoto">Photo</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachDestructingPhoto">Self-Destructing Photo</string>
@@ -3153,7 +3153,7 @@
     <string name="StartMessaging">Start Messaging</string>
     <!-- VoIP -->
     <string name="AccountSettings">Account Settings</string>
-    <string name="VoipUseLessData">Use less data for calls</string>
+    <string name="VoipUseLessData">Less Data for Calls</string>
     <string name="VoipIncoming">Incoming call</string>
     <string name="VoipConnecting">Connecting</string>
     <string name="VoipExchangingKeys">Exchanging encryption keys</string>

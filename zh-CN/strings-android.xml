@@ -2437,7 +2437,7 @@
     <string name="ShareLocationAlertButton">共享</string>
     <string name="ShareLocationAlertText">请在对话中共享实时位置以保证通知生效。</string>
     <string name="ProximityTooltioUser">Alert when %1$s is close</string>
-    <string name="ProximityTooltioGroup">Alert when other members of the group are close</string>
+    <string name="ProximityTooltioGroup">当群组其他成员靠近时通知我</string>
     <string name="ProximityAlertSet">Proximity alert set</string>
     <string name="ProximityAlertSetInfoUser">We will notify you once %1$s is within %2$s from you.</string>
     <string name="ProximityAlertSetInfoGroup2">We will notify you once someone is within %1$s from you.</string>
@@ -2868,8 +2868,8 @@
     <string name="ActionAddUserSelf">un1 返回了此群组</string>
     <string name="ActionAddUserSelfMega">un1 加入了这个群组</string>
     <string name="ActionAddUserSelfYou">您返回了此群组</string>
-    <string name="ActionUserWithinRadius">un1 离你 %1$s</string>
-    <string name="ActionUserWithinYouRadius">You are now within %1$s from un1</string>
+    <string name="ActionUserWithinRadius">un1 离你 %1$s之内</string>
+    <string name="ActionUserWithinYouRadius">现在您距离 un1 约%1$s之内</string>
     <string name="ActionUserWithinOtherRadius">un1 is now within %1$s from un2</string>
     <string name="ActionUserInvitedToGroup">un1 invited you to this group</string>
     <string name="ActionUserInvitedToChannel">un1 invited you to this channel</string>
@@ -4094,5 +4094,5 @@
   <string name="formatDateScheduleDay">MMMd日EEEE</string>
   <string name="login_with_telegram">通过 Telegram 登录</string>
   <string name="telegram_passport">Telegram Passport</string>
-  <string name="LocationNotifiationButton">Notify me within %1$s</string>
+  <string name="LocationNotifiationButton">当距离 %1$s 之内时通知我</string>
 </resources>

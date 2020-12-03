@@ -1151,7 +1151,7 @@
   <string name="ShowCall">Show call</string>
   <string name="VoipOngoingAlertTitle">Another call in progress</string>
   <string name="CallInProgressDesc">You currently have an ongoing call with %1$s. Would you like to hang up on that call and start a new one with %2$s?</string>
-  <string name="VoipUseLessData">Use less data for calls</string>
+  <string name="VoipUseLessData">Less Data for Calls</string>
   <string name="UseLessDataForCallsDesc">Using less data may improve your experience on bad networks, but will slightly decrease audio quality.</string>
   <string name="VoipEndCall">End call</string>
   <string name="HangUp">Hang up</string>
