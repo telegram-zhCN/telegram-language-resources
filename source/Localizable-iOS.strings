@@ -5919,6 +5919,7 @@ Sorry for the inconvenience.";
 
 "VoiceChat.StatusSpeaking" = "speaking";
 "VoiceChat.StatusListening" = "listening";
+"VoiceChat.StatusInvited" = "invited";
 
 "VoiceChat.Connecting" = "Connecting...";
 "VoiceChat.Reconnecting" = "Reconnecting...";
@@ -5939,6 +5940,7 @@ Sorry for the inconvenience.";
 "VoiceChat.EndVoiceChat" = "End Voice Chat";
 
 "VoiceChat.CopyInviteLink" = "Copy Invite Link";
+"VoiceChat.InviteLinkCopiedText" = "Invite link copied to clipboard";
 
 "VoiceChat.UnmutePeer" = "Allow to Speak";
 "VoiceChat.MutePeer" = "Mute";
@@ -5949,10 +5951,14 @@ Sorry for the inconvenience.";
 "VoiceChat.PanelJoin" = "Join";
 "VoiceChat.Title" = "Voice Chat";
 
+"VoiceChat.InviteMember" = "Invite Member";
 "VoiceChat.UserInvited" = "You invited **%@** to the voice chat";
 
 "Notification.VoiceChatInvitation" = "%1$@ invited %2$@ to the voice chat";
 "Notification.VoiceChatInvitationForYou" = "%1$@ invited you to the voice chat";
+
+"VoiceChat.InvitedPeerText" = "You invited %@ to the voice chat";
+"VoiceChat.RemovedPeerText" = "You removed %@ from this group";
 
 "Notification.VoiceChatStarted" = "Voice chat started";
 "Notification.VoiceChatEnded" = "Voice chat ended (%@)";
@@ -5974,6 +5980,7 @@ Sorry for the inconvenience.";
 "ChannelInfo.CreateVoiceChat" = "Start Voice Chat";
 
 "VoiceChat.AnonymousDisabledAlertText" = "Sorry, you can't join voice chats as an anonymous admin.";
+"VoiceChat.ChatFullAlertText" = "Sorry, this voice chat has too many participants at the moment.";
 
 "VoiceChat.EndConfirmationTitle" = "End voice chat";
 "VoiceChat.EndConfirmationText" = "Are you sure you want to end this voice chat?";

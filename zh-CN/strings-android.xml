@@ -165,7 +165,7 @@
     <string name="DialogPin">置顶</string>
     <string name="DialogUnpin">取消置顶</string>
     <string name="Archive">归档</string>
-    <string name="ArchiveSearchFilter">Archive</string>
+    <string name="ArchiveSearchFilter">归档</string>
     <string name="Unarchive">取消归档</string>
     <string name="ArchivedChats">已归档对话</string>
     <string name="DeleteChatUser">删除对话</string>
