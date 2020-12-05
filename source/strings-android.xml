@@ -3170,10 +3170,10 @@
     <string name="VoipVoiceChat">Ongoing Voice Chat</string>
     <string name="VoipEndCall">End call</string>
     <string name="VoipOngoingAlertTitle">Another call in progress</string>
-    <string name="VoipOngoingAlert">You currently have an ongoing call with **%1$s**. Would you like to hang up and start a new one with **%2$s**?</string>
-    <string name="VoipOngoingAlert2">You currently have an ongoing call with **%1$s**. Would you like to hang up and start a new voice chat in **%2$s**?</string>
+    <string name="VoipOngoingAlert">End call with **%1$s** and start a new one with **%2$s**?</string>
+    <string name="VoipOngoingAlert2">End call with **%1$s** and start voice chat in **%2$s**?</string>
     <string name="VoipOngoingChatAlertTitle">Another voice chat in progress</string>
-    <string name="VoipOngoingChatAlert">You currently have an ongoing voice chat in **%1$s**. Would you like to hang up and start a new one in **%2$s**?</string>
+    <string name="VoipOngoingChatAlert">Leave voice chat in **%1$s** and start a new one with **%2$s**?</string>
     <string name="VoipOngoingChatAlert2">You currently have an ongoing voice chat in **%1$s**. Would you like to leave the chat and start a new call with **%2$s**?</string>
     <string name="VoipNotificationSettings">Calls</string>
     <string name="VoipSettingsRingtone">Ringtone</string>

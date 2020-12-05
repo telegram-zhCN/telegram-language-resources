@@ -3171,9 +3171,9 @@
     <string name="VoipEndCall">结束</string>
     <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
     <string name="VoipOngoingAlert">您现在正在和 **%1$s** 通话。您想要挂断此通话然后和 **%2$s** 开始一个新的通话吗？</string>
-    <string name="VoipOngoingAlert2">You currently have an ongoing call with **%1$s**. Would you like to hang up and start a new voice chat in **%2$s**?</string>
+    <string name="VoipOngoingAlert2">End call with **%1$s** and start voice chat in **%2$s**?</string>
     <string name="VoipOngoingChatAlertTitle">Another voice chat in progress</string>
-    <string name="VoipOngoingChatAlert">You currently have an ongoing voice chat in **%1$s**. Would you like to hang up and start a new one in **%2$s**?</string>
+    <string name="VoipOngoingChatAlert">Leave voice chat in **%1$s** and start a new one with **%2$s**?</string>
     <string name="VoipOngoingChatAlert2">You currently have an ongoing voice chat in **%1$s**. Would you like to leave the chat and start a new call with **%2$s**?</string>
     <string name="VoipNotificationSettings">通话</string>
     <string name="VoipSettingsRingtone">铃声</string>
