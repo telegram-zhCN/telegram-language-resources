@@ -5995,6 +5995,10 @@ Sorry for the inconvenience.";
 
 "Conversation.Dice.u1F3B3" = "Send a bowling emoji to try your luck.";
 
+"VoiceOver.Common.TapToChange" = "Tap To Change";
+"VoiceOver.Common.On" = "On";
+"VoiceOver.Common.Off" = "Off";
+
 
 /* new from translations.telegram.org */
 

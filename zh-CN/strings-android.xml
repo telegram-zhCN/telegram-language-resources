@@ -3284,7 +3284,7 @@
     <string name="StartVoipChatAlertText">Do you want to start a voice chat in this group?</string>
     <string name="StartVoipChatAlertOnlyAdmins">Only admins can talk</string>
     <string name="StartVoipChatPermission">Manage Voice Chats</string>
-    <string name="VoipChatJoin">Join</string>
+    <string name="VoipChatJoin">加入</string>
     <string name="MembersTalking_zero">%1$s members talking</string>
     <string name="MembersTalking_one">%1$s member talking</string>
     <string name="MembersTalking_two">%1$s members talking</string>
@@ -3292,14 +3292,14 @@
     <string name="MembersTalking_many">%1$s members talking</string>
     <string name="MembersTalking_other">%1$s members talking</string>
     <string name="Speaking">speaking</string>
-    <string name="Listening">listening</string>
+    <string name="Listening">接听中</string>
     <string name="VoipGroupLeave">Leave</string>
-    <string name="VoipGroupEnd">End</string>
+    <string name="VoipGroupEnd">结束</string>
     <string name="VoipGroupMuteMemberAlertTitle">Mute microphone</string>
     <string name="VoipGroupMuteMemberAlertText">Are you sure you want to mute **%1$s** in this voice chat?</string>
     <string name="VoipGroupAllCanSpeak">New participants can speak</string>
     <string name="VoipGroupOnlyAdminsCanSpeak">New participants are muted</string>
-    <string name="VoipGroupShareInviteLink">Share invite link</string>
+    <string name="VoipGroupShareInviteLink">分享邀请链接</string>
     <string name="VoipGroupEndChat">End voice chat</string>
     <string name="VoipGroupConnecting">Connecting...</string>
     <string name="VoipGroupLeaveAlertTitle">Leave voice chat</string>
@@ -3308,7 +3308,7 @@
     <string name="VoipGroupEndAlertText">Are you sure you want to end this voice chat?</string>
     <string name="VoipGroupLeaveAlertEndChat">End voice chat</string>
     <string name="VoipGroupViewVoiceChat">VIEW VOICE CHAT</string>
-    <string name="VoipGroupVoiceChat">Voice Chat</string>
+    <string name="VoipGroupVoiceChat">语音通话</string>
     <string name="VoipGroupInviteAlreadyParticipant">The selected user is already in this voice chat.</string>
     <string name="VoipGroupJoinAnonymousAdmin">Sorry, you can\'t join voice chats as an anonymous administrator.</string>
     <string name="VoipGroupInvitedToVoiceChat">un1 invited un2 to the voice chat</string>
