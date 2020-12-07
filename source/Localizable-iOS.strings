@@ -185,9 +185,8 @@
 "PUSH_CHAT_MESSAGES_1" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_MESSAGES_any" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_ALBUM" = "%2$@|%1$@: 📷📹 Album";
-"PUSH_CHAT_MESSAGE_DOCS" = "%2$@|%1$@ sent %3$d files";
-
-
+"PUSH_CHAT_MESSAGE_DOCS_FIX1_1" = "%2$@|%1$@ sent a file";
+"PUSH_CHAT_MESSAGE_DOCS_FIX1_any" = "%2$@|%1$@ sent %3$d files";
 
 "PUSH_PINNED_TEXT" = "%1$@|📌 Pinned \"%2$@\"";
 "PUSH_PINNED_NOTEXT" = "%1$@|📌 Pinned a message";
@@ -2491,10 +2490,12 @@ Unused sets are archived when you add more.";
 
 "Call.CallInProgressTitle" = "Call in Progress";
 "Call.CallInProgressMessage" = "End call with %1$@ and start a new one with %2$@?";
+
 "Call.ExternalCallInProgressMessage" = "Please finish the current call first.";
 
 "Call.VoiceChatInProgressTitle" = "Voice Chat in Progress";
 "Call.VoiceChatInProgressMessage" = "Leave the voice chat in %1$@ and start a new one with %2$@?";
+
 
 "Call.Message" = "Message";
 
@@ -5970,12 +5971,14 @@ Sorry for the inconvenience.";
 "VoiceChat.Panel.Members_3_10" = "%@ members";
 "VoiceChat.Panel.Members_many" = "%@ members";
 "VoiceChat.Panel.Members_any" = "%@ members";
-"VoiceChat.Panel.MembersSpeaking_0" = "%@ members speaking";
-"VoiceChat.Panel.MembersSpeaking_1" = "%@ member speaking";
-"VoiceChat.Panel.MembersSpeaking_2" = "%@ members speaking";
-"VoiceChat.Panel.MembersSpeaking_3_10" = "%@ members speaking";
-"VoiceChat.Panel.MembersSpeaking_many" = "%@ members speaking";
-"VoiceChat.Panel.MembersSpeaking_any" = "%@ members speaking";
+
+
+
+
+
+
+
+
 
 "ChannelInfo.CreateVoiceChat" = "Start Voice Chat";
 
@@ -5985,6 +5988,9 @@ Sorry for the inconvenience.";
 "VoiceChat.EndConfirmationTitle" = "End voice chat";
 "VoiceChat.EndConfirmationText" = "Are you sure you want to end this voice chat?";
 "VoiceChat.EndConfirmationEnd" = "End";
+
+
+
 
 "CHAT_VOICECHAT_START" = "%1$@ started a voice chat in the group %2$@";
 "CHAT_VOICECHAT_INVITE" = "%1$@ invited %3$@ to a voice chat in the group %2$@";
@@ -6382,6 +6388,11 @@ Sorry for the inconvenience.";
 "PUSH_CHAT_MESSAGES_2" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_MESSAGES_3_10" = "%2$@|%1$@: 📷 Album";
 "PUSH_CHAT_MESSAGES_many" = "%2$@|%1$@: 📷 Album";
+"PUSH_CHAT_MESSAGE_DOCS" = "%2$@|%1$@ sent %3$d files";
+"PUSH_CHAT_MESSAGE_DOCS_FIX1_0" = "%2$@|%1$@ sent %3$d files";
+"PUSH_CHAT_MESSAGE_DOCS_FIX1_2" = "%2$@|%1$@ sent %3$d files";
+"PUSH_CHAT_MESSAGE_DOCS_FIX1_3_10" = "%2$@|%1$@ sent %3$d files";
+"PUSH_CHAT_MESSAGE_DOCS_FIX1_many" = "%2$@|%1$@ sent %3$d files";
 "PUSH_CHAT_MESSAGE_FWDS_0" = "%2$@|%1$@: %3$d forwarded messages";
 "PUSH_CHAT_MESSAGE_FWDS_2" = "%2$@|%1$@: %3$d forwarded messages";
 "PUSH_CHAT_MESSAGE_FWDS_3_10" = "%2$@|%1$@: %3$d forwarded messages";
@@ -6451,6 +6462,12 @@ Sorry for the inconvenience.";
 "Updated.TodayAt" = "today at %@";
 "Updated.YesterdayAt" = "yesterday at %@";
 "VoiceChat.InvitePeer" = "Invite";
+"VoiceChat.Panel.MembersSpeaking_0" = "%@ members speaking";
+"VoiceChat.Panel.MembersSpeaking_1" = "%@ member speaking";
+"VoiceChat.Panel.MembersSpeaking_2" = "%@ members speaking";
+"VoiceChat.Panel.MembersSpeaking_3_10" = "%@ members speaking";
+"VoiceChat.Panel.MembersSpeaking_many" = "%@ members speaking";
+"VoiceChat.Panel.MembersSpeaking_any" = "%@ members speaking";
 "VoiceOver.Chat.ContactEmailCount_0" = "%@ email addresses";
 "VoiceOver.Chat.ContactEmailCount_2" = "%@ email addresses";
 "VoiceOver.Chat.ContactEmailCount_3_10" = "%@ email addresses";

@@ -188,7 +188,6 @@
 
 
 
-
 "PUSH_PINNED_TEXT" = "%1$@|📌 置顶了“%2$@”";
 "PUSH_PINNED_NOTEXT" = "%1$@|📌 置顶了一条消息";
 "PUSH_PINNED_PHOTO" = "%1$@|📌 置顶了一张图片";
@@ -2491,7 +2490,9 @@ Unused sets are archived when you add more.";
 
 "Call.CallInProgressTitle" = "正在通话中";
 "Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
+
 "Call.ExternalCallInProgressMessage" = "请先结束当前的通话。";
+
 
 
 
@@ -5759,6 +5760,11 @@ Sorry for the inconvenience.";
 "Call.AudioRouteMute" = "关闭麦克风";
 
 "AccessDenied.VideoCallCamera" = "Telegram 需要访问您的摄像机才能进行视频通话。\n\n请进入系统的 设置 > 隐私 > 相机，然后将 Telegram 设置为开。";
+
+
+
+
+
 
 
 
