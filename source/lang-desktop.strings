@@ -136,7 +136,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_start_minimized_passcoded" = "You have set a local passcode, so Telegram Desktop can't be launched minimized; it will ask you to enter your passcode before it can start working.";
 "lng_error_pinned_max#one" = "Sorry, you can only pin {count} chat to the top.";
 "lng_error_pinned_max#other" = "Sorry, you can only pin {count} chats to the top.";
-"lng_error_public_groups_denied" = "Unfortunately, you were banned from participating in public groups.\n{more_info}";
+"lng_error_public_groups_denied" = "Unfortunately, you are banned from participating in public groups.\n{more_info}";
 "lng_error_cant_add_member" = "Sorry, you can't add the bot to this group. Ask a group admin to do it.";
 "lng_error_cant_add_bot" = "Sorry, this bot can't be added to groups.";
 "lng_error_cant_add_admin_invite" = "Sorry, you can't add this user as an admin because they are not a member of this group and you are not allowed to invite them.";
@@ -235,14 +235,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_recover_hint" = "We sent a code to {recover_email}";
 "lng_signin_bad_password" = "You have entered a wrong password.";
 "lng_signin_wrong_code" = "You have entered an invalid code.";
-"lng_signin_try_password" = "Having trouble accessing your email?";
+"lng_signin_try_password" = "Unable to access your email?";
 "lng_signin_password_removed" = "Your cloud password was disabled.\nYou can set up a new one in Settings.";
 "lng_signin_no_email_forgot" = "Since you didn't provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.";
 "lng_signin_cant_email_forgot" = "If you can't restore access to the email, your remaining options are either to remember your password or to reset your account.";
 "lng_signin_reset_account" = "Reset your account";
 "lng_signin_sure_reset" = "Warning!\n\nYou will lose all your chats and messages, along with any media and files you shared!\n\nDo you want to reset your account?";
 "lng_signin_reset" = "Reset";
-"lng_signin_reset_wait" = "Since the account {phone_number} is active and protected by a password, we will delete it in 1 week for security purposes. You can cancel this process at any time.\n\nYou'll be able to reset your account in:\n{when}";
+"lng_signin_reset_wait" = "Since the account {phone_number} is active and protected by a password, it will be deleted in 1 week. This delay is required for security purposes. You can cancel this process anytime.\n\nYou'll be able to reset your account in:\n{when}";
 "lng_signin_reset_days#one" = "{count} day";
 "lng_signin_reset_days#other" = "{count} days";
 "lng_signin_reset_hours#one" = "{count} hour";
@@ -282,7 +282,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_drop_area_subtitle" = "to set it as your photo";
 
 "lng_username_title" = "Username";
-"lng_username_about" = "You can choose a username on Telegram.\nIf you do, other people will be able to find\nyou by this username and contact you\nwithout knowing your phone number.\n\nYou can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.";
+"lng_username_about" = "You can choose a username on Telegram.\nIf you do, people will be able to find\nyou by this username and contact you\nwithout needing your phone number.\n\nYou can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.";
 "lng_username_choose" = "Choose your username.";
 "lng_username_invalid" = "This username is invalid.";
 "lng_username_occupied" = "This username is already occupied.";
@@ -889,7 +889,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_share_contact" = "Share Contact";
 "lng_info_edit_contact" = "Edit contact";
 "lng_info_delete_contact" = "Delete contact";
-"lng_info_share_contact" = "Share contact";
+"lng_info_share_contact" = "Share this contact";
 "lng_profile_clear_history" = "Clear history";
 "lng_profile_delete_conversation" = "Delete chat";
 "lng_profile_block_user" = "Block user";
@@ -1103,7 +1103,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_game_score_no_game#other" = "{from} scored {count}";
 "lng_action_game_you_scored_no_game#one" = "You scored {count}";
 "lng_action_game_you_scored_no_game#other" = "You scored {count}";
-"lng_action_payment_done" = "You have just successfully transferred {amount} to {user}";
+"lng_action_payment_done" = "You successfully transferred {amount} to {user}";
 "lng_action_payment_done_for" = "You successfully transferred {amount} to {user} for {invoice}";
 "lng_action_took_screenshot" = "{from} took a screenshot!";
 "lng_action_you_took_screenshot" = "You took a screenshot!";
@@ -1148,7 +1148,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_group_not_accessible" = "Sorry, this group is not accessible.";
 "lng_group_full" = "Sorry, this group is full.";
 
-"lng_channels_too_much_public_about" = "Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels.";
+"lng_channels_too_much_public_about" = "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead.";
 "lng_channels_too_much_public_revoke_confirm_group" = "Are you sure you want to revoke the link {link}?\n\nThe group «{group}» will become private.";
 "lng_channels_too_much_public_revoke_confirm_channel" = "Are you sure you want to revoke the link {link}?\n\nThe channel «{group}» will become private.";
 "lng_channels_too_much_public_revoke" = "Revoke";
@@ -1947,7 +1947,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_about_text" = "This is a list of all service actions taken by the group's members and admins in the last 48 hours.";
 "lng_admin_log_about_text_channel" = "This is a list of all service actions taken by the channel's admins in the last 48 hours.";
 "lng_admin_log_no_results_title" = "No actions found";
-"lng_admin_log_no_results_text" = "No recent actions that match your query have been found.";
+"lng_admin_log_no_results_text" = "No recent actions that match your query were found.";
 "lng_admin_log_no_results_search_text" = "No recent actions that contain '{query}' have been found.";
 "lng_admin_log_no_events_title" = "No actions yet";
 "lng_admin_log_no_events_text" = "There were no service actions\ntaken by the group's members\nand admins in the last 48 hours.";

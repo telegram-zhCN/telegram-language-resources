@@ -779,7 +779,7 @@
   <string name="SinceNotProvided">Since you didn\'t provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.</string>
   <string name="PendingEmailText">Your recovery email %1$s is not yet active and pending confirmation.</string>
   <string name="CreateAHintForYourPassword">Create a hint for your password</string>
-  <string name="HavingTroubleAccessing">Having trouble accessing your email\n%1$s?</string>
+  <string name="HavingTroubleAccessing">Unable to access %1$s?</string>
   <string name="RestoreEmailTroubleText">If you can\'t restore access to your email, your remaining options are either to remember your password or to reset your account.</string>
   <string name="EnterCode">Enter code</string>
   <string name="PasswordRecovery">Password Recovery</string>
@@ -919,8 +919,8 @@
   <string name="UsernameInvalid">Sorry, this username is invalid.</string>
   <string name="UsernameInvalidShort">A username must have at least 5 characters.</string>
   <string name="UsernameInvalidLong">The username must not exceed 32 characters.</string>
-  <string name="UsernameInvalidStartNumber">Sorry, a username can\'t start with a number.</string>
-  <string name="UsernameHelp">You can choose a username on **Telegram**. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
+  <string name="UsernameInvalidStartNumber">Usernames can\'t start with a number.</string>
+  <string name="UsernameHelp">You can choose a username on **Telegram**. If you do, people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use **a–z**, **0–9** and underscores.\nMinimum length is **5** characters.</string>
   <string name="UsernameChecking">Checking username…</string>
   <string name="UsernameAvailable">%1$s is available.</string>
   <string name="UsernameCurrent">%1$s is your current username.</string>
@@ -1439,7 +1439,7 @@
   <string name="EventLogEmptyFilter">Please specify at least one filter</string>
   <string name="EventLogEmpty">**No actions here yet**\n\nThe group\'s members and admins\nhave not taken any service actions\nin the last 48 hours.</string>
   <string name="EventLogEmptyChannel">**No actions here yet**\n\nThe channel\'s admins\nhave not taken any service actions\nin the last 48 hours.</string>
-  <string name="EventLogEmptySearch">**No actions found**\n\nNo recent actions that match your query\nhave been found.</string>
+  <string name="EventLogEmptySearch">**No actions found**\n\nNo recent actions that match your query\nwere found.</string>
   <string name="EventLogEmptyTextSearch">No recent actions that contain \'%1$s\' have been found.</string>
   <string name="EventLogInfoTitle">What is the Recent Actions?</string>
   <string name="EventLogInfoDetail">This is a list of all service actions taken by the group\'s members and admins in the last 48 hours.</string>
@@ -1558,8 +1558,8 @@
   <string name="UseRearRoundVideos">Start with rear-facing camera</string>
   <string name="EMail">Email</string>
   <string name="Beginning">Beginning</string>
-  <string name="PaymentSuccessfullyPaid">You have just successfully transferred %1$s to %2$s for %3$s</string>
-  <string name="PaymentSuccessfullyPaidNoItem">You have just successfully transferred %1$s to %2$s</string>
+  <string name="PaymentSuccessfullyPaid">You successfully transferred %1$s to %2$s for %3$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">You successfully transferred %1$s to %2$s</string>
   <string name="OpenMessage">View Message</string>
   <string name="SavedMessages">Saved Messages</string>
   <string name="Saved">Saved</string>

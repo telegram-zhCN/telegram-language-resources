@@ -544,14 +544,14 @@
 "Chat.List.Photo1_many" = "%d Photos";
 "Chat.List.Photo1_other" = "%d Photos";
 
-"UsernameSettings.ChangeDescription" = "People will be able to find you by this username and contact you without needing your phone number.\n\nYou can use a–z, 0–9 and underscores.\nMinimum length is 5 characters.";
+"UsernameSettings.ChangeDescription" = "You can choose a username on Telegram. If you do, people will be able to find you by this username and contact you without needing your phone number.\n\n\nYou can use a-z, 0-9 and underscores. Minimum length is 5 characters.";
 "UsernameSettings.InputPlaceholder" = "Enter your username";
 "Telegram.UsernameSettingsViewController" = "Username";
 "UsernameSettings.available" = "%@ is available";
 
 "Error.Username.UnderscopeStart" = "A username can't start with an underscore.";
 "Error.Username.UnderscopeEnd" = "A username can't end with an underscore.";
-"Error.Username.NumberStart" = "A username can't start with a number.";
+"Error.Username.NumberStart" = "Usernames can't start with a number.";
 "Error.Username.Invalid" = "This username is invalid.";
 "Error.Username.MinimumLength" = "A username must have at least 5 characters.";
 "Error.Username.AlreadyTaken" = "This username is already taken.";
@@ -602,7 +602,7 @@
 "Channel.PrivateAboutGroup" = "Private groups can only be joined if you were invited or have an invite link.";
 "Channel.PublicAboutGroup" = "Public groups can be found in search, their chat history is available to everyone and anyone can join.";
 
-"Channel.PublicNamesLimitError" = "Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead";
+"Channel.PublicNamesLimitError" = "You have reserved too many public links. Try revoking the link from an older group or channel, or create a private one instead.";
 
 
 "Channel.ExportLinkAboutChannel" = "People can join your channel by following this link. You can revoke the link at any time.";
@@ -1646,7 +1646,7 @@
 
 "Group.EventLog.EmptyText" = "**No events here yet**\n\nThere were no service actions taken by the group's members and admins for the last 48 hours.";
 "Channel.EventLog.EmptyText" = "**No events here yet**\n\nThere were no service actions taken by the channel's members and admins for the last 48 hours.";
-"Channel.EventLog.EmptySearch" = "** No actions found**\n\nNo recent actions that match your query have been found.";
+"Channel.EventLog.EmptySearch" = "** No actions found**\n\nNo recent actions that match your query were found.";
 
 "ChannelBlacklist.Restricted" = "RESTRICTED";
 "ChannelBlacklist.Blocked" = "BLOCKED";
@@ -1952,9 +1952,9 @@
 "TwoStepAuth.RecoveryCodeHelp" = "Please check your email and enter the 6-digit code we've sent there to deactivate your cloud password.";
 "TwoStepAuth.RecoveryCodeInvalid" = "Invalid code. Please try again.";
 "TwoStepAuth.RecoveryCodeExpired" = "Code Expired";
-"TwoStepAuth.RecoveryEmailUnavailableNew" = "Having trouble accessing your email\n[%@]()?";
+"TwoStepAuth.RecoveryEmailUnavailableNew" = "Unable to access your email\n[%@]()?";
 
-"TwoStepAuth.ResetDescription" = "Since the account **%@** is active and protected by a password, we will delete it in 1 week for security purposes.\n\nYou can cancel this process at any time.\n\nYou'll be able to reset your account in:\n%@";
+"TwoStepAuth.ResetDescription" = "Since the account **%@** is active and protected by a password, it will be deleted in 1 week. This delay is required for security purposes.\n\nYou can cancel this process anytime.\n\nYou'll be able to reset your account in:\n%@";
 
 
 "TwoStepAuth.ConfirmEmailCodeDesc" = "Please enter the code we've just emailed to %@.";
@@ -2371,7 +2371,7 @@
 "SecureId.PhoneNumber.Note" = "Note: You will receive a confirmation code on the phone number you provide.";
 "SecureId.PhoneNumber.Header" = "OR ENTER ANOTHER PHONE NUMBER";
 
-"SecureId.InsertPassword.Settings.Description" = "Please enter your Telegram password to decrypt your data";
+"SecureId.InsertPassword.Settings.Description" = "Enter your Telegram password to decrypt your data";
 
 
 "SecureId.Email.UseSame" = "Use %@";
@@ -4542,7 +4542,7 @@
 "Chat.Service.Group.RemovedMembers" = "%@ removed %@";
 "Chat.Service.Group.UpdatedPinnedMessage" = "%@ pinned \"%@\"";
 "Chat.Service.Group.UpdatedTitle" = "%@ changed the group name to \"%@\"";
-"Chat.Service.PaymentSent" = "You have successfully transferred **%@** to **%@** for **%@**";
+"Chat.Service.PaymentSent" = "You successfully transferred **%@** to **%@** for **%@**";
 "Chat.Webpage.MediaCount" = "%d of %d";
 "ChatList.Context.PinErrorNew" = "Sorry, you can only pin 5 chats to the top.";
 "Discussion.Set.Modal.Text.Private" = "Do you want to make **%@** the discussion board for **%@**?\n\nAny member of this group will be able to see all messages in the channel.";
