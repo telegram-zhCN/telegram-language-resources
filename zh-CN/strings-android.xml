@@ -719,7 +719,7 @@
     <string name="EventLogPromotedAddAdmins">添加管理员</string>
     <string name="EventLogPromotedSendAnonymously">匿名发送</string>
     <string name="EventLogPromotedBanUsers">封禁用户</string>
-    <string name="EventLogPromotedManageCall">Manage voice chats</string>
+    <string name="EventLogPromotedManageCall">管理语音聊天</string>
     <string name="EventLogPromotedAddUsers">添加成员</string>
     <string name="EventLogPromotedTitle">头衔：%1$s</string>
     <string name="EventLogPromotedRemovedTitle">头衔</string>
@@ -3259,8 +3259,8 @@
     <string name="VoipUnmute">麦克风</string>
     <string name="VoipHoldAndTalk">或保持通话</string>
     <string name="VoipTapToMute">你正在说话</string>
-    <string name="VoipMutedByAdmin">Muted by admin</string>
-    <string name="VoipMutedByAdminInfo">You are in Listen Only Mode</string>
+    <string name="VoipMutedByAdmin">被管理员静音</string>
+    <string name="VoipMutedByAdminInfo">你处于只听模式</string>
     <string name="VoipMute">麦克风</string>
     <string name="VoipStartVideo">摄像头</string>
     <string name="VoipStopVideo">摄像头</string>
@@ -3291,9 +3291,9 @@
     <string name="MembersTalking_few">%1$s members talking</string>
     <string name="MembersTalking_many">%1$s members talking</string>
     <string name="MembersTalking_other">%1$s members talking</string>
-    <string name="Speaking">speaking</string>
+    <string name="Speaking">发言中</string>
     <string name="Listening">接听中</string>
-    <string name="VoipGroupLeave">Leave</string>
+    <string name="VoipGroupLeave">挂断</string>
     <string name="VoipGroupEnd">结束</string>
     <string name="VoipGroupMuteMemberAlertTitle">静音麦克风</string>
     <string name="VoipGroupMuteMemberAlertText">Are you sure you want to mute **%1$s** in this voice chat?</string>
