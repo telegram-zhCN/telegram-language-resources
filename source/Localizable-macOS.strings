@@ -2911,7 +2911,7 @@
 
 
 "ApplyLanguage.ChangeLanguageTitle" = "Change Language?";
-"ApplyLanguage.ChangeLanguageUnofficialText1" = "You are about to apply a custom language pack **%1$@** that is %2$@%% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
+"ApplyLanguage.ChangeLanguageUnofficialText1" = "You are about to apply a custom language pack **%1$@** that is %2$@% complete.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageOfficialText" = "You are about to apply a language pack **%@**.\n\nThis will translate the entire interface. You can suggest corrections in the [translation panel]().\n\nYou can change your language back at any time in Settings.";
 "ApplyLanguage.ChangeLanguageAction" = "Change";
 "ApplyLanguage.ApplyLanguageAction" = "Change";
