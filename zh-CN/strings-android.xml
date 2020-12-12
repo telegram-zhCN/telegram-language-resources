@@ -734,8 +734,15 @@
     <string name="EventLogFilterEditedMessages">消息编辑</string>
     <string name="EventLogFilterPinnedMessages">消息置顶</string>
     <string name="EventLogFilterLeavingMembers">成员退出</string>
+    <string name="EventLogFilterCalls">Voice chats</string>
     <string name="EventLogToggledSlowmodeOn">un1 将慢速模式定时器设置为 %1$s</string>
     <string name="EventLogToggledSlowmodeOff">un1 禁用了慢速模式</string>
+    <string name="EventLogStartedVoiceChat">un1 started a voice chat</string>
+    <string name="EventLogEndedVoiceChat">un1 ended the voice chat</string>
+    <string name="EventLogVoiceChatMuted">un1 muted un2</string>
+    <string name="EventLogVoiceChatUnmuted">un1 unmuted un2</string>
+    <string name="EventLogVoiceChatAllowedToSpeak">un1 allowed new participants to speak</string>
+    <string name="EventLogVoiceChatNotAllowedToSpeak">un1 muted new participants</string>
     <!--broadcasts-->
     <string name="NewBroadcastList">新建群发列表</string>
     <string name="EnterListName">输入列表名称</string>
@@ -2874,6 +2881,7 @@
     <string name="ActionUserInvitedToGroup">un1 invited you to this group</string>
     <string name="ActionUserInvitedToChannel">un1 invited you to this channel</string>
     <string name="ActionGroupCallStarted">un1 started a voice chat</string>
+    <string name="ActionGroupCallStartedByYou">You started a voice chat</string>
     <string name="ActionGroupCallEnded">Voice chat ended (%s)</string>
     <string name="ActionGroupCallInvited">un1 invited un2 to the voice chat</string>
     <string name="ActionGroupCallYouInvited">You invited un2 to the voice chat</string>
@@ -3052,9 +3060,12 @@
     <string name="PermissionNoLocation">Telegram 需要使用定位服务才能获取您的地址并分享给您的朋友。</string>
     <string name="PermissionNoLocationPosition">Telegram 需要获取您的定位服务权限</string>
     <string name="PermissionDrawAboveOtherApps">Telegram 需要使用出现在其他应用上的权限以在画中画模式中播放视频。</string>
+    <string name="PermissionDrawAboveOtherAppsGroupCall">Overlay mode lets you use push-to-talk and see who is talking even when you are outside of Telegram.</string>
     <string name="PermissionOpenSettings">设置</string>
     <string name="PermissionXiaomiLockscreen">请授予 Telegram 在锁屏界面显示的权限以确保通话正常工作。</string>
     <string name="PermissionBackgroundLocation">为了能够在此聊天共享您的实时位置，Telegram 需要随时访问您的位置权限，包括应用在后台运行时。\n\n我们将会在您设定时间范围内访问您的位置权限，您随时可以终止位置共享。除了位置分享之外，我们不会把您的位置权限用于其它目的。</string>
+    <string name="PermissionDrawAboveOtherAppsTitle">Picture-in-Picture</string>
+    <string name="PermissionDrawAboveOtherAppsGroupCallTitle">Voice chat overlay</string>
     <!--charts-->
     <string name="GrowthChartTitle">增长</string>
     <string name="FollowersChartTitle">订阅者</string>
@@ -3191,7 +3202,9 @@
     <string name="VoipAnswerCall">接听</string>
     <string name="VoipDeclineCall">拒绝</string>
     <string name="VoipOffline">您现在正处于离线状态。请连接至互联网后再进行通话。</string>
+    <string name="VoipGroupOffline">You\'re currently offline. Please connect to the Internet to join voice chats.</string>
     <string name="VoipOfflineAirplane">您现在正处于飞行模式。请关闭它或者连接到 Wi-Fi 后再进行通话。</string>
+    <string name="VoipGroupOfflineAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi to join voice chats.</string>
     <string name="VoipOfflineTitle">离线</string>
     <string name="VoipOfflineAirplaneTitle">飞行模式</string>
     <string name="VoipOfflineOpenSettings">设置</string>
@@ -3282,7 +3295,6 @@
     <string name="StartVoipChat">Start Voice chat</string>
     <string name="StartVoipChatTitle">Voice Chat</string>
     <string name="StartVoipChatAlertText">Do you want to start a voice chat in this group?</string>
-    <string name="StartVoipChatAlertOnlyAdmins">Only admins can talk</string>
     <string name="StartVoipChatPermission">Manage Voice Chats</string>
     <string name="VoipChatJoin">加入</string>
     <string name="MembersTalking_zero">%1$s members talking</string>
@@ -3293,10 +3305,17 @@
     <string name="MembersTalking_other">%1$s members talking</string>
     <string name="Speaking">发言中</string>
     <string name="Listening">接听中</string>
+    <string name="Invited">invited</string>
     <string name="VoipGroupLeave">挂断</string>
     <string name="VoipGroupEnd">结束</string>
     <string name="VoipGroupMuteMemberAlertTitle">静音麦克风</string>
     <string name="VoipGroupMuteMemberAlertText">Are you sure you want to mute **%1$s** in this voice chat?</string>
+    <string name="VoipGroupRemoveMemberAlertTitle">Remove member</string>
+    <string name="VoipGroupRemoveMemberAlertText">Do you want to remove %1$s from the group chat?</string>
+    <string name="VoipGroupRemovedFromGroup">**%1$s** removed from the group.</string>
+    <string name="VoipGroupUserCanNowSpeak">**%1$s** can now speak.</string>
+    <string name="VoipGroupUserCantNowSpeak">**%1$s** is now muted in this chat.</string>
+    <string name="VoipGroupMute">Mute</string>
     <string name="VoipGroupAllCanSpeak">新加入者可发言</string>
     <string name="VoipGroupOnlyAdminsCanSpeak">新加入者禁言</string>
     <string name="VoipGroupShareInviteLink">分享邀请链接</string>
@@ -3314,6 +3333,18 @@
     <string name="VoipGroupInvitedToVoiceChat">un1 invited un2 to the voice chat</string>
     <string name="VoipGroupJoinCall">Join voice chat</string>
     <string name="VoipGroupInviteText">嘿!加入我们的语音通话%1$s</string>
+    <string name="VoipGroupInviteMember">Invite Members</string>
+    <string name="VoipGroupUserRemove">Remove</string>
+    <string name="VoipGroupAllowToSpeak">Allow to speak</string>
+    <string name="VoipGroupSearchMembers">Search members to invite...</string>
+    <string name="VoipGroupCopyInviteLink">Copy Invite Link</string>
+    <string name="VoipGroupCopyInviteLinkCopied">Invite link copied to clipboard.</string>
+    <string name="VoipGroupUnmute">Unmute</string>
+    <string name="VoipGroupEndedStartNew">Voice chat ended. Start a new one?</string>
+    <string name="VoipGroupAddMemberTitle">Add Member</string>
+    <string name="VoipGroupAddMemberText">Do you want to add **%1$s** to **%2$s**?</string>
+    <string name="VoipGroupInvitedUser">You invited **%1$s** to the voice chat.</string>
+    <string name="VoipGroupAdd">Add</string>
     <string name="MembersTalkingNobody">没人在通话</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">消息 %1$s</string>
@@ -3969,6 +4000,7 @@
     <string name="RemindTodayAt">\'在今天\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayAt">\'在\' M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
     <string name="RemindDayYearAt">\'在\' yyyy\'年\'M\'月\'d\'日\' HH:mm \'时提醒我\'</string>
+    <string name="Enable">Enable</string>
 
   <!-- new from translations.telegram.org -->
 

@@ -734,8 +734,15 @@
     <string name="EventLogFilterEditedMessages">Edited messages</string>
     <string name="EventLogFilterPinnedMessages">Pinned messages</string>
     <string name="EventLogFilterLeavingMembers">Leaving members</string>
+    <string name="EventLogFilterCalls">Voice chats</string>
     <string name="EventLogToggledSlowmodeOn">un1 set the slow mode timer to %1$s</string>
     <string name="EventLogToggledSlowmodeOff">un1 disabled the slow mode</string>
+    <string name="EventLogStartedVoiceChat">un1 started a voice chat</string>
+    <string name="EventLogEndedVoiceChat">un1 ended the voice chat</string>
+    <string name="EventLogVoiceChatMuted">un1 muted un2</string>
+    <string name="EventLogVoiceChatUnmuted">un1 unmuted un2</string>
+    <string name="EventLogVoiceChatAllowedToSpeak">un1 allowed new participants to speak</string>
+    <string name="EventLogVoiceChatNotAllowedToSpeak">un1 muted new participants</string>
     <!--broadcasts-->
     <string name="NewBroadcastList">New Broadcast List</string>
     <string name="EnterListName">Enter list name</string>
@@ -2874,6 +2881,7 @@
     <string name="ActionUserInvitedToGroup">un1 invited you to this group</string>
     <string name="ActionUserInvitedToChannel">un1 invited you to this channel</string>
     <string name="ActionGroupCallStarted">un1 started a voice chat</string>
+    <string name="ActionGroupCallStartedByYou">You started a voice chat</string>
     <string name="ActionGroupCallEnded">Voice chat ended (%s)</string>
     <string name="ActionGroupCallInvited">un1 invited un2 to the voice chat</string>
     <string name="ActionGroupCallYouInvited">You invited un2 to the voice chat</string>
@@ -3052,9 +3060,12 @@
     <string name="PermissionNoLocation">Telegram needs access to your location so that you can share it with your friends.</string>
     <string name="PermissionNoLocationPosition">Telegram needs access to your location.</string>
     <string name="PermissionDrawAboveOtherApps">Telegram needs access to draw above other apps to play videos in Picture-in-Picture mode.</string>
+    <string name="PermissionDrawAboveOtherAppsGroupCall">Overlay mode lets you use push-to-talk and see who is talking even when you are outside of Telegram.</string>
     <string name="PermissionOpenSettings">SETTINGS</string>
     <string name="PermissionXiaomiLockscreen">Please allow Telegram to be shown on the lock screen so that calls can work properly.</string>
     <string name="PermissionBackgroundLocation">To share your live location in this chat, Telegram needs access to your location all the time, including while the app is in the background.\n\nWe will access your location only for the duration you choose, and you can stop sharing it any time. We won\'t use your location for any purpose other than sharing it in this chat.</string>
+    <string name="PermissionDrawAboveOtherAppsTitle">Picture-in-Picture</string>
+    <string name="PermissionDrawAboveOtherAppsGroupCallTitle">Voice chat overlay</string>
     <!--charts-->
     <string name="GrowthChartTitle">Growth</string>
     <string name="FollowersChartTitle">Followers</string>
@@ -3191,7 +3202,9 @@
     <string name="VoipAnswerCall">Answer</string>
     <string name="VoipDeclineCall">Decline</string>
     <string name="VoipOffline">You\'re currently offline. Please connect to the Internet in order to make calls.</string>
+    <string name="VoipGroupOffline">You\'re currently offline. Please connect to the Internet to join voice chats.</string>
     <string name="VoipOfflineAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to make calls.</string>
+    <string name="VoipGroupOfflineAirplane">You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi to join voice chats.</string>
     <string name="VoipOfflineTitle">Offline</string>
     <string name="VoipOfflineAirplaneTitle">Airplane Mode</string>
     <string name="VoipOfflineOpenSettings">Settings</string>
@@ -3282,7 +3295,6 @@
     <string name="StartVoipChat">Start Voice chat</string>
     <string name="StartVoipChatTitle">Voice Chat</string>
     <string name="StartVoipChatAlertText">Do you want to start a voice chat in this group?</string>
-    <string name="StartVoipChatAlertOnlyAdmins">Only admins can talk</string>
     <string name="StartVoipChatPermission">Manage Voice Chats</string>
     <string name="VoipChatJoin">Join</string>
     <string name="MembersTalking_zero">%1$s members talking</string>
@@ -3293,10 +3305,17 @@
     <string name="MembersTalking_other">%1$s members talking</string>
     <string name="Speaking">speaking</string>
     <string name="Listening">listening</string>
+    <string name="Invited">invited</string>
     <string name="VoipGroupLeave">Leave</string>
     <string name="VoipGroupEnd">End</string>
     <string name="VoipGroupMuteMemberAlertTitle">Mute microphone</string>
     <string name="VoipGroupMuteMemberAlertText">Are you sure you want to mute **%1$s** in this voice chat?</string>
+    <string name="VoipGroupRemoveMemberAlertTitle">Remove member</string>
+    <string name="VoipGroupRemoveMemberAlertText">Do you want to remove %1$s from the group chat?</string>
+    <string name="VoipGroupRemovedFromGroup">**%1$s** removed from the group.</string>
+    <string name="VoipGroupUserCanNowSpeak">**%1$s** can now speak.</string>
+    <string name="VoipGroupUserCantNowSpeak">**%1$s** is now muted in this chat.</string>
+    <string name="VoipGroupMute">Mute</string>
     <string name="VoipGroupAllCanSpeak">New participants can speak</string>
     <string name="VoipGroupOnlyAdminsCanSpeak">New participants are muted</string>
     <string name="VoipGroupShareInviteLink">Share invite link</string>
@@ -3314,6 +3333,18 @@
     <string name="VoipGroupInvitedToVoiceChat">un1 invited un2 to the voice chat</string>
     <string name="VoipGroupJoinCall">Join voice chat</string>
     <string name="VoipGroupInviteText">Hey! Join our voice chat: %1$s</string>
+    <string name="VoipGroupInviteMember">Invite Members</string>
+    <string name="VoipGroupUserRemove">Remove</string>
+    <string name="VoipGroupAllowToSpeak">Allow to speak</string>
+    <string name="VoipGroupSearchMembers">Search members to invite...</string>
+    <string name="VoipGroupCopyInviteLink">Copy Invite Link</string>
+    <string name="VoipGroupCopyInviteLinkCopied">Invite link copied to clipboard.</string>
+    <string name="VoipGroupUnmute">Unmute</string>
+    <string name="VoipGroupEndedStartNew">Voice chat ended. Start a new one?</string>
+    <string name="VoipGroupAddMemberTitle">Add Member</string>
+    <string name="VoipGroupAddMemberText">Do you want to add **%1$s** to **%2$s**?</string>
+    <string name="VoipGroupInvitedUser">You invited **%1$s** to the voice chat.</string>
+    <string name="VoipGroupAdd">Add</string>
     <string name="MembersTalkingNobody">Nobody talking</string>
     <!--contacts shortcuts-->
     <string name="ContactShortcutMessage">Message %1$s</string>
@@ -3969,6 +4000,7 @@
     <string name="RemindTodayAt">\'Remind today at\' HH:mm</string>
     <string name="RemindDayAt">\'Remind on\' MMM d \'at\' HH:mm</string>
     <string name="RemindDayYearAt">\'Remind on\' MMM d yyyy \'at\' HH:mm</string>
+    <string name="Enable">Enable</string>
 
   <!-- new from translations.telegram.org -->
 
