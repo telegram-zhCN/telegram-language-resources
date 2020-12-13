@@ -2687,6 +2687,7 @@ Unused sets are archived when you add more.";
 "Channel.AdminLogFilter.EventsEditedMessages" = "消息编辑";
 "Channel.AdminLogFilter.EventsPinned" = "消息置顶";
 "Channel.AdminLogFilter.EventsLeaving" = "成员退出";
+
 "Channel.AdminLogFilter.AdminsTitle" = "管理员";
 "Channel.AdminLogFilter.AdminsAll" = "所有管理员";
 
